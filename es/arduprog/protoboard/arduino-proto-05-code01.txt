@@ -1,0 +1,23 @@
+﻿// Define el pin de cada componente
+int LED_VERDE = 3;
+int LED_ROJO = 5;
+int POT = A0;
+
+// Ejecuta una sola vez las siguientes instrucciones
+void setup() {
+   // Los ledes se conectan a salidas
+   pinMode(LED_VERDE, OUTPUT);
+   pinMode(LED_ROJO, OUTPUT);
+}
+
+// Repite para siempre las siguientes instrucciones
+void loop() {
+   // Lee el valor del potenciómetro (0-1023)
+   int pot_value = analogRead(POT);
+
+   // Escribe el valor del potenciómetro en el led rojo
+   analogWrite(LED_ROJO, pot_value/4);
+
+   // Escribe el valor contrario en el led verde
+   analogWrite(LED_VERDE, 255-pot_value/4);
+}

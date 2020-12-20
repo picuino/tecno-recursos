@@ -1,0 +1,37 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-head:
+
+Encabezados de distintos niveles
+================================
+En esta práctica veremos cómo estructurar un contenido con 
+encabezados de diferente nivel.
+
+En una misma página web no es recomendable utilizar más de cuatro
+niveles de encabezados. El objetivo de los encabezados es 
+estructurar el contenido para que sea más sencillo de comprender.
+Si se utilizan demasiadas divisiones, la comprensión se hace más
+difícil.
+
+Etiquetas utilizadas
+--------------------
+{{ macros.tag('h1') }}
+{{ macros.tag('h2') }}
+{{ macros.tag('h3') }}
+{{ macros.tag('h4') }}
+
+
+Código de la página
+-------------------
+
+.. image:: html/_thumbs/html-head-html.png
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-head-web.png
+

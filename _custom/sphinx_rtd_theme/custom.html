@@ -1,0 +1,22 @@
+
+	<!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>

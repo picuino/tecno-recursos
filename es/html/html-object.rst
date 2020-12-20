@@ -1,0 +1,43 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-object:
+
+Objetos externos
+================
+
+
+Etiquetas utilizadas
+--------------------
+
+{{ macros.tag('object') }}
+{{ macros.tag('iframe') }}
+
+| Descargas:
+| :download:`Página HTML a insertar. <html/html-object2.html>`
+
+Código Youtube.
+
+.. code-block:: html
+
+   <!-- Vídeo de Youtube insertado -->
+   <iframe width="320" height="180" 
+   src="https://www.youtube.com/embed/cqMfPS8jPys" 
+   frameborder="0" allow="accelerometer; autoplay; 
+   encrypted-media; gyroscope; picture-in-picture" 
+   allowfullscreen></iframe>
+
+
+Código de la página
+-------------------
+
+.. image:: html/_thumbs/html-object-html.png
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-object-youtube-web.png
+

@@ -1,0 +1,39 @@
+# Opciones
+SetEnv TZ Europe/Madrid
+
+RewriteEngine On
+
+# Seguridad: block UserAgent libwww-perl?
+#RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+#RewriteRule .* – [F,L]
+
+# Force SSL and WWW
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^picuino.com$ [NC]
+RewriteRule ^ https://www.picuino.com%{REQUEST_URI} [L,NE,R=301]
+
+# Redirecciones nov-2018
+Redirect 301 /es/arduprog/communication-index.html  https://www.picuino.com/es/arduprog/comm-index.html
+Redirect 301 /es/arduprog/prog-pc-control.html  https://www.picuino.com/es/arduprog/comm-pc-control.html
+Redirect 301 /es/contenidos.html  https://www.picuino.com/es/index.html
+Redirect 301 /contents.html  https://www.picuino.com/es/index.html
+Redirect 301 /es/tecno/index.html  https://www.picuino.com/es/index.html
+
+# Redirecciones ago-2019
+Redirect 301 /es/html/  https://www.picuino.com/es/  
+
+
+# Duración de la caché
+<ifModule mod_expires.c>
+<Filesmatch "\.(jpg|jpeg|png|svg|ico|gif|ttf|htm|html|xml|txt|css|js|php|swf|woff2)$">
+    ExpiresActive on
+    ExpiresDefault "access plus 7 days"
+</Filesmatch>
+</ifModule>
+
+# Comprimir contenido
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI "\.(?:jpeg|jpg|png|gif|zip|pdf)$" no-gzip
+
+# Error 404
+ErrorDocument 404 /error-404.html

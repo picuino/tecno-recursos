@@ -1,0 +1,507 @@
+ <!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es-es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es-es" > <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tecno Recursos. Recursos educativos para Tecnología" />
+
+  
+  <title>Solución de problemas - Recursos - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/es/arduprog/troubleshooting.html"/>
+
+  
+  
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Buscar en Picuino"
+            href="../../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="next" title="Descargas" href="downloads.html" />
+    <link rel="prev" title="Componentes para realizar proyectos con Arduino" href="component-kit.html" /> 
+
+  <script src="../../_static/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+  
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tecno Recursos</a>
+      </nav>
+	  
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Arduino</a> &raquo;</li>
+        
+          <li><a href="resource-index.html">Recursos</a> &raquo;</li>
+        
+      <li>Solución de problemas</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/es/arduprog/troubleshooting.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="solucion-de-problemas">
+<span id="troubleshooting"></span><h1>Solución de problemas<a class="headerlink" href="#solucion-de-problemas" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Lo más habitual es que los programas y circuitos no funcionen en el
+primer intento.
+Esto le ocurre hasta a los más experimentados, nadie se libra de la
+<a class="reference external" href="https://es.wikipedia.org/wiki/Ley_de_Murphy">ley de Murphy</a>.</p>
+<p>Los fallos más frecuentes y también los más difíciles de encontrar,
+suelen ser a su vez los más simples.
+Son fallos del tipo ¿por qué no funciona esta televisión? sin darse
+cuenta de que no está conectada.</p>
+<p>A continuación se presenta una lista de los errores más comunes para
+que pueda servir de guía para encontrar esos fallos que se resisten y
+tanto trabajo dan.</p>
+<div class="section" id="esta-conectado">
+<h2>¿Está Conectado?<a class="headerlink" href="#esta-conectado" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Hay múltiples versiones de este fallo tan común.
+En este punto hay que destacar que la comprobación debe hacerse de
+forma que se asegure la buena conexión con total fiabilidad.
+No basta con mirar si el cable está en su sitio. También hay que
+comprobar que existe continuidad, se debe comprobar con un polímetro
+que llega la señal y que no hay otras conexiones indeseadas, como un
+cortocircuito.
+Antes de continuar buscando fallos más complejos debe quedar
+completamente comprobado que la conexión es correcta.
+A continuación se encuentra una lista con versiones muy comunes de
+este problema.</p>
+</div>
+<div class="section" id="esta-conectada-la-alimentacion-y-tiene-la-tension-correcta">
+<h2>¿Está conectada la alimentación y tiene la tensión correcta?<a class="headerlink" href="#esta-conectada-la-alimentacion-y-tiene-la-tension-correcta" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La comprobación más sencilla y más segura consiste en medir la
+tensión de alimentación del circuito con un polímetro.
+Si el circuito dispone de un led para comprobar la presencia de
+alimentación también servirá de ayuda, pero con un led no se puede
+asegurar que la tensión es la correcta.</p>
+<p>En general no es suficiente saber que el circuito está conectado,
+porque esto puede despistar.
+Imaginemos una placa conectada a un cable USB que la alimenta.
+Evidentemente la placa está conectada, pero
+¿Está conectado el otro extremo del cable?
+¿El hub al que está conectado el cable está a su vez conectado al
+ordenador?
+¿El ordenador está en marcha?
+¿Alguno de los cables está cortado?
+¿Alguno de los interruptores de encendido no está en posición
+encendido o se ha quedado a medio camino?
+Lo más seguro es comprobar la tensión de alimentación en el circuito
+final.</p>
+</div>
+<div class="section" id="esta-conectada-la-senal-analogica">
+<h2>¿Está conectada la señal analógica?<a class="headerlink" href="#esta-conectada-la-senal-analogica" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Al igual que en el punto anterior, lo más seguro es medir con un
+polímetro el nivel de señal que llega al circuito.
+Al intentar medir una señal analógica, siempre mide lo mismo o solo
+se recibe ruido.
+En este caso hay que comprobar varias conexiones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>¿Está conectada la masa?</p></li>
+<li><p>¿Están conectadas las señales de referencia de tensión V+ y V-?</p></li>
+<li><p>¿Tiene continuidad el cable que va desde el sensor hasta el
+microcontrolador?</p></li>
+<li><p>¿Hay algún cortocircuito que no permite que llegue la señal?</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="esta-conectada-la-senal-a-la-patilla-correcta">
+<h2>¿Está conectada la señal a la patilla correcta?<a class="headerlink" href="#esta-conectada-la-senal-a-la-patilla-correcta" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La primera entrada del puerto RA es RA0 y la segunda RA1 esto puede
+llevar a confusión en alguna ocasión ¿Está la señal conectada a su
+entrada?
+Si hay una confusión en el puerto de entrada/salida comienzan los
+problemas ¿Está conectada a RA o a RB?
+En algunos microcontroladores es posible asignar las entradas/salidas
+a las patillas por software ¿Está bien configurada la patilla de
+entrada/salida?</p>
+</div>
+<div class="section" id="esta-conectada-la-resistencia-de-pull-up-o-pull-down">
+<h2>¿Está conectada la resistencia de Pull-Up o Pull-Down?<a class="headerlink" href="#esta-conectada-la-resistencia-de-pull-up-o-pull-down" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Ciertas salidas necesitan tener una resistencia conectada a la
+alimentación para que la salida pueda dar señal. Es el caso de
+algunos circuitos comparadores como el LM311 (salida en colector
+abierto) o algunas salidas especiales de microcontroladores
+(salida en drenador abierto).
+La mejor forma de comprobar el funcionamiento correcto es comprobar
+la tensión en la patilla con un polímetro.
+En estos casos una lectura detallada de la hoja de características
+(datasheet) puede evitar cometer este fallo.</p>
+</div>
+<div class="section" id="esta-configurada-la-patilla-como-entrada-o-como-salida">
+<h2>¿Está configurada la patilla como entrada o como salida?<a class="headerlink" href="#esta-configurada-la-patilla-como-entrada-o-como-salida" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Una confusión en la configuración y podemos pasar horas buscando el
+problema.
+Lo más sencillo es comprobar primero la configuración de los pines de
+entrada y salida.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>¿Está correctamente configurado el pin MCLR?</p></li>
+<li><p>¿Está correctamente configurado el pin LVP para programación con
+bajo voltaje?</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="hay-alguna-entrada-al-aire-que-recoja-ruido-ambiente">
+<h2>¿Hay alguna entrada al aire que recoja ruido ambiente?<a class="headerlink" href="#hay-alguna-entrada-al-aire-que-recoja-ruido-ambiente" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Se debe asegurar que todas las entradas digitales y las entradas
+analógicas estén por defecto conectadas a masa.
+Las entradas al aire pueden provocar fallos intermitentes muy
+difíciles de encontrar y mayor consumo del circuito.
+En especial los pines MCLR y LPV pueden provocar fallos que provocan
+el reset del microcontrolador si no están correctamente configurados
+y conectados a Vdd o GND.</p>
+</div>
+<div class="section" id="esta-la-polaridad-cambiada">
+<h2>¿Está la polaridad cambiada?<a class="headerlink" href="#esta-la-polaridad-cambiada" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Ciertos conectores obligan a conectar una polaridad concreta.
+En otros casos, un conector tiene una sola posición pero los cables
+están cambiados de lugar.
+Una alimentación invertida puede destruir el circuito y una señal
+analógica con polaridad invertida no funcionará. ¿La polaridad es
+correcta?</p>
+<p>Las entradas digitales pueden estar activas a nivel alto o a nivel
+bajo.
+¿Es el nivel lógico correcto?</p>
+<p>Si la patilla de reset /MCLR está conectada con una resistencia a
+masa y un pulsador al positivo (al revés de su conexión normal) a
+partir de ahí no funcionará nada.
+No es frecuente cometer ese error y por la misma razón se puede
+perder mucho tiempo intentando encontrar este fallo.</p>
+<p>Si un puerto del microcontrolador está configurado con entradas en
+Pull-up (resistencias a positivo) y se conectan los pulsadores
+externos al positivo de la alimentación... no funcionará ninguno.</p>
+</div>
+<div class="section" id="hay-cortocircuito">
+<h2>¿Hay cortocircuito?<a class="headerlink" href="#hay-cortocircuito" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Puede que el polímetro señale continuidad en los cables, pero si hay
+un cortocircuito entre medias entonces el circuito no funcionará.
+Para comprobar la continuidad de un componente, hay que desconectar
+el componente del circuito. Hay que comprobar que no existen
+cortocircuitos antes de comprobar si existe continuidad.</p>
+<p>Si este error es frecuente, hay aparatos específicos para comprobar
+cortocircuitos.
+Desde un sencillo miliohmetro hasta un complejo
+<a class="reference external" href="https://es.wikipedia.org/wiki/Reflect%C3%B3metro_de_dominio_de_tiempo">reflectómetro de dominio de tiempo</a></p>
+</div>
+<div class="section" id="se-ha-comprobado-con-seguridad">
+<h2>¿Se ha comprobado con seguridad?<a class="headerlink" href="#se-ha-comprobado-con-seguridad" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Vale la pena insistir de nuevo en este punto. En muchas ocasiones se
+da por supuesto que existe conexión solo porque vemos el cable en su
+sitio.
+Esto no es suficiente. La comprobación puede llevar muy poco tiempo y
+ahorrar bastante esfuerzo y algún dolor de cabeza.</p>
+<p>Es fácil &quot;ver&quot; que dos bornas roja y negra están correctamente
+conectadas al polímetro... hasta que una mirada más atenta permite
+ver que las bornas están conectadas en modo tensión, mientras se
+intenta medir corriente.</p>
+</div>
+<div class="section" id="las-variables-y-constantes-estan-correctamente-configuradas">
+<h2>¿Las variables y constantes están correctamente configuradas?<a class="headerlink" href="#las-variables-y-constantes-estan-correctamente-configuradas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Este es un apartado que genera fallos frecuentes y difíciles de
+encontrar porque se da por supuesto que debería funcionar
+correctamente.
+El lenguaje por defecto que se tratará es el C, porque es el lenguaje
+de alto nivel más frecuentemente utilizado para programar
+microcontroladores.</p>
+</div>
+<div class="section" id="las-variables-pueden-contener-el-dato">
+<h2>¿Las variables pueden contener el dato?<a class="headerlink" href="#las-variables-pueden-contener-el-dato" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Un bucle de 1000 repeticiones no podrá hacerse con una variable
+de 8 bits.
+Una variable de 8 bits con signo solo podrá contar hasta 127.
+Los valores mayores confundirán al bucle al pasar a valer negativo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">signed</span> <span class="n">char</span> <span class="n">i</span><span class="p">;</span>
+<span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">130</span><span class="p">;</span> <span class="n">i</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="nb">print</span> <span class="n">i</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>Este código no imprimirá nada, puesto que i se inicializa con un
+valor menor que cero (i = 130 = -126 en formato de 8 bit con signo).</p>
+<p>¿La base de numeración es correcta?
+Se debe comprobar que estamos utilizando una base de numeración
+adecuada:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mh">0x11001100</span><span class="p">;</span>   <span class="o">//</span> <span class="n">Se</span> <span class="n">está</span> <span class="n">utilizando</span> <span class="n">base</span> <span class="n">hexadecimal</span><span class="p">,</span> <span class="n">aunque</span> <span class="n">parezca</span> <span class="n">binario</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="hay-definiciones-repetidas-o-fuera-de-contexto">
+<h2>¿Hay definiciones repetidas o fuera de contexto?<a class="headerlink" href="#hay-definiciones-repetidas-o-fuera-de-contexto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Si hay una definición de una constante &quot;#define&quot; en un punto del
+programa y se vuelve a definir en otro punto, esto puede dar lugar a
+confusión a la hora de programar. Las definiciones deben aparecer
+solo una vez.</p>
+<p>Las variables locales de una función se superponen a las variables
+globales.
+Hay que llamar a las variables globales de forma que no coincidan con
+las variables locales.</p>
+</div>
+<div class="section" id="las-condiciones-estan-correctamente-escritas">
+<h2>¿Las condiciones están correctamente escritas?<a class="headerlink" href="#las-condiciones-estan-correctamente-escritas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Las condiciones son una frecuente fuente de errores. Algunos de los
+más frecuentes son:</p>
+<p>Escribir un solo igual  es incorrecto:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>     <span class="o">//</span> <span class="n">Incorrecto</span><span class="o">.</span> <span class="n">Se</span> <span class="n">asigna</span> <span class="mi">1</span> <span class="n">a</span> <span class="n">la</span> <span class="n">variable</span> <span class="s1">&#39;a&#39;</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span>    <span class="o">//</span> <span class="n">Correcto</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="mh">0xF0</span> <span class="o">&amp;</span> <span class="mh">0x0F</span><span class="p">);</span>    <span class="o">//</span> <span class="n">Incorrecto</span><span class="p">,</span> <span class="n">resultado</span> <span class="n">falso</span>
+<span class="k">if</span> <span class="p">(</span><span class="mh">0xF0</span> <span class="o">&amp;&amp;</span> <span class="mh">0x0F</span><span class="p">);</span>   <span class="o">//</span> <span class="n">Correcto</span><span class="p">,</span> <span class="n">resultado</span> <span class="n">verdadero</span>
+<span class="k">if</span> <span class="p">((</span><span class="mh">0xF0</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="mh">0x0F</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">));</span>   <span class="o">//</span> <span class="n">Más</span> <span class="n">correcto</span> <span class="n">aún</span><span class="p">,</span> <span class="n">la</span> <span class="n">condición</span> <span class="n">aparece</span> <span class="n">explícita</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+	<!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="downloads.html" class="btn btn-neutral float-right" title="Descargas" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="component-kit.html" class="btn btn-neutral" title="Componentes para realizar proyectos con Arduino" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html">Contacto</a></li>
+    <li><a href="../legal-aviso.html">Aviso legal</a></li>
+    <li><a href="../legal-autor.html">Derechos de Autor</a></li>
+    <li><a href="../legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="../legal-atribution.html">Atribución</a></li>
+    </ul>
+    <p class="content-info">
+        &copy; Copyright 2013-2020 Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez en diciembre de 2020.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../../_static/logo-picuino-bgblue.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+         <a href="../index.html">Tecno Recursos</a>
+
+         
+            
+            
+              <div class="version">
+                2020
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricidad y electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programación</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="pc42-index.html">Panel de Control PC42</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuitos con Protoboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programas</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="resource-index.html">Recursos</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="troubleshooting-arduino.html">Solución de problemas con Arduino</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add-library.html">Añadir una librería a Arduino</a></li>
+<li class="toctree-l3"><a class="reference internal" href="component-kit.html">Componentes para realizar proyectos con Arduino</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Solución de problemas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="downloads.html">Descargas</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Picuino UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../external-index.html">Recursos Externos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+        <script type="text/javascript" src="../../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

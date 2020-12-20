@@ -1,0 +1,754 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# electric-simbolos-nombres-rescue_amperimetro-simbolos
+#
+DEF ~electric-simbolos-nombres-rescue_amperimetro-simbolos A 0 40 Y Y 1 F N
+F0 "A" 200 -200 100 H V L CNN
+F1 "electric-simbolos-nombres-rescue_amperimetro-simbolos" -150 -200 50 V I C CNN
+F2 "" 0 -225 50 V I C CNN
+F3 "" 0 -225 50 V I C CNN
+DRAW
+C 0 -200 130 0 1 0 N
+T 0 0 -200 125 0 0 0 A Normal 0 C C
+X ~ ~ 0 -400 70 U 45 50 1 1 I
+X ~ ~ 0 0 70 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_CopyRight
+#
+DEF ~simbolos_CopyRight CP 0 40 Y Y 1 F N
+F0 "CP" 250 50 40 H I C CNN
+F1 "simbolos_CopyRight" 0 50 40 H I C CNN
+F2 "" -100 350 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+F4 "CC BY-SA 4.0" -50 -50 60 H V R CNN "License"
+F5 "www.picuino.com" 0 -50 60 H V L CNN "Web"
+DRAW
+P 2 0 1 8 -400 0 400 0 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_LDR
+#
+DEF ~simbolos_LDR R 0 40 Y Y 1 F N
+F0 "R" 75 -200 100 H V L CNN
+F1 "simbolos_LDR" 0 -200 50 V I C CNN
+F2 "" 50 -75 50 H I C CNN
+F3 "" 50 -75 50 H I C CNN
+DRAW
+S -50 -75 50 -325 0 1 0 N
+P 2 0 1 0 -100 -275 -200 -175 N
+P 2 0 1 0 -100 -175 -200 -75 N
+P 4 0 1 0 -100 -275 -125 -225 -150 -250 -100 -275 N
+P 4 0 1 0 -100 -175 -125 -125 -150 -150 -100 -175 N
+X ~ ~ 0 -400 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_NPN
+#
+DEF ~simbolos_NPN Q 0 40 Y Y 1 F N
+F0 "Q" 275 -200 100 H V L CNN
+F1 "simbolos_NPN" -75 -300 50 H I C CNN
+F2 "" 100 -200 50 H I C CNN
+F3 "" 100 -200 50 H I C CNN
+DRAW
+T 0 25 -150 60 0 0 0 B Normal 0 C C
+T 0 300 -50 60 0 0 0 C Normal 0 C C
+T 0 300 -350 60 0 0 0 E Normal 0 C C
+P 2 0 0 0 175 -275 100 -200 N
+P 4 0 0 0 250 -350 200 -250 150 -300 250 -350 N
+P 2 0 1 0 100 -200 250 -50 N
+P 2 0 1 0 100 -50 100 -350 N
+X ~ ~ 0 -200 100 R 45 50 1 1 I
+X ~ ~ 250 -400 50 U 45 50 1 1 I
+X ~ ~ 250 0 50 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_NTC
+#
+DEF ~simbolos_NTC R 0 40 Y Y 1 F N
+F0 "R" 75 -200 100 H V L CNN
+F1 "simbolos_NTC" -150 -300 50 V I C CNN
+F2 "" 50 -75 50 H I C CNN
+F3 "" 50 -75 50 H I C CNN
+DRAW
+T 900 -125 -150 75 0 1 0 -tº Normal 0 C C
+S -50 -75 50 -325 0 1 0 N
+P 3 1 0 0 -100 -325 -100 -275 100 -75 N
+X ~ ~ 0 -400 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_PNP
+#
+DEF ~simbolos_PNP Q 0 40 Y Y 1 F N
+F0 "Q" 275 -200 100 H V L CNN
+F1 "simbolos_PNP" -75 -300 50 H I C CNN
+F2 "" 100 -200 50 H I C CNN
+F3 "" 100 -200 50 H I C CNN
+DRAW
+T 0 25 -150 60 0 0 0 B Normal 0 C C
+T 0 300 -350 60 0 0 0 C Normal 0 C C
+T 0 300 -50 60 0 0 0 E Normal 0 C C
+P 2 0 0 0 175 -125 250 -50 N
+P 4 0 0 0 100 -200 150 -100 200 -150 100 -200 N
+P 2 0 1 0 100 -50 100 -350 N
+P 2 0 1 0 250 -350 100 -200 N
+X ~ ~ 0 -200 100 R 45 50 1 1 I
+X ~ ~ 250 -400 50 U 45 50 1 1 I
+X ~ ~ 250 0 50 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pila
+#
+DEF ~simbolos_Pila V 0 40 Y Y 1 F N
+F0 "V" 200 -175 100 H V L CNN
+F1 "simbolos_Pila" 100 -75 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+P 2 0 1 0 -160 -50 -90 -50 N
+P 2 0 1 0 -150 -125 150 -125 N
+P 2 0 1 0 -125 -15 -125 -85 N
+P 2 0 1 0 -75 -200 75 -200 N
+X ~ ~ 0 -300 100 U 45 50 1 1 I
+X ~ ~ 0 0 125 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_altavoz
+#
+DEF ~simbolos_altavoz Z 0 40 Y Y 1 F N
+F0 "Z" 225 25 100 H V R CNN
+F1 "simbolos_altavoz" 350 -150 50 V I C CNN
+F2 "" 50 -150 50 H I C CNN
+F3 "" 50 -150 50 H I C CNN
+DRAW
+S 100 -75 200 -225 0 0 0 N
+P 2 0 0 0 0 -200 100 -200 N
+P 2 0 0 0 0 -100 100 -100 N
+P 4 0 0 0 200 -75 300 25 300 -325 200 -225 N
+X ~ ~ 0 -300 100 U 45 50 1 1 I
+X ~ ~ 0 0 100 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_condensador
+#
+DEF ~simbolos_condensador C 0 40 Y Y 1 F N
+F0 "C" 150 -175 100 H V L CNN
+F1 "simbolos_condensador" -175 -150 50 V I C CNN
+F2 "" 50 -100 50 H I C CNN
+F3 "" 50 -100 50 H I C CNN
+DRAW
+P 2 0 1 0 -125 -125 125 -125 N
+P 2 0 1 0 125 -200 -125 -200 N
+X ~ ~ 0 -300 100 U 45 50 1 1 I
+X ~ ~ 0 0 125 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_condensador_pol
+#
+DEF ~simbolos_condensador_pol C 0 40 Y Y 1 F N
+F0 "C" 150 -175 100 H V L CNN
+F1 "simbolos_condensador_pol" -175 -150 50 V I C CNN
+F2 "" 50 -100 50 H I C CNN
+F3 "" 50 -100 50 H I C CNN
+DRAW
+P 2 0 1 0 -125 -125 125 -125 N
+P 2 0 1 0 -100 -15 -100 -85 N
+P 2 0 1 0 -65 -50 -135 -50 N
+P 2 0 1 0 125 -200 -125 -200 N
+X ~ ~ 0 -300 100 U 45 50 1 1 I
+X ~ ~ 0 0 125 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_conector
+#
+DEF ~simbolos_conector o 0 40 Y Y 1 F N
+F0 "o" 150 -150 100 H I C CNN
+F1 "simbolos_conector" -75 -50 50 H I C CNN
+F2 "" 125 0 50 H I C CNN
+F3 "" 125 0 50 H I C CNN
+DRAW
+S 50 50 150 -50 0 1 0 N
+X ~ ~ 0 0 50 R 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_diodo
+#
+DEF ~simbolos_diodo D 0 40 Y Y 1 F N
+F0 "D" 100 -150 100 H V L CNN
+F1 "simbolos_diodo" 0 50 50 H I C CNN
+F2 "" 0 -150 50 V I C CNN
+F3 "" 0 -150 50 V I C CNN
+DRAW
+P 2 0 1 0 75 -225 -75 -225 N
+P 4 0 1 0 75 -75 -75 -75 0 -225 75 -75 N
+X ~ ~ 0 -300 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_diodo_led
+#
+DEF ~simbolos_diodo_led D 0 40 Y Y 1 F N
+F0 "D" 200 -150 100 H V L CNN
+F1 "simbolos_diodo_led" 0 50 50 H I C CNN
+F2 "" 0 -150 50 V I C CNN
+F3 "" 0 -150 50 V I C CNN
+DRAW
+P 2 0 1 0 55 -170 135 -210 N
+P 2 0 1 0 75 -225 -75 -225 N
+P 2 0 1 0 80 -120 160 -160 N
+P 2 0 1 0 135 -210 93 -204 N
+P 2 0 1 0 135 -210 105 -180 N
+P 2 0 1 0 160 -160 118 -154 N
+P 2 0 1 0 160 -160 130 -130 N
+P 4 0 1 0 75 -75 -75 -75 0 -225 75 -75 N
+X ~ ~ 0 -300 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_final_carrera
+#
+DEF ~simbolos_final_carrera S 0 40 Y Y 1 F N
+F0 "S" 175 125 100 H V R CNN
+F1 "simbolos_final_carrera" 250 -75 50 H I C CNN
+F2 "" 300 0 50 H I C CNN
+F3 "" 300 0 50 H I C CNN
+DRAW
+C 125 0 25 0 0 0 N
+C 250 200 50 0 0 0 N
+C 375 0 25 0 0 0 N
+P 2 0 0 0 225 40 225 155 N
+P 2 0 0 0 275 60 275 155 N
+P 2 0 0 0 375 100 150 10 N
+X ~ ~ 0 0 100 R 45 50 1 1 I
+X ~ ~ 500 0 100 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_fusible
+#
+DEF ~simbolos_fusible F 0 40 Y Y 1 F N
+F0 "F" 75 -200 100 H V L CNN
+F1 "simbolos_fusible" -100 -200 50 V I C CNN
+F2 "" 100 -100 50 H I C CNN
+F3 "" 100 -100 50 H I C CNN
+DRAW
+S -50 -75 50 -325 0 1 0 N
+P 2 0 0 0 0 -50 0 -350 N
+X ~ ~ 0 -400 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_generador
+#
+DEF ~simbolos_generador V 0 40 Y Y 1 F N
+F0 "V" 175 -200 100 H V L CNN
+F1 "simbolos_generador" 50 -525 50 V I C CNN
+F2 "" 0 -175 50 V I C CNN
+F3 "" 0 -175 50 V I C CNN
+DRAW
+A -50 -200 50 1 1799 0 0 0 N 0 -200 -100 -200
+A 50 -200 50 -1799 -1 0 0 0 N 0 -200 100 -200
+C 0 -200 130 0 1 0 N
+X ~ ~ 0 -400 70 U 45 50 1 1 I
+X ~ ~ 0 0 70 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_inductancia
+#
+DEF ~simbolos_inductancia L 0 40 Y Y 1 F N
+F0 "L" 25 -200 100 H V L CNN
+F1 "simbolos_inductancia" -100 -225 50 V I C CNN
+F2 "" 50 -100 50 H I C CNN
+F3 "" 50 -100 50 H I C CNN
+DRAW
+A 0 -300 50 901 -901 0 1 0 N 0 -250 0 -350
+A 0 -200 50 901 -901 0 1 0 N 0 -150 0 -250
+A 0 -100 50 901 -901 0 1 0 N 0 -50 0 -150
+X ~ ~ 0 -400 50 U 45 50 1 1 I
+X ~ ~ 0 0 50 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_lampara
+#
+DEF ~simbolos_lampara L 0 40 Y Y 1 F N
+F0 "L" 175 -200 100 H V L CNN
+F1 "simbolos_lampara" 50 -525 50 V I C CNN
+F2 "" 0 -175 50 V I C CNN
+F3 "" 0 -175 50 V I C CNN
+DRAW
+C 0 -200 130 0 1 0 N
+P 2 0 1 0 -90 -295 90 -115 N
+P 2 0 1 0 -90 -115 90 -295 N
+X ~ ~ 0 -400 70 U 45 50 1 1 I
+X ~ ~ 0 0 70 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_logic_and
+#
+DEF ~simbolos_logic_and U 0 40 Y Y 4 F N
+F0 "U" 450 -250 100 H V L CNN
+F1 "simbolos_logic_and" 300 100 50 H I C CNN
+F2 "" 100 -175 50 V I C CNN
+F3 "" 100 -175 50 V I C CNN
+DRAW
+A 300 -100 150 -899 899 0 1 0 N 300 -250 300 50
+P 4 0 1 0 300 50 100 50 100 -250 300 -250 N
+X A 1 0 0 100 R 50 50 1 1 I
+X B 2 0 -200 100 R 50 50 1 1 I
+X O 3 600 -100 150 L 45 50 1 1 O
+X A 4 0 0 100 R 50 50 2 1 I
+X B 5 0 -200 100 R 50 50 2 1 I
+X O 6 600 -100 150 L 45 50 2 1 O
+X B 10 0 -200 100 R 50 50 3 1 I
+X O 8 600 -100 150 L 45 50 3 1 O
+X A 9 0 0 100 R 50 50 3 1 I
+X O 11 600 -100 150 L 45 50 4 1 O
+X A 12 0 0 100 R 50 50 4 1 I
+X B 13 0 -200 100 R 50 50 4 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_logic_nand
+#
+DEF ~simbolos_logic_nand U 0 40 Y Y 4 F N
+F0 "U" 450 -250 100 H V L CNN
+F1 "simbolos_logic_nand" 300 100 50 H I C CNN
+F2 "" 100 -175 50 V I C CNN
+F3 "" 100 -175 50 V I C CNN
+DRAW
+A 300 -100 150 -899 899 0 1 0 N 300 -250 300 50
+P 4 0 1 0 300 50 100 50 100 -250 300 -250 N
+X A 1 0 0 100 R 50 50 1 1 I
+X B 2 0 -200 100 R 50 50 1 1 I
+X O 3 600 -100 150 L 50 50 1 1 O I
+X A 4 0 0 100 R 50 50 2 1 I
+X B 5 0 -200 100 R 50 50 2 1 I
+X O 6 600 -100 150 L 50 50 2 1 O I
+X B 10 0 -200 100 R 50 50 3 1 I
+X O 8 600 -100 150 L 50 50 3 1 O I
+X A 9 0 0 100 R 50 50 3 1 I
+X O 11 600 -100 150 L 50 50 4 1 O I
+X A 12 0 0 100 R 50 50 4 1 I
+X B 13 0 -200 100 R 50 50 4 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_logic_nor
+#
+DEF ~simbolos_logic_nor U 0 40 Y Y 4 F N
+F0 "U" 450 -250 100 H V L CNN
+F1 "simbolos_logic_nor" 300 100 50 H I C CNN
+F2 "" 100 -175 50 V I C CNN
+F3 "" 100 -175 50 V I C CNN
+DRAW
+A -100 -100 250 369 -369 0 1 0 N 100 50 100 -250
+A 201 31 281 -277 -902 0 1 0 N 450 -100 200 -250
+A 202 -231 281 904 278 0 1 0 N 200 50 450 -100
+P 2 0 1 0 100 -250 200 -250 N
+P 2 0 1 0 200 50 100 50 N
+X A 1 0 0 125 R 50 50 1 1 I
+X B 2 0 -200 125 R 50 50 1 1 I
+X O 3 600 -100 150 L 50 50 1 1 O I
+X A 4 0 0 125 R 50 50 2 1 I
+X B 5 0 -200 125 R 50 50 2 1 I
+X O 6 600 -100 150 L 50 50 2 1 O I
+X B 10 0 -200 125 R 50 50 3 1 I
+X O 8 600 -100 150 L 50 50 3 1 O I
+X A 9 0 0 125 R 50 50 3 1 I
+X O 11 600 -100 150 L 50 50 4 1 O I
+X A 12 0 0 125 R 50 50 4 1 I
+X B 13 0 -200 125 R 50 50 4 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_logic_not
+#
+DEF ~simbolos_logic_not U 0 40 Y Y 4 F N
+F0 "U" 300 -250 100 H V L CNN
+F1 "simbolos_logic_not" 350 100 50 H I C CNN
+F2 "" 100 -175 50 V I C CNN
+F3 "" 100 -175 50 V I C CNN
+DRAW
+P 4 0 1 0 100 100 425 -100 100 -300 100 100 N
+X A 1 0 0 100 R 50 50 1 1 I
+X B 2 0 -200 100 R 50 50 1 1 I
+X O 3 600 -100 175 L 50 50 1 1 O I
+X A 4 0 0 100 R 50 50 2 1 I
+X B 5 0 -200 100 R 50 50 2 1 I
+X O 6 600 -100 175 L 50 50 2 1 O I
+X B 10 0 -200 100 R 50 50 3 1 I
+X O 8 600 -100 175 L 50 50 3 1 O I
+X A 9 0 0 100 R 50 50 3 1 I
+X O 11 600 -100 175 L 50 50 4 1 O I
+X A 12 0 0 100 R 50 50 4 1 I
+X B 13 0 -200 100 R 50 50 4 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_logic_or
+#
+DEF ~simbolos_logic_or U 0 40 Y Y 4 F N
+F0 "U" 450 -250 100 H V L CNN
+F1 "simbolos_logic_or" 300 100 50 H I C CNN
+F2 "" 100 -175 50 V I C CNN
+F3 "" 100 -175 50 V I C CNN
+DRAW
+A -100 -100 250 369 -369 0 1 0 N 100 50 100 -250
+A 201 31 281 -277 -902 0 1 0 N 450 -100 200 -250
+A 202 -231 281 904 278 0 1 0 N 200 50 450 -100
+P 2 0 1 0 100 -250 200 -250 N
+P 2 0 1 0 200 50 100 50 N
+X A 1 0 0 125 R 50 50 1 1 I
+X B 2 0 -200 125 R 50 50 1 1 I
+X O 3 600 -100 150 L 50 50 1 1 O
+X A 4 0 0 125 R 50 50 2 1 I
+X B 5 0 -200 125 R 50 50 2 1 I
+X O 6 600 -100 150 L 50 50 2 1 O
+X B 10 0 -200 125 R 50 50 3 1 I
+X O 8 600 -100 150 L 50 50 3 1 O
+X A 9 0 0 125 R 50 50 3 1 I
+X O 11 600 -100 150 L 50 50 4 1 O
+X A 12 0 0 125 R 50 50 4 1 I
+X B 13 0 -200 125 R 50 50 4 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_logic_xor
+#
+DEF ~simbolos_logic_xor U 0 40 Y Y 4 F N
+F0 "U" 450 -250 100 H V L CNN
+F1 "simbolos_logic_xor" 300 100 50 H I C CNN
+F2 "" 100 -175 50 V I C CNN
+F3 "" 100 -175 50 V I C CNN
+DRAW
+A -125 -100 250 369 -369 0 1 0 N 75 50 75 -250
+A -75 -100 250 369 -369 0 1 0 N 125 50 125 -250
+A 201 31 281 -277 -902 0 1 0 N 450 -100 200 -250
+A 202 -231 281 904 278 0 1 0 N 200 50 450 -100
+T 0 200 0 50 0 0 0 A Normal 0 C C
+T 0 200 -200 50 0 0 0 B Normal 0 C C
+P 2 0 1 0 125 -250 200 -250 N
+P 2 0 1 0 125 50 200 50 N
+P 2 0 1 0 150 -200 100 -200 N
+P 2 0 1 0 150 0 100 0 N
+X ~ 1 0 0 100 R 50 50 1 1 I
+X ~ 2 0 -200 100 R 50 50 1 1 I
+X O 3 600 -100 150 L 50 50 1 1 O
+X ~ 4 0 0 100 R 50 50 2 1 I
+X ~ 5 0 -200 100 R 50 50 2 1 I
+X O 6 600 -100 150 L 50 50 2 1 O
+X ~ 10 0 -200 100 R 50 50 3 1 I
+X O 8 600 -100 150 L 50 50 3 1 O
+X ~ 9 0 0 100 R 50 50 3 1 I
+X O 11 600 -100 150 L 50 50 4 1 O
+X ~ 12 0 0 100 R 50 50 4 1 I
+X ~ 13 0 -200 100 R 50 50 4 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_marco_1
+#
+DEF ~simbolos_marco_1 M 0 40 Y Y 1 F N
+F0 "M" 125 -175 100 H I C CNN
+F1 "simbolos_marco_1" 150 -50 50 H I C CNN
+F2 "" 50 -150 50 H I C CNN
+F3 "" 50 -150 50 H I C CNN
+DRAW
+P 4 0 1 0 900 0 1300 0 1300 -600 900 -600 N
+P 4 0 1 0 1300 0 2600 0 2600 -600 1300 -600 N
+P 5 0 1 0 0 0 0 -600 900 -600 900 0 0 0 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_marco_2
+#
+DEF ~simbolos_marco_2 M 0 40 Y Y 1 F N
+F0 "M" 100 -200 100 H I C CNN
+F1 "simbolos_marco_2" 400 -200 50 H I C CNN
+F2 "" 50 -275 50 H I C CNN
+F3 "" 50 -275 50 H I C CNN
+F4 "TIPO" 1300 -175 100 H V C CNN
+F5 "SÍMBOLO" 450 -450 75 H V C BNN
+F6 "LETRA" 1100 -450 75 H V C BNN
+F7 "NOMBRE" 1900 -450 75 H V C BNN
+DRAW
+P 3 0 1 0 900 -500 1300 -500 1300 -300 N
+P 3 0 1 0 1300 -500 2600 -500 2600 -300 N
+P 4 0 1 0 0 -300 0 -500 900 -500 900 -300 N
+P 4 0 1 0 2600 -300 2600 -50 0 -50 0 -300 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_masa
+#
+DEF ~simbolos_masa V 0 40 Y Y 1 F N
+F0 "V" 25 -25 100 H I L CNN
+F1 "simbolos_masa" -125 -25 50 H I C CNN
+F2 "" 300 -150 50 H I C CNN
+F3 "" 300 -150 50 H I C CNN
+DRAW
+P 2 0 0 0 -150 -100 -200 -200 N
+P 2 0 0 0 -150 -100 150 -100 N
+P 2 0 0 0 -75 -100 -125 -200 N
+P 2 0 0 0 0 -100 -50 -200 N
+P 2 0 0 0 75 -100 25 -200 N
+P 2 0 0 0 150 -100 100 -200 N
+X ~ ~ 0 0 100 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_motor
+#
+DEF ~simbolos_motor M 0 40 Y Y 1 F N
+F0 "M" 175 -200 100 H V L CNN
+F1 "simbolos_motor" 50 -525 50 V I C CNN
+F2 "" 0 -225 50 V I C CNN
+F3 "" 0 -225 50 V I C CNN
+DRAW
+C 0 -200 130 0 1 0 N
+T 0 0 -200 125 0 0 0 M Normal 0 C C
+X ~ ~ 0 -400 70 U 45 50 1 1 I
+X ~ ~ 0 0 70 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_pulsador_na
+#
+DEF ~simbolos_pulsador_na S 0 40 Y Y 1 F N
+F0 "S" 75 125 100 H V R CNN
+F1 "simbolos_pulsador_na" 0 -50 50 H I C CNN
+F2 "" 300 25 50 H I C CNN
+F3 "" 300 25 50 H I C CNN
+DRAW
+C 125 0 25 0 0 0 N
+C 375 0 25 0 0 0 N
+P 2 0 0 0 100 75 400 75 N
+P 2 0 0 0 175 175 325 175 N
+P 2 0 0 0 225 75 225 175 N
+P 2 0 0 0 275 175 275 75 N
+X ~ ~ 0 0 100 R 45 50 1 1 I
+X ~ ~ 500 0 100 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_pulsador_nc
+#
+DEF ~simbolos_pulsador_nc S 0 40 Y Y 1 F N
+F0 "S" 150 125 100 H V R CNN
+F1 "simbolos_pulsador_nc" 0 -50 50 H I C CNN
+F2 "" 300 25 50 H I C CNN
+F3 "" 300 25 50 H I C CNN
+DRAW
+C 125 0 25 0 0 0 N
+C 375 0 25 0 0 0 N
+P 2 0 0 0 100 -35 400 -35 N
+P 2 0 0 0 175 90 325 90 N
+P 2 0 0 0 225 -35 225 90 N
+P 2 0 0 0 275 -35 275 90 N
+X ~ ~ 0 0 100 R 45 50 1 1 I
+X ~ ~ 500 0 100 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_rele
+#
+DEF ~simbolos_rele K 0 40 Y Y 1 F N
+F0 "K" -175 -150 100 H V R CNN
+F1 "simbolos_rele" -100 -150 50 V I C CNN
+F2 "" 100 -100 50 H I C CNN
+F3 "" 100 -100 50 H I C CNN
+DRAW
+C 300 -275 25 1 0 0 N
+C 300 -25 25 1 0 0 N
+S -125 -75 125 -225 0 0 0 N
+P 2 0 0 0 50 -75 -50 -225 N
+P 2 0 0 0 150 -150 175 -150 N
+P 2 0 0 0 200 -150 225 -150 N
+P 2 0 0 0 250 -150 275 -150 N
+P 2 0 0 0 300 -150 325 -150 N
+P 2 0 0 0 350 -150 375 -150 N
+P 2 1 0 0 450 -50 315 -255 N
+X ~ ~ 0 -300 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+X ~ ~ 300 -400 100 U 45 50 1 1 I
+X ~ ~ 300 100 100 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_rele_contacto
+#
+DEF ~simbolos_rele_contacto K 0 40 Y Y 1 F N
+F0 "K" 50 -50 100 H V L CNN
+F1 "simbolos_rele_contacto" -100 -250 50 V I C CNN
+F2 "" 100 -100 50 H I C CNN
+F3 "" 100 -100 50 H I C CNN
+DRAW
+C 0 -375 25 1 0 0 N
+C 0 -125 25 1 0 0 N
+P 2 0 0 0 -150 -250 -125 -250 N
+P 2 0 0 0 -100 -250 -75 -250 N
+P 2 0 0 0 -50 -250 -25 -250 N
+P 2 0 0 0 0 -250 25 -250 N
+P 2 0 0 0 50 -250 75 -250 N
+P 2 1 0 0 150 -150 15 -355 N
+X ~ ~ 0 -500 100 U 45 50 1 1 I
+X ~ ~ 0 0 100 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_resistencia
+#
+DEF ~simbolos_resistencia R 0 40 Y Y 1 F N
+F0 "R" 75 -200 100 H V L CNN
+F1 "simbolos_resistencia" -100 -225 50 V I C CNN
+F2 "" 100 -100 50 H I C CNN
+F3 "" 100 -100 50 H I C CNN
+DRAW
+S -50 -75 50 -325 0 1 0 N
+X ~ ~ 0 -400 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_resistencia_variable
+#
+DEF ~simbolos_resistencia_variable R 0 40 Y Y 1 F N
+F0 "R" 75 -200 100 H V L CNN
+F1 "simbolos_resistencia_variable" -150 -300 50 V I C CNN
+F2 "" 50 -75 50 H I C CNN
+F3 "" 50 -75 50 H I C CNN
+DRAW
+S -50 -75 50 -325 0 1 0 N
+P 3 1 0 0 -100 -325 -100 -275 100 -75 N
+X ~ ~ 0 -400 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_selector
+#
+DEF ~simbolos_selector S 0 40 Y Y 1 F N
+F0 "S" 175 125 100 H V R CNN
+F1 "simbolos_selector" 0 -50 50 H I C CNN
+F2 "" 300 -150 50 H I C CNN
+F3 "" 300 -150 50 H I C CNN
+ALIAS conmutador
+DRAW
+C 125 0 25 0 0 0 N
+C 375 -150 25 0 0 0 N
+C 375 150 25 0 0 0 N
+P 2 0 1 0 400 115 150 10 N
+X ~ ~ 0 0 100 R 45 50 1 1 I
+X ~ ~ 500 -150 100 L 45 50 1 1 I
+X ~ ~ 500 150 100 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_switch
+#
+DEF ~simbolos_switch S 0 40 Y Y 1 F N
+F0 "S" 175 125 100 H V R CNN
+F1 "simbolos_switch" 250 -100 50 H I C CNN
+F2 "" 300 0 50 H I C CNN
+F3 "" 300 0 50 H I C CNN
+ALIAS interruptor
+DRAW
+C 125 0 25 0 0 0 N
+C 375 0 25 0 0 0 N
+P 2 0 0 0 350 150 145 15 N
+X ~ ~ 0 0 100 R 45 50 1 1 I
+X ~ ~ 500 0 100 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_tierra
+#
+DEF ~simbolos_tierra V 0 40 Y Y 1 F N
+F0 "V" 25 -25 100 H I L CNN
+F1 "simbolos_tierra" -125 -25 50 H I C CNN
+F2 "" 300 -150 50 H I C CNN
+F3 "" 300 -150 50 H I C CNN
+DRAW
+P 2 0 0 0 -150 -100 150 -100 N
+P 2 0 0 0 -100 -150 100 -150 N
+P 2 0 0 0 -50 -200 50 -200 N
+X ~ ~ 0 0 100 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_transformador
+#
+DEF ~simbolos_transformador TR 0 40 Y Y 1 F N
+F0 "TR" 350 -200 100 H V L CNN
+F1 "simbolos_transformador" 150 100 50 H I C CNN
+F2 "" 350 -100 50 H I C CNN
+F3 "" 350 -100 50 H I C CNN
+DRAW
+A 0 -300 50 -899 899 0 1 0 N 0 -350 0 -250
+A 0 -200 50 -899 899 0 1 0 N 0 -250 0 -150
+A 0 -100 50 -899 899 0 1 0 N 0 -150 0 -50
+A 300 -300 50 901 -901 0 1 0 N 300 -250 300 -350
+A 300 -200 50 901 -901 0 1 0 N 300 -150 300 -250
+A 300 -100 50 901 -901 0 1 0 N 300 -50 300 -150
+P 2 0 1 0 120 -50 120 -350 N
+P 2 0 1 0 180 -50 180 -350 N
+X ~ ~ 0 -400 50 U 45 50 1 1 I
+X ~ ~ 0 0 50 D 45 50 1 1 I
+X ~ ~ 300 -400 50 U 45 50 1 1 I
+X ~ ~ 300 0 50 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_voltimetro
+#
+DEF ~simbolos_voltimetro V 0 40 Y Y 1 F N
+F0 "V" 200 -200 100 H V L CNN
+F1 "simbolos_voltimetro" -150 -200 50 V I C CNN
+F2 "" 0 -225 50 V I C CNN
+F3 "" 0 -225 50 V I C CNN
+DRAW
+C 0 -200 130 0 1 0 N
+T 0 0 -200 125 0 0 0 V Normal 0 C C
+X ~ ~ 0 -400 70 U 45 50 1 1 I
+X ~ ~ 0 0 70 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_zumbador
+#
+DEF ~simbolos_zumbador Z 0 40 Y Y 1 F N
+F0 "Z" 150 325 100 H V C CNN
+F1 "simbolos_zumbador" 150 -50 50 H I C CNN
+F2 "" 50 -100 50 H I C CNN
+F3 "" 50 -100 50 H I C CNN
+DRAW
+A 150 225 150 -1799 -1 0 0 0 N 0 225 300 225
+P 2 0 0 0 0 225 300 225 N
+P 2 0 0 0 75 0 75 100 N
+P 2 0 0 0 225 0 225 100 N
+X ~ ~ 0 0 75 R 45 50 1 1 I
+X ~ ~ 300 0 75 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

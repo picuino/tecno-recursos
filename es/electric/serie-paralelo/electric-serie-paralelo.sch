@@ -1,0 +1,1431 @@
+EESchema Schematic File Version 4
+LIBS:electric-serie-paralelo-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 2
+Title "Circuitos eléctricos. Identificar serie, paralelo y cortocircuito"
+Date "16/11/2018"
+Rev ""
+Comp "www.picuino.com"
+Comment1 "Copyright (c) 2018 by Carlos Pardo"
+Comment2 "License CC BY-SA 4.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 350  500  0    100  ~ 0
+IDENTIFICAR SERIE, PARALELO Y CORTOCIRCUITO     LÁMINA 1
+$Comp
+L simbolos:lampara L1
+U 1 1 5BC84962
+P 1700 1500
+F 0 "L1" V 1453 1300 100 0001 C CNN
+F 1 "lampara" V 1750 975 50  0001 C CNN
+F 2 "" V 1700 1325 50  0001 C CNN
+F 3 "" V 1700 1325 50  0001 C CNN
+	1    1700 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L5
+U 1 1 5BC849D7
+P 1700 2300
+F 0 "L5" V 1453 2100 100 0001 C CNN
+F 1 "lampara" V 1750 1775 50  0001 C CNN
+F 2 "" V 1700 2125 50  0001 C CNN
+F 3 "" V 1700 2125 50  0001 C CNN
+	1    1700 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BC854C5
+P 6400 1700
+F 0 "" H 6450 1700 100 0000 L CNN
+F 1 "bateria" H 6550 1650 50  0001 C CNN
+F 2 "" H 6400 1575 50  0001 C CNN
+F 3 "" H 6400 1575 50  0001 C CNN
+	1    6400 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  1650 600  1500
+Wire Wire Line
+	600  1500 1300 1500
+Wire Wire Line
+	1700 1500 1900 1500
+Wire Wire Line
+	1900 1500 1900 2300
+Wire Wire Line
+	1900 2300 1700 2300
+Wire Wire Line
+	1300 2300 600  2300
+Wire Wire Line
+	600  2300 600  2150
+$Comp
+L simbolos:lampara L2
+U 1 1 5BC89D02
+P 3700 1500
+F 0 "L2" V 3453 1300 100 0001 C CNN
+F 1 "lampara" V 3750 975 50  0001 C CNN
+F 2 "" V 3700 1325 50  0001 C CNN
+F 3 "" V 3700 1325 50  0001 C CNN
+	1    3700 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L6
+U 1 1 5BC89D08
+P 3700 2300
+F 0 "L6" V 3453 2100 100 0001 C CNN
+F 1 "lampara" V 3750 1775 50  0001 C CNN
+F 2 "" V 3700 2125 50  0001 C CNN
+F 3 "" V 3700 2125 50  0001 C CNN
+	1    3700 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BCB1E26
+P 4500 1600
+F 0 "" H 4550 1600 100 0000 L CNN
+F 1 "bateria" H 4650 1550 50  0001 C CNN
+F 2 "" H 4500 1475 50  0001 C CNN
+F 3 "" H 4500 1475 50  0001 C CNN
+	1    4500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1300 3200 1300
+Wire Wire Line
+	3200 1300 3200 1500
+Connection ~ 3200 1500
+Wire Wire Line
+	3200 1500 3300 1500
+Wire Wire Line
+	3200 1500 3200 2300
+Wire Wire Line
+	3200 2300 3300 2300
+Wire Wire Line
+	3700 1500 3800 1500
+Wire Wire Line
+	3800 1500 3800 2300
+Wire Wire Line
+	3800 2300 3700 2300
+Wire Wire Line
+	3800 2300 3800 2600
+Wire Wire Line
+	3800 2600 2600 2600
+Wire Wire Line
+	2600 2600 2600 2100
+Connection ~ 3800 2300
+Wire Wire Line
+	2600 1300 2600 1600
+$Comp
+L simbolos:lampara L4
+U 1 1 5BC8C7C3
+P 7500 1600
+F 0 "L4" V 7253 1400 100 0001 C CNN
+F 1 "lampara" V 7550 1075 50  0001 C CNN
+F 2 "" V 7500 1425 50  0001 C CNN
+F 3 "" V 7500 1425 50  0001 C CNN
+	1    7500 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L8
+U 1 1 5BC8C7C9
+P 7500 2400
+F 0 "L8" V 7253 2200 100 0001 C CNN
+F 1 "lampara" V 7550 1875 50  0001 C CNN
+F 2 "" V 7500 2225 50  0001 C CNN
+F 3 "" V 7500 2225 50  0001 C CNN
+	1    7500 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BC8C7CF
+P 2600 1600
+F 0 "" H 2650 1600 100 0000 L CNN
+F 1 "bateria" H 2750 1550 50  0001 C CNN
+F 2 "" H 2600 1475 50  0001 C CNN
+F 3 "" H 2600 1475 50  0001 C CNN
+	1    2600 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1300 6850 1300
+Wire Wire Line
+	7800 1300 7800 2400
+Wire Wire Line
+	7800 2400 7500 2400
+Wire Wire Line
+	6400 1300 6400 1700
+Wire Wire Line
+	7100 2400 6850 2400
+Wire Wire Line
+	6400 2400 6400 2200
+Wire Wire Line
+	6850 2400 6850 1900
+Wire Wire Line
+	6850 1900 7600 1900
+Wire Wire Line
+	7600 1900 7600 1600
+Wire Wire Line
+	7600 1600 7500 1600
+Connection ~ 6850 2400
+Wire Wire Line
+	6850 2400 6400 2400
+Wire Wire Line
+	7100 1600 6850 1600
+Wire Wire Line
+	6850 1600 6850 1300
+Connection ~ 6850 1300
+Wire Wire Line
+	6850 1300 7800 1300
+$Comp
+L simbolos:lampara L10
+U 1 1 5BC92C45
+P 3700 3600
+F 0 "L10" V 3453 3400 100 0001 C CNN
+F 1 "lampara" V 3750 3075 50  0001 C CNN
+F 2 "" V 3700 3425 50  0001 C CNN
+F 3 "" V 3700 3425 50  0001 C CNN
+	1    3700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L14
+U 1 1 5BC92C4B
+P 3700 4400
+F 0 "L14" V 3453 4200 100 0001 C CNN
+F 1 "lampara" V 3750 3875 50  0001 C CNN
+F 2 "" V 3700 4225 50  0001 C CNN
+F 3 "" V 3700 4225 50  0001 C CNN
+	1    3700 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BC92C51
+P 6500 3700
+F 0 "" H 6550 3700 100 0000 L CNN
+F 1 "bateria" H 6650 3650 50  0001 C CNN
+F 2 "" H 6500 3575 50  0001 C CNN
+F 3 "" H 6500 3575 50  0001 C CNN
+	1    6500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3300 3900 3600
+Wire Wire Line
+	3900 4400 3700 4400
+Wire Wire Line
+	2500 3300 2500 3700
+Wire Wire Line
+	2500 4750 2850 4750
+Wire Wire Line
+	3900 4750 3900 4400
+Connection ~ 3900 4400
+Connection ~ 3900 3600
+Wire Wire Line
+	3900 3600 3900 4400
+Wire Wire Line
+	3700 3600 3900 3600
+Wire Wire Line
+	2500 3300 3900 3300
+Wire Wire Line
+	2500 4200 2500 4750
+Wire Wire Line
+	2850 4750 2850 4100
+Wire Wire Line
+	3150 4100 3150 3600
+Wire Wire Line
+	3150 3600 3300 3600
+Wire Wire Line
+	3150 4100 3150 4400
+Wire Wire Line
+	3150 4400 3300 4400
+Connection ~ 3150 4100
+Connection ~ 2850 4750
+Wire Wire Line
+	2850 4750 3900 4750
+Wire Wire Line
+	2850 4100 3150 4100
+$Comp
+L simbolos:lampara L9
+U 1 1 5BC989B6
+P 1650 3600
+F 0 "L9" V 1403 3400 100 0001 C CNN
+F 1 "lampara" V 1700 3075 50  0001 C CNN
+F 2 "" V 1650 3425 50  0001 C CNN
+F 3 "" V 1650 3425 50  0001 C CNN
+	1    1650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L13
+U 1 1 5BC989BC
+P 1650 4400
+F 0 "L13" V 1403 4200 100 0001 C CNN
+F 1 "lampara" V 1700 3875 50  0001 C CNN
+F 2 "" V 1650 4225 50  0001 C CNN
+F 3 "" V 1650 4225 50  0001 C CNN
+	1    1650 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BC989C2
+P 4500 3700
+F 0 "" H 4550 3700 100 0000 L CNN
+F 1 "bateria" H 4650 3650 50  0001 C CNN
+F 2 "" H 4500 3575 50  0001 C CNN
+F 3 "" H 4500 3575 50  0001 C CNN
+	1    4500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L17
+U 1 1 5BC989CF
+P 1700 5700
+F 0 "L17" V 1453 5500 100 0001 C CNN
+F 1 "lampara" V 1750 5175 50  0001 C CNN
+F 2 "" V 1700 5525 50  0001 C CNN
+F 3 "" V 1700 5525 50  0001 C CNN
+	1    1700 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L21
+U 1 1 5BC989D5
+P 1700 6500
+F 0 "L21" V 1453 6300 100 0001 C CNN
+F 1 "lampara" V 1750 5975 50  0001 C CNN
+F 2 "" V 1700 6325 50  0001 C CNN
+F 3 "" V 1700 6325 50  0001 C CNN
+	1    1700 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BC989DB
+P 500 5800
+F 0 "" H 550 5800 100 0000 L CNN
+F 1 "bateria" H 650 5750 50  0001 C CNN
+F 2 "" H 500 5675 50  0001 C CNN
+F 3 "" H 500 5675 50  0001 C CNN
+	1    500  5800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	250  5200 8050 5200
+Wire Notes Line
+	250  3100 8050 3100
+Wire Wire Line
+	550  3750 550  3600
+Wire Wire Line
+	550  3600 1150 3600
+Wire Wire Line
+	1650 3600 1750 3600
+Wire Wire Line
+	1750 3600 1750 4100
+Wire Wire Line
+	1750 4100 1150 4100
+Wire Wire Line
+	1150 4100 1150 4400
+Wire Wire Line
+	1150 4400 1250 4400
+Wire Wire Line
+	1650 4400 1950 4400
+Wire Wire Line
+	1950 4400 1950 3900
+Wire Wire Line
+	1950 3900 1150 3900
+Wire Wire Line
+	1150 3900 1150 3600
+Connection ~ 1150 3600
+Wire Wire Line
+	1150 3600 1250 3600
+Wire Wire Line
+	550  4250 550  4400
+Wire Wire Line
+	550  4400 1150 4400
+Connection ~ 1150 4400
+$Comp
+L simbolos:lampara L11
+U 1 1 5BCA88A3
+P 5600 3600
+F 0 "L11" V 5353 3400 100 0001 C CNN
+F 1 "lampara" V 5650 3075 50  0001 C CNN
+F 2 "" V 5600 3425 50  0001 C CNN
+F 3 "" V 5600 3425 50  0001 C CNN
+	1    5600 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L15
+U 1 1 5BCA88A9
+P 5600 4400
+F 0 "L15" V 5353 4200 100 0001 C CNN
+F 1 "lampara" V 5650 3875 50  0001 C CNN
+F 2 "" V 5600 4225 50  0001 C CNN
+F 3 "" V 5600 4225 50  0001 C CNN
+	1    5600 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BCA88AF
+P 550 3750
+F 0 "" H 600 3750 100 0000 L CNN
+F 1 "bateria" H 700 3700 50  0001 C CNN
+F 2 "" H 550 3625 50  0001 C CNN
+F 3 "" H 550 3625 50  0001 C CNN
+	1    550  3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L12
+U 1 1 5BCA992A
+P 7600 3600
+F 0 "L12" V 7353 3400 100 0001 C CNN
+F 1 "lampara" V 7650 3075 50  0001 C CNN
+F 2 "" V 7600 3425 50  0001 C CNN
+F 3 "" V 7600 3425 50  0001 C CNN
+	1    7600 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L16
+U 1 1 5BCA9930
+P 7600 4400
+F 0 "L16" V 7353 4200 100 0001 C CNN
+F 1 "lampara" V 7650 3875 50  0001 C CNN
+F 2 "" V 7600 4225 50  0001 C CNN
+F 3 "" V 7600 4225 50  0001 C CNN
+	1    7600 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BCA9936
+P 2500 3700
+F 0 "" H 2550 3700 100 0000 L CNN
+F 1 "bateria" H 2650 3650 50  0001 C CNN
+F 2 "" H 2500 3575 50  0001 C CNN
+F 3 "" H 2500 3575 50  0001 C CNN
+	1    2500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	500  5800 500  5400
+Wire Wire Line
+	500  5400 1100 5400
+Wire Wire Line
+	1900 5400 1900 5700
+Wire Wire Line
+	1900 5700 1700 5700
+Wire Wire Line
+	500  6300 500  6800
+Wire Wire Line
+	500  6800 900  6800
+Wire Wire Line
+	1900 6800 1900 6500
+Wire Wire Line
+	1900 6500 1700 6500
+Wire Wire Line
+	1300 6500 1100 6500
+Wire Wire Line
+	1100 6500 1100 5400
+Connection ~ 1100 5400
+Wire Wire Line
+	1100 5400 1900 5400
+Wire Wire Line
+	1300 5700 900  5700
+Wire Wire Line
+	900  5700 900  6800
+Connection ~ 900  6800
+Wire Wire Line
+	900  6800 1900 6800
+Wire Wire Line
+	4500 3300 5850 3300
+Wire Wire Line
+	5850 3300 5850 3600
+Wire Wire Line
+	5850 3600 5600 3600
+Wire Wire Line
+	4500 4200 4500 4700
+Wire Wire Line
+	4500 4700 5850 4700
+Wire Wire Line
+	5850 4700 5850 4400
+Wire Wire Line
+	5850 4400 5600 4400
+Wire Wire Line
+	5200 3600 4950 3600
+Wire Wire Line
+	4950 3600 4950 4400
+Wire Wire Line
+	4950 4400 5200 4400
+Wire Wire Line
+	6500 3700 6500 3300
+Wire Wire Line
+	6500 3300 7850 3300
+Wire Wire Line
+	7850 3300 7850 3600
+Wire Wire Line
+	7850 3600 7600 3600
+Wire Wire Line
+	6500 4200 6500 4700
+Wire Wire Line
+	6500 4700 6900 4700
+Wire Wire Line
+	7850 4700 7850 4400
+Wire Wire Line
+	7850 4400 7600 4400
+Wire Wire Line
+	7200 4400 7100 4400
+Wire Wire Line
+	7100 4400 7100 4000
+Wire Wire Line
+	7100 4000 7850 4000
+Wire Wire Line
+	7850 4000 7850 3600
+Connection ~ 7850 3600
+Wire Wire Line
+	7200 3600 6900 3600
+Wire Wire Line
+	6900 3600 6900 4700
+Connection ~ 6900 4700
+Wire Wire Line
+	6900 4700 7850 4700
+Wire Notes Line
+	250  7300 8050 7300
+$Comp
+L simbolos:lampara L18
+U 1 1 5BCD8F90
+P 3600 5700
+F 0 "L18" V 3353 5500 100 0001 C CNN
+F 1 "lampara" V 3650 5175 50  0001 C CNN
+F 2 "" V 3600 5525 50  0001 C CNN
+F 3 "" V 3600 5525 50  0001 C CNN
+	1    3600 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L22
+U 1 1 5BCD8F96
+P 3600 6500
+F 0 "L22" V 3353 6300 100 0001 C CNN
+F 1 "lampara" V 3650 5975 50  0001 C CNN
+F 2 "" V 3600 6325 50  0001 C CNN
+F 3 "" V 3600 6325 50  0001 C CNN
+	1    3600 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BCD8F9C
+P 2500 5800
+F 0 "" H 2550 5800 100 0000 L CNN
+F 1 "bateria" H 2650 5750 50  0001 C CNN
+F 2 "" H 2500 5675 50  0001 C CNN
+F 3 "" H 2500 5675 50  0001 C CNN
+	1    2500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L19
+U 1 1 5BCDB996
+P 5600 5700
+F 0 "L19" V 5353 5500 100 0001 C CNN
+F 1 "lampara" V 5650 5175 50  0001 C CNN
+F 2 "" V 5600 5525 50  0001 C CNN
+F 3 "" V 5600 5525 50  0001 C CNN
+	1    5600 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L23
+U 1 1 5BCDB99C
+P 5600 6500
+F 0 "L23" V 5353 6300 100 0001 C CNN
+F 1 "lampara" V 5650 5975 50  0001 C CNN
+F 2 "" V 5600 6325 50  0001 C CNN
+F 3 "" V 5600 6325 50  0001 C CNN
+	1    5600 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BCDB9A2
+P 4500 5800
+F 0 "" H 4550 5800 100 0000 L CNN
+F 1 "bateria" H 4650 5750 50  0001 C CNN
+F 2 "" H 4500 5675 50  0001 C CNN
+F 3 "" H 4500 5675 50  0001 C CNN
+	1    4500 5800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	250  1000 8050 1000
+Text Notes 350  850  0    100  ~ 0
+ALUMNO:________________________________________ GRUPO:________ FECHA:__________\n
+$Comp
+L simbolos:CopyRight CP1
+U 1 1 5BD1D4ED
+P 4100 11400
+F 0 "CP1" H 4525 11725 40  0001 C CNN
+F 1 "CopyRight" H 4275 11725 40  0001 C CNN
+F 2 "" H 4000 11750 50  0001 C CNN
+F 3 "" H 4100 11600 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 4075 11350 50  0000 R CNN "License"
+F 5 "" H 4650 11350 50  0000 C CNN "Author"
+F 6 "" H 4225 11350 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4125 11350 50  0000 L CNN "Web"
+	1    4100 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L3
+U 1 1 5BD27AF2
+P 5600 1500
+F 0 "L3" V 5353 1300 100 0001 C CNN
+F 1 "lampara" V 5650 975 50  0001 C CNN
+F 2 "" V 5600 1325 50  0001 C CNN
+F 3 "" V 5600 1325 50  0001 C CNN
+	1    5600 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L7
+U 1 1 5BD27AF8
+P 5600 2300
+F 0 "L7" V 5353 2100 100 0001 C CNN
+F 1 "lampara" V 5650 1775 50  0001 C CNN
+F 2 "" V 5600 2125 50  0001 C CNN
+F 3 "" V 5600 2125 50  0001 C CNN
+	1    5600 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD27AFE
+P 600 1650
+F 0 "" H 650 1650 100 0000 L CNN
+F 1 "bateria" H 750 1600 50  0001 C CNN
+F 2 "" H 600 1525 50  0001 C CNN
+F 3 "" H 600 1525 50  0001 C CNN
+	1    600  1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1600 4500 1200
+Wire Wire Line
+	4500 1200 5000 1200
+Wire Wire Line
+	5000 1200 5000 1500
+Wire Wire Line
+	5000 2300 5200 2300
+Wire Wire Line
+	5000 1500 5200 1500
+Connection ~ 5000 1500
+Wire Wire Line
+	5000 1500 5000 1900
+Wire Wire Line
+	5600 1500 5800 1500
+Wire Wire Line
+	5800 1500 5800 1900
+Wire Wire Line
+	5800 2300 5600 2300
+Wire Wire Line
+	5800 2300 5800 2600
+Wire Wire Line
+	5800 2600 4500 2600
+Wire Wire Line
+	4500 2600 4500 2100
+Connection ~ 5800 2300
+Wire Wire Line
+	5000 1900 5800 1900
+Connection ~ 5000 1900
+Wire Wire Line
+	5000 1900 5000 2300
+Connection ~ 5800 1900
+Wire Wire Line
+	5800 1900 5800 2300
+$Comp
+L simbolos:lampara L20
+U 1 1 5BD5B1B1
+P 7600 5700
+F 0 "L20" V 7353 5500 100 0001 C CNN
+F 1 "lampara" V 7650 5175 50  0001 C CNN
+F 2 "" V 7600 5525 50  0001 C CNN
+F 3 "" V 7600 5525 50  0001 C CNN
+	1    7600 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L24
+U 1 1 5BD5B1B7
+P 7600 6500
+F 0 "L24" V 7353 6300 100 0001 C CNN
+F 1 "lampara" V 7650 5975 50  0001 C CNN
+F 2 "" V 7600 6325 50  0001 C CNN
+F 3 "" V 7600 6325 50  0001 C CNN
+	1    7600 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD5B1BD
+P 6400 5800
+F 0 "" H 6450 5800 100 0000 L CNN
+F 1 "bateria" H 6550 5750 50  0001 C CNN
+F 2 "" H 6400 5675 50  0001 C CNN
+F 3 "" H 6400 5675 50  0001 C CNN
+	1    6400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L26
+U 1 1 5BD8BEB7
+P 1600 7800
+F 0 "L26" V 1353 7600 100 0001 C CNN
+F 1 "lampara" V 1650 7275 50  0001 C CNN
+F 2 "" V 1600 7625 50  0001 C CNN
+F 3 "" V 1600 7625 50  0001 C CNN
+	1    1600 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L30
+U 1 1 5BD8BEBD
+P 1600 8600
+F 0 "L30" V 1353 8400 100 0001 C CNN
+F 1 "lampara" V 1650 8075 50  0001 C CNN
+F 2 "" V 1600 8425 50  0001 C CNN
+F 3 "" V 1600 8425 50  0001 C CNN
+	1    1600 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD8BEC3
+P 500 7900
+F 0 "" H 550 7900 100 0000 L CNN
+F 1 "bateria" H 650 7850 50  0001 C CNN
+F 2 "" H 500 7775 50  0001 C CNN
+F 3 "" H 500 7775 50  0001 C CNN
+	1    500  7900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	250  9400 8050 9400
+$Comp
+L simbolos:lampara L27
+U 1 1 5BD8BECA
+P 3600 7800
+F 0 "L27" V 3353 7600 100 0001 C CNN
+F 1 "lampara" V 3650 7275 50  0001 C CNN
+F 2 "" V 3600 7625 50  0001 C CNN
+F 3 "" V 3600 7625 50  0001 C CNN
+	1    3600 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L31
+U 1 1 5BD8BED0
+P 3600 8600
+F 0 "L31" V 3353 8400 100 0001 C CNN
+F 1 "lampara" V 3650 8075 50  0001 C CNN
+F 2 "" V 3600 8425 50  0001 C CNN
+F 3 "" V 3600 8425 50  0001 C CNN
+	1    3600 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD8BED6
+P 2500 7900
+F 0 "" H 2550 7900 100 0000 L CNN
+F 1 "bateria" H 2650 7850 50  0001 C CNN
+F 2 "" H 2500 7775 50  0001 C CNN
+F 3 "" H 2500 7775 50  0001 C CNN
+	1    2500 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L28
+U 1 1 5BD8BEDC
+P 5550 7800
+F 0 "L28" V 5303 7600 100 0001 C CNN
+F 1 "lampara" V 5600 7275 50  0001 C CNN
+F 2 "" V 5550 7625 50  0001 C CNN
+F 3 "" V 5550 7625 50  0001 C CNN
+	1    5550 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L32
+U 1 1 5BD8BEE2
+P 5550 8600
+F 0 "L32" V 5303 8400 100 0001 C CNN
+F 1 "lampara" V 5600 8075 50  0001 C CNN
+F 2 "" V 5550 8425 50  0001 C CNN
+F 3 "" V 5550 8425 50  0001 C CNN
+	1    5550 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD8BEE8
+P 4500 7900
+F 0 "" H 4550 7900 100 0000 L CNN
+F 1 "bateria" H 4650 7850 50  0001 C CNN
+F 2 "" H 4500 7775 50  0001 C CNN
+F 3 "" H 4500 7775 50  0001 C CNN
+	1    4500 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L25
+U 1 1 5BD8BEEE
+P 7600 7700
+F 0 "L25" V 7353 7500 100 0001 C CNN
+F 1 "lampara" V 7650 7175 50  0001 C CNN
+F 2 "" V 7600 7525 50  0001 C CNN
+F 3 "" V 7600 7525 50  0001 C CNN
+	1    7600 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L29
+U 1 1 5BD8BEF4
+P 7600 8500
+F 0 "L29" V 7353 8300 100 0001 C CNN
+F 1 "lampara" V 7650 7975 50  0001 C CNN
+F 2 "" V 7600 8325 50  0001 C CNN
+F 3 "" V 7600 8325 50  0001 C CNN
+	1    7600 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD8BEFA
+P 6450 7900
+F 0 "" H 6500 7900 100 0000 L CNN
+F 1 "bateria" H 6600 7850 50  0001 C CNN
+F 2 "" H 6450 7775 50  0001 C CNN
+F 3 "" H 6450 7775 50  0001 C CNN
+	1    6450 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L36
+U 1 1 5BD8F77D
+P 1600 10000
+F 0 "L36" V 1353 9800 100 0001 C CNN
+F 1 "lampara" V 1650 9475 50  0001 C CNN
+F 2 "" V 1600 9825 50  0001 C CNN
+F 3 "" V 1600 9825 50  0001 C CNN
+	1    1600 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L39
+U 1 1 5BD8F783
+P 1600 10800
+F 0 "L39" V 1353 10600 100 0001 C CNN
+F 1 "lampara" V 1650 10275 50  0001 C CNN
+F 2 "" V 1600 10625 50  0001 C CNN
+F 3 "" V 1600 10625 50  0001 C CNN
+	1    1600 10800
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD8F789
+P 500 10050
+F 0 "" H 550 10050 100 0000 L CNN
+F 1 "bateria" H 650 10000 50  0001 C CNN
+F 2 "" H 500 9925 50  0001 C CNN
+F 3 "" H 500 9925 50  0001 C CNN
+	1    500  10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L33
+U 1 1 5BD8F790
+P 3700 9700
+F 0 "L33" V 3453 9500 100 0001 C CNN
+F 1 "lampara" V 3750 9175 50  0001 C CNN
+F 2 "" V 3700 9525 50  0001 C CNN
+F 3 "" V 3700 9525 50  0001 C CNN
+	1    3700 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L40
+U 1 1 5BD8F796
+P 3700 10800
+F 0 "L40" V 3453 10600 100 0001 C CNN
+F 1 "lampara" V 3750 10275 50  0001 C CNN
+F 2 "" V 3700 10625 50  0001 C CNN
+F 3 "" V 3700 10625 50  0001 C CNN
+	1    3700 10800
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD8F79C
+P 4500 10050
+F 0 "" H 4550 10050 100 0000 L CNN
+F 1 "bateria" H 4650 10000 50  0001 C CNN
+F 2 "" H 4500 9925 50  0001 C CNN
+F 3 "" H 4500 9925 50  0001 C CNN
+	1    4500 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L34
+U 1 1 5BD8F7A2
+P 5550 9900
+F 0 "L34" V 5303 9700 100 0001 C CNN
+F 1 "lampara" V 5600 9375 50  0001 C CNN
+F 2 "" V 5550 9725 50  0001 C CNN
+F 3 "" V 5550 9725 50  0001 C CNN
+	1    5550 9900
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L37
+U 1 1 5BD8F7A8
+P 5550 10700
+F 0 "L37" V 5303 10500 100 0001 C CNN
+F 1 "lampara" V 5600 10175 50  0001 C CNN
+F 2 "" V 5550 10525 50  0001 C CNN
+F 3 "" V 5550 10525 50  0001 C CNN
+	1    5550 10700
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD8F7AE
+P 6600 10050
+F 0 "" H 6650 10050 100 0000 L CNN
+F 1 "bateria" H 6750 10000 50  0001 C CNN
+F 2 "" H 6600 9925 50  0001 C CNN
+F 3 "" H 6600 9925 50  0001 C CNN
+	1    6600 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L35
+U 1 1 5BD8F7B4
+P 7600 9900
+F 0 "L35" V 7353 9700 100 0001 C CNN
+F 1 "lampara" V 7650 9375 50  0001 C CNN
+F 2 "" V 7600 9725 50  0001 C CNN
+F 3 "" V 7600 9725 50  0001 C CNN
+	1    7600 9900
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:lampara L38
+U 1 1 5BD8F7BA
+P 7600 10700
+F 0 "L38" V 7353 10500 100 0001 C CNN
+F 1 "lampara" V 7650 10175 50  0001 C CNN
+F 2 "" V 7600 10525 50  0001 C CNN
+F 3 "" V 7600 10525 50  0001 C CNN
+	1    7600 10700
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:bateria V
+U 1 1 5BD8F7C0
+P 2600 10050
+F 0 "" H 2650 10050 100 0000 L CNN
+F 1 "bateria" H 2750 10000 50  0001 C CNN
+F 2 "" H 2600 9925 50  0001 C CNN
+F 3 "" H 2600 9925 50  0001 C CNN
+	1    2600 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5800 2500 5400
+Wire Wire Line
+	2500 5400 3900 5400
+Wire Wire Line
+	3900 5400 3900 6800
+Wire Wire Line
+	3900 6800 3000 6800
+Wire Wire Line
+	3000 6800 3000 6500
+Wire Wire Line
+	3000 6500 3200 6500
+Wire Wire Line
+	2500 6300 2500 6800
+Wire Wire Line
+	2500 6800 2900 6800
+Wire Wire Line
+	2900 6800 2900 5700
+Wire Wire Line
+	2900 5700 3200 5700
+Wire Wire Line
+	3600 5700 3700 5700
+Wire Wire Line
+	3700 5700 3700 6500
+Wire Wire Line
+	3700 6500 3600 6500
+Wire Wire Line
+	5600 5700 5800 5700
+Wire Wire Line
+	5800 5700 5800 5400
+Wire Wire Line
+	5800 5400 4850 5400
+Wire Wire Line
+	4500 5400 4500 5800
+Wire Wire Line
+	4500 6300 4500 6800
+Wire Wire Line
+	4500 6800 5800 6800
+Wire Wire Line
+	5800 6800 5800 6500
+Wire Wire Line
+	5800 6100 5050 6100
+Wire Wire Line
+	5050 6100 5050 5700
+Wire Wire Line
+	5050 5700 5200 5700
+Wire Wire Line
+	5200 6500 4850 6500
+Wire Wire Line
+	4850 6500 4850 5400
+Connection ~ 4850 5400
+Wire Wire Line
+	4850 5400 4500 5400
+Wire Wire Line
+	5600 6500 5800 6500
+Connection ~ 5800 6500
+Wire Wire Line
+	5800 6500 5800 6100
+Wire Wire Line
+	6400 5800 6400 5400
+Wire Wire Line
+	6400 5400 6800 5400
+Wire Wire Line
+	6800 5400 6800 6500
+Wire Wire Line
+	6800 6500 7200 6500
+Wire Wire Line
+	6800 5400 6950 5400
+Wire Wire Line
+	7100 5400 7100 5700
+Wire Wire Line
+	7100 5700 7200 5700
+Connection ~ 6800 5400
+Wire Wire Line
+	6950 5400 6950 6100
+Wire Wire Line
+	6950 6100 7800 6100
+Wire Wire Line
+	7800 6100 7800 5700
+Wire Wire Line
+	7800 5700 7600 5700
+Connection ~ 6950 5400
+Wire Wire Line
+	6950 5400 7100 5400
+Wire Wire Line
+	7800 6100 7800 6500
+Wire Wire Line
+	7800 6500 7600 6500
+Connection ~ 7800 6100
+Wire Wire Line
+	7800 6500 7800 6800
+Wire Wire Line
+	7800 6800 6400 6800
+Wire Wire Line
+	6400 6800 6400 6300
+Connection ~ 7800 6500
+Wire Wire Line
+	500  7900 500  7500
+Wire Wire Line
+	500  7500 1100 7500
+Wire Wire Line
+	1100 7500 1100 7800
+Wire Wire Line
+	1100 8200 1700 8200
+Wire Wire Line
+	1700 8200 1700 8600
+Wire Wire Line
+	1700 8600 1600 8600
+Wire Wire Line
+	1200 8600 500  8600
+Wire Wire Line
+	500  8600 500  8400
+Wire Wire Line
+	1200 7800 1100 7800
+Connection ~ 1100 7800
+Wire Wire Line
+	1100 7800 1100 8200
+Wire Wire Line
+	1600 7800 1700 7800
+Wire Wire Line
+	1700 7800 1700 7500
+Wire Wire Line
+	1700 7500 1900 7500
+Wire Wire Line
+	1900 7500 1900 8900
+Wire Wire Line
+	1900 8900 500  8900
+Wire Wire Line
+	500  8900 500  8600
+Connection ~ 500  8600
+Wire Wire Line
+	2500 7900 2500 7500
+Wire Wire Line
+	2500 7500 3900 7500
+Wire Wire Line
+	3900 7500 3900 7800
+Wire Wire Line
+	3900 7800 3750 7800
+Wire Wire Line
+	3200 7800 3000 7800
+Wire Wire Line
+	3000 7800 3000 8100
+Wire Wire Line
+	3000 8100 3900 8100
+Wire Wire Line
+	3900 8100 3900 8600
+Wire Wire Line
+	3900 8900 2500 8900
+Wire Wire Line
+	2500 8900 2500 8400
+Wire Wire Line
+	3600 8600 3900 8600
+Connection ~ 3900 8600
+Wire Wire Line
+	3900 8600 3900 8900
+Wire Wire Line
+	3200 8600 3000 8600
+Wire Wire Line
+	3000 8600 3000 8300
+Wire Wire Line
+	3000 8300 3750 8300
+Wire Wire Line
+	3750 8300 3750 7800
+Connection ~ 3750 7800
+Wire Wire Line
+	3750 7800 3600 7800
+Wire Wire Line
+	4500 7900 4500 7500
+Wire Wire Line
+	4500 7500 4900 7500
+Wire Wire Line
+	5700 7500 5700 8600
+Wire Wire Line
+	5700 8600 5550 8600
+Wire Wire Line
+	5150 8600 4900 8600
+Wire Wire Line
+	4900 8600 4900 7800
+Connection ~ 4900 7500
+Wire Wire Line
+	4900 7500 5700 7500
+Wire Wire Line
+	5150 7800 4900 7800
+Connection ~ 4900 7800
+Wire Wire Line
+	4900 7800 4900 7500
+Wire Wire Line
+	5550 7800 5850 7800
+Wire Wire Line
+	5850 7800 5850 8900
+Wire Wire Line
+	5850 8900 4500 8900
+Wire Wire Line
+	4500 8900 4500 8400
+Wire Wire Line
+	6450 7900 6450 7700
+Wire Wire Line
+	6450 7700 7200 7700
+Wire Wire Line
+	6450 8400 6450 8800
+Wire Wire Line
+	6450 8800 7850 8800
+Wire Wire Line
+	7850 8800 7850 8500
+Wire Wire Line
+	7850 8500 7600 8500
+Wire Wire Line
+	7600 7700 7850 7700
+Wire Wire Line
+	7850 7700 7850 8100
+Wire Wire Line
+	7850 8100 6900 8100
+Wire Wire Line
+	6900 8100 6900 8500
+Wire Wire Line
+	6900 8500 7200 8500
+Wire Wire Line
+	500  10050 500  9700
+Wire Wire Line
+	500  9700 1750 9700
+Wire Wire Line
+	1950 9700 1950 10800
+Wire Wire Line
+	1950 10800 1600 10800
+Wire Wire Line
+	1200 10800 1100 10800
+Wire Wire Line
+	500  10800 500  10550
+Wire Wire Line
+	900  10800 900  10000
+Wire Wire Line
+	900  10000 1200 10000
+Connection ~ 900  10800
+Wire Wire Line
+	900  10800 500  10800
+Wire Wire Line
+	1750 9700 1750 10000
+Wire Wire Line
+	1750 10000 1600 10000
+Connection ~ 1750 9700
+Wire Wire Line
+	1750 9700 1950 9700
+Wire Wire Line
+	1750 10000 1750 10400
+Wire Wire Line
+	1750 10400 1100 10400
+Wire Wire Line
+	1100 10400 1100 10800
+Connection ~ 1750 10000
+Connection ~ 1100 10800
+Wire Wire Line
+	1100 10800 900  10800
+Wire Wire Line
+	2600 10050 2600 9900
+Wire Wire Line
+	2600 9900 3000 9900
+Wire Wire Line
+	3000 9900 3000 10300
+Wire Wire Line
+	3000 10300 3900 10300
+Wire Wire Line
+	3900 10300 3900 9700
+Wire Wire Line
+	3900 9700 3700 9700
+Wire Wire Line
+	3900 10300 3900 10800
+Wire Wire Line
+	3900 10800 3700 10800
+Connection ~ 3900 10300
+Wire Wire Line
+	3300 10800 2600 10800
+Wire Wire Line
+	2300 10800 2300 9700
+Wire Wire Line
+	2300 9700 3300 9700
+Wire Wire Line
+	2600 10550 2600 10800
+Connection ~ 2600 10800
+Wire Wire Line
+	2600 10800 2300 10800
+Wire Wire Line
+	4500 10050 4500 9900
+Wire Wire Line
+	4500 9900 5150 9900
+Wire Wire Line
+	4500 10550 4500 10700
+Wire Wire Line
+	4500 10700 4800 10700
+Wire Wire Line
+	4800 10700 4800 10300
+Wire Wire Line
+	4800 10300 5650 10300
+Wire Wire Line
+	5650 10300 5650 10700
+Wire Wire Line
+	5650 10700 5550 10700
+Wire Wire Line
+	5150 10700 5000 10700
+Wire Wire Line
+	5000 10700 5000 9700
+Wire Wire Line
+	5000 9700 4250 9700
+Wire Wire Line
+	4250 9700 4250 11000
+Wire Wire Line
+	4250 11000 5850 11000
+Wire Wire Line
+	5850 11000 5850 9900
+Wire Wire Line
+	5850 9900 5550 9900
+Wire Wire Line
+	6600 10050 6600 9900
+Wire Wire Line
+	6600 9900 7200 9900
+Wire Wire Line
+	6600 10550 6600 10700
+Wire Wire Line
+	6600 10700 7200 10700
+Wire Wire Line
+	7600 10700 7800 10700
+Wire Wire Line
+	7800 10700 7800 10300
+Wire Wire Line
+	7800 9900 7600 9900
+Wire Wire Line
+	7800 10300 7000 10300
+Wire Wire Line
+	7000 10300 7000 11000
+Wire Wire Line
+	7000 11000 6250 11000
+Wire Wire Line
+	6250 11000 6250 9900
+Wire Wire Line
+	6250 9900 6600 9900
+Connection ~ 7800 10300
+Wire Wire Line
+	7800 10300 7800 9900
+Connection ~ 6600 9900
+Wire Notes Line
+	2150 1050 2150 3050
+Wire Notes Line
+	4100 1050 4100 3050
+Wire Notes Line
+	6050 1050 6050 3050
+Wire Notes Line
+	2150 3150 2150 5150
+Wire Notes Line
+	4100 3150 4100 5150
+Wire Notes Line
+	6050 3150 6050 5150
+Wire Notes Line
+	2150 5250 2150 7250
+Wire Notes Line
+	4100 5250 4100 7250
+Wire Notes Line
+	6050 5250 6050 7250
+Wire Notes Line
+	2150 7350 2150 9350
+Wire Notes Line
+	4100 7350 4100 9350
+Wire Notes Line
+	6050 7350 6050 9350
+Wire Notes Line
+	2150 9450 2150 11450
+Wire Notes Line
+	6050 9450 6050 11450
+Wire Notes Line
+	4100 9450 4100 11375
+Wire Wire Line
+	4500 3300 4500 3700
+$Sheet
+S 9100 1100 2100 1300
+U 5BCB2EF8
+F0 "electric-serie-paralelo-2" 100
+F1 "electric-serie-paralelo-2.sch" 100
+$EndSheet
+Text Notes 1125 3025 0    100  ~ 0
+1
+Text Notes 3075 3025 0    100  ~ 0
+2
+Text Notes 5025 3025 0    100  ~ 0
+3
+Text Notes 7050 3025 0    100  ~ 0
+4
+Text Notes 1125 5125 0    100  ~ 0
+5
+Text Notes 3075 5125 0    100  ~ 0
+6
+Text Notes 5025 5125 0    100  ~ 0
+7
+Text Notes 7050 5125 0    100  ~ 0
+8
+Text Notes 1075 11425 0    100  ~ 0
+17
+Text Notes 3025 11425 0    100  ~ 0
+18
+Text Notes 4975 11425 0    100  ~ 0
+19
+Text Notes 7000 11425 0    100  ~ 0
+20
+Text Notes 1125 7225 0    100  ~ 0
+9
+Text Notes 3025 7225 0    100  ~ 0
+10
+Text Notes 4975 7225 0    100  ~ 0
+11
+Text Notes 7000 7225 0    100  ~ 0
+12
+Text Notes 1075 9325 0    100  ~ 0
+13
+Text Notes 3025 9325 0    100  ~ 0
+14
+Text Notes 4975 9325 0    100  ~ 0
+15
+Text Notes 7000 9325 0    100  ~ 0
+16
+$Comp
+L simbolos:CopyRight CP?
+U 1 1 5CA3136B
+P 16200 12825
+F 0 "CP?" H 16625 13150 40  0001 C CNN
+F 1 "CopyRight" H 16375 13150 40  0001 C CNN
+F 2 "" H 16100 13175 50  0001 C CNN
+F 3 "" H 16200 13025 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 16175 12775 50  0000 R CNN "License"
+F 5 "" H 16750 12775 50  0000 C CNN "Author"
+F 6 "" H 16325 12775 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 16225 12775 50  0000 L CNN "Web"
+	1    16200 12825
+	1    0    0    -1  
+$EndComp
+Text Notes 13225 4450 0    100  ~ 0
+1
+Text Notes 15175 4450 0    100  ~ 0
+2
+Text Notes 17125 4450 0    100  ~ 0
+3
+Text Notes 19150 4450 0    100  ~ 0
+4
+Text Notes 13225 6550 0    100  ~ 0
+5
+Text Notes 15175 6550 0    100  ~ 0
+6
+Text Notes 17125 6550 0    100  ~ 0
+7
+Text Notes 19150 6550 0    100  ~ 0
+8
+Text Notes 13175 12850 0    100  ~ 0
+17
+Text Notes 15125 12850 0    100  ~ 0
+18
+Text Notes 17075 12850 0    100  ~ 0
+19
+Text Notes 19100 12850 0    100  ~ 0
+20
+Text Notes 13225 8650 0    100  ~ 0
+9
+Text Notes 15125 8650 0    100  ~ 0
+10
+Text Notes 17075 8650 0    100  ~ 0
+11
+Text Notes 19100 8650 0    100  ~ 0
+12
+Text Notes 13175 10750 0    100  ~ 0
+13
+Text Notes 15125 10750 0    100  ~ 0
+14
+Text Notes 17075 10750 0    100  ~ 0
+15
+Text Notes 19100 10750 0    100  ~ 0
+16
+Wire Wire Line
+	12300 4400 13275 4400
+$EndSCHEMATC

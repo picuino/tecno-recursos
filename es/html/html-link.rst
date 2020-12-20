@@ -1,0 +1,39 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-link:
+
+Hipervínculos
+=============
+Los hipervínculos son enlaces desde un documento a otro documento o
+a otra parte del mismo documento y permiten navegar entre documentos
+con facilidad.
+
+La letra H del nombre HTML se refiere a los Hipervínculos.
+
+
+Etiquetas utilizadas
+--------------------
+
+{{ macros.tag('a') }}
+{{ macros.tag('id') }}
+
+
+| Archivos para descargar.
+| :download:`texto.rtf <html/texto.rtf>`
+| :download:`html-link2.html <html/html-link2.html>`
+
+
+Código de la página
+-------------------
+
+.. image:: html/_thumbs/html-link-html.png
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-link-web.png
+

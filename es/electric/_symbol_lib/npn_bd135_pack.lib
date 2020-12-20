@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# www.picuino.com
+# Copyright (c) 2018 by Carlos Pardo
+# License CC BY-SA 4.0
+#
+# NPN_BD135_pack
+#
+DEF ~NPN_BD135_pack Q 0 40 Y Y 1 F N
+F0 "Q" 50 -200 100 H V L CNN
+F1 "NPN_BD135_pack" -300 -200 50 V I C CNN
+F2 "" 1200 -200 50 H I C CNN
+F3 "" 1200 -200 50 H I C CNN
+DRAW
+A -295 -200 148 -240 240 0 0 0 N -160 -260 -160 -140
+A -178 -250 20 -1495 -291 0 0 0 N -195 -260 -160 -260
+A -178 -150 20 1495 291 0 0 0 N -195 -140 -160 -140
+A -60 -200 148 -1560 1560 0 0 0 N -195 -260 -195 -140
+T 0 -25 75 75 0 0 0 B Normal 0 C C
+T 0 -25 -125 75 0 0 0 C Normal 0 C C
+T 0 -25 -325 75 0 0 0 E Normal 0 C C
+S -300 50 -225 -450 0 1 0 N
+P 2 0 0 0 -190 -265 -200 -290 N
+P 2 0 0 0 -190 -135 -200 -110 N
+P 4 0 0 0 -225 50 -75 25 -75 -425 -225 -450 N
+X ~ ~ 0 -400 75 L 45 50 1 1 I
+X ~ ~ 0 -200 75 L 45 50 1 1 I
+X ~ ~ 0 0 75 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

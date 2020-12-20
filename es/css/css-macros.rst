@@ -1,0 +1,101 @@
+﻿{#- **********  SCRATCH MACROS  ********** -#}
+
+{%- macro tag(name) -%}
+
+{%- if name=='style' -%}
+``<style> </style>``
+   Etiqueta que permite incluir estilos en el documento
+   html.
+
+   Esta etiqueta debe insertarse en la sección <head>
+   del documento.
+
+{%- elif name=='css_comment' -%}
+``/* Comentario */``
+   Este es el formato que tienen los comentarios dentro
+   de la sección <style> o dentro de un fichero CSS
+   de hoja de estilos.
+
+{%- elif name=='link' -%}
+Link a hoja de estilo css:
+
+.. code-block:: html
+
+   <link rel="stylesheet" type="text/css"
+         href="file.css" />
+
+Hay que sustituir file.css por la hoja de estilo
+que se quiera utilizar.
+
+{%- elif name=='span' -%}
+``<span class="">  </span>``
+   La etiqueta span permite asignar un estilo a un **elemento
+   pequeño** dentro de una etiqueta de bloque.
+   
+   Por ejemplo asigna un color a una palabra dentro de un 
+   párrafo.  
+   
+   ``<p> Frase con <span class="Azul"> color azul </span> </p>``
+   
+{%- elif name=='div' -%}
+``<div class="">  </div>``
+   La etiqueta div permite asignar un estilo a una sección, es decir
+   un **conjunto grande** de bloques, dentro del documento HTML.
+   
+   Por ejemplo asigna un color diferente a todo el texto
+   que esté en la cabecera de una página web.
+
+{%- elif name=='style_template' -%}
+Plantilla HTML con enlace a hoja CSS.
+
+.. code-block:: html
+
+   <html>
+   
+   <!-- Cabecera -->
+   <head>
+      <title>  </title>
+      <link rel="stylesheet" type="text/css"
+            href=".css" />
+   </head>
+   
+   <!-- Cuerpo -->
+   <body>
+   
+   
+   <body>
+   </html>
+
+{%- else -%}
+
+.. ERROR. Etiqueta no reconocida: {{ name }}
+
+{%- endif %}
+{% endmacro -%}
+
+
+{%- macro images_html_css_web(name) -%}
+
+Fichero **{{name}}.html**
+
+.. literalinclude:: css/{{name}}.html
+   :language: html
+   :linenos:
+   :name: {{name}}
+
+..  .. image:: css/_thumbs/{{name}}-html.png
+
+
+Fichero **{{name}}.css**
+
+.. image:: css/_thumbs/{{name}}-css.png
+
+
+Resultado
+---------
+
+.. image:: css/_thumbs/{{name}}-web.png
+
+{% endmacro -%}
+
+

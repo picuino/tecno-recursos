@@ -1,0 +1,47 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-table1:
+
+Tablas de datos
+===============
+
+{{ macros.tag('table') }}
+{{ macros.tag('tr') }}
+{{ macros.tag('thead') }}
+{{ macros.tag('th') }}
+{{ macros.tag('tbody') }}
+{{ macros.tag('td') }}
+{{ macros.tag('comment') }}
+
+Código de una tabla simple
+--------------------------
+
+.. image:: html/_thumbs/html-table1-html.png
+
+{{ macros.tag('table_template') }}
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-table1-web.png
+
+
+Código de una tabla con encabezado
+----------------------------------
+
+.. image:: html/_thumbs/html-table2-html.png
+
+{{ macros.tag('table_template') }}
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-table2-web.png
+

@@ -1,0 +1,1421 @@
+ <!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es-es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es-es" > <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tecno Recursos. Recursos educativos para Tecnología" />
+
+  
+  <title>9. Zumbador - Panel de Control PC42 - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/es/arduprog/pc42-buzzer.html"/>
+
+  
+  
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Buscar en Picuino"
+            href="../../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="next" title="Ardublock" href="ardublock-index.html" />
+    <link rel="prev" title="8. Display de 7 segmentos" href="pc42-display1.html" /> 
+
+  <script src="../../_static/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+  
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tecno Recursos</a>
+      </nav>
+	  
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Arduino</a> &raquo;</li>
+        
+          <li><a href="pc42-index.html">Panel de Control PC42</a> &raquo;</li>
+        
+      <li>9. Zumbador</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/es/arduprog/pc42-buzzer.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="zumbador">
+<span id="pc42-buzzer"></span><h1>9. Zumbador<a class="headerlink" href="#zumbador" title="Enlazar permanentemente con este título">¶</a></h1>
+<a class="reference internal image-reference" href="../../_images/img-0094.jpg"><img alt="Zumbador electromagnético." class="align-center" src="../../_images/img-0094.jpg" style="width: 300px;" /></a>
+<div class="section" id="objetivos">
+<h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li><p>Emitir un tono de una frecuencia determinada con el zumbador</p></li>
+<li><p>Controlar el tiempo de emisión de sonido</p></li>
+<li><p>Emitir notas musicales con el zumbador</p></li>
+</ul>
+</div>
+<div class="section" id="zumbador-o-buzzer-emisor-de-sonidos">
+<h2>Zumbador o Buzzer emisor de sonidos<a class="headerlink" href="#zumbador-o-buzzer-emisor-de-sonidos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El zumbador (en inglés buzzer) es un pequeño altavoz con forma cilíndrica y
+de color negro, situado entre el teclado y el display.
+Su función es hacer señales acústicas para llamar la atención, por esa razón
+tiene un sonido especialmente agudo y penetrante.
+La calidad del sonido emitido es pobre. El zumbador no tiene control sobre
+la intensidad del sonido ni sobre su timbre (sonoridad).
+Por otro lado, el zumbador sí que tiene la capacidad de reproducir diferentes
+notas musicales controlando la frecuencia (tono) y la duración (figura) del
+sonido emitido. Esto le permite reproducir partituras de una forma simple.</p>
+<p>Las unidades utilizadas para medir frecuencia serán los <strong>hercios</strong>,
+o su símbolo <strong>Hz</strong>.</p>
+<p>Un hercio equivale a una oscilación por segundo. Otra unidad común es
+el kilohercio o kHz que equivale a 1000 Hz ó mil oscilaciones por
+segundo.</p>
+<p>Las unidades utilizadas para medir tiempo serán los <strong>milisegundos</strong>
+o su símbolo <strong>ms</strong></p>
+<p>Mil milisegundos equivalen a un segundo.</p>
+<p>El oido humano es más sensible al rango de frecuencias que va desde
+500 Hz (graves) hasta los 2000 Hz (agudos). Este rango lo cubre
+aproximadamente las octavas 5ª y 6ª (octavas musicales segunda y
+tercera)</p>
+</div>
+<div class="section" id="la-funcion-buzzfreq">
+<h2>La función <a class="reference internal" href="#_CPPv48buzzFreqi" title="buzzFreq"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzFreq()</span></code></a><a class="headerlink" href="#la-funcion-buzzfreq" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="function">
+<dt id="_CPPv48buzzFreqi">
+<span id="_CPPv38buzzFreqi"></span><span id="_CPPv28buzzFreqi"></span><span id="buzzFreq__i"></span><code class="sig-name descname">buzzFreq</code><span class="sig-paren">(</span>int <em>Frequency</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48buzzFreqi" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<dd><p>Esta función emite un sonido por el zumbador con una frecuencia determinada.</p>
+<p><code class="docutils literal notranslate"><span class="pre">Frequency</span></code>: este parámetro establece la frecuencia del sonido que se va a
+emitir por el zumbador.
+Una frecuencia cero apaga el oscilador interno y mantiene al zumbador en silencio.
+El rango de frecuencias válidas va desde 15 hercios hasta 32767 hercios.</p>
+</dd></dl>
+
+<p>El oído humano puede llegar a percibir sonidos de una frecuencia hasta
+20000 hercios en el mejor de los casos. Por encima de 20000 Hz, comienzan
+los ultrasonidos, que los humanos no pueden percibir.
+A medida que una persona se hace mayor, su sensibilidad a las altas
+frecuencias decrece, de forma que, en la práctica, la mayoría de las
+personas no son capaces de distinguir sonidos con frecuencias por
+encima de 16000 Hz.</p>
+<p>En el siguiente ejemplo, al presionar el pulsador 1, el zumbador emitirá un
+sonido de 2000 Hz durante un tiempo de 62 milisegundos y permanecerá apagado
+durante un tiempo de 62 milisegundos. El sonido se repetirá mientras el pulsador 1
+permanezca pulsado.</p>
+<div class="highlight-Arduino notranslate" id="buzzer-buzzfreq-alarm1"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Emite un tono de 2000 hercios al presionar el pulsador 1</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>           <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="c1">// Si se presiona el pulsador 1</span>
+   <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="p">{</span>
+      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzFreq</span><span class="p">(</span><span class="mi">2000</span><span class="p">);</span> <span class="c1">// Emite un sonido de 2000 Hz</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">62</span><span class="p">);</span>         <span class="c1">// durante 62 milisegundos</span>
+      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzFreq</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>    <span class="c1">// Apaga el generador de sonido</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">62</span><span class="p">);</span>         <span class="c1">// durante 62 milisegundos</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="la-funcion-buzztone">
+<h2>La función <a class="reference internal" href="#_CPPv48buzzTonei" title="buzzTone"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzTone()</span></code></a><a class="headerlink" href="#la-funcion-buzztone" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="function">
+<dt id="_CPPv48buzzTonei">
+<span id="_CPPv38buzzTonei"></span><span id="_CPPv28buzzTonei"></span><span id="buzzTone__i"></span><code class="sig-name descname">buzzTone</code><span class="sig-paren">(</span>int <em>Tone</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48buzzTonei" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<dd><p>Esta función es semejante a la función <a class="reference internal" href="#_CPPv48buzzFreqi" title="buzzFreq"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzFreq()</span></code></a>, produce un sonido de
+una frecuencia determinada por el parámetro <code class="docutils literal notranslate"><span class="pre">Tone</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Tone</span></code>: Nota musical que sonará en el zumbador.
+La nota se puede expresa con un número del 0 al 127 o con una constante.
+La nota 0 (<code class="docutils literal notranslate"><span class="pre">Silence</span></code>) es especial y sirve para silenciar el generador de sonido.</p>
+<p>La siguiente tabla representa las constantes, el valor equivalente y las notas
+que representan para la primera octava musical (cuarta octava en la notación científica).</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 10%" />
+<col style="width: 17%" />
+<col style="width: 24%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Constante</p></th>
+<th class="head"><p>Valor</p></th>
+<th class="head"><p>Frecuencia</p></th>
+<th class="head"><p>Nota Científica</p></th>
+<th class="head"><p>Nota</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Do4</p></td>
+<td><p>49</p></td>
+<td><p>261 Hz</p></td>
+<td><p>C<sub>4</sub></p></td>
+<td><p>Do</p></td>
+</tr>
+<tr class="row-odd"><td><p>Do_4</p></td>
+<td><p>50</p></td>
+<td><p>277 Hz</p></td>
+<td><p>C#<sub>4</sub></p></td>
+<td><p>Do sostenido (Do#)</p></td>
+</tr>
+<tr class="row-even"><td><p>Re4</p></td>
+<td><p>51</p></td>
+<td><p>294 Hz</p></td>
+<td><p>D<sub>4</sub></p></td>
+<td><p>Re</p></td>
+</tr>
+<tr class="row-odd"><td><p>Re_4</p></td>
+<td><p>52</p></td>
+<td><p>311 Hz</p></td>
+<td><p>D#<sub>4</sub></p></td>
+<td><p>Re sostenido (Re#)</p></td>
+</tr>
+<tr class="row-even"><td><p>Mi4</p></td>
+<td><p>53</p></td>
+<td><p>330 Hz</p></td>
+<td><p>E<sub>4</sub></p></td>
+<td><p>Mi</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fa4</p></td>
+<td><p>54</p></td>
+<td><p>349 Hz</p></td>
+<td><p>F<sub>4</sub></p></td>
+<td><p>Fa</p></td>
+</tr>
+<tr class="row-even"><td><p>Fa_4</p></td>
+<td><p>55</p></td>
+<td><p>370 Hz</p></td>
+<td><p>F#<sub>4</sub></p></td>
+<td><p>Fa sostenido (Fa#)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sol4</p></td>
+<td><p>56</p></td>
+<td><p>392 Hz</p></td>
+<td><p>G<sub>4</sub></p></td>
+<td><p>Sol</p></td>
+</tr>
+<tr class="row-even"><td><p>Sol_4</p></td>
+<td><p>57</p></td>
+<td><p>415 Hz</p></td>
+<td><p>G#<sub>4</sub></p></td>
+<td><p>Sol sostenido (Sol#)</p></td>
+</tr>
+<tr class="row-odd"><td><p>La4</p></td>
+<td><p>58</p></td>
+<td><p>440 Hz</p></td>
+<td><p>A<sub>4</sub></p></td>
+<td><p>La</p></td>
+</tr>
+<tr class="row-even"><td><p>La_4</p></td>
+<td><p>59</p></td>
+<td><p>466 Hz</p></td>
+<td><p>A#<sub>4</sub></p></td>
+<td><p>La sostenido (La#)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Si4</p></td>
+<td><p>60</p></td>
+<td><p>494 Hz</p></td>
+<td><p>B<sub>4</sub></p></td>
+<td><p>Si</p></td>
+</tr>
+</tbody>
+</table>
+<p>El resto de octavas tienen la misma denominación para las notas,
+cambiando solo el número final para designar la octava.
+Para cambiar una octava, se puede añadir o restar el número 12:</p>
+<div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do4</span></code> + 12  = <code class="docutils literal notranslate"><span class="pre">Do5</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do4</span></code> - 12  = <code class="docutils literal notranslate"><span class="pre">Do3</span></code></div>
+</div>
+<p>La siguiente tabla muestra el valor y la frecuencia de la nota Do de cada
+una de las octavas:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 10%" />
+<col style="width: 16%" />
+<col style="width: 25%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Constante</p></th>
+<th class="head"><p>Valor</p></th>
+<th class="head"><p>Frecuencia</p></th>
+<th class="head"><p>Nota Científica</p></th>
+<th class="head"><p>Nota</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Silence</p></td>
+<td><p>0</p></td>
+<td><p>0 Hz</p></td>
+<td></td>
+<td><p>Sin sonido (silencio)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Do0</p></td>
+<td><p>1</p></td>
+<td><p>16,35 Hz</p></td>
+<td><p>C<sub>0</sub></p></td>
+<td><p>Do Subcontraoctava</p></td>
+</tr>
+<tr class="row-even"><td><p>Do1</p></td>
+<td><p>13</p></td>
+<td><p>32,70 Hz</p></td>
+<td><p>C<sub>1</sub></p></td>
+<td><p>Do Contraoctava</p></td>
+</tr>
+<tr class="row-odd"><td><p>Do2</p></td>
+<td><p>25</p></td>
+<td><p>65,41 Hz</p></td>
+<td><p>C<sub>2</sub></p></td>
+<td><p>Do Gran octava</p></td>
+</tr>
+<tr class="row-even"><td><p>Do3</p></td>
+<td><p>37</p></td>
+<td><p>130,8 Hz</p></td>
+<td><p>C<sub>3</sub></p></td>
+<td><p>Do Pequeña octava</p></td>
+</tr>
+<tr class="row-odd"><td><p>Do4</p></td>
+<td><p>49</p></td>
+<td><p>261,6 Hz</p></td>
+<td><p>C<sub>4</sub></p></td>
+<td><p>Do Octava prima</p></td>
+</tr>
+<tr class="row-even"><td><p>Do5</p></td>
+<td><p>61</p></td>
+<td><p>523,2 Hz</p></td>
+<td><p>C<sub>5</sub></p></td>
+<td><p>Do Octava segunda</p></td>
+</tr>
+<tr class="row-odd"><td><p>Do6</p></td>
+<td><p>73</p></td>
+<td><p>1046 Hz</p></td>
+<td><p>C<sub>6</sub></p></td>
+<td><p>Do Octava tercera</p></td>
+</tr>
+<tr class="row-even"><td><p>Do7</p></td>
+<td><p>85</p></td>
+<td><p>2093 Hz</p></td>
+<td><p>C<sub>7</sub></p></td>
+<td><p>Do Octava cuarta</p></td>
+</tr>
+<tr class="row-odd"><td><p>Do8</p></td>
+<td><p>97</p></td>
+<td><p>4186 Hz</p></td>
+<td><p>C<sub>8</sub></p></td>
+<td><p>Do Octava quinta</p></td>
+</tr>
+<tr class="row-even"><td><p>Do9</p></td>
+<td><p>109</p></td>
+<td><p>8372 Hz</p></td>
+<td><p>C<sub>9</sub></p></td>
+<td><p>Do Octava sexta</p></td>
+</tr>
+<tr class="row-odd"><td><p>Do10</p></td>
+<td><p>121</p></td>
+<td><p>16744 Hz</p></td>
+<td><p>C<sub>10</sub></p></td>
+<td><p>Do Octava séptima</p></td>
+</tr>
+<tr class="row-even"><td><p>Fa10</p></td>
+<td><p>127</p></td>
+<td><p>23679 Hz</p></td>
+<td><p>F<sub>10</sub></p></td>
+<td><p>Fa Octava séptima</p></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>En el siguiente ejemplo, al presionar el pulsador 1 sonará una nota más grave y al
+presionar el pulsador 2, sonará una nota más aguda.
+La nota inicial será el <code class="docutils literal notranslate"><span class="pre">La</span></code> de la primera octava (<code class="docutils literal notranslate"><span class="pre">La4</span></code>) que es el tono que se utiliza
+habitualmente para afinar instrumentos.</p>
+<div class="highlight-Arduino notranslate" id="buzzer-buzztone-scale"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Emite una nota más grave al presionar el pulsador 1</span>
+<span class="c1">// Emite una nota más aguda al presionar el pulsador 2</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">int</span> <span class="n">nota</span><span class="p">;</span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>          <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">nota</span> <span class="o">=</span> <span class="kr">La4</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="c1">// Muestra la nota actual en el display</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">dispNum</span><span class="p">(</span><span class="n">nota</span><span class="p">);</span>
+
+   <span class="c1">// Si se presiona el pulsador 1</span>
+   <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="p">{</span>
+      <span class="c1">// Calcular una nota más grave</span>
+      <span class="n">nota</span> <span class="o">=</span> <span class="n">nota</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">nota</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">)</span>
+         <span class="n">nota</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">nota</span><span class="p">);</span> <span class="c1">// Emite una nota musical</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>        <span class="c1">// durante 0.1 segundos</span>
+      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>    <span class="c1">// Apaga el generador de sonido</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>        <span class="c1">// durante 0.5 segundos</span>
+   <span class="p">}</span>
+
+   <span class="c1">// Si se presiona el pulsador 2</span>
+   <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span> <span class="p">{</span>
+      <span class="n">nota</span> <span class="o">=</span> <span class="n">nota</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>   <span class="c1">// Calcular una nota más aguda</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">nota</span> <span class="o">&gt;</span> <span class="mi">127</span><span class="p">)</span>
+         <span class="n">nota</span> <span class="o">=</span> <span class="mi">127</span><span class="p">;</span>
+      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">nota</span><span class="p">);</span> <span class="c1">// Emite una nota musical</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>        <span class="c1">// durante 0.1 segundos</span>
+      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>    <span class="c1">// Apaga el generador de sonido</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>        <span class="c1">// durante 0.5 segundos</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<p>El siguiente programa de ejemplo toca la canción de cumpleaños feliz cada
+vez que se presiona el pulsador 1.
+El programa es flexible y permite cambiar el tempo a otro más rápido o más lento,
+cambiando la duración de la nota más corta en la variable 'tempo' de la línea 15).
+También se puede cambiar la octava de la canción a una más aguda o una más grave,
+cambiando el valor de la variable 'octave' en la línea 18.</p>
+<div class="highlight-Arduino notranslate" id="buzzer-buzztone-song"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Al presionar el pulsador 1, suena la canción de &#39;cumpleaños feliz&#39;</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="kr">int</span> <span class="n">tempo</span><span class="p">;</span>
+   <span class="kr">int</span> <span class="n">octave</span><span class="p">;</span>
+
+   <span class="c1">// Establece el tempo, en milisegundos, para la nota más corta</span>
+   <span class="n">tempo</span> <span class="o">=</span> <span class="mi">120</span><span class="p">;</span>
+
+   <span class="c1">// Establece la octava. Hay 12 tonos y semitonos por cada octava</span>
+   <span class="n">octave</span> <span class="o">=</span> <span class="mi">4</span> <span class="o">*</span> <span class="mi">12</span><span class="p">;</span>
+
+   <span class="c1">// Apagar los sonidos</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Canción de cumpleaños feliz</span>
+   <span class="c1">// Primera columna = notas musicales (tono)</span>
+   <span class="c1">// Segunda columna = duración de cada nota (figura musical)</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Re0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Mi0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Re0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Sol0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do1</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">La0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Mi0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Re0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">La_0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">La_0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">La0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Sol0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="la-funcion-buzzplay">
+<h2>La función <a class="reference internal" href="#_CPPv48buzzPlayii" title="buzzPlay"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzPlay()</span></code></a><a class="headerlink" href="#la-funcion-buzzplay" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="function">
+<dt id="_CPPv48buzzPlayii">
+<span id="_CPPv38buzzPlayii"></span><span id="_CPPv28buzzPlayii"></span><span id="buzzPlay__i.i"></span><code class="sig-name descname">buzzPlay</code><span class="sig-paren">(</span>int <em>Tone</em>, int <em>milliseconds</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48buzzPlayii" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<dd><p>Esta función permite hacer sonar en el zumbador una o más notas
+musicales durante un tiempo determinado.
+Los parámetros de la función son los siguientes:</p>
+<p><code class="docutils literal notranslate"><span class="pre">Tone</span></code>: Nota musical que sonará en el zumbador.
+Para más detalles, ver :ref:buzzTone</p>
+<p><code class="docutils literal notranslate"><span class="pre">milliseconds</span></code>: Tiempo en milisegundos que sonará la
+nota musical. Debe estar en un rango de 1 a 2000.</p>
+<p>La función se ejecuta inmediatamente y el programa de Arduino
+continúa con la siguiente instrucción mientras el zumbador suena.
+Esto permite enviar instantáneamente hasta 16 notas, que se memorizan
+y van sonando una a una.
+Esta función permite que suene una partitura mientras el programa
+de Arduino continúa ejecutándose.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv48buzzPlayv">
+<span id="_CPPv38buzzPlayv"></span><span id="_CPPv28buzzPlayv"></span><span id="buzzPlay"></span>int <code class="sig-name descname">buzzPlay</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48buzzPlayv" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<dd><p>La función <a class="reference internal" href="#_CPPv48buzzPlayii" title="buzzPlay"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzPlay()</span></code></a> sin argumentos, devuelve el número de notas
+que aún no han terminado de sonar de la partitura enviada al zumbador.
+La memoria de partitura puede almacenar hasta 16 notas. Si se envían
+más notas, las últimas enviadas no se almacenarán.
+Si es necesario enviar más de 16 notas, antes hay que esperar hasta que
+haya sitio libre en la memoria de partitura.</p>
+<p>Esta función devuelve cero si todas las notas han terminado de sonar.</p>
+</dd></dl>
+
+<p>Programa de ejemplo en el que suena una alarma de despertador utilizando la
+función <a class="reference internal" href="#_CPPv48buzzPlayii" title="buzzPlay"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzPlay()</span></code></a> para enviar las notas.</p>
+<div class="highlight-Arduino notranslate" id="buzzer-buzzplay-alarm"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Al presionar el pulsador 1, suena una alarma de despertador</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;     </span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>  <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Enviar las notas de una alarma de despertador </span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">566</span><span class="p">);</span>
+
+   <span class="c1">// Esperar a que suenen todas las notas</span>
+   <span class="k">while</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">());</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<p>Programa de ejemplo en el que suena una música de reloj utilizando la
+función <a class="reference internal" href="#_CPPv48buzzPlayii" title="buzzPlay"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzPlay()</span></code></a>. En este ejemplo se muestra en el display el número
+de notas que aún no han terminado de sonar.</p>
+<div class="highlight-Arduino notranslate" id="buzzer-buzzplay-carrillon"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Al presionar el pulsador 1, suena un carrillón y el </span>
+<span class="c1">// display muestra el número de notas que aún no han </span>
+<span class="c1">// terminado de sonar.</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+
+   <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Enviar la partitura de carrillón</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">La4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Fa4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Sol4</span><span class="p">,</span>  <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do4</span><span class="p">,</span>  <span class="mi">1000</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Sol4</span><span class="p">,</span>  <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">La4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">1000</span><span class="p">);</span>
+
+   <span class="c1">// Esperar hasta que suene toda la partitura</span>
+   <span class="c1">// Mostrar el número de notas restantes</span>
+   <span class="kr">int</span> <span class="n">notas</span><span class="p">;</span>
+   <span class="k">do</span> <span class="p">{</span>
+     <span class="n">notas</span> <span class="o">=</span> <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">();</span>
+     <span class="nf">pc</span><span class="p">.</span><span class="nf">dispNum</span><span class="p">(</span><span class="n">notas</span><span class="p">);</span>
+   <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">notas</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="las-funciones-buzzoff-y-buzzon">
+<h2>Las funciónes <a class="reference internal" href="#_CPPv47buzzOffv" title="buzzOff"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzOff()</span></code></a> y <a class="reference internal" href="#_CPPv46buzzOnv" title="buzzOn"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzOn()</span></code></a><a class="headerlink" href="#las-funciones-buzzoff-y-buzzon" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="function">
+<dt id="_CPPv47buzzOffv">
+<span id="_CPPv37buzzOffv"></span><span id="_CPPv27buzzOffv"></span><span id="buzzOff"></span><code class="sig-name descname">buzzOff</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv47buzzOffv" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<dd><p>Desconecta el generador de sonido del zumbador.
+Como resultado, el zumbador deja de emitir sonido.
+Si el generador de sonido está funcionando en ese momento, continuará haciéndolo,
+de manera que si se vuelve a conectar el zumbador con la función <a class="reference internal" href="#_CPPv46buzzOnv" title="buzzOn"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzOn()</span></code></a>,
+este volverá a emitir sonido.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv46buzzOnv">
+<span id="_CPPv36buzzOnv"></span><span id="_CPPv26buzzOnv"></span><span id="buzzOn"></span><code class="sig-name descname">buzzOn</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv46buzzOnv" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<dd><p>Conecta el generador de sonido con el zumbador.
+Si en ese momento el generador de sonido está generando un tono, el zumbador comenzará
+a emitir sonido.</p>
+</dd></dl>
+
+<p>Ejemplo de funcionamiento de BuzzOn y BuzzOff. En el siguiente programa se genera una
+melodía que suena de forma continua.
+Presionando el pulsador 1, el sonido se desconecta.
+Presionando el pulsador 2, el sonido volverá a conectarse.</p>
+<div class="highlight-Arduino notranslate" id="buzzer-buzzonoff"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Genera una melodía que suena de forma contínua</span>
+<span class="c1">// Presionando el pulsador 1, el sonido se desconecta. </span>
+<span class="c1">// Presionando el pulsador 2, el sonido volverá a conectarse. </span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>          <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="c1">// Tocar una melodía</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Sol5</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">La5</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Fa5</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Fa4</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do5</span><span class="p">,</span> <span class="mi">1000</span><span class="p">);</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+
+   <span class="c1">// Espera hasta que termine de sonar la melodía.</span>
+   <span class="c1">// Durante ese tiempo desconecta o conecta el sonido</span>
+   <span class="c1">// si se presionan los pulsadores 1 y 2</span>
+   <span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>    <span class="c1">// Si se presiona el pulsador 1</span>
+         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzOff</span><span class="p">();</span>         <span class="c1">// desconecta el sonido.</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>    <span class="c1">// Si se presiona el pulsador 2</span>
+         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzOn</span><span class="p">();</span>          <span class="c1">// conecta el sonido.</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>  <span class="c1">// Si la nota ha terminado</span>
+         <span class="k">return</span><span class="p">;</span>               <span class="c1">// termina la espera.</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="la-funcion-buzzbegin">
+<h2>La función <a class="reference internal" href="#_CPPv49buzzBeginv" title="buzzBegin"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzBegin()</span></code></a><a class="headerlink" href="#la-funcion-buzzbegin" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="function">
+<dt id="_CPPv49buzzBeginv">
+<span id="_CPPv39buzzBeginv"></span><span id="_CPPv29buzzBeginv"></span><span id="buzzBegin"></span><code class="sig-name descname">buzzBegin</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49buzzBeginv" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<dd><p>Esta función inicializa el sistema generador de sonidos.
+Conecta el generador de sonido al zumbador y vacía la memoria de
+notas musicales enviadas por la función <a class="reference internal" href="#_CPPv48buzzPlayii" title="buzzPlay"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzPlay()</span></code></a>.
+Al ejecutar esta función, el zumbador deja de emitir sonido y se encuentra
+preparado para emitir un nuevo tono cuando reciba la orden.</p>
+<p>No es necesario ejecutar esta función al comienzo de cada programa porque la
+función más general <code class="docutils literal notranslate"><span class="pre">begin</span></code> ya inicializa todos los sistemas, incluyendo el
+zumbador.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="intensidad-del-sonido">
+<h2>Intensidad del sonido<a class="headerlink" href="#intensidad-del-sonido" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La intensidad del sonido emitido por el zumbador no es igual para todas las frecuencias.
+A frecuencias bajas, la intensidad del sonido emitido es menor. A medida que se aumenta la
+frecuencia, la intensidad del sonido aumenta.</p>
+<p>En torno a los <strong>2000 Hz</strong> el zumbador resuena y produce un sonido de una intensidad mucho
+mayor que en otras frecuencias. El típico sonido de los despertadores tiene este tono.
+La frecuencia de 2000 Hz se encuentra entre una nota <code class="docutils literal notranslate"><span class="pre">Si</span></code> de la octava tercera
+(<code class="docutils literal notranslate"><span class="pre">Si6</span></code>  = 1975,53 Hz) y una nota <code class="docutils literal notranslate"><span class="pre">Do</span></code> de la octava cuarta (<code class="docutils literal notranslate"><span class="pre">Do7</span></code> = 2093,00 Hz).
+Este es un tono bastante agudo que el oído humano percibe muy bien porque
+se encuentra en la zona de mayor sensibilidad auditiva, desde 500 Hz hasta los 2000 Hz.</p>
+<p>En torno a los 4000 Hz el zumbador también resuena produciendo un sonido de más intensidad,
+pero a esta frecuencia el oído humano tiene menos sensibilidad que a la frecuencia de 2000 Hz
+y el sonido no se percibe con tanta intensidad.</p>
+</div>
+<div class="section" id="precision-y-exactitud-de-la-frecuencia">
+<h2>Precisión y exactitud de la frecuencia<a class="headerlink" href="#precision-y-exactitud-de-la-frecuencia" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La <strong>precisión</strong> de la frecuencia tiene un error de +-1%.
+Esto significa que la frecuencia realmente obtenida siempre
+se desvía hacia los graves o hacia los agudos en cierta cantidad.
+La mayoría de las frecuencias tienen una desviación menor del 0.4%,
+mientras que solo algunas frecuencias puntuales sufren una
+desviación hasta del 1%.
+La desviación de frecuencia es siempre la misma para el mismo tono.
+Este error se puede percibir como un pequeño desafino en la frecuencia.
+Un oído bien entrenado percibe diferencias de frecuencia hasta del 0.2%.</p>
+<p>El error de <strong>exactitud</strong> de la frecuencia depende de la calibración que se haya realizado.
+Este error produce una variación de frecuencia igual en todas las frecuencias emitidas.
+El error de exactitud depende de la temperatura y del tiempo de funcionamiento
+del panel y se encuentra en torno al +-2%.
+Este error no se notará al emitir varios sonidos, porque afecta por igual a todas
+las frecuencias y el oído solo detecta notas desafinadas en el caso de que una
+frecuencia se desvíe respecto a otra.
+Sin embargo, si dos paneles intentan emitir un sonido de igual frecuencia,
+se puede distinguir entre ellos una diferencia de frecuencia debido al error de exactitud.</p>
+</div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p>Cambiar el siguiente programa para que suene el pitido de un despertador.
+La secuencia de sonidos será de cuatro pitidos de 2000 Hercios con una
+duración cada uno de 64 milisegundos y un espacio sin sonido de 64 milisegundos
+después de cada pitido.
+Al final de la secuencia se debe esperar un tiempo de 500 milisegundos sin sonido.</p>
+<div class="highlight-Arduino notranslate" id="buzztone-array-song"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Al presionar el pulsador 1, suena una canción.</span>
+<span class="c1">// Versión con tabla de datos (array)</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="c1">// Canción</span>
+<span class="c1">// Primera columna: nota musical, silencio (0) o</span>
+<span class="c1">//                  pausa entre notas iguales (-1)</span>
+<span class="c1">// Segunda columna: Duración de la nota (en tempos)</span>
+<span class="kr">char</span> <span class="n">song</span><span class="p">[]</span> <span class="o">=</span>  <span class="p">{</span>
+   <span class="kr">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Do4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
+   <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
+   <span class="kr">Do4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
+<span class="p">};</span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>         <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="kr">int</span> <span class="n">tempo</span><span class="p">,</span> <span class="n">octave</span><span class="p">;</span>
+   <span class="kr">char</span> <span class="n">i</span><span class="p">,</span> <span class="n">note</span><span class="p">,</span> <span class="n">figure</span><span class="p">;</span>
+
+   <span class="c1">// Establece el tempo, en milisegundos, para la nota más corta</span>
+   <span class="n">tempo</span> <span class="o">=</span> <span class="mi">125</span><span class="p">;</span>
+
+   <span class="c1">// Establece el desplazamiento de octava.</span>
+   <span class="c1">// +12 = aumenta una octava. -12 = disminuye una octava.</span>
+   <span class="n">octave</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+   <span class="c1">// Apagar los sonidos</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Tocar la canción almacenada</span>
+   <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="kr">sizeof</span><span class="p">(</span><span class="n">song</span><span class="p">))</span> <span class="p">{</span>
+      <span class="n">note</span> <span class="o">=</span> <span class="n">song</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+      <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+
+      <span class="k">if</span> <span class="p">(</span><span class="n">note</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+         <span class="c1">// suena una pausa entre notas iguales</span>
+         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+         <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+      <span class="p">}</span>
+      <span class="k">else</span> <span class="p">{</span>
+         <span class="c1">// suena una nota musical</span>
+         <span class="n">figure</span> <span class="o">=</span> <span class="n">song</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+         <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">note</span> <span class="o">+</span> <span class="n">octave</span><span class="p">);</span>
+         <span class="nf">delay</span><span class="p">(</span><span class="n">figure</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+      <span class="p">}</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+<li><p>El siguiente programa ejecuta la partitura almacenada en el array <code class="docutils literal notranslate"><span class="pre">song</span></code>,
+la música de un carrillón. Cambiar la partitura por la de otra canción.</p>
+<div class="highlight-Arduino notranslate" id="buzzer-buzztone-array-song"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Al presionar el pulsador 1, suena una canción.</span>
+<span class="c1">// Versión con tabla de datos (array)</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="c1">// Canción</span>
+<span class="c1">// Primera columna: nota musical, silencio (0) o</span>
+<span class="c1">//                  pausa entre notas iguales (-1)</span>
+<span class="c1">// Segunda columna: Duración de la nota (en tempos)</span>
+<span class="kr">char</span> <span class="n">song</span><span class="p">[]</span> <span class="o">=</span>  <span class="p">{</span>
+   <span class="kr">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Do4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
+   <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
+   <span class="kr">Do4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
+<span class="p">};</span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>         <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="kr">int</span> <span class="n">tempo</span><span class="p">,</span> <span class="n">octave</span><span class="p">;</span>
+   <span class="kr">char</span> <span class="n">i</span><span class="p">,</span> <span class="n">note</span><span class="p">,</span> <span class="n">figure</span><span class="p">;</span>
+
+   <span class="c1">// Establece el tempo, en milisegundos, para la nota más corta</span>
+   <span class="n">tempo</span> <span class="o">=</span> <span class="mi">125</span><span class="p">;</span>
+
+   <span class="c1">// Establece el desplazamiento de octava.</span>
+   <span class="c1">// +12 = aumenta una octava. -12 = disminuye una octava.</span>
+   <span class="n">octave</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+   <span class="c1">// Apagar los sonidos</span>
+   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Tocar la canción almacenada</span>
+   <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="kr">sizeof</span><span class="p">(</span><span class="n">song</span><span class="p">))</span> <span class="p">{</span>
+      <span class="n">note</span> <span class="o">=</span> <span class="n">song</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+      <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+
+      <span class="k">if</span> <span class="p">(</span><span class="n">note</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+         <span class="c1">// suena una pausa entre notas iguales</span>
+         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+         <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+      <span class="p">}</span>
+      <span class="k">else</span> <span class="p">{</span>
+         <span class="c1">// suena una nota musical</span>
+         <span class="n">figure</span> <span class="o">=</span> <span class="n">song</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+         <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">note</span> <span class="o">+</span> <span class="n">octave</span><span class="p">);</span>
+         <span class="nf">delay</span><span class="p">(</span><span class="n">figure</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+      <span class="p">}</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<p>Notas de 'la cucaracha':</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Fa4</span> <span class="pre">La4</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Fa4</span> <span class="pre">La4</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Fa4</span> <span class="pre">Fa4</span> <span class="pre">Mi4</span> <span class="pre">Mi4</span> <span class="pre">Re4</span> <span class="pre">Re4</span> <span class="pre">Do4</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Mi4</span> <span class="pre">Sol4</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Mi4</span> <span class="pre">Sol4</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do5</span> <span class="pre">Re5</span> <span class="pre">Do5</span> <span class="pre">Si4</span> <span class="pre">La4</span> <span class="pre">Sol4</span> <span class="pre">Fa4</span></code></div>
+</div>
+</div></blockquote>
+<p>Notas de 'cumpleaños feliz':</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Re4</span> <span class="pre">Do4</span> <span class="pre">Fa4</span> <span class="pre">Mi4</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Re4</span> <span class="pre">Do4</span> <span class="pre">Sol4</span> <span class="pre">Fa4</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do4</span> <span class="pre">Do4</span> <span class="pre">Do5</span> <span class="pre">La4</span> <span class="pre">Fa4</span> <span class="pre">Mi4</span> <span class="pre">Re4</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">Do5</span> <span class="pre">Do5</span> <span class="pre">La4</span> <span class="pre">Fa4</span> <span class="pre">Sol4</span> <span class="pre">Fa4</span></code></div>
+</div>
+</div></blockquote>
+<p>A cada una de las notas anteriores hay que añadirle el tiempo de cada nota
+(figura) para completar la partitura.
+Este tiempo será de 200, 400 o de 800 milisegundos.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+	<!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ardublock-index.html" class="btn btn-neutral float-right" title="Ardublock" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pc42-display1.html" class="btn btn-neutral" title="8. Display de 7 segmentos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html">Contacto</a></li>
+    <li><a href="../legal-aviso.html">Aviso legal</a></li>
+    <li><a href="../legal-autor.html">Derechos de Autor</a></li>
+    <li><a href="../legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="../legal-atribution.html">Atribución</a></li>
+    </ul>
+    <p class="content-info">
+        &copy; Copyright 2013-2020 Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez en diciembre de 2020.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../../_static/logo-picuino-bgblue.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+         <a href="../index.html">Tecno Recursos</a>
+
+         
+            
+            
+              <div class="version">
+                2020
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricidad y electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programación</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="pc42-index.html">Panel de Control PC42</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pc42-intro.html">1. Introducción al panel PC42</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-install.html">2. Instalación del panel de control PC42</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-led1.html">3. Encendido y apagado de los LED</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-led2.html">4. Parpadeo de los LED</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key1.html">5. Pulsadores y Estados</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key2.html">6. Pulsadores y Eventos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key3.html">7. Pulsadores y Contadores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-display1.html">8. Display de 7 segmentos</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">9. Zumbador</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuitos con Protoboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource-index.html">Recursos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Picuino UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../external-index.html">Recursos Externos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+        <script type="text/javascript" src="../../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

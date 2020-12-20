@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# www.picuino.com
+# Copyright (c) 2018 by Carlos Pardo
+# License CC BY-SA 4.0
+#
+# amperimetro
+#
+DEF ~amperimetro A 0 40 Y Y 1 F N
+F0 "A" 200 -200 100 H V L CNN
+F1 "amperimetro" -150 -200 50 V I C CNN
+F2 "" 0 -225 50 V I C CNN
+F3 "" 0 -225 50 V I C CNN
+DRAW
+C 0 -200 130 0 1 0 N
+T 0 0 -200 125 0 0 0 A Normal 0 C C
+X ~ ~ 0 -400 70 U 45 50 1 1 I
+X ~ ~ 0 0 70 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

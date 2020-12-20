@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# pila_petaca
+#
+DEF ~pila_petaca V 0 40 Y Y 1 F N
+F0 "V" 450 -350 100 H V L CNN
+F1 "pila_petaca" 150 -325 50 H I C CNN
+F2 "" 350 -325 50 V I C CNN
+F3 "" 350 -325 50 V I C CNN
+F4 "4.5V" 150 -500 100 H V C CNN "V"
+DRAW
+S -100 -100 400 -600 0 1 0 N
+P 2 0 1 0 -50 -200 50 -200 N
+P 2 0 1 0 -50 -100 200 25 N
+P 2 0 1 0 300 -150 300 -250 N
+P 2 0 1 0 350 -200 250 -200 N
+P 2 0 1 0 375 -100 225 -25 N
+X ~ ~ 0 0 75 D 45 50 1 1 I
+X ~ ~ 300 0 60 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

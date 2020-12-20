@@ -1,0 +1,32 @@
+﻿.. css-list-style:
+
+Estilos de lista
+================
+En este ejercicio se estudian los diferentes estilos que puede 
+tener una lista.
+
+Ejercicio
+---------
+
+Fichero **css-list-style.html**
+
+.. literalinclude:: css/css-list-style.html
+   :language: html
+   :linenos:
+   :name: css-list-style
+
+..  .. image:: css/_thumbs/css-list-style-html.png
+
+
+Fichero **css-list-style.css**
+
+.. image:: css/_thumbs/css-list-style-css.png
+
+
+Resultado
+---------
+
+.. image:: css/_thumbs/css-list-style-web.png
+
+
+

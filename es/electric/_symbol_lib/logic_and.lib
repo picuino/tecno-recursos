@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# www.picuino.com
+# Copyright (c) 2018 by Carlos Pardo
+# License CC BY-SA 4.0
+#
+# logic_and
+#
+DEF ~logic_and U 0 40 Y Y 4 F N
+F0 "U" 450 -250 100 H V L CNN
+F1 "logic_and" 300 100 50 H I C CNN
+F2 "" 100 -175 50 V I C CNN
+F3 "" 100 -175 50 V I C CNN
+DRAW
+A 300 -100 150 -899 899 0 1 0 N 300 -250 300 50
+P 4 0 1 0 300 50 100 50 100 -250 300 -250 N
+X A 1 0 0 100 R 50 50 1 1 I
+X B 2 0 -200 100 R 50 50 1 1 I
+X O 3 600 -100 150 L 45 50 1 1 O
+X A 4 0 0 100 R 50 50 2 1 I
+X B 5 0 -200 100 R 50 50 2 1 I
+X O 6 600 -100 150 L 45 50 2 1 O
+X B 10 0 -200 100 R 50 50 3 1 I
+X O 8 600 -100 150 L 45 50 3 1 O
+X A 9 0 0 100 R 50 50 3 1 I
+X O 11 600 -100 150 L 45 50 4 1 O
+X A 12 0 0 100 R 50 50 4 1 I
+X B 13 0 -200 100 R 50 50 4 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

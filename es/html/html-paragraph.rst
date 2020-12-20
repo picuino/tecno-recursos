@@ -1,0 +1,34 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-paragraph:
+
+Párrafos de texto
+=================
+Los párrafos agrupan palabras y frases que se muestran 
+juntas. Todos los espacios y nuevas líneas dentro de 
+un párrafo se eliminan.
+
+Los párrafos siempre terminan en un punto y aparte
+por lo que al final del párrafo se muestra una nueva
+línea.
+
+
+Etiquetas utilizadas
+--------------------
+
+{{ macros.tag('p') }}
+
+{{ macros.editor_online() }}
+
+
+Código de la página
+-------------------
+
+.. image:: html/_thumbs/html-paragraph-html.png
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-paragraph-web.png
+

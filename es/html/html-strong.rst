@@ -1,0 +1,29 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-strong:
+
+Etiquetas de énfasis
+====================
+El texto destacado o las palabras clave se pueden indicar con 
+dos etiquetas preparadas para ese cometido <em> y <strong>. 
+
+Etiquetas utilizadas
+--------------------
+{{ macros.tag('em') }}
+{{ macros.tag('strong') }}
+
+
+Código de la página
+-------------------
+
+.. image:: html/_thumbs/html-strong-html.png
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-strong-web.png
+

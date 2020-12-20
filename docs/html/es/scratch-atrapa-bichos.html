@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es-es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es-es" > <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tecno Recursos. Recursos educativos para Tecnología" />
+
+  
+  <title>4. Atrapar bichos - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/es/scratch-atrapa-bichos.html"/>
+
+  
+  
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Buscar en Picuino"
+            href="../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" /> 
+
+  <script src="../_static/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+  
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tecno Recursos</a>
+      </nav>
+	  
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>4. Atrapar bichos</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/es/scratch-atrapa-bichos.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="atrapar-bichos">
+<span id="scratch-atrapa-bichos"></span><h1>4. Atrapar bichos<a class="headerlink" href="#atrapar-bichos" title="Enlazar permanentemente con este título">¶</a></h1>
+<a class="reference internal image-reference" href="../_images/scratch-p04-juego.png"><img alt="../_images/scratch-p04-juego.png" src="../_images/scratch-p04-juego.png" style="width: 240px;" /></a>
+<p>En esta práctica vamos a programar un juego que consiste en atrapar
+todos los escarabajos que aparecen en la pantalla.
+Una vez atrapados, ganamos el juego y un personaje nos avisa de ello.</p>
+<p><br /></p>
+<ol class="arabic">
+<li><p>Iniciamos el <a href="https://scratch.mit.edu/projects/editor"
+target="_blank">editor de Scratch</a>.</p>
+<p><br /></p>
+</li>
+<li><p>Borramos el gato presionando sobre él con el botón derecho
+del ratón y luego pulsamos borrar.</p>
+<p><img alt="borrar-gato" class="align-middle" src="../_images/scratch-borrar-gato.png" /></p>
+<p><br /></p>
+</li>
+<li><p>A continuación añadimos un nuevo personaje, un <strong>escarabajo</strong>.</p>
+<p>Pulsamos el botón de nuevo objeto <img alt="nuevo-objeto" class="align-middle" src="../_images/scratch-nuevo-objeto-lib.png" /></p>
+<p>A continuación pulsamos en <strong>Categoría Animales</strong>.</p>
+<p>Luego seleccionamos el objeto <strong>Ladybug2</strong>.</p>
+<img alt="../_images/scratch-ladybug2.png" src="../_images/scratch-ladybug2.png" />
+<p><br /></p>
+</li>
+<li><p>Ahora crearemos la variable <strong>Clones</strong></p>
+<p>Dentro de la pestaña Datos <img alt="datos" class="align-middle" src="../_images/scratch-datos.png" />,</p>
+<p>pulsamos crear una variable  <img alt="crear-variable" class="align-middle" src="../_images/scratch-crear-variable.png" /></p>
+<p>Cambiamos el nombre de la variable a <strong>Clones</strong></p>
+<img alt="../_images/scratch-p04-variable-clones.png" src="../_images/scratch-p04-variable-clones.png" />
+<p>Por último pulsamos el botón <strong>OK</strong></p>
+<p>Esta variable contará el número de escarabajos que hay en la
+pantalla. Cuando esta variable valga cero, el juego terminará.</p>
+<p><br /></p>
+</li>
+<li><p>En la pestaña de programa crearemos una nueva función llamada
+<strong>Inicio</strong></p>
+<p>Primero pulsamos en el botón más bloques</p>
+<p><img alt="mas-bloques" class="align-middle" src="../_images/scratch-mas-bloques.png" /></p>
+<p>A continuación pulsamos en crear un bloque <img alt="crear-bloque" class="align-middle" src="../_images/scratch-crear-bloque.png" /></p>
+<p>Luego cambiamos el nombre del nuevo bloque a <strong>Inicio</strong></p>
+<img alt="../_images/scratch-bloque-inicio.png" src="../_images/scratch-bloque-inicio.png" />
+<p>Por último pulsamos el botón <strong>OK</strong></p>
+<p><br /></p>
+</li>
+<li><p>Ahora programamos la función <strong>Inicio</strong> con las siguientes
+órdenes.</p>
+<a class="reference internal image-reference" href="../_images/scratch-p04-bicho-prog1.png"><img alt="../_images/scratch-p04-bicho-prog1.png" src="../_images/scratch-p04-bicho-prog1.png" style="width: 279px;" /></a>
+<p>Este programa esconde el escarabajo, borra la pantalla y
+coloca cinco clones del escarabajo en la pantalla.</p>
+<p><br /></p>
+</li>
+<li><p>En este punto añadimos las instrucciones para que cada clon
+del escarabajo aparezca en un lugar distinto de la pantalla
+con tamaño pequeño.
+Cuando el puntero del ratón toque a un escarabajo, este
+desaparecerá.</p>
+<a class="reference internal image-reference" href="../_images/scratch-p04-bicho-prog2.png"><img alt="../_images/scratch-p04-bicho-prog2.png" src="../_images/scratch-p04-bicho-prog2.png" style="width: 796px;" /></a>
+<p><br /></p>
+</li>
+<li><p>Para comprobar que todo funciona correctamente, pulsamos inicio
+con doble clic y aparecerán cinco escarabajos en la pantalla.
+Los escarabajos deben desaparecer cuando el puntero del ratón
+les toque.</p>
+<p><br /></p>
+</li>
+<li><p>Para que el juego funcione normalmente, programamos la función
+que hará aparecer escarabajos cada cierto tiempo hasta que
+termine el juego.</p>
+<a class="reference internal image-reference" href="../_images/scratch-p04-bicho-prog3.png"><img alt="../_images/scratch-p04-bicho-prog3.png" src="../_images/scratch-p04-bicho-prog3.png" style="width: 508px;" /></a>
+<p><br /></p>
+</li>
+<li><p>Ahora tenemos que escoger un fondo adecuado para el juego.
+Cambiamos el fondo de escenario a una pared de una <strong>calle</strong>.</p>
+<p>Pulsamos el botón de Fondo nuevo.</p>
+<p><img alt="cambia-escenario" class="align-middle" src="../_images/scratch-cambia-escenario-lib.png" /></p>
+<p>A continuación pulsamos en <strong>Tema Ciudad</strong>.</p>
+<p>Luego seleccionamos el fondo <strong>brick wall 1</strong>.</p>
+<p>La pantalla quedará de la siguiente manera.</p>
+<img alt="../_images/scratch-p04-06.png" src="../_images/scratch-p04-06.png" />
+<p><br /></p>
+</li>
+<li><p>Por último vamos a programar un personaje que avise del final
+del juego. En este caso se ha escogido a una <strong>bailarina</strong>.</p>
+<p>Pulsamos el botón de nuevo objeto <img alt="nuevo-objeto" class="align-middle" src="../_images/scratch-nuevo-objeto-lib.png" /></p>
+<p>A continuación pulsamos en <strong>Categoría Gente</strong>.</p>
+<p>Luego seleccionamos el objeto <strong>Ballerina</strong>.</p>
+<img alt="../_images/scratch-ballerina.png" src="../_images/scratch-ballerina.png" />
+<p><br /></p>
+</li>
+<li><p>En la pestaña de programa del nuevo personaje</p>
+<img alt="../_images/scratch-p04-ballerina.png" src="../_images/scratch-p04-ballerina.png" />
+<p>añadimos las siguientes instrucciones.</p>
+<a class="reference internal image-reference" href="../_images/scratch-p04-bicho-prog4.png"><img alt="../_images/scratch-p04-bicho-prog4.png" src="../_images/scratch-p04-bicho-prog4.png" style="width: 550px;" /></a>
+<p>Ahora al finalizar el programa aparecerá la bailarina para
+felicitarnos.</p>
+<p><br /></p>
+</li>
+</ol>
+<hr class="docutils" />
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Añade una nueva regla al juego. Si el número de escarabajos es
+mayor que 25, entonces perdemos el juego.
+El programa se detiene y un personaje nuevo nos avisa de que
+hemos perdido.</p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+	<!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>
+
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="legal-aviso.html">Aviso legal</a></li>
+    <li><a href="legal-autor.html">Derechos de Autor</a></li>
+    <li><a href="legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="legal-atribution.html">Atribución</a></li>
+    </ul>
+    <p class="content-info">
+        &copy; Copyright 2013-2020 Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez en diciembre de 2020.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+         <a href="index.html">Tecno Recursos</a>
+
+         
+            
+            
+              <div class="version">
+                2020
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricidad y electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="external-index.html">Recursos Externos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

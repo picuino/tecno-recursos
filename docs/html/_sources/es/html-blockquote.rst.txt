@@ -1,0 +1,29 @@
+﻿.. _html-blockquote:
+
+Bloque de cita externa
+======================
+
+Etiquetas utilizadas
+--------------------
+``<blockquote cite="http://"> </blockquote>``
+   Sección de texto que se ha copiado de otra página.
+   El atributo cite describe la dirección de donde se ha tomado
+   el texto.
+   Normalmente esta sección aparece desplazada hacia la derecha.
+
+
+
+Código de la página
+-------------------
+
+.. image:: html/_thumbs/html-blockquote-html.png
+
+
+.. `Editor online de código HTML <https://html5-editor.net/>`__
+
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-blockquote-web.png

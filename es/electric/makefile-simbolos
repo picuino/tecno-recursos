@@ -1,0 +1,164 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+SOURCES=_sources
+
+LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 5
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z a
+PYTHON=python
+
+
+# --------------------------------------------------------------------
+# electric-simbolos-nombres
+#
+$(IMGDIR)/electric-simbolos-nombres-p1.png \
+$(IMGDIR)/electric-simbolos-nombres-p2.png \
+$(IMGDIR)/electric-simbolos-nombres-p3.png: electric-simbolos-nombres.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-p1.png
+	mv $(basename $<)-000002.png  $(IMGDIR)/$(basename $<)-p2.png
+	mv $(basename $<)-000003.png  $(IMGDIR)/$(basename $<)-p3.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p2.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p3.png
+	$(OPTIPNG) $@
+
+$(IMGDIR)/electric-simbolos-receptores.png: \
+	$(IMGDIR)/electric-simbolos-nombres-p1.png
+	$(eval crop = $(shell python -c "import sys; \
+	((x0,y0),(x1,y1))=eval(sys.argv[1]);\
+	print('%dx%d+%d+%d' % \
+	(abs(x0-x1),abs(y0-y1),min(x0,x1),min(y0,y1)))" \
+	"((116,1977),(1683,3333))" ))
+	$(CONVERT) $^ -crop $(crop) $(CONVERT_OPT) $@
+	$(OPTIPNG) $@
+
+electric-simbolos-nombres.zip: $(LIBS) $(wildcard simbolos-nombres/*)
+	rm -f $@  simbolos-nombres/*.bak
+	$(ZIP) $@ $^
+
+
+.PHONY: all-simbolos-nombres  clean-simbolos-nombres
+all-simbolos-nombres: \
+	electric-simbolos-nombres.zip \
+	$(IMGDIR)/electric-simbolos-nombres-p1.png \
+	$(IMGDIR)/electric-simbolos-nombres-p2.png \
+	$(IMGDIR)/electric-simbolos-nombres-p3.png \
+	$(IMGDIR)/electric-simbolos-receptores.png \
+
+
+clean-simbolos-nombres:
+	rm -f electric-simbolos-nombres.zip
+	rm -f $(IMGDIR)/electric-simbolos-nombres-p1.png
+	rm -f $(IMGDIR)/electric-simbolos-nombres-p2.png
+	rm -f $(IMGDIR)/electric-simbolos-nombres-p3.png
+	rm -f $(IMGDIR)/electric-simbolos-receptores.png
+
+
+# --------------------------------------------------------------------
+# electric-simbolos-images
+#
+SYMBOLS_SOURCE=electric-simbolos-nombres-p1.png
+SYMBOL_BASENAME=electric-simbolo
+SYMBOL_NAMES=$(foreach symbol, pila generador transformador lampara \
+	motor resistencia zumbador altavoz condensador-pol condensador \
+	inductancia voltimetro amperimetro interruptor conmutador \
+	pulsador-na pulsador-nc final-carrera fusible rele \
+	rele-contacto conector cable-cruzado cable-conectado tierra \
+	masa diodo led npn pnp resistencia-variable resistencia-ntc \
+	resistencia-ldr puerta-and puerta-or puerta-not puerta-nand \
+	puerta-nor puerta-xor, $(SYMBOL_BASENAME)-$(symbol).png)
+SYMBOL_DIRNAMES=$(foreach symbol, $(SYMBOL_NAMES),$(IMGDIR)/$(symbol))
+
+define crop_symbol
+	$(eval geometry = $(shell python -c "import sys; (x,y)=eval(sys.argv[1]); \
+	print('526x346+%d+%d'%(x, 458+(360*(y-1))))" $(1)))
+	$(CONVERT) $(IMGDIR)/$(SYMBOLS_SOURCE) -crop $(geometry) +repage \
+		$(CONVERT_OPT) $(IMGDIR)/$(SYMBOL_BASENAME)-$(strip $(2)).png
+	$(OPTIPNG) $(IMGDIR)/$(SYMBOL_BASENAME)-$(strip $(2)).png
+endef
+
+$(SYMBOL_NAMES): $(IMGDIR)/$(SYMBOLS_SOURCE)
+	echo $(SYMBOL_NAMES)
+	$(call crop_symbol, "(126,  1)", pila)
+	$(call crop_symbol, "(126,  2)", generador)
+	$(call crop_symbol, "(126,  3)", transformador)
+	$(call crop_symbol, "(126,  6)", lampara)
+	$(call crop_symbol, "(126,  7)", motor)
+	$(call crop_symbol, "(126,  8)", resistencia)
+	$(call crop_symbol, "(126,  9)", zumbador)
+	$(call crop_symbol, "(126, 10)", altavoz)
+	$(call crop_symbol, "(126, 11)", condensador-pol)
+	$(call crop_symbol, "(126, 12)", condensador)
+	$(call crop_symbol, "(126, 13)", inductancia)
+	$(call crop_symbol, "(126, 16)", voltimetro)
+	$(call crop_symbol, "(126, 17)", amperimetro)
+
+	$(call crop_symbol, "(1716,  1)", interruptor)
+	$(call crop_symbol, "(1716,  2)", conmutador)
+	$(call crop_symbol, "(1716,  3)", pulsador-na)
+	$(call crop_symbol, "(1716,  4)", pulsador-nc)
+	$(call crop_symbol, "(1716,  5)", final-carrera)
+	$(call crop_symbol, "(1716,  6)", fusible)
+	$(call crop_symbol, "(1716,  7)", rele)
+	$(call crop_symbol, "(1716,  8)", rele-contacto)
+	$(call crop_symbol, "(1716, 11)", conector)
+	$(call crop_symbol, "(1716, 12)", cable-cruzado)
+	$(call crop_symbol, "(1716, 13)", cable-conectado)
+	$(call crop_symbol, "(1716, 14)", tierra)
+	$(call crop_symbol, "(1716, 15)", masa)
+
+	$(call crop_symbol, "(3306,  1)", diodo)
+	$(call crop_symbol, "(3306,  2)", led)
+	$(call crop_symbol, "(3306,  3)", npn)
+	$(call crop_symbol, "(3306,  4)", pnp)
+	$(call crop_symbol, "(3306,  7)", resistencia-variable)
+	$(call crop_symbol, "(3306,  8)", resistencia-ntc)
+	$(call crop_symbol, "(3306,  9)", resistencia-ldr)
+	$(call crop_symbol, "(3306, 12)", puerta-and)
+	$(call crop_symbol, "(3306, 13)", puerta-or)
+	$(call crop_symbol, "(3306, 14)", puerta-not)
+	$(call crop_symbol, "(3306, 15)", puerta-nand)
+	$(call crop_symbol, "(3306, 16)", puerta-nor)
+	$(call crop_symbol, "(3306, 17)", puerta-xor)
+
+
+$(SYMBOL_BASENAME)-images.zip: $(SYMBOL_DIRNAMES)
+	rm -f $@
+	$(ZIP) $@ $^
+
+
+.PHONY: all-simbolos-images  clean-simbolos-images
+all-simbolos-images: \
+	$(SYMBOL_DIRNAMES) \
+	$(SYMBOL_BASENAME)-images.zip \
+
+
+clean-simbolos-images:
+	rm -f $(SYMBOL_DIRNAMES)
+	rm -f $(SYMBOL_BASENAME)-images.zip
+
+
+# --------------------------------------------------------------------
+# make all and clean
+#
+.PHONY: all clean
+all: \
+	all-simbolos-nombres \
+	all-simbolos-images \
+
+
+clean: \
+	clean-simbolos-nombres \
+	clean-simbolos-images \

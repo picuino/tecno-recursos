@@ -1,0 +1,16 @@
+﻿
+{%- import 'css-macros.rst' as macros -%}
+
+.. css-list-style:
+
+Estilos de lista
+================
+En este ejercicio se estudian los diferentes estilos que puede 
+tener una lista.
+
+Ejercicio
+---------
+
+{{ macros.images_html_css_web('css-list-style') }}
+
+

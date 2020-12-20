@@ -1,0 +1,29 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-pre:
+
+Texto preformateado
+===================
+
+
+Etiquetas utilizadas
+--------------------
+
+{{ macros.tag('pre') }}
+{{ macros.tag('code') }}
+
+
+Código de la página
+-------------------
+
+.. image:: html/_thumbs/html-pre-html.png
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-pre-web.png
+

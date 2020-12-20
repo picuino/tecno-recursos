@@ -1,0 +1,93 @@
+﻿Referencia de funciones
+=======================
+
+Funciones del sistema
+---------------------
+.. cpp:function:: begin()
+
+.. cpp:function:: begin(int Addr)
+
+   ``Addr``: dirección del panel en el bus I2C
+   
+.. cpp:function:: sysBegin()
+
+.. cpp:function:: sysVersion(char *str)
+
+   ``str``: dirección de un buffer de memoria con 20 posiciones donde
+            se va a escribir la versión firmware del panel de control
+    
+.. cpp:function:: int analogRead(int channel)
+
+.. cpp:function:: eepromWrite(int address, int data)
+
+.. cpp:function:: int eepromRead(int address)
+
+.. cpp:function:: sysTest(int data1)
+
+.. cpp:function:: int sysTest(int data1, int data2)
+
+   Funciones dedicadas a tareas de mantenimiento.
+   
+
+Funciones de los led
+--------------------
+.. cpp:function:: ledBegin()
+
+.. cpp:function:: ledWrite(int ledNum, int value)
+
+.. cpp:function:: ledBlink(int ledNum, int time_on, int time_off)
+
+.. cpp:function:: ledBright(int ledNum, int value)
+
+
+Funciones de pulsadores
+-----------------------
+.. cpp:function:: keyBegin()
+
+.. cpp:function:: keyBegin(int filter, int time1, int time2, int time3, int repeat2, int repeat3)
+
+.. cpp:function:: int keyValue(int keyNum)
+
+.. cpp:function:: int keyPressed(int keyNum)
+
+.. cpp:function:: int keyTimeOn(int keyNum)
+
+.. cpp:function:: int keyTimeOff(int keyNum)
+
+.. cpp:function:: int keyToggle(int keyNum)
+
+.. cpp:function:: int keyEvents(int keyNum)
+
+.. cpp:function:: int keyCount(int keyNum)
+
+
+Funciones del Display
+---------------------
+.. cpp:function:: dispBegin()
+
+.. cpp:function:: dispNum(int number)
+
+.. cpp:function:: dispNum(int digitNum, int number)
+
+.. cpp:function:: dispWrite(int digitNum, int segments)
+
+.. cpp:function:: dispWrite(int, int, int, int)
+
+.. cpp:function:: dispDots(int dots)
+
+
+Funciones del zumbador
+----------------------
+.. cpp:function:: buzzBegin()
+
+.. cpp:function:: buzzOn()
+
+.. cpp:function:: buzzOff()
+
+.. cpp:function:: buzzFreq(int frequency)
+
+.. cpp:function:: buzzFreq(float frequency)
+
+.. cpp:function:: buzzTone(int tone)
+
+.. cpp:function:: buzzPlay(int tone, int time)

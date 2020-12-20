@@ -1,0 +1,410 @@
+EESchema Schematic File Version 4
+LIBS:electric-bornas-crepuscular-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 2
+Title "Circuitos eléctricos. Cableado con bornas."
+Date "14/12/2018"
+Rev ""
+Comp "www.picuino.com"
+Comment1 "Copyright (c) 2018 by Carlos Pardo"
+Comment2 "License CC BY-SA 4.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 400  500  0    100  ~ 0
+CABLEADO CON BORNAS.  SENSOR CREPUSCULAR
+$Comp
+L simbolos:CopyRight CP1
+U 1 1 5BD1D4ED
+P 3800 11400
+F 0 "CP1" H 4225 11725 40  0001 C CNN
+F 1 "CopyRight" H 3975 11725 40  0001 C CNN
+F 2 "" H 3700 11750 50  0001 C CNN
+F 3 "" H 3800 11600 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 3800 11350 50  0000 C CNN "License"
+F 5 "" H 4350 11350 50  0000 C CNN "Author"
+F 6 "" H 3925 11350 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4550 11350 50  0000 C CNN "Web"
+	1    3800 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Pila V1
+U 1 1 5C15052B
+P 1000 2100
+F 0 "V1" H 1200 2000 100 0000 L CNN
+F 1 "Pila" H 1100 2025 50  0001 C CNN
+F 2 "" H 1000 1975 50  0001 C CNN
+F 3 "" H 1000 1975 50  0001 C CNN
+F 4 "4.5V" H 1200 1850 100 0000 L CNN "V"
+	1    1000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:LDR R1
+U 1 1 5C150A71
+P 1900 1600
+F 0 "R1" H 2000 1500 100 0000 L CNN
+F 1 "LDR" V 1900 1400 50  0001 C CNN
+F 2 "" H 1950 1525 50  0001 C CNN
+F 3 "" H 1950 1525 50  0001 C CNN
+F 4 "10k" H 2000 1300 100 0000 L CNN "R"
+	1    1900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R2
+U 1 1 5C151021
+P 1900 2700
+F 0 "R2" H 2000 2600 100 0000 L CNN
+F 1 "resistencia" V 1800 2475 50  0001 C CNN
+F 2 "" H 2000 2600 50  0001 C CNN
+F 3 "" H 2000 2600 50  0001 C CNN
+F 4 "22k" H 2000 2400 100 0000 L CNN "R"
+	1    1900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R3
+U 1 1 5C1511BF
+P 2900 1500
+F 0 "R3" H 3000 1400 100 0000 L CNN
+F 1 "resistencia" V 2800 1275 50  0001 C CNN
+F 2 "" H 3000 1400 50  0001 C CNN
+F 3 "" H 3000 1400 50  0001 C CNN
+F 4 "220" H 3000 1200 100 0000 L CNN "R"
+	1    2900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:diodo_led D1
+U 1 1 5C151233
+P 2900 2000
+F 0 "D1" H 3088 1850 100 0000 L CNN
+F 1 "diodo_led" H 2900 2050 50  0001 C CNN
+F 2 "" V 2900 1850 50  0001 C CNN
+F 3 "" V 2900 1850 50  0001 C CNN
+	1    2900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:NPN Q1
+U 1 1 5C15131E
+P 2650 2400
+F 0 "Q1" H 3050 2300 100 0000 L CNN
+F 1 "NPN" H 2575 2100 50  0001 C CNN
+F 2 "" H 2750 2200 50  0001 C CNN
+F 3 "" H 2750 2200 50  0001 C CNN
+F 4 "BD137" H 3050 2100 100 0000 L CNN "REF"
+	1    2650 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2400 2900 2300
+Wire Wire Line
+	1900 1600 1900 1400
+Wire Wire Line
+	1900 3200 1900 3100
+Wire Wire Line
+	2900 2800 2900 3200
+$Comp
+L simbolos:LDR_pack R1
+U 1 1 5C15EDBC
+P 1800 8850
+F 0 "R1" V 2046 9006 100 0000 C CNN
+F 1 "LDR_pack" H 1850 8975 40  0001 C CNN
+F 2 "" V 1715 9100 50  0001 C CNN
+F 3 "" V 1715 9100 50  0001 C CNN
+	1    1800 8850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L simbolos:LED_pack_5mm D1
+U 1 1 5C160ABA
+P 1800 10050
+F 0 "D1" V 1900 10600 100 0000 L CNN
+F 1 "LED_pack_5mm" H 1865 10700 40  0001 C CNN
+F 2 "" V 1715 10300 50  0001 C CNN
+F 3 "" V 1715 10300 50  0001 C CNN
+	1    1800 10050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L simbolos:TO225_pack Q1
+U 1 1 5C163B1E
+P 1800 10500
+F 0 "Q1" H 1100 10500 100 0000 R CNN
+F 1 "TO225_pack" H 1425 10300 50  0001 C CNN
+F 2 "" H 3000 10300 50  0001 C CNN
+F 3 "" H 3000 10300 50  0001 C CNN
+	1    1800 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:pila_petaca V1
+U 1 1 5C1648AC
+P 4300 8900
+F 0 "V1" H 4800 8550 100 0000 L CNN
+F 1 "pila_petaca" H 4450 8575 50  0001 C CNN
+F 2 "" V 4650 8575 50  0001 C CNN
+F 3 "" V 4650 8575 50  0001 C CNN
+F 4 "4.5V" H 4450 8450 100 0000 C CNN "V"
+	1    4300 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:borna_12x2 X1
+U 1 1 5C157060
+P 2100 8700
+F 0 "X1" H 2250 8886 100 0000 C CNN
+F 1 "borna_12x2" H 2250 8750 50  0001 C CNN
+F 2 "" V 2100 8550 50  0001 C CNN
+F 3 "" V 2100 8550 50  0001 C CNN
+	1    2100 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 8750 2100 8700
+Wire Wire Line
+	2100 8900 1800 8850
+Wire Wire Line
+	1800 9900 2100 9900
+Wire Wire Line
+	2100 10100 1800 10050
+Wire Wire Line
+	2100 10300 1800 10350
+Wire Wire Line
+	2100 10500 1800 10500
+Wire Wire Line
+	2100 10700 1800 10650
+Wire Wire Line
+	4600 8900 4600 8700
+Wire Wire Line
+	3900 8900 3900 10700
+Wire Wire Line
+	2400 8900 2700 8900
+Wire Wire Line
+	2700 8900 2700 9100
+Wire Wire Line
+	2700 9100 2400 9100
+Wire Wire Line
+	2400 9700 2700 9700
+Wire Wire Line
+	2700 9700 2700 9900
+Wire Wire Line
+	2700 9900 2400 9900
+Wire Wire Line
+	2400 10100 2700 10100
+Wire Wire Line
+	2700 10100 2700 10500
+Wire Wire Line
+	2700 10500 2400 10500
+Wire Wire Line
+	2400 8700 2600 8800
+Wire Wire Line
+	2600 8800 3000 8800
+Wire Wire Line
+	3000 8800 3000 9500
+Wire Wire Line
+	3000 9500 2400 9500
+Wire Wire Line
+	2400 9300 3300 9300
+Wire Wire Line
+	3300 9300 3300 10600
+Wire Wire Line
+	3300 10600 2600 10600
+Wire Wire Line
+	2600 10600 2400 10700
+Connection ~ 2400 10700
+Wire Wire Line
+	2400 9100 2600 9200
+Wire Wire Line
+	2600 9200 3600 9200
+Wire Wire Line
+	3600 9200 3600 10300
+Wire Wire Line
+	3600 10300 2400 10300
+Connection ~ 2400 9100
+Wire Wire Line
+	2400 10700 3900 10700
+Wire Notes Line style solid rgb(0, 0, 0)
+	200  600  8050 600 
+$Comp
+L simbolos:resistencia_pack R3
+U 1 1 5C1B69C5
+P 1200 9500
+F 0 "R3" H 1050 9500 100 0000 R CNN
+F 1 "resistencia_pack" H 1500 9375 50  0001 C CNN
+F 2 "" V 1300 9600 50  0001 C CNN
+F 3 "" V 1300 9600 50  0001 C CNN
+F 4 "100" H 1500 9693 100 0001 C CNN "R"
+	1    1200 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 9500 2100 9500
+Wire Wire Line
+	2100 9700 1100 9700
+Wire Wire Line
+	1100 9700 1100 9500
+Wire Wire Line
+	1100 9500 1200 9500
+$Comp
+L simbolos:resistencia_pack R2
+U 1 1 5C1BC016
+P 1200 9100
+F 0 "R2" H 1050 9100 100 0000 R CNN
+F 1 "resistencia_pack" H 1500 8975 50  0001 C CNN
+F 2 "" V 1300 9200 50  0001 C CNN
+F 3 "" V 1300 9200 50  0001 C CNN
+F 4 "100" H 1500 9293 100 0001 C CNN "R"
+	1    1200 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 9100 2100 9100
+Wire Wire Line
+	2100 9300 1100 9300
+Wire Wire Line
+	1100 9300 1100 9100
+Wire Wire Line
+	1100 9100 1200 9100
+Text Notes 400  900  0    100  ~ 0
+ESQUEMA ELÉCTRICO
+Wire Notes Line style solid
+	400  950  2000 950 
+Wire Notes Line style solid rgb(0, 0, 0)
+	200  3800 8050 3800
+Text Notes 400  4100 0    100  ~ 0
+LISTADO DE COMPONENTES
+Wire Notes Line style solid
+	400  4150 2450 4150
+$Comp
+L simbolos:pila_petaca V?
+U 1 1 5C1D3F53
+P 900 4600
+F 0 "V?" H 1333 4401 100 0001 L CNN
+F 1 "pila_petaca" H 1050 4275 50  0001 C CNN
+F 2 "" V 1250 4275 50  0001 C CNN
+F 3 "" V 1250 4275 50  0001 C CNN
+F 4 "4.5V" H 1050 4150 100 0000 C CNN "V"
+	1    900  4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:LDR_pack LDR
+U 1 1 5C1D420B
+P 1000 5850
+F 0 "LDR" H 1250 6000 100 0001 L CNN
+F 1 "LDR_pack" H 1050 5975 40  0001 C CNN
+F 2 "" V 915 6100 50  0001 C CNN
+F 3 "" V 915 6100 50  0001 C CNN
+	1    1000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia_pack R?
+U 1 1 5C1D6B4D
+P 750 6300
+F 0 "R?" H 600 6300 100 0001 R CNN
+F 1 "resistencia_pack" H 1050 6175 50  0001 C CNN
+F 2 "" V 850 6400 50  0001 C CNN
+F 3 "" V 850 6400 50  0001 C CNN
+F 4 "100" H 1050 6493 100 0001 C CNN "R"
+	1    750  6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia_pack R?
+U 1 1 5C1D6CBE
+P 750 6900
+F 0 "R?" H 1600 6900 100 0001 R CNN
+F 1 "resistencia_pack" H 1050 6775 50  0001 C CNN
+F 2 "" V 850 7000 50  0001 C CNN
+F 3 "" V 850 7000 50  0001 C CNN
+F 4 "100" H 1050 7093 100 0001 C CNN "R"
+	1    750  6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:TO225_pack Q?
+U 1 1 5C1D78B4
+P 5250 4850
+F 0 "Q?" H 5500 4850 100 0001 R CNN
+F 1 "TO225_pack" H 4875 4650 50  0001 C CNN
+F 2 "" H 6450 4650 50  0001 C CNN
+F 3 "" H 6450 4650 50  0001 C CNN
+	1    5250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:LED_pack D?
+U 1 1 5C1DF900
+P 4800 5850
+F 0 "D?" H 5183 5870 100 0001 L CNN
+F 1 "LED_pack" H 4950 6225 40  0001 C CNN
+F 2 "" V 4800 5825 50  0001 C CNN
+F 3 "" V 4800 5825 50  0001 C CNN
+	1    4800 5850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line style solid rgb(0, 0, 0)
+	200  7700 8050 7700
+Text Notes 400  8000 0    100  ~ 0
+CABLEADO DEL CIRCUITO
+Wire Notes Line style solid
+	400  8050 2300 8050
+Text Notes 1550 5050 0    100  ~ 0
+1 x PILA DE PETACA
+Text Notes 1550 5750 0    100  ~ 0
+1 x LDR \n    10K OHMIOS NOMINALES
+Text Notes 1550 6500 0    100  ~ 0
+1 x RESISTENCIA 22K\n    ROJO, ROJO, NARANJA, ORO
+Text Notes 1550 7150 0    100  ~ 0
+1 x RESISTENCIA 220\n    ROJO, ROJO, MARRÓN, ORO
+Text Notes 5450 5000 0    100  ~ 0
+1 x TRANSISTOR NPN\n     BD137
+Text Notes 5450 5850 0    100  ~ 0
+1 x LED BLANCO 5MM\n     ALTA LUMINOSIDAD
+Text Notes 4350 2500 0    100  ~ 0
+SENSOR DE ILUMINACIÓN \nAMBIENTAL CON LDR
+Wire Wire Line
+	1000 1400 1900 1400
+Wire Wire Line
+	1000 3200 1900 3200
+Wire Wire Line
+	1900 1400 2900 1400
+Connection ~ 1900 1400
+Wire Wire Line
+	1900 2600 2650 2600
+Connection ~ 1900 2600
+Wire Wire Line
+	1900 2600 1900 2700
+Wire Wire Line
+	1900 3200 2900 3200
+Connection ~ 1900 3200
+Wire Wire Line
+	1000 1400 1000 2100
+Wire Wire Line
+	1000 2400 1000 3200
+Wire Wire Line
+	1900 2000 1900 2600
+Wire Wire Line
+	2900 2000 2900 1900
+Wire Wire Line
+	2900 1500 2900 1400
+Wire Wire Line
+	3900 8900 4300 8900
+Wire Wire Line
+	2400 8700 4600 8700
+Connection ~ 2400 8700
+$Sheet
+S 8600 1150 2600 300 
+U 5C331732
+F0 "2" 100
+F1 "electric-bornas-crepuscular-2.sch" 100
+$EndSheet
+$EndSCHEMATC

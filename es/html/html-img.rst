@@ -1,0 +1,32 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-img:
+
+Imágenes
+========
+
+
+Etiquetas utilizadas
+--------------------
+
+{{ macros.tag('img') }}
+
+
+Código de la página
+-------------------
+
+.. image:: html/_thumbs/html-img-html.png
+
+| Imágenes para descargar:
+| :download:`Playa. <html/_images/beach-01.jpg>`
+| :download:`Gráfico <html/_images/chart-01.png>`
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-img-web.png
+

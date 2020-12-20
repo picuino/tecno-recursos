@@ -1,0 +1,382 @@
+ <!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es-es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es-es" > <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tecno Recursos. Recursos educativos para Tecnología" />
+
+  
+  <title>15. Padding y border - Tutorial de CSS - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/es/css-padding-border.html"/>
+
+  
+  
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Buscar en Picuino"
+            href="../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="16. Recursos para CSS" href="css-recursos.html" />
+    <link rel="prev" title="14. Ancho y alto de caja" href="css-width-height.html" /> 
+
+  <script src="../_static/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+  
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tecno Recursos</a>
+      </nav>
+	  
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="informatica-index.html">Informática</a> &raquo;</li>
+        
+          <li><a href="css-index.html">Tutorial de CSS</a> &raquo;</li>
+        
+      <li>15. Padding y border</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/es/css-padding-border.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="padding-y-border">
+<h1>15. Padding y border<a class="headerlink" href="#padding-y-border" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>La caja donde se encuentra el contenido (texto o imágenes)
+puede tener un borde, un margen hasta el borde llamado padding
+y un margen con los demás elementos llamado margin.</p>
+<p>En la siguiente figura se puede ver cada uno de estos parámetros.</p>
+<a class="reference internal image-reference" href="../_images/caja.png"><img alt="../_images/caja.png" src="../_images/caja.png" style="width: 480px;" /></a>
+<p>En este ejercicio se modificarán los parámetros de padding y border
+de diferentes párrafos.</p>
+<p>Referencias.</p>
+<p><a class="reference external" href="https://www.w3schools.com/css/css_boxmodel.asp">CSS Box model</a></p>
+<p><a class="reference external" href="https://www.w3schools.com/css/css_padding.asp">CSS Padding</a></p>
+<p><a class="reference external" href="https://www.w3schools.com/css/css_border.asp">CSS Border</a></p>
+<p><a class="reference external" href="https://www.w3schools.com/css/css_border_width.asp">CSS Border Width</a></p>
+<p><a class="reference external" href="https://www.w3schools.com/css/css_border_color.asp">CSS Border Color</a></p>
+<p><a class="reference external" href="https://www.w3schools.com/css/css_border_sides.asp">CSS Border Sides</a></p>
+<p><a class="reference external" href="https://www.w3schools.com/css/css_border_shorthand.asp">CSS Border Shorthand</a></p>
+<p><a class="reference external" href="https://www.w3schools.com/css/css_border_rounded.asp">CSS Rounded Borders</a></p>
+<div class="section" id="ejercicio">
+<h2>Ejercicio<a class="headerlink" href="#ejercicio" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Fichero <strong>css-padding-border.html</strong></p>
+<div class="highlight-html notranslate" id="css-padding-border"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span> Padding y border <span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span>
+         <span class="na">href</span><span class="o">=</span><span class="s">&quot;css-padding-border.css&quot;</span> <span class="p">/&gt;</span>
+
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+
+   <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span> Padding y border <span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+
+   <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;estrecho&quot;</span><span class="p">&gt;</span> Párrafo de ejemplo con padding de 20 pixel
+   y sin borde abajo (bottom).<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+
+   <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ancho&quot;</span><span class="p">&gt;</span> Párrafo de ejemplo con padding de 80 pixel.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+
+   <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;lateral&quot;</span><span class="p">&gt;</span> Párrafo de ejemplo con padding a la izquierda
+   y a la derecha de 50 pixel y borde punteado. <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+<p>Fichero <strong>css-padding-border.css</strong></p>
+<img alt="../_images/css-padding-border-css.png" src="../_images/css-padding-border-css.png" />
+</div>
+<div class="section" id="resultado">
+<h2>Resultado<a class="headerlink" href="#resultado" title="Enlazar permanentemente con este título">¶</a></h2>
+<img alt="../_images/css-padding-border-web.png" src="../_images/css-padding-border-web.png" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+	<!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="css-recursos.html" class="btn btn-neutral float-right" title="16. Recursos para CSS" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="css-width-height.html" class="btn btn-neutral" title="14. Ancho y alto de caja" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="legal-aviso.html">Aviso legal</a></li>
+    <li><a href="legal-autor.html">Derechos de Autor</a></li>
+    <li><a href="legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="legal-atribution.html">Atribución</a></li>
+    </ul>
+    <p class="content-info">
+        &copy; Copyright 2013-2020 Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez en diciembre de 2020.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+         <a href="index.html">Tecno Recursos</a>
+
+         
+            
+            
+              <div class="version">
+                2020
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricidad y electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/control-index.html">Control Automático</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="informatica-index.html">Informática</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="informatica-tutoimpress.html">Tutorial de Impress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="informatica-tutocalc.html">Tutorial de Calc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="informatica-tutowriter.html">Tutorial de Writer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="writer-index.html">Tutorial de Writer 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="informatica-tutogimp.html">Tutorial de Gimp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="html-index.html">Tutorial de HTML</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="css-index.html">Tutorial de CSS</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="css-style.html">1. Etiqueta de Estilo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-file.html">2. Ficheros CSS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-clases.html">3. Clases CSS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-span.html">4. Etiqueta Span</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-div.html">5. Etiqueta div</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-cascading.html">6. Estilos en Cascada</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-fonts.html">7. Formato de Fuentes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-sans-serif.html">8. Tipos de letra sans-serif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-serif.html">9. Tipos de letra serif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-monospace.html">10. Tipos de letra monospace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-text-align.html">11. Alineación del Texto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-list-style.html">12. Estilos de lista</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-background.html">13. Color de fondo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-width-height.html">14. Ancho y alto de caja</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">15. Padding y border</a></li>
+<li class="toctree-l3"><a class="reference internal" href="css-recursos.html">16. Recursos para CSS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="external-index.html">Recursos Externos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

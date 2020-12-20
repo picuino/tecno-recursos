@@ -1,0 +1,85 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-tags:
+
+Resumen de etiquetas HTML
+=========================
+
+Etiquetas básicas
+-----------------
+
+{{ macros.tag('html') }}
+{{ macros.tag('head') }}
+{{ macros.tag('title') }}
+{{ macros.tag('body') }}
+{{ macros.tag('coment') }}
+
+{{ macros.tag('html_template') }}
+
+
+Etiquetas de contenido
+----------------------
+
+{{ macros.tag('p') }}
+{{ macros.tag('h1') }}
+{{ macros.tag('h2') }}
+{{ macros.tag('h3') }}
+{{ macros.tag('h4') }}
+
+
+Salto de línea
+--------------
+
+{{ macros.tag('br') }}
+{{ macros.tag('hr') }}
+
+
+Tipos de texto
+--------------
+
+{{ macros.tag('em') }}
+{{ macros.tag('strong') }}
+{{ macros.tag('cite') }}
+{{ macros.tag('blockquote') }}
+
+{{ macros.tag('pre') }}
+{{ macros.tag('code') }}
+
+
+Hipervínculos, imágenes y objetos
+---------------------------------
+
+{{ macros.tag('a') }}
+{{ macros.tag('img') }}
+{{ macros.tag('object') }}
+{{ macros.tag('id') }}
+
+
+Listas y definiciones
+---------------------
+
+{{ macros.tag('ol') }}
+{{ macros.tag('ul') }}
+{{ macros.tag('li') }}
+
+{{ macros.tag('dl') }}
+{{ macros.tag('dt') }}
+{{ macros.tag('dd') }}
+
+
+Tablas de datos
+---------------
+
+{{ macros.tag('table') }}
+{{ macros.tag('tr') }}
+{{ macros.tag('thead') }}
+{{ macros.tag('th') }}
+{{ macros.tag('tbody') }}
+{{ macros.tag('td') }}
+{{ macros.tag('rowspan') }}
+{{ macros.tag('colspan') }}
+
+{{ macros.tag('table_template') }}
+
+

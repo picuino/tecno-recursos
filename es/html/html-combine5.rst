@@ -1,0 +1,29 @@
+﻿
+{%- import 'html-macros.txt' as macros -%}
+
+.. _html-combine5:
+
+Combinar etiquetas imagen y tabla
+=================================
+
+Las etiquetas se pueden combinar entre si para conseguir
+los efectos de ambas.
+En este Ejercicio HTML se insertará una imagen dentro de una tabla.
+
+Código de la página
+-------------------
+
+.. image:: html/_thumbs/html-combine5-html.png
+
+| Imágenes para descargar.
+| :download:`Playa. <html/_images/beach-01.jpg>`
+| :download:`Gráfico <html/_images/chart-01.png>`
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-combine5-web.png
+

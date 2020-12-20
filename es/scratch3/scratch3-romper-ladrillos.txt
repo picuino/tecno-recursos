@@ -1,0 +1,146 @@
+﻿
+.. include:: scratch3-subs.rst
+
+{%- import 'scratch3-macros.txt' as scratch %}
+
+.. _scratch-romper-ladrillos:
+
+Romper ladrillos
+================
+
+.. image:: scratch3/_images/scratch3-p07-screen.png
+   :width: 360px
+
+
+En esta práctica vamos a programar un juego que consiste en
+romper ladrillos con una pelota que rebota en una barra.
+Cada ladrillo roto nos dará un punto.
+
+|br|
+
+
+1. Iniciamos el |editor_de_Scratch|.
+
+   |br|
+
+#. {{ scratch.idioma_castellano() }}
+
+   |br|
+
+#. {{ scratch.borrar_gato() }}
+
+   |br|
+
+#. Añadimos un nuevo personaje, una **barra de control**.
+
+   {{ scratch.objeto('Button2',
+                     section='Todos',
+                     image='scratch3-objeto-button2.png') }}
+
+   |br|
+
+#. Realizamos el siguiente programa para la barra de control.
+
+   {{ scratch.resize('scratch3-p07-button2-01.png') }}
+
+   |br|
+
+#. {{ scratch.probar_programa() }}
+
+   La barra debe moverse horizontalmente en la parte baja de
+   la pantalla siguiendo la posición del ratón.
+
+   |br|
+
+#. Añadimos un nuevo personaje, un **ladrillo**.
+
+   {{ scratch.objeto('Button3',
+                     section='Todos',
+                     image='scratch3-objeto-button3.png') }}
+
+   |br|
+
+#. Añadimos un nuevo personaje, una **pelota de tenis**.
+
+   {{ scratch.objeto('Tennis ball',
+                     section='Deportes',
+                     image='scratch3-objeto-tennisball.png') }}
+
+   |br|
+
+#. Realizamos los siguientes programas para la pelota de tenis
+
+   {{ scratch.resize('scratch3-p07-tennisball-01.png') }}
+
+   {{ scratch.resize('scratch3-p07-tennisball-02.png') }}
+
+   |br|
+
+#. {{ scratch.probar_programa() }}
+
+   Cada vez que pulsemos la barra espaciadora,
+   debe aparecer una pelota de tenis que se mueve por la pantalla
+   y rebota en las paredes y en la barra de control.
+
+   Cuando la pelota llega a la parte inferior de la pantalla,
+   esta desaparece.
+
+   |br|
+
+#. Ahora crearemos la variable **puntos** que va a almacenar 
+   los puntos que conseguimos rompiendo cada ladrillo.
+
+   {{ scratch.variable('puntos',
+                       image='scratch3-crear-variable-puntos.png') }}
+
+   |br|
+
+#. A continuación crearemos la variable **posicion** que
+   va a almacenar la posición de cada ladrillo
+   a la hora de colocar los ladrillos en la pantalla.
+
+   {{ scratch.variable('posicion') }}
+
+   |br|
+
+#. Por último crearemos el programa de los ladrillos.
+
+   {{ scratch.resize('scratch3-p07-button3-01.png') }}
+
+   {{ scratch.resize('scratch3-p07-button3-02.png') }}
+
+   |br|
+
+#. {{ scratch.probar_programa() }}
+
+   Al iniciarse el programa, aparecerán todos los ladrillos en
+   la parte superior de la pantalla.
+   Ahora podemos jugar con la pelota al pulsar la barra espaciadora.
+
+   |br|
+
+
+-----
+
+
+Ejercicios
+----------
+
+1. Modifica el programa para que aparezcan dos filas de ladrillos
+   en la parte superior.
+   
+   Hay que duplicar el personaje de **ladrillo**, crear otra 
+   variable **posicion2** y cambiarla en el nuevo ladrillo.
+   
+   Por último hay que bajar la posición **Y** del nuevo ladrillo 
+   desde 130 hasta 80.
+
+   |br|
+
+#. Modifica el programa para que el juego se acabe después de
+   que se pierdan tres pelotas por la parte inferior.
+
+   |br|
+
+#. Modifica el aspecto del los personajes para personalizarles
+   a tu gusto.

@@ -1,0 +1,59 @@
+﻿.. css-padding-border:
+
+Padding y border
+================
+La caja donde se encuentra el contenido (texto o imágenes)
+puede tener un borde, un margen hasta el borde llamado padding
+y un margen con los demás elementos llamado margin.
+
+En la siguiente figura se puede ver cada uno de estos parámetros.
+
+.. image:: css/caja.png
+   :width: 480px
+
+En este ejercicio se modificarán los parámetros de padding y border
+de diferentes párrafos. 
+
+Referencias.
+
+`CSS Box model <https://www.w3schools.com/css/css_boxmodel.asp>`__
+
+`CSS Padding <https://www.w3schools.com/css/css_padding.asp>`__
+
+`CSS Border <https://www.w3schools.com/css/css_border.asp>`__
+
+`CSS Border Width <https://www.w3schools.com/css/css_border_width.asp>`__
+
+`CSS Border Color <https://www.w3schools.com/css/css_border_color.asp>`__
+
+`CSS Border Sides <https://www.w3schools.com/css/css_border_sides.asp>`__
+
+`CSS Border Shorthand <https://www.w3schools.com/css/css_border_shorthand.asp>`__
+
+`CSS Rounded Borders <https://www.w3schools.com/css/css_border_rounded.asp>`__
+
+
+Ejercicio
+---------
+Fichero **css-padding-border.html**
+
+.. literalinclude:: css/css-padding-border.html
+   :language: html
+   :linenos:
+   :name: css-padding-border
+
+..  .. image:: css/_thumbs/css-padding-border-html.png
+
+
+Fichero **css-padding-border.css**
+
+.. image:: css/_thumbs/css-padding-border-css.png
+
+
+Resultado
+---------
+
+.. image:: css/_thumbs/css-padding-border-web.png
+
+
+

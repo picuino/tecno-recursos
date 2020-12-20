@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# www.picuino.com
+# Copyright (c) 2018 by Carlos Pardo
+# License CC BY-SA 4.0
+#
+# altavoz
+#
+DEF ~altavoz Z 0 40 Y Y 1 F N
+F0 "Z" 225 25 100 H V R CNN
+F1 "altavoz" 350 -150 50 V I C CNN
+F2 "" 50 -150 50 H I C CNN
+F3 "" 50 -150 50 H I C CNN
+DRAW
+S 100 -75 200 -225 0 0 0 N
+P 2 0 0 0 0 -200 100 -200 N
+P 2 0 0 0 0 -100 100 -100 N
+P 4 0 0 0 200 -75 300 25 300 -325 200 -225 N
+X ~ ~ 0 -300 100 U 45 50 1 1 I
+X ~ ~ 0 0 100 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

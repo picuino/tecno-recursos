@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="222 222 222" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="program" id="141">
+<Location>
+<X>20</X>
+<Y>97</Y>
+</Location>
+<Comment>
+<Text>Enciende la secuencia de led 1, 2, 3, 4, 5.
+Al presionar los pulsadores 1, 2, 3, 4, 5.
+Programa incompleto.</Text>
+<Location>
+<X>19</X>
+<Y>17</Y>
+</Location>
+<BoxSize>
+<Width>382</Width>
+<Height>75</Height>
+</BoxSize>
+</Comment>
+<Sockets num-sockets="2">
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="Configuración" position-type="single"/>
+<BlockConnector con-block-id="1015" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Bucle" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="while" id="1015">
+<Location>
+<X>194</X>
+<Y>140</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<AfterBlockId>727</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="1018" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Condición" position-type="single"/>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="Comandos" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pc_ledWrite" id="727">
+<Location>
+<X>194</X>
+<Y>205</Y>
+</Location>
+<BeforeBlockId>1015</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="873" connector-kind="socket" connector-type="number" init-type="number" label="Led" position-type="single"/>
+<BlockConnector con-block-id="1014" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Estado" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="digital-on" id="1014">
+<Location>
+<X>338</X>
+<Y>232</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="727" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="873">
+<Location>
+<X>338</X>
+<Y>208</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="727" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="not" id="1018">
+<Location>
+<X>334</X>
+<Y>143</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1015" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1016" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pc_keyPressed" id="1016">
+<Location>
+<X>376</X>
+<Y>143</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1018" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1017" connector-kind="socket" connector-type="number" init-type="number" label="Botón" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="1017">
+<Location>
+<X>576</X>
+<Y>143</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1016" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

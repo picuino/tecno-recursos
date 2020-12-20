@@ -1,0 +1,61 @@
+﻿
+.. **********  SCRATCH subs  **********
+
+.. |br| raw:: html
+
+   <br />
+
+
+.. |editor_de_Scratch| raw:: html
+
+   <a href="https://scratch.mit.edu/projects/editor"
+   target="_blank">editor de Scratch</a>
+
+
+.. |entrada-numerica| image:: scratch/_images/scratch-aniadir-entrada-num.png
+                      :align: middle
+
+.. |bandera-verde| image:: scratch/_images/scratch-bandera-verde.png
+                   :align: middle
+
+.. |bloque-inicio| image:: scratch/_images/scratch-bloque-inicio.png
+                   :align: middle
+
+.. |borrar-gato| image:: scratch/_images/scratch-borrar-gato.png
+                 :align: middle
+
+.. |cambia-escenario| image:: scratch/_images/scratch-cambia-escenario-lib.png
+                      :align: middle
+
+.. |crear-bloque| image:: scratch/_images/scratch-crear-bloque.png
+                  :align: middle
+
+.. |crear-variable| image:: scratch/_images/scratch-crear-variable.png
+                    :align: middle
+
+.. |datos| image:: scratch/_images/scratch-datos.png
+           :align: middle
+
+.. |disfraces| image:: scratch/_images/scratch-disfraces.png
+               :align: middle
+
+.. |eventos| image:: scratch/_images/scratch-eventos.png
+             :align: middle
+
+.. |mas-bloques| image:: scratch/_images/scratch-mas-bloques.png
+                 :align: middle
+
+.. |nuevo-mensaje| image:: scratch/_images/scratch-nuevo-mensaje.png
+                   :align: middle
+
+.. |nuevo-objeto| image:: scratch/_images/scratch-nuevo-objeto-lib.png
+                  :align: middle
+
+.. |gato-seleccionado| image:: scratch/_images/scratch-select-gato.png
+                       :align: middle
+
+.. |sonidos| image:: scratch/_images/scratch-sonidos.png
+             :align: middle
+
+.. |sonido-nuevo| image:: scratch/_images/scratch-sonido-nuevo-lib.png
+                  :align: middle

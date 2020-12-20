@@ -1,0 +1,263 @@
+EESchema Schematic File Version 4
+LIBS:electric-ejemplos-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title "Circuitos eléctricos. Circuitos de ejemplo"
+Date "14/12/2018"
+Rev ""
+Comp "www.picuino.com"
+Comment1 "Copyright (c) 2018 by Carlos Pardo"
+Comment2 "License CC BY-SA 4.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 350  500  0    100  ~ 0
+CIRCUITOS ELÉCTRICOS DE EJEMPLO     LÁMINA 1
+$Comp
+L simbolos:CopyRight CP1
+U 1 1 5BD1D4ED
+P 3750 11400
+F 0 "CP1" H 4175 11725 40  0001 C CNN
+F 1 "CopyRight" H 3925 11725 40  0001 C CNN
+F 2 "" H 3650 11750 50  0001 C CNN
+F 3 "" H 3750 11600 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 3750 11350 50  0000 C CNN "License"
+F 5 "" H 4300 11350 50  0000 C CNN "Author"
+F 6 "" H 3875 11350 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4500 11350 50  0000 C CNN "Web"
+	1    3750 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Pila V1
+U 1 1 5C1614EB
+P 800 1250
+F 0 "V1" H 600 1075 100 0000 R CNN
+F 1 "Pila" H 900 1175 50  0001 C CNN
+F 2 "" H 800 1125 50  0001 C CNN
+F 3 "" H 800 1125 50  0001 C CNN
+	1    800  1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1000 1000 1000
+$Comp
+L simbolos:lampara L1
+U 1 1 5C161A44
+P 1700 1200
+F 0 "L1" H 1858 1000 100 0000 L CNN
+F 1 "lampara" V 1750 675 50  0001 C CNN
+F 2 "" V 1700 1025 50  0001 C CNN
+F 3 "" V 1700 1025 50  0001 C CNN
+	1    1700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1000 800  1250
+Wire Wire Line
+	1500 1000 1700 1000
+Wire Wire Line
+	1700 1000 1700 1200
+Wire Wire Line
+	1700 1600 1700 1800
+Wire Wire Line
+	1700 1800 800  1800
+Wire Wire Line
+	800  1800 800  1550
+$Comp
+L simbolos:switch S1
+U 1 1 5C1617C4
+P 1000 1000
+F 0 "S1" H 1250 1261 100 0000 C CNN
+F 1 "switch" H 1250 900 50  0001 C CNN
+F 2 "" H 1300 1000 50  0001 C CNN
+F 3 "" H 1300 1000 50  0001 C CNN
+	1    1000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Pila V1
+U 1 1 5C161BCB
+P 3000 1250
+F 0 "V1" H 2800 1075 100 0000 R CNN
+F 1 "Pila" H 3100 1175 50  0001 C CNN
+F 2 "" H 3000 1125 50  0001 C CNN
+F 3 "" H 3000 1125 50  0001 C CNN
+	1    3000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L1
+U 1 1 5C161BD2
+P 3700 1200
+F 0 "L1" H 3858 1000 100 0000 L CNN
+F 1 "lampara" V 3750 675 50  0001 C CNN
+F 2 "" V 3700 1025 50  0001 C CNN
+F 3 "" V 3700 1025 50  0001 C CNN
+	1    3700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1000 3000 1250
+Wire Wire Line
+	3700 1000 3700 1200
+Wire Wire Line
+	3700 1600 3700 1800
+Wire Wire Line
+	3700 1800 3000 1800
+Wire Wire Line
+	3000 1800 3000 1550
+$Comp
+L simbolos:lampara L2
+U 1 1 5C161CD4
+P 4400 1200
+F 0 "L2" H 4558 1000 100 0000 L CNN
+F 1 "lampara" V 4450 675 50  0001 C CNN
+F 2 "" V 4400 1025 50  0001 C CNN
+F 3 "" V 4400 1025 50  0001 C CNN
+	1    4400 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1000 4400 1000
+Wire Wire Line
+	4400 1000 4400 1200
+Connection ~ 3700 1000
+Wire Wire Line
+	3700 1800 4400 1800
+Wire Wire Line
+	4400 1800 4400 1600
+Connection ~ 3700 1800
+Wire Wire Line
+	3000 1000 3700 1000
+$Comp
+L simbolos:Pila V1
+U 1 1 5C162313
+P 5500 1400
+F 0 "V1" H 5300 1225 100 0000 R CNN
+F 1 "Pila" H 5600 1325 50  0001 C CNN
+F 2 "" H 5500 1275 50  0001 C CNN
+F 3 "" H 5500 1275 50  0001 C CNN
+	1    5500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L1
+U 1 1 5C162319
+P 6200 1100
+F 0 "L1" H 6358 900 100 0000 L CNN
+F 1 "lampara" V 6250 575 50  0001 C CNN
+F 2 "" V 6200 925 50  0001 C CNN
+F 3 "" V 6200 925 50  0001 C CNN
+	1    6200 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1000 6200 1100
+Wire Wire Line
+	6200 1500 6200 1600
+$Comp
+L simbolos:lampara L2
+U 1 1 5C162324
+P 6200 1600
+F 0 "L2" H 6358 1400 100 0000 L CNN
+F 1 "lampara" V 6250 1075 50  0001 C CNN
+F 2 "" V 6200 1425 50  0001 C CNN
+F 3 "" V 6200 1425 50  0001 C CNN
+	1    6200 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1000 6200 1000
+Wire Wire Line
+	5500 2100 6200 2100
+Wire Wire Line
+	6200 2100 6200 2000
+Wire Wire Line
+	5500 1700 5500 2100
+Wire Wire Line
+	5500 1000 5500 1400
+$Comp
+L simbolos:Pila V1
+U 1 1 5C163881
+P 5500 2800
+F 0 "V1" H 5300 2625 100 0000 R CNN
+F 1 "Pila" H 5600 2725 50  0001 C CNN
+F 2 "" H 5500 2675 50  0001 C CNN
+F 3 "" H 5500 2675 50  0001 C CNN
+	1    5500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2400 6200 2500
+Wire Wire Line
+	6200 2900 6200 3000
+$Comp
+L simbolos:lampara L2
+U 1 1 5C16388F
+P 6200 3000
+F 0 "L2" H 6358 2800 100 0000 L CNN
+F 1 "lampara" V 6250 2475 50  0001 C CNN
+F 2 "" V 6200 2825 50  0001 C CNN
+F 3 "" V 6200 2825 50  0001 C CNN
+	1    6200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2400 6200 2400
+Wire Wire Line
+	5500 3500 6200 3500
+Wire Wire Line
+	6200 3500 6200 3400
+Wire Wire Line
+	5500 3100 5500 3500
+Wire Wire Line
+	5500 2400 5500 2800
+$Comp
+L simbolos:Pila V1
+U 1 1 5C1640FA
+P 3000 2650
+F 0 "V1" H 2800 2475 100 0000 R CNN
+F 1 "Pila" H 3100 2575 50  0001 C CNN
+F 2 "" H 3000 2525 50  0001 C CNN
+F 3 "" H 3000 2525 50  0001 C CNN
+	1    3000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2400 3000 2650
+Wire Wire Line
+	3700 2400 3700 2600
+Wire Wire Line
+	3700 3000 3700 3200
+Wire Wire Line
+	3700 3200 3000 3200
+Wire Wire Line
+	3000 3200 3000 2950
+$Comp
+L simbolos:lampara L2
+U 1 1 5C16410B
+P 4400 2600
+F 0 "L2" H 4558 2400 100 0000 L CNN
+F 1 "lampara" V 4450 2075 50  0001 C CNN
+F 2 "" V 4400 2425 50  0001 C CNN
+F 3 "" V 4400 2425 50  0001 C CNN
+	1    4400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2400 4400 2400
+Wire Wire Line
+	4400 2400 4400 2600
+Connection ~ 3700 2400
+Wire Wire Line
+	3700 3200 4400 3200
+Wire Wire Line
+	4400 3200 4400 3000
+Connection ~ 3700 3200
+Wire Wire Line
+	3000 2400 3700 2400
+$EndSCHEMATC

@@ -1,0 +1,132 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+SOURCES=_sources
+
+LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 5
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z a
+PYTHON=python
+
+# --------------------------------------------------------------------
+# bornas
+#
+define crop_page
+	$(eval geometry = $(shell python -c "import sys; \
+	((x0,y0),(x1,y1))=eval(sys.argv[1]); \
+	print('%dx%d+%d+%d'%((x1-x0),(y1-y0),x0,y0));" $(2) ))
+	$(CONVERT) $(1) -crop $(geometry) +repage $(CONVERT_OPT) $(3)
+	$(OPTIPNG) $(3)
+endef
+define convert_pdf1
+	$(PDFTOPNG) $(1) $(basename $(1))
+	mv  $(basename $(1))-000001.png  $(IMGDIR)/$(basename $(1))-1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $(1))-1.png
+	$(OPTIPNG) 	$(IMGDIR)/$(basename $(1))-1.png
+endef
+define convert_pdf2
+	$(PDFTOPNG) $(1) $(basename $(1))
+	mv  $(basename $(1))-000001.png  $(IMGDIR)/$(basename $(1))-1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $(1))-1.png
+	$(OPTIPNG) 	$(IMGDIR)/$(basename $(1))-1.png
+
+   mv $(basename $(1))-000002.png  $(IMGDIR)/$(basename $(1))-2.png
+	$(MOGRIFY) -posterize 16  $(IMGDIR)/$(basename $(1))-2.png
+	$(OPTIPNG) 	$(IMGDIR)/$(basename $(1))-2.png
+endef
+
+BORNAS_IMAGES = \
+	$(foreach f, $(wildcard electric-bornas-*.pdf), \
+	$(IMGDIR)/$(notdir $(basename $(f)))-1.png \
+	$(IMGDIR)/$(notdir $(basename $(f)))-2.png \
+	$(IMGDIR)/$(notdir $(basename $(f))).png ) \
+
+# PDF TO PNG
+$(IMGDIR)/electric-bornas-%-1.png $(IMGDIR)/electric-bornas-%-2.png: electric-bornas-%.pdf
+	$(call convert_pdf2, $<)
+
+# THUMBNAILS
+$(IMGDIR)/electric-bornas-conmutador.png: $(IMGDIR)/electric-bornas-conmutador-1.png
+	$(call crop_page, $<, "((160, 700),(2300, 1900))", $@)
+
+$(IMGDIR)/electric-bornas-conmutador-doble.png: $(IMGDIR)/electric-bornas-conmutador-doble-1.png
+	$(call crop_page, $<, "((160, 700),(2300, 1900))", $@)
+
+$(IMGDIR)/electric-bornas-interruptor.png: $(IMGDIR)/electric-bornas-interruptor-1.png
+	$(call crop_page, $<, "((160, 700),(1900, 1900))", $@)
+
+$(IMGDIR)/electric-bornas-interruptores-paralelo.png: $(IMGDIR)/electric-bornas-interruptores-paralelo-1.png
+	$(call crop_page, $<, "((160, 700),(2450, 1900))", $@)
+
+$(IMGDIR)/electric-bornas-interruptores-serie.png: $(IMGDIR)/electric-bornas-interruptores-serie-1.png
+	$(call crop_page, $<, "((160, 700),(2300, 1900))", $@)
+
+$(IMGDIR)/electric-bornas-lamparas-paralelo.png: $(IMGDIR)/electric-bornas-lamparas-paralelo-1.png
+	$(call crop_page, $<, "((160, 700),(2300, 1900))", $@)
+
+$(IMGDIR)/electric-bornas-lamparas-serie.png: $(IMGDIR)/electric-bornas-lamparas-serie-1.png
+	$(call crop_page, $<, "((160, 700),(1700, 1900))", $@)
+
+$(IMGDIR)/electric-bornas-lamparas-serie-corto.png: $(IMGDIR)/electric-bornas-lamparas-serie-corto-1.png
+	$(call crop_page, $<, "((160, 700),(2300, 2000))", $@)
+
+$(IMGDIR)/electric-bornas-lamparas-independientes.png: $(IMGDIR)/electric-bornas-lamparas-independientes-1.png
+	$(call crop_page, $<, "((160, 700),(2700, 2050))", $@)
+
+$(IMGDIR)/electric-bornas-lamparas-serie-doble.png: $(IMGDIR)/electric-bornas-lamparas-serie-doble-1.png
+	$(call crop_page, $<, "((160, 700),(2500, 2000))", $@)
+
+
+$(IMGDIR)/electric-bornas-telegrafo.png: $(IMGDIR)/electric-bornas-telegrafo-1.png
+	$(call crop_page, $<, "((280, 4080),(2850,5200))", $@)
+
+$(IMGDIR)/electric-bornas-crepuscular.png: $(IMGDIR)/electric-bornas-crepuscular-1.png
+	$(call crop_page, $<, "((428,4981),(3030,6660))", $@)
+
+$(IMGDIR)/electric-bornas-condensador.png: $(IMGDIR)/electric-bornas-condensador-1.png
+	$(call crop_page, $<, "((400, 4890),(2860, 6530))", $@)
+
+
+# ZIP
+electric-bornas-1.zip:  $(LIBS) $(wildcard bornas-1/*)
+	rm -f $@  bornas-1/*.bak
+	$(ZIP) $@ $^
+
+electric-bornas-2.zip:  $(LIBS) $(wildcard bornas-2/*)
+	rm -f $@  bornas-2/*.bak
+	$(ZIP) $@ $^
+
+
+# ALL FILES
+.PHONY: all-bornas  clean-bornas
+all-bornas: \
+	$(BORNAS_IMAGES) \
+	electric-bornas-1.zip \
+	electric-bornas-2.zip \
+
+clean-bornas:
+	rm -f electric-bornas-1.zip
+	rm -f electric-bornas-2.zip
+	rm -f $(BORNAS_IMAGES)
+
+
+# --------------------------------------------------------------------
+# make all
+#
+.PHONY: all clean
+all: \
+	all-bornas \
+
+
+clean: \
+	clean-bornas \

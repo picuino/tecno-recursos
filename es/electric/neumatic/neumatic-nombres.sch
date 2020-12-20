@@ -1,0 +1,669 @@
+EESchema Schematic File Version 4
+LIBS:neumatic-simbolos-nombres-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 2 3
+Title "Símbolos eléctricos y electrónicos."
+Date "23/10/2018"
+Rev ""
+Comp "www.picuino.com"
+Comment1 "Copyright (c) 2018 by Carlos Pardo"
+Comment2 "License CC BY-SA 4.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 1575 1125 0    100  ~ 0
+PILA
+Text Notes 1575 1725 0    100  ~ 0
+GENERADOR
+Text Notes 1575 2400 0    100  ~ 0
+TRANSFOR-\nMADOR
+Text Notes 4225 7800 0    100  ~ 0
+CABLES\nELÉCTRICOS\n
+Text Notes 4225 8400 0    100  ~ 0
+CONEXIÓN\nELÉCTRICA\n
+$Comp
+L simbolos:marco_2 M?
+U 1 1 5BCAB9A8
+P 200 250
+F 0 "M?" H 300 150 100 0001 C CNN
+F 1 "marco_2" H 600 200 50  0001 C CNN
+F 2 "" H 250 75  50  0001 C CNN
+F 3 "" H 250 75  50  0001 C CNN
+F 4 "GENERADORES" H 1500 75  100 0000 C CNN "Campo4"
+F 5 "SÍMBOLO" H 650 -150 75  0000 C CNN "Campo5"
+F 6 "LETRA" H 1300 -150 75  0000 C CNN "Campo6"
+F 7 "NOMBRE" H 2150 -150 75  0000 C CNN "Campo7"
+	1    200  250 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_2 M?
+U 1 1 5BCAD41E
+P 2850 250
+F 0 "M?" H 2950 150 100 0001 C CNN
+F 1 "marco_2" H 3250 200 50  0001 C CNN
+F 2 "" H 2900 75  50  0001 C CNN
+F 3 "" H 2900 75  50  0001 C CNN
+F 4 "ELEMENTOS DE CONTROL" H 4150 75  100 0000 C CNN "Campo4"
+F 5 "SÍMBOLO" H 3300 -150 75  0000 C CNN "Campo5"
+F 6 "LETRA" H 3950 -150 75  0000 C CNN "Campo6"
+F 7 "NOMBRE" H 4800 -150 75  0000 C CNN "Campo7"
+	1    2850 250 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_2 M?
+U 1 1 5BCAD4D2
+P 200 3250
+F 0 "M?" H 300 3150 100 0001 C CNN
+F 1 "marco_2" H 600 3200 50  0001 C CNN
+F 2 "" H 250 3075 50  0001 C CNN
+F 3 "" H 250 3075 50  0001 C CNN
+F 4 "RECEPTORES" H 1500 3075 100 0000 C CNN "Campo4"
+F 5 "SÍMBOLO" H 650 2850 75  0000 C CNN "Campo5"
+F 6 "LETRA" H 1300 2850 75  0000 C CNN "Campo6"
+F 7 "NOMBRE" H 2150 2850 75  0000 C CNN "Campo7"
+	1    200  3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_2 M?
+U 1 1 5BCAD63F
+P 5500 3850
+F 0 "M?" H 5600 3750 100 0001 C CNN
+F 1 "marco_2" H 5900 3800 50  0001 C CNN
+F 2 "" H 5550 3675 50  0001 C CNN
+F 3 "" H 5550 3675 50  0001 C CNN
+F 4 "SENSORES" H 6800 3675 100 0000 C CNN "Campo4"
+F 5 "SÍMBOLO" H 5950 3450 75  0000 C CNN "Campo5"
+F 6 "LETRA" H 6600 3450 75  0000 C CNN "Campo6"
+F 7 "NOMBRE" H 7450 3450 75  0000 C CNN "Campo7"
+	1    5500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_2 M?
+U 1 1 5BCAD782
+P 2850 6250
+F 0 "M?" H 2950 6150 100 0001 C CNN
+F 1 "marco_2" H 3250 6200 50  0001 C CNN
+F 2 "" H 2900 6075 50  0001 C CNN
+F 3 "" H 2900 6075 50  0001 C CNN
+F 4 "CONDUCTORES" H 4150 6075 100 0000 C CNN "Campo4"
+F 5 "SÍMBOLO" H 3300 5850 75  0000 C CNN "Campo5"
+F 6 "LETRA" H 3950 5850 75  0000 C CNN "Campo6"
+F 7 "NOMBRE" H 4800 5850 75  0000 C CNN "Campo7"
+	1    2850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_2 M?
+U 1 1 5BCAD8D3
+P 200 9250
+F 0 "M?" H 300 9150 100 0001 C CNN
+F 1 "marco_2" H 600 9200 50  0001 C CNN
+F 2 "" H 250 9075 50  0001 C CNN
+F 3 "" H 250 9075 50  0001 C CNN
+F 4 "APARATOS DE MEDIDA" H 1500 9075 100 0000 C CNN "Campo4"
+F 5 "SÍMBOLO" H 650 8850 75  0000 C CNN "Campo5"
+F 6 "LETRA" H 1300 8850 75  0000 C CNN "Campo6"
+F 7 "NOMBRE" H 2150 8850 75  0000 C CNN "Campo7"
+	1    200  9250
+	1    0    0    -1  
+$EndComp
+Text Notes 4225 7125 0    100  ~ 0
+CONECTOR\n
+$Comp
+L simbolos:marco_2 M?
+U 1 1 5BCAF955
+P 5500 250
+F 0 "M?" H 5600 150 100 0001 C CNN
+F 1 "marco_2" H 5900 200 50  0001 C CNN
+F 2 "" H 5550 75  50  0001 C CNN
+F 3 "" H 5550 75  50  0001 C CNN
+F 4 "COMPONENTES ELECTRÓNICOS" H 6800 75  100 0000 C CNN "Campo4"
+F 5 "SÍMBOLO" H 5950 -150 75  0000 C CNN "Campo5"
+F 6 "LETRA" H 6600 -150 75  0000 C CNN "Campo6"
+F 7 "NOMBRE" H 7450 -150 75  0000 C CNN "Campo7"
+	1    5500 250 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	200  11500 8100 11500
+$Comp
+L simbolos:marco_2 M?
+U 1 1 5BC7C19F
+P 5500 6850
+F 0 "M?" H 5600 6750 100 0001 C CNN
+F 1 "marco_2" H 5900 6800 50  0001 C CNN
+F 2 "" H 5550 6675 50  0001 C CNN
+F 3 "" H 5550 6675 50  0001 C CNN
+F 4 "PUERTAS LÓGICAS" H 6800 6675 100 0000 C CNN "Campo4"
+F 5 "SÍMBOLO" H 5950 6450 75  0000 C CNN "Campo5"
+F 6 "LETRA" H 6600 6450 75  0000 C CNN "Campo6"
+F 7 "NOMBRE" H 7450 6450 75  0000 C CNN "Campo7"
+	1    5500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9BC60
+P 200 750
+F 0 "M?" H 325 575 100 0001 C CNN
+F 1 "marco_1" H 350 700 50  0001 C CNN
+F 2 "" H 250 600 50  0001 C CNN
+F 3 "" H 250 600 50  0001 C CNN
+	1    200  750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9BCB1
+P 200 1350
+F 0 "M?" H 325 1175 100 0001 C CNN
+F 1 "marco_1" H 350 1300 50  0001 C CNN
+F 2 "" H 250 1200 50  0001 C CNN
+F 3 "" H 250 1200 50  0001 C CNN
+	1    200  1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9BD6B
+P 200 1950
+F 0 "M?" H 325 1775 100 0001 C CNN
+F 1 "marco_1" H 350 1900 50  0001 C CNN
+F 2 "" H 250 1800 50  0001 C CNN
+F 3 "" H 250 1800 50  0001 C CNN
+	1    200  1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9BDBC
+P 200 3750
+F 0 "M?" H 325 3575 100 0001 C CNN
+F 1 "marco_1" H 350 3700 50  0001 C CNN
+F 2 "" H 250 3600 50  0001 C CNN
+F 3 "" H 250 3600 50  0001 C CNN
+	1    200  3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9BE0D
+P 200 4350
+F 0 "M?" H 325 4175 100 0001 C CNN
+F 1 "marco_1" H 350 4300 50  0001 C CNN
+F 2 "" H 250 4200 50  0001 C CNN
+F 3 "" H 250 4200 50  0001 C CNN
+	1    200  4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9BE5E
+P 200 4950
+F 0 "M?" H 325 4775 100 0001 C CNN
+F 1 "marco_1" H 350 4900 50  0001 C CNN
+F 2 "" H 250 4800 50  0001 C CNN
+F 3 "" H 250 4800 50  0001 C CNN
+	1    200  4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9BEAF
+P 200 5550
+F 0 "M?" H 325 5375 100 0001 C CNN
+F 1 "marco_1" H 350 5500 50  0001 C CNN
+F 2 "" H 250 5400 50  0001 C CNN
+F 3 "" H 250 5400 50  0001 C CNN
+	1    200  5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9BF00
+P 200 6150
+F 0 "M?" H 325 5975 100 0001 C CNN
+F 1 "marco_1" H 350 6100 50  0001 C CNN
+F 2 "" H 250 6000 50  0001 C CNN
+F 3 "" H 250 6000 50  0001 C CNN
+	1    200  6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9BF51
+P 200 6750
+F 0 "M?" H 325 6575 100 0001 C CNN
+F 1 "marco_1" H 350 6700 50  0001 C CNN
+F 2 "" H 250 6600 50  0001 C CNN
+F 3 "" H 250 6600 50  0001 C CNN
+	1    200  6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C0D9
+P 200 7350
+F 0 "M?" H 325 7175 100 0001 C CNN
+F 1 "marco_1" H 350 7300 50  0001 C CNN
+F 2 "" H 250 7200 50  0001 C CNN
+F 3 "" H 250 7200 50  0001 C CNN
+	1    200  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C12A
+P 200 7950
+F 0 "M?" H 325 7775 100 0001 C CNN
+F 1 "marco_1" H 350 7900 50  0001 C CNN
+F 2 "" H 250 7800 50  0001 C CNN
+F 3 "" H 250 7800 50  0001 C CNN
+	1    200  7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C23F
+P 200 10350
+F 0 "M?" H 325 10175 100 0001 C CNN
+F 1 "marco_1" H 350 10300 50  0001 C CNN
+F 2 "" H 250 10200 50  0001 C CNN
+F 3 "" H 250 10200 50  0001 C CNN
+	1    200  10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C425
+P 2850 1350
+F 0 "M?" H 2975 1175 100 0001 C CNN
+F 1 "marco_1" H 3000 1300 50  0001 C CNN
+F 2 "" H 2900 1200 50  0001 C CNN
+F 3 "" H 2900 1200 50  0001 C CNN
+	1    2850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C50F
+P 2850 1950
+F 0 "M?" H 2975 1775 100 0001 C CNN
+F 1 "marco_1" H 3000 1900 50  0001 C CNN
+F 2 "" H 2900 1800 50  0001 C CNN
+F 3 "" H 2900 1800 50  0001 C CNN
+	1    2850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C560
+P 2850 2550
+F 0 "M?" H 2975 2375 100 0001 C CNN
+F 1 "marco_1" H 3000 2500 50  0001 C CNN
+F 2 "" H 2900 2400 50  0001 C CNN
+F 3 "" H 2900 2400 50  0001 C CNN
+	1    2850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C5B1
+P 2850 3150
+F 0 "M?" H 2975 2975 100 0001 C CNN
+F 1 "marco_1" H 3000 3100 50  0001 C CNN
+F 2 "" H 2900 3000 50  0001 C CNN
+F 3 "" H 2900 3000 50  0001 C CNN
+	1    2850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C602
+P 2850 3750
+F 0 "M?" H 2975 3575 100 0001 C CNN
+F 1 "marco_1" H 3000 3700 50  0001 C CNN
+F 2 "" H 2900 3600 50  0001 C CNN
+F 3 "" H 2900 3600 50  0001 C CNN
+	1    2850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C653
+P 2850 4350
+F 0 "M?" H 2975 4175 100 0001 C CNN
+F 1 "marco_1" H 3000 4300 50  0001 C CNN
+F 2 "" H 2900 4200 50  0001 C CNN
+F 3 "" H 2900 4200 50  0001 C CNN
+	1    2850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C6A4
+P 2850 4950
+F 0 "M?" H 2975 4775 100 0001 C CNN
+F 1 "marco_1" H 3000 4900 50  0001 C CNN
+F 2 "" H 2900 4800 50  0001 C CNN
+F 3 "" H 2900 4800 50  0001 C CNN
+	1    2850 4950
+	1    0    0    -1  
+$EndComp
+Text Notes 1575 4125 0    100  ~ 0
+LÁMPARA
+Text Notes 1575 4725 0    100  ~ 0
+MOTOR
+Text Notes 1575 5325 0    100  ~ 0
+RESISTENCIA
+Text Notes 1575 5925 0    100  ~ 0
+ZUMBADOR\n
+Text Notes 1600 6525 0    100  ~ 0
+ALTAVOZ
+Text Notes 1575 7200 0    100  ~ 0
+CONDENSADOR\nPOLARIZADO
+Text Notes 1575 7725 0    100  ~ 0
+CONDENSADOR
+Text Notes 1575 8325 0    100  ~ 0
+BOBINA
+Text Notes 1600 10125 0    100  ~ 0
+VOLTÍMETRO
+Text Notes 1600 10725 0    100  ~ 0
+AMPERÍMETRO
+Text Notes 4225 1125 0    100  ~ 0
+INTERRUPTOR
+Text Notes 4225 1725 0    100  ~ 0
+CONMUTADOR
+Text Notes 4225 2475 0    100  ~ 0
+PULSADOR\nNORMALMENTE\nABIERTO
+Text Notes 4225 3075 0    100  ~ 0
+PULSADOR\nNORMALMENTE\nCERRADO
+Text Notes 4225 3600 0    100  ~ 0
+FINAL DE\nCARRERA
+Text Notes 4225 4125 0    100  ~ 0
+FUSIBLE
+Text Notes 4225 4725 0    100  ~ 0
+RELÉ
+Text Notes 4225 5400 0    100  ~ 0
+CONTACTO\nDE RELÉ
+Text Notes 4225 9000 0    100  ~ 0
+CONEXIÓN\nA TIERRA\n
+Text Notes 4225 9575 0    100  ~ 0
+CONEXIÓN\nA MASA\n
+Text Notes 6875 1125 0    100  ~ 0
+DIODO
+Text Notes 6875 1725 0    100  ~ 0
+DIODO LED
+Text Notes 6875 2400 0    100  ~ 0
+TRANSISTOR\nNPN
+Text Notes 6875 3000 0    100  ~ 0
+TRANSISTOR\nPNP
+Text Notes 6875 4800 0    100  ~ 0
+RESISTENCIA\nVARIABLE
+Text Notes 6875 5400 0    100  ~ 0
+RESISTENCIA\nNTC
+Text Notes 6875 6000 0    100  ~ 0
+RESISTENCIA\nLDR
+Text Notes 6875 7725 0    100  ~ 0
+PUERTA AND
+Text Notes 6875 8325 0    100  ~ 0
+PUERTA OR
+Text Notes 6875 8925 0    100  ~ 0
+PUERTA NOT
+Text Notes 6875 9525 0    100  ~ 0
+PUERTA NAND
+Text Notes 6875 10125 0    100  ~ 0
+PUERTA NOR
+Text Notes 6875 10725 0    100  ~ 0
+PUERTA XOR
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C1EE
+P 200 9750
+F 0 "M?" H 325 9575 100 0001 C CNN
+F 1 "marco_1" H 350 9700 50  0001 C CNN
+F 2 "" H 250 9600 50  0001 C CNN
+F 3 "" H 250 9600 50  0001 C CNN
+	1    200  9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9C3D4
+P 2850 750
+F 0 "M?" H 2975 575 100 0001 C CNN
+F 1 "marco_1" H 3000 700 50  0001 C CNN
+F 2 "" H 2900 600 50  0001 C CNN
+F 3 "" H 2900 600 50  0001 C CNN
+	1    2850 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DD7B
+P 2850 6750
+F 0 "M?" H 2975 6575 100 0001 C CNN
+F 1 "marco_1" H 3000 6700 50  0001 C CNN
+F 2 "" H 2900 6600 50  0001 C CNN
+F 3 "" H 2900 6600 50  0001 C CNN
+	1    2850 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DD81
+P 2850 7350
+F 0 "M?" H 2975 7175 100 0001 C CNN
+F 1 "marco_1" H 3000 7300 50  0001 C CNN
+F 2 "" H 2900 7200 50  0001 C CNN
+F 3 "" H 2900 7200 50  0001 C CNN
+	1    2850 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DD8D
+P 2850 8550
+F 0 "M?" H 2975 8375 100 0001 C CNN
+F 1 "marco_1" H 3000 8500 50  0001 C CNN
+F 2 "" H 2900 8400 50  0001 C CNN
+F 3 "" H 2900 8400 50  0001 C CNN
+	1    2850 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DD93
+P 2850 9150
+F 0 "M?" H 2975 8975 100 0001 C CNN
+F 1 "marco_1" H 3000 9100 50  0001 C CNN
+F 2 "" H 2900 9000 50  0001 C CNN
+F 3 "" H 2900 9000 50  0001 C CNN
+	1    2850 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DDC0
+P 2850 7950
+F 0 "M?" H 2975 7775 100 0001 C CNN
+F 1 "marco_1" H 3000 7900 50  0001 C CNN
+F 2 "" H 2900 7800 50  0001 C CNN
+F 3 "" H 2900 7800 50  0001 C CNN
+	1    2850 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE36
+P 5500 7350
+F 0 "M?" H 5625 7175 100 0001 C CNN
+F 1 "marco_1" H 5650 7300 50  0001 C CNN
+F 2 "" H 5550 7200 50  0001 C CNN
+F 3 "" H 5550 7200 50  0001 C CNN
+	1    5500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE3C
+P 5500 7950
+F 0 "M?" H 5625 7775 100 0001 C CNN
+F 1 "marco_1" H 5650 7900 50  0001 C CNN
+F 2 "" H 5550 7800 50  0001 C CNN
+F 3 "" H 5550 7800 50  0001 C CNN
+	1    5500 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE42
+P 5500 8550
+F 0 "M?" H 5625 8375 100 0001 C CNN
+F 1 "marco_1" H 5650 8500 50  0001 C CNN
+F 2 "" H 5550 8400 50  0001 C CNN
+F 3 "" H 5550 8400 50  0001 C CNN
+	1    5500 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE48
+P 5500 9150
+F 0 "M?" H 5625 8975 100 0001 C CNN
+F 1 "marco_1" H 5650 9100 50  0001 C CNN
+F 2 "" H 5550 9000 50  0001 C CNN
+F 3 "" H 5550 9000 50  0001 C CNN
+	1    5500 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE4E
+P 5500 9750
+F 0 "M?" H 5625 9575 100 0001 C CNN
+F 1 "marco_1" H 5650 9700 50  0001 C CNN
+F 2 "" H 5550 9600 50  0001 C CNN
+F 3 "" H 5550 9600 50  0001 C CNN
+	1    5500 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE54
+P 5500 10350
+F 0 "M?" H 5625 10175 100 0001 C CNN
+F 1 "marco_1" H 5650 10300 50  0001 C CNN
+F 2 "" H 5550 10200 50  0001 C CNN
+F 3 "" H 5550 10200 50  0001 C CNN
+	1    5500 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE67
+P 5500 4350
+F 0 "M?" H 5625 4175 100 0001 C CNN
+F 1 "marco_1" H 5650 4300 50  0001 C CNN
+F 2 "" H 5550 4200 50  0001 C CNN
+F 3 "" H 5550 4200 50  0001 C CNN
+	1    5500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE6D
+P 5500 4950
+F 0 "M?" H 5625 4775 100 0001 C CNN
+F 1 "marco_1" H 5650 4900 50  0001 C CNN
+F 2 "" H 5550 4800 50  0001 C CNN
+F 3 "" H 5550 4800 50  0001 C CNN
+	1    5500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE73
+P 5500 5550
+F 0 "M?" H 5625 5375 100 0001 C CNN
+F 1 "marco_1" H 5650 5500 50  0001 C CNN
+F 2 "" H 5550 5400 50  0001 C CNN
+F 3 "" H 5550 5400 50  0001 C CNN
+	1    5500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE7F
+P 5500 750
+F 0 "M?" H 5625 575 100 0001 C CNN
+F 1 "marco_1" H 5650 700 50  0001 C CNN
+F 2 "" H 5550 600 50  0001 C CNN
+F 3 "" H 5550 600 50  0001 C CNN
+	1    5500 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE85
+P 5500 1350
+F 0 "M?" H 5625 1175 100 0001 C CNN
+F 1 "marco_1" H 5650 1300 50  0001 C CNN
+F 2 "" H 5550 1200 50  0001 C CNN
+F 3 "" H 5550 1200 50  0001 C CNN
+	1    5500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE8B
+P 5500 1950
+F 0 "M?" H 5625 1775 100 0001 C CNN
+F 1 "marco_1" H 5650 1900 50  0001 C CNN
+F 2 "" H 5550 1800 50  0001 C CNN
+F 3 "" H 5550 1800 50  0001 C CNN
+	1    5500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:marco_1 M?
+U 1 1 5BC9DE91
+P 5500 2550
+F 0 "M?" H 5625 2375 100 0001 C CNN
+F 1 "marco_1" H 5650 2500 50  0001 C CNN
+F 2 "" H 5550 2400 50  0001 C CNN
+F 3 "" H 5550 2400 50  0001 C CNN
+	1    5500 2550
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8100 11500 8100 300 
+Wire Notes Line
+	200  11500 200  300 
+Wire Notes Line
+	200  300  8100 300 
+$Comp
+L simbolos:CopyRight CP?
+U 1 1 5C0A4952
+P 3800 11400
+AR Path="/5C0A4952" Ref="CP?"  Part="1" 
+AR Path="/5BC9CADF/5C0A4952" Ref="CP?"  Part="1" 
+F 0 "CP?" H 4225 11725 40  0001 C CNN
+F 1 "CopyRight" H 3975 11725 40  0001 C CNN
+F 2 "" H 3700 11750 50  0001 C CNN
+F 3 "" H 3800 11600 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 3800 11350 50  0000 C CNN "License"
+F 5 "" H 4350 11350 50  0000 C CNN "Author"
+F 6 "" H 3925 11350 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4550 11350 50  0000 C CNN "Web"
+	1    3800 11400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,435 @@
+ <!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es-es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es-es" > <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tecno Recursos. Recursos educativos para Tecnología" />
+
+  
+  <title>Diagramas de flujo - Programación - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/es/prog-flowchart.html"/>
+
+  
+  
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Buscar en Picuino"
+            href="../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="Tutoriales Code" href="prog-codeorg.html" />
+    <link rel="prev" title="Lenguajes de programación" href="prog-lang-edu.html" /> 
+
+  <script src="../_static/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+  
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tecno Recursos</a>
+      </nav>
+	  
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="prog-index.html">Programación</a> &raquo;</li>
+        
+      <li>Diagramas de flujo</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/es/prog-flowchart.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="diagramas-de-flujo">
+<span id="chart-flowchart"></span><h1>Diagramas de flujo<a class="headerlink" href="#diagramas-de-flujo" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Un diagrama de flujo es un dibujo que representa un proceso
+detallando sus tareas y decisiones.
+Su finalidad es expresar de manera simple y visual lo que ocurre en
+un proceso o en un programa, de manera que sea fácil de comprender.</p>
+<p>Los diagramas de flujo se dibujan al comienzo de un proyecto para
+que el programador comprenda mejor lo que quiere hacer, antes de
+comenzar a escribir el programa de ordenador.</p>
+<p>También se dibujan diagramas de flujo para documentar un programa
+de ordenador una vez terminado, para comunicar a los demás lo que
+hace el programa de una manera visual y comprensible.</p>
+<p>Los diagramas de flujo no se limitan a representar el funcionamiento
+de los programas, también pueden informarnos a las personas de
+las tareas que debemos realizar en una situación determinada.</p>
+<p>Este es el aspecto que tiene un diagrama de flujo:</p>
+<a class="reference internal image-reference" href="../_images/flowchart-estudiar.png"><img alt="../_images/flowchart-estudiar.png" class="align-center" src="../_images/flowchart-estudiar.png" style="width: 240px;" /></a>
+<div class="section" id="simbolos">
+<h2>Símbolos<a class="headerlink" href="#simbolos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>A continuación se presentan los principales símbolos utilizados
+para dibujar diagramas de flujo.</p>
+<p><strong>Comienzo y final</strong></p>
+<p>Todos los diagramas de flujo deben tener un símbolo de comienzo
+y un símbolo de finalización, que se representan con rectángulos
+redondeados en los extremos.</p>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/flowchart-inicio.png"><img alt="../_images/flowchart-inicio.png" src="../_images/flowchart-inicio.png" style="width: 240px;" /></a>
+<p class="caption"><span class="caption-text">Símbolos de comienzo y finalización del programa.</span><a class="headerlink" href="#id1" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p><strong>Tareas</strong></p>
+<p>Las tareas que realiza el programa se representan con rectángulos.
+Dentro del rectángulo se debe escribir en qué consiste la tarea.
+Por ejemplo sumar dos números o enviar un mensaje.</p>
+<div class="figure align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/flowchart-tarea.png"><img alt="../_images/flowchart-tarea.png" src="../_images/flowchart-tarea.png" style="width: 240px;" /></a>
+<p class="caption"><span class="caption-text">Símbolo de tarea.</span><a class="headerlink" href="#id2" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p><strong>Entrada y salida de datos</strong></p>
+<p>Cuando la tarea consiste en una entrada o salida de datos tal como
+escribir en la pantalla, pedir que el usuario escriba un texto,
+imprimir una hoja de papel, etc. En ese caso la tarea tendrá una
+forma de rectángulo inclinado.</p>
+<div class="figure align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/flowchart-entrada.png"><img alt="../_images/flowchart-entrada.png" src="../_images/flowchart-entrada.png" style="width: 240px;" /></a>
+<p class="caption"><span class="caption-text">Símbolo de entrada y de salida.</span><a class="headerlink" href="#id3" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p><strong>Decisiones</strong></p>
+<p>Un símbolo muy especial es el símbolo de decisión. Con este símbolo
+el programa puede seguir dos caminos distintos, dependiendo de
+que la condición se cumpla o que no se cumpla.</p>
+<div class="figure align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/flowchart-decision.png"><img alt="../_images/flowchart-decision.png" src="../_images/flowchart-decision.png" style="width: 240px;" /></a>
+<p class="caption"><span class="caption-text">Símbolo de decisión.
+El camino a seguir depende de la condición.</span><a class="headerlink" href="#id4" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p><strong>Flechas de flujo</strong></p>
+<p>Todos los símbolos deben ir enlazados entre sí por flechas que
+indican cómo se realiza la secuencia.
+Las flechas indican el camino o flujo que sigue el ordenador desde
+el comienzo hasta la finalización, a través de todas las tareas.</p>
+<div class="figure align-center" id="id5">
+<a class="reference internal image-reference" href="../_images/flowchart-flecha.png"><img alt="../_images/flowchart-flecha.png" src="../_images/flowchart-flecha.png" style="width: 240px;" /></a>
+<p class="caption"><span class="caption-text">Flecha de unión de las tareas.</span><a class="headerlink" href="#id5" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p><strong>Conectores de flechas</strong></p>
+<p>Cuando las dos tareas a unir están demasiado lejos o cuando
+resulta confuso cruzar muchas flechas, entonces se utiliza un
+circulo con un número, para indicar el comienzo y el final de
+la flecha.</p>
+<p>Cada flecha debe tener un número diferente, de forma que
+debe haber solo 2 círculos con un mismo número. Un círculo de
+comienzo y otro de finalización</p>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/flowchart-conector.png"><img alt="../_images/flowchart-conector.png" src="../_images/flowchart-conector.png" style="width: 240px;" /></a>
+<p class="caption"><span class="caption-text">Flecha larga, separada por conectores circulares.</span><a class="headerlink" href="#id6" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p><strong>Otros símbolos</strong></p>
+<p>Hasta ahora hemos visto los símbolos más importantes.
+Con ellos se pueden representar todos los diagramas con los que
+vamos a trabajar.
+También existen otros símbolos especializados que permiten
+representar tareas con más detalle, pero utilizarlos solo
+complicaría más los diagramas de manera que no se usarán.</p>
+</div>
+<div class="section" id="diagramas-de-ejemplo">
+<h2>Diagramas de ejemplo<a class="headerlink" href="#diagramas-de-ejemplo" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><strong>Diagrama secuencial</strong></p>
+<p>En este diagrama las tareas se suceden una a otra, sin ninguna
+decisión. Este tipo de diagrama es útil para conocer el orden en
+el que hay que realizar una tarea.</p>
+<div class="figure align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/flowchart-huevo.png"><img alt="../_images/flowchart-huevo.png" src="../_images/flowchart-huevo.png" style="width: 240px;" /></a>
+<p class="caption"><span class="caption-text">Diagrama de flujo que describe cómo hacer un huevo frito.</span><a class="headerlink" href="#id7" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p><strong>Diagrama con condiciones</strong></p>
+<p>En este tipo de diagrama, el flujo de la tarea no es secuencial
+y se desvía dependiendo de las condiciones que se cumplan.</p>
+<div class="figure align-center" id="id8">
+<a class="reference internal image-reference" href="../_images/flowchart-mueve.png"><img alt="../_images/flowchart-mueve.png" src="../_images/flowchart-mueve.png" style="width: 320px;" /></a>
+<p class="caption"><span class="caption-text">Cómo mover un personaje con el teclado.</span><a class="headerlink" href="#id8" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p>Dibuja un diagrama de flujo que describa las tareas más
+importantes que tienes que realizar por las mañanas desde que te
+despiertas hasta que llegas al instituto. Debe haber entre 5 y
+8 tareas.</p></li>
+<li><p>Dibuja el diagrama de flujo de un semáforo que enciende una luz
+verde 10 segundos, luego apaga la luz verde y enciende una luz
+ámbar dos segundos, luego apaga la luz ámbar y enciende una luz
+roja 10 segundos. Por último apaga la luz roja y vuelve a
+comenzar el ciclo.</p></li>
+<li><p>Dibuja un diagrama de flujo que explique cómo arreglar una
+lámpara. Primero debes comprobar si hay luz en la casa.
+Después comprobarás si la lámpara está conectada.
+Por último comprobarás que la bombilla no está fundida.
+Si ninguna solución funciona, llamarás al servicio de reparación.</p></li>
+<li><p>Dibuja un diagrama de flujo que describa un método para ordenar
+cartas.
+Hay dos montones de cartas, uno desordenado y otro ordenado.
+Primero hay que tomar una carta del montón desordenado.
+A continuación se compara con la primera carta del montón
+ordenado.
+Si la nueva carta es más pequeña, se coloca sobre el montón
+ordenado. Si la nueva carta es mayor que la primera carta ordenada,
+buscamos la siguiente carta del montón ordenado y volvemos a
+comparar qué carta es mayor.</p>
+<p>Una vez colocada la nueva carta, volvemos a buscar otra carta del
+montón desordenado.
+Cuando el montón de cartas desordenado no tenga más cartas,
+el programa termina.</p>
+</li>
+<li><p>Dibuja un diagrama de flujo con ayuda del ordenador y con el
+programa Libre Office Draw. En la siguiente sección puedes
+descargar una plantilla de Libre Office Draw para dibujar
+diagramas de flujo.</p></li>
+</ol>
+</div>
+<div class="section" id="descargas">
+<h2>Descargas<a class="headerlink" href="#descargas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference download internal" download="" href="../_downloads/prog-flowcharts-template.odg"><code class="xref download docutils literal notranslate"><span class="pre">Plantilla</span> <span class="pre">para</span> <span class="pre">realizar</span> <span class="pre">diagramas</span> <span class="pre">de</span> <span class="pre">flujo.</span>
+<span class="pre">Formato</span> <span class="pre">Libre</span> <span class="pre">Office</span> <span class="pre">Draw.</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/prog-flowcharts.odg"><code class="xref download docutils literal notranslate"><span class="pre">Diagramas</span> <span class="pre">de</span> <span class="pre">flujo.</span> <span class="pre">Formato</span> <span class="pre">Libre</span> <span class="pre">Office</span> <span class="pre">Draw.</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/prog-diagramas-de-flujo.doc"><code class="xref download docutils literal notranslate"><span class="pre">Tema</span> <span class="pre">diagramas</span> <span class="pre">de</span> <span class="pre">flujo</span> <span class="pre">en</span> <span class="pre">formato</span> <span class="pre">Microsoft</span> <span class="pre">Word.</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/prog-diagramas-de-flujo.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Tema</span> <span class="pre">diagramas</span> <span class="pre">de</span> <span class="pre">flujo</span> <span class="pre">en</span> <span class="pre">formato</span> <span class="pre">PDF.</span></code></a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+	<!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="prog-codeorg.html" class="btn btn-neutral float-right" title="Tutoriales Code" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="prog-lang-edu.html" class="btn btn-neutral" title="Lenguajes de programación" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="legal-aviso.html">Aviso legal</a></li>
+    <li><a href="legal-autor.html">Derechos de Autor</a></li>
+    <li><a href="legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="legal-atribution.html">Atribución</a></li>
+    </ul>
+    <p class="content-info">
+        &copy; Copyright 2013-2020 Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez en diciembre de 2020.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+         <a href="index.html">Tecno Recursos</a>
+
+         
+            
+            
+              <div class="version">
+                2020
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricidad y electrónica</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programación</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Lenguajes de programación</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Diagramas de flujo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-codeorg.html">Tutoriales Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scratch3-index.html">Tutorial de Scratch 3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="external-index.html">Recursos Externos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

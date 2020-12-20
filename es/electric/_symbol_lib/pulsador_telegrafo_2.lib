@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# pulsador_telegrafo_2
+#
+DEF ~pulsador_telegrafo_2 S 0 40 Y Y 1 F N
+F0 "S" 575 325 100 H V C CNN
+F1 "pulsador_telegrafo_2" 1090 830 50 H I C CNN
+F2 "" 75 475 50 V I C CNN
+F3 "" 75 475 50 V I C CNN
+DRAW
+C 275 0 75 0 1 0 N
+C 825 0 75 0 1 0 N
+S 50 250 1050 -250 0 1 0 N
+S 225 125 975 -125 0 1 0 N
+X ~ ~ 0 0 200 R 45 50 1 1 I
+X ~ ~ 1100 0 200 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

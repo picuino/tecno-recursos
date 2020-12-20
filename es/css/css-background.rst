@@ -1,0 +1,21 @@
+﻿
+{%- import 'css-macros.rst' as macros -%}
+
+.. css-background:
+
+Color de fondo
+==============
+En este ejercicio se estudia cómo dar color al fondo de pantalla.
+
+Referencias.
+
+* `Colores CSS <https://www.w3schools.com/cssref/css_colors.asp>`__
+* `HTML Color Picker <https://www.w3schools.com/colors/colors_picker.asp>`__
+* `HTML Color Mixer <https://www.w3schools.com/colors/colors_mixer.asp>`__
+
+Ejercicio
+---------
+
+{{ macros.images_html_css_web('css-background') }}
+
+

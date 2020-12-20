@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# www.picuino.com
+# Copyright (c) 2018 by Carlos Pardo
+# License CC BY-SA 4.0
+#
+# rele_contacto
+#
+DEF ~rele_contacto K 0 40 Y Y 1 F N
+F0 "K" 50 -50 100 H V L CNN
+F1 "rele_contacto" -100 -250 50 V I C CNN
+F2 "" 100 -100 50 H I C CNN
+F3 "" 100 -100 50 H I C CNN
+DRAW
+C 0 -375 25 1 0 0 N
+C 0 -125 25 1 0 0 N
+P 2 0 0 0 -150 -250 -125 -250 N
+P 2 0 0 0 -100 -250 -75 -250 N
+P 2 0 0 0 -50 -250 -25 -250 N
+P 2 0 0 0 0 -250 25 -250 N
+P 2 0 0 0 50 -250 75 -250 N
+P 2 1 0 0 150 -150 15 -355 N
+X ~ ~ 0 -500 100 U 45 50 1 1 I
+X ~ ~ 0 0 100 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="222 222 222" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="pc_ledWrite" id="582">
+<Location>
+<X>193</X>
+<Y>207</Y>
+</Location>
+<BeforeBlockId>434</BeforeBlockId>
+<AfterBlockId>439</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="583" connector-kind="socket" connector-type="number" init-type="number" label="Led" position-type="single"/>
+<BlockConnector con-block-id="584" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Estado" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="439">
+<Location>
+<X>193</X>
+<Y>261</Y>
+</Location>
+<BeforeBlockId>582</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="440" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="440">
+<Label>500</Label>
+<Location>
+<X>377</X>
+<Y>264</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="439" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="digital-off" id="584">
+<Location>
+<X>337</X>
+<Y>234</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="582" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="583">
+<Location>
+<X>337</X>
+<Y>210</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="582" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="delay" id="434">
+<Location>
+<X>193</X>
+<Y>177</Y>
+</Location>
+<BeforeBlockId>579</BeforeBlockId>
+<AfterBlockId>582</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="435" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="435">
+<Label>500</Label>
+<Location>
+<X>377</X>
+<Y>180</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="434" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pc_ledWrite" id="579">
+<Location>
+<X>193</X>
+<Y>123</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<AfterBlockId>434</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="580" connector-kind="socket" connector-type="number" init-type="number" label="Led" position-type="single"/>
+<BlockConnector con-block-id="581" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Estado" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="digital-on" id="581">
+<Location>
+<X>337</X>
+<Y>150</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="579" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="580">
+<Location>
+<X>337</X>
+<Y>126</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="579" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="program" id="141">
+<Location>
+<X>19</X>
+<Y>80</Y>
+</Location>
+<Comment>
+<Text>Parpadea el led rojo
+del Panel PC42</Text>
+<Location>
+<X>18</X>
+<Y>17</Y>
+</Location>
+<BoxSize>
+<Width>215</Width>
+<Height>59</Height>
+</BoxSize>
+</Comment>
+<Sockets num-sockets="2">
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="Configuración" position-type="single"/>
+<BlockConnector con-block-id="579" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Bucle" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

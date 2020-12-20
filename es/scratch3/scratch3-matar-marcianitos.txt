@@ -1,0 +1,143 @@
+﻿
+.. include:: scratch3-subs.rst
+
+{%- import 'scratch3-macros.txt' as scratch %}
+
+.. _scratch3-matar-marcianitos:
+
+Matar marcianitos
+=================
+
+En esta práctica vamos a programar un juego que consiste en matar,
+con el láser de una nave espacial, a marcianos que caen desde la
+parte superior de la pantalla.
+
+
+.. image:: scratch3/_images/scratch3-p09-screen.png
+   :width: 360px
+
+|br|
+
+1. Iniciamos el |editor_de_Scratch|.
+
+   |br|
+
+#. {{ scratch.idioma_castellano() }}
+
+   |br|
+
+#. {{ scratch.borrar_gato() }}
+
+   |br|
+
+#. Ahora escogemos un fondo adecuado para nuestro juego.
+   Cambiamos el fondo de escenario por un **cielo con estrellas**.
+
+   {{ scratch.fondo('Stars',
+                    section='Espacio',
+                    image='scratch3-fondo-stars.png') }}
+
+   |br|
+
+#. Añadimos un nuevo personaje, una **nave espacial**.
+
+   {{ scratch.objeto('Rocketship',
+                     section='Todos',
+                     image='scratch3-objeto-rocketship.png') }}
+
+   |br|
+
+#. Añadimos una nueva variable **x** que guardará la posición de
+   la nave espacial.
+
+   {{ scratch.variable('x', image='') }}
+
+   |br|
+
+
+#. Realizamos el programa para iniciar la nave en la parte
+   inferior de la pantalla y que se mueva a derecha y a izquierda.
+
+   {{ scratch.resize('scratch3-p09-rocket-01.png') }}
+
+#. {{ scratch.probar_programa() }}
+
+   |br|
+
+#. Ahora añadimos un nuevo objeto, un **botón** que hará de
+   **rayo laser** azul.
+
+   {{ scratch.objeto('Button2',
+                     section='Todos',
+                     image='scratch3-objeto-button2.png') }}
+
+   |br|
+
+#. Programamos el botón para que se comporte como un rayo láser.
+   al comenzar giraremos al botón hacia arriba con tamaño pequeño.
+
+   Cada vez que se pulse la tecla **espacio** aparecerá un nuevo
+   rayo láser.
+
+   {{ scratch.resize('scratch3-p09-button-01.png') }}
+
+   Cada rayo láser se desplazará hacia arriba desde la posición
+   actual de la nave hasta la parte alta de la pantalla donde
+   desaparecerá.
+
+   {{ scratch.resize('scratch3-p09-button-02.png') }}
+
+
+#. {{ scratch.probar_programa() }}
+
+   |br|
+
+
+#. Añadimos un nuevo objeto, un **marciano**.
+
+   {{ scratch.objeto('Starfish',
+                     section='Animales',
+                     image='scratch3-objeto-starfish.png') }}
+
+   |br|
+
+#. Realizamos el programa necesario para que aparezcan clones
+   de los marcianos cada poco tiempo en la parte alta de la pantalla.
+
+   {{ scratch.resize('scratch3-p09-starfish-01.png') }}
+
+   |br|
+
+#. Ahora completamos el programa para cada clon.
+   Cada clon aparecerá en una posición horizontal aleatoria.
+   a continuación el clon se moverá hacia abajo poco a poco
+   hasta que llegue abajo o hasta que le toque un rayo laser.
+   En ese momento desaparece.
+
+   {{ scratch.resize('scratch3-p09-starfish-02.png') }}
+
+
+   |br|
+
+#. {{ scratch.probar_programa() }}
+
+   |br|
+
+
+-----
+
+
+Ejercicios
+----------
+
+1. Añade una condición para que la nave desaparezca cuando la
+   toque un marciano y el juego terminará.
+
+#. Cambia los parámetros del programa para ajustar su dificultad
+   haciendo que aparezcan más marcianos por segundo y que bajen
+   más rápido.
+
+#. Añade una función de disparo doble para la nave espacial al
+   pulsar la tecla "flecha arriba"
+
+#. Inventa otra modificación original para el programa.

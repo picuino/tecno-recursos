@@ -1,0 +1,96 @@
+{%- macro index_main_link(title, link, image) -%}
+  <!-- {{ title }} -->
+  <div class="item">
+  <div class="image_center"><a href="{{ link }}">
+  <img src="{{ image }}" width="180px" height="135px" title="{{ title }}" alt="{{ title }}" /></a></div>
+  <h1><a href="{{ link }}">{{ title }}</a></h1>
+  </div>
+{%- endmacro -%}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Picuino - Home</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="es" />
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="description" content="Recursos educativos libres para Tecnología. Dibujo, mecánica, electricidad, electrónica, programación, informática, Arduino y más." />
+  <link rel="stylesheet" href="_static/index.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+</head>
+
+<body>
+
+  <!-- LOGO -->
+  <div class="header"> <div class="width_limit">
+  <div class="logo">
+  <a href="https://www.picuino.com">
+  <img title="Picuino logo"
+       src="_static/logo-picuino-bgblue.png"
+       alt="Picuino logo" width="240" />
+  </a>
+  </div>
+
+  </div> </div>
+
+
+  <!-- MAIN CONTENT -->
+  <div class="inner"> <div class="width_limit">
+
+  <p class="center">Recursos educativos libres para Tecnología.</p>
+
+  <div class="center-items">
+
+    {{ index_main_link('Dibujo Técnico', 'es/dibujo-index.html',
+    '_static/index-boceto.jpg') }}
+
+    {{ index_main_link('Mecánica', 'es/mecan-index.html',
+    '_static/index-mecan.png') }}
+
+    {{ index_main_link('Materiales', 'es/material-index.html',
+    '_static/index-material.jpg') }}
+
+    {{ index_main_link('Electricidad', 'es/electric-index.html',
+    '_static/index-electric.png') }}
+
+    {{ index_main_link('Programación', 'es/prog-index.html',
+    '_static/index-ardublock.png') }}
+
+    {{ index_main_link('Arduino', 'es/arduprog/index.html',
+    '_static/index-arduprog.png') }}
+
+    {{ index_main_link('Control', 'es/arduprog/control-index.html',
+    '_static/index-control.jpg') }}
+
+    {{ index_main_link('Informática', 'es/informatica-index.html',
+    '_static/index-informatica.png') }}
+
+    {{ index_main_link('Foro Tecno Recursos', 'foro',
+    '_static/index-forum.png') }}
+
+  </div>
+
+  </div> </div> <!-- MAIN CONTENT -->
+
+
+  <div class="cleaner"></div>
+
+  <!-- FOOTER -->
+  <div class="footer"> <div class="width_limit">
+  <a class="float_right" href="https://twitter.com/picuino">
+  <img src="_static/twitter.png" title="Picuino Twitter" alt="Picuino Twitter"  height="30" />
+  </a>
+
+  <a class="float_left" href="{{ pathto('es/contacto') }}">Contacto</a>
+  <a class="float_left" href="{{ pathto('es/legal-cookies') }}">Política de Cookies</a>
+  <a class="float_left" href="{{ pathto('es/legal-autor') }}">Derechos de Autor</a>
+  <a class="float_left" href="{{ pathto('es/legal-aviso') }}">Aviso legal</a>
+  </div></div>
+
+  </body>
+</html>

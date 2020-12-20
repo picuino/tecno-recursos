@@ -1,0 +1,27 @@
+﻿/* Padding y border  */
+body { 
+   width: 300px; 
+}
+
+p {
+   font-family: sans-serif;
+   background-color: #FFFF80;
+   border-style: solid;
+   border-width: 5px;
+   border-color: black;
+}
+
+.estrecho {
+   padding: 20px;
+   border-bottom-width: 0px;
+}
+
+.ancho { 
+   padding: 80px;
+}
+
+.lateral {
+   padding-left: 50px;   
+   padding-right: 50px;
+   border-style: dotted;
+}

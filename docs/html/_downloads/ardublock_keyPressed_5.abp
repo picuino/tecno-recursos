@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="222 222 222" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="pc_keyPressed" id="1174">
+<Location>
+<X>400</X>
+<Y>191</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1171" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1175" connector-kind="socket" connector-type="number" init-type="number" label="Botón" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="1175">
+<Label>3</Label>
+<Location>
+<X>600</X>
+<Y>191</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1174" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pc_keyPressed" id="1172">
+<Location>
+<X>400</X>
+<Y>167</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1171" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1173" connector-kind="socket" connector-type="number" init-type="number" label="Botón" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="1173">
+<Label>2</Label>
+<Location>
+<X>600</X>
+<Y>167</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1172" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="and" id="1171">
+<Location>
+<X>346</X>
+<Y>167</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1170" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="1172" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+<BlockConnector con-block-id="1174" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="and" id="1170">
+<Location>
+<X>292</X>
+<Y>143</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1162" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="1016" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+<BlockConnector con-block-id="1171" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pc_keyPressed" id="1016">
+<Location>
+<X>346</X>
+<Y>143</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1170" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1163" connector-kind="socket" connector-type="number" init-type="number" label="Botón" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="1163">
+<Label>1</Label>
+<Location>
+<X>546</X>
+<Y>143</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1016" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="if" id="1162">
+<Location>
+<X>194</X>
+<Y>140</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="1170" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Condición" position-type="single"/>
+<BlockConnector con-block-id="1164" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Si cumple" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="code_loop" id="1164">
+<Location>
+<X>289</X>
+<Y>220</Y>
+</Location>
+<BeforeBlockId>1162</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1165" connector-kind="socket" connector-type="string" init-type="string" label="Code" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="glue_msg" id="1165">
+<Label>// Encender D1, D2 y D3</Label>
+<Location>
+<X>383</X>
+<Y>223</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1164" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="program" id="141">
+<Location>
+<X>20</X>
+<Y>97</Y>
+</Location>
+<Comment>
+<Text>Encender los led D1, D2 y D3
+Al presionar los pulsadores 1, 2 y 3
+Programa incompleto.</Text>
+<Location>
+<X>19</X>
+<Y>17</Y>
+</Location>
+<BoxSize>
+<Width>382</Width>
+<Height>75</Height>
+</BoxSize>
+</Comment>
+<Sockets num-sockets="2">
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="Configuración" position-type="single"/>
+<BlockConnector con-block-id="1162" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Bucle" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es-es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es-es" > <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tecno Recursos. Recursos educativos para Tecnología" />
+
+  
+  <title>Arduino, dudas y conceptos erróneos - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/es/arduprog/arduino-faq-misconceptions.html"/>
+
+  
+  
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Buscar en Picuino"
+            href="../../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" /> 
+
+  <script src="../../_static/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+  
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tecno Recursos</a>
+      </nav>
+	  
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Arduino, dudas y conceptos erróneos</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/es/arduprog/arduino-faq-misconceptions.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="arduino-dudas-y-conceptos-erroneos">
+<h1>Arduino, dudas y conceptos erróneos<a class="headerlink" href="#arduino-dudas-y-conceptos-erroneos" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Aparecen aquí agrupadas respuestas a diversas dudas sobre Arduino
+así como explicaciones a conceptos erróneos bastante extendidos.</p>
+<div class="section" id="que-es-arduino">
+<h2>¿Qué es Arduino?<a class="headerlink" href="#que-es-arduino" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Arduino es una marca registrada. Al igual que IBM, Apple o Samsung,
+Arduino fabrica y distribuye varios productos tecnológicos bajo
+su marca <a class="footnote-reference brackets" href="#arduino-trademark" id="id1">1</a>.
+Cuando una tienda o distribuidor elige vender o distribuir
+productos Arduino, debe firmar un acuerdo exclusivo con la empresa,
+que le impide vender placas iguales a Arduino fabricadas por terceros.
+De esta forma Arduino protege sus ventas porque todos sus
+productos son de hardware y software libre y por lo tanto es legal
+realizar copias exactas de sus productos y de hecho existen muchos
+ejemplos en el mercado a precios más bajos.</p>
+<p>Por lo tanto, es legal fabricar y distribuir copias los productos
+Arduino tanto en hardware como en software.
+Pero no es legal utilizar la marca Arduino para referirse a esos
+productos.
+Tampoco se podrán distribuir esas copias en tiendas y distribuidores
+que hayan firmado acuerdos exclusivos de distribución con Arduino.
+Por último, el número identificador de USB utilizado por los productos
+Arduino, pertenece a la empresa de Arduino y no se puede utilizar
+en productos copiados.</p>
+<p>Debido a ciertas disputas por la marca entre los diseñadores
+originales de Arduino, parte de estos han utilizado la marca Genuino
+para nombrar a los productos Arduino.</p>
+</div>
+<div class="section" id="que-productos-engloba-la-marca-arduino">
+<h2>¿Qué productos engloba la marca Arduino?<a class="headerlink" href="#que-productos-engloba-la-marca-arduino" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El producto más conocido de Arduino es una placa de desarrollo
+denominada Arduino UNO.
+Esta placa hardware está basada en un microcontrolador de 8 bit
+Atmega328A e incluye una conexión USB para conectar la placa con un
+ordenador.</p>
+<p>Para dar soporte a esta placa se programó un entorno de desarrollo de
+manejo sencillo y de código abierto, basado en el proyecto
+<a class="reference external" href="https://es.wikipedia.org/wiki/Wiring">Wiring</a>.</p>
+<p>Esta placa Arduino puede ampliarse mediante otras placas, denominadas
+Shield porque van conectadas sobre la placa de desarrollo tapándola.
+Estos Shield añaden nuevas funciones a la placa original, como
+conexión a Ethernet, control de motores DC o paso a paso, conexión
+a tarjetas de memoria, etc.</p>
+<p>Hoy en día <a class="reference external" href="https://www.arduino.cc/en/Main/Products">la oferta se ha ampliado bastante</a> y podemos encontrar muchos
+productos distintos:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Placas de desarrollo de 8 bit</dt><dd><ul>
+<li><p>Arduino Uno</p></li>
+<li><p>Arduino Leonardo</p></li>
+<li><p>Arduino Mega</p></li>
+<li><p>Arduino Nano</p></li>
+<li><p>Arduino Esplora</p></li>
+<li><p>Lilypad USB</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Placas de desarrollo de 32 bits</dt><dd><ul>
+<li><p>Arduino DUE</p></li>
+<li><p>Arduino Zero</p></li>
+<li><p>Arduino Yun</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Shields</dt><dd><ul>
+<li><p>Motor Shield</p></li>
+<li><p>Proto Shield</p></li>
+<li><p>Relay Shield</p></li>
+<li><p>Wireless Shield</p></li>
+<li><p>Ethernet Shield</p></li>
+<li><p>GSM Shield</p></li>
+<li><p>Yun Shield</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Kits de desarrollo</dt><dd><ul>
+<li><p>Starter kit</p></li>
+<li><p>CTC 101</p></li>
+<li><p>MKR IoT Bundle</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Entorno de programación Arduino IDE</p></li>
+<li><p>Librerías de programación</p></li>
+</ul>
+</div>
+<div class="section" id="todos-los-productos-arduino-deben-utilizarse-juntos">
+<h2>¿Todos los productos Arduino deben utilizarse juntos?<a class="headerlink" href="#todos-los-productos-arduino-deben-utilizarse-juntos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>No es obligatorio. Cuando se realiza un desarrollo típico con
+una placa Arduino UNO, en realidad se están utilizando muchos
+elementos distintos, todos ellos de marca Arduino, pero que
+pueden sustituirse sin problema por elementos distintos.</p>
+<p>Primero vamos a ver qué elementos se utilizan en un proyecto
+típico de Arduino:</p>
+<blockquote>
+<div><p>1 Placa de desarrollo Arduino UNO
+2 Entorno de programación Arduino IDE
+3 Librerías de Arduino para la placa Arduino UNO
+4 Compilador C++ (AVR-GCC)
+5 Comunicación USB
+6 Bootloader de Arduino
+7 Shield Arduino
+8 Librerias Arduino</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Teensy</p></li>
+<li><p>ChipKIT UNO32</p></li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+<dl class="footnote brackets">
+<dt class="label" id="arduino-trademark"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p><a class="reference external" href="https://www.arduino.cc/en/Trademark/HomePage">https://www.arduino.cc/en/Trademark/HomePage</a></p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+	<!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>
+
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html">Contacto</a></li>
+    <li><a href="../legal-aviso.html">Aviso legal</a></li>
+    <li><a href="../legal-autor.html">Derechos de Autor</a></li>
+    <li><a href="../legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="../legal-atribution.html">Atribución</a></li>
+    </ul>
+    <p class="content-info">
+        &copy; Copyright 2013-2020 Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez en diciembre de 2020.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../../_static/logo-picuino-bgblue.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+         <a href="../index.html">Tecno Recursos</a>
+
+         
+            
+            
+              <div class="version">
+                2020
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricidad y electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../external-index.html">Recursos Externos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+        <script type="text/javascript" src="../../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

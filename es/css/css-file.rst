@@ -1,0 +1,31 @@
+﻿
+{%- import 'css-macros.rst' as macros -%}
+
+.. css-file:
+
+Ficheros CSS
+============
+
+La mayoría de las páginas web utilizan un fichero separado para
+los estilos. Esto permite que varios documentos HTML puedan tener
+la misma hoja de estilo CSS. De esta manera las diferentes páginas
+tendrán una presentación semejante. Además, en el momento que se
+quiera cambiar un estilo, solo será necesario hacerlo en un fichero
+CSS y todos los documentos HTML que dependen de este fichero 
+cambiarán a la vez.
+
+En este ejercicio se separará la hoja de estilo CSS del fichero HTML.
+Para vincular las dos hojas se utiliza la etiqueta <link>.
+
+
+Etiquetas utilizadas
+--------------------
+{{ macros.tag('link') }}
+
+
+Ejercicio
+---------
+
+{{ macros.images_html_css_web('css-file') }}
+
+

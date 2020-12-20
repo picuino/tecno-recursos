@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# www.picuino.com
+# Copyright (c) 2018 by Carlos Pardo
+# License CC BY-SA 4.0
+#
+# Pila
+#
+DEF ~Pila V 0 40 Y Y 1 F N
+F0 "V" 200 -175 100 H V L CNN
+F1 "Pila" 100 -75 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+P 2 0 1 0 -160 -50 -90 -50 N
+P 2 0 1 0 -150 -125 150 -125 N
+P 2 0 1 0 -125 -15 -125 -85 N
+P 2 0 1 0 -75 -200 75 -200 N
+X ~ ~ 0 -300 100 U 45 50 1 1 I
+X ~ ~ 0 0 125 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

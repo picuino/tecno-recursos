@@ -1,0 +1,56 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# simbolos_CopyRight
+#
+DEF ~simbolos_CopyRight CP 0 40 Y Y 1 F N
+F0 "CP" 250 50 40 H I C CNN
+F1 "simbolos_CopyRight" 0 50 40 H I C CNN
+F2 "" -100 350 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+F4 "CC BY-SA 4.0" -50 -50 60 H V R CNN "License"
+F5 "www.picuino.com" 0 -50 60 H V L CNN "Web"
+DRAW
+P 2 0 1 8 -400 0 400 0 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_bateria
+#
+DEF ~simbolos_bateria V 0 40 Y Y 1 F N
+F0 "V" 200 -175 100 H V L CNN
+F1 "simbolos_bateria" 150 -50 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+P 2 0 1 0 -160 -50 -90 -50 N
+P 2 0 1 0 -150 -325 150 -325 N
+P 2 0 1 0 -150 -125 150 -125 N
+P 2 0 1 0 -125 -15 -125 -85 N
+P 2 0 1 0 -75 -400 75 -400 N
+P 2 0 1 0 -75 -200 75 -200 N
+P 2 0 1 0 0 -325 0 -300 N
+P 2 0 1 0 0 -275 0 -250 N
+P 2 0 1 0 0 -225 0 -200 N
+X ~ ~ 0 -500 100 U 45 50 1 1 I
+X ~ ~ 0 0 125 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_lampara
+#
+DEF ~simbolos_lampara L 0 40 Y Y 1 F N
+F0 "L" 175 -200 100 H V L CNN
+F1 "simbolos_lampara" 50 -525 50 V I C CNN
+F2 "" 0 -175 50 V I C CNN
+F3 "" 0 -175 50 V I C CNN
+DRAW
+C 0 -200 130 0 1 0 N
+P 2 0 1 0 -90 -295 90 -115 N
+P 2 0 1 0 -90 -115 90 -295 N
+X ~ ~ 0 -400 70 U 45 50 1 1 I
+X ~ ~ 0 0 70 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,74 @@
+/* logo */
+.wy-side-nav-search>a img.logo,
+.wy-side-nav-search .wy-dropdown>a img.logo {
+max-width:180px;
+}
+
+/* Footer */
+footer {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+footer p, footer ul {
+text-align:center;
+line-height: 150%;
+font-size:90%;
+}
+
+/* list of links in footer */
+ul.link-list {
+padding: 0.5em 0 0 0;
+margin: 0;
+}
+
+.link-list li {
+display: inline;
+padding: 0 5px 0 10px;
+border-left: 1px solid #346;
+}
+.link-list li:first-child {border-left: none;}
+
+/* Responsive YouTube videos */
+.video-center {
+position:relative; 
+padding-bottom:56.25%; padding-top:30px;
+height:0;
+overflow:hidden;
+margin: 10px 0 16px 0;
+}
+
+.video-center iframe, .video-container object, .video-container embed {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+/* Cookies Advise */
+#cookiesbar {
+font-size:16px;
+line-height:1.5em;
+display:block;
+position:fixed;
+top:0;
+text-align:center;
+max-width:760px;
+padding:20px 20px;
+margin-right:14px;
+background-color: rgba(40,40,40,0.95);
+color:#fff;
+z-index:99999;
+}
+
+#cookiesbar a {
+display:inline-block;
+padding:4px 8px;
+color:#e0e000;
+text-decoration:none;
+}
+
+#cookiesbar a:hover {
+background-color: #444;
+}

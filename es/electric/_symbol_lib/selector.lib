@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# www.picuino.com
+# Copyright (c) 2018 by Carlos Pardo
+# License CC BY-SA 4.0
+#
+# selector
+#
+DEF ~selector S 0 40 Y Y 1 F N
+F0 "S" 175 125 100 H V R CNN
+F1 "selector" 0 -50 50 H I C CNN
+F2 "" 300 -150 50 H I C CNN
+F3 "" 300 -150 50 H I C CNN
+DRAW
+C 125 0 25 0 0 0 N
+C 375 -150 25 0 0 0 N
+C 375 150 25 0 0 0 N
+P 2 0 1 0 400 115 150 10 N
+X ~ ~ 0 0 100 R 45 50 1 1 I
+X ~ ~ 500 -150 100 L 45 50 1 1 I
+X ~ ~ 500 150 100 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

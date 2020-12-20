@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# www.picuino.com
+# Copyright (c) 2018 by Carlos Pardo
+# License CC BY-SA 4.0
+#
+# rele
+#
+DEF ~rele K 0 40 Y Y 1 F N
+F0 "K" -175 -150 100 H V R CNN
+F1 "rele" -100 -150 50 V I C CNN
+F2 "" 100 -100 50 H I C CNN
+F3 "" 100 -100 50 H I C CNN
+DRAW
+C 300 -275 25 1 0 0 N
+C 300 -25 25 1 0 0 N
+S -125 -75 125 -225 0 0 0 N
+P 2 0 0 0 50 -75 -50 -225 N
+P 2 0 0 0 150 -150 175 -150 N
+P 2 0 0 0 200 -150 225 -150 N
+P 2 0 0 0 250 -150 275 -150 N
+P 2 0 0 0 300 -150 325 -150 N
+P 2 0 0 0 350 -150 375 -150 N
+P 2 1 0 0 450 -50 315 -255 N
+X ~ ~ 0 -300 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+X ~ ~ 300 -400 100 U 45 50 1 1 I
+X ~ ~ 300 100 100 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

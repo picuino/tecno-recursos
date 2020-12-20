@@ -1,0 +1,63 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+SOURCES=_sources
+
+LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 5
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z a
+PYTHON=python
+
+# --------------------------------------------------------------------
+# electric-cableado
+#
+
+$(IMGDIR)/electric-cableado.png: electric-cableado.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<).png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<).png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<).png
+
+$(IMGDIR)/electric-cableado-circuitos.png: electric-cableado-circuitos.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<).png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<).png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<).png
+
+electric-cableado.zip: $(LIBS) $(wildcard cableado-electrico/*)
+	rm -f $@ cableado-electrico/*.bak
+	$(ZIP) $@ $^
+
+
+.PHONY: all-cableado  clean-cableado
+all-cableado: \
+	electric-cableado.zip \
+	$(IMGDIR)/electric-cableado-circuitos.png \
+	$(IMGDIR)/electric-cableado.png \
+
+clean-cableado:
+	rm -f electric-cableado.zip
+	rm -f $(IMGDIR)/electric-cableado-circuitos.png
+	rm -f $(IMGDIR)/electric-cableado.png
+
+
+# --------------------------------------------------------------------
+# make all
+#
+.PHONY: all clean
+all: \
+	all-cableado \
+
+
+clean: \
+	clean-cableado \

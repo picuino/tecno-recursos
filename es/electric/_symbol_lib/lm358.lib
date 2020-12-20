@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# www.picuino.com
+# Copyright (c) 2018 by Carlos Pardo
+# License CC BY-SA 4.0
+#
+# LM358
+#
+DEF LM358 U 0 40 Y Y 2 F N
+F0 "U" 450 50 100 H V L CNN
+F1 "LM358" 450 -350 100 H V L CNN
+F2 "" 400 -150 50 H I C CNN
+F3 "" 400 -150 50 H I C CNN
+DRAW
+P 4 0 1 0 650 -150 150 150 150 -450 650 -150 N
+X ~ 1 800 -150 150 L 100 100 1 1 I
+X - 2 0 -300 150 R 100 100 1 1 I
+X + 3 0 0 150 R 100 100 1 1 I
+X ~ 4 400 -500 200 U 100 100 1 1 I
+X ~ 8 400 200 200 D 100 100 1 1 I
+X + 5 0 0 150 R 100 100 2 1 I
+X - 6 0 -300 150 R 100 100 2 1 I
+X ~ 7 800 -150 150 L 100 100 2 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

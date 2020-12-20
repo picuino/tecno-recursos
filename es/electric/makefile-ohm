@@ -1,0 +1,62 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+SOURCES=_sources
+
+LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 5
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z a
+PYTHON=python
+
+
+# --------------------------------------------------------------------
+# ley de ohm
+#
+$(IMGDIR)/electric-ley-ohm-p1.png \
+$(IMGDIR)/electric-ley-ohm-p2.png: electric-ley-ohm.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-p1.png
+	mv $(basename $<)-000002.png  $(IMGDIR)/$(basename $<)-p2.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p2.png
+	$(OPTIPNG) $@
+
+electric-ley-ohm.zip:  $(LIBS) $(wildcard ley-ohm/*)
+	rm -f $@  ley-ohm/*.bak
+	$(ZIP) $@ $^
+
+
+.PHONY: all-ley-ohm  clean-ley-ohm
+all-ley-ohm: \
+	electric-ley-ohm.zip \
+	$(IMGDIR)/electric-ley-ohm-p1.png \
+	$(IMGDIR)/electric-ley-ohm-p2.png \
+
+
+clean-ley-ohm:
+	rm -f $(IMGDIR)/electric-ley-ohm-p1.png
+	rm -f $(IMGDIR)/electric-ley-ohm-p2.png
+	rm -f electric-ley-ohm.zip
+
+
+
+# --------------------------------------------------------------------
+# make all
+#
+.PHONY: all clean
+all: \
+	all-ley-ohm \
+
+
+clean: \
+	clean-ley-ohm \

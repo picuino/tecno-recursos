@@ -1,0 +1,26 @@
+﻿
+.. _protoboard-index:
+
+************************
+Circuitos con Protoboard
+************************
+
+Circuitos con Arduino y placa de prototipos.
+
+
+.. image:: protoboard/_thumbs/arduino-proto-03-tres-ledes-bb.png
+   :width: 240px
+   :alt: Arduino con protoboard.
+   :align: center
+
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   protoboard-led-vcc.rst
+   protoboard-led-d2.rst
+   protoboard-tres-ledes.rst
+   protoboard-push-ledes.rst
+   protoboard-pot.rst
+   protoboard-buzzer.rst

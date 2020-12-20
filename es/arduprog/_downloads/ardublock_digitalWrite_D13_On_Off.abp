@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="222 222 222" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="program" id="141">
+<Location>
+<X>21</X>
+<Y>86</Y>
+</Location>
+<Comment>
+<Text>Parpadea el led D13
+de la placa Arduino</Text>
+<Location>
+<X>20</X>
+<Y>20</Y>
+</Location>
+<BoxSize>
+<Width>236</Width>
+<Height>62</Height>
+</BoxSize>
+</Comment>
+<Sockets num-sockets="2">
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="Configuración" position-type="single"/>
+<BlockConnector con-block-id="145" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Bucle" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="145">
+<Location>
+<X>195</X>
+<Y>129</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<AfterBlockId>286</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="146" connector-kind="socket" connector-type="number" init-type="number" label="Pin#" position-type="single"/>
+<BlockConnector con-block-id="147" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Valor" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="286">
+<Location>
+<X>195</X>
+<Y>183</Y>
+</Location>
+<BeforeBlockId>145</BeforeBlockId>
+<AfterBlockId>288</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="287" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="288">
+<Location>
+<X>195</X>
+<Y>213</Y>
+</Location>
+<BeforeBlockId>286</BeforeBlockId>
+<AfterBlockId>291</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="289" connector-kind="socket" connector-type="number" init-type="number" label="Pin#" position-type="single"/>
+<BlockConnector con-block-id="290" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Valor" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="291">
+<Location>
+<X>195</X>
+<Y>267</Y>
+</Location>
+<BeforeBlockId>288</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="292" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="292">
+<Label>1000</Label>
+<Location>
+<X>379</X>
+<Y>270</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="291" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="digital-off" id="290">
+<Location>
+<X>389</X>
+<Y>240</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="288" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="Arduino_D13" id="289">
+<Location>
+<X>389</X>
+<Y>216</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="288" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="287">
+<Label>1000</Label>
+<Location>
+<X>379</X>
+<Y>186</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="286" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="digital-on" id="147">
+<Location>
+<X>389</X>
+<Y>156</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="145" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="Arduino_D13" id="146">
+<Location>
+<X>389</X>
+<Y>132</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="145" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>
