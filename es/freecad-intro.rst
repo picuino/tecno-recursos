@@ -11,7 +11,8 @@ Permite diseñar objetos en tres dimensiones. Estos objetos se pueden
 imprimir posteriormente en una impresora 3D.
 
 Los tutoriales que vienen a continuación están basados en los 
-video-tutoriales que tiene ObiJuan (Juan González Gómez) en YouTube.
+video-tutoriales que ha publicado ObiJuan (Juan González Gómez) 
+en YouTube.
 La lista completa de los tutoriales de ObiJuan está en la página 
 :ref:`freecad-videotutoriales`.
 
