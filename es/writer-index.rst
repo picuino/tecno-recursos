@@ -4,7 +4,8 @@
  Tutorial de Writer 7
 ***********************
 
-Tutorial para aprender a editar documentos con LibreOffice Writer.
+Tutorial para aprender a editar documentos de texto
+con LibreOffice Writer.
 
 .. image:: writer/_images/writer-logo.png
    :height: 180px
