@@ -6,7 +6,7 @@ Derechos de autor y propiedad intelectual
 Contenidos
 ----------
 
-Copyright (c) 2013-2020 por Carlos Pardo
+Copyright (c) 2013-2021 por Carlos Pardo
    
 Los contenidos publicados, tales como textos, imágenes,
 planos, gráficos, fotografías, etc. a menos que se 
