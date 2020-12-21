@@ -65,7 +65,7 @@ master_doc = 'es/index'
 # -- Project information -----------------------------------------------------
 
 project = u'Tecno Recursos'
-copyright = u'2013-%s Carlos Pardo.' % (time.strftime("%Y"))
+copyright = u'2013-%s por Carlos Pardo.' % (time.strftime("%Y"))
 author = u'Carlos Pardo'
 
 # The version info for the project you're documenting, acts as replacement for

@@ -113,5 +113,5 @@ realistas para Arduino y protoboard.
 
 `Página oficial de Fritzing <https://fritzing.org/home/>`_
 
-:download:`Fritzing versión 9.4 64bits para Windows 
+`Fritzing versión 9.4 64bits para Windows 
 </_static/downloads/fritzing.0.9.4.64.pc_and_dll.zip>`
