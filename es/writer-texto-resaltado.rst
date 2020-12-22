@@ -4,26 +4,22 @@
 
 Texto resaltado
 ===============
+En este ejercicio utilizaremos las herramientas para **resaltar
+el texto escrito**. En ocasiones necesitamos que una palabra o
+una frase se destaque del resto del texto y para ello disponemos
+de varios formatos de texto para resaltar.
 
-1. Primero abrimos LibreOffice Writer pulsando en el icono
-   de la aplicación.
+|br|
 
-   .. image:: writer/_images/writer-logo.png
-              :width: 64px
-              :alt: Writer logo
-
-   También podemos escribir la palabra "writer" en el botón de inicio
-   de Windows y pulsar en LibreOffice Writer.
-
-   Se abrirá la ventana de LibreOffice Writer.
+1. Abrimos un **nuevo documento de texto** en Writer.
 
    |br|
 
-#. Ahora vamos a aumentar el **factor de escala** de la ventana para
+#. Ahora vamos a cambiar el **factor de escala** de la ventana para
    poder ver mejor el texto según lo escribimos.
 
    En la parte **inferior derecha** de la ventana, cambiaremos el
-   factor de escala a **160%** pulsando el botón +.
+   factor de escala a **160%** pulsando el botón - o el botón +.
 
    .. image:: writer/_images/writer-escala-160.png
               :alt: Factor de escala a 160%
@@ -31,10 +27,7 @@ Texto resaltado
 
    |br|
 
-#. En este ejercicio utilizaremos las herramientas para resaltar
-   el texto escrito. En ocasiones necesitamos que una palabra o
-   una frase se destaque del resto del texto y para ello disponemos
-   de varios formatos de texto que utilizaremos a continuación.
+#. A continuación utilizaremos los siguientes formatos de texto.
 
    Texto en **negrita** con la herramienta |button-negrita|
 
@@ -79,11 +72,14 @@ Texto resaltado
 
    Luego escribimos el texto que queramos en negrita
    y al finalizar volvemos a pinchar el botón |button-negrita|
-   para volver a escribir en formato normal.
+   para volver a escribir texto con formato normal.
 
    |br|
 
 #. Escribe el siguiente texto en Writer.
+
+   Recuerda que puedes copiar y pegar el texto repetido para
+   facilitar la tarea.
 
    .. image:: writer/_images/writer-ejercicio-texto-resaltado.png
               :alt: Ejercicio de texto resaltado

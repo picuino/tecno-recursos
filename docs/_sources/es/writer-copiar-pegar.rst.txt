@@ -5,10 +5,24 @@
 Copiar y pegar
 ==============
 
-En esta práctica vamos a aprender a copiar y pegar texto e
-imágenes en Write.
+En esta práctica vamos a aprender a **copiar y pegar texto e
+imágenes** en Writer.
 
-1. Abrimos un nuevo documento de texto en Write.
+|br|
+
+1. Abrimos un **nuevo documento de texto** en Writer.
+
+   |br|
+
+#. Ahora vamos a cambiar el **factor de escala** de la ventana para
+   poder ver mejor el texto según lo escribimos.
+
+   En la parte **inferior derecha** de la ventana, cambiaremos el
+   factor de escala a **120%** pulsando el botón - o el botón +.
+
+   .. image:: writer/_images/writer-escala-120.png
+              :alt: Factor de escala a 120%
+              :align: center
 
    |br|
 

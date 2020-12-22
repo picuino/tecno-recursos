@@ -5,6 +5,11 @@
 Manejo del teclado I
 ====================
 
+Este ejercicio está pensado para que utilices los **caracteres
+especiales del teclado** y aprendas a escribir todo tipo de textos.
+   
+|br|
+
 1. Primero abrimos LibreOffice Writer pulsando en el icono 
    de la aplicación.
 
@@ -21,6 +26,8 @@ Manejo del teclado I
 .. image:: writer/_images/writer-ventana-principal.png
            :alt: Ventana Writer
 
+|br|
+
 2. En la parte superior de la ventana se pueden ver las **barras
    de herramientas** de Writer y la regla.
 
@@ -29,11 +36,11 @@ Manejo del teclado I
 
    |br|
 
-#. Ahora vamos a aumentar el **factor de escala** de la ventana para
+#. Ahora vamos a cambiar el **factor de escala** de la ventana para
    poder ver mejor el texto según lo escribimos.
 
    En la parte **inferior derecha** de la ventana, cambiaremos el
-   factor de escala a **160%** pulsando el botón +.
+   factor de escala a **160%** pulsando el botón - o el botón +.
 
    .. image:: writer/_images/writer-escala-160.png
               :alt: Factor de escala a 160%
@@ -41,10 +48,7 @@ Manejo del teclado I
 
    |br|
 
-#. Este ejercicio está pensado para que utilices los caracteres
-   especiales del teclado y aprendas a escribir todo tipo de textos.
-
-   A continuación escribiremos las siguientes frases en el programa
+#. A continuación escribiremos las siguientes frases en el programa
    Writer.
 
    .. image:: writer/_images/writer-ejercicio-teclado-1.png

@@ -5,16 +5,30 @@
 Estilo de página
 ================
 
-En este ejercicio vamos a configurar el estilo de la página
+En este ejercicio vamos a configurar el **estilo de la página**
 donde luego podemos escribir. El estilo de la página define 
 el tamaño de la hoja de papel, los márgenes, el fondo impreso
 en el papel, la cabecera de cada hoja y más opciones.
 
-1. Abrimos un nuevo documento de texto en Write.
+|br|
+
+1. Abrimos un **nuevo documento de texto** en Writer.
 
    |br|
 
-2. Seleccionamos el menú de ``Formato... Estilo de página...``
+2. Ahora vamos a cambiar el **factor de escala** de la ventana para
+   poder ver mejor el texto según lo escribimos.
+
+   En la parte **inferior derecha** de la ventana, cambiaremos el
+   factor de escala a **120%** pulsando el botón - o el botón +.
+
+   .. image:: writer/_images/writer-escala-120.png
+              :alt: Factor de escala a 120%
+              :align: center
+
+   |br|
+
+3. Seleccionamos el menú de ``Formato... Estilo de página...``
 
    Y seleccionamos la **pestaña de Página** dentro de la ventana que
    se ha abierto.
@@ -26,7 +40,9 @@ en el papel, la cabecera de cada hoja y más opciones.
 .. image:: writer/_images/writer-estilo-pagina-01.png
            :align: center
 
-3. A continuación seleccionamos la **pestaña de Área**,
+|br|
+
+4. A continuación seleccionamos la **pestaña de Área**,
    seleccionamos el botón **Mapa de bits**
    y escogemos el dibujo de papel arrugado.
    
@@ -35,15 +51,18 @@ en el papel, la cabecera de cada hoja y más opciones.
 .. image:: writer/_images/writer-estilo-pagina-02.png
            :align: center
 
+|br|
 
-4. Continuamos seleccionamos la **pestaña de Transparencia**
+5. Continuamos seleccionamos la **pestaña de Transparencia**
    y cambiamos la transparencia al 50% para que el fondo del 
    papel sea un poco más claro
 
 .. image:: writer/_images/writer-estilo-pagina-03.png
            :align: center
 
-5. Por último en la **pestaña de Cabecera** pinchamos en
+|br|
+
+6. Por último en la **pestaña de Cabecera** pinchamos en
    **Activar cabecera**. Esto permitirá escribir un texto
    en la parte superior de la hoja que aparecerá en todas
    las páginas.
@@ -53,12 +72,16 @@ en el papel, la cabecera de cada hoja y más opciones.
 .. image:: writer/_images/writer-estilo-pagina-04.png
            :align: center
 
-6. Ahora la ventana de Writer tendrá el siguiente aspecto.
+|br|
+
+7. Ahora la ventana de Writer tendrá el siguiente aspecto.
 
 .. image:: writer/_images/writer-estilo-pagina-05.png
            :align: center
    
-7. A continuación vamos a **escribir en la cabecera** de 
+|br|
+
+8. A continuación vamos a **escribir en la cabecera** de 
    la página.
    
    Para escribir en la cabecera pincharemos dos veces con el 

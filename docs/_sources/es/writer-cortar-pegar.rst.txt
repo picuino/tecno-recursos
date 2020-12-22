@@ -5,25 +5,14 @@
 Cortar y pegar
 ==============
 
-1. Primero abrimos LibreOffice Writer pulsando en el icono
-   de la aplicación.
+En esta práctica utilizaremos las herramientas de cortar y
+pegar texto para mover líneas de texto a otra posición y así
+ordenar alfabéticamente una lista de nombres.
 
-   .. image:: writer/_images/writer-logo.png
-              :width: 64px
-              :alt: Writer logo
-
-   También podemos escribir la palabra "writer" en el botón de inicio
-   de Windows y pulsar en LibreOffice Writer.
-
-   Se abrirá la ventana de LibreOffice Writer.
-
-   |br|
-
-#. En esta práctica utilizaremos las herramientas de cortar y
-   pegar texto para mover líneas de texto a otra posición y así
-   ordenar alfabéticamente una lista de nombres.
-
-   Primero descargamos y abrimos la práctica de ejemplo.
+|br|
+   
+#. Primero descargamos y abrimos con LibreOffice Writer 
+   la práctica de ejemplo.
 
    :download:`Práctica cortar y pegar <writer/writer-cortar-pegar.odt>`
 
