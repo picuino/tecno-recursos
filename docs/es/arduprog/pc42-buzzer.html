@@ -85,7 +85,7 @@
         
           <li><a href="pc42-index.html">Panel de Control PC42</a> &raquo;</li>
         
-      <li>9. Zumbador</li>
+      <li><span class="section-number">9. </span>Zumbador</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -105,7 +105,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="zumbador">
-<span id="pc42-buzzer"></span><h1>9. Zumbador<a class="headerlink" href="#zumbador" title="Enlazar permanentemente con este título">¶</a></h1>
+<span id="pc42-buzzer"></span><h1><span class="section-number">9. </span>Zumbador<a class="headerlink" href="#zumbador" title="Enlazar permanentemente con este título">¶</a></h1>
 <a class="reference internal image-reference" href="../../_images/img-0094.jpg"><img alt="Zumbador electromagnético." class="align-center" src="../../_images/img-0094.jpg" style="width: 300px;" /></a>
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -141,7 +141,7 @@ tercera)</p>
 </div>
 <div class="section" id="la-funcion-buzzfreq">
 <h2>La función <a class="reference internal" href="#_CPPv48buzzFreqi" title="buzzFreq"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzFreq()</span></code></a><a class="headerlink" href="#la-funcion-buzzfreq" title="Enlazar permanentemente con este título">¶</a></h2>
-<dl class="function">
+<dl class="cpp function">
 <dt id="_CPPv48buzzFreqi">
 <span id="_CPPv38buzzFreqi"></span><span id="_CPPv28buzzFreqi"></span><span id="buzzFreq__i"></span><code class="sig-name descname">buzzFreq</code><span class="sig-paren">(</span>int <em>Frequency</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48buzzFreqi" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Esta función emite un sonido por el zumbador con una frecuencia determinada.</p>
@@ -202,7 +202,7 @@ permanezca pulsado.</p>
 </div>
 <div class="section" id="la-funcion-buzztone">
 <h2>La función <a class="reference internal" href="#_CPPv48buzzTonei" title="buzzTone"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzTone()</span></code></a><a class="headerlink" href="#la-funcion-buzztone" title="Enlazar permanentemente con este título">¶</a></h2>
-<dl class="function">
+<dl class="cpp function">
 <dt id="_CPPv48buzzTonei">
 <span id="_CPPv38buzzTonei"></span><span id="_CPPv28buzzTonei"></span><span id="buzzTone__i"></span><code class="sig-name descname">buzzTone</code><span class="sig-paren">(</span>int <em>Tone</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48buzzTonei" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Esta función es semejante a la función <a class="reference internal" href="#_CPPv48buzzFreqi" title="buzzFreq"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzFreq()</span></code></a>, produce un sonido de
@@ -628,7 +628,7 @@ cambiando el valor de la variable 'octave' en la línea 18.</p>
 </div>
 <div class="section" id="la-funcion-buzzplay">
 <h2>La función <a class="reference internal" href="#_CPPv48buzzPlayii" title="buzzPlay"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzPlay()</span></code></a><a class="headerlink" href="#la-funcion-buzzplay" title="Enlazar permanentemente con este título">¶</a></h2>
-<dl class="function">
+<dl class="cpp function">
 <dt id="_CPPv48buzzPlayii">
 <span id="_CPPv38buzzPlayii"></span><span id="_CPPv28buzzPlayii"></span><span id="buzzPlay__i.i"></span><code class="sig-name descname">buzzPlay</code><span class="sig-paren">(</span>int <em>Tone</em>, int <em>milliseconds</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48buzzPlayii" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Esta función permite hacer sonar en el zumbador una o más notas
@@ -646,10 +646,10 @@ Esta función permite que suene una partitura mientras el programa
 de Arduino continúa ejecutándose.</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="cpp function">
 <dt id="_CPPv48buzzPlayv">
 <span id="_CPPv38buzzPlayv"></span><span id="_CPPv28buzzPlayv"></span><span id="buzzPlay"></span>int <code class="sig-name descname">buzzPlay</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48buzzPlayv" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
-<dd><p>La función <a class="reference internal" href="#_CPPv48buzzPlayii" title="buzzPlay"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzPlay()</span></code></a> sin argumentos, devuelve el número de notas
+<dd><p>La función <a class="reference internal" href="#_CPPv48buzzPlayv" title="buzzPlay"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzPlay()</span></code></a> sin argumentos, devuelve el número de notas
 que aún no han terminado de sonar de la partitura enviada al zumbador.
 La memoria de partitura puede almacenar hasta 16 notas. Si se envían
 más notas, las últimas enviadas no se almacenarán.
@@ -790,7 +790,7 @@ de notas que aún no han terminado de sonar.</p>
 </div>
 <div class="section" id="las-funciones-buzzoff-y-buzzon">
 <h2>Las funciónes <a class="reference internal" href="#_CPPv47buzzOffv" title="buzzOff"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzOff()</span></code></a> y <a class="reference internal" href="#_CPPv46buzzOnv" title="buzzOn"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzOn()</span></code></a><a class="headerlink" href="#las-funciones-buzzoff-y-buzzon" title="Enlazar permanentemente con este título">¶</a></h2>
-<dl class="function">
+<dl class="cpp function">
 <dt id="_CPPv47buzzOffv">
 <span id="_CPPv37buzzOffv"></span><span id="_CPPv27buzzOffv"></span><span id="buzzOff"></span><code class="sig-name descname">buzzOff</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv47buzzOffv" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Desconecta el generador de sonido del zumbador.
@@ -800,7 +800,7 @@ de manera que si se vuelve a conectar el zumbador con la función <a class="refe
 este volverá a emitir sonido.</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="cpp function">
 <dt id="_CPPv46buzzOnv">
 <span id="_CPPv36buzzOnv"></span><span id="_CPPv26buzzOnv"></span><span id="buzzOn"></span><code class="sig-name descname">buzzOn</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv46buzzOnv" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Conecta el generador de sonido con el zumbador.
@@ -882,7 +882,7 @@ Presionando el pulsador 2, el sonido volverá a conectarse.</p>
 </div>
 <div class="section" id="la-funcion-buzzbegin">
 <h2>La función <a class="reference internal" href="#_CPPv49buzzBeginv" title="buzzBegin"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">buzzBegin()</span></code></a><a class="headerlink" href="#la-funcion-buzzbegin" title="Enlazar permanentemente con este título">¶</a></h2>
-<dl class="function">
+<dl class="cpp function">
 <dt id="_CPPv49buzzBeginv">
 <span id="_CPPv39buzzBeginv"></span><span id="_CPPv29buzzBeginv"></span><span id="buzzBegin"></span><code class="sig-name descname">buzzBegin</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49buzzBeginv" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Esta función inicializa el sistema generador de sonidos.
@@ -1282,7 +1282,7 @@ Este tiempo será de 200, 400 o de 800 milisegundos.</p>
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
     a menos que se indique lo contrario.<br />
       <span class="lastupdated">
-        Actualizado por última vez en diciembre de 2020.
+        Actualizado por última vez, diciembre de 2020.
       </span>
 
     </p>
@@ -1400,11 +1400,10 @@ Este tiempo será de 200, 400 o de 800 milisegundos.</p>
     
     
       <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-        <script type="text/javascript" src="../../_static/jquery.js"></script>
-        <script type="text/javascript" src="../../_static/underscore.js"></script>
-        <script type="text/javascript" src="../../_static/doctools.js"></script>
-        <script type="text/javascript" src="../../_static/language_data.js"></script>
-        <script type="text/javascript" src="../../_static/translations.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/translations.js"></script>
     
 
   

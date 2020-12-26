@@ -6,10 +6,10 @@ Formato de carácter I
 =====================
 
 En este ejercicio vamos a modificar el formato de texto
-con el menú de Formato de Carácter. En este menú podremos
-cambiar el tipo y el tamaño de letra, el color del texto
-y del fondo, el sentido de la escritura y muchas opciones 
-más.
+con la barra de herramientas de formato. 
+Con los botones de esta barra podremos cambiar el tipo 
+y el tamaño de letra, el formato subíndice y superíndice y 
+el color del texto y del fondo.
 
 |br|
 
@@ -25,7 +25,8 @@ más.
    siguiente texto, pero escrito sin formato.
    
    El ejercicio consiste en dar formato a cada párrafo 
-   para que coincida con lo que hay escrito.
+   para que coincida con lo que hay escrito y con la 
+   siguiente imagen.
 
    .. image:: writer/_images/writer-p08-ejercicio.png
               :align: center
@@ -40,6 +41,8 @@ más.
               :align: center
               :alt: Barra de herramientas de formato de Writer.
    
+   |br|
+
    El botón |button-tipo-letra| cambia el tipo de letra
 
    El botón |button-tamanio-texto| cambia el tamaño del texto en puntos (pt)
@@ -52,8 +55,21 @@ más.
 
    El botón |button-color-fondo| cambia el color del fondo
    
+   |br|
+
 #. Si la barra de herramientas no se puede ver, será necesario
    que la mostremos.
    
    En el menú ``Ver... Barras de herramientas...`` seleccionamos
    la barra de herramientas de ``Formato``.
+   
+   |br|
+
+#. Si en algún momento queremos **quitar el formato** a un texto,
+   después de seleccionar el texto utilizaremos el botón quitar 
+   formato |button-quitar-formato|.
+   
+   Quita el formato a un párrafo de texto y vuelve a darle formato
+   con la combinación de teclas Control + Z o con el botón de 
+   deshacer acción |button-deshacer-accion|.
+   

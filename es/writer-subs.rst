@@ -10,6 +10,34 @@
    BOTONES DE HERRAMIENTAS
    =======================
 
+
+.. |button-justificado| image:: writer/_images/writer-button-justificado.png
+                      :align: middle
+                      
+.. |button-izquierda| image:: writer/_images/writer-button-izquierda.png
+                      :align: middle
+                      
+.. |button-derecha| image:: writer/_images/writer-button-derecha.png
+                      :align: middle
+                      
+.. |button-centrado| image:: writer/_images/writer-button-centrado.png
+                      :align: middle
+
+.. |button-aumenta-sangria| image:: writer/_images/writer-button-aumenta-sangria.png
+                      :align: middle
+
+.. |button-reduce-sangria| image:: writer/_images/writer-button-reduce-sangria.png
+                      :align: middle
+
+.. |button-interlineado| image:: writer/_images/writer-button-interlineado.png
+                      :align: middle
+
+.. |button-separa-parrafos| image:: writer/_images/writer-button-separa-parrafos.png
+                      :align: middle
+
+.. |button-junta-parrafos| image:: writer/_images/writer-button-junta-parrafos.png
+                      :align: middle
+
 .. |button-abrir-archivo| image:: writer/_images/writer-button-abrir-archivo.png
                       :align: middle
 
@@ -50,6 +78,9 @@
                       :align: middle
 
 .. |button-pegar| image:: writer/_images/writer-button-pegar.png
+                      :align: middle
+
+.. |button-quitar-formato| image:: writer/_images/writer-button-quitar-formato.png
                       :align: middle
 
 .. |button-rehacer-accion| image:: writer/_images/writer-button-rehacer-accion.png
