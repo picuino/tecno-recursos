@@ -6,5 +6,5 @@
     :license: BSD, see LICENSE for details.
 """
 
-__version__ = '1.1.3'
+__version__ = '1.1.4'
 __version_info__ = tuple(map(int, __version__.split('.')))

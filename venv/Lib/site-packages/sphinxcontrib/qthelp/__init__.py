@@ -260,7 +260,7 @@ def setup(app: Sphinx) -> Dict[str, Any]:
     app.add_builder(QtHelpBuilder)
     app.add_message_catalog(__name__, path.join(package_dir, 'locales'))
 
-    app.add_config_value('qthelp_basename', lambda self: make_filename(self.project), None)
+    app.add_config_value('qthelp_basename', lambda self: make_filename(self.project), 'html')
     app.add_config_value('qthelp_namespace', None, 'html', [str])
     app.add_config_value('qthelp_theme', 'nonav', 'html')
     app.add_config_value('qthelp_theme_options', {}, 'html')

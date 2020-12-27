@@ -255,7 +255,7 @@ def setup(app: Sphinx) -> Dict[str, Any]:
                          'applehelp')
     app.add_config_value('applehelp_indexer_path', '/usr/bin/hiutil', 'applehelp')
     app.add_config_value('applehelp_codesign_path', '/usr/bin/codesign', 'applehelp')
-    app.add_config_value('applehelp_disable_external_tools', False, None)
+    app.add_config_value('applehelp_disable_external_tools', False, 'applehelp')
 
     return {
         'version': __version__,

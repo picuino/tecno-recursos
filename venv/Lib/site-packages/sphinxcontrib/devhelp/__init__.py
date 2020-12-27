@@ -147,7 +147,9 @@ def setup(app: Sphinx) -> Dict[str, Any]:
     app.add_builder(DevhelpBuilder)
     app.add_message_catalog(__name__, path.join(package_dir, 'locales'))
 
-    app.add_config_value('devhelp_basename', lambda self: make_filename(self.project), None)
+    app.add_config_value('devhelp_basename',
+                         lambda self: make_filename(self.project),
+                         'devhelp')
 
     return {
         'version': __version__,

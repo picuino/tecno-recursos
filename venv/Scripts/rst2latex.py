@@ -1,4 +1,4 @@
-#!d:\Picuino\Tecno-recursos\venv\Scripts\python.exe
+#!D:\Picuino\Tecno-recursos\venv\Scripts\python.exe
 
 # $Id: rst2latex.py 5905 2009-04-16 12:04:49Z milde $
 # Author: David Goodger <goodger@python.org>
