@@ -166,7 +166,7 @@ proporcional al número.</p></li>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
    <span class="n">pio</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el shield Picuino UNO</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>   <span class="c1">// Encender el led D1</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>   <span class="c1">// Encender el led D1</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
@@ -208,9 +208,9 @@ vez una vez iniciado el programa de Arduino.</p>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>   <span class="c1">// Encender el led D1</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>   <span class="c1">// Encender el led D1</span>
    <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>                <span class="c1">// Esperar medio segundo (500 ms)</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span>  <span class="c1">// Apagar el led D1</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>  <span class="c1">// Apagar el led D1</span>
    <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>                <span class="c1">// Esperar medio segundo (500 ms)</span>
 <span class="p">}</span>
 </pre></div>
@@ -285,21 +285,21 @@ errores sintácticos para que funcione correctamente.</p>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
    <span class="n">pio</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el shield Picuino UNO</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_on</span><span class="p">);</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_on</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="k">for</span><span class="p">(</span><span class="kr">char</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;=</span><span class="mi">5</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-      <span class="n">pio</span><span class="p">.</span><span class="n">ledwrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>  <span class="c1">// Encender el led siguiente</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledwrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>  <span class="c1">// Encender el led siguiente</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">250</span><span class="p">);</span>                 <span class="c1">// Esperar 250 milisegundos</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span>   <span class="c1">// Apagar el led anterior</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>   <span class="c1">// Apagar el led anterior</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>                 <span class="c1">// Esperar 100 milisegundos</span>
    <span class="p">}</span>
 
    <span class="k">for</span><span class="p">(</span><span class="kr">char</span> <span class="n">i</span><span class="o">=</span><span class="mi">5</span><span class="p">;</span> <span class="n">i</span><span class="o">&gt;=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>    <span class="c1">// Encender el led anterior</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>    <span class="c1">// Encender el led anterior</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">250</span><span class="p">);</span>                 <span class="c1">// Esperar 250 milisegundos</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span> <span class="c1">// Apagar el led siguiente</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span> <span class="c1">// Apagar el led siguiente</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>                 <span class="c1">// Esperar 100 milisegundos</span>
    <span class="p">}</span>
 </pre></div>

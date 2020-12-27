@@ -260,8 +260,8 @@ pulsador 1 (<code class="docutils literal notranslate"><span class="pre">KEY_LEF
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="kr">int</span> <span class="n">on_off</span><span class="p">;</span>
-   <span class="n">on_off</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="kr">KEY_LEFT</span><span class="p">);</span> <span class="c1">// Lee el estado del pulsador 1</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">on_off</span><span class="p">);</span>           <span class="c1">// Enciende el led D1 si está</span>
+   <span class="n">on_off</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="n">KEY_LEFT</span><span class="p">);</span> <span class="c1">// Lee el estado del pulsador 1</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">on_off</span><span class="p">);</span>           <span class="c1">// Enciende el led D1 si está</span>
                                       <span class="c1">// presionado el pulsador 1</span>
 <span class="p">}</span>
 </pre></div>
@@ -295,7 +295,7 @@ apagará el led D1 cuando se pulse el pulsador 1 (<code class="docutils literal 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="kr">int</span> <span class="n">on_off</span><span class="p">;</span>
    <span class="n">on_off</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>   <span class="c1">// Lee el estado del pulsador 1</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">!</span><span class="n">on_off</span><span class="p">);</span>     <span class="c1">// Enciende el led D1 si no está</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">!</span><span class="n">on_off</span><span class="p">);</span>     <span class="c1">// Enciende el led D1 si no está</span>
                                  <span class="c1">// presionado el pulsador 1</span>
 <span class="p">}</span>
 </pre></div>
@@ -322,20 +322,20 @@ Estas son algunas alternativas, todas consiguen el mismo resultado.</p>
 17</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Enciende el led D1 si el pulsador 1 no está presionado</span>
 
 <span class="c1">// Función NOT lógico</span>
-<span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">!</span><span class="n">on_off</span><span class="p">);</span>
+<span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">!</span><span class="n">on_off</span><span class="p">);</span>
 
 <span class="c1">// Función Negación binaria</span>
-<span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">~</span><span class="n">on_off</span><span class="p">);</span>
+<span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">~</span><span class="n">on_off</span><span class="p">);</span>
 
 <span class="c1">// Función resta</span>
-<span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="o">-</span><span class="n">on_off</span><span class="p">);</span>
+<span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="o">-</span><span class="n">on_off</span><span class="p">);</span>
 
 <span class="c1">// Funciones de comparación</span>
-<span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="n">on_off</span> <span class="o">==</span> <span class="mi">0</span><span class="p">));</span>
-<span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="n">on_off</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">));</span>
+<span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="n">on_off</span> <span class="o">==</span> <span class="mi">0</span><span class="p">));</span>
+<span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="n">on_off</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">));</span>
 
 <span class="c1">// Función XOR</span>
-<span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">on_off</span> <span class="o">^</span> <span class="mi">1</span><span class="p">);</span>
+<span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">on_off</span> <span class="o">^</span> <span class="mi">1</span><span class="p">);</span>
 </pre></div>
 </td></tr></table></div>
 <p>Como se puede ver, el lenguaje es muy rico en expresiones.</p>
@@ -395,9 +395,9 @@ Corregir los errores sintácticos del siguiente programa.</p>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="n">keypressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>       <span class="c1">// Si (pulsador 1 está presionado)</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>  <span class="c1">//   Enciende led D1</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>  <span class="c1">//   Enciende led D1</span>
    <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="n">keypressed</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>       <span class="c1">// Si (pulsador 2 está presionado)</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">)</span>  <span class="c1">//   Apaga el led D1</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">)</span>  <span class="c1">//   Apaga el led D1</span>
 </pre></div>
 </td></tr></table></div>
 </li>
@@ -419,7 +419,7 @@ Completar el programa que aparece a continuación.</p>
    <span class="k">while</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Enciende el led D1</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
 
 
 <span class="p">}</span>
@@ -469,7 +469,7 @@ comentarios.</p>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>  <span class="c1">// Enciende el led i</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>  <span class="c1">// Enciende el led i</span>
    <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="n">i</span><span class="p">))</span> <span class="p">{</span>  <span class="c1">// Si (pulsador i está presionado)</span>
       <span class="n">pio</span><span class="p">.</span>                   <span class="c1">//    Apaga el led i</span>
       <span class="n">i</span> <span class="o">=</span>                    <span class="c1">//    Aumenta i en una unidad</span>
@@ -627,7 +627,7 @@ los comentarios.</p>
    <span class="k">if</span> <span class="p">(</span><span class="nf">step</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
 
       <span class="c1">// Si (solo el pulsador 2 presionado)</span>
-      <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="n">b000010</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">==</span><span class="mb">0b000010</span><span class="p">)</span> <span class="p">{</span>
 
          <span class="c1">// Espera a que no esté presionado</span>
          <span class="k">while</span><span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">));</span>
@@ -640,7 +640,7 @@ los comentarios.</p>
    <span class="c1">// Si (etapa del programa es 2)</span>
    <span class="k">if</span> <span class="p">(</span><span class="nf">step</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
       <span class="c1">// Si (solo el pulsador 4 presionado)</span>
-      <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="n">b001000</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">==</span><span class="mb">0b001000</span><span class="p">)</span> <span class="p">{</span>
 
          <span class="c1">// Espera a que no esté presionado</span>
          <span class="k">while</span><span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">4</span><span class="p">));</span>
@@ -667,19 +667,19 @@ los comentarios.</p>
    <span class="k">if</span> <span class="p">(</span><span class="nf">step</span> <span class="o">==</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
 
       <span class="c1">// Enciende el led rojo y espera un segundo</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
 
       <span class="c1">// Enciende el led amarillo y espera un segundo</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
 
       <span class="c1">// Enciende el led verde y espera un segundo</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
 
       <span class="c1">// Apaga todos los leds</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledBegin</span><span class="p">();</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledBegin</span><span class="p">();</span>
 
       <span class="c1">// Pasa a la primera etapa del programa</span>
       <span class="nf">step</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>

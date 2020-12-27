@@ -451,7 +451,7 @@ siguiente programa.</p>
 <span class="kr">int</span> <span class="n">distance</span><span class="p">,</span> <span class="n">microseconds</span><span class="p">;</span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>            <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>            <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">};</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
@@ -462,7 +462,7 @@ siguiente programa.</p>
 
    <span class="n">distance</span> <span class="o">=</span> <span class="n">microseconds</span> <span class="o">*</span> <span class="n">SOUND_SPEED</span><span class="p">;</span> <span class="c1">// Calcular la distancia al objeto en milímetros</span>
 
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="n">distance</span><span class="p">);</span>      <span class="c1">// Mostrar la distancia en el display de 7 segmentos</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="n">distance</span><span class="p">);</span>      <span class="c1">// Mostrar la distancia en el display de 7 segmentos</span>
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
@@ -530,7 +530,7 @@ Completar el programa para que la barra ocupe 6 leds.</p>
 <span class="kr">int</span> <span class="n">distance</span><span class="p">;</span>             <span class="c1">// Distancia al obstaculo en centímetros</span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>            <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>            <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">};</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
@@ -543,15 +543,15 @@ Completar el programa para que la barra ocupe 6 leds.</p>
 
    <span class="c1">// Encender el led 1 si la distancia es mayor de 40mm</span>
    <span class="k">if</span> <span class="p">(</span><span class="n">distance</span> <span class="o">&gt;</span> <span class="mi">40</span><span class="p">)</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
    <span class="k">else</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>
 
    <span class="c1">// Encender el led 2 si la distancia es mayor de 80mm</span>
    <span class="k">if</span> <span class="p">(</span><span class="n">distance</span> <span class="o">&gt;</span> <span class="mi">80</span><span class="p">)</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
    <span class="k">else</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>

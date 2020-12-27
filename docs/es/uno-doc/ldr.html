@@ -156,7 +156,7 @@ más o menos el sensor LDR.</p>
    <span class="kr">int</span> <span class="n">ldr</span> <span class="o">=</span> <span class="nf">analogRead</span><span class="p">(</span><span class="n">A1</span><span class="p">);</span>
 
    <span class="c1">// Muestra la señal por pantalla</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="n">ldr</span><span class="p">);</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="n">ldr</span><span class="p">);</span>
    <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;LDR = &quot;</span><span class="p">);</span>
    <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">ldr</span><span class="p">);</span>
 
@@ -175,9 +175,9 @@ siguientes lineas de código.</p>
 3
 4
 5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Theremin con sensor LDR</span>
-<span class="n">pio</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">500</span> <span class="o">+</span> <span class="n">ldr</span><span class="o">*</span><span class="mi">2</span><span class="p">);</span>
+<span class="n">pio</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">500</span> <span class="o">+</span> <span class="n">ldr</span><span class="o">*</span><span class="mi">2</span><span class="p">);</span>
 <span class="nf">delay</span><span class="p">(</span><span class="mi">64</span><span class="p">);</span>
-<span class="n">pio</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+<span class="n">pio</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
 <span class="nf">delay</span><span class="p">(</span><span class="mi">128</span><span class="p">);</span>
 </pre></div>
 </td></tr></table></div>

@@ -247,8 +247,8 @@ utilizando la función <cite>ledWrite</cite></p>
 <span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>   <span class="c1">// Encender el led D1</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>   <span class="c1">// Encender el led D1</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
@@ -292,13 +292,13 @@ vez dentro del programa de Arduino.</p>
 <span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>              <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>              <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>  <span class="c1">// Encender el led D1</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>  <span class="c1">// Encender el led D1</span>
    <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>              <span class="c1">// Esperar medio segundo (500 ms)</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span> <span class="c1">// Apagar el led D1</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span> <span class="c1">// Apagar el led D1</span>
    <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>              <span class="c1">// Esperar medio segundo (500 ms)</span>
 <span class="p">}</span>
 </pre></div>
@@ -380,22 +380,22 @@ sintácticos para que funcione correctamente.</p>
 <span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>                   <span class="c1">// Inicializar el módulo PC42</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_on</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>                   <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_on</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="k">for</span><span class="p">(</span><span class="kr">char</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;=</span><span class="mi">5</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>  <span class="c1">// Encender el led siguiente</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>  <span class="c1">// Encender el led siguiente</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">250</span><span class="p">);</span>                <span class="c1">// Esperar 250 milisegundos</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span>   <span class="c1">// Apagar el led anterior</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>   <span class="c1">// Apagar el led anterior</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>                <span class="c1">// Esperar 100 milisegundos</span>
    <span class="p">}</span>
 
    <span class="k">for</span><span class="p">(</span><span class="kr">char</span> <span class="n">i</span><span class="o">=</span><span class="mi">5</span><span class="p">;</span> <span class="n">i</span><span class="o">&gt;=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>    <span class="c1">// Encender el led anterior</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>    <span class="c1">// Encender el led anterior</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">250</span><span class="p">);</span>                <span class="c1">// Esperar 250 milisegundos</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span> <span class="c1">// Apagar el led siguiente</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span> <span class="c1">// Apagar el led siguiente</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>                <span class="c1">// Esperar 100 milisegundos</span>
    <span class="p">}</span>
 </pre></div>

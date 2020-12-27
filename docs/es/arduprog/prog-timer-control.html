@@ -415,7 +415,7 @@
 <span class="cm"> ***************************************************************************/</span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>
+  <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>
   <span class="n">tempo_init</span><span class="p">();</span>
 <span class="p">}</span>
 
@@ -426,21 +426,21 @@
   <span class="k">switch</span><span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">state</span><span class="p">)</span> <span class="p">{</span>
 
   <span class="k">case</span> <span class="nl">INIT_STOP</span><span class="p">:</span>  
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">ledBegin</span><span class="p">();</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">ledBegin</span><span class="p">();</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
     <span class="n">power_off</span><span class="p">();</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">STOP</span><span class="p">;</span>
     <span class="k">break</span><span class="p">;</span>
 
   <span class="k">case</span> <span class="nl">STOP</span><span class="p">:</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">dispNum</span><span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span><span class="p">);</span>
     <span class="n">tempo_stop</span><span class="p">();</span>
     <span class="k">break</span><span class="p">;</span>
 
   <span class="k">case</span> <span class="nl">INIT_COUNTDOWN</span><span class="p">:</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledBegin</span><span class="p">();</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledBegin</span><span class="p">();</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
       <span class="n">tempo</span><span class="p">.</span><span class="n">millis_old</span> <span class="o">=</span> <span class="nf">millis</span><span class="p">();</span>
       <span class="n">tempo</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">COUNTDOWN</span><span class="p">;</span>
     <span class="p">}</span>
@@ -455,8 +455,8 @@
 
   <span class="k">case</span> <span class="nl">INIT_ALARM</span><span class="p">:</span>
     <span class="n">power_off</span><span class="p">();</span>   
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">ledBegin</span><span class="p">();</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">ledBegin</span><span class="p">();</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
     <span class="n">tempo</span><span class="p">.</span><span class="nf">millis</span> <span class="o">=</span> <span class="nf">millis</span><span class="p">();</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">alarm</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">ALARM</span><span class="p">;</span>
@@ -481,35 +481,35 @@
 <span class="c1">//</span>
 <span class="kr">void</span> <span class="nf">tempo_stop</span><span class="p">(</span><span class="kr">void</span><span class="p">)</span> <span class="p">{</span>
   <span class="kr">char</span> <span class="n">keys</span><span class="p">;</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">dispDots</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">dispDots</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
 
-  <span class="n">keys</span> <span class="o">=</span> <span class="nf">pc</span><span class="p">.</span><span class="nf">keyCount</span><span class="p">(</span><span class="kr">KEY_DOWN</span><span class="p">);</span>
+  <span class="n">keys</span> <span class="o">=</span> <span class="n">pc</span><span class="p">.</span><span class="n">keyCount</span><span class="p">(</span><span class="n">KEY_DOWN</span><span class="p">);</span>
   <span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">-=</span> <span class="n">keys</span><span class="p">;</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">+=</span> <span class="n">MAX_SECONDS</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
 
-  <span class="n">keys</span> <span class="o">=</span> <span class="nf">pc</span><span class="p">.</span><span class="nf">keyCount</span><span class="p">(</span><span class="kr">KEY_UP</span><span class="p">);</span>
+  <span class="n">keys</span> <span class="o">=</span> <span class="n">pc</span><span class="p">.</span><span class="n">keyCount</span><span class="p">(</span><span class="n">KEY_UP</span><span class="p">);</span>
   <span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">+=</span> <span class="n">keys</span><span class="p">;</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">&gt;</span> <span class="n">MAX_SECONDS</span><span class="p">)</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">-=</span> <span class="n">MAX_SECONDS</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
  
-  <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="kr">KEY_UP</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="kr">KEY_DOWN</span><span class="p">))</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="n">KEY_UP</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="n">KEY_DOWN</span><span class="p">))</span> <span class="p">{</span>
      <span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">=</span> <span class="n">tempo</span><span class="p">.</span><span class="n">total_time</span><span class="p">;</span>
      <span class="n">tempo</span><span class="p">.</span><span class="n">count_millis</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
   <span class="p">}</span>
    
-  <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyEvents</span><span class="p">(</span><span class="kr">KEY_RIGHT</span><span class="p">,</span> <span class="kr">KEY_PRESSED_TIME2</span><span class="p">))</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="n">keyEvents</span><span class="p">(</span><span class="n">KEY_RIGHT</span><span class="p">,</span> <span class="n">KEY_PRESSED_TIME2</span><span class="p">))</span> <span class="p">{</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">total_time</span> <span class="o">=</span> <span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span><span class="p">;</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
     <span class="n">eeprom_write16</span><span class="p">(</span><span class="n">EEPROM_ADDR_SECONDS</span><span class="p">,</span> <span class="n">tempo</span><span class="p">.</span><span class="n">total_time</span><span class="p">);</span>
     <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
   <span class="p">}</span>
 
-  <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyEvents</span><span class="p">(</span><span class="kr">KEY_ENTER</span><span class="p">,</span> <span class="kr">KEY_PRESSED_TIME1</span><span class="p">))</span> <span class="p">{</span> 
+  <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="n">keyEvents</span><span class="p">(</span><span class="n">KEY_ENTER</span><span class="p">,</span> <span class="n">KEY_PRESSED_TIME1</span><span class="p">))</span> <span class="p">{</span> 
     <span class="n">tempo</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">INIT_COUNTDOWN</span><span class="p">;</span>
   <span class="p">}</span>
 
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">dispNum</span><span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span><span class="p">);</span>
 <span class="p">}</span>
 
 
@@ -528,22 +528,22 @@
 
   <span class="k">while</span> <span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">count_millis</span> <span class="o">&gt;=</span> <span class="mi">1000</span><span class="p">)</span> <span class="p">{</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span><span class="o">--</span><span class="p">;</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">dispNum</span><span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span><span class="p">);</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">count_millis</span> <span class="o">-=</span> <span class="mi">1000</span><span class="p">;</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="k">break</span><span class="p">;</span>
   <span class="p">}</span>
 
   <span class="k">if</span> <span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">count_millis</span> <span class="o">&lt;</span> <span class="mi">500</span><span class="p">)</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">dispDots</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">dispDots</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
   <span class="k">else</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">dispDots</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">dispDots</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
 
   <span class="k">if</span> <span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
     <span class="n">power_off</span><span class="p">();</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">INIT_ALARM</span><span class="p">;</span>
   <span class="p">}</span>
 
-  <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyEvents</span><span class="p">(</span><span class="kr">KEY_ENTER</span><span class="p">,</span> <span class="kr">KEY_PRESSED_TIME1</span><span class="p">))</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="n">keyEvents</span><span class="p">(</span><span class="n">KEY_ENTER</span><span class="p">,</span> <span class="n">KEY_PRESSED_TIME1</span><span class="p">))</span> <span class="p">{</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">INIT_STOP</span><span class="p">;</span>
   <span class="p">}</span>  
 <span class="p">}</span>
@@ -553,7 +553,7 @@
 <span class="c1">// ALARM</span>
 <span class="c1">//</span>
 <span class="kr">void</span> <span class="nf">alarm</span><span class="p">(</span><span class="kr">void</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="kr">DD_E</span><span class="p">,</span> <span class="kr">DD_n</span><span class="p">,</span> <span class="kr">DD_d</span><span class="p">,</span> <span class="kr">DD_SP</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="n">DD_E</span><span class="p">,</span> <span class="n">DD_n</span><span class="p">,</span> <span class="n">DD_d</span><span class="p">,</span> <span class="n">DD_SP</span><span class="p">);</span>
 
   <span class="k">switch</span><span class="p">(</span><span class="n">tempo</span><span class="p">.</span><span class="n">alarm</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">case</span> <span class="mi">0</span><span class="o">:</span>
@@ -570,14 +570,14 @@
   <span class="k">case</span> <span class="mi">2</span><span class="o">:</span>
     <span class="k">if</span> <span class="p">(</span><span class="nf">millis</span><span class="p">()</span> <span class="o">&gt;</span> <span class="n">tempo</span><span class="p">.</span><span class="nf">millis</span> <span class="o">+</span> <span class="mi">4000</span><span class="p">)</span> <span class="p">{</span>
       <span class="n">tempo</span><span class="p">.</span><span class="nf">millis</span> <span class="o">+=</span> <span class="mi">4000</span><span class="p">;</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">16</span><span class="p">);</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">16</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">16</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">16</span><span class="p">);</span>
     <span class="p">}</span>
     <span class="k">break</span><span class="p">;</span>
   <span class="p">}</span>
   
-  <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyEvents</span><span class="p">(</span><span class="kr">KEY_ENTER</span><span class="p">,</span> <span class="kr">KEY_PRESSED_TIME1</span><span class="p">))</span> <span class="p">{</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzBegin</span><span class="p">();</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="n">keyEvents</span><span class="p">(</span><span class="n">KEY_ENTER</span><span class="p">,</span> <span class="n">KEY_PRESSED_TIME1</span><span class="p">))</span> <span class="p">{</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">buzzBegin</span><span class="p">();</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">countdown</span> <span class="o">=</span> <span class="n">tempo</span><span class="p">.</span><span class="n">total_time</span><span class="p">;</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">count_millis</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
     <span class="n">tempo</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">INIT_STOP</span><span class="p">;</span>
@@ -619,14 +619,14 @@
 <span class="c1">// Sound Alarm</span>
 <span class="c1">//</span>
 <span class="kr">void</span> <span class="nf">alarm_sound</span><span class="p">(</span><span class="kr">void</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">TONE_ALARM</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
 <span class="p">}</span>
 
 

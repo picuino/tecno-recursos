@@ -220,7 +220,7 @@ segmentos.</p>
       <span class="p">}</span>
       <span class="n">ir_recv</span><span class="p">.</span><span class="n">resume</span><span class="p">();</span>
    <span class="p">}</span>
-   <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>  <span class="c1">// Devuelve un código de error</span>
+   <span class="k">return</span> <span class="mi">-1</span><span class="p">;</span>  <span class="c1">// Devuelve un código de error</span>
 <span class="p">}</span>
 
 
@@ -228,7 +228,7 @@ segmentos.</p>
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
    <span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="n">SERIAL_BAUD</span><span class="p">);</span> <span class="c1">// Inicia las comunicaciones serie</span>
    <span class="n">ir_recv</span><span class="p">.</span><span class="n">enableIRIn</span><span class="p">();</span>      <span class="c1">// Inicia el receptor de infrarrojos</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>                <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>                <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 <span class="c1">// Bucle principal</span>
@@ -239,10 +239,10 @@ segmentos.</p>
    <span class="n">code</span> <span class="o">=</span> <span class="n">ir_read</span><span class="p">();</span>
 
    <span class="c1">// Si es un código válido, envía el código al puerto serie y al display</span>
-   <span class="k">if</span> <span class="p">(</span><span class="n">code</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">code</span> <span class="o">!=</span> <span class="mi">-1</span><span class="p">)</span> <span class="p">{</span>
       <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">code</span><span class="p">,</span> <span class="n">HEX</span><span class="p">);</span>
       <span class="n">code</span> <span class="o">=</span> <span class="p">(</span><span class="kr">unsigned</span><span class="p">)</span><span class="n">code</span> <span class="o">&gt;&gt;</span> <span class="mi">8</span><span class="p">;</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="n">code</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="n">code</span><span class="p">);</span>
 
    <span class="p">}</span>
 
@@ -261,7 +261,7 @@ realizar la tarea.</p>
 4</pre></div></td><td class="code"><div class="highlight"><pre><span></span>   <span class="c1">// Enciende el led D1 cuando se presione</span>
    <span class="c1">// el número &#39;1&#39; del mando a distancia</span>
    <span class="k">if</span> <span class="p">(</span><span class="n">code</span> <span class="o">==</span>  <span class="p">)</span> <span class="p">{</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
 </pre></div>
 </td></tr></table></div>
 </li>
@@ -296,9 +296,9 @@ variable dependiendo del código recibido del mando a distancia:</p>
 valor de la variable:</p>
 <div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="c1">// Si se presiona &#39;+&#39; aumenta el número de leds encendidos</span>
 <span class="k">if</span> <span class="p">(</span><span class="n">num_leds</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
 <span class="k">else</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>
 </pre></div>
 </div>
 </li>

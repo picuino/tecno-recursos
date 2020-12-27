@@ -205,7 +205,7 @@ al pulsar el pulsador 1.</p>
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
    <span class="n">pio</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>            <span class="c1">// Inicializa el shield Picuino UNO</span>
    <span class="n">led</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>                <span class="c1">// Enciende primero el led D1</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
@@ -213,13 +213,13 @@ al pulsar el pulsador 1.</p>
    <span class="c1">// Mueve a la derecha con la tecla derecha</span>
 
    <span class="c1">// Lee el número de pulsaciones del pulsador &#39;derecha&#39;</span>
-   <span class="n">count</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="nf">keyCount</span><span class="p">(</span><span class="kr">KEY_RIGHT</span><span class="p">);</span>
+   <span class="n">count</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="n">keyCount</span><span class="p">(</span><span class="n">KEY_RIGHT</span><span class="p">);</span>
 
    <span class="c1">// Si el número de pulsaciones es mayor que cero</span>
    <span class="k">if</span> <span class="p">(</span><span class="n">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
 
       <span class="c1">// Apaga el led actual</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>
 
       <span class="c1">// Incrementa la posición del led</span>
       <span class="n">led</span> <span class="o">=</span> <span class="n">led</span> <span class="o">+</span> <span class="n">count</span><span class="p">;</span>
@@ -229,7 +229,7 @@ al pulsar el pulsador 1.</p>
       <span class="k">if</span> <span class="p">(</span><span class="n">led</span> <span class="o">&gt;</span> <span class="mi">6</span><span class="p">)</span> <span class="n">led</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
       <span class="c1">// Enciende el led en la nueva posición</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="kr">LED_ON</span><span class="p">);</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
    <span class="p">}</span>
 <span class="p">}</span>
 </pre></div>
@@ -293,15 +293,15 @@ no dar pistas sobre el tiempo que debe estar encendido.</p>
    <span class="k">while</span><span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">);</span>
 
    <span class="c1">// Lee el tiempo que ha estado presionado el pulsador 1</span>
-   <span class="n">time</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="nf">keyTimeOn</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+   <span class="n">time</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="n">keyTimeOn</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
 
    <span class="c1">// Calcula la puntuación</span>
    <span class="n">points</span> <span class="o">=</span> <span class="n">time</span> <span class="o">-</span> <span class="mi">3</span><span class="o">*</span><span class="mi">250</span><span class="p">;</span>
 
    <span class="c1">// Muestra la puntuación por el display</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="nf">abs</span><span class="p">(</span><span class="n">points</span><span class="p">));</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="nf">abs</span><span class="p">(</span><span class="n">points</span><span class="p">));</span>
    <span class="k">if</span> <span class="p">(</span><span class="n">points</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">);</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mh">0x02</span><span class="p">);</span>
    <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
@@ -380,15 +380,15 @@ presionado.</p>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="c1">// Comienza parpadeando el led D1</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledBlink</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">50</span><span class="p">);</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledBlink</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">50</span><span class="p">);</span>
 
    <span class="c1">// Espera hasta que se presione el pulsador 1</span>
    <span class="k">while</span><span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Cuenta el tiempo que está presionado el pulsador 1</span>
    <span class="k">while</span><span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-     <span class="n">time1</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="nf">keyTimeOn</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
-     <span class="n">pio</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="n">time1</span><span class="p">);</span>
+     <span class="n">time1</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="n">keyTimeOn</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+     <span class="n">pio</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="n">time1</span><span class="p">);</span>
    <span class="p">}</span>
 
    <span class="c1">// Espera hasta que se presione el pulsador 1</span>
@@ -396,24 +396,24 @@ presionado.</p>
 
    <span class="c1">// Cuenta el tiempo que está presionado el pulsador 1</span>
    <span class="k">while</span><span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-      <span class="n">time2</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="nf">keyTimeOn</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="n">time2</span><span class="p">);</span>
+      <span class="n">time2</span> <span class="o">=</span> <span class="n">pio</span><span class="p">.</span><span class="n">keyTimeOn</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="n">time2</span><span class="p">);</span>
    <span class="p">}</span>
 
    <span class="c1">// Apaga el led D1 y espera un segundo</span>
-   <span class="n">pio</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="kr">LED_OFF</span><span class="p">);</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>
 
    <span class="c1">// Calcula la puntuación</span>
    <span class="n">points</span> <span class="o">=</span> <span class="n">time1</span> <span class="o">-</span> <span class="n">time2</span><span class="p">;</span>
 
    <span class="c1">// Muestra la puntuación por el display</span>
    <span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="nf">abs</span><span class="p">(</span><span class="n">points</span><span class="p">));</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="nf">abs</span><span class="p">(</span><span class="n">points</span><span class="p">));</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
-      <span class="n">pio</span><span class="p">.</span><span class="nf">dispBegin</span><span class="p">();</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">dispBegin</span><span class="p">();</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
       <span class="c1">// Sal si se presiona el pulsador 1</span>
-      <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyEvents</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="kr">KEY_PRESSED_TIME2</span><span class="p">)</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="n">keyEvents</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="n">KEY_PRESSED_TIME2</span><span class="p">)</span>
          <span class="k">break</span><span class="p">;</span>
    <span class="p">}</span>
 

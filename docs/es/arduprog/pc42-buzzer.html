@@ -185,15 +185,15 @@ permanezca pulsado.</p>
 <span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>           <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>           <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="c1">// Si se presiona el pulsador 1</span>
-   <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="p">{</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzFreq</span><span class="p">(</span><span class="mi">2000</span><span class="p">);</span> <span class="c1">// Emite un sonido de 2000 Hz</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="p">{</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">buzzFreq</span><span class="p">(</span><span class="mi">2000</span><span class="p">);</span> <span class="c1">// Emite un sonido de 2000 Hz</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">62</span><span class="p">);</span>         <span class="c1">// durante 62 milisegundos</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzFreq</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>    <span class="c1">// Apaga el generador de sonido</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">buzzFreq</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>    <span class="c1">// Apaga el generador de sonido</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">62</span><span class="p">);</span>         <span class="c1">// durante 62 milisegundos</span>
    <span class="p">}</span>
 <span class="p">}</span>
@@ -463,34 +463,34 @@ habitualmente para afinar instrumentos.</p>
 <span class="kr">int</span> <span class="n">nota</span><span class="p">;</span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>          <span class="c1">// Inicializar el módulo PC42</span>
-   <span class="n">nota</span> <span class="o">=</span> <span class="kr">La4</span><span class="p">;</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>          <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">nota</span> <span class="o">=</span> <span class="n">La4</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="c1">// Muestra la nota actual en el display</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">dispNum</span><span class="p">(</span><span class="n">nota</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="n">nota</span><span class="p">);</span>
 
    <span class="c1">// Si se presiona el pulsador 1</span>
-   <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="p">{</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="p">{</span>
       <span class="c1">// Calcular una nota más grave</span>
       <span class="n">nota</span> <span class="o">=</span> <span class="n">nota</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
       <span class="k">if</span> <span class="p">(</span><span class="n">nota</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">)</span>
          <span class="n">nota</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">nota</span><span class="p">);</span> <span class="c1">// Emite una nota musical</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">nota</span><span class="p">);</span> <span class="c1">// Emite una nota musical</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>        <span class="c1">// durante 0.1 segundos</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>    <span class="c1">// Apaga el generador de sonido</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>    <span class="c1">// Apaga el generador de sonido</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>        <span class="c1">// durante 0.5 segundos</span>
    <span class="p">}</span>
 
    <span class="c1">// Si se presiona el pulsador 2</span>
-   <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span> <span class="p">{</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span> <span class="p">{</span>
       <span class="n">nota</span> <span class="o">=</span> <span class="n">nota</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>   <span class="c1">// Calcular una nota más aguda</span>
       <span class="k">if</span> <span class="p">(</span><span class="n">nota</span> <span class="o">&gt;</span> <span class="mi">127</span><span class="p">)</span>
          <span class="n">nota</span> <span class="o">=</span> <span class="mi">127</span><span class="p">;</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">nota</span><span class="p">);</span> <span class="c1">// Emite una nota musical</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">nota</span><span class="p">);</span> <span class="c1">// Emite una nota musical</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>        <span class="c1">// durante 0.1 segundos</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>    <span class="c1">// Apaga el generador de sonido</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>    <span class="c1">// Apaga el generador de sonido</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>        <span class="c1">// durante 0.5 segundos</span>
    <span class="p">}</span>
 <span class="p">}</span>
@@ -568,7 +568,7 @@ cambiando el valor de la variable 'octave' en la línea 18.</p>
 <span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
@@ -582,46 +582,46 @@ cambiando el valor de la variable 'octave' en la línea 18.</p>
    <span class="n">octave</span> <span class="o">=</span> <span class="mi">4</span> <span class="o">*</span> <span class="mi">12</span><span class="p">;</span>
 
    <span class="c1">// Apagar los sonidos</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
-   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Canción de cumpleaños feliz</span>
    <span class="c1">// Primera columna = notas musicales (tono)</span>
    <span class="c1">// Segunda columna = duración de cada nota (figura musical)</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Re0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Mi0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Re0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Mi0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
 
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Re0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Sol0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Re0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Sol0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
 
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Do1</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">La0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Mi0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Re0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Do0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Do1</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">La0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Mi0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Re0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
 
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">La_0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">La_0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">La0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Sol0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="kr">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">La_0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>               <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">La_0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">La0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Sol0</span><span class="p">);</span>   <span class="nf">delay</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">octave</span> <span class="o">+</span> <span class="n">Fa0</span><span class="p">);</span>    <span class="nf">delay</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
@@ -688,28 +688,28 @@ función <a class="reference internal" href="#_CPPv48buzzPlayii" title="buzzPlay
 26</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Al presionar el pulsador 1, suena una alarma de despertador</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
-<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;     </span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="c1">     </span><span class="cp"></span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>  <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>  <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
-   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Enviar las notas de una alarma de despertador </span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">566</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Silence</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Silence</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Silence</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Do7</span><span class="p">,</span> <span class="mi">62</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Silence</span><span class="p">,</span> <span class="mi">566</span><span class="p">);</span>
 
    <span class="c1">// Esperar a que suenen todas las notas</span>
-   <span class="k">while</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">());</span>
+   <span class="k">while</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">());</span>
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
@@ -758,31 +758,31 @@ de notas que aún no han terminado de sonar.</p>
 <span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
 
    <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
-   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Enviar la partitura de carrillón</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">La4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Fa4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Sol4</span><span class="p">,</span>  <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do4</span><span class="p">,</span>  <span class="mi">1000</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Silence</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Sol4</span><span class="p">,</span>  <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">La4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">1000</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">La4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Fa4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Sol4</span><span class="p">,</span>  <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Do4</span><span class="p">,</span>  <span class="mi">1000</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Silence</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Do4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Sol4</span><span class="p">,</span>  <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">La4</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Fa4</span><span class="p">,</span>  <span class="mi">1000</span><span class="p">);</span>
 
    <span class="c1">// Esperar hasta que suene toda la partitura</span>
    <span class="c1">// Mostrar el número de notas restantes</span>
    <span class="kr">int</span> <span class="n">notas</span><span class="p">;</span>
    <span class="k">do</span> <span class="p">{</span>
-     <span class="n">notas</span> <span class="o">=</span> <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">();</span>
-     <span class="nf">pc</span><span class="p">.</span><span class="nf">dispNum</span><span class="p">(</span><span class="n">notas</span><span class="p">);</span>
+     <span class="n">notas</span> <span class="o">=</span> <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">();</span>
+     <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="n">notas</span><span class="p">);</span>
    <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">notas</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
@@ -852,28 +852,28 @@ Presionando el pulsador 2, el sonido volverá a conectarse.</p>
 <span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>          <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>          <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
    <span class="c1">// Tocar una melodía</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Sol5</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">La5</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Fa5</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Fa4</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="kr">Do5</span><span class="p">,</span> <span class="mi">1000</span><span class="p">);</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Sol5</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">La5</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Fa5</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Fa4</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="n">Do5</span><span class="p">,</span> <span class="mi">1000</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span>   <span class="mi">500</span><span class="p">);</span>
    <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
 
    <span class="c1">// Espera hasta que termine de sonar la melodía.</span>
    <span class="c1">// Durante ese tiempo desconecta o conecta el sonido</span>
    <span class="c1">// si se presionan los pulsadores 1 y 2</span>
    <span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>    <span class="c1">// Si se presiona el pulsador 1</span>
-         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzOff</span><span class="p">();</span>         <span class="c1">// desconecta el sonido.</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>    <span class="c1">// Si se presiona el pulsador 2</span>
-         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzOn</span><span class="p">();</span>          <span class="c1">// conecta el sonido.</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">buzzPlay</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>  <span class="c1">// Si la nota ha terminado</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>    <span class="c1">// Si se presiona el pulsador 1</span>
+         <span class="n">pc</span><span class="p">.</span><span class="n">buzzOff</span><span class="p">();</span>         <span class="c1">// desconecta el sonido.</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>    <span class="c1">// Si se presiona el pulsador 2</span>
+         <span class="n">pc</span><span class="p">.</span><span class="n">buzzOn</span><span class="p">();</span>          <span class="c1">// conecta el sonido.</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="n">buzzPlay</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>  <span class="c1">// Si la nota ha terminado</span>
          <span class="k">return</span><span class="p">;</span>               <span class="c1">// termina la espera.</span>
   <span class="p">}</span>
 <span class="p">}</span>
@@ -1013,19 +1013,19 @@ Al final de la secuencia se debe esperar un tiempo de 500 milisegundos sin sonid
 <span class="c1">//                  pausa entre notas iguales (-1)</span>
 <span class="c1">// Segunda columna: Duración de la nota (en tempos)</span>
 <span class="kr">char</span> <span class="n">song</span><span class="p">[]</span> <span class="o">=</span>  <span class="p">{</span>
-   <span class="kr">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Do4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
-   <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
-   <span class="kr">Do4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
+   <span class="n">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Fa4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Do4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
+   <span class="mi">-1</span><span class="p">,</span>
+   <span class="n">Do4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Fa4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
 <span class="p">};</span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>         <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>         <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
@@ -1040,10 +1040,10 @@ Al final de la secuencia se debe esperar un tiempo de 500 milisegundos sin sonid
    <span class="n">octave</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
    <span class="c1">// Apagar los sonidos</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
-   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Tocar la canción almacenada</span>
    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
@@ -1051,16 +1051,16 @@ Al final de la secuencia se debe esperar un tiempo de 500 milisegundos sin sonid
       <span class="n">note</span> <span class="o">=</span> <span class="n">song</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
       <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
 
-      <span class="k">if</span> <span class="p">(</span><span class="n">note</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">note</span> <span class="o">==</span> <span class="mi">-1</span><span class="p">)</span> <span class="p">{</span>
          <span class="c1">// suena una pausa entre notas iguales</span>
-         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+         <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
          <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
       <span class="p">}</span>
       <span class="k">else</span> <span class="p">{</span>
          <span class="c1">// suena una nota musical</span>
          <span class="n">figure</span> <span class="o">=</span> <span class="n">song</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
          <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
-         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">note</span> <span class="o">+</span> <span class="n">octave</span><span class="p">);</span>
+         <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">note</span> <span class="o">+</span> <span class="n">octave</span><span class="p">);</span>
          <span class="nf">delay</span><span class="p">(</span><span class="n">figure</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
       <span class="p">}</span>
    <span class="p">}</span>
@@ -1143,19 +1143,19 @@ la música de un carrillón. Cambiar la partitura por la de otra canción.</p>
 <span class="c1">//                  pausa entre notas iguales (-1)</span>
 <span class="c1">// Segunda columna: Duración de la nota (en tempos)</span>
 <span class="kr">char</span> <span class="n">song</span><span class="p">[]</span> <span class="o">=</span>  <span class="p">{</span>
-   <span class="kr">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Do4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
-   <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
-   <span class="kr">Do4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
-   <span class="kr">Fa4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
+   <span class="n">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Fa4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Do4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
+   <span class="mi">-1</span><span class="p">,</span>
+   <span class="n">Do4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Sol4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">La4</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>
+   <span class="n">Fa4</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>
 <span class="p">};</span>
 
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>         <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>         <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 <span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
@@ -1170,10 +1170,10 @@ la música de un carrillón. Cambiar la partitura por la de otra canción.</p>
    <span class="n">octave</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
    <span class="c1">// Apagar los sonidos</span>
-   <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Esperar mientras no se presione el pulsador 1</span>
-   <span class="k">while</span><span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
 
    <span class="c1">// Tocar la canción almacenada</span>
    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
@@ -1181,16 +1181,16 @@ la música de un carrillón. Cambiar la partitura por la de otra canción.</p>
       <span class="n">note</span> <span class="o">=</span> <span class="n">song</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
       <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
 
-      <span class="k">if</span> <span class="p">(</span><span class="n">note</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">note</span> <span class="o">==</span> <span class="mi">-1</span><span class="p">)</span> <span class="p">{</span>
          <span class="c1">// suena una pausa entre notas iguales</span>
-         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+         <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
          <span class="nf">delay</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
       <span class="p">}</span>
       <span class="k">else</span> <span class="p">{</span>
          <span class="c1">// suena una nota musical</span>
          <span class="n">figure</span> <span class="o">=</span> <span class="n">song</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
          <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
-         <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">note</span> <span class="o">+</span> <span class="n">octave</span><span class="p">);</span>
+         <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">note</span> <span class="o">+</span> <span class="n">octave</span><span class="p">);</span>
          <span class="nf">delay</span><span class="p">(</span><span class="n">figure</span> <span class="o">*</span> <span class="n">tempo</span><span class="p">);</span>
       <span class="p">}</span>
    <span class="p">}</span>

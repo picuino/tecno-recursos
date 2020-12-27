@@ -12,7 +12,7 @@ final de cada línea y otras opciones semejantes.
 
 |br|
 
-#. Para dar el formato necesario al texto vamos a utilizar
+1. Para dar el formato necesario al texto vamos a utilizar
    el menú ``Formato... Párrafo...``
 
    En la pestaña de **Sangría y espaciado** aparecerá la siguiente

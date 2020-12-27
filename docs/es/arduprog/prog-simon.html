@@ -407,7 +407,7 @@ para jugar a recordar colores y tonos.</p>
 <span class="cm">   SETUP Y BUCLE PRINCIPAL</span>
 <span class="cm"> ***************************************************************************/</span>
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>
+  <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>
   <span class="n">simon</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">INIT</span><span class="p">;</span>
 <span class="p">}</span>
 
@@ -416,18 +416,18 @@ para jugar a recordar colores y tonos.</p>
   <span class="k">switch</span><span class="p">(</span><span class="n">simon</span><span class="p">.</span><span class="n">state</span><span class="p">)</span> <span class="p">{</span>
 
   <span class="k">case</span> <span class="nl">INIT</span><span class="p">:</span>   <span class="c1">// Init System</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
     <span class="n">simon</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">WAIT_RUN</span><span class="p">;</span>
     <span class="k">break</span><span class="p">;</span>
 
   <span class="k">case</span> <span class="nl">WAIT_RUN</span><span class="p">:</span>  <span class="c1">// Wait Run</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyCount</span><span class="p">(</span><span class="kr">KEY_ENTER</span><span class="p">))</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="n">keyCount</span><span class="p">(</span><span class="n">KEY_ENTER</span><span class="p">))</span>
       <span class="n">simon</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">INIT_RUN</span><span class="p">;</span>
     <span class="k">break</span><span class="p">;</span>
 
   <span class="k">case</span> <span class="nl">INIT_RUN</span><span class="p">:</span>  <span class="c1">// Init Run</span>
     <span class="n">simon_init</span><span class="p">();</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
     <span class="nf">randomSeed</span><span class="p">(</span><span class="nf">millis</span><span class="p">());</span>
     <span class="n">simon</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">ADD_SEQUENCE</span><span class="p">;</span>
     <span class="k">break</span><span class="p">;</span>
@@ -439,7 +439,7 @@ para jugar a recordar colores y tonos.</p>
     <span class="k">break</span><span class="p">;</span>
     
   <span class="k">case</span> <span class="nl">PLAY_SEQUENCE</span><span class="p">:</span>  <span class="c1">// Play Sequence</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">dispNum</span><span class="p">(</span><span class="n">simon</span><span class="p">.</span><span class="n">len</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="n">simon</span><span class="p">.</span><span class="n">len</span><span class="p">);</span>
     <span class="nf">delay</span><span class="p">(</span><span class="n">TIME_BETWEEN_SEQUENCES</span><span class="p">);</span>
     <span class="n">simon_play</span><span class="p">();</span>
     <span class="n">simon</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">TEST_SEQUENCE</span><span class="p">;</span>
@@ -466,15 +466,15 @@ para jugar a recordar colores y tonos.</p>
     <span class="k">break</span><span class="p">;</span>
 
   <span class="k">case</span> <span class="nl">WIN_GAME</span><span class="p">:</span>  <span class="c1">// Win Game</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">dispWrite</span><span class="p">(</span><span class="kr">DD_G</span><span class="p">,</span> <span class="kr">DD_A</span><span class="p">,</span> <span class="kr">DD_n</span><span class="p">,</span> <span class="kr">DD_A</span><span class="p">);</span>
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">ledBlink</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">400</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="n">DD_G</span><span class="p">,</span> <span class="n">DD_A</span><span class="p">,</span> <span class="n">DD_n</span><span class="p">,</span> <span class="n">DD_A</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">ledBlink</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">400</span><span class="p">);</span>
     <span class="n">simon</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">WAIT_INIT</span><span class="p">;</span>
     <span class="k">break</span><span class="p">;</span>
     
   <span class="k">case</span> <span class="nl">WAIT_INIT</span><span class="p">:</span>  <span class="c1">// Wait Init</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nf">pc</span><span class="p">.</span><span class="nf">keyCount</span><span class="p">(</span><span class="kr">KEY_ENTER</span><span class="p">))</span> <span class="p">{</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">dispBegin</span><span class="p">();</span>
-      <span class="nf">pc</span><span class="p">.</span><span class="nf">ledBegin</span><span class="p">();</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="n">keyCount</span><span class="p">(</span><span class="n">KEY_ENTER</span><span class="p">))</span> <span class="p">{</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">dispBegin</span><span class="p">();</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledBegin</span><span class="p">();</span>
       <span class="n">simon</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">INIT</span><span class="p">;</span>
     <span class="p">}</span>
     <span class="k">break</span><span class="p">;</span>
@@ -547,7 +547,7 @@ para jugar a recordar colores y tonos.</p>
 <span class="c1">// Devuelve el número de tecla pulsada</span>
 <span class="c1">//</span>
 <span class="kr">char</span> <span class="nf">key_num</span><span class="p">(</span><span class="kr">void</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">char</span> <span class="n">keys</span> <span class="o">=</span> <span class="nf">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+  <span class="kr">char</span> <span class="n">keys</span> <span class="o">=</span> <span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">keys</span> <span class="o">&amp;</span> <span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">0</span><span class="p">))</span> <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">keys</span> <span class="o">&amp;</span> <span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">1</span><span class="p">))</span> <span class="k">return</span> <span class="mi">2</span><span class="p">;</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">keys</span> <span class="o">&amp;</span> <span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">2</span><span class="p">))</span> <span class="k">return</span> <span class="mi">3</span><span class="p">;</span>
@@ -574,11 +574,11 @@ para jugar a recordar colores y tonos.</p>
     <span class="k">case</span> <span class="mi">4</span><span class="o">:</span> <span class="n">numtone</span> <span class="o">=</span> <span class="n">TONE_B</span><span class="p">;</span>  <span class="k">break</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="p">}</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">color</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">numtone</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">color</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">numtone</span><span class="p">);</span>
   <span class="nf">delay</span><span class="p">(</span><span class="n">simon_time_tone</span><span class="p">(</span><span class="n">simon</span><span class="p">.</span><span class="n">len</span><span class="p">));</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="n">color</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">color</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
   <span class="nf">delay</span><span class="p">(</span><span class="n">simon_time_silence</span><span class="p">(</span><span class="n">simon</span><span class="p">.</span><span class="n">len</span><span class="p">));</span>
 <span class="p">}</span>
 
@@ -587,13 +587,13 @@ para jugar a recordar colores y tonos.</p>
 <span class="c1">//</span>
 <span class="kr">void</span> <span class="nf">simon_error</span><span class="p">(</span><span class="kr">void</span><span class="p">)</span> <span class="p">{</span> 
   <span class="k">if</span> <span class="p">(</span><span class="n">simon</span><span class="p">.</span><span class="n">sound</span><span class="p">)</span> 
-    <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="n">TONE_ERR</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
+    <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="n">TONE_ERR</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
   <span class="nf">delay</span><span class="p">(</span><span class="n">TIME_ERROR_TONE</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
-  <span class="nf">pc</span><span class="p">.</span><span class="nf">ledWrite</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">buzzTone</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
+  <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
   <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
 <span class="p">}</span>
 
