@@ -27,5 +27,7 @@ con LibreOffice Writer.
    writer-formato-caracter-1.rst
    writer-formato-caracter-2.rst
    writer-formato-parrafo-1.rst
+   writer-formato-parrafo-2.rst
+   
       
    
