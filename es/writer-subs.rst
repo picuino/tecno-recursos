@@ -107,6 +107,15 @@
 .. |button-vista-impresion| image:: writer/_images/writer-button-vista-impresion.png
                       :align: middle
 
+.. |button-lista-vinietas| image:: writer/_images/writer-button-lista-vinietas.png
+                      :align: middle
+
+.. |button-lista-numerada| image:: writer/_images/writer-button-lista-numerada.png
+                      :align: middle
+
+.. |button-lista-descender| image:: writer/_images/writer-button-lista-descender.png
+                      :align: middle
+
 
 .. ==================
    TECLAS DEL TECLADO
