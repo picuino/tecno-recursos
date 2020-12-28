@@ -30,3 +30,4 @@ con LibreOffice Writer.
    writer-formato-parrafo-2.rst
    writer-formato-parrafo-3.rst
    writer-numeracion-vinietas.rst
+   writer-ortografia.rst
