@@ -1,11 +1,23 @@
 {#- TEMPLATE VAR SETTINGS -#}
 {%- set url_root = pathto('', 1) %}
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
+
+{%- set description = "Recursos educativos libres para Tecnología." %}
+{%- if parents %}
+   {%- if parents|length > 1 %}
+      {%- set description = description + " "|safe + parents[-2].title + " - "|safe + parents[-1].title + " - "|safe + title|striptags %}
+   {%- else -%}
+      {%- set description = description + " "|safe + parents[-1].title + " - "|safe + title|striptags %}
+   {%- endif %}
+{%- else %}
+   {%- set description = description + " " + title|striptags %}
+{%- endif -%}
+
 {%- set titlesuffix = "" %}
 {%- if not embedded and docstitle %}
-  {%- if parents %} {% set titlesuffix = " - "|safe + parents[-1].title %}{%- endif %}
+  {%- if parents %} {%- set titlesuffix = " - "|safe + parents[-1].title %}{%- endif %}
   {%- set titlesuffix = titlesuffix + " - "|safe + docstitle|e %}
-{%- endif %}
+{%- endif -%}
 {%- set lang_attr = 'en' if language == None else (language | replace('_', '-')) -%}
 
 <!DOCTYPE html>
@@ -15,7 +27,7 @@
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   {{ metatags }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Tecno Recursos. Recursos educativos para Tecnología" />
+  <meta name="description" content="{{ description }}" />
 
   {% block htmltitle %}
   <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
@@ -25,14 +37,14 @@
   {%- if favicon %}
     <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1) }}"/>
   {%- endif %}
-  
+
   {# CANONICAL URL #}
   {% if theme_canonical_url %}
     <link rel="canonical" href="{{ theme_canonical_url }}{{ pagename }}.html"/>
   {%- endif %}
 
   {# CSS #}
-  
+
   {# OPENSEARCH #}
   {% if not embedded %}
     {% if use_opensearch %}
@@ -45,7 +57,7 @@
 
   <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
   <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
-  
+
   {%- for css in css_files %}
     {%- if css|attr("rel") %}
   <link rel="{{ css.rel }}" href="{{ pathto(css.filename, 1) }}" type="text/css"{% if css.title is not none %} title="{{ css.title }}"{% endif %} />
@@ -90,7 +102,7 @@
   {% block extrabody %} {%- endblock %}
 
   <div class="wy-grid-for-nav">
-  
+
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
@@ -100,7 +112,7 @@
           <a href="{{ pathto(master_doc) }}">{{ project }}</a>
         {%- endblock %}
       </nav>
-	  
+
 	  <div class="wy-nav-content">
       {%- block content %}
         {% if theme_style_external_links|tobool %}
