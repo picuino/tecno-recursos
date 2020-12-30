@@ -18,8 +18,7 @@ para el departamento de investigación del ejército de Estados Unidos (DARPA).
 
 Se ha hecho famoso por los videos Deep Fakes que han aparecido mostrándole
 como un robot armado y descontrolado. Aquí solo vamos a ver los vídeos de 
-su funcionamiento real, pero no cuesta mucho imaginarse a este robot como un 
-futuro soldado robótico.
+su funcionamiento real, cada vez más avanzado.
 
 Noviembre de 2017.
 
@@ -48,6 +47,17 @@ Septiembre de 2019.
 
    <div class="video-center">
    <iframe src="https://www.youtube.com/embed/_sBBaNYex3E"
+   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+   gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
+
+Diciembre de 2020.
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="https://www.youtube.com/embed/fn3KWM1kuAw"
    frameborder="0" allow="accelerometer; autoplay; encrypted-media;
    gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
