@@ -91,3 +91,9 @@ a detectar y corregir las faltas de ortografía.
    .. image:: writer/_images/writer-p14-imagen06.png
               :align: center
 
+
+Reconocimiento
+--------------
+El texto utilizado en esta práctica se ha copiado del 
+`artículo de Wikipedia sobre Marie Curie
+<https://es.wikipedia.org/wiki/Marie_Curie>`_
