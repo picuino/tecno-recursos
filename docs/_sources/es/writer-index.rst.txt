@@ -31,3 +31,4 @@ con LibreOffice Writer.
    writer-formato-parrafo-3.rst
    writer-numeracion-vinietas.rst
    writer-ortografia.rst
+   writer-imagen-1.rst
