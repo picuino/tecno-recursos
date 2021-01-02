@@ -11,6 +11,39 @@
    =======================
 
 
+.. |button-transparencia-imagen| image:: writer/_images/writer-button-transparencia-imagen.png
+                      :align: middle
+
+.. |button-contraste-imagen| image:: writer/_images/writer-button-contraste-imagen.png
+                      :align: middle
+
+.. |button-rojo-imagen| image:: writer/_images/writer-button-rojo-imagen.png
+                      :align: middle
+
+.. |button-modo-imagen| image:: writer/_images/writer-button-modo-imagen.png
+                      :align: middle
+
+.. |button-color-imagen| image:: writer/_images/writer-button-color-imagen.png
+                      :align: middle
+
+.. |button-filtro-imagen| image:: writer/_images/writer-button-filtro-imagen.png
+                      :align: middle
+
+.. |button-girar-imagen| image:: writer/_images/writer-button-girar-imagen.png
+                      :align: middle
+
+.. |button-recortar-imagen| image:: writer/_images/writer-button-recortar-imagen.png
+                      :align: middle
+
+.. |button-alinear-imagen| image:: writer/_images/writer-button-alinear-imagen.png
+                      :align: middle
+
+.. |button-centrar-imagen| image:: writer/_images/writer-button-centrar-imagen.png
+                      :align: middle
+
+.. |button-reflejar-horizontal| image:: writer/_images/writer-button-reflejar-horizontal.png
+                      :align: middle
+
 .. |button-justificado| image:: writer/_images/writer-button-justificado.png
                       :align: middle
                       

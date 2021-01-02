@@ -104,4 +104,13 @@ imágenes** en Writer.
 .. image:: writer/_images/writer-copiar-pegar-06.png
            :align: center
 
-   
+
+Reconocimiento
+--------------
+El texto utilizado en esta práctica se ha
+copiado del `artículo de Wikipedia sobre Nikola Tesla
+<https://es.wikipedia.org/wiki/Nikola_Tesla>`_
+
+`La imagen utilizada es de Napoleon Sarony
+<https://commons.wikimedia.org/wiki/File:Tesla_Sarony.jpg>`_ 
+con licencia de dominio público, via Wikimedia Commons
