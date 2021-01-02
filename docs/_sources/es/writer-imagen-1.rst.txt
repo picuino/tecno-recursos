@@ -86,6 +86,11 @@ de tamaño y posición.
 
 Reconocimiento
 --------------
-El texto y la imagen utilizados en esta práctica se han
+El texto utilizado en esta práctica se ha
 copiado del `artículo de Wikipedia sobre Steve Jobs
 <https://es.wikipedia.org/wiki/Steve_Jobs>`_
+
+`La imagen utilizada es de Matthew Yohe
+<https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg>`_ 
+con `licencia CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>`_,
+via Wikimedia Commons

@@ -32,3 +32,29 @@ con LibreOffice Writer.
    writer-numeracion-vinietas.rst
    writer-ortografia.rst
    writer-imagen-1.rst
+   writer-imagen-2.rst
+   writer-imagen-3.rst
+
+..   
+   writer-copiar-formato.rst
+   writer-buscar-reemplazar-1.rst
+   writer-buscar-reemplazar-2.rst
+   writer-tablas-1.rst
+   writer-tablas-2.rst
+   writer-tablas-3.rst
+   writer-tablas-4.rst
+   writer-encabezado-pie.rst
+   writer-columnas.rst
+   writer-estilos-1.rst
+   writer-estilos-2.rst
+   writer-indices-1.rst
+   writer-indices-2.rst
+   writer-secciones-1.rst
+   writer-secciones-2.rst
+   writer-portadas.rst
+   writer-formularios.rst
+   writer-enlaces.rst
+   
+   
+
+   
