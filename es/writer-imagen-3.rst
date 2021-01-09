@@ -27,8 +27,8 @@ imagen.
 
    |br|
 
-#. A continuación vamos a escribir un título e insertaremos
-   la imagen de la placa Arduino.
+#. A continuación vamos a escribir el título que aparece en la 
+   imagen inferior e insertamos la imagen de la placa Arduino.
    
    Ahora cambiamos el ancho de la imagen a 40mm manteniendo
    las proporciones y le aplicamos el **filtro de imagen 
@@ -43,7 +43,7 @@ imagen.
    |br|
 
 #. Ahora pasaremos con la tecla Return a la fila inferior
-   y volveremos a escribir un título, a insertar la imagen,
+   y volveremos a escribir el título, a insertar la imagen,
    cambiar su tamaño y aplicarle el **filtro Pop Art**
    con el botón de filtro de imagen |button-filtro-imagen|.
 
@@ -55,7 +55,7 @@ imagen.
    |br|
 
 #. Después pasaremos con la tecla Return a la fila inferior
-   y volveremos a escribir un título, a insertar la imagen,
+   y volveremos a escribir el título, a insertar la imagen,
    cambiar su tamaño y aplicarle el **filtro dibujo al 
    carboncillo**
    con el botón de filtro de imagen |button-filtro-imagen|.
@@ -68,7 +68,7 @@ imagen.
    |br|
 
 #. A continuación pasaremos con la tecla Return a la fila inferior
-   y volveremos a escribir un título, a insertar la imagen,
+   y volveremos a escribir el título, a insertar la imagen,
    cambiar su tamaño y aplicarle **Transparencia al 50%**
    en el cuadro de transparencia |button-transparencia-imagen|.
 
@@ -80,7 +80,7 @@ imagen.
    |br|
 
 #. Para continuar pasaremos con la tecla Return a la fila inferior
-   y volveremos a escribir un título, a insertar la imagen,
+   y volveremos a escribir el título, a insertar la imagen,
    cambiar su tamaño y aplicarle **Contraste al 50%**
    con el botón de color |button-color-imagen|
    en el cuadro de contraste |button-contraste-imagen|.   
@@ -93,7 +93,7 @@ imagen.
    |br|
 
 #. Ahora pasaremos con la tecla Return a la fila inferior
-   y volveremos a escribir un título, a insertar la imagen,
+   y volveremos a escribir el título, a insertar la imagen,
    cambiar su tamaño y aplicarle **Color rojo al 30%**
    con el botón de color |button-color-imagen|
    en el cuadro del color rojo |button-rojo-imagen|.   
@@ -106,7 +106,7 @@ imagen.
    |br|
 
 #. Por último pasaremos con la tecla Return a la fila inferior
-   y volveremos a escribir un título, a insertar la imagen,
+   y volveremos a escribir el título, a insertar la imagen,
    cambiar su tamaño y aplicarle **Modo de imagen Escala de grises**
    con el botón de modo de imagen |button-modo-imagen|.
 

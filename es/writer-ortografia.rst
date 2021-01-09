@@ -94,6 +94,8 @@ a detectar y corregir las faltas de ortografía.
 
 Reconocimiento
 --------------
-El texto utilizado en esta práctica se ha copiado del 
-`artículo de Wikipedia sobre Marie Curie
+El texto utilizado en esta práctica está basado,
+con cambios, en el `artículo de Wikipedia sobre Marie Curie
 <https://es.wikipedia.org/wiki/Marie_Curie>`_
+, bajo `licencia CC-BY-SA 3.0
+<https://creativecommons.org/licenses/by-sa/3.0/>`_
