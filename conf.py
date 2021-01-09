@@ -73,7 +73,7 @@ author = u'Carlos Pardo'
 # built documents.
 #
 # The short X.Y version.
-version = '2020'
+version = time.strftime("%Y")
 # The full version, including alpha/beta/rc tags.
 release = version
 
