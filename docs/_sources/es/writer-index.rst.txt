@@ -34,11 +34,12 @@ con LibreOffice Writer.
    writer-imagen-1.rst
    writer-imagen-2.rst
    writer-imagen-3.rst
-
-..   
-   writer-copiar-formato.rst
+   writer-galeria.rst
    writer-buscar-reemplazar-1.rst
    writer-buscar-reemplazar-2.rst
+   writer-copiar-formato.rst
+
+..   
    writer-tablas-1.rst
    writer-tablas-2.rst
    writer-tablas-3.rst
