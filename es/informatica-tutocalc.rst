@@ -8,7 +8,7 @@ Basado en tecnología Flash.
 
 Autor: José Manuel Blanco Guimarey
 
-Licencia: Creative Commons BY-NC-SA
+Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
 
 `Web origen del programa 
 <https://www.edu.xunta.es/espazoAbalar/espazo/repositorio/cont/titorial-libreoffice-calc>`_
