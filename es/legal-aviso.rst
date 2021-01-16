@@ -7,12 +7,12 @@ Aviso Legal
 
 **1. DATOS IDENTIFICATIVOS**
 
-1.2. El titular del dominio web www.picuino.com así como
+1.1. El titular del dominio web www.picuino.com así como
 de los subdominios asociados (en adelante la Página Web)
 es la Asociación para el Desarrollo de Recursos Educativos
 (en adelante ASOCIACIÓN).
 
-1.3. Correo electrónico de contacto
+1.2. Correo electrónico de contacto
 
 .. raw:: html
 
