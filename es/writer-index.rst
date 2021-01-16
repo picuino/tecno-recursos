@@ -38,6 +38,7 @@ con LibreOffice Writer.
    writer-buscar-reemplazar-1.rst
    writer-buscar-reemplazar-2.rst
    writer-copiar-formato.rst
+   writer-tablas-1.rst
 
 ..   
    writer-tablas-1.rst

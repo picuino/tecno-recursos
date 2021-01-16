@@ -1,7 +1,7 @@
 @echo off
 set PATH=D:\Bin\imagetools;%PATH%
 
-for %%f in (writer-p21*.png) do optipng.exe -o 6 %%f
+for %%f in (writer-p22*.png) do optipng.exe -o 6 %%f
 
 rem for %%f in (writer-button-*.png) do optipng.exe -o 6 %%f
 rem mkdir optimize
