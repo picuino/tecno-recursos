@@ -1,4 +1,5 @@
-﻿
+﻿:orphan:
+
 .. informatica-tutowriter:
 
 Tutorial de Writer
