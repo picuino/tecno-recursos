@@ -13,7 +13,6 @@ Tutoriales de ofimática y páginas Web.
 
    informatica-tutoimpress.rst
    informatica-tutocalc.rst
-   informatica-tutowriter.rst
    writer-index.rst
    informatica-tutogimp.rst
    html-index.rst
