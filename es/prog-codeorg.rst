@@ -30,7 +30,7 @@ Cursos Code
 Listado de cursos largos para aprender a programar. Cada una de las
 etapas tiene un tiempo aproximado de realización de 40 minutos.
 
-**Cursos modernos** (2017)
+**Cursos modernos**
 
 .. list-table::
    :header-rows: 1
@@ -50,9 +50,9 @@ etapas tiene un tiempo aproximado de realización de 40 minutos.
    * - `Curso F <https://studio.code.org/s/coursef-2017>`_
      - De 9 a 13 años
      - 10 etapas con 131 ejercicios y proyecto final.
-   * - `Curso rápido <https://studio.code.org/s/express-2017>`_
-     - De 10 a 18 años
-     - 19 etapas largas con 236 ejercicios y proyecto.
+   * - `Curso rápido <https://studio.code.org/s/express-2019>`_
+     - De 9 a 18 años
+     - 26 etapas largas con 298 ejercicios y proyecto.
 
 
 **Cursos clásicos**
