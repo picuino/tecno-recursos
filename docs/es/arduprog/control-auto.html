@@ -126,23 +126,20 @@ de lazo abierto y de lazo cerrado.</p>
 sencillo, el control de lazo abierto.</p>
 <a class="reference internal image-reference" href="../../_images/img-0052.png"><img alt="Sistema de control en lazo abierto" class="align-center" src="../../_images/img-0052.png" style="width: 480px;" /></a>
 <p>En este esquema se pueden reconocer tres bloques:</p>
-<dl class="simple">
-<dt><strong>Sistema</strong></dt><dd><p>También llamado en ocasiones planta, es aquello que se
+<dl class="docutils">
+<dt><strong>Sistema</strong></dt><dd>También llamado en ocasiones planta, es aquello que se
 desea controlar. En un horno el sistema será la caja del horno en la que
 se desea controlar la temperatura. En el caso de un sevomecanismo, el
-sistema será el motor y la reductora cuya posición se desea controlar.</p>
-</dd>
-<dt><strong>Accionador</strong></dt><dd><p>Es el encargado de convertir la señal de control, que
+sistema será el motor y la reductora cuya posición se desea controlar.</dd>
+<dt><strong>Accionador</strong></dt><dd>Es el encargado de convertir la señal de control, que
 tiene poca potencia, en una acción sobre el sistema, que tiene mayor
 potencia. Volviendo al ejemplo del horno eléctrico, el accionador será
 la resistencia calefactora y el sistema de potencia que la enciende. En
 el caso de un servomecanismo, el accionador será el conjunto de
-transistores y el motor que mueven el mecanismo.</p>
-</dd>
-<dt><strong>Controlador</strong></dt><dd><p>está encargado de recibir una señal de consigna o señal
+transistores y el motor que mueven el mecanismo.</dd>
+<dt><strong>Controlador</strong></dt><dd>está encargado de recibir una señal de consigna o señal
 de referencia y convertirla en una señal que consiga que el sistema alcance
-la referencia deseada.</p>
-</dd>
+la referencia deseada.</dd>
 </dl>
 <p>En ocasiones el controlador, el accionador y el sistema no tienen límites
 bien definidos o no existen en algún sistema. En cualquier caso es interesante
@@ -216,46 +213,46 @@ llevar al sistema al estado deseado.</p>
 deseado, independientemente de las condiciones ambientales.</p>
 <p>Las señales del sistema de control son las siguientes:</p>
 <blockquote>
-<div><table class="docutils align-default">
+<div><table border="1" class="docutils align-default">
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 26%" />
-<col style="width: 62%" />
+<col width="12%" />
+<col width="26%" />
+<col width="62%" />
 </colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Señal</p></th>
-<th class="head"><p>Nombre</p></th>
-<th class="head"><p>Función</p></th>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Señal</th>
+<th class="head">Nombre</th>
+<th class="head">Función</th>
 </tr>
 </thead>
-<tbody>
-<tr class="row-even"><td><p><strong>r(t)</strong></p></td>
-<td><p><strong>Referencia</strong></p></td>
-<td><p>Es el estado que se desea alcanzar en
-el sistema.</p></td>
+<tbody valign="top">
+<tr class="row-even"><td><strong>r(t)</strong></td>
+<td><strong>Referencia</strong></td>
+<td>Es el estado que se desea alcanzar en
+el sistema.</td>
 </tr>
-<tr class="row-odd"><td><p><strong>e(t)</strong></p></td>
-<td><p><strong>Error</strong></p></td>
-<td><p>Es la diferencia entre el estado deseado y
-el estado real del sistema a controlar.</p></td>
+<tr class="row-odd"><td><strong>e(t)</strong></td>
+<td><strong>Error</strong></td>
+<td>Es la diferencia entre el estado deseado y
+el estado real del sistema a controlar.</td>
 </tr>
-<tr class="row-even"><td><p><strong>c(t)</strong></p></td>
-<td><p><strong>Control</strong></p></td>
-<td><p>Es la señal que genera el controlador.</p></td>
+<tr class="row-even"><td><strong>c(t)</strong></td>
+<td><strong>Control</strong></td>
+<td>Es la señal que genera el controlador.</td>
 </tr>
-<tr class="row-odd"><td><p><strong>u(t)</strong></p></td>
-<td><p><strong>Accionamiento</strong></p></td>
-<td><p>Es la acción que se ejerce sobre el
-sistema para controlarle.</p></td>
+<tr class="row-odd"><td><strong>u(t)</strong></td>
+<td><strong>Accionamiento</strong></td>
+<td>Es la acción que se ejerce sobre el
+sistema para controlarle.</td>
 </tr>
-<tr class="row-even"><td><p><strong>y(t)</strong></p></td>
-<td><p><strong>Salida</strong></p></td>
-<td><p>Es el estado real que ha alcanzado el
-sistema a controlar.</p></td>
+<tr class="row-even"><td><strong>y(t)</strong></td>
+<td><strong>Salida</strong></td>
+<td>Es el estado real que ha alcanzado el
+sistema a controlar.</td>
 </tr>
-<tr class="row-odd"><td><p><strong>h(t)</strong></p></td>
-<td><p><strong>Realimentación</strong></p></td>
-<td><p>Es la medida del estado del sistema.</p></td>
+<tr class="row-odd"><td><strong>h(t)</strong></td>
+<td><strong>Realimentación</strong></td>
+<td>Es la medida del estado del sistema.</td>
 </tr>
 </tbody>
 </table>
@@ -274,8 +271,8 @@ medir el estado del sistema y controlarle con precisión.</p>
 </div>
 <div class="section" id="referencias">
 <h2>Referencias<a class="headerlink" href="#referencias" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Wikipedia: <a class="reference external" href="https://es.wikipedia.org/wiki/Sistema_de_control">Sistema de control</a></p>
-<p>Wikipedia: <a class="reference external" href="https://es.wikipedia.org/wiki/Servomotor">Servomotor</a></p>
+<p>Wikipedia: <a class="reference external" href="https://es.wikipedia.org/wiki/Sistema_de_control" rel="noopener noreferrer" target="_blank">Sistema de control</a></p>
+<p>Wikipedia: <a class="reference external" href="https://es.wikipedia.org/wiki/Servomotor" rel="noopener noreferrer" target="_blank">Servomotor</a></p>
 <p>[1] Ogata, Katsuhiko. Ingeniería de Control Moderna. Tercera edición.
 Editorial Prentice Hall.</p>
 <p>[2] Ogata, Katsuhiko. Sistemas de control en tiempo discreto.

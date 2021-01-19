@@ -115,13 +115,13 @@ controlado por un microcontrolador:</p>
 <p>Las funciones del microcontrolador están encerradas en el cuadrado
 con lineas de puntos.</p>
 <p>Los bloques que sirven de conexión entre el microcontrolador y el
-sistema son un <a class="reference external" href="https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_digital_a_anal%C3%B3gica">DAC (conversor digital a analógico)</a>
-y un <a class="reference external" href="https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_anal%C3%B3gica_a_digital">ADC (conversor de analógico a digital)</a>.
+sistema son un <a class="reference external" href="https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_digital_a_anal%C3%B3gica" rel="noopener noreferrer" target="_blank">DAC (conversor digital a analógico)</a>
+y un <a class="reference external" href="https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_anal%C3%B3gica_a_digital" rel="noopener noreferrer" target="_blank">ADC (conversor de analógico a digital)</a>.
 Estos dos bloques permiten traducir las señales analógicas del
 sistema controlado a números digitales utilizados por el
 microcontrolador y viceversa.</p>
 <p>En ocasiones los conversores ADC y DAC se pueden implementar con
-un <a class="reference external" href="https://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos">regulador PWM</a>.</p>
+un <a class="reference external" href="https://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos" rel="noopener noreferrer" target="_blank">regulador PWM</a>.</p>
 <div class="section" id="periodo-de-muestreo">
 <h2>Período de muestreo<a class="headerlink" href="#periodo-de-muestreo" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Mientras que los sistemas analógicos son continuos, los sistemas
@@ -204,8 +204,7 @@ analógico-digital de 10bits (1024 niveles)
 con una referencia de tensión de 5 voltios.
 La sensibilidad del conversor analógico-digital será:</p>
 <blockquote>
-<div><p>1024 puntos * (0.1 v/s / 5v) = 20 puntos/segundo.</p>
-</div></blockquote>
+<div>1024 puntos * (0.1 v/s / 5v) = 20 puntos/segundo.</div></blockquote>
 <p>Si el período de muestreo es de un segundo, la variación de
 la medida será suficientemente grande como para evaluar el
 término derivativo.
@@ -360,8 +359,7 @@ más próximo dado que el valor digital tiene un numero finito
 de valores. Este error se puede calcular a partir del número
 de bits del conversor analógico-digital y su rango de medida.</p>
 <blockquote>
-<div><p><strong>Ruido de cuantificación = rango_tensión / 2^(bits_adc)</strong></p>
-</div></blockquote>
+<div><strong>Ruido de cuantificación = rango_tensión / 2^(bits_adc)</strong></div></blockquote>
 <p>En la siguiente imagen puede verse la representación del ruido
 de cuantificación:</p>
 <a class="reference internal image-reference" href="../../_images/img-0076.png"><img alt="Ruido de cuantificación de un conversor ADC (analógico a digital)" class="align-center" src="../../_images/img-0076.png" style="width: 480px;" /></a>

@@ -109,8 +109,8 @@
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li><p>Escribir un número en el display de 7 segmentos.</p></li>
-<li><p>Escribir caracteres alfanuméricos en el display de 7 segmentos.</p></li>
+<li>Escribir un número en el display de 7 segmentos.</li>
+<li>Escribir caracteres alfanuméricos en el display de 7 segmentos.</li>
 </ul>
 </div>
 <div class="section" id="id1">
@@ -137,7 +137,7 @@ nomenclatura de sus elementos.</p>
 <h2>La función <code class="docutils literal notranslate"><span class="pre">dispWrite</span></code><a class="headerlink" href="#la-funcion-dispwrite" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="cpp function">
 <dt id="_CPPv49dispWritev">
-<span id="_CPPv39dispWritev"></span><span id="_CPPv29dispWritev"></span><span id="dispWrite"></span><code class="sig-name descname">dispWrite</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49dispWritev" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv39dispWritev"></span><span id="_CPPv29dispWritev"></span><span id="dispWrite"></span><code class="descname">dispWrite</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49dispWritev" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Esta función permite escribir números y caracteres en el
 visualizador de siete segmentos y 4 cifras.
 Dependiendo del número de argumentos y de su tipo, se comportará
@@ -146,7 +146,7 @@ de una forma distinta.</p>
 
 <dl class="cpp function">
 <dt id="_CPPv49dispWritei">
-<span id="_CPPv39dispWritei"></span><span id="_CPPv29dispWritei"></span><span id="dispWrite__i"></span><code class="sig-name descname">dispWrite</code><span class="sig-paren">(</span>int <em>number</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49dispWritei" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv39dispWritei"></span><span id="_CPPv29dispWritei"></span><span id="dispWrite__i"></span><code class="descname">dispWrite</code><span class="sig-paren">(</span>int <em>number</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49dispWritei" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Cuando el argumento de la función <code class="docutils literal notranslate"><span class="pre">dispWrite</span></code> es un número
 natural (0, 1, 2, ...) este número se visualizará
 con cuatro dígitos en el display. Si el número tiene menos de
@@ -249,13 +249,13 @@ predefinidos en la librería.
 A continuación se muestra una lista con los valores predefinidos
 de forma estándar.</p>
 <ul class="simple">
-<li><p><strong>Números:</strong> SS_0, SS_1, SS_2, SS_3, SS_4, SS_5, SS_6, SS_7,
-SS_8, SS_9</p></li>
-<li><p><strong>Letras:</strong> SS_A, SS_b, SS_B, SS_C, SS_d, SS_E, SS_F, SS_G,
+<li><strong>Números:</strong> SS_0, SS_1, SS_2, SS_3, SS_4, SS_5, SS_6, SS_7,
+SS_8, SS_9</li>
+<li><strong>Letras:</strong> SS_A, SS_b, SS_B, SS_C, SS_d, SS_E, SS_F, SS_G,
 SS_g, SS_H, SS_h, SS_I, SS_i, SS_J, SS_K, SS_L, SS_n, SS_ny,
 SS_o, SS_O, SS_P, SS_q, SS_r, SS_S, SS_t, SS_u, SS_U, SS_y,
-SS_Y, SS_Z</p></li>
-<li><p><strong>Espacio blanco:</strong> SS_SP</p></li>
+SS_Y, SS_Z</li>
+<li><strong>Espacio blanco:</strong> SS_SP</li>
 </ul>
 <p>También se pueden crear símbolos a medida.</p>
 <p>El siguiente programa hace rotar una barra a través de los cuatro
@@ -369,12 +369,11 @@ segmentos exteriores de un dígito.</p>
 </td></tr></table></div>
 <p>dispWrite(int digit, int  digit, int  digit, int  digit)</p>
 <blockquote>
-<div><p>Cuando la función <code class="docutils literal notranslate"><span class="pre">dispWrite</span></code> tiene cuatro argumentos, cada uno
+<div>Cuando la función <code class="docutils literal notranslate"><span class="pre">dispWrite</span></code> tiene cuatro argumentos, cada uno
 es interpretado como el valor de cada dígito del visualizador de
 siete segmentos.
 Esta forma es más cómoda para visualizar una palabra.
-El siguiente ejemplo hace aparecer en el display la palabra 'HOLA'.</p>
-</div></blockquote>
+El siguiente ejemplo hace aparecer en el display la palabra 'HOLA'.</div></blockquote>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -413,7 +412,7 @@ El siguiente ejemplo hace aparecer en el display la palabra 'HOLA'.</p>
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Programa el código necesario para resolver los siguientes problemas.</p>
 <ol class="arabic">
-<li><p>Completar el siguiente programa para que cuente hacia atrás desde
+<li><p class="first">Completar el siguiente programa para que cuente hacia atrás desde
 10 hasta 0 cambiando de valor una vez cada segundo.
 Una vez terminada la cuenta atrás, debe encenderse el led rojo.</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
@@ -458,7 +457,7 @@ Una vez terminada la cuenta atrás, debe encenderse el led rojo.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Completar el siguiente programa para que funcione como un dado
+<li><p class="first">Completar el siguiente programa para que funcione como un dado
 electrónico.
 Al presionar el pulsador 1, se debe mostrar en el display un número
 desde el 1 hasta el 6.</p>
@@ -498,19 +497,24 @@ desde el 1 hasta el 6.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Mostrar en el cuarto dígito una animación que consiste en iluminar
+<li><p class="first">Mostrar en el cuarto dígito una animación que consiste en iluminar
 todos los segmentos uno a uno desde el segmento 'a' hasta el
 segmento 'f'. Cuando todos los segmentos estén iluminados,
 se deben apagar todos otra vez y la secuencia comenzará de nuevo.
 El tiempo de espera entre el encendido de un segmento y el
-siguiente será de medio segundo.</p></li>
-<li><p>Diseña dos símbolos nuevos y realiza un programa que los muestre
-en el display en las posiciones 2 y 4.</p></li>
-<li><p>Dibuja en el display unas pesas.</p></li>
-<li><p>Muestra en el display las palabras 'HOLA' y un nombre propio corto.
-Las dos palabras deben alternarse cada medio segundo.</p></li>
-<li><p>Realiza una animación original en el display, mostrando símbolos o
-movimientos de luz.</p></li>
+siguiente será de medio segundo.</p>
+</li>
+<li><p class="first">Diseña dos símbolos nuevos y realiza un programa que los muestre
+en el display en las posiciones 2 y 4.</p>
+</li>
+<li><p class="first">Dibuja en el display unas pesas.</p>
+</li>
+<li><p class="first">Muestra en el display las palabras 'HOLA' y un nombre propio corto.
+Las dos palabras deben alternarse cada medio segundo.</p>
+</li>
+<li><p class="first">Realiza una animación original en el display, mostrando símbolos o
+movimientos de luz.</p>
+</li>
 </ol>
 </div>
 </div>

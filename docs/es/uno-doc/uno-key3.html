@@ -109,15 +109,15 @@
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li><p>Leer los contadores de tiempo y pulsaciones asociados a un pulsador.</p></li>
-<li><p>Realizar acciones asociadas a los contadores de tiempo.</p></li>
+<li>Leer los contadores de tiempo y pulsaciones asociados a un pulsador.</li>
+<li>Realizar acciones asociadas a los contadores de tiempo.</li>
 </ul>
 </div>
 <div class="section" id="la-funcion-keycount">
 <h2>La función <code class="docutils literal notranslate"><span class="pre">keyCount</span></code><a class="headerlink" href="#la-funcion-keycount" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="py function">
 <dt>
-<code class="sig-name descname">int keyCount(int keyNum)</code></dt>
+<code class="descname">int keyCount(int keyNum)</code></dt>
 <dd><p>Esta función devuelve el número de veces que se ha presionado un pulsador.
 El valor se incrementa en uno inmediatamente después de presionar el pulsador.
 Si se mantiene el pulsador pulsado medio segundo, el valor se incrementa a razón
@@ -133,7 +133,7 @@ del que se solicita su valor.</p>
 <h2>La función <code class="docutils literal notranslate"><span class="pre">keyTimeOn</span></code><a class="headerlink" href="#la-funcion-keytimeon" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="py function">
 <dt>
-<code class="sig-name descname">int keyTimeOn(int keyNum)</code></dt>
+<code class="descname">int keyTimeOn(int keyNum)</code></dt>
 <dd><p>Esta función devuelve el tiempo que ha estado presionado el pulsador.
 El tiempo se mide contando 250 pasos por segundo.</p>
 <p><code class="docutils literal notranslate"><span class="pre">keyNum</span></code>: número del 1 al 6 que representa al pulsador
@@ -145,7 +145,7 @@ del que se solicita su valor.</p>
 <h2>La función <code class="docutils literal notranslate"><span class="pre">keyTimeOff</span></code><a class="headerlink" href="#la-funcion-keytimeoff" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="py function">
 <dt>
-<code class="sig-name descname">int keyTimeOff(int keyNum)</code></dt>
+<code class="descname">int keyTimeOff(int keyNum)</code></dt>
 <dd><p>Esta función devuelve el tiempo que ha estado sin presionar el pulsador.
 El tiempo se mide contando 250 pasos por segundo.</p>
 <p><code class="docutils literal notranslate"><span class="pre">keyNum</span></code>: número del 1 al 6 que representa al pulsador
@@ -157,7 +157,7 @@ del que se solicita su valor.</p>
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Programa el código necesario para resolver los siguientes problemas.</p>
 <ol class="arabic">
-<li><p>El siguiente programa mueve hacia la derecha un led cuando se
+<li><p class="first">El siguiente programa mueve hacia la derecha un led cuando se
 presiona el pulsador 2.
 Modificar el programa para que el led se mueva hacia la izquierda
 al pulsar el pulsador 1.</p>
@@ -235,7 +235,7 @@ al pulsar el pulsador 1.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>El siguiente programa es un juego para comprobar la habilidad de
+<li><p class="first">El siguiente programa es un juego para comprobar la habilidad de
 contar tiempo.
 Se debe esperar a que el pulsador 1 no esté presionado.
 En ese momento se medirá el tiempo que ha estado presionado.
@@ -307,7 +307,7 @@ no dar pistas sobre el tiempo que debe estar encendido.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Modificar el programa que aparece a continuación, parecido al
+<li><p class="first">Modificar el programa que aparece a continuación, parecido al
 anterior.
 En este juego la puntuación será más alta si se presiona un
 pulsador el mismo tiempo dos veces consecutivas.

@@ -110,9 +110,9 @@
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li><p>Comprender el funcionamiento del sensor de distancia por
-ultrasonidos.</p></li>
-<li><p>Medir distancias con un sensor de distancia por ultrasonidos.</p></li>
+<li>Comprender el funcionamiento del sensor de distancia por
+ultrasonidos.</li>
+<li>Medir distancias con un sensor de distancia por ultrasonidos.</li>
 </ul>
 </div>
 <div class="section" id="el-sensor-de-ultrasonidos">
@@ -138,12 +138,12 @@ cuenta que estos tienen mayor capacidad o características añadidas.</p>
 <p>Este sensor de ultrasonidos tiene las siguientes características:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>Distancia de detección: 2cm - 400cm</p></li>
-<li><p>Resolución: 0.3cm</p></li>
-<li><p>Frecuencia de sonido: 40kHz</p></li>
-<li><p>Ángulo eficaz: 15º</p></li>
-<li><p>Tensión de alimentación: 5V</p></li>
-<li><p>Consumo de corriente: 15mA</p></li>
+<li>Distancia de detección: 2cm - 400cm</li>
+<li>Resolución: 0.3cm</li>
+<li>Frecuencia de sonido: 40kHz</li>
+<li>Ángulo eficaz: 15º</li>
+<li>Tensión de alimentación: 5V</li>
+<li>Consumo de corriente: 15mA</li>
 </ul>
 </div></blockquote>
 </div>
@@ -152,18 +152,18 @@ cuenta que estos tienen mayor capacidad o características añadidas.</p>
 <p>Para manejar los sensores de ultrasonidos existen varias librerías de
 trabajo.
 La librería estándar más precisa que se puede utilizar es
-<a class="reference external" href="https://playground.arduino.cc/Code/NewPing">NewPing</a>
+<a class="reference external" href="https://playground.arduino.cc/Code/NewPing" rel="noopener noreferrer" target="_blank">NewPing</a>
 Para instalar la librería hay que seguir los siguientes pasos:</p>
 <ol class="arabic simple">
-<li><p>Descargar la librería desde la siguiente página web:
-<a class="reference external" href="https://code.google.com/p/arduino-new-ping/downloads/detail?name=NewPing_v1.5.zip">librería NewPing</a></p></li>
-<li><p>Guardar el fichero NewPing_v1.5.zip en el ordenador</p></li>
-<li><p>Abrir el entorno gráfico de Arduino</p></li>
-<li><p>En la pestaña Sketch.. Importar librería.. pinchar 'Add Library...'</p></li>
-<li><p>Buscar el fichero descargado y después de seleccionarle,
-pulsar 'Abrir'</p></li>
-<li><p>Comprobar que en la pestaña Sketch.. Importar librería..
-aparece una nueva librería llamada NewPing</p></li>
+<li>Descargar la librería desde la siguiente página web:
+<a class="reference external" href="https://code.google.com/p/arduino-new-ping/downloads/detail?name=NewPing_v1.5.zip" rel="noopener noreferrer" target="_blank">librería NewPing</a></li>
+<li>Guardar el fichero NewPing_v1.5.zip en el ordenador</li>
+<li>Abrir el entorno gráfico de Arduino</li>
+<li>En la pestaña Sketch.. Importar librería.. pinchar 'Add Library...'</li>
+<li>Buscar el fichero descargado y después de seleccionarle,
+pulsar 'Abrir'</li>
+<li>Comprobar que en la pestaña Sketch.. Importar librería..
+aparece una nueva librería llamada NewPing</li>
 </ol>
 <p>Con estos pasos la librería estará correctamente instalada.</p>
 </div>
@@ -172,13 +172,13 @@ aparece una nueva librería llamada NewPing</p></li>
 <p>Para medir distancias con el sensor SR04 se van a seguir los
 siguientes pasos.</p>
 <ol class="arabic simple">
-<li><p>Conectar el sensor SR04 a la placa Arduino según el siguiente
-esquema:</p></li>
+<li>Conectar el sensor SR04 a la placa Arduino según el siguiente
+esquema:</li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/img-0009.png"><img alt="Conexión Arduino-SR04" class="align-center" src="../../_images/img-0009.png" style="width: 600px;" /></a>
 <ol class="arabic simple" start="2">
-<li><p>Copiar el siguiente programa, compilarlo y descargarlo en la placa
-Arduino.</p></li>
+<li>Copiar el siguiente programa, compilarlo y descargarlo en la placa
+Arduino.</li>
 </ol>
 <div class="highlight-Arduino notranslate" id="ultrasonic-prog1"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
@@ -246,12 +246,12 @@ Arduino.</p></li>
 </pre></div>
 </td></tr></table></div>
 <ol class="arabic simple" start="3">
-<li><p>Abrir el monitor serie (Monitor Serial) pulsando el icono que
-aparece arriba a la derecha en el entorno gráfico de Arduino.</p></li>
+<li>Abrir el monitor serie (Monitor Serial) pulsando el icono que
+aparece arriba a la derecha en el entorno gráfico de Arduino.</li>
 </ol>
 <img alt="Botón del monitor serie" class="align-center" src="../../_images/img-0010.png" />
 <ol class="arabic" start="4">
-<li><p>En la nueva ventana que aparece, escoger la velocidad de
+<li><p class="first">En la nueva ventana que aparece, escoger la velocidad de
 transmisión en el recuadro que aparece abajo a la derecha.
 En este caso, la velocidad programada es de 115200 baudios.</p>
 <p>El cuadro debe mostrar continuamente la información de tiempo y
@@ -280,36 +280,35 @@ La primera medición puede corregir lo que se denomina ajuste de cero.
 En el caso de la segunda medida, sirve para realizar el ajuste de
 rampa. Las medidas se deben introducir en una tabla como la siguiente:</p>
 <blockquote>
-<div><table class="docutils align-default">
+<div><table border="1" class="docutils align-default">
 <colgroup>
-<col style="width: 34%" />
-<col style="width: 32%" />
-<col style="width: 34%" />
+<col width="34%" />
+<col width="32%" />
+<col width="34%" />
 </colgroup>
-<thead>
-<tr class="row-odd"><th class="head"></th>
-<th class="head"><p>Medida 1</p></th>
-<th class="head"><p>Medida 2</p></th>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head">Medida 1</th>
+<th class="head">Medida 2</th>
 </tr>
 </thead>
-<tbody>
-<tr class="row-even"><td><p>Tiempo</p></td>
-<td><p>247us</p></td>
-<td><p>1123 us</p></td>
+<tbody valign="top">
+<tr class="row-even"><td>Tiempo</td>
+<td>247us</td>
+<td>1123 us</td>
 </tr>
-<tr class="row-odd"><td><p>Distancia</p></td>
-<td><p>50mm</p></td>
-<td><p>200mm</p></td>
+<tr class="row-odd"><td>Distancia</td>
+<td>50mm</td>
+<td>200mm</td>
 </tr>
 </tbody>
 </table>
 </div></blockquote>
 <p>A partir de esta tabla, se puede realizar un mejor ajuste de la
 medida con la orden
-<a class="reference external" href="http://arduino.cc/en/pmwiki.php?n=Reference/Map">map()</a> de Arduino:</p>
+<a class="reference external" href="http://arduino.cc/en/pmwiki.php?n=Reference/Map" rel="noopener noreferrer" target="_blank">map()</a> de Arduino:</p>
 <blockquote>
-<div><p>distance = map(microseconds, 247, 1123, 50, 200);</p>
-</div></blockquote>
+<div>distance = map(microseconds, 247, 1123, 50, 200);</div></blockquote>
 <p>El primer argumento es la medición de tiempo realizada por el sensor.
 Los dos siguientes argumentos son los tiempos de rebote al objeto
 cercano y lejano.
@@ -397,11 +396,12 @@ y lejano.</p>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic">
-<li><p>Realizar las mediciones para ajuste de dos puntos con un sensor
+<li><p class="first">Realizar las mediciones para ajuste de dos puntos con un sensor
 concreto.
 Modificar el <a class="reference internal" href="../uno-doc/ultrasonic.html#ultrasonic-prog2"><span class="std std-ref">programa anterior</span></a> para
-conseguir que el sensor devuelva medidas exactas.</p></li>
-<li><p>Mostrar la distancia medida en el display de 7 segmentos con el
+conseguir que el sensor devuelva medidas exactas.</p>
+</li>
+<li><p class="first">Mostrar la distancia medida en el display de 7 segmentos con el
 siguiente programa.</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
@@ -467,7 +467,7 @@ siguiente programa.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Encender una barra de leds que represente la distancia de un objeto
+<li><p class="first">Encender una barra de leds que represente la distancia de un objeto
 al sensor de ultrasonidos.
 Completar el programa para que la barra ocupe 6 leds.</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1

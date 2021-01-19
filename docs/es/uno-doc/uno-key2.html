@@ -109,8 +109,8 @@
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li><p>Leer los eventos asociados a un pulsador.</p></li>
-<li><p>Responder a los eventos de los pulsadores.</p></li>
+<li>Leer los eventos asociados a un pulsador.</li>
+<li>Responder a los eventos de los pulsadores.</li>
 </ul>
 </div>
 <div class="section" id="eventos-relacionados-con-los-pulsadores">
@@ -135,32 +135,32 @@ diferencia entre estado y evento.</p>
 <h2>La función <code class="docutils literal notranslate"><span class="pre">keyEvents</span></code><a class="headerlink" href="#la-funcion-keyevents" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="cpp function">
 <dt id="_CPPv49keyEventsi">
-<span id="_CPPv39keyEventsi"></span><span id="_CPPv29keyEventsi"></span><span id="keyEvents__i"></span>int <code class="sig-name descname">keyEvents</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49keyEventsi" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv39keyEventsi"></span><span id="_CPPv29keyEventsi"></span><span id="keyEvents__i"></span>int <code class="descname">keyEvents</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49keyEventsi" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Esta función devuelve el valor de los eventos que se producen en
 un pulsador. Los eventos que puede devolver la función son los
 siguientes:</p>
-<table class="docutils align-default">
+<table border="1" class="docutils align-default">
 <colgroup>
-<col style="width: 31%" />
-<col style="width: 69%" />
+<col width="31%" />
+<col width="69%" />
 </colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Evento</p></th>
-<th class="head"><p>Significado</p></th>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Evento</th>
+<th class="head">Significado</th>
 </tr>
 </thead>
-<tbody>
-<tr class="row-even"><td><p>KEY_PRESSED_TIME1</p></td>
-<td><p>El pulsador se ha presionado durante 0.02 segundos</p></td>
+<tbody valign="top">
+<tr class="row-even"><td>KEY_PRESSED_TIME1</td>
+<td>El pulsador se ha presionado durante 0.02 segundos</td>
 </tr>
-<tr class="row-odd"><td><p>KEY_PRESSED_TIME2</p></td>
-<td><p>El pulsador se ha presionado durante 0.5 segundos</p></td>
+<tr class="row-odd"><td>KEY_PRESSED_TIME2</td>
+<td>El pulsador se ha presionado durante 0.5 segundos</td>
 </tr>
-<tr class="row-even"><td><p>KEY_PRESSED_TIME3</p></td>
-<td><p>El pulsador se ha presionado durante 2.0 segundos</p></td>
+<tr class="row-even"><td>KEY_PRESSED_TIME3</td>
+<td>El pulsador se ha presionado durante 2.0 segundos</td>
 </tr>
-<tr class="row-odd"><td><p>KEY_RELEASED</p></td>
-<td><p>El pulsador se ha dejado de presionar</p></td>
+<tr class="row-odd"><td>KEY_RELEASED</td>
+<td>El pulsador se ha dejado de presionar</td>
 </tr>
 </tbody>
 </table>
@@ -304,7 +304,7 @@ funciones por sí solo.</p>
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Programa el código necesario para resolver los siguientes problemas.</p>
 <ol class="arabic">
-<li><p>El siguiente programa enciende el led D1 al presionar el pulsador
+<li><p class="first">El siguiente programa enciende el led D1 al presionar el pulsador
 D1 y apaga el led D1 al volver a presionar el pulsador 1.
 Se utiliza una variable para almacenar el estado del led D1.
 Se pide modificar el programa para que también el led D2 se
@@ -351,7 +351,7 @@ encienda y apague con el pulsador 2.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>El siguiente programa mueve hacia la derecha un led cuando se
+<li><p class="first">El siguiente programa mueve hacia la derecha un led cuando se
 presiona el pulsador 2.
 Modificar el programa para que el led se mueva hacia la izquierda
 al pulsar el pulsador 1.</p>
@@ -403,8 +403,9 @@ al pulsar el pulsador 1.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Modificar el programa anterior para que se encienda el led D1
-al presionar el pulsador 6 <code class="docutils literal notranslate"><span class="pre">KEY_BACK</span></code> durante dos segundos.</p></li>
+<li><p class="first">Modificar el programa anterior para que se encienda el led D1
+al presionar el pulsador 6 <code class="docutils literal notranslate"><span class="pre">KEY_BACK</span></code> durante dos segundos.</p>
+</li>
 </ol>
 </div>
 </div>

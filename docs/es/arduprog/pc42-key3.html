@@ -110,15 +110,15 @@
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li><p>Leer los contadores de tiempo y pulsaciones asociados a un pulsador.</p></li>
-<li><p>Realizar acciones asociadas a los contadores de tiempo.</p></li>
+<li>Leer los contadores de tiempo y pulsaciones asociados a un pulsador.</li>
+<li>Realizar acciones asociadas a los contadores de tiempo.</li>
 </ul>
 </div>
 <div class="section" id="la-funcion-keycount">
 <h2>La función <a class="reference internal" href="#_CPPv48keyCounti" title="keyCount"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">keyCount()</span></code></a><a class="headerlink" href="#la-funcion-keycount" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="cpp function">
 <dt id="_CPPv48keyCounti">
-<span id="_CPPv38keyCounti"></span><span id="_CPPv28keyCounti"></span><span id="keyCount__i"></span>int <code class="sig-name descname">keyCount</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48keyCounti" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv38keyCounti"></span><span id="_CPPv28keyCounti"></span><span id="keyCount__i"></span>int <code class="descname">keyCount</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48keyCounti" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Esta función devuelve el número de veces que se ha presionado un
 pulsador.
 El valor se incrementa en uno inmediatamente después de presionar
@@ -140,7 +140,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
 <h2>La función <a class="reference internal" href="#_CPPv49keyTimeOni" title="keyTimeOn"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">keyTimeOn()</span></code></a><a class="headerlink" href="#la-funcion-keytimeon" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="cpp function">
 <dt id="_CPPv49keyTimeOni">
-<span id="_CPPv39keyTimeOni"></span><span id="_CPPv29keyTimeOni"></span><span id="keyTimeOn__i"></span>int <code class="sig-name descname">keyTimeOn</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49keyTimeOni" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv39keyTimeOni"></span><span id="_CPPv29keyTimeOni"></span><span id="keyTimeOn__i"></span>int <code class="descname">keyTimeOn</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49keyTimeOni" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Esta función devuelve el tiempo en milisegundos que ha estado
 presionado el pulsador.
 El máximo tiempo que puede contar es de 65 segundos.
@@ -155,7 +155,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
 <h2>La función <a class="reference internal" href="#_CPPv410keyTimeOffi" title="keyTimeOff"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">keyTimeOff()</span></code></a><a class="headerlink" href="#la-funcion-keytimeoff" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="cpp function">
 <dt id="_CPPv410keyTimeOffi">
-<span id="_CPPv310keyTimeOffi"></span><span id="_CPPv210keyTimeOffi"></span><span id="keyTimeOff__i"></span>int <code class="sig-name descname">keyTimeOff</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410keyTimeOffi" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv310keyTimeOffi"></span><span id="_CPPv210keyTimeOffi"></span><span id="keyTimeOff__i"></span>int <code class="descname">keyTimeOff</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410keyTimeOffi" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
 <dd><p>Esta función devuelve el tiempo en milisegundos que ha estado sin
 presionar el pulsador.
 El máximo tiempo que puede contar es de 65 segundos.
@@ -170,7 +170,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Programa el código necesario para resolver los siguientes problemas.</p>
 <ol class="arabic">
-<li><p>El siguiente programa mueve hacia la derecha un led cuando se
+<li><p class="first">El siguiente programa mueve hacia la derecha un led cuando se
 presiona el pulsador 2. Modificar el programa para que el led se
 mueva también hacia la izquierda al presionar el pulsador 1.</p>
 <div class="highlight-Arduino notranslate" id="button-keycount-right"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
@@ -251,7 +251,7 @@ mueva también hacia la izquierda al presionar el pulsador 1.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>El siguiente programa es un juego para comprobar la habilidad de
+<li><p class="first">El siguiente programa es un juego para comprobar la habilidad de
 contar tiempo.
 Se debe presionar el pulsador 1 exactamente durante tres segundos.
 En el display se muestra el error de tiempo en milisegundos.
@@ -332,7 +332,7 @@ dar pistas sobre el tiempo que debe estar presionado el pulsador.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Modificar el programa que aparece a continuación, parecido al
+<li><p class="first">Modificar el programa que aparece a continuación, parecido al
 anterior. En este juego la puntuación será más alta si se presiona
 un pulsador el mismo tiempo dos veces consecutivas.
 Primero el programa debe medir el tiempo que ha estado presionado

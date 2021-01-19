@@ -114,13 +114,13 @@ conexión a un pin analógico para realizar las lecturas.</p>
 <h2>Especificaciones técnicas<a class="headerlink" href="#especificaciones-tecnicas" title="Enlazar permanentemente con este título">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li><p>Tensión de alimentación de 3 a 5 voltios</p></li>
-<li><p>Corriente máxima de alimentación 2.5 mA</p></li>
-<li><p>Rango de humedad relativa 20% a 80% con 5% de exactitud</p></li>
-<li><p>Rango de temperatura de 0 a 50ºC con +-2ºC de exactitud</p></li>
-<li><p>Velocidad de 1 medida por segundo</p></li>
-<li><p>Tamaño 15.5mm x 12mm x 5.5mm</p></li>
-<li><p>Conexión de 4 pines</p></li>
+<li>Tensión de alimentación de 3 a 5 voltios</li>
+<li>Corriente máxima de alimentación 2.5 mA</li>
+<li>Rango de humedad relativa 20% a 80% con 5% de exactitud</li>
+<li>Rango de temperatura de 0 a 50ºC con +-2ºC de exactitud</li>
+<li>Velocidad de 1 medida por segundo</li>
+<li>Tamaño 15.5mm x 12mm x 5.5mm</li>
+<li>Conexión de 4 pines</li>
 </ul>
 </div></blockquote>
 <p><a class="reference download internal" download="" href="../../_downloads/DHT11-drobotics.pdf"><code class="xref download docutils literal notranslate"><span class="pre">DHT11.</span> <span class="pre">Hoja</span> <span class="pre">de</span> <span class="pre">características.</span>
@@ -138,7 +138,7 @@ conexión a un pin analógico para realizar las lecturas.</p>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic">
-<li><p>El siguiente programa envía por el puerto serie la humedad relativa
+<li><p class="first">El siguiente programa envía por el puerto serie la humedad relativa
 y la temperatura medida por el sensor DHT11.</p>
 <p>Carga el programa en Arduino y muestra los valores por el monitor serie.</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
@@ -243,14 +243,15 @@ y la temperatura medida por el sensor DHT11.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Modifica el programa anterior para que muestre en el display la medición
-de temperatura.</p></li>
-<li><p>Modifica el programa anterior para que se encienda un led rojo en caso
+<li><p class="first">Modifica el programa anterior para que muestre en el display la medición
+de temperatura.</p>
+</li>
+<li><p class="first">Modifica el programa anterior para que se encienda un led rojo en caso
 de superar la temperatura ambiental en 2 grados centígrados.</p>
 <p>Comprueba el funcionamiento correcto calentando el sensor.
 El led rojo debe mantenerse encendido aunque la temperatura vuelva a bajar.</p>
 </li>
-<li><p>Modifica el programa anterior para que suene un zumbador cuando la temperatura
+<li><p class="first">Modifica el programa anterior para que suene un zumbador cuando la temperatura
 sea alta. El zumbador sonará durante unas décimas de segundo cada segundo.
 Las instrucciones a utilizar son las siguientes:</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
@@ -263,7 +264,7 @@ Las instrucciones a utilizar son las siguientes:</p>
 <p>El zumbador dejará de sonar cuando la temperatura vuelva a bajar.
 Comprueba el funcionamiento correcto calentando el sensor.</p>
 </li>
-<li><p>Modifica el programa anterior para que se encienda un led azul mientras
+<li><p class="first">Modifica el programa anterior para que se encienda un led azul mientras
 la medida de temperatura se mantenga baja.</p>
 <p>El led azul se apagará en caso de que la temperatura medida supere la
 temperatura ambiental actual más un grado.</p>

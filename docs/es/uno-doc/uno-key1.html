@@ -109,8 +109,8 @@
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li><p>Leer el estado de un pulsador.</p></li>
-<li><p>Programar Arduino para que responda a las pulsaciones del usuario.</p></li>
+<li>Leer el estado de un pulsador.</li>
+<li>Programar Arduino para que responda a las pulsaciones del usuario.</li>
 </ul>
 </div>
 <div class="section" id="pulsadores-del-shield-picuino-uno">
@@ -121,34 +121,34 @@ El nombre de cada pulsador puede verse en la serigrafía de la placa
 de circuito impreso. Las seis constantes y números que representan a
 los pulsadores son los siguientes :</p>
 <blockquote>
-<div><table class="docutils align-default">
+<div><table border="1" class="docutils align-default">
 <colgroup>
-<col style="width: 48%" />
-<col style="width: 52%" />
+<col width="48%" />
+<col width="52%" />
 </colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Constante</p></th>
-<th class="head"><p>Pulsador</p></th>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Constante</th>
+<th class="head">Pulsador</th>
 </tr>
 </thead>
-<tbody>
-<tr class="row-even"><td><p>KEY_LEFT</p></td>
-<td><p>1</p></td>
+<tbody valign="top">
+<tr class="row-even"><td>KEY_LEFT</td>
+<td>1</td>
 </tr>
-<tr class="row-odd"><td><p>KEY_RIGHT</p></td>
-<td><p>2</p></td>
+<tr class="row-odd"><td>KEY_RIGHT</td>
+<td>2</td>
 </tr>
-<tr class="row-even"><td><p>KEY_UP</p></td>
-<td><p>3</p></td>
+<tr class="row-even"><td>KEY_UP</td>
+<td>3</td>
 </tr>
-<tr class="row-odd"><td><p>KEY_DOWN</p></td>
-<td><p>4</p></td>
+<tr class="row-odd"><td>KEY_DOWN</td>
+<td>4</td>
 </tr>
-<tr class="row-even"><td><p>KEY_ENTER</p></td>
-<td><p>5</p></td>
+<tr class="row-even"><td>KEY_ENTER</td>
+<td>5</td>
 </tr>
-<tr class="row-odd"><td><p>KEY_BACK</p></td>
-<td><p>6</p></td>
+<tr class="row-odd"><td>KEY_BACK</td>
+<td>6</td>
 </tr>
 </tbody>
 </table>
@@ -159,7 +159,7 @@ los pulsadores son los siguientes :</p>
 <h2>La función  <code class="docutils literal notranslate"><span class="pre">keyPressed</span></code><a class="headerlink" href="#la-funcion-keypressed" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="py function">
 <dt>
-<code class="sig-name descname">int keyPressed(int keyNum)</code></dt>
+<code class="descname">int keyPressed(int keyNum)</code></dt>
 <dd><p>Esta función devuelve el valor de un pulsador.
 Devuelve el valor 1 si el pulsador está presionado y 0 si no lo
 está.
@@ -183,42 +183,42 @@ el estado real del pulsador hasta que devuelve el valor correcto.
 Si se utiliza el argumento <code class="docutils literal notranslate"><span class="pre">KEY_ALL</span></code>, la función devuelve un
 número que depende de la suma de los pulsadores que se encuentren
 presionados.</p>
-<table class="docutils align-default">
+<table border="1" class="docutils align-default">
 <colgroup>
-<col style="width: 42%" />
-<col style="width: 29%" />
-<col style="width: 29%" />
+<col width="42%" />
+<col width="29%" />
+<col width="29%" />
 </colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Pulsador presionado</p></th>
-<th class="head"><p>Valor decimal</p></th>
-<th class="head"><p>Valor binario</p></th>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Pulsador presionado</th>
+<th class="head">Valor decimal</th>
+<th class="head">Valor binario</th>
 </tr>
 </thead>
-<tbody>
-<tr class="row-even"><td><p>KEY_LEFT</p></td>
-<td><p>1</p></td>
-<td><p>0b000001</p></td>
+<tbody valign="top">
+<tr class="row-even"><td>KEY_LEFT</td>
+<td>1</td>
+<td>0b000001</td>
 </tr>
-<tr class="row-odd"><td><p>KEY_RIGHT</p></td>
-<td><p>2</p></td>
-<td><p>0b000010</p></td>
+<tr class="row-odd"><td>KEY_RIGHT</td>
+<td>2</td>
+<td>0b000010</td>
 </tr>
-<tr class="row-even"><td><p>KEY_UP</p></td>
-<td><p>4</p></td>
-<td><p>0b000100</p></td>
+<tr class="row-even"><td>KEY_UP</td>
+<td>4</td>
+<td>0b000100</td>
 </tr>
-<tr class="row-odd"><td><p>KEY_DOWN</p></td>
-<td><p>8</p></td>
-<td><p>0b001000</p></td>
+<tr class="row-odd"><td>KEY_DOWN</td>
+<td>8</td>
+<td>0b001000</td>
 </tr>
-<tr class="row-even"><td><p>KEY_ENTER</p></td>
-<td><p>16</p></td>
-<td><p>0b010000</p></td>
+<tr class="row-even"><td>KEY_ENTER</td>
+<td>16</td>
+<td>0b010000</td>
 </tr>
-<tr class="row-odd"><td><p>KEY_BACK</p></td>
-<td><p>32</p></td>
-<td><p>0b100000</p></td>
+<tr class="row-odd"><td>KEY_BACK</td>
+<td>32</td>
+<td>0b100000</td>
 </tr>
 </tbody>
 </table>
@@ -344,7 +344,7 @@ Estas son algunas alternativas, todas consiguen el mismo resultado.</p>
 <h2>La función <code class="docutils literal notranslate"><span class="pre">keyValue</span></code><a class="headerlink" href="#la-funcion-keyvalue" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="py function">
 <dt>
-<code class="sig-name descname">int keyValue(int keyNum)</code></dt>
+<code class="descname">int keyValue(int keyNum)</code></dt>
 <dd><p>Esta función es semejante a la función <code class="docutils literal notranslate"><span class="pre">keyValue</span></code> vista
 anteriormente.
 Devuelve el valor de un pulsador. Si el pulsador está
@@ -368,7 +368,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Programa el código necesario para resolver los siguientes problemas.</p>
 <ol class="arabic">
-<li><p>Encender el led D1 con el pulsador 1 y apagar el led D1 con el
+<li><p class="first">Encender el led D1 con el pulsador 1 y apagar el led D1 con el
 pulsador 2.
 Corregir los errores sintácticos del siguiente programa.</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
@@ -401,7 +401,7 @@ Corregir los errores sintácticos del siguiente programa.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Encender todos los leds de la siguiente manera.
+<li><p class="first">Encender todos los leds de la siguiente manera.
 El led D1 se encenderá al pulsar el pulsador 1.
 A continuación el led D2 se encenderá al pulsar el pulsador 2.
 El programa seguirá de esta manera hasta llegar a encender todos
@@ -429,7 +429,7 @@ Completar el programa que aparece a continuación.</p>
 </pre></div>
 </div>
 </li>
-<li><p>Al comenzar, encender el led D1.
+<li><p class="first">Al comenzar, encender el led D1.
 Cuando se presione el pulsador 1, se apagará el led D1 y se
 encenderá el led siguiente.
 La luz se moverá así hacia la derecha, hasta volver a comenzar
@@ -480,11 +480,12 @@ comentarios.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Modificar el programa anterior para que los leds se enciendan
+<li><p class="first">Modificar el programa anterior para que los leds se enciendan
 desde el D6 hasta el D1.
 Cuando llegue el turno de apagar el led D1, se encenderá de nuevo
-el led D6.</p></li>
-<li><p>Los tres leds D1, D2 y D3 se encenderán cuando se pulse a la vez
+el led D6.</p>
+</li>
+<li><p class="first">Los tres leds D1, D2 y D3 se encenderán cuando se pulse a la vez
 los tres pulsadores 1, 2 y 3.
 Utiliza el operador '&amp;&amp;' que evalúa si se producen dos condiciones
 a la vez.
@@ -530,7 +531,7 @@ comentarios.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Después de pulsar en orden la secuencia de pulsadores 2, 4 y 1,
+<li><p class="first">Después de pulsar en orden la secuencia de pulsadores 2, 4 y 1,
 una cerradura electrónica se abrirá. La apertura se indicará
 encendiendo en secuencia los leds rojo, amarillo y verde, uno cada
 segundo.

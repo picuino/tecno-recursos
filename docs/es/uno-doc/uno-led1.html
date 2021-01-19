@@ -109,8 +109,8 @@
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li><p>Encender y apagar los diodos led del shield Picuino UNO.</p></li>
-<li><p>Generar parpadeo de leds mediante esperas de tiempo.</p></li>
+<li>Encender y apagar los diodos led del shield Picuino UNO.</li>
+<li>Generar parpadeo de leds mediante esperas de tiempo.</li>
 </ul>
 </div>
 <div class="section" id="libreria-de-manejo-para-arduino">
@@ -126,7 +126,7 @@ para la instalación de una librería para Arduino.</p>
 <h2>La función <code class="docutils literal notranslate"><span class="pre">ledWrite</span></code><a class="headerlink" href="#la-funcion-ledwrite" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="py function">
 <dt id="ledWrite">
-<code class="sig-name descname">ledWrite</code><span class="sig-paren">(</span><em class="sig-param">int ledNum</em>, <em class="sig-param">int bright</em><span class="sig-paren">)</span><a class="headerlink" href="#ledWrite" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<code class="descname">ledWrite</code><span class="sig-paren">(</span><em>int ledNum</em>, <em>int bright</em><span class="sig-paren">)</span><a class="headerlink" href="#ledWrite" title="Enlazar permanentemente con esta definición">¶</a></dt>
 <dd><p>Esta función permite encender o apagar un led concreto.
 Sus parámetros son los siguientes:</p>
 <p><code class="docutils literal notranslate"><span class="pre">ledNum</span></code>: led que se va a encender o apagar. Los valores válidos
@@ -134,13 +134,13 @@ van desde 1 para el led D1 hasta 8 para el color azul del led D6.</p>
 <p>El led D6 es un led RGB, que integra 3 leds en su interior.
 Los números 6, 7, 8 representan respectivamente los colores rojo,
 verde y azul del led D6.</p>
-<dl class="simple">
+<dl class="docutils">
 <dt><code class="docutils literal notranslate"><span class="pre">bright</span></code>: brillo con el que se va a encender el led.</dt><dd><ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">LED_OFF</span></code>: apaga el led. Se puede sustituir por el número
-cero.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">LED_ON</span></code>: enciende el led con la intensidad máxima.</p></li>
-<li><p>Valores entre 2 y 255: enciende el led con una intensidad
-proporcional al número.</p></li>
+<li><code class="docutils literal notranslate"><span class="pre">LED_OFF</span></code>: apaga el led. Se puede sustituir por el número
+cero.</li>
+<li><code class="docutils literal notranslate"><span class="pre">LED_ON</span></code>: enciende el led con la intensidad máxima.</li>
+<li>Valores entre 2 y 255: enciende el led con una intensidad
+proporcional al número.</li>
 </ul>
 </dd>
 </dl>
@@ -220,12 +220,14 @@ vez una vez iniciado el programa de Arduino.</p>
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Programa el código necesario para resolver los siguientes problemas.</p>
 <ol class="arabic">
-<li><p>Encender los leds D1, D3 y D5 de forma permanente.</p></li>
-<li><p>Encender el led D1, esperar un segundo, encender el led D2, esperar
+<li><p class="first">Encender los leds D1, D3 y D5 de forma permanente.</p>
+</li>
+<li><p class="first">Encender el led D1, esperar un segundo, encender el led D2, esperar
 un segundo y seguir así hasta que estén encendidos los 5 primeros
 led.
-Una vez terminado, el programa mantendrá los 5 leds encendidos.</p></li>
-<li><p>Encender los leds rojo, ámbar y verde como en un semáforo.</p>
+Una vez terminado, el programa mantendrá los 5 leds encendidos.</p>
+</li>
+<li><p class="first">Encender los leds rojo, ámbar y verde como en un semáforo.</p>
 <p>Primero se encenderá el led verde y permanecerá encendido
 durante 4 segundos.
 A continuación se apagará el led verde y se encenderá el led
@@ -234,26 +236,30 @@ Por último se apagará el led ámbar y se encenderá el rojo,
 que permanecerá encendido durante 4 segundos.</p>
 <p>Esta secuencia se repetirá indefinidamente.</p>
 </li>
-<li><p>Modificar el ejercicio 3 para que el led ámbar parpadee tres
+<li><p class="first">Modificar el ejercicio 3 para que el led ámbar parpadee tres
 veces, cambiando de encendido a apagado cada medio segundo, antes
-de pasar a encender el led rojo.</p></li>
-<li><p>Programar una baliza que encienda alternativamente el led rojo y
+de pasar a encender el led rojo.</p>
+</li>
+<li><p class="first">Programar una baliza que encienda alternativamente el led rojo y
 el led azul.
 Cada led debe permanecer encendido durante un segundo.
 Siempre debe estar uno de los dos led encendidos y nunca estarán
-los dos led encendidos a la vez.</p></li>
-<li><p>Encender el led D1, esperar un segundo, apagar el led D1 y encender
+los dos led encendidos a la vez.</p>
+</li>
+<li><p class="first">Encender el led D1, esperar un segundo, apagar el led D1 y encender
 el led D2.
 Se encenderán de esta forma, consecutivamente, los 5 primeros leds.
 En cada momento solo un led estará encendido.
 Una vez terminada la secuencia, comenzará de nuevo desde el
-principio.</p></li>
-<li><p>Realizar una modificación al ejercicio anterior para que en todo
+principio.</p>
+</li>
+<li><p class="first">Realizar una modificación al ejercicio anterior para que en todo
 momento haya 2 leds encendidos.
 Al comenzar el programa deben encenderse los leds D1 y D2.
 Pasado un segundo se encenderán los leds D2 y D3.
-La secuencia continuará hasta llegar a la situación inicial.</p></li>
-<li><p>El siguiente programa tiene varios errores, corrige los
+La secuencia continuará hasta llegar a la situación inicial.</p>
+</li>
+<li><p class="first">El siguiente programa tiene varios errores, corrige los
 errores sintácticos para que funcione correctamente.</p>
 <div class="highlight-arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
@@ -305,8 +311,9 @@ errores sintácticos para que funcione correctamente.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p>Realizar un programa que haga parpadear D1 una vez por segundo a
-la vez que D2 parpadea dos veces por segundo.</p></li>
+<li><p class="first">Realizar un programa que haga parpadear D1 una vez por segundo a
+la vez que D2 parpadea dos veces por segundo.</p>
+</li>
 </ol>
 </div>
 </div>
