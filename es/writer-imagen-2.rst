@@ -5,7 +5,7 @@
 Imágenes II
 ===========
 
-En esta práctica insertaremos imágenes en diferentes
+En este ejercicio insertaremos imágenes en diferentes
 posiciones y con diferentes orientaciones recortando
 partes de la imagen, utilizando la barra de herramientas
 de imagen.
@@ -13,9 +13,9 @@ de imagen.
 |br|
 
 1. Primero descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica de imágenes II.
+   :download:`Ejercicio de imágenes II.
    <writer/writer-imagen-2.odt>`
 
    |br|

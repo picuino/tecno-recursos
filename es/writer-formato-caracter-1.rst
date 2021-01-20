@@ -14,9 +14,9 @@ el color del texto y del fondo.
 |br|
 
 #. Primero descargamos y abrimos con LibreOffice Writer 
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica formato de carácter I
+   :download:`Ejercicio formato de carácter I
    <writer/writer-formato-caracter-1.odt>`
 
    |br|

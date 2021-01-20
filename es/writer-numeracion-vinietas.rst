@@ -11,9 +11,9 @@ con viñetas de varios niveles.
 |br|
 
 1. Primero descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica de numeración y viñetas.
+   :download:`Ejercicio de numeración y viñetas.
    <writer/writer-numeracion.odt>`
 
    |br|

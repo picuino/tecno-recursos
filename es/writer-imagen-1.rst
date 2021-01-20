@@ -12,9 +12,9 @@ de tamaño y posición.
 |br|
 
 1. Primero descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica de imágenes I.
+   :download:`Ejercicio de imágenes I.
    <writer/writer-imagen-1.odt>`
 
    |br|
@@ -86,7 +86,8 @@ de tamaño y posición.
 
 Reconocimiento
 --------------
-El texto utilizado en esta práctica se ha
+
+El texto utilizado en este ejercicio se ha
 copiado del `artículo de Wikipedia sobre Steve Jobs
 <https://es.wikipedia.org/wiki/Steve_Jobs>`_
 

@@ -5,16 +5,16 @@
 Cortar y pegar
 ==============
 
-En esta práctica utilizaremos las herramientas de cortar y
+En este ejercicio utilizaremos las herramientas de cortar y
 pegar texto para mover líneas de texto a otra posición y así
 ordenar alfabéticamente una lista de nombres.
 
 |br|
    
 #. Primero descargamos y abrimos con LibreOffice Writer 
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica cortar y pegar <writer/writer-cortar-pegar.odt>`
+   :download:`Ejercicio cortar y pegar <writer/writer-cortar-pegar.odt>`
 
    |br|
 

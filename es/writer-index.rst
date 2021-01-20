@@ -41,7 +41,6 @@ con LibreOffice Writer.
    writer-tablas-1.rst
 
 ..   
-   writer-tablas-1.rst
    writer-tablas-2.rst
    writer-tablas-3.rst
    writer-tablas-4.rst

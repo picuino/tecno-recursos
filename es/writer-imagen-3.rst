@@ -6,16 +6,16 @@
 Imágenes III
 ============
 
-En esta práctica aplicaremos filtros y daremos formato de color 
+En este ejercicio aplicaremos filtros y daremos formato de color 
 y contraste  a una imagen con varias herramientas de la barra de 
 imagen.
    
 |br|
 
 1. Primero descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica de imágenes III.
+   :download:`Ejercicio de imágenes III.
    <writer/writer-imagen-3.odt>`
 
    |br|

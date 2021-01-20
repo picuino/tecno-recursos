@@ -12,9 +12,9 @@ a detectar y corregir las faltas de ortografía.
 |br|
 
 1. Primero descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica de ortografía.
+   :download:`Ejercicio de ortografía.
    <writer/writer-ortografia.odt>`
 
    |br|
@@ -94,7 +94,8 @@ a detectar y corregir las faltas de ortografía.
 
 Reconocimiento
 --------------
-El texto utilizado en esta práctica está basado,
+
+El texto utilizado en este ejercicio está basado,
 con cambios, en el `artículo de Wikipedia sobre Marie Curie
 <https://es.wikipedia.org/wiki/Marie_Curie>`_
 , bajo `licencia CC-BY-SA 3.0

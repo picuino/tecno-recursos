@@ -5,7 +5,7 @@
 Copiar y pegar
 ==============
 
-En esta práctica vamos a aprender a **copiar y pegar texto e
+En este ejercicio vamos a aprender a **copiar y pegar texto e
 imágenes** en Writer.
 
 |br|
@@ -107,7 +107,8 @@ imágenes** en Writer.
 
 Reconocimiento
 --------------
-El texto utilizado en esta práctica está basado,
+
+El texto utilizado en este ejercicio está basado,
 con cambios, en el `artículo de Wikipedia sobre Nikola Tesla
 <https://es.wikipedia.org/wiki/Nikola_Tesla>`_
 , bajo `licencia CC-BY-SA 3.0

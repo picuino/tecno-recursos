@@ -6,16 +6,16 @@
 Copiar formato
 ==============
 
-En esta práctica vamos a usar la herramienta 
+En este ejercicio vamos a usar la herramienta 
 "Copiar formato" para realizar modificaciones de
 formato con mayor facilidad.
 
 |br|
 
 1. Primero descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica de copiar formato
+   :download:`Ejercicio de copiar formato
    <writer/writer-copiar-formato.odt>`
 
    |br|
@@ -60,7 +60,8 @@ formato con mayor facilidad.
 
 Reconocimiento
 --------------
-El texto utilizado en esta práctica está basado,
+
+El texto utilizado en este ejercicio está basado,
 con cambios, en el `artículo de Wikipedia sobre Londres
 <https://es.wikipedia.org/wiki/Londres>`_
 , bajo `licencia CC-BY-SA 3.0

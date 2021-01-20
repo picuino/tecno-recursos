@@ -6,16 +6,16 @@
 Buscar y Reemplazar II
 ======================
 
-En esta práctica vamos a usar la herramienta 
+En este ejercicio vamos a usar la herramienta 
 "Buscar y reemplazar" para modificar un texto y sus
 atributos con Writer.
 
 |br|
 
 1. Primero descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica de buscar y reemplazar
+   :download:`Ejercicio de buscar y reemplazar
    <writer/writer-buscar-reemplazar.odt>`
 
    |br|
@@ -66,7 +66,8 @@ atributos con Writer.
 
 Reconocimiento
 --------------
-El texto utilizado en esta práctica está basado,
+
+El texto utilizado en este ejercicio está basado,
 con cambios, en el `artículo de Wikipedia sobre Londres
 <https://es.wikipedia.org/wiki/Londres>`_
 , bajo `licencia CC-BY-SA 3.0
