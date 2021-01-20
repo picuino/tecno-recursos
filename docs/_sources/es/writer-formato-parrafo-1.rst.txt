@@ -28,9 +28,9 @@ final de cada línea y otras opciones semejantes.
    |br|
 
 #. Ahora descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica formato de párrafo I
+   :download:`Ejercicio formato de párrafo I
    <writer/writer-formato-parrafo-1.odt>`
 
    |br|

@@ -13,9 +13,9 @@ etc.
 |br|
 
 1. Primero descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica formato de párrafo III
+   :download:`Ejercicio formato de párrafo III
    <writer/writer-formato-parrafo-3.odt>`
 
    |br|

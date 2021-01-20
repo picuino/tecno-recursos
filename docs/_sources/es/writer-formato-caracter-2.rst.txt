@@ -52,9 +52,9 @@ de las que hay disponibles en los botones de la barra de formato.
    |br|
 
 #. Ahora descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica formato de carácter II
+   :download:`Ejercicio formato de carácter II
    <writer/writer-formato-caracter-2.odt>`
 
    |br|

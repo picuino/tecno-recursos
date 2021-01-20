@@ -11,9 +11,9 @@ dar formato a columnas de un párrafo.
 |br|
 
 1. Ahora descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica formato de párrafo II
+   :download:`Ejercicio formato de párrafo II
    <writer/writer-formato-parrafo-2.odt>`
 
    |br|
