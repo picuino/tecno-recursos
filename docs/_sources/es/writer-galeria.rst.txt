@@ -2,19 +2,18 @@
 
 .. _writer-galeria:
 
-
 Galería de imágenes
 ===================
 
-En esta práctica utilizaremos las imágenes prediseñadas 
+En este ejercicio utilizaremos las imágenes prediseñadas 
 de la galería incluidas en el programa Writer.
  
 |br|
 
 1. Primero descargamos y abrimos con LibreOffice Writer
-   la práctica de ejemplo.
+   el documento de ejemplo.
 
-   :download:`Práctica de Galería
+   :download:`Ejercicio de Galería de imágenes
    <writer/writer-galeria.odt>`
 
    |br|

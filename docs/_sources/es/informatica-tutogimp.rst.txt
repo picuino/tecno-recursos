@@ -4,21 +4,10 @@
 Tutorial de Gimp
 ==================
 Tutorial del programa de manipulación de imágenes Gimp.
-En Castellano. 
-Basado en tecnología Flash.
+En Castellano.
 
-Autor: José Manuel Blanco Guimarey
+Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
 
-Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/3.0/es/>`_
-
-`Web origen del programa 
-<https://www.edu.xunta.es/espazoAbalar/es/espazo/repositorio/cont/microunidades-de-gimp>`__
-
-`Instalador de Flash Player </_static/downloads/install_flash_player_firefox.exe>`_
-
-
-Curso Online
-------------
 
 * `Prácticas de nivel básico 
   <../_static/tutorial-gimp/html/es/basnoson.html>`__
@@ -26,3 +15,16 @@ Curso Online
   <../_static/tutorial-gimp/html/es/mednoson.html>`__
 * `Prácticas de nivel avanzado 
   <../_static/tutorial-gimp/html/es/avnoson.html>`__
+
+
+Créditos
+--------
+
+Autor del tutorial: José Manuel Blanco Guimarey
+
+Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/3.0/es/>`_
+
+`Web origen del programa 
+<https://www.edu.xunta.es/espazoAbalar/es/espazo/repositorio/cont/microunidades-de-gimp>`__
+
+`Créditos del tutorial <../_static/tutorial-gimp/docs/creditos_es.html>`_
