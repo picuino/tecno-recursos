@@ -6,7 +6,7 @@
  Páginas de contenido legal
 ############################
 
-Contacto, aviso legal, cookies y derechos de autor.
+Contacto, aviso legal, cookies, derechos de autor y créditos.
 
 .. toctree::
    :maxdepth: 1

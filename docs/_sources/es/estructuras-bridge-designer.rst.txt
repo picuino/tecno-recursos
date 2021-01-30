@@ -30,7 +30,7 @@ Enlaces
 * `Instalador para Windows desde la página de Source Forge.
   <https://sourceforge.net/projects/wpbdc/files/Current%20Release/jre/setupbdv16j.exe/download>`_
 * `Instalador Bridge Designer 1.6
-  </_static/downloads/setup-bridge-designer-v16j.zip>`
+  <../_static/downloads/setup-bridge-designer-v16j.zip>`_
 
 Tutorial
 --------

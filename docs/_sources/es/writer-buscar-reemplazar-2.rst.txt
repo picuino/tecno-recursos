@@ -64,8 +64,8 @@ atributos con Writer.
    |br|
 
 
-Reconocimiento
---------------
+Créditos
+--------
 
 El texto utilizado en este ejercicio está basado,
 con cambios, en el `artículo de Wikipedia sobre Londres

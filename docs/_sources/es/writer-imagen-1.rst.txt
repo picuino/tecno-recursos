@@ -84,8 +84,8 @@ de tamaño y posición.
    |br|
 
 
-Reconocimiento
---------------
+Créditos
+--------
 
 El texto utilizado en este ejercicio se ha
 copiado del `artículo de Wikipedia sobre Steve Jobs
