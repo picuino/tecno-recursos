@@ -2,11 +2,11 @@
 .. _external-index:
 
 
-*******************
- Recursos Externos
-*******************
+**********
+ Recursos 
+**********
 
-Recursos para Tecnología en la Web.
+Recursos para tecnología
 
 .. toctree::
    :maxdepth: 1
@@ -14,3 +14,4 @@ Recursos para Tecnología en la Web.
    
    external-blogs.rst
    external-images.rst
+   didactica-evaluacion-asignatura.rst

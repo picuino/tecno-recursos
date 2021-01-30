@@ -24,7 +24,7 @@ Recursos educativos libres para Tecnología.
 
    informatica-index.rst
    
-   external-index.rst
+   recursos-index.rst
 
 
 .. 
