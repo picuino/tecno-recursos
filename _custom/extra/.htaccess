@@ -10,9 +10,9 @@ RewriteRule ^ https://www.picuino.com%{REQUEST_URI} [L,NE,R=301]
 
 # Duración de la caché
 <ifModule mod_expires.c>
-<Filesmatch "\.(jpg|jpeg|png|svg|ico|gif|ttf|htm|html|xml|txt|css|js|php|swf|woff2)$">
+<Filesmatch "\.(jpg|jpeg|png|svg|ico|gif|ttf|htm|html|xml|txt|css|js|php|swf|woff2|wasm)$">
     ExpiresActive on
-    ExpiresDefault "access plus 7 days"
+    ExpiresDefault "access plus 14 days"
 </Filesmatch>
 </ifModule>
 
