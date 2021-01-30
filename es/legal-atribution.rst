@@ -1,123 +1,242 @@
 ﻿
 .. _legal-atribution:
 
-Atribución de imágenes
-======================
+Créditos del diseño de la página web
+====================================
+
+La página web está creada con `Sphinx <http://sphinx-doc.org/>`__
+usando un `tema <https://github.com/rtfd/sphinx_rtd_theme>`__ 
+proporcionado por `Read the Docs <https://readthedocs.org/>`__
+
+
+Créditos de las imágenes
+========================
 
 Las imágenes que se muestran a continuación están tomadas de fuentes
-externas a esta página. Cada imagen está asociada con un enlace
-a la fuente de la que fueron tomadas.
+externas a esta página. Cada imagen muestra junto a ella los créditos.
 
 .. =====  MATERIALES =====
 
 .. image:: material/_thumbs/material-wall.jpg
    :width: 120px
-   :target:  https://www.pexels.com/photo/abstract-architecture-background-brick-194096/
+
+`Imagen <https://www.pexels.com/photo/abstract-architecture-background-brick-194096/>`__
+de `Miguel Á. Padriñán <https://www.pexels.com/@padrinan>`__
+bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
+
+----
 
 .. image:: material/_thumbs/sargento.jpg
 	:width: 120px
-	:target: https://commons.wikimedia.org/wiki/File:Temperguss-Schraubzwinge.jpg
+
+`Imagen Temperguss-Schraubzwinge <https://commons.wikimedia.org/wiki/File:Temperguss-Schraubzwinge.jpg>`__
+de BESSEY Tool GmbH & Co. KG
+bajo `licencia Creative Commons Attribution-Share Alike 3.0 Germany <https://creativecommons.org/licenses/by-sa/3.0/de/deed.en>`__
+
+----
 
 .. image:: material/_thumbs/destornillador.jpg
 	:width: 120px
-	:target: https://commons.wikimedia.org/wiki/File:Yellow-flathead-screwdriver.jpg
+
+`Imagen Yellow-flathead-screwdriver <https://commons.wikimedia.org/wiki/File:Temperguss-Schraubzwinge.jpg>`__
+de `Iainf <https://commons.wikimedia.org/wiki/User:Iainf>`__
+bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+
+----
 
 .. image:: material/_thumbs/alicates.jpg
 	:width: 120px
-	:target: https://commons.wikimedia.org/wiki/File:Kombinationszange.jpg
+
+`Imagen Kombinationszange <https://commons.wikimedia.org/wiki/File:Kombinationszange.jpg>`__
+de `Stefan Pohl <https://de.wikipedia.org/wiki/Benutzer:StefanPohl>`__
+bajo licencia de dominio público.
+
+
+----
 
 .. image:: material/_thumbs/regla-metal.jpg
 	:width: 120px
 	:target: https://commons.wikimedia.org/wiki/File:Steel_ruler_closeup.jpg
 
+`Imagen Steel ruler closeup <https://commons.wikimedia.org/wiki/File:Steel_ruler_closeup.jpg>`__
+de `Ejay <https://commons.wikimedia.org/wiki/User:Ejay>`__
+bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/>`__
+
+----
 
 .. =====  MECÁNICA =====
 
 .. image:: mecan/_images/mecan-columpio.png
    :width: 120px
-   :target: https://openclipart.org/detail/216037/swing-lineart
+
+`Imagen line art swing <https://openclipart.org/detail/216037/swing-lineart>`__
+de `frankes <https://openclipart.org/artist/frankes>`__
+bajo `licencia Creative Commons Zero 1.0 Public Domain License <http://creativecommons.org/publicdomain/zero/1.0/>`__
+
+----
 
 .. image:: mecan/_images/mecan-jib-crane.jpg
    :width: 120px
-   :target: https://commons.wikimedia.org/wiki/File:Jib_crane.jpg
+
+`Imagen Jib crane <https://commons.wikimedia.org/wiki/File:Jib_crane.jpg>`__
+bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__
+
+----
 
 .. image:: mecan/_images/mecan-bridge-designer-01tb.jpg
    :width: 120px
    :target: http://bridgedesigner.org/
 
+`Imagen banner graphic 1 <http://bridgedesigner.org/>`__
+de Stephen J. Ressler con todos los derechos reservados.
+
+----
 
 .. =====  PROGRAMACIÓN =====
 
 .. image:: prog/_images/python-logo.png
    :width: 120px
-   :target: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg
+
+`Imagen Python logo <https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg>`__
+de `Python Software Foundation <https://www.python.org/community/logos/>`__
+bajo `licencia PSF Trademark Usage Policy <https://www.python.org/psf/trademarks/>`__
+
+----
 
 .. image:: prog/_images/processing-logo.png
    :width: 120px
-   :target: https://de.wikipedia.org/wiki/Datei:Processing_Logo_Clipped.svg
+
+`Imagen Processing logo <https://de.wikipedia.org/wiki/Datei:Processing_Logo_Clipped.svg>`__
+de `Processing Foundation <https://processingfoundation.org/>`__
+protegida como Marca Registrada.
+
+----
 
 .. image:: prog/_images/arduino-logo.png
    :width: 120px
-   :target: https://commons.wikimedia.org/wiki/File:Arduino_Logo.svg
+
+`Imagen Arduino logo <https://commons.wikimedia.org/wiki/File:Arduino_Logo.svg>`__
+de Autor desconocido
+protegida como Marca Registrada.
+
+----
 
 .. image:: prog/_images/codeorg-logo.png
    :width: 120px
    :target: https://support.code.org/hc/en-us/articles/115001319312-Setting-up-sections-with-Google-Classroom-or-Clever?mobile_site=true
 
+----
+
 .. image:: prog/_images/scratch-logo.png
    :width: 120px
-   :target: https://commons.wikimedia.org/wiki/File:Scratch_Logo.svg
+
+`Imagen Scratch logo <https://commons.wikimedia.org/wiki/File:Scratch_Logo.svg>`__
+de `MIT <http://info.scratch.mit.edu/Community_Guidelines>`__
+bajo licencia `Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+y protegida como Marca Registrada.
+
+----
 
 .. image:: prog/_images/mblock-logo.png
    :width: 120px
-   :target: http://www.mblock.cc/mblock-software/
+
+`Imagen Makeblock logo <https://mblock.makeblock.com/en-us/download//>`__
+
+----
 
 .. image:: prog/_images/appinventor-logo.png
    :width: 120px
-   :target: https://commons.wikimedia.org/wiki/File:Mit_app_inventor.png
+
+`Imagen App Inventor logo <https://commons.wikimedia.org/wiki/File:Mit_app_inventor.png>`__
+de Massachusetts Institute of Technology
+bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+
+----
 
 .. image:: prog/_images/applab-logo.png
    :width: 120px
    :target: https://code.org/educate/applab
 
+----
+
 .. image:: scratch3/_images/scratch3-p11-olympic-flag.png
 	:width: 120px
-	:target: https://commons.wikimedia.org/wiki/File:Olympic_flag.svg
+
+`Imagen Bandera Olímpica <https://commons.wikimedia.org/wiki/File:Olympic_flag.svg>`__
+de Pierre de Coubertin
+bajo licencia de dominio público.
+
+----
 
 .. image:: informatica/_thumbs/informatica-computer.png
 	:width: 120px
-	:target: https://openclipart.org/detail/17924/computer
+
+`Imagen Computer <https://openclipart.org/detail/17924/computer>`__ 
+de `AJ <https://openclipart.org/artist/AJ>`__
+bajo `licencia Creative Commons Zero 1.0 Public Domain License <http://creativecommons.org/publicdomain/zero/1.0/>`__
+
+----
 
 
 .. =====  HTML y CSS =====
 
 .. image:: html/_thumbs/beach-01.jpg
 	:width: 120px
-	:target: https://www.pexels.com/photo/beach-calm-clouds-idyllic-457882/
+
+`Imagen Beach calm clouds idyllic <https://www.pexels.com/photo/beach-calm-clouds-idyllic-457882/>`__
+de `Asad Photo Maldivas <https://www.pexels.com/@asadphotography>`__
+bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
+
+----
 
 .. image:: html/_thumbs/chart-01.png
 	:width: 120px
-	:target: https://commons.wikimedia.org/wiki/File:Spa_elec_gen.PNG
+
+`Imagen Spa elec gen <https://commons.wikimedia.org/wiki/File:Spa_elec_gen.PNG>`__
+de Zmzmzm2
+bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__
+
+----
 
 .. image:: html/_thumbs/portrait.png
 	:width: 120px
-	:target: https://www.flaticon.com/free-icon/portrait_175062
+
+`Imagen Portrait <https://www.flaticon.com/free-icon/portrait_175062>`__
+de `Metropolicons <https://www.flaticon.com/authors/metropolicons>`__
+desde `Flaticon <https://www.flaticon.com/>`__
+bajo `licencia Freepik <https://www.freepikcompany.com/legal#nav-flaticon>`__
+
+----
 
 .. image:: html/_thumbs/html5-logo.png
 	:width: 120px
-	:target: https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg
+	
+`Imagen Logotipo oficial HTML5 <https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg>`__
+de `W3C <http://www.w3.org/html/logo/index.html>`__
+bajo `licencia Creative Commons Attribution 3.0 Unported <https://creativecommons.org/licenses/by/3.0/deed.en>`__
+
+----
 
 .. image:: css/_thumbs/css3-logo.png
 	:width: 120px
-	:target: https://commons.wikimedia.org/wiki/File:CSS.3.svg
+
+`Imagen Logotipo oficial CSS3 <https://commons.wikimedia.org/wiki/File:CSS.3.svg>`__
+de W3C
+bajo `licencia Creative Commons Attribution 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__
+
+----
 
 
 .. =====  FREECAD =====
 
 .. image:: freecad/_images/freecad-logo.png
    :width: 120px
-   :target: https://es.m.wikipedia.org/wiki/Archivo:FreeCAD-logo.svg
-   
+
+`Imagen Logotipo FreeCAD <https://es.m.wikipedia.org/wiki/Archivo:FreeCAD-logo.svg>`__
+de Yorik van Havre
+bajo `Licencia Pública General Reducida de GNU <https://en.wikipedia.org/wiki/es:GNU_Lesser_General_Public_License>`__
+
+----
 
 .. =====  INFORMATICA =====
 
@@ -125,20 +244,33 @@ a la fuente de la que fueron tomadas.
    :width: 120px
    :target: https://commons.wikimedia.org/wiki/File:Computer_keyboard_ES_layout.svg
 
+`Imagen Computer keyboard ES layout <https://commons.wikimedia.org/wiki/File:Computer_keyboard_ES_layout.svg>`__
+de `Oona Räisänen (Mysid) <https://en.wikipedia.org/wiki/User:Mysid>`__
+bajo `licencia Creative Commons CC0 1.0 Universal Public Domain Dedication <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__
+
+----
+
 .. image:: writer/_images/writer-logo.png
    :width: 120px
-   :target: https://commons.wikimedia.org/wiki/File:LibreOffice_6.1_Writer_Icon.svg
 
+`Imagen LibreOffice 6.1 Writer Icon <https://commons.wikimedia.org/wiki/File:LibreOffice_6.1_Writer_Icon.svg>`__
+de The Document Foundation
+bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__
+
+----
 
 .. image:: writer/_images/writer-odt-file.png
    :width: 120px
-   :target: https://www.flaticon.com/free-icon/odt-file-format_28832
+
+`Imagen ODT File Format free icon <https://www.flaticon.com/free-icon/odt-file-format_28832>`__
+de `Freepik <https://www.freepik.com>`__ 
+desde `Flaticon <https://www.flaticon.com/>`__ 
+bajo `licencia Freepik <https://www.freepikcompany.com/legal#nav-flaticon>`__
 
 
-.. =====  PLANTILLA =====
-
-   .. image::
-	:width: 120px
-	:target:
+.. PLANTILLA
+   `Imagen <>`__
+   de ` <>`__
+   bajo `licencia <>`__
 
 
