@@ -92,8 +92,8 @@ a detectar y corregir las faltas de ortografía.
               :align: center
 
 
-Reconocimiento
---------------
+Créditos
+--------
 
 El texto utilizado en este ejercicio está basado,
 con cambios, en el `artículo de Wikipedia sobre Marie Curie
