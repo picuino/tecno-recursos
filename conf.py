@@ -106,7 +106,6 @@ exclude_patterns = [
    'es/freecad-subs.rst',
    'es/crocodile-subs.rst',
    'es/writer-subs.rst',
-   'es/html/_sources',
    'es/css',
    'es/html',
 ]
