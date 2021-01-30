@@ -104,7 +104,7 @@ Según esta clasificación tenemos los siguientes materiales:
    Se pueden clasificar en los siguientes grupos.
 
    * Elastómeros: goma, neopreno, siliconas, caucho sintético.
-   * Termoplásticos: PVC, PET, poliester, poliuretano, nailon, teflón.
+   * Termoplásticos: PVC, PET, poliéster, poliuretano, nailon, teflón.
    * Termoestables: baquelita, melamina, resina epoxi.
 
 **Materiales metálicos**:
@@ -135,7 +135,7 @@ Según esta clasificación tenemos los siguientes materiales:
    flexibilidad y los procesos de cosido y pegado que se utilizan en
    la fabricación.
 
-   * Hilos: Seda, lana, algodón, poliester.
+   * Hilos: Seda, lana, algodón, poliéster.
    * Telas: vaqueros, gersey de lana, vela de barco.
    * Cueros: zapatos, guantes, sillones, cinturones, recipientes
      para liquidos.
