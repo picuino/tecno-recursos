@@ -15,3 +15,4 @@ Recursos para tecnología
    external-blogs.rst
    external-images.rst
    didactica-evaluacion-asignatura.rst
+   taller-seniales-seguridad.rst
