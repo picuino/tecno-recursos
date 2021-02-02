@@ -267,6 +267,25 @@ de `Freepik <https://www.freepik.com>`__
 desde `Flaticon <https://www.flaticon.com/>`__ 
 bajo `licencia Freepik <https://www.freepikcompany.com/legal#nav-flaticon>`__
 
+----
+
+.. image:: taller/_thumbs/taller-herramientas.jpg
+   :width: 120px
+   
+`Imagen herramientas de mano colgadas en el banco de trabajo <https://www.pexels.com/es-es/foto/herramientas-de-mano-colgadas-en-el-banco-de-trabajo-909256/>`__ 
+de `Kim Stiver <https://www.pexels.com/es-es/@wordsurfer>`__
+bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
+
+----
+
+.. image:: taller/_thumbs/taller-herramientas-02.jpg
+   :width: 120px
+   
+`Imagen llave de cierre de acero inoxidable con llave <https://www.pexels.com/es-es/foto/llave-de-cierre-de-acero-inoxidable-con-llave-210881/>`__ 
+de `Pixabay <https://www.pexels.com/es-es/@pixabay>`__
+bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
+
+----
 
 .. PLANTILLA
    `Imagen <>`__

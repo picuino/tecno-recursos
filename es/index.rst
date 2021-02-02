@@ -23,6 +23,8 @@ Recursos educativos libres para Tecnología.
    arduprog/control-index.rst
 
    informatica-index.rst
+
+   taller-index.rst
    
    recursos-index.rst
 
