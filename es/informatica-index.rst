@@ -18,3 +18,4 @@ Tutoriales de ofimática y páginas Web.
    informatica-tutogimp.rst
    html-index.rst
    css-index.rst
+   informatica-recursos.rst
