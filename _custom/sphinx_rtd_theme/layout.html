@@ -2,7 +2,7 @@
 {%- set url_root = pathto('', 1) %}
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
 
-{%- set description = "Recursos educativos libres para Tecnología." %}
+{%- set description = "Recursos educativos libres para Tecnología en Educación Secundaria." %}
 {%- if parents %}
    {%- if parents|length > 1 %}
       {%- set description = description + " "|safe + parents[-2].title + " - "|safe + parents[-1].title + " - "|safe + title|striptags %}
