@@ -45,3 +45,5 @@ Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc
 <https://www.edu.xunta.es/espazoAbalar/espazo/repositorio/cont/titorial-libreoffice-impress>`_
 
 `Créditos del tutorial <../_static/tutorial-impress/impress/docs/creditos.html>`_
+
+Este tutorial se ha realizado con LibreOffice versión 3.6.
