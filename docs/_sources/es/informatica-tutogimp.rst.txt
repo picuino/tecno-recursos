@@ -28,3 +28,5 @@ Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc
 <https://www.edu.xunta.es/espazoAbalar/es/espazo/repositorio/cont/microunidades-de-gimp>`__
 
 `Créditos del tutorial <../_static/tutorial-gimp/docs/creditos_es.html>`_
+
+Este tutorial se ha realizado utilizando GIMP versión 2.6

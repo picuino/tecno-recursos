@@ -2,11 +2,11 @@
 .. _external-index:
 
 
-**********
- Recursos 
-**********
+****************
+ Otros recursos 
+****************
 
-Recursos para tecnología
+Otros recursos para tecnología
 
 .. toctree::
    :maxdepth: 1
