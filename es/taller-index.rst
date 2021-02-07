@@ -17,3 +17,4 @@ Recursos para actividades de taller.
    :titlesonly:
 
    taller-seniales-seguridad.rst
+   taller-historia-herramientas.rst
