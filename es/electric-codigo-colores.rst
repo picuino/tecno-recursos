@@ -7,6 +7,7 @@ Código de colores de las resistencias
 .. figure:: electric/_images/electric-resistencia-02.png
    :width: 240px
    :alt: Código de colores de las resistencias
+   :target: ../_downloads/electric-codigo-colores.pdf
 
 El código de colores de las resistencias sirve para expresar
 el valor de resistencia y su tolerancia con varias bandas de
@@ -29,3 +30,113 @@ la más habitual.
   Formato PDF. <electric/electric-codigo-colores.pdf>`
 | :download:`Problemas de código de colores y ley de Ohm.
   Formato Word. <electric/_sources/electric-codigo-colores.doc>`
+
+
+Traducir colores a valor numérico
+---------------------------------
+
+Para traducir código de colores a valor numérico seguiremos los siguientes 
+pasos:
+
+1. Colocar la resistencia en la posición correcta de manera que la
+   banda de color de tolerancia quede a la derecha.
+   
+   La mayoría de las veces la tolerancia de la resistencia es de un 5%
+   y la banda es de color oro, fácilmente distinguible.
+   
+   La resistencia quedaría con las bandas
+   
+   Amarillo  Morado  Naranja Oro
+   
+2. Traducir las dos primeras bandas de color a números. 
+   En el caso de la resistencia de ejemplo los colores 
+   son amarillo y morado.
+   
+   Amarillo = 4
+   
+   Morado = 7
+   
+   De manera que el primer número es 47
+   
+3. Traducir la tercera banda de color a un multiplicador
+
+   Banda naranja = 3 ceros = multiplicador x 1000
+   
+4. Multiplicar el primer número por el multiplicador para calcular el 
+   valor final.
+
+   47 x 1000 = 47000 Ohmios
+   
+5. Utilizar los sufijos para simplificar los valores muy grandes.
+
+   47000 Ohmios = 47k Ohmios
+
+
+Casos especiales
+----------------
+
+1. Cuando la segunda banda es un cero, hay que tener en cuenta que se añade
+   a los ceros del multiplicador.
+
+   Por ejemplo una resistencia con los siguientes colores.
+
+   Marrón Negro Rojo Oro
+   
+   Se traduce como 10 con multiplicador 100 que resulta ser 1000 Ohmios
+   o 1k Ohmio.
+
+
+2. Cuando el multiplicador es de color Oro, en vez de multiplicar se debe
+   dividir por 10.
+   
+   Por ejemplo una resistencia con los siguientes colores.
+   
+   Verde Azul Oro Oro
+   
+   Se traduce como 56 con multiplicador 0.1 que resulta ser 5.6 Ohmios.
+
+
+Traducir valor numérico a colores
+---------------------------------
+
+Para traducir un valor de resistencia a bandas de colores seguiremos
+los siguientes pasos.
+
+1. Traducir el valor de la resistencia a ohmios sin ningún prefijo.
+   Por ejemplo para una resistencia de 3.9k Ohmios
+   
+   3.9k Ohmios = 3900 Ohmios
+
+2. Hallar las dos primeras bandas de color a partir del valor de la 
+   resistencia. Por ejemplo para una resistencia de 3900 Ohmios
+   
+   3 = Naranja
+   
+   9 = Blanco
+   
+3. Calcular el multiplicador para añadir los ceros que faltan.
+   En el caso de la resistencia de 3900 Ohmios.
+   
+   Multiplicador = 100 = color Rojo (2 ceros)
+   
+4. Añadir la banda de tolerancia de color Oro.
+
+   Naranja Blanco Rojo Oro
+   
+
+Casos especiales
+----------------
+
+1. Cuando la segunda banda es un cero, hay que tener en cuenta que se resta
+   de los ceros del multiplicador.
+
+   Por ejemplo una resistencia con el valor de 100 Ohmios.
+
+   Marrón Negro  = 10
+   
+   Necesita un multiplicador x 10 de color Marron
+   
+   El resultado es 
+   
+   Marrón Negro Marron Oro
+ 
