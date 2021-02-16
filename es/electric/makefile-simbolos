@@ -76,9 +76,9 @@ SYMBOL_NAMES=$(foreach symbol, pila generador transformador lampara \
 	inductancia voltimetro amperimetro interruptor conmutador \
 	pulsador-na pulsador-nc final-carrera fusible rele \
 	rele-contacto conector cable-cruzado cable-conectado tierra \
-	masa diodo led npn pnp resistencia-variable resistencia-ntc \
-	resistencia-ldr puerta-and puerta-or puerta-not puerta-nand \
-	puerta-nor puerta-xor, $(SYMBOL_BASENAME)-$(symbol).png)
+	masa diodo led npn pnp amplificador-operacional resistencia-variable \
+	resistencia-ntc resistencia-ldr puerta-and puerta-or puerta-not \
+	puerta-nand puerta-nor puerta-xor, $(SYMBOL_BASENAME)-$(symbol).png)
 SYMBOL_DIRNAMES=$(foreach symbol, $(SYMBOL_NAMES),$(IMGDIR)/$(symbol))
 
 define crop_symbol
@@ -89,7 +89,7 @@ define crop_symbol
 	$(OPTIPNG) $(IMGDIR)/$(SYMBOL_BASENAME)-$(strip $(2)).png
 endef
 
-$(SYMBOL_NAMES): $(IMGDIR)/$(SYMBOLS_SOURCE)
+$(SYMBOL_DIRNAMES): $(IMGDIR)/$(SYMBOLS_SOURCE)
 	echo $(SYMBOL_NAMES)
 	$(call crop_symbol, "(126,  1)", pila)
 	$(call crop_symbol, "(126,  2)", generador)
@@ -123,6 +123,7 @@ $(SYMBOL_NAMES): $(IMGDIR)/$(SYMBOLS_SOURCE)
 	$(call crop_symbol, "(3306,  2)", led)
 	$(call crop_symbol, "(3306,  3)", npn)
 	$(call crop_symbol, "(3306,  4)", pnp)
+	$(call crop_symbol, "(3306,  5)", amplificador-operacional)
 	$(call crop_symbol, "(3306,  7)", resistencia-variable)
 	$(call crop_symbol, "(3306,  8)", resistencia-ntc)
 	$(call crop_symbol, "(3306,  9)", resistencia-ldr)

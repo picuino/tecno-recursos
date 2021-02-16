@@ -1,9 +1,24 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# AO
+#
+DEF AO U 0 40 Y Y 1 F N
+F0 "U" 250 -150 50 H V C CNN
+F1 "AO" 250 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 4 0 1 0 0 200 0 -200 400 0 0 200 N
+X + ~ -100 100 100 R 50 50 1 1 I
+X - ~ -100 -100 100 R 50 50 1 1 I
+X O ~ 500 0 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # CopyRight
 #
-DEF ~CopyRight CP 0 40 Y Y 1 F N
+DEF CopyRight CP 0 40 Y Y 1 F N
 F0 "CP" 250 50 40 H I C CNN
 F1 "CopyRight" 0 50 40 H I C CNN
 F2 "" -100 350 50 H I C CNN
@@ -17,7 +32,7 @@ ENDDEF
 #
 # LDR
 #
-DEF ~LDR R 0 40 Y Y 1 F N
+DEF LDR R 0 40 Y Y 1 F N
 F0 "R" 75 -200 100 H V L CNN
 F1 "LDR" 0 -200 50 V I C CNN
 F2 "" 50 -75 50 H I C CNN
@@ -35,7 +50,7 @@ ENDDEF
 #
 # LDR_pack
 #
-DEF ~LDR_pack R 0 40 Y Y 1 F N
+DEF LDR_pack R 0 40 Y Y 1 F N
 F0 "R" 265 475 100 H V L CNN
 F1 "LDR_pack" 50 125 40 H I C CNN
 F2 "" -85 250 50 V I C CNN
@@ -66,7 +81,7 @@ ENDDEF
 #
 # LED_pack
 #
-DEF ~LED_pack D 0 40 Y Y 1 F N
+DEF LED_pack D 0 40 Y Y 1 F N
 F0 "D" 350 200 100 H V L CNN
 F1 "LED_pack" 150 375 40 H I C CNN
 F2 "" 0 -25 50 V I C CNN
@@ -93,7 +108,7 @@ ENDDEF
 #
 # LED_pack_5mm
 #
-DEF ~LED_pack_5mm D 0 40 Y Y 1 F N
+DEF LED_pack_5mm D 0 40 Y Y 1 F N
 F0 "D" 200 300 100 H V L CNN
 F1 "LED_pack_5mm" -50 300 40 V I C CNN
 F2 "" -85 305 50 V I C CNN
@@ -156,7 +171,7 @@ ENDDEF
 #
 # NE555
 #
-DEF ~NE555 U 0 40 Y Y 1 F N
+DEF NE555 U 0 40 Y Y 1 F N
 F0 "U" 200 0 100 H V C CNN
 F1 "NE555" 400 -550 100 H I C CNN
 F2 "" 500 -300 50 H I C CNN
@@ -196,7 +211,7 @@ ENDDEF
 #
 # NPN
 #
-DEF ~NPN Q 0 40 Y Y 1 F N
+DEF NPN Q 0 40 Y Y 1 F N
 F0 "Q" 275 -200 100 H V L CNN
 F1 "NPN" -75 -300 50 H I C CNN
 F2 "" 100 -200 50 H I C CNN
@@ -217,7 +232,7 @@ ENDDEF
 #
 # NPN_BD135_pack
 #
-DEF ~NPN_BD135_pack Q 0 40 Y Y 1 F N
+DEF NPN_BD135_pack Q 0 40 Y Y 1 F N
 F0 "Q" 50 -200 100 H V L CNN
 F1 "NPN_BD135_pack" -300 -200 50 V I C CNN
 F2 "" 1200 -200 50 H I C CNN
@@ -242,7 +257,7 @@ ENDDEF
 #
 # NTC
 #
-DEF ~NTC R 0 40 Y Y 1 F N
+DEF NTC R 0 40 Y Y 1 F N
 F0 "R" 75 -200 100 H V L CNN
 F1 "NTC" -150 -300 50 V I C CNN
 F2 "" 50 -75 50 H I C CNN
@@ -258,7 +273,7 @@ ENDDEF
 #
 # PNP
 #
-DEF ~PNP Q 0 40 Y Y 1 F N
+DEF PNP Q 0 40 Y Y 1 F N
 F0 "Q" 275 -200 100 H V L CNN
 F1 "PNP" -75 -300 50 H I C CNN
 F2 "" 100 -200 50 H I C CNN
@@ -279,7 +294,7 @@ ENDDEF
 #
 # PTC
 #
-DEF ~PTC R 0 40 Y Y 1 F N
+DEF PTC R 0 40 Y Y 1 F N
 F0 "R" 75 -200 100 H V L CNN
 F1 "PTC" -150 -300 50 V I C CNN
 F2 "" 50 -75 50 H I C CNN
@@ -295,7 +310,7 @@ ENDDEF
 #
 # Pila
 #
-DEF ~Pila V 0 40 Y Y 1 F N
+DEF Pila V 0 40 Y Y 1 F N
 F0 "V" 200 -175 100 H V L CNN
 F1 "Pila" 100 -75 50 H I C CNN
 F2 "" 0 -125 50 H I C CNN
@@ -312,7 +327,7 @@ ENDDEF
 #
 # TO225_pack
 #
-DEF ~TO225_pack Q 0 40 Y Y 1 F N
+DEF TO225_pack Q 0 40 Y Y 1 F N
 F0 "Q" -475 250 100 H V L CNN
 F1 "TO225_pack" -375 -200 50 H I C CNN
 F2 "" 1200 -200 50 H I C CNN
@@ -340,7 +355,7 @@ ENDDEF
 #
 # altavoz
 #
-DEF ~altavoz Z 0 40 Y Y 1 F N
+DEF altavoz Z 0 40 Y Y 1 F N
 F0 "Z" 225 25 100 H V R CNN
 F1 "altavoz" 350 -150 50 V I C CNN
 F2 "" 50 -150 50 H I C CNN
@@ -357,7 +372,7 @@ ENDDEF
 #
 # amperimetro_0
 #
-DEF ~amperimetro_0 A 0 40 Y Y 1 F N
+DEF amperimetro_0 A 0 40 Y Y 1 F N
 F0 "A" 200 -200 100 H V L CNN
 F1 "amperimetro_0" -150 -200 50 V I C CNN
 F2 "" 0 -225 50 V I C CNN
@@ -372,7 +387,7 @@ ENDDEF
 #
 # bateria
 #
-DEF ~bateria V 0 40 Y Y 1 F N
+DEF bateria V 0 40 Y Y 1 F N
 F0 "V" 200 -175 100 H V L CNN
 F1 "bateria" 150 -50 50 H I C CNN
 F2 "" 0 -125 50 H I C CNN
@@ -394,7 +409,7 @@ ENDDEF
 #
 # borna_12x2
 #
-DEF ~borna_12x2 X 0 40 Y Y 1 F N
+DEF borna_12x2 X 0 40 Y Y 1 F N
 F0 "X" 150 150 100 H V C CNN
 F1 "borna_12x2" 150 50 50 H I C CNN
 F2 "" 0 -125 50 V I C CNN
@@ -522,7 +537,7 @@ ENDDEF
 #
 # borna_6x2
 #
-DEF ~borna_6x2 X 0 40 Y Y 1 F N
+DEF borna_6x2 X 0 40 Y Y 1 F N
 F0 "X" 150 150 100 H V C CNN
 F1 "borna_6x2" 150 50 50 H I C CNN
 F2 "" 0 -125 50 V I C CNN
@@ -590,7 +605,7 @@ ENDDEF
 #
 # cable
 #
-DEF ~cable L 0 40 Y Y 1 F N
+DEF cable L 0 40 Y Y 1 F N
 F0 "L" 0 100 50 H I L CNN
 F1 "cable" 50 50 50 H I C CNN
 F2 "" 0 -225 50 V I C CNN
@@ -604,7 +619,7 @@ ENDDEF
 #
 # condensador
 #
-DEF ~condensador C 0 40 Y Y 1 F N
+DEF condensador C 0 40 Y Y 1 F N
 F0 "C" 150 -175 100 H V L CNN
 F1 "condensador" -175 -150 50 V I C CNN
 F2 "" 50 -100 50 H I C CNN
@@ -619,7 +634,7 @@ ENDDEF
 #
 # condensador_pack
 #
-DEF ~condensador_pack C 0 40 Y Y 1 F N
+DEF condensador_pack C 0 40 Y Y 1 F N
 F0 "C" 375 450 100 H V L CNN
 F1 "condensador_pack" 125 475 50 V I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -639,7 +654,7 @@ ENDDEF
 #
 # condensador_pol
 #
-DEF ~condensador_pol C 0 40 Y Y 1 F N
+DEF condensador_pol C 0 40 Y Y 1 F N
 F0 "C" 150 -175 100 H V L CNN
 F1 "condensador_pol" -175 -150 50 V I C CNN
 F2 "" 50 -100 50 H I C CNN
@@ -656,20 +671,20 @@ ENDDEF
 #
 # conector
 #
-DEF ~conector o 0 40 Y Y 1 F N
+DEF conector o 0 40 Y Y 1 F N
 F0 "o" 150 -150 100 H I C CNN
 F1 "conector" -75 -50 50 H I C CNN
 F2 "" 125 0 50 H I C CNN
 F3 "" 125 0 50 H I C CNN
 DRAW
-S 50 50 150 -50 0 1 0 N
-X ~ ~ 0 0 50 R 45 50 1 1 I
+C 100 0 40 0 1 0 N
+X ~ ~ 0 0 60 R 45 50 1 1 I
 ENDDRAW
 ENDDEF
 #
 # conectores_linea
 #
-DEF ~conectores_linea o 0 40 Y Y 1 F N
+DEF conectores_linea o 0 40 Y Y 1 F N
 F0 "o" 150 -50 100 H I C CNN
 F1 "conectores_linea" -150 -200 50 V I C CNN
 F2 "" 25 -50 50 H I C CNN
@@ -696,7 +711,7 @@ ENDDEF
 #
 # current
 #
-DEF ~current I 0 40 Y Y 1 F N
+DEF current I 0 40 Y Y 1 F N
 F0 "I" 100 50 50 H V C CNN
 F1 "current" 125 -25 50 H I C CNN
 F2 "" 150 0 50 H I C CNN
@@ -708,7 +723,7 @@ ENDDEF
 #
 # diodo
 #
-DEF ~diodo D 0 40 Y Y 1 F N
+DEF diodo D 0 40 Y Y 1 F N
 F0 "D" 100 -150 100 H V L CNN
 F1 "diodo" 0 50 50 H I C CNN
 F2 "" 0 -150 50 V I C CNN
@@ -723,7 +738,7 @@ ENDDEF
 #
 # diodo_led
 #
-DEF ~diodo_led D 0 40 Y Y 1 F N
+DEF diodo_led D 0 40 Y Y 1 F N
 F0 "D" 200 -150 100 H V L CNN
 F1 "diodo_led" 0 50 50 H I C CNN
 F2 "" 0 -150 50 V I C CNN
@@ -744,7 +759,7 @@ ENDDEF
 #
 # final_carrera
 #
-DEF ~final_carrera S 0 40 Y Y 1 F N
+DEF final_carrera S 0 40 Y Y 1 F N
 F0 "S" 175 125 100 H V R CNN
 F1 "final_carrera" 250 -75 50 H I C CNN
 F2 "" 300 0 50 H I C CNN
@@ -763,7 +778,7 @@ ENDDEF
 #
 # fusible
 #
-DEF ~fusible F 0 40 Y Y 1 F N
+DEF fusible F 0 40 Y Y 1 F N
 F0 "F" 75 -200 100 H V L CNN
 F1 "fusible" -100 -200 50 V I C CNN
 F2 "" 100 -100 50 H I C CNN
@@ -778,7 +793,7 @@ ENDDEF
 #
 # generador
 #
-DEF ~generador V 0 40 Y Y 1 F N
+DEF generador V 0 40 Y Y 1 F N
 F0 "V" 175 -200 100 H V L CNN
 F1 "generador" 50 -525 50 V I C CNN
 F2 "" 0 -175 50 V I C CNN
@@ -794,7 +809,7 @@ ENDDEF
 #
 # inductancia
 #
-DEF ~inductancia L 0 40 Y Y 1 F N
+DEF inductancia L 0 40 Y Y 1 F N
 F0 "L" 25 -200 100 H V L CNN
 F1 "inductancia" -100 -225 50 V I C CNN
 F2 "" 50 -100 50 H I C CNN
@@ -810,7 +825,7 @@ ENDDEF
 #
 # lampara
 #
-DEF ~lampara L 0 40 Y Y 1 F N
+DEF lampara L 0 40 Y Y 1 F N
 F0 "L" 175 -200 100 H V L CNN
 F1 "lampara" 50 -525 50 V I C CNN
 F2 "" 0 -175 50 V I C CNN
@@ -826,7 +841,7 @@ ENDDEF
 #
 # lampara_pack
 #
-DEF ~lampara_pack L 0 40 Y Y 1 F N
+DEF lampara_pack L 0 40 Y Y 1 F N
 F0 "L" 700 250 100 H V L CNN
 F1 "lampara_pack" 500 -75 50 H I C CNN
 F2 "" 100 -150 50 H I C CNN
@@ -873,7 +888,7 @@ ENDDEF
 #
 # logic_and
 #
-DEF ~logic_and U 0 40 Y Y 4 F N
+DEF logic_and U 0 40 Y Y 4 F N
 F0 "U" 450 -250 100 H V L CNN
 F1 "logic_and" 300 100 50 H I C CNN
 F2 "" 100 -175 50 V I C CNN
@@ -898,7 +913,7 @@ ENDDEF
 #
 # logic_nand
 #
-DEF ~logic_nand U 0 40 Y Y 4 F N
+DEF logic_nand U 0 40 Y Y 4 F N
 F0 "U" 450 -250 100 H V L CNN
 F1 "logic_nand" 300 100 50 H I C CNN
 F2 "" 100 -175 50 V I C CNN
@@ -923,7 +938,7 @@ ENDDEF
 #
 # logic_nor
 #
-DEF ~logic_nor U 0 40 Y Y 4 F N
+DEF logic_nor U 0 40 Y Y 4 F N
 F0 "U" 450 -250 100 H V L CNN
 F1 "logic_nor" 300 100 50 H I C CNN
 F2 "" 100 -175 50 V I C CNN
@@ -951,31 +966,27 @@ ENDDEF
 #
 # logic_not
 #
-DEF ~logic_not U 0 40 Y Y 4 F N
+DEF logic_not U 0 40 Y Y 4 F N
 F0 "U" 300 -250 100 H V L CNN
 F1 "logic_not" 350 100 50 H I C CNN
 F2 "" 100 -175 50 V I C CNN
 F3 "" 100 -175 50 V I C CNN
 DRAW
 P 4 0 1 0 100 100 425 -100 100 -300 100 100 N
-X A 1 0 0 100 R 50 50 1 1 I
-X B 2 0 -200 100 R 50 50 1 1 I
-X O 3 600 -100 175 L 50 50 1 1 O I
-X A 4 0 0 100 R 50 50 2 1 I
-X B 5 0 -200 100 R 50 50 2 1 I
+X A 1 0 -100 100 R 50 50 1 1 I
+X O 2 600 -100 175 L 50 50 1 1 O I
+X A 4 0 -100 100 R 50 50 2 1 I
 X O 6 600 -100 175 L 50 50 2 1 O I
-X B 10 0 -200 100 R 50 50 3 1 I
 X O 8 600 -100 175 L 50 50 3 1 O I
-X A 9 0 0 100 R 50 50 3 1 I
+X A 9 0 -100 100 R 50 50 3 1 I
 X O 11 600 -100 175 L 50 50 4 1 O I
-X A 12 0 0 100 R 50 50 4 1 I
-X B 13 0 -200 100 R 50 50 4 1 I
+X A 12 0 -100 100 R 50 50 4 1 I
 ENDDRAW
 ENDDEF
 #
 # logic_or
 #
-DEF ~logic_or U 0 40 Y Y 4 F N
+DEF logic_or U 0 40 Y Y 4 F N
 F0 "U" 450 -250 100 H V L CNN
 F1 "logic_or" 300 100 50 H I C CNN
 F2 "" 100 -175 50 V I C CNN
@@ -1003,7 +1014,7 @@ ENDDEF
 #
 # logic_xor
 #
-DEF ~logic_xor U 0 40 Y Y 4 F N
+DEF logic_xor U 0 40 Y Y 4 F N
 F0 "U" 450 -250 100 H V L CNN
 F1 "logic_xor" 300 100 50 H I C CNN
 F2 "" 100 -175 50 V I C CNN
@@ -1036,7 +1047,7 @@ ENDDEF
 #
 # marco_1
 #
-DEF ~marco_1 M 0 40 Y Y 1 F N
+DEF marco_1 M 0 40 Y Y 1 F N
 F0 "M" 125 -175 100 H I C CNN
 F1 "marco_1" 150 -50 50 H I C CNN
 F2 "" 50 -150 50 H I C CNN
@@ -1050,7 +1061,7 @@ ENDDEF
 #
 # marco_2
 #
-DEF ~marco_2 M 0 40 Y Y 1 F N
+DEF marco_2 M 0 40 Y Y 1 F N
 F0 "M" 100 -200 100 H I C CNN
 F1 "marco_2" 400 -200 50 H I C CNN
 F2 "" 50 -275 50 H I C CNN
@@ -1069,7 +1080,7 @@ ENDDEF
 #
 # marco_3
 #
-DEF ~marco_3 M 0 40 Y Y 1 F N
+DEF marco_3 M 0 40 Y Y 1 F N
 F0 "M" 100 -200 100 H I C CNN
 F1 "marco_3" 400 -200 50 H I C CNN
 F2 "" 50 -275 50 H I C CNN
@@ -1081,7 +1092,7 @@ ENDDEF
 #
 # masa
 #
-DEF ~masa V 0 40 Y Y 1 F N
+DEF masa V 0 40 Y Y 1 F N
 F0 "V" 25 -25 100 H I L CNN
 F1 "masa" -125 -25 50 H I C CNN
 F2 "" 300 -150 50 H I C CNN
@@ -1099,7 +1110,7 @@ ENDDEF
 #
 # motor
 #
-DEF ~motor M 0 40 Y Y 1 F N
+DEF motor M 0 40 Y Y 1 F N
 F0 "M" 175 -200 100 H V L CNN
 F1 "motor" 50 -525 50 V I C CNN
 F2 "" 0 -225 50 V I C CNN
@@ -1126,7 +1137,7 @@ ENDDEF
 #
 # pila_petaca
 #
-DEF ~pila_petaca V 0 40 Y Y 1 F N
+DEF pila_petaca V 0 40 Y Y 1 F N
 F0 "V" 450 -350 100 H V L CNN
 F1 "pila_petaca" 150 -325 50 H I C CNN
 F2 "" 350 -325 50 V I C CNN
@@ -1146,7 +1157,7 @@ ENDDEF
 #
 # potenciometro
 #
-DEF ~potenciometro R 0 40 Y Y 1 F N
+DEF potenciometro R 0 40 Y Y 1 F N
 F0 "R" 75 -75 100 H V L CNN
 F1 "potenciometro" -100 -225 50 V I C CNN
 F2 "" 50 -100 50 H I C CNN
@@ -1205,7 +1216,7 @@ ENDDEF
 #
 # pulsador_na
 #
-DEF ~pulsador_na S 0 40 Y Y 1 F N
+DEF pulsador_na S 0 40 Y Y 1 F N
 F0 "S" 75 125 100 H V R CNN
 F1 "pulsador_na" 0 -50 50 H I C CNN
 F2 "" 300 25 50 H I C CNN
@@ -1224,7 +1235,7 @@ ENDDEF
 #
 # pulsador_nc
 #
-DEF ~pulsador_nc S 0 40 Y Y 1 F N
+DEF pulsador_nc S 0 40 Y Y 1 F N
 F0 "S" 150 125 100 H V R CNN
 F1 "pulsador_nc" 0 -50 50 H I C CNN
 F2 "" 300 25 50 H I C CNN
@@ -1243,7 +1254,7 @@ ENDDEF
 #
 # pulsador_telegrafo
 #
-DEF ~pulsador_telegrafo S 0 40 Y Y 1 F N
+DEF pulsador_telegrafo S 0 40 Y Y 1 F N
 F0 "S" 75 375 100 H V L CNN
 F1 "pulsador_telegrafo" 1015 -420 50 H I C CNN
 F2 "" 0 -775 50 V I C CNN
@@ -1282,7 +1293,7 @@ ENDDEF
 #
 # pulsador_telegrafo_2
 #
-DEF ~pulsador_telegrafo_2 S 0 40 Y Y 1 F N
+DEF pulsador_telegrafo_2 S 0 40 Y Y 1 F N
 F0 "S" 575 325 100 H V C CNN
 F1 "pulsador_telegrafo_2" 1090 830 50 H I C CNN
 F2 "" 75 475 50 V I C CNN
@@ -1299,7 +1310,7 @@ ENDDEF
 #
 # rele
 #
-DEF ~rele K 0 40 Y Y 1 F N
+DEF rele K 0 40 Y Y 1 F N
 F0 "K" -175 -150 100 H V R CNN
 F1 "rele" -100 -150 50 V I C CNN
 F2 "" 100 -100 50 H I C CNN
@@ -1324,7 +1335,7 @@ ENDDEF
 #
 # rele_contacto
 #
-DEF ~rele_contacto K 0 40 Y Y 1 F N
+DEF rele_contacto K 0 40 Y Y 1 F N
 F0 "K" 50 -50 100 H V L CNN
 F1 "rele_contacto" -100 -250 50 V I C CNN
 F2 "" 100 -100 50 H I C CNN
@@ -1345,7 +1356,7 @@ ENDDEF
 #
 # resistencia
 #
-DEF ~resistencia R 0 40 Y Y 1 F N
+DEF resistencia R 0 40 Y Y 1 F N
 F0 "R" 75 -200 100 H V L CNN
 F1 "resistencia" -100 -225 50 V I C CNN
 F2 "" 100 -100 50 H I C CNN
@@ -1359,7 +1370,7 @@ ENDDEF
 #
 # resistencia_pack
 #
-DEF ~resistencia_pack R 0 40 Y Y 1 F N
+DEF resistencia_pack R 0 40 Y Y 1 F N
 F0 "R" 250 150 100 H V R CNN
 F1 "resistencia_pack" 300 -125 50 H I C CNN
 F2 "" 100 100 50 V I C CNN
@@ -1389,7 +1400,7 @@ ENDDEF
 #
 # resistencia_variable
 #
-DEF ~resistencia_variable R 0 40 Y Y 1 F N
+DEF resistencia_variable R 0 40 Y Y 1 F N
 F0 "R" 75 -200 100 H V L CNN
 F1 "resistencia_variable" -150 -300 50 V I C CNN
 F2 "" 50 -75 50 H I C CNN
@@ -1404,7 +1415,7 @@ ENDDEF
 #
 # selector
 #
-DEF ~selector S 0 40 Y Y 1 F N
+DEF selector S 0 40 Y Y 1 F N
 F0 "S" 175 125 100 H V R CNN
 F1 "selector" 0 -50 50 H I C CNN
 F2 "" 300 -150 50 H I C CNN
@@ -1423,7 +1434,7 @@ ENDDEF
 #
 # selector_pack
 #
-DEF ~selector_pack S 0 40 Y Y 1 F N
+DEF selector_pack S 0 40 Y Y 1 F N
 F0 "S" 450 350 100 H V R CNN
 F1 "selector_pack" 200 200 50 H I C CNN
 F2 "" 300 -150 50 H I C CNN
@@ -1441,7 +1452,7 @@ ENDDEF
 #
 # switch
 #
-DEF ~switch S 0 40 Y Y 1 F N
+DEF switch S 0 40 Y Y 1 F N
 F0 "S" 175 125 100 H V R CNN
 F1 "switch" 250 -100 50 H I C CNN
 F2 "" 300 0 50 H I C CNN
@@ -1458,7 +1469,7 @@ ENDDEF
 #
 # tierra
 #
-DEF ~tierra V 0 40 Y Y 1 F N
+DEF tierra V 0 40 Y Y 1 F N
 F0 "V" 25 -25 100 H I L CNN
 F1 "tierra" -125 -25 50 H I C CNN
 F2 "" 300 -150 50 H I C CNN
@@ -1473,7 +1484,7 @@ ENDDEF
 #
 # transformador
 #
-DEF ~transformador TR 0 40 Y Y 1 F N
+DEF transformador TR 0 40 Y Y 1 F N
 F0 "TR" 350 -200 100 H V L CNN
 F1 "transformador" 150 100 50 H I C CNN
 F2 "" 350 -100 50 H I C CNN
@@ -1496,7 +1507,7 @@ ENDDEF
 #
 # valvula_2_2
 #
-DEF ~valvula_2_2 V 0 40 Y Y 1 F N
+DEF valvula_2_2 V 0 40 Y Y 1 F N
 F0 "V" -50 -100 100 H I L CNN
 F1 "valvula_2_2" 25 300 50 H I C CNN
 F2 "" 0 -125 50 H I C CNN
@@ -1516,7 +1527,7 @@ ENDDEF
 #
 # valvula_3_2
 #
-DEF ~valvula_3_2 V 0 40 Y Y 1 F N
+DEF valvula_3_2 V 0 40 Y Y 1 F N
 F0 "V" -50 -100 100 H I L CNN
 F1 "valvula_3_2" 25 300 50 H I C CNN
 F2 "" 0 -125 50 H I C CNN
@@ -1539,7 +1550,7 @@ ENDDEF
 #
 # valvula_4_2
 #
-DEF ~valvula_4_2 V 0 40 Y Y 1 F N
+DEF valvula_4_2 V 0 40 Y Y 1 F N
 F0 "V" -50 -100 100 H I L CNN
 F1 "valvula_4_2" 0 300 50 H I C CNN
 F2 "" 0 -125 50 H I C CNN
@@ -1564,7 +1575,7 @@ ENDDEF
 #
 # valvula_5_2
 #
-DEF ~valvula_5_2 V 0 40 Y Y 1 F N
+DEF valvula_5_2 V 0 40 Y Y 1 F N
 F0 "V" -50 -100 100 H I L CNN
 F1 "valvula_5_2" 0 300 50 H I C CNN
 F2 "" 0 -125 50 H I C CNN
@@ -1593,7 +1604,7 @@ ENDDEF
 #
 # voltaje_drop
 #
-DEF ~voltaje_drop V 0 40 Y Y 1 F N
+DEF voltaje_drop V 0 40 Y Y 1 F N
 F0 "V" -150 0 50 H V C CNN
 F1 "voltaje_drop" 0 0 20 V I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -1607,7 +1618,7 @@ ENDDEF
 #
 # voltimetro
 #
-DEF ~voltimetro V 0 40 Y Y 1 F N
+DEF voltimetro V 0 40 Y Y 1 F N
 F0 "V" 200 -200 100 H V L CNN
 F1 "voltimetro" -150 -200 50 V I C CNN
 F2 "" 0 -225 50 V I C CNN
@@ -1622,7 +1633,7 @@ ENDDEF
 #
 # zumbador
 #
-DEF ~zumbador Z 0 40 Y Y 1 F N
+DEF zumbador Z 0 40 Y Y 1 F N
 F0 "Z" 150 325 100 H V C CNN
 F1 "zumbador" 150 -50 50 H I C CNN
 F2 "" 50 -100 50 H I C CNN
