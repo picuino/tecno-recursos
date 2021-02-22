@@ -1,1 +1,0 @@
-convert.exe -density 150 %1 -transparent White %~n1.png

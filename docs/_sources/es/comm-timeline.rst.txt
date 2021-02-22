@@ -10,6 +10,8 @@ a distancia.
 
 .. image:: comm/comm-timeline.png
    :width: 700px
+   :target: ../_downloads/comm-timeline.pdf
+
 
 Entre los principales inventos relacionados con las comunicaciones
 están los métodos para representar la información en medios físicos.
@@ -31,4 +33,8 @@ comunicaciones y representar en una cartulina grande una linea de
 tiempo con al menos 20 de los principales hitos ordenados.
 Se deberán representar al menos 15 imágenes.
 
-:download:`Hitos de las comunicaciones <comm/comm-timeline.doc>`
+| :download:`Hitos de las comunicaciones. formato PDF
+  <comm/comm-timeline.pdf>`
+|
+| :download:`Hitos de las comunicaciones. formato DOC
+  <comm/comm-timeline.doc>`
