@@ -22,11 +22,17 @@ PYTHON=python
 # electric-cableado
 #
 
-$(IMGDIR)/electric-cableado.png: electric-cableado.pdf
+$(IMGDIR)/electric-cableado-1.png: electric-cableado.pdf
 	$(PDFTOPNG) $< $(basename $<)
-	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<).png
-	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<).png
-	$(OPTIPNG) $(IMGDIR)/$(basename $<).png
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-1.png
+	mv $(basename $<)-000002.png  $(IMGDIR)/$(basename $<)-2.png
+	mv $(basename $<)-000003.png  $(IMGDIR)/$(basename $<)-3.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-2.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-3.png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-1.png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-2.png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-3.png
 
 $(IMGDIR)/electric-cableado-circuitos.png: electric-cableado-circuitos.pdf
 	$(PDFTOPNG) $< $(basename $<)
@@ -34,8 +40,8 @@ $(IMGDIR)/electric-cableado-circuitos.png: electric-cableado-circuitos.pdf
 	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<).png
 	$(OPTIPNG) $(IMGDIR)/$(basename $<).png
 
-electric-cableado.zip: $(LIBS) $(wildcard cableado-electrico/*)
-	rm -f $@ cableado-electrico/*.bak
+electric-cableado.zip: $(LIBS) $(wildcard electric-cableado/*)
+	rm -f $@ electric-cableado/*.bak
 	$(ZIP) $@ $^
 
 
@@ -43,12 +49,14 @@ electric-cableado.zip: $(LIBS) $(wildcard cableado-electrico/*)
 all-cableado: \
 	electric-cableado.zip \
 	$(IMGDIR)/electric-cableado-circuitos.png \
-	$(IMGDIR)/electric-cableado.png \
+	$(IMGDIR)/electric-cableado-1.png \
 
 clean-cableado:
 	rm -f electric-cableado.zip
 	rm -f $(IMGDIR)/electric-cableado-circuitos.png
-	rm -f $(IMGDIR)/electric-cableado.png
+	rm -f $(IMGDIR)/electric-cableado-1.png
+	rm -f $(IMGDIR)/electric-cableado-2.png
+	rm -f $(IMGDIR)/electric-cableado-3.png
 
 
 # --------------------------------------------------------------------
