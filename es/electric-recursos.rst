@@ -5,6 +5,19 @@ Recursos para electricidad
 ==========================
 
 
+El motor eléctrico
+------------------
+Experimento para construir un pequeño motor eléctrico.
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="https://www.youtube.com/embed/q35IjXC54H8"
+   frameborder="0" allowfullscreen></iframe>
+   </div>
+
+
+
 Cuestionarios de electricidad (Questionary)
 -------------------------------------------
 
