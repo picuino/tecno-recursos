@@ -1,0 +1,219 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# simbolos_CopyRight
+#
+DEF simbolos_CopyRight CP 0 40 Y Y 1 F N
+F0 "CP" 250 50 40 H I C CNN
+F1 "simbolos_CopyRight" 0 50 40 H I C CNN
+F2 "" -100 350 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+F4 "CC BY-SA 4.0" -50 -50 60 H V R CNN "License"
+F5 "www.picuino.com" 0 -50 60 H V L CNN "Web"
+DRAW
+P 2 0 1 8 -400 0 400 0 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_LDR
+#
+DEF simbolos_LDR R 0 40 Y Y 1 F N
+F0 "R" 75 -200 100 H V L CNN
+F1 "simbolos_LDR" 0 -200 50 V I C CNN
+F2 "" 50 -75 50 H I C CNN
+F3 "" 50 -75 50 H I C CNN
+DRAW
+S -50 -75 50 -325 0 1 0 N
+P 2 0 1 0 -100 -275 -200 -175 N
+P 2 0 1 0 -100 -175 -200 -75 N
+P 4 0 1 0 -100 -275 -125 -225 -150 -250 -100 -275 N
+P 4 0 1 0 -100 -175 -125 -125 -150 -150 -100 -175 N
+X ~ ~ 0 -400 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_NPN
+#
+DEF simbolos_NPN Q 0 40 Y Y 1 F N
+F0 "Q" 275 -200 100 H V L CNN
+F1 "simbolos_NPN" -75 -300 50 H I C CNN
+F2 "" 100 -200 50 H I C CNN
+F3 "" 100 -200 50 H I C CNN
+DRAW
+T 0 25 -150 60 0 0 0 B Normal 0 C C
+T 0 300 -50 60 0 0 0 C Normal 0 C C
+T 0 300 -350 60 0 0 0 E Normal 0 C C
+P 2 0 0 0 175 -275 100 -200 N
+P 4 0 0 0 250 -350 200 -250 150 -300 250 -350 N
+P 2 0 1 0 100 -200 250 -50 N
+P 2 0 1 0 100 -50 100 -350 N
+X ~ ~ 0 -200 100 R 45 50 1 1 I
+X ~ ~ 250 -400 50 U 45 50 1 1 I
+X ~ ~ 250 0 50 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pila
+#
+DEF simbolos_Pila V 0 40 Y Y 1 F N
+F0 "V" 200 -175 100 H V L CNN
+F1 "simbolos_Pila" 100 -75 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+P 2 0 1 0 -160 -50 -90 -50 N
+P 2 0 1 0 -150 -125 150 -125 N
+P 2 0 1 0 -125 -15 -125 -85 N
+P 2 0 1 0 -75 -200 75 -200 N
+X ~ ~ 0 -300 100 U 45 50 1 1 I
+X ~ ~ 0 0 125 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_condensador_pol
+#
+DEF simbolos_condensador_pol C 0 40 Y Y 1 F N
+F0 "C" 150 -175 100 H V L CNN
+F1 "simbolos_condensador_pol" -175 -150 50 V I C CNN
+F2 "" 50 -100 50 H I C CNN
+F3 "" 50 -100 50 H I C CNN
+DRAW
+P 2 0 1 0 -125 -125 125 -125 N
+P 2 0 1 0 -100 -15 -100 -85 N
+P 2 0 1 0 -65 -50 -135 -50 N
+P 2 0 1 0 125 -200 -125 -200 N
+X ~ ~ 0 -300 100 U 45 50 1 1 I
+X ~ ~ 0 0 125 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_conector
+#
+DEF simbolos_conector o 0 40 Y Y 1 F N
+F0 "o" 150 -150 100 H I C CNN
+F1 "simbolos_conector" -75 -50 50 H I C CNN
+F2 "" 125 0 50 H I C CNN
+F3 "" 125 0 50 H I C CNN
+DRAW
+C 100 0 40 0 1 0 N
+X ~ ~ 0 0 60 R 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_diodo_led
+#
+DEF simbolos_diodo_led D 0 40 Y Y 1 F N
+F0 "D" 200 -150 100 H V L CNN
+F1 "simbolos_diodo_led" 0 50 50 H I C CNN
+F2 "" 0 -150 50 V I C CNN
+F3 "" 0 -150 50 V I C CNN
+DRAW
+P 2 0 1 0 55 -170 135 -210 N
+P 2 0 1 0 75 -225 -75 -225 N
+P 2 0 1 0 80 -120 160 -160 N
+P 2 0 1 0 135 -210 93 -204 N
+P 2 0 1 0 135 -210 105 -180 N
+P 2 0 1 0 160 -160 118 -154 N
+P 2 0 1 0 160 -160 130 -130 N
+P 4 0 1 0 75 -75 -75 -75 0 -225 75 -75 N
+X ~ ~ 0 -300 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_lampara
+#
+DEF simbolos_lampara L 0 40 Y Y 1 F N
+F0 "L" 175 -200 100 H V L CNN
+F1 "simbolos_lampara" 50 -525 50 V I C CNN
+F2 "" 0 -175 50 V I C CNN
+F3 "" 0 -175 50 V I C CNN
+DRAW
+C 0 -200 130 0 1 0 N
+P 2 0 1 0 -90 -295 90 -115 N
+P 2 0 1 0 -90 -115 90 -295 N
+X ~ ~ 0 -400 70 U 45 50 1 1 I
+X ~ ~ 0 0 70 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_numero
+#
+DEF simbolos_numero N 0 40 Y Y 1 F N
+F0 "N" -100 -200 100 H I L CNN
+F1 "simbolos_numero" 0 0 150 H V C CNN
+F2 "" 50 0 50 H I C CNN
+F3 "" 50 0 50 H I C CNN
+DRAW
+S -150 150 150 -150 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_potenciometro
+#
+DEF simbolos_potenciometro R 0 40 Y Y 1 F N
+F0 "R" 75 -75 100 H V L CNN
+F1 "simbolos_potenciometro" -100 -225 50 V I C CNN
+F2 "" 50 -100 50 H I C CNN
+F3 "" 50 -100 50 H I C CNN
+DRAW
+S -50 -75 50 -325 0 1 0 N
+P 4 0 1 0 50 -200 125 -175 125 -225 50 -200 N
+X ~ ~ 0 -400 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+X ~ ~ 200 -200 75 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_resistencia
+#
+DEF simbolos_resistencia R 0 40 Y Y 1 F N
+F0 "R" 75 -200 100 H V L CNN
+F1 "simbolos_resistencia" -100 -225 50 V I C CNN
+F2 "" 100 -100 50 H I C CNN
+F3 "" 100 -100 50 H I C CNN
+DRAW
+S -50 -75 50 -325 0 1 0 N
+X ~ ~ 0 -400 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_selector
+#
+DEF simbolos_selector S 0 40 Y Y 1 F N
+F0 "S" 175 125 100 H V R CNN
+F1 "simbolos_selector" 0 -50 50 H I C CNN
+F2 "" 300 -150 50 H I C CNN
+F3 "" 300 -150 50 H I C CNN
+ALIAS conmutador
+DRAW
+C 125 0 25 0 0 0 N
+C 375 -150 25 0 0 0 N
+C 375 150 25 0 0 0 N
+P 2 0 1 0 400 115 150 10 N
+X ~ ~ 0 0 100 R 45 50 1 1 I
+X ~ ~ 500 -150 100 L 45 50 1 1 I
+X ~ ~ 500 150 100 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_switch
+#
+DEF simbolos_switch S 0 40 Y Y 1 F N
+F0 "S" 175 125 100 H V R CNN
+F1 "simbolos_switch" 250 -100 50 H I C CNN
+F2 "" 300 0 50 H I C CNN
+F3 "" 300 0 50 H I C CNN
+ALIAS interruptor
+DRAW
+C 125 0 25 0 0 0 N
+C 375 0 25 0 0 0 N
+P 2 0 0 0 350 150 145 15 N
+X ~ ~ 0 0 100 R 45 50 1 1 I
+X ~ ~ 500 0 100 L 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

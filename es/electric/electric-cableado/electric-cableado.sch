@@ -1,0 +1,1408 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 3
+Title "Cableado eléctrico"
+Date "19/10/2018"
+Rev ""
+Comp "www.picuino.com"
+Comment1 "Copyright (c) 2018 by Carlos Pardo"
+Comment2 "License CC BY-SA 4.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	625  1250 925  1250
+Wire Wire Line
+	1425 1250 1825 1250
+Wire Wire Line
+	1825 2250 625  2250
+Wire Wire Line
+	625  2250 625  1950
+$Comp
+L simbolos:switch S1
+U 1 1 5BB9C481
+P 925 1250
+F 0 "S1" H 975 1400 100 0000 C CNN
+F 1 "switch" H 675 1200 50  0001 C CNN
+F 2 "" H 975 1250 50  0001 C CNN
+F 3 "" H 975 1250 50  0001 C CNN
+	1    925  1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Pila V1
+U 1 1 5BB9C5FF
+P 625 1650
+F 0 "V1" H 825 1500 100 0000 L CNN
+F 1 "Pila" H 725 1700 50  0001 C CNN
+F 2 "" H 625 1650 50  0001 C CNN
+F 3 "" H 625 1650 50  0001 C CNN
+	1    625  1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2050 5000 2050
+Wire Wire Line
+	4550 1650 5000 1650
+$Comp
+L simbolos:switch S1
+U 1 1 5BBA8AA8
+P 7200 1350
+F 0 "S1" H 7250 1500 100 0000 C CNN
+F 1 "switch" H 6950 1300 50  0001 C CNN
+F 2 "" H 7250 1350 50  0001 C CNN
+F 3 "" H 7250 1350 50  0001 C CNN
+	1    7200 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 1350 7700 1650
+Wire Wire Line
+	7100 1650 7700 1650
+Wire Wire Line
+	7200 1350 7100 1350
+Wire Notes Line width 16 style solid rgb(0, 0, 0)
+	225  2950 8050 2950
+Wire Notes Line width 16 style solid rgb(0, 0, 0)
+	225  5050 8050 5050
+Wire Notes Line width 16 style solid rgb(0, 0, 0)
+	225  9250 8050 9250
+Wire Notes Line width 16 style solid rgb(0, 0, 0)
+	225  7150 8050 7150
+$Comp
+L simbolos:lampara L1
+U 1 1 5BC86B0C
+P 1825 1600
+F 0 "L1" H 1975 1400 100 0000 L CNN
+F 1 "lampara" V 1875 1075 50  0001 C CNN
+F 2 "" V 1825 1375 50  0001 C CNN
+F 3 "" V 1825 1375 50  0001 C CNN
+	1    1825 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L1
+U 1 1 5BC86CF4
+P 4550 1650
+F 0 "L1" H 4725 1425 100 0000 L CNN
+F 1 "lampara" V 4600 1125 50  0001 C CNN
+F 2 "" V 4550 1425 50  0001 C CNN
+F 3 "" V 4550 1425 50  0001 C CNN
+	1    4550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 5BCAAA13
+P 5000 950
+F 0 "o?" H 5150 800 100 0001 C CNN
+F 1 "1" H 5100 1050 75  0000 C CNN
+F 2 "" H 5175 950 50  0001 C CNN
+F 3 "" H 5175 950 50  0001 C CNN
+	1    5000 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1000 4550 950 
+Wire Wire Line
+	4550 950  5000 950 
+Wire Wire Line
+	4550 1350 5000 1350
+$Comp
+L simbolos:Pila V1
+U 1 1 5BCAAA22
+P 4550 1000
+F 0 "V1" H 4750 850 100 0000 L CNN
+F 1 "Pila" H 4650 1050 50  0001 C CNN
+F 2 "" H 4550 1000 50  0001 C CNN
+F 3 "" H 4550 1000 50  0001 C CNN
+	1    4550 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1350 4550 1300
+$Comp
+L simbolos:Pila V1
+U 1 1 5BD478DD
+P 625 8150
+F 0 "V1" H 825 8000 100 0000 L CNN
+F 1 "Pila" H 725 8200 50  0001 C CNN
+F 2 "" H 625 8150 50  0001 C CNN
+F 3 "" H 625 8150 50  0001 C CNN
+	1    625  8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	625  8450 625  8750
+Text Notes 975  650  0    100  ~ 0
+CIRCUITO ELÉCTRICO
+$Comp
+L simbolos:Pila V1
+U 1 1 5BC2209A
+P 625 6025
+F 0 "V1" H 825 5875 100 0000 L CNN
+F 1 "Pila" H 725 6075 50  0001 C CNN
+F 2 "" H 625 6025 50  0001 C CNN
+F 3 "" H 625 6025 50  0001 C CNN
+	1    625  6025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5650 625  5650
+Wire Wire Line
+	625  5650 625  6025
+$Comp
+L simbolos:lampara L1
+U 1 1 5BC38EB9
+P 2525 5750
+F 0 "L1" H 2686 5525 100 0000 L CNN
+F 1 "lampara" V 2575 5225 50  0001 C CNN
+F 2 "" V 2525 5525 50  0001 C CNN
+F 3 "" V 2525 5525 50  0001 C CNN
+	1    2525 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L2
+U 1 1 5BC4819A
+P 2525 6250
+F 0 "L2" H 2686 6025 100 0000 L CNN
+F 1 "lampara" V 2575 5725 50  0001 C CNN
+F 2 "" V 2525 6025 50  0001 C CNN
+F 3 "" V 2525 6025 50  0001 C CNN
+	1    2525 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6300 5000 6300
+Wire Wire Line
+	4550 5900 5000 5900
+$Comp
+L simbolos:lampara L1
+U 1 1 5BC77419
+P 4550 5900
+F 0 "L1" H 4725 5700 100 0000 L CNN
+F 1 "lampara" V 4600 5375 50  0001 C CNN
+F 2 "" V 4550 5675 50  0001 C CNN
+F 3 "" V 4550 5675 50  0001 C CNN
+	1    4550 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5300 4550 5250
+Wire Wire Line
+	4550 5250 5000 5250
+Wire Wire Line
+	4550 5650 5000 5650
+$Comp
+L simbolos:Pila V1
+U 1 1 5BC7742F
+P 4550 5300
+F 0 "V1" H 4750 5150 100 0000 L CNN
+F 1 "Pila" H 4650 5350 50  0001 C CNN
+F 2 "" H 4550 5300 50  0001 C CNN
+F 3 "" H 4550 5300 50  0001 C CNN
+	1    4550 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5650 4550 5600
+Wire Wire Line
+	4550 6950 5000 6950
+Wire Wire Line
+	4550 6550 5000 6550
+$Comp
+L simbolos:lampara L2
+U 1 1 5BCAD7CF
+P 4550 6550
+F 0 "L2" H 4725 6350 100 0000 L CNN
+F 1 "lampara" V 4600 6025 50  0001 C CNN
+F 2 "" V 4550 6325 50  0001 C CNN
+F 3 "" V 4550 6325 50  0001 C CNN
+	1    4550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:numero N?
+U 1 1 5BEF1047
+P 3900 1250
+F 0 "N?" H 3800 1050 100 0001 L CNN
+F 1 "1" H 3825 1250 150 0000 L CNN
+F 2 "" H 3950 1250 50  0001 C CNN
+F 3 "" H 3950 1250 50  0001 C CNN
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:numero N?
+U 1 1 5BF2D3EE
+P 3900 5450
+F 0 "N?" H 3800 5250 100 0001 L CNN
+F 1 "3" H 3825 5450 150 0000 L CNN
+F 2 "" H 3950 5450 50  0001 C CNN
+F 3 "" H 3950 5450 50  0001 C CNN
+	1    3900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:numero N?
+U 1 1 5BF2D6B5
+P 3900 7550
+F 0 "N?" H 3800 7350 100 0001 L CNN
+F 1 "4" H 3825 7550 150 0000 L CNN
+F 2 "" H 3950 7550 50  0001 C CNN
+F 3 "" H 3950 7550 50  0001 C CNN
+	1    3900 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:CopyRight CP?
+U 1 1 5BC453A4
+P 3900 11400
+F 0 "CP?" H 4325 11725 40  0001 C CNN
+F 1 "CopyRight" H 4075 11725 40  0001 C CNN
+F 2 "" H 3800 11750 50  0001 C CNN
+F 3 "" H 3900 11600 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 3575 11350 50  0000 C CNN "License"
+F 5 "" H 4450 11350 50  0000 C CNN "Author"
+F 6 "" H 4025 11350 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4275 11350 50  0000 C CNN "Web"
+	1    3900 11400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 2000 1825 2250
+$Comp
+L simbolos:conector o?
+U 1 1 608255ED
+P 5000 1350
+F 0 "o?" H 5150 1200 100 0001 C CNN
+F 1 "2" H 5100 1450 75  0000 C CNN
+F 2 "" H 5175 1350 50  0001 C CNN
+F 3 "" H 5175 1350 50  0001 C CNN
+	1    5000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60825841
+P 5000 1650
+F 0 "o?" H 5150 1500 100 0001 C CNN
+F 1 "3" H 5100 1750 75  0000 C CNN
+F 2 "" H 5175 1650 50  0001 C CNN
+F 3 "" H 5175 1650 50  0001 C CNN
+	1    5000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60825A7C
+P 5000 2050
+F 0 "o?" H 5150 1900 100 0001 C CNN
+F 1 "4" H 5100 2150 75  0000 C CNN
+F 2 "" H 5175 2050 50  0001 C CNN
+F 3 "" H 5175 2050 50  0001 C CNN
+	1    5000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60825DAE
+P 7100 1350
+F 0 "o?" H 7250 1200 100 0001 C CNN
+F 1 "5" H 7200 1250 75  0000 C CNN
+F 2 "" H 7275 1350 50  0001 C CNN
+F 3 "" H 7275 1350 50  0001 C CNN
+	1    7100 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60826A44
+P 7100 1650
+F 0 "o?" H 7250 1500 100 0001 C CNN
+F 1 "6" H 7200 1550 75  0000 C CNN
+F 2 "" H 7275 1650 50  0001 C CNN
+F 3 "" H 7275 1650 50  0001 C CNN
+	1    7100 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 608E9EC9
+P 5000 5250
+F 0 "o?" H 5150 5100 100 0001 C CNN
+F 1 "1" H 5100 5350 75  0000 C CNN
+F 2 "" H 5175 5250 50  0001 C CNN
+F 3 "" H 5175 5250 50  0001 C CNN
+	1    5000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 608EA84D
+P 5000 5650
+F 0 "o?" H 5150 5500 100 0001 C CNN
+F 1 "2" H 5100 5750 75  0000 C CNN
+F 2 "" H 5175 5650 50  0001 C CNN
+F 3 "" H 5175 5650 50  0001 C CNN
+	1    5000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 608EA857
+P 5000 5900
+F 0 "o?" H 5150 5750 100 0001 C CNN
+F 1 "3" H 5100 6000 75  0000 C CNN
+F 2 "" H 5175 5900 50  0001 C CNN
+F 3 "" H 5175 5900 50  0001 C CNN
+	1    5000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 608EA861
+P 5000 6300
+F 0 "o?" H 5150 6150 100 0001 C CNN
+F 1 "4" H 5100 6400 75  0000 C CNN
+F 2 "" H 5175 6300 50  0001 C CNN
+F 3 "" H 5175 6300 50  0001 C CNN
+	1    5000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60904E71
+P 5000 6550
+F 0 "o?" H 5150 6400 100 0001 C CNN
+F 1 "5" H 5100 6450 75  0000 C CNN
+F 2 "" H 5175 6550 50  0001 C CNN
+F 3 "" H 5175 6550 50  0001 C CNN
+	1    5000 6550
+	1    0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60904EA3
+P 5000 6950
+F 0 "o?" H 5150 6800 100 0001 C CNN
+F 1 "6" H 5100 6850 75  0000 C CNN
+F 2 "" H 5175 6950 50  0001 C CNN
+F 3 "" H 5175 6950 50  0001 C CNN
+	1    5000 6950
+	1    0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60904EAD
+P 7100 5500
+F 0 "o?" H 7250 5350 100 0001 C CNN
+F 1 "7" H 7200 5400 75  0000 C CNN
+F 2 "" H 7275 5500 50  0001 C CNN
+F 3 "" H 7275 5500 50  0001 C CNN
+	1    7100 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60904EB7
+P 7100 5800
+F 0 "o?" H 7250 5650 100 0001 C CNN
+F 1 "8" H 7200 5700 75  0000 C CNN
+F 2 "" H 7275 5800 50  0001 C CNN
+F 3 "" H 7275 5800 50  0001 C CNN
+	1    7100 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60947488
+P 7100 6450
+F 0 "o?" H 7250 6300 100 0001 C CNN
+F 1 "9" H 7200 6350 75  0000 C CNN
+F 2 "" H 7275 6450 50  0001 C CNN
+F 3 "" H 7275 6450 50  0001 C CNN
+	1    7100 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60947E6C
+P 7100 6750
+F 0 "o?" H 7250 6600 100 0001 C CNN
+F 1 "10" H 7200 6650 75  0000 C CNN
+F 2 "" H 7275 6750 50  0001 C CNN
+F 3 "" H 7275 6750 50  0001 C CNN
+	1    7100 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1325 10050 1825 10050
+$Comp
+L simbolos:Pila V1
+U 1 1 60AA9949
+P 625 10250
+F 0 "V1" H 825 10100 100 0000 L CNN
+F 1 "Pila" H 725 10300 50  0001 C CNN
+F 2 "" H 625 10250 50  0001 C CNN
+F 3 "" H 625 10250 50  0001 C CNN
+	1    625  10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	825  9900 625  9900
+Wire Wire Line
+	625  9900 625  10250
+Wire Wire Line
+	1325 9750 1825 9750
+$Comp
+L simbolos:selector S1
+U 1 1 60AA9956
+P 825 9900
+F 0 "S1" H 1000 10025 100 0000 R CNN
+F 1 "selector" H 825 9850 50  0001 C CNN
+F 2 "" H 1125 9750 50  0001 C CNN
+F 3 "" H 1125 9750 50  0001 C CNN
+	1    825  9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:selector S2
+U 1 1 60AA9960
+P 2325 9900
+F 0 "S2" H 2500 10025 100 0000 R CNN
+F 1 "selector" H 2325 9850 50  0001 C CNN
+F 2 "" H 2625 9750 50  0001 C CNN
+F 3 "" H 2625 9750 50  0001 C CNN
+	1    2325 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L1
+U 1 1 60AA996A
+P 2525 10200
+F 0 "L1" H 2686 9975 100 0000 L CNN
+F 1 "lampara" V 2575 9675 50  0001 C CNN
+F 2 "" V 2525 9975 50  0001 C CNN
+F 3 "" V 2525 9975 50  0001 C CNN
+	1    2525 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2525 10200 2525 9900
+Wire Wire Line
+	2525 9900 2325 9900
+$Comp
+L simbolos:lampara L2
+U 1 1 60AA9976
+P 3225 10200
+F 0 "L2" H 3386 9975 100 0000 L CNN
+F 1 "lampara" V 3275 9675 50  0001 C CNN
+F 2 "" V 3225 9975 50  0001 C CNN
+F 3 "" V 3225 9975 50  0001 C CNN
+	1    3225 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 10200 3225 9900
+Wire Wire Line
+	2525 9900 3225 9900
+Connection ~ 2525 9900
+Wire Wire Line
+	3225 10900 2525 10900
+Connection ~ 2525 10900
+Wire Wire Line
+	2525 10900 625  10900
+Wire Wire Line
+	625  10550 625  10900
+Wire Wire Line
+	4550 10550 5000 10550
+Wire Wire Line
+	4550 10150 5000 10150
+$Comp
+L simbolos:lampara L1
+U 1 1 60AA9989
+P 4550 10150
+F 0 "L1" H 4725 9950 100 0000 L CNN
+F 1 "lampara" V 4600 9625 50  0001 C CNN
+F 2 "" V 4550 9925 50  0001 C CNN
+F 3 "" V 4550 9925 50  0001 C CNN
+	1    4550 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 9550 4550 9500
+Wire Wire Line
+	4550 9500 5000 9500
+Wire Wire Line
+	4550 9900 5000 9900
+$Comp
+L simbolos:Pila V1
+U 1 1 60AA9996
+P 4550 9550
+F 0 "V1" H 4750 9400 100 0000 L CNN
+F 1 "Pila" H 4650 9600 50  0001 C CNN
+F 2 "" H 4550 9550 50  0001 C CNN
+F 3 "" H 4550 9550 50  0001 C CNN
+	1    4550 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 9900 4550 9850
+Wire Wire Line
+	7700 10225 7700 10075
+Wire Wire Line
+	7100 10225 7700 10225
+Wire Wire Line
+	7200 9925 7100 9925
+Wire Wire Line
+	7700 9625 7100 9625
+Wire Wire Line
+	7700 9775 7700 9625
+$Comp
+L simbolos:selector S1
+U 1 1 60AA99A6
+P 7200 9925
+F 0 "S1" H 7375 10050 100 0000 R CNN
+F 1 "selector" H 7200 9875 50  0001 C CNN
+F 2 "" H 7500 9775 50  0001 C CNN
+F 3 "" H 7500 9775 50  0001 C CNN
+	1    7200 9925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 11125 7700 10975
+Wire Wire Line
+	7100 11125 7700 11125
+Wire Wire Line
+	7200 10825 7100 10825
+Wire Wire Line
+	7700 10525 7100 10525
+Wire Wire Line
+	7700 10675 7700 10525
+$Comp
+L simbolos:selector S2
+U 1 1 60AA99B5
+P 7200 10825
+F 0 "S2" H 7375 10950 100 0000 R CNN
+F 1 "selector" H 7200 10775 50  0001 C CNN
+F 2 "" H 7500 10675 50  0001 C CNN
+F 3 "" H 7500 10675 50  0001 C CNN
+	1    7200 10825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 11200 5000 11200
+Wire Wire Line
+	4550 10800 5000 10800
+$Comp
+L simbolos:lampara L2
+U 1 1 60AA99C1
+P 4550 10800
+F 0 "L2" H 4725 10600 100 0000 L CNN
+F 1 "lampara" V 4600 10275 50  0001 C CNN
+F 2 "" V 4550 10575 50  0001 C CNN
+F 3 "" V 4550 10575 50  0001 C CNN
+	1    4550 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:numero N?
+U 1 1 60AA99CB
+P 3900 9650
+F 0 "N?" H 3800 9450 100 0001 L CNN
+F 1 "5" H 3825 9650 150 0000 L CNN
+F 2 "" H 3950 9650 50  0001 C CNN
+F 3 "" H 3950 9650 50  0001 C CNN
+	1    3900 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2525 10600 2525 10900
+Wire Wire Line
+	3225 10600 3225 10900
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9A98
+P 5000 9500
+F 0 "o?" H 5150 9350 100 0001 C CNN
+F 1 "1" H 5100 9600 75  0000 C CNN
+F 2 "" H 5175 9500 50  0001 C CNN
+F 3 "" H 5175 9500 50  0001 C CNN
+	1    5000 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9AA2
+P 5000 9900
+F 0 "o?" H 5150 9750 100 0001 C CNN
+F 1 "2" H 5100 10000 75  0000 C CNN
+F 2 "" H 5175 9900 50  0001 C CNN
+F 3 "" H 5175 9900 50  0001 C CNN
+	1    5000 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9AAC
+P 5000 10150
+F 0 "o?" H 5150 10000 100 0001 C CNN
+F 1 "3" H 5100 10250 75  0000 C CNN
+F 2 "" H 5175 10150 50  0001 C CNN
+F 3 "" H 5175 10150 50  0001 C CNN
+	1    5000 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9AB6
+P 5000 10550
+F 0 "o?" H 5150 10400 100 0001 C CNN
+F 1 "4" H 5100 10650 75  0000 C CNN
+F 2 "" H 5175 10550 50  0001 C CNN
+F 3 "" H 5175 10550 50  0001 C CNN
+	1    5000 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9AC0
+P 5000 10800
+F 0 "o?" H 5150 10650 100 0001 C CNN
+F 1 "5" H 5100 10700 75  0000 C CNN
+F 2 "" H 5175 10800 50  0001 C CNN
+F 3 "" H 5175 10800 50  0001 C CNN
+	1    5000 10800
+	1    0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9ACA
+P 5000 11200
+F 0 "o?" H 5150 11050 100 0001 C CNN
+F 1 "6" H 5100 11100 75  0000 C CNN
+F 2 "" H 5175 11200 50  0001 C CNN
+F 3 "" H 5175 11200 50  0001 C CNN
+	1    5000 11200
+	1    0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9AD4
+P 7100 9625
+F 0 "o?" H 7250 9475 100 0001 C CNN
+F 1 "7" H 7200 9525 75  0000 C CNN
+F 2 "" H 7275 9625 50  0001 C CNN
+F 3 "" H 7275 9625 50  0001 C CNN
+	1    7100 9625
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9ADE
+P 7100 9925
+F 0 "o?" H 7250 9775 100 0001 C CNN
+F 1 "8" H 7200 9825 75  0000 C CNN
+F 2 "" H 7275 9925 50  0001 C CNN
+F 3 "" H 7275 9925 50  0001 C CNN
+	1    7100 9925
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9AE8
+P 7100 10225
+F 0 "o?" H 7250 10075 100 0001 C CNN
+F 1 "9" H 7200 10125 75  0000 C CNN
+F 2 "" H 7275 10225 50  0001 C CNN
+F 3 "" H 7275 10225 50  0001 C CNN
+	1    7100 10225
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9AF2
+P 7100 10525
+F 0 "o?" H 7250 10375 100 0001 C CNN
+F 1 "10" H 7200 10425 75  0000 C CNN
+F 2 "" H 7275 10525 50  0001 C CNN
+F 3 "" H 7275 10525 50  0001 C CNN
+	1    7100 10525
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9AFC
+P 7100 10825
+F 0 "o?" H 7250 10675 100 0001 C CNN
+F 1 "11" H 7200 10725 75  0000 C CNN
+F 2 "" H 7275 10825 50  0001 C CNN
+F 3 "" H 7275 10825 50  0001 C CNN
+	1    7100 10825
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60AA9B06
+P 7100 11125
+F 0 "o?" H 7250 10975 100 0001 C CNN
+F 1 "12" H 7200 11025 75  0000 C CNN
+F 2 "" H 7275 11125 50  0001 C CNN
+F 3 "" H 7275 11125 50  0001 C CNN
+	1    7100 11125
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:switch S2
+U 1 1 60B05D37
+P 1775 5650
+F 0 "S2" H 1825 5800 100 0000 C CNN
+F 1 "switch" H 1525 5600 50  0001 C CNN
+F 2 "" H 1825 5650 50  0001 C CNN
+F 3 "" H 1825 5650 50  0001 C CNN
+	1    1775 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	625  6750 2525 6750
+Wire Wire Line
+	2525 6750 2525 6650
+Wire Wire Line
+	625  6325 625  6750
+Wire Wire Line
+	2525 6250 2525 6150
+Wire Wire Line
+	2525 5750 2525 5650
+Wire Wire Line
+	2275 5650 2525 5650
+Wire Wire Line
+	1450 5650 1775 5650
+$Comp
+L simbolos:switch S1
+U 1 1 60B0568C
+P 950 5650
+F 0 "S1" H 1000 5800 100 0000 C CNN
+F 1 "switch" H 700 5600 50  0001 C CNN
+F 2 "" H 1000 5650 50  0001 C CNN
+F 3 "" H 1000 5650 50  0001 C CNN
+	1    950  5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:switch S1
+U 1 1 60BFF645
+P 7200 5500
+F 0 "S1" H 7250 5650 100 0000 C CNN
+F 1 "switch" H 6950 5450 50  0001 C CNN
+F 2 "" H 7250 5500 50  0001 C CNN
+F 3 "" H 7250 5500 50  0001 C CNN
+	1    7200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5500 7100 5500
+Wire Wire Line
+	7700 5500 7700 5800
+Wire Wire Line
+	7100 5800 7700 5800
+$Comp
+L simbolos:switch S2
+U 1 1 60C8751C
+P 7200 6450
+F 0 "S2" H 7250 6600 100 0000 C CNN
+F 1 "switch" H 6950 6400 50  0001 C CNN
+F 2 "" H 7250 6450 50  0001 C CNN
+F 3 "" H 7250 6450 50  0001 C CNN
+	1    7200 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 6450 7100 6450
+Wire Wire Line
+	7700 6450 7700 6750
+Wire Wire Line
+	7100 6750 7700 6750
+$Comp
+L simbolos:switch S1
+U 1 1 60CCD171
+P 1025 7500
+F 0 "S1" H 1075 7650 100 0000 C CNN
+F 1 "switch" H 775 7450 50  0001 C CNN
+F 2 "" H 1075 7500 50  0001 C CNN
+F 3 "" H 1075 7500 50  0001 C CNN
+	1    1025 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 7500 875  7500
+Wire Wire Line
+	625  7500 625  8150
+$Comp
+L simbolos:switch S2
+U 1 1 60CF09F5
+P 1025 8000
+F 0 "S2" H 1075 8150 100 0000 C CNN
+F 1 "switch" H 775 7950 50  0001 C CNN
+F 2 "" H 1075 8000 50  0001 C CNN
+F 3 "" H 1075 8000 50  0001 C CNN
+	1    1025 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 8000 875  8000
+Wire Wire Line
+	875  8000 875  7500
+Connection ~ 875  7500
+Wire Wire Line
+	875  7500 625  7500
+Wire Wire Line
+	1525 8000 1650 8000
+Wire Wire Line
+	1650 8000 1650 7500
+Wire Wire Line
+	1650 7500 1525 7500
+$Comp
+L simbolos:lampara L1
+U 1 1 60DA1527
+P 2025 8000
+F 0 "L1" H 2186 7775 100 0000 L CNN
+F 1 "lampara" V 2075 7475 50  0001 C CNN
+F 2 "" V 2025 7775 50  0001 C CNN
+F 3 "" V 2025 7775 50  0001 C CNN
+	1    2025 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L2
+U 1 1 60DA1541
+P 2650 8000
+F 0 "L2" H 2811 7775 100 0000 L CNN
+F 1 "lampara" V 2700 7475 50  0001 C CNN
+F 2 "" V 2650 7775 50  0001 C CNN
+F 3 "" V 2650 7775 50  0001 C CNN
+	1    2650 8000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 7500
+Wire Wire Line
+	2650 8000 2650 7500
+Wire Wire Line
+	1650 7500 2025 7500
+Wire Wire Line
+	2025 8000 2025 7500
+Connection ~ 2025 7500
+Wire Wire Line
+	2025 7500 2650 7500
+Wire Wire Line
+	2650 8400 2650 8750
+Wire Wire Line
+	625  8750 2025 8750
+Wire Wire Line
+	2025 8400 2025 8750
+Connection ~ 2025 8750
+Wire Wire Line
+	2025 8750 2650 8750
+Wire Wire Line
+	4550 8400 5000 8400
+Wire Wire Line
+	4550 8000 5000 8000
+$Comp
+L simbolos:lampara L1
+U 1 1 60F35933
+P 4550 8000
+F 0 "L1" H 4725 7800 100 0000 L CNN
+F 1 "lampara" V 4600 7475 50  0001 C CNN
+F 2 "" V 4550 7775 50  0001 C CNN
+F 3 "" V 4550 7775 50  0001 C CNN
+	1    4550 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7400 4550 7350
+Wire Wire Line
+	4550 7350 5000 7350
+Wire Wire Line
+	4550 7750 5000 7750
+$Comp
+L simbolos:Pila V1
+U 1 1 60F35940
+P 4550 7400
+F 0 "V1" H 4750 7250 100 0000 L CNN
+F 1 "Pila" H 4650 7450 50  0001 C CNN
+F 2 "" H 4550 7400 50  0001 C CNN
+F 3 "" H 4550 7400 50  0001 C CNN
+	1    4550 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7750 4550 7700
+Wire Wire Line
+	4550 9050 5000 9050
+Wire Wire Line
+	4550 8650 5000 8650
+$Comp
+L simbolos:lampara L2
+U 1 1 60F3594D
+P 4550 8650
+F 0 "L2" H 4725 8450 100 0000 L CNN
+F 1 "lampara" V 4600 8125 50  0001 C CNN
+F 2 "" V 4550 8425 50  0001 C CNN
+F 3 "" V 4550 8425 50  0001 C CNN
+	1    4550 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60F35957
+P 5000 7350
+F 0 "o?" H 5150 7200 100 0001 C CNN
+F 1 "1" H 5100 7450 75  0000 C CNN
+F 2 "" H 5175 7350 50  0001 C CNN
+F 3 "" H 5175 7350 50  0001 C CNN
+	1    5000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60F35961
+P 5000 7750
+F 0 "o?" H 5150 7600 100 0001 C CNN
+F 1 "2" H 5100 7850 75  0000 C CNN
+F 2 "" H 5175 7750 50  0001 C CNN
+F 3 "" H 5175 7750 50  0001 C CNN
+	1    5000 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60F3596B
+P 5000 8000
+F 0 "o?" H 5150 7850 100 0001 C CNN
+F 1 "3" H 5100 8100 75  0000 C CNN
+F 2 "" H 5175 8000 50  0001 C CNN
+F 3 "" H 5175 8000 50  0001 C CNN
+	1    5000 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60F35975
+P 5000 8400
+F 0 "o?" H 5150 8250 100 0001 C CNN
+F 1 "4" H 5100 8500 75  0000 C CNN
+F 2 "" H 5175 8400 50  0001 C CNN
+F 3 "" H 5175 8400 50  0001 C CNN
+	1    5000 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60F3597F
+P 5000 8650
+F 0 "o?" H 5150 8500 100 0001 C CNN
+F 1 "5" H 5100 8550 75  0000 C CNN
+F 2 "" H 5175 8650 50  0001 C CNN
+F 3 "" H 5175 8650 50  0001 C CNN
+	1    5000 8650
+	1    0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 60F35989
+P 5000 9050
+F 0 "o?" H 5150 8900 100 0001 C CNN
+F 1 "6" H 5100 8950 75  0000 C CNN
+F 2 "" H 5175 9050 50  0001 C CNN
+F 3 "" H 5175 9050 50  0001 C CNN
+	1    5000 9050
+	1    0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 6101BE92
+P 7100 7600
+F 0 "o?" H 7250 7450 100 0001 C CNN
+F 1 "7" H 7200 7500 75  0000 C CNN
+F 2 "" H 7275 7600 50  0001 C CNN
+F 3 "" H 7275 7600 50  0001 C CNN
+	1    7100 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 6101CCB4
+P 7100 7900
+F 0 "o?" H 7250 7750 100 0001 C CNN
+F 1 "8" H 7200 7800 75  0000 C CNN
+F 2 "" H 7275 7900 50  0001 C CNN
+F 3 "" H 7275 7900 50  0001 C CNN
+	1    7100 7900
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 6101CCBE
+P 7100 8550
+F 0 "o?" H 7250 8400 100 0001 C CNN
+F 1 "9" H 7200 8450 75  0000 C CNN
+F 2 "" H 7275 8550 50  0001 C CNN
+F 3 "" H 7275 8550 50  0001 C CNN
+	1    7100 8550
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 6101CCC8
+P 7100 8850
+F 0 "o?" H 7250 8700 100 0001 C CNN
+F 1 "10" H 7200 8750 75  0000 C CNN
+F 2 "" H 7275 8850 50  0001 C CNN
+F 3 "" H 7275 8850 50  0001 C CNN
+	1    7100 8850
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:switch S1
+U 1 1 6101CCD2
+P 7200 7600
+F 0 "S1" H 7250 7750 100 0000 C CNN
+F 1 "switch" H 6950 7550 50  0001 C CNN
+F 2 "" H 7250 7600 50  0001 C CNN
+F 3 "" H 7250 7600 50  0001 C CNN
+	1    7200 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 7600 7100 7600
+Wire Wire Line
+	7700 7600 7700 7900
+Wire Wire Line
+	7100 7900 7700 7900
+$Comp
+L simbolos:switch S2
+U 1 1 6101CCDF
+P 7200 8550
+F 0 "S2" H 7250 8700 100 0000 C CNN
+F 1 "switch" H 6950 8500 50  0001 C CNN
+F 2 "" H 7250 8550 50  0001 C CNN
+F 3 "" H 7250 8550 50  0001 C CNN
+	1    7200 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 8550 7100 8550
+Wire Wire Line
+	7700 8550 7700 8850
+Wire Wire Line
+	7100 8850 7700 8850
+$Comp
+L simbolos:switch S1
+U 1 1 61104FC9
+P 1775 3400
+F 0 "S1" V 1825 3550 100 0000 C CNN
+F 1 "switch" H 1525 3350 50  0001 C CNN
+F 2 "" H 1825 3400 50  0001 C CNN
+F 3 "" H 1825 3400 50  0001 C CNN
+	1    1775 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:Pila V1
+U 1 1 61104FD3
+P 625 3600
+F 0 "V1" H 825 3450 100 0000 L CNN
+F 1 "Pila" H 725 3650 50  0001 C CNN
+F 2 "" H 625 3600 50  0001 C CNN
+F 3 "" H 625 3600 50  0001 C CNN
+	1    625  3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L1
+U 1 1 61104FDD
+P 1775 4150
+F 0 "L1" H 1925 3950 100 0000 L CNN
+F 1 "lampara" V 1825 3625 50  0001 C CNN
+F 2 "" V 1775 3925 50  0001 C CNN
+F 3 "" V 1775 3925 50  0001 C CNN
+	1    1775 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4200 5000 4200
+Wire Wire Line
+	4550 3800 5000 3800
+$Comp
+L simbolos:lampara L1
+U 1 1 611636D6
+P 4550 3800
+F 0 "L1" H 4725 3600 100 0000 L CNN
+F 1 "lampara" V 4600 3275 50  0001 C CNN
+F 2 "" V 4550 3575 50  0001 C CNN
+F 3 "" V 4550 3575 50  0001 C CNN
+	1    4550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3200 4550 3150
+Wire Wire Line
+	4550 3150 5000 3150
+Wire Wire Line
+	4550 3550 5000 3550
+$Comp
+L simbolos:Pila V1
+U 1 1 611636E3
+P 4550 3200
+F 0 "V1" H 4750 3050 100 0000 L CNN
+F 1 "Pila" H 4650 3250 50  0001 C CNN
+F 2 "" H 4550 3200 50  0001 C CNN
+F 3 "" H 4550 3200 50  0001 C CNN
+	1    4550 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3550 4550 3500
+Wire Wire Line
+	4550 4850 5000 4850
+Wire Wire Line
+	4550 4450 5000 4450
+$Comp
+L simbolos:lampara L2
+U 1 1 611636F0
+P 4550 4450
+F 0 "L2" H 4725 4250 100 0000 L CNN
+F 1 "lampara" V 4600 3925 50  0001 C CNN
+F 2 "" V 4550 4225 50  0001 C CNN
+F 3 "" V 4550 4225 50  0001 C CNN
+	1    4550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 61163704
+P 5000 3150
+F 0 "o?" H 5150 3000 100 0001 C CNN
+F 1 "1" H 5100 3250 75  0000 C CNN
+F 2 "" H 5175 3150 50  0001 C CNN
+F 3 "" H 5175 3150 50  0001 C CNN
+	1    5000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 6116370E
+P 5000 3550
+F 0 "o?" H 5150 3400 100 0001 C CNN
+F 1 "2" H 5100 3650 75  0000 C CNN
+F 2 "" H 5175 3550 50  0001 C CNN
+F 3 "" H 5175 3550 50  0001 C CNN
+	1    5000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 61163718
+P 5000 3800
+F 0 "o?" H 5150 3650 100 0001 C CNN
+F 1 "3" H 5100 3900 75  0000 C CNN
+F 2 "" H 5175 3800 50  0001 C CNN
+F 3 "" H 5175 3800 50  0001 C CNN
+	1    5000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 61163722
+P 5000 4200
+F 0 "o?" H 5150 4050 100 0001 C CNN
+F 1 "4" H 5100 4300 75  0000 C CNN
+F 2 "" H 5175 4200 50  0001 C CNN
+F 3 "" H 5175 4200 50  0001 C CNN
+	1    5000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 6116372C
+P 5000 4450
+F 0 "o?" H 5150 4300 100 0001 C CNN
+F 1 "5" H 5100 4350 75  0000 C CNN
+F 2 "" H 5175 4450 50  0001 C CNN
+F 3 "" H 5175 4450 50  0001 C CNN
+	1    5000 4450
+	1    0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 61163736
+P 5000 4850
+F 0 "o?" H 5150 4700 100 0001 C CNN
+F 1 "6" H 5100 4750 75  0000 C CNN
+F 2 "" H 5175 4850 50  0001 C CNN
+F 3 "" H 5175 4850 50  0001 C CNN
+	1    5000 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 61163740
+P 7100 3400
+F 0 "o?" H 7250 3250 100 0001 C CNN
+F 1 "7" H 7200 3300 75  0000 C CNN
+F 2 "" H 7275 3400 50  0001 C CNN
+F 3 "" H 7275 3400 50  0001 C CNN
+	1    7100 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 6116374A
+P 7100 3700
+F 0 "o?" H 7250 3550 100 0001 C CNN
+F 1 "8" H 7200 3600 75  0000 C CNN
+F 2 "" H 7275 3700 50  0001 C CNN
+F 3 "" H 7275 3700 50  0001 C CNN
+	1    7100 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 61163754
+P 7100 4350
+F 0 "o?" H 7250 4200 100 0001 C CNN
+F 1 "9" H 7200 4250 75  0000 C CNN
+F 2 "" H 7275 4350 50  0001 C CNN
+F 3 "" H 7275 4350 50  0001 C CNN
+	1    7100 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:conector o?
+U 1 1 6116375E
+P 7100 4650
+F 0 "o?" H 7250 4500 100 0001 C CNN
+F 1 "10" H 7200 4550 75  0000 C CNN
+F 2 "" H 7275 4650 50  0001 C CNN
+F 3 "" H 7275 4650 50  0001 C CNN
+	1    7100 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:switch S1
+U 1 1 61163768
+P 7200 3400
+F 0 "S1" H 7250 3550 100 0000 C CNN
+F 1 "switch" H 6950 3350 50  0001 C CNN
+F 2 "" H 7250 3400 50  0001 C CNN
+F 3 "" H 7250 3400 50  0001 C CNN
+	1    7200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3400 7100 3400
+Wire Wire Line
+	7700 3400 7700 3700
+Wire Wire Line
+	7100 3700 7700 3700
+$Comp
+L simbolos:switch S2
+U 1 1 61163775
+P 7200 4350
+F 0 "S2" H 7250 4500 100 0000 C CNN
+F 1 "switch" H 6950 4300 50  0001 C CNN
+F 2 "" H 7250 4350 50  0001 C CNN
+F 3 "" H 7250 4350 50  0001 C CNN
+	1    7200 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4350 7100 4350
+Wire Wire Line
+	7700 4350 7700 4650
+Wire Wire Line
+	7100 4650 7700 4650
+$Comp
+L simbolos:numero N?
+U 1 1 610E9003
+P 3900 3350
+F 0 "N?" H 3800 3150 100 0001 L CNN
+F 1 "2" H 3825 3350 150 0000 L CNN
+F 2 "" H 3950 3350 50  0001 C CNN
+F 3 "" H 3950 3350 50  0001 C CNN
+	1    3900 3350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 16 style solid rgb(0, 0, 0)
+	225  750  8050 750 
+$Comp
+L simbolos:lampara L2
+U 1 1 613BF6A6
+P 2525 4150
+F 0 "L2" H 2675 3950 100 0000 L CNN
+F 1 "lampara" V 2575 3625 50  0001 C CNN
+F 2 "" V 2525 3925 50  0001 C CNN
+F 3 "" V 2525 3925 50  0001 C CNN
+	1    2525 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:switch S2
+U 1 1 613C11A4
+P 2525 3400
+F 0 "S2" V 2575 3550 100 0000 C CNN
+F 1 "switch" H 2275 3350 50  0001 C CNN
+F 2 "" H 2575 3400 50  0001 C CNN
+F 3 "" H 2575 3400 50  0001 C CNN
+	1    2525 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	625  3275 1775 3275
+Wire Wire Line
+	2525 3275 2525 3400
+Wire Wire Line
+	625  3275 625  3600
+Wire Wire Line
+	1775 3275 1775 3400
+Connection ~ 1775 3275
+Wire Wire Line
+	1775 3275 2525 3275
+Wire Wire Line
+	1775 3900 1775 4150
+Wire Wire Line
+	2525 3900 2525 4150
+Wire Wire Line
+	1775 4550 1775 4650
+Wire Wire Line
+	1775 4650 625  4650
+Wire Wire Line
+	625  3900 625  4650
+Wire Wire Line
+	2525 4550 2525 4650
+Wire Wire Line
+	2525 4650 1775 4650
+Connection ~ 1775 4650
+Text Notes 5275 650  0    100  ~ 0
+ESQUEMA DE CABLEADO
+$Sheet
+S 10000 25   2500 975 
+U 61659B7A
+F0 "electric-cableado-2" 100
+F1 "electric-cableado-2.sch" 100
+$EndSheet
+$Sheet
+S 10000 1750 2500 1000
+U 609480CD
+F0 "electric-cableado-3" 100
+F1 "electric-cableado-3.sch" 100
+$EndSheet
+Wire Wire Line
+	1825 1250 1825 1600
+Wire Wire Line
+	625  1250 625  1650
+$EndSCHEMATC
