@@ -30,7 +30,7 @@ imagen.
 #. A continuación vamos a escribir el título que aparece en la 
    imagen inferior e insertamos la imagen de la placa Arduino.
    
-   Ahora cambiamos el ancho de la imagen a 40mm manteniendo
+   Ahora cambiamos el **ancho de la imagen a 40mm** manteniendo
    las proporciones y le aplicamos el **filtro de imagen 
    Invertir** con el botón de filtro de imagen 
    |button-filtro-imagen|.
