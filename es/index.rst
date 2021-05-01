@@ -4,7 +4,7 @@
  Recursos para Tecnología
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Recursos educativos libres para Tecnología.
+Recursos educativos libres para Tecnología en Educación Secundaria.
 
 |
 | `Página inicial <../index.html>`_
