@@ -21,8 +21,7 @@
 {%- set lang_attr = 'en' if language == None else (language | replace('_', '-')) -%}
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="{{ lang_attr }}" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ lang_attr }}" > <!--<![endif]-->
+<html class="no-js" lang="{{ lang_attr }}" >
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   {{ metatags }}
@@ -49,7 +48,7 @@
   {% if not embedded %}
     {% if use_opensearch %}
       <link rel="search" type="application/opensearchdescription+xml"
-            title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}"
+            title="{% trans docstitle=docstitle|e %}Search within ...{% endtrans %}"
             href="{{ pathto('_static/opensearch.xml', 1) }}"/>
     {% endif %}
 
@@ -94,6 +93,22 @@
 
   {# Keep modernizr in head - http://modernizr.com/docs/#installing -#}
   <script src="{{ pathto('_static/modernizr.min.js', 1) }}"></script>
+
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//www.picuino.com/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
 
 </head>
 
