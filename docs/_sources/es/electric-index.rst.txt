@@ -27,6 +27,8 @@ electrónicos.
    bornas-electronic-index.rst
    electric-codigo-colores.rst
    
+   electric-rele.rst
+   
    comm-timeline.rst
 
    electric-recursos.rst

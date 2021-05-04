@@ -82,45 +82,47 @@ etapas tiene un tiempo aproximado de realización de 40 minutos.
 Hora del código
 ---------------
 Hora del código son pequeños tutoriales temáticos que se pueden
-realizar en una hora.
+realizar en menos de una hora.
 
 .. list-table::
    :header-rows: 1
 
    * - Curso
      - Ejercicios
-   * - `Fiesta para bailar <https://studio.code.org/s/dance/stage/1/puzzle/1>`_
-     - 13
-   * - `Aventurero Minecraft <https://studio.code.org/s/mc/stage/1/puzzle/1>`_
-     - 14
-   * - `Diseñador Minecraft <https://studio.code.org/s/minecraft/stage/1/puzzle/1>`_
-     - 12
-   * - `Heroe de Minecraft <https://studio.code.org/s/hero/stage/1/puzzle/1>`_
-     - 12
-   * - `Minecraft Acuático <https://studio.code.org/s/aquatic/stage/1/puzzle/1>`_
-     - 12
-   * - `Frozen <https://studio.code.org/s/frozen/stage/1/puzzle/1>`_
-     - 20
-   * - `Laberinto Angry Birds <https://studio.code.org/hoc/1>`_
-     - 20
    * - `Artista <https://studio.code.org/s/artist>`_
      - 10
-   * - `Star Wars <https://studio.code.org/s/starwarsblocks>`_
-     - 15
+   * - `Aventurero Minecraft <https://studio.code.org/s/mc/stage/1/puzzle/1>`_
+     - 14
    * - `Código Flappy <https://studio.code.org/flappy/1>`_
      - 10
-   * - `Laboratorio de juegos Disney <https://studio.code.org/s/infinity/stage/1/puzzle/1>`_
-     - 10
+   * - `Diseñador Minecraft <https://studio.code.org/s/minecraft/stage/1/puzzle/1>`_
+     - 12
+   * - `Fiesta para bailar <https://studio.code.org/s/dance/stage/1/puzzle/1>`_
+     - 13
+   * - `Frozen <https://studio.code.org/s/frozen/stage/1/puzzle/1>`_
+     - 20
+   * - `Heroe de Minecraft <https://studio.code.org/s/hero/stage/1/puzzle/1>`_
+     - 12
+   * - `Juego de baloncesto <https://studio.code.org/s/basketball/stage/1/puzzle/1>`_
+     - 8
+   * - `Juego multideporte <https://studio.code.org/s/sports/stage/1/puzzle/1>`_
+     - 8
+   * - `Laberinto Angry Birds <https://studio.code.org/hoc/1>`_
+     - 20
    * - `Laboratorio de juegos clásico <https://studio.code.org/s/playlab/stage/1/puzzle/1>`_
+     - 10
+   * - `Laboratorio de juegos Disney <https://studio.code.org/s/infinity/stage/1/puzzle/1>`_
      - 10
    * - `Laboratorio de juegos Gumball <https://studio.code.org/s/gumball/stage/1/puzzle/1>`_
      - 11
    * - `Laboratorio de juegos Ice Age <https://studio.code.org/s/iceage/stage/1/puzzle/1>`_
      - 11
-   * - `Juego de baloncesto <https://studio.code.org/s/basketball/stage/1/puzzle/1>`_
-     - 8
-   * - `Juego multideporte <https://studio.code.org/s/sports/stage/1/puzzle/1>`_
-     - 8
+   * - `Minecraft Acuático <https://studio.code.org/s/aquatic/stage/1/puzzle/1>`_
+     - 12
+   * - `¡Sigue bailando! <https://studio.code.org/s/dance-extras-2019/stage/1/puzzle/2>`_
+     - 9
+   * - `Star Wars <https://studio.code.org/s/starwarsblocks>`_
+     - 15
 
 Más ejercicios de `hora del código <https://code.org/learn>`_
 

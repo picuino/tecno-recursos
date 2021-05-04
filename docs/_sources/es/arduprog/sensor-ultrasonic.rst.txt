@@ -58,10 +58,8 @@ La librería estándar más precisa que se puede utilizar es
 `NewPing <https://playground.arduino.cc/Code/NewPing>`_
 Para instalar la librería hay que seguir los siguientes pasos:
 
-1. Descargar la librería desde la siguiente página web:
-   `librería NewPing
-   <https://code.google.com/p/arduino-new-ping/downloads/detail?name=NewPing_v1.5.zip>`_
-2. Guardar el fichero NewPing_v1.5.zip en el ordenador
+1. Descargar la librería
+2. Guardar el fichero NewPing_v1.9.1.zip en el ordenador
 3. Abrir el entorno gráfico de Arduino
 4. En la pestaña Sketch.. Importar librería.. pinchar 'Add Library...'
 5. Buscar el fichero descargado y después de seleccionarle,

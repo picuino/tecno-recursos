@@ -12,6 +12,7 @@ Otros recursos para tecnología
    :maxdepth: 1
    :titlesonly:
    
+   recursos-questionary.rst
    external-blogs.rst
    external-images.rst
    didactica-evaluacion-asignatura.rst
