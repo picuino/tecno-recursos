@@ -5,8 +5,8 @@
 Recursos de dibujo técnico
 ==========================
 
-Educaciónplástica.net
----------------------
+www.educacionplastica.net
+-------------------------
 
 * `Ejercicios de vistas. Nivel básico.
   <http://www.educacionplastica.net/3dcube_model/vistas_3d_2x2.html>`_
