@@ -57,5 +57,11 @@ La página web está creada con `Sphinx <http://sphinx-doc.org/>`__
 usando un `tema <https://github.com/rtfd/sphinx_rtd_theme>`__ 
 proporcionado por `Read the Docs <https://readthedocs.org/>`__
 
-
 El logotipo de Picuino que aparece en la página es una marca registrada.
+
+
+Imágenes externas
+-----------------
+Las imágenes que aparecen en la página de :ref:`legal-atribution`
+son de diferentes autores con licencias libres tal y como aparece 
+en los créditos junto a cada una.

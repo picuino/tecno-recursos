@@ -1,14 +1,6 @@
 ﻿
 .. _legal-atribution:
 
-Créditos del diseño de la página web
-====================================
-
-La página web está creada con `Sphinx <http://sphinx-doc.org/>`__
-usando un `tema <https://github.com/rtfd/sphinx_rtd_theme>`__ 
-proporcionado por `Read the Docs <https://readthedocs.org/>`__
-
-
 Créditos de las imágenes
 ========================
 
@@ -292,4 +284,12 @@ bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
    de ` <>`__
    bajo `licencia <>`__
 
+
+
+Créditos del diseño de la página web
+====================================
+
+La página web está creada con `Sphinx <http://sphinx-doc.org/>`__
+usando un `tema <https://github.com/rtfd/sphinx_rtd_theme>`__ 
+proporcionado por `Read the Docs <https://readthedocs.org/>`__
 
