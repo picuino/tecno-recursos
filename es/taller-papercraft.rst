@@ -3,7 +3,7 @@
 
 Modelos de papel de figuras en 3D
 =================================
-Modelos en papel (paper craft) de figuras en tres dimensiones.
+Modelos de papel (papercraft) de figuras en tres dimensiones.
 
 .. image:: taller/taller-figura-3d-01.png
    :width: 240px
@@ -39,3 +39,15 @@ Modelos en papel (paper craft) de figuras en tres dimensiones.
 |  :download:`Figura en 3D 03. 
    Formato SVG.
    <taller/taller-figura-3d-03.svg>`
+
+
+.. image:: taller/taller-figura-3d-04.png
+   :width: 240px
+   :target: ../_downloads/taller-figura-3d-04.pdf
+
+|  :download:`Figura en 3D 04.
+   Formato PDF.
+   <taller/taller-figura-3d-04.pdf>`
+|  :download:`Figura en 3D 04. 
+   Formato SVG.
+   <taller/taller-figura-3d-04.svg>`
