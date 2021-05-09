@@ -21,6 +21,7 @@ electrónicos.
    electric-receptores.rst
    electric-simbolos.rst
    electric-serie-paralelo.rst
+   electric-serie-paralelo-resistencias.rst
    crocodile-index.rst
 
    bornas-lamparas-index.rst

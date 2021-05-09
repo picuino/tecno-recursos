@@ -561,8 +561,6 @@ Wire Notes Line
 Wire Notes Line
 	2825 9425 2825 11475
 Wire Notes Line
-	5450 950  5450 900 
-Wire Notes Line
 	5450 1025 5450 3075
 Wire Notes Line
 	5450 3125 5450 5175

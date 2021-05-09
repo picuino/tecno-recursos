@@ -40,7 +40,9 @@ def encuentra_tres_paralelos(resistencias):
             r_p2 = 1/( 1/r1 + 1/r3)
             r_p3 = 1/( 1/r2 + 1/r3)
             r_p4 = 1/( 1/r1 + 1/r2 + 1/r3)
-            if racional(r_p1) and racional(r_p2) and racional(r_p3) and racional(r_p4):
+            if racional(r_p1) and racional(r_p3) and racional(r_p4):
+               if r1 == r2 or r2 == r3 or r1 == r3:
+                  continue
                print("%02d // %02d // %02d  =  %02d" % (r1, r2, r3, r_p4))
 
 main()
