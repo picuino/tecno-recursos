@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:electric-serie-paralelo-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -1371,61 +1370,4 @@ Text Notes 4975 9325 0    100  ~ 0
 15
 Text Notes 7000 9325 0    100  ~ 0
 16
-$Comp
-L simbolos:CopyRight CP?
-U 1 1 5CA3136B
-P 16200 12825
-F 0 "CP?" H 16625 13150 40  0001 C CNN
-F 1 "CopyRight" H 16375 13150 40  0001 C CNN
-F 2 "" H 16100 13175 50  0001 C CNN
-F 3 "" H 16200 13025 50  0001 C CNN
-F 4 "CC BY-SA 4.0" H 16175 12775 50  0000 R CNN "License"
-F 5 "" H 16750 12775 50  0000 C CNN "Author"
-F 6 "" H 16325 12775 50  0000 C CNN "Date"
-F 7 "www.picuino.com" H 16225 12775 50  0000 L CNN "Web"
-	1    16200 12825
-	1    0    0    -1  
-$EndComp
-Text Notes 13225 4450 0    100  ~ 0
-1
-Text Notes 15175 4450 0    100  ~ 0
-2
-Text Notes 17125 4450 0    100  ~ 0
-3
-Text Notes 19150 4450 0    100  ~ 0
-4
-Text Notes 13225 6550 0    100  ~ 0
-5
-Text Notes 15175 6550 0    100  ~ 0
-6
-Text Notes 17125 6550 0    100  ~ 0
-7
-Text Notes 19150 6550 0    100  ~ 0
-8
-Text Notes 13175 12850 0    100  ~ 0
-17
-Text Notes 15125 12850 0    100  ~ 0
-18
-Text Notes 17075 12850 0    100  ~ 0
-19
-Text Notes 19100 12850 0    100  ~ 0
-20
-Text Notes 13225 8650 0    100  ~ 0
-9
-Text Notes 15125 8650 0    100  ~ 0
-10
-Text Notes 17075 8650 0    100  ~ 0
-11
-Text Notes 19100 8650 0    100  ~ 0
-12
-Text Notes 13175 10750 0    100  ~ 0
-13
-Text Notes 15125 10750 0    100  ~ 0
-14
-Text Notes 17075 10750 0    100  ~ 0
-15
-Text Notes 19100 10750 0    100  ~ 0
-16
-Wire Wire Line
-	12300 4400 13275 4400
 $EndSCHEMATC
