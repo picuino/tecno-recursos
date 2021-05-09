@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es-es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Electricidad y electrónica - Resistencias en serie y en paralelo" />
+
+  
+  <title>Resistencias en serie y en paralelo - Electricidad y electrónica - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/es/electric-serie-paralelo-resistencias.html"/>
+
+  
+
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Search within ..."
+            href="../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="Prácticas con Crocodile Clips" href="crocodile-index.html" />
+    <link rel="prev" title="Serie y paralelo" href="electric-serie-paralelo.html" /> 
+
+  <script src="../_static/modernizr.min.js"></script>
+
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//www.picuino.com/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="electric-index.html">Electricidad y electrónica</a> &raquo;</li>
+        
+      <li>Resistencias en serie y en paralelo</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/es/electric-serie-paralelo-resistencias.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="resistencias-en-serie-y-en-paralelo">
+<span id="electric-serie-paralelo-resistencias"></span><h1>Resistencias en serie y en paralelo<a class="headerlink" href="#resistencias-en-serie-y-en-paralelo" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En esta unidad se estudiarán las resistencias equivalentes a circuitos
+con resistencias en serie, con resistencias en paralelo y con resistencias
+en montajes mixtos.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-06.png"><img alt="../_images/electric-resistencias-serie-paralelo-06.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-06.png" style="width: 386px;" /></a>
+<div class="section" id="resistencia-equivalente-de-un-circuito-en-serie">
+<h2>Resistencia equivalente de un circuito en serie<a class="headerlink" href="#resistencia-equivalente-de-un-circuito-en-serie" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Un circuito con resistencias en serie está configurado como el de
+la siguiente figura.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-01.png"><img alt="../_images/electric-resistencias-serie-paralelo-01.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-01.png" style="width: 573px;" /></a>
+<p>Este circuito se puede simplificar en un circuito con una sola resistencia que
+que tenga un valor equivalente a las dos resistencias en serie. Este circuito
+se denomina circuito equivalente y por él circulará la misma corriente que por
+el circuito con dos resistencias.</p>
+<p>Para calcular el valor de la resistencia equivalente a un circuito en serie,
+se deben sumar los valores de todas las resistencias en serie según la
+siguiente fórmula.</p>
+<div class="math">
+<p><img src="../_images/math/61abe066b34a3936f36d80a8804da053de76a353.svg" alt="R12 = R1 + R2"/></p>
+</div><p>En el caso de que el circuito esté compuesto por tres resistencias en serie.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-03.png"><img alt="../_images/electric-resistencias-serie-paralelo-03.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-03.png" style="width: 384px;" /></a>
+<p>se deberán sumar los valores de las tres resistencias para calcular el valor
+de la resistencia equivalente, según la siguiente fórmula.</p>
+<div class="math">
+<p><img src="../_images/math/1e58b24ac333f946d0d38a8d6b100070694602af.svg" alt="R123 = R1 + R2 + R3"/></p>
+</div><p>Si a un circuito le añadimos una resistencia en serie la resistencia total
+siempre aumentará y por lo tanto la corriente total siempre disminuirá.</p>
+</div>
+<div class="section" id="resistencia-equivalente-de-un-circuito-en-paralelo">
+<h2>Resistencia equivalente de un circuito en paralelo<a class="headerlink" href="#resistencia-equivalente-de-un-circuito-en-paralelo" title="Enlazar permanentemente con este título">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-02.png"><img alt="../_images/electric-resistencias-serie-paralelo-02.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-02.png" style="width: 573px;" /></a>
+<p>En el caso de que un circuito esté compuesto por resistencias en paralelo,
+su resistencia equivalente se calculará con el inverso de la suma de las
+inversas de las resistencias según la siguiente fórmula.</p>
+<div class="math">
+<p><img src="../_images/math/acf486686d219c9f22fde3d3ba496aa64295d041.svg" alt="R12 = \cfrac{1}{ \cfrac{1}{R1} + \cfrac{1}{R2} }"/></p>
+</div><p>La resistencia equivalente de un paralelo siempre será menor que cualquiera
+de las resistencias que forman el paralelo.</p>
+<p>Si el circuito está formado por tres resistencias en paralelo, el cálculo
+puede extenderse a tres resistencias en total según la siguiente fórmula.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-04.png"><img alt="../_images/electric-resistencias-serie-paralelo-04.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-04.png" style="width: 384px;" /></a>
+<div class="math">
+<p><img src="../_images/math/529104ff90c4c05f58a3f9aab8f6bada5487e44b.svg" alt="R123 = \cfrac{1}{ \cfrac{1}{R1} + \cfrac{1}{R2} + \cfrac{1}{R3} }"/></p>
+</div><p>Si a un circuito le añadimos una resistencia en paralelo, la resistencia
+total siempre disminuirá y por lo tanto la corriente total siempre aumentará.</p>
+</div>
+<div class="section" id="resistencia-equivalente-de-un-circuito-mixto">
+<h2>Resistencia equivalente de un circuito mixto<a class="headerlink" href="#resistencia-equivalente-de-un-circuito-mixto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los circuitos mixtos están compuestos por resistencias en serie y por
+resistencias en paralelo.
+Para resolver los circuitos mixtos primero habrá que resolver los circuitos
+serie o paralelo interiores y con el circuito equivalente resolver los
+circuitos serie o paralelo exteriores.</p>
+<p>A continuación veremos varios ejemplos.</p>
+<p>En la siguiente figura podemos ver un circuito mixto de tres resistencias.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-05.png"><img alt="../_images/electric-resistencias-serie-paralelo-05.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-05.png" style="width: 386px;" /></a>
+<p>En este circuito mixto primero hay que resolver el paralelo formado por
+las resistencias R2 y R3, con lo cual el circuito se simplifica según la
+siguiente imagen.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-12.png"><img alt="../_images/electric-resistencias-serie-paralelo-12.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-12.png" style="width: 294px;" /></a>
+<div class="math">
+<p><img src="../_images/math/0a741abf106e4c9d43a665df290fbfc7389b604f.svg" alt="R23 = \cfrac{1}{ \cfrac{1}{R2} + \cfrac{1}{R3} }"/></p>
+</div><p>A continuación se pueden sumar las resistencias R1 y R23 para calcular
+la resistencia equivalente del circuito completo.</p>
+<hr class="docutils" />
+<p>En la siguiente figura podemos ver otro circuito mixto de tres resistencias.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-06.png"><img alt="../_images/electric-resistencias-serie-paralelo-06.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-06.png" style="width: 386px;" /></a>
+<p>En este circuito mixto primero hay que resolver la serie formada por las
+resistencias R1 y R2 sumando sus valores, con lo cual el circuito se simplifica
+según la siguiente imagen.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-07.png"><img alt="../_images/electric-resistencias-serie-paralelo-07.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-07.png" style="width: 284px;" /></a>
+<div class="math">
+<p><img src="../_images/math/61abe066b34a3936f36d80a8804da053de76a353.svg" alt="R12 = R1 + R2"/></p>
+</div><p>A continuación se puede calcular el paralelo de las resistencias R12 y R3
+para hallar la resistencia equivalente del circuito completo.</p>
+<div class="math">
+<p><img src="../_images/math/68f7ffdebb8088b59e57848ff8c25c59d5e1e954.svg" alt="R123 = \cfrac{1}{ \cfrac{1}{R12} + \cfrac{1}{R3} }"/></p>
+</div><hr class="docutils" />
+<p>En la siguiente figura podemos ver un circuito mixto de cuatro resistencias.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-10.png"><img alt="../_images/electric-resistencias-serie-paralelo-10.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-10.png" style="width: 384px;" /></a>
+<p>En este circuito mixto primero hay que calcular el equivalente en serie
+de las resistencias R1 y R2 y por otro lado el equivalente en serie de las
+resistencias R3 y R4, con lo que el circuito se simplifica según la
+siguiente imagen.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-11.png"><img alt="../_images/electric-resistencias-serie-paralelo-11.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-11.png" style="width: 279px;" /></a>
+<div class="math">
+<p><img src="../_images/math/a776766eccd36cbfc3939df20c743ee449cae239.svg" alt="R12 = R1 + R2
+
+R34 = R3 + R4"/></p>
+</div><p>Una vez simplificado el circuito, se puede calcular el paralelo de las
+dos resistencias R12 y R34 según la fórmula correspondiente.</p>
+<div class="math">
+<p><img src="../_images/math/ebfcfbb22771b732e9c891badfe3bdd77fa76055.svg" alt="R1234 = \cfrac{1}{ \cfrac{1}{R12} + \cfrac{1}{R34} }"/></p>
+</div><hr class="docutils" />
+<p>En la siguiente figura podemos ver otro circuito mixto de cuatro resistencias.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-08.png"><img alt="../_images/electric-resistencias-serie-paralelo-08.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-08.png" style="width: 384px;" /></a>
+<p>En este circuito mixto primero hay que calcular el equivalente en paralelo
+de las resistencias R1 y R2 y por otro lado el equivalente en paralelo de las
+resistencias R3 y R4, con lo que el circuito se simplifica según la
+siguiente imagen.</p>
+<a class="reference internal image-reference" href="../_images/electric-resistencias-serie-paralelo-09.png"><img alt="../_images/electric-resistencias-serie-paralelo-09.png" class="align-center" src="../_images/electric-resistencias-serie-paralelo-09.png" style="width: 280px;" /></a>
+<div class="math">
+<p><img src="../_images/math/9e0ea22017259b2c637d92c7a2142ad5cc9eb5c7.svg" alt="R12 = \cfrac{1}{ \cfrac{1}{R1} + \cfrac{1}{R2} }
+
+R34 = \cfrac{1}{ \cfrac{1}{R3} + \cfrac{1}{R4} }"/></p>
+</div><p>Una vez simplificado el circuito, se puede calcular la serie de las
+dos resistencias R12 y R34 según la fórmula correspondiente.</p>
+<div class="math">
+<p><img src="../_images/math/3cf3a81ae5f5afb93ede37742ccdc091b2a85294.svg" alt="R1234 = R12 + R34"/></p>
+</div></div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Ejercicios de cálculo de resistencias en serie, en paralelo y en circuito mixto.</p>
+<div class="line-block">
+<div class="line"><a class="reference download internal" download="" href="../_downloads/electric-resistencias-serie-paralelo.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Calcular</span> <span class="pre">resistencias</span> <span class="pre">en</span> <span class="pre">serie</span> <span class="pre">y</span> <span class="pre">en</span> <span class="pre">paralelo.</span>
+<span class="pre">Formato</span> <span class="pre">PDF.</span></code></a></div>
+<div class="line"><a class="reference download internal" download="" href="../_downloads/electric-resistencias-serie-paralelo.zip"><code class="xref download docutils literal notranslate"><span class="pre">Proyecto</span> <span class="pre">editable.</span> <span class="pre">Formato</span> <span class="pre">KiCad.</span></code></a></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+	<!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>
+        
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="crocodile-index.html" class="btn btn-neutral float-right" title="Prácticas con Crocodile Clips" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="electric-serie-paralelo.html" class="btn btn-neutral" title="Serie y paralelo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="legal-aviso.html">Aviso legal</a></li>
+    <li><a href="legal-autor.html">Derechos de Autor</a></li>
+    <li><a href="legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="legal-atribution.html">Créditos</a></li>
+    </ul>
+    <p class="content-info">
+         Copyright &copy; 2013-2021 por Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez, mayo de 2021.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+         <a href="index.html">Tecno Recursos</a>
+
+         
+            
+            
+              <div class="version">
+                2021
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electric-index.html">Electricidad y electrónica</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="electric-circuito.html">El circuito eléctrico</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-receptores.html">Efectos de la electricidad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-simbolos.html">Símbolos eléctricos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-serie-paralelo.html">Serie y paralelo</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Resistencias en serie y en paralelo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="crocodile-index.html">Prácticas con Crocodile Clips</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bornas-lamparas-index.html">Cableado de lámparas con bornas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bornas-electronic-index.html">Cableado de componentes electrónicos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-codigo-colores.html">Código de colores de las resistencias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-rele.html">Los Relés</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comm-timeline.html">Línea de tiempo de las comunicaciones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-recursos.html">Recursos para electricidad</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Otros recursos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
