@@ -28,8 +28,8 @@ Instalación de Ardublock
 Para instalar la última versión de Ardublock-Picuino hay que 
 seguir los siguentes pasos:
 
-  1. Descargar la `herramienta Ardublock-Picuino 
-     <_images/ardublock-picuino.zip>`_
+  1. Descargar la :download:`herramienta Ardublock-Picuino 
+     <_downloads/ardublock-picuino.zip>`
   2. Copiar el archivo en el directorio de Arduino.
      El directorio se puede encontrar en el entorno de Arduino, 
      pulsando el menú:
@@ -51,8 +51,8 @@ infrarrojos.
 Para **instalar todas las librerías a la vez**, hay que seguir los 
 siguientes pasos:
 
-  1. Descargar el `archivo con las librerías para Arduino
-     <_downloads/arduino-libraries.zip>`_
+  1. Descargar el :download:`archivo con las librerías para Arduino
+     <_downloads/arduino-libraries.zip>`
   2. Copiar el archivo en el directorio de Arduino.
      El directorio se puede encontrar en el entorno de Arduino,
      pulsando el menú:

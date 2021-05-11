@@ -136,9 +136,9 @@ Programa equivalente en el entorno Ardublock:
    :alt: Programa de Ardublock para encender el led D1 con el
          pulsador 1 del panel de control PC42
 
-En este enlace se puede descargar el `archivo de programa para
-entorno Ardublock 'keyPressed'
-<_images/ardublock_keyPressed.abp>`_
+En este enlace se puede descargar el 
+:download:`archivo de programa para entorno Ardublock 'keyPressed'
+<_downloads/ardublock_keyPressed.abp>`
 
 
 Apagar un led con un pulsador

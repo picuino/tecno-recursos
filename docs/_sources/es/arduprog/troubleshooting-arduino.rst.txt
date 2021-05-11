@@ -114,11 +114,11 @@ Arduino.
 Después de descargar el archivo, se debe descomprimir y ejecutar el 
 software de instalación.
 
-   `Arduino 1.8.1 Drivers para Windows
-   <_downloads/arduino-181-win-drivers.zip>`_
+   :download:`Arduino 1.8.1 Drivers para Windows 
+   <_downloads/arduino-181-win-drivers.zip>`
 
-   `Arduino 1.0.6 Drivers para Windows
-   <_downloads/arduino-106-win-drivers.zip>`_
+   :download:`Arduino 1.0.6 Drivers para Windows 
+   <_downloads/arduino-106-win-drivers.zip>`
 
 
 Si se utiliza una placa compatible con Arduino con un chip de 

@@ -128,8 +128,8 @@ Programa equivalente en el entorno Ardublock:
    :alt: Programa de Ardublock para encender el led D1 del panel de
          control PC42
 
-En este enlace se puede descargar el :download:`archivo de programa
-para entorno Ardublock 'ledWrite_On'
+En este enlace se puede descargar el 
+:download:`archivo de programa para entorno Ardublock 'ledWrite_On'
 <_downloads/ardublock_ledWrite_On.abp>`
 
 
@@ -159,8 +159,8 @@ Programa equivalente en el entorno Ardublock:
    :alt: Programa de Ardublock para encender y apagar el led D1 del
          panel de control PC42
 
-En este enlace se puede descargar el :download:`archivo de programa
-para entorno Ardublock 'ledWrite_On_Off'
+En este enlace se puede descargar el 
+:download:`archivo de programa para entorno Ardublock 'ledWrite_On_Off'
 <_downloads/ardublock_ledWrite_On_Off.abp>`
 
 

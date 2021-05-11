@@ -15,8 +15,8 @@ La librería IRremote añade a Arduino la capacidad para manejar tanto
 emisores como receptores de control remoto por infrarrojos con los
 protocolos más habituales.
 
-  * `Descarga directa de la librería IRremote
-    <_downloads/IRremote.zip>`_
+  * :download:`Descarga directa de la librería IRremote
+    <_downloads/IRremote.zip>`
 
   * `Página de GitHub de la librería IRremote
     <https://github.com/shirriff/Arduino-IRremote>`_

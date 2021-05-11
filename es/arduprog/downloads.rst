@@ -91,18 +91,12 @@ Documentación
 
 * :download:`Transistor BD135. Datasheet de On Semiconductor.
   <_downloads/BD135-onsemi.pdf>`
-
-* :download:`Transistor BD135. Datasheet de ST.
-  <_downloads/BD135-st.pdf>`
-* :download:`DHT11
-  <_downloads/DHT11-drobotics.pdf>`
+* :download:`Transistor BD135. Datasheet de ST. <_downloads/BD135-st.pdf>`
+* :download:`DHT11 <_downloads/DHT11-drobotics.pdf>`
   Sensor de humedad y temperatura.
-* :download:`NTC
-  <_downloads/ntc-vishay-datasheet.pdf>`
+* :download:`NTC <_downloads/ntc-vishay-datasheet.pdf>`
   resistencia variable con la temperatura.
-* :download:`SG90
-  <_downloads/SG90Servo.pdf>`
-  Servomotor.
+* :download:`Servomotor SG90. <_downloads/SG90Servo.pdf>`
 
 
 Fritzing

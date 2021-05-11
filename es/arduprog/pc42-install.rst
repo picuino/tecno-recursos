@@ -150,8 +150,8 @@ programación del panel de control PC42.
 Para instalar la última versión de Ardublock-Picuino hay que seguir
 los siguentes pasos:
 
-  1. Descargar la `herramienta Ardublock-Picuino
-     <_images/ardublock-picuino.zip>`_
+  1. Descargar la :download:`herramienta Ardublock-Picuino
+     <_downloads/ardublock-picuino.zip>`
   2. Copiar el archivo en el directorio de Arduino.
      El directorio se puede encontrar en el entorno de Arduino,
      pulsando el menú:

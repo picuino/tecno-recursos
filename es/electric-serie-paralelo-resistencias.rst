@@ -3,7 +3,7 @@
 
 Resistencias en serie y en paralelo
 ===================================
-En esta unidad se estudiarán las resistencias equivalentes a circuitos
+En esta unidad se estudiarán las resistencias equivalentes de circuitos
 con resistencias en serie, con resistencias en paralelo y con resistencias
 en montajes mixtos.
 
@@ -53,14 +53,16 @@ siempre aumentará y por lo tanto la corriente total siempre disminuirá.
 
 Resistencia equivalente de un circuito en paralelo
 --------------------------------------------------
+En la siguiente figura se puede ver un circuito con resistencias en paralelo
+y su circuito equivalente con una sola resistencia.
 
 .. image:: electric/_images/electric-resistencias-serie-paralelo-02.png
    :align: center
    :width: 573px
    
-En el caso de que un circuito esté compuesto por resistencias en paralelo,
-su resistencia equivalente se calculará con el inverso de la suma de las 
-inversas de las resistencias según la siguiente fórmula.
+En el caso de un circuito con resistencias en paralelo, la resistencia 
+equivalente se calculará con el inverso de la suma de las inversas de 
+las resistencias según la siguiente fórmula.
 
 .. math::
 
@@ -90,7 +92,7 @@ Resistencia equivalente de un circuito mixto
 Los circuitos mixtos están compuestos por resistencias en serie y por 
 resistencias en paralelo. 
 Para resolver los circuitos mixtos primero habrá que resolver los circuitos 
-serie o paralelo interiores y con el circuito equivalente resolver los 
+serie o paralelo interiores y con el circuito ya simplificado resolver los 
 circuitos serie o paralelo exteriores.
 
 A continuación veremos varios ejemplos.
@@ -116,6 +118,10 @@ siguiente imagen.
 A continuación se pueden sumar las resistencias R1 y R23 para calcular
 la resistencia equivalente del circuito completo.
 
+.. math::
+
+    R123 = R1 + R23
+    
 ----
 
 En la siguiente figura podemos ver otro circuito mixto de tres resistencias.
