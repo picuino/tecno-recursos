@@ -8,15 +8,19 @@ IDE de Arduino para Windows
 ---------------------------
 IDE para programar las placas Arduino.
 
-`IDE versión 1.8.8 para Windows (diciembre de 2018) 
-</_static/downloads/arduino-1.8.8-windows.exe>`
+`Página de descarga de la página web oficial 
+<https://www.arduino.cc/en/software>`_
+
+`IDE versión 1.8.13 para Windows (mayo de 2021) 
+<../../_static/downloads/arduino-1.8.13-windows.exe>`_
+
 
 
 Drivers para Windows
 --------------------
 
 * :download:`Drivers de Arduino 1.8.1
-  <_downloads/arduino-181-win-drivers.zip>`
+  <_downloads/arduino-1813-win-drivers.zip>`
 * :download:`Drivers de Arduino 1.0.6
   <_downloads/arduino-106-win-drivers.zip>`
 * :download:`Drivers de chip de comunicaciones CH340.
@@ -108,4 +112,4 @@ realistas para Arduino y protoboard.
 `Página oficial de Fritzing <https://fritzing.org/home/>`_
 
 `Fritzing versión 9.4 64bits para Windows 
-</_static/downloads/fritzing.0.9.4.64.pc_and_dll.zip>`
+<../../_static/downloads/fritzing.0.9.4.64.pc_and_dll.zip>`_
