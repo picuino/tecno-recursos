@@ -20,6 +20,7 @@ electrónicos.
    electric-circuito.rst
    electric-receptores.rst
    electric-simbolos.rst
+   electric-ley-ohm.rst
    electric-serie-paralelo.rst
    electric-serie-paralelo-resistencias.rst
    crocodile-index.rst
