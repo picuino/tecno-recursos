@@ -170,6 +170,8 @@ siguiente imagen.
 
     R12 = R1 + R2
     
+.. math::
+
     R34 = R3 + R4
 
 Una vez simplificado el circuito, se puede calcular el paralelo de las
@@ -199,6 +201,8 @@ siguiente imagen.
 .. math::
 
     R12 = \cfrac{1}{ \cfrac{1}{R1} + \cfrac{1}{R2} }
+
+.. math::
 
     R34 = \cfrac{1}{ \cfrac{1}{R3} + \cfrac{1}{R4} }
 

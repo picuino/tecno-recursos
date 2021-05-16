@@ -3,8 +3,9 @@
 
 La ley de Ohm
 =============
-La ley de Ohm relaciona el valor de una resistencia con la tensión aplicada
-a la resistencia y la intensidad que circula por ella.
+La ley de Ohm es una ley física que relaciona, en un circuito eléctrico,
+el valor de la intensidad de corriente, la tensión aplicada 
+y la resistencia eléctrica del circuito.
 
 .. figure:: electric/_images/electric-ley-ohm-00.png
    :align: center
@@ -29,27 +30,51 @@ están representadas en la siguiente tabla junto a sus tres unidades.
    | Resistencia Eléctrica (R)      | Ohmio (Ω)                            |
    +--------------------------------+--------------------------------------+
 
+**Tensión o Voltaje:** 
+   Es la energía con la que la pila impulsa a los 
+   electrones a través del circuito. Cuando el voltaje es más alto la energía 
+   es mayor y por lo tanto los electrones circulan más deprisa, aumentando la 
+   corriente eléctrica. 
+   La tensión o voltaje se mide en Voltios.
+
+**Resistencia Eléctrica:** 
+   Es la oposición que presenta un componente al paso de la corriente eléctrica. 
+   Cuanto mayor es la resistencia, más se opone al paso de la corriente 
+   eléctrica y por lo tanto menos corriente pasará a su través.
+   La resistencia eléctrica se mide en Ohmios.
+
+**Intensidad de Corriente:** 
+   Es la cantidad de electrones que circulan por un conductor cada segundo. 
+   Cuantos más electrones circulen por segundo, más corriente pasará 
+   por el conductor.
+   La intensidad de corriente se mide en Amperios.
+
 
 Fórmula de la ley de Ohm
 ------------------------
+Según la ley de Ohm la intensidad de corriente que circula por una
+resistencia eléctrica es proporcional a la tensión aplicada a la resistencia
+e inversamente proporcional al valor de la resistencia eléctrica.
 
-La fórmula de la ley de Ohm que relaciona las tres magnitudes es la siguiente.
+La ley de Ohm escrita en notación matemática es la siguiente:
 
 .. math::
    
-   V = I \cdot R
+   I = \cfrac{V}{R}
 
 Despejando la fórmula anterior se consiguen las otras dos formas de la 
 ley de Ohm.
 
 .. math::
 
-   I = \cfrac{V}{R}
+   V = I \cdot R
    
+.. math::
+
    R = \cfrac{V}{I}
 
 Una regla nemotécnica que se puede utilizar para recordar la ley de Ohm es 
-el triángulo de las tres magnitudes:
+el siguiente triángulo con las tres magnitudes:
 
 .. figure:: electric/_images/electric-ley-ohm-triangulo.png
    :align: center
