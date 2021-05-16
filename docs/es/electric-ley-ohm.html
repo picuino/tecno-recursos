@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es-es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Electricidad y electrónica - La ley de Ohm" />
+
+  
+  <title>La ley de Ohm - Electricidad y electrónica - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/es/electric-ley-ohm.html"/>
+
+  
+
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Search within ..."
+            href="../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="Serie y paralelo" href="electric-serie-paralelo.html" />
+    <link rel="prev" title="Símbolos eléctricos" href="electric-simbolos.html" /> 
+
+  <script src="../_static/modernizr.min.js"></script>
+
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//www.picuino.com/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="electric-index.html">Electricidad y electrónica</a> &raquo;</li>
+        
+      <li>La ley de Ohm</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/es/electric-ley-ohm.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="la-ley-de-ohm">
+<span id="electric-ley-ohm"></span><h1>La ley de Ohm<a class="headerlink" href="#la-ley-de-ohm" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>La ley de Ohm es una ley física que relaciona, en un circuito eléctrico,
+el valor de la intensidad de corriente, la tensión aplicada
+y la resistencia eléctrica del circuito.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/electric-ley-ohm-00.png"><img alt="../_images/electric-ley-ohm-00.png" src="../_images/electric-ley-ohm-00.png" style="width: 303px;" /></a>
+</div>
+<div class="section" id="magnitudes-y-unidades">
+<h2>Magnitudes y unidades<a class="headerlink" href="#magnitudes-y-unidades" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La ley de Ohm por lo tanto relaciona tres magnitudes eléctricas que
+están representadas en la siguiente tabla junto a sus tres unidades.</p>
+<table border="1" class="colwidths-given docutils align-default">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">MAGNITUD Y LETRA</th>
+<th class="head">UNIDAD Y LETRA</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Tensión o Voltaje  (V)</td>
+<td>Voltio (V)</td>
+</tr>
+<tr class="row-odd"><td>Intensidad de Corriente (I)</td>
+<td>Amperio (A)</td>
+</tr>
+<tr class="row-even"><td>Resistencia Eléctrica (R)</td>
+<td>Ohmio (Ω)</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Tensión o Voltaje:</strong></dt><dd>Es la energía con la que la pila impulsa a los
+electrones a través del circuito. Cuando el voltaje es más alto la energía
+es mayor y por lo tanto los electrones circulan más deprisa, aumentando la
+corriente eléctrica.
+La tensión o voltaje se mide en Voltios.</dd>
+<dt><strong>Resistencia Eléctrica:</strong></dt><dd>Es la oposición que presenta un componente al paso de la corriente eléctrica.
+Cuanto mayor es la resistencia, más se opone al paso de la corriente
+eléctrica y por lo tanto menos corriente pasará a su través.
+La resistencia eléctrica se mide en Ohmios.</dd>
+<dt><strong>Intensidad de Corriente:</strong></dt><dd>Es la cantidad de electrones que circulan por un conductor cada segundo.
+Cuantos más electrones circulen por segundo, más corriente pasará
+por el conductor.
+La intensidad de corriente se mide en Amperios.</dd>
+</dl>
+</div>
+<div class="section" id="formula-de-la-ley-de-ohm">
+<h2>Fórmula de la ley de Ohm<a class="headerlink" href="#formula-de-la-ley-de-ohm" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Según la ley de Ohm la intensidad de corriente que circula por una
+resistencia eléctrica es proporcional a la tensión aplicada a la resistencia
+e inversamente proporcional al valor de la resistencia eléctrica.</p>
+<p>La ley de Ohm escrita en notación matemática es la siguiente:</p>
+<div class="math">
+<p><img src="../_images/math/b1b852ee7961418c8fecbc28805f217742dccb0a.svg" alt="I = \cfrac{V}{R}"/></p>
+</div><p>Despejando la fórmula anterior se consiguen las otras dos formas de la
+ley de Ohm.</p>
+<div class="math">
+<p><img src="../_images/math/329dd01fe69073c2252c607047cdf6c8089c51b5.svg" alt="V = I \cdot R"/></p>
+</div><div class="math">
+<p><img src="../_images/math/4280e822e8904eabe7cf46c9f65d893a6f63bcdc.svg" alt="R = \cfrac{V}{I}"/></p>
+</div><p>Una regla nemotécnica que se puede utilizar para recordar la ley de Ohm es
+el siguiente triángulo con las tres magnitudes:</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/electric-ley-ohm-triangulo.png"><img alt="../_images/electric-ley-ohm-triangulo.png" src="../_images/electric-ley-ohm-triangulo.png" style="width: 160px;" /></a>
+</div>
+<p>Tapando con la mano la magnitud que queremos averiguar aparece la fórmula
+correspondiente. Por ejemplo si queremos saber cuánto vale la intensidad
+de corriente, tapamos la letra I con la mano y se puede ver la letra V
+encima de la letra R. Esto significa que I = V / R.</p>
+</div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Ejercicios sencillos para calcular circuitos con la ley de Ohm.</p>
+<div class="figure align-default">
+<a class="reference external image-reference" href="../_downloads/electric-ley-ohm-inicio.pdf" rel="noopener noreferrer" target="_blank"><img alt="../_images/electric-ley-ohm-01.png" src="../_images/electric-ley-ohm-01.png" style="width: 303px;" /></a>
+</div>
+<p><a class="reference download internal" download="" href="../_downloads/electric-ley-ohm-inicio.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Ejercicios</span> <span class="pre">de</span> <span class="pre">la</span> <span class="pre">ley</span> <span class="pre">de</span> <span class="pre">Ohm.</span> <span class="pre">Formato</span> <span class="pre">PDF</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/electric-ley-ohm.zip"><code class="xref download docutils literal notranslate"><span class="pre">Ejercicios</span> <span class="pre">de</span> <span class="pre">la</span> <span class="pre">ley</span> <span class="pre">de</span> <span class="pre">Ohm.</span> <span class="pre">Formato</span> <span class="pre">KiCad</span></code></a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+	<!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>
+        
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="electric-serie-paralelo.html" class="btn btn-neutral float-right" title="Serie y paralelo" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="electric-simbolos.html" class="btn btn-neutral" title="Símbolos eléctricos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="legal-aviso.html">Aviso legal</a></li>
+    <li><a href="legal-autor.html">Derechos de Autor</a></li>
+    <li><a href="legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="legal-atribution.html">Créditos</a></li>
+    </ul>
+    <p class="content-info">
+         Copyright &copy; 2013-2021 por Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez, mayo de 2021.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+         <a href="index.html">Tecno Recursos</a>
+
+         
+            
+            
+              <div class="version">
+                2021
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electric-index.html">Electricidad y electrónica</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="electric-circuito.html">El circuito eléctrico</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-receptores.html">Efectos de la electricidad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-simbolos.html">Símbolos eléctricos</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">La ley de Ohm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-serie-paralelo.html">Serie y paralelo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-serie-paralelo-resistencias.html">Resistencias en serie y en paralelo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="crocodile-index.html">Prácticas con Crocodile Clips</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bornas-lamparas-index.html">Cableado de lámparas con bornas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bornas-electronic-index.html">Cableado de componentes electrónicos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-codigo-colores.html">Código de colores de las resistencias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-rele.html">Los Relés</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comm-timeline.html">Línea de tiempo de las comunicaciones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-recursos.html">Recursos para electricidad</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Otros recursos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

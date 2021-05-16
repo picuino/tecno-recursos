@@ -10,7 +10,7 @@ en paralelo. Combinando ambas se consigue una conexión mixta.
 La conexión en **serie** se utiliza cuando queremos que unos 
 componentes afecten el comportamiento de los demás componentes.
 Así, el interruptor de la luz se colocará en serie con la lámpara 
-para que pueda encenderla o apagarla.
+para que pueda encenderla o apagarla. 
 
 La conexión en **paralelo** se utiliza cuando queremos que los 
 componentes sean independientes. 
@@ -33,7 +33,7 @@ En un circuito en serie los componentes están conectados en
 cadena uno detrás de otro:
 
 .. image:: electric/_sources/electric-sch-02a.png
-   :height: 208px
+   :width: 236px
 
 **Características de un circuito serie:**
   
@@ -53,17 +53,17 @@ cadena uno detrás de otro:
 La tensión positiva de la pila llega a la primera lámpara:
 
 .. image:: electric/_sources/electric-sch-02b.png
-   :height: 208px
+   :width: 236px
 
 Después hay una sola conexión entre la primera lámpara y la segunda:
 
 .. image:: electric/_sources/electric-sch-02c.png
-   :height: 208px
+   :width: 236px
 
 Por último hay una conexión entre la segunda lámpara y la pila:
 
 .. image:: electric/_sources/electric-sch-02d.png
-   :height: 208px
+   :width: 236px
 
 **Fallo de un componente:**
 
@@ -72,7 +72,7 @@ En un circuito serie, si quitamos una de las lámparas,
 la otra deja de funcionar y se apaga:
 
 .. image:: electric/_sources/electric-sch-02e.png
-   :height: 208px
+   :width: 236px
 
 Los sensores de las alarmas y otros sistemas de seguridad
 están conectados en serie. Si un componente falla o se rompe,
@@ -146,15 +146,15 @@ que la lampara 1 dejará de funcionar y la lámpara 2 se iluminará
 mucho más que si estuviera en serie.
 
 .. image:: electric/_sources/electric-sch-02a.png
-   :height: 208px
+   :width: 236px
    
 .. image:: electric/_sources/electric-sch-03a.png
-   :height: 208px
+   :width: 236px
 
 En la siguiente imagen se puede ver el camino de la electricidad:
 
 .. image:: electric/_sources/electric-sch-03b.png
-   :height: 208px
+   :width: 236px
 
 
 **Cortocircuito en la pila:**
@@ -167,10 +167,10 @@ porque no les llega corriente.
 Esquema del cortocircuito y camino de la corriente:
 
 .. image:: electric/_sources/electric-sch-03c.png
-   :height: 208px
+   :width: 236px
 
 .. image:: electric/_sources/electric-sch-03d.png
-   :height: 208px
+   :width: 236px
 
 
 Circuito abierto
@@ -180,8 +180,15 @@ circule la corriente eléctrica. Un circuito abierto se puede dar
 si falta algún cable para cerrar el circuito, si hay un interruptor 
 abierto o si algún componente en serie está fundido.
 
-.. image:: electric/_sources/electric-sch-02e.png
-   :width: 208px
+Un circuito puede estar abierto si falta camino para que llegue
+la tensión positiva de la pila o si falta camino para que llegue la 
+tensión negativa de la pila.
+
+.. image:: electric/_sources/electric-sch-04a.png
+   :width: 246px
+
+.. image:: electric/_sources/electric-sch-04b.png
+   :width: 246px
 
 Es lo primero que hay que comprobar cuando un aparato eléctrico no 
 funciona ¿Está conectado?
