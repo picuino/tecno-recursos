@@ -261,16 +261,16 @@ $EndComp
 $Comp
 L simbolos:CopyRight CP?
 U 1 1 5BC453A4
-P 3900 11400
-F 0 "CP?" H 4325 11725 40  0001 C CNN
-F 1 "CopyRight" H 4075 11725 40  0001 C CNN
-F 2 "" H 3800 11750 50  0001 C CNN
-F 3 "" H 3900 11600 50  0001 C CNN
-F 4 "CC BY-SA 4.0" H 3575 11350 50  0000 C CNN "License"
-F 5 "" H 4450 11350 50  0000 C CNN "Author"
-F 6 "" H 4025 11350 50  0000 C CNN "Date"
-F 7 "www.picuino.com" H 4275 11350 50  0000 C CNN "Web"
-	1    3900 11400
+P 4200 200
+F 0 "CP?" H 4625 525 40  0001 C CNN
+F 1 "CopyRight" H 4375 525 40  0001 C CNN
+F 2 "" H 4100 550 50  0001 C CNN
+F 3 "" H 4200 400 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 3750 125 75  0000 C CNN "License"
+F 5 "" H 4750 150 50  0000 C CNN "Author"
+F 6 "" H 4325 150 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4725 125 75  0000 C CNN "Web"
+	1    4200 200 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

@@ -15,21 +15,6 @@ Comment4 ""
 $EndDescr
 Text Notes 975  650  0    100  ~ 0
 CIRCUITO ELÉCTRICO
-$Comp
-L simbolos:CopyRight CP?
-U 1 1 5BC453A4
-P 3900 11400
-F 0 "CP?" H 4325 11725 40  0001 C CNN
-F 1 "CopyRight" H 4075 11725 40  0001 C CNN
-F 2 "" H 3800 11750 50  0001 C CNN
-F 3 "" H 3900 11600 50  0001 C CNN
-F 4 "CC BY-SA 4.0" H 3575 11350 50  0000 C CNN "License"
-F 5 "" H 4450 11350 50  0000 C CNN "Author"
-F 6 "" H 4025 11350 50  0000 C CNN "Date"
-F 7 "www.picuino.com" H 4275 11350 50  0000 C CNN "Web"
-	1    3900 11400
-	1    0    0    -1  
-$EndComp
 Wire Notes Line width 16 style solid rgb(0, 0, 0)
 	225  750  8050 750 
 Text Notes 5275 650  0    100  ~ 0
@@ -1769,4 +1754,19 @@ Wire Wire Line
 	2025 9625 2275 9625
 Wire Wire Line
 	2275 9625 2275 9800
+$Comp
+L simbolos:CopyRight CP?
+U 1 1 60A37D3B
+P 3925 200
+F 0 "CP?" H 4350 525 40  0001 C CNN
+F 1 "CopyRight" H 4100 525 40  0001 C CNN
+F 2 "" H 3825 550 50  0001 C CNN
+F 3 "" H 3925 400 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 3475 125 75  0000 C CNN "License"
+F 5 "" H 4475 150 50  0000 C CNN "Author"
+F 6 "" H 4050 150 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4425 125 75  0000 C CNN "Web"
+	1    3925 200 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

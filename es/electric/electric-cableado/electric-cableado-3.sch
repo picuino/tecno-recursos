@@ -94,21 +94,6 @@ F 3 "" H 3950 1150 50  0001 C CNN
 	1    3900 1150
 	1    0    0    -1  
 $EndComp
-$Comp
-L simbolos:CopyRight CP?
-U 1 1 5BC453A4
-P 3900 11400
-F 0 "CP?" H 4325 11725 40  0001 C CNN
-F 1 "CopyRight" H 4075 11725 40  0001 C CNN
-F 2 "" H 3800 11750 50  0001 C CNN
-F 3 "" H 3900 11600 50  0001 C CNN
-F 4 "CC BY-SA 4.0" H 3575 11350 50  0000 C CNN "License"
-F 5 "" H 4450 11350 50  0000 C CNN "Author"
-F 6 "" H 4025 11350 50  0000 C CNN "Date"
-F 7 "www.picuino.com" H 4275 11350 50  0000 C CNN "Web"
-	1    3900 11400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 1600 7200 1600
 Wire Wire Line
@@ -1641,4 +1626,19 @@ Wire Wire Line
 	7500 8400 7500 8500
 Wire Wire Line
 	7500 8900 7500 9000
+$Comp
+L simbolos:CopyRight CP?
+U 1 1 60A48BBB
+P 3825 200
+F 0 "CP?" H 4250 525 40  0001 C CNN
+F 1 "CopyRight" H 4000 525 40  0001 C CNN
+F 2 "" H 3725 550 50  0001 C CNN
+F 3 "" H 3825 400 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 3375 125 75  0000 C CNN "License"
+F 5 "" H 4375 150 50  0000 C CNN "Author"
+F 6 "" H 3950 150 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4350 125 75  0000 C CNN "Web"
+	1    3825 200 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
