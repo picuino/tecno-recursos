@@ -1,5 +1,5 @@
 @echo off
-set PATH=venv\Scripts;%PATH%
+set PATH=\Picuino\Tecno-recursos\venv\Scripts;%PATH%
 call activate.bat
 
 set PATH=\Bin\cygwin64\bin;%PATH%
