@@ -75,11 +75,11 @@ $(SRCDIR)/%.jpg: $(THUMBDIR)/%.jpg
 # --------------------------------------------------------------------
 # RST FILES
 #
-RSTSOURCES=$(wildcard $(SRCDIR)/*.rst)
+RSTSOURCES=$(wildcard $(SRCDIR)/*.txt)
 RSTSOURCES:=$(filter-out $(RSTMACRO), $(RSTSOURCES))
-RSTFILES=$(foreach f, $(RSTSOURCES), $(OUTPUT)/$(notdir $f))
+RSTFILES=$(foreach f, $(RSTSOURCES), $(OUTPUT)/$(basename $(notdir $f)).rst)
 
-$(OUTPUT)/%.rst: $(SRCDIR)/%.rst  $(RSTMACRO)
+$(OUTPUT)/%.rst: $(SRCDIR)/%.txt  $(RSTMACRO)
 	python make_rst.py  $<  $@
 
 
