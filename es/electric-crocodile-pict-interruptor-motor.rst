@@ -1,4 +1,4 @@
-﻿.. include:: crocodile-subs.rst
+﻿.. include:: electric-crocodile-subs.rst
 
 
 Interruptores y motor
