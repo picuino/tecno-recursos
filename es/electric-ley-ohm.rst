@@ -100,3 +100,9 @@ Ejercicios sencillos para calcular circuitos con la ley de Ohm.
 :download:`Ejercicios de la ley de Ohm. Formato KiCad
 <electric/electric-ley-ohm.zip>`
 
+
+Cuestionarios
+-------------
+Cuestionarios de tipo test sobre la ley de Ohm:
+
+   `Questionary. Ley de Ohm. <https://www.picuino.com/questionary/es_electric_ohms_law.html>`__
