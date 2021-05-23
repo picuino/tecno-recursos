@@ -10,7 +10,8 @@ electrónicos.
 
 .. image:: electric/_images/electric-serie-paralelo-logo.png
    :width: 360px
-   :alt: Electricidad
+   :align: center
+   :alt: Electricidad y electrónica
 
 
 .. toctree::
@@ -23,13 +24,12 @@ electrónicos.
    electric-ley-ohm.rst
    electric-serie-paralelo.rst
    electric-serie-paralelo-resistencias.rst
-   crocodile-index.rst
+   electric-crocodile-index.rst
 
    bornas-lamparas-index.rst
    bornas-electronic-index.rst
-   electric-codigo-colores.rst
-   
-   electric-rele.rst
+
+   electric-componentes-index.rst
    
    comm-timeline.rst
 

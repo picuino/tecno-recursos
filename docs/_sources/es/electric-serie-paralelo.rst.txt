@@ -194,8 +194,8 @@ Es lo primero que hay que comprobar cuando un aparato eléctrico no
 funciona ¿Está conectado?
 
 
-Identificar circuitos
----------------------
+Ejercicios
+----------
 Ejercicios para identificar circuitos en serie, 
 en paralelo o con cortocircuito.
 
@@ -210,3 +210,13 @@ en paralelo o con cortocircuito.
    <electric/electric-serie-paralelo-images.zip>`
 |  :download:`Proyecto editable. Formato KiCad.
    <electric/electric-serie-paralelo.zip>`
+
+
+Cuestionarios
+-------------
+Cuestionario de tipo test para identificar circuitos en serie,
+en paralelo, con cortocircuito en la pila o con cortocircuito en la bombilla.
+
+  * `Questionary. Identificar serie y paralelo 
+    <https://www.picuino.com/questionary/es_electric_series_parallel_identify.html>`__
+

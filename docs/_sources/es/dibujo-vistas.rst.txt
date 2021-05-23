@@ -186,3 +186,11 @@ Ejercicios con curvas
    <dibujo/dibujo-vistas-izq-05-images.zip>`
 |  :download:`Alzado izquierdo. Formato editable SVG.
    <dibujo/dibujo-vistas-izq-05.svg>`
+
+
+Piezas de papel en tres dimensiones
+-----------------------------------
+Ejercicios para construir piezas en tres dimensiones con papel recortado
+(papercraft) en el taller de tecnología:
+
+   :ref:`taller-papercraft`

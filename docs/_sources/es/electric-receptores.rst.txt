@@ -43,3 +43,13 @@ que lo hacen realidad.
 +------------+-----------------------------------------+
 
   
+El motor eléctrico
+------------------
+Explicación del motor de corriente continua o corriente directa (CD).
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="https://www.youtube.com/embed/A_VGpRxFzXQ"
+   frameborder="0" allowfullscreen></iframe>
+   </div>

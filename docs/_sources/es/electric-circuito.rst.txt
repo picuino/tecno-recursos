@@ -7,6 +7,7 @@ El circuito eléctrico
 
 .. figure:: electric/_images/electric-circuito-simbolos-02.png
    :width: 320px
+   :align: center
    :alt: Elementos de un circuito eléctrico
    
 Un circuito eléctrico es un conjunto de componentes que generan 

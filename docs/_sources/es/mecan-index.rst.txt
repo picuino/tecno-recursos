@@ -6,8 +6,8 @@
  Mecánica
 **********
 
-Estructuras resistentes, diseño en 3D, 
-mecanismos que transforman movimientos.
+Estructuras resistentes, diseño en 3D, mecanismos que transforman movimientos,
+neumática e hidráulica.
 
 
 .. image:: mecan/_images/mecan-jib-crane.jpg
@@ -25,6 +25,7 @@ mecanismos que transforman movimientos.
    estructuras-estabilidad.rst
    estructuras-bridge-designer.rst
    freecad-index.rst
+   mecan-neumatic-intro.rst
    mecan-termicas.rst
    mecan-origami.rst
    mecan-recursos.rst
