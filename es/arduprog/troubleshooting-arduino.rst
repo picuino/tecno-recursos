@@ -15,14 +15,14 @@ llamado led de **Power ON**:
 
 .. only:: html
 
-   .. image:: _thumbs/img-0098.jpg
+   .. image:: _images/img-0099.jpg
       :width: 400px
       :alt: Leds de la placa Arduino UNO.
       :align: center
       
 .. only:: latex
 
-   .. figure:: _images/img-0098.jpg
+   .. figure:: _images/img-0099.jpg
       :alt: Leds de la placa Arduino UNO.
       :width: 400px
       :align: center
