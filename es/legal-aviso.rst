@@ -112,14 +112,15 @@ momento.
 5.1. Mediante la aceptación de las presentes Condiciones de Uso, el
 USUARIO acepta que todo el contenido que incorpore o difunda a través
 de la Página Web se publique con Licencia
-Creative Commons - Reconocimiento - Compartir igual 3.0 España.
+Creative Commons - Reconocimiento - Compartir Igual 4.0 Internacional.
 
 Un resumen de esta licencia puede encontrarse en la dirección web:
-https://creativecommons.org/licenses/by-sa/3.0/es/
+https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
 El contenido completo de la licencia puede encontrarse en la
 dirección web:
-https://creativecommons.org/licenses/by-sa/3.0/es/legalcode.es
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.es
+
 
 5.2. El USUARIO se compromete a respetar los derechos de Propiedad
 Intelectual e Industrial titularidad de la ASOCIACIÓN y colaboradores.
