@@ -135,11 +135,11 @@ Casos especiales
 
    Marrón Negro  = 10
    
-   Necesita un multiplicador x 10 de color Marron
+   Necesita un multiplicador x 10 de color Marrón
    
    El resultado es 
    
-   Marrón Negro Marron Oro
+   Marrón Negro Marrón Oro
 
 
 Cuestionarios
