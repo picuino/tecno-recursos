@@ -20,17 +20,17 @@ electrónicos.
    
    electric-circuito.rst
    electric-receptores.rst
+   electric-componentes-index.rst
    electric-simbolos.rst
+
    electric-ley-ohm.rst
    electric-serie-paralelo.rst
    electric-serie-paralelo-resistencias.rst
-   electric-crocodile-index.rst
 
+   electric-crocodile-index.rst
    bornas-lamparas-index.rst
    bornas-electronic-index.rst
 
-   electric-componentes-index.rst
-   
    comm-timeline.rst
 
    electric-recursos.rst
