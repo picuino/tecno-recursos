@@ -17,6 +17,7 @@ Componentes eléctricos y electrónicos.
    :maxdepth: 1
    :titlesonly:
 
+   electric-motor.rst
    electric-codigo-colores.rst
    electric-rele.rst
    electric-semiconductores.rst

@@ -4,20 +4,6 @@
 Recursos para electricidad
 ==========================
 
-
-El motor eléctrico
-------------------
-Experimento para construir un pequeño motor eléctrico.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube.com/embed/q35IjXC54H8"
-   frameborder="0" allowfullscreen></iframe>
-   </div>
-
-
-
 Cuestionarios de electricidad (Questionary)
 -------------------------------------------
 
@@ -75,8 +61,15 @@ realistas para Arduino y protoboard.
 
 `Página oficial de Fritzing <https://fritzing.org/home/>`_
 
-`Fritzing versión 9.4 64bits para Windows
-<../_static/downloads/fritzing.0.9.4.64.pc_and_dll.zip>`_
+
+KiCad
+-----
+Kicad es un programa libre (open-source) para Windows, Mac y Linux
+que permite diseñar esquemas eléctricos y placas de circuito impreso.
+Es el programa utilizado en esta página web para realizar la mayoría
+de los esquemas eléctricos que aparecen en las fichas de ejercicios.
+
+`Página oficial de KiCad <https://www.kicad.org/>`__
 
 
 Simuladores
