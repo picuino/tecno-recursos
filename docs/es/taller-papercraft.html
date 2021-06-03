@@ -28,7 +28,6 @@
 
   <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Búsqueda" href="../search.html" />
@@ -36,22 +35,6 @@
     <link rel="prev" title="2. Historia de las herramientas" href="taller-historia-herramientas.html" /> 
 
   <script src="../_static/modernizr.min.js"></script>
-
-
-  <!-- Matomo -->
-  <script type="text/javascript">
-    var _paq = window._paq = window._paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="//www.picuino.com/matomo/";
-      _paq.push(['setTrackerUrl', u+'matomo.php']);
-      _paq.push(['setSiteId', '1']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
-  <!-- End Matomo Code -->
 
 </head>
 
@@ -171,30 +154,6 @@
           <footer>
 
   
-	<!-- Cookies Advise -->
-   <div id="cookiesbar" style="display: none">
-   Utilizamos cookies propias y de terceros para elaborar información 
-   estadística y analizar tu navegación en el Sitio Web.
-   Puedes obtener más información en nuestra 
-   <a href="https://www.picuino.com/es/legal-cookies.html" 
-   target="_blank">política de Cookies.</a> <br />
-   Si continúas navegando, aceptas su uso. 
-   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
-   <script>
-   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
-   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
-   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
-   </script>
-
-   <!-- Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
-   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-   gtag('config', 'UA-59765999-1');
-   </script>
-        
-
-  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
         <a href="recursos-index.html" class="btn btn-neutral float-right" title="Otros recursos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
@@ -222,13 +181,62 @@
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
     a menos que se indique lo contrario.<br />
       <span class="lastupdated">
-        Actualizado por última vez, mayo de 2021.
+        Actualizado por última vez, junio de 2021.
       </span>
 
     </p>
   </div> 
 
 </footer>
+
+
+          
+  <!-- Cookies Advise -->
+  <div id="cookiesbar" style="display: none">
+  Esta página web utiliza cookies propias y de terceros 
+  para propósitos funcionales y de análisis de navegación.
+  Puedes obtener más información en nuestra 
+  <a href="https://www.picuino.com/es/legal-cookies.html" 
+  target="_blank">política de Cookies.</a> <br />
+  Si continúas navegando, aceptas su uso.
+  <br />
+  <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
+  <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
+  </div>
+  <script>
+  if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+  function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+  function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+  function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+  function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+  </script>
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+  if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//www.picuino.com/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  }
+  </script>
+  <!-- End Matomo Code -->
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+  <script>
+  if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+    window.dataLayer=window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date()); gtag('config', 'UA-59765999-1');
+  }
+  </script>
 
         </div>
       </div>
