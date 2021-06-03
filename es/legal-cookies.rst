@@ -64,8 +64,6 @@ de cookies.
    * `Google Analytics 
      <https://www.google.com/intl/es/policies/technologies/cookies/>`_
    * `YouTube <https://www.google.es/intl/es/policies/privacy/>`_
-   * Utilizamos mathjax.org para renderizar ecuaciones matemáticas.
-     Este sitio utiliza cookies analíticas y de sesión.
 
 
 Aceptación de cookies
