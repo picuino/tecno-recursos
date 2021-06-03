@@ -30,9 +30,9 @@ pdf_color = True
 extensions = [
    #'sphinx.ext.autodoc',
    #'sphinx.ext.doctest',
-   'sphinx.ext.graphviz',
-   'sphinx.ext.intersphinx',
-   'sphinx.ext.todo',
+   #'sphinx.ext.graphviz',
+   #'sphinx.ext.intersphinx',
+   #'sphinx.ext.todo',
    #'sphinx.ext.coverage',
    'sphinx.ext.imgmath',
    'sphinx.ext.ifconfig',
