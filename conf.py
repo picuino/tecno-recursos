@@ -34,19 +34,14 @@ extensions = [
    #'sphinx.ext.intersphinx',
    #'sphinx.ext.todo',
    #'sphinx.ext.coverage',
+   #'sphinx.ext.ifconfig',
+   #'sphinx.ext.githubpages',
    'sphinx.ext.imgmath',
-   'sphinx.ext.ifconfig',
-   'sphinx.ext.githubpages',
 ]
 
 imgmath_font_size = 16
 #imgmath_dvipng_args = ['-gamma', '1.5', '-D', '300', '-bg', 'Transparent']
 imgmath_image_format = 'svg'
-
-
-# graphviz options
-graphviz_dot_args = []
-graphviz_output_format = 'svg'
 
 
 # The suffix(es) of source filenames.
@@ -162,7 +157,7 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
    'analytics_id': 'UA-59765999-1', # Adre account -> picuino.com 
    'logo_only': True,
-   'display_version': True,
+   'display_version': False,
    'canonical_url': 'https://www.picuino.com/',
    'sticky_navigation': False,  # False = sidebar doesn't scroll with main page
    'collapse_navigation': True, # True = wipe out [+] option in menu
