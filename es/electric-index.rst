@@ -24,6 +24,7 @@ electrónicos.
    electric-simbolos.rst
 
    electric-ley-ohm.rst
+   electric-ley-ohm-regla.rst
    electric-serie-paralelo.rst
    electric-serie-paralelo-resistencias.rst
 

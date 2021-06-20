@@ -13,6 +13,8 @@ Otros recursos para tecnología
    :titlesonly:
    
    recursos-questionary.rst
-   external-blogs.rst
-   external-images.rst
-   didactica-evaluacion-asignatura.rst
+   recursos-cuaderno-notas.rst
+   recursos-sopa-letras.rst
+   recursos-evaluacion-asignatura.rst
+   recursos-blogs.rst
+   recursos-images.rst
