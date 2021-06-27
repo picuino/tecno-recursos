@@ -32,6 +32,6 @@ electrónicos.
    bornas-lamparas-index.rst
    bornas-electronic-index.rst
 
-   comm-timeline.rst
+   electric-sistema-electrico.rst
 
    electric-recursos.rst
