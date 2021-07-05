@@ -1,0 +1,98 @@
+﻿
+.. _material-plasticos:
+
+Los plásticos
+=============
+Se fabrican a partir del gas natural o del petróleo refinado.
+
+
+Propiedades de los plásticos
+----------------------------
+
+**Propiedades mecánicas de los plásticos**
+   En general los plásticos son blandos, tenaces, y con una resistencia
+   mecánica media.
+
+   Algunos plásticos especiales de altas prestaciones soportan mejor que los
+   demás las altas temperaturas y tienen buena resistencia mecánica.
+   Por ejemplo el Kevlar se utiliza en los chalecos antibalas.
+
+
+**Densidad**
+   Los plásticos son ligeros, con una densidad parecida a la del agua
+   (1 kg/litro)
+
+   Algunos plásticos se fabrican con pompas de gas en su interior para
+   conseguir que tengan muy baja densidad y sean buenos aislantes térmicos.
+   Por ejemplo la espuma de poliuretano o el poliestireno expandido
+   (corcho blanco)
+
+
+**Respuesta a la luz**
+   Algunos plásticos como el policarbonato o el metacrilato son muy
+   transparentes y se utilizan para fabricar ventanas, DVDs, faros, etc.
+
+   Muchos plásticos desechados en el medio ambiente se degradan con la
+   luz del sol rompiéndose en microplásticos y produciendo sustancias tóxicas.
+
+
+**Propiedades de fabricación de los plásticos**
+   Los plásticos son muy maleables, extremadamente dúctiles y fundibles.
+   Todo esto facilita mucho la fabricación de láminas finas, hilos, utilizar
+   moldes o hacer soldaduras.
+
+
+**Conductividad de los plásticos**
+   Los plásticos tienen poca conductividad térmica y eléctrica, razón por la
+   que se utilizan en aislantes eléctricos y térmicos.
+
+
+**Propiedades químicas de los plásticos**
+   Resisten muy bien la oxidación, los ácidos y cáusticos. Por esa razón
+   muchos contenedores de sustancias químicas están hechos de plástico.
+
+
+**Propiedades ecológicas de los plásticos**
+   La mayoría de plásticos no son biodegradables, son tóxicos en su
+   fabricación y en el medio ambiente.
+   Los microplásticos son un gran problema actual.
+
+   Los plásticos se pueden reciclar un pequeño número de veces porque al
+   reciclarlos se degradan y no sirven para fabricar el mismo producto.
+   Se calcula que sólo el 14% del plástico se recolecta para su reciclaje.
+
+
+Termoplásticos
+--------------
+Se pueden fundir.
+
+PET, polietileno, PVC, polipropileno, poliestireno.
+
+
+Termoplásticos de altas prestaciones
+------------------------------------
+Son termoplásticos con mejores prestaciones que los habituales.
+
+Nailon, teflón, policarbonato.
+
+
+Termoestables
+-------------
+No se funden. Si la temperatura aumenta mucho se degradan sin fundirse, igual
+que la madera.
+
+Baquelita, melamina, resina epoxi.
+
+
+Elastómeros
+-----------
+Tienen una alta elasticidad.
+
+Látex, neopreno, siliconas, caucho sintético.
+
+
+Cuestionario
+------------
+Cuestionario de tipo test sobre los materiales plásticos.
+
+`Questionary. Materiales plásticos. <https://www.picuino.com/questionary/es_material_plastics.html>`__

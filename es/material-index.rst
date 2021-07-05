@@ -29,9 +29,8 @@ materiales de origen natural.
 
 En esta unidad se estudiará cómo se clasifican los materiales, sus
 propiedades más importantes, las herramientas y procesos que se 
-utilizan para transformarlos, las normas de seguridad asociadas y 
-los problemas sociales y medioambientales que pueden producir su
-utilización y desecho.
+utilizan para transformarlos y los problemas sociales y 
+medioambientales que pueden producir su utilización y desecho.
 
 
 .. toctree::
@@ -39,5 +38,11 @@ utilización y desecho.
    :titlesonly:
 
    material-clasific.rst
+   material-propiedades.rst
+   material-petreos.rst
+   material-madera.rst
+   material-textiles.rst
+   material-metales.rst
+   material-plasticos.rst
    material-herramientas.rst
    material-recursos.rst

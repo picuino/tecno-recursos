@@ -74,7 +74,7 @@ prima:
    caucho, corcho, celulosa.
 
 **Materiales de origen animal**:
-   Lana, cuero, seda
+   Lana, cuero, seda.
 
 
 **Materiales de origen mineral**:
@@ -93,41 +93,21 @@ Según esta clasificación tenemos los siguientes materiales:
   Provienen de las piedras o arenas de la naturaleza.
   Se pueden clasificar en los siguientes grupos.
 
-  * Naturales: mármol, granito, pizarra, arena, piedras calizas.
+  * Naturales: mármol, granito, pizarra, piedra caliza, arenas.
   * Aglomerantes: yeso, cemento, hormigón.
   * Cerámicos: arcilla, gres, loza, cerámica.
   * Vidrios y cristales.
-
-**Materiales plásticos**:
-
-   Provienen del gas natural o del petróleo refinado.
-   Se pueden clasificar en los siguientes grupos.
-
-   * Elastómeros: goma, neopreno, siliconas, caucho sintético.
-   * Termoplásticos: PVC, PET, poliéster, poliuretano, nailon, teflón.
-   * Termoestables: baquelita, melamina, resina epoxi.
-
-**Materiales metálicos**:
-
-   Se extraen a partir de óxidos que se encuentran en la naturaleza.
-   Se pueden clasificar en los siguientes grupos.
-
-   * Basados en hierro: hierro, acero, acero inoxidable
-   * Basados en cobre: cobre, latón, bronce.
-   * Metales preciosos: oro, plata, rodio, platino.
-   * Metales ligeros: aluminio, litio, magnesio.
-   * Metales pesados: plomo, cromo, cadmio, mercurio.
 
 **Materiales basados en madera**:
 
    Están hechos de madera maciza o de derivados de la madera prensados.
 
-   * Madera cortada: blandas y duras
-   * Madera chapada: Contrachapado, madera laminada
-   * Madera Aglomerada: aglomerado, DM
-   * Papel y cartón
+   * Madera cortada: blandas y duras.
+   * Madera chapada: Contrachapado, madera laminada.
+   * Madera Aglomerada: aglomerado, DM.
+   * Papel y cartón.
 
-**Materiales Textiles**:
+**Materiales textiles**:
 
    Son materiales que agrupan desde las telas usadas en ropa o
    muebles, hasta un balón de cuero o la vela de un barco.
@@ -136,9 +116,30 @@ Según esta clasificación tenemos los siguientes materiales:
    la fabricación.
 
    * Hilos: Seda, lana, algodón, poliéster.
-   * Telas: vaqueros, gersey de lana, vela de barco.
+   * Telas: vaqueros, jersey de lana, vela de barco.
    * Cueros: zapatos, guantes, sillones, cinturones, recipientes
-     para liquidos.
+     para líquidos.
+
+**Materiales metálicos**:
+
+   Se extraen calentando óxidos y sulfuros que se encuentran en la 
+   naturaleza en forma de rocas.
+   Se pueden clasificar en los siguientes grupos.
+
+   * Basados en hierro: hierro, acero, acero inoxidable.
+   * Basados en cobre: cobre, latón, bronce.
+   * Metales ligeros: aluminio, litio, magnesio.
+   * Metales pesados: plomo, cromo, cadmio, mercurio.
+   * Metales preciosos: oro, plata, rodio, platino.
+
+**Materiales plásticos**:
+
+   Provienen del gas natural o del petróleo refinado.
+   Se pueden clasificar en los siguientes grupos.
+
+   * Termoplásticos: PET, polietileno, PVC, polipropileno, poliestireno, nailon, teflón.
+   * Termoestables: baquelita, melamina, resina epoxi.
+   * Elastómeros: látex, neopreno, siliconas, caucho sintético.
 
 
 Clasificación según el impacto en el medio ambiente
@@ -196,13 +197,13 @@ Ejemplos de **materiales no renovables**:
 
 Ejemplos de materiales tóxicos:
   * Los metales pesados como el plomo, cadmio, mercurio.
-  * Los plásticos. Algunos emiten gases tóxicos. La mayoría son
-    tóxicos al descomponerse con el sol o al quemarse.
+  * Los plásticos. Algunos emiten gases tóxicos. 
+    La mayoría son tóxicos al descomponerse con el sol o al quemarse.
   * Materiales de construcción como el granito, que desprende un
     gas radioactivo llamado radón.
   * Materiales que desprenden polvo cancerígeno, como el amianto,
     con el que están fabricados muchos materiales de construcción.
-    Hoy en día está prohibida su venta.
+    Hoy en día está prohibida su fabricación y venta.
   * Materiales que consumen mucha energía al producirse como el
     aluminio, acero, hormigón.
 

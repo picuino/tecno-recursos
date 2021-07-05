@@ -15,7 +15,7 @@ Página web con estilo práctico y directo. Tiene muchos ejemplos.
 
 Web Style Guide
 ---------------
-Guía muy completa para el diseño completo de páginas web.
+Guía muy completa para el diseño de páginas web.
 Abarca todos los temas importantes desde la estructura del sitio web,
 el diseño del interfaz o la tipografía hasta el estilo editorial.
 
