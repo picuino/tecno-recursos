@@ -91,32 +91,32 @@ Derivados de la madera
 ----------------------
 
 * **Chapado:**
-  La madera se puede laminar cortándola con cuchilla como hace un sacapuntas.
+  la madera se puede laminar cortándola con cuchilla como hace un sacapuntas.
    
-  Esas láminas de madera se pueden utilizar para cubrir otros derivados 
+  Esas láminas de madera se pueden utilizar para recubrir otros derivados 
   de la madera como el aglomerado y dar la impresión superficial de madera
   natural.
   
 * **Contrachapado:**
-  Es un tablero de madera fabricado con láminas finas de madera pegadas 
+  es un tablero de madera fabricado con láminas finas de madera pegadas 
   entre sí como en un sandwich, con las fibras de la madera en perpendicular
   (contrapuestas) para mejorar la resistencia total y la estabilidad de la
   madera ante la humedad.
 
 * **Aglomerado:**
-  Está formado por virutas de madera (serrín) pegadas con
+  está formado por virutas de madera (serrín) pegadas con
   una cola que las une entre sí.
   
   La superficie del aglomerado se suele cubrir con láminas de madera 
   natural o con láminas de resina plástica de colores para dar una 
   apariencia de madera natural, granito, color uniforme, etc.
 
-* **Fibras prensadas (DM):**
-  Es un tablero formado por fibras de madera parecidas a las utilizadas
+* **Fibras prensadas (MDF):**
+  es un tablero formado por fibras de madera parecidas a las utilizadas
   para fabricar cartón, unidas entre sí por un pegamento de resina.
 
 * **Corcho:**
-  Es un material que se obtiene de la corteza de un árbol, el alcornoque.
+  es un material que se obtiene de la corteza de un árbol, el alcornoque.
   
   Se puede utilizar para fabricar paneles que tienen muy buena respuesta
   al sonido para insonorizar habitaciones.
@@ -124,16 +124,47 @@ Derivados de la madera
   etc.
 
 * **Papel:**
-  Está formado por fibras muy finas de la madera, blanqueadas con oxígeno
+  está formado por fibras muy finas de la madera, blanqueadas con oxígeno
   o lejía y prensadas en láminas finas.
 
 * **Cartón:**
-  Su proceso de fabricación es semejante al del papel, pero no se blanquean
+  su proceso de fabricación es semejante al del papel, pero no se blanquean
   las fibras, que suelen contener papel reciclado.
   
   Está formado por varias láminas de papel pegadas entre sí, con la lámina
   central corrugada.
 
+
+Formas comerciales
+------------------
+
+**Madera maciza**
+   Se obtienen directamente del tronco del árbol.
+   
+   **Listones:** Piezas largas de sección rectangular o circular de pequeño 
+   tamaño.
+
+   **Perfiles y molduras:** piezas largas de sección en L o formas variadas 
+   de pequeño tamaño.
+   
+   **Tablones:** piezas largas de sección rectangular gruesa.
+   
+   **Chapas y láminas** láminas de madera con grosor menor de 3 milímetros,
+   que sirven para revestir maderas de menor calidad, parte trasera de armarios
+   y fondo de cajones.
+   
+
+**Derivados de la madera**
+   Se obtienen prensando láminas, virutas o fibras de madera encolada.
+
+   **Tableros** tienen unas dimensiones grandes (1.2m x 2.4m) pero se pueden
+   cortar en tamaños más pequeños según planos del cliente.
+   Pueden estar hechos de contrachapado, aglomerado o fibras (MDF).
+   
+   **Bobinas de papel y cartón:** están formadas por papel o cartón enrollados
+   en una bobina de gran longitud.
+   
+   
 
 Cuestionario
 ------------

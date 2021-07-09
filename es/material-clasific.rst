@@ -95,8 +95,8 @@ Según esta clasificación tenemos los siguientes materiales:
 
   * Naturales: mármol, granito, pizarra, piedra caliza, arenas.
   * Aglomerantes: yeso, cemento, hormigón.
-  * Cerámicos: arcilla, gres, loza, cerámica.
-  * Vidrios y cristales.
+  * Cerámicos: arcilla, gres, porcelana.
+  * Vidrio.
 
 **Materiales basados en madera**:
 

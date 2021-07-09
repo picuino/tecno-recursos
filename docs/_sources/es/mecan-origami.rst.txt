@@ -34,3 +34,22 @@ Papiroflexia de nivel medio
 
 `F15 Eagle Jet Fighter Paper Plane
 <https://www.youtube.com/watch?v=_WnAsrh3XvQ>`__
+
+
+
+POP-UP de papel
+---------------
+`Pop-Up. Paralelogramos y Triángulos.
+<https://www.youtube.com/watch?v=43swfl1vACE>`__
+
+`Pop-Up. Plegados en V.
+<https://www.youtube.com/watch?v=43swfl1vACE>`__
+
+`Pop-Up. Efecto de profundidad con paralelos.
+<https://www.youtube.com/watch?v=Y0udGsGCP_0>`__
+
+
+Flying man
+----------
+`The Flying Man de @robives.
+<https://www.youtube.com/watch?v=Ap6jJ3Oo9lQ>`__

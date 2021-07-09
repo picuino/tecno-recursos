@@ -1,8 +1,8 @@
 ﻿
 .. _material-metales:
 
-Los metales
-===========
+Los materiales metálicos
+========================
 Son materiales que se obtienen calentando en un horno minerales,
 generalmente óxidos y sulfuros del metal, obtenidos en las minas.
 

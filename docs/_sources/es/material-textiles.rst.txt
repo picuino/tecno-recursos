@@ -1,8 +1,8 @@
 ﻿
 .. _material-textiles:
 
-Los textiles
-============
+Los materiales textiles
+=======================
 
 Son materiales que agrupan desde las telas usadas en ropa o
 muebles, hasta un balón de cuero o la vela de un barco.
@@ -10,7 +10,56 @@ Aunque su origen es muy distinto, todos tienen en común su gran
 flexibilidad y los procesos de cosido y pegado que se utilizan en
 la fabricación.
 
-* Hilos: Seda, lana, algodón, poliéster.
-* Telas: vaqueros, jersey de lana, vela de barco.
-* Cueros: zapatos, guantes, sillones, cinturones, recipientes
-  para líquidos.
+Hilos
+-----
+
+**Seda**
+   Fibra de origen animal (gusanos de seda).
+
+**Lana**
+   Fibra de origen animal (pelo de oveja).
+
+**Algodón**
+   Fibra de origen vegetal.
+
+**Lino**
+   Fibra de origen vegetal.
+
+**Poliéster y otros plásticos**
+   Fibra de origen artificial.
+
+
+Textiles
+--------
+Son láminas formadas por hilos unidos de diversas maneras.
+
+**Fieltro**
+   Está formado por fibras unidas mediante vapor y presión, sin tejer, 
+   por lo que no es muy resistente.
+   
+   Se utiliza para fabricar sombreros, faldas, chaquetas, alfombras, etc.
+   Necesita en ocasiones un forro para añadir más resistencia mecánica.
+
+
+**Tejidos planos o telas**
+   Están formados por varios hilos que se entrecruzan en perpendicular.
+   Se fabrican en telares.
+   
+   Las telas se usan para fabricar todo tipo de ropa, velas, recubrimientos
+   de muebles, etc.
+
+**Tejido de punto**
+   Está fabricado haciendo muchos nudos a un único hilo (tricotaje) hasta 
+   formar un tejido. El resultado es más elástico que las telas o el fieltro.
+   
+   Se utiliza en calcetines o jerseys.
+
+**Cueros**
+   Provienen de la piel de los animales curtida. Los más utilizados son los
+   cueros de vacuno, porcino y bobino.
+   
+   Se utilizan para fabricar zapatos, guantes, cinturones, cazadoras,
+   sillones, recipientes para líquidos, etc.
+   
+   En la antigüedad se utilizó para hacer libros de pergamino que han 
+   resistido el paso de los siglos hasta hoy en día.
