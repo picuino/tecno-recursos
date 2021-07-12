@@ -226,7 +226,7 @@ se fundan uniéndose entre sí.
    Fue la primera cerámica elaborada por los seres humanos y aún hoy es uno
    de los materiales más baratos y de más amplio uso.
    
-   Se utiliza para fabricar ladrillos y producir cemento.
+   Se utiliza para fabricar ladrillos, tejas, recipientes y producir cemento.
 
 .. figure:: material/_images/material-arcilla.jpg
    :align: center
@@ -235,10 +235,24 @@ se fundan uniéndose entre sí.
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
    via Wikimedia Commons.
 
+**Loza**
+   Se fabrica con arcilla mezclada con arena. Es un material poroso igual
+   que la arcilla, por lo que se suele recubrir con un barniz externo que
+   cristaliza en la cocción haciendo a la pieza impermeable.
+   
+   Se utiliza para hacer vajillas.
+   
+.. figura:: material/_images/material-loza.jpg
+   :align: center
+   
+   `Lourdes Cardenal <https://commons.wikimedia.org/wiki/File:Cuenco_barro_ceramica_popular_lou.jpg>`__
+   `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+   via Wikimedia Commons.
+
 
 **Gres**
-   Es una mezcla de arcilla con materiales como el sílice que aportan mejor
-   resistencia mecánica y a la cocción.
+   Es una mezcla de arcilla con materiales como el sílice que aportan 
+   una mayor resistencia mecánica y a la cocción (desgrasantes).
    
    Es un material muy duro e impermeable. Se utiliza sobre todo en la 
    fabricación de baldosas para suelos.

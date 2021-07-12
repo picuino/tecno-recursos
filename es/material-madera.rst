@@ -76,59 +76,103 @@ algunas propiedades comunes a todas ellas.
    Por lo tanto la mayoría de los procesos de fabricación se basan
    en cortar, serrar, taladrar o fresar la madera (retirar material).
 
+Partes del tronco del árbol
+---------------------------
+
+**Corteza**
+   Es la parte exterior del tronco.
+   Su función es proteger las capas interiores.
+   
+**Albura**
+   Es la madera más exterior del tronco.
+   Es más blanda y de color más claro.
+   
+**Duramen**
+   Es la madera más interior del tronco.
+   Es más dura y de color más oscuro.
+
+
+Obtención de la madera
+----------------------
+**Tala**
+   Es el proceso de cortar el tronco del árbol.
+   Una vez cortado se eliminan las ramas.
+
+**Transporte**
+   Los troncos cortados se transportan desde el campo
+   en camión o por un rio hasta el aserradero.
+
+**Aserradero**
+   En el aserradero se elimina la corteza del tronco
+   y se sierran en forma de tablas, tablones o listones.
+   
+   También se pueden debobinar los troncos con una cuchilla 
+   para obtener chapas de madera.
+   
+**Replantado**
+   Para que la madera sea renovable, es necesario
+   volver a plantar los mismos árboles que se han cortado.
+
 
 Tipos de maderas comunes
 ------------------------
-* **Coníferas:** pino, abeto, cedro. También llamadas maderas blandas.
 
-* **Frondosas:** roble, haya, castaño, nogal, eucalipto. 
-  También llamadas maderas duras.
+**Maderas blandas**
+   Proceden sobre todo de las coníferas.
 
-* **Tropicales:** teca, caoba, madera de balsa.
+   Pino, abeto, cedro, chopo
+
+**Maderas duras** 
+   Tienen mayor densidad y dureza por lo que son más difíciles de trabajar.
+
+   Roble, haya, castaño, nogal, eucalipto. 
+
+**Tropicales**
+   Teca, caoba, madera de balsa.
 
 
 Derivados de la madera
 ----------------------
 
-* **Chapado:**
-  la madera se puede laminar cortándola con cuchilla como hace un sacapuntas.
+**Chapa de madera**
+  La madera se puede laminar cortándola con cuchilla como hace un sacapuntas.
    
   Esas láminas de madera se pueden utilizar para recubrir otros derivados 
   de la madera como el aglomerado y dar la impresión superficial de madera
   natural.
   
-* **Contrachapado:**
-  es un tablero de madera fabricado con láminas finas de madera pegadas 
+**Contrachapado**
+  Es un tablero de madera fabricado con láminas finas de madera pegadas 
   entre sí como en un sandwich, con las fibras de la madera en perpendicular
   (contrapuestas) para mejorar la resistencia total y la estabilidad de la
   madera ante la humedad.
 
-* **Aglomerado:**
-  está formado por virutas de madera (serrín) pegadas con
+**Aglomerado**
+  Está formado por virutas de madera (serrín) pegadas con
   una cola que las une entre sí.
   
   La superficie del aglomerado se suele cubrir con láminas de madera 
   natural o con láminas de resina plástica de colores para dar una 
   apariencia de madera natural, granito, color uniforme, etc.
 
-* **Fibras prensadas (MDF):**
-  es un tablero formado por fibras de madera parecidas a las utilizadas
+**Fibras prensadas (MDF)**
+  Es un tablero formado por fibras de madera parecidas a las utilizadas
   para fabricar cartón, unidas entre sí por un pegamento de resina.
 
-* **Corcho:**
-  es un material que se obtiene de la corteza de un árbol, el alcornoque.
+**Corcho**
+  Es un material que se obtiene de la corteza de un árbol, el alcornoque.
   
   Se puede utilizar para fabricar paneles que tienen muy buena respuesta
   al sonido para insonorizar habitaciones.
   También se utiliza en tapones de botellas, paneles para colgar papeles, 
   etc.
 
-* **Papel:**
-  está formado por fibras muy finas de la madera, blanqueadas con oxígeno
-  o lejía y prensadas en láminas finas.
+**Papel**
+  Está formado por fibras muy finas de la madera, blanqueadas con oxígeno
+  o cloro y prensadas en láminas finas.
 
-* **Cartón:**
-  su proceso de fabricación es semejante al del papel, pero no se blanquean
+**Cartón**
+  Su proceso de fabricación es semejante al del papel, pero no se blanquean
   las fibras, que suelen contener papel reciclado.
   
   Está formado por varias láminas de papel pegadas entre sí, con la lámina
@@ -163,7 +207,6 @@ Formas comerciales
    
    **Bobinas de papel y cartón:** están formadas por papel o cartón enrollados
    en una bobina de gran longitud.
-   
    
 
 Cuestionario

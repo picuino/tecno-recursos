@@ -12,9 +12,12 @@ la fabricación.
 
 Hilos
 -----
+Son hebras largas fabricadas a partir del trenzado de fibras cortas de 
+origen animal, vegetal o plásticos.
 
 **Seda**
    Fibra de origen animal (gusanos de seda).
+   Es una de las fibras naturales más fuertes.
 
 **Lana**
    Fibra de origen animal (pelo de oveja).
@@ -25,13 +28,13 @@ Hilos
 **Lino**
    Fibra de origen vegetal.
 
-**Poliéster y otros plásticos**
+**Poliéster, nailon y otros plásticos**
    Fibra de origen artificial.
 
 
 Textiles
 --------
-Son láminas formadas por hilos unidos de diversas maneras.
+Son láminas formadas por hilos unidos de diversas maneras o por piel animal.
 
 **Fieltro**
    Está formado por fibras unidas mediante vapor y presión, sin tejer, 
@@ -56,7 +59,7 @@ Son láminas formadas por hilos unidos de diversas maneras.
 
 **Cueros**
    Provienen de la piel de los animales curtida. Los más utilizados son los
-   cueros de vacuno, porcino y bobino.
+   cueros de vaca, cerdo y oveja.
    
    Se utilizan para fabricar zapatos, guantes, cinturones, cazadoras,
    sillones, recipientes para líquidos, etc.
