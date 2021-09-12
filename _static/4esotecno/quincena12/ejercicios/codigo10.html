@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena12/ejercicios/codigo10.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:55:05 GMT -->
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>codigo Ej 10</title>
+
+  
+  
+</head><body>
+<small><font face="Verdana">
+Código (sólo cambia el procedimiento semaforo):<br>
+para semaforo<br>
+&nbsp; SI :tiempo <1 [BP SL GI 90 AV 100 GD 180 BL ROTULA [Demasiado rápido. Pulse el botón de freno para continuar] ALTO] <br>
+;el texto no cabe en la pantalla, por lo que hay que desplazar el cursor a la izquierda antes de escribir<br>
+;el resto del código es idéntico al ejercicio 2.<br>
+&nbsp; BP BL<br>
+&nbsp; REPITE 4 [AV 100 GD 90]<br>
+&nbsp; SL AV 50 GD 90 AV 50 BL<br>
+&nbsp; CIRCLE 40<br>
+&nbsp; POCCR 4 RELLENA ESPERA :tiempo<br>
+&nbsp; POCCR 6 RELLENA ESPERA :tiempo<br>
+&nbsp; POCCR 2 RELLENA ESPERA :tiempo<br>
+fin
+</font></small>
+</body>
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena12/ejercicios/codigo10.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:55:05 GMT -->
+</html>

@@ -1,0 +1,107 @@
+<!-- 
+ // Scrit realizado por Miguel e María
+ // http://www.tecnoloxia.org
+ // Licenza Creative commons
+ // Pódese copiar, modificar e distribuír baixo a mesma licenza
+ // Sinalando a autoría 
+ -->
+
+<script language="javascript">
+<!-- //code hiding
+	function convierteEnBinario(val,size) {
+	   var cadena = val.toString(2);
+	   var l=cadena.length;
+	   var dif = size - l;
+	   for(var i=0; i< dif;i++)
+	       cadena ="0"+cadena;
+	   return cadena;
+	}
+
+   function q52c_comprueba(f1) {
+	valor = parseInt(f1.decval.value,10);
+	respuesta = parseInt(f1.result.value,2);
+	if(valor != respuesta)
+		q52c_mal(f1);
+	else
+		q52c_bien(f1);
+
+   }
+
+   function q52c_nuevo(f1) {
+  	nuevo = Math.floor(Math.random()*64);
+	f1.result.value = "";
+        f1.decval.value =nuevo.toString(10);
+   	document.getElementById('Solucion_q52c').innerHTML="";
+   }
+
+   function q52c_bien(f1) {
+//        q52c_nuevo(f1);
+        document.getElementById('Solucion_q52c').innerHTML="Correcto. Puedes probar otra vez, si quieres";
+	
+    
+   }
+   function q52c_mal(f1) {
+        document.getElementById('Solucion_q52c').innerHTML="La respuesta no es correcta. Prueba otra vez";
+	q52c_solucion(f1);	
+      
+   }
+   function q52c_solucion(f1) {
+	valor = parseInt(f1.decval.value,10);
+	resultado = valor;
+	cadena = "La respuesta correcta es <b>" + convierteEnBinario(valor,6) + "</b><br /><br /><table> ";
+	decimal = f1.decval.value;
+
+	v5 = Math.floor(valor / 2);
+	t5 = valor % 2;
+	cadena = cadena + "<tr>" + "<td width='30' align='center'>" + valor + "</td><td width='30' class='binario'  align='center'>" + 2 + "</td><td width='30'  align='center'>" +"</td><td width='30'  align='center'>" +"</td><td width='30'  align='center'>" +"</td><td width='30'  align='center'>" +"</td></tr>";
+	cadena = cadena + "<tr>" + "<td  align='center'><b>" + t5 + "</b></td><td  align='center'>" + v5 + "</td><td class='binario'  align='center'>"+ "2" +"</td><td  align='center'>" +"</td><td align='center'>" +"</td><td align='center'>" +"</td></tr>";
+
+	v4 = Math.floor(v5 / 2);
+	t4 = v5 % 2;
+	cadena = cadena + "<tr>" + "<td align='center'>" + "</td><td align='center'><b>"  + t4 + "</b></td><td align='center'>" + v4 + "</td><td class='binario' align='center'>"+ 2 +"</td><td align='center'>" +"</td><td align='center'>" +"</td></tr>";
+
+	v3 = Math.floor(v4 / 2);
+	t3 = v4 % 2;
+	cadena = cadena + "<tr>" + "<td align='center'>" + "</td><td align='center'>" + "</td><td align='center'><b>"   + t3 + "</b></td><td align='center'>" + v3 + "</td><td class='binario' align='center'>"+ 2 +"</td><td align='center'>" +"</td></tr>";
+
+	v2 = Math.floor(v3 / 2);
+	t2 = v3% 2;
+	cadena = cadena + "<tr>" + "<td align='center'>" + "</td><td align='center'>"+ "</td><td align='center'>" + "</td><td align='center'><b>"   + t2 + "</b></td><td align='center'>" + v2 + "</td><td class='binario' align='center'>"+ 2  +"</td></tr>";
+
+	v1 = Math.floor(v2 / 2);
+	t1 = v2% 2;
+	v0 = Math.floor(v1 / 2)
+	cadena = cadena + "<tr>" + "<td align='center'>" + "</td><td align='center'>"+ "</td><td align='center'>" + "</td><td align='center'>" + "</td><td align='center'><b>"    + t1 + "</b></td><td align='center'><b>" + v1 + "</b></td></tr>";
+	
+	cadena = cadena + "</table>";
+   	document.getElementById('Solucion_q52c').innerHTML=cadena;
+   }
+      
+//-->
+</script>
+
+<link href="../../q5q6.css" rel="stylesheet" type="text/css">
+<link href="../../paracidead1.css" rel="stylesheet" type="text/css">
+
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/ejercicios/q52c.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:57:27 GMT -->
+<body>
+
+<div align="center"><strong class="titulo2">Prueba a pasar de decimal a binario</strong><br /><br />
+	
+<form>
+
+<span class="arial2"><b>Valor en decimal</b> 
+<script language='javascript'> document.write("<input type='text' value='"+ Math.floor(Math.random()*64).toString(10)+"' readonly name='decval' size='6'>"); </script>
+<input type="button" value="nuevo" onClick="q52c_nuevo(this.form)">
+<br />
+<br />
+<b>Valor en binario</b>
+&nbsp; 
+<input type='text' value=' ' name='result' size='6'>
+<input type="button" value="comprobar" onClick="q52c_comprueba(this.form)">
+<br />
+</span><br />
+</form>
+</div>
+<div align="center" class="arial2" id="Solucion_q52c"></div>
