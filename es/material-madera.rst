@@ -74,7 +74,9 @@ algunas propiedades comunes a todas ellas.
 **Otras propiedades de la madera**
    La madera no se puede fundir ni es maleable ni dúctil. 
    Por lo tanto la mayoría de los procesos de fabricación se basan
-   en cortar, serrar, taladrar o fresar la madera (retirar material).
+   en cortar, serrar, taladrar o fresar la madera, procesos
+   para retirar material.
+
 
 Partes del tronco del árbol
 ---------------------------
@@ -90,6 +92,16 @@ Partes del tronco del árbol
 **Duramen**
    Es la madera más interior del tronco.
    Es más dura y de color más oscuro.
+
+
+.. figure:: material/_images/material-duramen.jpg
+   :align: center
+
+   Tronco de tejo en el que se distingue bien el duramen de la albura.
+   
+   `MPF <https://commons.wikimedia.org/wiki/File:Taxus_wood.jpg>`__
+   `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+   via Wikimedia Commons.
 
 
 Obtención de la madera
@@ -110,8 +122,8 @@ Obtención de la madera
    para obtener chapas de madera.
    
 **Replantado**
-   Para que la madera sea renovable, es necesario
-   volver a plantar los mismos árboles que se han cortado.
+   Para que la madera sea renovable, es necesario volver
+   a plantar el mismo número de árboles que se han cortado.
 
 
 Tipos de maderas comunes
