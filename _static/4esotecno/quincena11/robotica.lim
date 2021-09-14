@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lim version="3.26">
+    <config>
+        <recursos>robotica1</recursos>
+        <corfondo>EEFFF7</corfondo>
+        <corbanda>EEFFF7</corbanda>
+        <cornavega>EEFFF7</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000099</cortexto>
+        <titulo>Robótica</titulo>
+        <subtitulo>Amplia pantalla</subtitulo>
+        <autor>Angélica Carbonell González</autor>
+        <iden>quincena11</iden>
+        <informe>1</informe>
+        <botonson>0</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="">CORRECTO</correcto>
+        <incorrecto son="error2.mp3">INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>7</tipo>
+              <cabeceira>SISTEMAS DE CONTROL</cabeceira>
+              <pe>Clasifica los sistemas como lazo abierto o lazo cerrado</pe>
+              <caixa1>Lazo Abierto</caixa1>
+              <caixa2>Lazo Cerrado</caixa2>
+              <mini caixa="1">Tostadora.jpg</mini>
+              <mini caixa="2">termometros.jpg</mini>
+              <mini caixa="2">plancha.jpg</mini>
+              <mini caixa="1">semaforo.jpg</mini>
+              <cfondo>DFFFFF</cfondo>
+        </paxina>
+        <paxina id="2" >
+              <tipo>20</tipo>
+              <cabeceira>Nombra los bloques del sistema de control de lazo cerrado</cabeceira>
+              <pe>Verifica tu respuesta</pe>
+              <imaxe>esquemasistemalazocerrado.gif</imaxe>
+              <modo>2</modo>
+              <etiqueta posx="8" posy="52">Entrada</etiqueta>
+              <etiqueta posx="54" posy="19">Comparador</etiqueta>
+              <etiqueta posx="139" posy="29">Elementos de control</etiqueta>
+              <etiqueta posx="245" posy="38">Proceso</etiqueta>
+              <etiqueta posx="345" posy="51">Salida</etiqueta>
+              <etiqueta posx="177" posy="115">Realimentación</etiqueta>
+        </paxina>
+        <paxina id="3" >
+              <tipo>4</tipo>
+              <cabeceira>Busca términos en sopa de letras</cabeceira>
+              <pe>Busca la palabra correcta según la definición</pe>
+              <modo>1</modo>
+              <sopa enun="Sistema con Realimentación">feedback</sopa>
+              <sopa enun="Elemento que compara señales">comparador</sopa>
+              <sopa enun="Elemento que se activa o desactiva">actuador</sopa>
+              <sopa enun="Capta información del entorno">sensor</sopa>
+              <sopa enun="Dispositivo que toma una decisión">controlador</sopa>
+              <sopa enun="Señal de referencia">ajuste</sopa>
+              <enunciado>1</enunciado>
+              <colorea>0</colorea>
+              <cadro>1</cadro>
+        </paxina>
+        <paxina id="4" >
+              <tipo>13</tipo>
+              <cabeceira>Arrastra el texto</cabeceira>
+              <pe>Formar las frases correctas</pe>
+              <unir texto="el sensor capta">datos del entorno</unir>
+              <unir texto="el controlador procesa">información y ordena</unir>
+              <unir texto="el robot tiene">cerebro y decide solo</unir>
+              <unir texto="el actuador recibe">órdenes y actúa o no</unir>
+              <unir texto="el comparador compara">señales</unir>
+        </paxina>
+        <paxina id="5" >
+              <tipo>14</tipo>
+              <cabeceira>Asocia imagen y nombre</cabeceira>
+              <pe>Valida tu respuesta</pe>
+              <peza imaxe="" texto="emisor y receptor infrarrojos" son="">Emisor_detector_independientes.jpg</peza>
+              <peza imaxe="" texto="fototransistor" son="">simbolo_fototransistor.jpg</peza>
+              <peza imaxe="" texto="fotodiodo" son="">simbolo_fotodiodo.jpg</peza>
+              <cfondo>84E1FD</cfondo>
+        </paxina>
+        <paxina id="6" >
+              <tipo>11</tipo>
+              <cabeceira>Relaciona símbolo y tipo de sensor</cabeceira>
+              <pe>Arrastra el texto correcto hacia el símbolo</pe>
+              <modo>3</modo>
+              <cousa nome="Sensor de luz">ldr.gif</cousa>
+              <cousa nome="Sensor de humedad">image003.gif</cousa>
+              <cousa nome="Sensor de infrarrojos">Sensor_de_IR.jpg</cousa>
+              <cousa nome="Sensor de temperatura">simbolo_NTC.jpg</cousa>
+              <cousa nome="Sensor magnético">image001.gif</cousa>
+        </paxina>
+        <paxina id="7" >
+              <tipo>18</tipo>
+              <cabeceira>Completar la frase sobre sistemas de control</cabeceira>
+              <pe>Arrastra el texto para completar la frase</pe>
+              <modo>3</modo>
+              <completa ant="En los sistemas de control" post="la acción de control es independiente de la salida">de lazo abierto</completa>
+              <completa ant="En los sitemas de control " post="la acción de control depende de la salida">de lazo cerrado</completa>
+              <completa ant="Un sistema de control de temperatura" post="es un sistema de lazo abierto">sin termostato</completa>
+              <completa ant="Los sistemas de lazo abierto son" post="a las pertubaciones">extremadamente sensibles</completa>
+              <completa ant="La señal realimentada" post="los sistemas de lazo cerrado">solo existe en</completa>
+              <completa ant="Un sistema de control de temperatura" post="es un sistema de lazo cerrado">con termostato</completa>
+        </paxina>
+        <paxina id="8" >
+              <tipo>6</tipo>
+              <cabeceira>Indica si los siguientes aparatos son ejemplos de automatismos o robots.</cabeceira>
+              <pe>Clasifica en la caja adecuada</pe>
+              <nome caixa="2">Caja de cambios automática de coche</nome>
+              <nome caixa="2">una calculadora programable</nome>
+              <nome caixa="1">una fotocopiadora</nome>
+              <nome caixa="1">máquina fotográfica</nome>
+              <nome caixa="2">barrera paso a nivel</nome>
+              <nome caixa="1">puerta de garaje</nome>
+              <caixa1>Automatismo</caixa1>
+              <caixa2>Robot</caixa2>
+              <modo></modo>
+        </paxina>
+        <paxina id="9" >
+              <tipo>39</tipo>
+              <cabeceira>Relaciona símbolo e imagen</cabeceira>
+              <pe>Forma parejas</pe>
+              <modo>1</modo>
+            <parellas imaxe="simbolo_final_de_carrera.jpg" texto="">final_de_carrera.jpg</parellas>
+              <parellas imaxe="Sensor_de_IR.jpg" texto="">CNY70.jpg</parellas>
+              <parellas imaxe="ldr.gif" texto="">ldr.png</parellas>
+              <parellas imaxe="simbolo_NTC.jpg" texto="">termistor_NTC.jpg</parellas>
+              <parellas imaxe="image003.gif" texto="">image002.jpg</parellas>
+              <parellas imaxe="image001.gif" texto="">image003.jpg</parellas>
+              <cfondo>E9FCFC</cfondo>
+              <ctapa>000000</ctapa>
+        </paxina>
+        <paxina id="10" >
+              <tipo>1</tipo>
+              <cabeceira>Señala la respuesta correcta</cabeceira>
+              <pe>Valida tu respuesta</pe>
+              <imaxe>R2-D2.jpg</imaxe>
+              <texto>¿Cuál es la característica fundamental que define un robot?</texto>
+              <resp texto="" valor="0">que se mueva solo cuando él quiera</resp>
+              <resp texto="" valor="1">que reaccione cuando cambie alguna variable de su entorno</resp>
+              <resp texto="" valor="0">que tenga brazo articulado</resp>
+              <resp texto="" valor="0">que tenga forma humana</resp>
+        </paxina>
+        <paxina id="11" >
+              <tipo>1</tipo>
+              <cabeceira>Señala la respuesta correcta</cabeceira>
+              <pe>Valida tu respuesta</pe>
+              <texto>¿Qué sensor es necesario para controlar el encendido de una farola cuando anochece?</texto>
+              <resp texto="" valor="1">LDR</resp>
+              <resp texto="" valor="0">NTC</resp>
+              <resp texto="" valor="0">final de carrera</resp>
+              <resp texto="" valor="0">PTC</resp>
+        </paxina>
+        <paxina id="12" >
+              <tipo>1</tipo>
+              <cabeceira>Señala la respuesta correcta</cabeceira>
+              <pe>Valida tu respuesta</pe>
+              <imaxe>puerta_de_garaje.jpg</imaxe>
+              <texto>¿Qué tipo de sensor sería necesario para que la puerta de un garaje no se cerrara cuando llega un vehículo?</texto>
+              <resp texto="" valor="1">Sensor infrarrojo</resp>
+              <resp texto="" valor="0">Sensor de temperatura</resp>
+              <resp texto="" valor="0">Sensor de contacto</resp>
+              <resp texto="" valor="0">Sensor magnético</resp>
+        </paxina>
+        <paxina id="13" >
+              <tipo>1</tipo>
+              <cabeceira>Señala la respuesta correcta</cabeceira>
+              <pe>Valida tu respuesta</pe>
+              <imaxe>aire_acondicionado.jpg</imaxe>
+              <texto>¿Qué tipo de sensor sería necesario para que el aire acondicionado de un restaurante se pusiera en marcha si se eleva la temperatura?</texto>
+              <resp texto="" valor="0">Sensor magnético</resp>
+              <resp texto="" valor="0">Sensor óptico</resp>
+              <resp texto="" valor="1">Sensor de temperatura</resp>
+              <resp texto="" valor="0">Sensor de contacto</resp>
+        </paxina>
+        <paxina id="14" >
+              <tipo>1</tipo>
+              <cabeceira>Señala la respuesta correcta</cabeceira>
+              <pe>Valida tu respuesta</pe>
+              <texto>¿Qué sensor es necesario para que una máquina que repasa las líneas blancas discontinuas de la carretera lo hiciera de manera automática?</texto>
+              <resp texto="" valor="1">LDR</resp>
+              <resp texto="" valor="0">NTC</resp>
+              <resp texto="" valor="0">IReed</resp>
+              <resp texto="" valor="0">Final de carrera</resp>
+        </paxina>
+        <paxina id="15" >
+              <tipo>1</tipo>
+              <cabeceira>Señala la respuesta correcta</cabeceira>
+              <pe>Valida tu respuesta</pe>
+              <imaxe>Mados-Distancia-01.gif</imaxe>
+              <texto>¿Qué sensor es necesario para hacer funcionar un mando a distancia de un aparato electrónico?</texto>
+              <resp texto="" valor="0">fotorresistencia</resp>
+              <resp texto="" valor="1">emisor y receptor de infrarrojos</resp>
+              <resp texto="" valor="0">termistor</resp>
+              <resp texto="" valor="0">termopar</resp>
+        </paxina>
+    </libro>
+</lim>
