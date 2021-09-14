@@ -73,6 +73,8 @@ def html_files(base, path=''):
    for file in os.listdir(longpath):
       longname = join(longpath, file)
       if os.path.isfile(longname):
+         if '_static' in longname:
+            continue
          basename, ext = os.path.splitext(file)
          if ext.lower() in ['.html', '.htm']:
             timestamp = time.strftime("%Y-%m-%d", time.gmtime(os.path.getmtime(longname)))
