@@ -25,6 +25,7 @@ Ejercicios de cableado de lámparas mediante bornas.
    bornas-lamparas-serie-corto.rst
    bornas-lamparas-independientes.rst
    bornas-lamparas-serie-doble.rst
+   bornas-conmutador-interruptor.rst
    bornas-crocodile-clips.rst
 
 |  :download:`Esquemas eléctricos cableados con bornas. Formato KiCad.

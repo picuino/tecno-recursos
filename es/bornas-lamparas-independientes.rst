@@ -9,8 +9,13 @@ Lámparas independientes
      :target: ../_downloads/electric-bornas-lamparas-independientes.pdf
 
 
-:download:`Circuito con lámparas independientes, 
+:download:`Circuito con lámparas independientes,
 cableado con bornas. Formato PDF.
 <electric/electric-bornas-lamparas-independientes.pdf>`
    
 
+Ejercicio con Crocodile Clips
+-----------------------------
+:download:`Circuito con lámparas independientes,
+cableado con bornas. Formato CKT.
+<electric/bornas-crocodile/bornas-09-lamparas-independientes.ckt>`

@@ -54,7 +54,8 @@ Ejercicios
 ----------
 
 1. Diseñar un puente con el código **BRI02A**
-   y plantilla **Through Truss - Warren**.
+   y plantilla **Through Truss - Warren**
+   para que tenga el menor coste posible.
 
    .. image:: mecan/_images/mecan_bridge_bri02a.png
 
@@ -63,49 +64,56 @@ Ejercicios
    |br|
 
 #. Diseñar un puente con el código **BRI02A**
-   y plantilla **Through Truss - Howe**.
+   y plantilla **Through Truss - Howe**
+   para que tenga el menor coste posible.
 
    .. image:: mecan/_images/mecan_bridge_bri02a_howe.png
 
    |br|
 
 #. Diseñar un puente con el código **BRI23A**
-   y plantilla **Continuous Arch - Warren**.
+   y plantilla **Continuous Arch - Warren**
+   para que tenga el menor coste posible.
 
    .. image:: mecan/_images/mecan_bridge_bri23a_warren.png
 
    |br|
 
 #. Diseñar un puente con el código **BRI23A**
-   y plantilla **Continuous Arch - Pratt**.
+   y plantilla **Continuous Arch - Pratt**
+   para que tenga el menor coste posible.
 
    .. image:: mecan/_images/mecan_bridge_bri23a_pratt.png
 
    |br|
 
 #. Diseñar un puente con el código **BRI12C**
-   y plantilla **Cable Stayed Warren Truss**.
+   y plantilla **Cable Stayed Warren Truss**
+   para que tenga el menor coste posible.
 
    .. image:: mecan/_images/mecan_bridge_bri12c_stayed.png
 
    |br|
 
 #. Diseñar un puente con el código **BRI15A**
-   y plantilla **Cable Stayed Warren Truss**.
-
+   y plantilla **Cable Stayed Warren Truss**
+   para que tenga el menor coste posible.
+   
    .. image:: mecan/_images/mecan_bridge_bri15a_stayed.png
 
    |br|
 
 #. Diseñar un puente con el código **BRI15A**
-   y plantilla **Suspended Warren Truss**.
+   y plantilla **Suspended Warren Truss**
+   para que tenga el menor coste posible.
 
    .. image:: mecan/_images/mecan_bridge_bri15a_suspended.png
 
    |br|
 
 #. Diseñar un puente con el código **BRI54A**
-   y plantilla **Continuous Deck Truss**.
+   y plantilla **Continuous Deck Truss**
+   para que tenga el menor coste posible.
 
    .. image:: mecan/_images/mecan_bridge_bri54a_deck.png
 
@@ -120,12 +128,16 @@ Ejercicios
 
    |br|
 
+   El puente debe tener el menor coste posible.
+
 #. Diseñar un puente con el código **BRI76A**
    y forma libre. 
    Se pueden utilizar cables de suspensión y 
    el apoyo central.
 
    .. image:: mecan/_images/mecan_bridge_bri76a.png
+
+   El puente debe tener el menor coste posible.
 
 
 .. |br| raw:: html

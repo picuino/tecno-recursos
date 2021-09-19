@@ -57,34 +57,37 @@ $(IMGDIR)/electric-bornas-%-1.png $(IMGDIR)/electric-bornas-%-2.png: electric-bo
 
 # THUMBNAILS
 $(IMGDIR)/electric-bornas-conmutador.png: $(IMGDIR)/electric-bornas-conmutador-1.png
-	$(call crop_page, $<, "((160, 700),(2300, 1900))", $@)
+	$(call crop_page, $<, "((160, 650),(2300, 1900))", $@)
 
 $(IMGDIR)/electric-bornas-conmutador-doble.png: $(IMGDIR)/electric-bornas-conmutador-doble-1.png
-	$(call crop_page, $<, "((160, 700),(2300, 1900))", $@)
+	$(call crop_page, $<, "((160, 650),(2300, 1900))", $@)
 
 $(IMGDIR)/electric-bornas-interruptor.png: $(IMGDIR)/electric-bornas-interruptor-1.png
-	$(call crop_page, $<, "((160, 700),(1900, 1900))", $@)
+	$(call crop_page, $<, "((160, 650),(1900, 1900))", $@)
 
 $(IMGDIR)/electric-bornas-interruptores-paralelo.png: $(IMGDIR)/electric-bornas-interruptores-paralelo-1.png
-	$(call crop_page, $<, "((160, 700),(2450, 1900))", $@)
+	$(call crop_page, $<, "((160, 650),(2450, 1900))", $@)
 
 $(IMGDIR)/electric-bornas-interruptores-serie.png: $(IMGDIR)/electric-bornas-interruptores-serie-1.png
-	$(call crop_page, $<, "((160, 700),(2300, 1900))", $@)
+	$(call crop_page, $<, "((160, 650),(2300, 1900))", $@)
 
 $(IMGDIR)/electric-bornas-lamparas-paralelo.png: $(IMGDIR)/electric-bornas-lamparas-paralelo-1.png
-	$(call crop_page, $<, "((160, 700),(2300, 1900))", $@)
+	$(call crop_page, $<, "((160, 650),(2300, 1900))", $@)
 
 $(IMGDIR)/electric-bornas-lamparas-serie.png: $(IMGDIR)/electric-bornas-lamparas-serie-1.png
-	$(call crop_page, $<, "((160, 700),(1700, 1900))", $@)
+	$(call crop_page, $<, "((160, 650),(1700, 1900))", $@)
 
 $(IMGDIR)/electric-bornas-lamparas-serie-corto.png: $(IMGDIR)/electric-bornas-lamparas-serie-corto-1.png
-	$(call crop_page, $<, "((160, 700),(2300, 2000))", $@)
+	$(call crop_page, $<, "((160, 650),(2300, 2000))", $@)
 
 $(IMGDIR)/electric-bornas-lamparas-independientes.png: $(IMGDIR)/electric-bornas-lamparas-independientes-1.png
-	$(call crop_page, $<, "((160, 700),(2700, 2050))", $@)
+	$(call crop_page, $<, "((160, 650),(2700, 2050))", $@)
 
 $(IMGDIR)/electric-bornas-lamparas-serie-doble.png: $(IMGDIR)/electric-bornas-lamparas-serie-doble-1.png
-	$(call crop_page, $<, "((160, 700),(2500, 2000))", $@)
+	$(call crop_page, $<, "((160, 650),(2500, 2000))", $@)
+
+$(IMGDIR)/electric-bornas-conmutador-interruptor.png: $(IMGDIR)/electric-bornas-conmutador-interruptor-1.png
+	$(call crop_page, $<, "((160, 600),(2800, 1900))", $@)
 
 
 $(IMGDIR)/electric-bornas-telegrafo.png: $(IMGDIR)/electric-bornas-telegrafo-1.png

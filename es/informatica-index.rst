@@ -16,6 +16,7 @@ Tutoriales de ofimática y páginas Web.
    informatica-tutowriter.rst
    writer-index.rst
    informatica-tutogimp.rst
+   inkscape-index.rst
    html-index.rst
    css-index.rst
    informatica-ciberseguridad.rst

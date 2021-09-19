@@ -1,6 +1,6 @@
 ﻿.. css-text-align:
 
-Alineación del Texto
+Alineación del texto
 ====================
 En este ejercicio se estudian las diferentes alineaciones
 que se pueden dar al texto así como la sangría de primera

@@ -1,6 +1,6 @@
 ﻿.. css-span:
 
-Etiqueta Span
+Etiqueta span
 =============
 ``<span class="">  </span>``
    La etiqueta span permite asignar un estilo a un **elemento
