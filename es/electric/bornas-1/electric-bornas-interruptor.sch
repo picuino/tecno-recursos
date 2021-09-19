@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:electric-bornas-interruptor-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -274,7 +273,7 @@ Wire Wire Line
 Wire Wire Line
 	600  1500 1200 1500
 Text Notes 550  3000 0    100  ~ 0
-LAMPARA CON UN INTERRUPTOR
+LÁMPARA CON UN INTERRUPTOR
 $Comp
 L simbolos:borna_6x2 X?
 U 1 1 5C2683B7

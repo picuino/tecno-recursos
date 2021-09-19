@@ -1,7 +1,7 @@
 ﻿
 .. _bornas-crocodile-clips:
 
-Cableado de lamparas con Crocodile Clips
+Cableado de lámparas con Crocodile Clips
 ========================================
 
 .. image:: electric/_images/electric-bornas-crocodile-01-interruptor.png

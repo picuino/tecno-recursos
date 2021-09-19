@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:electric-bornas-lamparas-serie-doble-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 400  500  0    100  ~ 0
-CABLEADO CON BORNAS. INTERRUPTORES CON LAMPARAS EN SERIE
+CABLEADO CON BORNAS. INTERRUPTORES CON LÁMPARAS EN SERIE
 $Comp
 L simbolos:CopyRight CP1
 U 1 1 5BD1D4ED
@@ -228,7 +227,7 @@ F 3 "" H 600 1875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 550  3200 0    100  ~ 0
-INTERRUPTORES CON LAMPARAS EN SERIE
+INTERRUPTORES CON LÁMPARAS EN SERIE
 $Comp
 L simbolos:borna_6x2 X?
 U 1 1 5C2683B7
