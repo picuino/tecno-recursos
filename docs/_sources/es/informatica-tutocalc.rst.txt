@@ -54,6 +54,6 @@ Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc
 `Web origen del tutorial 
 <https://www.edu.xunta.es/espazoAbalar/espazo/repositorio/cont/titorial-libreoffice-calc>`_
 
-`Créditos del tutorial <../_static/tutorial-calc/calc/docs/creditos.html>`_
+`Créditos del tutorial <../_static/tutorial-calc/calc/docs/creditos.html>`__
 
 Este tutorial se ha realizado con LibreOffice versión 3.6.

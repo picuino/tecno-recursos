@@ -1,6 +1,6 @@
 ﻿.. css-cascading:
 
-Estilos en Cascada
+Estilos en cascada
 ==================
 CSS son las siglas de Hoja de Estilos en Cascada 
 (Cascading Style Sheet). 

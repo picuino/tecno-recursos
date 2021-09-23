@@ -3,18 +3,22 @@
 Proyecto de página Web
 ======================
 Escribe una página HTML para hacer una ficha con tu nombre 
-de pila. 
+de pila.
 
+La página web comenzará con un nombre de pila como título,
+continuará con varias informaciones sobre el nombre, tal y
+como se muestra al final de esta página, y terminará con 
+las imágenes de dos personas famosas con ese mismo nombre 
+y con hipervínculos a la Wikipedia de cada famoso.
 
-La estructura de la página debe ser la siguiente:
+Se adjunta un ejemplo de estructura de página web para que
+sirva de guía a la hora de hacer el ejercicio.
+
 
 Código de la página
 -------------------
 
 .. image:: html/_thumbs/html-ex-namecard-html.png
-
-| Imágenes para descargar.
-| :download:`Retrato <html/portrait.png>` 
 
 
 .. `Editor online de código HTML <https://html5-editor.net/>`__

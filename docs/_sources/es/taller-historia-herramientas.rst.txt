@@ -4,8 +4,8 @@
 
 Historia de las herramientas
 ============================
-Este vídeo explica la historia de las herramientas y las máquinas herramienta
-a lo largo de la historia. 
+Este vídeo explica la historia de las herramientas y de
+las máquinas herramienta. 
 
 
 .. raw:: html

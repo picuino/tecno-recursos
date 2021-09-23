@@ -1,6 +1,5 @@
 @echo off
 set PATH=\Bin\cygwin64\bin;%PATH%
-set PATH=\Bin\Python39;%PATH%
 set PATH=%~dp0\venv\Scripts;%PATH%
 call activate.bat
 

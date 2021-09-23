@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lim version="3.26">
+    <config>
+        <corfondo>D8E9DA</corfondo>
+        <corbanda>D8E9DA</corbanda>
+        <cornavega>D8E9DA</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>Amplia la pantalla</titulo>
+        <subtitulo>Comprueba tus resultados con el botón "i"</subtitulo>
+        <informe>1</informe>
+        <botonson>0</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+              <imaxe>bombilla.jpg</imaxe>
+              <texto>1. Si queremos encender y apagar una bombilla, ¿qué tipo de salida de una tarjeta controladora emplearemos ?</texto>
+              <resp texto="" valor="0">Analógica</resp>
+              <resp texto="" valor="1">Digital</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+              <texto>2. Para escribir en una sola línea un programa que dibuje un cuadrado de lado 40 debo hacer</texto>
+              <resp texto="" valor="0">repite 4 AV 40 GD 90</resp>
+              <resp texto="" valor="0">repite 4 “AV 40 GD 90”</resp>
+              <resp texto="" valor="0">repite 4 (AV 40 GD 90)</resp>
+              <resp texto="" valor="1">repite 4 [AV 40 GD 90]</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+              <texto>3. La instrucción POCCR:</texto>
+              <resp texto="" valor="0">se usa para seleccionar el color de los trazos del cursor al avanzar</resp>
+              <resp texto="" valor="0">se usa para seleccionar el color de la pantalla</resp>
+              <resp texto="" valor="1">se usa para seleccionar el color de relleno de las figuras que dibujemos</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>44</tipo>
+              <cabeceira>4. Identifica las instrucciones con la imagen</cabeceira>
+              <cousa nome="Rotula &quot;Hola" son="">hola1.jpg</cousa>
+              <cousa nome="gd 90 rotula &quot;hola" son="">hola2.jpg</cousa>
+              <cousa nome="gd 90 rotula &quot;hola AV 50 SL" son="">hola3.jpg</cousa>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+              <imaxe>miventana.jpg</imaxe>
+              <texto>5. Dada la instrucción CREAVENTANA " "MIVENTANA [Esta es mi ventana] 80 20 70 100 [poncp 4], señala la afirmación INCORRECTA:</texto>
+              <resp texto="" valor="0">poncp 4 es la instrucción que se da al aparecer la ventana; en este caso se vuelve la pantalla roja.</resp>
+              <resp texto="" valor="0">70 100 son las longitudes del alto y el ancho de la ventana.</resp>
+              <resp texto="" valor="0">80 20 son las coordenadas que nos indican la posición de la ventana en la pantalla.</resp>
+              <resp texto="" valor="1">70 100 son las coordenadas que nos indican la posición de la ventana en la pantalla.</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>18</tipo>
+              <cabeceira>6. Creaboton &quot;ven &quot;bot [AD] 10 20 50 15 [AV 50]</cabeceira>
+              <modo>1</modo>
+              <completa ant="La instrucción entre comillas" post="es el nombre de la ventana donde está el botón">ven</completa>
+              <completa ant="La instrucción entre comillas" post="es el nombre del botón">bot</completa>
+              <completa ant="El texto entre corchetes" post="es el texto que está dentro del botón">AD</completa>
+              <completa ant="La cifra" post="es posición X del botón respecto de la ventana">10</completa>
+              <completa ant="La cifra" post="es la altura del botón">15</completa>
+        </paxina>
+        <paxina id="7" >
+              <tipo>39</tipo>
+              <cabeceira>7. Empareja las figuras y sus procedimientos</cabeceira>
+              <modo>1</modo>
+            <parellas imaxe="proced1.jpg" texto="">figura1.jpg</parellas>
+              <parellas imaxe="proced2.jpg" texto="">figura2.jpg</parellas>
+              <parellas imaxe="proced3.jpg" texto="">figura3.jpg</parellas>
+              <cfondo>FFFFFF</cfondo>
+              <ctapa>000000</ctapa>
+        </paxina>
+        <paxina id="8" >
+              <tipo>1</tipo>
+              <texto>8. Di qué frase es VERDADERA. El siguiente procedimiento: 
+PARA saludo   ROTULA "Hola     ESPERA 30      BP   ROTULA [¿Qué tal estás?]    ESPERA 30    BP   FIN</texto>
+              <resp texto="" valor="0">Pone en pantalla Hola, ¿Qué tal estás? a la vez.</resp>
+              <resp texto="" valor="0">Como tiene la instrucción ESPERA, primero pone Hola y a los 30 segundos pone ¿Qué tal estás?</resp>
+              <resp texto="" valor="1">Como tiene la instrucción ESPERA, primero pone Hola y al medio segundo pone ¿Qué tal estás?</resp>
+              <resp texto="" valor="0">Primero escribe Hola y avanza 30 para escribir ¿Qué tal estás?</resp>
+        </paxina>
+        <paxina id="9" >
+              <tipo>44</tipo>
+              <cabeceira>9. Identifica cada instrucción con su salida</cabeceira>
+              <cousa nome="rotula &quot;variable" son="">var1.jpg</cousa>
+              <cousa nome="haz &quot;variable 12
+rotula :variable" son="">var2.jpg</cousa>
+              <cousa nome="haz &quot;variable 12
+rotula :variable*2" son="">var3.jpg</cousa>
+        </paxina>
+        <paxina id="10" >
+              <tipo>18</tipo>
+              <cabeceira>10. Completa con la primitiva necesaria :</cabeceira>
+              <modo>1</modo>
+              <completa ant="La primitiva" post="es condicional; ofrece dos posibilidades, escritas entre corchetes y separadas.">SISINO</completa>
+              <completa ant="La primitiva" post="permite al usuario escribir datos.">PREGUNTABOX</completa>
+              <completa ant="La primitiva" post="elige al azar un número entre el 0 y el inferior que se le ponga como parámetro.">AZAR</completa>
+              <completa ant="La primitiva" post="realiza bucles que se repiten indefinidamente.">SIEMPRE</completa>
+        </paxina>
+    </libro>
+</lim>

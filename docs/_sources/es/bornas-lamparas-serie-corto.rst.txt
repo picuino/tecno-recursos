@@ -9,8 +9,13 @@ Lámparas en serie y un cortocircuito
      :target: ../_downloads/electric-bornas-lamparas-serie-corto.pdf
 
 
-:download:`Circuito con lámparas en serie, 
+:download:`Circuito con lámparas en serie y un cortocircuito, 
 cableado con bornas. Formato PDF.
 <electric/electric-bornas-lamparas-serie-corto.pdf>`
    
 
+Ejercicio con Crocodile Clips
+-----------------------------
+:download:`Circuito con lámparas en serie y un cortocircuito, 
+cableado con bornas. Formato CKT.
+<electric/bornas-crocodile/bornas-08-lamparas-serie-cortocircuito.ckt>`

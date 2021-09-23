@@ -88,17 +88,19 @@ agrupando materiales que tengan propiedades semejantes, como los
 metales.
 Según esta clasificación tenemos los siguientes materiales:
 
-**Materiales pétreos**:
+
+:ref:`material-petreos`
 
   Provienen de las piedras o arenas de la naturaleza.
   Se pueden clasificar en los siguientes grupos.
 
-  * Naturales: mármol, granito, pizarra, piedra caliza, arenas.
+  * Naturales: mármol, granito, pizarra, piedra caliza, arenisca.
   * Aglomerantes: yeso, cemento, hormigón.
-  * Cerámicos: arcilla, gres, porcelana.
+  * Cerámicos: arcilla, loza, gres, porcelana.
   * Vidrio.
 
-**Materiales basados en madera**:
+
+:ref:`material-madera`
 
    Están hechos de madera maciza o de derivados de la madera prensados.
 
@@ -107,7 +109,8 @@ Según esta clasificación tenemos los siguientes materiales:
    * Madera Aglomerada: aglomerado, DM.
    * Papel y cartón.
 
-**Materiales textiles**:
+
+:ref:`material-textiles`
 
    Son materiales que agrupan desde las telas usadas en ropa o
    muebles, hasta un balón de cuero o la vela de un barco.
@@ -120,7 +123,8 @@ Según esta clasificación tenemos los siguientes materiales:
    * Cueros: zapatos, guantes, sillones, cinturones, recipientes
      para líquidos.
 
-**Materiales metálicos**:
+
+:ref:`material-metales`
 
    Se extraen calentando óxidos y sulfuros que se encuentran en la 
    naturaleza en forma de rocas.
@@ -132,7 +136,8 @@ Según esta clasificación tenemos los siguientes materiales:
    * Metales pesados: plomo, cromo, cadmio, mercurio.
    * Metales preciosos: oro, plata, rodio, platino.
 
-**Materiales plásticos**:
+
+:ref:`material-plasticos`
 
    Provienen del gas natural o del petróleo refinado.
    Se pueden clasificar en los siguientes grupos.
@@ -205,7 +210,8 @@ Ejemplos de materiales tóxicos:
     con el que están fabricados muchos materiales de construcción.
     Hoy en día está prohibida su fabricación y venta.
   * Materiales que consumen mucha energía al producirse como el
-    aluminio, acero, hormigón.
+    aluminio, acero, hormigón no son tóxicos pero emiten CO2 al 
+    ambiente en su fabricación.
 
 
 ---------------

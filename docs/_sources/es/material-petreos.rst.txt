@@ -268,13 +268,14 @@ se fundan uniéndose entre sí.
 
 
 **Porcelana**
-   Es un material cerámico generalmente blanco, duro y translúcido, 
-   muy resistente a la corrosión, al choque térmico y a la electricidad.
+   Es un material cerámico generalmente blanco, duro, impermeable,
+   translúcido, muy resistente a la corrosión, al choque térmico y 
+   mal conductor de la electricidad.
    
    Formado por polvo de caolín, cuarzo y feldespato es el material
    cerámico más fino y parecido al vidrio.   
    
-   Se utiliza para hacer vajillas, jarrones, aisladores eléctricos, váteres,
+   Se utiliza para hacer vajillas, jarrones, aisladores eléctricos, inodoros,
    lavabos, etc.
 
 .. figure:: material/_images/material-porcelana.jpg

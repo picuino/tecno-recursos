@@ -14,3 +14,8 @@ cableado con bornas. Formato PDF.
 <electric/electric-bornas-lamparas-serie.pdf>`
    
 
+Ejercicio con Crocodile Clips
+-----------------------------
+:download:`Circuito con lámparas en serie, 
+cableado con bornas. Formato CKT.
+<electric/bornas-crocodile/bornas-07-lamparas-serie.ckt>`

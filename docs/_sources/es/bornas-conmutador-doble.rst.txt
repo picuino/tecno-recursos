@@ -9,8 +9,13 @@ Conmutadores y lámpara
      :target: ../_downloads/electric-bornas-conmutador-doble.pdf
 
 
-:download:`Circuito con una lámpara y un conmutador doble, 
+:download:`Circuito con una lámpara y un conmutador doble,
 cableado con bornas. Formato PDF.
 <electric/electric-bornas-conmutador-doble.pdf>`
    
 
+Ejercicio con Crocodile Clips
+-----------------------------
+:download:`Circuito con una lámpara y un conmutador doble,
+cableado con bornas. Formato CKT.
+<electric/bornas-crocodile/bornas-03-conmutador-doble.ckt>`

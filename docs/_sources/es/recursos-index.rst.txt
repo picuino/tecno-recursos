@@ -1,5 +1,5 @@
 ﻿
-.. _external-index:
+.. _recursos-index:
 
 
 ****************
@@ -13,6 +13,7 @@ Otros recursos para tecnología
    :titlesonly:
    
    recursos-questionary.rst
+   recursos-libro-4eso-tecno.rst
    recursos-cuaderno-notas.rst
    recursos-sopa-letras.rst
    recursos-evaluacion-asignatura.rst

@@ -1,6 +1,6 @@
 ﻿.. css-fonts:
 
-Formato de Fuentes
+Formato de fuentes
 ==================
 
 Para más información sobre los formatos de fuentes se pueden

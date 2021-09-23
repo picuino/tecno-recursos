@@ -9,8 +9,13 @@ Lámparas en paralelo
      :target: ../_downloads/electric-bornas-lamparas-paralelo.pdf
 
 
-:download:`Circuito con lámparas en paralelo, 
+:download:`Circuito con lámparas en paralelo,
 cableado con bornas. Formato PDF.
 <electric/electric-bornas-lamparas-paralelo.pdf>`
    
 
+Ejercicio con Crocodile Clips
+-----------------------------
+:download:`Circuito con lámparas en paralelo,
+cableado con bornas. Formato CKT.
+<electric/bornas-crocodile/bornas-06-lamparas-paralelo.ckt>`

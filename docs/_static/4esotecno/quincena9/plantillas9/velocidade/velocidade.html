@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<TITLE>Practica1 Celso Fernandez</TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="velocidad" width=90 height=40 align="center"
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="deshacer" value="no">
+   <param name="nombre" value="velocidad">
+   <param name="emergente" value="width=400 height=420">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=s&iacute; limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='s&iacute;' O.y='-30' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='at1' tipo='num&eacute;rico' valor='1.5' fijo='s&iacute;' nombre='at1' min='0.5' max='2' visible='s&iacute;' activo-si='t=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Di&aacute;metro tubo1 cm' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Di&aacute;metro tubo1 cm' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='at2' tipo='num&eacute;rico' valor='1' fijo='s&iacute;' nombre='at2' min='0.5' max='2' visible='s&iacute;' activo-si='t=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Di&aacute;metro tubo2 cm' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Di&aacute;metro tubo2 cm' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='at3' tipo='num&eacute;rico' valor='0.5' fijo='s&iacute;' nombre='at3' min='0.5' max='2' visible='s&iacute;' activo-si='t=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Di&aacute;metro tubo3 cm' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Di&aacute;metro tubo3 cm' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_03" value="id='Q' tipo='num&eacute;rico' valor='1' fijo='s&iacute;' nombre='Q' min='0.5' max='2' visible='s&iacute;' activo-si='t=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Caudal cm3/s' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Caudal cm3/s' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_04" value="id='exp' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='Explicacion' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Modifica el ancho de las tres tuberias y del caudal del flu&iacute;do, y comprueba como varia la velocidad en cada uno de los tubos.\nLos c&iacute;rculos representan la secci&oacute;n de cada tramo de tuberia.' par&aacute;metro.fuente='Monospaced,BOLD,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_05" value="id='rec' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='Recuerda' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='En un tubo la cantidad de flu&iacute;do que entra por unidad de tiempo(caudal) debe ser igual a la que sale.\nQ1 = Q2 ; v2=(s1/s2)*v1' par&aacute;metro.fuente='Monospaced,BOLD,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='pi' constante='s&iacute;' expresi&oacute;n='3.1415' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='s1' constante='s&iacute;' expresi&oacute;n='sqr(at1/2)*pi' evaluar='siempre'">
+   <param name="A_02" value="id='s2' constante='s&iacute;' expresi&oacute;n='sqr(at2/2)*pi' evaluar='siempre'">
+   <param name="A_03" value="id='s3' constante='s&iacute;' expresi&oacute;n='sqr(at3/2)*pi' evaluar='siempre'">
+   <param name="A_04" value="id='v1' constante='s&iacute;' expresi&oacute;n='Q/s1' evaluar='siempre'">
+   <param name="A_05" value="id='v2' constante='s&iacute;' expresi&oacute;n='Q/s2' evaluar='siempre'">
+   <param name="A_06" value="id='v3' constante='s&iacute;' expresi&oacute;n='Q/s3' evaluar='siempre'">
+   <param name="A_07" value="id='x' expresi&oacute;n='(t=0)?-4:x1'">
+   <param name="A_08" value="id='v' expresi&oacute;n='(t=0)?v1:k'">
+   <param name="A_09" value="id='j(t)' expresi&oacute;n='k*t'">
+   <param name="A_10" value="id='e1' evento='s&iacute;' condici&oacute;n='(x1&gt;=-2)&amp;(x1&lt;-1)' acci&oacute;n='calcular' par&aacute;metro='k=(v1+v2)/2' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="A_11" value="id='e2' evento='s&iacute;' condici&oacute;n='(x1&gt;=-1)&amp;(x1&lt;1)' acci&oacute;n='calcular' par&aacute;metro='k=v2' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="A_12" value="id='e3' evento='s&iacute;' condici&oacute;n='(x1&gt;=1)&amp;(x1&lt;2)' acci&oacute;n='calcular' par&aacute;metro='k=(v2+v3)/2' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="A_13" value="id='e4' evento='s&iacute;' condici&oacute;n='x1&gt;2' acci&oacute;n='calcular' par&aacute;metro='k=v3' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="A_14" value="id='e14' evento='s&iacute;' condici&oacute;n='x1&gt;4' acci&oacute;n='Reiniciar Animaci&oacute;n' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="A_15" value="id='v' expresi&oacute;n='(t=0)?0:k'">
+   <param name="G_00" value="tipo='pol&iacute;gono' expresi&oacute;n='(-4,at1)(-2,at1)(-1,at2)(1,at2)(2,at3)(4,at3)' ancho='3'">
+   <param name="G_01" value="tipo='pol&iacute;gono' expresi&oacute;n='(-4,-at1)(-2,-at1)(-1,-at2)(1,-at2)(2,-at3)(4,-at3)' ancho='3'">
+   <param name="G_02" value="tipo='punto' color='turquesa' expresi&oacute;n='(x,0)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='8'">
+   <param name="G_03" value="tipo='punto' color='turquesa' expresi&oacute;n='(x,0.35)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='8'">
+   <param name="G_04" value="tipo='punto' color='turquesa' expresi&oacute;n='(x,-0.35)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='8'">
+   <param name="G_05" value="tipo='flecha' expresi&oacute;n='(x+0.2,0)(x+0.2+v,0)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='4' ancho='2' ancho='2' punta='4'">
+   <param name="G_06" value="tipo='flecha' expresi&oacute;n='(x+0.2,0.35)(x+0.2+v,0.35)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='4' ancho='2' ancho='2' punta='4'">
+   <param name="G_07" value="tipo='flecha' expresi&oacute;n='(x+0.2,-0.35)(x+0.2+v,-0.35)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='4' ancho='2' ancho='2' punta='4'">
+   <param name="G_08" value="tipo='arco' centro='(-3,-3.1)' radio='at1/2' fin='360' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;}\f1\fs24\b{\*\mjaformula{\expr s1}}\par  {\*\mjaformula cm{\supix 2}}\b0\par}' fuente='Courier New,BOLD,12' fijo='s&iacute;' relleno='amarillo'">
+   <param name="G_09" value="tipo='arco' centro='(0,-3.1)' radio='at2/2' fin='360' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;}\f1\fs24\b{\*\mjaformula{\expr s2}}\par  {\*\mjaformula cm{\supix 2}}\b0\par}' fuente='Courier New,BOLD,12' fijo='s&iacute;' relleno='rojo'">
+   <param name="G_10" value="tipo='arco' centro='(3,-3.1)' radio='at3/2' fin='360' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;}\f1\fs24\b{\*\mjaformula{\expr s3}}\par  {\*\mjaformula cm{\supix 2}}\b0\par}' fuente='Courier New,BOLD,12' fijo='s&iacute;' relleno='verde'">
+   <param name="G_11" value="tipo='texto' expresi&oacute;n='[130,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;}\f1\fs36\b Velocidad flu\u237 do : {\*\mjaformula{\expr v}}\fs24   \fs36 cm/s\fs24\par}' fuente='Arial,BOLD,18' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="pausa='30' controles='no' auto='no' inicio='t=0;k=v1;x1=-4' hacer='x1=x1+j(t);t=t+0.001;' mientras='t&lt;5'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

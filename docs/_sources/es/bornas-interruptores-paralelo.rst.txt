@@ -14,3 +14,8 @@ cableado con bornas. Formato PDF.
 <electric/electric-bornas-interruptores-paralelo.pdf>`
    
 
+Ejercicio con Crocodile Clips
+-----------------------------
+:download:`Circuito con interruptores en paralelo,
+cableado con bornas. Formato CKT.
+<electric/bornas-crocodile/bornas-04-interruptor-paralelo.ckt>`

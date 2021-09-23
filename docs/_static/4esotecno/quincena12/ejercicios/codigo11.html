@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena12/ejercicios/codigo11.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 14:01:28 GMT -->
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>codigo Ej 11</title>
+
+  
+  
+</head><body>
+<small><font face="Verdana">
+para velocidad<br>
+BP BL<br>
+HAZ "tiempo 32<br>
+CREAVENTANA " "regulacion [Regulación de velocidad] 50 50 200 200 []<br>
+CREABOTON "regulacion "acelerar [Acelerar] 50 20 100 50 [HAZ "tiempo :tiempo /2 semaforo]<br>
+CREABOTON "regulacion "frenar [Frenar] 50 120 100 50 [HAZ "tiempo :tiempo *2 semaforo]<br>
+semaforo<br>
+fin<br><br>
+para semaforo<br>
+BP BL<br>
+REPITE 4 [AV 100 GD 90]<br>
+SL AV 50 GD 90 AV 50 BL<br>
+CIRCLE 40<br>
+POCCR 4 RELLENA ESPERA :tiempo<br>
+POCCR 6 RELLENA ESPERA :tiempo<br>
+POCCR 2 RELLENA ESPERA :tiempo<br>
+semaforo<br> 
+fin <br>
+</font></small>
+</body>
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena12/ejercicios/codigo11.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 14:01:28 GMT -->
+</html>
