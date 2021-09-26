@@ -28,7 +28,6 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    
    recursos-index.rst
 
-|
-| `Foro de Tecnología <https://www.picuino.com/foro>`_
-| `Proyecto en GitHub <https://github.com/picuino/tecno-recursos>`_
-|
+* `Questionary <https://www.picuino.com/questionary>`_
+* `Foro de Tecnología <https://www.picuino.com/foro>`_
+* `Proyecto en GitHub <https://github.com/picuino/tecno-recursos>`_
