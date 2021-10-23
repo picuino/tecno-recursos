@@ -11,22 +11,25 @@ Propiedades de los pétreos
 --------------------------
 
 **Propiedades mecánicas de los pétreos**
-   Son materiales duros, relativamente frágiles, y suficiente 
+   Son materiales duros, relativamente frágiles, y con suficiente 
    resistencia mecánica para ser muy utilizados en la construcción de
    edificios y otras estructuras.
 
 **Densidad**
-   En general es mayor que la del agua y varían entre 1.6 kg/litro de la 
+   En general es mayor que la del agua y varían desde los 1.6 kg/litro de la 
    arcilla o la arena hasta los 2.8 kg/litro de la pizarra, mármol o granito.
    
    La piedra pómez o la diatomita son excepciones con una densidad muy baja, 
    menor que la del agua, al ser muy porosas. 
    
 **Respuesta a la luz**
-   Los vidrios son muy transparentes y la porcelana traslúcida.
+   La mayoría de los materiales pétreos son opacos y tienen muy buena 
+   resistencia a la radiación del sol.
    
-   El resto de pétreos son opacos y todos tienen muy buena resistencia a la 
-   radiación del sol.
+   Algunos pétreos como el vidrio utilizado en las ventanas, el cuarzo 
+   o el zafiro utilizado en esferas de relojes son muy transparentes.
+   
+   Otros pétreos como la porcelana son traslúcidos.
 
 **Propiedades de fabricación de los pétreos**
    Los pétreos naturales no son maleables ni dúctiles ni se funden con 

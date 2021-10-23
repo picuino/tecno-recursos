@@ -10,6 +10,9 @@ FreeCAD es un programa libre de diseño asistido por computadora (CAD).
 Permite diseñar objetos en tres dimensiones. Estos objetos se pueden
 imprimir posteriormente en una impresora 3D.
 
+Para realizar este tutorial se ha utilizado la **versión 0.18**
+de FreeCAD.
+
 Los tutoriales que vienen a continuación están basados en los 
 video-tutoriales que ha publicado ObiJuan (Juan González Gómez) 
 en YouTube.
@@ -18,7 +21,7 @@ La lista completa de los tutoriales de ObiJuan está en la página
 
 |br|
 
-1. Ahora vamos a abrir la aplicación FreeCAD para Windows, que
+1. Ahora vamos a abrir la aplicación FreeCAD, que
    tiene el siguiente icono.
 
    .. image:: freecad/_images/freecad-icono.png

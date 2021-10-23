@@ -22,8 +22,9 @@ electricidad o bien ondas de radio para comunicarse punto a punto
 tales como el telégrafo o el teléfono y otros que se utilizan para
 difundir información de manera masiva como la radio y la televisión.
 
-Por último las nuevas tecnologías que permiten que cualquiera pueda
-difundir información de manera masiva, tales como internet o facebook.
+Por último las nuevas tecnologías basadas en Internet que permiten 
+que cualquier persona pueda difundir información de manera masiva, 
+tales como blogs, foros, Instagram, etc.
 
 
 Ejercicio

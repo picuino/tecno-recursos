@@ -6,10 +6,6 @@
 
 Recursos educativos libres para Tecnología en Educación Secundaria.
 
-|
-| `Página inicial <../index.html>`_
-
-
 .. toctree::
    :maxdepth: 2
 
@@ -28,6 +24,7 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    
    recursos-index.rst
 
+* `Página inicial <https://www.picuino.com/>`_
 * `Questionary <https://www.picuino.com/questionary>`_
 * `Foro de Tecnología <https://www.picuino.com/foro>`_
 * `Proyecto en GitHub <https://github.com/picuino/tecno-recursos>`_

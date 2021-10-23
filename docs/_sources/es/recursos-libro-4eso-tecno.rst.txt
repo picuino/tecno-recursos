@@ -82,9 +82,11 @@ Cuestiones para trabajar
   :download:`Unidad 1: Preguntas (Word)
   <4esotecno/UD1_Preguntas_Historia_tecnologia.doc>`
 
+  `Cuestionarios tipo test de la Unidad 1. <https://www.picuino.com/questionary/index.html#tecnologia>`__
+
 * Unidad 2: Los objetos técnicos y la sociedad
 
-  `Cuestionario tipo test de la Unidad 2. <https://www.picuino.com/questionary/es_technology_society.html>`__
+  `Cuestionarios tipo test de la Unidad 2. <https://www.picuino.com/questionary/index.html#tecnologia>`__
 
 
 Créditos
