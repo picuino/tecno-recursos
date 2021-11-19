@@ -8,7 +8,7 @@ Servomotor
 Un servomotor es un motor eléctrico que puede girar a la posición
 angular deseada y mantenerse estable en esa posición.
 
-.. image:: _thumbs/img-0085.jpg
+.. image:: control/_thumbs/img-0085.jpg
    :width: 200px
    :alt: Servomotor de radiocontrol
    :align: center
@@ -93,7 +93,7 @@ Especificaciones
 ----------------
 Existen muchos tipos de servomotores. Como ejemplo se muestran las
 especificaciones de un pequeño
-:download:`servomotor Tower Pro 9g <_downloads/SG90Servo.pdf>`.
+:download:`servomotor Tower Pro 9g <control/_downloads/SG90Servo.pdf>`.
 
   * Tensión de alimentación = 4.8 a 6.0 v
   * Corriente máxima = 570 a 730 mA
@@ -123,12 +123,12 @@ Esquema de conexión
 El siguiente esquema muestra cómo conectar un servomotor a la placa
 Arduino UNO.
 
-.. image:: _images/servo-uno-bb.png
+.. image:: control/_images/servo-uno-bb.png
    :align: center
    :width: 600px
    :alt: Cableado del servomotor
 
-.. image:: _images/servo-uno-schema.png
+.. image:: control/_images/servo-uno-schema.png
    :align: center
    :width: 600px
    :alt: Esquema eléctrico de conexión del servomotor
@@ -138,7 +138,7 @@ el sistema de colores y conexiones de Hitec.
 Otros servomotores tienen un esquema de colores diferente e, incluso,
 conexiones en diferente orden.
 
-.. image:: _images/img-0017.jpg
+.. image:: control/_images/img-0017.jpg
    :width: 400px
    :align: center
    :alt: Sistemas de conexión de diferentes marcas de servomotores.

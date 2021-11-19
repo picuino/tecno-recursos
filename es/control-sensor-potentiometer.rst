@@ -8,7 +8,7 @@ o giros.
 Un potenciómetro giratorio, como el de la imagen siguiente, puede 
 medir ángulos.
 
-.. image:: _thumbs/img-0083.jpg
+.. image:: control/_thumbs/img-0083.jpg
    :width: 200px
    :alt: Potenciómetro giratorio de 50k Ohm
    :align: center
@@ -16,7 +16,7 @@ medir ángulos.
 Un potenciómetro lineal, como el de la imagen siguiente, puede medir 
 desplazamientos lineales.
 
-.. image:: _thumbs/img-0014.jpg
+.. image:: control/_thumbs/img-0014.jpg
    :width: 400px
    :alt: Potenciómetro lineal
    :align: center
@@ -31,7 +31,7 @@ intensidad de luz, etc.
 .. Conexión del potenciómetro giratorio
    ------------------------------------
 
-.. image:: _images/img-0015.jpg
+.. image:: control/_images/img-0015.jpg
    :width: 280px
    :alt: Potenciómetro giratorio
    :align: center

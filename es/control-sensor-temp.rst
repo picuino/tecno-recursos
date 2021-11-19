@@ -17,14 +17,14 @@ Con una exactitud moderada, desde 1ºC hasta 0.1ºC de error.
 
 Sensor de temperatura NTC.
 
-.. image:: _images/img-0018.jpg
+.. image:: control/_images/img-0018.jpg
    :alt: Resistencia NTC. Sensor de temperatura.
    :align: center
    :width: 320px
 
 Sensor de temperatura basado en circuito integrado LM35.
 
-.. image:: _thumbs/img-0019.jpg
+.. image:: control/_thumbs/img-0019.jpg
    :alt: Circuito integrado sensor de temperatura LM35.
    :align: center
    :width: 200px
@@ -61,7 +61,7 @@ intervalo pequeño de temperaturas.
 La siguiente gráfica representa la resistencia de un sensor NTC en su 
 rango de medición de temperaturas.
 
-.. image:: _images/img-0020.png
+.. image:: control/_images/img-0020.png
    :width: 480px
    :alt: Curva de resistencia-temperatura de un sensor NTC
    :align: center
@@ -108,7 +108,7 @@ A continuación se muestra una imagen con la curva de tensión que
 suministra este sensor NTC conectado a 5 voltios, con una resistencia 
 de polarización de 10k Ohmios conectada a masa.
 
-.. image:: _images/img-0025.png
+.. image:: control/_images/img-0025.png
    :width: 480px
    :alt: Curva de tensión-temperatura de un sensor NTC polarizado
    :align: center
@@ -150,16 +150,16 @@ tensión o de temperatura mediante la orden map().
 
 Para calcular otros valores fuera de rango o calcular valores de un 
 sensor NTC diferente, se puede utilizar la 
-hoja excel adjunta :download:`NTC <_downloads/ntc.xls>`.
+hoja excel adjunta :download:`NTC <control/_downloads/ntc.xls>`.
 
 
 Esquema de conexión de un transistor calentador
 -----------------------------------------------
 En la siguiente imagen puede verse el cableado necesario para 
 realizar un calentador basado en un transistor 
-:download:`BD135 <_downloads/BD135-onsemi.pdf>`.
+:download:`BD135 <control/_downloads/BD135-onsemi.pdf>`.
 
-.. image:: _images/img-0023.png
+.. image:: control/_images/img-0023.png
    :alt: Esquema de cableado de un transistor calentador BD135
    :align: center
    :width: 800px
@@ -199,7 +199,7 @@ es necesario añadir una resistencia de polarización.
 Esta resistencia se coloca entre el sensor y masa como muestra el 
 siguiente esquema.
 
-.. image:: _images/img-0024.png
+.. image:: control/_images/img-0024.png
    :alt: Esquema de cableado de un sensor NTC
    :align: center
    :width: 800px

@@ -9,7 +9,7 @@ El sensor DHT11 es un sensor digital de temperatura y humedad relativa del aire.
 Utiliza una comunicación digital con Arduino, de forma que no es necesaria la
 conexión a un pin analógico para realizar las lecturas.
 
-.. image:: _thumbs/img-0038.jpg
+.. image:: control/_thumbs/img-0038.jpg
    :align: center
    :width: 480px
    :alt: Sensor DHT11 de temperatura y humedad.
@@ -27,25 +27,25 @@ Especificaciones técnicas
 
 
 :download:`DHT11. Hoja de características. 
-D-Robotics <_downloads/DHT11-drobotics.pdf>`
+D-Robotics <control/_downloads/DHT11-drobotics.pdf>`
 
 
 Librería Arduino
 ----------------
 :download:`Librería Arduino para el sensor DHT11. 
-Versión 0.4.1 <_downloads/dht11-041.zip>`
+Versión 0.4.1 <control/_downloads/dht11-041.zip>`
 
 
 Esquema de conexión
 -------------------
 
-.. image:: _images/img-0040.jpg
+.. image:: control/_images/img-0040.jpg
    :align: center
    :width: 240px
    :alt: Módulo DHT11. Pines.
 
 ..
-   .. image:: _images/img-0041.jpg
+   .. image:: control/_images/img-0041.jpg
    :align: center
    :alt: Módulo DHT11. Esquema de conexión.
 

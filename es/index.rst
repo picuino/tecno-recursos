@@ -16,7 +16,7 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    electric-index.rst
    prog-index.rst
    arduprog/index.rst
-   arduprog/control-index.rst
+   control-index.rst
 
    informatica-index.rst
 

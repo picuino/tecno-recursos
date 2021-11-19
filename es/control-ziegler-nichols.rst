@@ -34,7 +34,7 @@ controlado, se debe retirar el controlador PID y sustituirlo por una
 señal escalón aplicada al accionador.
 
 
-.. image:: _images/img-0055.png
+.. image:: control/_images/img-0055.png
    :width: 640px
    :alt: Sistema de control en lazo cerrado con controlador PID
    :align: center
@@ -45,7 +45,7 @@ al sistema de control en lazo cerrado para convertirlo en un sistema
 en lazo abierto que responda a una señal escalón, retirando el
 controlador PID:
 
-.. image:: _images/img-0059.png
+.. image:: control/_images/img-0059.png
    :width: 640px
    :alt: Esquema de señal escalón aplicada a un 
          sistema en lazo abierto.
@@ -58,7 +58,7 @@ c(t) debe estar entre el 10% y el 20% del valor nominal de entrada.
 Como puede apreciarse, la respuesta del sistema presenta un retardo,
 también llamado tiempo muerto, representado por T1.
 
-.. image:: _images/img-0060.png
+.. image:: control/_images/img-0060.png
    :width: 640px
    :alt: Respuesta al escalón en un horno. Periodo inicial.
    :align: center
@@ -80,7 +80,7 @@ de salida (25º a los 2 segundos) y terminará donde la línea
 tangente corta al valor final de salida (225º a los 14 segundos).
 
 
-.. figure:: _images/img-0061.png
+.. figure:: control/_images/img-0061.png
    :width: 640px
    :alt: Respuesta al escalón en un horno. Periodo completo.
    :align: center
@@ -145,7 +145,7 @@ En el ejemplo que aparece en las imágenes anteriores se ha utilizado
 la simulación de un horno realizada con una hoja de cálculo:
 
    Control de temperatura: :download:`Thermal Control. 
-   Versión 0.11 <_downloads/thermal-control-011.zip>`
+   Versión 0.11 <control/_downloads/thermal-control-011.zip>`
 
 Para calcular los parámetros del sistema se fuerza una respuesta
 al escalón fijando la señal de control en 0 voltios con un escalón
@@ -179,7 +179,7 @@ del regulador PID:
 Después de introducir los valores Kp, Ki y Kd en el PID se obtiene
 la siguiente respuesta:
 
-.. image:: _images/img-0062.png
+.. image:: control/_images/img-0062.png
    :width: 640px
    :alt: Ziegler-Nichols. Respuesta de un horno sintonizado 
          con respuesta al escalón.
@@ -195,7 +195,7 @@ derivativa y reducido la integral para reducir las oscilaciones:
 
 Como resultado, el sistema se estabiliza ahora en 12 segundos:
 
-.. image:: _images/img-0063.png
+.. image:: control/_images/img-0063.png
    :width: 640px
    :alt: Ziegler-Nichols. Respuesta de un horno sintonizado con 
          respuesta al escalón. Ajuste final a mano.
@@ -222,7 +222,7 @@ debe ser lineal, sin saturaciones. En este momento hay que medir la
 ganancia proporcional, llamada ganancia crítica o Kc, y el periodo de
 oscilación Tc en segundos.
 
-.. image:: _images/img-0064.png
+.. image:: control/_images/img-0064.png
    :width: 640px
    :alt: Ganancia crítica de lazo cerrado. Señal recortada.
    :align: center
@@ -270,7 +270,7 @@ Vamos a realizar una sintonización del sistema térmico simulado
 anteriormente:
 
    Control de temperatura: :download:`Thermal Control. 
-   Versión 0.11 <_downloads/thermal-control-011.zip>`
+   Versión 0.11 <control/_downloads/thermal-control-011.zip>`
 
 La primera operación será la de anular las ganancias derivativa 
 e integral:
@@ -286,7 +286,7 @@ oscilatoria mantenida.
 Con una ganancia proporcional Kp = 0.40 la respuesta todavía está 
 amortiguada:
 
-.. image:: _images/img-0065.png
+.. image:: control/_images/img-0065.png
    :width: 640px
    :alt: Ganancia crítica de lazo cerrado. Sistema sobreamortiguado.
    :align: center
@@ -295,7 +295,7 @@ Al aumentar la ganancia proporcional hasta Kp = 0.43 se obtiene
 una respuesta
 con oscilaciones mantenidas:
 
-.. image:: _images/img-0066.png
+.. image:: control/_images/img-0066.png
    :width: 480px
    :alt: Ganancia crítica de lazo cerrado. Sistema crítico.
    :align: center
@@ -303,7 +303,7 @@ con oscilaciones mantenidas:
 Al aumentar la ganancia hasta Kp = 0.45, las oscilaciones crecen 
 en el tiempo, por lo que la ganancia sería demasiado alta.
 
-.. image:: _images/img-0067.png
+.. image:: control/_images/img-0067.png
    :width: 640px
    :alt: Ganancia crítica de lazo cerrado. Sistema oscilante.
    :align: center
@@ -336,7 +336,7 @@ la ganancia crítica.
 Introduciendo los valores anteriores en el controlador PID se obtiene 
 la siguiente respuesta del sistema térmico con controlador PID:
 
-.. image:: _images/img-0068.png
+.. image:: control/_images/img-0068.png
    :width: 640px
    :alt: Ziegler-Nichols. Respuesta de un horno sintonizado 
          con ganancia crítica.

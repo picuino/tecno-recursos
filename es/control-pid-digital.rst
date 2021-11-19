@@ -12,7 +12,7 @@ de control tradicional por cálculos en un sistema programado.
 En la figura siguiente puede verse un esquema de un regulador
 controlado por un microcontrolador:
 
-.. image:: _images/img-0069.png
+.. image:: control/_images/img-0069.png
    :width: 640px
    :alt: Controlador PID digital
    :align: center
@@ -62,7 +62,7 @@ en la respuesta al escalón.
 El período de oscilación es entonces de 5.6 segundos y, por lo
 tanto, el período de muestreo debe ser menor de 0.56 segundos.
 
-.. image:: _images/img-0064.png
+.. image:: control/_images/img-0064.png
    :width: 640px
    :alt: Controlador PID digital.
          Periodo de muestreo de sistema oscilatorio.
@@ -86,7 +86,7 @@ el sistema en subir desde un 10% hasta un 90% del valor final.
 Por ejemplo en un sistema térmico que muestre la respuesta al escalón
 que aparece a continuación:
 
-.. image:: _images/img-0071.png
+.. image:: control/_images/img-0071.png
    :width: 640px
    :alt: Controlador PID digital.
          Periodo de muestreo con una respuesta al escalón.
@@ -235,19 +235,19 @@ un control PID de temperatura de un horno con control anti-windup.
 El error máximo para que actúe el control integral se ha
 establecido en 100, 30 y 10 grados:
 
-.. image:: _images/img-0072.png
+.. image:: control/_images/img-0072.png
    :width: 640px
    :alt: Control PID digital de un horno.
          Anti-Windup con error de 100 grados.
    :align: center
 
-.. image:: _images/img-0073.png
+.. image:: control/_images/img-0073.png
    :width: 640px
    :alt: Control PID digital de un horno.
          Anti-Windup con error de 30 grados.
    :align: center
 
-.. image:: _images/img-0074.png
+.. image:: control/_images/img-0074.png
    :width: 640px
    :alt: Control PID digital de un horno.
          Anti-Windup con error de 10 grados.
@@ -303,7 +303,7 @@ Esto significa que el ruido de alta frecuencia se verá dentro
 del microcontrolador como una señal de menor frecuencia.
 Este efecto puede apreciarse bien en la siguiente imagen:
 
-.. image:: _images/img-0075.png
+.. image:: control/_images/img-0075.png
    :width: 480px
    :alt: Muestreo a frecuencia inferior de la necesaria.
          Teorema de Nyquist.
@@ -346,7 +346,7 @@ de bits del conversor analógico-digital y su rango de medida.
 En la siguiente imagen puede verse la representación del ruido
 de cuantificación:
 
-.. image:: _images/img-0076.png
+.. image:: control/_images/img-0076.png
    :width: 480px
    :alt: Ruido de cuantificación de un conversor ADC (analógico a digital)
    :align: center

@@ -8,7 +8,7 @@ Actuadores
 
 Dispositivos producen movimiento, sonido, luz, etc.
 
-.. image:: _thumbs/img-0085.jpg
+.. image:: control/_thumbs/img-0085.jpg
    :width: 200px
    :align: center
    :alt: Servomotor de radiocontrol
@@ -18,8 +18,8 @@ Dispositivos producen movimiento, sonido, luz, etc.
 
 
 .. nocontents
-   actuator-buzzer.rst
-   actuator-speaker.rst
-   actuator-dc-motor.rst
-   actuator-stepper-motor.rst
-   actuator-brushless.rst
+   control-actuator-buzzer.rst
+   control-actuator-speaker.rst
+   control-actuator-dc-motor.rst
+   control-actuator-stepper-motor.rst
+   control-actuator-brushless.rst

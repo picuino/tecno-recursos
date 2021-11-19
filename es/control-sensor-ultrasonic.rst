@@ -4,7 +4,7 @@
 Sensor de distancia por ultrasonidos
 ====================================
 
-.. image:: _thumbs/img-0082.jpg
+.. image:: control/_thumbs/img-0082.jpg
    :width: 360px
    :alt: Sensor de distancia por ultrasonidos SR04
    :align: center
@@ -78,7 +78,7 @@ siguientes pasos.
 1. Conectar el sensor SR04 a la placa Arduino según el siguiente
    esquema:
 
-.. image:: _images/img-0009.png
+.. image:: control/_images/img-0009.png
    :width: 600px
    :alt: Conexión Arduino-SR04
    :align: center
@@ -127,7 +127,7 @@ siguientes pasos.
 3. Abrir el monitor serie (Monitor Serial) pulsando el icono que
    aparece arriba a la derecha en el entorno gráfico de Arduino.
 
-.. image:: _images/img-0010.png
+.. image:: control/_images/img-0010.png
    :alt: Botón del monitor serie
    :align: center
 
@@ -139,7 +139,7 @@ siguientes pasos.
    El cuadro debe mostrar continuamente la información de tiempo y 
    distancia.
 
-.. image:: _images/img-0012.png
+.. image:: control/_images/img-0012.png
    :alt: Monitor serie
    :align: center
 

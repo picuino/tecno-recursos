@@ -8,7 +8,7 @@ Control Automático
 Regulación automática de sistemas.
 Controladores, actuadores, sensores.
 
-.. image:: _thumbs/img-0085.jpg
+.. image:: control/_thumbs/img-0085.jpg
    :width: 240px
    :alt: Servomotor. Sistema regulado en lazo cerrado.
    :align: center
@@ -22,6 +22,6 @@ Controladores, actuadores, sensores.
    control-pid
    control-ziegler-nichols
    control-pid-digital
-   actuator-servomotor.rst
-   sensor-index.rst
-   robots-index.rst
+   control-actuator-servomotor.rst
+   control-sensor-index.rst
+   control-robots-index.rst

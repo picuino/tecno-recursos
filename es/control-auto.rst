@@ -28,7 +28,7 @@ Elementos de un sistema de control en lazo abierto
 En la siguiente imagen se muestra un esquema del sistema de control más
 sencillo, el control de lazo abierto.
 
-.. image:: _images/img-0052.png
+.. image:: control/_images/img-0052.png
    :width: 480px
    :alt: Sistema de control en lazo abierto
    :align: center
@@ -122,7 +122,7 @@ Elementos de un sistema de control en lazo cerrado
 En la siguiente imagen se muestra un esquema de un sistema de control
 en lazo cerrado.
 
-.. image:: _images/img-0053.png
+.. image:: control/_images/img-0053.png
    :width: 480px
    :alt: Sistema de control en lazo cerrado
    :align: center
@@ -180,7 +180,7 @@ Control de temperatura en un **horno eléctrico**.
 
 Control de posición de un **servomecanismo**.
 
-.. image:: _images/img-0054.jpg
+.. image:: control/_images/img-0054.jpg
    :width: 360px
    :alt: Servomotor
    :align: center

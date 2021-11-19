@@ -11,7 +11,7 @@ elementos que proporcionan una acción Proporcional, Integral y
 Derivativa. Estas tres acciones son las que dan nombre al
 controlador PID.
 
-.. image:: _images/img-0055.png
+.. image:: control/_images/img-0055.png
    :width: 640px
    :alt: Sistema de control en lazo cerrado con controlador PID
    :align: center
@@ -63,7 +63,7 @@ más allá de este punto producirá una inestabilidad indeseable.
 Reducir la acción proporcional, reducirá la velocidad de respuesta
 del sistema y aumentará su error permanente.
 
-.. image:: _images/img-0056.png
+.. image:: control/_images/img-0056.png
    :width: 800px
    :alt: PID. Respuesta al Control Proporcional.
    :align: center
@@ -127,7 +127,7 @@ efectos:
 Esta acción de control servirá por lo tanto para estabilizar una
 respuesta que oscile demasiado.
 
-.. image:: _images/img-0057.png
+.. image:: control/_images/img-0057.png
    :width: 800px
    :alt: PID. Respuesta al Control Derivativo.
    :align: center
@@ -180,7 +180,7 @@ Aumentar la acción integral **Ki** tiene los siguientes efectos:
 Esta acción de control servirá para disminuir el error en
 régimen permanente.
 
-.. image:: _images/img-0058.png
+.. image:: control/_images/img-0058.png
    :width: 800px
    :alt: PID. Respuesta al Control Integral.
    :align: center
@@ -276,7 +276,7 @@ aprender a modificar los parámetros del controlador PID para
 conseguir que el carro se posicione con rapidez y sin error.
 
 :download:`Motion Control. Versión 0.31
-<_downloads/motion-control-031.zip>`
+<control/_downloads/motion-control-031.zip>`
 
 Este otro programa simula el calentamiento de una caldera
 utilizada para calentar a su vez agua de calefacción.
@@ -284,7 +284,7 @@ El sistema térmico utiliza dos controles PID para controlar
 las dos distintas temperaturas del agua.
 
 :download:`Thermal Control. Versión 0.11
-<_downloads/thermal-control-011.zip>`
+<control/_downloads/thermal-control-011.zip>`
 
 
 Referencias
