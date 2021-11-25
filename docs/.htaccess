@@ -1,4 +1,4 @@
-# Opciones
+# Options
 SetEnv TZ Europe/Madrid
 
 RewriteEngine On
@@ -8,7 +8,28 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^picuino.com$ [NC]
 RewriteRule ^ https://www.picuino.com%{REQUEST_URI} [L,NE,R=301]
 
-# Duración de la caché
+# Redirecciones 301 (Nov-2021)
+Redirect 301 /es/arduprog/control-index.html           https://www.picuino.com/es/control-index.html		                 
+Redirect 301 /es/arduprog/control-auto.html            https://www.picuino.com/es/control-auto.html		                 
+Redirect 301 /es/arduprog/control-pid.html             https://www.picuino.com/es/control-pid.html
+Redirect 301 /es/arduprog/control-ziegler-nichols.html https://www.picuino.com/es/control-ziegler-nichols.html
+Redirect 301 /es/arduprog/control-pid-digital.html     https://www.picuino.com/es/control-pid-digital.html
+Redirect 301 /es/arduprog/actuator-brushless.html      https://www.picuino.com/es/control-actuator-brushless.html	     
+Redirect 301 /es/arduprog/actuator-buzzer.html	       https://www.picuino.com/es/control-actuator-buzzer.html	        
+Redirect 301 /es/arduprog/actuator-dcmotor.html	       https://www.picuino.com/es/control-actuator-dcmotor.html	        
+Redirect 301 /es/arduprog/actuator-index.html          https://www.picuino.com/es/control-actuator-index.html	           
+Redirect 301 /es/arduprog/actuator-servomotor.html     https://www.picuino.com/es/control-actuator-servomotor.html       
+Redirect 301 /es/arduprog/actuator-speaker.html	       https://www.picuino.com/es/control-actuator-speaker.html	        
+Redirect 301 /es/arduprog/actuator-stepper-motor.html  https://www.picuino.com/es/control-actuator-stepper-motor.html    
+Redirect 301 /es/arduprog/sensor-dht11.html            https://www.picuino.com/es/control-sensor-dht11.html
+Redirect 301 /es/arduprog/sensor-index.html            https://www.picuino.com/es/control-sensor-index.html
+Redirect 301 /es/arduprog/sensor-light.html            https://www.picuino.com/es/control-sensor-light.html
+Redirect 301 /es/arduprog/sensor-potentiometer.html    https://www.picuino.com/es/control-sensor-potentiometer.html
+Redirect 301 /es/arduprog/sensor-temp.html             https://www.picuino.com/es/control-sensor-temp.html
+Redirect 301 /es/arduprog/sensor-ultrasonic.html       https://www.picuino.com/es/control-sensor-ultrasonic.html
+Redirect 301 /es/arduprog/robots-index.html            https://www.picuino.com/es/control-robots-index.html
+
+# Cache expires
 <ifModule mod_expires.c>
 <Filesmatch "\.(jpg|jpeg|png|svg|ico|gif|ttf|htm|html|xml|txt|css|js|php|swf|woff2|wasm)$">
     ExpiresActive on
@@ -16,7 +37,7 @@ RewriteRule ^ https://www.picuino.com%{REQUEST_URI} [L,NE,R=301]
 </Filesmatch>
 </ifModule>
 
-# Comprimir contenido
+# Compress content
 SetOutputFilter DEFLATE
 SetEnvIfNoCase Request_URI "\.(?:jpeg|jpg|png|gif|zip|pdf)$" no-gzip
 

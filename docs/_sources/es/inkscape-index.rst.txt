@@ -11,12 +11,25 @@ con el programa Inkscape.
    :align: center
    :alt: InkScape logo
 
+.. toctree::
+   :numbered: 1
+   :maxdepth: 1
+   :titlesonly:
+
+   inkscape-logo-01.rst
+   inkscape-logo-02.rst
+   inkscape-logo-03.rst
+   inkscape-logo-04.rst
+   inkscape-logo-05.rst
+
+
+Tutorial en PDF
+---------------
+Tutorial de Inkscape de Joaquín Herrera en formato PDF.
 
 :download:`Inkscape logo a logo (2ª Edición)<inkscape/inkscape_logo_a_logo_2.pdf>`   
 
-
-Créditos
---------
+Créditos del tutorial en PDF:
 
 Autor: Joaquín Herrera Goás
 

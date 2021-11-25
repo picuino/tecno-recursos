@@ -90,19 +90,6 @@ Entorno de programación por bloques para Arduino.
   <_downloads/ardublock-original.zip>`
 
 
-Documentación
--------------
-
-* :download:`Transistor BD135. Datasheet de On Semiconductor.
-  <_downloads/BD135-onsemi.pdf>`
-* :download:`Transistor BD135. Datasheet de ST. <_downloads/BD135-st.pdf>`
-* :download:`DHT11 <_downloads/DHT11-drobotics.pdf>`
-  Sensor de humedad y temperatura.
-* :download:`NTC <_downloads/ntc-vishay-datasheet.pdf>`
-  resistencia variable con la temperatura.
-* :download:`Servomotor SG90. <_downloads/SG90Servo.pdf>`
-
-
 Fritzing
 --------
 Fritzing es un programa libre (open-source) para Windows, Mac y Linux

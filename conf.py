@@ -101,6 +101,7 @@ exclude_patterns = [
    'es/freecad-subs.rst',
    'es/crocodile-subs.rst',
    'es/writer-subs.rst',
+   'es/inkscape-subs.rst',
    'es/css',
    'es/html',
 ]
@@ -145,8 +146,8 @@ else:
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_custom/templates']
-html_additional_pages = { 
-   'index': 'index.html', 
+html_additional_pages = {
+   'index': 'index.html',
    'error-404': 'error-404.html'
 }
 
@@ -155,7 +156,7 @@ html_theme_path = ['_custom']
 html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
-   'analytics_id': 'UA-59765999-1', # Adre account -> picuino.com 
+   'analytics_id': 'UA-59765999-1', # Adre account -> picuino.com
    'logo_only': True,
    'display_version': False,
    'canonical_url': 'https://www.picuino.com/',
@@ -167,7 +168,7 @@ html_theme_options = {
    'style_external_links': False,
 }
 
-   
+
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 #
@@ -318,7 +319,7 @@ bookmarksnumbered=true
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-                       
+
   ('pc42-latex',    # start docname (root document)
    'Panel_PC42.tex',       # target name
    u'Panel de control PC42',       # title
@@ -339,7 +340,7 @@ latex_documents = [
 #latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-latex_show_urls = 'footnote' 
+latex_show_urls = 'footnote'
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
