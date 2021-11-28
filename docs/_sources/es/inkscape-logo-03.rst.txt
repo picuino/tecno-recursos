@@ -2,8 +2,8 @@
 
 .. _inkscape-logo-03:
 
-Logotipo 3: Fagor
-=================
+Logotipo Fagor
+==============
 
 En este ejercicio utilizaremos la operación booleana de 
 resta para dibujar el logotipo propuesto.

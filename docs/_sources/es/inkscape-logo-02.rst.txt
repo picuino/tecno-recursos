@@ -2,8 +2,8 @@
 
 .. _inkscape-logo-02:
 
-Logotipo 2: Mitsubishi
-======================
+Logotipo Mitsubishi
+===================
 
 En este ejercicio continuaremos usando alineaciones, junto a giros
 y uniones de piezas.
