@@ -8,6 +8,7 @@ Tutorial para aprender a crear dibujos vectoriales
 con el programa Inkscape.
 
 .. image:: inkscape/_images/inkscape-logo.png
+   :width: 240px
    :align: center
    :alt: InkScape logo
 
@@ -21,6 +22,13 @@ con el programa Inkscape.
    inkscape-logo-03.rst
    inkscape-logo-04.rst
    inkscape-logo-05.rst
+   inkscape-logo-06.rst
+   inkscape-logo-07.rst
+   inkscape-logo-08.rst
+   inkscape-logo-09.rst
+   inkscape-logo-10.rst
+   inkscape-logo-11.rst
+   inkscape-logo-12.rst
 
 
 Tutorial en PDF

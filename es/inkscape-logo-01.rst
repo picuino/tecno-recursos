@@ -2,8 +2,8 @@
 
 .. _inkscape-logo-01:
 
-Logotipo 1: Underground
-=======================
+Logotipo Underground
+====================
 
 En este ejercicio veremos como usar la alineación vertical y
 horizontal para colocar los elementos de la imagen perfectamente

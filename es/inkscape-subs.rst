@@ -53,6 +53,9 @@
 .. |button-zoom| image:: inkscape/_images/inkscape-button-zoom.png
                   :align: middle
 
+.. |button-suavizar-nodos| image:: inkscape/_images/inkscape-button-suavizar-nodos.png
+                  :align: middle
+
 
 .. ==================
    TECLAS DEL TECLADO
@@ -65,5 +68,11 @@
                   :align: middle
 
 .. |tecla-control| image:: inkscape/_images/inkscape-tecla-control.png
+                  :align: middle
+
+.. |tecla-d| image:: inkscape/_images/inkscape-tecla-d.png
+                  :align: middle
+
+.. |tecla-shift| image:: inkscape/_images/inkscape-tecla-shift.png
                   :align: middle
 

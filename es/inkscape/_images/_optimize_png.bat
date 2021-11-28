@@ -1,4 +1,4 @@
 @set PATH=D:\Bin\imagetools;%PATH%
 
-@for %%f in (inkscape-logo-04*.png) do optipng -o 6 %%f
+@for %%f in (inkscape-logo-11*.png) do optipng -o 7 %%f
 pause
