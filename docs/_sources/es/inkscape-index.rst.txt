@@ -29,6 +29,18 @@ con el programa Inkscape.
    inkscape-logo-10.rst
    inkscape-logo-11.rst
    inkscape-logo-12.rst
+   inkscape-logo-13.rst
+   inkscape-logo-14.rst
+   inkscape-logo-15.rst
+   inkscape-logo-16.rst
+   inkscape-logo-17.rst
+   inkscape-logo-18.rst
+   inkscape-logo-19.rst
+   inkscape-logo-20.rst
+   inkscape-logo-21.rst
+   inkscape-logo-22.rst
+   inkscape-logo-23.rst
+   inkscape-logo-24.rst
 
 
 Tutorial en PDF

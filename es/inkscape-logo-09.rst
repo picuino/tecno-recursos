@@ -39,8 +39,10 @@ Logotipo Adidas
    .. image:: inkscape/_images/inkscape-logo-09-c.jpg
       :align: center
 
-   Ahora escogemos la herramienta ``Objeto... Recorte... Aplicar``
-   y la hoja se habrá recortado de la imagen.
+   Ahora seleccionamos los dos objetos (la imagen de las hojas y 
+   el trazo alrededor de la hoja) 
+   y escogemos la herramienta ``Objeto... Recorte... Aplicar``.
+   La hoja se habrá recortado de la imagen.
 
    .. image:: inkscape/_images/inkscape-logo-09-d.jpg
       :align: center

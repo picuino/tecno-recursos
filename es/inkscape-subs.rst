@@ -56,6 +56,9 @@
 .. |button-suavizar-nodos| image:: inkscape/_images/inkscape-button-suavizar-nodos.png
                   :align: middle
 
+.. |button-ajustar-nodos| image:: inkscape/_images/inkscape-button-ajustar-nodos.png
+                  :align: middle
+
 
 .. ==================
    TECLAS DEL TECLADO
@@ -74,5 +77,8 @@
                   :align: middle
 
 .. |tecla-shift| image:: inkscape/_images/inkscape-tecla-shift.png
+                  :align: middle
+
+.. |tecla-tab| image:: inkscape/_images/inkscape-tecla-tab.png
                   :align: middle
 
