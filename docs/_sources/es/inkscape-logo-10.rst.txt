@@ -16,7 +16,7 @@ Logotipo Phiten
    :download:`Fuente Add City Boy. <inkscape/Add_city_boy.ttf>`
 
    `Fuente Add City Boy en Dafont.com <https://www.dafont.com/es/add-city-boy.font>`__
-   
+
    La fuente no es la misma que la del logotipo original, pero se
    parece lo suficiente para que nos sirva en este ejercicio.
 
@@ -47,13 +47,16 @@ Logotipo Phiten
 
    |br|
 
-#. Ahora restamos las dos elipses con la herramienta del menú
-   ``Trayecto... Diferencia``.
+#. Ahora nos aseguramos de que la elipse más pequeña esté encima de la
+   elipse más grande y restamos las dos elipses con la herramienta del
+   menú ``Trayecto... Diferencia``.
 
    .. image:: inkscape/_images/inkscape-logo-10-c.png
       :align: center
 
-   Convertimos el nuevo objeto en trayecto con la
+   |br|
+
+#. Convertimos el nuevo objeto en trayecto con la
    herramienta del menú ``Trayecto... Objeto a trayecto``
    y editamos los nodos con la herramienta de edición de nodos
    |button-edit-nodes|.
