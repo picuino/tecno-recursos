@@ -25,6 +25,14 @@ Logotipo Volkswagen
    Con la herramienta de selección |button-selection| nos aseguramos de
    que el triángulo coincida exactamente con el logotipo.
 
+   Recuerda pulsar la tecla Shift |tecla-shift| mientras cambias el
+   tamaño horizontal para que la figura cambie de anchura de forma 
+   simétrica.
+   
+   Recuerda pulsar la tecla Control |tecla-control| mientras cambias el 
+   tamaño vertical del triángulo para que no cambie el ángulo que forma 
+   la uve.
+   
    .. image:: inkscape/_images/inkscape-logo-11-a.jpg
       :align: center
 

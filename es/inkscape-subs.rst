@@ -59,6 +59,9 @@
 .. |button-ajustar-nodos| image:: inkscape/_images/inkscape-button-ajustar-nodos.png
                   :align: middle
 
+.. |button-perspective| image:: inkscape/_images/inkscape-button-perspective.png
+                  :align: middle
+
 
 .. ==================
    TECLAS DEL TECLADO
