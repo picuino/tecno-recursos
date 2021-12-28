@@ -245,7 +245,7 @@ se fundan uniéndose entre sí.
    
    Se utiliza para hacer vajillas.
    
-.. figura:: material/_images/material-loza.jpg
+.. figure:: material/_images/material-loza.jpg
    :align: center
    
    `Lourdes Cardenal <https://commons.wikimedia.org/wiki/File:Cuenco_barro_ceramica_popular_lou.jpg>`__

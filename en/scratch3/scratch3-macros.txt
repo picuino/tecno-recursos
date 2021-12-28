@@ -1,0 +1,126 @@
+﻿
+{#- **********  SCRATCH 3.0 MACROS  ********** #}
+
+
+{%- macro fondo(objeto, section='', image='') -%}
+   Pulsamos el botón elige un fondo |seleccionar-fondo|.
+
+   {%- if section %}
+
+   Buscamos en la sección **{{ section }}**.
+   {%- endif %}
+
+   y seleccionamos el fondo **{{ objeto }}**.
+
+   {%- if image %}
+
+   .. image:: scratch3/_images/{{ image }}
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro objeto(objeto, section='', image='') -%}
+   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+
+   {%- if section %}
+
+   Buscamos en la sección **{{ section }}**.
+   {%- endif %}
+
+   y seleccionamos el objeto **{{ objeto }}**.
+
+   {%- if image %}
+
+   .. image:: scratch3/_images/{{ image }}
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro probar_programa() -%}
+   Pulsamos la bandera verde |bandera-verde|
+   para probar el funcionamiento del programa.
+{%- endmacro %}
+
+
+{%- macro variable(nombre, image='', ok=True) -%}
+   Pulsamos el botón de variables |boton-variables|,
+
+   pulsamos en crear una variable  |boton-crear-variable|.
+
+   Cambiamos el nombre de la variable a **{{ nombre }}**
+
+   {%- if image %}
+
+   .. image:: scratch3/_images/{{ image }}
+   {% endif -%}
+
+   {%- if image and ok == True %}
+
+   Por último pulsamos el botón **Aceptar**
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro function(name, image='', ok=True) -%}
+   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+
+   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+
+   Luego cambiamos el nombre del nuevo bloque a **{{ name }}**
+
+   {%- if image %}
+
+   .. image:: scratch3/_images/{{ image }}
+   {%- endif %}
+
+   {%- if image and ok == True %}
+
+   Por último pulsamos el botón **Aceptar**
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro function_parameter(name, parameter, image='', ok=True) -%}
+
+   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+
+   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+
+   Luego cambiamos el nombre del nuevo bloque a **{{ name }}**
+
+   Pulsamos en **Añadir una entrada número o texto** y le damos
+   el nombre **{{ parameter }}**
+
+   {%- if image %}
+
+   .. image:: scratch3/_images/{{ image }}
+   {%- endif %}
+
+   {%- if image and ok == True %}
+
+   Por último pulsamos el botón **Aceptar**
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro resize(image) -%}
+   {% set width = g_images[image].width -%}
+
+   .. image:: scratch3/_images/{{image}}
+      :width: {{ (width * 0.90) | round | int }}px
+
+{%- endmacro %}
+
+
+{%- macro borrar_gato() -%}
+   Borramos el objeto gato presionando sobre el icono del
+   cubo de basura.
+
+   |borrar-gato|
+{%- endmacro %}
+
+
+{%- macro idioma_castellano() -%}
+   Pulsamos el botón idioma |boton-idioma| en la barra
+   superior y elegimos **español**.
+{%- endmacro %}
