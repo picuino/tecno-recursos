@@ -5,14 +5,14 @@ Blogs y páginas web de Tecnología
 =================================
 
 Los `ranking de Alexa <https://www.alexa.com/siteinfo>`_
-se han calculado en Agosto de 2020.
+se han calculado en enero de 2022.
 
 
 #. `Areatecnología
    <https://www.areatecnologia.com>`_
 
    `Alexa Rank <https://www.alexa.com/siteinfo/areatecnologia.com>`__ :
-   76,723
+   154,564
 
 #. `Pelandintecno
    <http://pelandintecno.blogspot.com/>`_
@@ -21,7 +21,7 @@ se han calculado en Agosto de 2020.
    Corazón de Placeres.
 
    `Alexa Rank <https://www.alexa.com/siteinfo/pelandintecno.blogspot.com>`__ :
-   1,045,533
+   716,359
 
 #. `Picuino
    <https://www.picuino.com>`_
@@ -29,12 +29,61 @@ se han calculado en Agosto de 2020.
    Web creada por Carlos Pardo, profesor de Tecnología.
 
    `Alexa Rank <https://www.alexa.com/siteinfo/picuino.com>`__ :
-   883,362
+   1,510,007
 
 #. `Wikilibro Tecno Recursos
    <https://es.wikibooks.org/wiki/Tecno_Recursos>`_
 
    Wikilibro colaborativo orientado a crear recursos para Tecnología.
+
+#. `Apuntes Marea Verde
+   <http://www.apuntesmareaverde.org.es/>`_
+   
+   Web del movimiento Marea Verde, con apuntes y libros de muchas materias, 
+   incluidas algunas materias de Tecnología.
+   
+   `Alexa Rank <https://www.alexa.com/siteinfo/apuntesmareaverde.org.es>`__ :
+   243,850
+
+#. `Portal ESO
+   <http://www.portaleso.com/>`_
+
+   `Alexa Rank <https://www.alexa.com/siteinfo/portaleso.com>`__ :
+   1,292,387
+
+#. `Tecnosalva
+   <https://www.tecnosalva.com/>`_
+
+   `Alexa Rank <https://www.alexa.com/siteinfo/tecnosalva.com>`__ :
+   1,854,001
+
+#. `Tecnoapuntes
+   <https://tecnoapuntes.com/>`_
+
+   Alexa Rank: 2,188,413
+
+#. `Makinando Velez
+   <https://makinandovelez.wordpress.com/>`_
+
+   Blog creado en el departamento de Tecnología del IES Luis Vélez de Guevara,
+   Écija.
+
+   `Alexa Rank <https://www.alexa.com/siteinfo/makinandovelez.wordpress.com>`__ :
+   2,410,948 
+
+#. `Blog del profesor de tecnología
+   <https://elblogdelprofesordetecnologia.blogspot.com/>`_
+
+   `Alexa Rank <https://www.alexa.com/siteinfo/elblogdelprofesordetecnologia.blogspot.com>`__ :
+   3,032,257
+
+#. `Blog de José Panadero <http://josepanadero.wordpress.com/>`_
+
+   José Manuel Panadero es el autor de esta página web, que se caracteriza por
+   sus numerosas propuestas para la asignatura de Tecnología.
+
+   `Alexa Rank <https://www.alexa.com/siteinfo/josepanadero.wordpress.com>`__ :
+   5,531,785
 
 #. `Aprendemos Tecnología
    <http://aprendemostecnologia.org/>`_
@@ -44,31 +93,19 @@ se han calculado en Agosto de 2020.
    2008 publican apuntes, actividades, proyectos, etc.
 
    `Alexa Rank <https://www.alexa.com/siteinfo/aprendemostecnologia.org>`__ :
-   2,056,212
-
-#. `Apuntes Marea Verde
-   <http://www.apuntesmareaverde.org.es/>`_
-
-   `Alexa Rank <https://www.alexa.com/siteinfo/apuntesmareaverde.org.es>`__ :
-   375,169
-
-#. `Portal ESO
-   <http://www.portaleso.com/>`_
-
-   `Alexa Rank <https://www.alexa.com/siteinfo/portaleso.com>`__ :
-   1,024,367
+   No Results
 
 #. `Tecnosecundaria
    <http://www.tecnosecundaria.es/index.php>`_
 
    `Alexa Rank <https://www.alexa.com/siteinfo/tecnosecundaria.es>`__ :
-   1,314,608
+   No Results
 
 #. `Tecnomapas
    <https://tecnomapas.blogspot.com/>`_
 
    `Alexa Rank <https://www.alexa.com/siteinfo/tecnomapas.blogspot.com>`__ :
-   1,943,818
+   No Results
 
 #. `Licenciaparatodos
    <https://lacienciaparatodos.wordpress.com/>`_
@@ -76,42 +113,19 @@ se han calculado en Agosto de 2020.
    Blog de Javier Fernández Panadero.
 
    `Alexa Rank <https://www.alexa.com/siteinfo/lacienciaparatodos.wordpress.com>`__ :
-   2,568,176
-
-#. `Makinando Velez
-   <https://makinandovelez.wordpress.com/>`_
-
-   Blog creado en el departamento de Tecnología del IES Luis Vélez de Guevara,
-   Écija.
-
-   `Alexa Rank <https://www.alexa.com/siteinfo/makinandovelez.wordpress.com>`__ :
-   2,981,279
-
-#. `Blog de José Panadero <http://josepanadero.wordpress.com/>`_
-
-   José Manuel Panadero es el autor de esta página web, que se caracteriza por
-   sus numerosas propuestas para la asignatura de Tecnología.
-
-   `Alexa Rank <https://www.alexa.com/siteinfo/josepanadero.wordpress.com>`__ :
-   4,079,401
+   No Results
 
 #. `Raúl Tecnología
    <https://raultecnologia.wordpress.com/>`_
 
    `Alexa Rank <https://www.alexa.com/siteinfo/raultecnologia.wordpress.com>`__ :
-   6,521,759
+   No Results
 
 #. `Tecnopujol
    <https://tecnopujol.wordpress.com/>`_
 
    `Alexa Rank <https://www.alexa.com/siteinfo/tecnopujol.wordpress.com>`__ :
-   7,106,024
-
-#. `Blog del profesor de tecnología
-   <https://elblogdelprofesordetecnologia.blogspot.com/>`_
-
-   `Alexa Rank <https://www.alexa.com/siteinfo/elblogdelprofesordetecnologia.blogspot.com>`__ :
-   7,649,232
+   No Results
 
 #. `Raúl Experimentos
    <http://raulexperimentos.blogspot.com/>`_
@@ -119,19 +133,19 @@ se han calculado en Agosto de 2020.
    Experimentos sencillos de ciencia y tecnología.
 
    `Alexa Rank <https://www.alexa.com/siteinfo/raulexperimentos.blogspot.com>`__ :
-   7,680,224
+   No Results
 
 #. `Tecnoastro
    <http://www.tecnoastro.es/index.htm>`_
 
    `Alexa Rank <https://www.alexa.com/siteinfo/tecnoastro.es>`__ :
-   7,705,411
+   No Results
 
 #. `HaroTecno
    <https://harotecno.wordpress.com/>`_
 
    `Alexa Rank <https://www.alexa.com/siteinfo/harotecno.wordpress.com>`__ :
-   8,319,666
+   No Results
 
 #. `Aula de tecnologías
    <https://auladetecnologias.blogspot.com/>`_
@@ -166,11 +180,6 @@ se han calculado en Agosto de 2020.
 
    Alexa Rank: No results
 
-#. `Tecnoapuntes
-   <https://tecnoapuntes.com/>`_
-
-   Alexa Rank: No Results
-
 #. `Blog de Alicia Díaz Cobo
    <https://aliciadiazcobo.wordpress.com/>`_
 
@@ -178,11 +187,6 @@ se han calculado en Agosto de 2020.
 
 #. `Tecnología María de Molina
    <http://mariademolina.blogspot.com/>`_
-
-   Alexa Rank: No Results
-
-#. `Tecnosalva
-   <https://www.tecnosalva.com/>`_
 
    Alexa Rank: No Results
 
@@ -316,6 +320,6 @@ se han calculado en Agosto de 2020.
 #. `La Tecnología en el Villadiego
    <https://tecnovilladiego.blogspot.com.es/>`_
 
-   Blog creado por el departamento de Tecnología del IES Virgen de Villadiego de
-   Peñaflor en Sevilla.
+   Blog creado por el departamento de Tecnología del IES Virgen de Villadiego 
+   de Peñaflor en Sevilla.
 

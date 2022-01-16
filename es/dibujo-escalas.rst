@@ -12,7 +12,7 @@ Representación de objetos a distintos tamaños.
 
      
 Cuando hay que representar un objeto grande en un plano, por 
-ejemplo una casa, no es práctico dibujarlo con su tamaño real.
+ejemplo un camión, no es práctico dibujarlo con su tamaño real.
 En estos casos lo conveniente es dibujar el objeto a tamaño 
 reducido.
 Si los objetos son demasiado pequeños, por ejemplo un componente
@@ -20,7 +20,7 @@ electrónico, es conveniente realizar el dibujo con un tamaño
 ampliado.
 
 La **escala** es la relación de ampliación o de reducción con la que
-se dibuja un objeto.
+se dibuja un objeto en papel.
 
 La **escala de reducción** se utiliza cuando el tamaño del objeto
 es mayor que el tamaño de la hoja de papel. Una escala 1:10 

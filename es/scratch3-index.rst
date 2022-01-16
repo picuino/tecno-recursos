@@ -5,7 +5,10 @@
  Tutorial de Scratch 3
 ***********************
 
+:ref:`Tutorial de Scratch3 en inglés <scratch3-en-index>`.
+
 Tutorial para aprender a programar en Scratch 3.
+
 
 .. image:: scratch3/_images/scratch3-logo.png
    :width: 240px

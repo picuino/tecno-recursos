@@ -16,8 +16,8 @@ Propiedades de los pétreos
    edificios y otras estructuras.
 
 **Densidad**
-   En general es mayor que la del agua y varían desde los 1.6 kg/litro de la 
-   arcilla o la arena hasta los 2.8 kg/litro de la pizarra, mármol o granito.
+   En general es mayor que la del agua y varían desde los 1.5 kg/litro de
+   la arena hasta los 2.8 kg/litro de la pizarra, mármol o granito.
    
    La piedra pómez o la diatomita son excepciones con una densidad muy baja, 
    menor que la del agua, al ser muy porosas. 
@@ -304,3 +304,9 @@ mayor resistencia mecánica (planchas de escayola, resina plástica, etc.)
    :align: center
 
    `Matthew Bowden. <https://commons.wikimedia.org/wiki/File:Colorful_bottle.jpg>`__
+
+Cuestionario
+------------
+Cuestionario de tipo test sobre los materiales pétreos.
+
+`Questionary. Los materiales pétreos. <https://www.picuino.com/questionary/es-material-stone.html>`__

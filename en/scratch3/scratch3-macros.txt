@@ -37,8 +37,8 @@
 
 
 {%- macro probar_programa() -%}
-   Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+   Press the green flag |bandera-verde|
+   to test the operation of the program.
 {%- endmacro %}
 
 
@@ -123,4 +123,10 @@
 {%- macro idioma_castellano() -%}
    Pulsamos el botón idioma |boton-idioma| en la barra
    superior y elegimos **español**.
+{%- endmacro %}
+
+
+{%- macro idioma_ingles() -%}
+   Click language button |boton-idioma| 
+   upper menu bar and select **English**.
 {%- endmacro %}

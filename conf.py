@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# Picuino documentation build configuration file, created by
-# sphinx-quickstart on Sun Jan 18 17:04:07 2015.
+# Picuino documentation build configuration file.
 #
-# This file is execfile()d with the current directory set to its
-# containing dir.
 #
 
 # -- Path setup --------------------------------------------------------------
