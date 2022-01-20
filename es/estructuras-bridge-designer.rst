@@ -140,6 +140,104 @@ Ejercicios
    El puente debe tener el menor coste posible.
 
 
+Puntuación
+----------
+
+.. raw:: html
+
+   <style>
+   .row {
+      padding-bottom: 2px;
+   }
+
+   input[type=button] {
+      text-align: center;
+      background-color: #eee;
+      border: 1px solid #888;
+      border-radius: 4px;
+   }
+
+   .sname {
+      display: inline-block;
+      min-width: 10em;
+   }
+
+   input[type=text], select, textarea {
+      width: 100%;
+      padding: 1px 4px 0 4px;
+      height: 22px;
+      text-align: right;
+      box-sizing: border-box;
+      border: 1px solid #888;
+      border-radius: 4px;
+   }
+
+   input[type=text]:disabled {
+      color: inherit;
+   }
+
+   .sval {
+      display: inline-block;
+      width: 5em;
+   }
+   .sval input[type=text] {
+      background-color: #FFFFC0;
+   }
+
+   .scalc  {
+      display: inline-block;
+      width: 5em;
+   }
+   .scalc input[type=text] {
+      background-color: #C0FFFF;
+   }
+   
+   .sunit {
+      display: inline-block;
+      min-width: 2em;
+      text-align: center;
+   }
+   </style>
+   
+   <script>
+   function calc() {
+      precio_min = idtonum("precio_min");
+      precio_actual = idtonum("precio_actual");
+      k = - ( Math.log(10) - Math.log(5) ) / ( Math.log(100) - Math.log(150) )
+      puntuacion = 10.0 * Math.pow(precio_min / precio_actual, k)
+      if (Number.isFinite(puntuacion)) {
+         console.log(precio_min, precio_actual, puntuacion.toPrecision(2));
+         document.getElementById("precio_puntuacion").value = puntuacion.toPrecision(2);
+      }
+      else {
+         document.getElementById("precio_puntuacion").value = "";
+      };      
+   }
+   
+   function idtonum(id) {
+      val = document.getElementById(id).value.replace(',', '.');
+      if (isNaN(val)) return '';
+      return val * 1.0;
+   }
+
+   </script>
+   
+   <div class="row">
+      <div class="sname">Precio más bajo</div>
+      <div class="sval"> <form> <input type="text" id="precio_min" onkeyup="calc()"> </form> </div>
+      <div class="sunit">k$</div>
+   </div>
+   <div class="row">
+      <div class="sname">Precio conseguido</div>
+      <div class="sval"> <form> <input type="text" id="precio_actual" onkeyup="calc()"> </form> </div>
+      <div class="sunit">k$</div>
+   </div>
+   <div class="row">
+      <div class="sname">Puntuación obtenida</div>
+      <div class="scalc"> <form> <input disabled="disabled" type="text" id="precio_puntuacion"> </form> </div>
+   </div>
+
+
 .. |br| raw:: html
 
    <br />
