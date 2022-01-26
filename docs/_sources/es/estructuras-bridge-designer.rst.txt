@@ -140,6 +140,49 @@ Ejercicios
    El puente debe tener el menor coste posible.
 
 
+Puntuación
+----------
+
+.. raw:: html
+
+   <script>
+   function calc() {
+      precio_min = idtonum("precio_min");
+      precio_actual = idtonum("precio_actual");
+      k = - ( Math.log(10) - Math.log(5) ) / ( Math.log(100) - Math.log(150) )
+      puntuacion = 10.0 * Math.pow(precio_min / precio_actual, k)
+      if (Number.isFinite(puntuacion) && puntuacion <= 10.0) {
+         console.log(precio_min, precio_actual, puntuacion.toPrecision(2));
+         document.getElementById("precio_puntuacion").value = puntuacion.toPrecision(2);
+      }
+      else {
+         document.getElementById("precio_puntuacion").value = "";
+      };      
+   }
+   
+   function idtonum(id) {
+      val = document.getElementById(id).value.replace(',', '.');
+      if (isNaN(val)) return '';
+      return val * 1.0;
+   }
+   </script>
+   
+   <div class="calc_row">
+      <div class="calc_sname">Precio más bajo</div>
+      <div class="calc_sval"> <form> <input type="text" id="precio_min" onkeyup="calc()"> </form> </div>
+      <div class="calc_sunit">k$</div>
+   </div>
+   <div class="calc_row">
+      <div class="calc_sname">Precio conseguido</div>
+      <div class="calc_sval"> <form> <input type="text" id="precio_actual" onkeyup="calc()"> </form> </div>
+      <div class="calc_sunit">k$</div>
+   </div>
+   <div class="calc_row">
+      <div class="calc_sname">Puntuación obtenida</div>
+      <div class="calc_scalc"> <form> <input disabled="disabled" type="text" id="precio_puntuacion"> </form> </div>
+   </div>
+
+
 .. |br| raw:: html
 
    <br />

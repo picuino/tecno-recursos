@@ -44,6 +44,16 @@ Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
 #. `Opciones de impresión <../_static/tutorial-calc/calc/cas/pract/p34c.htm>`_
 
 
+Ejercicios de Calc
+------------------
+
+`Recursos necesarios para realizar algunos ejercicios. <../_static/tutorial-calc/calc/ex/ejcalc.zip>`__
+
+`Índice general de prácticas Calc <../_static/tutorial-calc/calc/index.html>`__
+
+Seleccionar 'Castellano' y a continuación 'Ejercicios propuestos' en la pestaña superior.
+
+
 Créditos
 --------
 

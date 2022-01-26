@@ -61,6 +61,16 @@ Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
 #. `Opciones de impresión <../_static/tutorial-writer/writer/cas/pract/p50c.htm>`_
 
 
+Ejercicios de Writer
+--------------------
+
+`Recursos necesarios para realizar algunos ejercicios. <../_static/tutorial-writer/writer/ex/ejwriter.zip>`__
+
+`Índice general de prácticas Writer <../_static/tutorial-writer/writer/index.html>`__
+
+Seleccionar 'Castellano' y a continuación 'Ejercicios propuestos' en la pestaña superior.
+
+
 Créditos
 --------
 

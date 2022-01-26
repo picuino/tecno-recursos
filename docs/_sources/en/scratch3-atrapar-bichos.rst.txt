@@ -1,0 +1,170 @@
+﻿
+.. include:: scratch3-subs.rst
+
+.. _scratch3-en-atrapar-bichos:
+
+Catching bugs
+=============
+
+En esta práctica vamos a programar un juego que consiste en 
+atrapar todos los escarabajos que aparecen en la pantalla.
+Una vez atrapados, ganamos el juego y un personaje nos avisa 
+de ello.
+
+.. image:: scratch3/_images/scratch3-p06-screen.png
+   :width: 360px
+   
+|br|
+
+1. We start the |editor_de_Scratch|.
+
+   |br|
+
+#. Click language button |boton-idioma| 
+   upper menu bar and select **English**.
+
+   |br|
+
+#. Delete the cat sprite by pressing on the icon of the
+   trash can.
+
+   |borrar-gato|
+
+   |br|
+
+#. Ahora escogemos un fondo adecuado para nuestro juego.
+   Cambiamos el fondo de escenario a una pared de una **calle**.
+
+   Press the button choose a backdrop |seleccionar-fondo|.
+
+   Search in the topic **Exteriores**.
+
+   and select the backdrop **Wall 1**.
+
+   .. image:: scratch3/_images/scratch3-fondo-wall1.png
+
+   |br|
+   
+#. A continuación añadimos un nuevo personaje, un **escarabajo**.
+
+   Press the button choose an object |seleccionar-objeto|.
+
+   Search in the topic **Animales**.
+
+   and select the object **Ladybug2**.
+
+   .. image:: scratch3/_images/scratch3-objeto-ladybug2.png
+
+   |br|
+
+#. Ahora crearemos la variable **clones** que va a contar el 
+   número de escarabajos que hay en la pantalla.
+   Cuando esta variable valga cero, el programa terminará.
+
+   Press the variables button |boton-variables|,
+
+   click on create a variable  |boton-crear-variable|.
+
+   Change the name of the variable to **clones**
+
+   .. image:: scratch3/_images/scratch3-crear-variable-clones.png
+   
+
+   Finally press the button **Ok**
+
+   |br|
+
+
+#. Realizamos un programa que 
+   esconde el escarabajo, reduce su tamaño, 
+   inicia el número de clones a cero y
+   coloca diez clones del escarabajo en la pantalla.
+
+   .. image:: scratch3/_images/scratch3-p06-ladybug-01.png
+      :width: 245px
+
+
+
+   |br|
+
+#. En este punto añadimos las instrucciones para que cada clon
+   del escarabajo aparezca en un lugar aleatorio en la pantalla
+   y se aumenta el número de escarabajos en uno.
+   
+   Cuando el puntero del ratón toque el escarabajo,
+   se resta uno al contador de escarabajos y 
+   el escarabajo desaparece.
+
+   .. image:: scratch3/_images/scratch3-p06-ladybug-02.png
+      :width: 414px
+
+   |br|
+
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
+
+   Deben aparecer diez escarabajos en la pantalla.
+   Los escarabajos deben desaparecer cuando el puntero del ratón
+   les toque, sin hacer clic.
+
+   |br|
+
+#. Para que el juego funcione normalmente, programamos la función 
+   que hará aparecer nuevos escarabajos cada cierto tiempo.
+   Cuando el número de escarabajos en pantalla sea cero, el juego
+   termina y el programa se detiene.
+   
+   .. image:: scratch3/_images/scratch3-p06-ladybug-03.png
+      :width: 426px
+   
+   |br|
+
+
+#. Por último vamos a programar un personaje que avise del final
+   del juego. En este caso escogemos a Cassy bailando.
+
+   Press the button choose an object |seleccionar-objeto|.
+
+   Search in the topic **Gente**.
+
+   and select the object **Cassy Dance**.
+
+   .. image:: scratch3/_images/scratch3-objeto-cassy.png
+
+   |br|
+
+#. Seleccionamos el nuevo personaje 
+
+   .. image:: scratch3/_images/scratch3-p06-selecciona-cassy.png
+   
+   y añadimos las siguientes instrucciones.
+
+   .. image:: scratch3/_images/scratch3-p06-cassy-01.png
+      :width: 353px
+
+
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
+
+   Ahora, al finalizar el programa, aparecerá Cassy bailando
+   para felicitarnos por haber ganado.
+
+   |br|
+
+
+-----
+
+
+Ejercicios
+----------
+
+1. Añade una nueva regla al juego. Si el número de escarabajos es
+   mayor que 25, entonces perdemos el juego.
+   El programa se detiene y un personaje nuevo nos avisa de que
+   hemos perdido.
+
+#. Añade más disfraces al personaje del escarabajo, de manera que
+   con cada clon aparezca un disfraz distinto, 
+   utilizando la instrucción "siguiente disfraz" en el lugar 
+   adecuado.
+   

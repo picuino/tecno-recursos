@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es-es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. 10. Killing Martians" />
+
+  
+  <title>10. Killing Martians - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/en/scratch3-matar-marcianitos.html"/>
+
+  
+
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Search within ..."
+            href="../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" /> 
+
+  <script src="../_static/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../es/index.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../es/index.html">Docs</a> &raquo;</li>
+        
+      <li><span class="section-number">10. </span>Killing Martians</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/en/scratch3-matar-marcianitos.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="killing-martians">
+<span id="scratch3-en-matar-marcianitos"></span><h1><span class="section-number">10. </span>Killing Martians<a class="headerlink" href="#killing-martians" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En esta práctica vamos a programar un juego que consiste en matar,
+con el láser de una nave espacial, a marcianos que caen desde la
+parte superior de la pantalla.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p09-screen.png"><img alt="../_images/scratch3-p09-screen.png" src="../_images/scratch3-p09-screen.png" style="width: 360px;" /></a>
+<p><br /></p>
+<ol class="arabic">
+<li><p class="first">We start the <a href="https://scratch.mit.edu/projects/editor"
+target="_blank">Scratch editor</a>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Click language button <img alt="boton-idioma" class="align-middle" src="../_images/scratch3-boton-idioma.png" />
+upper menu bar and select <strong>English</strong>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Delete the cat sprite by pressing on the icon of the
+trash can.</p>
+<p><img alt="borrar-gato" class="align-middle" src="../_images/scratch3-borrar-gato.png" /></p>
+<p><br /></p>
+</li>
+<li><p class="first">Ahora escogemos un fondo adecuado para nuestro juego.
+Cambiamos el fondo de escenario por un <strong>cielo con estrellas</strong>.</p>
+<p>Press the button choose a backdrop <img alt="seleccionar-fondo" class="align-middle" src="../_images/scratch3-seleccionar-fondo.png" />.</p>
+<p>Search in the topic <strong>Espacio</strong>.</p>
+<p>and select the backdrop <strong>Stars</strong>.</p>
+<img alt="../_images/scratch3-fondo-stars.png" src="../_images/scratch3-fondo-stars.png" />
+<p><br /></p>
+</li>
+<li><p class="first">Añadimos un nuevo personaje, una <strong>nave espacial</strong>.</p>
+<p>Press the button choose an object <img alt="seleccionar-objeto" class="align-middle" src="../_images/scratch3-seleccionar-objeto.png" />.</p>
+<p>Search in the topic <strong>Todos</strong>.</p>
+<p>and select the object <strong>Rocketship</strong>.</p>
+<img alt="../_images/scratch3-objeto-rocketship.png" src="../_images/scratch3-objeto-rocketship.png" />
+<p><br /></p>
+</li>
+<li><p class="first">Añadimos una nueva variable <strong>x</strong> que guardará la posición de
+la nave espacial.</p>
+<p>Press the variables button <a class="reference internal" href="../_images/scratch3-boton-variables.png"><img alt="boton-variables" class="align-middle" src="../_images/scratch3-boton-variables.png" style="width: 60px;" /></a>,</p>
+<p>click on create a variable  <a class="reference internal" href="../_images/scratch3-boton-crear-variable.png"><img alt="boton-crear-variable" class="align-middle" src="../_images/scratch3-boton-crear-variable.png" style="width: 144px;" /></a>.</p>
+<p>Change the name of the variable to <strong>x</strong></p>
+<p><br /></p>
+</li>
+<li><p class="first">Realizamos el programa para iniciar la nave en la parte
+inferior de la pantalla y que se mueva a derecha y a izquierda.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p09-rocket-01.png"><img alt="../_images/scratch3-p09-rocket-01.png" src="../_images/scratch3-p09-rocket-01.png" style="width: 446px;" /></a>
+</li>
+<li><p class="first">Press the green flag <img alt="bandera-verde" class="align-middle" src="../_images/scratch3-bandera-verde.png" />
+to test the operation of the program.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Ahora añadimos un nuevo objeto, un <strong>botón</strong> que hará de
+<strong>rayo laser</strong> azul.</p>
+<p>Press the button choose an object <img alt="seleccionar-objeto" class="align-middle" src="../_images/scratch3-seleccionar-objeto.png" />.</p>
+<p>Search in the topic <strong>Todos</strong>.</p>
+<p>and select the object <strong>Button2</strong>.</p>
+<img alt="../_images/scratch3-objeto-button2.png" src="../_images/scratch3-objeto-button2.png" />
+<p><br /></p>
+</li>
+<li><p class="first">Programamos el botón para que se comporte como un rayo láser.
+al comenzar giraremos al botón hacia arriba con tamaño pequeño.</p>
+<p>Cada vez que se pulse la tecla <strong>espacio</strong> aparecerá un nuevo
+rayo láser.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p09-button-01.png"><img alt="../_images/scratch3-p09-button-01.png" src="../_images/scratch3-p09-button-01.png" style="width: 230px;" /></a>
+<p>Cada rayo láser se desplazará hacia arriba desde la posición
+actual de la nave hasta la parte alta de la pantalla donde
+desaparecerá.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p09-button-02.png"><img alt="../_images/scratch3-p09-button-02.png" src="../_images/scratch3-p09-button-02.png" style="width: 326px;" /></a>
+</li>
+<li><p class="first">Press the green flag <img alt="bandera-verde" class="align-middle" src="../_images/scratch3-bandera-verde.png" />
+to test the operation of the program.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Añadimos un nuevo objeto, un <strong>marciano</strong>.</p>
+<p>Press the button choose an object <img alt="seleccionar-objeto" class="align-middle" src="../_images/scratch3-seleccionar-objeto.png" />.</p>
+<p>Search in the topic <strong>Animales</strong>.</p>
+<p>and select the object <strong>Starfish</strong>.</p>
+<img alt="../_images/scratch3-objeto-starfish.png" src="../_images/scratch3-objeto-starfish.png" />
+<p><br /></p>
+</li>
+<li><p class="first">Realizamos el programa necesario para que aparezcan clones
+de los marcianos cada poco tiempo en la parte alta de la pantalla.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p09-starfish-01.png"><img alt="../_images/scratch3-p09-starfish-01.png" src="../_images/scratch3-p09-starfish-01.png" style="width: 230px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Ahora completamos el programa para cada clon.
+Cada clon aparecerá en una posición horizontal aleatoria.
+a continuación el clon se moverá hacia abajo poco a poco
+hasta que llegue abajo o hasta que le toque un rayo laser.
+En ese momento desaparece.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p09-starfish-02.png"><img alt="../_images/scratch3-p09-starfish-02.png" src="../_images/scratch3-p09-starfish-02.png" style="width: 410px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Press the green flag <img alt="bandera-verde" class="align-middle" src="../_images/scratch3-bandera-verde.png" />
+to test the operation of the program.</p>
+<p><br /></p>
+</li>
+</ol>
+<hr class="docutils" />
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Añade una condición para que la nave desaparezca cuando la
+toque un marciano y el juego terminará.</li>
+<li>Cambia los parámetros del programa para ajustar su dificultad
+haciendo que aparezcan más marcianos por segundo y que bajen
+más rápido.</li>
+<li>Añade una función de disparo doble para la nave espacial al
+pulsar la tecla &quot;flecha arriba&quot;</li>
+<li>Inventa otra modificación original para el programa.</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../es/contacto.html">Contacto</a></li>
+    <li><a href="../es/legal-aviso.html">Aviso legal</a></li>
+    <li><a href="../es/legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="../es/legal-atribution.html">Créditos</a></li>
+    </ul>
+    <p class="content-info">
+         Copyright &copy; 2013-2022 por Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez, enero de 2022.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+  <!-- Cookies Advise -->
+  <div id="cookiesbar" style="display: none">
+  Esta página web utiliza cookies propias y de terceros 
+  para propósitos funcionales y de análisis de navegación.
+  Puedes obtener más información en nuestra 
+  <a href="https://www.picuino.com/es/legal-cookies.html" 
+  target="_blank">política de Cookies.</a> <br />
+  Si continúas navegando, aceptas su uso.
+  <br />
+  <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Solo requeridas</a> |
+  <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
+  </div>
+  <script>
+  if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+  function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+  function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+  function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+  function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+  </script>
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+  if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//www.picuino.com/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  }
+  </script>
+  <!-- End Matomo Code -->
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+  <script>
+  if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+    window.dataLayer=window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date()); gtag('config', 'UA-59765999-1');
+  }
+  </script>
+  <!-- End Google Analytics -->
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../es/index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino"/>
+          
+          </a>
+          <br />
+          <a href="../es/index.html">Tecno Recursos</a>
+
+          
+
+          <br />
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../es/dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/electric-index.html">Electricidad y electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/recursos-index.html">Otros recursos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/questionary/">Questionary</a>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

@@ -194,4 +194,4 @@ Cuestionario
 ------------
 Cuestionario de tipo test sobre los materiales plásticos.
 
-`Questionary. Materiales plásticos. <https://www.picuino.com/questionary/es_material_plastics.html>`__
+`Questionary. Materiales plásticos. <https://www.picuino.com/questionary/es-material-plastics.html>`__

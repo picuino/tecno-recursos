@@ -105,6 +105,6 @@ Cuestionarios
 -------------
 Cuestionarios de tipo test sobre la ley de Ohm:
 
-  * `Questionary. Ley de Ohm. Fundamentos. <https://www.picuino.com/questionary/es_electric_ohms_law.html>`__
-  * `Questionary. Ley de Ohm. Cálculos. <https://www.picuino.com/questionary/es_electric_ohms_law_2.html>`__
+  * `Questionary. Ley de Ohm. Fundamentos. <https://www.picuino.com/questionary/es-electric-ohms-law.html>`__
+  * `Questionary. Ley de Ohm. Cálculos. <https://www.picuino.com/questionary/es-electric-ohms-law-2.html>`__
   

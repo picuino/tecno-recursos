@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es-es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. 12. Drawing flowers" />
+
+  
+  <title>12. Drawing flowers - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/en/scratch3-dibujar-flores.html"/>
+
+  
+
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Search within ..."
+            href="../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" /> 
+
+  <script src="../_static/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../es/index.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../es/index.html">Docs</a> &raquo;</li>
+        
+      <li><span class="section-number">12. </span>Drawing flowers</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/en/scratch3-dibujar-flores.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="drawing-flowers">
+<span id="scratch3-en-dibujar-flores"></span><h1><span class="section-number">12. </span>Drawing flowers<a class="headerlink" href="#drawing-flowers" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En esta práctica vamos a programar varios bloques de usuario
+para que dibujen flores en la pantalla al presionar las teclas
+de dirección.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p11-screen.png"><img alt="../_images/scratch3-p11-screen.png" src="../_images/scratch3-p11-screen.png" style="width: 360px;" /></a>
+<p><br /></p>
+<ol class="arabic">
+<li><p class="first">We start the <a href="https://scratch.mit.edu/projects/editor"
+target="_blank">Scratch editor</a>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Click language button <img alt="boton-idioma" class="align-middle" src="../_images/scratch3-boton-idioma.png" />
+upper menu bar and select <strong>English</strong>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Añadimos una nueva extensión con el botón <strong>añadir extensión</strong>
+<img alt="aniadir-extension" class="align-middle" src="../_images/scratch3-aniadir-extension.png" /> abajo a la izquierda.</p>
+<p>Seleccionamos la extensión <strong>Lápiz</strong> para poder dibujar.</p>
+<img alt="../_images/scratch3-extension-lapiz.png" src="../_images/scratch3-extension-lapiz.png" />
+<p>En la barra de código aparecerá un nuevo icono, el Lápiz
+<a class="reference internal" href="../_images/scratch3-boton-lapiz.png"><img alt="boton-lapiz" class="align-middle" src="../_images/scratch3-boton-lapiz.png" style="width: 60px;" /></a>, con instrucciones de color verde oscuro.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Creamos un nuevo bloque llamado <strong>inicio</strong>.</p>
+<p>First we click on the button my blocks  <a class="reference internal" href="../_images/scratch3-boton-misbloques.png"><img alt="boton-misbloques" class="align-middle" src="../_images/scratch3-boton-misbloques.png" style="width: 60px;" /></a></p>
+<p>Then click on create a block <a class="reference internal" href="../_images/scratch3-boton-crear-bloque.png"><img alt="boton-crear-bloque" class="align-middle" src="../_images/scratch3-boton-crear-bloque.png" style="width: 133px;" /></a></p>
+<p>Then we change the name of the new block to <strong>inicio</strong></p>
+<p><br /></p>
+</li>
+<li><p class="first">El bloque <strong>inicio</strong> servirá para iniciar el programa.
+Borrará la pantalla, subirá el lápiz con color cero,
+y colocará al gato en el centro con tamaño pequeño.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p11-inicio.png"><img alt="../_images/scratch3-p11-inicio.png" src="../_images/scratch3-p11-inicio.png" style="width: 286px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Creamos un nuevo bloque llamado <strong>Punto</strong>.</p>
+<p>First we click on the button my blocks <a class="reference internal" href="../_images/scratch3-boton-misbloques.png"><img alt="boton-misbloques" class="align-middle" src="../_images/scratch3-boton-misbloques.png" style="width: 60px;" /></a></p>
+<p>Then click on Make a block <a class="reference internal" href="../_images/scratch3-boton-crear-bloque.png"><img alt="boton-crear-bloque" class="align-middle" src="../_images/scratch3-boton-crear-bloque.png" style="width: 133px;" /></a></p>
+<p>Then we change the name of the new block to <strong>Punto</strong></p>
+<p>Click on <strong>Add an input number or text</strong> and give it
+name <strong>Radio</strong></p>
+<img alt="../_images/scratch3-p11-crear-bloque-punto.png" src="../_images/scratch3-p11-crear-bloque-punto.png" />
+<p>Finally press the button <strong>Ok</strong></p>
+<p><br /></p>
+</li>
+<li><p class="first">El bloque <strong>Punto</strong> servirá para
+dibujar un punto en la pantalla con un tamaño que depende del
+parámetro Radio.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p11-punto.png"><img alt="../_images/scratch3-p11-punto.png" src="../_images/scratch3-p11-punto.png" style="width: 279px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Creamos un nuevo bloque llamado <strong>Flor</strong>.</p>
+<p>First we click on the button my blocks <a class="reference internal" href="../_images/scratch3-boton-misbloques.png"><img alt="boton-misbloques" class="align-middle" src="../_images/scratch3-boton-misbloques.png" style="width: 60px;" /></a></p>
+<p>Then click on Make a block <a class="reference internal" href="../_images/scratch3-boton-crear-bloque.png"><img alt="boton-crear-bloque" class="align-middle" src="../_images/scratch3-boton-crear-bloque.png" style="width: 133px;" /></a></p>
+<p>Then we change the name of the new block to <strong>Flor</strong></p>
+<p>Click on <strong>Add an input number or text</strong> and give it
+name <strong>Radio</strong></p>
+<p><br /></p>
+</li>
+<li><p class="first">El bloque <strong>Flor</strong> servirá para
+dibujar 12 puntos en círculo, alrededor del gato, con un tamaño
+que depende del parámetro Radio.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p11-flor.png"><img alt="../_images/scratch3-p11-flor.png" src="../_images/scratch3-p11-flor.png" style="width: 336px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Ahora programamos un pequeño código para probar el bloque
+flor.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p11-upkey.png"><img alt="../_images/scratch3-p11-upkey.png" src="../_images/scratch3-p11-upkey.png" style="width: 262px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Press the green flag <img alt="bandera-verde" class="align-middle" src="../_images/scratch3-bandera-verde.png" />
+to test the operation of the program.</p>
+<p>Al pulsar la tecla de <strong>Flecha arriba</strong> en el teclado, el gato
+dibujará una flor de círculos de colores en la pantalla.</p>
+<p><br /></p>
+</li>
+<li><p class="first">A continuación realizamos un programa para dibujar una flor
+compuesta de varios círculos de puntos.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p11-downkey.png"><img alt="../_images/scratch3-p11-downkey.png" src="../_images/scratch3-p11-downkey.png" style="width: 260px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Press the green flag <img alt="bandera-verde" class="align-middle" src="../_images/scratch3-bandera-verde.png" />
+to test the operation of the program.</p>
+<p>Al pulsar la tecla de <strong>Flecha abajo</strong> en el teclado, el gato
+dibujará una flor de varios círculos de colores en la pantalla.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Para terminar realizamos un programa para dibujar flores en
+varios lugares de la pantalla.</p>
+<p>Para definir los números de la instrucción <strong>ir a x y</strong> podemos
+mover al gato allí donde queremos que aparezca la flor.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p11-rightkey.png"><img alt="../_images/scratch3-p11-rightkey.png" src="../_images/scratch3-p11-rightkey.png" style="width: 276px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Press the green flag <img alt="bandera-verde" class="align-middle" src="../_images/scratch3-bandera-verde.png" />
+to test the operation of the program.</p>
+<p>Al pulsar la tecla de <strong>Flecha derecha</strong> en el teclado,
+el gato dibujará cuatro flores en cuatro posiciones
+distintas de la pantalla.</p>
+<img alt="../_images/scratch3-p11-screen.png" src="../_images/scratch3-p11-screen.png" />
+<p><br /></p>
+</li>
+</ol>
+<hr class="docutils" />
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Modifica el programa para que la función flor no cambie el
+color de los puntos y todos tengan el mismo color.
+Dibuja una flor compuesta por un anillo de puntos grandes rojos
+en la parte exterior y un anillo pequeño de puntos verdes en la
+parte interior.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Realiza un programa que dibuje cinco flores situadas
+como en el logotipo de los juegos olímpicos.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p11-olympic-flag.png"><img alt="../_images/scratch3-p11-olympic-flag.png" src="../_images/scratch3-p11-olympic-flag.png" style="width: 360px;" /></a>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../es/contacto.html">Contacto</a></li>
+    <li><a href="../es/legal-aviso.html">Aviso legal</a></li>
+    <li><a href="../es/legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="../es/legal-atribution.html">Créditos</a></li>
+    </ul>
+    <p class="content-info">
+         Copyright &copy; 2013-2022 por Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez, enero de 2022.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+  <!-- Cookies Advise -->
+  <div id="cookiesbar" style="display: none">
+  Esta página web utiliza cookies propias y de terceros 
+  para propósitos funcionales y de análisis de navegación.
+  Puedes obtener más información en nuestra 
+  <a href="https://www.picuino.com/es/legal-cookies.html" 
+  target="_blank">política de Cookies.</a> <br />
+  Si continúas navegando, aceptas su uso.
+  <br />
+  <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Solo requeridas</a> |
+  <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
+  </div>
+  <script>
+  if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+  function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+  function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+  function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+  function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+  </script>
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+  if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//www.picuino.com/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  }
+  </script>
+  <!-- End Matomo Code -->
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+  <script>
+  if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+    window.dataLayer=window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date()); gtag('config', 'UA-59765999-1');
+  }
+  </script>
+  <!-- End Google Analytics -->
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../es/index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino"/>
+          
+          </a>
+          <br />
+          <a href="../es/index.html">Tecno Recursos</a>
+
+          
+
+          <br />
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../es/dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/electric-index.html">Electricidad y electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/recursos-index.html">Otros recursos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/questionary/">Questionary</a>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

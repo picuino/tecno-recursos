@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es-es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. 3. Playing football" />
+
+  
+  <title>3. Playing football - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/en/scratch3-jugar-futbol.html"/>
+
+  
+
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Search within ..."
+            href="../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" /> 
+
+  <script src="../_static/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../es/index.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../es/index.html">Docs</a> &raquo;</li>
+        
+      <li><span class="section-number">3. </span>Playing football</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/en/scratch3-jugar-futbol.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="playing-football">
+<span id="scratch3-en-jugar-futbol"></span><h1><span class="section-number">3. </span>Playing football<a class="headerlink" href="#playing-football" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En esta práctica vamos a programar a dos personajes que
+jugarán al fútbol pasándose un balón de uno a otro.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p02-futbol.png"><img alt="../_images/scratch3-p02-futbol.png" src="../_images/scratch3-p02-futbol.png" style="width: 360px;" /></a>
+<p><br /></p>
+<ol class="arabic">
+<li><p class="first">We start the <a href="https://scratch.mit.edu/projects/editor"
+target="_blank">Scratch editor</a>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Click language button <img alt="boton-idioma" class="align-middle" src="../_images/scratch3-boton-idioma.png" />
+upper menu bar and select <strong>English</strong>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Pulsamos el botón de tutoriales <img alt="boton-tutoriales" class="align-middle" src="../_images/scratch3-boton-tutoriales.png" /> y
+luego el botón de animación <img alt="boton-animacion" class="align-middle" src="../_images/scratch3-boton-animacion.png" />.</p>
+<p>Seleccionamos el tutorial &quot;Deslizarse&quot; y lo visualizamos.</p>
+<p>Después seleccionamos el tutorial &quot;Animar un objeto&quot; y lo
+visualizamos.</p>
+<p>En estos dos tutoriales veremos el funcionamiento básico
+del programa.
+Una vez terminados los tutoriales vamos a crear un programa
+en el que dos personajes dan patadas a un balón que se
+desplaza por la pantalla.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Delete the cat sprite by pressing on the icon of the
+trash can.</p>
+<p><img alt="borrar-gato" class="align-middle" src="../_images/scratch3-borrar-gato.png" /></p>
+<p><br /></p>
+</li>
+<li><p class="first">Ahora escogemos un fondo adecuado para nuestro juego.
+Cambiamos el fondo de escenario a un <strong>campo de futbol</strong>.</p>
+<p>Press the button choose a backdrop <img alt="seleccionar-fondo" class="align-middle" src="../_images/scratch3-seleccionar-fondo.png" />.</p>
+<p>Search in the topic <strong>Exteriores</strong>.</p>
+<p>and select the backdrop <strong>Playing Field</strong>.</p>
+<img alt="../_images/scratch3-fondo-playingfield.png" src="../_images/scratch3-fondo-playingfield.png" />
+<p><br /></p>
+</li>
+<li><p class="first">A continuación añadimos un nuevo personaje, un <strong>niño</strong>.</p>
+<p>Press the button choose an object <img alt="seleccionar-objeto" class="align-middle" src="../_images/scratch3-seleccionar-objeto.png" />.</p>
+<p>Search in the topic <strong>Gente</strong>.</p>
+<p>and select the object <strong>Ben</strong>.</p>
+<img alt="../_images/scratch3-objeto-ben.png" src="../_images/scratch3-objeto-ben.png" />
+<p><br /></p>
+</li>
+<li><p class="first">Vamos a programar la posición inicial del niño.
+Movemos al niño a la posición deseada y en el
+botón movimiento <a class="reference internal" href="../_images/scratch3-boton-movimiento.png"><img alt="boton-movimiento" class="align-middle" src="../_images/scratch3-boton-movimiento.png" style="width: 60px;" /></a> elegimos la instrucción
+<img alt="instruccion-iraxy" class="align-middle" src="../_images/scratch3-instruccion-iraxy.png" />.</p>
+<p>En el botón apariencia <a class="reference internal" href="../_images/scratch3-boton-apariencia.png"><img alt="boton-apariencia" class="align-middle" src="../_images/scratch3-boton-apariencia.png" style="width: 60px;" /></a> elegimos el disfraz
+inicial del niño.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p02-ben-inicio.png"><img alt="../_images/scratch3-p02-ben-inicio.png" src="../_images/scratch3-p02-ben-inicio.png" style="width: 242px;" /></a>
+</li>
+<li><p class="first">Añadimos un nuevo personaje, una <strong>niña</strong>.</p>
+<p>Press the button choose an object <img alt="seleccionar-objeto" class="align-middle" src="../_images/scratch3-seleccionar-objeto.png" />.</p>
+<p>Search in the topic <strong>Gente</strong>.</p>
+<p>and select the object <strong>Jordyn</strong>.</p>
+<img alt="../_images/scratch3-objeto-jordyn.png" src="../_images/scratch3-objeto-jordyn.png" />
+<p><br /></p>
+</li>
+<li><p class="first">Vamos a programar la posición inicial de la niña.
+Movemos a la niña a la posición deseada y en el
+botón movimiento <a class="reference internal" href="../_images/scratch3-boton-movimiento.png"><img alt="boton-movimiento" class="align-middle" src="../_images/scratch3-boton-movimiento.png" style="width: 60px;" /></a> elegimos la instrucción
+<img alt="instruccion-iraxy" class="align-middle" src="../_images/scratch3-instruccion-iraxy.png" />.</p>
+<p>En el botón apariencia <a class="reference internal" href="../_images/scratch3-boton-apariencia.png"><img alt="boton-apariencia" class="align-middle" src="../_images/scratch3-boton-apariencia.png" style="width: 60px;" /></a> elegimos el disfraz
+inicial de la niña.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p02-jordyn-inicio.png"><img alt="../_images/scratch3-p02-jordyn-inicio.png" src="../_images/scratch3-p02-jordyn-inicio.png" style="width: 266px;" /></a>
+<p>Por último, dentro del objeto Jordyn, pulsamos en la opción
+de dirección y fijamos el giro a -90 grados y de izquierda a
+derecha pulsando en las dos flechas enfrentadas.
+De esta manera la niña no quedará boca arriba al girar en
+sentido contrario.</p>
+<img alt="../_images/scratch3-direccion-derecha-izquierda.png" src="../_images/scratch3-direccion-derecha-izquierda.png" />
+<p><br /></p>
+</li>
+<li><p class="first">Añadimos un nuevo personaje, un <strong>balón de futbol</strong>.</p>
+<p>Press the button choose an object <img alt="seleccionar-objeto" class="align-middle" src="../_images/scratch3-seleccionar-objeto.png" />.</p>
+<p>Search in the topic <strong>Deportes</strong>.</p>
+<p>and select the object <strong>Soccer Ball</strong>.</p>
+<img alt="../_images/scratch3-objeto-soccerball.png" src="../_images/scratch3-objeto-soccerball.png" />
+<p><br /></p>
+</li>
+<li><p class="first">Programamos el movimiento del balón con dos deslizamientos
+a la izquierda y dos deslizamientos a la derecha, siguiendo
+las instrucciones del tutorial.
+Los dos movimientos a cada lado se utilizan para que parezca
+que el balón sube y baja de un lado a otro.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p02-pelota-desliza.png"><img alt="../_images/scratch3-p02-pelota-desliza.png" src="../_images/scratch3-p02-pelota-desliza.png" style="width: 354px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Press the green flag <img alt="bandera-verde" class="align-middle" src="../_images/scratch3-bandera-verde.png" />
+to test the operation of the program.</p>
+<p>El balón debe moverse a un lado y a otro entre las piernas
+de los dos personajes.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Ahora vamos a coordinar a todos los objetos mediante mensajes
+para que los niños golpeen el balón cuando les llegue a los pies.</p>
+<p>Primero modificamos el código del balón para que envíe mensajes
+al llegar a cada uno de los extremos.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p02-pelota-desliza-juega.png"><img alt="../_images/scratch3-p02-pelota-desliza-juega.png" src="../_images/scratch3-p02-pelota-desliza-juega.png" style="width: 355px;" /></a>
+<p>El <strong>mensaje2</strong> se consigue pulsando en nuevo mensaje
+para crearlo.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-nuevo-mensaje.png"><img alt="../_images/scratch3-nuevo-mensaje.png" src="../_images/scratch3-nuevo-mensaje.png" style="width: 263px;" /></a>
+<img alt="../_images/scratch3-nuevo-mensaje2.png" src="../_images/scratch3-nuevo-mensaje2.png" />
+<p><br /></p>
+</li>
+<li><p class="first">Seleccionamos al <strong>objeto Ben</strong> para añadir el siguiente programa.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p02-ben-juega.png"><img alt="../_images/scratch3-p02-ben-juega.png" src="../_images/scratch3-p02-ben-juega.png" style="width: 427px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Seleccionamos al <strong>objeto Jordyn</strong> para añadir el siguiente programa.</p>
+<a class="reference internal image-reference" href="../_images/scratch3-p02-jordyn-juega.png"><img alt="../_images/scratch3-p02-jordyn-juega.png" src="../_images/scratch3-p02-jordyn-juega.png" style="width: 422px;" /></a>
+<p><br /></p>
+</li>
+<li><p class="first">Press the green flag <img alt="bandera-verde" class="align-middle" src="../_images/scratch3-bandera-verde.png" />
+to test the operation of the program.</p>
+</li>
+</ol>
+<hr class="docutils" />
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Modifica el programa para que los personajes estén situados
+en otro lugar distinto de la pantalla.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Crea un programa para que un personaje se mueva dando vueltas
+por el campo para entrenar y pasando por cuatro esquinas.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Modifica el programa y el fondo para que un solo jugador
+juegue al frontón con una pelota.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../es/contacto.html">Contacto</a></li>
+    <li><a href="../es/legal-aviso.html">Aviso legal</a></li>
+    <li><a href="../es/legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="../es/legal-atribution.html">Créditos</a></li>
+    </ul>
+    <p class="content-info">
+         Copyright &copy; 2013-2022 por Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez, enero de 2022.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+  <!-- Cookies Advise -->
+  <div id="cookiesbar" style="display: none">
+  Esta página web utiliza cookies propias y de terceros 
+  para propósitos funcionales y de análisis de navegación.
+  Puedes obtener más información en nuestra 
+  <a href="https://www.picuino.com/es/legal-cookies.html" 
+  target="_blank">política de Cookies.</a> <br />
+  Si continúas navegando, aceptas su uso.
+  <br />
+  <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Solo requeridas</a> |
+  <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
+  </div>
+  <script>
+  if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+  function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+  function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+  function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+  function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+  </script>
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+  if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//www.picuino.com/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  }
+  </script>
+  <!-- End Matomo Code -->
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+  <script>
+  if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+    window.dataLayer=window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date()); gtag('config', 'UA-59765999-1');
+  }
+  </script>
+  <!-- End Google Analytics -->
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../es/index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino"/>
+          
+          </a>
+          <br />
+          <a href="../es/index.html">Tecno Recursos</a>
+
+          
+
+          <br />
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../es/dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/electric-index.html">Electricidad y electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../es/recursos-index.html">Otros recursos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/questionary/">Questionary</a>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+  
+
+  <script src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

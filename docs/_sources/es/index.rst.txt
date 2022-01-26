@@ -23,6 +23,9 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    taller-index.rst
    
    recursos-index.rst
+   
+..   ../en/index.rst
+
 
 * `Página inicial <https://www.picuino.com/>`_
 * `Questionary <https://www.picuino.com/questionary>`_

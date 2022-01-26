@@ -34,7 +34,8 @@ origen animal, vegetal o plásticos.
 
 Textiles
 --------
-Son láminas formadas por hilos unidos de diversas maneras o por piel animal.
+Son láminas formadas por hilos unidos de diversas maneras o 
+formadas por piel animal.
 
 **Fieltro**
    Está formado por fibras unidas mediante vapor y presión, sin tejer, 

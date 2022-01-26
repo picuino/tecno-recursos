@@ -8,49 +8,49 @@ Cuestionarios de electricidad (Questionary)
 -------------------------------------------
 
 `Introducción a la electricidad.
-<../questionary/es_electric_introduction.html>`__
+<../questionary/es-electric-introduction.html>`__
 
 `Identificar el tipo de componente eléctrico por su símbolo.
-<../questionary/es_electric_components_type.html>`__
+<../questionary/es-electric-components-type.html>`__
 
 `Nombrar símbolos de componentes.
-<../questionary/es_electric_components_name.html>`__
+<../questionary/es-electric-components-name.html>`__
 
 `Identificar circuitos en serie y en paralelo.
-<../questionary/es_electric_series_parallel_identify.html>`__
+<../questionary/es-electric-series-parallel-identify.html>`__
 
 `Código de colores de resistencias. Identificar colores.
-<../questionary/es_electric_color_code_1.html>`__
+<../questionary/es-electric-color-code-1.html>`__
 
 `Código de colores de resistencias. Calcular colores.
-<../questionary/es_electric_color_code_2.html>`__
+<../questionary/es-electric-color-code-2.html>`__
 
 `Cambio de unidades.
-<../questionary/es_electric_units_change.html>`__
+<../questionary/es-electric-units-change.html>`__
 
 `Unidades y magnitudes eléctricas.
-<../questionary/es_electric_units_magnitudes.html>`__
+<../questionary/es-electric-units-magnitudes.html>`__
 
 `Ley de Ohm.
-<../questionary/es_electric_ohms_law.html>`__
+<../questionary/es-electric-ohms-law.html>`__
 
 `Calcular resistencias en serie y paralelo.
-<../questionary/es_electric_series_parallel_calc.html>`__
+<../questionary/es-electric-series-parallel-calc.html>`__
 
 `Potencia eléctrica.
-<../questionary/es_electric_power.html>`__
+<../questionary/es-electric-power.html>`__
 
 `Energía eléctrica.
-<../questionary/es_electric_energy.html>`__
+<../questionary/es-electric-energy.html>`__
 
 `Circuitos eléctricos.
-<../questionary/es_electric_circuits.html>`__
+<../questionary/es-electric-circuits.html>`__
 
 `Placa de prototipos.
-<../questionary/es_electric_breadboard.html>`__
+<../questionary/es-electric-breadboard.html>`__
 
 `Electrónica Digital.
-<../questionary/es_electric_digital.html>`__
+<../questionary/es-electric-digital.html>`__
 
 
 Fritzing

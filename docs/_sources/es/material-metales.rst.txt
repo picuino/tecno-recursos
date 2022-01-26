@@ -334,4 +334,4 @@ Cuestionario
 ------------
 Cuestionario de tipo test sobre los materiales metálicos.
 
-`Questionary. Materiales metálicos. <https://www.picuino.com/questionary/es_material_metals.html>`__
+`Questionary. Materiales metálicos. <https://www.picuino.com/questionary/es-material-metals.html>`__

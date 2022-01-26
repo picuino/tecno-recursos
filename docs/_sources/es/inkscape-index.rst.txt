@@ -37,7 +37,8 @@ con el programa Inkscape.
    inkscape-logo-18.rst
    inkscape-logo-19.rst
    inkscape-logo-20.rst
-   inkscape-logo-21.rst
+
+.. inkscape-logo-21.rst
    inkscape-logo-22.rst
    inkscape-logo-23.rst
    inkscape-logo-24.rst
