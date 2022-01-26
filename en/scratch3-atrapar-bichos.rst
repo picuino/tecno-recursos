@@ -25,8 +25,8 @@ de ello.
 
    |br|
 
-#. Borramos el objeto gato presionando sobre el icono del
-   cubo de basura.
+#. Delete the cat sprite by pressing on the icon of the
+   trash can.
 
    |borrar-gato|
 
@@ -35,11 +35,11 @@ de ello.
 #. Ahora escogemos un fondo adecuado para nuestro juego.
    Cambiamos el fondo de escenario a una pared de una **calle**.
 
-   Pulsamos el botón elige un fondo |seleccionar-fondo|.
+   Press the button choose a backdrop |seleccionar-fondo|.
 
-   Buscamos en la sección **Exteriores**.
+   Search in the topic **Exteriores**.
 
-   y seleccionamos el fondo **Wall 1**.
+   and select the backdrop **Wall 1**.
 
    .. image:: scratch3/_images/scratch3-fondo-wall1.png
 
@@ -47,11 +47,11 @@ de ello.
    
 #. A continuación añadimos un nuevo personaje, un **escarabajo**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Animales**.
+   Search in the topic **Animales**.
 
-   y seleccionamos el objeto **Ladybug2**.
+   and select the object **Ladybug2**.
 
    .. image:: scratch3/_images/scratch3-objeto-ladybug2.png
 
@@ -61,16 +61,16 @@ de ello.
    número de escarabajos que hay en la pantalla.
    Cuando esta variable valga cero, el programa terminará.
 
-   Pulsamos el botón de variables |boton-variables|,
+   Press the variables button |boton-variables|,
 
-   pulsamos en crear una variable  |boton-crear-variable|.
+   click on create a variable  |boton-crear-variable|.
 
-   Cambiamos el nombre de la variable a **clones**
+   Change the name of the variable to **clones**
 
    .. image:: scratch3/_images/scratch3-crear-variable-clones.png
    
 
-   Por último pulsamos el botón **Aceptar**
+   Finally press the button **Ok**
 
    |br|
 
@@ -100,8 +100,8 @@ de ello.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    Deben aparecer diez escarabajos en la pantalla.
    Los escarabajos deben desaparecer cuando el puntero del ratón
@@ -123,11 +123,11 @@ de ello.
 #. Por último vamos a programar un personaje que avise del final
    del juego. En este caso escogemos a Cassy bailando.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Gente**.
+   Search in the topic **Gente**.
 
-   y seleccionamos el objeto **Cassy Dance**.
+   and select the object **Cassy Dance**.
 
    .. image:: scratch3/_images/scratch3-objeto-cassy.png
 
@@ -143,8 +143,8 @@ de ello.
       :width: 353px
 
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    Ahora, al finalizar el programa, aparecerá Cassy bailando
    para felicitarnos por haber ganado.

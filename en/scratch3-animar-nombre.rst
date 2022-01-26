@@ -32,8 +32,8 @@ pase sobre cada letra, esta mostrará un efecto especial.
 
    |br|
 
-#. Borramos el objeto gato presionando sobre el icono del
-   cubo de basura.
+#. Delete the cat sprite by pressing on the icon of the
+   trash can.
 
    |borrar-gato|
 
@@ -71,8 +71,8 @@ pase sobre cada letra, esta mostrará un efecto especial.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
@@ -88,8 +88,8 @@ pase sobre cada letra, esta mostrará un efecto especial.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
@@ -109,8 +109,8 @@ pase sobre cada letra, esta mostrará un efecto especial.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
@@ -132,8 +132,8 @@ pase sobre cada letra, esta mostrará un efecto especial.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
 
 -----

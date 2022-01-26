@@ -26,11 +26,11 @@ pantalla para que dibuje varias espirales con colores.
 #. Añadimos una nueva variable **Lado** que guardará
    el tamaño del lado que se está dibujando en este momento.
 
-   Pulsamos el botón de variables |boton-variables|,
+   Press the variables button |boton-variables|,
 
-   pulsamos en crear una variable  |boton-crear-variable|.
+   click on create a variable  |boton-crear-variable|.
 
-   Cambiamos el nombre de la variable a **Lado**
+   Change the name of the variable to **Lado**
 
    |br|
 
@@ -48,11 +48,11 @@ pantalla para que dibuje varias espirales con colores.
 
 #. Creamos un nuevo bloque llamado **inicio**.
 
-   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+   First we click on the button my blocks  |boton-misbloques|
 
-   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+   Then click on create a block |boton-crear-bloque|
 
-   Luego cambiamos el nombre del nuevo bloque a **inicio**
+   Then we change the name of the new block to **inicio**
 
    |br|
 
@@ -68,11 +68,11 @@ pantalla para que dibuje varias espirales con colores.
 
 #. Creamos un nuevo bloque llamado **cuadrado**.
 
-   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+   First we click on the button my blocks  |boton-misbloques|
 
-   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+   Then click on create a block |boton-crear-bloque|
 
-   Luego cambiamos el nombre del nuevo bloque a **cuadrado**
+   Then we change the name of the new block to **cuadrado**
 
    |br|
 
@@ -100,11 +100,11 @@ pantalla para que dibuje varias espirales con colores.
 
 #. Ahora vamos a crear un nuevo bloque llamado **triangulo**.
 
-   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+   First we click on the button my blocks  |boton-misbloques|
 
-   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+   Then click on create a block |boton-crear-bloque|
 
-   Luego cambiamos el nombre del nuevo bloque a **triangulo**
+   Then we change the name of the new block to **triangulo**
 
    |br|
 

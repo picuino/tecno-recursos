@@ -31,8 +31,8 @@ a recorrer su casa y su barrio para mostrarnos cómo son.
 
    |br|
 
-#. Borramos el objeto gato presionando sobre el icono del
-   cubo de basura.
+#. Delete the cat sprite by pressing on the icon of the
+   trash can.
 
    |borrar-gato|
 
@@ -86,12 +86,12 @@ a recorrer su casa y su barrio para mostrarnos cómo son.
    Ahora completamos el programa:
 
    .. image:: scratch3/_images/scratch3-p03-mostrar-dormitorio.png
-      :width: 389px
+      :width: 347px
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
@@ -101,12 +101,12 @@ a recorrer su casa y su barrio para mostrarnos cómo son.
    el dormitorio.
 
    .. image:: scratch3/_images/scratch3-p03-mostrar-jardin.png
-      :width: 356px
+      :width: 347px
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
 
 -----
@@ -134,7 +134,7 @@ Ejercicios
    instrucciones para que aparezca en el escenario correcto.
 
    .. image:: scratch3/_images/scratch3-p03-nuevo-personaje.png
-      :width: 201px
+      :width: 242px
 
    |br|
 

@@ -25,8 +25,8 @@ parte superior de la pantalla.
 
    |br|
 
-#. Borramos el objeto gato presionando sobre el icono del
-   cubo de basura.
+#. Delete the cat sprite by pressing on the icon of the
+   trash can.
 
    |borrar-gato|
 
@@ -35,11 +35,11 @@ parte superior de la pantalla.
 #. Ahora escogemos un fondo adecuado para nuestro juego.
    Cambiamos el fondo de escenario por un **cielo con estrellas**.
 
-   Pulsamos el botón elige un fondo |seleccionar-fondo|.
+   Press the button choose a backdrop |seleccionar-fondo|.
 
-   Buscamos en la sección **Espacio**.
+   Search in the topic **Espacio**.
 
-   y seleccionamos el fondo **Stars**.
+   and select the backdrop **Stars**.
 
    .. image:: scratch3/_images/scratch3-fondo-stars.png
 
@@ -47,11 +47,11 @@ parte superior de la pantalla.
 
 #. Añadimos un nuevo personaje, una **nave espacial**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Todos**.
+   Search in the topic **Todos**.
 
-   y seleccionamos el objeto **Rocketship**.
+   and select the object **Rocketship**.
 
    .. image:: scratch3/_images/scratch3-objeto-rocketship.png
 
@@ -60,11 +60,11 @@ parte superior de la pantalla.
 #. Añadimos una nueva variable **x** que guardará la posición de
    la nave espacial.
 
-   Pulsamos el botón de variables |boton-variables|,
+   Press the variables button |boton-variables|,
 
-   pulsamos en crear una variable  |boton-crear-variable|.
+   click on create a variable  |boton-crear-variable|.
 
-   Cambiamos el nombre de la variable a **x**
+   Change the name of the variable to **x**
 
    |br|
 
@@ -75,19 +75,19 @@ parte superior de la pantalla.
    .. image:: scratch3/_images/scratch3-p09-rocket-01.png
       :width: 446px
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
 #. Ahora añadimos un nuevo objeto, un **botón** que hará de
    **rayo laser** azul.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Todos**.
+   Search in the topic **Todos**.
 
-   y seleccionamos el objeto **Button2**.
+   and select the object **Button2**.
 
    .. image:: scratch3/_images/scratch3-objeto-button2.png
 
@@ -110,19 +110,19 @@ parte superior de la pantalla.
       :width: 326px
 
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
 
 #. Añadimos un nuevo objeto, un **marciano**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Animales**.
+   Search in the topic **Animales**.
 
-   y seleccionamos el objeto **Starfish**.
+   and select the object **Starfish**.
 
    .. image:: scratch3/_images/scratch3-objeto-starfish.png
 
@@ -148,8 +148,8 @@ parte superior de la pantalla.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 

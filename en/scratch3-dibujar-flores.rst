@@ -38,11 +38,11 @@ de dirección.
 
 #. Creamos un nuevo bloque llamado **inicio**.
 
-   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+   First we click on the button my blocks  |boton-misbloques|
 
-   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+   Then click on create a block |boton-crear-bloque|
 
-   Luego cambiamos el nombre del nuevo bloque a **inicio**
+   Then we change the name of the new block to **inicio**
 
    |br|
 
@@ -57,18 +57,18 @@ de dirección.
 
 #. Creamos un nuevo bloque llamado **Punto**.
 
-   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+   First we click on the button my blocks |boton-misbloques|
 
-   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+   Then click on Make a block |boton-crear-bloque|
 
-   Luego cambiamos el nombre del nuevo bloque a **Punto**
+   Then we change the name of the new block to **Punto**
 
-   Pulsamos en **Añadir una entrada número o texto** y le damos
-   el nombre **Radio**
+   Click on **Add an input number or text** and give it
+   name **Radio**
 
    .. image:: scratch3/_images/scratch3-p11-crear-bloque-punto.png
 
-   Por último pulsamos el botón **Aceptar**
+   Finally press the button **Ok**
 
    |br|
 
@@ -83,14 +83,14 @@ de dirección.
 
 #. Creamos un nuevo bloque llamado **Flor**.
 
-   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+   First we click on the button my blocks |boton-misbloques|
 
-   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+   Then click on Make a block |boton-crear-bloque|
 
-   Luego cambiamos el nombre del nuevo bloque a **Flor**
+   Then we change the name of the new block to **Flor**
 
-   Pulsamos en **Añadir una entrada número o texto** y le damos
-   el nombre **Radio**
+   Click on **Add an input number or text** and give it
+   name **Radio**
 
    |br|
 
@@ -111,8 +111,8 @@ de dirección.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    Al pulsar la tecla de **Flecha arriba** en el teclado, el gato
    dibujará una flor de círculos de colores en la pantalla.
@@ -127,8 +127,8 @@ de dirección.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    Al pulsar la tecla de **Flecha abajo** en el teclado, el gato
    dibujará una flor de varios círculos de colores en la pantalla.
@@ -146,8 +146,8 @@ de dirección.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    Al pulsar la tecla de **Flecha derecha** en el teclado, 
    el gato dibujará cuatro flores en cuatro posiciones 

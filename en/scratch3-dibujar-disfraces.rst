@@ -55,8 +55,8 @@ In this exercise we are going to program a game.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    Al pulsar la bandera toda la pantalla se borra y al mover el 
    ratón, el gato se moverá por la pantalla.
@@ -76,8 +76,8 @@ In this exercise we are going to program a game.
    
    |br|
    
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    Ahora al pulsar las teclas de flechas el disfraz aumenta 
    y disminuye de tamaño y gira de derecha a izquierda.

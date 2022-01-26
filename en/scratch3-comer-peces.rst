@@ -33,8 +33,8 @@ en perseguir peces con un pingüino para que se los coma.
 
    |br|
 
-#. Borramos el objeto gato presionando sobre el icono del
-   cubo de basura.
+#. Delete the cat sprite by pressing on the icon of the
+   trash can.
 
    |borrar-gato|
 
@@ -62,8 +62,8 @@ en perseguir peces con un pingüino para que se los coma.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
@@ -101,8 +101,8 @@ en perseguir peces con un pingüino para que se los coma.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
 #. Como podemos comprobar, el pingüino puede perseguir al pez
    pero todavía no se lo puede comer. Para que pueda comerse
@@ -122,8 +122,8 @@ en perseguir peces con un pingüino para que se los coma.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
 
 -----

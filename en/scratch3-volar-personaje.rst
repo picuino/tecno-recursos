@@ -33,8 +33,8 @@ sobre un escenario de edificios que se mueven en el fondo.
 
    |br|
 
-#. Borramos el objeto gato presionando sobre el icono del
-   cubo de basura.
+#. Delete the cat sprite by pressing on the icon of the
+   trash can.
 
    |borrar-gato|
 
@@ -42,11 +42,11 @@ sobre un escenario de edificios que se mueven en el fondo.
 
 #. Añadimos un nuevo personaje, un **gato volador**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Animales**.
+   Search in the topic **Animales**.
 
-   y seleccionamos el objeto **Cat Flying**.
+   and select the object **Cat Flying**.
 
    .. image:: scratch3/_images/scratch3-objeto-catflying.png
 
@@ -78,8 +78,8 @@ sobre un escenario de edificios que se mueven en el fondo.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    El gato se moverá arriba y abajo con las teclas
    de flecha arriba y flecha abajo.
@@ -89,11 +89,11 @@ sobre un escenario de edificios que se mueven en el fondo.
 
 #. Ahora Añadimos un nuevo personaje, un **edificio**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Todos**.
+   Search in the topic **Todos**.
 
-   y seleccionamos el objeto **Buildings**.
+   and select the object **Buildings**.
 
    .. image:: scratch3/_images/scratch3-objeto-buildings.png
 
@@ -118,8 +118,8 @@ sobre un escenario de edificios que se mueven en el fondo.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
@@ -147,8 +147,8 @@ sobre un escenario de edificios que se mueven en el fondo.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
 
 -----

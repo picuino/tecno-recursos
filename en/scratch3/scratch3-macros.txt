@@ -3,14 +3,14 @@
 
 
 {%- macro fondo(objeto, section='', image='') -%}
-   Pulsamos el botón elige un fondo |seleccionar-fondo|.
+   Press the button choose a backdrop |seleccionar-fondo|.
 
    {%- if section %}
 
-   Buscamos en la sección **{{ section }}**.
+   Search in the topic **{{ section }}**.
    {%- endif %}
 
-   y seleccionamos el fondo **{{ objeto }}**.
+   and select the backdrop **{{ objeto }}**.
 
    {%- if image %}
 
@@ -20,14 +20,14 @@
 
 
 {%- macro objeto(objeto, section='', image='') -%}
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
    {%- if section %}
 
-   Buscamos en la sección **{{ section }}**.
+   Search in the topic **{{ section }}**.
    {%- endif %}
 
-   y seleccionamos el objeto **{{ objeto }}**.
+   and select the object **{{ objeto }}**.
 
    {%- if image %}
 
@@ -43,11 +43,11 @@
 
 
 {%- macro variable(nombre, image='', ok=True) -%}
-   Pulsamos el botón de variables |boton-variables|,
+   Press the variables button |boton-variables|,
 
-   pulsamos en crear una variable  |boton-crear-variable|.
+   click on create a variable  |boton-crear-variable|.
 
-   Cambiamos el nombre de la variable a **{{ nombre }}**
+   Change the name of the variable to **{{ nombre }}**
 
    {%- if image %}
 
@@ -56,17 +56,17 @@
 
    {%- if image and ok == True %}
 
-   Por último pulsamos el botón **Aceptar**
+   Finally press the button **Ok**
    {%- endif %}
 {%- endmacro %}
 
 
 {%- macro function(name, image='', ok=True) -%}
-   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+   First we click on the button my blocks  |boton-misbloques|
 
-   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+   Then click on create a block |boton-crear-bloque|
 
-   Luego cambiamos el nombre del nuevo bloque a **{{ name }}**
+   Then we change the name of the new block to **{{ name }}**
 
    {%- if image %}
 
@@ -75,21 +75,21 @@
 
    {%- if image and ok == True %}
 
-   Por último pulsamos el botón **Aceptar**
+   Finally press the button **Ok**
    {%- endif %}
 {%- endmacro %}
 
 
 {%- macro function_parameter(name, parameter, image='', ok=True) -%}
 
-   Primero pulsamos en el botón mis bloques  |boton-misbloques|
+   First we click on the button my blocks |boton-misbloques|
 
-   A continuación pulsamos en crear un bloque |boton-crear-bloque|
+   Then click on Make a block |boton-crear-bloque|
 
-   Luego cambiamos el nombre del nuevo bloque a **{{ name }}**
+   Then we change the name of the new block to **{{ name }}**
 
-   Pulsamos en **Añadir una entrada número o texto** y le damos
-   el nombre **{{ parameter }}**
+   Click on **Add an input number or text** and give it
+   name **{{ parameter }}**
 
    {%- if image %}
 
@@ -98,7 +98,7 @@
 
    {%- if image and ok == True %}
 
-   Por último pulsamos el botón **Aceptar**
+   Finally press the button **Ok**
    {%- endif %}
 {%- endmacro %}
 
@@ -113,16 +113,10 @@
 
 
 {%- macro borrar_gato() -%}
-   Borramos el objeto gato presionando sobre el icono del
-   cubo de basura.
+   Delete the cat sprite by pressing on the icon of the
+   trash can.
 
    |borrar-gato|
-{%- endmacro %}
-
-
-{%- macro idioma_castellano() -%}
-   Pulsamos el botón idioma |boton-idioma| en la barra
-   superior y elegimos **español**.
 {%- endmacro %}
 
 

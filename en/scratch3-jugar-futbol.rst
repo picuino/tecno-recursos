@@ -38,8 +38,8 @@ jugarán al fútbol pasándose un balón de uno a otro.
 
    |br|
 
-#. Borramos el objeto gato presionando sobre el icono del
-   cubo de basura.
+#. Delete the cat sprite by pressing on the icon of the
+   trash can.
 
    |borrar-gato|
 
@@ -48,11 +48,11 @@ jugarán al fútbol pasándose un balón de uno a otro.
 #. Ahora escogemos un fondo adecuado para nuestro juego.
    Cambiamos el fondo de escenario a un **campo de futbol**.
 
-   Pulsamos el botón elige un fondo |seleccionar-fondo|.
+   Press the button choose a backdrop |seleccionar-fondo|.
 
-   Buscamos en la sección **Exteriores**.
+   Search in the topic **Exteriores**.
 
-   y seleccionamos el fondo **Playing Field**.
+   and select the backdrop **Playing Field**.
 
    .. image:: scratch3/_images/scratch3-fondo-playingfield.png
 
@@ -60,11 +60,11 @@ jugarán al fútbol pasándose un balón de uno a otro.
 
 #. A continuación añadimos un nuevo personaje, un **niño**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Gente**.
+   Search in the topic **Gente**.
 
-   y seleccionamos el objeto **Ben**.
+   and select the object **Ben**.
 
    .. image:: scratch3/_images/scratch3-objeto-ben.png
 
@@ -84,11 +84,11 @@ jugarán al fútbol pasándose un balón de uno a otro.
 
 #. Añadimos un nuevo personaje, una **niña**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Gente**.
+   Search in the topic **Gente**.
 
-   y seleccionamos el objeto **Jordyn**.
+   and select the object **Jordyn**.
 
    .. image:: scratch3/_images/scratch3-objeto-jordyn.png
 
@@ -117,11 +117,11 @@ jugarán al fútbol pasándose un balón de uno a otro.
 
 #. Añadimos un nuevo personaje, un **balón de futbol**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Deportes**.
+   Search in the topic **Deportes**.
 
-   y seleccionamos el objeto **Soccer Ball**.
+   and select the object **Soccer Ball**.
 
    .. image:: scratch3/_images/scratch3-objeto-soccerball.png
 
@@ -138,8 +138,8 @@ jugarán al fútbol pasándose un balón de uno a otro.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    El balón debe moverse a un lado y a otro entre las piernas
    de los dos personajes.
@@ -180,8 +180,8 @@ jugarán al fútbol pasándose un balón de uno a otro.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
 
 -----

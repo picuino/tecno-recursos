@@ -26,8 +26,8 @@ Cada ladrillo roto nos dará un punto.
 
    |br|
 
-#. Borramos el objeto gato presionando sobre el icono del
-   cubo de basura.
+#. Delete the cat sprite by pressing on the icon of the
+   trash can.
 
    |borrar-gato|
 
@@ -35,11 +35,11 @@ Cada ladrillo roto nos dará un punto.
 
 #. Añadimos un nuevo personaje, una **barra de control**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Todos**.
+   Search in the topic **Todos**.
 
-   y seleccionamos el objeto **Button2**.
+   and select the object **Button2**.
 
    .. image:: scratch3/_images/scratch3-objeto-button2.png
 
@@ -52,8 +52,8 @@ Cada ladrillo roto nos dará un punto.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    La barra debe moverse horizontalmente en la parte baja de
    la pantalla siguiendo la posición del ratón.
@@ -62,11 +62,11 @@ Cada ladrillo roto nos dará un punto.
 
 #. Añadimos un nuevo personaje, un **ladrillo**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Todos**.
+   Search in the topic **Todos**.
 
-   y seleccionamos el objeto **Button3**.
+   and select the object **Button3**.
 
    .. image:: scratch3/_images/scratch3-objeto-button3.png
 
@@ -74,11 +74,11 @@ Cada ladrillo roto nos dará un punto.
 
 #. Añadimos un nuevo personaje, una **pelota de tenis**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Deportes**.
+   Search in the topic **Deportes**.
 
-   y seleccionamos el objeto **Tennis ball**.
+   and select the object **Tennis ball**.
 
    .. image:: scratch3/_images/scratch3-objeto-tennisball.png
 
@@ -94,8 +94,8 @@ Cada ladrillo roto nos dará un punto.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    Cada vez que pulsemos la barra espaciadora,
    debe aparecer una pelota de tenis que se mueve por la pantalla
@@ -109,16 +109,16 @@ Cada ladrillo roto nos dará un punto.
 #. Ahora crearemos la variable **puntos** que va a almacenar 
    los puntos que conseguimos rompiendo cada ladrillo.
 
-   Pulsamos el botón de variables |boton-variables|,
+   Press the variables button |boton-variables|,
 
-   pulsamos en crear una variable  |boton-crear-variable|.
+   click on create a variable  |boton-crear-variable|.
 
-   Cambiamos el nombre de la variable a **puntos**
+   Change the name of the variable to **puntos**
 
    .. image:: scratch3/_images/scratch3-crear-variable-puntos.png
    
 
-   Por último pulsamos el botón **Aceptar**
+   Finally press the button **Ok**
 
    |br|
 
@@ -126,11 +126,11 @@ Cada ladrillo roto nos dará un punto.
    va a almacenar la posición de cada ladrillo
    a la hora de colocar los ladrillos en la pantalla.
 
-   Pulsamos el botón de variables |boton-variables|,
+   Press the variables button |boton-variables|,
 
-   pulsamos en crear una variable  |boton-crear-variable|.
+   click on create a variable  |boton-crear-variable|.
 
-   Cambiamos el nombre de la variable a **posicion**
+   Change the name of the variable to **posicion**
 
    |br|
 
@@ -144,8 +144,8 @@ Cada ladrillo roto nos dará un punto.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    Al iniciarse el programa, aparecerán todos los ladrillos en
    la parte superior de la pantalla.

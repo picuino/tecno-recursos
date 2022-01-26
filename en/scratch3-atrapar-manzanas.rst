@@ -29,11 +29,11 @@ Cuando el gato pierda sus tres vidas, el juego se acabará.
 #. Ahora escogemos un fondo adecuado para nuestro juego.
    Cambiamos el fondo de escenario por **un desierto**.
 
-   Pulsamos el botón elige un fondo |seleccionar-fondo|.
+   Press the button choose a backdrop |seleccionar-fondo|.
 
-   Buscamos en la sección **Exteriores**.
+   Search in the topic **Exteriores**.
 
-   y seleccionamos el fondo **Desert**.
+   and select the backdrop **Desert**.
 
    .. image:: scratch3/_images/scratch3-fondo-desert.png
 
@@ -49,16 +49,16 @@ Cuando el gato pierda sus tres vidas, el juego se acabará.
    que tiene el Gato.
    Cuando esta variable valga cero, el programa terminará.
 
-   Pulsamos el botón de variables |boton-variables|,
+   Press the variables button |boton-variables|,
 
-   pulsamos en crear una variable  |boton-crear-variable|.
+   click on create a variable  |boton-crear-variable|.
 
-   Cambiamos el nombre de la variable a **vidas**
+   Change the name of the variable to **vidas**
 
    .. image:: scratch3/_images/scratch3-crear-variable-vidas.png
    
 
-   Por último pulsamos el botón **Aceptar**
+   Finally press the button **Ok**
 
    |br|
 
@@ -83,34 +83,34 @@ Cuando el gato pierda sus tres vidas, el juego se acabará.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
 #. Ahora creamos la variable **puntos** que guardará el número
    de puntos que hemos conseguido al atrapar las manzanas.
 
-   Pulsamos el botón de variables |boton-variables|,
+   Press the variables button |boton-variables|,
 
-   pulsamos en crear una variable  |boton-crear-variable|.
+   click on create a variable  |boton-crear-variable|.
 
-   Cambiamos el nombre de la variable a **puntos**
+   Change the name of the variable to **puntos**
 
    .. image:: scratch3/_images/scratch3-crear-variable-puntos.png
    
 
-   Por último pulsamos el botón **Aceptar**
+   Finally press the button **Ok**
 
    |br|
 
 #. A continuación añadimos un nuevo personaje, una **manzana**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Comida**.
+   Search in the topic **Comida**.
 
-   y seleccionamos el objeto **Apple**.
+   and select the object **Apple**.
 
    .. image:: scratch3/_images/scratch3-objeto-apple.png
 
@@ -168,18 +168,18 @@ Cuando el gato pierda sus tres vidas, el juego se acabará.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
 #. Añadimos un nuevo objeto, un **rayo**.
 
-   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+   Press the button choose an object |seleccionar-objeto|.
 
-   Buscamos en la sección **Todos**.
+   Search in the topic **Todos**.
 
-   y seleccionamos el objeto **Lightning**.
+   and select the object **Lightning**.
 
    .. image:: scratch3/_images/scratch3-objeto-lightning.png
 
@@ -217,8 +217,8 @@ Cuando el gato pierda sus tres vidas, el juego se acabará.
 
    |br|
 
-#. Pulsamos la bandera verde |bandera-verde|
-   para probar el funcionamiento del programa.
+#. Press the green flag |bandera-verde|
+   to test the operation of the program.
 
    |br|
 
