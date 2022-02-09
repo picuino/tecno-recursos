@@ -109,10 +109,10 @@ Ejemplos de controladores los podemos encontrar en el termostato de la
 calefacción o del aire acondicionado, en el control de temperatura del
 horno o de la nevera, en el regulador de nivel de luz, en la dirección
 asistida de los automóviles, el sistema de parada en un piso de los
-ascensores de alta velocidad o, incluso, en el sistema de llenado de
-agua de la cisterna del váter. Allí donde una velocidad, un movimiento,
-temperatura, presión o nivel se mantienen regulados, hay un controlador
-que realiza este trabajo.</p>
+ascensores o, incluso, en el sistema de llenado de agua de la cisterna
+del váter.
+Allí donde una velocidad, un movimiento, temperatura, presión o nivel
+se mantienen regulados, hay un controlador que realiza este trabajo.</p>
 <p>Para referirse a este tipo de sistemas se utiliza la denominación de
 controladores automáticos o reguladores automáticos.</p>
 <p>En esta página se van a revisar los diferentes componentes de un sistema
@@ -122,7 +122,7 @@ de lazo abierto y de lazo cerrado.</p>
 <h2>Elementos de un sistema de control en lazo abierto<a class="headerlink" href="#elementos-de-un-sistema-de-control-en-lazo-abierto" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>En la siguiente imagen se muestra un esquema del sistema de control más
 sencillo, el control de lazo abierto.</p>
-<a class="reference internal image-reference" href="../_images/img-0052.png"><img alt="Sistema de control en lazo abierto" class="align-center" src="../_images/img-0052.png" style="width: 480px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0052.png"><img alt="Sistema de control en lazo abierto" class="align-center" src="../_images/img-0052.png" style="width: 509px;" /></a>
 <p>En este esquema se pueden reconocer tres bloques:</p>
 <dl class="docutils">
 <dt><strong>Sistema</strong></dt><dd>También llamado en ocasiones planta, es aquello que se
@@ -135,46 +135,55 @@ potencia. Volviendo al ejemplo del horno eléctrico, el accionador será
 la resistencia calefactora y el sistema de potencia que la enciende. En
 el caso de un servomecanismo, el accionador será el conjunto de
 transistores y el motor que mueven el mecanismo.</dd>
-<dt><strong>Controlador</strong></dt><dd>está encargado de recibir una señal de consigna o señal
+<dt><strong>Controlador</strong></dt><dd><p>está encargado de recibir una señal de consigna o señal
 de referencia y convertirla en una señal que consiga que el sistema alcance
-la referencia deseada.</dd>
+la referencia deseada.</p>
+<p>Un ejemplo de controlador es un temporizador que encienda y apague el horno
+microondas cada pocos segundos para controlar su potencia.</p>
+</dd>
+<dt><strong>Consigna</strong></dt><dd>Es la parte del sistema que describe lo que deseamos obtener del controlador.
+Por ejemplo una consigna puede ser un mando manual en el que seleccionamos
+un tiempo de funcionamiento de 2 minutos en un microondas.
+Otro ejemplo sería el mando en el que seleccionamos la potencia de
+calentamiento que deseamos obtener en una vitrocerámica al cocinar.</dd>
 </dl>
-<p>En ocasiones el controlador, el accionador y el sistema no tienen límites
-bien definidos o no existen en algún sistema. En cualquier caso es interesante
-conocer los tres elementos a la hora de identificar las diferentes partes de
-un sistema de control.</p>
+<p>En ocasiones la consigna, el controlador, el accionador y el sistema no
+tienen límites bien definidos o no existen en algún sistema.
+En cualquier caso es interesante conocer los cuatro elementos a la hora de
+identificar las diferentes partes de un sistema de control.</p>
 </div>
 <div class="section" id="ejemplos-de-sistemas-de-control-en-lazo-abierto">
 <h2>Ejemplos de sistemas de control en lazo abierto<a class="headerlink" href="#ejemplos-de-sistemas-de-control-en-lazo-abierto" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Ejemplos de este tipo de control lo podemos encontrar en múltiples objetos
 que nos rodean.</p>
-<p><strong>Control de potencia de un horno microondas</strong>.</p>
-<p>El controlador está formado por un dispositivo que enciende
-y apaga el horno a intervalos regulares para conseguir mayor
-o menor potencia dependiendo del tiempo que dure el encendido
-del microondas. Este sistema es llamado PWM (Pulse Width Modulation)
-El accionador es el magnetrón que produce las microondas y el
-sistema será el vaso de leche que se calienta en su interior.</p>
-<p><strong>Control de potencia de un calentador eléctrico de aire</strong>.</p>
-<p>El controlador es el interruptor que selecciona entre una o
+<dl class="docutils">
+<dt><strong>Control de potencia de un horno microondas.</strong></dt><dd>La consigna es el mando giratorio con el que seleccionamos el tiempo
+de encendido.
+El controlador está formado por un temporizador que enciende el horno
+y lo apaga al terminar el tiempo consignado.
+El accionador es un magnetrón que produce las microondas que calientan
+y el sistema será el vaso de leche que se calienta en su interior.</dd>
+<dt><strong>Control de potencia de un calentador eléctrico de aire.</strong></dt><dd>La consigna es el mando que giramos para conseguir una potencia media o
+potencia completa.
+El controlador es el interruptor que selecciona entre una o
 dos resistencias calefactoras.
 El accionador está formado por las resistencias calefactoras y
 el ventilador.
-El sistema es el aire caliente que sale y la habitación calentada.</p>
-<p><strong>Control de intensidad de luz</strong>.</p>
-<p>El controlador es el potenciómetro que se gira para conseguir
+El sistema es la habitación calentada por el aire caliente del calefactor.</dd>
+<dt><strong>Control de intensidad de luz.</strong></dt><dd>La consigna es el potenciómetro que se gira para conseguir
 mayor o menor luminosidad.
 El accionador es el circuito electrónico de potencia y la
 lámpara que produce luz.
-El sistema es la habitación iluminada.</p>
-<p><strong>Control de nivel de sonido en un equipo de audio</strong>.</p>
-<p>El controlador es el potenciómetro que se mueve para
+El sistema es la habitación con más o menos iluminación.</dd>
+<dt><strong>Control de nivel de sonido en un equipo de audio.</strong></dt><dd>La consigna es el potenciómetro que se mueve para
 conseguir mayor o menor nivel de sonido.
 El accionador es el amplificador y los altavoces del equipo de música.
-El sistema es la habitación y el nivel de sonido que consigue.</p>
+El sistema es la habitación y el nivel de sonido que se consigue.</dd>
+</dl>
 <p>Uno de los controladores en lazo abierto más habituales es el temporizador.
-Este se puede encontrar en múltiples dispositivos como una puerta de garaje,
-apagado automático de escaleras automáticas, temporizador de un horno, etc.</p>
+Este se puede encontrar en múltiples dispositivos como encendido temporizado
+de las luces de escalera de un edificio, apagado automático de escaleras
+automáticas, temporizador de un horno microondas, etc.</p>
 <p>En los sistemas en lazo abierto se puede controlar que el
 sistema reciba más o menos accionamiento, pero no se puede controlar con
 exactitud el punto en el que se encontrará el sistema controlado.
@@ -192,21 +201,28 @@ con mucha frecuencia por su gran sencillez y por ser muy robustos.</p>
 <h2>Elementos de un sistema de control en lazo cerrado<a class="headerlink" href="#elementos-de-un-sistema-de-control-en-lazo-cerrado" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>En la siguiente imagen se muestra un esquema de un sistema de control
 en lazo cerrado.</p>
-<a class="reference internal image-reference" href="../_images/img-0053.png"><img alt="Sistema de control en lazo cerrado" class="align-center" src="../_images/img-0053.png" style="width: 480px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0053.png"><img alt="Sistema de control en lazo cerrado" class="align-center" src="../_images/img-0053.png" style="width: 578px;" /></a>
 <p>Este tipo de sistema de control soluciona el problema de los sistemas
 en lazo abierto, que dependen de las condiciones ambientales. El nombre
 de lazo cerrado proviene de la señal del sensor que vuelve al controlador,
 cerrando el lazo de control. Los elementos del sistema de control en lazo
 cerrado son los mismos que los del sistema en lazo abierto con dos añadidos:</p>
-<p>El sensor mide el estado o variable a controlar en el sistema
+<dl class="docutils">
+<dt><strong>El sensor</strong></dt><dd>Mide el estado o variable a controlar en el sistema
 (posición, temperatura, humedad, etc.) Esto permite conocer el estado
-del sistema y corregir las desviaciones para que se pueda conseguir la
-respuesta deseada.</p>
-<p>El comparador. Este elemento está representado por un círculo en el esquema.
-Su función es comparar la señal de referencia r(t) y la señal de
-realimentación h(t) y calcular el error e(t) que existe entre la respuesta
-deseada y el estado real del sistema. A partir de ese error se puede conseguir
-llevar al sistema al estado deseado.</p>
+del sistema y corregir las desviaciones para que se pueda conseguir el
+estado deseada.
+Por ejemplo en un frigorífico, el sensor de temperatura detecta la
+temperatura interior, apaga el motor cuando hace demasiado frio y
+vuelve a encender el motor si la temperatura sube mucho.</dd>
+<dt><strong>El comparador</strong></dt><dd>Este elemento está representado por un círculo en el esquema.
+Su función es comparar la señal de referencia r que proviene de
+la consigna y la señal de realimentación h que proviene del sensor
+y calcular el error e que existe entre la respuesta deseada y
+el estado real del sistema.
+A partir de ese error se puede conseguir llevar al sistema al estado
+deseado, que es el que dicta la consigna.</dd>
+</dl>
 <p>Este tipo de control conseguirá que el sistema se encuentre en el estado
 deseado, independientemente de las condiciones ambientales.</p>
 <p>Las señales del sistema de control son las siguientes:</p>
@@ -224,31 +240,31 @@ deseado, independientemente de las condiciones ambientales.</p>
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td><strong>r(t)</strong></td>
+<tr class="row-even"><td><strong>r</strong></td>
 <td><strong>Referencia</strong></td>
 <td>Es el estado que se desea alcanzar en
 el sistema.</td>
 </tr>
-<tr class="row-odd"><td><strong>e(t)</strong></td>
+<tr class="row-odd"><td><strong>e</strong></td>
 <td><strong>Error</strong></td>
 <td>Es la diferencia entre el estado deseado y
 el estado real del sistema a controlar.</td>
 </tr>
-<tr class="row-even"><td><strong>c(t)</strong></td>
+<tr class="row-even"><td><strong>c</strong></td>
 <td><strong>Control</strong></td>
 <td>Es la señal que genera el controlador.</td>
 </tr>
-<tr class="row-odd"><td><strong>u(t)</strong></td>
+<tr class="row-odd"><td><strong>u</strong></td>
 <td><strong>Accionamiento</strong></td>
 <td>Es la acción que se ejerce sobre el
 sistema para controlarle.</td>
 </tr>
-<tr class="row-even"><td><strong>y(t)</strong></td>
+<tr class="row-even"><td><strong>y</strong></td>
 <td><strong>Salida</strong></td>
 <td>Es el estado real que ha alcanzado el
 sistema a controlar.</td>
 </tr>
-<tr class="row-odd"><td><strong>h(t)</strong></td>
+<tr class="row-odd"><td><strong>h</strong></td>
 <td><strong>Realimentación</strong></td>
 <td>Es la medida del estado del sistema.</td>
 </tr>
@@ -264,7 +280,12 @@ en lazo cerrado. Estos se caracterizan por tener un sensor que permite
 medir el estado del sistema y controlarle con precisión.</p>
 <p>Control de temperatura de un <strong>frigorífico</strong>.</p>
 <p>Control de temperatura en un <strong>horno eléctrico</strong>.</p>
+<p>Control de llenado de agua de una <strong>cisterna</strong> del váter.</p>
+<p><strong>Dirección asistida</strong> de un automóvil o de un camión.</p>
 <p>Control de posición de un <strong>servomecanismo</strong>.</p>
+<p>Sistema de marcha y parada en un piso de un <strong>ascensor</strong>.</p>
+<p>Control de apertura de una <strong>puerta automática</strong>, que se abre en
+presencia de alguien.</p>
 <a class="reference internal image-reference" href="../_images/img-0054.jpg"><img alt="Servomotor" class="align-center" src="../_images/img-0054.jpg" style="width: 360px;" /></a>
 </div>
 <div class="section" id="referencias">
@@ -311,7 +332,7 @@ Segunda edición. Editorial Prentice Hall.</p>
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
     a menos que se indique lo contrario.<br />
       <span class="lastupdated">
-        Actualizado por última vez, enero de 2022.
+        Actualizado por última vez, febrero de 2022.
       </span>
 
     </p>

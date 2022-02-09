@@ -60,7 +60,8 @@ se han calculado en enero de 2022.
 #. `Tecnoapuntes
    <https://tecnoapuntes.com/>`_
 
-   Alexa Rank: 2,188,413
+   `Alexa Rank <https://www.alexa.com/siteinfo/tecnoapuntes.com>`__ :
+   2,188,413
 
 #. `Makinando Velez
    <https://makinandovelez.wordpress.com/>`_
