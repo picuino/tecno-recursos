@@ -94,6 +94,8 @@
   {# Keep modernizr in head - http://modernizr.com/docs/#installing -#}
   <script src="{{ pathto('_static/modernizr.min.js', 1) }}"></script>
 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8828149385712454"   crossorigin="anonymous"></script>
+
 </head>
 
 <body class="wy-body-for-nav">
@@ -251,6 +253,8 @@
 
   {% endif %}
 
+  {%- block footer %} {% endblock %}
+
   <script src="{{ pathto('_static/theme.js', 1) }}"></script>
 
   <script>
@@ -258,8 +262,6 @@
           SphinxRtdTheme.Navigation.enable({{ 'true' if theme_sticky_navigation|tobool else 'false' }});
       });
   </script>
-
-  {%- block footer %} {% endblock %}
 
 </body>
 </html>
