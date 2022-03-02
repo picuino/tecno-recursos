@@ -225,6 +225,6 @@ Cuestionario
 ------------
 Cuestionario de tipo test sobre la madera.
 
-`Questionary. Materiales, la madera. <https://www.picuino.com/questionary/es-material-wood.html>`__
+`Cuestionario. Materiales, la madera. <https://www.picuino.com/test/es-material-wood.html>`__
 
 

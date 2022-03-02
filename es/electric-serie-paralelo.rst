@@ -217,6 +217,6 @@ Cuestionarios
 Cuestionario de tipo test para identificar circuitos en serie,
 en paralelo, con cortocircuito en la pila o con cortocircuito en la bombilla.
 
-  * `Questionary. Identificar serie y paralelo 
-    <https://www.picuino.com/questionary/es-electric-series-parallel-identify.html>`__
+  * `Cuestionario. Identificar serie y paralelo 
+    <https://www.picuino.com/test/es-electric-series-parallel-identify.html>`__
 

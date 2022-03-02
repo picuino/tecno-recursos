@@ -11,9 +11,6 @@ Contacto
 
 `Picuino en Twitter <https://twitter.com/picuino>`_
 
-`Proyecto alojado en GitHub 
-<https://github.com/picuino/tecno-recursos/issues>`_
-
 
 Puedes utilizar los anteriores medios de contacto para comunicarte y
 

@@ -152,9 +152,9 @@
           {% block sidebartitle %}
 
           {% if logo and theme_logo_only %}
-            <a href="{{ pathto(master_doc) }}">
+            <a href="{{ pathto('index.html', 1) }}">
           {% else %}
-            <a href="{{ pathto(master_doc) }}" class="icon icon-home"> {{ project }}
+            <a href="{{ pathto('index.html', 1) }}" class="icon icon-home"> {{ project }}
           {% endif %}
 
           {% if logo %}
@@ -166,6 +166,7 @@
           </a>
           <br />
           <a href="{{ pathto(master_doc) }}">{{ project }}</a>
+          <br /><br />
 
           {% if theme_display_version %}
             {%- set nav_version = version %}
@@ -178,9 +179,6 @@
               </div>
             {% endif %}
           {% endif %}
-
-          <br />
-          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="{{ pathto('_static/twitter.png', 1) }}" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
 
           {% include "searchbox.html" %}
 
@@ -211,13 +209,15 @@
           <br />
           <ul>
           <li class="toctree-l1"><a class="reference internal"
-          href="https://www.picuino.com/questionary/">Questionary</a>
+          href="https://www.picuino.com/test/">Cuestionarios</a>
           <li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/foro/">Foro de Tecnología</a>
           </li><li class="toctree-l1"><a class="reference internal"
           href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
           </li>
           </ul>
+          <br />
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="{{ pathto('_static/twitter.png', 1) }}" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
 
         </div>
       </div>

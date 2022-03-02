@@ -277,6 +277,6 @@ Cuestionario
 ------------
 Cuestionarios de tipo test sobre las propiedades de los materiales.
 
-`Questionary. Propiedades de los materiales. 
-<https://www.picuino.com/questionary/es-material-properties.html>`__
+`Cuestionario. Propiedades de los materiales. 
+<https://www.picuino.com/test/es-material-properties.html>`__
 

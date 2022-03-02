@@ -12,7 +12,7 @@ Otros recursos para tecnología
    :maxdepth: 1
    :titlesonly:
    
-   recursos-questionary.rst
+   recursos-test.rst
    recursos-libro-4eso-tecno.rst
    recursos-cuaderno-notas.rst
    recursos-sopa-letras.rst

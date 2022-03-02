@@ -25,6 +25,6 @@ Cuestionarios
 Cuestionarios de tipo test para identificar y nombrar símbolos
 de componentes eléctricos.
 
-  * `Questionary. Tipos de componentes. <https://www.picuino.com/questionary/es-electric-components-type.html>`__
-  * `Questionary. Nombre de componentes. <https://www.picuino.com/questionary/es-electric-components-name.html>`__
+  * `Cuestionario. Tipos de componentes. <https://www.picuino.com/test/es-electric-components-type.html>`__
+  * `Cuestionario. Nombre de componentes. <https://www.picuino.com/test/es-electric-components-name.html>`__
 

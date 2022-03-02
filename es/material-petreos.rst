@@ -309,4 +309,4 @@ Cuestionario
 ------------
 Cuestionario de tipo test sobre los materiales pétreos.
 
-`Questionary. Los materiales pétreos. <https://www.picuino.com/questionary/es-material-stone.html>`__
+`Cuestionario. Los materiales pétreos. <https://www.picuino.com/test/es-material-stone.html>`__
