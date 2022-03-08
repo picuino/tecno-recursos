@@ -5,12 +5,18 @@
 Vistas
 ======
 
-Ejercicios de obtención de vistas de una figura, graduados en 
-dificultad desde el nivel básico hasta el nivel más complejo con 
-objetos curvos.
+Las vistas son dibujos de una figura, desde distintas perspectivas.
+En el sistema de vistas europeo que estamos utilizando, las vistas 
+son el alzado (vista de frente), el perfil (vista de lado) y 
+la planta (vista desde arriba).
 
 .. image:: dibujo/_images/dibujo-vistas.png
    :width: 240px
+
+
+A continuación aparecen ejercicios de obtención de vistas de una
+figura, graduados en dificultad desde el nivel básico hasta el 
+nivel más complejo con objetos curvos.
 
 Todos los ejercicios tienen una versión con el sistema de vistas
 europeo (alzado a la derecha) y otra versión no convencional en la 

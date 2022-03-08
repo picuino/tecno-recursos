@@ -5,12 +5,18 @@
 Perspectiva isométrica
 ======================
 
-Ejercicios de obtención de la perspectiva isométrica de figuras,
-graduados en dificultad desde el nivel básico hasta el nivel más 
-complejo con objetos curvos.
+La perspectiva es una manera de representar objetos en tres dimensiones
+sobre una hoja plana. En esa representación se pueden ver a la vez la cara 
+frontal, el perfil y la planta del objeto.
+Nosotros vamos a utilizar la perspectiva isométrica, que utiliza la misma 
+medida para los tres ejes principales (x, y, z).
 
 .. image:: dibujo/_images/dibujo-isometrica.png
    :width: 240px
+
+A continuación se presentan los ejercicios de obtención de 
+perspectiva isométrica de figuras, graduados en dificultad 
+desde el nivel básico hasta el nivel más complejo con objetos curvos.
 
 Todos los ejercicios tienen una versión con el sistema de vistas
 europeo (alzado a la derecha) y otra versión no convencional en la 

@@ -5,9 +5,9 @@
 Introducción al Dibujo Técnico
 ==============================
 El dibujo técnico es una forma de representar información mecánica
-de los objetos. Permite representar formas, tamaños, grosores,
-posiciones y muchos más detalles. 
-Con el dibujo técnico se pueden representar desde un pequeño tornillo
+de los objetos. Permite describir formas, tamaños, grosores, 
+posiciones y muchos otros detalles de éstos objetos.
+Con el dibujo técnico se puede representar desde el pequeño tornillo
 de un reloj de pulsera hasta todo un rascacielos.
 
 Los primeros dibujos técnicos conocidos tienen más de cuatro mil años
@@ -23,29 +23,29 @@ Dibujo Técnico como lenguaje
 Otra forma de ver el dibujo técnico es como un lenguaje con el que
 podemos guardar y transmitir información. 
 La escritura nos permite representar las ideas de las que hablamos,
-pero es más exigente porque al escribir es necesario pensar mejor 
+siendo esta más exigente porque al escribir es necesario pensar mejor 
 lo que queremos decir.
 Al releer posteriormente lo que hemos escrito es frecuente que se 
-nos ocurra una forma mejor de escribirlo o algún detalle que no 
-reflejamos. Es decir que también nos ayuda a seguir pensando y 
+nos ocurra una forma mejor de expresarnos o algún detalle que no 
+reflejamos. Es decir, que también nos ayuda a seguir pensando y 
 mejorando.
 
-El dibujo técnico tiene las mismas características. Dibujar
-un objeto nos obliga a pensar en los detalles de lo que 
+El dibujo técnico tiene características parecidas a la escritura. 
+Dibujar un objeto nos obliga a pensar en los detalles de lo que 
 estamos representando.
 Posteriormente, al volver a mirar el dibujo, podemos recordar
 ideas que olvidamos representar o fallos que mejorar. 
 Esto permite que el diseño sea un proceso acumulativo, en el que
-se van añadiendo detalles poco a poco hasta que conseguimos el 
+se van añadiendo detalles poco a poco hasta que alcanzamos el 
 diseño final. Realizar esto de memoria sería algo tan complejo
-que muy pocas personas podrían conseguirlo. 
+que muy pocas personas podrían realizarlo. 
 
 El dibujo técnico como lenguaje escrito nos ayuda a:
 
 1. Pensar con mayor precisión y exactitud
 2. Registrar las ideas para recordarlas posteriormente
 3. Comunicar nuestras ideas a los demás
-4. Mejorar los diseños añadiendo mejoras
+4. Perfeccionar los diseños añadiendo mejoras
 
 
 
@@ -57,13 +57,13 @@ Tipos de dibujos
       Es el dibujo de una idea realizado a mano alzada.
       Es esquemático, por lo que no tiene detalles ni medidas.
    
-      La ventaja del boceto es que se puede dibujar aunque 
-      la idea sea solo esquemática y no esté clara.
+      La ventaja del boceto es que se puede dibujar algo
+      aunque la idea sea solo esquemática y no esté clara.
 
    Croquis
-      Es un dibujo realizado a mano alzada de un diseño.
-      Tiene todas las medidas y detalles necesarios 
-      y está dibujado con las proporciones correctas.
+      Es un dibujo realizado a mano alzada de un objeto.
+      Tiene todas las medidas y detalles necesarios para 
+      describirlo y está dibujado con las proporciones correctas.
       Se dibuja con más precisión y claridad que el boceto.
    
       El croquis sirve para fabricar el objeto que representa.
@@ -81,21 +81,22 @@ Definiciones
 
    Acotación
       Acotar es añadir al dibujo el tamaño que tiene el objeto real.
-      Si un objeto tiene un tamaño de 20 milímetros, se dibujará esa 
-      cantidad en su dibujo.
-      La acotación siempre representa el tamaño del objeto real, no el 
-      tamaño del dibujo.
+      Si un objeto tiene un tamaño de 20 milímetros, se representará
+      esa cantidad en su dibujo.
+
       Si el dibujo es más grande que el objeto (ampliación) o más pequeño 
-      (reducción) la acotación siempre vale lo mismo porque no depende del 
-      tamaño del dibujo.
+      (reducción), la acotación siempre tiene el mismo valor porque no 
+      depende del tamaño del dibujo.
+      La acotación representa el tamaño del objeto real, 
+      no el tamaño del dibujo.
    
    Escala
       Un dibujo a escala es un dibujo más grande o más pequeño que
       el objeto que representa. 
-      Por ejemplo, un mapa representa a un pais a un tamaño mucho más 
+      Por ejemplo, un mapa representa un país a un tamaño mucho más 
       pequeño, está dibujado a una escala reducida.
       El dibujo de una célula es mucho más grande que una célula, se 
-      representa con ampliación.
+      representa con escala de ampliación.
    
    Vistas
       Las vistas de un objeto son dibujos del objeto visto desde diferentes
