@@ -31,6 +31,8 @@ electrónicos.
    electric-crocodile-index.rst
    bornas-lamparas-index.rst
    bornas-electronic-index.rst
+   
+   electric-pcb-luces-led.rst
 
    electric-sistema-electrico.rst
 
