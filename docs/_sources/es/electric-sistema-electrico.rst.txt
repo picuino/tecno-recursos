@@ -1,8 +1,8 @@
 ﻿
 .. _electric-sistema-electrico:
 
-Sistema eléctrico español 2020
-==============================
+Sistema eléctrico español
+=========================
 
 .. figure:: electric/sistema-electrico-espanol/sistema-electrico-espanol-2020.png
    :width: 800px

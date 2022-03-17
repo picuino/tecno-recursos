@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es-es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Electricidad y electrónica - Circuito impreso con luces led" />
+
+  
+  <title>Circuito impreso con luces led - Electricidad y electrónica - Picuino</title>
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+
+  
+  
+    <link rel="canonical" href="https://www.picuino.com/es/electric-pcb-luces-led.html"/>
+
+  
+
+  
+  
+    
+      <link rel="search" type="application/opensearchdescription+xml"
+            title="Search within ..."
+            href="../_static/opensearch.xml"/>
+    
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="Sistema eléctrico español" href="electric-sistema-electrico.html" />
+    <link rel="prev" title="5. Cableado sobre protoboard" href="bornas-protoboard.html" /> 
+
+  <script src="../_static/modernizr.min.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8828149385712454"   crossorigin="anonymous"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  
+
+  <div class="wy-grid-for-nav">
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="electric-index.html">Electricidad y electrónica</a> &raquo;</li>
+        
+      <li>Circuito impreso con luces led</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/es/electric-pcb-luces-led.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  <hr/>
+  
+    <!-- anuncio_cabecera -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8828149385712454"
+         data-ad-slot="5977873965"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+  <hr/>
+
+  
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="circuito-impreso-con-luces-led">
+<span id="electric-pcb-luces-led"></span><h1>Circuito impreso con luces led<a class="headerlink" href="#circuito-impreso-con-luces-led" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Diseño y montaje de un sencillo circuito impreso con 6 luces led parpadeantes.</p>
+<a class="reference external image-reference" href="../_downloads/electric-pcb-luces-led-03.jpg" rel="noopener noreferrer" target="_blank"><img alt="Circuito impreso con luces led, ya montado." class="align-center" src="../_images/electric-pcb-luces-led-03t.jpg" style="width: 480px;" /></a>
+<p><a class="reference download internal" download="" href="../_downloads/electric-pcb-luces-led-03.jpg"><code class="xref download docutils literal notranslate"><span class="pre">Placa</span> <span class="pre">de</span> <span class="pre">circuito</span> <span class="pre">impreso</span> <span class="pre">ya</span> <span class="pre">montada.</span> <span class="pre">Formato</span> <span class="pre">JPG.</span></code></a></p>
+<div class="section" id="circuito-electrico-completo">
+<h2>Circuito eléctrico completo<a class="headerlink" href="#circuito-electrico-completo" title="Enlazar permanentemente con este título">¶</a></h2>
+<a class="reference external image-reference" href="../_downloads/electric-pcb-luces-led.pdf" rel="noopener noreferrer" target="_blank"><img alt="Circuito eléctrico." class="align-center" src="../_images/electric-pcb-luces-led-02.png" style="width: 640px;" /></a>
+<p><a class="reference download internal" download="" href="../_downloads/electric-pcb-luces-led.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Circuito</span> <span class="pre">eléctrico</span> <span class="pre">del</span> <span class="pre">circuito</span> <span class="pre">con</span> <span class="pre">luces</span> <span class="pre">led.</span> <span class="pre">Formato</span> <span class="pre">PDF.</span></code></a></p>
+</div>
+<div class="section" id="funcionamiento-del-circuito-oscilador">
+<h2>Funcionamiento del circuito oscilador<a class="headerlink" href="#funcionamiento-del-circuito-oscilador" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El circuito con luces que parpadean está basado en un oscilador
+que cambia su salida cada poco tiempo, encendiendo y apagando el led.</p>
+<a class="reference internal image-reference" href="../_images/electric-pcb-luces-led-02b.png"><img alt="Circuito eléctrico oscilador." class="align-center" src="../_images/electric-pcb-luces-led-02b.png" style="width: 480px;" /></a>
+<p>Este circuito oscilador está formado por un inversor con trigger schmitt,
+un condensador C1 y una resistencia de realimentación R3.</p>
+<p>El circuito inversor con trigger schmitt cambia su salida a diferentes
+tensiones de entrada. Este comportamiento se denomina histéresis de entrada
+y es el que permite que el circuito funcione como oscilador.
+En la siguiente gráfica podemos ver como cambia la tensión de salida del
+inversor para diferentes tensiones de entrada. Esta figura rectangular con
+dos líneas horizontales es la que tiene el inversor en su interior e
+indica que trabaja con histéresis.</p>
+<a class="reference internal image-reference" href="../_images/electric-schmitt-histeresis.png"><img alt="Histéresis del circuito inversor Schmitt." class="align-center" src="../_images/electric-schmitt-histeresis.png" style="width: 400px;" /></a>
+<p>Cuando se enciende el circuito por primera vez, el condensador está
+descargado y por lo tanto su tensión en el terminal positivo vale
+cero voltios.
+El inversor schmitt tiene por lo tanto en su entrada cero voltios
+(un cero lógico) y en su salida los 5 voltios de alimentación positiva
+(un uno lógico).
+En esta situación, la resistencia de realimentación R3 va cargando poco
+a poco la tensión del condensador hasta que alcanza los 3.33 voltios,
+tensión a partir de la cual el inversor schmitt considera que la entrada
+vale un uno lógico y por lo tanto cambia su salida a cero voltios
+(cero lógico).</p>
+<p>Ahora, la resistencia de realimentación R3 va descargando poco a poco
+la tensión del condensador hasta que alcanza 1.66 voltios, tensión a
+partir de la cual el inversor schmitt considera que la entrada vale un cero
+lógico y por lo tanto cambia su salida a cinco voltios (uno lógico) volviendo
+el ciclo a repetirse una y otra vez.</p>
+<p>La velocidad de oscilación dependerá de los valores del condensador y
+de la resistencia. Cuanto mayores sean, más tiempo tardará en oscilar el
+circuito. La fórmula aproximada del tiempo de oscilación es:</p>
+<blockquote>
+<div>Tiempo de oscilación = 0.8·R3·C1  = 0.8 · 220000 · 0.000010 = 1.76 segundos</div></blockquote>
+<p>El led D1 conectado a la salida del oscilador mediante una resistencia
+limitadora R1, se encenderá y apagará a la misma velocidad que el oscilador.</p>
+<p>El led D2 conectado a la salida de otro inversor schmitt mediante una
+resistencia limitadora R2, se encenderá cuando D1 esté apagado y se apagará
+cuando D1 esté encendido, produciendo un parpadeo alternativo.</p>
+<p>Este comportamiento se repite en los tres osciladores que tiene el circuito
+completo, a diferentes frecuencias dado que R3, R6 y R9 tienen diferentes
+valores y, por lo tanto, diferentes velocidades de parpadeo.</p>
+</div>
+<div class="section" id="circuito-impreso-pcb">
+<h2>Circuito impreso (PCB)<a class="headerlink" href="#circuito-impreso-pcb" title="Enlazar permanentemente con este título">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/electric-pcb-luces-led-01t.jpg"><img alt="Circuito impreso." class="align-center" src="../_images/electric-pcb-luces-led-01t.jpg" style="width: 400px;" /></a>
+<p><a class="reference download internal" download="" href="../_downloads/electric-pcb-luces-led.zip"><code class="xref download docutils literal notranslate"><span class="pre">Diseño</span> <span class="pre">del</span> <span class="pre">circuito</span> <span class="pre">eléctrico</span> <span class="pre">y</span> <span class="pre">del</span> <span class="pre">circuito</span> <span class="pre">impreso.</span> <span class="pre">Formato</span> <span class="pre">KiCad.</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/electric-pcb-luces-led-gerber.zip"><code class="xref download docutils literal notranslate"><span class="pre">Archivos</span> <span class="pre">Gerber</span> <span class="pre">para</span> <span class="pre">la</span> <span class="pre">fabricación</span> <span class="pre">del</span> <span class="pre">circuito</span> <span class="pre">impreso.</span> <span class="pre">Formato</span> <span class="pre">ZIP.</span></code></a></p>
+<p>Los archivos gerber sirven para solicitar la fabricación de la placa de
+circuito impreso a una empresa de fabricación de placas como puede ser
+la empresa china <a class="reference external" href="https://jlcpcb.com/" rel="noopener noreferrer" target="_blank">JLCPCB</a> u otra cualquiera.</p>
+<p>En total hay un conjunto de 7 archivos gerber diferentes, tres
+archivos para la parte frontal, 3 archivos para la capa trasera y uno para
+los bordes de la placa.
+Además hay un archivo que indica dónde se deben realizar los taladros (drill).</p>
+<p>Los archivos gerber y de taladrado se reparten como indica a continuación:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Pistas de cobre de la capa frontal (F_Cu)</li>
+<li>Pistas de cobre de la capa trasera (B_Cu)</li>
+<li>Máscara de soldadura de la capa frontal (F_Mask)</li>
+<li>Máscara de soldadura de la capa trasera (B_Mask)</li>
+<li>Serigrafía de componentes de la parte frontal (F_SilkS)</li>
+<li>Serigrafía de componentes de la parte trasera (B_SilkS)</li>
+<li>Bordes para recortar la placa (Edge_Cuts)</li>
+<li>Archivo de taladros (.drl)</li>
+</ul>
+</div></blockquote>
+<a class="reference internal image-reference" href="../_images/electric-pcb-luces-led-05.png"><img alt="Circuito impreso. Capas frontales." class="align-center" src="../_images/electric-pcb-luces-led-05.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/electric-pcb-luces-led-06.png"><img alt="Circuito impreso. Capas traseras." class="align-center" src="../_images/electric-pcb-luces-led-06.png" style="width: 400px;" /></a>
+<dl class="docutils">
+<dt><strong>Pistas de cobre:</strong></dt><dd>Son los conductores que conectan entre sí todos los componentes de la
+placa de circuito impreso. Aparecen en el dibujo con color amarillo
+(sin máscara de soldadura) o de color verde claro (ya cubiertos de máscara
+de soldadura.</dd>
+<dt><strong>Máscara de soldadura:</strong></dt><dd>Es una capa de pintura, normalmente de color verde aunque puede tener otros
+colores, que sirve para proteger las pistas de cobre de la corrosión y
+para evitar cortocircuitos a la hora de realizar el proceso de soldadura.
+La máscara de soldadura no se aplica encima de los pads de soldadura.</dd>
+<dt><strong>Serigrafía de componentes</strong>:</dt><dd>Es una capa de pintura, generalmente de color blanco, que sirve para
+indicar el nombre de los componentes del circuito y para escribir
+indicaciones o dibujos. Esta capa de pintura se aplica con la técnica
+de la serigrafía y de ahí su nombre.</dd>
+</dl>
+</div>
+<div class="section" id="listado-de-componentes-bom">
+<h2>Listado de componentes (BOM)<a class="headerlink" href="#listado-de-componentes-bom" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El listado de componentes (llamado también BOM o Bill Of Materials) es un
+listado donde aparecen todos los componentes del circuito con su número
+y referencia para poder comprarlos antes de realizar el montaje.</p>
+<p>La lista de componentes puede tener también la referencia de compra de un
+distribuidor de componentes electrónicos. En este caso se han añadido las
+referencias del distribuidor <a class="reference external" href="https://www.tme.eu/es/" rel="noopener noreferrer" target="_blank">TME</a>.</p>
+<p><a class="reference download internal" download="" href="../_downloads/electric-pcb-luces-led-bom.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Listado</span> <span class="pre">de</span> <span class="pre">componentes</span> <span class="pre">de</span> <span class="pre">la</span> <span class="pre">placa</span> <span class="pre">con</span> <span class="pre">luces</span> <span class="pre">led.</span> <span class="pre">Formato</span> <span class="pre">PDF.</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/electric-pcb-luces-led-bom.ods"><code class="xref download docutils literal notranslate"><span class="pre">Listado</span> <span class="pre">de</span> <span class="pre">componentes</span> <span class="pre">de</span> <span class="pre">la</span> <span class="pre">placa</span> <span class="pre">con</span> <span class="pre">luces</span> <span class="pre">led.</span> <span class="pre">Formato</span> <span class="pre">ODS.</span></code></a></p>
+</div>
+<div class="section" id="orden-y-posicion-de-montaje">
+<h2>Orden y posición de montaje<a class="headerlink" href="#orden-y-posicion-de-montaje" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>A la hora de soldar los componentes conviene seguir un orden, de manera
+que se suelden primero los componentes más bajos y después los más altos.
+De esta forma, al dar la vuelta a la placa de circuito impreso, los
+componentes pueden apoyarse sobre la mesa y no quedarán despegados de la placa.</p>
+<p>Además cada componente tiene una posición de soldadura. Si no respetamos
+esta posición corremos el riesgo de estropear el componente o hacer que no
+funcione el circuito.</p>
+<p>El orden y posición de montaje son las siguientes:</p>
+<p><strong>1. Resistencias</strong>:</p>
+<blockquote>
+<div>No necesitan ningún órden en particular para funcionar correctamente,
+pero el código de colores resulta más elegante y más sencillo de leer
+cuando todas las bandas de oro están alineadas a la derecha
+(resistencias horizontales) o hacia arriba (resistencias verticales)
+según se mira la placa como en la imagen del inicio de esta unidad.</div></blockquote>
+<p><strong>2. Interruptor de encendido SW1</strong>:</p>
+<blockquote>
+<div>Habrá que montarlo de forma que la palanca del interruptor esté hacia
+fuera del circuito impreso para que resulte sencillo accionar el
+interruptor.</div></blockquote>
+<p><strong>3. Zócalo del circuito integrado</strong>:</p>
+<blockquote>
+<div><p>El zócalo tiene una pequeña pestaña en la parte superior que hay que
+alinear con la pestaña de la serigrafía de componentes, también
+en la parte superior del zócalo.</p>
+<p>Si insertamos el circuito integrado en sentido incorrecto (hacia abajo)
+corremos el riesgo de estropearlo cuando circule corriente.</p>
+</div></blockquote>
+<p><strong>4. Condensadores</strong>:</p>
+<blockquote>
+<div><p>Los condensadores electrolíticos tienen una banda blanca en uno de sus
+dos pines que indica el polo negativo del componente y que hay que montar
+en la zona también blanca de la serigrafía del circuito impreso.</p>
+<p>Es muy importante que los condensadores estén correctamente montados porque
+si reciben tensión en sentido inverso se estropearán y también generan
+gas en su interior que puede llegar a hacer que exploten.</p>
+</div></blockquote>
+<p><strong>5. Diodos led</strong>:</p>
+<blockquote>
+<div><p>Los diodos sólo conducen en un sentido y no funcionan en sentido contrario.
+En la serigrafía de la placa de circuito impreso la patilla negativa o
+cátodo de los led siempre está mirando hacia la izquierda. Se distingue
+porque el círculo tiene un chaflán y porque el pad de soldadura es cuadrado.</p>
+<a class="reference internal image-reference" href="../_images/electric-pcb-catodo-2.png"><img alt="Cátodo de un diodo led en la serigrafía." class="align-center" src="../_images/electric-pcb-catodo-2.png" style="width: 340px;" /></a>
+<p>A la hora de distinguir el cátodo en los diodos led, la manera más
+sencilla es mirar en su interior y buscar la zona metálica más grande,
+donde se apoya el led y que está conectada a la patilla negativa (cátodo).</p>
+<a class="reference internal image-reference" href="../_images/electric-pcb-catodo.png"><img alt="Cátodo de un diodo led." class="align-center" src="../_images/electric-pcb-catodo.png" style="width: 240px;" /></a>
+</div></blockquote>
+<p><strong>6. Cables de batería</strong>:</p>
+<blockquote>
+<div><p>Es muy importante respetar el orden de los cables de la batería
+para no quemar el circuito.</p>
+<p>El cable <strong>rojo es positivo</strong> y va conectado
+en el agujero superior (indicado con un símbolo <cite>+</cite> en la serigrafía).</p>
+<p>El cable <strong>negro es negativo</strong> y va conectado
+en el agujero inferior (indicado con un símbolo <cite>-</cite> en la serigrafía).</p>
+</div></blockquote>
+</div>
+<div class="section" id="soldadura">
+<h2>Soldadura<a class="headerlink" href="#soldadura" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La técnica de soldadura es relativamente sencilla, pero no viene mal tener
+antes de comenzar unos conceptos claros sobre cómo realizarla correctamente.</p>
+<p>En el siguiente vídeo se puede ver la técnica correcta para la soldadura
+de los componentes.</p>
+<div class="video-center">
+<iframe src="https://www.youtube.com/embed/vAx89WhpZ3k"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe> </div><p>En el siguiente vídeo podemos observar la gran diferencia que hay entre
+un estaño de soldadura de buena calidad y otro de baja calidad.
+El estaño de buena calidad es mucho más sencillo de trabajar y deja una
+soldadura brillante, menos oxidada y más robusta.</p>
+<div class="video-center">
+<iframe src="https://www.youtube.com/embed/5Ku7I3hA3AA"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe> </div><p>El siguiente vídeo nos muestra la utilidad del flux en soldadura.
+Al mantener caliente un punto de soldadura durante un tiempo excesivo,
+el flux se evapora y la soldadura se oxida y pierde brillo.</p>
+<div class="video-center">
+<iframe src="https://www.youtube.com/embed/tfIwHuGzUEk"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe> </div></div>
+<div class="section" id="reparar-una-soldadura">
+<h2>Reparar una soldadura<a class="headerlink" href="#reparar-una-soldadura" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En el caso de que soldemos de manera incorrecta un componente, podemos
+desoldarle para volver a soldarle en la posición correcta.
+Para desoldar hay muchas técnicas, una de las más sencillas es absorber
+el estaño de soldadura con una malla de hilos finos de cobre.</p>
+<p>En el siguiente vídeo se pueden observar algunas técnicas de desoldar.</p>
+<div class="video-center">
+<iframe src="https://www.youtube.com/embed/bG7yW9FigJA"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe> </div></div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="electric-sistema-electrico.html" class="btn btn-neutral float-right" title="Sistema eléctrico español" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="bornas-protoboard.html" class="btn btn-neutral" title="5. Cableado sobre protoboard" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+  
+  <hr/>
+
+    <!-- anuncio_footer    -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8828149385712454"
+         data-ad-slot="2657398444"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="legal-aviso.html">Aviso legal</a></li>
+    <li><a href="legal-cookies.html">Política de Cookies</a></li>
+    <li><a href="legal-atribution.html">Créditos</a></li>
+    </ul>
+    <p class="content-info">
+         Copyright &copy; 2013-2022 por Carlos Pardo.
+      <br />
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    a menos que se indique lo contrario.<br />
+      <span class="lastupdated">
+        Actualizado por última vez, marzo de 2022.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+  <!-- Cookies Advise -->
+  <div id="cookiesbar" style="display: none">
+  Esta página web utiliza cookies propias y de terceros 
+  para propósitos funcionales y de análisis de navegación.
+  Puedes obtener más información en nuestra 
+  <a href="https://www.picuino.com/es/legal-cookies.html" 
+  target="_blank">política de Cookies.</a> <br />
+  Si continúas navegando, aceptas su uso.
+  <br />
+  <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Solo requeridas</a> |
+  <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
+  </div>
+  <script>
+  if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+  function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+  function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+  function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+  function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+  </script>
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+  if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//www.picuino.com/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  }
+  </script>
+  <!-- End Matomo Code -->
+
+        </div>
+      </div>
+
+    </section>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino"/>
+          
+          </a>
+          <br />
+          <a href="index.html">Tecno Recursos</a>
+          <br /><br />
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electric-index.html">Electricidad y electrónica</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="electric-circuito.html">El circuito eléctrico</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-receptores.html">Efectos de la electricidad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-componentes-index.html">Componentes eléctricos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-simbolos.html">Símbolos eléctricos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-ley-ohm.html">La ley de Ohm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-ley-ohm-regla.html">Regla de cálculo para la ley de Ohm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-serie-paralelo.html">Serie y paralelo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-serie-paralelo-resistencias.html">Resistencias en serie y en paralelo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-crocodile-index.html">Prácticas con Crocodile Clips</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bornas-lamparas-index.html">Cableado de lámparas con bornas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bornas-electronic-index.html">Cableado de componentes electrónicos</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Circuito impreso con luces led</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-sistema-electrico.html">Sistema eléctrico español</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-recursos.html">Recursos para electricidad</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Otros recursos</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br />
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Cuestionarios</a>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/foro/">Foro de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+          <br />
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+   
+
+  <script src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>
