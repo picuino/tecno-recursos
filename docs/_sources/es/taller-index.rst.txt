@@ -8,6 +8,7 @@ Recursos para actividades de taller.
 
 
 .. image:: taller/_thumbs/taller-herramientas.jpg
+   :align: center
    :width: 240px 
 
 

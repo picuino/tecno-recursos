@@ -12,8 +12,8 @@ neumática e hidráulica.
 
 .. image:: mecan/_images/mecan-jib-crane.jpg
    :width: 240px
+   :align: center
    :alt: Estructuras
-   :target: estructuras-intro.html
 
 
 .. toctree::

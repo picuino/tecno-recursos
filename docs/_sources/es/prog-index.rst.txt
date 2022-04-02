@@ -9,6 +9,7 @@ Tutoriales para aprender a programar.
 
 .. image:: prog/_images/ardublock-logo-es-02.png
    :width: 240px
+   :align: center
    :alt: Programación
 
 .. toctree::

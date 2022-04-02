@@ -6,6 +6,8 @@ Tutoriales Code
 
 .. image:: prog/_images/codeorg-logo.png
    :height: 120px
+   :align: center
+
 
 Code.org es una página que dispone de múltiples tutoriales para
 aprender a programar, desde un nivel de preescolar, hasta los
@@ -76,7 +78,6 @@ etapas tiene un tiempo aproximado de realización de 40 minutos.
    * - `Curso acelerado <https://studio.code.org/s/20-hour>`_
      - De 13 años en adelante.
      - 9 etapas largas con 98 ejercicios.
-
 
 
 Hora del código

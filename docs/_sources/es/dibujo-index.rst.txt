@@ -12,6 +12,7 @@ Dibujo a mano alzada y con ordenador.
 .. image:: dibujo/_thumbs/dibujo-boceto-03.png
    :width: 240px
    :alt: Dibujo Técnico
+   :align: center
 
 
 .. toctree::

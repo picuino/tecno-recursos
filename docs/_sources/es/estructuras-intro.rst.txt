@@ -6,6 +6,7 @@ Introducción a las Estructuras
 ==============================
 
 .. image:: mecan/_images/mecan-estructuras.png
+   :align: center
    :width: 240px
    
 

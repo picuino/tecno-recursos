@@ -7,10 +7,9 @@ Diseño asistido por ordenador
 
 LibreCAD
 --------
-LibreCAD es un programa de código libre, para realizar diseños
-en 2 dimensiones. Es un desarrollo que deriva del código de
-QCAD v2 y está mantenido por la comunidad.
-
+LibreCAD es un programa de código libre para realizar diseños
+en 2 dimensiones. Es un desarrollo derivado del código de
+QCAD v2 y está mantenido por la comunidad de software libre.
 
 `Página web de LibreCAD <https://librecad.org/>`_
    

@@ -9,7 +9,7 @@ Representación de objetos a distintos tamaños.
 
 .. image:: dibujo/_images/dibujo-escalas.png
    :width: 480px
-
+   :align: center
      
 Cuando hay que representar un objeto grande en un plano, por 
 ejemplo un camión, no es práctico dibujarlo con su tamaño real.
@@ -19,23 +19,32 @@ Si los objetos son demasiado pequeños, por ejemplo un componente
 electrónico, es conveniente realizar el dibujo con un tamaño
 ampliado.
 
-La **escala** es la relación de ampliación o de reducción con la que
-se dibuja un objeto en papel.
+**Escala** 
+   Es la relación de ampliación o de reducción con la que
+   se dibuja un objeto en papel. 
 
-La **escala de reducción** se utiliza cuando el tamaño del objeto
-es mayor que el tamaño de la hoja de papel. Una escala 1:10 
-significa que el dibujo tendrá un tamaño diez veces menor que el 
-objeto real. Por ejemplo, un armario de 200cm dibujado a escala 
-1:10 tendrá un tamaño de 20cm en la hoja de papel.
+   Si la escala comienza por un número mayor que uno es una escala de 
+   ampliación (por ejemplo una escala 10:1). 
+   Si la escala comienza por uno seguido de un número mayor que uno, 
+   es una escala de reducción (por ejemplo una escala 1:10) 
 
-La **escala de ampliación** se utiliza para representar objetos
-pequeños. Una escala de ampliación 10:1 servirá para representar 
-un engranaje de reloj de 5 milímetros, con un tamaño de 
-50 milímetros en el papel.
+**Escala natural** 
+   Se utiliza para representar los objetos con un dibujo del mismo 
+   tamaño que la realidad.
+   La escala natural se representa también como escala 1:1
 
-La **escala natural** se utiliza para representar los objetos
-con un dibujo del mismo tamaño que la realidad. La escala
-natural se representa también como escala 1:1
+**Escala de reducción** 
+   Se utiliza cuando el tamaño del objeto es mayor que el tamaño de 
+   la hoja de papel. 
+   Una escala 1:10 significa que el dibujo tendrá un tamaño diez 
+   veces menor que el objeto real. 
+   Por ejemplo, un armario de 200cm dibujado a escala 1:10 tendrá 
+   un tamaño de 20cm en la hoja de papel.
+
+**Escala de ampliación** 
+   Se utiliza para representar objetos pequeños. 
+   Una escala de ampliación 10:1 servirá para representar un engranaje 
+   de reloj de 5 milímetros, con un tamaño de 50 milímetros en el papel.
 
 
 Escalas normalizadas
@@ -43,7 +52,7 @@ Escalas normalizadas
 Aunque se puede utilizar cualquier valor de escala, en la práctica
 se recomienda utilizar ciertos valores normalizados en los planos
 técnicos para facilitar la lectura de las dimensiones.
-Estas son las escalas normalizadas:
+Estas son algunas de las escalas normalizadas:
 
 +-----------------+-----+-----+------+------+------+-------+-------+-------+
 | Reducción       | 1:2 | 1:5 | 1:10 | 1:20 | 1:50 | 1:100 | 1:200 | 1:500 |
@@ -87,9 +96,9 @@ sobre una hoja de papel de tamaño folio o A4.
             
 Ejercicios de escalas
 ---------------------
-
 Este ejercicio consiste en copiar las figuras en un papel 
-cuadriculado con el mismo tamaño que aparece en la lámina. 
+cuadriculado con el mismo tamaño que aparece en la lámina 
+impresa. 
 A continuación la figura se copiará con una escala de 
 ampliación 2:1, al doble de su tamaño. Por último la figura 
 se debe copiar con una escala de reducción 1:2, a la mitad 

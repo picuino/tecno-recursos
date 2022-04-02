@@ -24,6 +24,8 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    
    recursos-index.rst
    
+   ley-index.rst
+   
 
 
 * `Página inicial <https://www.picuino.com/>`_

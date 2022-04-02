@@ -15,6 +15,7 @@ Clasificación según el nivel de procesado
 -----------------------------------------
 
 .. image:: material/_images/material-materia-prima.png
+   :align: center
    :width: 480px
 
 Los materiales siguen un proceso desde que se extraen hasta que

@@ -6,7 +6,7 @@ Cableado sobre protoboard
 =========================
 
 .. image:: electric/_images/electric-cableado-circuitos-logo.png
-     :width: 480px
+     :width: 640px
      :target: ../_downloads/electric-cableado-circuitos.pdf
 
 | :download:`Cablear circuitos integrados en protoboard.

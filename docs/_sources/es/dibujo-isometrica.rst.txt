@@ -6,13 +6,15 @@ Perspectiva isométrica
 ======================
 
 La perspectiva es una manera de representar objetos en tres dimensiones
-sobre una hoja plana. En esa representación se pueden ver a la vez la cara 
-frontal, el perfil y la planta del objeto.
+sobre una hoja plana. 
+En esa representación se pueden ver a la vez la cara frontal, el perfil
+y la planta del objeto.
 Nosotros vamos a utilizar la perspectiva isométrica, que utiliza la misma 
 medida para los tres ejes principales (x, y, z).
 
 .. image:: dibujo/_images/dibujo-isometrica.png
    :width: 240px
+   :align: center
 
 A continuación se presentan los ejercicios de obtención de 
 perspectiva isométrica de figuras, graduados en dificultad 

@@ -5,14 +5,18 @@
 Vistas
 ======
 
-Las vistas son dibujos de una figura, desde distintas perspectivas.
-En el sistema de vistas europeo que estamos utilizando, las vistas 
-son el alzado (vista de frente), el perfil (vista de lado) y 
-la planta (vista desde arriba).
+Las vistas son dibujos de una figura desde distintas perspectivas.
+Las vistas son el alzado (vista de frente), el perfil (vista de lado) y 
+la planta (vista desde arriba). En concreto vamos a utilizar el sistema
+europeo, que ordena la posición de las tres vistas de manera diferente
+al sistema americano.
+
+Este método de representar una figura tridimensional en varios dibujos
+se denomina `sistema diédrico <https://es.wikipedia.org/wiki/Sistema_diédrico>`_.
 
 .. image:: dibujo/_images/dibujo-vistas.png
    :width: 240px
-
+   :align: center
 
 A continuación aparecen ejercicios de obtención de vistas de una
 figura, graduados en dificultad desde el nivel básico hasta el 

@@ -5,8 +5,8 @@ Telégrafo de dos hilos
 ======================
 
 .. image:: electric/_images/electric-bornas-telegrafo.png
-     :width: 428px
-     :target: ../_downloads/electric-bornas-telegrafo.pdf
+   :width: 480px
+   :target: ../_downloads/electric-bornas-telegrafo.pdf
 
 En esta práctica vamos a realizar un telégrafo con dos
 estaciones emisoras-receptoras de código morse.

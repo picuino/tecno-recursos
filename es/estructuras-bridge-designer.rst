@@ -6,6 +6,7 @@ Diseñador de puentes
 ====================
 
 .. image:: mecan/_images/mecan-bridge-designer-01tb.jpg
+   :align: center
    :width: 640px
 
 El diseñador de puentes "Bridge Designer" proporciona una

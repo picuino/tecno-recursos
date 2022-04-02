@@ -348,3 +348,10 @@ bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
 de Andrew Michael Fitzsimon
 bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
 
+----
+
+.. image:: ley/_thumbs/balanza.png
+   :width: 120
+
+`Imagen escamas-justicia-escala-libra-147219 <https://pixabay.com/es/vectors/escamas-justicia-escala-libra-147219/>`__
+bajo `licencia libre de pixabay <https://pixabay.com/es/service/license/>`__

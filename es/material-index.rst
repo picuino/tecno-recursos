@@ -8,8 +8,9 @@
 Materiales técnicos utilizados para construir productos.
 
 .. image:: material/_thumbs/material-wall.jpg
+   :align: center
    :width: 240px
-   :alt: Materiales
+   :alt: Materiales.
 
 
 Los materiales se utilizan desde la antigüedad para construir 

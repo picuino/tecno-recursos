@@ -18,7 +18,7 @@ Cursos Code
    :height: 120px
 
 * Website: `Code Studio <https://studio.code.org/courses>`_
-* Desarrollador: Code.org
+* Desarrollador: code.org
 * Programación: por bloques (basado en `Blockly
   <https://developers.google.com/blockly/>`_)
 * Gratuita y multiplataforma
@@ -88,7 +88,7 @@ AppLab
    :height: 120px
 
 * Website: `AppLab <https://code.org/educate/applab>`_
-* Desarrollador: Code.org
+* Desarrollador: code.org
 * Programación: por bloques o en texto JavaScript
 * Gratuita y multiplataforma
 * Necesita crear una cuenta
