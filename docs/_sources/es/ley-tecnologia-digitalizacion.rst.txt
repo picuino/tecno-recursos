@@ -4,9 +4,11 @@
 Tecnología y Digitalización
 ===========================
 
-Curriculo Estatal
+Currículo Estatal
 -----------------
 
+Introducción
+^^^^^^^^^^^^
 La materia Tecnología y Digitalización es la base para comprender los
 profundos cambios que se dan en una sociedad cada día más digitalizada,
 y tiene por objeto el desarrollo de ciertas destrezas de naturaleza

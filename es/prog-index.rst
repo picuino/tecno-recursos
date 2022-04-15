@@ -20,4 +20,4 @@ Tutoriales para aprender a programar.
    prog-flowchart.rst
    prog-codeorg.rst
    scratch3-index.rst
-
+   prog-recursos.rst

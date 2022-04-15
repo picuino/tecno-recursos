@@ -16,6 +16,9 @@
    :titlesonly:
 
    ley-intro.rst
+   ley-secundaria.rst
    ley-tecnologia-digitalizacion.rst
    ley-tecnologia.rst
    ley-digitalizacion.rst
+   ley-bachillerato.rst
+   ley-tecnologia-ingenieria.rst

@@ -4,9 +4,11 @@
 Digitalización
 ==============
 
-Curriculo Estatal
+Currículo Estatal
 -----------------
 
+Introducción
+^^^^^^^^^^^^
 La materia Digitalización da respuesta a la necesidad de adaptación a
 la forma en que la sociedad actual se informa, se relaciona y produce
 conocimiento, ayudando al alumnado a satisfacer necesidades, individuales

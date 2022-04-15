@@ -30,9 +30,7 @@ La lista completa de los tutoriales de ObiJuan está en la página
 
    .. image:: freecad/_images/freecad-ventana.png
 
-
    |br|
-
 
 #. A continuación hacemos clic con el ratón en el icono para crear 
    un **nuevo documento** |icono-nuevo-documento| o bien
@@ -61,7 +59,6 @@ La lista completa de los tutoriales de ObiJuan está en la página
    han cambiado para adaptarse al nuevo banco de trabajo **Part**.
 
    |br|
-
 
 #. Haciendo clic en la barra de herramientas de **objetos sólidos**
    aparecerá en pantalla el objeto que se haya seleccionado.
@@ -103,7 +100,6 @@ La lista completa de los tutoriales de ObiJuan está en la página
    .. image:: freecad/_images/freecad-barra-visualizacion.png
    
    |br|
-
 
 -----
 

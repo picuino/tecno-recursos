@@ -7,12 +7,12 @@ Unión de piezas
 ===============
 
 En este tutorial vamos a aprender a
-unir piezas para formar una sola pieza compuesta
-por otras más pequeñas
+unir piezas para formar un solo objeto compuesto
+por otros más pequeños
 
 |br|
 
-1. Abrimos la aplicación **FreeCAD** para Windows,
+1. Abrimos la aplicación **FreeCAD**
    y hacemos clic en el icono para crear un
    **nuevo documento** |icono-nuevo-documento|.
 
@@ -98,12 +98,12 @@ por otras más pequeñas
 
    |br|
 
-#. Ahora vamos a refinar las caras del objeto para que parezca
+#. Ahora vamos a simplificar las caras del objeto para que parezca
    una sola pieza y no varias piezas unidas.
 
    Para conseguirlo, **seleccionamos el objeto Fusión**
-   En la pestaña Datos, dentro de Boolean, el valor **Refine** lo
-   cambiamos a **true**
+   En la pestaña Datos, dentro de Boolean, el valor **Refine**
+   lo cambiamos a **true**
 
    .. image:: freecad/_images/freecad-p05-refine-true.png
 
@@ -114,7 +114,7 @@ por otras más pequeñas
 
    .. image:: freecad/_images/freecad-p05-ejemplo03.png
 
-   Otra forma de conseguir refinar las caras del objeto es
+   Otra forma de conseguir simplificar las caras del objeto es
    seleccionar todas las piezas y utilizar el menú
    ``Pieza... Refinar la forma``
 

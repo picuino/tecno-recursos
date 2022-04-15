@@ -14,7 +14,7 @@ vaciados, recortes, etc.
 
 |br|
 
-1. Abrimos la aplicación **FreeCAD** para Windows,
+1. Abrimos la aplicación **FreeCAD**
    y hacemos clic en el icono para crear un
    **nuevo documento** |icono-nuevo-documento|.
 

@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Búsqueda" href="../search.html" />
-    <link rel="next" title="Diseñador de puentes" href="estructuras-bridge-designer.html" />
+    <link rel="next" title="Diseño de puentes" href="estructuras-bridge-designer.html" />
     <link rel="prev" title="Esfuerzos" href="estructuras-esfuerzos.html" /> 
 
   <script src="../_static/modernizr.min.js"></script>
@@ -120,9 +120,10 @@
             
   <div class="section" id="estabilidad">
 <span id="estructuras-estabilidad"></span><h1>Estabilidad<a class="headerlink" href="#estabilidad" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>Las estructuras, además de ser rígidas para soportar cargas sin
-romperse, deben ser estables para no volcar, deslizarse u oscilar
-ante las fuerzas externas.</p>
+<p>Las estructuras que estamos estudiando, además de ser rígidas
+para soportar cargas sin romperse ni deformarse,
+deben ser estables para no volcar, deslizarse u oscilar ante
+las fuerzas externas.</p>
 <p>Existen varios problemas que pueden presentar las estructuras
 debido a su falta de estabilidad.
 A continuación se detallan las más comunes.</p>
@@ -132,7 +133,7 @@ A continuación se detallan las más comunes.</p>
 gravedad no se encuentra sobre la base de apoyo de la estructura.</p>
 <p>El <strong>centro de gravedad</strong> es el punto medio de toda la masa de
 la estructura.
-Intuitivamente es el punto donde tenemos que apoyar la estructura
+Es el punto donde intuitivamente tenemos que apoyar la estructura
 para que esta no vuelque a un lado o a otro.
 En el caso de un martillo, su centro de gravedad se encuentra en
 el mango, muy cerca de la cabeza, que es la parte que más pesa.</p>
@@ -144,11 +145,14 @@ en el punto rojo, relativamente alto.</p>
 <p>En la primera imagen el centro de gravedad cae dentro de la
 zona de apoyo por lo que el camión es estable y no vuelca.</p>
 <p>En la segunda imagen el camión está inclinado y el centro
-de gravedad está a punto de salirse de la zona de apoyo.
+de gravedad está a punto de salir de la zona de apoyo.
 El camión está a punto de volcar.</p>
 <p>En la tercera imagen el camión se ha inclinado más y el centro
 de gravedad no está sobre la zona de apoyo. En este caso el
 camión no es estable y volcará.</p>
+<p>Para que se produzca el <strong>vuelco</strong> de una estructura, el
+centro de gravedad debe caer fuera de la zona de apoyo de
+la estructura con el suelo.</p>
 </div>
 <div class="section" id="soluciones-al-vuelco">
 <h2>Soluciones al vuelco<a class="headerlink" href="#soluciones-al-vuelco" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -200,8 +204,8 @@ producirá.</p>
 <p>Por ejemplo se puede utilizar un tubo grueso con paredes finas
 en vez de una barra maciza.
 Los dos tienen el mismo peso y la misma cantidad de hierro,
-pero el tubo hueco no pandea y la barra maciza, que es más esbelta,
-si lo hará.</p>
+pero el tubo hueco no pandea mientras que la barra maciza,
+que es más esbelta, sí lo hará.</p>
 <p>Esto se utiliza por ejemplo en las estructuras de las bicicletas.</p>
 </dd>
 <dt><strong>Sujetar el centro de la barra</strong></dt><dd><p>Si sujetamos el centro de la barra para evitar que se mueva,
@@ -243,10 +247,12 @@ Puedes ver una grabación del suceso en
 frameborder="0" allowfullscreen></iframe>
 </div><p>Sin llegar a ser tan dramáticas, las oscilaciones pueden producir en
 otros casos ruidos y vibraciones muy molestas.
-Esto se produce especialmente en las frecuencias de resonancia.
-La estructura vibra con mayor intensidad en las frecuencias de
-resonancia, sumando poco a poco los efectos de una pequeña vibración
-hasta hacerla muy grande y molesta.</p>
+Esto se produce especialmente en las frecuencias de resonancia
+que son las frecuencias en las que vibra una estructura
+de forma natural.
+Sumando poco a poco los efectos de una pequeña vibración a la misma
+frecuencia de resonancia, la oscilación, igual que en un columpio,
+puede llegar a hacerse muy grande y peligrosa para la estabilidad.</p>
 </div>
 <div class="section" id="soluciones-a-las-oscilaciones">
 <h2>Soluciones a las oscilaciones<a class="headerlink" href="#soluciones-a-las-oscilaciones" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -297,7 +303,7 @@ colapsó a raíz del paso de una tropa de soldados caminando en formación.</td>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="estructuras-bridge-designer.html" class="btn btn-neutral float-right" title="Diseñador de puentes" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="estructuras-bridge-designer.html" class="btn btn-neutral float-right" title="Diseño de puentes" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="estructuras-esfuerzos.html" class="btn btn-neutral" title="Esfuerzos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
@@ -334,7 +340,7 @@ colapsó a raíz del paso de una tropa de soldados caminando en formación.</td>
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
     a menos que se indique lo contrario.<br />
       <span class="lastupdated">
-        Actualizado por última vez, marzo de 2022.
+        Actualizado por última vez, abril de 2022.
       </span>
 
     </p>
@@ -433,7 +439,7 @@ colapsó a raíz del paso de una tropa de soldados caminando en formación.</td>
 <li class="toctree-l2"><a class="reference internal" href="estructuras-intro.html">Introducción a las Estructuras</a></li>
 <li class="toctree-l2"><a class="reference internal" href="estructuras-esfuerzos.html">Esfuerzos</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Estabilidad</a></li>
-<li class="toctree-l2"><a class="reference internal" href="estructuras-bridge-designer.html">Diseñador de puentes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="estructuras-bridge-designer.html">Diseño de puentes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="freecad-index.html">FreeCAD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="mecan-neumatic-intro.html">Neumática e hidráulica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="mecan-termicas.html">Máquinas Térmicas</a></li>

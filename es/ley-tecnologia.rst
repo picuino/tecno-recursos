@@ -4,9 +4,11 @@
 Tecnología
 ==========
 
-
-Curriculo Estatal
+Currículo Estatal
 -----------------
+
+Introducción
+^^^^^^^^^^^^
 La materia de Tecnología contribuye a dar respuesta a las necesidades de
 la ciudadanía digital ante los desafíos y retos tecnológicos que plantea
 la sociedad actual. Esta materia sirve de base no solo para comprender la

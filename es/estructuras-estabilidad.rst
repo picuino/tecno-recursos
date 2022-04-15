@@ -4,9 +4,10 @@
 
 Estabilidad
 ===========
-Las estructuras, además de ser rígidas para soportar cargas sin
-romperse, deben ser estables para no volcar, deslizarse u oscilar
-ante las fuerzas externas.
+Las estructuras que estamos estudiando, además de ser rígidas 
+para soportar cargas sin romperse ni deformarse, 
+deben ser estables para no volcar, deslizarse u oscilar ante 
+las fuerzas externas.
 
 Existen varios problemas que pueden presentar las estructuras
 debido a su falta de estabilidad.
@@ -19,22 +20,10 @@ gravedad no se encuentra sobre la base de apoyo de la estructura.
 
 El **centro de gravedad** es el punto medio de toda la masa de
 la estructura.
-Intuitivamente es el punto donde tenemos que apoyar la estructura
+Es el punto donde intuitivamente tenemos que apoyar la estructura
 para que esta no vuelque a un lado o a otro.
 En el caso de un martillo, su centro de gravedad se encuentra en
 el mango, muy cerca de la cabeza, que es la parte que más pesa.
-
-.. Si apoyamos el martillo bajo el centro de gravedad, este
-   permanece horizontal sin volcarse.
-   En el camión de la figura, el centro de gravedad se encuentra
-   en el punto rojo.
-   Cuando ese punto está sobre la base de apoyo (entre las ruedas
-   del camión), el camión será estable y no volcará.
-   Cuando el centro de gravedad no está sobre la base de apoyo,
-   el camión volcará.
-   Para que se produzca el **vuelco** de una estructura, el
-   centro de gravedad debe salir fuera de la zona de apoyo de
-   la estructura con el suelo.
 
 .. image:: mecan/_images/centro-gravedad-02.png
    :width: 240px
@@ -55,12 +44,16 @@ En la primera imagen el centro de gravedad cae dentro de la
 zona de apoyo por lo que el camión es estable y no vuelca.
 
 En la segunda imagen el camión está inclinado y el centro 
-de gravedad está a punto de salirse de la zona de apoyo. 
+de gravedad está a punto de salir de la zona de apoyo. 
 El camión está a punto de volcar.
 
 En la tercera imagen el camión se ha inclinado más y el centro 
 de gravedad no está sobre la zona de apoyo. En este caso el 
 camión no es estable y volcará.
+
+Para que se produzca el **vuelco** de una estructura, el
+centro de gravedad debe caer fuera de la zona de apoyo de
+la estructura con el suelo.
 
 
 Soluciones al vuelco
@@ -127,8 +120,8 @@ Soluciones al pandeo
   Por ejemplo se puede utilizar un tubo grueso con paredes finas
   en vez de una barra maciza.
   Los dos tienen el mismo peso y la misma cantidad de hierro,
-  pero el tubo hueco no pandea y la barra maciza, que es más esbelta,
-  si lo hará.
+  pero el tubo hueco no pandea mientras que la barra maciza, 
+  que es más esbelta, sí lo hará.
 
   Esto se utiliza por ejemplo en las estructuras de las bicicletas.
 
@@ -181,10 +174,12 @@ Puedes ver una grabación del suceso en
 
 Sin llegar a ser tan dramáticas, las oscilaciones pueden producir en
 otros casos ruidos y vibraciones muy molestas.
-Esto se produce especialmente en las frecuencias de resonancia.
-La estructura vibra con mayor intensidad en las frecuencias de
-resonancia, sumando poco a poco los efectos de una pequeña vibración
-hasta hacerla muy grande y molesta.
+Esto se produce especialmente en las frecuencias de resonancia
+que son las frecuencias en las que vibra una estructura
+de forma natural.
+Sumando poco a poco los efectos de una pequeña vibración a la misma
+frecuencia de resonancia, la oscilación, igual que en un columpio,
+puede llegar a hacerse muy grande y peligrosa para la estabilidad.
 
 
 Soluciones a las oscilaciones

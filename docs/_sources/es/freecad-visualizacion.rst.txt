@@ -10,8 +10,8 @@ una pieza en tres dimensiones.
 
 |br|
 
-1. Abrimos la aplicación **FreeCAD** para Windows, que
-   tiene el siguiente icono.
+1. Abrimos la aplicación **FreeCAD**
+   que tiene el siguiente icono.
 
    .. image:: freecad/_images/freecad-icono.png
 

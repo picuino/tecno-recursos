@@ -7,26 +7,24 @@ Introducción a las Estructuras
 
 .. image:: mecan/_images/mecan-estructuras.png
    :align: center
-   :width: 240px
+   :width: 360px
    
 
-Una **estructura** 
-es un conjunto de elementos
-destinados a soportar esfuerzos
-sin romperse ni deformarse.
+Una **estructura** es un conjunto de elementos
+destinados a soportar esfuerzos sin romperse ni deformarse.
 
 Existen multitud de estructuras en la naturaleza,
 desde el tronco que sostiene un árbol, hasta nuestro esqueleto.
-Todas ellas soportan esfuerzos para permitirnos superar la gravedad
-y movernos.
+Todas ellas soportan esfuerzos para superar la gravedad
+y en el caso de los esqueletos también permiten el movimiento.
 
 En el ámbito técnico, la construcción de estructuras para fabricar 
 viviendas, barcos o vasijas es tan antigua como la propia 
 civilización.
-Hoy en día las estructuras permiten construir edificios, automóviles,
-aviones, puentes, torres de alta tensión, presas y un sinfín de
-aparatos sin los cuales el mundo actual, tal y como lo conocemos, no 
-existiría.
+Hoy en día las estructuras pueden ser muy complejas y permiten 
+construir edificios, automóviles, aviones, puentes, torres de alta 
+tensión, presas y un sinfín de aparatos sin los cuales el mundo 
+actual, tal y como lo conocemos, no existiría.
 
 
 Tipos de estructuras
@@ -54,11 +52,12 @@ Dependiendo de sus elementos:
 | Masivas      | Formadas por una gran masa de material                  |
 |              | sin apenas huecos.                                      |
 |              |                                                         |
-|              | Presa de agua. Pirámide. Muralla china. Catedral.       |
+|              | Presa de agua. Pirámide. Murallas.                      |
 +--------------+---------------------------------------------------------+
 | Abovedadas   | Formadas por arcos y bóvedas.                           |
 |              |                                                         |
-|              | Techo de iglesia. Puente romano. Acueducto. Panteón.    |
+|              | Techo de iglesia. Puente romano. Acueducto.             |
+|              | Panteón de Roma.                                        |
 +--------------+---------------------------------------------------------+
 | Trianguladas | Formadas por barras unidas entre sí en triángulos.      |
 |              |                                                         |
@@ -83,14 +82,14 @@ Dependiendo de su movimiento:
                                                                         
 +--------------+---------------------------------------------------------+
 | Estructuras  | Se pueden desplazar o están articuladas.                |
-| móviles      | Soportan cargas sólo en un sentido y no en otros.       |
+| móviles      | Soportan cargas mientras permiten el movimiento.        |
 |              |                                                         |
 |              | Puerta con bisagra. Puerta deslizante. Puente levadizo. |
 |              | Silla con ruedas. Grúa.                                 |
 +--------------+---------------------------------------------------------+
-| Estructuras  | No se desplazan ni se mueven.                           |
+| Estructuras  | No se desplazan ni se pueden mover.                     |
 | fijas        |                                                         |
-|              | Puente. Edificio.                                       |
+|              | Puente. Edificio. Torre de alta tensión.                |
 +--------------+---------------------------------------------------------+
 
 

@@ -11,7 +11,7 @@ www.educacionplastica.net
 * `Ejercicios de vistas. Nivel básico.
   <http://www.educacionplastica.net/3dcube_model/vistas_3d_2x2.html>`_
 * `Ejercicios de vistas. Nivel medio.
-  <http://www.educacionplastica.net/zirkel/vistas13.html>`_
+  <http://www.educacionplastica.net/3dcube_model/vistas_3d_3x3.html>`_
 * `Ejercicios de modelado en 3D
   <http://www.educacionplastica.net/model3d.htm>`_
 * `Perspectiva Isométrica

@@ -2,23 +2,27 @@
 .. _estructuras-bridge-designer:
 
 
-Diseñador de puentes
-====================
+Diseño de puentes
+=================
 
 .. image:: mecan/_images/mecan-bridge-designer-01tb.jpg
    :align: center
    :width: 640px
 
-El diseñador de puentes "Bridge Designer" proporciona una
-introducción realista a la ingeniería a través de una experiencia
-de diseño auténtica y práctica.
+El programa para diseño de puentes "Bridge Designer" proporciona una
+introducción práctica a la ingeniería a través de una experiencia
+de diseño auténtica y realista.
 
 Este software proporciona las herramientas para diseñar, probar
 y optimizar un puente de acero para autopista, basado en
 especificaciones, restricciones y criterios de rendimiento realistas.
 
+Uno de los objetivos del programa es minimizar la cantidad de 
+material utilizada en la construcción, como corresponde a un criterio 
+ecológico.
+
 The Bridge Designer es un software para Windows y Mac OS X,
-gratuíto y de dominio público.
+gratuito y de dominio público.
 Se proporciona y está destinado únicamente para uso educativo.
 
 
@@ -32,6 +36,7 @@ Enlaces
   <https://sourceforge.net/projects/wpbdc/files/Current%20Release/jre/setupbdv16j.exe/download>`_
 * `Instalador Bridge Designer 1.6
   <../_static/downloads/setup-bridge-designer-v16j.zip>`_
+
 
 Tutorial
 --------
