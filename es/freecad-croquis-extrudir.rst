@@ -11,6 +11,7 @@ Este paradigma se llama geometría constructiva.
 
 A partir de ahora vamos a utilizar un método distinto.
 Primero crearemos objetos en dos dimensiones (croquis)
+con el banco de trabajo **Part Design**
 y después vamos a extrudir ese dibujo para crear el objeto final
 en tres dimensiones.
 
@@ -61,9 +62,10 @@ en tres dimensiones.
 
    .. image:: freecad/_images/freecad-p13-imagen02.png
 
-   Si no puedes ver el dibujo, Clica en el icono de
-   'Ajustar contenido completo a la pantalla'
-   |icono-ajustar-contenido|.
+   .. note:
+      Si no puedes ver el dibujo, Clica en el icono de
+      'Ajustar contenido completo a la pantalla'
+      |icono-ajustar-contenido|.
 
    |br|
 

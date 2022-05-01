@@ -7,10 +7,10 @@ Derechos de autor y propiedad intelectual
 Contenidos
 ----------
 
-Copyright (c) 2013-2021 por Carlos Pardo
+Copyright (c) 2013-2022 por Carlos Pardo
    
-Los contenidos publicados, tales como textos, imágenes,
-planos, gráficos, fotografías, etc. a menos que se 
+Los contenidos publicados, tales como **textos, imágenes,
+planos, gráficos, fotografías, etc.** a menos que se 
 indique lo contrario, se distribuyen bajo una 
 `licencia Creative Commons 
 Reconocimiento-CompartirIgual 4.0 Internacional 
@@ -69,7 +69,10 @@ Imágenes externas
 Las imágenes que se muestran a continuación están tomadas de fuentes
 externas a esta página. Cada imagen muestra junto a ella los créditos.
 
-.. =====  MATERIALES =====
+
+
+Materiales
+^^^^^^^^^^
 
 .. image:: material/_thumbs/material-wall.jpg
    :width: 120px
@@ -116,9 +119,18 @@ bajo licencia de dominio público.
 de `Ejay <https://commons.wikimedia.org/wiki/User:Ejay>`__
 bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/>`__
 
-----
 
-.. =====  MECÁNICA =====
+
+Mecánica
+^^^^^^^^
+
+.. image:: freecad/_images/freecad-logo.png
+   :width: 120px
+
+`Imagen Logotipo FreeCAD <https://es.m.wikipedia.org/wiki/Archivo:FreeCAD-logo.svg>`__
+de Yorik van Havre
+bajo `Licencia Pública General Reducida de GNU <https://en.wikipedia.org/wiki/es:GNU_Lesser_General_Public_License>`__
+
 
 .. image:: mecan/_images/mecan-columpio.png
    :width: 120px
@@ -144,9 +156,10 @@ bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https
 `Imagen banner graphic 1 <http://bridgedesigner.org/>`__
 de Stephen J. Ressler con todos los derechos reservados.
 
-----
 
-.. =====  PROGRAMACIÓN =====
+
+Programación
+^^^^^^^^^^^^
 
 .. image:: prog/_images/python-logo.png
    :width: 120px
@@ -220,7 +233,10 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://cr
 de Pierre de Coubertin
 bajo licencia de dominio público.
 
-----
+
+
+Informática
+^^^^^^^^^^^
 
 .. image:: informatica/_thumbs/informatica-computer.png
 	:width: 120px
@@ -230,9 +246,6 @@ de `AJ <https://openclipart.org/artist/AJ>`__
 bajo `licencia Creative Commons Zero 1.0 Public Domain License <http://creativecommons.org/publicdomain/zero/1.0/>`__
 
 ----
-
-
-.. =====  HTML y CSS =====
 
 .. image:: html/_thumbs/beach-01.jpg
 	:width: 120px
@@ -280,19 +293,14 @@ bajo `licencia Creative Commons Attribution 4.0 International <https://creativec
 
 ----
 
-
-.. =====  FREECAD =====
-
-.. image:: freecad/_images/freecad-logo.png
+.. image:: inkscape/_images/inkscape-logo.png
    :width: 120px
-
-`Imagen Logotipo FreeCAD <https://es.m.wikipedia.org/wiki/Archivo:FreeCAD-logo.svg>`__
-de Yorik van Havre
-bajo `Licencia Pública General Reducida de GNU <https://en.wikipedia.org/wiki/es:GNU_Lesser_General_Public_License>`__
+   
+`Imagen Logotipo oficial actual de Inkscape <https://commons.wikimedia.org/wiki/File:Inkscape_Logo.svg>`__ 
+de Andrew Michael Fitzsimon
+bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
 
 ----
-
-.. =====  INFORMATICA =====
 
 .. image:: writer/_images/writer-keyboard-480.png
    :width: 120px
@@ -321,7 +329,52 @@ de `Freepik <https://www.freepik.com>`__
 desde `Flaticon <https://www.flaticon.com/>`__ 
 bajo `licencia Freepik <https://www.freepikcompany.com/legal#nav-flaticon>`__
 
+
+
+Comunicaciones
+^^^^^^^^^^^^^^
+
+.. image:: comm/_thumbs/comm-punto-acceso.jpg
+   :width: 120
+
+`Imagen Belkin Wireless G Router F5D7231-4 Version 1000de-1121
+<https://commons.wikimedia.org/wiki/File:Belkin_Wireless_G_Router_F5D7231-4_Version_1000de-1121.jpg>`__
+de `Raimond Spekking <https://commons.wikimedia.org/wiki/User:Raymond>`__
+bajo `licencia Creative Commons Attribution-Share Alike 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__
+
 ----
+
+.. image:: comm/_thumbs/comm-optical-fiber.jpg
+   :width: 120
+
+`Imagen Optical fiber cable
+<https://commons.wikimedia.org/wiki/File:Optical_fiber_cable.jpg>`__
+de `Srleffler <https://commons.wikimedia.org/wiki/User:Srleffler>`__
+bajo `licencia Creative Commons Attribution-Share Alike 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+
+----
+
+.. image:: comm/_thumbs/comm-plc-terminal.jpg
+   :width: 120
+
+`Imagen Devolo dLAN 200 AVplus - 5016
+<https://commons.wikimedia.org/wiki/File:2016-08-17_Devolo_dLAN_200_AVplus_-_5016.jpg>`__
+de Sven Teschke / Lizenz
+bajo `licencia Creative Commons Attribution-Share Alike 3.0 de <https://creativecommons.org/licenses/by-sa/3.0/de/>`__
+
+----
+
+.. image:: comm/_thumbs/comm-cable-coaxial.jpg
+   :width: 120
+
+`Imagen Coaxial cable cut
+<https://commons.wikimedia.org/wiki/File:Coaxial_cable_cut.jpg>`__
+de FDominec
+bajo `licencia Creative Commons Attribution-Share Alike 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__
+
+
+Taller
+^^^^^^
 
 .. image:: taller/_thumbs/taller-herramientas.jpg
    :width: 120px
@@ -339,19 +392,13 @@ bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
 de `Pixabay <https://www.pexels.com/es-es/@pixabay>`__
 bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
 
-----
 
-.. image:: inkscape/_images/inkscape-logo.png
-   :width: 120px
-   
-`Imagen Logotipo oficial actual de Inkscape <https://commons.wikimedia.org/wiki/File:Inkscape_Logo.svg>`__ 
-de Andrew Michael Fitzsimon
-bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
-
-----
+Otras
+^^^^^
 
 .. image:: ley/_thumbs/balanza.png
    :width: 120
 
 `Imagen escamas-justicia-escala-libra-147219 <https://pixabay.com/es/vectors/escamas-justicia-escala-libra-147219/>`__
 bajo `licencia libre de pixabay <https://pixabay.com/es/service/license/>`__
+

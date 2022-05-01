@@ -25,3 +25,4 @@ Controladores, actuadores, sensores.
    control-actuator-servomotor.rst
    control-sensor-index.rst
    control-robots-index.rst
+   control-recursos.rst

@@ -54,7 +54,7 @@ Librería para sensores de ultrasonidos
 Para manejar los sensores de ultrasonidos existen varias librerías de
 trabajo.
 La librería estándar más precisa que se puede utilizar es
-`NewPing <https://playground.arduino.cc/Code/NewPing>`_
+`NewPing <https://bitbucket.org/teckel12/arduino-new-ping/downloads/>`_
 Para instalar la librería hay que seguir los siguientes pasos:
 
 1. Descargar la librería desde la siguiente página web:

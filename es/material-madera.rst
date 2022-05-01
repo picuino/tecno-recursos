@@ -3,7 +3,8 @@
 
 La madera y sus derivados
 =========================
-La madera es una materia prima que se obtiene del tronco de los árboles.
+La madera es una materia prima que se obtiene del tronco y ramas de los 
+árboles.
 
 
 Propiedades de la madera
@@ -14,7 +15,7 @@ algunas propiedades comunes a todas ellas.
 **Dureza de la madera**
    La dureza varía mucho entre maderas distintas. La madera de balsa
    es muy blanda y se puede rayar con mucha facilidad. 
-   En el otro extremo, la madera de ébano es bastante más dura.
+   En el otro extremo, la madera de encina es una madera muy dura.
    
    La dureza de la mayoría de las maderas cotidianas es relativamente
    blanda comparada con otros materiales como los pétreos, metales o
@@ -39,12 +40,13 @@ algunas propiedades comunes a todas ellas.
 
 **Flexibilidad de la madera**
    La madera es un material bastante flexible. Esto la hace muy apropiada
-   para fabricar mástiles de barco.
+   para fabricar mástiles de barco, árcos, piezas curvadas, etc.
 
 **Densidad de la madera**
    La madera tiene una densidad parecida al agua (1kg por litro).
    La mayoría de las maderas tienen menos densidad y flotan en el agua,
-   pero algunas maderas tienen un poco más de densidad y no flotan.
+   pero algunas maderas tienen una densidad mayor que la de el agua y no 
+   flotan.
    La densidad de la madera es ligera, parecida a los plásticos, 
    en comparación con los metales o los pétreos que son mucho más densos.
 

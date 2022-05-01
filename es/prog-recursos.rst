@@ -4,6 +4,7 @@
 Recursos para programación
 ==========================
 
+
 Antonio García el niño programador
 ----------------------------------
 
@@ -14,3 +15,9 @@ Antonio García el niño programador
    frameborder="0" allow="accelerometer; autoplay; encrypted-media;
    gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
+
+
+Videocursos de programación
+---------------------------
+`Herramientas digitales para diversos lenguajes de programación.
+<https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/>`__

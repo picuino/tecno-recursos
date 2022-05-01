@@ -7,7 +7,7 @@ Traslación de piezas
 ====================
 
 En este tutorial vamos a aprender a trasladar piezas simples
-para componer una pieza mas compleja.
+para componer otras mas complejas.
 
 |br|
 
@@ -80,9 +80,12 @@ Ejercicios
 
    .. image:: freecad/_images/freecad-p03-ejercicio01.png
 
-
    Recuerda que es necesario seleccionar un cubo antes de poder
    trasladarle por la pantalla.
+   
+   Recuerda que las coordenadas tienen que ser **múltiplos de 10**
+   para que los cubos se encuentren adosados entre sí sin espacios 
+   entre ellos y sin solapes.
 
    .. image:: freecad/_images/freecad-p03-seleccionar-cubo.png
 

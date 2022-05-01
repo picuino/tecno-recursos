@@ -27,7 +27,7 @@ Componentes electrónicos para Arduino
 | 1        | Placa `Arduino UNO <https://www.arduino.cc/en/Main/ArduinoBoardUno/>`_                                     |
 +----------+------------------------------------------------------------------------------------------------------------+
 | 1        | Cable de comunicaciones `USB con terminaciones A y B                                                       |
-|          | <http://www.skyviewelectronics.com/sites/skyviewelectronics.com/files/usb-a-to-b-cable.jpg>`_              |
+|          | <../../_downloads/arduino-uno-cable-usb.jpg>`__                                                            |
 +----------+------------------------------------------------------------------------------------------------------------+
 | **Digital**                                                                                                           |
 +----------+------------------------------------------------------------------------------------------------------------+
@@ -150,3 +150,7 @@ componentes electrónicos necesarios para realizarlos.
 
 En todos los casos será necesario añadir el controlador (Arduino UNO)
 
+
+Downloads
+---------
+:download:`Cable USB para Arduino Uno <_images/arduino-uno-cable-usb.jpg>`

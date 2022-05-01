@@ -3,8 +3,7 @@
 
 Los materiales pétreos
 ======================
-Provienen de las piedras o arenas de la naturaleza.
-
+Son los materiales que provienen de las piedras o arenas de la naturaleza.
 
 
 Propiedades de los pétreos
@@ -12,15 +11,15 @@ Propiedades de los pétreos
 
 **Propiedades mecánicas de los pétreos**
    Son materiales duros, relativamente frágiles, y con suficiente 
-   resistencia mecánica para ser muy utilizados en la construcción de
-   edificios y otras estructuras.
+   resistencia mecánica para resultar muy prácticos en la construcción
+   de edificios y otras estructuras semejantes.
 
 **Densidad**
-   En general es mayor que la del agua y varían desde los 1.5 kg/litro de
-   la arena hasta los 2.8 kg/litro de la pizarra, mármol o granito.
+   En general, es mayor que la del agua y varían desde los 1.5 kg/litro 
+   de la arena hasta los 2.8 kg/litro de la pizarra, mármol o granito.
    
-   La piedra pómez o la diatomita son excepciones con una densidad muy baja, 
-   menor que la del agua, al ser muy porosas. 
+   La piedra pómez o la diatomita son excepciones con una densidad muy 
+   baja, menor que la del agua, al ser muy porosas.
    
 **Respuesta a la luz**
    La mayoría de los materiales pétreos son opacos y tienen muy buena 
@@ -43,8 +42,8 @@ Propiedades de los pétreos
    
    El vidrio se puede fundir con facilidad y actúa como un material
    plástico muy maleable y muy dúctil mientras está caliente.
-   Puede formar hilos muy finos que sirven como refuerzo a otros materiales.
-
+   Puede formar hilos muy finos que sirven como refuerzo a otros 
+   materiales (fibra de vídrio).
 
 **Conductividad de los pétreos**
    Los materiales pétreos tienen muy poca conductividad térmica y eléctrica
@@ -53,11 +52,12 @@ Propiedades de los pétreos
    eléctricos en líneas de alta tensión y como material refractario en hornos.
 
 **Propiedades químicas de los pétreos**
-   Los pétreos son muy estables y resisten bien la oxidación y a los 
-   ácidos y cáusticos y a la radiación del sol.
+   Los pétreos son muy estables y resisten bien a los ácidos y cáusticos y
+   a la oxidación y la radiación solar.
    
-   La excepción a esto son las rocas calizas y el mármol que se ven atacados
-   por los ácidos y se deshacen poco a poco con la lluvia ácida.
+   La excepción a esto son las rocas calizas y el mármol que se ven 
+   atacados por los ácidos y se deshacen poco a poco con la lluvia ácida
+   generada por la contaminación.
 
 **Propiedades ecológicas de los pétreos**
    Los materiales pétreos suelen ser poco reciclables, excepto el vidrio
@@ -73,7 +73,8 @@ Propiedades de los pétreos
    
    El granito produce un gas radiactivo y cancerígeno llamado radón.
    Las zonas habitadas que contienen mucho granito en los alrededores
-   deben tener esto en cuenta en las construcciones.
+   deben tener esto en cuenta en las construcciones y usar buenos sistemas
+   de ventilación.
 
 
 Pétreos naturales
@@ -82,10 +83,10 @@ Pétreos naturales
 **Mármol**
    Se ha usado desde la antigüedad para construir edificios o tallar
    esculturas. En la actualidad todavía se usa en la construcción
-   para cubrir suelos o paredes de forma lujosa.
+   para cubrir suelos o paredes de aspecto lujoso.
    
-   El mármol está compuesto de caliza cristalizada por lo que le atacan 
-   los ácidos.
+   El mármol está compuesto de caliza cristalizada por lo que no es
+   resistente a los ácidos, que le deshacen.
    
 .. figure:: material/_images/material-marmol.jpg
    :align: center
@@ -99,10 +100,11 @@ Pétreos naturales
   apreciado por su gran resistencia a la erosión y a la corrosión.
   
   Se ha usado ampliamente como recubrimiento en edificios públicos
-  y monumentos. También se usa para encimeras de cocina.
+  y monumentos. También se usa en objetos cotidianos como encimeras de 
+  cocina.
   
   Al incrementarse la lluvia ácida, el granito está sustituyendo al mármol
-  para construcciones a la intemperie.
+  en construcciones a la intemperie.
 
 .. figure:: material/_images/material-granito.jpg
    :align: center
@@ -114,8 +116,9 @@ Pétreos naturales
 
 
 **Pizarra**
-   Está formada por lajas u hojas planas que la hace adecuada para fabricar
-   paneles planos usados para cubrir tejados y, antiguamente, para escribir.
+   Está formada por lajas u hojas planas y finas que la hace adecuada 
+   para fabricar paneles planos usados para cubrir tejados y, antiguamente,
+   para escribir con tiza.
 
 .. figure:: material/_images/material-pizarra.jpg
    :align: center
@@ -145,10 +148,11 @@ Pétreos naturales
 
 
 **Piedra arenisca**
-   Es la roca sedimentaria más común, compuesta de granos de cuarzo 
-   y otras rocas unidos por un cemento natural (carbonato de calcio u otros).
+   Es la roca sedimentaria más común. Está compuesta de granos de cuarzo 
+   y otras partículas unidas por un cemento natural (carbonato de calcio u 
+   otros).
    
-   Se emplea como material de construcción y piedra de afilar.
+   Se emplea como material de construcción y en piedras de afilar.
 
 .. figure:: material/_images/material-arenisca.jpg
    :align: center
@@ -165,8 +169,11 @@ Pétreos naturales
 
 Pétreos aglomerantes
 --------------------
-Están formados por polvo que se mezcla con agua para producir una pasta
-que se endurece al poco tiempo de la mezcla.
+Son materiales técnicos producidos industrialmente.
+Se presentan en forma de polvo que, mezclado con el agua, 
+produce una pasta que se puede moldear.
+Poco tiempo después de su mezcla con el agua, endurecen
+y adoptan una consistencia pétrea.
 
 **Yeso**
    Es un aglomerante de color blanco.
@@ -185,12 +192,12 @@ que se endurece al poco tiempo de la mezcla.
 
 
 **Cemento**
-   Está formado por piedra caliza y arcilla calcinadas en un horno
+   Está formado por piedra caliza y arcillas calcinadas en un horno
    a las que se añade yeso para mejorar sus propiedades.
    Generalmente es de color **gris**.
    
-   Se calcula que la producción anual es de más de 4000 millones de toneladas.
-   Su uso principal es para producción de hormigón.
+   Se calcula que la producción anual es de más de 4000 millones de 
+   toneladas. Su uso principal es la producción de hormigón.
 
 .. figure:: material/_images/material-cemento.jpg
    :align: center
@@ -202,10 +209,10 @@ que se endurece al poco tiempo de la mezcla.
 **Hormigón**
    Está formado por **cemento** mezclado con arena y grava.
    
-   El hormigón armado tiene en su interior barras de acero para mejorar
-   su resistencia.
+   El hormigón armado tiene una estructura interna de barras de acero 
+   para mejorar su resistencia.
    
-   Se utiliza para hacer vigas y suelos de los edificios, carreteras,
+   Se utiliza para hacer pilares y suelos en los edificios, carreteras,
    puentes, presas, puertos, etc.   
 
 .. figure:: material/_images/material-hormigon.jpg
@@ -218,10 +225,9 @@ que se endurece al poco tiempo de la mezcla.
 
 Pétreos cerámicos
 -----------------
-Están compuestos de un polvo fino mezclado con agua con apariencia pastosa
-que una vez conformado se hornea para que las partículas que lo forman 
-se fundan uniéndose entre sí.
-
+Están compuestos de un polvo fino mezclado con agua, con apariencia pastosa.
+Una vez modelado se hornea para unir entre sí las finas partículas por 
+fusión.
 
 **Arcilla**
    Es una roca sedimentaria formada por granos muy finos, menores de 0,004mm.
@@ -229,7 +235,8 @@ se fundan uniéndose entre sí.
    Fue la primera cerámica elaborada por los seres humanos y aún hoy es uno
    de los materiales más baratos y de más amplio uso.
    
-   Se utiliza para fabricar ladrillos, tejas, recipientes y producir cemento.
+   Se utiliza para fabricar ladrillos, tejas, recipientes y para producir 
+   cemento.
 
 .. figure:: material/_images/material-arcilla.jpg
    :align: center
@@ -240,8 +247,8 @@ se fundan uniéndose entre sí.
 
 **Loza**
    Se fabrica con arcilla mezclada con arena. Es un material poroso igual
-   que la arcilla, por lo que se suele recubrir con un barniz externo que
-   cristaliza en la cocción haciendo a la pieza impermeable.
+   que la arcilla, por lo que se suele recubrir con un barniz externo,
+   el vidriado, que cristaliza en la cocción haciendo la pieza impermeable.
    
    Se utiliza para hacer vajillas.
    
@@ -290,20 +297,21 @@ se fundan uniéndose entre sí.
 
 Vidrio
 ------
-Es un material que se obtiene fundiendo arena de sílice, caliza y 
+Es un material que se obtiene fundiendo arena de sílice, piedra caliza y 
 carbonato de sodio.
    
-Se utiliza para hacer vajillas, botellas, cerrar ventanas, parabrisas,
-espejos, lentes, material de laboratorio, etc.
+Se utiliza para hacer vajillas, botellas, cerramientos de ventanas, 
+parabrisas, espejos, lentes, material de laboratorio, etc.
    
-Con fibras de vidrio se pueden reforzar otros materiales para que tengan
-mayor resistencia mecánica (planchas de escayola, resina plástica, etc.)
-
+Con fibras de vidrio se pueden reforzar otros materiales 
+(planchas de escayola, resinas plásticas, etc.) para que adquieran
+mayor resistencia mecánica.
 
 .. figure:: material/_images/material-vidrio.jpg
    :align: center
 
    `Matthew Bowden. <https://commons.wikimedia.org/wiki/File:Colorful_bottle.jpg>`__
+
 
 Cuestionario
 ------------

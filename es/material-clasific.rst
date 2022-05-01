@@ -4,11 +4,9 @@
 Clasificación de los materiales
 ===============================
 Los materiales se pueden clasificar según muchos criterios.
-En esta unidad se verán los materiales según su procesado, según sea
-el origen de la materia prima, los tipos de materiales agrupados por
-propiedades semejantes y su clasificación según el impacto que tengan
-en el medio ambiente.
-
+En esta unidad se estudiarán los materiales según su procesado, 
+según sea el origen de la materia prima, los tipos de materiales 
+y su clasificación según el impacto que tengan en el medio ambiente.
 
 
 Clasificación según el nivel de procesado
@@ -18,24 +16,24 @@ Clasificación según el nivel de procesado
    :align: center
    :width: 480px
 
-Los materiales siguen un proceso desde que se extraen hasta que
-se convierten en un objeto útil.
+Los materiales siguen un proceso de transformación desde que se 
+extraen hasta que se convierten en un objeto útil.
 
 .. glossary::
 
    Materia prima
-      Es un material que se encuentra en la naturaleza y que se
-      puede transformar en materiales con los que se fabrican
-      productos.
+      Es un material primario que se encuentra en la naturaleza. 
+      La materia prima se puede transformar en materiales técnicos 
+      para fabricar productos.
 
-      Ejemplos de Materias primas son:
-      Lana, cuero, seda, algodón, madera, hierro, cobre, petróleo,
-      arcilla.
+      Ejemplos de materias primas son:
+      lana, cuero, seda, algodón, madera, hierro, cobre, petróleo,
+      arcilla, látex.
 
 
    Material técnico
-     Estos son materiales que se obtienen transformando las materias
-     primas. Se utilizan para fabricar productos finales.
+     Estos son los materiales que se obtienen transformando las 
+     materias primas. Se utilizan para fabricar productos terminados.
 
      Algunos ejemplos de materiales técnicos que se obtienen a partir
      de las materias primas:
@@ -51,8 +49,7 @@ se convierten en un objeto útil.
 
    Producto terminado
       Estos son los productos que podemos comprar en las tiendas.
-      Están compuestos de diversos materiales técnicos y materias
-      primas.
+      Están compuestos de diversos materiales técnicos.
 
       Ejemplos de productos terminados y los materiales que utilizan.
 
@@ -84,9 +81,9 @@ prima:
 
 Clasificación según el tipo de material
 ---------------------------------------
-Los materiales se pueden clasificar por las propiedades que tienen
-agrupando materiales que tengan propiedades semejantes, como los
-metales.
+Podemos clasificar los materiales asociando aquellos cuyas propiedades
+sean semejantes. Por ejemplo los metales, los materiales plásticos, etc.
+
 Según esta clasificación tenemos los siguientes materiales:
 
 
@@ -146,73 +143,6 @@ Según esta clasificación tenemos los siguientes materiales:
    * Termoplásticos: PET, polietileno, PVC, polipropileno, poliestireno, nailon, teflón.
    * Termoestables: baquelita, melamina, resina epoxi.
    * Elastómeros: látex, neopreno, siliconas, caucho sintético.
-
-
-Clasificación según el impacto en el medio ambiente
----------------------------------------------------
-
-.. glossary::
-
-   Materiales renovables
-
-      Son aquellos materiales que se pueden restaurar por procesos
-      naturales a una velocidad mayor de la que los consumimos.
-      Los materiales no renovables se terminarán antes o después y no
-      podremos seguir utilizándolos.
-
-Para que un material sea renovable tienen que cumplir dos
-condiciones:
-
-  1. Que el material provenga de una materia prima renovable o que
-     se pueda reciclar. Ejemplos serían la madera o el algodón.
-
-  2. Que la materia prima se consuma a menos velocidad de la que se
-     produce. Si talamos un bosque más rápido de lo que crecen los
-     árboles, la madera de ese bosque se acabará y no será
-     renovable.
-
-Ejemplos de **materiales renovables**:
-
-  * Todos los materiales de origen animal y vegetal que se consuman 
-    a la misma velocidad con la que se reponen. Madera, papel, cartón, 
-    aceite vegetal, cuero, lana, seda, bioplásticos.
-  
-  * Materiales muy abundantes y que se reciclan, como el hierro o el
-    aluminio.
-   
-
-Ejemplos de **materiales no renovables**: 
-
-   La mayoría de los plásticos que provienen del petróleo y del 
-   gas natural.
-   Hay algunos plásticos que se fabrican a partir de materias primas
-   renovables, pero hoy en día son muy pocos.
-
-
-.. glossary::
-
-   Materiales tóxicos
-
-      Son materiales que de alguna forma contaminan el entorno
-      con substancias tóxicas.
-      Algunos materiales tienen componentes tóxicos y otros se
-      convierten en tóxicos al desecharlos y descomponerse.
-      Por último algunos materiales no contienen tóxicos, pero
-      generan mucha contaminación al ser fabricados, por lo que
-      terminan contaminando el medio-ambiente.
-
-Ejemplos de materiales tóxicos:
-  * Los metales pesados como el plomo, cadmio, mercurio.
-  * Los plásticos. Algunos emiten gases tóxicos. 
-    La mayoría son tóxicos al descomponerse con el sol o al quemarse.
-  * Materiales de construcción como el granito, que desprende un
-    gas radioactivo llamado radón.
-  * Materiales que desprenden polvo cancerígeno, como el amianto,
-    con el que están fabricados muchos materiales de construcción.
-    Hoy en día está prohibida su fabricación y venta.
-  * Materiales que consumen mucha energía al producirse como el
-    aluminio, acero, hormigón no son tóxicos pero emiten CO2 al 
-    ambiente en su fabricación.
 
 
 ---------------

@@ -51,8 +51,9 @@ una pieza en tres dimensiones.
 
    |br|
 
-#. Ahora, presionando la **tecla espacio**
-   el cubo desaparecerá y aparecerá en pantalla.
+#. Ahora, al presionar la **tecla espacio** el cubo desaparecerá. 
+   Si presionamos de nuevo la tecla espacio el cubo volverá a 
+   aparecer en pantalla.
 
    Cuando el cubo es invisible, su nombre cambia a color gris.
 
@@ -64,7 +65,7 @@ una pieza en tres dimensiones.
    |br|
 
 #. Otra forma de poder ver el interior de una pieza y ver a través
-   es cambiar la propiedad de transparencia, por ejemplo al 50%.
+   de ella, es cambiar la propiedad de transparencia, por ejemplo al 50%.
 
    La propiedad de **Transparencia** está en la pestaña **Vista**.
 
@@ -89,6 +90,11 @@ una pieza en tres dimensiones.
    Una propiedad útil es cambiar el tamaño de los puntos (Point Size)
    para que sea más sencillo seleccionarlos.
 
+
+.. note::
+   Para actualizar la imagen de la pieza en pantalla 
+   presionamos la tecla de función ``F5`` o bien en el
+   Menú ``Editar... Actualizar pantalla``.
 
 -----
 

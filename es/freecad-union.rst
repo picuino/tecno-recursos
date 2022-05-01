@@ -122,7 +122,7 @@ por otros más pequeños
 
 #. Si ahora seleccionamos **Fusión** y la borramos
    (tecla Supr o menú ``Editar... Borrar``)
-   se borrará la unión de las dos piezas, pero las piezas seguirán
+   desaparecerá la unión de las dos piezas, pero las piezas seguirán
    existiendo como elementos separados.
 
    |br|

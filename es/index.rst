@@ -19,6 +19,7 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    control-index.rst
 
    informatica-index.rst
+   comm-index.rst
 
    taller-index.rst
    

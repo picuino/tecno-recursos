@@ -197,7 +197,8 @@ funciona ¿Está conectado?
 Ejercicios
 ----------
 Ejercicios para identificar circuitos en serie, 
-en paralelo o con cortocircuito.
+en paralelo, con cortocircuito en una bombilla o 
+con cortocircuito en la pila.
 
 .. image:: electric/_images/electric-serie-paralelo-logo.png
    :width: 540px

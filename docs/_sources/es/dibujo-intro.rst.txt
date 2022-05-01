@@ -51,6 +51,7 @@ El dibujo técnico como lenguaje escrito nos ayuda a:
 
 Tipos de dibujos
 ----------------
+
 .. glossary::
 
    Boceto
@@ -77,6 +78,7 @@ Tipos de dibujos
    
 Definiciones
 ------------
+
 .. glossary::
 
    Acotación

@@ -8,7 +8,7 @@ En este ejercicio se deberá hacer un mural con una linea de
 tiempo de los principales hitos ocurridos en las comunicaciones
 a distancia.
 
-.. image:: comm/comm-timeline.png
+.. image:: comm/_images/comm-timeline.png
    :width: 700px
    :target: ../_downloads/comm-timeline.pdf
 
@@ -34,8 +34,8 @@ comunicaciones y representar en una cartulina grande una linea de
 tiempo con al menos 20 de los principales hitos ordenados.
 Se deberán representar al menos 15 imágenes.
 
-| :download:`Hitos de las comunicaciones. formato PDF
+| :download:`Hitos de las comunicaciones. Formato PDF
   <comm/comm-timeline.pdf>`
 |
-| :download:`Hitos de las comunicaciones. formato DOC
+| :download:`Hitos de las comunicaciones. Formato DOC
   <comm/comm-timeline.doc>`

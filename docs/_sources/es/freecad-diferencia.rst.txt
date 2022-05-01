@@ -6,9 +6,10 @@
 Diferencia de piezas
 ====================
 
-En este tutorial vamos a aprender a
-realizar diferencias de piezas, que consiste en
-sustraerle a un objeto otro objeto.
+En este tutorial vamos a aprender a realizar transformaciones en las
+piezas mediante la operación de sustracción.
+Esto consiste en eliminar material de un objeto utilizando la forma de 
+otro.
 Esta operación es muy importante porque permite realizar taladros,
 vaciados, recortes, etc.
 

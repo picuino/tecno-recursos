@@ -71,8 +71,8 @@ girar y rotar sólidos.
 
    |br|
 
-#. Ahora añadimos un cubo más y modificamos su tamaño igual
-   que con el cubo anterior.
+#. Ahora añadimos un cubo más y modificamos su tamaño al igual
+   que hicimos con el cubo anterior.
 
    **Longitud (Lenght)** = 2
 
@@ -88,7 +88,7 @@ girar y rotar sólidos.
 
    |br|
 
-#. por último podemos trasladar la nueva pieza (Cubo001)
+#. por último, podemos trasladar la nueva pieza (Cubo001)
    a la posición
 
    x = 5, y = -1,  z = 0
@@ -171,7 +171,7 @@ Ejercicios
 
    .. image:: freecad/_images/freecad-p06-ejercicio02d.png
 
-   Ya solo falta unir las dos piezas y refinar la forma.
+   Ya solo falta unir las dos piezas y simpliplicar la forma (refine).
 
    |br|
 
