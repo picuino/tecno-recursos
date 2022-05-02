@@ -34,7 +34,9 @@
 
   {# FAVICON #}
   {%- if favicon %}
-    <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1) }}"/>
+    <link rel="icon" type="image/png" href="{{ pathto('favicon-16.png', 1) }}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ pathto('favicon-48.png', 1) }}" sizes="48x48">
+    <link rel="icon" type="image/png" href="{{ pathto('favicon-96.png', 1) }}" sizes="96x96">
   {%- endif %}
 
   {# CANONICAL URL #}

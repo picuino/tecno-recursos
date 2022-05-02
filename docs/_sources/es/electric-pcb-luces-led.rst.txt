@@ -107,8 +107,9 @@ Circuito impreso (PCB)
 <electric/electric-pcb-luces-led-gerber.zip>`
 
 Los archivos gerber sirven para solicitar la fabricación de la placa de
-circuito impreso a una empresa de fabricación de placas como puede ser 
-la empresa china `JLCPCB <https://jlcpcb.com/>`_ u otra cualquiera.
+circuito impreso a una empresa de fabricación de placas de circuito impreso
+como pueden ser `JLCPCB <https://jlcpcb.com/>`__ 
+o `PCBWay <https://www.pcbway.com/>`__.
 
 En total hay un conjunto de 7 archivos gerber diferentes, tres
 archivos para la parte frontal, 3 archivos para la capa trasera y uno para

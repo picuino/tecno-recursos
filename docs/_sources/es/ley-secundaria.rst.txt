@@ -1,8 +1,9 @@
 ﻿
 .. _ley-secundaria:
 
-Educación Secundaria
-====================
+Curriculo de Secundaria
+=======================
+Curriculo de enseñanzas mínimas en la Educación Secundaria.
 
 Currículo Estatal
 -----------------

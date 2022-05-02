@@ -1,8 +1,9 @@
 ﻿
 .. _ley-bachillerato:
 
-Bachillerato
-============
+Currículo de Bachillerato
+=========================
+Curriculo de enseñanzas mínimas en la Educación Secundaria de Bachillerato.
 
 Currículo Estatal
 -----------------

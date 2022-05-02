@@ -16,6 +16,7 @@
    :titlesonly:
 
    ley-intro.rst
+   ley-temario-tecnologia.rst
    ley-secundaria.rst
    ley-tecnologia-digitalizacion.rst
    ley-tecnologia.rst
