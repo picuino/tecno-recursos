@@ -94,9 +94,9 @@
   {%- block extrahead %} {% endblock %}
 
   {# Keep modernizr in head - http://modernizr.com/docs/#installing -#}
-  <script src="{{ pathto('_static/modernizr.min.js', 1) }}"></script>
+  <script defer src="{{ pathto('_static/modernizr.min.js', 1) }}"></script>
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8828149385712454"   crossorigin="anonymous"></script>
+  <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8828149385712454"   crossorigin="anonymous"></script>
 
 </head>
 
@@ -232,7 +232,7 @@
 
     {# XXX Sphinx 1.8.0 made this an external js-file, quick fix until we refactor the template to inherert more blocks directly from sphinx #}
     {% if sphinx_version >= "1.8.0" %}
-      <script id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
+      <script defer id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
       {%- for scriptfile in script_files %}
         {{ js_tag(scriptfile) }}
       {%- endfor %}
@@ -249,7 +249,7 @@
           };
       </script>
       {%- for scriptfile in script_files %}
-        <script src="{{ pathto(scriptfile, 1) }}"></script>
+        <script defer src="{{ pathto(scriptfile, 1) }}"></script>
       {%- endfor %}
     {% endif %}
 
@@ -257,7 +257,7 @@
 
   {%- block footer %} {% endblock %}
 
-  <script src="{{ pathto('_static/theme.js', 1) }}"></script>
+  <script defer src="{{ pathto('_static/theme.js', 1) }}"></script>
 
   <script>
       jQuery(function () {
