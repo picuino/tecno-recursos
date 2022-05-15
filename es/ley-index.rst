@@ -19,6 +19,7 @@
    ley-temario-tecnologia.rst
    ley-secundaria.rst
    ley-tecnologia-digitalizacion.rst
+   ley-ciencias-computacion.rst
    ley-tecnologia.rst
    ley-digitalizacion.rst
    ley-bachillerato.rst
