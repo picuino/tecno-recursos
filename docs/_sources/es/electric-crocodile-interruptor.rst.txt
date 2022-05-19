@@ -15,4 +15,8 @@ y pulsadores que se pueden utilizar en los circuitos eléctricos.
 
    .. image:: crocodile/_images/crocodile-interruptor03.png
 
+   .. image:: crocodile/_images/crocodile-interruptor04.png
+
+   .. image:: crocodile/_images/crocodile-interruptor05.png
+
    |br|

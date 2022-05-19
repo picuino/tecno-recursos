@@ -19,3 +19,4 @@ Prácticas de electricidad con Crocodile Clips.
    electric-crocodile-pict-lamparas-serie.rst
    electric-crocodile-pict-pilas-serie.rst
    electric-crocodile-interruptor.rst
+   electric-crocodile-laberinto.rst

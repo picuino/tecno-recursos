@@ -6,14 +6,15 @@ Los materiales textiles
 
 Son materiales que agrupan desde las telas usadas en ropa o
 muebles, hasta un balón de cuero o la vela de un barco.
-Aunque su origen es muy distinto, todos tienen en común su gran
-flexibilidad y los procesos de cosido y pegado que se utilizan en
-la fabricación.
+Aunque su origen es muy diverso, todos tienen en común su gran
+flexibilidad y los procesos de cosido o pegado que se
+utilizan en la fabricación de productos terminados.
+
 
 Hilos
 -----
 Son hebras largas fabricadas a partir del trenzado de fibras cortas de 
-origen animal, vegetal o plásticos.
+origen animal, vegetal o plástico.
 
 **Seda**
    Fibra de origen animal (gusanos de seda).
@@ -44,13 +45,17 @@ formadas por piel animal.
    Se utiliza para fabricar sombreros, faldas, chaquetas, alfombras, etc.
    Necesita en ocasiones un forro para añadir más resistencia mecánica.
 
-
 **Tejidos planos o telas**
    Están formados por varios hilos que se entrecruzan en perpendicular.
-   Se fabrican en telares.
+   Se fabrican en telares que entrelazan la trama (2) con la urdimbre (1).
+
+   .. image:: material/_images/trama-urdimbre.png
+      :height: 320px
+      :align: center
    
    Las telas se usan para fabricar todo tipo de ropa, velas, recubrimientos
    de muebles, etc.
+
 
 **Tejido de punto**
    Está fabricado haciendo muchos nudos a un único hilo (tricotaje) hasta 
@@ -59,7 +64,7 @@ formadas por piel animal.
    Se utiliza en calcetines o jerseys.
 
 **Cueros**
-   Provienen de la piel de los animales curtida. Los más utilizados son los
+   Provienen de la piel curtida de los animales. Los más utilizados son los
    cueros de vaca, cerdo y oveja.
    
    Se utilizan para fabricar zapatos, guantes, cinturones, cazadoras,

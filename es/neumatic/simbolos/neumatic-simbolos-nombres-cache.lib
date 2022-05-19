@@ -1,6 +1,22 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# simbolos_Calderin
+#
+DEF simbolos_Calderin V 0 40 Y Y 1 F N
+F0 "V" -200 -200 100 H I L CNN
+F1 "simbolos_Calderin" -100 225 50 V I C CNN
+F2 "" -150 -225 50 H I C CNN
+F3 "" -150 -225 50 H I C CNN
+DRAW
+A -375 0 135 1118 -1118 0 1 0 N -425 125 -425 -125
+A -150 0 135 -682 682 0 1 0 N -100 -125 -100 125
+P 2 0 1 0 -425 -125 -100 -125 N
+P 2 0 1 0 -100 125 -425 125 N
+X ~ ~ 50 0 63 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # simbolos_Compresor
 #
 DEF simbolos_Compresor V 0 40 Y Y 1 F N
@@ -33,6 +49,24 @@ P 2 0 1 8 -400 0 400 0 N
 ENDDRAW
 ENDDEF
 #
+# simbolos_Estrangulador
+#
+DEF simbolos_Estrangulador V 0 40 Y Y 1 F N
+F0 "V" -50 -150 100 H I L CNN
+F1 "simbolos_Estrangulador" 0 125 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+A 0 -165 141 1350 450 0 1 0 N -100 -65 100 -65
+A 0 165 141 -1350 -450 0 1 0 N -100 65 100 65
+P 2 0 1 0 -100 0 100 0 N
+P 2 1 1 0 45 78 -70 -110 N
+P 4 1 1 0 80 140 65 65 25 90 80 140 N
+X ~ ~ -150 0 50 R 50 50 1 1 O
+X ~ ~ 150 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # simbolos_Filtro_aire
 #
 DEF simbolos_Filtro_aire V 0 40 Y Y 1 F N
@@ -53,6 +87,20 @@ X ~ ~ 50 0 50 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# simbolos_Fuente_presion
+#
+DEF simbolos_Fuente_presion V 0 40 Y Y 1 F N
+F0 "V" -125 -25 100 H I L CNN
+F1 "simbolos_Fuente_presion" 25 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+C 0 125 25 0 1 0 N
+C 0 125 75 0 1 0 N
+X ~ ~ 0 0 50 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # simbolos_Lubricador
 #
 DEF simbolos_Lubricador V 0 40 Y Y 1 F N
@@ -65,6 +113,22 @@ P 2 0 1 0 -150 150 -150 75 N
 P 5 0 1 0 -150 150 -300 0 -150 -150 0 0 -150 150 N
 X ~ ~ -350 0 50 R 50 50 1 1 I
 X ~ ~ 50 0 50 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Manometro
+#
+DEF simbolos_Manometro V 0 40 Y Y 1 F N
+F0 "V" -125 -25 100 H I L CNN
+F1 "simbolos_Manometro" 25 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+C 0 175 125 0 1 0 N
+P 2 0 1 0 -30 190 100 125 N
+P 3 0 1 0 -30 190 -40 170 -100 225 N
+P 3 0 1 0 -30 190 -20 210 -100 225 N
+X ~ ~ 0 0 50 U 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
@@ -208,6 +272,38 @@ C -45 0 50 0 1 0 N
 P 2 0 1 0 0 -25 100 -25 N
 P 2 0 1 0 0 25 100 25 N
 P 2 0 1 0 100 50 100 -50 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Piston_doble_efecto
+#
+DEF simbolos_Piston_doble_efecto V 0 40 Y Y 1 F N
+F0 "V" 275 -50 100 H I L CNN
+F1 "simbolos_Piston_doble_efecto" 300 400 50 H I C CNN
+F2 "" -50 -75 50 H I C CNN
+F3 "" -50 -75 50 H I C CNN
+DRAW
+S 50 350 100 50 0 1 0 N
+S 800 225 100 175 0 1 0 N
+P 6 0 1 0 700 225 700 350 -50 350 -50 50 700 50 700 175 N
+X ~ ~ 0 0 50 U 50 50 1 1 B
+X ~ ~ 650 0 50 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# simbolos_Piston_simple_efecto
+#
+DEF simbolos_Piston_simple_efecto V 0 40 Y Y 1 F N
+F0 "V" 275 -50 100 H I L CNN
+F1 "simbolos_Piston_simple_efecto" 300 400 50 H I C CNN
+F2 "" -50 -75 50 H I C CNN
+F3 "" -50 -75 50 H I C CNN
+DRAW
+S 50 350 100 50 0 1 0 N
+S 800 225 100 175 0 1 0 N
+P 6 0 1 0 700 225 700 350 -50 350 -50 50 700 50 700 175 N
+P 7 0 1 0 100 50 200 350 300 50 400 350 500 50 600 350 700 50 N
+X ~ ~ 0 0 50 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -372,6 +468,65 @@ X ~ ~ 75 300 50 D 50 50 1 1 B
 X ~ ~ 175 -50 50 U 50 50 1 1 I
 X ~ ~ 275 -50 50 U 50 50 1 1 O
 X ~ ~ 275 300 50 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_antirretorno
+#
+DEF simbolos_Valvula_antirretorno V 0 40 Y Y 1 F N
+F0 "V" -50 -150 100 H I L CNN
+F1 "simbolos_Valvula_antirretorno" 0 125 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+P 2 0 1 0 75 0 0 -75 N
+P 2 0 1 0 75 0 0 75 N
+X ~ ~ -100 0 50 R 50 50 1 1 O
+X ~ ~ 125 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_or
+#
+DEF simbolos_Valvula_or V 0 40 Y Y 1 F N
+F0 "V" -50 -100 100 H I L CNN
+F1 "simbolos_Valvula_or" 75 250 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+C 100 100 50 0 1 0 N
+S 0 200 350 0 0 1 0 N
+P 2 0 1 0 25 100 0 100 N
+P 2 0 1 0 150 100 350 100 N
+P 2 0 1 0 175 100 175 200 N
+P 3 0 1 0 100 175 25 100 100 25 N
+P 3 0 1 0 250 175 325 100 250 25 N
+X ~ ~ -50 100 50 R 50 50 1 1 I
+X ~ ~ 175 250 50 D 50 50 1 1 O
+X ~ ~ 400 100 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_simultaneidad
+#
+DEF simbolos_Valvula_simultaneidad V 0 40 Y Y 1 F N
+F0 "V" -50 -100 100 H I L CNN
+F1 "simbolos_Valvula_simultaneidad" 75 250 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+P 2 0 1 0 50 100 300 100 N
+P 2 0 1 0 50 150 50 50 N
+P 2 0 1 0 100 75 100 0 N
+P 2 0 1 0 100 200 100 125 N
+P 2 0 1 0 250 75 250 0 N
+P 2 0 1 0 250 200 250 125 N
+P 2 0 1 0 300 150 300 50 N
+P 5 0 1 0 0 200 0 0 350 0 350 200 0 200 N
+X ~ ~ -50 100 50 R 50 50 1 1 I
+X ~ ~ 175 250 50 D 50 50 1 1 O
+X ~ ~ 400 100 50 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

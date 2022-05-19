@@ -14,13 +14,14 @@ hay algunas propiedades comunes a todos ellos.
 
 **Resistencia mecánica de los metales**
    La resistencia mecánica de la mayoría de los metales es muy buena.
-   Mejor que cualquier otro material. Esta es la razón de que se
-   utilicen para fabricar estructuras de edificios, aviones,
+   Mejor que cualquier otro material. Esta es la razón por la que se
+   utilizan para fabricar estructuras. Por ejemplo edificios, aviones,
    automóviles, barcos, etc.
 
 **Maleabilidad y Ductilidad**
-   La mayoría de los metales son muy maleables y dúctiles, lo que facilita
-   mucho poder fabricar con ellos láminas y cables finos.
+   La mayoría de los metales son muy maleables y muy dúctiles,
+   lo que facilita mucho poder fabricar con ellos láminas y
+   cables finos.
 
 **Densidad de los metales**
    Es muy variable, pero en general son mucho más densos que el agua.
@@ -46,29 +47,32 @@ hay algunas propiedades comunes a todos ellos.
    +-----------------+----------------------+
 
 **Conductividad de los metales**
-   Son buenos conductores del calor y de la electricidad. Esto hace que
-   tengan un brillo característico "metálico"
-
+   Son buenos conductores del calor y de la electricidad.
 
 **Oxidación**
    Hay metales, como el hierro, que se oxidan sin parar hasta que la
    corrosión les deshace por completo.
 
    Algunos metales como el aluminio, la plata o el plomo se oxidan
-   superficialmente y pierden su brillo metálico. Esa capa de óxido
-   superficial les protege y ya no se oxidan más, por lo que son
-   resistentes a la corrosión.
+   superficialmente y pierden su brillo metálico.
+   Esa capa de óxido superficial les protege impidiendo que progrese
+   la oxidación. Así, estos metales son resistentes a la corrosión.
 
    Otros metales como el oro, el platino o el cromo mantienen su brillo
    metálico sin oxidarse superficialmente.
 
+**Respuesta a la luz**
+   Los metales son opacos y, pulidos, reflejan bien la luz.
+   Presentan un brillo característico denominado "metálico".
 
 **Propiedades ecológicas de los metales**
-   Los metales son fácilmente reciclables muchas veces sin que se degraden.
+   Los metales son fácilmente reciclables muchas veces sin que se
+   degraden.
 
-   Muchos metales son inertes en la naturaleza, pero los metales pesados
-   son muy tóxicos para el medio ambiente.
+   Muchos metales son inertes y no reaccionan con la naturaleza,
+   oxidándose muy lentamente sin producir tóxicos.
 
+   Los metales pesados son muy tóxicos para el medio ambiente.
 
 **Otras propiedades de los metales**
    Hay metales líquidos a temperatura ambiente (mercurio y galio) que
@@ -88,11 +92,11 @@ Clasificación de los metales
 ----------------------------
 
 * **Metales ferrosos:** compuestos principalmente por hierro.
-  Son los más utilizados.
+  Son los más utilizados por su bajo precio.
 
-* **Cobre y sus aleaciones:** Cobre, bronce y latón. Son muy apreciados por
-  su buena conductividad, su resistencia mecánica (bronce) y resistencia a
-  la corrosión.
+* **Cobre y sus aleaciones:** Cobre, bronce y latón. Son muy apreciados
+  por su buena conductividad, su resistencia mecánica (bronce) y 
+  resistencia a la corrosión.
 
 * **Metales ligeros:** principalmente el aluminio, titanio, magnesio y sus
   aleaciones. Son muy útiles para fabricar aviones, prótesis, móviles,
@@ -100,198 +104,227 @@ Clasificación de los metales
 
 * **Metales pesados:** plomo, mercurio, arsénico, cadmio, cromo, níquel,
   estaño, cinc.
-  Son muy tóxicos en el medio ambiente.
+  Son muy tóxicos para el medio ambiente.
 
 * **Metales nobles:** son metales con gran resistencia a la corrosión, que
   no se oxidan. Oro, plata, platino, rodio, iridio, osmio.
 
 * **Metales de tierras raras:** neodimio, itrio, lantano, cerio
-  Se utilizan para formar aleaciones, productos electrónicos, imanes de alto
-  rendimiento y superconductores.
+  Se utilizan para formar aleaciones, productos electrónicos, imanes de 
+  alto rendimiento y superconductores.
 
 
 Metales ferrosos
 ----------------
 Son aquellos que están formados principalmente por hierro.
-El hierro puro es un metal con malas propiedades mecánicas, por lo que
-se suele mezclar en aleaciones.
+El hierro puro es un metal con malas propiedades mecánicas,
+por lo que éstas suelen mejorarse por medio de aleaciones.
 
 Su densidad es relativamente alta (7.8 kg/litro).
 
-**Acero**
-   Es una aleación de hierro con carbón (entre el 0.08% y el 2%).
-   Es uno de los metales más utilizados para todo tipo de productos
-   y estructuras por ser el metal más barato, con mayor resistencia
-   mecánica (de 50 a 200 kg/mm2) y muy tenaz.
+.. glossary::
 
-**Fundición**
-   Es una aleación de hierro con carbón (entre 2.1% y 4.5%).
-   Son más frágiles que los aceros y con menor punto de fusión.
-   Resisten muy bien la oxidación.
-   Se utilizan por ejemplo para fabricar tapas de alcantarilla,
-   estufas y chimeneas, carcasas de bombas de agua, etc.
+   Acero
+      Es una aleación de hierro con carbón (entre el 0.08% y el 2%).
+      Es uno de los metales más utilizados para todo tipo de productos
+      y estructuras por ser el metal más barato, con mayor resistencia
+      mecánica (de 50 a 200 kg/mm2) y muy tenaz.
 
-**Acero inoxidable**
-   Es una aleación de hierro con cromo (mas del 10%).
-   Es muy resistente a la corrosión y se utiliza en
-   cacharros de cocina, cubertería, lavabos, tuberías, etc.
+   Fundición
+      Es una aleación de hierro con carbón (entre 2.1% y 4.5%).
+      Son más frágiles que los aceros y con menor punto de fusión.
+      Resisten muy bien la oxidación.
+      Se utilizan por ejemplo para fabricar tapas de alcantarilla,
+      estufas y chimeneas, carcasas de bombas de agua, etc.
 
-**Ferrita**
-   Está compuesta sobre todo por hierro alfa puro, aunque en ocasiones
-   se alea con níquel, zinc o manganeso.
-   Tiene propiedades magnéticas por lo que se utiliza para fabricar
-   transformadores, filtros para cables, imanes, etc.
+   Acero inoxidable
+      Es una aleación de hierro con cromo (mas del 10%).
+      Es muy resistente a la corrosión y se utiliza en
+      utensilios de cocina, cubertería, lavabos, tuberías, etc.
+
+   Ferrita
+      Está compuesta sobre todo por hierro *alfa* puro de aspecto
+      oscuro. En ocasiones se alea con cobalto, níquel, zinc o manganeso.
+
+      Tiene propiedades magnéticas por lo que se puede utilizar
+      para fabricar transformadores, filtros para cables, imanes, etc.
 
 
 Cobre y sus aleaciones
 ----------------------
 
-**Cobre**
-   Es un metal rojizo muy buen conductor del calor.
+.. glossary::
 
-   Muy utilizado para fabricar cables, tuberías, intercambiadores de calor,
-   monedas, pigmentos, etc.
-   Fue el primer metal utilizado en la prehistoria, dando nombre a la
-   Edad del Cobre.
+   Cobre
+      Es un metal rojizo muy buen conductor del calor.
 
-**Bronce**
-   Aleación de cobre y estaño (del 3% al 20%).
-   Es muy resistente al roce y a la corrosión.
+      Muy utilizado para fabricar cables, tuberías, intercambiadores
+      de calor, monedas, pigmentos, etc.
+      Fue el primer metal utilizado en la prehistoria, dando nombre a la
+      Edad del Cobre.
 
-   Se utiliza para construir instrumentos musicales, hélices de barco,
-   o esculturas.
+   Bronce
+      Aleación de cobre y estaño (del 3% al 20%).
+      Es muy resistente al roce y a la corrosión.
 
-   Fue la primera aleación obtenida por la humanidad y da su nombre
-   a la Edad del Bronce.
+      Se utiliza para construir instrumentos musicales, hélices de barco,
+      o esculturas.
+
+      Fue la primera aleación obtenida por la humanidad y da su nombre
+      a la Edad del Bronce.
 
 
-**Latón**
-   Es una aleación de cobre y zinc.
+   Latón
+      Es una aleación de cobre y zinc.
 
-   Tiene un color característico dorado, parecido al oro, por lo que
-   se utiliza mucho en decoración y bisutería.
-   También  Se utiliza para fabricar cerraduras, cerrojos, picaportes,
-   grifos, jarrones, etc.
+      Tiene un color característico dorado, parecido al oro, por lo que
+      se utiliza mucho en decoración y bisutería.
+      También  Se utiliza para fabricar cerraduras, cerrojos, picaportes,
+      grifos, jarrones, etc.
 
 
 Metales ligeros
 ---------------
 
-**Aluminio**
-   Es el metal más utilizado después del acero por ser barato,
-   tener baja densidad (2.8 kg/litro) y muy buena resistencia a la corrosión.
-   En estado puro es muy blando y con baja resistencia mecánica, pero aleado
-   de forma adecuada aumenta mucho su resistencia mecánica hasta
-   los 70 kg/mm2.
+.. glossary::
 
-   Es muy dúctil y maleable y se puede extrudir con mucha facilidad.
+   Aluminio
+      Es el metal más utilizado después del acero por ser barato,
+      tener baja densidad (2.8 kg/litro) y muy buena resistencia a la
+      corrosión.
+      En estado puro es muy blando y con baja resistencia mecánica,
+      pero aleado de forma adecuada aumenta mucho su resistencia
+      mecánica hasta los 70 kg/mm2.
 
-   Se utiliza para fabricar marcos de ventanas, papel metálico, latas,
-   aviones, cables eléctricos, etc.
+      Es muy dúctil y maleable y se puede extrudir con mucha facilidad.
 
-   A pesar de ser el metal más abundante de la corteza terrestre
-   durante el siglo XIX su producción era tan costosa que se consideraba un
-   material exótico con un precio enorme, mayor que el oro.
-   A partir de 1900, gracias a la dinamo para producir la electricidad
-   necesaria para aislar el aluminio y otras técnicas químicas, su producción
-   fue aumentando sin parar hasta la actualidad.
+      Se utiliza para fabricar marcos de ventanas, papel metálico, latas,
+      aviones, cables eléctricos, etc.
 
+      A pesar de ser el metal más abundante de la corteza terrestre
+      durante el siglo XIX su producción era tan costosa que se
+      consideraba un material exótico con un precio enorme, mayor que el
+      oro.
+      
+      A partir de 1900 su producción fue aumentando sin parar hasta la 
+      actualidad. Esto se debió a la invención de técnicas químicas 
+      (proceso Bayer) y a la aplicación de la dinamo que permite 
+      producir la electricidad necesaria para aislar el aluminio por 
+      electrólisis.
 
-**Titanio**
-   Es un metal de color gris de baja densidad (4.5 kg/litro) muy resistente
-   a la corrosión y con buena resistencia mecánica, hasta los 140 kg/mm2.
+   Titanio
+      Es un metal de color gris de baja densidad (4.5 kg/litro) muy 
+      resistente a la corrosión y con buena resistencia mecánica, hasta 
+      los 140 kg/mm2.
 
-   Tiene la mejor relación dureza/densidad de todos los metales. Es casi
-   tan fuerte como los aceros, pero con menor densidad.
+      Tiene la mejor relación dureza/densidad de todos los metales. 
+      Es casi tan fuerte como los aceros, pero con menor densidad.
 
-   Gracias a sus propiedades es muy apreciado para construir prótesis médicas,
-   maquinaria aeroespacial, transporte de productos químicos, etc.
-   Con el óxido de titanio se fabrican pinturas y plásticos blancos
-   con un color muy puro y muy buena resistencia a la radiación solar.
+      Gracias a sus propiedades es muy apreciado para construir prótesis 
+      médicas, maquinaria aeroespacial, transporte de productos químicos, 
+      etc.
+      Con el óxido de titanio se fabrican pinturas y plásticos blancos
+      con un color muy puro y muy buena resistencia a la radiación solar.
 
 
 Metales pesados
 ---------------
 
-**Plomo**
-   Es un metal de color gris oscuro, que se funde con facilidad (327ºC).
+.. glossary::
 
-   Se utiliza en soldadura de componentes electrónicos, baterías de
-   automóvil, blindajes anti-radiaciones, pigmentos, balas, etc.
+   Plomo
+      Es un metal de color gris oscuro, que se funde con facilidad (327ºC).
 
-   En la actualidad se tiende a reducir su uso por ser altamente contaminante.
-   Por ejemplo los productos electrónicos utilizan cada vez más soldaduras
-   y componentes basados en plata para evitar el uso de plomo.
+      Se utiliza en soldadura de componentes electrónicos, baterías de
+      automóvil, blindajes anti-radiaciones, pigmentos, balas, etc.
 
+      En la actualidad se tiende a reducir su uso por ser altamente 
+      contaminante.
+      Por ejemplo los productos electrónicos utilizan cada vez más 
+      soldaduras y componentes basados en plata para evitar el uso de 
+      plomo.
 
-**Mercurio**
-   Es un metal líquido a temperatura ambiente con color plateado brillante.
+   Mercurio
+      Es un metal líquido a temperatura ambiente de color plateado
+      brillante.
 
-   Su uso se está intentando reducir en lo posible para evitar su toxicidad.
+      Se está intentando reducir su uso en lo posible para evitar 
+      las consecuencias de su toxicidad.
 
-   Se utiliza para fabricar fluorescentes, termómetros, amalgama para
-   empastes, pilas, etc.
+      Se utiliza para fabricar fluorescentes, termómetros, amalgama para
+      empastes, pilas, etc.
 
+   Estaño
+      Es un metal de color blanco brillante. Es muy blando y no se oxida.
 
-**Estaño**
-   Es un metal de color blanco brillante. Es muy blando y no se oxida.
+      La **hojalata** es acero recubierto de una fina capa de estaño y se
+      utiliza en las latas de conserva. Otros usos del estaño son la
+      soldadura de componentes electrónicos, fabricar bronce y vidrio,
+      pigmentos, sobretapón de las botellas de vino, etc.
 
-   La **hojalata** es acero recubierto de una fina capa de estaño y se
-   utiliza en las latas de conserva. Otros usos del estaño son la
-   soldadura de componentes electrónicos, fabricar bronce y vidrio,
-   pigmentos, sobretapón de las botellas de vino, etc.
+   Zinc
+      Es un metal de color blanco brillante y blando.
 
+      Se utiliza, aleado con cobre, para producir latón.
+      Puede recubrir piezas de hierro en un proceso llamado
+      **galvanización** que evita su oxidación.
+      También se encuentra en las pilas eléctricas.
+      
+   Cromo
+      Es un metal de color blanco agrisado, duro, frágil y muy resistente 
+      a la corrosión.
 
-**Cromo**
-   Es un metal de color blanco agrisado, duro, frágil y muy resistente a
-   la corrosión.
+      Se utiliza aleado con acero para fabricar acero inoxidable.
+      El **cromado** consiste en depositar una capa protectora de cromo
+      sobre otro material (plástico, otros metales, etc) dando un aspecto
+      brillante que no se oxida.
+      Otras aplicaciones son pinturas, curtido de cuero, catalizadores,
+      etc.
 
-   Se utiliza aleado con acero para fabricar acero inoxidable.
-   El cromado consiste en depositar una capa protectora de cromo
-   sobre otro material (plástico, otros metales, etc) dando un aspecto
-   brillante que no se oxida.
-   Otras aplicaciones son pinturas, curtido de cuero, catalizadores, etc.
+   Níquel
+      Es un metal color blanco con un ligero tono amarillo.
 
+      Se utiliza aleado con acero para fabricar acero inoxidable.
+      Las aleaciones cobre-níquel son muy resistentes a la corrosión
+      y se utilizan para fabricar motores marinos, industria química o
+      acuñar monedas.
 
-**Níquel**
-   Es un metal color blanco con un ligero tono amarillo.
-   
-   Se utiliza aleado con acero para fabricar acero inoxidable.
-   Las aleaciones cobre-níquel son muy resistentes a la corrosión 
-   y se utilizan para fabricar motores marinos, industria química o 
-   acuñar monedas. 
+   Cadmio
+      Es un metal de color blanco azulado.
 
-
-**Cadmio**
-   Es un metal de color blanco azulado.
-   
-   Se utiliza en baterías de Níquel-Cadmio recargables, para 
-   fabricar cojinetes con baja fricción y mucha resistencia a la fatiga.
+      Se utiliza en baterías de Níquel-Cadmio recargables, para
+      fabricar cojinetes con baja fricción y mucha resistencia a la fatiga.
 
 
 Metales nobles
 --------------
 
-**Oro**
-   Es un metal de color dorado, blando, muy dúctil, muy resistente a la 
-   oxidación y muy buen conductor eléctrico.
-   
-   La mayor parte del oro (70%) se utiliza en joyería o como 
-   inversión de dinero. Solo el 10% se utiliza en aplicaciones industriales.
-   Se usa para cubrir contactos eléctricos que no se oxidan, 
-   cables eléctricos de los chips, reflector de luz en los cristales, etc.
+.. glossary::
 
-**Platino**
-   Es un metal blanco grisáceo.
-   
-   Se emplea en joyería, contactos eléctricos, empastes, y catalizadores.
+   Oro
+      Es un metal de color dorado, blando, muy dúctil, muy resistente a la
+      oxidación y muy buen conductor eléctrico.
 
-**Rodio**
-   Metal de color blanco plateado.
-   
-   Se utiliza como catalizador de óxidos nitrosos de los automóviles y no 
-   tiene sustituto por lo que su precio se ha elevado tanto que actualmente 
-   es el metal precioso más caro, muy por encima del precio del oro.
+      La mayor parte del oro (70%) se utiliza en joyería o como
+      inversión. 
+      Solo el 10% se utiliza en aplicaciones industriales.
+      
+      Se usa para cubrir contactos eléctricos que no se oxidan,
+      cables eléctricos de los chips, reflector de luz en los cristales, 
+      etc.
+
+   Platino
+      Es un metal blanco grisáceo.
+
+      Se emplea en joyería, contactos eléctricos, empastes, y catalizadores.
+
+   Rodio
+      Metal de color blanco plateado.
+
+      Se utiliza como catalizador de óxidos nitrosos de los automóviles y 
+      no tiene sustituto. Por esa razón su precio se ha elevado tanto que 
+      actualmente es el metal precioso más caro, con un precio muy 
+      superior al del oro.
 
 
 Precio de los metales
@@ -304,13 +337,14 @@ a día 1 de julio de 2021.
 Metal          Precio €/kg
 =============  =============
 Acero[1]         0.52
+Plomo	           1.89
+Aluminio	        2.09
+Zinc	           2.47
 Cobre	           7.86
 Bronce	       10.23
-Aluminio	        2.09
+Titanio         12.30
 Níquel	       15.22
-Plomo	           1.89
 Estaño	       27.59
-Zinc	           2.47
 Cobalto         42.49
 =============  =============
 
@@ -334,4 +368,5 @@ Cuestionario
 ------------
 Cuestionario de tipo test sobre los materiales metálicos.
 
-`Cuestionario. Materiales metálicos. <https://www.picuino.com/test/es-material-metals.html>`__
+`Cuestionario. Materiales metálicos. 
+<https://www.picuino.com/test/es-material-metals.html>`__

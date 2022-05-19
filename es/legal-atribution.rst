@@ -74,6 +74,15 @@ externas a esta página. Cada imagen muestra junto a ella los créditos.
 Materiales
 ^^^^^^^^^^
 
+.. image:: material/_thumbs/trama-urdimbre.png
+   :width: 120px
+
+`Imagen <https://commons.wikimedia.org/wiki/File:Kette_und_Schu%C3%9F_num_col.png>`__
+de Kette_und_Schuß.png
+bajo `licencia Creative Commons Attribution-Share Alike 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+
+----
+      
 .. image:: material/_thumbs/material-wall.jpg
    :width: 120px
 

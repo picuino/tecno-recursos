@@ -183,17 +183,6 @@ F 3 "" H 850 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simbolos:Marco_1 M?
-U 1 1 6280C8BA
-P 5500 750
-F 0 "M?" H 5625 575 100 0001 C CNN
-F 1 "Marco_1" H 5650 700 50  0001 C CNN
-F 2 "" H 5550 600 50  0001 C CNN
-F 3 "" H 5550 600 50  0001 C CNN
-	1    5500 750 
-	1    0    0    -1  
-$EndComp
-$Comp
 L simbolos:Valvula_virtual V?
 U 1 1 6280DBBF
 P 850 5375
@@ -556,6 +545,495 @@ F 1 "Regulador_presion" V 3675 4100 50  0001 C CNN
 F 2 "" V 3275 4100 50  0001 C CNN
 F 3 "" V 3275 4100 50  0001 C CNN
 	1    3600 4050
+	1    0    0    -1  
+$EndComp
+Text Notes 4225 4725 0    100  ~ 0
+MANÓMETRO
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6282539B
+P 2850 4350
+F 0 "M?" H 2975 4175 100 0001 C CNN
+F 1 "Marco_1" H 3000 4300 50  0001 C CNN
+F 2 "" H 2900 4200 50  0001 C CNN
+F 3 "" H 2900 4200 50  0001 C CNN
+	1    2850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Manometro V?
+U 1 1 62825824
+P 3500 4800
+F 0 "V?" H 3375 4775 100 0001 L CNN
+F 1 "Manometro" H 3525 5100 50  0001 C CNN
+F 2 "" H 3500 4675 50  0001 C CNN
+F 3 "" H 3500 4675 50  0001 C CNN
+	1    3500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_2 M?
+U 1 1 6282606C
+P 2850 250
+F 0 "M?" H 2950 50  100 0001 C CNN
+F 1 "Marco_2" H 3250 50  50  0001 C CNN
+F 2 "" H 2900 -25 50  0001 C CNN
+F 3 "" H 2900 -25 50  0001 C CNN
+F 4 "UNIDAD DE PRESIÓN" H 4150 75  100 0000 C CNN "Field4"
+F 5 "SÍMBOLO" H 3475 -150 75  0000 C CNN "Field5"
+F 6 "NOMBRE" H 4825 -150 75  0000 C CNN "Field7"
+	1    2850 250 
+	1    0    0    -1  
+$EndComp
+Text Notes 4225 5325 0    100  ~ 0
+DEPÓSITO
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 628278E9
+P 2850 4950
+F 0 "M?" H 2975 4775 100 0001 C CNN
+F 1 "Marco_1" H 3000 4900 50  0001 C CNN
+F 2 "" H 2900 4800 50  0001 C CNN
+F 3 "" H 2900 4800 50  0001 C CNN
+	1    2850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Calderin V?
+U 1 1 62827DAA
+P 3725 5250
+F 0 "V?" H 3525 5050 100 0001 L CNN
+F 1 "Calderin" V 3625 5475 50  0001 C CNN
+F 2 "" H 3575 5025 50  0001 C CNN
+F 3 "" H 3575 5025 50  0001 C CNN
+	1    3725 5250
+	1    0    0    -1  
+$EndComp
+Text Notes 4225 6000 0    100  ~ 0
+FUENTE DE\nPRESIÓN
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 62829AA3
+P 2850 5550
+F 0 "M?" H 2975 5375 100 0001 C CNN
+F 1 "Marco_1" H 3000 5500 50  0001 C CNN
+F 2 "" H 2900 5400 50  0001 C CNN
+F 3 "" H 2900 5400 50  0001 C CNN
+	1    2850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Fuente_presion V?
+U 1 1 6282DABC
+P 3500 5750
+F 0 "V?" H 3375 5725 100 0001 L CNN
+F 1 "Fuente_presion" H 3525 6050 50  0001 C CNN
+F 2 "" H 3500 5625 50  0001 C CNN
+F 3 "" H 3500 5625 50  0001 C CNN
+	1    3500 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:Piston_simple_efecto V?
+U 1 1 628335AA
+P 5750 1225
+F 0 "V?" H 6025 1175 100 0001 L CNN
+F 1 "Piston_simple_efecto" H 6050 1625 50  0001 C CNN
+F 2 "" H 5700 1150 50  0001 C CNN
+F 3 "" H 5700 1150 50  0001 C CNN
+	1    5750 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_2 M?
+U 1 1 62834908
+P 5500 250
+F 0 "M?" H 5600 50  100 0001 C CNN
+F 1 "Marco_2" H 5900 50  50  0001 C CNN
+F 2 "" H 5550 -25 50  0001 C CNN
+F 3 "" H 5550 -25 50  0001 C CNN
+F 4 "ACCIONADORES NEUMÁTICOS" H 6800 75  100 0000 C CNN "Field4"
+F 5 "SÍMBOLO" H 6125 -150 75  0000 C CNN "Field5"
+F 6 "NOMBRE" H 7475 -150 75  0000 C CNN "Field7"
+	1    5500 250 
+	1    0    0    -1  
+$EndComp
+Text Notes 6875 1200 0    100  ~ 0
+PISTON DE \nSIMPLE EFECTO
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 628357D3
+P 5500 750
+F 0 "M?" H 5625 575 100 0001 C CNN
+F 1 "Marco_1" H 5650 700 50  0001 C CNN
+F 2 "" H 5550 600 50  0001 C CNN
+F 3 "" H 5550 600 50  0001 C CNN
+	1    5500 750 
+	1    0    0    -1  
+$EndComp
+Text Notes 6875 1800 0    100  ~ 0
+PISTON DE \nDOBLE EFECTO
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 62836992
+P 5500 1350
+F 0 "M?" H 5625 1175 100 0001 C CNN
+F 1 "Marco_1" H 5650 1300 50  0001 C CNN
+F 2 "" H 5550 1200 50  0001 C CNN
+F 3 "" H 5550 1200 50  0001 C CNN
+	1    5500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Piston_doble_efecto V?
+U 1 1 62836ECB
+P 5750 1825
+F 0 "V?" H 6025 1775 100 0001 L CNN
+F 1 "Piston_doble_efecto" H 6050 2225 50  0001 C CNN
+F 2 "" H 5700 1750 50  0001 C CNN
+F 3 "" H 5700 1750 50  0001 C CNN
+	1    5750 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_2 M?
+U 1 1 62839E2B
+P 2850 6850
+F 0 "M?" H 2950 6650 100 0001 C CNN
+F 1 "Marco_2" H 3250 6650 50  0001 C CNN
+F 2 "" H 2900 6575 50  0001 C CNN
+F 3 "" H 2900 6575 50  0001 C CNN
+F 4 "VÁLVULAS AUXILIARES" H 4150 6675 100 0000 C CNN "Field4"
+F 5 "SÍMBOLO" H 3475 6450 75  0000 C CNN "Field5"
+F 6 "NOMBRE" H 4825 6450 75  0000 C CNN "Field7"
+	1    2850 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 4225 7800 0    100  ~ 0
+VÁLVULA\nANTIRRETORNO
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6283A814
+P 2850 7350
+F 0 "M?" H 2975 7175 100 0001 C CNN
+F 1 "Marco_1" H 3000 7300 50  0001 C CNN
+F 2 "" H 2900 7200 50  0001 C CNN
+F 3 "" H 2900 7200 50  0001 C CNN
+	1    2850 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Valvula_antirretorno V?
+U 1 1 6283C5D6
+P 3475 7650
+F 0 "V?" H 3425 7500 100 0001 L CNN
+F 1 "Valvula_antirretorno" H 3475 7775 50  0001 C CNN
+F 2 "" H 3475 7525 50  0001 C CNN
+F 3 "" H 3475 7525 50  0001 C CNN
+	1    3475 7650
+	1    0    0    -1  
+$EndComp
+Text Notes 4175 8325 0    100  ~ 0
+ESTRANGULADOR
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6283FF54
+P 2850 7950
+F 0 "M?" H 2975 7775 100 0001 C CNN
+F 1 "Marco_1" H 3000 7900 50  0001 C CNN
+F 2 "" H 2900 7800 50  0001 C CNN
+F 3 "" H 2900 7800 50  0001 C CNN
+	1    2850 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Estrangulador V?
+U 1 1 62841597
+P 3500 8250
+F 0 "V?" H 3450 8100 100 0001 L CNN
+F 1 "Estrangulador" H 3500 8375 50  0001 C CNN
+F 2 "" H 3500 8125 50  0001 C CNN
+F 3 "" H 3500 8125 50  0001 C CNN
+	1    3500 8250
+	1    0    0    -1  
+$EndComp
+Text Notes 4225 9000 0    100  ~ 0
+VÁLVULA DE\nSIMULTANEIDAD
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 62845313
+P 2850 8550
+F 0 "M?" H 2975 8375 100 0001 C CNN
+F 1 "Marco_1" H 3000 8500 50  0001 C CNN
+F 2 "" H 2900 8400 50  0001 C CNN
+F 3 "" H 2900 8400 50  0001 C CNN
+	1    2850 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Valvula_simultaneidad V?
+U 1 1 62845FA3
+P 3325 8950
+F 0 "V?" H 3275 8850 100 0001 L CNN
+F 1 "Valvula_simultaneidad" H 3400 9200 50  0001 C CNN
+F 2 "" H 3325 8825 50  0001 C CNN
+F 3 "" H 3325 8825 50  0001 C CNN
+	1    3325 8950
+	1    0    0    -1  
+$EndComp
+Text Notes 4225 9525 0    100  ~ 0
+VÁLVULA OR
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 62849FC2
+P 2850 9150
+F 0 "M?" H 2975 8975 100 0001 C CNN
+F 1 "Marco_1" H 3000 9100 50  0001 C CNN
+F 2 "" H 2900 9000 50  0001 C CNN
+F 3 "" H 2900 9000 50  0001 C CNN
+	1    2850 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Valvula_or V?
+U 1 1 6284A7B6
+P 3325 9550
+F 0 "V?" H 3275 9450 100 0001 L CNN
+F 1 "Valvula_or" H 3400 9800 50  0001 C CNN
+F 2 "" H 3325 9425 50  0001 C CNN
+F 3 "" H 3325 9425 50  0001 C CNN
+	1    3325 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284D037
+P 5500 1950
+F 0 "M?" H 5625 1775 100 0001 C CNN
+F 1 "Marco_1" H 5650 1900 50  0001 C CNN
+F 2 "" H 5550 1800 50  0001 C CNN
+F 3 "" H 5550 1800 50  0001 C CNN
+	1    5500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284D4C6
+P 5500 2550
+F 0 "M?" H 5625 2375 100 0001 C CNN
+F 1 "Marco_1" H 5650 2500 50  0001 C CNN
+F 2 "" H 5550 2400 50  0001 C CNN
+F 3 "" H 5550 2400 50  0001 C CNN
+	1    5500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284D761
+P 5500 3150
+F 0 "M?" H 5625 2975 100 0001 C CNN
+F 1 "Marco_1" H 5650 3100 50  0001 C CNN
+F 2 "" H 5550 3000 50  0001 C CNN
+F 3 "" H 5550 3000 50  0001 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284DBDA
+P 5500 3750
+F 0 "M?" H 5625 3575 100 0001 C CNN
+F 1 "Marco_1" H 5650 3700 50  0001 C CNN
+F 2 "" H 5550 3600 50  0001 C CNN
+F 3 "" H 5550 3600 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284DFC6
+P 2850 9750
+F 0 "M?" H 2975 9575 100 0001 C CNN
+F 1 "Marco_1" H 3000 9700 50  0001 C CNN
+F 2 "" H 2900 9600 50  0001 C CNN
+F 3 "" H 2900 9600 50  0001 C CNN
+	1    2850 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284E3CB
+P 2850 10350
+F 0 "M?" H 2975 10175 100 0001 C CNN
+F 1 "Marco_1" H 3000 10300 50  0001 C CNN
+F 2 "" H 2900 10200 50  0001 C CNN
+F 3 "" H 2900 10200 50  0001 C CNN
+	1    2850 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284E764
+P 200 8550
+F 0 "M?" H 325 8375 100 0001 C CNN
+F 1 "Marco_1" H 350 8500 50  0001 C CNN
+F 2 "" H 250 8400 50  0001 C CNN
+F 3 "" H 250 8400 50  0001 C CNN
+	1    200  8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284EB2D
+P 200 9150
+F 0 "M?" H 325 8975 100 0001 C CNN
+F 1 "Marco_1" H 350 9100 50  0001 C CNN
+F 2 "" H 250 9000 50  0001 C CNN
+F 3 "" H 250 9000 50  0001 C CNN
+	1    200  9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284EE56
+P 200 9750
+F 0 "M?" H 325 9575 100 0001 C CNN
+F 1 "Marco_1" H 350 9700 50  0001 C CNN
+F 2 "" H 250 9600 50  0001 C CNN
+F 3 "" H 250 9600 50  0001 C CNN
+	1    200  9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284F1BE
+P 200 10350
+F 0 "M?" H 325 10175 100 0001 C CNN
+F 1 "Marco_1" H 350 10300 50  0001 C CNN
+F 2 "" H 250 10200 50  0001 C CNN
+F 3 "" H 250 10200 50  0001 C CNN
+	1    200  10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6284F5F5
+P 5500 4350
+F 0 "M?" H 5625 4175 100 0001 C CNN
+F 1 "Marco_1" H 5650 4300 50  0001 C CNN
+F 2 "" H 5550 4200 50  0001 C CNN
+F 3 "" H 5550 4200 50  0001 C CNN
+	1    5500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 628501B2
+P 5500 4950
+F 0 "M?" H 5625 4775 100 0001 C CNN
+F 1 "Marco_1" H 5650 4900 50  0001 C CNN
+F 2 "" H 5550 4800 50  0001 C CNN
+F 3 "" H 5550 4800 50  0001 C CNN
+	1    5500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 628504BD
+P 5500 5550
+F 0 "M?" H 5625 5375 100 0001 C CNN
+F 1 "Marco_1" H 5650 5500 50  0001 C CNN
+F 2 "" H 5550 5400 50  0001 C CNN
+F 3 "" H 5550 5400 50  0001 C CNN
+	1    5500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 62850770
+P 5500 6150
+F 0 "M?" H 5625 5975 100 0001 C CNN
+F 1 "Marco_1" H 5650 6100 50  0001 C CNN
+F 2 "" H 5550 6000 50  0001 C CNN
+F 3 "" H 5550 6000 50  0001 C CNN
+	1    5500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 62850AF7
+P 5500 6750
+F 0 "M?" H 5625 6575 100 0001 C CNN
+F 1 "Marco_1" H 5650 6700 50  0001 C CNN
+F 2 "" H 5550 6600 50  0001 C CNN
+F 3 "" H 5550 6600 50  0001 C CNN
+	1    5500 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 62850ED2
+P 5500 7350
+F 0 "M?" H 5625 7175 100 0001 C CNN
+F 1 "Marco_1" H 5650 7300 50  0001 C CNN
+F 2 "" H 5550 7200 50  0001 C CNN
+F 3 "" H 5550 7200 50  0001 C CNN
+	1    5500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 628512D1
+P 5500 7950
+F 0 "M?" H 5625 7775 100 0001 C CNN
+F 1 "Marco_1" H 5650 7900 50  0001 C CNN
+F 2 "" H 5550 7800 50  0001 C CNN
+F 3 "" H 5550 7800 50  0001 C CNN
+	1    5500 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 62851644
+P 5500 8550
+F 0 "M?" H 5625 8375 100 0001 C CNN
+F 1 "Marco_1" H 5650 8500 50  0001 C CNN
+F 2 "" H 5550 8400 50  0001 C CNN
+F 3 "" H 5550 8400 50  0001 C CNN
+	1    5500 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 628519EE
+P 5500 9150
+F 0 "M?" H 5625 8975 100 0001 C CNN
+F 1 "Marco_1" H 5650 9100 50  0001 C CNN
+F 2 "" H 5550 9000 50  0001 C CNN
+F 3 "" H 5550 9000 50  0001 C CNN
+	1    5500 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 62851C3D
+P 5500 9750
+F 0 "M?" H 5625 9575 100 0001 C CNN
+F 1 "Marco_1" H 5650 9700 50  0001 C CNN
+F 2 "" H 5550 9600 50  0001 C CNN
+F 3 "" H 5550 9600 50  0001 C CNN
+	1    5500 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6285209F
+P 5500 10350
+F 0 "M?" H 5625 10175 100 0001 C CNN
+F 1 "Marco_1" H 5650 10300 50  0001 C CNN
+F 2 "" H 5550 10200 50  0001 C CNN
+F 3 "" H 5550 10200 50  0001 C CNN
+	1    5500 10350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

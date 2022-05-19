@@ -89,6 +89,14 @@ Cuestiones para trabajar
   `Cuestionarios tipo test de la Unidad 2. <https://www.picuino.com/test/index.html#tecnologia>`__
 
 
+Simulador de neumática
+----------------------
+`Simulador de neumática. <../_static/simulador-neumatica/index.html>`__
+
+Creado por Antonio Bueno en la página
+`www.portaleso.com <html://www.portaleso.com>`__
+
+
 Créditos
 --------
 
