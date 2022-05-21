@@ -71,6 +71,26 @@ Unidades didácticas para imprimir
   <../_static/4esotecno/quincena12/pdf/quincena12.pdf>`__
 
 
+Créditos del libro
+------------------
+
+Licencia: 
+   `Creative Commons Reconocimiento-NoComercial-CompartirIgual 3.0 España
+   <https://creativecommons.org/licenses/by-nc-sa/3.0/es/>`__
+
+Autores:
+  * Angélica Carbonell González
+  * Celso Fernández Lorenzo
+  * José Antonio López Álvarez
+  * María Loureiro González
+  * Antonio Poyatos Dorado
+  * Luis Ramírez Vicente
+  * Iván Sáez Chicharro
+  * Antonio Vázquez Pérez
+
+`Créditos del libro <../_static/4esotecno/nota.html>`__
+
+
 Cuestiones para trabajar
 ------------------------
 
@@ -94,24 +114,8 @@ Simulador de neumática
 `Simulador de neumática. <../_static/simulador-neumatica/index.html>`__
 
 Creado por Antonio Bueno en la página
-`www.portaleso.com <http://www.portaleso.com>`__
+`www.portaleso.com <http://www.portaleso.com>`__ 
+con licencia 
+`Creative Commons Reconocimiento-NoComercial-CompartirIgual 2.5 España 
+<https://creativecommons.org/licenses/by-nc-sa/2.5/es/>`__
 
-
-Créditos
---------
-
-Licencia: 
-   `Creative Commons Reconocimiento-NoComercial-CompartirIgual 3.0 España
-   <https://creativecommons.org/licenses/by-nc-sa/3.0/es/>`__
-
-Autores:
-  * Angélica Carbonell González
-  * Celso Fernández Lorenzo
-  * José Antonio López Álvarez
-  * María Loureiro González
-  * Antonio Poyatos Dorado
-  * Luis Ramírez Vicente
-  * Iván Sáez Chicharro
-  * Antonio Vázquez Pérez
-
-`Créditos del libro <../_static/4esotecno/nota.html>`__

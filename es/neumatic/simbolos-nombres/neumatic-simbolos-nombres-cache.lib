@@ -1,0 +1,626 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# simbolos_Calderin
+#
+DEF simbolos_Calderin V 0 40 Y Y 1 F N
+F0 "V" -185 -200 100 H I L CNN
+F1 "simbolos_Calderin" -85 225 50 V I C CNN
+F2 "" -150 -225 50 H I C CNN
+F3 "" -150 -225 50 H I C CNN
+DRAW
+A -360 0 135 1118 -1118 0 1 0 N -410 125 -410 -125
+A -135 0 135 -682 682 0 1 0 N -85 -125 -85 125
+P 2 0 1 0 -410 -125 -85 -125 N
+P 2 0 1 0 -85 125 -410 125 N
+X ~ ~ 75 0 75 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# simbolos_Compresor
+#
+DEF simbolos_Compresor V 0 40 Y Y 1 F N
+F0 "V" -200 -200 100 H I L CNN
+F1 "simbolos_Compresor" -150 175 50 H I C CNN
+F2 "" -150 -225 50 H I C CNN
+F3 "" -150 -225 50 H I C CNN
+DRAW
+C -150 0 150 0 1 0 N
+P 2 0 1 0 -200 -250 -100 -250 N
+P 2 0 1 0 -175 -150 -175 -250 N
+P 2 0 1 0 -125 -150 -125 -250 N
+P 4 0 1 0 0 0 -75 50 -75 -50 0 0 N
+X ~ ~ -375 0 75 R 50 50 1 1 I
+X ~ ~ 75 0 75 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_CopyRight-simbolos
+#
+DEF simbolos_CopyRight-simbolos CP 0 40 Y Y 1 F N
+F0 "CP" 250 50 40 H I C CNN
+F1 "simbolos_CopyRight-simbolos" 0 50 40 H I C CNN
+F2 "" -100 350 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+F4 "CC BY-SA 4.0" -50 -50 60 H V R CNN "License"
+F5 "www.picuino.com" 0 -50 60 H V L CNN "Web"
+DRAW
+P 2 0 1 8 -400 0 400 0 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Escape_rápido
+#
+DEF simbolos_Escape_rápido V 0 40 Y Y 1 F N
+F0 "V" -125 -25 100 H I L CNN
+F1 "simbolos_Escape_rápido" 25 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+P 4 0 1 0 -60 -75 60 -75 0 -170 -60 -75 N
+X ~ ~ 0 0 75 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Escape_silenciador
+#
+DEF simbolos_Escape_silenciador V 0 40 Y Y 1 F N
+F0 "V" -125 -25 100 H I L CNN
+F1 "simbolos_Escape_silenciador" 25 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+S -60 -75 60 -275 0 1 0 N
+P 2 0 1 0 -60 -225 0 -225 N
+P 2 0 1 0 -60 -125 0 -125 N
+P 2 0 1 0 60 -175 0 -175 N
+P 4 0 1 0 -60 -275 60 -275 0 -370 -60 -275 N
+X ~ ~ 0 0 75 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Estrangulador
+#
+DEF simbolos_Estrangulador V 0 40 Y Y 1 F N
+F0 "V" -50 -150 100 H I L CNN
+F1 "simbolos_Estrangulador" 0 175 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+A 0 -165 141 1350 450 0 1 0 N -100 -65 100 -65
+A 0 165 141 -1350 -450 0 1 0 N -100 65 100 65
+P 2 0 1 0 -100 0 100 0 N
+P 2 0 1 0 -55 -110 40 80 N
+P 2 0 1 0 20 90 60 70 N
+P 3 0 1 0 60 70 70 140 20 90 N
+X ~ ~ -175 0 75 R 50 50 1 1 O
+X ~ ~ 175 0 75 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Filtro_aire
+#
+DEF simbolos_Filtro_aire V 0 40 Y Y 1 F N
+F0 "V" -200 -200 100 H I L CNN
+F1 "simbolos_Filtro_aire" -150 175 50 H I C CNN
+F2 "" -150 -225 50 H I C CNN
+F3 "" -150 -225 50 H I C CNN
+DRAW
+P 2 0 1 0 -150 -75 -150 -125 N
+P 2 0 1 0 -150 25 -150 -25 N
+P 2 0 1 0 -150 125 -150 75 N
+P 5 0 1 0 -150 150 -300 0 -150 -150 0 0 -150 150 N
+X ~ ~ -375 0 75 R 50 50 1 1 I
+X ~ ~ 75 0 75 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Fuente_presion
+#
+DEF simbolos_Fuente_presion V 0 40 Y Y 1 F N
+F0 "V" -125 -25 100 H I L CNN
+F1 "simbolos_Fuente_presion" 25 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+C 0 150 25 0 1 0 N
+C 0 150 75 0 1 0 N
+X ~ ~ 0 0 75 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Lubricador
+#
+DEF simbolos_Lubricador V 0 40 Y Y 1 F N
+F0 "V" -200 -200 100 H I L CNN
+F1 "simbolos_Lubricador" -150 175 50 H I C CNN
+F2 "" -150 -225 50 H I C CNN
+F3 "" -150 -225 50 H I C CNN
+DRAW
+P 2 0 1 0 -150 150 -150 60 N
+P 5 0 1 0 -150 150 -300 0 -150 -150 0 0 -150 150 N
+X ~ ~ -375 0 75 R 50 50 1 1 I
+X ~ ~ 75 0 75 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Manometro
+#
+DEF simbolos_Manometro V 0 40 Y Y 1 F N
+F0 "V" -125 -25 100 H I L CNN
+F1 "simbolos_Manometro" 25 325 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+C 0 200 125 0 1 0 N
+P 2 0 1 0 -30 215 100 150 N
+P 3 0 1 0 -30 215 -40 195 -100 250 N
+P 3 0 1 0 -30 215 -20 235 -100 250 N
+X ~ ~ 0 0 75 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Marco_1
+#
+DEF simbolos_Marco_1 M 0 40 Y Y 1 F N
+F0 "M" 125 -175 100 H I C CNN
+F1 "simbolos_Marco_1" 150 -50 50 H I C CNN
+F2 "" 50 -150 50 H I C CNN
+F3 "" 50 -150 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -600 0 0 N
+P 2 0 1 0 0 -600 2600 -600 N
+P 2 0 1 0 0 0 2600 0 N
+P 2 0 1 0 1300 0 1300 -600 N
+P 2 0 1 0 2600 0 2600 -600 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Marco_2
+#
+DEF simbolos_Marco_2 M 0 40 Y Y 1 F N
+F0 "M" 100 -200 100 H I C CNN
+F1 "simbolos_Marco_2" 400 -200 50 H I C CNN
+F2 "" 50 -275 50 H I C CNN
+F3 "" 50 -275 50 H I C CNN
+F4 "TIPO" 1300 -175 100 H V C CNN
+F5 "SÍMBOLO" 450 -450 75 H V C BNN
+F6 "NOMBRE" 1900 -450 75 H V C BNN "Field7"
+DRAW
+P 2 0 1 0 0 -500 0 -50 N
+P 2 0 1 0 0 -50 2600 -50 N
+P 2 0 1 0 1300 -500 0 -500 N
+P 2 0 1 0 1300 -500 2600 -500 N
+P 2 0 1 0 1300 -300 1300 -500 N
+P 2 0 1 0 2600 -50 2600 -500 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Motor_giratorio
+#
+DEF simbolos_Motor_giratorio V 0 40 Y Y 1 F N
+F0 "V" -200 -200 100 H I L CNN
+F1 "simbolos_Motor_giratorio" -150 175 50 H I C CNN
+F2 "" -150 -225 50 H I C CNN
+F3 "" -150 -225 50 H I C CNN
+DRAW
+C -150 0 150 0 1 0 N
+P 2 0 1 0 -200 -250 -100 -250 N
+P 2 0 1 0 -175 -150 -175 -250 N
+P 2 0 1 0 -125 -150 -125 -250 N
+P 3 0 1 0 -10 50 -75 0 -10 -50 N
+X ~ ~ 75 0 75 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pilotaje_electrico
+#
+DEF simbolos_Pilotaje_electrico U 0 40 Y Y 1 F N
+F0 "U" 225 25 50 H I C CNN
+F1 "simbolos_Pilotaje_electrico" 325 -25 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 50 -150 -50 0 1 0 N
+P 2 0 1 0 -100 50 -50 -50 N
+X ~ ~ -75 -125 75 U 50 50 1 1 I
+X ~ ~ -75 125 75 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pilotaje_enclavamiento
+#
+DEF simbolos_Pilotaje_enclavamiento U 0 40 Y Y 1 F N
+F0 "U" -125 0 50 H I C CNN
+F1 "simbolos_Pilotaje_enclavamiento" -125 0 50 H I C CNN
+F2 "" -125 0 50 H I C CNN
+F3 "" -125 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -125 75 -125 -75 N
+P 2 0 1 0 50 100 50 50 N
+P 2 0 1 0 100 -35 -125 -35 N
+P 2 0 1 0 100 50 100 -50 N
+P 8 0 1 0 -125 35 -75 35 -50 -15 -25 35 25 35 50 -15 75 35 100 35 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pilotaje_muelle
+#
+DEF simbolos_Pilotaje_muelle U 0 40 Y Y 1 F N
+F0 "U" 225 25 50 H I C CNN
+F1 "simbolos_Pilotaje_muelle" 325 -25 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 50 0 -50 50 50 100 -50 150 50 200 -50 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pilotaje_neumatico
+#
+DEF simbolos_Pilotaje_neumatico U 0 40 Y Y 1 F N
+F0 "U" 225 25 50 H I C CNN
+F1 "simbolos_Pilotaje_neumatico" 325 -25 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 50 -150 -50 0 1 0 N
+P 3 0 1 0 -150 50 -75 0 -150 -50 N
+X ~ ~ -225 0 75 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pilotaje_palanca
+#
+DEF simbolos_Pilotaje_palanca U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H I C CNN
+F1 "simbolos_Pilotaje_palanca" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 38 148 25 0 1 0 N
+P 2 0 1 0 -50 -25 -100 -125 N
+P 2 0 1 0 -50 -25 25 125 N
+P 2 0 1 0 -50 -25 100 -25 N
+P 2 0 1 0 100 25 -25 25 N
+P 2 0 1 0 100 50 100 -50 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pilotaje_pedal
+#
+DEF simbolos_Pilotaje_pedal U 0 40 Y Y 1 F N
+F0 "U" -25 0 50 H I C CNN
+F1 "simbolos_Pilotaje_pedal" -25 0 50 H I C CNN
+F2 "" -25 0 50 H I C CNN
+F3 "" -25 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 -25 -100 -125 N
+P 2 0 1 0 -50 -25 25 125 N
+P 2 0 1 0 -25 25 100 25 N
+P 2 0 1 0 25 125 -45 160 N
+P 2 0 1 0 100 -25 -50 -25 N
+P 2 0 1 0 100 50 100 -50 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pilotaje_pulsador
+#
+DEF simbolos_Pilotaje_pulsador U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H I C CNN
+F1 "simbolos_Pilotaje_pulsador" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 0 75 901 -901 0 1 0 N 0 75 0 -75
+P 2 0 1 0 0 -25 100 -25 N
+P 2 0 1 0 0 25 100 25 N
+P 2 0 1 0 0 75 0 -75 N
+P 2 0 1 0 100 50 100 -50 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Pilotaje_rodillo
+#
+DEF simbolos_Pilotaje_rodillo U 0 40 Y Y 1 F N
+F0 "U" -20 0 50 H I C CNN
+F1 "simbolos_Pilotaje_rodillo" -20 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -45 0 10 0 1 0 N
+C -45 0 50 0 1 0 N
+P 2 0 1 0 0 -25 100 -25 N
+P 2 0 1 0 0 25 100 25 N
+P 2 0 1 0 100 50 100 -50 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_Piston_doble_efecto
+#
+DEF simbolos_Piston_doble_efecto V 0 40 Y Y 1 F N
+F0 "V" 275 -50 100 H I L CNN
+F1 "simbolos_Piston_doble_efecto" 300 425 50 H I C CNN
+F2 "" -50 -75 50 H I C CNN
+F3 "" -50 -75 50 H I C CNN
+DRAW
+S 50 375 100 75 0 1 0 N
+S 800 250 100 200 0 1 0 N
+P 6 0 1 0 700 250 700 375 -50 375 -50 75 700 75 700 200 N
+X ~ ~ 0 0 75 U 50 50 1 1 B
+X ~ ~ 650 0 75 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# simbolos_Piston_simple_efecto
+#
+DEF simbolos_Piston_simple_efecto V 0 40 Y Y 1 F N
+F0 "V" 275 -50 100 H I L CNN
+F1 "simbolos_Piston_simple_efecto" 300 425 50 H I C CNN
+F2 "" -50 -75 50 H I C CNN
+F3 "" -50 -75 50 H I C CNN
+DRAW
+S 50 375 100 75 0 1 0 N
+S 800 250 100 200 0 1 0 N
+P 6 0 1 0 700 250 700 375 -50 375 -50 75 700 75 700 200 N
+P 7 0 1 0 100 75 200 375 300 75 400 375 500 75 600 375 700 75 N
+X ~ ~ 0 0 75 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# simbolos_Purgador_agua
+#
+DEF simbolos_Purgador_agua V 0 40 Y Y 1 F N
+F0 "V" -125 -200 100 H I L CNN
+F1 "simbolos_Purgador_agua" -150 175 50 H I C CNN
+F2 "" -150 -225 50 H I C CNN
+F3 "" -150 -225 50 H I C CNN
+DRAW
+P 2 0 1 0 -225 -75 -75 -75 N
+P 2 0 1 0 -150 -150 -150 -225 N
+P 5 0 1 0 -150 150 -300 0 -150 -150 0 0 -150 150 N
+X ~ ~ -375 0 75 R 50 50 1 1 I
+X ~ ~ 75 0 75 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Regulador_presion
+#
+DEF simbolos_Regulador_presion V 0 40 Y Y 1 F N
+F0 "V" -300 150 100 H I L CNN
+F1 "simbolos_Regulador_presion" 75 50 50 V I C CNN
+F2 "" -325 50 50 V I C CNN
+F3 "" -325 50 50 V I C CNN
+DRAW
+S 0 -100 -200 100 0 1 0 N
+P 2 0 1 0 -150 150 -150 125 N
+P 2 0 1 0 -125 175 -150 175 N
+P 2 0 1 0 -75 0 -200 0 N
+P 2 0 1 0 -75 175 -100 175 N
+P 2 0 1 0 -55 -200 -240 -130 N
+P 2 0 1 0 -25 175 -50 175 N
+P 2 0 1 0 0 0 25 25 N
+P 2 0 1 0 25 175 0 175 N
+P 2 0 1 0 50 95 50 120 N
+P 2 0 1 0 50 145 50 170 N
+P 3 0 1 0 45 45 50 50 50 70 N
+P 4 0 1 0 0 0 -75 25 -75 -25 0 0 N
+P 5 0 1 0 -5 -225 -65 -220 -55 -200 -45 -180 -5 -225 N
+P 6 0 1 0 -100 -100 -200 -125 -100 -150 -200 -175 -100 -200 -200 -225 N
+X ~ ~ -275 0 75 R 50 50 1 1 I
+X ~ ~ 75 0 75 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Secador
+#
+DEF simbolos_Secador V 0 40 Y Y 1 F N
+F0 "V" -200 -200 100 H I L CNN
+F1 "simbolos_Secador" -150 175 50 H I C CNN
+F2 "" -150 -225 50 H I C CNN
+F3 "" -150 -225 50 H I C CNN
+DRAW
+P 2 0 1 0 -225 -75 -75 -75 N
+P 2 0 1 0 -75 75 -225 75 N
+P 5 0 1 0 -150 150 -300 0 -150 -150 0 0 -150 150 N
+X ~ ~ -375 0 75 R 50 50 1 1 I
+X ~ ~ 75 0 75 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Unidad_mantenimiento
+#
+DEF simbolos_Unidad_mantenimiento V 0 40 Y Y 1 F N
+F0 "V" -125 -25 100 H I L CNN
+F1 "simbolos_Unidad_mantenimiento" -75 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+C 0 175 125 0 1 0 N
+S 325 350 -325 0 0 1 0 N
+P 2 0 1 0 -225 50 -225 0 N
+P 2 0 1 0 -225 150 -225 100 N
+P 2 0 1 0 -225 250 -225 200 N
+P 2 0 1 0 -225 350 -225 300 N
+P 2 0 1 0 -30 190 100 125 N
+P 2 0 1 0 225 350 225 275 N
+P 3 0 1 0 -30 190 -40 170 -100 225 N
+P 3 0 1 0 -30 190 -20 210 -100 225 N
+X ~ ~ -400 175 75 R 50 50 1 1 I
+X ~ ~ 400 175 75 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_2_2
+#
+DEF simbolos_Valvula_2_2 V 0 40 Y Y 1 F N
+F0 "V" -50 -100 100 H I L CNN
+F1 "simbolos_Valvula_2_2" -100 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+S 0 250 -250 0 0 1 0 N
+S 0 250 250 0 0 1 0 N
+P 2 0 1 0 100 75 150 75 N
+P 2 0 1 0 125 0 125 75 N
+P 2 0 1 0 125 250 125 175 N
+P 2 0 1 0 150 175 100 175 N
+P 6 0 1 0 -125 0 -125 175 -100 175 -125 250 -150 175 -125 175 N
+X ~ ~ 125 -75 75 U 50 50 1 1 O
+X ~ ~ 125 325 75 D 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_3_2
+#
+DEF simbolos_Valvula_3_2 V 0 40 Y Y 1 F N
+F0 "V" -50 -100 100 H I L CNN
+F1 "simbolos_Valvula_3_2" -175 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+S 0 250 -300 0 0 1 0 N
+S 0 250 300 0 0 1 0 N
+P 2 0 1 0 -225 175 -225 0 N
+P 2 0 1 0 -100 75 -50 75 N
+P 2 0 1 0 -75 75 -75 0 N
+P 2 0 1 0 75 75 75 0 N
+P 2 0 1 0 100 75 50 75 N
+P 2 0 1 0 190 62 75 250 N
+P 4 0 1 0 -225 250 -250 175 -200 175 -225 250 N
+P 4 0 1 0 225 0 210 75 170 50 225 0 N
+X ~ ~ 75 -75 75 U 50 50 1 1 I
+X ~ ~ 75 325 75 D 50 50 1 1 B
+X ~ ~ 225 -75 75 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_4_2
+#
+DEF simbolos_Valvula_4_2 V 0 40 Y Y 1 F N
+F0 "V" -50 -100 100 H I L CNN
+F1 "simbolos_Valvula_4_2" -175 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+S 0 250 -300 0 0 1 0 N
+S 0 250 300 0 0 1 0 N
+P 2 0 1 0 -225 175 -225 0 N
+P 2 0 1 0 -75 75 -75 250 N
+P 2 0 1 0 189 62 75 250 N
+P 2 0 1 0 190 188 75 0 N
+P 4 0 1 0 -225 250 -250 175 -200 175 -225 250 N
+P 4 0 1 0 -75 0 -100 75 -50 75 -75 0 N
+P 4 0 1 0 225 0 210 75 170 50 225 0 N
+P 4 0 1 0 225 250 210 175 170 200 225 250 N
+X ~ ~ 75 -75 75 U 50 50 1 1 I
+X ~ ~ 75 325 75 D 50 50 1 1 B
+X ~ ~ 225 -75 75 U 50 50 1 1 O
+X ~ ~ 225 325 75 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_5_2
+#
+DEF simbolos_Valvula_5_2 V 0 40 Y Y 1 F N
+F0 "V" -50 -100 100 H I L CNN
+F1 "simbolos_Valvula_5_2" -200 325 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+S 0 250 -350 0 0 1 0 N
+S 350 250 0 0 0 1 0 N
+P 2 0 1 0 -275 75 -275 0 N
+P 2 0 1 0 -250 75 -300 75 N
+P 2 0 1 0 -248 184 -175 0 N
+P 2 0 1 0 -75 75 -75 250 N
+P 2 0 1 0 75 75 75 250 N
+P 2 0 1 0 175 0 248 184 N
+P 2 0 1 0 250 75 300 75 N
+P 2 0 1 0 275 75 275 0 N
+P 4 0 1 0 -275 250 -225 195 -270 175 -275 250 N
+P 4 0 1 0 -75 0 -100 75 -50 75 -75 0 N
+P 4 0 1 0 75 0 50 75 100 75 75 0 N
+P 4 0 1 0 275 250 225 195 270 175 275 250 N
+X ~ ~ 75 -75 75 U 50 50 1 1 O
+X ~ ~ 75 325 75 D 50 50 1 1 B
+X ~ ~ 175 -75 75 U 50 50 1 1 I
+X ~ ~ 275 -75 75 U 50 50 1 1 O
+X ~ ~ 275 325 75 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_antirretorno
+#
+DEF simbolos_Valvula_antirretorno V 0 40 Y Y 1 F N
+F0 "V" -50 -150 100 H I L CNN
+F1 "simbolos_Valvula_antirretorno" 0 125 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+P 2 0 1 0 -50 0 -75 0 N
+P 2 0 1 0 75 0 -10 -85 N
+P 2 0 1 0 75 0 -10 85 N
+X ~ ~ -150 0 75 R 50 50 1 1 O
+X ~ ~ 150 0 75 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_or
+#
+DEF simbolos_Valvula_or V 0 40 Y Y 1 F N
+F0 "V" -50 -100 100 H I L CNN
+F1 "simbolos_Valvula_or" 75 250 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+C 100 100 50 0 1 0 N
+S 0 200 350 0 0 1 0 N
+P 2 0 1 0 25 100 0 100 N
+P 2 0 1 0 150 100 350 100 N
+P 2 0 1 0 175 100 175 200 N
+P 3 0 1 0 100 175 25 100 100 25 N
+P 3 0 1 0 250 175 325 100 250 25 N
+X ~ ~ -75 100 75 R 50 50 1 1 I
+X ~ ~ 175 275 75 D 50 50 1 1 O
+X ~ ~ 425 100 75 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_simultaneidad
+#
+DEF simbolos_Valvula_simultaneidad V 0 40 Y Y 1 F N
+F0 "V" -50 -100 100 H I L CNN
+F1 "simbolos_Valvula_simultaneidad" 75 250 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+P 2 0 1 0 50 100 300 100 N
+P 2 0 1 0 50 150 50 50 N
+P 2 0 1 0 100 0 100 65 N
+P 2 0 1 0 100 200 100 135 N
+P 2 0 1 0 250 0 250 65 N
+P 2 0 1 0 250 200 250 135 N
+P 2 0 1 0 300 150 300 50 N
+P 5 0 1 0 0 200 0 0 350 0 350 200 0 200 N
+X ~ ~ -75 100 75 R 50 50 1 1 I
+X ~ ~ 175 275 75 D 50 50 1 1 O
+X ~ ~ 425 100 75 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Valvula_virtual
+#
+DEF simbolos_Valvula_virtual V 0 40 Y Y 1 F N
+F0 "V" -50 -100 100 H I L CNN
+F1 "simbolos_Valvula_virtual" 25 300 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+S 0 250 -250 0 0 1 0 N
+S 0 250 250 0 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
