@@ -539,7 +539,7 @@ F 3 "" H 5550 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6875 7800 0    100  ~ 0
-ESCAPE\nRÁPIDO
+ESCAPE\nDE AIRE
 $Comp
 L simbolos:Marco_1 M?
 U 1 1 628A913B

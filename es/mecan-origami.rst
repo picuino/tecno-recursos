@@ -1,5 +1,5 @@
 ﻿
-.. _meca-origami:
+.. _mecan-origami:
 
 Papiroflexia
 ============

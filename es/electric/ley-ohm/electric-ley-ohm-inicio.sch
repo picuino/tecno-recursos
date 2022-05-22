@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Ley de Ohm"
 Date "2021-05-15"
 Rev ""
@@ -1026,4 +1026,10 @@ Text Notes 2875 10275 0    150  ~ 0
 17
 Text Notes 5500 10275 0    150  ~ 0
 18
+$Sheet
+S 10000 750  2500 1725
+U 628BB5D7
+F0 "Ley de Ohm 2" 100
+F1 "electric-ley-ohm-inicio-02.sch" 100
+$EndSheet
 $EndSCHEMATC

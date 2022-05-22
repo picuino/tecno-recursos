@@ -1004,19 +1004,6 @@ F 3 "" H 6150 7450 50  0001 C CNN
 	1    6150 7575
 	1    0    0    -1  
 $EndComp
-Text Notes 6875 7800 0    100  ~ 0
-ESCAPE\nRÁPIDO
-$Comp
-L simbolos:Marco_1 M?
-U 1 1 6289B160
-P 5500 7350
-F 0 "M?" H 5625 7175 100 0001 C CNN
-F 1 "Marco_1" H 5650 7300 50  0001 C CNN
-F 2 "" H 5550 7200 50  0001 C CNN
-F 3 "" H 5550 7200 50  0001 C CNN
-	1    5500 7350
-	1    0    0    -1  
-$EndComp
 Text Notes 6875 8400 0    100  ~ 0
 ESCAPE CON\nSILENCIADOR
 $Comp
@@ -1041,4 +1028,17 @@ F 3 "" H 6150 7950 50  0001 C CNN
 	1    6150 8075
 	1    0    0    -1  
 $EndComp
+$Comp
+L simbolos:Marco_1 M?
+U 1 1 6289B160
+P 5500 7350
+F 0 "M?" H 5625 7175 100 0001 C CNN
+F 1 "Marco_1" H 5650 7300 50  0001 C CNN
+F 2 "" H 5550 7200 50  0001 C CNN
+F 3 "" H 5550 7200 50  0001 C CNN
+	1    5500 7350
+	1    0    0    -1  
+$EndComp
+Text Notes 6875 7800 0    100  ~ 0
+ESCAPE\nDE AIRE
 $EndSCHEMATC

@@ -70,7 +70,7 @@ SYMBOL_NAMES=$(foreach symbol, \
 	fuente-presion unidad-mantenimiento  \
 	piston-simple-efecto piston-doble-efecto motor-giratorio \
 	valvula-antirretorno valvula-estranguladora valvula-estranguladora-unidireccional \
-	valvula-simultaneidad valvula-or \
+	valvula-simultaneidad valvula-or escape escape-silenciador \
 	, $(SYMBOL_BASENAME)-$(symbol).png)
 SYMBOL_DIRNAMES=$(foreach symbol, $(SYMBOL_NAMES),$(IMGDIR)/$(symbol))
 
@@ -117,7 +117,7 @@ $(SYMBOL_DIRNAMES): $(IMGDIR)/$(SYMBOLS_SOURCE)
 	$(call crop_symbol, "(3,  9)", valvula-estranguladora-unidireccional)
 	$(call crop_symbol, "(3, 10)", valvula-simultaneidad)
 	$(call crop_symbol, "(3, 11)", valvula-or)
-	$(call crop_symbol, "(3, 12)", escape-rapido)
+	$(call crop_symbol, "(3, 12)", escape)
 	$(call crop_symbol, "(3, 13)", escape-silenciador)
 
 
