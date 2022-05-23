@@ -101,17 +101,6 @@ F 3 "" H 550 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L electric-simbolos-nombres-rescue:amperimetro-simbolos A
-U 1 1 5BC41F8F
-P 650 10450
-F 0 "A" H 1300 10250 100 0000 C CNN
-F 1 "AMPERIMETRO" H 1600 10250 100 0001 L CNN
-F 2 "" V 650 10225 50  0001 C CNN
-F 3 "" V 650 10225 50  0001 C CNN
-	1    650  10450
-	1    0    0    -1  
-$EndComp
-$Comp
 L simbolos:condensador C1
 U 1 1 5BC41FF8
 P 650 7500
@@ -1152,6 +1141,17 @@ F 1 "AO" H 5950 3450 50  0000 C CNN
 F 2 "" H 5775 3450 50  0001 C CNN
 F 3 "" H 5775 3450 50  0001 C CNN
 	1    5775 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:amperimetro A
+U 1 1 628BB680
+P 650 10450
+F 0 "A" H 1250 10250 100 0000 L CNN
+F 1 "amperimetro" V 500 10250 50  0001 C CNN
+F 2 "" V 650 10225 50  0001 C CNN
+F 3 "" V 650 10225 50  0001 C CNN
+	1    650  10450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
