@@ -30,24 +30,26 @@ endef
 # ley de Ohm. Inicio
 #
 LEY-OHM-INICIO-IMAGES1=$(foreach n, \
-	00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 , \
+	00 \
+	01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 , \
 	$(IMGDIR)\electric-ley-ohm-$(n).png)
 
 LEY-OHM-INICIO-IMAGES2=$(foreach n, \
-	20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 , \
+	21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 , \
 	$(IMGDIR)\electric-ley-ohm-$(n).png)
 
-$(IMGDIR)/electric-ley-ohm-inicio-p1.png $(IMGDIR)/electric-ley-ohm-inicio-p2.png: electric-ley-ohm-inicio.pdf
+$(IMGDIR)/electric-ley-ohm-inicio-p1.png \
+$(IMGDIR)/electric-ley-ohm-inicio-p2.png: electric-ley-ohm-inicio.pdf
 	$(PDFTOPNG) $< $(basename $<)
 	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-p1.png
 	mv $(basename $<)-000002.png  $(IMGDIR)/$(basename $<)-p2.png
 	$(MOGRIFY) -posterize 16  $(IMGDIR)/$(basename $<)-p1.png
 	$(MOGRIFY) -posterize 16  $(IMGDIR)/$(basename $<)-p2.png
-	$(OPTIPNG) $(IMGDIR)/$(basename $<)-p1.png
-	$(OPTIPNG) $(IMGDIR)/$(basename $<)-p2.png
+	$(OPTIPNG) $@
+
 
 electric-ley-ohm.zip:  $(LIBS) $(wildcard ley-ohm/*)
-	rm -f $@  ley-ohm/*.*bak
+	rm -f $@  ley-ohm/*.bak
 	$(ZIP) $@ $^
 
 $(LEY-OHM-INICIO-IMAGES1): $(IMGDIR)/electric-ley-ohm-inicio-p1.png
@@ -114,8 +116,8 @@ clean-ley-ohm-inicio:
 # --------------------------------------------------------------------
 # ley de Ohm con serie y paralelo
 #
-$(IMGDIR)/electric-ley-ohm-p1.png \
-$(IMGDIR)/electric-ley-ohm-p2.png: electric-ley-ohm.pdf
+$(IMGDIR)/electric-ley-ohm-serie-paralelo-p1.png \
+$(IMGDIR)/electric-ley-ohm-serie-paralelo-p2.png: electric-ley-ohm-serie-paralelo.pdf
 	$(PDFTOPNG) $< $(basename $<)
 	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-p1.png
 	mv $(basename $<)-000002.png  $(IMGDIR)/$(basename $<)-p2.png
@@ -125,27 +127,27 @@ $(IMGDIR)/electric-ley-ohm-p2.png: electric-ley-ohm.pdf
 	$(OPTIPNG) $(IMGDIR)/$(basename $<)-p2.png
 
 
-.PHONY: all-ley-ohm-avanzado  clean-ley-ohm-avanzado
-all-ley-ohm-avanzado: \
-	$(IMGDIR)/electric-ley-ohm-p1.png \
-	$(IMGDIR)/electric-ley-ohm-p2.png \
+.PHONY: all-ley-ohm-serie-paralelo  clean-ley-ohm-serie-paralelo
+all-ley-ohm-serie-paralelo: \
+	$(IMGDIR)/electric-ley-ohm-serie-paralelo-p1.png \
+	$(IMGDIR)/electric-ley-ohm-serie-paralelo-p2.png \
 
 
-clean-ley-ohm-avanzado:
-	rm -f $(IMGDIR)/electric-ley-ohm-p1.png
-	rm -f $(IMGDIR)/electric-ley-ohm-p2.png
+clean-ley-ohm-serie-paralelo:
+	rm -f $(IMGDIR)/electric-ley-ohm-serie-paralelo-p1.png
+	rm -f $(IMGDIR)/electric-ley-ohm-serie-paralelo-p2.png
 
 
 
 # --------------------------------------------------------------------
-# make all
+# make all and clean
 #
 .PHONY: all clean
 all: \
 	all-ley-ohm-inicio \
-	all-ley-ohm-avanzado \
+	all-ley-ohm-serie-paralelo \
 
 
 clean: \
 	clean-ley-ohm-inicio \
-	clean-ley-ohm-avanzado \
+	clean-ley-ohm-serie-paralelo \

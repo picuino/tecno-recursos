@@ -11,7 +11,7 @@ LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
 
 JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
 PDFTOPNG=pdftopng -gray -r 600 -aa yes -aaVector yes -freetype yes
-OPTIPNG=optipng -quiet -o 5
+OPTIPNG=optipng -quiet -o 6
 CONVERT=convert
 CONVERT_OPT=-transparent White
 MOGRIFY=mogrify

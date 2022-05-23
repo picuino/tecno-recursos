@@ -1346,7 +1346,7 @@ $Sheet
 S 9100 1100 2100 1300
 U 5C6CFC33
 F0 "Circuitos Mixtos" 100
-F1 "circuitos_mixtos.sch" 100
+F1 "electric-ley-ohm-serie-paralelo-2.sch" 100
 $EndSheet
 $Comp
 L simbolos:CopyRight CP?
