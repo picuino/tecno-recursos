@@ -11,7 +11,7 @@ LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
 
 JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
 PDFTOPNG=pdftopng -gray -r 600 -aa yes -aaVector yes -freetype yes
-OPTIPNG=optipng -quiet -o 5
+OPTIPNG=optipng -quiet -o 6
 CONVERT=convert
 CONVERT_OPT=-transparent White
 MOGRIFY=mogrify
@@ -19,9 +19,18 @@ ZIP=7z a
 PYTHON=python
 
 
+
 # --------------------------------------------------------------------
-# electric-resistencias-serie-paralelo
+# electric-resistencias-serie-paralelo values
 #
+define crop_circuit
+	$(eval geometry = $(shell python -c "import sys; (x,y)=eval(sys.argv[1]); \
+   print('%dx%d+%d+%d'%(1689-126, 1680-606, 126+1575*(x-1), 606+(1866-606)*(y-1)))" $(2)))
+	$(CONVERT) $(1) -crop $(geometry) +repage \
+	  -fill white -draw "rectangle 0,0 200,160" -draw "rectangle 0,940,500,1080" -transparent White \
+	  $(IMGDIR)/$(strip $(3))
+	$(OPTIPNG) $(IMGDIR)/$(strip $(3))
+endef
 
 $(IMGDIR)/electric-resistencias-serie-paralelo-p1.png \
 $(IMGDIR)/electric-resistencias-serie-paralelo-p2.png: electric-resistencias-serie-paralelo.pdf
@@ -33,22 +42,81 @@ $(IMGDIR)/electric-resistencias-serie-paralelo-p2.png: electric-resistencias-ser
 	$(OPTIPNG) $(IMGDIR)/$(basename $<)-p1.png
 	$(OPTIPNG) $(IMGDIR)/$(basename $<)-p2.png
 
+SERIE-PARALELO-IMAGES1=$(foreach n, \
+	21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 , \
+	$(IMGDIR)\electric-resistencias-serie-paralelo-$(n).png)
+
+SERIE-PARALELO-IMAGES2=$(foreach n, \
+	41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 , \
+	$(IMGDIR)\electric-resistencias-serie-paralelo-$(n).png)
+
+$(SERIE-PARALELO-IMAGES1): $(IMGDIR)/electric-resistencias-serie-paralelo-p1.png
+	$(call crop_circuit, $<, "(1, 1)", electric-resistencias-serie-paralelo-21.png)
+	$(call crop_circuit, $<, "(2, 1)", electric-resistencias-serie-paralelo-22.png)
+	$(call crop_circuit, $<, "(3, 1)", electric-resistencias-serie-paralelo-23.png)
+	$(call crop_circuit, $<, "(1, 2)", electric-resistencias-serie-paralelo-24.png)
+	$(call crop_circuit, $<, "(2, 2)", electric-resistencias-serie-paralelo-25.png)
+	$(call crop_circuit, $<, "(3, 2)", electric-resistencias-serie-paralelo-26.png)
+	$(call crop_circuit, $<, "(1, 3)", electric-resistencias-serie-paralelo-27.png)
+	$(call crop_circuit, $<, "(2, 3)", electric-resistencias-serie-paralelo-28.png)
+	$(call crop_circuit, $<, "(3, 3)", electric-resistencias-serie-paralelo-29.png)
+	$(call crop_circuit, $<, "(1, 4)", electric-resistencias-serie-paralelo-30.png)
+	$(call crop_circuit, $<, "(2, 4)", electric-resistencias-serie-paralelo-31.png)
+	$(call crop_circuit, $<, "(3, 4)", electric-resistencias-serie-paralelo-32.png)
+	$(call crop_circuit, $<, "(1, 5)", electric-resistencias-serie-paralelo-33.png)
+	$(call crop_circuit, $<, "(2, 5)", electric-resistencias-serie-paralelo-34.png)
+	$(call crop_circuit, $<, "(3, 5)", electric-resistencias-serie-paralelo-35.png)
+
+$(SERIE-PARALELO-IMAGES2): $(IMGDIR)/electric-resistencias-serie-paralelo-p2.png
+	$(call crop_circuit, $<, "(1, 1)", electric-resistencias-serie-paralelo-41.png)
+	$(call crop_circuit, $<, "(2, 1)", electric-resistencias-serie-paralelo-42.png)
+	$(call crop_circuit, $<, "(3, 1)", electric-resistencias-serie-paralelo-43.png)
+	$(call crop_circuit, $<, "(1, 2)", electric-resistencias-serie-paralelo-44.png)
+	$(call crop_circuit, $<, "(2, 2)", electric-resistencias-serie-paralelo-45.png)
+	$(call crop_circuit, $<, "(3, 2)", electric-resistencias-serie-paralelo-46.png)
+	$(call crop_circuit, $<, "(1, 3)", electric-resistencias-serie-paralelo-47.png)
+	$(call crop_circuit, $<, "(2, 3)", electric-resistencias-serie-paralelo-48.png)
+	$(call crop_circuit, $<, "(3, 3)", electric-resistencias-serie-paralelo-49.png)
+	$(call crop_circuit, $<, "(1, 4)", electric-resistencias-serie-paralelo-50.png)
+	$(call crop_circuit, $<, "(2, 4)", electric-resistencias-serie-paralelo-51.png)
+	$(call crop_circuit, $<, "(3, 4)", electric-resistencias-serie-paralelo-52.png)
+	$(call crop_circuit, $<, "(1, 5)", electric-resistencias-serie-paralelo-53.png)
+	$(call crop_circuit, $<, "(2, 5)", electric-resistencias-serie-paralelo-54.png)
+	$(call crop_circuit, $<, "(3, 5)", electric-resistencias-serie-paralelo-55.png)
+
 
 electric-resistencias-serie-paralelo.zip: $(LIBS) $(wildcard resistencias-serie-paralelo/*)
-	rm -f $@  resistencias-serie-paralelo/*.*bak
+	rm -f $@  resistencias-serie-paralelo/*.bak
 	$(ZIP) $@ $^
 
 
+.PHONY: all-values clean-values
+all-values: \
+	electric-resistencias-serie-paralelo.zip \
+	$(IMGDIR)/electric-resistencias-serie-paralelo-p1.png \
+	$(IMGDIR)/electric-resistencias-serie-paralelo-p2.png \
+	$(SERIE-PARALELO-IMAGES1) \
+	$(SERIE-PARALELO-IMAGES2) \
+
+
+clean-values:
+	rm -f electric-resistencias-serie-paralelo.zip
+	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-p1.png
+	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-p2.png
+	rm -f $(SERIE-PARALELO-IMAGES1)
+	rm -f $(SERIE-PARALELO-IMAGES2)
+
+
 # --------------------------------------------------------------------
-# electric-resistencias-serie-paralelo-images
+# electric-resistencias-serie-paralelo generic
 #
+
 define crop_image
 	$(eval geometry = $(shell python -c "import sys; (x1, y1, x2, y2)=eval(sys.argv[1]); \
 	print('%dx%d+%d+%d'%(x2-x1, y2-y1, x1, y1))" $(1)))
 	$(CONVERT) $(2) -crop $(geometry) +repage $(CONVERT_OPT) $(3)
 	$(OPTIPNG) $(3)
 endef
-
 
 $(IMGDIR)/electric-resistencias-serie-paralelo-3.png: electric-resistencias-serie-paralelo-3.pdf
 	$(PDFTOPNG) $< $(basename $<)
@@ -94,12 +162,8 @@ $(IMGDIR)/electric-resistencias-serie-paralelo-12.png: $(IMGDIR)/electric-resist
 	$(call crop_image, "(1845, 3432, 3020, 4275)", $^, $@)
 
 
-
-.PHONY: all clean
-all: \
-	electric-resistencias-serie-paralelo.zip \
-	$(IMGDIR)/electric-resistencias-serie-paralelo-p1.png \
-	$(IMGDIR)/electric-resistencias-serie-paralelo-p2.png \
+.PHONY: all-generic clean-generic
+all-generic: \
 	$(IMGDIR)/electric-resistencias-serie-paralelo-3.png \
 	$(IMGDIR)/electric-resistencias-serie-paralelo-01.png \
 	$(IMGDIR)/electric-resistencias-serie-paralelo-02.png \
@@ -114,11 +178,7 @@ all: \
 	$(IMGDIR)/electric-resistencias-serie-paralelo-11.png \
 	$(IMGDIR)/electric-resistencias-serie-paralelo-12.png \
 
-
-clean:
-	rm -f electric-resistencias-serie-paralelo.zip
-	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-p1.png
-	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-p2.png
+clean-generic:
 	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-3.png
 	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-01.png
 	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-02.png
@@ -132,3 +192,18 @@ clean:
 	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-10.png
 	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-11.png
 	rm -f $(IMGDIR)/electric-resistencias-serie-paralelo-12.png
+
+
+
+# --------------------------------------------------------------------
+# MAKE ALL
+#
+
+.PHONY: all clean
+all: \
+	all-generic \
+	all-values
+
+clean:
+	clean-generic
+	clean-values

@@ -12,6 +12,7 @@ def main():
    resistencias = valores_resistencias()
    encuentra_dos_paralelos(resistencias)
    #encuentra_tres_paralelos(resistencias)
+   input('Pulsa Enter')
 
 
 def valores_resistencias():

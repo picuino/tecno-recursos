@@ -213,7 +213,7 @@ Metales ligeros
       electrólisis.
 
    Titanio
-      Es un metal de color gris de baja densidad (4.5 kg/litro) muy 
+      Es un metal de color gris, de baja densidad (4.5 kg/litro) muy 
       resistente a la corrosión y con buena resistencia mecánica, hasta 
       los 140 kg/mm2.
 
