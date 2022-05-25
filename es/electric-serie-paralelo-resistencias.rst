@@ -1,8 +1,8 @@
 ﻿
 .. _electric-serie-paralelo-resistencias:
 
-Resistencias en serie y en paralelo
-===================================
+Resistencias equivalentes
+=========================
 En esta unidad se estudiarán las resistencias equivalentes de circuitos
 con resistencias en serie, con resistencias en paralelo y con resistencias
 en montajes mixtos.
@@ -10,6 +10,10 @@ en montajes mixtos.
 .. image:: electric/_images/electric-resistencias-serie-paralelo-06.png
    :align: center
    :width: 386px
+
+Una resistencia equivalente a un circuito con varias resistencias es 
+aquella por la que pasará la misma corriente que por el circuito al
+alimentarlos con la misma fuente de tensión.
 
 
 Resistencia equivalente de un circuito en serie
@@ -87,8 +91,8 @@ Si a un circuito le añadimos una resistencia en paralelo, la resistencia
 total siempre disminuirá y por lo tanto la corriente total siempre aumentará.
 
 
-Resistencia equivalente de un circuito mixto
---------------------------------------------
+Resistencia equivalente de un circuito paralelo-serie
+-----------------------------------------------------
 Los circuitos mixtos están compuestos por resistencias en serie y por 
 resistencias en paralelo. 
 Para resolver los circuitos mixtos primero habrá que resolver los circuitos 
@@ -122,7 +126,9 @@ la resistencia equivalente del circuito completo.
 
     R123 = R1 + R23
     
-----
+
+Resistencia equivalente de un circuito serie-paralelo
+-----------------------------------------------------
 
 En la siguiente figura podemos ver otro circuito mixto de tres resistencias.
 
@@ -149,7 +155,9 @@ para hallar la resistencia equivalente del circuito completo.
 
     R123 = \cfrac{1}{ \cfrac{1}{R12} + \cfrac{1}{R3} }
 
-----
+
+Resistencia equivalente de un circuito dos series-paralelo
+----------------------------------------------------------
 
 En la siguiente figura podemos ver un circuito mixto de cuatro resistencias.
 
@@ -181,7 +189,9 @@ dos resistencias R12 y R34 según la fórmula correspondiente.
 
     R1234 = \cfrac{1}{ \cfrac{1}{R12} + \cfrac{1}{R34} }
 
-----
+
+Resistencia equivalente de un circuito dos paralelos-serie
+----------------------------------------------------------
 
 En la siguiente figura podemos ver otro circuito mixto de cuatro resistencias.
 
@@ -216,10 +226,18 @@ dos resistencias R12 y R34 según la fórmula correspondiente.
 
 Ejercicios
 ----------
-Ejercicios de cálculo de resistencias en serie, en paralelo y en circuito mixto.
+Ejercicios de cálculo de resistencias equivalentes en serie, 
+en paralelo y en circuitos mixtos.
 
 |  :download:`Calcular resistencias en serie y en paralelo.
    Formato PDF.
    <electric/electric-resistencias-serie-paralelo.pdf>`
 |  :download:`Proyecto editable. Formato KiCad.
    <electric/electric-resistencias-serie-paralelo.zip>`
+
+
+Test de resistencias equivalentes
+---------------------------------
+
+`Test para calcular resistencias equivalentes 
+<https://www.picuino.com/test/es-electric-series-parallel-calc-2.html>`__
