@@ -1,9 +1,22 @@
 ﻿
 .. _ley-secundaria:
 
-Curriculo de Secundaria
-=======================
-Curriculo de enseñanzas mínimas en la Educación Secundaria.
+Curriculo de la ESO
+===================
+Curriculo de enseñanzas mínimas en la Educación Secundaria Obligatoria.
+
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 3
+
+
+Currículo de Madrid
+-------------------
+
+.. note::
+   
+   Currículo pendiente de publicación.
+
 
 Currículo Estatal
 -----------------

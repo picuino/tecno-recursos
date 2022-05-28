@@ -41,7 +41,7 @@ $(IMGDIR)/electric-cableado-circuitos.png: electric-cableado-circuitos.pdf
 	$(OPTIPNG) $(IMGDIR)/$(basename $<).png
 
 electric-cableado.zip: $(LIBS) $(wildcard electric-cableado/*)
-	rm -f $@ electric-cableado/*.bak
+	rm -f $@ electric-cableado/*.*bak
 	$(ZIP) $@ $^
 
 

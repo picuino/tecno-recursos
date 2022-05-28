@@ -36,7 +36,7 @@ $(IMGDIR)/neumatic-simbolos-nombres-p3.png: neumatic-simbolos-nombres.pdf
 
 
 neumatic-simbolos-nombres.zip: $(LIBS) $(wildcard simbolos-nombres/*)
-	rm -f $@  simbolos-nombres/*.bak
+	rm -f $@  simbolos-nombres/*.*bak
 	$(ZIP) $@ $^
 
 

@@ -1,18 +1,27 @@
-﻿:orphan:
+﻿.. _mecan-maquinas-index:
 
-.. _mecan-maquinas-index:
-
-************
- Mecanismos
-************
+***********************
+ Máquinas y Mecanismos
+***********************
 
 Máquinas y mecanismos que transforman las fuerzas y los
 movimientos.
+
+.. image:: mecan/_images/mecan-palancas-01.png
+   :align: center
+   :height: 142px
+   
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
+   mecan-palancas.rst
+   mecan-poleas.rst
+   mecan-engranajes.rst
+   mecan-termicas.rst
+
+..
    mecan-maquinas-intro.rst
    mecan-maquinas-lineales.rst
    mecan-maquinas-giratorios.rst

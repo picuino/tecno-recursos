@@ -1,5 +1,6 @@
-﻿
-.. _mecanismos-giratorios:
+﻿:orphan:
+
+.. _mecan-maquinas-giratorios:
 
 Mecanismos de movimiento giratorio
 ==================================

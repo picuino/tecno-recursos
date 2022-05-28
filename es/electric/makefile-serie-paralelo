@@ -34,7 +34,7 @@ $(IMGDIR)/electric-serie-paralelo-p2.png: electric-serie-paralelo.pdf
 	$(OPTIPNG) $(IMGDIR)/$(basename $<)-p2.png
 
 electric-serie-paralelo.zip: $(LIBS) $(wildcard serie-paralelo/*)
-	rm -f $@  serie-paralelo/*.bak
+	rm -f $@  serie-paralelo/*.*bak
 	$(ZIP) $@ $^
 
 

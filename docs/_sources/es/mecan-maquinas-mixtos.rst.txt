@@ -1,5 +1,6 @@
-﻿
-.. _mecanismos-mixtos:
+﻿:orphan:
+
+.. mecan-maquinas-mixtos:
 
 Mecanismos de movimiento lineal y giratorio
 ===========================================

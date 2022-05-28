@@ -1,5 +1,6 @@
-﻿
-.. _mecanismos-auxiliares:
+﻿:orphan:
+
+.. _mecan-maquinas-auxiliares:
 
 Mecanismos auxiliares
 =====================

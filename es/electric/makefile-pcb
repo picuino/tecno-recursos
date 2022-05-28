@@ -49,7 +49,7 @@ $(IMGDIR)/electric-pcb-luces-led-02.png: $(IMGDIR)/electric-pcb-luces-led.png
 
 electric-pcb-luces-led.zip:  $(wildcard pcb-luces-led/*)
 	rm -f electric-pcb-luces-led.zip
-	$(ZIP) a -r -x!*.bak $@ pcb-luces-led/*
+	$(ZIP) a -r -x!*.*bak $@ pcb-luces-led/*
 
 electric-pcb-luces-led-gerber.zip:  $(wildcard pcb-luces-led/gerber/*)
 	rm -f electric-pcb-luces-led-gerber.zip

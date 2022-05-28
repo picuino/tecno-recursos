@@ -165,6 +165,8 @@ bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https
 `Imagen banner graphic 1 <http://bridgedesigner.org/>`__
 de Stephen J. Ressler con todos los derechos reservados.
 
+----
+
 
 
 Programación

@@ -2,9 +2,12 @@
 .. _ley-ciencias-computacion:
 
 Ciencias de la Computación
-===========================
-
+==========================
 Materia basada en el currículo autonómico de Madrid (en borrador).
+
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 3
 
 
 Introducción
@@ -166,11 +169,9 @@ Competencias Específicas
    recogidos en el anexo I del Real Decreto 217/2022, de 29 de marzo: CCL2, STEM5, CD1, CD2,
    CD3, CD4.
 
-Ciencias de la Computación en 1º ESO
-====================================
 
-Criterios de evaluación
------------------------
+Criterios de evaluación en 1º ESO
+---------------------------------
 
 Competencia específica 1.
    1.1 Comprender qué es un algoritmo, hacer uso de ellos para la resolución de problemas simples
@@ -230,8 +231,9 @@ Competencia específica 4.
    4.3 Conocer y utilizar de forma segura los diferentes servicios que ofrecen las redes, así como las
    oportunidades que ofrecen para la comunicación y el trabajo colaborativo.
 
-Contenidos
-----------
+
+Contenidos en 1º ESO
+--------------------
 
 A. Pensamiento computacional.
 
@@ -312,11 +314,8 @@ D. Redes.
    - Prácticas de uso seguro y responsable de internet.
 
 
-Ciencias de la Computación en 2º ESO
-====================================
-
-Criterios de evaluación
------------------------
+Criterios de evaluación en 2º ESO
+---------------------------------
 
 Competencia específica 1.
    1.1 Entender el funcionamiento de algoritmos sencillos para la búsqueda y ordenación de datos.
@@ -373,8 +372,10 @@ Competencia específica 4.
    información que procesan y almacenan, haciendo un uso seguro de los mismos y valorando la
    importancia de la ciberseguridad.
 
-Contenidos
-----------
+
+Contenidos en 2º ESO
+--------------------
+
 A. Pensamiento computacional.
 
    - Algoritmos de ordenación y de búsqueda.

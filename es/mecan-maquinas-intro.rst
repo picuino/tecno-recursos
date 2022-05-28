@@ -1,5 +1,6 @@
-﻿
-.. _mecanismos-intro:
+﻿:orphan:
+
+.. mecan-maquinas-intro:
 
 Introducción a los mecanismos
 =============================

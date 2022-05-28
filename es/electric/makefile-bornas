@@ -102,11 +102,11 @@ $(IMGDIR)/electric-bornas-condensador.png: $(IMGDIR)/electric-bornas-condensador
 
 # ZIP
 electric-bornas-1.zip:  $(LIBS) $(wildcard bornas-1/*)
-	rm -f $@  bornas-1/*.bak
+	rm -f $@  bornas-1/*.*bak
 	$(ZIP) $@ $^
 
 electric-bornas-2.zip:  $(LIBS) $(wildcard bornas-2/*)
-	rm -f $@  bornas-2/*.bak
+	rm -f $@  bornas-2/*.*bak
 	$(ZIP) $@ $^
 
 

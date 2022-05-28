@@ -49,7 +49,7 @@ $(IMGDIR)/electric-ley-ohm-inicio-p2.png: electric-ley-ohm-inicio.pdf
 
 
 electric-ley-ohm.zip:  $(LIBS) $(wildcard ley-ohm/*)
-	rm -f $@  ley-ohm/*.bak
+	rm -f $@  ley-ohm/*.*bak
 	$(ZIP) $@ $^
 
 $(LEY-OHM-INICIO-IMAGES1): $(IMGDIR)/electric-ley-ohm-inicio-p1.png

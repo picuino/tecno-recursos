@@ -25,9 +25,7 @@ neumática e hidráulica.
    estructuras-estabilidad.rst
    estructuras-bridge-designer.rst
    freecad-index.rst
-   mecan-palancas.rst
-   mecan-poleas.rst
+   mecan-maquinas-index.rst
    mecan-neumatic-intro.rst
-   mecan-termicas.rst
    mecan-origami.rst
    mecan-recursos.rst

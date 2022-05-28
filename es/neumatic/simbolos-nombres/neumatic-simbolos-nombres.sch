@@ -861,28 +861,6 @@ F 3 "" H 5550 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simbolos:Estrangulador V?
-U 1 1 62882C39
-P 6150 6000
-F 0 "V?" H 6100 5850 100 0001 L CNN
-F 1 "Estrangulador" H 6150 6125 50  0001 C CNN
-F 2 "" H 6150 5875 50  0001 C CNN
-F 3 "" H 6150 5875 50  0001 C CNN
-	1    6150 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L simbolos:Valvula_antirretorno V?
-U 1 1 62882F63
-P 6150 5700
-F 0 "V?" H 6100 5550 100 0001 L CNN
-F 1 "Valvula_antirretorno" H 6150 5825 50  0001 C CNN
-F 2 "" H 6150 5575 50  0001 C CNN
-F 3 "" H 6150 5575 50  0001 C CNN
-	1    6150 5700
-	-1   0    0    1   
-$EndComp
-$Comp
 L simbolos:Motor_giratorio V?
 U 1 1 62887EAA
 P 6275 2200
@@ -917,20 +895,6 @@ F 3 "" H 2900 6600 50  0001 C CNN
 	1    2850 6750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 5700 6325 5700
-Wire Wire Line
-	6325 5700 6325 6000
-Wire Wire Line
-	6325 6000 6425 6000
-Connection ~ 6325 6000
-Wire Wire Line
-	6000 5700 5975 5700
-Wire Wire Line
-	5975 5700 5975 6000
-Wire Wire Line
-	5975 6000 5875 6000
-Connection ~ 5975 6000
 Wire Notes Line
 	8100 11500 8100 300 
 Wire Notes Line
@@ -994,11 +958,11 @@ $EndComp
 Text Notes 1575 9000 0    100  ~ 0
 PILOTAJE CON\nENCLAVAMIENTO
 $Comp
-L simbolos:Escape_rápido V?
+L simbolos:Escape V?
 U 1 1 62897B4E
 P 6150 7575
 F 0 "V?" H 6025 7550 100 0001 L CNN
-F 1 "Escape_rápido" H 6175 7875 50  0001 C CNN
+F 1 "Escape" H 6175 7875 50  0001 C CNN
 F 2 "" H 6150 7450 50  0001 C CNN
 F 3 "" H 6150 7450 50  0001 C CNN
 	1    6150 7575
@@ -1041,4 +1005,15 @@ F 3 "" H 5550 7200 50  0001 C CNN
 $EndComp
 Text Notes 6875 7800 0    100  ~ 0
 ESCAPE\nDE AIRE
+$Comp
+L simbolos:Estrangulador_unidireccional V?
+U 1 1 6291FFE3
+P 6150 5750
+F 0 "V?" H 6100 5575 100 0001 L CNN
+F 1 "Estrangulador_unidireccional" H 6150 5465 50  0001 C CNN
+F 2 "" H 6150 5625 50  0001 C CNN
+F 3 "" H 6150 5625 50  0001 C CNN
+	1    6150 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -4,6 +4,19 @@
 Tecnología y Digitalización
 ===========================
 
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 3
+
+
+Currículo de Madrid
+-------------------
+
+.. note::
+   
+   Currículo pendiente de publicación.
+
+
 Currículo Estatal
 -----------------
 
@@ -558,3 +571,4 @@ E. Tecnología sostenible.
 
 * Tecnología sostenible. Valoración crítica de la contribución a la
   consecución de los Objetivos de Desarrollo Sostenible.
+

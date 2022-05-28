@@ -45,7 +45,7 @@ $(IMGDIR)/electric-simbolos-receptores.png: \
 	$(OPTIPNG) $@
 
 electric-simbolos-nombres.zip: $(LIBS) $(wildcard simbolos-nombres/*)
-	rm -f $@  simbolos-nombres/*.bak
+	rm -f $@  simbolos-nombres/*.*bak
 	$(ZIP) $@ $^
 
 

@@ -5,6 +5,18 @@ Currículo de Bachillerato
 =========================
 Curriculo de enseñanzas mínimas en la Educación Secundaria de Bachillerato.
 
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 3
+
+Currículo de Madrid
+-------------------
+
+.. note::
+   
+   Currículo pendiente de publicación.
+
+
 Currículo Estatal
 -----------------
 

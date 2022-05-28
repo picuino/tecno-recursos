@@ -49,11 +49,11 @@ P 2 0 1 8 -400 0 400 0 N
 ENDDRAW
 ENDDEF
 #
-# simbolos_Escape_rápido
+# simbolos_Escape
 #
-DEF simbolos_Escape_rápido V 0 40 Y Y 1 F N
+DEF simbolos_Escape V 0 40 Y Y 1 F N
 F0 "V" -125 -25 100 H I L CNN
-F1 "simbolos_Escape_rápido" 25 300 50 H I C CNN
+F1 "simbolos_Escape" 25 300 50 H I C CNN
 F2 "" 0 -125 50 H I C CNN
 F3 "" 0 -125 50 H I C CNN
 DRAW
@@ -95,6 +95,32 @@ P 2 0 1 0 20 90 60 70 N
 P 3 0 1 0 60 70 70 140 20 90 N
 X ~ ~ -175 0 75 R 50 50 1 1 O
 X ~ ~ 175 0 75 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_Estrangulador_unidireccional
+#
+DEF simbolos_Estrangulador_unidireccional V 0 40 Y Y 1 F N
+F0 "V" -50 -175 100 H I L CNN
+F1 "simbolos_Estrangulador_unidireccional" 0 -285 50 H I C CNN
+F2 "" 0 -125 50 H I C CNN
+F3 "" 0 -125 50 H I C CNN
+DRAW
+A 0 -165 141 1350 450 0 1 0 N -100 -65 100 -65
+A 0 165 141 -1350 -450 0 1 0 N -100 65 100 65
+C -175 0 11 0 1 0 N
+C 175 0 11 0 1 0 N
+C 0 -225 50 1 1 0 N
+P 2 0 1 0 -20 90 -60 70 N
+P 2 0 1 0 55 -110 -40 80 N
+P 2 0 1 0 175 0 -175 0 N
+P 3 0 1 0 -60 70 -70 140 -20 90 N
+P 3 0 1 0 -50 -225 -175 -225 -175 0 N
+P 3 0 1 0 75 -225 175 -225 175 0 N
+P 2 1 1 0 75 -225 -10 -310 N
+P 2 1 1 0 75 -225 -10 -140 N
+X ~ ~ -250 0 75 R 50 50 1 1 O
+X ~ ~ 250 0 75 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

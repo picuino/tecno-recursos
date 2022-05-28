@@ -922,11 +922,11 @@ F 3 "" H 5550 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simbolos:Escape_rápido V?
+L simbolos:Escape V?
 U 1 1 628A62E7
 P 6150 7575
 F 0 "V?" H 6025 7550 100 0001 L CNN
-F 1 "Escape_rápido" H 6175 7875 50  0001 C CNN
+F 1 "Escape" H 6175 7875 50  0001 C CNN
 F 2 "" H 6150 7450 50  0001 C CNN
 F 3 "" H 6150 7450 50  0001 C CNN
 	1    6150 7575

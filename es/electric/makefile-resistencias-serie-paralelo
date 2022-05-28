@@ -86,7 +86,7 @@ $(SERIE-PARALELO-IMAGES2): $(IMGDIR)/electric-resistencias-serie-paralelo-p2.png
 
 
 electric-resistencias-serie-paralelo.zip: $(LIBS) $(wildcard resistencias-serie-paralelo/*)
-	rm -f $@  resistencias-serie-paralelo/*.bak
+	rm -f $@  resistencias-serie-paralelo/*.*bak
 	$(ZIP) $@ $^
 
 

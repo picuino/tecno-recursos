@@ -37,8 +37,8 @@ con ventaja mecánica, es decir que podrá levantar más peso que la fuerza
 aplicada sobre la cuerda.
 
 Para calcular fuerza necesaria para levantar el peso, hay que dividir
-el peso entre el número de cuerdas que están tirando del peso hacia
-arriba.
+el peso entre el número de tramos de cuerda que están tirando del peso 
+hacia arriba.
 
 En los siguientes polipastos hay **2 tramos de cuerda** que tiran del 
 peso hacia arriba y por lo tanto la fuerza que hay que realizar para 
