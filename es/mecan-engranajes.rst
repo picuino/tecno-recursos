@@ -69,15 +69,15 @@ El primer paso será escribir los datos del problema.
 
 .. math::
 
-   N_{1} = 20 rpm
+   N_{1} = 20 \: rpm
 
 .. math::
 
-   N_{2} = 1000 rpm
+   N_{2} = 1000 \: rpm
 
 .. math::
 
-   Z_{2} = 15 dientes
+   Z_{2} = 15 \: dientes
 
 A continuación escribimos la fórmula y sustituimos los valores conocidos.
 
@@ -87,18 +87,18 @@ A continuación escribimos la fórmula y sustituimos los valores conocidos.
 
 .. math::
 
-   Z_{1} \cdot 20 rpm = 15 \cdot 1000 rpm
+   Z_{1} \cdot 20 \: rpm = 15 \cdot 1000 \: rpm
     
     
 Por último despejamos la ecuación y calculamos el valor de la incógnita.
 
 .. math::
 
-   Z_{1} = \cfrac{15 \cdot 1000 rpm}{20 rpm} 
+   Z_{1} = \cfrac{15 \cdot 1000 \: rpm}{20 \: rpm} 
 
 .. math::
 
-   Z_{1} = 750 dientes 
+   Z_{1} = 750 \: dientes 
 
 En la práctica, cuando la relación entre los dientes es tan grande, se 
 suelen utilizar trenes de engranajes con más de dos ruedas conectadas

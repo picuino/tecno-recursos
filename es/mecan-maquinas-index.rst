@@ -17,6 +17,7 @@ movimientos.
    :titlesonly:
 
    mecan-palancas.rst
+   mecan-tornillos.rst
    mecan-poleas.rst
    mecan-engranajes.rst
    mecan-termicas.rst

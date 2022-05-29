@@ -116,15 +116,15 @@ valores de distancia a la misma unidad, por ejemplo en milímetros.
 
 .. math::
 
-   F_{1} = 10 kgf
+   F_{1} = 10 \: kgf
     
 .. math::
 
-   d_{1} = 5.6 cm = 56mm
+   d_{1} = 5.6 \: cm = 56 \: mm
     
 .. math::
 
-   d_{2} = 20 mm
+   d_{2} = 20 \: mm
     
 A continuación escribimos la fórmula y sustituimos los valores conocidos.
 
@@ -134,7 +134,7 @@ A continuación escribimos la fórmula y sustituimos los valores conocidos.
 
 .. math::
 
-   10kgf \cdot 56mm = F_{2} \cdot 20mm
+   10 \: kgf \cdot 56 \: mm = F_{2} \cdot 20 \: mm
     
     
 Por último despejamos la ecuación y calculamos el valor de la incógnita
@@ -142,11 +142,11 @@ con las mismas unidades que tenía la fuerza conocida.
 
 .. math::
 
-   \cfrac{10kgf \cdot 56mm}{20mm} = F_{2} 
+   \cfrac{10 \: kgf \cdot 56 \: mm}{20 \: mm} = F_{2} 
 
 .. math::
 
-   F_{2} = \cfrac{560}{20} = 28 kgf 
+   F_{2} = \cfrac{560}{20} = 28 \: kgf 
 
 
 Ejercicio carretilla
@@ -165,15 +165,15 @@ pues ambas distancias nos las dan en centímetros.
 
 .. math::
 
-   F_{2} = 40 kgf
+   F_{2} = 40 \: kgf
     
 .. math::
 
-   d_{1} = 60cm + 60cm = 120cm
+   d_{1} = 60 \: cm + 60 \: cm = 120 \: cm
     
 .. math::
 
-   d_{2} = 60 cm
+   d_{2} = 60 \: cm
     
 Como podemos ver, para calcular la distancia desde la fuerza 1 hasta el 
 punto de apoyo es necesario sumar las dos distancias que aparecen en
@@ -187,7 +187,7 @@ A continuación escribimos la fórmula y sustituimos los valores conocidos.
 
 .. math::
 
-   F_{1} \cdot 120cm = 40kgf \cdot 60cm
+   F_{1} \cdot 120 \: cm = 40 \: kgf \cdot 60 \: cm
     
     
 Por último despejamos la ecuación y calculamos el valor de la incógnita
@@ -196,11 +196,11 @@ kilogramo-fuerza.
 
 .. math::
 
-   F_{1} = \cfrac{40kgf \cdot 60cm}{120cm}
+   F_{1} = \cfrac{40 \: kgf \cdot 60 \: cm}{120 \: cm}
 
 .. math::
 
-   F_{1} = \cfrac{2400}{120} = 20 kgf 
+   F_{1} = \cfrac{2400}{120} = 20 \: kgf 
 
 
 Ejercicios de palancas
