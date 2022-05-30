@@ -1,4 +1,8 @@
-﻿.. include:: electric-crocodile-subs.rst
+﻿:Date: 11/02/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. include:: electric-crocodile-subs.rst
 
 
 Interruptores y lámparas

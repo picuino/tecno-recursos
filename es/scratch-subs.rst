@@ -1,5 +1,4 @@
-﻿
-.. **********  SCRATCH subs  **********
+﻿.. **********  SCRATCH subs  **********
 
 .. |br| raw:: html
 

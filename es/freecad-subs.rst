@@ -1,5 +1,4 @@
-﻿
-.. **********  FREECAD SUBSTITUTIONS  **********
+﻿.. **********  FREECAD SUBSTITUTIONS  **********
 
 .. |br| raw:: html
 

@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 06/04/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _ley-secundaria:
 
 Curriculo de la ESO

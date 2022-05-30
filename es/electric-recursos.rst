@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 12/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _electric-recursos:
 
 Recursos para electricidad

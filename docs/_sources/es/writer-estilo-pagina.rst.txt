@@ -1,4 +1,8 @@
-﻿.. include:: writer-subs.rst
+﻿:Date: 20/12/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. include:: writer-subs.rst
 
 .. _writer-estilo-pagina:
 

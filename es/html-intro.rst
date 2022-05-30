@@ -1,4 +1,8 @@
-﻿.. _html-intro:
+﻿:Date: 30/08/2019
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. _html-intro:
 
 Introducción a los ejercicios HTML y CSS
 ========================================

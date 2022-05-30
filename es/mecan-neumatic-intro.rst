@@ -1,8 +1,14 @@
-﻿
+﻿:Date: 19/05/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _mecan-neumatic-intro:
 
-Neumática
-=========
+:index:`Neumática`
+==================
+La neumática es la tecnología que emplea el aire comprimido
+como medio de transmisión de energía para mover mecanismos y máquinas.
 
 
 Símbolos neumáticos
@@ -35,7 +41,6 @@ Test sobre neumática
 `Test sobre neumática <https://www.picuino.com/test/#neumatica>`__
 
 
-
 Simulador de neumática
 ----------------------
 .. image:: neumatic/_images/neumatic-simulador.png
@@ -52,6 +57,17 @@ con licencia
 <https://creativecommons.org/licenses/by-nc-sa/2.5/es/>`__
 
 
+Simulador de neumática Hopsan
+-----------------------------
+`Hopsan <https://liu.se/en/research/hopsan>`__ 
+es una herramienta de simulación de sistemas, open-source,
+desarrollada por la Universidad de Linköping.
+
+.. image:: neumatic/_images/neumatic-hopsan-01.png
+   :width: 480px
+   :align: center     
+   :target: https://liu.se/en/research/hopsan
+
 
 Video de circuitos neumáticos
 -----------------------------
@@ -62,3 +78,4 @@ Video de circuitos neumáticos
    <iframe src="https://www.youtube.com/embed/PZUS_Eo4dKM"
    frameborder="0" allowfullscreen></iframe>
    </div>
+

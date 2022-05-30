@@ -1,5 +1,4 @@
-﻿
-.. **********  INKSCAPE SUBS  **********
+﻿.. **********  INKSCAPE SUBS  **********
 
 .. |br| raw:: html
 

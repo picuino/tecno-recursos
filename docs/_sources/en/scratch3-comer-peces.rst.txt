@@ -1,4 +1,8 @@
-﻿.. include:: scratch3-subs.rst
+﻿:Date: 28/12/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. include:: scratch3-subs.rst
 
 .. _scratch3-en-comer-peces:
 

@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 19/12/2019
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _protoboard-push-ledes:
 
 Pulsadores y ledes

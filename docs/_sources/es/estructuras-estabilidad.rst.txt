@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 10/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _estructuras-estabilidad:
 
 
@@ -13,8 +17,8 @@ Existen varios problemas que pueden presentar las estructuras
 debido a su falta de estabilidad.
 A continuación se detallan las más comunes.
 
-Vuelco
-------
+:index:`Vuelco`
+---------------
 El vuelco de una estructura se produce cuando el centro de
 gravedad no se encuentra sobre la base de apoyo de la estructura.
 
@@ -95,8 +99,8 @@ vuelque.
 
 
 
-Pandeo
-------
+:index:`Pandeo`
+---------------
 .. image:: mecan/_images/mecan-pandeo-01.png
    :width: 120px
    :align: right
@@ -220,6 +224,7 @@ Ejercicios
 .. rubric:: Notas
 
 .. [#f1] El `puente de Broughton
-         <http://www.wikivia.org/wikivia/index.php/Puente_de_Broughton_(colapso_estructural)>`_
+         <http://www.wikivia.org/wikivia/index.php?title=Puente_de_Broughton_(colapso_estructural)>`_
          fue un puente de suspensión en Manchester, Inglaterra, que en 1831
-         colapsó a raíz del paso de una tropa de soldados caminando en formación.
+         colapsó a raíz del paso de una tropa de soldados caminando en 
+         formación.

@@ -1,4 +1,8 @@
-﻿.. include:: freecad-subs.rst
+﻿:Date: 02/02/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. include:: freecad-subs.rst
 
 .. _freecad-croquis-anidados:
 

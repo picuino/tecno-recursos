@@ -1,4 +1,8 @@
-﻿.. include:: scratch3-subs.rst
+﻿:Date: 27/09/2019
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. include:: scratch3-subs.rst
 
 .. _scratch3-jugar-futbol:
 

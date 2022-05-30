@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 09/09/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _recursos-libro-4eso-tecno:
 
 Libro 4ºESO Tecnología del CIDEAD

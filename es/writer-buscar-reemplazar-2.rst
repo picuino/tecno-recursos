@@ -1,4 +1,8 @@
-﻿.. include:: writer-subs.rst
+﻿:Date: 08/01/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. include:: writer-subs.rst
 
 .. _writer-buscar-reemplazar-2:
 

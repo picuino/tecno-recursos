@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 19/08/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _recursos-index:
 
 

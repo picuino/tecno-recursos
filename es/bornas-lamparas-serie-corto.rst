@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 28/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _bornas-lamparas-serie-corto:
 
 Lámparas en serie y un cortocircuito

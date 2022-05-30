@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 24/07/2019
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _bornas-electronic:
 
 Cableado de componentes electrónicos

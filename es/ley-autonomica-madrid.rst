@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 26/05/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _ley-autonomica-madrid:
 
 

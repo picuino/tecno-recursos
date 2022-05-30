@@ -1,4 +1,8 @@
-﻿.. css-monospace:
+﻿:Date: 23/10/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. css-monospace:
 
 Tipos de letra monospace
 ========================

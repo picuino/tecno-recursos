@@ -1,4 +1,8 @@
-﻿.. _external-blogs:
+﻿:Date: 16/01/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. _external-blogs:
 
 
 Blogs y páginas web de Tecnología

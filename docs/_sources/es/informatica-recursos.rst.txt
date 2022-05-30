@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 02/02/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. informatica-recursos:
 
 Recursos para informática

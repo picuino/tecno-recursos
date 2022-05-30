@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 19/09/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _bornas-conmutador-interruptor:
 
 Conmutador e interruptor

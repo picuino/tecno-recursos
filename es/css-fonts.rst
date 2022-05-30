@@ -1,4 +1,8 @@
-﻿.. css-fonts:
+﻿:Date: 18/08/2019
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. css-fonts:
 
 Formato de fuentes
 ==================

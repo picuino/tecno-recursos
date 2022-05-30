@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 01/07/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _material-propiedades:
 
 Propiedades de los materiales

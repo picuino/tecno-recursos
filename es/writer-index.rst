@@ -1,4 +1,8 @@
-﻿.. _writer-index:
+﻿:Date: 08/12/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. _writer-index:
 
 ***********************
  Tutorial de Writer 7

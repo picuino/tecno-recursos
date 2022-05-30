@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 10/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _estructuras-intro:
 
 
@@ -10,8 +14,9 @@ Introducción a las Estructuras
    :width: 360px
    
 
-Una **estructura** es un conjunto de elementos
-destinados a soportar esfuerzos sin romperse ni deformarse.
+:index:`Estructura` 
+   Es un conjunto de elementos destinados a soportar esfuerzos sin 
+   romperse ni deformarse.
 
 Existen multitud de estructuras en la naturaleza,
 desde el tronco que sostiene un árbol, hasta nuestro esqueleto.

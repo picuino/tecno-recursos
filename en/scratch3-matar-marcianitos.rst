@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 12/01/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. include:: scratch3-subs.rst
 
 .. _scratch3-en-matar-marcianitos:

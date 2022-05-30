@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 10/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 Control serie de Arduino
 ========================
 Con el siguiente programa, Arduino ejecuta las órdenes que recibe 

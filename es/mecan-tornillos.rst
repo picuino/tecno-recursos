@@ -1,8 +1,12 @@
-﻿
+﻿:Date: 29/05/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _mecan-tornillos:
 
-Tornillos
-=========
+:index:`Tornillo`
+=================
 Un tornillo es una máquina simple compuesta por un plano inclinado
 que se encuentra enrollado alrededor de un eje cilíndrico.
 
@@ -35,7 +39,7 @@ La denominación de las diferentes partes del tornillo es la siguiente.
    Paso
       Es la distancia que hay entre dos filetes consecutivos de la rosca.
 
-   tuerca
+   Tuerca
       Es una pieza mecánica con un orificio roscado que se acopla
       al tornillo. La tuerca suele tener una forma cuadrada o hexagonal 
       para facilitar su giro mediante llaves de apriete.
@@ -91,11 +95,10 @@ unidades de distancia.
 
 Ejercicio silla
 ---------------
-Una silla de taller tiene se eleva mediante un tornillo con una rosca
+Una silla de taller se eleva mediante un tornillo con una rosca
 de paso igual a 4 milímetros por vuelta. 
 Si queremos elevar la silla 6 centímetros
 ¿Cuántas vueltas será necesario dar al tornillo?
-
 
 Para resolver el problema, escribimos primero los datos de los que
 disponemos, convirtiendo todas las distancias a la misma unidad.
@@ -123,5 +126,40 @@ Para finalizar, despejamos la incógnita para hayar el resultado.
 
 .. math::
 
-   Giro = \cfrac{60}{4} = 15 \: Vueltas
+   Giro = \cfrac{60}{4} = 15 \: vueltas
+
+
+Ejercicio tornillo de banco
+---------------------------
+Un tornillo de banco se abre una distancia de 12 centímetros
+tras girar la manivela un total de 24 vueltas.
+¿Cuál es el paso del tornillo?
+
+Para resolver el problema, escribimos primero los datos de los que
+disponemos, convirtiendo todas las distancias a la misma unidad.
+
+.. math::
+
+   Avance = 12 cm = 120 \: mm
+
+.. math::
+
+   Giro = 24 \: vueltas
+
+A continuación escribimos la fórmula y sustituimos las cantidades
+conocidas.
+
+.. math::
+
+   Avance = Giro \cdot Paso
+
+.. math::
+
+   120 \: mm = 24 \: vueltas \cdot Paso 
+
+Para finalizar, despejamos la incógnita para hayar el resultado.
+
+.. math::
+
+   Paso = \cfrac{120}{24} = 5 \: mm / vuelta
 

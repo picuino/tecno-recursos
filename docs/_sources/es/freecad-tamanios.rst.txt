@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 07/01/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. include:: freecad-subs.rst
 
 .. _freecad-tamanios:

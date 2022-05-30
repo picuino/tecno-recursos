@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 09/05/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _electric-serie-paralelo-resistencias:
 
 Resistencias equivalentes

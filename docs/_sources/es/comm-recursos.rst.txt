@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 18/04/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _comm-recursos:
 
 

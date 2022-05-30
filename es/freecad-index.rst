@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 04/01/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _freecad-index:
 
 *********

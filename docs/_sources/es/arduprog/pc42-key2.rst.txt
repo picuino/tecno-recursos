@@ -1,4 +1,8 @@
-﻿.. |keyNum| replace::  ``keyNum``: número del 1 al 6 que representa al pulsador
+﻿:Date: 10/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. |keyNum| replace::  ``keyNum``: número del 1 al 6 que representa al pulsador
       del que se solicita su valor. El valor 0 representa a todos los pulsadores juntos.
 .. |KEY_VALUES| replace:: Se pueden utizar también los valores predefinidos
    ``KEY_LEFT``, ``KEY_RIGHT``, ``KEY_DOWN``, ``KEY_UP``, ``KEY_ENTER``, ``KEY_BACK`` y ``KEY_ALL``.

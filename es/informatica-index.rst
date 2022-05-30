@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 20/09/2019
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _informatica-index:
 
 *************

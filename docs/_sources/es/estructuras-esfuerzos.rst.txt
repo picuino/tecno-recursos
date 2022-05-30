@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 10/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _estructuras-esfuerzos:
 
 Esfuerzos
@@ -28,8 +32,8 @@ compresión.
 Hay 5 esfuerzos distintos. A continuación se explica cada uno.
 
 
-Tracción
---------
+:index:`Tracción`
+-----------------
 El esfuerzo de tracción tiende a estirar la estructura:
 
 .. image:: mecan/_images/esfuerzo-traccion.png
@@ -42,8 +46,8 @@ Ejemplos de elementos que soportan este esfuerzo son:
   * Cable de una grúa
 
 
-Compresión
-----------
+:index:`Compresión`
+-------------------
 El esfuerzo de compresión tiende a comprimir la estructura:
 
 .. image:: mecan/_images/esfuerzo-compresion.png
@@ -55,8 +59,8 @@ Ejemplos de elementos que soportan este esfuerzo son:
   * Columnas de un edificio
 
 
-Flexión
--------
+:index:`Flexión`
+----------------
 El esfuerzo de flexión tiende a doblar la estructura:
 
 .. image:: mecan/_images/esfuerzo-flexion.png
@@ -69,8 +73,8 @@ Ejemplos de elementos que soportan este esfuerzo son:
   * Brazo de una grúa
 
 
-Torsión
--------
+:index:`Torsión`
+----------------
 El esfuerzo de torsión tiende a retorcer la estructura:
 
 .. image:: mecan/_images/esfuerzo-torsion.png
@@ -84,9 +88,9 @@ Ejemplos de elementos que soportan este esfuerzo son:
   * Eje de un grifo
 
 
-Cortante o cizalladura
-----------------------
-El esfuerzo cortante o esfuerzo de cizalla 
+:index:`Corte o cizalla`
+------------------------
+El esfuerzo de corte o esfuerzo de cizalla 
 tiende a cortar en dos la estructura:
 
 .. image:: mecan/_images/esfuerzo-cortante.png

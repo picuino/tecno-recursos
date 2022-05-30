@@ -1,8 +1,12 @@
-﻿
+﻿:Date: 25/05/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _mecan-palancas:
 
-Palancas
-========
+:index:`Palanca`
+================
 La palanca​ es una máquina simple​ compuesta por una barra rígida que gira
 alrededor de un punto de apoyo llamado fulcro. 
 La función de la palanca consiste en transmitir una fuerza y 
@@ -85,11 +89,11 @@ apoyo, de manera que la fórmula queda como sigue.
 
 Siendo
 
-   F1 = Fuerza aplicada
+   F1 = Fuerza aplicada 1
     
    d1 = Distancia desde la fuerza 1 hasta el punto de apoyo
 
-   F2 = Resistencia
+   F2 = Resistencia o fuerza 2
     
    d2 = Distancia desde la fuerza 2 hasta el punto de apoyo
     

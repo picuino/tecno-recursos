@@ -1,4 +1,8 @@
-﻿.. css-sans-serif:
+﻿:Date: 22/10/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. css-sans-serif:
 
 Tipos de letra sans-serif
 =========================

@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 01/06/2019
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _material-recursos:
 
 Recursos para materiales

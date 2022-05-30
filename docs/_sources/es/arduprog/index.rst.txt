@@ -1,4 +1,8 @@
-﻿.. Programación con Arduino documentation master file.
+﻿:Date: 10/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. Programación con Arduino documentation master file.
    Created by sphinx-quickstart on Sun Jan 18 17:04:07 2015.
 
 .. _arduprog-index:

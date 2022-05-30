@@ -1,4 +1,8 @@
-﻿.. meta::
+﻿:Date: 10/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. meta::
    :keywords: Arduino, Librería, Añadir librería, Instalar librería
 
 .. _add-library:

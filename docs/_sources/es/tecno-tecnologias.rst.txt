@@ -1,4 +1,8 @@
-﻿.. _tecno-tecnologias:
+﻿:Date: 26/07/2019
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. _tecno-tecnologias:
 
 
 Tecnologías

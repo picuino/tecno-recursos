@@ -1,8 +1,12 @@
-﻿
+﻿:Date: 28/05/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _mecan-engranajes:
 
-Engranajes
-==========
+:index:`Engranaje`
+==================
 Un engranaje es un mecanismo compuesto por dos o más ruedas dentadas.
 Sirve para transmitir movimiento circular y para transformar la velocidad
 y la fuerza de giro.

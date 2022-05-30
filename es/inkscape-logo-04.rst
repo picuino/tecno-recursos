@@ -1,4 +1,9 @@
-﻿.. include:: inkscape-subs.rst
+﻿:Date: 25/11/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
+.. include:: inkscape-subs.rst
 
 .. _inkscape-logo-04:
 

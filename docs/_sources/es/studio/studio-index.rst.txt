@@ -1,4 +1,8 @@
-﻿:orphan:
+﻿:Date: 02/03/2019
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+:orphan:
 
 .. _studio-index:
 

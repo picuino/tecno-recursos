@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 11/03/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _electric-pcb-luces-led:
 
 Circuito impreso con luces led

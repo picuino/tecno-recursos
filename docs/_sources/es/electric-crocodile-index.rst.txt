@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 11/02/2020
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _crocodile-index:
 
 *******************************

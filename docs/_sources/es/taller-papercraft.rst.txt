@@ -1,4 +1,8 @@
-﻿
+﻿:Date: 06/05/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
 .. _taller-papercraft:
 
 Modelos de papel de figuras en 3D

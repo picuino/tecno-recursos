@@ -1,6 +1,8 @@
-﻿
-.. _mecan-index:
+﻿:Date: 10/12/2018
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
 
+.. _mecan-index:
 
 **********
  Mecánica
@@ -20,10 +22,7 @@ neumática e hidráulica.
    :maxdepth: 1
    :titlesonly:
 
-   estructuras-intro.rst
-   estructuras-esfuerzos.rst
-   estructuras-estabilidad.rst
-   estructuras-bridge-designer.rst
+   mecan-estructuras-index.rst
    freecad-index.rst
    mecan-maquinas-index.rst
    mecan-neumatic-intro.rst

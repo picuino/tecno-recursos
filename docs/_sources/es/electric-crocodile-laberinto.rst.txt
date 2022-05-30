@@ -1,4 +1,8 @@
-﻿.. include:: electric-crocodile-subs.rst
+﻿:Date: 19/05/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+.. include:: electric-crocodile-subs.rst
 
 
 Circuitos laberinto

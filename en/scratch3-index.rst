@@ -1,4 +1,8 @@
-﻿:orphan:
+﻿:Date: 12/01/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+:orphan:
 
 .. _scratch3-en-index:
 
