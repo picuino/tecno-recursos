@@ -20,12 +20,37 @@ Si las dos ruedas son de distinto tamaño, la rueda mayor se denomina
 
 Una de las aplicaciones más importantes de los engranajes es la
 transformación de la velocidad de giro desde un motor, generalmente rápido
-y con poco par de giro, hasta la aplicación que ha de realizar trabajo, 
-generalmente más lenta y con mayor par de giro. 
+y con poco par motor, hasta la aplicación que ha de realizar trabajo, 
+generalmente más lenta y con mayor par motor.
 
 Por ejemplo con engranajes se transforma la velocidad de giro del motor 
-de un automóvil a una velocidad menor y con mayor par, de las ruedas 
+de un automóvil a una velocidad menor y con mayor par motor, de las ruedas 
 del automóvil.
+
+
+:index:`Par motor`
+------------------
+El par motor es equivalente a la 'fuerza' con la que gira un
+eje. La denominación fuerza de empuje se suele reservar para el caso 
+de una fuerza que actúa en línea recta. En el caso de ejes giratorios,
+el par motor indica qué fuerza giratoria habría que aplicar a un 
+metro de distancia del eje de giro para producir el mismo efecto.
+
+Por ejemplo un motor de automóvil utilitario turbo diésel suele
+tener un par motor aproximado de 250 Newton·metro. 
+Este par motor sería equivalente a empujar un eje giratorio con una 
+palanca de un metro de longitud aplicando en el extremo 250 Newton 
+(unos 25 kilogramos-fuerza).
+
+Los engranajes aumentan el par motor (la fuerza de giro)
+en la misma proporción que reducen la velocidad de giro.
+En el caso de un engranaje que aumente la velocidad de giro, el par
+motor se reducirá en la misma proporción.
+Estas proporciones se dan en todos los mecanismos que transforman
+movimientos. 
+
+Un mecanismo que multiplique la fuerza, a la vez, reducirá la 
+distancia o la velocidad del movimiento.
 
 
 Cálculo de engranajes

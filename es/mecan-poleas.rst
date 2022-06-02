@@ -11,7 +11,7 @@ Una polea es una máquina simple compuesta de una rueda acanalada por
 la que pasa una cuerda.
 La función de la polea es desviar la dirección y la posición
 de la cuerda y por lo tanto de la fuerza aplicada.
-De manera que una cuerda de un pozo puede levantar un cubo de agua
+De esta manera la cuerda de un pozo puede levantar un cubo de agua
 haciendo fuerza hacia abajo lejos del brocal, lo que significa una
 ventaja al poder tirar desde una posición más cómoda.
 

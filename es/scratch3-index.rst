@@ -9,10 +9,7 @@
  Tutorial de Scratch 3
 ***********************
 
-:ref:`Tutorial de Scratch3 en inglés <scratch3-en-index>`.
-
 Tutorial para aprender a programar en Scratch 3.
-
 
 .. image:: scratch3/_images/scratch3-logo.png
    :width: 240px
@@ -35,3 +32,5 @@ Tutorial para aprender a programar en Scratch 3.
    scratch3-matar-marcianitos.rst
    scratch3-dibujar-espirales.rst
    scratch3-dibujar-flores.rst
+
+:ref:`Tutorial de Scratch3 en inglés (en construcción). <scratch3-en-index>`.
