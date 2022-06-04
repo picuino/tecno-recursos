@@ -46,10 +46,14 @@ define convert_pdf2
 endef
 
 BORNAS_IMAGES = \
-	$(foreach f, $(wildcard electric-bornas-*.pdf), \
-	$(IMGDIR)/$(notdir $(basename $(f)))-1.png \
-	$(IMGDIR)/$(notdir $(basename $(f)))-2.png \
-	$(IMGDIR)/$(notdir $(basename $(f))).png ) \
+	$(foreach f, conmutador conmutador-doble interruptor \
+	interruptores-paralelo interruptores-serie lamparas-paralelo \
+	lamparas-serie lamparas-serie-corto lamparas-independientes \
+	lamparas-serie-doble conmutador-interruptor \
+	telegrafo crepuscular condensador, \
+	$(IMGDIR)/electric-bornas-$(f)-1.png \
+	$(IMGDIR)/electric-bornas-$(f)-2.png \
+	$(IMGDIR)/electric-bornas-$(f).png )
 
 # PDF TO PNG
 $(IMGDIR)/electric-bornas-%-1.png $(IMGDIR)/electric-bornas-%-2.png: electric-bornas-%.pdf
