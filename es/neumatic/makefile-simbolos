@@ -32,7 +32,7 @@ $(IMGDIR)/neumatic-simbolos-nombres-p3.png: neumatic-simbolos-nombres.pdf
 	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p1.png
 	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p2.png
 	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p3.png
-	$(OPTIPNG) $@
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-p1.png
 
 
 neumatic-simbolos-nombres.zip: $(LIBS) $(wildcard simbolos-nombres/*)
