@@ -29,8 +29,8 @@ de cookies.
 ¿Qué tipos de cookies utiliza este Sitio Web?
 ---------------------------------------------
 
-|  **Cookies técnicas de registro:**
-|  Las cookies de registro se crean al registrarte o cuando se inicia
+**Cookies técnicas de registro:**
+   Las cookies de registro se crean al registrarte o cuando se inicia
    sesión en uno de nuestros sitios web.
    El contenido de estas cookies incluyen un identificador de usuario
    automáticamente asignado por el software de la página web y un
@@ -43,8 +43,8 @@ de cookies.
    Esta información no se utiliza para ningún otro objetivo.
 
 
-|  **Otras cookies técnicas:**
-|  Estas cookies permiten recordar al usuario con el fin de mejorar 
+**Otras cookies técnicas:**
+   Estas cookies permiten recordar al usuario con el fin de mejorar 
    su experiencia de navegación. Almacenan configuraciones de 
    servicios para que no tenga que reconfigurarlos cada vez que nos 
    visita.
@@ -54,8 +54,8 @@ de cookies.
    páginas o en sucesivas visitas.
 
 
-|  **Cookies analíticas:**
-|  Estas cookies recopilan información de su navegación en nuestro
+**Cookies analíticas:**
+   Estas cookies recopilan información de su navegación en nuestro
    Sitio Web de forma totalmente anónima. Con estas cookies se puede
    contabilizar el número de visitantes de cada página, los contenidos
    más vistos o los enlaces más usados. Se puede saber si el usuario
@@ -92,25 +92,19 @@ Puede usted permitir, bloquear o eliminar las cookies instaladas en
 su equipo mediante la configuración de las opciones del navegador 
 instalado en su dispositivo:
 
-`Chrome™ <https://support.google.com/chrome/answer/95647?hl=es&hlrm=en>`_
+`Google Chrome™ <https://support.google.com/chrome/answer/95647?hl=es&hlrm=en>`_
 
-`Firefox™ 
+`Mozilla Firefox™ 
 <https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-?redirectlocale=en-US&redirectslug=Cookies>`_
 
-**Internet Explorer™ :**
-  * `Configuración de privacidad de Internet Explorer 11 
-    <https://windows.microsoft.com/es-es/internet-explorer/ie-security-privacy-settings>`_
-
-  * `Eliminar y administrar cookies 
-    <https://windows.microsoft.com/es-ES/windows-vista/Block-or-allow-cookies>`_
+`Microsoft Edge™ 
+<https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64d>`_
 
 
-**Safari™ :**
-  * `Versión 8 
-    <https://support.apple.com/kb/PH19214?viewlocale=es_ES&locale=es_ES>`_
-  * `Versión 6/7 
-    <https://support.apple.com/kb/PH17191?viewlocale=es_ES&locale=es_ES>`_
-  * `Ajustes en iPhone, iPad o iPod 
+**Apple Safari™**
+  * `macOS 
+    <https://support.apple.com/kb/PH19214?viewlocale=es_ES>`_
+  * `iPhone, iPad o iPod 
     <https://support.apple.com/kb/HT1677?viewlocale=es_ES>`_
 
 
@@ -120,4 +114,4 @@ Esta Política de cookies puede ser actualizada, por ello le
 recomendamos revisarla cada vez que acceda a nuestro Sitio Web para 
 estar adecuadamente informado sobre cómo y para qué usamos las 
 cookies.
-Esta política se actualizó por última vez el 15 de noviembre de 2018.
+Esta política se actualizó por última vez el 6 de junio de 2022.
