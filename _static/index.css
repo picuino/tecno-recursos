@@ -95,6 +95,10 @@ p {
   line-height: 1.6em;
 }
 
+.inner h1 {
+  padding: 8px 0 4px 0;
+}
+
 .inner a, .inner a:visited {
   color: rgb(41, 128, 185);
   text-decoration: none;
@@ -113,7 +117,7 @@ p {
 .item {
   padding: 4px;
   margin: 0;
-  width: 192px;
+  width: 160px;
   display: inline-block;
   margin: 4px 2px;
   background: #F4F4F4;
@@ -131,20 +135,18 @@ p {
 
 .center {
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .image_center {
   margin: 0 auto;
   padding: 0;
-  width:180px;
-  height:135px;
+  width:156px;
+  height:120px;
   text-align: center;
 }
 
 .image_center img {
-  max-width:240px;
-  max-height:160px;
   object-fit: contain;
 }
 
