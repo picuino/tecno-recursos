@@ -30,15 +30,15 @@ Guía de ciberataques a nivel usuario.
 Créditos
 --------
 
-Autor de la guía: La presente publicación pertenece al 
-Instituto Nacional de Ciberseguridad (INCIBE) y al 
+Autor de la guía: La presente publicación pertenece al
+Instituto Nacional de Ciberseguridad (INCIBE) y al
 servicio de la Oficina de Seguridad del Internauta (OSI).
 
 Sitios web: https://www.incibe.es y https://www.osi.es
 
 Licencia: `Creative Commons Reconocimiento-No comercial-CompartirIgual
-4.0 Internacional 
+4.0 Internacional
 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
 
-`Web origen del tutorial 
+`Web origen del tutorial
 <https://www.osi.es/es/guia-ciberataques>`_

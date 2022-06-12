@@ -15,6 +15,7 @@ Tutoriales de ofimática y páginas Web.
    :maxdepth: 1
    :titlesonly:
 
+   informatica-hardware-index.rst
    informatica-tutoimpress.rst
    informatica-tutocalc.rst
    informatica-tutowriter.rst

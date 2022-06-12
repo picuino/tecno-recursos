@@ -5,8 +5,8 @@
 
 .. _mecan-poleas:
 
-:index:`Polea`
-==============
+:index:`Poleas`
+===============
 Una polea es una máquina simple compuesta de una rueda acanalada por
 la que pasa una cuerda.
 La función de la polea es desviar la dirección y la posición
@@ -34,8 +34,8 @@ hasta una posición elevada y de lado a lado.
    :height: 284px
 
 
-:index:`Polipasto`
-------------------
+:index:`Polipastos`
+-------------------
 Uniendo varias poleas se puede formar un polipasto, que levantará pesos
 con ventaja mecánica, es decir que podrá levantar más peso que la fuerza
 aplicada sobre la cuerda.

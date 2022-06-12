@@ -82,7 +82,7 @@ Autor del tutorial: José Manuel Blanco Guimarey
 
 Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
 
-`Web origen del tutorial 
+`Web origen del tutorial
 <https://www.edu.xunta.es/espazoAbalar/espazo/repositorio/cont/titorial-libreoffice-writer>`_
 
 `Créditos del tutorial <../_static/tutorial-writer/writer/docs/creditos.html>`_

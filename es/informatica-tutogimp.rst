@@ -13,11 +13,11 @@ En Castellano.
 Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
 
 
-* `Prácticas de nivel básico 
+* `Prácticas de nivel básico
   <../_static/tutorial-gimp/html/es/basnoson.html>`__
 * `Prácticas de nivel intermedio
   <../_static/tutorial-gimp/html/es/mednoson.html>`__
-* `Prácticas de nivel avanzado 
+* `Prácticas de nivel avanzado
   <../_static/tutorial-gimp/html/es/avnoson.html>`__
 
 
@@ -28,7 +28,7 @@ Autor del tutorial: José Manuel Blanco Guimarey
 
 Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/3.0/es/>`_
 
-`Web origen del programa 
+`Web origen del programa
 <https://www.edu.xunta.es/espazoAbalar/es/espazo/repositorio/cont/microunidades-de-gimp>`__
 
 `Créditos del tutorial <../_static/tutorial-gimp/docs/creditos_es.html>`_

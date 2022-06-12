@@ -5,8 +5,8 @@
 
 .. _mecan-engranajes:
 
-:index:`Engranaje`
-==================
+:index:`Engranajes`
+===================
 Un engranaje es un mecanismo compuesto por dos o más ruedas dentadas.
 Sirve para transmitir movimiento circular y para transformar la velocidad
 y la fuerza de giro.

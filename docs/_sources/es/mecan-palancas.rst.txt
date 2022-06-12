@@ -5,8 +5,8 @@
 
 .. _mecan-palancas:
 
-:index:`Palanca`
-================
+:index:`Palancas`
+=================
 La palanca​ es una máquina simple​ compuesta por una barra rígida que gira
 alrededor de un punto de apoyo llamado fulcro. 
 La función de la palanca consiste en transmitir una fuerza y 

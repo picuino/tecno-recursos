@@ -129,16 +129,21 @@ Su densidad es relativamente alta (7.8 kg/litro).
 .. glossary::
 
    Acero
-      Es una aleación de hierro con carbón (entre el 0.08% y el 2%).
-      Es uno de los metales más utilizados para todo tipo de productos
-      y estructuras por ser el metal más barato, con mayor resistencia
-      mecánica (de 50 a 200 kg/mm2) y muy tenaz.
+      Es una aleación de hierro con carbono (menos del `2.1% 
+      <https://es.wikipedia.org/wiki/Acero>`__ en peso).
+      Es una de las aleaciones metálicas más utilizadas para todo tipo 
+      de productos y estructuras por ser el metal más barato, 
+      con muy buena resistencia mecánica (carga de rotura de 50 a 
+      100 kg/mm2) y muy tenaz.
 
    Fundición
-      Es una aleación de hierro con carbón (entre 2.1% y 4.5%).
+      Es una aleación de hierro con carbono (más del `2.1%
+      <https://es.wikipedia.org/wiki/Fundici%C3%B3n_de_hierro>`__ en peso).
       Son más frágiles que los aceros y con menor punto de fusión.
-      Resisten muy bien la oxidación.
-      Se utilizan por ejemplo para fabricar tapas de alcantarilla,
+      Son más resistentes a la corrosión y a los cambios de temperatura
+      que los aceros comunes.
+      
+      Se utilizan, por ejemplo, para fabricar tapas de alcantarilla,
       estufas y chimeneas, carcasas de bombas de agua, etc.
 
    Acero inoxidable
@@ -147,11 +152,14 @@ Su densidad es relativamente alta (7.8 kg/litro).
       utensilios de cocina, cubertería, lavabos, tuberías, etc.
 
    Ferrita
-      Está compuesta sobre todo por hierro *alfa* puro de aspecto
-      oscuro. En ocasiones se alea con cobalto, níquel, zinc o manganeso.
+      Está compuesta por `hierro alfa 
+      <https://es.wikipedia.org/wiki/Ferrita_(hierro)>`_ 
+      puro, de aspecto oscuro. 
+      En ocasiones se alea con cobalto, níquel, zinc o manganeso, que 
+      mejoran sus propiedades magnéticas.
 
-      Tiene propiedades magnéticas por lo que se puede utilizar
-      para fabricar transformadores, filtros para cables, imanes, etc.
+      La ferrita tiene propiedades magnéticas por lo que se utiliza
+      para fabricar transformadores, imanes, filtros para cables, etc.
 
 
 Cobre y sus aleaciones
@@ -160,12 +168,12 @@ Cobre y sus aleaciones
 .. glossary::
 
    Cobre
-      Es un metal rojizo muy buen conductor del calor.
+      Es un metal rojizo muy buen conductor del calor y la electricidad.
 
-      Muy utilizado para fabricar cables, tuberías, intercambiadores
+      Es muy utilizado para fabricar cables, tuberías, intercambiadores
       de calor, monedas, pigmentos, etc.
       Fue el primer metal utilizado en la prehistoria, dando nombre a la
-      Edad del Cobre.
+      `Edad del Cobre <https://es.wikipedia.org/wiki/Edad_del_Cobre>`_.
 
    Bronce
       Aleación de cobre y estaño (del 3% al 20%).
@@ -175,7 +183,8 @@ Cobre y sus aleaciones
       o esculturas.
 
       Fue la primera aleación obtenida por la humanidad y da su nombre
-      a la Edad del Bronce.
+      a la `Edad del Bronce 
+      <https://es.wikipedia.org/wiki/Edad_del_Bronce>`_.
 
 
    Latón
@@ -198,7 +207,7 @@ Metales ligeros
       corrosión.
       En estado puro es muy blando y con baja resistencia mecánica,
       pero aleado de forma adecuada aumenta mucho su resistencia
-      mecánica hasta los 70 kg/mm2.
+      mecánica de rotura hasta los 40 kg/mm2.
 
       Es muy dúctil y maleable y se puede extrudir con mucha facilidad.
 
@@ -208,7 +217,7 @@ Metales ligeros
       A pesar de ser el metal más abundante de la corteza terrestre
       durante el siglo XIX su producción era tan costosa que se
       consideraba un material exótico con un precio enorme, mayor que el
-      oro.
+      del oro.
       
       A partir de 1900 su producción fue aumentando sin parar hasta la 
       actualidad. Esto se debió a la invención de técnicas químicas 
@@ -218,8 +227,8 @@ Metales ligeros
 
    Titanio
       Es un metal de color gris, de baja densidad (4.5 kg/litro) muy 
-      resistente a la corrosión y con buena resistencia mecánica, hasta 
-      los 140 kg/mm2.
+      resistente a la corrosión y con buena resistencia mecánica de
+      rotura, hasta los 140 kg/mm2.
 
       Tiene la mejor relación dureza/densidad de todos los metales. 
       Es casi tan fuerte como los aceros, pero con menor densidad.

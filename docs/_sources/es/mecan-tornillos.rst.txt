@@ -5,8 +5,8 @@
 
 .. _mecan-tornillos:
 
-:index:`Tornillo`
-=================
+:index:`Tornillos`
+==================
 Un tornillo es una máquina simple compuesta por un plano inclinado
 que se encuentra enrollado alrededor de un eje cilíndrico.
 
