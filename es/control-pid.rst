@@ -140,7 +140,7 @@ En los gráficos anteriores puede verse como, al aumentar la acción
 derivativa Kd, se consigue disminuir las oscilaciones hasta el punto
 de que desaparecen para Kd=50. También puede apreciarse cómo la respuesta
 se hace un poco más lenta al aumentar la constante derivativa.
-Con Kd=0 el sistema tarda 1.8 segundos en subir hasta el valor de referencia.
+Con Kd=0 el sistema tarda 1,8 segundos en subir hasta el valor de referencia.
 Con Kd=20 el sistema tarda 2 segundos en subir hasta el valor de referencia.
 En este ejemplo la acción derivativa se ha escalado de forma que sus
 valores se encuentren entre 0 y 100.
@@ -279,7 +279,7 @@ y controlado por un controlador PID. El objetivo del programa es
 aprender a modificar los parámetros del controlador PID para
 conseguir que el carro se posicione con rapidez y sin error.
 
-:download:`Motion Control. Versión 0.31
+:download:`Motion Control. Versión 0,31
 <control/_downloads/motion-control-031.zip>`
 
 Este otro programa simula el calentamiento de una caldera
@@ -287,7 +287,7 @@ utilizada para calentar a su vez agua de calefacción.
 El sistema térmico utiliza dos controles PID para controlar
 las dos distintas temperaturas del agua.
 
-:download:`Thermal Control. Versión 0.11
+:download:`Thermal Control. Versión 0,11
 <control/_downloads/thermal-control-011.zip>`
 
 

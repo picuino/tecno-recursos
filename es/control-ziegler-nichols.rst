@@ -111,9 +111,9 @@ sistema Ko:
    Control    Kp        Ti        Td
    =======  ========  ========  ========
     P       Ko
-    PI      0.9*Ko    3.3*T1
-    PD      1.6*Ko              0.5*T1
-    PID     1.2*Ko    2*T1      0.5*T1
+    PI      0,9*Ko    3,3*T1
+    PD      1,6*Ko              0,5*T1
+    PID     1,2*Ko    2*T1      0,5*T1
    =======  ========  ========  ========
    En el caso de tener el controlador PID configurado con las ganancias
    integral Ki y derivativa Kd en vez de los tiempos Ti y Td, hay que
@@ -133,9 +133,9 @@ y derivativa (PID):
    Control    Kp        Ki           Kd
    =======  ========  ===========  ============
     P       Ko
-    PI      0.9*Ko    0.27*Ko/T1
-    PD      1.6*Ko                 0.60*Ko*T1
-    PID     1.2*Ko    0.60*Ko/T1   0.60*Ko*T1
+    PI      0,9*Ko    0,27*Ko/T1
+    PD      1,6*Ko                 0,60*Ko*T1
+    PID     1,2*Ko    0,60*Ko/T1   0,60*Ko*T1
    =======  ========  ===========  ============
 
 La constante Kp corresponde a la ganancia proporcional, Ki es la
@@ -162,22 +162,22 @@ la curva de respuesta del sistema son los siguientes:
 
    dY = 225 - 25 = 200 ºC
 
-   T1 = 2.2 - 1 = 1.2 segundos
+   T1 = 2,2 - 1 = 1,2 segundos
 
-   T2 = 13.8 - 2.2 = 11.6 segundos
+   T2 = 13,8 - 2,2 = 11,6 segundos
 
 A partir de estos valores se pueden calcular los parámetros 
 del regulador PID:
 
-   Ko = (dX * T2) / (dY * T1) = (5 * 11.6) / (200 * 1.2) = 0.242 V/ºC
+   Ko = (dX * T2) / (dY * T1) = (5 * 11,6) / (200 * 1,2) = 0,242 V/ºC
 
    =======  ========  ===========  ============
    Control    Kp          Ki        Kd
    =======  ========  ===========  ============
-    P       0.242
-    PI      0.218     0.055
-    PI      0.387                  0.174
-    PID     0.290     0.121        0.174
+    P       0,242
+    PI      0,218     0,055
+    PI      0,387                  0,174
+    PID     0,290     0,121        0,174
    =======  ========  ===========  ============
 
 Después de introducir los valores Kp, Ki y Kd en el PID se obtiene
@@ -193,9 +193,9 @@ Ahora se pueden ajustar a mano los parámetros del PID para conseguir
 una respuesta un poco más estable. Se ha aumentado la ganancia
 derivativa y reducido la integral para reducir las oscilaciones:
 
-   Kp = 0.28
-   Ki = 0.10
-   Kd = 0.21
+   Kp = 0,28
+   Ki = 0,10
+   Kd = 0,21
 
 Como resultado, el sistema se estabiliza ahora en 12 segundos:
 
@@ -236,10 +236,10 @@ oscilación Tc en segundos.
    =======  ========  ===========  ============
    Control    Kp          Ti          Td
    =======  ========  ===========  ============
-    P       0.50*Kc
-    PI      0.45*Kc   0.833*Tc
-    PD      0.80*Kc                 0.125*Tc
-    PID     0.59*Kc   0.50*Tc       0.125*Tc
+    P       0,50*Kc
+    PI      0,45*Kc   0,833*Tc
+    PD      0,80*Kc                 0,125*Tc
+    PID     0,59*Kc   0,50*Tc       0,125*Tc
    =======  ========  ===========  ============
 
    Si los valores de tiempo Ti y Td se traducen a ganancias, se obtiene:
@@ -257,10 +257,10 @@ y derivativa (PID):
    =======  ========  ===========  ============
    Control    Kp        Ki           Kd
    =======  ========  ===========  ============
-    P       0.50*Kc
-    PI      0.45*Kc   0.54*Kc/Tc
-    PD      0.80*Kc                0.075*Kc*Tc
-    PID     0.59*Kc   1.18*Kc/Tc   0.075*Kc*Tc
+    P       0,50*Kc
+    PI      0,45*Kc   0,54*Kc/Tc
+    PD      0,80*Kc                0,075*Kc*Tc
+    PID     0,59*Kc   1,18*Kc/Tc   0,075*Kc*Tc
    =======  ========  ===========  ============
 
 La constante Kp corresponde a la ganancia proporcional, Ki es la
@@ -287,7 +287,7 @@ A continuación se fija una temperatura de trabajo en la referencia
 y se aumenta la ganancia proporcional hasta conseguir una respuesta 
 oscilatoria mantenida.
 
-Con una ganancia proporcional Kp = 0.40 la respuesta todavía está 
+Con una ganancia proporcional Kp = 0,40 la respuesta todavía está 
 amortiguada:
 
 .. image:: control/_images/img-0065.png
@@ -295,7 +295,7 @@ amortiguada:
    :alt: Ganancia crítica de lazo cerrado. Sistema sobreamortiguado.
    :align: center
    
-Al aumentar la ganancia proporcional hasta Kp = 0.43 se obtiene 
+Al aumentar la ganancia proporcional hasta Kp = 0,43 se obtiene 
 una respuesta
 con oscilaciones mantenidas:
 
@@ -304,7 +304,7 @@ con oscilaciones mantenidas:
    :alt: Ganancia crítica de lazo cerrado. Sistema crítico.
    :align: center
 
-Al aumentar la ganancia hasta Kp = 0.45, las oscilaciones crecen 
+Al aumentar la ganancia hasta Kp = 0,45, las oscilaciones crecen 
 en el tiempo, por lo que la ganancia sería demasiado alta.
 
 .. image:: control/_images/img-0067.png
@@ -314,9 +314,9 @@ en el tiempo, por lo que la ganancia sería demasiado alta.
 
 En este caso, por lo tanto, la ganancia crítica y el periodo son:
 
-   Kc = 0.43
+   Kc = 0,43
 
-   Tc  = 21/4 = 5.3 s
+   Tc  = 21/4 = 5,3 s
 
 A partir de estos valores se calculan los parámetros del 
 controlador PID:
@@ -324,10 +324,10 @@ controlador PID:
    =======  ========  ===========  ============
    Control    Kp        Ki           Kd
    =======  ========  ===========  ============
-    P        0.215
-    PI       0.195       0.044
-    PI       0.344                    0.169
-    PID      0.254       0.096        0.169
+    P        0,215
+    PI       0,195       0,044
+    PI       0,344                    0,169
+    PID      0,254       0,096        0,169
    =======  ========  ===========  ============
 
 

@@ -46,7 +46,7 @@ Características del sensor SR04
 Este sensor de ultrasonidos tiene las siguientes características:
 
  * Distancia de detección: 2cm - 400cm
- * Resolución: 0.3cm
+ * Resolución: 0,3cm
  * Frecuencia de sonido: 40kHz
  * Ángulo eficaz: 15º
  * Tensión de alimentación: 5V

@@ -70,15 +70,17 @@ esfuerzos.
       Cuanto más esfuerzo resista un material antes de romperse, 
       mayor resistencia mecánica tendrá.
       
-      Un pequeño listón de madera de un milímetro cuadrado resiste alrededor de 1.5 kilogramos.
+      Un pequeño listón de madera de un milímetro cuadrado resiste 
+      alrededor de 1,5 kilogramos.
    
       Un cable de nailon de un milímetro cuadrado resiste 8 kilogramos.
       
-      Un cable de acero de un milímetro cuadrado resiste en torno a los 100 kilogramos.
+      Un cable de acero de un milímetro cuadrado resiste en torno a los 
+      100 kilogramos.
    
-      La resistencia mecánica se mide en kg/mm2 es decir, cuántos kilogramos 
-      soporta un cable de un milímetro cuadrado de ese material antes de 
-      estirarse de forma permanente (límite elástico) o antes de 
+      La resistencia mecánica se mide en kg/mm2 es decir, cuántos 
+      kilogramos soporta un cable de un milímetro cuadrado de ese material 
+      antes de estirarse de forma permanente (límite elástico) o antes de 
       romperse (carga de rotura).
 
 

@@ -5,20 +5,33 @@
 
 .. informatica-hardware-cpu:
 
+Procesadores
+============
+Los procesadores son los cerebros de los ordenadores, los componentes
+que realizan las operaciones dictadas por los programas.
+
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 2
+
+
 Unidad Central de Proceso (:index:`CPU`)
-========================================
+----------------------------------------
 Una `CPU o unidad central de procesamiento
 <https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento>`__
-también llamado procesador, es un componente de un ordenador dedicado
+también llamado microprocesador, es un componente de un ordenador dedicado
 a interpretar las instrucciones de los programas informáticos.
 Pueden realizar operaciones lógicas, aritméticas y de movimiento de datos.
 
-Es el componente más complejo de un ordenador. Una CPU actual puede
-contener cerca de 10000 millones de transistores.
+Es el componente más complejo de un ordenador. 
+Una CPU de ordenador personal, en 2022, tiene
+de `25 000 millones a 100 000 millones de transistores 
+<https://en.wikipedia.org/wiki/Transistor_count>`__.
 
 Las CPU más conocidas y usadas en la actualidad son las de
-la empresa Intel (i3, i5, i7) para ordenadores personales y las
-CPU basadas en ARM para los teléfonos inteligentes y tabletas.
+la empresa Intel (i3, i5, i7, Xeon) para ordenadores personales y 
+servidores y las CPU basadas en ARM (Snapdragon, Kirin, etc.) 
+para los teléfonos inteligentes y tabletas.
 
 .. figure:: informatica/_images/informatica-cpu-486dx2-b.jpg
    :align: center
@@ -26,8 +39,8 @@ CPU basadas en ARM para los teléfonos inteligentes y tabletas.
 
    CPU 80486DX típica de los PC de mediados de los años 90.
 
-   `Solipsist <https://commons.wikimedia.org/wiki/File:Intel_80486DX2_bottom.jpg>`__
-   `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__
+   `Solipsist <https://commons.wikimedia.org/wiki/File:Intel_80486DX2_bottom.jpg>`__,
+   `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
    via Wikimedia Commons.
 
 
@@ -46,11 +59,12 @@ dibujar triángulos, cuadrados, elipses, etc.
    La mayoría de las CPUs actuales tienen ya integradas pequeñas GPUs
    con una capacidad limitada para manejar gráficos. Es suficiente para
    manejar programas ofimáticos o navegar por internet, pero no tienen
-   suficiente capacidad para manejar videojuegos, programas de diseño, etc.
+   bastante capacidad para manejar videojuegos, programas de diseño, etc.
    Por esa razón en los ordenadores de mayor potencia se utilizan
-   `tarjetas gráficas <https://es.wikipedia.org/wiki/Tarjeta_gr%C3%A1fica>`
+   `tarjetas gráficas 
+   <https://es.wikipedia.org/wiki/Tarjeta_gr%C3%A1fica>`__
    especializadas, que llegan a consumir mucha más potencia eléctrica que
-   la propia CPU.
+   la propia CPU y realizan un mayor número de operaciones por segundo.
 
 
 .. figure:: informatica/_images/informatica-tarjeta-video.jpg
@@ -59,8 +73,8 @@ dibujar triángulos, cuadrados, elipses, etc.
 
    Tarjeta gráfica Radeon HD 5570.
 
-   `Evan-Amos <https://commons.wikimedia.org/wiki/File:Sapphire-Radeon-HD-5570-Video-Card.jpg>`__
-   Public Domain. Via Wikimedia Commons.
+   `Evan-Amos <https://commons.wikimedia.org/wiki/File:Sapphire-Radeon-HD-5570-Video-Card.jpg>`__,
+   Public Domain, via Wikimedia Commons.
 
 
 Unidad de procesamiento tensorial (:index:`TPU`)
@@ -75,19 +89,78 @@ empresa, pero cada vez más circuitos traen añadidas capacidades semejantes
 para el cálculo de redes neuronales.
 
 
-Características de una CPU
---------------------------
-A la hora de comparar entre sí varias CPUs hay una serie de
-características que las diferencian y que se describen a continuación.
+Procesador de señales digitales (:index:`DSP`)
+----------------------------------------------
+Un `DSP o procesador de señales digitales 
+<https://es.wikipedia.org/wiki/Procesador_de_se%C3%B1ales_digitales>`__
+es un procesador especializado en ejecutar operaciones numéricas
+relacionadas con el tratamiento de señales, a muy alta velocidad.
+
+Sus aplicaciones típicas son el tratamiento en tiempo real de señales de
+audio, voz, imagen, video, etc.
+Con estas aplicaciones se puede eliminar el eco en las líneas de 
+comunicaciones, hacer más claras imágenes de órganos en los equipos de 
+diagnóstico médico por ultrasonidos o por resonancia magnética, 
+realizar ajustes de **auto-tune** en la voz de los cantantes,
+decodificar canciones en los reproductores digitales de audio,
+comprimir fotografías en cámaras digitales, 
+y una larga lista de aplicaciones que pueden ser relacionadas con el 
+proceso de señales. 
+
+
+:index:`Microcontroladores`
+---------------------------
+Un microcontrolador es un pequeño ordenador dentro de un solo chip.
+Incorpora la CPU, la memoria RAM, memoria Flash ROM y periféricos de 
+entrada/salida en un espacio pequeño y a bajo precio.
+
+Estos procesadores se utilizan para controlar periféricos tales como 
+el teclado, el ratón, la cámara web, el monitor, los discos duros, etc.
+
+Gracias a los microcontroladores, la CPU principal se descarga de las 
+tareas de control de los periféricos que serían muy costosas en tiempo
+y recursos si tuviera que administrarlas la CPU.
+
+
+:index:`FPGA`
+-------------
+Una `FPGA 
+<https://es.wikipedia.org/wiki/Field-programmable_gate_array>`__
+es un circuito basado en puertas lógicas programables.
+Estos circuitos pueden programarse para resolver tareas especializadas
+de forma mucho más rápida que una CPU convencional.
+
+Aplicaciones típicas son, sistemas de visión por ordenador, minado de
+criptomonedas, emulación de hardware antiguo, machine learning, 
+prototipado de circuitos a medida (ASIC), etc.
+
+Al ejecutar las operaciones de forma paralela, pueden acelerar los 
+cálculos y ser varias veces más rápidas que una CPU en operaciones 
+tales como la compresión de audio y video.
+
+Los lenguajes más utilizados para programar FPGAs son 
+VHDL y Verilog.
+
+
+Características de un procesador
+--------------------------------
+A la hora de comparar entre sí varios procesadores hay una serie de
+características que les diferencian y que se describen a continuación.
+
 
 Consumo energético
-   El consumo de una CPU es cada vez más importante.
-   Por una parte, cuanto menor consumo tenga una CPU, más tiempo va a
-   durar una batería del dispositivo. Por otro lado, en los ordenadores
-   enchufados, cuanto menor sea el consumo de electricidad menor será
-   el costo de mantener al ordenador funcionando. Este consumo es tan
-   elevado para los ordenadores de alto rendimiento que la electricidad
-   llega a costar anualmente más que el precio de la propia CPU.
+   El consumo de un procesador es cada vez más importante.
+   Por una parte, cuanto menor consumo tenga un procesador, más tiempo va 
+   a durar una batería del dispositivo que lo contiene. 
+   Por otro lado, en los ordenadores enchufados a la red eléctrica,
+   cuanto menor sea el consumo de electricidad menor será
+   el costo de mantener al ordenador funcionando. 
+   Este consumo es tan elevado para los ordenadores de alto rendimiento
+   que la electricidad llega a costar anualmente más que el precio del 
+   propio procesador.
+   Esa es la razón por la que se cambian los procesadores de los
+   servidores antes de que acabe su vida útil. Es más barato instalar un
+   procesador nuevo más potente.
 
    El consumo de potencia, también llamado TDP, se mide en vatios.
    Una CPU típica de un ordenador personal consume alrededor de 100 vatios
@@ -97,64 +170,80 @@ Consumo energético
 
 
 Frecuencia de reloj
-   Es la frecuencia a la que funciona la CPU y determina la cantidad de
-   instrucciones que podrá ejecutar en un segundo.
-   Las frecuencias típicas de los procesadores actuales varían desde
+   Es la frecuencia a la que funciona un procesador y determina la 
+   cantidad de instrucciones que podrá ejecutar en un segundo.
+   Las frecuencias típicas de los procesadores actuales para ordenadores
+   personales y teléfonos inteligentes varían desde
    los 1000MHz hasta los 5000MHz. Cuanto mayor sea la velocidad de reloj,
-   más rápida será una CPU, si el resto de parámetros es el mismo.
+   más rápida será un procesador, si el resto de parámetros se mantienen 
+   iguales.
 
-   El :index:`Overclocking` es una técnica que consiste en hacer funcionar
-   una CPU a una frecuencia más elevada que la frecuencia para la que está
-   diseñada. Muchas CPUs admiten trabajar a mayor frecuencia que la
+   El :index:`Overclocking` es una técnica que consiste en hacer 
+   funcionar a un procesador a una frecuencia más elevada que la 
+   frecuencia para la que está diseñado. 
+   Muchos procesadores admiten trabajar a mayor frecuencia que la
    nominal, pero esta técnica conlleva un mayor consumo energético y
    la posibilidad de fallos en el sistema.
 
+
 Número de núcleos
-   Las CPU actuales en realidad están compuestas internamente por varias
-   CPU individuales llamadas núcleos. Cuantos más núcleos tenga una CPU
-   más operaciones podrá realizar en paralelo.
+   Los procesadores actuales en muchos casos están compuestos internamente 
+   por varios procesadores individuales llamados núcleos. 
+   Cuantos más núcleos tenga un procesador, más operaciones podrá realizar
+   en paralelo.
 
    Hay tareas que se pueden dividir entre varios núcleos y que serán más
-   rápidas cuantos más núcleos tenga una CPU.
+   rápidas cuantos más núcleos tenga un procesador.
    Por otro lado, ciertas tareas no se pueden dividir entre varios núcleos
-   y su velocidad no será mayor por muchos núcleos que tenga la CPU.
+   y su velocidad no será mayor por muchos núcleos que tenga el procesador.
 
-   En 2022 una CPU de tamaño medio suele tener de 4 a 8 núcleos.
+   En 2022 un procesador de tamaño medio para ordenador personal
+   suele tener de 6 a 12 núcleos.
 
 
 Número de hilos de ejecución
    Los hilos de ejecución son la cantidad de programas diferentes
-   que se pueden ejecutar a la vez por parte de la CPU.
-   En realidad una CPU solo podrá ejecutar un programa por núcleo,
+   que se pueden ejecutar a la vez por parte del procesador.
+   En realidad un procesador solo podrá ejecutar un programa por núcleo,
    pero los hilos permiten duplicar de forma virtual el número de
    tareas y acelerar un poco más la velocidad de ejecución.
 
-   En 2022 una CPU suele tener dos hilos de ejecución por núcleo.
-   Es decir, una CPU de 6 núcleos tendrá 12 hilos de ejecución.
+   En 2022 un procesador de Intel suele tener dos hilos de ejecución por 
+   núcleo. Es decir, una CPU de 8 núcleos tendrá 16 hilos de ejecución.
 
 
 Memoria caché
-   Es una memoria interna a la CPU que permite acceder a los datos y
-   programas de manera rápida.
+   Es una memoria intermedia que permite acceder a los datos y programas 
+   de manera más rápida cuando se hacen accesos repetidos a los
+   mismos datos.
 
-   Las CPUs deben leer información de la memoria RAM para realizar su
-   tarea, tanto información del programa a ejecutar como de los datos a
+   Los procesadores deben leer información de la memoria RAM para realizar
+   su tarea, tanto información del programa a ejecutar como de los datos a
    procesar. La velocidad de transferencia de la memoria RAM suele ser más
-   lenta que la velocidad de proceso de la CPU, de manera que la memoria
-   caché se utiliza como una memoria intermedia que almacena los contenidos
-   de la memoria RAM mientras se están procesando.
+   lenta que la velocidad de proceso del procesador, de manera que la 
+   memoria caché se utiliza como una memoria intermedia que almacena los 
+   contenidos de la memoria RAM que se leen de forma repetida, para 
+   disponer de ellos más rápido mientras se están procesando.
 
-   Cuanto mayor sea el tamaño de la caché mayor será la velocidad final
-   de la CPU.
+   Cuanto mayor sea el tamaño de la memoria caché mayor será la velocidad 
+   final de la CPU.
 
-   La mayoría de las CPU tienen varios niveles de memoria caché, cada
-   uno de ellos más lento que el anterior, pero de mayor tamaño.
-   Se suele dar el valor del mayor de ellos. Una CPU típica de un
-   ordenador personal suele tener un tamaño de memoria caché de 6 Mbytes.
+   La mayoría de las CPU tienen varios niveles de memoria caché incluidos
+   internamente. Cada nivel de memoria caché es más lento que el anterior, 
+   pero de mayor tamaño.
+   Se suele dar el valor del mayor de ellos. 
+   Una CPU típica de un ordenador personal en 2022 suele tener un tamaño 
+   de memoria caché en torno a los 6 Mbytes.
+
 
 Número de Bits
-   Las CPU más simples, como la que incorpora un teclado de ordenador o
-   un horno microondas, son de 8 bits.
+   Es el número de bits que puede manejar un procesador a la vez.
+   Determina la cantidad de memoria a la que se puede acceder y la rapidez
+   con la que se ejecutarán ciertas operaciones. Un procesador de 
+   8 bits moverá información cuatro veces más lento que uno de 32 bits.
+   
+   Los procesadores más simples, como los que incorpora un teclado de 
+   ordenador o un horno microondas, son de 8 bits.
 
    Por encima de ellas están las CPU de 32 bits, mucho más potentes y
    rápidas. Son las utilizadas en smartphones, smartTV, impresoras, etc.
@@ -162,17 +251,18 @@ Número de Bits
    Los ordenadores personales actuales utilizan, en la mayoría de los
    casos, procesadores y software de 64 bits.
 
+
 Tipo de Buses
    Es el tipo de comunicación con el que se transfiere información entre
-   la CPU y el exterior. Cuantos más buses tenga una CPU y más rápidos
-   sean, mayor será el rendimiento del procesador.
+   el procesador y el exterior. Cuantos más buses tenga un procesador
+   y más rápidos sean, mayor será su rendimiento.
 
    Actualmente los procesadores de ordenador personal tienen tres
    buses de comunicaciones con el exterior, para mejorar la velocidad
    de transferencia:
 
-   * Bus con la memoria RAM.
-   * Bus con los puertos PCI express.
+   * Bus directo con la memoria RAM.
+   * Bus directo con los puertos PCI Express.
    * Bus DMI para conectar con el resto de dispositivos
      (USB, PCI, Sata, Ethernet, etc).
 
@@ -182,15 +272,12 @@ Pruebas de rendimiento
 Las pruebas de rendimiento, también llamadas
 `benchmark <https://es.wikipedia.org/wiki/Benchmark_(inform%C3%A1tica)>`__,
 son una técnica para medir el rendimiento de un sistema informático o
-de sus componentes.
-Son muy útiles a la hora de comparar CPUs dado el gran número de
-parámetros que tienen estas y dado que el rendimiento final no está claro
-teniendo en cuenta solo estos parámetros.
+de sus componentes por separado.
+Son pruebas muy útiles a la hora de comparar procesadores dado el gran 
+número de parámetros que tienen estos y dado que el rendimiento final 
+no está claro teniendo en cuenta solo estos parámetros.
 
-Uno de los test comerciales más conocidos para ordenadores personales
-es el `Test PassMark <https://www.cpubenchmark.net/>`__
-
-Otros test clásicos muy conocidos son los siguientes.
+Test clásicos muy conocidos son los siguientes.
 
 .. glossary::
 
@@ -210,7 +297,7 @@ Otros test clásicos muy conocidos son los siguientes.
       Los `FLOPS <https://es.wikipedia.org/wiki/Operaciones_de_coma_flotante_por_segundo>`__
       u operaciones de coma flotante por segundo, mide cuántas operaciones
       matemáticas con decimales es capaz de realizar un ordenador.
-      Son habituales los múltiplos, así un GFLOPS es igual a 1000 millones
+      Son habituales los múltiplos, así un MFLOPS es igual a 1 millón
       de operaciones por segundo.
 
       Esta medida es útil para conocer cómo es de rápida una máquina
@@ -219,40 +306,21 @@ Otros test clásicos muy conocidos son los siguientes.
       Un ordenador personal típico de 2022 tiene aproximadamente 50 000
       MFLOPS.
 
+   SPECint y SPECfp
+      `Standard Performance Evaluation Corporation (SPEC) 
+      <https://es.wikipedia.org/wiki/Standard_Performance_Evaluation_Corporation>`__
+      es un consorcio sin fines de lucro que incluye a vendedores de 
+      computadoras, integradores de sistemas, universidades, grupos de 
+      investigación, publicadores y consultores de todo el mundo. 
+      Tiene dos objetivos: 
+      crear un benchmark estándar para medir el rendimiento de 
+      computadoras y controlar y 
+      `publicar los resultados de estos tests <http://www.spec.org/>`__.
 
-:index:`Placa base`
--------------------
-Una `placa base
-<https://es.wikipedia.org/wiki/Placa_base>`__
-también conocida como placa madre o motherboard
-es una tarjeta de circuito impreso que sirve de soporte y de conexión
-de los componentes internos de un ordenador.
 
-Elementos típicos de una placa base de ordenador personal
+Otros test comerciales:
 
-   Conectores traseros de entrada/salida:
-      * Conectores USB
-      * Conector RJ-45 para Ethernet
-      * Conector HDMI y/o DVI para el monitor
-      * Conectores de audio analógico
-
-   Elementos de proceso:
-      * CPUs y sus zócalos
-      * Memoria RAM y sus zócalos
-      * Memoria BIOS
-      * Chipset de entrada/salida
-
-   Conectores internos de entrada/salida:
-      * Conectores PCI Express
-      * Conectores SATA
-      * Conectores
-
-.. figure:: informatica/_images/informatica-placa-base-02.jpg
-   :align: center
-   :width: 480px
-
-   Placa base ASRock A70GXH-128M de 2012.
-
-   `Evan-Amos <https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg>`__
-   `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
-   via Wikimedia Commons.
+PassMark
+   El `Test PassMark <https://www.cpubenchmark.net/>`__
+   es uno de los test comerciales más conocidos para ordenadores personales.
+   

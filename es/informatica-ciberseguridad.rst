@@ -36,8 +36,8 @@ servicio de la Oficina de Seguridad del Internauta (OSI).
 
 Sitios web: https://www.incibe.es y https://www.osi.es
 
-Licencia: `Creative Commons Reconocimiento-No comercial-CompartirIgual
-4.0 Internacional
+Licencia: `Creative Commons 
+Reconocimiento-No comercial-CompartirIgual 4.0 Internacional
 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
 
 `Web origen del tutorial

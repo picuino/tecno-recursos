@@ -5,8 +5,8 @@
 
 .. informatica-hardware-intro:
 
-Introducción al Hardware
-========================
+Introducción al :index:`hardware`
+=================================
 El `hardware <https://es.wikipedia.org/wiki/Hardware>`__
 (pronunciado jard.wer)
 se refiere a las partes físicas de un sistema informático.
@@ -15,6 +15,11 @@ tales como cables, cajas, periféricos, etc.
 
 Por el contrario los programas y datos de un ordenador, que son
 intangibles, se denominan software.
+
+
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 2
 
 
 Hardware de un ordenador personal
@@ -177,7 +182,7 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
       Por ejemplo los servidores de datos `NAS
       <https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red>`__
       que permiten compartir archivos de datos en una red de ordenadores,
-      fotocopiadoras, routers, impresoras, scanner, cajeros automáticos,
+      fotocopiadoras, routers, impresoras, escáner, cajeros automáticos,
       máquinas expendedoras y un largo etcétera.
 
 
@@ -245,8 +250,8 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
       Con ordenador personal o PC se suele denominar a un microordenador de
       escritorio, de uso general, para ser usado por una persona.
       Los ordenadores personales actuales comenzaron a venderse en 1981
-      por parte de IBM y pronto aparecieron ordenadores con un funcionamiento
-      semejante (clónicos) fabricados por otras empresas.
+      por parte de IBM y pronto aparecieron ordenadores con un 
+      funcionamiento semejante (clónicos) fabricados por otras empresas.
 
       Su sistema operativo suele ser Windows, MacOS o Linux.
 
@@ -319,11 +324,246 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
          via Wikimedia Commons.
 
 
-Esquema simplificado de un ordenador personal
----------------------------------------------
+Esquema simplificado de un ordenador
+------------------------------------
+En el gráfico adjunto se pueden ver los elementos principales de 
+cualquier ordenador.
 
-.. figure:: informatica/_images/informatica-esquema-ordenador.png
+.. image:: informatica/_images/informatica-esquema-ordenador-02.png
+   :align: center
+   :width: 480px
+   
+Estos elementos son los siguientes:
+
+ * La **memoria ROM**, que es la encargada de almacenar a largo plazo
+   los programas y los datos, aunque el ordenador esté apagado.
+ * La **memoria RAM**, que es la encargada de almacenar los programas y los 
+   datos para que el procesador pueda trabajar con ellos.
+ * La **CPU o unidad central de proceso** que es el cerebro del ordenador,
+   el elemento que procesa los programas y los datos.
+ * El **bus de procesador** que se encarga de transportar los datos
+   entre la CPU, la memoria y el sistema de entrada/salida.
+ * El **sistema de entrada/salida** que conecta al ordenador con el 
+   exterior y se encarga de transportar información entre el bus de 
+   procesador y varios buses de conexión secundarios, que suelen ser 
+   estándar, como USB, HDMI o Ethernet.
+ * Los **periféricos**, que se encargan de realizar 3 tareas fundamentales.
+ 
+    * Entrada de datos al ordenador (por ejemplo un teclado)
+    * Salida de datos del ordenador (por ejemplo una pantalla)
+    * Almacenamiento externo (por ejemplo una memoria USB)
+   
+
+En un ordenador personal, el esquema quedaría como se puede ver en la 
+siguiente figura.
+   
+.. image:: informatica/_images/informatica-esquema-ordenador.png
    :align: center
    :width: 480px
 
-   Esquema simplificado de un ordenador personal.
+En este caso la memoria ROM es sustituida por una unidad de almacenamiento
+externa que se comporta como un periférico de entrada/salida de datos.
+
+
+Unidades de medida
+------------------
+
+Medida de cantidad de información o capacidad de almacenamiento.
+   * Bit. Es la unidad mínima de información y equivale a un dígito binario
+     que puede valer 0 ó 1.
+   * Byte. Es un conjunto de 8 bits. Puede contener un carácter y 
+     puede tomar valores entre 0 y 255.
+   * Word. Una palabra puede tener un número variable de bits dependiendo
+     del sistema informático con el que estemos tratando. 
+     En los ordenadores actuales varía desde 16 bits hasta 128 bits.
+     
+Medida de velocidad de transporte o caudal.
+   * Bit/s. Un bit transmitido cada segundo.
+   * Byte/s. Un byte transmitido cada segundo.
+
+Múltiplos
+   Tabla de `Prefijos del Sistema Internacional
+   <https://es.wikipedia.org/wiki/Prefijos_del_Sistema_Internacional>`__.
+   
+   .. list-table::
+      :widths: auto
+      :header-rows: 1
+      
+      * - Prefijo
+        - Letra
+        - Cantidad
+        - 10^n
+      * - kilo-
+        - k
+        - 1 000
+        - 10^3
+      * - Mega-
+        - M
+        - 1 000 000
+        - 10^6
+      * - Giga-
+        - G
+        - 1 000 000 000
+        - 10^9
+      * - Tera-
+        - T
+        - 1 000 000 000 000
+        - 10^12
+      * - Peta-
+        - P
+        - 1 000 000 000 000 000
+        - 10^15
+      * - Exa-
+        - E
+        - 1 000 000 000 000 000 000
+        - 10^18
+
+Capacidades y velocidades típicas
+   Un mensaje de texto apenas ocupará pocos bytes (alguno más que el número
+   de caracteres).
+
+   Una conexión de audio a través de Whatsapp necesita unos 64 kbit/s
+   para funcionar.
+   
+   Una fotografía o una canción mp3 ocupan unos cientos de kilobytes o 
+   pocos megabytes dependiendo de su calidad o tamaño.
+   
+   Una conexión a internet por fibra óptica tiene alrededor de 100 Mbit/s
+   de velocidad de conexión (equivalente a unos 12 Mbyte/s).
+   
+   Una conexión por Ethernet con el router suele tener 1Gbit/s de velocidad
+   de conexión (equivalente a 125 Mbyte/s).
+   
+   Una película en DVD ocupará de 4 a 8 Gigabytes de espacio.
+   
+   Un disco duro típico tiene una capacidad de varios Terabytes.
+   
+   Un Cluster de ordenadores puede alcanzar varios Petabytes de capacidad.
+   
+   Se calcula que en 2020 la capacidad de almacenamiento total de 
+   internet era de unos `2000 Exabytes
+   <https://www.statista.com/statistics/638593/worldwide-data-center-storage-capacity-cloud-vs-traditional/>`__
+         
+
+Ley de Moore
+------------
+La ley de Moore fue formulada en el año 1965 por Gordon Moore,
+cofundador de Intel, y expresa que cada 2 años se duplica el número
+de transistores de un microprocesador.
+
+Esta ley también es válida para otros dispositivos basados en 
+transistores como pueden ser la memoria RAM o la memoria Flash.
+
+Gracias a esta tendencia a aumentar el número de transistores, la 
+potencia y capacidad de cálculo ha aumentado de forma exponencial
+desde el año 1965 hasta la actualidad y se espera que todavía siga
+aumentando unos años más, hasta que la tecnología se tope con los 
+efectos cuánticos, que no permitirán seguir fabricando transistores
+más pequeños.
+
+.. figure:: informatica/_images/informatica-moore-law.png
+   :align: center
+   :width: 340px
+
+   `Max Roser, Hannah Ritchie <https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1970-2020.png>`__,
+   `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
+   via Wikimedia Commons.
+    
+
+Relación capacidad-precio
+-------------------------
+Los dispositivos de hardware informáticos sufren una fuerte deflación de 
+precios con el tiempo que provoca que un dispositivo muy caro de tope de 
+gama pase en pocos años a ser un dispositivo obsoleto, dentro del rango 
+de precios más barato.
+
+Una buena pauta a la hora de comprar hardware es no comprar lo más 
+barato del mercado, puesto que suele tener una baja relación 
+capacidad-precio. 
+
+Por otro lado los dispositivos más nuevos en el mercado se suelen lanzar 
+con unos precios muy altos dado que son productos de la mayor capacidad o
+rendimiento y eso les hace ser más atractivos. 
+El resultado es que estos dispositivos altos de gama suelen tener también 
+una pobre relación capacidad-precio o rendimiento-precio.
+
+En las tablas que se muestran a continuación se puede ver en la práctica
+estos conceptos.
+
+Tabla de precios de memorias USB de marca SanDisk en Amazon en 2022.
+
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+   
+   * - Capacidad [Gbyte]
+     - Precio [€]
+     - Capacidad/precio [Gbyte/€]
+   * - 16
+     - 6
+     - 2,67
+   * - 32
+     - 8
+     - 4,00
+   * - 64
+     - 10
+     - 6,40
+   * - 128
+     - 17,70
+     - 7,23
+   * - 256
+     - 30,90
+     - 8,28
+   * - 512
+     - 87,80
+     - 5,83
+
+Como puede observarse los dispositivos de precios más bajos se pueden 
+mejorar duplicando su capacidad por poco dinero más.
+
+La relación de precio por Gbyte mejora constantemente hasta que llegamos
+al dispositivo más nuevo y alto de gama que tiene un precio muy superior 
+al resto durante el periodo de lanzamiento, por lo que no merece la 
+pena comprarlo por su menor relación capacidad-precio.
+
+Tabla de precios de procesadores Intel en Amazon en 2022.
+La capacidad de calculo se ha obtenido de la página 
+de `PassMark Software <https://www.cpubenchmark.net>`__.
+
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+   
+   * - Modelo
+     - Rendimiento [PCMark]
+     - Precio [€]
+     - Rendimiento/precio
+   * - i5-3470 3,2GHz
+     - 4666
+     - 65,82
+     - 71
+   * - i5-11400F 2,6GHz
+     - 17191
+     - 150,45
+     - 114
+   * - i5-12400 2,5GHz
+     - 19500
+     - 200,00
+     - 98
+   * - i5-12600KF
+     - 27052
+     - 270,00
+     - 100
+   * - i9-12900KS 2,4GHz
+     - 44482
+     - 795,00
+     - 56
+     
+Los modelos de procesadores con menor capacidad no están a la venta como 
+procesadores independientes, pero se siguen vendiendo en equipos ya
+montados, a pesar de ser obsoletos.
+
+Podemos observar de nuevo que los equipos más baratos tienen una pobre
+relación rendimiento-precio, al igual que los más caros y altos de gama.
+La mejor compra está en un equipo intermedio con la mejor relación 
+rendimiento-precio.

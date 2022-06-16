@@ -11,7 +11,7 @@ Curriculo de enseñanzas mínimas en la Educación Secundaria de Bachillerato.
 
 .. contents:: Índice de contenidos
    :local:
-   :depth: 3
+   :depth: 2
 
 Currículo de Madrid
 -------------------

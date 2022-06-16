@@ -19,8 +19,8 @@ Propiedades de los pétreos
    de edificios y otras estructuras semejantes.
 
 **Densidad**
-   En general, es mayor que la del agua y varían desde los 1.5 kg/litro 
-   de la arena hasta los 2.8 kg/litro de la pizarra, mármol o granito.
+   En general, es mayor que la del agua y varían desde los 1,5 kg/litro 
+   de la arena hasta los 2,8 kg/litro de la pizarra, mármol o granito.
    
    La piedra pómez o la diatomita son excepciones con una densidad muy 
    baja, menor que la del agua, al ser muy porosas.

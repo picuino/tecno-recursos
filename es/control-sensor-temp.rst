@@ -17,7 +17,7 @@ Existen muchos tipos diferentes de sensores de temperatura.
 Cada tipo de sensor se adapta bien a una aplicación concreta.
 En estas prácticas se van a estudiar solo sensores de bajo precio que 
 alcanzan un rango de temperaturas moderado, de -40ºC hasta 150ºC.
-Con una exactitud moderada, desde 1ºC hasta 0.1ºC de error.
+Con una exactitud moderada, desde 1ºC hasta 0,1ºC de error.
 
 Sensor de temperatura NTC.
 
@@ -59,7 +59,7 @@ Una resistencia NTC es un componente que reduce su resistencia cuando
 aumenta la temperatura. Este sensor no es lineal. Esto quiere decir 
 que su exactitud no es muy buena en rangos amplios de temperatura, 
 comparada con otros sensores. A pesar de eso un sensor NTC bien 
-ajustado puede medir temperaturas con bastante exactitud, 0.1ºC en un
+ajustado puede medir temperaturas con bastante exactitud, 0,1ºC en un
 intervalo pequeño de temperaturas.
 
 La siguiente gráfica representa la resistencia de un sensor NTC en su 
@@ -104,8 +104,8 @@ de 10k Ohmios a la temperatura de 25ºC
 
   * Resistencia a 25ºC = 10k Ohmios
   * Bandas de color = Marrón Negro Naranja
-  * Tiempo de respuesta = 1.2 segundos
-  * Constante A = 0.01618 Ohmios
+  * Tiempo de respuesta = 1,2 segundos
+  * Constante A = 0,01618 Ohmios
   * Constante B = 3977 ºK
 
 A continuación se muestra una imagen con la curva de tensión que 

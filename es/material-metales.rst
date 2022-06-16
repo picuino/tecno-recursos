@@ -33,21 +33,21 @@ hay algunas propiedades comunes a todos ellos.
    +-----------------+----------------------+
    | Metal           |  Densidad (kg/litro) |
    +=================+======================+
-   | Magnesio        |  1.7                 |
+   | Magnesio        |  1,7                 |
    +-----------------+----------------------+
-   | Aluminio        |  2.7                 |
+   | Aluminio        |  2,7                 |
    +-----------------+----------------------+
-   | Titanio         |  4.5                 |
+   | Titanio         |  4,5                 |
    +-----------------+----------------------+
-   | Hierro          |  7.9                 |
+   | Hierro          |  7,9                 |
    +-----------------+----------------------+
-   | Cobre           |  9.0                 |
+   | Cobre           |  9,0                 |
    +-----------------+----------------------+
-   | Plomo           | 11.3                 |
+   | Plomo           | 11,3                 |
    +-----------------+----------------------+
-   | Mercurio        | 13.5                 |
+   | Mercurio        | 13,5                 |
    +-----------------+----------------------+
-   | Oro             | 19.3                 |
+   | Oro             | 19,3                 |
    +-----------------+----------------------+
 
 **Conductividad de los metales**
@@ -124,12 +124,12 @@ Son aquellos que están formados principalmente por hierro.
 El hierro puro es un metal con malas propiedades mecánicas,
 por lo que éstas suelen mejorarse por medio de aleaciones.
 
-Su densidad es relativamente alta (7.8 kg/litro).
+Su densidad es relativamente alta (7,8 kg/litro).
 
 .. glossary::
 
    Acero
-      Es una aleación de hierro con carbono (menos del `2.1% 
+      Es una aleación de hierro con carbono (menos del `2,1% 
       <https://es.wikipedia.org/wiki/Acero>`__ en peso).
       Es una de las aleaciones metálicas más utilizadas para todo tipo 
       de productos y estructuras por ser el metal más barato, 
@@ -137,7 +137,7 @@ Su densidad es relativamente alta (7.8 kg/litro).
       100 kg/mm2) y muy tenaz.
 
    Fundición
-      Es una aleación de hierro con carbono (más del `2.1%
+      Es una aleación de hierro con carbono (más del `2,1%
       <https://es.wikipedia.org/wiki/Fundici%C3%B3n_de_hierro>`__ en peso).
       Son más frágiles que los aceros y con menor punto de fusión.
       Son más resistentes a la corrosión y a los cambios de temperatura
@@ -203,7 +203,7 @@ Metales ligeros
 
    Aluminio
       Es el metal más utilizado después del acero por ser barato,
-      tener baja densidad (2.8 kg/litro) y muy buena resistencia a la
+      tener baja densidad (2,8 kg/litro) y muy buena resistencia a la
       corrosión.
       En estado puro es muy blando y con baja resistencia mecánica,
       pero aleado de forma adecuada aumenta mucho su resistencia
@@ -226,7 +226,7 @@ Metales ligeros
       electrólisis.
 
    Titanio
-      Es un metal de color gris, de baja densidad (4.5 kg/litro) muy 
+      Es un metal de color gris, de baja densidad (4,5 kg/litro) muy 
       resistente a la corrosión y con buena resistencia mecánica de
       rotura, hasta los 140 kg/mm2.
 
@@ -349,19 +349,19 @@ a día 1 de julio de 2021.
 =============  =============
 Metal          Precio €/kg
 =============  =============
-Acero[1]         0.52
-Plomo	           1.89
-Aluminio	        2.09
-Zinc	           2.47
-Cobre	           7.86
-Bronce	       10.23
-Titanio         12.30
-Níquel	       15.22
-Estaño	       27.59
-Cobalto         42.49
+Acero[1]         0,52
+Plomo	           1,89
+Aluminio	        2,09
+Zinc	           2,47
+Cobre	           7,86
+Bronce	       10,23
+Titanio         12,30
+Níquel	       15,22
+Estaño	       27,59
+Cobalto         42,49
 =============  =============
 
-[1] Precio medio del acero. Puede variar de 0.42 a 0.65 €/kg.
+[1] Precio medio del acero. Puede variar de 0,42 a 0,65 €/kg.
 
 
 

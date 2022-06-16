@@ -67,13 +67,13 @@ El inversor schmitt tiene por lo tanto en su entrada cero voltios
 (un cero lógico) y en su salida los 5 voltios de alimentación positiva
 (un uno lógico).
 En esta situación, la resistencia de realimentación R3 va cargando poco
-a poco la tensión del condensador hasta que alcanza los 3.33 voltios, 
+a poco la tensión del condensador hasta que alcanza los 3,33 voltios, 
 tensión a partir de la cual el inversor schmitt considera que la entrada
 vale un uno lógico y por lo tanto cambia su salida a cero voltios
 (cero lógico).
 
 Ahora, la resistencia de realimentación R3 va descargando poco a poco 
-la tensión del condensador hasta que alcanza 1.66 voltios, tensión a
+la tensión del condensador hasta que alcanza 1,66 voltios, tensión a
 partir de la cual el inversor schmitt considera que la entrada vale un cero
 lógico y por lo tanto cambia su salida a cinco voltios (uno lógico) volviendo
 el ciclo a repetirse una y otra vez.
@@ -82,7 +82,7 @@ La velocidad de oscilación dependerá de los valores del condensador y
 de la resistencia. Cuanto mayores sean, más tiempo tardará en oscilar el
 circuito. La fórmula aproximada del tiempo de oscilación es:
 
-   Tiempo de oscilación = 0.8·R3·C1  = 0.8 · 220000 · 0.000010 = 1.76 segundos
+   Tiempo de oscilación = 0,8·R3·C1  = 0,8 · 220000 · 0,000010 = 1,76 segundos
 
 El led D1 conectado a la salida del oscilador mediante una resistencia
 limitadora R1, se encenderá y apagará a la misma velocidad que el oscilador.

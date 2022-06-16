@@ -116,10 +116,10 @@ Programa el código necesario para resolver los siguientes problemas.
          // Repite y asigna valores a variable 'num' desde 1 hasta 5
          for(int num=1; num<=5; num++) {
    
-            // Tiempo encendido = aleatorio entre 0.5 y 3.0 segundos
+            // Tiempo encendido = aleatorio entre 0,5 y 3,0 segundos
             time_on = random(50, 300)
    
-            // Tiempo apagado = aleatorio entre 0.5 y 3.0 segundos
+            // Tiempo apagado = aleatorio entre 0,5 y 3,0 segundos
             time_off = Random(50, 300)
    
             // Parpadea el led 'num' un tiempo aleatorio

@@ -63,8 +63,8 @@ oscilación.
 En el ejemplo que aparece a continuación se ha aumentado la
 ganancia proporcional hasta que se mantengan las oscilaciones
 en la respuesta al escalón.
-El período de oscilación es entonces de 5.6 segundos y, por lo
-tanto, el período de muestreo debe ser menor de 0.56 segundos.
+El período de oscilación es entonces de 5,6 segundos y, por lo
+tanto, el período de muestreo debe ser menor de 0,56 segundos.
 
 .. image:: control/_images/img-0064.png
    :width: 640px
@@ -74,9 +74,9 @@ tanto, el período de muestreo debe ser menor de 0.56 segundos.
 
 Tiempo de oscilación y período de muestreo:
 
-   Tc = 26.8 - 21.2 = 5.6 segundos  (Tiempo de oscilación)
+   Tc = 26,8 - 21,2 = 5,6 segundos  (Tiempo de oscilación)
 
-   T < Tc / 10 = 0.56 segundos   (Período de muestreo)
+   T < Tc / 10 = 0,56 segundos   (Período de muestreo)
 
 Si el sistema es sobreamortiguado y no presenta oscilaciones,
 el criterio para escoger el tiempo de muestreo partirá de la
@@ -97,14 +97,14 @@ que aparece a continuación:
    :align: center
 
 Este sistema tarda en subir desde el 10% hasta el 90% del valor
-final 21.5 - 3.5 = 18 segundos.
+final 21,5 - 3,5 = 18 segundos.
 Por lo tanto, para este sistema de ejemplo el tiempo de muestreo
 del controlador PID debe ser como máximo una décima parte de
 los 18 segundos:
 
    T < Tiempo_de_respuesta / 10
 
-   T < 18/10    ->   T < 1.8 segundos
+   T < 18/10    ->   T < 1,8 segundos
 
 En los dos casos se ha utilizado la misma planta para calcular
 el tiempo de muestreo. Como puede verse los resultados son muy
@@ -137,12 +137,12 @@ al término derivativo.
 de muestreo muy pequeños**
 
 Un sistema térmico cuyo sensor cambia con una velocidad de
-0.1 voltio/segundo es muestreado por un conversor
+0,1 voltio/segundo es muestreado por un conversor
 analógico-digital de 10bits (1024 niveles)
 con una referencia de tensión de 5 voltios.
 La sensibilidad del conversor analógico-digital será:
 
-   1024 puntos * (0.1 v/s / 5v) = 20 puntos/segundo.
+   1024 puntos * (0,1 v/s / 5v) = 20 puntos/segundo.
 
 Si el período de muestreo es de un segundo, la variación de
 la medida será suficientemente grande como para evaluar el
@@ -357,7 +357,7 @@ de cuantificación:
 
 En el caso de un microcontrolador típico con 10 bits de
 resolución y un rango de medida de 0 a 5 voltios, el ruido o
-error de cuantificación es de 5V / 1024 = 4.88 milivoltios.
+error de cuantificación es de 5V / 1024 = 4,88 milivoltios.
 
 Este valor puede también convertirse a unidades de medida de
 salida de la planta a partir de la sensibilidad del sensor.
@@ -366,7 +366,7 @@ salida con sensibilidad de 10 mV/ºC
 
    **Ruido de cuantificación = rango_tensión / (2^(bits_adc) * sensibilidad)**
 
-   **Ruido de cuantificación = 5V / (1024 * 0.010V/ºC) = 0.488 ºC**
+   **Ruido de cuantificación = 5V / (1024 * 0,010V/ºC) = 0,488 ºC**
 
 El ruido de cuantificación afecta negativamente a la
 respuesta del regulador, produciendo saltos en la señal de
@@ -375,7 +375,7 @@ control que empeoran el comportamiento de la planta.
 Este ruido también afecta a la máxima precisión que puede
 conseguir el controlador. En el ejemplo anterior, el controlador
 no podrá conseguir controlar la temperatura con una precisión
-mejor de 0.488 grados centígrados.
+mejor de 0,488 grados centígrados.
 
 
 Referencias

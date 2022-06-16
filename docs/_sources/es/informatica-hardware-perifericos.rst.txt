@@ -17,6 +17,11 @@ Clasificación de los periféricos
 
 Periféricos de entrada
 ----------------------
+Son dispositivos que permiten al ordenador obtener información del
+exterior, a través de sensores y de interfaces de usuario de entrada
+de datos.
+
+
 .. glossary::
 
    Ratón
@@ -67,6 +72,9 @@ Periféricos de entrada
 
 Periféricos de salida
 ---------------------
+Son dispositivos que permiten que la información del ordenador
+se muestre al exterior.
+
 .. glossary::
 
    Monitor
@@ -80,6 +88,10 @@ Periféricos de salida
    Impresora
       La `impresora
       <https://es.wikipedia.org/wiki/Impresora>`__
+
+   DAC
+     El `DAC
+     <https://es.wikipedia.org/wiki/Conversi%C3%B3n_digital-anal%C3%B3gica#Conversor_Digital-Anal%C3%B3gico_(CDA)>`__
 
    Altavoces
       Los `altavoces
@@ -99,6 +111,9 @@ Periféricos de salida
 
 Periféricos de entrada/salida
 -----------------------------
+Estos periféricos agrupan varios dispositivos en uno y permiten tanto
+la entrada como la salida de datos del ordenador.
+
 .. glossary::
 
    Pantalla táctil
@@ -112,7 +127,6 @@ Periféricos de entrada/salida
    Casco de realidad virtual
       El `casco de realidad virtual
       <https://es.wikipedia.org/wiki/Casco_de_realidad_virtual>`__
-
 
    Tarjeta de sonido
       La `tarjeta de sonido

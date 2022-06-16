@@ -124,7 +124,7 @@ valores de distancia a la misma unidad, por ejemplo en milímetros.
     
 .. math::
 
-   d_{1} = 5.6 \: cm = 56 \: mm
+   d_{1} = 5,6 \: cm = 56 \: mm
     
 .. math::
 

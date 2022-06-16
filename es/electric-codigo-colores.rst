@@ -98,7 +98,7 @@ Casos especiales
    
    Verde Azul Oro Oro
    
-   Se traduce como 56 con multiplicador 0.1 que resulta ser 5.6 Ohmios.
+   Se traduce como 56 con multiplicador 0,1 que resulta ser 5,6 Ohmios.
 
 
 Traducir valor numérico a colores
@@ -108,9 +108,9 @@ Para traducir un valor de resistencia a bandas de colores seguiremos
 los siguientes pasos.
 
 1. Traducir el valor de la resistencia a ohmios sin ningún prefijo.
-   Por ejemplo para una resistencia de 3.9k Ohmios
+   Por ejemplo para una resistencia de 3,9k Ohmios
    
-   3.9k Ohmios = 3900 Ohmios
+   3,9k Ohmios = 3900 Ohmios
 
 2. Hallar las dos primeras bandas de color a partir del valor de la 
    resistencia. Por ejemplo para una resistencia de 3900 Ohmios

@@ -11,6 +11,9 @@ Los ordenadores son dispositivos que tratan y transforman información,
 por lo que los dispositivos que almacenan esta información son
 fundamentales para determinar la capacidad y velocidad del ordenador.
 
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 2
 
 
 Clasificación de dispositivos de almacenamiento
@@ -18,10 +21,12 @@ Clasificación de dispositivos de almacenamiento
 Almacenamiento primario
 
   * Memoria RAM
-  * Memoria ROM
+  * Memoria caché
+  * Búfer de datos
 
 Almacenamiento secundario
 
+  * Memoria ROM
   * Disco de estado sólido SSD
   * Disco duro magnético HDD
 
@@ -41,6 +46,9 @@ Almacenamiento virtual
 
 Almacenamiento primario
 -----------------------
+Las memorias de almacenamiento primario son los dispositivos que contienen
+la información con la que está trabajando en este momento el procesador.
+
 .. glossary::
 
    Memoria RAM
@@ -72,9 +80,62 @@ Almacenamiento primario
       Como desventaja, es una memoria que pierde sus datos cuando se
       apaga la alimentación del ordenador y suele ser mucho más cara que 
       las memorias de almacenamiento secundario,
-      5€/Gbyte de una memoria RAM frente a 0.02€/Gbyte de un disco 
+      5€/Gbyte de una memoria RAM frente a 0,02€/Gbyte de un disco 
       duro de 4Tbytes en 2022.
 
+
+   Memoria caché
+      La `memoria caché
+      <https://es.wikipedia.org/wiki/Cach%C3%A9_(inform%C3%A1tica)>`__
+      es un tipo de memoria rápida que almacena temporalmente los 
+      contenidos leídos de la memoria RAM para que las posteriores
+      peticiones de lectura se puedan atender con mayor rapidez.
+      
+      Funciona de manera semejante a la memoria principal, pero es de 
+      menor tamaño y de acceso más rápido. Surgió cuando la memoria RAM
+      ya no fue capaz de trabajar a la misma velocidad del procesador
+      y sirve para que el microprocesador reduzca el tiempo de acceso 
+      a datos ubicados en la memoria RAM que se utilizan con más 
+      frecuencia.
+      
+      Hoy en día la memoria caché de la RAM suele estar integrada dentro
+      del propio procesador y suele tener un tamaño de varios megabytes.
+
+
+   Búfer de datos
+      Un `búfer de datos
+      <https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos>`__
+      es un espacio de memoria temporal que almacena datos de lectura o de 
+      escritura a un periférico para acelerar el funcionamiento del 
+      procesador o para evitar que un dispositivo pierda datos durante una 
+      transferencia de datos irregular.
+      
+      Los búfer de escritura para un dispositivo lento, como un disco duro
+      o un pendrive, almacenan varios mega bytes de datos que son enviados 
+      en ráfagas rápidas por el procesador para, más tarde, escribirlos 
+      en el dispositivo de almacenamiento a menor velocidad y de manera
+      continua.
+      
+      Los dispositivos de entrada, como los teclados o ratones, también 
+      tienen búfer de lectura que va almacenando los datos que envían
+      los periféricos hasta que el procesador los lee rápidamente.
+      De esta manera el microprocesador principal no tiene que estar 
+      atendiendo continuamente a un dispositivo lento, sino que lo 
+      atiende a ráfagas rápidas, unas 100 veces por segundo.
+      
+      El búfer de datos forma parte de los periféricos de entrada/salida
+      y de los medios de almacenamiento.
+      
+      
+Almacenamiento secundario
+-------------------------
+Los dispositivos de almacenamiento secundario de un ordenador son 
+memorias no volátiles, es decir que almacenan datos a pesar de que el
+ordenador no tenga alimentación, que se suelen instalar de forma 
+permanente en el interior del ordenador para que almacenen el sistema
+operativo y los diferentes programas y datos de uso habitual.
+
+.. glossary::
 
    Memoria ROM
       La `memoria ROM
@@ -87,27 +148,28 @@ Almacenamiento primario
       
       Las memorias ROM que se utilizan hoy en día no son de solo lectura,
       suelen estar basadas en tecnología Flash y se pueden reescribir,
-      aunque esto se realiza con muy poca frecuencia.
+      aunque esto se realiza con muy poca frecuencia. 
+      Por esta razón esta memoria hoy en día también se denomina 
+      memoria Flash.
+      
+      Las memorias ROM o Flash suelen ser más lentas, más sencillas y de
+      menor capacidad que las memorias SSD, aunque ambas estén basadas 
+      internamente en la misma tecnología.
       
       Ejemplos de ROM son la memoria del BIOS (Sistema Básico de Entrada
       Salida) de un ordenador personal, o el programa interno de 
       dispositivos como un router, un mando a distancia, etc.
-      
+
       .. figure:: informatica/_images/informatica-rom-bios.jpg
          :align: center
          :width: 340px
          
-         Memoria Phoenix BIOS de una placa base de ordenador personal.
+         Memoria ROM Phoenix BIOS de una placa base de ordenador personal.
 
          `© Raimond Spekking <https://commons.wikimedia.org/wiki/File:Elitegroup_755-A2_-_Phoenix_Bios_D686-6679.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
          via Wikimedia Commons.
 
-
-
-Almacenamiento secundario
--------------------------
-.. glossary::
 
    Unidad de disco duro (HDD)
       La `unidad de disco duro
@@ -167,25 +229,53 @@ Almacenamiento secundario
       
       Ventajas:
          * Mayor velocidad de transferencia.
-           600MB/s de un SSD frente a 100 Mbytes/s de un HDD
+           600MBytes/s de un SSD frente a 100 Mbytes/s de un HDD
          * Menor tiempo de acceso.
-           0ms de un SSD frente a 10 milisegundos de un HDD.
+           0,1ms de un SSD frente a 10 milisegundos de un HDD.
          * Mayor resistencia a los golpes y a las vibraciones.
+         * Menor tasa de fallos de los SSD al no tener partes mecánicas.
          * Menor consumo eléctrico. 
            4W o 5W de un SSD a máximo rendimiento frente a
            6W a 10W de un HDD. 
-         * Menor tasa de fallos de los SSD al no tener partes mecánicas.
-         * Menor tamaño físico
-         * Menor ruido generado
+         * Menor tamaño físico.
+         * Menor ruido generado.
 
       Desventajas
-         * Menor resistencia a muchas escrituras.
+         * Menor resistencia a un gran número de escrituras.
          * Mayor precio por Gbyte.
-           0.02€ de un HDD frente a 0.09€ de un SSD.         
+           0,08€ de un SSD frente a 0,02€ de un HDD en 2022.
+
+
+   Tecnología SMART
+      La `tecnología SMART
+      <https://es.wikipedia.org/wiki/S.M.A.R.T.>`__ 
+      que implementan los discos duros y las unidades de estado sólido 
+      es un sistema de detección temprana de fallos que permite conocer
+      con antelación si un disco duro da señales de fallar próximamente.
+      
+      La tecnología SMART monitoriza parámetros de la unidad como su
+      temperatura, sectores defectuosos, cantidad de datos escritos, 
+      errores de lectura, tiempo de funcionamiento, número de arranques,
+      etc.
+      Aunque no es capaz de detectar todos los fallos posibles, si que 
+      permite avisar ante la mayoría de los fallos debidos a una 
+      degradación de la unidad.
+
+      Existen varios programas que permiten leer los parámetros SMART de 
+      una unidad de almacenamiento.
+      Algunos programas de monitorización son:
+      
+      * `CrystalDiskInfo <https://crystalmark.info/en/software/crystaldiskinfo/>`__
+      * `HDDScan <https://hddscan.com/>`__
+      * `Clear Disk Info <https://www.carifred.com/cleardiskinfo/>`__
+      * `HDD Health <https://panterasoft.com/download_ok.html>`__
 
 
 Almacenamiento externo
 ----------------------
+Los dispositivos de almacenamiento externo son removibles, es decir que se
+pueden desconectar con facilidad del ordenador para ser transportados.
+
 .. glossary::
 
    Memoria USB
@@ -194,6 +284,14 @@ Almacenamiento externo
       es una memoria externa basada en 
       `memoria flash <https://es.wikipedia.org/wiki/Memoria_flash>`__
       con conexión de tipo USB.
+
+      Su capacidad máxima aumenta con los años debido a la ley de Moore.
+      en 2022 es sencillo conseguir una memoria USB de 512 Gbytes por 
+      un precio que ronda de 20 a 40 Euros.
+      
+      La velocidad de lectura suele ser menor que la de un disco duro
+      y la velocidad de escritura suele ser mucho menor en la mayoría
+      de los dispositivos.
       
       .. figure:: informatica/_images/informatica-pendrive.jpg
          :align: center
@@ -209,7 +307,14 @@ Almacenamiento externo
    Tarjeta SD
       La memoria en `tarjeta SD
       <https://es.wikipedia.org/wiki/Secure_Digital>`__
-
+      se basa en la misma tecnología que las unidades de memoria USB y 
+      tienen rendimientos semejantes.
+      
+      Las diferencias fundamentales entre las dos tecnologías se encuentran
+      en el tipo de comunicación con el ordenador, que es más sencilla que 
+      el USB, y en el tamaño mucho menor sobre todo de las tarjetas 
+      microSD.
+      
       .. figure:: informatica/_images/informatica-sd.jpg
          :align: center
          :width: 340px
@@ -221,13 +326,15 @@ Almacenamiento externo
          via Wikimedia Commons.
 
 
-   CD-ROM y DVD
+   CD-ROM, DVD, Blu-ray
       El `CDROM
-      <https://es.wikipedia.org/wiki/CD-ROM>`__
-      y el `DVD
+      <https://es.wikipedia.org/wiki/CD-ROM>`__,
+      el `DVD
       <https://es.wikipedia.org/wiki/DVD>`__
-   
-   
+      y el `Blu-ray
+      <https://es.wikipedia.org/wiki/Disco_Blu-ray>`__      
+      son unidades ópticas de almacenamiento de datos.
+      
       .. figure:: informatica/_images/informatica-cdrom.jpg
          :align: center
          :width: 340px
@@ -237,11 +344,82 @@ Almacenamiento externo
          `Don-vip <https://commons.wikimedia.org/wiki/File:Windows_2000_SP4_install_disc_(French).jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
          via Wikimedia Commons.
-   
-   
-   Blu-Ray
-      El `Blu-ray
-      <https://es.wikipedia.org/wiki/Disco_Blu-ray>`__
+
+
+      Todas ellas se basan en una lámina de material metálico plateado que
+      refleja un fino haz de luz láser o no la refleja dependiendo de las
+      marcas que se graban en un surco en forma de espiral a lo largo del 
+      disco.
+      
+      La diferencia fundamental entre las distintas tecnologías es la
+      creciente capacidad de almacenamiento y mayor velocidad de 
+      transferencia de los dispositivos más modernos.
+      
+      .. figure:: informatica/_images/informatica-cdrom-surface.jpg
+         :align: center
+         :width: 340px
+
+         Micrografía de la superficie de un CD-ROM en la que se pueden 
+         ver los surcos con las marcas.
+
+         `Freiermensch <https://commons.wikimedia.org/wiki/File:Afm_cd-rom.jpg>`__,
+         `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
+         via Wikimedia Commons.
+         
+         
+      Las características típicas de los distintos dispositivos ópticos
+      son las siguientes:
+      
+      .. list-table:: 
+         :widths: 25 25 25 25
+         :header-rows: 1
+      
+         * - Parámetro
+           - CD-ROM
+           - DVD
+           - Blu-ray
+         * - Capacidad
+           - 0,750 GBytes
+           - 4,7 GBytes
+           
+             8,0 Gbytes a doble capa
+           - 25 GBytes
+           
+             50 Gbytes a doble capa
+         * - Velocidad de transferencia
+           - 0,15 MBytes/s (1x)
+           
+             2,8-7,2 MBytes/s (48x)
+           - 1,4 MBytes/s (1x)
+           
+             33,2 MBytes/s (24x)
+           - 4,5 Mbytes/s (1x)
+           
+             54 MBytes/s (12x)
+         * - Láser de lectura/escritura
+           - Infrarojo (780 nm)
+           - Rojo (650 nm)
+           - Violeta (405 nm)
+         * - Costo de la unidad
+           - 18 €
+           - 18 €
+           - 100 €
+         * - Costo del disco
+           - 0,40 €
+           - 0,90 €
+           - 0,90 €  
+         * - Costo por GByte
+           - 0,53 €/GB
+           - 0,19 €/GB
+           - 0,036 €/GB
+         * - Año de lanzamiento
+           - 1985
+           - 1996
+           - 2005
+         * - Diámetro de disco
+           - 12 cm
+           - 12 cm
+           - 12 cm
 
       .. figure:: informatica/_images/informatica-blu-ray-disk.jpg
          :align: center
@@ -252,8 +430,34 @@ Almacenamiento externo
          `Racer009 <https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg>`__,
          `CC0 1.0 <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__,
          via Wikimedia Commons.
-         
-         
+      
+      En el momento en el que salieron al mercado, estas unidades de
+      almacenamiento óptico tenían más capacidad que los propios discos 
+      duros, por lo que era un método de almacenamiento muy barato para 
+      realizar backups. Hoy en día la capacidad de los discos duros ha
+      crecido tanto que su costo de almacenamiento ha bajado muchísimo,
+      hasta los 0,023 €/GB, por lo que ya no son rentables estas unidades
+      ópticas para almacenar grandes cantidades de datos.
+
+      Las memorias USB también han crecido exponencialmente en su capacidad
+      y en 2022 una unidad con mayor capacidad que un Blu-ray es 
+      relativamente barata (5€). Aunque el precio por GByte siga siendo 
+      algo mayor en las memorias USB (0,12 - 0,05€/GByte), su mayor 
+      versatilidad y facilidad de lectura/escritura han hecho que ocupen 
+      muchas aplicaciones que antes se realizaban con discos ópticos, 
+      tales como los reproductores de música.
+      
+      Hace años era frecuente que los programas se vendieran grabados en
+      discos ópticos. Hoy en día, gracias a las redes de fibra óptica,
+      se ha popularizado la descarga de programas por internet y los 
+      discos de almacenamiento virtual como medio de transmisión de 
+      datos entre particulares.
+      
+      Por todas estas razones el uso de discos ópticos ha decaído poco a 
+      poco y hoy en día son muy pocas las aplicaciones en las que tienen 
+      alguna ventaja.
+      
+
    Cinta magnética
       La `cinta magnética
       <https://es.wikipedia.org/wiki/Cinta_magn%C3%A9tica_de_almacenamiento_de_datos>`__
@@ -284,8 +488,24 @@ Almacenamiento externo
          via Wikimedia Commons.
 
 
-Almacenamiento virtual
-----------------------
+Almacenamiento en red
+---------------------
+Los dispositivos de almacenamiento en red son dispositivos especializados
+en el almacenamiento de datos a los que se accede a través de una red local 
+ethernet o a través de internet, dando la impresión de que se está 
+trabajando con una unidad de almacenamiento local.
+El almacenamiento en red permite que la información y los recursos de 
+almacenamiento se puedan optimizar y compartir entre varios ordenadores.
+
+La mayoría de los servidores de almacenamiento en red suelen estar 
+basados en discos duros o unidades SSD configurados en grupo 
+`RAID (matriz redundante de discos independientes)
+<https://es.wikipedia.org/wiki/RAID>`__.
+Esta configuración permite aumentar la tasa de transferencia y
+que se pueda recuperar un fallo de una unidad directamente por el 
+hadware del servidor de almacenamiento al cambiar en caliente la 
+unidad dañada.
+
 .. glossary::
 
    Servidor NAS

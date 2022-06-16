@@ -163,19 +163,19 @@ dispWrite(int position, int segments)
    }
 
    void loop() {
-      // Enciende el segmento 'a' y espera 0.1 segundos
+      // Enciende el segmento 'a' y espera 0,1 segundos
       pio.dispWrite(1, 0b10000000);
       delay(100);
 
-      // Enciende el segmento 'b' y espera 0.1 segundos
+      // Enciende el segmento 'b' y espera 0,1 segundos
       pio.dispWrite(1, 0b01000000);
       delay(100);
 
-      // Enciende el segmento 'g' y espera 0.1 segundos
+      // Enciende el segmento 'g' y espera 0,1 segundos
       pio.dispWrite(1, 0b00000010);
       delay(100);
 
-      // Enciende el segmento 'f' y espera 0.1 segundos
+      // Enciende el segmento 'f' y espera 0,1 segundos
       pio.dispWrite(1, 0b00000100);
       delay(100);
    }
@@ -201,7 +201,7 @@ segmentos exteriores de un dígito.
 
    void loop() {
 
-      // Enciende el segmento seleccionado y espera 0.100 segundos
+      // Enciende el segmento seleccionado y espera 0,1 segundos
       pio.dispWrite(1, segment);
       delay(100);
 

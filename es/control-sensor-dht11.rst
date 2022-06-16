@@ -22,11 +22,11 @@ conexión a un pin analógico para realizar las lecturas.
 Especificaciones técnicas
 -------------------------
   * Tensión de alimentación de 3 a 5 voltios
-  * Corriente máxima de alimentación 2.5 mA
+  * Corriente máxima de alimentación 2,5 mA
   * Rango de humedad relativa 20% a 80% con 5% de exactitud
   * Rango de temperatura de 0 a 50ºC con +-2ºC de exactitud
   * Velocidad de 1 medida por segundo
-  * Tamaño 15.5mm x 12mm x 5.5mm
+  * Tamaño 15,5mm x 12mm x 5,5mm
   * Conexión de 4 pines
 
 

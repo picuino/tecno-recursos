@@ -99,14 +99,14 @@ Existen muchos tipos de servomotores. Como ejemplo se muestran las
 especificaciones de un pequeño
 :download:`servomotor Tower Pro 9g <control/_downloads/SG90Servo.pdf>`.
 
-  * Tensión de alimentación = 4.8 a 6.0 v
+  * Tensión de alimentación = 4,8 a 6,0 v
   * Corriente máxima = 570 a 730 mA
   * Corriente en movimiento sin carga = 170 a 270 mA
   * Ángulo de giro = 0 a 180º
-  * Fuerza de giro = 1.8 kg-cm a 4.8v
-  * Velocidad de giro =  180º en 0.36 s
+  * Fuerza de giro = 1,8 kg-cm a 4,8v
+  * Velocidad de giro =  180º en 0,36 s
   * Peso = 9 gramos
-  * Precisión = 10us = 1.8º
+  * Precisión = 10us = 1,8º
 
 La mayoría de servomotores permiten ángulos de giro menores de 180º.
 En el siguiente vídeo se puede ver el funcionamiento del servomotor,
