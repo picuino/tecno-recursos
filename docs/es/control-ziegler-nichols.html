@@ -36,9 +36,7 @@
     <link rel="next" title="Controlador PID digital" href="control-pid-digital.html" />
     <link rel="prev" title="Controlador PID" href="control-pid.html" /> 
 
-  <script defer src="../_static/modernizr.min.js"></script>
-
-  <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8828149385712454"   crossorigin="anonymous"></script>
+  
 
 </head>
 
@@ -201,19 +199,19 @@ y derivativa (PID):</p>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>PI</td>
-<td>0.9*Ko</td>
-<td>0.27*Ko/T1</td>
+<td>0,9*Ko</td>
+<td>0,27*Ko/T1</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>PD</td>
-<td>1.6*Ko</td>
+<td>1,6*Ko</td>
 <td>&#160;</td>
-<td>0.60*Ko*T1</td>
+<td>0,60*Ko*T1</td>
 </tr>
 <tr class="row-odd"><td>PID</td>
-<td>1.2*Ko</td>
-<td>0.60*Ko/T1</td>
-<td>0.60*Ko*T1</td>
+<td>1,2*Ko</td>
+<td>0,60*Ko/T1</td>
+<td>0,60*Ko*T1</td>
 </tr>
 </tbody>
 </table>
@@ -237,13 +235,13 @@ la curva de respuesta del sistema son los siguientes:</p>
 <blockquote>
 <div><p>dX = 5 - 0 = 5 voltios</p>
 <p>dY = 225 - 25 = 200 ºC</p>
-<p>T1 = 2.2 - 1 = 1.2 segundos</p>
-<p>T2 = 13.8 - 2.2 = 11.6 segundos</p>
+<p>T1 = 2,2 - 1 = 1,2 segundos</p>
+<p>T2 = 13,8 - 2,2 = 11,6 segundos</p>
 </div></blockquote>
 <p>A partir de estos valores se pueden calcular los parámetros
 del regulador PID:</p>
 <blockquote>
-<div><p>Ko = (dX * T2) / (dY * T1) = (5 * 11.6) / (200 * 1.2) = 0.242 V/ºC</p>
+<div><p>Ko = (dX * T2) / (dY * T1) = (5 * 11,6) / (200 * 1,2) = 0,242 V/ºC</p>
 <table border="1" class="docutils align-default">
 <colgroup>
 <col width="18%" />
@@ -260,24 +258,24 @@ del regulador PID:</p>
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>P</td>
-<td>0.242</td>
+<td>0,242</td>
 <td>&#160;</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>PI</td>
-<td>0.218</td>
-<td>0.055</td>
+<td>0,218</td>
+<td>0,055</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>PI</td>
-<td>0.387</td>
+<td>0,387</td>
 <td>&#160;</td>
-<td>0.174</td>
+<td>0,174</td>
 </tr>
 <tr class="row-odd"><td>PID</td>
-<td>0.290</td>
-<td>0.121</td>
-<td>0.174</td>
+<td>0,290</td>
+<td>0,121</td>
+<td>0,174</td>
 </tr>
 </tbody>
 </table>
@@ -289,9 +287,9 @@ la siguiente respuesta:</p>
 una respuesta un poco más estable. Se ha aumentado la ganancia
 derivativa y reducido la integral para reducir las oscilaciones:</p>
 <blockquote>
-<div>Kp = 0.28
-Ki = 0.10
-Kd = 0.21</div></blockquote>
+<div>Kp = 0,28
+Ki = 0,10
+Kd = 0,21</div></blockquote>
 <p>Como resultado, el sistema se estabiliza ahora en 12 segundos:</p>
 <a class="reference internal image-reference" href="../_images/img-0063.png"><img alt="Ziegler-Nichols. Respuesta de un horno sintonizado con respuesta al escalón. Ajuste final a mano." class="align-center" src="../_images/img-0063.png" style="width: 640px;" /></a>
 <p>En todos los casos se ha limitado la respuesta integral de forma que
@@ -334,24 +332,24 @@ y derivativa (PID):</p>
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>P</td>
-<td>0.50*Kc</td>
+<td>0,50*Kc</td>
 <td>&#160;</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>PI</td>
-<td>0.45*Kc</td>
-<td>0.54*Kc/Tc</td>
+<td>0,45*Kc</td>
+<td>0,54*Kc/Tc</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>PD</td>
-<td>0.80*Kc</td>
+<td>0,80*Kc</td>
 <td>&#160;</td>
-<td>0.075*Kc*Tc</td>
+<td>0,075*Kc*Tc</td>
 </tr>
 <tr class="row-odd"><td>PID</td>
-<td>0.59*Kc</td>
-<td>1.18*Kc/Tc</td>
-<td>0.075*Kc*Tc</td>
+<td>0,59*Kc</td>
+<td>1,18*Kc/Tc</td>
+<td>0,075*Kc*Tc</td>
 </tr>
 </tbody>
 </table>
@@ -375,20 +373,20 @@ e integral:</p>
 <p>A continuación se fija una temperatura de trabajo en la referencia
 y se aumenta la ganancia proporcional hasta conseguir una respuesta
 oscilatoria mantenida.</p>
-<p>Con una ganancia proporcional Kp = 0.40 la respuesta todavía está
+<p>Con una ganancia proporcional Kp = 0,40 la respuesta todavía está
 amortiguada:</p>
 <a class="reference internal image-reference" href="../_images/img-0065.png"><img alt="Ganancia crítica de lazo cerrado. Sistema sobreamortiguado." class="align-center" src="../_images/img-0065.png" style="width: 640px;" /></a>
-<p>Al aumentar la ganancia proporcional hasta Kp = 0.43 se obtiene
+<p>Al aumentar la ganancia proporcional hasta Kp = 0,43 se obtiene
 una respuesta
 con oscilaciones mantenidas:</p>
 <a class="reference internal image-reference" href="../_images/img-0066.png"><img alt="Ganancia crítica de lazo cerrado. Sistema crítico." class="align-center" src="../_images/img-0066.png" style="width: 480px;" /></a>
-<p>Al aumentar la ganancia hasta Kp = 0.45, las oscilaciones crecen
+<p>Al aumentar la ganancia hasta Kp = 0,45, las oscilaciones crecen
 en el tiempo, por lo que la ganancia sería demasiado alta.</p>
 <a class="reference internal image-reference" href="../_images/img-0067.png"><img alt="Ganancia crítica de lazo cerrado. Sistema oscilante." class="align-center" src="../_images/img-0067.png" style="width: 640px;" /></a>
 <p>En este caso, por lo tanto, la ganancia crítica y el periodo son:</p>
 <blockquote>
-<div><p>Kc = 0.43</p>
-<p>Tc  = 21/4 = 5.3 s</p>
+<div><p>Kc = 0,43</p>
+<p>Tc  = 21/4 = 5,3 s</p>
 </div></blockquote>
 <p>A partir de estos valores se calculan los parámetros del
 controlador PID:</p>
@@ -409,24 +407,24 @@ controlador PID:</p>
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>P</td>
-<td>0.215</td>
+<td>0,215</td>
 <td>&#160;</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>PI</td>
-<td>0.195</td>
-<td>0.044</td>
+<td>0,195</td>
+<td>0,044</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>PI</td>
-<td>0.344</td>
+<td>0,344</td>
 <td>&#160;</td>
-<td>0.169</td>
+<td>0,169</td>
 </tr>
 <tr class="row-odd"><td>PID</td>
-<td>0.254</td>
-<td>0.096</td>
-<td>0.169</td>
+<td>0,254</td>
+<td>0,096</td>
+<td>0,169</td>
 </tr>
 </tbody>
 </table>
@@ -471,19 +469,6 @@ Segunda edición. Editorial Prentice Hall.</p>
     </div>
   
   
-  <hr/>
-
-    <!-- anuncio_footer    -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-8828149385712454"
-         data-ad-slot="2657398444"
-         data-ad-format="horizontal"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-
   <hr/>
 
   <div role="contentinfo">

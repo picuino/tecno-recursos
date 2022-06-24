@@ -43,7 +43,7 @@ def excepcion(line):
         'CC BY-SA 3.0',
         'CC0 1.0',
         'CC BY-SA 2.0',
-        
+        'CC-BY-SA 3.0',
     ]
     for exception in exceptions:
         if exception in line:

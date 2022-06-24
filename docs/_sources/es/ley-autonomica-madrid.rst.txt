@@ -22,6 +22,16 @@ Comunidad de Madrid. <https://www.comunidad.madrid/servicios/educacion/disposici
 * `Regulación de la Educación Secundaria Obligatoria
   <https://www.comunidad.madrid/servicios/educacion/regulacion-educacion-secundaria-obligatoria>`__
 
+   `DECRETO 29/2022, de 18 de mayo,
+   <https://www.comunidad.madrid/sites/default/files/doc/educacion/decreto_29_2022_evaluacion_promocion_y_titulacion_bocm.pdf>`__
+   del Consejo de Gobierno, por el que se
+   regulan determinados aspectos sobre la evaluación, la promoción y la
+   titulación en la Educación Secundaria Obligatoria, el Bachillerato y la
+   Formación Profesional, así como en las enseñanzas de personas adultas
+   que conduzcan a la obtención de los títulos de Graduado en Educación
+   Secundaria Obligatoria y de Bachiller.
+   
+   
    .. note::
 
      El desarrollo autonómico de la LOMLOE, en concreto el decreto de

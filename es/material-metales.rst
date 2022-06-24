@@ -83,13 +83,31 @@ hay algunas propiedades comunes a todos ellos.
    se pueden utilizar para hacer termómetros, tubos fluorescentes, etc.
 
 
+Tabla periódica de los elementos
+--------------------------------
+Los metales suponen la mayoría de los elementos representados en la tabla
+periódica.
+
+.. figure:: material/_images/material-tabla-periodica.png
+   :align: center
+   :width: 640px
+   
+   `2012rc <https://commons.wikimedia.org/wiki/File:Periodic_table_large-es-updated-2018.svg>`__,
+   `CC BY 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
+   via Wikimedia Commons.
+
+
 Aleaciones
 ----------
 Una aleación es una mezcla de un metal con otro elemento.
-Las aleaciones se fabrican generalmente fundiendo el metal para
-poder mezclarle con facilidad con otros elementos.
+Las aleaciones se fabrican generalmente fundiendo un metal 
+con otros elementos para que se combinen de forma que el 
+resultado tenga las propiedades de ambos.
 
 Ejemplos de aleaciones son el bronce, el latón, el acero o la fundición.
+
+La mayoría de los metales no se utilizan en su forma pura, sino que 
+son aleados con otros elementos para mejorar sus propiedades.
 
 
 Clasificación de los metales
@@ -129,16 +147,18 @@ Su densidad es relativamente alta (7,8 kg/litro).
 .. glossary::
 
    Acero
-      Es una aleación de hierro con carbono (menos del `2,1% 
-      <https://es.wikipedia.org/wiki/Acero>`__ en peso).
+      Es una aleación de hierro con carbono (con un porcentaje menor del 
+      `2,1% en peso
+      <https://es.wikipedia.org/wiki/Acero>`__).
       Es una de las aleaciones metálicas más utilizadas para todo tipo 
       de productos y estructuras por ser el metal más barato, 
       con muy buena resistencia mecánica (carga de rotura de 50 a 
       100 kg/mm2) y muy tenaz.
 
    Fundición
-      Es una aleación de hierro con carbono (más del `2,1%
-      <https://es.wikipedia.org/wiki/Fundici%C3%B3n_de_hierro>`__ en peso).
+      Es una aleación de hierro con carbono (con un porcentaje mayor 
+      del `2,1% en peso
+      <https://es.wikipedia.org/wiki/Fundici%C3%B3n_de_hierro>`__).
       Son más frágiles que los aceros y con menor punto de fusión.
       Son más resistentes a la corrosión y a los cambios de temperatura
       que los aceros comunes.
@@ -147,7 +167,7 @@ Su densidad es relativamente alta (7,8 kg/litro).
       estufas y chimeneas, carcasas de bombas de agua, etc.
 
    Acero inoxidable
-      Es una aleación de hierro con cromo (mas del 10%).
+      Es una aleación de hierro con cromo (con un porcentaje mayor del 10%).
       Es muy resistente a la corrosión y se utiliza en
       utensilios de cocina, cubertería, lavabos, tuberías, etc.
 
@@ -176,7 +196,7 @@ Cobre y sus aleaciones
       `Edad del Cobre <https://es.wikipedia.org/wiki/Edad_del_Cobre>`_.
 
    Bronce
-      Aleación de cobre y estaño (del 3% al 20%).
+      Aleación de cobre y estaño (con un porcentaje entre el 3% y el 20%).
       Es muy resistente al roce y a la corrosión.
 
       Se utiliza para construir instrumentos musicales, hélices de barco,
@@ -320,7 +340,7 @@ Metales nobles
 
       La mayor parte del oro (70%) se utiliza en joyería o como
       inversión. 
-      Solo el 10% se utiliza en aplicaciones industriales.
+      Solo el 10% del oro se utiliza en aplicaciones industriales.
       
       Se usa para cubrir contactos eléctricos que no se oxidan,
       cables eléctricos de los chips, reflector de luz en los cristales, 

@@ -36,9 +36,7 @@
     <link rel="next" title="Servomotor" href="control-actuator-servomotor.html" />
     <link rel="prev" title="Método de Ziegler-Nichols" href="control-ziegler-nichols.html" /> 
 
-  <script defer src="../_static/modernizr.min.js"></script>
-
-  <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8828149385712454"   crossorigin="anonymous"></script>
+  
 
 </head>
 
@@ -149,13 +147,13 @@ oscilación.</p>
 <p>En el ejemplo que aparece a continuación se ha aumentado la
 ganancia proporcional hasta que se mantengan las oscilaciones
 en la respuesta al escalón.
-El período de oscilación es entonces de 5.6 segundos y, por lo
-tanto, el período de muestreo debe ser menor de 0.56 segundos.</p>
+El período de oscilación es entonces de 5,6 segundos y, por lo
+tanto, el período de muestreo debe ser menor de 0,56 segundos.</p>
 <a class="reference internal image-reference" href="../_images/img-0064.png"><img alt="Controlador PID digital. Periodo de muestreo de sistema oscilatorio." class="align-center" src="../_images/img-0064.png" style="width: 640px;" /></a>
 <p>Tiempo de oscilación y período de muestreo:</p>
 <blockquote>
-<div><p>Tc = 26.8 - 21.2 = 5.6 segundos  (Tiempo de oscilación)</p>
-<p>T &lt; Tc / 10 = 0.56 segundos   (Período de muestreo)</p>
+<div><p>Tc = 26,8 - 21,2 = 5,6 segundos  (Tiempo de oscilación)</p>
+<p>T &lt; Tc / 10 = 0,56 segundos   (Período de muestreo)</p>
 </div></blockquote>
 <p>Si el sistema es sobreamortiguado y no presenta oscilaciones,
 el criterio para escoger el tiempo de muestreo partirá de la
@@ -168,13 +166,13 @@ el sistema en subir desde un 10% hasta un 90% del valor final.</p>
 que aparece a continuación:</p>
 <a class="reference internal image-reference" href="../_images/img-0071.png"><img alt="Controlador PID digital. Periodo de muestreo con una respuesta al escalón." class="align-center" src="../_images/img-0071.png" style="width: 640px;" /></a>
 <p>Este sistema tarda en subir desde el 10% hasta el 90% del valor
-final 21.5 - 3.5 = 18 segundos.
+final 21,5 - 3,5 = 18 segundos.
 Por lo tanto, para este sistema de ejemplo el tiempo de muestreo
 del controlador PID debe ser como máximo una décima parte de
 los 18 segundos:</p>
 <blockquote>
 <div><p>T &lt; Tiempo_de_respuesta / 10</p>
-<p>T &lt; 18/10    -&gt;   T &lt; 1.8 segundos</p>
+<p>T &lt; 18/10    -&gt;   T &lt; 1,8 segundos</p>
 </div></blockquote>
 <p>En los dos casos se ha utilizado la misma planta para calcular
 el tiempo de muestreo. Como puede verse los resultados son muy
@@ -203,12 +201,12 @@ al término derivativo.</p>
 <p><strong>Ejemplo: cómo afecta el error de cuantificación con tiempos
 de muestreo muy pequeños</strong></p>
 <p>Un sistema térmico cuyo sensor cambia con una velocidad de
-0.1 voltio/segundo es muestreado por un conversor
+0,1 voltio/segundo es muestreado por un conversor
 analógico-digital de 10bits (1024 niveles)
 con una referencia de tensión de 5 voltios.
 La sensibilidad del conversor analógico-digital será:</p>
 <blockquote>
-<div>1024 puntos * (0.1 v/s / 5v) = 20 puntos/segundo.</div></blockquote>
+<div>1024 puntos * (0,1 v/s / 5v) = 20 puntos/segundo.</div></blockquote>
 <p>Si el período de muestreo es de un segundo, la variación de
 la medida será suficientemente grande como para evaluar el
 término derivativo.
@@ -369,14 +367,14 @@ de cuantificación:</p>
 <a class="reference internal image-reference" href="../_images/img-0076.png"><img alt="Ruido de cuantificación de un conversor ADC (analógico a digital)" class="align-center" src="../_images/img-0076.png" style="width: 480px;" /></a>
 <p>En el caso de un microcontrolador típico con 10 bits de
 resolución y un rango de medida de 0 a 5 voltios, el ruido o
-error de cuantificación es de 5V / 1024 = 4.88 milivoltios.</p>
+error de cuantificación es de 5V / 1024 = 4,88 milivoltios.</p>
 <p>Este valor puede también convertirse a unidades de medida de
 salida de la planta a partir de la sensibilidad del sensor.
 Por ejemplo para un sensor de temperatura que entregue una
 salida con sensibilidad de 10 mV/ºC</p>
 <blockquote>
 <div><p><strong>Ruido de cuantificación = rango_tensión / (2^(bits_adc) * sensibilidad)</strong></p>
-<p><strong>Ruido de cuantificación = 5V / (1024 * 0.010V/ºC) = 0.488 ºC</strong></p>
+<p><strong>Ruido de cuantificación = 5V / (1024 * 0,010V/ºC) = 0,488 ºC</strong></p>
 </div></blockquote>
 <p>El ruido de cuantificación afecta negativamente a la
 respuesta del regulador, produciendo saltos en la señal de
@@ -384,7 +382,7 @@ control que empeoran el comportamiento de la planta.</p>
 <p>Este ruido también afecta a la máxima precisión que puede
 conseguir el controlador. En el ejemplo anterior, el controlador
 no podrá conseguir controlar la temperatura con una precisión
-mejor de 0.488 grados centígrados.</p>
+mejor de 0,488 grados centígrados.</p>
 </div>
 <div class="section" id="referencias">
 <h2>Referencias<a class="headerlink" href="#referencias" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -410,19 +408,6 @@ Segunda edición. Editorial Prentice Hall.</p>
     </div>
   
   
-  <hr/>
-
-    <!-- anuncio_footer    -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-8828149385712454"
-         data-ad-slot="2657398444"
-         data-ad-format="horizontal"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-
   <hr/>
 
   <div role="contentinfo">

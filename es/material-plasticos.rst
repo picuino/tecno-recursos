@@ -7,7 +7,21 @@
 
 Los materiales plásticos
 ========================
-Se fabrican a partir del gas natural o del petróleo refinado.
+Son polímeros fabricados a partir del gas natural o del petróleo refinado.
+
+
+:index:`Polímeros`
+------------------
+Los polímeros son grandes moléculas compuestas por varias unidades 
+llamadas monómeros que se repiten muchas veces a lo largo de cadenas 
+como las cuentas de un collar.
+
+Los monómeros son pequeñas moléculas que se unen a otros monómeros
+en largas cadenas formadas por la unión de hasta de miles de elementos.
+Estas cadenas pueden ser lineales, tener ramificaciones o en forma de red.
+
+Generalmente son compuestos basados en uniones de carbono, llamados
+compuestos orgánicos.
 
 
 Propiedades de los plásticos
@@ -181,14 +195,14 @@ igual que la madera.
    impreso, etc.
 
 **Poliuretano**
-   Su uso más conocido es fabricar espumas que sirven como aislante térmico
-   o adhesivos en espray para marcos de puertas y ventanas con gran 
-   capacidad de relleno de huecos.
+   Su uso más conocido es la fabricación de espumas adhesivas que sirven 
+   como aislante térmico de paredes o para pegar marcos de puertas y 
+   ventanas con gran capacidad de relleno de huecos.
 
 
 Elastómeros
 -----------
-Tienen una gran elasticidad.
+Son polímeros con una gran elasticidad.
 
 **Látex**
    Es de origen natural, una resina que se extrae del árbol siringa 
@@ -198,13 +212,18 @@ Tienen una gran elasticidad.
    neumáticos, chicles, etc.
 
 **Neopreno**
-   Su uso más conocido es para fabricar ropa y botas para el agua que son 
-   aislantes térmicos (trajes de buceo).
+   Su uso más conocido es la fabricación de ropa y botas para el agua que 
+   son aislantes térmicos (trajes de buceo).
    
    También sirve para hacer cinta adhesiva, fundas protectoras, sacos de 
    dormir, etc.
 
 **Siliconas**
+   La mayoría de los polímeros son compuestos orgánicos porque están 
+   basados en largas cadenas de carbono.
+   Por el contrario las siliconas se basan en largas cadenas de silicio,
+   formando polímeros inorgánicos.
+   
    Se puede destacar su uso como adhesivo para cristales de ventana y 
    juntas, moldes de cocina para horno o para hielo, prótesis médicas, etc.
 
@@ -213,4 +232,5 @@ Cuestionario
 ------------
 Cuestionario de tipo test sobre los materiales plásticos.
 
-`Cuestionario. Materiales plásticos. <https://www.picuino.com/test/es-material-plastics.html>`__
+`Cuestionario. Materiales plásticos. 
+<https://www.picuino.com/test/es-material-plastics.html>`__

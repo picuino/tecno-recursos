@@ -50,10 +50,10 @@ def main():
 
    # Read arguments
    pathname = sys.argv[1]
-   output = os.path.join(pathname, 'sitemap.xml')
    if not os.path.isdir(pathname):
-      print("Argument pathname doesn't exists")
+      print("Path doesn't exists: %s" % pathname)
       return
+   output_file = os.path.join(pathname, 'sitemap.xml')
 	  
    # Read all files
    print('   Sitemap of: %s' % (pathname))
@@ -61,9 +61,18 @@ def main():
 
    # Render files and write output
    code = Template(sitemap_template).render(data=data)
+   write(output_file, code)
 
-   with codecs.open(output, 'w', encoding='utf-8') as fo:
-      fo.write(code)
+
+def write(output, code):
+   old_code = ''
+   if os.path.exists(output):
+      with codecs.open(output, 'r', encoding='utf-8') as fi:
+         old_code = fi.read()
+   if code != old_code:
+      with codecs.open(output, 'w', encoding='utf-8') as fo:
+         print('   Modified')
+         fo.write(code)
 
 
 def html_files(base, path=''):

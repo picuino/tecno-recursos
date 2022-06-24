@@ -36,9 +36,7 @@
     <link rel="next" title="Periféricos" href="informatica-hardware-perifericos.html" />
     <link rel="prev" title="Placa base" href="informatica-hardware-placabase.html" /> 
 
-  <script defer src="../_static/modernizr.min.js"></script>
-
-  <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8828149385712454"   crossorigin="anonymous"></script>
+  
 
 </head>
 
@@ -202,25 +200,6 @@ frecuencia.</p>
 <p>Hoy en día la memoria caché de la RAM suele estar integrada dentro
 del propio procesador y suele tener un tamaño de varios megabytes.</p>
 </dd>
-<dt id="term-Bufer-de-datos">Búfer de datos</dt><dd><p>Un <a class="reference external" href="https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos" rel="noopener noreferrer" target="_blank">búfer de datos</a>
-es un espacio de memoria temporal que almacena datos de lectura o de
-escritura a un periférico para acelerar el funcionamiento del
-procesador o para evitar que un dispositivo pierda datos durante una
-transferencia de datos irregular.</p>
-<p>Los búfer de escritura para un dispositivo lento, como un disco duro
-o un pendrive, almacenan varios mega bytes de datos que son enviados
-en ráfagas rápidas por el procesador para, más tarde, escribirlos
-en el dispositivo de almacenamiento a menor velocidad y de manera
-continua.</p>
-<p>Los dispositivos de entrada, como los teclados o ratones, también
-tienen búfer de lectura que va almacenando los datos que envían
-los periféricos hasta que el procesador los lee rápidamente.
-De esta manera el microprocesador principal no tiene que estar
-atendiendo continuamente a un dispositivo lento, sino que lo
-atiende a ráfagas rápidas, unas 100 veces por segundo.</p>
-<p>El búfer de datos forma parte de los periféricos de entrada/salida
-y de los medios de almacenamiento.</p>
-</dd>
 </dl>
 </div>
 <div class="section" id="almacenamiento-secundario">
@@ -302,7 +281,7 @@ via Wikimedia Commons.</div>
 <li>Mayor velocidad de transferencia.
 600MBytes/s de un SSD frente a 100 Mbytes/s de un HDD</li>
 <li>Menor tiempo de acceso.
-0,1ms de un SSD frente a 10 milisegundos de un HDD.</li>
+0,1 milisegundos de un SSD frente a 10 milisegundos de un HDD.</li>
 <li>Mayor resistencia a los golpes y a las vibraciones.</li>
 <li>Menor tasa de fallos de los SSD al no tener partes mecánicas.</li>
 <li>Menor consumo eléctrico.
@@ -320,15 +299,16 @@ via Wikimedia Commons.</div>
 </dd>
 </dl>
 </dd>
-<dt id="term-Tecnologia-SMART">Tecnología SMART</dt><dd><p>La <a class="reference external" href="https://es.wikipedia.org/wiki/S.M.A.R.T." rel="noopener noreferrer" target="_blank">tecnología SMART</a>
-que implementan los discos duros y las unidades de estado sólido
-es un sistema de detección temprana de fallos que permite conocer
+<dt id="term-SMART">SMART</dt><dd><p><a class="reference external" href="https://es.wikipedia.org/wiki/S.M.A.R.T." rel="noopener noreferrer" target="_blank">SMART</a>
+es una tecnología que implementan los discos duros y las unidades
+de estado sólido.
+Es un sistema de detección temprana de fallos que permite conocer
 con antelación si un disco duro da señales de fallar próximamente.</p>
 <p>La tecnología SMART monitoriza parámetros de la unidad como su
 temperatura, sectores defectuosos, cantidad de datos escritos,
 errores de lectura, tiempo de funcionamiento, número de arranques,
 etc.
-Aunque no es capaz de detectar todos los fallos posibles, si que
+Aunque no es capaz de detectar todos los fallos posibles, si
 permite avisar ante la mayoría de los fallos debidos a una
 degradación de la unidad.</p>
 <p>Existen varios programas que permiten leer los parámetros SMART de
@@ -340,6 +320,40 @@ Algunos programas de monitorización son:</p>
 <li><a class="reference external" href="https://www.carifred.com/cleardiskinfo/" rel="noopener noreferrer" target="_blank">Clear Disk Info</a></li>
 <li><a class="reference external" href="https://panterasoft.com/download_ok.html" rel="noopener noreferrer" target="_blank">HDD Health</a></li>
 </ul>
+</dd>
+<dt id="term-RAID">RAID</dt><dd><p>Un sistema <a class="reference external" href="https://es.wikipedia.org/wiki/RAID" rel="noopener noreferrer" target="_blank">RAID (matriz redundante de discos independientes)</a>.
+es una tecnología que permite unir varias unidades de disco duro
+(HDD) o varias unidades de estado sólido (SSD) para aumentar sus
+prestaciones.
+Se utiliza en servidores de datos y en ordenadores de altas
+prestaciones. Necesita una controladora RAID especializada.</p>
+<p>En un primer nivel, los diferentes discos se ven por parte del
+sistema operativo como una sola unidad de disco y la velocidad de
+transferencia aumenta al unir las transferencias de todos los discos.</p>
+<p>En niveles posteriores, se utiliza un disco para almacenar datos
+redundantes de paridad.
+Esto permite que los datos no se pierdan ante el fallo de una unidad.
+Al detectar una unidad dañada, esta se puede cambiar por otra nueva y
+el sistema recuperará automáticamente los datos perdidos.</p>
+</dd>
+<dt id="term-Bufer-de-datos">Búfer de datos</dt><dd><p>Un <a class="reference external" href="https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos" rel="noopener noreferrer" target="_blank">búfer de datos</a>
+es un espacio de memoria temporal que almacena datos de lectura o de
+escritura a un periférico para acelerar el funcionamiento del
+procesador o para evitar que un dispositivo pierda datos durante una
+transferencia de datos irregular.</p>
+<p>Los búfer de escritura para un dispositivo lento, como un disco duro
+o un pendrive, almacenan varios mega bytes de datos que son enviados
+en ráfagas rápidas por el procesador para, más tarde, escribirlos
+en el dispositivo de almacenamiento a menor velocidad y de manera
+continua.</p>
+<p>Los dispositivos de entrada, como los teclados o ratones, también
+tienen búfer de lectura que va almacenando los datos que envían
+los periféricos hasta que el procesador los lee rápidamente.
+De esta manera el microprocesador principal no tiene que estar
+atendiendo continuamente a un dispositivo lento, sino que lo
+atiende a ráfagas rápidas y sin esperas.</p>
+<p>Los búfer de datos suelen encontrarse dentro de los periféricos de
+entrada/salida y de los medios de almacenamiento.</p>
 </dd>
 </dl>
 </div>
@@ -449,7 +463,7 @@ son las siguientes:</p>
 </td>
 </tr>
 <tr class="row-even"><td>Láser de lectura/escritura</td>
-<td>Infrarojo (780 nm)</td>
+<td>Infrarrojo (780 nm)</td>
 <td>Rojo (650 nm)</td>
 <td>Violeta (405 nm)</td>
 </tr>
@@ -511,17 +525,40 @@ datos entre particulares.</p>
 poco y hoy en día son muy pocas las aplicaciones en las que tienen
 alguna ventaja.</p>
 </dd>
-<dt id="term-Cinta-magnetica">Cinta magnética</dt><dd><p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Cinta_magn%C3%A9tica_de_almacenamiento_de_datos" rel="noopener noreferrer" target="_blank">cinta magnética</a></p>
+<dt id="term-Cinta-magnetica">Cinta magnética</dt><dd><p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Cinta_magn%C3%A9tica_de_almacenamiento_de_datos" rel="noopener noreferrer" target="_blank">cinta magnética</a>
+es un soporte de almacenamiento basado en una cinta de plástico
+impregnada en su superficie con material magnético y enrollada en un
+cartucho.
+Ha sido uno de los primeros medios de almacenamiento masivo de datos
+desde el origen de la informática.</p>
+<p>Tiene algunas desventajas, como es su acceso secuencial a la
+información y por lo tanto su lentitud. Su mayor ventaja es su
+bajo precio por Gigabyte, pudiendo almacenar la misma información
+que un disco duro por menos precio.</p>
+<p>Hoy en día su uso se limita a realizar copias de respaldo de grandes
+cantidades de datos.
+La tecnología más conocida es la LTO (Linear Tape Open), que en su
+versión LTO-9 es capaz de almacenar hasta 18 Terabytes de datos en
+un solo cartucho.</p>
 <div class="figure align-center" id="id10">
 <a class="reference internal image-reference" href="../_images/informatica-tape-lto4.jpg"><img alt="../_images/informatica-tape-lto4.jpg" src="../_images/informatica-tape-lto4.jpg" style="width: 340px;" /></a>
-<p class="caption"><span class="caption-text">Cinta magnética LTO.</span><a class="headerlink" href="#id10" title="Enlace permanente a esta imagen">¶</a></p>
+<p class="caption"><span class="caption-text">Cinta magnética LTO-2.</span><a class="headerlink" href="#id10" title="Enlace permanente a esta imagen">¶</a></p>
 <div class="legend">
 <a class="reference external" href="https://commons.wikimedia.org/wiki/File:400gb-lto-tape_hg.jpg" rel="noopener noreferrer" target="_blank">Hannes Grobe</a>,
 <a class="reference external" href="https://creativecommons.org/licenses/by/3.0/deed.en" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a>,
 via Wikimedia Commons.</div>
 </div>
 </dd>
-<dt id="term-Discos-flexibles">Discos flexibles</dt><dd><p>Los <a class="reference external" href="https://es.wikipedia.org/wiki/Disquete" rel="noopener noreferrer" target="_blank">disquetes o discos flexibles</a></p>
+<dt id="term-Discos-flexibles">Discos flexibles</dt><dd><p>El <a class="reference external" href="https://es.wikipedia.org/wiki/Disquete" rel="noopener noreferrer" target="_blank">disquete o disco flexible</a>
+es una tecnología basada en un disco de plástico flexible impregnado
+en su superficie con un material ferromagnético que almacena
+la información y encapsulado en una carcasa de papel o plástico.</p>
+<p>Los disquetes o floppies llegaron a dominar el almacenamiento externo
+durante cerca de 30 años, sobre todo en las décadas de 1980 y 1990,
+pero actualmente son una tecnología obsoleta.</p>
+<p>Su influencia pasada puede observarse en la actualidad en los iconos
+de grabación de datos en disco, que se suelen representar con un
+disco flexible de 3 1/2 pulgadas.</p>
 <div class="figure align-center" id="id11">
 <a class="reference internal image-reference" href="../_images/informatica-floppy-disk.jpg"><img alt="../_images/informatica-floppy-disk.jpg" src="../_images/informatica-floppy-disk.jpg" style="width: 340px;" /></a>
 <p class="caption"><span class="caption-text">Discos flexibles (floppy disks) de diferentes tamaños.</span><a class="headerlink" href="#id11" title="Enlace permanente a esta imagen">¶</a></p>
@@ -537,19 +574,21 @@ via Wikimedia Commons.</div>
 <h2><a class="toc-backref" href="#id17">Almacenamiento en red</a><a class="headerlink" href="#almacenamiento-en-red" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Los dispositivos de almacenamiento en red son dispositivos especializados
 en el almacenamiento de datos a los que se accede a través de una red local
-ethernet o a través de internet, dando la impresión de que se está
+Ethernet o a través de internet, dando la impresión de que se está
 trabajando con una unidad de almacenamiento local.
 El almacenamiento en red permite que la información y los recursos de
 almacenamiento se puedan optimizar y compartir entre varios ordenadores.</p>
-<p>La mayoría de los servidores de almacenamiento en red suelen estar
-basados en discos duros o unidades SSD configurados en grupo
-<a class="reference external" href="https://es.wikipedia.org/wiki/RAID" rel="noopener noreferrer" target="_blank">RAID (matriz redundante de discos independientes)</a>.
-Esta configuración permite aumentar la tasa de transferencia y
-que se pueda recuperar un fallo de una unidad directamente por el
-hadware del servidor de almacenamiento al cambiar en caliente la
-unidad dañada.</p>
 <dl class="glossary docutils">
-<dt id="term-Servidor-NAS">Servidor NAS</dt><dd><p>El <a class="reference external" href="https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red" rel="noopener noreferrer" target="_blank">servidor NAS</a></p>
+<dt id="term-Servidor-NAS">Servidor NAS</dt><dd><p>El <a class="reference external" href="https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red" rel="noopener noreferrer" target="_blank">servidor NAS (Network Attached Storage)</a>
+es un ordenador dedicado a almacenar datos en sus unidades de disco
+o de estado sólido y enviar o recibir estos datos a través de la
+red local.
+Permite almacenar, recuperar y compartir los datos en un punto
+centralizado para todos los ordenadores de una red local.</p>
+<p>Normalmente los servidores NAS son sistemas dedicados, no ordenadores
+personales. Contienen varias bahías para la conexión de unidades
+de almacenamiento (HDD o SSD) en conexión <a class="reference internal" href="#term-RAID"><span class="xref std std-term">RAID</span></a> para aumentar
+sus prestaciones.</p>
 <div class="figure align-center" id="id12">
 <a class="reference internal image-reference" href="../_images/informatica-nas.png"><img alt="../_images/informatica-nas.png" src="../_images/informatica-nas.png" style="width: 340px;" /></a>
 <p class="caption"><span class="caption-text">Synology DiskStation NAS (Network Attached Storage) de 6 bahías.</span><a class="headerlink" href="#id12" title="Enlace permanente a esta imagen">¶</a></p>
@@ -559,7 +598,20 @@ unidad dañada.</p>
 via Wikimedia Commons.</div>
 </div>
 </dd>
-<dt id="term-Almacenamiento-en-la-nube">Almacenamiento en la nube</dt><dd><p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube" rel="noopener noreferrer" target="_blank">nube</a></p>
+<dt id="term-Almacenamiento-en-la-nube">Almacenamiento en la nube</dt><dd><p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube" rel="noopener noreferrer" target="_blank">nube</a>
+es el nombre comercial que se le ha dado a los centros de datos
+compuestos por multitud de ordenadores que pueden actuar como
+servidores de datos o como servidores de aplicaciones.</p>
+<p>Estos centros de datos pertenecen a grandes compañías como
+<a class="reference external" href="https://es.wikipedia.org/wiki/Amazon_Web_Services" rel="noopener noreferrer" target="_blank">Amazon (Amazon Web Services)</a>,
+<a class="reference external" href="https://es.wikipedia.org/wiki/Microsoft_Azure" rel="noopener noreferrer" target="_blank">Microsoft (Azure)</a>,
+<a class="reference external" href="https://es.wikipedia.org/wiki/Google_Cloud" rel="noopener noreferrer" target="_blank">Google (Google Cloud Platform)</a>
+u otras compañías menores.</p>
+<p>La nube puede ser utilizada por usuarios particulares, por ejemplo
+cuando almacenamos nuestros datos en Google Drive, o puede ser
+usada por grandes compañías como Netflix, que almacena sus series
+y películas en los servidores de Amazon (AWS) para servirlos por
+streaming.</p>
 <div class="video-center">
 <iframe src="https://www.youtube.com/embed/XZmGGAbHqa0"
 frameborder="0" allow="accelerometer; autoplay; encrypted-media;
@@ -586,19 +638,6 @@ gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   
   
-  <hr/>
-
-    <!-- anuncio_footer    -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-8828149385712454"
-         data-ad-slot="2657398444"
-         data-ad-format="horizontal"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-
   <hr/>
 
   <div role="contentinfo">
