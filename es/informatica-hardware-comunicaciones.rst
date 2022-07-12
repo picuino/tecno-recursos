@@ -8,6 +8,20 @@
 Comunicaciones
 ==============
 
+.. note::
+   PÁGINA EN CONSTRUCCIÓN
+
+Las comunicaciones de los ordenadores permiten el movimiento de los datos
+entre diferentes dispositivos y componentes del ordenador. 
+Son elementos fundamentales que se encuentran en todos los niveles, 
+desde las líneas de comunicación interna de un microprocesador hasta 
+las líneas de comunicación de internet a nivel mundial.
+
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 2
+
+
 Clasificación
 -------------
 
@@ -79,7 +93,7 @@ Conexiones externas
       El estándar `RS232 <https://es.wikipedia.org/wiki/RS-232>`__
 
 
-Conectores de Vídeo
+Conectores de vídeo
 -------------------
 
 .. glossary::
@@ -113,6 +127,19 @@ Conectores de red
      <https://es.wikipedia.org/wiki/Ethernet>`__
      suele utilizar un conector RJ-45 con cable UTP.
 
+   Comunicación por fibra óptica
+      Los estándares de `comunicación por fibra óptica
+      <https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_por_fibra_%C3%B3ptica#Aplicaciones>`__
+      abarcan desde enlaces domésticos para audio pasando por enlaces de 
+      alta velocidad para Ethernet, hasta enlaces intercontinentales para
+      comunicaciones por internet.
+      
+      La tecnología más conocida por la mayoría de las personas es la 
+      `FTTH o fibra hasta el hogar
+      <https://es.wikipedia.org/wiki/Fibra_hasta_la_casa>`__,
+      que instalan las compañías telefónicas para dar acceso
+      a internet en los hogares.
+      
 
 Conexiones inalámbricas
 -----------------------

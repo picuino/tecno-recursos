@@ -518,7 +518,7 @@ Tabla de precios de memorias USB de marca SanDisk en Amazon en 2022.
      - 87,80
      - 5,83
 
-Como puede observarse los dispositivos de precios más bajos se pueden 
+Como puede observarse, los dispositivos de precios más bajos se pueden 
 mejorar duplicando su capacidad por poco dinero más.
 
 La relación de precio por Gbyte mejora constantemente hasta que llegamos
@@ -561,9 +561,10 @@ de `PassMark Software <https://www.cpubenchmark.net>`__.
      
 Los modelos de procesadores con menor capacidad no están a la venta como 
 procesadores independientes, pero se siguen vendiendo en equipos ya
-montados, a pesar de ser obsoletos.
+montados, a pesar de ser obsoletos y tener una baja relación 
+rendimiento/precio.
 
 Podemos observar de nuevo que los equipos más baratos tienen una pobre
-relación rendimiento-precio, al igual que los más caros y altos de gama.
+relación rendimiento/precio, al igual que los más caros y altos de gama.
 La mejor compra está en un equipo intermedio con la mejor relación 
-rendimiento-precio.
+rendimiento/precio.

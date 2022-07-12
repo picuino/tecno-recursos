@@ -8,6 +8,9 @@
 Elementos auxiliares
 ====================
 
+.. note::
+   PÁGINA EN CONSTRUCCIÓN
+
 .. glossary::
 
    Fuente de alimentación

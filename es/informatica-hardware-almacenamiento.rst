@@ -18,36 +18,64 @@ fundamentales para determinar la capacidad y velocidad del ordenador.
 
 Clasificación de dispositivos de almacenamiento
 -----------------------------------------------
-Almacenamiento primario
 
-  * Memoria RAM
-  * Memoria caché
-  * Búfer de datos
+**Según su posición y vinculación al ordenador local:**
 
-Almacenamiento secundario
+   Almacenamiento primario
+   
+     * Memoria RAM
+     * Memoria caché
+     * Búfer de datos
+   
+   Almacenamiento secundario
+   
+     * Memoria ROM
+     * Disco de estado sólido SSD
+     * Disco duro magnético HDD
+   
+   Almacenamiento externo
+   
+     * Unidades ópticas CD-ROM, DVD, Blu-ray
+     * Memoria USB
+     * Tarjetas SD
+     * Cinta magnética
+     * Discos flexibles
+   
+   Almacenamiento virtual
+   
+     * Equipos NAS
+     * Almacenamiento en la nube
+     
 
-  * Memoria ROM
-  * Disco de estado sólido SSD
-  * Disco duro magnético HDD
+**Según su método de almacenamiento:**
 
-Almacenamiento externo
-
-  * Unidades ópticas CD-ROM, DVD, Blu-ray
-  * Memoria USB
-  * Tarjetas SD
-  * Cinta magnética
-  * Discos flexibles
-
-Almacenamiento virtual
-
-  * Equipos NAS
-  * Almacenamiento en la nube
-
-
+   Dispositivos de estado sólido
+     
+     * Memoria RAM
+     * Memoria ROM
+     * Unidad de estado sólido SSD
+     * Memorias USB
+     * Tarjetas SD
+   
+   Dispositivos de almacenamiento magnético
+     
+     * Discos duros HDD
+     * Cinta magnética
+     * Discos flexibles
+   
+   Dispositivos de almacenamiento óptico
+     
+     * Discos CD-ROM
+     * Discos DVD
+     * Discos Blu-ray
+   
+   
+   
 Almacenamiento primario
 -----------------------
 Las memorias de almacenamiento primario son los dispositivos que contienen
 la información con la que está trabajando en este momento el procesador.
+Son las memorias más rápidas y cercanas a la unidad central de proceso.
 
 .. glossary::
 
@@ -109,6 +137,11 @@ memorias no volátiles, es decir que almacenan datos a pesar de que el
 ordenador no tenga alimentación, que se suelen instalar de forma
 permanente en el interior del ordenador para que almacenen el sistema
 operativo y los diferentes programas y datos de uso habitual.
+
+La conexión se suele realizar por medios más lentos que con los 
+dispositivos de almacenamiento primario, pero tienen mayor capacidad 
+de almacenamiento.
+
 
 .. glossary::
 
@@ -296,6 +329,9 @@ Almacenamiento externo
 ----------------------
 Los dispositivos de almacenamiento externo son removibles, es decir que se
 pueden desconectar con facilidad del ordenador para ser transportados.
+
+Su velocidad es más lenta que los anteriores métodos de almacenamiento,
+pero presentan la ventaja de su mayor movilidad y facilidad de transporte.
 
 .. glossary::
 
@@ -542,6 +578,7 @@ Los dispositivos de almacenamiento en red son dispositivos especializados
 en el almacenamiento de datos a los que se accede a través de una red local
 Ethernet o a través de internet, dando la impresión de que se está
 trabajando con una unidad de almacenamiento local.
+
 El almacenamiento en red permite que la información y los recursos de
 almacenamiento se puedan optimizar y compartir entre varios ordenadores.
 

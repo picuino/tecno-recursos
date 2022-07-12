@@ -7,6 +7,10 @@
 
 :index:`Placa base`
 -------------------
+
+.. note::
+   PÁGINA EN CONSTRUCCIÓN
+   
 Una `placa base
 <https://es.wikipedia.org/wiki/Placa_base>`__
 también conocida como placa madre o motherboard

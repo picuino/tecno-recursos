@@ -33,6 +33,13 @@ hasta una posición elevada y de lado a lado.
    :align: center
    :height: 284px
 
+En todos los casos anteriores las poleas desvían la dirección y la 
+posición de la fuerza, pero no reducen la fuerza necesaria para levantar 
+el peso.
+Por lo tanto todas estas poleas necesitan que se estire el extremo de la 
+cuerda con una fuerza de 60kgf (60 kilogramos-fuerza) para poder levantar 
+los pesos.
+
 
 :index:`Polipastos`
 -------------------
