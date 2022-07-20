@@ -7,8 +7,8 @@
 
 Efectos de la electricidad
 ==========================
-Una de las grandes ventajas de la electricidad es que puede 
-convertirse con facilidad en multitud de efectos distintos.
+Una de las grandes ventajas de la electricidad es que permite
+generar con facilidad multitud de efectos distintos.
 En una simple cocina se pueden encontrar muchos aparatos
 que aprovechan esta ventaja.
 
@@ -17,23 +17,25 @@ conseguir con la electricidad y los aparatos receptores
 que lo hacen realidad.
 
 +------------+-----------------------------------------+
-| EFECTO     |   Ejemplos de receptores                |
+| EFECTO     | Ejemplos de receptores                  |
 +============+=========================================+
 | LUZ        | - Bombilla incandescente                |
-|            | - Led                                   |
-|            | - Fluorescente                          |
+|            | - Bombilla led                          |
+|            | - Tubo fluorescente                     |
+|            | - Lámpara de arco eléctrico             |
 +------------+-----------------------------------------+
-| CALOR      | - Resistencia (tostadora, horno,        |
-|            |   secador de pelo)                      |
-|            | - Calentador por inducción              |
+| CALOR      | - Resistencia de una tostadora          |
+|            | - Resistencia de un horno               |
+|            | - Resistencia de un calentador de aire  |
+|            | - Placa de inducción                    |
 |            | - Horno de microondas                   |
 |            | - Soldadura de arco                     |
 +------------+-----------------------------------------+
-| MOVIMIENTO | - Motor (batidora, exprimidor, bandeja  |
-|            |   de horno)                             |
-|            | - Efecto piezoeléctrico                 |
+| MOVIMIENTO | - Motor de batidora o de exprimidor     |
+|            | - Motor piezoeléctrico de una cámara    |
+|            |   fotográfica                           |
 +------------+-----------------------------------------+
-| SONIDO     | - Altavoz                               |
+| SONIDO     | - Altavoces                             |
 |            | - Auriculares                           |
 |            | - Zumbador de reloj o timbre de casa    |
 |            | - Limpiador por ultrasonidos            |
@@ -42,7 +44,8 @@ que lo hacen realidad.
 |            | - Cierre de puerta magnético            |
 +------------+-----------------------------------------+
 | QUÍMICO    | - Batería recargable                    |
-|            | - Recubrimiento electrolítico           |
+|            | - Aparato de recubrimiento              |
+|            |   electrolítico                         |
 |            | - Estimulador muscular eléctrico        |
 +------------+-----------------------------------------+
 

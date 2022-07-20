@@ -12,11 +12,10 @@ El circuito eléctrico
 .. figure:: electric/_images/electric-circuito-simbolos-02.png
    :width: 320px
    :align: center
-   :alt: Elementos de un circuito eléctrico
+   :alt: Elementos de un circuito eléctrico.
    
 Un circuito eléctrico es un conjunto de componentes que generan 
-y controlan el paso de la electricidad para transformarla en 
-efectos útiles.
+y controlan el paso de la electricidad para producir efectos útiles.
 
 Un ejemplo sencillo de circuito eléctrico es el que todos utilizamos 
 al encender la luz de una habitación.
@@ -30,8 +29,8 @@ Generadores
 -----------
 
 Estos componentes son los encargados de generar corriente eléctrica. 
-Para conseguirlo impulsan a los electrones a su través para que 
-circulen por el circuito.
+Para conseguirlo impulsan a los electrones para que circulen por 
+el circuito.
 
 Ejemplos de generadores son las pilas y baterías, las dinamos de 
 las bicicletas, los alternadores de los automóviles o las placas 
@@ -64,7 +63,7 @@ Los materiales más comunes utilizados para conducir electricidad son:
   Por su baja temperatura de fusión (menor de 300ºC) se utilizan
   en la soldadura de componentes electrónicos. 
   La plata, a pesar de ser más cara,  se utiliza cada vez más 
-  porque evita los efectos tóxicos del plomo.
+  porque no produce los efectos tóxicos del plomo.
 
 
 Receptores
@@ -88,24 +87,35 @@ apaga la luz dejando pasar la electricidad cuando nos conviene.
 Dependiendo de cómo se accionen hay varios tipos de elementos de 
 control.
 
+
 **Accionamiento manual**:
-  Los interruptores, pulsadores, mandos giratorios, etc. 
+  Interruptores, pulsadores, mandos giratorios, etc. 
   Permiten a las personas controlar los aparatos eléctricos.
   
+  Cada elemento de control manual tiene su aplicación práctica. 
+  A la hora de controlar un timbre no se puede utilizar un interruptor
+  porque después de pulsarle, el timbre funcionará sin parar.
+  En esta aplicación usaremos mejor un pulsador, que solo acciona el
+  timbre mientras lo estemos pulsando.
+
 **Protección eléctrica**:
-  El fusible, interruptor automático, etc.
-  Cortan la electricidad para proteger la instalación eléctrica y 
-  que no se quemen los cables si hay un cortocircuito o una 
-  sobrecarga.
+  Fusibles, interruptores automáticos, diferenciales, etc.
+  
+  Los fusibles y los interruptores automáticos cortan la electricidad 
+  para proteger la instalación eléctrica y evitar que se quemen los 
+  cables si hay un cortocircuito o una sobrecarga.
   
   El diferencial nos protege la vida cortando la corriente antes 
   de que una derivación eléctrica pueda electrocutarnos.
 
+
 **Accionamiento automático**:
   Algunos elementos de control se accionan a partir de señales 
-  eléctricas. Esto permite un control automático, sin que nadie 
-  intervenga. 
-  Por ejemplo la luz de escalera que se apaga sola al cabo de un 
-  tiempo, una puerta eléctrica que se abre al detectar presencia, 
-  o un edificio inteligente que controla mediante ordenador la 
+  eléctricas. Esto permite un control automático, ahorrando la 
+  intervención de una persona.
+  
+  Ejemplos de accionamientos automáticos son 
+  la luz de una escalera que se apaga sola al cabo de un tiempo,
+  una puerta eléctrica que se abre sola al detectar presencia, 
+  un edificio inteligente que controla mediante ordenador la 
   temperatura, humedad, apertura de persianas, riego, etc.

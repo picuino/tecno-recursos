@@ -18,47 +18,56 @@ y la resistencia eléctrica del circuito.
 
 Magnitudes y unidades
 ---------------------
-La ley de Ohm por lo tanto relaciona tres magnitudes eléctricas que 
+La ley de Ohm, por lo tanto, relaciona tres magnitudes eléctricas que 
 están representadas en la siguiente tabla junto a sus tres unidades.
 
 .. table::
-   :widths: 50 50
+   :widths: auto
 
-   +--------------------------------+--------------------------------------+
-   | MAGNITUD Y LETRA               | UNIDAD Y LETRA                       |
-   +================================+======================================+
-   | Tensión o Voltaje  (V)         | Voltio (V)                           |
-   +--------------------------------+--------------------------------------+
-   | Intensidad de Corriente (I)    | Amperio (A)                          |
-   +--------------------------------+--------------------------------------+
-   | Resistencia Eléctrica (R)      | Ohmio (Ω)                            |
-   +--------------------------------+--------------------------------------+
+   +--------------------------------+----------------------------------+
+   | MAGNITUD Y LETRA               | UNIDAD Y LETRA                   |
+   +================================+==================================+
+   | Tensión o Voltaje  (V)         | Voltio (V)                       |
+   +--------------------------------+----------------------------------+
+   | Intensidad de Corriente (I)    | Amperio (A)                      |
+   +--------------------------------+----------------------------------+
+   | Resistencia Eléctrica (R)      | Ohmio (Ω)                        |
+   +--------------------------------+----------------------------------+
+
 
 **Tensión o Voltaje:** 
-   Es la energía con la que la pila impulsa a los 
-   electrones a través del circuito. Cuando el voltaje es más alto la energía 
-   es mayor y por lo tanto los electrones circulan más deprisa, aumentando la 
-   corriente eléctrica. 
+   Es la energía con la que una pila impulsa a los electrones a través 
+   del circuito. 
+   Cuando el voltaje es más alto, la energía es mayor y por lo tanto los 
+   electrones circulan más deprisa, aumentando la corriente eléctrica. 
+   
    La tensión o voltaje se mide en Voltios.
 
+
 **Resistencia Eléctrica:** 
-   Es la oposición que presenta un componente al paso de la corriente eléctrica. 
+   Es la oposición que presenta un componente al paso de la corriente
+   eléctrica. 
    Cuanto mayor es la resistencia, más se opone al paso de la corriente 
-   eléctrica y por lo tanto menos corriente pasará a su través.
+   eléctrica y por lo tanto menos corriente pasará a través del
+   circuito.
+   
    La resistencia eléctrica se mide en Ohmios.
+
 
 **Intensidad de Corriente:** 
    Es la cantidad de electrones que circulan por un conductor cada segundo. 
    Cuantos más electrones circulen por segundo, más corriente pasará 
    por el conductor.
+   
    La intensidad de corriente se mide en Amperios.
 
 
 Fórmula de la ley de Ohm
 ------------------------
-Según la ley de Ohm la intensidad de corriente que circula por una
-resistencia eléctrica es proporcional a la tensión aplicada a la resistencia
-e inversamente proporcional al valor de la resistencia eléctrica.
+Según la ley de Ohm la intensidad de corriente (I) que circula por una
+resistencia eléctrica (R) es proporcional a la tensión (V) aplicada a la 
+resistencia e inversamente proporcional al valor de la resistencia 
+eléctrica.
 
 La ley de Ohm escrita en notación matemática es la siguiente:
 
@@ -84,9 +93,10 @@ el siguiente triángulo con las tres magnitudes:
    :align: center
    :width: 160px
 
-Tapando con la mano la magnitud que queremos averiguar aparece la fórmula
-correspondiente. Por ejemplo si queremos saber cuánto vale la intensidad
-de corriente, tapamos la letra I con la mano y se puede ver la letra V 
+Tapando la magnitud que queremos averiguar, aparece la fórmula
+correspondiente.
+Por ejemplo, si queremos saber cuánto vale la intensidad de corriente, 
+tapamos la letra I y se puede ver la letra V 
 encima de la letra R. Esto significa que I = V / R.
 
    
@@ -111,4 +121,3 @@ Cuestionarios de tipo test sobre la ley de Ohm:
 
   * `Cuestionario. Ley de Ohm. Fundamentos. <https://www.picuino.com/test/es-electric-ohms-law.html>`__
   * `Cuestionario. Ley de Ohm. Cálculos. <https://www.picuino.com/test/es-electric-ohms-law-2.html>`__
-  

@@ -162,12 +162,26 @@ de datos.
    Micrófono
       El `micrófono
       <https://es.wikipedia.org/wiki/Micr%C3%B3fono>`__
+      es un dispositivo que recoge el sonido del ambiente y lo traduce a
+      señales eléctricas. Posteriormente una :term:`Tarjeta de sonido` 
+      traduce estas señales eléctricas a señales digitales que puede 
+      utilizar el ordenador.
+
+      En algunos casos, los micrófonos de las cámaras web, de los 
+      ordenadores portátiles o de los smartphones llevan ya incluido un
+      conversor analógico-digital para convertir las señales eléctricas 
+      que salen del micrófono a señales digitales, pero en estos casos 
+      suelen tener menor calidad que cuando se utiliza un micrófono y
+      una tarjeta de sonido dedicada.
+      
+      Según la tecnología de los micrófonos, estos puede ser
+      magneto-dinámicos, de condensador, de carbón o piezoeléctricos.
 
       .. figure:: informatica/_images/informatica-microfono.jpg
          :align: center
          :width: 340px
 
-         Micrófono.
+         Micrófono magneto-dinámico de marca Sennheiser.
 
          `ChrisEngelsma
          <https://commons.wikimedia.org/wiki/File:SennMicrophone.jpg>`__,
@@ -178,6 +192,15 @@ de datos.
    Tableta gráfica
       La `tableta gráfica o tableta digitalizadora
       <https://es.wikipedia.org/wiki/Tableta_digitalizadora>`__
+      es un periférico que permite al usuario introducir gráficos o 
+      dibujos a mano, tal como lo haría con lápiz y papel. 
+      También permite apuntar y señalar los objetos que se encuentran en 
+      la pantalla del ordenador. 
+      Consiste en una superficie plana sobre la que el usuario puede 
+      dibujar una imagen utilizando el estilete (lapicero) que viene junto 
+      a la tableta. 
+      Dependiendo de la tableta, la imagen puede aparecer en la tableta 
+      y en el ordenador a la vez o aparecer solo en el ordenador. 
 
       .. figure:: informatica/_images/informatica-tableta-digitalizadora.jpg
          :align: center
@@ -194,32 +217,80 @@ de datos.
    GPS
       El `GPS
       <https://es.wikipedia.org/wiki/GPS>`__
-
-
+      o Sistema de Posicionamiento Global es un sistema del departamento
+      de defensa de Estados Unidos que utiliza satélites artificiales 
+      que envían señales de radio, para localizar un receptor en cualquier
+      posición del globo terráqueo con una precisión de pocos metros.
+      Sistemas semejantes son el sistema Galileo de Europa o el sistema
+      Glonass de Rusia.
+      
+      El GPS es ámpliamente utilizado en los teléfonos inteligentes así 
+      como en dispositivos wareables. Permite dar servicios como la 
+      navegación punto a punto, localización de amigos cercanos, cálculo 
+      de recorridos para runners, etc.
+      
+      La localización de una persona es una información que las grandes 
+      corporaciones consideran muy valiosa. 
+      Dónde vives, qué lugares y qué personas frecuentas, 
+      a qué hora sales de casa o del trabajo, en qué vehículos te mueves,
+      etc. Toda esta información se puede deducir de la localización GPS
+      y es especialmente sensible y privada, por lo que debemos restringir
+      el uso del GPS a los momentos y aplicaciones que consideremos 
+      imprescindibles.
+      
 
    Acelerómetro
       El `acelerómetro
-      <https://en.wikipedia.org/wiki/Accelerometer#Consumer_electronics>`__
-
+      <https://es.wikipedia.org/wiki/Aceler%C3%B3metro>`__
+      es un sensor capaz de medir aceleraciones. 
+      Está integrado en los smartphones, pulseras de actividad física, 
+      mandos de videoconsolas, etc.
+      
+      Este sensor puede detectar el movimiento que realizamos cuando 
+      andamos, corremos o cuando movemos los brazos en varias direcciones.
+      En combinación con el giroscopio permite conocer los movimientos
+      que realizamos con gran precisión.
+      
+      Pueden servir para realizar juegos de baile en los que el mando
+      sabe dónde está nuestra mano y cómo la movemos.
+      También permite conocer cómo andamos o corremos y predecir 
+      el consumo de energía realizado o incluso en aplicaciones médicas
+      para predecir la aparición del Alzheimer.
+      
+      Otra aplicación del acelerómetro es conocer dónde se encuentra el
+      suelo (por la aceleración de la gravedad) y, a partir de esta 
+      información, girar las fotografías que se tomen para que siempre 
+      se muestren hacia arriba.
 
 
    Giroscopio
       El `giroscopio
       <https://es.wikipedia.org/wiki/Gir%C3%B3scopo>`__
+      es un sensor que sirve para conocer la orientación en el espacio
+      de un objeto.
+      Está integrado en los smartphones, pulseras de actividad física, 
+      mandos de videoconsolas, etc.
+      En combinación con el acelerómetro permite conocer con mucha 
+      precisión qué movimientos realizamos.
 
 
-
-   Brújula
-      La `brújula
-      <https://es.wikipedia.org/wiki/Br%C3%BAjula>`__
-
+   Magnetómetro
+      El `magnetómetro
+      <https://es.wikipedia.org/wiki/Magnet%C3%B3metro#Uso_en_dispositivos_m%C3%B3viles>`__
+      es un sensor de campo magnético. Como la tierra tiene un campo
+      magnético, con el magnetómetro que incluye un smartphone se puede
+      situar el norte como lo hace una **brújula**.
 
 
    Termómetro de batería
       El `termómetro
       <https://es.wikipedia.org/wiki/Term%C3%B3metro>`__
-
-
+      de la batería sirve para conocer la temperatura que tiene la batería
+      del teléfono inteligente. A partir de esta información se puede saber
+      el uso que estamos dando al smartphone (mayor uso se traduce en una
+      mayor temperatura de la batería), si se está cargando el smartphone,
+      o de forma indirecta la temperatura ambiental.
+      
 
 Periféricos de salida
 ---------------------
@@ -229,9 +300,29 @@ se muestre al exterior.
 .. glossary::
 
    Monitor
-      El `monitor
+      El `monitor de ordenador
       <https://es.wikipedia.org/wiki/Monitor_de_computadora>`__
-
+      también llamado pantalla, es uno de los principales dispositivos
+      de salida del ordenador para mostrar información al usuario.
+      También puede considerarse un periférico de entrada si es táctil.
+      
+      La tecnología que predomina actualmente es la de las pantallas 
+      planas de **cristal líquido (LDC)** y están comenzando a usarse 
+      cada vez con mayor frecuencia las pantallas OLED o AMOLED.
+      
+      El tamaño de un monitor se mide en pulgadas de la diagonal de la 
+      pantalla visualizadora (sin el marco exterior).
+      Tamaños típicos son desde las 5" de los smartphones hasta las 24" 
+      de un monitor típico de PC.
+      
+      La resolución mínima de un monitor de ordenador hoy en día debería
+      ser de Full HD (1920x1080 pixel), aunque los portátiles más pequeños, 
+      tabletas y smartphones con frecuencia no llegan a esa resolución.
+      WXGA es una resolución estándar algo menor con 1366x768 pixel.
+      
+      El **pixel** es el punto más pequeño que se puede representar en un
+      monitor.
+      
       .. figure:: informatica/_images/informatica-monitor.jpg
          :align: center
          :width: 340px
@@ -247,7 +338,12 @@ se muestre al exterior.
    Proyector de vídeo
       El `proyector de vídeo
       <https://es.wikipedia.org/wiki/Proyector_de_video>`__
-
+      o cañon proyector es un aparato óptico que proyecta una imagen fija
+      o en movimiento sobre una pared o una pantalla de proyección,
+      a partir de una señal de vídeo que procede de un ordenador.
+      Esto permite visualizar la información del ordenador para todo 
+      un auditorio como lo hace una pantalla de cine.
+      
       .. figure:: informatica/_images/informatica-proyector.jpg
          :align: center
          :width: 340px
@@ -275,8 +371,8 @@ se muestre al exterior.
          via Wikimedia Commons.
 
    DAC
-     El `DAC
-     <https://es.wikipedia.org/wiki/Conversi%C3%B3n_digital-anal%C3%B3gica#Conversor_Digital-Anal%C3%B3gico_(CDA)>`__
+      El `DAC
+      <https://es.wikipedia.org/wiki/Conversi%C3%B3n_digital-anal%C3%B3gica#Conversor_Digital-Anal%C3%B3gico_(CDA)>`__
 
       .. figure:: informatica/_images/informatica-dac.jpg
          :align: center
@@ -410,9 +506,28 @@ la entrada como la salida de datos del ordenador.
 
       `Metaverso <https://es.wikipedia.org/wiki/Metaverso>`__
 
+
    Tarjeta de sonido
       La `tarjeta de sonido
       <https://es.wikipedia.org/wiki/Tarjeta_de_sonido>`__
+      es un dispositivo de entrada / salida que traduce entre señales
+      analógicas y señales digitales.
+
+      Las señales de entrada al ordenador desde un micrófono, desde
+      una guitarra eléctrica o desde un reproductor de sonido son 
+      analógicas. La tarjeta de sonido transforma estas entradas analógicas
+      mediante un `ADC 
+      <https://es.wikipedia.org/wiki/Conversi%C3%B3n_anal%C3%B3gica-digital>`__ 
+      en señales digitales que pueden ser procesadas por 
+      el ordenador.
+      
+      Cuando queremos que el ordenador reproduzca un sonido, es necesario
+      convertir las señales digitales del ordenador en señales analógicas
+      que pueden amplificarse y enviarse a unos altavoces. La tarjeta 
+      de sonido tiene un `DAC 
+      <https://es.wikipedia.org/wiki/Conversi%C3%B3n_digital-anal%C3%B3gica>`__
+      que realiza esta conversión de señales 
+      digitales a señales analógicas.
 
       .. figure:: informatica/_images/informatica-tarjeta-sonido.jpg
          :align: center
@@ -426,5 +541,5 @@ la entrada como la salida de datos del ordenador.
          via Wikimedia Commons.
 
 
-      `Explicación de Jaime Altozano
+      `Explicación de Jaime Altozano sobre las tarjetas de sonido
       <https://www.youtube.com/watch?v=4Wp8X7MvGB0>`__.

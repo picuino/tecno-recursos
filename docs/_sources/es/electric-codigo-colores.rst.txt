@@ -15,9 +15,9 @@ Código de colores de las resistencias
    :target: ../_downloads/electric-codigo-colores.pdf
 
 El código de colores de las resistencias sirve para expresar
-el valor de una resistencia y su tolerancia con varias bandas de
-colores impresas en el cuerpo de la resistencia, que se pueden 
-ver desde cualquier posición.
+el valor de una resistencia en ohmios (Ω) y su tolerancia, a través de
+varias bandas de colores impresas en el cuerpo de la resistencia, 
+que se pueden ver desde cualquier posición.
 
 La notación de la resistencia es semejante a la notación científica,
 con una mantisa de dos cifras y un exponente de una cifra.
@@ -35,6 +35,7 @@ la más habitual.
 | :download:`Problemas de código de colores y ley de Ohm.
   Formato Word. <electric/_sources/electric-codigo-colores.doc>`
 
+
 Tabla del código de colores
 ---------------------------
 
@@ -43,7 +44,14 @@ Tabla del código de colores
    :align: center
    :alt: Tabla con el código de colores de las resistencias
 
+Prefijos del sistema internacional:
 
+  * µ = micro = 0.000 001
+  * m = mili = 0.001
+  * k = kilo = 1 000
+  * M = Mega = 1 000 000
+
+  
 Traducir colores a valor numérico
 ---------------------------------
 
@@ -58,15 +66,15 @@ pasos:
    
    La resistencia quedaría con las bandas
    
-   Amarillo  Morado  Naranja Oro
+   Amarillo  Violeta  Naranja Oro
    
 2. Traducir las dos primeras bandas de color a números. 
    En el caso de la resistencia de ejemplo los colores 
-   son amarillo y morado.
+   son amarillo y violeta.
    
    Amarillo = 4
    
-   Morado = 7
+   Violeta = 7
    
    De manera que el primer número es 47
    
