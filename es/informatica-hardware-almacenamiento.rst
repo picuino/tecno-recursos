@@ -282,7 +282,7 @@ de almacenamiento.
 
    RAID
       Un sistema `RAID (matriz redundante de discos independientes)
-      <https://es.wikipedia.org/wiki/RAID>`__.
+      <https://es.wikipedia.org/wiki/RAID>`__
       es una tecnología que permite unir varias unidades de disco duro
       (HDD) o varias unidades de estado sólido (SSD) para aumentar sus
       prestaciones.

@@ -13,18 +13,18 @@ en paralelo. Combinando ambas se consigue una conexión mixta.
 
 La conexión en **serie** se utiliza cuando queremos que unos 
 componentes afecten el comportamiento de los demás componentes.
-Así, el interruptor de la luz se colocará en serie con la lámpara 
+Así, el interruptor de la luz se colocará en serie con la bombilla 
 para que pueda encenderla o apagarla. 
 
 La conexión en **paralelo** se utiliza cuando queremos que los 
 componentes sean independientes. 
-De esa manera, las dos bombillas de una lámpara las colocaremos en 
-paralelo para que al fundirse una de ellas la otra bombilla siga 
-funcionando sin problema.
+De esa manera, colocaremos las dos bombillas de una lámpara en 
+paralelo para que al fundirse una de las bombillas la otra
+siga funcionando sin problema.
 
-Por último si las conexiones eléctricas están mal realizadas se puede
+Por último, si las conexiones eléctricas están mal realizadas se puede
 producir un **cortocircuito** o un **circuito abierto**. 
-Ambas harán que el circuito eléctrico no funcione.
+Ambas impedirán que el circuito eléctrico funcione.
 
 A continuación estudiaremos con más detalle todos estos tipos de 
 conexiones.
@@ -34,149 +34,184 @@ Circuito en serie
 -----------------
 
 En un circuito en serie los componentes están conectados en 
-cadena uno detrás de otro:
+cadena, uno detrás de otro.
 
 .. image:: electric/_sources/electric-sch-02a.png
    :width: 236px
+   :alt: Circuito en serie.
 
-**Características de un circuito serie:**
+**Características de un circuito en serie:**
   
-  1. La corriente eléctrica que pasa por los componentes es la misma.
+  1. La corriente eléctrica que pasa por los todos los componentes es 
+     la misma.
       
      Esto significa que si quitamos o abrimos un componente, 
      los demás componentes tampoco tendrán corriente y no funcionarán.
       
-  2. La tensión de la pila se divide entre los componentes, 
-     que tendrán por lo tanto una tensión menor que la pila.
+  2. La tensión de la pila se divide entre los componentes conectados
+     en serie, que tendrán, por lo tanto, una tensión menor que la pila.
   
-     Esto significa que las lámparas se iluminan menos cuando están 
-     en serie
+     Esto significa que las bombillas se iluminan menos cuando están 
+     en serie.
+
  
-**Conexión de un circuito serie:**
+**Conexión de un circuito en serie:**
 
-La tensión positiva de la pila llega a la primera lámpara:
+  La tensión positiva de la pila llega a la primera bombilla.
+  
+  .. image:: electric/_sources/electric-sch-02b.png
+     :width: 236px
+     :alt: Circuito en serie. Camino de la corriente.
+  
+  A continuación hay una sola conexión entre la primera bombilla y la 
+  segunda.
+  
+  .. image:: electric/_sources/electric-sch-02c.png
+     :width: 236px
+     :alt: Circuito en serie. Camino de la corriente.
+  
+  Por último hay una conexión entre la segunda bombilla y la pila.
+  
+  .. image:: electric/_sources/electric-sch-02d.png
+     :width: 236px
+     :alt: Circuito en serie. Camino de la corriente.
 
-.. image:: electric/_sources/electric-sch-02b.png
-   :width: 236px
+  
+**Fallo de un componente en serie:**
 
-Después hay una sola conexión entre la primera lámpara y la segunda:
-
-.. image:: electric/_sources/electric-sch-02c.png
-   :width: 236px
-
-Por último hay una conexión entre la segunda lámpara y la pila:
-
-.. image:: electric/_sources/electric-sch-02d.png
-   :width: 236px
-
-**Fallo de un componente:**
-
-
-En un circuito serie, si quitamos una de las lámparas, 
-la otra deja de funcionar y se apaga:
-
-.. image:: electric/_sources/electric-sch-02e.png
-   :width: 236px
-
-Los sensores de las alarmas y otros sistemas de seguridad
-están conectados en serie. Si un componente falla o se rompe,
-todo el circuito dejará de funcionar y la máquina peligrosa se 
-parará o la alarma dará un aviso.
-
+  En un circuito en serie, si quitamos una de las bombillas, 
+  la otra deja de funcionar y se apaga.
+  
+  .. image:: electric/_sources/electric-sch-02e.png
+     :width: 236px
+     :alt: Circuito en serie con fallo en un componente.
+  
+  Los sensores de las alarmas y otros sistemas de seguridad
+  están conectados en serie. Si un componente falla o se rompe,
+  todo el circuito dejará de funcionar y la alarma dará un aviso
+  o la máquina peligrosa se parará.
+  
 
 Circuito en paralelo
 --------------------
 
 En un circuito en paralelo los componentes están conectados entre
-sí por los dos lados:
+sí por ambos lados.
 
 .. image:: electric/_sources/electric-sch-01a.png
    :width: 302px
+   :alt: Circuito en paralelo.
    
    
-**Características de un circuito paralelo:**
+**Características de un circuito en paralelo:**
 
-  1. La tensión eléctrica que llega a los componentes es la misma.
+  1. La tensión eléctrica que llega a todos los componentes es la misma.
       
-     Esto significa que las lámparas tienen toda la tensión
+     Esto significa que las bombillas tienen toda la tensión
      de la pila y se iluminan al máximo.
       
-  2. La corriente de la pila se divide entre los componentes, 
-     que tendrán por lo tanto una corriente menor que la pila.
+  2. La corriente de la pila se divide entre los componentes
+     conectados en paralelo. 
+     Por lo tanto, por las bombillas circulará una corriente 
+     menor que por la pila.
 
 
-**Conexión de un circuito paralelo:**
+**Conexión de un circuito en paralelo:**
 
-Los dos terminales de las lámparas están conectados entre sí.
+  Los dos terminales de las bombillas están conectados entre sí.
+  
+  La tensión positiva de la pila llega por igual a todas las bombillas.
+  
+  .. image:: electric/_sources/electric-sch-01b.png
+     :width: 302px
+     :alt: Circuito en paralelo. Camino de la corriente.
+  
+  La tensión negativa de la pila llega por igual a todas las bombillas.
+  
+  .. image:: electric/_sources/electric-sch-01c.png
+     :width: 302px
+     :alt: Circuito en paralelo. Camino de la corriente.
+  
+  
+**Fallo de un componente en paralelo:**
 
-La tensión positiva de la pila llega por igual a todas las lámparas:
-
-.. image:: electric/_sources/electric-sch-01b.png
-   :width: 302px
-
-La tensión negativa de la pila llega por igual a todas las lámparas:
-
-.. image:: electric/_sources/electric-sch-01c.png
-   :width: 302px
-
-
-**Fallo de un componente:**
-
-En caso de que quitemos una lámpara o en caso de que esta falle,
-las demás lámparas seguirán funcionando:
- 
-.. image:: electric/_sources/electric-sch-01d.png
-   :width: 302px
-
-Las lámparas y otros componentes comunes de una casa están conectados 
-en paralelo. De esta forma el fallo de un componente no hace fallar 
-a los demás. Si quitamos una bombilla de casa, las demás bombillas 
-seguirán funcionando.
+  Si quitamos una de las bombillas de un circuito conectado en paralelo, 
+  o si ésta falla, las demás bombillas seguirán funcionando.
+   
+  .. image:: electric/_sources/electric-sch-01d.png
+     :width: 302px
+     :alt: Circuito en paralelo con fallo en un componente.
+  
+  Las bombillas y otros componentes comunes de una casa están conectados 
+  en paralelo. De esta forma, el fallo de un componente no impide 
+  funcionar a los demás. 
+  Si quitamos una bombilla de casa, las demás bombillas seguirán 
+  funcionando.
 
 
 Cortocircuito
 -------------
-Un cortocircuito es la unión con un cable de dos patillas de un 
-mismo componente. Cuando un componente está en cortocircuito, no
-puede funcionar. Si una pila o generador está en cortocircuito,
-toda la corriente que genera pasará por el cable y uno de los dos
-se quemará.
+Un cortocircuito es la unión de los dos terminales de un mismo componente
+con un cable.
+Cuando un componente está en cortocircuito, no puede funcionar porque
+toda la corriente se desviará por el cable.
+Si una pila o generador está en cortocircuito, toda la corriente que 
+genera pasará por el cable y el generador o el cable se quemarán.
+
 
 **Cortocircuito en un componente:**
 
-En el siguiente esquema hay un cortocircuito en la primera 
-lámpara. El cable llevará toda la corriente de manera 
-que la lampara 1 dejará de funcionar y la lámpara 2 se iluminará
-mucho más que si estuviera en serie.
-
-.. image:: electric/_sources/electric-sch-02a.png
-   :width: 236px
+  En el siguiente esquema hay un cortocircuito en la primera 
+  bombilla. El cable llevará toda la corriente de manera 
+  que la bombilla de arriba L1 dejará de funcionar y la bombilla de abajo 
+  L2 se iluminará mucho más que si estuviera en serie.
+  
+  .. image:: electric/_sources/electric-sch-02a.png
+     :width: 210px
+     :alt: Circuito en serie.
    
-.. image:: electric/_sources/electric-sch-03a.png
-   :width: 236px
-
-En la siguiente imagen se puede ver el camino de la electricidad:
-
-.. image:: electric/_sources/electric-sch-03b.png
-   :width: 236px
-
-
+  .. image:: electric/_sources/electric-sch-03a.png
+     :width: 236px
+     :alt: Circuito en serie con cortocircuito en un componente.
+  
+  En la siguiente imagen se puede ver el camino de la electricidad.
+  Vemos cómo el cable es el camino preferido, de menor resistencia, 
+  de la corriente electrica.
+  Por lo tanto toda la corriente eléctrica que antes pasaba por la 
+  bombilla L1 ahora pasa a través del cortocircuito.
+  
+  .. image:: electric/_sources/electric-sch-03b.png
+     :width: 236px
+     :alt: Camino de la corriente en un cortocircuito de componente.
+  
+  
 **Cortocircuito en la pila:**
 
-En este esquema hay un cortocircuito entre los terminales de la
-pila. Esto significa que toda la corriente de la pila pasará por
-el cable y uno de los dos se quemará. Las lámparas se apagan
-porque no les llega corriente.
+  En este esquema hay un cortocircuito entre los terminales de la
+  pila. Esto significa que toda la corriente de la pila pasará por
+  el cable y uno de los dos se quemará. 
+  
+  Las bombillas no se encienden porque no les llega corriente eléctrica.
+  
+  Esquema del cortocircuito de pila y camino de la corriente.
+  
+  .. image:: electric/_sources/electric-sch-03c.png
+     :width: 236px
+     :alt: Cortocircuito de pila.
+ 
+  .. image:: electric/_sources/electric-sch-03d.png
+     :width: 236px
+     :alt: Cortocircuito de pila. Camino de la corriente.
 
-Esquema del cortocircuito y camino de la corriente:
 
-.. image:: electric/_sources/electric-sch-03c.png
-   :width: 236px
+.. note::
+   No repitas este experimento bajo ninguna circunstancia,
+   es muy peligroso.
 
-.. image:: electric/_sources/electric-sch-03d.png
-   :width: 236px
+   `Batería de litio explota debido a un cortocircuito provocado
+   <https://www.youtube.com/embed/WpvTHSF9xNY>`__.
 
-
+   
 Circuito abierto
 ----------------
 Un circuito abierto es un circuito que no tiene camino para que
@@ -190,9 +225,11 @@ tensión negativa de la pila.
 
 .. image:: electric/_sources/electric-sch-04a.png
    :width: 246px
-
+   :alt: Circuito abierto.
+ 
 .. image:: electric/_sources/electric-sch-04b.png
    :width: 246px
+   :alt: Circuito abierto.
 
 Es lo primero que hay que comprobar cuando un aparato eléctrico no 
 funciona ¿Está conectado?
@@ -206,6 +243,7 @@ con cortocircuito en la pila.
 
 .. image:: electric/_images/electric-serie-paralelo-logo.png
    :width: 540px
+   :alt: Circuitos en serie, en paralelo y en cortocircuito.
    :target: ../_downloads/electric-serie-paralelo.pdf
 
 |  :download:`Identificar circuitos en serie, paralelo y
