@@ -2,15 +2,13 @@
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
 
-
 .. _dibujo-recursos:
-
 
 Recursos de dibujo técnico
 ==========================
 
-www.educacionplastica.net
--------------------------
+Página web educacionplastica.net
+--------------------------------
 
 * `Ejercicios de vistas. Nivel básico.
   <http://www.educacionplastica.net/3dcube_model/vistas_3d_2x2.html>`_

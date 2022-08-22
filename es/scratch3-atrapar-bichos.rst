@@ -125,32 +125,32 @@ de ello.
 
 
 #. Por último vamos a programar un personaje que avise del final
-   del juego. En este caso escogemos a Cassy bailando.
+   del juego. En este caso podemos escoger a Casey.
 
    Pulsamos el botón elige un objeto |seleccionar-objeto|.
 
    Buscamos en la sección **Gente**.
 
-   y seleccionamos el objeto **Cassy Dance**.
+   y seleccionamos el objeto **Casey**.
 
-   .. image:: scratch3/_images/scratch3-objeto-cassy.png
+   .. image:: scratch3/_images/scratch3-objeto-casey.png
 
    |br|
 
 #. Seleccionamos el nuevo personaje 
 
-   .. image:: scratch3/_images/scratch3-p06-selecciona-cassy.png
+   .. image:: scratch3/_images/scratch3-p06-selecciona-casey.png
    
    y añadimos las siguientes instrucciones.
 
-   .. image:: scratch3/_images/scratch3-p06-cassy-01.png
-      :width: 353px
+   .. image:: scratch3/_images/scratch3-p06-casey-01.png
+      :width: 393px
 
 
 #. Pulsamos la bandera verde |bandera-verde|
    para probar el funcionamiento del programa.
 
-   Ahora, al finalizar el programa, aparecerá Cassy bailando
+   Ahora, al finalizar el programa, aparecerá Casey bailando
    para felicitarnos por haber ganado.
 
    |br|

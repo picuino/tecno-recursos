@@ -24,7 +24,7 @@ Circuito eléctrico completo
 ---------------------------
 
 .. image:: electric/_images/electric-pcb-luces-led-02.png
-   :width: 640px
+   :width: 480px
    :align: center
    :alt: Circuito eléctrico.
    :target: ../_downloads/electric-pcb-luces-led.pdf
@@ -56,7 +56,7 @@ dos líneas horizontales es la que tiene el inversor en su interior e
 indica que trabaja con histéresis.
 
 .. image:: electric/_sources/electric-schmitt-histeresis.png
-   :width: 400px
+   :width: 340px
    :align: center
    :alt: Histéresis del circuito inversor Schmitt.
 
@@ -83,6 +83,11 @@ de la resistencia. Cuanto mayores sean, más tiempo tardará en oscilar el
 circuito. La fórmula aproximada del tiempo de oscilación es:
 
    Tiempo de oscilación = 0,8·R3·C1  = 0,8 · 220000 · 0,000010 = 1,76 segundos
+
+.. image:: electric/_images/electric-pcb-luces-led-02.png
+   :width: 640px
+   :align: center
+   :alt: Circuito eléctrico.
 
 El led D1 conectado a la salida del oscilador mediante una resistencia
 limitadora R1, se encenderá y apagará a la misma velocidad que el oscilador.
@@ -145,8 +150,8 @@ Los archivos gerber y de taladrado se reparten como indica a continuación:
 **Pistas de cobre:**
    Son los conductores que conectan entre sí todos los componentes de la
    placa de circuito impreso. Aparecen en el dibujo con color amarillo 
-   (sin máscara de soldadura) o de color verde claro (ya cubiertos de máscara
-   de soldadura.
+   (sin máscara de soldadura) o de color verde claro (ya cubiertos de 
+   máscara de soldadura).
    
 **Máscara de soldadura:**
    Es una capa de pintura, normalmente de color verde aunque puede tener otros
@@ -164,12 +169,13 @@ Los archivos gerber y de taladrado se reparten como indica a continuación:
 Listado de componentes (BOM)
 ----------------------------
 El listado de componentes (llamado también BOM o Bill Of Materials) es un 
-listado donde aparecen todos los componentes del circuito con su número
-y referencia para poder comprarlos antes de realizar el montaje.
+listado donde aparecen todos los componentes del circuito impreso con su 
+cantidad y su referencia para poder obtenerlos antes de realizar el 
+montaje.
 
 La lista de componentes puede tener también la referencia de compra de un
-distribuidor de componentes electrónicos. En este caso se han añadido las
-referencias del distribuidor `TME <https://www.tme.eu/es/>`_.
+distribuidor de componentes electrónicos. En el siguiente documento se han 
+añadido las referencias del distribuidor `TME <https://www.tme.eu/es/>`_.
 
 :download:`Listado de componentes de la placa con luces led. Formato PDF.
 <electric/pcb-luces-led/bom/electric-pcb-luces-led-bom.pdf>`
@@ -194,15 +200,15 @@ El orden y posición de montaje son las siguientes:
 
 **1. Resistencias**:
 
-   No necesitan ningún órden en particular para funcionar correctamente, 
+   No necesitan ningún orden en particular para funcionar correctamente, 
    pero el código de colores resulta más elegante y más sencillo de leer 
    cuando todas las bandas de oro están alineadas a la derecha 
    (resistencias horizontales) o hacia arriba (resistencias verticales) 
-   según se mira la placa como en la imagen del inicio de esta unidad.
+   como en la imagen del inicio de esta unidad.
 
 **2. Interruptor de encendido SW1**:
 
-   Habrá que montarlo de forma que la palanca del interruptor esté hacia
+   Habrá que montarlo de forma que la palanca del interruptor se sitúe
    fuera del circuito impreso para que resulte sencillo accionar el 
    interruptor.
 
@@ -260,6 +266,19 @@ El orden y posición de montaje son las siguientes:
 
 Soldadura
 ---------
+
+.. note::
+   La soldadura se realiza aportando material que está compuesto de estaño 
+   y **plomo**, por lo que es necesario seguir algunos procedimientos de 
+   seguridad.
+   
+   Es importante utilizar guantes o **lavarse las manos** correctamente 
+   después de manipular el hilo de estaño-plomo.
+   
+   Durante la soldadura se producen **gases tóxicos** provenientes del
+   flux antioxidante. Estos gases no deben ser inhalados.
+   Se debe soldar en un local bien ventilado con las ventanas abiertas.
+
 
 La técnica de soldadura es relativamente sencilla, pero no viene mal tener
 antes de comenzar unos conceptos claros sobre cómo realizarla correctamente.

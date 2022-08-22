@@ -14,7 +14,7 @@ Tutoriales Code
 
 
 Code.org es una página que dispone de múltiples tutoriales para
-aprender a programar, desde un nivel de preescolar, hasta los
+aprender a programar, desde un nivel preescolar, hasta los
 últimos cursos de secundaria.
 Los cursos y tutoriales presentan problemas que se deben resolver
 programando con bloques la solución.
@@ -27,8 +27,9 @@ programando con bloques la solución.
    :align: center
 
 La web permite realizar los ejercicios sin registrarse.
-En el caso de registrarse, solo pide un e-mail que no tiene que
-ser real y almacenará los resultados de una sesión a otra.
+En el caso de querer registrarse, la página solo pide un e-mail,
+que no tiene que ser real, y se almacenarán los resultados de una 
+sesión a otra.
 
 
 Cursos Code
@@ -86,7 +87,8 @@ etapas tiene un tiempo aproximado de realización de 40 minutos.
 
 Hora del código
 ---------------
-Hora del código son pequeños tutoriales temáticos que se pueden
+
+*Hora del código* son pequeños tutoriales temáticos que se pueden
 realizar en menos de una hora.
 
 .. list-table::

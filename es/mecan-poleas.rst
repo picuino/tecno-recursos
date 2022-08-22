@@ -47,7 +47,7 @@ Uniendo varias poleas se puede formar un polipasto, que levantará pesos
 con ventaja mecánica, es decir que podrá levantar más peso que la fuerza
 aplicada sobre la cuerda.
 
-Para calcular fuerza necesaria para levantar el peso, hay que dividir
+Para calcular la fuerza necesaria para levantar el peso, hay que dividir
 el peso entre el número de tramos de cuerda que están tirando del peso 
 hacia arriba.
 

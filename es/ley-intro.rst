@@ -34,10 +34,10 @@ Legislación estatal
 
 * `Orden EDU/3138/2011, Temarios de Secundaria
   <https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-18099>`__
-   
-     Orden EDU/3138/2011, de 15 de noviembre, por la que se aprueban 
-     los temarios que han de regir en los procedimientos de ingreso, 
-     accesos y adquisición de nuevas especialidades de los Cuerpos de 
+
+     Orden EDU/3138/2011, de 15 de noviembre, por la que se aprueban
+     los temarios que han de regir en los procedimientos de ingreso,
+     accesos y adquisición de nuevas especialidades de los Cuerpos de
      Profesores de Enseñanza Secundaria y Profesores Técnicos de
      Formación Profesional.
 
@@ -69,12 +69,12 @@ Otra legislación estatal
   Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad
   educativa.
 
-* `Real Decreto 270/2022, 
+* `Real Decreto 270/2022,
   <https://www.boe.es/eli/es/rd/2022/04/12/270>`__
-  de 12 de abril, por el que se modifica el Reglamento de ingreso, 
-  accesos y adquisición de nuevas especialidades en los cuerpos docentes 
-  a que se refiere la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y 
-  se regula el régimen transitorio de ingreso a que se refiere la 
-  disposición transitoria decimoséptima de la citada ley, aprobado por 
+  de 12 de abril, por el que se modifica el Reglamento de ingreso,
+  accesos y adquisición de nuevas especialidades en los cuerpos docentes
+  a que se refiere la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y
+  se regula el régimen transitorio de ingreso a que se refiere la
+  disposición transitoria decimoséptima de la citada ley, aprobado por
   Real Decreto 276/2007, de 23 de febrero.
 

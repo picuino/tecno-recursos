@@ -79,7 +79,7 @@ de los esquemas eléctricos que aparecen en las fichas de ejercicios.
 Simuladores
 -----------
 
-* `Simulador de circuitos eléctricos online.
+* `Simulador de circuitos eléctricos online en inglés.
   <https://www.falstad.com/circuit/>`_
 
   | Electronic Circuit Simulator in the Browser
@@ -88,12 +88,10 @@ Simuladores
   | `GitHub <https://github.com/sharpie7/circuitjs1>`__
 
 
-* `BrainBox Simulator
-  <https://freegroup.github.io/brainbox/circuit/>`_
+* BrainBox Simulator. Simulador de circuitos digitales
+  enfocado a la enseñanza, en inglés. Permite a cualquier
+  persona hacer conexiones gráficas entre circuitos en cualquier
+  navegador web.
 
-  | Teaching-focused digital circuit simulator.
-    Allows anyone to graphically connect objects within
-    a awesome web-browser application without knowing
-    coding or hacking.
   | Creador: Andreas Herz
   | `GitHub <https://github.com/freegroup/brainbox>`__

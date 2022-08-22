@@ -103,26 +103,26 @@ de ello.
 
 
 #. Por último vamos a programar un personaje que avise del final
-   del juego. En este caso escogemos a Cassy bailando.
+   del juego. En este caso podemos escoger a Casey.
 
-   {{ scratch.objeto('Cassy Dance', 
+   {{ scratch.objeto('Casey', 
                      section='Gente',
-                     image='scratch3-objeto-cassy.png') }}
+                     image='scratch3-objeto-casey.png') }}
 
    |br|
 
 #. Seleccionamos el nuevo personaje 
 
-   .. image:: scratch3/_images/scratch3-p06-selecciona-cassy.png
+   .. image:: scratch3/_images/scratch3-p06-selecciona-casey.png
    
    y añadimos las siguientes instrucciones.
 
-   {{ scratch.resize('scratch3-p06-cassy-01.png') }}
+   {{ scratch.resize('scratch3-p06-casey-01.png') }}
 
 
 #. {{ scratch.probar_programa() }}
 
-   Ahora, al finalizar el programa, aparecerá Cassy bailando
+   Ahora, al finalizar el programa, aparecerá Casey bailando
    para felicitarnos por haber ganado.
 
    |br|
