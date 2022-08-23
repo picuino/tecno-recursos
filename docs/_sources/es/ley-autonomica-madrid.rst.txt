@@ -30,12 +30,6 @@ Comunidad de Madrid. <https://www.comunidad.madrid/servicios/educacion/disposici
    Formación Profesional, así como en las enseñanzas de personas adultas
    que conduzcan a la obtención de los títulos de Graduado en Educación
    Secundaria Obligatoria y de Bachiller.
-   
-   
-   .. note::
-
-     El desarrollo autonómico de la LOMLOE, en concreto el decreto de
-     enseñanzas mínimas para la ESO, se encuentra pendiente de publicación.
 
 * `Regulación de la Orientación educativa y las Necesidades educativas especiales
   <https://www.comunidad.madrid/servicios/educacion/regulacion-orientacion-educativa-necesidades-educativas-especiales>`__
@@ -88,10 +82,16 @@ Comunidad de Madrid. <https://www.comunidad.madrid/servicios/educacion/disposici
     Comunidad de Madrid.
 
 
-Currículo Secundaria
---------------------
-:download:`Proyecto de Currículo para la ESO según LOMLOE 
-en la Comunidad de Madrid <ley/Curriculo-ESO-Madrid-borrador.pdf>`
+Currículo de Secundaria
+-----------------------
 
-:download:`Proyecto de Currículo para Bachillerato según LOMLOE 
-en la Comunidad de Madrid <ley/Curriculo-Bachillerato-Madrid-borrador.pdf>`
+* `DECRETO 65/2022
+  <https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/26/BOCM-20220726-2.PDF>`__
+  de 20 de julio, del Consejo de Gobierno, por el que se establecen para la
+  Comunidad de Madrid la ordenación y el currículo de la Educación
+  Secundaria Obligatoria.
+
+* `DECRETO 64/2022
+  <https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/26/BOCM-20220726-1.PDF>`__
+  de 20 de julio, del Consejo de Gobierno, por el que se establecen para
+  la Comunidad de Madrid la ordenación y el currículo del Bachillerato.

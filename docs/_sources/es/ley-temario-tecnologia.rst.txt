@@ -7,9 +7,9 @@
 
 Temario de Tecnología
 =====================
-Temario que ha de regir en los procedimientos de ingreso, accesos y 
-adquisición de nuevas especialidades de los Cuerpos de Profesores de 
-Enseñanza Secundaria, en la especialidad de Tecnología según 
+Temario que ha de regir en los **procedimientos de ingreso**, accesos y 
+adquisición de nuevas especialidades de los **Cuerpos de Profesores** de 
+Enseñanza Secundaria, en la **especialidad de Tecnología** según 
 `Orden EDU/3138/2011, Temarios de Secundaria
 <https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-18099>`__
 

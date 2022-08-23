@@ -13,17 +13,17 @@ detallando sus tareas y decisiones.
 Su finalidad es expresar de manera simple y visual lo que ocurre en
 un proceso o en un programa, de manera que sea fácil de comprender.
 
-Los diagramas de flujo se dibujan al comienzo de un proyecto para
-que el programador comprenda mejor lo que quiere hacer, antes de
-comenzar a escribir el programa de ordenador.
+Los diagramas de flujo se pueden presentar al programador para que 
+éste comprenda mejor lo que el cliente quiere realizar. Posteriormente
+el programador desarrolla el programa basándose en los diagramas de flujo.
 
 También se dibujan diagramas de flujo para documentar un programa
-de ordenador una vez terminado, para comunicar a los demás lo que
-hace el programa de una manera visual y comprensible.
+de ordenador una vez terminado, para comunicar lo que hace el programa
+de una manera visual y comprensible.
 
 Los diagramas de flujo no se limitan a representar el funcionamiento
-de los programas, también pueden informarnos a las personas de
-las tareas que debemos realizar en una situación determinada.
+de los programas, también pueden informarnos de las tareas que debemos
+realizar en una situación determinada.
 
 Este es el aspecto que tiene un diagrama de flujo:
 
@@ -96,7 +96,8 @@ que la condición se cumpla o que no se cumpla.
 Todos los símbolos deben ir enlazados entre sí por flechas que
 indican cómo se realiza la secuencia.
 Las flechas indican el camino o flujo que sigue el ordenador desde
-el comienzo hasta la finalización, a través de todas las tareas.
+el comienzo hasta la finalización del programa, a través de todas las 
+tareas.
 
 .. figure:: prog/_images/flowchart-flecha.png
    :align: center
@@ -107,13 +108,13 @@ el comienzo hasta la finalización, a través de todas las tareas.
 **Conectores de flechas**
 
 Cuando las dos tareas a unir están demasiado lejos o cuando
-resulta confuso cruzar muchas flechas, entonces se utiliza un
-circulo con un número, para indicar el comienzo y el final de
-la flecha.
+resulta confuso cruzar muchas flechas, entonces se utilizan 
+dos círculos con un mismo número, para indicar el comienzo y 
+el final de la flecha:
 
 Cada flecha debe tener un número diferente, de forma que
-debe haber solo 2 círculos con un mismo número. Un círculo de
-comienzo y otro de finalización
+debe haber solo 2 círculos con un mismo número: un círculo de
+comienzo y otro de finalización.
 
 .. figure:: prog/_images/flowchart-conector.png
    :align: center
@@ -128,7 +129,7 @@ Con ellos se pueden representar todos los diagramas con los que
 vamos a trabajar.
 También existen otros símbolos especializados que permiten
 representar tareas con más detalle, pero utilizarlos solo
-complicaría más los diagramas de manera que no se usarán.
+complicaría más los diagramas, de manera que no los usaremos.
 
 
 Diagramas de ejemplo
@@ -165,7 +166,7 @@ y se desvía dependiendo de las condiciones que se cumplan.
 Ejercicios
 ----------
 
-#. Dibuja un diagrama de flujo que describa las tareas más
+1. Dibuja un diagrama de flujo que describa las tareas más
    importantes que tienes que realizar por las mañanas desde que te
    despiertas hasta que llegas al instituto. Debe haber entre 5 y
    8 tareas.
@@ -180,23 +181,30 @@ Ejercicios
    lámpara. Primero debes comprobar si hay luz en la casa.
    Después comprobarás si la lámpara está conectada.
    Por último comprobarás que la bombilla no está fundida.
-   Si ninguna solución funciona, llamarás al servicio de reparación.
+   Se debe dar solución a cada una de las situaciones anteriores.
+   Si no se da ninguna de las situaciones anteriores, llamarás al servicio 
+   de reparación.
 
 #. Dibuja un diagrama de flujo que describa un método para ordenar
-   cartas.
+   cartas numeradas, de menor a mayor.
+   
    Hay dos montones de cartas, uno desordenado y otro ordenado.
    Primero hay que tomar una carta del montón desordenado.
-   A continuación se compara con la primera carta del montón
+   A continuación, se compara con la primera carta del montón
    ordenado.
    Si la nueva carta es más pequeña, se coloca sobre el montón 
-   ordenado. Si la nueva carta es mayor que la primera carta ordenada, 
+   ordenado. 
+   
+   Si la nueva carta es mayor que la primera carta ordenada, 
    buscamos la siguiente carta del montón ordenado y volvemos a 
-   comparar qué carta es mayor.
+   comparar qué carta es mayor. Repetimos esto hasta que la nueva
+   carta esté colocada en su sitio.
 
-   Una vez colocada la nueva carta, volvemos a buscar otra carta del
+   Una vez colocada la nueva carta, volvemos a tomar otra carta del
    montón desordenado.
-   Cuando el montón de cartas desordenado no tenga más cartas,
-   el programa termina.
+   
+   Cuando se termine el montón de cartas desordenadas, el programa 
+   termina.
 
 #. Dibuja un diagrama de flujo con ayuda del ordenador y con el
    programa Libre Office Draw. En la siguiente sección puedes

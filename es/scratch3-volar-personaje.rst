@@ -44,7 +44,7 @@ sobre un escenario de edificios que se mueven en el fondo.
 
    |br|
 
-#. Añadimos un nuevo personaje, un **gato volador**.
+#. Añadimos un nuevo objeto, un **gato volador**.
 
    Pulsamos el botón elige un objeto |seleccionar-objeto|.
 
@@ -91,7 +91,7 @@ sobre un escenario de edificios que se mueven en el fondo.
    |br|
 
 
-#. Ahora Añadimos un nuevo personaje, un **edificio**.
+#. Ahora Añadimos un nuevo objeto, un **edificio**.
 
    Pulsamos el botón elige un objeto |seleccionar-objeto|.
 

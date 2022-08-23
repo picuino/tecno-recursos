@@ -26,6 +26,7 @@ Clasificación
 -------------
 
 Conexiones internas
+  * Buses de placa base
   * SATA
   * PCI Express
   * Zócalo para DIMM
@@ -54,6 +55,20 @@ Conexiones inalámbricas
 Conexiones internas
 -------------------
 .. glossary::
+
+   Buses de placa base
+      Son las pistas del circuito impreso que llevan los datos entre
+      la CPU y el resto de los dispositivos conectados a la placa base.
+      
+      .. figure:: informatica/_images/informatica-motherboard-bus.jpg
+         :align: center
+         :width: 480px
+
+         Bus de placa base.
+
+         `Chrihern
+         <https://commons.wikimedia.org/wiki/File:Motherboard_bus.jpg>`__,
+         via Wikimedia Commons.
 
    SATA
       `Serial ATA <https://es.wikipedia.org/wiki/Serial_ATA>`__

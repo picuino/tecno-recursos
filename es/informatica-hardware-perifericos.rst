@@ -8,9 +8,6 @@
 Periféricos
 ===========
 
-.. note::
-   PÁGINA EN CONSTRUCCIÓN
-   
 Los periféricos son dispositivos que permiten que la información entre y
 salga de un ordenador.
 
@@ -358,7 +355,9 @@ se muestre al exterior.
    Impresora
       La `impresora
       <https://es.wikipedia.org/wiki/Impresora>`__
-
+      es un periférico de salida que permite imprimir textos y 
+      gráficos en papel de manera permanente.
+      
       .. figure:: informatica/_images/informatica-impresora.jpg
          :align: center
          :width: 340px
@@ -370,10 +369,22 @@ se muestre al exterior.
          `CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/deed.en>`__,
          via Wikimedia Commons.
 
+      Las tres tecnologías más usuales son la tecnología 
+      `láser con tóner <https://es.wikipedia.org/wiki/Impresora#T%C3%B3ner>`__
+      la tecnología de `inyección de tinta
+      <https://es.wikipedia.org/wiki/Impresora#Inyecci%C3%B3n_de_tinta>`__
+      y la tecnología `térmica
+      <https://es.wikipedia.org/wiki/Impresora_t%C3%A9rmica>`__ 
+      utilizada para imprimir los tícket de compra. 
+      
    DAC
       El `DAC
-      <https://es.wikipedia.org/wiki/Conversi%C3%B3n_digital-anal%C3%B3gica#Conversor_Digital-Anal%C3%B3gico_(CDA)>`__
-
+      <https://www.culturasonora.es/hifi/que-es-un-dac/>`__
+      o conversor digital a analógico es un periférico de salida que 
+      permite convertir los archivos digitales del ordenador en música
+      analógica con alta fidelidad, mayor que una simple tarjeta de sonido
+      de ordenador.
+      
       .. figure:: informatica/_images/informatica-dac.jpg
          :align: center
          :width: 340px
@@ -389,7 +400,10 @@ se muestre al exterior.
    Altavoces
       Los `altavoces
       <https://es.wikipedia.org/wiki/Altavoz>`__
-
+      para ordenador van acompañados normalmente de un amplificador de 
+      sonido para aumentar el nivel de la señal de salida del ordenador
+      y producir sonidos de alto volumen.
+      
       .. figure:: informatica/_images/informatica-altavoces.jpg
          :align: center
          :width: 340px
@@ -401,10 +415,21 @@ se muestre al exterior.
          Public Domain,
          via Wikimedia Commons.
 
+      Normalmente se utilizan sistemas estéreo (de dos altavoces, uno 
+      derecho y otro izquierdo), pero también se pueden utilizar sistemas
+      de `sonido envolvente 5.1 
+      <https://es.wikipedia.org/wiki/Sonido_envolvente_5.1>`__
+      si el archivo original de audio/video y la tarjeta de sonido lo 
+      permiten.
 
    Pilotos luminosos (LED)
       Los pilotos luminosos `LED
       <https://es.wikipedia.org/wiki/Led>`__
+      son pequeñas luces informan de estados del ordenador.
+      Las cajas de ordenador y los teclados suelen tener pilotos led
+      para avisar de que el ordenador está encendido, el disco duro está
+      funcionando, se está produciendo la carga de la batería o que
+      se ha activado el teclado numérico.
 
       .. figure:: informatica/_images/informatica-ledes.jpg
          :align: center
@@ -419,7 +444,10 @@ se muestre al exterior.
 
 
    Vibración
-      El motor de vibración.
+      El motor de vibración se utiliza en los smartphones para indicar
+      un evento de forma silenciosa. De esta forma el motor puede 
+      informar de una llamada entrante o que ha llegado un nuevo 
+      mensaje con un nivel de ruido muy bajo.
 
       .. figure:: informatica/_images/informatica-vibrador.jpg
          :align: center
@@ -435,13 +463,16 @@ se muestre al exterior.
 
    Línea braille
       La `línea braille
-      <https://es.wikipedia.org/wiki/L%C3%ADnea_braille>`__
-
+      <https://es.wikipedia.org/wiki/Dispositivo_Braille>`__
+      es un periférico de salida que transforma texto del ordenador 
+      en una serie de puntos braille para que las personas con discapacidad
+      visual puedan leer en ella.
+      
       .. figure:: informatica/_images/informatica-linea-braille.jpg
          :align: center
          :width: 340px
 
-         Línea de braille.
+         Dispositivo de braille.
 
          `Ixitixel
          <https://commons.wikimedia.org/wiki/File:Refreshable_Braille_display.jpg>`__,
@@ -460,6 +491,13 @@ la entrada como la salida de datos del ordenador.
    Pantalla táctil
       La `pantalla táctil
       <https://es.wikipedia.org/wiki/Pantalla_t%C3%A1ctil>`__
+      es una pantalla informática que tiene detectores que permiten 
+      conocer la posición del dedo cuando toca o cuando se desplaza sobre 
+      su superficie. 
+      Esto hace que la pantalla sea interactiva y permita tanto la salida
+      como la entrada de datos.
+      
+      Con la pantalla táctil se pueden dar órdenes al dispositivo.
 
       .. figure:: informatica/_images/informatica-pantalla-tactil.jpg
          :align: center
@@ -476,7 +514,10 @@ la entrada como la salida de datos del ordenador.
    Impresora multifunción
       La `impresora multifunción
       <https://es.wikipedia.org/wiki/Impresora_multifunci%C3%B3n>`__
-
+      es una combinación de impresora con escáner, por lo que tiene entrada
+      y salida de datos. Estas dos funciones le permiten actuar como una
+      fotocopiadora o incluso como un fax.      
+      
       .. figure:: informatica/_images/informatica-impresora-multifuncion.jpg
          :align: center
          :width: 340px
@@ -492,6 +533,17 @@ la entrada como la salida de datos del ordenador.
    Casco de realidad virtual
       El `casco de realidad virtual
       <https://es.wikipedia.org/wiki/Casco_de_realidad_virtual>`__
+      también llamado gafas de realidad virtual, es un dispositivo
+      que permite reproducir imágenes creadas por ordenador sobre
+      una pantalla muy cercana a los ojos, por lo que las imágenes parecen
+      mucho mayores que las de las pantallas normales. 
+      También se reproduce sonido estéreo por los cascos.
+      
+      El casco de realidad virtual tiene sensores de posición y movimiento 
+      que permiten conocer dónde mira la cabeza, para acompasar estos
+      movimientos a las imágenes presentadas, de manera que al usuario le
+      parece que se encuentra inmerso en la realidad virtual que presenta
+      el dispositivo.
 
       .. figure:: informatica/_images/informatica-casco-vr.jpg
          :align: center
