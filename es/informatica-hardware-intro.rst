@@ -9,7 +9,7 @@ Introducción al :index:`hardware`
 =================================
 El `hardware <https://es.wikipedia.org/wiki/Hardware>`__
 (pronunciado jard.wer)
-se refiere a las partes físicas de un sistema informático.
+es el conjunto de las partes físicas de un sistema informático.
 Son los componentes eléctricos, electrónicos y mecánicos​ de un ordenador
 tales como cables, cajas, periféricos, etc.
 
@@ -73,11 +73,11 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
       inteligencia.
       Estos pequeños controladores añadidos a los objetos cotidianos
       y conectados a internet es lo que se denomina `Internet de las cosas
-      <https://es.wikipedia.org/wiki/Internet_de_las_cosas>`__.
+      <https://es.wikipedia.org/wiki/Internet_de_las_cosas>`__ o IoT.
 
       Uno de los controladores para uso doméstico y de entretenimiento más
       conocido es la placa
-      `Arduino UNO <https://es.wikipedia.org/wiki/Arduino_Uno>`__
+      `Arduino UNO <https://es.wikipedia.org/wiki/Arduino_Uno>`__,
       con arquitectura de 8 bits y 32kbytes de memoria RAM.
 
       .. figure:: arduprog/_images/img-0098b.jpg
@@ -91,7 +91,8 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
       Un wearable o `tecnología vestible
       <https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_vestible>`__
       es un pequeño ordenador incorporado a prendas de vestir.
-      Incluyen relojes inteligentes (smartwatch), gafas inteligentes, etc.
+      Incluye a los relojes inteligentes o smartwatch, gafas inteligentes, 
+      etc.
 
       Esta tecnología puede ser utilizada para monitorizar la salud
       de los usuarios.
@@ -111,7 +112,7 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
       Los `ordenadores de una sola placa
       <https://es.wikipedia.org/wiki/Placa_computadora>`__
       son ordenadores completos en una sola placa de circuito impreso
-      de tamaño reducido que incluye CPU, RAM, periféricos, conectores
+      de tamaño reducido que incluye una CPU, RAM, periféricos, conectores
       y demás componentes típicos de un ordenador.
 
       Uno de los SBC de bajo costo más conocidos es la placa
