@@ -27,7 +27,7 @@
   <link rel="index" title="Índice" href="../genindex.html" />
   <link rel="search" title="Búsqueda" href="../search.html" />
   <link rel="next" title="Placa base" href="informatica-hardware-placabase.html" />
-  <link rel="prev" title="Introducción al hardware" href="informatica-hardware-intro.html" />
+  <link rel="prev" title="Ley de Moore" href="informatica-hardware-ley-moore.html" />
 
 </head>
 
@@ -99,8 +99,11 @@
             
   <div class="section" id="procesadores">
 <h1>Procesadores<a class="headerlink" href="#procesadores" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>Los procesadores son los cerebros de los ordenadores, los componentes
-que realizan las operaciones dictadas por los programas.</p>
+<p>Los procesadores son el &quot;cerebro&quot; de los ordenadores, los componentes
+que realizan las operaciones dictadas por los programas o aplicaciones.</p>
+<p>Los tipos de procesadores más habituales son la CPU y la GPU, aunque
+hay algunos más que se estudiarán a continuación como la TPU, el DSP,
+los microcontroladores o la FPGA.</p>
 <div class="contents local topic" id="indice-de-contenidos">
 <p class="topic-title">Índice de contenidos</p>
 <ul class="simple">
@@ -116,9 +119,9 @@ que realizan las operaciones dictadas por los programas.</p>
 </div>
 <div class="section" id="unidad-central-de-proceso-cpu">
 <h2><a class="toc-backref" href="#id3">Unidad Central de Proceso (<span class="target" id="index-0"></span>CPU)</a><a class="headerlink" href="#unidad-central-de-proceso-cpu" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Una <a class="reference external" href="https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento" rel="noopener noreferrer" target="_blank">CPU o unidad central de procesamiento</a>
-también llamado microprocesador, es un componente de un ordenador dedicado
-a interpretar las instrucciones de los programas informáticos.
+<p>Una <a class="reference external" href="https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento" rel="noopener noreferrer" target="_blank">CPU, unidad central de procesamiento</a>
+también llamado <strong>microprocesador</strong>, es un componente de un ordenador
+dedicado a interpretar las instrucciones de los programas informáticos.
 Pueden realizar operaciones lógicas, aritméticas y de movimiento de datos.</p>
 <p>Es el componente más complejo de un ordenador.
 Una CPU de ordenador personal, en 2022, tiene
@@ -165,8 +168,8 @@ Public Domain, via Wikimedia Commons.</div>
 <div class="section" id="unidad-de-procesamiento-tensorial-tpu">
 <h2><a class="toc-backref" href="#id5">Unidad de procesamiento tensorial (<span class="target" id="index-3"></span>TPU)</a><a class="headerlink" href="#unidad-de-procesamiento-tensorial-tpu" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Una <a class="reference external" href="https://es.wikipedia.org/wiki/Unidad_de_procesamiento_tensorial" rel="noopener noreferrer" target="_blank">TPU o unidad de procesamiento tensorial</a>
-es una unidad central de proceso dedicada a cálculo intensivo de
-operaciones de redes neuronales, usadas en Inteligencia Artificial.</p>
+es un procesador dedicado a cálculo intensivo de operaciones de
+redes neuronales, usadas en Inteligencia Artificial.</p>
 <p>El término TPU se utiliza por Google para un circuito inventado por la
 empresa, pero cada vez más circuitos incorporan capacidades semejantes
 para el cálculo de redes neuronales.</p>
@@ -189,7 +192,7 @@ proceso de señales.</p>
 </div>
 <div class="section" id="microcontroladores">
 <h2><a class="toc-backref" href="#id7"><span class="target" id="index-5"></span>Microcontroladores</a><a class="headerlink" href="#microcontroladores" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Un microcontrolador es un pequeño ordenador dentro de un solo chip.
+<p>Un microcontrolador es un pequeño ordenador contenido en un solo chip.
 Incorpora la CPU, la memoria RAM, memoria Flash ROM y periféricos de
 entrada/salida en un espacio pequeño y a bajo precio.</p>
 <p>Estos procesadores se utilizan para controlar periféricos tales como
@@ -201,35 +204,38 @@ y recursos si tuviera que administrarlas la CPU.</p>
 <div class="section" id="fpga">
 <h2><a class="toc-backref" href="#id8"><span class="target" id="index-6"></span>FPGA</a><a class="headerlink" href="#fpga" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Una <a class="reference external" href="https://es.wikipedia.org/wiki/Field-programmable_gate_array" rel="noopener noreferrer" target="_blank">FPGA</a>
-es un circuito basado en puertas lógicas programables.
-Estos circuitos pueden programarse para resolver tareas especializadas
-de forma mucho más rápida que una CPU convencional.</p>
+es un procesador basado en puertas lógicas programables.
+Todos los procesadores y todos los circuitos digitales están hechos de
+puertas lógicas. En el caso de las FPGA, estas puertas lógicas se pueden
+conectar de manera programable, con lo cual se puede construir un
+circuito a medida de las necesidades de procesamiento.</p>
+<p>Estos circuitos pueden programarse para resolver tareas especializadas
+de forma mucho más rápida que con una CPU convencional.</p>
 <p>Aplicaciones típicas son, sistemas de visión por ordenador, minado de
-criptomonedas, emulación de hardware antiguo, machine learning,
-prototipado de circuitos a medida (ASIC), etc.</p>
-<p>Al ejecutar las operaciones de forma paralela, pueden acelerar los
-cálculos y ser varias veces más rápidas que una CPU en operaciones
+criptomonedas, emulación de hardware antiguo, aprendizaje automático,
+realización de prototipos de circuitos a medida (ASIC), etc.</p>
+<p>Al ejecutar las operaciones de forma paralela, las FPGA pueden acelerar
+los cálculos y ser varias veces más rápidas que una CPU en operaciones
 tales como la compresión de audio y video.</p>
-<p>Los lenguajes más utilizados para programar FPGAs son
-VHDL y Verilog.</p>
+<p>Los lenguajes más utilizados para programar FPGAs son VHDL y Verilog.</p>
 </div>
 <div class="section" id="caracteristicas-de-un-procesador">
 <h2><a class="toc-backref" href="#id9">Características de un procesador</a><a class="headerlink" href="#caracteristicas-de-un-procesador" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>A continuación se presentan las características que se utilizan para
 comparar distintos procesadores y evaluar su desempeño.</p>
 <dl class="docutils">
-<dt>Consumo energético</dt><dd><p>El consumo de un procesador es cada vez más importante.
-Por una parte, cuanto menor consumo tenga un procesador, más tiempo va
-a durar una batería del dispositivo que lo contiene.
-Por otro lado, en los ordenadores enchufados a la red eléctrica,
+<dt>Consumo energético</dt><dd><p>El consumo de un procesador es cada vez más importante.</p>
+<p>Por una parte, cuanto menor consumo tenga un procesador, más tiempo va
+a durar una batería del dispositivo que lo contiene.</p>
+<p>Por otro lado, en los ordenadores conectados a la red eléctrica,
 cuanto menor sea el consumo de electricidad menor será
-el costo de mantener al ordenador funcionando.
-Este consumo es tan elevado para los ordenadores de alto rendimiento
-que la electricidad llega a costar anualmente más que el precio del
-propio procesador.
+el costo de mantener el ordenador funcionando.
+Este consumo eléctrico, es tan elevado para los ordenadores de alto
+rendimiento, que la electricidad llega a costar anualmente más que el
+precio del propio procesador.
 Esa es la razón por la que se cambian los procesadores de los
 servidores antes de que acabe su vida útil. Es más barato instalar un
-procesador nuevo más potente.</p>
+procesador nuevo más eficiente, que mantener el antiguo funcionando.</p>
 <p>El consumo de potencia, también llamado TDP, se mide en vatios.
 Una CPU típica de un ordenador personal consume alrededor de 100 vatios
 en funcionamiento normal.
@@ -241,23 +247,27 @@ cantidad de instrucciones que podrá ejecutar en un segundo.
 Las frecuencias típicas de los procesadores actuales para ordenadores
 personales y teléfonos inteligentes varían desde
 los 1000MHz hasta los 5000MHz. Cuanto mayor sea la velocidad de reloj,
-más rápida será un procesador, si el resto de parámetros se mantienen
+más rápido será un procesador, si el resto de parámetros se mantienen
 iguales.</p>
-<p>El <span class="target" id="index-7"></span>Overclocking es una técnica que consiste en hacer
+<p>El <span class="target" id="index-7"></span>overclocking es una técnica que consiste en hacer
 funcionar a un procesador a una frecuencia más elevada que la
 frecuencia para la que está diseñado.
+El overclocking se usa para acelerar el funcionamiento del ordenador
+y que procese información más rápido.
 Muchos procesadores admiten trabajar a mayor frecuencia que la
 nominal, pero esta técnica conlleva un mayor consumo energético y
 la posibilidad de fallos en el sistema.</p>
 </dd>
-<dt>Número de núcleos</dt><dd><p>Los procesadores actuales en muchos casos están compuestos internamente
-por varios procesadores individuales llamados núcleos.
+<dt>Número de núcleos</dt><dd><p>Los procesadores actuales están compuestos por varios procesadores
+individuales llamados núcleos.
 Cuantos más núcleos tenga un procesador, más operaciones podrá realizar
 en paralelo.</p>
-<p>Hay tareas que se pueden dividir entre varios núcleos y que serán más
-rápidas cuantos más núcleos tenga un procesador.
-Por otro lado, ciertas tareas no se pueden dividir entre varios núcleos
-y su velocidad no será mayor por muchos núcleos que tenga el procesador.</p>
+<p>Los procesadores pueden dividir el cálculo de algunas tareas entre
+varios núcleos. Por lo tanto, cuantos más núcleos tenga el procesador,
+más rápida será la ejecución de estas tareas.
+Por otro lado, la realización de ciertas tareas no se puede compartir
+entre varios núcleos y la velocidad final no será mayor por muchos
+núcleos que tenga el procesador.</p>
 <p>En 2022 un procesador de tamaño medio para ordenador personal
 suele tener de 6 a 12 núcleos.</p>
 </dd>
@@ -270,28 +280,31 @@ tareas y acelerar un poco más la velocidad de ejecución.</p>
 núcleo. Es decir, una CPU de 8 núcleos tendrá 16 hilos de ejecución.</p>
 </dd>
 <dt>Memoria caché</dt><dd><p>Es una memoria intermedia que permite acceder a los datos y programas
-de manera más rápida cuando se hacen accesos repetidos a los
-mismos datos.</p>
+de manera más rápida cuando el procesador tiene que acceder
+repetidamente a los mismos datos.</p>
 <p>Los procesadores deben leer información de la memoria RAM para realizar
 su tarea, tanto información del programa a ejecutar como de los datos a
-procesar. La velocidad de transferencia de la memoria RAM suele ser más
-lenta que la velocidad de proceso del procesador, de manera que la
-memoria caché se utiliza como una memoria intermedia que almacena los
-contenidos de la memoria RAM que se leen de forma repetida, para
-disponer de ellos más rápido mientras se están procesando.</p>
+procesar.
+La velocidad de transferencia de la memoria RAM suele ser más
+lenta que la velocidad de proceso del procesador. La memoria caché se
+utiliza como una memoria intermedia que almacena los
+contenidos de la memoria RAM que se leen de forma repetida.
+De esta forma se puede disponer de los datos más rápido mientras se
+están procesando.</p>
 <p>Cuanto mayor sea el tamaño de la memoria caché mayor será la velocidad
-final de la CPU.</p>
-<p>La mayoría de las CPU tienen varios niveles de memoria caché incluidos
-internamente. Cada nivel de memoria caché es más lento que el anterior,
+final del procesador.</p>
+<p>La mayoría de las CPU tienen varios niveles de memoria caché incluidos.
+Cada nivel de memoria caché es más lento que el anterior,
 pero de mayor tamaño.
 Se suele dar el valor del mayor de ellos.
 Una CPU típica de un ordenador personal en 2022 suele tener un tamaño
-de memoria caché en torno a los 6 Mbytes.</p>
+de memoria caché en torno a los 6 Megabytes.</p>
 </dd>
-<dt>Número de Bits</dt><dd><p>Es el número de bits que puede manejar un procesador a la vez.
-Determina la cantidad de memoria a la que se puede acceder y la rapidez
-con la que se ejecutarán ciertas operaciones. Un procesador de
-8 bits moverá información cuatro veces más lento que uno de 32 bits.</p>
+<dt>Número de bits</dt><dd><p>Cada procesador puede manejar a la vez un número concreto de bits.
+El número de bits determina la cantidad de memoria a la que se puede
+acceder y la rapidez  con la que se ejecutarán ciertas operaciones.
+Un procesador de 8 bits tratará la información cuatro veces más lento
+que uno de 32 bits.</p>
 <p>Los procesadores más simples, como los que incorpora un teclado de
 ordenador o un horno microondas, son de 8 bits.</p>
 <p>Por encima de ellas están las CPU de 32 bits, mucho más potentes y
@@ -299,9 +312,10 @@ rápidas. Son las utilizadas en smartphones, smartTV, impresoras, etc.</p>
 <p>Los ordenadores personales actuales utilizan, en la mayoría de los
 casos, procesadores y software de 64 bits.</p>
 </dd>
-<dt>Tipo de Buses</dt><dd><p>Es el tipo de comunicación con el que se transfiere información entre
-el procesador y el exterior. Cuantos más buses tenga un procesador
-y más rápidos sean, mayor será su rendimiento.</p>
+<dt>Tipo de buses</dt><dd><p>Es el tipo de comunicación con el que se transfiere información entre
+el procesador y el resto de elementos del ordenador.
+Cuantos más buses tenga un procesador y más rápidos sean, mayor
+será su rendimiento.</p>
 <p>Actualmente los procesadores de ordenador personal tienen tres
 buses de comunicaciones con el exterior, para mejorar la velocidad
 de transferencia:</p>
@@ -319,10 +333,12 @@ de transferencia:</p>
 <p>Las pruebas de rendimiento, también llamadas
 <a class="reference external" href="https://es.wikipedia.org/wiki/Benchmark_(inform%C3%A1tica)" rel="noopener noreferrer" target="_blank">benchmark</a>,
 son una técnica para medir el rendimiento de un sistema informático o
-de sus componentes por separado.
-Son pruebas muy útiles a la hora de comparar procesadores dado el gran
-número de parámetros que tienen estos y dado que el rendimiento final
-no está claro teniendo en cuenta solo estos parámetros.</p>
+de sus componentes por separado.</p>
+<p>Son pruebas muy útiles a la hora de comparar procesadores entre sí.
+Debido a la gran cantidad de parámetros o características que definen
+a un procesador, no es sencillo calcular su rendimiento final.
+Sin embargo las pruebas benchmark darán un simple número que representa
+aproximadamente la potencia de cálculo del procesador.</p>
 <p>Test clásicos muy conocidos son los siguientes.</p>
 <dl class="glossary docutils">
 <dt id="term-MIPS">MIPS</dt><dd><p>Los <a class="reference external" href="https://es.wikipedia.org/wiki/Millones_de_instrucciones_por_segundo" rel="noopener noreferrer" target="_blank">MIPS</a>
@@ -354,10 +370,11 @@ crear un benchmark estándar para medir el rendimiento de
 computadoras y controlar y
 <a class="reference external" href="http://www.spec.org/" rel="noopener noreferrer" target="_blank">publicar los resultados de estos tests</a>.</dd>
 </dl>
-<p>Otros test comerciales:</p>
+<p>Otros test:</p>
 <dl class="docutils">
 <dt>PassMark</dt><dd>El <a class="reference external" href="https://www.cpubenchmark.net/" rel="noopener noreferrer" target="_blank">Test PassMark</a>
-es uno de los test comerciales más conocidos para ordenadores personales.</dd>
+es uno de los test comerciales más conocidos para ordenadores
+personales.</dd>
 </dl>
 </div>
 </div>
@@ -374,7 +391,7 @@ es uno de los test comerciales más conocidos para ordenadores personales.</dd>
         <a href="informatica-hardware-placabase.html" class="btn btn-neutral float-right" title="Placa base" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="informatica-hardware-intro.html" class="btn btn-neutral" title="Introducción al hardware" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+        <a href="informatica-hardware-ley-moore.html" class="btn btn-neutral" title="Ley de Moore" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
       
     </div>
   
@@ -500,6 +517,9 @@ es uno de los test comerciales más conocidos para ordenadores personales.</dd>
 <li class="toctree-l1 current"><a class="reference internal" href="informatica-index.html">Informática</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="informatica-hardware-index.html">Hardware de ordenador</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="informatica-hardware-intro.html">Introducción al hardware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="informatica-hardware-esquema-ordenador.html">Hardware de un ordenador personal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="informatica-hardware-unidades.html">Unidades de medida de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="informatica-hardware-ley-moore.html">Ley de Moore</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Procesadores</a></li>
 <li class="toctree-l3"><a class="reference internal" href="informatica-hardware-placabase.html">Placa base</a></li>
 <li class="toctree-l3"><a class="reference internal" href="informatica-hardware-almacenamiento.html">Almacenamiento de información</a></li>

@@ -7,8 +7,13 @@
 
 Procesadores
 ============
-Los procesadores son los cerebros de los ordenadores, los componentes
-que realizan las operaciones dictadas por los programas.
+Los procesadores son el "cerebro" de los ordenadores, los componentes
+que realizan las operaciones dictadas por los programas o aplicaciones.
+
+Los tipos de procesadores más habituales son la CPU y la GPU, aunque 
+hay algunos más que se estudiarán a continuación como la TPU, el DSP, 
+los microcontroladores o la FPGA.
+
 
 .. contents:: Índice de contenidos
    :local:
@@ -17,10 +22,10 @@ que realizan las operaciones dictadas por los programas.
 
 Unidad Central de Proceso (:index:`CPU`)
 ----------------------------------------
-Una `CPU o unidad central de procesamiento
+Una `CPU, unidad central de procesamiento
 <https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento>`__
-también llamado microprocesador, es un componente de un ordenador dedicado
-a interpretar las instrucciones de los programas informáticos.
+también llamado **microprocesador**, es un componente de un ordenador 
+dedicado a interpretar las instrucciones de los programas informáticos.
 Pueden realizar operaciones lógicas, aritméticas y de movimiento de datos.
 
 Es el componente más complejo de un ordenador.
@@ -81,8 +86,8 @@ Unidad de procesamiento tensorial (:index:`TPU`)
 ------------------------------------------------
 Una `TPU o unidad de procesamiento tensorial
 <https://es.wikipedia.org/wiki/Unidad_de_procesamiento_tensorial>`__
-es una unidad central de proceso dedicada a cálculo intensivo de
-operaciones de redes neuronales, usadas en Inteligencia Artificial.
+es un procesador dedicado a cálculo intensivo de operaciones de 
+redes neuronales, usadas en Inteligencia Artificial.
 
 El término TPU se utiliza por Google para un circuito inventado por la
 empresa, pero cada vez más circuitos incorporan capacidades semejantes
@@ -110,7 +115,7 @@ proceso de señales.
 
 :index:`Microcontroladores`
 ---------------------------
-Un microcontrolador es un pequeño ordenador dentro de un solo chip.
+Un microcontrolador es un pequeño ordenador contenido en un solo chip.
 Incorpora la CPU, la memoria RAM, memoria Flash ROM y periféricos de
 entrada/salida en un espacio pequeño y a bajo precio.
 
@@ -126,20 +131,24 @@ y recursos si tuviera que administrarlas la CPU.
 -------------
 Una `FPGA
 <https://es.wikipedia.org/wiki/Field-programmable_gate_array>`__
-es un circuito basado en puertas lógicas programables.
+es un procesador basado en puertas lógicas programables.
+Todos los procesadores y todos los circuitos digitales están hechos de
+puertas lógicas. En el caso de las FPGA, estas puertas lógicas se pueden
+conectar de manera programable, con lo cual se puede construir un
+circuito a medida de las necesidades de procesamiento.
+
 Estos circuitos pueden programarse para resolver tareas especializadas
-de forma mucho más rápida que una CPU convencional.
+de forma mucho más rápida que con una CPU convencional.
 
 Aplicaciones típicas son, sistemas de visión por ordenador, minado de
-criptomonedas, emulación de hardware antiguo, machine learning,
-prototipado de circuitos a medida (ASIC), etc.
+criptomonedas, emulación de hardware antiguo, aprendizaje automático,
+realización de prototipos de circuitos a medida (ASIC), etc.
 
-Al ejecutar las operaciones de forma paralela, pueden acelerar los
-cálculos y ser varias veces más rápidas que una CPU en operaciones
+Al ejecutar las operaciones de forma paralela, las FPGA pueden acelerar 
+los cálculos y ser varias veces más rápidas que una CPU en operaciones
 tales como la compresión de audio y video.
 
-Los lenguajes más utilizados para programar FPGAs son
-VHDL y Verilog.
+Los lenguajes más utilizados para programar FPGAs son VHDL y Verilog.
 
 
 Características de un procesador
@@ -149,17 +158,19 @@ comparar distintos procesadores y evaluar su desempeño.
 
 Consumo energético
    El consumo de un procesador es cada vez más importante.
+   
    Por una parte, cuanto menor consumo tenga un procesador, más tiempo va
    a durar una batería del dispositivo que lo contiene.
-   Por otro lado, en los ordenadores enchufados a la red eléctrica,
+   
+   Por otro lado, en los ordenadores conectados a la red eléctrica,
    cuanto menor sea el consumo de electricidad menor será
-   el costo de mantener al ordenador funcionando.
-   Este consumo es tan elevado para los ordenadores de alto rendimiento
-   que la electricidad llega a costar anualmente más que el precio del
-   propio procesador.
+   el costo de mantener el ordenador funcionando.
+   Este consumo eléctrico, es tan elevado para los ordenadores de alto 
+   rendimiento, que la electricidad llega a costar anualmente más que el 
+   precio del propio procesador.
    Esa es la razón por la que se cambian los procesadores de los
    servidores antes de que acabe su vida útil. Es más barato instalar un
-   procesador nuevo más potente.
+   procesador nuevo más eficiente, que mantener el antiguo funcionando.
 
    El consumo de potencia, también llamado TDP, se mide en vatios.
    Una CPU típica de un ordenador personal consume alrededor de 100 vatios
@@ -174,27 +185,31 @@ Frecuencia de reloj
    Las frecuencias típicas de los procesadores actuales para ordenadores
    personales y teléfonos inteligentes varían desde
    los 1000MHz hasta los 5000MHz. Cuanto mayor sea la velocidad de reloj,
-   más rápida será un procesador, si el resto de parámetros se mantienen
+   más rápido será un procesador, si el resto de parámetros se mantienen
    iguales.
 
-   El :index:`Overclocking` es una técnica que consiste en hacer
+   El :index:`overclocking` es una técnica que consiste en hacer
    funcionar a un procesador a una frecuencia más elevada que la
    frecuencia para la que está diseñado.
+   El overclocking se usa para acelerar el funcionamiento del ordenador
+   y que procese información más rápido.
    Muchos procesadores admiten trabajar a mayor frecuencia que la
    nominal, pero esta técnica conlleva un mayor consumo energético y
    la posibilidad de fallos en el sistema.
 
 
 Número de núcleos
-   Los procesadores actuales en muchos casos están compuestos internamente
-   por varios procesadores individuales llamados núcleos.
+   Los procesadores actuales están compuestos por varios procesadores 
+   individuales llamados núcleos.
    Cuantos más núcleos tenga un procesador, más operaciones podrá realizar
    en paralelo.
 
-   Hay tareas que se pueden dividir entre varios núcleos y que serán más
-   rápidas cuantos más núcleos tenga un procesador.
-   Por otro lado, ciertas tareas no se pueden dividir entre varios núcleos
-   y su velocidad no será mayor por muchos núcleos que tenga el procesador.
+   Los procesadores pueden dividir el cálculo de algunas tareas entre
+   varios núcleos. Por lo tanto, cuantos más núcleos tenga el procesador,
+   más rápida será la ejecución de estas tareas.
+   Por otro lado, la realización de ciertas tareas no se puede compartir 
+   entre varios núcleos y la velocidad final no será mayor por muchos 
+   núcleos que tenga el procesador.
 
    En 2022 un procesador de tamaño medio para ordenador personal
    suele tener de 6 a 12 núcleos.
@@ -213,33 +228,36 @@ Número de hilos de ejecución
 
 Memoria caché
    Es una memoria intermedia que permite acceder a los datos y programas
-   de manera más rápida cuando se hacen accesos repetidos a los
-   mismos datos.
+   de manera más rápida cuando el procesador tiene que acceder 
+   repetidamente a los mismos datos.
 
    Los procesadores deben leer información de la memoria RAM para realizar
    su tarea, tanto información del programa a ejecutar como de los datos a
-   procesar. La velocidad de transferencia de la memoria RAM suele ser más
-   lenta que la velocidad de proceso del procesador, de manera que la
-   memoria caché se utiliza como una memoria intermedia que almacena los
-   contenidos de la memoria RAM que se leen de forma repetida, para
-   disponer de ellos más rápido mientras se están procesando.
+   procesar. 
+   La velocidad de transferencia de la memoria RAM suele ser más
+   lenta que la velocidad de proceso del procesador. La memoria caché se 
+   utiliza como una memoria intermedia que almacena los
+   contenidos de la memoria RAM que se leen de forma repetida.
+   De esta forma se puede disponer de los datos más rápido mientras se 
+   están procesando.
 
    Cuanto mayor sea el tamaño de la memoria caché mayor será la velocidad
-   final de la CPU.
+   final del procesador.
 
-   La mayoría de las CPU tienen varios niveles de memoria caché incluidos
-   internamente. Cada nivel de memoria caché es más lento que el anterior,
+   La mayoría de las CPU tienen varios niveles de memoria caché incluidos.
+   Cada nivel de memoria caché es más lento que el anterior,
    pero de mayor tamaño.
    Se suele dar el valor del mayor de ellos.
    Una CPU típica de un ordenador personal en 2022 suele tener un tamaño
-   de memoria caché en torno a los 6 Mbytes.
+   de memoria caché en torno a los 6 Megabytes.
 
 
-Número de Bits
-   Es el número de bits que puede manejar un procesador a la vez.
-   Determina la cantidad de memoria a la que se puede acceder y la rapidez
-   con la que se ejecutarán ciertas operaciones. Un procesador de
-   8 bits moverá información cuatro veces más lento que uno de 32 bits.
+Número de bits
+   Cada procesador puede manejar a la vez un número concreto de bits.
+   El número de bits determina la cantidad de memoria a la que se puede 
+   acceder y la rapidez  con la que se ejecutarán ciertas operaciones. 
+   Un procesador de 8 bits tratará la información cuatro veces más lento 
+   que uno de 32 bits.
 
    Los procesadores más simples, como los que incorpora un teclado de
    ordenador o un horno microondas, son de 8 bits.
@@ -251,10 +269,11 @@ Número de Bits
    casos, procesadores y software de 64 bits.
 
 
-Tipo de Buses
+Tipo de buses
    Es el tipo de comunicación con el que se transfiere información entre
-   el procesador y el exterior. Cuantos más buses tenga un procesador
-   y más rápidos sean, mayor será su rendimiento.
+   el procesador y el resto de elementos del ordenador.
+   Cuantos más buses tenga un procesador y más rápidos sean, mayor 
+   será su rendimiento.
 
    Actualmente los procesadores de ordenador personal tienen tres
    buses de comunicaciones con el exterior, para mejorar la velocidad
@@ -272,9 +291,12 @@ Las pruebas de rendimiento, también llamadas
 `benchmark <https://es.wikipedia.org/wiki/Benchmark_(inform%C3%A1tica)>`__,
 son una técnica para medir el rendimiento de un sistema informático o
 de sus componentes por separado.
-Son pruebas muy útiles a la hora de comparar procesadores dado el gran
-número de parámetros que tienen estos y dado que el rendimiento final
-no está claro teniendo en cuenta solo estos parámetros.
+
+Son pruebas muy útiles a la hora de comparar procesadores entre sí.
+Debido a la gran cantidad de parámetros o características que definen 
+a un procesador, no es sencillo calcular su rendimiento final. 
+Sin embargo las pruebas benchmark darán un simple número que representa
+aproximadamente la potencia de cálculo del procesador.
 
 Test clásicos muy conocidos son los siguientes.
 
@@ -317,9 +339,10 @@ Test clásicos muy conocidos son los siguientes.
       `publicar los resultados de estos tests <http://www.spec.org/>`__.
 
 
-Otros test comerciales:
+Otros test:
 
 PassMark
    El `Test PassMark <https://www.cpubenchmark.net/>`__
-   es uno de los test comerciales más conocidos para ordenadores personales.
+   es uno de los test comerciales más conocidos para ordenadores 
+   personales.
 
