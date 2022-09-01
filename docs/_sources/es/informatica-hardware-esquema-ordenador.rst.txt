@@ -39,19 +39,19 @@ un ordenador.
 
 Estos elementos son los siguientes:
 
- * La **memoria ROM**, que es la encargada de almacenar a largo plazo
+ * La **memoria ROM**, es la encargada de almacenar a largo plazo
    los programas y los datos, aunque el ordenador esté apagado.
- * La **memoria RAM**, que es la encargada de almacenar los programas y los
+ * La **memoria RAM**, es la encargada de almacenar los programas y los
    datos para que el procesador pueda trabajar con ellos.
- * La **CPU o unidad central de proceso** que es el "cerebro" del ordenador,
+ * La **CPU o unidad central de proceso** es el "cerebro" del ordenador,
    el elemento que procesa los programas y los datos.
- * El **bus de procesador** que se encarga de transportar los datos
+ * El **bus de CPU** se encarga de transportar los datos
    entre la CPU, la memoria y el sistema de entrada/salida.
- * El **sistema de entrada/salida** que conecta al ordenador con el
-   exterior y se encarga de transportar información entre el bus de
-   procesador y varios buses de conexión secundarios, que suelen ser
+ * El **sistema de entrada/salida** conecta el ordenador con el
+   exterior y se encarga de transportar información entre el bus de CPU
+   y varios buses de conexión secundarios, que suelen ser
    estándar, como USB, HDMI o Ethernet.
- * Los **periféricos**, que se encargan de realizar 3 tareas fundamentales.
+ * Los **periféricos** se encargan de realizar 3 tareas fundamentales.
 
     * Entrada de datos al ordenador (por ejemplo un teclado)
     * Salida de datos del ordenador (por ejemplo una pantalla)
@@ -67,3 +67,10 @@ La siguiente figura representa el esquema de un ordenador personal.
 En este caso la memoria ROM es sustituida por una unidad de almacenamiento
 externa (unidad de disco) que se comporta como un periférico de
 entrada/salida de datos.
+
+
+Test de la unidad
+-----------------
+
+`Test de hardware de un ordenador personal.
+<https://www.picuino.com/test/es-hardware-pc.html>`__

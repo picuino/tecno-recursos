@@ -32,7 +32,8 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
       lavadora, temporizar digitalmente un horno microondas, activar el
       freno ABS de un automóvil, realizar mediciones de consumo eléctrico
       a distancia, validar una tarjeta de transporte en el autobús,
-      encender una bombilla mediante conexión wifi, etc.
+      encender una bombilla mediante conexión wifi, controlar una máquina
+      expendedora, etc.
 
       En la industria se utilizan controladores programables especializados
       para mover máquinas de forma automática o para recoger datos y
@@ -63,7 +64,7 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
       Un wearable o `tecnología vestible
       <https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_vestible>`__
       es un pequeño ordenador incorporado a prendas de vestir.
-      Incluye a los relojes inteligentes o smartwatch, gafas inteligentes, 
+      Incluye a los relojes inteligentes o smartwatch, gafas inteligentes,
       etc.
 
       Esta tecnología puede ser utilizada para monitorizar la salud
@@ -114,8 +115,8 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
       `Amazon Fire TV <https://es.wikipedia.org/wiki/Amazon_Fire_TV>`__ y
       `Apple TV <https://es.wikipedia.org/wiki/Apple_TV>`__,
 
-      Muchos televisores actuales (smartTV) ya llevan incorporados 
-      ordenadores que permiten realizar estas tareas, al igual que 
+      Muchos televisores actuales (smartTV) ya llevan incorporados
+      ordenadores que permiten realizar estas tareas, al igual que
       conectarse por internet a las empresas fabricantes.
       Esto ha ocasionado polémicas debido a que estos televisores pueden
       grabar las conversaciones de su alrededor y enviarlas al fabricante.
@@ -141,7 +142,7 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
       que muchos usuarios de videojuegos prefieren usar un ordenador
       personal (PC) de altas características en su lugar.
       La diferencia entre los dos tipos de ordenadores reside en el precio.
-      Para una misma potencia de cálculo, un PC puede costar el doble que
+      Para una misma potencia de proceso, un PC puede costar el doble que
       una videoconsola de última generación equivalente.
 
       .. figure:: informatica/_images/informatica-ps4.jpg
@@ -156,12 +157,13 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
 
    Ordenadores dedicados
       Existen más tipos de ordenadores dedicados realizar una sola función
-      de forma especializada.
-      Por ejemplo los servidores de datos `NAS
+      de forma especializada. Son ordenadores más potentes que los
+      controladores programables.
+
+      Ejemplos de este tipo de ordenadores son los servidores de datos `NAS
       <https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red>`__
       que permiten compartir archivos de datos en una red de ordenadores,
-      fotocopiadoras, routers, impresoras, escáner, cajeros automáticos,
-      máquinas expendedoras y un largo etcétera.
+      fotocopiadoras, routers, cajeros automáticos, etc.
 
 
    Teléfono inteligente

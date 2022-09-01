@@ -26,8 +26,8 @@
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   <link rel="index" title="Índice" href="../genindex.html" />
   <link rel="search" title="Búsqueda" href="../search.html" />
-  <link rel="next" title="Periféricos" href="informatica-hardware-perifericos.html" />
-  <link rel="prev" title="Placa base" href="informatica-hardware-placabase.html" />
+  <link rel="next" title="Comunicaciones" href="informatica-hardware-comunicaciones.html" />
+  <link rel="prev" title="Periféricos" href="informatica-hardware-perifericos.html" />
 
 </head>
 
@@ -183,7 +183,7 @@ fundamentales para determinar la capacidad y velocidad del ordenador.</p>
 <div class="section" id="almacenamiento-primario">
 <h2><a class="toc-backref" href="#id14">Almacenamiento primario</a><a class="headerlink" href="#almacenamiento-primario" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Las memorias de almacenamiento primario son los dispositivos que contienen
-la información con la que está trabajando en este momento el procesador.
+la información con la que el procesador está trabajando.
 Son las memorias más rápidas y cercanas a la unidad central de proceso.</p>
 <dl class="glossary docutils">
 <dt id="term-Memoria-RAM">Memoria RAM</dt><dd><p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Memoria_de_acceso_aleatorio" rel="noopener noreferrer" target="_blank">memoria RAM</a>
@@ -205,9 +205,9 @@ RAM y un ordenador personal de 8 a 16 Gbytes de RAM.</p>
 <a class="reference external" href="https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2" rel="noopener noreferrer" target="_blank">GNU Free Documentation License</a>,
 via Wikimedia Commons.</div>
 </div>
-<p>Como desventaja, es una memoria que pierde sus datos cuando se
-apaga la alimentación del ordenador y suele ser mucho más cara que
-las memorias de almacenamiento secundario,
+<p>La desventaja de la memoria RAM es que pierde sus datos cuando se
+apaga la alimentación del ordenador además suele ser mucho más cara
+que las memorias de almacenamiento secundario,
 5€/Gbyte de una memoria RAM frente a 0,02€/Gbyte de un disco
 duro de 4Tbytes en 2022.</p>
 </dd>
@@ -215,11 +215,11 @@ duro de 4Tbytes en 2022.</p>
 es un tipo de memoria rápida que almacena temporalmente los
 contenidos leídos de la memoria RAM para que las posteriores
 peticiones de lectura se puedan atender con mayor rapidez.</p>
-<p>Funciona de manera semejante a la memoria principal, pero es de
+<p>Funciona de manera semejante a la memoria RAM, pero es de
 menor tamaño y de acceso más rápido. Surgió cuando la memoria RAM
-ya no fue capaz de trabajar a la misma velocidad del procesador
+ya no fue capaz de trabajar a la misma velocidad del microprocesador
 y sirve para que el microprocesador reduzca el tiempo de acceso
-a datos ubicados en la memoria RAM que se utilizan con más
+a los datos ubicados en la memoria RAM que se utilizan con más
 frecuencia.</p>
 <p>Hoy en día la memoria caché de la RAM suele estar integrada dentro
 del propio procesador y suele tener un tamaño de varios megabytes.</p>
@@ -229,26 +229,26 @@ del propio procesador y suele tener un tamaño de varios megabytes.</p>
 <div class="section" id="almacenamiento-secundario">
 <h2><a class="toc-backref" href="#id15">Almacenamiento secundario</a><a class="headerlink" href="#almacenamiento-secundario" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Los dispositivos de almacenamiento secundario de un ordenador son
-memorias no volátiles, es decir que almacenan datos a pesar de que el
-ordenador no tenga alimentación, que se suelen instalar de forma
+memorias no volátiles, es decir, que almacenan datos a pesar de que el
+ordenador no tenga alimentación. Se suelen instalar de forma
 permanente en el interior del ordenador para que almacenen el sistema
 operativo y los diferentes programas y datos de uso habitual.</p>
-<p>La conexión se suele realizar por medios más lentos que con los
-dispositivos de almacenamiento primario, pero tienen mayor capacidad
+<p>Los dispositivos de almacenamiento secundario son más lentos que los
+de almacenamiento primario. Como contrapartida tienen mayor capacidad
 de almacenamiento.</p>
 <dl class="glossary docutils">
 <dt id="term-Memoria-ROM">Memoria ROM</dt><dd><p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Imagen_ROM" rel="noopener noreferrer" target="_blank">memoria ROM</a>
-o memoria de solo lectura es una memoria de almacenamiento
-permanente de programas del ordenador.
-Es donde se almacena el denominado
+(Read Only Memory) o memoria de solo lectura es una memoria de
+almacenamiento permanente de programas y datos del ordenador.
+En esta memoria se almacena el denominado
 <a class="reference external" href="https://es.wikipedia.org/wiki/Firmware" rel="noopener noreferrer" target="_blank">Firmware</a>,
 programas de solo lectura que manejan un dispositivo.</p>
 <p>Las memorias ROM que se utilizan hoy en día no son de solo lectura,
 suelen estar basadas en tecnología Flash y se pueden reescribir,
-aunque esto se realiza con muy poca frecuencia.
-Por esta razón esta memoria hoy en día también se denomina
+múltiples veces.
+Por esta razón, hoy en día a esta memoria también se la denomina
 memoria Flash.</p>
-<p>Las memorias ROM o Flash suelen ser más lentas, más sencillas y de
+<p>Las memorias Flash suelen ser más lentas, más sencillas y de
 menor capacidad que las memorias SSD, aunque ambas estén basadas
 internamente en la misma tecnología.</p>
 <p>Ejemplos de ROM son la memoria del BIOS (Sistema Básico de Entrada
@@ -275,8 +275,8 @@ el disco duro y pasa a escribirse en la memoria RAM para que
 la CPU pueda trabajar con ellos.</p>
 <p>Los discos duros llevan muchos años en el mercado (desde 1956)
 por lo que se basan en tecnologías asentadas y muy optimizadas.
-A pesar de ello van sustituyéndose poco a poco por los SSD por
-las múltiples ventajas que presentan.</p>
+A pesar de ello, se van sustituyendo poco a poco por los SSD por
+las múltiples ventajas que presentan estos últimos.</p>
 <div class="figure align-center" id="id3">
 <a class="reference internal image-reference" href="../_images/informatica-hdd.jpg"><img alt="../_images/informatica-hdd.jpg" src="../_images/informatica-hdd.jpg" style="width: 340px;" /></a>
 <p class="caption"><span class="caption-text">Unidad de disco duro (HDD) con conexión SATA, vista desde abajo.</span><a class="headerlink" href="#id3" title="Enlace permanente a esta imagen">¶</a></p>
@@ -289,7 +289,7 @@ via Wikimedia Commons.</div>
 <dt id="term-Unidad-de-estado-solido-SSD">Unidad de estado sólido (SSD)</dt><dd><p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Unidad_de_estado_s%C3%B3lido" rel="noopener noreferrer" target="_blank">unidad de estado sólido</a>
 es un tipo de memoria secundaria basado en chips de tecnología Flash
 que almacenan información de forma permanente.</p>
-<p>Son más modernos en el mercado que los discos duros (desde 2009)
+<p>Son más modernos en el mercado (desde 2009) que los discos duros
 y tienen menos capacidad a igualdad de precio, pero van mejorando
 rápidamente con los años y están sustituyendo poco a poco a
 los discos duros tradicionales.</p>
@@ -304,7 +304,7 @@ via Wikimedia Commons.</div>
 </div>
 <p>Comparación entre las unidades de estado sólido y los discos duros</p>
 <dl class="docutils">
-<dt>Ventajas:</dt><dd><ul class="simple">
+<dt>Ventajas de los SSD:</dt><dd><ul class="simple">
 <li>Mayor velocidad de transferencia.
 600MBytes/s de un SSD frente a 100 Mbytes/s de un HDD</li>
 <li>Menor tiempo de acceso.
@@ -318,7 +318,7 @@ via Wikimedia Commons.</div>
 <li>Menor ruido generado.</li>
 </ul>
 </dd>
-<dt>Desventajas</dt><dd><ul class="simple">
+<dt>Desventajas de los SSD:</dt><dd><ul class="simple">
 <li>Menor resistencia a un gran número de escrituras.</li>
 <li>Mayor precio por Gbyte.
 0,08€ de un SSD frente a 0,02€ de un HDD en 2022.</li>
@@ -335,7 +335,7 @@ con antelación si un disco duro da señales de fallar próximamente.</p>
 temperatura, sectores defectuosos, cantidad de datos escritos,
 errores de lectura, tiempo de funcionamiento, número de arranques,
 etc.
-Aunque no es capaz de detectar todos los fallos posibles, si
+Aunque no es capaz de detectar todos los fallos posibles, sí
 permite avisar ante la mayoría de los fallos debidos a una
 degradación de la unidad.</p>
 <p>Existen varios programas que permiten leer los parámetros SMART de
@@ -350,24 +350,27 @@ Algunos programas de monitorización son:</p>
 </dd>
 <dt id="term-RAID">RAID</dt><dd><p>Un sistema <a class="reference external" href="https://es.wikipedia.org/wiki/RAID" rel="noopener noreferrer" target="_blank">RAID (matriz redundante de discos independientes)</a>
 es una tecnología que permite unir varias unidades de disco duro
-(HDD) o varias unidades de estado sólido (SSD) para aumentar sus
-prestaciones.
+(HDD) para aumentar sus prestaciones.
 Se utiliza en servidores de datos y en ordenadores de altas
-prestaciones. Necesita una controladora RAID especializada.</p>
-<p>En un primer nivel, los diferentes discos se ven por parte del
-sistema operativo como una sola unidad de disco y la velocidad de
-transferencia aumenta al unir las transferencias de todos los discos.</p>
+prestaciones.
+Necesita una controladora RAID especializada para conectar los discos
+al ordenador.</p>
+<p>En un primer nivel RAID, el sistema operativo ve una sola unidad
+donde en realidad hay varios discos duros.
+La velocidad de transferencia total aumenta al unir las
+velocidades de transferencia de cada uno de los discos.</p>
 <p>En niveles posteriores, se utiliza un disco para almacenar datos
 redundantes de paridad.
 Esto permite que los datos no se pierdan ante el fallo de una unidad.
-Al detectar una unidad dañada, esta se puede cambiar por otra nueva y
-el sistema recuperará automáticamente los datos perdidos.</p>
+Al detectar una unidad dañada, ésta se puede cambiar por otra nueva y
+el sistema recuperará automáticamente los datos perdidos a partir
+de los datos redundantes.</p>
 </dd>
 <dt id="term-Bufer-de-datos">Búfer de datos</dt><dd><p>Un <a class="reference external" href="https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos" rel="noopener noreferrer" target="_blank">búfer de datos</a>
 es un espacio de memoria temporal que almacena datos de lectura o de
-escritura a un periférico para acelerar el funcionamiento del
-procesador o para evitar que un dispositivo pierda datos durante una
-transferencia de datos irregular.</p>
+escritura que se dirigen a un periférico. De esta forma se acelera el
+funcionamiento del procesador y se evita que un dispositivo
+pierda datos durante una transferencia de datos irregular.</p>
 <p>Los búfer de escritura para un dispositivo lento, como un disco duro
 o un pendrive, almacenan varios mega bytes de datos que son enviados
 en ráfagas rápidas por el procesador para, más tarde, escribirlos
@@ -386,10 +389,11 @@ entrada/salida y de los medios de almacenamiento.</p>
 </div>
 <div class="section" id="almacenamiento-externo">
 <h2><a class="toc-backref" href="#id16">Almacenamiento externo</a><a class="headerlink" href="#almacenamiento-externo" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Los dispositivos de almacenamiento externo son removibles, es decir que se
-pueden desconectar con facilidad del ordenador para ser transportados.</p>
-<p>Su velocidad es más lenta que los anteriores métodos de almacenamiento,
-pero presentan la ventaja de su mayor movilidad y facilidad de transporte.</p>
+<p>Los dispositivos de almacenamiento externo se pueden desconectar con
+facilidad del ordenador para ser transportados.</p>
+<p>Su velocidad es más lenta que la de los anteriores métodos de
+almacenamiento, pero presentan la ventaja de su mayor movilidad y
+facilidad de transporte.</p>
 <dl class="glossary docutils">
 <dt id="term-Memoria-USB">Memoria USB</dt><dd><p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Memoria_USB" rel="noopener noreferrer" target="_blank">memoria USB</a>
 es una memoria externa basada en
@@ -412,11 +416,10 @@ via Wikimedia Commons.</div>
 </dd>
 <dt id="term-Tarjeta-SD">Tarjeta SD</dt><dd><p>La memoria en <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Digital" rel="noopener noreferrer" target="_blank">tarjeta SD</a>
 se basa en la misma tecnología que las unidades de memoria USB y
-tienen rendimientos semejantes.</p>
-<p>Las diferencias fundamentales entre las dos tecnologías se encuentran
-en el tipo de comunicación con el ordenador, que es más sencilla que
-el USB, y en el tamaño mucho menor sobre todo de las tarjetas
-microSD.</p>
+tiene rendimientos semejantes.</p>
+<p>El estándar de conexión de la tarjeta SD es más sencillo que el
+estándar USB. Además el tamaño de las tarjetas SD suele ser menor
+que el de los pendrive, especialmente en las tarjetas microSD.</p>
 <div class="figure align-center" id="id6">
 <a class="reference internal image-reference" href="../_images/informatica-sd.jpg"><img alt="../_images/informatica-sd.jpg" src="../_images/informatica-sd.jpg" style="width: 340px;" /></a>
 <p class="caption"><span class="caption-text">Tarjetas de memoria microSD de varias capacidades.</span><a class="headerlink" href="#id6" title="Enlace permanente a esta imagen">¶</a></p>
@@ -534,15 +537,16 @@ via Wikimedia Commons.</div>
 <p>En el momento en el que salieron al mercado, estas unidades de
 almacenamiento óptico tenían más capacidad que los propios discos
 duros, por lo que era un método de almacenamiento muy barato para
-realizar backups. Hoy en día la capacidad de los discos duros ha
-crecido tanto que su costo de almacenamiento ha bajado muchísimo,
-hasta los 0,023 €/GB, por lo que ya no son rentables estas unidades
-ópticas para almacenar grandes cantidades de datos.</p>
+realizar backup o copias de seguridad.
+Hoy en día, la capacidad de los discos duros ha crecido tanto que su
+costo de almacenamiento ha bajado muchísimo, hasta los 0,023 €/GB,
+por lo que ya no son rentables estas unidades ópticas para almacenar
+grandes cantidades de datos.</p>
 <p>Las memorias USB también han crecido exponencialmente en su capacidad
 y en 2022 una unidad con mayor capacidad que un Blu-ray es
 relativamente barata (5€). Aunque el precio por GByte siga siendo
 algo mayor en las memorias USB (0,12 - 0,05€/GByte), su mayor
-versatilidad y facilidad de lectura/escritura han hecho que ocupen
+versatilidad y facilidad de lectura/escritura han hecho que asuman
 muchas aplicaciones que antes se realizaban con discos ópticos,
 tales como los reproductores de música.</p>
 <p>Hace años era frecuente que los programas se vendieran grabados en
@@ -614,8 +618,9 @@ o de estado sólido y enviar o recibir estos datos a través de la
 red local.
 Permite almacenar, recuperar y compartir los datos en un punto
 centralizado para todos los ordenadores de una red local.</p>
-<p>Normalmente los servidores NAS son sistemas dedicados, no ordenadores
-personales. Contienen varias bahías para la conexión de unidades
+<p>Normalmente los servidores NAS son equipos diseñados para
+atender exclusivamente a esta función.
+Contienen varias bahías para la conexión de unidades
 de almacenamiento (HDD o SSD) en conexión <a class="reference internal" href="#term-RAID"><span class="xref std std-term">RAID</span></a> para aumentar
 sus prestaciones.</p>
 <div class="figure align-center" id="id12">
@@ -659,10 +664,10 @@ gyroscope; picture-in-picture" allowfullscreen></iframe>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="informatica-hardware-perifericos.html" class="btn btn-neutral float-right" title="Periféricos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="informatica-hardware-comunicaciones.html" class="btn btn-neutral float-right" title="Comunicaciones" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="informatica-hardware-placabase.html" class="btn btn-neutral" title="Placa base" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+        <a href="informatica-hardware-perifericos.html" class="btn btn-neutral" title="Periféricos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
       
     </div>
   
@@ -684,7 +689,7 @@ gyroscope; picture-in-picture" allowfullscreen></iframe>
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
     a menos que se indique lo contrario.<br />
       <span class="lastupdated">
-        Actualizado por última vez, julio de 2022.
+        Actualizado por última vez, agosto de 2022.
       </span>
 
     </p>
@@ -788,10 +793,13 @@ gyroscope; picture-in-picture" allowfullscreen></iframe>
 <li class="toctree-l1 current"><a class="reference internal" href="informatica-index.html">Informática</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="informatica-hardware-index.html">Hardware de ordenador</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="informatica-hardware-intro.html">Introducción al hardware</a></li>
-<li class="toctree-l3"><a class="reference internal" href="informatica-hardware-cpu.html">Procesadores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="informatica-hardware-unidades.html">Unidades de medida de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="informatica-hardware-ley-moore.html">Ley de Moore</a></li>
+<li class="toctree-l3"><a class="reference internal" href="informatica-hardware-esquema-ordenador.html">Hardware de un ordenador personal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="informatica-hardware-placabase.html">Placa base</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Almacenamiento de información</a></li>
+<li class="toctree-l3"><a class="reference internal" href="informatica-hardware-cpu.html">Procesadores</a></li>
 <li class="toctree-l3"><a class="reference internal" href="informatica-hardware-perifericos.html">Periféricos</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Almacenamiento de información</a></li>
 <li class="toctree-l3"><a class="reference internal" href="informatica-hardware-comunicaciones.html">Comunicaciones</a></li>
 <li class="toctree-l3"><a class="reference internal" href="informatica-hardware-auxiliares.html">Elementos auxiliares</a></li>
 </ul>

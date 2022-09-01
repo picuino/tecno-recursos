@@ -6,13 +6,14 @@
 
 
 :index:`Placa base`
--------------------
+===================
 
 Una `placa base
 <https://es.wikipedia.org/wiki/Placa_base>`__
 también conocida como placa madre o motherboard
 es una tarjeta de circuito impreso que sirve de soporte y de conexión
-de los componentes internos de un ordenador con los componentes externos.
+de los componentes internos de un ordenador. Además tiene múltiples 
+conectores estándar para conectar los componentes externos.
 
 .. figure:: informatica/_images/informatica-placa-base-02.jpg
    :align: center
@@ -25,7 +26,8 @@ de los componentes internos de un ordenador con los componentes externos.
    via Wikimedia Commons.
 
 
-Elementos típicos de una placa base de ordenador personal
+Elementos típicos de una placa base de PC
+-----------------------------------------
 
 .. figure:: informatica/_images/informatica-placa-base-04a.jpg
    :align: center
@@ -45,6 +47,12 @@ Conectores para Video:
    
    5 - Conector HDMI para monitor.
 
+Conector trasero de audio digital:
+
+   6 - Salida de audio digital con conector `S/PDIF
+   <https://es.wikipedia.org/wiki/Protocolo_S/PDIF>`__.
+
+
 .. figure:: informatica/_images/informatica-placa-base-04b.jpg
    :align: center
    :width: 387px
@@ -58,11 +66,8 @@ Conectores USB y Ethernet:
    8 - Conector RJ-45 para conexión Ethernet de área local.
 
 `Conectores traseros de Audio analógico 
-<https://es.wikipedia.org/wiki/Conector_de_audio_anal%C3%B3gico#C%C3%B3digos_de_colores_en_PC_para_conectores_de_audio>`__ y digital:
+<https://es.wikipedia.org/wiki/Conector_de_audio_anal%C3%B3gico#C%C3%B3digos_de_colores_en_PC_para_conectores_de_audio>`__:
 
-   6 - Salida de audio digital con conector `S/PDIF
-   <https://es.wikipedia.org/wiki/Protocolo_S/PDIF>`__.
-      
    10 - Salida de audio analógico 7.1. Laterales, traseros y subwoofer.
    
    11 - Entrada analógica para micrófono.
@@ -107,9 +112,8 @@ Conectores para la caja y SATA:
    
 Otros conectores:
 
-   23 - Cuatro conectores para la memoria `RAM
-   <https://es.wikipedia.org/wiki/Memoria_de_acceso_aleatorio#DDR3_SDRAM>`__ 
-   DDR3.
+   23 - Cuatro conectores para la memoria `RAM DDR4
+   <https://es.wikipedia.org/wiki/DDR4_SDRAM>`__.
    
    24 - Conector de alimentación de la placa base.
 
@@ -122,4 +126,4 @@ Otros conectores:
    25 - `Zócalo de conexión de la CPU
    <https://es.wikipedia.org/wiki/Z%C3%B3calo_de_CPU>`__.
 
-   26 - Conector de alimentación de la placa base.
+   26 - Conector de alimentación de la placa base para la CPU.

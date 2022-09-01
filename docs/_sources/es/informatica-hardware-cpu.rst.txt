@@ -305,11 +305,12 @@ Test clásicos muy conocidos son los siguientes.
    MIPS
       Los `MIPS <https://es.wikipedia.org/wiki/Millones_de_instrucciones_por_segundo>`__
       o millones de instrucciones por segundo.
-      Es un test con ciertos problemas a la hora de comparar diferentes
-      arquitecturas, por lo que ha caído en desuso. A pesar de todo, es
-      muy útil para comparar de forma relativa procesadores a lo largo de
-      la historia y ver cómo crece la potencia de cómputo de forma
+      
+      Es un test muy útil para comparar de forma relativa procesadores a lo
+      largo de la historia y ver cómo crece la potencia de cómputo de forma
       exponencial con el tiempo.
+      A pesar de todo es un test con ciertos problemas a la hora de 
+      comparar diferentes arquitecturas, por lo que ha caído en desuso.
 
       Un ordenador personal típico de 2022 tiene aproximadamente 200 000
       MIPS.

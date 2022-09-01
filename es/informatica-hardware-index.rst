@@ -26,12 +26,12 @@ componen un ordenador.
    :titlesonly:
 
    informatica-hardware-intro.rst
-   informatica-hardware-esquema-ordenador.rst
    informatica-hardware-unidades.rst
    informatica-hardware-ley-moore.rst   
-   informatica-hardware-cpu.rst
+   informatica-hardware-esquema-ordenador.rst
    informatica-hardware-placabase.rst
-   informatica-hardware-almacenamiento.rst
+   informatica-hardware-cpu.rst
    informatica-hardware-perifericos.rst
+   informatica-hardware-almacenamiento.rst
    informatica-hardware-comunicaciones.rst
    informatica-hardware-auxiliares.rst

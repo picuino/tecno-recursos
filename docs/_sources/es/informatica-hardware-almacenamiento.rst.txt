@@ -74,7 +74,7 @@ Clasificación de dispositivos de almacenamiento
 Almacenamiento primario
 -----------------------
 Las memorias de almacenamiento primario son los dispositivos que contienen
-la información con la que está trabajando en este momento el procesador.
+la información con la que el procesador está trabajando.
 Son las memorias más rápidas y cercanas a la unidad central de proceso.
 
 .. glossary::
@@ -105,9 +105,9 @@ Son las memorias más rápidas y cercanas a la unidad central de proceso.
          `GNU Free Documentation License <https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2>`__,
          via Wikimedia Commons.
 
-      Como desventaja, es una memoria que pierde sus datos cuando se
-      apaga la alimentación del ordenador y suele ser mucho más cara que
-      las memorias de almacenamiento secundario,
+      La desventaja de la memoria RAM es que pierde sus datos cuando se
+      apaga la alimentación del ordenador además suele ser mucho más cara 
+      que las memorias de almacenamiento secundario,
       5€/Gbyte de una memoria RAM frente a 0,02€/Gbyte de un disco
       duro de 4Tbytes en 2022.
 
@@ -119,11 +119,11 @@ Son las memorias más rápidas y cercanas a la unidad central de proceso.
       contenidos leídos de la memoria RAM para que las posteriores
       peticiones de lectura se puedan atender con mayor rapidez.
 
-      Funciona de manera semejante a la memoria principal, pero es de
+      Funciona de manera semejante a la memoria RAM, pero es de
       menor tamaño y de acceso más rápido. Surgió cuando la memoria RAM
-      ya no fue capaz de trabajar a la misma velocidad del procesador
+      ya no fue capaz de trabajar a la misma velocidad del microprocesador
       y sirve para que el microprocesador reduzca el tiempo de acceso
-      a datos ubicados en la memoria RAM que se utilizan con más
+      a los datos ubicados en la memoria RAM que se utilizan con más
       frecuencia.
 
       Hoy en día la memoria caché de la RAM suele estar integrada dentro
@@ -133,13 +133,13 @@ Son las memorias más rápidas y cercanas a la unidad central de proceso.
 Almacenamiento secundario
 -------------------------
 Los dispositivos de almacenamiento secundario de un ordenador son
-memorias no volátiles, es decir que almacenan datos a pesar de que el
-ordenador no tenga alimentación, que se suelen instalar de forma
+memorias no volátiles, es decir, que almacenan datos a pesar de que el
+ordenador no tenga alimentación. Se suelen instalar de forma
 permanente en el interior del ordenador para que almacenen el sistema
 operativo y los diferentes programas y datos de uso habitual.
 
-La conexión se suele realizar por medios más lentos que con los 
-dispositivos de almacenamiento primario, pero tienen mayor capacidad 
+Los dispositivos de almacenamiento secundario son más lentos que los 
+de almacenamiento primario. Como contrapartida tienen mayor capacidad
 de almacenamiento.
 
 
@@ -148,19 +148,19 @@ de almacenamiento.
    Memoria ROM
       La `memoria ROM
       <https://es.wikipedia.org/wiki/Imagen_ROM>`__
-      o memoria de solo lectura es una memoria de almacenamiento
-      permanente de programas del ordenador.
-      Es donde se almacena el denominado
+      (Read Only Memory) o memoria de solo lectura es una memoria de 
+      almacenamiento permanente de programas y datos del ordenador.
+      En esta memoria se almacena el denominado
       `Firmware <https://es.wikipedia.org/wiki/Firmware>`__,
       programas de solo lectura que manejan un dispositivo.
 
       Las memorias ROM que se utilizan hoy en día no son de solo lectura,
       suelen estar basadas en tecnología Flash y se pueden reescribir,
-      aunque esto se realiza con muy poca frecuencia.
-      Por esta razón esta memoria hoy en día también se denomina
+      múltiples veces.
+      Por esta razón, hoy en día a esta memoria también se la denomina
       memoria Flash.
 
-      Las memorias ROM o Flash suelen ser más lentas, más sencillas y de
+      Las memorias Flash suelen ser más lentas, más sencillas y de
       menor capacidad que las memorias SSD, aunque ambas estén basadas
       internamente en la misma tecnología.
 
@@ -196,8 +196,8 @@ de almacenamiento.
 
       Los discos duros llevan muchos años en el mercado (desde 1956)
       por lo que se basan en tecnologías asentadas y muy optimizadas.
-      A pesar de ello van sustituyéndose poco a poco por los SSD por
-      las múltiples ventajas que presentan.
+      A pesar de ello, se van sustituyendo poco a poco por los SSD por
+      las múltiples ventajas que presentan estos últimos.
 
       .. figure:: informatica/_images/informatica-hdd.jpg
          :align: center
@@ -216,7 +216,7 @@ de almacenamiento.
       es un tipo de memoria secundaria basado en chips de tecnología Flash
       que almacenan información de forma permanente.
 
-      Son más modernos en el mercado que los discos duros (desde 2009)
+      Son más modernos en el mercado (desde 2009) que los discos duros 
       y tienen menos capacidad a igualdad de precio, pero van mejorando
       rápidamente con los años y están sustituyendo poco a poco a
       los discos duros tradicionales.
@@ -235,7 +235,7 @@ de almacenamiento.
 
       Comparación entre las unidades de estado sólido y los discos duros
 
-      Ventajas:
+      Ventajas de los SSD:
          * Mayor velocidad de transferencia.
            600MBytes/s de un SSD frente a 100 Mbytes/s de un HDD
          * Menor tiempo de acceso.
@@ -248,7 +248,7 @@ de almacenamiento.
          * Menor tamaño físico.
          * Menor ruido generado.
 
-      Desventajas
+      Desventajas de los SSD:
          * Menor resistencia a un gran número de escrituras.
          * Mayor precio por Gbyte.
            0,08€ de un SSD frente a 0,02€ de un HDD en 2022.
@@ -266,7 +266,7 @@ de almacenamiento.
       temperatura, sectores defectuosos, cantidad de datos escritos,
       errores de lectura, tiempo de funcionamiento, número de arranques,
       etc.
-      Aunque no es capaz de detectar todos los fallos posibles, si
+      Aunque no es capaz de detectar todos los fallos posibles, sí
       permite avisar ante la mayoría de los fallos debidos a una
       degradación de la unidad.
 
@@ -284,29 +284,32 @@ de almacenamiento.
       Un sistema `RAID (matriz redundante de discos independientes)
       <https://es.wikipedia.org/wiki/RAID>`__
       es una tecnología que permite unir varias unidades de disco duro
-      (HDD) o varias unidades de estado sólido (SSD) para aumentar sus
-      prestaciones.
+      (HDD) para aumentar sus prestaciones.
       Se utiliza en servidores de datos y en ordenadores de altas
-      prestaciones. Necesita una controladora RAID especializada.
+      prestaciones. 
+      Necesita una controladora RAID especializada para conectar los discos
+      al ordenador.
 
-      En un primer nivel, los diferentes discos se ven por parte del
-      sistema operativo como una sola unidad de disco y la velocidad de
-      transferencia aumenta al unir las transferencias de todos los discos.
+      En un primer nivel RAID, el sistema operativo ve una sola unidad
+      donde en realidad hay varios discos duros.
+      La velocidad de transferencia total aumenta al unir las 
+      velocidades de transferencia de cada uno de los discos.
 
       En niveles posteriores, se utiliza un disco para almacenar datos
       redundantes de paridad.
       Esto permite que los datos no se pierdan ante el fallo de una unidad.
-      Al detectar una unidad dañada, esta se puede cambiar por otra nueva y
-      el sistema recuperará automáticamente los datos perdidos.
+      Al detectar una unidad dañada, ésta se puede cambiar por otra nueva y
+      el sistema recuperará automáticamente los datos perdidos a partir 
+      de los datos redundantes.
 
 
    Búfer de datos
       Un `búfer de datos
       <https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos>`__
       es un espacio de memoria temporal que almacena datos de lectura o de
-      escritura a un periférico para acelerar el funcionamiento del
-      procesador o para evitar que un dispositivo pierda datos durante una
-      transferencia de datos irregular.
+      escritura que se dirigen a un periférico. De esta forma se acelera el 
+      funcionamiento del procesador y se evita que un dispositivo 
+      pierda datos durante una transferencia de datos irregular.
 
       Los búfer de escritura para un dispositivo lento, como un disco duro
       o un pendrive, almacenan varios mega bytes de datos que son enviados
@@ -327,11 +330,12 @@ de almacenamiento.
 
 Almacenamiento externo
 ----------------------
-Los dispositivos de almacenamiento externo son removibles, es decir que se
-pueden desconectar con facilidad del ordenador para ser transportados.
+Los dispositivos de almacenamiento externo se pueden desconectar con 
+facilidad del ordenador para ser transportados.
 
-Su velocidad es más lenta que los anteriores métodos de almacenamiento,
-pero presentan la ventaja de su mayor movilidad y facilidad de transporte.
+Su velocidad es más lenta que la de los anteriores métodos de 
+almacenamiento, pero presentan la ventaja de su mayor movilidad y 
+facilidad de transporte.
 
 .. glossary::
 
@@ -365,12 +369,11 @@ pero presentan la ventaja de su mayor movilidad y facilidad de transporte.
       La memoria en `tarjeta SD
       <https://es.wikipedia.org/wiki/Secure_Digital>`__
       se basa en la misma tecnología que las unidades de memoria USB y
-      tienen rendimientos semejantes.
+      tiene rendimientos semejantes.
 
-      Las diferencias fundamentales entre las dos tecnologías se encuentran
-      en el tipo de comunicación con el ordenador, que es más sencilla que
-      el USB, y en el tamaño mucho menor sobre todo de las tarjetas
-      microSD.
+      El estándar de conexión de la tarjeta SD es más sencillo que el 
+      estándar USB. Además el tamaño de las tarjetas SD suele ser menor
+      que el de los pendrive, especialmente en las tarjetas microSD.
 
       .. figure:: informatica/_images/informatica-sd.jpg
          :align: center
@@ -491,16 +494,17 @@ pero presentan la ventaja de su mayor movilidad y facilidad de transporte.
       En el momento en el que salieron al mercado, estas unidades de
       almacenamiento óptico tenían más capacidad que los propios discos
       duros, por lo que era un método de almacenamiento muy barato para
-      realizar backups. Hoy en día la capacidad de los discos duros ha
-      crecido tanto que su costo de almacenamiento ha bajado muchísimo,
-      hasta los 0,023 €/GB, por lo que ya no son rentables estas unidades
-      ópticas para almacenar grandes cantidades de datos.
+      realizar backup o copias de seguridad. 
+      Hoy en día, la capacidad de los discos duros ha crecido tanto que su 
+      costo de almacenamiento ha bajado muchísimo, hasta los 0,023 €/GB, 
+      por lo que ya no son rentables estas unidades ópticas para almacenar 
+      grandes cantidades de datos.
 
       Las memorias USB también han crecido exponencialmente en su capacidad
       y en 2022 una unidad con mayor capacidad que un Blu-ray es
       relativamente barata (5€). Aunque el precio por GByte siga siendo
       algo mayor en las memorias USB (0,12 - 0,05€/GByte), su mayor
-      versatilidad y facilidad de lectura/escritura han hecho que ocupen
+      versatilidad y facilidad de lectura/escritura han hecho que asuman
       muchas aplicaciones que antes se realizaban con discos ópticos,
       tales como los reproductores de música.
 
@@ -593,8 +597,9 @@ almacenamiento se puedan optimizar y compartir entre varios ordenadores.
       Permite almacenar, recuperar y compartir los datos en un punto
       centralizado para todos los ordenadores de una red local.
 
-      Normalmente los servidores NAS son sistemas dedicados, no ordenadores
-      personales. Contienen varias bahías para la conexión de unidades
+      Normalmente los servidores NAS son equipos diseñados para 
+      atender exclusivamente a esta función.
+      Contienen varias bahías para la conexión de unidades
       de almacenamiento (HDD o SSD) en conexión :term:`RAID` para aumentar
       sus prestaciones.
 
