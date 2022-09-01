@@ -108,7 +108,6 @@ Conexiones internas
 
          `Dsimic
          <https://commons.wikimedia.org/wiki/File:2.5-inch_SATA_drive_on_top_of_a_3.5-inch_SATA_drive,_close-up_of_data_and_power_connectors.jpg>`__,
-         via Wikimedia Commons.
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
          via Wikimedia Commons.
 
@@ -120,7 +119,6 @@ Conexiones internas
 
          `Swiki
          <https://commons.wikimedia.org/wiki/File:SATA_Data_Cable.jpg>`__,
-         via Wikimedia Commons.
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
          via Wikimedia Commons.
 
@@ -229,7 +227,6 @@ Conexiones internas
 
          `Tobias B. Köhler
          <https://commons.wikimedia.org/wiki/File:4GB_DDR3_SO-DIMM.jpg>`__,
-         via Wikimedia Commons.
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
          via Wikimedia Commons.
 
@@ -242,13 +239,30 @@ Conexiones internas
 
          `Wagner51
          <https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg>`__,
-         via Wikimedia Commons.
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
          via Wikimedia Commons.
 
 
    Zócalo para CPU
-      El `Zócalo_de_CPU <https://es.wikipedia.org/wiki/Z%C3%B3calo_de_CPU>`__
+      El `zócalo de CPU <https://es.wikipedia.org/wiki/Z%C3%B3calo_de_CPU>`__
+      permite conectar el microprocesador o CPU a la placa base.
+      En placas base de alto rendimiento puede haber más de un zócalo para
+      poder conectar varios microprocesadores en una misma placa base.
+      
+      El zócalo de CPU suele servir para conectar varios microprocesadores
+      de una misma familia, pero cambia mucho entre familias de 
+      microprocesadores y entre fabricantes de CPU (Intel o AMD).
+      
+      .. figure:: informatica/_images/informatica-zocalo-1151.jpg
+         :align: center
+         :width: 340px
+
+         Zócalo para CPU de tipo LGA 1151, también conocido como Socket H4.
+
+         `Xaar
+         <https://commons.wikimedia.org/wiki/File:Socket_1151_closed_01.jpg>`__,
+         `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
+         via Wikimedia Commons.
       
 
 Conexiones externas
