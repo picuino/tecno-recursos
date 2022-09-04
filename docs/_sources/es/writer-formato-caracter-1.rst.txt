@@ -17,7 +17,7 @@ el color del texto y del fondo.
 
 |br|
 
-#. Primero descargamos y abrimos con LibreOffice Writer 
+1. Primero descargamos y abrimos con LibreOffice Writer 
    el documento de ejemplo.
 
    :download:`Ejercicio formato de carácter I
@@ -26,11 +26,12 @@ el color del texto y del fondo.
    |br|
 
 #. Al abrir el archivo anterior nos encontraremos con el 
-   siguiente texto, pero escrito sin formato.
+   siguiente texto sin formato.
    
-   El ejercicio consiste en dar formato a cada párrafo 
-   para que coincida con lo que hay escrito y con la 
-   siguiente imagen.
+   El ejercicio consiste en dar formato a cada párrafo del
+   texto para que coincida con las instrucciones que pueden
+   leerse en la siguiente imagen.
+   Esta imagen representa el resultado final del ejercicio.
 
    .. image:: writer/_images/writer-p08-ejercicio.png
               :align: center

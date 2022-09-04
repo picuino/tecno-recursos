@@ -32,7 +32,7 @@ especiales del teclado** y aprendas a escribir todo tipo de textos.
 
 |br|
 
-2. En la parte superior de la ventana se pueden ver las **barras
+#. En la parte superior de la ventana se pueden ver las **barras
    de herramientas** de Writer y la regla.
 
    En la parte inferior de la ventana se puede ver el **área de

@@ -186,7 +186,7 @@ Logotipo Quantum3D
    
    |br|
 
-#. El borde circular central deberemos colorearle con un gradiente que 
+#. Debemos colorear el borde circular central con un gradiente que 
    comience con un color oscuro arriba a la izquierda 
    y termine con un color más claro abajo a la derecha.
    

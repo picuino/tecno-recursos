@@ -8,7 +8,8 @@
 Tutorial de Writer
 ==================
 
-Tutorial de LibreOffice Writer en Castellano.
+Tutorial para aprender a editar textos
+con el programa de código libre LibreOffice Writer, en Castellano.
 
 Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
 

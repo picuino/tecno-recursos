@@ -27,7 +27,8 @@ Logotipo Cube
 
    Este tipo de perspectiva se denomina cónica y en ella todas
    las líneas horizontales o todas las líneas verticales
-   se dirigen hacia un punto denominado punto de fuga.
+   se dirigen hacia un punto denominado `punto de fuga
+   <https://es.wikipedia.org/wiki/Punto_de_fuga>`__.
 
    |br|
 

@@ -22,6 +22,8 @@ Logotipo Citroën
 #. Con la herramienta de dibujar cuadrados y rectángulos
    |button-square| dibujamos un cuadrado y cambiamos sus dimensiones
    a 70 por 70 milímetros en la barra superior.
+   El logotipo de Citroën no es exactamente cuadrado, pero el resultado
+   que obtenemos es una aproximación muy cercana al original.
 
    En el menú de ``Objeto... Relleno y borde...`` cambiamos los valores
    de relleno RGB a 185 Rojo, 38 Verde y 30 Azul.

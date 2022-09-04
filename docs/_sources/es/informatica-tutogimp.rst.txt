@@ -7,8 +7,8 @@
 
 Tutorial de Gimp
 ==================
-Tutorial del programa de manipulación de imágenes Gimp.
-En Castellano.
+Tutorial para aprender a manipular imágenes de mapa de bits
+con el programa de código libre Gimp, en Castellano.
 
 Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
 

@@ -14,15 +14,15 @@ Elementos auxiliares
       La `fuente de alimentación
       <https://www.intel.es/content/www/es/es/gaming/resources/power-supply.html>`__
       es el componente que se encarga de alimentar con energía eléctrica
-      de baja tensión continua (5V y 12V) a todos los componentes del
-      ordenador.
+      de baja tensión en corriente continua (5V y 12V) a todos los 
+      componentes del ordenador.
 
       La fuente de alimentación debe tener suficiente potencia para poder
       alimentar todos los componentes, pero también debe tener suficiente
       `corriente
       <https://www.muycomputer.com/2018/10/14/guia-fuente-de-alimentacion/>`__
-      para poder alimentar las tarjetas gráficas (que suelen ser
-      las que tienen mayor demanda).
+      para poder alimentar las tarjetas gráficas, que suelen ser
+      las que tienen mayor demanda de corriente.
 
       En los teléfonos móviles y tabletas la fuente de alimentación suele
       ser un adaptador para enchufe con salida USB C. Muchos de estos
@@ -54,7 +54,6 @@ Elementos auxiliares
          via Wikimedia Commons.
 
 
-
    Refrigeración por aire
       La `refrigeración por aire
       <https://es.wikipedia.org/wiki/Refrigeraci%C3%B3n_por_aire>`__
@@ -70,7 +69,8 @@ Elementos auxiliares
       (sin ventiladores) para evitar el ruido.
 
       Otro sistema que permite retirar grandes cantidades de calor con
-      poco ruido es la refrigeración líquida, aunque tiene un precio mayor.
+      poco ruido es la refrigeración líquida, aunque su precio es mayor
+      que la refrigeración por aire.
 
 
    Refrigeración líquida
@@ -100,26 +100,27 @@ Elementos auxiliares
 
       Existen `multitud de formatos de caja
       <https://es.wikipedia.org/wiki/Caja_de_computadora#Tipos_de_caja>`__
-      de varios tamaños y propósitos, desde una caja pequeña tipo barebone
-      hasta una gran caja de tipo torre, cajas de tipo rack para servidores
-      o carcasas de portátiles o tabletas.
+      de varios tamaños y propósitos, desde una caja pequeña tipo 
+      *barebone* hasta una gran caja de tipo torre, cajas de tipo *rack*
+      para servidores o carcasas de portátiles o tabletas.
 
 
    Pila CMOS
-      La pila de la placa base es una pila de tipo botón (suele ser una
-      CR-2032) que se encarga de alimentar el reloj en tiempo real y
+      La pila de la placa base es una pila de tipo botón que se encarga de
+      alimentar el reloj en tiempo real y
       la `memoria RAM-CMOS que almacena las opciones de la BIOS
       <https://es.wikipedia.org/wiki/RAM-CMOS>`__
       mientras el ordenador está apagado.
+      Suele ser una pila de botón modelo CR-2032. 
 
       Cuando esta pila se desgasta tras varios años de uso, el reloj
       deja de mantener la hora actual y se resetea a su hora de inicio,
       además se pierden los ajustes de la BIOS. Todo esto provoca que el
       ordenador no funcione con normalidad o que no funcione en absoluto.
 
-      La solución es sencilla puesto que se puede encontrar una pila de
-      repuesto en cualquier comercio y el reemplazo es relativamente fácil
-      de realizar.
+      La solución a este problema es sencilla porque que se puede encontrar
+      una pila de repuesto en cualquier comercio y el reemplazo es 
+      relativamente fácil de realizar.
 
       .. figure:: informatica/_images/informatica-cr-2032.jpg
          :align: center
@@ -130,6 +131,7 @@ Elementos auxiliares
          `Krzysztof Woźnica <https://commons.wikimedia.org/wiki/File:Battery-lithium-cr2032.jpg>`__,
          Public Domain,
          via Wikimedia Commons.
+
 
    Reloj en tiempo real
       El `RTC o reloj en tiempo real
@@ -142,6 +144,7 @@ Elementos auxiliares
 
       El reloj de tiempo real se utiliza para almacenar los archivos
       con la hora actual o para sincronizarse con servicios por internet.
+
 
    Modding
       El `modding

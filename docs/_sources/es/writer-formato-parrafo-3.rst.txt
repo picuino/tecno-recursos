@@ -74,7 +74,7 @@ etc.
    seleccionamos la transparencia al 70% para que
    la imagen de fondo se vea más clara.
 
-   Una vez que terminamos podemos pinchar en el botón
+   Una vez hecho esto, podemos pinchar en el botón
    de abajo **Aceptar** y veremos el texto como muestra
    la siguiente imagen.
 

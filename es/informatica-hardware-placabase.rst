@@ -49,8 +49,9 @@ Conectores para Video:
 
 Conector trasero de audio digital:
 
-   6 - Salida de audio digital con conector `S/PDIF
-   <https://es.wikipedia.org/wiki/Protocolo_S/PDIF>`__.
+   6 - Conector `S/PDIF
+   <https://es.wikipedia.org/wiki/Protocolo_S/PDIF>`__
+   para salida de audio digital.
 
 
 .. figure:: informatica/_images/informatica-placa-base-04b.jpg
@@ -68,13 +69,13 @@ Conectores USB y Ethernet:
 `Conectores traseros de Audio analógico 
 <https://es.wikipedia.org/wiki/Conector_de_audio_anal%C3%B3gico#C%C3%B3digos_de_colores_en_PC_para_conectores_de_audio>`__:
 
-   10 - Salida de audio analógico 7.1. Laterales, traseros y subwoofer.
+   10 - Salida de audio analógico 7.1. Altavoces laterales, traseros y subwoofer.
    
    11 - Entrada analógica para micrófono.
    
-   12 - Salida de audio analógico estéreo (frontales)
+   12 - Salida de audio analógico estéreo. Altavoces frontales.
    
-   13 - Entrada de audio analógico, nivel de línea
+   13 - Entrada de audio analógico, nivel de línea.
 
 .. figure:: informatica/_images/informatica-placa-base-04c.jpg
    :align: center
@@ -86,7 +87,7 @@ Conectores para tarjetas de expansión:
    
    15 - Pila para la memoria CMOS de la placa base.
    
-   16 y 18 - Conector `PCI <https://es.wikipedia.org/wiki/Peripheral_Component_Interconnect>`__ antiguo.
+   16 y 18 - Conectores `PCI <https://es.wikipedia.org/wiki/Peripheral_Component_Interconnect>`__ antiguos.
 
    17 - Conector `PCI Express <https://es.wikipedia.org/wiki/PCI_Express>`__ x1.
 
@@ -99,11 +100,11 @@ Conectores para la caja y SATA:
    
    19 - Conectores para USB de la caja del PC.
    
-   20 - Conector para el altavoz de la caja del PC
+   20 - Conector para el altavoz de la caja del PC.
    
    21 - Conectores para los ledes de la caja del PC y pulsador de alimentación.
    
-   22 - Conectores SATA para conectar discos duros, SSD, DVD, etc.
+   22 - Conectores SATA para conectar unidades de disco duro, SSD, DVD, etc.
 
 
 .. figure:: informatica/_images/informatica-placa-base-04e.jpg
@@ -127,3 +128,10 @@ Otros conectores:
    <https://es.wikipedia.org/wiki/Z%C3%B3calo_de_CPU>`__.
 
    26 - Conector de alimentación de la placa base para la CPU.
+
+
+Test de la unidad
+-----------------
+
+`Test de la placa base.
+<https://www.picuino.com/test/es-hardware-placa-base.html>`__

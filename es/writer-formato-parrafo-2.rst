@@ -31,7 +31,7 @@ dar formato a columnas de un párrafo.
    |br|
 
    Podemos ver tres palabras que son los encabezados de
-   las tres columnas que vamos a escribir.
+   las tres columnas que vamos a completar.
    
    Para ver los tabuladores de las columnas abrimos el
    menú ``Formato... Párrafo...`` y elegimos la pestaña 
@@ -59,7 +59,7 @@ dar formato a columnas de un párrafo.
    
    |br|
 
-#. A continuación completamos el ejercicio escribiendo
+#. A continuación terminamos el ejercicio escribiendo
    el texto que falta como se muestra en la siguiente
    imagen.
    

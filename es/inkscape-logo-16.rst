@@ -138,8 +138,8 @@ Logotipo HTStec
 
    |br|
 
-#. Cuando terminemos de cambiar el color de las letras a blanco, el
-   logotipo estará terminado.
+#. Cuando terminemos de cambiar el color de los puntos de las letras 
+   a blanco, el logotipo estará terminado.
 
    .. image:: inkscape/_images/inkscape-logo-16-k.png
       :align: center

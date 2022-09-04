@@ -7,7 +7,8 @@
 
 Tutorial de Calc
 ================
-Tutorial de LibreOffice Calc en Castellano.
+Tutorial para aprender a manejar una hoja de cálculo
+con el programa de código libre LibreOffice Calc, en Castellano.
 
 Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
 

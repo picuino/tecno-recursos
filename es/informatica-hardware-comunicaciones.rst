@@ -29,14 +29,14 @@ Conexiones internas
   * Buses de placa base
   * SATA
   * PCI Express
-  * Zócalo para DIMM
+  * Zócalo para memoria RAM
   * Zócalo para CPU
 
 Conexiones externas
   * USB
-  * Audio
-  * PS/2
+  * Conectores de audio analógico
   * eSATA
+  * PS/2
   * RS232
 
 Conexiones de video
@@ -70,6 +70,7 @@ Conexiones internas
          <https://commons.wikimedia.org/wiki/File:Motherboard_bus.jpg>`__,
          via Wikimedia Commons.
 
+
    SATA
       El bus `serial ATA <https://es.wikipedia.org/wiki/Serial_ATA>`__
       conecta las unidades de almacenamiento del ordenador 
@@ -80,8 +81,8 @@ Conexiones internas
       El cable de conexión desde la placa base hasta la unidad de
       almacenamiento puede llegar a tener hasta 1 metro de longitud, 
       aunque la mayoría de los cables fabricados tienen menor longitud.
-      Por esta razón este es un estándar pensado para conectar dispositivos
-      dentro de la caja o carcasa del ordenador.
+      Esto es así porque SATA es un estándar pensado para conectar 
+      dispositivos dentro de la caja o carcasa del ordenador.
       
       .. list-table::
          :widths: auto
@@ -122,10 +123,11 @@ Conexiones internas
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
          via Wikimedia Commons.
 
+
    PCI Express
       `PCI Express <https://es.wikipedia.org/wiki/PCI_Express>`__
       abrevidado PCIe o PCI-e es un conjunto de conectores internos
-      de la placa base, que sirven para conectar tarjetas de expansión
+      de la placa base, que sirve para conectar tarjetas de expansión
       al ordenador. Estas tarjetas de expansión pueden ser **tarjetas 
       gráficas**, controladoras RAID, tarjetas de red Ethernet, tarjetas
       de sonido, etc.
@@ -152,6 +154,18 @@ Conexiones internas
          * - PCI-E x16
            - 82 
            - 89 mm
+
+      .. figure:: informatica/_images/informatica-pci-express.jpg
+         :align: center
+         :width: 420px
+
+         Conectores PCI Express x4, x16, x1, x16 y PCI x32 (no Express y 
+         obsoleto).
+
+         `Jona
+         <https://commons.wikimedia.org/wiki/File:PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg>`__,
+         `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
+         via Wikimedia Commons.
 
       La velocidad de transferencia depende de la versión de PCI Express  
       (aumenta cada pocos años) y del número de canales de comunicación 
@@ -204,7 +218,8 @@ Conexiones internas
       tarjetas de expansión especializadas, conectadas a conectores de 
       expansión semejantes al actual PCI-Express.
 
-   Zócalo para módulo de memoria RAM de tipo DIMM
+
+   Zócalo para memoria RAM de tipo DIMM
       `DIMM <https://es.wikipedia.org/wiki/DIMM>`__
       son las siglas de Dual In-line Memory Module (módulo de memoria de 
       dos líneas) llamado así porque los conectores del módulo tienen dos
@@ -249,15 +264,51 @@ Conexiones internas
       En placas base de alto rendimiento puede haber más de un zócalo para
       poder conectar varios microprocesadores en una misma placa base.
       
-      El zócalo de CPU suele servir para conectar varios microprocesadores
-      de una misma familia, pero cambia mucho entre familias de 
-      microprocesadores y entre fabricantes de CPU (Intel o AMD).
+      Cada zócalo de CPU sirve para conectar microprocesadores de una 
+      misma familia. Los zócalos cambian de forma y número de conexiones
+      entre familias de microprocesadores y entre fabricantes de CPU 
+      (Intel o AMD).
       
+      El zócalo de CPU permite aumentar la potencia del ordenador cambiando
+      el microprocesador antiguo por otro más potente de una familia 
+      compatible con la del microprocesador anterior. 
+      Esta operación suele ser sencilla de realizar y cuesta solo una 
+      pequeña fracción de lo que costaría comprar un ordenador nuevo.
+
+      Estos son algunos zócalos para ordenadores de escritorio:
+      
+      .. list-table::
+         :widths: auto
+         :header-rows: 1
+         
+         * - Nombre
+           - Año
+           - Familia
+         * - `LGA 1155 (H2) <https://es.wikipedia.org/wiki/LGA_1155>`__
+           - 2011 
+           - Intel Sandy Bridge y Ivy Bridge
+         * - `LGA 1150 (H3) <https://es.wikipedia.org/wiki/LGA_1150>`__
+           - 2013
+           - Intel Haswell y Broadwell
+         * - `LGA 1151 (H4) <https://es.wikipedia.org/wiki/LGA_1151>`__
+           - 2015
+           - Intel Skylake​ y KabyLake
+         * - `LGA 1200 <https://es.wikipedia.org/wiki/LGA_1200>`__
+           - 2020
+           - Intel Comet Lake
+         * - `Socket  AM4 <https://es.wikipedia.org/wiki/Socket_AM4>`__
+           - 2016
+           - AMD  Zen+, Zen 2 y Zen 3
+         * - `Socket AM5 <https://en.wikipedia.org/wiki/Socket_AM5>`__
+           - 2022
+           - AMD Zen 4
+
       .. figure:: informatica/_images/informatica-zocalo-1151.jpg
          :align: center
          :width: 340px
 
-         Zócalo para CPU de tipo LGA 1151, también conocido como Socket H4.
+         Zócalo para CPU de tipo LGA 1151, también conocido como 
+         `Socket H4 <https://es.wikipedia.org/wiki/LGA_1151>`__.
 
          `Xaar
          <https://commons.wikimedia.org/wiki/File:Socket_1151_closed_01.jpg>`__,
@@ -274,7 +325,7 @@ Conexiones externas
       El `USB <https://es.wikipedia.org/wiki/Universal_Serial_Bus>`__
       (Universal Serial Bus)
 
-   Audio
+   Conectores de audio analógico
       Los `conectores de audio analógicos
       <https://es.wikipedia.org/wiki/Conector_de_audio_anal%C3%B3gico>`__
 
@@ -297,20 +348,17 @@ Conectores de vídeo
    VGA
       El conector `VGA
       <https://es.wikipedia.org/wiki/Video_Graphics_Array#Conector_VGA>`__
-      (Video Graphics Array)
-      de gráficos analógico.
+      (Video Graphics Array) de gráficos analógico.
 
    DVI
       El conector `DVI
       <https://es.wikipedia.org/wiki/Digital_Visual_Interface>`__
-      (Digital Visual Interface)
-      de gráficos digital.
+      (Digital Visual Interface) de gráficos digital.
 
    HDMI
       El conector `HDMI
       <https://es.wikipedia.org/wiki/High-Definition_Multimedia_Interface>`__
-      (High-Definition Multimedia Interface)
-      de gráficos digital.
+      (High-Definition Multimedia Interface) de gráficos y audio digital.
 
 
 Conectores de red

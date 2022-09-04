@@ -82,8 +82,8 @@ Logotipo Mutewatch
 
 #. Ahora vamos a dibujar un trapecio que nos servirá como modelo para
    distorsionar la perspectiva del trazo.
-   Los puntos del  trapecio debemos dibujarles en el orden que se 
-   representa en la siguiente imagen.
+   Debemos dibujar los puntos del trapecio en el orden representado 
+   en la siguiente imagen.
 
    .. image:: inkscape/_images/inkscape-logo-19-g.png
       :align: center

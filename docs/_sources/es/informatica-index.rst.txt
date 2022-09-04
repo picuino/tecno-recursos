@@ -25,5 +25,6 @@ Tutoriales de ofimática y páginas Web.
    html-index.rst
    css-index.rst
    informatica-ciberseguridad.rst
+   informatica-machine-learning.rst
 
    informatica-recursos.rst

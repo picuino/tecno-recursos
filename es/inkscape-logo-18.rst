@@ -72,7 +72,7 @@ Logotipo Exmouth Fish Co.
 #. Hacemos zoom en la figura y con la herramienta de editar nodos
    |button-edit-nodes|
    colocamos los puntos de la cola de pez en su sitio tal y como
-   muestra la imagen adjunta.
+   muestra la siguiente imagen.
 
    .. image:: inkscape/_images/inkscape-logo-18-e.png
       :align: center
@@ -80,7 +80,7 @@ Logotipo Exmouth Fish Co.
    |br|
 
 #. Ahora es necesario curvar las líneas para conseguir el efecto de
-   cola de pez. Para conseguirlo, seleccionamos los dos nodos de la
+   cola de pez. Para ello, seleccionamos los dos nodos de la
    izquierda y pulsamos en el botón de suavizar los nodos
    seleccionados y luego en el botón de convertir en esquina
    los nodos seleccionados.
@@ -110,7 +110,7 @@ Logotipo Exmouth Fish Co.
 
    |br|
 
-#. Para terminar de dibujar la cola de pez, seleccionamos el nodo central
+#. Para terminar de dibujar la cola de pez, seleccionamos el nodo central,
    le suavizamos y le convertimos en esquina.
    Ajustamos los tiradores tal y como se muestra en la figura y ya tenemos
    terminada la cola de pez con un dibujo simétrico.
@@ -189,14 +189,13 @@ Logotipo Exmouth Fish Co.
 
    |br|
 
-#. Para terminar seleccionamos solamente la línea curva inferior
+#. Para terminar, seleccionamos solamente la línea curva inferior
    y la movemos al fondo con el menú ``Objeto... Bajar al fondo``
    para que no se pueda ver.
 
    En el menú ``Archivo... Propiedades del documento...``
    dentro de la pestaña Rejillas quitamos la visualización de la
    rejilla y ya tenemos el logotipo terminado.
-
 
    .. image:: inkscape/_images/inkscape-logo-18-s.png
       :align: center

@@ -40,17 +40,16 @@ final de cada línea y otras opciones semejantes.
    |br|
 
 #. Al abrir el archivo anterior nos encontraremos con el
-   siguiente texto, pero escrito sin formato.
+   siguiente texto sin formato.
+
+   El ejercicio consiste en dar formato a cada párrafo del
+   texto para que coincida con las instrucciones que pueden
+   leerse en la siguiente imagen.
+   Esta imagen representa el resultado final del ejercicio.
 
    .. image:: writer/_images/writer-p10-ejercicio.png
               :align: center
               :alt: Ejercicio formato de párrafo I.
-
-   |br|
-
-   El ejercicio consiste en dar formato a cada párrafo
-   para que coincida con lo que hay escrito y con la
-   imagen anterior.
 
    |br|
 

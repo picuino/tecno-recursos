@@ -7,7 +7,9 @@
 
 Tutorial de Impress
 ===================
-Tutorial de LibreOffice Impress en Castellano.
+
+Tutorial para aprender a hacer presentaciones informáticas
+con el programa de código libre LibreOffice Impress, en Castellano.
 
 Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
 

@@ -111,30 +111,30 @@ las líneas de comunicación de internet a nivel mundial.</p>
 <div class="contents local topic" id="indice-de-contenidos">
 <p class="topic-title">Índice de contenidos</p>
 <ul class="simple">
-<li><a class="reference internal" href="#clasificacion" id="id7">Clasificación</a></li>
-<li><a class="reference internal" href="#conexiones-internas" id="id8">Conexiones internas</a></li>
-<li><a class="reference internal" href="#conexiones-externas" id="id9">Conexiones externas</a></li>
-<li><a class="reference internal" href="#conectores-de-video" id="id10">Conectores de vídeo</a></li>
-<li><a class="reference internal" href="#conectores-de-red" id="id11">Conectores de red</a></li>
-<li><a class="reference internal" href="#conexiones-inalambricas" id="id12">Conexiones inalámbricas</a></li>
+<li><a class="reference internal" href="#clasificacion" id="id8">Clasificación</a></li>
+<li><a class="reference internal" href="#conexiones-internas" id="id9">Conexiones internas</a></li>
+<li><a class="reference internal" href="#conexiones-externas" id="id10">Conexiones externas</a></li>
+<li><a class="reference internal" href="#conectores-de-video" id="id11">Conectores de vídeo</a></li>
+<li><a class="reference internal" href="#conectores-de-red" id="id12">Conectores de red</a></li>
+<li><a class="reference internal" href="#conexiones-inalambricas" id="id13">Conexiones inalámbricas</a></li>
 </ul>
 </div>
 <div class="section" id="clasificacion">
-<h2><a class="toc-backref" href="#id7">Clasificación</a><a class="headerlink" href="#clasificacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Clasificación</a><a class="headerlink" href="#clasificacion" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="docutils">
 <dt>Conexiones internas</dt><dd><ul class="simple">
 <li>Buses de placa base</li>
 <li>SATA</li>
 <li>PCI Express</li>
-<li>Zócalo para DIMM</li>
+<li>Zócalo para memoria RAM</li>
 <li>Zócalo para CPU</li>
 </ul>
 </dd>
 <dt>Conexiones externas</dt><dd><ul class="simple">
 <li>USB</li>
-<li>Audio</li>
-<li>PS/2</li>
+<li>Conectores de audio analógico</li>
 <li>eSATA</li>
+<li>PS/2</li>
 <li>RS232</li>
 </ul>
 </dd>
@@ -156,7 +156,7 @@ las líneas de comunicación de internet a nivel mundial.</p>
 </dl>
 </div>
 <div class="section" id="conexiones-internas">
-<h2><a class="toc-backref" href="#id8">Conexiones internas</a><a class="headerlink" href="#conexiones-internas" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Conexiones internas</a><a class="headerlink" href="#conexiones-internas" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="glossary docutils">
 <dt id="term-Buses-de-placa-base">Buses de placa base</dt><dd><p>Son las pistas del circuito impreso que llevan los datos entre
 la CPU y el resto de los dispositivos conectados a la placa base.</p>
@@ -176,8 +176,8 @@ en funcionamiento la versión 3.0.</p>
 <p>El cable de conexión desde la placa base hasta la unidad de
 almacenamiento puede llegar a tener hasta 1 metro de longitud,
 aunque la mayoría de los cables fabricados tienen menor longitud.
-Por esta razón este es un estándar pensado para conectar dispositivos
-dentro de la caja o carcasa del ordenador.</p>
+Esto es así porque SATA es un estándar pensado para conectar
+dispositivos dentro de la caja o carcasa del ordenador.</p>
 <table border="1" class="colwidths-auto docutils align-default">
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Versión</th>
@@ -219,7 +219,7 @@ via Wikimedia Commons.</div>
 </dd>
 <dt id="term-PCI-Express">PCI Express</dt><dd><p><a class="reference external" href="https://es.wikipedia.org/wiki/PCI_Express" rel="noopener noreferrer" target="_blank">PCI Express</a>
 abrevidado PCIe o PCI-e es un conjunto de conectores internos
-de la placa base, que sirven para conectar tarjetas de expansión
+de la placa base, que sirve para conectar tarjetas de expansión
 al ordenador. Estas tarjetas de expansión pueden ser <strong>tarjetas
 gráficas</strong>, controladoras RAID, tarjetas de red Ethernet, tarjetas
 de sonido, etc.</p>
@@ -251,6 +251,15 @@ de comunicación que contengan.</p>
 </tr>
 </tbody>
 </table>
+<div class="figure align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/informatica-pci-express.jpg"><img alt="../_images/informatica-pci-express.jpg" src="../_images/informatica-pci-express.jpg" style="width: 420px;" /></a>
+<p class="caption"><span class="caption-text">Conectores PCI Express x4, x16, x1, x16 y PCI x32 (no Express y
+obsoleto).</span><a class="headerlink" href="#id4" title="Enlace permanente a esta imagen">¶</a></p>
+<div class="legend">
+<a class="reference external" href="https://commons.wikimedia.org/wiki/File:PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg" rel="noopener noreferrer" target="_blank">Jona</a>,
+<a class="reference external" href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a>,
+via Wikimedia Commons.</div>
+</div>
 <p>La velocidad de transferencia depende de la versión de PCI Express
 (aumenta cada pocos años) y del número de canales de comunicación
 del conector.</p>
@@ -306,7 +315,7 @@ buses USB, etc) y estas funciones tenían que ser suministradas por
 tarjetas de expansión especializadas, conectadas a conectores de
 expansión semejantes al actual PCI-Express.</p>
 </dd>
-<dt id="term-Zocalo-para-modulo-de-memoria-RAM-de-tipo-DIMM">Zócalo para módulo de memoria RAM de tipo DIMM</dt><dd><p><a class="reference external" href="https://es.wikipedia.org/wiki/DIMM" rel="noopener noreferrer" target="_blank">DIMM</a>
+<dt id="term-Zocalo-para-memoria-RAM-de-tipo-DIMM">Zócalo para memoria RAM de tipo DIMM</dt><dd><p><a class="reference external" href="https://es.wikipedia.org/wiki/DIMM" rel="noopener noreferrer" target="_blank">DIMM</a>
 son las siglas de Dual In-line Memory Module (módulo de memoria de
 dos líneas) llamado así porque los conectores del módulo tienen dos
 caras de pines de conexión.</p>
@@ -317,18 +326,18 @@ dependiendo de la versión de la RAM, estos módulos pueden tener
 diferente número de contactos, diferente tamaño y diferente posición
 de la ranura central para evitar la conexión por error de módulos
 diferentes.</p>
-<div class="figure align-center" id="id4">
+<div class="figure align-center" id="id5">
 <a class="reference internal image-reference" href="../_images/informatica-sodimm-ddr3.jpg"><img alt="../_images/informatica-sodimm-ddr3.jpg" src="../_images/informatica-sodimm-ddr3.jpg" style="width: 480px;" /></a>
-<p class="caption"><span class="caption-text">Módulo de memoria SO-DIMM DDR3 para portátil.</span><a class="headerlink" href="#id4" title="Enlace permanente a esta imagen">¶</a></p>
+<p class="caption"><span class="caption-text">Módulo de memoria SO-DIMM DDR3 para portátil.</span><a class="headerlink" href="#id5" title="Enlace permanente a esta imagen">¶</a></p>
 <div class="legend">
 <a class="reference external" href="https://commons.wikimedia.org/wiki/File:4GB_DDR3_SO-DIMM.jpg" rel="noopener noreferrer" target="_blank">Tobias B. Köhler</a>,
 <a class="reference external" href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a>,
 via Wikimedia Commons.</div>
 </div>
-<div class="figure align-center" id="id5">
+<div class="figure align-center" id="id6">
 <a class="reference internal image-reference" href="../_images/informatica-dimm-ddr2.jpg"><img alt="../_images/informatica-dimm-ddr2.jpg" src="../_images/informatica-dimm-ddr2.jpg" style="width: 480px;" /></a>
 <p class="caption"><span class="caption-text">Módulo de memoria DIMM DDR y módulo DDR2 con diferente número de
-pines y distintas ranuras de seguridad.</span><a class="headerlink" href="#id5" title="Enlace permanente a esta imagen">¶</a></p>
+pines y distintas ranuras de seguridad.</span><a class="headerlink" href="#id6" title="Enlace permanente a esta imagen">¶</a></p>
 <div class="legend">
 <a class="reference external" href="https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg" rel="noopener noreferrer" target="_blank">Wagner51</a>,
 <a class="reference external" href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a>,
@@ -339,12 +348,54 @@ via Wikimedia Commons.</div>
 permite conectar el microprocesador o CPU a la placa base.
 En placas base de alto rendimiento puede haber más de un zócalo para
 poder conectar varios microprocesadores en una misma placa base.</p>
-<p>El zócalo de CPU suele servir para conectar varios microprocesadores
-de una misma familia, pero cambia mucho entre familias de
-microprocesadores y entre fabricantes de CPU (Intel o AMD).</p>
-<div class="figure align-center" id="id6">
+<p>Cada zócalo de CPU sirve para conectar microprocesadores de una
+misma familia. Los zócalos cambian de forma y número de conexiones
+entre familias de microprocesadores y entre fabricantes de CPU
+(Intel o AMD).</p>
+<p>El zócalo de CPU permite aumentar la potencia del ordenador cambiando
+el microprocesador antiguo por otro más potente de una familia
+compatible con la del microprocesador anterior.
+Esta operación suele ser sencilla de realizar y cuesta solo una
+pequeña fracción de lo que costaría comprar un ordenador nuevo.</p>
+<p>Estos son algunos zócalos para ordenadores de escritorio:</p>
+<table border="1" class="colwidths-auto docutils align-default">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Nombre</th>
+<th class="head">Año</th>
+<th class="head">Familia</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference external" href="https://es.wikipedia.org/wiki/LGA_1155" rel="noopener noreferrer" target="_blank">LGA 1155 (H2)</a></td>
+<td>2011</td>
+<td>Intel Sandy Bridge y Ivy Bridge</td>
+</tr>
+<tr class="row-odd"><td><a class="reference external" href="https://es.wikipedia.org/wiki/LGA_1150" rel="noopener noreferrer" target="_blank">LGA 1150 (H3)</a></td>
+<td>2013</td>
+<td>Intel Haswell y Broadwell</td>
+</tr>
+<tr class="row-even"><td><a class="reference external" href="https://es.wikipedia.org/wiki/LGA_1151" rel="noopener noreferrer" target="_blank">LGA 1151 (H4)</a></td>
+<td>2015</td>
+<td>Intel Skylake​ y KabyLake</td>
+</tr>
+<tr class="row-odd"><td><a class="reference external" href="https://es.wikipedia.org/wiki/LGA_1200" rel="noopener noreferrer" target="_blank">LGA 1200</a></td>
+<td>2020</td>
+<td>Intel Comet Lake</td>
+</tr>
+<tr class="row-even"><td><a class="reference external" href="https://es.wikipedia.org/wiki/Socket_AM4" rel="noopener noreferrer" target="_blank">Socket  AM4</a></td>
+<td>2016</td>
+<td>AMD  Zen+, Zen 2 y Zen 3</td>
+</tr>
+<tr class="row-odd"><td><a class="reference external" href="https://en.wikipedia.org/wiki/Socket_AM5" rel="noopener noreferrer" target="_blank">Socket AM5</a></td>
+<td>2022</td>
+<td>AMD Zen 4</td>
+</tr>
+</tbody>
+</table>
+<div class="figure align-center" id="id7">
 <a class="reference internal image-reference" href="../_images/informatica-zocalo-1151.jpg"><img alt="../_images/informatica-zocalo-1151.jpg" src="../_images/informatica-zocalo-1151.jpg" style="width: 340px;" /></a>
-<p class="caption"><span class="caption-text">Zócalo para CPU de tipo LGA 1151, también conocido como Socket H4.</span><a class="headerlink" href="#id6" title="Enlace permanente a esta imagen">¶</a></p>
+<p class="caption"><span class="caption-text">Zócalo para CPU de tipo LGA 1151, también conocido como
+<a class="reference external" href="https://es.wikipedia.org/wiki/LGA_1151" rel="noopener noreferrer" target="_blank">Socket H4</a>.</span><a class="headerlink" href="#id7" title="Enlace permanente a esta imagen">¶</a></p>
 <div class="legend">
 <a class="reference external" href="https://commons.wikimedia.org/wiki/File:Socket_1151_closed_01.jpg" rel="noopener noreferrer" target="_blank">Xaar</a>,
 <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 4.0</a>,
@@ -354,32 +405,29 @@ via Wikimedia Commons.</div>
 </dl>
 </div>
 <div class="section" id="conexiones-externas">
-<h2><a class="toc-backref" href="#id9">Conexiones externas</a><a class="headerlink" href="#conexiones-externas" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Conexiones externas</a><a class="headerlink" href="#conexiones-externas" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="glossary docutils">
 <dt id="term-USB">USB</dt><dd>El <a class="reference external" href="https://es.wikipedia.org/wiki/Universal_Serial_Bus" rel="noopener noreferrer" target="_blank">USB</a>
 (Universal Serial Bus)</dd>
-<dt id="term-Audio">Audio</dt><dd>Los <a class="reference external" href="https://es.wikipedia.org/wiki/Conector_de_audio_anal%C3%B3gico" rel="noopener noreferrer" target="_blank">conectores de audio analógicos</a></dd>
+<dt id="term-Conectores-de-audio-analogico">Conectores de audio analógico</dt><dd>Los <a class="reference external" href="https://es.wikipedia.org/wiki/Conector_de_audio_anal%C3%B3gico" rel="noopener noreferrer" target="_blank">conectores de audio analógicos</a></dd>
 <dt id="term-eSATA">eSATA</dt><dd>La interfaz <a class="reference external" href="https://es.wikipedia.org/wiki/Serial_ATA#SATA_externo_(eSATA)" rel="noopener noreferrer" target="_blank">external SATA</a></dd>
 <dt id="term-PS-2">PS/2</dt><dd>El conector <a class="reference external" href="https://es.wikipedia.org/wiki/PS/2" rel="noopener noreferrer" target="_blank">PS/2</a></dd>
 <dt id="term-RS232">RS232</dt><dd>El estándar <a class="reference external" href="https://es.wikipedia.org/wiki/RS-232" rel="noopener noreferrer" target="_blank">RS232</a></dd>
 </dl>
 </div>
 <div class="section" id="conectores-de-video">
-<h2><a class="toc-backref" href="#id10">Conectores de vídeo</a><a class="headerlink" href="#conectores-de-video" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">Conectores de vídeo</a><a class="headerlink" href="#conectores-de-video" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="glossary docutils">
 <dt id="term-VGA">VGA</dt><dd>El conector <a class="reference external" href="https://es.wikipedia.org/wiki/Video_Graphics_Array#Conector_VGA" rel="noopener noreferrer" target="_blank">VGA</a>
-(Video Graphics Array)
-de gráficos analógico.</dd>
+(Video Graphics Array) de gráficos analógico.</dd>
 <dt id="term-DVI">DVI</dt><dd>El conector <a class="reference external" href="https://es.wikipedia.org/wiki/Digital_Visual_Interface" rel="noopener noreferrer" target="_blank">DVI</a>
-(Digital Visual Interface)
-de gráficos digital.</dd>
+(Digital Visual Interface) de gráficos digital.</dd>
 <dt id="term-HDMI">HDMI</dt><dd>El conector <a class="reference external" href="https://es.wikipedia.org/wiki/High-Definition_Multimedia_Interface" rel="noopener noreferrer" target="_blank">HDMI</a>
-(High-Definition Multimedia Interface)
-de gráficos digital.</dd>
+(High-Definition Multimedia Interface) de gráficos y audio digital.</dd>
 </dl>
 </div>
 <div class="section" id="conectores-de-red">
-<h2><a class="toc-backref" href="#id11">Conectores de red</a><a class="headerlink" href="#conectores-de-red" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id12">Conectores de red</a><a class="headerlink" href="#conectores-de-red" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="glossary docutils">
 <dt id="term-Ethernet">Ethernet</dt><dd>El estándar de red local <a class="reference external" href="https://es.wikipedia.org/wiki/Ethernet" rel="noopener noreferrer" target="_blank">Ethernet</a>
 suele utilizar un conector RJ-45 con cable UTP.</dd>
@@ -395,7 +443,7 @@ a internet en los hogares.</p>
 </dl>
 </div>
 <div class="section" id="conexiones-inalambricas">
-<h2><a class="toc-backref" href="#id12">Conexiones inalámbricas</a><a class="headerlink" href="#conexiones-inalambricas" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id13">Conexiones inalámbricas</a><a class="headerlink" href="#conexiones-inalambricas" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="glossary docutils">
 <dt id="term-Wifi">Wifi</dt><dd>El estándar <a class="reference external" href="https://es.wikipedia.org/wiki/Wifi" rel="noopener noreferrer" target="_blank">wifi</a>
 de comunicaciones inalámbricas.</dd>
@@ -563,6 +611,7 @@ de comunicaciones inalámbricas.</dd>
 <li class="toctree-l2"><a class="reference internal" href="html-index.html">Tutorial de HTML</a></li>
 <li class="toctree-l2"><a class="reference internal" href="css-index.html">Tutorial de CSS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="informatica-ciberseguridad.html">Ciberseguridad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="informatica-machine-learning.html">Inteligencia Artificial</a></li>
 <li class="toctree-l2"><a class="reference internal" href="informatica-recursos.html">Recursos para informática</a></li>
 </ul>
 </li>

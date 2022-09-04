@@ -59,7 +59,7 @@ y uniones de piezas.
 
    A continuación con la opción del menú ``Objeto... Alinear y distribuir...``
 
-   escogemos Relativo a: Primero seleccionado
+   escogemos **Relativo a**: `Primero seleccionado`
 
    y pulsamos alinear el lado superior de los objetos al borde inferior
    del ancla
@@ -84,7 +84,7 @@ y uniones de piezas.
 #. La siguiente tarea consistirá en duplicar el rombo dos veces y girar
    las dos copias 120 grados a la izquierda y a la derecha.
 
-   Duplicamos el rombo seleccionado la opción del menú
+   Duplicamos el rombo seleccionando la opción del menú
    ``Edición... Duplicar`` dos veces.
 
    A continuación seleccionamos la opción del menú

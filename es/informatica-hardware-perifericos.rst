@@ -11,9 +11,9 @@ Periféricos
 Los periféricos son dispositivos que permiten que la información entre y
 salga de un ordenador.
 
-Los periféricos de entrada son como los sentidos de un ordenador, que
-recogen información del exterior para que el ordenador pueda ver, oír,
-o conocer la posición de la mano del usuario.
+Los periféricos de entrada son como los sentidos de un ordenador,
+recogen información del exterior para que el ordenador pueda 'ver', 'oír',
+o 'conocer' la posición de la mano del usuario.
 
 Los periféricos de salida son como los músculos del ordenador, que le
 permiten exteriorizar la información que tiene en su interior.
@@ -50,12 +50,12 @@ de datos.
       
       El ratón detecta los movimientos en dos dimensiones sobre
       una superficie plana en la que se apoya. Un puntero o flecha en la 
-      pantalla del ordenador sigue los movimientos del ratón.
+      pantalla del ordenador muestra los movimientos del ratón.
       
       El ratón también suele tener varios pulsadores y una rueda que se 
       puede girar para interactuar con las pantallas del entorno gráfico.
       
-      Pese a la aparición de nuevas tecnologías como la pantalla táctil,
+      Pese a la aparición de nuevas tecnologías, como la pantalla táctil,
       el ratón aún sigue siendo muy utilizado.
 
       .. figure:: informatica/_images/informatica-raton.jpg
@@ -78,7 +78,7 @@ de datos.
       escribir, con configuración de teclas QWERTY.
 
       El teclado es casi imprescindible para poder escribir texto en un
-      ordenador. A pesar de la aparición de nuevas tecnologías, como el 
+      ordenador. A pesar de la desarrollo de nuevas tecnologías, como el 
       reconocimiento de voz en los teléfonos inteligentes, aún sigue siendo 
       muy utilizado el teclado en pantalla.
       
@@ -137,13 +137,13 @@ de datos.
       La `cámara web
       <https://es.wikipedia.org/wiki/C%C3%A1mara_web>`__
       , en inglés webcam, es una pequeña cámara digital conectada al 
-      ordenador con la que se puede capturar imágenes fijas y vídeo en 
-      movimiento para transmitirlos a distancia por internet.
+      ordenador con la que se puede capturar imágenes fijas y vídeo 
+      (imagen en movimiento) para transmitirlos a distancia por internet.
       
-      Desde la aparición de la pandemia por COVID y los confinamientos en
-      2020, se han popularizado mucho las videoconferencias para realizar 
-      reuniones mediante servicios como Zoom, WhatsApp, Microsoft Teams, 
-      Google Meet, Skype, Webex, etc.
+      Desde el comienzo de los confinamientos en 2020 con motivo de la 
+      pandemia COVID, se han popularizado mucho las videoconferencias para 
+      realizar reuniones mediante servicios como Zoom, WhatsApp, Microsoft 
+      Teams, Google Meet, Skype, Webex, etc.
       
       .. figure:: informatica/_images/informatica-camara-web.jpg
          :align: center
@@ -222,7 +222,7 @@ de datos.
       Glonass de Rusia.
       
       El GPS es ámpliamente utilizado en los teléfonos inteligentes así 
-      como en dispositivos wareables. Permite dar servicios como la 
+      como en dispositivos weareables. Permite dar servicios como la 
       navegación punto a punto, localización de amigos cercanos, cálculo 
       de recorridos para runners, etc.
       
@@ -283,10 +283,11 @@ de datos.
       El `termómetro
       <https://es.wikipedia.org/wiki/Term%C3%B3metro>`__
       de la batería sirve para conocer la temperatura que tiene la batería
-      del teléfono inteligente. A partir de esta información se puede saber
-      el uso que estamos dando al smartphone (mayor uso se traduce en una
-      mayor temperatura de la batería), si se está cargando el smartphone,
-      o de forma indirecta la temperatura ambiental.
+      del teléfono inteligente. A partir de esta información podemos
+      conocer el uso que estamos dando al smartphone porque un mayor uso 
+      se traduce en una mayor temperatura de la batería. 
+      También podemos conocer si se está cargando el teléfono
+      o, de forma indirecta, la temperatura ambiental.
       
 
 Periféricos de salida
@@ -305,7 +306,8 @@ se muestre al exterior.
       
       La tecnología que predomina actualmente es la de las pantallas 
       planas de **cristal líquido (LDC)** y están comenzando a usarse 
-      cada vez con mayor frecuencia las pantallas OLED o AMOLED.
+      cada vez con mayor frecuencia las pantallas `OLED o AMOLED
+      <https://es.wikipedia.org/wiki/Diodo_org%C3%A1nico_de_emisi%C3%B3n_de_luz>`__.
       
       El tamaño de un monitor se mide en pulgadas de la diagonal de la 
       pantalla visualizadora (sin el marco exterior).
@@ -382,8 +384,8 @@ se muestre al exterior.
       <https://www.culturasonora.es/hifi/que-es-un-dac/>`__
       o conversor digital a analógico es un periférico de salida que 
       permite convertir los archivos digitales del ordenador en música
-      analógica con alta fidelidad, mayor que una simple tarjeta de sonido
-      de ordenador.
+      analógica con alta fidelidad, mayor que la de una simple tarjeta de 
+      sonido de ordenador.
       
       .. figure:: informatica/_images/informatica-dac.jpg
          :align: center
@@ -425,7 +427,7 @@ se muestre al exterior.
    Pilotos luminosos (LED)
       Los pilotos luminosos `LED
       <https://es.wikipedia.org/wiki/Led>`__
-      son pequeñas luces informan de estados del ordenador.
+      son pequeñas luces informan de los estados del ordenador.
       Las cajas de ordenador y los teclados suelen tener pilotos led
       para avisar de que el ordenador está encendido, el disco duro está
       funcionando, se está produciendo la carga de la batería o que
@@ -443,7 +445,7 @@ se muestre al exterior.
          via Wikimedia Commons.
 
 
-   Vibración
+   Motor de vibración
       El motor de vibración se utiliza en los smartphones para indicar
       un evento de forma silenciosa. De esta forma el motor puede 
       informar de una llamada entrante o que ha llegado un nuevo 
@@ -540,10 +542,10 @@ la entrada como la salida de datos del ordenador.
       También se reproduce sonido estéreo por los cascos.
       
       El casco de realidad virtual tiene sensores de posición y movimiento 
-      que permiten conocer dónde mira la cabeza, para acompasar estos
-      movimientos a las imágenes presentadas, de manera que al usuario le
-      parece que se encuentra inmerso en la realidad virtual que presenta
-      el dispositivo.
+      que permiten conocer dónde mira el usuario, para acompasar las
+      imágenes presentadas a los movimientos de cabeza, de manera que al 
+      usuario le parece encontrarse inmerso en la realidad virtual que 
+      muestra el dispositivo.
 
       .. figure:: informatica/_images/informatica-casco-vr.jpg
          :align: center

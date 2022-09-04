@@ -50,7 +50,7 @@ a detectar y corregir las faltas de ortografía.
    la herramienta del menú ``Herramientas... Ortografía...`` o
    bien pulsando la tecla de función F7.
    
-   Saldrá una ventana de control de ortografía. En las palabras
+   Aparecerá una ventana de control de ortografía. En las palabras
    de nombres propios como **Marie** pulsaremos el botón de 
    **Ignorar todo**.
 

@@ -12,7 +12,7 @@ Estilo de página
 En este ejercicio vamos a configurar el **estilo de la página**
 donde luego podemos escribir. El estilo de la página define 
 el tamaño de la hoja de papel, los márgenes, el fondo impreso
-en el papel, la cabecera de cada hoja y más opciones.
+en el papel, la cabecera de cada hoja y otras opciones.
 
 |br|
 

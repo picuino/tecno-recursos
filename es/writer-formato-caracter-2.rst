@@ -64,7 +64,12 @@ de las que hay disponibles en los botones de la barra de formato.
    |br|
 
 #. Al abrir el archivo anterior nos encontraremos con el
-   siguiente texto, pero escrito sin formato.
+   siguiente texto sin formato.
+
+   El ejercicio consiste en dar formato a cada párrafo del
+   texto para que coincida con las instrucciones que pueden
+   leerse en la siguiente imagen.
+   Esta imagen representa el resultado final del ejercicio.
 
    .. image:: writer/_images/writer-p09-ejercicio.png
               :align: center
@@ -72,11 +77,6 @@ de las que hay disponibles en los botones de la barra de formato.
 
    |br|
 
-   El ejercicio consiste en dar formato a cada párrafo
-   para que coincida con lo que hay escrito y con la
-   imagen anterior.
-
-   |br|
 
 #. Para crear un hipervínculo a una página web debemos
    escribir la dirección de la web en la casilla

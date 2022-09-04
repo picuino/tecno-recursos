@@ -9,7 +9,7 @@
 ***********************
 
 Tutorial para aprender a editar documentos de texto
-con LibreOffice Writer.
+con el programa de código libre LibreOffice Writer.
 
 .. image:: writer/_images/writer-logo.png
    :height: 180px
