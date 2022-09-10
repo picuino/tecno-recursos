@@ -7,10 +7,11 @@
 
 Ciberseguridad
 ==============
-Los ciberdelincuentes se encuentran siempre al
-acecho de nuevas formas con las que atacarnos a los
-usuarios aprovechándose de nuestro desconocimiento o
-vulnerabilidades en nuestras defensas.
+Los ciberdelincuentes se encuentran siempre al acecho de 
+nuevos métodos para atacar a los usuarios de internet.
+Se aprovechan del desconocimiento general en cuanto a 
+seguridad cibernética o de la desprotección en
+las defensas de nuestro ordenador.
 Sus objetivos son muchos y pueden tener distintas
 consecuencias para el usuario.
 

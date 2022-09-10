@@ -323,21 +323,148 @@ Conexiones externas
 
    USB
       El `USB <https://es.wikipedia.org/wiki/Universal_Serial_Bus>`__
-      (Universal Serial Bus)
+      (Universal Serial Bus) es un estándar para dar conexión de datos y 
+      alimentación a computadoras, periféricos y dispositivos 
+      electrónicos.
+      Comenzó a usarse de forma masiva a partir de 1998.
+      
+      Actualmente existen 4 grandes estándares USB con las características
+      que aparecen en la siguiente tabla.
+      
+      .. list-table::
+         :widths: auto
+         :header-rows: 1
+         
+         * - Estándar
+           - Año
+           - Velocidad
+           - Corriente
+           - Otros
+         * - USB 1.1
+           - 1998
+           - 1 Mbyte/s
+           - 0.5 A
+           - Solo conectores A y B
+         * - USB 2.0
+           - 2000
+           - 50 Mbyte/s
+           - 0.5 A
+           -
+         * - `USB 3.0 <https://es.wikipedia.org/wiki/USB_3.0>`__
+           - 2008
+           - 600 Mbyte/s
+           - 0.9 A - 3.0 A
+           - Color azul
+         * - `USB 4.0 <https://es.wikipedia.org/wiki/USB4>`__
+           - 2019
+           - 4000 Mbyte/s
+           - 3.0 A
+           - Solo conector C
+      
+      `Conectores USB <https://en.wikipedia.org/wiki/USB_hardware#Connectors>`__
+      
+      .. figure:: informatica/_images/informatica-usb-connectors.jpg
+         :align: center
+         :width: 560px
+
+         Conectores USB. Micro tipo B, UC-E6, mini tipo B, hembra tipo A, 
+         macho tipo A, macho tipo B.
+
+         `Viljo Viitanen
+         <https://commons.wikimedia.org/wiki/File:Usb_connectors.JPG>`__,
+         via Wikimedia Commons.
+      
 
    Conectores de audio analógico
       Los `conectores de audio analógicos
       <https://es.wikipedia.org/wiki/Conector_de_audio_anal%C3%B3gico>`__
+      se utiliza para conectar micrófonos, auriculares y otros sistemas de
+      audio analógico a dispositivos electrónicos.
+      
+      Hay conectores de distintas medidas, pero el más popular es el 
+      conector de 3,5 mm usado en la mayoría de los ordenadores y teléfonos
+      inteligentes.
+      
+      Códigos de colores para conectores de audio de 3,5 mm en ordenadores
+      personales.
+      
+      .. list-table::
+         :widths: auto
+         :header-rows: 1
+         
+         * - Color
+           - Función
+         * - Verde
+           - Salida de audio. Canales frontales.
+         * - Azul
+           - Entrada de audio. Nivel de línea.
+         * - Rosa/Rojo
+           - Entrada de audio. Nivel de micrófono.
+         * - Negro
+           - Salida de audio. Canales traseros.
+         * - Gris
+           - Salida de audio. Canales laterales.
+         * - Naranja
+           - Salida de audio. Canal central y Subwoofer.
 
-   eSATA
-      La interfaz `external SATA
-      <https://es.wikipedia.org/wiki/Serial_ATA#SATA_externo_(eSATA)>`__
+      .. figure:: informatica/_images/informatica-computer-audio.jpg
+         :align: center
+         :width: 320px
+
+         Conectores de audio analógico de 3.5 mm de un ordenador personal.
+
+         `Jud McCranie
+         <https://commons.wikimedia.org/wiki/File:Computer_mike,_audio_out,_and_audio_in_jacks.jpg>`__,
+         `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
+         via Wikimedia Commons.
 
    PS/2
       El conector `PS/2 <https://es.wikipedia.org/wiki/PS/2>`__
+      toma su nombre de las computadoras IBM Personal System/2, creada por 
+      IBM en 1987. Este conector se emplea para conectar teclados y 
+      ratones.
+      
+      Actualmente estos conectores están **obsoletos**, pero todavía se 
+      siguen incorporando en algunas placas base por motivos de 
+      compatibilidad con los teclados y ratones más antiguos.
+      Algunas placas base modernas tienen un solo conector mitad morado y 
+      mitad verde que sirve para conectar tanto teclados como ratones 
+      antiguos.
+      
+      .. figure:: informatica/_images/informatica-puertos-ps2.jpg
+         :align: center
+         :width: 320px
+
+         Puertos PS/2 para teclado (morado) y para ratón (verde).
+
+         `Norman Rogers
+         <https://commons.wikimedia.org/wiki/File:Ps-2-ports.jpg>`__,
+         via Wikimedia Commons.
 
    RS232
-      El estándar `RS232 <https://es.wikipedia.org/wiki/RS-232>`__
+      El estándar de comunicaciones  
+      `RS232 <https://es.wikipedia.org/wiki/RS-232>`__
+      es una interfaz para intercambio de datos via serie de baja velocidad.
+      
+      Actualmente se encuentra obsoleto y no se incorpora en las placas 
+      base, pero se puede añadir mediante una tarjeta de expansión PCI o 
+      mediante un cable conversor de USB a RS-232.
+      
+      Este estándar fue ampliamente utilizado hace años, hasta que se fue
+      reemplazando por el USB a partir de 1998. Por esa razón hay equipos
+      antiguos en fábricas y laboratorios que utilizan todavía el estándar
+      RS-232 y es necesario poder comunicarse con ellos.
+      
+      .. figure:: informatica/_images/informatica-rs232-connector.jpg
+         :align: center
+         :width: 320px
+
+         Conector RS-232 (DB-9 hembra).
+
+         `Faxe
+         <https://commons.wikimedia.org/wiki/File:RS-232.jpeg>`__,
+         `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
+         via Wikimedia Commons.
 
 
 Conectores de vídeo
@@ -350,16 +477,48 @@ Conectores de vídeo
       <https://es.wikipedia.org/wiki/Video_Graphics_Array#Conector_VGA>`__
       (Video Graphics Array) de gráficos analógico.
 
+      .. figure:: informatica/_images/informatica-conector-vga.jpg
+         :align: center
+         :width: 320px
+
+         Conector VGA macho.
+
+         `Afrank99
+         <https://commons.wikimedia.org/wiki/File:VGA_Stecker.jpg>`__,
+         `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.en>`__,
+         via Wikimedia Commons.
+
    DVI
       El conector `DVI
       <https://es.wikipedia.org/wiki/Digital_Visual_Interface>`__
       (Digital Visual Interface) de gráficos digital.
+
+      .. figure:: informatica/_images/informatica-conector-dvi.jpg
+         :align: center
+         :width: 320px
+
+         Conector DVI macho.
+
+         `Greg Ebdon
+         <https://commons.wikimedia.org/wiki/File:DVI_Connector.jpg>`__,
+         `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
+         via Wikimedia Commons.
 
    HDMI
       El conector `HDMI
       <https://es.wikipedia.org/wiki/High-Definition_Multimedia_Interface>`__
       (High-Definition Multimedia Interface) de gráficos y audio digital.
 
+      .. figure:: informatica/_images/informatica-conector-hdmi.jpg
+         :align: center
+         :width: 320px
+
+         Conector HDMI macho.
+
+         `Evan-Amos
+         <https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg>`__,
+         via Wikimedia Commons.
+         
 
 Conectores de red
 -----------------
@@ -367,16 +526,90 @@ Conectores de red
 .. glossary::
 
    Ethernet
-     El estándar de red local `Ethernet
-     <https://es.wikipedia.org/wiki/Ethernet>`__
-     suele utilizar un conector RJ-45 con cable UTP.
+      El estándar de red local `Ethernet
+      <https://es.wikipedia.org/wiki/Ethernet>`__
+      se utiliza para conectar ordenadores en redes de área local, 
+      que suelen unir entre sí a ordenadores de un mismo edificio o 
+      incluso de diversos edificios que sean cercanos.
+
+      Los cables de cobre suelen soportar una distancia máxima de 100 
+      metros, pero esta distancia se puede ampliar utilizando switch 
+      intermedios que hagan de repetidores o usando cables de fibra óptica.
+      
+      .. figure:: informatica/_images/informatica-ethernet-port.jpg
+         :align: center
+         :width: 320px
+
+         Conector Ethernet RJ-45 hembra.
+
+         `Amin
+         <https://commons.wikimedia.org/wiki/File:Ethernet_port.jpg>`__,
+         `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
+         via Wikimedia Commons.
+
+      .. figure:: informatica/_images/informatica-ethernet-cable.jpg
+         :align: center
+         :width: 320px
+
+         Cable UTP de Ethernet con conector RJ-45 macho.
+
+         `David Monniaux
+         <https://commons.wikimedia.org/wiki/File:Ethernet_RJ45_connector_p1160054.jpg>`__,
+         `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
+         via Wikimedia Commons.
+
+      El cable utilizado para las conexiones suele ser cable de cobre 
+      UTP (Unshielded Twisted Pair o par trenzado no apantallado). 
+      Este es un tipo de cable con peores prestaciones que los cables 
+      de fibra óptica, pero es más barato de instalar y sencillo de 
+      manejar, por lo que se utilizan mayoritariamente en conexiones
+      cercanas, de pocos cientos de metros.
+
+      .. figure:: informatica/_images/informatica-cable-utp.jpg
+         :align: center
+         :width: 320px
+
+         Cable UTP de Ethernet, con cuatro pares de cable de cobre 
+         trenzados y sin apantallar.
+
+         `Baran Ivo
+         <https://commons.wikimedia.org/wiki/File:UTP_cable.jpg>`__,
+         via Wikimedia Commons.
+
+      Estándares de comunicaciones Ethernet más usados con cable de cobre.
+      
+      .. list-table::
+         :widths: auto
+         :header-rows: 1
+         
+         * - Estándar
+           - Año
+           - Cables
+           - Velocidad          
+         * - `10Base T <https://es.wikipedia.org/wiki/10BASE-T>`__
+           - 1990
+           - UTP Categoría 3
+           - 10 Mbit/s
+         * - `100Base T2 <https://es.wikipedia.org/wiki/Fast_Ethernet>`__
+           - 1998
+           - UTP Categoría 5
+           - 100 Mbit/s
+         * - `1000Base T <https://es.wikipedia.org/wiki/1000BASE-T>`__
+           - 1999
+           - UTP Categoría 5e
+           - 1000 Mbit/s
+         * - `10GBase T <https://es.wikipedia.org/wiki/10_Gigabit_Ethernet>`__
+           - 2006
+           - UTP Categoría 6A
+           - 10.000 Mbit/s
+      
 
    Comunicación por fibra óptica
       Los estándares de `comunicación por fibra óptica
       <https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_por_fibra_%C3%B3ptica#Aplicaciones>`__
-      abarcan desde enlaces domésticos para audio pasando por enlaces de 
-      alta velocidad para Ethernet, hasta enlaces intercontinentales para
-      comunicaciones por internet.
+      abarcan desde enlaces domésticos para audio digital, pasando por 
+      enlaces de alta velocidad para Ethernet, hasta enlaces 
+      intercontinentales para comunicaciones por internet.
       
       La tecnología más conocida por la mayoría de las personas es la 
       `FTTH o fibra hasta el hogar

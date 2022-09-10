@@ -26,7 +26,7 @@ movimiento.
 Incluye varios cuestionarios de todos los temas tratados.
 El autor es Jaume Dellunde y el programa tiene licencia Freeware.
 
-|  :download:`Relatran 3.5 portable. <mecan/relatran_portable.zip>`
+|  :download:`Relatran 3.5 portátil. <mecan/relatran_portable.zip>`
 |  :download:`Instalador de Relatran 3.5 <mecan/relatran_setup.zip>`
 
 .. image:: mecan/_images/relatran01.png
