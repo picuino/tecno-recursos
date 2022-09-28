@@ -122,7 +122,7 @@ Ejercicios
 1. Modifica el programa para que el personaje visite y nos
    explique otros lugares de su casa y de su barrio.
 
-   Puedes bajar imágenes de Internet y añadirlas como
+   Puedes bajar imágenes de internet y añadirlas como
    nuevos escenarios en el apartado cargar un fondo.
 
    .. image:: scratch3/_images/scratch3-boton-cargar-fondo.png

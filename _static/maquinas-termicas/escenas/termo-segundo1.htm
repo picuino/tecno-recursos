@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title></title>
+	<link rel="stylesheet" href="../fonts/style.css" type="text/css">
+<style>
+	body { 
+    background-color: transparent;
+}
+	</style>
+	<script type='text/javascript' src='lib/descartes-min2.js'></script>
+</head>
+<body>
+<ajs name="Descartes" width=750 height=500 code="Descartes">
+   <param name="tamaño" value="750x500">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="deshacer" value="no">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.335, 2015-01-12">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=sí limpiar=no ancho_este=150 ancho_oeste=150 alto=35">
+   <param name="E_01" value="tipo='R3' id='E0' despl_imagen='arr-izq' fondo='fff0f8fa' R3='sí'">
+   <param name="E_02" value="tipo='R2' id='E2' x='410' y='150' ancho='145' alto='150' despl_imagen='arr-izq' fondo='fff0f8fa' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_03" value="tipo='R2' id='E1' x='10%' y='10%' ancho='85%' alto='70%' dibujar-si='d>0' despl_imagen='arr-izq' fondo='876b55' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='A1' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 1' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=1'">
+   <param name="C_02" value="id='A2' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 2' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=2'">
+   <param name="C_03" value="id='A3' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 3' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=3'">
+   <param name="C_04" value="id='visto' tipo='numérico' interfaz='botón' región='interior' espacio='E1' nombre='Visto' expresión='(255,278)' fijo='sí' visible='sí' color='blanco' color-int='b74400' fuente puntos='20' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=0'">
+   <param name="C_05" value="id='t1' tipo='numérico' espacio='E0' nombre='T1' valor='500' incr='5' min='500' max='1000' decimales='0' fijo='sí' visible='sí'">
+   <param name="C_06" value="id='t2' tipo='numérico' espacio='E0' nombre='T2' valor='200' incr='5' min='200' max='500' decimales='0' fijo='sí' visible='sí'">
+   <param name="C_07" value="id='Ya' tipo='numérico' interfaz='botón' espacio='E0' nombre='Ya' fijo='sí' visible='sí' color='blanco' color-int='ac5e00' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='animar'">
+   <param name="A_01" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' hacer='rojo1=(t1-200)/1000;rojo2=(t2-200)/1000;R=(t1-t2)/t1*100;x=(p<1)?0:-p*R/160'">
+   <param name="G_01" value="espacio='E2' tipo='flecha' color='(rojo1,00,00,00)' dibujar-si='con=1' expresión='(0,-1.5)(0,-0.5)' fijo='sí' flecha='(rojo1,00,00,00)'">
+   <param name="G_02" value="espacio='E2' tipo='flecha' color='(rojo2,00,00,00)' dibujar-si='(p>4)&(R>0)' expresión='(0,0.5)(0,1.5)' fijo='sí' flecha='(rojo2,00,00,00)'">
+   <param name="G_03" value="espacio='E2' tipo='flecha' color='azul' dibujar-si='(p>4)&(R>0)' expresión='(-0.5,0)(-1.5,0)' fijo='sí' flecha='negro'">
+   <param name="G_04" value="espacio='E2' tipo='texto' dibujar-si='con=1' expresión='[80,120]' texto='100 J' fijo='sí'">
+   <param name="G_05" value="espacio='E2' tipo='texto' dibujar-si='(p>4)&(R>0)' expresión='[80,70]' texto='[R]J' fijo='sí'">
+   <param name="G_06" value="espacio='E2' tipo='texto' dibujar-si='(p>4)&(R>0)' expresión='[80,40]' texto='[100-R]J' fijo='sí'">
+   <param name="G_07" value="espacio='E2' tipo='texto' color='rojo' dibujar-si='R=0' expresión='[1,70,150,15]' texto='No puede funcionar' fuente='SansSerif,BOLD,22' fijo='sí' ancho='150' color_borde_texto='negro'">
+   <param name="G_08" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=1' expresión='[10,120,620,60]' texto='Pon en marcha el sistema con el botón Ya. Observa que el sistema extrae calor de una fuente caliente y lo transmite en parte a una fuente fría; otra parte se convierte en la energía mecánica necesaria para mover el émbolo. \nEstamos ante el resultado obvio del segundo principio de la Termodinámica. ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='620' color_borde_texto='negro'">
+   <param name="G_09" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=2' expresión='[10,120,620,60]' texto='El rendimiento del sistema viene determinado por la proporción de energía extraída de la fuente caliente y convertida en trabajo mecánico.\nCalcula su valor para diferentes temperaturas. Calcula su valor para los datos iniciales de la escena. \nModifica al alza cada una de las dos temperaturas. \n¿Cómo varía el rendimiento ? \n¿Hay algún valor con rendimiento nulo? \n¿Cómo expresarías matemáticamente el rendimiento \nen función de las temperaturas? ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='620' color_borde_texto='negro'">
+   <param name="G_10" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=3' expresión='[10,120,620,60]' texto='Calcula por tu cuenta y comprueba después con la escena la respuesta a las siguientes preguntas: \nEn nuestro caso la temperatura del foco caliente puede variar de 500 a 1000K y la del frió de 200 a 500 K. \n¿Cuál es el máximo rendimiento que podemos esperar? \n¿Para qué temperaturas conseguiríamos un rendimiento del 50%? ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='620' color_borde_texto='negro'">
+   <param name="S_01" value="espacio='E0' tipo='cilindro' color='gris' color_reverso='grisClaro' expresión='Cilindro' rotini='(90,0,-10)' posini='(0,-6+x,0)' modelo='metal' ancho='0.5' largo='0.5' alto='5'">
+   <param name="S_02" value="espacio='E0' tipo='paralelepípedo' color='gris' color_reverso='grisClaro' expresión='Paralelepípedo' rotini='(90,0,-10)' posini='(0,-3.25+x,0)' modelo='metal' alto='0.25'">
+   <param name="S_03" value="espacio='E0' tipo='paralelepípedo' color='grisObscuro' color_reverso='gris' expresión='Paralelepípedo' rotini='(90,0,-10)' posini='(0,-5,1.25)' modelo='metal' largo='0.1' alto='9'">
+   <param name="S_04" value="espacio='E0' tipo='paralelepípedo' color='grisObscuro' color_reverso='gris' expresión='Paralelepípedo' rotini='(90,0,-10)' posini='(0,-5,-1)' modelo='metal' largo='0.1' alto='8'">
+   <param name="S_05" value="espacio='E0' tipo='paralelepípedo' color='grisObscuro' color_reverso='gris' expresión='Paralelepípedo' rotini='(90,90,-10)' posini='(0,-0.75,4.05)' modelo='metal' ancho='6' alto='0.2'">
+   <param name="S_06" value="espacio='E0' tipo='paralelepípedo' color='grisObscuro' color_reverso='gris' expresión='Paralelepípedo' rotini='(90,90,-10)' posini='(0,-1,-4.15)' modelo='metal' ancho='6' alto='0.2'">
+   <param name="S_07" value="espacio='E0' tipo='paralelepípedo' color='grisObscuro' color_reverso='gris' expresión='Paralelepípedo' rotini='(90,90,-10)' posini='(0,4.5,0)' modelo='metal' ancho='16' alto='0.2'">
+   <param name="S_08" value="espacio='E0' tipo='paralelepípedo' color='rosa' color_reverso='(rojo1+0.2,00,00,00)' expresión='Paralelepípedo' rotini='(0,0,-10)' posini='(0,1.75,-4)' modelo='metal' largo='5.5'">
+   <param name="S_09" value="espacio='E0' tipo='paralelepípedo' color='rosa' color_reverso='(rojo2+0.2,00,00,00)' expresión='Paralelepípedo' rotini='(0,0,-10)' posini='(0,1.75,4)' modelo='metal' largo='5.25'">
+   <param name="Animación" value="controles='no' auto='no' inicio='p=1;con=0' hacer='p=p+0.25;con=((p>0)&(p<4))?1:con;con=((con=1)&(R=0))?0:con' mientras='p<=4'">
+</ajs>
+</body>
+</html>

@@ -17,7 +17,7 @@ Etiquetas utilizadas
    La fuente utilizada es de ancho fijo (monospaced).
 
 ``<code> </code>``
-   El texto es código para ordenador.
+   Etiqueta para incluir código para ordenador.
    El tipo de letra será de ancho fijo.
 
 

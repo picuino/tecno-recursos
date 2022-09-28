@@ -115,7 +115,8 @@ proceso de señales.
 
 :index:`Microcontroladores`
 ---------------------------
-Un microcontrolador es un pequeño ordenador contenido en un solo chip.
+Un `microcontrolador <https://es.wikipedia.org/wiki/Microcontrolador>`__ 
+es un pequeño ordenador contenido en un solo chip.
 Incorpora la CPU, la memoria RAM, memoria Flash ROM y periféricos de
 entrada/salida en un espacio pequeño y a bajo precio.
 
@@ -123,8 +124,8 @@ Estos procesadores se utilizan para controlar periféricos tales como
 el teclado, el ratón, la cámara web, el monitor, los discos duros, etc.
 
 Gracias a los microcontroladores, la CPU principal se descarga de las
-tareas de control de los periféricos que serían muy costosas en tiempo
-y recursos si tuviera que administrarlas la CPU.
+tareas de control de los periféricos, que serían muy costosas en tiempo
+y recursos si tuviera que administrarlas directamente la CPU.
 
 
 :index:`FPGA`

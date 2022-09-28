@@ -134,7 +134,7 @@ comprensión.</dd>
 <h2>Etiquetas de contenido<a class="headerlink" href="#etiquetas-de-contenido" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="docutils">
 <dt><code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span> <span class="pre">&lt;/p&gt;</span></code></dt><dd>Etiqueta de párrafo. Engloba un párrafo de texto con varias
-frases terminadas en un punto y aparte.</dd>
+frases consecutivas. Terminan en un punto y aparte.</dd>
 <dt><code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span> <span class="pre">&lt;/h1&gt;</span></code></dt><dd>Encabezado de primer nivel. Equivale a un título de capítulo.</dd>
 <dt><code class="docutils literal notranslate"><span class="pre">&lt;h2&gt;</span> <span class="pre">&lt;/h2&gt;</span></code></dt><dd>Encabezado de segundo nivel. Equivale a un título de sección.</dd>
 <dt><code class="docutils literal notranslate"><span class="pre">&lt;h3&gt;</span> <span class="pre">&lt;/h3&gt;</span></code></dt><dd>Encabezado de tercer nivel. Equivale a un título de subsección.</dd>
@@ -157,14 +157,15 @@ El tipo de letra será <em>itálica</em>.</dd>
 <dt><code class="docutils literal notranslate"><span class="pre">&lt;strong&gt;</span> <span class="pre">&lt;/strong&gt;</span></code></dt><dd>Texto importante con énfasis fuerte.
 El tipo de letra será <strong>negrita</strong>.</dd>
 <dt><code class="docutils literal notranslate"><span class="pre">&lt;cite&gt;</span> <span class="pre">&lt;/cite&gt;</span></code></dt><dd>El texto interior es una cita de otra fuente o de otro autor.</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">&lt;blockquote</span> <span class="pre">cite=&quot;http://&quot;&gt;</span> <span class="pre">&lt;/blockquote&gt;</span></code></dt><dd>Sección de texto que se ha copiado de otra página.
-El atributo cite describe la dirección de donde se ha tomado
-el texto.
+<dt><code class="docutils literal notranslate"><span class="pre">&lt;blockquote</span> <span class="pre">cite=&quot;http://&quot;&gt;</span> <span class="pre">&lt;/blockquote&gt;</span></code></dt><dd>Etiqueta que incluye una sección de texto que se ha
+copiado de otra página.
+La etiqueta blockquote contiene un atributo cite que
+describe la dirección de donde se ha tomado el texto.
 Normalmente esta sección aparece desplazada hacia la derecha.</dd>
 <dt><code class="docutils literal notranslate"><span class="pre">&lt;pre&gt;</span> <span class="pre">&lt;/pre&gt;</span></code></dt><dd>Etiqueta de texto preformateado.
 Se preservan todos los espacios y saltos de línea.
 La fuente utilizada es de ancho fijo (monospaced).</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">&lt;code&gt;</span> <span class="pre">&lt;/code&gt;</span></code></dt><dd>El texto es código para ordenador.
+<dt><code class="docutils literal notranslate"><span class="pre">&lt;code&gt;</span> <span class="pre">&lt;/code&gt;</span></code></dt><dd>Etiqueta para incluir código para ordenador.
 El tipo de letra será de ancho fijo.</dd>
 </dl>
 </div>
@@ -213,16 +214,15 @@ de la misma fila, para hacer una sola celda más grande.</dd>
 Permite unir la celda actual con las celdas de abajo
 de la misma columna, para hacer una sola celda más grande.</dd>
 </dl>
-<p>Plantilla de tabla de datos.</p>
-<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
-   <span class="p">&lt;</span><span class="nt">thead</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Columna 1<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Columna 2<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-   <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
-
+<p>Plantilla de tabla de datos sin cabecera.</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;1&quot;</span><span class="p">&gt;</span>
    <span class="p">&lt;</span><span class="nt">tbody</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Uno<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span> I <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Dos<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span> II <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Tres<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span> III <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Uno<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>  <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span> 1 <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Dos<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>  <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span> 2 <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
    <span class="p">&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
 </pre></div>
@@ -367,6 +367,7 @@ de la misma columna, para hacer una sola celda más grande.</dd>
 <li class="toctree-l1"><a class="reference internal" href="control-index.html">Control Automático</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="informatica-index.html">Informática</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="informatica-hardware-index.html">Hardware de ordenador</a></li>
+<li class="toctree-l2"><a class="reference internal" href="informatica-software-index.html">Software de ordenador</a></li>
 <li class="toctree-l2"><a class="reference internal" href="informatica-tutoimpress.html">Tutorial de Impress</a></li>
 <li class="toctree-l2"><a class="reference internal" href="informatica-tutocalc.html">Tutorial de Calc</a></li>
 <li class="toctree-l2"><a class="reference internal" href="informatica-tutowriter.html">Tutorial de Writer</a></li>

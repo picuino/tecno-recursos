@@ -39,63 +39,72 @@ su origen o de sus elementos.
 
 Dependiendo de su origen:
 
-+--------------+----------------------------------+
-| Naturales    | Tronco de un árbol.              |
-|              | Caparazón de tortuga.            |
-|              | Esqueleto humano.                |
-|              | Conchas de moluscos.             |
-+--------------+----------------------------------+
-|Artificiales  | Puente colgante.                 |
-|              | Estructura de un edificio.       |
-|              | Carcasa de ordenador.            |
-|              | Grúa de obra.                    |
-+--------------+----------------------------------+
+.. list-table::
+   :widths: auto
+
+   * - **Naturales**
+     - Tronco de un árbol.
+       
+       Caparazón de tortuga.
+       
+       Esqueleto humano.
+       
+       Conchas de moluscos.
+   * - **Artificiales**
+     - Puente colgante.
+     
+       Estructura de un edificio.
+     
+       Carcasa de ordenador.
   
+       Grúa de obra.
+     
+
 Dependiendo de sus elementos:
 
-+--------------+---------------------------------------------------------+
-| Masivas      | Formadas por una gran masa de material                  |
-|              | sin apenas huecos.                                      |
-|              |                                                         |
-|              | Presa de agua. Pirámide. Murallas.                      |
-+--------------+---------------------------------------------------------+
-| Abovedadas   | Formadas por arcos y bóvedas.                           |
-|              |                                                         |
-|              | Techo de iglesia. Puente romano. Acueducto.             |
-|              | Panteón de Roma.                                        |
-+--------------+---------------------------------------------------------+
-| Trianguladas | Formadas por barras unidas entre sí en triángulos.      |
-|              |                                                         |
-|              | Grúa de obra. Torre Eiffel. Torre de alta tensión.      |
-+--------------+---------------------------------------------------------+
-| Entramadas   | Formadas por elementos verticales y horizontales.       |
-|              |                                                         |
-|              | Estructura de edificio. Sillas y mesas.                 |
-+--------------+---------------------------------------------------------+
-| Colgantes    | Formadas por cables que soportan las cargas.            |
-|              |                                                         |
-|              | Teleférico. Puente atirantado o puente colgante.        |
-|              | Grúa de obra.                                           |
-+--------------+---------------------------------------------------------+
-| Laminares    | Formadas por una lámina o pared delgada.                |
-|              |                                                         |
-|              | Cuenco. Caparazón de tortuga. Casco para moto.          |
-+--------------+---------------------------------------------------------+
++------------------+---------------------------------------------------------+
+| **Masivas**      | Formadas por una gran masa de material                  |
+|                  | sin apenas huecos.                                      |
+|                  |                                                         |
+|                  | Presa de agua. Pirámide. Murallas.                      |
++------------------+---------------------------------------------------------+
+| **Abovedadas**   | Formadas por arcos y bóvedas.                           |
+|                  |                                                         |
+|                  | Techo de iglesia. Puente romano. Acueducto.             |
+|                  | Panteón de Roma.                                        |
++------------------+---------------------------------------------------------+
+| **Trianguladas** | Formadas por barras unidas entre sí en triángulos.      |
+|                  |                                                         |
+|                  | Grúa de obra. Torre Eiffel. Torre de alta tensión.      |
++------------------+---------------------------------------------------------+
+| **Entramadas**   | Formadas por elementos verticales y horizontales.       |
+|                  |                                                         |
+|                  | Estructura de edificio. Sillas y mesas.                 |
++------------------+---------------------------------------------------------+
+| **Colgantes**    | Formadas por cables que soportan las cargas.            |
+|                  |                                                         |
+|                  | Teleférico. Puente atirantado o puente colgante.        |
+|                  | Grúa de obra.                                           |
++------------------+---------------------------------------------------------+
+| **Laminares**    | Formadas por una lámina o pared delgada.                |
+|                  |                                                         |
+|                  | Cuenco. Caparazón de tortuga. Casco para moto.          |
++------------------+---------------------------------------------------------+
                                                                         
                                                                         
 Dependiendo de su movimiento:                                           
                                                                         
-+--------------+---------------------------------------------------------+
-| Estructuras  | Se pueden desplazar o están articuladas.                |
-| móviles      | Soportan cargas mientras permiten el movimiento.        |
-|              |                                                         |
-|              | Puerta con bisagra. Puerta deslizante. Puente levadizo. |
-|              | Silla con ruedas. Grúa.                                 |
-+--------------+---------------------------------------------------------+
-| Estructuras  | No se desplazan ni se pueden mover.                     |
-| fijas        |                                                         |
-|              | Puente. Edificio. Torre de alta tensión.                |
-+--------------+---------------------------------------------------------+
++------------------+---------------------------------------------------------+
+| **Estructuras    | Se pueden desplazar o están articuladas.                |
+| móviles**        | Soportan cargas mientras permiten el movimiento.        |
+|                  |                                                         |
+|                  | Puerta con bisagra. Puerta deslizante. Puente levadizo. |
+|                  | Silla con ruedas. Grúa.                                 |
++------------------+---------------------------------------------------------+
+| **Estructuras    | No se desplazan ni se pueden mover.                     |
+| fijas**          |                                                         |
+|                  | Puente. Edificio. Torre de alta tensión.                |
++------------------+---------------------------------------------------------+
 
 
 ---------------

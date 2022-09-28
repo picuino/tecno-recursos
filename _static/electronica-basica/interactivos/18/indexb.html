@@ -1,0 +1,291 @@
+﻿<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE html>
+
+<html>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<head>
+   <title>SEB aprende.mx Descartes index</title>
+   <link rel="stylesheet" href="fonts/style.css" type="text/css">
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+<body topmargin="0" leftmargin="0" style="overflow:hidden;">
+
+
+<ajs name="Descartes" width=790 height=500 code="Descartes">
+   <param name="tamaño" value="790x500">
+   <param name="image_loader" value="images/transp_1x1.png">
+   <param name="expand" value="">
+   <param name="editable" value="no">
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="sí">
+   <param name="deshacer" value="no">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.356, 2016-05-03">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=no limpiar=no ancho_este=150 ancho_oeste=150 alto=40">
+   <param name="E_01" value="tipo='R2' id='E2' fijo='sí' escala='1' imagen='images/back2.png' despl_imagen='arr-izq' fondo='ff000000' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_02" value="tipo='R2' id='RETRO' x='10' ancho='780' dibujar-si='verificado&&!bien' fijo='sí' imagen='images/backwindow.png' despl_imagen='mosaico' fondo='9900c35a' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='Audio' tipo='numérico' interfaz='botón' región='interior' espacio='E2' expresión='(20,10,56,56)' fijo='sí' visible='sí' color='blanco' color-int='22bb66' negrita='sí' fuente puntos='16' imagen='images/btn_audio.png' acción='calcular' parámetro='tryPlay(0)' dibujar-si='0'">
+   <param name="C_02" value="id='veri' tipo='numérico' interfaz='botón' región='interior' espacio='E2' nombre='Verificar' expresión='((E2._w-180)/2-10,E2._h-94-separay2*200,200,46)' fijo='sí' visible='sí' color='blanco' color-int='fec639' fuente puntos='22' imagen='_STYLE_|border=3|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=e0a12b|inactiveColor=b0b0b0|font=Monospace|shadowTextColor=a6620e|shadowBoxColor=808080|shadowInsetBoxColor=b46100' acción='calcular' parámetro='doPlay(0)\nverificar()' dibujar-si='todos&!bien' pos_mensajes='centro'">
+   <param name="C_03" value="id='otro' tipo='numérico' interfaz='botón' región='interior' espacio='E2' nombre='Otra vez' expresión='((E2._w-180)/2-10,E2._h-94-separay2*200,200,46)' fijo='sí' visible='sí' color='blanco' color-int='fec639' fuente puntos='22' imagen='_STYLE_|border=3|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=e0a12b|inactiveColor=b0b0b0|font=Monospace|shadowTextColor=a6620e|shadowBoxColor=808080|shadowInsetBoxColor=b46100' acción='calcular' parámetro='doPlay(0)\nreiniciar()\notroEjercicio()' dibujar-si='todos&bien' pos_mensajes='centro'">
+   <param name="C_04" value="id='cerrar' tipo='numérico' interfaz='botón' región='interior' espacio='RETRO' nombre='Cerrar' expresión='((RETRO._w-160)/2,bRetro.y+bRetro.h-56,160,46)' fijo='sí' visible='sí' color='blanco' color-int='fec639' fuente puntos='19' imagen='_STYLE_|border=3|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=e0a12b|inactiveColor=b0b0b0|font=Monospace|shadowTextColor=a6620e|shadowBoxColor=808080|shadowInsetBoxColor=b46100' acción='calcular' parámetro='doPlay(0)\nverificado=0\nnota=nota-nota[1]/5' pos_mensajes='centro'">
+   <param name="A_01" value="id='N_words' vector='sí' evaluar='una-sola-vez' expresión='N_words[0]=0;N_words[1]=0;N_words[2]=0' archivo='textos/N_palabras.txt'">
+   <param name="A_02" value="id='nota' vector='sí' evaluar='una-sola-vez' expresión='nota[0]=0;nota[1]=0;nota[2]=0' archivo='textos/N_maxima.txt'">
+   <param name="A_03" value="id='contenedor' vector='sí' evaluar='una-sola-vez' expresión='contenedor[0]=0;contenedor[1]=0;contenedor[2]=0' archivo='textos/contenedores.txt'">
+   <param name="A_04" value="id='botX(d,x,w,t)' algoritmo='sí' expresión='val' algoritmo='sí' Local='val' inicio='val=x' hacer='val=((t==1)|(t==6))?x+d    :val;val=((t==2)|(t==5))?x+w-1-d:val;val=((t==3)|(t==4))?x+w-1  :val;'">
+   <param name="A_05" value="id='botY(d,y,h,t)' algoritmo='sí' expresión='val' algoritmo='sí' Local='val' inicio='val=y' hacer='val=((t%8==0)|(t==3))?y+d  :val;val=((t==4)|(t==7))?y+h-1-d:val;val=((t==5)|(t==6))?y+h-1  :val;'">
+   <param name="A_06" value="id='setTit(titulo)' algoritmo='sí' expresión='x' algoritmo='sí' hacer='parent.set(&squot;titulo&squot;,titulo);parent.update();'">
+   <param name="A_07" value="id='tryPlay(k)' algoritmo='sí' expresión='0' algoritmo='sí' hacer='parent.exec(&squot;tryPlay&squot;,&squot;EXP&squot;)'">
+   <param name="A_08" value="id='doPlay(k)' algoritmo='sí' algoritmo='sí' hacer='parent.exec(&squot;doPlay&squot;,k);parent.update()'">
+   <param name="A_09" value="id='Init()' algoritmo='sí' expresión='x' algoritmo='sí' hacer='TXT.rojo= ( 8*16+ 0)/256;TXT.verde=( 5*16+ 0)/256;TXT.azul= ( 1*16+ 8)/256;;CTRTXT.rojo= ( 1*16+ 8)/256;CTRTXT.verde=( 2*16+ 0)/256;CTRTXT.azul= ( 2*16+ 8)/256;;CTR.rojo= (11*16+ 4)/256;CTR.verde=( 6*16+ 1)/256;CTR.azul= ( 0*16+ 0)/256;;CTI.rojo= ( 15*16+ 16)/256;CTI.verde=( 15*16+ 16)/256;CTI.azul= ( 15*16+ 16)/256;;CTI2.rojo= ( 12*16+ 0)/256;CTI2.verde=( 12*16+ 0)/256;CTI2.azul= ( 12*16+ 0)/256;'">
+   <param name="A_10" value="id='Inicio()' algoritmo='sí' expresión='0' algoritmo='sí' hacer='opciones.n_gols=contenedor[1];tope=6*opciones.n_gols;opciones.n_ctr=N_words[1];;bRetro.w=360;bRetro.h=200;bRetro.x=(RETRO._w-bRetro.w)/2;bRetro.y=(RETRO._h-bRetro.h)/2;;otroEjercicio();'">
+   <param name="A_11" value="id='Calculos()' algoritmo='sí' expresión='0' algoritmo='sí' hacer='sync_esp();todos=todosColocados()'">
+   <param name="A_12" value="id='__SEPARADOR__' expresión='0'">
+   <param name="A_13" value="id='TITULO_GOL' vector='sí' evaluar='una-sola-vez' tamaño='4' archivo='textos/titulos.txt'">
+   <param name="A_14" value="id='ORDEN' vector='sí' evaluar='una-sola-vez' tamaño='24' expresión='ORDEN[0]=0;ORDEN[1]=1;ORDEN[2]=2;ORDEN[3]=3;ORDEN[4]=4;ORDEN[5]=5;ORDEN[6]=6;ORDEN[7]=7;ORDEN[8]=8;ORDEN[9]=9;ORDEN[10]=10;ORDEN[11]=11;ORDEN[12]=12;ORDEN[13]=13;ORDEN[14]=14;ORDEN[15]=15;ORDEN[16]=16;ORDEN[17]=17;ORDEN[18]=18;ORDEN[19]=19;ORDEN[20]=20;ORDEN[21]=21;ORDEN[22]=22;ORDEN[23]=23;;'">
+   <param name="A_15" value="id='CTR_TXT' vector='sí' evaluar='una-sola-vez' tamaño='24' archivo='textos/banco_palabras.txt'">
+   <param name="A_16" value="id='CTR_REGRESAR' vector='sí' evaluar='una-sola-vez' tamaño='12'">
+   <param name="A_17" value="id='GOL_REGRESAR' vector='sí' evaluar='una-sola-vez' tamaño='12'">
+   <param name="A_18" value="id='sync_esp()' algoritmo='sí' expresión='0' algoritmo='sí' hacer='opciones.Esp.Ox=E2.Ox;opciones.Esp.Oy=E2.Oy;opciones.Esp.escala=E2.escala;opciones.Esp.mousePressed=(E2.mouse_pressed)&(opciones.enabled);opciones.Esp.mouse_x=E2.mouse_x;opciones.Esp.mouse_y=E2.mouse_y;opciones.Esp.w=E2._w;opciones.Esp.h=E2._h;opciones.update()'">
+   <param name="A_19" value="id='permutaOrden()' algoritmo='sí' expresión='x' algoritmo='sí' Local='i,iRnd,iTemp' inicio='i=0' hacer='iRnd=ent(rnd*tope);iTemp=ORDEN[iRnd];ORDEN[iRnd]=ORDEN[i];ORDEN[i]=iTemp;i=i+1' mientras='i<tope'">
+   <param name="A_20" value="id='getOffset(w,t)' algoritmo='sí' expresión='(w-txt_w)/2' algoritmo='sí' Local='txt_w' hacer='txt_w=_AnchoDeCadena_(t,&squot;Monospaced&squot;,&squot;PLAIN&squot;,20);'">
+   <param name="A_21" value="id='initGol()' algoritmo='sí' expresión='0' algoritmo='sí' Local='i,w,h,sep' inicio='i=0;w=185;h=215;sepX=separa;sepY=10' hacer='opciones.golsProp[i,opciones.W]=w;opciones.golsProp[i,opciones.H]=h;opciones.golsProp[i,opciones.X]=20+separax1*(i%3)*(w+sepX)+separax2*(i%2)*(w+sepX);opciones.golsProp[i,opciones.Y]=46+separay*ent(i/2)*(h+sepY)+separay2*(h+sepY);opciones.golsProp[i,opciones.margenX]=3;opciones.golsProp[i,opciones.margenY]=35;opciones.golsProp[i,opciones.TXT_Dx]=(w-_AnchoDeCadena_(TITULO_GOL[i],&squot;Monospaced&squot;,&squot;PLAIN&squot;,20))/2;opciones.golsProp[i,opciones.TXT]=TITULO_GOL[i];opciones.golsProp[i,opciones.R]= (84+72*(contenedor[1]=3))/255;opciones.golsProp[i,opciones.G]=(140+60*(contenedor[1]=2))/255;opciones.golsProp[i,opciones.B]=(104+60*(contenedor[1]=2))/255;;;;opciones.golsProp[i,opciones.borde.R]=1;opciones.golsProp[i,opciones.borde.G]=1;opciones.golsProp[i,opciones.borde.B]=1;;i=i+1' mientras='i<opciones.n_gols'">
+   <param name="A_22" value="id='initCtr()' algoritmo='sí' expresión='0' algoritmo='sí' Local='i,w,h,x,y,sep,ordenI' inicio='i=0;w=180;h=24;sep=6;x=(E2._w)/2-w-sep;y=49' hacer='ordenI=ORDEN[i];;opciones.ctrProp[i,opciones.W]=w;opciones.ctrProp[i,opciones.H]=h;opciones.ctrProp[i,opciones.X]=x+separay2*((i%3)*(w+2*sep)-82)+separay*(i%2)*(w+2*sep)+2;opciones.ctrProp[i,opciones.Y]=y+separay2*(ent(i/3)*(h+sep))+separay*(ent(i/2)*(h+sep));opciones.ctrProp[i,opciones.initX]=opciones.ctrProp[i,opciones.X];opciones.ctrProp[i,opciones.initY]=opciones.ctrProp[i,opciones.Y];;opciones.ctrProp[i,opciones.A]=1;opciones.ctrProp[i,opciones.R]=1;opciones.ctrProp[i,opciones.G]=1;opciones.ctrProp[i,opciones.B]=1;opciones.ctrProp[i,opciones.borde.W]=0;opciones.ctrProp[i,opciones.IMG]=&squot;images/imagen_control4.png&squot;;opciones.ctrProp[i,opciones.TXT_Dx]=getOffset(w,CTR_TXT[ordenI])-5;opciones.ctrProp[i,opciones.TXT_Dy]=10;opciones.ctrProp[i,opciones.TXT]=CTR_TXT[ordenI];;i=i+1' mientras='i<opciones.n_ctr'">
+   <param name="A_23" value="id='_opciones.puedeSoltarEn(_iLSol,_iGEn)' expresión='opciones.golsProp[_iGEn,opciones.n_relaciones]<2'">
+   <param name="A_24" value="id='opciones.puedeTomar(_iCtr)' expresión='opciones.ctrProp[_iCtr,opciones.enGol]==-1'">
+   <param name="A_25" value="id='todosColocados()' algoritmo='sí' expresión='(todos==opciones.n_ctr)' algoritmo='sí' Local='i,todos' inicio='i=0;todos=0' hacer='todos=todos+opciones.golsProp[i,opciones.n_relaciones];i=i+1' mientras='i<opciones.n_ctr'">
+   <param name="A_26" value="id='bienTodo()' algoritmo='sí' expresión='bien' algoritmo='sí' Local='i,bien' inicio='i=0;bien=1' hacer='bien=bienGol(i)&&bien;i=i+1' mientras='i<opciones.n_gols'">
+   <param name="A_27" value="id='bienGol(iGol)' algoritmo='sí' expresión='bien' algoritmo='sí' Local='i,tipo,cond,condCtr,iCtr,bien' inicio='i=0;bien=1;cond=0' hacer='iCtr=opciones.golsRel[iGol,i];condCtr=(iCtr!=-1);tipo=(condCtr)?ORDEN[iCtr]:1000;;cond=(iGol==0)?((tipo>=0)&&(tipo<6)):cond;cond=(iGol==1)?((tipo>=6)&&(tipo<12)):cond;cond=(iGol==2)?((tipo>=12)&&(tipo<18)):cond;cond=(iGol==3)?((tipo>=18)&&(tipo<24)):cond;bien=(condCtr)?bien&&cond:bien;;GOL_REGRESAR[numRegresar]=((!cond)&&(condCtr))?iGol:GOL_REGRESAR[numRegresar];CTR_REGRESAR[numRegresar]=((!cond)&&(condCtr))?iCtr:CTR_REGRESAR[numRegresar];numRegresar=((!cond)&&(condCtr))?numRegresar+1:numRegresar;;i=i+1' mientras='i<opciones.golsProp[iGol,opciones.n_relaciones]'">
+   <param name="A_28" value="id='regresarCtr()' algoritmo='sí' expresión='0' algoritmo='sí' Local='i' inicio='i=0' hacer='aux=(numRegresar>0)?opciones.borraDeGol(GOL_REGRESAR[i],CTR_REGRESAR[i]):0;aux=(numRegresar>0)?opciones.regresaAInitPos(CTR_REGRESAR[i]):0;i=i+1' mientras='i<numRegresar'">
+   <param name="A_29" value="id='verificar()' algoritmo='sí' expresión='x' algoritmo='sí' inicio='verificado=1' hacer='numRegresar=0;;bien=bienTodo();;regresarCtr()'">
+   <param name="A_30" value="id='reiniciar()' algoritmo='sí' expresión='0' algoritmo='sí' Local='i,enGol' inicio='i=0' hacer='enGol=opciones.ctrProp[i,opciones.enGol];aux=(enGol!=-1)?opciones.borraDeGol(enGol,i):0;aux=(enGol!=-1)?opciones.regresaAInitPos(i):0;i=i+1' mientras='i<opciones.n_ctr'">
+   <param name="A_31" value="id='otroEjercicio()' algoritmo='sí' expresión='x' algoritmo='sí' inicio='verificado=0' hacer='bien=0;permutaOrden();initGol();initCtr()'">
+   <param name="A_32" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' inicio='setTit(&squot;Ponte a prueba arrastrando las unidades para clasificarlas.&squot;)' hacer='separa=95*(contenedor[1]=3)+380*(contenedor[1]!=3);separay=(contenedor[1]=4);separay2=(contenedor[1]!=4);separax1=(contenedor[1]=3);separax2=(contenedor[1]!=3);;Init();Inicio();nota=nota[1];'">
+   <param name="A_33" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' hacer='Calculos();'">
+   <param name="A_34" value="id='fin' evento='sí' condición='1' acción='calcular' parámetro='playAudio=0' ejecución='siempre' pos_mensajes='centro'">
+   <param name="A_35" value="id='e4' evento='sí' condición='verificado&&bien' acción='calcular' parámetro='var1=nota\nparent.set(&squot;var1&squot;,var1)\nparent.update()' ejecución='siempre' pos_mensajes='centro'">
+   <param name="G_01" value="espacio='E2' tipo='curva' fondo='sí' color='ff000000' coord_abs='sí' expresión='(botX(5,10,E2._w-20,t),botY(10,40,E2._h,t))' t.intervalo='[0,8]' relleno='aa000000' info='(PLANTILLA)'">
+   <param name="G_02" value="espacio='E2' tipo='curva' color='negro' dibujar-si='CP(drawIf,s)&&(CP(interfaz,s)==MENU)' coord_abs='sí' expresión='(botX(rd,CP(ctx,s)-brdw,CP(ctw,s)+2*brdw,t),botY(rd,CP(cty,s)-brdw,CP(cth,s)+2*brdw,t))' familia='s' s.intervalo='[0,NCT-1]' s.pasos='NCT-1' t.intervalo='[0,8]' relleno='(CP(active,s)+0.70*(!CP(active,s)),CP(active,s)+0.75*(!CP(active,s)) -(s==editing)*0.8 -(CP(selected,s)*0.8),0.2*CP(active,s)+0.80*(!CP(active,s)),0.0)' ancho='0' info='(PLANTILLA) borde exterior'">
+   <param name="G_03" value="espacio='E2' tipo='curva' color='(CTR.rojo,CTR.verde,CTR.azul,00)' dibujar-si='CP(drawIf,s)&&(CP(interfaz,s)!=SPINNER)' coord_abs='sí' expresión='(botX(rd,CP(ctx,s),CP(ctw,s),t),botY(rd,CP(cty,s),CP(cth,s),t))' familia='s' s.intervalo='[0,NCT-1]' s.pasos='NCT-1' t.intervalo='[0,8]' relleno='(CP(active,s)?CTI.rojo:CTI2.rojo,CP(active,s)?CTI.verde:CTI2.verde,CP(active,s)?CTI.azul:CTI2.azul,00)' info='(PLANTILLA) relleno boton'">
+   <param name="G_04" value="espacio='E2' tipo='curva' color='(CTR.rojo,CTR.verde,CTR.azul,00)' dibujar-si='CP(drawIf,s)&&(CP(interfaz,s)==SPINNER)' coord_abs='sí' expresión='(botX(rd,CP(ctx,s)+spnw-2,CP(ctw,s)-2*spnw+4,t),botY(rd,CP(cty,s),CP(cth,s),t))' familia='s' s.intervalo='[0,NCT-1]' s.pasos='NCT-1' t.intervalo='[0,8]' relleno='(CP(active,s)?CTI.rojo:CTI2.rojo,CP(active,s)?CTI.verde:CTI2.verde,CP(active,s)?CTI.azul:CTI2.azul,00)' info='(PLANTILLA) relleno pulsador'">
+   <param name="G_05" value="espacio='E2' tipo='texto' color='(CTRTXT.rojo,CTRTXT.verde,CTRTXT.azul,00)' dibujar-si='CP(drawIf,s)' expresión='[CT[s,ctx]+(CT[s,ctw]-_AnchoDeCadena_(Str(s),&squot;SansSerif&squot;,&squot;PLAIN&squot;,20))/2,CT[s,cty]+(CT[s,cth]-20)/2]' familia='s' s.intervalo='[0,NCT-1]' s.pasos='NCT-1' texto='[Str(s)]' fuente='SansSerif,PLAIN,20' decimales='0' fijo='sí' ancho='380' info='(PLANTILLA) Contenidos de los campos de texto'">
+   <param name="G_06" value="espacio='E2' tipo='punto' dibujar-si='0' expresión='(__SEPARADOR__,__SEPARADOR__)' fijo='sí' info='(__SEPARADOR__)'">
+   <param name="G_07" value="espacio='E2' tipo='macro' expresión='macros/clasificar.txt' nombre='opciones'">
+   <param name="G_08" value="espacio='RETRO' tipo='punto' fondo='sí' dibujar-si='0' expresión='(__SEPARADOR__,__SEPARADOR__)' fijo='sí' info='(__SEPARADOR__)'">
+   <param name="G_09" value="espacio='RETRO' tipo='macro' fondo='sí' expresión='macros/borde.txt' nombre='bRetro'">
+   <param name="G_10" value="espacio='RETRO' tipo='texto' color='6c4517' expresión='[bRetro.x+40,bRetro.y+40]' texto='Tuviste algunos errores, observa con cuidado las palabras e intenta corregirlas.' fuente='Monospaced,PLAIN,19' fijo='sí' ancho='bRetro.w-80' info='(AUTOR)'">
+   <param name="G_11" value="espacio='E2' tipo='texto' color='blanco' expresión='[290,420-separay2*200]' texto='CLASIFICA' fuente='Monospaced,PLAIN,40' fijo='sí'">
+   <param name="G_12" value="espacio='E2' tipo='texto' color='blanco' expresión='[20,15]' texto='Arrastra las palabras al contenedor correspondiente' fuente='Monospaced,PLAIN,20' fijo='sí' color_borde_texto='6c4517'">
+   <param name="G_13" value="espacio='E2' tipo='texto' color='blanco' dibujar-si='verificado&&bien&&(nota=nota[1])' expresión='[260,300-separay2*220]' texto='   ¡Muy bien!\nTu nota es [nota]' fuente='Monospaced,PLAIN,30' decimales='1' fijo='sí' color_borde_texto='173320' info='(AUTOR) '">
+   <param name="G_14" value="espacio='E2' tipo='texto' color='blanco' dibujar-si='verificado&&bien&&(nota!=nota[1])' expresión='[260,300-separay2*220]' texto=' ¡Clasificadas!\nTu nota es [nota]' fuente='Monospaced,PLAIN,30' decimales='1' fijo='sí' color_borde_texto='173320' info='(AUTOR) '">
+</ajs>
+
+
+<!-- Vector con la nota máxima de calificación -->
+<script type="descartes/vectorFile" id="textos/N_maxima.txt">
+'Nota máxima'
+5
+</script>
+
+<!-- Vector con el número de contenedores -->
+<script type="descartes/vectorFile" id="textos/contenedores.txt">
+'Número de contenedores (2, 3 o 4)'
+3
+</script>
+
+<!-- Vector con los títulos de los contenedores -->
+<script type="descartes/vectorFile" id="textos/titulos.txt">
+'Aislantes'
+'Conductores'
+'Semiconductores'
+</script>
+
+<!-- Vector con las palabras (12 para dos contenedores, 18 para tres y 24 para cuatro (seis por contenedor) -->
+<script type="descartes/vectorFile" id="textos/banco_palabras.txt">
+'Cartón'
+'Madera'
+'Cuero'
+'Plástico'
+'Vidrio'
+'Mica'
+
+'Papel metálico'
+'Níquel'
+'Hierro'
+'Oro'
+'Cobre'
+'Tantalio'
+
+'Silicio'
+'Germanio'
+'Boro'
+'Antimonio'
+'Arsénico'
+'Telurio'
+</script>
+
+<!-- Vector con el número de palabras a usar -->
+<script type="descartes/vectorFile" id="textos/N_palabras.txt">
+'Número de palabras a clasificar, debe ser menor o igual al total de palabras del banco de palabras'
+15
+</script>
+
+
+<!-- macro para dibujar los bordes -->
+<script type="descartes/macro" id="macros/borde.txt">
+tipo_de_macro=R2
+Idioma=español
+id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='w=200;h=100;x=150;y=150;tnsp=0;rojo=1;verd=1;azul=1'
+tipo='imagen' coord_abs='sí' expresión='(x-22,y-22,1,1)' archivo='images/borde_ar_iz.png' info='arriba izquierda' 
+tipo='imagen' coord_abs='sí' expresión='(x+w/2,y-22,w,1)' archivo='images/borde_ar_ce.png' info='arriba centro' 
+tipo='imagen' coord_abs='sí' expresión='(x+w+22,y-22,1,1)' archivo='images/borde_ar_de.png' info='arriba derecha' 
+tipo='imagen' coord_abs='sí' expresión='(x-22,y+h/2,1,h)' archivo='images/borde_ce_iz.png' info='centro izquierda' 
+tipo='imagen' coord_abs='sí' expresión='(x+w+22,y+h/2,1,h)' archivo='images/borde_ce_de.png' info='centro derecha' 
+tipo='imagen' coord_abs='sí' expresión='(x-22,y+h+22,1,1)' archivo='images/borde_ab_iz.png' info='abajo izquierda' 
+tipo='imagen' coord_abs='sí' expresión='(x+w/2,y+h+22,w,1)' archivo='images/borde_ab_ce.png' info='abajo centro' 
+tipo='imagen' coord_abs='sí' expresión='(x+w+22,y+h+22,1,1)' archivo='images/borde_ab_de.png' info='abajo derecha' 
+tipo='polígono' coord_abs='sí' expresión='(x-1,y-1)(x+w+1,y-1)(x+w+1,y+h+1)(x-1,y+h+1)(x-1,y-1)' relleno='(rojo,verd,azul,tnsp)' ancho='0' 
+</script>
+
+<script id="macros/clasificar.txt" type="descartes/macro"> 
+tipo_de_macro=R2
+Idioma=español
+id='__CONST__'
+id='INTER_OBJ' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='MODIF_OBJ' constante='sí' expresión='1' evaluar='una-sola-vez'
+id='__VARS_MODIF__'
+id='debug' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='enabled' constante='sí' expresión='1' evaluar='una-sola-vez'
+id='verFondos' constante='sí' expresión='1' evaluar='una-sola-vez'
+id='verTextos' constante='sí' expresión='1' evaluar='una-sola-vez'
+id='edicion' constante='sí' expresión='INTER_OBJ' evaluar='una-sola-vez'
+id='__MATRIZ__'
+id='n_ctr' constante='sí' expresión='100' evaluar='una-sola-vez'
+id='ctrProp' vector='sí' matriz='sí' evaluar='una-sola-vez' filas='100' columnas='100'
+id='n_gols' constante='sí' expresión='100' evaluar='una-sola-vez'
+id='golsProp' vector='sí' matriz='sí' evaluar='una-sola-vez' filas='100' columnas='100'
+id='golsRel' vector='sí' matriz='sí' evaluar='una-sola-vez' filas='100' columnas='100'
+id='__CONST_PROP__'
+id='X' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='Y' constante='sí' expresión='1' evaluar='una-sola-vez'
+id='W' constante='sí' expresión='2' evaluar='una-sola-vez'
+id='H' constante='sí' expresión='3' evaluar='una-sola-vez'
+id='TXT_Dx' constante='sí' expresión='4' evaluar='una-sola-vez'
+id='TXT_Dy' constante='sí' expresión='5' evaluar='una-sola-vez'
+id='TXT' constante='sí' expresión='6' evaluar='una-sola-vez'
+id='A' constante='sí' expresión='7' evaluar='una-sola-vez'
+id='R' constante='sí' expresión='8' evaluar='una-sola-vez'
+id='G' constante='sí' expresión='9' evaluar='una-sola-vez'
+id='B' constante='sí' expresión='10' evaluar='una-sola-vez'
+id='borde.A' constante='sí' expresión='11' evaluar='una-sola-vez'
+id='borde.R' constante='sí' expresión='12' evaluar='una-sola-vez'
+id='borde.G' constante='sí' expresión='13' evaluar='una-sola-vez'
+id='borde.B' constante='sí' expresión='14' evaluar='una-sola-vez'
+id='borde.W' constante='sí' expresión='15' evaluar='una-sola-vez'
+id='initX' constante='sí' expresión='16' evaluar='una-sola-vez'
+id='initY' constante='sí' expresión='17' evaluar='una-sola-vez'
+id='enGol' constante='sí' expresión='18' evaluar='una-sola-vez'
+id='nextY' constante='sí' expresión='19' evaluar='una-sola-vez'
+id='margenX' constante='sí' expresión='20' evaluar='una-sola-vez'
+id='margenY' constante='sí' expresión='21' evaluar='una-sola-vez'
+id='maxH' constante='sí' expresión='22' evaluar='una-sola-vez'
+id='n_relaciones' constante='sí' expresión='23' evaluar='una-sola-vez'
+id='IMG' constante='sí' expresión='24' evaluar='una-sola-vez'
+id='IMG_Dx' constante='sí' expresión='25' evaluar='una-sola-vez'
+id='IMG_Dy' constante='sí' expresión='26' evaluar='una-sola-vez'
+id='IMG_Rot' constante='sí' expresión='27' evaluar='una-sola-vez'
+id='_ctrPol.x1' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_ctrPol.y1' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='__VAR_ESP__'
+id='Esp.mouse_x' constante='sí' expresión='3' evaluar='una-sola-vez'
+id='Esp.mouse_y' constante='sí' expresión='3' evaluar='una-sola-vez'
+id='Esp.mousePressed' constante='sí' expresión='3' evaluar='una-sola-vez'
+id='Esp.Ox' constante='sí' expresión='3' evaluar='una-sola-vez'
+id='Esp.Oy' constante='sí' expresión='3' evaluar='una-sola-vez'
+id='Esp.escala' constante='sí' expresión='3' evaluar='una-sola-vez'
+id='Esp.w' constante='sí' expresión='3' evaluar='una-sola-vez'
+id='Esp.h' constante='sí' expresión='3' evaluar='una-sola-vez'
+id='__VAR_INTERNAS____'
+id='_mousePixX' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_mousePixY' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_mousePixXAnt' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_mousePixYAnt' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_deltaMPixX' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_deltaMPixY' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_mousePressed' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_resienPress' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_soltado' constante='sí' expresión='0' evaluar='una-sola-vez'
+id='_wResize' constante='sí' expresión='7' evaluar='una-sola-vez'
+id='entroFun' constante='sí' expresión='7' evaluar='una-sola-vez'
+id='activo' constante='sí' expresión='-1' evaluar='una-sola-vez'
+id='activoResize' constante='sí' expresión='-1' evaluar='una-sola-vez'
+id='activoCtrDxy' constante='sí' expresión='-1' evaluar='una-sola-vez'
+id='activoTxtDxy' constante='sí' expresión='-1' evaluar='una-sola-vez'
+id='activoGol' constante='sí' expresión='-1' evaluar='una-sola-vez'
+id='activoGolResize' constante='sí' expresión='-1' evaluar='una-sola-vez'
+id='activoGolDxy' constante='sí' expresión='-1' evaluar='una-sola-vez'
+id='activoGolDxy' constante='sí' expresión='-1' evaluar='una-sola-vez'
+id='__FUNCT_GENERAL_'
+id='doLayoutGol(_iGol2)' algoritmo='sí' algoritmo='sí' inicio='_indexLY=0;_gol.x=golsProp[_iGol2,X];_gol.y=golsProp[_iGol2,Y];_gol.w=golsProp[_iGol2,W];_gol.h=golsProp[_iGol2,H];_posOrigX=_gol.x+golsProp[_iGol2,margenX];_posY=_gol.y+golsProp[_iGol2,margenY];_posX=_posOrigX;_maxH=0;_gap=5' hacer='_iCtr2=golsRel[_iGol2,_indexLY];_continuarIter=(_iCtr>=0);;_ctr.x=(_iCtr2>=0)?ctrProp[_iCtr2,X]:0;_ctr.y=(_iCtr2>=0)?ctrProp[_iCtr2,Y]:0;_ctr.w=(_iCtr2>=0)?ctrProp[_iCtr2,W]:0;_ctr.h=(_iCtr2>=0)?ctrProp[_iCtr2,H]:0;;_tmpX=_posX+_ctr.w+_gap;_cambiarFila=(_posX>_posOrigX)&(_tmpX>=(_gol.x+_gol.w));;_posX=(_cambiarFila)?_posOrigX:_posX;_posY=(_cambiarFila)?(_posY+_maxH+_gap):_posY;;_maxH=(_cambiarFila)?_ctr.h:max(_ctr.h,_maxH);;_iCtr3=max(_iCtr2,0);ctrProp[_iCtr3,X]=(_iCtr2>=0)?_posX:ctrProp[_iCtr3,X];ctrProp[_iCtr3,Y]=(_iCtr2>=0)?_posY:ctrProp[_iCtr3,Y];;;_posX=_posX+_ctr.w+_gap;;_indexLY=_indexLY+1' mientras='(_continuarIter)&(_indexLY<n_ctr)'
+id='borraDeGol(_iGol3,_iL3)' algoritmo='sí' expresión='x' algoritmo='sí' inicio='_indexLY=0;_borrando=0;' hacer='_iCtr3=golsRel[_iGol3,_indexLY];_borrando=_borrando|(_iCtr3==_iL3);_nRel=golsProp[_iGol3,n_relaciones];;golsProp[_iGol3,n_relaciones]=_nRel-((_iCtr3==_iL3)?1:0);_sigILY=_indexLY+1;;_newICtr=(_sigILY<n_ctr)?(golsRel[_iGol3,_sigILY]):-1;_actICtr=golsRel[_iGol3,_indexLY];;golsRel[_iGol3,_indexLY]=(_borrando)?_newICtr:_actICtr;;_indexLY=_indexLY+1' mientras='(_indexLY<n_ctr)'
+id='regresaAInitPos(_iL)' algoritmo='sí' algoritmo='sí' hacer='ctrProp[_iL,X]=ctrProp[_iL,initX];ctrProp[_iL,Y]=ctrProp[_iL,initY];_iGolTmpA1=ctrProp[_iL,enGol];;tt=(_iGolTmpA1>-1)?borraDeGol(_iGolTmpA1,_iL):0;tt=(_iGolTmpA1>-1)?doLayoutGol(_iGolTmpA1):0;ctrProp[_iL,enGol]=(_iGolTmpA1>-1)?-1:ctrProp[_iL,enGol];;;'
+id='limpiaRelAux()' algoritmo='sí' algoritmo='sí' inicio='_index=0;_limIter2=(n_ctr*n_gols)' hacer='_ilabel=_index%n_ctr;_iGol=ent(_index/n_ctr);;golsProp[_iGol,n_relaciones]=0;golsRel[_iGol,_ilabel]=-1;;_index=_index+1' mientras='_index<_limIter2'
+id='limpiaRel()' algoritmo='sí' algoritmo='sí' inicio='limpiaRelAux();_index=0;_limIter=max(n_ctr,n_gols);' hacer='_ilabel=min(_index,n_ctr+1);_iGol=min(_index,n_gols+1);;golsProp[_iGol,n_relaciones]=0;;golsRel[_iGol,_ilabel]=-1;regresaAInitPos(_ilabel);;_index=_index+1;;_tmpCont1=(_index<_limIter);tt=(_tmpCont1)?0:limpiaRelAux()' mientras='_tmpCont1'
+id='pegaAGol(_iLabel,_iGolP)' algoritmo='sí' expresión='x' algoritmo='sí' hacer='_gols.x=golsProp[_iGolP,X];_gols.y=golsProp[_iGolP,Y];_gols.w=golsProp[_iGolP,W];_gols.h=golsProp[_iGolP,H];;_gols.margen=golsProp[_iGolP,margen];_gols.nextX=golsProp[_iGolP,n_relaciones];_gols.maxH=golsProp[_iGolP,maxH];;ctrProp[_iLabel,enGol]=_iGolP;golsRel[_iGolP,_gols.nextX]=_iLabel;golsProp[_iGolP,n_relaciones]=_gols.nextX+1;doLayoutGol(_iGolP)'
+id='puedeSoltarEn(_iLSol,_iGEn)' algoritmo='sí' expresión='1' algoritmo='sí'
+id='sobreCualSoltado(_x,_y,_w,_h)' algoritmo='sí' expresión='_res' algoritmo='sí' inicio='_indexD=n_gols-1;_res=-1;' hacer='_tmpA.x=golsProp[_indexD,X];_tmpA.y=golsProp[_indexD,Y];_tmpA.w=golsProp[_indexD,W];_tmpA.h=golsProp[_indexD,H];;_cond1=_tmpA.x<(_x+_w);_cond2=_x<(_tmpA.x+_tmpA.w);_cond3=_tmpA.y<(_y+_h);_cond4=_y<(_tmpA.y+_tmpA.h);;;_colision=(_cond1)&(_cond2)&(_cond3)&(_cond4);_colision=(_colision);;_res=(_colision)?_indexD:_res;entroFun=entroFun+_indexD+&squot;_&squot;+_res+&squot;_&squot;+_colision+&squot;,&squot;;;_indexD=_indexD-1;' mientras='(_indexD>=0)&(!_colision)'
+id='ctrSoltado(_iCtr)' algoritmo='sí' algoritmo='sí' hacer='_ctrS.x=ctrProp[_iCtr,X];_ctrS.y=ctrProp[_iCtr,Y];_ctrS.w=ctrProp[_iCtr,W];_ctrS.h=ctrProp[_iCtr,H];;;_iGoalSobre=sobreCualSoltado(_mousePixX,_mousePixY,1,1);_iGoalSobre=(_iGoalSobre<0)?sobreCualSoltado(_ctrS.x,_ctrS.y,_ctrS.w,_ctrS.h):_iGoalSobre;_puede=(_iGoalSobre>=0)?puedeSoltarEn(_iCtr,_iGoalSobre):0;;_puede=(_iGoalSobre>=0)&(_puede);tt=(_puede)?pegaAGol(_iCtr,_iGoalSobre):regresaAInitPos(_iCtr)'
+id='__FUNCT_CTR_'
+id='sobreCual(_mX,_mY)' algoritmo='sí' expresión='_res' algoritmo='sí' inicio='_index=n_ctr-1;_res=-1;' hacer='_pos.x=ctrProp[_index,X];_pos.y=ctrProp[_index,Y];;_pos.x2=_pos.x+ctrProp[_index,W];_pos.y2=_pos.y+ctrProp[_index,H];;_estaSobre=(_pos.x<=_mX)&(_pos.x2>=_mX);_estaSobre=_estaSobre&(_pos.y<=_mY)&(_pos.y2>=_mY);;_res=(_estaSobre)?_index:_res;;_index=_index-1' mientras='(_index>=0)&(!_estaSobre)'
+id='sobreCualParaTxtDxy(mX,mY)' algoritmo='sí' expresión='_res' algoritmo='sí' inicio='index=0;_res=-1;' hacer='_pos.x=ctrProp[index,X]+ctrProp[index,TXT_Dx]-_wResize/2;_pos.y=ctrProp[index,Y]+ctrProp[index,TXT_Dy]-_wResize/2;;;_pos.x2=_pos.x+_wResize;_pos.y2=_pos.y+_wResize;;_estaSobre=(_pos.x<=mX)&(_pos.x2>=mX);_estaSobre=_estaSobre&(_pos.y<=mY)&(_pos.y2>=mY);;_res=(_estaSobre)?index:_res;;index=index+1' mientras='(index<n_ctr)&(!_estaSobre)'
+id='sobreCualParaSize(_mX,_mY)' algoritmo='sí' expresión='_res' algoritmo='sí' inicio='_index=0;_res=-1;entroFun=entroFun+&squot;ENTRO 3 &squot;' hacer='_posSCS.x=ctrProp[_index,X]+ctrProp[_index,W]-_wResize;_posSCS.y=ctrProp[_index,Y]+ctrProp[_index,H]-_wResize;;_posSCS.x2=_posSCS.x+_wResize;_posSCS.y2=_posSCS.y+_wResize;;_estaSobreX=(_posSCS.x<=_mX)&(_posSCS.x2>=_mX);_estaSobreY=(_posSCS.y<=_mY)&(_posSCS.y2>=_mY);_estaSobre=(_estaSobreX)&(_estaSobreY);;_res=(_estaSobre)?_index:_res;;_index=_index+1' mientras='(_index<n_ctr)&(!_estaSobre)'
+id='puedeTomar(_iCtr)' expresión='1'
+id='moveLabelFor(iL1,onPX,onPY)' algoritmo='sí' algoritmo='sí' hacer='_posT.x=ctrProp[iL1,X]+onPX;_posT.y=ctrProp[iL1,Y]+onPY;;;ctrProp[iL1,X]=_posT.x;ctrProp[iL1,Y]=_posT.y;;;_iGolTmpA1=ctrProp[iL1,enGol];_borrarT=_iGolTmpA1>-1;;tt=(_borrarT)?borraDeGol(_iGolTmpA1,iL1):0;ctrProp[iL1,enGol]=-1;;tt=(_borrarT)?doLayoutGol(_iGolTmpA1):0;;'
+id='moveTxtDxyObj(iL1,onPX,onPY)' algoritmo='sí' algoritmo='sí' hacer='_posT.x=ctrProp[iL1,TXT_Dx]+onPX;_posT.y=ctrProp[iL1,TXT_Dy]+onPY;;_tmpW=ctrProp[iL1,W]-_wResize;_tmpH=ctrProp[iL1,H]-_wResize;;ctrProp[iL1,TXT_Dx]=min(max(_posT.x,0),_tmpW);ctrProp[iL1,TXT_Dy]=min(max(_posT.y,0),_tmpH);;;'
+id='resizeObj(iL1,toPX,toPY)' algoritmo='sí' algoritmo='sí' hacer='_posT.x=ctrProp[iL1,X];_posT.y=ctrProp[iL1,Y];;;_tmpW=(toPX+_wResize/2-_posT.x);_tmpH=(toPY+_wResize/2-_posT.y);;ctrProp[iL1,W]=max(_tmpW,_wResize);ctrProp[iL1,H]=max(_tmpH,_wResize);;;'
+id='calcPoligFondo(_iOpc)' algoritmo='sí' expresión='verFondos|(edicion==MODIF_OBJ)' algoritmo='sí' hacer='_ctrPol.Borde.W=ctrProp[_iOpc,borde.W];;_ctrPol.x1=ctrProp[_iOpc,X];_ctrPol.y1=ctrProp[_iOpc,Y];_ctrPol.x2=_ctrPol.x1+ctrProp[_iOpc,W];_ctrPol.y2=_ctrPol.y1+ctrProp[_iOpc,H];;_ctrPol.Borde.A=ctrProp[_iOpc,borde.A];_ctrPol.Borde.R=ctrProp[_iOpc,borde.R];_ctrPol.Borde.G=ctrProp[_iOpc,borde.G];_ctrPol.Borde.B=ctrProp[_iOpc,borde.B];;;_ctrPol.A=ctrProp[_iOpc,A];_ctrPol.R=ctrProp[_iOpc,R];_ctrPol.G=ctrProp[_iOpc,G];_ctrPol.B=ctrProp[_iOpc,B];;_imgCtr.x=_ctrPol.x1+ctrProp[_iOpc,IMG_Dx];_imgCtr.y=_ctrPol.y1+ctrProp[_iOpc,IMG_Dy];_imgCtr.src=ctrProp[_iOpc,IMG];'
+id='calRecResize(_iObj)' algoritmo='sí' expresión='(edicion==MODIF_OBJ)' algoritmo='sí' hacer='_cuadroR.x1=ctrProp[_iObj,X]+ctrProp[_iObj,W]-_wResize;_cuadroR.y1=ctrProp[_iObj,Y]+ctrProp[_iObj,H]-_wResize;;_cuadroR.x2=_cuadroR.x1+_wResize;_cuadroR.y2=_cuadroR.y1+_wResize;;;'
+id='calRecTxtDxy(_iObj)' algoritmo='sí' expresión='(edicion==MODIF_OBJ)' algoritmo='sí' hacer='_cuadroR.x1=ctrProp[_iObj,X]+ctrProp[_iObj,TXT_Dx]-_wResize/2;_cuadroR.y1=ctrProp[_iObj,Y]+ctrProp[_iObj,TXT_Dy]-_wResize/2;;_cuadroR.x2=_cuadroR.x1+_wResize;_cuadroR.y2=_cuadroR.y1+_wResize;;;'
+id='__FUNCT_GOLS_'
+id='sobreCualGol(_mX,_mY)' algoritmo='sí' expresión='_res' algoritmo='sí' inicio='_index=n_gols-1;_res=-1;' hacer='_pos.x=golsProp[_index,X];_pos.y=golsProp[_index,Y];;_pos.x2=_pos.x+golsProp[_index,W];_pos.y2=_pos.y+golsProp[_index,H];;_estaSobre=(_pos.x<=_mX)&(_pos.x2>=_mX);_estaSobre=_estaSobre&(_pos.y<=_mY)&(_pos.y2>=_mY);;_res=(_estaSobre)?_index:_res;;_index=_index-1' mientras='(_index>=0)&(!_estaSobre)'
+id='sobreCualGolParaTxtDxy(mX,mY)' algoritmo='sí' expresión='_res' algoritmo='sí' inicio='index=0;_res=-1;' hacer='_pos.x=golsProp[index,X]+golsProp[index,TXT_Dx]-_wResize/2;_pos.y=golsProp[index,Y]+golsProp[index,TXT_Dy]-_wResize/2;;;_pos.x2=_pos.x+_wResize;_pos.y2=_pos.y+_wResize;;_estaSobre=(_pos.x<=mX)&(_pos.x2>=mX);_estaSobre=_estaSobre&(_pos.y<=mY)&(_pos.y2>=mY);;_res=(_estaSobre)?index:_res;;index=index+1' mientras='(index<n_gols)&(!_estaSobre)'
+id='sobreCualGolParaSize(_mX,_mY)' algoritmo='sí' expresión='_res' algoritmo='sí' inicio='_index=0;_res=-1;entroFun=entroFun+&squot;ENTRO 3 &squot;' hacer='_posSCS.x=golsProp[_index,X]+golsProp[_index,W]-_wResize;_posSCS.y=golsProp[_index,Y]+golsProp[_index,H]-_wResize;;_posSCS.x2=_posSCS.x+_wResize;_posSCS.y2=_posSCS.y+_wResize;;_estaSobreX=(_posSCS.x<=_mX)&(_posSCS.x2>=_mX);_estaSobreY=(_posSCS.y<=_mY)&(_posSCS.y2>=_mY);_estaSobre=(_estaSobreX)&(_estaSobreY);;_res=(_estaSobre)?_index:_res;;_index=_index+1' mientras='(_index<n_gols)&(!_estaSobre)'
+id='moveLabelGolFor(iL1,onPX,onPY)' algoritmo='sí' algoritmo='sí' hacer='_posT.x=golsProp[iL1,X]+onPX;_posT.y=golsProp[iL1,Y]+onPY;;;golsProp[iL1,X]=_posT.x;golsProp[iL1,Y]=_posT.y;;doLayoutGol(iL1);'
+id='moveTxtGolDxyObj(iL1,onPX,onPY)' algoritmo='sí' algoritmo='sí' hacer='_posT.x=golsProp[iL1,TXT_Dx]+onPX;_posT.y=golsProp[iL1,TXT_Dy]+onPY;;_tmpW=golsProp[iL1,W]-_wResize;_tmpH=golsProp[iL1,H]-_wResize;;golsProp[iL1,TXT_Dx]=min(max(_posT.x,0),_tmpW);golsProp[iL1,TXT_Dy]=min(max(_posT.y,0),_tmpH);;;'
+id='resizeObjGol(iL1,toPX,toPY)' algoritmo='sí' algoritmo='sí' hacer='_posT.x=golsProp[iL1,X];_posT.y=golsProp[iL1,Y];;;_tmpW=(toPX+_wResize/2-_posT.x);_tmpH=(toPY+_wResize/2-_posT.y);;golsProp[iL1,W]=max(_tmpW,_wResize);golsProp[iL1,H]=max(_tmpH,_wResize);;doLayoutGol(iL1);'
+id='calcPoligGolFondo(_iOpc)' algoritmo='sí' expresión='verFondos|(edicion==MODIF_OBJ)' algoritmo='sí' hacer='_ctrPol.Borde.W=golsProp[_iOpc,borde.W];;_ctrPol.x1=golsProp[_iOpc,X];_ctrPol.y1=golsProp[_iOpc,Y];_ctrPol.x2=_ctrPol.x1+golsProp[_iOpc,W];_ctrPol.y2=_ctrPol.y1+golsProp[_iOpc,H];;_ctrPol.Borde.A=golsProp[_iOpc,borde.A];_ctrPol.Borde.R=golsProp[_iOpc,borde.R];_ctrPol.Borde.G=golsProp[_iOpc,borde.G];_ctrPol.Borde.B=golsProp[_iOpc,borde.B];;;_ctrPol.A=golsProp[_iOpc,A];_ctrPol.R=golsProp[_iOpc,R];_ctrPol.G=golsProp[_iOpc,G];_ctrPol.B=golsProp[_iOpc,B];;_imgGol.x=_ctrPol.x1+golsProp[_iOpc,IMG_Dx];_imgGol.y=_ctrPol.y1+golsProp[_iOpc,IMG_Dy];_imgGol.src=golsProp[_iOpc,IMG];'
+id='calRecGolResize(_iObj)' algoritmo='sí' expresión='(edicion==MODIF_OBJ)' algoritmo='sí' hacer='_cuadroR.x1=golsProp[_iObj,X]+golsProp[_iObj,W]-_wResize;_cuadroR.y1=golsProp[_iObj,Y]+golsProp[_iObj,H]-_wResize;;_cuadroR.x2=_cuadroR.x1+_wResize;_cuadroR.y2=_cuadroR.y1+_wResize;;;'
+id='calRecGolTxtDxy(_iObj)' algoritmo='sí' expresión='(edicion==MODIF_OBJ)' algoritmo='sí' hacer='_cuadroR.x1=golsProp[_iObj,X]+golsProp[_iObj,TXT_Dx]-_wResize/2;_cuadroR.y1=golsProp[_iObj,Y]+golsProp[_iObj,TXT_Dy]-_wResize/2;;_cuadroR.x2=_cuadroR.x1+_wResize;_cuadroR.y2=_cuadroR.y1+_wResize;;;'
+id='_FUN_GEN2__'
+id='calcModifObj()' algoritmo='sí' algoritmo='sí' hacer='activo=(_resienPress)?sobreCual(_mousePixX,_mousePixY):activo;;activoResize=((_resienPress)&(activo>-1))?sobreCualParaSize(_mousePixX,_mousePixY):activoResize;activoTxtDxy=((_resienPress)&(activo>-1))?sobreCualParaTxtDxy(_mousePixX,_mousePixY):activoTxtDxy;;activo=(_mousePressed)?activo:-1;activoResize=(_mousePressed)?activoResize:-1;activoTxtDxy=(_mousePressed)?activoTxtDxy:-1;;_tmpBResize=(activo>-1)&(activoResize>-1)&(activoResize==activo);_tmpBTDxy=(activo>-1)&(!_tmpBResize)&(activoTxtDxy>-1)&(activoTxtDxy==activo);_tmpBArras=(activo>-1)&(!_tmpBResize)&(!_tmpBTDxy);;_activoTmp=max(activo,0);tt=(_tmpBArras)?moveLabelFor(activo,_deltaMPixX,_deltaMPixY):0;ctrProp[_activoTmp,initX]=(_tmpBArras)?ctrProp[_activoTmp,X]:ctrProp[_activoTmp,initX];ctrProp[_activoTmp,initY]=(_tmpBArras)?ctrProp[_activoTmp,Y]:ctrProp[_activoTmp,initY];;tt=(_tmpBTDxy)?moveTxtDxyObj(activo,_deltaMPixX,_deltaMPixY):0;tt=(_tmpBResize)?resizeObj(activo,_mousePixX,_mousePixY):0;;;;;;_PuedeSerGol=(_resienPress)&(activo<0);;activoGol=(_PuedeSerGol)?sobreCualGol(_mousePixX,_mousePixY):activoGol;;activoGolResize=((_PuedeSerGol)&(activoGol>-1))?sobreCualGolParaSize(_mousePixX,_mousePixY):activoGolResize;activoGolTxtDxy=((_PuedeSerGol)&(activoGol>-1))?sobreCualGolParaTxtDxy(_mousePixX,_mousePixY):activoGolTxtDxy;;activoGol=(_mousePressed)?activoGol:-1;activoGolResize=(_mousePressed)?activoGolResize:-1;activoGolTxtDxy=(_mousePressed)?activoGolTxtDxy:-1;;_tmpBResize=(activoGol>-1)&(activoGolResize>-1)&(activoGolResize==activoGol);_tmpBTDxy=(activoGol>-1)&(!_tmpBResize)&(activoGolTxtDxy>-1)&(activoGolTxtDxy==activoGol);_tmpBArras=(activoGol>-1)&(!_tmpBResize)&(!_tmpBTDxy);;tt=(_tmpBArras)?moveLabelGolFor(activoGol,_deltaMPixX,_deltaMPixY):0;tt=(_tmpBTDxy)?moveTxtGolDxyObj(activoGol,_deltaMPixX,_deltaMPixY):0;tt=(_tmpBResize)?resizeObjGol(activoGol,_mousePixX,_mousePixY):0'
+id='interactuaObj()' algoritmo='sí' algoritmo='sí' hacer='activo=(_resienPress)?sobreCual(_mousePixX,_mousePixY):activo;_doMv=((_resienPress)&(activo>-1))?puedeTomar(activo):(!_resienPress);activo=(_doMv)?activo:-1;;;_tmpBArras=(activo>-1);;tt=(_tmpBArras)?moveLabelFor(activo,_deltaMPixX,_deltaMPixY):0;tt=((_soltado)&(activo>-1))?ctrSoltado(activo):0;activo=(_mousePressed)?activo:-1;;'
+id='update()' algoritmo='sí' algoritmo='sí' hacer='_mousePressed=Esp.mousePressed ;_resienPress=(!_mousePressed_ANT)&(_mousePressed);_soltado=(_mousePressed_ANT)&(!_mousePressed);;_mousePixX=(Esp.mouse_x*Esp.escala)+Esp.w/2+Esp.Ox;_mousePixY=-(Esp.mouse_y*Esp.escala)+Esp.h/2+Esp.Oy;_mousePixX=min(max(_mousePixX,0),Esp.w);_mousePixY=min(max(_mousePixY,0),Esp.h);;_mousePixXAnt=(_resienPress)?_mousePixX:_mousePixXAnt;_mousePixYAnt=(_resienPress)?_mousePixY:_mousePixYAnt;;_deltaMPixX=(_mousePixX-_mousePixXAnt);_deltaMPixY=(_mousePixY-_mousePixYAnt);;tt=(edicion==MODIF_OBJ)?calcModifObj():0;tt=(edicion==INTER_OBJ)?interactuaObj():0;;_mousePressed_ANT=_mousePressed;;_mousePixXAnt=_mousePixX;_mousePixYAnt=_mousePixY'
+id='__CALC__'
+id='initAux()' algoritmo='sí' algoritmo='sí' inicio='_index=0' hacer='ctrProp[_index,W]=80;ctrProp[_index,H]=30;;;ctrProp[_index,initX]=10+155*_index;ctrProp[_index,initY]=10;;ctrProp[_index,TXT]=&squot;Texto_&squot;+_index;;ctrProp[_index,TXT_Dx]=2;ctrProp[_index,TXT_Dy]=3;;ctrProp[_index,A]=0;ctrProp[_index,R]=rnd;ctrProp[_index,G]=rnd;ctrProp[_index,B]=rnd;ctrProp[_index,enGol]=-1;;ctrProp[_index,borde.W]=1;;ctrProp[_index,IMG]=&squot;../images/palabras/buscar&squot;+_index+&squot;.png&squot;;ctrProp[_index,IMG]=&squot;&squot;;ctrProp[_index,IMG_Dx]=-2;ctrProp[_index,IMG_Dy]=-2;_index=_index+1' mientras='_index<n_ctr'
+id='initAuxGol()' algoritmo='sí' algoritmo='sí' inicio='_index=0;_gap=10;' hacer='_tmpW=200;golsProp[_index,W]=_tmpW;golsProp[_index,H]=150;golsProp[_index,X]=10+(_tmpW+_gap)*_index;golsProp[_index,Y]=120;golsProp[_index,TXT]=&squot;GOL_&squot;+_index;;golsProp[_index,TXT_Dx]=2;golsProp[_index,TXT_Dy]=3;;golsProp[_index,A]=0;golsProp[_index,R]=1;golsProp[_index,G]=1;golsProp[_index,B]=0.5;golsProp[_index,borde.W]=1;golsProp[_index,n_relaciones]=0;;golsRel[_index,0]=-1;golsRel[_index,1]=-1;golsRel[_index,2]=-1;;golsProp[_index,margenX]=2;golsProp[_index,margenY]=2;_indexIMG=ent(rnd*3+1);golsProp[_index,IMG]=&squot;../images/gols/gol&squot;+_indexIMG+&squot;.png&squot;;golsProp[_index,IMG_Dx]=5;golsProp[_index,IMG_Dy]=5;;;;;_index=_index+1' mientras='_index<n_gols'
+id='INIT' algoritmo='sí' evaluar='una-sola-vez' hacer='initAux();initAuxGol();limpiaRel();;'
+id='getPosX(_iCtr)' algoritmo='sí' expresión='x' algoritmo='sí' hacer='_res.x=(iCtr==0)?32:calcPOsCloro(_iCtr);'
+tipo='texto' fondo='sí' dibujar-si='0' expresión='[__GOLS___,0]' fuente='Monospaced,PLAIN,12' fijo='sí' 
+tipo='polígono' color='(_ctrPol.Borde.R,_ctrPol.Borde.G,_ctrPol.Borde.B,_ctrPol.Borde.A)' dibujar-si='calcPoligGolFondo(s)' coord_abs='sí' expresión='(_ctrPol.x1,_ctrPol.y1)(_ctrPol.x2,_ctrPol.y1)(_ctrPol.x2,_ctrPol.y2)(_ctrPol.x1,_ctrPol.y2)(_ctrPol.x1,_ctrPol.y1)' familia='s' s.intervalo='[0,n_gols-1]' s.pasos='n_gols-1' relleno='(_ctrPol.R,_ctrPol.G,_ctrPol.B,_ctrPol.A)' ancho='golsProp[s,borde.W]' 
+tipo='imagen' dibujar-si='calcPoligGolFondo(s)' coord_abs='sí' expresión='(_imgGol.x,_imgGol.y)' familia='s' s.intervalo='[0,n_gols-1]' s.pasos='n_gols-1' archivo='[_imgGol.src]' rotini='golsProp[s,IMG_Rot]' 
+tipo='texto' dibujar-si='verTextos' expresión='[golsProp[s,X]+golsProp[s,TXT_Dx],golsProp[s,Y]+golsProp[s,TXT_Dy]+5]' familia='s' s.intervalo='[0,n_gols-1]' s.pasos='n_gols-1' texto='[golsProp[s,TXT]]' fuente='Monospaced,PLAIN,19' fijo='sí' color_borde_texto='157506' color='blanco'
+tipo='polígono' color='690000' dibujar-si='calRecGolResize(s)' coord_abs='sí' expresión='(_cuadroR.x1,_cuadroR.y1)(_cuadroR.x2,_cuadroR.y1)(_cuadroR.x2,_cuadroR.y2)(_cuadroR.x1,_cuadroR.y2)(_cuadroR.x1,_cuadroR.y1)' familia='s' s.intervalo='[0,n_gols-1]' s.pasos='n_gols-1' relleno='bdff0000' 
+tipo='polígono' color='006900' dibujar-si='calRecGolTxtDxy(s)' coord_abs='sí' expresión='(_cuadroR.x1,_cuadroR.y1)(_cuadroR.x2,_cuadroR.y1)(_cuadroR.x2,_cuadroR.y2)(_cuadroR.x1,_cuadroR.y2)(_cuadroR.x1,_cuadroR.y1)' familia='s' s.intervalo='[0,n_gols-1]' s.pasos='n_gols-1' relleno='b400ff00' 
+tipo='texto' fondo='sí' dibujar-si='0' expresión='[__CTR___,0]' fijo='sí' 
+tipo='polígono' color='(_ctrPol.Borde.R,_ctrPol.Borde.G,_ctrPol.Borde.B,_ctrPol.Borde.A)' dibujar-si='calcPoligFondo(s)' coord_abs='sí' expresión='(_ctrPol.x1,_ctrPol.y1)(_ctrPol.x2,_ctrPol.y1)(_ctrPol.x2,_ctrPol.y2)(_ctrPol.x1,_ctrPol.y2)(_ctrPol.x1,_ctrPol.y1)' familia='s' s.intervalo='[0,n_ctr-1]' s.pasos='n_ctr-1' relleno='(_ctrPol.R,_ctrPol.G,_ctrPol.B,_ctrPol.A)' ancho='ctrProp[s,borde.W]' 
+tipo='imagen' dibujar-si='calcPoligFondo(s)' coord_abs='sí' expresión='(_imgCtr.x,_imgCtr.y)' familia='s' s.intervalo='[0,n_ctr-1]' s.pasos='n_ctr-1' archivo='[_imgCtr.src]' rotini='ctrProp[s,IMG_Rot]' 
+tipo='texto' dibujar-si='verTextos' expresión='[ctrProp[s,X]+ctrProp[s,TXT_Dx],ctrProp[s,Y]+ctrProp[s,TXT_Dy]]' familia='s' s.intervalo='[0,n_ctr-1]' s.pasos='n_ctr-1' texto='[ctrProp[s,TXT]]' fuente='Monospaced,PLAIN,20' fijo='sí' color='ffffff' color_borde_texto='a07136'
+tipo='polígono' color='690000' dibujar-si='calRecResize(s)' coord_abs='sí' expresión='(_cuadroR.x1,_cuadroR.y1)(_cuadroR.x2,_cuadroR.y1)(_cuadroR.x2,_cuadroR.y2)(_cuadroR.x1,_cuadroR.y2)(_cuadroR.x1,_cuadroR.y1)' familia='s' s.intervalo='[0,n_ctr-1]' s.pasos='n_ctr-1' relleno='bdff0000' 
+tipo='polígono' color='006900' dibujar-si='calRecTxtDxy(s)' coord_abs='sí' expresión='(_cuadroR.x1,_cuadroR.y1)(_cuadroR.x2,_cuadroR.y1)(_cuadroR.x2,_cuadroR.y2)(_cuadroR.x1,_cuadroR.y2)(_cuadroR.x1,_cuadroR.y1)' familia='s' s.intervalo='[0,n_ctr-1]' s.pasos='n_ctr-1' relleno='b400ff00' 
+tipo='texto' fondo='sí' dibujar-si='0' expresión='[__CTR_ACTIVO__,0]' fijo='sí' 
+tipo='polígono' color='(_ctrPol.Borde.R,_ctrPol.Borde.G,_ctrPol.Borde.B,_ctrPol.Borde.A)' dibujar-si='(activo>-1)&(calcPoligFondo(activo))&(edicion!=MODIF_OBJ)' coord_abs='sí' expresión='(_ctrPol.x1,_ctrPol.y1)(_ctrPol.x2,_ctrPol.y1)(_ctrPol.x2,_ctrPol.y2)(_ctrPol.x1,_ctrPol.y2)(_ctrPol.x1,_ctrPol.y1)' relleno='(_ctrPol.R,_ctrPol.G,_ctrPol.B,_ctrPol.A)' ancho='ctrProp[s,borde.W]' 
+tipo='imagen' dibujar-si='(activo>-1)&(calcPoligFondo(activo))&(edicion!=MODIF_OBJ)' coord_abs='sí' expresión='(_imgCtr.x,_imgCtr.y)' archivo='[_imgCtr.src]' rotini='ctrProp[activo,IMG_Rot]' 
+tipo='texto' dibujar-si='(activo>-1)&(verTextos)&(edicion!=MODIF_OBJ)' expresión='[ctrProp[activo,X]+ctrProp[activo,TXT_Dx],ctrProp[activo,Y]+ctrProp[activo,TXT_Dy]]' texto='[ctrProp[activo,TXT]]' fuente='Monospaced,PLAIN,20' fijo='sí' 
+</script>
+
+</body>
+
+</html>

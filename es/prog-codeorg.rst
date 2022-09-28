@@ -22,13 +22,13 @@ programando con bloques la solución.
 .. image:: prog/_images/codeorg-37-scena.png
    :align: center
    :scale: 75%
-	
+
 .. image:: prog/_images/codeorg-37-program.png
    :align: center
 
 La web permite realizar los ejercicios sin registrarse.
 En el caso de querer registrarse, la página solo pide un e-mail,
-que no tiene que ser real, y se almacenarán los resultados de una 
+que no tiene que ser real, y se almacenarán los resultados de una
 sesión a otra.
 
 
@@ -40,6 +40,7 @@ etapas tiene un tiempo aproximado de realización de 40 minutos.
 **Cursos modernos**
 
 .. list-table::
+   :widths: 20 20 50
    :header-rows: 1
 
    * - Curso
@@ -65,6 +66,7 @@ etapas tiene un tiempo aproximado de realización de 40 minutos.
 **Cursos clásicos**
 
 .. list-table::
+   :widths: 20 30 40
    :header-rows: 1
 
    * - Curso
@@ -92,44 +94,82 @@ Hora del código
 realizar en menos de una hora.
 
 .. list-table::
+   :widths: 15 60 15
    :header-rows: 1
 
-   * - Curso
+   * - Número
+     - Curso
      - Ejercicios
-   * - `Artista <https://studio.code.org/s/artist>`_
-     - 10
-   * - `Aventurero Minecraft <https://studio.code.org/s/mc/stage/1/puzzle/1>`_
-     - 14
-   * - `Código Flappy <https://studio.code.org/flappy/1>`_
-     - 10
-   * - `Diseñador Minecraft <https://studio.code.org/s/minecraft/stage/1/puzzle/1>`_
-     - 12
-   * - `Fiesta para bailar <https://studio.code.org/s/dance/stage/1/puzzle/1>`_
+   * - 1
+     - `Fiesta de baile <https://studio.code.org/s/dance/stage/1/puzzle/1>`_
      - 13
-   * - `Frozen <https://studio.code.org/s/frozen/stage/1/puzzle/1>`_
-     - 20
-   * - `Heroe de Minecraft <https://studio.code.org/s/hero/stage/1/puzzle/1>`_
-     - 12
-   * - `Juego de baloncesto <https://studio.code.org/s/basketball/stage/1/puzzle/1>`_
-     - 8
-   * - `Juego multideporte <https://studio.code.org/s/sports/stage/1/puzzle/1>`_
-     - 8
-   * - `Laberinto Angry Birds <https://studio.code.org/hoc/1>`_
-     - 20
-   * - `Laboratorio de juegos clásico <https://studio.code.org/s/playlab/stage/1/puzzle/1>`_
-     - 10
-   * - `Laboratorio de juegos Disney <https://studio.code.org/s/infinity/stage/1/puzzle/1>`_
-     - 10
-   * - `Laboratorio de juegos Gumball <https://studio.code.org/s/gumball/stage/1/puzzle/1>`_
-     - 11
-   * - `Laboratorio de juegos Ice Age <https://studio.code.org/s/iceage/stage/1/puzzle/1>`_
-     - 11
-   * - `Minecraft Acuático <https://studio.code.org/s/aquatic/stage/1/puzzle/1>`_
-     - 12
-   * - `¡Sigue bailando! <https://studio.code.org/s/dance-extras-2019/stage/1/puzzle/2>`_
+   * - 2
+     - `¡Sigue bailando! <https://studio.code.org/s/dance-extras-2019/stage/1/puzzle/2>`_
      - 9
-   * - `Star Wars <https://studio.code.org/s/starwarsblocks>`_
+   * - 3
+     - `Viaje acuático de Minecraft <https://studio.code.org/s/aquatic/lessons/1/levels/1>`_
+     - 12
+   * - 4
+     - `Viaje del héroe de Minecraft <https://studio.code.org/s/hero/stage/1/puzzle/1>`_
+     - 12
+   * - 5
+     - `Aventurero de Minecraft <https://studio.code.org/s/mc/lessons/1/levels/1>`_
+     - 14
+   * - 6
+     - `Diseñador Minecraft <https://studio.code.org/s/minecraft/stage/1/puzzle/1>`_
+     - 12
+   * - 7
+     - `Código Flappy <https://studio.code.org/flappy/1>`_
+     - 10
+   * - 8
+     - `Hola Mundo <https://code.org/helloworld>`_
+     - 11
+   * - 9
+     - `Compute it <https://compute-it.toxicode.fr/>`_
+     - 60
+   * - 10
+     - `Arte del Poema <https://studio.code.org/s/poem-art-2021/lessons/1/levels/1>`_
+     - 9
+   * - 11
+     - `Arte del Poema <https://studio.code.org/s/poem-art-2021/lessons/1/levels/1>`_
+     - 9
+   * - 12
+     - `AI para océanos <https://studio.code.org/s/oceans/lessons/1/levels/1>`_
+     - 8
+   * - 13
+     - `Laberinto Angry Birds <https://studio.code.org/hoc/1>`_
+     - 20
+   * - 14
+     - `Star Wars <https://studio.code.org/s/starwarsblocks/lessons/1/levels/1>`_
      - 15
+   * - 15
+     - `Frozen <https://studio.code.org/s/frozen/lessons/1/levels/1>`_
+     - 20
+   * - 16
+     - `Simulador de epidemias <https://studio.code.org/s/outbreak/lessons/1/levels/1>`_
+     - 10
+   * - 17
+     - `Artista <https://studio.code.org/s/artist/lessons/1/levels/1>`_
+     - 10
+   * - 18
+     - `Juego de baloncesto <https://studio.code.org/s/basketball/lessons/1/levels/1>`_
+     - 8
+   * - 19
+     - `Juego multideporte <https://studio.code.org/s/sports/lessons/1/levels/1>`_
+     - 8
+   * - 20
+     - `Laboratorio de juegos clásico <https://studio.code.org/s/playlab/lessons/1/levels/1>`_
+     - 10
+   * - 21
+     - `Laboratorio de juegos Ice Age <https://studio.code.org/s/iceage/lessons/1/levels/1>`_
+     - 11
+   * - 22
+     - `Laboratorio de juegos Disney <https://studio.code.org/s/infinity/lessons/1/levels/1>`_
+     - 10
+   * - 23
+     - `Laboratorio de juegos Gumball <https://studio.code.org/s/gumball/lessons/1/levels/1>`_
+     - 11
+
 
 Más ejercicios de `hora del código <https://code.org/learn>`_
 

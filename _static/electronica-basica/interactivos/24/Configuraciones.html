@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>TITULO</title>
+  <script type="text/javascript" src="lib/descartes-min.js" charset="utf-8"></script>
+</head>
+
+<body style="padding:0; margin:0; background:#eff0f1;">
+
+  <div align="center">
+    <ajs name="Descartes" code="Descartes" width="970" height="550">
+      <param name="tamaño" value="970x550">
+      <param name="decimal_symbol" value=".">
+      <param name="expand" value="fit">
+      <param name="nombre" value="">
+      <param name="Versión" value="5.5">
+      <param name="editable" value="no">
+      <param name="Idioma" value="español">
+      <param name="Botones" value="créditos=no config=no inicio=no limpiar=no filas_norte=0 filas_sur=0 ancho_este=150 ancho_oeste=150 alto=40 ">
+      <param name="E_01" value="tipo='R2' id='E1' ancho='100%' alto='100%' dibujar-si='F=1' imagen='imagenes/01_inversor_im.jpg' despl_imagen='expand.' red='no' red10='no' ejes='no' ">
+      <param name="E_02" value="tipo='R2' id='E2' ancho='100%' alto='100%' dibujar-si='F=2' imagen='imagenes/02_no_inversor_im.jpg' despl_imagen='expand.' red='no' red10='no' ejes='no' ">
+      <param name="E_03" value="tipo='R2' id='E3' ancho='100%' alto='100%' dibujar-si='F=3' imagen='imagenes/03_sumador_inversor_im.jpg' despl_imagen='expand.' red='no' red10='no' ejes='no' ">
+      <param name="E_04" value="tipo='R2' id='E4' ancho='100%' alto='100%' dibujar-si='F=4' imagen='imagenes/04_sumador_no_inversor_im.jpg' despl_imagen='expand.' red='no' red10='no' ejes='no' ">
+      <param name="E_05" value="tipo='R2' id='E5' ancho='100%' alto='100%' dibujar-si='F=5' imagen='imagenes/05_restador_im.jpg' despl_imagen='expand.' red='no' red10='no' ejes='no' ">
+      <param name="E_06" value="tipo='R2' id='E6' ancho='100%' alto='100%' dibujar-si='F=6' imagen='imagenes/06_derivador_im.jpg' despl_imagen='expand.' red='no' red10='no' ejes='no' ">
+      <param name="E_07" value="tipo='R2' id='E7' ancho='100%' alto='100%' dibujar-si='F=7' imagen='imagenes/07_integrador_im.jpg' despl_imagen='expand.' red='no' red10='no' ejes='no' ">
+      <param name="E_08" value="tipo='R2' id='E8' ancho='100%' alto='100%' dibujar-si='F=8' imagen='imagenes/08_seguidor_im.jpg' despl_imagen='expand.' red='no' red10='no' ejes='no' ">
+      <param name="E_09" value="tipo='R2' id='E9' ancho='100%' alto='100%' dibujar-si='F=9' imagen='imagenes/09_comparador_im.jpg' despl_imagen='expand.' red='no' red10='no' ejes='no' ">
+      <param name="E_10" value="tipo='R2' id='marco1' ancho='100%' alto='100%' dibujar-si='M=1' imagen='marcos/6.png' despl_imagen='expand.' fondo='ffffffff' red='no' red10='no' ejes='no' ">
+      <param name="E_11" value="tipo='R2' id='marco2' ancho='100%' alto='100%' dibujar-si='M=2' imagen='marcos/3.png' despl_imagen='expand.' fondo='ffffffff' red='no' red10='no' ejes='no' ">
+      <param name="E_12" value="tipo='R2' id='marco3' ancho='100%' alto='100%' dibujar-si='M=3' imagen='marcos/2.png' despl_imagen='expand.' fondo='ffffffff' red='no' red10='no' ejes='no' ">
+      <param name="E_13" value="tipo='R2' id='marco4' ancho='100%' alto='100%' dibujar-si='M=4' imagen='marcos/11.png' despl_imagen='expand.' fondo='ffffffff' red='no' red10='no' ejes='no' ">
+      <param name="E_14" value="tipo='R2' id='mascara' ancho='100%' alto='100%' fondo='ffffffff' red='no' red10='no' ejes='no' ">
+      <param name="C_01" value="id='adelante' interfaz='botón' tipo='numérico' región='interior' espacio='mascara' nombre='adelante' expresión='(mascara._w-109,mascara._h-35,99,32)' color='ffffff' color-int='f0f8ff' fuente puntos='19' imagen='botones/6.gif' acción='calcular' parámetro='F=F+1' dibujar-si='F<9' ">
+      <param name="C_02" value="id='atrás' interfaz='botón' tipo='numérico' región='interior' espacio='mascara' nombre='atrás' expresión='(10,mascara._h-35,99,32)' color='ffffff' color-int='f0f8ff' fuente puntos='19' imagen='botones/6.gif' acción='calcular' parámetro='F:=F-1' dibujar-si='F>1' ">
+      <param name="C_03" value="id='adelante_m' interfaz='botón' tipo='numérico' región='interior' espacio='mascara' expresión='(mascara._w-43,10,33,33)' color='ffffff' color-int='f0f8ff' fuente puntos='19' imagen='botones/der1.gif' acción='calcular' parámetro='M:=M+1' dibujar-si='M<4' ">
+      <param name="C_04" value="id='atrás_m' interfaz='botón' tipo='numérico' región='interior' espacio='mascara' expresión='(7,10,33,33)' color='ffffff' color-int='f0f8ff' fuente puntos='19' imagen='botones/izq1.gif' acción='calcular' parámetro='M:=M-1' dibujar-si='M>1' ">
+      <param name="A_01" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='F=1;M=1' ">
+      <param name="A_02" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' ">
+    </ajs>
+  </div>
+
+
+
+</body>
+</html>

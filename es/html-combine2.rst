@@ -6,7 +6,7 @@
 
 Combinar etiquetas imagen y link
 ================================
-Las etiquetas se pueden combinar entre sí para conseguir
+Estas etiquetas se pueden combinar entre sí para conseguir
 ambos efectos.
 
 En este Ejercicio HTML se insertará una imagen dentro de un 

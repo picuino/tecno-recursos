@@ -7,7 +7,7 @@
 Combinar etiquetas imagen y tabla
 =================================
 
-Las etiquetas se pueden combinar entre si para conseguir
+Estas etiquetas se pueden combinar entre si para conseguir
 los efectos de ambas.
 En este Ejercicio HTML se insertará una imagen dentro de una tabla.
 

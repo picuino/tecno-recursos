@@ -1,0 +1,112 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.page h1 {
+  color: var(--h1-color);
+}
+.page h2 {
+  color: var(--h2-color);
+  font-size: 140%;
+}
+a {
+  color: var(--link-text-color);
+}
+
+.note {
+  border-left: 4px solid var(--note-color);
+  color: var(--note-text-color);
+}
+
+.num_block {
+  border-left: 4px solid #16a085;
+}
+.num_block[prefix="Teorema"] {
+  border-left: 4px solid #2ecc71;
+}
+.num_block[prefix="Lema"] {
+  border-left: 4px solid #f39c12;
+}
+
+.image_expand {
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+.interactive {
+  text-align: center;
+  border: 1px solid var(--interactive-border-color);
+  border-radius: 2px;
+  background: var(--interactive-color);
+}
+.image_link {
+  border: 2px solid var(--image-border-color);
+}
+
+li {
+  padding: 0 0 0.4em 0;
+}
+
+code, code_math {
+  display: inline;
+}
+code, pre, code_math {
+  font-family: 'UbuntuMono', monospace;
+  font-size: 107%;
+  color: #778890;
+}
+xmp {
+  font-family: 'UbuntuMono', monospace;
+  font-size: 107%;
+  color: #e67e22;
+  border: 1px solid #e67e22;
+}
+
+.katex {
+  font-size: 110% !important;
+}
+
+.cover_title {
+  position: absolute;
+  top: 595px;
+  left: 57px;
+  right: 0px;
+  color: #0089cd;
+  font-size: 350%;
+  text-align: center;
+  text-shadow: 1px 2px rgba(0,0,0,0.15);
+}
+.cover_subtitle {
+  position: absolute;
+  left: 57px;
+  right: 0px;
+  bottom: 45px;
+  text-align: center;
+  color: #0089cd;
+  font-size: 220%;
+  text-shadow: 1px 2px rgba(0,0,0,0.15);
+}
+
+.chap_text {
+  position: absolute;
+  right: var(--page-right-margin);
+  top: 200px;
+  color: #0089cd;
+  font-size: 500%;
+  text-shadow: 1px 2px rgba(0,0,0,0.15);
+}
+.chap_name {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  left: 58px;
+  width: 582px;
+  top: 395px;
+  height: 170px;
+  color: #0089cd;
+  font-size: 250%;
+  text-shadow: 1px 2px rgba(0,0,0,0.15);
+}

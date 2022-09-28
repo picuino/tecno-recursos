@@ -22,13 +22,14 @@ están los métodos para representar la información en medios físicos.
 Por ejemplo la escritura, la fotografía, la imprenta, etc.
 
 Otro gran grupo de inventos son los aparatos modernos que utilizan
-electricidad o bien ondas de radio para comunicarse punto a punto 
-tales como el telégrafo o el teléfono y otros que se utilizan para
-difundir información de manera masiva como la radio y la televisión.
+electricidad o bien ondas de radio para comunicarse de un punto a 
+otro punto tales como el telégrafo o el teléfono y otros que se 
+utilizan para difundir información de manera masiva como la radio 
+y la televisión.
 
-Por último las nuevas tecnologías basadas en Internet que permiten 
-que cualquier persona pueda difundir información de manera masiva, 
-tales como blogs, foros, Instagram, etc.
+Por último, hoy en día contamos con las nuevas tecnologías basadas 
+en internet que permiten que cualquier persona pueda difundir 
+información de manera masiva, tales como blogs, foros, Instagram, etc.
 
 
 Ejercicio

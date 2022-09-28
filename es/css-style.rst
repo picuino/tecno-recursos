@@ -6,8 +6,8 @@
 
 Etiqueta de Estilo
 ==================
-La etiqueta <style> del código HTML permite añadir
-estilos al contenido del documento.
+La etiqueta <style> dentro del código HTML permite añadir
+estilos al contenido del documento HTML.
 Un ejemplo de estilo es el color de un texto, su tamaño,
 la separación entre líneas, etc.
 
@@ -16,10 +16,10 @@ Etiquetas utilizadas
 --------------------
 ``<style> </style>``
    Etiqueta que permite incluir estilos en el documento
-   html.
+   HTML.
 
    Esta etiqueta debe insertarse en la sección <head>
-   del documento.
+   del documento HTML.
 
 ``/* Comentario */``
    Este es el formato que tienen los comentarios dentro

@@ -1,0 +1,35 @@
+/**
+ * @author Joel Espinosa Longi
+ * @licencia Atribución-CompartirIgual 4.0 Internacional  - https://creativecommons.org/licenses/by-sa/4.0/deed.es
+ */
+
+ #book_loader_container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: rgb(237, 241, 241);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#book_loader {
+  border: 2vmin solid #ccc;
+  border-radius: 50%;
+  border-top: 2vmin solid #0665A2;
+  width:  12vmin;
+  height: 12vmin;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

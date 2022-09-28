@@ -28,7 +28,8 @@ Etiquetas utilizadas
 
 
 
-| Archivos para descargar.
+| Archivos para descargar y pegar en el mismo directorio que la 
+  página html que estamos escribiendo.
 | :download:`texto.rtf <html/texto.rtf>`
 | :download:`html-link2.html <html/html-link2.html>`
 

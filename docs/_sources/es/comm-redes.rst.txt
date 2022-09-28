@@ -9,7 +9,7 @@
 Redes de datos
 ==============
 
-Presentación sobre redes de datos.
+Presentación para proyector sobre redes de datos.
 
 .. image:: comm/_images/comm-redes-datos.png
    :align: center

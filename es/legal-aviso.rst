@@ -38,7 +38,7 @@ Condiciones Generales de Uso aquí reflejadas.
 **3. USO DE LA PÁGINA WEB**
 
 3.1 La Página Web proporciona acceso a informaciones, servicios,
-programas o datos (en adelante, "los contenidos") en Internet
+programas o datos (en adelante, "los contenidos") en internet
 pertenecientes a la ASOCIACIÓN a los que el USUARIO pueda
 tener acceso.
 
@@ -172,7 +172,7 @@ aparezcan presentados o localizados en su Página Web.
 **8. ENLACES**
 
 8.1. En el caso de que en nombre del dominio se dispusiesen enlaces
-o hipervínculos hacía otros sitios de Internet, la ASOCIACIÓN
+o hipervínculos hacía otros sitios de internet, la ASOCIACIÓN
 no ejercerá ningún tipo de control sobre dichos sitios y contenidos.
 
 8.2. En ningún caso la ASOCIACIÓN asumirá responsabilidad alguna
@@ -180,7 +180,7 @@ por los contenidos de algún enlace perteneciente a un sitio web
 ajeno, ni garantizará la disponibilidad técnica, calidad, fiabilidad,
 exactitud, amplitud, veracidad, validez y constitucionalidad de
 cualquier material o información contenida en ninguno de dichos
-hipervínculos u otros sitios de Internet.
+hipervínculos u otros sitios de internet.
 
 8.3. Igualmente la inclusión de estas conexiones externas no 
 implicará ningún tipo de asociación, fusión o participación con las

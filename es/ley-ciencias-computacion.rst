@@ -280,7 +280,7 @@ Competencia específica 3.
 Competencia específica 4.
 
    4.1 Reconocer los elementos y componentes de las redes informáticas,
-   incluido los de Internet.
+   incluido los de internet.
    
    4.2 Conectar equipos informáticos a todo tipo de redes.
    

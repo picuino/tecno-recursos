@@ -6,9 +6,10 @@
 
 Ancho y alto de caja
 ====================
-La caja donde se encuentra el contenido (texto o imágenes)
-se puede modificar en anchura y altura para que ocupe un
-tamaño determinado por la hoja de estilo CSS y no por el 
+La caja donde se encuentra el contenido de un documento 
+(texto o imágenes) se puede modificar en anchura y altura 
+para que ocupe un tamaño a nuestro gusto, determinado por 
+la hoja de estilo CSS y no un tamaño determinado por el
 contenido.
 
 Ejercicio

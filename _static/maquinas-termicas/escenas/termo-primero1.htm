@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title></title>
+	<link rel="stylesheet" href="../fonts/style.css" type="text/css">
+<style>
+	body { 
+    background-color: transparent;
+}
+	</style>
+	<script type='text/javascript' src='../lib/descartes-min.js'></script>
+</head>
+<body>
+<ajs name="Descartes" width=700 height=500 code="Descartes">
+   <param name="tamaño" value="700x500">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="deshacer" value="no">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.335, 2015-01-12">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=no limpiar=no ancho_este=150 ancho_oeste=150 alto=35">
+   <param name="E_01" value="tipo='R2' id='E1' despl_imagen='arr-izq' fondo='ffd4d4d7' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_02" value="tipo='R2' id='E2' x='10%' y='10%' ancho='85%' alto='70%' dibujar-si='d>0' despl_imagen='arr-izq' fondo='b36030' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='A1' tipo='numérico' interfaz='botón' región='norte' espacio='E1' nombre='Actividad 1' fijo='sí' visible='sí' color='blanco' color-int='c44c00' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=1'">
+   <param name="C_02" value="id='A2' tipo='numérico' interfaz='botón' región='norte' espacio='E1' nombre='Actividad 2' fijo='sí' visible='sí' color='blanco' color-int='c44c00' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=2' pos_mensajes='centro'">
+   <param name="C_03" value="id='A3' tipo='numérico' interfaz='botón' región='norte' espacio='E1' nombre='Actividad 3' fijo='sí' visible='sí' color='blanco' color-int='c44c00' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=3' pos_mensajes='centro'">
+   <param name="C_04" value="id='Ya' tipo='numérico' interfaz='botón' espacio='E1' nombre='Ya' expresión='(0,0,40,23)' fijo='sí' visible='sí' color='blanco' color-int='003fff' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='animar' pos_mensajes='centro'">
+   <param name="C_05" value="id='visto' tipo='numérico' interfaz='botón' región='interior' espacio='E2' nombre='Visto' expresión='(230,260)' fijo='sí' visible='sí' color='blanco' color-int='003fff' fuente puntos='20' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=0' pos_mensajes='centro'">
+   <param name="C_06" value="id='Ayuda' tipo='numérico' interfaz='botón' región='norte' espacio='E1' nombre='Ayuda' fijo='sí' visible='sí' color='blanco' color-int='c44c00' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=4' pos_mensajes='centro'">
+   <param name="C_07" value="id='NT' tipo='numérico' espacio='E1' nombre='Nº moles' valor='0.5' min='0.1' max='1.5' fijo='sí' visible='sí' pos_mensajes='centro'">
+   <param name="C_08" value="id='fc' tipo='numérico' interfaz='menú' espacio='E1' nombre='Acción' fijo='sí' visible='no' opciones='Calentamos,Dejamos enfriar' pos_mensajes='centro'">
+   <param name="C_09" value="id='cal' tipo='numérico' interfaz='menú' región='interior' espacio='E1' nombre='Condición' expresión='(10,150,240,30)' fijo='sí' visible='no' opciones='Volumen fijo,Presión fija'">
+   <param name="C_10" value="id='tin' tipo='numérico' interfaz='barra' región='interior' espacio='E1' nombre='To' expresión='(10,195,240,30)' valor='300' incr='1' min='1' max='1000' decimales='0' fijo='no' visible='no' opciones='Volumen fijo,Presión fija'">
+   <param name="C_11" value="id='vo' tipo='numérico' interfaz='barra' región='interior' espacio='E1' nombre='Vol.' expresión='(10,240,190,30)' valor='10' min='10' max='20' decimales='0' fijo='no' visible='no' opciones='Volumen fijo,Presión fija'">
+   <param name="A_01" value="id='vx' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_02" value="id='vy' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_03" value="id='xo' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_04" value="id='yo' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_05" value="id='sx' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_06" value="id='sy' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_07" value="id='vxo' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_08" value="id='vyo' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_09" value="id='x' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_10" value="id='y' vector='sí' evaluar='una-sola-vez' tamaño='100'">
+   <param name="A_11" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' inicio='i=0' hacer='x0[i]=-0.9+rnd*3.8;y0[i]=-0.9+rnd*volumen/10*0.98;sx[i]=1;sy[i]=1;vx0[i]=-0.5+rnd;vy0[i]=-0.5+rnd;vx0[i]=(vx0[i]=0)?0.1:vx0[i];vy0[i]=(vy0[i]=0)?0.1:vy0[i];;i=i+1' mientras='i<100'">
+   <param name="A_12" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' inicio='i=0;Ta=(p=0)?tin:temp;volumen=(p=0)?vo:vol;pres=NT*0.082*Ta/volumen;W=(cal=0)?0:pres*(volumen-vo)*101.3' hacer='sx[i]=((x[i]+vx[i]<-0.9)|(x[i]+vx[i]>2.88))?-sx[i]:sx[i];sy[i]=((y[i]+vy[i]<-0.9)|(y[i]+vy[i]>-0.9+volumen/10))?-sy[i]:sy[i];vx[i]=sx[i]*vx0[i]*Ta/3000;vy[i]=sy[i]*vy0[i]*Ta/3000;x[i]=(p=0)?x0[i]:x[i]+vx[i];y[i]=(p=0)?y0[i]:y[i]+vy[i];i=i+1;;;' mientras='i<100'">
+   <param name="G_01" value="espacio='E1' tipo='imagen' expresión='(0.97,1,.85,.85)' archivo='../images/olla2.png'">
+   <param name="G_02" value="espacio='E1' tipo='polígono' color='azul' dibujar-si='dsfdsf' expresión='(-1,3)(3,3)(3,-1)(-1,-1)(-1,3)' relleno='blanco' ancho='2'">
+   <param name="G_03" value="espacio='E1' tipo='segmento' color='azul' expresión='(-1,-0.9+volumen/10)(3,-0.9+volumen/10)' fijo='sí' ancho='4'">
+   <param name="G_04" value="espacio='E1' tipo='sucesión' color='rojo' dibujar-si='p>0' expresión='(x[n],y[n])' tamaño='3' dominio='[0,NT*100-1]'">
+   <param name="G_05" value="espacio='E1' tipo='imagen' dibujar-si='(p>0)&(fc=0)' expresión='(0.5,-1)' archivo='../images/llama2.gif' animado='sí'">
+   <param name="G_06" value="espacio='E1' tipo='imagen' expresión='(0.4,-2.65)' archivo='../images/mechero_b0.gif'">
+   <param name="G_07" value="espacio='E1' tipo='texto' color='dad8d8' dibujar-si='(p>0)&(cal=0)' expresión='[10,10]' texto='Tiempo: [ti]s\nEnergía: [calor]J\nTemperatura: [Ta]K\nTrabajo: [W]J' fuente='SansSerif,PLAIN,21' fijo='sí' ancho='250' color_borde_texto='negro'">
+   <param name="G_08" value="espacio='E1' tipo='texto' color='dad8d8' dibujar-si='(p>0)&(cal=1)' expresión='[10,10]' texto='Tiempo: [ti]s\nEnergía: [calor]J\nTemperatura: [Ta]K\nTrabajo: [W]J\nVolumen: [volumen]l' fuente='SansSerif,PLAIN,21' fijo='sí' ancho='250' color_borde_texto='negro'">
+   <param name="G_09" value="espacio='E1' tipo='texto' color='ff7100' expresión='[20,320]' texto='Presión: [pres]at.' fuente='SansSerif,PLAIN,21' fijo='sí' ancho='250' color_borde_texto='negro'">
+   <param name="G_10" value="espacio='E2' tipo='texto' color='blanco' dibujar-si='d=1' expresión='[15,100,550,50]' texto='Elige la condición a volumen fijo. Pulsa el botón Ya y detén la simulación (con el mismo botón) aproximadamente a los 100 s. Anota la energía aportada, la temperatura y la presión  alcanzada. \nReanuda la simulación y anota los valores corespondientes a unos 200, 300, 400 sg. ¿Qué relación observas entre energía aportada y aumento de temperatura? \n¿Y entre temperatura y presión? \nExplica los resultados obtenidos.' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_11" value="espacio='E2' tipo='texto' color='blanco' dibujar-si='d=2' expresión='[15,100,550,50]' texto='Elige el proceso a presión constante y repite la toma de datos de la actividad anterior.\nCompara la temperatura que se adquiere en los dos casos.\n¿A qué se debe la diferencia? \nEl primer principio de la Termodinámica  explica justamente el resultado de esta actividad. \n¿Cómo podrías enunciarlo? .' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_12" value="espacio='E2' tipo='texto' color='blanco' dibujar-si='d=3' expresión='[15,100,550,50]' texto='Para un gas es muy corriente calcular su calor específico por cada mol, en lugar de por cada gramo. \nCon los datos de las actividades anteriores,calcula el calor específico del gas de la experiencia a volumen constante y a presión constante.  ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_13" value="espacio='E2' tipo='texto' color='blanco' dibujar-si='d=4' expresión='[15,100,550,50]' texto='Calcula los resultados de estas preguntas por tu cuenta y compruébalos con la escena: \n¿Cuanto tiempo tardarías en elevar la temperatura de 1 mol de gas desde 10 a 273 K a volumen constante? \n¿Y a presión constante?\n¿Qué trabajo se produciría en este último caso?' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_14" value="espacio='E1' tipo='imagen' expresión='(5,-1,.85,.85)' archivo='../images/muchacha2.png'">
+   <param name="Animación" value="controles='no' auto='no' inicio='p=0; temp=tin; vol=vo; Q=1;calor=0;ce=5;calor=0;ti=0' hacer='ti=ti+1;ce=(cal=1)?7:5;Q=(fc=0)?1:-1/2;temp=temp+Q/(ce*NT);vol=((cal=1)&(vol<40))?vo*temp/tin:vo;vol=(vol>40)?40:vol;ce=(vol=40)?5:ce;calor=calor+Q/0.24;p=p+1;p=(p>95)?1:p' mientras='p<100'">
+</ajs>
+</body>
+</html>

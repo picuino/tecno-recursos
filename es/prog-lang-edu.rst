@@ -113,7 +113,6 @@ AppInventor
 
 -----
 
-
 Programación en texto
 =====================
 Estos lenguajes tienen un nivel de dificultad más alto al programarse
@@ -218,9 +217,33 @@ de Bachillerato.
 Por otro lado, con este lenguaje resulta complicado iniciarse en
 el aprendizaje de la programación.
 
+-----
 
-Recursos en Internet
---------------------
+Machine Learning
+================
+El Machine Learning o aprendizaje automático es una rama de la inteligencia
+artificial, muy de moda últimamente, que es capaz de generar modelos que
+pueden predecir y clasificar datos a partir de un aprendizaje guiado o 
+autónomo.
+
+.. image:: prog/_images/prog-learning-ml.png
+   :width: 120px
+   :align: center
+   :target: https://web.learningml.org/
+   
+En la página de `LearningML <https://web.learningml.org/>`__ se puede 
+leer una explicación más exhaustiva y se puede jugar con modelos 
+sencillos y fácilmente entrenables de Machine Learning para identificar 
+textos e imágenes.
+
+El lenguaje de programación utilizado es Scratch 3 con el añadido de 
+las instrucciones necesarias para utilizar los modelos ML una vez 
+entrenados.
+
+-----
+
+Otros recursos en internet
+==========================
 
 `Lenguajes de programación educativa.
 <https://www.educaciontrespuntocero.com/recursos/programacion/lenguajes-programacion-educativa-alternativas-a-scratch/35925.html>`_

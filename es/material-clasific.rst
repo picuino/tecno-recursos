@@ -183,6 +183,6 @@ Ejercicios
 
    Objetos con materiales de origen animal.
 
-#. Busca en Internet cinco objetos cotidianos que se encuentren
+#. Busca en internet cinco objetos cotidianos que se encuentren
    en tu entorno y estén fabricados con materiales tóxicos.
 

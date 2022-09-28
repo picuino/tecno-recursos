@@ -1,0 +1,530 @@
+/**
+ * @author Joel Espinosa Longi
+ * @licencia Atribución-CompartirIgual 4.0 Internacional  - https://creativecommons.org/licenses/by-sa/4.0/deed.es
+ */
+
+@import "loader.css";
+
+:root {
+  --pages_container_width: 1280px;
+  --pages_container_height: 825px;
+  --left_right_margin_pages: 30px;
+
+  --page-left-margin: 50px;
+  --page-right-margin: 50px;
+  --page-top-margin: 30px;
+  --page-bottom-margin: 20px;
+}
+
+body {
+  --book-background-color: #ecf0f1;
+  --page_color: #ffffff;
+  --text-color: #000000;
+  --toc-text-color: #273c75;
+  --toc-over-color: #cfe9fc;
+  --toc-number-color: #192a56;
+  --h1-color: #0089cd;
+  --h2-color: #000099;
+  --link-text-color: #3867d6;
+  --note-color: #3867d6;
+  --note-text-color: #1e272e;
+  --interactive-color: #ffffff;
+  --interactive-border-color: #2ecc71;
+  --image-border-color: #2ecc71;
+  --page-separation-color: rgba(0, 0, 0, 0.1);
+  --bibliography-color: #0089cd;
+
+  --toc-button-border: rgba(0, 0, 0, 0.4);
+  --switch-background-color: #ffffff;
+}
+
+body.dark {
+  --book-background-color: #34495e;
+  --page_color: #1e1e1e;
+  --text-color: #d4d4d4;
+  --toc-text-color: #dddddd;
+  --toc-over-color: #34495e;
+  --toc-number-color: #bbbbbb;
+  --h1-color: #358cd6;
+  --h2-color: #4fb8fe;
+  --link-text-color: #c39178;
+  --note-color: #3867d6;
+  --note-text-color: #d4d4d4;
+  --interactive-color: #2c3e50;
+  --interactive-border-color: #ecf0f1;
+  --image-border-color: #ecf0f1;
+  --page-separation-color: rgba(255, 255, 255, 0.2);
+  --bibliography-color: #48dbfb;
+
+  --toc-button-border: rgba(255, 255, 255, 0.4);
+  --switch-background-color: #2d3436;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  --maximize-color: var(--interactive-color);
+  --config-button-border: var(--toc-button-border)
+}
+#book_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--book-background-color);
+}
+.page {
+  position: relative;
+  background-color: var(--page_color);
+  text-align: justify;
+  width: calc(var(--pages_container_width) / 2);
+  min-width: calc(var(--pages_container_width) / 2);
+  height: var(--pages_container_height);
+  padding: var(--page-top-margin) var(--page-right-margin) var(--page-bottom-margin) var(--page-left-margin);
+}
+
+.page_viewer {
+  transform-origin: 0 0 0;
+}
+#pages_container {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+.toc_link {
+  position: relative;
+  font-size: 95%;
+  padding: 0;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+
+.toc_link::before {
+  content: "";
+  position: absolute;
+  left: 2em;
+  right: 0;
+  top: 15px;
+  height: 2px;
+  z-index: 0;
+
+  background-image: linear-gradient(to right, var(--text-color) 33%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 6px 4px;
+  background-repeat: repeat-x;
+}
+
+.toc_link:hover,
+.toc_link:hover a,
+.toc_link:hover .toc_number,
+.toc_link:hover a > span:first-child {
+  background-color: var(--toc-over-color);
+}
+
+.toc_link a > span:first-child {
+  position: relative;
+  color: var(--toc-text-color);
+  background-color: var(--page_color);
+  display: inline-block;
+  max-width: 90%;
+  padding-right: 0.2em;
+  z-index: 1;
+}
+
+.toc_number {
+  position: relative;
+  color: var(--toc-number-color);
+  background-color: var(--page_color);
+  float: right;
+  padding-left: 0.2em;
+  z-index: 1;
+}
+
+.page_number {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 18px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.footnote {
+  display: block;
+}
+
+.footnote::before {
+  content: attr(number);
+  position: absolute;
+  display: inline;
+  font-size: 75%;
+  left: -0;
+}
+
+.footnote_container {
+  position: absolute;
+  width: calc(100% - var(--page-left-margin) - var(--page-right-margin));
+  bottom: 48px;
+  font-size: 75%;
+  border-top: 2px solid #3c6382;
+  padding-left: 1em;
+}
+
+/*  */
+sup {
+  font-size: 65%;
+  font-weight: bold;
+  padding-left: 0.2em;
+}
+
+sub {
+  font-size: 65%;
+}
+
+h1 {
+  font-size: 160%;
+  margin-top: 0;
+}
+
+.note {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 90%;
+}
+.num_block {
+  padding-left: 1em;
+}
+
+.image_expand {
+  display: block;
+  margin: 0.5em auto 1em auto;
+  cursor: pointer;
+}
+
+.image_link {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.btn_link {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  right: -3px;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background-color: white;
+  background-size: cover;
+  background-image: url("img/link.svg");
+  cursor: pointer;
+}
+
+iframe {
+  border: none;
+}
+
+video {
+  display: block;
+  margin: 1.25 auto 0 auto;
+}
+
+.btn_ampliar {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background-color: var(--maximize-color);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.interactive {
+  position: relative;
+  margin: 0 auto;
+  padding: 15px 0;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 80%;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+bibref {
+  display: inline;
+  position: relative;
+  color: var(--bibliography-color);
+  border-bottom: 1px dashed var(--bibliography-color);
+}
+bibitem {
+  display: block;
+  position: relative;
+  padding-bottom: 1em;
+}
+.bibitem_title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#config_options {
+  position: absolute;
+  display: none;
+  right: 5px;
+  top: 50px;
+  z-index: 1;
+  background-color: var(--book-background-color);
+  border: 1px solid var(--toc-button-border);
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+#config_options div {
+  align-items: center;
+  display: flex;
+}
+#dark_light_mode span {
+  margin-right: 10px;
+}
+.switch {
+  position: relative;
+  -webkit-appearance: none;
+  outline: none;
+  width: 50px;
+  height: 30px;
+  background-color: var(--switch-background-color);
+  border: 1px solid #D9DADC;
+  border-radius: 50px;
+  box-shadow: inset -20px 0 0 0 var(--switch-background-color);
+}
+.switch:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background-color: white;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.4);
+}
+.switch:checked {
+  box-shadow: inset 20px 0 0 0 #4ed164;
+  border-color: #4ed164;
+}
+.switch:checked:after {
+  left: 21px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+}
+
+/* change theme images */
+/* this is necessary for the ipad */
+body #btn_config {
+  background-image: url("img/config.svg");
+}
+body.dark #btn_config {
+  background-image: url("img/config_dark.svg");
+}
+body #go_to_table_of_content {
+  background-image: url("img/table_of_content.svg");
+}
+body.dark #go_to_table_of_content {
+  background-image: url("img/table_of_content_dark.svg");
+}
+body .btn_ampliar {
+  background-image: url("img/ampliar.svg");
+}
+body.dark .btn_ampliar {
+  background-image: url("img/ampliar_dark.svg");
+}
+
+
+/* Style for screen  */
+@media screen {
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+ 
+  #go_to_table_of_content {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid var(--toc-button-border);
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+    background-color: var(--book-background-color);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    padding: 0;
+  }
+
+  #btn_config {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid var(--config-button-border);
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+    background-color: var(--book-background-color);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    padding: 0;
+  }
+  
+  #table_of_content {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--page_color);
+    z-index: 5000;
+    padding: 2em;
+    overflow: auto;
+    display: none;
+  }
+  .toc_selected {
+    border-bottom: 5px solid #16a085;
+    border-left: 5px solid #16a085;
+  }
+
+  #btn_back_page,
+  #btn_next_page {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  #btn_back_page {
+    background-image: url("img/back.svg");
+    left: 0;
+  }
+  
+  #btn_next_page {
+    background-image: url("img/next.svg");
+    right: 0;
+  }
+  
+  .page_viewer {
+    position: absolute;
+    overflow: hidden;
+    height: var(--pages_container_height);
+  }
+
+  /* Style needed to help the rendering in chrome */
+  .page[show="true"] * {
+    display: none;
+  }
+
+  #pages_container {
+    position: absolute;
+    display: flex;
+    height: var(--pages_container_height);
+  }
+  
+  #pages_container .page:nth-child(odd) {
+    border-right: 1px solid var(--page-separation-color);
+  }
+}
+
+/* Style for print */
+@media print {
+  @page {
+    margin: 0cm;
+    size: 640px 825px;
+  }
+  
+  body {
+    width: 640px;
+    height: 825px;
+  }
+
+  #go_to_table_of_content,
+  #table_of_content,
+  #btn_back_page,
+  #btn_next_page,
+  #btn_config,
+  #config_options {
+    display: none;
+  }
+  
+  .page {
+    page-break-after: always !important;
+  }
+
+  .page_viewer {
+    position: relative;
+    transform: none !important;
+    width: 640px !important;
+    top: calc(-1 * var(--pages_container_height)) !important;
+    left: 0px !important;
+  }
+  
+  #pages_container {
+    position: relative;
+    background-color: transparent;
+    left: 0px !important;
+  }
+}
+
+
+/* default light color configuration */
+.page h1 {
+  color: var(--h1-color);
+}
+.page h2 {
+  color: var(--h2-color);
+  font-size: 140%;
+}

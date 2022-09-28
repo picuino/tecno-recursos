@@ -1,0 +1,88 @@
+.ribbon {
+ font-size: 14px !important;
+ font-family: Verdana, sans-serif;
+ width: 200px;
+ position: relative;
+ background: #5FD9FF;
+ color: #fff;
+ text-align: center;
+ padding: 1em 2em;
+ margin: 2px auto;
+ animation: expand 2.6s ease-in-out infinite;
+}
+
+@keyframes expand {
+  0%, 100% {
+    width: 170px;
+  }
+  
+  50% {
+    width: 220px;
+  }
+}
+
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #55C3E5;
+ z-index: -1;
+}
+
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+ animation: shrinkLeft 2.6s ease-in-out infinite;
+}
+
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+ animation: shrinkRight 2.6s ease-in-out infinite;
+}
+
+@keyframes shrinkLeft {
+  0%, 100 {
+    left: -2em;
+    border-right-width: 1.5em;
+  }
+  
+  50% {
+    left: -1.5em;
+    border-right-width: 1em;
+  }
+}
+
+@keyframes shrinkRight {
+  0%, 100 {
+    right: -2em;
+    border-left-width: 1.5em;
+  }
+  
+  50% {
+    right: -1.5em;
+    border-left-width: 1em;
+  }
+}
+
+.ribbon-text:before, .ribbon-text:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #2F6C7F transparent transparent transparent;
+ bottom: -1em;
+}
+
+.ribbon-text:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+
+.ribbon-text:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}

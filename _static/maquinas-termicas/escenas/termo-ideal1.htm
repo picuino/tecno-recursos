@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../fonts/style.css" type="text/css">
+  <style>
+    body {
+      background-color: transparent;
+    }
+  </style>
+  <script type="text/javascript" src="lib/descartes-min2.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <ajs name="Descartes" code="Descartes" width="750" height="550">
+    <param name="tamaño" value="750x550">
+    <param name="decimal_symbol" value=",">
+    <param name="nombre" value="Descartes">
+    <param name="Versión" value="5.5">
+    <param name="editable" value="sí">
+    <param name="Idioma" value="español">
+    <param name="Botones" value="créditos=no config=no inicio=sí limpiar=sí filas_norte=0 filas_sur=0 ancho_este=150 ancho_oeste=150 alto=35 ">
+    <param name="E_01" value="tipo='R2' id='E0' fijo='sí' escala='60' O.x='-80' fondo='eaeaea' red='no' red10='no' ejes='no' ">
+    <param name="E_02" value="tipo='R2' id='E2' x='322' y='162' ancho='483' alto='324' fijo='sí' fondo='#ffffff' red='no' red10='no' ejes='no' ">
+    <param name="E_03" value="tipo='R2' id='E1' x='75' y='55' ancho='600' alto='385' dibujar-si='d>0' fijo='sí' fondo='007800' red='no' red10='no' ejes='no' ">
+    <param name="C_01" value="id='N' tipo='numérico' interfaz='pulsador' región='sur' espacio='E1' nombre='N' expresión='(0,0)' valor='0.01' incr='0.01' min='0.01' max='0.1' visible='sí' ">
+    <param name="C_02" value="id='Ti' tipo='numérico' interfaz='pulsador' región='sur' espacio='E1' nombre='Ti' expresión='(0,0)' valor='300' incr='1' min='300' max='400' visible='sí' ">
+    <param name="C_03" value="id='graf' tipo='numérico' interfaz='menú' región='interior' espacio='E0' nombre='Gráfico  ' expresión='(330,120,160,35)' visible='no' opciones='P-V,P-T,V-T' ">
+    <param name="C_04" value="id='A1' interfaz='botón' tipo='numérico' región='norte' espacio='E0' nombre='Actividad 1' expresión='(0,0)' color='blanco' color-int='da4600' fuente puntos='22' imagen='vacio.gif' acción='calcular' parámetro='d=1' extra_style='border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' ">
+    <param name="C_05" value="id='A2' interfaz='botón' tipo='numérico' región='norte' espacio='E0' nombre='Actividad 2' expresión='(0,0)' color='blanco' color-int='da4600' fuente puntos='22' imagen='vacio.gif' acción='calcular' parámetro='d=2' extra_style='border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' ">
+    <param name="C_06" value="id='A3' interfaz='botón' tipo='numérico' región='norte' espacio='E0' nombre='Actividad 3' expresión='(0,0)' color='blanco' color-int='da4600' fuente puntos='22' imagen='vacio.gif' acción='calcular' parámetro='d=3' extra_style='border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' ">
+    <param name="C_07" value="id='Ayuda' interfaz='botón' tipo='numérico' región='norte' espacio='E0' nombre='Ayuda' expresión='(0,0)' color='blanco' color-int='da4600' fuente puntos='22' imagen='vacio.gif' acción='calcular' parámetro='d=4' extra_style='border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' ">
+    <param name="C_08" value="id='ya' interfaz='botón' tipo='numérico' región='sur' espacio='E0' nombre='Ya' expresión='(0,0)' color='blanco' color-int='azul' fuente puntos='22' imagen='vacio.gif' acción='animar' extra_style='border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' ">
+    <param name="C_09" value="id='Visto' interfaz='botón' tipo='numérico' región='interior' espacio='E1' nombre='Visto' expresión='(240,330,120,30)' color='blanco' color-int='da4600' fuente puntos='20' imagen='vacio.gif' acción='calcular' parámetro='d=0' extra_style='border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' ">
+    <param name="A_01" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' inicio='pi=3.1416; Vo=1' hacer=';' ">
+    <param name="A_02" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' hacer='x1=-2.5-sin(a);y1=-2+cos(a);y=2+cos(a)-Vo/2;p=(cont=0)?N*0.082*Ti/Vo:N*0.082*temp/v;vol=(t=0)?Vo:v;temper=(cont=0)?Ti:temp;Tmin=Ti*((Vo+1)/(Vo+2))^1.4;esca=N/0.01;;' ">
+    <param name="G_01" value="espacio='E0' tipo='polígono' color='0000ff' coord_abs='no' expresión='(-4,3)(-1,3)(-1,0)(-4,0)(-4,3)' ancho='5' ">
+    <param name="G_02" value="espacio='E0' tipo='polígono' color='azul' coord_abs='no' expresión='(-4,3)(-1,3)(-1,y)(-4,y)' relleno='(rojo,00,00,00)' ancho='1' ">
+    <param name="G_03" value="espacio='E0' tipo='segmento' color='azul' coord_abs='no' expresión='(-4,y)(-1,y)' tamaño='2' ancho='5' ">
+    <param name="G_04" value="espacio='E0' tipo='segmento' color='azul' coord_abs='no' expresión='(-2.5,-2)(x1,y1)' tamaño='2' ancho='5' ">
+    <param name="G_05" value="espacio='E0' tipo='segmento' color='azul' coord_abs='no' expresión='(x1,y1)(-2.5,y)' tamaño='2' ancho='5' ">
+    <param name="G_06" value="espacio='E0' tipo='punto' color='20303a' coord_abs='no' expresión='(-2.5,-2)' tamaño='10' ">
+    <param name="G_07" value="espacio='E0' tipo='punto' color='20303a' coord_abs='no' expresión='(x1,y1)' tamaño='5' ">
+    <param name="G_08" value="espacio='E0' tipo='segmento' color='azul' coord_abs='no' expresión='(-4,3)(-4,0)' tamaño='2' ancho='1' ">
+    <param name="G_09" value="espacio='E2' tipo='segmento' color='azul' coord_abs='no' expresión='(-2,2)(-2,-1)' tamaño='2' ancho='2' ">
+    <param name="G_10" value="espacio='E2' tipo='segmento' color='azul' coord_abs='no' expresión='(-2,-1)(3,-1)' tamaño='2' ancho='2' ">
+    <param name="G_11" value="espacio='E2' tipo='punto' color='rojo' dibujar-si='cont>0' coord_abs='no' expresión='(vx,vy)' rastro='gris' tamaño='2' ">
+    <param name="G_12" value="espacio='E2' tipo='punto' color='rojo' dibujar-si='cont>0' coord_abs='no' expresión='(vx,vy)' texto='[tx],[ty]' tamaño='2' ">
+    <param name="G_13" value="espacio='E2' tipo='texto' color='ff8900' dibujar-si='graf<2' coord_abs='sí' expresión='[50,20]' texto='Presión' ancho='1' color_borde_texto='negro' fuente puntos='20' align='left' anchor='top_left' ">
+    <param name="G_14" value="espacio='E2' tipo='texto' color='ff8900' dibujar-si='graf=2' coord_abs='sí' expresión='[50,20]' texto='Volumen' ancho='1' color_borde_texto='negro' fuente puntos='20' align='left' anchor='top_left' ">
+    <param name="G_15" value="espacio='E2' tipo='texto' color='ff8900' dibujar-si='graf=0' coord_abs='sí' expresión='[300,220]' texto='Volumen' ancho='1' color_borde_texto='negro' fuente puntos='20' align='left' anchor='top_left' ">
+    <param name="G_16" value="espacio='E2' tipo='texto' color='ff8900' dibujar-si='graf>0' coord_abs='sí' expresión='[280,220]' texto='Temperatura' ancho='1' color_borde_texto='negro' fuente puntos='20' align='left' anchor='top_left' ">
+    <param name="G_17" value="espacio='E0' tipo='flecha' color='ff0000' dibujar-si='(cont>=100)&(cont<150)' coord_abs='no' expresión='(1,2.62)(-1,2.62)' texto='Recibe [N*8.13*Ti*0.693]J' ancho='5' punta='8' flecha='ee0022' ">
+    <param name="G_18" value="espacio='E0' tipo='flecha' color='0000ff' dibujar-si='(cont>=100)&(cont<150)' coord_abs='no' expresión='(1,2.85)(-1,2.85)' texto='Pierde [N*8.13*Tmin*(-0.405)] J' ancho='5' punta='8' flecha='0000ff' ">
+    <param name="G_19" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=1' coord_abs='sí' expresión='[20,130,500,50]' texto='Observa el ciclo variando cada vez las gráficas que se observan.\n¿Cuántas etapas notas?\n¿En cuáles se gana o se pierde calor? \n¿Cómo evoluciona la temperatura en esos casos?' ancho='500' color_borde_texto='negro' fuente puntos='20' align='left' anchor='top_left' ">
+    <param name="G_20" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=2' coord_abs='sí' expresión='[20,130,500,50]' texto='Para obtener el rendimiento debes tener en cuenta que, de la energía recibida, la parte que no se devuelve de nuevo es la utilizada como trabajo útil. \n¿Qué tanto por ciento representa este trabajo \nrespecto al recibido en la primera etapa? \nEl valor que hayas obtenido es el rendimiento del ciclo de Carnot. ' ancho='500' color_borde_texto='negro' fuente puntos='20' align='left' anchor='top_left' ">
+    <param name="G_21" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=3' coord_abs='sí' expresión='[20,130,500,50]' texto='Varía el número de moles de gas del proceso. \n¿Cómo se altera el rtendimiento? \n¿Y si se altera la temperatura inicial? ' ancho='500' color_borde_texto='negro' fuente puntos='20' align='left' anchor='top_left' ">
+    <param name="G_22" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=4' coord_abs='sí' expresión='[20,130,500,50]' texto='El botón Ya pone en marcha el Ciclo de Carnot. Para que puedas comprender sus fases puedes elegir entre las representaciones gráficas presión-volumen, presión-temperatura y volumen-temperatura. \nLa presión viene dada en atmósferas, el volumen en litros y la temperatura en kelvin. \nPuedes alterar el número de moles de gas del cilindro o su temperatura inicial. ' ancho='500' color_borde_texto='negro' fuente puntos='20' align='left' anchor='top_left' ">
+    <param name="Animación" value="pausa='40' controles='no' auto='no' repetir='no' inicio='a=0;v=Vo;temp=Ti;cont=0' hacer='cont=cont+1;temp=Ti;temp=(cont>50)?Ti*((Vo+1)/v)^1.4:temp;temp=(cont>100)?Tmin:temp;temp=(cont>149)?Tmin*((Vo+1)/v)^0.9:temp;v=(cont=1)?Vo:v;v=(cont<=100)?v+0.02:v;v=(cont>100)?v-0.02:v;vx=v-2;vy=p*10/esca-1;vx=(graf=1)?temp/100-2:vx;vx=(graf=2)?temp/100-2:vx;vy=(graf=2)?v-1:vy;tx=v;ty=p;tx=(graf=1)?temp:tx;tx=(graf=2)?temp:tx;ty=(graf=2)?v:ty;a=a+pi/100;a=(a>=2*pi)?0:a;rojo=(cont<50)?1:rojo;rojo=((cont>=50)&(cont<100))?(100-cont)/50:rojo;rojo=((cont>=100)&(cont<150))?0:rojo;rojo=(cont>=150)?(cont-150)/50:rojo;;;;;cont=(cont=199)?0:cont;' mientras='a<10' ">
+  </ajs>
+
+
+
+</body>
+</html>

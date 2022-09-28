@@ -3,14 +3,14 @@
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
 
 
-.. _informatica-tutorial-index:
+.. _informatica-hardware-index:
 
 ***********************
  Hardware de ordenador
 ***********************
 
-En informática se denomina hardware al conjunto de componentes físicos que 
-componen un ordenador.
+En informática se denomina **hardware** al conjunto de componentes físicos
+que componen un ordenador.
 
 .. figure:: informatica/_images/informatica-placa-base-02.jpg
    :align: center

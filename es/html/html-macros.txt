@@ -34,7 +34,7 @@
 {%- elif name=='p' -%}
 ``<p> </p>``
    Etiqueta de párrafo. Engloba un párrafo de texto con varias
-   frases terminadas en un punto y aparte.
+   frases consecutivas. Terminan en un punto y aparte.
 
 {%- elif name=='comment' -%}
 ``<!-- comentario -->``
@@ -85,7 +85,7 @@
 
 {%- elif name=='code' -%}
 ``<code> </code>``
-   El texto es código para ordenador.
+   Etiqueta para incluir código para ordenador.
    El tipo de letra será de ancho fijo.
 
 {%- elif name=='cite' -%}
@@ -94,9 +94,10 @@
 
 {%- elif name=='blockquote' -%}
 ``<blockquote cite="http://"> </blockquote>``
-   Sección de texto que se ha copiado de otra página.
-   El atributo cite describe la dirección de donde se ha tomado
-   el texto.
+   Etiqueta que incluye una sección de texto que se ha 
+   copiado de otra página.
+   La etiqueta blockquote contiene un atributo cite que 
+   describe la dirección de donde se ha tomado el texto.
    Normalmente esta sección aparece desplazada hacia la derecha.
 
 {%- elif name=='a' -%}
@@ -188,20 +189,43 @@ Plantilla de documento HTML.
 
    </html>
 
-{%- elif name=='table_template' -%}
-Plantilla de tabla de datos.
+{%- elif name=='table_head_template' -%}
+Plantilla de tabla de datos con cabecera.
 
 .. code-block:: html
 
-   <table>
+   <table border="1">
       <thead>
-         <tr> <th>Columna 1</th> <th>Columna 2</th> </tr>
+         <tr>
+            <th>Columna 1</th>  <th>Columna 2</th>
+         </tr>
       </thead>
 
       <tbody>
-         <tr> <td>Uno</td> <td> I </td> </tr>
-         <tr> <td>Dos</td> <td> II </td> </tr>
-         <tr> <td>Tres</td> <td> III </td> </tr>
+         <tr> 
+            <td>Uno</td>  <td> 1 </td>
+         </tr>
+         <tr> 
+            <td>Dos</td>  <td> 2 </td>
+         </tr>
+      </tbody>
+   </table>
+
+
+
+{%- elif name=='table_template' -%}
+Plantilla de tabla de datos sin cabecera.
+
+.. code-block:: html
+
+   <table border="1">
+      <tbody>
+         <tr> 
+            <td>Uno</td>  <td> 1 </td>
+         </tr>
+         <tr> 
+            <td>Dos</td>  <td> 2 </td>
+         </tr>
       </tbody>
    </table>
 

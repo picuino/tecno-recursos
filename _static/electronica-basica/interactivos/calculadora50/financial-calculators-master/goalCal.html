@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <!-- Custom styles for this template -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  <link href="style.css" rel="stylesheet">
+  <script src="goalCal.js" type="text/javascript"></script>
+  <title>Goal Calculator</title>
+</head>
+
+<body class="text-center" >
+  <h1 class="h2 mb-3 font-weight-normal"><i class="fa fa-calculator"></i> Goal Calculator</h1>
+  <div class="form-signin">
+    <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+    <select class="form-control" name="select" value="" style="margin-bottom: 1rem">
+                   <option>Select Goal</option>
+                          <option value="Education">Education</option>
+                          <option value="House">Buy a House</option>
+                          <option value="Go on a Vacation">Go on a Vacation</option>
+                          <option value="Buy a Car">Buy a Car</option>
+                          <option value="Plan wedding">Plan wedding</option>
+                          <option value="Other">Other</option>
+
+                         </select>
+    <input type="text" class="form-control " name="goal" placeholder="Goal Amount" required autofocus style="margin-bottom: 1rem">
+    <input type="text" class="form-control " name="years" placeholder="Fullfillment Years" required autofocus style="margin-bottom: 1rem">
+    <input type="text" class="form-control " name="investment" placeholder="Inital Investment" required autofocus style="margin-bottom: 1rem">
+    <input type="text" class="form-control " name="returns" placeholder="Estimated Return Rate" required autofocus style="margin-bottom: 1rem">
+    <input type="text" class="form-control " name="inflate" placeholder="Inflation Rate" required autofocus style="margin-bottom: 1rem">
+
+    <button class="btn btn-lg btn-block" onclick="calGoal()">Submit</button>
+
+</div>
+<div class="card mt-2 col text-left">
+  <div class="card-header">
+    <h1>Details</h1>
+  </div>
+    <h3 name="g" class="h4 ml-2 mb-4 mt-3 font-weight-normal"> Your Goal:  </h3>
+    <h3 name="goal_amount" class="h4 ml-2 mb-4 font-weight-normal">Goal Amount: </h3>
+    <h3 name="period" class="h4 ml-2 ml-2 mb-4 font-weight-normal">Target Period: </h3>
+    <h3 name="inflated" class="h4 ml-2 mb-4 font-weight-normal">Value required: </h3>
+    <h3 name="invest" class="h4 ml-2 mb-4 font-weight-normal">Investment needed: </h3>
+    <span><i>Required amount is calculated based on the inflation rate(annually) selected!</i><span>
+</div>
+    <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

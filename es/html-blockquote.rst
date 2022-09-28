@@ -10,9 +10,10 @@ Bloque de cita externa
 Etiquetas utilizadas
 --------------------
 ``<blockquote cite="http://"> </blockquote>``
-   Sección de texto que se ha copiado de otra página.
-   El atributo cite describe la dirección de donde se ha tomado
-   el texto.
+   Etiqueta que incluye una sección de texto que se ha 
+   copiado de otra página.
+   La etiqueta blockquote contiene un atributo cite que 
+   describe la dirección de donde se ha tomado el texto.
    Normalmente esta sección aparece desplazada hacia la derecha.
 
 

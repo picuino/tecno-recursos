@@ -20,7 +20,7 @@ Etiquetas utilizadas
 
 ``<p> </p>``
    Etiqueta de párrafo. Engloba un párrafo de texto con varias
-   frases terminadas en un punto y aparte.
+   frases consecutivas. Terminan en un punto y aparte.
 
 
 

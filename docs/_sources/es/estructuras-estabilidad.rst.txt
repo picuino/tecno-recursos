@@ -22,38 +22,39 @@ A continuación se detallan las más comunes.
 El vuelco de una estructura se produce cuando el centro de
 gravedad no se encuentra sobre la base de apoyo de la estructura.
 
-El **centro de gravedad** es el punto medio de toda la masa de
-la estructura.
-Es el punto donde intuitivamente tenemos que apoyar la estructura
-para que esta no vuelque a un lado o a otro.
-En el caso de un martillo, su centro de gravedad se encuentra en
-el mango, muy cerca de la cabeza, que es la parte que más pesa.
+:index:`Centro de gravedad`:
+   Es el punto medio de toda la masa de la estructura.
+   Es el punto donde intuitivamente tenemos que apoyar la estructura
+   para que esta no vuelque a un lado o a otro.
 
-.. image:: mecan/_images/centro-gravedad-02.png
-   :width: 240px
-   :alt: Camión sin inclinación. Estable.
+   En el caso de un martillo, su centro de gravedad se encuentra en
+   el mango, muy cerca de la cabeza, que es la parte que más pesa.
 
-.. image:: mecan/_images/centro-gravedad-03.png
-   :width: 240px
-   :alt: Camión críticamente estable.
+   .. image:: mecan/_images/centro-gravedad-02.png
+      :width: 240px
+      :alt: Camión sin inclinación. Estable.
 
-.. image:: mecan/_images/centro-gravedad-04.png
-   :width: 240px
-   :alt: Camión inestable.
+   .. image:: mecan/_images/centro-gravedad-03.png
+      :width: 240px
+      :alt: Camión críticamente estable.
 
-En el caso del camión de la figura, el centro de gravedad está
-en el punto rojo, relativamente alto.
+   .. image:: mecan/_images/centro-gravedad-04.png
+      :width: 240px
+      :alt: Camión inestable.
 
-En la primera imagen el centro de gravedad cae dentro de la 
-zona de apoyo por lo que el camión es estable y no vuelca.
+   En el caso del camión de la figura, el centro de gravedad está
+   en el punto rojo, relativamente alto.
 
-En la segunda imagen el camión está inclinado y el centro 
-de gravedad está a punto de salir de la zona de apoyo. 
-El camión está a punto de volcar.
+   En la primera imagen el centro de gravedad cae dentro de la 
+   zona de apoyo por lo que el camión es estable y no vuelca.
 
-En la tercera imagen el camión se ha inclinado más y el centro 
-de gravedad no está sobre la zona de apoyo. En este caso el 
-camión no es estable y volcará.
+   En la segunda imagen el camión está inclinado y el centro 
+   de gravedad está a punto de salir de la zona de apoyo. 
+   El camión está a punto de volcar.
+
+   En la tercera imagen el camión se ha inclinado más y el centro 
+   de gravedad no está sobre la zona de apoyo. En este caso el 
+   camión no es estable y volcará.
 
 Para que se produzca el **vuelco** de una estructura, el
 centro de gravedad debe caer fuera de la zona de apoyo de
@@ -65,49 +66,90 @@ Soluciones al vuelco
 Existen varias soluciones para evitar que una estructura
 vuelque.
 
-**Añadir un contrapeso**
-  Cuando una estructura está demasiado escorada hacia un lado
-  o un peso lateral puede hacerla volcar, un contrapeso en el
-  lado contrario puede solucionar el problema.
-  
-  Ejemplo: Contrapeso en las grúas de obra o en los camiones-grúa.
-
-**Ampliar la base de apoyo**
-  Cuanto mayor sea la base de apoyo, más difícil es que el centro 
-  de gravedad caiga fuera de la base.
-  
-  Ejemplos: 
-  Camión grúa con apoyos extensibles. 
-  Coche deportivo muy ancho.
-  Las personas separan instintivamente los pies entre sí 
-  para tener mayor base de apoyo cuando el suelo se mueve.
-
-**Bajar el centro de gravedad**
-  Si el centro de gravedad está más bajo, es más difícil que caiga
-  fuera de la base de apoyo.
-  
-  Ejemplos: Para conseguir bajar el centro de gravedad de un 
-  camión, hay que colocar los bultos más pesados en la parte baja 
-  y los ligeros en la parte alta.
-  Los coches deportivos suelen ser bajos para tener el centro 
-  de gravedad bajo y conseguir así mayor estabilidad.
-
-**Anclar la estructura al suelo**
-  Con esta solución se refuerza la estructura ampliándola al suelo.
-  Ejemplos: Vientos de una tienda de campaña. Cables de anclaje de 
-  una antena. Farola o mástil de bandera anclados al suelo.
-
+Añadir un contrapeso
+   Cuando una estructura está demasiado escorada hacia un lado
+   o un peso lateral puede hacerla volcar, un contrapeso en el
+   lado contrario puede solucionar el problema.
+   
+   Ejemplo: Contrapeso en las grúas de obra o en los camiones-grúa.
+ 
+   .. figure:: mecan/_images/mecan-grua-obra.jpg
+      :width: 640px
+      :align: center
+ 
+      Grúa de obra con contrapeso a la izquierda.
+ 
+      Imagen de `Photomix <https://pixabay.com/es/users/photomix-company-1546875/>`__ 
+      en `Pixabay <https://pixabay.com/es/photos/edificio-grua-sitio-de-construcci%c3%b3n-1804030/>`__.
+ 
+ 
+ 
+Ampliar la base de apoyo
+   Cuanto mayor sea la base de apoyo, más difícil es que el centro 
+   de gravedad caiga fuera de la base.
+   
+   Ejemplos: Camión grúa con apoyos extensibles. 
+   Coche deportivo muy ancho.
+   Las personas separan instintivamente los pies entre sí 
+   para tener mayor base de apoyo cuando el suelo se mueve.
+ 
+   .. figure:: mecan/_images/mecan-camion-grua-bomberos.jpg
+      :width: 420px
+      :align: center
+ 
+      Camión de bomberos con grúa y apoyos extensibles.
+ 
+      Imagen de `Hermann Kollinger <https://pixabay.com/es/users/kollinger-15617407/>`__ 
+      en `Pixabay <https://pixabay.com/es/photos/bomberos-pesado-r%c3%bcstfahrzeug-srf-5211377/>`__.
+ 
+ 
+Bajar el centro de gravedad
+   Si el centro de gravedad está más bajo, es más difícil que caiga
+   fuera de la base de apoyo.
+   
+   Ejemplos: Para conseguir bajar el centro de gravedad de un 
+   camión, hay que colocar los bultos más pesados en la parte baja 
+   y los ligeros en la parte alta.
+   Los coches deportivos suelen ser bajos para tener el centro 
+   de gravedad bajo y conseguir así mayor estabilidad.
+   
+   .. figure:: mecan/_images/mecan-coche-carreras.jpg
+      :width: 480px
+      :align: center
+ 
+      Coche de fórmula 1 con centro de gravedad muy bajo.
+ 
+      Imagen de `Nathan Wright <https://pixabay.com/es/users/cozmicphotos-2999334/>`__ 
+      en `Pixabay <https://pixabay.com/es/photos/f1-coche-carreras-raza-velocidad-2722971/>`__.
+   
+ 
+Anclar la estructura al suelo
+   Con esta solución se refuerza la estructura ampliándola al suelo.
+   
+   Ejemplos: Vientos de una tienda de campaña. Cables de anclaje de 
+   una antena. Farola o mástil de bandera anclados al suelo.
+ 
+   .. figure:: mecan/_images/mecan-antenas-radio.jpg
+      :width: 480px
+      :align: center
+ 
+      Antenas de radio con vientos para anclarlas al suelo.
+ 
+      Imagen de `LoggaWiggler <https://pixabay.com/es/users/loggawiggler-15/>`__ 
+      en `Pixabay <https://pixabay.com/es/photos/antenas-parab%c3%b3licas-inal%c3%a1mbrico-43232/>`__.
 
 
 :index:`Pandeo`
 ---------------
+
 .. image:: mecan/_images/mecan-pandeo-01.png
    :width: 120px
    :align: right
    :alt: columna soportando pandeo.
 
-El pandeo se produce en barras y columnas esbeltas sometidas a
-compresión.
+El `pandeo <https://es.wikipedia.org/wiki/Pandeo>`__ es una inestabilidad 
+que se produce en barras y columnas **esbeltas** sometidas a compresión.
+
 Cuando la forma de la barra o columna es muy estrecha y muy larga
 (esbelta), corre el riesgo de doblarse y perder así su resistencia.
 El resultado final es que la estructura se flexiona hasta partirse
@@ -116,28 +158,32 @@ y fallar.
 
 Soluciones al pandeo
 --------------------
-**Hacer el perfil más grueso**
-  Si aumentamos el perfil de la barra o de la columna haciendo que
-  sean más gruesos, dejarán de ser esbeltos y el pandeo no se
-  producirá.
 
-  Por ejemplo se puede utilizar un tubo grueso con paredes finas
-  en vez de una barra maciza.
-  Los dos tienen el mismo peso y la misma cantidad de hierro,
-  pero el tubo hueco no pandea mientras que la barra maciza, 
-  que es más esbelta, sí lo hará.
+Hacer el perfil más grueso
+   Si aumentamos el perfil de la barra o de la columna haciendo que
+   sean más gruesos, dejarán de ser esbeltos y el pandeo no se
+   producirá.
 
-  Esto se utiliza por ejemplo en las estructuras de las bicicletas.
+   Por ejemplo se puede utilizar un tubo grueso con paredes finas
+   en vez de una barra maciza.
+   Los dos tienen el mismo peso y la misma cantidad de material,
+   pero el tubo hueco no pandea mientras que la barra maciza, 
+   que es más esbelta, si pandea.
+
+   Esto se utiliza por ejemplo en las estructuras de las bicicletas
+   que están formadas por **barras tubulares** o en las estructuras de 
+   las torres eléctricas formadas por **barras en forma de L** en vez
+   de barras macizas.  
 
 
-**Sujetar el centro de la barra**
-  Si sujetamos el centro de la barra para evitar que se mueva,
-  el pandeo no llegará a producirse.
+Sujetar el centro de la barra
+   Si sujetamos el centro de la barra para evitar que se mueva,
+   el pandeo no llegará a producirse.
 
-  Por ejemplo una torre de alta tensión está construida con barras
-  verticales esbeltas que soportan la mayoría del peso y barras
-  horizontales y oblicuas que evitan que las barras verticales
-  puedan pandear.
+   Por ejemplo una torre de alta tensión está construida con cuatro
+   barras verticales esbeltas que soportan la mayor parte del peso 
+   y barras horizontales y oblicuas entre ellas que evitan que las 
+   barras verticales puedan pandear.
 
 
 Oscilaciones
@@ -183,23 +229,33 @@ que son las frecuencias en las que vibra una estructura
 de forma natural.
 Sumando poco a poco los efectos de una pequeña vibración a la misma
 frecuencia de resonancia, la oscilación, igual que en un columpio,
-puede llegar a hacerse muy grande y peligrosa para la estabilidad.
+puede llegar a hacerse muy grande y molesta.
 
 
 Soluciones a las oscilaciones
 -----------------------------
 
-**Evitar las cargas oscilantes**
-  Esta es la solución que toman los soldados que caminan en formación
-  por encima de un puente que no es muy rígido. En este caso los
-  soldados dejan de caminar a la vez y comienzan a caminar de manera
-  desorganizada para que el puente no resuene al mismo ritmo de los
-  pasos [#f1]_ .
+Evitar las cargas oscilantes
+   Esta es la solución que toman los soldados que caminan en formación
+   por encima de un puente que no es muy rígido. En este caso los
+   soldados dejan de caminar a la vez y comienzan a caminar de manera
+   desorganizada para que el puente no resuene al mismo ritmo de los
+   pasos [#f1]_ .
 
-**Amortiguar la estructura**
-  Esta es la solución que se toma en las ruedas de los coches o en
-  algunos edificios resistentes a terremotos. Un amortiguador es un
-  elemento que frena las oscilaciones y reduce la resonancia.
+Amortiguar la estructura
+   Esta es la solución que se toma en las ruedas de los coches o en
+   algunos edificios resistentes a terremotos. Un amortiguador es un
+   elemento que frena las oscilaciones y reduce la resonancia.
+
+   `Amortiguador de masa sintonizada
+   <https://www.youtube.com/embed/7SCUGTA8xEI>`__
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="https://www.youtube.com/embed/QUI7acilEJo"
+   frameborder="0" allowfullscreen></iframe>
+   </div>
 
 
 -------------

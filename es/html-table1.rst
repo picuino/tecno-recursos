@@ -10,12 +10,12 @@ Tablas de datos
 ``<table> </table>``
    Etiqueta de tabla.
 
-``<tr> </tr>``
-   Etiqueta una fila dentro de una tabla.
-
 ``<thead> </thead>``
    Etiqueta la cabecera de una tabla.
    Está en la primera fila de una tabla.
+
+``<tr> </tr>``
+   Etiqueta una fila dentro de una tabla.
 
 ``<th> </th>``
    Etiqueta cada uno de los elementos de una cabecera de tabla.
@@ -38,19 +38,18 @@ Código de una tabla simple
 
 .. image:: html/_thumbs/html-table1-html.png
 
-Plantilla de tabla de datos.
+Plantilla de tabla de datos sin cabecera.
 
 .. code-block:: html
 
-   <table>
-      <thead>
-         <tr> <th>Columna 1</th> <th>Columna 2</th> </tr>
-      </thead>
-
+   <table border="1">
       <tbody>
-         <tr> <td>Uno</td> <td> I </td> </tr>
-         <tr> <td>Dos</td> <td> II </td> </tr>
-         <tr> <td>Tres</td> <td> III </td> </tr>
+         <tr> 
+            <td>Uno</td>  <td> 1 </td>
+         </tr>
+         <tr> 
+            <td>Dos</td>  <td> 2 </td>
+         </tr>
       </tbody>
    </table>
 
@@ -71,19 +70,24 @@ Código de una tabla con encabezado
 
 .. image:: html/_thumbs/html-table2-html.png
 
-Plantilla de tabla de datos.
+Plantilla de tabla de datos con cabecera.
 
 .. code-block:: html
 
-   <table>
+   <table border="1">
       <thead>
-         <tr> <th>Columna 1</th> <th>Columna 2</th> </tr>
+         <tr>
+            <th>Columna 1</th>  <th>Columna 2</th>
+         </tr>
       </thead>
 
       <tbody>
-         <tr> <td>Uno</td> <td> I </td> </tr>
-         <tr> <td>Dos</td> <td> II </td> </tr>
-         <tr> <td>Tres</td> <td> III </td> </tr>
+         <tr> 
+            <td>Uno</td>  <td> 1 </td>
+         </tr>
+         <tr> 
+            <td>Dos</td>  <td> 2 </td>
+         </tr>
       </tbody>
    </table>
 

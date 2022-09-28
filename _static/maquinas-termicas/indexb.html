@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Booklet - jQuery Plugin</title>
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="booklet/jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+    
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+	<script src="cufon/cufon-yui.js" type="text/javascript"></script>
+		<script src="cufon/ChunkFive_400.font.js" type="text/javascript"></script>
+		<script src="cufon/banksia.cufonfonts.js" type="text/javascript"></script>
+		<script type="text/javascript">
+            Cufon.replace('h1,p,.b-counter');
+			Cufon.replace('.book_wrapper a', {hover:true});
+			Cufon.replace('.title', {textShadow: '1px 1px #C59471', fontFamily:'ChunkFive'});
+			Cufon.replace('.reference a', {textShadow: '1px 1px #C59471', fontFamily:'ChunkFive'});
+			Cufon.replace('.loading', {textShadow: '1px 1px #000', fontFamily:'ChunkFive'});
+        </script>
+		<script src="booklet/jquery.min.js"></script>
+	<script> window.jQuery || document.write('<script src="booklet/jquery-2.1.0.min.js"><\/script>') </script>
+    <script src="booklet/jquery-ui.min.js"></script>
+	<script> window.jQuery.ui || document.write('<script src="booklet/jquery-ui-1.10.4.min.js"><\/script>') </script>
+    <script src="booklet/jquery.easing.1.3.js"></script>
+	<script>
+	    $(function() { $('#mybook').booklet({
+        
+		menu: '#custom-menu',
+		pageSelector: true
+		
+               });
+            });
+    </script>
+    <script src="booklet/jquery.booklet.latest.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/capitales_style.css">
+	
+</head>
+<body>
+	
+	<div class="book_wrapper">
+		
+		<div id="custom-menu"></div>
+		
+	    <div id="mybook">
+			
+			
+			
+	        <div align= "center">
+			<br/><br/>
+			<p><font size="8" color="blue"><b>LIBRO DIGITAL INTERACTIVO</b></font></p>
+			<br/><br/><br/>
+			<p><font size="8" color="red"><b>MÁQUINAS TÉRMICAS</b></font></p>
+			<p><font size="8" color="red"><b></b></font></p>
+			<br/><br/><br/><br/>
+			<p><font size="6" color="black"><b>Autor de escenas: José Luis San Emeterio Peña<br/>Diseño del libro: Juan Guillermo Rivera Berrío</b></font></p>
+			<br/><br/><br/><br/>
+			<p><font size="8" color="black"><b>2016</b></font></p><br/>
+			<img src="images/logo2.png" width="300" height="67" alt="" />								
+			</div>
+			
+			<div title="1. Introducción">
+	        <h1>1. Introducción</h1><br/><br/>
+            <p >El desarrollo de las máquinas ha sido uno de los factores clave en el establecimiento de las modernas sociedades de bienestar.</p><br/>
+			<p align="center"><img src="images/motor-_explosion.gif" width="120" height="175"></img></p>
+			<br/>
+			<p>En esta unidad pretendemos que comprendas el papel que han cumplido las máquinas a lo largo de la historia: primero como simples ahorradores de fuerza humana; después como artefactos capaces de aprovechar fuerzas naturales del tipo del viento o el agua; finalmente como aparatos sofisticados capaces de convertir unas formas de energía en otras, siempre a nuestro servicio.<br/><br/>
+			También podrás aprender que la Naturaleza impone algunas limitaciones a estas transformaciones.
+            </p>
+			</div>
+			
+			<div title="1.1 Una máquina simple">
+	        <h1>1.1 Una máquina simple</h1>
+            <p>Las máquinas son artefactos destinados a disminuir el esfuerzo necesario para realizar tareas penosas. En la imagen ves una palanca, la máquina más simple de la historia. Utilizándola logramos levantar un gran peso con una fuerza relativamente pequeña.</p><br/>
+			<p align="center"><img src="images/palanca.gif" width="259" height="172"></img></p>
+			<br/>
+			<p>En esta máquina ya aparece una característica muy generalizada en el mundo de las máquinas: el aprovechamiento de las características del movimiento circular (toda la palanca gira en torno al punto de apoyo). <br/><br/></p>
+			<p><font color="blue">En la siguiente página estudiamos otra máquina simple para definir la utilidad de esta clase de aparatos y comprender sus limitaciones.</font></p>  
+			</div>
+
+			<div title="1.1 Una máquina simple">
+	        <h1>1.1 Una máquina simple</h1>
+            <p><font size="5" color=rgb(255,55,00)><br/>Ve a la actividad 1</font><br/><br/>
+			<p align="center"><iframe src="escenas/termo-polea.htm" width="750" height="500" frameborder=0 seamless scrolling="no"></iframe><a href="escenas/termo-poleab.htm" target="_blank" class="demo" onclick="window.open(this.href,this.target,'scrollbars=yes,resizable=yes,location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-450)+',top='+(screen.availHeight/2-300)+',width=900,height=600');return false;">Ampliar</a></p></p>
+			</div>
+			
+					
+			<div title="1.2 Una máquina que ahorra energía">
+	        <h1>1.2 Una máquina que ahorra energía</h1>
+            <p>Ya hemos visto que las máquinas simples disminuyen la fuerza necesaria para realizar una tarea, pero no el trabajo que necesitamos para realizarla. A lo largo de la Historia hemos empleado muchas veces el trabajo animal para reemplazar el trabajo humano. Éste es, por ejemplo, el caso de la noria, movida tradicionalmente por un mulo o un buey.</p><br/>
+			<p align="center"><img src="images/molino.png" width="159" height="172"></img></p>
+			<br/>
+			<p>Una alternativa mejor consiste en utilizar la energía de fenómenos naturales para transformarla en trabajo mecánico útil. No te costará mucho pensar qué tipo de transformación de energía puede realizar el molino de la imagen.<br/></p>
+			<p><font color="blue"><br/>En la siguiente página puedes estudiar de cerca otro ejemplo de transformación de una energía natural en trabajo mecánico.</font></p>  
+			</div>
+
+			<div title="1.2 Una máquina que ahorra energía">
+	        <h1>1.2 Una máquina que ahorra energía</h1><br/><br/><br/>
+            
+			<p align="center"><iframe src="escenas/termo-trubi2.htm" width="750" height="500" frameborder=0 seamless scrolling="no"></iframe><a href="escenas/termo-trubi2b.htm" target="_blank" class="demo" onclick="window.open(this.href,this.target,'scrollbars=yes,resizable=yes,location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-450)+',top='+(screen.availHeight/2-300)+',width=900,height=600');return false;">Ampliar</a></p>
+			</div>
+			
+			<div title="1.3 Conclusiones">
+	        <h1>1.3 Conclusiones</h1>
+            <p>Las máquinas son herramientas destinadas a disminuir el esfuerzo humano en cualquier tarea de transformación. Debemos destacar tres ideas simples:<br/><br/>
+
+			Las máquinas simples (palancas, manivelas, poleas...) reducen la fuerza necesaria para realizar una tarea. Su idea común es que el momento de una fuerza, capaz de generar una rotación, depende de la fuerza aplicada y la distancia al eje de rotación. Aumentando esta distancia es posible conseguir grandes momentos con poco esfuerzo.<br/><br/>
+
+			<font color="blue">Las máquinas simples ahorran fuerza pero no trabajo. Si deseamos ahorrar trabajo mecánico, la forma de conseguirlo consiste en convertir en trabajo útil alguna otra forma de energía presente en la Naturaleza (energía eólica, energía hidráulica...)</font><br/><br/>
+
+			En la revolución industrial que condujo a la Sociedad actual jugó un papel muy importante la energía térmica. En los siguientes apartados trataremos de su transformación en trabajo.</p><br/>
+			</div>
+			
+			<div title="2.1 La experiencia de Joule">
+	        <h1>2.1 La experiencia de Joule</h1>
+            <p>Cuando el vapor de agua  sale de una olla a presión, su energía es capaz de hacer girar la válvula de la olla. Parte del calor que hemos comunicado al agua se está convirtiendo en trabajo mecánico. Del mismo modo, sabemos que frotando dos cuerpos, una forma de trabajo mecánico, se produce calor.</p><br/>
+			<p align="center"><img src="images/olla.gif" width="160" height="122"></img></p>
+			<br/>
+			<p>Así pues, el trabajo mecánico y el calor se pueden convertir el uno en el otro. ¿Cuál es la relación de conversión? El conocido científico J. Joule diseño una experiencia que le permitía convertir energía mecánicaen energía térmica en condiciones controladas para medir la equivalencia entre ambas formas de energía.</p><br/><br/>
+			<p><font color="blue">En la siguiente página simulamos, de forma muy simplificada, la experiencia de Joule.</font></p>  
+			</div>
+
+			<div title="2.1 La experiencia de Joule">
+	        <h1>2.1 La experiencia de Joule</h1>
+			<p><font color="red"><br/>La pesa posee una forma de energía que se puede convertir en calor</font><br/>
+            
+			<p align="center"><iframe src="escenas/termo-joule2.htm" width="750" height="550" frameborder=0 seamless scrolling="no"></iframe><a href="escenas/termo-joule2b.htm" target="_blank" class="demo" onclick="window.open(this.href,this.target,'scrollbars=yes,resizable=yes,location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-450)+',top='+(screen.availHeight/2-330)+',width=900,height=660');return false;">Ampliar</a></p>
+			</div>
+			
+			
+			<div title="2.2 El primer principio de la termodinámica">
+	        <h1>2.2 El primer principio de la termodinámica</h1><br/><br/>
+            <p>Cuando calentamos una olla a presión, el calor que suministramos al agua se emplea en aumentar la temperatura del agua, evaporar parte del líquido y en producir un trabajo mecánico sobre la válvula de seguridad al escaparse el vapor a través de ella. El calor de partida se ha repartido en diferentes formas de energía.</p><br/><br/>
+
+			<p><font color="blue">El primer principio de la Termodinámica establece cómo se produce este reparto</font></p>.
+
+			<p>En la siguiente página tratamos de redescubrir este primer principio explorando un sistema muy simple: en un recipiente cuyas paredes absorben una cantidad despreciable de calor hay un gas. La tapa superior del recipiente es deslizante; puede ascender o descender según la presión del gas, a menos que la fijemos expresamente para mantener el volumen constante. <br/><br/></p>
+			</div>
+			
+			<div title="2.2 El primer principio de la termodinámica">
+	        <h1>2.2 El primer principio de la termodinámica</h1>
+			<p><font color="red"><br/>Los puntos simulan moléculas. Representamos 0,1 moles por 10 moléculas (todos sabemos que, en realidad son muchas más).</font><br/>
+            
+			<p align="center"><iframe src="escenas/termo-primero1.htm" width="700" height="500" frameborder=0 seamless scrolling="no"></iframe><a href="escenas/termo-primero1b.htm" target="_blank" class="demo" onclick="window.open(this.href,this.target,'scrollbars=yes,resizable=yes,location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-420)+',top='+(screen.availHeight/2-300)+',width=840,height=600');return false;">Ampliar</a></p>
+			</div>
+			
+			<div title="2.3 Conclusiones calor y energía mecánica">
+	        <h1>2.3 Conclusiones calor y energía mecánica</h1>
+            <p>El calor necesario para que un gramo de agua aumente un grado su temperatura es una caloría. La experiencia de Joule establece que una caloría equivale a 4,18 J.<br/><br/>
+			El primer principio de la Termodinámica podría enunciarse así:<br/><br/>
+
+			<font color="blue">Q = W + AU</font><br/><br/>
+
+			Q es el calor que el sistema gana o pierde, W es el trabajo producido y AU        es   la variación de la energía interna del sistema.</p><br/><br/>
+			<p>Cuando calentamos o enfriamos  un sistema a volumen constante no se produce trabajo y el calor recibido o perdido se traduce en un aumento o descenso de la temperatura.</p><br/><br/>
+			<p>Cuando calentamos un sistema a presión constante se produce un trabajo: W= P·AV donde P es la presión y AV es la variación de volumen del sistema.</P>
+			</div>
+						
+			<div title="3.1 El movimiento continuo">
+	        <h1>3.1 El movimiento continuo</h1>
+            <p>Seguro que conoces el pequeño aparato de la figura. En él se produce transformación de energía potencial en cinética y viceversa. ¿Puedes identificar estas transformaciones?.</p><br/>
+			<p align="left"><img src="images/m_perpetuo.gif" width="150" height="50"></img>
+			Una vieja aspiración de la Humanidad, de la que han surgido diseños de numerosos aparatos, consiste precisamente en lograr un artefacto que convirtiera alguna forma de energía (eléctrica, térmica etc) en energía cinética, que a su vez se convertiría de nuevo en la forma de energía anterior.</p><br/><br/>
+			<p>Así obtendríamos un ciclo sin fin que llamaríamos movimiento continuo.<br/><br/> ¿Es posible el movimiento continuo? Para poder responder esta pregunta comenzaremos por analizar el funcionamiento del aparato que se muestra en la imagen. En la siguiente página podrás realizar este análisis. En ella hemos supuesto que tratamos sólo con dos bolas de masas idénticas suspendidas de hilos de 1 m. de longitud.</p>  
+			</div>
+
+			<div title="3.1 El movimiento continuo">
+	        <h1>3.1 El movimiento continuo</h1>
+			<p><font color="red"><br/>Modelo simple de pretendido movimiento continuo</font></p><br/>
+            
+			<p align="center"><iframe src="escenas/termo-continuo1.htm" width="750" height="500" frameborder=0 seamless scrolling="no"></iframe><a href="escenas/termo-continuo1b.htm" target="_blank" class="demo" onclick="window.open(this.href,this.target,'scrollbars=yes,resizable=yes,location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-450)+',top='+(screen.availHeight/2-300)+',width=900,height=600');return false;">Ampliar</a></p>
+			</div>
+						
+			<div title="3.2 Segundo principio de la Termodinámica">
+	        <h1>3.2 Segundo principio de la Termodinámica</h1><br/><br/>
+            <p>En la escena de la página anterior has notado como en la conversión entre dos formas de energía no se puede conseguir un ciclo perfecto. Siempre hay alguna pérdida a lo largo del ciclo.</p><br/><br/>
+			<p>Aunque sólo lo hayamos visto en un caso muy sencillo, en todos los ingeniosos dispositivos de movimiento continuo ideados por el hombre ha ocurrido lo mismo. Incluso ha habido casos de notorios estafadores que idearon falsos móviles perpetuos (uno de ellos llegó incluso a engañar al Zar Pedro I, el Grande, el personaje del monumento)</p><br/><br/>
+
+			<p><font color="blue">Finalmente, se aceptó el llamado Segundo principio de la Termodinámica que podríamos enunciar así: No es posible conseguir un móvil perpetuo basado en la continua conversión recíproca entre dos formas de energía. </font></p>.
+
+			<p>Como en muchas máquinas actuales se utiliza el calor como generador del movimiento, en la escena siguiente examinamos qué forma tiene el segundo principio para máquinas que funcionan con energía de origen térmico.<br/><br/></p>
+			</div>
+			
+			<div title="3.2 Segundo principio de la Termodinámica">
+	        <h1>3.2 Segundo principio de la Termodinámica</h1>
+			<p><font color="red"><br/>Esquema general del Segundo Principio de la Termodinámica</font><br/></p>
+            
+			<p align="center"><iframe src="escenas/termo-segundo1.htm" width="750" height="500" frameborder=0 seamless scrolling="no"></iframe><a href="escenas/termo-segundo1b.htm" target="_blank" class="demo" onclick="window.open(this.href,this.target,'scrollbars=yes,resizable=yes,location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-450)+',top='+(screen.availHeight/2-300)+',width=900,height=600');return false;">Ampliar</a></p>
+			</div>
+			
+			<div title="3.3 Conclusiones sobre el segundo principio">
+	        <h1>3.3 Conclusiones sobre el segundo principio</h1>
+            <p>El segundo principio se puede enunciar de varias formas alternativas::<br/><br/>
+
+			<font color="blue">No es posible construir un móvil perpetuo basado en la conversión cíclica entre dos formas de energía. Inevitablemente, en alguna parte de este ciclo se perderá energía, preferentemente en forma de calor.</font><br/><br/>
+
+			Una máquina térmica extrae energía de una fuente caliente. De esta energía una parte se convierte en trabajo mecánico y otra se cede a una fuente fría. De una forma más resumida: Q1=W+Q2<br/><br/>
+			donde Q1 es el calor que se extrae de la fuente caliente, Q2 es el que se cede a la fuente fría y W el trabajo realizado. El rendimiento de la máquina será R=W/Q1 El máximo rendimiento de una máquina térmica sería: </p>
+			<p align="center"><img src="images/rendimiento.png" width="140" height="90"></img></p>
+			<p>donde T1 es la temperatura de la fuente caliente y T2 es la temperatura de la fuente fría.</p>
+			</div>
+			
+			<div title="4.1 La máquina ideal de Carnot">
+	        <h1>4.1 La máquina ideal de Carnot</h1>
+            <p>Conocidas las limitaciones que nos impone la Termodinámica, el ingeniero Carnot diseño un modelo de máquina que las podía satisfacer... Se trata de un modelo teórico, no real, pero en él ya se ven las características fundamentales de los motores térmicos reales:</p><br/><br/> 
+			<p>El sistema se basa en fenómenos de expansión y contracción de gases por ganancia y pérdida de calor.
+			El trabajo de expansión y contracción de los gases puede ser convertido en el movimiento circular típico de la mayoría de las máquinas con facilidad.</p><br/>
+			<table width="750" border="0" align="center">
+			<tr>
+			<td colspan="1"><img src="images/pistongif.gif" width="154" height="183"></img></td>
+			<td colspan="1"><p>El pistón, mecanismo que vemos en la figura, es el encargado de convertir sus desplazamientos en un movimiento circular, que podremos convertir posteriormente en desplazamiento de un vehículo, movimiento de una grúa, de un robot, etc.</p></td>
+			</tr>
+			</table>
+			<p><font color="blue">La siguiente página te ayudará a comprender el diseño de Carnot.</font></p>  
+			</div>
+			
+			<div title="4.1 La máquina ideal de Carnot">
+	        <h1>4.1 La máquina ideal de Carnot</h1>
+			<br/>
+            <p align="center"><iframe src="escenas/termo-ideal1.htm" width="750" height="550" frameborder=0 seamless scrolling="no"></iframe><a href="escenas/termo-ideal1b.htm" target="_blank" class="demo" onclick="window.open(this.href,this.target,'scrollbars=yes,resizable=yes,location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-450)+',top='+(screen.availHeight/2-330)+',width=900,height=660');return false;">Ampliar</a></p>
+			</div>
+			
+			<div title=" 4.2 Una máquina real">
+	        <h1> 4.2 Una máquina real</h1>
+            <p>En los motores reales de combustión, la energía se extrae quemando algún combustible, previamente inyectado en el cilindro, finamente pulverizado y mezclado con oxígeno. Después, la mezcla combustible es comprimida y quemada violentamente. </p><br/><br/> 
+			<table width="750" border="0" align="center">
+			<tr>
+			<td colspan="1"><img src="images/motor-_explosion.gif" width="170" height="225"></img></td>
+			<td colspan="1"><p>La energía de esta combustión mueve el pistón en varias fases, como se aprecia en la figura adjunta.</p></td>
+			</tr>
+			</table><br/><br/>
+			<p><font color="blue">En la siguiente página estudiamos, de manera aproximada, el ciclo de un motor de combustión moderno y tratamos de explicar estas fases.</font></p>  
+			</div>
+			
+			<div title=" 4.2 Una máquina real">
+	        <h1> 4.2 Una máquina real</h1>
+			<br/>
+            <p align="center"><iframe src="escenas/termo-real2.htm" width="750" height="550" frameborder=0 seamless scrolling="no"></iframe><a href="escenas/termo-real2b.htm" target="_blank" class="demo" onclick="window.open(this.href,this.target,'scrollbars=yes,resizable=yes,location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-450)+',top='+(screen.availHeight/2-330)+',width=900,height=660');return false;">Ampliar</a></p>
+			</div>
+			
+			<div title="4.3 Conclusiones sobre máquinas térmicas">
+	        <h1>4.3 Conclusiones sobre máquinas térmicas</h1><br/>
+            <p>Como modelo teórico de motor, el ciclo de Carnot se basa en someter a un gas a cuatro fases: expansión a presión constante, recibiendo calor de una fuente caliente; expansión adiabática, sin perder o ganar calor, contracción a presión constante, cediendo calor a una fuente fría, contracción adiabática.<br/><br/>
+
+			<font color="blue">El motor de combustión real se basa en la inyección de la mezcla combustible pulverizada, su comprensión y explosión, finalizando con la compresión y expulsión de los gases de escape.</font><br/><br/>
+
+			En ambos casos, el movimiento del pistón transforma la expansión y contracción de gases en un movimiento circular aprovechable para usos mecánicos.</p>
+			</div>
+
+			<div title="Evaluación">
+	        <h1> Evaluación</h1>
+			<p align="center"><iframe src="escenas/termo-evaluacion11.htm" width="780" height="600" frameborder=0 seamless scrolling="no"></iframe>
+			<a href="escenas/termo-evaluacion11.htm" target="_blank" class="demo" onclick="window.open(this.href,this.target,'scrollbars=yes,resizable=yes,location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-593)+',top='+(screen.availHeight/2-375)+',width=1185,height=750');return false;">Ampliar</a></p>
+			
+			</div>
+			
+			
+			 <div title="Créditos" align="center">
+			 
+			<p align="center"><iframe src="escenas/creditos.html" width="600" height="620" frameborder=0 seamless scrolling="no"></iframe></p></div>
+			
+
+</div></div></div>
+			
+ 	
+</body>
+</html>
