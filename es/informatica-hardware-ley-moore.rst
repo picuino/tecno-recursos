@@ -8,12 +8,13 @@
 Ley de Moore
 ============
 
-La ley de Moore fue formulada en el año 1965 por Gordon Moore,
-cofundador de Intel, y expresa que cada 2 años se duplica el número
-de transistores de un microprocesador.
+La `ley de Moore <https://es.wikipedia.org/wiki/Ley_de_Moore>`__ fue 
+formulada en el año 1965 por Gordon Moore, cofundador de Intel, 
+y expresa que cada 2 años se duplica el número de transistores de un 
+microprocesador.
 
 Gracias a esta tendencia a aumentar el número de transistores, la
-potencia y capacidad de cálculo ha aumentado de forma exponencial
+potencia y capacidad de cálculo han aumentado de forma exponencial
 desde el año 1965 hasta la actualidad. Se espera que todavía siga
 aumentando unos años más, hasta que la tecnología se tope con los
 efectos cuánticos, que no permitirán seguir fabricando transistores
@@ -34,9 +35,9 @@ transistores como pueden ser la memoria RAM o la memoria Flash.
 
 Relación capacidad-precio
 -------------------------
-Los dispositivos de hardware informáticos sufren una fuerte deflación de
-precios con el tiempo, lo que provoca que un dispositivo muy caro de tope
-de gama pase en pocos años a ser un dispositivo obsoleto, en el rango
+Los dispositivos de hardware informático sufren una fuerte deflación de
+precios con el tiempo, lo que provoca que un dispositivo muy caro, de tope
+de gama, pase en pocos años a ser un dispositivo obsoleto, en el rango
 de precios más baratos.
 
 Una buena pauta a la hora de comprar hardware es no comprar lo más
@@ -46,7 +47,7 @@ capacidad-precio.
 Por otro lado, los dispositivos más nuevos del mercado se suelen lanzar
 con unos precios muy altos debido a que son productos de la mayor capacidad
 o rendimiento y eso les hace ser más atractivos.
-El resultado es que estos dispositivos altos de gama suelen tener también
+El resultado es que estos dispositivos de gama alta suelen tener también
 una pobre relación capacidad-precio o rendimiento-precio.
 
 En las tablas que se muestran a continuación se pueden ver reflejados
@@ -83,10 +84,10 @@ Tabla de precios de memorias USB de marca SanDisk en Amazon en 2022.
 Como puede observarse, los dispositivos de precios más bajos se pueden
 mejorar duplicando su capacidad por poco dinero más.
 
-La relación de precio por Gbyte mejora constantemente hasta que llegamos
-al dispositivo más nuevo y alto de gama que tiene un precio muy superior
-al resto durante el periodo de lanzamiento, por lo que no merece la
-pena comprarlo por su menor relación capacidad-precio.
+La relación de precio por Gigabyte mejora constantemente hasta que llegamos
+al dispositivo más nuevo y de gama más alta, que tiene un precio muy 
+superior al resto durante el periodo de lanzamiento, por lo que no merece 
+la pena comprarlo por su menor relación capacidad-precio.
 
 Tabla de precios de procesadores Intel en Amazon en 2022.
 La capacidad de calculo se ha obtenido de la página
@@ -121,12 +122,12 @@ de `PassMark Software <https://www.cpubenchmark.net>`__.
      - 795,00
      - 56
 
-Los modelos de procesadores con menor capacidad no están a la venta como
+Los modelos de procesadores con menor rendimiento no están a la venta como
 procesadores independientes, pero se siguen vendiendo en equipos ya
 montados, a pesar de ser obsoletos y tener una baja relación
 rendimiento/precio.
 
 Podemos observar de nuevo que los equipos más baratos tienen una pobre
-relación rendimiento/precio, al igual que los más caros y altos de gama.
-La mejor compra está en un equipo intermedio con la mejor relación
+relación rendimiento/precio, al igual que los más caros y de gama alta.
+La mejor compra está en un equipo intermedio, con la mejor relación
 rendimiento/precio.

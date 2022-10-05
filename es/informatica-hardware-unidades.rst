@@ -77,7 +77,7 @@ Capacidades y velocidades típicas
 
  * Una película en DVD ocupará de 4 a 8 **Gigabytes** de espacio.
 
- * Un disco duro típico tiene una capacidad de varios **Terabytes.**
+ * Un disco duro típico tiene una capacidad de varios **Terabytes**.
 
  * Un Cluster de ordenadores puede alcanzar varios **Petabytes** de 
    capacidad.
@@ -86,3 +86,9 @@ Capacidades y velocidades típicas
    internet era de unos `2000 Exabytes
    <https://www.statista.com/statistics/638593/worldwide-data-center-storage-capacity-cloud-vs-traditional/>`__.
 
+
+Test de la unidad
+-----------------
+
+`Test de unidades de medida.
+<https://www.picuino.com/test/es-hardware-unidades.html>`__

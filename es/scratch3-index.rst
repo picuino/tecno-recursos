@@ -33,4 +33,4 @@ Tutorial para aprender a programar en Scratch 3.
    scratch3-dibujar-espirales.rst
    scratch3-dibujar-flores.rst
 
-:ref:`Tutorial de Scratch3 en inglés (en construcción) <scratch3-en-index>`.
+..  :ref:`Tutorial de Scratch3 en inglés (en construcción) <scratch3-en-index>`.

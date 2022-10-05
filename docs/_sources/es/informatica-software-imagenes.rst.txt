@@ -35,6 +35,150 @@ etc. con las que se forman las imágenes.
    via Wikimedia Commons.
 
 
+Esquemas de color
+-----------------
+Existen dos grandes esquemas de color, el aditivo y el sustractivo.
+Cada uno de ellos tiene un campo de aplicación distinto y es conveniente
+utilizar cada uno en su ámbito, para obtener los mejores resultados.
+
+.. figure:: informatica/_images/informatica-rgb-cmyk.png
+   :align: center
+   :width: 640px
+
+.. glossary::
+
+   Esquema de color aditivo RGB
+      Este esquema se denomina aditivo porque genera los diferentes colores
+      añadiendo fuentes de luz. 
+      
+      Los colores primarios a partir de los que se forman todos los demás 
+      son el **rojo** (Red), el **verde** (Green) y el **azul** (Blue).
+      De esos tres colores proviene el nombre RGB.
+      
+      Este esquema de color se utiliza en monitores, pantallas de 
+      teléfonos inteligentes, tabletas, televisiones, proyectores, etc.  
+      
+      Este esquema funciona basándose en que el ojo humano tiene tres 
+      receptores de color (rojo, verde y azul) que utiliza para detectar
+      todos los colores del arcoíris a partir de una combinación de todos
+      ellos. Así nuestro ojo percibe el color amarillo como una combinación
+      de luz roja más luz verde.
+      
+      Los colores secundarios se forman sumando dos colores primarios:
+      
+      Rojo + Verde = Amarillo
+      
+      Rojo + Azul = Magenta
+      
+      Verde + Azul = Cian
+      
+      Rojo + Verde + Azul = Blanco
+      
+      Ausencia de color = Negro
+      
+   Esquema de color sustractivo CMYK
+      Este esquema se denomina sustractivo porque genera los diferentes
+      colores reflejando la luz blanca, que contiene todos los colores, 
+      menos algún color que se sustrae con una tinta.
+      Por ejemplo la tinta amarilla reflejará toda la luz blanca que le 
+      llega, menos el color azul, que se sustrae o absorbe en el interior 
+      de la tinta.
+      
+      Los colores primarios a partir de los que se forman todos los demás
+      son el **cian** (Cyan), el magenta (Magent), el **amarillo** (Yellow)
+      y el color **negro** (Key). Si las tintas fuesen perfectas, podrían
+      conseguir el color negro sumando todas ellas (CMY) pero en la
+      práctica resulta más sencillo y se ve más oscuro al utilizar una 
+      tinta específica para conseguir el color negro.
+      
+      Los colores secundarios se obtienen mezclando tintas y por lo tanto
+      absorbiendo más de un color. De los tres colores que tiene la luz
+      blanca (rojo, verde y azul) la tinta amarilla absorbe azul y la tinta
+      cian absorbe rojo. 
+      Al mezclar tintas amarilla y cian, se absorben el azul y el 
+      rojo, quedando solo el color verde como resultado final.
+      
+      Este esquema se utiliza para la impresión de revistas, libros, 
+      folletos, carteles y todo tipo de trabajos de imprenta.
+      También es la base de las impresoras a color y de las pinturas al 
+      óleo, acuarelas, ceras, etc.
+
+      Los colores secundarios se forman sumando dos colores primarios:
+      
+      Cian + Magenta = Azul
+      
+      Cian + Amarillo = Verde
+      
+      Magenta + Amarillo = Rojo
+      
+      Cian + Magenta + Amarillo = Negro
+      
+      Ausencia de color = Blanco
+
+
+Profundidad de color
+--------------------
+La profundidad de color se refiere al número de colores distintos que puede
+mostrar una imagen. La menor profundidad de color es la de una imagen que 
+solo trabaja con 2 colores (blanco y negro). La mayor profundidad de color
+es la de una imagen que trabaja con 16 bit para cada uno de los tres tonos
+RGB. Esto da como resultado un total de 281 billones de colores distintos.
+Las fotografías jpeg (las más habituales) utilizan una profundidad de color
+de 8 bit por cada tono RGB dando un resultado de 16 millones de colores
+distintos.
+
+Profundidad de color de 1 bit
+   2 colores.
+   
+   Esta profundidad de color se utiliza para enviar fax, almacenar texto
+   o dibujos sencillos. La ventaja que presenta es que ocupa muy poco 
+   espacio.
+   
+   .. figure:: informatica/_images/informatica-flor-2.png
+      :align: center
+
+Profundidad de color de 4 bit 
+   16 colores.
+   
+   .. figure:: informatica/_images/informatica-flor-16.png
+      :align: center
+       
+Profundidad de color de 8 bit gris 
+   256 tonos de gris.
+   
+   .. figure:: informatica/_images/informatica-flor-256bn.jpg
+      :align: center
+       
+Profundidad de color de 8 bit
+   256 colores.
+   
+   .. figure:: informatica/_images/informatica-flor-256.png
+      :align: center
+       
+Profundidad de color de 8 bit RGB
+   16 millones de colores (256 tonos de rojo, de verde y de azul).
+   
+   .. figure:: informatica/_images/informatica-flor-24bit.jpg
+      :align: center
+       
+Profundidad de color > 8 bit RGB
+   12 bit RGB = 68 mil millones de colores (4096 tonos de rojo, de verde 
+   y de azul).
+   
+   14 bit RGB = 4 billones de colores (16384 tonos de rojo, de verde 
+   y de azul)
+   
+   16 bit RGB = 281 billones de colores (65536 tonos de rojo, de verde 
+   y de azul).
+   
+   Los esquemas con mayor número de colores que el de 8 bit RGB 
+   no presentan diferencias apreciables en una pantalla.
+
+   Cuando una imagen tiene más de 8 bit RGB se pueden realizar operaciones
+   de edición de imágenes con menos pérdida de calidad que en las imágenes
+   con menos colores, que no son apropiadas para las operaciones de edición.
+
+   
 Formatos de mapa de bits
 ------------------------
 Los siguientes formatos de **imágenes de mapa de bits** están compuestos

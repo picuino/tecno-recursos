@@ -42,7 +42,7 @@ cadena, uno detrás de otro.
 
 **Características de un circuito en serie:**
   
-  1. La corriente eléctrica que pasa por los todos los componentes es 
+  1. La corriente eléctrica que pasa por todos los componentes es 
      la misma.
       
      Esto significa que si quitamos o abrimos un componente, 

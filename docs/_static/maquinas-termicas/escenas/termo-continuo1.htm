@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title></title>
+	<link rel="stylesheet" href="../fonts/style.css" type="text/css">
+<style>
+	body { 
+    background-color: transparent;
+}
+	</style>
+	<script type='text/javascript' src='../lib/descartes-min.js'></script>
+</head>
+<body>
+<ajs name="Descartes" width=750 height=500 code="Descartes">
+   <param name="tamaño" value="750x500">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="deshacer" value="no">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.335, 2015-01-12">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=sí limpiar=no ancho_este=150 ancho_oeste=150 alto=35">
+   <param name="E_01" value="tipo='R3' id='E0' despl_imagen='arr-izq' fondo='dc000080' R3='sí'">
+   <param name="E_02" value="tipo='R2' id='E1' x='10%' y='10%' ancho='80%' alto='70%' dibujar-si='d>0' despl_imagen='arr-izq' fondo='bb9959' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_03" value="tipo='R2' id='E3' ancho='200' despl_imagen='arr-izq' fondo='fff0f8fa' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='A1' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 1' fijo='sí' visible='sí' color='blanco' color-int='da5300' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=1'">
+   <param name="C_02" value="id='A2' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 2' fijo='sí' visible='sí' color='blanco' color-int='da5300' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=2'">
+   <param name="C_03" value="id='A3' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 3' fijo='sí' visible='sí' color='blanco' color-int='da5300' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=3'">
+   <param name="C_04" value="id='visto' tipo='numérico' interfaz='botón' región='interior' espacio='E1' nombre='Visto' expresión='(230,260)' fijo='sí' visible='sí' color='blanco' color-int='00a100' fuente puntos='20' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=0'">
+   <param name="C_05" value="id='Ayuda' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='AYUDA' fijo='sí' visible='sí' color='blanco' color-int='da5300' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=4'">
+   <param name="C_06" value="id='a' tipo='numérico' espacio='E0' nombre='Ángulo inicial' valor='30' incr='5' min='0' max='90' fijo='sí' visible='sí'">
+   <param name="C_07" value="id='r' tipo='numérico' interfaz='menú' espacio='E0' nombre='Ideal o real ' fijo='sí' visible='no' opciones='Ideal,Real'">
+   <param name="C_08" value="id='Ya' tipo='numérico' interfaz='botón' espacio='E0' nombre='Ya' fijo='sí' visible='sí' color='blanco' color-int='rojo' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='animar'">
+   <param name="A_01" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='pi=3.1416'">
+   <param name="A_02" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' hacer='ang=t=0?a*pi/180:an;tlim=((a*pi/180)*2)^0.5;aut=tlim/10;ac=-1.96*sen(an);bola=an>0?1:2;xp1=bola=1?(-5*sen(an)):0;yp1=bola=1?(5*cos(an)):5;xp2=bola=2?(-5*sen(an)):0;yp2=bola=2?(5*cos(an)):5;x1=t=0?(-5*sen(ang)):xp1;y1=t=0?(5*cos(ang)):yp1;x2=t=0?0:xp2;y2=t=0?5:yp2;;'">
+   <param name="G_01" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=1' expresión='[30,120,550,50]' texto='Pon el sistema en marcha con el botón de animación. \n¿Qué energía tiene la bola verde cuando el sistema se pone en marcha? ¿Y cuando choca con la bola rosa?\n¿En qué se convierte la energía de esta última tras el choque? \n¿Cuando dejaría de funcionar el sistema?' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_02" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=2' expresión='[30,120,550,50]' texto='Repite la experiencia desde varios ángulos, siempre en el modo ideal. \n¿Observas alguna relación entre el ángulo y la energía cinética que adquieren las bolas? \n¿Qué notas respecto al ángulo que alcanza siempre la bola rosa?' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_03" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=3' expresión='[30,120,550,50]' texto='Elige el modo real y repite la experiencia desde varios ángulos iniciales.\n¿Qué observas después de cada choque? \n¿A qué se deberá? \n¿Dura indefinidamente el movimiento? ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_04" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=4' expresión='[30,120,550,30]' texto='En la escena vemos dos bolas suspendidas de un soporte horizontal.\nPodemos variar el ángulo inicial entre los hilos que las soportan y elegir entre dos modelos de movimiento:ideal y real. \nEl botón Ya comienza o detiene la animación.\nEl botón Inicio restaura la sitiación del comienzo. ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_05" value="espacio='E3' tipo='imagen' dibujar-si='d>0' expresión='(-.50,-2.3,1,1)' archivo='../images/muchacho.png'">
+   <param name="G_06" value="espacio='E3' tipo='imagen' dibujar-si='d=0' expresión='(0,-2.3,-1,1)' archivo='../images/muchacha3.png'">
+   <param name="S_01" value="espacio='E0' tipo='paralelepípedo' color='c69536' color_reverso='b96a00' expresión='Paralelepípedo' posini='(0,0,3)' modelo='metal' ancho='1' alto='1'">
+   <param name="S_02" value="espacio='E0' tipo='cilindro' color='c69536' color_reverso='b96a00' expresión='Cilindro' rotini='(90,0,0)' posini='(0,3.6,3)' modelo='metal' ancho='1' largo='0.5' alto='8' Nu='10' Nv='10'">
+   <param name="S_03" value="espacio='E0' tipo='segmento' color='blanco' expresión='(0,-0.25,3)(0,-0.25+x1,3-y1)'">
+   <param name="S_04" value="espacio='E0' tipo='esfera' color='b6ff54' color_reverso='007d00' expresión='Esfera' posini='(0,x1-0.25,3-y1)' modelo='metal' ancho='0.5' Nu='10' Nv='10'">
+   <param name="S_05" value="espacio='E0' tipo='segmento' color='blanco' expresión='(0,0.25,3)(0,0.25+x2,3-y2)'">
+   <param name="S_06" value="espacio='E0' tipo='esfera' color='magenta' color_reverso='rosa' expresión='Esfera' posini='(0,0.25+x2,3-y2)' modelo='metal' ancho='0.5' Nu='10' Nv='10'">
+   <param name="S_07" value="espacio='E0' tipo='texto' color='ff5500' expresión='[20,30]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs44\b\u193 ngulo:{\*\mjaformula{\expr abs(ang)*180/pi}}\u186   \f2\fs30\b0}' fuente='SansSerif,BOLD,22' fijo='sí'">
+   <param name="Animación" value="controles='no' auto='no' inicio='t=0;w=0;an=ang;f=1;an2=ang' hacer='t=t+aut;w=w+ac*aut;an2=an;an=an+w*aut;w=((an*an2)<0)&(r=1)?w*0.8:w;f=(an*an2)>0?f:f+1;t=(t>10000)?0:t;' mientras='t<10000'">
+</ajs>
+</body>
+</html>

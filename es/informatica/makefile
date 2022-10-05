@@ -18,6 +18,27 @@ $(THUMBS)/%.png: $(IMAGES)/%.png
 $(THUMBS)/%.jpg: $(IMAGES)/%.jpg
 	$(CONVERT) $<  -strip -resize 480x360\> $@
 
+# --------------------------------------------------------------------
+# Flor
+#
+$(IMAGES)/informatica-flor-24bit.jpg: $(IMAGES)/informatica-flor.jpg
+	$(CONVERT) $<  -strip -resize 480x360\> $@
+
+$(IMAGES)/informatica-flor-256bn.jpg: $(IMAGES)/informatica-flor.jpg
+	$(CONVERT) $<  -strip -resize 480x360\> -colorspace Gray $@
+
+$(IMAGES)/informatica-flor-256.png: $(IMAGES)/informatica-flor.jpg
+	$(CONVERT) $<  -strip -resize 480x360\> -dither FloydSteinberg -colors 256 $@
+	$(OPTIPNG) $@
+
+$(IMAGES)/informatica-flor-16.png: $(IMAGES)/informatica-flor.jpg
+	$(CONVERT) $<  -strip -resize 480x360\> -dither FloydSteinberg -colors 16 $@
+	$(OPTIPNG) $@
+
+$(IMAGES)/informatica-flor-2.png: $(IMAGES)/informatica-flor.jpg
+	$(CONVERT) $<  -strip -resize 480x360\> -remap pattern:gray50 $@
+	$(OPTIPNG) $@
+
 
 # --------------------------------------------------------------------
 # ALL FILES
@@ -26,6 +47,9 @@ $(THUMBS)/%.jpg: $(IMAGES)/%.jpg
 
 all: \
 	$(THUMBFILES) \
+	$(IMAGES)/informatica-flor-24bit.jpg $(IMAGES)/informatica-flor-256bn.jpg \
+	$(IMAGES)/informatica-flor-256.png $(IMAGES)/informatica-flor-16.png \
+	$(IMAGES)/informatica-flor-2.png \
 
 
 clean:

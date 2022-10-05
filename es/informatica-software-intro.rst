@@ -150,7 +150,7 @@ de su utilidad.
       Ejemplos de sistemas operativos:
 
       * `Microsoft Windows <https://es.wikipedia.org/wiki/Microsoft_Windows>`__.
-      * `Mac OS <https://es.wikipedia.org/wiki/MacOS>`__.
+      * `macOS <https://es.wikipedia.org/wiki/MacOS>`__.
       * `GNU/Linux <https://es.wikipedia.org/wiki/GNU/Linux>`__.
       * `iOS <https://es.wikipedia.org/wiki/IOS>`__.
       * `Android (basado en Linux) <https://es.wikipedia.org/wiki/Android>`__.
@@ -171,7 +171,7 @@ de su utilidad.
       * El **lenguaje JavaScript** utilizado en las páginas web para que
         sean interactivas.
       * Los **lenguajes PHP y Python** utilizados para crear los programas
-        que vemos en internet, como Youtube, Instagram, Gmail, etc.
+        que vemos en internet, como YouTube, Instagram, Gmail, etc.
 
       Además de lenguajes de programación, también hay editores de código
       que ayudan al programador a la hora de escribir programas.
