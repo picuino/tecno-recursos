@@ -39,6 +39,9 @@ $(IMAGES)/informatica-flor-2.png: $(IMAGES)/informatica-flor.jpg
 	$(CONVERT) $<  -strip -resize 480x360\> -remap pattern:gray50 $@
 	$(OPTIPNG) $@
 
+$(IMAGES)/informatica-cuadricula-48-4.jpg: $(IMAGES)/informatica-cuadricula-48-4.png
+	$(CONVERT) $<  -strip -quality 80%% $@
+
 
 # --------------------------------------------------------------------
 # ALL FILES
@@ -49,7 +52,7 @@ all: \
 	$(THUMBFILES) \
 	$(IMAGES)/informatica-flor-24bit.jpg $(IMAGES)/informatica-flor-256bn.jpg \
 	$(IMAGES)/informatica-flor-256.png $(IMAGES)/informatica-flor-16.png \
-	$(IMAGES)/informatica-flor-2.png \
+	$(IMAGES)/informatica-flor-2.png $(IMAGES)/informatica-cuadricula-48-4.jpg\
 
 
 clean:

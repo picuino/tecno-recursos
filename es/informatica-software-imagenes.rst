@@ -380,13 +380,26 @@ utilizar el formato PNG que ocupará menos tamaño dando mejor calidad.
 .. figure:: informatica/_images/informatica-liberation-sans.png
    :align: center
 
-   Archivo de imagen PNG de 6kb de tamaño.
+   Archivo de imagen PNG de 6kb de tamaño, sin errores.
 
 .. figure:: informatica/_images/informatica-liberation-sans.jpg
    :align: center
 
    Archivo de imagen JPEG de 7kb de tamaño, con "artefactos".
 
+
+.. figure:: informatica/_images/informatica-cuadricula-48-4.png
+   :align: center
+
+   Archivo de imagen PNG de 210 bytes de tamaño, sin errores.
+
+.. figure:: informatica/_images/informatica-cuadricula-48-4.jpg
+   :align: center
+
+   Archivo de imagen JPEG de 11284 bytes de tamaño, con "artefactos".
+
+.. figure:: informatica/_images/informatica-cuadricula-48-5.png
+   :align: center
 
 A la hora de guardar fotografías, siempre será mejor utilizar el formato
 JPEG que ocupará menos tamaño dando una calidad semejante. En realidad

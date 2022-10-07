@@ -317,9 +317,9 @@ bookmarksnumbered=true
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
 
-  ('pc42-latex',    # start docname (root document)
+  ('es/index',                # start docname (root document)
    'Panel_PC42.tex',       # target name
-   u'Panel de control PC42',       # title
+   u'Tecnorecursos',       # title
    u'Picuino',             # Author
    'manual',               # Document Class (normally manual or howto
    True)                   # Toctree only (not include root document)

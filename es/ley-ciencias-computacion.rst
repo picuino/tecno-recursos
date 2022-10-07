@@ -16,7 +16,7 @@ Ciencias de la Computación
 Materia basada en el currículo autonómico de Madrid:
 `Decreto 65/2022
 <https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/26/BOCM-20220726-2.PDF>`__
-página 40.
+página 39.
 
 Introducción
 ------------
