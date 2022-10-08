@@ -131,3 +131,10 @@ Podemos observar de nuevo que los equipos más baratos tienen una pobre
 relación rendimiento/precio, al igual que los más caros y de gama alta.
 La mejor compra está en un equipo intermedio, con la mejor relación
 rendimiento/precio.
+
+
+Test de la unidad
+-----------------
+
+`Test de la ley de Moore.
+<https://www.picuino.com/test/es-hardware-ley-moore.html>`__
