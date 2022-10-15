@@ -14,7 +14,7 @@ implementado con un microcontrolador.
 Los reguladores digitales sustituyen varios elementos en un sistema
 de control tradicional por cálculos en un sistema programado.
 En la figura siguiente puede verse un esquema de un regulador
-controlado por un microcontrolador:
+controlado por un microcontrolador.
 
 .. image:: control/_images/img-0069.png
    :width: 640px
@@ -69,7 +69,7 @@ tanto, el período de muestreo debe ser menor de 0,56 segundos.
 .. image:: control/_images/img-0064.png
    :width: 640px
    :alt: Controlador PID digital.
-         Periodo de muestreo de sistema oscilatorio.
+         Período de muestreo de sistema oscilatorio.
    :align: center
 
 Tiempo de oscilación y período de muestreo:
@@ -87,18 +87,18 @@ escalón en lazo abierto.
 Este tiempo de subida se puede calcular como el tiempo que tarda
 el sistema en subir desde un 10% hasta un 90% del valor final.
 
-Por ejemplo en un sistema térmico que muestre la respuesta al escalón
-que aparece a continuación:
+En la siguiente imagen se representa la respuesta al escalón de 
+un sistema térmico.
 
 .. image:: control/_images/img-0071.png
    :width: 640px
    :alt: Controlador PID digital.
-         Periodo de muestreo con una respuesta al escalón.
+         Período de muestreo con una respuesta al escalón.
    :align: center
 
 Este sistema tarda en subir desde el 10% hasta el 90% del valor
 final 21,5 - 3,5 = 18 segundos.
-Por lo tanto, para este sistema de ejemplo el tiempo de muestreo
+Por lo tanto, para este sistema de ejemplo, el tiempo de muestreo
 del controlador PID debe ser como máximo una décima parte de
 los 18 segundos:
 
@@ -109,11 +109,12 @@ los 18 segundos:
 En los dos casos se ha utilizado la misma planta para calcular
 el tiempo de muestreo. Como puede verse los resultados son muy
 diferentes. Con el segundo método el tiempo de muestreo es tres
-veces mayor que con el primero. Por lo tanto el tiempo de
+veces mayor que con el primero. Por lo tanto, el tiempo de
 muestreo depende también de la respuesta que se vaya a conseguir
-y del tipo de sistema. Siempre que se pueda utilizar el primer
-método, será preferible puesto que calcula tiempos menores y
-por lo tanto más seguros.
+y del tipo de sistema. 
+
+Siempre que sea posible, será preferible utilizar el primer método
+puesto que calcula tiempos menores y, por lo tanto, más seguros.
 
 
 Período de muestreo y término derivativo
@@ -122,16 +123,19 @@ Período de muestreo y término derivativo
 Si bien antes se ha explicado que reducir el tiempo de muestreo
 es deseable porque aumenta la estabilidad del sistema, reducir
 excesivamente el tiempo de muestreo presenta también problemas.
-El problema de reducir mucho el tiempo de muestreo, además de
-multiplicar los cálculos necesarios en el microcontrolador, es
-que con tiempos muy pequeños es más difícil calcular el término
-derivativo porque el ruido de alta frecuencia afecta más al
-sistema y porque la variación de la entrada entre dos muestreos
-es tan pequeña que le afecta el error de cuantificación del
-conversor analógico-digital. Por lo tanto lo ideal es establecer
-un tiempo de muestreo que consiga una respuesta aceptable en el
-sistema sin que sobrecargue mucho los cálculos y que no afecte
-al término derivativo.
+
+Un problema de reducir mucho el tiempo de muestreo consiste
+en que aumenta los cálculos necesarios en el microcontrolador
+y por lo tanto le puede sobrecargar.
+Otro problema de reducir el tiempo de muestreo consiste en que 
+dificulta calcular el término derivativo. En este caso, el ruido 
+de alta frecuencia afecta más al sistema. Además, la variación de
+la entrada entre dos muestreos es tan pequeña que se ve afectada
+por el error de cuantificación del conversor analógico-digital. 
+
+Por lo tanto, lo ideal es establecer un tiempo de muestreo que 
+consiga una respuesta aceptable en el sistema sin que sobrecargue 
+mucho los cálculos y que no afecte al término derivativo.
 
 **Ejemplo: cómo afecta el error de cuantificación con tiempos
 de muestreo muy pequeños**
@@ -150,20 +154,19 @@ término derivativo.
 La lectura del sensor será en muestreos
 consecutivos: 100, 120, 140, 160, etc.
 
-Pero si se toma un período de muestreo de 10 milésimas de
-segundo,
-solo una de cada 5 muestras va a presentar una variación de
-un punto en la señal de entrada del sensor.
+Si se toma en cambio un período de muestreo de 10 milésimas de
+segundo, solo una de cada 5 muestras va a presentar una variación
+de un punto en la señal de entrada del sensor.
 Ahora la lectura del sensor será en muestreos
-consecutivos: 100, 100, 100, 100, 100, 101, 101, etc.
+consecutivos: 100, 100, 100, 100, 100, 101, 101, 101, etc.
 
-Por otra parte la ganancia derivativa será 100 veces mayor,
+Por otra parte, la ganancia derivativa será 100 veces mayor,
 al estar dividida por un tiempo de muestreo 100 veces más
 pequeño.
 
-El resultado es que la acción derivativa actuará a
-impulsos muy bruscos cada 5 ciclos. Este comportamiento no
-es deseable y se puede corregir simplemente aumentando el tiempo
+El resultado es que la acción derivativa actuará a impulsos 
+muy bruscos cada 5 ciclos. Este comportamiento no es deseable 
+y se puede corregir simplemente aumentando el tiempo
 de muestreo.
 
 
@@ -175,39 +178,56 @@ traducen a una ecuación. Las ecuaciones para calcular el
 comparador y el controlador PID son las siguientes:
 
    .. code-block:: python
-
+   
+      # Tiempo de muestreo en segundos
+      T = 0.1
+      
+      # Temperatura de referencia en grados centígrados
       Referencia = 150
-      Sensor = read_ADC()
+      
+      # Leer el valor del sensor en grados centígrados
+      Sensor = leer_ADC()
+      
+      # Calcular el valor del controlador PID
       Error = Sensor - Referencia
       Proporcional = Error * Kp
       Integral = Integral + Error * Ki * T
-      Derivativo = (Error - Error_0) * Kd / T
-      Error_0 = Error
+      Derivativo = (Error - Error_anterior) * Kd / T
       Control = Proporcional + Integral + Derivativo
-      write_DAC(Control)
+      Error_anterior = Error
+      
+      # Escribir el valor del controlador en el accionador
+      escribir_DAC(Control)
 
 Todas estas instrucciones y ecuaciones se deben repetir
 con un período de T segundos (el tiempo de muestreo).
+Si el tiempo de muestreo es de 0.1 segundos, las ecuaciones se 
+deben repetir 10 veces por segundo (cada 0.1 segundos).
 
-El valor de la referencia se ha escogido en 150, pero puede
-cambiarse a voluntad. Es el valor que se quiere conseguir en
-el sistema.
+El valor de la referencia se ha escogido en 150 grados centígrados,
+pero se puede cambiar a voluntad. Es el valor que se quiere conseguir 
+en el sistema.
+
+La instrucción leer_ADC() debe leer el valor devuelto por el sensor
+y acondicionar ese valor para que esté medido en las mismas unidades
+que se están utilizando en la referencia. 
+En el caso del ejemplo, grados centígrados.
 
 
 Unidades utilizadas por las funciones de entrada y salida
 ---------------------------------------------------------
 
 Las funciones de entrada y salida deben tener una conversión
-adecuada de unidades. La función read_ADC() debe devolver un
+adecuada de unidades. La función leer_ADC() debe devolver un
 valor con las mismas unidades que utilice la referencia.
-Es conveniente que la función write_DAC() acepte valores de
+Es conveniente que la función escribir_DAC() acepte valores de
 control entre 0 y 5 voltios para que se correspondan con el
-valor real de salida del conversor DAC que tendrá una tensión
-entre 0 y 5 voltios.
+valor real de salida del conversor DAC, que tendrá una tensión
+de salida, por ejemplo, entre 0 y 5 voltios.
 Los valores de control no están acotados y por lo tanto
 pueden llegar a valer más que el valor máximo de salida de
 5 voltios o menos que el valor mínimo de salida de 0 voltios.
-En este caso la función write_DAC() debe recortar los valores
+En este caso la función escribir_DAC() debe recortar los valores
 máximos a 5v y los valores mínimos a 0v.
 
 
@@ -217,21 +237,25 @@ Control anti-windup integral
 El control integral es un sumatorio que puede llegar a acumular
 valores muy altos. Esto ocurre generalmente cuando el error es
 muy elevado y se mantiene durante mucho tiempo. En este caso
-el sistema está saturado y el control integral no puede hacer
+el sistema está saturado y el control integral no puede realizar
 su función.
-En estos casos es recomendable deshabilitar el control integral
+En estos casos, es recomendable deshabilitar el control integral
 para que no se produzca un sobrepulso excesivo.
 Existen varias formas de implementar este control anti-windup.
 Aquí se implementará deshabilitando el control integral
 mientras el error sea superior a una cota determinada.
-Con este control implementado las ecuaciones se modifican de
-la siguiente manera:
+Para implementar este control anti-windup, se añaden las 
+siguientes líneas al programa anterior.
 
    .. code-block:: python
 
-      Integral = Integral + Error * Ki * T
-      if (abs(Error) > MaxIntegralError):
+      # Error máximo para que pueda funcionar el término integral
+      max_integral_error = 30
+
+      if (abs(Error) > max_integral_error):
          Integral = 0
+      else:
+         Integral = Integral + Error * Ki * T
 
 
 En las imágenes siguientes se puede observar una simulación de
@@ -342,10 +366,11 @@ Ruido de cuantificación
 Este ruido está producido por el conversor analógico-digital
 y procede de redondear el valor analógico real al valor digital
 más próximo dado que el valor digital tiene un numero finito
-de valores. Este error se puede calcular a partir del número
-de bits del conversor analógico-digital y su rango de medida.
+de valores posibles. 
+Este error se puede calcular a partir del número de bits del 
+conversor analógico-digital y su rango de medida.
 
-   **Ruido de cuantificación = rango_tensión / 2^(bits_adc)**
+   **Ruido de cuantificación = rango_tensión / 2^(bits_del_adc)**
 
 En la siguiente imagen puede verse la representación del ruido
 de cuantificación:
@@ -357,16 +382,16 @@ de cuantificación:
 
 En el caso de un microcontrolador típico con 10 bits de
 resolución y un rango de medida de 0 a 5 voltios, el ruido o
-error de cuantificación es de 5V / 1024 = 4,88 milivoltios.
+error de cuantificación es de 5V / 2^(10) = 5V / 1024 = 4,9 milivoltios.
 
 Este valor puede también convertirse a unidades de medida de
 salida de la planta a partir de la sensibilidad del sensor.
-Por ejemplo para un sensor de temperatura que entregue una
+Veamos el ejemplo de un sensor de temperatura que entrega una
 salida con sensibilidad de 10 mV/ºC
 
    **Ruido de cuantificación = rango_tensión / (2^(bits_adc) * sensibilidad)**
 
-   **Ruido de cuantificación = 5V / (1024 * 0,010V/ºC) = 0,488 ºC**
+   **Ruido de cuantificación = 5V / (1024 * 0,010V/ºC) = 0,49 ºC**
 
 El ruido de cuantificación afecta negativamente a la
 respuesta del regulador, produciendo saltos en la señal de
@@ -375,7 +400,7 @@ control que empeoran el comportamiento de la planta.
 Este ruido también afecta a la máxima precisión que puede
 conseguir el controlador. En el ejemplo anterior, el controlador
 no podrá conseguir controlar la temperatura con una precisión
-mejor de 0,488 grados centígrados.
+mejor de 0,49 grados centígrados.
 
 
 Referencias

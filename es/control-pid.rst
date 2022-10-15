@@ -20,14 +20,19 @@ controlador PID.
    :alt: Sistema de control en lazo cerrado con controlador PID
    :align: center
 
+
 Señal de referencia y señal de error
 ------------------------------------
 
-La señal **r(t)** se denomina **referencia** e indica el estado que se
-desea conseguir en la salida del sistema **y(t)**. En un sistema
-de control de temperatura, la referencia r(t) será la temperatura
-deseada y la salida y(t) será la temperatura real del sistema
-controlado.
+La señal **r(t)** se denomina **referencia** e indica el estado que 
+se desea conseguir en la salida del sistema **y(t)**. 
+
+La letra **t** dentro del paréntesis significa que las señales cambian
+con el tiempo (t), es decir que no permanecen con el mismo valor.
+
+En un sistema de control de temperatura, la referencia r(t) será la 
+temperatura deseada y la salida y(t) será la temperatura real del 
+sistema controlado, que cambiarán con el tiempo.
 
 Como puede verse en el esquema anterior, la entrada al controlador
 PID es la señal de **error e(t)**. Esta señal indica al controlador la
@@ -46,7 +51,8 @@ Acción de control Proporcional
 
 Como su nombre indica, esta acción de control es proporcional a la señal
 de error e(t). Internamente la acción proporcional multiplica la señal
-de error por una constante **Kp**.
+de error por una constante **Kp** que determina la cantidad de 
+acción proporcional que tendrá el controlador.
 
 Esta acción de control intenta minimizar el error del sistema. Cuando
 el error es grande, la acción de control es grande y tiende a minimizar
@@ -59,11 +65,12 @@ Aumentar la acción proporcional **Kp** tiene los siguientes efectos:
   3. Aumenta la inestabilidad del sistema.
 
 Los dos primeros efectos son positivos y deseables. El último efecto
-es negativo y hay que intentar minimizarle. Por lo tanto al aumentar
-la acción proporcional existe un punto de equilibrio en el que se consigue
-suficiente rapidez de respuesta del sistema y reducción del error, sin
-que el sistema sea demasiado inestable. Aumentar la acción proporcional
-más allá de este punto producirá una inestabilidad indeseable.
+es negativo y hay que intentar que sea reducido. 
+Al aumentar la acción proporcional existe un punto de equilibrio en el
+que se consigue suficiente rapidez de respuesta del sistema y reducción
+del error, sin que el sistema sea demasiado inestable. 
+Aumentar la acción proporcional más allá de este punto producirá una 
+inestabilidad indeseable.
 Reducir la acción proporcional, reducirá la velocidad de respuesta
 del sistema y aumentará su error permanente.
 
@@ -106,8 +113,9 @@ Acción de control Derivativa
 ----------------------------
 
 Como su nombre indica, esta acción de control es proporcional a la
-derivada de la señal de error **e(t)**. La derivada del error es otra
-forma de llamar a la "velocidad" del error.
+derivada de la señal de error **e(t)** multiplicada por la constante 
+**Kd**. 
+La derivada del error es otra forma de llamar a la "velocidad" del error.
 A continuación se verá porqué es tan importante calcular esta velocidad.
 En las gráficas anteriores, cuando la posición se encuentra por debajo
 de 150mm, la acción de control proporcional siempre intenta aumentar
@@ -128,7 +136,7 @@ efectos:
    2. Disminuye un poco la velocidad del sistema.
    3. El error en régimen permanente permanecerá igual.
 
-Esta acción de control servirá por lo tanto para estabilizar una
+Esta acción de control servirá, por lo tanto, para estabilizar una
 respuesta que oscile demasiado.
 
 .. image:: control/_images/img-0057.png
@@ -150,11 +158,12 @@ las señales que varían rápidamente, por ejemplo el ruido de alta frecuencia.
 Debido a este efecto, el ruido de la señal de error aparece amplificado en
 el accionamiento de la planta.
 Para poder reducir este efecto es necesario reducir el ruido de la señal
-de error mediante un filtro paso bajos antes de aplicarla al término
-derivativo.
+de error mediante un `filtro paso bajo 
+<https://es.wikipedia.org/wiki/Filtro_paso_bajo>`
+antes de aplicarla al término derivativo.
 Con este filtro la acción derivativa se encuentra limitada, por lo que es
 deseable reducir el ruido de la señal de error por otros medios antes de
-recurrir a un filtro paso bajos.
+recurrir a un filtro paso bajo.
 
 Llegado a este punto, el sistema es rápido y estable, pero mantiene todavía
 un pequeño error en régimen permanente.
@@ -167,13 +176,14 @@ controlador PID, el control Integral.
 Acción de control Integral
 --------------------------
 
-Esta acción de control como su nombre indica, calcula la integral de la
-señal de **error e(t)**. La integral se puede ver como la suma o acumulación
-de la señal de error. A medida que pasa el tiempo pequeños errores se van
-sumando para hacer que la acción integral sea cada vez mayor.
+Esta acción de control, como su nombre indica, calcula la integral de la
+señal de **error e(t)** y la multiplica por la constante **Ki**. 
+La integral se puede ver como la suma o acumulación de la señal de error.
+A medida que pasa el tiempo pequeños errores se van sumando para hacer 
+que la acción integral sea cada vez mayor.
 Con esto se consigue reducir el error del sistema en régimen permanente.
 La desventaja de utilizar la acción integral consiste en que esta añade
-una cierta inercia al sistema y por lo tanto le hace más inestable.
+una cierta inercia al sistema y, por lo tanto, le hace más inestable.
 
 Aumentar la acción integral **Ki** tiene los siguientes efectos:
 
@@ -266,9 +276,9 @@ no se podrá y el sistema no conseguirá mayor rapidez. Aunque se
 aumente la acción de control proporcional el límite del accionador
 de 2000 vatios limita la velocidad máxima de calentamiento.
 
-Por lo tanto hay que tener en cuenta que la velocidad de respuesta
-de los sistemas reales tiene ciertos límites que el control no
-podrá superar.
+Por lo tanto, hay que tener en cuenta que la velocidad de respuesta 
+de los sistemas reales tiene ciertos límites que el control no podrá
+superar.
 
 
 Simuladores de control PID

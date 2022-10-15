@@ -29,7 +29,7 @@ Aplicaciones típicas que utilizan servomotores son:
 
   * `Compuerta de un panel de aire acondicionado
     <https://www.youtube.com/embed/_xZjp3gaNE4>`_
-  * Giro de la dirección de un coche de radio control.
+  * Giro de la dirección de un vehículo a radio control.
   * Movimiento del cabezal de lectura de un lector de CDROM o DVD.
   * Movimiento automático del espejo retrovisor de un automóvil.
   * Apertura y cierre de una caja de seguridad con cerradura
@@ -99,14 +99,14 @@ Existen muchos tipos de servomotores. Como ejemplo se muestran las
 especificaciones de un pequeño
 :download:`servomotor Tower Pro 9g <control/_downloads/SG90Servo.pdf>`.
 
-  * Tensión de alimentación = 4.8 a 6.0 v
+  * Tensión de alimentación = 4,8 a 6,0 v
   * Corriente máxima = 570 a 730 mA
   * Corriente en movimiento sin carga = 170 a 270 mA
   * Ángulo de giro = 0 a 180º
-  * Fuerza de giro = 1.8 kg-cm a 4.8v
-  * Velocidad de giro =  180º en 0.36 s
+  * Fuerza de giro = 1,8 kg-cm a 4,8v
+  * Velocidad de giro =  180º en 0,36 s
   * Peso = 9 gramos
-  * Precisión = 10us = 1.8º
+  * Precisión = 10us = 1,8º
 
 La mayoría de servomotores permiten ángulos de giro menores de 180º.
 En el siguiente vídeo se puede ver el funcionamiento del servomotor,
@@ -153,7 +153,6 @@ Programa de control
 
 La librería de control para servomotores viene de forma estándar con
 el entorno Arduino. Su nombre es <Servo.h>
-
 
 En el siguiente ejemplo se utiliza la librería Servo.h para mover un
 servomotor conectado al pin digital 3, a dos posiciones extremas cada
@@ -233,11 +232,9 @@ Ejercicios
    360 milisegundos en volver a su posición inicial.
    El tiempo total programado para el movimiento no debe ser menor.
 
-
 3. Realizar un programa que mueva un servomotor a la posición 0
    grados al presionar el pulsador 1 y que mueva el servomotor a la
    posición 90 grados al presionar el pulsador 2.
-
 
    
 Extras

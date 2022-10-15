@@ -102,17 +102,17 @@
 necesidad de conocer las ecuaciones de la planta o del sistema
 controlado.
 Estas reglas de ajuste propuestas por Ziegler y Nichols fueron
-publicadas en 1942 y desde entonces es uno de los métodos de
-sintonización más ampliamente difundido y utilizado.
-Los valores propuestos por este método intentan conseguir en el sistema
-realimentado una respuesta al escalón con un sobrepulso máximo del 25%,
-que es un valor robusto con buenas características de rapidez y
-estabilidad para la mayoría de los sistemas.</p>
+publicadas en 1942 y desde entonces es constituyen uno de los
+métodos de sintonización más ampliamente difundido y utilizado.</p>
+<p>Los valores propuestos por este método intentan conseguir en el sistema
+realimentado una <a class="reference external" href="https://es.wikipedia.org/wiki/An%C3%A1lisis_de_la_respuesta_temporal_de_un_sistema" rel="noopener noreferrer" target="_blank">respuesta al escalón</a>
+con un sobrepulso máximo del 25%, que es un valor robusto con buenas
+características de rapidez y estabilidad para la mayoría de los sistemas.</p>
 <p>El método de sintonización de reguladores PID de Ziegler-Nichols
-permite definir las ganancias proporcional, integral y derivativa
-a partir de la respuesta del sistema en lazo abierto o a partir de
-la respuesta del sistema en lazo cerrado. Cada uno de los dos ensayos
-se ajusta mejor a un tipo de sistema.</p>
+permite definir las constantes o ganancias proporcional, integral y
+derivativa (Kp, Ki y Kd) a partir de la respuesta del sistema en lazo
+abierto o a partir de la respuesta del sistema en lazo cerrado.
+Cada uno de los dos ensayos se ajusta mejor a un tipo de sistema.</p>
 <div class="section" id="sintonizacion-por-la-respuesta-al-escalon">
 <h2>Sintonización por la respuesta al escalón<a class="headerlink" href="#sintonizacion-por-la-respuesta-al-escalon" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Este método de sintonización se adapta bien a los sistemas que son
@@ -128,9 +128,10 @@ en lazo abierto que responda a una señal escalón, retirando el
 controlador PID:</p>
 <a class="reference internal image-reference" href="../_images/img-0059.png"><img alt="Esquema de señal escalón aplicada a un sistema en lazo abierto." class="align-center" src="../_images/img-0059.png" style="width: 640px;" /></a>
 <p>En la imagen siguiente se puede ver representado en rojo la entrada
-escalón al accionador o señal c(t). En azul se representa la salida
-del sistema medida por el sensor o señal h(t). El escalón de entrada
-c(t) debe estar entre el 10% y el 20% del valor nominal de entrada.
+escalón al accionador o señal <strong>c(t)</strong>. En azul se representa la
+salida del sistema medida por el sensor o señal <strong>h(t)</strong>.
+El escalón de entrada <strong>c(t)</strong> debe estar entre el 10% y el 20% del
+valor nominal de entrada.
 Como puede apreciarse, la respuesta del sistema presenta un retardo,
 también llamado tiempo muerto, representado por T1.</p>
 <a class="reference internal image-reference" href="../_images/img-0060.png"><img alt="Respuesta al escalón en un horno. Periodo inicial." class="align-center" src="../_images/img-0060.png" style="width: 640px;" /></a>
@@ -141,8 +142,7 @@ Esta tangente está dibujada en la imagen con una recta a trazos.</p>
 Este es el tiempo que tarda el sistema en comenzar a responder.
 Este intervalo se mide desde que la señal escalón sube,
 hasta el punto de corte de la recta tangente con el valor inicial
-del sistema, que en este caso es el
-valor 25ºC</p>
+del sistema, que en este caso es el valor 25ºC</p>
 <p>El <strong>tiempo T2</strong> es el <strong>tiempo de subida</strong>.
 El tiempo 2 comenzará donde la línea tangente corta al valor inicial
 de salida (25º a los 2 segundos) y terminará donde la línea
@@ -155,12 +155,15 @@ en este caso 225ºC.</span><a class="headerlink" href="#id1" title="Enlace perma
 </div>
 <p>Además de estos dos tiempos característicos también hay que calcular
 la variación de la señal escalón dX y la variación de la respuesta
-del sistema dY.
-En el caso de ejemplo que aparece en las imágenes, la variación de
+del sistema dY.</p>
+<p>La <strong>variación dX</strong> corresponde al escalón de la señal de control.
+En el ejemplo que aparece en las imágenes, la variación de
 la señal escalón corresponde a dX = 5 voltios de señal de control
-c(t) y la variación del sistema corresponde a dY = 200ºC medidos
-por el sensor h(t).
-A partir de estos valores se puede calcular la constante del
+c(t).</p>
+<p>La <strong>variación dY</strong> del sistema debido a la señal escalón que hemos
+introducido, corresponde en el ejemplo a dY = 200ºC medidos por el
+sensor h(t) en cierta cantidad de voltios.</p>
+<p>A partir de estos valores se puede calcular la constante del
 sistema Ko:</p>
 <blockquote>
 <div>Ko = (dX * T2) / (dY * T1)</div></blockquote>
@@ -213,26 +216,28 @@ ganancia integral y Kd es la ganancia derivativa.</p>
 <div class="section" id="ejemplo-de-sintonizacion-de-pid-con-la-respuesta-al-escalon">
 <h2>Ejemplo de sintonización de PID con la respuesta al escalón<a class="headerlink" href="#ejemplo-de-sintonizacion-de-pid-con-la-respuesta-al-escalon" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>En el ejemplo que aparece en las imágenes anteriores se ha utilizado
-la simulación de un horno realizada con una hoja de cálculo:</p>
+la simulación de un horno realizada con una hoja de cálculo.
+También está disponible un simulador de un sistema de calefacción
+con dos calderas.</p>
 <blockquote>
-<div>Control de temperatura: <a class="reference download internal" download="" href="../_downloads/thermal-control-011.zip"><code class="xref download docutils literal notranslate"><span class="pre">Thermal</span> <span class="pre">Control.</span>
+<div>Simulador de control de temperatura: <a class="reference download internal" download="" href="../_downloads/thermal-control-011.zip"><code class="xref download docutils literal notranslate"><span class="pre">Thermal</span> <span class="pre">Control.</span>
 <span class="pre">Versión</span> <span class="pre">0.11</span></code></a></div></blockquote>
 <p>Para calcular los parámetros del sistema se fuerza una respuesta
 al escalón fijando la señal de control en 0 voltios con un escalón
 de 5 voltios. El sistema responde cambiando desde 25 grados
-centígrados a 225 grados centígrados. Los tiempos son los que
-aparecen en las gráficas anteriores, con lo cual los valores de
-la curva de respuesta del sistema son los siguientes:</p>
+centígrados (0.25V) a 225 grados centígrados (2.25V).
+Los tiempos son los que aparecen en las gráficas anteriores, con lo
+cual los valores de la curva de respuesta del sistema son los siguientes:</p>
 <blockquote>
 <div><p>dX = 5 - 0 = 5 voltios</p>
-<p>dY = 225 - 25 = 200 ºC</p>
+<p>dY = 2,25 - 0,25 = 2 voltios</p>
 <p>T1 = 2,2 - 1 = 1,2 segundos</p>
 <p>T2 = 13,8 - 2,2 = 11,6 segundos</p>
 </div></blockquote>
 <p>A partir de estos valores se pueden calcular los parámetros
 del regulador PID:</p>
 <blockquote>
-<div><p>Ko = (dX * T2) / (dY * T1) = (5 * 11,6) / (200 * 1,2) = 0,242 V/ºC</p>
+<div><p>Ko = (dX * T2) / (dY * T1) = (5 * 11,6) / (2 * 1,2) = 24,2</p>
 <table border="1" class="docutils align-default">
 <colgroup>
 <col width="18%" />
@@ -249,24 +254,24 @@ del regulador PID:</p>
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>P</td>
-<td>0,242</td>
+<td>24,2</td>
 <td>&#160;</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>PI</td>
-<td>0,218</td>
-<td>0,055</td>
+<td>21,8</td>
+<td>5,44</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>PI</td>
-<td>0,387</td>
+<td>38,7</td>
 <td>&#160;</td>
-<td>0,174</td>
+<td>17,4</td>
 </tr>
 <tr class="row-odd"><td>PID</td>
-<td>0,290</td>
-<td>0,121</td>
-<td>0,174</td>
+<td>29,0</td>
+<td>12,1</td>
+<td>17,4</td>
 </tr>
 </tbody>
 </table>
@@ -278,18 +283,20 @@ la siguiente respuesta:</p>
 una respuesta un poco más estable. Se ha aumentado la ganancia
 derivativa y reducido la integral para reducir las oscilaciones:</p>
 <blockquote>
-<div>Kp = 0,28
-Ki = 0,10
-Kd = 0,21</div></blockquote>
+<div><p>Kp = 28</p>
+<p>Ki = 10</p>
+<p>Kd = 21</p>
+</div></blockquote>
 <p>Como resultado, el sistema se estabiliza ahora en 12 segundos:</p>
 <a class="reference internal image-reference" href="../_images/img-0063.png"><img alt="Ziegler-Nichols. Respuesta de un horno sintonizado con respuesta al escalón. Ajuste final a mano." class="align-center" src="../_images/img-0063.png" style="width: 640px;" /></a>
 <p>En todos los casos se ha limitado la respuesta integral de forma que
-valga cero si el error es mayor de 40ºC. Este modo de funcionamiento
-de la ganancia integral es llamado anti-windup, sirve para evitar un
-sobrepico excesivo en la respuesta. Este sobrepico se produce porque
-el control integral aumenta mientras el accionador se encuentra saturado,
-de forma que acumula un valor demasiado alto y no ajustado a la
-respuesta real del sistema.</p>
+valga cero si el error es mayor de 40ºC.
+Este modo de funcionamiento de la ganancia integral es llamado
+<a class="reference external" href="https://en.wikipedia.org/wiki/Integral_windup" rel="noopener noreferrer" target="_blank">anti-windup</a> y
+sirve para evitar un sobrepico excesivo en la respuesta.
+Este sobrepico se produce porque el control integral aumenta mientras
+el accionador se encuentra saturado, de forma que acumula un valor
+demasiado alto y no ajustado a la respuesta real del sistema.</p>
 </div>
 <div class="section" id="sintonizacion-por-la-ganancia-critica-en-lazo-cerrado">
 <h2>Sintonización por la ganancia crítica en lazo cerrado<a class="headerlink" href="#sintonizacion-por-la-ganancia-critica-en-lazo-cerrado" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -353,7 +360,7 @@ ganancia integral y Kd es la ganancia derivativa.</p>
 <p>Vamos a realizar una sintonización del sistema térmico simulado
 anteriormente:</p>
 <blockquote>
-<div>Control de temperatura: <a class="reference download internal" download="" href="../_downloads/thermal-control-011.zip"><code class="xref download docutils literal notranslate"><span class="pre">Thermal</span> <span class="pre">Control.</span>
+<div>Simulador de control de temperatura: <a class="reference download internal" download="" href="../_downloads/thermal-control-011.zip"><code class="xref download docutils literal notranslate"><span class="pre">Thermal</span> <span class="pre">Control.</span>
 <span class="pre">Versión</span> <span class="pre">0.11</span></code></a></div></blockquote>
 <p>La primera operación será la de anular las ganancias derivativa
 e integral:</p>

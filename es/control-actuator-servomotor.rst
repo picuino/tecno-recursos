@@ -29,7 +29,7 @@ Aplicaciones típicas que utilizan servomotores son:
 
   * `Compuerta de un panel de aire acondicionado
     <https://www.youtube.com/embed/_xZjp3gaNE4>`_
-  * Giro de la dirección de un coche de radio control.
+  * Giro de la dirección de un vehículo a radio control.
   * Movimiento del cabezal de lectura de un lector de CDROM o DVD.
   * Movimiento automático del espejo retrovisor de un automóvil.
   * Apertura y cierre de una caja de seguridad con cerradura
@@ -154,7 +154,6 @@ Programa de control
 La librería de control para servomotores viene de forma estándar con
 el entorno Arduino. Su nombre es <Servo.h>
 
-
 En el siguiente ejemplo se utiliza la librería Servo.h para mover un
 servomotor conectado al pin digital 3, a dos posiciones extremas cada
 medio segundo.
@@ -233,11 +232,9 @@ Ejercicios
    360 milisegundos en volver a su posición inicial.
    El tiempo total programado para el movimiento no debe ser menor.
 
-
 3. Realizar un programa que mueva un servomotor a la posición 0
    grados al presionar el pulsador 1 y que mueva el servomotor a la
    posición 90 grados al presionar el pulsador 2.
-
 
    
 Extras
