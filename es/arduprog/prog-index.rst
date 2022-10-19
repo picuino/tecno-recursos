@@ -12,6 +12,7 @@ Programas
 Programas para Arduino.
 
 .. toctree::
+   :numbered: 1
    :maxdepth: 1
 
    prog-haiku

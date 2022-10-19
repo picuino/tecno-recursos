@@ -8,15 +8,23 @@
 Blogs y páginas web de Tecnología
 =================================
 
-Los `ranking de Alexa <https://www.alexa.com/siteinfo>`_
-se han calculado en enero de 2022.
+Los `ranking de Similarweb <https://www.similarweb.com/es/>`_
+se han calculado en octubre de 2022.
 
 
 #. `Areatecnología
    <https://www.areatecnologia.com>`_
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/areatecnologia.com>`__ :
-   154,564
+   `Similarweb rank <https://www.similarweb.com/es/website/areatecnologia.com/#overview>`__ :
+   81,386
+
+#. `Picuino
+   <https://www.picuino.com>`_
+
+   Web creada por Carlos Pardo, profesor de Tecnología.
+
+   `Similarweb rank <https://www.similarweb.com/es/website/picuino.com/#overview>`__ :
+   528,062
 
 #. `Pelandintecno
    <http://pelandintecno.blogspot.com/>`_
@@ -24,16 +32,8 @@ se han calculado en enero de 2022.
    Web creada por Pedro Landín, del departamento de Tecnología del Sagrado
    Corazón de Placeres.
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/pelandintecno.blogspot.com>`__ :
-   716,359
-
-#. `Picuino
-   <https://www.picuino.com>`_
-
-   Web creada por Carlos Pardo, profesor de Tecnología.
-
-   `Alexa Rank <https://www.alexa.com/siteinfo/picuino.com>`__ :
-   1,510,007
+   `Similarweb rank <https://www.similarweb.com/es/website/pelandintecno.blogspot.com/#overview>`__ :
+   1,570,725
 
 #. `Wikilibro Tecno Recursos
    <https://es.wikibooks.org/wiki/Tecno_Recursos>`_
@@ -46,26 +46,26 @@ se han calculado en enero de 2022.
    Web del movimiento Marea Verde, con apuntes y libros de muchas materias, 
    incluidas algunas materias de Tecnología.
    
-   `Alexa Rank <https://www.alexa.com/siteinfo/apuntesmareaverde.org.es>`__ :
-   243,850
+   `Similarweb rank <https://www.similarweb.com/es/website/apuntesmareaverde.org.es/#overview>`__ :
+   523,169
 
 #. `Portal ESO
    <http://www.portaleso.com/>`_
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/portaleso.com>`__ :
-   1,292,387
+   `Similarweb rank <https://www.similarweb.com/es/website/www.portaleso.com/#overview>`__ :
+   807,248
 
 #. `Tecnosalva
    <https://www.tecnosalva.com/>`_
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/tecnosalva.com>`__ :
-   1,854,001
+   `Similarweb rank <https://www.similarweb.com/es/website/www.tecnosalva.com/#overview>`__ :
+   265,189
 
 #. `Tecnoapuntes
    <https://tecnoapuntes.com/>`_
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/tecnoapuntes.com>`__ :
-   2,188,413
+   `Similarweb rank <https://www.similarweb.com/es/website/tecnoapuntes.com/#overview>`__ :
+   279,613
 
 #. `Makinando Velez
    <https://makinandovelez.wordpress.com/>`_
@@ -73,22 +73,22 @@ se han calculado en enero de 2022.
    Blog creado en el departamento de Tecnología del IES Luis Vélez de Guevara,
    Écija.
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/makinandovelez.wordpress.com>`__ :
-   2,410,948 
+   `Similarweb rank <https://www.similarweb.com/es/website/makinandovelez.wordpress.com/#overview>`__ :
+   1,150,996 
 
 #. `Blog del profesor de tecnología
    <https://elblogdelprofesordetecnologia.blogspot.com/>`_
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/elblogdelprofesordetecnologia.blogspot.com>`__ :
-   3,032,257
+   `Similarweb rank <https://www.similarweb.com/es/website/elblogdelprofesordetecnologia.blogspot.com/#overview>`__ :
+   1,040,373
 
 #. `Blog de José Panadero <http://josepanadero.wordpress.com/>`_
 
    José Manuel Panadero es el autor de esta página web, que se caracteriza por
    sus numerosas propuestas para la asignatura de Tecnología.
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/josepanadero.wordpress.com>`__ :
-   5,531,785
+   `Similarweb rank <https://www.similarweb.com/es/website/josepanadero.wordpress.com/#overview>`__ :
+   3,634,466
 
 #. `Aprendemos Tecnología
    <http://aprendemostecnologia.org/>`_
@@ -97,60 +97,33 @@ se han calculado en enero de 2022.
    Creado por nueve docentes de Tecnología en el que desde marzo de
    2008 publican apuntes, actividades, proyectos, etc.
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/aprendemostecnologia.org>`__ :
-   No Results
-
 #. `Tecnosecundaria
    <http://www.tecnosecundaria.es/index.php>`_
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/tecnosecundaria.es>`__ :
-   No Results
-
 #. `Tecnomapas
    <https://tecnomapas.blogspot.com/>`_
-
-   `Alexa Rank <https://www.alexa.com/siteinfo/tecnomapas.blogspot.com>`__ :
-   No Results
 
 #. `Licenciaparatodos
    <https://lacienciaparatodos.wordpress.com/>`_
 
    Blog de Javier Fernández Panadero.
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/lacienciaparatodos.wordpress.com>`__ :
-   No Results
-
 #. `Raúl Tecnología
    <https://raultecnologia.wordpress.com/>`_
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/raultecnologia.wordpress.com>`__ :
-   No Results
-
 #. `Tecnopujol
    <https://tecnopujol.wordpress.com/>`_
-
-   `Alexa Rank <https://www.alexa.com/siteinfo/tecnopujol.wordpress.com>`__ :
-   No Results
 
 #. `Raúl Experimentos
    <http://raulexperimentos.blogspot.com/>`_
 
    Experimentos sencillos de ciencia y tecnología.
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/raulexperimentos.blogspot.com>`__ :
-   No Results
-
 #. `Tecnoastro
    <http://www.tecnoastro.es/index.htm>`_
 
-   `Alexa Rank <https://www.alexa.com/siteinfo/tecnoastro.es>`__ :
-   No Results
-
 #. `HaroTecno
    <https://harotecno.wordpress.com/>`_
-
-   `Alexa Rank <https://www.alexa.com/siteinfo/harotecno.wordpress.com>`__ :
-   No Results
 
 #. `Aula de tecnologías
    <https://auladetecnologias.blogspot.com/>`_
@@ -158,49 +131,34 @@ se han calculado en enero de 2022.
    Blog creado por Amelia Tierno (docente de Tecnología en IES Ignacio
    Ellacuría en Alcalá de Henares).
 
-   Alexa Rank: No Results
-
 #. `Blog Area Tecnología
    <http://areatecnologia.blogspot.com.es/>`_
-
-   Alexa Rank: No Results
 
 #. `TecnoFabri
    <http://tecnobri.blogspot.com/>`_
 
-   Alexa Rank: No Results
-
 #. `Aula Taller
    <http://www.aulataller.es/index.html>`_
-
-   Alexa Rank: No Results
 
 #. `Tecnobloc
    <http://www.tecnobloc.com/>`_
 
-   Alexa Rank: No Results
-
 #. `Blogtecnos
    <http://blogtecnos.blogspot.com/>`_
-
-   Alexa Rank: No results
 
 #. `Blog de Alicia Díaz Cobo
    <https://aliciadiazcobo.wordpress.com/>`_
 
-   Alexa Rank: No Results
-
 #. `Tecnología María de Molina
    <http://mariademolina.blogspot.com/>`_
-
-   Alexa Rank: No Results
 
 #. `Tu clase de tecnología online
    <http://www.tuclasedetecnologiaonline.es/>`_
 
    Web didáctica creada por dos docentes del centro IES Ría del Carmen.
 
-   Alexa Rank: No Results
+#. `Recursos digitales
+   <https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales>`_
 
 #. `Web de Victor M. Acosta
    <https://victoracosta352.wixsite.com/tecnologiaeso>`_
@@ -327,4 +285,3 @@ se han calculado en enero de 2022.
 
    Blog creado por el departamento de Tecnología del IES Virgen de Villadiego 
    de Peñaflor en Sevilla.
-

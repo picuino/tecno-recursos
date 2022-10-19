@@ -4,8 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Control Automático - Sensores - Sensor de distancia por ultrasonidos" />
-  <title>Sensor de distancia por ultrasonidos - Sensores - Picuino</title>
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Control Automático - Sensores - 1. Sensor de distancia por ultrasonidos" />
+  <title>1. Sensor de distancia por ultrasonidos - Sensores - Picuino</title>
 
   
   <link rel="icon" type="image/png" href="../favicon-16.png" sizes="16x16" />
@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   <link rel="index" title="Índice" href="../genindex.html" />
   <link rel="search" title="Búsqueda" href="../search.html" />
-  <link rel="next" title="Potenciómetro" href="control-sensor-potentiometer.html" />
+  <link rel="next" title="2. Potenciómetro" href="control-sensor-potentiometer.html" />
   <link rel="prev" title="Sensores" href="control-sensor-index.html" />
 
 </head>
@@ -76,7 +76,7 @@
         
           <li><a href="control-sensor-index.html">Sensores</a> &raquo;</li>
         
-      <li>Sensor de distancia por ultrasonidos</li>
+      <li><span class="section-number">1. </span>Sensor de distancia por ultrasonidos</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -98,7 +98,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="sensor-de-distancia-por-ultrasonidos">
-<h1>Sensor de distancia por ultrasonidos<a class="headerlink" href="#sensor-de-distancia-por-ultrasonidos" title="Enlazar permanentemente con este título">¶</a></h1>
+<h1><span class="section-number">1. </span>Sensor de distancia por ultrasonidos<a class="headerlink" href="#sensor-de-distancia-por-ultrasonidos" title="Enlazar permanentemente con este título">¶</a></h1>
 <a class="reference internal image-reference" href="../_images/img-0082.jpg"><img alt="Sensor de distancia por ultrasonidos SR04" class="align-center" src="../_images/img-0082.jpg" style="width: 360px;" /></a>
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -112,18 +112,19 @@ ultrasonidos.</li>
 <h2>El sensor de ultrasonidos<a class="headerlink" href="#el-sensor-de-ultrasonidos" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Este sensor tiene un pequeño altavoz que emite un pitido y un
 micrófono sensor que detecta el pitido emitido.
-Internamente se calcula el tiempo que el sonido tarda en ir hasta un
+El dispositivo calcula el tiempo que el sonido tarda en ir hasta un
 objeto y volver reflejado.
-A partir del tiempo que tarda el sonido y de la velocidad del sonido
-se puede calcular la distancia del sensor al objeto.</p>
+La distancia desde el sensor hasta el objeto se calcula a partir de
+la velocidad del sonido en el aire y del tiempo que tarda el sonido
+en recorrer esa distancia.</p>
 <p>El pitido emitido tiene una frecuencia de 40kHz. Esta frecuencia se
 encuentra muy por encima de 20kHz, que es la máxima frecuencia que
 los humanos pueden percibir. Por esta razón a este sonido de elevada
 frecuencia se le denomina ultrasonido.</p>
-<p>Existen varios modelos en el mercado, los más conocidos y asequibles
-son el modelo SR04 y la versión más avanzada SRF05.
+<p>Existen varios modelos de sensor en el mercado, los más conocidos
+y asequibles son el modelo SR04 y la versión más avanzada SRF05.
 En este tutorial se explica el modelo SR04.
-Todo lo explicado es válido para modelos más avanzados, teniendo en
+La explicación es válida para modelos más avanzados, teniendo en
 cuenta que estos tienen mayor capacidad o características añadidas.</p>
 </div>
 <div class="section" id="caracteristicas-del-sensor-sr04">
@@ -145,11 +146,11 @@ cuenta que estos tienen mayor capacidad o características añadidas.</p>
 <p>Para manejar los sensores de ultrasonidos existen varias librerías de
 trabajo.
 La librería estándar más precisa que se puede utilizar es
-<a class="reference external" href="https://playground.arduino.cc/Code/NewPing" rel="noopener noreferrer" target="_blank">NewPing</a>
+<a class="reference external" href="https://playground.arduino.cc/Code/NewPing" rel="noopener noreferrer" target="_blank">NewPing</a>.
 Para instalar la librería hay que seguir los siguientes pasos:</p>
 <ol class="arabic simple">
 <li>Descargar la librería</li>
-<li>Guardar el fichero NewPing_v1.9.1.zip en el ordenador</li>
+<li>Guardar el fichero NewPing_v1.9.4.zip en el ordenador</li>
 <li>Abrir el entorno gráfico de Arduino</li>
 <li>En la pestaña Sketch.. Importar librería.. pinchar 'Add Library...'</li>
 <li>Buscar el fichero descargado y después de seleccionarle,
@@ -161,17 +162,15 @@ aparece una nueva librería llamada NewPing</li>
 </div>
 <div class="section" id="medicion-de-distancias">
 <h2>Medición de distancias<a class="headerlink" href="#medicion-de-distancias" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Para medir distancias con el sensor SR04 se van a seguir los
-siguientes pasos.</p>
-<ol class="arabic simple">
-<li>Conectar el sensor SR04 a la placa Arduino según el siguiente
-esquema:</li>
-</ol>
+<p>Para medir distancias con el sensor SR04 se seguirán los
+siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Conectar el sensor SR04 a la placa Arduino según el siguiente
+esquema:</p>
 <a class="reference internal image-reference" href="../_images/img-0009.png"><img alt="Conexión Arduino-SR04" class="align-center" src="../_images/img-0009.png" style="width: 600px;" /></a>
-<ol class="arabic simple" start="2">
-<li>Copiar el siguiente programa, compilarlo y descargarlo en la placa
-Arduino.</li>
-</ol>
+</li>
+<li><p class="first">Copiar el siguiente programa, compilarlo y descargarlo en la placa
+Arduino.</p>
 <div class="highlight-Arduino notranslate" id="ultrasonic-prog1"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -237,20 +236,19 @@ Arduino.</li>
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-<ol class="arabic simple" start="3">
-<li>Abrir el monitor serie (Monitor Serial) pulsando el icono que
-aparece arriba a la derecha en el entorno gráfico de Arduino.</li>
-</ol>
+</li>
+<li><p class="first">Abrir el monitor serie (Monitor Serial) pulsando el icono que
+aparece arriba a la derecha en el entorno gráfico de Arduino.</p>
 <img alt="Botón del monitor serie" class="align-center" src="../_images/img-0010.png" />
-<ol class="arabic" start="4">
+</li>
 <li><p class="first">En la nueva ventana que aparece, escoger la velocidad de
 transmisión en el recuadro que aparece abajo a la derecha.
 En este caso, la velocidad programada es de 115200 baudios.</p>
 <p>El cuadro debe mostrar continuamente la información de tiempo y
 distancia.</p>
+<img alt="Monitor serie" class="align-center" src="../_images/img-0012.png" />
 </li>
 </ol>
-<img alt="Monitor serie" class="align-center" src="../_images/img-0012.png" />
 <p>En este momento, si todo ha ido bien, Arduino estará midiendo
 continuamente la distancia entre el sensor y los objetos que se
 coloquen delante de él. Esta distancia se envía al ordenador mediante
@@ -267,30 +265,31 @@ por uno todos estos parámetros, se va a realizar un ajuste
 denominado ajuste de dos puntos.</p>
 <p>Primero se debe realizar una medida a una distancia conocida, cercana
 al sensor. Después se debe realizar otra medición a una distancia
-conocida, más lejana al sensor.
-La primera medición puede corregir lo que se denomina ajuste de cero.
-En el caso de la segunda medida, sirve para realizar el ajuste de
-rampa. Las medidas se deben introducir en una tabla como la siguiente:</p>
+conocida, más lejana al sensor.</p>
+<p>La primera medición puede corregir lo que se denomina ajuste de cero.
+La segunda medida sirve para realizar el ajuste de rampa.
+Las medidas se deben introducir en una tabla como la siguiente:</p>
 <blockquote>
-<div><table border="1" class="docutils align-default">
+<div><table border="1" class="docutils align-default" id="id1">
+<caption><span class="caption-text">Tabla 1.</span><a class="headerlink" href="#id1" title="Enlace permanente a esta tabla">¶</a></caption>
 <colgroup>
-<col width="34%" />
-<col width="32%" />
-<col width="34%" />
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">&#160;</th>
-<th class="head">Medida 1</th>
-<th class="head">Medida 2</th>
+<tr class="row-odd"><th class="head">Medida</th>
+<th class="head">Tiempo</th>
+<th class="head">Distancia</th>
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>Tiempo</td>
+<tr class="row-even"><td>Medida 1</td>
 <td>247us</td>
-<td>1123 us</td>
-</tr>
-<tr class="row-odd"><td>Distancia</td>
 <td>50mm</td>
+</tr>
+<tr class="row-odd"><td>Medida 2</td>
+<td>1123 us</td>
 <td>200mm</td>
 </tr>
 </tbody>
@@ -298,7 +297,8 @@ rampa. Las medidas se deben introducir en una tabla como la siguiente:</p>
 </div></blockquote>
 <p>A partir de esta tabla, se puede realizar un mejor ajuste de la
 medida con la orden
-<a class="reference external" href="http://arduino.cc/en/pmwiki.php?n=Reference/Map" rel="noopener noreferrer" target="_blank">map()</a> de Arduino:</p>
+<a class="reference external" href="https://www.arduino.cc/reference/en/language/functions/math/map/" rel="noopener noreferrer" target="_blank">map()</a>
+de Arduino:</p>
 <blockquote>
 <div>distance = map(microseconds, 247, 1123, 50, 200);</div></blockquote>
 <p>El primer argumento es la medición de tiempo realizada por el sensor.
@@ -390,8 +390,12 @@ y lejano.</p>
 <ol class="arabic">
 <li><p class="first">Realizar las mediciones para ajuste de dos puntos con un sensor
 concreto.
-Modificar el <a class="reference internal" href="uno-doc/ultrasonic.html#ultrasonic-prog2"><span class="std std-ref">programa anterior</span></a> para
-conseguir que el sensor devuelva medidas exactas.</p>
+Modificar el <a class="reference internal" href="#ultrasonic-prog2"><span class="std std-ref">programa anterior</span></a> para
+conseguir que el sensor devuelva medidas exactas con mediciones
+propias.</p>
+<p>Cada sensor dará unos valores diferentes para los 4 números
+de la tabla 1, dependiendo de la altitud a la que nos
+encontremos, la temperatura y otros parámetros del sensor.</p>
 </li>
 <li><p class="first">Mostrar la distancia medida en el display de 7 segmentos con el
 siguiente programa.</p>
@@ -561,7 +565,7 @@ Completar el programa para que la barra ocupe 6 leds.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="control-sensor-potentiometer.html" class="btn btn-neutral float-right" title="Potenciómetro" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="control-sensor-potentiometer.html" class="btn btn-neutral float-right" title="2. Potenciómetro" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="control-sensor-index.html" class="btn btn-neutral" title="Sensores" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
@@ -693,11 +697,11 @@ Completar el programa para que la barra ocupe 6 leds.</p>
 <li class="toctree-l2"><a class="reference internal" href="control-pid-digital.html">Controlador PID digital</a></li>
 <li class="toctree-l2"><a class="reference internal" href="control-actuator-servomotor.html">Servomotor</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="control-sensor-index.html">Sensores</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Sensor de distancia por ultrasonidos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="control-sensor-potentiometer.html">Potenciómetro</a></li>
-<li class="toctree-l3"><a class="reference internal" href="control-sensor-temp.html">Sensor de temperatura</a></li>
-<li class="toctree-l3"><a class="reference internal" href="control-sensor-dht11.html">Sensor de temperatura y humedad DHT11</a></li>
-<li class="toctree-l3"><a class="reference internal" href="control-sensor-light.html">Sensores de luz</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">1. Sensor de distancia por ultrasonidos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="control-sensor-potentiometer.html">2. Potenciómetro</a></li>
+<li class="toctree-l3"><a class="reference internal" href="control-sensor-temp.html">3. Sensor de temperatura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="control-sensor-dht11.html">4. Sensor de temperatura y humedad DHT11</a></li>
+<li class="toctree-l3"><a class="reference internal" href="control-sensor-light.html">5. Sensores de luz</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="control-robots-index.html">Robots actuales</a></li>

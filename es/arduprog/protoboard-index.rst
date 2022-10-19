@@ -19,6 +19,7 @@ Circuitos con Arduino y placa de prototipos.
 
 
 .. toctree::
+   :numbered: 1
    :maxdepth: 1
    :titlesonly:
 

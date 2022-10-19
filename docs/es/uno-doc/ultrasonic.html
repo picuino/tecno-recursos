@@ -112,18 +112,19 @@ ultrasonidos.</li>
 <h2>El sensor de ultrasonidos<a class="headerlink" href="#el-sensor-de-ultrasonidos" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Este sensor tiene un pequeño altavoz que emite un pitido y un
 micrófono sensor que detecta el pitido emitido.
-Internamente se calcula el tiempo que el sonido tarda en ir hasta un
+El dispositivo calcula el tiempo que el sonido tarda en ir hasta un
 objeto y volver reflejado.
-A partir del tiempo que tarda el sonido y de la velocidad del sonido
-se puede calcular la distancia del sensor al objeto.</p>
+La distancia desde el sensor hasta el objeto se calcula a partir de
+la velocidad del sonido en el aire y del tiempo que tarda el sonido
+en recorrer esa distancia.</p>
 <p>El pitido emitido tiene una frecuencia de 40kHz. Esta frecuencia se
 encuentra muy por encima de 20kHz, que es la máxima frecuencia que
 los humanos pueden percibir. Por esta razón a este sonido de elevada
 frecuencia se le denomina ultrasonido.</p>
-<p>Existen varios modelos en el mercado, los más conocidos y asequibles
-son el modelo SR04 y la versión más avanzada SRF05.
+<p>Existen varios modelos de sensor en el mercado, los más conocidos
+y asequibles son el modelo SR04 y la versión más avanzada SRF05.
 En este tutorial se explica el modelo SR04.
-Todo lo explicado es válido para modelos más avanzados, teniendo en
+La explicación es válida para modelos más avanzados, teniendo en
 cuenta que estos tienen mayor capacidad o características añadidas.</p>
 </div>
 <div class="section" id="caracteristicas-del-sensor-sr04">
@@ -145,7 +146,7 @@ cuenta que estos tienen mayor capacidad o características añadidas.</p>
 <p>Para manejar los sensores de ultrasonidos existen varias librerías de
 trabajo.
 La librería estándar más precisa que se puede utilizar es
-<a class="reference external" href="https://bitbucket.org/teckel12/arduino-new-ping/downloads/" rel="noopener noreferrer" target="_blank">NewPing</a>
+<a class="reference external" href="https://bitbucket.org/teckel12/arduino-new-ping/downloads/" rel="noopener noreferrer" target="_blank">NewPing</a>.
 Para instalar la librería hay que seguir los siguientes pasos:</p>
 <ol class="arabic simple">
 <li>Descargar la librería desde la siguiente página web:
@@ -162,17 +163,15 @@ aparece una nueva librería llamada NewPing</li>
 </div>
 <div class="section" id="medicion-de-distancias">
 <h2>Medición de distancias<a class="headerlink" href="#medicion-de-distancias" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Para medir distancias con el sensor SR04 se van a seguir los
-siguientes pasos.</p>
-<ol class="arabic simple">
-<li>Conectar el sensor SR04 a la placa Arduino según el siguiente
-esquema:</li>
-</ol>
+<p>Para medir distancias con el sensor SR04 se seguirán los
+siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Conectar el sensor SR04 a la placa Arduino según el siguiente
+esquema:</p>
 <a class="reference internal image-reference" href="../../_images/img-00091.png"><img alt="Conexión Arduino-SR04" class="align-center" src="../../_images/img-00091.png" style="width: 600px;" /></a>
-<ol class="arabic simple" start="2">
-<li>Copiar el siguiente programa, compilarlo y descargarlo en la placa
-Arduino.</li>
-</ol>
+</li>
+<li><p class="first">Copiar el siguiente programa, compilarlo y descargarlo en la placa
+Arduino.</p>
 <div class="highlight-Arduino notranslate" id="ultrasonic-prog1"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -238,20 +237,19 @@ Arduino.</li>
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-<ol class="arabic simple" start="3">
-<li>Abrir el monitor serie (Monitor Serial) pulsando el icono que
-aparece arriba a la derecha en el entorno gráfico de Arduino.</li>
-</ol>
+</li>
+<li><p class="first">Abrir el monitor serie (Monitor Serial) pulsando el icono que
+aparece arriba a la derecha en el entorno gráfico de Arduino.</p>
 <img alt="Botón del monitor serie" class="align-center" src="../../_images/img-00101.png" />
-<ol class="arabic" start="4">
+</li>
 <li><p class="first">En la nueva ventana que aparece, escoger la velocidad de
 transmisión en el recuadro que aparece abajo a la derecha.
 En este caso, la velocidad programada es de 115200 baudios.</p>
 <p>El cuadro debe mostrar continuamente la información de tiempo y
 distancia.</p>
+<img alt="Monitor serie" class="align-center" src="../../_images/img-00121.png" />
 </li>
 </ol>
-<img alt="Monitor serie" class="align-center" src="../../_images/img-00121.png" />
 <p>En este momento, si todo ha ido bien, Arduino estará midiendo
 continuamente la distancia entre el sensor y los objetos que se
 coloquen delante de él. Esta distancia se envía al ordenador mediante
@@ -268,10 +266,10 @@ por uno todos estos parámetros, se va a realizar un ajuste
 denominado ajuste de dos puntos.</p>
 <p>Primero se debe realizar una medida a una distancia conocida, cercana
 al sensor. Después se debe realizar otra medición a una distancia
-conocida, más lejana al sensor.
-La primera medición puede corregir lo que se denomina ajuste de cero.
-En el caso de la segunda medida, sirve para realizar el ajuste de
-rampa. Las medidas se deben introducir en una tabla como la siguiente:</p>
+conocida, más lejana al sensor.</p>
+<p>La primera medición puede corregir lo que se denomina ajuste de cero.
+La segunda medida, sirve para realizar el ajuste de rampa.
+Las medidas se deben introducir en una tabla como la siguiente:</p>
 <blockquote>
 <div><table border="1" class="docutils align-default">
 <colgroup>

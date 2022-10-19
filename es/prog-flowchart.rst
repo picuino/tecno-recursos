@@ -160,6 +160,13 @@ y se desvía dependiendo de las condiciones que se cumplan.
    Cómo mover un personaje con el teclado.
 
 
+Recursos
+--------
+Web para dibujar diagramas de flujo online:
+
+   `app.diagrams.net <https://app.diagrams.net/>`__
+
+
 -----
 
 

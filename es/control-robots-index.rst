@@ -8,7 +8,7 @@
 Robots actuales
 ===============
 La robótica es un campo muy amplio que incluye áreas tan variadas como
-los brazos industriales, automóviles autónomos, drones, robóts médicos o 
+los brazos industriales, automóviles autónomos, drones, robots médicos o 
 robots humanoides (androides).
 
 En esta página vamos a ver algunos ejemplos de robots que ya están

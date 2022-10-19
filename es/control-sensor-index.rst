@@ -17,6 +17,7 @@ Componentes para medición de temperatura, movimiento, luz, etc.
    :align: center
 
 .. toctree::
+   :numbered: 1
    :maxdepth: 1
 
    control-sensor-ultrasonic.rst

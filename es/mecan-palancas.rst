@@ -7,11 +7,19 @@
 
 :index:`Palancas`
 =================
-La palanca​ es una máquina simple​ compuesta por una barra rígida que gira
-alrededor de un punto de apoyo llamado fulcro. 
-La función de la palanca consiste en transmitir una fuerza y 
-desplazamiento desde un punto a otro. Se puede utilizar para amplificar
-la fuerza aplicada o para incrementar el desplazamiento aplicado.
+La **palanca** es una máquina simple​ compuesta por una 
+**barra rígida** que gira alrededor de un punto de apoyo llamado 
+**fulcro**. 
+
+Las palancas se pueden utilizar para realizar varias funciones:
+
+1. **Transmitir una fuerza** o un desplazamiento desde un punto a otro. 
+   Es el caso de unas tijeras que transmiten la fuerza y movimiento
+   desde unos dedales adaptados a la mano, hasta la hoja de corte.
+2. **Aumentar la fuerza** ejercida. Es el caso de un cascanueces o unos
+   alicates.
+3. **Aumentar el desplazamiento** aplicado. Es el caso de un remo o de 
+   una caña de pescar.
 
 Dependiendo de la situación de la fuerza aplicada (F) de la resistencia
 a mover (R) y del fulcro (△) podemos distinguir tres tipos de palancas.
@@ -45,13 +53,12 @@ de la barra, entre el fulcro y la fuerza aplicada.
    :align: center
    :height: 142px
 
-Ejemplos de este tipo de palanca son una carretilla
-o un cascanueces.
+Ejemplos de este tipo de palanca son una carretilla, un cascanueces o 
+un sacacorchos.
 
 .. image:: mecan/_images/mecan-palancas-05.png
    :align: center
    :height: 260px
-
 
 
 Palancas de tercera especie
@@ -64,8 +71,8 @@ de la barra, entre el fulcro y la resistencia.
    :align: center
    :height: 142px
 
-Ejemplos de este tipo de palanca son unas pinzas de depilar o nuestro
-antebrazo cuando sube la mano.
+Ejemplos de este tipo de palanca son unas pinzas de depilar, nuestro
+antebrazo cuando sube la mano o una caña de pescar.
 
 .. image:: mecan/_images/mecan-palancas-06.png
    :align: center
