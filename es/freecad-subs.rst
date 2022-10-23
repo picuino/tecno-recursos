@@ -2,7 +2,7 @@
 
 .. |br| raw:: html
 
-   <br />
+   <br>
 
 .. |icono-nuevo-documento| image:: freecad/_images/freecad-icono-nuevo-documento.png
                       :align: middle

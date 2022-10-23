@@ -25,3 +25,11 @@ Videocursos de programación
 ---------------------------
 `Herramientas digitales para diversos lenguajes de programación.
 <https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/>`__
+
+
+
+Retos de programación con Scratch
+---------------------------------
+
+`Retos de programación con Scratch de la web robotix.es
+<https://www.robotix.es/es/actividades-scratch>`__

@@ -7,43 +7,81 @@
 Blogs y páginas web de Tecnología
 =================================
 
+Blogs y páginas web de Tecnología para Educación Secundaria.
+
 Los `ranking de Similarweb <https://www.similarweb.com/es/>`_
-se han calculado en octubre de 2022.
+se han tomado en octubre de 2022, por lo que corresponden a los
+datos de septiembre de 2022.
 
 
 #. `Areatecnología
    <https://www.areatecnologia.com>`_
 
+   .. image:: recursos/screenshots/recursos-www_areatecnologia_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://www.areatecnologia.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/areatecnologia.com/#overview>`__ :
    81,386
+
 
 #. `Tecnosalva
    <https://www.tecnosalva.com/>`_
 
+   .. image:: recursos/screenshots/recursos-www_tecnosalva_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://www.tecnosalva.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/www.tecnosalva.com/#overview>`__ :
    265,189
+
 
 #. `Tecnoapuntes
    <https://tecnoapuntes.com/>`_
 
+   .. image:: recursos/screenshots/recursos-tecnoapuntes_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnoapuntes.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/tecnoapuntes.com/#overview>`__ :
    279,613
 
+
 #. `Picuino
-   <https://www.picuino.com>`_
+   <https://www.picuino.com/>`_
+
+   .. image:: recursos/screenshots/recursos-www_picuino_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://www.picuino.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/picuino.com/#overview>`__ :
    528,062
 
    Web creada por Carlos Pardo, profesor de Tecnología.
 
+
 #. `Wikilibro Tecno Recursos
-   <https://es.wikibooks.org/wiki/Tecno_Recursos>`_
+   <https://es.wikibooks.org/wiki/Tecno_Recursos/>`_
+
+   .. image:: recursos/screenshots/recursos-es_wikibooks_org_wiki_Tecno_Recursos.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://es.wikibooks.org/wiki/Tecno_Recursos/
 
    Wikilibro colaborativo orientado a crear recursos para Tecnología.
 
+
 #. `Apuntes Marea Verde
    <http://www.apuntesmareaverde.org.es/>`_
+
+   .. image:: recursos/screenshots/recursos-www_apuntesmareaverde_org_es.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://www.apuntesmareaverde.org.es/
 
    `Similarweb rank <https://www.similarweb.com/es/website/apuntesmareaverde.org.es/#overview>`__ :
    523,169
@@ -51,34 +89,64 @@ se han calculado en octubre de 2022.
    Web del movimiento Marea Verde, con apuntes y libros de muchas materias,
    incluidas algunas materias de Tecnología.
 
+
 #. `Portal ESO
    <http://www.portaleso.com/>`_
+
+   .. image:: recursos/screenshots/recursos-www_portaleso_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://www.portaleso.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/www.portaleso.com/#overview>`__ :
    807,248
 
+
 #. `Blog de Alicia Díaz Cobo
    <https://aliciadiazcobo.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-aliciadiazcobo_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://aliciadiazcobo.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/aliciadiazcobo.wordpress.com/#overview>`__ :
    922,684
 
+
 #. `Blog del profesor de tecnología
    <https://elblogdelprofesordetecnologia.blogspot.com/>`_
+
+   .. image:: recursos/screenshots/recursos-elblogdelprofesordetecnologia_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://elblogdelprofesordetecnologia.blogspot.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/elblogdelprofesordetecnologia.blogspot.com/#overview>`__ :
    1,040,373
 
-#. `Licenciaparatodos
+
+#. `Lacienciaparatodos
    <https://lacienciaparatodos.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-lacienciaparatodos_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://lacienciaparatodos.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/lacienciaparatodos.wordpress.com/#overview>`__ :
    1,119,627
 
    Blog de Javier Fernández Panadero.
 
+
 #. `Makinando Velez
    <https://makinandovelez.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-makinandovelez_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://makinandovelez.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/makinandovelez.wordpress.com/#overview>`__ :
    1,150,996
@@ -86,8 +154,14 @@ se han calculado en octubre de 2022.
    Blog creado en el departamento de Tecnología del IES Luis Vélez de Guevara,
    Écija.
 
+
 #. `Pelandintecno
    <http://pelandintecno.blogspot.com/>`_
+
+   .. image:: recursos/screenshots/recursos-pelandintecno_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://pelandintecno.blogspot.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/pelandintecno.blogspot.com/#overview>`__ :
    1,570,725
@@ -95,8 +169,14 @@ se han calculado en octubre de 2022.
    Web creada por Pedro Landín, del departamento de Tecnología del Sagrado
    Corazón de Placeres.
 
+
 #. `Aprendemos Tecnología
    <http://aprendemostecnologia.org/>`_
+
+   .. image:: recursos/screenshots/recursos-aprendemostecnologia_org.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://aprendemostecnologia.org/
 
    `Similarweb rank <https://www.similarweb.com/es/website/aprendemostecnologia.org/#overview>`__ :
    2,204,739
@@ -105,13 +185,26 @@ se han calculado en octubre de 2022.
    Creado por nueve docentes de Tecnología en el que desde marzo de
    2008 publican apuntes, actividades, proyectos, etc.
 
+
 #. `Tecnosecundaria
    <http://www.tecnosecundaria.es/>`_
+
+   .. image:: recursos/screenshots/recursos-www_tecnosecundaria_es.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://www.tecnosecundaria.es/
 
    `Similarweb rank <https://www.similarweb.com/es/website/www.tecnosecundaria.es/#overview>`__ :
    2,505,215
 
-#. `Blog de José Panadero <http://josepanadero.wordpress.com/>`_
+
+#. `Blog de José Panadero
+   <http://josepanadero.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-josepanadero_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://josepanadero.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/josepanadero.wordpress.com/#overview>`__ :
    3,634,466
@@ -119,20 +212,50 @@ se han calculado en octubre de 2022.
    José Manuel Panadero es el autor de esta página web, que se caracteriza por
    sus numerosas propuestas para la asignatura de Tecnología.
 
+
+#. `Tecnopatafisica
+   <http://tecnopatafisica.com/>`_
+
+   .. image:: recursos/screenshots/recursos-tecnopatafisica_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://tecnopatafisica.com/
+
+   `Similarweb rank <https://www.similarweb.com/es/website/tecnopatafisica.com/#overview>`__ :
+   3,682,655
+
+
 #. `Raúl Tecnología
    <https://raultecnologia.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-raultecnologia_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://raultecnologia.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/raultecnologia.wordpress.com/#overview>`__ :
    3,697,069
 
+
 #. `Tecnoloxia.org
    <https://tecnoloxia.org/>`_
+
+   .. image:: recursos/screenshots/recursos-tecnoloxia_org.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnoloxia.org/
 
    `Similarweb rank <https://www.similarweb.com/es/website/tecnoloxia.org/#overview>`__ :
    3,737,443
 
+
 #. `Aula de tecnologías
    <https://auladetecnologias.blogspot.com/>`_
+
+   .. image:: recursos/screenshots/recursos-auladetecnologias_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://auladetecnologias.blogspot.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/auladetecnologias.blogspot.com/#overview>`__ :
    4,602,768
@@ -140,300 +263,552 @@ se han calculado en octubre de 2022.
    Blog creado por Amelia Tierno (docente de Tecnología en IES Ignacio
    Ellacuría en Alcalá de Henares).
 
+
 #. `Todotecnología IES el Chaparil
    <https://todotecnologia-eso.blogspot.com/>`_
+
+   .. image:: recursos/screenshots/recursos-todotecnologia-eso_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://todotecnologia-eso.blogspot.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/todotecnologia-eso.blogspot.com/#overview>`__ :
    4,881,859
 
    Blog de tecnología del IES el Chaparil de Nerja.
 
+
 #. `Tecnopujol
    <https://tecnopujol.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-tecnopujol_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnopujol.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/tecnopujol.wordpress.com/#overview>`__ :
    6,409,192
 
+
 #. `TecnoOcho
    <http://tecno8demarzo.weebly.com/>`_
+
+   .. image:: recursos/screenshots/recursos-tecno8demarzo_weebly_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://tecno8demarzo.weebly.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/tecno8demarzo.weebly.com/#overview>`__ :
    7,094,552
 
+
 #. `Tecnomapas
    <https://tecnomapas.blogspot.com/>`_
+
+   .. image:: recursos/screenshots/recursos-tecnomapas_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnomapas.blogspot.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/tecnomapas.blogspot.com/#overview>`__ :
    7,107,012
 
+
 #. `Alextecnoeso
    <https://alextecnoeso.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-alextecnoeso_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://alextecnoeso.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/alextecnoeso.wordpress.com/#overview>`__ :
    7,348,747
 
+
 #. `Tecnomeler
    <http://tecnomeler.org/>`_
+
+   .. image:: recursos/screenshots/recursos-tecnomeler_org.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://tecnomeler.org/
 
    `Similarweb rank <https://www.similarweb.com/es/website/tecnomeler.org/#overview>`__ :
    7,477,664
 
+
 #. `Andeltecnologia
    <https://andeltecnologia.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-andeltecnologia_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://andeltecnologia.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/andeltecnologia.wordpress.com/#overview>`__ :
    7,510,351
 
+
 #. `Educarfilando
    <https://educarfilando.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-educarfilando_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://educarfilando.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/educarfilando.wordpress.com/#overview>`__ :
    8,168,354
 
+
 #. `HaroTecno
    <https://harotecno.wordpress.com/>`_
+
+   .. image:: recursos/screenshots/recursos-harotecno_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://harotecno.wordpress.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/harotecno.wordpress.com/#overview>`__ :
    8,312,112
 
-#. `Tecnopatafisica
-   <http://tecnopatafisica.blogspot.com/>`_
-
-   `Similarweb rank <https://www.similarweb.com/es/website/tecnopatafisica.blogspot.com/#overview>`__ :
-   8,325,533
 
 #. `Blog de Francisco Díaz Uceda
    <http://fdiazuceda.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-fdiazuceda_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://fdiazuceda.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/fdiazuceda.blogspot.com/#overview>`__ :
    9,334,102
+
 
 #. `Tecnozona
    <http://www.tecnozona.org/>`_
 
+   .. image:: recursos/screenshots/recursos-www_tecnozona_org.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://www.tecnozona.org/
+
    `Similarweb rank <https://www.similarweb.com/es/website/www.tecnozona.org/#overview>`__ :
    9,632,773
 
+
 #. `Raúl Experimentos
    <http://raulexperimentos.blogspot.com/>`_
+
+   .. image:: recursos/screenshots/recursos-raulexperimentos_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://raulexperimentos.blogspot.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/raulexperimentos.blogspot.com/#overview>`__ :
    11,879,044
 
    Experimentos sencillos de ciencia y tecnología.
 
-#. `Tu clase de tecnología online
-   <http://www.tuclasedetecnologiaonline.es/>`_
-
-   `Similarweb rank <https://www.similarweb.com/es/website/www.tuclasedetecnologiaonline.es/#overview>`__ :
-   12,342,090
-
-   Web didáctica creada por dos docentes del centro IES Ría del Carmen.
 
 #. `Blog Carlos Martínez
    <http://tecnologiaconcarlosmartinez.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-tecnologiaconcarlosmartinez_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://tecnologiaconcarlosmartinez.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/tecnologiaconcarlosmartinez.blogspot.com/#overview>`__ :
    12,524,345
+
 
 #. `Tecnobloc
    <http://www.tecnobloc.com/>`_
 
+   .. image:: recursos/screenshots/recursos-www_tecnobloc_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://www.tecnobloc.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/www.tecnobloc.com/#overview>`__ :
    13,362,615
+
 
 #. `Aula Taller
    <http://www.aulataller.es/>`_
 
+   .. image:: recursos/screenshots/recursos-www_aulataller_es.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://www.aulataller.es/
+
    `Similarweb rank <https://www.similarweb.com/es/website/www.aulataller.es/#overview>`__ :
    14,758,628
+
 
 #. `Tecnoastro
    <http://www.tecnoastro.es/>`_
 
+   .. image:: recursos/screenshots/recursos-www_tecnoastro_es.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://www.tecnoastro.es/
+
    `Similarweb rank <https://www.similarweb.com/es/website/www.tecnoastro.es/#overview>`__ :
    - -
+
 
 #. `Blog Area Tecnología
    <http://areatecnologia.blogspot.com.es/>`_
 
+   .. image:: recursos/screenshots/recursos-areatecnologia_blogspot_com_es.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://areatecnologia.blogspot.com.es/
+
    `Similarweb rank <https://www.similarweb.com/es/website/areatecnologia.blogspot.com.es/#overview>`__ :
    - -
+
 
 #. `TecnoFabri
    <http://tecnobri.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-tecnobri_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://tecnobri.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/tecnobri.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Blogtecnos
    <http://blogtecnos.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-blogtecnos_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://blogtecnos.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/blogtecnos.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Tecnología María de Molina
    <http://mariademolina.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-mariademolina_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://mariademolina.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/mariademolina.blogspot.com/#overview>`__ :
    - -
 
+
 #. `Recursos digitales
-   <https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales>`_
+   <https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/>`_
+
+   .. image:: recursos/screenshots/recursos-www_recursospdifgl_com_ense_C3_B1anza-online_herramientas-digitales.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/
 
    `Similarweb rank <https://www.similarweb.com/es/website/www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/#overview>`__ :
    - -
 
+
 #. `Web de Victor M. Acosta
-   <https://victoracosta352.wixsite.com/tecnologiaeso>`_
+   <https://victoracosta352.wixsite.com/tecnologiaeso/>`_
+
+   .. image:: recursos/screenshots/recursos-victoracosta352_wixsite_com_tecnologiaeso.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://victoracosta352.wixsite.com/tecnologiaeso/
 
    `Similarweb rank <https://www.similarweb.com/es/website/victoracosta352.wixsite.com/tecnologiaeso/#overview>`__ :
    - -
 
+
 #. `JRLopez
-   <https://sites.google.com/site/jrlopezinfo/home>`_
+   <https://sites.google.com/site/jrlopezinfo/home/>`_
+
+   .. image:: recursos/screenshots/recursos-sites_google_com_site_jrlopezinfo_home.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://sites.google.com/site/jrlopezinfo/home/
 
    `Similarweb rank <https://www.similarweb.com/es/website/sites.google.com/site/jrlopezinfo/home/#overview>`__ :
    - -
 
+
 #. `Manual básico de consulta de Tecnología (Intef)
    <http://ntic.educacion.es/w3/recursos/bachillerato/tecnologia/manual/>`_
+
+   .. image:: recursos/screenshots/recursos-ntic_educacion_es_w3_recursos_bachillerato_tecnologia_manual.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://ntic.educacion.es/w3/recursos/bachillerato/tecnologia/manual/
 
    `Similarweb rank <https://www.similarweb.com/es/website/ntic.educacion.es/w3/recursos/bachillerato/tecnologia/manual/#overview>`__ :
    - -
 
+
 #. `Tecnología Escuelas SJ
    <https://tecnologia.escuelassj.com/>`_
+
+   .. image:: recursos/screenshots/recursos-tecnologia_escuelassj_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnologia.escuelassj.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/tecnologia.escuelassj.com/#overview>`__ :
    - -
 
-#. `Tecnología Industrial I (educación a distancia)
-   <https://www.educa2.madrid.org/web/educaciondistancia/tecnologia-industrial-i/>`_
-
-   `Similarweb rank <https://www.similarweb.com/es/website/www.educa2.madrid.org/web/educaciondistancia/tecnologia-industrial-i/#overview>`__ :
-   - -
 
 #. `Aratecno (Aragón)
    <https://wp.catedu.es/aratecno/>`_
 
+   .. image:: recursos/screenshots/recursos-wp_catedu_es_aratecno.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://wp.catedu.es/aratecno/
+
    `Similarweb rank <https://www.similarweb.com/es/website/wp.catedu.es/aratecno/#overview>`__ :
    - -
+
 
 #. `Profesoratecno
    <http://profesoratecno.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-profesoratecno_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://profesoratecno.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/profesoratecno.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Tecnoeduca
    <http://www.tecnoeduca.com/blog/>`_
 
+   .. image:: recursos/screenshots/recursos-www_tecnoeduca_com_blog.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://www.tecnoeduca.com/blog/
+
    `Similarweb rank <https://www.similarweb.com/es/website/www.tecnoeduca.com/blog/#overview>`__ :
    - -
+
 
 #. `Tecnoilogicos
    <http://tecnoilogicos.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-tecnoilogicos_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://tecnoilogicos.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/tecnoilogicos.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Blog de Pedro Jara
    <https://pedro-jara.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-pedro-jara_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://pedro-jara.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/pedro-jara.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Tecno Atocha
    <https://tecnoatocha.wordpress.com/>`_
 
+   .. image:: recursos/screenshots/recursos-tecnoatocha_wordpress_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnoatocha.wordpress.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/tecnoatocha.wordpress.com/#overview>`__ :
+   - -
+
 
 #. `Tecnoinfe
    <https://tecnoinfe.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-tecnoinfe_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnoinfe.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/tecnoinfe.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Tecnología Vigán
    <http://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/>`_
 
+   .. image:: recursos/screenshots/recursos-www3_gobiernodecanarias_org_medusa_ecoblog_ilopmon.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/
+
    `Similarweb rank <https://www.similarweb.com/es/website/www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/#overview>`__ :
    - -
+
 
 #. `Tecnología IES Palti
    <http://iespalti.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-iespalti_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://iespalti.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/iespalti.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Tecnología Canete
    <https://tecnologiacanete.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-tecnologiacanete_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnologiacanete.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/tecnologiacanete.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Tecnología Ayala
    <https://tecnologiaayala.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-tecnologiaayala_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnologiaayala.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/tecnologiaayala.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Blog de Programación Robótica
    <http://programacionrobotica.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-programacionrobotica_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://programacionrobotica.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/programacionrobotica.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Tecnología CEO Boecillo
    <https://tecnologiaceoboecillo.blogspot.com/>`_
 
+   .. image:: recursos/screenshots/recursos-tecnologiaceoboecillo_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnologiaceoboecillo.blogspot.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/tecnologiaceoboecillo.blogspot.com/#overview>`__ :
    - -
+
 
 #. `Blog de Antonio Moyano Cañete
    <http://roble.pntic.mec.es/amoc0048/>`_
 
+   .. image:: recursos/screenshots/recursos-roble_pntic_mec_es_amoc0048.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://roble.pntic.mec.es/amoc0048/
+
    `Similarweb rank <https://www.similarweb.com/es/website/roble.pntic.mec.es/amoc0048/#overview>`__ :
    - -
+
 
 #. `Miguel Tecnología
    <https://sites.google.com/site/migueltecnologia/>`_
 
+   .. image:: recursos/screenshots/recursos-sites_google_com_site_migueltecnologia.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://sites.google.com/site/migueltecnologia/
+
    `Similarweb rank <https://www.similarweb.com/es/website/sites.google.com/site/migueltecnologia/#overview>`__ :
    - -
+
 
 #. `Crea TEC con TIC
    <https://createcontic.weebly.com/>`_
 
+   .. image:: recursos/screenshots/recursos-createcontic_weebly_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://createcontic.weebly.com/
+
    `Similarweb rank <https://www.similarweb.com/es/website/createcontic.weebly.com/#overview>`__ :
    - -
+
 
 #. `IES El Cabanyal (Valencia)
    <https://sites.google.com/view/tecnologialgmeso1/>`_
 
+   .. image:: recursos/screenshots/recursos-sites_google_com_view_tecnologialgmeso1.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://sites.google.com/view/tecnologialgmeso1/
+
    `Similarweb rank <https://www.similarweb.com/es/website/sites.google.com/view/tecnologialgmeso1/#overview>`__ :
    - -
 
+
 #. `Ciencia y Tecnología
    <http://citecmat.blogspot.com.es/>`_
+
+   .. image:: recursos/screenshots/recursos-citecmat_blogspot_com_es.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://citecmat.blogspot.com.es/
 
    `Similarweb rank <https://www.similarweb.com/es/website/citecmat.blogspot.com.es/#overview>`__ :
    - -
 
    Web creada por G. Ibán de la Horra, disponible en inglés y castellano
 
+
 #. `Tecnología y más
    <http://tecnologiaymasgma.blogspot.com/>`_
+
+   .. image:: recursos/screenshots/recursos-tecnologiaymasgma_blogspot_com.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: http://tecnologiaymasgma.blogspot.com/
 
    `Similarweb rank <https://www.similarweb.com/es/website/tecnologiaymasgma.blogspot.com/#overview>`__ :
    - -
 
+
 #. `La Tecnología en el Villadiego
    <https://tecnovilladiego.blogspot.com.es/>`_
+
+   .. image:: recursos/screenshots/recursos-tecnovilladiego_blogspot_com_es.jpg
+      :align: center
+      :alt: Screenshot de la página web
+      :target: https://tecnovilladiego.blogspot.com.es/
 
    `Similarweb rank <https://www.similarweb.com/es/website/tecnovilladiego.blogspot.com.es/#overview>`__ :
    - -
 
    Blog creado por el departamento de Tecnología del IES Virgen de Villadiego
    de Peñaflor en Sevilla.
+

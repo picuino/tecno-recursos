@@ -10,20 +10,20 @@ Normalmente los caracteres de nueva línea son ignorados y todo el
 texto escrito aparece junto.
  
 Para forzar a que el navegador continúe el texto en una nueva línea 
-es necesario escribir la etiqueta <br />.
+es necesario escribir la etiqueta <br>.
 
-La etiqueta <hr /> además de un salto de línea, insertará una raya
+La etiqueta <hr> además de un salto de línea, insertará una raya
 horizontal de separación.
 
 
 Etiquetas utilizadas
 --------------------
 
-``<br />``
+``<br>``
    Salto de línea. Lo que esté escrito a continuación aparecerá
    en la siguiente línea en el navegador.
 
-``<hr />``
+``<hr>``
    Línea horizontal de separación.
 
 

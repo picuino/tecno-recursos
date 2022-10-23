@@ -1,32 +1,41 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="es-es">
 
 <head>
-  <title>Picuino web - Error 404</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Language" content="es" />
-  <meta name=viewport content="width=device-width, initial-scale=1">
-  <meta name="description" content="Recursos educativos libres para Tecnología. Dibujo, mecánica, electricidad, electrónica, programación, informática, Arduino y más." />
-  <link rel="stylesheet" href="https://www.picuino.com/_static/index.css" type="text/css" />
-  <link rel="stylesheet" href="https://www.picuino.com/_static/css/custom.css" type="text/css" />
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="icon" type="image/vnd.microsoft.icon" href="https://www.picuino.com/favicon.ico" />
+
+  <title>Picuino - Error 404</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Dibujo, mecánica, electricidad, electrónica, programación, informática, Arduino y más.">
+  <link rel="stylesheet" href="_static/index.css" type="text/css">
+
+  <link rel="icon" type="image/png" href="/favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/favicon-48.png" sizes="48x48">
+  <link rel="icon" type="image/png" href="/favicon-96.png" sizes="96x96">
 </head>
 
 <body>
 
   <!-- LOGO -->
   <div class="header"> <div class="width_limit">
+
   <div class="logo">
   <a href="https://www.picuino.com">
-  <img title="Picuino logo" 
-       src="https://www.picuino.com/_static/logo-picuino-bgblue.png" 
-       alt="Picuino logo" width="240" />
+  <img title="Picuino logo"
+       src="_static/logo-picuino-bgblue.png"
+       alt="Picuino logo" width="240">
   </a>
   </div>
-  <div style="clear:both;"></div>
+
+  <div role="search">
+  <form id="rtd-search-form" class="search" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar...">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+  </div>
+
+  <div style="clear: both;"></div>
 
   </div> </div>
 
@@ -41,19 +50,32 @@
   <p style="padding-bottom:40px;"> La página web solicitada no existe.</p>
   <p><a href="https://www.picuino.com/es/index.html">Ir al índice general</a></p>
   <p><a href="https://www.picuino.com">Ir a la página de inicio</a></p>
-  <p style="padding-bottom:240px;" /></p>
+  <p style="padding-bottom:240px;"></p>
 
   </div>
 
-  </div></div> <!-- MAIN CONTENT -->
+  </div> </div> <!-- MAIN CONTENT -->
 
 
   <div class="cleaner"></div>
 
   <!-- FOOTER -->
-  <div class="footer"> <div class="width_limit">
-  </div></div>
+  <footer>
+  <div class="width_limit">
 
+  <ul class="link-list">
+  <li><a href="es/contacto.html">Contacto</a>
+  </li><li><a href="es/legal-aviso.html">Aviso legal</a>
+  </li><li><a href="es/legal-cookies.html">Política de Cookies</a>
+  </li><li><a href="es/legal-atribution.html">Créditos</a>
+  </li><li><a href="genindex.html">Glosario</a>
+  </li>
+  </ul>
+
+  <p>{% trans copyright=copyright|e %}Copyright &copy; {{ copyright }}{% endtrans %}</p>
+
+  </div>
+  </footer>
 
   </body>
 </html>

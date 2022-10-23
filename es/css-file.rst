@@ -26,7 +26,7 @@ Link a hoja de estilo css:
 .. code-block:: html
 
    <link rel="stylesheet" type="text/css"
-         href="file.css" />
+         href="file.css" >
 
 Hay que sustituir file.css por la hoja de estilo
 que se quiera utilizar.
