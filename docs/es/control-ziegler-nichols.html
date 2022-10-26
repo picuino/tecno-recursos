@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es-es" >
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Control Automático - Método de Ziegler-Nichols" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Control Automático - Método de Ziegler-Nichols">
   <title>Método de Ziegler-Nichols - Control Automático - Picuino</title>
 
   
-  <link rel="icon" type="image/png" href="../favicon-16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="../favicon-48.png" sizes="48x48" />
-  <link rel="icon" type="image/png" href="../favicon-96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="../favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="../favicon-48.png" sizes="48x48">
+  <link rel="icon" type="image/png" href="../favicon-96.png" sizes="96x96">
 
   
-  <link rel="canonical" href="https://www.picuino.com/es/control-ziegler-nichols.html" />
+  <link rel="canonical" href="https://www.picuino.com/es/control-ziegler-nichols.html">
 
   
   <link rel="search" type="application/opensearchdescription+xml"
         title="Search within ..."
-        href="../_static/opensearch.xml"/>
+        href="../_static/opensearch.xml">
 
-  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
 
-  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-  <link rel="index" title="Índice" href="../genindex.html" />
-  <link rel="search" title="Búsqueda" href="../search.html" />
-  <link rel="next" title="Controlador PID digital" href="control-pid-digital.html" />
-  <link rel="prev" title="Controlador PID" href="control-pid.html" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="index" title="Índice" href="../genindex.html">
+  <link rel="search" title="Búsqueda" href="../search.html">
+  <link rel="next" title="Controlador PID digital" href="control-pid-digital.html">
+  <link rel="prev" title="Controlador PID" href="control-pid.html">
 
 </head>
 
@@ -89,7 +89,7 @@
 
   
 
-  <hr/>
+  <hr>
   
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -121,12 +121,12 @@ que reciben la señal de control hasta que comienzan a actuar.</p>
 <p>Para poder determinar la respuesta al escalón de la planta o sistema
 controlado, se debe retirar el controlador PID y sustituirlo por una
 señal escalón aplicada al accionador.</p>
-<a class="reference internal image-reference" href="../_images/img-0055.png"><img alt="Sistema de control en lazo cerrado con controlador PID" class="align-center" src="../_images/img-0055.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0055.png"><img alt="Sistema de control en lazo cerrado con controlador PID" class="align-center" src="../_images/img-0055.png" style="width: 640px;"></a>
 <p>En la siguiente figura se muestra la modificación que hay que realizar
 al sistema de control en lazo cerrado para convertirlo en un sistema
 en lazo abierto que responda a una señal escalón, retirando el
 controlador PID:</p>
-<a class="reference internal image-reference" href="../_images/img-0059.png"><img alt="Esquema de señal escalón aplicada a un sistema en lazo abierto." class="align-center" src="../_images/img-0059.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0059.png"><img alt="Esquema de señal escalón aplicada a un sistema en lazo abierto." class="align-center" src="../_images/img-0059.png" style="width: 640px;"></a>
 <p>En la imagen siguiente se puede ver representado en rojo la entrada
 escalón al accionador o señal <strong>c(t)</strong>. En azul se representa la
 salida del sistema medida por el sensor o señal <strong>h(t)</strong>.
@@ -134,7 +134,7 @@ El escalón de entrada <strong>c(t)</strong> debe estar entre el 10% y el 20% de
 valor nominal de entrada.
 Como puede apreciarse, la respuesta del sistema presenta un retardo,
 también llamado tiempo muerto, representado por T1.</p>
-<a class="reference internal image-reference" href="../_images/img-0060.png"><img alt="Respuesta al escalón en un horno. Periodo inicial." class="align-center" src="../_images/img-0060.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0060.png"><img alt="Respuesta al escalón en un horno. Periodo inicial." class="align-center" src="../_images/img-0060.png" style="width: 640px;"></a>
 <p>Para calcular los parámetros se comienza por trazar una línea recta
 tangente a la señal de salida del sistema (curva azul).
 Esta tangente está dibujada en la imagen con una recta a trazos.</p>
@@ -148,7 +148,7 @@ El tiempo 2 comenzará donde la línea tangente corta al valor inicial
 de salida (25º a los 2 segundos) y terminará donde la línea
 tangente corta al valor final de salida (225º a los 14 segundos).</p>
 <div class="figure align-center" id="id1">
-<a class="reference internal image-reference" href="../_images/img-0061.png"><img alt="Respuesta al escalón en un horno. Periodo completo." src="../_images/img-0061.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0061.png"><img alt="Respuesta al escalón en un horno. Periodo completo." src="../_images/img-0061.png" style="width: 640px;"></a>
 <p class="caption"><span class="caption-text">Respuesta al escalón. El tiempo 2 comienza a continuación de T1
 y termina al alcanzar la recta tangente el valor máximo de salida,
 en este caso 225ºC.</span><a class="headerlink" href="#id1" title="Enlace permanente a esta imagen">¶</a></p>
@@ -172,21 +172,21 @@ controlador PID con acción solo proporcional (P), proporcional e
 integral (PI), proporcional y derivativa (PD) o proporcional integral
 y derivativa (PID):</p>
 <blockquote>
-<div><table border="1" class="docutils align-default">
+<div><table class="docutils align-default">
 <colgroup>
-<col width="18%" />
-<col width="21%" />
-<col width="29%" />
-<col width="32%" />
+<col style="width:18%;">
+<col style="width:21%;">
+<col style="width:29%;">
+<col style="width:32%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Control</th>
 <th class="head">Kp</th>
 <th class="head">Ki</th>
 <th class="head">Kd</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>P</td>
 <td>Ko</td>
 <td>&#160;</td>
@@ -238,21 +238,21 @@ cual los valores de la curva de respuesta del sistema son los siguientes:</p>
 del regulador PID:</p>
 <blockquote>
 <div><p>Ko = (dX * T2) / (dY * T1) = (5 * 11,6) / (2 * 1,2) = 24,2</p>
-<table border="1" class="docutils align-default">
+<table class="docutils align-default">
 <colgroup>
-<col width="18%" />
-<col width="21%" />
-<col width="29%" />
-<col width="32%" />
+<col style="width:18%;">
+<col style="width:21%;">
+<col style="width:29%;">
+<col style="width:32%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Control</th>
 <th class="head">Kp</th>
 <th class="head">Ki</th>
 <th class="head">Kd</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>P</td>
 <td>24,2</td>
 <td>&#160;</td>
@@ -278,7 +278,7 @@ del regulador PID:</p>
 </div></blockquote>
 <p>Después de introducir los valores Kp, Ki y Kd en el PID se obtiene
 la siguiente respuesta:</p>
-<a class="reference internal image-reference" href="../_images/img-0062.png"><img alt="Ziegler-Nichols. Respuesta de un horno sintonizado con respuesta al escalón." class="align-center" src="../_images/img-0062.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0062.png"><img alt="Ziegler-Nichols. Respuesta de un horno sintonizado con respuesta al escalón." class="align-center" src="../_images/img-0062.png" style="width: 640px;"></a>
 <p>Ahora se pueden ajustar a mano los parámetros del PID para conseguir
 una respuesta un poco más estable. Se ha aumentado la ganancia
 derivativa y reducido la integral para reducir las oscilaciones:</p>
@@ -288,7 +288,7 @@ derivativa y reducido la integral para reducir las oscilaciones:</p>
 <p>Kd = 21</p>
 </div></blockquote>
 <p>Como resultado, el sistema se estabiliza ahora en 12 segundos:</p>
-<a class="reference internal image-reference" href="../_images/img-0063.png"><img alt="Ziegler-Nichols. Respuesta de un horno sintonizado con respuesta al escalón. Ajuste final a mano." class="align-center" src="../_images/img-0063.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0063.png"><img alt="Ziegler-Nichols. Respuesta de un horno sintonizado con respuesta al escalón. Ajuste final a mano." class="align-center" src="../_images/img-0063.png" style="width: 640px;"></a>
 <p>En todos los casos se ha limitado la respuesta integral de forma que
 valga cero si el error es mayor de 40ºC.
 Este modo de funcionamiento de la ganancia integral es llamado
@@ -308,27 +308,27 @@ oscile de forma mantenida ante cualquier perturbación. Esta oscilación
 debe ser lineal, sin saturaciones. En este momento hay que medir la
 ganancia proporcional, llamada ganancia crítica o Kc, y el periodo de
 oscilación Tc en segundos.</p>
-<a class="reference internal image-reference" href="../_images/img-0064.png"><img alt="Ganancia crítica de lazo cerrado. Señal recortada." class="align-center" src="../_images/img-0064.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0064.png"><img alt="Ganancia crítica de lazo cerrado. Señal recortada." class="align-center" src="../_images/img-0064.png" style="width: 640px;"></a>
 <p>Una vez medidos estos dos valores, se pueden calcular los parámetros
 del controlador PID con acción solo proporcional (P), proporcional e
 integral (PI), proporcional y derivativa (PD) o proporcional integral
 y derivativa (PID):</p>
 <blockquote>
-<div><table border="1" class="docutils align-default">
+<div><table class="docutils align-default">
 <colgroup>
-<col width="18%" />
-<col width="21%" />
-<col width="29%" />
-<col width="32%" />
+<col style="width:18%;">
+<col style="width:21%;">
+<col style="width:29%;">
+<col style="width:32%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Control</th>
 <th class="head">Kp</th>
 <th class="head">Ki</th>
 <th class="head">Kd</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>P</td>
 <td>0,50*Kc</td>
 <td>&#160;</td>
@@ -373,14 +373,14 @@ y se aumenta la ganancia proporcional hasta conseguir una respuesta
 oscilatoria mantenida.</p>
 <p>Con una ganancia proporcional Kp = 0,40 la respuesta todavía está
 amortiguada:</p>
-<a class="reference internal image-reference" href="../_images/img-0065.png"><img alt="Ganancia crítica de lazo cerrado. Sistema sobreamortiguado." class="align-center" src="../_images/img-0065.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0065.png"><img alt="Ganancia crítica de lazo cerrado. Sistema sobreamortiguado." class="align-center" src="../_images/img-0065.png" style="width: 640px;"></a>
 <p>Al aumentar la ganancia proporcional hasta Kp = 0,43 se obtiene
 una respuesta
 con oscilaciones mantenidas:</p>
-<a class="reference internal image-reference" href="../_images/img-0066.png"><img alt="Ganancia crítica de lazo cerrado. Sistema crítico." class="align-center" src="../_images/img-0066.png" style="width: 480px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0066.png"><img alt="Ganancia crítica de lazo cerrado. Sistema crítico." class="align-center" src="../_images/img-0066.png" style="width: 480px;"></a>
 <p>Al aumentar la ganancia hasta Kp = 0,45, las oscilaciones crecen
 en el tiempo, por lo que la ganancia sería demasiado alta.</p>
-<a class="reference internal image-reference" href="../_images/img-0067.png"><img alt="Ganancia crítica de lazo cerrado. Sistema oscilante." class="align-center" src="../_images/img-0067.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0067.png"><img alt="Ganancia crítica de lazo cerrado. Sistema oscilante." class="align-center" src="../_images/img-0067.png" style="width: 640px;"></a>
 <p>En este caso, por lo tanto, la ganancia crítica y el periodo son:</p>
 <blockquote>
 <div><p>Kc = 0,43</p>
@@ -389,21 +389,21 @@ en el tiempo, por lo que la ganancia sería demasiado alta.</p>
 <p>A partir de estos valores se calculan los parámetros del
 controlador PID:</p>
 <blockquote>
-<div><table border="1" class="docutils align-default">
+<div><table class="docutils align-default">
 <colgroup>
-<col width="18%" />
-<col width="21%" />
-<col width="29%" />
-<col width="32%" />
+<col style="width:18%;">
+<col style="width:21%;">
+<col style="width:29%;">
+<col style="width:32%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Control</th>
 <th class="head">Kp</th>
 <th class="head">Ki</th>
 <th class="head">Kd</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>P</td>
 <td>0,215</td>
 <td>&#160;</td>
@@ -434,7 +434,7 @@ tanto tiene una respuesta oscilatoria distorsionada cuando se busca
 la ganancia crítica.</p>
 <p>Introduciendo los valores anteriores en el controlador PID se obtiene
 la siguiente respuesta del sistema térmico con controlador PID:</p>
-<a class="reference internal image-reference" href="../_images/img-0068.png"><img alt="Ziegler-Nichols. Respuesta de un horno sintonizado con ganancia crítica." class="align-center" src="../_images/img-0068.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0068.png"><img alt="Ziegler-Nichols. Respuesta de un horno sintonizado con ganancia crítica." class="align-center" src="../_images/img-0068.png" style="width: 640px;"></a>
 <p>En este caso también se puede terminar de afinar el regulador PID a mano
 para conseguir una respuesta un poco más estable.</p>
 </div>
@@ -467,7 +467,7 @@ Segunda edición. Editorial Prentice Hall.</p>
     </div>
   
   
-  <hr/>
+  <hr>
 
   <div role="contentinfo">
     <ul class="link-list">
@@ -479,10 +479,10 @@ Segunda edición. Editorial Prentice Hall.</p>
     </ul>
     <p class="content-info">
          Copyright &copy; 2013-2022 por Carlos Pardo Martín.
-      <br />
+      <br>
     Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
-    a menos que se indique lo contrario.<br />
+    a menos que se indique lo contrario.<br>
       <span class="lastupdated">
         Actualizado por última vez, octubre de 2022.
       </span>
@@ -500,9 +500,9 @@ Segunda edición. Editorial Prentice Hall.</p>
   para propósitos funcionales y de análisis de navegación.
   Puedes obtener más información en nuestra 
   <a href="https://www.picuino.com/es/legal-cookies.html" 
-  target="_blank">política de Cookies.</a> <br />
+  target="_blank">política de Cookies.</a> <br>
   Si continúas navegando, aceptas su uso.
-  <br />
+  <br>
   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Solo requeridas</a> |
   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
   </div>
@@ -549,21 +549,21 @@ Segunda edición. Editorial Prentice Hall.</p>
 
           
             
-            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino"/>
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
           
           </a>
-          <br />
+          <br>
           <a href="index.html">Tecno Recursos</a>
-          <br /><br />
+          <br><br>
 
           
 
           
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Buscar docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
   </form>
 </div>
 
@@ -606,7 +606,7 @@ Segunda edición. Editorial Prentice Hall.</p>
           
 
           <!-- Enlaces directos -->
-          <br />
+          <br>
           <ul>
           <li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/test/">Test de Tecnología</a>
@@ -616,8 +616,8 @@ Segunda edición. Editorial Prentice Hall.</p>
           href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
           </li>
           </ul>
-          <br />
-          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
+          <br>
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30"> </a>
 
         </div>
       </div>

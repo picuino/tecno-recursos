@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es-es" >
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Arduino - Panel de Control PC42 - 3. Encendido y apagado de los LED" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Arduino - Panel de Control PC42 - 3. Encendido y apagado de los LED">
   <title>3. Encendido y apagado de los LED - Panel de Control PC42 - Picuino</title>
 
   
-  <link rel="icon" type="image/png" href="../../favicon-16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="../../favicon-48.png" sizes="48x48" />
-  <link rel="icon" type="image/png" href="../../favicon-96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="../../favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="../../favicon-48.png" sizes="48x48">
+  <link rel="icon" type="image/png" href="../../favicon-96.png" sizes="96x96">
 
   
-  <link rel="canonical" href="https://www.picuino.com/es/arduprog/pc42-led1.html" />
+  <link rel="canonical" href="https://www.picuino.com/es/arduprog/pc42-led1.html">
 
   
   <link rel="search" type="application/opensearchdescription+xml"
         title="Search within ..."
-        href="../../_static/opensearch.xml"/>
+        href="../../_static/opensearch.xml">
 
-  <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css">
 
-  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
-  <link rel="index" title="Índice" href="../../genindex.html" />
-  <link rel="search" title="Búsqueda" href="../../search.html" />
-  <link rel="next" title="4. Parpadeo de los LED" href="pc42-led2.html" />
-  <link rel="prev" title="2. Instalación del panel de control PC42" href="pc42-install.html" />
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css">
+  <link rel="index" title="Índice" href="../../genindex.html">
+  <link rel="search" title="Búsqueda" href="../../search.html">
+  <link rel="next" title="4. Parpadeo de los LED" href="pc42-led2.html">
+  <link rel="prev" title="2. Instalación del panel de control PC42" href="pc42-install.html">
 
 </head>
 
@@ -91,7 +91,7 @@
 
   
 
-  <hr/>
+  <hr>
   
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -99,7 +99,7 @@
             
   <div class="section" id="encendido-y-apagado-de-los-led">
 <span id="pc42-led1"></span><h1><span class="section-number">3. </span>Encendido y apagado de los LED<a class="headerlink" href="#encendido-y-apagado-de-los-led" title="Enlazar permanentemente con este título">¶</a></h1>
-<a class="reference internal image-reference" href="../../_images/img-0090.jpg"><img alt="LED de colores y RGB." class="align-center" src="../../_images/img-0090.jpg" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../../_images/img-0090.jpg"><img alt="LED de colores y RGB." class="align-center" src="../../_images/img-0090.jpg" style="width: 300px;"></a>
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
@@ -113,17 +113,17 @@
 El último led de la derecha es un led RGB con los tres colores
 básicos rojo, verde y azul en su interior.</p>
 <blockquote>
-<div><table border="1" class="docutils align-default">
+<div><table class="docutils align-default">
 <colgroup>
-<col width="35%" />
-<col width="65%" />
+<col style="width:35%;">
+<col style="width:65%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Led</th>
 <th class="head">Color</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>1</td>
 <td>ROJO</td>
 </tr>
@@ -153,17 +153,17 @@ básicos rojo, verde y azul en su interior.</p>
 </div></blockquote>
 <p>El led RGB permite generar colores compuestos por la suma de otros:</p>
 <blockquote>
-<div><table border="1" class="docutils align-default">
+<div><table class="docutils align-default">
 <colgroup>
-<col width="42%" />
-<col width="58%" />
+<col style="width:42%;">
+<col style="width:58%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Led</th>
 <th class="head">Color</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>6 + 7</td>
 <td>RGB-AMARILLO</td>
 </tr>
@@ -184,7 +184,7 @@ básicos rojo, verde y azul en su interior.</p>
 <h2>La función <a class="reference internal" href="#_CPPv48ledWriteii" title="ledWrite"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">ledWrite()</span></code></a><a class="headerlink" href="#la-funcion-ledwrite" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="cpp function">
 <dt id="_CPPv48ledWriteii">
-<span id="_CPPv38ledWriteii"></span><span id="_CPPv28ledWriteii"></span><span id="ledWrite__i.i"></span><code class="descname">ledWrite</code><span class="sig-paren">(</span>int <em>ledNum</em>, int <em>bright</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48ledWriteii" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv38ledWriteii"></span><span id="_CPPv28ledWriteii"></span><span id="ledWrite__i.i"></span><code class="descname">ledWrite</code><span class="sig-paren">(</span>int <em>ledNum</em>, int <em>bright</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48ledWriteii" title="Enlazar permanentemente con esta definición">¶</a><br></dt>
 <dd><p>Esta función permite encender o apagar un led concreto.
 Sus parámetros son los siguientes:</p>
 <p><code class="docutils literal notranslate"><span class="pre">ledNum</span></code>: led que se va a encender o apagar.
@@ -208,7 +208,7 @@ número cero.</li>
 <h2>La función <a class="reference internal" href="#_CPPv412digitalWriteii" title="digitalWrite"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">digitalWrite()</span></code></a><a class="headerlink" href="#la-funcion-digitalwrite" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="cpp function">
 <dt id="_CPPv412digitalWriteii">
-<span id="_CPPv312digitalWriteii"></span><span id="_CPPv212digitalWriteii"></span><span id="digitalWrite__i.i"></span><code class="descname">digitalWrite</code><span class="sig-paren">(</span>int <em>ledNum</em>, int <em>bright</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv412digitalWriteii" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv312digitalWriteii"></span><span id="_CPPv212digitalWriteii"></span><span id="digitalWrite__i.i"></span><code class="descname">digitalWrite</code><span class="sig-paren">(</span>int <em>ledNum</em>, int <em>bright</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv412digitalWriteii" title="Enlazar permanentemente con esta definición">¶</a><br></dt>
 <dd><p>Esta función es semejante a la función anterior <cite>ledWrite</cite>.
 Su funcionamiento es idéntico, acepta dos parámetros <code class="docutils literal notranslate"><span class="pre">ledNum</span></code>
 y <code class="docutils literal notranslate"><span class="pre">bright</span></code> para establecer el led que se manejará y su brillo.</p>
@@ -249,7 +249,7 @@ utilizando la función <cite>ledWrite</cite></p>
 </pre></div>
 </td></tr></table></div>
 <p>Programa equivalente en el entorno Ardublock:</p>
-<a class="reference internal image-reference" href="../../_images/ardublock_ledWrite_On.png"><img alt="Programa de Ardublock para encender el led D1 del panel de control PC42" src="../../_images/ardublock_ledWrite_On.png" style="width: 434px;" /></a>
+<a class="reference internal image-reference" href="../../_images/ardublock_ledWrite_On.png"><img alt="Programa de Ardublock para encender el led D1 del panel de control PC42" src="../../_images/ardublock_ledWrite_On.png" style="width: 434px;"></a>
 <p>En este enlace se puede descargar el
 <a class="reference download internal" download="" href="../../_downloads/ardublock_ledWrite_On.abp"><code class="xref download docutils literal notranslate"><span class="pre">archivo</span> <span class="pre">de</span> <span class="pre">programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock</span> <span class="pre">'ledWrite_On'</span></code></a></p>
 </div>
@@ -297,7 +297,7 @@ vez dentro del programa de Arduino.</p>
 </pre></div>
 </td></tr></table></div>
 <p>Programa equivalente en el entorno Ardublock:</p>
-<a class="reference internal image-reference" href="../../_images/ardublock_ledWrite_On_Off.png"><img alt="Programa de Ardublock para encender y apagar el led D1 del panel de control PC42" src="../../_images/ardublock_ledWrite_On_Off.png" style="width: 468px;" /></a>
+<a class="reference internal image-reference" href="../../_images/ardublock_ledWrite_On_Off.png"><img alt="Programa de Ardublock para encender y apagar el led D1 del panel de control PC42" src="../../_images/ardublock_ledWrite_On_Off.png" style="width: 468px;"></a>
 <p>En este enlace se puede descargar el
 <a class="reference download internal" download="" href="../../_downloads/ardublock_ledWrite_On_Off.abp"><code class="xref download docutils literal notranslate"><span class="pre">archivo</span> <span class="pre">de</span> <span class="pre">programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock</span> <span class="pre">'ledWrite_On_Off'</span></code></a></p>
 </div>
@@ -423,7 +423,7 @@ la vez que D2 parpadea dos veces por segundo.</p>
     </div>
   
   
-  <hr/>
+  <hr>
 
   <div role="contentinfo">
     <ul class="link-list">
@@ -435,10 +435,10 @@ la vez que D2 parpadea dos veces por segundo.</p>
     </ul>
     <p class="content-info">
          Copyright &copy; 2013-2022 por Carlos Pardo Martín.
-      <br />
+      <br>
     Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
-    a menos que se indique lo contrario.<br />
+    a menos que se indique lo contrario.<br>
       <span class="lastupdated">
         Actualizado por última vez, octubre de 2022.
       </span>
@@ -456,9 +456,9 @@ la vez que D2 parpadea dos veces por segundo.</p>
   para propósitos funcionales y de análisis de navegación.
   Puedes obtener más información en nuestra 
   <a href="https://www.picuino.com/es/legal-cookies.html" 
-  target="_blank">política de Cookies.</a> <br />
+  target="_blank">política de Cookies.</a> <br>
   Si continúas navegando, aceptas su uso.
-  <br />
+  <br>
   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Solo requeridas</a> |
   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
   </div>
@@ -505,21 +505,21 @@ la vez que D2 parpadea dos veces por segundo.</p>
 
           
             
-            <img src="../../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino"/>
+            <img src="../../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
           
           </a>
-          <br />
+          <br>
           <a href="../index.html">Tecno Recursos</a>
-          <br /><br />
+          <br><br>
 
           
 
           
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Buscar docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
   </form>
 </div>
 
@@ -572,7 +572,7 @@ la vez que D2 parpadea dos veces por segundo.</p>
           
 
           <!-- Enlaces directos -->
-          <br />
+          <br>
           <ul>
           <li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/test/">Test de Tecnología</a>
@@ -582,8 +582,8 @@ la vez que D2 parpadea dos veces por segundo.</p>
           href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
           </li>
           </ul>
-          <br />
-          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
+          <br>
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30"> </a>
 
         </div>
       </div>

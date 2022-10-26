@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es-es" >
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Control Automático - Controlador PID digital" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Control Automático - Controlador PID digital">
   <title>Controlador PID digital - Control Automático - Picuino</title>
 
   
-  <link rel="icon" type="image/png" href="../favicon-16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="../favicon-48.png" sizes="48x48" />
-  <link rel="icon" type="image/png" href="../favicon-96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="../favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="../favicon-48.png" sizes="48x48">
+  <link rel="icon" type="image/png" href="../favicon-96.png" sizes="96x96">
 
   
-  <link rel="canonical" href="https://www.picuino.com/es/control-pid-digital.html" />
+  <link rel="canonical" href="https://www.picuino.com/es/control-pid-digital.html">
 
   
   <link rel="search" type="application/opensearchdescription+xml"
         title="Search within ..."
-        href="../_static/opensearch.xml"/>
+        href="../_static/opensearch.xml">
 
-  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
 
-  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-  <link rel="index" title="Índice" href="../genindex.html" />
-  <link rel="search" title="Búsqueda" href="../search.html" />
-  <link rel="next" title="Servomotor" href="control-actuator-servomotor.html" />
-  <link rel="prev" title="Método de Ziegler-Nichols" href="control-ziegler-nichols.html" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="index" title="Índice" href="../genindex.html">
+  <link rel="search" title="Búsqueda" href="../search.html">
+  <link rel="next" title="Servomotor" href="control-actuator-servomotor.html">
+  <link rel="prev" title="Método de Ziegler-Nichols" href="control-ziegler-nichols.html">
 
 </head>
 
@@ -89,7 +89,7 @@
 
   
 
-  <hr/>
+  <hr>
   
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -104,7 +104,7 @@ Los reguladores digitales sustituyen varios elementos en un sistema
 de control tradicional por cálculos en un sistema programado.
 En la figura siguiente puede verse un esquema de un regulador
 controlado por un microcontrolador.</p>
-<a class="reference internal image-reference" href="../_images/img-0069.png"><img alt="Controlador PID digital" class="align-center" src="../_images/img-0069.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0069.png"><img alt="Controlador PID digital" class="align-center" src="../_images/img-0069.png" style="width: 640px;"></a>
 <p>Las funciones del microcontrolador están encerradas en el cuadrado
 con lineas de puntos.</p>
 <p>Los bloques que sirven de conexión entre el microcontrolador y el
@@ -140,7 +140,7 @@ ganancia proporcional hasta que se mantengan las oscilaciones
 en la respuesta al escalón.
 El período de oscilación es entonces de 5,6 segundos y, por lo
 tanto, el período de muestreo debe ser menor de 0,56 segundos.</p>
-<a class="reference internal image-reference" href="../_images/img-0064.png"><img alt="Controlador PID digital. Período de muestreo de sistema oscilatorio." class="align-center" src="../_images/img-0064.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0064.png"><img alt="Controlador PID digital. Período de muestreo de sistema oscilatorio." class="align-center" src="../_images/img-0064.png" style="width: 640px;"></a>
 <p>Tiempo de oscilación y período de muestreo:</p>
 <blockquote>
 <div><p>Tc = 26,8 - 21,2 = 5,6 segundos  (Tiempo de oscilación)</p>
@@ -155,7 +155,7 @@ escalón en lazo abierto.</p>
 el sistema en subir desde un 10% hasta un 90% del valor final.</p>
 <p>En la siguiente imagen se representa la respuesta al escalón de
 un sistema térmico.</p>
-<a class="reference internal image-reference" href="../_images/img-0071.png"><img alt="Controlador PID digital. Período de muestreo con una respuesta al escalón." class="align-center" src="../_images/img-0071.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0071.png"><img alt="Controlador PID digital. Período de muestreo con una respuesta al escalón." class="align-center" src="../_images/img-0071.png" style="width: 640px;"></a>
 <p>Este sistema tarda en subir desde el 10% hasta el 90% del valor
 final 21,5 - 3,5 = 18 segundos.
 Por lo tanto, para este sistema de ejemplo, el tiempo de muestreo
@@ -301,9 +301,9 @@ siguientes líneas al programa anterior.</p>
 un control PID de temperatura de un horno con control anti-windup.
 El error máximo para que actúe el control integral se ha
 establecido en 100, 30 y 10 grados:</p>
-<a class="reference internal image-reference" href="../_images/img-0072.png"><img alt="Control PID digital de un horno. Anti-Windup con error de 100 grados." class="align-center" src="../_images/img-0072.png" style="width: 640px;" /></a>
-<a class="reference internal image-reference" href="../_images/img-0073.png"><img alt="Control PID digital de un horno. Anti-Windup con error de 30 grados." class="align-center" src="../_images/img-0073.png" style="width: 640px;" /></a>
-<a class="reference internal image-reference" href="../_images/img-0074.png"><img alt="Control PID digital de un horno. Anti-Windup con error de 10 grados." class="align-center" src="../_images/img-0074.png" style="width: 640px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0072.png"><img alt="Control PID digital de un horno. Anti-Windup con error de 100 grados." class="align-center" src="../_images/img-0072.png" style="width: 640px;"></a>
+<a class="reference internal image-reference" href="../_images/img-0073.png"><img alt="Control PID digital de un horno. Anti-Windup con error de 30 grados." class="align-center" src="../_images/img-0073.png" style="width: 640px;"></a>
+<a class="reference internal image-reference" href="../_images/img-0074.png"><img alt="Control PID digital de un horno. Anti-Windup con error de 10 grados." class="align-center" src="../_images/img-0074.png" style="width: 640px;"></a>
 <p>Como se puede observar, en el primer caso se ha establecido
 el máximo error anti-windup en 100 grados y el sobrepulso
 llega a ser de 45ºC con un tiempo de establecimiento
@@ -345,7 +345,7 @@ Esas frecuencias se traducen en frecuencias más bajas.
 Esto significa que el ruido de alta frecuencia se verá dentro
 del microcontrolador como una señal de menor frecuencia.
 Este efecto puede apreciarse bien en la siguiente imagen:</p>
-<a class="reference internal image-reference" href="../_images/img-0075.png"><img alt="Muestreo a frecuencia inferior de la necesaria. Teorema de Nyquist." class="align-center" src="../_images/img-0075.png" style="width: 480px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0075.png"><img alt="Muestreo a frecuencia inferior de la necesaria. Teorema de Nyquist." class="align-center" src="../_images/img-0075.png" style="width: 480px;"></a>
 <p>La señal original aparece en rojo, con una frecuencia de 3 ciclos
 por intervalo. La mínima frecuencia de muestreo debería ser de 6
 muestras por intervalo.</p>
@@ -376,7 +376,7 @@ conversor analógico-digital y su rango de medida.</p>
 <div><strong>Ruido de cuantificación = rango_tensión / 2^(bits_del_adc)</strong></div></blockquote>
 <p>En la siguiente imagen puede verse la representación del ruido
 de cuantificación:</p>
-<a class="reference internal image-reference" href="../_images/img-0076.png"><img alt="Ruido de cuantificación de un conversor ADC (analógico a digital)" class="align-center" src="../_images/img-0076.png" style="width: 480px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0076.png"><img alt="Ruido de cuantificación de un conversor ADC (analógico a digital)" class="align-center" src="../_images/img-0076.png" style="width: 480px;"></a>
 <p>En el caso de un microcontrolador típico con 10 bits de
 resolución y un rango de medida de 0 a 5 voltios, el ruido o
 error de cuantificación es de 5V / 2^(10) = 5V / 1024 = 4,9 milivoltios.</p>
@@ -420,7 +420,7 @@ Segunda edición. Editorial Prentice Hall.</p>
     </div>
   
   
-  <hr/>
+  <hr>
 
   <div role="contentinfo">
     <ul class="link-list">
@@ -432,10 +432,10 @@ Segunda edición. Editorial Prentice Hall.</p>
     </ul>
     <p class="content-info">
          Copyright &copy; 2013-2022 por Carlos Pardo Martín.
-      <br />
+      <br>
     Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
-    a menos que se indique lo contrario.<br />
+    a menos que se indique lo contrario.<br>
       <span class="lastupdated">
         Actualizado por última vez, octubre de 2022.
       </span>
@@ -453,9 +453,9 @@ Segunda edición. Editorial Prentice Hall.</p>
   para propósitos funcionales y de análisis de navegación.
   Puedes obtener más información en nuestra 
   <a href="https://www.picuino.com/es/legal-cookies.html" 
-  target="_blank">política de Cookies.</a> <br />
+  target="_blank">política de Cookies.</a> <br>
   Si continúas navegando, aceptas su uso.
-  <br />
+  <br>
   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Solo requeridas</a> |
   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
   </div>
@@ -502,21 +502,21 @@ Segunda edición. Editorial Prentice Hall.</p>
 
           
             
-            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino"/>
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
           
           </a>
-          <br />
+          <br>
           <a href="index.html">Tecno Recursos</a>
-          <br /><br />
+          <br><br>
 
           
 
           
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Buscar docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
   </form>
 </div>
 
@@ -559,7 +559,7 @@ Segunda edición. Editorial Prentice Hall.</p>
           
 
           <!-- Enlaces directos -->
-          <br />
+          <br>
           <ul>
           <li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/test/">Test de Tecnología</a>
@@ -569,8 +569,8 @@ Segunda edición. Editorial Prentice Hall.</p>
           href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
           </li>
           </ul>
-          <br />
-          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
+          <br>
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30"> </a>
 
         </div>
       </div>

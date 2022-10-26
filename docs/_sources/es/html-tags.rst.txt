@@ -75,11 +75,11 @@ Etiquetas de contenido
 Salto de línea
 --------------
 
-``<br />``
+``<br>``
    Salto de línea. Lo que esté escrito a continuación aparecerá
    en la siguiente línea en el navegador.
 
-``<hr />``
+``<hr>``
    Línea horizontal de separación.
 
 

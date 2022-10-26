@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es-es" >
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Control Automático - Sensores - 3. Sensor de temperatura" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Control Automático - Sensores - 3. Sensor de temperatura">
   <title>3. Sensor de temperatura - Sensores - Picuino</title>
 
   
-  <link rel="icon" type="image/png" href="../favicon-16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="../favicon-48.png" sizes="48x48" />
-  <link rel="icon" type="image/png" href="../favicon-96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="../favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="../favicon-48.png" sizes="48x48">
+  <link rel="icon" type="image/png" href="../favicon-96.png" sizes="96x96">
 
   
-  <link rel="canonical" href="https://www.picuino.com/es/control-sensor-temp.html" />
+  <link rel="canonical" href="https://www.picuino.com/es/control-sensor-temp.html">
 
   
   <link rel="search" type="application/opensearchdescription+xml"
         title="Search within ..."
-        href="../_static/opensearch.xml"/>
+        href="../_static/opensearch.xml">
 
-  <link rel="stylesheet" href="../_static/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
 
-  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-  <link rel="index" title="Índice" href="../genindex.html" />
-  <link rel="search" title="Búsqueda" href="../search.html" />
-  <link rel="next" title="4. Sensor de temperatura y humedad DHT11" href="control-sensor-dht11.html" />
-  <link rel="prev" title="2. Potenciómetro" href="control-sensor-potentiometer.html" />
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="index" title="Índice" href="../genindex.html">
+  <link rel="search" title="Búsqueda" href="../search.html">
+  <link rel="next" title="4. Sensor de temperatura y humedad DHT11" href="control-sensor-dht11.html">
+  <link rel="prev" title="2. Potenciómetro" href="control-sensor-potentiometer.html">
 
 </head>
 
@@ -91,7 +91,7 @@
 
   
 
-  <hr/>
+  <hr>
   
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -109,9 +109,9 @@ En estas prácticas se van a estudiar solo sensores de bajo precio que
 alcanzan un rango de temperaturas moderado, de -40ºC hasta 150ºC.
 Con una exactitud moderada, desde 1ºC hasta 0,1ºC de error.</p>
 <p>Sensor de temperatura NTC.</p>
-<a class="reference internal image-reference" href="../_images/img-0018.jpg"><img alt="Resistencia NTC. Sensor de temperatura." class="align-center" src="../_images/img-0018.jpg" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0018.jpg"><img alt="Resistencia NTC. Sensor de temperatura." class="align-center" src="../_images/img-0018.jpg" style="width: 320px;"></a>
 <p>Sensor de temperatura basado en circuito integrado LM35.</p>
-<a class="reference internal image-reference" href="../_images/img-0019.jpg"><img alt="Circuito integrado sensor de temperatura LM35." class="align-center" src="../_images/img-0019.jpg" style="width: 200px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0019.jpg"><img alt="Circuito integrado sensor de temperatura LM35." class="align-center" src="../_images/img-0019.jpg" style="width: 200px;"></a>
 <p>Los sensores de temperatura son muy útiles para construir aparatos de
 medida de temperatura y máquinas que regulan de forma automática la
 temperatura. A continuación se listan algunos ejemplos prácticos.</p>
@@ -135,19 +135,19 @@ ajustado puede medir temperaturas con bastante exactitud, 0,1ºC en un
 intervalo pequeño de temperaturas.</p>
 <p>La siguiente gráfica representa la resistencia de un sensor NTC en su
 rango de medición de temperaturas.</p>
-<a class="reference internal image-reference" href="../_images/img-0020.png"><img alt="Curva de resistencia-temperatura de un sensor NTC" class="align-center" src="../_images/img-0020.png" style="width: 480px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0020.png"><img alt="Curva de resistencia-temperatura de un sensor NTC" class="align-center" src="../_images/img-0020.png" style="width: 480px;"></a>
 <p>Como se puede ver, la resistencia disminuye a medida que aumenta la
 temperatura. La forma de la curva es no lineal, lo que da problemas
 a la hora de calcular con exactitud la temperatura.
 La siguiente fórmula puede utilizarse para calcular la resistencia en
 función de la temperatura.</p>
 <div class="math">
-<p><img src="../_images/math/b7c1a4a8ce031513c9b94f517019def8ef3a32b2.svg" alt="R = A \cdot exp(B/T)"/></p>
+<p><img src="../_images/math/b7c1a4a8ce031513c9b94f517019def8ef3a32b2.svg" alt="R = A \cdot exp(B/T)"></p>
 </div><p>R = Resistencia del sensor NTC</p>
 <p>T = Temperatura en grados kelvin</p>
 <p>B = Temperatura característica del material. Entre 2000ºK y 5000ºK</p>
 <p>A = Constante del termistor. Depende del material.</p>
-<p>Los coeficientes <img class="math" src="../_images/math/a57bce2e6d1d453f518f70572be165d2aaf60d02.svg" alt="A"/> y <img class="math" src="../_images/math/e49a183c80f2680c211c6a5379523f7fee11f6f9.svg" alt="B"/> dependen de cada componente y
+<p>Los coeficientes <img class="math" src="../_images/math/a57bce2e6d1d453f518f70572be165d2aaf60d02.svg" alt="A"> y <img class="math" src="../_images/math/e49a183c80f2680c211c6a5379523f7fee11f6f9.svg" alt="B"> dependen de cada componente y
 se pueden encontrar en las hojas de características de los fabricantes
 o bien se pueden calcular para un sensor NTC concreto a partir de un
 ensayo, midiendo la resistencia a varias temperaturas.</p>
@@ -168,20 +168,20 @@ de 10k Ohmios a la temperatura de 25ºC</p>
 <p>A continuación se muestra una imagen con la curva de tensión que
 suministra este sensor NTC conectado a 5 voltios, con una resistencia
 de polarización de 10k Ohmios conectada a masa.</p>
-<a class="reference internal image-reference" href="../_images/img-0025.png"><img alt="Curva de tensión-temperatura de un sensor NTC polarizado" class="align-center" src="../_images/img-0025.png" style="width: 480px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0025.png"><img alt="Curva de tensión-temperatura de un sensor NTC polarizado" class="align-center" src="../_images/img-0025.png" style="width: 480px;"></a>
 <p>Tabla de datos con los valores de la curva.</p>
 <blockquote>
-<div><table border="1" class="docutils align-default">
+<div><table class="docutils align-default">
 <colgroup>
-<col width="61%" />
-<col width="39%" />
+<col style="width:61%;">
+<col style="width:39%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Temperatura</th>
 <th class="head">Tensión</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>-40</td>
 <td>0,117</td>
 </tr>
@@ -271,7 +271,7 @@ hoja excel adjunta <a class="reference download internal" download="" href="../_
 <p>En la siguiente imagen puede verse el cableado necesario para
 realizar un calentador basado en un transistor
 <a class="reference download internal" download="" href="../_downloads/BD135-onsemi.pdf"><code class="xref download docutils literal notranslate"><span class="pre">BD135</span></code></a>.</p>
-<a class="reference internal image-reference" href="../_images/img-0023.png"><img alt="Esquema de cableado de un transistor calentador BD135" class="align-center" src="../_images/img-0023.png" style="width: 800px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0023.png"><img alt="Esquema de cableado de un transistor calentador BD135" class="align-center" src="../_images/img-0023.png" style="width: 800px;"></a>
 <p>Este circuito es capaz de consumir hasta 200 miliamperios a 5 voltios,
 proporcionando 1 vatio de potencia. Esta potencia es suficiente para
 aumentar la temperatura del transistor 100 grados centígrados al aire
@@ -307,7 +307,7 @@ para que no se produzcan quemaduras</strong>.</p>
 es necesario añadir una resistencia de polarización.
 Esta resistencia se coloca entre el sensor y masa como muestra el
 siguiente esquema.</p>
-<a class="reference internal image-reference" href="../_images/img-0024.png"><img alt="Esquema de cableado de un sensor NTC" class="align-center" src="../_images/img-0024.png" style="width: 800px;" /></a>
+<a class="reference internal image-reference" href="../_images/img-0024.png"><img alt="Esquema de cableado de un sensor NTC" class="align-center" src="../_images/img-0024.png" style="width: 800px;"></a>
 <p><strong>Autocalentamiento:</strong>
 El autocalentamiento consiste en el aumento de temperatura que
 produce en el sensor NTC la corriente que se le suministra para poder
@@ -392,17 +392,17 @@ transistor de calentamiento. Completar la tabla siguiente con los
 valores de tensión medidos en el sensor para diferentes potencias
 del transistor de calentamiento.</p>
 <blockquote>
-<div><table border="1" class="docutils align-default">
+<div><table class="docutils align-default">
 <colgroup>
-<col width="48%" />
-<col width="52%" />
+<col style="width:48%;">
+<col style="width:52%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Transistor</th>
 <th class="head">Tensión NTC</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>0</td>
 <td>&#160;</td>
 </tr>
@@ -588,7 +588,7 @@ apaga por completo.</p>
     </div>
   
   
-  <hr/>
+  <hr>
 
   <div role="contentinfo">
     <ul class="link-list">
@@ -600,10 +600,10 @@ apaga por completo.</p>
     </ul>
     <p class="content-info">
          Copyright &copy; 2013-2022 por Carlos Pardo Martín.
-      <br />
+      <br>
     Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
-    a menos que se indique lo contrario.<br />
+    a menos que se indique lo contrario.<br>
       <span class="lastupdated">
         Actualizado por última vez, octubre de 2022.
       </span>
@@ -621,9 +621,9 @@ apaga por completo.</p>
   para propósitos funcionales y de análisis de navegación.
   Puedes obtener más información en nuestra 
   <a href="https://www.picuino.com/es/legal-cookies.html" 
-  target="_blank">política de Cookies.</a> <br />
+  target="_blank">política de Cookies.</a> <br>
   Si continúas navegando, aceptas su uso.
-  <br />
+  <br>
   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Solo requeridas</a> |
   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
   </div>
@@ -670,21 +670,21 @@ apaga por completo.</p>
 
           
             
-            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino"/>
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
           
           </a>
-          <br />
+          <br>
           <a href="index.html">Tecno Recursos</a>
-          <br /><br />
+          <br><br>
 
           
 
           
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Buscar docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
   </form>
 </div>
 
@@ -734,7 +734,7 @@ apaga por completo.</p>
           
 
           <!-- Enlaces directos -->
-          <br />
+          <br>
           <ul>
           <li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/test/">Test de Tecnología</a>
@@ -744,8 +744,8 @@ apaga por completo.</p>
           href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
           </li>
           </ul>
-          <br />
-          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
+          <br>
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30"> </a>
 
         </div>
       </div>

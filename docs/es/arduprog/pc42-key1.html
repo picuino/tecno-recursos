@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es-es" >
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Arduino - Panel de Control PC42 - 5. Pulsadores y Estados" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Arduino - Panel de Control PC42 - 5. Pulsadores y Estados">
   <title>5. Pulsadores y Estados - Panel de Control PC42 - Picuino</title>
 
   
-  <link rel="icon" type="image/png" href="../../favicon-16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="../../favicon-48.png" sizes="48x48" />
-  <link rel="icon" type="image/png" href="../../favicon-96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="../../favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="../../favicon-48.png" sizes="48x48">
+  <link rel="icon" type="image/png" href="../../favicon-96.png" sizes="96x96">
 
   
-  <link rel="canonical" href="https://www.picuino.com/es/arduprog/pc42-key1.html" />
+  <link rel="canonical" href="https://www.picuino.com/es/arduprog/pc42-key1.html">
 
   
   <link rel="search" type="application/opensearchdescription+xml"
         title="Search within ..."
-        href="../../_static/opensearch.xml"/>
+        href="../../_static/opensearch.xml">
 
-  <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css">
 
-  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
-  <link rel="index" title="Índice" href="../../genindex.html" />
-  <link rel="search" title="Búsqueda" href="../../search.html" />
-  <link rel="next" title="6. Pulsadores y Eventos" href="pc42-key2.html" />
-  <link rel="prev" title="4. Parpadeo de los LED" href="pc42-led2.html" />
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css">
+  <link rel="index" title="Índice" href="../../genindex.html">
+  <link rel="search" title="Búsqueda" href="../../search.html">
+  <link rel="next" title="6. Pulsadores y Eventos" href="pc42-key2.html">
+  <link rel="prev" title="4. Parpadeo de los LED" href="pc42-led2.html">
 
 </head>
 
@@ -91,7 +91,7 @@
 
   
 
-  <hr/>
+  <hr>
   
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -99,7 +99,7 @@
             
   <div class="section" id="pulsadores-y-estados">
 <span id="pc42-key1"></span><h1><span class="section-number">5. </span>Pulsadores y Estados<a class="headerlink" href="#pulsadores-y-estados" title="Enlazar permanentemente con este título">¶</a></h1>
-<a class="reference internal image-reference" href="../../_images/img-0095.jpg"><img alt="Pulsador." class="align-center" src="../../_images/img-0095.jpg" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../../_images/img-0095.jpg"><img alt="Pulsador." class="align-center" src="../../_images/img-0095.jpg" style="width: 300px;"></a>
 <div class="section" id="objetivos">
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
@@ -117,17 +117,17 @@ impreso.
 Las seis constantes y números que representan a los pulsadores son
 los siguientes.</p>
 <blockquote>
-<div><table border="1" class="docutils align-default">
+<div><table class="docutils align-default">
 <colgroup>
-<col width="48%" />
-<col width="52%" />
+<col style="width:48%;">
+<col style="width:52%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Constante</th>
 <th class="head">Pulsador</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>KEY_LEFT</td>
 <td>1</td>
 </tr>
@@ -155,7 +155,7 @@ los siguientes.</p>
 <h2>La función <a class="reference internal" href="#_CPPv410keyPressedi" title="keyPressed"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">keyPressed()</span></code></a><a class="headerlink" href="#la-funcion-keypressed" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="cpp function">
 <dt id="_CPPv410keyPressedi">
-<span id="_CPPv310keyPressedi"></span><span id="_CPPv210keyPressedi"></span><span id="keyPressed__i"></span>int <code class="descname">keyPressed</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410keyPressedi" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv310keyPressedi"></span><span id="_CPPv210keyPressedi"></span><span id="keyPressed__i"></span>int <code class="descname">keyPressed</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410keyPressedi" title="Enlazar permanentemente con esta definición">¶</a><br></dt>
 <dd><p>Esta función devuelve el valor de un pulsador.
 Devuelve el valor 1 si el pulsador está presionado y 0 si no lo
 está.
@@ -180,19 +180,19 @@ el estado real del pulsador hasta que devuelve el valor correcto.</p>
 <p>Si se utiliza el argumento <code class="docutils literal notranslate"><span class="pre">KEY_ALL</span></code>, la función devuelve un
 número que depende de la suma de los pulsadores que se encuentren
 presionados.</p>
-<table border="1" class="docutils align-default">
+<table class="docutils align-default">
 <colgroup>
-<col width="34%" />
-<col width="26%" />
-<col width="40%" />
+<col style="width:34%;">
+<col style="width:26%;">
+<col style="width:40%;">
 </colgroup>
-<thead valign="bottom">
+<thead style="vertical-align:bottom;">
 <tr class="row-odd"><th class="head">Pulsador presionado</th>
 <th class="head">Valor devuelto</th>
 <th class="head">Valor devuelto (binario)</th>
 </tr>
 </thead>
-<tbody valign="top">
+<tbody style="vertical-align:top;">
 <tr class="row-even"><td>KEY_LEFT</td>
 <td>1</td>
 <td>0b000001</td>
@@ -265,7 +265,7 @@ pulsador 1 (<code class="docutils literal notranslate"><span class="pre">KEY_LEF
 </pre></div>
 </td></tr></table></div>
 <p>Programa equivalente en el entorno Ardublock:</p>
-<a class="reference internal image-reference" href="../../_images/ardublock_keyPressed.png"><img alt="Programa de Ardublock para encender el led D1 con el pulsador 1 del panel de control PC42" src="../../_images/ardublock_keyPressed.png" style="width: 624px;" /></a>
+<a class="reference internal image-reference" href="../../_images/ardublock_keyPressed.png"><img alt="Programa de Ardublock para encender el led D1 con el pulsador 1 del panel de control PC42" src="../../_images/ardublock_keyPressed.png" style="width: 624px;"></a>
 <p>En este enlace se puede descargar el
 <a class="reference download internal" download="" href="../../_downloads/ardublock_keyPressed.abp"><code class="xref download docutils literal notranslate"><span class="pre">archivo</span> <span class="pre">de</span> <span class="pre">programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock</span> <span class="pre">'keyPressed'</span></code></a></p>
 </div>
@@ -346,14 +346,14 @@ Gracias a esto es un lenguaje muy potente y, a su vez, complejo de aprender.
 Por esta razón en los ejemplos siguientes aparecerá el mínimo número
 de expresiones lógicas, para no complicar el aprendizaje.</p>
 <p>El programa equivalente en el entorno Ardublock resulta más sencillo:</p>
-<a class="reference internal image-reference" href="../../_images/ardublock_keyPressed_2.png"><img alt="Programa de Ardublock para apagar el led D1 con el pulsador 1 del panel de control PC42" src="../../_images/ardublock_keyPressed_2.png" style="width: 668px;" /></a>
+<a class="reference internal image-reference" href="../../_images/ardublock_keyPressed_2.png"><img alt="Programa de Ardublock para apagar el led D1 con el pulsador 1 del panel de control PC42" src="../../_images/ardublock_keyPressed_2.png" style="width: 668px;"></a>
 <p><a class="reference download internal" download="" href="../../_downloads/ardublock_keyPressed_2.abp"><code class="xref download docutils literal notranslate"><span class="pre">Programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock:</span> <span class="pre">'keyPressed_2'</span></code></a></p>
 </div>
 <div class="section" id="la-funcion-keyvalue">
 <h2>La función <a class="reference internal" href="#_CPPv48keyValuei" title="keyValue"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">keyValue()</span></code></a><a class="headerlink" href="#la-funcion-keyvalue" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="cpp function">
 <dt id="_CPPv48keyValuei">
-<span id="_CPPv38keyValuei"></span><span id="_CPPv28keyValuei"></span><span id="keyValue__i"></span>int <code class="descname">keyValue</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48keyValuei" title="Enlazar permanentemente con esta definición">¶</a><br /></dt>
+<span id="_CPPv38keyValuei"></span><span id="_CPPv28keyValuei"></span><span id="keyValue__i"></span>int <code class="descname">keyValue</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48keyValuei" title="Enlazar permanentemente con esta definición">¶</a><br></dt>
 <dd><p>Esta función es semejante a la función <a class="reference internal" href="#_CPPv410keyPressedi" title="keyPressed"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">keyPressed()</span></code></a>
 vista anteriormente.
 Devuelve el valor de un pulsador. Si el pulsador está presionado,
@@ -467,7 +467,7 @@ Completar el programa que aparece a continuación.</p>
 </pre></div>
 </td></tr></table></div>
 <p>Programa equivalente en el entorno Ardublock:</p>
-<a class="reference external image-reference" href="_downloads/ardublock_keyPressed_3.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../../_images/ardublock_keyPressed_3.png" style="width: 669px;" /></a>
+<a class="reference external image-reference" href="_downloads/ardublock_keyPressed_3.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../../_images/ardublock_keyPressed_3.png" style="width: 669px;"></a>
 <p><a class="reference download internal" download="" href="../../_downloads/ardublock_keyPressed_3.abp"><code class="xref download docutils literal notranslate"><span class="pre">Programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock:</span> <span class="pre">'keyPressed_3'</span></code></a></p>
 </li>
 <li><p class="first">Al comenzar, se encenderá el led D1.
@@ -522,7 +522,7 @@ Completar el programa que aparece a continuación según los comentarios.</p>
 </pre></div>
 </td></tr></table></div>
 <p>Programa equivalente en el entorno Ardublock:</p>
-<a class="reference external image-reference" href="_downloads/ardublock_keyPressed_4.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../../_images/ardublock_keyPressed_4.png" style="width: 672px;" /></a>
+<a class="reference external image-reference" href="_downloads/ardublock_keyPressed_4.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../../_images/ardublock_keyPressed_4.png" style="width: 672px;"></a>
 <p><a class="reference download internal" download="" href="../../_downloads/ardublock_keyPressed_4.abp"><code class="xref download docutils literal notranslate"><span class="pre">Programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock:</span> <span class="pre">'keyPressed_4'</span></code></a></p>
 </li>
 <li><p class="first">Modificar el programa anterior para que los leds se enciendan desde el D6 hasta el D1.
@@ -575,7 +575,7 @@ Completar el programa que aparece a continuación según los comentarios.</p>
 </pre></div>
 </td></tr></table></div>
 <p>Programa equivalente en el entorno Ardublock:</p>
-<a class="reference external image-reference" href="_downloads/ardublock_keyPressed_5.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../../_images/ardublock_keyPressed_5.png" style="width: 680px;" /></a>
+<a class="reference external image-reference" href="_downloads/ardublock_keyPressed_5.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../../_images/ardublock_keyPressed_5.png" style="width: 680px;"></a>
 <p><a class="reference download internal" download="" href="../../_downloads/ardublock_keyPressed_5.abp"><code class="xref download docutils literal notranslate"><span class="pre">Programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock:</span> <span class="pre">'keyPressed_5'</span></code></a></p>
 </li>
 <li><p class="first">Después de presionar en orden la secuencia de pulsadores 2, 4 y 1, una cerradura electrónica
@@ -740,7 +740,7 @@ Completar los huecos del programa que aparece a continuación según los comenta
 </pre></div>
 </td></tr></table></div>
 <p>Programa equivalente en el entorno Ardublock:</p>
-<a class="reference external image-reference" href="_downloads/ardublock_keyPressed_6.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../../_images/ardublock_keyPressed_6.png" style="width: 854px;" /></a>
+<a class="reference external image-reference" href="_downloads/ardublock_keyPressed_6.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../../_images/ardublock_keyPressed_6.png" style="width: 854px;"></a>
 <p><a class="reference download internal" download="" href="../../_downloads/ardublock_keyPressed_6.abp"><code class="xref download docutils literal notranslate"><span class="pre">Programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock:</span> <span class="pre">'keyPressed_6'</span></code></a></p>
 </li>
 </ol>
@@ -764,7 +764,7 @@ Completar los huecos del programa que aparece a continuación según los comenta
     </div>
   
   
-  <hr/>
+  <hr>
 
   <div role="contentinfo">
     <ul class="link-list">
@@ -776,10 +776,10 @@ Completar los huecos del programa que aparece a continuación según los comenta
     </ul>
     <p class="content-info">
          Copyright &copy; 2013-2022 por Carlos Pardo Martín.
-      <br />
+      <br>
     Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
     programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
-    a menos que se indique lo contrario.<br />
+    a menos que se indique lo contrario.<br>
       <span class="lastupdated">
         Actualizado por última vez, octubre de 2022.
       </span>
@@ -797,9 +797,9 @@ Completar los huecos del programa que aparece a continuación según los comenta
   para propósitos funcionales y de análisis de navegación.
   Puedes obtener más información en nuestra 
   <a href="https://www.picuino.com/es/legal-cookies.html" 
-  target="_blank">política de Cookies.</a> <br />
+  target="_blank">política de Cookies.</a> <br>
   Si continúas navegando, aceptas su uso.
-  <br />
+  <br>
   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Solo requeridas</a> |
   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
   </div>
@@ -846,21 +846,21 @@ Completar los huecos del programa que aparece a continuación según los comenta
 
           
             
-            <img src="../../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino"/>
+            <img src="../../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
           
           </a>
-          <br />
+          <br>
           <a href="../index.html">Tecno Recursos</a>
-          <br /><br />
+          <br><br>
 
           
 
           
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Buscar docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
   </form>
 </div>
 
@@ -913,7 +913,7 @@ Completar los huecos del programa que aparece a continuación según los comenta
           
 
           <!-- Enlaces directos -->
-          <br />
+          <br>
           <ul>
           <li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/test/">Test de Tecnología</a>
@@ -923,8 +923,8 @@ Completar los huecos del programa que aparece a continuación según los comenta
           href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
           </li>
           </ul>
-          <br />
-          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30" /> </a>
+          <br>
+          <a href="https://twitter.com/picuino" target="_blank" class="socialmedia"><img src="../../_static/twitter.png" title="Picuino en Twitter" alt="Picuino en Twitter"  height="30"> </a>
 
         </div>
       </div>

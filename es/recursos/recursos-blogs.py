@@ -1,49 +1,63 @@
 import os
 import re
-import codecs
-
+import jinja2
+import yaml
+import math
 
 def main():
-    data = read('../recursos-blogs.rst')
-    webs = re.split('#. ', data)
-    webs.sort(key = get_rank)
-    write('recursos-blogs.txt', '#. '.join(webs))
+   data = load_yaml('recursos-blogs.yaml')
+   data = process(data)
+   data['webs'] = sorted(data['webs'], key=sorted_key)
+   for web in data['webs']:
+      print(web['webname'])
+   rst_data = render_template('recursos-blogs.txt', data)
+   write('../recursos-blogs.rst', rst_data)
 
 
-def get_rank(web):
-    rank = web.split('\n')[4:5]
-    try:
-        rank = int(re.sub('[, \n]', '', rank[0]))
-        return rank
-    except:
-        return 99000000
+def process(data):
+   webs = data['webs']
+   for web in webs:
+      if re.search('[0-9,]{3,10}', web['similarweb_rank']):
+         web['similarweb_rank'] = int(web['similarweb_rank'].replace(',', ''))
+      if ('visitas' in web and web['visitas'] and web['duracion']):
+         duracion = web['duracion'].split(':')
+         duracion = int(duracion[0])*60 + int(duracion[1])
+         web['duracion'] = duracion
+   return data
 
-def include_similarweb(webs):
-    for i in range(1, len(webs)):
-        url = url_get(webs[i])
-        if re.search('   `Similarweb rank#', webs[i]):
-            webs[i] = re.sub('   `Similarweb rank#',
-                   '   `Similarweb rank\n   <https://www.similarweb.com/es/website/%s/#overview>`__ :\n   \n' % url, webs[i])
-        return webs
+
+def sorted_key(web):
+   if ('visitas' in web and web['visitas'] and web['duracion']):
+      visitas = float(web['visitas'])
+      duracion = web['duracion']
+      paginas = float(web['paginas_visita'])
+      penalizacion = 1.0      
+      if 'penalizacion' in web:
+         penalizacion = float(web['penalizacion'])
+      rank = int(6000000/( visitas * duracion * paginas * penalizacion ))
+   else:
+      rank = web['similarweb_rank']
+      if not isinstance(rank, int):
+         rank = 99000000
+   return rank
 
 
 def write(filename, data):
-    with codecs.open(filename, 'w', encoding='utf-8') as fo:
-        fo.write(data)
+   with open(filename, 'w', encoding='utf-8') as fo:
+      fo.write(data) 
 
 
-def url_get(line):
-    pattern = 'https?://[^>]*'
-    if re.search(pattern, line):
-        url = re.findall(pattern, line)[0]
-        url = re.split('://', url)[1].strip('/')
-        return url
-    return None
+def render_template(filename, data):
+   environment = jinja2.Environment(loader=jinja2.FileSystemLoader("."))
+   template = environment.get_template(filename)
+   rst_data = template.render(data = data)
+   return rst_data
 
-def read(filename):
-    with codecs.open(filename, 'r', encoding='utf-8') as fi:
-        data = fi.read()
-    return data
+
+def load_yaml(filename):
+   with open(filename, 'r', encoding='utf-8') as fi:
+      data = yaml.load(fi, Loader=yaml.Loader)
+   return data
 
 
 main()
