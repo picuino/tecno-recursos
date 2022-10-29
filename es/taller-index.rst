@@ -17,7 +17,6 @@ Recursos para actividades de taller.
 
 
 .. toctree::
-   :numbered: 1
    :maxdepth: 1
    :titlesonly:
 

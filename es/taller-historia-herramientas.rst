@@ -1,10 +1,9 @@
 ﻿:Date: 05/02/2021
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
-
+:tocdepth: 1
 
 .. _taller-historia-herramientas:
-
 
 Historia de las herramientas
 ============================

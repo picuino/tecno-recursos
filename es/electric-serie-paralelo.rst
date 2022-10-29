@@ -1,12 +1,12 @@
 ﻿:Date: 10/12/2018
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
-
+:tocdepth: 1
 
 .. _electric-serie-paralelo:
 
-Serie y paralelo
-================
+Serie, paralelo y cortocircuito
+===============================
 Los circuitos eléctricos pueden conectarse de muchas maneras posibles.
 Las conexiones más simples son la conexión en serie y la conexión 
 en paralelo. Combinando ambas se consigue una conexión mixta.

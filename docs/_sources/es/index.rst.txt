@@ -11,7 +11,7 @@
 Recursos educativos libres para Tecnología en Educación Secundaria.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    dibujo-index.rst
    mecan-index.rst
@@ -37,3 +37,6 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
 * `Test de Tecnología <https://www.picuino.com/test>`_
 * `Foro de Tecnología <https://www.picuino.com/foro>`_
 * `Proyecto en GitHub <https://github.com/picuino/tecno-recursos>`_
+
+
+Listado completo de 

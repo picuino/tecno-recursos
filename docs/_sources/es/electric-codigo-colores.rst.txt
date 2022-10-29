@@ -42,7 +42,7 @@ Tabla del código de colores
 .. figure:: electric/_images/electric-codigo-colores-resistencias.png
    :width: 480px
    :align: center
-   :alt: Tabla con el código de colores de las resistencias
+   :alt: Tabla con el código de colores de las resistencias.
 
 Prefijos del sistema internacional:
 

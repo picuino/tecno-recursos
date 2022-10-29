@@ -5,7 +5,7 @@
 
 .. _ley-tecnologia-ingenieria:
 
-Tecnologia e Ingenieria
+Tecnología e Ingeniería
 =======================
 
 .. contents:: Índice de contenidos

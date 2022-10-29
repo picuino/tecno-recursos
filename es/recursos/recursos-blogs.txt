@@ -1,6 +1,28 @@
-﻿{{ data.header }}
+﻿:Date: 16/01/2021
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+:tocdepth: 1
 
-{% for web in data.webs -%}
+.. _recursos-blogs:
+
+Blogs y webs de Tecnología para Secundaria
+==========================================
+
+Ranking de blogs y páginas web de Tecnología para Educación Secundaria.
+
+Los `ranking de Similarweb <https://www.similarweb.com/es/>`__
+se han tomado en octubre de 2022, por lo que corresponden a los
+datos de septiembre de 2022.
+
+Para realizar la ordenación de las páginas web se ha tomado como
+base el cálculo de la multiplicación del número de visitas mensuales por 
+la duración media de las visitas por el número de páginas por visita.
+Los números más altos se colocan primeros en la lista.
+
+Cuando estos datos no están disponibles, se ha ordenado por el
+ranking suministrado por Similarweb.
+
+{% for web in webs -%}
 {% set rank = web.similarweb_rank -%}
 {% if rank is number -%}
 {% set rank = '{:0.1f} k'.format(rank / 1000.0) -%}
@@ -9,7 +31,7 @@
 #. `{{ web.webname }}
    <{{ web.url }}>`_
 
-   .. image:: {{ web.screenshot }}
+   .. image:: recursos/screenshots/{{ web.screenshot }}
       :target: {{ web.url }}
       :alt: Screenshot de la página web {{ web.webname }}.
 
@@ -28,7 +50,7 @@
 
    {%- if 'comentario' in web %}
 
-   {{ web.comentario|indent(3)}}
+   {{ web.comentario | indent(3)}}
    {%- endif %}
 
 {% endfor %}

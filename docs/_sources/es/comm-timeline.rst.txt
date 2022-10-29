@@ -1,10 +1,9 @@
 ﻿:Date: 21/12/2019
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
-
+:tocdepth: 1
 
 .. _comm-timeline:
-
 
 Línea de tiempo de las comunicaciones
 =====================================

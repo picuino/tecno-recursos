@@ -41,7 +41,7 @@ Ejercicios
 2. Cambia la resistencia de 220 Ohmios por otra resistencia de 1000
    Ohmios. Comprobarás que la luminosidad del led disminuye.
 
-   Cambia la resistencia de 220 Ohmios por otra resistencia de 100
+   Cambia la resistencia de 220 Ohmios por otra resistencia de 150
    Ohmios. Comprobarás que la luminosidad del led aumenta.
 
    La resistencia que acompaña al led sirve para limitar la corriente

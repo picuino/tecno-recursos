@@ -1,6 +1,7 @@
 ﻿:Date: 21/01/2021
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+:tocdepth: 1
 
 .. _didactica-evaluacion-asignatura:
 

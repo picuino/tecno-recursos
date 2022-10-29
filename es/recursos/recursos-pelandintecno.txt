@@ -1,0 +1,21 @@
+﻿:Date: 28/10/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+:tocdepth: 1
+
+
+.. _recursos-pelandintecno:
+
+Indice de entradas del blog Pelandintecno
+=========================================
+
+`Pelandintecno <http://pelandintecno.blogspot.com/>`__
+es uno de los blogs de referencia de Tecnología
+en Educación Secundaria.
+En esta página aparecen las distintas entradas que se pueden
+encontrar en el blog, ordenadas por fecha.
+
+{% for web in webs %}
+#. `{{ web.date }}. {{ web.title }}
+   <{{ web.url }}>`__
+{% endfor %}

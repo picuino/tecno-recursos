@@ -1,6 +1,7 @@
 ﻿:Date: 26/06/2021
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+:tocdepth: 1
 
 
 .. _electric-sistema-electrico:

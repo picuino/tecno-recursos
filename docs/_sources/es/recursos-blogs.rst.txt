@@ -1,24 +1,26 @@
 ﻿:Date: 16/01/2021
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+:tocdepth: 1
 
-.. _external-blogs:
+.. _recursos-blogs:
 
 Blogs y webs de Tecnología para Secundaria
 ==========================================
 
-Blogs y páginas web de Tecnología para Educación Secundaria.
+Ranking de blogs y páginas web de Tecnología para Educación Secundaria.
 
 Los `ranking de Similarweb <https://www.similarweb.com/es/>`__
 se han tomado en octubre de 2022, por lo que corresponden a los
 datos de septiembre de 2022.
 
 Para realizar la ordenación de las páginas web se ha tomado como
-base el cálculo del número de visitas mensuales por la duración de
-la visita por el número de páginas por visita.
+base el cálculo de la multiplicación del número de visitas mensuales por 
+la duración media de las visitas por el número de páginas por visita.
+Los números más altos se colocan primeros en la lista.
+
 Cuando estos datos no están disponibles, se ha ordenado por el
 ranking suministrado por Similarweb.
-
 
 #. `Areatecnología
    <https://www.areatecnologia.com/>`_

@@ -1,13 +1,13 @@
 ﻿:Date: 06/04/2022
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
-
+:tocdepth: 1
 
 .. _ley-secundaria:
 
-Curriculo de la ESO
+Currículo de la ESO
 ===================
-Curriculo de enseñanzas mínimas en la Educación Secundaria Obligatoria.
+Currículo de enseñanzas mínimas en la Educación Secundaria Obligatoria.
 
 .. contents:: Índice de contenidos
    :local:
@@ -162,6 +162,145 @@ l. Apreciar la creación artística y comprender el lenguaje de las
    distintas manifestaciones artísticas, utilizando diversos medios de
    expresión y representación.
 
+
+Perfil de salida del alumnado
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+El Perfil de salida del alumnado al término de la enseñanza básica es la
+herramienta en la que se concretan los principios y los fines del sistema
+educativo español referidos a dicho periodo. El Perfil identifica y 
+define, en conexión con los retos del siglo XXI, las competencias clave 
+que se espera que los alumnos y alumnas hayan desarrollado al completar
+esta fase de su itinerario formativo.
+ 
+El Perfil de salida es único y el mismo para todo el territorio nacional.
+Es la piedra angular de todo el currículo, la matriz que cohesiona y hacia
+donde convergen los objetivos de las distintas etapas que constituyen la
+enseñanza básica. Se concibe, por tanto, como el elemento que debe
+fundamentar las decisiones curriculares, así como las estrategias y las
+orientaciones metodológicas en la práctica lectiva. Debe ser, además, el
+fundamento del aprendizaje permanente y el referente de la evaluación
+interna y externa de los aprendizajes del alumnado, en particular en lo
+relativo a la toma de decisiones sobre promoción entre los distintos
+cursos, así como a la obtención del título de Graduado en Educación
+Secundaria Obligatoria.
+
+El Perfil de salida parte de una visión a la vez estructural y funcional
+de las competencias clave, cuya adquisición por parte del alumnado se
+considera indispensable para su desarrollo personal, para resolver
+situaciones y problemas de los distintos ámbitos de su vida, para crear
+nuevas oportunidades de mejora, así como para lograr la continuidad de su
+itinerario formativo y facilitar y desarrollar su inserción y participación
+activa en la sociedad y en el cuidado de las personas, del entorno natural
+y del planeta. Se garantiza así la consecución del doble objetivo de
+formación personal y de socialización previsto para la enseñanza básica
+en el artículo 4.4 de la LOE, con el fin de dotar a cada alumno o alumna
+de las herramientas imprescindibles para que desarrolle un proyecto de
+vida personal, social y profesional satisfactorio. Dicho proyecto se
+constituye como el elemento articulador de los diversos aprendizajes que
+le permitirán afrontar con éxito los desafíos y los retos a los que habrá
+de enfrentarse para llevarlo a cabo.
+
+El referente de partida para definir las competencias recogidas en el
+Perfil de salida ha sido la Recomendación del Consejo de la Unión
+Europea, de 22 de mayo de 2018, relativa a las competencias clave para
+el aprendizaje permanente. El anclaje del Perfil de salida a la
+Recomendación del Consejo refuerza el compromiso del sistema educativo
+español con el objetivo de adoptar unas referencias comunes que
+fortalezcan la cohesión entre los sistemas educativos de la Unión
+Europea y faciliten que sus ciudadanos y ciudadanas, si así lo
+consideran, puedan estudiar y trabajar a lo largo de su vida tanto en su
+propio país como en otros países de su entorno.
+
+En el Perfil, las competencias clave de la Recomendación europea se han
+vinculado con los principales retos y desafíos globales del siglo XXI a
+los que el alumnado va a verse confrontado y ante los que necesitará
+desplegar esas mismas competencias clave. Del mismo modo, se han
+incorporado también los retos recogidos en el documento Key Drivers of
+Curricula Change in the 21st Century de la Oficina Internacional de
+Educación de la UNESCO, así como los Objetivos de Desarrollo Sostenible
+de la Agenda 2030 adoptada por la Asamblea General de las Naciones
+Unidas en septiembre de 2015.
+ 
+La vinculación entre competencias clave y retos del siglo XXI es la que
+dará sentido a los aprendizajes, al acercar la escuela a situaciones,
+cuestiones y problemas reales de la vida cotidiana, lo que, a su vez,
+proporcionará el necesario punto de apoyo para favorecer situaciones de
+aprendizaje significativas y relevantes, tanto para el alumnado como
+para el personal docente. Se quiere garantizar que todo alumno o alumna
+que supere con éxito la enseñanza básica y, por tanto, alcance el Perfil
+de salida sepa activar los aprendizajes adquiridos para responder a los
+principales desafíos a los que deberá hacer frente a lo largo de su vida:
+ 
+  * Desarrollar una actitud responsable a partir de la toma de conciencia
+    de la degradación del medioambiente y del maltrato animal basada en
+    el conocimiento de las causas que los provocan, agravan o mejoran,
+    desde una visión sistémica, tanto local como global.
+  
+  * Identificar los diferentes aspectos relacionados con el consumo
+    responsable, valorando sus repercusiones sobre el bien individual y
+    el común, juzgando críticamente las necesidades y los excesos y
+    ejerciendo un control social frente a la vulneración de sus derechos.
+    
+  * Desarrollar estilos de vida saludable a partir de la comprensión del
+    funcionamiento del organismo y la reflexión crítica sobre los
+    factores internos y externos que inciden en ella, asumiendo la
+    responsabilidad personal y social en el cuidado propio y en el
+    cuidado de las demás personas, así como en la promoción de la salud
+    pública.
+    
+  * Desarrollar un espíritu crítico, empático y proactivo para detectar
+    situaciones de inequidad y exclusión a partir de la comprensión de
+    las causas complejas que las originan.
+
+  * Entender los conflictos como elementos connaturales a la vida en
+    sociedad que deben resolverse de manera pacífica.
+
+  * Analizar de manera crítica y aprovechar las oportunidades de todo
+    tipo que ofrece la sociedad actual, en particular las de la cultura
+    en la era digital, evaluando sus beneficios y riesgos y haciendo un
+    uso ético y responsable que contribuya a la mejora de la calidad de
+    vida personal y colectiva.
+    
+  * Aceptar la incertidumbre como una oportunidad para articular
+    respuestas más creativas, aprendiendo a manejar la ansiedad que puede
+    llevar aparejada.
+    
+  * Cooperar y convivir en sociedades abiertas y cambiantes, valorando la
+    diversidad personal y cultural como fuente de riqueza e interesándose
+    por otras lenguas y culturas.
+
+  * Sentirse parte de un proyecto colectivo, tanto en el ámbito local
+    como en el global, desarrollando empatía y generosidad.
+
+  * Desarrollar las habilidades que le permitan seguir aprendiendo a lo
+    largo de la vida, desde la confianza en el conocimiento como motor
+    del desarrollo y la valoración crítica de los riesgos y beneficios de
+    este último.
+    
+La respuesta a estos y otros desafíos –entre los que existe una absoluta
+interdependencia– necesita de los conocimientos, destrezas y actitudes
+que subyacen a las competencias clave y son abordados en las distintas
+áreas, ámbitos y materias que componen el currículo. Estos contenidos
+disciplinares son imprescindibles, porque sin ellos el alumnado no
+entendería lo que ocurre a su alrededor y, por tanto, no podría valorar
+críticamente la situación ni, mucho menos, responder adecuadamente. Lo
+esencial de la integración de los retos en el Perfil de salida radica en
+que añaden una exigencia de actuación, la cual conecta con el enfoque
+competencial del currículo: la meta no es la mera adquisición de
+contenidos, sino aprender a utilizarlos para solucionar necesidades
+presentes en la realidad.
+
+Estos desafíos implican adoptar una posición ética exigente, ya que
+suponen articular la búsqueda legítima del bienestar personal respetando
+el bien común. Requieren, además, trascender la mirada local para
+analizar y comprometerse también con los problemas globales. Todo ello
+exige, por una parte, una mente compleja, capaz de pensar en términos
+sistémicos, abiertos y con un alto nivel de incertidumbre, y, por otra,
+la capacidad de empatizar con aspectos relevantes, aunque no nos afecten
+de manera directa, lo que implica asumir los valores de justicia social,
+equidad y democracia, así como desarrollar un espíritu crítico y
+proactivo hacia las situaciones de injusticia, inequidad y exclusión.
+ 
 
 Competencias clave que se deben adquirir
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
