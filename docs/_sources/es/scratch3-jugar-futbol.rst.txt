@@ -191,8 +191,8 @@ jugarán al fútbol pasándose un balón de uno a otro.
 -----
 
 
-Ejercicios
-----------
+Retos
+-----
 
 1. Modifica el programa para que los personajes estén situados
    en otro lugar distinto de la pantalla.

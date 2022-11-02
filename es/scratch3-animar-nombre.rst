@@ -143,8 +143,8 @@ pase sobre cada letra, esta mostrará un efecto especial.
 -----
 
 
-Ejercicios
-----------
+Retos
+-----
 
 1. Completa el nombre con más letras que tengan efectos
    especiales basados en los que se han visto en este tutorial.

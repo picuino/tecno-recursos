@@ -94,8 +94,8 @@ como giro o tamaño.
 -----
 
 
-Ejercicios
-----------
+Retos
+-----
 
 1. Inventa un dibujo hecho con varios disfraces sellados en la 
    pantalla, con diferentes tamaños y giros.

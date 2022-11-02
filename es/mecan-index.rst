@@ -23,8 +23,8 @@ neumática e hidráulica.
    :titlesonly:
 
    mecan-estructuras-index.rst
-   freecad-index.rst
    mecan-maquinas-index.rst
+   freecad-index.rst
    mecan-neumatic-intro.rst
    mecan-origami.rst
    mecan-recursos.rst

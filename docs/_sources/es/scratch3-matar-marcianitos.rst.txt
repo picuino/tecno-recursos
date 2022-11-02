@@ -161,8 +161,8 @@ parte superior de la pantalla.
 -----
 
 
-Ejercicios
-----------
+Retos
+-----
 
 1. Añade una condición para que la nave desaparezca cuando la
    toque un marciano y el juego terminará.

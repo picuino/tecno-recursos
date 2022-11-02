@@ -159,8 +159,8 @@ para que el cohete aterrize a baja velocidad y no se estrelle.
 -----
 
 
-Ejercicios
-----------
+Retos
+-----
 
 1. Añade meteoritos que se muevan de lado a lado lentamente
    para que el cohete tenga que sortearlos.

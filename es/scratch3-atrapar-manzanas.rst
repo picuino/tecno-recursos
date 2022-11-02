@@ -230,8 +230,8 @@ Cuando el gato pierda sus tres vidas, el juego se acabará.
 -----
 
 
-Ejercicios
-----------
+Retos
+-----
 
 1. Añade un nuevo personaje que quite vidas igual que el rayo.
    Este nuevo personaje debe aparecer después de 10 segundos de

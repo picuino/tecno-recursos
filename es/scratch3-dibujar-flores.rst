@@ -165,8 +165,8 @@ de dirección.
 -----
 
 
-Ejercicios
-----------
+Retos
+-----
 
 1. Modifica el programa para que la función flor no cambie el 
    color de los puntos y todos tengan el mismo color. 

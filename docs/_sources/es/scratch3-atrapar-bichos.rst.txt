@@ -78,7 +78,6 @@ de ello.
 
    |br|
 
-
 #. Realizamos un programa que 
    esconde el escarabajo, reduce su tamaño, 
    inicia el número de clones a cero y
@@ -86,8 +85,6 @@ de ello.
 
    .. image:: scratch3/_images/scratch3-p06-ladybug-01.png
       :width: 245px
-
-
 
    |br|
 
@@ -159,8 +156,8 @@ de ello.
 -----
 
 
-Ejercicios
-----------
+Retos
+-----
 
 1. Añade una nueva regla al juego. Si el número de escarabajos es
    mayor que 25, entonces perdemos el juego.

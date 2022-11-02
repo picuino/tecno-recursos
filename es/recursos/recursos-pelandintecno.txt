@@ -1,4 +1,5 @@
-﻿:Date: 28/10/2022
+﻿:orphan:
+:Date: 28/10/2022
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
@@ -13,9 +14,20 @@ Indice de entradas del blog Pelandintecno
 es uno de los blogs de referencia de Tecnología
 en Educación Secundaria.
 En esta página aparecen las distintas entradas que se pueden
-encontrar en el blog, ordenadas por fecha.
+encontrar en el blog, clasificadas y ordenadas por fecha.
 
-{% for web in webs %}
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 2
+
+{% for section in database -%}
+{% set underscore = '-' * (section[0]|length) -%}
+{{section[0]}}
+{{ underscore }}
+
+{% for web in section[1] -%}
 #. `{{ web.date }}. {{ web.title }}
    <{{ web.url }}>`__
+{% endfor %}
+
 {% endfor %}
