@@ -19,10 +19,6 @@ chocarse con ellos.
 .. image:: scratch3/_images/scratch3-p15-screen.png
    :width: 360px
 
-.. note::
-
-   PÁGINA EN CONSTRUCCIÓN.
-
 |br|
 
 #. Iniciamos el |editor_de_Scratch|.
@@ -59,7 +55,7 @@ chocarse con ellos.
    la velocidad de salto del dinosaurio.
    Al comienzo del salto esta velocidad será positiva, pero irá
    decreciendo hasta hacerse negativa cuando el dinosaurio caiga
-   del salto.
+   hacia el suelo.
 
    Pulsamos el botón de variables |boton-variables|,
 
@@ -90,8 +86,8 @@ chocarse con ellos.
 
    |br|
 
-#. Creamos tres bloques distintos **Iniciar**, **Saltar y **Finalizar**
-   que programaremos más adelante.
+#. Creamos tres bloques distintos **Iniciar**, **Saltar** y 
+   **Finalizar** que programaremos más adelante.
 
 
 #. Ahora ya podemos crear nuestro primer programa del dinosaurio.
@@ -269,9 +265,10 @@ chocarse con ellos.
 
    |br|
 
-#. Cada vez que comience como clon un árbol, se debe mostrar en pantalla
-   y esperar hasta que toque el borde izquierdo. En ese momento
-   aplicaremos un efecto de desvanecimiento y eliminamos el clon.
+#. Cada vez que comience como clon un árbol, se debe mostrar en 
+   pantalla y esperar hasta que toque el borde izquierdo. 
+   En ese momento aplicaremos un efecto de desvanecimiento y 
+   eliminamos el clon.
 
    .. image:: scratch3/_images/scratch3-p15-arboles-3.png
       :width: 354px
@@ -331,6 +328,19 @@ chocarse con ellos.
 Retos
 -----
 
-#. Añade un movimiento de giro a cada salto del personaje.
+#. Aumenta la aceleración en el salto para hacer el juego más difícil.
+   Para conseguirlo, resta a la velocidad, en el bloque Saltar,
+   un número mayor. Prueba con varios valores hasta que encuentres uno
+   que funcione, pero haga más difícil el juego.
+
+   |br|
+
+#. Añade un movimiento de giro en cada salto del personaje.
+
+   |br|
+
+#. Cuando los puntos tengan un valor superior a 1000, aumenta la 
+   dificultad del juego haciendo que aparezcan árboles con más 
+   frecuencia (cada menos tiempo).
 
    |br|
