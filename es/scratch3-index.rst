@@ -34,8 +34,7 @@ Tutorial para aprender a programar en Scratch 3.
    scratch3-dibujar-flores.rst
    scratch3-aterrizar-cohete.rst
    scratch3-recorrer-laberintos.rst
-   
-.. scratch3-saltar-cactus.rst
-   
+   scratch3-saltar-arboles.rst
+
 
 .. :ref:`Tutorial de Scratch3 en inglés (en construcción). <scratch3-en-index>`.

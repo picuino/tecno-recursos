@@ -7,14 +7,15 @@
 
 .. _recursos-pelandintecno:
 
-Indice de entradas del blog Pelandintecno
-=========================================
+Indice del blog Pelandintecno
+=============================
 
 `Pelandintecno <http://pelandintecno.blogspot.com/>`__
 es uno de los blogs de referencia de Tecnología
 en Educación Secundaria.
 En esta página aparecen las distintas entradas que se pueden
-encontrar en el blog, clasificadas y ordenadas por fecha.
+encontrar en el blog, clasificadas y ordenadas por fecha más 
+reciente.
 
 .. contents:: Índice de contenidos
    :local:

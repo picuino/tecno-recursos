@@ -124,6 +124,14 @@
 
 
 .. =======================
+   BOTONES DE DISFRACES
+   =======================
+
+.. |boton-seleccion| image:: scratch3/_images/scratch3-boton-seleccion.png
+                      :align: middle
+
+
+.. =======================
    INSTRUCCIONES DE CÓDIGO
    =======================
 

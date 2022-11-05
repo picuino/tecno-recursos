@@ -1,0 +1,193 @@
+﻿:Date: 29/10/2022
+:Author: Carlos Pardo Martín
+:Copyright: Creative Commons Attribution-ShareAlike 4.0 International
+
+
+.. include:: scratch3-subs.rst
+
+.. _scratch3-saltar-plantas:
+
+Saltar plantas
+==============
+
+En esta práctica vamos a programar un juego parecido al juego del
+dinosaurio que aparece en el navegador Chrome cuando no hay conexión
+a internet. Un personaje correrá todo el tiempo hacia la derecha de
+la pantalla mientras aparecen plantas que tendrá que saltar para no
+chocarse con ellas.
+
+.. image:: scratch3/_images/scratch3-p15-screen.png
+   :width: 360px
+
+.. note::
+
+   PÁGINA EN CONSTRUCCIÓN.
+
+|br|
+
+#. Iniciamos el |editor_de_Scratch|.
+
+   |br|
+
+#. Pulsamos el botón idioma |boton-idioma| en la barra
+   superior y elegimos **español**.
+
+   |br|
+
+
+#. Borramos el objeto gato presionando sobre el icono del
+   cubo de basura.
+
+   |borrar-gato|
+
+   |br|
+
+
+#. A continuación añadimos un nuevo personaje, un **dinosaurio**.
+
+   Pulsamos el botón elige un objeto |seleccionar-objeto|.
+
+   Buscamos en la sección **Animales**.
+
+   y seleccionamos el objeto **Dinosaur4**.
+
+   .. image:: scratch3/_images/scratch3-p15-dinosaur4.png
+
+   |br|
+
+#. Ahora crearemos la variable **velocidad** que va a almacenar
+   la velocidad de salto del dinosaurio.
+   Al comienzo del salto esta velocidad será positiva, pero irá
+   decreciendo hasta hacerse negativa cuando el dinosaurio caiga
+   del salto.
+
+   Pulsamos el botón de variables |boton-variables|,
+
+   pulsamos en crear una variable  |boton-crear-variable|.
+
+   Cambiamos el nombre de la variable a **velocidad**
+
+   .. image:: scratch3/_images/scratch3-crear-variable-velocidad.png
+   
+
+   Por último pulsamos el botón **Aceptar**
+
+   |br|
+
+#. Ahora crearemos la variable **puntos** que va a almacenar
+   los puntos que obtenemos durante el juego.
+
+   Pulsamos el botón de variables |boton-variables|,
+
+   pulsamos en crear una variable  |boton-crear-variable|.
+
+   Cambiamos el nombre de la variable a **puntos**
+
+   .. image:: scratch3/_images/scratch3-crear-variable-puntos.png
+   
+
+   Por último pulsamos el botón **Aceptar**
+
+   |br|
+
+#. Creamos tres bloques distintos **Iniciar**, **Saltar y **Finalizar**
+   que programaremos más adelante.
+
+
+#. Ahora ya podemos crear nuestro primer programa del dinosaurio.
+   Al comenzar el programa iniciará las variables y posiciones,
+   después de esperar un segundo enviará a todos los objetos la
+   orden de jugar y por siempre se encargará de hacer saltar al
+   dinosaurio y de comprobar si el programa ha finalizado.
+
+   En este tipo de programación Top-Down primero definimos esta
+   rutina principal y después detallaremos cada una de las subrutinas
+   secundarias.
+
+   .. image:: scratch3/_images/scratch3-p15-dinosaur-1.png
+      :width: 371px
+
+   |br|
+
+#. Para continuar, definimos las órdenes del bloque **Iniciar**.
+   Este bloque va a borrar la pantalla, situará al dinosaurio en su
+   posición de inicio, le mostrará el tamaño y disfraz adecuado.
+   También establecerá los valores iniciales de las variables y su
+   visualización en pantalla.
+
+   .. image:: scratch3/_images/scratch3-p15-dinosaur-2.png
+      :width: 271px
+
+   |br|
+
+#. También programaremos el bloque **Saltar**.
+   Este bloque calcula la velocidad del salto cuando el dinosaurio
+   se encuentra por encima del suelo, de manera que suba con una
+   velocidad cada vez menor hasta que comienza a caer otra vez
+   hacia el suelo.
+   Este programa simula la fuerza de la gravedad y la dinámica
+   de un salto real.
+
+   Una vez en el suelo (posición y < -32), el dinosaurio volverá
+   a tener velocidad cero.
+
+   Cuando pulsemos las teclas espacio o flecha hacia arriba, el
+   dinosaurio volverá a saltar hacia arriba con una velocidad
+   inicial de 10.
+
+   .. image:: scratch3/_images/scratch3-p15-dinosaur-3.png
+      :width: 713px
+
+   |br|
+
+#. El bloque **Finalizar** se encarga de comprobar que el dinosaurio
+   ha chocado con un árbol. En ese caso se copia en pantalla una
+   imagen del dinosaurio con la boca abierta, que no se mueva.
+   Envía el mensaje Muere a todos los demás objetos y finaliza
+   el programa.
+
+   .. image:: scratch3/_images/scratch3-p15-dinosaur-4.png
+      :width: 330px
+
+   |br|
+
+#. Para continuar, programaremos el comportamiento del marcador
+   de puntos al comenzar el juego. Este marcador debe sumar puntos
+   continuamente hasta que el juego termine.
+
+   .. image:: scratch3/_images/scratch3-p15-dinosaur-5.png
+      :width: 246px
+
+   |br|
+
+#. Para conseguir un movimiento más realista, desde el momento en
+   el que comience el juego vamos a cambiar el disfraz del dinosaurio
+   continuamente para que parezca que está corriendo.
+
+   .. image:: scratch3/_images/scratch3-p15-dinosaur-6.png
+      :width: 287px
+
+   |br|
+
+
+#. Pulsamos la bandera verde |bandera-verde|
+   para probar el funcionamiento del programa.
+
+   El dinosaurio correrá manteniéndose en una posición fija de la
+   pantalla. Cuando pulsemos espacio o flecha arriba, el dinosaurio
+   deberá dar un salto hacia arriba y volver a caer. 
+   |br|
+
+
+
+
+
+-----
+
+
+Retos
+-----
+
+#. Añade un movimiento de giro a cada salto del personaje.
+
+   |br|

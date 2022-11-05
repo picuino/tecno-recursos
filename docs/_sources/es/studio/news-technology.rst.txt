@@ -19,7 +19,7 @@ Revolución industrial 4.0
 * | `La llegada del 5G abre la puerta a la cuarta revolución industrial
     <https://elpais.com/economia/2019/03/01/actualidad/1551472403_023550.html>`_
   | La nueva tecnología traerá una conexión más rápida que solucionará
-    los problemas de cobertura, permitirá avances en el coche autónomo
+    los problemas de cobertura, permitirá avances en el automóvil autónomo
     y mejorará la vida de las baterías.
   | (2 MAR 2019)
 

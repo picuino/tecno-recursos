@@ -22,4 +22,5 @@ Otros recursos para tecnología
    recursos-sopa-letras.rst
    recursos-evaluacion-asignatura.rst
    recursos-blogs.rst
+   recursos-pelandintecno.rst
    recursos-images.rst
