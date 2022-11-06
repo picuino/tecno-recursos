@@ -277,7 +277,6 @@ de almacenamiento.
       * `CrystalDiskInfo <https://crystalmark.info/en/software/crystaldiskinfo/>`__
       * `HDDScan <https://hddscan.com/>`__
       * `Clear Disk Info <https://www.carifred.com/cleardiskinfo/>`__
-      * `HDD Health <https://panterasoft.com/download_ok.html>`__
 
 
    RAID

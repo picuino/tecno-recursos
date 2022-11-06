@@ -28,7 +28,7 @@ Componentes electrónicos para Arduino
 +==========+============================================================================================================+
 | **Controlador**                                                                                                       |
 +----------+------------------------------------------------------------------------------------------------------------+
-| 1        | Placa `Arduino UNO <https://www.arduino.cc/en/Main/ArduinoBoardUno/>`_                                     |
+| 1        | Placa `Arduino UNO <https://store.arduino.cc/products/arduino-uno-rev3>`_                                  |
 +----------+------------------------------------------------------------------------------------------------------------+
 | 1        | Cable de comunicaciones `USB con terminaciones A y B                                                       |
 |          | <../../_downloads/arduino-uno-cable-usb.jpg>`__                                                            |

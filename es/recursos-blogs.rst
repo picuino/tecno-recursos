@@ -564,10 +564,10 @@ ranking suministrado por Similarweb.
         - 14758.6 k
 
 #. `Wikilibro Tecno Recursos
-   <https://es.wikibooks.org/wiki/Tecno_Recursos/>`_
+   <https://es.wikibooks.org/wiki/Tecno_Recursos>`_
 
    .. image:: recursos/screenshots/recursos-es_wikibooks_org_wiki_Tecno_Recursos.jpg
-      :target: https://es.wikibooks.org/wiki/Tecno_Recursos/
+      :target: https://es.wikibooks.org/wiki/Tecno_Recursos
       :alt: Screenshot de la página web Wikilibro Tecno Recursos.
 
    .. list-table::

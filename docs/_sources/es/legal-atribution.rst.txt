@@ -118,7 +118,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://cr
 	:width: 120px
 
 `Imagen Kombinationszange <https://commons.wikimedia.org/wiki/File:Kombinationszange.jpg>`__
-de `Stefan Pohl <https://de.wikipedia.org/wiki/Benutzer:StefanPohl>`__
+de Stefan Pohl
 bajo licencia de dominio público.
 
 
@@ -213,7 +213,7 @@ protegida como Marca Registrada.
    :width: 120px
 
 `Imagen Scratch logo <https://commons.wikimedia.org/wiki/File:Scratch_Logo.svg>`__
-de `MIT <http://info.scratch.mit.edu/Community_Guidelines>`__
+de `MIT <https://scratch.mit.edu/>`__
 bajo licencia `Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
 y protegida como Marca Registrada.
 

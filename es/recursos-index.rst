@@ -23,4 +23,5 @@ Otros recursos para tecnología
    recursos-evaluacion-asignatura.rst
    recursos-blogs.rst
    recursos-pelandintecno.rst
+   recursos-areatecnologia.rst
    recursos-images.rst

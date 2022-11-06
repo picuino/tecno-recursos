@@ -190,6 +190,7 @@ de expresiones lógicas, para no complicar el aprendizaje.
 El programa equivalente en el entorno Ardublock resulta más sencillo:
 
 .. image:: _images/ardublock_keyPressed_2.png
+   :target: ../../_downloads/ardublock_keyPressed_2.abp
    :width: 668px
    :alt: Programa de Ardublock para apagar el led D1 con el
          pulsador 1 del panel de control PC42
@@ -293,7 +294,7 @@ Programa el código necesario para resolver los siguientes problemas.
    Programa equivalente en el entorno Ardublock:
 
    .. image:: _images/ardublock_keyPressed_3.png
-      :target: _downloads/ardublock_keyPressed_3.abp
+      :target: ../../_downloads/ardublock_keyPressed_3.abp
       :width: 669px
       :alt: Programa de Ardublock para encender una secuencia de
             led con los pulsadores
@@ -338,7 +339,7 @@ Programa el código necesario para resolver los siguientes problemas.
    Programa equivalente en el entorno Ardublock:
 
    .. image:: _images/ardublock_keyPressed_4.png
-      :target: _downloads/ardublock_keyPressed_4.abp
+      :target: ../../_downloads/ardublock_keyPressed_4.abp
       :width: 672px
       :alt: Programa de Ardublock para encender una secuencia de
             led con los pulsadores
@@ -383,7 +384,7 @@ Programa el código necesario para resolver los siguientes problemas.
    Programa equivalente en el entorno Ardublock:
 
    .. image:: _images/ardublock_keyPressed_5.png
-      :target: _downloads/ardublock_keyPressed_5.abp
+      :target: ../../_downloads/ardublock_keyPressed_5.abp
       :width: 680px
       :alt: Programa de Ardublock para encender una secuencia de
             led con los pulsadores
@@ -483,7 +484,7 @@ Programa el código necesario para resolver los siguientes problemas.
    Programa equivalente en el entorno Ardublock:
 
    .. image:: _images/ardublock_keyPressed_6.png
-      :target: _downloads/ardublock_keyPressed_6.abp
+      :target: ../../_downloads/ardublock_keyPressed_6.abp
       :width: 854px
       :alt: Programa de Ardublock para encender una secuencia de
             led con los pulsadores

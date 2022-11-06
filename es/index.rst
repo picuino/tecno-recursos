@@ -4,11 +4,13 @@
 
 .. _index:
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%
- Recursos para Tecnología
-%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+ Índice y mapa web
+%%%%%%%%%%%%%%%%%%%
 
 Recursos educativos libres para Tecnología en Educación Secundaria.
+
+Índice de páginas y mapa de la web.
 
 .. toctree::
    :maxdepth: 3
@@ -30,13 +32,11 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    recursos-index.rst
    
    ley-index.rst
-   
 
 
-* `Página inicial <https://www.picuino.com/>`_
+* `Página de inicio <https://www.picuino.com/>`_
 * `Test de Tecnología <https://www.picuino.com/test>`_
 * `Foro de Tecnología <https://www.picuino.com/foro>`_
 * `Proyecto en GitHub <https://github.com/picuino/tecno-recursos>`_
 
 
-Listado completo de 

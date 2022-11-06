@@ -57,11 +57,6 @@ Imágenes con licencia libre
    2,4 millones de fotos de pago
    Requiere registro.
 
-#. `Free Photos Bank
-   <http://freephotosbank.com/>`_
-
-   Requiere registro con e-mail
-
 #. `Getty Free Images
    <http://www.gettyimages.es/creative-images/royaltyfree>`_
 
@@ -73,9 +68,6 @@ Listados de páginas con imágenes libres
 
 #. `Los 18 mejores bancos de imágenes gratis de 2020
    <https://epymeonline.com/mejores-bancos-de-imagenes-gratis/>`_
-
-#. `53+ Free Image Sources
-   <https://blog.bufferapp.com/free-image-sources-list#library>`_
 
 #. `14 Amazingly Free Stock Photo Websites
    <http://www.entrepreneur.com/article/238646>`_
