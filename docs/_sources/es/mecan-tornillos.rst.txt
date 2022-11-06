@@ -122,7 +122,7 @@ conocidas.
 
    60 \: mm = Giro \cdot 4 \: mm / vuelta
 
-Para finalizar, despejamos la incógnita para hayar el resultado.
+Para finalizar, despejamos la incógnita para hallar el resultado.
 
 .. math::
 
@@ -157,7 +157,7 @@ conocidas.
 
    120 \: mm = 24 \: vueltas \cdot Paso 
 
-Para finalizar, despejamos la incógnita para hayar el resultado.
+Para finalizar, despejamos la incógnita para hallar el resultado.
 
 .. math::
 
