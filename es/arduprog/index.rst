@@ -20,7 +20,7 @@ Programación de la placa de control Arduino UNO.
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    pc42-index
    ardublock-index

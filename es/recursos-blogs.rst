@@ -22,12 +22,12 @@ Los números más altos se colocan primeros en la lista.
 Cuando estos datos no están disponibles, se ha ordenado por el
 ranking suministrado por Similarweb.
 
-#. `Areatecnología
+#. `Área Tecnología
    <https://www.areatecnologia.com/>`_
 
    .. image:: recursos/screenshots/recursos-www_areatecnologia_com.jpg
       :target: https://www.areatecnologia.com/
-      :alt: Screenshot de la página web Areatecnología.
+      :alt: Screenshot de la página web Área Tecnología.
 
    .. list-table::
 

@@ -17,7 +17,7 @@ Tutoriales para aprender a programar.
    :alt: Programación
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
 
    prog-lang-edu.rst

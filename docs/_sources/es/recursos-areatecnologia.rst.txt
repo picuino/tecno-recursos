@@ -7,10 +7,10 @@
 
 .. _recursos-areatecnologia:
 
-Indice de la web Area Tecnología
+Indice de la web Área Tecnología
 ================================
 
-`Area Tecnología <https://www.areatecnologia.com/>`__
+`Área Tecnología <https://www.areatecnologia.com/>`__
 es una de las webs de referencia de Tecnología
 en Educación Secundaria.
 En esta página aparecen las distintas entradas que se pueden

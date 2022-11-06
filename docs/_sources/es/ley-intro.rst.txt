@@ -1,7 +1,7 @@
 ﻿:Date: 31/03/2022
 :Author: Carlos Pardo Martín
 :Copyright: Creative Commons Attribution-ShareAlike 4.0 International
-
+:tocdepth: 1
 
 .. _ley-intro:
 

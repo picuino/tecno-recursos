@@ -19,7 +19,7 @@ neumática e hidráulica.
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
 
    mecan-estructuras-index.rst
