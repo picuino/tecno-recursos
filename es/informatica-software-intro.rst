@@ -16,7 +16,7 @@ El `software <https://es.wikipedia.org/wiki/Software>`__
 (pronunciado soft.wer)
 es el conjunto de los programas y datos de un sistema informático.
 Son los programas, las apps, el sistema operativo, los archivos de imagen,
-video, documentos de texto, presentaciones, etc.
+vídeo, documentos de texto, presentaciones, etc.
 
 
 
@@ -193,11 +193,11 @@ de su utilidad.
         (KiCAD), o figuras en 3 dimensiones (Blender).
       * **Multimedia**. Son programas utilizados para la manipulación
         de imágenes (Photoshop, GIMP, Adobe Ilustrator, Inkscape), de
-        sonidos (Audacity, Adobe Audition) o de video (Adobe Premiere,
+        sonidos (Audacity, Adobe Audition) o de vídeo (Adobe Premiere,
         Corel Video Studio, Windows Movie Maker).
 
         También se pueden incluir en este apartado reproductores de imagen,
-        audio o video como Irfanview, Foobar2000, VLC, etc.
+        audio o vídeo como Irfanview, Foobar2000, VLC, etc.
       * **Software educativo** como Moodle (utilizado en las aulas
         virtuales), Plotagon, etc.
       * **Software empresarial** como los programas para la gestión de las

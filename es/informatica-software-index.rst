@@ -28,3 +28,12 @@ contenidos en un ordenador.
 
    informatica-software-intro.rst
    informatica-software-imagenes.rst
+
+
+.. TO-DO
+   informatica-software-sistemas-operativos.rst
+   informatica-software-lenguajes.rst
+   informatica-software-ofimatica.rst
+   informatica-software-internet.rst
+   informatica-software-malware.rst
+   

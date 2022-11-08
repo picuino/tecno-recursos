@@ -70,7 +70,7 @@ desarrollada por la Universidad de Linköping.
    :target: https://liu.se/en/research/hopsan
 
 
-Video de circuitos neumáticos
+Vídeo de circuitos neumáticos
 -----------------------------
 
 .. raw:: html

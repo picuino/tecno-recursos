@@ -39,7 +39,7 @@ Conectores PS/2:
 
    2 - Conector PS/2 morado, para teclado.
 
-Conectores para Video:
+Conectores para Vídeo:
 
    3 - Conector VGA para monitor.
    

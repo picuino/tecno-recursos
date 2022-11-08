@@ -20,7 +20,7 @@ Robot Atlas
 Atlas es un androide desarrollado por Boston Dynamics (propiedad de Google)
 para el departamento de investigación del ejército de Estados Unidos (DARPA).
 
-Se ha hecho famoso por los videos Deep Fakes que han aparecido mostrándole
+Se ha hecho famoso por los vídeos Deep Fakes que han aparecido mostrándole
 como un robot armado y descontrolado. Aquí solo vamos a ver los vídeos de 
 su funcionamiento real, cada vez más avanzado.
 

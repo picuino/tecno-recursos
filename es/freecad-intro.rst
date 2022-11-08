@@ -18,7 +18,7 @@ Para realizar este tutorial se ha utilizado la **versión 0.18**
 de FreeCAD.
 
 Los tutoriales que vienen a continuación están basados en los 
-video-tutoriales que ha publicado ObiJuan (Juan González Gómez) 
+videotutoriales que ha publicado ObiJuan (Juan González Gómez) 
 en YouTube.
 La lista completa de los tutoriales de ObiJuan está en la página 
 :ref:`freecad-videotutoriales`.

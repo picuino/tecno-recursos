@@ -7,7 +7,7 @@
 
 Servomotor
 ==========
-.. ¿Qué es?. Foto. Video
+.. ¿Qué es?. Foto. Vídeo
 
 Un servomotor es un motor eléctrico que puede girar a la posición
 angular deseada y mantenerse estable en esa posición.

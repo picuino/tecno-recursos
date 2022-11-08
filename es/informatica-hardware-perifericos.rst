@@ -421,7 +421,7 @@ se muestre al exterior.
       derecho y otro izquierdo), pero también se pueden utilizar sistemas
       de `sonido envolvente 5.1 
       <https://es.wikipedia.org/wiki/Sonido_envolvente_5.1>`__
-      si el archivo original de audio/video y la tarjeta de sonido lo 
+      si el archivo original de audio/vídeo y la tarjeta de sonido lo 
       permiten.
 
    Pilotos luminosos (LED)

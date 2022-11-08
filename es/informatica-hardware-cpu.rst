@@ -20,11 +20,11 @@ los microcontroladores o la FPGA.
    :depth: 2
 
 
-Unidad Central de Proceso (:index:`CPU`)
-----------------------------------------
-Una `CPU, unidad central de procesamiento
-<https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento>`__
-también llamado **microprocesador**, es un componente de un ordenador 
+Unidad central de procesamiento (:index:`CPU`)
+----------------------------------------------
+Una `CPU o unidad central de procesamiento
+<https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento>`__,
+también llamada **microprocesador**, es un componente de ordenador 
 dedicado a interpretar las instrucciones de los programas informáticos.
 Pueden realizar operaciones lógicas, aritméticas y de movimiento de datos.
 
@@ -34,9 +34,13 @@ de `25 000 millones a 100 000 millones de transistores
 <https://en.wikipedia.org/wiki/Transistor_count>`__.
 
 Las CPU más conocidas y usadas en la actualidad son las de
-la empresa Intel (i3, i5, i7, Xeon) para ordenadores personales y
-servidores y las CPU basadas en ARM (Snapdragon, Kirin, etc.)
-para los teléfonos inteligentes y tabletas.
+la empresa Intel (i3, i5, i7, i9, Xeon) o 
+las de la empresa AMD (Ryzen)
+para ordenadores personales y servidores.
+
+Los teléfonos inteligentes, tabletas, televisores y otros dispositivos 
+inteligentes (smart) utilizan CPU basadas en arquitectura ARM 
+(Dimensity, Snapdragon, Kirin, etc.)
 
 .. figure:: informatica/_images/informatica-cpu-486dx2-b.jpg
    :align: center
@@ -47,6 +51,29 @@ para los teléfonos inteligentes y tabletas.
    `Solipsist <https://commons.wikimedia.org/wiki/File:Intel_80486DX2_bottom.jpg>`__,
    `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
    via Wikimedia Commons.
+
+
+Coprocesador matemático (:index:`FPU`)
+--------------------------------------
+El `coprocesador matemático o unidad de coma flotante
+<https://es.wikipedia.org/wiki/Unidad_de_coma_flotante>`__
+es un tipo de procesador que está especializado en realizar operaciones
+matemáticas en coma flotante (con decimales), tales como multiplicaciones
+divisiones, operaciones trigonométricas, logaritmos y exponenciales.
+
+En sus comienzos eran circuitos separados de la CPU, pero hoy en día
+se encuentran integradas dentro del mismo chip de las CPU más potentes.
+
+Este coprocesador o FPU permite acelerar los programas que necesitan
+realizar gran cantidad de operaciones matemáticas tales como los 
+programas de diseño por ordenador en 2 y en 3 dimensiones, los 
+programas de hojas de cálculo o el software científico.
+
+Hay coprocesadores especializados en realizar operaciones matemáticas 
+orientadas a multimedia (MMX) que aceleran la compresión y descompresión
+de audio y vídeo. Gracias a estos coprocesadores, los programas de edición
+o de visualización de vídeo pueden trabajar velozmente y sin problemas 
+en alta definición.
 
 
 Unidad de procesamiento gráfico (:index:`GPU`)
@@ -86,12 +113,17 @@ Unidad de procesamiento tensorial (:index:`TPU`)
 ------------------------------------------------
 Una `TPU o unidad de procesamiento tensorial
 <https://es.wikipedia.org/wiki/Unidad_de_procesamiento_tensorial>`__
-es un procesador dedicado a cálculo intensivo de operaciones de 
+es un procesador dedicado al cálculo intensivo de operaciones de 
 redes neuronales, usadas en Inteligencia Artificial.
 
 El término TPU se utiliza por Google para un circuito inventado por la
 empresa, pero cada vez más circuitos incorporan capacidades semejantes
-para el cálculo de redes neuronales.
+para el cálculo de redes neuronales, por ejemplo en los teléfonos 
+inteligentes.
+
+Esta unidad TPU acelera procesos tales como el reconocimiento facial,
+el procesamiento de voz u otras operaciones basadas en inteligencia
+artificial.
 
 
 Procesador de señales digitales (:index:`DSP`)
@@ -102,7 +134,7 @@ es un procesador especializado en ejecutar operaciones numéricas
 relacionadas con el tratamiento de señales, a muy alta velocidad.
 
 Sus aplicaciones típicas son el tratamiento en tiempo real de señales de
-audio, voz, imagen, video, etc.
+audio, voz, imagen, vídeo, etc.
 Con estas aplicaciones se puede eliminar el eco en las líneas de
 comunicación, hacer más claras las imágenes de órganos en los equipos de
 diagnóstico médico por ultrasonidos o por resonancia magnética,
@@ -123,9 +155,13 @@ entrada/salida en un espacio pequeño y a bajo precio.
 Estos procesadores se utilizan para controlar periféricos tales como
 el teclado, el ratón, la cámara web, el monitor, los discos duros, etc.
 
-Gracias a los microcontroladores, la CPU principal se descarga de las
-tareas de control de los periféricos, que serían muy costosas en tiempo
-y recursos si tuviera que administrarlas directamente la CPU.
+Gracias a los microcontroladores, la CPU principal del ordenador se 
+descarga de las tareas de control de los periféricos, que serían muy 
+costosas en tiempo y recursos si tuviera que administrarlas directamente.
+
+Otra aplicación de los microcontroladores es automatizar con una pequeña
+capacidad de cálculo dispositivos cotidianos como el microondas, la 
+lavadora, el ABS de un automóvil, una cerradura electrónica, etc.
 
 
 :index:`FPGA`
@@ -136,20 +172,19 @@ es un procesador basado en puertas lógicas programables.
 Todos los procesadores y todos los circuitos digitales están hechos de
 puertas lógicas. En el caso de las FPGA, estas puertas lógicas se pueden
 conectar de manera programable, con lo cual se puede construir un
-circuito a medida de las necesidades de procesamiento.
+circuito a medida de las necesidades del usuario.
 
 Estos circuitos pueden programarse para resolver tareas especializadas
 de forma mucho más rápida que con una CPU convencional.
-
 Aplicaciones típicas son, sistemas de visión por ordenador, minado de
 criptomonedas, emulación de hardware antiguo, aprendizaje automático,
 realización de prototipos de circuitos a medida (ASIC), etc.
 
 Al ejecutar las operaciones de forma paralela, las FPGA pueden acelerar 
 los cálculos y ser varias veces más rápidas que una CPU en operaciones
-tales como la compresión de audio y video.
+tales como la compresión de audio y vídeo.
 
-Los lenguajes más utilizados para programar FPGAs son VHDL y Verilog.
+Los lenguajes más utilizados para programar las FPGA son VHDL y Verilog.
 
 
 Características de un procesador
@@ -161,12 +196,12 @@ Consumo energético
    El consumo de un procesador es cada vez más importante.
    
    Por una parte, cuanto menor consumo tenga un procesador, más tiempo va
-   a durar una batería del dispositivo que lo contiene.
+   a durar la batería del dispositivo que lo contiene.
    
    Por otro lado, en los ordenadores conectados a la red eléctrica,
    cuanto menor sea el consumo de electricidad menor será
    el costo de mantener el ordenador funcionando.
-   Este consumo eléctrico, es tan elevado para los ordenadores de alto 
+   Este consumo eléctrico es tan elevado para los ordenadores de alto 
    rendimiento, que la electricidad llega a costar anualmente más que el 
    precio del propio procesador.
    Esa es la razón por la que se cambian los procesadores de los
@@ -185,7 +220,7 @@ Frecuencia de reloj
    cantidad de instrucciones que podrá ejecutar en un segundo.
    Las frecuencias típicas de los procesadores actuales para ordenadores
    personales y teléfonos inteligentes varían desde
-   los 1000MHz hasta los 5000MHz. Cuanto mayor sea la velocidad de reloj,
+   los 1000MHz hasta los 4000MHz. Cuanto mayor sea la velocidad de reloj,
    más rápido será un procesador, si el resto de parámetros se mantienen
    iguales.
 
@@ -223,14 +258,15 @@ Número de hilos de ejecución
    pero los hilos permiten duplicar de forma virtual el número de
    tareas y acelerar un poco más la velocidad de ejecución.
 
-   En 2022 un procesador de Intel suele tener dos hilos de ejecución por
-   núcleo. Es decir, una CPU de 8 núcleos tendrá 16 hilos de ejecución.
+   En 2022 un procesador típico de Intel suele tener dos hilos de
+   ejecución por núcleo. Es decir, una CPU de 8 núcleos tendrá 16 
+   hilos de ejecución.
 
 
 Memoria caché
    Es una memoria intermedia que permite acceder a los datos y programas
    de manera más rápida cuando el procesador tiene que acceder 
-   repetidamente a los mismos datos.
+   repetidamente a los mismos datos de la memoria RAM.
 
    Los procesadores deben leer información de la memoria RAM para realizar
    su tarea, tanto información del programa a ejecutar como de los datos a
@@ -348,3 +384,12 @@ PassMark
    es uno de los test comerciales más conocidos para ordenadores 
    personales.
 
+
+Test de la unidad
+-----------------
+
+`Test de procesadores I
+<https://www.picuino.com/test/es-hardware-procesadores-1.html>`__
+
+`Test de procesadores II
+<https://www.picuino.com/test/es-hardware-procesadores-2.html>`__

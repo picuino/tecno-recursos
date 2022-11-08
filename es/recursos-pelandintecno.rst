@@ -7,7 +7,7 @@
 
 .. _recursos-pelandintecno:
 
-Indice del blog Pelandintecno
+Índice del blog Pelandintecno
 =============================
 
 `Pelandintecno <http://pelandintecno.blogspot.com/>`__

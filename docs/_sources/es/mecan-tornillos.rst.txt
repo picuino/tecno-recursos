@@ -163,3 +163,39 @@ Para finalizar, despejamos la incógnita para hallar el resultado.
 
    Paso = \cfrac{120}{24} = 5 \: mm / vuelta
 
+
+Ejercicio tornillo de microscopio
+---------------------------------
+Un microscopio dispone de un tornillo para subir y bajar la platina
+y poder enfocar correctamente el objeto a visualizar.
+Si el paso del tornillo es de 0.5 milímetros y realizamos un giro de
+16 vueltas ¿cuánto avanzará la platina?
+
+Para resolver el problema, escribimos primero los datos de los que
+disponemos, convirtiendo todas las distancias a la misma unidad.
+
+.. math::
+
+   Paso = 0.5 \: mm / vuelta
+
+.. math::
+
+   Giro = 16 \: vueltas
+
+A continuación escribimos la fórmula y sustituimos las cantidades
+conocidas.
+
+.. math::
+
+   Avance = Giro \cdot Paso
+
+.. math::
+
+   Avance = 16 \: vueltas \cdot 0.5 \: mm / vuelta
+
+Para finalizar, no hace falta despejar y podemos calcular directamente
+el resultado.
+
+.. math::
+
+   Avance = 8 \: mm

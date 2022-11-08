@@ -7,7 +7,7 @@
 
 .. _recursos-areatecnologia:
 
-Indice de la web Área Tecnología
+Índice de la web Área Tecnología
 ================================
 
 `Área Tecnología <https://www.areatecnologia.com/>`__

@@ -11,7 +11,7 @@ Imágenes con licencia libre
 #. `Pexels
    <https://www.pexels.com/es-es/>`_
    
-   Imágenes y videos con `Licencia abierta <https://www.pexels.com/es-es/license/>`_
+   Imágenes y vídeos con `Licencia abierta <https://www.pexels.com/es-es/license/>`_
 
 #. `Pixabay
    <https://pixabay.com/es/>`_
