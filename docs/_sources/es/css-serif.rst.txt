@@ -26,18 +26,19 @@ Fichero **css-serif.html**
    :linenos:
    :name: css-serif
 
-..  .. image:: css/_thumbs/css-serif-html.png
-
 
 Fichero **css-serif.css**
 
 .. image:: css/_thumbs/css-serif-css.png
+   :alt: Código del fichero css-serif.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-serif-web.png
+   :alt: Resultado de visualizar los ficheros css-serif.html y css-serif.css 
+         en un navegador
 
 
 

@@ -27,18 +27,19 @@ Fichero **css-span.html**
    :linenos:
    :name: css-span
 
-..  .. image:: css/_thumbs/css-span-html.png
-
 
 Fichero **css-span.css**
 
 .. image:: css/_thumbs/css-span-css.png
+   :alt: Código del fichero css-span.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-span-web.png
+   :alt: Resultado de visualizar los ficheros css-span.html y css-span.css 
+         en un navegador
 
 
 

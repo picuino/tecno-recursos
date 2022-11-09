@@ -10,10 +10,12 @@ Led siempre encendido
 Monta en protoboard el siguiente esquema eléctrico.
 
 .. image:: protoboard/arduino-proto-01-led-vcc-sch.png
+   :alt: Esquema eléctrico de placa Arduino con un led conectado a la alimentación
    :width: 400px
    :align: center
 
 .. image:: protoboard/arduino-proto-01-led-vcc-bb.png
+   :alt: Montaje en protoboard de placa Arduino con un led conectado a la alimentación
    :width: 400px
    :align: center
    

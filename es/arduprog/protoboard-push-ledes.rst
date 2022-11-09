@@ -10,10 +10,12 @@ Pulsadores y ledes
 Monta en protoboard el siguiente esquema eléctrico.
 
 .. image:: protoboard/arduino-proto-04-push-ledes-sch.png
+   :alt: Esquema eléctrico de placa Arduino con dos pulsadores y dos ledes
    :width: 700px
    :align: center
 
 .. image:: protoboard/arduino-proto-04-push-ledes-bb.png
+   :alt: Montaje en protoboard de placa Arduino con dos pulsadores y dos ledes
    :width: 400px
    :align: center
 

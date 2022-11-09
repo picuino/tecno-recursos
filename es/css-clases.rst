@@ -22,18 +22,19 @@ Fichero **css-clases.html**
    :linenos:
    :name: css-clases
 
-..  .. image:: css/_thumbs/css-clases-html.png
-
 
 Fichero **css-clases.css**
 
 .. image:: css/_thumbs/css-clases-css.png
+   :alt: Código del fichero css-clases.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-clases-web.png
+   :alt: Resultado de visualizar los ficheros css-clases.html y css-clases.css 
+         en un navegador
 
 
 

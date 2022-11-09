@@ -10,10 +10,12 @@ Potenciómetro
 Monta en protoboard el siguiente esquema eléctrico.
 
 .. image:: protoboard/arduino-proto-05-pot-sch.png
+   :alt: Esquema eléctrico de placa Arduino con un potenciómetro y dos ledes
    :width: 700px
    :align: center
 
 .. image:: protoboard/arduino-proto-05-pot-bb.png
+   :alt: Montaje en protoboard de placa Arduino con un potenciómetro y dos ledes
    :width: 400px
    :align: center
 
@@ -32,6 +34,8 @@ Ejercicios
    potenciómetro a la derecha o a la izquierda.
 
    .. image:: protoboard/arduino-proto-05-code01.png
+      :alt: Código del programa para Arduino que hace que se encienda más
+            o menos un led dependiendo del giro de un potenciómetro
 
 
 #. Sube a la placa Arduino UNO el siguiente programa.
@@ -43,6 +47,10 @@ Ejercicios
    comprobar el efecto que tiene sobre los led.
 
    .. image:: protoboard/arduino-proto-05-code02.png
+      :alt: Código del programa para Arduino que hace que se enciendan
+            alternativamente dos ledes con mayor o menor frecuencia 
+            dependiendo del giro de un potenciómetro
+
 
 #. Sube a la placa Arduino UNO el siguiente programa.
 

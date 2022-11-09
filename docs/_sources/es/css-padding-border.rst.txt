@@ -13,6 +13,7 @@ y un margen con los demás elementos llamado margin.
 En la siguiente figura se puede ver cada uno de estos parámetros.
 
 .. image:: css/caja.png
+   :alt: Modelo de caja en CSS con padding, border y margin
    :width: 480px
 
 En este ejercicio se modificarán los parámetros de padding y border
@@ -46,18 +47,19 @@ Fichero **css-padding-border.html**
    :linenos:
    :name: css-padding-border
 
-..  .. image:: css/_thumbs/css-padding-border-html.png
-
 
 Fichero **css-padding-border.css**
 
 .. image:: css/_thumbs/css-padding-border-css.png
+   :alt: Código del fichero css-padding-border.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-padding-border-web.png
+   :alt: Resultado de visualizar los ficheros css-padding-border.html y css-padding-border.css 
+         en un navegador
 
 
 

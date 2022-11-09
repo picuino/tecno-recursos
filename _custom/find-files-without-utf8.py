@@ -5,17 +5,24 @@ import os
 import subprocess 
 
 extensions = ['.txt', '.rst']
-excludes =['robots.txt', 'Apache License.txt',
-           'SIL Open Font License.txt']
+excludes =[
+   'robots.txt',
+   'Apache License.txt',
+   'SIL Open Font License.txt',
+   '../venv',
+   ]
 
 def main():
    process('..')
    input('Press Enter')
 
 def process(path):
+   if path.replace('\\', '/') in excludes:
+      return
    longfiles = [os.path.join(path, f) for f in os.listdir(path)]
    for fname in longfiles:
-      test_utf8(fname)
+      if os.path.isfile(fname):
+         test_utf8(fname)
    for d in longfiles:
       if os.path.isdir(d):
          process(d)

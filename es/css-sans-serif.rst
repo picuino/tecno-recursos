@@ -26,18 +26,19 @@ Fichero **css-sans-serif.html**
    :linenos:
    :name: css-sans-serif
 
-..  .. image:: css/_thumbs/css-sans-serif-html.png
-
 
 Fichero **css-sans-serif.css**
 
 .. image:: css/_thumbs/css-sans-serif-css.png
+   :alt: Código del fichero css-sans-serif.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-sans-serif-web.png
+   :alt: Resultado de visualizar los ficheros css-sans-serif.html y css-sans-serif.css 
+         en un navegador
 
 
 

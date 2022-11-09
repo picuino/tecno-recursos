@@ -13,8 +13,8 @@ Circuitos con Arduino y placa de prototipos.
 
 
 .. image:: protoboard/_thumbs/arduino-proto-03-tres-ledes-bb.png
+   :alt: Montaje en protoboard de placa Arduino con tres ledes
    :width: 240px
-   :alt: Arduino con protoboard.
    :align: center
 
 

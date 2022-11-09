@@ -19,18 +19,19 @@ Fichero **css-list-style.html**
    :linenos:
    :name: css-list-style
 
-..  .. image:: css/_thumbs/css-list-style-html.png
-
 
 Fichero **css-list-style.css**
 
 .. image:: css/_thumbs/css-list-style-css.png
+   :alt: Código del fichero css-list-style.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-list-style-web.png
+   :alt: Resultado de visualizar los ficheros css-list-style.html y css-list-style.css 
+         en un navegador
 
 
 

@@ -333,7 +333,7 @@ Son pruebas muy útiles a la hora de comparar procesadores entre sí.
 Debido a la gran cantidad de parámetros o características que definen 
 a un procesador, no es sencillo calcular su rendimiento final. 
 Sin embargo las pruebas benchmark darán un simple número que representa
-aproximadamente la potencia de cálculo del procesador.
+aproximadamente la potencia de un procesador.
 
 Test clásicos muy conocidos son los siguientes.
 

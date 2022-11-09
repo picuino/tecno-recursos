@@ -24,18 +24,19 @@ Fichero **css-background.html**
    :linenos:
    :name: css-background
 
-..  .. image:: css/_thumbs/css-background-html.png
-
 
 Fichero **css-background.css**
 
 .. image:: css/_thumbs/css-background-css.png
+   :alt: Código del fichero css-background.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-background-web.png
+   :alt: Resultado de visualizar los ficheros css-background.html y css-background.css 
+         en un navegador
 
 
 

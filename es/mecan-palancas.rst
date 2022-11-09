@@ -25,13 +25,14 @@ Dependiendo de la situación de la fuerza aplicada (F) de la resistencia
 a mover (R) y del fulcro (△) podemos distinguir tres tipos de palancas.
 
 
-Palancas de primera especie
----------------------------
+Palancas de primer género
+-------------------------
 
-Las palancas de primera especie tienen el apoyo en el medio
+Las palancas de primer género tienen el apoyo en el medio
 de la barra, entre la fuerza aplicada y la resistencia.
 
 .. image:: mecan/_images/mecan-palancas-01.png
+   :alt: Palanca simple de primer género
    :align: center
    :height: 142px
 
@@ -39,17 +40,20 @@ Ejemplos de este tipo de palanca son un balancín, unas tijeras o
 unos alicates.
 
 .. image:: mecan/_images/mecan-palancas-04.png
+   :alt: Palanca doble de primer género
    :align: center
    :height: 213px
 
 
-Palancas de segunda especie
----------------------------
+Palancas de segundo género
+--------------------------
 
-Las palancas de segunda especie tienen la resistencia en el medio
+Las palancas de segundo género tienen la resistencia en el medio
 de la barra, entre el fulcro y la fuerza aplicada.
+El fulcro se encuentra en un extremo.
 
 .. image:: mecan/_images/mecan-palancas-02.png
+   :alt: Palanca simple de segundo género
    :align: center
    :height: 142px
 
@@ -57,17 +61,20 @@ Ejemplos de este tipo de palanca son una carretilla, un cascanueces o
 un sacacorchos.
 
 .. image:: mecan/_images/mecan-palancas-05.png
+   :alt: Palanca doble de segundo género
    :align: center
    :height: 260px
 
 
-Palancas de tercera especie
----------------------------
+Palancas de tercer género
+-------------------------
 
-Las palancas de tercera especie tienen la fuerza aplicada en el medio
-de la barra, entre el fulcro y la resistencia.
+Las palancas de tercer género tienen la fuerza aplicada en el medio
+de la barra, entre el fulcro y la resistencia. 
+El fulcro se encuentra en un extremo.
 
 .. image:: mecan/_images/mecan-palancas-03.png
+   :alt: Palanca simple de tercer género
    :align: center
    :height: 142px
 
@@ -75,6 +82,7 @@ Ejemplos de este tipo de palanca son unas pinzas de depilar, nuestro
 antebrazo cuando sube la mano o una caña de pescar.
 
 .. image:: mecan/_images/mecan-palancas-06.png
+   :alt: Palanca doble de tercer género
    :align: center
    :height: 189px
 
@@ -87,6 +95,7 @@ El torque es el producto de una fuerza por su distancia al punto de
 apoyo, de manera que la fórmula queda como sigue.
 
 .. image:: mecan/_images/mecan-palancas-07.png
+   :alt: Palanca de primer género con sus fuerzas y distancias.
    :align: center
    :height: 177px
 
@@ -119,6 +128,7 @@ a los que aplicamos una fuerza de 10kgf en el mango,
 con las siguientes distancias.
 
 .. image:: mecan/_images/mecan-palancas-08.png
+   :alt: Palanca de primer género con fuerzas y distancias de ejemplo.
    :align: center
    :height: 177px
 
@@ -167,6 +177,7 @@ levantar una carretilla que lleva en su interior un peso de 40kgf.
 Las dimensiones de la carretilla simplificada son las siguientes.
 
 .. image:: mecan/_images/mecan-palancas-09.png
+   :alt: Palanca de segundo género con fuerzas y distancias de ejemplo.
    :align: center
    :height: 177px
 
@@ -217,8 +228,8 @@ kilogramo-fuerza.
 Ejercicios de palancas
 ----------------------
 
-:download:`Ejercicio para identificar palancas de primera, segunda 
-o tercera especie. Formato PDF <mecan/mecan-palancas-02.pdf>`
+:download:`Ejercicio para identificar palancas de primero, segundo 
+o tercer género. Formato PDF <mecan/mecan-palancas-02.pdf>`
 
-:download:`Ejercicio para identificar palancas de primera, segunda 
-o tercera especie. Formato DOC <mecan/mecan-palancas-02.doc>`
+:download:`Ejercicio para identificar palancas de primero, segundo
+o tercer género. Formato DOC <mecan/mecan-palancas-02.doc>`

@@ -43,18 +43,19 @@ Fichero **css-file.html**
    :linenos:
    :name: css-file
 
-..  .. image:: css/_thumbs/css-file-html.png
-
 
 Fichero **css-file.css**
 
 .. image:: css/_thumbs/css-file-css.png
+   :alt: Código del fichero css-file.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-file-web.png
+   :alt: Resultado de visualizar los ficheros css-file.html y css-file.css 
+         en un navegador
 
 
 

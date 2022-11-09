@@ -10,10 +10,14 @@ Led controlado por la placa Arduino
 Monta en protoboard el siguiente esquema eléctrico.
 
 .. image:: protoboard/arduino-proto-02-led-d2-sch.png
+   :alt: Esquema eléctrico de placa Arduino con un led conectado a 
+         un pin de salida
    :width: 400px
    :align: center
 
 .. image:: protoboard/arduino-proto-02-led-d2-bb.png
+   :alt: Montaje en protoboard de placa Arduino con un led conectado a 
+         un pin de salida
    :width: 400px
    :align: center
 

@@ -78,7 +78,7 @@ Plantilla HTML con enlace a hoja CSS.
 {% endmacro -%}
 
 
-{%- macro images_html_css_web(name) -%}
+{%- macro images_html_css_web(name, alt='') -%}
 
 Fichero **{{name}}.html**
 
@@ -87,18 +87,19 @@ Fichero **{{name}}.html**
    :linenos:
    :name: {{name}}
 
-..  .. image:: css/_thumbs/{{name}}-html.png
-
 
 Fichero **{{name}}.css**
 
 .. image:: css/_thumbs/{{name}}-css.png
+   :alt: Código del fichero {{name}}.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/{{name}}-web.png
+   :alt: Resultado de visualizar los ficheros {{name}}.html y {{name}}.css 
+         en un navegador
 
 {% endmacro -%}
 

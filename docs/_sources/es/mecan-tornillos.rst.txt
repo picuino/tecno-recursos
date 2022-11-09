@@ -11,6 +11,7 @@ Un tornillo es una máquina simple compuesta por un plano inclinado
 que se encuentra enrollado alrededor de un eje cilíndrico.
 
 .. figure:: mecan/_images/mecan-tornillo-01.jpg
+   :alt: Tornillo y tuerca hexagonal
    :align: center
    :width: 340px
 
@@ -27,7 +28,7 @@ La denominación de las diferentes partes del tornillo es la siguiente.
 
    Rosca
       Es el plano inclinado enrollado de forma helicoidal 
-      alrededor de un eje cilíndrico.
+      alrededor del vástago.
 
    Cabeza del tornillo
       Es la parte extrema del tornillo, utilizada para girar la rosca.
@@ -37,7 +38,7 @@ La denominación de las diferentes partes del tornillo es la siguiente.
       Es la parte saliente del surco de la rosca.
 
    Paso
-      Es la distancia que hay entre dos filetes consecutivos de la rosca.
+      Es la distancia que hay entre dos crestas consecutivas de la rosca.
 
    Tuerca
       Es una pieza mecánica con un orificio roscado que se acopla
@@ -45,15 +46,12 @@ La denominación de las diferentes partes del tornillo es la siguiente.
       para facilitar su giro mediante llaves de apriete.
 
 
-.. figure:: mecan/_images/mecan-tornillo-03.png
+.. figure:: mecan/_images/mecan-tornillo-01.png
+   :alt: Partes de un tornillo y tuerca hexagonal.
    :align: center
    :width: 340px
 
-   Partes de una rosca.
-
-   `I.A.Rem. <https://commons.wikimedia.org/wiki/File:M4_Inbusschraube_focusstacked.jpg>`__
-   `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__
-   via Wikimedia Commons.
+   Partes de un tornillo y tuerca hexagonal.
 
 
 Los tornillos sirven para realizar uniones desmontables o para realizar
@@ -62,6 +60,7 @@ Por ejemplo el mecanismo de un gato mecánico para levantar automóviles
 está basado en un tornillo que mueve unas tijeras.
 
 .. figure:: mecan/_images/mecan-tornillo-02.gif
+   :alt: Gato mecánico con tornillo
    :align: center
    :width: 480px
 

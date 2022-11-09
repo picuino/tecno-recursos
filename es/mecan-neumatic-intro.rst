@@ -18,6 +18,7 @@ Tabla con los símbolos neumáticos más usuales.
 Ejercicios para dibujar y para nombrar e identificar los símbolos.
 
 .. image:: neumatic/_images/neumatic-simbolos-valvulas.png
+   :alt: Válvulas neumáticas de dos posiciones
    :width: 280px
    :align: center     
    :target: ../_downloads/neumatic-simbolos-nombres.pdf
@@ -35,6 +36,7 @@ Test sobre neumática
 --------------------
 
 .. image:: neumatic/_images/neumatic-test-01.png
+   :alt: Test de componentes neumáticos
    :width: 340px
    :align: center     
    :target: https://www.picuino.com/test/#neumatica
@@ -45,11 +47,12 @@ Test sobre neumática
 Simulador de neumática
 ----------------------
 .. image:: neumatic/_images/neumatic-simulador.png
+   :alt: Simulador de neumática de PortalESO.com
    :width: 640px
    :align: center     
-   :target: ../_static/simulador-neumatica/index.html
+   :target: ../_static/flash/simulador-neumatica.html
 
-`Simulador de neumática. <../_static/simulador-neumatica/index.html>`__
+`Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
 
 Creado por Antonio Bueno en la página
 `www.portaleso.com <http://www.portaleso.com>`__ 

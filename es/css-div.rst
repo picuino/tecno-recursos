@@ -26,18 +26,19 @@ Fichero **css-div.html**
    :linenos:
    :name: css-div
 
-..  .. image:: css/_thumbs/css-div-html.png
-
 
 Fichero **css-div.css**
 
 .. image:: css/_thumbs/css-div-css.png
+   :alt: Código del fichero css-div.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-div-web.png
+   :alt: Resultado de visualizar los ficheros css-div.html y css-div.css 
+         en un navegador
 
 
 

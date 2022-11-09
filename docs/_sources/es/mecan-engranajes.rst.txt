@@ -14,9 +14,12 @@ y la fuerza de giro.
 Si las dos ruedas son de distinto tamaño, la rueda mayor se denomina 
 **corona** y la rueda menor se denomina **piñon**.
 
-.. image:: mecan/_images/mecan-gears-01.png
+.. figure:: mecan/_images/mecan-gears-01.png
+   :alt: Engranaje de corona y piñón con flechas de sentido de giro
    :align: center
    :width: 397px
+   
+   Engranaje de corona y piñón con flechas de sentido de giro.
 
 Una de las aplicaciones más importantes de los engranajes es la
 transformación de la velocidad de giro desde un motor, generalmente rápido
@@ -133,7 +136,10 @@ En la práctica, cuando la relación entre los dientes es tan grande, se
 suelen utilizar trenes de engranajes con más de dos ruedas conectadas
 entre sí para reducir o aumentar la velocidad de giro en varias etapas.
 
-.. image:: mecan/_images/mecan-gears-02.png
+.. figure:: mecan/_images/mecan-gears-02.png
+   :alt: Tren de engranajes que reducen mucho la velocidad de giro del piñón
    :align: center
    :width: 604px
+   
+   Tren de engranajes que reducen mucho la velocidad de giro del piñón
 

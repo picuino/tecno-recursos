@@ -21,18 +21,19 @@ Fichero **css-width-height.html**
    :linenos:
    :name: css-width-height
 
-..  .. image:: css/_thumbs/css-width-height-html.png
-
 
 Fichero **css-width-height.css**
 
 .. image:: css/_thumbs/css-width-height-css.png
+   :alt: Código del fichero css-width-height.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-width-height-web.png
+   :alt: Resultado de visualizar los ficheros css-width-height.html y css-width-height.css 
+         en un navegador
 
 
 

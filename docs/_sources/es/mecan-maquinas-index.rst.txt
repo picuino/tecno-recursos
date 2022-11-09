@@ -12,6 +12,7 @@ Máquinas y mecanismos que transforman las fuerzas y los
 movimientos.
 
 .. image:: mecan/_images/mecan-palancas-01.png
+   :alt: Palanca de primer género
    :align: center
    :height: 142px
    

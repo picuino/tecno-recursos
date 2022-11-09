@@ -28,18 +28,19 @@ Fichero **css-fonts.html**
    :linenos:
    :name: css-fonts
 
-..  .. image:: css/_thumbs/css-fonts-html.png
-
 
 Fichero **css-fonts.css**
 
 .. image:: css/_thumbs/css-fonts-css.png
+   :alt: Código del fichero css-fonts.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-fonts-web.png
+   :alt: Resultado de visualizar los ficheros css-fonts.html y css-fonts.css 
+         en un navegador
 
 
 

@@ -26,18 +26,19 @@ Fichero **css-monospace.html**
    :linenos:
    :name: css-monospace
 
-..  .. image:: css/_thumbs/css-monospace-html.png
-
 
 Fichero **css-monospace.css**
 
 .. image:: css/_thumbs/css-monospace-css.png
+   :alt: Código del fichero css-monospace.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-monospace-web.png
+   :alt: Resultado de visualizar los ficheros css-monospace.html y css-monospace.css 
+         en un navegador
 
 
 

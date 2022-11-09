@@ -10,10 +10,12 @@ Buzzer
 Monta en protoboard el siguiente esquema eléctrico.
 
 .. image:: protoboard/arduino-proto-06-buzzer-sch.png
+   :alt: Esquema eléctrico de placa Arduino con un pulsador y un zumbador
    :width: 400px
    :align: center
 
 .. image:: protoboard/arduino-proto-06-buzzer-bb.png
+   :alt: Montaje en protoboard de una placa Arduino con un pulsador y un zumbador
    :width: 400px
    :align: center
 
@@ -32,6 +34,7 @@ Ejercicios
    **alarma de un despertador**.
 
    .. image:: protoboard/arduino-proto-06-code01.png
+      :alt: Código del programa para Arduino que hace sonar una alarma de despertador
 
 
 #. Sube a la placa Arduino UNO el siguiente programa.

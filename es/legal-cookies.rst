@@ -59,14 +59,16 @@ de cookies.
    Sitio Web de forma totalmente anónima. Con estas cookies se puede
    contabilizar el número de visitantes de cada página, los contenidos
    más vistos o los enlaces más usados. Se puede saber si el usuario
-   que está accediendo es nuevo o repite visita.
-   Esa información puede ayudarnos a mejorar la navegación y dar un
+   que está accediendo es nuevo o repite visita y cuál es su ubicación.
+   Esa información nos ayuda a mejorar la navegación y dar un
    mejor servicio.
+   
+   Esta página web no utiliza los servicios de Google Analytics para 
+   las cookies analíticas, sino una aplicación de código abierto 
+   gestionada directamente por el propietario de la web.
 
 
 **Servicios de terceros:**
-   * `Google Analytics 
-     <https://www.google.com/intl/es/policies/technologies/cookies/>`_
    * `YouTube <https://www.google.es/intl/es/policies/privacy/>`_
 
 

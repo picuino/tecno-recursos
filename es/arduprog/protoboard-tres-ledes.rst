@@ -10,10 +10,14 @@ Tres ledes
 Monta en protoboard el siguiente esquema eléctrico.
 
 .. image:: protoboard/arduino-proto-03-tres-ledes-sch.png
+   :alt: Esquema eléctrico de placa Arduino con tres ledes conectados a 
+         tres pines de salida
    :width: 700px
    :align: center
 
 .. image:: protoboard/arduino-proto-03-tres-ledes-bb.png
+   :alt: Montaje en protoboard de placa Arduino con tres ledes conectados a 
+         tres pines de salida
    :width: 400px
    :align: center
 

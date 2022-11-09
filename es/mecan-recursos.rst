@@ -30,12 +30,14 @@ El autor es Jaume Dellunde y el programa tiene licencia Freeware.
 |  :download:`Instalador de Relatran 3.5 <mecan/relatran_setup.zip>`
 
 .. image:: mecan/_images/relatran01.png
+   :alt: Screenshot del programa relatrán
 
 
 Gear generator
 --------------
 
 .. image:: mecan/_thumbs/gear-generator-mainpage.png
+   :alt: Screenshot de la página web Gear generator
    :target: https://geargenerator.com
 
 Página web en la que se puede diseñar y simular un tren de

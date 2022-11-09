@@ -33,18 +33,19 @@ Fichero **css-cascading.html**
    :linenos:
    :name: css-cascading
 
-..  .. image:: css/_thumbs/css-cascading-html.png
-
 
 Fichero **css-cascading.css**
 
 .. image:: css/_thumbs/css-cascading-css.png
+   :alt: Código del fichero css-cascading.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-cascading-web.png
+   :alt: Resultado de visualizar los ficheros css-cascading.html y css-cascading.css 
+         en un navegador
 
 
 

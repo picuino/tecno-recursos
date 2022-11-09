@@ -12,6 +12,7 @@ Tutorial de código CSS para crear páginas web.
 
 
 .. image:: css/_thumbs/css3-logo.png
+   :alt: Logotipo de CSS 3
    :height: 180
 
 

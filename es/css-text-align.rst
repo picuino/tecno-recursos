@@ -21,18 +21,19 @@ Fichero **css-text-align.html**
    :linenos:
    :name: css-text-align
 
-..  .. image:: css/_thumbs/css-text-align-html.png
-
 
 Fichero **css-text-align.css**
 
 .. image:: css/_thumbs/css-text-align-css.png
+   :alt: Código del fichero css-text-align.css
 
 
 Resultado
 ---------
 
 .. image:: css/_thumbs/css-text-align-web.png
+   :alt: Resultado de visualizar los ficheros css-text-align.html y css-text-align.css 
+         en un navegador
 
 
 
