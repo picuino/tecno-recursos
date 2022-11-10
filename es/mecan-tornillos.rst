@@ -22,6 +22,9 @@ que se encuentra enrollado alrededor de un eje cilíndrico.
    via Wikimedia Commons.
 
 
+Partes de un tornillo
+---------------------
+
 La denominación de las diferentes partes del tornillo es la siguiente.
 
 .. glossary::
@@ -46,7 +49,7 @@ La denominación de las diferentes partes del tornillo es la siguiente.
       para facilitar su giro mediante llaves de apriete.
 
 
-.. figure:: mecan/_images/mecan-tornillo-01.png
+.. figure:: mecan/_images/mecan-tornillo-02.png
    :alt: Partes de un tornillo y tuerca hexagonal.
    :align: center
    :width: 340px
@@ -54,17 +57,24 @@ La denominación de las diferentes partes del tornillo es la siguiente.
    Partes de un tornillo y tuerca hexagonal.
 
 
-Los tornillos sirven para realizar uniones desmontables o para realizar
-mecanismos que avanzan lentamente y con mucha fuerza.
+Aplicaciones de los tornillos
+-----------------------------
+Una de las principales aplicaciones de los tornillos consiste en realizar 
+uniones desmontables.
+
+Otra gran aplicación de los tornillos es construir mecanismos
+que avanzan lentamente, con precisión, y con mucha fuerza.
 Por ejemplo el mecanismo de un gato mecánico para levantar automóviles
 está basado en un tornillo que mueve unas tijeras.
 
 .. figure:: mecan/_images/mecan-tornillo-02.gif
-   :alt: Gato mecánico con tornillo
+   :alt: Gato mecánico para levantar automóviles, con un tornillo que 
+         mueve el mecanismo.
    :align: center
    :width: 480px
 
-   Gato mecánico con tornillo.
+   Gato mecánico para levantar automóviles,
+   con un tornillo que mueve el mecanismo.
 
    `Interiot <https://commons.wikimedia.org/wiki/File:Jackscrew.gif>`__
    Public Domain via Wikimedia Commons.

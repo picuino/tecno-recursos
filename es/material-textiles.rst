@@ -54,6 +54,7 @@ formadas por piel animal.
    Se fabrican en telares que entrelazan la trama (2) con la urdimbre (1).
 
    .. image:: material/_images/trama-urdimbre.png
+      :alt: Tejido textil con su trama y urdimbre.
       :height: 320px
       :align: center
    

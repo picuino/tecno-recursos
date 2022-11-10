@@ -131,6 +131,7 @@ endurecerse cuando se enfrían.
    su composición, para facilitar su reciclaje.
    
    .. image:: material/_images/material-plasticos-simbolos-reciclables.jpg
+      :alt: Símbolos de los diferentes plásticos reciclables
       :align: center
 
 

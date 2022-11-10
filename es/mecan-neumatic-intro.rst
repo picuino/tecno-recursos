@@ -68,6 +68,7 @@ es una herramienta de simulación de sistemas, open-source,
 desarrollada por la Universidad de Linköping.
 
 .. image:: neumatic/_images/neumatic-hopsan-01.png
+   :alt: Screenshot del programa de simulación neumática Hopsan
    :width: 480px
    :align: center     
    :target: https://liu.se/en/research/hopsan

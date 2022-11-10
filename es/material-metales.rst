@@ -89,6 +89,7 @@ Los metales suponen la mayoría de los elementos representados en la tabla
 periódica.
 
 .. figure:: material/_images/material-tabla-periodica.png
+   :alt: Tabla periódica de los elementos.
    :align: center
    :width: 640px
    

@@ -11,6 +11,7 @@ Evaluación de la asignatura
 Cuestionario anónimo para evaluar las asignaturas de tecnología.
 
 .. image:: didactica/evaluacion-asignatura-v10.png
+   :alt: Cuestionario de evaluación de la asignatura de Tecnología.
    :align: center
    :target: ../_downloads/evaluacion-asignatura-v10.pdf
 

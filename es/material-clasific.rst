@@ -17,6 +17,7 @@ Clasificación según el nivel de procesado
 -----------------------------------------
 
 .. image:: material/_images/material-materia-prima.png
+   :alt: Clasificación y proceso de transformación de los materiales
    :align: center
    :width: 480px
 

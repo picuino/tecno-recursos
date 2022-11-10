@@ -11,6 +11,7 @@ Cuaderno de notas
 Cuaderno de notas para 30 alumnos en formato de hoja de cálculo y pdf.
 
 .. image:: recursos/cuaderno-notas.png
+   :alt: Cuaderno de notas del profesor.
    :target: ../_downloads/cuaderno-notas.xls
    :align: center
    

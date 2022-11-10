@@ -9,6 +9,7 @@ Libro 4ºESO Tecnología del CIDEAD
 =================================
 
 .. image:: ../_static/4esotecno/imagen/logocidead.png
+   :alt: Logotipo del CIDEAD
    :align: center
    :target: https://www.picuino.com/_static/4esotecno/index.html
 
@@ -115,7 +116,7 @@ Cuestiones para trabajar
 
 Simulador de neumática
 ----------------------
-`Simulador de neumática. <../_static/simulador-neumatica/index.html>`__
+`Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
 
 Creado por Antonio Bueno en la página
 `www.portaleso.com <http://www.portaleso.com>`__ 

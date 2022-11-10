@@ -18,6 +18,11 @@ Programas para Arduino.
    prog-haiku
    prog-simon
    prog-timer-control
+   comm-pc-control.rst
 
-..
+.. Sin contenido o con contenido no terminado
+   comm-infrared-emitter.rst
+   comm-infrared-receiver.rst
+   comm-bluetooth.rst
+   comm-wifi.rst
    prog-eliza.rst

@@ -106,6 +106,7 @@ Partes del tronco del árbol
 
 
 .. figure:: material/_images/material-duramen.jpg
+   :alt: Tronco de tejo en el que se distingue bien el duramen de la albura
    :align: center
 
    Tronco de tejo en el que se distingue bien el duramen de la albura.

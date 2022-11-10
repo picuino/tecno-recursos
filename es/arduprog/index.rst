@@ -15,19 +15,18 @@ Programación de la placa de control Arduino UNO.
 
 .. image:: _thumbs/img-0078.jpg
    :width: 320px
-   :alt: Arduino UNO r3
+   :alt: Placa de prototipado Arduino UNO r3
    :align: center
 
 
 .. toctree::
    :maxdepth: 2
 
-   pc42-index
-   ardublock-index
    protoboard-index
-   comm-index
    prog-index
    resource-index
+   pc42-index
+   ardublock-index
    ../uno-doc/index
 
 

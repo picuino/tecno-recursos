@@ -12,6 +12,7 @@ Recursos para actividades de taller.
 
 
 .. image:: taller/_thumbs/taller-herramientas.jpg
+   :alt: Panel de herramientas del taller de tecnología.
    :align: center
    :width: 240px 
 

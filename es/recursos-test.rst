@@ -13,6 +13,7 @@ con múltiples respuestas de las que solo una es válida.
 
 
 .. image:: recursos/recursos-test-tecnologia.png
+   :alt: Screenshot de la página web que contiene los test de tecnología.
    :align: center
    :target: https://www.picuino.com/test/index.html
 
