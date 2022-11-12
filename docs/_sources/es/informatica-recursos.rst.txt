@@ -30,10 +30,10 @@ portátiles correspondientes a la versión 3 de LibreOffice.
 Versiones antiguas de GIMP
 --------------------------
 Repositorio de `GIMP versión 2.6 para Windows.
-<https://download.gimp.org/mirror/pub/gimp/v2.6/windows/>`__
+<https://download.gimp.org/gimp/v2.6/windows/>`__
 
 Repositorio de `GIMP versión 2.8 para Windows.
-<https://download.gimp.org/mirror/pub/gimp/v2.8/windows/>`__
+<https://download.gimp.org/gimp/v2.8/windows/>`__
 
 
 Emulador para Flash Player

@@ -393,3 +393,9 @@ Test de la unidad
 
 `Test de procesadores II
 <https://www.picuino.com/test/es-hardware-procesadores-2.html>`__
+
+`Test de procesadores III
+<https://www.picuino.com/test/es-hardware-procesadores-3.html>`__
+
+`Test de procesadores IV
+<https://www.picuino.com/test/es-hardware-procesadores-4.html>`__

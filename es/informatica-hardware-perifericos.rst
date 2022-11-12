@@ -11,15 +11,18 @@ Periféricos
 Los periféricos son dispositivos que permiten que la información entre y
 salga de un ordenador.
 
-Los periféricos de entrada son como los sentidos de un ordenador,
-recogen información del exterior para que el ordenador pueda 'ver', 'oír',
-o 'conocer' la posición de la mano del usuario.
+Los periféricos de entrada son como los sentidos de un ordenador.
+Recogen información del exterior para que el ordenador pueda 'ver' 
+con una cámara, 'oír' con un micrófono, o 'sentir' la posición de la 
+mano del usuario con un ratón.
 
-Los periféricos de salida son como los músculos del ordenador, que le
-permiten exteriorizar la información que tiene en su interior.
-Así, gracias a los periféricos de salida, podemos ver la información del
-ordenador en forma de imágenes en una pantalla o impresas en una hoja,
-en forma de sonidos o de vibración de un smartphone.
+Los periféricos de salida son como los músculos del ordenador, 
+que le permiten exteriorizar la información que tiene en su 
+interior. Así, gracias a los periféricos de salida, podemos ver 
+la información del ordenador en forma de imágenes en un monitor,
+impresas en una hoja por una impresora, en forma de sonidos de
+un altavoz, o de vibración de un smartphone.
+
 
 .. contents:: Índice de contenidos
    :local:
@@ -53,7 +56,7 @@ de datos.
       pantalla del ordenador muestra los movimientos del ratón.
       
       El ratón también suele tener varios pulsadores y una rueda que se 
-      puede girar para interactuar con las pantallas del entorno gráfico.
+      puede girar, para interactuar con las pantallas del entorno gráfico.
       
       Pese a la aparición de nuevas tecnologías, como la pantalla táctil,
       el ratón aún sigue siendo muy utilizado.
@@ -93,10 +96,10 @@ de datos.
          `CC0 1.0 <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__,
          via Wikimedia Commons.
 
-      El teclado estándar de ordenador es de 102 teclas en europa y se 
+      El teclado estándar de ordenador es de 102 teclas en Europa y se 
       dividen en los siguientes grupos.
       
-      * Bloque de funciones F1 a F12
+      * Bloque de funciones F1 a F12.
       * Bloque alfanumérico con números del 0 al 9, letras y algunas
         teclas especiales como el tabulador, espaciador, enter, etc.
       * Bloque especial con teclas de dirección y otras como inicio, fin,
@@ -169,7 +172,7 @@ de datos.
       conversor analógico-digital para convertir las señales eléctricas 
       que salen del micrófono a señales digitales, pero en estos casos 
       suelen tener menor calidad que cuando se utiliza un micrófono y
-      una tarjeta de sonido dedicada.
+      una tarjeta de sonido dedicados.
       
       Según la tecnología de los micrófonos, estos puede ser
       magneto-dinámicos, de condensador, de carbón o piezoeléctricos.
@@ -190,9 +193,10 @@ de datos.
       La `tableta gráfica o tableta digitalizadora
       <https://es.wikipedia.org/wiki/Tableta_digitalizadora>`__
       es un periférico que permite al usuario introducir gráficos o 
-      dibujos a mano, tal como lo haría con lápiz y papel. 
+      dibujos a mano, tal como lo haría con un lápiz y papel. 
       También permite apuntar y señalar los objetos que se encuentran en 
-      la pantalla del ordenador. 
+      la pantalla del ordenador.
+      
       Consiste en una superficie plana sobre la que el usuario puede 
       dibujar una imagen utilizando el estilete (lapicero) que viene junto 
       a la tableta. 
@@ -221,7 +225,7 @@ de datos.
       Sistemas semejantes son el sistema Galileo de Europa o el sistema
       Glonass de Rusia.
       
-      El GPS es ámpliamente utilizado en los teléfonos inteligentes así 
+      El GPS es ampliamente utilizado en los teléfonos inteligentes así 
       como en dispositivos weareables. Permite dar servicios como la 
       navegación punto a punto, localización de amigos cercanos, cálculo 
       de recorridos para runners, etc.
@@ -597,3 +601,13 @@ la entrada como la salida de datos del ordenador.
 
       `Explicación de Jaime Altozano sobre las tarjetas de sonido
       <https://www.youtube.com/watch?v=4Wp8X7MvGB0>`__.
+
+
+Test de la unidad
+-----------------
+
+`Test de periféricos I
+<https://www.picuino.com/test/es-hardware-perifericos-1.html>`__
+
+`Test de periféricos II
+<https://www.picuino.com/test/es-hardware-perifericos-2.html>`__

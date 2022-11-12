@@ -10,7 +10,7 @@ Comunicaciones
 
 Las comunicaciones de los ordenadores permiten el movimiento de los datos
 entre diferentes dispositivos y componentes del ordenador.
-Son elementos fundamentales que se encuentran en todos los niveles de la 
+Son elementos fundamentales que se encuentran en todos los niveles de la
 informática, desde las líneas de comunicación interna de un microprocesador
 hasta las líneas de comunicación de internet a nivel mundial.
 
@@ -183,7 +183,7 @@ Conexiones internas
          :width: 420px
 
          Conectores PCI Express x4, x16, x1, x16.
-         
+
          El conector inferior es PCI x32 (no Express, ya obsoleto).
 
          `Jona
@@ -229,18 +229,21 @@ Conexiones internas
            - 126 GByte/s
 
       La aplicación más conocida de los conectores PCI-E x16 es la conexión
-      de tarjetas gráficas.
+      de tarjetas gráficas a la placa base.
 
-      La aplicación más habitual de los conectores
-      `PCI-E x1 con un formato especial llamado M.2
+      Existe un `conector llamado M.2
       <https://www.profesionalreview.com/2018/02/12/que-es-el-formato-m-2-en-los-ssd/>`__
-      es la conexión de unidades SSD muy rápidas y compactas.
+      que está basado en el conector PCI Express 3.0 x4.
+      Se utiliza para conectar unidades SSD muy rápidas y compactas a
+      velocidades muy superiores a las que permite el conector tradicional
+      SATA III.
 
       Los ordenadores personales más antiguos no incorporaban en la placa
-      base muchas de las funciones actuales (sonido, comunicación Ethernet,
-      buses USB, etc) y estas funciones tenían que ser suministradas por
-      tarjetas de expansión especializadas, conectadas a conectores de
-      expansión semejantes al actual PCI-Express.
+      base muchas de las funciones actuales (entrada y salida de sonido,
+      comunicaciones por Ethernet, buses USB, etc)
+      y estas funciones tenían que ser suministradas por tarjetas de
+      expansión especializadas, conectadas a conectores de expansión
+      semejantes al actual PCI.
 
 
    Zócalo para memoria RAM de tipo DIMM
@@ -497,8 +500,8 @@ Conexiones externas
       base, pero se puede añadir mediante una tarjeta de expansión PCI o
       mediante un cable conversor de USB a RS-232.
 
-      Todavía hay equipos antiguos en fábricas, laboratorios y empresas 
-      que utilizan el estándar RS-232 y es necesario poder comunicarse 
+      Todavía hay equipos antiguos en fábricas, laboratorios y empresas
+      que utilizan el estándar RS-232 y es necesario poder comunicarse
       con ellos.
 
       .. figure:: informatica/_images/informatica-rs232-connector.jpg
@@ -524,7 +527,7 @@ Conectores de vídeo
       (Video Graphics Array) es un estándar para comunicar la tarjeta
       gráfica del ordenador con el monitor de vídeo o con el proyector.
       Esta conexión utiliza señales analógicas, con peor calidad y menos
-      capacidad de resolución que los conectores digitales actuales 
+      capacidad de resolución que los conectores digitales actuales
       (DVI y HDMI).
 
       A pesar de ser un estándar pensado para pantallas antiguas de tipo
@@ -712,7 +715,7 @@ Conectores de red
 
       Las ventajas de la fibra óptica frente a los cables de cobre
       consisten en que puede llevar información a mucha mayor velocidad.
-      Además los cables de fibra óptica pueden alcanzar distancias mucho 
+      Además los cables de fibra óptica pueden alcanzar distancias mucho
       mayores sin pérdidas en la señal.
 
       Las desventajas de la fibra óptica consisten en su mayor costo
@@ -726,28 +729,28 @@ Conexiones inalámbricas
    Wifi
       El estándar `wifi
       <https://es.wikipedia.org/wiki/Wifi>`__
-      es una tecnología que permite conectar equipos entre sí o a internet 
-      de forma inalámbrica. Es la versión inalámbrica del estándar 
+      es una tecnología que permite conectar equipos entre sí o a internet
+      de forma inalámbrica. Es la versión inalámbrica del estándar
       Ethernet, de redes locales.
-      
+
       La gran ventaja que tiene consiste en que no necesita cables para
       realizar las conexiones.
-      
-      La principal desventaja de las redes wifi se basa en que comparte 
-      el medio de transmisión, el aire, con todos los demás equipos. 
+
+      La principal desventaja de las redes wifi se basa en que comparte
+      el medio de transmisión, el aire, con todos los demás equipos.
       Esto hace que se congestione cuando hay muchos equipos funcionando
-      cerca unos de otros y puede tener brechas de seguridad 
+      cerca unos de otros y puede tener brechas de seguridad
       (robo o espionaje de las señales wifi).
-      
-      Existen muchos estándares distintos dentro del wifi. 
+
+      Existen muchos estándares distintos dentro del wifi.
       Los más modernos, como el `802.11ax o Wi-Fi 6
       <https://es.wikipedia.org/wiki/IEEE_802.11ax>`__ de 2020, pueden
       llegar a transmitir a velocidades mayores de 60 Mbyte/s
       hasta distancias de 100 o más metros, dependiendo de los obstáculos
       que se encuentre la señal.
-      Cuanto mayor sea la distancia o los obstáculos, menor será la 
+      Cuanto mayor sea la distancia o los obstáculos, menor será la
       velocidad de transmisión.
-      
+
       .. figure:: informatica/_images/informatica-logo-wifi.png
          :align: center
          :width: 240px
@@ -762,20 +765,20 @@ Conexiones inalámbricas
    Bluetooth
       El estándar `Bluetooth
       <https://es.wikipedia.org/wiki/Bluetooth>`__
-      de comunicaciones inalámbricas sirve para facilitar las 
-      comunicaciones entre dispositivos móviles, sin utilizar cables. 
-      El Bluetooth es capaz de conectar el teléfono inteligente a unos 
-      auriculares inalámbricos o al sistema de manos libres de un 
+      de comunicaciones inalámbricas sirve para facilitar las
+      comunicaciones entre dispositivos móviles, sin utilizar cables.
+      El Bluetooth es capaz de conectar el teléfono inteligente a unos
+      auriculares inalámbricos o al sistema de manos libres de un
       automóvil.
-      
-      Este estándar también sirve para realizar transferencias de archivos 
-      entre dispositivos, por ejemplo para imprimir un documento en una 
+
+      Este estándar también sirve para realizar transferencias de archivos
+      entre dispositivos, por ejemplo para imprimir un documento en una
       impresora desde un ordenador portátil, sin utilizar cables.
 
-      Este estándar tiene un alcance más limitado que la conexión Wifi 
-      (unos 10 metros) y es menos versátil. 
+      Este estándar tiene un alcance más limitado que la conexión Wifi
+      (unos 10 metros) y es menos versátil.
       Como ventaja, tiene un consumo mucho menor que la conexión Wifi.
-      
+
       .. figure:: informatica/_images/informatica-logo-bluetooth.png
          :align: center
          :width: 240px
