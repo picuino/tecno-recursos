@@ -252,11 +252,11 @@ de datos.
       En combinación con el giroscopio permite conocer los movimientos
       que realizamos con gran precisión.
       
-      Pueden servir para realizar juegos de baile en los que el mando
-      sabe dónde está nuestra mano y cómo la movemos.
+      Estos sensores sirven para realizar juegos de baile en los que
+      el mando sabe dónde está nuestra mano y cómo la movemos.
       También permite conocer cómo andamos o corremos y predecir 
-      el consumo de energía realizado o incluso en aplicaciones médicas
-      para predecir la aparición del Alzheimer.
+      el consumo de energía realizado o incluso, en aplicaciones médicas,
+      para predecir la aparición de Alzheimer.
       
       Otra aplicación del acelerómetro es conocer dónde se encuentra el
       suelo (por la aceleración de la gravedad) y, a partir de esta 
@@ -278,7 +278,7 @@ de datos.
    Magnetómetro
       El `magnetómetro
       <https://es.wikipedia.org/wiki/Magnet%C3%B3metro#Uso_en_dispositivos_m%C3%B3viles>`__
-      es un sensor de campo magnético. Como la tierra tiene un campo
+      es un sensor de campo magnético. Como la Tierra tiene un campo
       magnético, con el magnetómetro que incluye un smartphone se puede
       situar el norte como lo hace una **brújula**.
 
@@ -291,7 +291,7 @@ de datos.
       conocer el uso que estamos dando al smartphone porque un mayor uso 
       se traduce en una mayor temperatura de la batería. 
       También podemos conocer si se está cargando el teléfono
-      o, de forma indirecta, la temperatura ambiental.
+      o, de forma indirecta, la temperatura ambiente.
       
 
 Periféricos de salida
@@ -341,7 +341,7 @@ se muestre al exterior.
    Proyector de vídeo
       El `proyector de vídeo
       <https://es.wikipedia.org/wiki/Proyector_de_video>`__
-      o cañon proyector es un aparato óptico que proyecta una imagen fija
+      o cañón proyector es un aparato óptico que proyecta una imagen fija
       o en movimiento sobre una pared o una pantalla de proyección,
       a partir de una señal de vídeo que procede de un ordenador.
       Esto permite visualizar la información del ordenador para todo 
@@ -376,20 +376,20 @@ se muestre al exterior.
          via Wikimedia Commons.
 
       Las tres tecnologías más usuales son la tecnología 
-      `láser con tóner <https://es.wikipedia.org/wiki/Impresora#T%C3%B3ner>`__
+      `láser con tóner <https://es.wikipedia.org/wiki/Impresora#T%C3%B3ner>`__,
       la tecnología de `inyección de tinta
       <https://es.wikipedia.org/wiki/Impresora#Inyecci%C3%B3n_de_tinta>`__
       y la tecnología `térmica
       <https://es.wikipedia.org/wiki/Impresora_t%C3%A9rmica>`__ 
-      utilizada para imprimir los tícket de compra. 
+      utilizada para imprimir los tickets de compra. 
       
    DAC
       El `DAC
       <https://www.culturasonora.es/hifi/que-es-un-dac/>`__
       o conversor digital a analógico es un periférico de salida que 
       permite convertir los archivos digitales del ordenador en música
-      analógica con alta fidelidad, mayor que la de una simple tarjeta de 
-      sonido de ordenador.
+      o sonido analógico con alta fidelidad, mayor que la de una simple
+      tarjeta de sonido de ordenador.
       
       .. figure:: informatica/_images/informatica-dac.jpg
          :align: center
@@ -421,21 +421,21 @@ se muestre al exterior.
          Public Domain,
          via Wikimedia Commons.
 
-      Normalmente se utilizan sistemas estéreo (de dos altavoces, uno 
-      derecho y otro izquierdo), pero también se pueden utilizar sistemas
+      Normalmente se utilizan sistemas estéreo con dos altavoces, uno 
+      derecho y otro izquierdo, pero también se pueden utilizar sistemas
       de `sonido envolvente 5.1 
       <https://es.wikipedia.org/wiki/Sonido_envolvente_5.1>`__
       si el archivo original de audio/vídeo y la tarjeta de sonido lo 
       permiten.
 
-   Pilotos luminosos (LED)
+   Pilotos luminosos LED
       Los pilotos luminosos `LED
       <https://es.wikipedia.org/wiki/Led>`__
-      son pequeñas luces informan de los estados del ordenador.
-      Las cajas de ordenador y los teclados suelen tener pilotos led
-      para avisar de que el ordenador está encendido, el disco duro está
-      funcionando, se está produciendo la carga de la batería o que
-      se ha activado el teclado numérico.
+      son pequeñas luces que informan de los estados del ordenador.
+      Las cajas de ordenador y los teclados suelen tener pilotos LED
+      para avisar de que el ordenador está encendido, que el disco duro
+      está funcionando, que se está produciendo la carga de la batería
+      o que se ha activado el teclado numérico.
 
       .. figure:: informatica/_images/informatica-ledes.jpg
          :align: center
@@ -451,7 +451,7 @@ se muestre al exterior.
 
    Motor de vibración
       El motor de vibración se utiliza en los smartphones para indicar
-      un evento de forma silenciosa. De esta forma el motor puede 
+      un evento de forma silenciosa. De esta manera, el motor puede 
       informar de una llamada entrante o que ha llegado un nuevo 
       mensaje con un nivel de ruido muy bajo.
 
@@ -500,10 +500,10 @@ la entrada como la salida de datos del ordenador.
       es una pantalla informática que tiene detectores que permiten 
       conocer la posición del dedo cuando toca o cuando se desplaza sobre 
       su superficie. 
-      Esto hace que la pantalla sea interactiva y permita tanto la salida
+      Esto hace que la pantalla sea interactiva y permite tanto la salida
       como la entrada de datos.
       
-      Con la pantalla táctil se pueden dar órdenes al dispositivo.
+      Con la pantalla táctil se pueden dar órdenes a un dispositivo.
 
       .. figure:: informatica/_images/informatica-pantalla-tactil.jpg
          :align: center
@@ -520,9 +520,10 @@ la entrada como la salida de datos del ordenador.
    Impresora multifunción
       La `impresora multifunción
       <https://es.wikipedia.org/wiki/Impresora_multifunci%C3%B3n>`__
-      es una combinación de impresora con escáner, por lo que tiene entrada
-      y salida de datos. Estas dos funciones le permiten actuar como una
-      fotocopiadora o incluso como un fax.      
+      es una combinación de impresora con escáner, por lo que permite la
+      entrada y la salida de datos.
+      Estas dos funciones le permiten actuar como una fotocopiadora
+      o como un fax.      
       
       .. figure:: informatica/_images/informatica-impresora-multifuncion.jpg
          :align: center
@@ -543,7 +544,7 @@ la entrada como la salida de datos del ordenador.
       que permite reproducir imágenes creadas por ordenador sobre
       una pantalla muy cercana a los ojos, por lo que las imágenes parecen
       mucho mayores que las de las pantallas normales. 
-      También se reproduce sonido estéreo por los cascos.
+      También se reproduce sonido estéreo por los auriculares incorporados.
       
       El casco de realidad virtual tiene sensores de posición y movimiento 
       que permiten conocer dónde mira el usuario, para acompasar las
@@ -573,8 +574,8 @@ la entrada como la salida de datos del ordenador.
 
       Las señales de entrada al ordenador desde un micrófono, desde
       una guitarra eléctrica o desde un reproductor de sonido son 
-      analógicas. La tarjeta de sonido transforma estas entradas analógicas
-      mediante un `ADC 
+      analógicas. La tarjeta de sonido transforma estas entradas
+      analógicas mediante un `ADC 
       <https://es.wikipedia.org/wiki/Conversi%C3%B3n_anal%C3%B3gica-digital>`__ 
       en señales digitales que pueden ser procesadas por 
       el ordenador.
@@ -611,3 +612,9 @@ Test de la unidad
 
 `Test de periféricos II
 <https://www.picuino.com/test/es-hardware-perifericos-2.html>`__
+
+`Test de periféricos III
+<https://www.picuino.com/test/es-hardware-perifericos-3.html>`__
+
+`Test de periféricos IV
+<https://www.picuino.com/test/es-hardware-perifericos-4.html>`__

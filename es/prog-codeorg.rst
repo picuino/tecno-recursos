@@ -131,42 +131,39 @@ realizar en menos de una hora.
      - `Arte del Poema <https://studio.code.org/s/poem-art-2021/lessons/1/levels/1>`_
      - 9
    * - 11
-     - `Arte del Poema <https://studio.code.org/s/poem-art-2021/lessons/1/levels/1>`_
-     - 9
-   * - 12
      - `AI para océanos <https://studio.code.org/s/oceans/lessons/1/levels/1>`_
      - 8
-   * - 13
+   * - 12
      - `Laberinto Angry Birds <https://studio.code.org/hoc/1>`_
      - 20
-   * - 14
+   * - 13
      - `Star Wars <https://studio.code.org/s/starwarsblocks/lessons/1/levels/1>`_
      - 15
-   * - 15
+   * - 14
      - `Frozen <https://studio.code.org/s/frozen/lessons/1/levels/1>`_
      - 20
-   * - 16
+   * - 15
      - `Simulador de epidemias <https://studio.code.org/s/outbreak/lessons/1/levels/1>`_
      - 10
-   * - 17
+   * - 16
      - `Artista <https://studio.code.org/s/artist/lessons/1/levels/1>`_
      - 10
-   * - 18
+   * - 17
      - `Juego de baloncesto <https://studio.code.org/s/basketball/lessons/1/levels/1>`_
      - 8
-   * - 19
+   * - 18
      - `Juego multideporte <https://studio.code.org/s/sports/lessons/1/levels/1>`_
      - 8
-   * - 20
+   * - 19
      - `Laboratorio de juegos clásico <https://studio.code.org/s/playlab/lessons/1/levels/1>`_
      - 10
-   * - 21
+   * - 20
      - `Laboratorio de juegos Ice Age <https://studio.code.org/s/iceage/lessons/1/levels/1>`_
      - 11
-   * - 22
+   * - 21
      - `Laboratorio de juegos Disney <https://studio.code.org/s/infinity/lessons/1/levels/1>`_
      - 10
-   * - 23
+   * - 22
      - `Laboratorio de juegos Gumball <https://studio.code.org/s/gumball/lessons/1/levels/1>`_
      - 11
 

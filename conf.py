@@ -99,8 +99,6 @@ exclude_patterns = [
    'es/crocodile-subs.rst',
    'es/writer-subs.rst',
    'es/inkscape-subs.rst',
-   'es/css',
-   'es/html',
 ]
 
 # If true, Sphinx will warn about all references where the target cannot

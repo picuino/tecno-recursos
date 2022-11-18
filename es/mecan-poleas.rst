@@ -8,32 +8,35 @@
 :index:`Poleas` y :index:`Polipastos`
 =====================================
 
-Una polea es una máquina simple compuesta de una rueda acanalada por
+Una polea es una máquina simple, fabricada con una rueda acanalada por
 la que pasa una cuerda.
-La función de la polea es desviar la dirección y la posición
-de la cuerda y por lo tanto de la fuerza aplicada.
-De esta manera la cuerda de un pozo puede levantar un cubo de agua
+
+Aplicaciones de las poleas
+--------------------------
+La **función** de la polea es desviar la dirección y la posición
+de la cuerda y por lo tanto de la fuerza de tensión aplicada.
+
+De esta manera la cuerda de **un pozo** puede levantar un cubo de agua
 haciendo fuerza hacia abajo lejos del brocal, lo que significa una
 ventaja al poder tirar desde una posición más cómoda.
 
+Unas **cortinas** pueden abrirse y cerrarse tirando de dos cuerdas
+hacia abajo, al nivel de nuestra mano.
+La función de las poleas aquí es mover la fuerza desde el nivel de
+nuestra mano hasta el techo, donde se encuentra el raíl de las cortinas.
+
 .. image:: mecan/_images/mecan-poleas-01.png
-   :alt: Polea simple levantando un peso de 60kg
+   :alt: Polea simple levantando un peso de 60kg.
    :align: center
    :height: 284px
 
-
 .. image:: mecan/_images/mecan-poleas-02.png
-   :alt: Polea simple levantando una polea acoplada a un peso de 60kg
+   :alt: Polea simple levantando una polea acoplada a un peso de 60kg.
    :align: center
    :height: 300px
 
-Una cortina puede moverse hacia un lado y al otro gracias a una
-cuerda de la que tiramos hacia abajo a nivel del suelo.
-La función de las poleas aquí es mover la fuerza desde el suelo
-hasta una posición elevada y de lado a lado.
-
 .. image:: mecan/_images/mecan-poleas-09.png
-   :alt: Doble polea levantando un peso de 60kg
+   :alt: Doble polea levantando un peso de 60kg.
    :align: center
    :height: 284px
 
@@ -47,9 +50,10 @@ los pesos.
 
 :index:`Polipastos`
 -------------------
-Uniendo varias poleas se puede formar un polipasto, que levantará pesos
-con ventaja mecánica, es decir que podrá levantar más peso que la fuerza
-aplicada sobre la cuerda.
+Un polipasto está compuesto por al menos una polea móvil, enganchada
+en el peso que se quiere mover. El polipasto puede levantar pesos
+con ventaja mecánica, es decir que podrá levantar un peso mayor que 
+la fuerza aplicada sobre la cuerda.
 
 Para calcular la fuerza necesaria para levantar el peso, hay que dividir
 el peso entre el número de tramos de cuerda que están tirando del peso 
@@ -57,37 +61,38 @@ hacia arriba.
 
 En los siguientes polipastos hay **2 tramos de cuerda** que tiran del 
 peso hacia arriba y por lo tanto la fuerza que hay que realizar para 
-levantar el peso será la mitad, es decir 30kgf.
+levantar el peso se divide entre los dos tramos, con un resultado de
+30kgf.
 
 .. image:: mecan/_images/mecan-poleas-03.png
-   :alt: polea acoplada a un peso de 60kg, que levanta con la mitad de fuerza
+   :alt: polea acoplada a un peso de 60kg, que levanta con la mitad de fuerza.
    :align: center
    :height: 284px
 
 .. image:: mecan/_images/mecan-poleas-04.png
-   :alt: Polipasto de dos poleas que levantan 60kg con la mitad de fuerza
+   :alt: Polipasto de dos poleas que levantan 60kg con la mitad de fuerza.
    :align: center
    :height: 284px
 
 En los siguientes polipastos hay **3 tramos de cuerda** que tiran del 
 peso hacia arriba y por lo tanto la fuerza que hay que realizar para 
-levantar el peso será un tercio, es decir 20kgf.
+levantar el peso se divide entre tres, con un resultado de 20kgf.
 
 .. image:: mecan/_images/mecan-poleas-05.png
    :alt: polipasto de dos poleas que levantan un peso de 60kg con
-         un tercio de fuerza
+         un tercio de fuerza.
    :align: center
    :height: 284px
 
 .. image:: mecan/_images/mecan-poleas-07.png
    :alt: polipasto de tres poleas que levantan un peso de 60kg con
-         un tercio de fuerza
+         un tercio de fuerza.
    :align: center
    :height: 284px
 
 En los siguientes polipastos hay **4 tramos de cuerda** que tiran del
 peso hacia arriba y por lo tanto la fuerza que hay que realizar para
-levantar el peso será una cuarta parte, es decir 15kgf.
+levantar el peso se divide entre cuatro, con un resultado de 15kgf.
 
 .. image:: mecan/_images/mecan-poleas-06.png
    :alt: polipasto de tres poleas que levantan un peso de 60kg con 
@@ -97,31 +102,31 @@ levantar el peso será una cuarta parte, es decir 15kgf.
 
 .. image:: mecan/_images/mecan-poleas-08.png
    :alt: polipasto de cuatro poleas que levantan un peso de 60kg con 
-         un cuarto de fuerza
+         un cuarto de fuerza.
    :align: center
    :height: 284px
 
-Hay que tener en cuenta que a veces las poleas de abajo no están
-enganchadas al peso y por lo tanto no cuentan a la hora de calcular
-la fuerza con la que hay que tirar de la cuerda.
+Hay que tener en cuenta que a veces las poleas de no están enganchadas
+al peso y por lo tanto no cuentan a la hora de calcular la fuerza con
+la que hay que tirar de la cuerda.
 
-En este polipasto hay **2 tramos de cuerda** que tiran del peso hacia
-arriba y por lo tanto la fuerza que hay que realizar para levantar
-el peso será la mitad, es decir 30kgf.
+En el siguiente polipasto hay **2 tramos de cuerda** que tiran del peso
+hacia arriba y por lo tanto la fuerza que hay que realizar para levantar
+el peso se divide entre las dos, con un resultado de 30kgf.
 
 .. image:: mecan/_images/mecan-poleas-10.png
    :alt: polipasto más poleas que levantan un peso de 60kg con 
-         la mitad de fuerza
+         la mitad de fuerza.
    :align: center
    :height: 284px
 
-En este polipasto hay **3 tramos de cuerda** que tiran del peso hacia
-arriba y por lo tanto la fuerza que hay que realizar para levantar
-el peso será un tercio, es decir 20kgf.
+En el siguiente polipasto hay **3 tramos de cuerda** que tiran del peso
+hacia arriba y por lo tanto la fuerza que hay que realizar para levantar
+el peso se divide entre tres, con un resultado de 20kgf.
 
 .. image:: mecan/_images/mecan-poleas-11.png
    :alt: polipasto más poleas que levantan un peso de 60kg con 
-         un tercio de fuerza
+         un tercio de fuerza.
    :align: center
    :height: 284px
 

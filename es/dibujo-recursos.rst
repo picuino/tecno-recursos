@@ -23,8 +23,31 @@ Página web educacionplastica.net
   <http://www.educacionplastica.net/3dcube_model/3d_gen_eje.htm>`_
 * `Normalización (acotación)
   <http://www.educacionplastica.net/menunorma.htm>`_
+
   
-  
+Página web Mongge.com
+---------------------
+`Mongge.com <https://www.mongge.com/>`__ para animar tu Dibujo Técnico.
+
+Más de 60 000 ejercicios de dibujo técnico compartidos por 
+una comunidad activa de miles de personas.
+
+* `Trazados básicos
+  <https://www.mongge.com/ejercicios/?category=46>`__
+
+* `Sistema axonométrico
+  <https://www.mongge.com/ejercicios/?category=43>`__
+
+* `Vistas
+  <https://www.mongge.com/ejercicios/?category=11>`__
+
+* `Normalización
+  <https://www.mongge.com/ejercicios/?category=166>`__
+
+* `Editor de animaciones
+  <https://www.mongge.com/editor>`__
+
+
 Plantillas de dibujo
 --------------------
 

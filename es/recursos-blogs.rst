@@ -934,3 +934,18 @@ ranking suministrado por Similarweb.
    Villadiego de Peñaflor en Sevilla.
 
 
+#. `MecanESO
+   <http://concurso.cnice.mec.es/cnice2006/material107/>`_
+
+   .. image:: recursos/screenshots/recursos-concurso_cnice_mec_es_cnice2006_material107.jpg
+      :target: http://concurso.cnice.mec.es/cnice2006/material107/
+      :alt: Screenshot de la página web MecanESO.
+
+   .. list-table::
+
+      * - `Similarweb rank <https://www.similarweb.com/es/website/concurso.cnice.mec.es/#overview>`__
+        - Sin datos
+
+   Web con contenidos muy completos de máquinas simples y mecanismos.
+
+

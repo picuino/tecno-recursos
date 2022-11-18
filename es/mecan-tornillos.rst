@@ -29,8 +29,14 @@ La denominación de las diferentes partes del tornillo es la siguiente.
 
 .. glossary::
 
+   Vástago
+      Pieza cilíndrica del tornillo donde se tallan los surcos de la rosca.
+   
+   Cuello
+      Parte del vástago del tornillo sin tallar.
+
    Rosca
-      Es el plano inclinado enrollado de forma helicoidal 
+      Es el plano inclinado enrollado de forma helicoidal
       alrededor del vástago.
 
    Cabeza del tornillo

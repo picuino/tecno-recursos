@@ -237,7 +237,7 @@ de almacenamiento.
 
       Ventajas de los SSD:
          * Mayor velocidad de transferencia.
-           600MBytes/s de un SSD frente a 100 Mbytes/s de un HDD
+           más de 600MBytes/s de un SSD frente a 100 Mbytes/s de un HDD
          * Menor tiempo de acceso.
            0,1 milisegundos de un SSD frente a 10 milisegundos de un HDD.
          * Mayor resistencia a los golpes y a las vibraciones.
