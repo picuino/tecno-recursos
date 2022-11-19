@@ -22,55 +22,54 @@ Clasificación de dispositivos de almacenamiento
 **Según su posición y vinculación al ordenador local:**
 
    Almacenamiento primario
-   
+
      * Memoria RAM
      * Memoria caché
      * Búfer de datos
-   
+
    Almacenamiento secundario
-   
+
      * Memoria ROM
      * Disco de estado sólido SSD
      * Disco duro magnético HDD
-   
+
    Almacenamiento externo
-   
+
      * Unidades ópticas CD-ROM, DVD, Blu-ray
      * Memoria USB
      * Tarjetas SD
      * Cinta magnética
      * Discos flexibles
-   
+
    Almacenamiento virtual
-   
+
      * Equipos NAS
      * Almacenamiento en la nube
-     
+
 
 **Según su método de almacenamiento:**
 
    Dispositivos de estado sólido
-     
+
      * Memoria RAM
      * Memoria ROM
      * Unidad de estado sólido SSD
      * Memorias USB
      * Tarjetas SD
-   
+
    Dispositivos de almacenamiento magnético
-     
+
      * Discos duros HDD
      * Cinta magnética
      * Discos flexibles
-   
+
    Dispositivos de almacenamiento óptico
-     
+
      * Discos CD-ROM
      * Discos DVD
      * Discos Blu-ray
-   
-   
-   
+
+
 Almacenamiento primario
 -----------------------
 Las memorias de almacenamiento primario son los dispositivos que contienen
@@ -87,13 +86,13 @@ Son las memorias más rápidas y cercanas a la unidad central de proceso.
 
       La memoria RAM debe ser muy rápida para no ralentizar la velocidad
       de la unidad central de proceso (CPU). Una memoria RAM actual puede
-      transferir 21Gbytes por segundo.
+      transferir más de 20 gigabytes por segundo.
 
       También debe tener suficiente tamaño para contener todos los
       programas, apps y datos que se estén ejecutando de forma simultanea
       en el ordenador.
-      En 2022, un smartphone medio suele tener de 4 a 8 Gbytes de
-      RAM y un ordenador personal de 8 a 16 Gbytes de RAM.
+      En 2022, un smartphone medio suele tener de 4 a 8 gigabytes de
+      RAM y un ordenador personal, de 8 a 16 gigabytes de RAM.
 
       .. figure:: informatica/_images/informatica-ram-ddr4.jpg
          :align: center
@@ -105,11 +104,11 @@ Son las memorias más rápidas y cercanas a la unidad central de proceso.
          `GNU Free Documentation License <https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2>`__,
          via Wikimedia Commons.
 
-      La desventaja de la memoria RAM es que pierde sus datos cuando se
-      apaga la alimentación del ordenador además suele ser mucho más cara 
-      que las memorias de almacenamiento secundario,
-      5€/Gbyte de una memoria RAM frente a 0,02€/Gbyte de un disco
-      duro de 4Tbytes en 2022.
+      La desventaja de la memoria RAM consiste en que pierde sus datos
+      cuando se apaga la alimentación del ordenador. Además suele ser
+      mucho más cara que las memorias de almacenamiento secundario,
+      5€/gigabyte de una memoria RAM frente a 0,02€/gigabyte de un disco
+      duro en 2022.
 
 
    Memoria caché
@@ -121,10 +120,10 @@ Son las memorias más rápidas y cercanas a la unidad central de proceso.
 
       Funciona de manera semejante a la memoria RAM, pero es de
       menor tamaño y de acceso más rápido. Surgió cuando la memoria RAM
-      ya no fue capaz de trabajar a la misma velocidad del microprocesador
-      y sirve para que el microprocesador reduzca el tiempo de acceso
-      a los datos ubicados en la memoria RAM que se utilizan con más
-      frecuencia.
+      ya no fue capaz de trabajar a la misma velocidad del procesador
+      y sirve para que el procesador reduzca el tiempo de acceso
+      a los datos y programas ubicados en la memoria RAM que se
+      utilizan con más frecuencia.
 
       Hoy en día la memoria caché de la RAM suele estar integrada dentro
       del propio procesador y suele tener un tamaño de varios megabytes.
@@ -138,7 +137,7 @@ ordenador no tenga alimentación. Se suelen instalar de forma
 permanente en el interior del ordenador para que almacenen el sistema
 operativo y los diferentes programas y datos de uso habitual.
 
-Los dispositivos de almacenamiento secundario son más lentos que los 
+Los dispositivos de almacenamiento secundario son más lentos que los
 de almacenamiento primario. Como contrapartida tienen mayor capacidad
 de almacenamiento.
 
@@ -148,25 +147,25 @@ de almacenamiento.
    Memoria ROM
       La `memoria ROM
       <https://es.wikipedia.org/wiki/Imagen_ROM>`__
-      (Read Only Memory) o memoria de solo lectura es una memoria de 
+      (Read Only Memory) o memoria de solo lectura es una memoria de
       almacenamiento permanente de programas y datos del ordenador.
       En esta memoria se almacena el denominado
       `Firmware <https://es.wikipedia.org/wiki/Firmware>`__,
       programas de solo lectura que manejan un dispositivo.
 
-      Las memorias ROM que se utilizan hoy en día no son de solo lectura,
-      suelen estar basadas en tecnología Flash y se pueden reescribir,
-      múltiples veces.
+      Muchas memorias ROM que se utilizan hoy en día no son realmente
+      de solo lectura. Suelen estar basadas en tecnología Flash y se
+      pueden reescribir múltiples veces.
       Por esta razón, hoy en día a esta memoria también se la denomina
       memoria Flash.
 
       Las memorias Flash suelen ser más lentas, más sencillas y de
-      menor capacidad que las memorias SSD, aunque ambas estén basadas
-      internamente en la misma tecnología.
+      menor capacidad que las memorias incluidas en las unidades SSD,
+      aunque ambas estén basadas internamente en una tecnología similar.
 
-      Ejemplos de ROM son la memoria del BIOS (Sistema Básico de Entrada
-      Salida) de un ordenador personal, o el programa interno de
-      dispositivos como un router, un mando a distancia, etc.
+      Ejemplos de memoria ROM son la memoria del BIOS (Sistema Básico
+      de Entrada Salida) de un ordenador personal, o el programa interno
+      de dispositivos como un router, un mando a distancia, etc.
 
       .. figure:: informatica/_images/informatica-rom-bios.jpg
          :align: center
@@ -174,7 +173,8 @@ de almacenamiento.
 
          Memoria ROM Phoenix BIOS de una placa base de ordenador personal.
 
-         `© Raimond Spekking <https://commons.wikimedia.org/wiki/File:Elitegroup_755-A2_-_Phoenix_Bios_D686-6679.jpg>`__,
+         `Raimond Spekking
+         <https://commons.wikimedia.org/wiki/File:Elitegroup_755-A2_-_Phoenix_Bios_D686-6679.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
          via Wikimedia Commons.
 
@@ -213,10 +213,10 @@ de almacenamiento.
    Unidad de estado sólido (SSD)
       La `unidad de estado sólido
       <https://es.wikipedia.org/wiki/Unidad_de_estado_s%C3%B3lido>`__
-      es un tipo de memoria secundaria basado en chips de tecnología Flash
-      que almacenan información de forma permanente.
+      es un tipo de memoria secundaria basada en chips de tecnología
+      Flash que almacenan información de forma permanente.
 
-      Son más modernos en el mercado (desde 2009) que los discos duros 
+      Son más modernos en el mercado (desde 2009) que los discos duros
       y tienen menos capacidad a igualdad de precio, pero van mejorando
       rápidamente con los años y están sustituyendo poco a poco a
       los discos duros tradicionales.
@@ -233,25 +233,26 @@ de almacenamiento.
          via Wikimedia Commons.
 
 
-      Comparación entre las unidades de estado sólido y los discos duros
+   Comparativa entre HDD y SSD
 
       Ventajas de los SSD:
          * Mayor velocidad de transferencia.
-           más de 600MBytes/s de un SSD frente a 100 Mbytes/s de un HDD
+           Más de 600 megabytes/s de un SSD frente a 100 megabytes/s de
+           un HDD.
          * Menor tiempo de acceso.
            0,1 milisegundos de un SSD frente a 10 milisegundos de un HDD.
          * Mayor resistencia a los golpes y a las vibraciones.
          * Menor tasa de fallos de los SSD al no tener partes mecánicas.
          * Menor consumo eléctrico.
-           4W o 5W de un SSD a máximo rendimiento frente a
+           4W ó 5W de un SSD a máximo rendimiento frente a
            6W a 10W de un HDD.
          * Menor tamaño físico.
          * Menor ruido generado.
 
       Desventajas de los SSD:
          * Menor resistencia a un gran número de escrituras.
-         * Mayor precio por Gbyte.
-           0,08€ de un SSD frente a 0,02€ de un HDD en 2022.
+         * Mayor precio por gigabyte.
+           0,140€/GB de un SSD frente a 0,024€/GB de un HDD en 2022.
 
 
    SMART
@@ -283,22 +284,24 @@ de almacenamiento.
       Un sistema `RAID (matriz redundante de discos independientes)
       <https://es.wikipedia.org/wiki/RAID>`__
       es una tecnología que permite unir varias unidades de disco duro
-      (HDD) para aumentar sus prestaciones.
+      (HDD) o unidades de estado sólido (SSD) para conseguir aumentar
+      sus prestaciones.
       Se utiliza en servidores de datos y en ordenadores de altas
-      prestaciones. 
-      Necesita una controladora RAID especializada para conectar los discos
-      al ordenador.
+      prestaciones.
+      Necesita una controladora RAID especializada para conectar los
+      discos al ordenador.
 
       En un primer nivel RAID, el sistema operativo ve una sola unidad
       donde en realidad hay varios discos duros.
-      La velocidad de transferencia total aumenta al unir las 
+      La velocidad de transferencia total aumenta al unir las
       velocidades de transferencia de cada uno de los discos.
 
-      En niveles posteriores, se utiliza un disco para almacenar datos
-      redundantes de paridad.
-      Esto permite que los datos no se pierdan ante el fallo de una unidad.
+      En niveles RAID posteriores, se utiliza un disco para almacenar
+      datos redundantes de paridad.
+      Esto permite que los datos no se pierdan ante el fallo de una de
+      las unidades.
       Al detectar una unidad dañada, ésta se puede cambiar por otra nueva y
-      el sistema recuperará automáticamente los datos perdidos a partir 
+      el sistema recuperará automáticamente los datos perdidos a partir
       de los datos redundantes.
 
 
@@ -306,12 +309,12 @@ de almacenamiento.
       Un `búfer de datos
       <https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos>`__
       es un espacio de memoria temporal que almacena datos de lectura o de
-      escritura que se dirigen a un periférico. De esta forma se acelera el 
-      funcionamiento del procesador y se evita que un dispositivo 
+      escritura que se dirigen a un periférico. De esta forma se acelera el
+      funcionamiento del procesador y se evita que un dispositivo
       pierda datos durante una transferencia de datos irregular.
 
       Los búfer de escritura para un dispositivo lento, como un disco duro
-      o un pendrive, almacenan varios mega bytes de datos que son enviados
+      o un pendrive, almacenan varios megabytes de datos que son enviados
       en ráfagas rápidas por el procesador para, más tarde, escribirlos
       en el dispositivo de almacenamiento a menor velocidad y de manera
       continua.
@@ -329,11 +332,11 @@ de almacenamiento.
 
 Almacenamiento externo
 ----------------------
-Los dispositivos de almacenamiento externo se pueden desconectar con 
+Los dispositivos de almacenamiento externo se pueden desconectar con
 facilidad del ordenador para ser transportados.
 
-Su velocidad es más lenta que la de los anteriores métodos de 
-almacenamiento, pero presentan la ventaja de su mayor movilidad y 
+Su velocidad es más lenta que la de los anteriores métodos de
+almacenamiento, pero presentan la ventaja de su mayor movilidad y
 facilidad de transporte.
 
 .. glossary::
@@ -346,7 +349,7 @@ facilidad de transporte.
       con conexión de tipo USB.
 
       Su capacidad máxima aumenta con los años debido a la ley de Moore.
-      en 2022 es sencillo conseguir una memoria USB de 512 Gbytes por
+      en 2022 es sencillo conseguir una memoria USB de 512 gigabytes por
       un precio que ronda de 20 a 40 Euros.
 
       La velocidad de lectura suele ser menor que la de un disco duro
@@ -370,7 +373,7 @@ facilidad de transporte.
       se basa en la misma tecnología que las unidades de memoria USB y
       tiene rendimientos semejantes.
 
-      El estándar de conexión de la tarjeta SD es más sencillo que el 
+      El estándar de conexión de la tarjeta SD es más sencillo que el
       estándar USB. Además el tamaño de las tarjetas SD suele ser menor
       que el de los pendrive, especialmente en las tarjetas microSD.
 
@@ -438,23 +441,23 @@ facilidad de transporte.
            - DVD
            - Blu-ray
          * - Capacidad
-           - 0,750 GBytes
-           - 4,7 GBytes
+           - 0,750 gigabytes
+           - 4,7 gigabytes
 
-             8,0 Gbytes a doble capa
-           - 25 GBytes
+             8,0 gigabytes a doble capa
+           - 25 gigabytes
 
-             50 Gbytes a doble capa
+             50 gigabytes a doble capa
          * - Velocidad de transferencia
-           - 0,15 MBytes/s (1x)
+           - 0,15 megabytes/s (1x)
 
-             2,8-7,2 MBytes/s (48x)
-           - 1,4 MBytes/s (1x)
+             2,8-7,2 megabytes/s (48x)
+           - 1,4 megabytes/s (1x)
 
-             33,2 MBytes/s (24x)
-           - 4,5 Mbytes/s (1x)
+             33,2 megabytes/s (24x)
+           - 4,5 megabytes/s (1x)
 
-             54 MBytes/s (12x)
+             54 megabytes/s (12x)
          * - Láser de lectura/escritura
            - Infrarrojo (780 nm)
            - Rojo (650 nm)
@@ -467,7 +470,7 @@ facilidad de transporte.
            - 0,40 €
            - 0,90 €
            - 0,90 €
-         * - Costo por GByte
+         * - Costo por gigabyte
            - 0,53 €/GB
            - 0,19 €/GB
            - 0,036 €/GB
@@ -493,16 +496,16 @@ facilidad de transporte.
       En el momento en el que salieron al mercado, estas unidades de
       almacenamiento óptico tenían más capacidad que los propios discos
       duros, por lo que era un método de almacenamiento muy barato para
-      realizar backup o copias de seguridad. 
-      Hoy en día, la capacidad de los discos duros ha crecido tanto que su 
-      costo de almacenamiento ha bajado muchísimo, hasta los 0,023 €/GB, 
-      por lo que ya no son rentables estas unidades ópticas para almacenar 
+      realizar backup o copias de seguridad.
+      Hoy en día, la capacidad de los discos duros ha crecido tanto que su
+      costo de almacenamiento ha bajado muchísimo, hasta los 0,023 €/GB,
+      por lo que ya no son rentables estas unidades ópticas para almacenar
       grandes cantidades de datos.
 
       Las memorias USB también han crecido exponencialmente en su capacidad
       y en 2022 una unidad con mayor capacidad que un Blu-ray es
-      relativamente barata (5€). Aunque el precio por GByte siga siendo
-      algo mayor en las memorias USB (0,12 - 0,05€/GByte), su mayor
+      relativamente barata (5€). Aunque el precio por gigabyte siga siendo
+      algo mayor en las memorias USB (0,12 - 0,05€/gigabyte), su mayor
       versatilidad y facilidad de lectura/escritura han hecho que asuman
       muchas aplicaciones que antes se realizaban con discos ópticos,
       tales como los reproductores de música.
@@ -529,13 +532,13 @@ facilidad de transporte.
 
       Tiene algunas desventajas, como es su acceso secuencial a la
       información y por lo tanto su lentitud. Su mayor ventaja es su
-      bajo precio por Gigabyte, pudiendo almacenar la misma información
+      bajo precio por gigabyte, pudiendo almacenar la misma información
       que un disco duro por menos precio.
 
       Hoy en día su uso se limita a realizar copias de respaldo de grandes
       cantidades de datos.
       La tecnología más conocida es la LTO (Linear Tape Open), que en su
-      versión LTO-9 es capaz de almacenar hasta 18 Terabytes de datos en
+      versión LTO-9 es capaz de almacenar hasta 18 terabytes de datos en
       un solo cartucho.
 
       .. figure:: informatica/_images/informatica-tape-lto4.jpg
@@ -596,7 +599,7 @@ almacenamiento se puedan optimizar y compartir entre varios ordenadores.
       Permite almacenar, recuperar y compartir los datos en un punto
       centralizado para todos los ordenadores de una red local.
 
-      Normalmente los servidores NAS son equipos diseñados para 
+      Normalmente los servidores NAS son equipos diseñados para
       atender exclusivamente a esta función.
       Contienen varias bahías para la conexión de unidades
       de almacenamiento (HDD o SSD) en conexión :term:`RAID` para aumentar
@@ -643,3 +646,12 @@ almacenamiento se puedan optimizar y compartir entre varios ordenadores.
          gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
 
+
+Test de la unidad
+-----------------
+
+`Test de almacenamiento de la información I.
+<https://www.picuino.com/test/es-hardware-almacenamiento-1.html>`__
+
+`Test de almacenamiento de la información II.
+<https://www.picuino.com/test/es-hardware-almacenamiento-2.html>`__
