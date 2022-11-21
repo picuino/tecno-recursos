@@ -288,7 +288,7 @@ de almacenamiento.
       sus prestaciones.
       Se utiliza en servidores de datos y en ordenadores de altas
       prestaciones.
-      Necesita una controladora RAID especializada para conectar los
+      Se necesita una controladora RAID especializada para conectar los
       discos al ordenador.
 
       En un primer nivel RAID, el sistema operativo ve una sola unidad
@@ -313,16 +313,16 @@ de almacenamiento.
       funcionamiento del procesador y se evita que un dispositivo
       pierda datos durante una transferencia de datos irregular.
 
-      Los búfer de escritura para un dispositivo lento, como un disco duro
-      o un pendrive, almacenan varios megabytes de datos que son enviados
-      en ráfagas rápidas por el procesador para, más tarde, escribirlos
-      en el dispositivo de almacenamiento a menor velocidad y de manera
-      continua.
+      Los búfer de escritura para un dispositivo más lento que el
+      procesador, como un disco duro o un pendrive, almacenan varios
+      megabytes de datos que son enviados en ráfagas rápidas por el
+      procesador para, más tarde, escribirlos en el dispositivo de
+      almacenamiento a menor velocidad y de manera continua.
 
       Los dispositivos de entrada, como los teclados o ratones, también
-      tienen búfer de lectura que va almacenando los datos que envían
+      tienen un búfer de lectura que va almacenando los datos que envían
       los periféricos hasta que el procesador los lee rápidamente.
-      De esta manera el microprocesador principal no tiene que estar
+      De esta manera el procesador principal no tiene que estar
       atendiendo continuamente a un dispositivo lento, sino que lo
       atiende a ráfagas rápidas y sin esperas.
 
@@ -335,9 +335,9 @@ Almacenamiento externo
 Los dispositivos de almacenamiento externo se pueden desconectar con
 facilidad del ordenador para ser transportados.
 
-Su velocidad es más lenta que la de los anteriores métodos de
-almacenamiento, pero presentan la ventaja de su mayor movilidad y
-facilidad de transporte.
+Su velocidad suele ser más lenta que la de los anteriores métodos de
+almacenamiento interno, pero presentan la ventaja de su mayor movilidad
+y facilidad de transporte.
 
 .. glossary::
 
@@ -345,12 +345,12 @@ facilidad de transporte.
       La `memoria USB
       <https://es.wikipedia.org/wiki/Memoria_USB>`__
       es una memoria externa basada en
-      `memoria flash <https://es.wikipedia.org/wiki/Memoria_flash>`__
-      con conexión de tipo USB.
+      `tecnología flash <https://es.wikipedia.org/wiki/Memoria_flash>`__
+      con conexión al ordenador de tipo USB.
 
       Su capacidad máxima aumenta con los años debido a la ley de Moore.
-      en 2022 es sencillo conseguir una memoria USB de 512 gigabytes por
-      un precio que ronda de 20 a 40 Euros.
+      En 2022 se puede comprar una memoria USB de 512 gigabytes por
+      un precio de unos 40 Euros.
 
       La velocidad de lectura suele ser menor que la de un disco duro
       y la velocidad de escritura suele ser mucho menor en la mayoría
@@ -374,8 +374,9 @@ facilidad de transporte.
       tiene rendimientos semejantes.
 
       El estándar de conexión de la tarjeta SD es más sencillo que el
-      estándar USB. Además el tamaño de las tarjetas SD suele ser menor
-      que el de los pendrive, especialmente en las tarjetas microSD.
+      estándar USB. Además el tamaño físico de las tarjetas SD suele
+      ser menor que el de los pendrive, especialmente en las
+      tarjetas microSD.
 
       .. figure:: informatica/_images/informatica-sd.jpg
          :align: center
@@ -655,3 +656,6 @@ Test de la unidad
 
 `Test de almacenamiento de la información II.
 <https://www.picuino.com/test/es-hardware-almacenamiento-2.html>`__
+
+`Test de almacenamiento de la información III.
+<https://www.picuino.com/test/es-hardware-almacenamiento-3.html>`__
