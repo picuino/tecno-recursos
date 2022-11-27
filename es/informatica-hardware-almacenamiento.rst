@@ -242,7 +242,7 @@ de almacenamiento.
          * Menor tiempo de acceso.
            0,1 milisegundos de un SSD frente a 10 milisegundos de un HDD.
          * Mayor resistencia a los golpes y a las vibraciones.
-         * Menor tasa de fallos de los SSD al no tener partes mecánicas.
+         * Menor tasa de fallos de los SSD al no tener partes móviles.
          * Menor consumo eléctrico.
            4W ó 5W de un SSD a máximo rendimiento frente a
            6W a 10W de un HDD.
@@ -389,8 +389,8 @@ y facilidad de transporte.
          via Wikimedia Commons.
 
 
-   CD-ROM, DVD, Blu-ray
-      El `CDROM
+   Dispositivos de almacenamiento óptico
+      El `CD-ROM
       <https://es.wikipedia.org/wiki/CD-ROM>`__,
       el `DVD
       <https://es.wikipedia.org/wiki/DVD>`__
@@ -430,8 +430,8 @@ y facilidad de transporte.
          via Wikimedia Commons.
 
 
-      Las características típicas de los distintos dispositivos ópticos
-      son las siguientes:
+      Las características típicas de los distintos dispositivos de 
+      almacenamiento óptico son las siguientes:
 
       .. list-table::
          :widths: 25 25 25 25
@@ -441,7 +441,7 @@ y facilidad de transporte.
            - CD-ROM
            - DVD
            - Blu-ray
-         * - Capacidad
+         * - Capacidad de almacenamiento
            - 0,750 gigabytes
            - 4,7 gigabytes
 
@@ -455,15 +455,15 @@ y facilidad de transporte.
              2,8-7,2 megabytes/s (48x)
            - 1,4 megabytes/s (1x)
 
-             33,2 megabytes/s (24x)
+             33 megabytes/s (24x)
            - 4,5 megabytes/s (1x)
 
              54 megabytes/s (12x)
-         * - Láser de lectura/escritura
+         * - Láser de lectura / escritura
            - Infrarrojo (780 nm)
            - Rojo (650 nm)
            - Violeta (405 nm)
-         * - Costo de la unidad
+         * - Costo de la unidad de lectura / escritura
            - 18 €
            - 18 €
            - 100 €
@@ -506,10 +506,10 @@ y facilidad de transporte.
       Las memorias USB también han crecido exponencialmente en su capacidad
       y en 2022 una unidad con mayor capacidad que un Blu-ray es
       relativamente barata (5€). Aunque el precio por gigabyte siga siendo
-      algo mayor en las memorias USB (0,12 - 0,05€/gigabyte), su mayor
-      versatilidad y facilidad de lectura/escritura han hecho que asuman
-      muchas aplicaciones que antes se realizaban con discos ópticos,
-      tales como los reproductores de música.
+      algo mayor en las memorias USB (0,12 - 0,05€/gigabyte) que en un 
+      Blu-ray, su mayor versatilidad y facilidad de lectura/escritura 
+      han hecho que asuman muchas aplicaciones que antes se realizaban 
+      con discos ópticos, tales como los reproductores de música.
 
       Hace años era frecuente que los programas se vendieran grabados en
       discos ópticos. Hoy en día, gracias a las redes de fibra óptica,
@@ -602,9 +602,8 @@ almacenamiento se puedan optimizar y compartir entre varios ordenadores.
 
       Normalmente los servidores NAS son equipos diseñados para
       atender exclusivamente a esta función.
-      Contienen varias bahías para la conexión de unidades
-      de almacenamiento (HDD o SSD) en conexión :term:`RAID` para aumentar
-      sus prestaciones.
+      Contienen varias bahías para añadir unidades de almacenamiento
+      (HDD o SSD) en conexión :term:`RAID` para aumentar sus prestaciones.
 
       .. figure:: informatica/_images/informatica-nas.png
          :align: center
@@ -620,9 +619,9 @@ almacenamiento se puedan optimizar y compartir entre varios ordenadores.
    Almacenamiento en la nube
       La `nube
       <https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube>`__
-      es el nombre comercial que se le ha dado a los centros de datos
+      es el nombre comercial que se le ha dado a los centros de datos,
       compuestos por multitud de ordenadores que pueden actuar como
-      servidores de datos o como servidores de aplicaciones.
+      servidores de datos o como servidores de aplicaciones online.
 
       Estos centros de datos pertenecen a grandes compañías como
       `Amazon (Amazon Web Services)

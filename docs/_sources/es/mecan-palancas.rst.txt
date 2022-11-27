@@ -7,7 +7,7 @@
 
 :index:`Palancas`
 =================
-La **palanca** es una máquina simple​ compuesta por una 
+La **palanca** es una máquina simple​ formada por una 
 **barra rígida** que gira alrededor de un punto de apoyo llamado 
 **fulcro**. 
 

@@ -62,28 +62,28 @@ Capacidades y velocidades típicas
  * Un mensaje de texto apenas ocupará algunas decenas de **bytes**
    (unos bytes más que el número de caracteres o letras del texto).
 
- * Una conexión de audio a través de Whatsapp necesita unos 60 **kbit/s**
-   para funcionar.
+ * Una conexión de audio a través de Whatsapp necesita unos 60 
+   **kilobit/s** para funcionar.
 
  * Una fotografía o una canción mp3 ocupan unos cientos de **kilobytes** o
    pocos **megabytes** dependiendo de su calidad o tamaño.
 
  * Una conexión a internet por fibra óptica tiene alrededor de 
-   100 **Mbit/s** de velocidad de conexión (equivalente a unos 
-   12 **Mbyte/s**).
+   100 **megabit/s** de velocidad de conexión (equivalente a unos 
+   12 **megabyte/s**).
 
- * Una conexión por Ethernet con el router suele tener 1 **Gbit/s** de 
-   velocidad de conexión (equivalente a 125 **Mbyte/s**).
+ * Una conexión por Ethernet con el router suele tener 1 **gigabit/s** de 
+   velocidad de conexión (equivalente a 125 **megabyte/s**).
 
- * Una película en DVD ocupará de 4 a 8 **Gigabytes** de espacio.
+ * Una película en DVD ocupará de 4 a 8 **gigabytes** de espacio.
 
- * Un disco duro típico tiene una capacidad de varios **Terabytes**.
+ * Un disco duro típico tiene una capacidad de varios **terabytes**.
 
- * Un Cluster de ordenadores puede alcanzar varios **Petabytes** de 
+ * Un cluster de ordenadores puede alcanzar varios **petabytes** de 
    capacidad.
 
  * Se calcula que en 2020 la capacidad de almacenamiento total de
-   internet era de unos `2000 Exabytes
+   internet era de unos `2000 exabytes
    <https://www.statista.com/statistics/638593/worldwide-data-center-storage-capacity-cloud-vs-traditional/>`__.
 
 

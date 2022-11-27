@@ -8,7 +8,7 @@
 :index:`Poleas` y :index:`Polipastos`
 =====================================
 
-Una polea es una máquina simple, fabricada con una rueda acanalada por
+Una polea es una máquina simple formada por una rueda acanalada por
 la que pasa una cuerda.
 
 Aplicaciones de las poleas

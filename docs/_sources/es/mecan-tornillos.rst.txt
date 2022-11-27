@@ -7,7 +7,7 @@
 
 :index:`Tornillos`
 ==================
-Un tornillo es una máquina simple compuesta por un plano inclinado
+Un tornillo es una máquina simple formada por un plano inclinado
 que se encuentra enrollado alrededor de un eje cilíndrico.
 
 .. figure:: mecan/_images/mecan-tornillo-01.jpg
@@ -65,11 +65,11 @@ La denominación de las diferentes partes del tornillo es la siguiente.
 
 Aplicaciones de los tornillos
 -----------------------------
-Una de las principales aplicaciones de los tornillos consiste en realizar 
+Una de las aplicaciones de los tornillos consiste en realizar 
 uniones desmontables.
 
 Otra gran aplicación de los tornillos es construir mecanismos
-que avanzan lentamente, con precisión, y con mucha fuerza.
+que avanzan lentamente, con precisión y con mucha fuerza.
 Por ejemplo el mecanismo de un gato mecánico para levantar automóviles
 está basado en un tornillo que mueve unas tijeras.
 

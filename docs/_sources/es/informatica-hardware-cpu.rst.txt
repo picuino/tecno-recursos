@@ -139,10 +139,9 @@ Con estas aplicaciones se puede eliminar el eco en las líneas de
 comunicación, hacer más claras las imágenes de órganos en los equipos de
 diagnóstico médico por ultrasonidos o por resonancia magnética,
 realizar ajustes de **auto-tune** en la voz de los cantantes,
-decodificar canciones en los reproductores digitales de audio,
-comprimir fotografías en cámaras digitales,
-y una larga lista de aplicaciones que pueden ser relacionadas con el
-proceso de señales.
+decodificar canciones en los reproductores mp3, comprimir fotografías
+en cámaras digitales, y una larga lista de aplicaciones que están
+relacionadas con el proceso de señales.
 
 
 :index:`Microcontroladores`
@@ -357,7 +356,7 @@ Test clásicos muy conocidos son los siguientes.
       u operaciones de coma flotante por segundo, mide cuántas operaciones
       matemáticas con decimales es capaz de realizar un ordenador.
       Son habituales los múltiplos, así un MFLOPS es igual a 1 millón
-      de operaciones por segundo.
+      de operaciones en coma flotante por segundo.
 
       Esta medida es útil para conocer cómo es de rápida una máquina
       para resolver problemas científicos y de cálculo intensivo.
