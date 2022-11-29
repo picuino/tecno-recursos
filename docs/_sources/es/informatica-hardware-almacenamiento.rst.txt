@@ -658,3 +658,9 @@ Test de la unidad
 
 `Test de almacenamiento de la información III.
 <https://www.picuino.com/test/es-hardware-almacenamiento-3.html>`__
+
+`Test de almacenamiento de la información III.
+<https://www.picuino.com/test/es-hardware-almacenamiento-4.html>`__
+
+`Test de almacenamiento de la información III.
+<https://www.picuino.com/test/es-hardware-almacenamiento-5.html>`__

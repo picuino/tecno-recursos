@@ -156,9 +156,9 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
 
 
    Ordenadores dedicados
-      Existen más tipos de ordenadores dedicados realizar una sola función
-      de forma especializada. Son ordenadores más potentes que los
-      controladores programables.
+      Existen más tipos de ordenadores dedicados a realizar una sola 
+      función de forma especializada. Son ordenadores más potentes
+      que los controladores programables.
 
       Ejemplos de este tipo de ordenadores son los servidores de datos `NAS
       <https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red>`__
@@ -310,5 +310,8 @@ clasificar a los ordenadores en alguno de los siguientes apartados.
 Test de la unidad
 -----------------
 
-`Test de introducción al hardware.
-<https://www.picuino.com/test/es-hardware-intro.html>`__
+`Test de introducción al hardware I.
+<https://www.picuino.com/test/es-hardware-intro-1.html>`__
+
+`Test de introducción al hardware II.
+<https://www.picuino.com/test/es-hardware-intro-2.html>`__
