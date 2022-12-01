@@ -24,6 +24,7 @@ neumática e hidráulica.
 
    mecan-estructuras-index.rst
    mecan-maquinas-index.rst
+   mecan-calibre.rst
    freecad-index.rst
    mecan-neumatic-intro.rst
    mecan-origami.rst

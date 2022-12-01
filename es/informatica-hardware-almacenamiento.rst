@@ -430,7 +430,7 @@ y facilidad de transporte.
          via Wikimedia Commons.
 
 
-      Las características típicas de los distintos dispositivos de 
+      Las características típicas de los distintos dispositivos de
       almacenamiento óptico son las siguientes:
 
       .. list-table::
@@ -506,9 +506,9 @@ y facilidad de transporte.
       Las memorias USB también han crecido exponencialmente en su capacidad
       y en 2022 una unidad con mayor capacidad que un Blu-ray es
       relativamente barata (5€). Aunque el precio por gigabyte siga siendo
-      algo mayor en las memorias USB (0,12 - 0,05€/gigabyte) que en un 
-      Blu-ray, su mayor versatilidad y facilidad de lectura/escritura 
-      han hecho que asuman muchas aplicaciones que antes se realizaban 
+      algo mayor en las memorias USB (0,12 - 0,05€/gigabyte) que en un
+      Blu-ray, su mayor versatilidad y facilidad de lectura/escritura
+      han hecho que asuman muchas aplicaciones que antes se realizaban
       con discos ópticos, tales como los reproductores de música.
 
       Hace años era frecuente que los programas se vendieran grabados en

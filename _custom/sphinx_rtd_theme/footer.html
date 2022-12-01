@@ -15,31 +15,31 @@
 
   <div role="contentinfo">
     <ul class="link-list">
-    <li><a href="{{ pathto('es/contacto') }}">Contacto</a></li>
-    <li><a href="{{ pathto('es/legal-aviso') }}">Aviso legal</a></li>
-    <li><a href="{{ pathto('es/legal-cookies') }}">Política de Cookies</a></li>
-    <li><a href="{{ pathto('es/legal-atribution') }}">Créditos</a></li>
-    <li><a href="{{ pathto('genindex') }}">Glosario</a></li>
-    <li><a href="{{ pathto('es/index') }}">Índice</a></li>
+    <li><a href="{{ pathto('es/contacto') }}" target="_blank">Contacto</a></li>
+    <li><a href="{{ pathto('es/legal-aviso') }}" target="_blank">Aviso legal</a></li>
+    <li><a href="{{ pathto('es/legal-cookies') }}" target="_blank">Política de Cookies</a></li>
+    <li><a href="{{ pathto('es/legal-atribution') }}" target="_blank">Créditos</a></li>
+    <li><a href="{{ pathto('genindex') }}" target="_blank">Glosario</a></li>
+    <li><a href="{{ pathto('es/index') }}" target="_blank">Índice</a></li>
     </ul>
     <p class="content-info">
     {%- if show_copyright %}
       {%- if hasdoc('copyright') %}
-        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}{% endtrans %}
+        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}" target="_blank">Copyright</a> {{ copyright }}{% endtrans %}
       {%- else %}
         {% trans copyright=copyright|e %} Copyright &copy; {{ copyright }}{% endtrans %}
       {%- endif %}
       <br>
     {%- endif %}
-    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia CC BY-SA 4.0</a> y
-    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html">licencia GPL v3</a>
+    Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a> y
+    programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
     a menos que se indique lo contrario.<br>
     
     {%- if build_id and build_url %}
       {% trans build_url=build_url, build_id=build_id %}
         <span class="build">
           Build
-          <a href="{{ build_url }}">{{ build_id }}</a>.
+          <a href="{{ build_url }}" target="_blank">{{ build_id }}</a>.
         </span>
       {% endtrans %}
     {%- elif commit %}
@@ -58,7 +58,7 @@
   </div>
 
   {%- if show_sphinx %}
-  {% trans %}Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>{% endtrans %}.
+  {% trans %}Built with <a href="http://sphinx-doc.org/" target="_blank">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org" target="_blank">Read the Docs</a>{% endtrans %}.
   {%- endif %}
 
   {%- block extrafooter %} {% endblock %}

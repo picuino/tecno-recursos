@@ -83,6 +83,11 @@ Conexiones internas
       Son las pistas del circuito impreso que llevan los datos entre
       la CPU y el resto de los dispositivos conectados a la placa base.
 
+      Tiene muchas más líneas de datos que cualquier otro cable de
+      comunicación y es el medio de transmisión más rápido con diferencia.
+      Las distancias que recorren las líneas de datos son muy cortas,
+      de pocos centímetros.
+
       .. figure:: informatica/_images/informatica-motherboard-bus.jpg
          :align: center
          :width: 480px
@@ -103,7 +108,8 @@ Conexiones internas
 
       El cable de conexión desde la placa base hasta la unidad de
       almacenamiento puede llegar a tener hasta 1 metro de longitud,
-      aunque la mayoría de los cables fabricados tienen menor longitud.
+      aunque la mayoría de los cables fabricados tienen una longitud
+      menor.
       Esto es así porque SATA es un estándar pensado para conectar
       dispositivos dentro de la caja o carcasa del ordenador.
 
@@ -116,13 +122,13 @@ Conexiones internas
            - Velocidad
          * - SATA 1.0
            - 2003
-           - 150 MByte/s
+           - 150 megabyte/s
          * - SATA 2.0
            - 2004
-           - 300 MByte/s
+           - 300 megabyte/s
          * - SATA 3.0
            - 2008
-           - 600 MByte/s
+           - 600 megabyte/s
 
       .. figure:: informatica/_images/informatica-sata-hdd.jpg
          :align: center
@@ -205,28 +211,28 @@ Conexiones internas
            - Velocidad x16
          * - PCI-E 1.0
            - 2003
-           - 0.25 GByte/s
-           - 4.0 GByte/s
+           - 0.25 GB/s
+           - 4.0 GB/s
          * - PCI-E 2.0
            - 2007
-           - 0.50 GByte/s
-           - 8.0 GByte/s
+           - 0.50 GB/s
+           - 8.0 GB/s
          * - PCI-E 3.0
            - 2010
-           - 1.0 GByte/s
-           - 16 GByte/s
+           - 1.0 GB/s
+           - 16 GB/s
          * - PCI-E 4.0
            - 2017
-           - 2.0 GByte/s
-           - 32 GByte/s
+           - 2.0 GB/s
+           - 32 GB/s
          * - PCI-E 5.0
            - 2019
-           - 3.9 GByte/s
-           - 63 GByte/s
+           - 3.9 GB/s
+           - 63 GB/s
          * - PCI-E 6.0
            - 2021
-           - 7.9 GByte/s
-           - 126 GByte/s
+           - 7.9 GB/s
+           - 126 GB/s
 
       La aplicación más conocida de los conectores PCI-E x16 es la conexión
       de tarjetas gráficas a la placa base.
@@ -259,7 +265,7 @@ Conexiones internas
       dependiendo de la versión de la RAM, estos módulos pueden tener
       diferente número de contactos, diferente tamaño y diferente posición
       de la ranura central para evitar la conexión por error de módulos
-      diferentes.
+      no compatibles.
 
       .. figure:: informatica/_images/informatica-sodimm-ddr3.jpg
          :align: center
@@ -788,3 +794,14 @@ Conexiones inalámbricas
          `Autor
          <https://commons.wikimedia.org/wiki/File:BluetoothLogo.svg>`__,
          via Wikimedia Commons.
+
+
+Test de la unidad
+-----------------
+
+`Test de comunicaciones I.
+<https://www.picuino.com/test/es-hardware-comunicaciones-1.html>`__
+
+`Test de comunicaciones II.
+<https://www.picuino.com/test/es-hardware-comunicaciones-2.html>`__
+
