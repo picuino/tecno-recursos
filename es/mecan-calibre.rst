@@ -5,25 +5,26 @@
 
 .. _mecan-calibre:
 
-:index:`Calibre`
-================
+El :index:`Calibre`
+===================
 
-Un **calibre**, también llamado **pie de rey**, es un instrumento
+El **calibre**, también llamado **pie de rey**, es un instrumento
 de medición de mayor precisión que una regla milimetrada.
 
 El calibre dispone de varias mordazas y una sonda con las que se pueden
-medir medir con facilidad diámetros exteriores, diámetros interiores
+medir con facilidad diámetros exteriores, diámetros interiores
 y profundidades.
 
 Su **nonio** también llamado escala **vernier** es una escala auxiliar 
-que permite la medición de distancias con una precisión de 0.1 milímetros
-(hasta 0.02 milímetros en algunos instrumentos).
-Esta precisión mejora 10 o más veces la precisión de una regla milimetrada.
+que permite la medición de distancias con una precisión desde 0.1 
+milímetros hasta 0.02 milímetros.
+Esta precisión mejora 10 veces o más la precisión de una regla milimetrada.
 
 
 Partes del calibre
 ------------------
-Un calibre está compuesto de las siguientes partes.
+
+Un calibre está compuesto de las siguientes partes:
 
 .. figure:: mecan/_images/mecan-calibre-partes.png
    :alt: Calibre de medida con sus partes señaladas por números.
@@ -55,23 +56,44 @@ La medida en milímetros de un calibre se puede observar en la escala
 principal, donde coincide con la marca de 0 del nonio.
 
 La medida en décimas de milímetro se puede observar en el punto donde
-una de las líneas del nonio coincide con una línea de la escala principal.
+una de las líneas del nonio coincide exactamente con una línea de la
+escala principal.
 
 .. figure:: mecan/_images/mecan-calibre-0166nr.png
    :alt: Medición de una distancia de 16,6 milímetros con un calibre.
    :align: center
 
    Medición de una distancia de 16,6 milímetros.
-   
-   
+
+.. figure:: mecan/_images/mecan-calibre-0240nr.png
+   :alt: Medición de una distancia de 24,0 milímetros con un calibre.
+   :align: center
+
+   Medición de una distancia de 24,0 milímetros.
+
+.. figure:: mecan/_images/mecan-calibre-0099nr.png
+   :alt: Medición de una distancia de 9,9 milímetros con un calibre.
+   :align: center
+
+   Medición de una distancia de 9,9 milímetros.
+
+
 Calibre virtual
 ---------------
 Simulación de un `calibre con precisión de 0.05 milímetros
 <https://www.stefanelli.eng.br/es/calibre-virtual-simulador-milimetro-05/>`__.
 
 
+Ejercicios de medición
+----------------------
+Lámina con ejercicios para realizar lecturas de distancias con el calibre
+
+:download:`Ejercicios de medidas con calibre. Formato PDF.
+<mecan/mecan-calibre-medidas.pdf>`
+
+
 Test de la unidad
 -----------------
 
-`Test de medidas con el calibre.
+`Test online de medidas con el calibre.
 <https://www.picuino.com/test/es-mecan-calibre-medidas.html>`__
