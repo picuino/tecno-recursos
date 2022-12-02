@@ -11,7 +11,7 @@ def jinja_template(template_file):
 
 def main():
     template = jinja_template('mecan-calibre-template.svg')
-    for i in range(0, 301):
+    for i in range(100, 201, 5):
         measure = i / 10.0
         data = template.render(measure=measure)
         fname = 'mecan-calibre-%04d.svg' % i
