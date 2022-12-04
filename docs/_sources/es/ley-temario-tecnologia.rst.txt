@@ -654,7 +654,7 @@ Enseñanza Secundaria, en la **especialidad de Tecnología** según
  
     59.2 Software para la enseñanza y el aprendizaje de la Tecnología.
  
-    59.3 Recursos en Internet.
+    59.3 Recursos en internet.
  
  
 60. Lenguajes de programación. Evolución, tipos de lenguajes y ámbitos de uso. Resolución de problemas elementales.

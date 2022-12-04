@@ -55,11 +55,11 @@ La función ``keyEvents``
    +------------------------+-----------------------------------------------------+
    | Evento                 | Significado                                         |
    +========================+=====================================================+
-   | KEY_PRESSED_TIME1      | El pulsador se ha presionado durante 0.02 segundos  |
+   | KEY_PRESSED_TIME1      | El pulsador se ha presionado durante 0,02 segundos  |
    +------------------------+-----------------------------------------------------+
-   | KEY_PRESSED_TIME2      | El pulsador se ha presionado durante 0.5 segundos   |
+   | KEY_PRESSED_TIME2      | El pulsador se ha presionado durante 0,5 segundos   |
    +------------------------+-----------------------------------------------------+
-   | KEY_PRESSED_TIME3      | El pulsador se ha presionado durante 2.0 segundos   |
+   | KEY_PRESSED_TIME3      | El pulsador se ha presionado durante 2,0 segundos   |
    +------------------------+-----------------------------------------------------+
    | KEY_RELEASED           | El pulsador se ha dejado de presionar               |
    +------------------------+-----------------------------------------------------+

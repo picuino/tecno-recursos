@@ -327,12 +327,12 @@ Precisión y exactitud de la frecuencia
 La **precisión** de la frecuencia tiene un error de +-1%.
 Esto significa que la frecuencia realmente obtenida siempre
 se desvía hacia los graves o hacia los agudos en cierta cantidad.
-La mayoría de las frecuencias tienen una desviación menor del 0.4%,
+La mayoría de las frecuencias tienen una desviación menor del 0,4%,
 mientras que solo algunas frecuencias puntuales sufren una 
 desviación hasta del 1%.
 La desviación de frecuencia es siempre la misma para el mismo tono.
 Este error se puede percibir como un pequeño desafino en la frecuencia.
-Un oído bien entrenado percibe diferencias de frecuencia hasta del 0.2%.
+Un oído bien entrenado percibe diferencias de frecuencia hasta del 0,2%.
 
 El error de **exactitud** de la frecuencia depende de la calibración que se haya realizado.
 Este error produce una variación de frecuencia igual en todas las frecuencias emitidas.

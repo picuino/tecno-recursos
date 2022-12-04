@@ -114,7 +114,7 @@ Ejercicios
 
    **Alto (Height)** = 2
 
-   A continuación crearemos un **chaflán de 1.9 milímetros** en los
+   A continuación crearemos un **chaflán de 1,9 milímetros** en los
    cuatro lados superiores.
 
    .. image:: freecad/_images/freecad-p09-ejercicio01b.png
@@ -148,7 +148,7 @@ Ejercicios
    .. image:: freecad/_images/freecad-p09-ejercicio02.png
 
    Los tres cilindros tienen el tamaño estándar,
-   con un chaflán superior de 1.9 milímetros.
+   con un chaflán superior de 1,9 milímetros.
 
    El cubo se modifica el tamaño y posición según los valores de la
    imagen.

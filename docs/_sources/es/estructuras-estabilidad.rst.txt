@@ -110,14 +110,14 @@ Bajar el centro de gravedad
    Ejemplos: Para conseguir bajar el centro de gravedad de un 
    camión, hay que colocar los bultos más pesados en la parte baja 
    y los ligeros en la parte alta.
-   Los coches deportivos suelen ser bajos para tener el centro 
+   Los automóviles deportivos suelen ser bajos para tener el centro 
    de gravedad bajo y conseguir así mayor estabilidad.
    
    .. figure:: mecan/_images/mecan-coche-carreras.jpg
       :width: 480px
       :align: center
  
-      Coche de fórmula 1 con centro de gravedad muy bajo.
+      Fórmula 1 con centro de gravedad muy bajo.
  
       Imagen de `Nathan Wright <https://pixabay.com/es/users/cozmicphotos-2999334/>`__ 
       en `Pixabay <https://pixabay.com/es/photos/f1-coche-carreras-raza-velocidad-2722971/>`__.
@@ -243,9 +243,9 @@ Evitar las cargas oscilantes
    pasos [#f1]_ .
 
 Amortiguar la estructura
-   Esta es la solución que se toma en las ruedas de los coches o en
-   algunos edificios resistentes a terremotos. Un amortiguador es un
-   elemento que frena las oscilaciones y reduce la resonancia.
+   Esta es la solución que se toma en las ruedas de los vehículos o 
+   en algunos edificios resistentes a terremotos. Un amortiguador es
+   un elemento que frena las oscilaciones y reduce la resonancia.
 
    `Amortiguador de masa sintonizada
    <https://www.youtube.com/embed/7SCUGTA8xEI>`__

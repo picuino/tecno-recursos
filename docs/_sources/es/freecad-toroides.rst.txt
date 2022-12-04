@@ -114,7 +114,7 @@ piezas sólidas, los **toroides**.
 
    |br|
 
-#. Para terminar, crearemos un cilindro con un radio de 1.5 mm
+#. Para terminar, crearemos un cilindro con un radio de 1,5 mm
    y lo restaremos para crear un eje de 3 mm de diámetro
    en el centro de nuestra polea.
 

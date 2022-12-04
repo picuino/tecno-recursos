@@ -75,7 +75,7 @@ apagar el led y esperar medio segundo. Cuando esta secuencia se
 repite, el led parpadea.
 Para conseguir una espera de medio segundo se utiliza la función
 ``delay(500)`` que provoca una espera de 500 milisegundos
-(0.5 segundos).
+(0,5 segundos).
 Para conseguir que la secuencia se repita indefinidamente, el código
 se introduce dentro del bloque ``loop()``, que se repite una y otra
 vez una vez iniciado el programa de Arduino.

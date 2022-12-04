@@ -255,7 +255,7 @@ Logotipo Volkswagen
 
 #. Para terminar vamos a dibujar un círculo (presionando Control).
    Cambiaremos su relleno a ninguno y su trazo a gris oscuro con un estilo
-   de trazo de 0.4 milímetros de grosor para conseguir la circunferencia de
+   de trazo de 0,4 milímetros de grosor para conseguir la circunferencia de
    la imagen.
    
    .. image:: inkscape/_images/inkscape-logo-11-z.png

@@ -26,6 +26,7 @@ que componen un ordenador.
    :titlesonly:
 
    informatica-hardware-intro.rst
+   informatica-hardware-clasificacion.rst
    informatica-hardware-unidades.rst
    informatica-hardware-ley-moore.rst   
    informatica-hardware-esquema-ordenador.rst

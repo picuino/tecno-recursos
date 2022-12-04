@@ -13,13 +13,13 @@ Representación, cableado y medida de circuitos eléctricos y
 electrónicos.
 
 .. image:: electric/_images/electric-serie-paralelo-logo.png
-   :width: 360px
+   :width: 480px
    :align: center
    :alt: Electricidad y electrónica
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
    
    electric-circuito.rst

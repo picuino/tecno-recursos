@@ -95,7 +95,7 @@ Logotipo Cubes
 
 #. Ahora seleccionamos los tres rombos y cambiamos su borde exterior
    en el menú ``Objeto... Relleno y borde`` por una línea blanca de 
-   1.2 milímetros de grosor.
+   1,2 milímetros de grosor.
    
    .. image:: inkscape/_images/inkscape-logo-12-l.png
       :align: center
