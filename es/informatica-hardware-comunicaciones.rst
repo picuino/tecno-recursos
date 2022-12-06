@@ -481,8 +481,8 @@ Conexiones externas
       Actualmente estos conectores están **obsoletos**, pero todavía se
       siguen incorporando en algunas placas base por motivos de
       compatibilidad con los teclados y ratones más antiguos.
-      Algunas placas base modernas tienen un solo conector mitad morado y
-      mitad verde que sirve para conectar tanto teclados como ratones
+      Algunas placas base modernas tienen un solo conector, mitad morado y
+      mitad verde, que sirve para conectar tanto teclados como ratones
       antiguos.
 
       .. figure:: informatica/_images/informatica-puertos-ps2.jpg
@@ -502,14 +502,17 @@ Conexiones externas
 
       Este estándar fue ampliamente utilizado hace años, hasta que se fue
       reemplazando por el USB a partir de 1998.
-      Actualmente se encuentra obsoleto y no se incorpora en las placas
-      base, pero se puede añadir mediante una tarjeta de expansión PCI o
-      mediante un cable conversor de USB a RS-232.
+      Actualmente se encuentra obsoleto y no se suele incorporar en las 
+      placas base, pero se puede añadir mediante una tarjeta de expansión
+      PCI o mediante un cable conversor de USB a RS-232.
 
       Todavía hay equipos antiguos en fábricas, laboratorios y empresas
       que utilizan el estándar RS-232 y es necesario poder comunicarse
       con ellos.
 
+      No se debe confundir este conector con el conector VGA de vídeo,
+      muy parecido, pero con tres filas de pines de conexión. 
+      
       .. figure:: informatica/_images/informatica-rs232-connector.jpg
          :align: center
          :width: 320px
@@ -579,7 +582,7 @@ Conectores de vídeo
       transferir tanto **vídeo** como **audio** con señales digitales.
 
       Este es uno de los estándares más utilizados en todo tipo de
-      equipos nuevos de tipo multimedia, no solo en equipos informáticos.
+      equipos multimedia nuevos, no solo en equipos informáticos.
 
       El conector es más frágil que otros conectores de vídeo y resulta
       más sencillo que se desconecte de manera inadvertida.
@@ -665,7 +668,7 @@ Conectores de red
       Este es un tipo de cable con peores prestaciones que los cables
       de fibra óptica, pero es más barato de instalar y sencillo de
       manejar, por lo que se utilizan mayoritariamente en conexiones
-      cercanas, de pocos cientos de metros.
+      cercanas, de decenas de metros.
 
       .. figure:: informatica/_images/informatica-cable-utp.jpg
          :align: center
@@ -703,7 +706,7 @@ Conectores de red
          * - `10GBase T <https://es.wikipedia.org/wiki/10_Gigabit_Ethernet>`__
            - 2006
            - UTP Categoría 6A
-           - 10.000 Mbit/s
+           - 10 000 Mbit/s
 
 
    Comunicación por fibra óptica
@@ -804,4 +807,10 @@ Test de la unidad
 
 `Test de comunicaciones II.
 <https://www.picuino.com/test/es-hardware-comunicaciones-2.html>`__
+
+`Test de comunicaciones III.
+<https://www.picuino.com/test/es-hardware-comunicaciones-3.html>`__
+
+`Test de comunicaciones IV.
+<https://www.picuino.com/test/es-hardware-comunicaciones-4.html>`__
 
