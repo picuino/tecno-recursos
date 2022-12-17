@@ -188,6 +188,7 @@ char key_num(void) {
   if (keys & (1<<3)) return 4;
   if (keys & (1<<4)) return 5;
   if (keys & (1<<5)) return 6;
+  return 0;
 }
 
 

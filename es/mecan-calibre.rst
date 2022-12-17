@@ -49,6 +49,29 @@ Un calibre está compuesto de las siguientes partes:
 
    Corredera de un calibre moviéndose sobre la regla.
 
+Realización de medidas
+----------------------
+En las siguientes imágenes se puede ver cómo se toman medidas de 
+exterior, interior y profundidad de una pieza.
+
+.. figure:: mecan/_images/mecan-calibre-medidas-01.png
+   :alt: Calibre tomando una medida exterior.
+   :align: center
+   
+   Calibre tomando una medida exterior.
+
+.. figure:: mecan/_images/mecan-calibre-medidas-02.png
+   :alt: Calibre tomando una medida interior.
+   :align: center
+   
+   Calibre tomando una medida interior.
+
+.. figure:: mecan/_images/mecan-calibre-medidas-03.png
+   :alt: Calibre tomando una medida de profundidad.
+   :align: center
+   
+   Calibre tomando una medida de profundidad.
+
 
 Medición con el nonio
 ---------------------

@@ -24,3 +24,4 @@ Recursos para actividades de taller.
    taller-seniales-seguridad.rst
    taller-historia-herramientas.rst
    taller-papercraft.rst
+   taller-tangram.rst
