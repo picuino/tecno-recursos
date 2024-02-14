@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="222 222 222" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="pc_ledWrite" id="572">
+<Location>
+<X>196</X>
+<Y>91</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="573" connector-kind="socket" connector-type="number" init-type="number" label="Led" position-type="single"/>
+<BlockConnector con-block-id="574" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Estado" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="digital-on" id="574">
+<Location>
+<X>340</X>
+<Y>118</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="572" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="573">
+<Location>
+<X>340</X>
+<Y>94</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="572" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="program" id="141">
+<Location>
+<X>21</X>
+<Y>83</Y>
+</Location>
+<Comment>
+<Text>Enciende el led rojo
+del Panel PC42</Text>
+<Location>
+<X>21</X>
+<Y>18</Y>
+</Location>
+<BoxSize>
+<Width>215</Width>
+<Height>59</Height>
+</BoxSize>
+</Comment>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="572" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Configuración" position-type="single"/>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="Bucle" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

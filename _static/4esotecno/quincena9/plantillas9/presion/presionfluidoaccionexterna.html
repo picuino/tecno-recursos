@@ -1,0 +1,72 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="preseionfluido" width=400 height=400
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="nombre" value="preseionfluido">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R2' id='E2' y='-10' ancho='100%' alto='35%' fijo='s&iacute;' escala='30' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no'">
+   <param name="E_01" value="tipo='R3' id='E3' y='30%' ancho='100%' alto='65%' O.y='40' despl_imagen='arr-izq' fondo='blanco' R3='s&iacute;'">
+   <param name="C_00" value="id='h' espacio='E2' tipo='num&eacute;rico' valor='1.5' fijo='s&iacute;' nombre='H' incr='0.25' min='1.5' max='2.5' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Altura deposito en en cm' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Altura deposito en cm' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='r' espacio='E2' tipo='num&eacute;rico' valor='3' fijo='s&iacute;' nombre='R' incr='0.25' min='3' max='4' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Radio deposito en cm' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Radio deposito en cm' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='pos' espacio='E2' tipo='num&eacute;rico' interfaz='barra' regi&oacute;n='norte' valor='2*h/5' fijo='s&iacute;' nombre='pos' incr='0.5' min='-h/2' max='2*h/5' visible='no' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Posici&oacute;n del punto en el que deseas ver la presi&oacute;n' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Posici&oacute;n del punto en el que deseas ver la presi&oacute;n' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_03" value="id='trans' espacio='E2' tipo='num&eacute;rico' interfaz='men&uacute;' fijo='s&iacute;' nombre='trans' visible='no' opciones='no,si' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Ver deposito o solo el flu&iacute;do' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Ver depsoito o solo flu&iacute;do' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_04" value="id='rec' espacio='E2' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='Recuerda' visible='no' acci&oacute;n='mensaje' par&aacute;metro='La presi&oacute;n en un punto de un flu&iacute;do sometido a una acci&oacute;n externa(fuerza),depende del valor de la fuerza externa y de la secci&oacute;n del recipiente donde est&aacute; contenido. \nLa f&oacute;rmula que nos da el valor de la presi&oacute;n es:\np= f/s (f-&gt;Fuerza; s-&gt;secci&oacute;n)\n' par&aacute;metro.fuente='Monospaced,BOLD,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_05" value="id='inf' espacio='E2' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='Info' visible='no' acci&oacute;n='mensaje' par&aacute;metro='Modifica la posici&oacute;n en el recipiente y comprueba que la presi&oacute;n no depende de la altura del flu&iacute;do ni del punto en que se mida, sino de la presi&oacute;n ejercida por la tapa..\nComo el deposito es de secci&oacute;n constante solo va a variar si modificas la presi&oacute;n externa (modificando la masa de la tapa).' par&aacute;metro.fuente='Monospaced,BOLD,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_06" value="id='h1' espacio='E2' tipo='num&eacute;rico' valor='0.5' fijo='s&iacute;' nombre='Ad' incr='0.05' min='0.25' max='1' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Altura elemento externo en cm' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Altura elemento externo en cm' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='d' constante='s&iacute;' expresi&oacute;n='1' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='g' constante='s&iacute;' expresi&oacute;n='9.81' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='a3' algoritmo='s&iacute;' evaluar='siempre' hacer='f.punta= 0.5;f.longitud = 0.5*P;f1.punta= 0.5;f1.longitud = 0.5*P;f2.punta= 0.5;f2.longitud = 0.5*P;f3.punta= 0.5;f3.longitud = 0.5*P;f4.punta= 0.5;f4.longitud = 0.5*P;f5.punta= 0.5;f5.longitud = 0.5*P;f6.punta= 0.5;f6.longitud = 0.5*P;f7.punta= 0.5;f7.longitud = 0.5*P;'">
+   <param name="A_03" value="id='t' constante='s&iacute;' expresi&oacute;n='(trans=0)?0:255' evaluar='siempre'">
+   <param name="A_04" value="id='s' constante='s&iacute;' expresi&oacute;n='pi*(r*r)' evaluar='siempre'">
+   <param name="A_05" value="id='pi' constante='s&iacute;' expresi&oacute;n='3.1415' evaluar='una-sola-vez'">
+   <param name="A_06" value="id='V' constante='s&iacute;' expresi&oacute;n='s*h1' evaluar='siempre'">
+   <param name="A_07" value="id='dfe' constante='s&iacute;' expresi&oacute;n='7.874' evaluar='una-sola-vez'">
+   <param name="A_08" value="id='m' constante='s&iacute;' expresi&oacute;n='V*dfe' evaluar='siempre'">
+   <param name="A_09" value="id='f' constante='s&iacute;' expresi&oacute;n='m' evaluar='siempre'">
+   <param name="A_10" value="id='P' constante='s&iacute;' expresi&oacute;n='f/s' evaluar='siempre'">
+   <param name="G_00" value="espacio='E2' tipo='segmento' expresi&oacute;n='(0,2*h/5)(0,-h/2)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='2'">
+   <param name="G_01" value="espacio='E2' tipo='flecha' expresi&oacute;n='(0,pos)(0.5*P,pos)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4' ancho='4' punta='6'">
+   <param name="G_02" value="espacio='E2' tipo='texto' expresi&oacute;n='[10,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs28\b Presi\u243 n = {\*\mjaformula{\expr P}}kgf/cm{\*\mjaformula{\supix 2}}\f2\fs24\b0\par}' fuente='Arial,BOLD,14' fijo='s&iacute;'">
+   <param name="S_00" value="espacio='E3' tipo='cilindro' color='(40,40,40,t)' color_reverso='rosa' expresi&oacute;n='Deposito' modelo='alambre' ancho='r' largo='r' alto='h' Nu='15' Nv='15'">
+   <param name="S_01" value="espacio='E3' tipo='polireg' color='turquesa' color_reverso='turquesa' expresi&oacute;n='Fondo' posini='(0,0,-h/2)' modelo='metal' ancho='r' largo='r' Nu='20'">
+   <param name="S_02" value="espacio='E3' tipo='polireg' color='turquesa' color_reverso='turquesa' expresi&oacute;n='Tapa' posini='(0,0,2*h/5)' modelo='metal' ancho='r' largo='r' Nu='20'">
+   <param name="S_03" value="espacio='E3' tipo='cilindro' color='b800ffff' color_reverso='turquesa' expresi&oacute;n='Auga' posini='(0,0,-h/20)' ancho='r' largo='r' alto='9*h/10' Nu='20' Nv='20'">
+   <param name="S_04" value="espacio='E3' tipo='polireg' color='naranja' color_reverso='naranja' expresi&oacute;n='Tapaext' posini='(0,0,2*h/5 + h1)' modelo='metal' ancho='0.98*r' largo='0.98*r' Nu='20'">
+   <param name="S_05" value="espacio='E3' tipo='cilindro' color='naranja' color_reverso='naranja' expresi&oacute;n='Exterior' posini='(0,0,2*h/5 +h1/2)' ancho='0.98*r' largo='0.98*r' alto='h1' Nu='20' Nv='20'">
+   <param name="S_06" value="espacio='E3' tipo='punto' color_reverso='magenta' expresi&oacute;n='(0,0,0)' posini='(0,0,pos)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_07" value="nombre='f' espacio='E3' tipo='macro' expresi&oacute;n='flecha' posini='(0,0,pos)'">
+   <param name="S_08" value="nombre='f1' espacio='E3' tipo='macro' expresi&oacute;n='flecha' rotini='(0,0,90)' posini='(0,0,pos)'">
+   <param name="S_09" value="nombre='f2' espacio='E3' tipo='macro' expresi&oacute;n='flecha' rotini='(0,0,180)' posini='(0,0,pos)'">
+   <param name="S_10" value="nombre='f3' espacio='E3' tipo='macro' expresi&oacute;n='flecha' rotini='(0,0,270)' posini='(0,0,pos)'">
+   <param name="S_11" value="nombre='f4' espacio='E3' tipo='macro' expresi&oacute;n='flecha' rotini='(0,0,45)' posini='(0,0,pos)'">
+   <param name="S_12" value="nombre='f5' espacio='E3' tipo='macro' expresi&oacute;n='flecha' rotini='(0,0,135)' posini='(0,0,pos)'">
+   <param name="S_13" value="nombre='f6' espacio='E3' tipo='macro' expresi&oacute;n='flecha' rotini='(0,0,225)' posini='(0,0,pos)'">
+   <param name="S_14" value="nombre='f7' espacio='E3' tipo='macro' expresi&oacute;n='flecha' rotini='(0,0,315)' posini='(0,0,pos)'">
+   <param name="S_15" value="espacio='E3' tipo='cono' color_reverso='rosa' expresi&oacute;n='Cono' posini='(0,0,2*h/5 + 1.5*h1)' modelo='metal' ancho='0.5' largo='0.5' alto='0.5' Nu='5' Nv='5'">
+   <param name="S_16" value="espacio='E3' tipo='segmento' expresi&oacute;n='(0,0,2*h/5 + 1.5*h1)(0,0,2*h/5 + 1.5*h1+0.01*f)' ancho='4'">
+   <param name="S_17" value="espacio='E3' tipo='texto' expresi&oacute;n='(220,50 +10*h1)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs28\b Fuerza=Peso={\*\mjaformula{\expr m*g}} N\f2\fs24\b0\par}' fuente='Arial,BOLD,14' fijo='s&iacute;'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

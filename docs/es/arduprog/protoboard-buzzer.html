@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Arduino - Circuitos con Protoboard - 6. Zumbador">
+  <title>6. Zumbador - Circuitos con Protoboard - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/arduprog/protoboard-buzzer.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Índice" href="../content.html">
+  <link rel="search" title="Búsqueda" href="../search.html">
+  <link rel="next" title="Programas" href="prog-index.html">
+  <link rel="prev" title="5. Potenciómetro" href="protoboard-pot.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="index.html">Arduino</a>/</li>
+        
+          <li><a href="protoboard-index.html">Circuitos con Protoboard</a>/</li>
+        
+      <li><span class="section-number">6. </span>Zumbador</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arduprog/protoboard-buzzer.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="zumbador">
+<span id="protoboard-buzzer"></span><h1><span class="section-number">6. </span>Zumbador<a class="headerlink" href="#zumbador" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Monta en protoboard el siguiente esquema eléctrico.</p>
+<a class="reference internal image-reference" href="../_images/arduino-proto-06-buzzer-sch.png"><img alt="Esquema eléctrico de placa Arduino con un pulsador y un zumbador" class="align-center" src="../_images/arduino-proto-06-buzzer-sch.png" style="width: 400px;"></a>
+<a class="reference internal image-reference" href="../_images/arduino-proto-06-buzzer-bb.png"><img alt="Montaje en protoboard de una placa Arduino con un pulsador y un zumbador" class="align-center" src="../_images/arduino-proto-06-buzzer-bb.png" style="width: 400px;"></a>
+<p><a class="reference download internal" download="" href="../_downloads/arduino-proto-06-buzzer.fzz"><code class="xref download docutils literal notranslate"><span class="pre">Circuito</span> <span class="pre">eléctrico</span> <span class="pre">en</span> <span class="pre">formato</span> <span class="pre">Fritzing</span></code></a></p>
+<hr class="docutils">
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Sube a la placa Arduino UNO el siguiente programa.
+Al presionar el pulsador, en el zumbador sonará la
+<strong>alarma de un despertador</strong>.</p>
+<img alt="Código del programa para Arduino que hace sonar una alarma de despertador" src="../_images/arduino-proto-06-code01.png">
+</li>
+<li><p class="first">Sube a la placa Arduino UNO el siguiente programa.
+Al presionar el pulsador, en el zumbador sonará la canción
+de <strong>cumpleaños feliz</strong>.</p>
+<div class="highlight-arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Definición de la frecuencia de las notas musicales</span>
+<span class="c1">// S al final significa nota sostenida.</span>
+
+<span class="cp">#define NOTE_DO4   262</span>
+<span class="cp">#define NOTE_DO4S  277</span>
+<span class="cp">#define NOTE_RE4   294</span>
+<span class="cp">#define NOTE_RE4S  311</span>
+<span class="cp">#define NOTE_MI4   330</span>
+<span class="cp">#define NOTE_FA4   349</span>
+<span class="cp">#define NOTE_FA4S  370</span>
+<span class="cp">#define NOTE_SOL4  392</span>
+<span class="cp">#define NOTE_SOL4S 415</span>
+<span class="cp">#define NOTE_LA4   440</span>
+<span class="cp">#define NOTE_LA4S  466</span>
+<span class="cp">#define NOTE_SI4   494</span>
+
+<span class="cp">#define NOTE_DO5   523</span>
+<span class="cp">#define NOTE_DO5S  554</span>
+<span class="cp">#define NOTE_RE5   587</span>
+<span class="cp">#define NOTE_RE5S  622</span>
+<span class="cp">#define NOTE_MI5   659</span>
+<span class="cp">#define NOTE_FA5   698</span>
+<span class="cp">#define NOTE_FA5S  740</span>
+<span class="cp">#define NOTE_SOL5  784</span>
+<span class="cp">#define NOTE_SOL5S 831</span>
+<span class="cp">#define NOTE_LA5   880</span>
+<span class="cp">#define NOTE_LA5S  932</span>
+<span class="cp">#define NOTE_SI5   988</span>
+
+<span class="cp">#define NOTE_DO6   1047</span>
+<span class="cp">#define NOTE_DO6S  1109</span>
+<span class="cp">#define NOTE_RE6   1175</span>
+<span class="cp">#define NOTE_RE6S  1245</span>
+<span class="cp">#define NOTE_MI6   1319</span>
+<span class="cp">#define NOTE_FA6   1397</span>
+<span class="cp">#define NOTE_FA6S  1480</span>
+<span class="cp">#define NOTE_SOL6  1568</span>
+<span class="cp">#define NOTE_SOL6S 1661</span>
+<span class="cp">#define NOTE_LA6   1760</span>
+<span class="cp">#define NOTE_LA6S  1865</span>
+<span class="cp">#define NOTE_SI6   1976</span>
+
+
+<span class="c1">// Define la melodía a tocar.</span>
+<span class="c1">// Cada línea define una nota y su tempo.</span>
+<span class="c1">// Cumpleaños feliz</span>
+<span class="kr">int</span> <span class="n">melody</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+   <span class="n">NOTE_SOL4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">NOTE_SOL4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">NOTE_LA4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_SOL4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_DO5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_SI4</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span>
+
+   <span class="n">NOTE_SOL4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">NOTE_SOL4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">NOTE_LA4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_SOL4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_RE5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_DO5</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span>
+
+   <span class="n">NOTE_SOL4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">NOTE_SOL4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">NOTE_SOL5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_MI5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_DO5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_SI4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_LA4</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span>
+
+   <span class="n">NOTE_FA5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">NOTE_FA5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="n">NOTE_MI5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_DO5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_RE5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span>
+   <span class="n">NOTE_DO5</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span>
+<span class="p">};</span>
+
+<span class="kr">int</span> <span class="n">num_notas</span> <span class="o">=</span> <span class="kr">sizeof</span><span class="p">(</span><span class="n">melody</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="kr">sizeof</span><span class="p">(</span><span class="n">melody</span><span class="p">[</span><span class="mi">0</span><span class="p">]));</span>
+
+<span class="c1">// Define los pines de entrada y salida</span>
+<span class="kr">int</span> <span class="n">BUZZER</span>  <span class="mi">3</span>
+<span class="kr">int</span> <span class="n">PUSH</span>    <span class="mi">7</span>
+
+<span class="c1">// Ejecuta una sola vez las siguientes instrucciones</span>
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="c1">// Conecta el zumbador a una salida</span>
+   <span class="nf">pinMode</span><span class="p">(</span><span class="n">BUZZER</span><span class="p">,</span> <span class="kr">OUTPUT</span><span class="p">);</span>
+
+   <span class="c1">// Conecta el pulsador a una entrada</span>
+   <span class="nf">pinMode</span><span class="p">(</span><span class="n">PUSH</span><span class="p">,</span> <span class="kr">INPUT_PULLUP</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="c1">// Repite para siempre las siguientes instrucciones</span>
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="c1">// Esperar a que se presione el pulsador</span>
+   <span class="k">while</span> <span class="p">(</span><span class="nf">digitalRead</span><span class="p">(</span><span class="n">PUSH</span><span class="p">)</span> <span class="o">==</span> <span class="kr">HIGH</span><span class="p">);</span>
+
+   <span class="c1">// Tocar la melodía en el zumbador</span>
+   <span class="k">for</span><span class="p">(</span><span class="kr">int</span> <span class="n">nota</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">nota</span> <span class="o">&lt;</span> <span class="n">num_notas</span><span class="o">*</span><span class="mi">2</span><span class="p">;</span> <span class="n">nota</span> <span class="o">+=</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kr">int</span> <span class="n">nota_tono</span> <span class="o">=</span> <span class="n">melody</span><span class="p">[</span><span class="n">nota</span><span class="p">];</span>
+      <span class="kr">int</span> <span class="n">nota_duracion</span> <span class="o">=</span> <span class="n">melody</span><span class="p">[</span><span class="n">nota</span><span class="o">+</span><span class="mi">1</span><span class="p">];</span>
+      <span class="nf">tone</span><span class="p">(</span><span class="n">BUZZER</span><span class="p">,</span> <span class="n">nota_tono</span><span class="p">,</span> <span class="n">nota_duracion</span><span class="o">*</span><span class="mi">50</span><span class="p">);</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="n">nota_duracion</span> <span class="o">*</span> <span class="mi">50</span> <span class="o">+</span> <span class="mi">30</span><span class="p">);</span>
+   <span class="p">}</span>
+   <span class="nf">delay</span><span class="p">(</span><span class="mi">2000</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+<li><p class="first">Modifica el programa anterior para que suene la melodía de
+<strong>la cucaracha</strong> según las siguientes notas.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">DO4</span> <span class="n">DO4</span> <span class="n">DO4</span> <span class="n">FA4</span> <span class="n">LA4</span>
+<span class="n">DO4</span> <span class="n">DO4</span> <span class="n">DO4</span> <span class="n">FA4</span> <span class="n">LA4</span>
+<span class="n">FA4</span> <span class="n">FA4</span> <span class="n">MI4</span> <span class="n">MI4</span> <span class="n">RE4</span> <span class="n">RE4</span> <span class="n">DO4</span>
+<span class="n">DO4</span> <span class="n">DO4</span> <span class="n">DO4</span> <span class="n">MI4</span> <span class="n">SOL4</span>
+<span class="n">DO4</span> <span class="n">DO4</span> <span class="n">DO4</span> <span class="n">MI4</span> <span class="n">SOL4</span>
+<span class="n">DO5</span> <span class="n">RE5</span> <span class="n">DO5</span> <span class="n">LA4S</span> <span class="n">LA4</span> <span class="n">SOL4</span> <span class="n">FA4</span>
+</pre></div>
+</div>
+<p>Hay que añadir tempos y ajustarlos a cada nota.</p>
+</li>
+<li><p class="first">Modifica el programa anterior con la melodía que prefieras.
+Puedes encontrar muchas melodías en Internet buscando el nombre
+de la canción y la palabra notas.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="prog-index.html" class="btn btn-neutral float-right" title="Programas" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="protoboard-pot.html" class="btn btn-neutral" title="5. Potenciómetro" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="../genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="../content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024 por Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en febrero, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../en/arduprog/protoboard-buzzer.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricidad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programación</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="protoboard-index.html">Circuitos con Protoboard</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="protoboard-led-vcc.html">1. Led siempre encendido</a></li>
+<li class="toctree-l3"><a class="reference internal" href="protoboard-led-d2.html">2. Led controlado por la placa Arduino</a></li>
+<li class="toctree-l3"><a class="reference internal" href="protoboard-tres-ledes.html">3. Tres ledes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="protoboard-push-ledes.html">4. Pulsadores y ledes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="protoboard-pot.html">5. Potenciómetro</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">6. Zumbador</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource-index.html">Recursos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pc42-index.html">Panel de Control PC42</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Picuino UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

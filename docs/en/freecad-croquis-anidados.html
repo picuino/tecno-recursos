@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Mechanics - FreeCAD - 14. Nested Sketch Extrusion">
+  <title>14. Nested Sketch Extrusion - FreeCAD - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/freecad-croquis-anidados.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="15. Constrained sketches" href="freecad-restricciones.html">
+  <link rel="prev" title="13. Sketch extrusion" href="freecad-croquis-extrudir.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="mecan-index.html">Mechanics</a>/</li>
+        
+          <li><a href="freecad-index.html">FreeCAD</a>/</li>
+        
+      <li><span class="section-number">14. </span>Nested Sketch Extrusion</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/freecad-croquis-anidados.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/freecad-croquis-anidados.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="extrusion-de-croquis-anidados">
+<span id="freecad-croquis-anidados"></span><h1><span class="section-number">14. </span>Nested Sketch Extrusion<a class="headerlink" href="#extrusion-de-croquis-anidados" title="Permalink to this headline">¶</a></h1>
+<p>In this practice we are going to create sketches to extrude them, placing some sketches on top of others and thus form more complex figures.</p>
+<p><br></p>
+<ol class="arabic">
+<li><p class="first">Open the <strong>FreeCAD</strong> application and click on the icon to create a <strong>new document</strong> <img alt="icono-nuevo-documento" class="align-middle" src="_images/freecad-icono-nuevo-documento.png">.</p>
+<p>We select the <strong>Part Design workbench</strong></p>
+<img alt="_images/freecad-workbench-part-design.png" src="_images/freecad-workbench-part-design.png">
+<p>Next we select to create a new sketch.</p>
+<img alt="_images/freecad-crear-nuevo-croquis.png" src="_images/freecad-crear-nuevo-croquis.png">
+<p>And we choose the XY plane as the base plane to place the new sketch.</p>
+<img alt="_images/freecad-croquis-xy.png" src="_images/freecad-croquis-xy.png">
+<p>A grid will appear on the screen where you can draw in two dimensions.</p>
+<img alt="_images/freecad-croquis-rejilla.png" src="_images/freecad-croquis-rejilla.png">
+<p><br></p>
+</li>
+<li><p class="first">Next we are going to draw a simple object, an octagon.</p>
+<p>First we adjust the editing controls in the Tasks tab, so that the drawing will fit on the grid.</p>
+<img alt="_images/freecad-croquis-control-edicion.png" src="_images/freecad-croquis-control-edicion.png">
+<p>Now we will create an octagon with the icon polyline <img alt="polilinea" class="align-middle" src="_images/freecad-croquis-polilinea.png">.</p>
+<img alt="_images/freecad-p14-imagen01.png" src="_images/freecad-p14-imagen01.png">
+<p>If we make a mistake when placing the points, once the drawing is finished we can click on the points and drag them with the mouse to their correct position.</p>
+<p>Once we are done, click on the <strong>Tasks</strong> tab and click on the <code class="docutils literal notranslate"><span class="pre">Close</span></code> button. Our drawing will look in plan view as in the following figure.</p>
+<img alt="_images/freecad-p14-imagen02.png" src="_images/freecad-p14-imagen02.png">
+<p>If you can't see the drawing, Click on the 'Fit full content to screen' icon <img alt="icono-ajustar-contenido" class="align-middle" src="_images/freecad-ajustar-contenido.png">.</p>
+<p><br></p>
+</li>
+<li><p class="first">To get a piece in three dimensions we are going to extrude our sketch by selecting the corresponding icon.</p>
+<img alt="_images/freecad-croquis-extruir.png" src="_images/freecad-croquis-extruir.png">
+<p>Or selecting in the Menu <code class="docutils literal notranslate"><span class="pre">Part</span> <span class="pre">Design...</span> <span class="pre">Extrude</span></code></p>
+<p>In the extrusion parameters we choose the dimension or height that we want for the piece, in this case <strong>50 millimeters</strong>.</p>
+<p>If we switch to perspective view, we will be able to see our octagon in three dimensions.</p>
+<img alt="_images/freecad-p14-imagen03.png" src="_images/freecad-p14-imagen03.png">
+<p><br></p>
+</li>
+<li><p class="first">Now we are going to select the upper area of ​​the octagon by clicking on it. The area will turn green.</p>
+<img alt="_images/freecad-p14-imagen04.png" src="_images/freecad-p14-imagen04.png">
+<p>Once the upper face is selected, we click again on the icon to create sketches.</p>
+<img alt="_images/freecad-crear-nuevo-croquis.png" src="_images/freecad-crear-nuevo-croquis.png">
+<p>This time the sketch will be drawn on the selected face, not on the ground.</p>
+<p>We re-adjust the editing controls to fit the grid.</p>
+<img alt="_images/freecad-croquis-control-edicion.png" src="_images/freecad-croquis-control-edicion.png">
+<p>And we draw another smaller octagon on top of the first octagon.</p>
+<img alt="_images/freecad-p14-imagen05.png" src="_images/freecad-p14-imagen05.png">
+<p>Once we are done, click on the <strong>Tasks</strong> tab and click on the <code class="docutils literal notranslate"><span class="pre">Close</span></code> button. Our drawing will look like the following figure.</p>
+<img alt="_images/freecad-p14-imagen06.png" src="_images/freecad-p14-imagen06.png">
+<p><br></p>
+</li>
+<li><p class="first">Next we extrude the new sketch to form a new figure on top of the first one. Click on the corresponding icon.</p>
+<img alt="_images/freecad-croquis-extruir.png" src="_images/freecad-croquis-extruir.png">
+<p>Or we select in the Menu <code class="docutils literal notranslate"><span class="pre">Part</span> <span class="pre">Design...</span> <span class="pre">Extrude</span></code></p>
+<p>In the extrusion parameters we choose the dimension or height that we want for the piece, in this case <strong>50 millimeters</strong>.</p>
+<p>The piece will look like the following image.</p>
+<img alt="_images/freecad-p14-imagen07.png" src="_images/freecad-p14-imagen07.png">
+<p><br></p>
+</li>
+<li><p class="first">Now we are going to <strong>generate a shell</strong> in the created part. We start by selecting the top face of our object in three dimensions.</p>
+<p>Once the top face is selected, we create a new sketch.</p>
+<img alt="_images/freecad-crear-nuevo-croquis.png" src="_images/freecad-crear-nuevo-croquis.png">
+<p>We re-adjust the editing controls to fit the grid.</p>
+<img alt="_images/freecad-croquis-control-edicion.png" src="_images/freecad-croquis-control-edicion.png">
+<p>And we draw a square in the center of the piece.</p>
+<img alt="_images/freecad-p14-imagen08.png" src="_images/freecad-p14-imagen08.png">
+<p>Once we are done, click on the <strong>Tasks</strong> tab and click on the <code class="docutils literal notranslate"><span class="pre">Close</span></code> button. Our drawing will look like the following figure.</p>
+<img alt="_images/freecad-p14-imagen09.png" src="_images/freecad-p14-imagen09.png">
+<p><br></p>
+</li>
+<li><p class="first">Next we <strong>generate a hole</strong> from the sketch drawn by clicking on the <strong>hollow icon</strong>.</p>
+<img alt="_images/freecad-croquis-vaciado.png" src="_images/freecad-croquis-vaciado.png">
+<p>Or by selecting in the Menu <code class="docutils literal notranslate"><span class="pre">Part</span> <span class="pre">Design...</span> <span class="pre">Shell</span></code></p>
+<p>Once pressed, we change the shell parameters so that the hole <strong>goes through all objects</strong>.</p>
+<img alt="_images/freecad-p14-imagen10.png" src="_images/freecad-p14-imagen10.png">
+<p>By clicking the <code class="docutils literal notranslate"><span class="pre">OK</span></code> button, the part will be pierced as can be seen in the following figure.</p>
+<img alt="_images/freecad-p14-imagen11.png" src="_images/freecad-p14-imagen11.png">
+<p><br></p>
+</li>
+<li><p class="first">So far we have always created sketches vertically, from the bottom up, but the sketches can be placed on <strong>any surface</strong> as can be seen in the following figure.</p>
+<img alt="_images/freecad-p14-imagen12.png" src="_images/freecad-p14-imagen12.png">
+<p><br></p>
+</li>
+</ol>
+<hr class="docutils">
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Create a 3-dimensional mask like the one in the figure.</p>
+<img alt="_images/freecad-p14-ejercicio01.png" src="_images/freecad-p14-ejercicio01.png">
+<p><br></p>
+</li>
+<li><p class="first">Create a house like the one in the figure.</p>
+<img alt="_images/freecad-p14-ejercicio02.png" src="_images/freecad-p14-ejercicio02.png">
+<p>The first sketch with the body of the house will be placed in the <strong>XZ plane</strong> and extruded in the Y plane.</p>
+<p>The following sketches will serve to make holes in the main body.</p>
+<img alt="_images/freecad-p14-ejercicio02b.png" src="_images/freecad-p14-ejercicio02b.png">
+<p>To give colors to the house we will follow this procedure.</p>
+<ol class="arabic simple">
+<li>We select the complete house in the <strong>Model</strong> tab.</li>
+<li>With the right mouse button on the model, we select <strong>adjust colors</strong>.</li>
+</ol>
+<img alt="_images/freecad-p14-ejercicio02c.png" src="_images/freecad-p14-ejercicio02c.png">
+<ol class="arabic simple" start="3">
+<li>We select with the mouse the face of the object that we want to change color.</li>
+<li>We select the color in the <strong>Tasks</strong> dialog box.</li>
+</ol>
+<img alt="_images/freecad-p14-ejercicio02d.png" src="_images/freecad-p14-ejercicio02d.png">
+<ol class="arabic simple" start="5">
+<li>Click on <code class="docutils literal notranslate"><span class="pre">OK</span></code>.</li>
+</ol>
+<p><br></p>
+</li>
+<li><p class="first">Create a ball maze game like the one in the figure.</p>
+<img alt="_images/freecad-p14-ejercicio03.png" src="_images/freecad-p14-ejercicio03.png">
+<p>From the following sketches.</p>
+<img alt="_images/freecad-p14-ejercicio03b.png" src="_images/freecad-p14-ejercicio03b.png">
+<p>Add a sphere with the <strong>Part</strong> workbench and translate the sphere as you can see in the first figure.</p>
+<p>Finally, change the color of the faces of the object and the sphere.</p>
+<p><br></p>
+</li>
+</ol>
+</div>
+<hr class="docutils">
+<div class="section" id="videotutorial">
+<h2>Video-tutorial<a class="headerlink" href="#videotutorial" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/embed/dSSEbTNAGts" rel="noopener noreferrer" target="_blank">Extrusions and shells of sketches.</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="freecad-restricciones.html" class="btn btn-neutral float-right" title="15. Constrained sketches" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="freecad-croquis-extrudir.html" class="btn btn-neutral" title="13. Sketch extrusion" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/freecad-croquis-anidados.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="mecan-index.html">Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="mecan-estructuras-index.html">Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-maquinas-index.html">Machines and Mechanisms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-calibre.html">The Caliber</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="freecad-index.html">FreeCAD</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="freecad-intro.html">1. Introduction to FreeCAD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-visualizacion.html">2. Parts display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-traslacion.html">3. Translation of pieces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-tamanios.html">4. Pieces size</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-union.html">5. Union of pieces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-rotaciones.html">6. Rotation of parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-diferencia.html">7. Parts difference</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-cilindros.html">8. Cylindrical parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-chaflanes.html">9. Chamfers and fillets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-esferas.html">10. Spherical parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-conos.html">11. Conical pieces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-toroides.html">12. Toroidal parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-croquis-extrudir.html">13. Sketch extrusion</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">14. Nested Sketch Extrusion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-restricciones.html">15. Constrained sketches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-videotutoriales.html">16. FreeCAD Video Tutorials</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="blockscad-index.html">BlocksCAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-neumatic-intro.html">Pneumatics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-origami.html">Origami</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-recursos.html">Mechanics Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

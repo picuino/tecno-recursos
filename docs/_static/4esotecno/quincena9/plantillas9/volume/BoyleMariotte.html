@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="baleiro" width=400 height=400
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="baleiro">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=s&iacute; limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='s&iacute;' O.x='-100' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='d' tipo='gr&aacute;fico' color='azul' color-int='rojo' expresi&oacute;n='(0,posi)' constricci&oacute;n='x=2' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='pi1' tipo='num&eacute;rico' valor='1' fijo='s&iacute;' nombre='pi1' incr='0.5' min='1' max='3' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='pi2' tipo='num&eacute;rico' valor='1' fijo='s&iacute;' nombre='pi2' incr='0.5' min='1' max='3' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_03" value="id='info' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='info' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Mueve el &eacute;mbolo del pist&oacute;n y comprueba cpomo se modifica la presi&oacute;n y el volumen en las dos c&aacute;maras.\nCam&aacute;ra anterior (V2,P2 color verde), y c&aacute;mara posterior (V1,P1) color rojo.\nPuedes modificar la presi&oacute;n inicial en cada una de las c&aacute;maras\n' par&aacute;metro.fuente='Serif,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_04" value="id='rec' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='recuerda' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='El volumen y la presi&oacute;n (a temperatura constante) son inversamente proporcionales, tal y como nos enuncia la ley de Boyle y Mariotte:\n\nP1*V1=P2*V2=cte.\n' par&aacute;metro.fuente='Serif,PLAIN,14' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='pi' constante='s&iacute;' expresi&oacute;n='3.1415' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='posi' constante='s&iacute;' expresi&oacute;n='0.875' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='p1' constante='s&iacute;' expresi&oacute;n='pi1-1 + (p.cc-p.ap)/(p.cc-p.ap-2*(posi-d.y))' evaluar='siempre'">
+   <param name="A_03" value="id='p2' constante='s&iacute;' expresi&oacute;n='pi2-1 +(p.cc-p.ap)/(p.cc-p.ap+2*(posi-d.y))' evaluar='siempre'">
+   <param name="A_04" value="id='a2' algoritmo='s&iacute;' evaluar='siempre' hacer='p.cpx=2;p.cpy=d.y;p.aci=2;p.cx=1;p.cc=2.5;p.ac=0.25;p.ap=0.25;p.cp=2;;'">
+   <param name="A_05" value="id='e1' evento='s&iacute;' condici&oacute;n='d.y&lt;=0' acci&oacute;n='calcular' par&aacute;metro='d.y=0;p.cpy=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="A_06" value="id='e3' evento='s&iacute;' condici&oacute;n='d.y&gt;=2*posi' acci&oacute;n='calcular' par&aacute;metro='d.y=2*posi;p.cpy=2*posi;' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="A_07" value="id='e2' evento='s&iacute;' condici&oacute;n='(d.y&lt;=0) |(d.y&gt;=2*posi)' acci&oacute;n='mensaje' par&aacute;metro='El gas no se puede comprimir m&aacute;s.' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="A_08" value="id='p' constante='s&iacute;' expresi&oacute;n='p.cc/(p.cc-(p.cp-d.y))' evaluar='siempre'">
+   <param name="A_09" value="id='V1' constante='s&iacute;' expresi&oacute;n='(p.cc-p.ap-2*(posi-d.y))*s1' evaluar='siempre'">
+   <param name="A_10" value="id='V2' constante='s&iacute;' expresi&oacute;n='(p.cc-p.ap+2*(posi-d.y))*s2' evaluar='siempre'">
+   <param name="A_11" value="id='s1' constante='s&iacute;' expresi&oacute;n='pi*(p.cc-2*p.aci)^2/4' evaluar='siempre'">
+   <param name="A_12" value="id='s2' constante='s&iacute;' expresi&oacute;n='s1-pi*p.ap*p.ap/4' evaluar='siempre'">
+   <param name="G_00" value="tipo='macro' expresi&oacute;n='piston' nombre='p'">
+   <param name="G_01" value="tipo='pol&iacute;gono' color='rojo' expresi&oacute;n='(d.x+p.aci/2-p.ac,d.y-p.cp-2*p.ac)(d.x+p.aci/2-p.ac,-2.75)(d.x-p.aci/2+p.ac,-2.75)(d.x-p.aci/2+p.ac,d.y-p.cp-2*p.ac)' relleno='rojo'">
+   <param name="G_02" value="tipo='pol&iacute;gono' color='verde' expresi&oacute;n='(d.x+p.aci/2-p.ac,d.y-p.cp-p.ac)(d.x+p.aci/2-p.ac,-p.ac)(d.x+p.ap/2,-p.ac)(d.x+p.ap/2,d.y-p.cp-p.ac)' relleno='verde'">
+   <param name="G_03" value="tipo='pol&iacute;gono' color='verde' expresi&oacute;n='(d.x-p.aci/2+p.ac,d.y-p.cp-p.ac)(d.x-p.aci/2+p.ac,-p.ac)(d.x-p.ap/2,-p.ac)(d.x-p.ap/2,d.y-p.cp-p.ac)' relleno='verde'">
+   <param name="G_04" value="tipo='pol&iacute;gono' expresi&oacute;n='(4,-3)(4.5,-3)(4.5,-3+0.9*V1)(4,-3+0.9*V1)(4,-3)' relleno='amarillo'">
+   <param name="G_05" value="tipo='pol&iacute;gono' expresi&oacute;n='(4.75,-3)(5.25,-3)(5.25,-3+p1)(4.75,-3+p1)(4.75,-3)' relleno='magenta'">
+   <param name="G_06" value="tipo='pol&iacute;gono' expresi&oacute;n='(-1.25,-3)(-0.75,-3)(-0.75,-3+0.9*V2)(-1.25,-3+0.9*V2)(-1.25,-3)' relleno='grisObscuro'">
+   <param name="G_07" value="tipo='pol&iacute;gono' expresi&oacute;n='(-0.5,-3)(0,-3)(0,-3+p2)(-0.5,-3+p2)(-0.5,-3)' relleno='turquesa'">
+   <param name="G_08" value="tipo='texto' expresi&oacute;n='[75,325]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Courier New;}\f1\fs24\b P2\f2\fs24\b0\par}' fuente='Times New Roman,BOLD,12' fijo='s&iacute;'">
+   <param name="G_09" value="tipo='texto' expresi&oacute;n='[40,325]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Courier New;}\f1\fs24\b V2\f2\fs24\b0\par}' fuente='Times New Roman,BOLD,12' fijo='s&iacute;'">
+   <param name="G_10" value="tipo='texto' expresi&oacute;n='[330,325]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs24\b P1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="G_11" value="tipo='texto' expresi&oacute;n='[290,325]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs24\b V1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="G_12" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(0,2)(4,2)(4,3.5)(0,3.5)(0,2)' ancho='3'">
+   <param name="G_13" value="tipo='texto' expresi&oacute;n='[100,50]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Courier New;}\f1\fs28\b P2={\*\mjaformula{\expr p2}} atm ;   V2={\*\mjaformula{\expr V2}} cm{\*\mjaformula{\supix 3}}\f2\fs24\b0\par}' fuente='Times New Roman,BOLD,14' fijo='s&iacute;'">
+   <param name="G_14" value="tipo='texto' expresi&oacute;n='[100,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Courier New;}\f1\fs28\b P1={\*\mjaformula{\expr p1}} atm ;   V1={\*\mjaformula{\expr V1}} cm{\*\mjaformula{\supix 3}}\f2\fs24\b0\par}' fuente='Times New Roman,BOLD,14' fijo='s&iacute;'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

@@ -1,0 +1,474 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/q5_ejercicios_e.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:46:33 GMT -->
+<head>
+<title>Quincna&nbsp; 5&nbsp; Lógica Binaria</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script src="../quincena5_old/ejercicios/ValidarTablas.html" language="javascript"></script> 
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+<style type="text/css">
+<!--
+-->
+  </style>
+<link href="../paracidead1.css" rel="stylesheet" type="text/css">
+<link href="../q5q6.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body onLoad="MM_preloadImages('../imagen/paraantes3.png','../imagen/paraconte.png','../imagen/atrasb.png','../imagen/paraantes2.png','../imagen/paracont2.png','../imagen/adelanteb.png','../imagen/atrasb.png','../imagen/paraantes3.png','../imagen/paracont3.png','../imagen/paraejer.png','../imagen/paraejer2.png','../imagen/paraeval3.png','../imagen/paraeval2.png','../imagen/paratut3.png','../imagen/paratut2.png','../imagen/paramas3.png','../imagen/paramas2.png','../imagen/paraejer3.png')" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;"> 
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="../imagen/es1.gif" height="8" width="8"></td>
+      <td background="../imagen/bor1.gif" height="8"></td>
+      <td background="../imagen/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="../imagen/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table width="100%" cellspacing="12" class="arial2">
+          <tr> 
+            <td valign="top" class="titulo"> <img src="../imagen/ejercicios.png" width="50" height="39" align="middle">Para 
+              practicar </td>
+            <td colspan="2" valign="top" class="titulo">
+			<table width="100%" border="0">
+  <tr>
+    <td scope="col">&nbsp;</td>
+    <td width="367" scope="col"><div class="recuadro" align="left">
+              Repasa los <strong>contenidos</strong> de esta secci&oacute;n:<br /> 
+				Obtenci&oacute;n de la tabla de verdad a partir de la funci&oacute;n  </div></td>
+  </tr>
+</table>
+
+			
+			
+			</td>
+          </tr>
+          <tr> 
+            <td colspan="3" valign="top">
+			<p class="titulo2">Obtenci&oacute;n de la tabla de verdad a partir de la funci&oacute;n l&oacute;gica</p>            </td>
+          </tr>
+          <tr>
+            <td colspan="3" valign="top">Obt&eacute;n la tabla de verdad de las siguientes funciones:</td>
+          </tr>
+          <tr>
+            <td width="43%" valign="top">
+			
+			  <p><strong>a) S= A B + A' B'  </strong></p>
+			  <form name="ej1">
+			  <table width="230">
+                <tr>
+                  <th width="25" class="celda1" scope="col">A</th>
+                  <th width="25" class="celda1" scope="col">B</th>
+                  <th width="25" class="celda1" scope="col">C</th>
+                  <th class="celda1" scope="col">Salida</th>
+                  <th width="50" class="celda1" scope="col">Sol.</th>
+                </tr>
+                <tr>
+                  <td class="celda1">0</td>
+                  <td class="celda1">0</td>
+                  <td class="celda1">0</td>
+                  <td class="celda1esq"><select name="select1" id="edit1">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select>
+                      <span id="ej1_res1"></span></td>
+                  <td class="celda1" id="ej1_sol1">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="celda1">0</td>
+                  <td class="celda1">0</td>
+                  <td class="celda1">1</td>
+                  <td class="celda1esq"><select name="select2" id="edit2">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select>
+                      <span id="ej1_res2"></span></td>
+                  <td class="celda1" id="ej1_sol2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="celda1">0</td>
+                  <td class="celda1">1</td>
+                  <td class="celda1">0</td>
+                  <td class="celda1esq"><select name="select3" id="edit3">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select>
+                      <span id="ej1_res3"></span></td>
+                  <td class="celda1" id="ej1_sol3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="celda1">0</td>
+                  <td class="celda1">1</td>
+                  <td class="celda1">1</td>
+                  <td class="celda1esq"><select name="select4" id="edit4">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select>
+                      <span id="ej1_res4"></span></td>
+                  <td class="celda1" id="ej1_sol4">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="celda1">1</td>
+                  <td class="celda1">0</td>
+                  <td class="celda1">0</td>
+                  <td class="celda1esq"><select name="select5" id="edit5">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select>
+                      <span id="ej1_res5"></span></td>
+                  <td class="celda1" id="ej1_sol5">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="celda1">1</td>
+                  <td class="celda1">0</td>
+                  <td class="celda1">1</td>
+                  <td class="celda1esq"><select name="select6" id="edit6">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select>
+                      <span id="ej1_res6"></span></td>
+                  <td class="celda1" id="ej1_sol6">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="celda1">1</td>
+                  <td class="celda1">1</td>
+                  <td class="celda1">0</td>
+                  <td class="celda1esq"><select name="select7" id="edit7">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select>
+                      <span id="ej1_res7"></span></td>
+                  <td class="celda1" id="ej1_sol7">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="celda1">1</td>
+                  <td class="celda1">1</td>
+                  <td class="celda1">1</td>
+                  <td class="celda1esq"><select name="select8" id="edit8">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select>
+                      <span id="ej1_res8"></span></td>
+                  <td class="celda1" id="ej1_sol8">&nbsp;</td>
+                </tr>
+              </table>
+			  <br />
+                <div align="center"><input name="solucion" type="hidden" value="11000011" />
+			<input type="button" value="comprobar" onClick="compruebaEjTabla(this.form,'resultado_1')">
+			<input name="button" type="reset"  value="Borrar" onClick="borraEjTabla(this.form,'resultado_1')">
+			<br /><span id= "resultado_1">&nbsp;</span>			</div>
+			<br />
+			</form>			</td>
+			
+            <td width="16%" valign="top"><p><strong>b)S= A' B' C + A B' C' + A B </strong></p>
+            <form name="ej2">
+                <table width="240">
+                  <tr>
+                    <th width="25" class="celda1" scope="col">A</th>
+                    <th width="25" class="celda1" scope="col">B</th>
+                    <th width="25" class="celda1" scope="col">C</th>
+                    <th class="celda1" scope="col">Salida</th>
+                    <th width="50" class="celda1" scope="col">Sol.</th>
+                  </tr>
+                  <tr>
+                    <td class="celda1">0</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1esq"><select name="select" id="edit1">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej2_res1"></span></td>
+                    <td class="celda1" id="ej2_sol1">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">0</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1esq"><select name="select2" id="edit2">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej2_res2"></span></td>
+                    <td class="celda1" id="ej2_sol2">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">0</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1esq"><select name="select3" id="edit3">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej2_res3"></span></td>
+                    <td class="celda1" id="ej2_sol3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">0</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1esq"><select name="select4" id="edit4">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej2_res4"></span></td>
+                    <td class="celda1" id="ej2_sol4">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">1</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1esq"><select name="select5" id="edit5">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej2_res5"></span></td>
+                    <td class="celda1" id="ej2_sol5">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">1</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1esq"><select name="select6" id="edit6">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej2_res6"></span></td>
+                    <td class="celda1" id="ej2_sol6">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">1</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1esq"><select name="select7" id="edit7">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej2_res7"></span></td>
+                    <td class="celda1" id="ej2_sol7">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">1</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1esq"><select name="edit" id="edit8">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej2_res8"></span></td>
+                    <td class="celda1" id="ej2_sol8">&nbsp;</td>
+                  </tr>
+                </table> 
+                <br />
+                <div align="center"><input name="solucion" type="hidden" value="01001011" />
+			<input type="button" value="comprobar" onClick="compruebaEjTabla(this.form,'resultado_2')">
+			<input name="button" type="reset"  value="Borrar" onClick="borraEjTabla(this.form,'resultado_2')">
+			<br /><span id= "resultado_2">&nbsp;</span></div>
+			<br />
+			</form>			</td>
+            <td width="41%" valign="top"><p><strong>c) S= A' B' + A B + C </strong></p>
+            <form name="ej3">
+                <table width="240">
+                  <tr>
+                    <th width="25" class="celda1" scope="col">A</th>
+                    <th width="25" class="celda1" scope="col">B</th>
+                    <th width="25" class="celda1" scope="col">C</th>
+                    <th class="celda1" scope="col">Salida</th>
+                    <th width="50" class="celda1" scope="col">Sol.</th>
+                  </tr>
+                  <tr>
+                    <td class="celda1">0</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1esq"><select name="select" id="edit1">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej3_res1"></span></td>
+                    <td class="celda1" id="ej3_sol1">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">0</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1esq"><select name="select2" id="edit2">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej3_res2"></span></td>
+                    <td class="celda1" id="ej3_sol2">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">0</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1esq"><select name="select3" id="edit3">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej3_res3"></span></td>
+                    <td class="celda1" id="ej3_sol3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">0</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1esq"><select name="select4" id="edit4">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej3_res4"></span></td>
+                    <td class="celda1" id="ej3_sol4">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">1</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1esq"><select name="select5" id="edit5">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej3_res5"></span></td>
+                    <td class="celda1" id="ej3_sol5">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">1</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1esq"><select name="select6" id="edit6">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej3_res6"></span></td>
+                    <td class="celda1" id="ej3_sol6">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">1</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1">0</td>
+                    <td class="celda1esq"><select name="select7" id="edit7">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej3_res7"></span></td>
+                    <td class="celda1" id="ej3_sol7">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="celda1">1</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1">1</td>
+                    <td class="celda1esq"><select name="edit" id="edit8">
+                      <option>0</option>
+                      <option>1</option>
+                      <option selected="selected">-</option>
+                    </select><span id="ej3_res8"></span></td>
+                    <td class="celda1" id="ej3_sol8">&nbsp;</td>
+                  </tr>
+                </table> 
+                <br />
+                <div align="center"><input name="solucion" type="hidden" value="11010111" />
+			<input type="button" value="comprobar" onClick="compruebaEjTabla(this.form,'resultado_3')">
+			<input name="button" type="reset"  value="Borrar" onClick="borraEjTabla(this.form,'resultado_3')">
+			<br /><span id= "resultado_3">&nbsp;</span></div>
+			<br />
+			</form>			</td>
+          </tr>
+          <tr>
+            <td colspan="3" valign="top">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="../imagen/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="../imagen/es4.gif" height="8" width="8"></td>
+      <td background="../imagen/bor3.gif" height="8"></td>
+      <td background="../imagen/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+</div>
+</body>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/q5_ejercicios_e.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:46:33 GMT -->
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title></title>
+	<link rel="stylesheet" href="../fonts/style.css" type="text/css">
+	<script type='text/javascript' src='../lib/descartes-min.js'></script>
+<style>
+	body { 
+    background-color: transparent;
+}
+	</style>
+</head>
+<body>
+<ajs name="vacio" width=750 height=550 code="Descartes">
+   <param name="tamaño" value="750x550">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="sonido" value="sí">
+   <param name="álgebra" value="sí">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="nombre" value="vacio">
+   <param name="Versión" value="5.335, 2015-01-12">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=sí limpiar=no alto=40">
+   <param name="E_01" value="tipo='R3' id='Principal' fijo='sí' escala='32' despl_imagen='arr-izq' fondo='aad6efff' R3='sí'">
+   <param name="E_02" value="tipo='R2' id='E2' dibujar-si='muestra=1' fijo='sí' despl_imagen='arr-izq' fondo='29f0f8fa' red='no' red10='no' ejes='no' texto='405860'">
+   <param name="C_01" value="id='A1' tipo='numérico' interfaz='botón' región='norte' espacio='Principal' nombre='Actividad 1' fijo='sí' visible='no' color='blanco' color-int='009100' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='muestra=1\nmensaje=1'">
+   <param name="C_02" value="id='A2' tipo='numérico' interfaz='botón' región='norte' espacio='Principal' nombre='Actividad 2' fijo='sí' visible='no' color='blanco' color-int='009100' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='muestra=1\nmensaje=2' pos_mensajes='centro'">
+   <param name="C_03" value="id='A3' tipo='numérico' interfaz='botón' región='norte' espacio='Principal' nombre='Actividad 3' fijo='sí' visible='no' color='blanco' color-int='009100' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='muestra=1\nmensaje=3' pos_mensajes='centro'">
+   <param name="C_04" value="id='Peso' tipo='numérico' interfaz='barra' espacio='Principal' nombre='Peso' valor='1.01' incr='0.5' min='1' max='10' discreto='sí' decimales='1' fijo='no' visible='sí' parámetro='Peso utilizado en kg' pos_mensajes='centro'">
+   <param name="C_05" value="id='m' tipo='numérico' interfaz='barra' espacio='Principal' nombre='M. agua' valor='100' incr='10' min='100' max='200' discreto='sí' decimales='0' fijo='sí' visible='sí' parámetro='Masa de agua en gramos' pos_mensajes='centro'">
+   <param name="C_06" value="id='comenzar' tipo='numérico' interfaz='botón' región='interior' espacio='Principal' nombre='Soltar' expresión='(10,270,120,35)' fijo='sí' visible='sí' color='blanco' color-int='ff6d00' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='animar' pos_mensajes='centro'">
+   <param name="C_07" value="id='cierra' tipo='numérico' interfaz='botón' región='interior' espacio='E2' nombre='X' expresión='(520,340,25,25)' fijo='sí' visible='sí' color='blanco' color-int='rojo' negrita='sí' fuente puntos='20' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='muestra=0' pos_mensajes='centro'">
+   <param name="A_01" value="id='inter' expresión='Peso'">
+   <param name="A_02" value="id='w' expresión='Peso*9.8*(-h)/4.18'">
+   <param name="A_03" value="id='T' expresión='w/m'">
+   <param name="G_01" value="espacio='E2' tipo='imagen' expresión='(-4,2.5)' archivo='../images/postit3.png'">
+   <param name="G_02" value="espacio='E2' tipo='texto' color='blanco' dibujar-si='mensaje=1' expresión='[210,230,330,40]' texto='¿Cómo se llama y cuánto vale la energía del peso suspendido en el aire? Pon en marcha la máquina y explica las conversiones de energía que se producen' fuente='SansSerif,PLAIN,22' fijo='sí' ancho='350' color_borde_texto='negro'">
+   <param name="G_03" value="espacio='E2' tipo='texto' color='blanco' dibujar-si='mensaje=2' expresión='[210,230,330,40]' texto='Recordando que una caloría es el calor necesario para aumentar 1ºC la temperatura de 1 g de agua, calcula, con el mayor de los pesos posible, la energía mecánica perdida por el peso, el calor ganado por el agua y la relación entre el julio y la caloría ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='350' color_borde_texto='negro'">
+   <param name="G_04" value="espacio='E2' tipo='texto' color='blanco' dibujar-si='mensaje=3' expresión='[210,230,330,40]' texto='Calcula por tu parte y comprueba después en la escena: ¿Qué peso deberíamos suspender para que aumentara 0,5ºC la temperatura de 200 g. de agua?' fuente='SansSerif,PLAIN,22' fijo='sí' ancho='350' color_borde_texto='negro'">
+   <param name="S_01" value="espacio='Principal' tipo='paralelepípedo' color='c08747' color_reverso='ad7a3f' expresión='Paralelepípedo' rotini='(rota,-90,-30)' posini='(0,1.5,-1.5)' cortar='sí' modelo='metal' ancho='0.5' largo='0.15' alto='8'">
+   <param name="S_02" value="espacio='Principal' tipo='paralelepípedo' color='c08747' color_reverso='ad7a3f' expresión='Paralelepípedo' rotini='(90-rota,90,-30)' posini='(0,1.5,-1.5)' cortar='sí' modelo='metal' ancho='0.5' largo='0.15' alto='8'">
+   <param name="S_03" value="espacio='Principal' tipo='cilindro' color='negro' color_reverso='negro' expresión='Cilindro' posini='(-2,1.5,2)' ancho='0.5' largo='0.5'">
+   <param name="S_04" value="espacio='Principal' tipo='cilindro' color='grisClaro' color_reverso='gris' expresión='Cilindro' posini='(-2,1.5,0.15)' modelo='metal' ancho='0.3' largo='0.3' alto='5'">
+   <param name="S_05" value="espacio='Principal' tipo='paralelepípedo' color='negro' color_reverso='rosa' expresión='Paralelepípedo' posini='(-2,1.5,-1)' modelo='alambre' ancho='8' largo='8' alto='3'">
+   <param name="S_06" value="espacio='Principal' tipo='segmento' color='negro' expresión='(0,-5,3)(0,1.5,3)'">
+   <param name="S_07" value="espacio='Principal' tipo='cilindro' color='blanco' color_reverso='grisClaro' expresión='Cilindro' rotini='(0,90,0)' posini='(0,-5,2.5)' modelo='metal' ancho='1' largo='1' alto='0.51' Nu='12' Nv='12'">
+   <param name="S_08" value="espacio='Principal' tipo='segmento' color='negro' expresión='(0,-5.5,2.5)(0,-5.5,h+0.8)' cortar='sí'">
+   <param name="S_09" value="espacio='Principal' tipo='cubo' color='grisClaro' color_reverso='gris' expresión='Cubo' posini='(-1,-5.6,h)' cortar='sí' modelo='metal'">
+   <param name="S_10" value="espacio='Principal' tipo='paralelepípedo' color='azul' color_reverso='rosa' expresión='Paralelepípedo' posini='(-2,1.5,-1.5)' modelo='alambre' ancho='8' largo='8'">
+   <param name="S_11" value="espacio='Principal' tipo='cilindro' color='blanco' color_reverso='rosa' expresión='Cilindro' posini='(0,4.75,4+T/2)' modelo='metal' ancho='0.2' largo='0.2' alto='3-T' Nv='12'">
+   <param name="S_12" value="espacio='Principal' tipo='cilindro' color_reverso='rosa' expresión='Cilindro' posini='(0,4.75,1+T/2)' ancho='0.2' largo='0.2' alto='3+T'">
+   <param name="S_13" value="espacio='Principal' tipo='texto' color='negro' expresión='[20,40]' texto='Altura pesa: [5+h] m\nTemperatura: [20+T] ºC  ' fuente='SansSerif,BOLD,23' fijo='sí'">
+   <param name="Animación" value="controles='no' auto='no' inicio='n=1;rota=0;h=0' hacer='t=t+1;n=n+inter;n=(n>360)?0:n;rota=rota+inter;h=h-inter/10' mientras='h>-5'">
+</ajs>
+</body>
+</html>

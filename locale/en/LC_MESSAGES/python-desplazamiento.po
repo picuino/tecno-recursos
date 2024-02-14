@@ -1,0 +1,259 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-09-19 15:16+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/python-desplazamiento.rst:9
+msgid "Desplazamiento de datos"
+msgstr "Data displacement"
+
+#: ../../source/python-desplazamiento.rst:10
+msgid ""
+"El desplazamiento de datos se refiere a la acción de mover datos de un lugar"
+" a otro de la memoria. Es una operación que se realiza en multitud de "
+"ocasiones, por ejemplo, en los algoritmos de ordenación, que veremos en las "
+"siguientes unidades."
+msgstr ""
+"Data shifting refers to the action of moving data from one location in "
+"memory to another. It is an operation that is performed on many occasions, "
+"for example, in sorting algorithms, which we will see in the following units."
+
+#: ../../source/python-desplazamiento.rst:16
+msgid ""
+"En el lenguaje Python existen métodos eficientes para llevar a cabo el "
+"desplazamiento de datos. Estos métodos se basan en el uso de rebanadas, "
+"asignación de tuplas y funciones de inserción y borrado de elementos en "
+"listas. Sin embargo, en esta unidad y las siguientes, no se emplearán estos "
+"métodos eficientes de desplazamiento de datos en Python. El propósito es "
+"adquirir un entendimiento a más bajo nivel de cómo se realizan estas "
+"operaciones, lo que puede ser aplicable en cualquier otro lenguaje de "
+"programación."
+msgstr ""
+"In the Python language there are efficient methods to carry out data "
+"movement. These methods are based on the use of slices, tuple assignment, "
+"and insertion and deletion functions in lists. However, in this and "
+"subsequent units, we will not use these efficient methods of moving data in "
+"Python. The purpose is to gain a lower-level understanding of how these "
+"operations are performed, which can be applicable in any other programming "
+"language."
+
+#: ../../source/python-desplazamiento.rst:28
+msgid "Intercambio de datos"
+msgstr "Data exchange"
+
+#: ../../source/python-desplazamiento.rst:29
+msgid ""
+"Es frecuente que un programa tenga que intercambiar los datos de dos "
+"variables o de dos posiciones de una lista. Para poder intercambiar los "
+"datos usaremos una variable temporal intermedia::"
+msgstr ""
+"It is common for a program to have to exchange the data of two variables or "
+"two positions in a list. In order to exchange the data we will use an "
+"intermediate temporary variable::"
+
+#: ../../source/python-desplazamiento.rst:42
+msgid ""
+"Otro ejemplo se puede dar con listas de datos. En el siguiente caso vamos a "
+"ordenar una lista de números que no está ordenada, intercambiando los dos "
+"números del medio de la lista::"
+msgstr ""
+"Another example can be given with data lists. In the following case we are "
+"going to sort a list of numbers that is not sorted, exchanging the two "
+"numbers in the middle of the list::"
+
+#: ../../source/python-desplazamiento.rst:54
+msgid "Desplazamiento a la derecha"
+msgstr "Shift right"
+
+#: ../../source/python-desplazamiento.rst:55
+msgid ""
+"Si necesitamos desplazar muchos números de una lista el procedimiento será "
+"similar al de intercambio de datos, pero algo más largo."
+msgstr ""
+"If we need to move many numbers from a list, the procedure will be similar "
+"to that of exchanging data, but somewhat longer."
+
+#: ../../source/python-desplazamiento.rst:58
+msgid ""
+"En el siguiente ejemplo necesitamos mover el último elemento de una lista al"
+" comienzo de la lista para ordenar todos los números::"
+msgstr ""
+"In the following example we need to move the last element of a list to the "
+"beginning of the list to sort all the numbers::"
+
+#: ../../source/python-desplazamiento.rst:64
+msgid ""
+"Esta es una operación semejante a la de intercambio. Implica mover todos los"
+" números hacia la derecha para dejar un espacio libre al comienzo de la "
+"lista, que es donde finalmente colocaremos el número 0."
+msgstr ""
+"This is an operation similar to that of exchange. It involves moving all the"
+" numbers to the right to leave a free space at the beginning of the list, "
+"which is where we will eventually place the number 0."
+
+#: ../../source/python-desplazamiento.rst:69
+msgid ""
+"Para empezar guardaremos el valor del último elemento en una variable "
+"intermedia::"
+msgstr ""
+"To begin we will save the value of the last element in an intermediate "
+"variable::"
+
+#: ../../source/python-desplazamiento.rst:74
+msgid ""
+"Ahora desplazamos todos los elementos, menos el último, hacia la derecha. "
+"Para no pisar los valores habrá que comenzar por la derecha::"
+msgstr ""
+"Now we move all the elements, except the last one, to the right. To avoid "
+"stepping on the values ​​you will have to start on the right::"
+
+#: ../../source/python-desplazamiento.rst:80
+msgid "y continuar hacia la izquierda::"
+msgstr "and continue to the left::"
+
+#: ../../source/python-desplazamiento.rst:94
+msgid ""
+"Por último copiamos el valor de la variable temporal el el primer puesto de "
+"la lista a la izquierda del todo, para obtener la lista completamente "
+"ordenada::"
+msgstr ""
+"Finally we copy the value of the temporary variable in the first position of"
+" the list to the far left, to obtain the completely ordered list::"
+
+#: ../../source/python-desplazamiento.rst:102
+msgid ""
+"Estas operaciones se pueden agilizar por medio de un bucle ``for``, con lo "
+"que el programa final quedaría de la siguiente manera::"
+msgstr ""
+"These operations can be speeded up by means of a ``for`` loop, so the final "
+"program would look like this:"
+
+#: ../../source/python-desplazamiento.rst:115
+
+#: ../../source/python-desplazamiento.rst:147
+msgid "La salida del programa será la lista ordenada::"
+msgstr "The output of the program will be the ordered list::"
+
+#: ../../source/python-desplazamiento.rst:121
+msgid "Desplazamiento a la izquierda"
+msgstr "Shift left"
+
+#: ../../source/python-desplazamiento.rst:122
+msgid ""
+"Este caso es semejante al anterior, pero ahora deseamos mover los datos en "
+"dirección contraria."
+msgstr ""
+"This case is similar to the previous one, but now we want to move the data "
+"in the opposite direction."
+
+#: ../../source/python-desplazamiento.rst:125
+msgid ""
+"En el siguiente ejemplo necesitamos mover el primer elemento de una lista al"
+" final de la lista para ordenar todos los números::"
+msgstr ""
+"In the following example we need to move the first element of a list to the "
+"end of the list to sort all the numbers::"
+
+#: ../../source/python-desplazamiento.rst:131
+msgid ""
+"Esta operación implica mover todos los números hacia la izquierda para dejar"
+" un espacio libre al final de la lista, que es donde colocaremos el número "
+"5."
+msgstr ""
+"This operation involves moving all the numbers to the left to leave a free "
+"space at the end of the list, which is where we will place the number 5."
+
+#: ../../source/python-desplazamiento.rst:135
+msgid "El programa final será el siguiente::"
+msgstr "The final program will be the following::"
+
+#: ../../source/python-desplazamiento.rst:153
+msgid "Ejercicios"
+msgstr "Exercises"
+
+#: ../../source/python-desplazamiento.rst:155
+
+#: ../../source/python-desplazamiento.rst:170
+msgid ""
+"Escribe un programa que intercambie los datos de las siguientes variables de"
+" manera que cada variable contenga el número que corresponde con su nombre. "
+"Recuerda utilizar una variable temporal::"
+msgstr ""
+"Write a program that exchanges the data of the following variables so that "
+"each variable contains the number that corresponds to its name. Remember to "
+"use a temporary variable::"
+
+#: ../../source/python-desplazamiento.rst:166
+
+#: ../../source/python-desplazamiento.rst:183
+
+#: ../../source/python-desplazamiento.rst:197
+
+#: ../../source/python-desplazamiento.rst:214
+
+#: ../../source/python-desplazamiento.rst:224
+
+#: ../../source/python-desplazamiento.rst:241
+msgid "Salida::"
+msgstr "Exit::"
+
+#: ../../source/python-desplazamiento.rst:187
+msgid ""
+"Escribe una función que desplace todos los elementos de una lista hacia la "
+"izquierda. El primer elemento debe desaparecer y el último elemento se le "
+"asignará el segundo parámetro de la función."
+msgstr ""
+"Write a function that shifts all elements of a list to the left. The first "
+"element should disappear and the last element will be assigned the second "
+"parameter of the function."
+
+#: ../../source/python-desplazamiento.rst:191
+
+#: ../../source/python-desplazamiento.rst:235
+msgid "Ejemplo::"
+msgstr "Example::"
+
+#: ../../source/python-desplazamiento.rst:201
+msgid ""
+"Escribe una función que desplace los elementos de una lista hacia la "
+"derecha, pero solo hasta una posición dada por su segundo parámetro, la "
+"variable ``min``. El último elemento de la lista debe colocarse en la "
+"posición ``min``. Comprueba que la función funciona correctamente con los "
+"siguientes ejemplos."
+msgstr ""
+"Write a function that shifts the elements of a list to the right, but only "
+"to a position given by its second parameter, the variable ``min``. The last "
+"element in the list must be placed at the ``min`` position. Check that the "
+"function works correctly with the following examples."
+
+#: ../../source/python-desplazamiento.rst:208
+msgid "Ejemplo 1::"
+msgstr "Example 1::"
+
+#: ../../source/python-desplazamiento.rst:218
+msgid "Ejemplo 2::"
+msgstr "Example 2::"
+
+#: ../../source/python-desplazamiento.rst:229
+msgid ""
+"Escribe una función que desplace los elementos de una lista hacia la "
+"izquierda, hasta el elemento dado por su segundo parámetro, la variable "
+"``min``. Una vez realizado el desplazamiento, el último elemento de la lista"
+" debe asignarse al valor que estuviera en la posición ``min``."
+msgstr ""
+"Write a function that shifts the elements of a list to the left, to the "
+"element given by its second parameter, the variable ``min``. Once the move "
+"is made, the last element in the list must be assigned to the value that was"
+" at the ``min`` position."

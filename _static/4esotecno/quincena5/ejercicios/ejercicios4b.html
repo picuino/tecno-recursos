@@ -1,0 +1,338 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/ejercicios/ejercicios4b.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:57:27 GMT -->
+<head>
+<title>Función lógica a partir de la&nbsp; tabla de la verdad</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script src="ValidarTablas.js" language="javascript"></script> 
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript" src="../../embeddedcontent.js" defer="defer"></script>
+<style type="text/css">
+<!--
+-->
+  </style>
+<link href="../../paracidead1.css" rel="stylesheet" type="text/css">
+<link href="../../q5q6.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+
+
+
+    
+      <body bgcolor="#EEFFEE">
+
+
+
+
+
+
+    
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+            <div align="center">
+            <table width="249" border="1" cellpadding="2" cellspacing="4" bordercolor="#009999" bgcolor="#c6d8f4" style="margin-bottom: 0">
+              <tr valign="middle" bordercolor="#F1f1f1" bgcolor="#FFFFFF" class="parakaos2"> 
+                <td bordercolor="#F1f1f1" align="center" width="227" class="recuadro"> 
+				<font size="4" color="#000099"><b>EJERCICIOS</b></font></td>
+              </tr>
+              <tr>
+                <td bordercolor="#eeeedd" align="center" width="227" bgcolor="#FFFFFF" valign="top" class="recuadro">  
+				
+<p><font color="#000099">
+			<span class="txt"><strong>1.</strong> Indica en el recuadro cuál es 
+			la función lógica representada en la siguiente tabla: 
+			</span></font> </p>
+				
+                
+				<table width="150" border="0" align="center">
+                  <tr>
+                    <th width="100" class="celda1" scope="col">
+					<font color="#000099">A</font></th>
+                    <th width="100" class="celda1" scope="col">
+					<font color="#000099">B</font></th>
+                    <th width="100" class="celda1" scope="col">
+					<font color="#000099">S</font></th>
+                    <th width="100" class="arial2" scope="col">&nbsp;</th>
+                  </tr>
+                  <tr>
+                    <td class="celda1"><b><font color="#000099">0</font></b></td>
+                    <td class="celda1"><b><font color="#000099">0</font></b></td>
+                    <td bgcolor="#E6E6E6" class="celda1"><b><font color="#000099">1</font></b></td>
+                    <td class="celdacentro"><b><font color="#000099">S<sub>1</sub></font></b></td>
+                  </tr>
+                  <tr>
+                    <td width="100" class="celda1"><b><font color="#000099">0</font></b></td>
+                    <td width="100" class="celda1"><b><font color="#000099">1</font></b></td>
+                    <td width="100" class="celda1"><b><font color="#000099">0</font></b></td>
+                    <td width="100" class="arial2">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="100" class="celda1"><b><font color="#000099">1</font></b></td>
+                    <td width="100" class="celda1"><b><font color="#000099">0</font></b></td>
+                    <td width="100" class="celda1"><b><font color="#000099">0</font></b></td>
+                    <td width="100" class="arial2">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="100" class="celda1"><b><font color="#000099">1</font></b></td>
+                    <td width="100" class="celda1"><b><font color="#000099">1</font></b></td>
+                    <td width="100" bgcolor="#E6E6E6" class="celda1">
+					<b>
+					<font color="#000099">1</font></b></td>
+                    <td width="100" class="celdacentro"><b><font color="#000099">S<sub>4</sub></font></b></td>
+                  </tr>
+                </table>
+              
+              <br /> 
+			  <form name="ej1">
+			   
+                <div align="center">
+                  <table width="150" border="0" align="center">
+                    <tr>
+                      <td width="100" class="celdacentro" scope="col">&nbsp;</td>
+                      <td width="100" colspan="2" class="celdacentro" scope="col">
+						<b>
+						<font color="#000099">S<sub>1</sub></font></b></td>
+                      <td width="100" class="celdacentro" scope="col">&nbsp;</td>
+                      <td width="100" colspan="2" class="celdacentro" scope="col">
+						<b>
+						<font color="#000099">S<sub>4</sub></font></b></td>
+                    </tr>
+                    <tr>
+                      <td class="celdacentro"><b><font color="#000099">S=</font></b></td>
+                      <td class="celdacentro"><font color="#000099">
+						<select name="select1" id="edit1" >
+                          <option value="0">A</option>
+                          <option value="1">A'</option>
+                          <option selected="selected">-</option>
+                      </select></font></td>
+                      <td class="celdacentro"><font color="#000099">
+						<select name="select2" id="edit2" >
+                          <option value="2">B</option>
+                          <option value="3">B'</option>
+                          <option selected="selected">-</option>
+                      </select></font></td>
+                      <td class="celdacentro"><b><font color="#000099">+</font></b></td>
+                      <td class="celdacentro"><font color="#000099">
+						<select name="select3" id="edit3" >
+                          <option value="0">A</option>
+                          <option value="1">A'</option>
+                          <option selected="selected">-</option>
+                      </select></font></td>
+                      <td class="celdacentro"><font color="#000099">
+						<select name="select4" id="edit4" >
+                          <option value="2">B</option>
+                          <option value="3">B'</option>
+                          <option selected="selected">-</option>
+                      </select></font></td>
+                    </tr>
+                    <tr>
+                      <td class="celdacentro">&nbsp;</td>
+                      <td class="arial2"><span id="ej1_res1"></span></td>
+                      <td class="arial2"><span id="ej1_res2"></span></td>
+                      <td class="celdacentro">&nbsp;</td>
+                      <td class="arial2"><span id="ej1_res3"></span></td>
+                      <td class="arial2"><span id="ej1_res4"></span></td>
+                    </tr>
+                    <tr>
+                      <td class="celdacentro">&nbsp;</td>
+                      <td class="arial2" id="ej1_sol1">&nbsp;</td>
+                      <td class="arial2" id="ej1_sol2">&nbsp;</td>
+                      <td class="celdacentro">&nbsp;</td>
+                      <td class="arial2" id="ej1_sol3">&nbsp;</td>
+                      <td class="arial2" id="ej1_sol4">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td colspan="6" class="celdacentro"><div align="left">
+						<font color="#000099">
+						<input name="solucion" type="hidden" value="1302"  />
+						</font><font color="#000099">
+			<input type="button" value="comprobar" onClick="compruebaEjTabla(this.form,'resultado_1') " ><b>
+						</b>
+			<input name="button" type="reset"  value="Borrar" onClick="borraEjTabla(this.form,'resultado_1')" ><b>
+			<br /><span id= "resultado_1">&nbsp; </span></b></font></div></td>
+                    </tr>
+                  </table>
+                </div>
+			</form>
+			  <p><font color="#000099"><span class="txt"><strong>2.</strong> Indica en el recuadro 
+				cuál es la función lógica representada en la siguiente tabla</span>: 
+				</font> </p>
+			  
+                <table width="150" border="0" align="center">
+                  <tr>
+                    <th width="100" class="celda1" scope="col">
+					<font color="#000099">A</font></th>
+                    <th width="100" class="celda1" scope="col">
+					<font color="#000099">B</font></th>
+                    <th width="100" class="celda1" scope="col">
+					<font color="#000099">S</font></th>
+                    <th width="100" class="arial2" scope="col">&nbsp;</th>
+                  </tr>
+                  <tr>
+                    <td class="celda1"><font color="#000099"><b>0</b></font></td>
+                    <td class="celda1"><font color="#000099"><b>0</b></font></td>
+                    <td class="celda1"><font color="#000099"><b>0</b></font></td>
+                    <td class="celdacentro">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="100" class="celda1"><font color="#000099"><b>0</b></font></td>
+                    <td width="100" class="celda1"><font color="#000099"><b>1</b></font></td>
+                    <td width="100" bgcolor="#E6E6E6" class="celda1">
+					<font color="#000099"><b>1</b></font></td>
+                    <td width="100" class="celdacentro"><font color="#000099">
+					<b>S<sub>3</sub></b></font></td>
+                  </tr>
+                  <tr>
+                    <td width="100" class="celda1"><font color="#000099"><b>1</b></font></td>
+                    <td width="100" class="celda1"><font color="#000099"><b>0</b></font></td>
+                    <td width="100" bgcolor="#E6E6E6" class="celda1">
+					<font color="#000099"><b>1</b></font></td>
+                    <td width="100" class="celdacentro"><font color="#000099">
+					<b>S<sub>3</sub></b></font></td>
+                  </tr>
+                  <tr>
+                    <td width="100" class="celda1"><font color="#000099"><b>1</b></font></td>
+                    <td width="100" class="celda1"><font color="#000099"><b>1</b></font></td>
+                    <td width="100" class="celda1"><font color="#000099"><b>0</b></font></td>
+                    <td width="100" class="celdacentro">&nbsp;</td>
+                  </tr>
+                </table>
+		      
+			  <br />
+			  
+              <form name="ej2">
+                <div align="center">
+                  <table width="150" border="0" align="center">
+                    <tr>
+                      <td width="100" class="celdacentro" scope="col">&nbsp;</td>
+                      <td width="100" colspan="2" class="celdacentro" scope="col">
+						<b><font color="#000099">S<sub>2</sub></font></b></td>
+                      <td width="100" class="celdacentro" scope="col">&nbsp;</td>
+                      <td width="100" colspan="2" class="celdacentro" scope="col">
+						<b><font color="#000099">S<sub>3</sub></font></b></td>
+                    </tr>
+                    <tr>
+                      <td class="celdacentro"><b><font color="#000099">S=</font></b></td>
+                      <td class="celdacentro"><font color="#000099">
+						<select name="select1" id="edit1" >
+                          <option value="0">A</option>
+                          <option value="1">A'</option>
+                          <option selected="selected">-</option>
+                      </select></font></td>
+                      <td class="celdacentro"><font color="#000099">
+						<select name="select2" id="edit2" >
+                          <option value="2">B</option>
+                          <option value="3">B'</option>
+                          <option selected="selected">-</option>
+                      </select></font></td>
+                      <td class="celdacentro"><b><font color="#000099">+</font></b></td>
+                      <td class="celdacentro"><font color="#000099">
+						<select name="select3" id="edit3" >
+                          <option value="0">A</option>
+                          <option value="1">A'</option>
+                          <option selected="selected">-</option>
+                      </select></font></td>
+                      <td class="celdacentro"><font color="#000099">
+						<select name="select4" id="edit4" >
+                          <option value="2">B</option>
+                          <option value="3">B'</option>
+                          <option selected="selected">-</option>
+                      </select></font></td>
+                    </tr>
+                    <tr>
+                      <td class="celdacentro">&nbsp;</td>
+                      <td class="arial2"><span id="ej2_res1"></span></td>
+                      <td class="arial2"><span id="ej2_res2"></span></td>
+                      <td class="celdacentro">&nbsp;</td>
+                      <td class="arial2"><span id="ej2_res3"></span></td>
+                      <td class="arial2"><span id="ej2_res4"></span></td>
+                    </tr>
+                    <tr>
+                      <td class="celdacentro">&nbsp;</td>
+                      <td class="arial2" id="ej2_sol1">&nbsp;</td>
+                      <td class="arial2" id="ej2_sol2">&nbsp;</td>
+                      <td class="celdacentro">&nbsp;</td>
+                      <td class="arial2" id="ej2_sol3">&nbsp;</td>
+                      <td class="arial2" id="ej2_sol4">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td colspan="6" class="celdacentro"><div align="left">
+                        <input name="solucion" type="hidden" value="1203" />
+                          <input name="button" type="button" onClick="compruebaEjTabla(this.form,'resultado_2')" value="comprobar">
+                          <input name="button" type="reset"  value="Borrar" onClick="borraEjTabla(this.form,'resultado_2')">
+                          <br />
+                        <span id= "resultado_2">&nbsp;</span></div></td>
+                    </tr>
+                  </table>
+            
+
+</table>
+
+</body>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/ejercicios/ejercicios4b.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:57:27 GMT -->
+</html>

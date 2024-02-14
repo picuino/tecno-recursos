@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Arduino - Control Panel PC42 - 2. PC42 Control Panel Installation">
+  <title>2. PC42 Control Panel Installation - Control Panel PC42 - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/arduprog/pc42-install.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Index" href="../content.html">
+  <link rel="search" title="Search" href="../search.html">
+  <link rel="next" title="3. Turning the LEDs on and off" href="pc42-led1.html">
+  <link rel="prev" title="1. Introduction to Panel PC42" href="pc42-intro.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="index.html">Arduino</a>/</li>
+        
+          <li><a href="pc42-index.html">Control Panel PC42</a>/</li>
+        
+      <li><span class="section-number">2. </span>PC42 Control Panel Installation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arduprog/pc42-install.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="../contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/arduprog/pc42-install.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="instalacion-del-panel-de-control-pc42">
+<span id="pc42-install"></span><h1><span class="section-number">2. </span>PC42 Control Panel Installation<a class="headerlink" href="#instalacion-del-panel-de-control-pc42" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="objetivos">
+<h2>Goals<a class="headerlink" href="#objetivos" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Connect the PC42 control panel to an Arduino board</li>
+<li>Install the :download:` libraries needed to program the PC42 panel &lt;_downloads/PC42.zip&gt;`</li>
+<li>Install the <a class="reference download internal" download="" href="../_downloads/ardublock-picuino.zip"><code class="xref download docutils literal notranslate"><span class="pre">Ardublock-Picuino</span> <span class="pre">tool</span></code></a> to program with graphics blocks</li>
+<li>Install other <a class="reference download internal" download="" href="../_downloads/arduino-libraries.zip"><code class="xref download docutils literal notranslate"><span class="pre">Arduino</span> <span class="pre">auxiliary</span> <span class="pre">libraries</span></code></a></li>
+</ul>
+</div>
+<div class="section" id="instalacion">
+<h2>Facility<a class="headerlink" href="#instalacion" title="Permalink to this headline">¶</a></h2>
+<p>To install the Picuino PC42 control panel, it is necessary to carry out two operations:</p>
+<ul class="simple">
+<li>Connect the PC42 panel to an Arduino using 4 male-female cables</li>
+<li>Install the PC42 control library</li>
+</ul>
+<p>In addition, the Ardublock block programming tool can be added.</p>
+</div>
+<div class="section" id="conexion-con-arduino-uno">
+<h2>Connection with Arduino UNO<a class="headerlink" href="#conexion-con-arduino-uno" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/img-0088.jpg"><img alt="Conexión Arduino UNO con Panel PC42 r3." class="align-center" src="../_images/img-0088.jpg" style="width: 480px;"></a>
+<p>The necessary connections to communicate the Arduino UNO board with the PC42 panel are listed in the following table:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width:12%;">
+<col style="width:19%;">
+<col style="width:34%;">
+<col style="width:34%;">
+</colgroup>
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">Pin</th>
+<th class="head">Color</th>
+<th class="head">Panel PC42</th>
+<th class="head">Arduino UNO</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td>1</td>
+<td>Blue</td>
+<td>Vdd +5V</td>
+<td>Vdd +5V</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>Blue</td>
+<td>SDA</td>
+<td>A4</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>Blue</td>
+<td>SCL</td>
+<td>TO 5</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>Brown</td>
+<td>GND 0V</td>
+<td>GND 0V</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>The PC42 panel connections are reverse polarity protected, so the panel will not be damaged even if the wires are interchanged. The only connection that can cause permanent damage to the board is a supply above 5 volts, which can be found on the &quot;Vin&quot; pin of the Arduino when powered by an external battery.</p>
+</div>
+<div class="section" id="conexion-con-arduino-nano">
+<h2>Connection with Arduino Nano<a class="headerlink" href="#conexion-con-arduino-nano" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/pc42-r3-to-nano.jpg"><img alt="Conexión Arduino Nano con Panel PC42 r3." class="align-center" src="../_images/pc42-r3-to-nano.jpg" style="width: 480px;"></a>
+<p>The necessary connections to communicate the Arduino Nano board with the PC42 panel are listed in the following table:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width:12%;">
+<col style="width:19%;">
+<col style="width:34%;">
+<col style="width:34%;">
+</colgroup>
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">Pin</th>
+<th class="head">Color</th>
+<th class="head">Panel PC42</th>
+<th class="head">Arduino nano</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td>1</td>
+<td>Blue</td>
+<td>Vdd +5V</td>
+<td>Vdd +5V</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>Blue</td>
+<td>SDA</td>
+<td>A4</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>Blue</td>
+<td>SCL</td>
+<td>TO 5</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>Brown</td>
+<td>GND 0V</td>
+<td>GND 0V</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="instalacion-del-entorno-arduino">
+<h2>Installation of the Arduino environment<a class="headerlink" href="#instalacion-del-entorno-arduino" title="Permalink to this headline">¶</a></h2>
+<p>In order to work with the Arduino board, it is necessary to install the Arduino programming software and the corresponding drivers.</p>
+<p>In the section <a class="reference internal" href="troubleshooting-arduino.html#troubleshooting-arduino"><span class="std std-ref">Arduino troubleshooting</span></a> you can find all the steps to install the Arduino board software and solve the most frequent installation errors.</p>
+</div>
+<div class="section" id="instalacion-de-la-libreria-para-el-panel-pc42">
+<h2>Installation of the library for the PC42 panel<a class="headerlink" href="#instalacion-de-la-libreria-para-el-panel-pc42" title="Permalink to this headline">¶</a></h2>
+<p>In order for the PC42 control panel to work, it is necessary to download and install a library for Arduino.</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Download the PC42 control panel library for Arduino.</p>
+<p><a class="reference download internal" download="" href="../_downloads/PC42.zip"><code class="xref download docutils literal notranslate"><span class="pre">PC42</span> <span class="pre">Library</span> <span class="pre">r3</span></code></a></p>
+</li>
+<li><p class="first">Follow the installation steps described on the next page.</p>
+<p><a class="reference internal" href="add-library.html#add-library"><span class="std std-ref">Add a library to Arduino</span></a></p>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="instalacion-de-ardublock">
+<h2>Ardublock installation<a class="headerlink" href="#instalacion-de-ardublock" title="Permalink to this headline">¶</a></h2>
+<p>Ardublock is a tool for Arduino that allows programming with graphic blocks. It is oriented to make programming easier for inexperienced users, greatly simplifying the task of creating programs with a simple graphical environment.</p>
+<a class="reference internal image-reference" href="../_images/ardublock-1-4-2.png"><img alt="Ardublock Picuino versión 1.4.2." class="align-center" src="../_images/ardublock-1-4-2.png" style="width: 640px;"></a>
+<p>The Ardublock-Picuino version is even simpler than the original Ardublock project and contains the necessary instructions for programming the PC42 control panel.</p>
+<p>To install the latest version of Ardublock-Picuino, follow these steps:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Download the <a class="reference download internal" download="" href="../_downloads/ardublock-picuino.zip"><code class="xref download docutils literal notranslate"><span class="pre">Ardublock-Picuino</span> <span class="pre">tool</span></code></a></p>
+</li>
+<li><p class="first">Copy the file to the Arduino directory. The directory can be found in the Arduino environment, by pressing the menu:</p>
+<p><code class="docutils literal notranslate"><span class="pre">File...</span> <span class="pre">Preferences...</span> <span class="pre">Project</span> <span class="pre">location</span></code>.</p>
+</li>
+<li><p class="first">Unzip the file in the Arduino directory.</p>
+</li>
+<li><p class="first">Close and reopen the Arduino environment. The new tool should appear in the menu:</p>
+<p><code class="docutils literal notranslate"><span class="pre">Tools...</span> <span class="pre">Ardublock</span></code></p>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="instalacion-de-librerias-auxiliares-para-arduino">
+<h2>Installation of auxiliary libraries for Arduino<a class="headerlink" href="#instalacion-de-librerias-auxiliares-para-arduino" title="Permalink to this headline">¶</a></h2>
+<p>These libraries allow the Arduino board to control peripherals such as an LCD display panel or infrared emitters and receivers.</p>
+<p><a class="reference download internal" download="" href="../_downloads/arduino-libraries.zip"><code class="xref download docutils literal notranslate"><span class="pre">Arduino</span> <span class="pre">libraries</span> <span class="pre">archive</span></code></a></p>
+<p>The following libraries can be found together in this package:</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference download internal" download="" href="../_downloads/dht11.zip"><code class="xref download docutils literal notranslate"><span class="pre">dht11</span></code></a> DHT11 humidity and temperature sensor control</li>
+<li><a class="reference download internal" download="" href="../_downloads/IRremote.zip"><code class="xref download docutils literal notranslate"><span class="pre">IRremote</span></code></a> control infrared emitters and receivers</li>
+<li><a class="reference download internal" download="" href="../_downloads/LiquidCrystal.zip"><code class="xref download docutils literal notranslate"><span class="pre">LiquidCrystal</span></code></a> control LCD display panels</li>
+<li><a class="reference download internal" download="" href="../_downloads/NewliquidCrystal.zip"><code class="xref download docutils literal notranslate"><span class="pre">NewliquidCrystal</span></code></a> LCD display panel control</li>
+<li><a class="reference download internal" download="" href="../_downloads/SCoop.zip"><code class="xref download docutils literal notranslate"><span class="pre">SCoop</span></code></a> multitasking programming</li>
+<li><a class="reference download internal" download="" href="../_downloads/SDPlus.zip"><code class="xref download docutils literal notranslate"><span class="pre">SDPlus</span></code></a> SD memory management</li>
+<li><a class="reference download internal" download="" href="../_downloads/makeblock.zip"><code class="xref download docutils literal notranslate"><span class="pre">makeblock</span></code></a> handling Makeblock robots and gadgets</li>
+<li><a class="reference download internal" download="" href="../_downloads/PC42.zip"><code class="xref download docutils literal notranslate"><span class="pre">PC42</span></code></a> handling of the Picuino PC42 control panel</li>
+</ul>
+</div></blockquote>
+<p>To <strong>install all the libraries at once</strong>, follow these steps:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Download the :download:` archive with the libraries for Arduino &lt;_downloads/arduino-libraries.zip&gt;`</p>
+</li>
+<li><p class="first">Copy the file to the Arduino directory. The directory can be found in the Arduino environment, by pressing the menu:</p>
+<p><code class="docutils literal notranslate"><span class="pre">File...</span> <span class="pre">Preferences...</span> <span class="pre">Project</span> <span class="pre">location</span></code>.</p>
+</li>
+<li><p class="first">Unzip the file in the Arduino directory.</p>
+</li>
+<li><p class="first">Close and reopen the Arduino environment. The new libraries should appear in the menu:</p>
+<p><code class="docutils literal notranslate"><span class="pre">Program...</span> <span class="pre">Include</span> <span class="pre">library...</span></code></p>
+</li>
+</ol>
+</div></blockquote>
+<p>To install individual libraries using the Arduino environment, you can read the following link on <a class="reference internal" href="add-library.html#add-library"><span class="std std-ref">how to add a library to the Arduino environment</span></a>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pc42-led1.html" class="btn btn-neutral float-right" title="3. Turning the LEDs on and off" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pc42-intro.html" class="btn btn-neutral" title="1. Introduction to Panel PC42" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="../genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="../content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../es/arduprog/pc42-install.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programming</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuits with Breadboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource-index.html">Resources</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="pc42-index.html">Control Panel PC42</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pc42-intro.html">1. Introduction to Panel PC42</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2. PC42 Control Panel Installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-led1.html">3. Turning the LEDs on and off</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-led2.html">4. LED flashing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key1.html">5. Buttons and States</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key2.html">6. Pushbuttons and Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key3.html">7. Buttons and Counters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-display1.html">8. 7 segment display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-buzzer.html">9. Buzzer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Weevil UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Arduino - Programas - 1. Haiku">
+  <title>1. Haiku - Programas - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/arduprog/prog-haiku.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Índice" href="../content.html">
+  <link rel="search" title="Búsqueda" href="../search.html">
+  <link rel="next" title="2. Simon" href="prog-simon.html">
+  <link rel="prev" title="Programas" href="prog-index.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="index.html">Arduino</a>/</li>
+        
+          <li><a href="prog-index.html">Programas</a>/</li>
+        
+      <li><span class="section-number">1. </span>Haiku</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arduprog/prog-haiku.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="haiku">
+<span id="arduprog-haiku"></span><h1><span class="section-number">1. </span>Haiku<a class="headerlink" href="#haiku" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Programa para generar versos por ordenador.</p>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Ejecutar el siguiente programa en Arduino.
+Para que aparezca la primera estrofa se debe abrir el Monitor Serie.
+Cada vez que se envía un carácter, aparece una estrofa nueva.</p>
+<div class="highlight-arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="cm">/*</span>
+<span class="cm">  Programa para generar poemas con Arduino.</span>
+
+<span class="cm">  Este programa escoge palabras y frases de una base de datos</span>
+<span class="cm">  para generar versos de forma aleatoria.</span>
+
+<span class="cm">  Según se van generando, los versos se envían por el puerto</span>
+<span class="cm">  serie de comunicaciones hacia el ordenador.</span>
+
+<span class="cm">  Al final de cada estrofa, Arduino espera a que se envíe un</span>
+<span class="cm">  dato cualquiera para continuar.</span>
+<span class="cm">  Cuando recibe datos, Arduino devuelve tantas estrofas como</span>
+<span class="cm">  caracteres reciba.</span>
+<span class="cm">*/</span>
+
+<span class="cm">/***********************************************************</span>
+<span class="cm">   Base de datos de palabras y frases</span>
+<span class="cm"> ***********************************************************/</span>
+<span class="kr">const</span> <span class="kr">char</span> <span class="o">*</span><span class="n">palabras</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+   <span class="s">&quot;ESCABULLENDOSE&quot;</span><span class="p">,</span>
+   <span class="s">&quot;PISANDO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;CONTEMPLANDO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;MARCHITO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;ESCULPIDO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;ESCONDIDO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;CONFINADO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;ATORMENTADO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;DOBLANDO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;RETORCIENDO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;GOLPEANDO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;COLGANDO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;ENVOLVIENDO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;TRANSPARENTE&quot;</span><span class="p">,</span>
+   <span class="s">&quot;CANSADO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;HACIA LA TIERRA&quot;</span><span class="p">,</span>
+   <span class="s">&quot;CASACADA&quot;</span><span class="p">,</span>
+   <span class="s">&quot;SACRIFICADOR&quot;</span><span class="p">,</span>
+   <span class="s">&quot;RESBALADIZO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;EN PEDAZOS&quot;</span><span class="p">,</span>
+<span class="p">};</span>
+
+<span class="kr">const</span> <span class="kr">char</span> <span class="o">*</span><span class="n">frases</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+   <span class="s">&quot;EN LA FRIA CORRIENTE&quot;</span><span class="p">,</span>
+   <span class="s">&quot;AJENO A UN MUNDO DE BELLEZA&quot;</span><span class="p">,</span>
+   <span class="s">&quot;OLAS TRANQUILAS&quot;</span><span class="p">,</span>
+   <span class="s">&quot;FUERA, DESDE EL ABISMO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;SOMBRIO, SOMBRIO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;EN LA NEGRURA DE LA OSCURIDAD&quot;</span><span class="p">,</span>
+   <span class="s">&quot;COGI TUS POEMAS&quot;</span><span class="p">,</span>
+   <span class="s">&quot;APAGUE LA LAMPARA&quot;</span><span class="p">,</span>
+   <span class="s">&quot;SE ME CIERRAN LOS OJOS&quot;</span><span class="p">,</span>
+   <span class="s">&quot;AQUELLOS QUE ESTAN A LA IZQUIERDA&quot;</span><span class="p">,</span>
+   <span class="s">&quot;LAS MUJERES DE CIENCIA&quot;</span><span class="p">,</span>
+   <span class="s">&quot;LOS HOMBRES DE ACCION&quot;</span><span class="p">,</span>
+   <span class="s">&quot;ME APRESURO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;POR QUE DESPERDICIARIAS&quot;</span><span class="p">,</span>
+   <span class="s">&quot;CUANDO NOS ENCONTRAREMOS DE NUEVO?&quot;</span><span class="p">,</span>
+   <span class="s">&quot;DURMIENDO UN POCO&quot;</span><span class="p">,</span>
+   <span class="s">&quot;Y CON MUCHA PENA&quot;</span><span class="p">,</span>
+   <span class="s">&quot;POR ESTOS POCOS PASOS&quot;</span><span class="p">,</span>
+   <span class="s">&quot;AHORA, AL ANOCHECER&quot;</span><span class="p">,</span>
+   <span class="s">&quot;HICE PROVECHOSAMENTE&quot;</span><span class="p">,</span>
+<span class="p">};</span>
+
+
+<span class="cm">/***********************************************************</span>
+<span class="cm">   Inicialización y función principal</span>
+<span class="cm"> ***********************************************************/</span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">115200</span><span class="p">);</span>
+   <span class="nf">randomSeed</span><span class="p">(</span><span class="nf">analogRead</span><span class="p">(</span><span class="mi">3</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+
+   <span class="c1">// Elige un tipo de estrofa al azar y la genera</span>
+   <span class="kr">int</span> <span class="n">option</span> <span class="o">=</span> <span class="nf">random</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">option</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>  <span class="n">estrofa_x</span><span class="p">();</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">option</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span>  <span class="n">estrofa_y</span><span class="p">();</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">option</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span>  <span class="n">estrofa_z</span><span class="p">();</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+
+   <span class="c1">// Espera que se envíe un dato por el puerto serie</span>
+   <span class="k">while</span><span class="p">(</span><span class="nf">Serial</span><span class="p">.</span><span class="nf">available</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Lee un carácter y espera un segundo antes de continuar</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">read</span><span class="p">();</span>
+   <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="cm">/***********************************************************</span>
+<span class="cm">   Funciones auxiliares</span>
+<span class="cm"> ***********************************************************/</span>
+
+<span class="c1">// Devuelve una palabra al azar de la base de datos</span>
+<span class="kr">const</span> <span class="kr">char</span> <span class="o">*</span><span class="n">palabra</span><span class="p">()</span> <span class="p">{</span>
+   <span class="k">return</span> <span class="n">palabras</span><span class="p">[</span><span class="nf">random</span><span class="p">(</span><span class="kr">sizeof</span><span class="p">(</span><span class="n">palabras</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)];</span>
+<span class="p">}</span>
+
+<span class="c1">// Devuelve una frase al azar de la base de datos</span>
+<span class="kr">const</span> <span class="kr">char</span> <span class="o">*</span><span class="n">frase</span><span class="p">()</span> <span class="p">{</span>
+   <span class="k">return</span> <span class="n">frases</span><span class="p">[</span><span class="nf">random</span><span class="p">(</span><span class="kr">sizeof</span><span class="p">(</span><span class="n">frases</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)];</span>
+<span class="p">}</span>
+
+<span class="cm">/*</span>
+<span class="cm">   Envía por el puerto serie una estrofa con estilo:</span>
+<span class="cm">   palabra...palabra</span>
+<span class="cm">      ...palabra</span>
+<span class="cm">         frase</span>
+<span class="cm">*/</span>
+<span class="kr">void</span> <span class="n">estrofa_x</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">palabra</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;... &quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">palabra</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;   ...&quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">palabra</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;      &quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">frase</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+<span class="p">}</span>
+
+<span class="cm">/*</span>
+<span class="cm">   Envía por el puerto serie una estrofa con estilo:</span>
+<span class="cm">   frase</span>
+<span class="cm">      frase...</span>
+<span class="cm">         frase</span>
+<span class="cm">*/</span>
+<span class="kr">void</span> <span class="n">estrofa_y</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">frase</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;   &quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">frase</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;...&quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;      &quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">frase</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+<span class="p">}</span>
+
+<span class="cm">/*</span>
+<span class="cm">   Envía por el puerto serie una estrofa con estilo:</span>
+<span class="cm">      palabra</span>
+<span class="cm">   frase</span>
+<span class="cm">   palabra, frase, frase</span>
+<span class="cm">*/</span>
+<span class="kr">void</span> <span class="n">estrofa_z</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;   &quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">palabra</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">frase</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;   &quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">palabra</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;, &quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">frase</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s">&quot;, &quot;</span><span class="p">);</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">frase</span><span class="p">());</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">();</span>        <span class="c1">// Nueva línea</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+<li><p class="first">Modificar el programa anterior con palabras y frases distitintas.</p>
+</li>
+<li><p class="first">Modificar el programa anterior para que las estrofas tengan una
+estructura diferente.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="prog-simon.html" class="btn btn-neutral float-right" title="2. Simon" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="prog-index.html" class="btn btn-neutral" title="Programas" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="../genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="../content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024 por Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en febrero, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../en/arduprog/prog-haiku.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricidad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programación</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuitos con Protoboard</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="prog-index.html">Programas</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">1. Haiku</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prog-simon.html">2. Simon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="prog-timer-control.html">3. Control temporizado</a></li>
+<li class="toctree-l3"><a class="reference internal" href="comm-pc-control.html">4. Control serie de Arduino</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="resource-index.html">Recursos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pc42-index.html">Panel de Control PC42</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Picuino UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

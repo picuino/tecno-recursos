@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Mecánica - FreeCAD - 5. Unión de piezas">
+  <title>5. Unión de piezas - FreeCAD - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/freecad-union.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Índice" href="content.html">
+  <link rel="search" title="Búsqueda" href="search.html">
+  <link rel="next" title="6. Rotación de piezas" href="freecad-rotaciones.html">
+  <link rel="prev" title="4. Tamaño de piezas" href="freecad-tamanios.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="mecan-index.html">Mecánica</a>/</li>
+        
+          <li><a href="freecad-index.html">FreeCAD</a>/</li>
+        
+      <li><span class="section-number">5. </span>Unión de piezas</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/freecad-union.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="union-de-piezas">
+<span id="freecad-union"></span><h1><span class="section-number">5. </span>Unión de piezas<a class="headerlink" href="#union-de-piezas" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En este tutorial vamos a aprender a
+unir piezas para formar un solo objeto compuesto
+por otros más pequeños</p>
+<p><br></p>
+<ol class="arabic">
+<li><p class="first">Abrimos la aplicación <strong>FreeCAD</strong>
+y hacemos clic en el icono para crear un
+<strong>nuevo documento</strong> <img alt="icono-nuevo-documento" class="align-middle" src="_images/freecad-icono-nuevo-documento.png">.</p>
+<p>Seleccionamos el <strong>banco de trabajo Part</strong> para
+comenzar a diseñar objetos en 3 dimensiones.</p>
+<p><br></p>
+</li>
+<li><p class="first">En este punto vamos a añadir los <strong>ejes de referencia</strong> para
+que nos ayuden a situar las piezas correctamente.</p>
+<p>En el menú <code class="docutils literal notranslate"><span class="pre">Ver...</span> <span class="pre">Activar</span> <span class="pre">o</span> <span class="pre">desactivar</span> <span class="pre">cruz</span> <span class="pre">de</span> <span class="pre">los</span> <span class="pre">ejes.</span></code></p>
+<p>En inglés <code class="docutils literal notranslate"><span class="pre">View...</span> <span class="pre">Toggle</span> <span class="pre">axis</span> <span class="pre">cross</span></code></p>
+<img alt="_images/freecad-axis-cross.png" src="_images/freecad-axis-cross.png">
+<p><br></p>
+</li>
+<li><p class="first">Ahora <strong>creamos dos cubos</strong> clicando el primer icono de la barra
+de objetos sólidos.</p>
+<img alt="_images/freecad-barra-solidos.png" src="_images/freecad-barra-solidos.png">
+<p>Seleccionamos ver la pieza en vista isométrica.</p>
+<img alt="_images/freecad-vista-isometrica.png" src="_images/freecad-vista-isometrica.png">
+<p>La pieza se verá como en la siguiente imagen.</p>
+<img alt="_images/freecad-cubo-isometrica.png" src="_images/freecad-cubo-isometrica.png">
+<p><br></p>
+</li>
+<li><p class="first">Seleccionamos el cubo y en la pestaña de <strong>Datos</strong> abrimos el
+menú <strong>Box</strong> donde veremos la <strong>Longitud, Anchura y Altura</strong> del
+cubo (Lenght, Width, Height).</p>
+<p>Modificamos el tamaño de los dos cubos para conseguir la pieza
+que puede verse en la siguiente figura.</p>
+<img alt="_images/freecad-p05-ejemplo01.png" src="_images/freecad-p05-ejemplo01.png">
+<p>Las posiciones y tamaños serán los siguientes.</p>
+<p><strong>Cubo</strong>: x=0, y=0, z=0, Lenght=10, Width=15, Height=15</p>
+<p><strong>Cubo001</strong>: x=10, y=0, z=0, Lenght=10, Width=10, Height=10</p>
+<p><br></p>
+</li>
+<li><p class="first">Ahora vamos a unir las dos piezas creadas.</p>
+<p>Primero seleccionamos los dos cubos clicando sobre ellos mientras
+presionamos la letra <strong>Control</strong></p>
+<img alt="_images/freecad-p05-seleccionar-formas.png" src="_images/freecad-p05-seleccionar-formas.png">
+<p>A continuación clicamos el icono <strong>Hacer unión de varias formas</strong>
+de la barra de herramientas Booleano.</p>
+<img alt="_images/freecad-p05-icono-unir-formas.png" src="_images/freecad-p05-icono-unir-formas.png">
+<p>O bien seleccionamos en el menú <code class="docutils literal notranslate"><span class="pre">Pieza...</span> <span class="pre">Booleano...</span> <span class="pre">Unión</span></code>.</p>
+<p>Se creará una nueva <strong>Fusión</strong> compuesta por las dos piezas
+anteriores.</p>
+<img alt="_images/freecad-p05-piezas-fusionadas.png" src="_images/freecad-p05-piezas-fusionadas.png">
+<p><br></p>
+</li>
+<li><p class="first">El objeto <strong>Fusión</strong> se comportará como un objeto único,
+de manera que si cambiamos su posición, todas sus piezas cambian
+de posición unidas entre sí.</p>
+<p>Prueba a cambiar la posición del objeto <strong>Fusión</strong> para ver como
+se mueve.</p>
+<p>Por ejemplo, cambiando la posición  x = 5, y = 5, z = 0</p>
+<img alt="_images/freecad-p05-ejemplo04.png" src="_images/freecad-p05-ejemplo04.png">
+<p><br></p>
+</li>
+<li><p class="first">Ahora vamos a simplificar las caras del objeto para que parezca
+una sola pieza y no varias piezas unidas.</p>
+<p>Para conseguirlo, <strong>seleccionamos el objeto Fusión</strong>
+En la pestaña Datos, dentro de Boolean, el valor <strong>Refine</strong>
+lo cambiamos a <strong>true</strong></p>
+<img alt="_images/freecad-p05-refine-true.png" src="_images/freecad-p05-refine-true.png">
+<p>Con esta opción cambiada, ahora las distintas piezas se habrán
+unido en un solo sólido.</p>
+<img alt="_images/freecad-p05-ejemplo02.png" src="_images/freecad-p05-ejemplo02.png">
+<img alt="_images/freecad-p05-ejemplo03.png" src="_images/freecad-p05-ejemplo03.png">
+<p>Otra forma de conseguir simplificar las caras del objeto es
+seleccionar todas las piezas y utilizar el menú
+<code class="docutils literal notranslate"><span class="pre">Pieza...</span> <span class="pre">Refinar</span> <span class="pre">la</span> <span class="pre">forma</span></code></p>
+<p><br></p>
+</li>
+<li><p class="first">Si ahora seleccionamos <strong>Fusión</strong> y la borramos
+(tecla Supr o menú <code class="docutils literal notranslate"><span class="pre">Editar...</span> <span class="pre">Borrar</span></code>)
+desaparecerá la unión de las dos piezas, pero las piezas seguirán
+existiendo como elementos separados.</p>
+<p><br></p>
+</li>
+</ol>
+<hr class="docutils">
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Crea la siguiente figura cambiando el tamaño y posición de
+varios cubos.</p>
+<img alt="_images/freecad-p05-ejercicio03.png" src="_images/freecad-p05-ejercicio03.png">
+<p>Las posiciones y tamaños serán los siguientes.</p>
+<p><strong>Cubo</strong>: x=0, y=0, z=0, Lenght=10, Width=20, Height=20</p>
+<p><strong>Cubo001</strong>: x=10, y=0, z=0, Lenght=10, Width=10, Height=10</p>
+<p>Por último combina los diferentes cubos para formar una sola pieza.</p>
+<p><br></p>
+</li>
+<li><p class="first">Crea la siguiente figura cambiando el tamaño y posición de
+varios cubos.</p>
+<img alt="_images/freecad-p05-ejercicio01.png" src="_images/freecad-p05-ejercicio01.png">
+<p>Combina los diferentes cubos para formar una sola pieza.</p>
+<p><br></p>
+</li>
+<li><p class="first">Crea la siguiente figura cambiando el tamaño y posición de
+varios cubos.</p>
+<img alt="_images/freecad-p05-ejercicio02.png" src="_images/freecad-p05-ejercicio02.png">
+<p>Combina los diferentes cubos para formar una sola pieza.</p>
+<p><br></p>
+</li>
+<li><p class="first">Crea la siguiente figura cambiando el tamaño y posición de
+varios cubos.</p>
+<img alt="_images/freecad-p05-ejercicio04.png" src="_images/freecad-p05-ejercicio04.png">
+<p>Combina los diferentes cubos para formar una sola pieza.</p>
+<p><br></p>
+</li>
+<li><p class="first">Crea la siguiente figura cambiando el tamaño y posición de
+varios cubos.</p>
+<img alt="_images/freecad-p05-ejercicio05.png" src="_images/freecad-p05-ejercicio05.png">
+<p>Combina los diferentes cubos para formar una sola pieza.</p>
+<p><br></p>
+</li>
+<li><p class="first">Crea la siguiente figura cambiando el tamaño y posición de
+varios cubos.</p>
+<img alt="_images/freecad-p05-ejercicio06.png" src="_images/freecad-p05-ejercicio06.png">
+<p>Combina los diferentes cubos para formar una sola pieza.</p>
+<p><br></p>
+</li>
+</ol>
+</div>
+<hr class="docutils">
+<div class="section" id="videotutorial">
+<h2>Videotutorial<a class="headerlink" href="#videotutorial" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/embed/mntnhxidqoA" rel="noopener noreferrer" target="_blank">La union hace la fuerza.</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="freecad-rotaciones.html" class="btn btn-neutral float-right" title="6. Rotación de piezas" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="freecad-tamanios.html" class="btn btn-neutral" title="4. Tamaño de piezas" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024 por Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en febrero, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../en/freecad-union.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="mecan-index.html">Mecánica</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="mecan-estructuras-index.html">Estructuras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-maquinas-index.html">Máquinas y Mecanismos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-calibre.html">El Calibre</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="freecad-index.html">FreeCAD</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="freecad-intro.html">1. Introducción a FreeCAD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-visualizacion.html">2. Visualización de piezas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-traslacion.html">3. Traslación de piezas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-tamanios.html">4. Tamaño de piezas</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">5. Unión de piezas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-rotaciones.html">6. Rotación de piezas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-diferencia.html">7. Diferencia de piezas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-cilindros.html">8. Piezas cilíndricas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-chaflanes.html">9. Chaflanes y redondeos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-esferas.html">10. Piezas esféricas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-conos.html">11. Piezas cónicas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-toroides.html">12. Piezas toroidales</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-croquis-extrudir.html">13. Extrusión de croquis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-croquis-anidados.html">14. Extrusión de croquis anidados</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-restricciones.html">15. Croquis con restricciones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-videotutoriales.html">16. Videotutoriales de FreeCAD</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="blockscad-index.html">BlocksCAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-neumatic-intro.html">Neumática</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-origami.html">Papiroflexia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-recursos.html">Recursos para Mecánica</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricidad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

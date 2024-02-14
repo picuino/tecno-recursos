@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="presion1" width=400 height=400
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="nombre" value="presion1">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=s&iacute; limpiar=no">
+   <param name="E_00" value="tipo='R3' id='figuras' O.y='80' despl_imagen='arr-izq' fondo='blanco' R3='s&iacute;'">
+   <param name="E_01" value="tipo='R2' id='E2' ancho='100%' alto='40%' fijo='s&iacute;' escala='30' O.y='30' despl_imagen='arr-izq' fondo='98b0f7a3' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_00" value="id='r1' espacio='E2' tipo='num&eacute;rico' regi&oacute;n='norte' valor='0.5' fijo='s&iacute;' nombre='radio' incr='0.05' min='0.25' max='0.75' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Radio de punta de los apoyos en cm' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Radio de punta de los apoyos en cm' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='n' espacio='figuras' tipo='num&eacute;rico' interfaz='men&uacute;' decimales='0' fijo='s&iacute;' nombre='Elementos' visible='no' opciones='6,9,12,15,18,21' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='N&uacute;mero de apoyos' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='N&uacute;mero de apoyos' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='m' espacio='figuras' tipo='num&eacute;rico' valor='40' fijo='s&iacute;' nombre='masa' incr='5' min='30' max='60' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Masa en kg del elemento superior' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Masa en kg del elemento superior' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_03" value="id='u' espacio='figuras' tipo='num&eacute;rico' interfaz='men&uacute;' regi&oacute;n='norte' fijo='s&iacute;' nombre='unidades' visible='no' opciones='kg/cm2,Pa,Atm,Psi,Bar' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_04" value="id='info' espacio='E2' tipo='num&eacute;rico' interfaz='bot&oacute;n' valor='0.5' fijo='s&iacute;' nombre='info' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Modifica el radio superior de los apoyos, aumenta la masa del cuerpo o modifica el n&uacute;mero de apoyos, y comprueba como se modifica la presi&oacute;n en cada uno. \n' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Modifica el radio superior de los apoyos, aumenta la masa del cuerpo o modifica el n&uacute;mero de apoyos, y comprueba como se modifica la presi&oacute;n en cada uno.\n' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='l' expresi&oacute;n='6'">
+   <param name="A_01" value="id='a' expresi&oacute;n='4'">
+   <param name="A_02" value="id='h' expresi&oacute;n='0.5'">
+   <param name="A_03" value="id='r' expresi&oacute;n='0.5'">
+   <param name="A_04" value="id='g' constante='s&iacute;' expresi&oacute;n='9.81' evaluar='una-sola-vez'">
+   <param name="A_05" value="id='pi' constante='s&iacute;' expresi&oacute;n='3.14' evaluar='una-sola-vez'">
+   <param name="A_06" value="id='P' constante='s&iacute;' expresi&oacute;n='0.02*m*g/((6+n*3)*(pi*r1*r1))' evaluar='siempre'">
+   <param name="A_07" value="id='a8' algoritmo='s&iacute;' evaluar='siempre' hacer='f1.punta= 0.5;f1.longitud = P'">
+   <param name="G_00" value="espacio='E2' tipo='pol&iacute;gono' expresi&oacute;n='(r1/2,0)(1,-1)(-1,-1)(-r1/2,0)(r1/2,0)' ancho='2'">
+   <param name="G_01" value="espacio='E2' tipo='flecha' expresi&oacute;n='(0,0)(0,P)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_02" value="espacio='E2' tipo='texto' color='negro' dibujar-si='u=0' expresi&oacute;n='[200,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;}\f1\fs28 Presion = {\*\mjaformula{\expr m/((6+n*3)*(pi*r1*r1))}} kg/cm2\fs24\par}' fuente='Courier New,PLAIN,14' fijo='s&iacute;'">
+   <param name="G_03" value="espacio='E2' tipo='texto' color='negro' dibujar-si='u=1' expresi&oacute;n='[200,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;}\f1\fs28 Presion = {\*\mjaformula{\expr 9800*m/((6+n*3)*(pi*r1*r1))\decimals 2\fixed0}} Pa\fs24\par}' fuente='Courier New,PLAIN,14' fijo='s&iacute;'">
+   <param name="G_04" value="espacio='E2' tipo='texto' color='negro' dibujar-si='u=2' expresi&oacute;n='[200,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;}\f1\fs28 Presion = {\*\mjaformula{\expr 0.9678*m/((6+n*3)*(pi*r1*r1))}} Atm\fs24\par}' fuente='Courier New,PLAIN,14' fijo='s&iacute;'">
+   <param name="G_05" value="espacio='E2' tipo='texto' color='negro' dibujar-si='u=3' expresi&oacute;n='[200,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;}\f1\fs28 Presion = {\*\mjaformula{\expr 14.223*m/((6+n*3)*(pi*r1*r1))}} Psi\fs24\par}' fuente='Courier New,PLAIN,14' fijo='s&iacute;'">
+   <param name="G_06" value="espacio='E2' tipo='texto' color='negro' dibujar-si='u=4' expresi&oacute;n='[200,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;}\f1\fs28 Presion = {\*\mjaformula{\expr 0.987*m/((6+n*3)*(pi*r1*r1))}} Bar\fs24\par}' fuente='Courier New,PLAIN,14' fijo='s&iacute;'">
+   <param name="G_07" value="espacio='E2' tipo='segmento' color='naranja' expresi&oacute;n='(-35,-1.2)(35,-1.2)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_00" value="espacio='figuras' tipo='paralelep&iacute;pedo' color_reverso='magenta' expresi&oacute;n='Paralelep&iacute;pedo' posini='(0,0,-h/2)' modelo='metal' ancho='a' largo='l' alto='h/2'">
+   <param name="S_01" value="espacio='figuras' tipo='paralelep&iacute;pedo' color='azul' color_reverso='azul' expresi&oacute;n='Paralelep&iacute;pedo' posini='(0,0,h/2+(h+m/80)/2)' ancho='a' largo='l' alto='(h+m/80)'">
+   <param name="S_02" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(0,l/2-r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_03" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(a/2-r,l/2-r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_04" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(-a/2+r,l/2-r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_05" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(-a/2+r,-l/2+r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_06" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(a/2-r,-l/2+r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_07" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(0,-l/2+r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_08" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;0' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(a/2-r,0,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_09" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;0' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(-a/2+r,0,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_10" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;0' expresi&oacute;n='Cono' rotini='(0,180,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_11" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;1' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(a/2-r,l/4-r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_12" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;1' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(-a/2+r,l/4-r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_13" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;1' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(0,l/4-r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_14" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;2' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(a/2-r,-l/4+r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_15" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;2' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(-a/2+r,-l/4+r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_16" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;2' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(0,-l/4+r,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_17" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;3' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(0,l/3-r/2,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_18" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;3' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(-a/2+r,l/3-r/2,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_19" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;3' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(a/2-r,l/3-r/2,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_20" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;4' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(0,-l/3+r/2,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_21" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;4' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(-a/2+r,-l/3+r/2,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+   <param name="S_22" value="espacio='figuras' tipo='cono' color='grisObscuro' color_reverso='grisObscuro' dibujar-si='n&gt;4' expresi&oacute;n='Cono' rotini='(0,180,0)' posini='(a/2-r,-l/3+r/2,0)' modelo='metal' ancho='r' largo='r' alto='h' Nu='4' Nv='4'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

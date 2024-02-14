@@ -1,0 +1,196 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-09-19 15:16+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../source/python-recursividad.rst:9
+msgid "Recursividad"
+msgstr "Recursion"
+
+
+#: ../../source/python-recursividad.rst:10
+msgid ""
+"La recursividad es una técnica de programación que consiste en que una "
+"función se llame a sí misma para resolver un problema. Esta técnica permite "
+"dividir un problema original en subproblemas semejantes pero más sencillos "
+"de solucionar."
+msgstr ""
+"Recursion is a programming technique that involves a function calling itself"
+" to solve a problem. This technique allows an original problem to be divided"
+" into similar but easier to solve subproblems."
+
+
+#: ../../source/python-recursividad.rst:15
+msgid "Una función recursiva se compone de dos partes:"
+msgstr "A recursive function is made up of two parts:"
+
+
+#: ../../source/python-recursividad.rst:17
+msgid "Solución del caso más sencillo o caso base."
+msgstr "Solution of the simplest case or base case."
+
+
+#: ../../source/python-recursividad.rst:19
+msgid ""
+"Si la función tiene como argumento un problema sencillo de resolver, se "
+"resuelve y se devuelve la solución. En este caso la función no se llama a sí"
+" misma."
+msgstr ""
+"If the function has an easy-to-solve problem as an argument, it is solved "
+"and the solution is returned. In this case the function does not call "
+"itself."
+
+
+#: ../../source/python-recursividad.rst:23
+msgid "Solución del caso más elaborado."
+msgstr "Solution of the most elaborate case."
+
+
+#: ../../source/python-recursividad.rst:25
+msgid ""
+"Si la función tiene como argumento un problema difícil de resolver, el "
+"problema se divide en problemas más pequeños y sencillos y se llama a sí "
+"misma para resolverlos."
+msgstr ""
+"If the function takes a hard-to-solve problem as an argument, it breaks the "
+"problem into smaller, easier problems and calls itself to solve them."
+
+
+#: ../../source/python-recursividad.rst:29
+msgid ""
+"Ejemplo de función recursiva para calcular el factorial de un número. El "
+"factorial de un número es la multiplicación de todos los números desde el 1 "
+"hasta el número deseado. Por ejemplo, el factorial de 6 es la multiplicación "
+"de 1 x 2 x 3 x 4 x 5 x 6."
+msgstr ""
+"Example of a recursive function to calculate the factorial of a number. The "
+"factorial of a number is the multiplication of all numbers from 1 to the "
+"desired number. For example, the factorial of 6 is the multiplication of 1 x"
+" 2 x 3 x 4 x 5 x 6."
+
+
+#: ../../source/python-recursividad.rst:34
+msgid ""
+"El siguiente programa calcula el factorial de un número de forma recursiva::"
+msgstr ""
+"The following program calculates the factorial of a number recursively:"
+
+
+#: ../../source/python-recursividad.rst:48
+msgid ""
+"El siguiente programa devuelve una cadena de texto invertida de forma "
+"recursiva::"
+msgstr "The following program returns an inverted text string recursively:"
+
+
+#: ../../source/python-recursividad.rst:61
+
+
+#: ../../source/python-recursividad.rst:87
+
+
+#: ../../source/python-recursividad.rst:106
+
+
+#: ../../source/python-recursividad.rst:137
+msgid "Salida::"
+msgstr "Exit::"
+
+
+#: ../../source/python-recursividad.rst:66
+msgid ""
+"A la hora de programar una función recursiva es importante definir los casos"
+" más sencillos o casos base y asegurarse de que cada llamada recursiva se "
+"acerque al caso base para evitar bucles infinitos."
+msgstr ""
+"When programming a recursive function, it is important to define the "
+"simplest cases or base cases and ensure that each recursive call is close to"
+" the base case to avoid infinite loops."
+
+
+#: ../../source/python-recursividad.rst:70
+msgid ""
+"Algunas estructuras de datos, como las listas enlazadas, los árboles, o los "
+"directorios del disco duro, se pueden definir y manipular de forma recursiva"
+" de manera más simple."
+msgstr ""
+"Some data structures, such as linked lists, trees, or hard disk directories,"
+" can be more simply defined and manipulated recursively."
+
+
+#: ../../source/python-recursividad.rst:76
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../source/python-recursividad.rst:78
+msgid ""
+"Define una función recursiva que convierta una lista de letras en una cadena"
+" de texto única::"
+msgstr ""
+"Defines a recursive function that converts a list of letters into a single "
+"text string::"
+
+
+#: ../../source/python-recursividad.rst:92
+msgid ""
+"Define una función recursiva que cuente hacia atrás desde el número que se "
+"le pase como argumento."
+msgstr ""
+"Defines a recursive function that counts backwards from the number passed as"
+" an argument."
+
+
+#: ../../source/python-recursividad.rst:95
+
+
+#: ../../source/python-recursividad.rst:125
+
+
+#: ../../source/python-recursividad.rst:149
+msgid "Pista::"
+msgstr "Clue::"
+
+
+#: ../../source/python-recursividad.rst:121
+msgid ""
+"Define una función recursiva llamada replicar que reciba dos argumentos "
+"``veces`` y ``numero``. La función debe devolver una lista en la que "
+"aparezca ``numero`` tantas veces como diga la variable ``veces``."
+msgstr ""
+"Defines a recursive function called replicate that takes two arguments "
+"``times`` and ``number``. The function must return a list in which "
+"``number`` appears as many times as the variable ``times`` says."
+
+
+#: ../../source/python-recursividad.rst:142
+msgid ""
+"Define una función recursiva que invierta el orden de los dígitos de un "
+"número sin convertirlo en una cadena."
+msgstr ""
+"Defines a recursive function that reverses the order of the digits of a "
+"number without converting it to a string."
+
+
+#: ../../source/python-recursividad.rst:145
+msgid ""
+"Para obtener el último dígito de un número se puede calcular el módulo 10 "
+"del número. Por ejemplo, 1234 % 10 será igual a 4, el último dígito del "
+"número 1234."
+msgstr ""
+"To obtain the last digit of a number you can calculate the module 10 of the "
+"number. For example, 1234 % 10 will be equal to 4, the last digit of the "
+"number 1234."

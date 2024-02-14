@@ -1,0 +1,291 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-10-25 21:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/uno-doc/uno-display1.rst:7
+#: ../../source/uno-doc/uno-display1.rst:16
+msgid "Display de 7 segmentos"
+msgstr "7 segment display"
+
+#: ../../source/uno-doc/uno-display1.rst:10
+msgid "Objetivos"
+msgstr "Goals"
+
+#: ../../source/uno-doc/uno-display1.rst:11
+msgid "Escribir un número en el display de 7 segmentos."
+msgstr "Write a number on the 7-segment display."
+
+#: ../../source/uno-doc/uno-display1.rst:12
+msgid "Escribir caracteres alfanuméricos en el display de 7 segmentos."
+msgstr "Write alphanumeric characters on the 7-segment display."
+
+#: ../../source/uno-doc/uno-display1.rst:17
+msgid ""
+"El visualizador o display de siete segmentos es un elemento que permite "
+"mostrar números y también símbolos y caracteres de forma limitada. Este "
+"tipo de visualizador se utiliza en las ocasiones donde se desea una buena"
+" visibilidad y tiene la ventaja de ser robusto y fácil de manejar. Los "
+"visualizadores de 7 segmentos se pueden encontrar en reproductores de "
+"audio, hornos microondas, automóviles, relojes, etc."
+msgstr ""
+"The display or display of seven segments is an element that allows to "
+"show numbers and also symbols and characters in a limited way. This type "
+"of display is used where good visibility is desired and has the advantage"
+" of being robust and easy to handle. 7-segment displays can be found in "
+"audio players, microwave ovens, cars, watches, etc."
+
+#: ../../source/uno-doc/uno-display1.rst:25
+msgid ""
+"En este tipo de visualizador solo hay que definir el estado de siete "
+"elementos para formar el número deseado. En otro tipo de displays más "
+"complejos es necesario definir el estado de 35 o más puntos para formar "
+"un número o carácter. La desventaja del display de 7 segmentos está "
+"basada en su poca capacidad para representar letras y símbolos."
+msgstr ""
+"In this type of display, you only have to define the state of seven "
+"elements to form the desired number. In other types of more complex "
+"displays, it is necessary to define the state of 35 or more points to "
+"form a number or character. The disadvantage of the 7-segment display is "
+"based on its poor ability to represent letters and symbols."
+
+#: ../../source/uno-doc/uno-display1.rst:32
+msgid ""
+"En la figura adjunta puede verse un display de 7 segmentos y la "
+"nomenclatura de sus elementos."
+msgstr ""
+"In the attached figure you can see a 7-segment display and the "
+"nomenclature of its elements."
+
+#: ../../source/uno-doc/uno-display1.rst:47
+msgid "La función ``dispWrite``"
+msgstr "The ``dispWrite`` function"
+
+#: ../../source/uno-doc/uno-display1.rst:51
+msgid ""
+"Esta función permite escribir números y caracteres en el visualizador de "
+"siete segmentos y 4 cifras. Dependiendo del número de argumentos y de su "
+"tipo, se comportará de una forma distinta."
+msgstr ""
+"This function allows you to write numbers and characters on the "
+"7-segment, 4-digit display. Depending on the number of arguments and "
+"their type, it will behave differently."
+
+#: ../../source/uno-doc/uno-display1.rst:59
+msgid ""
+"Cuando el argumento de la función ``dispWrite`` es un número natural (0, "
+"1, 2, ...) este número se visualizará con cuatro dígitos en el display. "
+"Si el número tiene menos de cuatro dígitos, el display apaga por la "
+"izquierda los dígitos no utilizados. Si el número es mayor de 9999, solo "
+"se representan los cuatro últimos dígitos."
+msgstr ""
+"When the argument of the ``dispWrite`` function is a natural number (0, "
+"1, 2, ...) this number will be displayed with four digits on the display."
+" If the number has less than four digits, the display turns off the "
+"unused digits on the left. If the number is greater than 9999, only the "
+"last four digits are represented."
+
+#: ../../source/uno-doc/uno-display1.rst:66
+msgid "Estos son algunos ejemplos de visualización."
+msgstr "Here are some display examples."
+
+#: ../../source/uno-doc/uno-display1.rst:77
+msgid ""
+"El ejemplo que aparece a continuación representa en el display un número "
+"que aumenta y disminuye con los pulsadores 3 y 4."
+msgstr ""
+"The example below represents a number on the display that increases and "
+"decreases with buttons 3 and 4."
+
+#: ../../source/uno-doc/uno-display1.rst:114
+msgid "dispWrite(int position, int segments)"
+msgstr "dispWrite(int position, int segments)"
+
+#: ../../source/uno-doc/uno-display1.rst:116
+msgid ""
+"Cuando los argumentos de la función ``dispWrite`` son dos números, el "
+"primero representa la posición del dígito que se desea cambiar y el "
+"segundo representa los segmentos que se desea encender. Las posiciones de"
+" los dígitos son, de izquierda a derecha, 1 2 3 4."
+msgstr ""
+"When the arguments to the ``dispWrite`` function are two numbers, the "
+"first represents the position of the digit to be changed and the second "
+"represents the segments to be turned on. The digit positions are, from "
+"left to right, 1 2 3 4."
+
+#: ../../source/uno-doc/uno-display1.rst:121
+msgid ""
+"Los segmentos de un dígito se encienden o se apagan con un número binario"
+" que representa a cada uno de ellos. El primer dígito binario (más a la "
+"izquierda) representa al segmento 'a'. El segundo dígito binario "
+"representa al segmento 'b' y así hasta el octavo dígito binario que no "
+"representa a ningún segmento."
+msgstr ""
+"The one-digit segments are turned on or off with a binary number "
+"representing each one. The first (leftmost) binary digit represents "
+"segment 'a'. The second binary digit represents segment 'b' and so on up "
+"to the eighth binary digit which does not represent any segment."
+
+#: ../../source/uno-doc/uno-display1.rst:128
+msgid ""
+"Por ejemplo, el número binario 0b10000000 encenderá el segmento 'a' y se "
+"verá en el display de 7 segmentos como una barra superior '¯'. El número "
+"binario 0b01100000 encenderá los segmentos 'b' y 'c' y se verá en el "
+"display de 7 segmentos como el número 1. El número binario 0b00000010 "
+"encenderá el segmento 'g' y se verá en el display de 7 segmentos como el "
+"signo menos '-'."
+msgstr ""
+"For example, the binary number 0b10000000 will turn on segment 'a' and "
+"will be seen on the 7 segment display as a top bar '¯'. The binary number"
+" 0b01100000 will turn on the 'b' and 'c' segments and will be seen on the"
+" 7-segment display as the number 1. The binary number 0b00000010 will "
+"turn on the 'g' segment and will be seen on the 7-segment display as the "
+"sign less '-'."
+
+#: ../../source/uno-doc/uno-display1.rst:136
+msgid ""
+"En ocasiones será más sencillo utilizar los valores ya predefinidos en la"
+" librería. A continuación se muestra una lista con los valores "
+"predefinidos de forma estándar."
+msgstr ""
+"Sometimes it will be easier to use the values ​​already predefined in the"
+" library. Below is a list with the standard predefined values."
+
+#: ../../source/uno-doc/uno-display1.rst:141
+msgid "**Números:** SS_0, SS_1, SS_2, SS_3, SS_4, SS_5, SS_6, SS_7, SS_8, SS_9"
+msgstr "**Numbers:** SS_0, SS_1, SS_2, SS_3, SS_4, SS_5, SS_6, SS_7, SS_8, SS_9"
+
+#: ../../source/uno-doc/uno-display1.rst:143
+msgid ""
+"**Letras:** SS_A, SS_b, SS_B, SS_C, SS_d, SS_E, SS_F, SS_G, SS_g, SS_H, "
+"SS_h, SS_I, SS_i, SS_J, SS_K, SS_L, SS_n, SS_ny, SS_o, SS_O, SS_P, SS_q, "
+"SS_r, SS_S, SS_t, SS_u, SS_U, SS_y, SS_Y, SS_Z"
+msgstr ""
+"**Letters:** SS_A, SS_b, SS_B, SS_C, SS_d, SS_E, SS_F, SS_G, SS_g, SS_H, "
+"SS_h, SS_I, SS_i, SS_J, SS_K, SS_L, SS_n, SS_ny, SS_o, SS_O, SS_P, SS_q, "
+"SS_r, SS_S, SS_t, SS_u, SS_U, SS_y, SS_Y, SS_Z"
+
+#: ../../source/uno-doc/uno-display1.rst:147
+msgid "**Espacio blanco:** SS_SP"
+msgstr "**White Space:** SS_SP"
+
+#: ../../source/uno-doc/uno-display1.rst:149
+msgid "También se pueden crear símbolos a medida."
+msgstr "Custom symbols can also be created."
+
+#: ../../source/uno-doc/uno-display1.rst:151
+msgid ""
+"El siguiente programa hace rotar una barra a través de los cuatro "
+"segmentos superiores de un dígito."
+msgstr ""
+"The following program rotates a bar through the top four segments of a "
+"digit."
+
+#: ../../source/uno-doc/uno-display1.rst:184
+msgid ""
+"El siguiente programa hace rotar una barra a través de todos los "
+"segmentos exteriores de un dígito."
+msgstr ""
+"The following program rotates a bar through all the outer segments of a "
+"digit."
+
+#: ../../source/uno-doc/uno-display1.rst:218
+msgid "dispWrite(int digit, int  digit, int  digit, int  digit)"
+msgstr "dispWrite(int digit, int digit, int digit, int digit)"
+
+#: ../../source/uno-doc/uno-display1.rst:220
+msgid ""
+"Cuando la función ``dispWrite`` tiene cuatro argumentos, cada uno es "
+"interpretado como el valor de cada dígito del visualizador de siete "
+"segmentos. Esta forma es más cómoda para visualizar una palabra. El "
+"siguiente ejemplo hace aparecer en el display la palabra 'HOLA'."
+msgstr ""
+"When the ``dispWrite`` function has four arguments, each one is "
+"interpreted as the value of each digit of the seven-segment display. This"
+" form is more comfortable to visualize a word. The following example "
+"makes the word 'HELLO' appear on the display."
+
+#: ../../source/uno-doc/uno-display1.rst:248
+msgid "Ejercicios"
+msgstr "Exercises"
+
+#: ../../source/uno-doc/uno-display1.rst:250
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+#: ../../source/uno-doc/uno-display1.rst:252
+msgid ""
+"Completar el siguiente programa para que cuente hacia atrás desde 10 "
+"hasta 0 cambiando de valor una vez cada segundo. Una vez terminada la "
+"cuenta atrás, debe encenderse el led rojo."
+msgstr ""
+"Complete the following program so that it counts backwards from 10 to 0, "
+"changing its value once every second. Once the countdown is over, the red"
+" led should light up."
+
+#: ../../source/uno-doc/uno-display1.rst:281
+msgid ""
+"Completar el siguiente programa para que funcione como un dado "
+"electrónico. Al presionar el pulsador 1, se debe mostrar en el display un"
+" número desde el 1 hasta el 6."
+msgstr ""
+"Complete the following program to make it work as an electronic dice. "
+"When pressing button 1, a number from 1 to 6 should be shown on the "
+"display."
+
+#: ../../source/uno-doc/uno-display1.rst:308
+msgid ""
+"Mostrar en el cuarto dígito una animación que consiste en iluminar todos "
+"los segmentos uno a uno desde el segmento 'a' hasta el segmento 'f'. "
+"Cuando todos los segmentos estén iluminados, se deben apagar todos otra "
+"vez y la secuencia comenzará de nuevo. El tiempo de espera entre el "
+"encendido de un segmento y el siguiente será de medio segundo."
+msgstr ""
+"Show in the fourth digit an animation that consists of lighting all the "
+"segments one by one from segment 'a' to segment 'f'. When all segments "
+"are lit, they should all go out again and the sequence will start over. "
+"The waiting time between the lighting of one segment and the next will be"
+" half a second."
+
+#: ../../source/uno-doc/uno-display1.rst:315
+msgid ""
+"Diseña dos símbolos nuevos y realiza un programa que los muestre en el "
+"display en las posiciones 2 y 4."
+msgstr ""
+"Design two new symbols and write a program that shows them on the display"
+" in positions 2 and 4."
+
+#: ../../source/uno-doc/uno-display1.rst:318
+msgid "Dibuja en el display unas pesas."
+msgstr "Draw some weights on the display."
+
+#: ../../source/uno-doc/uno-display1.rst:320
+msgid ""
+"Muestra en el display las palabras 'HOLA' y un nombre propio corto. Las "
+"dos palabras deben alternarse cada medio segundo."
+msgstr ""
+"It shows the words 'HELLO' and a short proper name on the display. The "
+"two words must alternate every half second."
+
+#: ../../source/uno-doc/uno-display1.rst:323
+msgid ""
+"Realiza una animación original en el display, mostrando símbolos o "
+"movimientos de luz."
+msgstr ""
+"Make an original animation on the display, showing symbols or light "
+"movements."
+

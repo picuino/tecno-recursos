@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="valvula32m" width=400 height=400
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="valvula32m">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=s&iacute; limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='s&iacute;' O.x='20' despl_imagen='arr-izq' fondo='faffff' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no' sensible_a_los_movimientos_del_rat&oacute;n='s&iacute;'">
+   <param name="C_00" value="id='g1' tipo='gr&aacute;fico' color='azul' color-int='rojo' expresi&oacute;n='(-4.5,0)' constricci&oacute;n='y=0' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='inf' tipo='num&eacute;rico' interfaz='bot&oacute;n' fijo='s&iacute;' nombre='info' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Pulsa con el bot&oacute;n izquierdo del rat&oacute;n sobre el punto rojo para hacer funcionar la v&aacute;lvula. &iquest;Qu&eacute; sucede cuando dejas de pulsar?' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='rec' tipo='num&eacute;rico' interfaz='bot&oacute;n' fijo='s&iacute;' nombre='recuerda' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='En la posici&oacute;n inicial, est&aacute;n comunicadas las v&iacute;as 2 y 3, circulando el fluido en ese sentido.\nAl pilotar la v&aacute;lvula ponemos en contacto la v&iacute;a 1 con la 3, circulando el fluido en este sentido. \nCuando dejamos de pulsar la v&aacute;lvula, el resorte comprimido la devuelve a su posici&oacute;n original' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='ac' constante='s&iacute;' expresi&oacute;n='2' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='lc' constante='s&iacute;' expresi&oacute;n='0.3' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='am' constante='s&iacute;' expresi&oacute;n='0.25' evaluar='una-sola-vez'">
+   <param name="A_03" value="id='pm' constante='s&iacute;' expresi&oacute;n='-g1.x/16' evaluar='siempre'">
+   <param name="A_04" value="id='e5' evento='s&iacute;' condici&oacute;n='g1.x&gt;=-3.5' acci&oacute;n='calcular' par&aacute;metro='g1.x=-3.5;vf=1' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="A_05" value="id='e6' evento='s&iacute;' condici&oacute;n='g1.x&lt;-4.5' acci&oacute;n='calcular' par&aacute;metro='g1.x=-4.5;vf=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="A_06" value="id='e7' evento='s&iacute;' condici&oacute;n='(clic_izquierdo=0)&amp;(g1.x&gt;-4.5)' acci&oacute;n='calcular' par&aacute;metro='g1.x=-4.5' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="A_07" value="id='e8' evento='s&iacute;' condici&oacute;n='(clic_izquierdo=1)&amp;(g1.x=-4.5)' acci&oacute;n='calcular' par&aacute;metro='g1.x=-3.5' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="A_08" value="id='vf' constante='s&iacute;' expresi&oacute;n='0' evaluar='siempre'">
+   <param name="G_00" value="tipo='pol&iacute;gono' color='verde' expresi&oacute;n='(g1.x+5,1)(2.5,1)(2.5,0.7)(3,0.7)(3,-0.7)(2.5,-0.7)(2.5,-1)(1.5,-1)(1.5,-2)(1,-2)(1,-1)(g1.x+5,-1)(g1.x+5,1)' relleno='verde'">
+   <param name="G_01" value="tipo='pol&iacute;gono' color='amarillo' expresi&oacute;n='(-2.25,1)(g1.x+4.5,1)(g1.x+4.5,-1)(0,-1)(0,-2)(-0.5,-2)(-0.5,-1)(-2.25,-1)(-2.25,1)' relleno='magenta' ancho='0'">
+   <param name="G_02" value="tipo='pol&iacute;gono' expresi&oacute;n='(g1.x+2.5,1)(g1.x+2.5,-1)(g1.x+3,-1)(g1.x+3,-lc)(g1.x+ac+2.5,-lc)(g1.x+ac+2.5,-1)(g1.x+ac+3,-1)(g1.x+ac+3,1)(g1.x+ac+2.5,1)(g1.x+ac+2.5,lc)(g1.x+3,lc)(g1.x+3,1)(g1.x+2.5,1)' relleno='azul' ancho='2'">
+   <param name="G_03" value="tipo='segmento' color='negro' expresi&oacute;n='(g1.x+ac+3,0)(g1.x+ac+3+pm,2*am)(g1.x+ac+3+2*pm,-2*am)(g1.x+ac+3+3*pm,2*am)(g1.x+ac+3+4*pm,-2*am)(g1.x+ac+3+5*pm,2*am)(g1.x+ac+3+6*pm,-2*am)(g1.x+ac+3+7*pm,2*am)(3,0)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='4' ancho='3'">
+   <param name="G_04" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-3,0.25)(-3,2)(0.5,2)(0.5,1)(-2.2,1)(-2.2,0.25)(-3,0.25)' relleno='rojo' ancho='2'">
+   <param name="G_05" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-3,-0.25)(-3,-2)(-0.5,-2)(-0.5,-1)(-2.2,-1)(-2.2,-0.25)(-3,-0.25)' relleno='rojo' ancho='2'">
+   <param name="G_06" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(0,-1)(1,-1)(1,-2)(0,-2)(0,-1)' relleno='rojo' ancho='2'">
+   <param name="G_07" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(1,1)(2.5,1)(2.5,0.7)(3,0.7)(3,-0.7)(2.5,-0.7)(2.5,-1)(2.5,-1)(1.5,-1)(1.5,-2)(3.5,-2)(3.5,2)(1,2)(1,1)' relleno='rojo' ancho='2'">
+   <param name="G_08" value="tipo='arco' color='gris' centro='(g1.x+0.5,0)' radio='0.5' inicio='90' fin='270' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' relleno='turquesa' ancho='2'">
+   <param name="G_09" value="tipo='pol&iacute;gono' color='gris' expresi&oacute;n='(g1.x+0.5,0.5)(g1.x+0.5,0.25)(g1.x+2.5,0.25)(g1.x+2.5,-0.25)(g1.x+0.5,-0.25)(g1.x+0.5,-0.5)(g1.x+0.5,0.5)' relleno='turquesa' ancho='2'">
+   <param name="G_10" value="tipo='pol&iacute;gono' color='verde' dibujar-si='g1.x&lt;-3.6' expresi&oacute;n='(0.5,1)(1,1)(1,2)(0.5,2)(0.5,1)' relleno='verde'">
+   <param name="G_11" value="tipo='pol&iacute;gono' color='magenta' dibujar-si='g1.x&gt;-3.6' expresi&oacute;n='(0.5,1)(1,1)(1,2)(0.5,2)(0.5,1)' relleno='magenta'">
+   <param name="G_12" value="tipo='flecha' color='negro' dibujar-si='g1.x&lt;-3.7' expresi&oacute;n='(0.75,3)(0.75,2.25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='verde'">
+   <param name="G_13" value="tipo='flecha' color='negro' expresi&oacute;n='(1.25,-2.25)(1.25,-3)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='verde'">
+   <param name="G_14" value="tipo='flecha' color='negro' dibujar-si='g1.x&gt;-3.6' expresi&oacute;n='(0.75,2.25)(0.75,3)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='magenta'">
+   <param name="G_15" value="tipo='flecha' color='negro' expresi&oacute;n='(-0.25,-3)(-0.25,-2.25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='magenta'">
+   <param name="G_16" value="tipo='texto' color='negro' expresi&oacute;n='[246,80]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs36\b 2\f2\fs24\b0\par}' fuente='Arial,BOLD,18' fijo='s&iacute;'">
+   <param name="G_17" value="tipo='texto' color='negro' expresi&oacute;n='[198,275]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs44\b 1\f2\fs24\b0\par}' fuente='Arial,BOLD,22' fijo='s&iacute;'">
+   <param name="G_18" value="tipo='texto' color='negro' expresi&oacute;n='[270,270]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs44\b 3\f2\fs24\par}' fuente='Arial,BOLD,22' fijo='s&iacute;'">
+   <param name="G_19" value="tipo='imagen' dibujar-si='clic_izquierdo=0' expresi&oacute;n='(-4.5,3.8)' archivo='imagenes/val32c.jpg'">
+   <param name="G_20" value="tipo='imagen' dibujar-si='clic_izquierdo=1' expresi&oacute;n='(-3.5,3.85)' archivo='imagenes/val32a.jpg'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

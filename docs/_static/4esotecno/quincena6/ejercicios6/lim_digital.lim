@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lim version="3.30">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>14</tipo>
+              <cabeceira>Relaciona los símbolos IES y US de las puertas lógicas AND, OR y Not</cabeceira>
+              <peza imaxe="120px-Logic-gate-and-iec.png" texto="" son="">120px-Logic-gate-and-us.png</peza>
+              <peza imaxe="120px-Logic-gate-or-iec.png" texto="" son="">120px-Logic-gate-or-us.png</peza>
+              <peza imaxe="120px-Logic-gate-inv-iec.png" texto="" son="">120px-Logic-gate-inv-us.png</peza>
+              <cfondo>FFFFFF</cfondo>
+        </paxina>
+        <paxina id="2" >
+              <tipo>18</tipo>
+              <cabeceira>Escribe el nombre de la puerta correspondiente a cada operación:</cabeceira>
+              <modo>1</modo>
+              <completa ant="Suma S=A+B " post="">OR</completa>
+              <completa ant="Producto S=A·B " post="">AND</completa>
+              <completa ant="Negación S=A&apos; " post="">NOT</completa>
+        </paxina>
+        <paxina id="3" >
+              <tipo>11</tipo>
+              <cabeceira>Relaciona cada puerta con su tabla de verdad correspondiente</cabeceira>
+              <modo>3</modo>
+              <cousa nome="AND">taboa_and.png</cousa>
+              <cousa nome="OR">taboa_or.png</cousa>
+              <cousa nome="NOT">taboa_not.png</cousa>
+              <cousa nome="NAND">taboa_nand.png</cousa>
+              <cousa nome="NOR">taboa_nor.png</cousa>
+        </paxina>
+        <paxina id="4" >
+              <tipo>14</tipo>
+            <nonpasar atras="1" >0</nonpasar>
+              <cfondo>FFFFFF</cfondo>
+        </paxina>
+    </libro>
+</lim>

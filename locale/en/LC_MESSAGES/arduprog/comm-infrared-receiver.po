@@ -1,0 +1,195 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:13
+msgid "Receptor de infrarrojos"
+msgstr "Infrared receiver"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:17
+msgid "Librería IRremote"
+msgstr "IRremote Library"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:18
+msgid ""
+"La librería IRremote añade a Arduino la capacidad para manejar tanto "
+"emisores como receptores de control remoto por infrarrojos con los "
+"protocolos más habituales."
+msgstr ""
+"The IRremote library adds to Arduino the ability to handle both infrared "
+"remote control transmitters and receivers with the most common protocols."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:22
+msgid ""
+":download:`Descarga directa de la librería IRremote "
+"<_downloads/IRremote.zip>`"
+msgstr ""
+":download:`Direct download of the IRremote library "
+"<_downloads/IRremote.zip>`"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:25
+msgid ""
+"`Página de GitHub de la librería IRremote "
+"<https://github.com/shirriff/Arduino-IRremote>`_"
+msgstr ""
+"`IRremote library GitHub page <https://github.com/shirriff/Arduino-"
+"IRremote>`_"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:32
+msgid ""
+":ref:`Cómo añadir una nueva librería al entorno Arduino paso a paso. <add-"
+"library>`"
+msgstr ""
+":ref:`How to add a new library to the Arduino environment step by step. "
+"<add-library>`"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:37
+msgid "Conexión"
+msgstr "Connection"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:46
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:47
+msgid "Compila y carga el siguiente programa en Arduino."
+msgstr "Compile and upload the following program to the Arduino."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:49
+msgid ""
+"Una vez cargado, abre el monitor serie y cambia la velocidad de recepción de"
+" datos para que sea igual a la velocidad de transmisión del programa."
+msgstr ""
+"Once loaded, open the serial monitor and change the data reception speed to "
+"be equal to the transmission speed of the program."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:53
+msgid ""
+"Pulsa varias teclas del mando a distancia. Los códigos de las teclas "
+"aparecerán en el monitor serie y en el display de 7 segmentos."
+msgstr ""
+"Press various keys on the remote control. The key codes will appear on the "
+"serial monitor and on the 7-segment display."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:122
+msgid ""
+"Modifica el programa anterior para que se encienda el led D1 cuando se "
+"presione el número 1 en el mando a distancia."
+msgstr ""
+"Modify the previous program so that led D1 lights up when number 1 is "
+"pressed on the remote control."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:125
+msgid ""
+"A continuación aparece un ejemplo incompleto de código para realizar la "
+"tarea."
+msgstr "Below is an incomplete example of code to accomplish the task."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:137
+msgid ""
+"Modifica el programa anterior para que se apaguen todos los leds cuando se "
+"presione el botón cero '0'."
+msgstr ""
+"Modify the previous program so that all the leds turn off when the zero "
+"button '0' is pressed."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:141
+msgid ""
+"Modifica el primer programa para que se encienda y apague una columna de "
+"leds con los botones '+' y '-' del mando a distancia."
+msgstr ""
+"Modify the first program so that a column of LEDs turns on and off with the "
+"'+' and '-' buttons on the remote control."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:144
+msgid ""
+"Al pulsar '+' del mando a distancia se encenderá un nuevo led de la columna."
+" Según se presiona '+' se irán encendiendo uno a uno todos los leds. Al "
+"presionar '-' del mando a distancia se apagará el último led. Según se "
+"presione '-' se irán apagando uno a uno todos los leds."
+msgstr ""
+"Pressing '+' on the remote control will light up a new led on the column. As"
+" '+' is pressed, all the leds will light up one by one. Pressing '-' on the "
+"remote control will turn off the last led. As '-' is pressed, all the leds "
+"will go off one by one."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:150
+msgid ""
+"Para programar el código es necesario crear una variable que contará el "
+"número de leds que deben encenderse. Esa variable se incrementará o "
+"decrementará con las pulsaciones del mando. Una instrucción para cada led "
+"comprobará si la variable es mayor que cierto valor, encenderá el led. En "
+"caso contrario apagará el led."
+msgstr ""
+"To program the code it is necessary to create a variable that will count the"
+" number of leds that must be turned on. That variable will increase or "
+"decrease with the pushes of the knob. An instruction for each led will check"
+" if the variable is greater than a certain value, it will turn the led on. "
+"Otherwise it will turn off the led."
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:158
+msgid "Antes del bloque  ``setup()``:"
+msgstr "Before the ``setup()`` block:"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:165
+msgid ""
+"Dentro del bloque ``loop()``, se debe incrementar y decrementar la variable "
+"dependiendo del código recibido del mando a distancia:"
+msgstr ""
+"Inside the ``loop()`` block, the variable must be incremented and "
+"decremented depending on the code received from the remote:"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:174
+msgid ""
+"A continuación se deben encender o apagar los leds dependiendo del valor de "
+"la variable:"
+msgstr ""
+"Next, the leds must be turned on or off depending on the value of the "
+"variable:"
+
+
+#: ../../es/arduprog/comm-infrared-receiver.rst:186
+msgid ""
+"Modifica el ejercicio anterior para que la variable no aumente más que el "
+"número total de leds y que no disminuya por debajo de cero. Se añadirán dos "
+"condiciones, una condición limitará la variable si aumenta demasiado y otra "
+"condición limitará la variable si se reduce por debajo de cero"
+msgstr ""
+"Modify the previous exercise so that the variable does not increase more "
+"than the total number of leds and does not decrease below zero. Two "
+"conditions will be added, one condition will limit the variable if it "
+"increases too much and another condition will limit the variable if it "
+"decreases below zero"

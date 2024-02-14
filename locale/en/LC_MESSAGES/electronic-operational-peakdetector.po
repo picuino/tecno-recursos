@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-25 17:54+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-operational-peakdetector.rst:9
+msgid "El detector de pico"
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:10
+msgid ""
+"El detector de pico es un circuito que mantiene en su salida el valor de "
+"pico de tensión que se encuentra en la entrada. Está compuesto por un "
+"rectificador de precisión de media onda y por un filtro RC a la salida, "
+"que memoriza el mayor nivel de tensión de la salida del rectificador."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:21
+msgid "Esquema del detector de pico."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:25
+msgid "Funcionamiento"
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:26
+msgid ""
+"El diodo a la salida del amplificador operacional impide que este pueda "
+"entregar corriente negativa. Como el operacional solo podrá entregar "
+"tensión y corriente positivas, el condensador de salida subirá de tensión"
+" hasta igualar la máxima tensión de entrada y mantendrá esta tensión."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:31
+msgid ""
+"La resistencia de 10k hará que el condensador se descargue poco a poco y "
+"que su tensión tienda a valer cero voltios."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:34
+msgid ""
+"De esta manera la tensión máxima de entrada, o valor de pico, se "
+"almacenará por un tiempo en el condensador, que poco a poco va a perder "
+"esa tensión máxima para adaptarse a otros picos de menor tensión que "
+"lleguen más tarde."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:40
+msgid "Simulación"
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:41
+msgid ""
+"En la siguiente simulación podemos ver un **detector de pico** al que le "
+"llega una tensión alterna de amplitud modulada. La tensión máxima de "
+"entrada se refleja en el valor de salida del circuito."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:53
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:55
+msgid "Dibuja el esquema de un detector de pico."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:57
+msgid "¿Qué tipo de realimentación tiene el detector de pico y por qué?"
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:59
+msgid "¿Qué función realiza un circuito detector de pico?"
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:61
+msgid "¿Qué ganancia de tensión tendrá un detector de pico y por qué?"
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:63
+msgid ""
+"Modifica la simulación anterior del detector de pico para hacer un "
+"circuito demodulador:"
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:66
+msgid ""
+"Aumenta la frecuencia de la señal portadora de Amplitud Modulada hasta "
+"1000 Hz."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:69
+msgid ""
+"Disminuye el valor del condensador hasta que la señal de salida sea igual"
+" a la envolvente de la señal de entrada."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:72
+msgid ""
+"Dibuja un gráfico de la tensión de entrada y otro gráfico con la tensión "
+"de salida."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:75
+msgid ""
+"¿Qué ocurre si cambiamos el sentido del diodo? Simula el cambio para "
+"comprobar el nuevo funcionamiento."
+msgstr ""
+
+#: ../../source/electronic-operational-peakdetector.rst:78
+msgid "¿Cómo podríamos denominar a este nuevo circuito?"
+msgstr ""
+

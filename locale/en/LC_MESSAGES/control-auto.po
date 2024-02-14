@@ -1,0 +1,708 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/control-auto.rst:9
+msgid "Control Automático"
+msgstr "Automatic control"
+
+
+#: ../../es/control-auto.rst:11
+msgid ""
+"Los controladores o reguladores automáticos forman parte de muchos de los "
+"dispositivos que nos rodean, aunque no seamos conscientes de ello."
+msgstr ""
+"Controllers or automatic regulators are part of many of the devices that "
+"surround us, although we are not aware of it."
+
+
+#: ../../es/control-auto.rst:15
+msgid ""
+"Podemos encontrar ejemplos de controladores en el termostato de la "
+"calefacción o del aire acondicionado, en el control de temperatura del horno"
+" o de la nevera, en el regulador de nivel de luz, en la dirección asistida "
+"de los automóviles, el sistema de parada en un piso de los ascensores o, "
+"incluso, en el sistema de llenado de agua de la cisterna del inodoro. Allí "
+"donde una velocidad, un movimiento, temperatura, presión o nivel se "
+"mantienen regulados, hay un controlador que realiza este trabajo."
+msgstr ""
+"We can find examples of controllers in the heating or air conditioning "
+"thermostat, in the oven or refrigerator temperature control, in the light "
+"level regulator, in the power steering of automobiles, the stop system in a "
+"elevator floors or even in the water filling system of the toilet cistern. "
+"Where a speed, movement, temperature, pressure or level are kept regulated, "
+"there is a controller that does this job."
+
+
+#: ../../es/control-auto.rst:24
+msgid ""
+"Para referirse a este tipo de sistemas se utiliza la denominación de "
+"controladores automáticos o reguladores automáticos."
+msgstr ""
+"To refer to this type of system, the name of automatic controllers or "
+"automatic regulators is used."
+
+
+#: ../../es/control-auto.rst:27
+msgid ""
+"En esta página se van a revisar los diferentes componentes de un sistema de "
+"control automático y los diferentes tipos de control que existen, de lazo "
+"abierto y de lazo cerrado."
+msgstr ""
+"On this page we will review the different components of an automatic control"
+" system and the different types of control that exist, open loop and closed "
+"loop."
+
+
+#: ../../es/control-auto.rst:33
+msgid "Elementos de un sistema de control en lazo abierto"
+msgstr "Elements of an open loop control system"
+
+
+#: ../../es/control-auto.rst:34
+msgid ""
+"En la siguiente imagen se muestra un esquema del sistema de control más "
+"sencillo, el control de lazo abierto."
+msgstr ""
+"The following image shows a diagram of the simplest control system, open "
+"loop control."
+
+
+#: ../../es/control-auto.rst:42
+msgid "En este esquema se pueden reconocer cuatro bloques:"
+msgstr "Four blocks can be recognized in this scheme:"
+
+
+#: ../../es/control-auto.rst:45
+msgid "Consigna"
+msgstr "Locker"
+
+
+#: ../../es/control-auto.rst:47
+msgid ""
+"Es la parte del sistema que describe lo que deseamos obtener del "
+"controlador."
+msgstr ""
+"It is the part of the system that describes what we want to get from the "
+"controller."
+
+
+#: ../../es/control-auto.rst:50
+msgid ""
+"Por ejemplo, una consigna puede ser un mando manual en el que seleccionamos "
+"un tiempo de funcionamiento de 2 minutos en un microondas. Otro ejemplo "
+"sería el mando con el que seleccionamos la potencia de calentamiento que "
+"deseamos obtener en una vitrocerámica al cocinar."
+msgstr ""
+"For example, a setpoint can be a manual control in which we select a "
+"2-minute operating time in a microwave. Another example would be the control"
+" with which we select the heating power that we want to obtain in a ceramic "
+"hob when cooking."
+
+
+#: ../../es/control-auto.rst:55
+msgid "Controlador"
+msgstr "Controller"
+
+
+#: ../../es/control-auto.rst:57
+msgid ""
+"Se encarga de recibir una señal de consigna o señal de referencia y "
+"convertirla en una señal que consiga que el sistema alcance la referencia "
+"deseada."
+msgstr ""
+"It is in charge of receiving a setpoint signal or reference signal and "
+"converting it into a signal that allows the system to reach the desired "
+"reference."
+
+
+#: ../../es/control-auto.rst:61
+msgid ""
+"Un ejemplo de controlador es un temporizador que enciende y apaga el horno "
+"microondas cada pocos segundos para controlar su potencia."
+msgstr ""
+"An example of a controller is a timer that turns the microwave oven on and "
+"off every few seconds to control its power."
+
+
+#: ../../es/control-auto.rst:63
+msgid "Accionador"
+msgstr "Actuator"
+
+
+#: ../../es/control-auto.rst:65
+msgid ""
+"Es el encargado de convertir la señal de control, que tiene poca potencia, "
+"en una acción sobre el sistema, con mayor potencia."
+msgstr ""
+"It is in charge of converting the control signal, which has little power, "
+"into an action on the system, with greater power."
+
+
+#: ../../es/control-auto.rst:69
+msgid ""
+"Volviendo al ejemplo del horno eléctrico, el accionador será la resistencia "
+"calefactora y el sistema de potencia que la enciende. En el caso de un "
+"servomecanismo, el accionador será el conjunto de transistores y el motor "
+"que mueven el mecanismo."
+msgstr ""
+"Returning to the example of the electric oven, the actuator will be the "
+"heating resistor and the power system that turns it on. In the case of a "
+"servomechanism, the actuator will be the set of transistors and the motor "
+"that move the mechanism."
+
+
+#: ../../es/control-auto.rst:73
+msgid "Sistema"
+msgstr "System"
+
+
+#: ../../es/control-auto.rst:75
+msgid ""
+"También llamado en ocasiones planta, es aquello que se desea controlar."
+msgstr "Also sometimes called a plant, it is what you want to control."
+
+
+#: ../../es/control-auto.rst:78
+msgid ""
+"En un horno el sistema será la caja del horno en la que se desea controlar "
+"la temperatura. En el caso de un servomecanismo, el sistema será el motor y "
+"la caja reductora cuya posición se desea controlar."
+msgstr ""
+"In an oven, the system will be the oven box in which you want to control the"
+" temperature. In the case of a servomechanism, the system will be the motor "
+"and the gearbox whose position is to be controlled."
+
+
+#: ../../es/control-auto.rst:84
+msgid ""
+"En ocasiones la consigna, el controlador o el accionador no tienen límites "
+"bien definidos o no existen en algún sistema. En cualquier caso es "
+"interesante conocer estos elementos a la hora de identificar las diferentes "
+"partes de un sistema de control."
+msgstr ""
+"Sometimes the setpoint, the controller or the actuator do not have well-"
+"defined limits or do not exist in any system. In any case, it is interesting"
+" to know these elements when identifying the different parts of a control "
+"system."
+
+
+#: ../../es/control-auto.rst:91
+msgid "Ejemplos de sistemas de control en lazo abierto"
+msgstr "Examples of open loop control systems"
+
+
+#: ../../es/control-auto.rst:93
+msgid ""
+"Podemos encontrar ejemplos de sistemas de control en lazo abierto en "
+"múltiples dispositivos de nuestro entorno."
+msgstr ""
+"We can find examples of open-loop control systems in multiple devices in our"
+" environment."
+
+
+#: ../../es/control-auto.rst:108
+msgid "Control de potencia de un horno microondas"
+msgstr "Power control of a microwave oven"
+
+
+#: ../../es/control-auto.rst:97
+msgid ""
+"La **consigna** es el mando giratorio con el que seleccionamos el tiempo de "
+"encendido."
+msgstr ""
+"The **setpoint** is the rotary control with which we select the ignition "
+"time."
+
+
+#: ../../es/control-auto.rst:100
+msgid ""
+"El **controlador** está formado por un temporizador que enciende el horno y "
+"lo apaga al terminar el tiempo consignado."
+msgstr ""
+"The **controller** consists of a timer that turns the oven on and turns it "
+"off at the end of the set time."
+
+
+#: ../../es/control-auto.rst:103
+msgid ""
+"El **accionador** es un `magnetrón "
+"<https://es.wikipedia.org/wiki/Magnetr%C3%B3n>`__ que produce las microondas"
+" que calientan la leche."
+msgstr ""
+"The **actuator** is a `magnetron "
+"<https://es.wikipedia.org/wiki/Magnetr%C3%B3n>`__ that produces the "
+"microwaves that heat the milk."
+
+
+#: ../../es/control-auto.rst:107
+msgid ""
+"El **sistema** será, por ejemplo, el vaso de leche que se calienta en el "
+"interior del horno."
+msgstr ""
+"The **system** will be, for example, the glass of milk that is heated inside"
+" the oven."
+
+
+#: ../../es/control-auto.rst:121
+msgid "Control de potencia de un calentador eléctrico de aire"
+msgstr "Power control of an electric air heater"
+
+
+#: ../../es/control-auto.rst:111
+msgid ""
+"La **consigna** es el mando que giramos para conseguir una potencia media o "
+"potencia completa."
+msgstr ""
+"The **setpoint** is the knob that we turn to achieve half power or full "
+"power."
+
+
+#: ../../es/control-auto.rst:114
+msgid ""
+"El **controlador** es el interruptor que selecciona entre una o dos "
+"resistencias calefactoras."
+msgstr ""
+"The **controller** is the switch that selects between one or two heating "
+"resistors."
+
+
+#: ../../es/control-auto.rst:117
+msgid ""
+"El **accionador** está formado por las resistencias calefactoras y el "
+"ventilador."
+msgstr "The **actuator** is made up of the heating resistors and the fan."
+
+
+#: ../../es/control-auto.rst:120
+msgid ""
+"El **sistema** es la habitación calentada por el aire caliente del "
+"calefactor."
+msgstr "The **system** is the room heated by the hot air from the heater."
+
+
+#: ../../es/control-auto.rst:135
+msgid "Control de intensidad de luz"
+msgstr "Control of light intensity"
+
+
+#: ../../es/control-auto.rst:124
+msgid ""
+"La **consigna** es el `potenciómetro "
+"<https://es.wikipedia.org/wiki/Potenci%C3%B3metro>`__ o resistencia variable"
+" que se gira para conseguir mayor o menor luminosidad."
+msgstr ""
+"The **setpoint** is the `potentiometer "
+"<https://es.wikipedia.org/wiki/Potenci%C3%B3metro>`__ or variable resistor "
+"that is turned to get more or less light."
+
+
+#: ../../es/control-auto.rst:129
+msgid ""
+"El **controlador** es un circuito electrónico que decide cuanto tiempo "
+"estará conectada la lámpara varias veces por segundo."
+msgstr ""
+"The **controller** is an electronic circuit that decides how long the lamp "
+"will be on several times per second."
+
+
+#: ../../es/control-auto.rst:132
+msgid ""
+"El **accionador** es un circuito electrónico de potencia y la lámpara que "
+"produce luz."
+msgstr ""
+"The **driver** is an electronic power circuit and the lamp that produces "
+"light."
+
+
+#: ../../es/control-auto.rst:135
+msgid "El **sistema** es la habitación con más o menos iluminación."
+msgstr "The **system** is the room with more or less lighting."
+
+
+#: ../../es/control-auto.rst:144
+msgid "Control de nivel de sonido en un equipo de audio"
+msgstr "Sound level control in audio equipment"
+
+
+#: ../../es/control-auto.rst:138
+msgid ""
+"La **consigna** es el potenciómetro que se mueve para conseguir mayor o "
+"menor nivel de sonido."
+msgstr ""
+"The **setpoint** is the potentiometer that moves to achieve a higher or "
+"lower sound level."
+
+
+#: ../../es/control-auto.rst:141
+msgid ""
+"El **accionador** es el amplificador y los altavoces del equipo de música."
+msgstr "The **actuator** is the amplifier and speakers of the stereo."
+
+
+#: ../../es/control-auto.rst:144
+msgid "El **sistema** es la habitación y el nivel de sonido que se consigue."
+msgstr "The **system** is the room and the sound level that is achieved."
+
+
+#: ../../es/control-auto.rst:146
+msgid ""
+"Uno de los controladores en lazo abierto más habituales es el "
+"**temporizador**. Este se puede encontrar en múltiples dispositivos como "
+"encendido temporizado de las luces de escalera de un edificio, apagado "
+"automático de escaleras automáticas, temporizador de un horno microondas, "
+"etc."
+msgstr ""
+"One of the most common open-loop controllers is the **timer**. This can be "
+"found in multiple devices such as timed switching on of building staircase "
+"lights, automatic switching off of escalators, microwave oven timer, etc."
+
+
+#: ../../es/control-auto.rst:152
+msgid ""
+"En los sistemas en lazo abierto se puede controlar que el sistema reciba del"
+" accionador más o menos potencia, pero no se puede controlar con exactitud "
+"el punto en el que se encontrará el sistema controlado."
+msgstr ""
+"In open-loop systems, it is possible to control whether the system receives "
+"more or less power from the actuator, but it is not possible to control "
+"exactly the point at which the controlled system will be found."
+
+
+#: ../../es/control-auto.rst:156
+msgid ""
+"En el caso del horno microondas, por ejemplo, no podemos estar seguros de la"
+" temperatura que alcanzará la leche en su interior. Tampoco con el "
+"calentador eléctrico de aire podemos conocer con exactitud la temperatura "
+"que alcanzará la habitación. En ambos casos el resultado final dependerá del"
+" tamaño del vaso o de la habitación, de la temperatura ambiente, del "
+"aislamiento, de la potencia total del calentador, etc."
+msgstr ""
+"In the case of the microwave oven, for example, we cannot be sure of the "
+"temperature that the milk will reach inside. Neither with the electric air "
+"heater can we know exactly the temperature that the room will reach. In both"
+" cases, the final result will depend on the size of the glass or the room, "
+"the ambient temperature, the insulation, the total power of the heater, etc."
+
+
+#: ../../es/control-auto.rst:164
+msgid ""
+"Esta desventaja de los sistemas en lazo abierto no impide que se utilicen "
+"con mucha frecuencia por su gran sencillez y por ser muy robustos."
+msgstr ""
+"This disadvantage of open-loop systems does not prevent them from being used"
+" frequently due to their great simplicity and because they are very robust."
+
+
+#: ../../es/control-auto.rst:169
+msgid "Elementos de un sistema de control en lazo cerrado"
+msgstr "Elements of a closed-loop control system"
+
+
+#: ../../es/control-auto.rst:171
+msgid ""
+"En la siguiente imagen se muestra un esquema de un sistema de control en "
+"lazo cerrado."
+msgstr ""
+"The following image shows a schematic of a closed-loop control system."
+
+
+#: ../../es/control-auto.rst:179
+msgid ""
+"Este tipo de sistema de control soluciona el problema de los sistemas en "
+"lazo abierto, que dependen del accionador, de las condiciones ambientales, "
+"etc. El nombre de lazo cerrado proviene de la señal del sensor que vuelve al"
+" controlador, cerrando el lazo de control. Los elementos del sistema de "
+"control en lazo cerrado son los mismos que los elementos del sistema de "
+"control en lazo abierto con dos añadidos:"
+msgstr ""
+"This type of control system solves the problem of open-loop systems, which "
+"depend on the actuator, environmental conditions, etc. The closed loop name "
+"comes from the sensor signal that returns to the controller, closing the "
+"control loop. The elements of the closed-loop control system are the same as"
+" the elements of the open-loop control system with two additions:"
+
+
+#: ../../es/control-auto.rst:188
+msgid "Sensor"
+msgstr "Sensor"
+
+
+#: ../../es/control-auto.rst:190
+msgid ""
+"El sensor mide el estado o variable a controlar en el sistema (posición, "
+"temperatura, humedad, etc.) Esto permite conocer el estado del sistema y "
+"corregir las desviaciones para que se pueda conseguir el estado deseado."
+msgstr ""
+"The sensor measures the state or variable to be controlled in the system "
+"(position, temperature, humidity, etc.). This allows knowing the state of "
+"the system and correcting deviations so that the desired state can be "
+"achieved."
+
+
+#: ../../es/control-auto.rst:195
+msgid ""
+"Por ejemplo, en un frigorífico, el sensor de temperatura detecta la "
+"temperatura interior para apagar el motor cuando hace demasiado frio y "
+"encender el motor si la temperatura sube demasiado."
+msgstr ""
+"For example, in a refrigerator, the temperature sensor detects the inside "
+"temperature to turn off the motor when it is too cold and start the motor if"
+" the temperature gets too high."
+
+
+#: ../../es/control-auto.rst:198
+msgid "Comparador"
+msgstr "Comparator"
+
+
+#: ../../es/control-auto.rst:200
+msgid ""
+"Este elemento está representado por un círculo en el esquema. Su función es "
+"comparar la señal de referencia r que proviene de la consigna y la señal de "
+"realimentación h que proviene del sensor y calcular el error e que existe "
+"entre la respuesta deseada y el estado real del sistema."
+msgstr ""
+"This element is represented by a circle in the schematic. Its function is to"
+" compare the reference signal r that comes from the reference and the "
+"feedback signal h that comes from the sensor and calculate the error e that "
+"exists between the desired response and the real state of the system."
+
+
+#: ../../es/control-auto.rst:206
+msgid ""
+"A partir de ese error se puede conseguir llevar al sistema al estado "
+"deseado, que es el que dicta la consigna."
+msgstr ""
+"From this error it is possible to get the system to the desired state, which"
+" is the one dictated by the instructions."
+
+
+#: ../../es/control-auto.rst:209
+msgid ""
+"Este tipo de control conseguirá que el sistema se encuentre en el estado "
+"deseado independientemente de las condiciones ambientales."
+msgstr ""
+"This type of control will ensure that the system is in the desired state "
+"regardless of environmental conditions."
+
+
+#: ../../es/control-auto.rst:212
+msgid "Las señales del sistema de control son las siguientes:"
+msgstr "The control system signals are as follows:"
+
+
+#: ../../es/control-auto.rst:215
+msgid "Señal"
+msgstr "Sign"
+
+
+#: ../../es/control-auto.rst:215
+msgid "Nombre"
+msgstr "Name"
+
+
+#: ../../es/control-auto.rst:215
+msgid "Función"
+msgstr "Function"
+
+
+#: ../../es/control-auto.rst:217
+msgid "**r**"
+msgstr "**r**"
+
+
+#: ../../es/control-auto.rst:217
+msgid "**Referencia**"
+msgstr "**Reference**"
+
+
+#: ../../es/control-auto.rst:217
+msgid "Es el estado que se desea alcanzar en el sistema."
+msgstr "It is the state that you want to reach in the system."
+
+
+#: ../../es/control-auto.rst:219
+msgid "**e**"
+msgstr "**and**"
+
+
+#: ../../es/control-auto.rst:219
+msgid "**Error**"
+msgstr "**Mistake**"
+
+
+#: ../../es/control-auto.rst:219
+msgid ""
+"Es la diferencia entre el estado deseado y el estado real del sistema a "
+"controlar."
+msgstr ""
+"It is the difference between the desired state and the actual state of the "
+"system to be controlled."
+
+
+#: ../../es/control-auto.rst:221
+msgid "**c**"
+msgstr "**c**"
+
+
+#: ../../es/control-auto.rst:221
+msgid "**Control**"
+msgstr "**Control**"
+
+
+#: ../../es/control-auto.rst:221
+msgid "Es la señal que genera el controlador."
+msgstr "It is the signal generated by the controller."
+
+
+#: ../../es/control-auto.rst:222
+msgid "**u**"
+msgstr "**or**"
+
+
+#: ../../es/control-auto.rst:222
+msgid "**Accionamiento**"
+msgstr "**Drive**"
+
+
+#: ../../es/control-auto.rst:222
+msgid "Es la acción que se ejerce sobre el sistema para controlarle."
+msgstr "It is the action that is exerted on the system to control it."
+
+
+#: ../../es/control-auto.rst:224
+msgid "**y**"
+msgstr "**and**"
+
+
+#: ../../es/control-auto.rst:224
+msgid "**Salida**"
+msgstr "**Exit**"
+
+
+#: ../../es/control-auto.rst:224
+msgid "Es el estado real que ha alcanzado el sistema a controlar."
+msgstr "It is the actual state that the system to be controlled has reached."
+
+
+#: ../../es/control-auto.rst:226
+msgid "**h**"
+msgstr "**h**"
+
+
+#: ../../es/control-auto.rst:226
+msgid "**Realimentación**"
+msgstr "**Feedback**"
+
+
+#: ../../es/control-auto.rst:226
+msgid "Es la medida del estado del sistema."
+msgstr "It is the measure of the state of the system."
+
+
+#: ../../es/control-auto.rst:231
+msgid "Ejemplos de sistemas de control en lazo cerrado"
+msgstr "Examples of closed-loop control systems"
+
+
+#: ../../es/control-auto.rst:233
+msgid ""
+"Al igual que en el caso de los controladores en lazo abierto, también "
+"existen múltiples aparatos cotidianos que tienen sistemas de control en lazo"
+" cerrado. Estos se caracterizan por tener un sensor que permite medir el "
+"estado del sistema y controlarle con precisión."
+msgstr ""
+"As in the case of open-loop controllers, there are also many everyday "
+"devices that have closed-loop control systems. These are characterized by "
+"having a sensor that allows to measure the state of the system and control "
+"it with precision."
+
+
+#: ../../es/control-auto.rst:238
+msgid "Control de temperatura de un **frigorífico**."
+msgstr "Temperature control of a **refrigerator**."
+
+
+#: ../../es/control-auto.rst:240
+msgid "Control de temperatura en un **horno eléctrico**."
+msgstr "Temperature control in an **electric oven**."
+
+
+#: ../../es/control-auto.rst:242
+msgid "Control de llenado de agua de una **cisterna** del inodoro."
+msgstr "Water filling control of a **cistern** of the toilet."
+
+
+#: ../../es/control-auto.rst:244
+msgid "**Dirección asistida** de un automóvil o de un camión."
+msgstr "**Power steering** of a car or truck."
+
+
+#: ../../es/control-auto.rst:246
+msgid "Control de posición de un **servomecanismo**."
+msgstr "Position control of a **servomechanism**."
+
+
+#: ../../es/control-auto.rst:248
+msgid "Sistema de marcha y parada en cada piso de un **ascensor**."
+msgstr "Start and stop system on each floor of an **elevator**."
+
+
+#: ../../es/control-auto.rst:250
+msgid ""
+"Control de apertura de una **puerta automática**, que se abre reaccionando a"
+" la presencia de alguien."
+msgstr ""
+"Opening control of an **automatic door**, which opens in response to the "
+"presence of someone."
+
+
+#: ../../es/control-auto.rst:261
+msgid "Referencias"
+msgstr "References"
+
+
+#: ../../es/control-auto.rst:263
+msgid ""
+"Wikipedia: `Sistema de control "
+"<https://es.wikipedia.org/wiki/Sistema_de_control>`_"
+msgstr ""
+"Wikipedia: `Control system <https://es.wikipedia.org/wiki/Control_system>`_"
+
+
+#: ../../es/control-auto.rst:266
+msgid "Wikipedia: `Servomotor <https://es.wikipedia.org/wiki/Servomotor>`_"
+msgstr "Wikipedia: `Servomotor <https://es.wikipedia.org/wiki/Servomotor>`_"
+
+
+#: ../../es/control-auto.rst:269
+msgid ""
+"[1] Ogata, Katsuhiko. Ingeniería de Control Moderna. Tercera edición. "
+"Editorial Prentice Hall."
+msgstr ""
+"[1] Ogata, Katsuhiko. Modern Control Engineering. Third edition. Prentice "
+"Hall Publisher."
+
+
+#: ../../es/control-auto.rst:272
+msgid ""
+"[2] Ogata, Katsuhiko. Sistemas de control en tiempo discreto. Segunda "
+"edición. Editorial Prentice Hall."
+msgstr ""
+"[2] Ogata, Katsuhiko. Control systems in discrete time. Second edition. "
+"Prentice Hall Publisher."

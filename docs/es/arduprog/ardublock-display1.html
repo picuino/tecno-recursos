@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Arduino - Ardublock - 5. Ejercicios con display">
+  <title>5. Ejercicios con display - Ardublock - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/arduprog/ardublock-display1.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Índice" href="../content.html">
+  <link rel="search" title="Búsqueda" href="../search.html">
+  <link rel="next" title="6. Ejercicios con el zumbador" href="ardublock-buzzer1.html">
+  <link rel="prev" title="4. Ejercicios con pulsadores" href="ardublock-key1.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="index.html">Arduino</a>/</li>
+        
+          <li><a href="ardublock-index.html">Ardublock</a>/</li>
+        
+      <li><span class="section-number">5. </span>Ejercicios con display</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arduprog/ardublock-display1.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="ejercicios-con-display">
+<span id="ardublock-display1"></span><h1><span class="section-number">5. </span>Ejercicios con display<a class="headerlink" href="#ejercicios-con-display" title="Enlazar permanentemente con este título">¶</a></h1>
+<a class="reference internal image-reference" href="../_images/img-0092.jpg"><img alt="Display de 7 segmentos y 4 dígitos. Vista superior." class="align-center" src="../_images/img-0092.jpg" style="width: 300px;"></a>
+<p>Programar los bloques necesarios para resolver los siguientes
+problemas.</p>
+<ol class="arabic">
+<li><p class="first"><strong>Hola mundo</strong>.
+El siguiente programa saluda escribiendo HOLA en el display.
+Modificar el programa para que aparezcan dos palabras.
+Primero aparecerá la palabra HOLA durante un segundo.
+Después aparecerá un nombre propio durante otro segundo.
+Ejemplos: PEPE, LOLA, JUAn, ISA, LUCA, YAGO, BEA, HUGO,
+PEPA, SAUL, EnAr, ALAn, SArA, GArY, etc.
+Al finalizar, el ciclo se repetirá de nuevo</p>
+<a class="reference internal image-reference" href="../_images/ardublock-display01.png"><img alt="Programa Ardublock. Escribe HOLA en el display." src="../_images/ardublock-display01.png" style="width: 456px;"></a>
+</li>
+<li><p class="first"><strong>Palabras deslizantes.</strong>
+Modificar el siguiente programa para que aparezcan dos palabras
+deslizándose hacia la izquierda.</p>
+<a class="reference internal image-reference" href="../_images/ardublock-display02.png"><img alt="Programa Ardublock. Escribe HOLA deslizando en el display." src="../_images/ardublock-display02.png" style="width: 466px;"></a>
+</li>
+<li><p class="first"><strong>Cuenta atrás.</strong>
+El siguiente programa realiza una cuenta atrás desde 10 segundos
+hasta cero. Al finalizar la cuenta se enciende el led rojo.
+Modificar el programa para que cuente hacia atrás durante
+10 segundos en décimas de segundo.</p>
+<a class="reference internal image-reference" href="../_images/ardublock-display03.png"><img alt="Programa Ardublock. Cuenta atrás en el display." src="../_images/ardublock-display03.png" style="width: 585px;"></a>
+</li>
+<li><p class="first"><strong>Dado electrónico.</strong>
+El siguiente programa debe mostrar en el display
+números del 1 al 6 mientras se presiona el pulsador 1.
+Al terminar de presionar el pulsador 1,
+se mantendrá fijo en el display un número del 1 al 6.
+Completar la subrutina display para que muestre todas las
+cifras del 1 al 6.</p>
+<a class="reference internal image-reference" href="../_images/ardublock-display04.png"><img alt="Programa Ardublock. Dado electrónico." src="../_images/ardublock-display04.png" style="width: 583px;"></a>
+</li>
+<li><p class="first">Modificar el programa anterior para que también muestre
+otro dado electrónico en la posición 4 al presionar el
+pulsador 4.</p>
+</li>
+<li><p class="first"><strong>Contador alienígena.</strong>
+Este programa hace aparecer en el display una simulación
+de contador con símbolos extraños que simulan otro sistema
+de numeración.
+En ocasiones también parece que el display está estropeado.</p>
+<a class="reference internal image-reference" href="../_images/ardublock-display05.png"><img alt="Programa Ardublock. Contador alienígena." src="../_images/ardublock-display05.png" style="width: 812px;"></a>
+</li>
+</ol>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ardublock-buzzer1.html" class="btn btn-neutral float-right" title="6. Ejercicios con el zumbador" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ardublock-key1.html" class="btn btn-neutral" title="4. Ejercicios con pulsadores" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="../genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="../content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024 por Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en febrero, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../en/arduprog/ardublock-display1.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricidad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programación</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuitos con Protoboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource-index.html">Recursos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pc42-index.html">Panel de Control PC42</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="ardublock-index.html">Ardublock</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ardublock-intro.html">1. Introducción a Ardublock</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ardublock-led1.html">2. Ejercicios con led, encendido y apagado</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ardublock-led2.html">3. Ejercicios con led, parpadeo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ardublock-key1.html">4. Ejercicios con pulsadores</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">5. Ejercicios con display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ardublock-buzzer1.html">6. Ejercicios con el zumbador</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Picuino UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

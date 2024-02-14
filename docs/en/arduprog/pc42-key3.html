@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Arduino - Control Panel PC42 - 7. Buttons and Counters">
+  <title>7. Buttons and Counters - Control Panel PC42 - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/arduprog/pc42-key3.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Index" href="../content.html">
+  <link rel="search" title="Search" href="../search.html">
+  <link rel="next" title="8. 7 segment display" href="pc42-display1.html">
+  <link rel="prev" title="6. Pushbuttons and Events" href="pc42-key2.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="index.html">Arduino</a>/</li>
+        
+          <li><a href="pc42-index.html">Control Panel PC42</a>/</li>
+        
+      <li><span class="section-number">7. </span>Buttons and Counters</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arduprog/pc42-key3.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="../contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/arduprog/pc42-key3.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pulsadores-y-contadores">
+<span id="pc42-key3"></span><h1><span class="section-number">7. </span>Buttons and Counters<a class="headerlink" href="#pulsadores-y-contadores" title="Permalink to this headline">¶</a></h1>
+<a class="reference internal image-reference" href="../_images/img-0095.jpg"><img alt="Pulsador." class="align-center" src="../_images/img-0095.jpg" style="width: 300px;"></a>
+<div class="section" id="objetivos">
+<h2>Goals<a class="headerlink" href="#objetivos" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Read the time and pulsation counters associated with a button.</li>
+<li>Perform actions associated with time counters.</li>
+</ul>
+</div>
+<div class="section" id="la-funcion-keycount">
+<h2>The <a class="reference internal" href="#_CPPv48keyCounti" title="keyCount"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">keyCount()</span></code></a> function<a class="headerlink" href="#la-funcion-keycount" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv48keyCounti">
+<span id="_CPPv38keyCounti"></span><span id="_CPPv28keyCounti"></span><span id="keyCount__i"></span>int <code class="descname">keyCount</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48keyCounti" title="Permalink to this definition">¶</a><br></dt>
+<dd><p>This function returns the number of times a button has been pressed. The value is incremented by one immediately after the push button is pressed. If the button is held down for more than half a second, the pulse counter is increased by 10 pulses per second. If the button is held down for more than two seconds, the pulse counter is incremented by 100 pulses per second. The counter increment times and frequencies can be changed in the keyboard settings.</p>
+<p><code class="docutils literal notranslate"><span class="pre">keyNum</span></code>: número del 1 al 6 que representa al pulsador
+del que se solicita su valor. El valor 0 representa a todos los pulsadores juntos.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="la-funcion-keytimeon">
+<h2>The <a class="reference internal" href="#_CPPv49keyTimeOni" title="keyTimeOn"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">keyTimeOn()</span></code></a> function<a class="headerlink" href="#la-funcion-keytimeon" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv49keyTimeOni">
+<span id="_CPPv39keyTimeOni"></span><span id="_CPPv29keyTimeOni"></span><span id="keyTimeOn__i"></span>int <code class="descname">keyTimeOn</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49keyTimeOni" title="Permalink to this definition">¶</a><br></dt>
+<dd><p>This function returns the time in milliseconds that the button has been pressed. The maximum time you can count is 65 seconds. From that moment no more time is counted and the returned result is always the same.</p>
+<p><code class="docutils literal notranslate"><span class="pre">keyNum</span></code>: número del 1 al 6 que representa al pulsador
+del que se solicita su valor. El valor 0 representa a todos los pulsadores juntos.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="la-funcion-keytimeoff">
+<h2>The <a class="reference internal" href="#_CPPv410keyTimeOffi" title="keyTimeOff"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">keyTimeOff()</span></code></a> function<a class="headerlink" href="#la-funcion-keytimeoff" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv410keyTimeOffi">
+<span id="_CPPv310keyTimeOffi"></span><span id="_CPPv210keyTimeOffi"></span><span id="keyTimeOff__i"></span>int <code class="descname">keyTimeOff</code><span class="sig-paren">(</span>int <em>keyNum</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410keyTimeOffi" title="Permalink to this definition">¶</a><br></dt>
+<dd><p>This function returns the time in milliseconds that the button has not been pressed. The maximum time you can count is 65 seconds. From that moment no more time is counted and the returned result is always the same.</p>
+<p><code class="docutils literal notranslate"><span class="pre">keyNum</span></code>: número del 1 al 6 que representa al pulsador
+del que se solicita su valor. El valor 0 representa a todos los pulsadores juntos.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<p>Program the code needed to solve the following problems.</p>
+<ol class="arabic">
+<li><p class="first">The following program moves a led to the right when button 2 is pressed. Modify the program so that the led also moves to the left when button 1 is pressed.</p>
+<div class="highlight-Arduino notranslate" id="button-keycount-right"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Mueve una luz a la derecha con el pulsador 2 (Right)</span>
+<span class="c1">// El programa utiliza la función keyCount()</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">int</span> <span class="n">led</span><span class="p">,</span> <span class="n">count</span><span class="p">;</span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>             <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">led</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>                <span class="c1">// Enciende primero el led D1</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+
+   <span class="c1">// Mueve a la derecha con la tecla derecha</span>
+
+   <span class="c1">// Lee el número de pulsaciones del pulsador &#39;derecha&#39;</span>
+   <span class="n">count</span> <span class="o">=</span> <span class="n">pc</span><span class="p">.</span><span class="n">keyCount</span><span class="p">(</span><span class="n">KEY_RIGHT</span><span class="p">);</span>
+
+   <span class="c1">// Si el número de pulsaciones es mayor que cero</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+
+      <span class="c1">// Apaga el led actual</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>
+
+      <span class="c1">// Incrementa la posición del led</span>
+      <span class="n">led</span> <span class="o">=</span> <span class="n">led</span> <span class="o">+</span> <span class="n">count</span><span class="p">;</span>
+
+      <span class="c1">// Si la posición del led es mayor que 6</span>
+      <span class="c1">// vuelve a la posición 1</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">led</span> <span class="o">&gt;</span> <span class="mi">6</span><span class="p">)</span> <span class="n">led</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+
+      <span class="c1">// Enciende el led en la nueva posición</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+<li><p class="first">The following program is a game to check the ability to tell time. Push button 1 must be pressed for exactly three seconds. The display shows the time error in milliseconds. If less time has been pressed, the number displayed will be negative. In case of pressing for more than three seconds, the displayed number will be positive. The player closest to zero wins.</p>
+<p><strong>Modify</strong> the program so that led D1 blinks once per second before starting the game. Once button 1 is pressed, LED 1 must go off so as not to give clues about the time the button must be pressed.</p>
+<div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Juego de medida de tiempo.</span>
+<span class="c1">// Gana el jugador que más se acerque a presionar el pulsador 1</span>
+<span class="c1">// exactamente 3 segundos, y consiga así menor error.</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>   <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="kr">int</span> <span class="n">time</span><span class="p">,</span> <span class="n">points</span><span class="p">;</span>
+
+   <span class="c1">// Espera hasta que se presione el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Espera hasta que se deje de presionar el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">);</span>
+
+   <span class="c1">// Lee el tiempo que ha estado presionado el pulsador 1</span>
+   <span class="n">time</span> <span class="o">=</span> <span class="n">pc</span><span class="p">.</span><span class="n">keyTimeOn</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+
+   <span class="c1">// Calcula la puntuación = milisegundos de error</span>
+   <span class="n">points</span> <span class="o">=</span> <span class="n">time</span> <span class="o">-</span> <span class="mi">3000</span><span class="p">;</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">points</span> <span class="o">&gt;</span> <span class="mi">999</span><span class="p">)</span> <span class="n">points</span> <span class="o">=</span> <span class="mi">999</span><span class="p">;</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">points</span> <span class="o">&lt;</span> <span class="mi">-999</span><span class="p">)</span> <span class="n">points</span> <span class="o">=</span> <span class="mi">-999</span><span class="p">;</span>
+
+   <span class="c1">// Muestra la puntuación por el display</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="nf">abs</span><span class="p">(</span><span class="n">points</span><span class="p">));</span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">points</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">dispWrite</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mh">0x40</span><span class="p">);</span>  <span class="c1">// Signo menos</span>
+   <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+<li><p class="first">Modify the program that appears below, similar to the previous one. In this game the score will be higher if a button is pressed for the same time twice in a row. First the program must measure the time that button 1 has been pressed, then it must wait until it is not pressed. Finally, the second time that the button is pressed will be measured.</p>
+<div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Juego de medida de tiempo. Versión de dos jugadores.</span>
+<span class="c1">//</span>
+<span class="c1">// El primer jugador presiona el pulsador 1 durante un tiempo.</span>
+<span class="c1">// En el display se muestra el tiempo presionado en milisegundos.</span>
+<span class="c1">//</span>
+<span class="c1">// El segundo jugador debe presionar el pulsador 1 exactamente el mismo tiempo.</span>
+<span class="c1">// El display muestra al final la diferencia entre los dos tiempos.</span>
+<span class="c1">// Gana el jugador que menos diferencia consiga.</span>
+<span class="c1">//</span>
+<span class="c1">// Para comenzar un nuevo intento se debe presionar el pulsador 1</span>
+<span class="c1">// más de 2 segundos</span>
+<span class="c1">//</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">int</span> <span class="n">time1</span><span class="p">,</span> <span class="n">time2</span><span class="p">;</span>
+<span class="kr">int</span> <span class="n">points</span><span class="p">;</span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>  <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="c1">// Comienza parpadeando el led D1</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledBlink</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">500</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+
+   <span class="c1">// Espera hasta que se presione el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Cuenta el tiempo que está presionado el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+     <span class="n">time1</span> <span class="o">=</span> <span class="n">pc</span><span class="p">.</span><span class="n">keyTimeOn</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+     <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="n">time1</span><span class="p">);</span>
+   <span class="p">}</span>
+
+   <span class="c1">// Espera hasta que se presione el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+
+   <span class="c1">// Cuenta el tiempo que está presionado el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">time2</span> <span class="o">=</span> <span class="n">pc</span><span class="p">.</span><span class="n">keyTimeOn</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="n">time2</span><span class="p">);</span>
+   <span class="p">}</span>
+
+   <span class="c1">// Apaga el led D1 y espera un segundo</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>
+
+   <span class="c1">// Calcula la puntuación</span>
+   <span class="n">points</span> <span class="o">=</span> <span class="n">time1</span> <span class="o">-</span> <span class="n">time2</span><span class="p">;</span>
+
+   <span class="c1">// Muestra la puntuación por el display parpadeando</span>
+   <span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">dispNum</span><span class="p">(</span><span class="nf">abs</span><span class="p">(</span><span class="n">points</span><span class="p">));</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">dispBegin</span><span class="p">();</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+
+      <span class="c1">// Salir del bucle si se presiona el pulsador 1</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="n">keyEvents</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">KEY_PRESSED_TIME2</span><span class="p">))</span>
+         <span class="k">break</span><span class="p">;</span>
+   <span class="p">}</span>
+
+   <span class="c1">// Espera hasta que no se presione el pulsador 1</span>
+   <span class="k">while</span><span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pc42-display1.html" class="btn btn-neutral float-right" title="8. 7 segment display" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pc42-key2.html" class="btn btn-neutral" title="6. Pushbuttons and Events" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="../genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="../content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../es/arduprog/pc42-key3.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programming</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuits with Breadboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource-index.html">Resources</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="pc42-index.html">Control Panel PC42</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pc42-intro.html">1. Introduction to Panel PC42</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-install.html">2. PC42 Control Panel Installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-led1.html">3. Turning the LEDs on and off</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-led2.html">4. LED flashing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key1.html">5. Buttons and States</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key2.html">6. Pushbuttons and Events</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">7. Buttons and Counters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-display1.html">8. 7 segment display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-buzzer.html">9. Buzzer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Weevil UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

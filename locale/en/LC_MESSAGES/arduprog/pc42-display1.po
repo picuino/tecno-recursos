@@ -1,0 +1,308 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-10-25 21:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/arduprog/pc42-display1.rst:9
+#: ../../source/arduprog/pc42-display1.rst:33
+msgid "Display de 7 segmentos"
+msgstr "7 segment display"
+
+#: ../../source/arduprog/pc42-display1.rst:27
+msgid "Objetivos"
+msgstr "Goals"
+
+#: ../../source/arduprog/pc42-display1.rst:28
+msgid "Escribir un número en el display de 7 segmentos."
+msgstr "Write a number on the 7-segment display."
+
+#: ../../source/arduprog/pc42-display1.rst:29
+msgid "Escribir caracteres alfanuméricos en el display de 7 segmentos."
+msgstr "Write alphanumeric characters on the 7-segment display."
+
+#: ../../source/arduprog/pc42-display1.rst:34
+msgid ""
+"El visualizador o display de siete segmentos es un elemento que permite "
+"mostrar números y también símbolos y caracteres de forma limitada. Este "
+"tipo de visualizador se utiliza en las ocasiones donde se desea una buena"
+" visibilidad y tiene la ventaja de ser robusto y fácil de manejar. Los "
+"visualizadores de 7 segmentos se pueden encontrar habitualmente en placas"
+" vitrocerámicas, cargadores de baterías, reproductores de audio, hornos "
+"de microondas, lavadoras, relojes, etc."
+msgstr ""
+"The display or display of seven segments is an element that allows to "
+"show numbers and also symbols and characters in a limited way. This type "
+"of display is used where good visibility is desired and has the advantage"
+" of being robust and easy to handle. 7-segment displays can be commonly "
+"found on ceramic hobs, battery chargers, audio players, microwave ovens, "
+"washing machines, watches, etc."
+
+#: ../../source/arduprog/pc42-display1.rst:43
+msgid ""
+"En este tipo de visualizador solo hay que definir el estado de siete "
+"elementos para formar la cifra o letra deseada. En otro tipo de displays "
+"más complejos es necesario definir el estado de 35 o más puntos para "
+"formar un número o carácter. La desventaja del display de 7 segmentos "
+"está basada en su poca capacidad para representar letras y símbolos."
+msgstr ""
+"In this type of display, you only have to define the state of seven "
+"elements to form the desired number or letter. In other types of more "
+"complex displays, it is necessary to define the state of 35 or more "
+"points to form a number or character. The disadvantage of the 7-segment "
+"display is based on its poor ability to represent letters and symbols."
+
+#: ../../source/arduprog/pc42-display1.rst:50
+msgid ""
+"En la figura adjunta puede verse un display de 7 segmentos y la "
+"nomenclatura de sus elementos."
+msgstr ""
+"In the attached figure you can see a 7-segment display and the "
+"nomenclature of its elements."
+
+#: ../../source/arduprog/pc42-display1.rst:73
+msgid "La función :cpp:func:`dispNum`"
+msgstr "The function :cpp:func:`dispNum`"
+
+#: ../../source/arduprog/pc42-display1.rst:77
+msgid ""
+"El argumento de la función :cpp:func:`dispNum` es un número entero "
+"positivo (0, 1, 2, ... 32767). Este número se visualizará con cuatro "
+"dígitos en el display. Si el número tiene menos de cuatro dígitos, el "
+"display apaga por la izquierda los dígitos no utilizados. Si el número es"
+" mayor de 9999, solo se representan los cuatro dígitos de la derecha."
+msgstr ""
+"The argument of the function :cpp:func:`dispNum` is a positive integer "
+"(0, 1, 2, ... 32767). This number will be displayed with four digits on "
+"the display. If the number has less than four digits, the display turns "
+"off the unused digits on the left. If the number is greater than 9999, "
+"only the right four digits are represented."
+
+#: ../../source/arduprog/pc42-display1.rst:85
+msgid "Estos son algunos ejemplos de visualización."
+msgstr "Here are some display examples."
+
+#: ../../source/arduprog/pc42-display1.rst:96
+msgid ""
+"El ejemplo que aparece a continuación representa en el display un número "
+"que aumenta y disminuye con los pulsadores 3 y 4."
+msgstr ""
+"The example below represents a number on the display that increases and "
+"decreases with buttons 3 and 4."
+
+#: ../../source/arduprog/pc42-display1.rst:106
+msgid "La función :cpp:func:`dispWrite` con dos argumentos"
+msgstr "The :cpp:func:`dispWrite` function with two arguments"
+
+#: ../../source/arduprog/pc42-display1.rst:107
+msgid ""
+"La función :cpp:func:`dispWrite` permite escribir números y caracteres en"
+" el visualizador de siete segmentos y cuatro cifras. Dependiendo del "
+"número de argumentos, la función se comportará de una forma distinta."
+msgstr ""
+"The :cpp:func:`dispWrite` function allows you to write numbers and "
+"characters on the seven-segment, four-digit display. Depending on the "
+"number of arguments, the function will behave differently."
+
+#: ../../source/arduprog/pc42-display1.rst:115
+msgid ""
+"Cuando los argumentos de la función :cpp:func:`dispWrite` son dos "
+"números, el primero representa la posición del dígito que se desea "
+"cambiar y el segundo representa los segmentos que se desea encender. Las "
+"posiciones de los dígitos son, de izquierda a derecha, 1 2 3 4."
+msgstr ""
+"When the arguments to the :cpp:func:`dispWrite` function are two numbers,"
+" the first represents the position of the digit to be changed and the "
+"second represents the segments to be turned on. The digit positions are, "
+"from left to right, 1 2 3 4."
+
+#: ../../source/arduprog/pc42-display1.rst:121
+msgid ""
+"Los segmentos de un dígito se encienden o se apagan con un número binario"
+" que representa a cada uno de ellos. El primer dígito binario (más a la "
+"derecha) representa al segmento 'a'. El segundo dígito binario representa"
+" al segmento 'b' y así hasta el octavo dígito binario que no representa a"
+" ningún segmento."
+msgstr ""
+"The one-digit segments are turned on or off with a binary number "
+"representing each one. The first (rightmost) binary digit represents "
+"segment 'a'. The second binary digit represents segment 'b' and so on up "
+"to the eighth binary digit which does not represent any segment."
+
+#: ../../source/arduprog/pc42-display1.rst:128
+msgid ""
+"Por ejemplo, el número binario 0b00000001 encenderá el segmento 'a' y se "
+"verá en el display de 7 segmentos como una barra superior '¯'. El número "
+"binario 0b00000110 encenderá los segmentos 'b' y 'c' y se verá en el "
+"display de 7 segmentos como el número 1. El número binario 0b01000000 "
+"encenderá el segmento 'g' y se verá en el display de 7 segmentos como el "
+"signo menos '-'."
+msgstr ""
+"For example, the binary number 0b00000001 will turn on segment 'a' and "
+"will be seen on the 7 segment display as a top bar '¯'. The binary number"
+" 0b00000110 will turn on the 'b' and 'c' segments and will be seen on the"
+" 7-segment display as the number 1. The binary number 0b01000000 will "
+"turn on the 'g' segment and will be seen on the 7-segment display as the "
+"sign less '-'."
+
+#: ../../source/arduprog/pc42-display1.rst:136
+msgid ""
+"En ocasiones será más sencillo utilizar los valores ya predefinidos en la"
+" librería. A continuación se muestra una lista con los valores "
+"predefinidos de forma estándar."
+msgstr ""
+"Sometimes it will be easier to use the values ​​already predefined in the"
+" library. Below is a list with the standard predefined values."
+
+#: ../../source/arduprog/pc42-display1.rst:141
+msgid "**Números:** DD_0, DD_1, DD_2, DD_3, DD_4, DD_5, DD_6, DD_7, DD_8, DD_9"
+msgstr "**Numbers:** DD_0, DD_1, DD_2, DD_3, DD_4, DD_5, DD_6, DD_7, DD_8, DD_9"
+
+#: ../../source/arduprog/pc42-display1.rst:143
+msgid ""
+"**Letras:** DD_A, DD_b, DD_B, DD_C, DD_d, DD_E, DD_F, DD_G, DD_g, DD_H, "
+"DD_h, DD_I, DD_i, DD_J, DD_K, DD_L, DD_n, DD_ny, DD_o, DD_O, DD_P, DD_q, "
+"DD_r, DD_S, DD_t, DD_u, DD_U, DD_y, DD_Y, DD_Z"
+msgstr ""
+"**Letters:** DD_A, DD_b, DD_B, DD_C, DD_d, DD_E, DD_F, DD_G, DD_g, DD_H, "
+"DD_h, DD_I, DD_i, DD_J, DD_K, DD_L, DD_n, DD_ny, DD_o, DD_O, DD_P, DD_q, "
+"DD_r, DD_S, DD_t, DD_u, DD_U, DD_y, DD_Y, DD_Z"
+
+#: ../../source/arduprog/pc42-display1.rst:147
+msgid "**Espacio blanco:** DD_SP"
+msgstr "**White space:** DD_SP"
+
+#: ../../source/arduprog/pc42-display1.rst:149
+msgid "También se pueden crear símbolos a medida con números binarios."
+msgstr "Custom symbols can also be created with binary numbers."
+
+#: ../../source/arduprog/pc42-display1.rst:152
+msgid ""
+"El siguiente programa hace rotar una barra a través de los cuatro "
+"segmentos superiores de un dígito."
+msgstr ""
+"The following program rotates a bar through the top four segments of a "
+"digit."
+
+#: ../../source/arduprog/pc42-display1.rst:161
+msgid ""
+"El siguiente programa hace rotar una barra a través de todos los "
+"segmentos exteriores de un dígito."
+msgstr ""
+"The following program rotates a bar through all the outer segments of a "
+"digit."
+
+#: ../../source/arduprog/pc42-display1.rst:171
+msgid "La función :cpp:func:`dispWrite` con cuatro argumentos"
+msgstr "The :cpp:func:`dispWrite` function with four arguments"
+
+#: ../../source/arduprog/pc42-display1.rst:175
+msgid ""
+"Cuando la función :cpp:func:`dispWrite` tiene cuatro argumentos, cada uno"
+" es interpretado como el valor de cada dígito del visualizador de siete "
+"segmentos. Esta es la función más sencilla para visualizar una palabra en"
+" el display."
+msgstr ""
+"When the function :cpp:func:`dispWrite` has four arguments, each one is "
+"interpreted as the value of each digit of the seven-segment display. This"
+" is the simplest function to visualize a word on the display."
+
+#: ../../source/arduprog/pc42-display1.rst:181
+msgid ""
+"El siguiente programa de ejemplo hace aparecer en el display la palabra "
+"'HOLA'."
+msgstr ""
+"The following example program makes the word 'HELLO' appear on the "
+"display."
+
+#: ../../source/arduprog/pc42-display1.rst:191
+msgid "Ejercicios"
+msgstr "Exercises"
+
+#: ../../source/arduprog/pc42-display1.rst:193
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+#: ../../source/arduprog/pc42-display1.rst:195
+msgid ""
+"Completar el siguiente programa para que cuente hacia atrás desde 10 "
+"hasta 0 cambiando de valor una vez cada segundo. Una vez terminada la "
+"cuenta atrás, debe encenderse el led rojo."
+msgstr ""
+"Complete the following program so that it counts backwards from 10 to 0, "
+"changing its value once every second. Once the countdown is over, the red"
+" led should light up."
+
+#: ../../source/arduprog/pc42-display1.rst:225
+msgid ""
+"Completar el siguiente programa para que funcione como un dado "
+"electrónico. Al presionar el pulsador 1, se debe mostrar en el display un"
+" número desde el 1 hasta el 6."
+msgstr ""
+"Complete the following program to make it work as an electronic dice. "
+"When pressing button 1, a number from 1 to 6 should be shown on the "
+"display."
+
+#: ../../source/arduprog/pc42-display1.rst:251
+msgid ""
+"Mostrar en el display las palabras 'JOSE' y 'LULU', cambiando de una a "
+"otra cada segundo"
+msgstr ""
+"Show the words 'JOSE' and 'LULU' on the display, changing from one to the"
+" other every second"
+
+#: ../../source/arduprog/pc42-display1.rst:254
+msgid ""
+"Mostrar en el cuarto dígito una animación que consiste en iluminar todos "
+"los segmentos uno a uno desde el segmento 'a' hasta el segmento 'f'. "
+"Cuando todos los segmentos estén iluminados, se deben apagar todos otra "
+"vez y la secuencia comenzará de nuevo. El tiempo de espera entre el "
+"encendido de un segmento y el siguiente será de medio segundo."
+msgstr ""
+"Show in the fourth digit an animation that consists of lighting all the "
+"segments one by one from segment 'a' to segment 'f'. When all segments "
+"are lit, they should all go out again and the sequence will start over. "
+"The waiting time between the lighting of one segment and the next will be"
+" half a second."
+
+#: ../../source/arduprog/pc42-display1.rst:262
+msgid ""
+"Diseña dos símbolos nuevos y realiza un programa que los muestre en el "
+"display en las posiciones 2 y 4."
+msgstr ""
+"Design two new symbols and write a program that shows them on the display"
+" in positions 2 and 4."
+
+#: ../../source/arduprog/pc42-display1.rst:265
+msgid "Dibuja en el display unas pesas."
+msgstr "Draw some weights on the display."
+
+#: ../../source/arduprog/pc42-display1.rst:267
+msgid ""
+"Muestra en el display las palabras 'HOLA' y un nombre propio corto. Las "
+"dos palabras deben alternarse cada medio segundo."
+msgstr ""
+"It shows the words 'HELLO' and a short proper name on the display. The "
+"two words must alternate every half second."
+
+#: ../../source/arduprog/pc42-display1.rst:270
+msgid ""
+"Realiza una animación original en el display, mostrando símbolos o "
+"movimientos de luz."
+msgstr ""
+"Make an original animation on the display, showing symbols or light "
+"movements."
+

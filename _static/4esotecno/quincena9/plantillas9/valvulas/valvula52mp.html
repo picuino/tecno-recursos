@@ -1,0 +1,82 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="valvula32mb" width=400 height=400
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="valvula32mb">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=s&iacute; limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='s&iacute;' escala='40' O.x='20' O.y='40' despl_imagen='arr-izq' fondo='faffff' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no' sensible_a_los_movimientos_del_rat&oacute;n='s&iacute;'">
+   <param name="C_00" value="id='b1' tipo='num&eacute;rico' interfaz='men&uacute;' fijo='s&iacute;' nombre='Px' visible='no' opciones='0,1' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='g2' tipo='gr&aacute;fico' color='azul' color-int='rojo' expresi&oacute;n='(g1x,0)' constricci&oacute;n='x=g1x' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' dibujar-si='1&gt;2' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='camb' tipo='num&eacute;rico' interfaz='bot&oacute;n' fijo='s&iacute;' nombre='Cambia' visible='s&iacute;' acci&oacute;n='calcular' par&aacute;metro='b1=(b1=0)?1:0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Conmuta el estado de los dos pilotajes' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Conmuta el estado de los dos pilotajes' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_03" value="id='inf' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='info' visible='no' acci&oacute;n='mensaje' par&aacute;metro='Modifica la presi&oacute;n en la c&aacute;mara de la corredera para hacer funcionar la v&aacute;lvula.
+\n0 -&gt; Sin presi&oacute;n
+\n1 -&gt; Con presi&oacute;n
+\nDebes poner la animaci&oacute;n en marcha (play). &iquest;Qu&eacute; sucede cuando no hay presi&oacute;n en la c&aacute;mara x?' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_04" value="id='rec' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='recuerda' visible='no' acci&oacute;n='mensaje' par&aacute;metro='En la posici&oacute;n inicial, est&aacute;n comunicadas las v&iacute;as 1 y 2 (presi&oacute;n), y las v&iacute;as 4 y 5(escape), quedando la v&iacute;a 3 bloqueada.
+\nAl pilotar la v&aacute;lvula ponemos en contacto la v&iacute;as 1 y 4 (presi&oacute;n), quedando comunicadas adem&aacute;s las v&iacute;as 2 y 3 (escape) la v&iacute;a 5 bloqueada.
+\nCuando dejamos de pilotar la v&aacute;lvula, el resorte comprimido la devuelve a su posici&oacute;n original.' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='ac' constante='s&iacute;' expresi&oacute;n='2' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='lc' constante='s&iacute;' expresi&oacute;n='0.3' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='am' constante='s&iacute;' expresi&oacute;n='0.25' evaluar='una-sola-vez'">
+   <param name="A_03" value="id='pm' constante='s&iacute;' expresi&oacute;n='-g2.x/48' evaluar='siempre'">
+   <param name="A_04" value="id='g1x' expresi&oacute;n='-3+g2'">
+   <param name="G_00" value="tipo='pol&iacute;gono' color='verde' expresi&oacute;n='(g1x+1.75,1)(g1x+1.75,-1)(-1.5,-1)(-1.5,-2)(-1.75,-2)(-1.75,-1)(g1x+0.5,-1)(g1x+0.5,1)(g1x+1.75,1)' relleno='verde'">
+   <param name="G_01" value="tipo='pol&iacute;gono' color='amarillo' expresi&oacute;n='(g1x+2.25,1)(g1x+3.5,1)(g1x+3.5,-1)(0.5,-1)(0.5,-2)(0.25,-2)(0.25,-1)(g1x+2.25,-1)(g1x+2.25,1)' relleno='magenta' ancho='0'">
+   <param name="G_02" value="tipo='pol&iacute;gono' color='verde' expresi&oacute;n='(g1x+4,1)(g1x+4,-1)(1.75,-1)(1.75,-2)(2,-2)(2,-1)(g1x+5,-1)(g1x+5,1)' relleno='verde'">
+   <param name="G_03" value="tipo='pol&iacute;gono' expresi&oacute;n='(g1x,1)(g1x,-1)(g1x+0.5,-1)(g1x+0.5,-lc)(g1x+ac-0.25,-lc)(g1x+ac-0.25,-1)(g1x+ac+0.25,-1)(g1x+ac+0.25,-lc)(g1x+2*ac-0.5,-lc)(g1x+2*ac-0.5,-1)(g1x+2*ac,-1)(g1x+2*ac,-lc)(g1x+3*ac-1,-lc)(g1x+3*ac-1,-1)(g1x+3*ac-0.5,-1)(g1x+3*ac-0.5,1)(g1x+3*ac-1,1)(g1x+3*ac-1,lc)(g1x+2*ac,lc)(g1x+2*ac,1)(g1x+2*ac-0.5,1)(g1x+2*ac-0.5,lc)(g1x+ac+0.25,lc)(g1x+ac+0.25,1)(g1x+ac-0.25,1)(g1x+ac-0.25,lc)(g1x+0.5,lc)(g1x+0.5,1)(g1x,1)(g1x,-1)' relleno='azul' ancho='2'">
+   <param name="G_04" value="tipo='segmento' color='grisObscuro' expresi&oacute;n='(g1x+ac+3.5,0)(g1x+ac+3.5+pm,2*am)(g1x+ac+3.5+2*pm,-2*am)(g1x+ac+3.5+3*pm,2*am)(3.5,0)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='4' ancho='3'">
+   <param name="G_05" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-4,0.25)(-4,2)(-0.75,2)(-0.75,1)(-3.2,1)(-3.2,0.25)(-4,0.25)' relleno='rojo' ancho='2'">
+   <param name="G_06" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(1,2)(1,1)(-0.5,1)(-0.5,2)(0.5,2)' relleno='rojo' ancho='2'">
+   <param name="G_07" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-4,-0.25)(-4,-2)(-1.75,-2)(-1.75,-1)(-3.2,-1)(-3.2,-0.25)(-4,-0.25)' relleno='rojo' ancho='2'">
+   <param name="G_08" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(0.25,-2)(0.25,-1)(-1.5,-1)(-1.5,-2)(-0.5,-2)' relleno='rojo' ancho='2'">
+   <param name="G_09" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(0.5,-1)(1.75,-1)(1.75,-2)(0.5,-2)(0.5,-1)' relleno='rojo' ancho='2'">
+   <param name="G_10" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(1.25,1)(3.5,1)(3.5,-1)(2.5,-1)(2.5,-1)(2,-1)(2,-2)(4,-2)(4,2)(1.25,2)(1.25,1)' relleno='rojo' ancho='2'">
+   <param name="G_11" value="tipo='pol&iacute;gono' color='verde' dibujar-si='g1x&lt;-2.25' expresi&oacute;n='(1,1)(1.25,1)(1.25,2)(1,2)(1,1)' relleno='verde'">
+   <param name="G_12" value="tipo='pol&iacute;gono' color='magenta' dibujar-si='g1x&gt;-2.25' expresi&oacute;n='(1,1)(1.25,1)(1.25,2)(1,2)(1,1)' relleno='magenta'">
+   <param name="G_13" value="tipo='pol&iacute;gono' color='verde' dibujar-si='g1x&gt;-2.25' expresi&oacute;n='(-0.75,1)(-0.5,1)(-0.5,2)(-0.75,2)(-0.75,1)' relleno='verde'">
+   <param name="G_14" value="tipo='pol&iacute;gono' color='magenta' dibujar-si='g1x&lt;-2.25' expresi&oacute;n='(-0.75,1)(-0.5,1)(-0.5,2)(-0.75,2)(-0.75,1)' relleno='magenta'">
+   <param name="G_15" value="tipo='flecha' color='negro' dibujar-si='g1x&lt;-2.25' expresi&oacute;n='(1.15,3.25)(1.15,2.5)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='verde'">
+   <param name="G_16" value="tipo='flecha' color='negro' dibujar-si='g1x&gt;-2.25' expresi&oacute;n='(1.15,2.5)(1.15,3.25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='magenta'">
+   <param name="G_17" value="tipo='flecha' color='negro' expresi&oacute;n='(1.875,-2.5)(1.875,-3.25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='verde'">
+   <param name="G_18" value="tipo='flecha' color='negro' dibujar-si='g1x&gt;-2.25' expresi&oacute;n='(-0.625,3.25)(-0.625,2.5)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='verde'">
+   <param name="G_19" value="tipo='flecha' color='negro' dibujar-si='g1x&lt;-2.25' expresi&oacute;n='(-0.625,2.5)(-0.625,3.25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='magenta'">
+   <param name="G_20" value="tipo='flecha' color='negro' expresi&oacute;n='(0.375,-3.25)(0.375,-2.5)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='magenta'">
+   <param name="G_21" value="tipo='flecha' color='negro' expresi&oacute;n='(-1.625,-2.5)(-1.625,-3.25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='verde'">
+   <param name="G_22" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-4,0.25)(-4.75,0.25)(-4.75,-1)(-4.25,-1)(-4.25,-0.25)(-4,-0.25)' ancho='2'">
+   <param name="G_23" value="tipo='pol&iacute;gono' color='negro' dibujar-si='b1=1' expresi&oacute;n='(g1x,1)(-3.25,1)(-3.25,0.25)(-4,0.25)(-4.75,0.25)(-4.75,-1)(-4.25,-1)(-4.25,-0.25)(-3.25,-0.25)(-3.25,-1)(g1x,-1)' relleno='turquesa' ancho='2'">
+   <param name="G_24" value="tipo='flecha' color='negro' dibujar-si='b1=1' expresi&oacute;n='(-4.5,-2)(-4.5,-1.25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='turquesa'">
+   <param name="G_25" value="tipo='texto' color='negro' expresi&oacute;n='[225,295]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs44\b 1\f2\fs24\b0\par}' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_26" value="tipo='texto' color='negro' expresi&oacute;n='[285,295]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs44\b 5\f2\fs24\b0\par}' fuente='Arial,BOLD,22' fijo='s&iacute;'">
+   <param name="G_27" value="tipo='texto' color='negro' expresi&oacute;n='[145,295]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs44\b 3\f2\fs24\b0\par}' fuente='Arial,BOLD,22' fijo='s&iacute;'">
+   <param name="G_28" value="tipo='texto' color='negro' expresi&oacute;n='[255,117]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs44\b 4\f2\fs24\b0\par}' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_29" value="tipo='texto' color='negro' expresi&oacute;n='[185,117]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs44\b 2\f2\fs24\b0\par}' fuente='Arial,BOLD,22' fijo='s&iacute;'">
+   <param name="G_30" value="tipo='imagen' dibujar-si='g2=0' expresi&oacute;n='(-5,5.25)' archivo='imagenes/val52mc.jpg'">
+   <param name="G_31" value="tipo='imagen' dibujar-si='g2&gt;0' expresi&oacute;n='(-4.75,5.25)' archivo='imagenes/val52ma.jpg'">
+   <param name="Animaci&oacute;n" value="pausa='30' controles='no' auto='no' inicio='g2=0' hacer='g2=(b1=1)?0.76:0' mientras='3&gt;2'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

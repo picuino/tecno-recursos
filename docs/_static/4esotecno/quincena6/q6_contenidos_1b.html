@@ -1,0 +1,1000 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena6/q6_contenidos_1b.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:46:34 GMT -->
+<head>
+<title>Tema 6: Puertas l&oacute;gicas</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+<style type="text/css">
+<!--
+-->
+  </style>
+<link href="../paracidead1.css" rel="stylesheet" type="text/css">
+<link href="../q5q6.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.Estilo19 {font-family: Arial, Helvetica, sans-serif; font-size: small; }
+-->
+</style>
+</head>
+
+
+<body onLoad="MM_preloadImages('../imagen/paraantes3.png','../imagen/paraconte.png','../imagen/atrasb.png','../imagen/paraantes2.png','../imagen/paracont2.png','../imagen/adelanteb.png','../imagen/atrasb.png','../imagen/paraantes3.png','../imagen/paraconte.png','../imagen/paraejer3.png','../imagen/paraejer2.png','../imagen/paraeval3.png','../imagen/paraeval2.png','../imagen/paratut3.png','../imagen/paratut2.png','../imagen/paramas3.png','../imagen/paramas2.png','../imagen/paracont3.png')" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;"> 
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="quincena6_presenta_1a.html" target="_parent" onClick="MM_nbGroup('down','group1','antes','../imagen/paraantes3.png',1)" onMouseOver="MM_nbGroup('over','antes','../imagen/paraantes2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="../imagen/paraantes.png" alt="" name="antes" width="130" height="18" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="_parent" onClick="MM_nbGroup('down','group1','contenidos','../imagen/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','../imagen/paracont2.png','../imagen/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="../imagen/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','../imagen/paraconte.png',1)" border="0"></a></td>
+      <td><a href="quincena6_ejercicios_1a.html" target="_parent" onClick="MM_nbGroup('down','group1','ejercicios','../imagen/paraejer3.png',1)" onMouseOver="MM_nbGroup('over','ejercicios','../imagen/paraejer2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="../imagen/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="quincena6_autoeval_1a.html" target="_parent" onClick="MM_nbGroup('down','group1','autoeval','../imagen/paraeval3.png',1)" onMouseOver="MM_nbGroup('over','autoeval','../imagen/paraeval2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="../imagen/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="quincena6_tutor_1a.html" target="_parent" onClick="MM_nbGroup('down','group1','paratutor','../imagen/paratut3.png',1)" onMouseOver="MM_nbGroup('over','paratutor','../imagen/paratut2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="../imagen/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="quincena6_sabermas_1a.html" target="_parent" onClick="MM_nbGroup('down','group1','paramas','../imagen/paramas3.png',1)" onMouseOver="MM_nbGroup('over','paramas','../imagen/paramas2.png','../imagen/paramas3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="../imagen/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="../imagen/es1.gif" height="8" width="8"></td>
+      <td background="../imagen/bor1.gif" height="8"></td>
+      <td background="../imagen/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="../imagen/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table width="100%" cellspacing="12" class="arial2">
+          <tr> 
+            <td valign="top" class="titulo">1. Puertas lógicas básicas: puerta AND </td>
+            <td width="280"> 
+            <div align="right"></div></td>
+          </tr>
+          <tr> 
+            <td valign="top"><p align="justify">La se&ntilde;al de salida se activa s&oacute;lo cuando  se activan todas las se&ntilde;ales de entrada.</p>
+              <p>Equivale al <strong>producto l&oacute;gico</strong> <strong>S = A &middot; B </strong>y se corresponde con la siguiente tabla de  la verdad (para dos entradas) y     al siguiente circuito el&eacute;ctrico</span>.</p>
+                        
+            			<!-- 
+ // Scrit realizado por Miguel e Mar%C3%ADa
+ // http://www.tecnoloxia.org
+ // Licenza Creative commons
+ // P%C3%B3dese copiar, modificar e distribu%C3%ADr baixo a mesma licenza
+ // Sinalando a autor%C3%ADa 
+ -->
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> 
+<!-- 
+
+
+var path_imaxes = 'imagenes6/taboa/';
+
+
+var todaLasCeldas = new Array();
+
+function convierteEnBinario(val,size) {
+   var cadena = val.toString(2);
+   var l=cadena.length;
+   var dif = size - l;
+   for(var i=0; i< dif;i++)
+       cadena ="0"+cadena;
+   return cadena;
+}
+
+
+function CircuitElement(circuito,fila,columna, tipo, estado) {
+  var indice = fila * circuito.numcolumnas + columna;
+  this.nombre = circuito.nombre + indice;
+  this.fila = fila;
+  this.columna = columna;
+  this.estado = estado;
+  this.tipo = tipo;
+  this.circuito = circuito;
+  this.debuxa = debuxaElemento;
+  if((tipo == 'int_hor') || (tipo == 'int_ver') || (tipo ==  'lam_hor') || (tipo == 'lam_ver') || (tipo == 'mot_hor') || (tipo == 'mot_ver') || (tipo == 'dix_int') || (tipo == 'pul_nc_hor') || (tipo == 'dix_led'))  { // Tiene 2 estados
+	this.imaxe = path_imaxes + tipo + '_' + this.estado+'.gif';
+	this.numestados = 2;
+	todaLasCeldas[this.nombre] = this;
+	if((tipo == 'lam_hor') || (tipo == 'lam_ver') || (tipo == 'mot_hor') || (tipo == 'mot_ver') || (tipo == 'dix_led') ) { // Se trata de una salida
+		circuito.salidas[circuito.numsalidas++] = this;
+	}
+	else { // se trata de una entrada
+		circuito.entradas[circuito.numentradas++] = this;
+	}
+
+  }	
+  else {
+        this.numestados = 1;
+	this.imaxe = path_imaxes + tipo + '.gif';
+  }
+}
+
+// Metodos de circuit element
+function cambiaEstado(nombre) {
+
+	var celda = todaLasCeldas[nombre];	
+	if(celda.numestados < 2)
+		return;
+	if(celda.estado == 1) 
+		celda.estado = 0;	
+	else
+		celda.estado = 1;
+	celda.imaxe = path_imaxes + celda.tipo + '_' + celda.estado+'.gif';
+	celda.circuito.imprimeTabla();
+	celda.circuito.recalculaSalidas();
+
+}
+
+function debuxaElemento(indice) {
+	var cadena;	
+	if(this.numestados > 1)
+	    cadena = '<span class="celdasim"  onclick="cambiaEstado(\''+this.nombre+'\')" target="_parent"><img src="'+path_imaxes + this.tipo + '_' + this.estado+'.gif'+' "width="33" height="33" ></span>';
+	else
+	    cadena = '<img src="'+this.imaxe+' "width="33" height="33">';
+	return cadena;
+}
+
+// Definicion de Circuit
+function Circuit(nombre,numfilas,numcolumnas,divid,funcionLogica,dividTabla) {
+  this.numfilas = numfilas;
+  this.numcolumnas = numcolumnas;
+  this.elements = Array();
+  this.entradas = Array();
+  this.salidas = Array();
+  this.numentradas = 0;
+  this.numsalidas = 0;
+
+  this.divid = divid;	
+  this.dividTabla = dividTabla;
+  this.nombre = nombre;
+
+  this.debuxa = debuxaElementos;
+  this.addElement = addCircuitElement;
+  this.ejecutaLogica = funcionLogica;
+  this.recalculaSalidas = recalculaSalidas;
+  this.imprime = recalculaSalidas;
+  this.imprimeTabla = imprimeTabla;
+  this.compruebaEstado = compruebaEstado;
+
+
+}
+
+function recalculaSalidas() {
+
+	var i=0;
+
+	var ientradas = Array();
+	var isalidas = [false,false,false,false,false,false,false,false];
+	for(i=0; i < this.numentradas; i++)
+		ientradas[i] = this.entradas[i].estado > 0 ? true : false;
+	this.ejecutaLogica(ientradas,isalidas);
+	for(i=0; i < this.numsalidas; i++)
+		this.salidas[i].estado = isalidas[i] == true ? 1 : 0 ;
+
+	this.debuxa();
+
+}
+
+function addCircuitElement(fila,columna, tipo, estado) {
+//(circuito,fila,columna, tipo, estado) {
+	var indice = fila * this.numcolumnas + columna;
+	if(estado == undefined)
+		estado = 0;	
+	this.elements[indice] = new CircuitElement(this,fila,columna,tipo,estado);
+
+}
+function debuxaElementos() {
+
+
+	var resultado = '<table border="0" cellpadding="0" cellspacing="0">';
+	for(i=0; i < this.numfilas; i++) {
+		resultado += '<tr>';
+
+		for(j = 0; j < this.numcolumnas; j++) {
+			var indice = i*this.numcolumnas+j;
+			var celda = this.elements[indice];	
+			if(celda != null)
+				resultado = resultado + '<td class="celdasim">' + celda.debuxa(indice) + '</td>';
+			else
+				resultado +=  '<td></td>';
+
+		}
+		resultado += '</tr>';
+	}
+	resultado += '</table>';
+	var elem =document.getElementById(this.divid);
+	if(elem != null) 
+		elem.innerHTML=resultado;
+
+}
+
+function compruebaEstado(estados) {
+	for( var i=0; i < this.numentradas; i++) {
+		var est = (estados[i] == true ? 1: 0);
+		if( est != this.entradas[i].estado)
+			return false;
+	}
+
+	return true;
+
+
+}
+
+function imprimeTabla() {
+
+   var element = document.getElementById(this.dividTabla);
+   if(element == null)
+	return; // non hay div para a tabla, %C3%ADmonos
+
+
+   var numfilas = Math.pow(2,this.numentradas);
+
+
+
+   var strTabla = '<table width="100"> <tr>';
+   var arrayentradas = new Array('A','B','C','D','E','F','G','F');
+   for( var i=0; i < this.numentradas; i++) {
+	strTabla += '<th class="celda1">'+ arrayentradas[i] +'</th>';
+   }
+   if(this.numsalidas == 1) {
+		strTabla += '<th class="celda1">S</th>';
+   }
+   else {
+   		for( var i=0; i < this.numsalidas; i++) {
+			strTabla += '<th class="celda1">S<sub>'+i+'</sub></th>';
+   		}
+	}
+   strTabla += '</tr>';
+   	
+ 
+   for(var i= 0; i< numfilas ; i++) {
+	
+	str = convierteEnBinario(i,this.numentradas);
+	var entradas = Array();
+	var salidas = Array();
+	for( var j=0; j < this.numentradas;j++)    
+		entradas[j] = str.charAt(j) == "1" ? true : false;
+	this.ejecutaLogica(entradas,salidas)
+
+	// Antes de impirmila fila, comprobamos se esta fila corresponde co estado actual do circuito
+	var esElEstadoActual = this.compruebaEstado(entradas);
+	
+	// Aqu%C3%AD imprimimola fila
+	if(esElEstadoActual == true) // lo resaltamos
+	        strTabla += '<tr bgcolor="#EBEBC5">';
+	else
+		strTabla += '<tr>';
+	for( var j=0; j < this.numentradas; j++) {
+		strTabla += '<td class="celda1">'+(entradas[j]==true ? 1 : 0)+'</td>';
+	}
+	for( var j=0; j < this.numsalidas; j++) {
+		strTabla += '<td class="celda1"><b>'+ (salidas[j]==true ? 1 : 0) +'</b></td>';
+	}
+	strTabla += '</tr>';
+   }
+   strTabla += '</table>';
+
+	element.innerHTML = strTabla;
+  
+} 
+
+//--> 
+</SCRIPT>
+<NOSCRIPT> 
+Tu navegador no soporta Scripts. 
+</NOSCRIPT>
+
+
+
+			<!-- 
+ // Scrit realizado por Miguel e Mar%C3%ADa
+ // http://www.tecnoloxia.org
+ // Licenza Creative commons
+ // P%C3%B3dese copiar, modificar e distribu%C3%ADr baixo a mesma licenza
+ // Sinalando a autor%C3%ADa 
+ -->
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> 
+<!-- 
+// os operadores l%C3%B3xicos son
+	// AND  &&
+	// OR   ||
+	// NOT   !
+	
+/////////////
+// circu%C3%ADtos el%C3%A9ctricos
+////////////
+
+// circ1. Circuito simple l%C3%A1mpada
+
+function logica1(entradas,salidas)
+{
+	
+	salidas[0] = entradas[0];
+
+}
+var circ1 = new Circuit('proba1_',3,3,'solucion1',logica1,'solucion1tabla');
+
+circ1.addElement(0,0,'cab_inf_der');
+circ1.addElement(0,1,'cab_hor');
+circ1.addElement(0,2,'cab_inf_esq');
+
+circ1.addElement(1,0,'pil_ver_sup');
+circ1.addElement(1,2,'lam_ver');
+
+circ1.addElement(2,0,'cab_sup_der');
+circ1.addElement(2,1,'int_hor',0);
+circ1.addElement(2,2,'cab_sup_esq');
+
+// circ7. Circuito simple l%C3%A1mpada NOT
+
+function logica7(entradas,salidas)
+{
+	
+	salidas[0] = !entradas[0];
+
+}
+var circ7 = new Circuit('proba7_',4,3,'solucion7',logica7,'solucion7tabla');
+
+circ7.addElement(0,1,'Ai');
+
+circ7.addElement(1,0,'cab_inf_der');
+circ7.addElement(1,1,'pul_nc_hor',0);
+circ7.addElement(1,2,'cab_inf_esq');
+
+circ7.addElement(2,0,'pil_ver_sup');
+circ7.addElement(2,1,'Sd');
+circ7.addElement(2,2,'lam_ver',1);
+
+circ7.addElement(3,0,'cab_sup_der');
+circ7.addElement(3,1,'cab_hor');
+circ7.addElement(3,2,'cab_sup_esq');
+
+
+// circ2. circuito 2 interruptores serie
+
+function logica2(entradas,salidas)
+{
+	salidas[0] = entradas[0] && entradas[1];
+}
+var circ2 = new Circuit('proba2_',4,4,'solucion2',logica2,'solucion2tabla');
+
+
+circ2.addElement(0,1,'Ai');
+circ2.addElement(0,2,'Bi');
+
+
+circ2.addElement(1,0,'cab_inf_der');
+circ2.addElement(1,1,'int_hor',0);
+circ2.addElement(1,2,'int_hor',0);
+circ2.addElement(1,3,'cab_inf_esq');
+
+circ2.addElement(2,0,'pil_ver_sup');
+circ2.addElement(2,2,'Sd');
+circ2.addElement(2,3,'lam_ver',0);
+
+circ2.addElement(3,0,'cab_sup_der');
+circ2.addElement(3,1,'cab_hor');
+circ2.addElement(3,2,'cab_hor');
+circ2.addElement(3,3,'cab_sup_esq');
+
+// circ5. circuito 3 interruptores paralelo
+
+function logica5(entradas,salidas)
+{
+	salidas[0] = entradas[0] || entradas[1] || entradas[2];
+}
+var circ5 = new Circuit('proba5_',4,5,'solucion5',logica5,'solucion5tabla');
+
+
+circ5.addElement(0,1,'Si');
+circ5.addElement(0,2,'Ai');
+circ5.addElement(0,3,'Bi');
+circ5.addElement(0,4,'Ci');
+
+circ5.addElement(1,0,'cab_inf_der');
+circ5.addElement(1,1,'lam_hor',0); 
+circ5.addElement(1,2,'cab_t_inf');
+circ5.addElement(1,3,'cab_t_inf');
+circ5.addElement(1,4,'cab_inf_esq');
+
+circ5.addElement(2,0,'pil_ver_sup');
+circ5.addElement(2,2,'int_ver',0);
+circ5.addElement(2,3,'int_ver',0);
+circ5.addElement(2,4,'int_ver',0);
+
+circ5.addElement(3,0,'cab_sup_der');
+circ5.addElement(3,1,'cab_hor');
+circ5.addElement(3,2,'cab_t_sup');
+circ5.addElement(3,3,'cab_t_sup');
+circ5.addElement(3,4,'cab_sup_esq');
+
+// circ6. circuito 3 interruptores serie
+
+function logica6(entradas,salidas)
+{
+	salidas[0] = entradas[0] && entradas[1] && entradas[2];
+}
+var circ6 = new Circuit('proba6_',4,5,'solucion6',logica6,'solucion6tabla');
+
+
+circ6.addElement(0,1,'Ai');
+circ6.addElement(0,2,'Bi');
+circ6.addElement(0,3,'Ci');
+
+circ6.addElement(1,0,'cab_inf_der');
+circ6.addElement(1,1,'int_hor',0); 
+circ6.addElement(1,2,'int_hor',0);
+circ6.addElement(1,3,'int_hor',0);
+circ6.addElement(1,4,'cab_inf_esq');
+
+circ6.addElement(2,0,'pil_ver_sup');
+circ6.addElement(2,3,'Sd');
+circ6.addElement(2,4,'lam_ver',0);
+
+circ6.addElement(3,0,'cab_sup_der');
+circ6.addElement(3,1,'cab_hor');
+circ6.addElement(3,2,'cab_hor');
+circ6.addElement(3,3,'cab_hor');
+circ6.addElement(3,4,'cab_sup_esq');
+
+// circ8. circuito 2 interruptores serie - motor
+
+function logica8(entradas,salidas)
+{
+	salidas[0] = entradas[0] && entradas[1]
+}
+var circ8 = new Circuit('proba8_',4,4,'solucion8',logica8,'solucion8tabla');
+
+
+circ8.addElement(0,1,'Ai');
+circ8.addElement(0,2,'Bi');
+
+circ8.addElement(1,0,'cab_inf_der');
+circ8.addElement(1,1,'int_hor',0); 
+circ8.addElement(1,2,'int_hor',0);
+circ8.addElement(1,3,'cab_inf_esq');
+
+circ8.addElement(2,0,'pil_ver_sup');
+circ8.addElement(2,2,'Sd');
+circ8.addElement(2,3,'mot_ver',0);
+
+circ8.addElement(3,0,'cab_sup_der');
+circ8.addElement(3,1,'cab_hor');
+circ8.addElement(3,2,'cab_hor');
+circ8.addElement(3,3,'cab_sup_esq');
+
+
+
+// circ3. circuito 2 l%C3%A1mpadas paralelo
+
+function logica3(entradas,salidas)
+{
+	salidas[0] = entradas[0] ;
+	salidas[1] = entradas[0] ;
+}
+
+var circ3 = new Circuit('proba3_',3,4,'solucion3',logica3,'solucion3tabla');
+
+circ3.addElement(0,0,'cab_inf_der');
+circ3.addElement(0,1,'cab_hor');
+circ3.addElement(0,2,'cab_t_inf');
+circ3.addElement(0,3,'cab_inf_esq');
+
+circ3.addElement(1,0,'pil_ver_sup');
+circ3.addElement(1,2,'lam_ver',0);
+circ3.addElement(1,3,'lam_ver',0);
+
+circ3.addElement(2,0,'cab_sup_der');
+circ3.addElement(2,1,'int_hor',0);
+circ3.addElement(2,2,'cab_t_sup');
+circ3.addElement(2,3,'cab_sup_esq');
+
+
+// circ4. circuito 3 int mixto
+
+function logica4(entradas,salidas)
+{
+	salidas[0] = entradas[0] && (entradas[1] || entradas[2] ) ;
+}
+
+var circ4 = new Circuit('proba4_',5,6,'solucion4',logica4,'solucion4tabla');
+
+
+circ4.addElement(0,3,'Bi');
+
+circ4.addElement(2,1,'int_hor',0);
+
+circ4.addElement(1,1,'Ai');
+circ4.addElement(1,2,'cab_inf_der');
+circ4.addElement(1,3,'int_hor',0);
+circ4.addElement(1,4,'cab_inf_esq');
+//circ4.addElement(1,5,'Si');
+
+circ4.addElement(2,0,'cab_inf_der');
+circ4.addElement(2,2,'cab_t_esq');
+circ4.addElement(2,3,'Ci');
+circ4.addElement(2,4,'cab_t_der');
+circ4.addElement(2,5,'cab_inf_esq');
+
+circ4.addElement(3,0,'pil_ver_sup');
+circ4.addElement(3,2,'cab_sup_der');
+circ4.addElement(3,3,'int_hor',0);
+circ4.addElement(3,4,'cab_sup_esq');
+circ4.addElement(3,5,'lam_ver',0);
+
+circ4.addElement(4,0,'cab_sup_der');
+circ4.addElement(4,1,'cab_hor');
+circ4.addElement(4,2,'cab_hor');
+circ4.addElement(4,3,'cab_hor');
+circ4.addElement(4,4,'cab_hor');
+circ4.addElement(4,5,'cab_sup_esq');
+
+
+// circ9. circuito 3 int mixto 2
+
+function logica9(entradas,salidas)
+{
+	salidas[0] = ( entradas[0] && entradas[1] ) || entradas[2]  ;
+}
+
+var circ9 = new Circuit('proba9_',5,6,'solucion9',logica9,'solucion9tabla');
+
+circ9.addElement(0,2,'Ai');
+circ9.addElement(0,3,'Bi');
+
+circ9.addElement(1,1,'cab_inf_der');
+circ9.addElement(1,2,'int_hor',0);
+circ9.addElement(1,3,'int_hor',0);
+circ9.addElement(1,4,'cab_inf_esq');
+
+circ9.addElement(2,0,'cab_inf_der');
+circ9.addElement(2,1,'cab_t_esq');
+circ9.addElement(2,2,'Ci');
+circ9.addElement(2,4,'cab_t_der');
+circ9.addElement(2,5,'cab_inf_esq');
+
+circ9.addElement(3,0,'pil_ver_sup');
+circ9.addElement(3,1,'cab_sup_der');
+circ9.addElement(3,2,'int_hor',0);
+circ9.addElement(3,3,'cab_hor');
+circ9.addElement(3,4,'cab_sup_esq');
+circ9.addElement(3,5,'lam_ver',0);
+
+circ9.addElement(4,0,'cab_sup_der');
+circ9.addElement(4,1,'cab_hor');
+circ9.addElement(4,2,'cab_hor');
+circ9.addElement(4,3,'cab_hor');
+circ9.addElement(4,4,'cab_hor');
+circ9.addElement(4,5,'cab_sup_esq');
+
+
+// circ13. circuito 2 int paralelo
+
+function logica13(entradas,salidas)
+{
+	salidas[0] = entradas[0] || entradas[1];
+}
+
+var circ13 = new Circuit('proba13_',5,5,'solucion13',logica13,'solucion13tabla');
+
+
+circ13.addElement(0,2,'Ai');
+
+circ13.addElement(1,1,'cab_inf_der');
+circ13.addElement(1,2,'int_hor',0);
+circ13.addElement(1,3,'cab_inf_esq');
+
+circ13.addElement(2,0,'cab_inf_der');
+circ13.addElement(2,1,'cab_t_esq');
+circ13.addElement(2,2,'Bi');
+circ13.addElement(2,3,'cab_t_der');
+circ13.addElement(2,4,'cab_inf_esq');
+
+circ13.addElement(3,0,'pil_ver_sup');
+circ13.addElement(3,1,'cab_sup_der');
+circ13.addElement(3,2,'int_hor',0);
+circ13.addElement(3,3,'cab_sup_esq');
+circ13.addElement(3,4,'lam_ver',0);
+
+circ13.addElement(4,0,'cab_sup_der');
+circ13.addElement(4,1,'cab_hor');
+circ13.addElement(4,2,'cab_hor');
+circ13.addElement(4,3,'cab_hor');
+circ13.addElement(4,4,'cab_sup_esq');
+
+
+// circ11. circuito 2 puls NC paralelo
+
+function logica11(entradas,salidas)
+{
+	salidas[0] = !entradas[0] || !entradas[1]  ;
+}
+
+var circ11 = new Circuit('proba10_',5,5,'solucion11',logica11,'solucion11tabla');
+
+
+circ11.addElement(0,2,'Ai');
+
+circ11.addElement(1,1,'cab_inf_der');
+circ11.addElement(1,2,'pul_nc_hor',0);
+circ11.addElement(1,3,'cab_inf_esq');
+//circ4.addElement(1,5,'Si');
+
+circ11.addElement(2,0,'cab_inf_der');
+circ11.addElement(2,1,'cab_t_esq');
+circ11.addElement(2,2,'Bi');
+circ11.addElement(2,3,'cab_t_der');
+circ11.addElement(2,4,'cab_inf_esq');
+
+circ11.addElement(3,0,'pil_ver_sup');
+circ11.addElement(3,1,'cab_sup_der');
+circ11.addElement(3,2,'pul_nc_hor',0);
+circ11.addElement(3,3,'cab_sup_esq');
+circ11.addElement(3,4,'lam_ver',0);
+
+circ11.addElement(4,0,'cab_sup_der');
+circ11.addElement(4,1,'cab_hor');
+circ11.addElement(4,2,'cab_hor');
+circ11.addElement(4,3,'cab_hor');
+circ11.addElement(4,4,'cab_sup_esq');
+
+
+// circ12. circuito 2 puls NC serie - lamp
+
+function logica12(entradas,salidas)
+{
+	salidas[0] = !entradas[0] && !entradas[1] ;
+}
+var circ12 = new Circuit('proba12_',4,4,'solucion12',logica12,'solucion12tabla');
+
+
+circ12.addElement(0,1,'Ai');
+circ12.addElement(0,2,'Bi');
+
+circ12.addElement(1,0,'cab_inf_der');
+circ12.addElement(1,1,'pul_nc_hor',0); 
+circ12.addElement(1,2,'pul_nc_hor',0);
+circ12.addElement(1,3,'cab_inf_esq');
+
+circ12.addElement(2,0,'pil_ver_sup');
+circ12.addElement(2,2,'Sd');
+circ12.addElement(2,3,'lam_ver',0);
+
+circ12.addElement(3,0,'cab_sup_der');
+circ12.addElement(3,1,'cab_hor');
+circ12.addElement(3,2,'cab_hor');
+circ12.addElement(3,3,'cab_sup_esq');
+
+
+
+
+//--> 
+</SCRIPT>
+<NOSCRIPT> 
+Tu navegador no soporta Scripts. 
+</NOSCRIPT>
+
+
+
+            <!-- 
+ // Scrit realizado por Miguel e Mar%C3%ADa
+ // http://www.tecnoloxia.org
+ // Licenza Creative commons
+ // P%C3%B3dese copiar, modificar e distribu%C3%ADr baixo a mesma licenza
+ // Sinalando a autor%C3%ADa 
+ -->
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> 
+<!-- 
+// os operadores l%C3%B3xicos son
+	// AND  &&
+	// OR   ||
+	// NOT   !
+	
+
+/////////////
+// circu%C3%ADtos dixitais
+////////////
+
+//circ01. circuito AND 1
+
+//circ02. circuito AND 2
+
+function logica02(entradas,salidas)
+{
+	salidas[0] = entradas[0] && entradas[1];
+}
+
+var circ02 = new Circuit('proba02_',3,6,'solucion02',logica02,'solucion02tabla');
+
+circ02.addElement(0,0,'A',0);
+circ02.addElement(0,1,'dix_int',0);
+circ02.addElement(0,2,'cab_inf_esq');
+
+circ02.addElement(1,2,'cab_dob_der');
+circ02.addElement(1,3,'dix_and');
+circ02.addElement(1,4,'dix_led');
+circ02.addElement(1,5,'S',0);
+
+circ02.addElement(2,0,'B',0);
+circ02.addElement(2,1,'dix_int',0);
+circ02.addElement(2,2,'cab_sup_esq');
+
+
+//circ03. circuito NAND 1
+
+
+
+//circ04. circuito NAND 2
+
+
+function logica04(entradas,salidas)
+{
+	salidas[0] = !entradas[0] || !entradas[1];
+}
+
+var circ04 = new Circuit('proba04_',3,6,'solucion04',logica04,'solucion04tabla');
+
+circ04.addElement(0,0,'A',0);
+circ04.addElement(0,1,'dix_int',0);
+circ04.addElement(0,2,'cab_inf_esq');
+
+circ04.addElement(1,2,'cab_dob_der');
+circ04.addElement(1,3,'dix_nand');
+circ04.addElement(1,4,'dix_led');
+circ04.addElement(1,5,'S',0);
+
+circ04.addElement(2,0,'B',0);
+circ04.addElement(2,1,'dix_int',0);
+circ04.addElement(2,2,'cab_sup_esq');
+
+//circ05. circuito OR 1
+
+//circ06. circuito OR 2
+
+function logica06(entradas,salidas)
+{
+	salidas[0] = entradas[0] || entradas[1];
+}
+
+var circ06 = new Circuit('proba06_',3,6,'solucion06',logica06,'solucion06tabla');
+
+circ06.addElement(0,0,'A');
+circ06.addElement(0,1,'dix_int',0);
+circ06.addElement(0,2,'cab_inf_esq');
+
+circ06.addElement(1,2,'cab_dob_der');
+circ06.addElement(1,3,'dix_or');
+circ06.addElement(1,4,'dix_led');
+circ06.addElement(1,5,'S');
+
+circ06.addElement(2,0,'B');
+circ06.addElement(2,1,'dix_int',0);
+circ06.addElement(2,2,'cab_sup_esq');
+
+//circ07. circuito NOR 1
+
+//circ08. circuito NOR 2
+
+function logica08(entradas,salidas)
+{
+	salidas[0] = !entradas[0] && !entradas[1] ;
+}
+
+var circ08 = new Circuit('proba08_',3,6,'solucion08',logica08,'solucion08tabla');
+
+circ08.addElement(0,0,'A');
+circ08.addElement(0,1,'dix_int',0);
+circ08.addElement(0,2,'cab_inf_esq');
+
+circ08.addElement(1,2,'cab_dob_der');
+circ08.addElement(1,3,'dix_nor');
+circ08.addElement(1,4,'dix_led');
+circ08.addElement(1,5,'S');
+
+circ08.addElement(2,0,'B');
+circ08.addElement(2,1,'dix_int',0);
+circ08.addElement(2,2,'cab_sup_esq');
+
+//circ09. circuito NOT 1
+
+//circ010. circuito NOT 2
+
+function logica010(entradas,salidas)
+{
+	salidas[0] = !entradas[0] ;
+}
+
+var circ010 = new Circuit('proba010_',2,4,'solucion010',logica010,'solucion010tabla');
+
+circ010.addElement(0,0,'A',0);
+circ010.addElement(0,3,'S');
+
+circ010.addElement(1,0,'dix_int',0);
+circ010.addElement(1,1,'cab_hor');
+circ010.addElement(1,2,'dix_not');
+circ010.addElement(1,3,'dix_led');
+
+
+//circ011. circuito comb 1
+
+function logica011(entradas,salidas)
+{
+	salidas[0] = ( entradas[0] && entradas[1] ) || !entradas[2]  ;
+}
+
+var circ011 = new Circuit('proba011_',3,8,'solucion011',logica011,'solucion011tabla');
+
+circ011.addElement(0,0,'A');
+circ011.addElement(0,1,'dix_int',0);
+circ011.addElement(0,2,'cab_s1');
+circ011.addElement(0,3,'cab_hor_inf_der');
+circ011.addElement(0,4,'dix_and');
+circ011.addElement(0,5,'cab_inf_esq');
+
+circ011.addElement(1,0,'B');
+circ011.addElement(1,1,'dix_int',0);
+circ011.addElement(1,2,'cab_hor');
+circ011.addElement(1,3,'cab_sup_esq');
+circ011.addElement(1,5,'cab_dob_der');
+circ011.addElement(1,6,'dix_or');
+circ011.addElement(1,7,'dix_led');
+
+circ011.addElement(2,0,'C');
+circ011.addElement(2,1,'dix_int',0);
+circ011.addElement(2,2,'dix_not');
+circ011.addElement(2,3,'cab_hor');
+circ011.addElement(2,4,'cab_hor');
+circ011.addElement(2,5,'cab_sup_esq');
+
+
+//--> 
+</SCRIPT>
+<NOSCRIPT> 
+Tu navegador no soporta Scripts. 
+</NOSCRIPT>
+
+
+
+              
+			  
+              
+			  <table border ="0" width="100%">
+<tr>
+   <td align="center">
+<div id="solucion2">
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> circ2.imprime(); </SCRIPT>
+
+</div>
+   </td>
+   <td align="left">
+<div id="solucion2tabla">
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> circ2.imprimeTabla(); </SCRIPT>
+
+</div>
+   </td>
+</tr>
+</table><br />
+Existen dos <strong>s&iacute;mbolos</strong> para representar la  puerta <strong>AND</strong>. El normalizado es el de la izquierda, aunque el de la derecha lo  pod&eacute;is encontrar tambi&eacute;n en libros y webs.
+<div align="center" ><img src="imagenes6/120px-Logic-gate-and-iec.png" alt="AND IEC" width="120" height="53"> &nbsp; &nbsp;  <img src="imagenes6/120px-Logic-gate-and-us.png" alt="AND US" width="120" height="53"></div>
+			  
+            <td class="cadroder" >
+			
+            
+                <table width="100%" align="center" background="../imagen/clipcon.png" class="arial2">
+                  <tr align="center"> 
+                    <td><br /><strong>AND</strong>: <strong>S = A &middot; B</strong> <br />
+                        La salida se activa s&oacute;lo cuando todas las entradas est&aacute;n activadas <br />
+                        
+                     </td>
+                  </tr>
+                  <tr align="center">
+                    <td align="center">
+  <div id="solucion02">
+  <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> circ02.imprime(); </SCRIPT>
+  </div>
+   </td>
+                  </tr>
+                </table>
+			
+			
+			  <br />   
+              <div align="center" id="solucion02tabla">
+  <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> circ02.imprimeTabla(); </SCRIPT>
+</div>            
+            <br /></td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="../imagen/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="../imagen/es4.gif" height="8" width="8"></td>
+      <td background="../imagen/bor3.gif" height="8"></td>
+      <td background="../imagen/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"><a href="quincena6_contenidos_1a.html" target="_parent" onMouseOver="MM_swapImage('atras','','../imagen/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../imagen/atras.png" alt="anterior" name="atras" width="25" height="25" border="0"></a></div></td>
+      <td width="30"> 
+        <div align="center"><a href="quincena6_contenidos_1c.html" target="_parent" onMouseOver="MM_swapImage('adelante','','../imagen/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"><img src="../imagen/adelante.png" alt="siguiente" name="adelante" width="25" height="25" border="0"></a></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+</body>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena6/q6_contenidos_1b.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:46:34 GMT -->
+</html>

@@ -1,0 +1,597 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:11
+msgid "Recorrer laberintos"
+msgstr "Walk mazes"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:13
+msgid ""
+"En esta práctica vamos a programar un juego que consiste en recorrer varios "
+"laberintos desde su comienzo hasta el punto final antes de que a nuestro "
+"personaje se le termine su energía."
+msgstr ""
+"In this practice we are going to program a game that consists of going "
+"through several mazes from the beginning to the end point before our "
+"character runs out of energy."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:20
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:24
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:29
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:36
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:49
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:67
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:85
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:102
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:117
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:125
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:137
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:146
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:168
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:185
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:197
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:213
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:231
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:235
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:254
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:271
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:288
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:293
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:306
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:312
+msgid "|br|"
+msgstr "|br|"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:22
+msgid "Iniciamos el |editor_de_Scratch|."
+msgstr "We start the |Scratch_editor|."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:26
+msgid ""
+"Pulsamos el botón idioma |boton-idioma| en la barra superior y elegimos "
+"**Español**."
+msgstr ""
+"Press the language button |boton-idioma| in the top bar and choose "
+"**English**."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:31
+msgid "Borramos el objeto gato presionando sobre el icono del cubo de basura."
+msgstr "We delete the cat object by clicking on the trash can icon."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:34
+msgid "|borrar-gato|"
+msgstr "|borrar-gato|"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:38
+msgid ""
+"A continuación añadimos un nuevo personaje, una pelota de **basketball**."
+msgstr "Next we add a new character, a **basketball**."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:41
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:263
+msgid "Pulsamos el botón elige un objeto |seleccionar-objeto|."
+msgstr "Press the button choose an object |seleccionar-objeto|."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:43
+msgid "Buscamos en la sección **Deportes**."
+msgstr "We look in the **Sports** section."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:45
+msgid "y seleccionamos el objeto **Basketball**."
+msgstr "and select the **Basketball** object."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:51
+msgid ""
+"Ahora crearemos la variable **Fase** que va a contar el número de laberintos"
+" que vamos recorriendo. Cuando esta variable supere los cinco laberintos, el"
+" programa terminará."
+msgstr ""
+"Now we will create the variable **Phase** that will count the number of "
+"mazes that we are going through. When this variable exceeds five mazes, the "
+"program will terminate."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:56
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:74
+msgid "Pulsamos el botón de variables |boton-variables|,"
+msgstr "Press the variables button |boton-variables|,"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:58
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:76
+msgid "pulsamos en crear una variable  |boton-crear-variable|."
+msgstr "click on create a variable |boton-crear-variable|."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:60
+msgid "Cambiamos el nombre de la variable a **Fase**"
+msgstr "We change the name of the variable to **Phase**"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:65
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:83
+msgid "Por último pulsamos el botón **Aceptar**"
+msgstr "Finally, click on the **OK** button."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:69
+msgid ""
+"Crearemos también la variable **Energía** que va a contar la energía de que "
+"disponemos para recorrer todos los laberintos. Si la variable energía se "
+"vacía, perderemos el juego y el programa terminará."
+msgstr ""
+"We will also create the variable **Energy** that will count the energy we "
+"have to go through all the mazes. If the energy variable becomes empty, we "
+"will lose the game and the program will end."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:78
+msgid "Cambiamos el nombre de la variable a **Energía**"
+msgstr "We change the name of the variable to **Energy**"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:87
+msgid ""
+"Creamos dos nuevos bloques llamados **mueve_x** y **mueve_y** que van a "
+"mover la pelota por la pantalla."
+msgstr ""
+"We create two new blocks called **move_x** and **move_y** that will move the"
+" ball around the screen."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:90
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:96
+msgid "Primero pulsamos en el botón mis bloques  |boton-misbloques|"
+msgstr "First click on the button my blocks |boton-misbloques|"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:92
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:98
+msgid "A continuación pulsamos en crear un bloque |boton-crear-bloque|"
+msgstr "Then click on create a block |boton-crear-bloque|"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:94
+msgid "Luego cambiamos el nombre del nuevo bloque a **mueve_x**"
+msgstr "Then we change the name of the new block to **move_x**"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:100
+msgid "Luego cambiamos el nombre del nuevo bloque a **mueve_y**"
+msgstr "Then we change the name of the new block to **move_y**"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:104
+msgid ""
+"Realizamos un programa que mueve la pelota en las cuatro direcciones, "
+"consumiendo energía y rebotando en las paredes del laberinto para que no las"
+" pueda atravesar."
+msgstr ""
+"We make a program that moves the ball in all four directions, consuming "
+"energy and bouncing off the walls of the maze so that it cannot pass "
+"through."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:114
+msgid ""
+"La pelota aún no se moverá porque necesitamos que otra rutina llame a las "
+"funciones que hemos creado."
+msgstr ""
+"The ball still won't roll because we need another routine to call the "
+"functions we've created."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:119
+msgid ""
+"Ahora creamos un nuevo bloque, **Inicia**, que mostrará la pelota con tamaño"
+" pequeño al comienzo del laberinto."
+msgstr ""
+"Now we create a new block, **Start**, which will show the ball with small "
+"size at the beginning of the maze."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:127
+msgid ""
+"Para continuar programaremos la rutina principal que llama a todos los "
+"bloques que hemos creado anteriormente."
+msgstr ""
+"To continue we will program the main routine that calls all the blocks that "
+"we have previously created."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:130
+msgid ""
+"Todavía no podremos cambiar el fondo a \"Sin_energía\" porque este fondo no "
+"ha sido creado aún. Recuerda cambiarlo después de crear el fondo."
+msgstr ""
+"We won't be able to change the backdrop to \"No_energy\" yet because this "
+"backdrop hasn't been created yet. Remember to change it after creating the"
+" backdrop."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:139
+msgid ""
+"Para terminar el programa de la pelota, programaremos el comportamiento "
+"cuando recibe los mensajes de **Comenzar** y de **Terminar**."
+msgstr ""
+"To finish the ball program, we will program the behavior when it receives "
+"the **Start** and **Finish** messages."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:148
+msgid ""
+"Ahora cambiaremos al **Escenario** y dentro de la pestaña de fondos vamos a "
+"crear los mensajes del juego."
+msgstr ""
+"Now we will switch to the **Scenario** and inside the backdrops tab we "
+"will create the game messages."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:151
+msgid "Primero seleccionamos en fondos, pintar un fondo."
+msgstr "First we select in backdrops, paint a backdrop."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:155
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:177
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:189
+msgid ""
+"A continuación, con la herramienta **Texto** escribimos en la pantalla el "
+"siguiente mensaje."
+msgstr ""
+"Next, with the **Text** tool we write the following message on the screen."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:161
+msgid "Cambia el nombre del disfraz a \"Sin_energía\"."
+msgstr "Change the name of the costume to \"Out_Energy\"."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:165
+msgid ""
+"Recuerda modificar el programa de la pelota de basketball ahora que este "
+"fondo ya está creado."
+msgstr ""
+"Remember to modify the basketball program now that this backdrop is "
+"already created."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:170
+msgid ""
+"Ahora cambiaremos de nuevo al **Escenario** y dentro de la pestaña de fondos"
+" vamos a crear más mensajes del juego."
+msgstr ""
+"Now we will switch back to the **Scenario** and within the backdrops tab "
+"we will create more in-game messages."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:173
+msgid "Seleccionamos en fondos, pintar un fondo."
+msgstr "We select in funds, paint a backdrop."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:183
+msgid "Cambiamos el nombre del disfraz a \"Terminado\"."
+msgstr "Changed the name of the costume to \"Finished\"."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:187
+msgid "Seleccionamos de nuevo pintar un fondo."
+msgstr "We select again to paint a backdrop."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:195
+msgid "Cambiamos el nombre del disfraz a \"Finalizado\"."
+msgstr "Changed the name of the costume to \"Finished\"."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:199
+msgid ""
+"Para completar los fondos, vamos a descargar el siguiente archivo comprimido"
+" que contiene varios laberintos en su interior."
+msgstr ""
+"To complete the backdrops, we are going to download the following "
+"compressed file that contains several mazes inside."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:202
+msgid ""
+":download:`Laberintos para recorrer. Formato ZIP. "
+"<scratch3/scratch3-laberintos.zip>`"
+msgstr ""
+":download:`Labyrinths to go through. ZIP format. "
+"<scratch3/scratch3-laberintos.zip>`"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:205
+msgid ""
+"Una vez descargado, abrimos el archivo Zip y extraemos todos los archivos de"
+" laberinto que tiene en su interior en una carpeta conocida."
+msgstr ""
+"Once downloaded, we open the Zip file and extract all the maze files inside "
+"it to a known folder."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:209
+msgid ""
+"Se pueden extraer todos los archivos pinchando con el botón derecho del "
+"ratón en el archivo Zip y seleccionando la opción ``Extraer todo...`` y "
+"pulsando luego el botón ``Extraer``."
+msgstr ""
+"All files can be extracted by right-clicking on the Zip file and selecting "
+"the ``Extract All...`` option and then clicking the ``Extract`` button."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:215
+msgid ""
+"De nuevo en el **Escenario**, dentro de la pestaña de fondos, vamos a "
+"importar los distintos laberintos."
+msgstr ""
+"Back in the **Scenario**, within the backdrops tab, we are going to import"
+" the different mazes."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:218
+msgid "Primero seleccionamos en fondos, **carga un fondo**."
+msgstr "First we select in backdrops, **load a backdrop**."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:222
+msgid ""
+"Elegimos la carpeta donde se ha descargado el archivo Zip anterior y la "
+"carpeta donde se han extraído los laberintos. Pregunta a tu profesor si no "
+"sabes cómo seguir en este paso."
+msgstr ""
+"We choose the folder where the previous Zip file has been downloaded and the"
+" folder where the mazes have been extracted. Ask your teacher if you don't "
+"know how to proceed in this step."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:226
+msgid ""
+"Una vez en la carpeta de los laberintos, pincha en el primer laberinto y "
+"pulsa el botón ``Abrir``."
+msgstr ""
+"Once in the mazes folder, click on the first mazes and press the ``Open`` "
+"button."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:233
+msgid "Repetimos el paso anterior con los cinco primeros laberintos."
+msgstr "We repeat the previous step with the first five mazes."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:237
+msgid ""
+"Para continuar, vamos a programar el comportamiento del Escenario en la "
+"pestaña de Código."
+msgstr ""
+"To continue, we are going to program the behavior of the Scenario in the "
+"Code tab."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:240
+msgid ""
+"Al comenzar el programa establecemos el valor de la variable Fase en 1 (el "
+"número del laberinto) y mostramos el primer laberinto."
+msgstr ""
+"At the start of the program we set the value of the Phase variable to 1 (the"
+" number of the maze) and display the first maze."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:246
+msgid ""
+"Cada vez que reciba el mensaje de **Comenzar** un nuevo laberinto, sumamos "
+"uno a la variable Fase y mostramos el laberinto que corresponda. Una vez "
+"llegado al valor 6 los laberintos se habrán acabado y podemos finalizar el "
+"programa con un mensaje ganador."
+msgstr ""
+"Every time you get the message to **Start** a new maze, we add one to the "
+"Phase variable and display the corresponding maze. Once the value 6 is "
+"reached, the mazes will be over and we can end the program with a winning "
+"message."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:256
+msgid ""
+"Llegado este punto, solo hace falta definir cuándo se termina cada "
+"laberinto. Para conseguirlo vamos a añadir un nuevo objeto, una flecha, que "
+"va a enviar el mensaje de laberinto terminado cuando toque la pelota de "
+"basketball."
+msgstr ""
+"At this point, it is only necessary to define when each maze ends. To "
+"achieve this we are going to add a new object, an arrow, which will send the"
+" maze finished message when it touches the basketball."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:261
+msgid "Añadimos un nuevo personaje, **una flecha**."
+msgstr "Added a new character, **an arrow**."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:265
+msgid "Buscamos en la sección **Todos**."
+msgstr "We look in the **All** section."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:267
+msgid "y seleccionamos el objeto **Arrow1**."
+msgstr "and select the object **Arrow1**."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:273
+msgid ""
+"Realizamos un programa que muestre la flecha en la esquina inferior derecha "
+"al comenzar el programa. También debe estar siempre detectando si toca a la "
+"pelota de basketball, para terminar el laberinto y comenzar uno nuevo."
+msgstr ""
+"We make a program that shows the arrow in the lower right corner at the "
+"start of the program. He must also always be detecting if he touches the "
+"basketball, to finish the maze and start a new one."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:282
+msgid ""
+"Además programaremos que la flecha se esconda desde que se termine un "
+"laberinto hasta que comience el siguiente laberinto."
+msgstr ""
+"In addition, we will program the arrow to hide from the end of a maze until "
+"the next maze begins."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:290
+msgid ""
+"Pulsamos la bandera verde |bandera-verde| para probar el funcionamiento del "
+"programa."
+msgstr ""
+"Press the green flag |bandera-verde| to test the operation of the program."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:300
+msgid "Retos"
+msgstr "Challenges"
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:302
+msgid ""
+"Añade un rastro de color azul claro al movimiento de la pelota para que "
+"sepamos en todo momento qué recorrido ha realizado la pelota."
+msgstr ""
+"Add a light blue trail to the movement of the ball so that we know at all "
+"times what path the ball has taken."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:308
+msgid ""
+"Mide cuánta energía consume la pelota para recorrer cada laberinto y "
+"establece al comienzo un valor de energía que sea justo el necesario para "
+"pasar el juego."
+msgstr ""
+"It measures how much energy the ball consumes to go through each maze and "
+"establishes at the beginning an energy value that is just the one necessary "
+"to pass the game."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:314
+msgid ""
+"Al comenzar cada laberinto, añade pequeñas frutas esparcidas de manera "
+"aleatoria. Cuando la pelota toque una de estas frutas, la fruta debe "
+"desaparecer y añadir energía a la pelota."
+msgstr ""
+"At the beginning of each maze, add small fruits scattered randomly. When the"
+" ball touches one of these fruits, the fruit must disappear and add energy "
+"to the ball."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:318
+msgid ""
+"Las frutas se añadirán como clones de una fruta que debe permanecer "
+"escondida."
+msgstr "Fruits will be added as clones of a fruit that must remain hidden."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:321
+msgid ""
+"Establece para la pelota un valor de energía inicial menor, de manera que "
+"sea necesario recoger varias frutas para poder terminar todos los laberintos"
+" con suficiente energía."
+msgstr ""
+"Set the ball to a lower starting energy value, so you need to collect "
+"multiple fruits in order to finish all the mazes with enough energy."
+
+
+#: ../../es/scratch3-recorrer-laberintos.rst:325
+msgid ""
+"Ajusta el número de frutas y la energía que añade cada fruta para que el "
+"juego sea difícil, pero que se pueda terminar."
+msgstr ""
+"Adjust the number of fruits and the energy each fruit adds to make the game "
+"difficult, but still finishable."

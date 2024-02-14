@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Arduino - Control Panel PC42 - 3. Turning the LEDs on and off">
+  <title>3. Turning the LEDs on and off - Control Panel PC42 - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/arduprog/pc42-led1.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Index" href="../content.html">
+  <link rel="search" title="Search" href="../search.html">
+  <link rel="next" title="4. LED flashing" href="pc42-led2.html">
+  <link rel="prev" title="2. PC42 Control Panel Installation" href="pc42-install.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="index.html">Arduino</a>/</li>
+        
+          <li><a href="pc42-index.html">Control Panel PC42</a>/</li>
+        
+      <li><span class="section-number">3. </span>Turning the LEDs on and off</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arduprog/pc42-led1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="../contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/arduprog/pc42-led1.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="encendido-y-apagado-de-los-led">
+<span id="pc42-led1"></span><h1><span class="section-number">3. </span>Turning the LEDs on and off<a class="headerlink" href="#encendido-y-apagado-de-los-led" title="Permalink to this headline">¶</a></h1>
+<a class="reference internal image-reference" href="../_images/img-0090.jpg"><img alt="LED de colores y RGB." class="align-center" src="../_images/img-0090.jpg" style="width: 300px;"></a>
+<div class="section" id="objetivos">
+<h2>Goals<a class="headerlink" href="#objetivos" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Turn on and off the led diodes of the PC42 control panel.</li>
+<li>Generate led blinking by waiting time.</li>
+</ul>
+</div>
+<div class="section" id="leds-del-panel-de-control-pc42">
+<h2>PC42 control panel leds<a class="headerlink" href="#leds-del-panel-de-control-pc42" title="Permalink to this headline">¶</a></h2>
+<p>The control panel has 6 leds. 5 LEDs are single color. The last led on the right is an RGB led with the three basic colors red, green and blue inside.</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width:35%;">
+<col style="width:65%;">
+</colgroup>
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">LEDs</th>
+<th class="head">Color</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td>1</td>
+<td>RED</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>YELLOW</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>GREEN</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>BLUE</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>WHITE</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td>RGB-RED</td>
+</tr>
+<tr class="row-even"><td>7</td>
+<td>RGB-GREEN</td>
+</tr>
+<tr class="row-odd"><td>8</td>
+<td>RGB-BLUE</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>The RGB led allows to generate colors composed by the sum of others:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width:42%;">
+<col style="width:58%;">
+</colgroup>
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">LEDs</th>
+<th class="head">Color</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td>6+7</td>
+<td>RGB-YELLOW</td>
+</tr>
+<tr class="row-odd"><td>7+8</td>
+<td>RGB-CYAN</td>
+</tr>
+<tr class="row-even"><td>6+8</td>
+<td>RGB-PURPLE</td>
+</tr>
+<tr class="row-odd"><td>6 + 7 + 8</td>
+<td>RGB-WHITE</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="la-funcion-ledwrite">
+<h2>The <a class="reference internal" href="#_CPPv48ledWriteii" title="ledWrite"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">ledWrite()</span></code></a> function<a class="headerlink" href="#la-funcion-ledwrite" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv48ledWriteii">
+<span id="_CPPv38ledWriteii"></span><span id="_CPPv28ledWriteii"></span><span id="ledWrite__i.i"></span><code class="descname">ledWrite</code><span class="sig-paren">(</span>int <em>ledNum</em>, int <em>bright</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48ledWriteii" title="Permalink to this definition">¶</a><br></dt>
+<dd><p>This function allows you to turn a specific led on or off. Its parameters are the following:</p>
+<p><code class="docutils literal notranslate"><span class="pre">ledNum</span></code>: led to turn on or off. Valid values ​​range from 1 for led D1 to 8 for the blue color of led D6.</p>
+<p>The D6 led is an RGB led, which contains 3 leds inside. The numbers 6, 7, 8 respectively represent the red, green and blue colors of led D6.</p>
+<p><code class="docutils literal notranslate"><span class="pre">bright</span></code>: brightness with which the led will light up.</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">LED_OFF</span></code>: turns off the led. It can be replaced by the number zero.</li>
+<li><code class="docutils literal notranslate"><span class="pre">LED_ON</span></code>: turns on the led with maximum intensity.</li>
+</ul>
+</div></blockquote>
+</dd></dl>
+
+</div>
+<div class="section" id="la-funcion-digitalwrite">
+<h2>The <a class="reference internal" href="#_CPPv412digitalWriteii" title="digitalWrite"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">digitalWrite()</span></code></a> function<a class="headerlink" href="#la-funcion-digitalwrite" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv412digitalWriteii">
+<span id="_CPPv312digitalWriteii"></span><span id="_CPPv212digitalWriteii"></span><span id="digitalWrite__i.i"></span><code class="descname">digitalWrite</code><span class="sig-paren">(</span>int <em>ledNum</em>, int <em>bright</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv412digitalWriteii" title="Permalink to this definition">¶</a><br></dt>
+<dd><p>This function is similar to the <cite>ledWrite</cite> function above. Its operation is identical, it accepts two parameters <code class="docutils literal notranslate"><span class="pre">ledNum</span></code> and <code class="docutils literal notranslate"><span class="pre">bright</span></code> to establish the led that will be managed and its brightness.</p>
+<p>The function has the same name as the Arduino function for driving the digital output pins. In this way name compatibility is maintained for those programmers accustomed to the Arduino environment.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="ejemplo-encender-el-led-d1">
+<h2>Example: turn on led D1<a class="headerlink" href="#ejemplo-encender-el-led-d1" title="Permalink to this headline">¶</a></h2>
+<p>The following program will permanently turn on led D1 using the <cite>ledWrite</cite> function</p>
+<div class="highlight-Arduino notranslate" id="led-ledwrite-on"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Enciende el led D1</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>   <span class="c1">// Encender el led D1</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<p>Equivalent program in the Ardublock environment:</p>
+<a class="reference internal image-reference" href="../_images/ardublock_ledWrite_On.png"><img alt="Programa de Ardublock para encender el led D1 del panel de control PC42" src="../_images/ardublock_ledWrite_On.png" style="width: 434px;"></a>
+<p>In this link you can download the <a class="reference download internal" download="" href="../_downloads/ardublock_ledWrite_On.abp"><code class="xref download docutils literal notranslate"><span class="pre">program</span> <span class="pre">file</span> <span class="pre">for</span> <span class="pre">Ardublock</span> <span class="pre">environment</span> <span class="pre">'ledWrite_On'</span></code></a></p>
+</div>
+<div class="section" id="ejemplo-parpadeo-del-led-d1">
+<h2>Example: LED D1 flashing<a class="headerlink" href="#ejemplo-parpadeo-del-led-d1" title="Permalink to this headline">¶</a></h2>
+<p>If you want to turn led D1 on and off with a period of one second, one way to do it is to turn on the led, wait half a second, turn off the led and wait half a second. When this sequence is repeated, the led flashes. To achieve a half-second wait, use the <code class="docutils literal notranslate"><span class="pre">delay(500)</span></code> function, which causes a 500-millisecond (0.5-second) wait. To make the sequence loop indefinitely, the code is inserted inside the <code class="docutils literal notranslate"><span class="pre">loop()</span></code> block, which loops over and over again inside the Arduino program.</p>
+<div class="highlight-Arduino notranslate" id="led-ledwrite-on-off"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Parpadea el led D1 una vez por segundo</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>              <span class="c1">// Inicializar el módulo PC42</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>  <span class="c1">// Encender el led D1</span>
+   <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>              <span class="c1">// Esperar medio segundo (500 ms)</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span> <span class="c1">// Apagar el led D1</span>
+   <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>              <span class="c1">// Esperar medio segundo (500 ms)</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<p>Equivalent program in the Ardublock environment:</p>
+<a class="reference internal image-reference" href="../_images/ardublock_ledWrite_On_Off.png"><img alt="Programa de Ardublock para encender y apagar el led D1 del panel de control PC42" src="../_images/ardublock_ledWrite_On_Off.png" style="width: 468px;"></a>
+<p>In this link you can download the <a class="reference download internal" download="" href="../_downloads/ardublock_ledWrite_On_Off.abp"><code class="xref download docutils literal notranslate"><span class="pre">program</span> <span class="pre">file</span> <span class="pre">for</span> <span class="pre">Ardublock</span> <span class="pre">environment</span> <span class="pre">'ledWrite_On_Off'</span></code></a></p>
+</div>
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<p>Program the code needed to solve the following problems.</p>
+<ol class="arabic">
+<li><p class="first">Turn on leds D1, D3 and D5 permanently.</p>
+</li>
+<li><p class="first">Turn on led D1, wait one second, turn on led D2, wait one second, continue the sequence until the first 4 leds are on. Once finished, the program will keep the 4 leds on.</p>
+</li>
+<li><p class="first">Turn on the red, amber and green leds as in a traffic light.</p>
+<p>First the green led will light up and stay on for 4 seconds. Then the green led will turn off and the amber led will light up for 2 seconds. Finally, the amber led will turn off and the red one will turn on, which will remain on for 4 seconds.</p>
+<p>This sequence will repeat indefinitely.</p>
+</li>
+<li><p class="first">Modify the previous exercise so that the amber led blinks three times, changing from on to off every half second, before turning on the red led.</p>
+</li>
+<li><p class="first">Program a beacon that turns on alternately the red led and the blue led. Each led should stay on for one second. One of the two LEDs must always be on and both LEDs will never be on at the same time.</p>
+</li>
+<li><p class="first">Turn on led D1, wait a second, turn off led D1 and turn on led D2. In this way, the first 5 leds will light up consecutively. At each moment only one led will be on. Once the sequence is finished, it will start over from the beginning.</p>
+</li>
+<li><p class="first">Make a modification to the previous exercise so that at all times there are 2 LEDs on.</p>
+<p>When the program starts, leds D1 and D2 should light up.</p>
+<p>After a second, leds D2 and D3 will light up.</p>
+<p>The sequence will continue until leds D6 and D1 are on.</p>
+<p>From this moment on, the program will be repeated starting again from the beginning.</p>
+</li>
+<li><p class="first">The following program has several errors. Correct syntax errors to make it work correctly.</p>
+<div class="highlight-arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Programa con errores sintácticos</span>
+<span class="c1">// Enciende 6 leds en secuencia a derecha y a izquierda</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>                   <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_on</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="k">for</span><span class="p">(</span><span class="kr">char</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;=</span><span class="mi">5</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>  <span class="c1">// Encender el led siguiente</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">250</span><span class="p">);</span>                <span class="c1">// Esperar 250 milisegundos</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span>   <span class="c1">// Apagar el led anterior</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>                <span class="c1">// Esperar 100 milisegundos</span>
+   <span class="p">}</span>
+
+   <span class="k">for</span><span class="p">(</span><span class="kr">char</span> <span class="n">i</span><span class="o">=</span><span class="mi">5</span><span class="p">;</span> <span class="n">i</span><span class="o">&gt;=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>    <span class="c1">// Encender el led anterior</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">250</span><span class="p">);</span>                <span class="c1">// Esperar 250 milisegundos</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span> <span class="c1">// Apagar el led siguiente</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>                <span class="c1">// Esperar 100 milisegundos</span>
+   <span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+<li><p class="first">Make a program that makes D1 blink once per second while D2 blinks twice per second.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pc42-led2.html" class="btn btn-neutral float-right" title="4. LED flashing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pc42-install.html" class="btn btn-neutral" title="2. PC42 Control Panel Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="../genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="../content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../es/arduprog/pc42-led1.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programming</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuits with Breadboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource-index.html">Resources</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="pc42-index.html">Control Panel PC42</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pc42-intro.html">1. Introduction to Panel PC42</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-install.html">2. PC42 Control Panel Installation</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">3. Turning the LEDs on and off</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-led2.html">4. LED flashing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key1.html">5. Buttons and States</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key2.html">6. Pushbuttons and Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key3.html">7. Buttons and Counters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-display1.html">8. 7 segment display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-buzzer.html">9. Buzzer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Weevil UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/freecad-restricciones.rst:10
+msgid "Croquis con restricciones"
+msgstr "Constrained sketches"
+
+
+#: ../../es/freecad-restricciones.rst:11
+msgid ""
+"En esta práctica vamos a crear croquis con restricciones para formar figuras"
+" con mayor exactitud y con más facilidades."
+msgstr ""
+"In this practice we are going to create sketches with restrictions to form "
+"figures with greater accuracy and with more facilities."
+
+
+#: ../../es/freecad-restricciones.rst:14 ../../es/freecad-restricciones.rst:38
+
+
+#: ../../es/freecad-restricciones.rst:49 ../../es/freecad-restricciones.rst:68
+
+
+#: ../../es/freecad-restricciones.rst:79 ../../es/freecad-restricciones.rst:96
+
+
+#: ../../es/freecad-restricciones.rst:109
+
+
+#: ../../es/freecad-restricciones.rst:124
+
+
+#: ../../es/freecad-restricciones.rst:153
+msgid "|br|"
+msgstr "|br|"
+
+
+#: ../../es/freecad-restricciones.rst:16
+msgid ""
+"Abrimos la aplicación **FreeCAD** y hacemos clic en el icono para crear un "
+"**nuevo documento** |icono-nuevo-documento|."
+msgstr ""
+"Open the **FreeCAD** application and click on the icon to create a **new "
+"document** |icono-nuevo-documento|."
+
+
+#: ../../es/freecad-restricciones.rst:20
+msgid "Seleccionamos el **banco de trabajo Part Design**"
+msgstr "We select the **Part Design workbench**"
+
+
+#: ../../es/freecad-restricciones.rst:24
+msgid "A continuación seleccionamos crear un nuevo croquis."
+msgstr "Next we select to create a new sketch."
+
+
+#: ../../es/freecad-restricciones.rst:28
+msgid "Y elegimos el plano XY como plano base para situar el nuevo croquis."
+msgstr "And we choose the XY plane as the base plane to place the new sketch."
+
+
+#: ../../es/freecad-restricciones.rst:33
+msgid ""
+"En la pantalla aparecerá una rejilla donde poder dibujar en dos dimensiones."
+msgstr ""
+"A grid will appear on the screen where you can draw in two dimensions."
+
+
+#: ../../es/freecad-restricciones.rst:40
+msgid ""
+"A continuación vamos a dibujar un objeto sencillo, un cuadrado, con el icono"
+" polilinea |polilinea|."
+msgstr ""
+"Next we are going to draw a simple object, a square, with the icon polyline "
+"|polilinea|."
+
+
+#: ../../es/freecad-restricciones.rst:45
+msgid ""
+"Ahora no vamos a preocuparnos de la exactitud del cuadrado porque dibujando "
+"con el ratón es imposible conseguir un cuadrado perfecto."
+msgstr ""
+"Now we are not going to worry about the accuracy of the square because by "
+"drawing with the mouse it is impossible to get a perfect square."
+
+
+#: ../../es/freecad-restricciones.rst:51
+msgid ""
+"Con el método anterior, podemos crear un dibujo parecido a un cuadrado, pero"
+" al crear figuras **con el ratón el resultado siempre tendrá errores**."
+msgstr ""
+"With the above method, we can create a drawing similar to a square, but when"
+" creating figures **with the mouse the result will always have errors**."
+
+
+#: ../../es/freecad-restricciones.rst:55
+msgid ""
+"Para conseguir que nuestro cuadrado sea perfecto vamos a **crear "
+"restricciones** en las líneas que lo forman."
+msgstr ""
+"To get our square to be perfect we are going to **create restrictions** in "
+"the lines that form it."
+
+
+#: ../../es/freecad-restricciones.rst:58
+msgid ""
+"Primero seleccionamos las dos líneas verticales y creamos una **restricción "
+"vertical** clicando |restriccion-vertical|."
+msgstr ""
+"First we select the two vertical lines and create a **vertical constraint** "
+"by clicking |restriccion-vertical|."
+
+
+#: ../../es/freecad-restricciones.rst:63
+msgid ""
+"Las líneas se volverán perfectamente verticales y aparecerán dos pequeños "
+"iconos que representan la restricción vertical."
+msgstr ""
+"The lines will become perfectly vertical and two small icons will appear "
+"representing the vertical constraint."
+
+
+#: ../../es/freecad-restricciones.rst:70
+msgid ""
+"A continuación seleccionamos las dos líneas horizontales para crear una "
+"**restricción horizontal** clicando |restriccion-horizontal|."
+msgstr ""
+"Next we select the two horizontal lines to create a **horizontal "
+"constraint** by clicking |restriccion-horizontal|."
+
+
+#: ../../es/freecad-restricciones.rst:76
+msgid ""
+"Ahora nuestro dibujo se parece mucho más a un cuadrado perfecto, pero aún no"
+" hemos terminado."
+msgstr ""
+"Now our drawing looks a lot more like a perfect square, but we're not done "
+"yet."
+
+
+#: ../../es/freecad-restricciones.rst:81
+msgid ""
+"En este punto vamos a hacer que un lado vertical tenga el mismo tamaño que "
+"un lado horizontal, como corresponde a un cuadrado."
+msgstr ""
+"At this point we are going to make a vertical side the same size as a "
+"horizontal side, as befits a square."
+
+
+#: ../../es/freecad-restricciones.rst:85
+msgid ""
+"Seleccionamos un lado vertical y un lado horizontal y creamos una "
+"**restricción de igualdad** clicando |restriccion-igualdad|."
+msgstr ""
+"We select a vertical side and a horizontal side and create an **equality "
+"constraint** by clicking |restriccion-igualdad|."
+
+
+#: ../../es/freecad-restricciones.rst:90
+msgid ""
+"Ahora nuestra figura es un cuadrado perfecto. Si **movemos un punto** del "
+"cuadrado, este mantendrá las proporciones."
+msgstr ""
+"Now our figure is a perfect square. If we **move a point** of the square, it"
+" will keep the proportions."
+
+
+#: ../../es/freecad-restricciones.rst:98
+msgid ""
+"Para terminar vamos a dar un tamaño exacto al cuadrado. Primero "
+"**seleccionamos una línea vertical** y a continuación creamos una "
+"restricción de cota vertical clicando |restriccion-cota-vertical|, con el "
+"valor de **30 milímetros**."
+msgstr ""
+"To finish we are going to give an exact size to the square. First we "
+"**select a vertical line** and then we create a vertical dimension "
+"constraint by clicking |restriccion-cota-vertical|, with the value of "
+"**30 millimeters**."
+
+
+#: ../../es/freecad-restricciones.rst:106
+msgid ""
+"Una vez creada la cota, podemos hacer doble clic sobre ella para editarla y "
+"cambiar su valor."
+msgstr ""
+"Once the dimension is created, we can double click on it to edit it and "
+"change its value."
+
+
+#: ../../es/freecad-restricciones.rst:111
+msgid "A continuación vamos a **eliminar una restricción**."
+msgstr "Next we are going to **remove a constraint**."
+
+
+#: ../../es/freecad-restricciones.rst:113
+msgid ""
+"Clicamos sobre el icono de restricción horizontal en la línea inferior, este"
+" icono cambiará a color verde."
+msgstr ""
+"Click on the horizontal restriction icon on the bottom line, this icon will "
+"change to green."
+
+
+#: ../../es/freecad-restricciones.rst:118
+msgid ""
+"Presionamos la tecla de suprimir ``Supr`` en el teclado y la restricción "
+"desaparece, con lo que podremos mover la línea inferior y cambiar su "
+"inclinación."
+msgstr ""
+"We press the delete key ``Del`` on the keyboard and the constraint "
+"disappears, so we can move the bottom line and change its slant."
+
+
+#: ../../es/freecad-restricciones.rst:131
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/freecad-restricciones.rst:133
+msgid "Crear un croquis como el de la imagen."
+msgstr "Create a sketch like the one in the image."
+
+
+#: ../../es/freecad-restricciones.rst:137
+msgid "Con las siguientes restricciones."
+msgstr "With the following restrictions."
+
+
+#: ../../es/freecad-restricciones.rst:139
+msgid "Restricción horizontal en todas las líneas horizontales."
+msgstr "Horizontal constraint on all horizontal lines."
+
+
+#: ../../es/freecad-restricciones.rst:141
+msgid "Restricción vertical en todas las líneas verticales."
+msgstr "Vertical constraint on all vertical lines."
+
+
+#: ../../es/freecad-restricciones.rst:143
+msgid "Restricción de igualdad en todas las líneas de igual longitud."
+msgstr "Equality constraint on all lines of equal length."
+
+
+#: ../../es/freecad-restricciones.rst:145
+msgid ""
+"Restricción de cota en las cuatro dimensiones que aparecen en el dibujo."
+msgstr ""
+"Dimension constraint in the four dimensions that appear in the drawing."
+
+
+#: ../../es/freecad-restricciones.rst:148
+msgid "Extrudir el dibujo 100 milímetros para generar una viga en H."
+msgstr "Extrude the drawing 100 millimeters to generate an H-beam."
+
+
+#: ../../es/freecad-restricciones.rst:159
+msgid "Videotutorial"
+msgstr "Video-tutorial"
+
+
+#: ../../es/freecad-restricciones.rst:161
+msgid ""
+"`Aplicando restricciones. <https://www.youtube.com/embed/dVg5uBciurs>`__"
+msgstr "`Applying constraints. <https://www.youtube.com/embed/dVg5uBciurs>`__"

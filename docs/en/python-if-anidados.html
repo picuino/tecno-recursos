@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Programming - Python tutorial - 11. Nested if statements">
+  <title>11. Nested if statements - Python tutorial - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/python-if-anidados.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="12. elif statement" href="python-if-elif.html">
+  <link rel="prev" title="10. and, or, not operators" href="python-if-and-or-not.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="prog-index.html">Programming</a>/</li>
+        
+          <li><a href="python-index.html">Python tutorial</a>/</li>
+        
+      <li><span class="section-number">11. </span>Nested <code class="docutils literal notranslate"><span class="pre">if</span></code> statements</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/python-if-anidados.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/python-if-anidados.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sentencias-if-anidadas">
+<span id="python-if-anidados"></span><h1><span class="section-number">11. </span>Nested <code class="docutils literal notranslate"><span class="pre">if</span></code> statements<a class="headerlink" href="#sentencias-if-anidadas" title="Permalink to this headline">¶</a></h1>
+<p>A programming structure is said to be nested when it is inside another.</p>
+<p>Each extra level with another <code class="docutils literal notranslate"><span class="pre">if</span></code> statement will have to be indented, that is, with spaces to the left.</p>
+<p>This is an example with the <code class="docutils literal notranslate"><span class="pre">if</span></code> statement nested in two levels:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">numero</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un número: &#39;</span><span class="p">))</span>
+<span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El número&#39;</span><span class="p">,</span> <span class="n">numero</span><span class="p">,</span> <span class="s1">&#39;es divisible por 3 y por 5&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El número&#39;</span><span class="p">,</span> <span class="n">numero</span><span class="p">,</span> <span class="s1">&#39;es divisible por 3&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Nesting <code class="docutils literal notranslate"><span class="pre">if</span></code> conditions can be useful, but try not to nest too many levels to make the code easier to read.</p>
+<p>This is another example of <code class="docutils literal notranslate"><span class="pre">if</span></code> nested on two levels:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce tu edad: &#39;</span><span class="p">))</span>
+<span class="k">if</span> <span class="n">edad</span> <span class="o">&gt;=</span> <span class="mi">18</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">edad</span> <span class="o">&gt;=</span> <span class="mi">65</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Eres un adulto mayor&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Eres un adulto&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">edad</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Eres menor de edad&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Eres un bebé&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Write a program that calculates the price of a movie ticket depending on the age.</p>
+<p>The normal price of the entrance is 10 Euros.</p>
+<p>If the client is 60 or older, they will only pay 2 Euros.</p>
+<p>If the client is 12 years old or less, he will only pay 4 Euros.</p>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe tu edad: &#39;</span><span class="p">)</span> <span class="p">)</span>
+<span class="k">if</span> <span class="o">...</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program to check if a person can ride the rides in a park.</p>
+<p>If the height is less than 140, you can not go on the attractions</p>
+<p>Otherwise:</p>
+<blockquote>
+<div><ul class="simple">
+<li>If the age is less than 12 years old, you can go on the attractions for children.</li>
+<li>If the age is greater than or equal to 12 years, you can go up to all the attractions.</li>
+</ul>
+</div></blockquote>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">altura</span> <span class="o">=</span> <span class="mi">120</span>
+<span class="n">edad</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="k">if</span> <span class="o">....</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program that asks for the grade obtained and that answers according to the following conditions:</p>
+<p>If the grade is greater than or equal to 5 -&gt; You have passed</p>
+<p>If the grade is greater than 6 -&gt; You have passed with a good grade</p>
+<p>If the note is less than 5 -&gt; You have failed</p>
+<p>If the grade is less than 4 -&gt; You have failed with a bad grade</p>
+</li>
+<li><p class="first">Write a helper program to repair objects.</p>
+<p>The program must first ask if the object is moving. Then you must ask if the object should move. The program should then print a message on the screen depending on the options entered:</p>
+<p>If the object moves and it should move -&gt; No need to repair.</p>
+<p>If the object is moving and it shouldn't be moving -&gt; Use duct tape.</p>
+<p>If the object does not move and it should not move -&gt; No need to repair.</p>
+<p>If the object does not move and it should move -&gt; Use 3 in 1 oil.</p>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Pregunta para obtener una respuesta de tipo si/no</span>
+<span class="c1"># con una sola letra (s/n)</span>
+<span class="n">se_mueve</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;El objeto se mueve? (s/n)&#39;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">se_mueve</span> <span class="o">==</span> <span class="s1">&#39;s&#39;</span><span class="p">:</span>
+    <span class="o">...</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program to identify characters from the Asterix and Obelix comics.</p>
+<p>If the character is the main protagonist:</p>
+<blockquote>
+<div><ul class="simple">
+<li>If the character raises menhirs: it is Obelix.</li>
+<li>Otherwise: it's Asterix.</li>
+</ul>
+</div></blockquote>
+<p>Otherwise:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">If the character brews potions: it is Panoramix.</p>
+</li>
+<li><p class="first">Otherwise:</p>
+<blockquote>
+<div><ul class="simple">
+<li>If the character sings badly: it is Assurancetúrix.</li>
+<li>Otherwise: the character is not identified.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Pregunta para obtener una respuesta de tipo si/no</span>
+<span class="c1"># con una sola letra (s/n)</span>
+<span class="n">opcion_1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;El personaje es protagonista principal? (s/n)&#39;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">opcion_1</span> <span class="o">==</span> <span class="s1">&#39;s&#39;</span><span class="p">:</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program that asks for the username and then the password. If the user is equal to 'admin' then it checks the password, which should be equal to 'secret'. In case of writing the correct password, 'successful login' should be printed.</p>
+<p>If the password is wrong, write 'Wrong password'</p>
+<p>If the user is not 'admin', write 'Wrong User'</p>
+</li>
+<li><p class="first">Write a program to classify triangles.</p>
+<p>First, the lengths of the sides must be defined in the program:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">lado1</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">lado2</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">lado3</span> <span class="o">=</span> <span class="mi">4</span>
+</pre></div>
+</div>
+<p>Next, the lengths of the sides must be checked and the type of triangle printed on the screen:</p>
+<blockquote>
+<div><ul class="simple">
+<li>If side1 == side2 and if side2 == side3: is equilateral</li>
+<li>If side1 == side2 or side1 == side3 or side2 == side3: is isosceles</li>
+<li>Otherwise: it is scalene.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Write a program that checks if a year is a leap year. A year is a leap year if it is divisible by 4 (year % 4 == 0).</p>
+<p>Of these leap years, we must eliminate those that are divisible by 100 and add those that are divisible by 400.</p>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">anio</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe el año: &#39;</span><span class="p">))</span>
+<span class="k">if</span> <span class="n">anio</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">anio</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">anio</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The list of leap years between 1600 and 2400 is:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1600</span><span class="p">,</span> <span class="mi">1604</span><span class="p">,</span> <span class="mi">1608</span><span class="p">,</span> <span class="mi">1612</span><span class="p">,</span> <span class="mi">1616</span><span class="p">,</span>
+<span class="mi">1620</span><span class="p">,</span> <span class="mi">1624</span><span class="p">,</span> <span class="mi">1628</span><span class="p">,</span> <span class="mi">1632</span><span class="p">,</span> <span class="mi">1636</span><span class="p">,</span>
+<span class="mi">1640</span><span class="p">,</span> <span class="mi">1644</span><span class="p">,</span> <span class="mi">1648</span><span class="p">,</span> <span class="mi">1652</span><span class="p">,</span> <span class="mi">1656</span><span class="p">,</span>
+<span class="mi">1660</span><span class="p">,</span> <span class="mi">1664</span><span class="p">,</span> <span class="mi">1668</span><span class="p">,</span> <span class="mi">1672</span><span class="p">,</span> <span class="mi">1676</span><span class="p">,</span>
+<span class="mi">1680</span><span class="p">,</span> <span class="mi">1684</span><span class="p">,</span> <span class="mi">1688</span><span class="p">,</span> <span class="mi">1692</span><span class="p">,</span> <span class="mi">1696</span><span class="p">,</span>
+<span class="mi">1704</span><span class="p">,</span> <span class="mi">1708</span><span class="p">,</span> <span class="mi">1712</span><span class="p">,</span> <span class="mi">1716</span><span class="p">,</span> <span class="mi">1720</span><span class="p">,</span>
+<span class="mi">1724</span><span class="p">,</span> <span class="mi">1728</span><span class="p">,</span> <span class="mi">1732</span><span class="p">,</span> <span class="mi">1736</span><span class="p">,</span> <span class="mi">1740</span><span class="p">,</span>
+<span class="mi">1744</span><span class="p">,</span> <span class="mi">1748</span><span class="p">,</span> <span class="mi">1752</span><span class="p">,</span> <span class="mi">1756</span><span class="p">,</span> <span class="mi">1760</span><span class="p">,</span>
+<span class="mi">1764</span><span class="p">,</span> <span class="mi">1768</span><span class="p">,</span> <span class="mi">1772</span><span class="p">,</span> <span class="mi">1776</span><span class="p">,</span> <span class="mi">1780</span><span class="p">,</span>
+<span class="mi">1784</span><span class="p">,</span> <span class="mi">1788</span><span class="p">,</span> <span class="mi">1792</span><span class="p">,</span> <span class="mi">1796</span><span class="p">,</span> <span class="mi">1804</span><span class="p">,</span>
+<span class="mi">1808</span><span class="p">,</span> <span class="mi">1812</span><span class="p">,</span> <span class="mi">1816</span><span class="p">,</span> <span class="mi">1820</span><span class="p">,</span> <span class="mi">1824</span><span class="p">,</span>
+<span class="mi">1828</span><span class="p">,</span> <span class="mi">1832</span><span class="p">,</span> <span class="mi">1836</span><span class="p">,</span> <span class="mi">1840</span><span class="p">,</span> <span class="mi">1844</span><span class="p">,</span>
+<span class="mi">1848</span><span class="p">,</span> <span class="mi">1852</span><span class="p">,</span> <span class="mi">1856</span><span class="p">,</span> <span class="mi">1860</span><span class="p">,</span> <span class="mi">1864</span><span class="p">,</span>
+<span class="mi">1868</span><span class="p">,</span> <span class="mi">1872</span><span class="p">,</span> <span class="mi">1876</span><span class="p">,</span> <span class="mi">1880</span><span class="p">,</span> <span class="mi">1884</span><span class="p">,</span>
+<span class="mi">1888</span><span class="p">,</span> <span class="mi">1892</span><span class="p">,</span> <span class="mi">1896</span><span class="p">,</span> <span class="mi">1904</span><span class="p">,</span> <span class="mi">1908</span><span class="p">,</span>
+<span class="mi">1912</span><span class="p">,</span> <span class="mi">1916</span><span class="p">,</span> <span class="mi">1920</span><span class="p">,</span> <span class="mi">1924</span><span class="p">,</span> <span class="mi">1928</span><span class="p">,</span>
+<span class="mi">1932</span><span class="p">,</span> <span class="mi">1936</span><span class="p">,</span> <span class="mi">1940</span><span class="p">,</span> <span class="mi">1944</span><span class="p">,</span> <span class="mi">1948</span><span class="p">,</span>
+<span class="mi">1952</span><span class="p">,</span> <span class="mi">1956</span><span class="p">,</span> <span class="mi">1960</span><span class="p">,</span> <span class="mi">1964</span><span class="p">,</span> <span class="mi">1968</span><span class="p">,</span>
+<span class="mi">1972</span><span class="p">,</span> <span class="mi">1976</span><span class="p">,</span> <span class="mi">1980</span><span class="p">,</span> <span class="mi">1984</span><span class="p">,</span> <span class="mi">1988</span><span class="p">,</span>
+<span class="mi">1992</span><span class="p">,</span> <span class="mi">1996</span><span class="p">,</span> <span class="mi">2000</span><span class="p">,</span> <span class="mi">2004</span><span class="p">,</span> <span class="mi">2008</span><span class="p">,</span>
+<span class="mi">2012</span><span class="p">,</span> <span class="mi">2016</span><span class="p">,</span> <span class="mi">2020</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="mi">2028</span><span class="p">,</span>
+<span class="mi">2032</span><span class="p">,</span> <span class="mi">2036</span><span class="p">,</span> <span class="mi">2040</span><span class="p">,</span> <span class="mi">2044</span><span class="p">,</span> <span class="mi">2048</span><span class="p">,</span>
+<span class="mi">2052</span><span class="p">,</span> <span class="mi">2056</span><span class="p">,</span> <span class="mi">2060</span><span class="p">,</span> <span class="mi">2064</span><span class="p">,</span> <span class="mi">2068</span><span class="p">,</span>
+<span class="mi">2072</span><span class="p">,</span> <span class="mi">2076</span><span class="p">,</span> <span class="mi">2080</span><span class="p">,</span> <span class="mi">2084</span><span class="p">,</span> <span class="mi">2088</span><span class="p">,</span>
+<span class="mi">2092</span><span class="p">,</span> <span class="mi">2096</span><span class="p">,</span> <span class="mi">2104</span><span class="p">,</span> <span class="mi">2108</span><span class="p">,</span> <span class="mi">2112</span><span class="p">,</span>
+<span class="mi">2116</span><span class="p">,</span> <span class="mi">2120</span><span class="p">,</span> <span class="mi">2124</span><span class="p">,</span> <span class="mi">2128</span><span class="p">,</span> <span class="mi">2132</span><span class="p">,</span>
+<span class="mi">2136</span><span class="p">,</span> <span class="mi">2140</span><span class="p">,</span> <span class="mi">2144</span><span class="p">,</span> <span class="mi">2148</span><span class="p">,</span> <span class="mi">2152</span><span class="p">,</span>
+<span class="mi">2156</span><span class="p">,</span> <span class="mi">2160</span><span class="p">,</span> <span class="mi">2164</span><span class="p">,</span> <span class="mi">2168</span><span class="p">,</span> <span class="mi">2172</span><span class="p">,</span>
+<span class="mi">2176</span><span class="p">,</span> <span class="mi">2180</span><span class="p">,</span> <span class="mi">2184</span><span class="p">,</span> <span class="mi">2188</span><span class="p">,</span> <span class="mi">2192</span><span class="p">,</span>
+<span class="mi">2196</span><span class="p">,</span> <span class="mi">2204</span><span class="p">,</span> <span class="mi">2208</span><span class="p">,</span> <span class="mi">2212</span><span class="p">,</span> <span class="mi">2216</span><span class="p">,</span>
+<span class="mi">2220</span><span class="p">,</span> <span class="mi">2224</span><span class="p">,</span> <span class="mi">2228</span><span class="p">,</span> <span class="mi">2232</span><span class="p">,</span> <span class="mi">2236</span><span class="p">,</span>
+<span class="mi">2240</span><span class="p">,</span> <span class="mi">2244</span><span class="p">,</span> <span class="mi">2248</span><span class="p">,</span> <span class="mi">2252</span><span class="p">,</span> <span class="mi">2256</span><span class="p">,</span>
+<span class="mi">2260</span><span class="p">,</span> <span class="mi">2264</span><span class="p">,</span> <span class="mi">2268</span><span class="p">,</span> <span class="mi">2272</span><span class="p">,</span> <span class="mi">2276</span><span class="p">,</span>
+<span class="mi">2280</span><span class="p">,</span> <span class="mi">2284</span><span class="p">,</span> <span class="mi">2288</span><span class="p">,</span> <span class="mi">2292</span><span class="p">,</span> <span class="mi">2296</span><span class="p">,</span>
+<span class="mi">2304</span><span class="p">,</span> <span class="mi">2308</span><span class="p">,</span> <span class="mi">2312</span><span class="p">,</span> <span class="mi">2316</span><span class="p">,</span> <span class="mi">2320</span><span class="p">,</span>
+<span class="mi">2324</span><span class="p">,</span> <span class="mi">2328</span><span class="p">,</span> <span class="mi">2332</span><span class="p">,</span> <span class="mi">2336</span><span class="p">,</span> <span class="mi">2340</span><span class="p">,</span>
+<span class="mi">2344</span><span class="p">,</span> <span class="mi">2348</span><span class="p">,</span> <span class="mi">2352</span><span class="p">,</span> <span class="mi">2356</span><span class="p">,</span> <span class="mi">2360</span><span class="p">,</span>
+<span class="mi">2364</span><span class="p">,</span> <span class="mi">2368</span><span class="p">,</span> <span class="mi">2372</span><span class="p">,</span> <span class="mi">2376</span><span class="p">,</span> <span class="mi">2380</span><span class="p">,</span>
+<span class="mi">2384</span><span class="p">,</span> <span class="mi">2388</span><span class="p">,</span> <span class="mi">2392</span><span class="p">,</span> <span class="mi">2396</span><span class="p">,</span> <span class="mi">2400</span>
+</pre></div>
+</div>
+<p>The years 1700, 1800, 1900, 2100, 2200, 2300 should not appear in the list because they are divisible by 100.</p>
+<p>The years 1600, 2000 and 2400 should appear in the list because, although they are divisible by 100, they are also divisible by 400.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="python-if-elif.html" class="btn btn-neutral float-right" title="12. elif statement" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="python-if-and-or-not.html" class="btn btn-neutral" title="10. and, or, not operators" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/python-if-anidados.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programming</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Programming languages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-flowchart.html">Flowcharts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-codeorg.html">Code Tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scratch3-index.html">Scratch 3 tutorial</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="python-index.html">Python tutorial</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="python-intro.html">1. Introduction to the Python language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-datos-numeros.html">2. Numerical data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-variables.html">3. Variables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-palabras-reservadas.html">4. reserved words</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-comentarios.html">5. The comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-print.html">6. The <code class="xref py py-func docutils literal notranslate"><span class="pre">print()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-input.html">7. The <code class="xref py py-func docutils literal notranslate"><span class="pre">input()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-booleanos.html">8. The Boolean type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-else.html">9. <code class="docutils literal notranslate"><span class="pre">if</span></code> <code class="docutils literal notranslate"><span class="pre">else</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-and-or-not.html">10. <code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code> operators</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">11. Nested <code class="docutils literal notranslate"><span class="pre">if</span></code> statements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-elif.html">12. <code class="docutils literal notranslate"><span class="pre">elif</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for.html">13. <code class="docutils literal notranslate"><span class="pre">for</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-range.html">14. The <code class="xref py py-func docutils literal notranslate"><span class="pre">range()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-continue.html">15. <code class="docutils literal notranslate"><span class="pre">continue</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-break.html">16. <code class="docutils literal notranslate"><span class="pre">break</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-anidados.html">17. Nested <code class="docutils literal notranslate"><span class="pre">for</span></code> statements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-while.html">18. <code class="docutils literal notranslate"><span class="pre">while</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones.html">19. Definition of functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones-argumentos.html">20. Parameters with default values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos.html">21. text strings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-indices.html">22. Text string indices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-metodos.html">23. String methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-formateo.html">24. Formatting text strings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas.html">25. lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-indices.html">26. list indices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-iteracion.html">27. list iteration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-metodos.html">28. list methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda.html">29. Data search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda-binaria.html">30. Binary search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-desplazamiento.html">31. Data displacement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-seleccion.html">32. Sort by selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-insercion.html">33. Insertion sort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursividad.html">34. Recursion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-mezcla.html">35. Merge Sort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-codewars.html">36. Codewars</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursos.html">37. Python Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="prog-recursos.html">Programming Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

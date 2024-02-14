@@ -1,0 +1,459 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/arduprog/pc42-led1.rst:9
+msgid "Encendido y apagado de los LED"
+msgstr "Turning the LEDs on and off"
+
+
+#: ../../es/arduprog/pc42-led1.rst:27
+msgid "Objetivos"
+msgstr "Goals"
+
+
+#: ../../es/arduprog/pc42-led1.rst:28
+msgid "Encender y apagar los diodos led del panel de control PC42."
+msgstr "Turn on and off the led diodes of the PC42 control panel."
+
+
+#: ../../es/arduprog/pc42-led1.rst:29
+msgid "Generar parpadeo de leds mediante esperas de tiempo."
+msgstr "Generate led blinking by waiting time."
+
+
+#: ../../es/arduprog/pc42-led1.rst:33
+msgid "Leds del panel de control PC42"
+msgstr "PC42 control panel leds"
+
+
+#: ../../es/arduprog/pc42-led1.rst:35
+msgid ""
+"El panel de control dispone de 6 leds. 5 led son de un solo color. El último"
+" led de la derecha es un led RGB con los tres colores básicos rojo, verde y "
+"azul en su interior."
+msgstr ""
+"The control panel has 6 leds. 5 LEDs are single color. The last led on the "
+"right is an RGB led with the three basic colors red, green and blue inside."
+
+
+#: ../../es/arduprog/pc42-led1.rst:40 ../../es/arduprog/pc42-led1.rst:62
+msgid "Led"
+msgstr "LEDs"
+
+
+#: ../../es/arduprog/pc42-led1.rst:40 ../../es/arduprog/pc42-led1.rst:62
+msgid "Color"
+msgstr "Color"
+
+
+#: ../../es/arduprog/pc42-led1.rst:42
+msgid "1"
+msgstr "1"
+
+
+#: ../../es/arduprog/pc42-led1.rst:42
+msgid "ROJO"
+msgstr "RED"
+
+
+#: ../../es/arduprog/pc42-led1.rst:44
+msgid "2"
+msgstr "2"
+
+
+#: ../../es/arduprog/pc42-led1.rst:44
+msgid "AMARILLO"
+msgstr "YELLOW"
+
+
+#: ../../es/arduprog/pc42-led1.rst:46
+msgid "3"
+msgstr "3"
+
+
+#: ../../es/arduprog/pc42-led1.rst:46
+msgid "VERDE"
+msgstr "GREEN"
+
+
+#: ../../es/arduprog/pc42-led1.rst:48
+msgid "4"
+msgstr "4"
+
+
+#: ../../es/arduprog/pc42-led1.rst:48
+msgid "AZUL"
+msgstr "BLUE"
+
+
+#: ../../es/arduprog/pc42-led1.rst:50
+msgid "5"
+msgstr "5"
+
+
+#: ../../es/arduprog/pc42-led1.rst:50
+msgid "BLANCO"
+msgstr "WHITE"
+
+
+#: ../../es/arduprog/pc42-led1.rst:52
+msgid "6"
+msgstr "6"
+
+
+#: ../../es/arduprog/pc42-led1.rst:52
+msgid "RGB-ROJO"
+msgstr "RGB-RED"
+
+
+#: ../../es/arduprog/pc42-led1.rst:54
+msgid "7"
+msgstr "7"
+
+
+#: ../../es/arduprog/pc42-led1.rst:54
+msgid "RGB-VERDE"
+msgstr "RGB-GREEN"
+
+
+#: ../../es/arduprog/pc42-led1.rst:56
+msgid "8"
+msgstr "8"
+
+
+#: ../../es/arduprog/pc42-led1.rst:56
+msgid "RGB-AZUL"
+msgstr "RGB-BLUE"
+
+
+#: ../../es/arduprog/pc42-led1.rst:59
+msgid "El led RGB permite generar colores compuestos por la suma de otros:"
+msgstr "The RGB led allows to generate colors composed by the sum of others:"
+
+
+#: ../../es/arduprog/pc42-led1.rst:64
+msgid "6 + 7"
+msgstr "6+7"
+
+
+#: ../../es/arduprog/pc42-led1.rst:64
+msgid "RGB-AMARILLO"
+msgstr "RGB-YELLOW"
+
+
+#: ../../es/arduprog/pc42-led1.rst:66
+msgid "7 + 8"
+msgstr "7+8"
+
+
+#: ../../es/arduprog/pc42-led1.rst:66
+msgid "RGB-CYAN"
+msgstr "RGB-CYAN"
+
+
+#: ../../es/arduprog/pc42-led1.rst:68
+msgid "6 + 8"
+msgstr "6+8"
+
+
+#: ../../es/arduprog/pc42-led1.rst:68
+msgid "RGB-MORADO"
+msgstr "RGB-PURPLE"
+
+
+#: ../../es/arduprog/pc42-led1.rst:70
+msgid "6 + 7 + 8"
+msgstr "6 + 7 + 8"
+
+
+#: ../../es/arduprog/pc42-led1.rst:70
+msgid "RGB-BLANCO"
+msgstr "RGB-WHITE"
+
+
+#: ../../es/arduprog/pc42-led1.rst:76
+msgid "La función :cpp:func:`ledWrite`"
+msgstr "The :cpp:func:`ledWrite` function"
+
+
+#: ../../es/arduprog/pc42-led1.rst:80
+msgid ""
+"Esta función permite encender o apagar un led concreto. Sus parámetros son "
+"los siguientes:"
+msgstr ""
+"This function allows you to turn a specific led on or off. Its parameters "
+"are the following:"
+
+
+#: ../../es/arduprog/pc42-led1.rst:83
+msgid ""
+"``ledNum``: led que se va a encender o apagar. Los valores válidos van desde"
+" 1 para el led D1 hasta 8 para el color azul del led D6."
+msgstr ""
+"``ledNum``: led to turn on or off. Valid values ​​range from 1 for led D1 to"
+" 8 for the blue color of led D6."
+
+
+#: ../../es/arduprog/pc42-led1.rst:87
+msgid ""
+"El led D6 es un led RGB, que contiene 3 leds en su interior. Los números 6, "
+"7, 8 representan respectivamente los colores rojo, verde y azul del led D6."
+msgstr ""
+"The D6 led is an RGB led, which contains 3 leds inside. The numbers 6, 7, 8 "
+"respectively represent the red, green and blue colors of led D6."
+
+
+#: ../../es/arduprog/pc42-led1.rst:91
+msgid "``bright``: brillo con el que se va a encender el led."
+msgstr "``bright``: brightness with which the led will light up."
+
+
+#: ../../es/arduprog/pc42-led1.rst:93
+msgid "``LED_OFF``: apaga el led. Se puede sustituir por el número cero."
+msgstr ""
+"``LED_OFF``: turns off the led. It can be replaced by the number zero."
+
+
+#: ../../es/arduprog/pc42-led1.rst:95
+msgid "``LED_ON``: enciende el led con la intensidad máxima."
+msgstr "``LED_ON``: turns on the led with maximum intensity."
+
+
+#: ../../es/arduprog/pc42-led1.rst:99
+msgid "La función :cpp:func:`digitalWrite`"
+msgstr "The :cpp:func:`digitalWrite` function"
+
+
+#: ../../es/arduprog/pc42-led1.rst:103
+msgid ""
+"Esta función es semejante a la función anterior `ledWrite`. Su "
+"funcionamiento es idéntico, acepta dos parámetros ``ledNum`` y ``bright`` "
+"para establecer el led que se manejará y su brillo."
+msgstr ""
+"This function is similar to the `ledWrite` function above. Its operation is "
+"identical, it accepts two parameters ``ledNum`` and ``bright`` to establish "
+"the led that will be managed and its brightness."
+
+
+#: ../../es/arduprog/pc42-led1.rst:107
+msgid ""
+"La función tiene el mismo nombre que la función de Arduino para manejar los "
+"pines de salida digital. De esta forma se mantiene la compatibilidad de "
+"nombres para aquellos programadores acostumbrados al entorno Arduino."
+msgstr ""
+"The function has the same name as the Arduino function for driving the "
+"digital output pins. In this way name compatibility is maintained for those "
+"programmers accustomed to the Arduino environment."
+
+
+#: ../../es/arduprog/pc42-led1.rst:118
+msgid "Ejemplo: encender el led D1"
+msgstr "Example: turn on led D1"
+
+
+#: ../../es/arduprog/pc42-led1.rst:119
+msgid ""
+"El siguiente programa encenderá de forma permanente el led D1 utilizando la "
+"función `ledWrite`"
+msgstr ""
+"The following program will permanently turn on led D1 using the `ledWrite` "
+"function"
+
+
+#: ../../es/arduprog/pc42-led1.rst:128 ../../es/arduprog/pc42-led1.rst:159
+msgid "Programa equivalente en el entorno Ardublock:"
+msgstr "Equivalent program in the Ardublock environment:"
+
+
+#: ../../es/arduprog/pc42-led1.rst:135
+msgid ""
+"En este enlace se puede descargar el :download:`archivo de programa para "
+"entorno Ardublock 'ledWrite_On' <_downloads/ardublock_ledWrite_On.abp>`"
+msgstr ""
+"In this link you can download the :download:`program file for Ardublock "
+"environment 'ledWrite_On' <_downloads/ardublock_ledWrite_On.abp>`"
+
+
+#: ../../es/arduprog/pc42-led1.rst:141
+msgid "Ejemplo: parpadeo del led D1"
+msgstr "Example: LED D1 flashing"
+
+
+#: ../../es/arduprog/pc42-led1.rst:142
+msgid ""
+"Si se desea encender y apagar el led D1 con un periodo de un segundo, una "
+"forma de realizarlo es encender el led, esperar medio segundo, apagar el led"
+" y esperar medio segundo. Cuando esta secuencia se repite, el led parpadea. "
+"Para conseguir una espera de medio segundo se utiliza la función "
+"``delay(500)`` que provoca una espera de 500 milisegundos (0,5 segundos). "
+"Para conseguir que la secuencia se repita indefinidamente, el código se "
+"introduce dentro del bloque ``loop()``, que se repite una y otra vez dentro "
+"del programa de Arduino."
+msgstr ""
+"If you want to turn led D1 on and off with a period of one second, one way "
+"to do it is to turn on the led, wait half a second, turn off the led and "
+"wait half a second. When this sequence is repeated, the led flashes. To "
+"achieve a half-second wait, use the ``delay(500)`` function, which causes a "
+"500-millisecond (0.5-second) wait. To make the sequence loop indefinitely, "
+"the code is inserted inside the ``loop()`` block, which loops over and over "
+"again inside the Arduino program."
+
+
+#: ../../es/arduprog/pc42-led1.rst:166
+msgid ""
+"En este enlace se puede descargar el :download:`archivo de programa para "
+"entorno Ardublock 'ledWrite_On_Off' "
+"<_downloads/ardublock_ledWrite_On_Off.abp>`"
+msgstr ""
+"In this link you can download the :download:`program file for Ardublock "
+"environment 'ledWrite_On_Off' <_downloads/ardublock_ledWrite_On_Off.abp>`"
+
+
+#: ../../es/arduprog/pc42-led1.rst:172
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/arduprog/pc42-led1.rst:173
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+
+#: ../../es/arduprog/pc42-led1.rst:175
+msgid "Encender los leds D1, D3 y D5 de forma permanente."
+msgstr "Turn on leds D1, D3 and D5 permanently."
+
+
+#: ../../es/arduprog/pc42-led1.rst:177
+msgid ""
+"Encender el led D1, esperar un segundo, encender el led D2, esperar un "
+"segundo, continuar la secuencia hasta que estén encendidos los 4 primeros "
+"led. Una vez terminado, el programa mantendrá los 4 leds encendidos."
+msgstr ""
+"Turn on led D1, wait one second, turn on led D2, wait one second, continue "
+"the sequence until the first 4 leds are on. Once finished, the program will "
+"keep the 4 leds on."
+
+
+#: ../../es/arduprog/pc42-led1.rst:182
+msgid "Encender los leds rojo, ámbar y verde como en un semáforo."
+msgstr "Turn on the red, amber and green leds as in a traffic light."
+
+
+#: ../../es/arduprog/pc42-led1.rst:184
+msgid ""
+"Primero se encenderá el led verde y permanecerá encendido durante 4 "
+"segundos. A continuación se apagará el led verde y se encenderá el led ámbar"
+" durante 2 segundos. Por último se apagará el led ámbar y se encenderá el "
+"rojo, que permanecerá encendido durante 4 segundos."
+msgstr ""
+"First the green led will light up and stay on for 4 seconds. Then the green "
+"led will turn off and the amber led will light up for 2 seconds. Finally, "
+"the amber led will turn off and the red one will turn on, which will remain "
+"on for 4 seconds."
+
+
+#: ../../es/arduprog/pc42-led1.rst:191
+msgid "Esta secuencia se repetirá indefinidamente."
+msgstr "This sequence will repeat indefinitely."
+
+
+#: ../../es/arduprog/pc42-led1.rst:193
+msgid ""
+"Modificar el ejercicio anterior para que el led ámbar parpadee tres veces, "
+"cambiando de encendido a apagado cada medio segundo, antes de pasar a "
+"encender el led rojo."
+msgstr ""
+"Modify the previous exercise so that the amber led blinks three times, "
+"changing from on to off every half second, before turning on the red led."
+
+
+#: ../../es/arduprog/pc42-led1.rst:197
+msgid ""
+"Programar una baliza que encienda alternativamente el led rojo y el led "
+"azul. Cada led debe permanecer encendido durante un segundo. Siempre debe "
+"estar uno de los dos led encendidos y  nunca estarán los dos led encendidos "
+"a la vez."
+msgstr ""
+"Program a beacon that turns on alternately the red led and the blue led. "
+"Each led should stay on for one second. One of the two LEDs must always be "
+"on and both LEDs will never be on at the same time."
+
+
+#: ../../es/arduprog/pc42-led1.rst:202
+msgid ""
+"Encender el led D1, esperar un segundo, apagar el led D1 y encender el led "
+"D2. Se encenderán de esta forma, consecutivamente, los 5 primeros leds. En "
+"cada momento solo un led estará encendido. Una vez terminada la secuencia, "
+"comenzará de nuevo desde el principio."
+msgstr ""
+"Turn on led D1, wait a second, turn off led D1 and turn on led D2. In this "
+"way, the first 5 leds will light up consecutively. At each moment only one "
+"led will be on. Once the sequence is finished, it will start over from the "
+"beginning."
+
+
+#: ../../es/arduprog/pc42-led1.rst:209
+msgid ""
+"Realizar una modificación al ejercicio anterior para que en todo momento "
+"haya 2 leds encendidos."
+msgstr ""
+"Make a modification to the previous exercise so that at all times there are "
+"2 LEDs on."
+
+
+#: ../../es/arduprog/pc42-led1.rst:212
+msgid "Al comenzar el programa deben encenderse los leds D1 y D2."
+msgstr "When the program starts, leds D1 and D2 should light up."
+
+
+#: ../../es/arduprog/pc42-led1.rst:214
+msgid "Pasado un segundo se encenderán los leds D2 y D3."
+msgstr "After a second, leds D2 and D3 will light up."
+
+
+#: ../../es/arduprog/pc42-led1.rst:216
+msgid "La secuencia continuará hasta que estén encendidos los leds D6 y D1."
+msgstr "The sequence will continue until leds D6 and D1 are on."
+
+
+#: ../../es/arduprog/pc42-led1.rst:218
+msgid ""
+"A partir de este momento, el programa se repetirá comenzando otra vez desde "
+"el principio."
+msgstr ""
+"From this moment on, the program will be repeated starting again from the "
+"beginning."
+
+
+#: ../../es/arduprog/pc42-led1.rst:221
+msgid ""
+"El siguiente programa tiene varios errores. Corrige los errores sintácticos "
+"para que funcione correctamente."
+msgstr ""
+"The following program has several errors. Correct syntax errors to make it "
+"work correctly."
+
+
+#: ../../es/arduprog/pc42-led1.rst:253
+msgid ""
+"Realizar un programa que haga parpadear D1 una vez por segundo a la vez que "
+"D2 parpadea dos veces por segundo."
+msgstr ""
+"Make a program that makes D1 blink once per second while D2 blinks twice per"
+" second."

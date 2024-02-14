@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Printed circuit with led lights">
+  <title>Printed circuit with led lights - Electronics - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/electronic-pcb-luces-led.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="Computing" href="informatica-index.html">
+  <link rel="prev" title="4. Wiring on breadboard" href="bornas-protoboard.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="electronic-index.html">Electronics</a>/</li>
+        
+      <li>Printed circuit with led lights</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/electronic-pcb-luces-led.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/electronic-pcb-luces-led.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="circuito-impreso-con-luces-led">
+<span id="electronic-pcb-luces-led"></span><h1>Printed circuit with led lights<a class="headerlink" href="#circuito-impreso-con-luces-led" title="Permalink to this headline">¶</a></h1>
+<p>Design and assembly of a simple printed circuit with 6 blinking led lights.</p>
+<a class="reference external image-reference" href="_downloads/electronic-pcb-luces-led-03.jpg" rel="noopener noreferrer" target="_blank"><img alt="Circuito impreso con luces led, ya montado." class="align-center" src="_images/electronic-pcb-luces-led-03t.jpg" style="width: 480px;"></a>
+<p><a class="reference download internal" download="" href="_downloads/electronic-pcb-luces-led-03.jpg"><code class="xref download docutils literal notranslate"><span class="pre">Printed</span> <span class="pre">circuit</span> <span class="pre">board</span> <span class="pre">already</span> <span class="pre">assembled.</span> <span class="pre">JPG</span> <span class="pre">format.</span></code></a></p>
+<div class="section" id="circuito-electrico-completo">
+<h2>Complete electrical circuit<a class="headerlink" href="#circuito-electrico-completo" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/electronic-pcb-luces-led-02.png"><img alt="Circuito eléctrico." class="align-center" src="_images/electronic-pcb-luces-led-02.png" style="width: 480px;"></a>
+<p><a class="reference download internal" download="" href="_downloads/electronic-pcb-luces-led.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Electrical</span> <span class="pre">circuit</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">circuit</span> <span class="pre">with</span> <span class="pre">led</span> <span class="pre">lights.</span> <span class="pre">PDF</span> <span class="pre">format.</span></code></a></p>
+</div>
+<div class="section" id="funcionamiento-del-circuito-oscilador">
+<h2>Oscillator circuit operation<a class="headerlink" href="#funcionamiento-del-circuito-oscilador" title="Permalink to this headline">¶</a></h2>
+<p>The blinking lights circuit is based on an oscillator that changes its output every so often, turning the led on and off.</p>
+<a class="reference internal image-reference" href="_images/electronic-pcb-luces-led-02b.png"><img alt="Circuito eléctrico oscilador." class="align-center" src="_images/electronic-pcb-luces-led-02b.png" style="width: 480px;"></a>
+<p>This oscillator circuit consists of an inverter with a schmitt trigger, a capacitor C1 and a feedback resistor R3.</p>
+<p>The schmitt trigger inverter circuit changes its output at different input voltages. This behavior is called input hysteresis and is what allows the circuit to function as an oscillator. In the following graph we can see how the inverter output voltage changes for different input voltages. This rectangular figure with two horizontal lines is the one with the inverter inside and indicates that it works with hysteresis.</p>
+<a class="reference internal image-reference" href="_images/electronic-schmitt-histeresis.png"><img alt="Histéresis del circuito inversor Schmitt." class="align-center" src="_images/electronic-schmitt-histeresis.png" style="width: 340px;"></a>
+<p>When the circuit is first turned on, the capacitor is discharged and therefore its voltage at the positive terminal is zero volts. The schmitt inverter therefore has zero volts at its input (a logical zero) and a positive supply of 5 volts at its output (a logical one). In this situation, the feedback resistor R3 gradually charges the capacitor voltage until it reaches 3.33 volts, the voltage above which the schmitt inverter considers that the input is a logical one and therefore changes its value. output to zero volts (logic zero).</p>
+<p>Now, the feedback resistor R3 gradually discharges the capacitor voltage until it reaches 1.66 volts, the voltage from which the schmitt inverter considers that the input is a logic zero and therefore changes its output to five volts (a logical one) returning the cycle to repeat itself over and over again.</p>
+<p>The oscillation speed will depend on the values ​​of the capacitor and resistor. The larger they are, the longer it will take for the circuit to oscillate. The approximate formula for oscillation time is:</p>
+<blockquote>
+<div>Oscillation time = 0.8·R3·C1 = 0.8 · 220000 · 0.000010 = 1.76 seconds</div></blockquote>
+<a class="reference internal image-reference" href="_images/electronic-pcb-luces-led-02.png"><img alt="Circuito eléctrico." class="align-center" src="_images/electronic-pcb-luces-led-02.png" style="width: 640px;"></a>
+<p>LED D1 connected to the oscillator output by means of a limiting resistor R1, will turn on and off at the same speed as the oscillator.</p>
+<p>LED D2 connected to the output of another schmitt inverter through a limiting resistor R2, will turn on when D1 is off and will turn off when D1 is on, producing alternate blinking.</p>
+<p>This behavior is repeated in the three oscillators that the complete circuit has, at different frequencies since R3, R6 and R9 have different values ​​and therefore different blink rates.</p>
+</div>
+<div class="section" id="circuito-impreso-pcb">
+<h2>Printed circuit (PCB)<a class="headerlink" href="#circuito-impreso-pcb" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/electronic-pcb-luces-led-01t.jpg"><img alt="Circuito impreso." class="align-center" src="_images/electronic-pcb-luces-led-01t.jpg" style="width: 400px;"></a>
+<p><a class="reference download internal" download="" href="_downloads/electronic-pcb-luces-led.zip"><code class="xref download docutils literal notranslate"><span class="pre">Design</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">electrical</span> <span class="pre">circuit</span> <span class="pre">and</span> <span class="pre">the</span> <span class="pre">printed</span> <span class="pre">circuit.</span> <span class="pre">KiCad</span> <span class="pre">format.</span></code></a></p>
+<p><a class="reference download internal" download="" href="_downloads/electronic-pcb-luces-led-gerber.zip"><code class="xref download docutils literal notranslate"><span class="pre">Gerber</span> <span class="pre">files</span> <span class="pre">for</span> <span class="pre">the</span> <span class="pre">manufacture</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">printed</span> <span class="pre">circuit.</span> <span class="pre">ZIP</span> <span class="pre">format.</span></code></a></p>
+<p>The gerber files are used to request the manufacture of the printed circuit board from a printed circuit board manufacturing company such as <a class="reference external" href="https://jlcpcb.com/" rel="noopener noreferrer" target="_blank">JLCPCB</a> or <a class="reference external" href="https://www.pcbway.com/" rel="noopener noreferrer" target="_blank">PCBWay</a>.</p>
+<p>In total there is a set of 7 different gerber files, 3 files for the front, 3 files for the back layer and one for the edges of the board. There is also a file that indicates where the holes should be made (drill).</p>
+<p>The gerber and drill files are partitioned as follows:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Front Layer Copper Tracks (F_Cu)</li>
+<li>Back layer copper tracks (B_Cu)</li>
+<li>Front Layer Solder Mask (F_Mask)</li>
+<li>Back Layer Solder Mask (B_Mask)</li>
+<li>Front component silkscreen (F_SilkS)</li>
+<li>Back component silkscreen (B_SilkS)</li>
+<li>Edges to trim the plate (Edge_Cuts)</li>
+<li>Drill file (.drl)</li>
+</ul>
+</div></blockquote>
+<a class="reference internal image-reference" href="_images/electronic-pcb-luces-led-05.png"><img alt="Circuito impreso. Capas frontales." class="align-center" src="_images/electronic-pcb-luces-led-05.png" style="width: 400px;"></a>
+<a class="reference internal image-reference" href="_images/electronic-pcb-luces-led-06.png"><img alt="Circuito impreso. Capas traseras." class="align-center" src="_images/electronic-pcb-luces-led-06.png" style="width: 400px;"></a>
+<dl class="docutils">
+<dt><strong>Copper Tracks:</strong></dt><dd>They are the conductors that connect all the components of the printed circuit board together. They appear in the drawing as yellow (no solder mask) or light green (already covered with solder mask).</dd>
+<dt><strong>Solder Mask:</strong></dt><dd>It is a layer of paint, normally green although it can have other colors, which serves to protect the copper tracks from corrosion and to prevent short circuits when carrying out the welding process. Solder mask is not applied on top of solder pads.</dd>
+<dt><strong>Component Screen Printing</strong>:</dt><dd>It is a layer of paint, generally white, which is used to indicate the name of the components of the circuit and to write indications or drawings. This layer of paint is applied with the screen printing technique and hence its name.</dd>
+</dl>
+</div>
+<div class="section" id="listado-de-componentes-bom">
+<h2>List of components (BOM)<a class="headerlink" href="#listado-de-componentes-bom" title="Permalink to this headline">¶</a></h2>
+<p>The list of components (also called BOM or Bill Of Materials) is a list where all the components of the printed circuit appear with their quantity and their reference to be able to obtain them before carrying out the assembly.</p>
+<p>The list of components may also have the purchase reference of an electronic component distributor. In the following document, the references of the distributor <a class="reference external" href="https://www.tme.eu/" rel="noopener noreferrer" target="_blank">TME</a> have been added.</p>
+<p><a class="reference download internal" download="" href="_downloads/electronic-pcb-luces-led-bom.pdf"><code class="xref download docutils literal notranslate"><span class="pre">List</span> <span class="pre">of</span> <span class="pre">components</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">board</span> <span class="pre">with</span> <span class="pre">led</span> <span class="pre">lights.</span> <span class="pre">PDF</span> <span class="pre">format.</span></code></a></p>
+<p><a class="reference download internal" download="" href="_downloads/electronic-pcb-luces-led-bom.ods"><code class="xref download docutils literal notranslate"><span class="pre">List</span> <span class="pre">of</span> <span class="pre">components</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">board</span> <span class="pre">with</span> <span class="pre">led</span> <span class="pre">lights.</span> <span class="pre">SDG</span> <span class="pre">format.</span></code></a></p>
+</div>
+<div class="section" id="orden-y-posicion-de-montaje">
+<h2>Mounting order and position<a class="headerlink" href="#orden-y-posicion-de-montaje" title="Permalink to this headline">¶</a></h2>
+<p>When soldering the components it is convenient to follow an order, so that the lowest components are soldered first and then the highest ones. In this way, when the printed circuit board is turned over, the components can rest on the table and will not be detached from the board.</p>
+<p>In addition, each component has a soldering position. If we do not respect this position we run the risk of damaging the component or making the circuit not work.</p>
+<p>The mounting order and position are as follows:</p>
+<p><strong>1. Resistors</strong>:</p>
+<blockquote>
+<div>They don't need any particular order to work correctly, but the color coding is more elegant and easier to read when all the gold bands are aligned to the right (horizontal resistors) or facing up (vertical resistors) as in the image below. beginning of this unit.</div></blockquote>
+<p><strong>2. Power Switch SW1</strong>:</p>
+<blockquote>
+<div>It will need to be mounted so that the switch lever is positioned outside of the PCB so that it is easy to operate the switch.</div></blockquote>
+<p><strong>3. Integrated circuit socket</strong>:</p>
+<blockquote>
+<div><p>The socket has a small tab at the top that needs to be lined up with the tab on the component silkscreen, also at the top of the socket.</p>
+<p>If we insert the integrated circuit in the wrong direction (downwards) we run the risk of damaging it when current flows.</p>
+</div></blockquote>
+<p><strong>4. Capacitors</strong>:</p>
+<blockquote>
+<div><p>Electrolytic capacitors have a white band on one of their two pins that indicates the negative pole of the component and that must be mounted in the also white area of ​​the printed circuit silkscreen.</p>
+<p>It is very important that the capacitors are correctly assembled because if they receive voltage in the opposite direction they will break down and also generate gas inside that can cause them to explode.</p>
+</div></blockquote>
+<p><strong>5. LED diodes</strong>:</p>
+<blockquote>
+<div><p>Diodes only conduct in one direction and do not work in the opposite direction. In the screen printing of the printed circuit board the negative pin or cathode of the LEDs is always facing to the left. It is distinguished by the fact that the circle has a chamfer and that the solder pad is square.</p>
+<a class="reference internal image-reference" href="_images/electronic-pcb-catodo-2.png"><img alt="Cátodo de un diodo led en la serigrafía." class="align-center" src="_images/electronic-pcb-catodo-2.png" style="width: 340px;"></a>
+<p>When it comes to distinguishing the cathode in LED diodes, the easiest way is to look inside and look for the largest metal area, where the LED rests and which is connected to the negative pin (cathode).</p>
+<a class="reference internal image-reference" href="_images/electronic-pcb-catodo.png"><img alt="Cátodo de un diodo led." class="align-center" src="_images/electronic-pcb-catodo.png" style="width: 240px;"></a>
+</div></blockquote>
+<p><strong>6. Battery cables</strong>:</p>
+<blockquote>
+<div><p>It is very important to respect the order of the battery cables so as not to burn the circuit.</p>
+<p>The <strong>red wire is positive</strong> and is connected to the top hole (indicated by a <cite>+</cite> symbol on the silkscreen).</p>
+<p>The <strong>black wire is negative</strong> and is connected to the bottom hole (indicated by a <cite>-</cite> symbol on the silkscreen).</p>
+</div></blockquote>
+</div>
+<div class="section" id="soldadura">
+<h2>Welding<a class="headerlink" href="#soldadura" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Welding is done by adding material that is made up of tin and <strong>lead</strong>, so it is necessary to follow some safety procedures.</p>
+<p>It is important to wear gloves or <strong>wash hands</strong> properly after handling tin-lead wire.</p>
+<p class="last">During welding, <strong>toxic gases</strong> are produced from the antioxidant flux. These gases should not be inhaled. Welding should be done in a well-ventilated place with the windows open.</p>
+</div>
+<p>The welding technique is relatively simple, but it does not hurt to have some clear concepts on how to do it correctly before starting.</p>
+<p>In the following video you can see the correct technique for soldering the components.</p>
+<div class="video-center">
+<iframe src="https://www.youtube-nocookie.com/embed/vAx89WhpZ3k"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe> </div><p>In the following video we can see the big difference between a good quality solder and a low quality one. Good quality tin is much easier to work with and leaves a shiny, less oxidized and more robust solder.</p>
+<div class="video-center">
+<iframe src="https://www.youtube-nocookie.com/embed/5Ku7I3hA3AA"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe> </div><p>The following video shows us the usefulness of flux in soldering. By keeping a solder point hot for too long, the flux evaporates and the solder oxidizes and loses its shine.</p>
+<div class="video-center">
+<iframe src="https://www.youtube-nocookie.com/embed/tfIwHuGzUEk"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe> </div></div>
+<div class="section" id="reparar-una-soldadura">
+<h2>Repair a weld<a class="headerlink" href="#reparar-una-soldadura" title="Permalink to this headline">¶</a></h2>
+<p>In the event that we solder a component incorrectly, we can desolder it to re-solder it in the correct position. To desolder there are many techniques, one of the simplest is to absorb the solder with a mesh of fine copper wires.</p>
+<p>In the following video you can see some desoldering techniques.</p>
+<div class="video-center">
+<iframe src="https://www.youtube-nocookie.com/embed/bG7yW9FigJA"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe> </div></div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="informatica-index.html" class="btn btn-neutral float-right" title="Computing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="bornas-protoboard.html" class="btn btn-neutral" title="4. Wiring on breadboard" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/electronic-pcb-luces-led.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Printed circuit with led lights</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

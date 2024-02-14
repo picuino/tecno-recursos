@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Control Automático - Control Automático">
+  <title>Control Automático - Control Automático - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/control-auto.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Índice" href="content.html">
+  <link rel="search" title="Búsqueda" href="search.html">
+  <link rel="next" title="Controlador PID" href="control-pid.html">
+  <link rel="prev" title="Control Automático" href="control-index.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="control-index.html">Control Automático</a>/</li>
+        
+      <li>Control Automático</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/control-auto.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="control-automatico">
+<span id="control-auto"></span><h1>Control Automático<a class="headerlink" href="#control-automatico" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Los controladores o reguladores automáticos forman parte de muchos de
+los dispositivos que nos rodean, aunque no seamos conscientes de
+ello.</p>
+<p>Podemos encontrar ejemplos de controladores en el termostato de la
+calefacción o del aire acondicionado, en el control de temperatura del
+horno o de la nevera, en el regulador de nivel de luz, en la dirección
+asistida de los automóviles, el sistema de parada en un piso de los
+ascensores o, incluso, en el sistema de llenado de agua de la cisterna
+del inodoro.
+Allí donde una velocidad, un movimiento, temperatura, presión o nivel
+se mantienen regulados, hay un controlador que realiza este trabajo.</p>
+<p>Para referirse a este tipo de sistemas se utiliza la denominación de
+controladores automáticos o reguladores automáticos.</p>
+<p>En esta página se van a revisar los diferentes componentes de un sistema
+de control automático y los diferentes tipos de control que existen,
+de lazo abierto y de lazo cerrado.</p>
+<div class="section" id="elementos-de-un-sistema-de-control-en-lazo-abierto">
+<h2>Elementos de un sistema de control en lazo abierto<a class="headerlink" href="#elementos-de-un-sistema-de-control-en-lazo-abierto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En la siguiente imagen se muestra un esquema del sistema de control más
+sencillo, el control de lazo abierto.</p>
+<a class="reference internal image-reference" href="_images/img-0052.png"><img alt="Sistema de control en lazo abierto" class="align-center" src="_images/img-0052.png" style="width: 509px;"></a>
+<p>En este esquema se pueden reconocer cuatro bloques:</p>
+<dl class="glossary docutils">
+<dt id="term-Consigna">Consigna</dt><dd><p>Es la parte del sistema que describe lo que deseamos obtener del
+controlador.</p>
+<p>Por ejemplo, una consigna puede ser un mando manual en el que
+seleccionamos un tiempo de funcionamiento de 2 minutos en un
+microondas.
+Otro ejemplo sería el mando con el que seleccionamos la potencia de
+calentamiento que deseamos obtener en una vitrocerámica al cocinar.</p>
+</dd>
+<dt id="term-Controlador">Controlador</dt><dd><p>Se encarga de recibir una señal de consigna o señal de
+referencia y convertirla en una señal que consiga que el sistema
+alcance la referencia deseada.</p>
+<p>Un ejemplo de controlador es un temporizador que enciende y apaga
+el horno microondas cada pocos segundos para controlar su potencia.</p>
+</dd>
+<dt id="term-Accionador">Accionador</dt><dd><p>Es el encargado de convertir la señal de control, que
+tiene poca potencia, en una acción sobre el sistema, con mayor
+potencia.</p>
+<p>Volviendo al ejemplo del horno eléctrico, el accionador será
+la resistencia calefactora y el sistema de potencia que la enciende.
+En el caso de un servomecanismo, el accionador será el conjunto de
+transistores y el motor que mueven el mecanismo.</p>
+</dd>
+<dt id="term-Sistema">Sistema</dt><dd><p>También llamado en ocasiones planta, es aquello que se
+desea controlar.</p>
+<p>En un horno el sistema será la caja del horno en la
+que se desea controlar la temperatura. En el caso de un
+servomecanismo, el sistema será el motor y la caja reductora cuya
+posición se desea controlar.</p>
+</dd>
+</dl>
+<p>En ocasiones la consigna, el controlador o el accionador no
+tienen límites bien definidos o no existen en algún sistema.
+En cualquier caso es interesante conocer estos elementos a la hora de
+identificar las diferentes partes de un sistema de control.</p>
+</div>
+<div class="section" id="ejemplos-de-sistemas-de-control-en-lazo-abierto">
+<h2>Ejemplos de sistemas de control en lazo abierto<a class="headerlink" href="#ejemplos-de-sistemas-de-control-en-lazo-abierto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Podemos encontrar ejemplos de sistemas de control en lazo abierto en
+múltiples dispositivos de nuestro entorno.</p>
+<dl class="docutils">
+<dt>Control de potencia de un horno microondas</dt><dd><p>La <strong>consigna</strong> es el mando giratorio con el que seleccionamos el tiempo
+de encendido.</p>
+<p>El <strong>controlador</strong> está formado por un temporizador que enciende el horno
+y lo apaga al terminar el tiempo consignado.</p>
+<p>El <strong>accionador</strong> es un
+<a class="reference external" href="https://es.wikipedia.org/wiki/Magnetr%C3%B3n" rel="noopener noreferrer" target="_blank">magnetrón</a>
+que produce las microondas que calientan la leche.</p>
+<p>El <strong>sistema</strong> será, por ejemplo, el vaso de leche que se calienta en el
+interior del horno.</p>
+</dd>
+<dt>Control de potencia de un calentador eléctrico de aire</dt><dd><p>La <strong>consigna</strong> es el mando que giramos para conseguir una potencia
+media o potencia completa.</p>
+<p>El <strong>controlador</strong> es el interruptor que selecciona entre una o
+dos resistencias calefactoras.</p>
+<p>El <strong>accionador</strong> está formado por las resistencias calefactoras y
+el ventilador.</p>
+<p>El <strong>sistema</strong> es la habitación calentada por el aire caliente del
+calefactor.</p>
+</dd>
+<dt>Control de intensidad de luz</dt><dd><p>La <strong>consigna</strong> es el
+<a class="reference external" href="https://es.wikipedia.org/wiki/Potenci%C3%B3metro" rel="noopener noreferrer" target="_blank">potenciómetro</a>
+o resistencia variable que se gira para conseguir mayor o menor
+luminosidad.</p>
+<p>El <strong>controlador</strong> es un circuito electrónico que decide cuanto tiempo
+estará conectada la lámpara varias veces por segundo.</p>
+<p>El <strong>accionador</strong> es un circuito electrónico de potencia y la
+lámpara que produce luz.</p>
+<p>El <strong>sistema</strong> es la habitación con más o menos iluminación.</p>
+</dd>
+<dt>Control de nivel de sonido en un equipo de audio</dt><dd><p>La <strong>consigna</strong> es el potenciómetro que se mueve para
+conseguir mayor o menor nivel de sonido.</p>
+<p>El <strong>accionador</strong> es el amplificador y los altavoces del equipo de
+música.</p>
+<p>El <strong>sistema</strong> es la habitación y el nivel de sonido que se consigue.</p>
+</dd>
+</dl>
+<p>Uno de los controladores en lazo abierto más habituales es el
+<strong>temporizador</strong>.
+Este se puede encontrar en múltiples dispositivos como encendido
+temporizado de las luces de escalera de un edificio, apagado automático de
+escaleras automáticas, temporizador de un horno microondas, etc.</p>
+<p>En los sistemas en lazo abierto se puede controlar que el sistema reciba
+del accionador más o menos potencia, pero no se puede controlar con
+exactitud el punto en el que se encontrará el sistema controlado.</p>
+<p>En el caso del horno microondas, por ejemplo, no podemos estar seguros
+de la temperatura que alcanzará la leche en su interior.
+Tampoco con el calentador eléctrico de aire podemos conocer con exactitud
+la temperatura que alcanzará la habitación.
+En ambos casos el resultado final dependerá del tamaño del vaso o de la
+habitación, de la temperatura ambiente, del aislamiento, de la potencia
+total del calentador, etc.</p>
+<p>Esta desventaja de los sistemas en lazo abierto no impide que se utilicen
+con mucha frecuencia por su gran sencillez y por ser muy robustos.</p>
+</div>
+<div class="section" id="elementos-de-un-sistema-de-control-en-lazo-cerrado">
+<h2>Elementos de un sistema de control en lazo cerrado<a class="headerlink" href="#elementos-de-un-sistema-de-control-en-lazo-cerrado" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En la siguiente imagen se muestra un esquema de un sistema de control
+en lazo cerrado.</p>
+<a class="reference internal image-reference" href="_images/img-0053.png"><img alt="Sistema de control en lazo cerrado" class="align-center" src="_images/img-0053.png" style="width: 578px;"></a>
+<p>Este tipo de sistema de control soluciona el problema de los sistemas
+en lazo abierto, que dependen del accionador, de las condiciones
+ambientales, etc.
+El nombre de lazo cerrado proviene de la señal del sensor que vuelve al
+controlador, cerrando el lazo de control.
+Los elementos del sistema de control en lazo cerrado son los mismos que
+los elementos del sistema de control en lazo abierto con dos añadidos:</p>
+<dl class="glossary docutils">
+<dt id="term-Sensor">Sensor</dt><dd><p>El sensor mide el estado o variable a controlar en el sistema
+(posición, temperatura, humedad, etc.) Esto permite conocer el
+estado del sistema y corregir las desviaciones para que se pueda
+conseguir el estado deseado.</p>
+<p>Por ejemplo, en un frigorífico, el sensor de temperatura detecta la
+temperatura interior para apagar el motor cuando hace demasiado frio
+y encender el motor si la temperatura sube demasiado.</p>
+</dd>
+<dt id="term-Comparador">Comparador</dt><dd><p>Este elemento está representado por un círculo en el esquema.
+Su función es comparar la señal de referencia r que proviene de
+la consigna y la señal de realimentación h que proviene del sensor
+y calcular el error e que existe entre la respuesta deseada y
+el estado real del sistema.</p>
+<p>A partir de ese error se puede conseguir llevar al sistema al estado
+deseado, que es el que dicta la consigna.</p>
+</dd>
+</dl>
+<p>Este tipo de control conseguirá que el sistema se encuentre en el estado
+deseado independientemente de las condiciones ambientales.</p>
+<p>Las señales del sistema de control son las siguientes:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width:12%;">
+<col style="width:26%;">
+<col style="width:62%;">
+</colgroup>
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">Señal</th>
+<th class="head">Nombre</th>
+<th class="head">Función</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td><strong>r</strong></td>
+<td><strong>Referencia</strong></td>
+<td>Es el estado que se desea alcanzar en
+el sistema.</td>
+</tr>
+<tr class="row-odd"><td><strong>e</strong></td>
+<td><strong>Error</strong></td>
+<td>Es la diferencia entre el estado deseado y
+el estado real del sistema a controlar.</td>
+</tr>
+<tr class="row-even"><td><strong>c</strong></td>
+<td><strong>Control</strong></td>
+<td>Es la señal que genera el controlador.</td>
+</tr>
+<tr class="row-odd"><td><strong>u</strong></td>
+<td><strong>Accionamiento</strong></td>
+<td>Es la acción que se ejerce sobre el
+sistema para controlarle.</td>
+</tr>
+<tr class="row-even"><td><strong>y</strong></td>
+<td><strong>Salida</strong></td>
+<td>Es el estado real que ha alcanzado el
+sistema a controlar.</td>
+</tr>
+<tr class="row-odd"><td><strong>h</strong></td>
+<td><strong>Realimentación</strong></td>
+<td>Es la medida del estado del sistema.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ejemplos-de-sistemas-de-control-en-lazo-cerrado">
+<h2>Ejemplos de sistemas de control en lazo cerrado<a class="headerlink" href="#ejemplos-de-sistemas-de-control-en-lazo-cerrado" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Al igual que en el caso de los controladores en lazo abierto, también
+existen múltiples aparatos cotidianos que tienen sistemas de control
+en lazo cerrado. Estos se caracterizan por tener un sensor que permite
+medir el estado del sistema y controlarle con precisión.</p>
+<p>Control de temperatura de un <strong>frigorífico</strong>.</p>
+<p>Control de temperatura en un <strong>horno eléctrico</strong>.</p>
+<p>Control de llenado de agua de una <strong>cisterna</strong> del inodoro.</p>
+<p><strong>Dirección asistida</strong> de un automóvil o de un camión.</p>
+<p>Control de posición de un <strong>servomecanismo</strong>.</p>
+<p>Sistema de marcha y parada en cada piso de un <strong>ascensor</strong>.</p>
+<p>Control de apertura de una <strong>puerta automática</strong>, que se abre
+reaccionando a la presencia de alguien.</p>
+<a class="reference internal image-reference" href="_images/img-0054.jpg"><img alt="Servomotor" class="align-center" src="_images/img-0054.jpg" style="width: 360px;"></a>
+</div>
+<div class="section" id="referencias">
+<h2>Referencias<a class="headerlink" href="#referencias" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Wikipedia: <a class="reference external" href="https://es.wikipedia.org/wiki/Sistema_de_control" rel="noopener noreferrer" target="_blank">Sistema de control</a></p>
+<p>Wikipedia: <a class="reference external" href="https://es.wikipedia.org/wiki/Servomotor" rel="noopener noreferrer" target="_blank">Servomotor</a></p>
+<p>[1] Ogata, Katsuhiko. Ingeniería de Control Moderna. Tercera edición.
+Editorial Prentice Hall.</p>
+<p>[2] Ogata, Katsuhiko. Sistemas de control en tiempo discreto.
+Segunda edición. Editorial Prentice Hall.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="control-pid.html" class="btn btn-neutral float-right" title="Controlador PID" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="control-index.html" class="btn btn-neutral" title="Control Automático" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024 por Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en febrero, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../en/control-auto.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricidad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="control-index.html">Control Automático</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Control Automático</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-pid.html">Controlador PID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-ziegler-nichols.html">Método de Ziegler-Nichols</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-pid-digital.html">Controlador PID digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-actuator-servomotor.html">Servomotor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-sensor-index.html">Sensores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-robots-index.html">Robots actuales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-recursos.html">Recursos para control y robótica</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

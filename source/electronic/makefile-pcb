@@ -1,0 +1,85 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+SOURCES=_sources
+
+LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 6
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z
+
+
+# --------------------------------------------------------------------
+# MACRO DEFINITIONS
+#
+
+define crop_page
+	$(eval geometry = $(shell python3 -c "import sys; \
+	((x0,y0),(x1,y1))=eval(sys.argv[1]); \
+	print('%dx%d+%d+%d'%((x1-x0),(y1-y0),x0,y0));" $(2) ))
+	$(CONVERT) $(1) -crop $(geometry) +repage $(CONVERT_OPT) $(3)
+	$(OPTIPNG) $(3)
+endef
+define convert_pdf
+	$(PDFTOPNG) $(1) $(basename $(1))
+	mv $(basename $(1))-000001.png  $(IMGDIR)/$(basename $(1)).png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $(1)).png
+	$(OPTIPNG) $(IMGDIR)/$(basename $(1)).png
+endef
+
+
+# --------------------------------------------------------------------
+# PCB LUCES LED
+#
+
+$(IMGDIR)/electronic-pcb-luces-led.png: electronic-pcb-luces-led.pdf
+	$(call convert_pdf, $<)
+
+$(IMGDIR)/electronic-pcb-luces-led-02.png: $(IMGDIR)/electronic-pcb-luces-led.png
+	$(call crop_page, $<, "((1300, 450),(3100, 1750))", $@)
+
+electronic-pcb-luces-led.zip:  $(wildcard pcb-luces-led/*)
+	rm -f electronic-pcb-luces-led.zip
+	$(ZIP) a -r -x!*.*bak $@ pcb-luces-led/*
+
+electronic-pcb-luces-led-gerber.zip:  $(wildcard pcb-luces-led/gerber/*)
+	rm -f electronic-pcb-luces-led-gerber.zip
+	$(ZIP) a -r $@ ./pcb-luces-led/gerber/*
+
+
+.PHONY: all-pcb-luces-led  clean-pcb-luces-led
+
+all-pcb-luces-led: \
+	$(IMGDIR)/electronic-pcb-luces-led.png \
+	$(IMGDIR)/electronic-pcb-luces-led-02.png \
+	electronic-pcb-luces-led.zip \
+	electronic-pcb-luces-led-gerber.zip \
+
+clean-pcb-luces-led:
+	rm -f $(IMGDIR)/electronic-pcb-luces-led.png \
+	rm -f $(IMGDIR)/electronic-pcb-luces-led-02.png \
+	rm -f electronic-pcb-luces-led.zip
+	rm -f electronic-pcb-luces-led-gerber.zip
+
+
+# --------------------------------------------------------------------
+# make all
+#
+
+.PHONY: all clean
+
+all: \
+	all-pcb-luces-led \
+
+
+clean: \
+   clean-pcb-luces-led \

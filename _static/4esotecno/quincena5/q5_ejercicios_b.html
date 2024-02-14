@@ -1,0 +1,386 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/q5_ejercicios_b.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:46:32 GMT -->
+<head>
+<title>Quincena 5 L&oacute;gica Binaria</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+<style type="text/css">
+<!--
+-->
+  </style>
+<link href="../paracidead1.css" rel="stylesheet" type="text/css">
+<link href="../q5q6.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body onLoad="MM_preloadImages('../imagen/paraantes3.png','../imagen/paraconte.png','../imagen/atrasb.png','../imagen/paraantes2.png','../imagen/paracont2.png','../imagen/adelanteb.png','../imagen/atrasb.png','../imagen/paraantes3.png','../imagen/paracont3.png','../imagen/paraejer.png','../imagen/paraejer2.png','../imagen/paraeval3.png','../imagen/paraeval2.png','../imagen/paratut3.png','../imagen/paratut2.png','../imagen/paramas3.png','../imagen/paramas2.png','../imagen/paraejer3.png')" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;"> 
+  
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="../imagen/es1.gif" height="8" width="8"></td>
+      <td background="../imagen/bor1.gif" height="8"></td>
+      <td background="../imagen/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="../imagen/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table width="100%" cellspacing="12" class="arial2">
+          <tr> 
+            <td valign="top" class="titulo"> <img src="../imagen/ejercicios.png" width="50" height="39" align="middle">Para 
+              practicar </td>
+            <td width="50%"><div class="recuadro" >
+              Repasa los <strong>contenidos</strong> de esta sección:<br/>  
+              De binario a decimal y de decimal a binario</div></td>
+          </tr>
+          <tr> 
+            <td valign="top">
+			<p class="titulo2">De binario a decimal y de decimal a binario</p>            </td>
+            <td><p>&nbsp;</p></td>
+          </tr>
+		  <tr>
+            <td colspan="2" valign="top">Haz los ejercicios que se generan en tu cuaderno y comprueba la soluci&oacute;n. </td>
+          </tr>
+          <tr>
+            <td height="320" valign="top"><p>&nbsp;</p>
+            <div align="center">
+              	<!-- 
+ // Scrit realizado por Miguel e María
+ // http://www.tecnoloxia.org
+ // Licenza Creative commons
+ // Pódese copiar, modificar e distribuír baixo a mesma licenza
+ // Sinalando a autoría 
+ -->
+
+<script language="javascript">
+<!-- //code hiding
+
+	function convierteEnBinario(val,size) {
+	   var cadena = val.toString(2);
+	   var l=cadena.length;
+	   var dif = size - l;
+	   for(var i=0; i< dif;i++)
+	       cadena ="0"+cadena;
+	   return cadena;
+	}
+   
+   function q52b_comprueba(f1) {
+	valor = parseInt(f1.binval.value,2);
+	respuesta = parseInt(f1.result.value,10);
+	if(valor != respuesta)
+		q52b_mal(f1);
+	else
+		q52b_bien(f1);
+
+   }
+
+   function q52b_nuevo(f1) {
+  	nuevo = Math.floor(Math.random()*64);
+	f1.result.value = "";
+        f1.binval.value =convierteEnBinario(nuevo,6);
+   	document.getElementById('Solucion_q52b').innerHTML="";
+   }
+
+   function q52b_bien(f1) {
+//        q52b_nuevo(f1);	
+        document.getElementById('Solucion_q52b').innerHTML="Correcto. Puedes probar otra vez, si quieres";
+    
+   }
+   function q52b_mal(f1) {
+        document.getElementById('Solucion_q52b').innerHTML="La respuesta no es correcta. Prueba otra vez";
+	q52b_solucion(f1);	
+      
+   }
+   function q52b_solucion(f1) {
+	valor = parseInt(f1.binval.value,2);
+	resultado = valor;
+	cadena = "La respuesta correcta es <b>" + valor.toString(10) + "</b><br /><br /><strong>"+f1.binval.value+"</strong>  =  <br /><br />";
+	binario = f1.binval.value;
+	v32 = Math.floor(valor / 32);
+	valor = valor % 32;
+
+	v16 = Math.floor(valor / 16);
+	valor = valor % 16;
+
+	v8 = Math.floor(valor / 8);
+	valor = valor % 8;
+
+	v4 = Math.floor(valor / 4);
+	valor = valor % 4;
+
+	v2 = Math.floor(valor / 2);
+	v0 = valor % 2;
+	
+	//solucion = cadena + " 32 x <b>" + v32.toString(10) + "</b><br> 16 x <b>" + v16.toString(10) + "</b><br> 8 x <b>" + v8.toString(10) + "</b><br>" +
+//			    " 4 x  <b>" +  v4.toString(10) + "</b><br> 2 x <b>" + v2.toString(10) + "</b><br> 1 x <b>" + v0.toString(10) + "</b><br>" +
+//			    "_____________<br><b>" + resultado.toString(10)+"</b></p>";
+	
+				
+					
+   	solucion = cadena + 
+	"<table width='240' border='0' align='center' class='arial2'>" +
+  "<tr>" +
+    "<td width='40' scope='col' align='center'>x32</td>" +
+    "<td width='40' scope='col' align='center'>x16</td>" +
+    "<td width='40' scope='col' align='center'>x8 </td>" +
+    "<td width='40' scope='col' align='center'>x4 </td>" +
+    "<td width='40' scope='col' align='center'>x2 </td>" +
+    "<td width='40' scope='col' align='center'>x1 </td>" +
+  "</tr>" +
+  "<tr>" +
+    "<td align='center'><img src='imagenes5/flecha_sup.gif' alt='|' width='11' height='16'></td>" +
+    "<td align='center'><img src='imagenes5/flecha_sup.gif' alt='|' width='11' height='16'></td>" +
+    "<td align='center'><img src='imagenes5/flecha_sup.gif' alt='|' width='11' height='16'></td>" +
+    "<td align='center'><img src='imagenes5/flecha_sup.gif' alt='|' width='11' height='16'></td>" +
+    "<td align='center'><img src='imagenes5/flecha_sup.gif' alt='|' width='11' height='16'></td>" +
+    "<td align='center'><img src='imagenes5/flecha_sup.gif' alt='|' width='11' height='16'></td>" +
+  "</tr>" +
+  "<tr>" +
+    "<td class='recuadrorojo' align='center'><b>" + v32.toString(10) + "</b></td>" +
+    "<td class='recuadrorojo' align='center'><b>" + v16.toString(10) + "</b></td>" +
+    "<td class='recuadrorojo' align='center'><b>" + v8.toString(10) + "</b></td>" +
+    "<td class='recuadrorojo' align='center'><b>" + v4.toString(10) + "</b></td>" +
+    "<td class='recuadrorojo' align='center'><b>" + v2.toString(10) + "</b></td>" +
+    "<td class='recuadrorojo' align='center'><b>" + v0.toString(10) + "</b></td>" +
+  "</tr>" +
+  "<tr>" +
+    "<td align='center'>" + (v32*32).toString(10) + "</td>" +
+    "<td align='center'>+ " + (v16*16).toString(10) + "</td>" +
+    "<td align='center'>+ " + (v8*8).toString(10) + "</td>" +
+    "<td align='center'>+ " + (v4*4).toString(10) + "</td>" +
+    "<td align='center'>+ " + (v2*2).toString(10) + "</td>" +
+    "<td align='center'>+ " + (v0*1).toString(10) + "</td>" +
+  "</tr>" +
+  "<tr>" +
+    "<td colspan='6'><br /><b>Resultado= " + resultado.toString(10)+"</b></td>" +
+  "</tr>" +
+"</table>"  ;
+	
+	document.getElementById('Solucion_q52b').innerHTML=solucion;
+   }
+      
+//-->
+</script>
+
+<link href="../../q5q6.html" rel="stylesheet" type="text/css">
+<link href="../../paracidead1.html" rel="stylesheet" type="text/css">
+<body >
+
+<div align="center"><strong class="titulo2">Prueba a pasar de binario a decimal</strong><br /><br />
+	
+<form>
+
+ <span class="arial2"><b>Valor en binario</b> &nbsp; 
+ <script language='javascript'> document.write("<input type='text' value='"+ convierteEnBinario(Math.floor(Math.random()*64),6)+"' readonly name='binval' size='6'>"); </script>
+ <input type="button" value="nuevo" onClick="q52b_nuevo(this.form)">
+ <br /><br />
+ <b>Valor en decimal</b> 
+ <input type='text' value=' ' name='result' size='6'>
+ <input type="button" value="comprobar" onClick="q52b_comprueba(this.form)">
+ </span><br /><br />
+</form>
+</div>
+<div align="center" class="arial2" id="Solucion_q52b"></div>
+
+
+
+
+			</div>			</td>
+            <td height="320" valign="top"><p>&nbsp;</p>
+            <div align="center">
+              	<!-- 
+ // Scrit realizado por Miguel e María
+ // http://www.tecnoloxia.org
+ // Licenza Creative commons
+ // Pódese copiar, modificar e distribuír baixo a mesma licenza
+ // Sinalando a autoría 
+ -->
+
+<script language="javascript">
+<!-- //code hiding
+	function convierteEnBinario(val,size) {
+	   var cadena = val.toString(2);
+	   var l=cadena.length;
+	   var dif = size - l;
+	   for(var i=0; i< dif;i++)
+	       cadena ="0"+cadena;
+	   return cadena;
+	}
+
+   function q52c_comprueba(f1) {
+	valor = parseInt(f1.decval.value,10);
+	respuesta = parseInt(f1.result.value,2);
+	if(valor != respuesta)
+		q52c_mal(f1);
+	else
+		q52c_bien(f1);
+
+   }
+
+   function q52c_nuevo(f1) {
+  	nuevo = Math.floor(Math.random()*64);
+	f1.result.value = "";
+        f1.decval.value =nuevo.toString(10);
+   	document.getElementById('Solucion_q52c').innerHTML="";
+   }
+
+   function q52c_bien(f1) {
+//        q52c_nuevo(f1);
+        document.getElementById('Solucion_q52c').innerHTML="Correcto. Puedes probar otra vez, si quieres";
+	
+    
+   }
+   function q52c_mal(f1) {
+        document.getElementById('Solucion_q52c').innerHTML="La respuesta no es correcta. Prueba otra vez";
+	q52c_solucion(f1);	
+      
+   }
+   function q52c_solucion(f1) {
+	valor = parseInt(f1.decval.value,10);
+	resultado = valor;
+	cadena = "La respuesta correcta es <b>" + convierteEnBinario(valor,6) + "</b><br /><br /><table> ";
+	decimal = f1.decval.value;
+
+	v5 = Math.floor(valor / 2);
+	t5 = valor % 2;
+	cadena = cadena + "<tr>" + "<td width='30' align='center'>" + valor + "</td><td width='30' class='binario'  align='center'>" + 2 + "</td><td width='30'  align='center'>" +"</td><td width='30'  align='center'>" +"</td><td width='30'  align='center'>" +"</td><td width='30'  align='center'>" +"</td></tr>";
+	cadena = cadena + "<tr>" + "<td  align='center'><b>" + t5 + "</b></td><td  align='center'>" + v5 + "</td><td class='binario'  align='center'>"+ "2" +"</td><td  align='center'>" +"</td><td align='center'>" +"</td><td align='center'>" +"</td></tr>";
+
+	v4 = Math.floor(v5 / 2);
+	t4 = v5 % 2;
+	cadena = cadena + "<tr>" + "<td align='center'>" + "</td><td align='center'><b>"  + t4 + "</b></td><td align='center'>" + v4 + "</td><td class='binario' align='center'>"+ 2 +"</td><td align='center'>" +"</td><td align='center'>" +"</td></tr>";
+
+	v3 = Math.floor(v4 / 2);
+	t3 = v4 % 2;
+	cadena = cadena + "<tr>" + "<td align='center'>" + "</td><td align='center'>" + "</td><td align='center'><b>"   + t3 + "</b></td><td align='center'>" + v3 + "</td><td class='binario' align='center'>"+ 2 +"</td><td align='center'>" +"</td></tr>";
+
+	v2 = Math.floor(v3 / 2);
+	t2 = v3% 2;
+	cadena = cadena + "<tr>" + "<td align='center'>" + "</td><td align='center'>"+ "</td><td align='center'>" + "</td><td align='center'><b>"   + t2 + "</b></td><td align='center'>" + v2 + "</td><td class='binario' align='center'>"+ 2  +"</td></tr>";
+
+	v1 = Math.floor(v2 / 2);
+	t1 = v2% 2;
+	v0 = Math.floor(v1 / 2)
+	cadena = cadena + "<tr>" + "<td align='center'>" + "</td><td align='center'>"+ "</td><td align='center'>" + "</td><td align='center'>" + "</td><td align='center'><b>"    + t1 + "</b></td><td align='center'><b>" + v1 + "</b></td></tr>";
+	
+	cadena = cadena + "</table>";
+   	document.getElementById('Solucion_q52c').innerHTML=cadena;
+   }
+      
+//-->
+</script>
+
+<link href="../../q5q6.html" rel="stylesheet" type="text/css">
+<link href="../../paracidead1.html" rel="stylesheet" type="text/css">
+
+<body>
+
+<div align="center"><strong class="titulo2">Prueba a pasar de decimal a binario</strong><br /><br />
+	
+<form>
+
+<span class="arial2"><b>Valor en decimal</b> 
+<script language='javascript'> document.write("<input type='text' value='"+ Math.floor(Math.random()*64).toString(10)+"' readonly name='decval' size='6'>"); </script>
+<input type="button" value="nuevo" onClick="q52c_nuevo(this.form)">
+<br />
+<br />
+<b>Valor en binario</b>
+&nbsp; 
+<input type='text' value=' ' name='result' size='6'>
+<input type="button" value="comprobar" onClick="q52c_comprueba(this.form)">
+<br />
+</span><br />
+</form>
+</div>
+<div align="center" class="arial2" id="Solucion_q52c"></div>
+			</div>			</td>
+          </tr>
+          
+        </table>
+      </td>
+      <td rowspan="2" background="../imagen/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="../imagen/es4.gif" height="8" width="8"></td>
+      <td background="../imagen/bor3.gif" height="8"></td>
+      <td background="../imagen/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+</div>
+</body>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/q5_ejercicios_b.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:46:32 GMT -->
+</html>

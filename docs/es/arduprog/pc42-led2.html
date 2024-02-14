@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Arduino - Panel de Control PC42 - 4. Parpadeo de los LED">
+  <title>4. Parpadeo de los LED - Panel de Control PC42 - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/arduprog/pc42-led2.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Índice" href="../content.html">
+  <link rel="search" title="Búsqueda" href="../search.html">
+  <link rel="next" title="5. Pulsadores y Estados" href="pc42-key1.html">
+  <link rel="prev" title="3. Encendido y apagado de los LED" href="pc42-led1.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="index.html">Arduino</a>/</li>
+        
+          <li><a href="pc42-index.html">Panel de Control PC42</a>/</li>
+        
+      <li><span class="section-number">4. </span>Parpadeo de los LED</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arduprog/pc42-led2.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="parpadeo-de-los-led">
+<span id="pc42-led2"></span><h1><span class="section-number">4. </span>Parpadeo de los LED<a class="headerlink" href="#parpadeo-de-los-led" title="Enlazar permanentemente con este título">¶</a></h1>
+<a class="reference internal image-reference" href="../_images/img-0090.jpg"><img alt="LED de colores y RGB." class="align-center" src="../_images/img-0090.jpg" style="width: 300px;"></a>
+<div class="section" id="objetivos">
+<h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li>Generar parpadeo de leds mediante la función ledBlink.</li>
+</ul>
+</div>
+<div class="section" id="la-funcion-ledblink">
+<h2>La función <a class="reference internal" href="#_CPPv48ledBlinkiii" title="ledBlink"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">ledBlink()</span></code></a><a class="headerlink" href="#la-funcion-ledblink" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv48ledBlinkiii">
+<span id="_CPPv38ledBlinkiii"></span><span id="_CPPv28ledBlinkiii"></span><span id="ledBlink__i.i.i"></span><code class="descname">ledBlink</code><span class="sig-paren">(</span>int <em>ledNum</em>, int <em>time_on</em>, int <em>time_off</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48ledBlinkiii" title="Enlazar permanentemente con esta definición">¶</a><br></dt>
+<dd><p>Esta función hace parpadear a un led con una cadencia determinada.
+Sus parámetros son los siguientes:</p>
+<p><code class="docutils literal notranslate"><span class="pre">ledNum</span></code>: led que va a parpadear. Los valores válidos van desde 1 para el led
+D1 hasta 8 para el color azul del led D6.</p>
+<p>El led D6 es un led RGB, que integra 3 leds en su interior.
+Los números 6, 7, 8 representan respectivamente los colores rojo, verde y azul del led D6.</p>
+<p><code class="docutils literal notranslate"><span class="pre">time_on</span></code>: tiempo, en milésimas de segundo, que el led debe permanecer encendido.
+Si este parámetro vale cero, el led permanecerá encendido todo el tiempo.</p>
+<p><code class="docutils literal notranslate"><span class="pre">time_off</span></code>: tiempo, en milésimas de segundo, que el led debe permanecer apagado.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Cada vez que se ejecuta la función <a class="reference internal" href="#_CPPv48ledBlinkiii" title="ledBlink"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">ledBlink()</span></code></a>, el led comienza el ciclo
+encendiéndose durante el tiempo <code class="docutils literal notranslate"><span class="pre">time_on</span></code>.
+Esto puede servir para sincronizar el comienzo del parpadeo de un led.
+Si la función <a class="reference internal" href="#_CPPv48ledBlinkiii" title="ledBlink"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">ledBlink()</span></code></a> se ejecuta repetidamente cada poco tiempo,
+el led permanecerá todo el tiempo encendido, puesto que su tiempo encendido
+se reinicia una y otra vez.</p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="parpadeo-del-led-d1">
+<h2>Parpadeo del led D1<a class="headerlink" href="#parpadeo-del-led-d1" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En este ejemplo se desea hacer parpadear al led D1 con un tiempo encendido de medio segundo y
+un tiempo apagado de medio segundo. El periodo de parpadeo será por lo tanto de un segundo.
+En este caso la función se dará desde el bloque <code class="docutils literal notranslate"><span class="pre">setup()</span></code> una sola vez.</p>
+<div class="highlight-Arduino notranslate" id="led-ledblink"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Parpadea el led D1 una vez por segundo</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledBlink</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">500</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span> <span class="c1">// Parpadea el led D1</span>
+                             <span class="c1">//   500 milésimas de segundo encendido</span>
+                             <span class="c1">//   500 milésimas de segundo apagado</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<p>Programa equivalente en el entorno Ardublock:</p>
+<a class="reference internal image-reference" href="../_images/ardublock_ledBlink.png"><img alt="Programa de Ardublock para parpadear el led D1 del panel de control PC42" src="../_images/ardublock_ledBlink.png" style="width: 600px;"></a>
+<p>En este enlace se puede descargar el
+<a class="reference download internal" download="" href="../_downloads/ardublock_ledBlink.abp"><code class="xref download docutils literal notranslate"><span class="pre">archivo</span> <span class="pre">de</span> <span class="pre">programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock</span>
+<span class="pre">'ledBlink'</span></code></a></p>
+</div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Programa el código necesario para resolver los siguientes problemas.</p>
+<ol class="arabic">
+<li><p class="first">Hacer parpadear el led D1 y el led D4 con un tiempo de encendido de
+medio segundo y un tiempo de apagado de medio segundo.
+Los dos leds se deben encender y apagar al mismo tiempo.
+Utilizar la función <a class="reference internal" href="#_CPPv48ledBlinkiii" title="ledBlink"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">ledBlink()</span></code></a>.</p>
+</li>
+<li><p class="first">Modificar el ejercicio anterior para que el encendido de los dos leds
+D1 y D4 sea alternativo, de manera que solo un led esté encendido en cada
+momento. El tiempo de encendido de cada led será de medio segundo.</p>
+</li>
+<li><p class="first">Hacer parpadear dos led a la vez con una frecuencia de un segundo.
+El led D1 se programará con la función <code class="docutils literal notranslate"><span class="pre">ledBlink(1,</span> <span class="pre">500,</span> <span class="pre">500)</span></code>,
+por el contrario el led D3 se programará con el siguiente código.</p>
+<div class="highlight-arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>  <span class="c1">// Encender el led D3</span>
+   <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>              <span class="c1">// Esperar medio segundo (500 ms)</span>
+   <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">LED_OFF</span><span class="p">);</span> <span class="c1">// Apagar el led D3</span>
+   <span class="nf">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>              <span class="c1">// Esperar medio segundo (500 ms)</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<p>Se debe intentar sincronizar los dos leds para que parpadeen a la
+vez ajustando los tiempos de encendido modificando el tiempo de la
+función <code class="docutils literal notranslate"><span class="pre">delay(500)</span></code>.</p>
+</li>
+<li><p class="first">Corregir los errores sintácticos del siguiente programa para conseguir
+que funcione correctamente.</p>
+<div class="highlight-arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Programa con errores sintácticos.</span>
+<span class="c1">// Luces de Navidad.</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="kr">int</span> <span class="n">time_on</span><span class="p">;</span>   <span class="c1">// Declara la variable time_on como un número entero</span>
+   <span class="kr">int</span> <span class="n">time_off</span><span class="p">;</span>  <span class="c1">// Declara la variable time_off como un número entero</span>
+
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>    <span class="c1">// Inicializar el módulo PC42</span>
+
+   <span class="c1">// Repite y asigna valores a variable &#39;num&#39; desde 1 hasta 5</span>
+   <span class="k">for</span><span class="p">(</span><span class="kr">int</span> <span class="n">num</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">num</span><span class="o">&lt;=</span><span class="mi">5</span><span class="p">;</span> <span class="n">num</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+
+      <span class="c1">// Tiempo encendido = aleatorio entre 0,5 y 3,0 segundos</span>
+      <span class="n">time_on</span> <span class="o">=</span> <span class="nf">random</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="mi">3000</span><span class="p">)</span>
+
+      <span class="c1">// Tiempo apagado = aleatorio entre 0,5 y 3,0 segundos</span>
+      <span class="n">time_off</span> <span class="o">=</span> <span class="n">Random</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="mi">3000</span><span class="p">)</span>
+
+      <span class="c1">// Parpadea el led &#39;num&#39; un tiempo aleatorio</span>
+      <span class="n">pc</span><span class="p">.</span><span class="n">ledblink</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">time_on</span><span class="p">,</span> <span class="n">time_off</span><span class="p">)</span>
+
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+<li><p class="first">Hacer parpadear a un led de manera que se encienda durante dos
+décimas de segundo cada diez segundos, para indicar que el módulo
+está funcionando gastando muy poca energía.</p>
+</li>
+<li><p class="first">Hacer parpadear a un led de manera que se encienda durante dos
+décimas de segundo, cada segundo.</p>
+</li>
+<li><p class="first">Los seis primeros leds se deben encender en secuencia de manera que
+comience por encenderse el led D1 y termine por encenderse el led D6.
+entre el encendido de un led y el siguiente debe pasar entre 250 y 500
+milésimas de segundo.
+Una vez que todos los leds estén encendidos, comenzarán a apagarse por
+el led D1 hasta que todos estén apagados.
+Nota: Para resolver este problema, se debe utilizar solo una función
+<a class="reference internal" href="#_CPPv48ledBlinkiii" title="ledBlink"><code class="xref cpp cpp-func docutils literal notranslate"><span class="pre">ledBlink()</span></code></a> por cada led, junto con una función <cite>delay()</cite> para
+esperar un tiempo entre un encendido y el siguiente.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pc42-key1.html" class="btn btn-neutral float-right" title="5. Pulsadores y Estados" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pc42-led1.html" class="btn btn-neutral" title="3. Encendido y apagado de los LED" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="../genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="../content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024 por Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en febrero, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../en/arduprog/pc42-led2.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricidad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programación</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuitos con Protoboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource-index.html">Recursos</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="pc42-index.html">Panel de Control PC42</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pc42-intro.html">1. Introducción al panel PC42</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-install.html">2. Instalación del panel de control PC42</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-led1.html">3. Encendido y apagado de los LED</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">4. Parpadeo de los LED</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key1.html">5. Pulsadores y Estados</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key2.html">6. Pulsadores y Eventos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-key3.html">7. Pulsadores y Contadores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-display1.html">8. Display de 7 segmentos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc42-buzzer.html">9. Zumbador</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Picuino UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

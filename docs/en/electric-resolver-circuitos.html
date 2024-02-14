@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electricity - Circuit resolution">
+  <title>Circuit resolution - Electricity - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/electric-resolver-circuitos.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="Energy" href="electric-energia.html">
+  <link rel="prev" title="Equivalent resistors" href="electric-serie-paralelo-resistencias.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="electric-index.html">Electricity</a>/</li>
+        
+      <li>Circuit resolution</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/electric-resolver-circuitos.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/electric-resolver-circuitos.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="resolucion-de-circuitos">
+<span id="electric-resolver-circuitos"></span><h1>Circuit resolution<a class="headerlink" href="#resolucion-de-circuitos" title="Permalink to this headline">¶</a></h1>
+<p>In this unit we are going to study how to solve circuits with resistors to find the currents and voltages that flow through them.</p>
+<div class="contents local topic" id="indice-de-contenidos">
+<p class="topic-title">Index of contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#leyes-y-formulas-utilizadas" id="id1">Laws and formulas used</a></li>
+<li><a class="reference internal" href="#divisor-de-tension-con-dos-resistencias" id="id2">Voltage divider with two resistors</a></li>
+<li><a class="reference internal" href="#divisor-de-tension-con-dos-resistencias-desconocidas" id="id3">Voltage divider with two unknown resistors</a></li>
+<li><a class="reference internal" href="#circuito-mixto-serie-paralelo" id="id4">Mixed series-parallel circuit</a></li>
+<li><a class="reference internal" href="#ejercicios" id="id5">Exercises</a></li>
+<li><a class="reference internal" href="#cuestionarios" id="id6">Cuestionarios</a></li>
+</ul>
+</div>
+<div class="section" id="leyes-y-formulas-utilizadas">
+<h2><a class="toc-backref" href="#id1">Laws and formulas used</a><a class="headerlink" href="#leyes-y-formulas-utilizadas" title="Permalink to this headline">¶</a></h2>
+<p>The equations that we are going to use to solve the circuits are Ohm's law and the laws of parallel and series circuits.</p>
+<p>We can also use the formulas, which we have already studied, for the equivalent resistances of a series circuit and a parallel circuit.</p>
+<dl class="docutils">
+<dt>Formulas for Ohm`s law</dt><dd><div class="math">
+<p><img src="_images/math/329dd01fe69073c2252c607047cdf6c8089c51b5.svg" alt="V = I \cdot R"></p>
+</div><div class="math">
+<p><img src="_images/math/b1b852ee7961418c8fecbc28805f217742dccb0a.svg" alt="I = \cfrac{V}{R}"></p>
+</div><div class="math">
+<p><img src="_images/math/4280e822e8904eabe7cf46c9f65d893a6f63bcdc.svg" alt="R = \cfrac{V}{I}"></p>
+</div></dd>
+<dt>Series circuit laws</dt><dd><ul class="simple">
+<li>The current flowing through several resistors in series is the same for all of them.</li>
+<li>The total voltage of a series circuit is equal to the sum of the voltages of each of its resistances.</li>
+</ul>
+</dd>
+<dt>Parallel circuit laws</dt><dd><ul class="simple">
+<li>The total current flowing through several resistors in parallel is equal to the sum of the currents flowing through the resistors.</li>
+<li>The voltage of each of the resistors that are in parallel is the same for all of them.</li>
+</ul>
+</dd>
+<dt>Equivalent resistance of a series circuit</dt><dd><div class="math">
+<p><img src="_images/math/61abe066b34a3936f36d80a8804da053de76a353.svg" alt="R12 = R1 + R2"></p>
+</div><div class="math">
+<p><img src="_images/math/1e58b24ac333f946d0d38a8d6b100070694602af.svg" alt="R123 = R1 + R2 + R3"></p>
+</div></dd>
+<dt>Equivalent resistance of a parallel circuit</dt><dd><div class="math">
+<p><img src="_images/math/acf486686d219c9f22fde3d3ba496aa64295d041.svg" alt="R12 = \cfrac{1}{ \cfrac{1}{R1} + \cfrac{1}{R2} }"></p>
+</div><div class="math">
+<p><img src="_images/math/529104ff90c4c05f58a3f9aab8f6bada5487e44b.svg" alt="R123 = \cfrac{1}{ \cfrac{1}{R1} + \cfrac{1}{R2} + \cfrac{1}{R3} }"></p>
+</div></dd>
+</dl>
+<p>Each of the circuits that we are going to analyze will have a grid associated with the voltage, current intensity, and resistance of each component. That grid will have to be filled in with the solutions that we are obtaining by applying the previous formulas, until the entire grid is complete and we know all the values ​​of the circuit.</p>
+</div>
+<div class="section" id="divisor-de-tension-con-dos-resistencias">
+<h2><a class="toc-backref" href="#id2">Voltage divider with two resistors</a><a class="headerlink" href="#divisor-de-tension-con-dos-resistencias" title="Permalink to this headline">¶</a></h2>
+<p>This circuit is widely used in electronics to achieve lower voltages than the supply voltage. It consists of two resistors connected in series to each other and to the two power supply terminals.</p>
+<p>If we have a circuit with a supply voltage of 5 volts and we need a voltage of 3 volts, the voltage divider is the easiest way to achieve it.</p>
+<p>In the following image we can see the voltage divider circuit.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-01.png"><img alt="Circuito divisor de tensión con dos resistencias." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-01.png" style="width: 480px;"></a>
+<p>To solve the circuit we begin by writing in the table the values ​​of the resistors that we know, R1 and R2.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-02.png"><img alt="Circuito divisor de tensión con dos resistencias." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-02.png" style="width: 480px;"></a>
+<p>Next we write in the table the voltage values ​​that we know, which in this case will be the total voltage of the two resistors R1 and R2 in series, which coincides with the battery voltage.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-03.png"><img alt="Circuito divisor de tensión con dos resistencias." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-03.png" style="width: 480px;"></a>
+<p>Now we must find out if any grid can be solved with the formulas we know. The total resistance R12 can be calculated with the series resistance formula, that is, by adding the two resistances.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-04.png"><img alt="Circuito divisor de tensión con dos resistencias." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-04.png" style="width: 480px;"></a>
+<p>To continue, in the last row we have the voltage and the resistance so we can find the current with Ohm's law. Dividing the voltage by the resistance we get 20 milliamps of current.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-05.png"><img alt="Circuito divisor de tensión con dos resistencias." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-05.png" style="width: 480px;"></a>
+<p>Now we can apply the law of series circuits which says that the current will be the same through all the components of the circuit.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-06.png"><img alt="Circuito divisor de tensión con dos resistencias." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-06.png" style="width: 480px;"></a>
+<p>Finally, with Ohm's law we can find the voltages in each of the resistors by multiplying the current by the resistance.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-07.png"><img alt="Circuito divisor de tensión con dos resistencias." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-07.png" style="width: 480px;"></a>
+<p>And the circuit is completely solved.</p>
+<p>The voltage across resistor R2 will be equal to 2 volts, a voltage less than the supply voltage because this circuit has <strong>divided</strong> the supply voltage by 6.</p>
+</div>
+<div class="section" id="divisor-de-tension-con-dos-resistencias-desconocidas">
+<h2><a class="toc-backref" href="#id3">Voltage divider with two unknown resistors</a><a class="headerlink" href="#divisor-de-tension-con-dos-resistencias-desconocidas" title="Permalink to this headline">¶</a></h2>
+<p>In this section we are going to solve a series circuit in which we do not know the value of the resistors, we only know the current that circulates through the circuit (10mA) and the voltage that we want to obtain in R2 (9V).</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-11.png"><img alt="Circuito divisor de tensión con dos resistencias desconocidas." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-11.png" style="width: 480px;"></a>
+<p>We start by filling in the table with the values ​​we know of the circuit.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-12.png"><img alt="Circuito divisor de tensión con dos resistencias desconocidas." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-12.png" style="width: 480px;"></a>
+<p>Next we can calculate the total resistance R12 by applying Ohm's law.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-13.png"><img alt="Circuito divisor de tensión con dos resistencias desconocidas." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-13.png" style="width: 480px;"></a>
+<p>In order to continue, we apply the law of components in series which says that the current through all the elements of the circuit is the same.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-14.png"><img alt="Circuito divisor de tensión con dos resistencias desconocidas." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-14.png" style="width: 480px;"></a>
+<p>Now we can apply Ohm's law again to the second resistor to find its value.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-15.png"><img alt="Circuito divisor de tensión con dos resistencias desconocidas." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-15.png" style="width: 480px;"></a>
+<p>At this point we can continue applying the law of series circuits which says that the total voltage of the resistors is equal to the sum of the voltages in each resistor.</p>
+<p>That is: V_R1 + V_R2 = 12v -&gt; V_R1 = 12v - 9v = 3v</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-16.png"><img alt="Circuito divisor de tensión con dos resistencias desconocidas." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-16.png" style="width: 480px;"></a>
+<p>To finish, we apply Ohm's law to the first resistor and find its value.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-17.png"><img alt="Circuito divisor de tensión con dos resistencias desconocidas." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-17.png" style="width: 480px;"></a>
+<p>In this last box we could also have applied the formula for the equivalent of resistances in series. Knowing that R1 + R2 = R12, it can be easily calculated that R1 must be worth 300 Ohms.</p>
+</div>
+<div class="section" id="circuito-mixto-serie-paralelo">
+<h2><a class="toc-backref" href="#id4">Mixed series-parallel circuit</a><a class="headerlink" href="#circuito-mixto-serie-paralelo" title="Permalink to this headline">¶</a></h2>
+<p>In this section we are going to solve a mixed circuit, with series and parallel connections, in which we know the value of all the resistances.</p>
+<p>We begin by copying into the table the values ​​of resistance and voltage that we already know.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-21.png"><img alt="Cálculos de un circuito mixto serie-paralelo." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-21.png" style="width: 480px;"></a>
+<p>From here we have no data to solve for any of the first three rows. The first task will be to calculate the equivalent resistance of the three resistors in the circuit.</p>
+<p>First we find the parallel of 100 Ohms and 400 Ohms that gives us a result of 80 Ohms.</p>
+<div class="math">
+<p><img src="_images/math/2a3cd52064d2dab6df6f8b79399f3a0c45c24405.svg" alt="R23 = \cfrac{1}{ \cfrac{1}{100\Omega} + \cfrac{1}{400\Omega} } = 80\Omega"></p>
+</div><p>Next we calculate the series equivalent of resistor R1, with 120 Ohms, and from the previous result, 80 Ohms. Adding both gives us a total result of 200 Ohms, which we can write in the hole corresponding to resistor R123.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-22.png"><img alt="Cálculos de un circuito mixto serie-paralelo." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-22.png" style="width: 480px;"></a>
+<p>We can now apply Ohm's law to the fourth row to find the total current flowing through the circuit, 60 milliamps.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-23.png"><img alt="Cálculos de un circuito mixto serie-paralelo." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-23.png" style="width: 480px;"></a>
+<p>All the current that flows through the circuit will flow through R1 to be in series. With this data we can fill in the current of R1 by copying the total current.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-24.png"><img alt="Cálculos de un circuito mixto serie-paralelo." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-24.png" style="width: 480px;"></a>
+<p>At this point we can apply Ohm's law to the first row to calculate the voltage across resistor R1.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-25.png"><img alt="Cálculos de un circuito mixto serie-paralelo." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-25.png" style="width: 480px;"></a>
+<p>The total voltage of the battery, 12v, will be equal to the sum of the voltages of the two branches in series of the circuit, R1 and R23.</p>
+<div class="math">
+<p><img src="_images/math/989b25bebba03d0293109b08e89e69fdde6276e6.svg" alt="12v = V_{R1} + V_{R23}."></p>
+</div><p>Clearing we have that the voltage in resistors R2 and R3 is 12v - 7.2v = 4.8v, which we can write in the corresponding boxes.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-26.png"><img alt="Cálculos de un circuito mixto serie-paralelo." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-26.png" style="width: 480px;"></a>
+<p>Now we can apply Ohm's law to the second and third rows to finish calculating the intensity values ​​we don't know yet.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-28.png"><img alt="Cálculos de un circuito mixto serie-paralelo." class="align-center" src="_images/electric-resolver-circuitos-ejemplo-28.png" style="width: 480px;"></a>
+<p>To finish we will verify that the sum of the currents in R2 and in R3 is equal to the total current that circulates through the circuit.</p>
+<div class="math">
+<p><img src="_images/math/202f3c0f4c4f53dcc4967c53aeab55fa25f3bee6.svg" alt="60mA = 48mA + 12mA."></p>
+</div></div>
+<div class="section" id="ejercicios">
+<h2><a class="toc-backref" href="#id5">Exercises</a><a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<p>Exercises to solve circuits.</p>
+<a class="reference internal image-reference" href="_images/electric-resolver-circuitos-ejemplo-01.png"><img alt="_images/electric-resolver-circuitos-ejemplo-01.png" src="_images/electric-resolver-circuitos-ejemplo-01.png" style="width: 303px;"></a>
+<p><a class="reference download internal" download="" href="_downloads/electric-resolver-circuitos.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Exercises</span> <span class="pre">to</span> <span class="pre">solve</span> <span class="pre">circuits.</span> <span class="pre">PDF</span> <span class="pre">format</span></code></a></p>
+<p><a class="reference download internal" download="" href="_downloads/electric-resolver-circuitos.zip"><code class="xref download docutils literal notranslate"><span class="pre">Exercises</span> <span class="pre">to</span> <span class="pre">solve</span> <span class="pre">circuits.</span> <span class="pre">KiCad</span> <span class="pre">format</span></code></a></p>
+</div>
+<div class="section" id="cuestionarios">
+<h2><a class="toc-backref" href="#id6">Cuestionarios</a><a class="headerlink" href="#cuestionarios" title="Permalink to this headline">¶</a></h2>
+<p>Questionnaires on circuit resolution.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.picuino.com/test/es-electric-resolver-circuitos-1.html" rel="noopener noreferrer" target="_blank">Cuestionario. Resolver circuitos I.</a></li>
+<li><a class="reference external" href="https://www.picuino.com/test/es-electric-resolver-circuitos-2.html" rel="noopener noreferrer" target="_blank">Cuestionario. Resolver circuitos II.</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="electric-energia.html" class="btn btn-neutral float-right" title="Energy" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="electric-serie-paralelo-resistencias.html" class="btn btn-neutral" title="Equivalent resistors" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/electric-resolver-circuitos.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electric-index.html">Electricity</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="electric-circuito.html">The electrical circuit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-receptores.html">Effects of electricity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-componentes-index.html">Electric components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-simbolos.html">Electrical symbols</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-ley-ohm.html">Ohm's law</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-ley-ohm-regla.html">Slide rule for Ohm's law</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-serie-paralelo.html">Series, parallel and short circuit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-serie-paralelo-resistencias.html">Equivalent resistors</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Circuit resolution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-energia.html">Energy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-potencia.html">Electrical power</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-crocodile-index.html">Practice with Crocodile Clips</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bornas-lamparas-index.html">Lamp wiring with terminals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-cableado.html">Electrical circuit wiring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-sistema-electrico.html">Spanish electrical system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electric-recursos.html">Resources for electricity</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 6
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z a
+
+
+# --------------------------------------------------------------------
+# electronic-analog-images
+#
+$(IMGDIR)/electronic-analog-images-p1.png: electronic-analog-images.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-p1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p1.png
+	$(OPTIPNG) $@
+
+# --------------------------------------------------------------------
+# electronic-analog-images
+#
+SYMBOLS_ANALOG_SOURCE=electronic-analog-images-p1.png
+SYMBOL_ANALOG_BASENAME=electronic-analog
+SYMBOL_ANALOG_NAMES=$(foreach symbol, \
+	darlington diferencial pushpull \
+	common-e common-c common-b \
+	bjt-npn bjt-pnp \
+	current-source current-source-symbol \
+	mosfet-n \
+	oa oa-follower \
+	oa-inverting oa-adder oa-noninverting \
+	virtual-ground \
+    oa-differential \
+    oa-rectifier oa-peakdetector oa-hysteresis \
+	, $(SYMBOL_ANALOG_BASENAME)-$(symbol).png)
+SYMBOL_ANALOG_DIRNAMES=$(foreach symbol, $(SYMBOL_ANALOG_NAMES),$(IMGDIR)/$(symbol))
+
+define crop_analog_symbol
+	$(eval geometry = $(shell python3 -c "import sys; (x,y,w,h)=eval(sys.argv[1]); \
+	print('%dx%d+%d+%d'%(w*300-12, h*300-12, 125+x*300, 125+y*300))" $(1)))
+	$(CONVERT) $(IMGDIR)/$(SYMBOLS_ANALOG_SOURCE) -crop $(geometry) +repage \
+	$(CONVERT_OPT) $(IMGDIR)/$(SYMBOL_ANALOG_BASENAME)-$(strip $(2)).png
+	$(OPTIPNG) $(IMGDIR)/$(SYMBOL_ANALOG_BASENAME)-$(strip $(2)).png
+endef
+
+# Arguments: (x_init, y_init, width, height) in 500 mils steps
+$(SYMBOL_ANALOG_DIRNAMES): $(IMGDIR)/$(SYMBOLS_ANALOG_SOURCE)
+	echo $(SYMBOL_ANALOG_NAMES)
+	$(call crop_analog_symbol, "(0,0, 2,2)", darlington)
+	$(call crop_analog_symbol, "(2,0, 3,2)", diferencial)
+	$(call crop_analog_symbol, "(5,0, 2,3)", pushpull)
+	$(call crop_analog_symbol, "(7,0, 2,3)", common-e)
+	$(call crop_analog_symbol, "(9,0, 2,3)", common-c)
+	$(call crop_analog_symbol, "(11,0, 2,3)", common-b)
+	$(call crop_analog_symbol, "(13,0, 2,3)", current-source)
+	$(call crop_analog_symbol, "(0,3, 2,2)", mosfet-n)
+	$(call crop_analog_symbol, "(2,3, 2,2)", oa)
+	$(call crop_analog_symbol, "(4,3, 2,2)", oa-follower)
+	$(call crop_analog_symbol, "(6,3, 3,2)", oa-inverting)
+	$(call crop_analog_symbol, "(9,3, 3,2)", oa-adder)
+	$(call crop_analog_symbol, "(12,3, 3,2)", oa-noninverting)
+	$(call crop_analog_symbol, "(0,5, 4,2)", virtual-ground)
+	$(call crop_analog_symbol, "(4,5, 4,2)", oa-differential)
+	$(call crop_analog_symbol, "(8,5, 2,2)", bjt-npn)
+	$(call crop_analog_symbol, "(10,5, 2,2)", bjt-pnp)
+	$(call crop_analog_symbol, "(12,5, 1,1)", current-source-symbol)
+	$(call crop_analog_symbol, "(0,7, 4,3)", oa-rectifier)
+	$(call crop_analog_symbol, "(4,7, 4,3)", oa-peakdetector)
+	$(call crop_analog_symbol, "(8,7, 4,2)", oa-hysteresis)
+
+
+
+# --------------------------------------------------------------------
+# electronic-digital-images
+#
+$(IMGDIR)/electronic-digital-images-p1.png: electronic-digital-images.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-p1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p1.png
+	$(OPTIPNG) $@
+
+# --------------------------------------------------------------------
+# electronic-digital-images
+#
+SYMBOLS_DIGITAL_SOURCE=electronic-digital-images-p1.png
+SYMBOL_DIGITAL_BASENAME=electronic-digital
+SYMBOL_DIGITAL_NAMES=$(foreach symbol, \
+	test \
+	, $(SYMBOL_DIGITAL_BASENAME)-$(symbol).png)
+SYMBOL_DIGITAL_DIRNAMES=$(foreach symbol, $(SYMBOL_DIGITAL_NAMES),$(IMGDIR)/$(symbol))
+
+define crop_digital_symbol
+	$(eval geometry = $(shell python3 -c "import sys; (x,y,w,h)=eval(sys.argv[1]); \
+	print('%dx%d+%d+%d'%(w*300-12, h*300-12, 125+x*300, 125+y*300))" $(1)))
+	$(CONVERT) $(IMGDIR)/$(SYMBOLS_DIGITAL_SOURCE) -crop $(geometry) +repage \
+	$(CONVERT_OPT) $(IMGDIR)/$(SYMBOL_DIGITAL_BASENAME)-$(strip $(2)).png
+	$(OPTIPNG) $(IMGDIR)/$(SYMBOL_DIGITAL_BASENAME)-$(strip $(2)).png
+endef
+
+# Arguments: (x_init, y_init, width, height) in 500 mils steps
+$(SYMBOL_DIGITAL_DIRNAMES): $(IMGDIR)/$(SYMBOLS_DIGITAL_SOURCE)
+	echo $(SYMBOL_DIGITAL_NAMES)
+	$(call crop_digital_symbol, "(0,0, 1,1)", test)
+
+
+
+# --------------------------------------------------------------------
+# ALL
+#
+.PHONY: all  clean
+all: \
+	$(IMGDIR)/electronic-analog-images-p1.png \
+	$(SYMBOL_ANALOG_DIRNAMES) \
+	$(IMGDIR)/electronic-digital-images-p1.png \
+	$(SYMBOL_DIGITAL_DIRNAMES) \
+
+
+clean:
+	rm -f $(IMGDIR)/electronic-analog-images-p1.png
+	rm -f $(SYMBOL_ANALOG_DIRNAMES)
+	rm -f $(IMGDIR)/electronic-digital-images-p1.png
+	rm -f $(SYMBOL_DIGITAL_DIRNAMES)

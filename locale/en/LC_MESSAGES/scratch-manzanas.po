@@ -1,0 +1,649 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/scratch-manzanas.rst:11
+msgid "Atrapar manzanas"
+msgstr "Catch apples"
+
+
+#: ../../es/scratch-manzanas.rst:17
+msgid ""
+"En esta práctica vamos a programar un juego que consiste en atrapar manzanas"
+" con el gato y evitar los rayos que matan. El gato se moverá con las teclas "
+"derecha e izquierda. Cuando el gato pierda sus tres vidas, el juego se "
+"acabará."
+msgstr ""
+"In this practice we are going to program a game that consists of catching "
+"apples with the cat and avoiding the rays that kill. The cat will move with "
+"the right and left keys. When the cat loses its three lives, the game will "
+"be over."
+
+
+#: ../../es/scratch-manzanas.rst:22 ../../es/scratch-manzanas.rst:26
+
+
+#: ../../es/scratch-manzanas.rst:42 ../../es/scratch-manzanas.rst:49
+
+
+#: ../../es/scratch-manzanas.rst:57 ../../es/scratch-manzanas.rst:74
+
+
+#: ../../es/scratch-manzanas.rst:92 ../../es/scratch-manzanas.rst:118
+
+
+#: ../../es/scratch-manzanas.rst:127 ../../es/scratch-manzanas.rst:151
+
+
+#: ../../es/scratch-manzanas.rst:165 ../../es/scratch-manzanas.rst:188
+
+
+#: ../../es/scratch-manzanas.rst:218 ../../es/scratch-manzanas.rst:232
+
+
+#: ../../es/scratch-manzanas.rst:249 ../../es/scratch-manzanas.rst:272
+
+
+#: ../../es/scratch-manzanas.rst:282 ../../es/scratch-manzanas.rst:303
+
+
+#: ../../es/scratch-manzanas.rst:317 ../../es/scratch-manzanas.rst:327
+
+
+#: ../../es/scratch-manzanas.rst:342 ../../es/scratch-manzanas.rst:360
+
+
+#: ../../es/scratch-manzanas.rst:381 ../../es/scratch-manzanas.rst:390
+
+
+#: ../../es/scratch-manzanas.rst:399 ../../es/scratch-manzanas.rst:408
+msgid "|br|"
+msgstr "|br|"
+
+
+#: ../../es/scratch-manzanas.rst:24
+msgid "Iniciamos el |editor_de_Scratch|."
+msgstr "We start the |Scratch_editor|."
+
+
+#: ../../es/scratch-manzanas.rst:28
+msgid "Cambiaremos el fondo del escenario a un **desierto**."
+msgstr "We will change the background of the stage to a **desert**."
+
+
+#: ../../es/scratch-manzanas.rst:30
+msgid "Pulsamos el botón de Fondo nuevo."
+msgstr "Click on the New Background button."
+
+
+#: ../../es/scratch-manzanas.rst:32
+msgid "|cambia-escenario|"
+msgstr "|cambia-escenario|"
+
+
+#: ../../es/scratch-manzanas.rst:34
+msgid "A continuación pulsamos en **Tema Naturaleza**."
+msgstr "Then click on **Nature Theme**."
+
+
+#: ../../es/scratch-manzanas.rst:36
+msgid "Luego seleccionamos el fondo **Desert**."
+msgstr "Then we select the background **Desert**."
+
+
+#: ../../es/scratch-manzanas.rst:38
+msgid "La pantalla quedará de la siguiente manera."
+msgstr "The screen will be as follows."
+
+
+#: ../../es/scratch-manzanas.rst:44
+msgid ""
+"Ahora debemos pulsar sobre el gato para realizar su programa. El icono del "
+"gato debe estar seleccionado."
+msgstr ""
+"Now we must click on the cat to carry out its program. The cat icon must be "
+"selected."
+
+
+#: ../../es/scratch-manzanas.rst:47
+msgid "|gato-seleccionado|"
+msgstr "|gato-seleccionado|"
+
+
+#: ../../es/scratch-manzanas.rst:52
+msgid ""
+"Pulsando en la letra **i** dentro del icono gato, podemos cambiar su nombre."
+msgstr ""
+"By clicking on the letter **i** inside the cat icon, we can change its name."
+
+
+#: ../../es/scratch-manzanas.rst:59
+msgid ""
+"En la pestaña programas del gato crearemos una nueva función llamada "
+"**Inicio**"
+msgstr ""
+"In the cat programs tab we will create a new function called **Start**"
+
+
+#: ../../es/scratch-manzanas.rst:62 ../../es/scratch-manzanas.rst:96
+msgid "Primero pulsamos en el botón más bloques"
+msgstr "First click on the button more blocks"
+
+
+#: ../../es/scratch-manzanas.rst:64 ../../es/scratch-manzanas.rst:98
+msgid "|mas-bloques|"
+msgstr "|mas-bloques|"
+
+
+#: ../../es/scratch-manzanas.rst:66 ../../es/scratch-manzanas.rst:100
+msgid "A continuación pulsamos en crear un bloque |crear-bloque|"
+msgstr "Then click on create a block |crear-bloque|"
+
+
+#: ../../es/scratch-manzanas.rst:68 ../../es/scratch-manzanas.rst:102
+msgid "Luego cambiamos el nombre del nuevo bloque a **Inicio**"
+msgstr "Then we change the name of the new block to **Home**"
+
+
+#: ../../es/scratch-manzanas.rst:72 ../../es/scratch-manzanas.rst:87
+
+
+#: ../../es/scratch-manzanas.rst:180 ../../es/scratch-manzanas.rst:209
+msgid "Por último pulsamos el botón **OK**"
+msgstr "Finally we press the button **OK**"
+
+
+#: ../../es/scratch-manzanas.rst:76
+msgid "Ahora crearemos la variable **Vidas**."
+msgstr "Now we will create the variable **Lives**."
+
+
+#: ../../es/scratch-manzanas.rst:78 ../../es/scratch-manzanas.rst:171
+msgid "Dentro de la pestaña Datos |datos|,"
+msgstr "Within the Data |datos| tab,"
+
+
+#: ../../es/scratch-manzanas.rst:80 ../../es/scratch-manzanas.rst:173
+msgid "pulsamos crear una variable  |crear-variable|"
+msgstr "press create a variable |crear-variable|"
+
+
+#: ../../es/scratch-manzanas.rst:82
+msgid "Cambiamos el nombre de la variable a **Vidas**"
+msgstr "We change the name of the variable to **Lives**"
+
+
+#: ../../es/scratch-manzanas.rst:89
+msgid ""
+"Esta variable va a almacenar las vidas que aún tiene el gato. Cuando su "
+"valor llegue a cero, el gato morirá."
+msgstr ""
+"This variable will store the lives that the cat still has. When its value "
+"reaches zero, the cat will die."
+
+
+#: ../../es/scratch-manzanas.rst:94
+msgid "Ahora escribiremos el bloque de **Inicio**."
+msgstr "Now we will write the **Start** block."
+
+
+#: ../../es/scratch-manzanas.rst:104
+msgid "Colocamos los siguientes bloques en **Inicio**."
+msgstr "We place the following blocks in **Start**."
+
+
+#: ../../es/scratch-manzanas.rst:109
+msgid "Este programa le da tres vidas al gato al comenzar."
+msgstr "This program gives the cat three lives at start."
+
+
+#: ../../es/scratch-manzanas.rst:111
+msgid ""
+"Coloca al gato en la parte baja de la pantalla, con el modo de rotación "
+"izquierda-derecha."
+msgstr ""
+"Place the cat at the bottom of the screen, with left-right rotation mode."
+
+
+#: ../../es/scratch-manzanas.rst:114
+msgid "También borra todas las imágenes de la pantalla."
+msgstr "It also erases all images on the screen."
+
+
+#: ../../es/scratch-manzanas.rst:116
+msgid "Por último espera a que se pulse la tecla espacio para continuar."
+msgstr "Finally, wait for the space key to be pressed to continue."
+
+
+#: ../../es/scratch-manzanas.rst:120
+msgid ""
+"Ahora programaremos un bloque que moverá al gato a derecha y a izquierda con"
+" las teclas de dirección. El nuevo bloque se llamará **Mover_gato**"
+msgstr ""
+"Now we will program a block that will move the cat left and right with the "
+"arrow keys. The new block will be called **Move_cat**"
+
+
+#: ../../es/scratch-manzanas.rst:129
+msgid ""
+"Para terminar este apartado, realizaremos un pequeño programa que pondrá a "
+"prueba todo lo que hemos programado hasta el momento."
+msgstr ""
+"To finish this section, we will carry out a small program that will test "
+"everything we have programmed so far."
+
+
+#: ../../es/scratch-manzanas.rst:136
+msgid ""
+"Al presionar la bandera verde |bandera-verde|, el gato esperará primero a "
+"que presionemos la barra de espacio, a continuación el gato se moverá a "
+"izquierda y a derecha al presionar las **teclas izquierda y derecha**."
+msgstr ""
+"By pressing the green flag |bandera-verde|, the cat will first wait for us to "
+"press the space bar, then the cat will move left and right by pressing the "
+"**left and right keys**."
+
+
+#: ../../es/scratch-manzanas.rst:143
+msgid "Programa de las manzanas"
+msgstr "Apple program"
+
+
+#: ../../es/scratch-manzanas.rst:147
+msgid ""
+"A partir de este punto, todas las instrucciones se deben añadir en la "
+"pestaña Programas del objeto **manzana**."
+msgstr ""
+"From this point on, all instructions should be added to the Programs tab of "
+"the **apple** object."
+
+
+#: ../../es/scratch-manzanas.rst:154
+msgid "Lo primero que haremos será añadir un nuevo personaje, una **manzana**"
+msgstr "The first thing we will do is add a new character, an **apple**"
+
+
+#: ../../es/scratch-manzanas.rst:157 ../../es/scratch-manzanas.rst:309
+msgid "Pulsamos el botón de nuevo objeto |nuevo-objeto|"
+msgstr "Press the new object button |nuevo-objeto|"
+
+
+#: ../../es/scratch-manzanas.rst:159 ../../es/scratch-manzanas.rst:311
+msgid "A continuación pulsamos en **Categoría Cosas**."
+msgstr "Then click on **Things Category**."
+
+
+#: ../../es/scratch-manzanas.rst:161
+msgid "Luego seleccionamos el objeto **Apple**."
+msgstr "Then we select the **Apple** object."
+
+
+#: ../../es/scratch-manzanas.rst:168
+msgid "Ahora crearemos una nueva variable llamada **Puntos**"
+msgstr "Now we will create a new variable called **Points**"
+
+
+#: ../../es/scratch-manzanas.rst:175
+msgid "Cambiamos el nombre de la variable a **Puntos**"
+msgstr "We change the name of the variable to **Points**"
+
+
+#: ../../es/scratch-manzanas.rst:182
+msgid "Esta variable contará los puntos que acumula el personaje del juego."
+msgstr ""
+"This variable will count the points that the game character accumulates."
+
+
+#: ../../es/scratch-manzanas.rst:185
+msgid ""
+"El gato ganará un punto cada vez que atrape una manzana y perderá dos puntos"
+" si la manzana cae al suelo."
+msgstr ""
+"The cat will earn one point each time it catches an apple and will lose two "
+"points if the apple falls to the ground."
+
+
+#: ../../es/scratch-manzanas.rst:191
+msgid "Ahora añadimos un nuevo mensaje llamado **Iniciar**"
+msgstr "Now we add a new message called **Start**"
+
+
+#: ../../es/scratch-manzanas.rst:194
+msgid "Pulsamos el botón de Eventos."
+msgstr "Click on the Events button."
+
+
+#: ../../es/scratch-manzanas.rst:196
+msgid "|eventos|"
+msgstr "|eventos|"
+
+
+#: ../../es/scratch-manzanas.rst:198
+msgid "y movemos a programas el bloque \"al recibir mensaje1\"."
+msgstr "and we move the block \"when receiving message1\" to programs."
+
+
+#: ../../es/scratch-manzanas.rst:200
+msgid "Pinchando en la flecha, seleccionamos **nuevo mensaje...**"
+msgstr "Clicking on the arrow, we select **new message...**"
+
+
+#: ../../es/scratch-manzanas.rst:202
+msgid "|nuevo-mensaje|"
+msgstr "|nuevo-mensaje|"
+
+
+#: ../../es/scratch-manzanas.rst:204
+msgid "Nombramos el nuevo mensaje como **Iniciar**."
+msgstr "We name the new message as **Start**."
+
+
+#: ../../es/scratch-manzanas.rst:211
+msgid ""
+"Este mensaje servirá para avisar a las **manzanas** de que pueden empezar a "
+"caer después de que se presione la tecla espacio."
+msgstr ""
+"This message will serve to warn the **apples** that they may start to fall "
+"after the space key is pressed."
+
+
+#: ../../es/scratch-manzanas.rst:215
+msgid ""
+"También borra los puntos para iniciar la partida y los muestra en la "
+"pantalla."
+msgstr ""
+"It also clears the points to start the game and shows them on the screen."
+
+
+#: ../../es/scratch-manzanas.rst:221
+msgid ""
+"Ahora podemos programar las instrucciones necesarias para que caigan las "
+"manzanas al recibir el mensaje **Iniciar**."
+msgstr ""
+"Now we can program the necessary instructions to drop the apples when "
+"receiving the **Start** message."
+
+
+#: ../../es/scratch-manzanas.rst:227
+msgid ""
+"El programa esconde el objeto para que no se vea en la pantalla, inicia el "
+"contador de puntos a cero, y crea copias de la manzana (clones de la "
+"manzana) cada cierto tiempo aleatorio, mientras el gato tenga vidas."
+msgstr ""
+"The program hides the object so that it cannot be seen on the screen, resets"
+" the point counter to zero, and creates copies of the apple (clones of the "
+"apple) every few random times, as long as the cat has lives."
+
+
+#: ../../es/scratch-manzanas.rst:235
+msgid ""
+"Vamos a crear otro disfraz que represente a la manzana aplastada en el suelo"
+" en el suelo."
+msgstr ""
+"Let's create another costume that represents the apple squashed on the "
+"ground on the ground."
+
+
+#: ../../es/scratch-manzanas.rst:238
+msgid "Primero seleccionamos la pestaña disfraces |disfraces| de la manzana."
+msgstr "First we select the costumes tab |disfraces| of the Apple."
+
+
+#: ../../es/scratch-manzanas.rst:240
+msgid ""
+"A continuación seleccionamos con el botón derecho del ratón sobre el disfraz"
+" de la manzana para duplicarle."
+msgstr ""
+"Next we select with the right button of the mouse on the disguise of the "
+"apple to duplicate it."
+
+
+#: ../../es/scratch-manzanas.rst:245
+msgid "En el disfraz Apple2 recién creado, aplastamos la imagen."
+msgstr "In the newly created Apple2 costume, we squash the image."
+
+
+#: ../../es/scratch-manzanas.rst:252
+msgid ""
+"En este apartado definiremos cómo se comportan los clones de la manzana. "
+"Crearemos los siguientes programas."
+msgstr ""
+"In this section we will define how apple clones behave. We will create the "
+"following programs."
+
+
+#: ../../es/scratch-manzanas.rst:261
+msgid ""
+"La manzana se coloca en la parte superior de la pantalla y va cayendo poco a"
+" poco (cambiar y por -10) hasta que toque al gato o hasta que caiga al "
+"suelo."
+msgstr ""
+"The apple is placed at the top of the screen and falls little by little "
+"(change y by -10) until it touches the cat or until it falls to the ground."
+
+
+#: ../../es/scratch-manzanas.rst:265
+msgid "Si la manzana toca al gato, aumenta los puntos y desaparece."
+msgstr "If the apple touches the cat, it increases the points and disappears."
+
+
+#: ../../es/scratch-manzanas.rst:267
+msgid "Si la manzana toca el suelo, se aplastara y sonará un golpe."
+msgstr ""
+"If the apple touches the ground, it will be crushed and a thump will sound."
+
+
+#: ../../es/scratch-manzanas.rst:269
+msgid ""
+"El programa se ha dividido en varias funciones para simplificar cada uno de "
+"los bloques."
+msgstr ""
+"The program has been divided into several functions to simplify each of the "
+"blocks."
+
+
+#: ../../es/scratch-manzanas.rst:275
+msgid ""
+"Ahora vamos a comprobar que funcionan las nuevas instrucciones. "
+"**Modificamos el programa del gato** para añadir el mensaje **Iniciar**"
+msgstr ""
+"Now let's check that the new instructions work. **We modified the cat's "
+"program** to add the message **Start**"
+
+
+#: ../../es/scratch-manzanas.rst:285
+msgid ""
+"En este momento, el gato podrá jugar a recoger manzanas. Debemos mover al "
+"gato con las flechas izquierda y derecha para que toque las manzanas antes "
+"de que caigan al suelo."
+msgstr ""
+"At this time, the cat will be able to play apple picking. We must move the "
+"cat with the left and right arrows so that it touches the apples before they"
+" fall to the ground."
+
+
+#: ../../es/scratch-manzanas.rst:291
+msgid "Programa de los rayos"
+msgstr "Lightning program"
+
+
+#: ../../es/scratch-manzanas.rst:293
+msgid ""
+"En este apartado vamos a programar que varios rayos caigan desde lo alto y "
+"que quiten vidas al gato. De esta forma damos al juego mayor dificultad y "
+"emoción."
+msgstr ""
+"In this section we are going to program several lightning bolts to fall from"
+" above and take the lives of the cat. In this way we give the game more "
+"difficulty and emotion."
+
+
+#: ../../es/scratch-manzanas.rst:299
+msgid ""
+"A partir de este punto, todas las instrucciones se deben añadir en la "
+"pestaña Programas del objeto **rayo**."
+msgstr ""
+"From this point on, all instructions should be added to the Programs tab of "
+"the **lightning** object."
+
+
+#: ../../es/scratch-manzanas.rst:306
+msgid "Lo primero que haremos será añadir un nuevo personaje, un **rayo**."
+msgstr "The first thing we'll do is add a new character, a **lightning**."
+
+
+#: ../../es/scratch-manzanas.rst:313
+msgid "Luego seleccionamos el objeto **Lightning**."
+msgstr "Then we select the **Lightning** object."
+
+
+#: ../../es/scratch-manzanas.rst:320
+msgid ""
+"Ahora vamos a programar la caída de los rayos desde la parte alta de la "
+"pantalla. Al igual que pasaba con las manzanas, caerán rayos mientras el "
+"gato tenga vidas."
+msgstr ""
+"Now we are going to program the lightning strike from the top of the screen."
+" As with the apples, lightning will strike while the cat has lives."
+
+
+#: ../../es/scratch-manzanas.rst:330
+msgid ""
+"Vamos a añadir un sonido nuevo al rayo, para que el gato se queje al caerle "
+"un rayo."
+msgstr ""
+"We are going to add a new sound to the lightning, so that the cat complains "
+"when struck by lightning."
+
+
+#: ../../es/scratch-manzanas.rst:333
+msgid "Seleccionamos la pestaña Sonidos |sonidos| del rayo."
+msgstr "Select the tab Sounds |sonidos| of lightning."
+
+
+#: ../../es/scratch-manzanas.rst:335
+msgid ""
+"Pulsamos en seleccionar un sonido nuevo desde la librería |sonido-nuevo|."
+msgstr "Click on selecting a new sound from the library |sonido-nuevo|."
+
+
+#: ../../es/scratch-manzanas.rst:338
+msgid "En la **Categoría Animal** seleccionamos el sonido **meow**"
+msgstr "In the **Animal Category** we select the sound **meow**"
+
+
+#: ../../es/scratch-manzanas.rst:345
+msgid "Ahora debemos crear un programa para cada clon del rayo."
+msgstr "Now we must create a program for each lightning clone."
+
+
+#: ../../es/scratch-manzanas.rst:351
+msgid ""
+"Estos programas situarán a cada rayo en una posición aleatoria cada vez que "
+"se cree un clon. A continuación el rayo caerá (cambiar y por -1) hasta que "
+"toque al gato o toque el borde inferior."
+msgstr ""
+"These programs will place each ray in a random position each time a clone is"
+" created. The ray will then fall (change y by -1) until it either hits the "
+"cat or hits the bottom edge."
+
+
+#: ../../es/scratch-manzanas.rst:356
+msgid "Si el rayo toca al gato, le quitará una vida y se borra."
+msgstr ""
+"If the lightning strikes the cat, it will take a life and it is erased."
+
+
+#: ../../es/scratch-manzanas.rst:358
+msgid "Si el rayo toca el suelo, desaparece."
+msgstr "If the beam hits the ground, it disappears."
+
+
+#: ../../es/scratch-manzanas.rst:363
+msgid ""
+"Comprobaremos pulsando la bandera verde |bandera-verde| que todo funciona "
+"bien."
+msgstr ""
+"We will check by pressing the green flag |bandera-verde| that everything works "
+"fine."
+
+
+#: ../../es/scratch-manzanas.rst:368
+msgid "Muerte del gato"
+msgstr "Cat death"
+
+
+#: ../../es/scratch-manzanas.rst:370
+msgid ""
+"Cuando el gato pierde todas sus vidas el juego termina y dejan de caer "
+"manzanas y rayos, pero el gato sigue en movimiento. En esta sección vamos a "
+"añadir las instrucciones necesarias para que el gato parezca muerto al "
+"acabar el juego."
+msgstr ""
+"When the cat loses all its lives the game ends and apples and lightning stop"
+" falling, but the cat keeps moving. In this section we are going to add the "
+"necessary instructions so that the cat appears dead at the end of the game."
+
+
+#: ../../es/scratch-manzanas.rst:377
+msgid ""
+"A partir de este punto, todas las instrucciones se deben añadir en la "
+"pestaña Programas del objeto **gato**."
+msgstr ""
+"From this point on, all instructions should be added to the Programs tab of "
+"the **cat** object."
+
+
+#: ../../es/scratch-manzanas.rst:384
+msgid ""
+"Añadimos la función Gato_muere, que se ejecuta cuando el gato pierde todas "
+"sus vidas."
+msgstr ""
+"Added the Cat_die function, which is executed when the cat loses all of its "
+"lives."
+
+
+#: ../../es/scratch-manzanas.rst:393
+msgid "Y modificamos el programa del gato."
+msgstr "And we modified the cat's program."
+
+
+#: ../../es/scratch-manzanas.rst:402
+msgid ""
+"En este punto, para finalizar, vamos a añadir un sonido de fondo al juego."
+msgstr ""
+"At this point, to finish, we are going to add a background sound to the "
+"game."
+
+
+#: ../../es/scratch-manzanas.rst:411
+msgid "Prueba el juego para comprobar que todo funciona correctamente."
+msgstr "Test the game to verify that everything works correctly."
+
+
+#: ../../es/scratch-manzanas.rst:418
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/scratch-manzanas.rst:420
+msgid ""
+"Modifica el programa para que el número de rayos aumente con el tiempo, de "
+"manera que el juego se haga cada vez más difícil."
+msgstr ""
+"Modify the program so that the number of lightning bolts increases over "
+"time, making the game increasingly difficult."

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title></title>
+    <link rel="stylesheet" href="../fonts/style.css" type="text/css">
+<style>
+	body { 
+    background-color: transparent;
+}
+	</style>
+	<script type='text/javascript' src='../lib/descartes-min.js'></script>
+</head>
+<body>
+<ajs name="Descartes" width=750 height=500 code="Descartes">
+   <param name="tamaño" value="750x500">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="deshacer" value="no">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.335, 2015-01-12">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=sí limpiar=no ancho_este=150 ancho_oeste=150 alto=40">
+   <param name="E_01" value="tipo='R3' id='E0' despl_imagen='arr-izq' fondo='fff0f8fa' despliegue='trazado de rayos' cortar='sí' R3='sí'">
+   <param name="E_02" value="tipo='R2' id='E1' x='10%' y='10%' ancho='85%' alto='70%' dibujar-si='d>0' fijo='sí' despl_imagen='arr-izq' fondo='b17a2c' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='A1' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 1' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=1'">
+   <param name="C_02" value="id='A2' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 2' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=2' pos_mensajes='centro'">
+   <param name="C_03" value="id='A3' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 3' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=3' pos_mensajes='centro'">
+   <param name="C_04" value="id='visto' tipo='numérico' interfaz='botón' región='interior' espacio='E1' nombre='Visto' expresión='(280,260)' fijo='sí' visible='sí' color='blanco' color-int='be6000' fuente puntos='18' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=0' pos_mensajes='centro'">
+   <param name="C_05" value="id='Ayuda' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='AYUDA' fijo='sí' visible='sí' color='grisClaro' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=4' pos_mensajes='centro'">
+   <param name="C_06" value="id='v' tipo='numérico' interfaz='barra' espacio='E0' nombre='Velocidad(m/s)   ' valor='0.1' min='0' max='20' decimales='1' fijo='sí' visible='sí'">
+   <param name="C_07" value="id='Ya' tipo='numérico' interfaz='botón' región='interior' espacio='E0' nombre='Ya' expresión='(250,280,40,23)' fijo='sí' visible='sí' color='blanco' color-int='rojo' fuente puntos='20' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='animar' pos_mensajes='centro'">
+   <param name="A_01" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='pi=3.1416'">
+   <param name="A_02" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' hacer='inter=v^0.5;P=v*v/10'">
+   <param name="G_01" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=1' expresión='[20,20,600,250]' texto='Pon en marcha la máquina dando al agua una velocidad mayor que cero. Explica qué conversión de energía es la que hace girar la turbina. Determina el trabajo que realiza en un minuto para la máxima velocidad del agua.\n' fuente='SansSerif,PLAIN,24' fijo='sí' ancho='600' color_borde_texto='negro'">
+   <param name="G_02" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=2' expresión='[20,20,600,250]' texto='Anota en tu cuaderno la potencia que se alcanza para varios valores diferentes de la velocidad. \n¿Son proporcionales potencia y velocidad? \n¿Y potencia y cuadrado de la velocidad? \nCalcula la constante de proporcionalidad. \nReflexiona sobre la causa de esta relación.' fuente='SansSerif,PLAIN,24' fijo='sí' ancho='600' color_borde_texto='negro'">
+   <param name="G_03" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=3' expresión='[20,20,600,250]' texto='Calcula por tu parte y comprueba después en la escena: \n¿Qué velocidad debe tener el agua para que la máquina realice un trabajo de 100.000 julios en 10 segundos?' fuente='SansSerif,PLAIN,24' fijo='sí' ancho='600' color_borde_texto='negro'">
+   <param name="G_04" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=4' expresión='[20,20,600,250]' texto='En la escena, un molino de cuatro aspas es movido por la corriente de un río. El usuario puede alterar la velocidad del agua. Tras pulsar el botón Ya comienza la animación. El botón Inicio nos devuelve al principio.\nEl programa nos irá informando del tiempo pasado, la potencia y el trabajo generados en el molino.' fuente='SansSerif,PLAIN,24' fijo='sí' ancho='600' color_borde_texto='negro'">
+   <param name="S_01" value="espacio='E0' tipo='cilindro' color='negro' color_reverso='negro' expresión='Cilindro' rotini='(0,90,-30)' posini='(-2,1.5,0.15)' ancho='0.5' largo='0.5' alto='5'">
+   <param name="S_02" value="espacio='E0' tipo='paralelepípedo' color='ad7a3f' color_reverso='c08747' expresión='Paralelepípedo' rotini='(-rota,0,-30)' cortar='sí' modelo='luz' ancho='2.5' largo='0.15' alto='5'">
+   <param name="S_03" value="espacio='E0' tipo='paralelepípedo' color='ad7a3f' color_reverso='c08747' expresión='Paralelepípedo' rotini='(90-rota,0,-30)' cortar='sí' modelo='luz' ancho='2.5' largo='0.15' alto='5'">
+   <param name="S_04" value="espacio='E0' tipo='cubo' color='gris' color_reverso='grisClaro' expresión='Cubo' rotini='(0,0,-30)' posini='(-6,3.5,0)' modelo='metal' ancho='5'">
+   <param name="S_05" value="espacio='E0' tipo='superficie' color='003d85' expresión='x=30*u-1 y=8*v-1 z=0' rotini='(0,0,60)' posini='(0,-10,-1)' cortar='sí'">
+   <param name="S_06" value="espacio='E0' tipo='texto' color='negro' dibujar-si='t>0' expresión='[20,45]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs40\b Potencia:{\*\mjaformula{\expr P}}kw\par Trabajo:{\*\mjaformula{\expr W*1000\decimals 2\fixed0}J}\f2\fs30\b0}' fuente='SansSerif,BOLD,20' fijo='sí'">
+   <param name="S_07" value="espacio='E0' tipo='texto' color='negro' dibujar-si='t>0' expresión='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green105\blue0;\red0\green0\blue0;}\f1\fs40\b\cf0 Tiempo:{\*\mjaformula{\expr t}}s.\cf1\f2\fs30\b0}' fuente='SansSerif,BOLD,20' fijo='no'">
+   <param name="S_08" value="espacio='E0' tipo='esfera' dibujar-si='t>0' expresión='Esfera' posini='(5.25,-x,-y-3.25)' cortar='sí' modelo='metal' ancho='0.1'">
+   <param name="Animación" value="controles='no' auto='no' inicio='n=1;rota=0;x=-7;y=-2;t=0;W=0' hacer='t=t+1;n=n+inter;n=(n>360)?0:n;rota=rota+inter;W=W+P;x=x+v*cos(pi/6)/40;y=y-v*sen(pi/6)/125;y=(x>4)?-1:y;x=(x>4)?-7:x' mientras='n<1000'">
+</ajs>
+
+</body>
+</html>

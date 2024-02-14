@@ -1,0 +1,425 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-10-18 17:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/arduprog/troubleshooting.rst:9
+msgid "Solución de problemas"
+msgstr "Troubleshooting"
+
+#: ../../source/arduprog/troubleshooting.rst:11
+msgid ""
+"Lo más habitual es que los programas y circuitos no funcionen en el "
+"primer intento. Esto le ocurre hasta a los más experimentados, nadie se "
+"libra de la `ley de Murphy "
+"<https://es.wikipedia.org/wiki/Ley_de_Murphy>`_."
+msgstr ""
+"The most common is that the programs and circuits do not work on the "
+"first try. This happens even to the most experienced, nobody gets rid of "
+"`Murphy's Law <https://es.wikipedia.org/wiki/Ley_de_Murphy>`_."
+
+#: ../../source/arduprog/troubleshooting.rst:16
+msgid ""
+"Los fallos más frecuentes y también los más difíciles de encontrar, "
+"suelen ser a su vez los más simples. Son fallos del tipo ¿por qué no "
+"funciona esta televisión? sin darse cuenta de que no está conectada."
+msgstr ""
+"The most frequent faults and also the most difficult to find, tend to be "
+"the simplest. They are failures of the type why doesn't this television "
+"work? not realizing that it is not connected."
+
+#: ../../source/arduprog/troubleshooting.rst:21
+msgid ""
+"A continuación se presenta una lista de los errores más comunes para que "
+"pueda servir de guía para encontrar esos fallos que se resisten y tanto "
+"trabajo dan."
+msgstr ""
+"Below is a list of the most common errors so that it can serve as a guide"
+" to find those failures that resist and give so much work."
+
+#: ../../source/arduprog/troubleshooting.rst:26
+msgid "¿Está Conectado?"
+msgstr "Are you connected?"
+
+#: ../../source/arduprog/troubleshooting.rst:27
+msgid ""
+"Hay múltiples versiones de este fallo tan común. En este punto hay que "
+"destacar que la comprobación debe hacerse de forma que se asegure la "
+"buena conexión con total fiabilidad. No basta con mirar si el cable está "
+"en su sitio. También hay que comprobar que existe continuidad, se debe "
+"comprobar con un polímetro que llega la señal y que no hay otras "
+"conexiones indeseadas, como un cortocircuito. Antes de continuar buscando"
+" fallos más complejos debe quedar completamente comprobado que la "
+"conexión es correcta. A continuación se encuentra una lista con versiones"
+" muy comunes de este problema."
+msgstr ""
+"There are multiple versions of this common bug. At this point it should "
+"be noted that the check must be done in such a way as to ensure a good "
+"connection with complete reliability. It is not enough to see if the "
+"cable is in place. It is also necessary to check that there is "
+"continuity, it must be checked with a multimeter that the signal arrives "
+"and that there are no other unwanted connections, such as a short "
+"circuit. Before continuing to search for more complex faults, it must be "
+"fully verified that the connection is correct. Below is a list of very "
+"common versions of this problem."
+
+#: ../../source/arduprog/troubleshooting.rst:41
+msgid "¿Está conectada la alimentación y tiene la tensión correcta?"
+msgstr "Is the power connected and is it the correct voltage?"
+
+#: ../../source/arduprog/troubleshooting.rst:42
+msgid ""
+"La comprobación más sencilla y más segura consiste en medir la tensión de"
+" alimentación del circuito con un polímetro. Si el circuito dispone de un"
+" led para comprobar la presencia de alimentación también servirá de "
+"ayuda, pero con un led no se puede asegurar que la tensión es la "
+"correcta."
+msgstr ""
+"The easiest and safest check is to measure the supply voltage of the "
+"circuit with a multimeter. If the circuit has a led to check the presence"
+" of power, it will also help, but with a led it is not possible to ensure"
+" that the voltage is correct."
+
+#: ../../source/arduprog/troubleshooting.rst:48
+msgid ""
+"En general no es suficiente saber que el circuito está conectado, porque "
+"esto puede despistar. Imaginemos una placa conectada a un cable USB que "
+"la alimenta. Evidentemente la placa está conectada, pero ¿Está conectado "
+"el otro extremo del cable? ¿El hub al que está conectado el cable está a "
+"su vez conectado al ordenador? ¿El ordenador está en marcha? ¿Alguno de "
+"los cables está cortado? ¿Alguno de los interruptores de encendido no "
+"está en posición encendido o se ha quedado a medio camino? Lo más seguro "
+"es comprobar la tensión de alimentación en el circuito final."
+msgstr ""
+"In general it is not enough to know that the circuit is connected, "
+"because this can be misleading. Imagine a board connected to a USB cable "
+"that powers it. Obviously the board is connected, but is the other end of"
+" the cable connected? Is the hub to which the cable is connected is "
+"itself connected to the computer? Is the computer running? Are any of the"
+" wires cut? Are any of the ignition switches not in the on position or "
+"stuck halfway? The safest thing is to check the supply voltage in the "
+"final circuit."
+
+#: ../../source/arduprog/troubleshooting.rst:64
+msgid "¿Está conectada la señal analógica?"
+msgstr "Is the analog signal connected?"
+
+#: ../../source/arduprog/troubleshooting.rst:65
+msgid ""
+"Al igual que en el punto anterior, lo más seguro es medir con un "
+"polímetro el nivel de señal que llega al circuito. Al intentar medir una "
+"señal analógica, siempre mide lo mismo o solo se recibe ruido. En este "
+"caso hay que comprobar varias conexiones:"
+msgstr ""
+"As in the previous point, the safest thing to do is to measure the signal"
+" level that reaches the circuit with a multimeter. When trying to measure"
+" an analog signal, it always measures the same or only noise is received."
+" In this case you have to check several connections:"
+
+#: ../../source/arduprog/troubleshooting.rst:71
+msgid "¿Está conectada la masa?"
+msgstr "Is the ground connected?"
+
+#: ../../source/arduprog/troubleshooting.rst:72
+msgid "¿Están conectadas las señales de referencia de tensión V+ y V-?"
+msgstr "Are the voltage reference signals V+ and V- connected?"
+
+#: ../../source/arduprog/troubleshooting.rst:73
+msgid ""
+"¿Tiene continuidad el cable que va desde el sensor hasta el "
+"microcontrolador?"
+msgstr "Does the cable from the sensor to the microcontroller have continuity?"
+
+#: ../../source/arduprog/troubleshooting.rst:75
+msgid "¿Hay algún cortocircuito que no permite que llegue la señal?"
+msgstr "Is there a short circuit that does not allow the signal to arrive?"
+
+#: ../../source/arduprog/troubleshooting.rst:79
+msgid "¿Está conectada la señal a la patilla correcta?"
+msgstr "Is the signal connected to the correct pin?"
+
+#: ../../source/arduprog/troubleshooting.rst:80
+msgid ""
+"La primera entrada del puerto RA es RA0 y la segunda RA1 esto puede "
+"llevar a confusión en alguna ocasión ¿Está la señal conectada a su "
+"entrada? Si hay una confusión en el puerto de entrada/salida comienzan "
+"los problemas ¿Está conectada a RA o a RB? En algunos microcontroladores "
+"es posible asignar las entradas/salidas a las patillas por software ¿Está"
+" bien configurada la patilla de entrada/salida?"
+msgstr ""
+"The first input of the RA port is RA0 and the second is RA1. This can "
+"lead to confusion at times. Is the signal connected to its input? If "
+"there is a confusion in the input/output port, the problems start. Is it "
+"connected to RA or RB? On some microcontrollers it is possible to assign "
+"the inputs/outputs to the pins by software. Is the input/output pin set "
+"correctly?"
+
+#: ../../source/arduprog/troubleshooting.rst:90
+msgid "¿Está conectada la resistencia de Pull-Up o Pull-Down?"
+msgstr "Is the Pull-Up or Pull-Down resistor connected?"
+
+#: ../../source/arduprog/troubleshooting.rst:91
+msgid ""
+"Ciertas salidas necesitan tener una resistencia conectada a la "
+"alimentación para que la salida pueda dar señal. Es el caso de algunos "
+"circuitos comparadores como el LM311 (salida en colector abierto) o "
+"algunas salidas especiales de microcontroladores (salida en drenador "
+"abierto). La mejor forma de comprobar el funcionamiento correcto es "
+"comprobar la tensión en la patilla con un polímetro. En estos casos una "
+"lectura detallada de la hoja de características (datasheet) puede evitar "
+"cometer este fallo."
+msgstr ""
+"Certain outputs need to have a resistor connected to power so that the "
+"output can give a signal. This is the case of some comparator circuits "
+"such as the LM311 (open collector output) or some special microcontroller"
+" outputs (open drain output). The best way to verify correct operation is"
+" to check the voltage on the pin with a multimeter. In these cases, a "
+"detailed reading of the datasheet can avoid making this mistake."
+
+#: ../../source/arduprog/troubleshooting.rst:103
+msgid "¿Está configurada la patilla como entrada o como salida?"
+msgstr "Is the pin configured as input or output?"
+
+#: ../../source/arduprog/troubleshooting.rst:104
+msgid ""
+"Una confusión en la configuración y podemos pasar horas buscando el "
+"problema. Lo más sencillo es comprobar primero la configuración de los "
+"pines de entrada y salida."
+msgstr ""
+"One configuration mix-up and we can spend hours looking for the problem. "
+"The easiest thing is to first check the configuration of the input and "
+"output pins."
+
+#: ../../source/arduprog/troubleshooting.rst:109
+msgid "¿Está correctamente configurado el pin MCLR?"
+msgstr "Is the MCLR pin set correctly?"
+
+#: ../../source/arduprog/troubleshooting.rst:110
+msgid ""
+"¿Está correctamente configurado el pin LVP para programación con bajo "
+"voltaje?"
+msgstr "Is the LVP pin configured correctly for low voltage programming?"
+
+#: ../../source/arduprog/troubleshooting.rst:115
+msgid "¿Hay alguna entrada al aire que recoja ruido ambiente?"
+msgstr "Is there any air intake that picks up ambient noise?"
+
+#: ../../source/arduprog/troubleshooting.rst:116
+msgid ""
+"Se debe asegurar que todas las entradas digitales y las entradas "
+"analógicas estén por defecto conectadas a masa. Las entradas al aire "
+"pueden provocar fallos intermitentes muy difíciles de encontrar y mayor "
+"consumo del circuito. En especial los pines MCLR y LPV pueden provocar "
+"fallos que provocan el reset del microcontrolador si no están "
+"correctamente configurados y conectados a Vdd o GND."
+msgstr ""
+"It must be ensured that all digital inputs and analog inputs are "
+"connected to ground by default. Air inlets can cause intermittent "
+"failures that are very difficult to find and increased consumption of the"
+" circuit. In particular, the MCLR and LPV pins can cause faults that "
+"cause the microcontroller to reset if they are not correctly configured "
+"and connected to Vdd or GND."
+
+#: ../../source/arduprog/troubleshooting.rst:126
+msgid "¿Está la polaridad cambiada?"
+msgstr "Is the polarity switched?"
+
+#: ../../source/arduprog/troubleshooting.rst:127
+msgid ""
+"Ciertos conectores obligan a conectar una polaridad concreta. En otros "
+"casos, un conector tiene una sola posición pero los cables están "
+"cambiados de lugar. Una alimentación invertida puede destruir el circuito"
+" y una señal analógica con polaridad invertida no funcionará. ¿La "
+"polaridad es correcta?"
+msgstr ""
+"Certain connectors force you to connect a specific polarity. In other "
+"cases, a connector has only one position, but the wires are misplaced. A "
+"reversed supply can destroy the circuit and a reversed polarity analog "
+"signal will not work. Is the polarity correct?"
+
+#: ../../source/arduprog/troubleshooting.rst:134
+msgid ""
+"Las entradas digitales pueden estar activas a nivel alto o a nivel bajo. "
+"¿Es el nivel lógico correcto?"
+msgstr ""
+"The digital inputs can be active high or low. Is it the correct logic "
+"level?"
+
+#: ../../source/arduprog/troubleshooting.rst:138
+msgid ""
+"Si la patilla de reset /MCLR está conectada con una resistencia a masa y "
+"un pulsador al positivo (al revés de su conexión normal) a partir de ahí "
+"no funcionará nada. No es frecuente cometer ese error y por la misma "
+"razón se puede perder mucho tiempo intentando encontrar este fallo."
+msgstr ""
+"If the reset pin /MCLR is connected with a resistor to ground and a push "
+"button to positive (inverse of its normal connection) from there nothing "
+"will work. This mistake is not often made and for the same reason a lot "
+"of time can be wasted trying to find this bug."
+
+#: ../../source/arduprog/troubleshooting.rst:144
+msgid ""
+"Si un puerto del microcontrolador está configurado con entradas en Pull-"
+"up (resistencias a positivo) y se conectan los pulsadores externos al "
+"positivo de la alimentación... no funcionará ninguno."
+msgstr ""
+"If a microcontroller port is configured with inputs in Pull-up (resistors"
+" to positive) and the external pushbuttons are connected to the positive "
+"of the supply... none will work."
+
+#: ../../source/arduprog/troubleshooting.rst:150
+msgid "¿Hay cortocircuito?"
+msgstr "Is there a short circuit?"
+
+#: ../../source/arduprog/troubleshooting.rst:151
+msgid ""
+"Puede que el polímetro señale continuidad en los cables, pero si hay un "
+"cortocircuito entre medias entonces el circuito no funcionará. Para "
+"comprobar la continuidad de un componente, hay que desconectar el "
+"componente del circuito. Hay que comprobar que no existen cortocircuitos "
+"antes de comprobar si existe continuidad."
+msgstr ""
+"The multimeter may show continuity in the wires, but if there is a short "
+"in between then the circuit will not work. To check the continuity of a "
+"component, you must disconnect the component from the circuit. Check that"
+" there are no short circuits before checking for continuity."
+
+#: ../../source/arduprog/troubleshooting.rst:157
+msgid ""
+"Si este error es frecuente, hay aparatos específicos para comprobar "
+"cortocircuitos. Desde un sencillo milióhmetro hasta un complejo "
+"`reflectómetro de dominio de tiempo "
+"<https://es.wikipedia.org/wiki/Reflect%C3%B3metro_de_dominio_de_tiempo>`_"
+msgstr ""
+"If this error is frequent, there are specific devices to check for short "
+"circuits. From a simple milliohmmeter to a complex `time domain "
+"reflectometer "
+"<https://es.wikipedia.org/wiki/Reflect%C3%B3time_domain_meter>`_"
+
+#: ../../source/arduprog/troubleshooting.rst:165
+msgid "¿Se ha comprobado con seguridad?"
+msgstr "Has it been checked for sure?"
+
+#: ../../source/arduprog/troubleshooting.rst:166
+msgid ""
+"Vale la pena insistir de nuevo en este punto. En muchas ocasiones se da "
+"por supuesto que existe conexión solo porque vemos el cable en su sitio. "
+"Esto no es suficiente. La comprobación puede llevar muy poco tiempo y "
+"ahorrar bastante esfuerzo y algún dolor de cabeza."
+msgstr ""
+"It is worth insisting again on this point. On many occasions it is "
+"assumed that there is a connection just because we see the cable in its "
+"place. This is not enough. Checking can take very little time and save a "
+"lot of effort and some headache."
+
+#: ../../source/arduprog/troubleshooting.rst:172
+msgid ""
+"Es fácil \"ver\" que dos bornas roja y negra están correctamente "
+"conectadas al polímetro... hasta que una mirada más atenta permite ver "
+"que las bornas están conectadas en modo tensión, mientras se intenta "
+"medir corriente."
+msgstr ""
+"It is easy to \"see\" that two red and black terminals are correctly "
+"connected to the multimeter... until a closer look reveals that the "
+"terminals are connected in voltage mode, while trying to measure current."
+
+#: ../../source/arduprog/troubleshooting.rst:179
+msgid "¿Las variables y constantes están correctamente configuradas?"
+msgstr "Are the variables and constants set correctly?"
+
+#: ../../source/arduprog/troubleshooting.rst:181
+msgid ""
+"Este es un apartado que genera fallos frecuentes y difíciles de encontrar"
+" porque se da por supuesto que debería funcionar correctamente. El "
+"lenguaje por defecto que se tratará es el C, porque es el lenguaje de "
+"alto nivel más frecuentemente utilizado para programar "
+"microcontroladores."
+msgstr ""
+"This is a section that generates frequent and difficult to find failures "
+"because it is assumed that it should work correctly. The default language"
+" that will be discussed is C, because it is the most frequently used "
+"high-level language for programming microcontrollers."
+
+#: ../../source/arduprog/troubleshooting.rst:190
+msgid "¿Las variables pueden contener el dato?"
+msgstr "Can variables contain data?"
+
+#: ../../source/arduprog/troubleshooting.rst:191
+msgid ""
+"Un bucle de 1000 repeticiones no podrá hacerse con una variable de 8 "
+"bits. Una variable de 8 bits con signo solo podrá contar hasta 127. Los "
+"valores mayores confundirán al bucle al pasar a valer negativo::"
+msgstr ""
+"A loop of 1000 iterations cannot be done with an 8-bit variable. A signed"
+" 8-bit variable can only count up to 127. Larger values ​​will confuse "
+"the loop by going negative::"
+
+#: ../../source/arduprog/troubleshooting.rst:199
+msgid ""
+"Este código no imprimirá nada, puesto que i se inicializa con un valor "
+"menor que cero (i = 130 = -126 en formato de 8 bit con signo)."
+msgstr ""
+"This code will not print anything, since i is initialized with a value "
+"less than zero (i = 130 = -126 in 8-bit signed format)."
+
+#: ../../source/arduprog/troubleshooting.rst:202
+msgid ""
+"¿La base de numeración es correcta? Se debe comprobar que estamos "
+"utilizando una base de numeración adecuada::"
+msgstr ""
+"Is the number base correct? It must be verified that we are using a "
+"suitable numbering base:"
+
+#: ../../source/arduprog/troubleshooting.rst:210
+msgid "¿Hay definiciones repetidas o fuera de contexto?"
+msgstr "Are there repeated definitions or out of context?"
+
+#: ../../source/arduprog/troubleshooting.rst:211
+msgid ""
+"Si hay una definición de una constante \"#define\" en un punto del "
+"programa y se vuelve a definir en otro punto, esto puede dar lugar a "
+"confusión a la hora de programar. Las definiciones deben aparecer solo "
+"una vez."
+msgstr ""
+"If there is a definition of a constant \"#define\" at one point in the "
+"program and it is redefined at another point, this can lead to confusion "
+"when programming. Definitions must appear only once."
+
+#: ../../source/arduprog/troubleshooting.rst:216
+msgid ""
+"Las variables locales de una función se superponen a las variables "
+"globales. Hay que llamar a las variables globales de forma que no "
+"coincidan con las variables locales."
+msgstr ""
+"The local variables of a function overlap the global variables. Global "
+"variables must be called in such a way that they do not match local "
+"variables."
+
+#: ../../source/arduprog/troubleshooting.rst:223
+msgid "¿Las condiciones están correctamente escritas?"
+msgstr "Are the conditions correctly written?"
+
+#: ../../source/arduprog/troubleshooting.rst:224
+msgid ""
+"Las condiciones son una frecuente fuente de errores. Algunos de los más "
+"frecuentes son:"
+msgstr "Conditions are a frequent source of errors. Some of the most frequent are:"
+
+#: ../../source/arduprog/troubleshooting.rst:227
+msgid "Escribir un solo igual  es incorrecto::"
+msgstr "Writing a single equal is incorrect::"
+

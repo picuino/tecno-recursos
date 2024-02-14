@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena12/ejemplo4b.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:53:55 GMT -->
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>C&oacute;digo fuente de ejemplo: ESPERA</title>
+<style type="text/css">
+.comando_largo {
+	font-family: Courier New, Courier, monospace;
+	font-size: small;
+	font-weight: bold;
+	color: #990000;
+}
+.explicacion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #000;
+}
+</style>
+</head>
+
+<body>
+<script src="../../ruffle/ruffle.js"></script>
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+  <tr>
+    <th align="left" valign="top" scope="col"><p align="left"><strong><font size="3" face="Verdana, Arial, Helvetica, sans-serif">C&oacute;digo fuente de ejemplo: Bucles</font></strong>   </p> 
+   
+ <p class="explicacion"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">A veces no nos interesa que la orden se repita siempre de forma igual, sino irla modificando cada vez que se ejecute; por ejemplo, dibujar cuadrados de lado cada vez m&aacute;s grande.
+
+</font><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Para ello podemos crear una variable y programarla para que sufra alguna modificaci&oacute;n en las sucesivas reiteraciones del procedimiento. </font></p>
+ <p class="explicacion"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Por ejemplo, veamos como hacer cuadrados cuyo lado va aumentando en 10 unidades: <br />
+     <span class="comando_largo"><strong>HAZ "lado :lado + 10</strong></span><br />
+   Es decir, s&uacute;male 10 al valor actual que tenga el lado. </font></p>
+<div align="justify">
+  <table width="95%" align="center" cellpadding="2" cellspacing="0" background="imagenes12/fondo.png">
+  <tr> 
+                    <td valign="bottom"><p class="comando_largo"> <font size="2" face="monospace"><strong>PARA Cuadradoscrecientes :lado<br /> REPITE 4 [AV :lado GD 90] ESPERA 50<br /> HAZ "lado :lado + 10<br />
+                    Cuadradoscrecientes :lado<br />
+            FIN</strong></font></p></td>
+          </tr>
+        </table>
+    </div>
+ <p class="explicacion"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Al llamar al programa habr&aacute; que asignar un valor al lado del primer cuadrado, por ejemplo 5 unidades.
+   
+   </font></p>
+ <p class="explicacion"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Para evitar que siga haciendo cuadrados hasta el infinito, podemos a&ntilde;adir la condici&oacute;n de que en el momento en que el lado supere un cierto valor el programa llame a la primitiva ALTO, es decir, se detenga. Naturalmente habr&aacute; que poner esta condici&oacute;n antes de dar la orden de repetir el programa.</font></p>
+
+ <div align="justify">
+   <table width="95%" align="center" cellpadding="2" cellspacing="0" background="imagenes12/fondo.png">
+  <tr> 
+                    <td valign="bottom"><p class="comando_largo"> <font size="2" face="monospace"><strong>PARA Cuadradoscrecientes :lado<br /> REPITE 4 [AV :lado GD 90] ESPERA 50<br /> HAZ "lado :lado + 10;<br /> SI :lado >150 [ALTO] <br />
+                    Cuadradoscrecientes :lado<br />
+            FIN</strong></font></p></td>
+          </tr>
+        </table>
+    </div>
+
+
+</th>
+    <th valign="top" scope="col"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="293" height="550" id="captura4b2" align="middle">
+      <param name="movie" value="imagenes12/captura4b2.swf" />
+      <param name="quality" value="high" />
+      <param name="bgcolor" value="#f1f1f1" />
+      <param name="play" value="true" />
+      <param name="loop" value="true" />
+      <param name="wmode" value="window" />
+      <param name="scale" value="showall" />
+      <param name="menu" value="true" />
+      <param name="devicefont" value="false" />
+      <param name="salign" value="" />
+      <param name="allowScriptAccess" value="sameDomain" />
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="imagenes12/captura4b2.swf" width="293" height="550">
+        <param name="movie" value="imagenes12/captura4b2.swf" />
+        <param name="quality" value="high" />
+        <param name="bgcolor" value="#f1f1f1" />
+        <param name="play" value="true" />
+        <param name="loop" value="true" />
+        <param name="wmode" value="window" />
+        <param name="scale" value="showall" />
+        <param name="menu" value="true" />
+        <param name="devicefont" value="false" />
+        <param name="salign" value="" />
+        <param name="allowScriptAccess" value="sameDomain" />
+        <!--<![endif]-->
+        <a href="http://www.adobe.com/go/getflash"> <img src="../../../../../www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" /> </a>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object></th>
+  </tr>
+</table>
+</body>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena12/ejemplo4b.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:53:55 GMT -->
+</html>

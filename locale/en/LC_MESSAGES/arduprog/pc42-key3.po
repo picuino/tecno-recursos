@@ -1,0 +1,168 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/arduprog/pc42-key3.rst:13
+msgid "Pulsadores y Contadores"
+msgstr "Buttons and Counters"
+
+
+#: ../../es/arduprog/pc42-key3.rst:31
+msgid "Objetivos"
+msgstr "Goals"
+
+
+#: ../../es/arduprog/pc42-key3.rst:32
+msgid "Leer los contadores de tiempo y pulsaciones asociados a un pulsador."
+msgstr "Read the time and pulsation counters associated with a button."
+
+
+#: ../../es/arduprog/pc42-key3.rst:33
+msgid "Realizar acciones asociadas a los contadores de tiempo."
+msgstr "Perform actions associated with time counters."
+
+
+#: ../../es/arduprog/pc42-key3.rst:37
+msgid "La función :cpp:func:`keyCount`"
+msgstr "The :cpp:func:`keyCount` function"
+
+
+#: ../../es/arduprog/pc42-key3.rst:41
+msgid ""
+"Esta función devuelve el número de veces que se ha presionado un pulsador. "
+"El valor se incrementa en uno inmediatamente después de presionar el "
+"pulsador. Si se mantiene el pulsador presionado más de medio segundo, el "
+"contador de pulsaciones se incrementa a razón de 10 pulsos por segundo. Si "
+"el pulsador se mantiene presionado durante más de dos segundos, el contador "
+"de pulsaciones se incrementa a razón de 100 pulsos por segundo. Los tiempos "
+"y las frecuencias de incremento del contador se pueden modificar en la "
+"configuración del teclado."
+msgstr ""
+"This function returns the number of times a button has been pressed. The "
+"value is incremented by one immediately after the push button is pressed. If"
+" the button is held down for more than half a second, the pulse counter is "
+"increased by 10 pulses per second. If the button is held down for more than "
+"two seconds, the pulse counter is incremented by 100 pulses per second. The "
+"counter increment times and frequencies can be changed in the keyboard "
+"settings."
+
+
+#: ../../es/arduprog/pc42-key3.rst:54 ../../es/arduprog/pc42-key3.rst:68
+
+
+#: ../../es/arduprog/pc42-key3.rst:82
+msgid "|keyNum|"
+msgstr "|keyNum|"
+
+
+#: ../../es/arduprog/pc42-key3.rst:58
+msgid "La función :cpp:func:`keyTimeOn`"
+msgstr "The :cpp:func:`keyTimeOn` function"
+
+
+#: ../../es/arduprog/pc42-key3.rst:62
+msgid ""
+"Esta función devuelve el tiempo en milisegundos que ha estado presionado el "
+"pulsador. El máximo tiempo que puede contar es de 65 segundos. A partir de "
+"ese momento no se cuenta más tiempo y el resultado devuelto siempre es el "
+"mismo."
+msgstr ""
+"This function returns the time in milliseconds that the button has been "
+"pressed. The maximum time you can count is 65 seconds. From that moment no "
+"more time is counted and the returned result is always the same."
+
+
+#: ../../es/arduprog/pc42-key3.rst:72
+msgid "La función :cpp:func:`keyTimeOff`"
+msgstr "The :cpp:func:`keyTimeOff` function"
+
+
+#: ../../es/arduprog/pc42-key3.rst:76
+msgid ""
+"Esta función devuelve el tiempo en milisegundos que ha estado sin presionar "
+"el pulsador. El máximo tiempo que puede contar es de 65 segundos. A partir "
+"de ese momento no se cuenta más tiempo y el resultado devuelto siempre es el"
+" mismo."
+msgstr ""
+"This function returns the time in milliseconds that the button has not been "
+"pressed. The maximum time you can count is 65 seconds. From that moment no "
+"more time is counted and the returned result is always the same."
+
+
+#: ../../es/arduprog/pc42-key3.rst:86
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/arduprog/pc42-key3.rst:87
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+
+#: ../../es/arduprog/pc42-key3.rst:89
+msgid ""
+"El siguiente programa mueve hacia la derecha un led cuando se presiona el "
+"pulsador 2. Modificar el programa para que el led se mueva también hacia la "
+"izquierda al presionar el pulsador 1."
+msgstr ""
+"The following program moves a led to the right when button 2 is pressed. "
+"Modify the program so that the led also moves to the left when button 1 is "
+"pressed."
+
+
+#: ../../es/arduprog/pc42-key3.rst:99
+msgid ""
+"El siguiente programa es un juego para comprobar la habilidad de contar "
+"tiempo. Se debe presionar el pulsador 1 exactamente durante tres segundos. "
+"En el display se muestra el error de tiempo en milisegundos. Si se ha "
+"presionado menos tiempo, el número mostrado será negativo. En caso de "
+"presionar más de tres segundos, el número mostrado será positivo. Gana el "
+"jugador que más se acerque al cero."
+msgstr ""
+"The following program is a game to check the ability to tell time. Push "
+"button 1 must be pressed for exactly three seconds. The display shows the "
+"time error in milliseconds. If less time has been pressed, the number "
+"displayed will be negative. In case of pressing for more than three seconds,"
+" the displayed number will be positive. The player closest to zero wins."
+
+
+#: ../../es/arduprog/pc42-key3.rst:107
+msgid ""
+"**Modificar** el programa para que el led D1 parpadee una vez por segundo "
+"antes de comenzar el juego. Una vez presionado el pulsador 1, el led 1 debe "
+"apagarse para no dar pistas sobre el tiempo que debe estar presionado el "
+"pulsador."
+msgstr ""
+"**Modify** the program so that led D1 blinks once per second before starting"
+" the game. Once button 1 is pressed, LED 1 must go off so as not to give "
+"clues about the time the button must be pressed."
+
+
+#: ../../es/arduprog/pc42-key3.rst:151
+msgid ""
+"Modificar el programa que aparece a continuación, parecido al anterior. En "
+"este juego la puntuación será más alta si se presiona un pulsador el mismo "
+"tiempo dos veces consecutivas. Primero el programa debe medir el tiempo que "
+"ha estado presionado el pulsador 1, después debe esperar a que no esté "
+"presionado. Finalmente se medirá el segundo tiempo que el pulsador esté "
+"presionado."
+msgstr ""
+"Modify the program that appears below, similar to the previous one. In this "
+"game the score will be higher if a button is pressed for the same time twice"
+" in a row. First the program must measure the time that button 1 has been "
+"pressed, then it must wait until it is not pressed. Finally, the second time"
+" that the button is pressed will be measured."

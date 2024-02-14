@@ -1,0 +1,92 @@
+﻿:Date: 21/07/2023
+:Author: Carlos Félix Pardo Martín
+:License: Creative Commons Attribution-ShareAlike 4.0 International
+
+:orphan:
+
+.. _python-top-down:
+
+
+Programación Top-Down
+=====================
+
+
+
+
+Ejercicios
+----------
+
+#. Calcula los primeros números primos hasta el 100 con el método de
+   la `criba de Eratóstenes
+   <https://es.wikipedia.org/wiki/Criba_de_Erat%C3%B3stenes>`.
+
+
+   Pista::
+
+      def tachar(lista, indice, primo):
+          """
+          Asigna el valor cero (tachar) a todos los números
+          de la 'lista' que sean múltiplos de 'primo'.
+          Comienza en la siguiente posición del 'indice'
+          hasta el final de la lista.
+          """
+          while True:
+              indice = indice + primo
+              if indice >= len(lista):
+                  return
+              lista[indice] = 0
+
+
+      def buscar_primo(lista, indice):
+          """
+          Busca el índice del siguiente elemento de la lista
+          que no tenga un valor igual a cero.
+          Busca a partir de la siguiente posición de 'indice'
+          en adelante.
+          Si llegamos al final de la lista, también retornamos
+          esa posición.
+          """
+          while True:
+              indice = indice + 1
+              if lista[indice] != 0:
+                  return indice
+              if indice >= len(lista):
+                  return indice
+
+
+
+      def extraer_primos(lista):
+          """
+          Extrae de la lista todos los elementos que
+          no valgan cero, es decir, que sean primos.
+          Retorna la lista de los primos encontrados.
+          """
+          primos = []
+          for num in lista:
+              if num > 0:
+                  primos.append(num)
+          return primos
+
+
+      def eratostenes(maxprimo):
+          """
+          Busca todos los números primos entre 2 y maxprimo
+          con el método de la criba de Eratóstenes.
+          Retorna una lista con todos los primos encontrados.
+          """
+          lista = list(range(2, maxprimo+1))
+          indice = 0
+          primo = 2
+          while True:
+              tachar(lista, indice, primo)
+              indice = buscar_primo(lista, indice)
+              primo = lista[indice]
+              if primo**2 > maxprimo:
+                  break
+          extraer_primos(lista)
+
+
+      print(eratostenes(1000))
+
+
+

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Mechanics - FreeCAD - 1. Introduction to FreeCAD">
+  <title>1. Introduction to FreeCAD - FreeCAD - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/freecad-intro.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="2. Parts display" href="freecad-visualizacion.html">
+  <link rel="prev" title="FreeCAD" href="freecad-index.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="mecan-index.html">Mechanics</a>/</li>
+        
+          <li><a href="freecad-index.html">FreeCAD</a>/</li>
+        
+      <li><span class="section-number">1. </span>Introduction to FreeCAD</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/freecad-intro.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/freecad-intro.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="introduccion-a-freecad">
+<span id="freecad-intro"></span><h1><span class="section-number">1. </span>Introduction to FreeCAD<a class="headerlink" href="#introduccion-a-freecad" title="Permalink to this headline">¶</a></h1>
+<p>FreeCAD is a free computer-aided design (CAD) program. Allows you to design objects in three dimensions. These objects can later be printed on a 3D printer.</p>
+<p>To carry out this tutorial, <strong>version 0.18</strong> of FreeCAD has been used.</p>
+<p>The tutorials that follow are based on the video tutorials that ObiJuan (Juan González Gómez) has published on YouTube. The full list of ObiJuan tutorials is on the <a class="reference internal" href="freecad-videotutoriales.html#freecad-videotutoriales"><span class="std std-ref">FreeCAD Video Tutorials</span></a> page.</p>
+<p><br></p>
+<ol class="arabic">
+<li><p class="first">Now we are going to open the FreeCAD application, which has the following icon.</p>
+<img alt="_images/freecad-icono.png" src="_images/freecad-icono.png">
+<p>Once opened, the main FreeCAD window is as follows.</p>
+<img alt="_images/freecad-ventana.png" src="_images/freecad-ventana.png">
+<p><br></p>
+</li>
+<li><p class="first">Then we click with the mouse on the icon to create a <strong>new document</strong> <img alt="icono-nuevo-documento" class="align-middle" src="_images/freecad-icono-nuevo-documento.png"> or we select in the menu <code class="docutils literal notranslate"><span class="pre">File...</span> <span class="pre">New</span></code>.</p>
+<p>A new tab will open with an empty document, where we can start designing.</p>
+<p><br></p>
+</li>
+<li><p class="first">In the FreeCAD program there are several <strong>Work Benches</strong> also called Workbench in English. By default, opening a new file selects the <strong>Start</strong> workbench.</p>
+<img alt="_images/freecad-workbench-start.png" src="_images/freecad-workbench-start.png">
+<p>Now we are going to select the <strong>Part</strong> workbench to start designing objects in 3 dimensions.</p>
+<img alt="_images/freecad-workbench-part.png" src="_images/freecad-workbench-part.png">
+<p>We can see how the toolbar icons have changed to adapt to the new <strong>Part</strong> workbench.</p>
+<p><br></p>
+</li>
+<li><p class="first">Clicking on the <strong>solid objects</strong> toolbar will bring up the selected object on the screen.</p>
+<img alt="_images/freecad-barra-solidos.png" src="_images/freecad-barra-solidos.png">
+<p>Cubes, cylinders, spheres, cones, tori, prisms, or more complex pieces can be created parametrically.</p>
+<p>To begin we are going to select a cube that will be seen on the screen as follows.</p>
+<img alt="_images/freecad-p01-cubo.png" src="_images/freecad-p01-cubo.png">
+<p><br></p>
+</li>
+<li><p class="first">Now we are going to choose the <strong>navigation style</strong> to display the cube on the screen. With the right mouse button we select navigation style... of type <strong>Blender</strong>.</p>
+<img alt="_images/freecad-p01-select-blender.png" src="_images/freecad-p01-select-blender.png">
+<p>To <strong>rotate</strong> the cube, press the <strong>middle button</strong> while moving the mouse.</p>
+<p>To <strong>zoom out and zoom in</strong> we will rotate the <strong>mouse wheel</strong>.</p>
+<p>To <strong>move the cube</strong> we will press the <strong>central button</strong> at the same time as the letter <strong>Shift</strong> on the keyboard, while we move the mouse.</p>
+<p><br></p>
+</li>
+<li><p class="first">With the <strong>Display</strong> toolbar we can also center the object on the screen or select the view we want to display.</p>
+<img alt="_images/freecad-barra-visualizacion.png" src="_images/freecad-barra-visualizacion.png">
+<p><br></p>
+</li>
+</ol>
+<hr class="docutils">
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Open FreeCAD and create a new document with a cube and a cylinder. Move the pieces around the screen and select all their different faces by clicking on them.</p>
+<p><br></p>
+</li>
+</ol>
+</div>
+<hr class="docutils">
+<div class="section" id="videotutorial">
+<h2>Video-tutorial<a class="headerlink" href="#videotutorial" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/embed/2_DbFzFV9D4" rel="noopener noreferrer" target="_blank">Introduction.</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="freecad-visualizacion.html" class="btn btn-neutral float-right" title="2. Parts display" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="freecad-index.html" class="btn btn-neutral" title="FreeCAD" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/freecad-intro.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="mecan-index.html">Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="mecan-estructuras-index.html">Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-maquinas-index.html">Machines and Mechanisms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-calibre.html">The Caliber</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="freecad-index.html">FreeCAD</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">1. Introduction to FreeCAD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-visualizacion.html">2. Parts display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-traslacion.html">3. Translation of pieces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-tamanios.html">4. Pieces size</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-union.html">5. Union of pieces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-rotaciones.html">6. Rotation of parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-diferencia.html">7. Parts difference</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-cilindros.html">8. Cylindrical parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-chaflanes.html">9. Chamfers and fillets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-esferas.html">10. Spherical parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-conos.html">11. Conical pieces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-toroides.html">12. Toroidal parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-croquis-extrudir.html">13. Sketch extrusion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-croquis-anidados.html">14. Nested Sketch Extrusion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-restricciones.html">15. Constrained sketches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-videotutoriales.html">16. FreeCAD Video Tutorials</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="blockscad-index.html">BlocksCAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-neumatic-intro.html">Pneumatics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-origami.html">Origami</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-recursos.html">Mechanics Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

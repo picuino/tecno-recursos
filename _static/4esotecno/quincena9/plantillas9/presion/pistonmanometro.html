@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="baleiro" width=300 height=300
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="nombre" value="baleiro">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='s&iacute;' O.x='-20' O.y='-20' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='d' tipo='gr&aacute;fico' color='azul' color-int='rojo' expresi&oacute;n='(0,2)' constricci&oacute;n='x=2' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='inf' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='inf' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Mueve el pist&oacute;n y comprueba como se mueve la aguja del man&oacute;metro. Recuerda que la presi&oacute;n manom&eacute;trica es siempre la relativa.' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='a2' algoritmo='s&iacute;' evaluar='siempre' hacer='p.cpx=2;p.cpy=d.y;p.aci=2;p.cx=1;p.cc=2.5;p.ac=0.25;p.ap=0.25;m.ang=ang;m.r=1;m.c1y=-20;'">
+   <param name="A_01" value="id='pi' constante='s&iacute;' expresi&oacute;n='3.1415' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='ang' constante='s&iacute;' expresi&oacute;n='5*pi/4-((3*pi/4)*(2-d.y))' evaluar='siempre'">
+   <param name="A_03" value="id='e1' evento='s&iacute;' condici&oacute;n='d.y&lt;=0' acci&oacute;n='calcular' par&aacute;metro='d.y=0;p.cpy=0;ang=-pi/4' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="A_04" value="id='e2' evento='s&iacute;' condici&oacute;n='d.y&lt;=0' acci&oacute;n='mensaje' par&aacute;metro='El gas no se puede comprimir m&aacute;s.' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="A_05" value="id='e3' evento='s&iacute;' condici&oacute;n='d.y&gt;=2' acci&oacute;n='calcular' par&aacute;metro='d.y=2;p.cpy=2;ang=5*pi/4' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="A_06" value="id='p' constante='s&iacute;' expresi&oacute;n='p.cc/(p.cc-(p.cp-d.y))' evaluar='siempre'">
+   <param name="G_00" value="tipo='macro' expresi&oacute;n='macros/piston' nombre='p'">
+   <param name="G_01" value="tipo='macro' expresi&oacute;n='macros/manometro' posini='[1,0.3]' nombre='m'">
+   <param name="G_02" value="tipo='pol&iacute;gono' color='rojo' expresi&oacute;n='(d.x+p.aci/2-p.ac,d.y-p.cp-2*p.ac)(d.x+p.aci/2-p.ac,-2.75)(d.x-p.aci/2+p.ac,-2.75)(d.x-p.aci/2+p.ac,d.y-p.cp-2*p.ac)' relleno='rojo'">
+   <param name="Animaci&oacute;n" value="pausa='30' controles='no' auto='no'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

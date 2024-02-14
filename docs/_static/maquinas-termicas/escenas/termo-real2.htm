@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title></title>
+	<link rel="stylesheet" href="../fonts/style.css" type="text/css">
+<style>
+	body { 
+    background-color: transparent;
+}
+	</style>
+	<script type='text/javascript' src='lib/descartes-min2.js'></script>
+</head>
+<body>
+<ajs name="Descartes" width=750 height=550 code="Descartes">
+   <param name="tamaño" value="750x550">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="deshacer" value="no">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.335, 2015-01-12">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=sí limpiar=sí ancho_este=150 ancho_oeste=150 alto=35">
+   <param name="E_01" value="tipo='R2' id='E0' fijo='sí' O.x='-70' despl_imagen='arr-izq' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_02" value="tipo='R2' id='E2' x='322' y='162' ancho='484' alto='324' fijo='sí' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_03" value="tipo='R2' id='E1' x='10%' y='10%' ancho='80%' alto='70%' dibujar-si='d>0' fijo='sí' despl_imagen='arr-izq' fondo='764418' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='A1' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 1' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=1'">
+   <param name="C_02" value="id='A2' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 2' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=2'">
+   <param name="C_03" value="id='A3' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 3' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=3'">
+   <param name="C_04" value="id='Ti' tipo='numérico' espacio='E0' nombre='Ti' valor='300' incr='1' min='300' max='400' fijo='sí' visible='sí'">
+   <param name="C_05" value="id='ac' tipo='numérico' espacio='E0' nombre='Acelerador' valor='1' incr='1' min='1' max='10' fijo='sí' visible='sí'">
+   <param name="C_06" value="id='Ya' tipo='numérico' interfaz='botón' espacio='E0' nombre='Ya' fijo='sí' visible='sí' color='blanco' color-int='ff6f00' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='animar'">
+   <param name="C_07" value="id='visto' tipo='numérico' interfaz='botón' región='interior' espacio='E1' nombre='Visto' expresión='(260,300,120,30)' fijo='sí' visible='sí' color='blanco' color-int='cd5e00' fuente puntos='20' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=0'">
+   <param name="C_08" value="id='Ayuda' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='AYUDA' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=4'">
+   <param name="C_09" value="id='graf' tipo='numérico' interfaz='menú' región='interior' espacio='E0' nombre='Gráfico' expresión='(330,120,180,35)' fijo='sí' visible='no' opciones='P-V,P-T,V-T'">
+   <param name="A_01" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='Vo=1;pi=3.1416'">
+   <param name="A_02" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' hacer='N=0.01*ac;x1=-2.5-sin(a);y1=-2+cos(a);y=2+cos(a)-Vo/2;vol=(t=0)?Vo:v;temper=(cont=0)?Ti:temp;esca=N/0.01;verde=(cont>0)&(cont<200)?0.25:0;tot=WT*nc;;;;;'">
+   <param name="G_01" value="espacio='E0' tipo='polígono' color='azul' expresión='(-1,3)(0,3)(0,2.5)(-1,2.5)' ancho='5'">
+   <param name="G_02" value="espacio='E0' tipo='polígono' color='azul' expresión='(-4,3)(-1,3)(-1,0)(-4,0)' ancho='5'">
+   <param name="G_03" value="espacio='E0' tipo='polígono' color='azul' expresión='(-4,3)(-1,3)(-1,y)(-4,y)' relleno='(rojo,verde,00,00)' ancho='5'">
+   <param name="G_04" value="espacio='E0' tipo='polígono' color='azul' expresión='(-5,3)(-4,3)(-4,2.5)(-5,2.5)' ancho='5'">
+   <param name="G_05" value="espacio='E0' tipo='polígono' color='azul' expresión='(-1,3)(0,3)(0,2.5)(-1,2.5)' ancho='5'">
+   <param name="G_06" value="espacio='E0' tipo='polígono' color='(rojo,verde,00,00)' dibujar-si='(cont>0)&(cont<100)' expresión='(-5,2.97)(-3.8,2.97)(-3.8,2.55)(-5,2.55)' relleno='(rojo,verde,00,00)'">
+   <param name="G_07" value="espacio='E0' tipo='polígono' color='(rojo,verde,00,00)' dibujar-si='(cont>275)' expresión='(-1.2,2.98)(0,2.98)(0,2.5)(-1.2,2.5)' relleno='(rojo,verde,00,00)'">
+   <param name="G_08" value="espacio='E0' tipo='segmento' color='azul' expresión='(-4,y)(-1,y)' fijo='sí' ancho='5'">
+   <param name="G_09" value="espacio='E0' tipo='segmento' color='azul' expresión='(-2.5,-2)(x1,y1)' fijo='sí' ancho='5'">
+   <param name="G_10" value="espacio='E0' tipo='segmento' color='azul' expresión='(x1,y1)(-2.5,y)' fijo='sí' ancho='5'">
+   <param name="G_11" value="espacio='E0' tipo='punto' expresión='(-2.5,-2)' fijo='sí' tamaño='10'">
+   <param name="G_12" value="espacio='E0' tipo='punto' expresión='(x1,y1)' fijo='sí' tamaño='5'">
+   <param name="G_13" value="espacio='E0' tipo='segmento' color='azul' expresión='(-4,2.5)(-4,0)' fijo='sí' ancho='5'">
+   <param name="G_14" value="espacio='E2' tipo='segmento' color='azul' expresión='(-2,2)(-2,-1)' fijo='sí' tamaño='1' ancho='2'">
+   <param name="G_15" value="espacio='E2' tipo='segmento' color='azul' expresión='(-2,-1)(3,-1)' fijo='sí' tamaño='1' ancho='2'">
+   <param name="G_16" value="espacio='E2' tipo='punto' color='rojo' dibujar-si='cont>0' expresión='(vx,vy)' rastro='000066' fijo='sí'">
+   <param name="G_17" value="espacio='E2' tipo='punto' color='rojo' dibujar-si='cont>0' expresión='(vx,vy)' texto='[tx],[ty]' fijo='sí'">
+   <param name="G_18" value="espacio='E2' tipo='texto' color='00cbff' dibujar-si='graf<2' expresión='[40,20]' texto='Presión' fuente='SansSerif,PLAIN,18' fijo='sí' color_borde_texto='negro'">
+   <param name="G_19" value="espacio='E2' tipo='texto' color='00cbff' dibujar-si='graf=2' expresión='[40,20]' texto='Volumen' fuente='Monospaced,PLAIN,20' fijo='sí' color_borde_texto='negro'">
+   <param name="G_20" value="espacio='E2' tipo='texto' color='00cbff' dibujar-si='graf=0' expresión='[280,220]' texto='Volumen' fuente='Monospaced,PLAIN,20' fijo='sí' color_borde_texto='negro'">
+   <param name="G_21" value="espacio='E2' tipo='texto' color='00cbff' dibujar-si='graf>0' expresión='[280,220]' texto='Temperatura' fuente='Monospaced,PLAIN,20' fijo='sí' color_borde_texto='negro'">
+   <param name="G_22" value="espacio='E0' tipo='polígono' expresión='(-1,3)(0,3)(0,2.5)(-1,2.5)' ancho='5'">
+   <param name="G_23" value="espacio='E0' tipo='flecha' color='003e00' dibujar-si='(cont>0)&(cont<100)' expresión='(-5.2,2)(-4,2)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;}\f1\fs30\par \par Gas}' fijo='sí' ancho='3' ancho='3' punta='5' flecha='003e00'">
+   <param name="G_24" value="espacio='E0' tipo='flecha' color='negro' dibujar-si='cont>275' expresión='(0,2.25)(1,2.25)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;}\f1\fs30\par \par Escape}' fijo='sí' ancho='3' ancho='3' punta='5' flecha='negro'">
+   <param name="G_25" value="espacio='E0' tipo='texto' color='azul' dibujar-si='(cont>200) &(cont<225)' expresión='(310,20)' texto='Gana [W]J ' fijo='sí'">
+   <param name="G_26" value="espacio='E0' tipo='texto' color='azul' dibujar-si='cont>275' expresión='(310,20)' texto='Pierde [Wp]J' fijo='sí'">
+   <param name="G_27" value="espacio='E0' tipo='texto' color='azul' dibujar-si='tot>0' expresión='(280,40)' texto='Trabajo neto: [tot]J' fijo='sí'">
+   <param name="G_28" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=1' expresión='[20,90,500,120]' texto='Observa el ciclo variando cada vez las gráficas que se observan. \n¿Cuántas etapas observas?\n ¿En cuáles se gana o se pierde calor? \n¿Cómo evoluciona la temperatura en esos casos? ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='500' color_borde_texto='negro'">
+   <param name="G_29" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=2' expresión='[20,90,500,120]' texto='Para obtener el rendimiento debes tener en cuenta que, de la energía recibida, la parte que no se devuelve de nuevo es la utilizada como trabajo útil. \n¿Qué tanto por ciento representa este trabajo respecto al recibido en la primera etapa? \nEl valor que hayas obtenido es el rendimiento del ciclo del motor. ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='500' color_borde_texto='negro'">
+   <param name="G_30" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=3' expresión='[20,90,500,120]' texto='Pulsa inicio y varía la aceleración del motor . \n¿Cómo se altera el rtendimiento? \n¿Y si se altera la temperatura inicial? ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='500' color_borde_texto='negro'">
+   <param name="G_31" value="espacio='E1' tipo='texto' color='blanco' dibujar-si='d=4' expresión='[20,90,500,120]' texto='El botón Ya pone en marcha el motor. Para que puedas  comprender sus fases puedes elegir entre las representaciones gráficas presión-volumen, presión-temperatura y volumen-temperatura. \nLa presión viene dada en atmósferas, el volumen en litros y la temperatura en kelvin. \nPuedes acelerar el motor (aumentando el combustible)  o su temperatura inicial.\nEl botón limpiar borra las gráficas trazadas hasta ese momento. ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='500' color_borde_texto='negro'">
+   
+   <param name="Animación" value="controles='no' auto='no' inicio='a=0;v=Vo;temp=Ti;cont=0;Tmax=0;p=N*0.082*Ti/3;tmed=0;tcam=0;rojo=0;W=0;Wp=0;nc=0' hacer='Tmax=(cont=0)?0:Tmax;tcam=(cont=0)?0:tcam;tmed=(cont=0)?0:tmed;cont=cont+1;temp=Ti;temp=(cont<=100)?Ti:temp;temp=((cont>100)&(cont<=200))?Ti*(3/v)^1.4:temp;tcam=(cont=200)?temp:tcam;temp=((cont>200)&(cont<=225))?tcam*v:temp;Tmax=(cont=225)?temp:Tmax;temp=((cont>225)&(cont<=275))?Tmax*(1.5/v)^1.4:temp;tmed=(cont=275)?temp:tmed ;temp=((cont>275)&(cont<300))?tmed+ (Ti-tmed)/25*(cont-275):temp;temp=(cont>300)?Ti:temp;p=((cont>100)&(cont<300))?N*0.082*temp/v:N*0.082*Ti/3;v=(cont=1)?Vo:v;v=(cont<=100)?v+0.02:v;v=((cont>100)&(cont<=200))?v-0.02:v;v=((cont>200)&(cont<=300))?v+0.02:v;v=(cont>300)?v-0.02:v;vx=v-2;vy=p*2/esca-1;vx=(graf=1)?temp/500-2:vx;vx=(graf=2)?temp/500-2:vx;vy=(graf=2)?v-1:vy;tx=v;ty=p;tx=(graf=1)?temp:tx;tx=(graf=2)?temp:tx;ty=(graf=2)?v:ty;a=a+pi/100;a=(a>=2*pi)?0:a;rojo=(cont<100)?0:rojo;rojo=(cont>=100)?(cont-100)/150:rojo;rojo=(cont>200)?1:rojo;rojo=(cont>225)?(300-cont)/75:rojo;W=(cont>200)&(cont<225)?abs(Tmax-tcam)*50*N:W;Wp=(cont>275)?abs(Ti-tmed)*50*N:Wp;WT=(cont=399)?W-Wp:WT;nc=(cont=399)?nc+1:nc;cont=(cont=399)?0:cont;;' mientras='a<10'">
+</ajs>       
+</body>
+</html>

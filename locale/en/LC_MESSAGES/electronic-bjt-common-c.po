@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-12 11:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-bjt-common-c.rst:9
+msgid "El transistor en colector común"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:10
+msgid ""
+"Al transistor en colector común también se le llama habitualmente "
+"**seguidor de emisor**."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:13
+msgid ""
+"En esta configuración el transistor tiene el colector conectado a la "
+"tensión positiva. La señal de entrada llega por la base del transistor y "
+"la señal amplificada sale por el emisor del transistor."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:22
+msgid ""
+"Esquema simplificado de un transistor NPN en colector común o también "
+"conocido como \"seguidor de emisor\"."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:25
+msgid ""
+"Esta configuración permite amplificar la corriente de entrada manteniendo"
+" la tensión sin cambios. La tensión de salida, por lo tanto, será "
+"prácticamente la misma que la tensión de entrada, menos la tensión del "
+"diodo de base a emisor que se mantiene en un valor alrededor de 0.65 "
+"voltios."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:31
+msgid ""
+"Este funcionamiento es útil en las etapas de salida de los circuitos, "
+"donde es necesaria una corriente alta, por ejemplo, para mover un "
+"altavoz."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:34
+msgid ""
+"A continuación puede verse una simulación de un transistor NPN en "
+"configuración de colector común. El transistor amplifica una señal que "
+"entra por la base generando una señal con mucha mayor corriente por el "
+"emisor."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:46
+msgid "La función de cada uno de los componentes es la siguiente:"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:48
+msgid ""
+"El **generador de señal alterna** genera una señal de entrada de 2 "
+"voltios de pico."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:51
+msgid ""
+"El **condensador C1** tiene como función llevar la señal alterna desde el"
+" generador hasta la base del transistor, eliminando la señal de corriente"
+" continua."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:55
+msgid ""
+"El efecto práctico consiste en que la tensión en el generador varía en "
+"torno a cero voltios y la tensión en la base del transistor varía en "
+"torno a los 3 voltios."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:59
+msgid ""
+"La **resistencia R2** añade a la base una pequeña corriente continua para"
+" que el transistor pueda funcionar. Esta corriente positiva que se suma "
+"en la base se denomina **corriente de polarización**."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:64
+msgid ""
+"Hay que tener en cuenta que el transistor solo puede amplificar "
+"corrientes positivas, por lo que es necesario sumar una pequeña corriente"
+" positiva a la corriente alterna de entrada (positiva y negativa) para "
+"que el transistor funcione correctamente."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:69
+msgid ""
+"El **transistor NPN** recibe una señal de tensión por la base con poca "
+"corriente y mantiene en el emisor esa misma tensión, menos la tensión de "
+"unos 0.65 voltios que siempre hay entre base y emisor."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:73
+msgid ""
+"La corriente que llega por la base se amplifica para que circule, "
+"multiplicada, por el colector y por el emisor."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:76
+msgid ""
+"La **resistencia R3** recibe la corriente del emisor y la convierte en "
+"tensión de salida."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:79
+msgid ""
+"Por esta resistencia circulará unas 100 veces la corriente que circula "
+"por la base del transistor."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:84
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:86
+msgid ""
+"Dibuja un esquema simplificado de un transistor NPN trabajando en "
+"configuración de colector común, mostrando por dónde llega la señal de "
+"entrada y por dónde sale la señal amplificada."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:90
+msgid ""
+"Dibuja un esquema realista de un transistor NPN trabajando en "
+"configuración de colector común."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:93
+msgid ""
+"¿Cuál es la función principal de un transistor funcionando en "
+"configuración de colector común?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:96
+msgid ""
+"Dibuja una gráfica con la tensión del generador y la tensión de salida. "
+"¿Qué diferencia puedes observar entre las gráficas?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:100
+msgid ""
+"Modifica el valor de la resistencia R2 para que valga 20kOhm. Dibuja la "
+"gráfica de la tensión de salida."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:103
+msgid "¿Qué le ocurre a la tensión de salida cuando la resistencia R2 aumenta?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:106
+msgid ""
+"Modifica el valor de la resistencia R2 para que valga 4kOhm. Dibuja la "
+"gráfica de la tensión de salida."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:109
+msgid "¿Qué le ocurre a la tensión de salida cuando la resistencia R2 disminuye?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:112
+msgid ""
+"Cambia en el simulador el valor de la resistencia de salida R3 a 1000 "
+"Ohmios."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-c.rst:115
+msgid ""
+"Cambia el valor de la resistencia R2 de manera que la tensión de salida "
+"varíe entre 1 voltio y 5 voltios."
+msgstr ""
+

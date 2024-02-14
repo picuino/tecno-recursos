@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="valvula32" width=400 height=400
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="nombre" value="valvula32">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=s&iacute; limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='s&iacute;' O.x='20' despl_imagen='arr-izq' fondo='blanco' red='grisClaro' red10='gris' ejes='gris' texto='grisObscuro' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='g1' tipo='gr&aacute;fico' color='azul' color-int='rojo' expresi&oacute;n='(-4.5,0)' constricci&oacute;n='y=0' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='ac' constante='s&iacute;' expresi&oacute;n='2' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='lc' constante='s&iacute;' expresi&oacute;n='0.3' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='am' constante='s&iacute;' expresi&oacute;n='0.25' evaluar='una-sola-vez'">
+   <param name="A_03" value="id='pm' constante='s&iacute;' expresi&oacute;n='-g1.x/16' evaluar='siempre'">
+   <param name="A_04" value="id='e1' evento='s&iacute;' condici&oacute;n='(g1.x &gt; -3.5)' acci&oacute;n='calcular' par&aacute;metro='g1.x=-3.5' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="G_00" value="tipo='pol&iacute;gono' expresi&oacute;n='(g1.x+2.5,1)(g1.x+2.5,-1)(g1.x+3,-1)(g1.x+3,-lc)(g1.x+ac+2.5,-lc)(g1.x+ac+2.5,-1)(g1.x+ac+3,-1)(g1.x+ac+3,1)(g1.x+ac+2.5,1)(g1.x+ac+2.5,lc)(g1.x+3,lc)(g1.x+3,1)(g1.x+2.5,1)' relleno='azul' ancho='2'">
+   <param name="G_01" value="tipo='segmento' color='grisObscuro' expresi&oacute;n='(g1.x+ac+3,0)(g1.x+ac+3+pm,2*am)(g1.x+ac+3+2*pm,-2*am)(g1.x+ac+3+3*pm,2*am)(g1.x+ac+3+4*pm,-2*am)(g1.x+ac+3+5*pm,2*am)(g1.x+ac+3+6*pm,-2*am)(g1.x+ac+3+7*pm,2*am)(3,0)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='4' ancho='3'">
+   <param name="G_02" value="tipo='pol&iacute;gono' color='rojo' expresi&oacute;n='(-3,0.25)(-3,2)(0.5,2)(0.5,1)(-2.2,1)(-2.2,0.25)(-3,0.25)' relleno='rojo' ancho='2'">
+   <param name="G_03" value="tipo='pol&iacute;gono' color='rojo' expresi&oacute;n='(-3,-0.25)(-3,-2)(-0.5,-2)(-0.5,-1)(-2.2,-1)(-2.2,-0.25)(-3,-0.25)' relleno='rojo' ancho='2'">
+   <param name="G_04" value="tipo='pol&iacute;gono' color='rojo' expresi&oacute;n='(0,-1)(1,-1)(1,-2)(0,-2)(0,-1)' relleno='rojo' ancho='2'">
+   <param name="G_05" value="tipo='pol&iacute;gono' color='rojo' expresi&oacute;n='(1,1)(2.5,1)(2.5,0.7)(3,0.7)(3,-0.7)(2.5,-0.7)(2.5,-1)(2.5,-1)(1.5,-1)(1.5,-2)(3.5,-2)(3.5,2)(1,2)(1,1)' relleno='rojo' ancho='2'">
+   <param name="G_06" value="tipo='arco' color='gris' centro='(g1.x+0.5,0)' radio='0.5' inicio='90' fin='270' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' relleno='turquesa' ancho='2'">
+   <param name="G_07" value="tipo='pol&iacute;gono' color='gris' expresi&oacute;n='(g1.x+0.5,0.5)(g1.x+0.5,0.25)(g1.x+2.5,0.25)(g1.x+2.5,-0.25)(g1.x+0.5,-0.25)(g1.x+0.5,-0.5)(g1.x+0.5,0.5)' relleno='turquesa' ancho='2'">
+   <param name="G_08" value="tipo='texto' expresi&oacute;n='[20,20]' texto='[g1.x][e1]' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="pausa='30' controles='no' auto='no' inicio='t=0' hacer='t=t+0.025' mientras='t&lt;2'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

@@ -1,0 +1,268 @@
+<HTML>
+<HEAD>
+<META http-equiv=Content-Type content='text/html; charset=ISO-8859-1'>
+<TITLE>Máquinas y calor</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="img/1bachcss/newton.css">
+<script type="text/javascript" language="JavaScript" src="img/1bachjs/objNavegador.js"></script>
+<script type="text/javascript" language="JavaScript" src="img/1bachjs/objLayer.js"></script>
+<script type="text/javascript" language="JavaScript" src="img/1bachjs/newton.js"></script>
+<style type="text/css">
+<!--
+.Estilo2 {
+	color: #0033CC;
+	font-weight: bold;
+}
+.Estilo3 {font-size: 14}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</HEAD>
+<BODY onload="posicionaMenu(5);MM_preloadImages('images/evaluacion_on.jpg')" BGCOLOR="#ffffff">
+<DIV class=clsCurso id="CapaCurso" contentEditable=false GBLCOLORON="FFC9BC" GBLCOLOR="E3998C">1ºBachillerato</DIV>
+<DIV id=CapaFondo><IMG height=429 src="images/fondo.jpg" width=770></DIV>
+<DIV id=CapaImg><IMG id=imgUnidad src="images/cabeceras_locomotora.GIF" name=imgUnidad></DIV>
+<DIV id="eltoMenuHead"  nombre="eltoMenuHead">
+<TABLE cellSpacing=0 cellPadding=0 width=138 border=0>
+
+<TR>
+<TD><IMG height=4 src="images/menu/menu_01.jpg" width=10></TD>
+<TD><IMG height=4 src="images/menu/menu_02.jpg" width=112></TD>
+<TD><IMG height=4 src="images/menu/menu_03.jpg" width=16></TD></TR>
+<TR>
+<TD width=10 background=images/menu/menu_04.jpg height=29></TD>
+<TD class=clsMenuHead id=tbMenuVTitulo align=middle width=112 bgColor=#f7f7f7 height=29><A href="termo-objetivos.htm"><FONT class=clsMenuHead>Máquinas y calor</FONT></A></TD>
+<TD width=16 background=images/menu/menu_06.jpg height=29></TD></TR>
+<TR>
+<TD><IMG height=2 src="images/menu/menu_07.jpg" width=10></TD>
+<TD><IMG height=2 src="images/menu/menu_08.jpg" width=112></TD>
+<TD><IMG height=2 src="images/menu/menu_09.jpg" width=16></TD></TR>
+<TR>
+<TD><IMG height=2 src="images/menu/menu_10.jpg" width=10></TD>
+<TD><IMG height=2 src="images/menu/menu_11.jpg" width=112></TD>
+<TD><IMG height=2 src="images/menu/menu_12.jpg" width=16></TD></TR>
+<TR>
+<TD><IMG height=2 src="images/menu/menu_16.jpg" width=10></TD>
+<TD><IMG height=2 src="images/menu/menu_17.jpg" width=112></TD>
+<TD><IMG height=2 src="images/menu/menu_18.jpg" width=16></TD></TR></TABLE></DIV>
+<DIV class=clsCapasMenu id="eltoMenuFoot"  nombre="eltoMenuFoot">
+<TABLE cellSpacing=0 cellPadding=0 width=138 border=0>
+
+<TR>
+<TD><IMG height=75 src="images/menu/menu_31.jpg" width=10></TD>
+<TD class=clsPeque id=idTextoPie vAlign=bottom width=112 background=images/menu/menu_32.jpg height=75>Autor: José Luis San Emeterio Peña Adaptador DescartesJS:José Luis San Emeterio Peña </TD>
+<TD><IMG height=75 src="images/menu/menu_33.jpg" width=16></TD></TR></TABLE></DIV>
+<DIV id=CapaMenuH>
+<TABLE height=21 cellSpacing=0 cellPadding=0 width=461 background=images/menuH/fondo.jpg border=0>
+
+<TR>
+<TD width=2><IMG height=21 src="images/menuH/separaFondo.jpg" width=2></TD>
+<TD id=idUnidad height=21>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+
+<TR>
+<TD class=clsMenuH id=idUnidadDentro contentEditable=false vAlign=bottom height=21>&nbsp;MQCAL&nbsp;</TD>
+<TD><IMG height=21 src="images/menuH/cajaOn.jpg" width=18></TD>
+<TD><IMG height=21 src="images/menuH/separador.jpg" width=2></TD>
+<TD><IMG height=21 src="images/menuH/cajaOn.jpg" width=18></TD>
+<TD><IMG height=21 src="images/menuH/separador.jpg" width=2></TD>
+<TD><IMG height=21 src="images/menuH/cajaOn.jpg" width=18></TD>
+<TD><IMG height=21 src="images/menuH/separador.jpg" width=2></TD>
+<TD><IMG height=21 src="images/menuH/cajaOn.jpg" width=18></TD>
+<TD><IMG height=21 src="images/menuH/separador.jpg" width=2></TD>
+<TD><IMG height=21 src="images/menuH/cajaOn.jpg" width=18></TD>
+<TD><IMG height=21 src="images/spacer.gif" width=10></TD></TR></TABLE></TD>
+
+
+<TD class=clsMenuH width=24 height=21></TD>
+
+
+
+<TD width=2><IMG height=21 src="images/menuH/separaFondo.jpg" width=2></TD></TR></TABLE></DIV>
+<DIV id=CapaCont>
+<TABLE id=oTblCont0 borderColor=#e3998c cellSpacing=0 cellPadding=2 width=606 bgColor=#ffffff border=0>
+
+<TR height=26>
+<TD class=clsCabecera bgColor=#ffc9bc>
+<P class="clsCabecera Estilo2">5. Evaluaci&oacute;n</P>
+</TD>
+</TR>
+<TR>
+<TD class=clsTexto vAlign=top height=83>
+<P align="justify">&nbsp;</P>
+<ul>
+  <li class="Estilo3">&iquest;Entiendes que la m&aacute;quina simple es un  instrumento que ahorra fuerza pero no trabajo?
+  <li class="Estilo3">&iquest;Comprendes  la forma en que se produce la conversi&oacute;n de la energ&iacute;a del viento o el agua en la energ&iacute;a mec&aacute;nica de un movimiento circular?
+  <li class="Estilo3">&iquest;Comprendes  la equivalencia entre energ&iacute;a mec&aacute;nica y calor?
+  <li class="Estilo3">&iquest;Puedes formular el primer y segundo principio de la Termodin&aacute;mica de una forma sencilla?
+  <li class="Estilo3">&iquest;Utilizas  las formulaciones matem&aacute;ticas de estos principios para realizaralgunas predicciones sencillas sobre el funcionamiento de las m&aacute;quinas?<br>
+  </li>
+  </ul>
+<p><span class="Estilo3">Si es as&iacute;, puedes comprobarlo realizando estas cuatro pruebas de <a href="termo-evaluacion11.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image96','','images/evaluacion_on.jpg',1)"><img src="images/evaluacion.jpg" alt="Evaluación" name="Image96" width="88" height="18" border="0" align="absmiddle"></a> </span> </p>
+<P>&nbsp;</P></TD>
+</TR>
+<TR>
+<TD class=clsTexto vAlign=top>
+<P align="justify">&nbsp;</P>
+</TD></TR></TABLE>
+<TABLE id=oTblSep0 height=1 cellSpacing=0 cellPadding=0 border=0>
+
+<TR height=1>
+<TD height=1></TD></TR></TABLE></DIV>
+<DIV class=clsCapasMenu id="eltoMenu0"  nombre="eltoMenu0">
+<TABLE cellSpacing=0 cellPadding=0 width=138 border=0>
+
+<TR>
+<TD><IMG height=2 src="images/menu/menu_19.jpg" width=10></TD>
+<TD><IMG height=2 src="images/menu/menu_20.jpg" width=112></TD>
+<TD><IMG height=2 src="images/menu/menu_21.jpg" width=16></TD></TR>
+<TR>
+<TD width=10 background=images/menu/menu_22.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD>
+<TD class=clsMenu id=eltoMenuHead0 align=left width=112 bgColor=#e3998c height=25><A class=clsMenu href="javascript:gestionMenu(0)">¿Qué es una máquina?</A></TD>
+<TD width=16 background=images/menu/menu_24.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD></TR>
+<TR>
+<TD><IMG height=4 src="images/menu/menu_25.jpg" width=10></TD>
+<TD><IMG height=4 src="images/menu/menu_26.jpg" width=112></TD>
+<TD><IMG height=4 src="images/menu/menu_27.jpg" width=16></TD></TR></TABLE>
+<TABLE borderColor=#ffffff cellSpacing=0 cellPadding=2 width=138 align=center border=0>
+
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead00 align=left width=123 bgColor=#ffffff><A class=clsMenu href="javascript:enlace('termo-maqsimple.htm', 0, 0)">Una máquina simple</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR>
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead01 align=left width=123 bgColor=#f0f0f0><A class=clsMenu href="javascript:enlace('termo-turbi.htm', 0, 1)">Una máquina que ahorra energía</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR>
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead02 align=left width=123 bgColor=#ffffff><A class=clsMenu href="javascript:enlace('termo-conclusion1.htm', 0, 2)">Conclusiones</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR></TABLE></DIV>
+<DIV class=clsCapasMenu id="eltoMenu1"  nombre="eltoMenu1">
+<TABLE cellSpacing=0 cellPadding=0 width=138 border=0>
+
+<TR>
+<TD><IMG height=2 src="images/menu/menu_19.jpg" width=10></TD>
+<TD><IMG height=2 src="images/menu/menu_20.jpg" width=112></TD>
+<TD><IMG height=2 src="images/menu/menu_21.jpg" width=16></TD></TR>
+<TR>
+<TD width=10 background=images/menu/menu_22.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD>
+<TD class=clsMenu id=eltoMenuHead1 align=left width=112 bgColor=#e3998c height=25><A class=clsMenu href="javascript:gestionMenu(1)">El calor y la energía mecánica</A></TD>
+<TD width=16 background=images/menu/menu_24.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD></TR>
+<TR>
+<TD><IMG height=4 src="images/menu/menu_25.jpg" width=10></TD>
+<TD><IMG height=4 src="images/menu/menu_26.jpg" width=112></TD>
+<TD><IMG height=4 src="images/menu/menu_27.jpg" width=16></TD></TR></TABLE>
+<TABLE borderColor=#ffffff cellSpacing=0 cellPadding=2 width=138 align=center border=0>
+
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead10 align=left width=123 bgColor=#ffffff><A class=clsMenu href="javascript:enlace('termo-joule.htm', 1, 0)">La experiencia de Joule</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR>
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead11 align=left width=123 bgColor=#f0f0f0><A class=clsMenu href="javascript:enlace('termo-primero.htm', 1, 1)">El primer principio</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR>
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead12 align=left width=123 bgColor=#ffffff><A class=clsMenu href="javascript:enlace('termo-conclusion2.htm', 1, 2)">Conclusiones</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR></TABLE></DIV>
+<DIV class=clsCapasMenu id="eltoMenu2"  nombre="eltoMenu2">
+<TABLE cellSpacing=0 cellPadding=0 width=138 border=0>
+
+<TR>
+<TD><IMG height=2 src="images/menu/menu_19.jpg" width=10></TD>
+<TD><IMG height=2 src="images/menu/menu_20.jpg" width=112></TD>
+<TD><IMG height=2 src="images/menu/menu_21.jpg" width=16></TD></TR>
+<TR>
+<TD width=10 background=images/menu/menu_22.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD>
+<TD class=clsMenu id=eltoMenuHead2 align=left width=112 bgColor=#e3998c height=25><A class=clsMenu href="javascript:gestionMenu(2)">Las limitaciones de la Termodinámica</A></TD>
+<TD width=16 background=images/menu/menu_24.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD></TR>
+<TR>
+<TD><IMG height=4 src="images/menu/menu_25.jpg" width=10></TD>
+<TD><IMG height=4 src="images/menu/menu_26.jpg" width=112></TD>
+<TD><IMG height=4 src="images/menu/menu_27.jpg" width=16></TD></TR></TABLE>
+<TABLE borderColor=#ffffff cellSpacing=0 cellPadding=2 width=138 align=center border=0>
+
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead20 align=left width=123 bgColor=#ffffff><A class=clsMenu href="javascript:enlace('termo-continuo.htm', 2, 0)">El movimiento continuo</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR>
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead21 align=left width=123 bgColor=#f0f0f0><A class=clsMenu href="javascript:enlace('termo-segundo.htm', 2, 1)">Segundo principio de la Termodinámica</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR>
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead22 align=left width=123 bgColor=#ffffff><A class=clsMenu href="javascript:enlace('termo-conclusion3.htm', 2, 2)">Conclusiones</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR></TABLE></DIV>
+<DIV class=clsCapasMenu id="eltoMenu3"  nombre="eltoMenu3">
+<TABLE cellSpacing=0 cellPadding=0 width=138 border=0>
+
+<TR>
+<TD><IMG height=2 src="images/menu/menu_19.jpg" width=10></TD>
+<TD><IMG height=2 src="images/menu/menu_20.jpg" width=112></TD>
+<TD><IMG height=2 src="images/menu/menu_21.jpg" width=16></TD></TR>
+<TR>
+<TD width=10 background=images/menu/menu_22.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD>
+<TD class=clsMenu id=eltoMenuHead3 align=left width=112 bgColor=#e3998c height=25><A class=clsMenu href="javascript:gestionMenu(3)">Las máquinas térmicas</A></TD>
+<TD width=16 background=images/menu/menu_24.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD></TR>
+<TR>
+<TD><IMG height=4 src="images/menu/menu_25.jpg" width=10></TD>
+<TD><IMG height=4 src="images/menu/menu_26.jpg" width=112></TD>
+<TD><IMG height=4 src="images/menu/menu_27.jpg" width=16></TD></TR></TABLE>
+<TABLE borderColor=#ffffff cellSpacing=0 cellPadding=2 width=138 align=center border=0>
+
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead30 align=left width=123 bgColor=#ffffff><A class=clsMenu href="javascript:enlace('termo-ideal.htm', 3, 0)">Una máquina ideal</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR>
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead31 align=left width=123 bgColor=#f0f0f0><A class=clsMenu href="javascript:enlace('termo-real.htm', 3, 1)">Una máquina real</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR>
+<TR>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=5></TD>
+<TD class=clsSubMenu id=eltoSubMenuHead32 align=left width=123 bgColor=#ffffff><A class=clsMenu href="javascript:enlace('termo-conclusion4.htm', 3, 2)">Conclusiones</A></TD>
+<TD width=5><IMG height=1 src="images/spacer.gif" width=10></TD></TR></TABLE></DIV>
+<DIV class=clsCapasMenu id="eltoMenu4"  nombre="eltoMenu4">
+<TABLE cellSpacing=0 cellPadding=0 width=138 border=0>
+
+<TR>
+<TD><IMG height=2 src="images/menu/menu_19.jpg" width=10></TD>
+<TD><IMG height=2 src="images/menu/menu_20.jpg" width=112></TD>
+<TD><IMG height=2 src="images/menu/menu_21.jpg" width=16></TD></TR>
+<TR>
+<TD width=10 background=images/menu/menu_22.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD>
+<TD class=clsMenu id=eltoMenuHead4 align=left width=112 bgColor=#ffc9bc height=25><A class=clsMenu href="termo-evaluacion1.htm">Evaluación</A></TD>
+<TD width=16 background=images/menu/menu_24.jpg height=25><IMG height=1 src="images/spacer.gif" width=1></TD></TR>
+<TR>
+<TD><IMG height=4 src="images/menu/menu_25.jpg" width=10></TD>
+<TD><IMG height=4 src="images/menu/menu_26.jpg" width=112></TD>
+<TD><IMG height=4 src="images/menu/menu_27.jpg" width=16></TD></TR></TABLE></DIV>
+</BODY>
+</HTML>

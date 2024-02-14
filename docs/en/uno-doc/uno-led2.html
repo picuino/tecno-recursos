@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Arduino - Shield Weevil UNO - 2. LED flashing">
+  <title>2. LED flashing - Shield Weevil UNO - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/uno-doc/uno-led2.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Index" href="../content.html">
+  <link rel="search" title="Search" href="../search.html">
+  <link rel="next" title="3. Pushbuttons" href="uno-key1.html">
+  <link rel="prev" title="1. Turning the LEDs on and off" href="uno-led1.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="../arduprog/index.html">Arduino</a>/</li>
+        
+          <li><a href="index.html">Shield Weevil UNO</a>/</li>
+        
+      <li><span class="section-number">2. </span>LED flashing</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/uno-doc/uno-led2.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="../contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/uno-doc/uno-led2.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="parpadeo-de-los-led">
+<h1><span class="section-number">2. </span>LED flashing<a class="headerlink" href="#parpadeo-de-los-led" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="objetivos">
+<h2>Goals<a class="headerlink" href="#objetivos" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Generate led blinking using the ledBlink function.</li>
+</ul>
+</div>
+<div class="section" id="la-funcion-ledblink">
+<h2>The <code class="docutils literal notranslate"><span class="pre">ledBlink</span></code> function<a class="headerlink" href="#la-funcion-ledblink" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="ledBlink">
+<code class="descname">ledBlink</code><span class="sig-paren">(</span><em>int ledNum</em>, <em>int time_on</em>, <em>int time_off</em><span class="sig-paren">)</span><a class="headerlink" href="#ledBlink" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function makes a led blink with a determined cadence. Its parameters are the following:</p>
+<p><code class="docutils literal notranslate"><span class="pre">ledNum</span></code>: led that will blink. Valid values ​​range from 1 for led D1 to 8 for the blue color of led D6.</p>
+<p>The D6 led is an RGB led, which integrates 3 leds inside. The numbers 6, 7, 8 respectively represent the red, green and blue colors of led D6.</p>
+<p><code class="docutils literal notranslate"><span class="pre">time_on</span></code>: time, in hundredths of a second, that the led should stay on. If this parameter is zero, the led will remain on all the time.</p>
+<p><code class="docutils literal notranslate"><span class="pre">time_off</span></code>: time, in hundredths of a second, that the led should remain off.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Each time the <code class="docutils literal notranslate"><span class="pre">ledBlink()</span></code> function is executed, the led starts to light for <code class="docutils literal notranslate"><span class="pre">time_on</span></code>. This can be used to synchronize the beginning of the blinking of a led. If the function is executed repeatedly every so often, the led will remain on all the time, since before going off, the flashing starts over and over again.</p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="parpadeo-del-led-d1">
+<h2>LED D1 flashing<a class="headerlink" href="#parpadeo-del-led-d1" title="Permalink to this headline">¶</a></h2>
+<p>In this example, you want to make led D1 blink with a half second on time and half a second off time. The flashing period will therefore be one second. In this case the function will be given from the <code class="docutils literal notranslate"><span class="pre">setup()</span></code> block only once.</p>
+<div class="highlight-arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Parpadea el led D1 una vez por segundo</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Picuino.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">pio</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>               <span class="c1">// Inicializar el shield Picuino UNO</span>
+   <span class="n">pio</span><span class="p">.</span><span class="n">ledBlink</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">50</span><span class="p">);</span>   <span class="c1">// Parpadea el led D1</span>
+                              <span class="c1">//   50 centésimas de segundo encendido</span>
+                              <span class="c1">//   50 centésimas de segundo apagado</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<p>Program the code needed to solve the following problems.</p>
+<ol class="arabic">
+<li><p class="first">Make led D1 and led D4 flash every one second. The two LEDs must turn on and off at the same time. Use the <code class="docutils literal notranslate"><span class="pre">ledBlink()</span></code> function.</p>
+</li>
+<li><p class="first">Modify the previous exercise so that the lighting of the two leds D1 and D4 alternates, so that only one led is on at any time. The lighting time of each led will be half a second.</p>
+</li>
+<li><p class="first">Make two LEDs blink at the same time with a frequency of one second. LED D1 will be programmed with the <code class="docutils literal notranslate"><span class="pre">ledBlink(1,</span> <span class="pre">50,</span> <span class="pre">50)</span></code> function, on the contrary, led D3 will be programmed with the <code class="docutils literal notranslate"><span class="pre">ledWrite()</span></code> function. First led D1 will start to flash and, after a second, led D3 will. The two leds must be synchronized so that they blink at the same time by adjusting the on and off times with the <code class="docutils literal notranslate"><span class="pre">delay()</span></code> function.</p>
+</li>
+<li><p class="first">Correct the syntax errors in the following program to make it work correctly.</p>
+<div class="highlight-arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Luces de Navidad.</span>
+<span class="c1">// Programa con errores sintácticos.</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;Picuino.h&gt;</span><span class="cp"></span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+   <span class="kr">int</span> <span class="n">time_on</span><span class="p">;</span>   <span class="c1">// Declara la variable time_on como un número entero</span>
+   <span class="kr">int</span> <span class="n">time_off</span><span class="p">;</span>  <span class="c1">// Declara la variable time_off como un número entero</span>
+
+   <span class="n">pio</span><span class="p">.</span><span class="n">Begin</span><span class="p">()</span>    <span class="c1">// Inicia el shield Picuino UNO</span>
+
+   <span class="c1">// Repite y asigna valores a variable &#39;num&#39; desde 1 hasta 5</span>
+   <span class="k">for</span><span class="p">(</span><span class="kr">int</span> <span class="n">num</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">num</span><span class="o">&lt;=</span><span class="mi">5</span><span class="p">;</span> <span class="n">num</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+
+      <span class="c1">// Tiempo encendido = aleatorio entre 0,5 y 3,0 segundos</span>
+      <span class="n">time_on</span> <span class="o">=</span> <span class="nf">random</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">300</span><span class="p">)</span>
+
+      <span class="c1">// Tiempo apagado = aleatorio entre 0,5 y 3,0 segundos</span>
+      <span class="n">time_off</span> <span class="o">=</span> <span class="n">Random</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">300</span><span class="p">)</span>
+
+      <span class="c1">// Parpadea el led &#39;num&#39; un tiempo aleatorio</span>
+      <span class="n">pio</span><span class="p">.</span><span class="n">ledblink</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">time_on</span><span class="p">,</span> <span class="n">time_off</span><span class="p">)</span>
+
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+<li><p class="first">Make a led blink so that it lights up for one tenth of a second every ten seconds, to indicate that the module is on, using very little electrical current.</p>
+</li>
+<li><p class="first">Make a led blink so that it lights up for two tenths of a second, every second.</p>
+</li>
+<li><p class="first">The first six leds must light up in sequence so that led D1 begins to light up and ends up with led D6. Between the lighting of one LED and the next, between 250 and 500 thousandths of a second must pass. Once all the leds are on, they will start to turn off by led D1 until they are all off. Note: To solve this problem, only one <code class="docutils literal notranslate"><span class="pre">ledBlink()</span></code> function should be used for each led, together with a <code class="docutils literal notranslate"><span class="pre">delay()</span></code> function to wait for a time between one flash and the next.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="uno-key1.html" class="btn btn-neutral float-right" title="3. Pushbuttons" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="uno-led1.html" class="btn btn-neutral" title="1. Turning the LEDs on and off" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="../genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="../content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../es/uno-doc/uno-led2.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programming</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../arduprog/index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../arduprog/protoboard-index.html">Circuits with Breadboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../arduprog/prog-index.html">Programs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../arduprog/resource-index.html">Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../arduprog/pc42-index.html">Control Panel PC42</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../arduprog/ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Shield Weevil UNO</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="uno-led1.html">1. Turning the LEDs on and off</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2. LED flashing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uno-key1.html">3. Pushbuttons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uno-key2.html">4. Pushbuttons: Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uno-key3.html">5. Pushbuttons: Counters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uno-display1.html">6. 7 segment display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ultrasonic.html">7. Ultrasonic distance sensor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dht11.html">8. DHT11 temperature and humidity sensor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ldr.html">9. LDR-sensor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="infrared-emiter.html">10. Infrared emitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="infrared-receiver.html">11. Infrared receiver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="haiku.html">12. Haiku</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pc-control.html">13. Arduino Serial Control</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

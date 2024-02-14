@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-25 20:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-operational-noninverting.rst:9
+msgid "El amplificador no inversor"
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:10
+msgid ""
+"En este circuito el amplificador operacional amplifica la señal de "
+"entrada y se obtiene una salida de señal sin invertir."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:13
+msgid ""
+"El amplificador no inversor tiene realimentación negativa porque la "
+"tensión de salida produce una corriente que llega al terminal de entrada "
+"negativo a través de la resistencia R2."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:22
+msgid "Esquema del amplificador operacional no inversor."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:26
+msgid "Cálculo de ganancia"
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:27
+msgid "La fórmula de la ganancia de este amplificador es la siguiente:"
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:29
+msgid "Ganancia = \\cfrac{V_{out}}{V_{in}} = 1 + \\cfrac{R_2}{R_1}"
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:33
+msgid ""
+"Como mínimo la ganancia valdrá la unidad. Esto se da en el caso de que la"
+" resistencia R1 sea muy grande y la resistencia R2 muy pequeña. En el "
+"límite nos encontramos con la ganancia unidad del seguidor de tensión, "
+"que tiene una resistencia R1 infinita y R2 igual a cero."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:40
+msgid "Resistencia de entrada y de salida"
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:41
+msgid ""
+"La resistencia de entrada será igual a la resistencia de entrada ``+`` "
+"del amplificador operacional, que idealmente es infinita. En la práctica "
+"tiene valores mayores de 100 millones de ohmios. Esta gran resistencia de"
+" entrada es una ventaja en comparación con el esquema inversor, que tiene"
+" una resistencia de entrada relativamente baja que absorbe corriente de "
+"la señal de entrada."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:48
+msgid ""
+"La resistencia de salida será muy baja, idealmente cero, porque la salida"
+" está directamente conectada a la salida del amplificador operacional."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:53
+msgid "Simulación"
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:54
+msgid ""
+"En la siguiente simulación podemos ver un amplificador inversor de "
+"ganancia 3 que amplifica una señal senoidal de entrada."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:65
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:67
+msgid "Dibuja el esquema simplificado de un amplificador operacional no inversor."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:70
+msgid ""
+"Escribe la fórmula de la ganancia del amplificador operacional no "
+"inversor anterior."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:73
+msgid ""
+"¿Qué tipo de realimentación tiene este circuito? ¿Qué les ocurre a las "
+"tensiones de entrada con ese tipo de realimentación?"
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:77
+msgid ""
+"Dibuja dos gráficas que representen la tensión de entrada y la tensión de"
+" salida del amplificador no inversor simulado."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:80
+msgid ""
+"¿Qué tensiones de pico tienen cada una de las dos gráficas representadas?"
+" Puedes parar la simulación y ampliar a pantalla completa para medir con "
+"más precisión."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:85
+msgid ""
+"Calcula las resistencias necesarias para hacer que un amplificador "
+"operacional no inversor tenga una ganancia de tensión igual a 9."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:88
+msgid ""
+"Dibuja un esquema realista de este amplificador, con una alimentación de "
+"+-15 voltios y una entrada de tensión triangular de 1 voltio de pico."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:91
+msgid ""
+"Con ayuda del `simulador de circuitos "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ dibuja el "
+"esquema de un amplificador operacional no inversor basado en un "
+"amplificador operacional ideal que amplifique la señal de un generador de"
+" tensión de onda cuadrada con una tensión de pico de 1 voltio. La "
+"ganancia de tensión debe valer 2."
+msgstr ""
+
+#: ../../source/electronic-operational-noninverting.rst:99
+msgid ""
+"Grafica en el mismo osciloscopio la señal de tensión del generador y la "
+"señal de tensión de salida del amplificador operacional."
+msgstr ""
+

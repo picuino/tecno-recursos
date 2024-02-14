@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>Libro digital interactivo</title>
+<!--Adobe Edge Runtime-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="js/index_edgePreload.js"></script>
+    <style>
+        .edgeLoad-EDGE-688359859 { visibility:hidden; }
+    </style>
+<!--Adobe Edge Runtime End-->
+<style type="text/css">
+body {
+    overflow: hidden;
+}
+/* preloader */
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: url(images/wood.jpg);
+    z-index: 100;
+}
+#loader {
+    width: 288px;
+    height: 247px;
+    position: absolute;
+    left:35%; top:20%;
+    background: url(images/ajax-loader.gif) no-repeat center 0;
+	background-size: 100% 100%;
+    margin:-50px 0 0 -50px;
+}
+</style>
+</head>
+<body style="margin:0;padding:0; overflow: hidden;" background="images/wood.jpg">
+	<div id="Stage" class="EDGE-688359859" align="center" >
+	<div id="preloader">
+    <div id="loader" align='center'><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><font size="5" color="yellow">Cargando páginas<br>del libro interactivo</font><br/><br/><image src="images/descartes.gif" width='202' height='60'><image></div>
+   </div>
+	<iframe style="width: 100%; height: 100%;" src="indexb.html" frameborder="0"></iframe>
+	</div>
+	<script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+$(window).load(function() {
+	$('#preloader').fadeOut('slow');
+	$('body').css({'overflow':'visible'});
+})
+</script>
+</body>
+</html>

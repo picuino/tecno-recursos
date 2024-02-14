@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Descartes</title>
+        <vendor>RED Educativa Digital Descartes</vendor>
+        <icon href="icon.jpg"/>
+    </information>
+    <security>
+ 	<all-permissions/>
+    </security>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.5+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Descartes5.jar" main="true" />
+
+    </resources>
+    <applet-desc
+         name="Descartes"
+         main-class="Descartes"
+	 width="970"
+         height="550"
+	>
+     </applet-desc>
+     <update check="background"/>
+</jnlp>

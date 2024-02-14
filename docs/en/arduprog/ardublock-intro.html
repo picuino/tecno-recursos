@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Arduino - Ardublock - 1. Introduction to Ardublock">
+  <title>1. Introduction to Ardublock - Ardublock - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/arduprog/ardublock-intro.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Index" href="../content.html">
+  <link rel="search" title="Search" href="../search.html">
+  <link rel="next" title="2. Exercises with led, on and off" href="ardublock-led1.html">
+  <link rel="prev" title="Ardublock" href="ardublock-index.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="index.html">Arduino</a>/</li>
+        
+          <li><a href="ardublock-index.html">Ardublock</a>/</li>
+        
+      <li><span class="section-number">1. </span>Introduction to Ardublock</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arduprog/ardublock-intro.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="../contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/arduprog/ardublock-intro.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="introduccion-a-ardublock">
+<span id="ardublock-intro"></span><h1><span class="section-number">1. </span>Introduction to Ardublock<a class="headerlink" href="#introduccion-a-ardublock" title="Permalink to this headline">¶</a></h1>
+<p>Ardublock is a tool for Arduino that allows programming with graphic blocks. It is oriented to make programming easier for users without previous experience, greatly simplifying the task of creating programs with a simple graphical environment.</p>
+<img alt="Ardublock Picuino versión 1.4.2." class="align-center" src="../_images/ardublock-1-4-2.png">
+<p>It is a tool of the Arduino programming environment and cannot work apart from it.</p>
+<p>The version provided on this web page is a modified version of the original Ardublock, in which the colors, menus and number of blocks have been simplified in order to make it easier to use.</p>
+<div class="section" id="instalacion-de-ardublock">
+<h2>Ardublock installation<a class="headerlink" href="#instalacion-de-ardublock" title="Permalink to this headline">¶</a></h2>
+<p>To install the latest version of Ardublock-Picuino, follow these steps:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Download the <a class="reference download internal" download="" href="../_downloads/ardublock-picuino.zip"><code class="xref download docutils literal notranslate"><span class="pre">Ardublock-Picuino</span> <span class="pre">tool</span></code></a></p>
+</li>
+<li><p class="first">Copy the file to the Arduino directory. The directory can be found in the Arduino environment, by pressing the menu:</p>
+<p><code class="docutils literal notranslate"><span class="pre">File...</span> <span class="pre">Preferences...</span> <span class="pre">Project</span> <span class="pre">location</span></code>.</p>
+</li>
+<li><p class="first">Unzip the file in the Arduino directory.</p>
+</li>
+<li><p class="first">Close and reopen the Arduino environment. The new tool should appear in the menu:</p>
+<p><code class="docutils literal notranslate"><span class="pre">Tools...</span> <span class="pre">Ardublock</span></code></p>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="instalacion-de-librerias-auxiliares-para-arduino">
+<h2>Installation of auxiliary libraries for Arduino<a class="headerlink" href="#instalacion-de-librerias-auxiliares-para-arduino" title="Permalink to this headline">¶</a></h2>
+<p>These libraries allow the Arduino board to control peripherals such as an LCD display panel or infrared emitters and receivers.</p>
+<p>To <strong>install all the libraries at once</strong>, follow these steps:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Download the :download:` archive with the libraries for Arduino &lt;_downloads/arduino-libraries.zip&gt;`</p>
+</li>
+<li><p class="first">Copy the file to the Arduino directory. The directory can be found in the Arduino environment, by pressing the menu:</p>
+<p><code class="docutils literal notranslate"><span class="pre">File...</span> <span class="pre">Preferences...</span> <span class="pre">Project</span> <span class="pre">location</span></code>.</p>
+</li>
+<li><p class="first">Unzip the file in the Arduino directory.</p>
+</li>
+<li><p class="first">Close and reopen the Arduino environment. The new libraries should appear in the menu:</p>
+<p><code class="docutils literal notranslate"><span class="pre">Program...</span> <span class="pre">Include</span> <span class="pre">library...</span></code></p>
+</li>
+</ol>
+</div></blockquote>
+<p>To install individual libraries using the Arduino environment, you can read the following link on <a class="reference internal" href="add-library.html#add-library"><span class="std std-ref">how to add a library to the Arduino environment</span></a>.</p>
+</div>
+<div class="section" id="manejo-basico-de-ardublock">
+<h2>Basic management of Ardublock<a class="headerlink" href="#manejo-basico-de-ardublock" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first"><strong>Open the Arduino environment:</strong> to open ardublock it is necessary to first have the Arduino environment open, by clicking on the following icon.</p>
+<img alt="Icono del entorno IDE de Arduino." src="../_images/arduino-desktop-icon.png">
+</li>
+<li><p class="first"><strong>Connect the correct port:</strong> in the tools menu... port... you have to select the port to which the Arduino board is connected. For more information see <a class="reference internal" href="troubleshooting-arduino.html#troubleshooting-arduino"><span class="std std-ref">Arduino troubleshooting</span></a></p>
+</li>
+<li><p class="first"><strong>Open Ardublock:</strong> the word Ardublock will appear in the tools menu of the Arduino environment. By clicking on it, the environment will appear without any program.</p>
+</li>
+<li><p class="first"><strong>Run the program:</strong> moving the blocks from the menus on the left to connect them with the program block.</p>
+</li>
+<li><p class="first"><strong>Duplicate blocks:</strong> clicking on a block with the right mouse button, the 'Clone' option appears, which duplicates the block and all the blocks that hang below it.</p>
+</li>
+<li><p class="first"><strong>Add comments:</strong> by clicking on a block with the right mouse button, the 'Add comment' option appears, allowing you to write a text that explains the function of the block. The comment can be hidden or shown by clicking the question mark '?' to the left of the block.</p>
+</li>
+<li><p class="first"><strong>Arrange the blocks:</strong> by clicking on an empty area with the right mouse button, the option to 'Arrange all the blocks' appears. by pressing it, all the blocks are arranged in an orderly manner.</p>
+</li>
+<li><p class="first"><strong>Clear Unwanted Blocks:</strong> By moving the blocks to the left in the menu area, the blocks will disappear.</p>
+</li>
+<li><p class="first"><strong>Upload the program to Arduino:</strong> by clicking the upper button 'Upload to Arduino' the blocks will be transformed into code that will be uploaded to the Arduino board that is connected. If it is the first program to be loaded, the environment will ask for confirmation to save the program. You have to answer 'save'.</p>
+<p>This process is not immediate, you have to wait a few seconds until it ends.</p>
+</li>
+<li><p class="first"><strong>Save the Ardublock program:</strong> Pressing the top button 'Save as' a box will appear in which to write the name of the program and its location.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ardublock-led1.html" class="btn btn-neutral float-right" title="2. Exercises with led, on and off" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ardublock-index.html" class="btn btn-neutral" title="Ardublock" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="../genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="../content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../es/arduprog/ardublock-intro.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programming</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuits with Breadboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource-index.html">Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pc42-index.html">Control Panel PC42</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="ardublock-index.html">Ardublock</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">1. Introduction to Ardublock</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ardublock-led1.html">2. Exercises with led, on and off</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ardublock-led2.html">3. Exercises with led, blinking</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ardublock-key1.html">4. Exercises with buttons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ardublock-display1.html">5. Exercises with display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ardublock-buzzer1.html">6. Exercises with the buzzer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Weevil UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

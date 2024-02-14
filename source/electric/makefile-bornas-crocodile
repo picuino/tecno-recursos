@@ -1,0 +1,55 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+SOURCES=_sources
+
+LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 5
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z a
+
+
+# --------------------------------------------------------------------
+# Crocodile
+#
+CROCODILE_IMAGES = \
+	$(foreach f, $(wildcard bornas-crocodile/*.png), \
+	$(IMGDIR)/electric-$(notdir $(basename $(f))).png ) \
+
+$(IMGDIR)/electric-%.png: bornas-crocodile/%.png
+	$(call crop_page, $<, "((4, 100),(1400, 990))", $@)
+   
+electric-bornas-crocodile.zip:  $(wildcard "bornas-crocodile/*.ckt")
+	$(ZIP) $@ bornas-crocodile/*.*
+
+
+# ALL FILES
+.PHONY: all-bornas-crocodile  clean-bornas-crocodile
+all-bornas-crocodile: \
+	$(CROCODILE_IMAGES) \
+	electric-bornas-crocodile.zip \
+
+clean-bornas-crocodile:
+	rm -f $(CROCODILE_IMAGES)
+	rm -f electric-bornas-crocodile.zip
+
+
+# --------------------------------------------------------------------
+# make all
+#
+.PHONY: all clean
+all: \
+	all-bornas-crocodile \
+
+
+clean: \
+   clean-bornas-crocodile \

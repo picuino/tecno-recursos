@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-30 17:43+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-operational-differential.rst:9
+msgid "El amplificador diferencial"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:10
+msgid ""
+"Este circuito amplificador cuenta con dos entradas simétricas. La "
+"diferencia de tensión entre estas dos entradas se amplifica para producir"
+" una salida con la diferencia amplificada. De ahí el nombre de "
+"amplificador diferencial."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:15
+msgid ""
+"La realimentación del circuito es negativa y proviene de la resistencia "
+"R2."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:23
+msgid "Esquema del amplificador diferencial."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:27
+msgid "Cálculo de ganancia"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:28
+msgid "La fórmula de la ganancia de este amplificador es la siguiente:"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:30
+msgid "V_{out} = ( V_{in2} - V_{in1} ) \\cdot \\left( \\cfrac{R_2}{R_1} \\right)"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:34
+msgid ""
+"Teniendo en cuenta que la resistencia R1' = R1 y que la resistencia R2' ="
+" R2."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:36
+msgid ""
+"En la práctica es importante que las resistencias R1 y R1' así como R2 y "
+"R2' tengan un valor lo más parecido posible entre sí, para evitar que se "
+"amplifiquen las tensiones comunes de las entradas y que solo se "
+"amplifique la diferencia entre las tensiones de entrada."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:42
+msgid "Resistencia de entrada y de salida"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:43
+msgid "La resistencia de entrada a la tensión común de entrada vale:"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:45
+msgid "R_{in} = R1 + R2"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:49
+msgid "Y la resistencia de entrada a las diferencias de tensión de entrada vale:"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:51
+msgid "R_{in} = 2 \\cdot R1"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:55
+msgid ""
+"La resistencia de salida será muy baja, idealmente cero, porque la salida"
+" está directamente conectada a la salida del amplificador operacional."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:59
+msgid "Simulación"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:60
+msgid ""
+"En la siguiente simulación podemos ver un amplificador diferencial al que"
+" le llegan dos tensiones de entrada. Una tensión senoidal, V1, de "
+"entrada, es común a ambas entradas y no se amplifica su tensión. La otra "
+"tensión triangular, V2, representa la diferencia entre las dos tensiones "
+"de entrada y sí que se amplifica en la salida."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:74
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:76
+msgid ""
+"Dibuja el esquema de un amplificador diferencial ideal. Añade debajo del "
+"dibujo la fórmula de la ganancia diferencial."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:79
+msgid ""
+"¿Qué tipo de realimentación tiene el amplificador diferencial? ¿Qué "
+"resistencia lo determina?"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:82
+msgid ""
+"¿Qué función realiza un amplificador diferencial? ¿Qué es lo que no "
+"amplifica un amplificador diferencial?"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:85
+msgid ""
+"Con la fórmula de la ganancia calcula la ganancia que debe tener el "
+"amplificador diferencial simulado."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:88
+msgid ""
+"Modifica la simulación del amplificador diferencial de manera que la "
+"resistencia R1 tenga un valor ligeramente inferior, 9k. ¿Qué le ocurre a "
+"la tensión de salida del circuito?"
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:92
+msgid ""
+"Con ayuda del `simulador de circuitos "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ dibuja un "
+"amplificador diferencial basado en un amplificador operacional ideal. La "
+"resistencia de entrada diferencial debe valer 100k ohmios. La ganancia "
+"diferencial debe valer 10."
+msgstr ""
+
+#: ../../source/electronic-operational-differential.rst:99
+msgid ""
+"Añade un generador de tensión senoidal de 0.1 voltio de pico entre las "
+"entradas. Comprueba que la salida de tensión vale 1 voltio de pico."
+msgstr ""
+

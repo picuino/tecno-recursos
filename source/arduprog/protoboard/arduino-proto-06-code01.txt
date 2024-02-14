@@ -1,0 +1,29 @@
+﻿// Define el pin de cada componente
+int BUZZER = 3;
+int PUSH = 7;
+
+// Ejecuta una sola vez las siguientes instrucciones
+void setup() {
+   // El BUZZER se conecta a un pin de salida
+   pinMode(BUZZER, OUTPUT);
+
+   // El pulsador se conecta a un pin de entrada
+   pinMode(PUSH, INPUT_PULLUP);
+}
+
+// Repite para siempre las siguientes instrucciones
+void loop() {
+
+   // Esperar a que se presione el pulsador
+   while(digitalRead(PUSH) != LOW);
+
+   // Tocar un tono de alarma
+   tone(BUZZER, 2000, 64);
+   delay(125);
+   tone(BUZZER, 2000, 64);
+   delay(125);
+   tone(BUZZER, 2000, 64);
+   delay(125);
+   tone(BUZZER, 2000, 64);
+   delay(625);
+}

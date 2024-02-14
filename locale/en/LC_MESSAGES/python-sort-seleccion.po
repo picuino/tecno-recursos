@@ -1,0 +1,224 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-09-19 15:16+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../source/python-sort-seleccion.rst:9
+msgid "Ordenación por selección"
+msgstr "Sort by selection"
+
+
+#: ../../source/python-sort-seleccion.rst:10
+msgid ""
+"Con este algoritmo comenzamos a ver los algoritmos de **ordenación de "
+"datos**. Este tipo de algoritmos permiten ordenar una lista de datos de "
+"menor a mayor. Los ordenadores toman su nombre precisamente de esta "
+"importante función que pueden realizar, ordenar listas de nombres o de "
+"números para facilitar la creación de listados o la posterior búsqueda de "
+"datos."
+msgstr ""
+"With this algorithm we begin to see **data sorting** algorithms. These types"
+" of algorithms allow you to order a list of data from smallest to largest. "
+"Computers take their name precisely from this important function that they "
+"can perform, sorting lists of names or numbers to facilitate the creation of"
+" lists or the subsequent search for data."
+
+
+#: ../../source/python-sort-seleccion.rst:19
+msgid "Algoritmo de selección"
+msgstr "Selection algorithm"
+
+
+#: ../../source/python-sort-seleccion.rst:20
+msgid ""
+"El algoritmo de ordenación consiste en buscar en toda la lista el elemento "
+"más pequeño de todos. En principio comenzamos con el primer elemento de la "
+"lista como el menor. Entonces un bucle compara uno a uno todos los elementos"
+" de la lista con el menor y va seleccionando en cada caso el más pequeño de "
+"todos::"
+msgstr ""
+"The sorting algorithm consists of searching the entire list for the smallest"
+" element of all. In principle we start with the first element in the list as"
+" the smallest. Then a loop compares one by one all the elements in the list "
+"with the smallest and selects in each case the smallest of all::"
+
+
+#: ../../source/python-sort-seleccion.rst:32
+msgid ""
+"La variable menor valdrá 5, que es la posición del menor elemento, el 1."
+msgstr ""
+"The smallest variable will be worth 5, which is the position of the smallest"
+" element, 1."
+
+
+#: ../../source/python-sort-seleccion.rst:34
+msgid ""
+"Una vez que hemos encontrado la posición del menor elemento de todos, "
+"intercambiamos ese elemento con el primero de la lista::"
+msgstr ""
+"Once we have found the position of the smallest element of all, we swap that"
+" element with the first one in the list::"
+
+
+#: ../../source/python-sort-seleccion.rst:41
+msgid ""
+"Ahora sabemos que el primer elemento de la lista está ya ordenado al ser el "
+"menor de todos los elementos de la lista."
+msgstr ""
+"Now we know that the first element of the list is already ordered as it is "
+"the smallest of all the elements in the list."
+
+
+#: ../../source/python-sort-seleccion.rst:44
+msgid ""
+"Para continuar repetimos el procedimiento, pero con todos los elementos de "
+"la lista a partir de la segunda posición. Esto conseguirá que tengamos el "
+"segundo elemento de la lista ordenado."
+msgstr ""
+"To continue, we repeat the procedure, but with all the elements in the list "
+"starting from the second position. This will ensure that we have the second "
+"element of the list sorted."
+
+
+#: ../../source/python-sort-seleccion.rst:48
+msgid ""
+"Repitiendo el procedimiento una y otra vez, vamos ordenando todos los "
+"elementos de la lista desde el primero hasta el penúltimo. Una vez ordenados"
+" todos los elementos menos uno, el último elemento sabemos que será el mayor"
+" de todos y estará al final de la lista, por lo que no será necesario "
+"ordenar el último elemento."
+msgstr ""
+"By repeating the procedure over and over again, we order all the elements in"
+" the list from the first to the penultimate. Once all the elements except "
+"one have been sorted, we know that the last element will be the largest of "
+"all and will be at the end of the list, so it will not be necessary to sort "
+"the last element."
+
+
+#: ../../source/python-sort-seleccion.rst:56
+msgid "Programa de ordenación I"
+msgstr "Management program I"
+
+
+#: ../../source/python-sort-seleccion.rst:57
+msgid ""
+"El programa completo de ordenación de elementos de una lista según el "
+"algoritmo de selección será el siguiente::"
+msgstr ""
+"The complete ordering program for the elements of a list according to the "
+"selection algorithm will be as follows:"
+
+
+#: ../../source/python-sort-seleccion.rst:81
+
+
+#: ../../source/python-sort-seleccion.rst:124
+
+
+#: ../../source/python-sort-seleccion.rst:152
+msgid "Salida::"
+msgstr "Exit::"
+
+
+#: ../../source/python-sort-seleccion.rst:87
+msgid "Programa de ordenación II"
+msgstr "Management program II"
+
+
+#: ../../source/python-sort-seleccion.rst:88
+msgid ""
+"En esta segunda versión del programa de ordenación se va a alterar un poco "
+"el algoritmo. Después de encontrar el elemento menor de la lista, "
+"desplazaremos hacia la derecha todos los elementos no ordenados por debajo "
+"del menor elemento, dejando un hueco para colocar este en su sitio."
+msgstr ""
+"In this second version of the sorting program the algorithm will be altered "
+"a little. After finding the smallest element in the list, we will move all "
+"unordered elements below the smallest element to the right, leaving a gap to"
+" place it in its place."
+
+
+#: ../../source/python-sort-seleccion.rst:94
+msgid ""
+"Este algoritmo modificado tiene la ventaja de mantener con su orden original"
+" todos los elementos de la lista que todavía no han sido movidos al comienzo"
+" de la lista::"
+msgstr ""
+"This modified algorithm has the advantage of keeping all list elements that "
+"have not yet been moved to the beginning of the list in their original "
+"order:"
+
+
+#: ../../source/python-sort-seleccion.rst:130
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../source/python-sort-seleccion.rst:132
+msgid ""
+"Reescribe el programa de ordenación I para que ordene los elementos en "
+"sentido contrario, de mayor a menor. Deberás cambiar los nombres de las "
+"funciones y de las variables para que se adapten a la nueva función que "
+"estén realizando."
+msgstr ""
+"Rewrite the sorting program I so that it orders the elements in the opposite"
+" direction, from largest to smallest. You will need to change the names of "
+"the functions and variables to adapt to the new function they are "
+"performing."
+
+
+#: ../../source/python-sort-seleccion.rst:138
+msgid ""
+"Reescribe el programa de ordenación II para que comience a ordenar los "
+"elementos por la derecha, comenzando por ordenar el mayor de todos los "
+"elementos, que deberá desplazarse al final de la lista."
+msgstr ""
+"Rewrite the sort II program so that it starts sorting the elements from the "
+"right, starting by sorting the largest of all the elements, which should be "
+"moved to the end of the list."
+
+
+#: ../../source/python-sort-seleccion.rst:143
+msgid ""
+"Escribe un programa basado en la ordenación por selección que desplace todos"
+" los ceros de una lista a la izquierda. El resto de elementos de la lista "
+"debe mantener el orden que tenía al comienzo::"
+msgstr ""
+"Write a program based on selection sort that shifts all zeros in a list to "
+"the left. The rest of the elements in the list must maintain the order they "
+"had at the beginning::"
+
+
+#: ../../source/python-sort-seleccion.rst:156
+msgid ""
+"El programa estará basado en el programa de ordenación II. Debe seleccionar "
+"los ceros uno a uno y mover los ceros a la izquierda del todo. Si en algún "
+"momento no encuentra un cero en la lista, entonces el programa terminará."
+msgstr ""
+"The program will be based on the management program II. You must select the "
+"zeros one by one and move the zeros to the far left. If at any time it does "
+"not find a zero in the list, then the program will terminate."
+
+
+#: ../../source/python-sort-seleccion.rst:163
+msgid ""
+"Escribe un algoritmo de ordenación por selección que ordene las cadenas de "
+"texto por longitud de cadena, de manera que al comienzo se coloquen las "
+"palabras más cortas y al final las más largas::"
+msgstr ""
+"Write a selection sort algorithm that sorts text strings by string length, "
+"so that the shortest words are placed at the beginning and the longest words"
+" at the end:"

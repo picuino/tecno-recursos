@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena4/4q2_contenidos_6a.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:44:03 GMT -->
+<head><title>Electr&oacute;nica anal&oacute;gica</title>
+
+
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+<!-- Esta función popup que aparece a continuación sirve para que aparezca el cuadro de texto al pasar el ratón por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta función que viene a continuación sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+//-->
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+
+<link href="../paracidead1.css" rel="stylesheet" type="text/css"></head><body onLoad="MM_preloadImages('imagen/paraantes3.png','imagen/paraconte.png','imagen/atrasb.png','imagen/paraantes2.png','imagen/paracont2.png','imagen/adelanteb.png','imagen/atrasb.png','imagen/paraantes3.png','imagen/paraconte.png','imagen/paraejer3.png','imagen/paraejer2.png','imagen/paraeval3.png','imagen/paraeval2.png','imagen/paratut3.png','imagen/paratut2.png','imagen/paramas3.png','imagen/paramas2.png','imagen/paracont3.png','imagen/paralapiz2.png')" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;"> 
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      </tr><tr>
+      <td><a href="4q2_centro.html" target="texto" onClick="MM_nbGroup('down','group1','antes','imagen/paraantes3.png',1)" onMouseOver="MM_nbGroup('over','antes','imagen/paraantes2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen/paraantes.png" alt="" name="antes" onload="" border="0" height="18" width="130"></a></td>
+      <td><a href="javascript:;" target="texto" onClick="MM_nbGroup('down','group1','contenidos','imagen/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen/paracont2.png','imagen/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen/paraconte.png',1)" border="0"></a></td>
+      <td><a href="4q2_ejercicios_1a.html" target="texto" onClick="MM_nbGroup('down','group1','ejercicios','imagen/paraejer3.png',1)" onMouseOver="MM_nbGroup('over','ejercicios','imagen/paraejer2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="4q2_autoeval_1a.html" target="texto" onClick="MM_nbGroup('down','group1','autoeval','imagen/paraeval3.png',1)" onMouseOver="MM_nbGroup('over','autoeval','imagen/paraeval2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="4q2_tutor_1a.html" target="texto" onClick="MM_nbGroup('down','group1','paratutor','imagen/paratut3.png',1)" onMouseOver="MM_nbGroup('over','paratutor','imagen/paratut2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="4q2_sabermas_1a.html" target="texto" onClick="MM_nbGroup('down','group1','paramas','imagen/paramas3.png',1)" onMouseOver="MM_nbGroup('over','paramas','imagen/paramas2.png','imagen/paramas3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </tbody></table>
+  
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tbody><tr>
+      <td background="imagen/es1.gif" height="8" width="8">
+</td>
+      <td background="imagen/bor1.gif" height="8">
+</td>
+      <td background="imagen/es2.gif" height="8" width="8">
+</td>
+    </tr>
+</tbody></table><table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tbody><tr>
+        <td background="imagen/bor4.gif" width="8"><br>
+</td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="777">
+          <tbody><tr> 
+            <td colspan="3" valign="top" width="100%"> <strong>
+			<font color="#009999" face="Geneva, Arial, Helvetica, sans-serif" size="4">
+			6. Miniaturización de circuitos
+          </font></strong></td></tr>
+          <tr> 
+            <td rowspan="4" valign="top" width="364"> <p align="justify">
+			<font color="#666666" face="Geneva, Arial, Helvetica, sans-serif">
+			
+			<b>Circuitos Integrados</b><br>
+			<br>
+			
+			</font>
+			
+			<font style="font-size: 9pt;" face="Verdana, Arial, Helvetica, sans-serif">
+			<font face="Geneva, Arial, Helvetica, sans-serif">
+			
+			<span class="txt"><span style="font-size: 9pt;">Los <b>circuitos integrados o chips</b>
+son dispositivos que contienen una gran cantidad de componentes
+electrónicos (diodos, transistores, resistencias, etc.) de muy pequeño
+tamaño y conectados entre sí. De esta forma se ahorra espacio y se
+reduce la posibilidad de error en las conexiones. </span></span>
+			
+			
+			</font></font></p><p align="justify"><span class="txt"><span style="font-size: 9pt;"><font style="font-size: 9pt;" face="Verdana, Arial, Helvetica, sans-serif">Los
+circuitos integrados más populares, aparte de los microprocesadores de
+los ordenadores, son los llamados 555, que se usan como <b>Temporizadores</b> para regular luces intermitentes, etc.
+
+Cada circuito integrado tiene su <b>simbología</b>.
+Por lo general se representan mediante una simple caja con el número de
+terminales que tengan; dentro de la caja se escribe alguna indicación
+sobre el tipo de circuito del que se trata. </font></span></span>
+<font style="font-size: 9pt;" face="Verdana, Arial, Helvetica, sans-serif"><font face="Geneva, Arial, Helvetica, sans-serif">			<font color="#666666" face="Geneva, Arial, Helvetica, sans-serif">
+			
+<table align="center" cellpadding="10" cellspacing="0" width="356">
+                  <tbody><tr> 
+                    <td valign="bottom" width="146"> <p align="justify">
+					<img src="imagenes2/circuito-integrado1.jpg" border="0" height="107" width="151"></p></td>
+                    <td valign="bottom" width="170"> 
+					<p align="center">
+					<img src="imagenes2/555v.png" border="0" height="108" width="109"></p></td>
+                  </tr>
+                </tbody></table></font></font></font></p></td><td valign="top" width="179"> 
+			<div align="center"> 
+				<font style="font-size: 9pt;" face="Verdana, Arial, Helvetica, sans-serif">
+					<img src="imagenes2/cucaracha.png" border="0" height="97" width="158"></font></div>
+			</td>
+          	<td valign="top" width="180"> 
+			<p align="center"> 
+			<font style="font-size: 9pt;" face="Verdana, Arial, Helvetica, sans-serif">
+					<img src="imagenes2/circuito_integrado.png" border="0" height="97" width="120"></font></p></td>
+          </tr>
+          <tr>
+			<td colspan="2" valign="top">&nbsp; 
+			</td>
+          </tr>
+			<tr>
+				<td colspan="2" valign="top"> 
+			<img src="imagenes2/ci.jpg" border="0" height="168" width="371"></td>
+          </tr>
+          <tr> 
+            <td colspan="2" valign="top">
+			
+			
+			
+			
+			
+			<table bgcolor="#eeeedd" border="0" bordercolor="#999966" cellpadding="6" cellspacing="0" width="373">
+                <tbody><tr> 
+                 
+<td class="recuadro" valign="top"> 
+                   
+                    <p class="apartado" align="right">Vídeo de luces intermitentes con el CI555&nbsp; <a href="#" onMouseOver="MM_swapImage('Image9','','imagen/paralapiz2.png',1)" onMouseOut="MM_swapImgRestore()"><img src="imagen/paralapiz1.png" alt="pulsa para ir" name="Image9" onClick="MM_openBrWindow('paginas/leds.html','calcula','width=1000,height=800')" border="0" height="38" width="38"></a>
+                     </p></td>
+                    </tr>
+              </tbody></table></td>
+          </tr>
+        </tbody></table>
+      </td>
+      
+     <td rowspan="2" background="imagen/bor2.gif" width="8"> 
+</td>
+    </tr>
+</tbody></table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tbody><tr>
+      <td background="imagen/es4.gif" height="8" width="8">
+</td>
+      <td background="imagen/bor3.gif" height="8">
+</td>
+      <td background="imagen/es3.gif" height="8" width="8">
+</td>
+    </tr>
+</tbody></table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tbody><tr>
+      <td width="684"><div align="right"> </div><br>
+</td>
+      <td width="30"><div align="center">
+		<a target="texto" onMouseOver="MM_swapImage('atras','','imagen/atrasb.png',1)" onMouseOut="MM_swapImgRestore()" href="4q2_contenidos_5c.html"><img src="imagen/atras.png" alt="anterior" name="atras" border="0" height="25" width="25"></a></div></td>
+      <td width="30"> 
+        <div align="center">
+			<a target="texto" onMouseOver="MM_swapImage('adelante','','imagen/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()" href="4q2_contenidos_6b.html"><img src="imagen/adelante.png" alt="siguiente" name="adelante" border="0" height="25" width="25"></a></div>
+      </td>
+    </tr>
+
+</tbody></table>
+</div>
+</body>
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena4/4q2_contenidos_6a.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:44:05 GMT -->
+</html>

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Programming - Python tutorial - 2. Numerical data">
+  <title>2. Numerical data - Python tutorial - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/python-datos-numeros.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="3. Variables" href="python-variables.html">
+  <link rel="prev" title="1. Introduction to the Python language" href="python-intro.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="prog-index.html">Programming</a>/</li>
+        
+          <li><a href="python-index.html">Python tutorial</a>/</li>
+        
+      <li><span class="section-number">2. </span>Numerical data</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/python-datos-numeros.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/python-datos-numeros.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="datos-numericos">
+<span id="python-datos-numeros"></span><h1><span class="section-number">2. </span>Numerical data<a class="headerlink" href="#datos-numericos" title="Permalink to this headline">¶</a></h1>
+<p>In Python there are different types of numerical data that can be used to work with numbers. The main types of numerical data are integers (int), floating point numbers (float) and complex numbers (complex) which, for now, we are not going to discuss.</p>
+<dl class="docutils">
+<dt>Integers</dt><dd>Integers are whole numbers, positive or negative without decimals. For example: 1, -2 and 100</dd>
+<dt>Floating point</dt><dd>Floating point numbers are numbers with decimals. For example: 1.5, 3.14 and -0.75</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In Python, decimals are separated with a period. In Spanish it is not the correct way to separate decimals, since the comma is used, but decimals in Python are not translated from the Anglo-Saxon standard to the Spanish standard because this would lead to errors in the code.</p>
+</div>
+<p>In Python it is easy to work with these types of numerical data using common mathematical operators such as addition, subtraction, multiplication, division or power. It is also possible to perform more advanced operations such as module calculation, rounding, truncation, trigonometric functions, etc. using special functions.</p>
+<div class="section" id="operaciones-con-numeros-enteros">
+<h2>Operations with whole numbers<a class="headerlink" href="#operaciones-con-numeros-enteros" title="Permalink to this headline">¶</a></h2>
+<p>Whole numbers are numbers without decimals. The basic operations that can be applied to integers are the following:</p>
+<table class="colwidths-auto docutils align-default">
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">Symbol</th>
+<th class="head">Operation</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">+</span></code></td>
+<td>Addition</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">-</span></code></td>
+<td>Subtraction</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">*</span></code></td>
+<td>Multiplication</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">//</span></code></td>
+<td>Integer division (without calculating decimals)</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">%</span></code></td>
+<td>Remainder of a division</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">**</span></code></td>
+<td>Power (raised to a number)</td>
+</tr>
+</tbody>
+</table>
+<p>Copy the following examples to the IDLE environment to verify that they work correctly:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">2</span> <span class="o">+</span> <span class="mi">6</span>
+<span class="go">    8</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">5</span> <span class="o">-</span> <span class="mi">9</span>
+<span class="go">    -4</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">11</span> <span class="o">//</span> <span class="mi">3</span>
+<span class="go">    3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">11</span> <span class="o">%</span> <span class="mi">3</span>
+<span class="go">    2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">5</span> <span class="o">**</span> <span class="mi">2</span>
+<span class="go">    25</span>
+</pre></div>
+</div>
+<p>Integers in Python can be very large and have many precision figures:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">123</span> <span class="o">**</span> <span class="mi">456</span>
+<span class="go">    992500687720988567008314620574696326372959408198869005198162</span>
+<span class="go">    988813828671047493990779211286614261446380554242369362718724</span>
+<span class="go">    928003527416499021181438196726015699981001207904967595176364</span>
+<span class="go">    654458956257416098662099005001984071532446047789680169630280</span>
+<span class="go">    503102614176159144687299182406854878786176459769390634643579</span>
+<span class="go">    861657117309763994785076492286863414669671679101266533421349</span>
+<span class="go">    427448514638999274870924866109771461127635671016726459531321</span>
+<span class="go">    964814393398730170881404146612711985003332557130961423351514</span>
+<span class="go">    146306516830655187840812036784877030028020820912366035190262</span>
+<span class="go">    568806244996817813872275740354848312715156831237421490955692</span>
+<span class="go">    604636096559777009388445806119312464951662086955403136981400</span>
+<span class="go">    116380273225662526897808381363518287953142721621112222311709</span>
+<span class="go">    017156123557013475523715300136938553798348656670600146433024</span>
+<span class="go">    591004297836539669137830022907842834556282833554705299329560</span>
+<span class="go">    514844771293338811599302127586876027950885792304316616960102</span>
+<span class="go">    32187390436601614145603241902386663442520160735566561</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="operaciones-con-numeros-en-coma-flotante">
+<h2>Operations with floating point numbers<a class="headerlink" href="#operaciones-con-numeros-en-coma-flotante" title="Permalink to this headline">¶</a></h2>
+<p>Floating point numbers are numbers with decimals.</p>
+<p>Floating point numbers lose the high precision that integers have and store only 16 digits of precision. The maximum size of a floating point number is also smaller (10^307) than the maximum size of an integer (10^4300).</p>
+<p>The floating point integer 2 will look like 2.0, with a zero added after the decimal point.</p>
+<p>The basic operations that can be applied to floating point numbers are the following:</p>
+<table class="colwidths-auto docutils align-default">
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">Symbol</th>
+<th class="head">Operation</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">+</span></code></td>
+<td>Addition</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">-</span></code></td>
+<td>Subtraction</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">*</span></code></td>
+<td>Multiplication</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">/</span></code></td>
+<td>Division with decimals</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">%</span></code></td>
+<td>Remainder of a division</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">**</span></code></td>
+<td>Power (raised to a number)</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">round(number,</span> <span class="pre">digits)</span></code></td>
+<td>Rounds a floating point number to decimal <code class="docutils literal notranslate"><span class="pre">digits</span></code>.</td>
+</tr>
+</tbody>
+</table>
+<p>Copy the following examples to the IDLE environment to verify that they work correctly:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mf">2.0</span> <span class="o">+</span> <span class="mf">6.0</span>
+<span class="go">    8.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mf">5.0</span> <span class="o">-</span> <span class="mf">9.0</span>
+<span class="go">    -4.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">11</span> <span class="o">/</span> <span class="mi">3</span>
+<span class="go">    3.6666666666666665</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mf">11.0</span> <span class="o">%</span> <span class="mf">3.5</span>
+<span class="go">    0.5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mf">5.0</span> <span class="o">**</span> <span class="mf">3.2</span>
+<span class="go">    172.4662076826519</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">round</span><span class="p">(</span><span class="mf">3.1415926</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<span class="go">    3.1416</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="errores-decimales-en-coma-flotante">
+<h2>Floating Point Decimal Errors<a class="headerlink" href="#errores-decimales-en-coma-flotante" title="Permalink to this headline">¶</a></h2>
+<p>Floating point numbers are stored within the computer as binary numbers (made up of zeros and ones) and not as decimal numbers. The representation of these numbers on the screen is done by converting binary numbers into numbers in decimal format. This causes errors when storing and performing calculations with decimals. A practical example is the following sum:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mf">0.1</span>
+<span class="go">    0.1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mf">0.2</span>
+<span class="go">    0.2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.2</span>
+<span class="go">    0.30000000000000004</span>
+</pre></div>
+</div>
+<p>Decimal numbers are stored with a small error that is not visible on the screen. However, the sum of the two decimal numbers results in a number with a small error that is visible in decimal number 17.</p>
+<p>These rounding errors occur only with the decimal part of floating-point numbers and do not occur with integers, even if we store them in floating-point format:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mf">1.0</span> <span class="o">+</span> <span class="mf">2.0</span>
+<span class="go">    3.0</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="conversion-de-tipos">
+<h2>Type conversion<a class="headerlink" href="#conversion-de-tipos" title="Permalink to this headline">¶</a></h2>
+<p>There are several cases in which data can be converted from integers to floating point or vice versa.</p>
+<dl class="docutils">
+<dt>Division of two integers</dt><dd><p>The <code class="docutils literal notranslate"><span class="pre">/</span></code> decimal division operation applied to integers can result in a decimal number, which will be stored as a floating point number.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">5</span> <span class="o">/</span> <span class="mi">3</span>
+<span class="go">    1.6666666666666667</span>
+</pre></div>
+</div>
+</dd>
+<dt>Mixed operations between integers and floats</dt><dd><p>Any operation between an integer and a floating point number will result in a floating point number.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">5</span> <span class="o">*</span> <span class="mf">2.0</span>
+<span class="go">    10.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">5</span> <span class="o">+</span> <span class="mf">2.0</span>
+<span class="go">    7.0</span>
+<span class="go">&gt;&gt;&gt;</span>
+</pre></div>
+</div>
+</dd>
+<dt>Force type conversion</dt><dd><p>You can force a number to be converted from one type to another type with the following functions:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">int(n)</span></code> Converts n to an integer by removing the decimal part.</li>
+<li><code class="docutils literal notranslate"><span class="pre">float(n)</span></code> Converts n to a floating point number.</li>
+</ul>
+<p>Examples of conversions (also called cast):</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">int</span><span class="p">(</span><span class="mf">5.6</span><span class="p">)</span>
+<span class="go">    5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">float</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+<span class="go">    8.0</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="otras-operaciones-matematicas">
+<h2>Other mathematical operations<a class="headerlink" href="#otras-operaciones-matematicas" title="Permalink to this headline">¶</a></h2>
+<p>To perform more mathematical operations with integers or floating point numbers, it is necessary to import the <a class="reference external" href="https://docs.python.org/es/3/library/math.html" rel="noopener noreferrer" target="_blank">math</a> library, which gives access to many of advanced mathematical operations.</p>
+<p>Before using the 'math' library it is necessary to import it into our program. The <code class="docutils literal notranslate"><span class="pre">import</span></code> keyword is used to import any Python library, which will give access to many extra functions.</p>
+<p>This is an example:</p>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">math</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">math</span><span class="o">.</span><span class="n">gcd</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="mi">18</span><span class="p">)</span>
+<span class="go">    6</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>In this example, the <code class="docutils literal notranslate"><span class="pre">math.gcd()</span></code> function has been used, which returns the greatest common divisor of several numbers.</p>
+<p>You can see all the functions of the <code class="docutils literal notranslate"><span class="pre">math</span></code> library in the <a class="reference external" href="https://docs.python.org/es/3/library/math.html" rel="noopener noreferrer" target="_blank">official documentation of the Python language</a>.</p>
+</div>
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Calculate the sum of the following distances: 100m, 15m, 50m, 80m</p>
+</li>
+<li><p class="first">Calculate the square of 55 knowing that the square of a number is equivalent to raising that number to 2.</p>
+<p>The result should be 3025</p>
+</li>
+<li><p class="first">Calculate the average of these grades: 6, 7, 6, 8</p>
+<p>All the numbers must be added and the result divided by four. Use parentheses so the operation works well. (6 + 7 + 6 + 8) / 4</p>
+<p>The result should be 6.75</p>
+</li>
+<li><p class="first">Round the previous result to a single decimal.</p>
+<p>The result should be 6.8</p>
+</li>
+<li><p class="first">Calculate the remainder of dividing 53 by 7.</p>
+<p>The result should be 4</p>
+</li>
+<li><p class="first">Calculate the next number to 80 that divided by 7 gives the remainder zero.</p>
+<p>You must use the remainder operator of a division <code class="docutils literal notranslate"><span class="pre">%</span> <span class="pre">7</span></code> with each of the numbers 80, 81, 82, 83, etc. until the remainder is worth zero.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="python-variables.html" class="btn btn-neutral float-right" title="3. Variables" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="python-intro.html" class="btn btn-neutral" title="1. Introduction to the Python language" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/python-datos-numeros.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programming</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Programming languages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-flowchart.html">Flowcharts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-codeorg.html">Code Tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scratch3-index.html">Scratch 3 tutorial</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="python-index.html">Python tutorial</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="python-intro.html">1. Introduction to the Python language</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2. Numerical data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-variables.html">3. Variables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-palabras-reservadas.html">4. reserved words</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-comentarios.html">5. The comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-print.html">6. The <code class="xref py py-func docutils literal notranslate"><span class="pre">print()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-input.html">7. The <code class="xref py py-func docutils literal notranslate"><span class="pre">input()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-booleanos.html">8. The Boolean type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-else.html">9. <code class="docutils literal notranslate"><span class="pre">if</span></code> <code class="docutils literal notranslate"><span class="pre">else</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-and-or-not.html">10. <code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code> operators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-anidados.html">11. Nested <code class="docutils literal notranslate"><span class="pre">if</span></code> statements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-elif.html">12. <code class="docutils literal notranslate"><span class="pre">elif</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for.html">13. <code class="docutils literal notranslate"><span class="pre">for</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-range.html">14. The <code class="xref py py-func docutils literal notranslate"><span class="pre">range()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-continue.html">15. <code class="docutils literal notranslate"><span class="pre">continue</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-break.html">16. <code class="docutils literal notranslate"><span class="pre">break</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-anidados.html">17. Nested <code class="docutils literal notranslate"><span class="pre">for</span></code> statements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-while.html">18. <code class="docutils literal notranslate"><span class="pre">while</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones.html">19. Definition of functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones-argumentos.html">20. Parameters with default values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos.html">21. text strings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-indices.html">22. Text string indices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-metodos.html">23. String methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-formateo.html">24. Formatting text strings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas.html">25. lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-indices.html">26. list indices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-iteracion.html">27. list iteration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-metodos.html">28. list methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda.html">29. Data search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda-binaria.html">30. Binary search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-desplazamiento.html">31. Data displacement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-seleccion.html">32. Sort by selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-insercion.html">33. Insertion sort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursividad.html">34. Recursion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-mezcla.html">35. Merge Sort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-codewars.html">36. Codewars</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursos.html">37. Python Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="prog-recursos.html">Programming Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

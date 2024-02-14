@@ -1,0 +1,128 @@
+<html>
+
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/ejercicios4d2.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:57:29 GMT -->
+<head>
+<meta http-equiv="Content-Language" content="es">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ejercicio</title>
+<script type="text/javascript" src="paginas/embeddedcontent.html" defer="defer"></script>
+<style type="text/css"><!--
+-->
+  </script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+<style type="text/css">
+<!--
+-->
+  </style>
+<link href="../paracidead1.css" rel="stylesheet" type="text/css">
+<link href="../q5q6.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body bgcolor="#EEFFEE">
+
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+            <div align="center">
+            <table width="509" border="1" cellpadding="2" cellspacing="4" bordercolor="#009999" bgcolor="#c6d8f4" style="margin-bottom: 0">
+              <tr valign="middle" bordercolor="#F1f1f1" bgcolor="#FFFFFF" class="parakaos2"> 
+                <td bordercolor="#F1f1f1" align="center" width="493" class="recuadro"> 
+
+<font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#000099">
+            	<b>EJERCICIO INTERACTIVO </b></td>
+              </tr>
+              <tr>
+                <td bordercolor="#eeeedd" align="center" width="483" bgcolor="#FFFFFF" valign="top" class="recuadro">  
+				
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+				<p align="justify"><font color="#000099"><span class="txt">
+				<span style="font-size:10.0pt;">
+			  Simplifica las siguientes funciones y comprueba el resultado.<br/>
+			  -No dejes espacios entre los caracteres. <br />
+		      -En el teclado la comilla ' está debajo del símbolo de interrogaci&oacute;n ? </p>
+			  
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function imprimeEjercicio(nombre_ejercicio,texto,solucion,idsolucion,ancho) {
+
+
+var formid = 'id'+nombre_ejercicio;
+document.write('<form name="'+nombre_ejercicio+'" id="'+formid+'">'+texto);
+document.write('<input name="edit" type="text" size="'+ancho+'" > ');
+document.write('<input name="sol" type="hidden" value="'+solucion+'" >');
+
+document.write('<input type="button" value="comprobar" onClick="compruebaEjSimple(\''+formid+'\',\''+idsolucion+'\')">');
+document.write('<br /><span id="'+idsolucion+'"> </span>');
+document.write('</form>');
+
+}
+
+Array.prototype.in_array = function(p_val) {
+	for(var i = 0, l = this.length; i < l; i++) {
+		if(this[i] == p_val) {
+			return true;
+		}
+	}
+	return false;
+}
+
+function compruebaEjSimple(idform,idsol) {
+
+	var f1 = document.getElementById(idform);
+	
+	if(f1!=null)
+	{
+		
+		var nombre = f1.name;
+		var respuesta = f1.edit.value.toUpperCase();
+		// as respostas posibles deben estar separadas por ';'
+		var solucion = f1.sol.value.toUpperCase().split(";");
+		var elsolucion = document.getElementById(idsol);
+		if( elsolucion != null) {
+			// buscamos se aresposta aparece no array de respostas posibles.
+			if(solucion.in_array(respuesta)) {
+				elsolucion.innerHTML ='<b>La respuesta es correcta</b>';
+			}
+			else {	
+				var cadena = '<b>La respuesta no es correcta</b> <br> La respuesta correcta es: <b>' + solucion[0];
+				if( solucion.length > 1) {
+					for( var i= 1 ; i < solucion.length ; i++) {
+						cadena += '</b> o <b> ' + solucion[i];		
+					}
+				}
+				cadena += '</b>';
+				elsolucion.innerHTML = cadena;
+			}
+		}
+		else
+			alert("No se encuentra el id de la solucion");
+
+	}
+	else
+		alert('no se encuentra el formulario');
+
+}
+//-->
+</script>
+
+
+
+			  
+			  <div align="left">
+			  <script language="JavaScript" type="text/JavaScript"> 
+// Sintaxis: imprimeEjercicio(nombre_ejercicio,texto del ejercicio, la solucion correcta,el id donde se escribe la soluci%C3%B3n,el ancho del edit)
+
+imprimeEjercicio("ejercicio1","<b>a)</b> S = A'B'C'+A'BC'+ABC <br />","A'C'+ABC","idsolucion1",15)
+</script>
+<br />
+<script language="JavaScript" type="text/JavaScript"> 
+imprimeEjercicio("ejercicio2","<b>B)</b> S = A'B'C+AB'C+AB'C+ABC <br /> ","B'C+AC","idsolucion2",15);
+</script>
+
+
+            </body>
+
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/ejercicios4d2.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:57:29 GMT -->
+</html>

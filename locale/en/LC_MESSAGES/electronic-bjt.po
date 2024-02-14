@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-18 17:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-bjt.rst:9
+msgid "El transistor"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:10
+msgid ""
+"El transistor es un dispositivo electrónico de tres terminales que "
+"permite amplificar la corriente eléctrica. Tiene múltiples aplicaciones "
+"van desde fabricar amplificadores de audio, osciladores de radio, "
+"reguladores de tensión, controladores para motores eléctricos, fuentes de"
+" alimentación, circuitos digitales, microprocesadores, memorias, etc. El "
+"transistor forma parte de prácticamente todos los circuitos electrónicos."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:20
+msgid "El transistor bipolar"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:21
+msgid ""
+"Es un tipo concreto de transistor basado en 3 zonas semiconductoras "
+"dopadas alternativamente como positivas y negativas. De ahí que existan "
+"dos transistores diferentes, un denominado NPN y otro denominado PNP, "
+"según el dopaje positivo o negativo de las tres zonas."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:27
+msgid "Los símbolos de los dos transistores bipolares son los siguientes:"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:34
+msgid "Símbolo del transistor bipolar NPN."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:41
+msgid "Símbolo del transistor bipolar PNP."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:43
+msgid ""
+"El funcionamiento de ambos tipos de transistores es muy semejante con la "
+"diferencia de que el transistor PNP trabaja con corrientes negativas "
+"mientras que el transistor NPN trabaja con corrientes positivas."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:47
+msgid ""
+"En la práctica el transistor NPN es más utilizado porque es más eficiente"
+" a la hora de conducir la corriente eléctrica. Por esa razón se estudiará"
+" más en profundidad. El transistor PNP se verá más adelante en "
+"configuraciones que utilizan los dos tipos de transistores, como la "
+"salida analógica en push-pull o la salida digital en totem-pole."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:55
+msgid "El transistor como amplificador"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:56
+msgid ""
+"En el siguiente circuito podemos experimentar el funcionamiento de un "
+"amplificador típico basado en transistor."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:59
+msgid ""
+"La **unión base-emisor** del transistor se comporta como un diodo, por lo"
+" que necesita una tensión de 0.65 voltios para poder conducir corriente."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:63
+msgid ""
+"En la barra lateral derecha hay una barra deslizante que permite cambiar "
+"el valor de la resistencia de polarización de base. Esta resistencia "
+"permite el paso de una pequeña corriente. El transistor amplifica la "
+"corriente que llega por la base y deja pasar desde el colector hasta el "
+"emisor una corriente mucho mayor, multiplicando la corriente de base por "
+"la ganancia."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:78
+msgid "Ganancia del transistor"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:79
+msgid ""
+"La corriente de colector en un transistor típico es de 50 a 300 veces "
+"mayor que la corriente de base. Esta relación entre la corriente de "
+"colector y la corriente de base se denomina **ganancia** del transistor, "
+"también denominada como β o parámetro **hfe**."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:84
+msgid "La fórmula de la ganancia del transistor por lo tanto será:"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:86
+msgid "\\beta = hfe = \\cfrac{I_{colector}}{I_{base}}"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:91
+msgid "Donde las variables son:"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:93
+msgid "β = hfe = ganancia del transistor (número adimensional)"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:95
+msgid "I_colector = corriente del colector en amperios [A]"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:97
+msgid "I_base = corriente de base en amperios [A]"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:100
+msgid ""
+"Los transistores de potencia son transistores capaces de conducir "
+"corrientes altas, mayores de un amperio. Estos transistores pueden tener "
+"una ganancia menor de 50 cuando trabajan con grandes corrientes."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:105
+msgid ""
+"Lo mismo ocurre con los transistores de alta frecuencia, que a "
+"frecuencias de trabajo cercanas a su límite tienen una ganancia mucho "
+"menor que a bajas frecuencias."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:111
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:113
+msgid ""
+"Dibuja el símbolo del transistor NPN y del transistor PNP y añade los "
+"nombres de cada uno de sus terminales."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:116
+msgid "¿Qué función tiene un transistor bipolar?"
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:118
+msgid ""
+"Dibuja un esquema eléctrico de un transistor bipolar funcionando. Añade "
+"las corrientes y las tensiones que podemos encontrar en cada uno de sus "
+"tres terminales."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:122
+msgid ""
+"Comprueba que la ganancia del transistor simulado vale 100 calculando la "
+"relación entre la corriente de colector dividida por la corriente de "
+"base."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:126
+msgid ""
+"Desliza la barra de la derecha llamada ``Resistencia`` y comprueba si la "
+"ganancia se mantiene para varias posiciones."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:129
+msgid ""
+"Cuando la resistencia de base deja pasar mucha corriente, llega un "
+"momento que el transistor se **satura** y no puede conducir más "
+"corriente."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:133
+msgid ""
+"Este es un comportamiento típico de los circuitos digitales, pero se "
+"intenta evitar en los circuitos analógicos."
+msgstr ""
+
+#: ../../source/electronic-bjt.rst:136
+msgid ""
+"¿Cuál es la tensión entre el emisor y el colector cuando el transistor "
+"está **saturado**?"
+msgstr ""
+

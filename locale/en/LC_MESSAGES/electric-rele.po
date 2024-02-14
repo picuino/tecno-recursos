@@ -1,0 +1,380 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/electric-rele.rst:9
+msgid "Los relés"
+msgstr "The relays"
+
+
+#: ../../es/electric-rele.rst:10
+msgid ""
+"Los relés son los primeros aparatos eléctricos utilizados en la "
+"automatización eléctrica."
+msgstr ""
+"Relays are the first electrical devices used in electrical automation."
+
+
+#: ../../es/electric-rele.rst:13
+msgid ""
+"En esta unidad estudiaremos la historia del relé, su funcionamiento, los "
+"esquemas eléctricos más usuales y diversos tipos de relés."
+msgstr ""
+"In this unit we will study the history of the relay, its operation, the most"
+" common electrical diagrams and various types of relays."
+
+
+#: ../../es/electric-rele.rst:19
+msgid ""
+":download:`El relé. Formato PDF <electric/componentes-rele/electric-reles.pdf>`"
+msgstr ""
+":download:`The relay. PDF format <electric/componentes-rele/electric-relays.pdf>`"
+
+
+#: ../../es/electric-rele.rst:21
+msgid ""
+":download:`El relé. Formato editable DOC <electric/componentes-rele/electric-reles.doc>`"
+msgstr ""
+":download:`The relay. Editable format DOC <electric/componentes-rele/electric-relays.doc>`"
+
+
+#: ../../es/electric-rele.rst:25
+msgid "Qué es un relé"
+msgstr "What is a relay"
+
+
+#: ../../es/electric-rele.rst:26
+msgid ""
+"Es un aparato electromecánico con dos componentes: la bobina y los "
+"contactos. La bobina recibe una pequeña corriente eléctrica a baja tensión "
+"en el circuito de mando y mueve los contactos que hacen de interruptores de "
+"mayor corriente y tensión en el circuito de potencia."
+msgstr ""
+"It is an electromechanical device with two components: the coil and the "
+"contacts. The coil receives a small electrical current at low voltage in the"
+" control circuit and moves the contacts that act as switches for higher "
+"current and voltage in the power circuit."
+
+
+#: ../../es/electric-rele.rst:34
+msgid "Esquema de un relé"
+msgstr "Diagram of a relay"
+
+
+#: ../../es/electric-rele.rst:36
+msgid ""
+"`Digigalos "
+"<https://commons.wikimedia.org/wiki/File:Relay_principle_horizontal_new.gif>`__,"
+" `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__, via"
+" Wikimedia Commons."
+msgstr ""
+"`Display them "
+"<https://commons.wikimedia.org/wiki/File:Relay_principle_horizontal_new.gif>`__,"
+" `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>` __, "
+"via Wikimedia Commons."
+
+
+#: ../../es/electric-rele.rst:40
+msgid ""
+"De esta forma conseguimos que una pequeña corriente eléctrica sea capaz de "
+"mover circuitos de mucha potencia."
+msgstr ""
+"In this way we achieve that a small electric current is capable of moving "
+"high power circuits."
+
+
+#: ../../es/electric-rele.rst:45
+msgid "Funcionamiento del relé"
+msgstr "Relay operation"
+
+
+#: ../../es/electric-rele.rst:46
+msgid ""
+"En el siguiente esquema podemos ver el circuito de un relé en "
+"funcionamiento."
+msgstr ""
+"In the following diagram we can see the circuit of a relay in operation."
+
+
+#: ../../es/electric-rele.rst:49
+msgid ""
+"El **circuito de mando** se encuentra a la izquierda y se compone de una "
+"pila de 12 voltios, un pulsador y la bobina del relé. Cuando se presiona el "
+"pulsador, la corriente llega a la bobina y esta activa el contacto "
+"(interruptor) de potencia."
+msgstr ""
+"The **control circuit** is on the left and consists of a 12 volt battery, a "
+"push button and the relay coil. When the button is pressed, the current "
+"reaches the coil and the power contact (switch) is activated."
+
+
+#: ../../es/electric-rele.rst:54
+msgid ""
+"El **circuito de potencia** se compone de un contacto del relé, un generador"
+" de corriente alterna de 230 voltios y un motor. Cuando el contacto se "
+"cierra, llega la tensión al motor y se pone en marcha."
+msgstr ""
+"The **power circuit** consists of a relay contact, a 230 volt alternating "
+"current generator and a motor. When the contact closes, voltage reaches the "
+"motor and it starts up."
+
+
+#: ../../es/electric-rele.rst:62
+msgid ""
+"Circuito de un relé alimentado a 12 voltios que acciona un motor de 230 "
+"voltios."
+msgstr "Circuit of a relay fed at 12 volts that drives a 230 volt motor."
+
+
+#: ../../es/electric-rele.rst:65
+msgid ""
+"Una ventaja de este diseño consiste en que el pulsador tiene una tensión "
+"segura para las personas, separada de la alta tensión del motor que es más "
+"apropiada para suministrar grandes potencias."
+msgstr ""
+"An advantage of this design is that the push button has a safe voltage for "
+"people, separated from the high voltage of the motor, which is more "
+"appropriate to supply large powers."
+
+
+#: ../../es/electric-rele.rst:71
+msgid "Relé realimentado"
+msgstr "Feedback relay"
+
+
+#: ../../es/electric-rele.rst:72
+msgid ""
+"Un relé tiene varios contactos, algunos normalmente abiertos y otros "
+"normalmente cerrados. Estos contactos se pueden utilizar para realimentar el"
+" circuito de mando de manera que permanezca funcionando una vez que se ha "
+"activado el relé."
+msgstr ""
+"A relay has several contacts, some normally open and some normally closed. "
+"These contacts can be used to feed back the drive circuit so that it remains"
+" operational once the relay has been activated."
+
+
+#: ../../es/electric-rele.rst:77
+msgid ""
+"En el siguiente esquema podemos ver un relé con funcionamiento de marcha y "
+"parada. El pulsador de marcha activa la bobina y una vez activada, los dos "
+"contactos K1 asociados al relé mantienen a la bobina con tensión y al motor "
+"en marcha aunque se deje de presionar el pulsador de marcha."
+msgstr ""
+"In the following diagram we can see a relay with start and stop operation. "
+"The start button activates the coil and once activated, the two K1 contacts "
+"associated with the relay keep the coil energized and the motor running even"
+" if the start button is released."
+
+
+#: ../../es/electric-rele.rst:87
+msgid ""
+"Esquema de un relé con pulsadores de marcha y de parada que acciona un motor"
+" de 230 voltios."
+msgstr ""
+"Diagram of a relay with start and stop buttons that activates a 230 volt "
+"motor."
+
+
+#: ../../es/electric-rele.rst:90
+msgid ""
+"Para que el circuito pare, habrá que presionar el pulsador de parada. La "
+"bobina dejará de tener corriente y los dos contactos K1 se abren parando el "
+"circuito."
+msgstr ""
+"For the circuit to stop, the stop button must be pressed. The coil will stop"
+" having current and the two K1 contacts open stopping the circuit."
+
+
+#: ../../es/electric-rele.rst:96
+msgid "Relé oscilador"
+msgstr "Oscillator relay"
+
+
+#: ../../es/electric-rele.rst:97
+msgid ""
+"En este caso la realimentación se hará con un contacto normalmente cerrado "
+"del relé K1. Cuando se presione el pulsador S1, la corriente circulará por "
+"la bobina. La bobina actuará moviendo los contactos y el contacto K1 "
+"normalmente cerrado se abrirá. Al abrirse este contacto, dejará de circular "
+"corriente por la bobina. La bobina dejará de actuar, con lo que el contacto "
+"K1 volverá a cerrarse permitiendo otra vez que circule la corriente por la "
+"bobina."
+msgstr ""
+"In this case, the feedback will be done with a normally closed contact of "
+"relay K1. When pushbutton S1 is pressed, current will flow through the coil."
+" The coil will act by moving the contacts and the normally closed contact K1"
+" will open. When this contact opens, current will stop flowing through the "
+"coil. The coil will stop acting, with which the contact K1 will close again "
+"allowing current to flow through the coil."
+
+
+#: ../../es/electric-rele.rst:109
+msgid "Relé oscilador con un contacto normalmente cerrado."
+msgstr "Oscillating relay with a normally closed contact."
+
+
+#: ../../es/electric-rele.rst:111
+msgid ""
+"El resultado será una oscilación en la que el relé vibrará una y otra vez "
+"abriendo y cerrando sus contactos a toda la velocidad que le permita su "
+"diseño."
+msgstr ""
+"The result will be an oscillation in which the relay will vibrate over and "
+"over again, opening and closing its contacts as fast as its design allows."
+
+
+#: ../../es/electric-rele.rst:117
+msgid "Historia del relé"
+msgstr "Relay history"
+
+
+#: ../../es/electric-rele.rst:118
+msgid ""
+"El relé se inventó en 1835 y comenzó a utilizarse en telegrafía para "
+"amplificar las señales de larga distancia. Como el relé es capaz de "
+"controlar una potencia de salida mayor que la de entrada puede considerarse "
+"un amplificador que permitía aumentar la calidad de las señales "
+"telegráficas."
+msgstr ""
+"The relay was invented in 1835 and began to be used in telegraphy to amplify"
+" long-distance signals. As the relay is capable of controlling an output "
+"power greater than the input power, it can be considered an amplifier that "
+"allowed to increase the quality of the telegraph signals."
+
+
+#: ../../es/electric-rele.rst:124
+msgid ""
+"En 1941 Konrad Zuse construyo la primera computadora a base de relés. Los "
+"relés se sustituyeron posteriormente por válvulas de vacío, mucho más "
+"rápidas. A partir del año 1954 se comenzaron a usar los transistores, más "
+"rápidos aún y mucho más fiables. Actualmente se siguen utilizando los "
+"transistores en los ordenadores y en multitud de aparatos electrónicos."
+msgstr ""
+"In 1941 Konrad Zuse built the first relay-based computer. The relays were "
+"later replaced by much faster vacuum tubes. Starting in 1954, transistors "
+"began to be used, even faster and much more reliable. Currently, transistors"
+" are still used in computers and in a multitude of electronic devices."
+
+
+#: ../../es/electric-rele.rst:131
+msgid ""
+"Si bien los relés ya no se utilizan como base de los ordenadores, todavía "
+"hoy en día se usan con frecuencia en automatismos para controlar motores y "
+"otros elementos de gran potencia. Ejemplos se pueden encontrar en las casas "
+"para mover los ascensores, las bombas de agua o el temporizador de luz de la"
+" escalera."
+msgstr ""
+"Although relays are no longer used as the basis of computers, they are still"
+" frequently used today in automation to control motors and other high-power "
+"elements. Examples can be found in houses to move elevators, water pumps or "
+"the stair light timer."
+
+
+#: ../../es/electric-rele.rst:139
+msgid "Contactores"
+msgstr "Contactors"
+
+
+#: ../../es/electric-rele.rst:140
+msgid ""
+"Los contactores son relés especiales de gran potencia que sirven para mover "
+"motores trifásicos, es decir, que tienen tres líneas de alimentación de "
+"corriente."
+msgstr ""
+"Contactors are special high-power relays that are used to move three-phase "
+"motors, that is, they have three power supply lines."
+
+
+#: ../../es/electric-rele.rst:144
+msgid ""
+"En el siguiente dibujo se puede ver el esquema de un contactor alimentando "
+"un motor trifásico. En este circuito se puede apreciar el valor de los relés"
+" para manejar grandes potencias y conmutar muchos circuitos con una pequeña "
+"señal de baja tensión."
+msgstr ""
+"In the following drawing you can see the schematic of a contactor feeding a "
+"three-phase motor. In this circuit you can appreciate the value of relays to"
+" handle large powers and switch many circuits with a small low voltage "
+"signal."
+
+
+#: ../../es/electric-rele.rst:158
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/electric-rele.rst:160
+msgid "¿Qué es un relé y para qué sirve?"
+msgstr "What is a relay and what is it for?"
+
+
+#: ../../es/electric-rele.rst:162
+msgid ""
+"Dibuja el esquema de un relé que encienda una bombilla de 125 Voltios desde "
+"un pulsador alimentado a 24V."
+msgstr ""
+"Draw the schematic of a relay that turns on a 125 Volt light bulb from a 24V"
+" powered push button."
+
+
+#: ../../es/electric-rele.rst:165
+msgid ""
+"Dibuja el esquema de un relé que encienda una resistencia de 23 Ohmios "
+"alimentada a 220V con dos pulsadores, uno de marcha y otro de parada. "
+"Explica cómo funciona el circuito."
+msgstr ""
+"Draw the schematic of a relay that turns on a 23 Ohm resistor powered at "
+"220V with two buttons, one for start and the other for stop. Explain how the"
+" circuit works."
+
+
+#: ../../es/electric-rele.rst:169
+msgid ""
+"Dibuja los dos estados de un relé oscilador mientras se presiona el "
+"pulsador."
+msgstr ""
+"Draw the two states of an oscillating relay while the push button is "
+"pressed."
+
+
+#: ../../es/electric-rele.rst:172
+msgid ""
+"¿Qué usos ha tenido el relé a lo largo de la historia? ¿Para qué se utiliza "
+"en la actualidad?"
+msgstr ""
+"What uses has the relay had throughout history? What is it currently used "
+"for?"
+
+
+#: ../../es/electric-rele.rst:175
+msgid "¿Qué componentes electrónicos sustituyeron al relé?"
+msgstr "What electronic components replaced the relay?"
+
+
+#: ../../es/electric-rele.rst:177
+msgid "¿Qué es un contactor y por qué se utiliza?"
+msgstr "What is a contactor and why is it used?"
+
+
+#: ../../es/electric-rele.rst:179
+msgid ""
+"Dibuja el esquema de un contactor que haga funcionar siempre un motor hasta "
+"que se pulse un contacto normalmente cerrado."
+msgstr ""
+"Draw the schematic of a contactor that will always run a motor until a "
+"normally closed contact is pressed."

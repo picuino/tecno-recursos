@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Automatic control - Digital PID controller">
+  <title>Digital PID controller - Automatic control - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/control-pid-digital.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="Servomotor" href="control-actuator-servomotor.html">
+  <link rel="prev" title="Ziegler–Nichols method" href="control-ziegler-nichols.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="control-index.html">Automatic control</a>/</li>
+        
+      <li>Digital PID controller</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/control-pid-digital.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/control-pid-digital.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="controlador-pid-digital">
+<span id="control-pid-digital"></span><h1>Digital PID controller<a class="headerlink" href="#controlador-pid-digital" title="Permalink to this headline">¶</a></h1>
+<p>Many current controllers use digital microcontrollers. This page will present the programming of a PID regulator implemented with a microcontroller. Digital regulators replace various elements in a traditional control system with calculations in a programmed system. In the following figure you can see a diagram of a regulator controlled by a microcontroller.</p>
+<a class="reference internal image-reference" href="_images/img-0069.png"><img alt="Controlador PID digital" class="align-center" src="_images/img-0069.png" style="width: 640px;"></a>
+<p>The microcontroller functions are enclosed in the square with dotted lines.</p>
+<p>The blocks that serve as a connection between the microcontroller and the system are a <a class="reference external" href="https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_digital_a_anal%C3%B3gica" rel="noopener noreferrer" target="_blank">DAC (digital to analog converter)</a> and a ` ADC (analog to digital converter) &lt;<a class="reference external" href="https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_anal%C3%B3gica_a_digital" rel="noopener noreferrer" target="_blank">https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_anal%C3%B3gica_a_digital</a>&gt;`_. These two blocks allow you to translate the analog signals of the controlled system into digital numbers used by the microcontroller and vice versa.</p>
+<p>Sometimes the ADC and DAC converters can be implemented with a <a class="reference external" href="https://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos" rel="noopener noreferrer" target="_blank">PWM regulator</a>.</p>
+<div class="section" id="periodo-de-muestreo">
+<h2>Sampling period<a class="headerlink" href="#periodo-de-muestreo" title="Permalink to this headline">¶</a></h2>
+<p>While analog systems are continuous, digital systems are discontinuous. This means that their values ​​are evaluated or changed every certain period of time called the sampling time. The sampling period defines how many times per second the analog-digital conversions will be performed and the PID parameters will be calculated. From now on the sampling period will be represented by the letter <strong>T</strong>.</p>
+<p>The closed loop response of a system controlled by a digital PID will depend on this sampling period. If this time is too high, the stability of the system will be lower and the system may become unstable and not controllable. One method of estimating the sampling period is to calculate the oscillation period of the closed-loop system with a gain that causes oscillations. A sampling period of less than one tenth of the time or period of oscillation will be taken.</p>
+<p>In the example below, the proportional gain has been increased until the oscillations in the step response are maintained. The oscillation period is then 5.6 seconds and therefore the sampling period must be less than 0.56 seconds.</p>
+<a class="reference internal image-reference" href="_images/img-0064.png"><img alt="Controlador PID digital. Período de muestreo de sistema oscilatorio." class="align-center" src="_images/img-0064.png" style="width: 640px;"></a>
+<p>Oscillation time and sampling period:</p>
+<blockquote>
+<div><p>Tc = 26.8 - 21.2 = 5.6 seconds (oscillation time)</p>
+<p>T &lt; Tc / 10 = 0.56 seconds (Sampling Period)</p>
+</div></blockquote>
+<p>If the system is overdamped and does not present oscillations, the criterion for choosing the sampling time will be based on the step response. As a general rule, it is accepted that T must be 10 times less than the rise time of the system before an open-loop step.</p>
+<p>This rise time can be calculated as the time it takes for the system to rise from 10% to 90% of the final value.</p>
+<p>The following image represents the step response of a thermal system.</p>
+<a class="reference internal image-reference" href="_images/img-0071.png"><img alt="Controlador PID digital. Período de muestreo con una respuesta al escalón." class="align-center" src="_images/img-0071.png" style="width: 640px;"></a>
+<p>This system takes to rise from 10% to 90% of the final value 21.5 - 3.5 = 18 seconds. Therefore, for this example system, the PID controller sampling time should be at most one tenth of 18 seconds:</p>
+<blockquote>
+<div><p>T &lt; response_time / 10</p>
+<p>T &lt; 18/10 -&gt; T &lt; 1.8 seconds</p>
+</div></blockquote>
+<p>In both cases, the same plant has been used to calculate the sampling time. As can be seen the results are very different. With the second method the sampling time is three times longer than with the first. Therefore, the sampling time also depends on the response to be achieved and the type of system.</p>
+<p>Whenever possible, it will be preferable to use the first method since it calculates shorter times and, therefore, safer.</p>
+</div>
+<div class="section" id="periodo-de-muestreo-y-termino-derivativo">
+<h2>Sampling period and derivative term<a class="headerlink" href="#periodo-de-muestreo-y-termino-derivativo" title="Permalink to this headline">¶</a></h2>
+<p>Although it has been explained before that reducing the sampling time is desirable because it increases the stability of the system, excessively reducing the sampling time also presents problems.</p>
+<p>One problem with reducing the sampling time too much is that it increases the calculations needed in the microcontroller and therefore can overload it. Another problem with reducing the sampling time is that it makes it difficult to calculate the derivative term. In this case, high-frequency noise affects the system more. Furthermore, the variation of the input between two samples is so small that it is affected by the quantization error of the analog-to-digital converter.</p>
+<p>Therefore, the ideal is to establish a sampling time that achieves an acceptable response in the system without greatly overloading the calculations and without affecting the derivative term.</p>
+<p><strong>Example: how the quantization error affects with very small sampling times</strong></p>
+<p>A thermal system whose sensor changes at a rate of 0.1 volt/second is sampled by a 10-bit (1024 level) analog-to-digital converter with a voltage reference of 5 volts. The sensitivity of the analog-digital converter will be:</p>
+<blockquote>
+<div>1024 points * (0.1 v/s / 5v) = 20 points/second.</div></blockquote>
+<p>If the sampling period is one second, the measurement variation will be large enough to evaluate the derivative term. The sensor reading will be in consecutive samples: 100, 120, 140, 160, etc.</p>
+<p>If instead a sampling period of 10 thousandths of a second is taken, only one out of every 5 samples will present a variation of one point in the sensor input signal. Now the sensor reading will be in consecutive samples: 100, 100, 100, 100, 100, 101, 101, 101, etc.</p>
+<p>On the other hand, the derivative gain will be 100 times greater, being divided by a sampling time 100 times smaller.</p>
+<p>The result is that the derivative action will act with very sudden impulses every 5 cycles. This behavior is not desirable and can be corrected simply by increasing the sample time.</p>
+</div>
+<div class="section" id="implementacion-del-pid-digital">
+<h2>Digital PID Implementation<a class="headerlink" href="#implementacion-del-pid-digital" title="Permalink to this headline">¶</a></h2>
+<p>Each of the blocks that appear within the digital PID are translated into an equation. The equations to calculate the comparator and the PID controller are the following:</p>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Tiempo de muestreo en segundos</span>
+<span class="n">T</span> <span class="o">=</span> <span class="mf">0.1</span>
+
+<span class="c1"># Temperatura de referencia en grados centígrados</span>
+<span class="n">Referencia</span> <span class="o">=</span> <span class="mi">150</span>
+
+<span class="c1"># Leer el valor del sensor en grados centígrados</span>
+<span class="n">Sensor</span> <span class="o">=</span> <span class="n">leer_ADC</span><span class="p">()</span>
+
+<span class="c1"># Calcular el valor del controlador PID</span>
+<span class="n">Error</span> <span class="o">=</span> <span class="n">Sensor</span> <span class="o">-</span> <span class="n">Referencia</span>
+<span class="n">Proporcional</span> <span class="o">=</span> <span class="n">Error</span> <span class="o">*</span> <span class="n">Kp</span>
+<span class="n">Integral</span> <span class="o">=</span> <span class="n">Integral</span> <span class="o">+</span> <span class="n">Error</span> <span class="o">*</span> <span class="n">Ki</span> <span class="o">*</span> <span class="n">T</span>
+<span class="n">Derivativo</span> <span class="o">=</span> <span class="p">(</span><span class="n">Error</span> <span class="o">-</span> <span class="n">Error_anterior</span><span class="p">)</span> <span class="o">*</span> <span class="n">Kd</span> <span class="o">/</span> <span class="n">T</span>
+<span class="n">Control</span> <span class="o">=</span> <span class="n">Proporcional</span> <span class="o">+</span> <span class="n">Integral</span> <span class="o">+</span> <span class="n">Derivativo</span>
+<span class="n">Error_anterior</span> <span class="o">=</span> <span class="n">Error</span>
+
+<span class="c1"># Escribir el valor del controlador en el accionador</span>
+<span class="n">escribir_DAC</span><span class="p">(</span><span class="n">Control</span><span class="p">)</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>All these instructions and equations must be repeated with a period of T seconds (the sampling time). If the sampling time is 0.1 seconds, the equations must be repeated 10 times per second (every 0.1 seconds).</p>
+<p>The reference value has been chosen to be 150 degrees Celsius, but it can be changed at will. It is the value that you want to achieve in the system.</p>
+<p>The read_ADC() instruction must read the value returned by the sensor and condition that value so that it is measured in the same units that are being used in the reference. In the case of the example, degrees Celsius.</p>
+</div>
+<div class="section" id="unidades-utilizadas-por-las-funciones-de-entrada-y-salida">
+<h2>Units used by the input and output functions<a class="headerlink" href="#unidades-utilizadas-por-las-funciones-de-entrada-y-salida" title="Permalink to this headline">¶</a></h2>
+<p>The input and output functions must have a proper unit conversion. The read_ADC() function must return a value with the same units that the reference uses. It is convenient for the function write_DAC() to accept control values ​​between 0 and 5 volts to correspond to the actual output value of the DAC converter, which will have an output voltage, for example, between 0 and 5 volts. The control values ​​are not bounded and therefore can be worth more than the maximum output value of 5 volts or less than the minimum output value of 0 volts. In this case the function write_DAC() should clip the maximum values ​​to 5v and the minimum values ​​to 0v.</p>
+</div>
+<div class="section" id="control-anti-windup-integral">
+<h2>Integral windup control<a class="headerlink" href="#control-anti-windup-integral" title="Permalink to this headline">¶</a></h2>
+<p>Integral control is a sum that can accumulate very high values. This generally occurs when the error is very high and persists for a long time. In this case the system is saturated and the integral control cannot perform its function. In these cases, it is recommended to disable the integral control so that excessive overshoot does not occur. There are several ways to implement this anti-windup control. Here it will be implemented by disabling the integral control while the error is greater than a certain bound. To implement this anti-windup check, the following lines are added to the above program.</p>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Error máximo para que pueda funcionar el término integral</span>
+<span class="n">max_integral_error</span> <span class="o">=</span> <span class="mi">30</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">Error</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">max_integral_error</span><span class="p">):</span>
+   <span class="n">Integral</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">else</span><span class="p">:</span>
+   <span class="n">Integral</span> <span class="o">=</span> <span class="n">Integral</span> <span class="o">+</span> <span class="n">Error</span> <span class="o">*</span> <span class="n">Ki</span> <span class="o">*</span> <span class="n">T</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>In the following images you can see a simulation of a PID temperature control of a furnace with anti-windup control. The maximum error for the integral control to act has been established at 100, 30 and 10 degrees:</p>
+<a class="reference internal image-reference" href="_images/img-0072.png"><img alt="Control PID digital de un horno. Anti-Windup con error de 100 grados." class="align-center" src="_images/img-0072.png" style="width: 640px;"></a>
+<a class="reference internal image-reference" href="_images/img-0073.png"><img alt="Control PID digital de un horno. Anti-Windup con error de 30 grados." class="align-center" src="_images/img-0073.png" style="width: 640px;"></a>
+<a class="reference internal image-reference" href="_images/img-0074.png"><img alt="Control PID digital de un horno. Anti-Windup con error de 10 grados." class="align-center" src="_images/img-0074.png" style="width: 640px;"></a>
+<p>As can be seen, in the first case the maximum anti-windup error has been set at 100 degrees and the overshoot reaches 45ºC with a total settling time of 26 seconds. These are very high values.</p>
+<p>In the second case, the anti-windup control has been established with a maximum error of 30 and the overshoot barely reaches 5 degrees, with a settling time of 14 seconds. This anti-windup setting achieves the best system results.</p>
+<p>In the third case, the anti-windup control has been established with a maximum error of 10 degrees, which is clearly insufficient. In this case there is no overshoot because the integral action enters too late to correct the permanent error. The problem that this low value can present is that the error remains above the anti-windup limit and is not corrected at any time, or that the error reduction is carried out too slowly.</p>
+</div>
+<div class="section" id="ruido-en-la-realimentacion">
+<h2>Feedback noise<a class="headerlink" href="#ruido-en-la-realimentacion" title="Permalink to this headline">¶</a></h2>
+<p>There are several sources of noise that disturb the feedback signal h(t). The most important ones are presented below.</p>
+</div>
+<div class="section" id="ruido-en-el-sensor-y-muestreo">
+<h2>Sensor noise and sampling<a class="headerlink" href="#ruido-en-el-sensor-y-muestreo" title="Permalink to this headline">¶</a></h2>
+<p>The first source of noise is the sensor itself which can give an output with added noise of various frequencies. This noise is difficult to filter out, so whenever possible it should be kept to a minimum.</p>
+<p>Sensor noise enters the digital system through the analog-to-digital converter. According to <strong>Nyquist's theorem</strong>, the maximum frequency that a digital sampling system can measure is equal to half the sampling frequency. This imposes an upper limit on the frequencies that can be sampled with fidelity.</p>
+<p>So what happens to frequencies greater than this limit? Those frequencies are translated into lower frequencies. This means that high frequency noise will be seen within the microcontroller as a lower frequency signal. This effect can be well appreciated in the following image:</p>
+<a class="reference internal image-reference" href="_images/img-0075.png"><img alt="Muestreo a frecuencia inferior de la necesaria. Teorema de Nyquist." class="align-center" src="_images/img-0075.png" style="width: 480px;"></a>
+<p>The original signal appears in red, with a frequency of 3 cycles per interval. The minimum sampling frequency should be 6 samples per interval.</p>
+<p>The black points are the samples that have been taken from the original signal, with a frequency of 5 samples per interval, less than the minimum necessary frequency.</p>
+<p>When the black dots are joined together, the signal that the controller thinks it has sampled appears. As a result the digital system will see a lower frequency than the real signal has.</p>
+<p>To avoid this effect it is convenient to limit the high frequency noise in the analog signal by means of a careful design, choosing a suitable sensor and using an analog filter when necessary.</p>
+<p>Digital filters will only be able to act effectively on frequencies below half the sample rate.</p>
+</div>
+<div class="section" id="ruido-de-cuantificacion">
+<h2>Quantization noise<a class="headerlink" href="#ruido-de-cuantificacion" title="Permalink to this headline">¶</a></h2>
+<p>This noise is produced by the analog-to-digital converter and comes from rounding the actual analog value to the nearest digital value since the digital value has a finite number of possible values. This error can be calculated from the number of bits of the analog-digital converter and its measurement range.</p>
+<blockquote>
+<div><strong>Quantization noise = voltage_range / 2^(adc_bits)</strong></div></blockquote>
+<p>In the following image you can see the representation of the quantization noise:</p>
+<a class="reference internal image-reference" href="_images/img-0076.png"><img alt="Ruido de cuantificación de un conversor ADC (analógico a digital)" class="align-center" src="_images/img-0076.png" style="width: 480px;"></a>
+<p>For a typical microcontroller with 10-bit resolution and a measurement range of 0 to 5 volts, the noise or quantization error is 5V / 2^(10) = 5V / 1024 = 4.9 millivolts.</p>
+<p>This value can also be converted to plant output measurement units based on sensor sensitivity. Let's see the example of a temperature sensor that provides an output with a sensitivity of 10 mV/ºC.</p>
+<blockquote>
+<div><p><strong>Quantization noise = range_voltage / (2^(bits_adc) * sensitivity)</strong></p>
+<p><strong>Quantization noise = 5V / (1024 * 0.010V/ºC) = 0.49 ºC</strong></p>
+</div></blockquote>
+<p>Quantization noise negatively affects the response of the regulator, producing jumps in the control signal that worsen the behavior of the plant.</p>
+<p>This noise also affects the maximum precision that the controller can achieve. In the example above, the controller will not be able to achieve temperature control with an accuracy better than 0.49 degrees Celsius.</p>
+</div>
+<div class="section" id="referencias">
+<h2>References<a class="headerlink" href="#referencias" title="Permalink to this headline">¶</a></h2>
+<p>[1] Ogata, Katsuhiko. Control systems in discrete time. Second edition. Prentice Hall Publisher.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="control-actuator-servomotor.html" class="btn btn-neutral float-right" title="Servomotor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="control-ziegler-nichols.html" class="btn btn-neutral" title="Ziegler–Nichols method" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/control-pid-digital.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="control-index.html">Automatic control</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="control-auto.html">Automatic control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-pid.html">PID controller</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-ziegler-nichols.html">Ziegler–Nichols method</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Digital PID controller</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-actuator-servomotor.html">Servomotor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-sensor-index.html">Sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-robots-index.html">Current robots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control-recursos.html">Resources for control and robotics</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

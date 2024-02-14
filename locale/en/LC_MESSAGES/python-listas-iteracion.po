@@ -1,0 +1,170 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-07-26 11:40+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/python-listas-iteracion.rst:10
+msgid "Iteración de listas"
+msgstr "list iteration"
+#: ../../source/python-listas-iteracion.rst:11
+msgid ""
+"Iterar una lista significa recorrer cada uno de los elementos de la lista "
+"uno a uno para realizar alguna acción con cada elemento. Esta técnica "
+"permite manipular datos de manera repetitiva sin tener que escribir el "
+"código varias veces."
+msgstr ""
+"Iterating a list means going through each of the elements in the list one by"
+" one to perform some action on each element. This technique allows you to "
+"manipulate data repetitively without having to write the code multiple "
+"times."
+#: ../../source/python-listas-iteracion.rst:16
+msgid "Las listas se pueden iterar con un bucle ``for``."
+msgstr "Lists can be iterated with a ``for`` loop."
+#: ../../source/python-listas-iteracion.rst:18
+#: ../../source/python-listas-iteracion.rst:80
+msgid "Ejemplo::"
+msgstr "Example::"
+#: ../../source/python-listas-iteracion.rst:24
+#: ../../source/python-listas-iteracion.rst:147
+#: ../../source/python-listas-iteracion.rst:154
+#: ../../source/python-listas-iteracion.rst:160
+msgid "Salida::"
+msgstr "Exit::"
+#: ../../source/python-listas-iteracion.rst:33
+msgid "Función ``len()``"
+msgstr "``len()`` function"
+#: ../../source/python-listas-iteracion.rst:34
+msgid ""
+"La función ``len()`` devuelve el número de elementos que contiene una lista."
+" Es útil para realizar iteraciones con el **índice** en el que se encuentra "
+"cada elemento::"
+msgstr ""
+"The ``len()`` function returns the number of elements that a list contains. "
+"This is useful for iterating over the **index** that each element is at::"
+#: ../../source/python-listas-iteracion.rst:61
+msgid "Función ``list()``"
+msgstr "``list()`` function"
+#: ../../source/python-listas-iteracion.rst:62
+msgid ""
+"La función ``list()`` permite crear una lista a partir de varios elementos o"
+" convertir un iterable como ``range()`` en una lista::"
+msgstr ""
+"The ``list()`` function allows you to create a list from multiple elements "
+"or convert an iterable like ``range()`` to a list::"
+#: ../../source/python-listas-iteracion.rst:76
+msgid "Comprensión de listas"
+msgstr "list comprehension"
+#: ../../source/python-listas-iteracion.rst:77
+msgid ""
+"La comprensión de listas es un método escueto y rápido de generar listas. "
+"Utiliza el bucle ``for`` dentro de dos corchetes ``[ ]``"
+msgstr ""
+"List comprehension is a short and fast method of generating lists. Use the "
+"``for`` loop inside two ``[ ]`` brackets"
+#: ../../source/python-listas-iteracion.rst:85
+msgid "Es equivalente a este otro código, más lento y largo de escribir::"
+msgstr "It is equivalent to this other code, slower and longer to write::"
+#: ../../source/python-listas-iteracion.rst:93
+msgid "Ejercicios"
+msgstr "Exercises"
+#: ../../source/python-listas-iteracion.rst:95
+msgid ""
+"Escribe un programa que defina una lista de nombres y a continuación imprima"
+" en pantalla el nombre y la letra por la que comienza con el siguiente "
+"formato::"
+msgstr ""
+"Write a program that defines a list of names and then prints the name and "
+"the letter it starts with on the screen in the following format:"
+#: ../../source/python-listas-iteracion.rst:105
+msgid ""
+"Escribe un programa que pida una frase por la entrada de teclado. El "
+"programa debe convertir la frase en una lista de caracteres."
+msgstr ""
+"Write a program that requests a phrase for keyboard input. The program must "
+"convert the phrase to a list of characters."
+#: ../../source/python-listas-iteracion.rst:108
+msgid ""
+"A continuación el programa debe imprimir la frase al revés, comenzando por "
+"la última letra y terminando por la primera letra."
+msgstr ""
+"The program should then print the sentence backwards, starting with the last"
+" letter and ending with the first letter."
+#: ../../source/python-listas-iteracion.rst:111
+msgid ""
+"Pista: para ir desde el final hasta el principio se puede utilizar un índice"
+" con la función ``range(len(lista), -1, -1)``."
+msgstr ""
+"Hint: To go from end to beginning, you can use an index with the "
+"``range(len(list), -1, -1)`` function."
+#: ../../source/python-listas-iteracion.rst:115
+msgid ""
+"Escribe un programa que genere una lista de los números impares hasta el 99."
+" El programa debe sumar todos los números de la lista e imprimir el "
+"resultado, que debe ser igual a 2500."
+msgstr ""
+"Write a program that generates a list of odd numbers up to 99. The program "
+"should add all the numbers in the list and print the result, which should "
+"equal 2500."
+#: ../../source/python-listas-iteracion.rst:120
+msgid "Escribe un programa que defina la siguiente lista de elementos::"
+msgstr "Write a program that defines the following list of elements:"
+#: ../../source/python-listas-iteracion.rst:124
+msgid ""
+"El programa debe generar una nueva lista que contenga todos los elementos de"
+" la primera excepto los que están duplicados::"
+msgstr ""
+"The program should generate a new list that contains all the elements of the"
+" first one except those that are duplicates::"
+#: ../../source/python-listas-iteracion.rst:129
+msgid ""
+"Pista: recorre todos los elementos de la lista_1 y si no están en la "
+"lista_2, los añades a la lista_2."
+msgstr ""
+"Hint: loop through all the elements in list_1 and if they are not in list_2,"
+" add them to list_2."
+#: ../../source/python-listas-iteracion.rst:133
+msgid ""
+"Escribe un programa que lea una frase desde el teclado y la cifre con el "
+"siguiente algoritmo."
+msgstr ""
+"Write a program that reads a sentence from the keyboard and encrypts it with"
+" the following algorithm."
+#: ../../source/python-listas-iteracion.rst:136
+msgid ""
+"El programa debe dividir la frase en letras con la función ``list(frase)``."
+msgstr ""
+"The program must split the phrase into letters with the ``list(phrase)`` "
+"function."
+#: ../../source/python-listas-iteracion.rst:139
+msgid ""
+"A continuación el programa debe generar una nueva lista con las letras con "
+"índice par."
+msgstr ""
+"Next the program should generate a new list with the letters with even "
+"index."
+#: ../../source/python-listas-iteracion.rst:142
+msgid ""
+"A esa nueva lista se deben añadir al final las letras con índice impar."
+msgstr "The letters with odd index must be added to this new list at the end."
+#: ../../source/python-listas-iteracion.rst:144
+msgid "Por último se imprimirán todas las letras de la nueva lista juntas."
+msgstr "Finally all the letters of the new list will be printed together."
+#: ../../source/python-listas-iteracion.rst:167
+msgid ""
+"Escribe un programa que descifre el código producido por el anterior "
+"programa."
+msgstr "Write a program that breaks the code produced by the above program."
+#: ../../source/python-listas-iteracion.rst:170
+msgid "Pista::"
+msgstr "Clue::"

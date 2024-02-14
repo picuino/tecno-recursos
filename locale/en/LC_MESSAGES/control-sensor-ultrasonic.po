@@ -1,0 +1,368 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-17 20:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/control-sensor-ultrasonic.rst:9
+msgid "Sensor de distancia por ultrasonidos"
+msgstr "Ultrasonic distance sensor"
+
+#: ../../source/control-sensor-ultrasonic.rst:18
+msgid "Objetivos"
+msgstr "Goals"
+
+#: ../../source/control-sensor-ultrasonic.rst:19
+msgid "Comprender el funcionamiento del sensor de distancia por ultrasonidos."
+msgstr "Understand the operation of the ultrasonic distance sensor."
+
+#: ../../source/control-sensor-ultrasonic.rst:21
+msgid "Medir distancias con un sensor de distancia por ultrasonidos."
+msgstr "Measure distances with an ultrasonic distance sensor."
+
+#: ../../source/control-sensor-ultrasonic.rst:25
+msgid "El sensor de ultrasonidos"
+msgstr "Ultrasonic sensor"
+
+#: ../../source/control-sensor-ultrasonic.rst:26
+msgid ""
+"Este sensor tiene un pequeño altavoz que emite un pitido y un micrófono "
+"sensor que detecta el pitido emitido. El dispositivo calcula el tiempo "
+"que el sonido tarda en ir hasta un objeto y volver reflejado. La "
+"distancia desde el sensor hasta el objeto se calcula a partir de la "
+"velocidad del sonido en el aire y del tiempo que tarda el sonido en "
+"recorrer esa distancia."
+msgstr ""
+"This sensor has a small speaker that beeps and a sensor microphone that "
+"detects the beep. The device calculates the time it takes for sound to "
+"travel to an object and return reflected. The distance from the sensor to"
+" the object is calculated from the speed of sound in air and the time it "
+"takes for sound to travel that distance."
+
+#: ../../source/control-sensor-ultrasonic.rst:34
+msgid ""
+"El pitido emitido tiene una frecuencia de 40kHz. Esta frecuencia se "
+"encuentra muy por encima de 20kHz, que es la máxima frecuencia que los "
+"humanos pueden percibir. Por esta razón a este sonido de elevada "
+"frecuencia se le denomina ultrasonido."
+msgstr ""
+"The emitted beep has a frequency of 40kHz. This frequency is well above "
+"20kHz, which is the highest frequency that humans can perceive. For this "
+"reason, this high frequency sound is called ultrasound."
+
+#: ../../source/control-sensor-ultrasonic.rst:39
+msgid ""
+"Existen varios modelos de sensor en el mercado, los más conocidos y "
+"asequibles son el modelo SR04 y la versión más avanzada SRF05. En este "
+"tutorial se explica el modelo SR04. La explicación es válida para modelos"
+" más avanzados, teniendo en cuenta que estos tienen mayor capacidad o "
+"características añadidas."
+msgstr ""
+"There are several sensor models on the market, the best known and most "
+"affordable are the SR04 model and the more advanced version SRF05. In "
+"this tutorial the SR04 model is explained. The explanation is valid for "
+"more advanced models, taking into account that these have greater "
+"capacity or added features."
+
+#: ../../source/control-sensor-ultrasonic.rst:47
+msgid "Características del sensor SR04"
+msgstr "SR04 Sensor Characteristics"
+
+#: ../../source/control-sensor-ultrasonic.rst:48
+msgid "Este sensor de ultrasonidos tiene las siguientes características:"
+msgstr "This ultrasonic sensor has the following characteristics:"
+
+#: ../../source/control-sensor-ultrasonic.rst:50
+msgid "Distancia de detección: 2cm - 400cm"
+msgstr "Sensing distance: 2cm - 400cm"
+
+#: ../../source/control-sensor-ultrasonic.rst:51
+msgid "Resolución: 0,3cm"
+msgstr "Resolution: 0.3cm"
+
+#: ../../source/control-sensor-ultrasonic.rst:52
+msgid "Frecuencia de sonido: 40kHz"
+msgstr "Sound frequency: 40kHz"
+
+#: ../../source/control-sensor-ultrasonic.rst:53
+msgid "Ángulo eficaz: 15º"
+msgstr "Effective angle: 15º"
+
+#: ../../source/control-sensor-ultrasonic.rst:54
+msgid "Tensión de alimentación: 5V"
+msgstr "Supply voltage: 5V"
+
+#: ../../source/control-sensor-ultrasonic.rst:55
+msgid "Consumo de corriente: 15mA"
+msgstr "Current Consumption: 15mA"
+
+#: ../../source/control-sensor-ultrasonic.rst:59
+msgid "Librería para sensores de ultrasonidos"
+msgstr "Library for ultrasonic sensors"
+
+#: ../../source/control-sensor-ultrasonic.rst:60
+msgid ""
+"Para manejar los sensores de ultrasonidos existen varias librerías de "
+"trabajo. La librería estándar más precisa que se puede utilizar es "
+"`NewPing <https://playground.arduino.cc/Code/NewPing>`_. Para instalar la"
+" librería hay que seguir los siguientes pasos:"
+msgstr ""
+"To handle ultrasonic sensors there are several working libraries. The most "
+"accurate standard library that can be used is `NewPing "
+"<https://playground.arduino.cc/Code/NewPing>`_. To install the library, "
+"follow these steps:"
+
+#: ../../source/control-sensor-ultrasonic.rst:66
+msgid "Descargar la librería"
+msgstr "Download the library"
+
+#: ../../source/control-sensor-ultrasonic.rst:67
+msgid "Guardar el fichero NewPing_v1.9.4.zip en el ordenador"
+msgstr "Save the file NewPing_v1.9.4.zip on the computer"
+
+#: ../../source/control-sensor-ultrasonic.rst:68
+msgid "Abrir el entorno gráfico de Arduino"
+msgstr "Open the Arduino graphical environment"
+
+#: ../../source/control-sensor-ultrasonic.rst:69
+msgid "En la pestaña Sketch.. Importar librería.. pinchar 'Add Library...'"
+msgstr "In the Sketch tab.. Import library.. click 'Add Library...'"
+
+#: ../../source/control-sensor-ultrasonic.rst:70
+msgid "Buscar el fichero descargado y después de seleccionarle, pulsar 'Abrir'"
+msgstr "Find the downloaded file and after selecting it, press 'Open'"
+
+#: ../../source/control-sensor-ultrasonic.rst:72
+msgid ""
+"Comprobar que en la pestaña Sketch.. Importar librería.. aparece una "
+"nueva librería llamada NewPing"
+msgstr ""
+"Check that in the Sketch tab.. Import library.. a new library called "
+"NewPing appears"
+
+#: ../../source/control-sensor-ultrasonic.rst:75
+msgid "Con estos pasos la librería estará correctamente instalada."
+msgstr "With these steps the library will be correctly installed."
+
+#: ../../source/control-sensor-ultrasonic.rst:79
+msgid "Medición de distancias"
+msgstr "Distance measurement"
+
+#: ../../source/control-sensor-ultrasonic.rst:80
+msgid "Para medir distancias con el sensor SR04 se seguirán los siguientes pasos:"
+msgstr ""
+"To measure distances with the SR04 sensor, the following steps will be "
+"followed:"
+
+#: ../../source/control-sensor-ultrasonic.rst:83
+msgid "Conectar el sensor SR04 a la placa Arduino según el siguiente esquema:"
+msgstr ""
+"Connect the SR04 sensor to the Arduino board according to the following "
+"scheme:"
+
+#: ../../source/control-sensor-ultrasonic.rst:91
+msgid ""
+"Copiar el siguiente programa, compilarlo y descargarlo en la placa "
+"Arduino."
+msgstr ""
+"Copy the following program, compile it and download it to the Arduino "
+"board."
+
+#: ../../source/control-sensor-ultrasonic.rst:132
+msgid ""
+"Abrir el monitor serie (Monitor Serial) pulsando el icono que aparece "
+"arriba a la derecha en el entorno gráfico de Arduino."
+msgstr ""
+"Open the serial monitor (Serial Monitor) by clicking the icon that "
+"appears at the top right in the Arduino graphical environment."
+
+#: ../../source/control-sensor-ultrasonic.rst:140
+msgid ""
+"En la nueva ventana que aparece, escoger la velocidad de transmisión en "
+"el recuadro que aparece abajo a la derecha. En este caso, la velocidad "
+"programada es de 115200 baudios."
+msgstr ""
+"In the new window that appears, choose the transmission speed in the box "
+"that appears at the bottom right. In this case, the programmed speed is "
+"115200 bauds."
+
+#: ../../source/control-sensor-ultrasonic.rst:144
+msgid "El cuadro debe mostrar continuamente la información de tiempo y distancia."
+msgstr "The chart should continuously display time and distance information."
+
+#: ../../source/control-sensor-ultrasonic.rst:152
+msgid ""
+"En este momento, si todo ha ido bien, Arduino estará midiendo "
+"continuamente la distancia entre el sensor y los objetos que se coloquen "
+"delante de él. Esta distancia se envía al ordenador mediante el puerto "
+"serie (por el cable USB) para visualizarlo en pantalla."
+msgstr ""
+"At this point, if all went well, the Arduino will be continuously "
+"measuring the distance between the sensor and the objects placed in front"
+" of it. This distance is sent to the computer through the serial port "
+"(through the USB cable) to display it on the screen."
+
+#: ../../source/control-sensor-ultrasonic.rst:159
+msgid "Ajuste del sensor"
+msgstr "Sensor adjustment"
+
+#: ../../source/control-sensor-ultrasonic.rst:160
+msgid ""
+"El ajuste del sensor permite que las mediciones sean más exactas. Para "
+"conseguir ajustar el sensor es necesario corregir múltiples parámetros "
+"que pueden influir en la medida. La velocidad del sonido en el aire, la "
+"presión atmosférica, la velocidad del cronómetro interno del sensor, etc."
+" Para evitar la complejidad de ajustar uno por uno todos estos "
+"parámetros, se va a realizar un ajuste denominado ajuste de dos puntos."
+msgstr ""
+"Sensor adjustment allows measurements to be more accurate. In order to "
+"adjust the sensor, it is necessary to correct multiple parameters that "
+"can influence the measurement. The speed of sound in air, atmospheric "
+"pressure, the speed of the sensor's internal timer, etc. To avoid the "
+"complexity of adjusting all these parameters one by one, an adjustment "
+"called two-point adjustment is going to be carried out."
+
+#: ../../source/control-sensor-ultrasonic.rst:168
+msgid ""
+"Primero se debe realizar una medida a una distancia conocida, cercana al "
+"sensor. Después se debe realizar otra medición a una distancia conocida, "
+"más lejana al sensor."
+msgstr ""
+"First, a measurement must be made at a known distance, close to the "
+"sensor. Then another measurement must be made at a known distance, "
+"further from the sensor."
+
+#: ../../source/control-sensor-ultrasonic.rst:172
+msgid ""
+"La primera medición puede corregir lo que se denomina ajuste de cero. La "
+"segunda medida sirve para realizar el ajuste de rampa. Las medidas se "
+"deben introducir en una tabla como la siguiente:"
+msgstr ""
+"The first measurement can correct what is called a zero adjustment. The "
+"second measurement is used to perform the ramp adjustment. The "
+"measurements must be entered in a table such as the following:"
+
+#: ../../source/control-sensor-ultrasonic.rst:176
+msgid "Tabla 1."
+msgstr "Table 1."
+
+#: ../../source/control-sensor-ultrasonic.rst:179
+msgid "Medida"
+msgstr "Extent"
+
+#: ../../source/control-sensor-ultrasonic.rst:180
+msgid "Tiempo"
+msgstr "Time"
+
+#: ../../source/control-sensor-ultrasonic.rst:181
+msgid "Distancia"
+msgstr "Distance"
+
+#: ../../source/control-sensor-ultrasonic.rst:182
+msgid "Medida 1"
+msgstr "Measure 1"
+
+#: ../../source/control-sensor-ultrasonic.rst:183
+msgid "247us"
+msgstr "247us"
+
+#: ../../source/control-sensor-ultrasonic.rst:184
+msgid "50mm"
+msgstr "50mm"
+
+#: ../../source/control-sensor-ultrasonic.rst:185
+msgid "Medida 2"
+msgstr "Measure 2"
+
+#: ../../source/control-sensor-ultrasonic.rst:186
+msgid "1123 us"
+msgstr "1123us"
+
+#: ../../source/control-sensor-ultrasonic.rst:187
+msgid "200mm"
+msgstr "200mm"
+
+#: ../../source/control-sensor-ultrasonic.rst:190
+msgid ""
+"A partir de esta tabla, se puede realizar un mejor ajuste de la medida "
+"con la orden `map() "
+"<https://www.arduino.cc/reference/en/language/functions/math/map/>`_ de "
+"Arduino:"
+msgstr ""
+"From this table, a better fit of the measurement can be made with the "
+"Arduino command `map() "
+"<https://www.Arduino.cc/reference/en/language/functions/math/map/>`_ :"
+
+#: ../../source/control-sensor-ultrasonic.rst:195
+msgid "distance = map(microseconds, 247, 1123, 50, 200);"
+msgstr "distance = map(microseconds, 247, 1123, 50, 200);"
+
+#: ../../source/control-sensor-ultrasonic.rst:197
+msgid ""
+"El primer argumento es la medición de tiempo realizada por el sensor. Los"
+" dos siguientes argumentos son los tiempos de rebote al objeto cercano y "
+"lejano. Los dos siguientes argumentos son las distancias del objeto "
+"cercano y lejano."
+msgstr ""
+"The first argument is the time measurement performed by the sensor. The "
+"next two arguments are the bounce times to the near and far object. The "
+"next two arguments are the distances of the near and far object."
+
+#: ../../source/control-sensor-ultrasonic.rst:203
+msgid "El programa modificado es el siguiente."
+msgstr "The modified program is as follows."
+
+#: ../../source/control-sensor-ultrasonic.rst:251
+msgid "Ejercicios"
+msgstr "Exercises"
+
+#: ../../source/control-sensor-ultrasonic.rst:252
+msgid ""
+"Realizar las mediciones para ajuste de dos puntos con un sensor concreto."
+" Modificar el :ref:`programa anterior <ultrasonic-prog2>` para conseguir "
+"que el sensor devuelva medidas exactas con mediciones propias."
+msgstr ""
+"Perform measurements for two-point adjustment with a specific sensor. "
+"Modify the :ref:`previous program <ultrasonic-prog2>` to get the sensor "
+"to return exact measurements with its own measurements."
+
+#: ../../source/control-sensor-ultrasonic.rst:258
+msgid ""
+"Cada sensor dará unos valores diferentes para los 4 números de la tabla "
+"1, dependiendo de la altitud a la que nos encontremos, la temperatura y "
+"otros parámetros del sensor."
+msgstr ""
+"Each sensor will give different values ​​for the 4 numbers in table 1, "
+"depending on the altitude at which we are, the temperature and other "
+"sensor parameters."
+
+#: ../../source/control-sensor-ultrasonic.rst:262
+msgid ""
+"Mostrar la distancia medida en el display de 7 segmentos con el siguiente"
+" programa."
+msgstr ""
+"Show the measured distance on the 7-segment display with the following "
+"program."
+
+#: ../../source/control-sensor-ultrasonic.rst:301
+msgid ""
+"Encender una barra de leds que represente la distancia de un objeto al "
+"sensor de ultrasonidos. Completar el programa para que la barra ocupe 6 "
+"leds."
+msgstr ""
+"Turn on a bar of LEDs that represents the distance of an object from the "
+"ultrasonic sensor. Complete the program so that the bar occupies 6 leds."
+

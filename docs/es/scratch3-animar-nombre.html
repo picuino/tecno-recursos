@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Programación - Tutorial de Scratch 3 - 5. Animar nombre">
+  <title>5. Animar nombre - Tutorial de Scratch 3 - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/scratch3-animar-nombre.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Índice" href="content.html">
+  <link rel="search" title="Búsqueda" href="search.html">
+  <link rel="next" title="6. Comer peces" href="scratch3-comer-peces.html">
+  <link rel="prev" title="4. Pasear escenarios" href="scratch3-pasear-escenarios.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="prog-index.html">Programación</a>/</li>
+        
+          <li><a href="scratch3-index.html">Tutorial de Scratch 3</a>/</li>
+        
+      <li><span class="section-number">5. </span>Animar nombre</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/scratch3-animar-nombre.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="animar-nombre">
+<span id="scratch3-animar-nombre"></span><h1><span class="section-number">5. </span>Animar nombre<a class="headerlink" href="#animar-nombre" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En esta práctica vamos a mostrar en pantalla un nombre
+con efectos especiales en sus letras. Cuando el ratón
+pase sobre cada letra, esta mostrará un efecto especial.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p04-nombre-animado.png"><img alt="_images/scratch3-p04-nombre-animado.png" src="_images/scratch3-p04-nombre-animado.png" style="width: 360px;"></a>
+<p><br /></p>
+<ol class="arabic">
+<li><p class="first">Iniciamos el <a href="https://scratch.mit.edu/projects/editor"
+target="_blank">editor de Scratch</a>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Pulsamos el botón idioma <img alt="boton-idioma" class="align-middle" src="_images/scratch3-boton-idioma.png"> en la barra
+superior y elegimos <strong>Español</strong>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Pulsamos el botón de tutoriales <img alt="boton-tutoriales" class="align-middle" src="_images/scratch3-boton-tutoriales.png"> y
+luego el botón de &quot;Animación&quot;.</p>
+<p>Seleccionamos el tutorial &quot;Animar un nombre&quot; y lo visualizamos.</p>
+<p>En este tutorial veremos el funcionamiento básico del programa.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Borramos el objeto gato presionando sobre el icono del
+cubo de basura.</p>
+<p><img alt="borrar-gato" class="align-middle" src="_images/scratch3-borrar-gato.png"></p>
+<p><br /></p>
+</li>
+<li><p class="first">Después vamos a seleccionar un fondo para nuestro nombre.
+En el botón seleccionar fondo <img alt="seleccionar-fondo" class="align-middle" src="_images/scratch3-seleccionar-fondo.png"> escogemos
+el que más nos guste.</p>
+</li>
+<li><p class="first">A continuación vamos a seleccionar varias letras con nuestro
+nombre pulsando seleccionar objeto <img alt="seleccionar-objeto" class="align-middle" src="_images/scratch3-seleccionar-objeto.png">
+y luego en la pestaña &quot;letras&quot; escogemos las letras
+adecuadas con el estilo que deseemos.</p>
+<p>Por último arrastramos las letras en la pantalla con el ratón
+y las colocamos en orden para formar un nombre.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Ahora vamos a programar las letras para que tengan efectos
+especiales. Al hacer clic con el ratón sobre la primera letra,
+emitirá un sonido y cambiará de color mientras gira una
+vuelta completa.</p>
+<p>Primero seleccionamos la <strong>primera letra</strong> y pinchamos en la
+pestaña de sonidos <img alt="pestania-sonidos" class="align-middle" src="_images/scratch3-pestania-sonidos.png">.
+En el botón seleccionar sonido <img alt="seleccionar-sonido" class="align-middle" src="_images/scratch3-seleccionar-sonido.png"> escogemos
+uno que sea breve y nos guste.</p>
+<p>Después, en la pestaña de código <img alt="pestania-codigo" class="align-middle" src="_images/scratch3-pestania-codigo.png"> añadimos
+este programa.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p04-clic-color.png"><img alt="_images/scratch3-p04-clic-color.png" src="_images/scratch3-p04-clic-color.png" style="width: 250px;"></a>
+<p><br /></p>
+</li>
+<li><p class="first">Pulsamos la bandera verde <img alt="bandera-verde" class="align-middle" src="_images/scratch3-bandera-verde.png">
+para probar el funcionamiento del programa.</p>
+<p><br /></p>
+</li>
+<li><p class="first">En la <strong>segunda letra</strong> vamos a programar que al hacer clic
+sobre ella, aumentará de tamaño con el efecto de ojo
+de pez como si se estuviera inflando y luego volverá a su
+tamaño inicial.
+También añadiremos un nuevo sonido a los demás efectos.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p04-clic-inflarse.png"><img alt="_images/scratch3-p04-clic-inflarse.png" src="_images/scratch3-p04-clic-inflarse.png" style="width: 304px;"></a>
+<p><br /></p>
+</li>
+<li><p class="first">Pulsamos la bandera verde <img alt="bandera-verde" class="align-middle" src="_images/scratch3-bandera-verde.png">
+para probar el funcionamiento del programa.</p>
+<p><br /></p>
+</li>
+<li><p class="first">En la <strong>tercera letra</strong>, vamos a mostrar efectos siempre
+que el ratón pase por encima, sin necesidad de hacer clic.
+Esto se consigue con el sensor &quot;¿tocando puntero del ratón?&quot;.</p>
+<p>Al pasar el puntero sobre la letra vamos a hacer que cambie
+de color mientras gira.</p>
+<p>Un bucle &quot;por siempre&quot; estará comprobando todo el tiempo si en
+algún momento el ratón toca la letra y en ese momento se aplica
+el efecto especial.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p04-sobre-giro-color.png"><img alt="_images/scratch3-p04-sobre-giro-color.png" src="_images/scratch3-p04-sobre-giro-color.png" style="width: 412px;"></a>
+<p><br /></p>
+</li>
+<li><p class="first">Pulsamos la bandera verde <img alt="bandera-verde" class="align-middle" src="_images/scratch3-bandera-verde.png">
+para probar el funcionamiento del programa.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Por último vamos a programar la <strong>cuarta letra</strong> para que
+cambie su disfraz por una fruta cuando pase el ratón por
+encima.</p>
+<p>Primero debemos seleccionar la letra deseada e ir a la
+pestaña de disfraces <img alt="pestania-disfraces" class="align-middle" src="_images/scratch3-pestania-disfraces.png">, donde vamos a
+añadir el disfraz de una fruta.</p>
+<p>A continuación en la pestaña código <img alt="pestania-codigo" class="align-middle" src="_images/scratch3-pestania-codigo.png">
+añadimos el siguiente programa que intercambia los
+disfraces cuando el ratón pasa por encima.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p04-sobre-fruta.png"><img alt="_images/scratch3-p04-sobre-fruta.png" src="_images/scratch3-p04-sobre-fruta.png" style="width: 417px;"></a>
+<p><br /></p>
+</li>
+<li><p class="first">Pulsamos la bandera verde <img alt="bandera-verde" class="align-middle" src="_images/scratch3-bandera-verde.png">
+para probar el funcionamiento del programa.</p>
+</li>
+</ol>
+<hr class="docutils">
+<div class="section" id="retos">
+<h2>Retos<a class="headerlink" href="#retos" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Completa el nombre con más letras que tengan efectos
+especiales basados en los que se han visto en este tutorial.</p>
+<p>Recuerda que puedes aplicar efectos cuando el ratón</p>
+<ul class="simple">
+<li>Clic sobre la letra.</li>
+<li>Pasar por encima de la letra.</li>
+</ul>
+<p><br /></p>
+<p>Los efectos que se pueden aplicar son.</p>
+<ul class="simple">
+<li>De sonido.</li>
+<li>De tamaño.</li>
+<li>De movimiento o de giro.</li>
+<li>De efectos gráficos (color, ojo de pez, remolino, pixelar, etc.)</li>
+<li>Cambiar disfraz.</li>
+<li>Combinar <strong>varios efectos a la vez</strong>.</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="scratch3-comer-peces.html" class="btn btn-neutral float-right" title="6. Comer peces" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="scratch3-pasear-escenarios.html" class="btn btn-neutral" title="4. Pasear escenarios" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024 por Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en febrero, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../en/scratch3-animar-nombre.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricidad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programación</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Lenguajes de programación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-flowchart.html">Diagramas de flujo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-codeorg.html">Tutoriales Code</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="scratch3-index.html">Tutorial de Scratch 3</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="scratch3-dibujar-disfraces.html">1. Dibujar disfraces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-volar-personaje.html">2. Volar con un gato</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-jugar-futbol.html">3. Jugar al fútbol</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-pasear-escenarios.html">4. Pasear escenarios</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">5. Animar nombre</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-comer-peces.html">6. Comer peces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-atrapar-bichos.html">7. Atrapar bichos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-romper-ladrillos.html">8. Romper ladrillos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-atrapar-manzanas.html">9. Atrapar manzanas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-matar-marcianitos.html">10. Matar marcianitos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-dibujar-espirales.html">11. Dibujar espirales</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-dibujar-flores.html">12. Dibujar flores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-aterrizar-cohete.html">13. Aterrizar cohete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-recorrer-laberintos.html">14. Recorrer laberintos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-saltar-arboles.html">15. Saltar árboles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-retos-robotix.html">16. Retos de Robotix para Scratch</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python-index.html">Tutorial de Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-recursos.html">Recursos para programación</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

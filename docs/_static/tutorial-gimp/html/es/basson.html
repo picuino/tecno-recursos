@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Microunidades de GIMP (versión HTML)</title>
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #FFF;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.twoColElsLtHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	line-height: inherit;
+} 
+.twoColElsLtHdr #header { 
+	background: #DDDDDD; 
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColElsLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Be aware that if you set a font-size value on this div, the overall width of the div will be adjusted accordingly.
+2. Since we are working in ems, it's best not to use padding on the sidebar itself. It will be added to the width for standards compliant browsers creating an unknown actual width. 
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColElsLtHdr #sidebar1 p" rule.
+*/
+.twoColElsLtHdr #sidebar1 {
+	float: left; 
+	width: 12em; /* since this element is floated, a width must be given */
+	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div */
+}
+.twoColElsLtHdr #sidebar1 h3, .twoColElsLtHdr #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. If you give this #mainContent div a font-size value different than the #sidebar1 div, the margins of the #mainContent div will be based on its font-size and the width of the #sidebar1 div will be based on its font-size. You may wish to adjust the values of these divs.
+2. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+3. To avoid float drop, you may need to test to determine the approximate maximum image/element size since this layout is based on the user's font sizing combined with the values you set. However, if the user has their browser font size set lower than normal, less space will be available in the #mainContent div than you may see on testing.
+4. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs that may occur.
+*/
+.twoColElsLtHdr #mainContent {
+	margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+	line-height: 22px;
+	text-align: center;
+} 
+.twoColElsLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.twoColElsLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+body,td,th {
+	color: #4722DD;
+	font-size: 100%;
+	text-align: center;
+}
+encabezado {
+	font-size: 100px;
+}
+.twoColElsLtHdr #container #mainContent p em {
+	font-style: italic;
+	font-size: 9px;
+}
+textopequeño {
+	font-size: 9%;
+}
+textopequeño {
+	font-size: 9px;
+}
+tabla {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+}
+.tabla {
+	font-size: 10px;
+	text-align: center;
+}
+.tablaencabezado {
+	font-weight: bold;
+	font-size: 10px;
+}
+.twoColElsLtHdr #container #mainContent table {
+	text-align: center;
+	color: #CCCCCC;
+}
+.twoColElsLtHdr #container #mainContent table .tabla .tabla {
+	text-align: left;
+}
+.a {
+	text-align: justify;
+}
+--> 
+</style><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLtHdr #sidebar1 { padding-top: 30px; }
+.twoColElsLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]--></head>
+
+<body class="twoColElsLtHdr">
+
+<div id="container">
+  <div id="header">
+    <table width="100%" border="0">
+      <tr>
+        <td width="45%">&nbsp;</td>
+        <td width="15%" align="center" class="twoColElsLtHdr"><a href="../../docs/creditos_es.html" title="creditos" target="_blank">Créditos</a></td>
+        <td width="25%"><a href="../../docs/guiaes.pdf" title="guia didactica" target="_blank">Guía didáctica</a></td>
+        <td width="15%"><a href="../../axuda/es.html" title="axuda" target="_blank">Ayuda</a></td>
+      </tr>
+    </table>
+    <!-- end #header -->
+  </div>
+  <div id="sidebar1">
+    <table width="100%" border="0">
+      <tr>
+        <td align="center" valign="middle"><img src="../../iconos/Wilber-gimp.png" alt="wilber" width="100" height="100" border="0" usemap="#mapawilber" /></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="activ.html">Actividades</a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="que.html">¿Qué es GIMP?</a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="aplic.html">Aplicaciones</a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="por.html">¿Por qué GIMP?</a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="comp.html">Complementos</a></td>
+      </tr>
+    </table></div>
+  <div id="mainContent">
+    <h6>Haz clic sobre el nombre de la actividad <span class="a">para acceder a ella (se abrirá en una nueva ventana). Al lado de cada actividad tienes los enlaces para descargar las imágenes de trabajo. Si lo deseas, puedes descargar todas las imágenes juntas comprimidas en ZIP haciendo clic</span> <a href="../../almacen/fotos.zip">aquí</a>.</h6>
+    <table width="100%" border="0">
+      <tr class="tablaencabezado">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla">Actividad</td>
+        <td width="30%" bgcolor="#CCCCCC"><p>Descargar imagen/es</p></td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p01_es.htm" target="_blank">01: Primeros pasos con GIMP.</a></td>
+        <td width="30%" bgcolor="#CCCCCC">-</td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" height="25" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p02_es.htm" target="_blank">02: Formatos de imagen.</a></td>
+        <td width="30%" bgcolor="#CCCCCC"><a href="../../almacen/p02.jpg" target="_blank">p02.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p03_es.htm" target="_blank">03: Escalar una imagen.</a></td>
+        <td width="30%" bgcolor="#CCCCCC"><a href="../../almacen/p03.jpg" target="_blank">p03.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p04_es.htm" target="_blank">04: Recortar una imagen.</a></td>
+        <td width="30%" bgcolor="#CCCCCC"><a href="../../almacen/p03.jpg" target="_blank">p03.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p05_es.htm" target="_blank">05: Girar una imagen.</a></td>
+        <td width="30%" bgcolor="#CCCCCC">-</td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p06_es.htm" target="_blank">06: Foto quemada con flash.</a></td>
+        <td width="30%" bgcolor="#CCCCCC"><a href="../../almacen/p06.jpg" target="_blank">p06.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p07_es.htm" target="_blank">07: Saturación de imagen.</a></td>
+        <td width="30%" bgcolor="#CCCCCC"><a href="../../almacen/p07.jpg" target="_blank">p07.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p08_es.htm" target="_blank">08: Envejecer una imagen.</a></td>
+        <td width="30%" bgcolor="#CCCCCC"><a href="../../almacen/p08.jpg" target="_blank">p08.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p09_es.htm" target="_blank">09: Herramienta lápiz.</a></td>
+        <td width="30%" bgcolor="#CCCCCC">-</td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p10_es.htm" target="_blank">10: Herramienta brocha o pincel.</a></td>
+        <td width="30%" bgcolor="#CCCCCC">-</td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p11_es.htm" target="_blank">11: Herramienta aerógrafo.</a></td>
+        <td width="30%" bgcolor="#CCCCCC">-</td>
+      </tr>
+      <tr class="tabla">
+        <td width="70%" align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p12_es.htm" target="_blank">12: Goma de borrar.</a></td>
+        <td width="30%" bgcolor="#CCCCCC"><a href="../../almacen/p12.jpg" target="_blank">p12.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p13_es.htm" target="_blank">13: Bote de pintura.</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p13.jpg" target="_blank">p13.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p14_es.htm" target="_blank">14: Herramienta tinta.</a></td>
+        <td bgcolor="#CCCCCC">-</td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p15_es.htm" target="_blank">15: Herramientas enfoque-desenfoque ...</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p15.jpg" target="_blank">p15.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p16_es.htm" target="_blank">16: Capas. Introducción.</a></td>
+        <td bgcolor="#CCCCCC">-</td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p17_es.htm" target="_blank">17: Capas. Modos.</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p17_1.jpg" target="_blank">p17_1.jp</a> <a href="../../almacen/p17_2.jpg" target="_blank">p17_2.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p18_es.htm" target="_blank">18: Herramientas de selección. Introducción.</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p12.jpg" target="_blank">p12.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p19_es.htm" target="_blank">19: Herramientas de selección. Varita mágica.</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p07.jpg" target="_blank">p07.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p20_es.htm" target="_blank">20: Herramientas de selección. Selección por colores.</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p20.jpg" target="_blank">p20.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p21_es.htm" target="_blank">21: Herramientas de selección. Tijeras.</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p21.jpg" target="_blank">p21.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p22_es.htm" target="_blank">22: Máscara de selección rápida.</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p22.jpg" target="_blank">p22.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p23_es.htm" target="_blank">23: Conversión en boceto.</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p23.jpg" target="_blank">p23.jpg</a></td>
+      </tr>
+      <tr class="tabla">
+        <td align="left" bgcolor="#CCCCCC" class="tabla"><a href="../../actividades/es/son/p24_es.htm" target="_blank">24: Modificar perspectiva.</a></td>
+        <td bgcolor="#CCCCCC"><a href="../../almacen/p24.jpg" target="_blank">p24.jpg</a></td>
+      </tr>
+    </table>
+  </div>
+  <div id="footer">
+    <table width="76%" border="0" align="center">
+      <tr>
+        <td align="center"><img src="../../iconos/licenciacc.png" alt="licenciacc" width="59" height="20" border="0" usemap="#Mapcc" /></td>
+      </tr>
+    </table>
+    <h6><a href="../../docs/cc_gal.html"></a></h6>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+
+<map name="mapawilber" id="mapawilber">
+  <area shape="poly" coords="22,23,33,29,42,29,48,27,56,29,65,25,75,17,79,12,80,26,80,43,76,55,71,61,86,74,91,76,94,90,86,85,81,76,73,68,68,63,60,68,47,69,36,67,23,60,16,57,5,52,2,42,6,35,13,36,20,41,21,31,22,23" href="es.html" />
+</map>
+
+<map name="Mapcc" id="Mapcc">
+  <area shape="rect" coords="-4,-2,53,17" href="../../docs/cc_es.html" target="_blank" />
+</map>
+</body>
+</html>

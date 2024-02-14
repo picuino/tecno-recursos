@@ -1,0 +1,265 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-17 20:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/arduprog/ardublock-intro.rst:9
+msgid "Introducción a Ardublock"
+msgstr "Introduction to Ardublock"
+
+#: ../../source/arduprog/ardublock-intro.rst:11
+msgid ""
+"Ardublock es una herramienta para Arduino que permite programar con "
+"bloques gráficos. Está orientado a facilitar la programación a los "
+"usuarios sin experiencia previa, simplificando mucho la tarea de realizar"
+" programas con un sencillo entorno gráfico."
+msgstr ""
+"Ardublock is a tool for Arduino that allows programming with graphic "
+"blocks. It is oriented to make programming easier for users without "
+"previous experience, greatly simplifying the task of creating programs "
+"with a simple graphical environment."
+
+#: ../../source/arduprog/ardublock-intro.rst:21
+msgid ""
+"Es una herramienta del entorno de programación de Arduino y no puede "
+"funcionar separado de él."
+msgstr ""
+"It is a tool of the Arduino programming environment and cannot work apart"
+" from it."
+
+#: ../../source/arduprog/ardublock-intro.rst:24
+msgid ""
+"La versión que se suministra en esta página web es una versión modificada"
+" de Ardublock original, en la que se han simplificado los colores, los "
+"menús y el número de bloques con el objetivo de que sea más sencillo de "
+"utilizar."
+msgstr ""
+"The version provided on this web page is a modified version of the "
+"original Ardublock, in which the colors, menus and number of blocks have "
+"been simplified in order to make it easier to use."
+
+#: ../../source/arduprog/ardublock-intro.rst:31
+msgid "Instalación de Ardublock"
+msgstr "Ardublock installation"
+
+#: ../../source/arduprog/ardublock-intro.rst:32
+msgid ""
+"Para instalar la última versión de Ardublock-Picuino hay que seguir los "
+"siguentes pasos:"
+msgstr "To install the latest version of Ardublock-Picuino, follow these steps:"
+
+#: ../../source/arduprog/ardublock-intro.rst:35
+msgid ""
+"Descargar la :download:`herramienta Ardublock-Picuino <_downloads"
+"/ardublock-picuino.zip>`"
+msgstr ""
+"Download the :download:`Ardublock-Picuino tool <_downloads/ardublock-"
+"picuino.zip>`"
+
+#: ../../source/arduprog/ardublock-intro.rst:37
+#: ../../source/arduprog/ardublock-intro.rst:60
+msgid ""
+"Copiar el archivo en el directorio de Arduino. El directorio se puede "
+"encontrar en el entorno de Arduino, pulsando el menú:"
+msgstr ""
+"Copy the file to the Arduino directory. The directory can be found in the"
+" Arduino environment, by pressing the menu:"
+
+#: ../../source/arduprog/ardublock-intro.rst:41
+#: ../../source/arduprog/ardublock-intro.rst:64
+msgid "``Archivo... Preferencias... Localización del proyecto``."
+msgstr "``File... Preferences... Project location``."
+
+#: ../../source/arduprog/ardublock-intro.rst:42
+#: ../../source/arduprog/ardublock-intro.rst:65
+msgid "Descomprir el archivo en el directorio de Arduino."
+msgstr "Unzip the file in the Arduino directory."
+
+#: ../../source/arduprog/ardublock-intro.rst:43
+msgid ""
+"Cerrar y volver a abrir el entorno de Arduino. La nueva herramienta debe "
+"aparecer en el menú:"
+msgstr ""
+"Close and reopen the Arduino environment. The new tool should appear in "
+"the menu:"
+
+#: ../../source/arduprog/ardublock-intro.rst:46
+msgid "``Herramientas... Ardublock``"
+msgstr "``Tools... Ardublock``"
+
+#: ../../source/arduprog/ardublock-intro.rst:50
+msgid "Instalación de librerías auxiliares para Arduino"
+msgstr "Installation of auxiliary libraries for Arduino"
+
+#: ../../source/arduprog/ardublock-intro.rst:51
+msgid ""
+"Estas librerías permiten que la placa Arduino controle periféricos tales "
+"como un un panel visualizador LCD o emisores y receptores infrarrojos."
+msgstr ""
+"These libraries allow the Arduino board to control peripherals such as an"
+" LCD display panel or infrared emitters and receivers."
+
+#: ../../source/arduprog/ardublock-intro.rst:55
+msgid ""
+"Para **instalar todas las librerías a la vez**, hay que seguir los "
+"siguientes pasos:"
+msgstr "To **install all the libraries at once**, follow these steps:"
+
+#: ../../source/arduprog/ardublock-intro.rst:58
+msgid ""
+"Descargar el :download:`archivo con las librerías para Arduino "
+"<_downloads/arduino-libraries.zip>`"
+msgstr ""
+"Download the :download:` archive with the libraries for Arduino "
+"<_downloads/arduino-libraries.zip>`"
+
+#: ../../source/arduprog/ardublock-intro.rst:66
+msgid ""
+"Cerrar y volver a abrir el entorno de Arduino. Las nuevas librerías deben"
+" aparecer en el menú:"
+msgstr ""
+"Close and reopen the Arduino environment. The new libraries should appear"
+" in the menu:"
+
+#: ../../source/arduprog/ardublock-intro.rst:69
+msgid "``Programa... Incluir librería...``"
+msgstr "``Program... Include library...``"
+
+#: ../../source/arduprog/ardublock-intro.rst:71
+msgid ""
+"Para instalar librerías individuales utilizando el entorno Arduino, se "
+"puede leer el siguiente enlace sobre :ref:`cómo añadir una librería al "
+"entorno Arduino <add-library>`."
+msgstr ""
+"To install individual libraries using the Arduino environment, you can "
+"read the following link on :ref:`how to add a library to the Arduino "
+"environment <add-library>`."
+
+#: ../../source/arduprog/ardublock-intro.rst:77
+msgid "Manejo básico de Ardublock"
+msgstr "Basic management of Ardublock"
+
+#: ../../source/arduprog/ardublock-intro.rst:79
+msgid ""
+"**Abrir el entorno de Arduino:** para abrir ardublock es necesario "
+"primero tener abierto el entorno Arduino, pulsando en el siguiente icono."
+msgstr ""
+"**Open the Arduino environment:** to open ardublock it is necessary to "
+"first have the Arduino environment open, by clicking on the following "
+"icon."
+
+#: ../../source/arduprog/ardublock-intro.rst:86
+msgid ""
+"**Conectar el puerto correcto:** en el menú de herramientas... puerto... "
+"hay que seleccionar el puerto al que esté conectada la placa Arduino. "
+"Para más información ver :ref:`solución de problemas con Arduino "
+"<troubleshooting-arduino>`"
+msgstr ""
+"**Connect the correct port:** in the tools menu... port... you have to "
+"select the port to which the Arduino board is connected. For more "
+"information see :ref:`Arduino troubleshooting <troubleshooting-arduino>`"
+
+#: ../../source/arduprog/ardublock-intro.rst:92
+msgid ""
+"**Abrir Ardublock:** en el menú de herramientas del entorno de Arduino "
+"aparecerá la palabra Ardublock. Pulsando sobre ella, aparecerá el entorno"
+" sin ningún programa."
+msgstr ""
+"**Open Ardublock:** the word Ardublock will appear in the tools menu of "
+"the Arduino environment. By clicking on it, the environment will appear "
+"without any program."
+
+#: ../../source/arduprog/ardublock-intro.rst:97
+msgid ""
+"**Realizar el programa:** desplazando los bloques desde los menús de la "
+"izquierda hasta conectarlos con el bloque de programa."
+msgstr ""
+"**Run the program:** moving the blocks from the menus on the left to "
+"connect them with the program block."
+
+#: ../../source/arduprog/ardublock-intro.rst:101
+msgid ""
+"**Duplicar bloques:** pulsando sobre un bloque con el botón derecho del "
+"ratón, aparece la opción de 'Clonar' que duplica el bloque y todos los "
+"bloques que cuelgan por debajo."
+msgstr ""
+"**Duplicate blocks:** clicking on a block with the right mouse button, "
+"the 'Clone' option appears, which duplicates the block and all the blocks"
+" that hang below it."
+
+#: ../../source/arduprog/ardublock-intro.rst:106
+msgid ""
+"**Añadir comentarios:** pulsando sobre un bloque con el botón derecho del"
+" ratón, aparece la opción 'Añadir comentario' que permite escribir un "
+"texto que explique la función del bloque. El comentario se puede ocultar "
+"o mostrar pulsando el icono de interrogación '?' a la izquierda del "
+"bloque."
+msgstr ""
+"**Add comments:** by clicking on a block with the right mouse button, the"
+" 'Add comment' option appears, allowing you to write a text that explains"
+" the function of the block. The comment can be hidden or shown by "
+"clicking the question mark '?' to the left of the block."
+
+#: ../../source/arduprog/ardublock-intro.rst:113
+msgid ""
+"**Organizar los bloques:** pulsando sobre una zona vacía con el botón "
+"derecho del ratón, aparece la opción de 'Organizar todos los bloques'. "
+"pulsándola, todos los bloques se organizan de forma ordenada."
+msgstr ""
+"**Arrange the blocks:** by clicking on an empty area with the right mouse"
+" button, the option to 'Arrange all the blocks' appears. by pressing it, "
+"all the blocks are arranged in an orderly manner."
+
+#: ../../source/arduprog/ardublock-intro.rst:118
+msgid ""
+"**Borrar bloques no deseados:** desplazando los bloques hacia la "
+"izquierda en la zona de los menús, los bloques desaparecerán."
+msgstr ""
+"**Clear Unwanted Blocks:** By moving the blocks to the left in the menu "
+"area, the blocks will disappear."
+
+#: ../../source/arduprog/ardublock-intro.rst:123
+msgid ""
+"**Cargar el programa a Arduino:** pinchando el botón superior 'Cargar a "
+"Arduino' los bloques se transformarán en código que se cargará en la "
+"placa Arduino que esté conectada. Si es el primer programa que se carga, "
+"el entorno pedirá confirmación para guardar el programa. Hay que "
+"responder 'guardar'."
+msgstr ""
+"**Upload the program to Arduino:** by clicking the upper button 'Upload "
+"to Arduino' the blocks will be transformed into code that will be "
+"uploaded to the Arduino board that is connected. If it is the first "
+"program to be loaded, the environment will ask for confirmation to save "
+"the program. You have to answer 'save'."
+
+#: ../../source/arduprog/ardublock-intro.rst:129
+msgid ""
+"Este proceso no es inmediato, hay que esperar unos segundos hasta que "
+"termina."
+msgstr ""
+"This process is not immediate, you have to wait a few seconds until it "
+"ends."
+
+#: ../../source/arduprog/ardublock-intro.rst:132
+msgid ""
+"**Guardar el programa de Ardublock:** Pulsando el botón superior 'Guardar"
+" como' aparecerá un cuadro en el que escribir el nombre del programa y su"
+" localización."
+msgstr ""
+"**Save the Ardublock program:** Pressing the top button 'Save as' a box "
+"will appear in which to write the name of the program and its location."
+

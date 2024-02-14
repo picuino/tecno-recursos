@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="cilindrode" width=400 height=400
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="cilindrode">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=s&iacute; limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='s&iacute;' escala='25' O.x='20' despl_imagen='arr-izq' fondo='grisClaro' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='p1' tipo='num&eacute;rico' interfaz='men&uacute;' regi&oacute;n='norte' fijo='s&iacute;' nombre='P1' visible='no' opciones='0,1' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Presi&oacute;n en la c&aacute;mara posterior.\n0-&gt; Sin presi&oacute;n\n1-&gt; Con presi&oacute;n' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Presi&oacute;n en la c&aacute;mara posterior. 0-&gt; Sin presi&oacute;n 1-&gt; Con presi&oacute;n' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='p2' tipo='num&eacute;rico' interfaz='men&uacute;' regi&oacute;n='norte' fijo='s&iacute;' nombre='P2' visible='no' opciones='0,1' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Presi&oacute;n en la c&aacute;mara anterior. 0-&gt; Sin presi&oacute;n 1-&gt; Con presi&oacute;n' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Presi&oacute;n en la c&aacute;mara anterior. 0-&gt; Sin presi&oacute;n 1-&gt; Con presi&oacute;n' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='ap' tipo='num&eacute;rico' valor='4' fijo='s&iacute;' nombre='ap(cm)' incr='0.5' min='2' max='6' visible='s&iacute;' activo-si='t=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Di&aacute;metro  del &eacute;mbolo del pist&oacute;n en cm.' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Di&aacute;metro  del &eacute;mbolo del pist&oacute;n en cm.' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_03" value="id='cp' tipo='num&eacute;rico' valor='5' fijo='s&iacute;' nombre='cp(cm)' incr='0.25' min='5' max='6' visible='s&iacute;' activo-si='t=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Carreara del pist&oacute;n en cm.' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Carreara del pist&oacute;n en cm.' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_04" value="id='pc' tipo='num&eacute;rico' valor='1' fijo='s&iacute;' nombre='pc(bar)' incr='1' min='1' max='5' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Presi&oacute;n del circu&iacute;to en bar.' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Presi&oacute;n del circu&iacute;to en bar.' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_05" value="id='inf' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='info' visible='no' acci&oacute;n='mensaje' par&aacute;metro='Modifica el di&aacute;metro y la carrera del cilindro y comprueba c&oacute;mo cambia el aspecto del cilindro de doble efecto.\nIntroduce presi&oacute;n en las distintas c&aacute;maras y comprueba el efecto se que produce en el cilindro.' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_06" value="id='rec' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='recuerda' visible='no' acci&oacute;n='mensaje' par&aacute;metro='La fuerza ejercida por el cilindro en su salida depende de la superfie del &eacute;mbolo y de la presi&oacute;n del circuito:\nF=se*p' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_07" value="id='camb' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' fijo='s&iacute;' nombre='cambia' visible='s&iacute;' acci&oacute;n='calcular' par&aacute;metro='p1=(p1=0)?1:0
+\np2=(p2=0)?1:0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Cambia el estado de presiones en las c&aacute;maras' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Cambia el estado de presiones en las c&aacute;maras' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='x1' expresi&oacute;n='-5+g2'">
+   <param name="A_01" value="id='e' constante='s&iacute;' expresi&oacute;n='1' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='e3' evento='s&iacute;' condici&oacute;n='x1&lt;-5' acci&oacute;n='calcular' par&aacute;metro='t1=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="A_03" value="id='e4' evento='s&iacute;' condici&oacute;n='x1&gt;cp-8*e' acci&oacute;n='calcular' par&aacute;metro='t=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="A_04" value="id='bloq' constante='s&iacute;' expresi&oacute;n='0' evaluar='siempre'">
+   <param name="A_05" value="id='e4' evento='s&iacute;' condici&oacute;n='(p1=1)&amp;(p2=1)' acci&oacute;n='calcular' par&aacute;metro='bloq=1' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="A_06" value="id='s' constante='s&iacute;' expresi&oacute;n='3.1415*ap*ap/4' evaluar='siempre'">
+   <param name="A_07" value="id='f' constante='s&iacute;' expresi&oacute;n='pc*s' evaluar='siempre'">
+   <param name="A_08" value="id='s1' constante='s&iacute;' expresi&oacute;n='s-(3.1415*e*e/4)' evaluar='siempre'">
+   <param name="A_09" value="id='f1' constante='s&iacute;' expresi&oacute;n='pc*s1' evaluar='siempre'">
+   <param name="G_00" value="tipo='pol&iacute;gono' expresi&oacute;n='(x1,ap/2)(x1+e,ap/2)(x1+e,e/2)(x1+e+cp,e/2)(x1+e+cp,-e/2)(x1+e,-e/2)(x1+e,-ap/2)(x1,-ap/2)(x1,ap/2)' relleno='azul' ancho='2'">
+   <param name="G_01" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-6+e/4,-ap/2)(-6,-ap/2)(-6,ap/2)(-6+cp,ap/2)(-6+cp,e/2)(-6+cp+e,e/2)(-6+cp+e,e+ap/2)(-7,e+ap/2)(-7,-ap/2-e)(-6+e/4,-ap/2-e)(-6+e/4,-ap/2)' relleno='rojo' ancho='2'">
+   <param name="G_02" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-6+3*e/4,-ap/2)(-6+cp-3*e/4,-ap/2)(-6+cp-3*e/4,-ap/2-e)(-6+3*e/4,-ap/2-e)(-6+3*e/4,-ap/2)' relleno='rojo' ancho='2'">
+   <param name="G_03" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-6+cp,-e/2)(-6+cp+e,-e/2)(-6+cp+e,-ap/2-e)(-6+cp-e/4,-ap/2-e)(-6+cp-e/4,-ap/2)(-6+cp,-ap/2)(-6+cp,-e/2)' relleno='rojo' ancho='2'">
+   <param name="G_04" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-6+e/4,-ap/2)(-6+e/4,-ap/2-e-1)(-6+3*e/4,-ap/2-e-1)(-6+3*e/4,-ap/2)(-6+e/4,-ap/2)' ancho='2'">
+   <param name="G_05" value="tipo='pol&iacute;gono' color='turquesa' dibujar-si='p1=1' expresi&oacute;n='(x1,ap/2)(-6,ap/2)(-6,-ap/2)(-6+e/4,-ap/2)(-6+e/4,-ap/2-e-1)(-6+3*e/4,-ap/2-e-1)(-6+3*e/4,-ap/2)(x1,-ap/2)(x1,ap/2)' relleno='turquesa' ancho='0'">
+   <param name="G_06" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-6+cp-3*e/4,-ap/2)(-6+cp-e/4,-ap/2)(-6+cp-e/4,-ap/2-e-1)(-6+cp-3*e/4,-ap/2-e-1)(-6+cp-3*e/4,-ap/2)' ancho='2'">
+   <param name="G_07" value="tipo='pol&iacute;gono' color='turquesa' dibujar-si='p2=1' expresi&oacute;n='(x1+e,ap/2)(cp-6*e,ap/2)(cp-6*e,e/2)(x1+e,e/2)(x1+e,ap/2)' relleno='turquesa' ancho='0'">
+   <param name="G_08" value="tipo='pol&iacute;gono' color='turquesa' dibujar-si='p2=1' expresi&oacute;n='(-6+cp-3*e/4,-ap/2)(x1+e,-ap/2)(x1+e,-e/2)(cp-6*e,-e/2)(cp-6*e,-ap/2)(-6+cp-e/4,-ap/2)(-6+cp-e/4,-ap/2-e-1)(-6+cp-3*e/4,-ap/2-e-1)(-6+cp-3*e/4,-ap/2)' relleno='turquesa' ancho='0'">
+   <param name="G_09" value="tipo='flecha' color='grisObscuro' dibujar-si='(p1=1)&amp; (p2 = 0)' expresi&oacute;n='(x1+cp+e,0)(x1+cp+e+f/80,0)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Courier New;}\f1\fs28\b{\*\mjaformula{\expr f}} N\f2\fs24\b0\par}' fuente='Times New Roman,BOLD,14' fijo='s&iacute;' ancho='2' ancho='2' punta='4' flecha='magenta'">
+   <param name="G_10" value="tipo='flecha' color='grisObscuro' dibujar-si='(p1=0)&amp; (p2 = 1)' expresi&oacute;n='(x1+cp+e+f1/80,0)(x1+cp+e,0)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Courier New;}\f1\fs28\b{\*\mjaformula{\expr f1}} N\f2\fs24\b0\par}' fuente='Times New Roman,BOLD,14' fijo='s&iacute;' ancho='2' ancho='2' punta='4' flecha='verde'">
+   <param name="G_11" value="tipo='flecha' dibujar-si='p1=1' expresi&oacute;n='(-6+e/2,-ap/2-e-2)(-6+e/2,-ap/2-e-1)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='turquesa'">
+   <param name="G_12" value="tipo='flecha' dibujar-si='p2=1' expresi&oacute;n='(-6+cp-e/2,-ap/2-e-2)(-6+cp-e/2,-ap/2-e-1)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' flecha='turquesa'">
+   <param name="Animaci&oacute;n" value="pausa='30' controles='no' auto='no' inicio='t=0;t1=0;g2=0' hacer='g2=g2+t-t1;t=((p1=1)&amp;(bloq=0))?t+f/2000:0;t1=((p2=1)&amp;(bloq=0))?t1+f1/2000:0;' mientras='2&gt;1'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

@@ -1,0 +1,300 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-17 20:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:9
+msgid "Solución de problemas con Arduino"
+msgstr "Troubleshooting with Arduino"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:12
+msgid "¿Está conectada la placa Arduino?"
+msgstr "Is the Arduino board connected?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:13
+msgid ""
+"El cable USB debe estar conectado al ordenador y a la placa Arduino. El "
+"ordenador debe estar encendido."
+msgstr ""
+"The USB cable must be connected to the computer and the Arduino board. "
+"The computer must be on."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:16
+msgid ""
+"Si todo ha salido bien, la placa Arduino muestra un led encendido llamado"
+" led de **Power ON**:"
+msgstr ""
+"If everything went well, the Arduino board shows a lit led called the "
+"**Power ON** led:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:36
+msgid "¿Está instalado el entorno de Arduino?"
+msgstr "Is the Arduino environment installed?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:37
+msgid ""
+"El entorno Arduino IDE se puede descargar desde la página oficial del "
+"proyecto en la pestaña 'software', pulsando el sistema operativo adecuado"
+" en el apartado 'Download the Arduino IDE':"
+msgstr ""
+"The Arduino IDE environment can be downloaded from the official project "
+"page in the 'software' tab, clicking on the appropriate operating system "
+"in the 'Download the Arduino IDE' section:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:41
+msgid "https://www.arduino.cc/en/Main/Software"
+msgstr "https://www.arduino.cc/en/Main/Software"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:43
+msgid ""
+"Una vez descargado el programa, se debe instalar en el ordenador. También"
+" es necesario instalar los drivers para que el ordenador reconozca la "
+"placa Arduino cuando se conecte a un puerto USB."
+msgstr ""
+"Once the program is downloaded, it must be installed on the computer. It "
+"is also necessary to install the drivers so that the computer recognizes "
+"the Arduino board when it is connected to a USB port."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:53
+msgid "¿Está configurada la placa correcta?"
+msgstr "Is the correct board configured?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:54
+msgid ""
+"En el menú ``Herramientas... Placa:`` o en las versiones antiguas "
+"``Herramientas... Tarjeta...`` hay que configurar la misma placa Arduino "
+"que esté conectada al ordenador. El modelo más habitual es `Arduino Uno`,"
+" pero depende de la placa que se conecte."
+msgstr ""
+"In the menu ``Tools... Board:`` or in the old versions ``Tools... "
+"Board...`` you have to configure the same Arduino board that is connected"
+" to the computer. The most common model is `Arduino Uno`, but it depends "
+"on the board that is connected."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:60
+msgid ""
+"Tanto la placa como el puerto seleccionados pueden verse la esquina "
+"inferior derecha del entorno Arduino:"
+msgstr ""
+"Both the selected board and port can be seen in the lower right corner of"
+" the Arduino environment:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:78
+msgid "¿Está configurado el puerto correcto?"
+msgstr "Is the correct port configured?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:79
+msgid ""
+"En el ordenador existen varios puertos serie. Solo uno de esos puertos "
+"serie pertenece a la placa Arduino y ese es el que debemos configurar."
+msgstr ""
+"There are several serial ports on the computer. Only one of those serial "
+"ports belongs to the Arduino board and that is the one we need to "
+"configure."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:83
+msgid ""
+"El puerto de comunicaciones seleccionado puede verse en la esquina "
+"inferior derecha del entorno Arduino:"
+msgstr ""
+"The selected communication port can be seen in the lower right corner of "
+"the Arduino environment:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:99
+msgid ""
+"Para cambiarlo hay que pulsar el puerto adecuado el menú "
+"``Herramientas... Puerto...``"
+msgstr ""
+"To change it you have to press the appropriate port in the menu "
+"``Tools... Port...``"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:102
+msgid ""
+"Para comprobar que el puerto está bien configurado, se puede abrir el "
+"monitor serie, y los leds de comunicaciones de la placa Arduino deben "
+"parpadear. Otra prueba consiste en intentar enviar un programa. Mientras "
+"carga el programa, los leds de comunicaciones deben parpadear."
+msgstr ""
+"To check that the port is configured correctly, the serial monitor can be"
+" opened, and the communication leds of the Arduino board should blink. "
+"Another test is to try to send a program. While loading the program, the "
+"communication LEDs should flash."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:111
+msgid "¿Están instalados los drivers adecuados?"
+msgstr "Are the correct drivers installed?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:112
+msgid ""
+"Si el entorno de Arduino ya está instalado y el ordenador no reconoce la "
+"placa Arduino al conectarla, el problema puede resolverse instalando los "
+"drivers que vienen con el software del entorno Arduino."
+msgstr ""
+"If the Arduino environment is already installed and the computer does not"
+" recognize the Arduino board when it is connected, the problem can be "
+"solved by installing the drivers that come with the Arduino environment "
+"software."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:116
+msgid ""
+"A continuación se ofrecen varias versiones de los drivers para Arduino. "
+"Después de descargar el archivo, se debe descomprimir y ejecutar el "
+"software de instalación."
+msgstr ""
+"Below are several versions of the drivers for Arduino. After downloading "
+"the file, you must unzip and run the installation software."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:121
+msgid ""
+":download:`Arduino 1.8.1 Drivers para Windows <_downloads/arduino-1813"
+"-win-drivers.zip>`"
+msgstr ""
+":download:`Arduino 1.8.1 Drivers for Windows <_downloads/arduino-1813"
+"-win-drivers.zip>`"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:124
+msgid ""
+":download:`Arduino 1.0.6 Drivers para Windows <_downloads/arduino-106"
+"-win-drivers.zip>`"
+msgstr ""
+":download:`Arduino 1.0.6 Drivers for Windows <_downloads/arduino-106"
+"-win-drivers.zip>`"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:128
+msgid ""
+"Si se utiliza una placa compatible con Arduino con un chip de "
+"comunicaciones **CH340**, es necesario instalar otro driver diferente al "
+"estándar:"
+msgstr ""
+"If an Arduino compatible board with a **CH340** communications chip is "
+"used, it is necessary to install another driver other than the standard "
+"one:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:132
+msgid ""
+":download:`Chip de comunicaciones CH340. Driver para Windows "
+"<_downloads/CH340-win-driver-v31.zip>`"
+msgstr ""
+":download:`CH340 communications chip. Driver for Windows "
+"<_downloads/CH340-win-driver-v31.zip>`"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:135
+msgid ""
+"`Página de Microsoft para descargar el driver CH340 "
+"<http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=be9c8169"
+"-b12b-475f-81b8-3d3e69181e8c>`_"
+msgstr ""
+"`Microsoft CH340 driver download page "
+"<http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=be9c8169"
+"-b12b-475f-81b8-3d3e69181e8c>`_"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:140
+msgid "¿Existe un cortocircuito?"
+msgstr "Is there a short circuit?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:141
+msgid ""
+"Si la placa Arduino parece estar correctamente conectada y a pesar de "
+"ello el led de encendido permanece apagado, es posible que los cables "
+"conectados a Arduino estén mal conectados y provoquen un cortocircuito. "
+"Para comprobar este error se debe desconectar el cable conectado al "
+"terminal de '5v' y el cable conectado al terminal 'Vin'."
+msgstr ""
+"If the Arduino board seems to be correctly connected and despite this the"
+" power LED remains off, it is possible that the cables connected to the "
+"Arduino are connected incorrectly and cause a short circuit. To check "
+"this error you must disconnect the cable connected to the '5v' terminal "
+"and the cable connected to the 'Vin' terminal."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:150
+msgid "¿Funcionan las comunicaciones del cable USB?"
+msgstr "Does the USB cable communications work?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:151
+msgid ""
+"Otro problema que puede surgir con el cable USB consiste en que los hilos"
+" de comunicaciones estén cortados mientras que los hilos de alimentación "
+"funcionen correctamente. En este caso el led de la placa Arduino se "
+"encenderá, pero el ordenador no reconocerá la placa y no funcionarán las "
+"comunicaciones."
+msgstr ""
+"Another problem that can arise with the USB cable is that the "
+"communication wires are cut while the power wires are working correctly. "
+"In this case, the led of the Arduino board will light up, but the "
+"computer will not recognize the board and the communications will not "
+"work."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:157
+msgid ""
+"La forma más sencilla de comprobar que no existen problemas con el cable "
+"USB es conectar este cable a otro aparato que funcione correctamente o "
+"cambiar el cable por otro y comprobar que todo funciona bien."
+msgstr ""
+"The easiest way to check that there are no problems with the USB cable is"
+" to connect this cable to another working device or change the cable to "
+"another one and check that everything works fine."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:164
+msgid "Comprobar si la placa Arduino está bien instalada"
+msgstr "Check if the Arduino board is well installed"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:165
+msgid ""
+"Para asegurar que la placa Arduino está bien instalada y todo funciona "
+"correctamente, se seguirán los siguientes pasos:"
+msgstr ""
+"To ensure that the Arduino board is correctly installed and everything "
+"works correctly, the following steps will be followed:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:168
+msgid "Abrir el entorno IDE de Arduino pulsando sobre su icono:"
+msgstr "Open the Arduino IDE environment by clicking on its icon:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:173
+msgid ""
+"Abrir un programa de ejemplo pulsando en el menú ``Archivo... Ejemplos..."
+" 01.Basics... Blink``."
+msgstr ""
+"Open an example program by clicking the ``File... Examples... "
+"01.Basics... Blink`` menu."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:176
+msgid ""
+"También se puede copiar y pegar el siguiente programa en el entorno de "
+"Arduino."
+msgstr ""
+"You can also copy and paste the following program into the Arduino "
+"environment."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:192
+msgid ""
+"Por último, pulsar en el menú ``Programa... Subir (CTRL+U)`` para "
+"transferir el programa a la placa Arduino."
+msgstr ""
+"Finally, click on the ``Program... Upload (CTRL+U)`` menu to transfer the"
+" program to the Arduino board."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:195
+msgid ""
+"Si todo ha funcionado correctamente, el led de la placa Arduino comenzará"
+" a parpadear con un tiempo encendido de un segundo y un tiempo apagado de"
+" otro segundo."
+msgstr ""
+"If everything has worked correctly, the led of the Arduino board will "
+"begin to blink with a time on of one second and an off time of another "
+"second."
+

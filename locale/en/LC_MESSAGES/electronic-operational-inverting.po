@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-25 20:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-operational-inverting.rst:9
+msgid "El amplificador inversor"
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:10
+msgid ""
+"En este circuito el amplificador operacional invierte y amplifica la "
+"señal de entrada."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:13
+msgid ""
+"El amplificador inversor tiene realimentación negativa porque la tensión "
+"de salida produce una corriente que llega al terminal de entrada negativo"
+" a través de la resistencia R2."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:22
+msgid "Esquema del amplificador operacional inversor."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:26
+msgid "Cálculo de ganancia"
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:27
+msgid "La fórmula de la ganancia de este amplificador es la siguiente:"
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:29
+msgid "Ganancia = \\cfrac{V_{out}}{V_{in}} = - \\cfrac{R_2}{R_1}"
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:33
+msgid ""
+"Para calcular la ganancia de este esquema debemos tener en cuenta que con"
+" realimentación negativa las dos entradas ``-`` y ``+`` tendrán la misma "
+"tensión. Esto significa que la tensión de la entrada ``-`` será igual a "
+"cero, puesto que la entrada ``+`` está conectada a tierra."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:39
+msgid ""
+"A partir de esta premisa, la corriente de entrada será igual a Vin / R1. "
+"Esa misma corriente será la que circule por R2, puesto que por la entrada"
+" del amplificador operacional no circula corriente. En ese caso la "
+"tensión en R2 será igual a la corriente por la resistencia Vout = R2 · "
+"Vin / R1. Reordenando conseguimos la ecuación anterior de la ganancia."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:47
+msgid "Resistencia de entrada y de salida"
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:48
+msgid "La resistencia de entrada será igual a la resistencia R1."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:50
+msgid ""
+"La resistencia de salida será muy baja, idealmente cero, porque la salida"
+" está directamente conectada a la salida del amplificador operacional."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:55
+msgid "Simulación"
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:56
+msgid ""
+"En la siguiente simulación podemos ver un amplificador inversor de "
+"ganancia 5 que amplifica una pequeña señal senoidal de entrada."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:67
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:69
+msgid "Dibuja el esquema simplificado de un amplificador operacional inversor."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:71
+msgid ""
+"Escribe la fórmula de la ganancia del amplificador operacional inversor "
+"anterior."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:74
+msgid ""
+"¿Qué tipo de realimentación tiene este circuito? ¿Qué les ocurre a las "
+"tensiones de entrada con ese tipo de realimentación?"
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:78
+msgid ""
+"Dibuja dos gráficas que representen la tensión de entrada y la tensión de"
+" salida del amplificador inversor simulado."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:81
+msgid ""
+"¿Qué tensiones de pico tienen cada una de las dos gráficas representadas?"
+" Puedes parar la simulación y ampliar a pantalla completa para medir con "
+"más precisión."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:86
+msgid ""
+"Calcula las resistencias necesarias para hacer que un amplificador "
+"operacional inversor tenga una resistencia de entrada de 1000 Ohmios y "
+"una ganancia de tensión igual a -100."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:90
+msgid ""
+"Dibuja un esquema realista de este amplificador, con una alimentación de "
+"+-6 voltios y una entrada de tensión senoidal de 0.1 voltios."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:93
+msgid ""
+"Con ayuda del `simulador de circuitos "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ dibuja el "
+"esquema de un amplificador operacional inversor basado en un amplificador"
+" operacional real (LM324) que amplifique la señal de un generador de "
+"tensión de onda cuadrada con una tensión de pico de 1 voltio. La ganancia"
+" de tensión debe valer 2."
+msgstr ""
+
+#: ../../source/electronic-operational-inverting.rst:102
+msgid ""
+"Grafica en el mismo osciloscopio la señal de tensión del generador y la "
+"señal de tensión de salida del amplificador operacional."
+msgstr ""
+

@@ -1,0 +1,684 @@
+<html>
+
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/producto_logico2.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:46:29 GMT -->
+<head>
+<meta http-equiv="Content-Language" content="es">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Producto l&oacute;gico</title>
+<script type="text/javascript" src="paginas/embeddedcontent.html" defer="defer"></script>
+<style type="text/css"><!--
+-->
+  </script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+<style type="text/css">
+<!--
+-->
+  </style>
+<link href="../paracidead1.css" rel="stylesheet" type="text/css">
+<link href="../q5q6.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body bgcolor="#EEFFEE">
+<!-- 
+ // Scrit realizado por Miguel e Mar%C3%ADa
+ // http://www.tecnoloxia.org
+ // Licenza Creative commons
+ // P%C3%B3dese copiar, modificar e distribu%C3%ADr baixo a mesma licenza
+ // Sinalando a autor%C3%ADa 
+ -->
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> 
+<!-- 
+
+
+var path_imaxes = '../quincena6/imagenes6/taboa/';
+
+
+var todaLasCeldas = new Array();
+
+function convierteEnBinario(val,size) {
+   var cadena = val.toString(2);
+   var l=cadena.length;
+   var dif = size - l;
+   for(var i=0; i< dif;i++)
+       cadena ="0"+cadena;
+   return cadena;
+}
+
+
+function CircuitElement(circuito,fila,columna, tipo, estado) {
+  var indice = fila * circuito.numcolumnas + columna;
+  this.nombre = circuito.nombre + indice;
+  this.fila = fila;
+  this.columna = columna;
+  this.estado = estado;
+  this.tipo = tipo;
+  this.circuito = circuito;
+  this.debuxa = debuxaElemento;
+  if((tipo == 'int_hor') || (tipo == 'int_ver') || (tipo ==  'lam_hor') || (tipo == 'lam_ver') || (tipo == 'mot_hor') || (tipo == 'mot_ver') || (tipo == 'dix_int') || (tipo == 'pul_nc_hor') || (tipo == 'dix_led'))  { // Tiene 2 estados
+	this.imaxe = path_imaxes + tipo + '_' + this.estado+'.gif';
+	this.numestados = 2;
+	todaLasCeldas[this.nombre] = this;
+	if((tipo == 'lam_hor') || (tipo == 'lam_ver') || (tipo == 'mot_hor') || (tipo == 'mot_ver') || (tipo == 'dix_led') ) { // Se trata de una salida
+		circuito.salidas[circuito.numsalidas++] = this;
+	}
+	else { // se trata de una entrada
+		circuito.entradas[circuito.numentradas++] = this;
+	}
+
+  }	
+  else {
+        this.numestados = 1;
+	this.imaxe = path_imaxes + tipo + '.gif';
+  }
+}
+
+// Metodos de circuit element
+function cambiaEstado(nombre) {
+
+	var celda = todaLasCeldas[nombre];	
+	if(celda.numestados < 2)
+		return;
+	if(celda.estado == 1) 
+		celda.estado = 0;	
+	else
+		celda.estado = 1;
+	celda.imaxe = path_imaxes + celda.tipo + '_' + celda.estado+'.gif';
+	celda.circuito.imprimeTabla();
+	celda.circuito.recalculaSalidas();
+
+}
+
+function debuxaElemento(indice) {
+	var cadena;	
+	if(this.numestados > 1)
+	    cadena = '<span class="celdasim"  onclick="cambiaEstado(\''+this.nombre+'\')" target="_parent"><img src="'+path_imaxes + this.tipo + '_' + this.estado+'.gif'+' "width="33" height="33" ></span>';
+	else
+	    cadena = '<img src="'+this.imaxe+' "width="33" height="33">';
+	return cadena;
+}
+
+// Definicion de Circuit
+function Circuit(nombre,numfilas,numcolumnas,divid,funcionLogica,dividTabla) {
+  this.numfilas = numfilas;
+  this.numcolumnas = numcolumnas;
+  this.elements = Array();
+  this.entradas = Array();
+  this.salidas = Array();
+  this.numentradas = 0;
+  this.numsalidas = 0;
+
+  this.divid = divid;	
+  this.dividTabla = dividTabla;
+  this.nombre = nombre;
+
+  this.debuxa = debuxaElementos;
+  this.addElement = addCircuitElement;
+  this.ejecutaLogica = funcionLogica;
+  this.recalculaSalidas = recalculaSalidas;
+  this.imprime = recalculaSalidas;
+  this.imprimeTabla = imprimeTabla;
+  this.compruebaEstado = compruebaEstado;
+
+
+}
+
+function recalculaSalidas() {
+
+	var i=0;
+
+	var ientradas = Array();
+	var isalidas = [false,false,false,false,false,false,false,false];
+	for(i=0; i < this.numentradas; i++)
+		ientradas[i] = this.entradas[i].estado > 0 ? true : false;
+	this.ejecutaLogica(ientradas,isalidas);
+	for(i=0; i < this.numsalidas; i++)
+		this.salidas[i].estado = isalidas[i] == true ? 1 : 0 ;
+
+	this.debuxa();
+
+}
+
+function addCircuitElement(fila,columna, tipo, estado) {
+//(circuito,fila,columna, tipo, estado) {
+	var indice = fila * this.numcolumnas + columna;
+	if(estado == undefined)
+		estado = 0;	
+	this.elements[indice] = new CircuitElement(this,fila,columna,tipo,estado);
+
+}
+function debuxaElementos() {
+
+
+	var resultado = '<table border="0" cellpadding="0" cellspacing="0">';
+	for(i=0; i < this.numfilas; i++) {
+		resultado += '<tr>';
+
+		for(j = 0; j < this.numcolumnas; j++) {
+			var indice = i*this.numcolumnas+j;
+			var celda = this.elements[indice];	
+			if(celda != null)
+				resultado = resultado + '<td class="celdasim">' + celda.debuxa(indice) + '</td>';
+			else
+				resultado +=  '<td></td>';
+
+		}
+		resultado += '</tr>';
+	}
+	resultado += '</table>';
+	var elem =document.getElementById(this.divid);
+	if(elem != null) 
+		elem.innerHTML=resultado;
+
+}
+
+function compruebaEstado(estados) {
+	for( var i=0; i < this.numentradas; i++) {
+		var est = (estados[i] == true ? 1: 0);
+		if( est != this.entradas[i].estado)
+			return false;
+	}
+
+	return true;
+
+
+}
+
+function imprimeTabla() {
+
+   var element = document.getElementById(this.dividTabla);
+   if(element == null)
+	return; // non hay div para a tabla, %C3%ADmonos
+
+
+   var numfilas = Math.pow(2,this.numentradas);
+
+
+
+   var strTabla = '<table width="100"> <tr>';
+   var arrayentradas = new Array('A','B','C','D','E','F','G','F');
+   for( var i=0; i < this.numentradas; i++) {
+	strTabla += '<th class="celda1">'+ arrayentradas[i] +'</th>';
+   }
+   if(this.numsalidas == 1) {
+		strTabla += '<th class="celda1">S</th>';
+   }
+   else {
+   		for( var i=0; i < this.numsalidas; i++) {
+			strTabla += '<th class="celda1">S<sub>'+i+'</sub></th>';
+   		}
+	}
+   strTabla += '</tr>';
+   	
+ 
+   for(var i= 0; i< numfilas ; i++) {
+	
+	str = convierteEnBinario(i,this.numentradas);
+	var entradas = Array();
+	var salidas = Array();
+	for( var j=0; j < this.numentradas;j++)    
+		entradas[j] = str.charAt(j) == "1" ? true : false;
+	this.ejecutaLogica(entradas,salidas)
+
+	// Antes de impirmila fila, comprobamos se esta fila corresponde co estado actual do circuito
+	var esElEstadoActual = this.compruebaEstado(entradas);
+	
+	// Aqu%C3%AD imprimimola fila
+	if(esElEstadoActual == true) // lo resaltamos
+	        strTabla += '<tr bgcolor="#EBEBC5">';
+	else
+		strTabla += '<tr>';
+	for( var j=0; j < this.numentradas; j++) {
+		strTabla += '<td class="celda1">'+(entradas[j]==true ? 1 : 0)+'</td>';
+	}
+	for( var j=0; j < this.numsalidas; j++) {
+		strTabla += '<td class="celda1"><b>'+ (salidas[j]==true ? 1 : 0) +'</b></td>';
+	}
+	strTabla += '</tr>';
+   }
+   strTabla += '</table>';
+
+	element.innerHTML = strTabla;
+  
+} 
+
+//--> 
+</SCRIPT>
+<NOSCRIPT> 
+Tu navegador no soporta Scripts. 
+</NOSCRIPT>
+
+
+
+			<!-- 
+ // Scrit realizado por Miguel e Mar%C3%ADa
+ // http://www.tecnoloxia.org
+ // Licenza Creative commons
+ // P%C3%B3dese copiar, modificar e distribu%C3%ADr baixo a mesma licenza
+ // Sinalando a autor%C3%ADa 
+ -->
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> 
+<!-- 
+// os operadores l%C3%B3xicos son
+	// AND  &&
+	// OR   ||
+	// NOT   !
+	
+/////////////
+// circu%C3%ADtos el%C3%A9ctricos
+////////////
+
+// circ1. Circuito simple l%C3%A1mpada
+
+function logica1(entradas,salidas)
+{
+	
+	salidas[0] = entradas[0];
+
+}
+var circ1 = new Circuit('proba1_',3,3,'solucion1',logica1,'solucion1tabla');
+
+circ1.addElement(0,0,'cab_inf_der');
+circ1.addElement(0,1,'cab_hor');
+circ1.addElement(0,2,'cab_inf_esq');
+
+circ1.addElement(1,0,'pil_ver_sup');
+circ1.addElement(1,2,'lam_ver');
+
+circ1.addElement(2,0,'cab_sup_der');
+circ1.addElement(2,1,'int_hor',0);
+circ1.addElement(2,2,'cab_sup_esq');
+
+// circ7. Circuito simple l%C3%A1mpada NOT
+
+function logica7(entradas,salidas)
+{
+	
+	salidas[0] = !entradas[0];
+
+}
+var circ7 = new Circuit('proba7_',4,3,'solucion7',logica7,'solucion7tabla');
+
+circ7.addElement(0,1,'Ai');
+
+circ7.addElement(1,0,'cab_inf_der');
+circ7.addElement(1,1,'pul_nc_hor',0);
+circ7.addElement(1,2,'cab_inf_esq');
+
+circ7.addElement(2,0,'pil_ver_sup');
+circ7.addElement(2,1,'Sd');
+circ7.addElement(2,2,'lam_ver',1);
+
+circ7.addElement(3,0,'cab_sup_der');
+circ7.addElement(3,1,'cab_hor');
+circ7.addElement(3,2,'cab_sup_esq');
+
+
+// circ2. circuito 2 interruptores serie
+
+function logica2(entradas,salidas)
+{
+	salidas[0] = entradas[0] && entradas[1];
+}
+var circ2 = new Circuit('proba2_',4,4,'solucion2',logica2,'solucion2tabla');
+
+
+circ2.addElement(0,1,'Ai');
+circ2.addElement(0,2,'Bi');
+
+
+circ2.addElement(1,0,'cab_inf_der');
+circ2.addElement(1,1,'int_hor',0);
+circ2.addElement(1,2,'int_hor',0);
+circ2.addElement(1,3,'cab_inf_esq');
+
+circ2.addElement(2,0,'pil_ver_sup');
+circ2.addElement(2,2,'Sd');
+circ2.addElement(2,3,'lam_ver',0);
+
+circ2.addElement(3,0,'cab_sup_der');
+circ2.addElement(3,1,'cab_hor');
+circ2.addElement(3,2,'cab_hor');
+circ2.addElement(3,3,'cab_sup_esq');
+
+// circ5. circuito 3 interruptores paralelo
+
+function logica5(entradas,salidas)
+{
+	salidas[0] = entradas[0] || entradas[1] || entradas[2];
+}
+var circ5 = new Circuit('proba5_',4,5,'solucion5',logica5,'solucion5tabla');
+
+
+circ5.addElement(0,1,'Si');
+circ5.addElement(0,2,'Ai');
+circ5.addElement(0,3,'Bi');
+circ5.addElement(0,4,'Ci');
+
+circ5.addElement(1,0,'cab_inf_der');
+circ5.addElement(1,1,'lam_hor',0); 
+circ5.addElement(1,2,'cab_t_inf');
+circ5.addElement(1,3,'cab_t_inf');
+circ5.addElement(1,4,'cab_inf_esq');
+
+circ5.addElement(2,0,'pil_ver_sup');
+circ5.addElement(2,2,'int_ver',0);
+circ5.addElement(2,3,'int_ver',0);
+circ5.addElement(2,4,'int_ver',0);
+
+circ5.addElement(3,0,'cab_sup_der');
+circ5.addElement(3,1,'cab_hor');
+circ5.addElement(3,2,'cab_t_sup');
+circ5.addElement(3,3,'cab_t_sup');
+circ5.addElement(3,4,'cab_sup_esq');
+
+// circ6. circuito 3 interruptores serie
+
+function logica6(entradas,salidas)
+{
+	salidas[0] = entradas[0] && entradas[1] && entradas[2];
+}
+var circ6 = new Circuit('proba6_',4,5,'solucion6',logica6,'solucion6tabla');
+
+
+circ6.addElement(0,1,'Ai');
+circ6.addElement(0,2,'Bi');
+circ6.addElement(0,3,'Ci');
+
+circ6.addElement(1,0,'cab_inf_der');
+circ6.addElement(1,1,'int_hor',0); 
+circ6.addElement(1,2,'int_hor',0);
+circ6.addElement(1,3,'int_hor',0);
+circ6.addElement(1,4,'cab_inf_esq');
+
+circ6.addElement(2,0,'pil_ver_sup');
+circ6.addElement(2,3,'Sd');
+circ6.addElement(2,4,'lam_ver',0);
+
+circ6.addElement(3,0,'cab_sup_der');
+circ6.addElement(3,1,'cab_hor');
+circ6.addElement(3,2,'cab_hor');
+circ6.addElement(3,3,'cab_hor');
+circ6.addElement(3,4,'cab_sup_esq');
+
+// circ8. circuito 2 interruptores serie - motor
+
+function logica8(entradas,salidas)
+{
+	salidas[0] = entradas[0] && entradas[1]
+}
+var circ8 = new Circuit('proba8_',4,4,'solucion8',logica8,'solucion8tabla');
+
+
+circ8.addElement(0,1,'Ai');
+circ8.addElement(0,2,'Bi');
+
+circ8.addElement(1,0,'cab_inf_der');
+circ8.addElement(1,1,'int_hor',0); 
+circ8.addElement(1,2,'int_hor',0);
+circ8.addElement(1,3,'cab_inf_esq');
+
+circ8.addElement(2,0,'pil_ver_sup');
+circ8.addElement(2,2,'Sd');
+circ8.addElement(2,3,'mot_ver',0);
+
+circ8.addElement(3,0,'cab_sup_der');
+circ8.addElement(3,1,'cab_hor');
+circ8.addElement(3,2,'cab_hor');
+circ8.addElement(3,3,'cab_sup_esq');
+
+
+
+// circ3. circuito 2 l%C3%A1mpadas paralelo
+
+function logica3(entradas,salidas)
+{
+	salidas[0] = entradas[0] ;
+	salidas[1] = entradas[0] ;
+}
+
+var circ3 = new Circuit('proba3_',3,4,'solucion3',logica3,'solucion3tabla');
+
+circ3.addElement(0,0,'cab_inf_der');
+circ3.addElement(0,1,'cab_hor');
+circ3.addElement(0,2,'cab_t_inf');
+circ3.addElement(0,3,'cab_inf_esq');
+
+circ3.addElement(1,0,'pil_ver_sup');
+circ3.addElement(1,2,'lam_ver',0);
+circ3.addElement(1,3,'lam_ver',0);
+
+circ3.addElement(2,0,'cab_sup_der');
+circ3.addElement(2,1,'int_hor',0);
+circ3.addElement(2,2,'cab_t_sup');
+circ3.addElement(2,3,'cab_sup_esq');
+
+
+// circ4. circuito 3 int mixto
+
+function logica4(entradas,salidas)
+{
+	salidas[0] = entradas[0] && (entradas[1] || entradas[2] ) ;
+}
+
+var circ4 = new Circuit('proba4_',5,6,'solucion4',logica4,'solucion4tabla');
+
+
+circ4.addElement(0,3,'Bi');
+
+circ4.addElement(2,1,'int_hor',0);
+
+circ4.addElement(1,1,'Ai');
+circ4.addElement(1,2,'cab_inf_der');
+circ4.addElement(1,3,'int_hor',0);
+circ4.addElement(1,4,'cab_inf_esq');
+//circ4.addElement(1,5,'Si');
+
+circ4.addElement(2,0,'cab_inf_der');
+circ4.addElement(2,2,'cab_t_esq');
+circ4.addElement(2,3,'Ci');
+circ4.addElement(2,4,'cab_t_der');
+circ4.addElement(2,5,'cab_inf_esq');
+
+circ4.addElement(3,0,'pil_ver_sup');
+circ4.addElement(3,2,'cab_sup_der');
+circ4.addElement(3,3,'int_hor',0);
+circ4.addElement(3,4,'cab_sup_esq');
+circ4.addElement(3,5,'lam_ver',0);
+
+circ4.addElement(4,0,'cab_sup_der');
+circ4.addElement(4,1,'cab_hor');
+circ4.addElement(4,2,'cab_hor');
+circ4.addElement(4,3,'cab_hor');
+circ4.addElement(4,4,'cab_hor');
+circ4.addElement(4,5,'cab_sup_esq');
+
+
+// circ9. circuito 3 int mixto 2
+
+function logica9(entradas,salidas)
+{
+	salidas[0] = ( entradas[0] && entradas[1] ) || entradas[2]  ;
+}
+
+var circ9 = new Circuit('proba9_',5,6,'solucion9',logica9,'solucion9tabla');
+
+circ9.addElement(0,2,'Ai');
+circ9.addElement(0,3,'Bi');
+
+circ9.addElement(1,1,'cab_inf_der');
+circ9.addElement(1,2,'int_hor',0);
+circ9.addElement(1,3,'int_hor',0);
+circ9.addElement(1,4,'cab_inf_esq');
+
+circ9.addElement(2,0,'cab_inf_der');
+circ9.addElement(2,1,'cab_t_esq');
+circ9.addElement(2,2,'Ci');
+circ9.addElement(2,4,'cab_t_der');
+circ9.addElement(2,5,'cab_inf_esq');
+
+circ9.addElement(3,0,'pil_ver_sup');
+circ9.addElement(3,1,'cab_sup_der');
+circ9.addElement(3,2,'int_hor',0);
+circ9.addElement(3,3,'cab_hor');
+circ9.addElement(3,4,'cab_sup_esq');
+circ9.addElement(3,5,'lam_ver',0);
+
+circ9.addElement(4,0,'cab_sup_der');
+circ9.addElement(4,1,'cab_hor');
+circ9.addElement(4,2,'cab_hor');
+circ9.addElement(4,3,'cab_hor');
+circ9.addElement(4,4,'cab_hor');
+circ9.addElement(4,5,'cab_sup_esq');
+
+
+// circ13. circuito 2 int paralelo
+
+function logica13(entradas,salidas)
+{
+	salidas[0] = entradas[0] || entradas[1];
+}
+
+var circ13 = new Circuit('proba13_',5,5,'solucion13',logica13,'solucion13tabla');
+
+
+circ13.addElement(0,2,'Ai');
+
+circ13.addElement(1,1,'cab_inf_der');
+circ13.addElement(1,2,'int_hor',0);
+circ13.addElement(1,3,'cab_inf_esq');
+
+circ13.addElement(2,0,'cab_inf_der');
+circ13.addElement(2,1,'cab_t_esq');
+circ13.addElement(2,2,'Bi');
+circ13.addElement(2,3,'cab_t_der');
+circ13.addElement(2,4,'cab_inf_esq');
+
+circ13.addElement(3,0,'pil_ver_sup');
+circ13.addElement(3,1,'cab_sup_der');
+circ13.addElement(3,2,'int_hor',0);
+circ13.addElement(3,3,'cab_sup_esq');
+circ13.addElement(3,4,'lam_ver',0);
+
+circ13.addElement(4,0,'cab_sup_der');
+circ13.addElement(4,1,'cab_hor');
+circ13.addElement(4,2,'cab_hor');
+circ13.addElement(4,3,'cab_hor');
+circ13.addElement(4,4,'cab_sup_esq');
+
+
+// circ11. circuito 2 puls NC paralelo
+
+function logica11(entradas,salidas)
+{
+	salidas[0] = !entradas[0] || !entradas[1]  ;
+}
+
+var circ11 = new Circuit('proba10_',5,5,'solucion11',logica11,'solucion11tabla');
+
+
+circ11.addElement(0,2,'Ai');
+
+circ11.addElement(1,1,'cab_inf_der');
+circ11.addElement(1,2,'pul_nc_hor',0);
+circ11.addElement(1,3,'cab_inf_esq');
+//circ4.addElement(1,5,'Si');
+
+circ11.addElement(2,0,'cab_inf_der');
+circ11.addElement(2,1,'cab_t_esq');
+circ11.addElement(2,2,'Bi');
+circ11.addElement(2,3,'cab_t_der');
+circ11.addElement(2,4,'cab_inf_esq');
+
+circ11.addElement(3,0,'pil_ver_sup');
+circ11.addElement(3,1,'cab_sup_der');
+circ11.addElement(3,2,'pul_nc_hor',0);
+circ11.addElement(3,3,'cab_sup_esq');
+circ11.addElement(3,4,'lam_ver',0);
+
+circ11.addElement(4,0,'cab_sup_der');
+circ11.addElement(4,1,'cab_hor');
+circ11.addElement(4,2,'cab_hor');
+circ11.addElement(4,3,'cab_hor');
+circ11.addElement(4,4,'cab_sup_esq');
+
+
+// circ12. circuito 2 puls NC serie - lamp
+
+function logica12(entradas,salidas)
+{
+	salidas[0] = !entradas[0] && !entradas[1] ;
+}
+var circ12 = new Circuit('proba12_',4,4,'solucion12',logica12,'solucion12tabla');
+
+
+circ12.addElement(0,1,'Ai');
+circ12.addElement(0,2,'Bi');
+
+circ12.addElement(1,0,'cab_inf_der');
+circ12.addElement(1,1,'pul_nc_hor',0); 
+circ12.addElement(1,2,'pul_nc_hor',0);
+circ12.addElement(1,3,'cab_inf_esq');
+
+circ12.addElement(2,0,'pil_ver_sup');
+circ12.addElement(2,2,'Sd');
+circ12.addElement(2,3,'lam_ver',0);
+
+circ12.addElement(3,0,'cab_sup_der');
+circ12.addElement(3,1,'cab_hor');
+circ12.addElement(3,2,'cab_hor');
+circ12.addElement(3,3,'cab_sup_esq');
+
+
+
+
+//--> 
+</SCRIPT>
+<NOSCRIPT> 
+Tu navegador no soporta Scripts. 
+</NOSCRIPT>
+
+
+
+			
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+            <div align="center">
+            <table width="509" border="1" cellpadding="2" cellspacing="4" bordercolor="#009999" bgcolor="#c6d8f4" style="margin-bottom: 0">
+              <tr valign="middle" bordercolor="#F1f1f1" bgcolor="#FFFFFF" class="parakaos2"> 
+                <td bordercolor="#F1f1f1" align="center" width="493" class="recuadro"> 
+
+<font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#000099">
+            	<b>PRODUCTO LÓGICO </b></td>
+              </tr>
+              <tr>
+                <td bordercolor="#eeeedd" align="center" width="483" bgcolor="#FFFFFF" valign="top" class="recuadro">  
+				
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+				<p align="justify"><font color="#000099"><span class="txt">
+				<span style="font-size:10.0pt;">
+				La salida se activa sólo cuando todas las entradas están activas. <strong>Ejemplo</strong>: En este circuito  la bombilla (S) s&oacute;lo se  enciende al pulsar los tres interruptores. <strong>S = A &middot; B &middot; C</strong> Interactúa haciendo clic en los interruptores y observa la tabla de verdad. </p>
+             
+
+<table border ="0" width="100%">
+                <tr>
+                  <td align="center"><div id="solucion6">
+                      <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> circ6.imprime(); </SCRIPT>
+                  </div></td>
+                  <td align="left"><div id="solucion6tabla">
+                      <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript"> circ6.imprimeTabla(); </SCRIPT>
+                  </div></td>
+                </tr>
+              </table>
+
+            	&nbsp;</p></td>
+              </tr>
+              </table></div>
+
+            </body>
+
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/producto_logico2.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:46:29 GMT -->
+</html>

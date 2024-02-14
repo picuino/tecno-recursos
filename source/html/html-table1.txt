@@ -1,0 +1,51 @@
+﻿:Date: 13/12/2018
+:Author: Carlos Félix Pardo Martín
+:License: Creative Commons Attribution-ShareAlike 4.0 International
+
+
+{%- import 'html-macros.txt' as macros %}
+
+.. _html-table1:
+
+Tablas de datos
+===============
+
+{{ macros.tag('table') }}
+{{ macros.tag('thead') }}
+{{ macros.tag('tr') }}
+{{ macros.tag('th') }}
+{{ macros.tag('tbody') }}
+{{ macros.tag('td') }}
+{{ macros.tag('comment') }}
+
+Código de una tabla simple
+--------------------------
+
+.. image:: html/_thumbs/html-table1-html.png
+
+{{ macros.tag('table_template') }}
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-table1-web.png
+
+
+Código de una tabla con encabezado
+----------------------------------
+
+.. image:: html/_thumbs/html-table2-html.png
+
+{{ macros.tag('table_head_template') }}
+
+{{ macros.editor_online() }}
+
+
+Resultado
+---------
+
+.. image:: html/_thumbs/html-table2-web.png
+

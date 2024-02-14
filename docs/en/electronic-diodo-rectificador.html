@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 2. El diodo rectificador">
+  <title>2. El diodo rectificador - Electrónica analógica - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/electronic-diodo-rectificador.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="3. El diodo limitador" href="electronic-diodo-limitador.html">
+  <link rel="prev" title="1. El diodo" href="electronic-diodo.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="electronic-index.html">Electronics</a>/</li>
+        
+          <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
+        
+      <li><span class="section-number">2. </span>El diodo rectificador</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/electronic-diodo-rectificador.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/electronic-diodo-rectificador.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="el-diodo-rectificador">
+<span id="electronic-diodo-rectificador"></span><h1><span class="section-number">2. </span>El diodo rectificador<a class="headerlink" href="#el-diodo-rectificador" title="Permalink to this headline">¶</a></h1>
+<p>Los diodos rectificadores están especializados en convertir la corriente
+alterna en corriente continua que necesitan la mayoría de los aparatos
+electrónicos.</p>
+<p>Estos diodos pueden rectificar la corriente alterna que llega a nuestras
+casas, con tensiones relativamente altas (hasta 311 voltios de pico para
+una tensión alterna de 230 voltios eficaces).</p>
+<p>También se encuentran en los transformadores de alta frecuencia que
+utilizan casi todas las fuentes de alimentación de ordenadores, cargadores
+de teléfonos inteligentes y tabletas, televisiones, etc.</p>
+<div class="section" id="diodo-rectificador-de-media-onda">
+<h2>Diodo rectificador de media onda<a class="headerlink" href="#diodo-rectificador-de-media-onda" title="Permalink to this headline">¶</a></h2>
+<p>Este es el esquema más sencillo que se puede utilizar para convertir
+la corriente alterna en corriente continua.
+Este rectificador solo deja pasar el semiciclo positivo de la tensión
+alterna y bloquea el semiciclo negativo.</p>
+<p>Este esquema tiene el inconveniente de que la corriente de salida es
+pulsante y se desperdicia la mitad de la tensión de entrada.</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=rectify.txt"></iframe>
+</div></div>
+<div class="section" id="diodo-rectificador-de-onda-completa">
+<h2>Diodo rectificador de onda completa<a class="headerlink" href="#diodo-rectificador-de-onda-completa" title="Permalink to this headline">¶</a></h2>
+<p>Este esquema consigue transformar tanto los semiciclos positivos como los
+semiciclos negativos de la tensión de entrada en tensión positiva a la
+salida.</p>
+<p>Para poder funcionar utiliza dos diodos por cada línea de corriente
+alterna. En sistemas trifásicos, con tres líneas de tensión, se utilizan
+seis diodos en total para rectificar la tensión.</p>
+<p>En las siguientes simulaciones se pueden ver dos configuraciones de
+diodos. Ambas son eléctricamente equivalentes y solo se diferencian
+en la posición de los diodos en el dibujo.</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=fullrect.txt"></iframe>
+</div><div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=fullrect2.txt"></iframe>
+</div></div>
+<div class="section" id="diodo-rectificador-con-filtro">
+<h2>Diodo rectificador con filtro<a class="headerlink" href="#diodo-rectificador-con-filtro" title="Permalink to this headline">¶</a></h2>
+<p>El rectificador de onda completa consigue aprovechar toda la tensión
+alterna, pero todavía hay valles de tensión en los que la salida vale cero.
+Si queremos tener tensión continua a la salida, podemos utilizar un
+condensador que va a almacenar suficiente carga eléctrica para poder
+alimentar la carga de salida durante el tiempo que la tensión rectificada
+tiene valores bajos de tensión.</p>
+<p>Este es un circuito muy usado en las fuentes de alimentación de todo tipo
+de aparatos electrónicos. Es interesante comprobar cómo la corriente que
+absorbe del generador de alterna es una corriente pulsante.
+Esto produce distorsiones en la corriente de la red de alimentación
+eléctrica al sumarse el efecto de múltiples aparatos electrónicos de muchos
+hogares.</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=fullrectf.txt"></iframe>
+</div></div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Dibuja un circuito rectificador de media onda que rectifique la
+tensión alterna de 230 voltios y que alimente a una resistencia
+de 100 ohmios.</p>
+<p>Dibuja debajo del circuito la forma de onda de la tensión en la
+resistencia.</p>
+<p>Recuerda que en el simulador la gráfica verde representa la tensión
+y la gráfica amarilla representa la corriente.</p>
+</li>
+<li><p class="first">Dibuja un circuito rectificador de onda completa basado en los
+valores del ejercicio anterior.</p>
+<p>Dibuja debajo del circuito la forma de onda de la tensión en la
+resistencia.</p>
+</li>
+<li><p class="first">Realiza en el
+<a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">simulador de circuitos</a>
+un rectificador de onda completa de una línea trifásica como el que
+aparece en la siguiente imagen.</p>
+<a class="reference internal image-reference" href="_images/electronic-analog-diodos-trifasico.png"><img alt="Rectificador de onda completa trifásico." class="align-center" src="_images/electronic-analog-diodos-trifasico.png" style="width: 400px;"></a>
+<p>El generador de arriba debe tener un 'Desplazamiento de Fase' de
+0 grados (no hay que cambiarlo).
+El generador de en medio debe tener un 'Desplazamiento de Fase' de
+120 grados.
+El generador de abajo debe tener un 'Desplazamiento de Fase' de
+240 grados.</p>
+<p>Dibuja la forma de onda de la tensión de salida en la resistencia.
+¿Qué puedes decir sobre la forma de onda en comparación con la
+forma de onda de un circuito monofásico como el del anterior
+ejercicio?</p>
+</li>
+<li><p class="first">Modifica el condensador del circuito 'diodo rectificador con filtro'.</p>
+<p>Cambia el valor del condensador a <strong>50uF</strong>.
+¿Qué cambios ocurren en la tensión de salida y la corriente del generador?</p>
+<p>Cambia el valor del condensador a <strong>800uF</strong>.
+¿Qué cambios ocurren en la tensión de salida y la corriente del generador?</p>
+<p>Teniendo en cuenta que un condensador grande produce menos variación
+en la tensión de salida y que esto es deseable. ¿Por qué crees que no
+se utilizan condensadores grandes en este tipo de circuitos?</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="electronic-diodo-limitador.html" class="btn btn-neutral float-right" title="3. El diodo limitador" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="electronic-diodo.html" class="btn btn-neutral" title="1. El diodo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/electronic-diodo-rectificador.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2. El diodo rectificador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

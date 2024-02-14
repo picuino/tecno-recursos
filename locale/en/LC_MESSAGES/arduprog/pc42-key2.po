@@ -1,0 +1,245 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/arduprog/pc42-key2.rst:14
+msgid "Pulsadores y Eventos"
+msgstr "Pushbuttons and Events"
+
+
+#: ../../es/arduprog/pc42-key2.rst:32
+msgid "Objetivos"
+msgstr "Goals"
+
+
+#: ../../es/arduprog/pc42-key2.rst:33
+msgid "Leer los eventos asociados a un pulsador."
+msgstr "Read the events associated with a button."
+
+
+#: ../../es/arduprog/pc42-key2.rst:34
+msgid "Programar Arduino para que responda a los eventos de los pulsadores."
+msgstr "Program Arduino to respond to pushbutton events."
+
+
+#: ../../es/arduprog/pc42-key2.rst:38
+msgid "Eventos relacionados con los pulsadores"
+msgstr "Pushbutton related events"
+
+
+#: ../../es/arduprog/pc42-key2.rst:39
+msgid ""
+"A la hora de leer un pulsador, se debe distinguir los estados de los "
+"eventos."
+msgstr ""
+"When reading a push button, the states of the events must be distinguished."
+
+
+#: ../../es/arduprog/pc42-key2.rst:42
+msgid ""
+"Un **estado** se mantiene en el tiempo. Un ejemplo de estado es el valor "
+"presionado de un pulsador. Mientras el pulsador está presionado, el estado "
+"vale uno. Cuando el pulsador no está presionado, el estado vale cero."
+msgstr ""
+"A **state** is maintained over time. An example of a state is the value "
+"pressed on a button. While the button is pressed, the status is one. When "
+"the button is not pressed, the status is zero."
+
+
+#: ../../es/arduprog/pc42-key2.rst:46
+msgid ""
+"Un **evento**, por el contrario, solo es verdadero al comenzar un nuevo "
+"estado. En el caso anterior, al presionar un pulsador el evento presionado "
+"vale uno la primera vez que se lee. A partir de ese momento, siempre vale "
+"cero hasta que se vuelva a cumplir la condición de pulsador presionado."
+msgstr ""
+"An **event**, by contrast, is only true at the start of a new state. In the "
+"previous case, when a button is pressed, the event pressed is worth one the "
+"first time it is read. From then on, it is always zero until the button "
+"pressed condition is met again."
+
+
+#: ../../es/arduprog/pc42-key2.rst:48
+msgid ""
+"Los **eventos** son útiles cuando se desea realizar una sola acción al "
+"presionar una tecla. En el siguiente gráfico se puede ver la diferencia "
+"entre estado y evento."
+msgstr ""
+"**Events** are useful when you want to perform a single action on a key "
+"press. In the following graphic you can see the difference between state and"
+" event."
+
+
+#: ../../es/arduprog/pc42-key2.rst:66
+msgid "La función :cpp:func:`keyEvents`"
+msgstr "The :cpp:func:`keyEvents` function"
+
+
+#: ../../es/arduprog/pc42-key2.rst:70
+msgid ""
+"Esta función devuelve el valor de los eventos que se producen en un "
+"pulsador. Los eventos que puede devolver la función son los siguientes"
+msgstr ""
+"This function returns the value of the events that occur in a button. The "
+"events that the function can return are the following:"
+
+
+#: ../../es/arduprog/pc42-key2.rst:74
+msgid "Evento"
+msgstr "Event"
+
+
+#: ../../es/arduprog/pc42-key2.rst:74
+msgid "Significado"
+msgstr "Meaning"
+
+
+#: ../../es/arduprog/pc42-key2.rst:76
+msgid "KEY_PRESSED_TIME1"
+msgstr "KEY_PRESSED_TIME1"
+
+
+#: ../../es/arduprog/pc42-key2.rst:76
+msgid "El pulsador se ha presionado durante 0,02 segundos"
+msgstr "The push button has been pressed for 0.02 seconds"
+
+
+#: ../../es/arduprog/pc42-key2.rst:78
+msgid "KEY_PRESSED_TIME2"
+msgstr "KEY_PRESSED_TIME2"
+
+
+#: ../../es/arduprog/pc42-key2.rst:78
+msgid "El pulsador se ha presionado durante 0,5 segundos"
+msgstr "The push button has been pressed for 0.5 seconds"
+
+
+#: ../../es/arduprog/pc42-key2.rst:80
+msgid "KEY_PRESSED_TIME3"
+msgstr "KEY_PRESSED_TIME3"
+
+
+#: ../../es/arduprog/pc42-key2.rst:80
+msgid "El pulsador se ha presionado durante 2,0 segundos"
+msgstr "Push button has been pressed for 2.0 seconds"
+
+
+#: ../../es/arduprog/pc42-key2.rst:82
+msgid "KEY_RELEASED"
+msgstr "KEY_RELEASED"
+
+
+#: ../../es/arduprog/pc42-key2.rst:82
+msgid "El pulsador se ha dejado de presionar"
+msgstr "The button has been released"
+
+
+#: ../../es/arduprog/pc42-key2.rst:85
+msgid ""
+"Estos valores de tiempo son los valores predefinidos después de iniciar la "
+"placa y se pueden cambiar en la configuración."
+msgstr ""
+"These time values ​​are the default values ​​after starting the board and "
+"can be changed in the settings."
+
+
+#: ../../es/arduprog/pc42-key2.rst:89
+msgid "|keyNum|"
+msgstr "|keyNum|"
+
+
+#: ../../es/arduprog/pc42-key2.rst:93
+msgid "Encender un led al presionar un pulsador cierto tiempo"
+msgstr "Turn on a led when a button is pressed for a certain time"
+
+
+#: ../../es/arduprog/pc42-key2.rst:95
+msgid ""
+"En este ejemplo, un led se encenderá después de que se presione su pulsador "
+"durante más de medio segundo"
+msgstr ""
+"In this example, a led will light after its push button is pressed for more "
+"than half a second."
+
+
+#: ../../es/arduprog/pc42-key2.rst:104
+msgid ""
+"El ejemplo puede modificarse con facilidad para que se encienda después de "
+"presionar dos segundos."
+msgstr ""
+"The example can be easily modified to turn on after a two second press."
+
+
+#: ../../es/arduprog/pc42-key2.rst:129
+msgid "Múltiples funciones en un pulsador"
+msgstr "Multiple functions in one button"
+
+
+#: ../../es/arduprog/pc42-key2.rst:131
+msgid ""
+"Este ejemplo es un poco más complejo y demuestra la capacidad de los eventos"
+" para dar más de un significado a un solo pulsador. Gracias a esta "
+"capacidad, un solo pulsador podrá realizar muchas funciones por sí solo."
+msgstr ""
+"This example is a bit more complex and demonstrates the ability of events to"
+" give more than one meaning to a single push button. Thanks to this "
+"capability, a single push button will be able to perform many functions on "
+"its own."
+
+
+#: ../../es/arduprog/pc42-key2.rst:142
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/arduprog/pc42-key2.rst:143
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+
+#: ../../es/arduprog/pc42-key2.rst:145
+msgid ""
+"El siguiente programa enciende el led D1 al presionar el pulsador D1 y apaga"
+" el led D1 al volver a presionar el pulsador 1. Se utiliza una variable para"
+" almacenar el estado del led D1. Se pide modificar el programa para que "
+"también el led D2 se encienda y apague con el pulsador 2."
+msgstr ""
+"The following program turns on led D1 when button D1 is pressed and turns "
+"off led D1 when button 1 is pressed again. A variable is used to store the "
+"state of led D1. It is requested to modify the program so that led D2 also "
+"turns on and off with button 2."
+
+
+#: ../../es/arduprog/pc42-key2.rst:157
+msgid ""
+"El siguiente programa mueve hacia la derecha un led cuando se presiona el "
+"pulsador 2. Modificar el programa para que el led se mueva hacia la "
+"izquierda al presionar el pulsador 1."
+msgstr ""
+"The following program moves a led to the right when button 2 is pressed. "
+"Modify the program so that the led moves to the left when button 1 is "
+"pressed."
+
+
+#: ../../es/arduprog/pc42-key2.rst:166
+msgid ""
+"Modificar el programa anterior para que se encienda el led D1 y se apaguen "
+"el resto de leds al presionar el pulsador 6 ``KEY_BACK`` durante dos "
+"segundos."
+msgstr ""
+"Modify the previous program so that led D1 lights up and the rest of the "
+"leds go off when pressing button 6 ``KEY_BACK`` for two seconds."

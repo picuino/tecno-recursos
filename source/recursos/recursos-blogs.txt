@@ -1,0 +1,60 @@
+﻿:Date: 16/09/2022
+:Updated: 24/04/2023
+:Author: Carlos Félix Pardo Martín
+:License: Creative Commons Attribution-ShareAlike 4.0 International
+:tocdepth: 1
+
+.. _recursos-blogs:
+
+Blogs y webs de Tecnología para Secundaria
+==========================================
+
+Ranking de blogs y páginas web de Tecnología para Educación Secundaria.
+
+Los `ranking de Similarweb <https://www.similarweb.com/es/>`__
+se han tomado en abril de 2023, por lo que corresponden a los
+datos de marzo de 2023.
+
+Para realizar la ordenación de las páginas web se ha tomado como
+base el cálculo de la multiplicación del número de visitas mensuales por
+la duración media de las visitas.
+Los números más altos se colocan primeros en la lista.
+
+Cuando estos datos no están disponibles, se ha ordenado según el
+ranking suministrado por Similarweb.
+
+----
+
+{% for web in webs -%}
+{% set rank = web.similarweb_rank -%}
+{% if rank is number -%}
+{% set rank = '{:0.1f} k'.format(rank / 1000.0) -%}
+{% endif -%}
+{% set title =  web.webname + ' <' + web.url + '>' -%}
+{% set title_length = title|length -%}
+
+{{ "%02d" | format(loop.index) }}. `{{ title }}`__
+--------{{ '-' * title_length }}
+
+   .. image:: recursos/screenshots/{{ web.screenshot }}
+      :target: {{ web.url }}
+      :alt: Screenshot de la página web {{ web.webname }}.
+
+   .. list-table::
+
+      * - `Similarweb rank <{{ web.similarweb_url }}>`__
+        - {{ rank }}
+   {%- if 'visitas' in web %}
+      * - Visitas al mes
+        - {{web.visitas}} k
+      * - Duración de visita
+        - {{web.duracion}} s
+   {%- endif %}
+
+   {%- if 'comentario' in web %}
+
+   {{ web.comentario | indent(3)}}
+   {%- endif %}
+
+
+{% endfor %}

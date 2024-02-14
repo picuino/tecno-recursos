@@ -1,0 +1,190 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/control-sensor-dht11.rst:9
+msgid "Sensor de temperatura y humedad DHT11"
+msgstr "DHT11 temperature and humidity sensor"
+
+
+#: ../../es/control-sensor-dht11.rst:12
+msgid ""
+"El sensor DHT11 es un sensor digital de temperatura y humedad relativa del "
+"aire. Utiliza una comunicación digital con Arduino, de forma que no es "
+"necesaria la conexión a un pin analógico para realizar las lecturas."
+msgstr ""
+"The DHT11 sensor is a digital sensor for temperature and relative humidity "
+"of the air. It uses digital communication with Arduino, so it is not "
+"necessary to connect to an analog pin to take the readings."
+
+
+#: ../../es/control-sensor-dht11.rst:23
+msgid "Especificaciones técnicas"
+msgstr "Technical specifications"
+
+
+#: ../../es/control-sensor-dht11.rst:24
+msgid "Tensión de alimentación de 3 a 5 voltios"
+msgstr "Supply voltage from 3 to 5 volts"
+
+
+#: ../../es/control-sensor-dht11.rst:25
+msgid "Corriente máxima de alimentación 2,5 mA"
+msgstr "Maximum supply current 2.5 mA"
+
+
+#: ../../es/control-sensor-dht11.rst:26
+
+
+#, python-format
+msgid "Rango de humedad relativa 20% a 80% con 5% de exactitud"
+msgstr "Relative humidity range 20% to 80% with 5% accuracy"
+
+
+#: ../../es/control-sensor-dht11.rst:27
+msgid "Rango de temperatura de 0 a 50ºC con +-2ºC de exactitud"
+msgstr "Temperature range from 0 to 50ºC with +-2ºC accuracy"
+
+
+#: ../../es/control-sensor-dht11.rst:28
+msgid "Velocidad de 1 medida por segundo"
+msgstr "Speed ​​of 1 measurement per second"
+
+
+#: ../../es/control-sensor-dht11.rst:29
+msgid "Tamaño 15,5mm x 12mm x 5,5mm"
+msgstr "Size 15.5mm x 12mm x 5.5mm"
+
+
+#: ../../es/control-sensor-dht11.rst:30
+msgid "Conexión de 4 pines"
+msgstr "4 pin connection"
+
+
+#: ../../es/control-sensor-dht11.rst:33
+msgid ""
+":download:`DHT11. Hoja de características. D-Robotics "
+"<control/_downloads/DHT11-drobotics.pdf>`"
+msgstr ""
+":download:`DHT11. Characteristics sheet. D-Robotics "
+"<control/_downloads/DHT11-drobotics.pdf>`"
+
+
+#: ../../es/control-sensor-dht11.rst:38
+msgid "Librería Arduino"
+msgstr "Arduino Library"
+
+
+#: ../../es/control-sensor-dht11.rst:39
+msgid ""
+":download:`Librería Arduino para el sensor DHT11. Versión 0.4.1 "
+"<control/_downloads/dht11-041.zip>`"
+msgstr ""
+":download:`Arduino library for the DHT11 sensor. Version 0.4.1 "
+"<control/_downloads/dht11-041.zip>`"
+
+
+#: ../../es/control-sensor-dht11.rst:44
+msgid "Esquema de conexión"
+msgstr "Connection scheme"
+
+
+#: ../../es/control-sensor-dht11.rst:58
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/control-sensor-dht11.rst:60
+msgid ""
+"El siguiente programa envía por el puerto serie la humedad relativa y la "
+"temperatura medida por el sensor DHT11."
+msgstr ""
+"The following program sends through the serial port the relative humidity "
+"and the temperature measured by the DHT11 sensor."
+
+
+#: ../../es/control-sensor-dht11.rst:63
+msgid ""
+"Carga el programa en Arduino y muestra los valores por el monitor serie."
+msgstr ""
+"Upload the program to the Arduino and display the values ​​on the serial "
+"monitor."
+
+
+#: ../../es/control-sensor-dht11.rst:119
+msgid ""
+"Modifica el programa anterior para que muestre en el display la medición de "
+"temperatura."
+msgstr ""
+"Modify the previous program so that it shows the temperature measurement on "
+"the display."
+
+
+#: ../../es/control-sensor-dht11.rst:122
+msgid ""
+"Modifica el programa anterior para que se encienda un led rojo en caso de "
+"superar la temperatura ambiental en 2 grados centígrados."
+msgstr ""
+"Modify the previous program so that a red LED lights up if the ambient "
+"temperature exceeds 2 degrees Celsius."
+
+
+#: ../../es/control-sensor-dht11.rst:125
+msgid ""
+"Comprueba el funcionamiento correcto calentando el sensor. El led rojo debe "
+"mantenerse encendido aunque la temperatura vuelva a bajar."
+msgstr ""
+"Check correct operation by heating the sensor. The red led should stay on "
+"even if the temperature drops again."
+
+
+#: ../../es/control-sensor-dht11.rst:129
+msgid ""
+"Modifica el programa anterior para que suene un zumbador cuando la "
+"temperatura sea alta. El zumbador sonará durante unas décimas de segundo "
+"cada segundo. Las instrucciones a utilizar son las siguientes:"
+msgstr ""
+"Modify the above program to make a buzzer sound when the temperature is "
+"high. The buzzer will sound for a few tenths of a second every second. The "
+"instructions to use are as follows:"
+
+
+#: ../../es/control-sensor-dht11.rst:140
+msgid ""
+"El zumbador dejará de sonar cuando la temperatura vuelva a bajar. Comprueba "
+"el funcionamiento correcto calentando el sensor."
+msgstr ""
+"The buzzer will stop sounding when the temperature drops again. Check "
+"correct operation by heating the sensor."
+
+
+#: ../../es/control-sensor-dht11.rst:144
+msgid ""
+"Modifica el programa anterior para que se encienda un led azul mientras la "
+"medida de temperatura se mantenga baja."
+msgstr ""
+"Modify the previous program so that a blue led lights up while the "
+"temperature measurement remains low."
+
+
+#: ../../es/control-sensor-dht11.rst:147
+msgid ""
+"El led azul se apagará en caso de que la temperatura medida supere la "
+"temperatura ambiental actual más un grado."
+msgstr ""
+"The blue led will turn off if the measured temperature exceeds the current "
+"ambient temperature plus one degree."

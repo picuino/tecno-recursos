@@ -1,0 +1,244 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-17 20:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/uno-doc/uno-led1.rst:7
+msgid "Encendido y apagado de los LED"
+msgstr "Turning the LEDs on and off"
+
+#: ../../source/uno-doc/uno-led1.rst:10
+msgid "Objetivos"
+msgstr "Goals"
+
+#: ../../source/uno-doc/uno-led1.rst:11
+msgid "Encender y apagar los diodos led del shield Picuino UNO."
+msgstr "Turn on and off the led diodes of the Picuino UNO shield."
+
+#: ../../source/uno-doc/uno-led1.rst:12
+msgid "Generar parpadeo de leds mediante esperas de tiempo."
+msgstr "Generate led blinking by waiting time."
+
+#: ../../source/uno-doc/uno-led1.rst:16
+msgid "Librería de manejo para Arduino"
+msgstr "Management library for Arduino"
+
+#: ../../source/uno-doc/uno-led1.rst:17
+msgid ""
+"Para poder comenzar a programar es necesario descargar e instalar "
+"previamente la :download:`librería necesaria para programar el shield "
+"Picuino UNO <_downloads/Picuino-UNO-05.zip>`"
+msgstr ""
+"In order to start programming, it is necessary to previously download and"
+" install the :download:`library needed to program the Picuino UNO shield "
+"<_downloads/Picuino-UNO-05.zip>`"
+
+
+#: ../../source/uno-doc/uno-led1.rst:21
+msgid ""
+"En la siguiente página web se pueden ver cómo los pasos necesarios para "
+"la instalación de una librería para Arduino."
+msgstr ""
+"In the following web page you can see how the necessary steps for the "
+"installation of a library for Arduino."
+
+#: ../../source/uno-doc/uno-led1.rst:24
+msgid ":ref:`add-library`"
+msgstr ":ref:`add-library`"
+
+#: ../../source/uno-doc/uno-led1.rst:28
+msgid "La función ``ledWrite``"
+msgstr "The ``ledWrite`` function"
+
+#: ../../source/uno-doc/uno-led1.rst:32
+msgid ""
+"Esta función permite encender o apagar un led concreto. Sus parámetros "
+"son los siguientes:"
+msgstr ""
+"This function allows you to turn a specific led on or off. Its parameters"
+" are the following:"
+
+#: ../../source/uno-doc/uno-led1.rst:35
+msgid ""
+"``ledNum``: led que se va a encender o apagar. Los valores válidos van "
+"desde 1 para el led D1 hasta 8 para el color azul del led D6."
+msgstr ""
+"``ledNum``: led to turn on or off. Valid values ​​range from 1 for led D1"
+" to 8 for the blue color of led D6."
+
+#: ../../source/uno-doc/uno-led1.rst:38
+msgid ""
+"El led D6 es un led RGB, que integra 3 leds en su interior. Los números "
+"6, 7, 8 representan respectivamente los colores rojo, verde y azul del "
+"led D6."
+msgstr ""
+"The D6 led is an RGB led, which integrates 3 leds inside. The numbers 6, "
+"7, 8 respectively represent the red, green and blue colors of led D6."
+
+#: ../../source/uno-doc/uno-led1.rst:46
+msgid "``bright``: brillo con el que se va a encender el led."
+msgstr "``bright``: brightness with which the led will light up."
+
+#: ../../source/uno-doc/uno-led1.rst:43
+msgid "``LED_OFF``: apaga el led. Se puede sustituir por el número cero."
+msgstr "``LED_OFF``: turns off the led. It can be replaced by the number zero."
+
+#: ../../source/uno-doc/uno-led1.rst:45
+msgid "``LED_ON``: enciende el led con la intensidad máxima."
+msgstr "``LED_ON``: turns on the led with maximum intensity."
+
+#: ../../source/uno-doc/uno-led1.rst:46
+msgid ""
+"Valores entre 2 y 255: enciende el led con una intensidad proporcional al"
+" número."
+msgstr ""
+"Values ​​between 2 and 255: turn on the led with an intensity "
+"proportional to the number."
+
+#: ../../source/uno-doc/uno-led1.rst:51
+msgid "Encender el led D1"
+msgstr "Turn on led D1"
+
+#: ../../source/uno-doc/uno-led1.rst:52
+msgid "El siguiente programa encenderá de forma permanente el led D1"
+msgstr "The following program will permanently light led D1"
+
+#: ../../source/uno-doc/uno-led1.rst:71
+msgid "Parpadeo del led D1"
+msgstr "LED D1 flashing"
+
+#: ../../source/uno-doc/uno-led1.rst:72
+msgid ""
+"Si se desea encender y apagar el led D1 con un periodo de un segundo, una"
+" forma de realizarlo es encender el led, esperar medio segundo, apagar el"
+" led y esperar medio segundo. Cuando esta secuencia se repite, el led "
+"parpadea. Para conseguir una espera de medio segundo se utiliza la "
+"función ``delay(500)`` que provoca una espera de 500 milisegundos (0,5 "
+"segundos). Para conseguir que la secuencia se repita indefinidamente, el "
+"código se introduce dentro del bloque ``loop()``, que se repite una y "
+"otra vez una vez iniciado el programa de Arduino."
+msgstr ""
+"If you want to turn led D1 on and off with a period of one second, one "
+"way to do it is to turn on the led, wait half a second, turn off the led "
+"and wait half a second. When this sequence is repeated, the led flashes. "
+"To achieve a half-second wait, use the ``delay(500)`` function, which "
+"causes a 500-millisecond (0.5-second) wait. To make the sequence loop "
+"indefinitely, the code is inserted inside the ``loop()`` block, which "
+"loops over and over once the Arduino program is started."
+
+#: ../../source/uno-doc/uno-led1.rst:103
+msgid "Ejercicios"
+msgstr "Exercises"
+
+#: ../../source/uno-doc/uno-led1.rst:104
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+#: ../../source/uno-doc/uno-led1.rst:106
+msgid "Encender los leds D1, D3 y D5 de forma permanente."
+msgstr "Turn on leds D1, D3 and D5 permanently."
+
+#: ../../source/uno-doc/uno-led1.rst:108
+msgid ""
+"Encender el led D1, esperar un segundo, encender el led D2, esperar un "
+"segundo y seguir así hasta que estén encendidos los 5 primeros led. Una "
+"vez terminado, el programa mantendrá los 5 leds encendidos."
+msgstr ""
+"Turn on led D1, wait one second, turn on led D2, wait one second and "
+"continue like this until the first 5 leds are on. Once finished, the "
+"program will keep the 5 leds on."
+
+#: ../../source/uno-doc/uno-led1.rst:113
+msgid "Encender los leds rojo, ámbar y verde como en un semáforo."
+msgstr "Turn on the red, amber and green leds as in a traffic light."
+
+#: ../../source/uno-doc/uno-led1.rst:115
+msgid ""
+"Primero se encenderá el led verde y permanecerá encendido durante 4 "
+"segundos. A continuación se apagará el led verde y se encenderá el led "
+"ámbar durante 2 segundos. Por último se apagará el led ámbar y se "
+"encenderá el rojo, que permanecerá encendido durante 4 segundos."
+msgstr ""
+"First the green led will light up and stay on for 4 seconds. Then the "
+"green led will turn off and the amber led will light up for 2 seconds. "
+"Finally, the amber led will turn off and the red one will turn on, which "
+"will remain on for 4 seconds."
+
+#: ../../source/uno-doc/uno-led1.rst:122
+msgid "Esta secuencia se repetirá indefinidamente."
+msgstr "This sequence will repeat indefinitely."
+
+#: ../../source/uno-doc/uno-led1.rst:124
+msgid ""
+"Modificar el ejercicio 3 para que el led ámbar parpadee tres veces, "
+"cambiando de encendido a apagado cada medio segundo, antes de pasar a "
+"encender el led rojo."
+msgstr ""
+"Modify exercise 3 so that the amber led flashes three times, changing "
+"from on to off every half second, before turning on the red led."
+
+#: ../../source/uno-doc/uno-led1.rst:128
+msgid ""
+"Programar una baliza que encienda alternativamente el led rojo y el led "
+"azul. Cada led debe permanecer encendido durante un segundo. Siempre debe"
+" estar uno de los dos led encendidos y nunca estarán los dos led "
+"encendidos a la vez."
+msgstr ""
+"Program a beacon that turns on alternately the red led and the blue led. "
+"Each led should stay on for one second. One of the two LEDs must always "
+"be on and both LEDs will never be on at the same time."
+
+#: ../../source/uno-doc/uno-led1.rst:134
+msgid ""
+"Encender el led D1, esperar un segundo, apagar el led D1 y encender el "
+"led D2. Se encenderán de esta forma, consecutivamente, los 5 primeros "
+"leds. En cada momento solo un led estará encendido. Una vez terminada la "
+"secuencia, comenzará de nuevo desde el principio."
+msgstr ""
+"Turn on led D1, wait a second, turn off led D1 and turn on led D2. In "
+"this way, the first 5 leds will light up consecutively. At each moment "
+"only one led will be on. Once the sequence is finished, it will start "
+"over from the beginning."
+
+#: ../../source/uno-doc/uno-led1.rst:141
+msgid ""
+"Realizar una modificación al ejercicio anterior para que en todo momento "
+"haya 2 leds encendidos. Al comenzar el programa deben encenderse los leds"
+" D1 y D2. Pasado un segundo se encenderán los leds D2 y D3. La secuencia "
+"continuará hasta llegar a la situación inicial."
+msgstr ""
+"Make a modification to the previous exercise so that at all times there "
+"are 2 LEDs on. When the program starts, leds D1 and D2 should light up. "
+"After a second, leds D2 and D3 will light up. The sequence will continue "
+"until reaching the initial situation."
+
+#: ../../source/uno-doc/uno-led1.rst:147
+msgid ""
+"El siguiente programa tiene varios errores, corrige los errores "
+"sintácticos para que funcione correctamente."
+msgstr ""
+"The following program has several errors, correct the syntax errors so "
+"that it works correctly."
+
+#: ../../source/uno-doc/uno-led1.rst:178
+msgid ""
+"Realizar un programa que haga parpadear D1 una vez por segundo a la vez "
+"que D2 parpadea dos veces por segundo."
+msgstr ""
+"Make a program that makes D1 blink once per second while D2 blinks twice "
+"per second."
+

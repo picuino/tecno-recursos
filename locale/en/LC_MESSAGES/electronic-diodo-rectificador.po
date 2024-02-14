@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-08 19:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-diodo-rectificador.rst:9
+msgid "El diodo rectificador"
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:10
+msgid ""
+"Los diodos rectificadores están especializados en convertir la corriente "
+"alterna en corriente continua que necesitan la mayoría de los aparatos "
+"electrónicos."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:14
+msgid ""
+"Estos diodos pueden rectificar la corriente alterna que llega a nuestras "
+"casas, con tensiones relativamente altas (hasta 311 voltios de pico para "
+"una tensión alterna de 230 voltios eficaces)."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:18
+msgid ""
+"También se encuentran en los transformadores de alta frecuencia que "
+"utilizan casi todas las fuentes de alimentación de ordenadores, "
+"cargadores de teléfonos inteligentes y tabletas, televisiones, etc."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:24
+msgid "Diodo rectificador de media onda"
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:25
+msgid ""
+"Este es el esquema más sencillo que se puede utilizar para convertir la "
+"corriente alterna en corriente continua. Este rectificador solo deja "
+"pasar el semiciclo positivo de la tensión alterna y bloquea el semiciclo "
+"negativo."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:30
+msgid ""
+"Este esquema tiene el inconveniente de que la corriente de salida es "
+"pulsante y se desperdicia la mitad de la tensión de entrada."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:41
+msgid "Diodo rectificador de onda completa"
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:42
+msgid ""
+"Este esquema consigue transformar tanto los semiciclos positivos como los"
+" semiciclos negativos de la tensión de entrada en tensión positiva a la "
+"salida."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:46
+msgid ""
+"Para poder funcionar utiliza dos diodos por cada línea de corriente "
+"alterna. En sistemas trifásicos, con tres líneas de tensión, se utilizan "
+"seis diodos en total para rectificar la tensión."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:50
+msgid ""
+"En las siguientes simulaciones se pueden ver dos configuraciones de "
+"diodos. Ambas son eléctricamente equivalentes y solo se diferencian en la"
+" posición de los diodos en el dibujo."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:68
+msgid "Diodo rectificador con filtro"
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:69
+msgid ""
+"El rectificador de onda completa consigue aprovechar toda la tensión "
+"alterna, pero todavía hay valles de tensión en los que la salida vale "
+"cero. Si queremos tener tensión continua a la salida, podemos utilizar un"
+" condensador que va a almacenar suficiente carga eléctrica para poder "
+"alimentar la carga de salida durante el tiempo que la tensión rectificada"
+" tiene valores bajos de tensión."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:76
+msgid ""
+"Este es un circuito muy usado en las fuentes de alimentación de todo tipo"
+" de aparatos electrónicos. Es interesante comprobar cómo la corriente que"
+" absorbe del generador de alterna es una corriente pulsante. Esto produce"
+" distorsiones en la corriente de la red de alimentación eléctrica al "
+"sumarse el efecto de múltiples aparatos electrónicos de muchos hogares."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:91
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:93
+msgid ""
+"Dibuja un circuito rectificador de media onda que rectifique la tensión "
+"alterna de 230 voltios y que alimente a una resistencia de 100 ohmios."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:97
+#: ../../source/electronic-diodo-rectificador.rst:106
+msgid ""
+"Dibuja debajo del circuito la forma de onda de la tensión en la "
+"resistencia."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:100
+msgid ""
+"Recuerda que en el simulador la gráfica verde representa la tensión y la "
+"gráfica amarilla representa la corriente."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:103
+msgid ""
+"Dibuja un circuito rectificador de onda completa basado en los valores "
+"del ejercicio anterior."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:109
+msgid ""
+"Realiza en el `simulador de circuitos "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ un "
+"rectificador de onda completa de una línea trifásica como el que aparece "
+"en la siguiente imagen."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:120
+msgid ""
+"El generador de arriba debe tener un 'Desplazamiento de Fase' de 0 grados"
+" (no hay que cambiarlo). El generador de en medio debe tener un "
+"'Desplazamiento de Fase' de 120 grados. El generador de abajo debe tener "
+"un 'Desplazamiento de Fase' de 240 grados."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:127
+msgid ""
+"Dibuja la forma de onda de la tensión de salida en la resistencia. ¿Qué "
+"puedes decir sobre la forma de onda en comparación con la forma de onda "
+"de un circuito monofásico como el del anterior ejercicio?"
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:133
+msgid "Modifica el condensador del circuito 'diodo rectificador con filtro'."
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:135
+msgid ""
+"Cambia el valor del condensador a **50uF**. ¿Qué cambios ocurren en la "
+"tensión de salida y la corriente del generador?"
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:138
+msgid ""
+"Cambia el valor del condensador a **800uF**. ¿Qué cambios ocurren en la "
+"tensión de salida y la corriente del generador?"
+msgstr ""
+
+#: ../../source/electronic-diodo-rectificador.rst:141
+msgid ""
+"Teniendo en cuenta que un condensador grande produce menos variación en "
+"la tensión de salida y que esto es deseable. ¿Por qué crees que no se "
+"utilizan condensadores grandes en este tipo de circuitos?"
+msgstr ""
+

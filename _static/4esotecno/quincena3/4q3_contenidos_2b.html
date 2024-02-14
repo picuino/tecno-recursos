@@ -1,0 +1,264 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena3/4q3_contenidos_2b.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:43:14 GMT -->
+<head>
+<title>Los objetos técnicos y la sociedad </title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+<!-- Esta función popup que aparece a continuación sirve para que aparezca el cuadro de texto al pasar el ratón por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta función que viene a continuación sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+
+
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+
+<link href="../paracidead1.css" rel="stylesheet" type="text/css">
+
+<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+<body onload="MM_preloadImages('imagen/paraantes3.png','imagen/paraconte.png','imagen/atrasb.png','imagen/paraantes2.png','imagen/paracont2.png','imagen/adelanteb.png','imagen/atrasb.png','imagen/paraantes3.png','imagen/paraconte.png','imagen/paraejer3.png','imagen/paraejer2.png','imagen/paraeval3.png','imagen/paraeval2.png','imagen/paratut3.png','imagen/paratut2.png','imagen/paramas3.png','imagen/paramas2.png','imagen/paracont3.png','imagen/paralapiz2.png')" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;"> 
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <tr>
+      <td><a href="4q3_centro.html" target="texto" onclick="MM_nbGroup('down','group1','antes','imagen/paraantes3.png',1)" onmouseover="MM_nbGroup('over','antes','imagen/paraantes2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen/paraantes.png" alt="" name="antes" width="130" height="18" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="texto" onClick="MM_nbGroup('down','group1','contenidos','imagen/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen/paracont2.png','imagen/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen/paraconte.png',1)" border="0"></a></td>
+      <td><a href="4q3_ejercicios_1a.html" target="texto" onclick="MM_nbGroup('down','group1','ejercicios','imagen/paraejer3.png',1)" onmouseover="MM_nbGroup('over','ejercicios','imagen/paraejer2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="4q3_autoeval_1a.html" target="texto" onclick="MM_nbGroup('down','group1','autoeval','imagen/paraeval3.png',1)" onmouseover="MM_nbGroup('over','autoeval','imagen/paraeval2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="4q3_tutor_1a.html" target="texto" onclick="MM_nbGroup('down','group1','paratutor','imagen/paratut3.png',1)" onmouseover="MM_nbGroup('over','paratutor','imagen/paratut2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="4q3_sabermas_1a.html" target="texto" onclick="MM_nbGroup('down','group1','paramas','imagen/paramas3.png',1)" onmouseover="MM_nbGroup('over','paramas','imagen/paramas2.png','imagen/paramas3.png',1)" onmouseout="MM_nbGroup('out')"><img src="imagen/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+  
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen/es1.gif" height="8" width="8"></td>
+      <td background="imagen/bor1.gif" height="8"></td>
+      <td background="imagen/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+	<table align="center" border="0" cellspacing="0" height="83%" width="800">
+     <tr>
+        <td background="imagen/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="778" height="446">
+          <tr> 
+            <td width="100%" valign="top" colspan="3"> <strong>
+			<font face="Geneva, Arial, Helvetica, sans-serif" size="4" color="#009999">
+			2</font></strong><font color="#009999" face="Geneva, Arial, Helvetica, sans-serif" size="4"><strong>. 
+                 Medios de transmisión </strong></font><div align="right"></div></td>
+          </tr>
+          <tr> 
+            <td rowspan="2" valign="top" width="347"> <p>
+			<strong>
+			<font face="Geneva, Arial, Helvetica, sans-serif" color="#666666">
+			Tipos de medios de transmisión inalámbrica</font></strong></p>
+			<p align="justify">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+			Cuando la información que queremos transmitir no se conduce mediante una corriente eléctrica, tenemos la posibilidad de transmitirla en forma de ondas, sin necesidad de cables (aunque también las ondas se pueden propagar a través de un cable de fibra óptica, como hemos visto). 
+			<br>
+			<br>
+			Una onda se define por las siguientes magnitudes: </p>
+			</font>
+			<font face="Verdana, Arial, Helvetica, sans-serif" style="font-size: 9pt">
+			</p>
+			</font><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+			<ul>
+				<li>
+				<p align="justify">La <b>frecuencia</b> (f) es la cantidad de veces que la onda se repite por segundo. Se mide en hercios o ciclos/segundo. </li>
+				<li>
+				<p align="justify">La <b>velocidad</b> (v) es la distancia que avanza la onda por unidad de tiempo. Se mide en metros/segundo.</li>
+				<li>
+				<p align="justify">La <b>energía</b> está estrechamente relacionada con la frecuencia; las ondas energéticas son las de mayor frecuencia.
+</li>
+				
+</ul>
+			</font></td>
+            <td valign="top" colspan="2"> <div align="center"> 
+				&nbsp;
+                                <ajs name="onda" width=384 height=304
+        code="Descartes.html" codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   
+   
+   
+   <param name="tama&ntilde;o" value="465x340">
+   <param name="sonido" value="s&iacute;">
+   <param name="&aacute;lgebra" value="s&iacute;">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="no">
+   <param name="nombre" value="onda">
+   <param name="Versi&oacute;n" value="4.41, 2010-12-16">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=s&iacute; config=s&iacute; inicio=s&iacute; limpiar=no filas_norte=1 filas_sur=2">
+   <param name="E_00" value="tipo='R2' id='Ref0' fijo='s&iacute;' despl_imagen='arr-izq' fondo='d1e7ff' red='grisClaro' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='Escena' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' nombre='Escena' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Vamos a estudiar algunas de las magnitudes propias de este tipo de movimiento. Tienes la posibilidad de poner sobre la cuerda un punto testigo o no.' par&aacute;metro.fuente='Monospaced,PLAIN,12' tooltip='Imagina una serie r&iacute;tmica de sacudidas transmiti&eacute;ndose por una cuerda.... clic derecho... ' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Vamos a estudiar algunas de las magnitudes propias de este tipo de movimiento. Tienes la posibilidad de poner sobre la cuerda un punto testigo o no.' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_01" value="id='A' tipo='num&eacute;rico' nombre='Amplitud (m)' valor='0.5' min='0.1' max='1' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n=' ' pos_mensajes='centro'">
+   <param name="C_02" value="id='c' tipo='num&eacute;rico' nombre='Punto testigo (0-1)' incr='1' min='0' max='1' decimales='0' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n=' ' pos_mensajes='centro'">
+   <param name="C_03" value="id='T' tipo='num&eacute;rico' nombre='Per&iacute;odo (s) ' valor='0.5' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n=' ' pos_mensajes='centro'">
+   <param name="C_04" value="id='L' tipo='num&eacute;rico' nombre='Longitud onda   (m)' valor='3' min='1' max='5' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n=' ' pos_mensajes='centro'">
+   <param name="C_05" value="id='A.1' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' nombre='A.1' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Escoge ver un punto testigo. Oprime el bot&oacute;n animar. Compara el movimiento de este punto con el de la onda y responde &iquest;Qu&eacute; &aacute;ngulo forma el movimiento de la part&iacute;cula con la propagaci&oacute;n de la onda? ' tooltip='&iquest;Viajan las part&iacute;culas con el movimiento ondulatorio?: ...clic..derecho' Explicaci&oacute;n='Escoge ver un punto testigo. Oprime el bot&oacute;n animar. Compara el movimiento de este punto con el de la onda y responde &iquest;Qu&eacute; &aacute;ngulo forma el movimiento de la part&iacute;cula con la propagaci&oacute;n de la onda? ' pos_mensajes='centro'">
+   <param name="C_06" value="id='A.2' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' nombre='A.2' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Modifica los valores de la amplitud, per&iacute;odo y longitud de onda y recuerda los conceptos que aprendiste en ONDAS.' tooltip='En las ondas transversales, la vibraci&oacute;n es perpendicular a la propagaci&oacute;n. La luz se propaga mediante ondas transversales...clic dcho...' Explicaci&oacute;n='Modifica los valores de la amplitud, per&iacute;odo y longitud de onda y recuerda los conceptos que aprendiste en ONDAS.' pos_mensajes='centro'">
+   <param name="C_07" value="id='E.1' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='interior' nombre='E.1' expresi&oacute;n='(263,248)' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='La vibraci&oacute;n es: a) paralela a la propagaci&oacute;n; b) perpendicular a la propagaci&oacute;n; c) tiene el mismo sentido que la propagaci&oacute;n.' tooltip='En una onda transversal....' Explicaci&oacute;n='La vibraci&oacute;n es: a) paralela a la propagaci&oacute;n; b) perpendicular a la propagaci&oacute;n; c) tiene el mismo sentido que la propagaci&oacute;n.' pos_mensajes='centro'">
+   <param name="C_08" value="id='E.2' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='interior' nombre='E.2' expresi&oacute;n='(363,248)' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Trata de definir con tus propias palabras los siguientes t&eacute;rminos:a) Per&iacute;odo, b) longitud de onda, c) amplitud. &iquest;Hay alguna relaci&oacute;n entre la longitud de onda y la amplitud? &iquest;Hay alguna relaci&oacute;n entre longitud de onda y frecuencia?' tooltip='Trata de definir con tus prospias palabras los siguientes t&eacute;rminos:' Explicaci&oacute;n='a) Per&iacute;odo, b) longitud de onda, c) amplitud. &iquest;Hay alguna relaci&oacute;n entre la longitud de onda y la amplitud? &iquest;Hay alguna relaci&oacute;n entre longitud de onda y frecuencia?' pos_mensajes='centro'">
+   <param name="C_09" value="id='t' tipo='num&eacute;rico' interfaz='bot&oacute;n' espacio='Ref0' nombre='Animar/Parar' decimales='0' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n='animar' pos_mensajes='centro'">
+   <param name="A_00" value="id='pi' constante='s&iacute;' expresi&oacute;n='3.1416' evaluar='una-sola-vez'">
+   <param name="G_00" value="tipo='sucesi&oacute;n' expresi&oacute;n='(-4+n*0.075,A*sen(2*pi*(t/T-(-4+n*0.075)/L)))' visible='no'">
+   <param name="G_01" value="tipo='punto' color='rojo' dibujar-si='c=1' expresi&oacute;n='(0,A*sen(2*pi*(t/T)))' fijo='s&iacute;' tama&ntilde;o='4'">
+   <param name="G_02" value="tipo='pol&iacute;gono' color='blanco' expresi&oacute;n='(-4.5,2.75)(4.5,2.75)(4.5,2.25)(-4.5,2.25)' relleno='blanco'">
+   <param name="G_03" value="tipo='texto' expresi&oacute;n='[20,11]' texto='Tiempo: [t] s' fijo='s&iacute;'">
+   <param name="G_04" value="tipo='texto' expresi&oacute;n='[150,11]' texto='Frecuencia: [1/T] Hz' fijo='s&iacute;'">
+   <param name="G_05" value="tipo='texto' expresi&oacute;n='[300,11]' texto='Velocidad: [L/T] m/s' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="controles='no' auto='no' inicio='t=0' hacer=';t=t+0.01' mientras='t&lt;1000*T'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</ajs></div>
+			</td>
+          </tr>
+          <tr> 
+            <td valign="top" width="4">
+			
+			
+			
+			
+			
+			&nbsp;</td>
+            <td valign="top" width="354">
+			
+			
+			
+			
+			
+			<table width="373" border="0" cellpadding="6" cellspacing="0" bordercolor="#999966" bgcolor="#eeeedd">
+                <tr> 
+                 
+<td class="recuadro" valign="top"> 
+                  
+                    <p class="apartado" align="right">Saber más&nbsp; <a href="#" onMouseOver="MM_swapImage('Image9','','imagen/paralapiz2.png',1)" onMouseOut="MM_swapImgRestore()"><img src="imagen/paralapiz1.png" alt="pulsa para ir" name="Image9" width="38" height="38" border="0" onClick="MM_openBrWindow('http://recursostic.educacion.es/newton/web/materiales_didacticos/EDAD_4eso_ondas/4quincena11/4q11_index.htm','calcula','width=1000,height=800')"></a>
+                   </td>
+                    </tr>
+              </table></td>
+          </tr>
+        </table>
+      </td>
+      
+     <td rowspan="2" background="imagen/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="imagen/es4.gif" height="8" width="8"></td>
+      <td background="imagen/bor3.gif" height="8"></td>
+      <td background="imagen/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center">
+		<a target="texto" onMouseOver="MM_swapImage('atras','','imagen/atrasb.png',1)" onMouseOut="MM_swapImgRestore()" href="4q3_contenidos_2a.html"><img src="imagen/atras.png" alt="anterior" name="atras" width="25" height="25" border="0"></a></div></td>
+      <td width="30"> 
+        <div align="center">
+			<a target="texto" onMouseOver="MM_swapImage('adelante','','imagen/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()" href="4q3_contenidos_2c.html"><img src="imagen/adelante.png" alt="siguiente" name="adelante" width="25" height="25" border="0"></a></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+</body>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena3/4q3_contenidos_2b.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:43:14 GMT -->
+</html>

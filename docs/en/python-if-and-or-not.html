@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Programming - Python tutorial - 10. and, or, not operators">
+  <title>10. and, or, not operators - Python tutorial - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/python-if-and-or-not.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="11. Nested if statements" href="python-if-anidados.html">
+  <link rel="prev" title="9. if else statement" href="python-if-else.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="prog-index.html">Programming</a>/</li>
+        
+          <li><a href="python-index.html">Python tutorial</a>/</li>
+        
+      <li><span class="section-number">10. </span><code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code> operators</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/python-if-and-or-not.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/python-if-and-or-not.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="operadores-and-or-not">
+<span id="python-if-and-or-not"></span><h1><span class="section-number">10. </span><code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code> operators<a class="headerlink" href="#operadores-and-or-not" title="Permalink to this headline">¶</a></h1>
+<p>These operators are used to make more complex conditions in an <code class="docutils literal notranslate"><span class="pre">if</span></code> statement.</p>
+<p>Example to calculate if a year is a leap year:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">anio</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un año:&#39;</span><span class="p">)</span> <span class="p">)</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">anio</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span> <span class="p">(</span><span class="n">anio</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">anio</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">anio</span><span class="p">,</span> <span class="s1">&#39;es bisiesto&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">anio</span><span class="p">,</span> <span class="s1">&#39;no es bisiesto&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Although parentheses are not always mandatory, it is advisable to use them so that the code can be better understood.</p>
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Write a program that asks for the name of the month we are in and checks whether it is spring or not.</p>
+<p>To simplify we will say that April, May and June are the spring months.</p>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="n">mes</span> <span class="o">==</span> <span class="s1">&#39;abril&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">mes</span> <span class="o">==</span> <span class="s1">&#39;mayo&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">mes</span> <span class="o">==</span> <span class="s1">&#39;junio&#39;</span><span class="p">):</span>
+   <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program that uses the <code class="docutils literal notranslate"><span class="pre">not</span></code> operator to check if a number entered from the keyboard is odd.</p>
+</li>
+<li><p class="first">Write a program that uses the <code class="docutils literal notranslate"><span class="pre">and</span></code> operator to check if a name is between 4 and 6 letters long.</p>
+<p>The length of a text string is measured with the len() function.</p>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s1">&#39;Sara&#39;</span><span class="p">)</span>
+<span class="go">    4</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s1">&#39;Santiago&#39;</span><span class="p">)</span>
+<span class="go">    8</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program that answers that you have to turn on drip irrigation whenever it is night and it is not raining.</p>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sensor_lluvia</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">sensor_de_dia</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Conecta el riego por goteo.&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Desconecta el riego por goteo.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Test the program with the four possible combinations on the sensors. What combinations cause irrigation to be connected?</p>
+</li>
+<li><p class="first">Write a program that prints a message when a number is positive, even, and not divisible by 3. Otherwise, it does not print any message.</p>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un número:&#39;</span><span class="p">)</span> <span class="p">)</span>
+<span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
+   <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s1">&#39;es positivo, es par y no es divisible por 3.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="python-if-anidados.html" class="btn btn-neutral float-right" title="11. Nested if statements" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="python-if-else.html" class="btn btn-neutral" title="9. if else statement" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/python-if-and-or-not.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programming</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Programming languages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-flowchart.html">Flowcharts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-codeorg.html">Code Tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scratch3-index.html">Scratch 3 tutorial</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="python-index.html">Python tutorial</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="python-intro.html">1. Introduction to the Python language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-datos-numeros.html">2. Numerical data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-variables.html">3. Variables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-palabras-reservadas.html">4. reserved words</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-comentarios.html">5. The comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-print.html">6. The <code class="xref py py-func docutils literal notranslate"><span class="pre">print()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-input.html">7. The <code class="xref py py-func docutils literal notranslate"><span class="pre">input()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-booleanos.html">8. The Boolean type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-else.html">9. <code class="docutils literal notranslate"><span class="pre">if</span></code> <code class="docutils literal notranslate"><span class="pre">else</span></code> statement</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">10. <code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code> operators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-anidados.html">11. Nested <code class="docutils literal notranslate"><span class="pre">if</span></code> statements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-elif.html">12. <code class="docutils literal notranslate"><span class="pre">elif</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for.html">13. <code class="docutils literal notranslate"><span class="pre">for</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-range.html">14. The <code class="xref py py-func docutils literal notranslate"><span class="pre">range()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-continue.html">15. <code class="docutils literal notranslate"><span class="pre">continue</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-break.html">16. <code class="docutils literal notranslate"><span class="pre">break</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-anidados.html">17. Nested <code class="docutils literal notranslate"><span class="pre">for</span></code> statements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-while.html">18. <code class="docutils literal notranslate"><span class="pre">while</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones.html">19. Definition of functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones-argumentos.html">20. Parameters with default values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos.html">21. text strings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-indices.html">22. Text string indices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-metodos.html">23. String methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-formateo.html">24. Formatting text strings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas.html">25. lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-indices.html">26. list indices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-iteracion.html">27. list iteration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-metodos.html">28. list methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda.html">29. Data search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda-binaria.html">30. Binary search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-desplazamiento.html">31. Data displacement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-seleccion.html">32. Sort by selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-insercion.html">33. Insertion sort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursividad.html">34. Recursion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-mezcla.html">35. Merge Sort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-codewars.html">36. Codewars</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursos.html">37. Python Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="prog-recursos.html">Programming Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

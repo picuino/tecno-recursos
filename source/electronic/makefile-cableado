@@ -1,0 +1,55 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+SOURCES=_sources
+
+LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 5
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z a
+
+
+# --------------------------------------------------------------------
+# electronic-cableado
+#
+
+$(IMGDIR)/electronic-cableado-circuitos.png: electronic-cableado-circuitos.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<).png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<).png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<).png
+
+electronic-cableado-circuitos.zip: $(LIBS) $(wildcard electronic-cableado/*)
+	rm -f $@ electronic-cableado/*.*bak
+	$(ZIP) $@ $^
+
+
+.PHONY: all-cableado  clean-cableado
+all-cableado: \
+	$(IMGDIR)/electronic-cableado-circuitos.png \
+	$(IMGDIR)/electronic-cableado-1.png \
+	electronic-cableado-circuitos.zip \
+
+clean-cableado:
+	rm -f $(IMGDIR)/electronic-cableado-circuitos.png
+
+
+# --------------------------------------------------------------------
+# make all
+#
+.PHONY: all clean
+all: \
+	all-cableado \
+
+
+clean: \
+	clean-cableado \

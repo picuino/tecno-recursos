@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="222 222 222" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="code_loop" id="1168">
+<Location>
+<X>289</X>
+<Y>316</Y>
+</Location>
+<BeforeBlockId>1166</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1169" connector-kind="socket" connector-type="string" init-type="string" label="Code" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="glue_msg" id="1169">
+<Label>// Si (i mayor que 6) i vale 1</Label>
+<Location>
+<X>383</X>
+<Y>319</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1168" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="code_loop" id="1166">
+<Location>
+<X>289</X>
+<Y>286</Y>
+</Location>
+<BeforeBlockId>1164</BeforeBlockId>
+<AfterBlockId>1168</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1167" connector-kind="socket" connector-type="string" init-type="string" label="Code" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="glue_msg" id="1167">
+<Label>// Aumentar i una unidad</Label>
+<Location>
+<X>383</X>
+<Y>289</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1166" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="code_loop" id="1164">
+<Location>
+<X>289</X>
+<Y>256</Y>
+</Location>
+<BeforeBlockId>1162</BeforeBlockId>
+<AfterBlockId>1166</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1165" connector-kind="socket" connector-type="string" init-type="string" label="Code" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="glue_msg" id="1165">
+<Label>// Apagar el led i</Label>
+<Location>
+<X>383</X>
+<Y>259</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1164" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="1163">
+<Label>i</Label>
+<Location>
+<X>492</X>
+<Y>227</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1016" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pc_keyPressed" id="1016">
+<Location>
+<X>292</X>
+<Y>227</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1162" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="1163" connector-kind="socket" connector-type="number" init-type="number" label="Botón" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="if" id="1162">
+<Location>
+<X>194</X>
+<Y>224</Y>
+</Location>
+<BeforeBlockId>727</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="1016" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Condición" position-type="single"/>
+<BlockConnector con-block-id="1164" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Si cumple" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="1161">
+<Label>i</Label>
+<Location>
+<X>338</X>
+<Y>173</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="727" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pc_ledWrite" id="727">
+<Location>
+<X>194</X>
+<Y>170</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<AfterBlockId>1162</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="1161" connector-kind="socket" connector-type="number" init-type="number" label="Led" position-type="single"/>
+<BlockConnector con-block-id="1014" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Estado" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="digital-on" id="1014">
+<Location>
+<X>338</X>
+<Y>197</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="727" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="setter_variable_number" id="1158">
+<Location>
+<X>195</X>
+<Y>105</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="1159" connector-kind="socket" connector-type="number" init-type="number" label="Variable" position-type="single"/>
+<BlockConnector con-block-id="1160" connector-kind="socket" connector-type="number" init-type="number" label="Valor" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="1160">
+<Location>
+<X>329</X>
+<Y>132</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1158" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="1159">
+<Label>i</Label>
+<Location>
+<X>329</X>
+<Y>108</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1158" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="program" id="141">
+<Location>
+<X>20</X>
+<Y>97</Y>
+</Location>
+<Comment>
+<Text>Mover la luz led hacia la derecha
+presionando los pulsadores en secuencia
+Programa incompleto.</Text>
+<Location>
+<X>19</X>
+<Y>17</Y>
+</Location>
+<BoxSize>
+<Width>382</Width>
+<Height>75</Height>
+</BoxSize>
+</Comment>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="1158" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Configuración" position-type="single"/>
+<BlockConnector con-block-id="727" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Bucle" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

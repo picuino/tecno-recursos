@@ -1,0 +1,29 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be 
+# normalized and converted to native line endings on checkout.
+*.txt text
+*.rst text
+
+# Declare files that will always have 
+# CRLF line endings on checkout.
+*.bat text eol=crlf
+
+
+# Declare files that will always have
+# LF line endings on checkout.
+*.ino text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
+*.pdf binary
+*.abp binary
+*.lib binary

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Programming - Python tutorial - 13. for statement">
+  <title>13. for statement - Python tutorial - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/python-for.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="14. The range() function" href="python-for-range.html">
+  <link rel="prev" title="12. elif statement" href="python-if-elif.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="prog-index.html">Programming</a>/</li>
+        
+          <li><a href="python-index.html">Python tutorial</a>/</li>
+        
+      <li><span class="section-number">13. </span><code class="docutils literal notranslate"><span class="pre">for</span></code> statement</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/python-for.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/python-for.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sentencia-for">
+<span id="python-for"></span><h1><span class="section-number">13. </span><code class="docutils literal notranslate"><span class="pre">for</span></code> statement<a class="headerlink" href="#sentencia-for" title="Permalink to this headline">¶</a></h1>
+<p>The <code class="docutils literal notranslate"><span class="pre">for</span></code> statement allows us to repeat a block of code several times while a variable is changing its value.</p>
+<p>This block of code that is repeated several times is called a <strong>loop</strong>.</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This example will print to the screen all the numbers from 1 to 9 (10 is not included in the range).</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">nombre</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Abel&#39;</span><span class="p">,</span> <span class="s1">&#39;Beatriz&#39;</span><span class="p">,</span> <span class="s1">&#39;Conchi&#39;</span><span class="p">,</span> <span class="s1">&#39;Diana&#39;</span><span class="p">,</span> <span class="s1">&#39;Elena&#39;</span><span class="p">,</span> <span class="s1">&#39;Francisco&#39;</span><span class="p">]:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hola&#39;</span><span class="p">,</span> <span class="n">nombre</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This example will print a greeting for all the names in the list, from 'Abel' to 'Elena'.</p>
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Write a program that prints the table of 6:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">6</span> <span class="n">x</span> <span class="mi">0</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">1</span> <span class="o">=</span> <span class="mi">6</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">12</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">3</span> <span class="o">=</span> <span class="mi">18</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">4</span> <span class="o">=</span> <span class="mi">24</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">5</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">6</span> <span class="o">=</span> <span class="mi">36</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">7</span> <span class="o">=</span> <span class="mi">42</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">8</span> <span class="o">=</span> <span class="mi">48</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">9</span> <span class="o">=</span> <span class="mi">54</span>
+<span class="mi">6</span> <span class="n">x</span> <span class="mi">10</span> <span class="o">=</span> <span class="mi">60</span>
+</pre></div>
+</div>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="o">...</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;6 x&#39;</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="s1">&#39;=&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="o">*</span><span class="n">b</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program that asks for a number and then adds all the numbers between 1 and the entered number.</p>
+<p>Example 1:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Introduce</span> <span class="n">un</span> <span class="n">número</span><span class="p">:</span> <span class="mi">5</span>
+<span class="n">La</span> <span class="n">suma</span> <span class="n">de</span> <span class="n">todos</span> <span class="n">los</span> <span class="n">números</span> <span class="n">desde</span>
+<span class="n">el</span> <span class="mi">1</span> <span class="n">hasta</span> <span class="n">el</span> <span class="mi">5</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">15</span>
+</pre></div>
+</div>
+<p>Example 2:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Introduce</span> <span class="n">un</span> <span class="n">número</span><span class="p">:</span> <span class="mi">27</span>
+<span class="n">La</span> <span class="n">suma</span> <span class="n">de</span> <span class="n">todos</span> <span class="n">los</span> <span class="n">números</span> <span class="n">desde</span>
+<span class="n">el</span> <span class="mi">1</span> <span class="n">hasta</span> <span class="n">el</span> <span class="mi">27</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">378</span>
+</pre></div>
+</div>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">suma</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="o">...</span>
+    <span class="n">suma</span> <span class="o">=</span> <span class="n">suma</span> <span class="o">+</span> <span class="n">i</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;La suma de todos los números desde&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;el 1 hasta el&#39;</span><span class="p">,</span> <span class="o">...</span> <span class="p">,</span><span class="s1">&#39;es igual a&#39;</span><span class="p">,</span> <span class="o">...</span> <span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program that asks for a number and then multiplies all the numbers between 1 and the entered number. This operation is called factorial.</p>
+<p>Example 1:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Introduce</span> <span class="n">un</span> <span class="n">número</span><span class="p">:</span> <span class="mi">3</span>
+<span class="n">El</span> <span class="n">factorial</span> <span class="n">de</span> <span class="mi">3</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">6</span>
+</pre></div>
+</div>
+<p>Example 2:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Introduce</span> <span class="n">un</span> <span class="n">número</span><span class="p">:</span> <span class="mi">10</span>
+<span class="n">El</span> <span class="n">factorial</span> <span class="n">de</span> <span class="mi">10</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">3628800</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program that prints on the screen all the ages from 10 to 20 and, next to it, that prints if it is older or younger:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">10</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">11</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">12</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">13</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">14</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">15</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">16</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">17</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">18</span> <span class="n">años</span><span class="p">,</span> <span class="n">mayor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">19</span> <span class="n">años</span><span class="p">,</span> <span class="n">mayor</span> <span class="n">de</span> <span class="n">edad</span>
+<span class="mi">20</span> <span class="n">años</span><span class="p">,</span> <span class="n">mayor</span> <span class="n">de</span> <span class="n">edad</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program that asks for a number and then prints if it is divisible by any number between 2 and 20.</p>
+<p>Example 1:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Introduce</span> <span class="n">un</span> <span class="n">número</span><span class="p">:</span> <span class="mi">60</span>
+
+<span class="mi">60</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">2</span>
+<span class="mi">60</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">3</span>
+<span class="mi">60</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">4</span>
+<span class="mi">60</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">5</span>
+<span class="mi">60</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">6</span>
+<span class="mi">60</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">10</span>
+<span class="mi">60</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">12</span>
+<span class="mi">60</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">15</span>
+<span class="mi">60</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">20</span>
+</pre></div>
+</div>
+<p>Example 2:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Introduce</span> <span class="n">un</span> <span class="n">número</span><span class="p">:</span> <span class="mi">28</span>
+
+<span class="mi">28</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">2</span>
+<span class="mi">28</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">4</span>
+<span class="mi">28</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">7</span>
+<span class="mi">28</span> <span class="n">es</span> <span class="n">divisible</span> <span class="n">por</span> <span class="mi">14</span>
+</pre></div>
+</div>
+<p>Note that a number 'num' is divisible by 5 if its remainder when divided by 5 equals zero:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="n">num</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s1">&#39; es divisible por &#39;</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a program that prints all the numbers from 1 to 100. Numbers divisible by 3 must be replaced by the word 'choco'. Numbers divisible by 5 must be replaced by the word 'late'. Numbers divisible by 3 and 5 must be replaced by the word 'chocolate':</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span>
+<span class="mi">2</span>
+<span class="n">choco</span>
+<span class="mi">4</span>
+<span class="n">late</span>
+<span class="n">choco</span>
+<span class="mi">7</span>
+<span class="mi">8</span>
+<span class="n">choco</span>
+<span class="n">late</span>
+<span class="mi">11</span>
+<span class="n">choco</span>
+<span class="mi">13</span>
+<span class="mi">14</span>
+<span class="n">chocolate</span>
+<span class="mi">16</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="o">.</span>
+</pre></div>
+</div>
+<p>Note that a number 'num' is divisible by 3 if its remainder when divided by 3 equals zero:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="n">num</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s1">&#39; es divisible por 3&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="python-for-range.html" class="btn btn-neutral float-right" title="14. The range() function" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="python-if-elif.html" class="btn btn-neutral" title="12. elif statement" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/python-for.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programming</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Programming languages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-flowchart.html">Flowcharts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-codeorg.html">Code Tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scratch3-index.html">Scratch 3 tutorial</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="python-index.html">Python tutorial</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="python-intro.html">1. Introduction to the Python language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-datos-numeros.html">2. Numerical data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-variables.html">3. Variables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-palabras-reservadas.html">4. reserved words</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-comentarios.html">5. The comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-print.html">6. The <code class="xref py py-func docutils literal notranslate"><span class="pre">print()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-input.html">7. The <code class="xref py py-func docutils literal notranslate"><span class="pre">input()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-booleanos.html">8. The Boolean type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-else.html">9. <code class="docutils literal notranslate"><span class="pre">if</span></code> <code class="docutils literal notranslate"><span class="pre">else</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-and-or-not.html">10. <code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code> operators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-anidados.html">11. Nested <code class="docutils literal notranslate"><span class="pre">if</span></code> statements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-elif.html">12. <code class="docutils literal notranslate"><span class="pre">elif</span></code> statement</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">13. <code class="docutils literal notranslate"><span class="pre">for</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-range.html">14. The <code class="xref py py-func docutils literal notranslate"><span class="pre">range()</span></code> function</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-continue.html">15. <code class="docutils literal notranslate"><span class="pre">continue</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-break.html">16. <code class="docutils literal notranslate"><span class="pre">break</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-anidados.html">17. Nested <code class="docutils literal notranslate"><span class="pre">for</span></code> statements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-while.html">18. <code class="docutils literal notranslate"><span class="pre">while</span></code> statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones.html">19. Definition of functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones-argumentos.html">20. Parameters with default values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos.html">21. text strings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-indices.html">22. Text string indices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-metodos.html">23. String methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-formateo.html">24. Formatting text strings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas.html">25. lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-indices.html">26. list indices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-iteracion.html">27. list iteration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-metodos.html">28. list methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda.html">29. Data search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda-binaria.html">30. Binary search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-desplazamiento.html">31. Data displacement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-seleccion.html">32. Sort by selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-insercion.html">33. Insertion sort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursividad.html">34. Recursion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-mezcla.html">35. Merge Sort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-codewars.html">36. Codewars</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursos.html">37. Python Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="prog-recursos.html">Programming Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

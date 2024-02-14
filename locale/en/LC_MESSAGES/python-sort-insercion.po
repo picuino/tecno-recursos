@@ -1,0 +1,198 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-09-19 15:16+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../source/python-sort-insercion.rst:9
+msgid "Ordenación por inserción"
+msgstr "Insertion sort"
+
+
+#: ../../source/python-sort-insercion.rst:10
+msgid ""
+"Este algoritmo de ordenación tiene la ventaja de que permite que la lista se"
+" modifique mientras se está produciendo la ordenación. La parte de la lista "
+"no ordenada puede crecer añadiendo elementos y la parte de la lista que ya "
+"está ordenada puede disminuir eliminando elementos. Esto hace que sea un "
+"algoritmo flexible."
+msgstr ""
+"This sorting algorithm has the advantage that it allows the list to be "
+"modified while the sort is occurring. The unordered part of the list can "
+"grow by adding elements and the already sorted part of the list can shrink "
+"by removing elements. This makes it a flexible algorithm."
+
+
+#: ../../source/python-sort-insercion.rst:16
+msgid ""
+"Este algoritmo se suele utilizar cuando el número de elementos a ordenar es "
+"pequeño (menos de 100 elementos). Para conjuntos de datos mayores hay "
+"algoritmos más rápidos y eficientes, como la ordenación por mezcla, por "
+"montículo o la ordenación rápida."
+msgstr ""
+"This algorithm is usually used when the number of elements to be sorted is "
+"small (less than 100 elements). For larger data sets there are faster and "
+"more efficient algorithms, such as merge sort, heap sort, or quick sort."
+
+
+#: ../../source/python-sort-insercion.rst:23
+msgid "Explicación del algoritmo"
+msgstr "Algorithm explanation"
+
+
+#: ../../source/python-sort-insercion.rst:24
+msgid ""
+"Al comienzo vamos a suponer que el primer elemento de la lista ya está "
+"ordenado, mientras que todos los demás están desordenados."
+msgstr ""
+"At first let's assume that the first item in the list is already sorted, "
+"while all the others are unordered."
+
+
+#: ../../source/python-sort-insercion.rst:27
+msgid ""
+"A continuación tomaremos el segundo elemento de la lista. Si este elemento "
+"es menor que el primer elemento de la lista, cambiaremos sus posiciones. En "
+"este punto ya tenemos dos elementos de la lista ordenados."
+msgstr ""
+"Next we will take the second item in the list. If this element is less than "
+"the first element in the list, we will change their positions. At this point"
+" we already have two list elements sorted."
+
+
+#: ../../source/python-sort-insercion.rst:31
+msgid ""
+"Continuaremos con el tercer elemento de la lista. Mientras sea menor le "
+"iremos intercambiando con el segundo y con el primer elemento de la lista, "
+"hasta que quede ordenado."
+msgstr ""
+"We will continue with the third item on the list. As long as it is smaller, "
+"we will exchange it with the second and the first element of the list, until"
+" it is ordered."
+
+
+#: ../../source/python-sort-insercion.rst:35
+msgid ""
+"El algoritmo continúa ordenando el resto de los elementos uno a uno hasta "
+"que coloca el último elemento de la lista en su sitio, momento en el que la "
+"ordenación de la lista ha terminado."
+msgstr ""
+"The algorithm continues sorting the rest of the elements one by one until it"
+" places the last element in the list in place, at which point the list "
+"sorting is complete."
+
+
+#: ../../source/python-sort-insercion.rst:41
+msgid "Programa de ordenación"
+msgstr "Management program"
+
+
+#: ../../source/python-sort-insercion.rst:42
+msgid ""
+"El programa completo de ordenación de elementos de una lista según el "
+"algoritmo de inserción será el siguiente::"
+msgstr ""
+"The complete program for sorting elements of a list according to the "
+"insertion algorithm will be as follows:"
+
+
+#: ../../source/python-sort-insercion.rst:75
+
+
+#: ../../source/python-sort-insercion.rst:116
+msgid "Salida::"
+msgstr "Exit::"
+
+
+#: ../../source/python-sort-insercion.rst:81
+msgid "Inserción binaria"
+msgstr "Binary insertion"
+
+
+#: ../../source/python-sort-insercion.rst:82
+msgid ""
+"El algoritmo de inserción permite una mejora que consiste en realizar la "
+"búsqueda del lugar de inserción correcto mediante búsqueda binaria, que ya "
+"se estudió en una unidad anterior."
+msgstr ""
+"The insertion algorithm allows an improvement that consists of searching for"
+" the correct insertion location using binary search, which was already "
+"studied in a previous unit."
+
+
+#: ../../source/python-sort-insercion.rst:86
+msgid "El algoritmo mejorado de inserción binaria es el siguiente::"
+msgstr "The improved binary insertion algorithm is as follows:"
+
+
+#: ../../source/python-sort-insercion.rst:122
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../source/python-sort-insercion.rst:124
+msgid ""
+"Escribe una función que ordene una lista de tres elementos por el algoritmo "
+"de inserción, sin utilizar bucles de ningún tipo, solo con sentencias "
+"``if``."
+msgstr ""
+"Write a function that sorts a list of three elements by the insertion "
+"algorithm, without using loops of any kind, just with ``if`` statements."
+
+
+#: ../../source/python-sort-insercion.rst:128
+msgid ""
+"Llama a la función con el siguiente código para comprobar que la función "
+"``ordena()`` funciona correctamente::"
+msgstr ""
+"Call the function with the following code to verify that the ``order()`` "
+"function works correctly::"
+
+
+#: ../../source/python-sort-insercion.rst:147
+msgid ""
+"Reescribe el programa de ordenación para que ordene los elementos en sentido"
+" contrario, de mayor a menor. Deberás cambiar los nombres de las funciones y"
+" de las variables para que se adapten a la nueva función que estén "
+"realizando."
+msgstr ""
+"Rewrite the sorting program so that it orders the elements in the opposite "
+"direction, from largest to smallest. You will need to change the names of "
+"the functions and variables to adapt to the new function they are "
+"performing."
+
+
+#: ../../source/python-sort-insercion.rst:153
+msgid ""
+"Reescribe el programa de ordenación para que realice la ordenación de la "
+"lista en una sola función, sin separar el código en dos funciones distintas."
+" Recuerda cambiar el nombre de las variables de la función "
+"``inserta_elemento`` para que no sean los mismos."
+msgstr ""
+"Rewrite the sort program so that it performs list sorting in a single "
+"function, without separating the code into two different functions. Remember"
+" to change the name of the variables in the ``insert_item`` function so that"
+" they are not the same."
+
+
+#: ../../source/python-sort-insercion.rst:160
+msgid ""
+"Escribe un algoritmo de ordenación por inserción que ordene las cadenas de "
+"texto por longitud de cadena, de manera que al comienzo se coloquen las "
+"palabras más cortas y al final las más largas::"
+msgstr ""
+"Write an insertion sort algorithm that sorts text strings by string length, "
+"so that the shortest words are placed at the beginning and the longest words"
+" at the end:"

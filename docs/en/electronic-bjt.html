@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 6. El transistor">
+  <title>6. El transistor - Electrónica analógica - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/electronic-bjt.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="7. El transistor en emisor común" href="electronic-bjt-common-e.html">
+  <link rel="prev" title="5. El diodo led" href="electronic-diodo-led.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="electronic-index.html">Electronics</a>/</li>
+        
+          <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
+        
+      <li><span class="section-number">6. </span>El transistor</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/electronic-bjt.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/electronic-bjt.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="el-transistor">
+<span id="electronic-bjt"></span><h1><span class="section-number">6. </span>El transistor<a class="headerlink" href="#el-transistor" title="Permalink to this headline">¶</a></h1>
+<p>El transistor es un dispositivo electrónico de tres terminales que permite
+amplificar la corriente eléctrica.
+Tiene múltiples aplicaciones van desde fabricar amplificadores de audio,
+osciladores de radio, reguladores de tensión, controladores
+para motores eléctricos, fuentes de alimentación, circuitos digitales,
+microprocesadores, memorias, etc.
+El transistor forma parte de prácticamente todos los circuitos
+electrónicos.</p>
+<div class="section" id="el-transistor-bipolar">
+<h2>El transistor bipolar<a class="headerlink" href="#el-transistor-bipolar" title="Permalink to this headline">¶</a></h2>
+<p>Es un tipo concreto de transistor basado en 3 zonas
+semiconductoras dopadas alternativamente como positivas y negativas.
+De ahí que existan dos transistores diferentes, un denominado NPN y
+otro denominado PNP, según el dopaje positivo o negativo de las tres
+zonas.</p>
+<p>Los símbolos de los dos transistores bipolares son los siguientes:</p>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="_images/electronic-analog-bjt-npn.png"><img alt="Símbolo del diodo semiconductor." src="_images/electronic-analog-bjt-npn.png" style="width: 180px;"></a>
+<p class="caption"><span class="caption-text">Símbolo del transistor bipolar NPN.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id2">
+<a class="reference internal image-reference" href="_images/electronic-analog-bjt-pnp.png"><img alt="Símbolo del diodo semiconductor." src="_images/electronic-analog-bjt-pnp.png" style="width: 180px;"></a>
+<p class="caption"><span class="caption-text">Símbolo del transistor bipolar PNP.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>El funcionamiento de ambos tipos de transistores es muy semejante con
+la diferencia de que el transistor PNP trabaja con corrientes negativas
+mientras que el transistor NPN trabaja con corrientes positivas.</p>
+<p>En la práctica el transistor NPN es más utilizado porque es más eficiente
+a la hora de conducir la corriente eléctrica. Por esa razón se estudiará
+más en profundidad. El transistor PNP se verá más adelante en
+configuraciones que utilizan los dos tipos de transistores, como la salida
+analógica en push-pull o la salida digital en totem-pole.</p>
+</div>
+<div class="section" id="el-transistor-como-amplificador">
+<h2>El transistor como amplificador<a class="headerlink" href="#el-transistor-como-amplificador" title="Permalink to this headline">¶</a></h2>
+<p>En el siguiente circuito podemos experimentar el funcionamiento de
+un amplificador típico basado en transistor.</p>
+<p>La <strong>unión base-emisor</strong> del transistor se comporta como un diodo,
+por lo que necesita una tensión de 0.65 voltios para poder conducir
+corriente.</p>
+<p>En la barra lateral derecha hay una barra deslizante que permite cambiar
+el valor de la resistencia de polarización de base. Esta resistencia
+permite el paso de una pequeña corriente. El transistor amplifica la
+corriente que llega por la base y deja pasar desde el colector hasta el
+emisor una corriente mucho mayor, multiplicando la corriente de base
+por la ganancia.</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=bjt-simple.txt"></iframe>
+</div></div>
+<div class="section" id="ganancia-del-transistor">
+<h2>Ganancia del transistor<a class="headerlink" href="#ganancia-del-transistor" title="Permalink to this headline">¶</a></h2>
+<p>La corriente de colector en un transistor típico es de 50 a 300 veces
+mayor que la corriente de base. Esta relación entre la corriente de
+colector y la corriente de base se denomina <strong>ganancia</strong> del
+transistor, también denominada como β o parámetro <strong>hfe</strong>.</p>
+<p>La fórmula de la ganancia del transistor por lo tanto será:</p>
+<div class="math">
+<p><img src="_images/math/4893171dace9a06e7b1c14185993b1fca092dfcf.svg" alt="\beta = hfe = \cfrac{I_{colector}}{I_{base}}"></p>
+</div><p>Donde las variables son:</p>
+<blockquote>
+<div><p>β = hfe = ganancia del transistor (número adimensional)</p>
+<p>I_colector = corriente del colector en amperios [A]</p>
+<p>I_base = corriente de base en amperios [A]</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Los transistores de potencia son transistores capaces de conducir
+corrientes altas, mayores de un amperio. Estos transistores pueden
+tener una ganancia menor de 50 cuando trabajan con grandes
+corrientes.</p>
+<p class="last">Lo mismo ocurre con los transistores de alta frecuencia, que a
+frecuencias de trabajo cercanas a su límite tienen una ganancia
+mucho menor que a bajas frecuencias.</p>
+</div>
+</div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Dibuja el símbolo del transistor NPN y del transistor PNP
+y añade los nombres de cada uno de sus terminales.</p>
+</li>
+<li><p class="first">¿Qué función tiene un transistor bipolar?</p>
+</li>
+<li><p class="first">Dibuja un esquema eléctrico de un transistor bipolar funcionando.
+Añade las corrientes y las tensiones que podemos encontrar en cada uno
+de sus tres terminales.</p>
+</li>
+<li><p class="first">Comprueba que la ganancia del transistor simulado vale 100 calculando
+la relación entre la corriente de colector dividida por la corriente
+de base.</p>
+</li>
+<li><p class="first">Desliza la barra de la derecha llamada <code class="docutils literal notranslate"><span class="pre">Resistencia</span></code> y comprueba si
+la ganancia se mantiene para varias posiciones.</p>
+</li>
+<li><p class="first">Cuando la resistencia de base deja pasar mucha corriente, llega un
+momento que el transistor se <strong>satura</strong> y no puede conducir más
+corriente.</p>
+<p>Este es un comportamiento típico de los circuitos digitales, pero se
+intenta evitar en los circuitos analógicos.</p>
+<p>¿Cuál es la tensión entre el emisor y el colector cuando el transistor
+está <strong>saturado</strong>?</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="electronic-bjt-common-e.html" class="btn btn-neutral float-right" title="7. El transistor en emisor común" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="electronic-diodo-led.html" class="btn btn-neutral" title="5. El diodo led" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/electronic-bjt.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">6. El transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

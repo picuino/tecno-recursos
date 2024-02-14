@@ -1,0 +1,1233 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:10
+msgid "Zumbador"
+msgstr "Buzzer"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:29
+msgid "Objetivos"
+msgstr "Goals"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:30
+msgid "Emitir un tono de una frecuencia determinada con el zumbador"
+msgstr "Emit a tone of a certain frequency with the buzzer"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:31
+msgid "Controlar el tiempo de emisión de sonido"
+msgstr "Control the sound emission time"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:32
+msgid "Emitir notas musicales con el zumbador"
+msgstr "Emit musical notes with the buzzer"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:36
+msgid "Zumbador o Buzzer emisor de sonidos"
+msgstr "Buzzer or Buzzer emitting sounds"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:38
+msgid ""
+"El zumbador (en inglés buzzer) es un pequeño altavoz con forma cilíndrica y "
+"de color negro, situado entre el teclado y el display. Su función es hacer "
+"señales acústicas para llamar la atención, por esa razón tiene un sonido "
+"especialmente agudo y penetrante. La calidad del sonido emitido es pobre. El"
+" zumbador no tiene control sobre la intensidad del sonido ni sobre su timbre"
+" (sonoridad). Por otro lado, el zumbador sí que tiene la capacidad de "
+"reproducir diferentes notas musicales controlando la frecuencia (tono) y la "
+"duración (figura) del sonido emitido. Esto le permite reproducir partituras "
+"de una forma simple."
+msgstr ""
+"The buzzer is a small black cylindrical speaker located between the keyboard"
+" and the display. Its function is to make acoustic signals to attract "
+"attention, for this reason it has a particularly high-pitched and "
+"penetrating sound. The quality of the emitted sound is poor. The buzzer has "
+"no control over the intensity of the sound or its timbre (loudness). On the "
+"other hand, the buzzer does have the ability to reproduce different musical "
+"notes by controlling the frequency (tone) and duration (figure) of the "
+"emitted sound. This allows you to play sheet music in a simple way."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:48
+msgid ""
+"Las unidades utilizadas para medir frecuencia serán los **hercios**, o su "
+"símbolo **Hz**."
+msgstr ""
+"The units used to measure frequency will be **hertz**, or its symbol **Hz**."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:51
+msgid ""
+"Un hercio equivale a una oscilación por segundo. Otra unidad común es el "
+"kilohercio o kHz que equivale a 1000 Hz ó mil oscilaciones por segundo."
+msgstr ""
+"One hertz equals one oscillation per second. Another common unit is the "
+"kilohertz or kHz which is equivalent to 1000 Hz or one thousand oscillations"
+" per second."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:55
+msgid ""
+"Las unidades utilizadas para medir tiempo serán los **milisegundos** o su "
+"símbolo **ms**"
+msgstr ""
+"The units used to measure time will be **milliseconds** or its symbol **ms**"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:58
+msgid "Mil milisegundos equivalen a un segundo."
+msgstr "One thousand milliseconds equals to one second."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:60
+msgid ""
+"El oido humano es más sensible al rango de frecuencias que va desde 500 Hz "
+"(graves) hasta los 2000 Hz (agudos). Este rango lo cubre aproximadamente las"
+" octavas 5ª y 6ª (octavas musicales segunda y tercera)"
+msgstr ""
+"The human ear is most sensitive to the frequency range from 500 Hz (bass) to"
+" 2000 Hz (treble). This range is covered by approximately the 5th and 6th "
+"octaves (musical second and third octaves)."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:68
+msgid "La función :cpp:func:`buzzFreq`"
+msgstr "The :cpp:func:`buzzFreq` function"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:72
+msgid ""
+"Esta función emite un sonido por el zumbador con una frecuencia determinada."
+msgstr ""
+"This function emits a sound through the buzzer with a certain frequency."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:74
+msgid ""
+"``Frequency``: este parámetro establece la frecuencia del sonido que se va a"
+" emitir por el zumbador. Una frecuencia cero apaga el oscilador interno y "
+"mantiene al zumbador en silencio. El rango de frecuencias válidas va desde "
+"15 hercios hasta 32767 hercios."
+msgstr ""
+"``Frequency``: This parameter sets the frequency of the sound to be emitted "
+"by the buzzer. A zero frequency turns off the internal oscillator and keeps "
+"the buzzer silent. The valid frequency range is from 15 hertz to 32767 "
+"hertz."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:79
+msgid ""
+"El oído humano puede llegar a percibir sonidos de una frecuencia hasta 20000"
+" hercios en el mejor de los casos. Por encima de 20000 Hz, comienzan los "
+"ultrasonidos, que los humanos no pueden percibir. A medida que una persona "
+"se hace mayor, su sensibilidad a las altas frecuencias decrece, de forma "
+"que, en la práctica, la mayoría de las personas no son capaces de distinguir"
+" sonidos con frecuencias por encima de 16000 Hz."
+msgstr ""
+"The human ear can perceive sounds of a frequency up to 20,000 hertz in the "
+"best of cases. Above 20,000 Hz, ultrasound begins, which humans cannot "
+"perceive. As a person ages, their sensitivity to high frequencies decreases,"
+" so that, in practice, most people are unable to distinguish sounds with "
+"frequencies above 16,000 Hz."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:87
+msgid ""
+"En el siguiente ejemplo, al presionar el pulsador 1, el zumbador emitirá un "
+"sonido de 2000 Hz durante un tiempo de 62 milisegundos y permanecerá apagado"
+" durante un tiempo de 62 milisegundos. El sonido se repetirá mientras el "
+"pulsador 1 permanezca pulsado."
+msgstr ""
+"In the example below, pressing button 1 will cause the buzzer to sound at "
+"2000 Hz for 62 milliseconds and remain off for 62 milliseconds. The sound "
+"will repeat as long as pad 1 is held down."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:99
+msgid "La función :cpp:func:`buzzTone`"
+msgstr "The :cpp:func:`buzzTone` function"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:103
+msgid ""
+"Esta función es semejante a la función :cpp:func:`buzzFreq`, produce un "
+"sonido de una frecuencia determinada por el parámetro ``Tone``"
+msgstr ""
+"This function is similar to the :cpp:func:`buzzFreq` function, it produces a"
+" sound of a frequency determined by the ``Tone`` parameter."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:106
+msgid ""
+"``Tone``: Nota musical que sonará en el zumbador. La nota se puede expresa "
+"con un número del 0 al 127 o con una constante. La nota 0 (``Silence``) es "
+"especial y sirve para silenciar el generador de sonido."
+msgstr ""
+"``Tone``: Musical note that will sound on the buzzer. The note can be "
+"expressed with a number from 0 to 127 or with a constant. Note 0 "
+"(``Silence``) is special and serves to silence the sound generator."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:110
+msgid ""
+"La siguiente tabla representa las constantes, el valor equivalente y las "
+"notas que representan para la primera octava musical (cuarta octava en la "
+"notación científica)."
+msgstr ""
+"The following table represents the constants, the equivalent value and the "
+"notes they represent for the first musical octave (fourth octave in "
+"scientific notation)."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:114 ../../es/arduprog/pc42-buzzer.rst:153
+msgid "Constante"
+msgstr "Constant"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:114 ../../es/arduprog/pc42-buzzer.rst:153
+msgid "Valor"
+msgstr "Worth"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:114 ../../es/arduprog/pc42-buzzer.rst:153
+msgid "Frecuencia"
+msgstr "Frequency"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:114 ../../es/arduprog/pc42-buzzer.rst:153
+msgid "Nota Científica"
+msgstr "Scientific note"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:114 ../../es/arduprog/pc42-buzzer.rst:153
+msgid "Nota"
+msgstr "Note"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:116 ../../es/arduprog/pc42-buzzer.rst:165
+msgid "Do4"
+msgstr "C4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:116 ../../es/arduprog/pc42-buzzer.rst:165
+msgid "49"
+msgstr "49"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:116
+msgid "261 Hz"
+msgstr "261hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:116 ../../es/arduprog/pc42-buzzer.rst:165
+msgid "C\\ :sub:`4`\\"
+msgstr "C\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:116
+msgid "Do"
+msgstr "Do"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:118
+msgid "Do_4"
+msgstr "C_4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:118
+msgid "50"
+msgstr "fifty"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:118
+msgid "277 Hz"
+msgstr "277hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:118
+msgid "C#\\ :sub:`4`\\"
+msgstr "C#\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:118
+msgid "Do sostenido (Do#)"
+msgstr "C sharp (C#)"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:120
+msgid "Re4"
+msgstr "Re4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:120
+msgid "51"
+msgstr "51"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:120
+msgid "294 Hz"
+msgstr "294hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:120
+msgid "D\\ :sub:`4`\\"
+msgstr "D\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:120
+msgid "Re"
+msgstr "Re"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:122
+msgid "Re_4"
+msgstr "Re_4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:122
+msgid "52"
+msgstr "52"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:122
+msgid "311 Hz"
+msgstr "311hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:122
+msgid "D#\\ :sub:`4`\\"
+msgstr "D#\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:122
+msgid "Re sostenido (Re#)"
+msgstr "D sharp (D#)"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:124
+msgid "Mi4"
+msgstr "Mi4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:124
+msgid "53"
+msgstr "53"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:124
+msgid "330 Hz"
+msgstr "330hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:124
+msgid "E\\ :sub:`4`\\"
+msgstr "E\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:124
+msgid "Mi"
+msgstr "My"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:126
+msgid "Fa4"
+msgstr "Fa4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:126
+msgid "54"
+msgstr "54"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:126
+msgid "349 Hz"
+msgstr "349hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:126
+msgid "F\\ :sub:`4`\\"
+msgstr "F\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:126
+msgid "Fa"
+msgstr "Fa"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:128
+msgid "Fa_4"
+msgstr "Fa_4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:128
+msgid "55"
+msgstr "55"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:128
+msgid "370 Hz"
+msgstr "370hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:128
+msgid "F#\\ :sub:`4`\\"
+msgstr "F#\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:128
+msgid "Fa sostenido (Fa#)"
+msgstr "F sharp (F#)"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:130
+msgid "Sol4"
+msgstr "Sun4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:130
+msgid "56"
+msgstr "56"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:130
+msgid "392 Hz"
+msgstr "392hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:130
+msgid "G\\ :sub:`4`\\"
+msgstr "G\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:130
+msgid "Sol"
+msgstr "Sun"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:132
+msgid "Sol_4"
+msgstr "Sun_4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:132
+msgid "57"
+msgstr "57"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:132
+msgid "415 Hz"
+msgstr "415hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:132
+msgid "G#\\ :sub:`4`\\"
+msgstr "G#\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:132
+msgid "Sol sostenido (Sol#)"
+msgstr "G sharp (G#)"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:134
+msgid "La4"
+msgstr "The4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:134
+msgid "58"
+msgstr "58"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:134
+msgid "440 Hz"
+msgstr "440hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:134
+msgid "A\\ :sub:`4`\\"
+msgstr "A\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:134
+msgid "La"
+msgstr "The"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:136
+msgid "La_4"
+msgstr "The_4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:136
+msgid "59"
+msgstr "59"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:136
+msgid "466 Hz"
+msgstr "466hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:136
+msgid "A#\\ :sub:`4`\\"
+msgstr "A#\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:136
+msgid "La sostenido (La#)"
+msgstr "A sharp (A#)"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:138
+msgid "Si4"
+msgstr "Yes4"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:138
+msgid "60"
+msgstr "60"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:138
+msgid "494 Hz"
+msgstr "494hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:138
+msgid "B\\ :sub:`4`\\"
+msgstr "B\\ :sub:`4`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:138
+msgid "Si"
+msgstr "Yeah"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:142
+msgid ""
+"El resto de octavas tienen la misma denominación para las notas, cambiando "
+"solo el número final para designar la octava. Para cambiar una octava, se "
+"puede añadir o restar el número 12:"
+msgstr ""
+"The rest of the octaves have the same denomination for the notes, changing "
+"only the final number to designate the octave. To change an octave, you can "
+"add or subtract the number 12:"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:146
+msgid "``Do4`` + 12  = ``Do5``"
+msgstr "``C4`` + 12 = ``C5``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:147
+msgid "``Do4`` - 12  = ``Do3``"
+msgstr "``C4`` - 12 = ``C3``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:149
+msgid ""
+"La siguiente tabla muestra el valor y la frecuencia de la nota Do de cada "
+"una de las octavas:"
+msgstr ""
+"The following table shows the value and frequency of the Do note of each of "
+"the octaves:"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:155
+msgid "Silence"
+msgstr "Silence"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:155
+msgid "0"
+msgstr "0"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:155
+msgid "0 Hz"
+msgstr "0hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:155
+msgid "Sin sonido (silencio)"
+msgstr "No sound (silence)"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:157
+msgid "Do0"
+msgstr "Do0"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:157
+msgid "1"
+msgstr "1"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:157
+msgid "16,35 Hz"
+msgstr "16.35hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:157
+msgid "C\\ :sub:`0`\\"
+msgstr "C\\ :sub:`0`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:157
+msgid "Do Subcontraoctava"
+msgstr "C sub-octave"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:159
+msgid "Do1"
+msgstr "C1"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:159
+msgid "13"
+msgstr "13"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:159
+msgid "32,70 Hz"
+msgstr "32.70hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:159
+msgid "C\\ :sub:`1`\\"
+msgstr "C\\ :sub:`1`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:159
+msgid "Do Contraoctava"
+msgstr "C contra-octave"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:161
+msgid "Do2"
+msgstr "C2"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:161
+msgid "25"
+msgstr "25"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:161
+msgid "65,41 Hz"
+msgstr "65.41hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:161
+msgid "C\\ :sub:`2`\\"
+msgstr "C\\ :sub:`2`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:161
+msgid "Do Gran octava"
+msgstr "C great eighth"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:163
+msgid "Do3"
+msgstr "C3"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:163
+msgid "37"
+msgstr "37"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:163
+msgid "130,8 Hz"
+msgstr "130.8hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:163
+msgid "C\\ :sub:`3`\\"
+msgstr "C\\ :sub:`3`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:163
+msgid "Do Pequeña octava"
+msgstr "C Little octave"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:165
+msgid "261,6 Hz"
+msgstr "261.6hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:165
+msgid "Do Octava prima"
+msgstr "C Eighth Prime"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:167
+msgid "Do5"
+msgstr "C5"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:167
+msgid "61"
+msgstr "61"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:167
+msgid "523,2 Hz"
+msgstr "523.2hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:167
+msgid "C\\ :sub:`5`\\"
+msgstr "C\\ :sub:`5`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:167
+msgid "Do Octava segunda"
+msgstr "C eighth second"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:169
+msgid "Do6"
+msgstr "C6"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:169
+msgid "73"
+msgstr "73"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:169
+msgid "1046 Hz"
+msgstr "1046hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:169
+msgid "C\\ :sub:`6`\\"
+msgstr "C\\ :sub:`6`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:169
+msgid "Do Octava tercera"
+msgstr "C Octave third"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:171
+msgid "Do7"
+msgstr "C7"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:171
+msgid "85"
+msgstr "85"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:171
+msgid "2093 Hz"
+msgstr "2093hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:171
+msgid "C\\ :sub:`7`\\"
+msgstr "C\\ :sub:`7`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:171
+msgid "Do Octava cuarta"
+msgstr "C Eighth Fourth"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:173
+msgid "Do8"
+msgstr "C8"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:173
+msgid "97"
+msgstr "97"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:173
+msgid "4186 Hz"
+msgstr "4186hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:173
+msgid "C\\ :sub:`8`\\"
+msgstr "C\\ :sub:`8`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:173
+msgid "Do Octava quinta"
+msgstr "C Eighth Fifth"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:175
+msgid "Do9"
+msgstr "C9"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:175
+msgid "109"
+msgstr "109"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:175
+msgid "8372 Hz"
+msgstr "8372hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:175
+msgid "C\\ :sub:`9`\\"
+msgstr "C\\ :sub:`9`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:175
+msgid "Do Octava sexta"
+msgstr "C eighth sixth"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:177
+msgid "Do10"
+msgstr "C10"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:177
+msgid "121"
+msgstr "121"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:177
+msgid "16744 Hz"
+msgstr "16744hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:177
+msgid "C\\ :sub:`10`\\"
+msgstr "C\\ :sub:`10`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:177
+msgid "Do Octava séptima"
+msgstr "C eighth seventh"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:179
+msgid "Fa10"
+msgstr "Fa10"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:179
+msgid "127"
+msgstr "127"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:179
+msgid "23679 Hz"
+msgstr "23679hz"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:179
+msgid "F\\ :sub:`10`\\"
+msgstr "F\\ :sub:`10`\\"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:179
+msgid "Fa Octava séptima"
+msgstr "F Eighth seventh"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:182
+msgid ""
+"En el siguiente ejemplo, al presionar el pulsador 1 sonará una nota más "
+"grave y al presionar el pulsador 2, sonará una nota más aguda. La nota "
+"inicial será el ``La`` de la primera octava (``La4``) que es el tono que se "
+"utiliza habitualmente para afinar instrumentos."
+msgstr ""
+"In the following example, pressing pad 1 will sound a lower note, and "
+"pressing pad 2 will sound a higher note. The initial note will be the ``A`` "
+"of the first octave (``A4``), which is the tone that is usually used to tune"
+" instruments."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:193
+msgid ""
+"El siguiente programa de ejemplo toca la canción de cumpleaños feliz cada "
+"vez que se presiona el pulsador 1. El programa es flexible y permite cambiar"
+" el tempo a otro más rápido o más lento, cambiando la duración de la nota "
+"más corta en la variable 'tempo' de la línea 15). También se puede cambiar "
+"la octava de la canción a una más aguda o una más grave, cambiando el valor "
+"de la variable 'octave' en la línea 18."
+msgstr ""
+"The following example program plays the happy birthday song each time pad 1 "
+"is pressed. The program is flexible and allows you to change the tempo "
+"faster or slower by changing the duration of the shortest note in the "
+"'tempo' variable. ' on line 15). You can also change the octave of the song "
+"up or down by changing the value of the 'octave' variable on line 18."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:207
+msgid "La función :cpp:func:`buzzPlay`"
+msgstr "The :cpp:func:`buzzPlay` function"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:211
+msgid ""
+"Esta función permite hacer sonar en el zumbador una o más notas musicales "
+"durante un tiempo determinado. Los parámetros de la función son los "
+"siguientes:"
+msgstr ""
+"This function allows the buzzer to sound one or more musical notes for a "
+"certain time. The function parameters are as follows:"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:215
+msgid ""
+"``Tone``: Nota musical que sonará en el zumbador. Para más detalles, ver "
+":ref:buzzTone"
+msgstr ""
+"``Tone``: Musical note that will sound on the buzzer. For more details, see "
+":ref:buzzTone"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:218
+msgid ""
+"``milliseconds``: Tiempo en milisegundos que sonará la nota musical. Debe "
+"estar en un rango de 1 a 2000."
+msgstr ""
+"``milliseconds``: Time in milliseconds that the musical note will sound. It "
+"must be in a range from 1 to 2000."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:221
+msgid ""
+"La función se ejecuta inmediatamente y el programa de Arduino continúa con "
+"la siguiente instrucción mientras el zumbador suena. Esto permite enviar "
+"instantáneamente hasta |buzzmem| notas, que se memorizan y van sonando una a"
+" una. Esta función permite que suene una partitura mientras el programa de "
+"Arduino continúa ejecutándose."
+msgstr ""
+"The function is executed immediately and the Arduino program continues with "
+"the next instruction while the buzzer sounds. This allows you to instantly "
+"send up to |buzzmem| notes, which are memorized and sounded one by one. This"
+" function allows a sheet music to play while the Arduino program continues "
+"to run."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:231
+msgid ""
+"La función :cpp:func:`buzzPlay` sin argumentos, devuelve el número de notas "
+"que aún no han terminado de sonar de la partitura enviada al zumbador. La "
+"memoria de partitura puede almacenar hasta |buzzmem| notas. Si se envían más"
+" notas, las últimas enviadas no se almacenarán. Si es necesario enviar más "
+"de |buzzmem| notas, antes hay que esperar hasta que haya sitio libre en la "
+"memoria de partitura."
+msgstr ""
+"The :cpp:func:`buzzPlay` function with no arguments returns the number of "
+"notes that have not yet finished sounding in the score sent to the buzzer. "
+"Score memory can store up to |buzzmem| grades. If more notes are sent, the "
+"last ones sent will not be stored. If it is necessary to send more than "
+"|buzzmem| notes, you must first wait until there is free space in the score "
+"memory."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:238
+msgid "Esta función devuelve cero si todas las notas han terminado de sonar."
+msgstr "This function returns zero if all notes have finished playing."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:241
+msgid ""
+"Programa de ejemplo en el que suena una alarma de despertador utilizando la "
+"función :cpp:func:`buzzPlay` para enviar las notas."
+msgstr ""
+"Example program that sounds a wake-up alarm using the :cpp:func:`buzzPlay` "
+"function to send the notes."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:250
+msgid ""
+"Programa de ejemplo en el que suena una música de reloj utilizando la "
+"función :cpp:func:`buzzPlay`. En este ejemplo se muestra en el display el "
+"número de notas que aún no han terminado de sonar."
+msgstr ""
+"Example program playing clock music using the :cpp:func:`buzzPlay` function."
+" In this example, the display shows the number of notes that have not yet "
+"finished playing."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:261
+msgid "Las funciónes :cpp:func:`buzzOff` y :cpp:func:`buzzOn`"
+msgstr "The functions :cpp:func:`buzzOff` and :cpp:func:`buzzOn`"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:265
+msgid ""
+"Desconecta el generador de sonido del zumbador. Como resultado, el zumbador "
+"deja de emitir sonido. Si el generador de sonido está funcionando en ese "
+"momento, continuará haciéndolo, de manera que si se vuelve a conectar el "
+"zumbador con la función :cpp:func:`buzzOn`, este volverá a emitir sonido."
+msgstr ""
+"Disconnect the sound generator from the buzzer. As a result, the buzzer "
+"stops making sound. If the buzzer is currently running, it will continue to "
+"run, so if the buzzer is turned on again with the :cpp:func:`buzzOn` "
+"function, the buzzer will sound again."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:274
+msgid ""
+"Conecta el generador de sonido con el zumbador. Si en ese momento el "
+"generador de sonido está generando un tono, el zumbador comenzará a emitir "
+"sonido."
+msgstr ""
+"Connect the sound generator with the buzzer. If at that time the sound "
+"generator is generating a tone, the buzzer will start to sound."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:278
+msgid ""
+"Ejemplo de funcionamiento de BuzzOn y BuzzOff. En el siguiente programa se "
+"genera una melodía que suena de forma continua. Presionando el pulsador 1, "
+"el sonido se desconecta. Presionando el pulsador 2, el sonido volverá a "
+"conectarse."
+msgstr ""
+"Example of BuzzOn and BuzzOff operation. The following program generates a "
+"melody that plays continuously. By pressing button 1, the sound is switched "
+"off. By pressing button 2, the sound will reconnect."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:290
+msgid "La función :cpp:func:`buzzBegin`"
+msgstr "The :cpp:func:`buzzBegin` function"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:294
+msgid ""
+"Esta función inicializa el sistema generador de sonidos. Conecta el "
+"generador de sonido al zumbador y vacía la memoria de notas musicales "
+"enviadas por la función :cpp:func:`buzzPlay`. Al ejecutar esta función, el "
+"zumbador deja de emitir sonido y se encuentra preparado para emitir un nuevo"
+" tono cuando reciba la orden."
+msgstr ""
+"This function initializes the sound generating system. Connects the sound "
+"generator to the buzzer and clears the memory of musical notes sent by the "
+":cpp:func:`buzzPlay` function. When executing this function, the buzzer "
+"stops emitting sound and is ready to emit a new tone when it receives the "
+"order."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:300
+msgid ""
+"No es necesario ejecutar esta función al comienzo de cada programa porque la"
+" función más general ``begin`` ya inicializa todos los sistemas, incluyendo "
+"el zumbador."
+msgstr ""
+"It is not necessary to call this function at the beginning of every program "
+"because the more general ``begin`` function already initializes all systems,"
+" including the buzzer."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:306
+msgid "Intensidad del sonido"
+msgstr "Sound intensity"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:308
+msgid ""
+"La intensidad del sonido emitido por el zumbador no es igual para todas las "
+"frecuencias. A frecuencias bajas, la intensidad del sonido emitido es menor."
+" A medida que se aumenta la frecuencia, la intensidad del sonido aumenta."
+msgstr ""
+"The intensity of the sound emitted by the buzzer is not the same for all "
+"frequencies. At low frequencies, the intensity of the emitted sound is "
+"lower. As the frequency is increased, the intensity of the sound increases."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:312
+msgid ""
+"En torno a los **2000 Hz** el zumbador resuena y produce un sonido de una "
+"intensidad mucho mayor que en otras frecuencias. El típico sonido de los "
+"despertadores tiene este tono. La frecuencia de 2000 Hz se encuentra entre "
+"una nota ``Si`` de la octava tercera (``Si6``  = 1975,53 Hz) y una nota "
+"``Do`` de la octava cuarta (``Do7`` = 2093,00 Hz). Este es un tono bastante "
+"agudo que el oído humano percibe muy bien porque se encuentra en la zona de "
+"mayor sensibilidad auditiva, desde 500 Hz hasta los 2000 Hz."
+msgstr ""
+"At around **2000 Hz** the buzzer resonates and produces a much higher "
+"intensity sound than at other frequencies. The typical sound of alarm clocks"
+" has this tone. The frequency of 2000 Hz is between a ``Bi`` note of the 3rd"
+" octave (``Bi6`` = 1975.53 Hz) and a ``Do`` note of the 4th octave (``Do7`` "
+"= 2093.00Hz). This is a fairly high tone that the human ear perceives very "
+"well because it is in the zone of greatest hearing sensitivity, from 500 Hz "
+"to 2000 Hz."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:319
+msgid ""
+"En torno a los 4000 Hz el zumbador también resuena produciendo un sonido de "
+"más intensidad, pero a esta frecuencia el oído humano tiene menos "
+"sensibilidad que a la frecuencia de 2000 Hz y el sonido no se percibe con "
+"tanta intensidad."
+msgstr ""
+"Around 4000 Hz the buzzer also resonates producing a louder sound, but at "
+"this frequency the human ear is less sensitive than at the 2000 Hz frequency"
+" and the sound is not perceived as loud."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:325
+msgid "Precisión y exactitud de la frecuencia"
+msgstr "Frequency precision and accuracy"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:327
+msgid ""
+"La **precisión** de la frecuencia tiene un error de +-1%. Esto significa que"
+" la frecuencia realmente obtenida siempre se desvía hacia los graves o hacia"
+" los agudos en cierta cantidad. La mayoría de las frecuencias tienen una "
+"desviación menor del 0,4%, mientras que solo algunas frecuencias puntuales "
+"sufren una desviación hasta del 1%. La desviación de frecuencia es siempre "
+"la misma para el mismo tono. Este error se puede percibir como un pequeño "
+"desafino en la frecuencia. Un oído bien entrenado percibe diferencias de "
+"frecuencia hasta del 0,2%."
+msgstr ""
+"The **precision** of the frequency has an error of +-1%. This means that the"
+" frequency actually obtained always deviates towards the bass or towards the"
+" treble by some amount. Most of the frequencies have a deviation of less "
+"than 0.4%, while only some specific frequencies have a deviation of up to "
+"1%. The frequency deviation is always the same for the same tone. This error"
+" can be perceived as a small detuning in the frequency. A well-trained ear "
+"perceives frequency differences of up to 0.2%."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:337
+msgid ""
+"El error de **exactitud** de la frecuencia depende de la calibración que se "
+"haya realizado. Este error produce una variación de frecuencia igual en "
+"todas las frecuencias emitidas. El error de exactitud depende de la "
+"temperatura y del tiempo de funcionamiento del panel y se encuentra en torno"
+" al +-2%. Este error no se notará al emitir varios sonidos, porque afecta "
+"por igual a todas las frecuencias y el oído solo detecta notas desafinadas "
+"en el caso de que una frecuencia se desvíe respecto a otra. Sin embargo, si "
+"dos paneles intentan emitir un sonido de igual frecuencia, se puede "
+"distinguir entre ellos una diferencia de frecuencia debido al error de "
+"exactitud."
+msgstr ""
+"The **accuracy** error of the frequency depends on the calibration that has "
+"been performed. This error produces an equal frequency variation at all "
+"emitted frequencies. The accuracy error depends on the temperature and the "
+"operating time of the panel and is around +-2%. This error will not be "
+"noticeable when making several sounds, because it affects all frequencies "
+"equally and the ear only detects notes that are out of tune if one frequency"
+" deviates from another. However, if two panels try to output a sound of the "
+"same frequency, a difference in frequency can be distinguished between them "
+"due to accuracy error."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:349
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:350
+msgid ""
+"Cambiar el siguiente programa para que suene el pitido de un despertador. La"
+" secuencia de sonidos será de cuatro pitidos de 2000 Hercios con una "
+"duración cada uno de 64 milisegundos y un espacio sin sonido de 64 "
+"milisegundos después de cada pitido. Al final de la secuencia se debe "
+"esperar un tiempo de 500 milisegundos sin sonido."
+msgstr ""
+"Change the following program to sound the beep of an alarm clock. The beep "
+"sequence shall be four 2000 Hertz beeps each lasting 64 milliseconds with a "
+"64 millisecond blank space after each beep. At the end of the sequence, a "
+"time of 500 milliseconds must be waited without sound."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:362
+msgid ""
+"El siguiente programa ejecuta la partitura almacenada en el array ``song``, "
+"la música de un carrillón. Cambiar la partitura por la de otra canción."
+msgstr ""
+"The following program plays the score stored in the ``song`` array, the "
+"music of a chime. Change the sheet music for another song."
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:370
+msgid "Notas de 'la cucaracha':"
+msgstr "'The Cockroach' Notes:"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst
+msgid "``Do4 Do4 Do4 Fa4 La4``"
+msgstr "``Ce4 Do4 Do4 F4 A4``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst
+msgid "``Fa4 Fa4 Mi4 Mi4 Re4 Re4 Do4``"
+msgstr "``F4 F4 Mi4 Mi4 Ke4 Ke4 Do4``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst
+msgid "``Do4 Do4 Do4 Mi4 Sol4``"
+msgstr "``C4 C4 C4 E4 G4``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst
+msgid "``Do5 Re5 Do5 Si4 La4 Sol4 Fa4``"
+msgstr "``C5 Re5 C5 B4 A4 G4 F4``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:380
+msgid "Notas de 'cumpleaños feliz':"
+msgstr "'Happy Birthday' Notes:"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst
+msgid "``Do4 Do4 Re4 Do4 Fa4 Mi4``"
+msgstr "``C4 C4 K4 C4 F4 E4``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst
+msgid "``Do4 Do4 Re4 Do4 Sol4 Fa4``"
+msgstr "``C4 C4 Ke4 C4 G4 F4``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst
+msgid "``Do4 Do4 Do5 La4 Fa4 Mi4 Re4``"
+msgstr "``C4 C4 C5 A4 F4 Mi4 Re4``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst
+msgid "``Do5 Do5 La4 Fa4 Sol4 Fa4``"
+msgstr "``C5 C5 A4 F4 G4 F4``"
+
+
+#: ../../es/arduprog/pc42-buzzer.rst:387
+msgid ""
+"A cada una de las notas anteriores hay que añadirle el tiempo de cada nota "
+"(figura) para completar la partitura. Este tiempo será de 200, 400 o de 800 "
+"milisegundos."
+msgstr ""
+"To each of the previous notes, the time of each note (figure) must be added "
+"to complete the score. This time will be 200, 400 or 800 milliseconds."

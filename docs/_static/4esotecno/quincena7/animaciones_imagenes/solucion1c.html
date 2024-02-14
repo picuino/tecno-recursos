@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena7/animaciones_imagenes/solucion1c.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 14:01:21 GMT -->
+<head>
+<title>Esquema unifilar</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+<!-- Esta función popup que aparece a continuación sirve para que aparezca el cuadro de texto al pasar el ratón por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta función que viene a continuación sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+
+</script>
+<script type="text/javascript" src="../embeddedcontent.html" defer="defer"></script>
+<style type="text/css"><!--
+-->
+  </style>
+<link href="../../paracidead1.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body onload="MM_preloadImages('imagen/paraantes3.html','imagen/paraconte.html','imagen/atrasb.html','imagen/paraantes2.html','imagen/paracont2.html','imagen/adelanteb.html','imagen/atrasb.html','imagen/paraantes3.html','imagen/paracont3.html','imagen/paraejer.html','imagen/paraejer2.html','imagen/paraeval3.html','imagen/paraeval2.html','imagen/paratut3.html','imagen/paratut2.html','imagen/paramas3.html','imagen/paramas2.html','imagen/paraejer3.html')" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 505px; z-index: 1"> 
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="../imagen/es1.gif" height="8" width="8"></td>
+      <td background="../imagen/bor1.gif" height="8"></td>
+      <td background="../imagen/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="../imagen/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="100%">
+          
+          <tr>
+            <td width="45%" valign="top" height="388"> 
+			<font FACE="Verdana" SIZE="2">
+			<p ALIGN="justify"><br>
+			<img border="0" src="solucion1c1.jpg" width="428" height="437"></td>  
+			<td width="50%" valign="top" height="388">
+			<p align="center">
+			<img border="0" src="solucion1c2.jpg" width="536" height="267"></td>
+          </tr>
+
+          <tr bgcolor="#ffffff"> 
+            <td colspan="2" valign="top"> 
+              &nbsp;</tr>
+        </table>
+      </td>
+      <td rowspan="2" background="../imagen/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="../imagen/es4.gif" height="8" width="8"></td>
+      <td background="../imagen/bor3.gif" height="8"></td>
+      <td background="../imagen/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684">&nbsp;</td>
+      <td width="30">&nbsp;</td>
+      <td width="30"> 
+        &nbsp;</td>
+    </tr>
+
+</table>
+</div>
+</body>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena7/animaciones_imagenes/solucion1c.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 14:01:21 GMT -->
+</html>

@@ -1,0 +1,770 @@
+<html>
+<head><meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to Jose Pedrena."></meta><meta name="keywords" content="Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta>
+<title>
+&#191;Qu&#233; sabes sobre m&#225;quinas t&#233;rmicas?
+</title>
+
+<script language="javascript" type="text/javascript">
+
+//<![CDATA[
+
+<!--
+
+// BrowserCheck Object
+
+function BrowserCheck() {
+	var b = navigator.appName
+//HBS extension
+	this.mac = (navigator.appVersion.indexOf('Mac') != -1)
+	if (b=="Netscape") this.b = "ns"
+	else if (b=="Microsoft Internet Explorer") this.b = "ie"
+	else this.b = b
+	this.version = navigator.appVersion
+	this.v = parseInt(this.version)
+	this.ns = (this.b=="ns" && this.v>=4)
+	this.ns4 = (this.b=="ns" && this.v==4)
+	this.ns5 = (this.b=="ns" && this.v==5)
+	this.ie = (this.b=="ie" && this.v>=4)
+	this.ie4 = (this.version.indexOf('MSIE 4')>0)
+	this.ie5 = (this.version.indexOf('MSIE 5')>0)
+	this.min = (this.ns||this.ie)
+	this.CRAPBrowser = (this.ie4 && this.mac); //Cannot Resolve Addresses Properly
+}
+
+is = new BrowserCheck();
+
+var LocFolder = GetFolder(window.location.href);
+function GetFolder(LocPath){
+	LocPath = ReplaceStuff('\'','%27',LocPath);
+	var i = LocPath.lastIndexOf('/');
+	if (i<0){i=LocPath.lastIndexOf('\\')};
+	return LocPath.substring(0,i);
+}
+
+function CombineURLs(InURL){
+	var i = InURL.indexOf('../');
+	var s = LocFolder;
+	while (i >- 1){
+		s = GetFolder(s);
+		InURL = InURL.substring(3,InURL.length);
+		i = InURL.indexOf('../');
+	}
+	return s + '/' + InURL;
+}
+
+x = new Array();
+function ResolveURLs(InText,Attribute){
+	x.length=0;
+	var Temp = InText.toLowerCase();
+	var z;
+	var AttLen = Attribute.length + 2;
+	var y=Temp.lastIndexOf(Attribute + '="');
+	while (y>-1){
+		var sLoc = y+AttLen;
+		if (Temp.substring(sLoc,sLoc+5) != 'http:'){
+			x[x.length]=new Array();
+			x[x.length-1][0] = sLoc;
+			z = Temp.indexOf('"',sLoc);
+			x[x.length-1][1] = z;
+			x[x.length-1][2] = InText.substring(sLoc,z);
+
+		}
+		Temp = Temp.substring(0,y);
+		y=Temp.lastIndexOf(Attribute + '="');
+	}
+	for (var j=0; j<x.length; j++){
+		InText = InText.substring(0,x[j][0]) + CombineURLs(x[j][2]) + InText.substring(x[j][1], InText.length);
+	}
+	return InText;
+}
+
+
+
+function ResolveAllURLs(Stuff){
+	Stuff = ResolveURLs(Stuff,'href');
+	Stuff = ResolveURLs(Stuff,'src');
+	Stuff = ResolveURLs(Stuff,'parent.location');
+	return Stuff;
+}
+
+
+var ExBGColor = '#ffffff';
+
+
+
+var PageBGColor = '#c0c0c0';
+
+
+
+var NavBarColor = '#ffc9bc';
+
+
+var TextColor = '#400040';
+var CurrQNum = 0;
+var ALetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var CorrectIndicator = 'Bien';
+var IncorrectIndicator = 'X';
+var YourScoreIs = 'Tu puntuaci&#243;n es:';
+var Tries = 0;
+var CorrectChoices = 0;
+var ContinuousScoring = false;
+var CorrectFirstTime = 'Preguntas contestadas correctamente a la primera: ';var ExerciseTitle = '&#191;Qu&#233; sabes sobre m&#225;quinas t&#233;rmicas?';
+var ExerciseSubtitle = '<img src="images/cabeceras_locomotora.GIF" alt="cabeceras_locomotora.GIF" width="262" height="77" align="left" border="0"></img>';
+var Instructions = 'Elige la respuesta correcta para cada cuesti&#243;n'; //'';
+var ShuffleQs = true;
+var ShuffleAs = true;
+var DefaultRight = 'Perfecto';
+var DefaultWrong = 'Error';
+var QsToShow = 5;
+var ShowOneByOne = true;
+var ReadingURL = '';
+var EraseFeedback = true;
+var Score = 0;
+
+var PreviousPage = history.length;
+
+
+
+
+
+
+
+var NavBar='';
+
+
+NavBar+='<tr><form name="NavButtons1" action=""><td bgcolor="#ffc9bc" align="center">';
+NavBar+='<font face="Geneva,Arial" size="-1">';
+
+
+NavBar+='<input type="button" value="siguiente prueba" onclick=\'parent.location="termo-evaluacion2.htm"\'></input>';
+
+
+NavBar+='<input type="button" value="=&gt;" onclick=\'parent.location="termo-evaluacion2.htm"\'></input>';
+NavBar+='</font></td></form></tr>';
+if (is.CRAPBrowser){NavBar=ResolveAllURLs(NavBar)};
+
+
+var TitleCode = '<tr><td align="center" valign="middle" bgcolor="#c0c0c0">';
+TitleCode += '<font size="+1" face="Geneva,Arial" color="#0000ff">' + ExerciseTitle + '</font><br />';
+TitleCode += '<font size="-1" face="Geneva,Arial" color="#0000ff">' + ExerciseSubtitle + '<br />';
+TitleCode += '</font></td></tr>';
+
+var QButtonsOpener = '<table border="0" width="85%" cellpadding="10">';
+QButtonsOpener += '<tr><td align="center" valign="middle"><form>';
+QButtonsOpener += '<font size="+1"><input type="button" value="&lt;=" onclick="parent.ChangeQ(-1)"></input>';
+var QButtonsCloser = '<input type="button" value="=&gt;" onclick="parent.ChangeQ(1)"></input>';
+QButtonsCloser += '</font></form></td></tr></table>';
+
+var TableOpener = '<form name="QForm">';
+TableOpener += '<table border="0" width="85%">';
+var QRow = '<tr><td valign="top" bgcolor="#ffffff" align="right">';
+QRow += '<font size="+1" face="Geneva,Arial" color="#400040">[QNumber]</font></td>';
+QRow += '<td colspan="3" valign="top" bgcolor="#ffffff"><font size="-1" face="Geneva,Arial" color="#400040">[Question]<br />&nbsp;';
+QRow += '</font></td></tr>';
+
+var ARow = '<tr><td></td><td valign="top" bgcolor="#ffffff"><input type="text" value=" " size="3" name="FB_[QNum]_[ANum]"></input></td>';
+ARow += '<td valign="top" bgcolor="#ffffff"><input type="button" value="[ALetter]" OnClick="parent.CheckAnswer([QNum],[ANum])"></input></td>';
+ARow += '<td width="100%" bgcolor="#ffffff"><font size="-1" face="Geneva,Arial" color="#400040">[Ans]</font></td></tr>';
+
+var MARow = '<tr><td></td><td valign="top" bgcolor="#ffffff" colspan="3"><input type="checkbox" name="A_[QNum]_[ANum]" value="[Correct]"></input>';
+MARow += '<font size="-1" face="Geneva,Arial" color="#400040">[Ans]</font></td></tr>';
+
+var CheckButton = '<tr><td></td><td valign="top" bgcolor="#ffffff" ><input type="button" value="Comprobar"';
+CheckButton += ' onclick="parent.CheckMulti([QNum])"></input></td></tr>';
+
+TableCloser = '</table></form>';
+
+function GoBack(){
+	var BackSkip = history.length - PreviousPage;
+	if (BackSkip > 0){
+		history.go((BackSkip+1)*-1);
+	}
+	else{
+		parent.history.back();
+	}
+}
+
+function ReduceItems(){
+	var ItemToDump=0;
+	var j=0;
+	while (I.length > QsToShow){
+		ItemToDump = Math.floor(I.length*Math.random());
+		for (j=ItemToDump; j<(I.length-1); j++){
+			I[j] = I[j+1];
+		}
+		I.length = I.length-1;
+	}
+}
+
+function Shuffle(InArray){
+	Temp = new Array();
+	var Len = InArray.length;
+
+	var j = Len;
+
+	for (var i=0; i<Len; i++){
+		Temp[i] = InArray[i];
+	}
+
+	for (i=0; i<Len; i++){
+		Num = Math.floor(j  *  Math.random());
+		InArray[i] = Temp[Num];
+
+		for (var k=Num; k < j; k++) {
+			Temp[k] = Temp[k+1];
+		}
+		j--;
+	}
+	return InArray;
+}
+
+function WriteFeedback(Feedback) {
+//Build the output string
+	var OutString = '';
+	OutString += '<html>';
+	OutString += '<body  background="" bgcolor="#c0c0c0" text="#400040" link="#0000ff" vlink="#0000a0">';
+	OutString += '<center><table border="0" cellpadding="5" cellspacing="1" width="85%">';
+	OutString += NavBar;
+	if (Feedback.length>0){
+		OutString += '<tr><td bgcolor="#ffffff" align="center">'; 
+		OutString += '<font face="Geneva,Arial" size="-1" color="#400040">';
+		OutString += Feedback;
+		OutString += '</font></td></tr>'
+	}
+	OutString += '</table></center></body></html>';
+
+	if (is.CRAPBrowser){OutString=ResolveAllURLs(OutString);}
+
+//Write it to the frame
+	TopFrame.document.clear();
+	TopFrame.document.open();
+	TopFrame.document.write(OutString);
+	TopFrame.document.close();
+}
+
+function StartUp(){
+
+
+
+
+//Reduce array if required
+	if (QsToShow < I.length){
+		ReduceItems();
+	}
+
+//Shuffle stuff if required
+
+	if (ShuffleQs == true){
+		I = Shuffle(I);
+	}
+
+	if (ShuffleAs == true){
+		for (var i=0; i<I.length; i++){
+			I[i][1] = Shuffle(I[i][1]);
+		}
+	}
+
+//Create arrays
+	CreateStatusArrays();
+
+
+
+//Show the first question or all of them
+	if (ShowOneByOne == false){
+		ShowAllQs();
+	}
+	else{
+		ShowQuestion(CurrQNum);
+	}
+
+//Write the top frame
+	WriteFeedback(Instructions);
+}
+
+
+I = new Array();
+
+I[0] = new Array();
+I[0][0]='Un artefacto como la palanca';
+I[0][1] = new Array();
+I[0][1][0] = new Array();
+I[0][1][0][0]='Reduce el trabajo que necesitamos para una tarea';
+I[0][1][0][1]='Vuelve al apartado de m&#225;quinas simples';
+I[0][1][0][2] = 0;
+I[0][1][1] = new Array();
+I[0][1][1][0]='Reduce la fuerza necesaria para una tarea';
+I[0][1][1][1]='Correcto, la palanca, como otras m&#225;quinas simples, nos ahorran fuerza, no trabajo.';
+I[0][1][1][2] = 1;
+I[0][1][2] = new Array();
+I[0][1][2][0]='Aumenta el trabajo que se realiza al levantar un cuerpo';
+I[0][1][2][1]='Vuelve al apartado de m&#225;quinas simples';
+I[0][1][2][2] = 0;
+I[0][1][3] = new Array();
+I[0][1][3][0]='Reduce el trabajo que se realiza al levantar un cuerpo';
+I[0][1][3][1]='Vuelve al apartado de m&#225;quinas simples';
+I[0][1][3][2] = 0;
+I[0][2] = 0;
+
+I[1] = new Array();
+I[1][0]='Aparatos como los molinos de viento o los molinos hidr&#225;ulicos';
+I[1][1] = new Array();
+I[1][1][0] = new Array();
+I[1][1][0][0]='Producen movimiento continuo sin consumir energ&#237;a';
+I[1][1][0][1]='Vuelve al apartado sobre m&#225;quinas que nos ahorran energ&#237;a';
+I[1][1][0][2] = 0;
+I[1][1][1] = new Array();
+I[1][1][1][0]='S&#243;lo pueden funcionar si se les suministra tambi&#233;n energ&#237;a con alg&#250;n combustible como el petr&#243;leo';
+I[1][1][1][1]='Vuelve al apartado sobre m&#225;quinas que nos ahorran energ&#237;a';
+I[1][1][1][2] = 0;
+I[1][1][2] = new Array();
+I[1][1][2][0]='Transforman una forma de energ&#237;a natural en energ&#237;a cin&#233;tica de la m&#225;quina';
+I[1][1][2][1]='Exactamente';
+I[1][1][2][2] = 1;
+I[1][1][3] = new Array();
+I[1][1][3][0]='Poseen un rendimiento del 100%, transformando toda la energ&#237;a en trabajo';
+I[1][1][3][1]='Ya nos gustar&#237;a, ya; pero eso no es posible';
+I[1][1][3][2] = 0;
+I[1][2] = 0;
+
+I[2] = new Array();
+I[2][0]='&#191;Qu&#233; nos dice el primer principio de la Termodin&#225;mica?<br />Cuando un cuerpo absorbe calor,...';
+I[2][1] = new Array();
+I[2][1][0] = new Array();
+I[2][1][0][0]=' &#233;ste puede emplearse parte en trabajo y parte en aumentar la energ&#237;a interna';
+I[2][1][0][1]='Correcto.';
+I[2][1][0][2] = 1;
+I[2][1][1] = new Array();
+I[2][1][1][0]='se convierte &#237;ntegramente en trabajo';
+I[2][1][1][1]='Nunca puede ocurrir. Vete a repasar el apartado del segundo principio ';
+I[2][1][1][2] = 0;
+I[2][1][2] = new Array();
+I[2][1][2][0]='siempre se convierte &#237;ntegramente en un aumento de energ&#237;a interna';
+I[2][1][2][1]='Puede ocurrir algunas veces, pero no siempre';
+I[2][1][2][2] = 0;
+I[2][1][3] = new Array();
+I[2][1][3][0]='&#233;ste es emitido de nuevo &#237;ntegramente al exterior';
+I[2][1][3][1]='Puede ocurrir algunas veces, pero no siempre';
+I[2][1][3][2] = 0;
+I[2][2] = 0;
+
+I[3] = new Array();
+I[3][0]='El segundo principio de la Termodin&#225;mica, significa en la pr&#225;ctica... ';
+I[3][1] = new Array();
+I[3][1][0] = new Array();
+I[3][1][0][0]='que no es posible obtener una m&#225;quina con un rendimiento del 100%';
+I[3][1][0][1]='Aunque tiene otras implicaciones, esta es la m&#225;s f&#225;cil de entender';
+I[3][1][0][2] = 1;
+I[3][1][1] = new Array();
+I[3][1][1][0]='que es posible obtener una m&#225;quina con un rendimiento del 100%';
+I[3][1][1][1]='Vuelve a repasar el apartado del segundo principio';
+I[3][1][1][2] = 0;
+I[3][1][2] = new Array();
+I[3][1][2][0]='que el rendimiento de una m&#225;quina t&#233;rmica depende s&#243;lo de la temperatura del foco caliente';
+I[3][1][2][1]='Vuelve a repasar el apartado del segundo principio';
+I[3][1][2][2] = 0;
+I[3][1][3] = new Array();
+I[3][1][3][0]='que el rendimiento de una m&#225;quina t&#233;rmica depende s&#243;lo de la temperatura del foco fr&#237;o';
+I[3][1][3][1]='Vuelve a repasar el apartado del segundo principio';
+I[3][1][3][2] = 0;
+I[3][2] = 0;
+
+I[4] = new Array();
+I[4][0]='En la m&#225;quina de Carnot<br /><a href="carnot.htm">M&#225;quina de Carnot</a>';
+I[4][1] = new Array();
+I[4][1][0] = new Array();
+I[4][1][0][0]='el trabajo producido es igual al calor recibido desde el exterior';
+I[4][1][0][1]='Repasa el ciclo de Carnot con la escena que acompa&#241;a la pregunta';
+I[4][1][0][2] = 0;
+I[4][1][1] = new Array();
+I[4][1][1][0]='el trabajo producido es igual al calor cedido al exterior';
+I[4][1][1][1]='Repasa el ciclo de Carnot con la escena que acompa&#241;a la pregunta';
+I[4][1][1][2] = 0;
+I[4][1][2] = new Array();
+I[4][1][2][0]='Se recibe calor en una de las cuatro fases y se pierde calor en otra';
+I[4][1][2][1]='Correcto. S&#243;lo se gana calor en la expansi&#243;n a temperatura constante y se pierde calor en la contracci&#243;n a temperatura constante';
+I[4][1][2][2] = 1;
+I[4][1][3] = new Array();
+I[4][1][3][0]='Se recibe calor en dos de las cuatro fases y se pierde calor en otras dos';
+I[4][1][3][1]='Repasa el ciclo de Carnot con la escena que acompa&#241;a la pregunta';
+I[4][1][3][2] = 0;
+I[4][2] = 0;
+
+
+Status = new Array();
+
+
+function CreateStatusArrays(){
+	for (var x=0; x<I.length; x++){
+		Status[x] = new Array();
+		Status[x][0] = 0; // Question not done yet
+		Status[x][1] = new Array(); //for tracking whether answers chosen
+		for (var y=0; y<I[x][1].length; y++){
+			Status[x][1][y] = '0'; //Answers not chosen yet
+		}
+		Status[x][2] = 0; //Wrong tries at this question so far
+		Status[x][3] = 0; //For storing score out of one on this question
+	}
+}
+
+function UpdateQuestionStatus(QNum){
+	if (Status[QNum][2] >= Status[QNum][1].length-1){
+		Status[QNum][0] = 1;
+		for (var i=0; i<Status[QNum][1].length; i++){
+			if (Status[QNum][1][i] == '0'){
+				Status[QNum][1][i] = 'R';
+			}
+		}
+	}
+}
+
+function ReplaceStuff(Token, Replacement, InString){
+	var i = InString.indexOf(Token);
+	var FirstBit = '';
+	var LastBit = '';
+	while (i>-1){
+		FirstBit = InString.substring(0, i);
+		LastBit = InString.substring(i + Token.length, InString.length);	
+		InString = FirstBit + Replacement + LastBit;
+		i = InString.indexOf(Token);
+	}
+	return InString;
+}
+
+function ChangeQ(ChangeBy){
+	var NewNum = CurrQNum + ChangeBy;
+	if ((NewNum >= 0)&&(NewNum<I.length)){
+		CurrQNum = NewNum;
+		ShowQuestion(CurrQNum);
+	}
+	var CurrScore = '';
+	if ((ContinuousScoring == true)&&(EraseFeedback == true)){
+		CalculateScore();
+		var CurrScore = YourScoreIs + ' ' + Score + '%.';
+		WriteFeedback(CurrScore);
+	}
+}
+
+function BuildQuestion(QNum){
+	if (I[QNum][2] == 0){
+		var Temp = ReplaceStuff('[Question]', I[QNum][0], QRow);
+
+		var AnsRows = '';
+		for (var i=0; i<I[QNum][1].length; i++){
+			TempAns = ARow;
+			TempAns = ReplaceStuff('[ANum]', i, TempAns);
+			TempAns = ReplaceStuff('[ALetter]', ' ' + ALetters.charAt(i) + ' ', TempAns);
+			TempAns = ReplaceStuff('[Ans]', I[QNum][1][i][0], TempAns);
+			AnsRows += TempAns;
+		}
+		Temp += AnsRows;
+		Temp = ReplaceStuff('[QNumber]', QNum+1, Temp);
+		Temp = ReplaceStuff('[QNum]', QNum, Temp);
+	}
+	else{
+		var Temp = ReplaceStuff('[Question]', I[QNum][0], QRow);
+		var AnsRows = '';
+		for (var i=0; i<I[QNum][1].length; i++){
+			TempAns = MARow;
+			TempAns = ReplaceStuff('[ANum]', i, TempAns);
+			TempAns = ReplaceStuff('[Correct]', I[QNum][1][i][2], TempAns);
+			TempAns = ReplaceStuff('[Ans]', I[QNum][1][i][0], TempAns);
+			AnsRows += TempAns;
+		}
+		Temp += AnsRows;
+		Temp += CheckButton;
+		Temp = ReplaceStuff('[QNumber]', QNum+1, Temp);
+		Temp = ReplaceStuff('[QNum]', QNum, Temp);
+	}
+	return Temp;
+}
+
+function DisplayExercise(StuffToDisplay){
+//Build the output string
+	var OutString = '';
+	OutString += '<html>';
+	OutString += '<body  background="" bgcolor="#c0c0c0" text="#400040" link="#0000ff" vlink="#0000a0">';
+	OutString += '<center><table border="0" cellpadding="5" cellspacing="1" width="85%">';
+	OutString += TitleCode; 
+	OutString += '<tr><td bgcolor="#ffffff" align="center">'; 
+	OutString += '<font face="Geneva,Arial" size="-1">';
+	OutString += StuffToDisplay;
+	OutString += '</font></td></tr>';
+	OutString += NavBar;
+	OutString += '</table></center></body></html>';
+
+	if (is.CRAPBrowser){OutString=ResolveAllURLs(OutString);}
+
+//Write it to the frame
+	BottomFrame.document.clear();
+	BottomFrame.document.open();
+	BottomFrame.document.write(OutString);
+	BottomFrame.document.close();
+}
+
+
+function ShowAllQs(){
+	var Output = '';
+	for (var i=0; i<I.length-1; i++){
+		Output = Output + BuildQuestion(i);
+		Output = Output + '<tr><td colspan="4"><hr></hr></td></tr>';
+	}
+	Output = Output + BuildQuestion(I.length-1);
+	Output = TableOpener + Output + TableCloser;
+	DisplayExercise(Output);
+}
+
+function ShowQuestion(QNum){
+//First, create the Q number readout at the top
+	var Readout = (QNum+1) + '/' + I.length;
+	while (Readout.length < 7){
+		Readout = ' ' + Readout + ' ';
+	}
+	Readout = QButtonsOpener + Readout + QButtonsCloser;
+
+	var Output = BuildQuestion(QNum);
+
+	Output = TableOpener + Output + TableCloser;
+
+	DisplayExercise(Readout + Output);
+
+//Mark the answers already done
+	for (i=0; i<Status[QNum][1].length; i++){
+		if (Status[QNum][1][i] == 'R'){
+			MarkAnswer(QNum,i,true)
+		}
+		if (Status[QNum][1][i] == 'W'){
+			MarkAnswer(QNum,i,false)
+		}
+		if (Status[QNum][1][i] == 'C'){
+			CheckCheckbox(QNum,i);
+		}
+	}
+//Eliminate feedback from previous question
+	if (EraseFeedback == true){
+		WriteFeedback('');
+	}
+}
+
+function CheckMulti(QNum){
+	var TotWrong = 0;
+	var Output = '';
+	var TotAns = I[QNum][1].length;
+	for (var i=TotAns-1; i>=0; i--){
+//Find any incorrect choices
+
+		var b = eval('BottomFrame.document.QForm.A_' + QNum + '_' + i);
+
+		if (b != null){
+//if it's wrong, count it
+			if (b.checked == true){
+				Status[QNum][1][i] = 'C';
+			}
+			else{
+				Status[QNum][1][i] = 'U';
+			}
+			if (((b.checked == true) && (b.value == "0"))||((b.checked == false)&&(b.value == "1"))){
+				TotWrong++;
+			}
+		}				
+	}
+
+	if (TotWrong == 0){
+		Output = DefaultRight;
+	}
+	else{
+		Output = DefaultWrong + '<br />' + (TotAns-TotWrong) + '/' + TotAns;
+	}
+
+//If you haven't tried the question before
+	if (Status[QNum][0] == 0){
+		if (TotWrong > 0){
+			Status[QNum][2]++;
+		}
+		if (TotWrong == 0){
+			Status[QNum][0] = 1;
+//Calculate the score for this question as a floating-point fraction of 1
+			Status[QNum][3] =  ((Status[QNum][1].length - Status[QNum][2]) - 1) / (Status[QNum][1].length - 1);
+//If less than zero, set to zero
+			if (Status[QNum][3] < 0){Status[QNum][3] = 0;}
+		}
+	}
+
+//Check whether the quiz is finished
+	var Finished = true;
+	for (var i=0; i<Status.length; i++){
+		if (Status[i][0] == 0){Finished = false;}
+	}
+
+//Calculate the score if needed
+		
+	if (Status[QNum][0] == 1){
+		if ((Finished==true)||(ContinuousScoring==true)){
+			CalculateScore();
+			Output = Output + '<br />' + YourScoreIs + ' ' + Score + '%.';
+		}
+
+		if (Finished == true){
+			EraseFeedback = false;
+			var CFT = 0;
+			for (i=0; i<I.length; i++){
+				if (Status[i][2] == 0){
+					CFT++;
+				}
+			}
+		Output += '<br />' + CorrectFirstTime + CFT + '/' + I.length;
+
+		}
+	}
+
+//Show the feedback
+	if (Output.length > 0){
+		WriteFeedback(Output);
+	}
+
+}
+
+function CheckAnswer(QNum, ANum){
+	var Output = I[QNum][1][ANum][1];
+
+	if (Output==''){
+		if (I[QNum][1][ANum][2] == 1){
+			Output = DefaultRight;
+		}
+		else{
+			Output = DefaultWrong;
+		}
+	}
+
+//If it's not been previously answered correctly
+	if (Status[QNum][0] == 0){
+//If it's a correct answer
+		if (I[QNum][1][ANum][2] == 1){
+			Status[QNum][0] = 1;//Mark the Q as done
+			Status[QNum][1][ANum] = 'R';
+			MarkAnswer(QNum, ANum, true);
+//Calculate the score for this question as a floating-point fraction of 1
+			var PossibleWrongs = 0;
+			for (var i=0; i<I[QNum][1].length; i++){
+				if (I[QNum][1][i][2] == 0){
+					PossibleWrongs++;
+				}
+			}
+
+			if (PossibleWrongs == 0){PossibleWrongs = 1;}
+
+			Status[QNum][3] = 1 - (Status[QNum][2]/PossibleWrongs);
+
+//If less than zero, set to zero
+			if (Status[QNum][3] < 0){Status[QNum][3] = 0;}
+		}
+		else{
+			if (Status[QNum][1][ANum] != 'W'){
+				Status[QNum][1][ANum] = 'W';
+				MarkAnswer(QNum, ANum, false);
+				Status[QNum][2]++; //increment wrong tries for this Q
+			}
+		}
+	}
+
+	UpdateQuestionStatus(QNum);
+
+//Check whether the quiz is finished
+	var Finished = true;
+	for (var i=0; i<Status.length; i++){
+		if (Status[i][0] == 0){Finished = false;}
+
+	}
+
+//Calculate the score if needed
+		
+	if (Status[QNum][0] == 1){
+		if ((Finished==true)||(ContinuousScoring==true)){
+			CalculateScore();
+			Output = Output + '<br />' + YourScoreIs + ' ' + Score + '%.';
+		}
+
+		if (Finished == true){
+			EraseFeedback = false;
+			var CFT = 0;
+			for (i=0; i<I.length; i++){
+				if (Status[i][2] == 0){
+					CFT++;
+				}
+			}
+		Output += '<br />' + CorrectFirstTime + CFT + '/' + I.length;
+
+		}
+	}
+
+//Show the feedback
+	if (Output.length > 0){
+		WriteFeedback(Output);
+	}
+}
+
+function CalculateScore(){
+	var TriedQs = 0;
+	var TotalScore = 0;
+	for (var i=0; i<Status.length; i++){
+		if ((Status[i][2] > 0)||(Status[i][3] == 1)){
+			TriedQs++;
+			TotalScore += Status[i][3];
+		}
+	}
+	if (TriedQs == 0){
+		Score = 0;
+	}
+	else{
+		Score = (Math.floor(100 * (TotalScore/TriedQs)));
+	}
+}
+
+function MarkAnswer(QNum, ANum, Right){
+	var Mark = CorrectIndicator;
+	if (Right == false){Mark = IncorrectIndicator;}
+
+	if (eval('BottomFrame.document.QForm.FB_' + QNum + '_' + ANum) != null){
+		eval('BottomFrame.document.QForm.FB_' + QNum + '_' + ANum).value = Mark;
+	}
+}
+
+function CheckCheckbox(QNum, ANum){
+	if (eval('BottomFrame.document.QForm.A_' + QNum + '_' + ANum) != null){
+		eval('BottomFrame.document.QForm.A_' + QNum + '_' + ANum).checked = true;
+	}
+}
+
+
+
+
+
+
+
+function Blank(){
+	return '<html><body>&copy;Half-Baked Software. Loading...</body></html>';
+}
+
+//-->
+
+//]]>
+
+</script>
+
+
+</head>
+<!--<body>Fool those dumb ad-inserting ISPs</body>-->
+
+<!--For full XHTML 1.0 compatibility, remove the border and framespacing attributes.
+These are required for proper display in current browsers, but render the document incompatible. Then, you'll need to add the appropriate Document Type Declaration; use
+the W3C XHTML 1 frameset DTD.-->
+
+
+<frameset rows="25%,*" onload="StartUp()" framespacing="0" border="0">
+	<frame src="javascript:parent.Blank()" frameborder="0" name="TopFrame"></frame>
+	<frame src="javascript:parent.Blank()" frameborder="0" name="BottomFrame"></frame>
+</frameset>
+
+
+
+
+</html>

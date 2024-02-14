@@ -1,0 +1,443 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-17 20:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/arduprog/pc42-install.rst:9
+msgid "Instalación del panel de control PC42"
+msgstr "PC42 Control Panel Installation"
+
+#: ../../source/arduprog/pc42-install.rst:13
+msgid "Objetivos"
+msgstr "Goals"
+
+#: ../../source/arduprog/pc42-install.rst:14
+msgid "Conectar el panel de control PC42 a una placa Arduino"
+msgstr "Connect the PC42 control panel to an Arduino board"
+
+#: ../../source/arduprog/pc42-install.rst:15
+msgid ""
+"Instalar las :download:`librerías necesarias para programar el panel PC42"
+" <_downloads/PC42.zip>`"
+msgstr ""
+"Install the :download:` libraries needed to program the PC42 panel "
+"<_downloads/PC42.zip>`"
+
+#: ../../source/arduprog/pc42-install.rst:17
+msgid ""
+"Instalar la :download:`herramienta Ardublock-Picuino <_downloads"
+"/ardublock-picuino.zip>` para programar con bloques gráficos"
+msgstr ""
+"Install the :download:`Ardublock-Picuino tool <_downloads/ardublock-"
+"picuino.zip>` to program with graphics blocks"
+
+#: ../../source/arduprog/pc42-install.rst:20
+msgid ""
+"Instalar otras :download:`librerías auxiliares de Arduino <_downloads"
+"/arduino-libraries.zip>`"
+msgstr ""
+"Install other :download:`Arduino auxiliary libraries <_downloads"
+"/arduino-libraries.zip>`"
+
+#: ../../source/arduprog/pc42-install.rst:25
+msgid "Instalación"
+msgstr "Facility"
+
+#: ../../source/arduprog/pc42-install.rst:26
+msgid ""
+"Para instalar el panel de control Picuino PC42 es necesario realizar dos "
+"operaciones:"
+msgstr ""
+"To install the Picuino PC42 control panel, it is necessary to carry out "
+"two operations:"
+
+#: ../../source/arduprog/pc42-install.rst:29
+msgid "Conectar el panel PC42 a un Arduino mediante 4 cables macho-hembra"
+msgstr "Connect the PC42 panel to an Arduino using 4 male-female cables"
+
+#: ../../source/arduprog/pc42-install.rst:30
+msgid "Instalar la librería de control PC42"
+msgstr "Install the PC42 control library"
+
+#: ../../source/arduprog/pc42-install.rst:32
+msgid ""
+"Además se puede añadir la herramienta Ardublock de programación por "
+"bloques."
+msgstr "In addition, the Ardublock block programming tool can be added."
+
+#: ../../source/arduprog/pc42-install.rst:37
+msgid "Conexión con Arduino UNO"
+msgstr "Connection with Arduino UNO"
+
+#: ../../source/arduprog/pc42-install.rst:54
+msgid ""
+"Las conexiones necesarias para comunicar la placa Arduino UNO con el "
+"panel PC42 se listan en la siguiente tabla:"
+msgstr ""
+"The necessary connections to communicate the Arduino UNO board with the "
+"PC42 panel are listed in the following table:"
+
+#: ../../source/arduprog/pc42-install.rst:58
+#: ../../source/arduprog/pc42-install.rst:99
+msgid "Pin"
+msgstr "Pin"
+
+#: ../../source/arduprog/pc42-install.rst:58
+#: ../../source/arduprog/pc42-install.rst:99
+msgid "Color"
+msgstr "Color"
+
+#: ../../source/arduprog/pc42-install.rst:58
+#: ../../source/arduprog/pc42-install.rst:99
+msgid "Panel PC42"
+msgstr "Panel PC42"
+
+#: ../../source/arduprog/pc42-install.rst:58
+msgid "Arduino UNO"
+msgstr "Arduino UNO"
+
+#: ../../source/arduprog/pc42-install.rst:60
+#: ../../source/arduprog/pc42-install.rst:101
+msgid "1"
+msgstr "1"
+
+#: ../../source/arduprog/pc42-install.rst:60
+#: ../../source/arduprog/pc42-install.rst:62
+#: ../../source/arduprog/pc42-install.rst:64
+#: ../../source/arduprog/pc42-install.rst:101
+#: ../../source/arduprog/pc42-install.rst:103
+#: ../../source/arduprog/pc42-install.rst:105
+msgid "Azul"
+msgstr "Blue"
+
+#: ../../source/arduprog/pc42-install.rst:60
+#: ../../source/arduprog/pc42-install.rst:101
+msgid "Vdd  +5V"
+msgstr "Vdd +5V"
+
+#: ../../source/arduprog/pc42-install.rst:62
+#: ../../source/arduprog/pc42-install.rst:103
+msgid "2"
+msgstr "2"
+
+#: ../../source/arduprog/pc42-install.rst:62
+#: ../../source/arduprog/pc42-install.rst:103
+msgid "SDA"
+msgstr "SDA"
+
+#: ../../source/arduprog/pc42-install.rst:62
+#: ../../source/arduprog/pc42-install.rst:103
+msgid "A4"
+msgstr "A4"
+
+#: ../../source/arduprog/pc42-install.rst:64
+#: ../../source/arduprog/pc42-install.rst:105
+msgid "3"
+msgstr "3"
+
+#: ../../source/arduprog/pc42-install.rst:64
+#: ../../source/arduprog/pc42-install.rst:105
+msgid "SCL"
+msgstr "SCL"
+
+#: ../../source/arduprog/pc42-install.rst:64
+#: ../../source/arduprog/pc42-install.rst:105
+msgid "A5"
+msgstr "TO 5"
+
+#: ../../source/arduprog/pc42-install.rst:66
+#: ../../source/arduprog/pc42-install.rst:107
+msgid "4"
+msgstr "4"
+
+#: ../../source/arduprog/pc42-install.rst:66
+#: ../../source/arduprog/pc42-install.rst:107
+msgid "Marrón"
+msgstr "Brown"
+
+#: ../../source/arduprog/pc42-install.rst:66
+#: ../../source/arduprog/pc42-install.rst:107
+msgid "GND   0V"
+msgstr "GND 0V"
+
+#: ../../source/arduprog/pc42-install.rst:69
+msgid ""
+"Las conexiones del panel PC42 están protegidas contra inversión de "
+"polaridad, de manera que el panel no se dañará aunque se intercambien los"
+" cables entre sí. La única conexión que puede causar daños permanentes en"
+" el panel es una alimentación por encima de 5 voltios, que se puede "
+"encontrar en el pin \"Vin\" de Arduino cuando este es alimentado con "
+"batería externa."
+msgstr ""
+"The PC42 panel connections are reverse polarity protected, so the panel "
+"will not be damaged even if the wires are interchanged. The only "
+"connection that can cause permanent damage to the board is a supply above"
+" 5 volts, which can be found on the \"Vin\" pin of the Arduino when "
+"powered by an external battery."
+
+#: ../../source/arduprog/pc42-install.rst:78
+msgid "Conexión con Arduino Nano"
+msgstr "Connection with Arduino Nano"
+
+#: ../../source/arduprog/pc42-install.rst:95
+msgid ""
+"Las conexiones necesarias para comunicar la placa Arduino Nano con el "
+"panel PC42 se listan en la siguiente tabla:"
+msgstr ""
+"The necessary connections to communicate the Arduino Nano board with the "
+"PC42 panel are listed in the following table:"
+
+#: ../../source/arduprog/pc42-install.rst:99
+msgid "Arduino Nano"
+msgstr "Arduino nano"
+
+#: ../../source/arduprog/pc42-install.rst:112
+msgid "Instalación del entorno Arduino"
+msgstr "Installation of the Arduino environment"
+
+#: ../../source/arduprog/pc42-install.rst:113
+msgid ""
+"Para poder trabajar con la placa Arduino es necesario instalar el "
+"software de programación de Arduino y los drivers correspondientes."
+msgstr ""
+"In order to work with the Arduino board, it is necessary to install the "
+"Arduino programming software and the corresponding drivers."
+
+#: ../../source/arduprog/pc42-install.rst:116
+msgid ""
+"En la sección de :ref:`solución de problemas con Arduino "
+"<troubleshooting-arduino>` se pueden encontrar todos los pasos para "
+"instalar el software de la placa Arduino y resolver los errores de "
+"instalación más frecuentes."
+msgstr ""
+"In the section :ref:`Arduino troubleshooting <troubleshooting-arduino>` "
+"you can find all the steps to install the Arduino board software and "
+"solve the most frequent installation errors."
+
+#: ../../source/arduprog/pc42-install.rst:123
+msgid "Instalación de la librería para el panel PC42"
+msgstr "Installation of the library for the PC42 panel"
+
+#: ../../source/arduprog/pc42-install.rst:125
+msgid ""
+"Para que el panel de control PC42 pueda funcionar es necesario descargar "
+"e instalar una librería para Arduino."
+msgstr ""
+"In order for the PC42 control panel to work, it is necessary to download "
+"and install a library for Arduino."
+
+#: ../../source/arduprog/pc42-install.rst:128
+msgid "Descargar la librería del panel de control PC42 para Arduino."
+msgstr "Download the PC42 control panel library for Arduino."
+
+#: ../../source/arduprog/pc42-install.rst:130
+msgid ":download:`Librería PC42 r3 <_downloads/PC42.zip>`"
+msgstr ":download:`PC42 Library r3 <_downloads/PC42.zip>`"
+
+#: ../../source/arduprog/pc42-install.rst:132
+msgid "Seguir los pasos de instalación descritos en la siguiente página."
+msgstr "Follow the installation steps described on the next page."
+
+#: ../../source/arduprog/pc42-install.rst:134
+msgid ":ref:`add-library`"
+msgstr ":ref:`add-library`"
+
+#: ../../source/arduprog/pc42-install.rst:138
+msgid "Instalación de Ardublock"
+msgstr "Ardublock installation"
+
+#: ../../source/arduprog/pc42-install.rst:140
+msgid ""
+"Ardublock es una herramienta para Arduino que permite programar con "
+"bloques gráficos. Está orientada para facilitar la programación a los "
+"usuarios sin experiencia, simplificando mucho la tarea de realizar "
+"programas con un sencillo entorno gráfico."
+msgstr ""
+"Ardublock is a tool for Arduino that allows programming with graphic "
+"blocks. It is oriented to make programming easier for inexperienced "
+"users, greatly simplifying the task of creating programs with a simple "
+"graphical environment."
+
+#: ../../source/arduprog/pc42-install.rst:150
+msgid ""
+"La versión de Ardublock-Picuino es aún más simple que el proyecto "
+"Ardublock original y contiene las instrucciones necesarias para la "
+"programación del panel de control PC42."
+msgstr ""
+"The Ardublock-Picuino version is even simpler than the original Ardublock"
+" project and contains the necessary instructions for programming the PC42"
+" control panel."
+
+#: ../../source/arduprog/pc42-install.rst:154
+msgid ""
+"Para instalar la última versión de Ardublock-Picuino hay que seguir los "
+"siguentes pasos:"
+msgstr "To install the latest version of Ardublock-Picuino, follow these steps:"
+
+#: ../../source/arduprog/pc42-install.rst:157
+msgid ""
+"Descargar la :download:`herramienta Ardublock-Picuino <_downloads"
+"/ardublock-picuino.zip>`"
+msgstr ""
+"Download the :download:`Ardublock-Picuino tool <_downloads/ardublock-"
+"picuino.zip>`"
+
+#: ../../source/arduprog/pc42-install.rst:159
+#: ../../source/arduprog/pc42-install.rst:205
+msgid ""
+"Copiar el archivo en el directorio de Arduino. El directorio se puede "
+"encontrar en el entorno de Arduino, pulsando el menú:"
+msgstr ""
+"Copy the file to the Arduino directory. The directory can be found in the"
+" Arduino environment, by pressing the menu:"
+
+#: ../../source/arduprog/pc42-install.rst:163
+#: ../../source/arduprog/pc42-install.rst:209
+msgid "``Archivo... Preferencias... Localización del proyecto``."
+msgstr "``File... Preferences... Project location``."
+
+#: ../../source/arduprog/pc42-install.rst:164
+#: ../../source/arduprog/pc42-install.rst:210
+msgid "Descomprir el archivo en el directorio de Arduino."
+msgstr "Unzip the file in the Arduino directory."
+
+#: ../../source/arduprog/pc42-install.rst:165
+msgid ""
+"Cerrar y volver a abrir el entorno de Arduino. La nueva herramienta debe "
+"aparecer en el menú:"
+msgstr ""
+"Close and reopen the Arduino environment. The new tool should appear in "
+"the menu:"
+
+#: ../../source/arduprog/pc42-install.rst:168
+msgid "``Herramientas... Ardublock``"
+msgstr "``Tools... Ardublock``"
+
+#: ../../source/arduprog/pc42-install.rst:172
+msgid "Instalación de librerías auxiliares para Arduino"
+msgstr "Installation of auxiliary libraries for Arduino"
+
+#: ../../source/arduprog/pc42-install.rst:174
+msgid ""
+"Estas librerías permiten que la placa Arduino controle periféricos tales "
+"como un un panel visualizador LCD o emisores y receptores infrarrojos."
+msgstr ""
+"These libraries allow the Arduino board to control peripherals such as an"
+" LCD display panel or infrared emitters and receivers."
+
+#: ../../source/arduprog/pc42-install.rst:178
+msgid ""
+":download:`archivo de librerías para Arduino <_downloads/arduino-libraries.zip>`"
+msgstr ""
+":download:`Arduino libraries archive <_downloads/arduino-libraries.zip>`"
+
+#: ../../source/arduprog/pc42-install.rst:181
+msgid "En este paquete se pueden encontrar juntas las siguientes librerías:"
+msgstr "The following libraries can be found together in this package:"
+
+#: ../../source/arduprog/pc42-install.rst:183
+msgid ""
+":download:`dht11 <_downloads/dht11.zip>` control del sensor de humedad y "
+"temperatura DHT11"
+msgstr ""
+":download:`dht11 <_downloads/dht11.zip>` DHT11 humidity and temperature "
+"sensor control"
+
+#: ../../source/arduprog/pc42-install.rst:185
+msgid ""
+":download:`IRremote <_downloads/IRremote.zip>` control de emisores y "
+"receptores de infrarrojos"
+msgstr ""
+":download:`IRremote <_downloads/IRremote.zip>` control infrared emitters "
+"and receivers"
+
+#: ../../source/arduprog/pc42-install.rst:187
+msgid ""
+":download:`LiquidCrystal <_downloads/LiquidCrystal.zip>` control de "
+"paneles visualizadores LCD"
+msgstr ""
+":download:`LiquidCrystal <_downloads/LiquidCrystal.zip>` control LCD "
+"display panels"
+
+#: ../../source/arduprog/pc42-install.rst:189
+msgid ""
+":download:`NewliquidCrystal <_downloads/NewliquidCrystal.zip>` control de"
+" paneles visualizadores LCD"
+msgstr ""
+":download:`NewliquidCrystal <_downloads/NewliquidCrystal.zip>` LCD "
+"display panel control"
+
+#: ../../source/arduprog/pc42-install.rst:191
+msgid ":download:`SCoop <_downloads/SCoop.zip>` programación multitarea"
+msgstr ":download:`SCoop <_downloads/SCoop.zip>` multitasking programming"
+
+#: ../../source/arduprog/pc42-install.rst:193
+msgid ":download:`SDPlus <_downloads/SDPlus.zip>` manejo de memorias SD"
+msgstr ":download:`SDPlus <_downloads/SDPlus.zip>` SD memory management"
+
+#: ../../source/arduprog/pc42-install.rst:195
+msgid ""
+":download:`makeblock <_downloads/makeblock.zip>` manejo de robots y "
+"gadgets de Makeblock"
+msgstr ""
+":download:`makeblock <_downloads/makeblock.zip>` handling Makeblock "
+"robots and gadgets"
+
+#: ../../source/arduprog/pc42-install.rst:197
+msgid ""
+":download:`PC42 <_downloads/PC42.zip>` manejo del panel de control "
+"Picuino PC42"
+msgstr ""
+":download:`PC42 <_downloads/PC42.zip>` handling of the Picuino PC42 "
+"control panel"
+
+#: ../../source/arduprog/pc42-install.rst:200
+msgid ""
+"Para **instalar todas las librerías a la vez**, hay que seguir los "
+"siguientes pasos:"
+msgstr "To **install all the libraries at once**, follow these steps:"
+
+#: ../../source/arduprog/pc42-install.rst:203
+msgid ""
+"Descargar el :download:`archivo con las librerías para Arduino "
+"<_downloads/arduino-libraries.zip>`"
+msgstr ""
+"Download the :download:` archive with the libraries for Arduino "
+"<_downloads/arduino-libraries.zip>`"
+
+#: ../../source/arduprog/pc42-install.rst:211
+msgid ""
+"Cerrar y volver a abrir el entorno de Arduino. Las nuevas librerías deben"
+" aparecer en el menú:"
+msgstr ""
+"Close and reopen the Arduino environment. The new libraries should appear"
+" in the menu:"
+
+#: ../../source/arduprog/pc42-install.rst:214
+msgid "``Programa... Incluir librería...``"
+msgstr "``Program... Include library...``"
+
+#: ../../source/arduprog/pc42-install.rst:217
+msgid ""
+"Para instalar librerías individuales utilizando el entorno Arduino, se "
+"puede leer el siguiente enlace sobre :ref:`cómo añadir una librería al "
+"entorno Arduino <add-library>`."
+msgstr ""
+"To install individual libraries using the Arduino environment, you can "
+"read the following link on :ref:`how to add a library to the Arduino "
+"environment <add-library>`."
+

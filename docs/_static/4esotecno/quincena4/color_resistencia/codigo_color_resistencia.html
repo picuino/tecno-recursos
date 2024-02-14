@@ -1,0 +1,420 @@
+<html>
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena4/color_resistencia/codigo_color_resistencia.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:57:15 GMT -->
+<head>
+<title>Codigo de colores de las resistencias</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="JavaScript">
+function showbands(rawStr) {
+   var resval=''
+   var mult=''
+   var digits='0123456789.'
+   var multlist='rkmgt'
+   rawStr=rawStr.toLowerCase(rawStr)
+   j=rawStr.length
+   if (rawStr.indexOf('.')>=0) {
+      for (var i=0 ; i<j ; i++) {
+         ch=rawStr.substring(i,i+1)
+         if (digits.indexOf(ch)>=0) resval += ch
+         if (multlist.indexOf(ch)>=0) mult = ch
+         if (ch=='.') digits='0123456789'
+      }
+   } else {
+      for (var i=0 ; i<j ; i++) {
+         ch=rawStr.substring(i,i+1)
+         if (digits.indexOf(ch)>=0) resval += ch
+         if (multlist.indexOf(ch)>=0) {
+            mult = ch
+            resval += '.'
+         }
+      }
+   }
+   var band=0
+   switch (mult) {
+      case 'r':
+         band = 0
+         break;
+      case 'k':
+         band = 3
+         break;
+      case 'm':
+         band = 6
+         break;
+      case 'g':
+         band = 9
+         break;
+      case 't':
+         band = 12
+         break;
+   }		
+   resval=parseFloat(resval)
+   while (resval>=100) {
+      resval /= 10
+      band += 1
+      if (band>9) band=20
+   }
+   while (resval<10) {
+      resval *= 10
+      band -= 1
+   }
+   resval=Math.round(resval)
+   if (resval==100) {
+      if (band==9) band=20
+      else band += 1
+   } if (band<0)
+   band= 10 - band -1
+   resval=resval.toString()
+   if ((band>=0) && (band<12)) {
+      document.forms[0].R2[parseInt(resval.substring(0,1))].checked=true;
+      document.forms[0].R3[parseInt(resval.substring(1,2))].checked=true;
+      document.forms[0].R4[band].checked = true;
+      document.images['img1'].src = bar1[parseInt(resval.substring(0,1))].src
+      document.images['img2'].src = bar2[parseInt(resval.substring(1,2))].src
+      document.images['img3'].src = bar2[band].src
+      calc()
+   } else window.alert('The value specified is out of range')
+}
+function calc() {
+   var tVar='';
+   var outVal = 0;
+   with (document.forms[0]) {
+      outVal2=''
+      outVal3='0'
+      outVal4=0
+      for (var a=0 ; a<10 ; a++) {
+         if (R2[a].checked) {
+            outVal2 = R2[a].value;
+         }
+      }
+      for (var a=0 ; a<10 ; a++) {
+         if (R3[a].checked) {
+            outVal3 = R3[a].value;
+         }
+      }
+      for (var a=0 ; a<12 ; a++) {
+         if (R4[a].checked) {
+            outVal4 = a;
+         }
+      }
+      switch (outVal4) {
+         case 0 :
+            if (outVal2=='0') outVal2=''
+            outStr= outVal2 + outVal3 + 'R';
+            break;
+         case 1 :
+            if (outVal2=='0') outVal2=''
+            outStr= outVal2 + outVal3 + '0R';
+            break;
+         case 2 :
+            outStr= outVal2 + 'k' + outVal3;
+            break;
+         case 3 :
+            if (outVal2=='0') outVal2=''
+            outStr= outVal2 + outVal3 + 'k';
+            break;
+         case 4 :
+            if (outVal2=='0') outVal2=''
+            outStr= outVal2 + outVal3 + '0k';
+            break;
+         case 5 :
+            outStr= outVal2 + 'M' + outVal3;
+            break;
+         case 6 :
+            if (outVal2=='0') outVal2=''
+            outStr= outVal2 + outVal3 + 'M';
+            break;
+         case 7 :
+            if (outVal2=='0') outVal2=''
+            outStr= outVal2 + outVal3 + '0M';
+            break;
+         case 8 :
+            outStr= outVal2 + "G" + outVal3;
+            break;
+         case 9 :
+            if (outVal2=='0') outVal2=''
+            outStr = outVal2 + outVal3 + 'G';
+            break;
+         case 10 :
+            outStr = outVal2 + 'R' + outVal3;
+            break;
+         case 11 :
+            outStr = '0R' + outVal2 + outVal3;
+            break;
+      }
+   ResValue.value = outStr
+
+   for (var a=0 ; a<8 ; a++) {
+      if (R5[a].checked) {
+         ResValue.value += " ± " + R5[a].value;
+         }
+      }
+   }
+   return '';
+}
+
+var bar1		=	new Array()
+var bar2		=	new Array()
+bar1[0]			=	new Image();
+bar1[0].src		=	'negro.gif';
+bar1[1]			=	new Image();
+bar1[1].src		=	'marron.gif';
+bar1[2]			=	new Image();
+bar1[2].src		=	'rojo.gif';
+bar1[3]			=	new Image();
+bar1[3].src		=	'naranja.gif';
+bar1[4]			=	new Image();
+bar1[4].src		=	'amarillo.gif';
+bar1[5]			=	new Image();
+bar1[5].src		=	'verde.gif';
+bar1[6]			=	new Image();
+bar1[6].src		=	'azul.gif';
+bar1[7]			=	new Image();
+bar1[7].src		=	'morado.gif';
+bar1[8]			=	new Image();
+bar1[8].src		=	'gris.gif';
+bar1[9]			=	new Image();
+bar1[9].src		=	'blanco.gif';
+
+bar2[0]			=	new Image();
+bar2[0].src		=	'negro.gif';
+bar2[1]			=	new Image();
+bar2[1].src		=	'marron.gif';
+bar2[2]			=	new Image();
+bar2[2].src		=	'rojo.gif';
+bar2[3]			=	new Image();
+bar2[3].src		=	'naranja.gif';
+bar2[4]			=	new Image();
+bar2[4].src		=	'amarillo.gif';
+bar2[5]			=	new Image();
+bar2[5].src		=	'verde.gif';
+bar2[6]			=	new Image();
+bar2[6].src		=	'azul.gif';
+bar2[7]			=	new Image();
+bar2[7].src		=	'morado.gif';
+bar2[8]			=	new Image();
+bar2[8].src		=	'gris.gif';
+bar2[9]			=	new Image();
+bar2[9].src		=	'blanco.gif';
+bar2[10]		=	new Image();
+bar2[10].src	=	'oro.gif';
+bar2[11]		=	new Image();
+bar2[11].src	=	'plata.gif';
+
+function resBar(placeholder,imageObject) {
+   document.images[placeholder].src = eval(imageObject + '.src')
+}
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+
+<link href="../paracidead1.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body bgcolor="#EEFFEE">
+
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+            <div align="center">
+            <table width="509" border="1" cellpadding="2" cellspacing="4" bordercolor="#009999" bgcolor="#c6d8f4" style="margin-bottom: 0" height="442">
+              <tr valign="middle" bordercolor="#F1f1f1" bgcolor="#FFFFFF" class="parakaos2"> 
+                <td bordercolor="#F1f1f1" align="center" width="728" class="recuadro"> 
+
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+            	<p>
+            	<font size="4" color="#000099"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+				CÓDIGO DE COLORES DE LAS RESISTENCIAS</b></font></td>
+              </tr>
+              <tr>
+                <td bordercolor="#eeeedd" align="center" width="483" bgcolor="#FFFFFF" valign="top" class="recuadro">  
+				
+<font color="#000099">
+<p align="center"><b><span class="txt">Escoge el color de cada banda en la tabla 
+</span></b></font> </p>
+<form> </center> 
+  <div align="center"><br>
+    <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr> 
+        <td width="0%" valign="top"><br> </td>
+        <!-- cell with resistor table in it -->
+        <td width="100%"> 
+		<table border="0" cellspacing="0" cellpadding="0" bgcolor="#EEFFF7" width="702">
+            <!-- table cell setters-->
+            <!-- navigational tabs-->
+            <!-- first row-->
+            <!-- second row including resistor table-->
+            <tr> 
+              <td bgcolor="#FFFFFF"> 
+                <!-- RESISTOR TABLE 6 BAND-->
+                <table width="730" height="100%" border="0" align="center" cellpadding="0" cellspacing="2" bgcolor="#FFFFFF">
+                  <!-- Table cell stters -->
+                  <!-- FIRST ROW-->
+                  <tr> 
+                    <td width="97" bgcolor="#EEFFF7"></td>
+                    <td width="128" align="center" valign="bottom" class="copy" bgcolor="#EEFFF7">
+					<b><font color="#000099"><span class="txt">Banda 1 </span></font></b> </td>
+                    <td width="128" align="center" valign="bottom" class="copy" bgcolor="#EEFFF7">
+					<b><font color="#000099"><span class="txt">Banda 2 </span></font></b> </td>
+                    <td width="212" align="center" valign="bottom" class="copy" bgcolor="#EEFFF7">
+					<b><font color="#000099"><span class="txt">Multiplicador 
+                    </span></font></b> 
+                    </td>
+                    <td width="120" align="center" valign="bottom" class="copy" bordercolor="#000099" bgcolor="#EEFFF7">
+					<b><font color="#000099"><span class="txt">Tolerancia 
+                    </span></font></b> 
+                    </td>
+                  </tr>
+                  <!-- BLACK-->
+                  <tr> 
+                    <td bgcolor="#000000" class="copy"><span class="txt"><font color="#FFFFFF">
+					&nbsp;&nbsp;0.- Negro </font></span></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="0" name="R2" onClick="calc();resBar('img1','bar1[0]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="0" name="R3" onClick="calc();resBar('img2','bar2[0]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="1" name="R4" onClick="calc();resBar('img3','bar2[0]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"></td>
+                  </tr>
+                  <!-- BROWN-->
+                  <tr> 
+                    <td bgcolor="#663300" class="copy"><span class="txt"><font color="#FFFFFF">
+					&nbsp;&nbsp;1.- Marrón </font></span></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="1" name="R2" onClick="calc();resBar('img1','bar1[01]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="1" name="R3" onClick="calc();resBar('img2','bar2[01]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="10" name="R4" onClick="calc();resBar('img3','bar2[01]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"><input type="radio" value="1%" name="R5" onClick="calc();resBar('img4','bar2[01]')"></td>
+                  </tr>
+                  <!-- RED -->
+                  <tr> 
+                    <td bgcolor="#FF0000" class="copy"><span class="txt"><font color="#FFFFFF">
+					&nbsp;&nbsp;2.- Rojo </font></span></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="2" name="R2" onClick="calc();resBar('img1','bar1[02]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="2" name="R3" onClick="calc();resBar('img2','bar2[02]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="100" name="R4" onClick="calc();resBar('img3','bar2[02]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"><input type="radio" value="2%" name="R5" onClick="calc();resBar('img4','bar2[02]')"></td>
+                  </tr>
+                  <!-- ORANGE -->
+                  <tr> 
+                    <td bgcolor="#FF9900" class="copy"><span class="txt">&nbsp;&nbsp;3.- 
+					Naranja 
+                    </span> 
+                    </td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="3" name="R2" onClick="calc();resBar('img1','bar1[03]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="3" name="R3" onClick="calc();resBar('img2','bar2[03]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="1000" name="R4" onClick="calc();resBar('img3','bar2[03]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"></td>
+                  </tr>
+                  <!-- YELLOW-->
+                  <tr> 
+                    <td bgcolor="#FFFF00" class="copy"><span class="txt">&nbsp;&nbsp;4.- 
+					Amarillo 
+                    </span> 
+                    </td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="4" name="R2" onClick="calc();resBar('img1','bar1[04]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="4" name="R3" onClick="calc();resBar('img2','bar2[04]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="10000" name="R4" onClick="calc();resBar('img3','bar2[04]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"> </td>
+                  </tr>
+                  <!-- GREEN -->
+                  <tr> 
+                    <td bgcolor="#339900" class="copy"><span class="txt">&nbsp;&nbsp;5.- 
+					Verde 
+					</span> </td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="5" name="R2" onClick="calc();resBar('img1','bar1[05]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="5" name="R3" onClick="calc();resBar('img2','bar2[05]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="100000" name="R4" onClick="calc();resBar('img3','bar2[05]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"><input type="radio" value="0.5%" name="R5" onClick="calc();resBar('img4','bar2[05]')"></td>
+                  </tr>
+                  <!-- BLUE -->
+                  <tr> 
+                    <td bgcolor="#ccccff" class="copy"><span class="txt">&nbsp;&nbsp;6.- 
+					Azul 
+					</span> </td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="6" name="R2" onClick="calc();resBar('img1','bar1[06]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="6" name="R3" onClick="calc();resBar('img2','bar2[06]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="1000000" name="R4" onClick="calc();resBar('img3','bar2[06]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"><input type="radio" value="0.25%" name="R5" onClick="calc();resBar('img4','bar2[06]')"></td>
+                  </tr>
+                  <!-- VIOLET-->
+                  <tr> 
+                    <td bgcolor="#990099" class="copy"><span class="txt"><font color="#FFFFFF">
+					&nbsp;&nbsp;7.- Morado </font></span></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="7" name="R2" onClick="calc();resBar('img1','bar1[07]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="7" name="R3" onClick="calc();resBar('img2','bar2[07]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="10000000" name="R4" onClick="calc();resBar('img3','bar2[07]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"><input type="radio" value="0.10%" name="R5" onClick="calc();resBar('img4','bar2[07]')"></td>
+                  </tr>
+                  <!-- GREY -->
+                  <tr> 
+                    <td bgcolor="#666666" class="copy"><span class="txt"><font color="#ffffff">
+					&nbsp;&nbsp;8.- Gris </font></span></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="8" name="R2" onClick="calc();resBar('img1','bar1[08]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="8" name="R3" onClick="calc();resBar('img2','bar2[08]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="100000000" name="R4" onClick="calc();resBar('img3','bar2[08]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"><input type="radio" value="0.05%" name="R5" onClick="calc();resBar('img4','bar2[08]')"></td>
+                  </tr>
+                  <!-- White -->
+                  <tr> 
+                    <td class="copy"><span class="txt">&nbsp;&nbsp;9.- Blanco 
+					</span> </td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="9" name="R2" onClick="calc();resBar('img1','bar1[09]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="9" name="R3" onClick="calc();resBar('img2','bar2[09]')"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value="1000000000" name="R4" onClick="calc();resBar('img3','bar2[09]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"></td>
+                  </tr>
+                  <!-- GOLD -->
+                  <tr> 
+                    <td bgcolor="#CCCC66" class="copy"><span class="txt">&nbsp;&nbsp;Oro 
+					</span> </td>
+                    <td align="center" bgcolor="#EEFFF7"></td>
+                    <td align="center" bgcolor="#EEFFF7"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value=".1" name="R4" onClick="calc();resBar('img3','bar2[10]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"><input type="radio" value="5%" name="R5" onClick="calc();resBar('img4','bar2[10]')"></td>
+                  </tr>
+                  <!-- SILVER -->
+                  <tr> 
+                    <td bgcolor="#cccccc" class="copy"><span class="txt">&nbsp;&nbsp;Plata 
+					</span> </td>
+                    <td align="center" bgcolor="#EEFFF7"></td>
+                    <td align="center" bgcolor="#EEFFF7"></td>
+                    <td align="center" bgcolor="#EEFFF7"><input type="radio" value=".01" name="R4" onClick="calc();resBar('img3','bar2[11]')"></td>
+                    <td align="center" bgcolor="#EEFFF7" bordercolor="#000099" width="120"><input type="radio" value="10%" name="R5" onClick="calc();resBar('img4','bar2[11]')"></td>
+                  </tr>
+                  <!-- Table cell setters -->
+                </table>
+				<img src="blank.gif" width="1" height="1"></td>
+              <!-- END OF RESISTOR TABLE-->
+            </tr>
+            <!-- VALUE DISPLAY -->
+            <tr> 
+              <td width="672" bgcolor="#CCCCCC"> <table width="95%">
+                  <tr> 
+                    <td height="55" bgcolor="#CCCCCC" class="copy"> <p align="center">
+					<b><font color="#000099"><span class="txt">Valor resistencia</span></font></b></p>
+                      <p align="center"> 
+                        <span class="txt"> 
+                        <input type="text" name="ResValue" size="25">
+                      </span>
+                      </p></td>
+                    <td align="right" bordercolor="#333333" bgcolor="#CCCCCC"> 
+                      <div align="center"><b><font color="#000099">
+						<span class="txt">Código de colores </span>
+						</font></b> </div>
+                      <table width="100%" align="center">
+                        <tr> 
+                          <td align="center" valign="middle" bordercolor="#333333"> 
+                            <div align="center">
+								<span class="txt">
+								<img src="res.gif" width="24" height="34"><img src="res.gif" name="img1" width="11" height="34" border="0"><img src="res.gif" width="13" height="34"><img src="res.gif" width="9" height="34" name="img2"><img src="res.gif" width="8" height="34"><img src="res.gif" width="9" height="34" name="img3"><img src="res.gif" width="8" height="34"><img src="res.gif" width="9" height="34" name="img4"><img src="res.gif" width="6" height="34"><img src="res.gif" width="16" height="34" name="img6"><img src="res.gif" width="25" height="34"></span></div></td>
+                        </tr>
+                      </table></td>
+                  </tr>
+                </table></td>
+            </tr>
+            <!-- BLACK TABLE LINE -->
+          </table>
+    </td>
+              </tr>
+              </table></div>
+
+            </body>
+
+
+<!-- Mirrored from recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena4/color_resistencia/codigo_color_resistencia.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 13:57:15 GMT -->
+</html>

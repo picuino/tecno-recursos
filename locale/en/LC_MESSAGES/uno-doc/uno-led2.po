@@ -1,0 +1,212 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/uno-doc/uno-led2.rst:7
+msgid "Parpadeo de los LED"
+msgstr "LED flashing"
+
+
+#: ../../es/uno-doc/uno-led2.rst:10
+msgid "Objetivos"
+msgstr "Goals"
+
+
+#: ../../es/uno-doc/uno-led2.rst:11
+msgid "Generar parpadeo de leds mediante la función ledBlink."
+msgstr "Generate led blinking using the ledBlink function."
+
+
+#: ../../es/uno-doc/uno-led2.rst:15
+msgid "La función ``ledBlink``"
+msgstr "The ``ledBlink`` function"
+
+
+#: ../../es/uno-doc/uno-led2.rst:19
+msgid ""
+"Esta función hace parpadear a un led con una cadencia determinada. Sus "
+"parámetros son los siguientes:"
+msgstr ""
+"This function makes a led blink with a determined cadence. Its parameters "
+"are the following:"
+
+
+#: ../../es/uno-doc/uno-led2.rst:22
+msgid ""
+"``ledNum``: led que va a parpadear. Los valores válidos van desde 1 para el "
+"led D1 hasta 8 para el color azul del led D6."
+msgstr ""
+"``ledNum``: led that will blink. Valid values ​​range from 1 for led D1 to 8"
+" for the blue color of led D6."
+
+
+#: ../../es/uno-doc/uno-led2.rst:25
+msgid ""
+"El led D6 es un led RGB, que integra 3 leds en su interior. Los números 6, "
+"7, 8 representan respectivamente los colores rojo, verde y azul del led D6."
+msgstr ""
+"The D6 led is an RGB led, which integrates 3 leds inside. The numbers 6, 7, "
+"8 respectively represent the red, green and blue colors of led D6."
+
+
+#: ../../es/uno-doc/uno-led2.rst:29
+msgid ""
+"``time_on``: tiempo, en centésimas de segundo, que el led debe permanecer "
+"encendido. Si este parámetro vale cero, el led permanecerá encendido todo el"
+" tiempo."
+msgstr ""
+"``time_on``: time, in hundredths of a second, that the led should stay on. "
+"If this parameter is zero, the led will remain on all the time."
+
+
+#: ../../es/uno-doc/uno-led2.rst:34
+msgid ""
+"``time_off``: tiempo, en centésimas de segundo, que el led debe permanecer "
+"apagado."
+msgstr ""
+"``time_off``: time, in hundredths of a second, that the led should remain "
+"off."
+
+
+#: ../../es/uno-doc/uno-led2.rst:39
+msgid ""
+"Cada vez que se ejecuta la función ``ledBlink()``, el led comienza por "
+"encenderse durante el tiempo ``time_on``. Esto puede servir para sincronizar"
+" el comienzo del parpadeo de un led. Si la función se ejecuta repetidamente "
+"cada poco tiempo, el led permanecerá todo el tiempo encendido, puesto que "
+"antes de llegar a apagarse, el parpadeo se reinicia una y otra vez."
+msgstr ""
+"Each time the ``ledBlink()`` function is executed, the led starts to light "
+"for ``time_on``. This can be used to synchronize the beginning of the "
+"blinking of a led. If the function is executed repeatedly every so often, "
+"the led will remain on all the time, since before going off, the flashing "
+"starts over and over again."
+
+
+#: ../../es/uno-doc/uno-led2.rst:49
+msgid "Parpadeo del led D1"
+msgstr "LED D1 flashing"
+
+
+#: ../../es/uno-doc/uno-led2.rst:51
+msgid ""
+"En este ejemplo se desea hacer parpadear al led D1 con un tiempo encendido "
+"de medio segundo y un tiempo apagado de medio segundo. El periodo de "
+"parpadeo será por lo tanto de un segundo. En este caso la función se dará "
+"desde el bloque ``setup()`` una sola vez."
+msgstr ""
+"In this example, you want to make led D1 blink with a half second on time "
+"and half a second off time. The flashing period will therefore be one "
+"second. In this case the function will be given from the ``setup()`` block "
+"only once."
+
+
+#: ../../es/uno-doc/uno-led2.rst:76
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/uno-doc/uno-led2.rst:77
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+
+#: ../../es/uno-doc/uno-led2.rst:79
+msgid ""
+"Hacer parpadear el led D1 y el led D4 con una frecuencia de un segundo. Los "
+"dos leds se deben encender y apagar al mismo tiempo. Utilizar la función "
+"``ledBlink()``."
+msgstr ""
+"Make led D1 and led D4 flash every one second. The two LEDs must turn on and"
+" off at the same time. Use the ``ledBlink()`` function."
+
+
+#: ../../es/uno-doc/uno-led2.rst:84
+msgid ""
+"Modificar el ejercicio anterior para que el encendido de los dos leds D1 y "
+"D4 sea alternativo, de manera que solo un led esté encendido en cada "
+"momento. El tiempo de encendido de cada led será de medio segundo."
+msgstr ""
+"Modify the previous exercise so that the lighting of the two leds D1 and D4 "
+"alternates, so that only one led is on at any time. The lighting time of "
+"each led will be half a second."
+
+
+#: ../../es/uno-doc/uno-led2.rst:89
+msgid ""
+"Hacer parpadear dos led a la vez con una frecuencia de un segundo. El led D1"
+" se programará con la función ``ledBlink(1, 50, 50)``, por el contrario el "
+"led D3 se programará con la función ``ledWrite()``. Primero comenzará a "
+"parpadear el led D1 y, pasado un segundo, lo hará el led D3. Se deben "
+"sincronizar los dos leds para que parpadeen a la vez ajustando los tiempos "
+"de encendido y apagado con la función ``delay()``."
+msgstr ""
+"Make two LEDs blink at the same time with a frequency of one second. LED D1 "
+"will be programmed with the ``ledBlink(1, 50, 50)`` function, on the "
+"contrary, led D3 will be programmed with the ``ledWrite()`` function. First "
+"led D1 will start to flash and, after a second, led D3 will. The two leds "
+"must be synchronized so that they blink at the same time by adjusting the on"
+" and off times with the ``delay()`` function."
+
+
+#: ../../es/uno-doc/uno-led2.rst:99
+msgid ""
+"Corregir los errores sintácticos del siguiente programa para conseguir que "
+"funcione correctamente."
+msgstr ""
+"Correct the syntax errors in the following program to make it work "
+"correctly."
+
+
+#: ../../es/uno-doc/uno-led2.rst:133
+msgid ""
+"Hacer parpadear a un led de manera que se encienda durante una décima de "
+"segundo cada diez segundos, para indicar que el módulo está encendido "
+"gastando muy poca corriente eléctrica."
+msgstr ""
+"Make a led blink so that it lights up for one tenth of a second every ten "
+"seconds, to indicate that the module is on, using very little electrical "
+"current."
+
+
+#: ../../es/uno-doc/uno-led2.rst:137
+msgid ""
+"Hacer parpadear a un led de manera que se encienda durante dos décimas de "
+"segundo, cada segundo."
+msgstr ""
+"Make a led blink so that it lights up for two tenths of a second, every "
+"second."
+
+
+#: ../../es/uno-doc/uno-led2.rst:140
+msgid ""
+"Los seis primeros leds se deben encender en secuencia de manera que comience"
+" por encenderse el led D1 y termine por encenderse el led D6. entre el "
+"encendido de un led y el siguiente debe pasar entre 250 y 500 milésimas de "
+"segundo. Una vez que todos los leds estén encendidos, comenzarán a apagarse "
+"por el led D1 hasta que todos estén apagados. Nota: Para resolver este "
+"problema, se debe utilizar solo una función ``ledBlink()`` por cada led, "
+"junto con una función ``delay()`` para esperar un tiempo entre un encendido "
+"y el siguiente."
+msgstr ""
+"The first six leds must light up in sequence so that led D1 begins to light "
+"up and ends up with led D6. Between the lighting of one LED and the next, "
+"between 250 and 500 thousandths of a second must pass. Once all the leds are"
+" on, they will start to turn off by led D1 until they are all off. Note: To "
+"solve this problem, only one ``ledBlink()`` function should be used for each"
+" led, together with a ``delay()`` function to wait for a time between one "
+"flash and the next."

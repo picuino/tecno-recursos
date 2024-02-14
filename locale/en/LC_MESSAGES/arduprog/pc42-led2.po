@@ -1,0 +1,232 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/arduprog/pc42-led2.rst:9
+msgid "Parpadeo de los LED"
+msgstr "LED flashing"
+
+
+#: ../../es/arduprog/pc42-led2.rst:28
+msgid "Objetivos"
+msgstr "Goals"
+
+
+#: ../../es/arduprog/pc42-led2.rst:29
+msgid "Generar parpadeo de leds mediante la función ledBlink."
+msgstr "Generate led blinking using the ledBlink function."
+
+
+#: ../../es/arduprog/pc42-led2.rst:33
+msgid "La función :cpp:func:`ledBlink`"
+msgstr "The :cpp:func:`ledBlink` function"
+
+
+#: ../../es/arduprog/pc42-led2.rst:37
+msgid ""
+"Esta función hace parpadear a un led con una cadencia determinada. Sus "
+"parámetros son los siguientes:"
+msgstr ""
+"This function makes a led blink with a determined cadence. Its parameters "
+"are the following:"
+
+
+#: ../../es/arduprog/pc42-led2.rst:40
+msgid ""
+"``ledNum``: led que va a parpadear. Los valores válidos van desde 1 para el "
+"led D1 hasta 8 para el color azul del led D6."
+msgstr ""
+"``ledNum``: led that will blink. Valid values ​​range from 1 for led D1 to 8"
+" for the blue color of led D6."
+
+
+#: ../../es/arduprog/pc42-led2.rst:43
+msgid ""
+"El led D6 es un led RGB, que integra 3 leds en su interior. Los números 6, "
+"7, 8 representan respectivamente los colores rojo, verde y azul del led D6."
+msgstr ""
+"The D6 led is an RGB led, which integrates 3 leds inside. The numbers 6, 7, "
+"8 respectively represent the red, green and blue colors of led D6."
+
+
+#: ../../es/arduprog/pc42-led2.rst:46
+msgid ""
+"``time_on``: tiempo, en milésimas de segundo, que el led debe permanecer "
+"encendido. Si este parámetro vale cero, el led permanecerá encendido todo el"
+" tiempo."
+msgstr ""
+"``time_on``: time, in thousandths of a second, that the led should stay on. "
+"If this parameter is zero, the led will remain on all the time."
+
+
+#: ../../es/arduprog/pc42-led2.rst:49
+msgid ""
+"``time_off``: tiempo, en milésimas de segundo, que el led debe permanecer "
+"apagado."
+msgstr ""
+"``time_off``: time, in thousandths of a second, that the led should remain "
+"off."
+
+
+#: ../../es/arduprog/pc42-led2.rst:53
+msgid ""
+"Cada vez que se ejecuta la función :cpp:func:`ledBlink`, el led comienza el "
+"ciclo encendiéndose durante el tiempo ``time_on``. Esto puede servir para "
+"sincronizar el comienzo del parpadeo de un led. Si la función "
+":cpp:func:`ledBlink` se ejecuta repetidamente cada poco tiempo, el led "
+"permanecerá todo el tiempo encendido, puesto que su tiempo encendido se "
+"reinicia una y otra vez."
+msgstr ""
+"Every time the :cpp:func:`ledBlink` function is executed, the led begins the"
+" cycle by turning on for ``time_on``. This can be used to synchronize the "
+"beginning of the blinking of a led. If the function :cpp:func:`ledBlink` is "
+"executed repeatedly every so often, the led will stay on all the time, since"
+" its on time is reset over and over again."
+
+
+#: ../../es/arduprog/pc42-led2.rst:62
+msgid "Parpadeo del led D1"
+msgstr "LED D1 flashing"
+
+
+#: ../../es/arduprog/pc42-led2.rst:64
+msgid ""
+"En este ejemplo se desea hacer parpadear al led D1 con un tiempo encendido "
+"de medio segundo y un tiempo apagado de medio segundo. El periodo de "
+"parpadeo será por lo tanto de un segundo. En este caso la función se dará "
+"desde el bloque ``setup()`` una sola vez."
+msgstr ""
+"In this example, you want to make led D1 blink with a half second on time "
+"and half a second off time. The flashing period will therefore be one "
+"second. In this case the function will be given from the ``setup()`` block "
+"only once."
+
+
+#: ../../es/arduprog/pc42-led2.rst:73
+msgid "Programa equivalente en el entorno Ardublock:"
+msgstr "Equivalent program in the Ardublock environment:"
+
+
+#: ../../es/arduprog/pc42-led2.rst:79
+msgid ""
+"En este enlace se puede descargar el :download:`archivo de programa para "
+"entorno Ardublock 'ledBlink' <_downloads/ardublock_ledBlink.abp>`"
+msgstr ""
+"In this link you can download the :download:`program file for Ardublock "
+"environment 'ledBlink' <_downloads/ardublock_ledBlink.abp>`"
+
+
+#: ../../es/arduprog/pc42-led2.rst:85
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/arduprog/pc42-led2.rst:86
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+
+#: ../../es/arduprog/pc42-led2.rst:88
+msgid ""
+"Hacer parpadear el led D1 y el led D4 con un tiempo de encendido de medio "
+"segundo y un tiempo de apagado de medio segundo. Los dos leds se deben "
+"encender y apagar al mismo tiempo. Utilizar la función :cpp:func:`ledBlink`."
+msgstr ""
+"Make led D1 and led D4 blink with a half second on time and half a second "
+"off time. The two LEDs must turn on and off at the same time. Use the "
+":cpp:func:`ledBlink` function."
+
+
+#: ../../es/arduprog/pc42-led2.rst:93
+msgid ""
+"Modificar el ejercicio anterior para que el encendido de los dos leds D1 y "
+"D4 sea alternativo, de manera que solo un led esté encendido en cada "
+"momento. El tiempo de encendido de cada led será de medio segundo."
+msgstr ""
+"Modify the previous exercise so that the lighting of the two leds D1 and D4 "
+"alternates, so that only one led is on at any time. The lighting time of "
+"each led will be half a second."
+
+
+#: ../../es/arduprog/pc42-led2.rst:97
+msgid ""
+"Hacer parpadear dos led a la vez con una frecuencia de un segundo. El led D1"
+" se programará con la función ``ledBlink(1, 500, 500)``, por el contrario el"
+" led D3 se programará con el siguiente código."
+msgstr ""
+"Make two LEDs blink at the same time with a frequency of one second. LED D1 "
+"will be programmed with the function ``ledBlink(1, 500, 500)``, on the "
+"contrary, led D3 will be programmed with the following code."
+
+
+#: ../../es/arduprog/pc42-led2.rst:112
+msgid ""
+"Se debe intentar sincronizar los dos leds para que parpadeen a la vez "
+"ajustando los tiempos de encendido modificando el tiempo de la función "
+"``delay(500)``."
+msgstr ""
+"You should try to synchronize the two leds so that they blink at the same "
+"time by adjusting the lighting times by modifying the time of the "
+"``delay(500)`` function."
+
+
+#: ../../es/arduprog/pc42-led2.rst:116
+msgid ""
+"Corregir los errores sintácticos del siguiente programa para conseguir que "
+"funcione correctamente."
+msgstr ""
+"Correct the syntax errors in the following program to make it work "
+"correctly."
+
+
+#: ../../es/arduprog/pc42-led2.rst:151
+msgid ""
+"Hacer parpadear a un led de manera que se encienda durante dos décimas de "
+"segundo cada diez segundos, para indicar que el módulo está funcionando "
+"gastando muy poca energía."
+msgstr ""
+"Make a led blink so that it lights up for two tenths of a second every ten "
+"seconds, to indicate that the module is working using very little energy."
+
+
+#: ../../es/arduprog/pc42-led2.rst:155
+msgid ""
+"Hacer parpadear a un led de manera que se encienda durante dos décimas de "
+"segundo, cada segundo."
+msgstr ""
+"Make a led blink so that it lights up for two tenths of a second, every "
+"second."
+
+
+#: ../../es/arduprog/pc42-led2.rst:158
+msgid ""
+"Los seis primeros leds se deben encender en secuencia de manera que comience"
+" por encenderse el led D1 y termine por encenderse el led D6. entre el "
+"encendido de un led y el siguiente debe pasar entre 250 y 500 milésimas de "
+"segundo. Una vez que todos los leds estén encendidos, comenzarán a apagarse "
+"por el led D1 hasta que todos estén apagados. Nota: Para resolver este "
+"problema, se debe utilizar solo una función :cpp:func:`ledBlink` por cada "
+"led, junto con una función `delay()` para esperar un tiempo entre un "
+"encendido y el siguiente."
+msgstr ""
+"The first six leds must light up in sequence so that led D1 begins to light "
+"up and ends up with led D6. Between the lighting of one LED and the next, "
+"between 250 and 500 thousandths of a second must pass. Once all the leds are"
+" on, they will start to turn off by led D1 until they are all off. Note: To "
+"solve this problem, only one :cpp:func:`ledBlink` function should be used "
+"for each led, along with a `delay()` function to wait a time between one "
+"power on and the next."

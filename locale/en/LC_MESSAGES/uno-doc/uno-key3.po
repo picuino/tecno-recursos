@@ -1,0 +1,148 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/uno-doc/uno-key3.rst:12
+msgid "Pulsadores: Contadores"
+msgstr "Pushbuttons: Counters"
+
+
+#: ../../es/uno-doc/uno-key3.rst:16
+msgid "Objetivos"
+msgstr "Goals"
+
+
+#: ../../es/uno-doc/uno-key3.rst:17
+msgid "Leer los contadores de tiempo y pulsaciones asociados a un pulsador."
+msgstr "Read the time and pulsation counters associated with a button."
+
+
+#: ../../es/uno-doc/uno-key3.rst:18
+msgid "Realizar acciones asociadas a los contadores de tiempo."
+msgstr "Perform actions associated with time counters."
+
+
+#: ../../es/uno-doc/uno-key3.rst:22
+msgid "La función ``keyCount``"
+msgstr "The ``keyCount`` function"
+
+
+#: ../../es/uno-doc/uno-key3.rst:26
+msgid ""
+"Esta función devuelve el número de veces que se ha presionado un pulsador. "
+"El valor se incrementa en uno inmediatamente después de presionar el "
+"pulsador. Si se mantiene el pulsador pulsado medio segundo, el valor se "
+"incrementa a razón de 5 pulsaciones por segundo. Si el pulsador se mantiene "
+"presionado durante dos segundos, el valore de pulsaciones se incrementa a "
+"razón de 20 pulsaciones por segundo."
+msgstr ""
+"This function returns the number of times a button has been pressed. The "
+"value is incremented by one immediately after the push button is pressed. If"
+" the button is held down for half a second, the value increases at the rate "
+"of 5 pulsations per second. If the button is held down for two seconds, the "
+"pulsing value increases at the rate of 20 pulsations per second."
+
+
+#: ../../es/uno-doc/uno-key3.rst:33 ../../es/uno-doc/uno-key3.rst:44
+
+
+#: ../../es/uno-doc/uno-key3.rst:54
+msgid "|keyNum|"
+msgstr "|keyNum|"
+
+
+#: ../../es/uno-doc/uno-key3.rst:37
+msgid "La función ``keyTimeOn``"
+msgstr "The ``keyTimeOn`` function"
+
+
+#: ../../es/uno-doc/uno-key3.rst:41
+msgid ""
+"Esta función devuelve el tiempo que ha estado presionado el pulsador. El "
+"tiempo se mide contando 250 pasos por segundo."
+msgstr ""
+"This function returns the time that the button has been pressed. Time is "
+"measured by counting 250 steps per second."
+
+
+#: ../../es/uno-doc/uno-key3.rst:48
+msgid "La función ``keyTimeOff``"
+msgstr "The ``keyTimeOff`` function"
+
+
+#: ../../es/uno-doc/uno-key3.rst:51
+msgid ""
+"Esta función devuelve el tiempo que ha estado sin presionar el pulsador. El "
+"tiempo se mide contando 250 pasos por segundo."
+msgstr ""
+"This function returns the time that the button has not been pressed. Time is"
+" measured by counting 250 steps per second."
+
+
+#: ../../es/uno-doc/uno-key3.rst:58
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/uno-doc/uno-key3.rst:59
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+
+#: ../../es/uno-doc/uno-key3.rst:61
+msgid ""
+"El siguiente programa mueve hacia la derecha un led cuando se presiona el "
+"pulsador 2. Modificar el programa para que el led se mueva hacia la "
+"izquierda al pulsar el pulsador 1."
+msgstr ""
+"The following program moves a led to the right when button 2 is pressed. "
+"Modify the program so that the led moves to the left when button 1 is "
+"pressed."
+
+
+#: ../../es/uno-doc/uno-key3.rst:107
+msgid ""
+"El siguiente programa es un juego para comprobar la habilidad de contar "
+"tiempo. Se debe esperar a que el pulsador 1 no esté presionado. En ese "
+"momento se medirá el tiempo que ha estado presionado. Cuanto más se parezca "
+"el tiempo presionado a 3 segundos, más puntuación se obtendrá. **Modificar**"
+" el programa para que antes de comenzar el juego, el led D1 parpadee una vez"
+" por segundo. Una vez presionado el pulsador 1, el parpadeo debe apagarse "
+"para no dar pistas sobre el tiempo que debe estar encendido."
+msgstr ""
+"The following program is a game to check the ability to tell time. You must "
+"wait until button 1 is not pressed. At that moment, the time you have been "
+"pressed will be measured. The closer the time pressed is to 3 seconds, the "
+"more score you will get. **Modify** the program so that before starting the "
+"game, led D1 blinks once per second. Once button 1 is pressed, the flashing "
+"should go off so as not to give clues about the time it should be on."
+
+
+#: ../../es/uno-doc/uno-key3.rst:153
+msgid ""
+"Modificar el programa que aparece a continuación, parecido al anterior. En "
+"este juego la puntuación será más alta si se presiona un pulsador el mismo "
+"tiempo dos veces consecutivas. Primero el programa debe medir el tiempo que "
+"ha estado presionado el pulsador 1, después debe esperar a que no esté "
+"presionado. Finalmente se medirá el segundo tiempo que el pulsador esté "
+"presionado."
+msgstr ""
+"Modify the program that appears below, similar to the previous one. In this "
+"game the score will be higher if a button is pressed for the same time twice"
+" in a row. First the program must measure the time that button 1 has been "
+"pressed, then it must wait until it is not pressed. Finally, the second time"
+" that the button is pressed will be measured."

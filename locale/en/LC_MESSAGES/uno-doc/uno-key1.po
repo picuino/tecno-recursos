@@ -1,0 +1,437 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/uno-doc/uno-key1.rst:12
+msgid "Pulsadores"
+msgstr "Pushbuttons"
+
+
+#: ../../es/uno-doc/uno-key1.rst:15
+msgid "Objetivos"
+msgstr "Goals"
+
+
+#: ../../es/uno-doc/uno-key1.rst:16
+msgid "Leer el estado de un pulsador."
+msgstr "Read the status of a button."
+
+
+#: ../../es/uno-doc/uno-key1.rst:17
+msgid "Programar Arduino para que responda a las pulsaciones del usuario."
+msgstr "Program Arduino to respond to user keystrokes."
+
+
+#: ../../es/uno-doc/uno-key1.rst:21
+msgid "Pulsadores del shield Picuino UNO"
+msgstr "Picuino UNO shield buttons"
+
+
+#: ../../es/uno-doc/uno-key1.rst:22
+msgid ""
+"El shield dispone de un teclado de seis pulsadores. Cada pulsador se "
+"identifica con un número o con una constante que lleva su nombre. El nombre "
+"de cada pulsador puede verse en la serigrafía de la placa de circuito "
+"impreso. Las seis constantes y números que representan a los pulsadores son "
+"los siguientes :"
+msgstr ""
+"The shield has a six-button keyboard. Each button is identified with a "
+"number or a constant that bears its name. The name of each push button can "
+"be seen on the silkscreen on the printed circuit board. The six constants "
+"and numbers that represent the buttons are the following:"
+
+
+#: ../../es/uno-doc/uno-key1.rst:29
+msgid "Constante"
+msgstr "Constant"
+
+
+#: ../../es/uno-doc/uno-key1.rst:29
+msgid "Pulsador"
+msgstr "Button"
+
+
+#: ../../es/uno-doc/uno-key1.rst:31 ../../es/uno-doc/uno-key1.rst:82
+msgid "KEY_LEFT"
+msgstr "KEY_LEFT"
+
+
+#: ../../es/uno-doc/uno-key1.rst:31 ../../es/uno-doc/uno-key1.rst:82
+msgid "1"
+msgstr "1"
+
+
+#: ../../es/uno-doc/uno-key1.rst:33 ../../es/uno-doc/uno-key1.rst:84
+msgid "KEY_RIGHT"
+msgstr "KEY_RIGHT"
+
+
+#: ../../es/uno-doc/uno-key1.rst:33 ../../es/uno-doc/uno-key1.rst:84
+msgid "2"
+msgstr "2"
+
+
+#: ../../es/uno-doc/uno-key1.rst:35 ../../es/uno-doc/uno-key1.rst:86
+msgid "KEY_UP"
+msgstr "KEY_UP"
+
+
+#: ../../es/uno-doc/uno-key1.rst:35
+msgid "3"
+msgstr "3"
+
+
+#: ../../es/uno-doc/uno-key1.rst:37 ../../es/uno-doc/uno-key1.rst:88
+msgid "KEY_DOWN"
+msgstr "KEY_DOWN"
+
+
+#: ../../es/uno-doc/uno-key1.rst:37 ../../es/uno-doc/uno-key1.rst:86
+msgid "4"
+msgstr "4"
+
+
+#: ../../es/uno-doc/uno-key1.rst:39 ../../es/uno-doc/uno-key1.rst:90
+msgid "KEY_ENTER"
+msgstr "KEY_ENTER"
+
+
+#: ../../es/uno-doc/uno-key1.rst:39
+msgid "5"
+msgstr "5"
+
+
+#: ../../es/uno-doc/uno-key1.rst:41 ../../es/uno-doc/uno-key1.rst:92
+msgid "KEY_BACK"
+msgstr "KEY_BACK"
+
+
+#: ../../es/uno-doc/uno-key1.rst:41
+msgid "6"
+msgstr "6"
+
+
+#: ../../es/uno-doc/uno-key1.rst:44
+msgid "El número de pulsador se representará en el manual como ``keyNum``."
+msgstr "The key number will be represented in the manual as ``keyNum``."
+
+
+#: ../../es/uno-doc/uno-key1.rst:48
+msgid "La función  ``keyPressed``"
+msgstr "The ``keyPressed`` function"
+
+
+#: ../../es/uno-doc/uno-key1.rst:52
+msgid ""
+"Esta función devuelve el valor de un pulsador. Devuelve el valor 1 si el "
+"pulsador está presionado y 0 si no lo está. El valor de esta función filtra "
+"el ruido eléctrico y los rebotes."
+msgstr ""
+"This function returns the value of a button. Returns the value 1 if the "
+"button is pressed and 0 if it is not. The value of this function filters out"
+" electrical noise and bounce."
+
+
+#: ../../es/uno-doc/uno-key1.rst:57
+msgid ""
+"El **ruido eléctrico** son interferencias asociadas a los motores "
+"eléctricos, a los interruptores, a las modernas lámparas de bajo consumo o a"
+" los teléfonos móviles. Cualquiera de estos aparatos puede provocar que "
+"durante un breve momento un pulsador parezca estar presionado aunque no sea "
+"cierto. Es muy recomendable filtrar este ruido para evitar pulsaciones "
+"'falsas' o 'fantasmas'."
+msgstr ""
+"**Electrical noise** is interference associated with electric motors, "
+"switches, modern energy-saving lamps or mobile phones. Any of these devices "
+"can cause a button to appear to be pressed for a brief moment even though it"
+" is not. It is highly recommended to filter this noise to avoid 'false' or "
+"'ghost' keystrokes."
+
+
+#: ../../es/uno-doc/uno-key1.rst:65
+msgid ""
+"Los rebotes son un fenómeno que provoca que el pulsador no haga contacto "
+"durante un periodo corto de tiempo, unos milisegundos, justo después de "
+"presionarle porque la chapa metálica 'rebota' y deja de hacer contacto. Este"
+" fenómeno puede provocar que se interprete una pulsación como dos "
+"pulsaciones, por lo que es recomendable que se filtre para eliminarlo."
+msgstr ""
+"Bouncing is a phenomenon that causes the push button to not make contact for"
+" a short period of time, a few milliseconds, right after it is pressed "
+"because the sheet metal 'bounces' and stops making contact. This phenomenon "
+"can cause one click to be interpreted as two clicks, so it is recommended "
+"that you filter it to eliminate it."
+
+
+#: ../../es/uno-doc/uno-key1.rst:72
+msgid ""
+"La desventaja de este filtro de ruido consiste en que esta función tiene un "
+"retardo de 20 milisegundos en responder desde que cambia el estado real del "
+"pulsador hasta que devuelve el valor correcto. Si se utiliza el argumento "
+"``KEY_ALL``, la función devuelve un número que depende de la suma de los "
+"pulsadores que se encuentren presionados."
+msgstr ""
+"The disadvantage of this noise filter is that this function has a 20 "
+"millisecond delay in responding from when the actual state of the switch "
+"changes to when it returns the correct value. If the ``KEY_ALL`` argument is"
+" used, the function returns a number that depends on the sum of the keys "
+"that are pressed."
+
+
+#: ../../es/uno-doc/uno-key1.rst:80
+msgid "Pulsador presionado"
+msgstr "Button pressed"
+
+
+#: ../../es/uno-doc/uno-key1.rst:80
+msgid "Valor decimal"
+msgstr "Decimal value"
+
+
+#: ../../es/uno-doc/uno-key1.rst:80
+msgid "Valor binario"
+msgstr "Binary value"
+
+
+#: ../../es/uno-doc/uno-key1.rst:82
+msgid "0b000001"
+msgstr "0b000001"
+
+
+#: ../../es/uno-doc/uno-key1.rst:84
+msgid "0b000010"
+msgstr "0b000010"
+
+
+#: ../../es/uno-doc/uno-key1.rst:86
+msgid "0b000100"
+msgstr "0b000100"
+
+
+#: ../../es/uno-doc/uno-key1.rst:88
+msgid "8"
+msgstr "8"
+
+
+#: ../../es/uno-doc/uno-key1.rst:88
+msgid "0b001000"
+msgstr "0b001000"
+
+
+#: ../../es/uno-doc/uno-key1.rst:90
+msgid "16"
+msgstr "16"
+
+
+#: ../../es/uno-doc/uno-key1.rst:90
+msgid "0b010000"
+msgstr "0b010000"
+
+
+#: ../../es/uno-doc/uno-key1.rst:92
+msgid "32"
+msgstr "32"
+
+
+#: ../../es/uno-doc/uno-key1.rst:92
+msgid "0b100000"
+msgstr "0b100000"
+
+
+#: ../../es/uno-doc/uno-key1.rst:95
+msgid ""
+"Si se encuentra presionado el pulsador 4, la función devolverá el valor 8. "
+"Con el pulsador 6 presionado, la función devolverá el valor 32. Si se "
+"presionan los dos pulsadores 4 y 6 a la vez, la función devolverá la suma de"
+" 8 y 32, es decir 40."
+msgstr ""
+"If button 4 is pressed, the function will return the value 8. With button 6 "
+"pressed, the function will return the value 32. If both buttons 4 and 6 are "
+"pressed at the same time, the function will return the sum of 8 and 32 i.e. "
+"40."
+
+
+#: ../../es/uno-doc/uno-key1.rst:100 ../../es/uno-doc/uno-key1.rst:204
+msgid "|keyNum|"
+msgstr "|keyNum|"
+
+
+#: ../../es/uno-doc/uno-key1.rst:102 ../../es/uno-doc/uno-key1.rst:206
+msgid "|KEY_VALUES|"
+msgstr "|KEY_VALUES|"
+
+
+#: ../../es/uno-doc/uno-key1.rst:106
+msgid "Encender un led con un pulsador"
+msgstr "Turn on a led with a button"
+
+
+#: ../../es/uno-doc/uno-key1.rst:108
+msgid ""
+"El siguiente programa encenderá el led D1 cuando se presione el pulsador 1 "
+"(``KEY_LEFT``)"
+msgstr ""
+"The following program will turn on led D1 when button 1 is pressed "
+"(``KEY_LEFT``)"
+
+
+#: ../../es/uno-doc/uno-key1.rst:131
+msgid "Apagar un led con un pulsador"
+msgstr "Turn off a led with a button"
+
+
+#: ../../es/uno-doc/uno-key1.rst:133
+msgid ""
+"El siguiente programa realizará la función contraria al anterior, apagará el"
+" led D1 cuando se pulse el pulsador 1 (``KEY_LEFT``)"
+msgstr ""
+"The following program will perform the opposite function to the previous "
+"one, it will turn off led D1 when button 1 is pressed (``KEY_LEFT``)"
+
+
+#: ../../es/uno-doc/uno-key1.rst:155
+msgid ""
+"El lenguaje de Arduino permite escribir la última función del programa "
+"anterior de otras formas. Estas son algunas alternativas, todas consiguen el"
+" mismo resultado."
+msgstr ""
+"The Arduino language allows you to write the last function of the above "
+"program in other ways. These are some alternatives, they all achieve the "
+"same result."
+
+
+#: ../../es/uno-doc/uno-key1.rst:180
+msgid "Como se puede ver, el lenguaje es muy rico en expresiones."
+msgstr "As you can see, the language is very rich in expressions."
+
+
+#: ../../es/uno-doc/uno-key1.rst:184
+msgid "La función ``keyValue``"
+msgstr "The ``keyValue`` function"
+
+
+#: ../../es/uno-doc/uno-key1.rst:188
+msgid ""
+"Esta función es semejante a la función ``keyValue`` vista anteriormente. "
+"Devuelve el valor de un pulsador. Si el pulsador está presionado, devuelve "
+"el valor 1 si el pulsador no está presionado devuelve el valor 0. Esta "
+"función no filtra el ruido eléctrico como lo hace la función "
+"``keyPressed()``."
+msgstr ""
+"This function is similar to the ``keyValue`` function seen above. Returns "
+"the value of a button. If the key is pressed, it returns the value 1; if the"
+" key is not pressed, it returns the value 0. This function does not filter "
+"out electrical noise like the ``keyPressed()`` function does."
+
+
+#: ../../es/uno-doc/uno-key1.rst:196
+msgid ""
+"Esta función devuelve el estado inmediato del pulsador y por lo tanto puede "
+"devolver valores falsos producidos por el ruido eléctrico o los rebotes."
+msgstr ""
+"This function returns the immediate state of the button and therefore can "
+"return false values ​​caused by electrical noise or bounces."
+
+
+#: ../../es/uno-doc/uno-key1.rst:200
+msgid ""
+"Como ventaja, esta función devuelve el valor del pulsador sin retraso de "
+"tiempo en la respuesta."
+msgstr ""
+"As an advantage, this function returns the value of the button without a "
+"time delay in the response."
+
+
+#: ../../es/uno-doc/uno-key1.rst:211
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/uno-doc/uno-key1.rst:212
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Program the code needed to solve the following problems."
+
+
+#: ../../es/uno-doc/uno-key1.rst:214
+msgid ""
+"Encender el led D1 con el pulsador 1 y apagar el led D1 con el pulsador 2. "
+"Corregir los errores sintácticos del siguiente programa."
+msgstr ""
+"Turn on led D1 with button 1 and turn off led D1 with button 2. Correct the "
+"syntactic errors of the following program."
+
+
+#: ../../es/uno-doc/uno-key1.rst:237
+msgid ""
+"Encender todos los leds de la siguiente manera. El led D1 se encenderá al "
+"pulsar el pulsador 1. A continuación el led D2 se encenderá al pulsar el "
+"pulsador 2. El programa seguirá de esta manera hasta llegar a encender todos"
+" los led. Completar el programa que aparece a continuación."
+msgstr ""
+"Turn on all the leds as follows. LED D1 will light up when button 1 is "
+"pressed. Then LED D2 will light up when button 2 is pressed. The program "
+"will continue in this way until all the LEDs light up. Complete the program "
+"below."
+
+
+#: ../../es/uno-doc/uno-key1.rst:266
+msgid ""
+"Al comenzar, encender el led D1. Cuando se presione el pulsador 1, se "
+"apagará el led D1 y se encenderá el led siguiente. La luz se moverá así "
+"hacia la derecha, hasta volver a comenzar en el led D1 otra vez. Completar "
+"el programa que aparece a continuación según los comentarios."
+msgstr ""
+"When starting, turn on led D1. When button 1 is pressed, led D1 will go out "
+"and the next led will light up. The light will thus move to the right, until"
+" it starts at led D1 again. Complete the program below according to the "
+"comments."
+
+
+#: ../../es/uno-doc/uno-key1.rst:300
+msgid ""
+"Modificar el programa anterior para que los leds se enciendan desde el D6 "
+"hasta el D1. Cuando llegue el turno de apagar el led D1, se encenderá de "
+"nuevo el led D6."
+msgstr ""
+"Modify the previous program so that the leds light up from D6 to D1. When it"
+" is time to turn off led D1, led D6 will light up again."
+
+
+#: ../../es/uno-doc/uno-key1.rst:306
+msgid ""
+"Los tres leds D1, D2 y D3 se encenderán cuando se pulse a la vez los tres "
+"pulsadores 1, 2 y 3. Utiliza el operador '&&' que evalúa si se producen dos "
+"condiciones a la vez. Completar el programa que aparece a continuación según"
+" los comentarios."
+msgstr ""
+"The three leds D1, D2 and D3 will light up when the three buttons 1, 2 and 3"
+" are pressed at the same time. It uses the '&&' operator that evaluates if "
+"two conditions occur at the same time. Complete the program below according "
+"to the comments."
+
+
+#: ../../es/uno-doc/uno-key1.rst:337
+msgid ""
+"Después de pulsar en orden la secuencia de pulsadores 2, 4 y 1, una "
+"cerradura electrónica se abrirá. La apertura se indicará encendiendo en "
+"secuencia los leds rojo, amarillo y verde, uno cada segundo. Completar los "
+"huecos del programa que aparece a continuación según los comentarios."
+msgstr ""
+"After pressing the sequence of buttons 2, 4 and 1 in order, an electronic "
+"lock will open. The opening will be indicated by turning on the red, yellow "
+"and green leds in sequence, one every second. Fill in the gaps in the "
+"program below according to the comments."

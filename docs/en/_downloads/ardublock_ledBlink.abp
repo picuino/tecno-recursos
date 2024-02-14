@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="222 222 222" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="pc_ledBlink" id="142">
+<Location>
+<X>181</X>
+<Y>28</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<Sockets num-sockets="3">
+<BlockConnector con-block-id="143" connector-kind="socket" connector-type="number" init-type="number" label="Led" position-type="single"/>
+<BlockConnector con-block-id="144" connector-kind="socket" connector-type="number" init-type="number" label="Tiempo On" position-type="single"/>
+<BlockConnector con-block-id="145" connector-kind="socket" connector-type="number" init-type="number" label="Tiempo Off" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="145">
+<Label>500</Label>
+<Location>
+<X>355</X>
+<Y>79</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="142" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="144">
+<Label>500</Label>
+<Location>
+<X>355</X>
+<Y>55</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="142" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="143">
+<Location>
+<X>355</X>
+<Y>31</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="142" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="program" id="141">
+<Location>
+<X>20</X>
+<Y>20</Y>
+</Location>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="142" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Configuración" position-type="single"/>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="Bucle" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Programación - Tutorial de Python - 33. Ordenación por inserción">
+  <title>33. Ordenación por inserción - Tutorial de Python - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/python-sort-insercion.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Índice" href="content.html">
+  <link rel="search" title="Búsqueda" href="search.html">
+  <link rel="next" title="34. Recursividad" href="python-recursividad.html">
+  <link rel="prev" title="32. Ordenación por selección" href="python-sort-seleccion.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="prog-index.html">Programación</a>/</li>
+        
+          <li><a href="python-index.html">Tutorial de Python</a>/</li>
+        
+      <li><span class="section-number">33. </span>Ordenación por inserción</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/python-sort-insercion.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="ordenacion-por-insercion">
+<span id="python-sort-insercion"></span><h1><span class="section-number">33. </span>Ordenación por inserción<a class="headerlink" href="#ordenacion-por-insercion" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Este algoritmo de ordenación tiene la ventaja de que permite que la lista
+se modifique mientras se está produciendo la ordenación.
+La parte de la lista no ordenada puede crecer añadiendo elementos y la
+parte de la lista que ya está ordenada puede disminuir eliminando
+elementos. Esto hace que sea un algoritmo flexible.</p>
+<p>Este algoritmo se suele utilizar cuando el número de elementos a ordenar
+es pequeño (menos de 100 elementos). Para conjuntos de datos mayores hay
+algoritmos más rápidos y eficientes, como la ordenación por mezcla,
+por montículo o la ordenación rápida.</p>
+<div class="section" id="explicacion-del-algoritmo">
+<h2>Explicación del algoritmo<a class="headerlink" href="#explicacion-del-algoritmo" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Al comienzo vamos a suponer que el primer elemento de la lista ya está
+ordenado, mientras que todos los demás están desordenados.</p>
+<p>A continuación tomaremos el segundo elemento de la lista. Si este elemento
+es menor que el primer elemento de la lista, cambiaremos sus posiciones.
+En este punto ya tenemos dos elementos de la lista ordenados.</p>
+<p>Continuaremos con el tercer elemento de la lista. Mientras sea menor
+le iremos intercambiando con el segundo y con el primer elemento de la
+lista, hasta que quede ordenado.</p>
+<p>El algoritmo continúa ordenando el resto de los elementos uno a uno
+hasta que coloca el último elemento de la lista en su sitio,
+momento en el que la ordenación de la lista ha terminado.</p>
+</div>
+<div class="section" id="programa-de-ordenacion">
+<h2>Programa de ordenación<a class="headerlink" href="#programa-de-ordenacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El programa completo de ordenación de elementos de una lista
+según el algoritmo de inserción será el siguiente:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">inserta_elemento</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">lista</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">lista</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+            <span class="n">temp</span> <span class="o">=</span> <span class="n">lista</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+            <span class="n">lista</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">lista</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="n">lista</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">temp</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">break</span>
+
+<span class="k">def</span> <span class="nf">ordenar</span><span class="p">(</span><span class="n">lista</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">lista</span><span class="p">)):</span>
+        <span class="n">inserta_elemento</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">index</span><span class="p">)</span>
+
+
+<span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span>
+<span class="n">ordenar</span><span class="p">(</span><span class="n">lista</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">lista</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Salida:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="insercion-binaria">
+<h2>Inserción binaria<a class="headerlink" href="#insercion-binaria" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El algoritmo de inserción permite una mejora que consiste en
+realizar la búsqueda del lugar de inserción correcto mediante búsqueda
+binaria, que ya se estudió en una unidad anterior.</p>
+<p>El algoritmo mejorado de inserción binaria es el siguiente:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">inserta_elemento</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
+    <span class="c1"># Busqueda binaria</span>
+    <span class="n">primero</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">ultimo</span> <span class="o">=</span> <span class="n">index</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="k">while</span> <span class="n">primero</span> <span class="o">&lt;=</span> <span class="n">ultimo</span><span class="p">:</span>
+        <span class="n">medio</span> <span class="o">=</span> <span class="p">(</span><span class="n">primero</span> <span class="o">+</span> <span class="n">ultimo</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+        <span class="k">if</span> <span class="n">lista</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">lista</span><span class="p">[</span><span class="n">medio</span><span class="p">]:</span>
+            <span class="n">ultimo</span> <span class="o">=</span> <span class="n">medio</span> <span class="o">-</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">primero</span> <span class="o">=</span> <span class="n">medio</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="c1"># Desplaza elemento a su lugar</span>
+    <span class="n">temp</span> <span class="o">=</span> <span class="n">lista</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="n">primero</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">lista</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">lista</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="n">lista</span><span class="p">[</span><span class="n">primero</span><span class="p">]</span> <span class="o">=</span> <span class="n">temp</span>
+
+
+<span class="k">def</span> <span class="nf">ordenar</span><span class="p">(</span><span class="n">lista</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">lista</span><span class="p">)):</span>
+        <span class="n">inserta_elemento</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">index</span><span class="p">)</span>
+
+
+<span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span>
+<span class="n">ordenar</span><span class="p">(</span><span class="n">lista</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">lista</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Salida:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Escribe una función que ordene una lista de tres elementos por el
+algoritmo de inserción, sin utilizar bucles de ningún tipo, solo
+con sentencias <code class="docutils literal notranslate"><span class="pre">if</span></code>.</p>
+<p>Llama a la función con el siguiente código para comprobar que la
+función <code class="docutils literal notranslate"><span class="pre">ordena()</span></code> funciona correctamente:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">listas</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="p">]</span>
+<span class="n">error</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="k">for</span> <span class="n">lista</span> <span class="ow">in</span> <span class="n">listas</span><span class="p">:</span>
+    <span class="n">ordenar</span><span class="p">(</span><span class="n">lista</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">lista</span> <span class="o">!=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]:</span>
+        <span class="n">error</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="k">if</span> <span class="n">error</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Error&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Correcto&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Reescribe el programa de ordenación para que ordene los elementos
+en sentido contrario, de mayor a menor.
+Deberás cambiar los nombres de las funciones y de las variables para
+que se adapten a la nueva función que estén realizando.</p>
+</li>
+<li><p class="first">Reescribe el programa de ordenación para que realice la ordenación
+de la lista en una sola función, sin separar el código en dos
+funciones distintas.
+Recuerda cambiar el nombre de las variables de la función
+<code class="docutils literal notranslate"><span class="pre">inserta_elemento</span></code> para que no sean los mismos.</p>
+</li>
+<li><p class="first">Escribe un algoritmo de ordenación por inserción que ordene las
+cadenas de texto por longitud de cadena, de manera que al comienzo
+se coloquen las palabras más cortas y al final las más largas:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;manzana&#39;</span><span class="p">,</span> <span class="s1">&#39;uva&#39;</span><span class="p">,</span> <span class="s1">&#39;melocotón&#39;</span><span class="p">,</span> <span class="s1">&#39;sandía&#39;</span><span class="p">,</span> <span class="s1">&#39;melón&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="python-recursividad.html" class="btn btn-neutral float-right" title="34. Recursividad" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="python-sort-seleccion.html" class="btn btn-neutral" title="32. Ordenación por selección" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024 por Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en febrero, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../en/python-sort-insercion.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricidad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programación</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Lenguajes de programación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-flowchart.html">Diagramas de flujo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-codeorg.html">Tutoriales Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scratch3-index.html">Tutorial de Scratch 3</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="python-index.html">Tutorial de Python</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="python-intro.html">1. Introducción al lenguaje Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-datos-numeros.html">2. Datos numéricos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-variables.html">3. Las variables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-palabras-reservadas.html">4. Palabras reservadas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-comentarios.html">5. Los comentarios</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-print.html">6. La función <code class="xref py py-func docutils literal notranslate"><span class="pre">print()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-input.html">7. La función <code class="xref py py-func docutils literal notranslate"><span class="pre">input()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-booleanos.html">8. El tipo Booleano</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-else.html">9. Sentencia <code class="docutils literal notranslate"><span class="pre">if</span></code> <code class="docutils literal notranslate"><span class="pre">else</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-and-or-not.html">10. Operadores <code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-anidados.html">11. Sentencias <code class="docutils literal notranslate"><span class="pre">if</span></code> anidadas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-if-elif.html">12. Sentencia <code class="docutils literal notranslate"><span class="pre">elif</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for.html">13. Sentencia <code class="docutils literal notranslate"><span class="pre">for</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-range.html">14. La función <code class="xref py py-func docutils literal notranslate"><span class="pre">range()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-continue.html">15. Sentencia <code class="docutils literal notranslate"><span class="pre">continue</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-break.html">16. Sentencia <code class="docutils literal notranslate"><span class="pre">break</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-for-anidados.html">17. Sentencias <code class="docutils literal notranslate"><span class="pre">for</span></code> anidadas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-while.html">18. Sentencia <code class="docutils literal notranslate"><span class="pre">while</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones.html">19. Definición de funciones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-funciones-argumentos.html">20. Parámetros con valores por omisión</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos.html">21. Cadenas de texto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-indices.html">22. Índices de cadenas de texto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-metodos.html">23. Métodos de cadenas de texto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-textos-formateo.html">24. Formateo de cadenas de texto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas.html">25. Listas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-indices.html">26. Índices de listas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-iteracion.html">27. Iteración de listas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-listas-metodos.html">28. Métodos de listas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda.html">29. Búsqueda de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-busqueda-binaria.html">30. Búsqueda binaria</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-desplazamiento.html">31. Desplazamiento de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-seleccion.html">32. Ordenación por selección</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">33. Ordenación por inserción</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursividad.html">34. Recursividad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-sort-mezcla.html">35. Ordenación por mezcla</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-codewars.html">36. Codewars</a></li>
+<li class="toctree-l3"><a class="reference internal" href="python-recursos.html">37. Recursos Python</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="prog-recursos.html">Recursos para programación</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

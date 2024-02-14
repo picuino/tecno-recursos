@@ -1,0 +1,688 @@
+<style type="text/css">
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	color: #616161;
+ 
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: 14px;
+}
+
+p{
+	text-align: left;
+	margin: 0px;
+	font-size: 14px;
+	color: #616161;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+div,span,td{
+	font-size: 14px;
+	color: #616161;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+div.Titles{
+	padding: 10px;
+	text-align: center;
+	color: #616161;
+	vertical-align: text-bottom;
+	background-color: #ECEAED;
+}
+
+button{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	display: inline;
+}
+
+
+.ExerciseTitle{
+	font-size: 120%;
+	color: #8F8F8F;
+	font-weight: bold;	
+	
+	
+}
+
+.ExerciseSubtitle{
+	font-size: 100%;
+	color: #8F8F8F;
+	font-weight: bold;
+}
+
+div.StdDiv{
+	text-align: center;
+	font-size: 100%;
+	color: #616161;
+	padding: 0.5em;
+	border-style: none;
+	border-width: 1px 1px 1px 1px;
+	border-color: #000000;
+	margin-bottom: 1px;
+	background-color: #FFFFFF;
+
+}
+.InstructionsDiv {
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 100%;
+	color: #616161;
+	padding: 0.5em;
+	border-style: none;
+	border-width: 1px 1px 1px 1px;
+
+	margin-bottom: 1px;
+
+
+}
+
+/* EndCorePageCSS */
+
+.RTLText{
+	text-align: right;
+	font-size: 100%;
+	direction: rtl;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+.CentredRTLText{
+	text-align: center;
+	font-size: 100%;
+	direction: rtl;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+button p.RTLText{
+	text-align: center;
+}
+
+.RTLGapBox{
+	text-align: right;
+	font-size: 100%;
+	direction: rtl;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+.Guess{
+	font-weight: bold;
+}
+
+.CorrectAnswer{
+	font-weight: bold;
+}
+
+div#Timer{
+	padding: 0.25em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #616161;
+}
+
+span#TimerText{
+	padding: 0.25em;
+	border-width: 1px;
+	border-style: solid;
+	font-weight: bold;
+	display: none;
+	color: #616161;
+}
+
+span.Instructions{
+}
+
+div.ExerciseText{
+
+}
+
+.FeedbackText, .FeedbackText span.CorrectAnswer, .FeedbackText span.Guess, .FeedbackText span.Answer{
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.LeftItem{
+	font-size: 100%;
+	color: #CD5E4E;
+	text-align: left;
+}
+
+.RightItem{
+	font-weight: bold;
+	font-size: 100%;
+	color: #616161;
+}
+
+span.CorrectMark{
+	color: #616161;
+}
+
+input, textarea{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #D7847A;
+	font-weight: bold;
+}
+
+select{
+	font-size: 100%;
+}
+
+div.Feedback {
+	background-color: #F1A098;
+	left: 33%;
+	width: 34%;
+	top: 33%;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5C98D1;
+	padding: 5px;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	display: none;
+	font-size: 100%;
+	
+}
+div.LeftContainer{
+	border-style: none;
+	padding: 2px 0px 2px 0px;
+	float: left;
+	width: 49.8%;
+	margin-bottom: 0px;
+	color: #616161;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+div.RightContainer{
+	border-style: none;
+	padding: 2px 0px 2px 0px;
+	float: right;
+	width: 49.8%;
+	margin-bottom: 0px;
+	background: #DAE7ED;
+	color: #616161;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.ReadingText{
+	color: #616161;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+
+
+div.ExerciseDiv{
+	color: #616161;
+}
+
+/* JMatch flashcard styles */
+table.FlashcardTable{
+	background-color: transparent;
+	color: #616161;
+	border-color: #000000;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 90%;
+	position: relative;
+	text-align: center;
+	padding: 0px;
+}
+
+table.FlashcardTable tr{
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+table.FlashcardTable td.Showing{
+	font-size: 100%;
+	text-align: center;
+	width: 50%;
+	display: table-cell;
+	padding: 2em;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	color: #616161;
+	background-color: #FFFFFF;
+}
+
+table.FlashcardTable td.Hidden{
+	display: none;
+}
+
+/* JMix styles */
+div#SegmentDiv{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	background-color: #FFC9BC;
+}
+
+a.ExSegment{
+	font-size: 100%;
+	font-weight: bold;
+	text-decoration: none;
+	color: #616161;
+}
+
+span.RemainingWordList{
+	font-style: normal;
+	text-align: left;
+}
+
+ddiv.DropLine {
+	position: absolute;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	width: 80%;
+}
+
+
+/* JCloze styles */
+
+.ClozeWordList{
+	text-align: center;
+	font-weight: bold;
+	color:#CD5E4E;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+div.ClozeBody{
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	line-height: 2.0;
+	color: #616161;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+span.GapSpan{
+	font-weight: bold;
+	color: #CD5E4E;
+	font-size: 14px;
+}
+
+/* JCross styles */
+
+table.CrosswordGrid{
+	margin: auto auto 1em auto;
+	border-collapse: collapse;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+table.CrosswordGrid td{
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+	font-size: large;
+	padding: 0px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #006699;
+	color: #FFFFFF;
+}
+
+table.CrosswordGrid span{
+	color: #616161;
+}
+
+table.CrosswordGrid td.BlankCell{
+	background-color: #F1A098;
+	color: #616161;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #616161;
+}
+
+table.CrosswordGrid td.LetterOnlyCell{
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #616161;
+}
+
+
+table.CrosswordGrid td.NumLetterCell{
+	text-align: left;
+	vertical-align: top;
+	background-color: #F1A098;
+	color: #FFFFFF;
+	padding: 1px;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #616161;
+}
+
+.NumLetterCellText{
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+.GridNum{
+	vertical-align: super;
+	font-size: 66%;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.GridNum:visited{
+	color: #FFFFFF;
+}
+.GridNum:hover {
+	color: #3399CC;
+}
+
+table#Clues{
+	margin: auto;
+	vertical-align: top;
+}
+
+table#Clues td{
+	vertical-align: top;
+}
+
+table.ClueList{
+  margin: auto;
+ 
+}
+
+td.ClueNum{
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+	
+}
+
+td.Clue{
+	text-align: left;
+}
+
+div#ClueEntry{
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+/* Keypad styles */
+
+div.Keypad{
+	text-align: center;
+	display: none; /* initially hidden, shown if needed */
+}
+
+div.Keypad button{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-color: #F1A098;
+	color: #616161;
+	width: 2em;
+}
+
+/* JQuiz styles */
+
+div.QuestionNavigation{
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #CD5E4E;
+	font-size: 14px;
+}
+
+.QNum{
+	margin: 0em 1em 0.5em 1em;
+	font-weight: bold;
+	vertical-align: middle;
+	color: #CD5E4E;	
+	
+}
+
+textarea{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.QuestionText{
+	font-weight: bold;
+	color: #CD5E4E;
+	font-size: 12px;
+	text-align: left;	
+}
+
+.Answer{
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #616161;
+}
+
+.PartialAnswer{
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	color: #616161;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+
+.Highlight{
+	color: #616161;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+ol.QuizQuestions{
+	text-align: left;
+	list-style-type: none;
+	
+	
+}
+
+li.QuizQuestion{
+	padding: 1em;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	color:#616161;
+	
+}
+
+ol.MCAnswers{
+	text-align: left;
+	list-style-type: upper-alpha;
+	padding: 1em;
+}
+
+ol.MCAnswers li{
+	margin-bottom: 1em;
+	color: #616161;	
+}
+
+ol.MSelAnswers{
+	text-align: left;
+	list-style-type: lower-alpha;
+	padding: 1em;
+	color: #CD5E4E;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+div.ShortAnswer{
+	padding: 1em;
+	text-align: left;	
+	
+}
+
+.FuncButton {
+	text-align: center;
+	border-style: solid;
+	border-left-color:#DFE1E0;
+	border-top-color: #DFE1E0;
+	border-right-color:  #AEC9E2;
+	border-bottom-color:  #AEC9E2;
+	color: #D7847A;
+	background-color: #FFFFFF;
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: text-bottom;
+}
+
+.FuncButtonUp {
+	text-align: center;
+	border-style: solid;
+	border-left-color: #DFE1E0;
+	border-top-color: #DFE1E0;
+	border-right-color: #AEC9E2;
+	border-bottom-color: #AEC9E2;
+	background-color: #FFC9BC;
+	color: #5B96D0;
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: text-bottom;
+}
+
+.FuncButtonDown {
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #AEC9E2;
+	border-top-color: #AEC9E2;
+	border-right-color: #DFE1E0;
+	border-bottom-color: #DFE1E0;
+	background-color: #FFC9BC;
+	color: #5B96D0;
+
+	border-width: 2px;
+
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+	background-color: #FFC9BC;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: 100%;
+	color: #4589CB;
+	font-weight: bold;
+}
+
+.NavButton {
+	border-style: solid;
+	border-left-color: #FFFFFF;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	background-color: #FFC9BC;
+	color: #4589CB;
+	border-width: 0.5px;
+	cursor: pointer;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.NavButtonUp {
+	border-style: solid;
+	border-left-color: #FFFFFF;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	color: #616161;
+	background-color: #FFC9BC;
+	border-width: 0.5px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.NavButtonDown {
+	border-style: solid;
+	border-left-color: #FFFFFF;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	color: #616161;
+	background-color: #FFC9BC;
+	border-width:0.5px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*EndNavBarStyle*/
+
+a{
+	color: #4589CB;
+	
+}
+
+a:visited{
+	color: #4589CB;
+}
+
+a:hover{
+	color: #999999;
+}
+
+div.CardStyle {
+	position: absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	color: #D7847A;
+	background-color: #FFFFFF;
+	left: -50px;
+	top: -50px;
+	overflow: visible;
+	border-top-color: #78A6DA;
+	border-right-color: #78A6DA;
+	border-bottom-color: #78A6DA;
+	border-left-color: #78A6DA;
+	border-color: #78A6DA;
+	font-weight: bold;
+}
+
+.rtl{
+	text-align: right;
+	font-size: 140%;
+}
+
+
+       </style>

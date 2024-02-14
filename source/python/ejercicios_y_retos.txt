@@ -1,0 +1,451 @@
+﻿Ejercicio 1
+-----------
+Find longest sequence of zeros in binary representation of an integer.
+
+A binary gap within a positive integer N is any maximal sequence of
+consecutive zeros that is surrounded by ones at both ends in the binary
+representation of N.
+
+For example, number 9 has binary representation 1001 and contains a
+binary gap of length 2. The number 529 has binary representation
+1000010001 and contains two binary gaps: one of length 4 and one of
+length 3. The number 20 has binary representation 10100 and contains
+one binary gap of length 1. The number 15 has binary representation 1111
+and has no binary gaps. The number 32 has binary representation 100000
+and has no binary gaps.
+
+Write a function:
+
+	def solution(N)
+
+that, given a positive integer N, returns the length of its longest
+binary gap. The function should return 0 if N doesn't contain a binary
+gap.
+
+For example, given N = 1041 the function should return 5, because N has
+binary representation 10000010001 and so its longest binary gap is of
+length 5. Given N = 32 the function should return 0, because N has
+binary representation '100000' and thus no binary gaps.
+
+Write an efficient algorithm for the following assumptions:
+
+		N is an integer within the range [1..2,147,483,647].
+
+
+
+Ejercicio 2
+-----------
+Find the highest power of 2 that divides N.
+
+A positive integer N is given. The goal is to find the highest power
+of 2 that divides N. In other words, we have to find the maximum K for
+which N modulo 2^K is 0.
+
+For example, given integer N = 24 the answer is 3, because 2^3 = 8 is
+the highest power of 2 that divides N.
+
+Write a function:
+
+	def solution(N)
+
+that, given a positive integer N, returns the highest power of 2 that
+divides N.
+
+For example, given integer N = 24, the function should return 3, as
+explained above.
+
+Assume that:
+
+		N is an integer within the range [1..1,000,000,000].
+
+In your solution, focus on correctness. The performance of your solution
+will not be the focus of the assessment.
+
+
+
+Ejercicio 4
+-----------
+
+Find the first unique number in a given sequence.
+
+A non-empty array A consisting of N integers is given. The unique number
+is the number that occurs exactly once in array A.
+
+For example, the following array A:
+  A[0] = 4
+  A[1] = 10
+  A[2] = 5
+  A[3] = 4
+  A[4] = 2
+  A[5] = 10
+
+contains two unique numbers (5 and 2).
+
+You should find the first unique number in A. In other words, find the
+unique number with the lowest position in A.
+
+For above example, 5 is in second position (because A[2] = 5) and 2 is in
+fourth position (because A[4] = 2). So, the first unique number is 5.
+
+Write a function:
+
+	def solution(A)
+
+that, given a non-empty array A of N integers, returns the first unique
+number in A. The function should return −1 if there are no unique numbers
+in A.
+
+For example, given:
+  A[0] = 1
+  A[1] = 4
+  A[2] = 3
+  A[3] = 3
+  A[4] = 1
+  A[5] = 2
+
+the function should return 4. There are two unique numbers (4 and 2 occur
+exactly once). The first one is 4 in position 1 and the second one is 2 in
+position 5. The function should return 4 bacause it is unique number with
+the lowest position.
+
+Given array A such that:
+  A[0] = 6
+  A[1] = 4
+  A[2] = 4
+  A[3] = 6
+
+the function should return −1. There is no unique number in A (4 and 6
+occur more than once).
+
+Write an efficient algorithm for the following assumptions:
+
+	 * N is an integer within the range [1..100,000];
+	 * each element of array A is an integer within the range
+	   [0..1,000,000,000].
+
+
+
+Ejercicio 5
+-----------
+Compute the height of a binary tree.
+
+In this problem we consider binary trees, represented by pointer data
+structures.
+
+A binary tree is either an empty tree or a node (called the root)
+consisting of a single integer value and two further binary trees,
+called the left subtree and the right subtree.
+
+For example, the figure below shows a binary tree consisting of six nodes.
+Its root contains the value 5, and the roots of its left and right
+subtrees have the values 3 and 10, respectively. The right subtree of the
+node containing the value 10, as well as the left and right subtrees of
+the nodes containing the values 20, 21 and 1, are empty trees.
+
+A path in a binary tree is a non-empty sequence of nodes that one can
+traverse by following the pointers. The length of a path is the number
+of pointers it traverses. More formally, a path of length K is a sequence
+of nodes P[0], P[1], ..., P[K], such that node P[I + 1] is the root of
+the left or right subtree of P[I], for 0 ≤ I < K. For example, the
+sequence of nodes with values 5, 3, 21 is a path of length 2 in the tree
+from the above figure. The sequence of nodes with values 10, 1 is a path
+of length 1. The sequence of nodes with values 21, 3, 20 is not a valid
+path.
+
+The height of a binary tree is defined as the length of the longest
+possible path in the tree. In particular, a tree consisting of only one
+node has height 0 and, conventionally, an empty tree has height −1.
+For example, the tree shown in the above figure is of height 2.
+
+Problem
+
+Write a function:
+
+	def solution(T)
+
+that, given a non-empty binary tree T consisting of N nodes, returns its
+height. For example, given tree T shown in the figure above, the function
+should return 2, as explained above. Note that the values contained in the
+nodes are not relevant in this task.
+
+Technical details
+
+A binary tree can be given using a pointer data structure. Assume that the
+following declarations are given:
+
+	from dataclasses import dataclass, field
+
+	@dataclass
+	class Tree:
+		x: int = 0
+		l: "Tree" = None
+		r: "Tree" = None
+
+An empty tree is represented by an empty pointer (denoted by None).
+A non-empty tree is represented by a pointer to an object representing
+its root. The attribute x holds the integer contained in the root, whereas
+attributes l and r hold the left and right subtrees of the binary tree,
+respectively.
+
+For the purpose of entering your own test cases, you can denote a tree
+recursively in the following way. An empty binary tree is denoted by None.
+A non-empty tree is denoted as (X, L, R), where X is the value contained
+in the root and L and R denote the left and right subtrees, respectively.
+The tree from the above figure can be denoted as:
+  (5, (3, (20, None, None), (21, None, None)), (10, (1, None, None), None))
+
+Assumptions
+
+Write an efficient algorithm for the following assumptions:
+
+	* N is an integer within the range [1..1,000];
+	* the height of tree T (number of edges on the longest path from
+	  root to leaf) is within the range [0..500].
+
+
+
+Ejercicio 6
+-----------
+
+Given the numbers of players and available courts, calculate the maximum
+number of parallel tennis games.
+
+
+You are hosting a tennis tournament. P players, who will take part in the
+first round of this tournament, are already registered and you have
+reserved C tennis courts for the matches. Exactly two players play in
+each game and only one game can be played on each court at any given time.
+You want to host the maximum possible number of games starting at the same
+time (in order to finish the first round quickly).
+
+How many games can be hosted in parallel simultaneously?
+
+Write a function:
+
+	def solution(P, C)
+
+that, given the number of players P and the number of reserved courts C,
+returns the maximum number of games that can be played in parallel.
+
+Examples:
+
+1. Given P = 5 players and C = 3 available courts, the function should
+   return 2. Two games can be played simultaneously (for instance, the
+   first and second players can play on the first court, and the third
+   and fourth players on the second court, and the third court will be
+   empty because the fifth player does not have a partner to play with).
+
+2. Given P = 10 players and C = 3 courts, the function should return 3.
+   At most three games can be hosted in parallel.
+
+Assume that:
+
+	P and C are integers within the range [1..30,000].
+
+In your solution, focus on correctness. The performance of your solution
+will not be the focus of the assessment.
+
+
+
+Ejercicio 7
+-----------
+
+You would like to set a password for a bank account. However, there are
+three restrictions on the format of the password:
+
+	* it has to contain only alphanumerical characters (a−z, A−Z, 0−9);
+	* there should be an even number of letters;
+	* there should be an odd number of digits.
+
+You are given a string S consisting of N characters. String S can be
+divided into words by splitting it at, and removing, the spaces.
+The goal is to choose the longest word that is a valid password.
+You can assume that if there are K spaces in string S then there are
+exactly K + 1 words.
+
+For example, given "test 5 a0A pass007 ?xy1", there are five words
+and three of them are valid passwords: "5", "a0A" and "pass007".
+Thus the longest password is "pass007" and its length is 7.
+Note that neither "test" nor "?xy1" is a valid password, because "?"
+is not an alphanumerical character and "test" contains an even number
+of digits (zero).
+
+Write a function:
+
+	def solution(S)
+
+that, given a non-empty string S consisting of N characters, returns
+the length of the longest word from the string that is a valid password.
+If there is no such word, your function should return −1.
+
+For example, given S = "test 5 a0A pass007 ?xy1", your function should
+return 7, as explained above.
+
+Assume that:
+
+		N is an integer within the range [1..200];
+		string S consists only of printable ASCII characters and spaces.
+
+In your solution, focus on correctness. The performance of your solution
+will not be the focus of the assessment.
+
+
+Ejercicio 8
+-----------
+
+https://adriann.github.io/programming_problems.html
+
+1. Write a program that prints ‘Hello World’ to the screen.
+2. Write a program that asks the user for their name and greets them with
+   their name.
+3. Modify the previous program such that only the users Alice and Bob are
+   greeted with their names.
+4. Write a program that asks the user for a number n and prints the sum
+   of the numbers 1 to n
+5. Modify the previous program such that only multiples of three or five
+   are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+6. Write a program that asks the user for a number n and gives them the
+   possibility to choose between computing the sum and computing the
+   product of 1,…,n.
+7. Write a program that prints a multiplication table for numbers up to 12.
+8. Write a program that prints all prime numbers. (Note: if your
+   programming language does not support arbitrary size numbers, printing
+   all primes up to the largest number you can easily represent is fine
+   too.)
+9. Write a guessing game where the user has to guess a secret number.
+   After every guess the program tells the user whether their number was
+   too large or too small. At the end the number of tries needed should be
+   printed. It counts only as one try if they input the same number
+   multiple times consecutively.
+10. Write a program that prints the next 20 leap years.
+
+
+
+1. Write a function that returns the largest element in a list.
+2. Write function that reverses a list, preferably in place.
+3. Write a function that checks whether an element occurs in a list.
+4. Write a function that returns the elements on odd positions in a list.
+5. Write a function that computes the running total of a list.
+6. Write a function that tests whether a string is a palindrome.
+7. Write three functions that compute the sum of the numbers in a
+   list: using a for-loop, a while-loop and recursion. (Subject to
+   availability of these constructs in your language of choice.)
+8. Write a function on_all that applies a function to every element of a
+   list. Use it to print the first twenty perfect squares. The perfect
+   squares can be found by multiplying each natural number with itself.
+   The first few perfect squares are 1*1= 1, 2*2=4, 3*3=9, 4*4=16.
+   Twelve for example is not a perfect square because there is no natural
+   number m so that m*m=12. (This question is tricky if your programming
+   language makes it difficult to pass functions as arguments.)
+9. Write a function that concatenates two lists. [a,b,c], [1,2,3] → [a,b,c,1,2,3]
+10. Write a function that combines two lists by alternatingly taking
+	elements, e.g. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
+11. Write a function that merges two sorted lists into a new sorted
+	list. [1,4,6],[2,3,5] → [1,2,3,4,5,6]. You can do this quicker than concatenating them followed by a sort.
+12. Write a function that rotates a list by k elements. For example [1,2,3,4,5,6] rotated by two becomes [3,4,5,6,1,2]. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+13. Write a function that computes the list of the first 100 Fibonacci numbers. The first two Fibonacci numbers are 1 and 1. The n+1-st Fibonacci number can be computed by adding the n-th and the n-1-th Fibonacci number. The first few are therefore 1, 1, 1+1=2, 1+2=3, 2+3=5, 3+5=8.
+14. Write a function that takes a number and returns a list of its digits. So for 2342 it should return [2,3,4,2].
+15. Write functions that add, subtract, and multiply two numbers in their digit-list representation (and return a new digit list). If you’re ambitious you can implement Karatsuba multiplication. Try different bases. What is the best base if you care about speed? If you couldn’t completely solve the prime number exercise above due to the lack of large numbers in your language, you can now use your own library for this task.
+16. Write a function that takes a list of numbers, a starting base b1 and a target base b2 and interprets the list as a number in base b1 and converts it into a number in base b2 (in the form of a list-of-digits). So for example [2,1,0] in base 3 gets converted to base 10 as [2,1].
+17. Implement the following sorting algorithms: Selection sort,
+	Insertion sort, Merge sort, Quick sort, Stooge Sort.
+	Check Wikipedia for descriptions.
+18. Implement binary search.
+19. Write a function that takes a list of strings an prints them, one per
+	line, in a rectangular frame. For example the list ["Hello", "World",
+	"in", "a", "frame"] gets printed as:
+
+	*********
+	* Hello *
+	* World *
+	* in	*
+	* a		*
+	* frame *
+	*********
+
+20. Write function that translates a text to Pig Latin and back.
+	English is translated to Pig Latin by taking the first letter
+	of every word, moving it to the end of the word and adding ‘ay’.
+	“The quick brown fox” becomes “Hetay uickqay rownbay oxfay”.
+
+
+Ejercicio 9
+-----------
+
+https://edabit.com/challenges
+
+* Create a function that takes two numbers as arguments and returns their
+  sum.
+
+* Write a function that takes an integer minutes and converts it to seconds.
+
+* There is a single operator in Python, capable of providing the remainder
+  of a division operation. Two numbers are passed as parameters. The first
+  parameter divided by the second parameter will have a remainder,
+  possibly zero. Return that value.
+
+* Luke Skywalker has family and friends. Help him remind them who is who.
+  Given a string with a name, return the relation of that person to Luke.
+  Person		Relation
+  Darth Vader	father
+  Leia			sister
+  Han			brother in law
+  R2D2			droid
+
+  relation_to_luke("Darth Vader") ➞ "Luke, I am your father."
+
+* Create a function that takes an integer and returns the factorial of that
+  integer. That is, the integer multiplied by all positive lower integers.
+
+  Examples
+  factorial(3) ➞ 6
+
+* Create a function that returns a base-2 (binary) representation of a
+  base-10 (decimal) string number. To convert is simple: ((2) means base-2
+  and (10) means base-10) 010101001(2) = 1 + 8 + 32 + 128.
+
+  Going from right to left, the value of the most right bit is 1, now
+  from that every bit to the left will be x2 the value, value of an 8 bit
+  binary numbers are (256, 128, 64, 32, 16, 8, 4, 2, 1).
+
+  Examples
+
+  binary(5) ➞ "101"
+
+* Contar unos y ceros en un número binario
+
+* Contar letras en un texto dado.
+
+* Ocultar un número con asteriscos y dejar solo las cuatro últimas cifras.
+
+* Crear una función que reemplaza todas las vocales de una cadena por la
+  letra a (o por las letras e, i, o, u).
+
+
+
+
+Ejercicio 10
+------------
+
+* Criba de Eratóstenes para calcular los números primos.
+
+
+
+
+Ejercicio 11
+------------
+
+Crear una página web "Hola mundo" con diferentes colores de letra.
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:#ccc">
+  <p style="color: #f00">Hola mundo.</p>
+  <p style="color: #0f0">Hola mundo.</p>
+  <p style="color: #00f">Hola mundo.</p>
+  <p style="color: #f0f">Hola mundo.</p>
+  <p style="color: #0ff">Hola mundo.</p>
+  <p style="color: #ff0">Hola mundo.</p>
+  <p style="color: #fff">Hola mundo.</p>
+<body>
+</html>

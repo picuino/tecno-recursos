@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Mechanics - FreeCAD - 15. Constrained sketches">
+  <title>15. Constrained sketches - FreeCAD - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/freecad-restricciones.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="16. FreeCAD Video Tutorials" href="freecad-videotutoriales.html">
+  <link rel="prev" title="14. Nested Sketch Extrusion" href="freecad-croquis-anidados.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="mecan-index.html">Mechanics</a>/</li>
+        
+          <li><a href="freecad-index.html">FreeCAD</a>/</li>
+        
+      <li><span class="section-number">15. </span>Constrained sketches</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/freecad-restricciones.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/freecad-restricciones.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="croquis-con-restricciones">
+<span id="freecad-restricciones"></span><h1><span class="section-number">15. </span>Constrained sketches<a class="headerlink" href="#croquis-con-restricciones" title="Permalink to this headline">¶</a></h1>
+<p>In this practice we are going to create sketches with restrictions to form figures with greater accuracy and with more facilities.</p>
+<p><br></p>
+<ol class="arabic">
+<li><p class="first">Open the <strong>FreeCAD</strong> application and click on the icon to create a <strong>new document</strong> <img alt="icono-nuevo-documento" class="align-middle" src="_images/freecad-icono-nuevo-documento.png">.</p>
+<p>We select the <strong>Part Design workbench</strong></p>
+<img alt="_images/freecad-workbench-part-design.png" src="_images/freecad-workbench-part-design.png">
+<p>Next we select to create a new sketch.</p>
+<img alt="_images/freecad-crear-nuevo-croquis.png" src="_images/freecad-crear-nuevo-croquis.png">
+<p>And we choose the XY plane as the base plane to place the new sketch.</p>
+<img alt="_images/freecad-croquis-xy.png" src="_images/freecad-croquis-xy.png">
+<p>A grid will appear on the screen where you can draw in two dimensions.</p>
+<img alt="_images/freecad-croquis-rejilla.png" src="_images/freecad-croquis-rejilla.png">
+<p><br></p>
+</li>
+<li><p class="first">Next we are going to draw a simple object, a square, with the icon polyline <img alt="polilinea" class="align-middle" src="_images/freecad-croquis-polilinea.png">.</p>
+<img alt="_images/freecad-p15-imagen01.png" src="_images/freecad-p15-imagen01.png">
+<p>Now we are not going to worry about the accuracy of the square because by drawing with the mouse it is impossible to get a perfect square.</p>
+<p><br></p>
+</li>
+<li><p class="first">With the above method, we can create a drawing similar to a square, but when creating figures <strong>with the mouse the result will always have errors</strong>.</p>
+<p>To get our square to be perfect we are going to <strong>create restrictions</strong> in the lines that form it.</p>
+<p>First we select the two vertical lines and create a <strong>vertical constraint</strong> by clicking <img alt="restriccion-vertical" class="align-middle" src="_images/freecad-icono-restriccion-vertical.png">.</p>
+<img alt="_images/freecad-p15-imagen02.png" src="_images/freecad-p15-imagen02.png">
+<p>The lines will become perfectly vertical and two small icons will appear representing the vertical constraint.</p>
+<img alt="_images/freecad-p15-imagen03.png" src="_images/freecad-p15-imagen03.png">
+<p><br></p>
+</li>
+<li><p class="first">Next we select the two horizontal lines to create a <strong>horizontal constraint</strong> by clicking <img alt="restriccion-horizontal" class="align-middle" src="_images/freecad-icono-restriccion-horizontal.png">.</p>
+<img alt="_images/freecad-p15-imagen04.png" src="_images/freecad-p15-imagen04.png">
+<p>Now our drawing looks a lot more like a perfect square, but we're not done yet.</p>
+<p><br></p>
+</li>
+<li><p class="first">At this point we are going to make a vertical side the same size as a horizontal side, as befits a square.</p>
+<p>We select a vertical side and a horizontal side and create an <strong>equality constraint</strong> by clicking <img alt="restriccion-igualdad" class="align-middle" src="_images/freecad-icono-restriccion-igualdad.png">.</p>
+<img alt="_images/freecad-p15-imagen05.png" src="_images/freecad-p15-imagen05.png">
+<p>Now our figure is a perfect square. If we <strong>move a point</strong> of the square, it will keep the proportions.</p>
+<img alt="_images/freecad-p15-imagen06.png" src="_images/freecad-p15-imagen06.png">
+<p><br></p>
+</li>
+<li><p class="first">To finish we are going to give an exact size to the square. First we <strong>select a vertical line</strong> and then we create a vertical dimension constraint by clicking <img alt="restriccion-cota-vertical" class="align-middle" src="_images/freecad-icono-restriccion-cota-vertical.png">, with the value of <strong>30 millimeters</strong>.</p>
+<img alt="_images/freecad-p15-imagen07.png" src="_images/freecad-p15-imagen07.png">
+<p>Once the dimension is created, we can double click on it to edit it and change its value.</p>
+<p><br></p>
+</li>
+<li><p class="first">Next we are going to <strong>remove a constraint</strong>.</p>
+<p>Click on the horizontal restriction icon on the bottom line, this icon will change to green.</p>
+<img alt="_images/freecad-p15-imagen08.png" src="_images/freecad-p15-imagen08.png">
+<p>We press the delete key <code class="docutils literal notranslate"><span class="pre">Del</span></code> on the keyboard and the constraint disappears, so we can move the bottom line and change its slant.</p>
+<img alt="_images/freecad-p15-imagen09.png" src="_images/freecad-p15-imagen09.png">
+<p><br></p>
+</li>
+</ol>
+<hr class="docutils">
+<div class="section" id="ejercicios">
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Create a sketch like the one in the image.</p>
+<img alt="_images/freecad-p15-ejercicio01.png" src="_images/freecad-p15-ejercicio01.png">
+<p>With the following restrictions.</p>
+<ul class="simple">
+<li>Horizontal constraint on all horizontal lines.</li>
+<li>Vertical constraint on all vertical lines.</li>
+<li>Equality constraint on all lines of equal length.</li>
+<li>Dimension constraint in the four dimensions that appear in the drawing.</li>
+</ul>
+<p>Extrude the drawing 100 millimeters to generate an H-beam.</p>
+<img alt="_images/freecad-p15-ejercicio01b.png" src="_images/freecad-p15-ejercicio01b.png">
+<p><br></p>
+</li>
+</ol>
+</div>
+<hr class="docutils">
+<div class="section" id="videotutorial">
+<h2>Video-tutorial<a class="headerlink" href="#videotutorial" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/embed/dVg5uBciurs" rel="noopener noreferrer" target="_blank">Applying constraints.</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="freecad-videotutoriales.html" class="btn btn-neutral float-right" title="16. FreeCAD Video Tutorials" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="freecad-croquis-anidados.html" class="btn btn-neutral" title="14. Nested Sketch Extrusion" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/freecad-restricciones.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="mecan-index.html">Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="mecan-estructuras-index.html">Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-maquinas-index.html">Machines and Mechanisms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-calibre.html">The Caliber</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="freecad-index.html">FreeCAD</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="freecad-intro.html">1. Introduction to FreeCAD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-visualizacion.html">2. Parts display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-traslacion.html">3. Translation of pieces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-tamanios.html">4. Pieces size</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-union.html">5. Union of pieces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-rotaciones.html">6. Rotation of parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-diferencia.html">7. Parts difference</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-cilindros.html">8. Cylindrical parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-chaflanes.html">9. Chamfers and fillets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-esferas.html">10. Spherical parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-conos.html">11. Conical pieces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-toroides.html">12. Toroidal parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-croquis-extrudir.html">13. Sketch extrusion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-croquis-anidados.html">14. Nested Sketch Extrusion</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">15. Constrained sketches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freecad-videotutoriales.html">16. FreeCAD Video Tutorials</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="blockscad-index.html">BlocksCAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-neumatic-intro.html">Pneumatics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-origami.html">Origami</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-recursos.html">Mechanics Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

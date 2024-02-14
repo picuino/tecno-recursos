@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Programming - Scratch 3 tutorial - 14. Walk mazes">
+  <title>14. Walk mazes - Scratch 3 tutorial - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/scratch3-recorrer-laberintos.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="15. Jump trees" href="scratch3-saltar-arboles.html">
+  <link rel="prev" title="13. Landing rocket" href="scratch3-aterrizar-cohete.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="prog-index.html">Programming</a>/</li>
+        
+          <li><a href="scratch3-index.html">Scratch 3 tutorial</a>/</li>
+        
+      <li><span class="section-number">14. </span>Walk mazes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/scratch3-recorrer-laberintos.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/scratch3-recorrer-laberintos.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="recorrer-laberintos">
+<span id="scratch3-recorrer-laberintos"></span><h1><span class="section-number">14. </span>Walk mazes<a class="headerlink" href="#recorrer-laberintos" title="Permalink to this headline">¶</a></h1>
+<p>In this practice we are going to program a game that consists of going through several mazes from the beginning to the end point before our character runs out of energy.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-screen.png"><img alt="_images/scratch3-p14-screen.png" src="_images/scratch3-p14-screen.png" style="width: 360px;"></a>
+<p><br /></p>
+<ol class="arabic">
+<li><p class="first">We start the <a href="https://scratch.mit.edu/projects/editor"
+target="_blank">Scratch editor</a>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Press the language button <img alt="boton-idioma" class="align-middle" src="_images/scratch3-boton-idioma.png"> in the top bar and choose <strong>English</strong>.</p>
+<p><br /></p>
+</li>
+<li><p class="first">We delete the cat object by clicking on the trash can icon.</p>
+<p><img alt="borrar-gato" class="align-middle" src="_images/scratch3-borrar-gato.en.png"></p>
+<p><br /></p>
+</li>
+<li><p class="first">Next we add a new character, a <strong>basketball</strong>.</p>
+<p>Press the button choose an object <img alt="seleccionar-objeto" class="align-middle" src="_images/scratch3-seleccionar-objeto.png">.</p>
+<p>We look in the <strong>Sports</strong> section.</p>
+<p>and select the <strong>Basketball</strong> object.</p>
+<img alt="_images/scratch3-objeto-basketball.png" src="_images/scratch3-objeto-basketball.png">
+<p><br /></p>
+</li>
+<li><p class="first">Now we will create the variable <strong>Phase</strong> that will count the number of mazes that we are going through. When this variable exceeds five mazes, the program will terminate.</p>
+<p>Press the variables button <a class="reference internal" href="_images/scratch3-boton-variables.en.png"><img alt="boton-variables" class="align-middle" src="_images/scratch3-boton-variables.en.png" style="width: 60px;"></a>,</p>
+<p>click on create a variable <a class="reference internal" href="_images/scratch3-boton-crear-variable.en.png"><img alt="boton-crear-variable" class="align-middle" src="_images/scratch3-boton-crear-variable.en.png" style="width: 144px;"></a>.</p>
+<p>We change the name of the variable to <strong>Phase</strong></p>
+<img alt="_images/scratch3-p14-variable-fase.png" src="_images/scratch3-p14-variable-fase.png">
+<p>Finally, click on the <strong>OK</strong> button.</p>
+<p><br /></p>
+</li>
+<li><p class="first">We will also create the variable <strong>Energy</strong> that will count the energy we have to go through all the mazes. If the energy variable becomes empty, we will lose the game and the program will end.</p>
+<p>Press the variables button <a class="reference internal" href="_images/scratch3-boton-variables.en.png"><img alt="boton-variables" class="align-middle" src="_images/scratch3-boton-variables.en.png" style="width: 60px;"></a>,</p>
+<p>click on create a variable <a class="reference internal" href="_images/scratch3-boton-crear-variable.en.png"><img alt="boton-crear-variable" class="align-middle" src="_images/scratch3-boton-crear-variable.en.png" style="width: 144px;"></a>.</p>
+<p>We change the name of the variable to <strong>Energy</strong></p>
+<img alt="_images/scratch3-p14-variable-energia.png" src="_images/scratch3-p14-variable-energia.png">
+<p>Finally, click on the <strong>OK</strong> button.</p>
+<p><br /></p>
+</li>
+<li><p class="first">We create two new blocks called <strong>move_x</strong> and <strong>move_y</strong> that will move the ball around the screen.</p>
+<p>First click on the button my blocks <a class="reference internal" href="_images/scratch3-boton-misbloques.en.png"><img alt="boton-misbloques" class="align-middle" src="_images/scratch3-boton-misbloques.en.png" style="width: 60px;"></a></p>
+<p>Then click on create a block <a class="reference internal" href="_images/scratch3-boton-crear-bloque.en.png"><img alt="boton-crear-bloque" class="align-middle" src="_images/scratch3-boton-crear-bloque.en.png" style="width: 133px;"></a></p>
+<p>Then we change the name of the new block to <strong>move_x</strong></p>
+<p>First click on the button my blocks <a class="reference internal" href="_images/scratch3-boton-misbloques.en.png"><img alt="boton-misbloques" class="align-middle" src="_images/scratch3-boton-misbloques.en.png" style="width: 60px;"></a></p>
+<p>Then click on create a block <a class="reference internal" href="_images/scratch3-boton-crear-bloque.en.png"><img alt="boton-crear-bloque" class="align-middle" src="_images/scratch3-boton-crear-bloque.en.png" style="width: 133px;"></a></p>
+<p>Then we change the name of the new block to <strong>move_y</strong></p>
+<p><br /></p>
+</li>
+<li><p class="first">We make a program that moves the ball in all four directions, consuming energy and bouncing off the walls of the maze so that it cannot pass through.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-basketball-3.png"><img alt="_images/scratch3-p14-basketball-3.png" src="_images/scratch3-p14-basketball-3.png" style="width: 444px;"></a>
+<a class="reference internal image-reference" href="_images/scratch3-p14-basketball-4.png"><img alt="_images/scratch3-p14-basketball-4.png" src="_images/scratch3-p14-basketball-4.png" style="width: 423px;"></a>
+<p>The ball still won't roll because we need another routine to call the functions we've created.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Now we create a new block, <strong>Start</strong>, which will show the ball with small size at the beginning of the maze.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-basketball-2.png"><img alt="_images/scratch3-p14-basketball-2.png" src="_images/scratch3-p14-basketball-2.png" style="width: 212px;"></a>
+<p><br /></p>
+</li>
+<li><p class="first">To continue we will program the main routine that calls all the blocks that we have previously created.</p>
+<p>We won't be able to change the backdrop to &quot;No_energy&quot; yet because this backdrop hasn't been created yet. Remember to change it after creating the backdrop.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-basketball-1.png"><img alt="_images/scratch3-p14-basketball-1.png" src="_images/scratch3-p14-basketball-1.png" style="width: 393px;"></a>
+<p><br /></p>
+</li>
+<li><p class="first">To finish the ball program, we will program the behavior when it receives the <strong>Start</strong> and <strong>Finish</strong> messages.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-basketball-5.png"><img alt="_images/scratch3-p14-basketball-5.png" src="_images/scratch3-p14-basketball-5.png" style="width: 207px;"></a>
+<p><br /></p>
+</li>
+<li><p class="first">Now we will switch to the <strong>Scenario</strong> and inside the backdrops tab we will create the game messages.</p>
+<p>First we select in backdrops, paint a backdrop.</p>
+<img alt="_images/scratch3-p14-pinta-un-fondo.png" src="_images/scratch3-p14-pinta-un-fondo.png">
+<p>Next, with the <strong>Text</strong> tool we write the following message on the screen.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-fondo-perdido.png"><img alt="_images/scratch3-p14-fondo-perdido.png" src="_images/scratch3-p14-fondo-perdido.png" style="width: 442px;"></a>
+<p>Change the name of the costume to &quot;Out_Energy&quot;.</p>
+<img alt="_images/scratch3-p14-disfraz-sin-energia.png" src="_images/scratch3-p14-disfraz-sin-energia.png">
+<p>Remember to modify the basketball program now that this backdrop is already created.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Now we will switch back to the <strong>Scenario</strong> and within the backdrops tab we will create more in-game messages.</p>
+<p>We select in funds, paint a backdrop.</p>
+<img alt="_images/scratch3-p14-pinta-un-fondo.png" src="_images/scratch3-p14-pinta-un-fondo.png">
+<p>Next, with the <strong>Text</strong> tool we write the following message on the screen.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-fondo-terminado.png"><img alt="_images/scratch3-p14-fondo-terminado.png" src="_images/scratch3-p14-fondo-terminado.png" style="width: 449px;"></a>
+<p>Changed the name of the costume to &quot;Finished&quot;.</p>
+<p><br /></p>
+</li>
+<li><p class="first">We select again to paint a backdrop.</p>
+<p>Next, with the <strong>Text</strong> tool we write the following message on the screen.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-fondo-finalizado.png"><img alt="_images/scratch3-p14-fondo-finalizado.png" src="_images/scratch3-p14-fondo-finalizado.png" style="width: 443px;"></a>
+<p>Changed the name of the costume to &quot;Finished&quot;.</p>
+<p><br /></p>
+</li>
+<li><p class="first">To complete the backdrops, we are going to download the following compressed file that contains several mazes inside.</p>
+<p><a class="reference download internal" download="" href="_downloads/scratch3-laberintos.zip"><code class="xref download docutils literal notranslate"><span class="pre">Labyrinths</span> <span class="pre">to</span> <span class="pre">go</span> <span class="pre">through.</span> <span class="pre">ZIP</span> <span class="pre">format.</span></code></a></p>
+<p>Once downloaded, we open the Zip file and extract all the maze files inside it to a known folder.</p>
+<p>All files can be extracted by right-clicking on the Zip file and selecting the <code class="docutils literal notranslate"><span class="pre">Extract</span> <span class="pre">All...</span></code> option and then clicking the <code class="docutils literal notranslate"><span class="pre">Extract</span></code> button.</p>
+<p><br /></p>
+</li>
+<li><p class="first">Back in the <strong>Scenario</strong>, within the backdrops tab, we are going to import the different mazes.</p>
+<p>First we select in backdrops, <strong>load a backdrop</strong>.</p>
+<img alt="_images/scratch3-p14-carga-un-fondo.png" src="_images/scratch3-p14-carga-un-fondo.png">
+<p>We choose the folder where the previous Zip file has been downloaded and the folder where the mazes have been extracted. Ask your teacher if you don't know how to proceed in this step.</p>
+<p>Once in the mazes folder, click on the first mazes and press the <code class="docutils literal notranslate"><span class="pre">Open</span></code> button.</p>
+<img alt="_images/scratch3-p14-carga-de-archivos.png" src="_images/scratch3-p14-carga-de-archivos.png">
+<p><br /></p>
+</li>
+<li><p class="first">We repeat the previous step with the first five mazes.</p>
+<p><br /></p>
+</li>
+<li><p class="first">To continue, we are going to program the behavior of the Scenario in the Code tab.</p>
+<p>At the start of the program we set the value of the Phase variable to 1 (the number of the maze) and display the first maze.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-escenario-1.png"><img alt="_images/scratch3-p14-escenario-1.png" src="_images/scratch3-p14-escenario-1.png" style="width: 404px;"></a>
+<p>Every time you get the message to <strong>Start</strong> a new maze, we add one to the Phase variable and display the corresponding maze. Once the value 6 is reached, the mazes will be over and we can end the program with a winning message.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-escenario-2.png"><img alt="_images/scratch3-p14-escenario-2.png" src="_images/scratch3-p14-escenario-2.png" style="width: 306px;"></a>
+<p><br /></p>
+</li>
+<li><p class="first">At this point, it is only necessary to define when each maze ends. To achieve this we are going to add a new object, an arrow, which will send the maze finished message when it touches the basketball.</p>
+<p>Added a new character, <strong>an arrow</strong>.</p>
+<p>Press the button choose an object <img alt="seleccionar-objeto" class="align-middle" src="_images/scratch3-seleccionar-objeto.png">.</p>
+<p>We look in the <strong>All</strong> section.</p>
+<p>and select the object <strong>Arrow1</strong>.</p>
+<img alt="_images/scratch3-objeto-arrow1.png" src="_images/scratch3-objeto-arrow1.png">
+<p><br /></p>
+</li>
+<li><p class="first">We make a program that shows the arrow in the lower right corner at the start of the program. He must also always be detecting if he touches the basketball, to finish the maze and start a new one.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-arrow-1.png"><img alt="_images/scratch3-p14-arrow-1.png" src="_images/scratch3-p14-arrow-1.png" style="width: 381px;"></a>
+<p>In addition, we will program the arrow to hide from the end of a maze until the next maze begins.</p>
+<a class="reference internal image-reference" href="_images/scratch3-p14-arrow-2.png"><img alt="_images/scratch3-p14-arrow-2.png" src="_images/scratch3-p14-arrow-2.png" style="width: 208px;"></a>
+<p><br /></p>
+</li>
+<li><p class="first">Press the green flag <img alt="bandera-verde" class="align-middle" src="_images/scratch3-bandera-verde.png"> to test the operation of the program.</p>
+<p><br /></p>
+</li>
+</ol>
+<hr class="docutils">
+<div class="section" id="retos">
+<h2>Challenges<a class="headerlink" href="#retos" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Add a light blue trail to the movement of the ball so that we know at all times what path the ball has taken.</p>
+<p><br /></p>
+</li>
+<li><p class="first">It measures how much energy the ball consumes to go through each maze and establishes at the beginning an energy value that is just the one necessary to pass the game.</p>
+<p><br /></p>
+</li>
+<li><p class="first">At the beginning of each maze, add small fruits scattered randomly. When the ball touches one of these fruits, the fruit must disappear and add energy to the ball.</p>
+<p>Fruits will be added as clones of a fruit that must remain hidden.</p>
+<p>Set the ball to a lower starting energy value, so you need to collect multiple fruits in order to finish all the mazes with enough energy.</p>
+<p>Adjust the number of fruits and the energy each fruit adds to make the game difficult, but still finishable.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="scratch3-saltar-arboles.html" class="btn btn-neutral float-right" title="15. Jump trees" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="scratch3-aterrizar-cohete.html" class="btn btn-neutral" title="13. Landing rocket" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/scratch3-recorrer-laberintos.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programming</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Programming languages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-flowchart.html">Flowcharts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-codeorg.html">Code Tutorials</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="scratch3-index.html">Scratch 3 tutorial</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="scratch3-dibujar-disfraces.html">1. Draw costumes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-volar-personaje.html">2. Fly with a cat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-jugar-futbol.html">3. Play football</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-pasear-escenarios.html">4. Walk scenarios</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-animar-nombre.html">5. Animate name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-comer-peces.html">6. Eat fish</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-atrapar-bichos.html">7. Catch bugs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-romper-ladrillos.html">8. Break bricks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-atrapar-manzanas.html">9. Catch apples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-matar-marcianitos.html">10. Kill little martians</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-dibujar-espirales.html">11. Draw spirals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-dibujar-flores.html">12. Draw flowers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-aterrizar-cohete.html">13. Landing rocket</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">14. Walk mazes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-saltar-arboles.html">15. Jump trees</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scratch3-retos-robotix.html">16. Retos de Robotix para Scratch</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="python-index.html">Python tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-recursos.html">Programming Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

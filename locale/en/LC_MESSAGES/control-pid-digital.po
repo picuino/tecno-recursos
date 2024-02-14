@@ -1,0 +1,717 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/control-pid-digital.rst:9
+msgid "Controlador PID digital"
+msgstr "Digital PID controller"
+
+
+#: ../../es/control-pid-digital.rst:11
+msgid ""
+"Muchos controladores actuales utilizan microcontroladores digitales. En esta"
+" página se presentará la programación de un regulador PID implementado con "
+"un microcontrolador. Los reguladores digitales sustituyen varios elementos "
+"en un sistema de control tradicional por cálculos en un sistema programado. "
+"En la figura siguiente puede verse un esquema de un regulador controlado por"
+" un microcontrolador."
+msgstr ""
+"Many current controllers use digital microcontrollers. This page will "
+"present the programming of a PID regulator implemented with a "
+"microcontroller. Digital regulators replace various elements in a "
+"traditional control system with calculations in a programmed system. In the "
+"following figure you can see a diagram of a regulator controlled by a "
+"microcontroller."
+
+
+#: ../../es/control-pid-digital.rst:24
+msgid ""
+"Las funciones del microcontrolador están encerradas en el cuadrado con "
+"líneas de puntos."
+msgstr ""
+"The microcontroller functions are enclosed in the square with dotted lines."
+
+
+#: ../../es/control-pid-digital.rst:27
+msgid ""
+"Los bloques que sirven de conexión entre el microcontrolador y el sistema "
+"son un `DAC (conversor digital a analógico) "
+"<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_digital_a_anal%C3%B3gica>`_"
+" y un `ADC (conversor de analógico a digital) "
+"<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_anal%C3%B3gica_a_digital>`_."
+" Estos dos bloques permiten traducir las señales analógicas del sistema "
+"controlado a números digitales utilizados por el microcontrolador y "
+"viceversa."
+msgstr ""
+"The blocks that serve as a connection between the microcontroller and the "
+"system are a `DAC (digital to analog converter) "
+"<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_digital_a_anal%C3%B3gica>`_"
+" and a ` ADC (analog to digital converter) "
+"<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_anal%C3%B3gica_a_digital>`_."
+" These two blocks allow you to translate the analog signals of the "
+"controlled system into digital numbers used by the microcontroller and vice "
+"versa."
+
+
+#: ../../es/control-pid-digital.rst:36
+msgid ""
+"En ocasiones los conversores ADC y DAC se pueden implementar con un "
+"`regulador PWM "
+"<https://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos>`_."
+msgstr ""
+"Sometimes the ADC and DAC converters can be implemented with a `PWM "
+"regulator "
+"<https://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos>`_."
+
+
+#: ../../es/control-pid-digital.rst:41
+msgid "Período de muestreo"
+msgstr "Sampling period"
+
+
+#: ../../es/control-pid-digital.rst:43
+msgid ""
+"Mientras que los sistemas analógicos son continuos, los sistemas digitales "
+"son discontinuos. Esto significa que sus valores se evalúan o cambian cada "
+"cierto período de tiempo llamado tiempo de muestreo. El período de muestreo "
+"define cuantas veces por segundo se van a realizar las conversiones "
+"analógico-digitales y se van a calcular los parámetros del PID. En adelante "
+"el período de muestreo se representará por la letra **T**."
+msgstr ""
+"While analog systems are continuous, digital systems are discontinuous. This"
+" means that their values ​​are evaluated or changed every certain period of "
+"time called the sampling time. The sampling period defines how many times "
+"per second the analog-digital conversions will be performed and the PID "
+"parameters will be calculated. From now on the sampling period will be "
+"represented by the letter **T**."
+
+
+#: ../../es/control-pid-digital.rst:52
+msgid ""
+"La respuesta en lazo cerrado de un sistema controlado por un PID digital va "
+"a depender de este período de muestreo. Si este tiempo es demasiado alto, la"
+" estabilidad del sistema será menor y el sistema puede llegar a hacerse "
+"inestable y no ser controlable. Un método para estimar el período de "
+"muestreo consiste en calcular el período de oscilación del sistema en lazo "
+"cerrado con una ganancia que provoque oscilaciones. Se tomará un período de "
+"muestreo menor que la décima parte del tiempo o período de oscilación."
+msgstr ""
+"The closed loop response of a system controlled by a digital PID will depend"
+" on this sampling period. If this time is too high, the stability of the "
+"system will be lower and the system may become unstable and not "
+"controllable. One method of estimating the sampling period is to calculate "
+"the oscillation period of the closed-loop system with a gain that causes "
+"oscillations. A sampling period of less than one tenth of the time or period"
+" of oscillation will be taken."
+
+
+#: ../../es/control-pid-digital.rst:63
+msgid ""
+"En el ejemplo que aparece a continuación se ha aumentado la ganancia "
+"proporcional hasta que se mantengan las oscilaciones en la respuesta al "
+"escalón. El período de oscilación es entonces de 5,6 segundos y, por lo "
+"tanto, el período de muestreo debe ser menor de 0,56 segundos."
+msgstr ""
+"In the example below, the proportional gain has been increased until the "
+"oscillations in the step response are maintained. The oscillation period is "
+"then 5.6 seconds and therefore the sampling period must be less than 0.56 "
+"seconds."
+
+
+#: ../../es/control-pid-digital.rst:75
+msgid "Tiempo de oscilación y período de muestreo:"
+msgstr "Oscillation time and sampling period:"
+
+
+#: ../../es/control-pid-digital.rst:77
+msgid "Tc = 26,8 - 21,2 = 5,6 segundos  (Tiempo de oscilación)"
+msgstr "Tc = 26.8 - 21.2 = 5.6 seconds (oscillation time)"
+
+
+#: ../../es/control-pid-digital.rst:79
+msgid "T < Tc / 10 = 0,56 segundos   (Período de muestreo)"
+msgstr "T < Tc / 10 = 0.56 seconds (Sampling Period)"
+
+
+#: ../../es/control-pid-digital.rst:81
+msgid ""
+"Si el sistema es sobreamortiguado y no presenta oscilaciones, el criterio "
+"para escoger el tiempo de muestreo partirá de la respuesta al escalón. Como "
+"regla general se acepta que T debe ser 10 veces menor que el tiempo de "
+"subida del sistema ante un escalón en lazo abierto."
+msgstr ""
+"If the system is overdamped and does not present oscillations, the criterion"
+" for choosing the sampling time will be based on the step response. As a "
+"general rule, it is accepted that T must be 10 times less than the rise time"
+" of the system before an open-loop step."
+
+
+#: ../../es/control-pid-digital.rst:87
+
+
+#, python-format
+msgid ""
+"Este tiempo de subida se puede calcular como el tiempo que tarda el sistema "
+"en subir desde un 10% hasta un 90% del valor final."
+msgstr ""
+"This rise time can be calculated as the time it takes for the system to rise"
+" from 10% to 90% of the final value."
+
+
+#: ../../es/control-pid-digital.rst:90
+msgid ""
+"En la siguiente imagen se representa la respuesta al escalón de un sistema "
+"térmico."
+msgstr "The following image represents the step response of a thermal system."
+
+
+#: ../../es/control-pid-digital.rst:99
+
+
+#, python-format
+msgid ""
+"Este sistema tarda en subir desde el 10% hasta el 90% del valor final 21,5 -"
+" 3,5 = 18 segundos. Por lo tanto, para este sistema de ejemplo, el tiempo de"
+" muestreo del controlador PID debe ser como máximo una décima parte de los "
+"18 segundos:"
+msgstr ""
+"This system takes to rise from 10% to 90% of the final value 21.5 - 3.5 = 18"
+" seconds. Therefore, for this example system, the PID controller sampling "
+"time should be at most one tenth of 18 seconds:"
+
+
+#: ../../es/control-pid-digital.rst:105
+msgid "T < Tiempo_de_respuesta / 10"
+msgstr "T < response_time / 10"
+
+
+#: ../../es/control-pid-digital.rst:107
+msgid "T < 18/10    ->   T < 1,8 segundos"
+msgstr "T < 18/10 -> T < 1.8 seconds"
+
+
+#: ../../es/control-pid-digital.rst:109
+msgid ""
+"En los dos casos se ha utilizado la misma planta para calcular el tiempo de "
+"muestreo. Como puede verse los resultados son muy diferentes. Con el segundo"
+" método el tiempo de muestreo es tres veces mayor que con el primero. Por lo"
+" tanto, el tiempo de muestreo depende también de la respuesta que se vaya a "
+"conseguir y del tipo de sistema."
+msgstr ""
+"In both cases, the same plant has been used to calculate the sampling time. "
+"As can be seen the results are very different. With the second method the "
+"sampling time is three times longer than with the first. Therefore, the "
+"sampling time also depends on the response to be achieved and the type of "
+"system."
+
+
+#: ../../es/control-pid-digital.rst:116
+msgid ""
+"Siempre que sea posible, será preferible utilizar el primer método puesto "
+"que calcula tiempos menores y, por lo tanto, más seguros."
+msgstr ""
+"Whenever possible, it will be preferable to use the first method since it "
+"calculates shorter times and, therefore, safer."
+
+
+#: ../../es/control-pid-digital.rst:121
+msgid "Período de muestreo y término derivativo"
+msgstr "Sampling period and derivative term"
+
+
+#: ../../es/control-pid-digital.rst:123
+msgid ""
+"Si bien antes se ha explicado que reducir el tiempo de muestreo es deseable "
+"porque aumenta la estabilidad del sistema, reducir excesivamente el tiempo "
+"de muestreo presenta también problemas."
+msgstr ""
+"Although it has been explained before that reducing the sampling time is "
+"desirable because it increases the stability of the system, excessively "
+"reducing the sampling time also presents problems."
+
+
+#: ../../es/control-pid-digital.rst:127
+msgid ""
+"Un problema de reducir mucho el tiempo de muestreo consiste en que aumenta "
+"los cálculos necesarios en el microcontrolador y por lo tanto le puede "
+"sobrecargar. Otro problema de reducir el tiempo de muestreo consiste en que "
+"dificulta calcular el término derivativo. En este caso, el ruido de alta "
+"frecuencia afecta más al sistema. Además, la variación de la entrada entre "
+"dos muestreos es tan pequeña que se ve afectada por el error de "
+"cuantificación del conversor analógico-digital."
+msgstr ""
+"One problem with reducing the sampling time too much is that it increases "
+"the calculations needed in the microcontroller and therefore can overload "
+"it. Another problem with reducing the sampling time is that it makes it "
+"difficult to calculate the derivative term. In this case, high-frequency "
+"noise affects the system more. Furthermore, the variation of the input "
+"between two samples is so small that it is affected by the quantization "
+"error of the analog-to-digital converter."
+
+
+#: ../../es/control-pid-digital.rst:136
+msgid ""
+"Por lo tanto, lo ideal es establecer un tiempo de muestreo que consiga una "
+"respuesta aceptable en el sistema sin que sobrecargue mucho los cálculos y "
+"que no afecte al término derivativo."
+msgstr ""
+"Therefore, the ideal is to establish a sampling time that achieves an "
+"acceptable response in the system without greatly overloading the "
+"calculations and without affecting the derivative term."
+
+
+#: ../../es/control-pid-digital.rst:140
+msgid ""
+"**Ejemplo: cómo afecta el error de cuantificación con tiempos de muestreo "
+"muy pequeños**"
+msgstr ""
+"**Example: how the quantization error affects with very small sampling "
+"times**"
+
+
+#: ../../es/control-pid-digital.rst:143
+msgid ""
+"Un sistema térmico cuyo sensor cambia con una velocidad de 0,1 "
+"voltio/segundo es muestreado por un conversor analógico-digital de 10bits "
+"(1024 niveles) con una referencia de tensión de 5 voltios. La sensibilidad "
+"del conversor analógico-digital será:"
+msgstr ""
+"A thermal system whose sensor changes at a rate of 0.1 volt/second is "
+"sampled by a 10-bit (1024 level) analog-to-digital converter with a voltage "
+"reference of 5 volts. The sensitivity of the analog-digital converter will "
+"be:"
+
+
+#: ../../es/control-pid-digital.rst:149
+msgid "1024 puntos * (0,1 v/s / 5v) = 20 puntos/segundo."
+msgstr "1024 points * (0.1 v/s / 5v) = 20 points/second."
+
+
+#: ../../es/control-pid-digital.rst:151
+msgid ""
+"Si el período de muestreo es de un segundo, la variación de la medida será "
+"suficientemente grande como para evaluar el término derivativo. La lectura "
+"del sensor será en muestreos consecutivos: 100, 120, 140, 160, etc."
+msgstr ""
+"If the sampling period is one second, the measurement variation will be "
+"large enough to evaluate the derivative term. The sensor reading will be in "
+"consecutive samples: 100, 120, 140, 160, etc."
+
+
+#: ../../es/control-pid-digital.rst:157
+msgid ""
+"Si se toma en cambio un período de muestreo de 10 milésimas de segundo, solo"
+" una de cada 5 muestras va a presentar una variación de un punto en la señal"
+" de entrada del sensor. Ahora la lectura del sensor será en muestreos "
+"consecutivos: 100, 100, 100, 100, 100, 101, 101, 101, etc."
+msgstr ""
+"If instead a sampling period of 10 thousandths of a second is taken, only "
+"one out of every 5 samples will present a variation of one point in the "
+"sensor input signal. Now the sensor reading will be in consecutive samples: "
+"100, 100, 100, 100, 100, 101, 101, 101, etc."
+
+
+#: ../../es/control-pid-digital.rst:163
+msgid ""
+"Por otra parte, la ganancia derivativa será 100 veces mayor, al estar "
+"dividida por un tiempo de muestreo 100 veces más pequeño."
+msgstr ""
+"On the other hand, the derivative gain will be 100 times greater, being "
+"divided by a sampling time 100 times smaller."
+
+
+#: ../../es/control-pid-digital.rst:167
+msgid ""
+"El resultado es que la acción derivativa actuará a impulsos muy bruscos cada"
+" 5 ciclos. Este comportamiento no es deseable y se puede corregir "
+"simplemente aumentando el tiempo de muestreo."
+msgstr ""
+"The result is that the derivative action will act with very sudden impulses "
+"every 5 cycles. This behavior is not desirable and can be corrected simply "
+"by increasing the sample time."
+
+
+#: ../../es/control-pid-digital.rst:174
+msgid "Implementación del PID digital"
+msgstr "Digital PID Implementation"
+
+
+#: ../../es/control-pid-digital.rst:176
+msgid ""
+"Cada uno de los bloques que aparecen dentro del PID digital se traducen a "
+"una ecuación. Las ecuaciones para calcular el comparador y el controlador "
+"PID son las siguientes:"
+msgstr ""
+"Each of the blocks that appear within the digital PID are translated into an"
+" equation. The equations to calculate the comparator and the PID controller "
+"are the following:"
+
+
+#: ../../es/control-pid-digital.rst:202
+msgid ""
+"Todas estas instrucciones y ecuaciones se deben repetir con un período de T "
+"segundos (el tiempo de muestreo). Si el tiempo de muestreo es de 0.1 "
+"segundos, las ecuaciones se deben repetir 10 veces por segundo (cada 0.1 "
+"segundos)."
+msgstr ""
+"All these instructions and equations must be repeated with a period of T "
+"seconds (the sampling time). If the sampling time is 0.1 seconds, the "
+"equations must be repeated 10 times per second (every 0.1 seconds)."
+
+
+#: ../../es/control-pid-digital.rst:207
+msgid ""
+"El valor de la referencia se ha escogido en 150 grados centígrados, pero se "
+"puede cambiar a voluntad. Es el valor que se quiere conseguir en el sistema."
+msgstr ""
+"The reference value has been chosen to be 150 degrees Celsius, but it can be"
+" changed at will. It is the value that you want to achieve in the system."
+
+
+#: ../../es/control-pid-digital.rst:211
+msgid ""
+"La instrucción leer_ADC() debe leer el valor devuelto por el sensor y "
+"acondicionar ese valor para que esté medido en las mismas unidades que se "
+"están utilizando en la referencia. En el caso del ejemplo, grados "
+"centígrados."
+msgstr ""
+"The read_ADC() instruction must read the value returned by the sensor and "
+"condition that value so that it is measured in the same units that are being"
+" used in the reference. In the case of the example, degrees Celsius."
+
+
+#: ../../es/control-pid-digital.rst:218
+msgid "Unidades utilizadas por las funciones de entrada y salida"
+msgstr "Units used by the input and output functions"
+
+
+#: ../../es/control-pid-digital.rst:220
+msgid ""
+"Las funciones de entrada y salida deben tener una conversión adecuada de "
+"unidades. La función leer_ADC() debe devolver un valor con las mismas "
+"unidades que utilice la referencia. Es conveniente que la función "
+"escribir_DAC() acepte valores de control entre 0 y 5 voltios para que se "
+"correspondan con el valor real de salida del conversor DAC, que tendrá una "
+"tensión de salida, por ejemplo, entre 0 y 5 voltios. Los valores de control "
+"no están acotados y por lo tanto pueden llegar a valer más que el valor "
+"máximo de salida de 5 voltios o menos que el valor mínimo de salida de 0 "
+"voltios. En este caso la función escribir_DAC() debe recortar los valores "
+"máximos a 5v y los valores mínimos a 0v."
+msgstr ""
+"The input and output functions must have a proper unit conversion. The "
+"read_ADC() function must return a value with the same units that the "
+"reference uses. It is convenient for the function write_DAC() to accept "
+"control values ​​between 0 and 5 volts to correspond to the actual output "
+"value of the DAC converter, which will have an output voltage, for example, "
+"between 0 and 5 volts. The control values ​​are not bounded and therefore "
+"can be worth more than the maximum output value of 5 volts or less than the "
+"minimum output value of 0 volts. In this case the function write_DAC() "
+"should clip the maximum values ​​to 5v and the minimum values ​​to 0v."
+
+
+#: ../../es/control-pid-digital.rst:235
+msgid "Control anti-windup integral"
+msgstr "Integral windup control"
+
+
+#: ../../es/control-pid-digital.rst:237
+msgid ""
+"El control integral es un sumatorio que puede llegar a acumular valores muy "
+"altos. Esto ocurre generalmente cuando el error es muy elevado y se mantiene"
+" durante mucho tiempo. En este caso el sistema está saturado y el control "
+"integral no puede realizar su función. En estos casos, es recomendable "
+"deshabilitar el control integral para que no se produzca un sobrepulso "
+"excesivo. Existen varias formas de implementar este control anti-windup. "
+"Aquí se implementará deshabilitando el control integral mientras el error "
+"sea superior a una cota determinada. Para implementar este control anti-"
+"windup, se añaden las siguientes líneas al programa anterior."
+msgstr ""
+"Integral control is a sum that can accumulate very high values. This "
+"generally occurs when the error is very high and persists for a long time. "
+"In this case the system is saturated and the integral control cannot perform"
+" its function. In these cases, it is recommended to disable the integral "
+"control so that excessive overshoot does not occur. There are several ways "
+"to implement this anti-windup control. Here it will be implemented by "
+"disabling the integral control while the error is greater than a certain "
+"bound. To implement this anti-windup check, the following lines are added to"
+" the above program."
+
+
+#: ../../es/control-pid-digital.rst:261
+msgid ""
+"En las imágenes siguientes se puede observar una simulación de un control "
+"PID de temperatura de un horno con control anti-windup. El error máximo para"
+" que actúe el control integral se ha establecido en 100, 30 y 10 grados:"
+msgstr ""
+"In the following images you can see a simulation of a PID temperature "
+"control of a furnace with anti-windup control. The maximum error for the "
+"integral control to act has been established at 100, 30 and 10 degrees:"
+
+
+#: ../../es/control-pid-digital.rst:284
+msgid ""
+"Como se puede observar, en el primer caso se ha establecido el máximo error "
+"anti-windup en 100 grados y el sobrepulso llega a ser de 45ºC con un tiempo "
+"de establecimiento total de 26 segundos. Estos son valores muy altos."
+msgstr ""
+"As can be seen, in the first case the maximum anti-windup error has been set"
+" at 100 degrees and the overshoot reaches 45ºC with a total settling time of"
+" 26 seconds. These are very high values."
+
+
+#: ../../es/control-pid-digital.rst:289
+msgid ""
+"En el segundo caso, el control anti-windup se ha establecido con un error "
+"máximo de 30 y el sobrepulso apenas llega a ser de 5 grados, con un tiempo "
+"de establecimiento de 14 segundos. Este valor de anti-windup consigue los "
+"mejores resultados del sistema."
+msgstr ""
+"In the second case, the anti-windup control has been established with a "
+"maximum error of 30 and the overshoot barely reaches 5 degrees, with a "
+"settling time of 14 seconds. This anti-windup setting achieves the best "
+"system results."
+
+
+#: ../../es/control-pid-digital.rst:294
+msgid ""
+"En el tercer caso el control anti-windup se ha establecido con un error "
+"máximo de 10 grados, que es claramente insuficiente. En este caso no hay "
+"sobrepulso porque la acción integral entra demasiado tarde a corregir el "
+"error permanente. El problema que puede presentar este valor tan bajo es que"
+" el error se mantenga por encima del límite anti-windup y no llegue a "
+"corregirse en ningún momento o que la reducción del error se realice "
+"demasiado despacio."
+msgstr ""
+"In the third case, the anti-windup control has been established with a "
+"maximum error of 10 degrees, which is clearly insufficient. In this case "
+"there is no overshoot because the integral action enters too late to correct"
+" the permanent error. The problem that this low value can present is that "
+"the error remains above the anti-windup limit and is not corrected at any "
+"time, or that the error reduction is carried out too slowly."
+
+
+#: ../../es/control-pid-digital.rst:305
+msgid "Ruido en la realimentación"
+msgstr "Feedback noise"
+
+
+#: ../../es/control-pid-digital.rst:307
+msgid ""
+"Hay varias fuentes de ruido que perturban la señal de realimentación h(t). A"
+" continuación se presentan las más importantes."
+msgstr ""
+"There are several sources of noise that disturb the feedback signal h(t). "
+"The most important ones are presented below."
+
+
+#: ../../es/control-pid-digital.rst:313
+msgid "Ruido en el sensor y muestreo"
+msgstr "Sensor noise and sampling"
+
+
+#: ../../es/control-pid-digital.rst:315
+msgid ""
+"La primera fuente de ruido es el propio sensor que puede dar una salida con "
+"ruido añadido de diversas frecuencias. Este ruido es difícil de filtrar, de "
+"forma que siempre que sea posible conviene reducir el ruido al mínimo."
+msgstr ""
+"The first source of noise is the sensor itself which can give an output with"
+" added noise of various frequencies. This noise is difficult to filter out, "
+"so whenever possible it should be kept to a minimum."
+
+
+#: ../../es/control-pid-digital.rst:320
+msgid ""
+"El ruido del sensor entra en el sistema digital a través del conversor "
+"analógico-digital. Según el **teorema de Nyquist**, la máxima frecuencia que"
+" puede medir un sistema de muestreo digital es igual a la mitad de la "
+"frecuencia de muestreo. Esto impone un límite máximo a las frecuencias que "
+"se van a poder muestrear con fidelidad."
+msgstr ""
+"Sensor noise enters the digital system through the analog-to-digital "
+"converter. According to **Nyquist's theorem**, the maximum frequency that a "
+"digital sampling system can measure is equal to half the sampling frequency."
+" This imposes an upper limit on the frequencies that can be sampled with "
+"fidelity."
+
+
+#: ../../es/control-pid-digital.rst:328
+msgid ""
+"Entonces ¿Qué pasa con las frecuencias mayores a este límite? Esas "
+"frecuencias se traducen en frecuencias más bajas. Esto significa que el "
+"ruido de alta frecuencia se verá dentro del microcontrolador como una señal "
+"de menor frecuencia. Este efecto puede apreciarse bien en la siguiente "
+"imagen:"
+msgstr ""
+"So what happens to frequencies greater than this limit? Those frequencies "
+"are translated into lower frequencies. This means that high frequency noise "
+"will be seen within the microcontroller as a lower frequency signal. This "
+"effect can be well appreciated in the following image:"
+
+
+#: ../../es/control-pid-digital.rst:340
+msgid ""
+"La señal original aparece en rojo, con una frecuencia de 3 ciclos por "
+"intervalo. La mínima frecuencia de muestreo debería ser de 6 muestras por "
+"intervalo."
+msgstr ""
+"The original signal appears in red, with a frequency of 3 cycles per "
+"interval. The minimum sampling frequency should be 6 samples per interval."
+
+
+#: ../../es/control-pid-digital.rst:344
+msgid ""
+"Los puntos negros son las muestras que se han tomado de la señal original, "
+"con una frecuencia de 5 muestras por intervalo, menor de la frecuencia "
+"mínima necesaria."
+msgstr ""
+"The black points are the samples that have been taken from the original "
+"signal, with a frequency of 5 samples per interval, less than the minimum "
+"necessary frequency."
+
+
+#: ../../es/control-pid-digital.rst:348
+msgid ""
+"Cuando se unen entre sí los puntos negros, aparece la señal que el "
+"controlador cree haber muestreado. Como resultado el sistema digital verá "
+"una frecuencia menor que la que tiene la señal real."
+msgstr ""
+"When the black dots are joined together, the signal that the controller "
+"thinks it has sampled appears. As a result the digital system will see a "
+"lower frequency than the real signal has."
+
+
+#: ../../es/control-pid-digital.rst:353
+msgid ""
+"Para evitar este efecto es conveniente limitar el ruido de alta frecuencia "
+"en la señal analógica por medio de un diseño cuidadoso, eligiendo un sensor "
+"adecuado y utilizando un filtro analógico cuando sea necesario."
+msgstr ""
+"To avoid this effect it is convenient to limit the high frequency noise in "
+"the analog signal by means of a careful design, choosing a suitable sensor "
+"and using an analog filter when necessary."
+
+
+#: ../../es/control-pid-digital.rst:358
+msgid ""
+"Los filtros digitales solo podrán actuar de forma efectiva sobre las "
+"frecuencias que estén por debajo de la mitad de la frecuencia de muestreo."
+msgstr ""
+"Digital filters will only be able to act effectively on frequencies below "
+"half the sample rate."
+
+
+#: ../../es/control-pid-digital.rst:364
+msgid "Ruido de cuantificación"
+msgstr "Quantization noise"
+
+
+#: ../../es/control-pid-digital.rst:366
+msgid ""
+"Este ruido está producido por el conversor analógico-digital y procede de "
+"redondear el valor analógico real al valor digital más próximo dado que el "
+"valor digital tiene un numero finito de valores posibles. Este error se "
+"puede calcular a partir del número de bits del conversor analógico-digital y"
+" su rango de medida."
+msgstr ""
+"This noise is produced by the analog-to-digital converter and comes from "
+"rounding the actual analog value to the nearest digital value since the "
+"digital value has a finite number of possible values. This error can be "
+"calculated from the number of bits of the analog-digital converter and its "
+"measurement range."
+
+
+#: ../../es/control-pid-digital.rst:373
+msgid "**Ruido de cuantificación = rango_tensión / 2^(bits_del_adc)**"
+msgstr "**Quantization noise = voltage_range / 2^(adc_bits)**"
+
+
+#: ../../es/control-pid-digital.rst:375
+msgid ""
+"En la siguiente imagen puede verse la representación del ruido de "
+"cuantificación:"
+msgstr ""
+"In the following image you can see the representation of the quantization "
+"noise:"
+
+
+#: ../../es/control-pid-digital.rst:383
+msgid ""
+"En el caso de un microcontrolador típico con 10 bits de resolución y un "
+"rango de medida de 0 a 5 voltios, el ruido o error de cuantificación es de "
+"5V / 2^(10) = 5V / 1024 = 4,9 milivoltios."
+msgstr ""
+"For a typical microcontroller with 10-bit resolution and a measurement range"
+" of 0 to 5 volts, the noise or quantization error is 5V / 2^(10) = 5V / 1024"
+" = 4.9 millivolts."
+
+
+#: ../../es/control-pid-digital.rst:387
+msgid ""
+"Este valor puede también convertirse a unidades de medida de salida de la "
+"planta a partir de la sensibilidad del sensor. Veamos el ejemplo de un "
+"sensor de temperatura que entrega una salida con sensibilidad de 10 mV/ºC"
+msgstr ""
+"This value can also be converted to plant output measurement units based on "
+"sensor sensitivity. Let's see the example of a temperature sensor that "
+"provides an output with a sensitivity of 10 mV/ºC."
+
+
+#: ../../es/control-pid-digital.rst:392
+msgid ""
+"**Ruido de cuantificación = rango_tensión / (2^(bits_adc) * sensibilidad)**"
+msgstr "**Quantization noise = range_voltage / (2^(bits_adc) * sensitivity)**"
+
+
+#: ../../es/control-pid-digital.rst:394
+msgid "**Ruido de cuantificación = 5V / (1024 * 0,010V/ºC) = 0,49 ºC**"
+msgstr "**Quantization noise = 5V / (1024 * 0.010V/ºC) = 0.49 ºC**"
+
+
+#: ../../es/control-pid-digital.rst:396
+msgid ""
+"El ruido de cuantificación afecta negativamente a la respuesta del "
+"regulador, produciendo saltos en la señal de control que empeoran el "
+"comportamiento de la planta."
+msgstr ""
+"Quantization noise negatively affects the response of the regulator, "
+"producing jumps in the control signal that worsen the behavior of the plant."
+
+
+#: ../../es/control-pid-digital.rst:400
+msgid ""
+"Este ruido también afecta a la máxima precisión que puede conseguir el "
+"controlador. En el ejemplo anterior, el controlador no podrá conseguir "
+"controlar la temperatura con una precisión mejor de 0,49 grados centígrados."
+msgstr ""
+"This noise also affects the maximum precision that the controller can "
+"achieve. In the example above, the controller will not be able to achieve "
+"temperature control with an accuracy better than 0.49 degrees Celsius."
+
+
+#: ../../es/control-pid-digital.rst:407
+msgid "Referencias"
+msgstr "References"
+
+
+#: ../../es/control-pid-digital.rst:409
+msgid ""
+"[1] Ogata, Katsuhiko. Sistemas de control en tiempo discreto. Segunda "
+"edición. Editorial Prentice Hall."
+msgstr ""
+"[1] Ogata, Katsuhiko. Control systems in discrete time. Second edition. "
+"Prentice Hall Publisher."

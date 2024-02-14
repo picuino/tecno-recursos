@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title></title>
+	<link rel="stylesheet" href="../fonts/style.css" type="text/css">
+	<script type='text/javascript' src='../lib/descartes-min.js'></script>
+	<style>
+	body { 
+    background-color: transparent;
+}
+	</style>
+</head>
+<body>
+<ajs name="Descartes" width=750 height=500 code="Descartes">
+   <param name="tamaño" value="750x500">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="deshacer" value="no">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.335, 2015-01-12">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=sí limpiar=no ancho_este=150 ancho_oeste=150 alto=40">
+   <param name="E_01" value="tipo='R3' id='E0' O.y='-50' despl_imagen='arr-izq' fondo='fff0f8fa' R3='sí'">
+   <param name="E_02" value="tipo='R2' id='E1' x='10%' y='10%' ancho='80%' alto='70%' dibujar-si='d>0' despl_imagen='arr-izq' fondo='6d3b14' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_03" value="tipo='R2' id='E3' y='30' ancho='250' dibujar-si='d=0' fijo='sí' despl_imagen='arr-izq' fondo='fff0f8fa' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='A1' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 1' fijo='sí' visible='sí' color='blanco' color-int='b74100' negrita='sí' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=1'">
+   <param name="C_02" value="id='A2' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 2' fijo='sí' visible='sí' color='blanco' color-int='b74100' negrita='sí' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=2' pos_mensajes='centro'">
+   <param name="C_03" value="id='A3' tipo='numérico' interfaz='botón' región='norte' espacio='E0' nombre='Actividad 3' fijo='sí' visible='sí' color='blanco' color-int='b74100' negrita='sí' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=3' pos_mensajes='centro'">
+   <param name="C_04" value="id='Ya' tipo='numérico' interfaz='botón' espacio='E0' nombre='Ya' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='18' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='animar' pos_mensajes='centro'">
+   <param name="C_05" value="id='visto' tipo='numérico' interfaz='botón' región='interior' espacio='E1' nombre='Visto' expresión='(230,270)' fijo='sí' visible='sí' color='blanco' color-int='azul' fuente puntos='18' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='d=0' pos_mensajes='centro'">
+   <param name="C_06" value="id='l' tipo='numérico' espacio='E0' nombre='Longitud' valor='1' min='1' max='3' fijo='sí' visible='sí' pos_mensajes='centro'">
+   <param name="C_07" value="id='Fuerza' tipo='numérico' espacio='E0' nombre='Fuerza' valor='1' min='1' max='10' fijo='sí' visible='sí' pos_mensajes='centro'">
+   <param name="C_08" value="id='p' tipo='numérico' espacio='E0' nombre='Peso' valor='10' incr='1' min='10' max='20' fijo='sí' visible='sí' pos_mensajes='centro'">
+   <param name="A_01" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='pi=3.1416'">
+   <param name="A_02" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' hacer='x=l*3;y=(n<360)?-4+n/120:-1;M=Fuerza*l;mp=p*0.25;inter=((M-mp)>0)?M-mp:0;;;;'">
+   <param name="G_01" value="espacio='E1' tipo='texto' color='cfffd8' dibujar-si='d=1' expresión='[20,20,550,250]' texto='Inicialmente no podemos subir el peso porque hace falta más momento de fuerza.  ¿Recuerdas el valor de esta magnitud?\nAumenta la longitud de la manivela, justo  hasta que el movimiento sea posible. Pulsa el botón Ya y observa el trabajo que se produce. Vuelve a inicio y realiza la misma experiencia, aumentando sólo la fuerza. \n\n¿Qué observas respecto al trabajo producido de cada una de estas dos maneras?   ' fuente='SansSerif,PLAIN,19' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_02" value="espacio='E1' tipo='texto' color='cfffd8' dibujar-si='d=2' expresión='[20,20,550,250]' texto='El brazo del peso mide 0,25 m. de radio. Utilizando diferentes valores de peso, busca experimentalmente la menor longitud y fuerza posible para levantar el peso. \n\nCalcula el momento de la fuerza respecto al eje y el momento del peso respecto al eje. ¿Qué observas?\n\n¿Por qué es útil esta máquina?  ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_03" value="espacio='E1' tipo='texto' color='cfffd8' dibujar-si='d=3' expresión='[20,20,550,250]' texto='Para diferentes valores del peso, anota el trabajo que se produce con diversas combinaciones de longitud y fuerza aplicada. Confecciona una tabla con los valores en tu cuaderno, apuntando también el trabajo que seproduce en cada caso. Para cada valor del peso :\n\n¿qué observas respecto al trabajo realizado?\n ¿Ahorra esta máquina energía respecto a la que \n   gastaríamos sin su ayuda? ' fuente='SansSerif,PLAIN,20' fijo='sí' ancho='550' color_borde_texto='negro'">
+   <param name="G_04" value="espacio='E3' tipo='imagen' dibujar-si='(M-mp)<=0' expresión='(-1,-1.6,-.75,.75)' archivo='../images/muchacho6.png'">
+   <param name="G_05" value="espacio='E3' tipo='imagen' dibujar-si='(M-mp)>00' expresión='(-1,-1.6,-.75,.75)' archivo='../images/muchacho5.png'">
+   <param name="S_01" value="espacio='E0' tipo='cilindro' color='negro' expresión='Cilindro' rotini='(90,0,-45)' posini='(-1,0.5,0)' modelo='luz' ancho='0.5' largo='0.5'">
+   <param name="S_02" value="espacio='E0' tipo='cilindro' color='grisClaro' color_reverso='grisClaro' expresión='Cilindro' rotini='(0,rota,-45)' posini='(0,1.4,0)' ancho='0.25' largo='0.25' alto='x'">
+   <param name="S_03" value="espacio='E0' tipo='paralelepípedo' color='grisClaro' color_reverso='grisClaro' expresión='Paralelepípedo' rotini='(0,rota,-45)' posini='(x*0.36*sen(pi*rota/180),1.8-x*0.35*sen(pi*rota/180),0.95*x/2*cos(pi*rota/180))' ancho='0.2' largo='0.9' alto='0.1'">
+   <param name="S_04" value="espacio='E0' tipo='paralelepípedo' color='grisClaro' color_reverso='grisClaro' expresión='Paralelepípedo' rotini='(0,rota,-45)' posini='(-x*0.36*sen(pi*rota/180),1.7+x*0.35*sen(pi*rota/180),-x/2*cos(pi*rota/180))' ancho='0.2' largo='0.9' alto='0.1'">
+   <param name="S_05" value="espacio='E0' tipo='segmento' color='negro' expresión='(0,0.5,0.5)(0,0.5,y)'">
+   <param name="S_06" value="espacio='E0' tipo='cubo' color='grisClaro' color_reverso='grisObscuro' expresión='Cubo' posini='(0,0.5,y)' modelo='metal' ancho='(p/10)^0.5'">
+   <param name="S_07" value="espacio='E0' tipo='paralelepípedo' color='d48d4f' color_reverso='a86721' expresión='Paralelepípedo' rotini='(0,0,-45)' posini='(-2,-0.75,-2.5)' modelo='metal' ancho='1' largo='1' alto='6'">
+   <param name="S_08" value="espacio='E0' tipo='texto' color='negro' dibujar-si='(M-mp)<=0' expresión='[5,30]' texto='Poco momento de fuerza' fuente='SansSerif,BOLD,24' fijo='sí'">
+   <param name="S_09" value="espacio='E0' tipo='texto' color='negro' dibujar-si='n>0' expresión='[5,30]' texto='Trabajo realizado: [p*(4+y)]J' fuente='SansSerif,BOLD,24' fijo='sí'">
+   <param name="S_10" value="espacio='E0' tipo='texto' color='negro' dibujar-si='n>0' expresión='[5,60]' texto='Altura alcanzada: [4+y]m' fuente='SansSerif,BOLD,24' fijo='sí'">
+   <param name="Animación" value="controles='no' auto='no' inicio='n=0' hacer='n=n++inter;rota=n;n=(n>360)?360:n' mientras='n<=360'">
+</ajs>
+</body>
+</html>

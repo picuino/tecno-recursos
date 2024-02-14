@@ -1,0 +1,57 @@
+HTML>
+<HEAD>
+<TITLE>Practica1 Celso Fernandez</TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="Jeringuilla" width=400 height=600
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="Jeringuilla">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='s&iacute;' escala='25' O.y='-60' despl_imagen='centrada' fondo='blanco' red='grisClaro' red10='gris' ejes='gris' texto='grisObscuro' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='ab' tipo='num&eacute;rico' valor='0.5*ap' fijo='s&iacute;' nombre='ab(cm)' incr='0.05' min='0.5*ap' max='0.75*ap' visible='s&iacute;' activo-si='t=0 ' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Ancho boquilla jeringuilla' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Ancho boquilla jeringuilla' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='ap' tipo='num&eacute;rico' valor='1' fijo='s&iacute;' nombre='ap(cm)' incr='0.05' min='0.5' max='2' visible='s&iacute;' activo-si='t=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Ancho camisa jeringuilla' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Ancho camisa jeringuilla' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='vp' tipo='num&eacute;rico' valor='0.5' fijo='s&iacute;' nombre='vp(cm/s)' incr='0.05' min='0.25' max='1' visible='s&iacute;' activo-si='t=0' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip='Velocidad piston (cm/s)' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Velocidade piston (cm/s)' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='y1' expresi&oacute;n='(t=0)?cp+cb:cp+cb-t'">
+   <param name="A_01" value="id='y2' expresi&oacute;n='(t=0)?2.2*cp +0.2*cb:2.2*cp+0.2*cb-t'">
+   <param name="A_02" value="id='y3' expresi&oacute;n='(t=0)?cb:cb-t'">
+   <param name="A_03" value="id='y4' expresi&oacute;n='(t=0)?cb:-t1'">
+   <param name="A_04" value="id='pi' constante='s&iacute;' expresi&oacute;n='3.1415' evaluar='una-sola-vez'">
+   <param name="A_05" value="id='sp' constante='s&iacute;' expresi&oacute;n='pi*(sqr(ap/2))' evaluar='siempre'">
+   <param name="A_06" value="id='sb' constante='s&iacute;' expresi&oacute;n='pi*sqr(ab/2)' evaluar='siempre'">
+   <param name="A_07" value="id='vb' expresi&oacute;n='vp*(sp/sb)'">
+   <param name="A_08" value="id='cp' constante='s&iacute;' expresi&oacute;n='2' evaluar='una-sola-vez'">
+   <param name="A_09" value="id='cb' constante='s&iacute;' expresi&oacute;n='0.25' evaluar='una-sola-vez'">
+   <param name="G_00" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(0,0)(ab/2,0)(ab/2,cb)(ap/2,cb)(ap/2,(cb+cp))(1.5*ap/2,(cb+cp))(1.5*ap/2,1.1*(cb+cp))(-1.5*ap/2,1.1*(cb+cp))' ancho='2'">
+   <param name="G_01" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(0,0)(-ab/2,0)(-ab/2,cb)(-ap/2,cb)(-ap/2,(cb+cp))(-1.5*ap/2,(cb+cp))(-1.5*ap/2,1.1*(cb+cp))(-1.5*ap/2,1.1*(cb+cp))' ancho='2'">
+   <param name="G_02" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(ap/2,0.9*y1)(-ap/2,0.9*y1)(-ap/2,y1)(-ap/5,y1)(-ap/5,y2)(-1.5*ap/2,y2)(-1.5*ap/2,21/20*y2)(1.5*ap/2,21/20*y2)(1.5*ap/2,y2)(ap/5,y2)(ap/5,y1)(ap/2,y1)(ap/2,0.9*y1)' relleno='verde'">
+   <param name="G_03" value="tipo='pol&iacute;gono' color='grisObscuro' expresi&oacute;n='(-ap/2.1,y1*0.9)(ap/2.1,y1*0.9)(ap/2.1,cb)(-ap/2.1,cb)' relleno='azul'">
+   <param name="G_04" value="tipo='pol&iacute;gono' color='grisObscuro' expresi&oacute;n='(-ab/2.2,cb)(ab/2.2,cb)(ab/2.2,y4)(-ab/2.2,y4)' relleno='rojo'">
+   <param name="G_05" value="tipo='segmento' color='negro' expresi&oacute;n='(2,7)(5,7)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='3'">
+   <param name="G_06" value="tipo='flecha' expresi&oacute;n='(5,7)(5,7-vb)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Courier New;}\f1\fs36\b  vb\f2\fs24\b0\par \par}' fuente='Times New Roman,BOLD,18' fijo='s&iacute;' ancho='2' ancho='2' punta='4' flecha='amarillo'">
+   <param name="G_07" value="tipo='flecha' expresi&oacute;n='(2,7)(2,7-vp)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Courier New;}\f1\fs36\b  vp\f2\fs24\b0\par  \par}' fuente='Times New Roman,BOLD,18' fijo='s&iacute;' ancho='2' ancho='2' punta='5'">
+   <param name="G_08" value="tipo='arco' centro='(-6,5)' radio='ap/2' fin='360' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;}\f1\fs24    Secci\u243 n \u233 mbolo \par  \par}' fijo='s&iacute;' relleno='amarillo'">
+   <param name="G_09" value="tipo='arco' centro='(-6,2)' radio='ab/2' fin='360' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;}\f1\fs24   Secci\u243 n boquilla\par  \par}' fijo='s&iacute;' relleno='turquesa'">
+   <param name="Animaci&oacute;n" value="pausa='30' controles='no' auto='no' inicio='t=0;t1=0;p=vb/vp;tm=cp/vp' hacer='ut=tm/120;t=t+ut;t1=t*p' mientras='t&lt;0.95*cp'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

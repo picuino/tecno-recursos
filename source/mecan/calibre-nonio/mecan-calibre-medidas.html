@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>mecan-calibre-medidas</title>
+  <style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  table, tr {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    width: 100%;
+    margin: 0;
+  }
+  td, th {
+    border: 0.6mm solid #000;
+    padding: 1mm;
+  }
+  img {
+    margin: 0 auto;
+    max-width: 98%;
+    max-height: 100%;
+    display: block;
+  }
+  .num {
+    font-size: 5mm;
+    position: relative;
+    text-align: right;
+    height: 0;
+  }
+  p {
+    font-size: 5mm;
+    text-align: center;
+    margin: 1mm 0;
+    padding: 0;
+  }
+  .footer {
+    font-size: 3mm;
+    text-align: center;
+  }
+
+  @media print {
+    .container {
+      max-width: 200mm;
+    }
+    img, table {
+	   page-break-inside: avoid;
+    }
+    @page{
+      margin: 5mm 5mm 5mm 5mm;
+    }
+    .pagebreak { page-break-before: always; }
+  }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+  <p>Medidas con calibre</p>
+  <table> <tbody>
+  <tr>
+    <td><div class="num">01</div><img id="01" src=""></td>
+    <td><div class="num">02</div><img id="02" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">03</div><img id="03" src=""></td>
+    <td><div class="num">04</div><img id="04" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">05</div><img id="05" src=""></td>
+    <td><div class="num">06</div><img id="06" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">07</div><img id="07" src=""></td>
+    <td><div class="num">08</div><img id="08" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">09</div><img id="09" src=""></td>
+    <td><div class="num">10</div><img id="10" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">11</div><img id="11" src=""></td>
+    <td><div class="num">12</div><img id="12" src=""></td>
+  </tr>
+  </tbody> </table>
+  <p class="footer">CC BY-SA 4.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www.picuino.com</p>
+
+  <div class="pagebreak"></div>
+
+  <p>Medidas con calibre</p>
+  <table> <tbody>
+  <tr>
+    <td><div class="num">13</div><img id="13" src=""></td>
+    <td><div class="num">14</div><img id="14" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">15</div><img id="15" src=""></td>
+    <td><div class="num">16</div><img id="16" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">17</div><img id="17" src=""></td>
+    <td><div class="num">18</div><img id="18" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">19</div><img id="19" src=""></td>
+    <td><div class="num">20</div><img id="20" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">21</div><img id="21" src=""></td>
+    <td><div class="num">22</div><img id="22" src=""></td>
+  </tr>
+  <tr>
+    <td><div class="num">23</div><img id="23" src=""></td>
+    <td><div class="num">24</div><img id="24" src=""></td>
+  </tr>
+  </tbody> </table>
+  <p class="footer">CC BY-SA 4.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www.picuino.com</p>
+
+  </div>
+  <script>
+  const images = [
+     070, 034,
+     261, 049,
+     206, 092,
+     182, 129,
+     098, 007,
+     198, 055,
+     203, 097,
+     197, 160,
+     211, 225,
+     013, 171,
+     178, 237,
+     285, 069, ];
+  function insert_images() {
+     for(var i=0; i<24; i++) {
+        var id = "00" + (i+1);
+        var image_number = "0000" + images[i];
+        var image_name = "mecan-calibre-" + image_number.slice(-4) + "n.png";
+        document.getElementById(id.slice(-2)).src = image_name;
+     }
+  }
+  
+  insert_images();
+  </script>
+</body>
+
+</html>

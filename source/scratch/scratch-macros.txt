@@ -1,0 +1,146 @@
+﻿{#
+:Date: 10/12/2018
+:Author: Carlos Félix Pardo Martín
+:License: Creative Commons Attribution-ShareAlike 4.0 International
+#}
+
+{#- **********  SCRATCH 2.0 MACROS  ********** #}
+
+
+{%- macro fondo(objeto, section='', image='') -%}
+   Pulsamos el botón de Fondo nuevo.
+
+   |cambia-escenario|
+
+   {%- if section %}
+
+   A continuación pulsamos en **{{ section }}**.
+   {%- endif %}
+
+   Luego seleccionamos el fondo **{{ objeto }}**.
+
+   {%- if image %}
+
+   La pantalla quedará de la siguiente manera.
+
+   .. image:: scratch/_images/{{ image }}
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro objeto(objeto, section='', image='') -%}
+   Pulsamos el botón de nuevo objeto |nuevo-objeto|
+
+   {%- if section %}
+
+   A continuación pulsamos en **{{ section }}**.
+   {%- endif %}
+
+   Luego seleccionamos el objeto **{{ objeto }}**.
+
+   {%- if image %}
+
+   .. image:: scratch/_images/{{ image }}
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro probar_programa() -%}
+   Pulsamos la bandera verde |bandera-verde|
+   para probar el funcionamiento del programa.
+{%- endmacro %}
+
+
+{%- macro datos(nombre, image='', ok=True) -%}
+   Dentro de la pestaña Datos |datos|,
+
+   pulsamos crear una variable  |crear-variable|
+
+   Cambiamos el nombre de la variable a **{{ nombre }}**
+
+   {%- if image %}
+
+   .. image:: scratch/_images/{{ image }}
+   {%- endif %}
+
+   {%- if image and ok == True %}
+
+   Por último pulsamos el botón **OK**
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro function(nombre, image='', ok=True) -%}
+   Primero pulsamos en el botón más bloques
+
+   |mas-bloques|
+
+   A continuación pulsamos en crear un bloque |crear-bloque|
+
+   Luego cambiamos el nombre del nuevo bloque a **{{ nombre }}**
+
+   {%- if image %}
+
+   .. image:: scratch/_images/{{ image }}
+   {%- endif %}
+
+   {%- if image and ok == True %}
+
+   Por último pulsamos el botón **OK**
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro entrada_numerica(nombre, image='', ok=True) -%}
+   Dentro de opciones, añadimos una entrada numérica
+
+   |entrada-numerica|
+
+   A la nueva entrada la llamaremos **{{ nombre }}**
+
+   {%- if image %}
+
+   .. image:: scratch/_images/{{ image }}
+   {%- endif %}
+
+   {%- if image and ok == True %}
+
+   Por último pulsamos el botón **OK**
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro mensaje(nombre, image='', ok=True) -%}
+   Pulsamos el botón de Eventos.
+
+   |eventos|
+
+   y movemos a programas el bloque "al recibir mensaje1".
+
+   Pinchando en la flecha, seleccionamos **nuevo mensaje...**
+
+   |nuevo-mensaje|
+
+   Nombramos el nuevo mensaje como **{{ nombre }}**.
+
+   {%- if image %}
+
+
+   .. image:: scratch/_images/{{ image }}
+   {%- endif %}
+
+   {%- if ok == True %}
+
+   Por último pulsamos el botón **OK**
+   {%- endif %}
+{%- endmacro %}
+
+
+{%- macro resize(image) -%}
+   {% set width = g_images[image].width -%}
+
+   .. image:: scratch/_images/{{image}}
+      :width: {{ (width * 0.75) | round | int }}px
+
+{%- endmacro %}
+

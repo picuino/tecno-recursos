@@ -1,0 +1,63 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+SOURCES=_sources
+
+LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 6
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z a
+
+
+# --------------------------------------------------------------------
+# electric-cableado
+#
+
+$(IMGDIR)/electric-cableado-1.png: electric-cableado.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-1.png
+	mv $(basename $<)-000002.png  $(IMGDIR)/$(basename $<)-2.png
+	mv $(basename $<)-000003.png  $(IMGDIR)/$(basename $<)-3.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-2.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-3.png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-1.png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-2.png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-3.png
+
+electric-cableado.zip: $(LIBS) $(wildcard electric-cableado/*)
+	rm -f $@ electric-cableado/*.*bak
+	$(ZIP) $@ $^
+
+
+.PHONY: all-cableado  clean-cableado
+all-cableado: \
+	electric-cableado.zip \
+	$(IMGDIR)/electric-cableado-1.png \
+
+clean-cableado:
+	rm -f electric-cableado.zip
+	rm -f $(IMGDIR)/electric-cableado-1.png
+	rm -f $(IMGDIR)/electric-cableado-2.png
+	rm -f $(IMGDIR)/electric-cableado-3.png
+
+
+# --------------------------------------------------------------------
+# make all
+#
+.PHONY: all clean
+all: \
+	all-cableado \
+
+
+clean: \
+	clean-cableado \

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="222 222 222" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="number" id="873">
+<Location>
+<X>337</X>
+<Y>126</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="727" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pc_keyPressed" id="730">
+<Location>
+<X>337</X>
+<Y>150</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="727" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="731" connector-kind="socket" connector-type="number" init-type="number" label="Botón" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="731">
+<Location>
+<X>537</X>
+<Y>150</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="730" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pc_ledWrite" id="727">
+<Location>
+<X>193</X>
+<Y>123</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="873" connector-kind="socket" connector-type="number" init-type="number" label="Led" position-type="single"/>
+<BlockConnector con-block-id="730" connector-kind="socket" connector-type="boolean" init-type="boolean" label="Estado" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="program" id="141">
+<Location>
+<X>19</X>
+<Y>80</Y>
+</Location>
+<Comment>
+<Text>Enciende el led 1 (rojo)
+Al presionar el pulsador 1</Text>
+<Location>
+<X>18</X>
+<Y>17</Y>
+</Location>
+<BoxSize>
+<Width>253</Width>
+<Height>59</Height>
+</BoxSize>
+</Comment>
+<Sockets num-sockets="2">
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="Configuración" position-type="single"/>
+<BlockConnector con-block-id="727" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Bucle" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

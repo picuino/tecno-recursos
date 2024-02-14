@@ -1,0 +1,299 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-02-07 18:33+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../es/freecad-union.rst:11
+msgid "Unión de piezas"
+msgstr "Union of pieces"
+
+
+#: ../../es/freecad-union.rst:13
+msgid ""
+"En este tutorial vamos a aprender a unir piezas para formar un solo objeto "
+"compuesto por otros más pequeños"
+msgstr ""
+"In this tutorial we are going to learn to join pieces to form a single "
+"object made up of other smaller ones."
+
+
+#: ../../es/freecad-union.rst:17 ../../es/freecad-union.rst:26
+
+
+#: ../../es/freecad-union.rst:37 ../../es/freecad-union.rst:52
+
+
+#: ../../es/freecad-union.rst:69 ../../es/freecad-union.rst:90
+
+
+#: ../../es/freecad-union.rst:103 ../../es/freecad-union.rst:125
+
+
+#: ../../es/freecad-union.rst:132 ../../es/freecad-union.rst:153
+
+
+#: ../../es/freecad-union.rst:162 ../../es/freecad-union.rst:171
+
+
+#: ../../es/freecad-union.rst:180 ../../es/freecad-union.rst:189
+
+
+#: ../../es/freecad-union.rst:198
+msgid "|br|"
+msgstr "|br|"
+
+
+#: ../../es/freecad-union.rst:19
+msgid ""
+"Abrimos la aplicación **FreeCAD** y hacemos clic en el icono para crear un "
+"**nuevo documento** |icono-nuevo-documento|."
+msgstr ""
+"Open the **FreeCAD** application and click on the icon to create a **new "
+"document** |icono-nuevo-documento|."
+
+
+#: ../../es/freecad-union.rst:23
+msgid ""
+"Seleccionamos el **banco de trabajo Part** para comenzar a diseñar objetos "
+"en 3 dimensiones."
+msgstr ""
+"We select the **Part workbench** to start designing objects in 3 dimensions."
+
+
+#: ../../es/freecad-union.rst:28
+msgid ""
+"En este punto vamos a añadir los **ejes de referencia** para que nos ayuden "
+"a situar las piezas correctamente."
+msgstr ""
+"At this point we are going to add the **reference axes** to help us place "
+"the pieces correctly."
+
+
+#: ../../es/freecad-union.rst:31
+msgid "En el menú ``Ver... Activar o desactivar cruz de los ejes.``"
+msgstr "In the menu ``View... Activate or deactivate the cross of the axes.``"
+
+
+#: ../../es/freecad-union.rst:33
+msgid "En inglés ``View... Toggle axis cross``"
+msgstr "In English ``View... Toggle axis cross``"
+
+
+#: ../../es/freecad-union.rst:39
+msgid ""
+"Ahora **creamos dos cubos** clicando el primer icono de la barra de objetos "
+"sólidos."
+msgstr ""
+"Now we **create two cubes** by clicking the first icon on the solid object "
+"bar."
+
+
+#: ../../es/freecad-union.rst:44
+msgid "Seleccionamos ver la pieza en vista isométrica."
+msgstr "We select to see the piece in isometric view."
+
+
+#: ../../es/freecad-union.rst:48
+msgid "La pieza se verá como en la siguiente imagen."
+msgstr "The piece will look like the following image."
+
+
+#: ../../es/freecad-union.rst:54
+msgid ""
+"Seleccionamos el cubo y en la pestaña de **Datos** abrimos el menú **Box** "
+"donde veremos la **Longitud, Anchura y Altura** del cubo (Lenght, Width, "
+"Height)."
+msgstr ""
+"We select the cube and in the **Data** tab we open the **Box** menu where we"
+" will see the **Length, Width and Height** of the cube (Length, Width, "
+"Height)."
+
+
+#: ../../es/freecad-union.rst:58
+msgid ""
+"Modificamos el tamaño de los dos cubos para conseguir la pieza que puede "
+"verse en la siguiente figura."
+msgstr ""
+"We modify the size of the two cubes to get the piece that can be seen in the"
+" following figure."
+
+
+#: ../../es/freecad-union.rst:63 ../../es/freecad-union.rst:145
+msgid "Las posiciones y tamaños serán los siguientes."
+msgstr "The positions and sizes will be as follows."
+
+
+#: ../../es/freecad-union.rst:65
+msgid "**Cubo**: x=0, y=0, z=0, Lenght=10, Width=15, Height=15"
+msgstr "**Cube**: x=0, y=0, z=0, Length=10, Width=15, Height=15"
+
+
+#: ../../es/freecad-union.rst:67 ../../es/freecad-union.rst:149
+msgid "**Cubo001**: x=10, y=0, z=0, Lenght=10, Width=10, Height=10"
+msgstr "**Cube 001**: x=10, y=0, z=0, Length=10, Width=10, Height=10"
+
+
+#: ../../es/freecad-union.rst:71
+msgid "Ahora vamos a unir las dos piezas creadas."
+msgstr "Now we are going to join the two pieces created."
+
+
+#: ../../es/freecad-union.rst:73
+msgid ""
+"Primero seleccionamos los dos cubos clicando sobre ellos mientras "
+"presionamos la letra **Control**"
+msgstr ""
+"First we select the two cubes by clicking on them while pressing the letter "
+"**Control**"
+
+
+#: ../../es/freecad-union.rst:78
+msgid ""
+"A continuación clicamos el icono **Hacer unión de varias formas** de la "
+"barra de herramientas Booleano."
+msgstr ""
+"Next we click the **Make union of several forms** icon from the Boolean "
+"toolbar."
+
+
+#: ../../es/freecad-union.rst:83
+msgid "O bien seleccionamos en el menú ``Pieza... Booleano... Unión``."
+msgstr "Or we select from the menu ``Piece... Boolean... Union``."
+
+
+#: ../../es/freecad-union.rst:85
+msgid ""
+"Se creará una nueva **Fusión** compuesta por las dos piezas anteriores."
+msgstr "A new **Fusion** composed of the two previous pieces will be created."
+
+
+#: ../../es/freecad-union.rst:92
+msgid ""
+"El objeto **Fusión** se comportará como un objeto único, de manera que si "
+"cambiamos su posición, todas sus piezas cambian de posición unidas entre sí."
+msgstr ""
+"The **Fusion** object will behave as a single object, so that if we change "
+"its position, all its pieces change position together."
+
+
+#: ../../es/freecad-union.rst:96
+msgid ""
+"Prueba a cambiar la posición del objeto **Fusión** para ver como se mueve."
+msgstr ""
+"Try changing the position of the **Fusion** object to see how it moves."
+
+
+#: ../../es/freecad-union.rst:99
+msgid "Por ejemplo, cambiando la posición  x = 5, y = 5, z = 0"
+msgstr "For example, changing the position x = 5, y = 5, z = 0"
+
+
+#: ../../es/freecad-union.rst:105
+msgid ""
+"Ahora vamos a simplificar las caras del objeto para que parezca una sola "
+"pieza y no varias piezas unidas."
+msgstr ""
+"Now we are going to simplify the faces of the object so that it looks like a"
+" single piece and not several pieces joined together."
+
+
+#: ../../es/freecad-union.rst:108
+msgid ""
+"Para conseguirlo, **seleccionamos el objeto Fusión** En la pestaña Datos, "
+"dentro de Boolean, el valor **Refine** lo cambiamos a **true**"
+msgstr ""
+"To achieve this, we **select the Fusion object** In the Data tab, within "
+"Boolean, we change the **Refine** value to **true**"
+
+
+#: ../../es/freecad-union.rst:114
+msgid ""
+"Con esta opción cambiada, ahora las distintas piezas se habrán unido en un "
+"solo sólido."
+msgstr ""
+"With this option changed, the different parts will now have been joined into"
+" a single solid."
+
+
+#: ../../es/freecad-union.rst:121
+msgid ""
+"Otra forma de conseguir simplificar las caras del objeto es seleccionar "
+"todas las piezas y utilizar el menú ``Pieza... Refinar la forma``"
+msgstr ""
+"Another way to get the object faces simplified is to select all the pieces "
+"and use the ``Part... Refine Shape`` menu."
+
+
+#: ../../es/freecad-union.rst:127
+msgid ""
+"Si ahora seleccionamos **Fusión** y la borramos (tecla Supr o menú "
+"``Editar... Borrar``) desaparecerá la unión de las dos piezas, pero las "
+"piezas seguirán existiendo como elementos separados."
+msgstr ""
+"If we now select **Fusion** and delete it (Delete key or ``Edit...Delete`` "
+"menu) the union of the two pieces will disappear, but the pieces will "
+"continue to exist as separate elements."
+
+
+#: ../../es/freecad-union.rst:138
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../es/freecad-union.rst:140 ../../es/freecad-union.rst:155
+
+
+#: ../../es/freecad-union.rst:164 ../../es/freecad-union.rst:173
+
+
+#: ../../es/freecad-union.rst:182 ../../es/freecad-union.rst:191
+msgid ""
+"Crea la siguiente figura cambiando el tamaño y posición de varios cubos."
+msgstr ""
+"Create the following figure by changing the size and position of several "
+"cubes."
+
+
+#: ../../es/freecad-union.rst:147
+msgid "**Cubo**: x=0, y=0, z=0, Lenght=10, Width=20, Height=20"
+msgstr "**Cube**: x=0, y=0, z=0, Length=10, Width=20, Height=20"
+
+
+#: ../../es/freecad-union.rst:151
+msgid "Por último combina los diferentes cubos para formar una sola pieza."
+msgstr "Finally, combine the different cubes to form a single piece."
+
+
+#: ../../es/freecad-union.rst:160 ../../es/freecad-union.rst:169
+
+
+#: ../../es/freecad-union.rst:178 ../../es/freecad-union.rst:187
+
+
+#: ../../es/freecad-union.rst:196
+msgid "Combina los diferentes cubos para formar una sola pieza."
+msgstr "Combine the different cubes to form a single piece."
+
+
+#: ../../es/freecad-union.rst:204
+msgid "Videotutorial"
+msgstr "Video-tutorial"
+
+
+#: ../../es/freecad-union.rst:206
+msgid ""
+"`La union hace la fuerza. <https://www.youtube.com/embed/mntnhxidqoA>`__"
+msgstr "`Union is strength. <https://www.youtube.com/embed/mntnhxidqoA>`__"

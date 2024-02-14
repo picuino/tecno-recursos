@@ -1,0 +1,270 @@
+﻿:Date: 30/08/2019
+:Author: Carlos Félix Pardo Martín
+:License: Creative Commons Attribution-ShareAlike 4.0 International
+
+{#- **********  SCRATCH MACROS  ********** -#}
+
+{% macro editor_online() %}
+.. `Editor online de código HTML <https://html5-editor.net/>`__
+{% endmacro -%}
+
+
+
+{%- macro tag(name) -%}
+
+{%- if name=='html' -%}
+``<html> </html>``
+   Etiqueta inicial y final de todos los documentos de tipo HTML.
+
+{%- elif name=='head' -%}
+``<head> </head>``
+   Sección de cabecera del documento.
+   En esta sección se define el título de la página, los estilos, etc.
+
+{%- elif name=='title' -%}
+``<title> </title>``
+   Título de la página HTML. Debe aparecer en la sección <head>.
+
+{%- elif name=='body' -%}
+``<body> </body>``
+   Cuerpo del documento. En esta sección estarán todos los contenidos
+   que aparecen en la página web. Textos, imágenes, listas, tablas,
+   etc.
+
+{%- elif name=='p' -%}
+``<p> </p>``
+   Etiqueta de párrafo. Engloba un párrafo de texto con varias
+   frases consecutivas. Terminan en un punto y aparte.
+
+{%- elif name=='comment' -%}
+``<!-- comentario -->``
+   Etiqueta para incluir un comentario dentro del código HTML.
+   Los comentarios sirven para explicar el código HTML pero
+   no se visualizarán en la página web.
+
+{%- elif name=='h1' -%}
+``<h1> </h1>``
+   Encabezado de primer nivel. Equivale a un título de capítulo.
+
+{%- elif name=='h2' -%}
+``<h2> </h2>``
+   Encabezado de segundo nivel. Equivale a un título de sección.
+
+{%- elif name=='h3' -%}
+``<h3> </h3>``
+   Encabezado de tercer nivel. Equivale a un título de subsección.
+
+{%- elif name=='h4' -%}
+``<h4> </h4>``
+   Encabezado de cuarto nivel.
+
+{%- elif name=='pre' -%}
+``<pre> </pre>``
+   Etiqueta de texto preformateado.
+   Se preservan todos los espacios y saltos de línea.
+   La fuente utilizada es de ancho fijo (monospaced).
+
+{%- elif name=='br' -%}
+``<br>``
+   Salto de línea. Lo que esté escrito a continuación aparecerá
+   en la siguiente línea en el navegador.
+
+{%- elif name=='hr' -%}
+``<hr>``
+   Línea horizontal de separación.
+
+{%- elif name=='em' -%}
+``<em> </em>``
+   Texto destacado con énfasis.
+   El tipo de letra será *itálica*.
+
+{%- elif name=='strong' -%}
+``<strong> </strong>``
+   Texto importante con énfasis fuerte.
+   El tipo de letra será **negrita**.
+
+{%- elif name=='code' -%}
+``<code> </code>``
+   Etiqueta para incluir código para ordenador.
+   El tipo de letra será de ancho fijo.
+
+{%- elif name=='cite' -%}
+``<cite> </cite>``
+   El texto interior es una cita de otra fuente o de otro autor.
+
+{%- elif name=='blockquote' -%}
+``<blockquote cite="http://"> </blockquote>``
+   Etiqueta que incluye una sección de texto que se ha
+   copiado de otra página.
+   La etiqueta blockquote contiene un atributo cite que
+   describe la dirección de donde se ha tomado el texto.
+   Normalmente esta sección aparece desplazada hacia la derecha.
+
+{%- elif name=='a' -%}
+``<a href="salto"> Texto </a>``
+   Hipervínculo. En el navegador aparecerá el texto que se encuentra
+   entre las etiquetas. Al pinchar sobre el texto, saltará a la
+   referencia que contiene href.
+
+{%- elif name=='id' -%}
+``id="nombre"``
+   Este atributo aparece dentro de una etiqueta para darle nombre.
+   el nombre tiene que ser único y no repetirse, para distinguir
+   las etiquetas entre sí.
+
+{%- elif name=='img' -%}
+``<img src="imagen">``
+   Vínculo a una imagen que se insertará en el documento.
+
+{%- elif name=='ol' -%}
+``<ol> </ol>``
+   Etiqueta de lista numerada.
+
+{%- elif name=='ul' -%}
+``<ul> </ul>``
+   Etiqueta de lista no numerada.
+
+{%- elif name=='li' -%}
+``<li> </li>``
+   Etiqueta que contiene un elemento de la lista.
+
+{%- elif name=='dl' -%}
+``<dl> </dl>``
+   Etiqueta de definición de palabras.
+
+{%- elif name=='dt' -%}
+``<dt> </dt>``
+   Palabra a definir.
+
+{%- elif name=='dd' -%}
+``<dd> </dd>``
+   Definición de una palabra.
+
+{%- elif name=='table' -%}
+``<table> </table>``
+   Etiqueta de tabla.
+
+{%- elif name=='tr' -%}
+``<tr> </tr>``
+   Etiqueta una fila dentro de una tabla.
+
+{%- elif name=='td' -%}
+``<td> </td>``
+   Etiqueta un elemento de una tabla. Debe estar dentro de una fila.
+
+{%- elif name=='thead' -%}
+``<thead> </thead>``
+   Etiqueta la cabecera de una tabla.
+   Está en la primera fila de una tabla.
+
+{%- elif name=='th' -%}
+``<th> </th>``
+   Etiqueta cada uno de los elementos de una cabecera de tabla.
+
+{%- elif name=='th' -%}
+``<th> </th>``
+   Etiqueta cada uno de los elementos de una cabecera de tabla.
+
+{%- elif name=='tbody' -%}
+``<tbody> </tbody>``
+   Cuerpo de una tabla, donde se encuentran los contenidos de la
+   tabla. Permite separar la cabecera de los contenidos.
+
+{%- elif name=='html_template' -%}
+Plantilla de documento HTML.
+
+.. code-block:: html
+
+   <html>
+
+   <!-- Cabecera -->
+   <head>
+      <title> </title>
+   </head>
+
+   <!-- Cuerpo -->
+   <body>
+
+   </body>
+
+   </html>
+
+{%- elif name=='table_head_template' -%}
+Plantilla de tabla de datos con cabecera.
+
+.. code-block:: html
+
+   <table border="1">
+      <thead>
+         <tr>
+            <th>Columna 1</th>  <th>Columna 2</th>
+         </tr>
+      </thead>
+
+      <tbody>
+         <tr>
+            <td>Uno</td>  <td> 1 </td>
+         </tr>
+         <tr>
+            <td>Dos</td>  <td> 2 </td>
+         </tr>
+      </tbody>
+   </table>
+
+
+
+{%- elif name=='table_template' -%}
+Plantilla de tabla de datos sin cabecera.
+
+.. code-block:: html
+
+   <table border="1">
+      <tbody>
+         <tr>
+            <td>Uno</td>  <td> 1 </td>
+         </tr>
+         <tr>
+            <td>Dos</td>  <td> 2 </td>
+         </tr>
+      </tbody>
+   </table>
+
+{%- elif name=='rowspan' -%}
+``<td rowspan=2>``
+   Este atributo aparece dentro de un elemento de tabla <td>.
+   Permite unir la celda actual con las celdas de la derecha
+   de la misma fila, para hacer una sola celda más grande.
+
+{%- elif name=='colspan' -%}
+``<td colspan=2>``
+   Este atributo aparece dentro de un elemento de tabla <td>.
+   Permite unir la celda actual con las celdas de abajo
+   de la misma columna, para hacer una sola celda más grande.
+
+{%- elif name=='coment' -%}
+``<!-- Comentario -->``
+   Esta etiqueta es un comentario que no se verá en el navegador.
+   Sirve para comentar aclarar el contenido HTML y facilitar su
+   comprensión.
+
+{%- elif name=='object' -%}
+``<object data=""> </object>``
+   Esta etiqueta inserta en la página HTML un elemento externo
+   que puede ser un archivo de texto, un vídeo, sonidos,
+   una página web, etc.
+   El nombre y ruta del objeto se escribe dentro de el atributo data.
+
+{%- elif name=='iframe' -%}
+``<iframe src=""> </object>``
+   Esta etiqueta inserta un documento externo en la página
+   HTML actual.
+   Para insertar un vídeo de Youtube, hay que pinchar sobre el
+   vídeo con el botón derecho del ratón y seleccionar la opción
+   'Copiar código de inserción'.
+   Por último se pega ese código dentro del documento HTML.
+{%- else -%}
+
+.. ERROR. Etiqueta no reconocida: {{ name }}
+
+{%- endif %}
+{% endmacro -%}

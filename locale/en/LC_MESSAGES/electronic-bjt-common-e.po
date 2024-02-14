@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-08 19:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-bjt-common-e.rst:9
+msgid "El transistor en emisor común"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:10
+msgid ""
+"En esta configuración el transistor tiene el emisor conectado a masa. La "
+"señal de entrada llega por la base del transistor y la señal amplificada "
+"sale por el colector del transistor."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:19
+msgid "Esquema simplificado de un transistor NPN en emisor común."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:21
+msgid ""
+"Esta configuración permite amplificar tanto la tensión de entrada como la"
+" corriente de entrada. Esto es útil en etapas amplificadoras de entrada e"
+" intermedias, donde es necesario elevar tanto la tensión como la "
+"corriente de la señal de entrada."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:26
+msgid ""
+"A continuación puede verse una simulación de un transistor NPN en "
+"configuración de emisor común. El transistor amplifica una pequeña señal "
+"que entra por la base generando una señal mucho mayor que sale por el "
+"colector."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:37
+msgid "La función de cada uno de los componentes es la siguiente:"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:39
+msgid ""
+"El **generador de señal alterna** genera una pequeña señal de entrada de "
+"0.25 voltios de pico."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:42
+msgid ""
+"La **resistencia R1** tiene como función limitar la corriente de entrada "
+"a un valor pequeño, que en este caso varía entre 40 y 80 microamperios."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:45
+msgid ""
+"La **resistencia R2** añade a la base una pequeña corriente continua para"
+" que el transistor pueda funcionar. Esta corriente positiva que se suma "
+"en la base se denomina **corriente de polarización**."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:50
+msgid ""
+"Hay que tener en cuenta que el transistor solo puede amplificar "
+"corrientes positivas, por lo que es necesario sumar una pequeña corriente"
+" positiva a la corriente alterna de entrada (positiva y negativa) para "
+"que el transistor funcione correctamente."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:55
+msgid ""
+"El **transistor NPN** recibe una pequeña corriente por la base y "
+"amplifica esa corriente para que circule, multiplicada, por el colector."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:58
+msgid ""
+"La **resistencia R3** recibe la corriente de colector y la convierte en "
+"tensión de salida."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:61
+msgid ""
+"Por esta resistencia circulará unas 100 veces la corriente que circula "
+"por la base del transistor."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:66
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:68
+msgid ""
+"Dibuja un esquema simplificado de un transistor NPN trabajando en "
+"configuración de emisor común, mostrando por dónde llega la señal de "
+"entrada y por dónde sale la señal amplificada."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:72
+msgid ""
+"Dibuja un esquema realista de un transistor NPN trabajando en "
+"configuración de emisor común."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:75
+msgid ""
+"¿Cuál es la función principal de un transistor funcionando en "
+"configuración de emisor común?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:78
+msgid ""
+"Modifica la resistencia de polarización R2 para que valga 40k. Dibuja la "
+"gráfica de la tensión de salida."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:81
+msgid "¿Qué le ocurre a la tensión de salida al reducir R2?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:83
+msgid ""
+"Modifica la resistencia de polarización R2 para que valga 80k. Dibuja la "
+"gráfica de la tensión de salida."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:86
+msgid "¿Qué le ocurre a la tensión de salida al aumentar R2?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:88
+msgid ""
+"Modifica el diseño del amplificador en emisor común en el simulador para "
+"que pueda amplificar una señal de entrada senoidal de 1 voltio hasta una "
+"señal de salida de, al menos, 4 voltios."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:92
+msgid ""
+"Primero será necesario cambiar el generador de señal senoidal con el "
+"valor de un voltio."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:95
+msgid ""
+"Después se debe modificar la resistencia de salida R3 por otra menor para"
+" que la señal de salida varíe solo 4 voltios."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:98
+msgid ""
+"Finalmente se debe modificar la resistencia de polarización R2 para que "
+"la señal de salida no esté recortada."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:101
+msgid ""
+"Aprovecha las señales del osciloscopio derecho para guiarte a la hora de "
+"modificar los valores de las resistencias."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-e.rst:104
+msgid ""
+"Explica para qué sirve la resistencia R3. ¿Qué ocurre si la resistencia "
+"aumenta? ¿Qué ocurre si la resistencia disminuye?"
+msgstr ""
+

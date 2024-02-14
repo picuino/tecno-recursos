@@ -1,0 +1,130 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $< first element of dependencies list
+
+IMGDIR=_images
+SOURCES=_sources
+
+LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
+
+JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 5
+CONVERT=convert
+CONVERT_OPT=-transparent White
+MOGRIFY=mogrify
+ZIP=7z a
+
+
+# --------------------------------------------------------------------
+# electric-serie-paralelo
+#
+
+$(IMGDIR)/electric-serie-paralelo-p1.png \
+$(IMGDIR)/electric-serie-paralelo-p2.png: electric-serie-paralelo.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-p1.png
+	mv $(basename $<)-000002.png  $(IMGDIR)/$(basename $<)-p2.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p2.png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-p1.png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-p2.png
+
+electric-serie-paralelo.zip: $(LIBS) $(wildcard serie-paralelo/*)
+	rm -f $@  serie-paralelo/*.*bak
+	$(ZIP) $@ $^
+
+
+.PHONY: all-serie-paralelo  clean-serie-paralelo
+all-serie-paralelo: \
+	electric-serie-paralelo.zip \
+	$(IMGDIR)/electric-serie-paralelo-p1.png \
+	$(IMGDIR)/electric-serie-paralelo-p2.png \
+
+
+clean-serie-paralelo:
+	rm -f electric-serie-paralelo.zip
+	rm -f $(IMGDIR)/electric-serie-paralelo-p1.png
+	rm -f $(IMGDIR)/electric-serie-paralelo-p2.png
+
+
+# --------------------------------------------------------------------
+# electric-serie-paralelo-images
+#
+SP_CIRCUIT_NAMES_P1=$(foreach symbol, \
+	01 02 03 04 05 06 07 08 09 10 \
+	11 12 13 14 15 16 17 18 19 20, \
+	electric-serie-paralelo-c$(symbol).png)
+SP_CIRCUIT_DIRNAMES_P1=$(foreach symbol, \
+	$(SP_CIRCUIT_NAMES_P1),	$(IMGDIR)/$(symbol))
+SP_CIRCUIT_NAMES_P2=$(foreach symbol, \
+	21 22 23 24 25 26 27 28 29 30 \
+	31 32 33 34 35 36 37 38 39 40,\
+	electric-serie-paralelo-c$(symbol).png)
+SP_CIRCUIT_DIRNAMES_P2=$(foreach symbol, \
+	$(SP_CIRCUIT_NAMES_P2), $(IMGDIR)/$(symbol))
+SP_CIRCUIT_DIRNAMES= \
+	$(SP_CIRCUIT_DIRNAMES_P1) \
+	$(SP_CIRCUIT_DIRNAMES_P2)
+define crop_sp
+	$(eval geometry = $(shell python3 -c \
+   "import sys; \
+	n=int(sys.argv[1][-6:-4]); \
+   n=(n-1)%20; \
+   col=n%4; fil=n//4;\
+	x1,y1=(124+2,604+2); \
+   x2,y2=(1285-2+44*(col//3),1856-124); \
+	print('%dx%d+%d+%d'%((x2-x1),(y2-y1), \
+	x1+col*(1170),y1+fil*(1260)))" $(2)))
+	@echo $(2)
+	@$(CONVERT) $(1) -crop $(geometry) +repage $(CONVERT_OPT) $(2)
+	@$(OPTIPNG) $(2)
+endef
+
+$(SP_CIRCUIT_DIRNAMES_P1): $(IMGDIR)/electric-serie-paralelo-p1.png
+	$(call crop_sp, $^, $@)
+
+$(SP_CIRCUIT_DIRNAMES_P2): $(IMGDIR)/electric-serie-paralelo-p2.png
+	$(call crop_sp, $^, $@)
+
+electric-serie-paralelo-images.zip: $(SP_CIRCUIT_DIRNAMES)
+	rm -f $@
+	$(ZIP) $@ $^
+
+
+$(IMGDIR)/electric-serie-paralelo-logo.png: $(SP_CIRCUIT_DIRNAMES_P1)
+	$(CONVERT) \
+	$(IMGDIR)/electric-serie-paralelo-c01.png \
+	$(IMGDIR)/electric-serie-paralelo-c02.png \
+   $(IMGDIR)/electric-serie-paralelo-c03.png \
+   +append $(CONVERT_OPT)  $@
+	@$(OPTIPNG) $@
+
+.PHONY: all-serie-paralelo-images  clean-serie-paralelo-images
+all-serie-paralelo-images: \
+	$(SP_CIRCUIT_DIRNAMES) \
+	electric-serie-paralelo-images.zip \
+	$(IMGDIR)/electric-serie-paralelo-logo.png \
+
+
+clean-serie-paralelo-images:
+	rm -f $(SP_CIRCUIT_DIRNAMES)
+	rm -f electric-serie-paralelo-images.zip
+	rm -f $(IMGDIR)/electric-serie-paralelo-logo.png
+
+
+# --------------------------------------------------------------------
+# make all
+#
+.PHONY: all clean
+all: \
+	all-serie-paralelo \
+	all-serie-paralelo-images \
+
+
+
+clean: \
+	clean-serie-paralelo \
+	clean-serie-paralelo-images \

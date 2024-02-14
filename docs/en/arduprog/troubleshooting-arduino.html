@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Arduino - Resources - Troubleshooting with Arduino">
+  <title>Troubleshooting with Arduino - Resources - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/arduprog/troubleshooting-arduino.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="../_static/opensearch.xml">
+
+  <link rel="stylesheet" href="../_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css">
+
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="../genindex.html">
+  <link rel="index" title="Index" href="../content.html">
+  <link rel="search" title="Search" href="../search.html">
+  <link rel="next" title="Add a library to Arduino" href="add-library.html">
+  <link rel="prev" title="Resources" href="resource-index.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../content.html">Tecno Recursos</a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../content.html">Home</a>/</li>
+        
+          <li><a href="index.html">Arduino</a>/</li>
+        
+          <li><a href="resource-index.html">Resources</a>/</li>
+        
+      <li>Troubleshooting with Arduino</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arduprog/troubleshooting-arduino.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="../contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/arduprog/troubleshooting-arduino.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="solucion-de-problemas-con-arduino">
+<span id="troubleshooting-arduino"></span><h1>Troubleshooting with Arduino<a class="headerlink" href="#solucion-de-problemas-con-arduino" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="esta-conectada-la-placa-arduino">
+<h2>Is the Arduino board connected?<a class="headerlink" href="#esta-conectada-la-placa-arduino" title="Permalink to this headline">¶</a></h2>
+<p>The USB cable must be connected to the computer and the Arduino board. The computer must be on.</p>
+<p>If everything went well, the Arduino board shows a lit led called the <strong>Power ON</strong> led:</p>
+<a class="reference internal image-reference" href="../_images/img-0099.jpg"><img alt="Leds de la placa Arduino UNO." class="align-center" src="../_images/img-0099.jpg" style="width: 400px;"></a>
+</div>
+<div class="section" id="esta-instalado-el-entorno-de-arduino">
+<h2>Is the Arduino environment installed?<a class="headerlink" href="#esta-instalado-el-entorno-de-arduino" title="Permalink to this headline">¶</a></h2>
+<p>The Arduino IDE environment can be downloaded from the official project page in the 'software' tab, clicking on the appropriate operating system in the 'Download the Arduino IDE' section:</p>
+<blockquote>
+<div><a class="reference external" href="https://www.arduino.cc/en/Main/Software" rel="noopener noreferrer" target="_blank">https://www.arduino.cc/en/Main/Software</a></div></blockquote>
+<p>Once the program is downloaded, it must be installed on the computer. It is also necessary to install the drivers so that the computer recognizes the Arduino board when it is connected to a USB port.</p>
+<img alt="Icono del entorno IDE de Arduino." class="align-center" src="../_images/arduino-desktop-icon.png">
+</div>
+<div class="section" id="esta-configurada-la-placa-correcta">
+<h2>Is the correct board configured?<a class="headerlink" href="#esta-configurada-la-placa-correcta" title="Permalink to this headline">¶</a></h2>
+<p>In the menu <code class="docutils literal notranslate"><span class="pre">Tools...</span> <span class="pre">Board:</span></code> or in the old versions <code class="docutils literal notranslate"><span class="pre">Tools...</span> <span class="pre">Board...</span></code> you have to configure the same Arduino board that is connected to the computer. The most common model is <cite>Arduino Uno</cite>, but it depends on the board that is connected.</p>
+<p>Both the selected board and port can be seen in the lower right corner of the Arduino environment:</p>
+<img alt="Configuración de placa y puerto de comunicación serie." class="align-center" src="../_images/img-0037_board.png">
+</div>
+<div class="section" id="esta-configurado-el-puerto-correcto">
+<h2>Is the correct port configured?<a class="headerlink" href="#esta-configurado-el-puerto-correcto" title="Permalink to this headline">¶</a></h2>
+<p>There are several serial ports on the computer. Only one of those serial ports belongs to the Arduino board and that is the one we need to configure.</p>
+<p>The selected communication port can be seen in the lower right corner of the Arduino environment:</p>
+<img alt="Configuración de placa y puerto de comunicación serie." class="align-center" src="../_images/img-0037_port.png">
+<p>To change it you have to press the appropriate port in the menu <code class="docutils literal notranslate"><span class="pre">Tools...</span> <span class="pre">Port...</span></code></p>
+<p>To check that the port is configured correctly, the serial monitor can be opened, and the communication leds of the Arduino board should blink. Another test is to try to send a program. While loading the program, the communication LEDs should flash.</p>
+</div>
+<div class="section" id="estan-instalados-los-drivers-adecuados">
+<h2>Are the correct drivers installed?<a class="headerlink" href="#estan-instalados-los-drivers-adecuados" title="Permalink to this headline">¶</a></h2>
+<p>If the Arduino environment is already installed and the computer does not recognize the Arduino board when it is connected, the problem can be solved by installing the drivers that come with the Arduino environment software.</p>
+<p>Below are several versions of the drivers for Arduino. After downloading the file, you must unzip and run the installation software.</p>
+<blockquote>
+<div><p><a class="reference download internal" download="" href="../_downloads/arduino-1813-win-drivers.zip"><code class="xref download docutils literal notranslate"><span class="pre">Arduino</span> <span class="pre">1.8.1</span> <span class="pre">Drivers</span> <span class="pre">for</span> <span class="pre">Windows</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/arduino-106-win-drivers.zip"><code class="xref download docutils literal notranslate"><span class="pre">Arduino</span> <span class="pre">1.0.6</span> <span class="pre">Drivers</span> <span class="pre">for</span> <span class="pre">Windows</span></code></a></p>
+</div></blockquote>
+<p>If an Arduino compatible board with a <strong>CH340</strong> communications chip is used, it is necessary to install another driver other than the standard one:</p>
+<blockquote>
+<div><p><a class="reference download internal" download="" href="../_downloads/CH340-win-driver-v31.zip"><code class="xref download docutils literal notranslate"><span class="pre">CH340</span> <span class="pre">communications</span> <span class="pre">chip.</span> <span class="pre">Driver</span> <span class="pre">for</span> <span class="pre">Windows</span></code></a></p>
+<p><a class="reference external" href="http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=be9c8169-b12b-475f-81b8-3d3e69181e8c" rel="noopener noreferrer" target="_blank">Microsoft CH340 driver download page</a></p>
+</div></blockquote>
+</div>
+<div class="section" id="existe-un-cortocircuito">
+<h2>Is there a short circuit?<a class="headerlink" href="#existe-un-cortocircuito" title="Permalink to this headline">¶</a></h2>
+<p>If the Arduino board seems to be correctly connected and despite this the power LED remains off, it is possible that the cables connected to the Arduino are connected incorrectly and cause a short circuit. To check this error you must disconnect the cable connected to the '5v' terminal and the cable connected to the 'Vin' terminal.</p>
+</div>
+<div class="section" id="funcionan-las-comunicaciones-del-cable-usb">
+<h2>Does the USB cable communications work?<a class="headerlink" href="#funcionan-las-comunicaciones-del-cable-usb" title="Permalink to this headline">¶</a></h2>
+<p>Another problem that can arise with the USB cable is that the communication wires are cut while the power wires are working correctly. In this case, the led of the Arduino board will light up, but the computer will not recognize the board and the communications will not work.</p>
+<p>The easiest way to check that there are no problems with the USB cable is to connect this cable to another working device or change the cable to another one and check that everything works fine.</p>
+</div>
+<div class="section" id="comprobar-si-la-placa-arduino-esta-bien-instalada">
+<h2>Check if the Arduino board is well installed<a class="headerlink" href="#comprobar-si-la-placa-arduino-esta-bien-instalada" title="Permalink to this headline">¶</a></h2>
+<p>To ensure that the Arduino board is correctly installed and everything works correctly, the following steps will be followed:</p>
+<ol class="arabic">
+<li><p class="first">Open the Arduino IDE environment by clicking on its icon:</p>
+<img alt="Icono del entorno IDE de Arduino." src="../_images/arduino-desktop-icon.png">
+</li>
+<li><p class="first">Open an example program by clicking the <code class="docutils literal notranslate"><span class="pre">File...</span> <span class="pre">Examples...</span> <span class="pre">01.Basics...</span> <span class="pre">Blink</span></code> menu.</p>
+<p>You can also copy and paste the following program into the Arduino environment.</p>
+<div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Blink Program</span>
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span> <span class="nf">pinMode</span><span class="p">(</span><span class="kr">LED_BUILTIN</span><span class="p">,</span> <span class="kr">OUTPUT</span><span class="p">);</span> <span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="kr">LED_BUILTIN</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span> <span class="c1">// turn the LED On</span>
+  <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>                     <span class="c1">// wait for a second</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="kr">LED_BUILTIN</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>  <span class="c1">// turn the LED Off</span>
+  <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>                     <span class="c1">// wait for a second</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</li>
+<li><p class="first">Finally, click on the <code class="docutils literal notranslate"><span class="pre">Program...</span> <span class="pre">Upload</span> <span class="pre">(CTRL+U)</span></code> menu to transfer the program to the Arduino board.</p>
+</li>
+</ol>
+<p>If everything has worked correctly, the led of the Arduino board will begin to blink with a time on of one second and an off time of another second.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="add-library.html" class="btn btn-neutral float-right" title="Add a library to Arduino" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="resource-index.html" class="btn btn-neutral" title="Resources" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="../contacto.html" target="_blank">Contact</a></li>
+    <li><a href="../../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="../legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="../legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="../genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="../content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on February, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../../es/arduprog/troubleshooting-arduino.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../electronic-index.html">Electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prog-index.html">Programming</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Arduino</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="protoboard-index.html">Circuits with Breadboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-index.html">Programs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="resource-index.html">Resources</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Troubleshooting with Arduino</a></li>
+<li class="toctree-l3"><a class="reference internal" href="add-library.html">Add a library to Arduino</a></li>
+<li class="toctree-l3"><a class="reference internal" href="component-kit.html">Components to carry out projects with Arduino</a></li>
+<li class="toctree-l3"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="downloads.html">Downloads</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pc42-index.html">Control Panel PC42</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ardublock-index.html">Ardublock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uno-doc/index.html">Shield Weevil UNO</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../control-index.html">Automatic control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comm-index.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="../_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

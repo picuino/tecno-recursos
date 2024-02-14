@@ -1,0 +1,206 @@
+{%- macro index_main_link(title, link, image) -%}
+  <!-- {{ title }} -->
+  <div class="item">
+  <div class="image_center">
+  <a href="{{ link }}"><img src="{{ image }}" title="{{ title }}" alt="{{ title }}"></a>
+  </div>
+  <h1><a href="{{ link }}">{{ title }}</a></h1>
+  </div>
+{%- endmacro -%}
+{%- set lang_attr = 'en' if language == None else (language | replace('_', '-')) -%}
+
+<!DOCTYPE html>
+<html lang="{{ lang_attr }}">
+
+<head>
+
+  <title>{% trans %}Página principal - Picuino{% endtrans %}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% trans %}Recursos educativos libres para Tecnología en Educación Secundaria. Dibujo, mecánica, electricidad, electrónica, programación, informática, Arduino y más.{% endtrans %}">
+  <link rel="stylesheet" href="_static/index.css" type="text/css">
+
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  <link rel="canonical" href="https://www.picuino.com/es/index.html">
+
+</head>
+
+<body>
+
+  <!-- LOGO -->
+  <div class="header">
+  <div class="width_limit">
+  <div class="content">
+
+  <div class="logo">
+  <a href="{% trans %}https://www.picuino.com/es/{% endtrans %}">
+  <img title="Picuino logo"
+       src="_static/logo-picuino-bgblue.png"
+       alt="Picuino logo" width="240">
+  </a>
+  </div>
+
+  <div class="language">
+  {%- if language == 'en' %}
+
+  <a href="../es/index.html">Español</a>
+  {%- else %}
+
+  <a href="../en/index.html">English</a>
+  {%- endif %}
+  </div>
+
+  <div role="search">
+  <form id="rtd-search-form" class="search" action="search.html" method="get">
+    <input type="text" name="q" placeholder="{% trans %}Buscar...{% endtrans %}">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+  </div>
+
+  <div style="clear: both;"></div>
+
+  </div></div>
+  </div>
+
+
+  <!-- MAIN CONTENT -->
+  <div class="inner">
+  <div class="width_limit"><div class="content">
+
+  <p class="center">{% trans %}Recursos educativos libres para Tecnología en Educación Secundaria.{% endtrans %}</p>
+
+  <div class="center-items">
+    {%- if language == 'es' %}
+    {{ index_main_link('Dibujo',
+    'dibujo-index.html', '_static/index-boceto.jpg') }}
+
+    {{ index_main_link('Mecánica',
+    'mecan-index.html', '_static/index-mecan.png') }}
+
+    {{ index_main_link('Materiales',
+    'material-index.html', '_static/index-material.jpg') }}
+
+    {{ index_main_link('Electricidad',
+    'electric-index.html', '_static/index-electric.png') }}
+
+    {{ index_main_link('Electrónica',
+    'electronic-index.html', '_static/index-electronic.png') }}
+
+    {{ index_main_link('Informática',
+    'informatica-index.html', '_static/index-informatica.png') }}
+
+    {{ index_main_link('Programación',
+    'prog-index.html', '_static/index-prog.png') }}
+
+    {{ index_main_link('Arduino',
+    'arduprog/index.html', '_static/index-arduprog.png') }}
+
+    {{ index_main_link('Control',
+    'control-index.html', '_static/index-control.jpg') }}
+
+    {{ index_main_link('Comunicaciones',
+    'comm-index.html', '_static/index-comunicaciones.png') }}
+
+    {{ index_main_link('Taller',
+    'taller-index.html', '_static/index-taller.jpg') }}
+
+    {{ index_main_link('Varios',
+    'recursos-index.html', '_static/index-varios.png') }}
+
+    {{ index_main_link('Legislación',
+    'ley-index.html', '_static/index-legislacion.png') }}
+
+    {{ index_main_link('Cuestionarios',
+    'https://www.picuino.com/test/', '_static/index-cuestionarios.png') }}
+
+    {{ index_main_link('Circuitos',
+    'https://www.picuino.com/circuits/', '_static/index-circuits.png') }}
+
+    {# {{ index_main_link('Foro',
+    'https://www.picuino.com/foro/', '_static/index-forum.png') }} #}
+
+
+    {%- else %}
+    {{ index_main_link('Drawing',
+    'dibujo-index.html', '_static/index-boceto.jpg') }}
+
+    {{ index_main_link('Mechanics',
+    'mecan-index.html', '_static/index-mecan.png') }}
+
+    {{ index_main_link('Materials',
+    'material-index.html', '_static/index-material.jpg') }}
+
+    {{ index_main_link('Electricity',
+    'electric-index.html', '_static/index-electric.png') }}
+
+    {{ index_main_link('Electronics',
+    'electronic-index.html', '_static/index-electronic.png') }}
+
+    {{ index_main_link('Computing',
+    'informatica-index.html', '_static/index-informatica.png') }}
+
+    {{ index_main_link('Programming',
+    'prog-index.html', '_static/index-prog-en.png') }}
+
+    {{ index_main_link('Arduino',
+    'arduprog/index.html', '_static/index-arduprog.png') }}
+
+    {{ index_main_link('Control',
+    'control-index.html', '_static/index-control.jpg') }}
+
+    {{ index_main_link('Communications',
+    'comm-index.html', '_static/index-comunicaciones.png') }}
+
+    {{ index_main_link('Workshop',
+    'taller-index.html', '_static/index-taller.jpg') }}
+
+    {{ index_main_link('Another',
+    'recursos-index.html', '_static/index-varios.png') }}
+
+    {{ index_main_link('Legislation',
+    'ley-index.html', '_static/index-legislacion.png') }}
+
+    {{ index_main_link('Quizzes',
+    'https://www.picuino.com/test/', '_static/index-cuestionarios.png') }}
+
+    {{ index_main_link('Circuits',
+    'https://www.picuino.com/circuits/', '_static/index-circuits.png') }}
+
+    {# {{ index_main_link('Forum',
+    'https://www.picuino.com/foro/', '_static/index-forum.png') }} #}
+
+    {%- endif %}
+
+
+  </div>
+  </div> </div>
+
+  </div> <!-- MAIN CONTENT -->
+
+  <div class="cleaner"></div>
+
+  <!-- FOOTER -->
+  <footer>
+  <div class="width_limit"><div class="content">
+
+  <ul class="link-list">
+  <li><a href="{{ pathto('contacto') }}"  target="_blank">{% trans %}Contacto{% endtrans %}</a>
+  </li><li><a href="{{ pathto('../es/legal-aviso') }}" target="_blank">{% trans %}Aviso legal{% endtrans %}</a>
+  </li><li><a href="{{ pathto('legal-cookies') }}" target="_blank">{% trans %}Política de Cookies{% endtrans %}</a>
+  </li><li><a href="{{ pathto('legal-attribution') }}" target="_blank">{% trans %}Créditos{% endtrans %}</a>
+  </li><li><a href="{{ pathto('genindex') }}" target="_blank">{% trans %}Glosario{% endtrans %}</a>
+  </li><li><a href="{{ pathto('content') }}" target="_blank">{% trans %}Índice{% endtrans %}</a>
+  </li>
+  </ul>
+
+  <p>{% trans copyright=copyright|e %}Copyright &copy; {{ copyright }}{% endtrans %}</p>
+
+  </div></div>
+  </footer>
+
+  </body>
+</html>

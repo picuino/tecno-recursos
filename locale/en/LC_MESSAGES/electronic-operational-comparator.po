@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-24 20:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-operational-comparator.rst:9
+msgid "El comparador"
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:10
+msgid ""
+"El comparador es un circuito electrónico semejante al amplificador "
+"operacional, con la diferencia de estar especializado en dar una salida "
+"digital, que se conecta a la tensión positiva o a la tensión negativa de "
+"alimentación, sin entregar tensiones intermedias."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:20
+msgid "Símbolo del comparador."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:22
+msgid ""
+"Los terminales del comparador son los mismos terminales que tiene un "
+"amplificador operacional. La diferencia entre ambos consiste en su "
+"funcionamiento interno, mucho más rápido y especializado en dar salidas "
+"todo-nada."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:33
+msgid "Terminales del comparador real:"
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:28
+msgid "Terminal de entrada negativo."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:29
+msgid "Terminal de entrada positivo."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:30
+msgid "Terminal de salida."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:31
+msgid "Terminal de alimentación positiva."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:32
+msgid "Terminal de alimentación negativa."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:36
+msgid "Funcionamiento"
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:37
+msgid ""
+"Un comparador es un componente electrónico semejante al amplificador "
+"operacional. Tiene dos terminales de entrada de tensión que se comparan "
+"entre sí y un terminal de salida que entrega una tensión que depende de "
+"la tensión de entrada que sea mayor. Si la entrada positiva tiene una "
+"tensión mayor que la entrada negativa, la tensión de salida será "
+"positiva. Al revés, si la entrada negativa tiene una tensión mayor que la"
+" entrada positiva, la tensión de salida será negativa."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:46
+msgid ""
+"La **diferencia** del comparador con respecto al amplificador operacional"
+" consiste en que su salida está preparada para entregar valores extremos."
+" La salida se conectará a la tensión de alimentación positiva o a la "
+"tensión de alimentación negativa. Este circuito no está preparado para "
+"dar valores de tensión intermedios."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:52
+msgid ""
+"Una ventaja del comparador consiste en que su respuesta es mucho más "
+"rápida que la respuesta de un amplificador operacional equivalente."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:57
+msgid "Simulación"
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:58
+msgid ""
+"En el siguiente circuito podemos ver un comparador funcionando como "
+"detector de luminosidad. El circuito enciende una lámpara cuando el "
+"detector de luz detecta poca luminosidad en el exterior de la casa."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:62
+msgid ""
+"Este comparador tiene una salida que se denomina en \"colector abierto\" "
+"y eso significa que solo es capaz de conectar la salida a tensión "
+"negativa. Por lo tanto el circuito necesita que se añada la resistencia "
+"R4 para conseguir una tensión positiva a la salida."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:67
+msgid ""
+"Esta resistencia R4 se denomina resistencia de `pull-up "
+"<https://en.wikipedia.org/wiki/Pull-up_resistor>`__ porque 'levanta' la "
+"tensión de salida hacia valores positivos."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:79
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:81
+msgid "Dibuja el símbolo de un comparador."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:83
+msgid "Explica con tus palabras el funcionamiento de un comparador."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:85
+msgid "¿Cuántos terminales tiene un comparador real? ¿Para que sirve cada uno?"
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:88
+msgid ""
+"¿Qué diferencias tiene un comparador respecto a un amplificador "
+"operacional?"
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:91
+msgid "¿Qué es una resistencia de pull-up y para qué sirve?"
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:93
+msgid "¿Por qué es necesaria una resistencia de pull-up en algunos comparadores?"
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:96
+msgid ""
+"¿Qué tipo de realimentación crees que tiene el circuito de la simulación?"
+" Razona tu respuesta."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:99
+msgid ""
+"Dibuja un circuito que utilice un comparador para detectar la luminosidad"
+" ambiente y que encienda una lámpara cuando el ambiente sea oscuro."
+msgstr ""
+
+#: ../../source/electronic-operational-comparator.rst:103
+msgid ""
+"Modifica la simulación anterior para que la lámpara se encienda cuando "
+"haya mucha luz en el sensor y que se apague cuando haya poca luz."
+msgstr ""
+

@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+		<table>
+
+
+		<tr>
+		<td width="190" valign="top"><div align="center"></div>
+
+                      <applet name="valvula32" width=400 height=400
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="valvula32">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=s&iacute; limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='s&iacute;' escala='30' O.x='60' despl_imagen='arr-izq' fondo='blanco' red='grisClaro' red10='gris' ejes='gris' texto='grisObscuro' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='p1' tipo='num&eacute;rico' interfaz='men&uacute;' regi&oacute;n='norte' fijo='s&iacute;' nombre='Presion' visible='no' opciones='0,1' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='ap' tipo='num&eacute;rico' valor='4' fijo='s&iacute;' nombre='ap(cm)' incr='0.5' min='2' max='6' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='cp' tipo='num&eacute;rico' valor='5' fijo='s&iacute;' nombre='cp(cm)' incr='0.25' min='5' max='6' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_03" value="id='pc(bar)' tipo='num&eacute;rico' regi&oacute;n='norte' valor='1' fijo='s&iacute;' nombre='pc(bar)' incr='1' min='1' max='5' visible='s&iacute;' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='e' constante='s&iacute;' expresi&oacute;n='1' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='x1' expresi&oacute;n='(p1=0)?-5:-5+t'">
+   <param name="A_02" value="id='am' constante='s&iacute;' expresi&oacute;n='ap/4' evaluar='siempre'">
+   <param name="A_03" value="id='pm' constante='s&iacute;' expresi&oacute;n='-x1/(18+t)+(cp-5)/10' evaluar='siempre'">
+   <param name="A_04" value="id='e7' evento='s&iacute;' condici&oacute;n='t&gt;2' acci&oacute;n='calcular' par&aacute;metro='t=2' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='siempre' pos_mensajes='centro'">
+   <param name="G_00" value="tipo='pol&iacute;gono' expresi&oacute;n='(x1,ap/2)(x1+e,ap/2)(x1+e,e/2)(x1+e+cp,e/2)(x1+e+cp,-e/2)(x1+e,-e/2)(x1+e,-ap/2)(x1,-ap/2)(x1,ap/2)' relleno='azul' ancho='2'">
+   <param name="G_01" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-6+e/4,-ap/2)(-6,-ap/2)(-6,ap/2)(-6+cp,ap/2)(-6+cp,e/2)(-6+cp+e,e/2)(-6+cp+e,e+ap/2)(-7,e+ap/2)(-7,-ap/2-e)(-6+e/4,-ap/2-e)(-6+e/4,-ap/2)' relleno='rojo' ancho='2'">
+   <param name="G_02" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-6+3*e/4,-ap/2)(-6+cp,-ap/2)(-6+cp,-e/2)(-6+cp+e,-e/2)(-6+cp+e,-ap/2-e)(-6+3*e/4,-ap/2-e)(-6+3*e/4,-ap/2)' relleno='rojo' ancho='2'">
+   <param name="G_03" value="tipo='segmento' color='grisObscuro' expresi&oacute;n='(x1+e,-2*am)(x1+e+pm,2*am)(x1+e+2*pm,-2*am)(x1+e+3*pm,2*am)(x1+e+4*pm,-2*am)(x1+e+5*pm,2*am)(x1+e+6*pm,-2*am)(-6+cp,ap/2)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='3'">
+   <param name="G_04" value="tipo='pol&iacute;gono' color='negro' expresi&oacute;n='(-6+e/4,-ap/2)(-6+e/4,-ap/2-e-1)(-6+3*e/4,-ap/2-e-1)(-6+3*e/4,-ap/2)(-6+e/4,-ap/2)' ancho='2'">
+   <param name="G_05" value="tipo='pol&iacute;gono' color='turquesa' dibujar-si='p1=1' expresi&oacute;n='(x1,ap/2)(-6,ap/2)(-6,-ap/2)(-6+e/4,-ap/2)(-6+e/4,-ap/2-e-1)(-6+3*e/4,-ap/2-e-1)(-6+3*e/4,-ap/2)(x1,-ap/2)(x1,ap/2)' relleno='turquesa' ancho='0'">
+   <param name="G_06" value="tipo='texto' expresi&oacute;n='[20,20]' texto='[x1] [t]' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="pausa='30' controles='no' auto='no' inicio='t=0' hacer='t=(p1=1)?t+0.025:0' mientras='2&gt;1'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet> 		</td>
+		<td width="190" valign="top"><div align="center"></div>
+
+
+		</td>
+		</tr>
+		</table>
+
+</BODY>
+</HTML>

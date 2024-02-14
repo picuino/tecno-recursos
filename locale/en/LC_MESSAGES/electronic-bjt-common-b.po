@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2023 por Carlos Pardo Martín
+# This file is distributed under the same license as the Tecno Recursos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-08 19:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-bjt-common-b.rst:9
+msgid "El transistor en base común"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:10
+msgid ""
+"En esta configuración el transistor tiene la base conectada a una tensión"
+" fija. La señal de entrada llega por el emisor del transistor y la señal "
+"amplificada sale por el colector del transistor."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:19
+msgid "Esquema simplificado de un transistor NPN en base común."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:21
+msgid ""
+"Esta configuración permite amplificar la tensión de entrada manteniendo "
+"la corriente igual. Este funcionamiento es útil en etapas de entrada de "
+"señal desde un componente que genere poca tensión, pero con corrientes "
+"relativamente altas."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:26
+msgid ""
+"Un ejemplo de aplicación práctica es amplificar la señal inducida en una "
+"bobina. Por ejemplo, amplificar el sonido captado por un altavoz, "
+"convirtiendo el altavoz en un micrófono."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:30
+msgid ""
+"A continuación puede verse una simulación de un transistor NPN en "
+"configuración de base común. El transistor amplifica una señal que entra "
+"por el emisor generando una señal con mucha mayor tensión que sale por el"
+" colector."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:42
+msgid "La función de cada uno de los componentes es la siguiente:"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:44
+msgid ""
+"El **generador de señal alterna** genera una pequeña señal de entrada de "
+"0.1 voltios de pico."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:47
+msgid ""
+"Las **resistencias R1 y R2** mantienen una tensión fija en la base que "
+"**polariza al transistor** para que funcione siempre con corrientes "
+"positivas, a pesar de que la tensión de entrada sea tanto positiva como "
+"negativa."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:52
+msgid ""
+"El **transistor NPN** recibe una señal de pequeña tensión por el emisor, "
+"que produce una corriente en el emisor. El transistor transfiere esa "
+"corriente del emisor al colector, donde una resistencia convierte la "
+"corriente en una tensión mayor que la tensión de entrada."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:58
+msgid "En esta etapa no hay amplificación de corriente, solo de tensión."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:60
+msgid ""
+"La **resistencia R3** recibe la corriente del colector y la convierte en "
+"tensión de salida. Cuanto mayor sea esta resistencia, mayor será la "
+"tensión de salida y, por lo tanto, la amplificación de tensión de la "
+"etapa."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:67
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:69
+msgid ""
+"Dibuja un esquema simplificado de un transistor NPN trabajando en "
+"configuración de base común, mostrando por dónde llega la señal de "
+"entrada y por dónde sale la señal amplificada."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:73
+msgid ""
+"Dibuja un esquema realista de un transistor NPN trabajando en "
+"configuración de base común."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:76
+msgid ""
+"¿Cuál es la función principal de un transistor funcionando en "
+"configuración de base común?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:79
+msgid "¿Para qué sirven las resistencias R1 y R2?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:81
+msgid "¿Para qué sirve la resistencia R3?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:83
+msgid "¿Qué ganancia de tensión tiene la etapa simulada?"
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:85
+msgid ""
+"Para calcular la ganancia de tensión es necesario dividir la variación de"
+" tensión en la salida entre la variación de la tensión en la entrada."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:88
+msgid ""
+"Recuerda que el generador de 0.1 voltios en alterna genera una tensión de"
+" 0.2 voltios entre el pico positivo de tensión y el pico negativo de "
+"tensión."
+msgstr ""
+
+#: ../../source/electronic-bjt-common-b.rst:92
+msgid ""
+"Si modificamos R3 con un valor de 2kOhm y R1 con un valor de 70kOhm, ¿Qué"
+" le ocurre a la señal de salida del circuito? ¿Por qué crees que ocurre "
+"esto?"
+msgstr ""
+

@@ -1,0 +1,624 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-03-06 21:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/control-pid.rst:9
+msgid "Controlador PID"
+msgstr "PID controller"
+
+#: ../../source/control-pid.rst:11
+msgid ""
+"Un controlador o regulador PID es un dispositivo que permite controlar un"
+" sistema en lazo cerrado para que alcance el estado de salida deseado. El"
+" controlador PID está compuesto de tres elementos que proporcionan una "
+"acción Proporcional, Integral y Derivativa. Estas tres acciones son las "
+"que dan nombre al controlador PID."
+msgstr ""
+"A PID controller or regulator is a device that allows a closed-loop "
+"system to be controlled so that it reaches the desired output state. The "
+"PID controller is composed of three elements that provide Proportional, "
+"Integral and Derivative action. These three actions are what give the PID"
+" controller its name."
+
+#: ../../source/control-pid.rst:25
+msgid "Señal de referencia y señal de error"
+msgstr "Reference signal and error signal"
+
+#: ../../source/control-pid.rst:27
+msgid ""
+"La señal **r(t)** se denomina **referencia** e indica el estado que se "
+"desea conseguir en la salida del sistema **y(t)**."
+msgstr ""
+"The signal **r(t)** is called **reference** and indicates the desired "
+"state to be achieved at the output of the system **y(t)**."
+
+#: ../../source/control-pid.rst:30
+msgid ""
+"La letra **t** dentro del paréntesis significa que las señales cambian "
+"con el tiempo (t), es decir, que no permanecen con el mismo valor."
+msgstr ""
+"The letter **t** inside the parentheses means that the signals change "
+"with time (t), that is, they do not remain with the same value."
+
+#: ../../source/control-pid.rst:33
+msgid ""
+"En un sistema de control de temperatura, la referencia r(t) será la "
+"temperatura deseada y la salida y(t) será la temperatura real del sistema"
+" controlado, que cambiarán con el tiempo."
+msgstr ""
+"In a temperature control system, the reference r(t) will be the desired "
+"temperature and the output y(t) will be the actual temperature of the "
+"controlled system, which will change with time."
+
+#: ../../source/control-pid.rst:37
+msgid ""
+"Como puede verse en el esquema anterior, la entrada al controlador PID es"
+" la señal de **error e(t)**. Esta señal indica al controlador la "
+"diferencia que existe entre el estado que se quiere conseguir o "
+"referencia r(t) y el estado real del sistema medido por el sensor, señal "
+"**h(t)**."
+msgstr ""
+"As can be seen in the diagram above, the input to the PID controller is "
+"the **error signal e(t)**. This signal indicates to the controller the "
+"difference that exists between the state to be achieved or reference r(t)"
+" and the real state of the system measured by the sensor, signal "
+"**h(t)**."
+
+#: ../../source/control-pid.rst:43
+msgid ""
+"Si la señal de error es grande, significa que el estado del sistema se "
+"encuentra lejos del estado de referencia deseado. Si por el contrario el "
+"error es pequeño, significa que el sistema ha alcanzado el estado "
+"deseado."
+msgstr ""
+"If the error signal is large, it means that the state of the system is "
+"far from the desired reference state. If, on the other hand, the error is"
+" small, it means that the system has reached the desired state."
+
+#: ../../source/control-pid.rst:50
+msgid "Acción de control Proporcional"
+msgstr "Control Action Proportional"
+
+#: ../../source/control-pid.rst:52
+msgid ""
+"Como su nombre indica, esta acción de control es proporcional a la señal "
+"de error e(t). Internamente la acción proporcional multiplica la señal de"
+" error por una constante **Kp** que determina la cantidad de acción "
+"proporcional que tendrá el controlador."
+msgstr ""
+"As its name indicates, this control action is proportional to the error "
+"signal e(t). Internally the proportional action multiplies the error "
+"signal by a constant **Kp** which determines the amount of proportional "
+"action the controller will have."
+
+#: ../../source/control-pid.rst:57
+msgid ""
+"Esta acción de control intenta minimizar el error del sistema. Cuando el "
+"error es grande, la acción de control es grande y tiende a minimizar este"
+" error."
+msgstr ""
+"This control action attempts to minimize system error. When the error is "
+"large, the control action is large and tends to minimize this error."
+
+#: ../../source/control-pid.rst:61
+msgid "Aumentar la acción proporcional **Kp** tiene los siguientes efectos:"
+msgstr "Increasing the proportional action **Kp** has the following effects:"
+
+#: ../../source/control-pid.rst:63
+msgid "Aumenta la velocidad de respuesta del sistema."
+msgstr "Increases the response speed of the system."
+
+#: ../../source/control-pid.rst:64 ../../source/control-pid.rst:190
+msgid "Disminuye el error del sistema en régimen permanente."
+msgstr "Decreases the system error in permanent regime."
+
+#: ../../source/control-pid.rst:65 ../../source/control-pid.rst:191
+msgid "Aumenta la inestabilidad del sistema."
+msgstr "Increases system instability."
+
+#: ../../source/control-pid.rst:67
+msgid ""
+"Los dos primeros efectos son positivos y deseables. El último efecto es "
+"negativo y hay que intentar que sea reducido. Al aumentar la acción "
+"proporcional existe un punto de equilibrio en el que se consigue "
+"suficiente rapidez de respuesta del sistema y reducción del error, sin "
+"que el sistema sea demasiado inestable. Aumentar la acción proporcional "
+"más allá de este punto producirá una inestabilidad indeseable. Reducir la"
+" acción proporcional, reducirá la velocidad de respuesta del sistema y "
+"aumentará su error permanente."
+msgstr ""
+"The first two effects are positive and desirable. The last effect is "
+"negative and you have to try to reduce it. By increasing the proportional"
+" action there is a balance point where sufficient system response speed "
+"and error reduction are achieved, without making the system too unstable."
+" Increasing the proportional action beyond this point will produce "
+"undesirable instability. Reducing the proportional action will reduce the"
+" response speed of the system and increase its permanent error."
+
+#: ../../source/control-pid.rst:82
+msgid ""
+"En los gráficos anteriores puede observarse el efecto de aumentar "
+"progresivamente la acción proporcional en un control de posición."
+msgstr ""
+"In the graphs above you can see the effect of progressively increasing "
+"the proportional action in a position control."
+
+#: ../../source/control-pid.rst:85
+msgid ""
+"Con una acción proporcional pequeña Kp=2, el sistema es lento, tardando "
+"20 segundos en alcanzar la posición deseada y el error de posición es "
+"grande, de 50 milímetros. A medida que se aumenta la acción proporcional,"
+" el error disminuye y la velocidad de respuesta aumenta."
+msgstr ""
+"With a small proportional action Kp=2, the system is slow, taking 20 "
+"seconds to reach the desired position, and the position error is large, "
+"50 millimeters. As the proportional action is increased, the error "
+"decreases and the response speed increases."
+
+#: ../../source/control-pid.rst:90
+msgid ""
+"Con una ganancia proporcional Kp=20 el sistema es más rápido, tardando 12"
+" segundos en establecerse la posición permanente. Asimismo el error se ha"
+" reducido hasta una décima parte, solo 5 milímetros. También se puede "
+"observar un sobrepulso en la respuesta, y el comienzo de cierta "
+"inestabilidad."
+msgstr ""
+"With a proportional gain Kp=20 the system is faster, taking 12 seconds to"
+" establish the permanent position. Likewise, the error has been reduced "
+"to a tenth, only 5 millimeters. You can also see an overshoot in the "
+"response, and the beginning of some instability."
+
+#: ../../source/control-pid.rst:95
+msgid ""
+"Con ganancias mayores se consigue disminuir todavía más el error "
+"permanente, pero la velocidad de respuesta no aumenta porque el sistema "
+"se vuelve tan inestable que la posición tarda mucho en establecerse en su"
+" estado final."
+msgstr ""
+"With higher gains, the permanent error can be further reduced, but the "
+"response speed does not increase because the system becomes so unstable "
+"that the position takes a long time to establish itself in its final "
+"state."
+
+#: ../../source/control-pid.rst:100
+msgid ""
+"En este ejemplo la acción proporcional se ha escalado de forma que sus "
+"valores se encuentren entre 0 y 100."
+msgstr ""
+"In this example the proportional action has been scaled so that its "
+"values ​​are between 0 and 100."
+
+#: ../../source/control-pid.rst:103
+msgid ""
+"Llegado a este punto, puede verse que la acción proporcional no puede "
+"mejorar más la respuesta del sistema. La mejor opción con Kp=20 presenta "
+"un sobrepulso de unos 30 milímetros y un error permanente de 5 "
+"milímetros. Si se desea mejorar esta respuesta hay que incorporar otro "
+"tipo de control. Aquí es dónde el control derivativo puede ayudar a "
+"mejorar la respuesta del sistema."
+msgstr ""
+"At this point, it can be seen that proportional action cannot further "
+"improve system response. The best option with Kp=20 presents an overpulse"
+" of about 30 millimeters and a permanent error of 5 millimeters. If you "
+"want to improve this response, you must incorporate another type of "
+"control. This is where derivative control can help improve system "
+"response."
+
+#: ../../source/control-pid.rst:113
+msgid "Acción de control Derivativa"
+msgstr "Derivative control action"
+
+#: ../../source/control-pid.rst:115
+msgid ""
+"Como su nombre indica, esta acción de control es proporcional a la "
+"derivada de la señal de error **e(t)** multiplicada por la constante "
+"**Kd**. La derivada del error es otra forma de llamar a la \"velocidad\" "
+"del error. A continuación se verá porqué es tan importante calcular esta "
+"velocidad. En las gráficas anteriores, cuando la posición se encuentra "
+"por debajo de 150mm, la acción de control proporcional siempre intenta "
+"aumentar la posición. El problema viene al tener en cuenta las inercias. "
+"Cuando el sistema se mueve a una velocidad alta hacia el punto de "
+"referencia, el sistema se pasará de largo debido a su inercia. Esto "
+"produce un sobrepulso y oscilaciones en torno a la referencia. Para "
+"evitar este problema, el controlador debe reconocer la velocidad a la que"
+" el sistema se acerca a la referencia para poder frenarle con antelación "
+"a medida que se acerque a la referencia deseada y evitar que la "
+"sobrepase."
+msgstr ""
+"As its name indicates, this control action is proportional to the "
+"derivative of the error signal **e(t)** multiplied by the constant "
+"**Kd**. The derivative of the error is another way of calling the "
+"\"speed\" of the error. It will be seen below why it is so important to "
+"calculate this velocity. In the above graphs, when the position is below "
+"150mm, the proportional control action always tries to increase the "
+"position. The problem comes when taking into account the inertia. When "
+"the system moves at a high speed towards the reference point, the system "
+"will pass by due to its inertia. This produces an overshoot and "
+"oscillations around the reference. To avoid this problem, the controller "
+"must recognize the speed at which the system is approaching the reference"
+" so that it can slow it down in advance as it approaches the desired "
+"reference and prevent it from exceeding it."
+
+#: ../../source/control-pid.rst:132
+msgid ""
+"Aumentar la constante de control derivativa **Kd** tiene los siguientes "
+"efectos:"
+msgstr ""
+"Increasing the derivative control constant **Kd** has the following "
+"effects:"
+
+#: ../../source/control-pid.rst:135
+msgid "Aumenta la estabilidad del sistema controlado."
+msgstr "Increases the stability of the controlled system."
+
+#: ../../source/control-pid.rst:136
+msgid "Disminuye un poco la velocidad del sistema."
+msgstr "It slows down the system a bit."
+
+#: ../../source/control-pid.rst:137
+msgid "El error en régimen permanente permanecerá igual."
+msgstr "The steady state error will remain the same."
+
+#: ../../source/control-pid.rst:139
+msgid ""
+"Esta acción de control servirá, por lo tanto, para estabilizar una "
+"respuesta que oscile demasiado."
+msgstr ""
+"This control action will therefore serve to stabilize a response that "
+"oscillates too much."
+
+#: ../../source/control-pid.rst:147
+msgid ""
+"En los gráficos anteriores puede verse como, al aumentar la acción "
+"derivativa Kd, se consigue disminuir las oscilaciones hasta el punto de "
+"que desaparecen para Kd=50. También puede apreciarse cómo la respuesta se"
+" hace un poco más lenta al aumentar la constante derivativa. Con Kd=0 el "
+"sistema tarda 1,8 segundos en subir hasta el valor de referencia. Con "
+"Kd=20 el sistema tarda 2 segundos en subir hasta el valor de referencia. "
+"En este ejemplo la acción derivativa se ha escalado de forma que sus "
+"valores se encuentren entre 0 y 100."
+msgstr ""
+"In the previous graphs it can be seen how, by increasing the derivative "
+"action Kd, it is possible to reduce the oscillations to the point that "
+"they disappear for Kd=50. It can also be seen how the response slows down"
+" a bit as the derivative constant increases. With Kd=0 the system takes "
+"1.8 seconds to rise to the reference value. With Kd=20 the system takes 2"
+" seconds to rise to the reference value. In this example the derivative "
+"action has been scaled so that its values ​​are between 0 and 100."
+
+#: ../../source/control-pid.rst:156
+msgid ""
+"Un problema que presenta el control derivativo consiste en que amplifica "
+"las señales que varían rápidamente, por ejemplo, el ruido de alta "
+"frecuencia. Debido a este efecto, el ruido de la señal de error aparece "
+"amplificado en el accionamiento de la planta. Para poder reducir este "
+"efecto es necesario reducir el ruido de la señal de error mediante un "
+"`filtro paso bajo <https://es.wikipedia.org/wiki/Filtro_paso_bajo>`__ "
+"antes de aplicarla al término derivativo. Con este filtro la acción "
+"derivativa se encuentra limitada, por lo que es deseable reducir el ruido"
+" de la señal de error por otros medios antes de recurrir a un filtro paso"
+" bajo."
+msgstr ""
+"One problem with derivative control is that it amplifies rapidly varying "
+"signals, such as high-frequency noise. Due to this effect, the noise of "
+"the error signal appears amplified in the drive of the plant. In order to"
+" reduce this effect, it is necessary to reduce the noise of the error "
+"signal by means of a `low-pass filter "
+"<https://es.wikipedia.org/wiki/Filtro_paso_bajo>`__ before applying it to"
+" the derivative term. With this filter the derivative action is limited, "
+"so it is desirable to reduce the noise of the error signal by other means"
+" before resorting to a low pass filter."
+
+#: ../../source/control-pid.rst:168
+msgid ""
+"Llegado a este punto, el sistema es rápido y estable, pero mantiene "
+"todavía un pequeño error en régimen permanente. Esto significa que la "
+"posición real del sistema no es exactamente la posición deseada. Para "
+"poder reducir este error se recurre a la tercera acción del controlador "
+"PID, el control Integral."
+msgstr ""
+"At this point, the system is fast and stable, but still has a small "
+"steady state error. This means that the actual position of the system is "
+"not exactly the desired position. In order to reduce this error, the "
+"third action of the PID controller is used, the Integral control."
+
+#: ../../source/control-pid.rst:177
+msgid "Acción de control Integral"
+msgstr "Comprehensive control action"
+
+#: ../../source/control-pid.rst:179
+msgid ""
+"Esta acción de control, como su nombre indica, calcula la integral de la "
+"señal de **error e(t)** y la multiplica por la constante **Ki**. La "
+"integral se puede ver como la suma o acumulación de la señal de error. A "
+"medida que pasa el tiempo pequeños errores se van sumando para hacer que "
+"la acción integral sea cada vez mayor. Con esto se consigue reducir el "
+"error del sistema en régimen permanente. La desventaja de utilizar la "
+"acción integral consiste en que esta añade una cierta inercia al sistema "
+"y, por lo tanto, le hace más inestable."
+msgstr ""
+"This control action, as the name suggests, calculates the integral of the"
+" **error signal e(t)** and multiplies it by the constant **Ki**. The "
+"integral can be seen as the sum or accumulation of the error signal. As "
+"time goes by, small errors add up to make the integral action bigger and "
+"bigger. With this it is possible to reduce the error of the system in "
+"permanent regime. The disadvantage of using the integral action is that "
+"it adds some inertia to the system and therefore makes it more unstable."
+
+#: ../../source/control-pid.rst:188
+msgid "Aumentar la acción integral **Ki** tiene los siguientes efectos:"
+msgstr "Increasing the integral action **Ki** has the following effects:"
+
+#: ../../source/control-pid.rst:192
+msgid "Aumenta un poco la velocidad del sistema."
+msgstr "It slightly increases the speed of the system."
+
+#: ../../source/control-pid.rst:194
+msgid ""
+"Esta acción de control servirá para disminuir el error en régimen "
+"permanente."
+msgstr "This control action will serve to reduce the error in steady state."
+
+#: ../../source/control-pid.rst:202
+msgid ""
+"En las gráficas anteriores se ha añadido una señal de error ampliada, de "
+"color verde, para apreciar mejor cómo se reduce el error a medida que "
+"aumenta la acción integral. Otro efecto visible es el aumento de la "
+"inestabilidad del sistema a medida que aumenta Ki. Por esta razón el "
+"control integral se suele combinar con el control derivativo para evitar "
+"las oscilaciones del sistema."
+msgstr ""
+"An enlarged error signal, colored green, has been added to the above "
+"graphs to better appreciate how the error decreases as the integral "
+"action increases. Another visible effect is the increased instability of "
+"the system as Ki increases. For this reason, integral control is often "
+"combined with derivative control to avoid system oscillations."
+
+#: ../../source/control-pid.rst:211
+msgid "Sintonización manual de un controlador PID"
+msgstr "Manual tuning of a PID controller"
+
+#: ../../source/control-pid.rst:213
+msgid ""
+"Después de ver las diferentes acciones proporcional, integral y "
+"derivativa de un control PID, se pueden aplicar unas reglas sencillas "
+"para sintonizar este controlador de forma manual."
+msgstr ""
+"After seeing the different proportional, integral and derivative actions "
+"of a PID control, some simple rules can be applied to manually tune this "
+"controller."
+
+#: ../../source/control-pid.rst:217
+msgid "**1º - Acción Proporcional.**"
+msgstr "**1º - Proportional Action.**"
+
+#: ../../source/control-pid.rst:219
+msgid ""
+"Se aumenta poco a poco la acción proporcional para disminuir el error "
+"(diferencia entre el estado deseado y el estado conseguido) y para "
+"aumentar la velocidad de respuesta."
+msgstr ""
+"The proportional action is gradually increased to decrease the error "
+"(difference between the desired state and the achieved state) and to "
+"increase the response speed."
+
+#: ../../source/control-pid.rst:223
+msgid ""
+"Si se alcanza la respuesta deseada en velocidad y error, el PID ya está "
+"sintonizado."
+msgstr ""
+"If the desired speed and error response is reached, the PID is already "
+"tuned."
+
+#: ../../source/control-pid.rst:226 ../../source/control-pid.rst:243
+msgid ""
+"Si el sistema se vuelve inestable antes de conseguir la respuesta "
+"deseada, se debe aumentar la acción derivativa."
+msgstr ""
+"If the system becomes unstable before the desired response is achieved, "
+"the derivative action should be increased."
+
+#: ../../source/control-pid.rst:230
+msgid "**2º - Acción Derivativa.**"
+msgstr "**2nd - Derivative Action.**"
+
+#: ../../source/control-pid.rst:232
+msgid ""
+"Si el sistema es demasiado inestable, se aumentará poco a poco la "
+"constante derivativa Kd para conseguir de nuevo estabilidad en la "
+"respuesta."
+msgstr ""
+"If the system is too unstable, the derivative constant Kd will be "
+"gradually increased to achieve response stability again."
+
+#: ../../source/control-pid.rst:237
+msgid "**3º - Acción Integral.**"
+msgstr "**3rd - Comprehensive Action.**"
+
+#: ../../source/control-pid.rst:239
+msgid ""
+"En el caso de que el error del sistema sea mayor que el deseado, se "
+"aumentará la constante integral Ki hasta que el error se minimice con la "
+"rapidez deseada."
+msgstr ""
+"In the event that the system error is greater than desired, the integral "
+"constant Ki will be increased until the error is minimized with the "
+"desired speed."
+
+#: ../../source/control-pid.rst:246
+msgid ""
+"Con estas sencillas reglas es sencillo afinar poco a poco el controlador "
+"PID hasta conseguir la respuesta deseada."
+msgstr ""
+"With these simple rules it is easy to gradually tune the PID controller "
+"until the desired response is achieved."
+
+#: ../../source/control-pid.rst:251
+msgid "Ecuación del controlador"
+msgstr "Controller equation"
+
+#: ../../source/control-pid.rst:252
+msgid "La ecuación del control PID es la siguiente:"
+msgstr "The PID control equation is as follows:"
+
+#: ../../source/control-pid.rst:254
+msgid ""
+"c(t) = Kp \\cdot e(t) + Ki \\cdot \\int_{}^{}e(t) dt + Kd \\cdot "
+"\\frac{\\partial e(t)}{\\partial t}"
+msgstr ""
+"c(t) = Kp \\cdot e(t) + Ki \\cdot \\int_{}^{}e(t) dt + Kd \\cdot "
+"\\frac{\\partial e(t)}{\\partial t}"
+
+#: ../../source/control-pid.rst:258
+msgid "Para:"
+msgstr "For:"
+
+#: ../../source/control-pid.rst:260
+msgid "c(t) = señal de control"
+msgstr "c(t) = control signal"
+
+#: ../../source/control-pid.rst:261
+msgid "e(t) = señal de error"
+msgstr "e(t) = error signal"
+
+#: ../../source/control-pid.rst:262
+msgid "Kp, Ki, Kd = parámetros del controlador PID"
+msgstr "Kp, Ki, Kd = PID controller parameters"
+
+#: ../../source/control-pid.rst:266
+msgid "Saturación y límites del controlador PID"
+msgstr "PID Controller Saturation and Limits"
+
+#: ../../source/control-pid.rst:268
+msgid ""
+"En los sistemas reales existen limitaciones que reducen la capacidad del "
+"controlador para conseguir la respuesta deseada. Por mucho que se aumente"
+" la acción proporcional, llegará un momento en el que el accionador se "
+"saturará y no podrá dar más de sí. Por ejemplo, en un sistema de control "
+"de temperatura, la resistencia calefactora podrá suministrar potencia "
+"hasta los 2000 vatios. Si el controlador intenta entregar más potencia "
+"para conseguir más velocidad de calentamiento, no se podrá y el sistema "
+"no conseguirá mayor rapidez. Aunque se aumente la acción de control "
+"proporcional el límite del accionador de 2000 vatios limita la velocidad "
+"máxima de calentamiento."
+msgstr ""
+"In real systems there are limitations that reduce the ability of the "
+"controller to achieve the desired response. No matter how much the "
+"proportional action is increased, there will come a time when the "
+"actuator will saturate and will not be able to give more of itself. For "
+"example, in a temperature control system, the heating element can supply "
+"power up to 2000 watts. If the controller tries to deliver more power to "
+"get faster heating speed, it will not be able to and the system will not "
+"get faster. Even if the proportional control action is increased the "
+"actuator limit of 2000 watts limits the maximum heating rate."
+
+#: ../../source/control-pid.rst:279
+msgid ""
+"Por lo tanto, hay que tener en cuenta que la velocidad de respuesta de "
+"los sistemas reales tiene ciertos límites que el control no podrá "
+"superar."
+msgstr ""
+"Therefore, it must be taken into account that the response speed of real "
+"systems has certain limits that the control cannot exceed."
+
+#: ../../source/control-pid.rst:285
+msgid "Simuladores de control PID"
+msgstr "PID control simulators"
+
+#: ../../source/control-pid.rst:287
+msgid ""
+"Este pequeño programa simula un carro guiado de forma automática y "
+"controlado por un controlador PID. El objetivo del programa es aprender a"
+" modificar los parámetros del controlador PID para conseguir que el carro"
+" se posicione con rapidez y sin error."
+msgstr ""
+"This small program simulates an automatically guided carriage controlled "
+"by a PID controller. The objective of the program is to learn how to "
+"modify the parameters of the PID controller in order to ensure that the "
+"carriage is positioned quickly and without error."
+
+#: ../../source/control-pid.rst:292
+msgid ""
+":download:`Motion Control. Versión 0,31 <control/_downloads/motion-"
+"control-031.zip>`"
+msgstr ""
+":download:`Motion Control. Version 0.31 <control/_downloads/motion-"
+"control-031.zip>`"
+
+#: ../../source/control-pid.rst:295
+msgid ""
+"Este otro programa simula el calentamiento de una caldera utilizada para "
+"calentar a su vez agua de calefacción. El sistema térmico utiliza dos "
+"controles PID para controlar las dos distintas temperaturas del agua."
+msgstr ""
+"This other program simulates the heating of a boiler used to heat heating"
+" water. The thermal system uses two PID controls to control the two "
+"different water temperatures."
+
+#: ../../source/control-pid.rst:300
+msgid ""
+":download:`Thermal Control. Versión 0,11 <control/_downloads/thermal-"
+"control-011.zip>`"
+msgstr ""
+":download:`Thermal Control. Version 0.11 <control/_downloads/thermal-"
+"control-011.zip>`"
+
+#: ../../source/control-pid.rst:305
+msgid "Referencias"
+msgstr "References"
+
+#: ../../source/control-pid.rst:307
+msgid ""
+"`Wikipedia: Controlador PID "
+"<https://es.wikipedia.org/wiki/Proporcional_integral_derivativo>`_"
+msgstr ""
+"`Wikipedia: PID controller "
+"<https://es.wikipedia.org/wiki/Proportional_integral_derivative>`_"
+
+#: ../../source/control-pid.rst:310
+msgid ""
+"`Wikipedia: Sistema de control "
+"<https://es.wikipedia.org/wiki/Sistema_de_control>`_"
+msgstr ""
+"`Wikipedia: Control system "
+"<https://es.wikipedia.org/wiki/Control_system>`_"
+
+#: ../../source/control-pid.rst:313
+msgid ""
+"`Wikipedia: Servomotor "
+"<https://es.wikipedia.org/wiki/Servomotor_de_modelismo>`_"
+msgstr ""
+"`Wikipedia: Servomotor "
+"<https://es.wikipedia.org/wiki/Servomotor_de_modelismo>`_"
+
+#: ../../source/control-pid.rst:317
+msgid ""
+"[1] Ogata, Katsuhiko. Ingeniería de Control Moderna. Tercera edición. "
+"Editorial Prentice Hall."
+msgstr ""
+"[1] Ogata, Katsuhiko. Modern Control Engineering. Third edition. Prentice"
+" Hall Publisher."
+
+#: ../../source/control-pid.rst:320
+msgid ""
+"[2] Ogata, Katsuhiko. Sistemas de control en tiempo discreto. Segunda "
+"edición. Editorial Prentice Hall."
+msgstr ""
+"[2] Ogata, Katsuhiko. Control systems in discrete time. Second edition. "
+"Prentice Hall Publisher."
+
