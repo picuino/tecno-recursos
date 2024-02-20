@@ -86,8 +86,8 @@ Vídeos de Jaime Altozano
 Vídeos TED
 ----------
 
-* `Jeremy Howard: Las maravillosas y pavorosas consecuencias de los
-   computadores que pueden aprender.
+* `Jeremy Howard. Las maravillosas y pavorosas consecuencias de los
+  computadores que pueden aprender.
   <https://www.youtube-nocookie.com/embed/t4kyRyKyOpo>`__
 
 
