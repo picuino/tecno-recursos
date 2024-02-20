@@ -62,11 +62,11 @@ ranking suministrado por Similarweb.
 
 
 
-03. `Pelandintecno <http://pelandintecno.blogspot.com/>`__
-----------------------------------------------------------
+03. `Pelandintecno <https://pelandintecno.blogspot.com/>`__
+-----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-pelandintecno_blogspot_com.jpg
-      :target: http://pelandintecno.blogspot.com/
+      :target: https://pelandintecno.blogspot.com/
       :alt: Screenshot de la página web Pelandintecno.
 
    .. list-table::
@@ -83,11 +83,11 @@ ranking suministrado por Similarweb.
 
 
 
-04. `Apuntes Marea Verde <http://www.apuntesmareaverde.org.es/>`__
-------------------------------------------------------------------
+04. `Apuntes Marea Verde <https://www.apuntesmareaverde.org.es/>`__
+-------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_apuntesmareaverde_org_es.jpg
-      :target: http://www.apuntesmareaverde.org.es/
+      :target: https://www.apuntesmareaverde.org.es/
       :alt: Screenshot de la página web Apuntes Marea Verde.
 
    .. list-table::
@@ -125,11 +125,11 @@ ranking suministrado por Similarweb.
         - 32 s
 
 
-06. `Tecnosecundaria <http://www.tecnosecundaria.es/>`__
---------------------------------------------------------
+06. `Tecnosecundaria <https://www.tecnosecundaria.es/>`__
+---------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_tecnosecundaria_es.jpg
-      :target: http://www.tecnosecundaria.es/
+      :target: https://www.tecnosecundaria.es/
       :alt: Screenshot de la página web Tecnosecundaria.
 
    .. list-table::
@@ -179,11 +179,11 @@ ranking suministrado por Similarweb.
 
 
 
-09. `Tecnopatafísica <http://tecnopatafisica.com/>`__
------------------------------------------------------
+09. `Tecnopatafísica <https://tecnopatafisica.com/>`__
+------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnopatafisica_com.jpg
-      :target: http://tecnopatafisica.com/
+      :target: https://tecnopatafisica.com/
       :alt: Screenshot de la página web Tecnopatafísica.
 
    .. list-table::
@@ -196,11 +196,11 @@ ranking suministrado por Similarweb.
         - 149 s
 
 
-10. `Aprendemos Tecnología <http://aprendemostecnologia.org/>`__
-----------------------------------------------------------------
+10. `Aprendemos Tecnología <https://aprendemostecnologia.org/>`__
+-----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-aprendemostecnologia_org.jpg
-      :target: http://aprendemostecnologia.org/
+      :target: https://aprendemostecnologia.org/
       :alt: Screenshot de la página web Aprendemos Tecnología.
 
    .. list-table::
@@ -308,11 +308,11 @@ ranking suministrado por Similarweb.
         - 53 s
 
 
-16. `Blog de José Panadero <http://josepanadero.wordpress.com/>`__
-------------------------------------------------------------------
+16. `Blog de José Panadero <https://josepanadero.wordpress.com/>`__
+-------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-josepanadero_wordpress_com.jpg
-      :target: http://josepanadero.wordpress.com/
+      :target: https://josepanadero.wordpress.com/
       :alt: Screenshot de la página web Blog de José Panadero.
 
    .. list-table::
@@ -388,11 +388,11 @@ ranking suministrado por Similarweb.
         -  s
 
 
-20. `TecnoOcho <http://tecno8demarzo.weebly.com/>`__
-----------------------------------------------------
+20. `TecnoOcho <https://tecno8demarzo.weebly.com/>`__
+-----------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecno8demarzo_weebly_com.jpg
-      :target: http://tecno8demarzo.weebly.com/
+      :target: https://tecno8demarzo.weebly.com/
       :alt: Screenshot de la página web TecnoOcho.
 
    .. list-table::
@@ -414,11 +414,11 @@ ranking suministrado por Similarweb.
         - 6059.3 k
 
 
-22. `Blog de Francisco Díaz Uceda <http://fdiazuceda.blogspot.com/>`__
-----------------------------------------------------------------------
+22. `Blog de Francisco Díaz Uceda <https://fdiazuceda.blogspot.com/>`__
+-----------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-fdiazuceda_blogspot_com.jpg
-      :target: http://fdiazuceda.blogspot.com/
+      :target: https://fdiazuceda.blogspot.com/
       :alt: Screenshot de la página web Blog de Francisco Díaz Uceda.
 
    .. list-table::
@@ -492,11 +492,11 @@ ranking suministrado por Similarweb.
         - 8852.8 k
 
 
-28. `Tecnología en la ESO <https://esoytec.blogspot.com>`__
------------------------------------------------------------
+28. `Tecnología en la ESO <https://esoytec.blogspot.com/>`__
+------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-esoytec_blogspot_com.jpg
-      :target: https://esoytec.blogspot.com
+      :target: https://esoytec.blogspot.com/
       :alt: Screenshot de la página web Tecnología en la ESO.
 
    .. list-table::
@@ -531,11 +531,11 @@ ranking suministrado por Similarweb.
         - 11120.2 k
 
 
-31. `Tecnología y más <http://tecnologiaymasgma.blogspot.com/>`__
------------------------------------------------------------------
+31. `Tecnología y más <https://tecnologiaymasgma.blogspot.com/>`__
+------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaymasgma_blogspot_com.jpg
-      :target: http://tecnologiaymasgma.blogspot.com/
+      :target: https://tecnologiaymasgma.blogspot.com/
       :alt: Screenshot de la página web Tecnología y más.
 
    .. list-table::
@@ -557,11 +557,11 @@ ranking suministrado por Similarweb.
         - 12949.9 k
 
 
-33. `Tecno Bloc <http://www.tecnobloc.com/>`__
-----------------------------------------------
+33. `Tecno Bloc <https://www.tecnobloc.com/>`__
+-----------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_tecnobloc_com.jpg
-      :target: http://www.tecnobloc.com/
+      :target: https://www.tecnobloc.com/
       :alt: Screenshot de la página web Tecno Bloc.
 
    .. list-table::
@@ -570,11 +570,11 @@ ranking suministrado por Similarweb.
         - 13362.6 k
 
 
-34. `Tecnomeler <http://tecnomeler.org/>`__
--------------------------------------------
+34. `Tecnomeler <https://tecnomeler.org/>`__
+--------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnomeler_org.jpg
-      :target: http://tecnomeler.org/
+      :target: https://tecnomeler.org/
       :alt: Screenshot de la página web Tecnomeler.
 
    .. list-table::
@@ -583,11 +583,11 @@ ranking suministrado por Similarweb.
         - 14588.9 k
 
 
-35. `Blogtecnos <http://blogtecnos.blogspot.com/>`__
-----------------------------------------------------
+35. `Blogtecnos <https://blogtecnos.blogspot.com/>`__
+-----------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-blogtecnos_blogspot_com.jpg
-      :target: http://blogtecnos.blogspot.com/
+      :target: https://blogtecnos.blogspot.com/
       :alt: Screenshot de la página web Blogtecnos.
 
    .. list-table::
@@ -609,11 +609,11 @@ ranking suministrado por Similarweb.
         - 17611.1 k
 
 
-37. `Tecnología María de Molina <http://mariademolina.blogspot.com/>`__
------------------------------------------------------------------------
+37. `Tecnología María de Molina <https://mariademolina.blogspot.com/>`__
+------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-mariademolina_blogspot_com.jpg
-      :target: http://mariademolina.blogspot.com/
+      :target: https://mariademolina.blogspot.com/
       :alt: Screenshot de la página web Tecnología María de Molina.
 
    .. list-table::
@@ -635,11 +635,11 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-39. `Raúl experimentos <http://raulexperimentos.blogspot.com/>`__
------------------------------------------------------------------
+39. `Raúl experimentos <https://raulexperimentos.blogspot.com/>`__
+------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-raulexperimentos_blogspot_com.jpg
-      :target: http://raulexperimentos.blogspot.com/
+      :target: https://raulexperimentos.blogspot.com/
       :alt: Screenshot de la página web Raúl experimentos.
 
    .. list-table::
@@ -651,11 +651,11 @@ ranking suministrado por Similarweb.
 
 
 
-40. `Blog de Tecnología de Carlos Martínez <http://tecnologiaconcarlosmartinez.blogspot.com/>`__
-------------------------------------------------------------------------------------------------
+40. `Blog de Tecnología de Carlos Martínez <https://tecnologiaconcarlosmartinez.blogspot.com/>`__
+-------------------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaconcarlosmartinez_blogspot_com.jpg
-      :target: http://tecnologiaconcarlosmartinez.blogspot.com/
+      :target: https://tecnologiaconcarlosmartinez.blogspot.com/
       :alt: Screenshot de la página web Blog de Tecnología de Carlos Martínez.
 
    .. list-table::
@@ -680,11 +680,11 @@ ranking suministrado por Similarweb.
 
 
 
-42. `Blog Area Tecnología <http://areatecnologia.blogspot.com.es/>`__
----------------------------------------------------------------------
+42. `Blog Area Tecnología <https://areatecnologia.blogspot.com.es/>`__
+----------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-areatecnologia_blogspot_com_es.jpg
-      :target: http://areatecnologia.blogspot.com.es/
+      :target: https://areatecnologia.blogspot.com.es/
       :alt: Screenshot de la página web Blog Area Tecnología.
 
    .. list-table::
@@ -693,11 +693,11 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-43. `TecnoFabri <http://tecnobri.blogspot.com/>`__
---------------------------------------------------
+43. `TecnoFabri <https://tecnobri.blogspot.com/>`__
+---------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnobri_blogspot_com.jpg
-      :target: http://tecnobri.blogspot.com/
+      :target: https://tecnobri.blogspot.com/
       :alt: Screenshot de la página web TecnoFabri.
 
    .. list-table::
@@ -745,20 +745,7 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-47. `Manual básico de consulta de Tecnología (Intef) <http://ntic.educacion.es/w3/recursos/bachillerato/tecnologia/manual/>`__
-------------------------------------------------------------------------------------------------------------------------------
-
-   .. image:: recursos/screenshots/recursos-ntic_educacion_es_w3_recursos_bachillerato_tecnologia_manual.jpg
-      :target: http://ntic.educacion.es/w3/recursos/bachillerato/tecnologia/manual/
-      :alt: Screenshot de la página web Manual básico de consulta de Tecnología (Intef).
-
-   .. list-table::
-
-      * - `Similarweb rank <https://www.similarweb.com/es/website/ntic.educacion.es/w3/recursos/bachillerato/tecnologia/manual/#overview>`__
-        - Sin datos
-
-
-48. `Tecnología Escuelas SJ <https://tecnologia.escuelassj.com/>`__
+47. `Tecnología Escuelas SJ <https://tecnologia.escuelassj.com/>`__
 -------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologia_escuelassj_com.jpg
@@ -771,7 +758,7 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-49. `Aratecno (Aragón) <https://wp.catedu.es/aratecno/>`__
+48. `Aratecno (Aragón) <https://wp.catedu.es/aratecno/>`__
 ----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-wp_catedu_es_aratecno.jpg
@@ -784,11 +771,11 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-50. `Profesoratecno <http://profesoratecno.blogspot.com/>`__
-------------------------------------------------------------
+49. `Profesoratecno <https://profesoratecno.blogspot.com/>`__
+-------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-profesoratecno_blogspot_com.jpg
-      :target: http://profesoratecno.blogspot.com/
+      :target: https://profesoratecno.blogspot.com/
       :alt: Screenshot de la página web Profesoratecno.
 
    .. list-table::
@@ -797,11 +784,11 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-51. `Tecnoeduca <http://www.tecnoeduca.com/blog/>`__
-----------------------------------------------------
+50. `Tecnoeduca <https://www.tecnoeduca.com/blog/>`__
+-----------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_tecnoeduca_com_blog.jpg
-      :target: http://www.tecnoeduca.com/blog/
+      :target: https://www.tecnoeduca.com/blog/
       :alt: Screenshot de la página web Tecnoeduca.
 
    .. list-table::
@@ -810,11 +797,11 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-52. `Tecnoilógicos <http://tecnoilogicos.blogspot.com/>`__
-----------------------------------------------------------
+51. `Tecnoilógicos <https://tecnoilogicos.blogspot.com/>`__
+-----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnoilogicos_blogspot_com.jpg
-      :target: http://tecnoilogicos.blogspot.com/
+      :target: https://tecnoilogicos.blogspot.com/
       :alt: Screenshot de la página web Tecnoilógicos.
 
    .. list-table::
@@ -823,7 +810,7 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-53. `Blog de Pedro Jara <https://pedro-jara.blogspot.com/>`__
+52. `Blog de Pedro Jara <https://pedro-jara.blogspot.com/>`__
 -------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-pedro-jara_blogspot_com.jpg
@@ -836,7 +823,7 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-54. `Tecnoinfe <https://tecnoinfe.blogspot.com/>`__
+53. `Tecnoinfe <https://tecnoinfe.blogspot.com/>`__
 ---------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnoinfe_blogspot_com.jpg
@@ -849,11 +836,11 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-55. `Tecnología Vigán <http://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/>`__
--------------------------------------------------------------------------------------
+54. `Tecnología Vigán <https://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/>`__
+--------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www3_gobiernodecanarias_org_medusa_ecoblog_ilopmon.jpg
-      :target: http://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/
+      :target: https://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/
       :alt: Screenshot de la página web Tecnología Vigán.
 
    .. list-table::
@@ -862,11 +849,11 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-56. `Tecnología IES Palti <http://iespalti.blogspot.com/>`__
-------------------------------------------------------------
+55. `Tecnología IES Palti <https://iespalti.blogspot.com/>`__
+-------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-iespalti_blogspot_com.jpg
-      :target: http://iespalti.blogspot.com/
+      :target: https://iespalti.blogspot.com/
       :alt: Screenshot de la página web Tecnología IES Palti.
 
    .. list-table::
@@ -875,7 +862,7 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-57. `Tecnología Ayala <https://tecnologiaayala.blogspot.com/>`__
+56. `Tecnología Ayala <https://tecnologiaayala.blogspot.com/>`__
 ----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaayala_blogspot_com.jpg
@@ -888,11 +875,11 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-58. `Blog de Programación y Robótica <http://programacionrobotica.blogspot.com/>`__
------------------------------------------------------------------------------------
+57. `Blog de Programación y Robótica <https://programacionrobotica.blogspot.com/>`__
+------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-programacionrobotica_blogspot_com.jpg
-      :target: http://programacionrobotica.blogspot.com/
+      :target: https://programacionrobotica.blogspot.com/
       :alt: Screenshot de la página web Blog de Programación y Robótica.
 
    .. list-table::
@@ -901,7 +888,7 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-59. `Tecnología CEO Boecillo <https://tecnologiaceoboecillo.blogspot.com/>`__
+58. `Tecnología CEO Boecillo <https://tecnologiaceoboecillo.blogspot.com/>`__
 -----------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaceoboecillo_blogspot_com.jpg
@@ -914,20 +901,7 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-60. `Blog de Antonio Moyano Cañete <http://roble.pntic.mec.es/amoc0048/>`__
----------------------------------------------------------------------------
-
-   .. image:: recursos/screenshots/recursos-roble_pntic_mec_es_amoc0048.jpg
-      :target: http://roble.pntic.mec.es/amoc0048/
-      :alt: Screenshot de la página web Blog de Antonio Moyano Cañete.
-
-   .. list-table::
-
-      * - `Similarweb rank <https://www.similarweb.com/es/website/roble.pntic.mec.es/amoc0048/#overview>`__
-        - Sin datos
-
-
-61. `Miguel Tecnología <https://sites.google.com/site/migueltecnologia/>`__
+59. `Miguel Tecnología <https://sites.google.com/site/migueltecnologia/>`__
 ---------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_site_migueltecnologia.jpg
@@ -940,7 +914,7 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-62. `Crea TEC con TIC <https://createcontic.weebly.com/>`__
+60. `Crea TEC con TIC <https://createcontic.weebly.com/>`__
 -----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-createcontic_weebly_com.jpg
@@ -953,7 +927,7 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-63. `IES El Cabanyal (Valencia) <https://sites.google.com/view/tecnologialgmeso1/>`__
+61. `IES El Cabanyal (Valencia) <https://sites.google.com/view/tecnologialgmeso1/>`__
 -------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_view_tecnologialgmeso1.jpg
@@ -966,11 +940,11 @@ ranking suministrado por Similarweb.
         - Sin datos
 
 
-64. `Ciencia y Tecnología <http://citecmat.blogspot.com.es/>`__
----------------------------------------------------------------
+62. `Ciencia y Tecnología <https://citecmat.blogspot.com.es/>`__
+----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-citecmat_blogspot_com_es.jpg
-      :target: http://citecmat.blogspot.com.es/
+      :target: https://citecmat.blogspot.com.es/
       :alt: Screenshot de la página web Ciencia y Tecnología.
 
    .. list-table::
@@ -983,7 +957,7 @@ ranking suministrado por Similarweb.
 
 
 
-65. `La Tecnología en el Villadiego <https://tecnovilladiego.blogspot.com.es/>`__
+63. `La Tecnología en el Villadiego <https://tecnovilladiego.blogspot.com.es/>`__
 ---------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnovilladiego_blogspot_com_es.jpg
@@ -1000,7 +974,7 @@ ranking suministrado por Similarweb.
 
 
 
-66. `MecanESO <http://concurso.cnice.mec.es/cnice2006/material107/>`__
+64. `MecanESO <http://concurso.cnice.mec.es/cnice2006/material107/>`__
 ----------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-concurso_cnice_mec_es_cnice2006_material107.jpg
