@@ -176,4 +176,4 @@ Videotutorial
 -------------
 
 `Redondeos, chaflanes y refuerzos.
-<https://www.youtube.com/embed/jdCREzRmiro>`__
+<https://www.youtube-nocookie.com/embed/jdCREzRmiro>`__

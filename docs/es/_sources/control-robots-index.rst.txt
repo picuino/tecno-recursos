@@ -24,58 +24,20 @@ Se ha hecho famoso por los vídeos Deep Fakes que han aparecido mostrándole
 como un robot armado y descontrolado. Aquí solo vamos a ver los vídeos de
 su funcionamiento real, cada vez más avanzado.
 
-Noviembre de 2017.
+* Noviembre de 2017. `What's new, Atlas?
+  <https://www.youtube-nocookie.com/embed/fRj34o4hN4I>`__
 
-.. raw:: html
+* Octubre de 2018.`Parkour Atlas.
+  <https://www.youtube-nocookie.com/embed/LikxFZZO2sk>`__
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/fRj34o4hN4I"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* Septiembre de 2019.`More Parkour Atlas.
+  <https://www.youtube-nocookie.com/embed/_sBBaNYex3E>`__
 
+* Diciembre de 2020. `Do You Love Me?
+  <https://www.youtube-nocookie.com/embed/fn3KWM1kuAw>`__
 
-Octubre de 2018.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/LikxFZZO2sk"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-Septiembre de 2019.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/_sBBaNYex3E"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-Diciembre de 2020.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/fn3KWM1kuAw"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-Agosto de 2021.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/tF4DML7FIWk"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* Agosto de 2021. `Atlas | Partners in Parkour.
+  <https://www.youtube-nocookie.com/embed/tF4DML7FIWk>`__
 
 
 Tesla model X
@@ -87,13 +49,8 @@ En este caso vamos a ver una demostración de noviembre de 2016 con un
 Tesla model X en la que se pueden observar los cálculos internos del
 automóvil mientras conduce de forma autónoma por la carretera.
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/VG68SKoG7vE"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `Autopilot Full Self Driving Demonstration Nov 2016.
+  <https://www.youtube-nocookie.com/embed/VG68SKoG7vE>`__
 
 
 Robot Da Vinci
@@ -101,22 +58,11 @@ Robot Da Vinci
 Este es un robot guiado, no es autónomo, que permite realizar cirugía
 a través de pequeños agujeros, llamada cirugía laparoscópica.
 
-.. raw:: html
+* `El robot cirujano Da Vinci cosiendo una uva dentro de una botella.
+  <https://www.youtube-nocookie.com/embed/rXXybevSa0o>`__
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/rXXybevSa0o"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/ZYJaf25ZEAo"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `Así funciona el robot Da Vinci - El Hormiguero.
+  <https://www.youtube-nocookie.com/embed/ZYJaf25ZEAo>`__
 
 
 Google Assistant
@@ -125,22 +71,11 @@ Este es uno de los campos donde más se está desarrollando la inteligencia
 artificial. Los asistentes virtuales como Google Assistant no son robots
 con partes móviles pero prometen ayudarnos en muchas tareas cotidianas.
 
-.. raw:: html
+* `Google Duplex: A.I. Assistant Calls Local Businesses To Make Appointments.
+  <https://www.youtube-nocookie.com/embed/D5VN56jQMWM>`__
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/D5VN56jQMWM"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/GILvyiWB7xY"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `Next Generation Google Assistant Demo - Google I/O 2019
+  <https://www.youtube-nocookie.com/embed/GILvyiWB7xY>`__
 
 
 Robots industriales
@@ -149,10 +84,5 @@ La primera aplicación de los robots fue la fabricación industrial.
 En este apartado vamos a ver varios ejemplos de robots industriales
 en su entorno de trabajo.
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/M-IzaLUZsvk"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `ROBOTICA INDUSTRIAL | Curso de Automatización Industrial #2.
+  <https://www.youtube-nocookie.com/embed/eR3JTR5nCjo>`__

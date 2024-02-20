@@ -31,7 +31,7 @@ Cursos de Python en línea
   in codedex.io webpage.
 
 * `Python tutorial on YouTube
-  <https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU>`__.
+  <https://www.youtube-nocookie.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU>`__.
 
 
 Libros de Python

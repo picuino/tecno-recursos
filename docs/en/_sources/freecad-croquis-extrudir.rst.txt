@@ -154,4 +154,4 @@ Videotutorial
 -------------
 
 `Boceto hola mundo.
-<https://www.youtube.com/embed/5fK9_Ux6t8k>`__
+<https://www.youtube-nocookie.com/embed/5fK9_Ux6t8k>`__

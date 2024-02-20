@@ -77,10 +77,5 @@ desarrollada por la Universidad de Linköping.
 Vídeo de circuitos neumáticos
 -----------------------------
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/PZUS_Eo4dKM"
-   frameborder="0" allowfullscreen></iframe>
-   </div>
-
+* `Circuitos neumáticos.
+  <https://www.youtube-nocookie.com/embed/PZUS_Eo4dKM>`__

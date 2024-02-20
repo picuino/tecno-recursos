@@ -125,4 +125,4 @@ Videotutorial
 -------------
 
 `Introducción.
-<https://www.youtube.com/embed/2_DbFzFV9D4>`__
+<https://www.youtube-nocookie.com/embed/2_DbFzFV9D4>`__

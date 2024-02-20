@@ -131,4 +131,4 @@ Videotutorial
 -------------
 
 `Marcando la diferencia.
-<https://www.youtube.com/embed/3LsHR57grk0>`__
+<https://www.youtube-nocookie.com/embed/3LsHR57grk0>`__

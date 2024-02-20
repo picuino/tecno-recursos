@@ -159,4 +159,4 @@ Videotutorial
 -------------
 
 `Aplicando restricciones.
-<https://www.youtube.com/embed/dVg5uBciurs>`__
+<https://www.youtube-nocookie.com/embed/dVg5uBciurs>`__

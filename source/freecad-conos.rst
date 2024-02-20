@@ -141,4 +141,4 @@ Videotutorial
 -------------
 
 `Usando conos.
-<https://www.youtube.com/embed/eqh_KMsePPU>`__
+<https://www.youtube-nocookie.com/embed/eqh_KMsePPU>`__

@@ -121,4 +121,4 @@ Videotutorial
 -------------
 
 `Propiedades de visualización.
-<https://www.youtube.com/embed/dOdAtUmgW4k>`__
+<https://www.youtube-nocookie.com/embed/dOdAtUmgW4k>`__

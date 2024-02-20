@@ -138,4 +138,4 @@ Videotutorial
 -------------
 
 `Trasladando cubos.
-<https://www.youtube.com/embed/Mh8cC7F_R4k>`__
+<https://www.youtube-nocookie.com/embed/Mh8cC7F_R4k>`__

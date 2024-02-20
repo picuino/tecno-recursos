@@ -213,14 +213,11 @@ cuando soplaba la brisa del verano en que se inauguró.
 Al llegar el otoño, un viento de apenas 64 kilómetros por hora
 derrumbó el puente, afortunadamente sin producir muertes.
 Puedes ver una grabación del suceso en
-`YouTube <https://www.youtube.com/watch?v=j-zczJXSxnw>`_.
+YouTube:
 
-.. raw:: html
+* `Tacoma Narrows Bridge Collapse "Gallopin' Gertie".
+  <https://www.youtube-nocookie.com/embed/j-zczJXSxnw>`__
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/j-zczJXSxnw"
-   frameborder="0" allowfullscreen></iframe>
-   </div>
 
 Sin llegar a ser tan dramáticas, las oscilaciones pueden producir en
 otros casos ruidos y vibraciones muy molestas.
@@ -247,15 +244,11 @@ Amortiguar la estructura
    en algunos edificios resistentes a terremotos. Un amortiguador es
    un elemento que frena las oscilaciones y reduce la resonancia.
 
-   `Amortiguador de masa sintonizada
-   <https://www.youtube.com/embed/7SCUGTA8xEI>`__
+* `Amortiguador de masa sintonizada
+  <https://www.youtube-nocookie.com/embed/7SCUGTA8xEI>`__
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/QUI7acilEJo"
-   frameborder="0" allowfullscreen></iframe>
-   </div>
+* `Ejemplo didactico de estructura sismo resistente.
+  <https://www.youtube-nocookie.com/embed/QUI7acilEJo>`__
 
 
 -------------

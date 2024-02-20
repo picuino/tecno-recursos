@@ -180,12 +180,8 @@ alimentados los cables horizontales que producen fuerza de giro.
 
 Explicación del motor de corriente continua o de corriente directa (CD).
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/A_VGpRxFzXQ"
-   frameborder="0" allowfullscreen></iframe>
-   </div>
+* `¿Cómo funciona un motor eléctrico? Motor de CD Explicado.
+  <https://www.youtube-nocookie.com/embed/A_VGpRxFzXQ>`__
 
 En los **motores de inducción** los cables del rotor se sustituyen
 por barras conductoras. El campo magnético del estator es giratorio
@@ -197,12 +193,8 @@ Fabricación de un motor eléctrico
 Experimento para construir un pequeño motor eléctrico de corriente
 continua.
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/q35IjXC54H8"
-   frameborder="0" allowfullscreen></iframe>
-   </div>
+* `Experimento: Motor eléctrico.
+  <https://www.youtube-nocookie.com/embed/q35IjXC54H8>`__
 
 
 El variador de frecuencia

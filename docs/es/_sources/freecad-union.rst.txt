@@ -204,4 +204,4 @@ Videotutorial
 -------------
 
 `La union hace la fuerza.
-<https://www.youtube.com/embed/mntnhxidqoA>`__
+<https://www.youtube-nocookie.com/embed/mntnhxidqoA>`__

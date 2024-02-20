@@ -285,12 +285,8 @@ antes de comenzar unos conceptos claros sobre cómo realizarla correctamente.
 En el siguiente vídeo se puede ver la técnica correcta para la soldadura
 de los componentes.
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/vAx89WhpZ3k"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-   </iframe> </div>
+* `Solder Through-hole Components - Soldering Techniques #02.
+  <https://www.youtube-nocookie.com/embed/vAx89WhpZ3k>`__
 
 
 En el siguiente vídeo podemos observar la gran diferencia que hay entre
@@ -298,24 +294,16 @@ un estaño de soldadura de buena calidad y otro de baja calidad.
 El estaño de buena calidad es mucho más sencillo de trabajar y deja una
 soldadura brillante, menos oxidada y más robusta.
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/5Ku7I3hA3AA"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-   </iframe> </div>
+* `Solder wire - Low vs High Quality.
+  <https://www.youtube-nocookie.com/embed/5Ku7I3hA3AA>`__
 
 
 El siguiente vídeo nos muestra la utilidad del flux en soldadura.
 Al mantener caliente un punto de soldadura durante un tiempo excesivo,
 el flux se evapora y la soldadura se oxida y pierde brillo.
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/tfIwHuGzUEk"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-   </iframe> </div>
+* `When to use Flux?
+  <https://www.youtube-nocookie.com/embed/tfIwHuGzUEk>`__
 
 
 Reparar una soldadura
@@ -328,9 +316,5 @@ el estaño de soldadura con una malla de hilos finos de cobre.
 
 En el siguiente vídeo se pueden observar algunas técnicas de desoldar.
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/bG7yW9FigJA"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-   </iframe> </div>
+* `Desoldering | Soldering for Beginners.
+  <https://www.youtube-nocookie.com/embed/bG7yW9FigJA>`__

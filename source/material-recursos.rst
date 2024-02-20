@@ -11,47 +11,26 @@ Recursos para materiales
 Los materiales y la humanidad
 -----------------------------
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/2JqyeY9eW3U"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-   </iframe> </div>
+* `Los materiales y la humanidad. Parte 1.
+  <https://www.youtube-nocookie.com/embed/2JqyeY9eW3U>`__
 
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/8--Nmvcy-cg"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-   </iframe> </div>
+* `Los materiales y la humanidad. Parte 2.
+  <https://www.youtube-nocookie.com/embed/8--Nmvcy-cg>`__
 
 
 Historia de las cosas
 ---------------------
 
-Historia de las cosas (The Story of Stuff) con Annie Leonard.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/ykfp1WvVqAY"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-   </iframe> </div>
-
-https://www.youtube.com/watch?v=ykfp1WvVqAY
+* `Historia de las cosas (The Story of Stuff) con Annie Leonard.
+  <https://www.youtube-nocookie.com/embed/ykfp1WvVqAY>`__
 
 
 Historia del agua embotellada
 -----------------------------
 
-.. raw:: html
+* `La Historia del Agua Embotellada con Annie Leonard.
+  <https://www.youtube-nocookie.com/embed/9ICFp-7RgS4>`__
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/9ICFp-7RgS4"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-   </iframe> </div>
-
-https://www.youtube.com/watch?v=9ICFp-7RgS4
 
 

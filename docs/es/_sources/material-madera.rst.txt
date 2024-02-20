@@ -70,7 +70,7 @@ algunas propiedades comunes a todas ellas.
    despegándose.
 
    `Experimento de palillos en forma de estrella + agua
-   <https://www.youtube.com/embed/rnauo1JWI3U>`__
+   <https://www.youtube-nocookie.com/embed/rnauo1JWI3U>`__
 
 **Oxidación de la madera**
    Aunque la madera es muy resistente a la oxidación, en condiciones
@@ -127,7 +127,7 @@ Obtención de la madera
    Es el proceso de cortar el tronco del árbol.
    Una vez cortado se eliminan las ramas más pequeñas.
 
-   `John Deere 1470G harvester <https://www.youtube.com/embed/tduKbc_51XA>`__
+   `John Deere 1470G harvester <https://www.youtube-nocookie.com/embed/tduKbc_51XA>`__
 
 **Transporte**
    Los troncos cortados se transportan desde el bosque
@@ -139,7 +139,7 @@ Obtención de la madera
 
    También se pueden laminar los troncos con una cuchilla
    para obtener chapas de madera.
-   `Torno Laminador <https://www.youtube.com/embed/IN2su7iVmw8>`__
+   `Torno Laminador <https://www.youtube-nocookie.com/embed/IN2su7iVmw8>`__
 
 **Replantado**
    Para que la madera sea un recurso renovable, es necesario volver
@@ -213,7 +213,7 @@ Derivados de la madera
   Su proceso de fabricación es semejante al del papel, pero no se blanquean
   las fibras. Suele contener papel reciclado.
 
-  `El cartón corrugado <https://www.youtube.com/embed/GeZDRN8PT3c>`__
+  `El cartón corrugado <https://www.youtube-nocookie.com/embed/GeZDRN8PT3c>`__
   está formado por varias láminas de papel pegadas entre sí, con la
   lámina central ondulada.
 

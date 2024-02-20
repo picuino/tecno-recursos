@@ -12,13 +12,9 @@ Recursos para programación
 Antonio García el niño programador
 ----------------------------------
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/a7SsRuA1KDU"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `El niño de 11 años que ha inventado más de 100 videojuegos propios - 
+  El Hormiguero 3.0.
+  <https://www.youtube-nocookie.com/embed/a7SsRuA1KDU>`__
 
 
 Videocursos de programación

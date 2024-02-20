@@ -638,13 +638,8 @@ almacenamiento se puedan optimizar y compartir entre varios ordenadores.
       y películas en los servidores de Amazon (AWS) para servirlos por
       streaming.
 
-      .. raw:: html
-
-         <div class="video-center">
-         <iframe src="https://www.youtube-nocookie.com/embed/XZmGGAbHqa0"
-         frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-         gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </div>
+      * `Inside a Google data center.
+        <https://www.youtube-nocookie.com/embed/XZmGGAbHqa0>`__
 
 
 Test de la unidad

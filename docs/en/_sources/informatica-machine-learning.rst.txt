@@ -61,92 +61,40 @@ como los potenciales desafíos y riesgos.
 Vídeos de DotCSV
 ----------------
 
-DotCSV. ¿Tiene la IA de Google CONSCIENCIA? No, pero me preocupa... (LaMDA).
+* `¿Tiene la IA de Google CONSCIENCIA? 👉 NO, pero me preocupa... (LaMDA).
+  <https://www.youtube-nocookie.com/embed/Ko7WFx4rUw0>`__
 
-.. raw:: html
+* `DotCSV. GATO: La nueva IA de DeepMind que lo aprende TODO.
+  <https://www.youtube-nocookie.com/embed/EoZFxj-qhUY>`__
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/Ko7WFx4rUw0"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-----
-
-DotCSV. GATO: La nueva IA de DeepMind que lo aprende TODO.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/EoZFxj-qhUY"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-----
-
-DotCSV. Esta Inteligencia Artificial ESCRIBE MEJOR QUE TÚ... GPT-3.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/C1eOiOkD_8A"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `DotCSV. Esta Inteligencia Artificial ESCRIBE MEJOR QUE TÚ... GPT-3.
+  <https://www.youtube-nocookie.com/embed/C1eOiOkD_8A>`__
 
 
 Vídeos de Jaime Altozano
 ------------------------
 
-Jaime Altozano. ¿Qué significa realmente "Inteligencia Artificial"?
-Subespacios, pareidolias y creatividad.
+* `¿Qué significa realmente "Inteligencia Artificial"? Subespacios,
+  pareidolias y creatividad.
+  <https://www.youtube-nocookie.com/embed/3eMmmj3roOs>`__
 
-.. raw:: html
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/3eMmmj3roOs"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-----
-
-Jaime Altozano. Hablemos de inteligencias artificiales.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/GqKnlBq2MA4"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `Jaime Altozano. Hablemos de inteligencias artificiales.
+  <https://www.youtube-nocookie.com/embed/GqKnlBq2MA4>`__
 
 
 Vídeos TED
 ----------
 
-Jeremy Howard: Las maravillosas y pavorosas consecuencias de los
-computadores que pueden aprender.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/t4kyRyKyOpo"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `Jeremy Howard: Las maravillosas y pavorosas consecuencias de los
+   computadores que pueden aprender.
+  <https://www.youtube-nocookie.com/embed/t4kyRyKyOpo>`__
 
 
 Vídeos de Veritasium
 --------------------
 Computadoras e Inteligencia Artificial.
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/qNtxODk_Lmk"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `El Futuro de las Computadoras Será Radicalmente Diferente.
+  <https://www.youtube-nocookie.com/embed/qNtxODk_Lmk>`__
 

@@ -67,11 +67,11 @@ Impresoras 3D
 -------------
 
 `Cómo Funciona una Impresora 3D
-<https://www.youtube.com/watch?v=C4HAJ5HLuB4>`__
+<https://www.youtube-nocookie.com/watch?v=C4HAJ5HLuB4>`__
 
 `Casas habitables impresas en 3d en tiempo récord
-<https://www.youtube.com/watch?v=zB4Bykv11Ag>`__
+<https://www.youtube-nocookie.com/watch?v=zB4Bykv11Ag>`__
 
 `10 Consejos para Aprender 3D
-<https://www.youtube.com/watch?v=58hWw9bkL2I>`__
+<https://www.youtube-nocookie.com/watch?v=58hWw9bkL2I>`__
 

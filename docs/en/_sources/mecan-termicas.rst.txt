@@ -17,123 +17,45 @@ Máquina de vapor
 
 Gran motor de vapor moviendo los telares de una fábrica.
 
-.. raw:: html
+* `Big Steam Engine.
+  <https://www.youtube-nocookie.com/embed/ZPWQiAS6kd8>`__
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/ZPWQiAS6kd8"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `Pequeño motor de vapor de 1890.
+  <https://www.youtube-nocookie.com/embed/TSxTVFHOt4I>`__
 
+* `Locomotora de vapor.
+  <https://www.youtube-nocookie.com/embed/MvQJ7Eeu9Ck>`__
 
-Pequeño motor de vapor de 1890.
+* `Exposición de tractores a vapor.
+  <https://www.youtube-nocookie.com/embed/xSl6NaMzfTc>`__
 
-.. raw:: html
+* `Automóvil a vapor.
+  <https://www.youtube-nocookie.com/embed/GtxA5a9F9QQ>`__
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/TSxTVFHOt4I"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-Locomotora de vapor.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/MvQJ7Eeu9Ck"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-Exposición de tractores a vapor.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/xSl6NaMzfTc"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-Coche a vapor.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/GtxA5a9F9QQ"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-Barco a vapor.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/jCWIy15SvUg"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `Barco a vapor.
+  <https://www.youtube-nocookie.com/embed/jCWIy15SvUg>`__
 
 
 Motor de explosión
 ------------------
 
-Explicación del motor de 4 tiempos.
+* `Explicación del motor de 4 tiempos.
+  <https://www.youtube-nocookie.com/embed/segzLXBXOFA>`__
 
-.. raw:: html
+* `Principio de motores a gasolina.
+  <https://www.youtube-nocookie.com/embed/CE68N3hSa_Y>`__
 
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/segzLXBXOFA"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/CE68N3hSa_Y"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-
-Motor diesel de barco
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/S0CAroqh-IU"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `Motor diésel de barco.
+  <https://www.youtube-nocookie.com/embed/S0CAroqh-IU>`__
 
 
 
 Motor a reacción
 ----------------
 
-Cómo funciona un motor a reacción.
-
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/Y_0Z3xHfUVE"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `Cómo funciona un motor a reacción.
+  <https://www.youtube-nocookie.com/embed/Y_0Z3xHfUVE>`__
 
 
-.. raw:: html
-
-   <div class="video-center">
-   <iframe src="https://www.youtube-nocookie.com/embed/XDkqcTQTCr4"
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-   gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+* `¿Cómo funciona un turborreactor? ¿Qué es un turbofan, y postcombustión?
+  <https://www.youtube-nocookie.com/embed/XDkqcTQTCr4>`__
