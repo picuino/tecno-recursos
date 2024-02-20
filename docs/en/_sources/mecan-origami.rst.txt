@@ -11,49 +11,48 @@ Papiroflexia
 Papiroflexia de nivel inicial
 -----------------------------
 
-`Pajarita de papel
-<https://www.youtube-nocookie.com/watch?v=5zTV6KB_Ojo>`__
+* `Pajarita de papel
+  <https://www.youtube-nocookie.com/embed/5zTV6KB_Ojo>`__
 
-`Rana de papel
-<https://www.youtube-nocookie.com/watch?v=qN-kqxSCMYA>`__
+* `Rana de papel
+  <https://www.youtube-nocookie.com/embed/qN-kqxSCMYA>`__
 
-`Cisne de papel
-<https://www.youtube-nocookie.com/watch?v=74nzymLdanc>`__
+* `Cisne de papel
+  <https://www.youtube-nocookie.com/embed/74nzymLdanc>`__
 
-`Foca de papel
-<https://www.youtube-nocookie.com/watch?v=xCpSq5BAPXM>`__
+* `Foca de papel
+  <https://www.youtube-nocookie.com/embed/xCpSq5BAPXM>`__
 
-`Pez de papel
-<https://www.youtube-nocookie.com/watch?v=5HC-v-Lpluc>`__
+* `Pez de papel
+  <https://www.youtube-nocookie.com/embed/5HC-v-Lpluc>`__
 
-`Grulla de papel
-<https://www.youtube-nocookie.com/watch?v=LLbWxDWqtQg>`__
+* `Grulla de papel
+  <https://www.youtube-nocookie.com/embed/LLbWxDWqtQg>`__
 
 
 Papiroflexia de nivel medio
 ---------------------------
 
-`Tortuga de papel
-<https://www.youtube-nocookie.com/watch?v=xbYMe2lNKNs>`__
+* `Tortuga de papel
+  <https://www.youtube-nocookie.com/embed/xbYMe2lNKNs>`__
 
-`F15 Eagle Jet Fighter Paper Plane
-<https://www.youtube-nocookie.com/watch?v=_WnAsrh3XvQ>`__
-
+* `F15 Eagle Jet Fighter Paper Plane
+  <https://www.youtube-nocookie.com/embed/_WnAsrh3XvQ>`__
 
 
 POP-UP de papel
 ---------------
-`Pop-Up. Paralelogramos y Triángulos.
-<https://www.youtube-nocookie.com/watch?v=43swfl1vACE>`__
+* `Pop-Up. Paralelogramos y Triángulos.
+  <https://www.youtube-nocookie.com/embed/43swfl1vACE>`__
 
-`Pop-Up. Plegados en V.
-<https://www.youtube-nocookie.com/watch?v=43swfl1vACE>`__
+* `Pop-Up. Plegados en V.
+  <https://www.youtube-nocookie.com/embed/43swfl1vACE>`__
 
-`Pop-Up. Efecto de profundidad con paralelos.
-<https://www.youtube-nocookie.com/watch?v=Y0udGsGCP_0>`__
+* `Pop-Up. Efecto de profundidad con paralelos.
+  <https://www.youtube-nocookie.com/embed/Y0udGsGCP_0>`__
 
 
 Flying man
 ----------
-`The Flying Man de @robives.
-<https://www.youtube-nocookie.com/watch?v=Ap6jJ3Oo9lQ>`__
+* `The Flying Man de @robives.
+  <https://www.youtube-nocookie.com/embed/Ap6jJ3Oo9lQ>`__
