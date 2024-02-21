@@ -203,5 +203,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`La union hace la fuerza.
+Vídeo: `la unión hace la fuerza.
 <https://www.youtube-nocookie.com/embed/mntnhxidqoA>`__

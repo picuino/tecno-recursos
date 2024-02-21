@@ -153,5 +153,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Boceto hola mundo.
+Vídeo: `boceto hola mundo.
 <https://www.youtube-nocookie.com/embed/5fK9_Ux6t8k>`__

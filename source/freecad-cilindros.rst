@@ -160,5 +160,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Cilindros y pacman.
+Vídeo: `cilindros y pacman.
 <https://www.youtube-nocookie.com/embed/jDaJpLadCjE>`__

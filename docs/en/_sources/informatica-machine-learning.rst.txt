@@ -61,32 +61,32 @@ como los potenciales desafíos y riesgos.
 Vídeos de DotCSV
 ----------------
 
-* `¿Tiene la IA de Google CONSCIENCIA? 👉 NO, pero me preocupa... (LaMDA).
+* Vídeo: `¿Tiene la IA de Google CONSCIENCIA? 👉 NO, pero me preocupa... (LaMDA).
   <https://www.youtube-nocookie.com/embed/Ko7WFx4rUw0>`__
 
-* `DotCSV. GATO: La nueva IA de DeepMind que lo aprende TODO.
+* Vídeo: `DotCSV. GATO: La nueva IA de DeepMind que lo aprende TODO.
   <https://www.youtube-nocookie.com/embed/EoZFxj-qhUY>`__
 
-* `DotCSV. Esta Inteligencia Artificial ESCRIBE MEJOR QUE TÚ... GPT-3.
+* Vídeo: `DotCSV. Esta Inteligencia Artificial ESCRIBE MEJOR QUE TÚ... GPT-3.
   <https://www.youtube-nocookie.com/embed/C1eOiOkD_8A>`__
 
 
 Vídeos de Jaime Altozano
 ------------------------
 
-* `¿Qué significa realmente "Inteligencia Artificial"? Subespacios,
+* Vídeo: `¿Qué significa realmente "Inteligencia Artificial"? Subespacios,
   pareidolias y creatividad.
   <https://www.youtube-nocookie.com/embed/3eMmmj3roOs>`__
 
 
-* `Jaime Altozano. Hablemos de inteligencias artificiales.
+* Vídeo: `Jaime Altozano. Hablemos de inteligencias artificiales.
   <https://www.youtube-nocookie.com/embed/GqKnlBq2MA4>`__
 
 
 Vídeos TED
 ----------
 
-* `Jeremy Howard. Las maravillosas y pavorosas consecuencias de los
+* Vídeo: `Jeremy Howard. Las maravillosas y pavorosas consecuencias de los
   computadores que pueden aprender.
   <https://www.youtube-nocookie.com/embed/t4kyRyKyOpo>`__
 
@@ -95,6 +95,6 @@ Vídeos de Veritasium
 --------------------
 Computadoras e Inteligencia Artificial.
 
-* `El Futuro de las Computadoras Será Radicalmente Diferente.
+* Vídeo: `El Futuro de las Computadoras Será Radicalmente Diferente.
   <https://www.youtube-nocookie.com/embed/qNtxODk_Lmk>`__
 

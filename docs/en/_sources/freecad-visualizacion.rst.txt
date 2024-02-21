@@ -120,5 +120,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Propiedades de visualización.
+Vídeo: `Propiedades de visualización.
 <https://www.youtube-nocookie.com/embed/dOdAtUmgW4k>`__

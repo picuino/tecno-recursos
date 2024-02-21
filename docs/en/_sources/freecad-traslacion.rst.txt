@@ -137,5 +137,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Trasladando cubos.
+Vídeo: `trasladando cubos.
 <https://www.youtube-nocookie.com/embed/Mh8cC7F_R4k>`__

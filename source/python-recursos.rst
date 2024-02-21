@@ -30,17 +30,17 @@ Cursos de Python en línea
 * `The legend of Python <https://www.codedex.io/python>`__
   in codedex.io webpage.
 
-* `Python tutorial on YouTube
+* Vídeo: `Python tutorial on YouTube
   <https://www.youtube-nocookie.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU>`__.
 
 
 Libros de Python
 ----------------
 
-* `Python para Principiantes
-  <https://www.amazon.es/Python-para-Principiantes-Programaci%C3%B3n-principiantes/dp/B087SG2H2X?&linkCode=sl1&tag=libros-python-espanol-21&linkId=87849cf1498c25351777aab68718af8a&language=es_ES&ref_=as_li_ss_tl>`__.
+* `Python para Principiantes.
+  <https://www.amazon.es/Python-para-Principiantes-Programaci%C3%B3n-principiantes/dp/B087SG2H2X>`__.
 
-* `Introducción a la programación con Python 3 (Universidad Jaume I Castellón)
+* `Introducción a la programación con Python 3 (Universidad Jaume I Castellón).
   <https://repositori.uji.es/xmlui/handle/10234/102653>`__.
 
 

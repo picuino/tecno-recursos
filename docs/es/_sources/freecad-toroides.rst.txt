@@ -185,5 +185,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Usando toros.
+Vídeo: `usando toros.
 <https://www.youtube-nocookie.com/embed/1G78YHRapsI>`__

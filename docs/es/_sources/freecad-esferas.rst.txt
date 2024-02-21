@@ -218,5 +218,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Con un par de esferas
+Vídeo: `con un par de esferas
 <https://www.youtube-nocookie.com/embed/FChk-69h8SY>`__

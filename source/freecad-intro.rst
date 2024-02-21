@@ -124,5 +124,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Introducción.
+Vídeo: `introducción a FreeCAD.
 <https://www.youtube-nocookie.com/embed/2_DbFzFV9D4>`__

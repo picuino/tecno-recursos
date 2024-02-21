@@ -12,15 +12,15 @@ Recursos para programación
 Antonio García el niño programador
 ----------------------------------
 
-* `El niño de 11 años que ha inventado más de 100 videojuegos propios - 
-  El Hormiguero 3.0.
+* Vídeo: `El niño de 11 años que ha inventado más de 100 videojuegos
+  propios - El Hormiguero 3.0.
   <https://www.youtube-nocookie.com/embed/a7SsRuA1KDU>`__
 
 
 Videocursos de programación
 ---------------------------
-`Herramientas digitales para diversos lenguajes de programación.
-<https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/>`__
+* Vídeo: `Herramientas digitales para diversos lenguajes de programación.
+  <https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/>`__
 
 
 

@@ -244,5 +244,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Extrusiones y vaciados de bocetos.
+Vídeo: `extrusiones y vaciados de bocetos.
 <https://www.youtube-nocookie.com/embed/dSSEbTNAGts>`__

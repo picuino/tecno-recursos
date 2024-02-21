@@ -600,7 +600,7 @@ la entrada como la salida de datos del ordenador.
          via Wikimedia Commons.
 
 
-      `Explicación de Jaime Altozano sobre las tarjetas de sonido
+      Vídeo: `Explicación de Jaime Altozano sobre las tarjetas de sonido
       <https://www.youtube-nocookie.com/embed/4Wp8X7MvGB0>`__.
 
 

@@ -208,7 +208,7 @@ genera pasará por el cable y el generador o el cable se quemarán.
    No repitas este experimento bajo ninguna circunstancia,
    es muy peligroso.
 
-   `Batería de litio explota debido a un cortocircuito provocado
+   Vídeo: `batería de litio explota debido a un cortocircuito provocado
    <https://www.youtube-nocookie.com/embed/WpvTHSF9xNY>`__.
 
 

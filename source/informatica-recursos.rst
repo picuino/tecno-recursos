@@ -55,6 +55,6 @@ antiguos tutoriales creados para Flash Player.
 Computadoras analógicas y digitales
 -----------------------------------
 
-* `Las Computadoras Superpoderosas de las que Nunca te Contaron.
+* Vídeo: `Las Computadoras Superpoderosas de las que Nunca te Contaron.
   <https://www.youtube-nocookie.com/embed/PQeS7sfMxR4>`__
 

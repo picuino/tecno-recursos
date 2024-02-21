@@ -17,35 +17,35 @@ Máquina de vapor
 
 Gran motor de vapor moviendo los telares de una fábrica.
 
-* `Big Steam Engine.
+* Vídeo: `Big Steam Engine.
   <https://www.youtube-nocookie.com/embed/ZPWQiAS6kd8>`__
 
-* `Pequeño motor de vapor de 1890.
+* Vídeo: `Pequeño motor de vapor de 1890.
   <https://www.youtube-nocookie.com/embed/TSxTVFHOt4I>`__
 
-* `Locomotora de vapor.
+* Vídeo: `Locomotora de vapor.
   <https://www.youtube-nocookie.com/embed/MvQJ7Eeu9Ck>`__
 
-* `Exposición de tractores a vapor.
+* Vídeo: `Exposición de tractores a vapor.
   <https://www.youtube-nocookie.com/embed/xSl6NaMzfTc>`__
 
-* `Automóvil a vapor.
+* Vídeo: `Automóvil a vapor.
   <https://www.youtube-nocookie.com/embed/GtxA5a9F9QQ>`__
 
-* `Barco a vapor.
+* Vídeo: `Barco a vapor.
   <https://www.youtube-nocookie.com/embed/jCWIy15SvUg>`__
 
 
 Motor de explosión
 ------------------
 
-* `Explicación del motor de 4 tiempos.
+* Vídeo: `Explicación del motor de 4 tiempos.
   <https://www.youtube-nocookie.com/embed/segzLXBXOFA>`__
 
-* `Principio de motores a gasolina.
+* Vídeo: `Principio de motores a gasolina.
   <https://www.youtube-nocookie.com/embed/CE68N3hSa_Y>`__
 
-* `Motor diésel de barco.
+* Vídeo: `Motor diésel de barco.
   <https://www.youtube-nocookie.com/embed/S0CAroqh-IU>`__
 
 
@@ -53,9 +53,10 @@ Motor de explosión
 Motor a reacción
 ----------------
 
-* `Cómo funciona un motor a reacción.
+* Vídeo: `Cómo funciona un motor a reacción.
   <https://www.youtube-nocookie.com/embed/Y_0Z3xHfUVE>`__
 
 
-* `¿Cómo funciona un turborreactor? ¿Qué es un turbofan, y postcombustión?
+* Vídeo: `¿Cómo funciona un turborreactor? ¿Qué es un turbofan, y
+  postcombustión?
   <https://www.youtube-nocookie.com/embed/XDkqcTQTCr4>`__

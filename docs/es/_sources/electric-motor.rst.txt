@@ -180,7 +180,7 @@ alimentados los cables horizontales que producen fuerza de giro.
 
 Explicación del motor de corriente continua o de corriente directa (CD).
 
-* `¿Cómo funciona un motor eléctrico? Motor de CD Explicado.
+* Vídeo: `¿Cómo funciona un motor eléctrico? Motor de CD Explicado.
   <https://www.youtube-nocookie.com/embed/A_VGpRxFzXQ>`__
 
 En los **motores de inducción** los cables del rotor se sustituyen
@@ -193,7 +193,7 @@ Fabricación de un motor eléctrico
 Experimento para construir un pequeño motor eléctrico de corriente
 continua.
 
-* `Experimento: Motor eléctrico.
+* Vídeo: `experimento: Motor eléctrico.
   <https://www.youtube-nocookie.com/embed/q35IjXC54H8>`__
 
 

@@ -285,7 +285,7 @@ antes de comenzar unos conceptos claros sobre cómo realizarla correctamente.
 En el siguiente vídeo se puede ver la técnica correcta para la soldadura
 de los componentes.
 
-* `Solder Through-hole Components - Soldering Techniques #02.
+* Vídeo: `solder Through-hole Components - Soldering Techniques #02.
   <https://www.youtube-nocookie.com/embed/vAx89WhpZ3k>`__
 
 
@@ -294,7 +294,7 @@ un estaño de soldadura de buena calidad y otro de baja calidad.
 El estaño de buena calidad es mucho más sencillo de trabajar y deja una
 soldadura brillante, menos oxidada y más robusta.
 
-* `Solder wire - Low vs High Quality.
+* Vídeo: `solder wire - Low vs High Quality.
   <https://www.youtube-nocookie.com/embed/5Ku7I3hA3AA>`__
 
 
@@ -302,7 +302,7 @@ El siguiente vídeo nos muestra la utilidad del flux en soldadura.
 Al mantener caliente un punto de soldadura durante un tiempo excesivo,
 el flux se evapora y la soldadura se oxida y pierde brillo.
 
-* `When to use Flux?
+* Vídeo: `when to use Flux?
   <https://www.youtube-nocookie.com/embed/tfIwHuGzUEk>`__
 
 
@@ -316,5 +316,5 @@ el estaño de soldadura con una malla de hilos finos de cobre.
 
 En el siguiente vídeo se pueden observar algunas técnicas de desoldar.
 
-* `Desoldering | Soldering for Beginners.
+* Vídeo: `desoldering | Soldering for Beginners.
   <https://www.youtube-nocookie.com/embed/bG7yW9FigJA>`__

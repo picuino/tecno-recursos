@@ -158,5 +158,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Aplicando restricciones.
+Vídeo: `aplicando restricciones.
 <https://www.youtube-nocookie.com/embed/dVg5uBciurs>`__

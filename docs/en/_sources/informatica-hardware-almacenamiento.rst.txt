@@ -252,7 +252,7 @@ de almacenamiento.
       Desventajas de los SSD:
          * Menor resistencia a un gran número de escrituras.
          * Mayor precio por gigabyte.
-           0,140€/GB de un SSD frente a 0,024€/GB de un HDD en 2022.
+           140€/TB de un SSD frente a 24€/TB de un HDD en 2022.
 
 
    SMART
@@ -638,7 +638,7 @@ almacenamiento se puedan optimizar y compartir entre varios ordenadores.
       y películas en los servidores de Amazon (AWS) para servirlos por
       streaming.
 
-      * `Inside a Google data center.
+      * Vídeo: `Inside a Google data center.
         <https://www.youtube-nocookie.com/embed/XZmGGAbHqa0>`__
 
 

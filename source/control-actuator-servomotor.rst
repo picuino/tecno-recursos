@@ -27,7 +27,7 @@ de forma lineal.
 
 Aplicaciones típicas que utilizan servomotores son:
 
-  * `Compuerta de un panel de aire acondicionado
+  * Vídeo: `Compuerta de un panel de aire acondicionado
     <https://www.youtube-nocookie.com/embed/_xZjp3gaNE4>`__
   * Giro de la dirección de un vehículo a radio control.
   * Movimiento del cabezal de lectura de un lector de CDROM o DVD.
@@ -52,8 +52,7 @@ y la señal de control.
 
 **Composición interna:**
 
-Vídeo en YouTube de un fabricante, que explica la
-`composición y funcionamiento interno de un servomotor
+Vídeo: `composición y funcionamiento interno de un servomotor
 <https://www.youtube-nocookie.com/embed/ZZhuD78BLDk>`__
 
 
@@ -106,7 +105,7 @@ su velocidad de giro y su rango de acción.
 En una imagen de osciloscopio también puede verse la señal electrónica
 que controla el servomotor.
 
-* `RC servo processor.
+* Vídeo: `RC servo processor.
   <https://www.youtube-nocookie.com/embed/em4JUrM49FI>`__
 
 Esquema de conexión
@@ -227,7 +226,7 @@ Ejercicios
 Extras
 ------
 
- * Explicación en inglés del `funcionamiento de un servomotor
+ * Vídeo: explicación en inglés del `funcionamiento de un servomotor
    <https://www.youtube-nocookie.com/embed/hg3TIFIxWCo>`__
- * `How Servo Motors Work & How To Control Servos using Arduino
+ * Vídeo: `how Servo Motors Work & How To Control Servos using Arduino
    <https://www.youtube-nocookie.com/embed/LXURLvga8bQ>`__

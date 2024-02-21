@@ -31,6 +31,6 @@ V Encuentro EDUCACIÓN 3.0 'Robótica y programación en el
 aula: todas las claves'. Con la participación de editorial Edelvives,
 BQ Educación, y profesores de la materia.
 
-* `V Encuentro EDUCACIÓN 3.0
+* Vídeo: `V Encuentro EDUCACIÓN 3.0
   <https://www.youtube-nocookie.com/embed/fnMC1I7tCqA>`__
 

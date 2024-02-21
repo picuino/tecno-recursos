@@ -215,7 +215,7 @@ derrumbó el puente, afortunadamente sin producir muertes.
 Puedes ver una grabación del suceso en
 YouTube:
 
-* `Tacoma Narrows Bridge Collapse "Gallopin' Gertie".
+* Vídeo: `Tacoma Narrows Bridge Collapse "Gallopin' Gertie".
   <https://www.youtube-nocookie.com/embed/j-zczJXSxnw>`__
 
 
@@ -244,10 +244,10 @@ Amortiguar la estructura
    en algunos edificios resistentes a terremotos. Un amortiguador es
    un elemento que frena las oscilaciones y reduce la resonancia.
 
-* `Amortiguador de masa sintonizada
+* Vídeo: `amortiguador de masa sintonizada
   <https://www.youtube-nocookie.com/embed/7SCUGTA8xEI>`__
 
-* `Ejemplo didactico de estructura sismo resistente.
+* Vídeo: `ejemplo didactico de estructura sismo resistente.
   <https://www.youtube-nocookie.com/embed/QUI7acilEJo>`__
 
 

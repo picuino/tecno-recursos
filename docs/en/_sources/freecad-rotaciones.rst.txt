@@ -185,5 +185,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Rotando voy.
+Vídeo: `rotando voy.
 <https://www.youtube-nocookie.com/embed/3FdmAnRRlzA>`__

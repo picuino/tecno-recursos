@@ -130,5 +130,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Marcando la diferencia.
+Vídeo: `marcando la diferencia.
 <https://www.youtube-nocookie.com/embed/3LsHR57grk0>`__

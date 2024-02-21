@@ -140,5 +140,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Usando conos.
+Vídeo: `usando conos.
 <https://www.youtube-nocookie.com/embed/eqh_KMsePPU>`__

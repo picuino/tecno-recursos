@@ -66,12 +66,12 @@ engranajes.
 Impresoras 3D
 -------------
 
-* `Cómo Funciona una Impresora 3D
+* Vídeo: `Cómo Funciona una Impresora 3D.
   <https://www.youtube-nocookie.com/embed/C4HAJ5HLuB4>`__
 
-* `Casas habitables impresas en 3d en tiempo récord
+* Vídeo: `Casas habitables impresas en 3d en tiempo récord.
   <https://www.youtube-nocookie.com/embed/zB4Bykv11Ag>`__
 
-* `10 Consejos para Aprender 3D
+* Vídeo: `10 Consejos para Aprender 3D.
   <https://www.youtube-nocookie.com/embed/58hWw9bkL2I>`__
 

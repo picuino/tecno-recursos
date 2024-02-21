@@ -69,7 +69,7 @@ algunas propiedades comunes a todas ellas.
    parquet se moja las tablas de madera se hinchan y se curvan
    despegándose.
 
-   `Experimento de palillos en forma de estrella + agua
+   Vídeo: `Experimento de palillos en forma de estrella + agua.
    <https://www.youtube-nocookie.com/embed/rnauo1JWI3U>`__
 
 **Oxidación de la madera**
@@ -127,7 +127,8 @@ Obtención de la madera
    Es el proceso de cortar el tronco del árbol.
    Una vez cortado se eliminan las ramas más pequeñas.
 
-   `John Deere 1470G harvester <https://www.youtube-nocookie.com/embed/tduKbc_51XA>`__
+   Vídeo: `John Deere 1470G harvester.
+   <https://www.youtube-nocookie.com/embed/tduKbc_51XA>`__
 
 **Transporte**
    Los troncos cortados se transportan desde el bosque
@@ -139,7 +140,9 @@ Obtención de la madera
 
    También se pueden laminar los troncos con una cuchilla
    para obtener chapas de madera.
-   `Torno Laminador <https://www.youtube-nocookie.com/embed/IN2su7iVmw8>`__
+   
+   Vídeo: `Torno Laminador
+   <https://www.youtube-nocookie.com/embed/IN2su7iVmw8>`__
 
 **Replantado**
    Para que la madera sea un recurso renovable, es necesario volver
@@ -213,9 +216,11 @@ Derivados de la madera
   Su proceso de fabricación es semejante al del papel, pero no se blanquean
   las fibras. Suele contener papel reciclado.
 
-  `El cartón corrugado <https://www.youtube-nocookie.com/embed/GeZDRN8PT3c>`__
-  está formado por varias láminas de papel pegadas entre sí, con la
-  lámina central ondulada.
+  El cartón corrugado está formado por varias láminas de papel pegadas
+  entre sí, con la lámina central ondulada.
+
+  Vídeo: `El cartón corrugado. 
+  <https://www.youtube-nocookie.com/embed/GeZDRN8PT3c>`__
 
 
 
@@ -231,7 +236,7 @@ Formas comerciales
    **Perfiles y molduras:** piezas largas de sección en L o formas variadas
    de pequeño tamaño.
 
-   **Tablones:** piezas largas de sección rectangular gruesa.
+   **Tablones:** piezas de gran superficie y de grosor entre 3mm y 25mm.
 
    **Chapas:** láminas de madera con grosor menor de 3 milímetros,
    que sirven para revestir maderas de menor calidad, parte trasera de

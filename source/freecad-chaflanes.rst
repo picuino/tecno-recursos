@@ -175,5 +175,5 @@ Ejercicios
 Videotutorial
 -------------
 
-`Redondeos, chaflanes y refuerzos.
+Vídeo: `redondeos, chaflanes y refuerzos.
 <https://www.youtube-nocookie.com/embed/jdCREzRmiro>`__
