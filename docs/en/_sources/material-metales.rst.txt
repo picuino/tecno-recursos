@@ -15,23 +15,23 @@ generalmente óxidos y sulfuros del metal, obtenidos en las minas.
    :depth: 2
 
 
-Propiedades comunes de los metales
-----------------------------------
+Propiedades de los metales
+--------------------------
 Aunque los diferentes metales presentan unas propiedades muy distintas,
 hay algunas propiedades comunes a todos ellos.
 
-**Resistencia mecánica de los metales**
-   La resistencia mecánica de la mayoría de los metales es muy buena.
-   Mejor que cualquier otro material. Esta es la razón por la que se
+Resistencia mecánica
+   La resistencia mecánica de la mayoría de los metales es muy alta.
+   Mejor que el resto de materiales. Esta es la razón por la que se
    utilizan para fabricar estructuras. Por ejemplo, edificios, aviones,
    automóviles, barcos, etc.
 
-**Maleabilidad y Ductilidad**
+Maleabilidad y Ductilidad
    La mayoría de los metales son muy maleables y muy dúctiles,
    lo que facilita mucho poder fabricar con ellos láminas y
    cables finos.
 
-**Densidad de los metales**
+Densidad de los metales
    Es muy variable, pero en general son mucho más densos que el agua.
 
    +-----------------+----------------------+
@@ -54,10 +54,10 @@ hay algunas propiedades comunes a todos ellos.
    | Oro             | 19,3                 |
    +-----------------+----------------------+
 
-**Conductividad de los metales**
-   Son buenos conductores del calor y de la electricidad.
+Conductividad
+   Los metales son buenos conductores del calor y de la electricidad.
 
-**Oxidación**
+Oxidación
    Hay metales, como el hierro, que se oxidan sin parar hasta que la
    corrosión les deshace por completo.
 
@@ -69,11 +69,11 @@ hay algunas propiedades comunes a todos ellos.
    Otros metales como el oro, el platino o el cromo mantienen su brillo
    metálico sin oxidarse superficialmente.
 
-**Respuesta a la luz**
+Respuesta a la luz
    Los metales son opacos y, pulidos, reflejan bien la luz.
    Presentan un brillo característico denominado "metálico".
 
-**Propiedades ecológicas de los metales**
+Propiedades ecológicas
    Los metales son fácilmente reciclables muchas veces sin que se
    degraden.
 
@@ -82,7 +82,7 @@ hay algunas propiedades comunes a todos ellos.
 
    Los metales pesados son muy tóxicos para el medio ambiente.
 
-**Otras propiedades de los metales**
+Otras propiedades
    Hay metales líquidos a temperatura ambiente (mercurio y galio) que
    se pueden utilizar para hacer termómetros, tubos fluorescentes, etc.
 
@@ -409,5 +409,12 @@ Cuestionarios
 -------------
 Cuestionarios de tipo test sobre los materiales metálicos.
 
-* `Materiales metálicos.
-  <https://www.picuino.com/test/es-material-metals.html>`__
+* `Materiales metálicos I.
+  <https://www.picuino.com/test/es-material-metals-1.html>`__
+
+* `Materiales metálicos II.
+  <https://www.picuino.com/test/es-material-metals-2.html>`__
+
+* `Materiales metálicos III.
+  <https://www.picuino.com/test/es-material-metals-3.html>`__
+
