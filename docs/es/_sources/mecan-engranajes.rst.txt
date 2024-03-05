@@ -27,7 +27,7 @@ y con poco par motor, hasta la aplicación que ha de realizar trabajo,
 generalmente más lenta y con mayor par motor.
 
 Por ejemplo, con engranajes se transforma la velocidad de giro del motor
-de un automóvil a una velocidad menor y con mayor par motor, de las ruedas
+de un automóvil a una velocidad menor y con mayor par motor de las ruedas
 del automóvil.
 
 
@@ -143,3 +143,57 @@ entre sí para reducir o aumentar la velocidad de giro en varias etapas.
 
    Tren de engranajes que reducen mucho la velocidad de giro del piñón
 
+Ejercicio automóvil eléctrico
+-----------------------------
+Un automóvil eléctrico tiene el motor conectado mediante un engranaje
+reductor a las ruedas. Sabemos que la velocidad máxima del motor es de
+9000rpm y que la velocidad máxima de las ruedas es de 1500rpm.
+Si el número de dientes del engranaje más pequeño debe ser de 8 ó más
+dientes ¿Cuantos dientes debe tener cada engranaje?
+
+Este ejercicio permite varias soluciones válidas porque no especifica
+el tamaño del piñón.
+
+El primer paso será escribir los datos del problema.
+El motor estará conectado al primer engranaje y las ruedas al segundo
+engranaje.
+
+.. math::
+
+   N_{1} = 9000 \: rpm
+
+.. math::
+
+   N_{2} = 1500 \: rpm
+
+El engranaje 1 conectado al motor es el que gira más rápido y, por lo 
+tanto, es el engranaje más pequeño de los dos. Ahora vamos a escoger
+un tamaño para este engranaje pequeño, que sea igual o mayor de 8 dientes.
+
+.. math::
+
+   Z_{1} = 10 \: dientes
+
+A continuación escribimos la fórmula y sustituimos los valores conocidos.
+
+.. math::
+
+   Z_{1} \cdot N_{1} = Z_{2} \cdot N_{2}
+
+.. math::
+
+   10 \cdot 9000 \: rpm = Z_{2} \cdot 1500 \: rpm
+
+
+Por último despejamos la ecuación y calculamos el valor de la incógnita.
+
+.. math::
+
+   Z_{2} = \cfrac{10 \cdot 9000 \: rpm}{1500 \: rpm}
+
+.. math::
+
+   Z_{2} = 60 \: dientes
+
+El número de dientes del segundo engranaje conectado a la rueda será 
+de 60 dientes.

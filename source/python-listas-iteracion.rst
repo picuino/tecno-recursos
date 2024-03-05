@@ -109,7 +109,7 @@ Ejercicios
    comenzando por la última letra y terminando por la primera letra.
 
    Pista: para ir desde el final hasta el principio se puede utilizar
-   un índice con la función ``range(len(lista), -1, -1)``.
+   un índice con la función ``for i in range(len(lista)-1, -1, -1):``.
 
 
 #. Escribe un programa que genere una lista de los números impares hasta

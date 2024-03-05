@@ -12,6 +12,10 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
 
 Índice de páginas y mapa de la web.
 
+* `Página de inicio <https://www.picuino.com/es/>`_
+* `Test de Tecnología <https://www.picuino.com/test/>`__
+* `Simulador de circuitos <https://www.picuino.com/circuits/>`__
+
 .. toctree::
    :maxdepth: 3
 
@@ -35,11 +39,4 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
 
    ley-index.rst
 
-
-* `Página de inicio <https://www.picuino.com/es/>`_
-* `Test de Tecnología <https://www.picuino.com/test/>`_
-* `Simulador de circuitos <https://www.picuino.com/circuits/>`_
-* `Foro de Tecnología <https://www.picuino.com/foro/>`_
-* `Proyecto en GitHub <https://github.com/picuino/>`_
-
-
+* `Proyecto en GitHub <https://github.com/picuino/>`__

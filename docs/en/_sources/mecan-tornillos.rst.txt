@@ -68,10 +68,20 @@ Aplicaciones de los tornillos
 Uniones desmontables
    Una de las aplicaciones de los tornillos consiste en realizar
    uniones desmontables.
+   
+   Por ejemplo la carcasa de un ordenador está unida con tornillos.
 
-Mecanismos para hacer fuerza
+Mecanismos que avanzan con precisión
+   Los tornillos permiten realizar movimientos de mucha precisión.
+   
+   Por ejemplo un tornillo de un grifo giratorio permite abrir el
+   paso de agua con mucha precisión.
+   Otro ejemplo son las sillas a tornillo que se pueden subir o bajar
+   con precisión dando vueltas al asiento.
+
+Mecanismos para mover con fuerza
    Otra gran aplicación de los tornillos es construir mecanismos
-   que avanzan con **precisión** y haciendo mucha **fuerza**.
+   que avanzan con mucha **fuerza**.
    
    Por ejemplo, el mecanismo de un gato mecánico para levantar automóviles
    está basado en un tornillo que mueve unas tijeras.
@@ -87,7 +97,7 @@ Mecanismos para hacer fuerza
    
       `Interiot <https://commons.wikimedia.org/wiki/File:Jackscrew.gif>`__
       Public Domain via Wikimedia Commons.
-   
+
 
 Cálculo de tornillos
 --------------------

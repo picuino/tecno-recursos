@@ -57,7 +57,7 @@ master_doc = 'content'
 
 # -- Project information -----------------------------------------------------
 
-project = u'Tecno Recursos'
+project = u'Picuino'
 copyright = u'2013-%s por Carlos Félix Pardo Martín' % (time.strftime("%Y"))
 author = u'Carlos Félix Pardo Martín'
 
@@ -310,7 +310,7 @@ latex_documents = [
 
   ('content',              # start docname (root document)
    'picuino.tex',          # target name
-   u'Tecno Recursos',      # title
+   u'Picuino',             # title
    u'Carlos Félix Pardo Martín', # Author
    'manual',               # Document Class (normally manual or howto
    True)                   # Toctree only (not include root document)
