@@ -34,11 +34,11 @@ Representación, cableado, medida y simulación de circuitos eléctricos.
 
    electric-energia.rst
    electric-potencia.rst
+   electric-sistema-electrico.rst
 
+   electric-cableado.rst
    electric-crocodile-index.rst
    bornas-lamparas-index.rst
-   electric-cableado.rst
 
-   electric-sistema-electrico.rst
 
    electric-recursos.rst

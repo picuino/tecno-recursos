@@ -5,23 +5,26 @@
 
 .. _python-codewars:
 
-Codewars
-========
-Codewars es una comunidad educativa de programación de sistemas.
+Codewars katas
+==============
+Codewars es una comunidad educativa de **programación**.
 En la plataforma, los desarrolladores de software participan en desafíos
-de programación conocidos como kata.
-Estos ejercicios entrenan un rango de habilidades y se completan dentro
-de un ambiente de desarrollo integrado en línea, en el que los usuarios
-tienen la posibilidad de ganar rangos y honor.
+de programación conocidos como **katas**.
+Estos ejercicios entrenan un rango amplio de habilidades y se completan
+dentro de un ambiente de desarrollo integrado en línea, en el que los
+usuarios tienen la posibilidad de ganar rangos y honor.
 
 .. contents:: Índice de contenidos
    :local:
    :depth: 2
 
 
+
+
+
 Codewars Katas 8kyu
 -------------------
-Katas del nivel más sencillo (8).
+Katas de nivel 8. Dificultad muy fácil.
 
 #. `Multiply
    <https://www.codewars.com/kata/50654ddff44f800200000004/train/python>`__
@@ -703,9 +706,10 @@ Katas del nivel más sencillo (8).
 
 
 
+
 Codewars Katas 7kyu
 -------------------
-Katas de nivel 7.
+Katas de nivel 7. Dificultad fácil.
 
 #. `Vowel Count
    <https://www.codewars.com/kata/54ff3102c1bad923760001f3/train/python>`__
@@ -1590,7 +1594,7 @@ Katas de nivel 7.
 
 Codewars Katas 6kyu
 -------------------
-Katas de nivel 6.
+Katas de nivel 6. Dificultad moderada.
 
 #. `Multiples of 3 or 5
    <https://www.codewars.com/kata/514b92a657cdc65150000006/train/python>`__
@@ -2592,9 +2596,12 @@ Katas de nivel 6.
    <https://www.codewars.com/kata/59922ce23bfe2c10d7000057/train/python>`__
 
 
+
+
+
 Codewars Katas 5kyu
 -------------------
-Katas de nivel 5.
+Katas de nivel 5. Dificultad moderada alta.
 
 #. `Moving Zeros To The End
    <https://www.codewars.com/kata/52597aa56021e91c93000cb0/train/python>`__
@@ -3919,7 +3926,7 @@ Katas de nivel 5.
 
 Codewars Katas 4kyu
 -------------------
-Katas de nivel 4.
+Katas de nivel 4. Dificultad difícil.
 
 #. `Human readable duration format
    <https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/python>`__
@@ -4388,11 +4395,9 @@ Katas de nivel 4.
 
 
 
-
-
 Codewars Katas 3kyu
 -------------------
-Katas de nivel 3.
+Katas de nivel 3. Dificultad difícil.
 
 #. `Battleship field validator
    <https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7/train/python>`__

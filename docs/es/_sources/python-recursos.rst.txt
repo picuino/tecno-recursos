@@ -37,18 +37,47 @@ Cursos de Python en línea
 Libros de Python
 ----------------
 
-* `Python para Principiantes.
+* `Python para Principiantes
   <https://www.amazon.es/Python-para-Principiantes-Programaci%C3%B3n-principiantes/dp/B087SG2H2X>`__.
 
-* `Introducción a la programación con Python 3 (Universidad Jaume I Castellón).
+* `Introducción a la programación con Python 3 (Universidad Jaume I Castellón)
   <https://repositori.uji.es/xmlui/handle/10234/102653>`__.
 
 
 Ejercicios de Python
 --------------------
 
-* `Codewars
+* `Codewars website
   <https://www.codewars.com/kata/search/python?q=&r%5B%5D=-8&r%5B%5D=-7&r%5B%5D=-6&r%5B%5D=-5&order_by=popularity%20desc>`__
+
+* :ref:`Codewars. Katas ordenados por dificultad <python-codewars>`.
+
+* `Silent Teacher (Toxicode)
+  <https://silentteacher.toxicode.fr/hour_of_code.html?theme=basic_python>`__
+
+* Code Combat
+
+   * `Goblins 'n' Glory
+     <https://codecombat.com/play/goblins-hoc?hour_of_code=true>`__.
+   
+   * `Esports Bootcamp: AI League
+     <https://codecombat.com/play/ai-league-hoc?hour_of_code=true>`__.
+   
+   * `Escape the Dungeon
+     <https://codecombat.com/play/dungeon-hoc?hour_of_code=true>`__.
+   
+   * `Game Development
+     <https://codecombat.com/play/game-dev-hoc?hour_of_code=true>`__.
+   
+   * `Game Development 2
+     <https://codecombat.com/play/game-dev-hoc-2?hour_of_code=true>`__.
+
+
+* `Codédex.io <https://www.codedex.io/>`__
+
+   * `The legend of Python <https://www.codedex.io/python>`__
+
+   * `Challenges <https://www.codedex.io/challenges>`__
 
 
 Intérpretes de Python online
