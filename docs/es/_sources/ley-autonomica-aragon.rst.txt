@@ -15,8 +15,8 @@ Currículo ESO
 Currículo muy completo con orientaciones para la enseñanza en cada materia,
 sugerencias didácticas y metodológicas, así como lecturas de referencia.
 
-:download:`Currículo para la ESO según LOMLOE en la Comunidad de Aragón
-<ley/Curriculo-ESO-Aragon.pdf>`
+`Currículo para la ESO según LOMLOE en la Comunidad de Aragón
+<https://educa.aragon.es/documents/20126/2759834/Orden+curr%C3%ADculo+y+evaluaci%C3%B3n+ESO+firmada+Consejero.pdf>`
 
 .. list-table::
    :header-rows: 1

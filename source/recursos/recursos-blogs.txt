@@ -12,26 +12,34 @@ Blogs y webs de Tecnología para Secundaria
 Ranking de blogs y páginas web de Tecnología para Educación Secundaria.
 
 Los `ranking de Similarweb <https://www.similarweb.com/es/>`__
-se han tomado en abril de 2023, por lo que corresponden a los
-datos de marzo de 2023.
+corresponden al mes de febrero de 2024.
 
-Para realizar la ordenación de las páginas web se ha tomado como
-base el cálculo de la multiplicación del número de visitas mensuales por
-la duración media de las visitas.
-Los números más altos se colocan primeros en la lista.
+Para realizar la ordenación de los sitios web se ha tomado como
+base el ranking de Similarweb.
+Los números más bajos se colocan primeros en la lista.
 
-Cuando estos datos no están disponibles, se ha ordenado según el
-ranking suministrado por Similarweb.
 
 ----
 
 {% for web in webs -%}
-{% set rank = web.similarweb_rank -%}
-{% if rank is number -%}
-{% set rank = '{:0.1f} k'.format(rank / 1000.0) -%}
-{% endif -%}
-{% set title =  web.webname + ' <' + web.url + '>' -%}
-{% set title_length = title|length -%}
+   {% set rank = web.similarweb_rank -%}
+   {% if rank is number and rank < 99000000 -%}
+      {% set rank = '{:0.1f} k'.format(rank / 1000.0) -%}
+   {% else -%}
+      {% set rank = 'Sin datos.' -%}
+   {% endif -%}
+   
+   {% set visitas = web.visitas -%}
+   {% if visitas is number and visitas >= 5 -%}
+      {% set visitas = '{} k'.format(visitas) -%}
+   {% else -%}
+      {% set visitas = 'Sin datos.' -%}
+   {% endif -%}
+   
+
+
+   {% set title =  web.webname + ' <' + web.url + '>' -%}
+   {% set title_length = title|length -%}
 
 {{ "%02d" | format(loop.index) }}. `{{ title }}`__
 --------{{ '-' * title_length }}
@@ -44,13 +52,8 @@ ranking suministrado por Similarweb.
 
       * - `Similarweb rank <{{ web.similarweb_url }}>`__
         - {{ rank }}
-   {%- if 'visitas' in web %}
       * - Visitas al mes
-        - {{web.visitas}} k
-      * - Duración de visita
-        - {{web.duracion}} s
-   {%- endif %}
-
+        - {{ visitas }}
    {%- if 'comentario' in web %}
 
    {{ web.comentario | indent(3)}}

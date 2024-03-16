@@ -27,7 +27,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ lang_attr }}" >
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Tecnología, Educación Secundaria, Dibujo, Estructuras, Mecanismos, Materiales, Electricidad, Electrónica, Informática, Programación, Control, Arduino, Comunicaciones, Taller, Legislación Educativa">
   {{ metatags }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ description }}">
@@ -41,7 +43,6 @@
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
-
   {%- endif %}
 
   {# CANONICAL URL #}
@@ -77,7 +78,6 @@
   {%- for cssfile in extra_css_files %}
   <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css">
   {%- endfor %}
-
   <link rel="stylesheet" href="{{ pathto('_static/custom.css', 1) }}" type="text/css">
 
   {%- block linktags %}

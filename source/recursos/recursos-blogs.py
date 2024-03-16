@@ -50,30 +50,25 @@ def process(webs):
          driver.save_screenshot(screenshot_png)
          command = 'd:/Bin/Imagemagick/convert.exe {0} -resize 50% {1}'.format(screenshot_png, screenshot_jpg)
          os.system(command)
-      if re.search('[0-9,]{3,10}', web['similarweb_rank']):
-         web['similarweb_rank'] = int(web['similarweb_rank'].replace(',', ''))
-      if ('visitas' in web and web['visitas'] and web['duracion']):
-         duracion = web['duracion'].split(':')
-         duracion = int(duracion[0])*60 + int(duracion[1])
-         web['duracion'] = duracion
+      web['similarweb_rank'] = toint( web['similarweb_rank'].replace(',', ''), default=99000000)
+      visitas = toint(web['visitas'])
 
    if driver:
       driver.quit()
    return webs
 
 
+def toint(string, default=0):
+   try:
+       return int(string)
+   except:
+       return default
+   
+
 def sorted_key(web):
-   if ('visitas' in web and web['visitas'] and web['duracion']):
-      visitas = float(web['visitas'])
-      duracion = web['duracion']
-      penalizacion = 1.0      
-      if 'penalizacion' in web:
-         penalizacion = float(web['penalizacion'])
-      rank = int(6000000/( visitas * duracion * penalizacion ))
-   else:
-      rank = web['similarweb_rank']
-      if not isinstance(rank, int):
-         rank = 99000000
+   rank = web['similarweb_rank']
+   if 'penalizacion' in web:
+      rank = rank * float(web['penalizacion'])
    return rank
 
 

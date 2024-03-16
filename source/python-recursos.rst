@@ -43,6 +43,8 @@ Libros de Python
 * `Introducción a la programación con Python 3 (Universidad Jaume I Castellón)
   <https://repositori.uji.es/xmlui/handle/10234/102653>`__.
 
+* `Pythonbooks, books for kids <https://pythonbooks.org/for-kids/>`__.
+
 
 Ejercicios de Python
 --------------------
