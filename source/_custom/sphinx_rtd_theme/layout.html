@@ -27,9 +27,12 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ lang_attr }}" >
 <head>
-  <meta http-equiv="Content-Type" content="text/html">
-  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  {%- if lang_attr == 'en' %}
+  <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
+  {%- else %}
   <meta name="keywords" content="Tecnología, Educación Secundaria, Dibujo, Estructuras, Mecanismos, Materiales, Electricidad, Electrónica, Informática, Programación, Control, Arduino, Comunicaciones, Taller, Legislación Educativa">
+  {%- endif %}
   {{ metatags }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ description }}">
