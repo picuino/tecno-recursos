@@ -6,42 +6,27 @@
 
 .. _mecan-neumatic-intro:
 
-:index:`Neumática`
-==================
+Introducción a la neumática
+===========================
 La neumática es la tecnología que emplea el aire comprimido
 como medio de transmisión de energía para mover mecanismos y máquinas.
 
+Teoría sobre neumática
+----------------------
 
-Símbolos neumáticos
--------------------
-Tabla con los símbolos neumáticos más usuales.
-Ejercicios para dibujar y para nombrar e identificar los símbolos.
+Libro del CIDEAD
+   `Neumática e hidráulica I.
+   <https://www.picuino.com/_static/4esotecno/quincena9/pdf/quincena9.pdf>`__
+   
+   `Neumática e hidráulica II.
+   <https://www.picuino.com/_static/4esotecno/quincena10/pdf/quincena10.pdf>`__
 
-.. image:: neumatic/_images/neumatic-simbolos-valvulas.png
-   :alt: Válvulas neumáticas de dos posiciones
-   :width: 280px
-   :align: center
-   :target: _downloads/neumatic-simbolos-nombres.pdf
+Web Portal ESO
+   `Unidad didáctica neumática e hidráulica (PDF).
+   <http://www.portaleso.com/neumatica/unidad_didactica_neumatica_4_v1_c.pdf>`__
 
-
-|  :download:`Ejercicio para dibujar y nombrar símbolos neumáticos. Formato PDF.
-   <neumatic/neumatic-simbolos-nombres.pdf>`
-|  :download:`Imágenes de símbolos. Formato PNG.
-   <neumatic/neumatic-simbolo-images.zip>`
-|  :download:`Proyecto editable. Formato KiCad.
-   <neumatic/neumatic-simbolos-nombres.zip>`
-
-
-Test sobre neumática
---------------------
-
-.. image:: neumatic/_images/neumatic-test-01.png
-   :alt: Test de componentes neumáticos
-   :width: 340px
-   :align: center
-   :target: https://www.picuino.com/test/#neumatica
-
-`Test sobre neumática <https://www.picuino.com/test/#neumatica>`__
+   `Transparencias de la unidad didáctica neumática e hidráulica (PPT).
+   <http://www.portaleso.com/neumatica/unidad_neumatica_4_v1_c.ppt>`__
 
 
 Simulador de neumática

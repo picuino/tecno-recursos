@@ -23,12 +23,16 @@ movimientos, neumática e hidráulica.
    :titlesonly:
 
    mecan-estructuras-index.rst
+
    mecan-maquinas-index.rst
+
    mecan-calibre.rst
 
+   mecan-neumatic-index.rst
+
    freecad-index.rst
+
    blockscad-index.rst
 
-   mecan-neumatic-intro.rst
    mecan-origami.rst
    mecan-recursos.rst
