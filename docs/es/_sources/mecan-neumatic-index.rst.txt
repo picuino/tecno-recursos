@@ -8,12 +8,13 @@
  Neumática 
 ***********
 
-Automatismos neumáticos
+Automatismos neumáticos con simulador online.
 
 .. image:: neumatic/_images/neumatic-logo.png
    :alt: Automatismo neumático
    :align: center
    :width: 415px
+   :target: ../_static/flash/simulador-neumatica.html
 
 
 .. toctree::
@@ -25,5 +26,8 @@ Automatismos neumáticos
    mecan-neumatic-simbolos.rst
    mecan-neumatic-simple-efecto.rst
    mecan-neumatic-doble-efecto.rst
-   
-   
+   mecan-neumatic-valvula-or.rst
+   mecan-neumatic-valvula-and.rst
+   mecan-neumatic-valvula-antirretorno.rst
+
+

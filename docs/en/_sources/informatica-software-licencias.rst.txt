@@ -121,10 +121,10 @@ función de las libertades que permiten al usuario.
       Este tipo de programas son los que dan mayor libertad y seguridad
       al usuario:
 
-      0. Libertad de ejecutar el programa para cualquier propósito.
-      1. Libertad para {estudiar} cómo funciona internamente el programa.
-      2. Libertad para distribuir el programa.
-      3. Libertad para modificar el programa y distribuir la versión
+      0. Libertad de **ejecutar** el programa para cualquier propósito.
+      1. Libertad para **estudiar** cómo funciona internamente el programa.
+      2. Libertad para **distribuir** el programa.
+      3. Libertad para **modificar** el programa y distribuir la versión
          modificada.
 
       La desventaja que tienen los programas libres es que en alguna

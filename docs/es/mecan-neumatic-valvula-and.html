@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="Tecnología, Educación Secundaria, Dibujo, Estructuras, Mecanismos, Materiales, Electricidad, Electrónica, Informática, Programación, Control, Arduino, Comunicaciones, Taller, Legislación Educativa">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Mecánica - Neumática - 6. La válvula de simultaneidad o válvula and">
+  <title>6. La válvula de simultaneidad o válvula and - Neumática - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/mecan-neumatic-valvula-and.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Índice" href="content.html">
+  <link rel="search" title="Búsqueda" href="search.html">
+  <link rel="next" title="7. La válvula antirretorno" href="mecan-neumatic-valvula-antirretorno.html">
+  <link rel="prev" title="5. La válvula selectora o válvula or" href="mecan-neumatic-valvula-or.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html"><img src="_static/logo-picuino-bgblue.png" alt="O_[]¯O Picuino"></a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="mecan-index.html">Mecánica</a>/</li>
+        
+          <li><a href="mecan-neumatic-index.html">Neumática</a>/</li>
+        
+      <li><span class="section-number">6. </span>La válvula de simultaneidad o válvula and</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/mecan-neumatic-valvula-and.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="la-valvula-de-simultaneidad-o-valvula-and">
+<span id="mecan-neumatic-valvula-and"></span><h1><span class="section-number">6. </span>La válvula de simultaneidad o válvula and<a class="headerlink" href="#la-valvula-de-simultaneidad-o-valvula-and" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>La <strong>válvula de simultaneidad</strong> o <strong>válvula and</strong> permite el paso de aire
+a presión cuando ambas vías de entrada, derecha e izquierda, reciben
+aire a presión.</p>
+<p>El funcionamiento resumido puede explicarse diciendo que la válvula deja
+pasar el aire a presión cuando le llega aire a presión por la vía izquierda
+<strong>y</strong> también le llega aire a presión por la vía derecha, de ahí su nombre.</p>
+<p>El símbolo en reposo de la válvula de simultaneidad es el siguiente:</p>
+<div class="figure align-center" id="id1">
+<img alt="Valvula de simultaneidad." src="_images/neumatic-valvula-and-0.png">
+<p class="caption"><span class="caption-text">Válvula de simultaneidad o válvula and.</span><a class="headerlink" href="#id1" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>Cuando se inyecta aire a presión por la vía derecha, la pieza central
+se moverá hacia la izquierda, impidiendo el paso de aire.</p>
+<div class="figure align-center" id="id2">
+<img alt="Valvula de simultaneidad con presión en la vía derecha." src="_images/neumatic-valvula-and-1.png">
+<p class="caption"><span class="caption-text">Válvula de simultaneidad con presión en la vía derecha.</span><a class="headerlink" href="#id2" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>Cuando se inyecta aire a presión por la vía izquierda, la pieza central
+se moverá hacia la derecha, impidiendo también el paso de aire.</p>
+<div class="figure align-center" id="id3">
+<img alt="Valvula de simultaneidad con presión en la vía izquierda." src="_images/neumatic-valvula-and-2.png">
+<p class="caption"><span class="caption-text">Válvula de simultaneidad con presión en la vía izquierda.</span><a class="headerlink" href="#id3" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>Cuando se inyecta aire a presión por las vías derecha e izquierda,
+la pieza central no puede cerrar las dos vías a la vez, por lo que
+permite el paso de aire a presión, que saldrá por la vía superior.</p>
+<div class="figure align-center" id="id4">
+<img alt="Válvula de simultaneidad con presión en las vías derecha e izquierda." src="_images/neumatic-valvula-and-3.png">
+<p class="caption"><span class="caption-text">Válvula de simultaneidad con presión en las vías derecha e izquierda.</span><a class="headerlink" href="#id4" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>El funcionamiento de la válvula de simultaneidad puede resumirse en la
+siguiente tabla de verdad o tabla lógica:</p>
+<table class="colwidths-given docutils align-center" id="id5">
+<caption><span class="caption-text">Funcionamiento de la válvula de simultaneidad.</span><a class="headerlink" href="#id5" title="Enlace permanente a esta tabla">¶</a></caption>
+<colgroup>
+<col style="width:33%;">
+<col style="width:33%;">
+<col style="width:33%;">
+</colgroup>
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">Vía izquierda</th>
+<th class="head">Vía derecha</th>
+<th class="head">Vía superior</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td>Sin presión</td>
+<td>Sin presión</td>
+<td>Sin presión</td>
+</tr>
+<tr class="row-odd"><td>Con presión</td>
+<td>Sin presión</td>
+<td>Sin presión</td>
+</tr>
+<tr class="row-even"><td>Sin presión</td>
+<td>Con presión</td>
+<td>Sin presión</td>
+</tr>
+<tr class="row-odd"><td>Con presión</td>
+<td>Con presión</td>
+<td>Con presión</td>
+</tr>
+</tbody>
+</table>
+<p>Si traducimos Sin presión con un cero y Con presión con un uno,
+obtenemos la clásica tabla de verdad de la función and:</p>
+<table class="colwidths-given docutils align-center">
+<colgroup>
+<col style="width:33%;">
+<col style="width:33%;">
+<col style="width:33%;">
+</colgroup>
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">Vía izquierda</th>
+<th class="head">Vía derecha</th>
+<th class="head">Vía superior</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="row-odd"><td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="row-even"><td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr class="row-odd"><td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="cilindro-de-simple-efecto-y-valvula-de-simultaneidad">
+<h2>Cilindro de simple efecto y válvula de simultaneidad<a class="headerlink" href="#cilindro-de-simple-efecto-y-valvula-de-simultaneidad" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En este circuito un cilindro de simple efecto es accionado por dos
+válvulas 3/2 solo cuando ambas están accionadas.</p>
+<p>En la siguiente figura se puede ver el circuito en reposo.</p>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="_images/neumatic-32-and-1.png"><img alt="Cilindro de simple efecto con válvula de simultaneidad sin presión." src="_images/neumatic-32-and-1.png" style="width: 455px;"></a>
+<p class="caption"><span class="caption-text">Cilindro de simple efecto con válvula de simultaneidad sin presión.</span><a class="headerlink" href="#id6" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>Cuando accionamos la válvula izquierda, el aire a presión llega a la
+válvula de simultaneidad, pero esta no deja pasar la presión por la
+vía superior.</p>
+<div class="figure align-center" id="id7">
+<a class="reference internal image-reference" href="_images/neumatic-32-and-2.png"><img alt="Cilindro de simple efecto con válvula de simultaneidad con presión a la izquierda." src="_images/neumatic-32-and-2.png" style="width: 485px;"></a>
+<p class="caption"><span class="caption-text">Cilindro de simple efecto con válvula de simultaneidad con presión a la
+izquierda.</span><a class="headerlink" href="#id7" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>Cuando accionamos también la válvula derecha, el aire a presión llega a la
+válvula de simultaneidad por ambos lados y no puede frenar ambos flujos de
+aire, por lo que deja pasar aire a presión por la vía superior.
+El vástago del cilindro de simple efecto saldrá hacia fuera.</p>
+<div class="figure align-center" id="id8">
+<a class="reference internal image-reference" href="_images/neumatic-32-and-3.png"><img alt="Cilindro de simple efecto con válvula de simultaneidad con presión en ambas entradas." src="_images/neumatic-32-and-3.png" style="width: 488px;"></a>
+<p class="caption"><span class="caption-text">Cilindro de simple efecto con válvula de simultaneidad con presión
+en ambas entradas.</span><a class="headerlink" href="#id8" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+</div>
+<div class="section" id="union-de-valvulas">
+<h2>Unión de válvulas<a class="headerlink" href="#union-de-valvulas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En un circuito neumático podemos unir varias válvulas selectoras y de
+simultaneidad para conseguir comportamientos complejos.</p>
+<p>En el siguiente circuito podemos ver dos válvulas distintas
+(una de simultaneidad y otra selectora)
+que combinan el aire a presión de tres válvulas 3/2 hacia un cilindro
+de simple efecto.</p>
+<div class="figure align-center" id="id9">
+<a class="reference internal image-reference" href="_images/neumatic-valvula-and-or-1.png"><img alt="Válvulas de simultaneidad y selectora en cascada." src="_images/neumatic-valvula-and-or-1.png" style="width: 618px;"></a>
+<p class="caption"><span class="caption-text">Válvulas de simultaneidad y selectora en cascada.</span><a class="headerlink" href="#id9" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>En el circuito anterior el vástago del cilindro saldrá hacia fuera
+cuando se presione la válvula de la derecha y, a la vez, una de las dos
+válvulas de la izquierda.</p>
+<hr class="docutils">
+<p>En el siguiente circuito podemos ver otra combinación distinta de válvulas
+de simultaneidad y selectora hacia un cilindro de simple efecto.</p>
+<div class="figure align-center" id="id10">
+<a class="reference internal image-reference" href="_images/neumatic-valvula-and-or-2.png"><img alt="Válvulas de simultaneidad y selectora en cascada II." src="_images/neumatic-valvula-and-or-2.png" style="width: 616px;"></a>
+<p class="caption"><span class="caption-text">Válvulas de simultaneidad y selectora en cascada II.</span><a class="headerlink" href="#id10" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>En el circuito anterior el vástago del cilindro saldrá hacia fuera siempre
+que accionemos la válvula derecha o bien cuando accionemos ambas válvulas
+de la izquierda.</p>
+</div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Dibuja el símbolo en reposo de una válvula de simultaneidad neumática.</p>
+</li>
+<li><p class="first">Dibuja el funcionamiento de una válvula de simultaneidad neumática
+cuando recibe aire a presión por la vía derecha.</p>
+<p>Dibuja el funcionamiento de una válvula de simultaneidad neumática
+cuando recibe aire a presión por la vía izquierda.</p>
+</li>
+<li><p class="first">Explica el funcionamiento de la válvula de simultaneidad neumática
+y dibuja su tabla de verdad.</p>
+</li>
+<li><p class="first">Simula el funcionamiento de un cilindro de simple efecto con un
+vástago que debe salir al accionar a la vez las
+<strong>dos válvulas 3/2</strong> de maniobra.</p>
+<p><a class="reference external" href="../_static/flash/simulador-neumatica.html" rel="noopener noreferrer" target="_blank">Simulador de neumática.</a></p>
+</li>
+<li><p class="first">Dibuja el circuito anterior en papel y explica su funcionamiento.</p>
+</li>
+<li><p class="first">¿Para qué sirve la unión de válvulas de simultaneidad y válvulas
+selectoras en cascada?</p>
+</li>
+<li><p class="first">Simula un circuito que tenga tres válvulas 3/2 que accionen un
+cilindro de simple efecto.</p>
+<p>El vástago del cilindro debe salir fuera cuando se accionen cualquiera
+de las dos válvulas de la izquierda y a la vez se accione la válvula
+de la derecha.</p>
+<p><a class="reference external" href="../_static/flash/simulador-neumatica.html" rel="noopener noreferrer" target="_blank">Simulador de neumática.</a></p>
+</li>
+<li><p class="first">Dibuja el circuito anterior en papel y explica su funcionamiento.</p>
+</li>
+<li><p class="first">Dibuja la tabla de verdad con el funcionamiento del circuito anterior
+completando la siguiente tabla.</p>
+<table class="colwidths-given docutils align-center">
+<colgroup>
+<col style="width:25%;">
+<col style="width:25%;">
+<col style="width:25%;">
+<col style="width:25%;">
+</colgroup>
+<thead style="vertical-align:bottom;">
+<tr class="row-odd"><th class="head">Válvula izquierda</th>
+<th class="head">Válvula central</th>
+<th class="head">Válvula derecha</th>
+<th class="head">Vástago</th>
+</tr>
+</thead>
+<tbody style="vertical-align:top;">
+<tr class="row-even"><td>No accionada</td>
+<td>No accionada</td>
+<td>No accionada</td>
+<td>Dentro</td>
+</tr>
+<tr class="row-odd"><td>Accionada</td>
+<td>No accionada</td>
+<td>No accionada</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>No accionada</td>
+<td>Accionada</td>
+<td>No accionada</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Accionada</td>
+<td>Accionada</td>
+<td>No accionada</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>No accionada</td>
+<td>No accionada</td>
+<td>Accionada</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Accionada</td>
+<td>No accionada</td>
+<td>Accionada</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>No accionada</td>
+<td>Accionada</td>
+<td>Accionada</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Accionada</td>
+<td>Accionada</td>
+<td>Accionada</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="mecan-neumatic-valvula-antirretorno.html" class="btn btn-neutral float-right" title="7. La válvula antirretorno" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="mecan-neumatic-valvula-or.html" class="btn btn-neutral" title="5. La válvula selectora o válvula or" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024 por Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en abril, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../en/mecan-neumatic-valvula-and.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="mecan-index.html">Mecánica</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="mecan-estructuras-index.html">Estructuras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-maquinas-index.html">Máquinas y Mecanismos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-calibre.html">El Calibre</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="mecan-neumatic-index.html">Neumática</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-intro.html">1. Introducción a la neumática</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-simbolos.html">2. Símbolos neumáticos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-simple-efecto.html">3. Cilindro de simple efecto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-doble-efecto.html">4. Cilindro de doble efecto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-valvula-or.html">5. La válvula selectora o válvula or</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">6. La válvula de simultaneidad o válvula and</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-valvula-antirretorno.html">7. La válvula antirretorno</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="freecad-index.html">FreeCAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="blockscad-index.html">BlocksCAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-origami.html">Papiroflexia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mecan-recursos.html">Recursos para Mecánica</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricidad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electrónica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-index.html">Control Automático</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>
