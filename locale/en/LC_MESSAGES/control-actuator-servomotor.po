@@ -8,7 +8,7 @@ msgstr ""
 ".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
 ":8bitGenerated-By:Babel 2.9.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-20 18:24+0100\n"
+"POT-Creation-Date: 2024-04-11 16:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,8 +44,8 @@ msgstr "Typical applications that use servo motors are:"
 #: ../../source/control-actuator-servomotor.rst:30
 #, fuzzy
 msgid ""
-"`Compuerta de un panel de aire acondicionado "
-"<https://www.youtube.com/embed/_xZjp3gaNE4>`__"
+"Vídeo: `Compuerta de un panel de aire acondicionado <https://www.youtube-"
+"nocookie.com/embed/_xZjp3gaNE4>`__"
 msgstr ""
 "`Air conditioning panel damper "
 "<https://www.youtube.com/embed/_xZjp3gaNE4>`_"
@@ -90,39 +90,38 @@ msgstr "**Internal composition:**"
 #: ../../source/control-actuator-servomotor.rst:55
 #, fuzzy
 msgid ""
-"Vídeo en YouTube de un fabricante, que explica la `composición y "
-"funcionamiento interno de un servomotor "
-"<https://www.youtube.com/embed/ZZhuD78BLDk>`__"
+"Vídeo: `composición y funcionamiento interno de un servomotor "
+"<https://www.youtube-nocookie.com/embed/ZZhuD78BLDk>`__"
 msgstr ""
 "Video on YouTube from a manufacturer, which explains the `composition and"
 " internal operation of a servo motor "
 "<https://www.youtube.com/embed/ZZhuD78BLDk>`_"
 
-#: ../../source/control-actuator-servomotor.rst:60
+#: ../../source/control-actuator-servomotor.rst:59
 msgid "Internamente el servomotor está formado por los siguientes componentes."
 msgstr "Internally, the servomotor is made up of the following components."
 
-#: ../../source/control-actuator-servomotor.rst:62
+#: ../../source/control-actuator-servomotor.rst:61
 msgid "Motor eléctrico."
 msgstr "Electric motor."
 
-#: ../../source/control-actuator-servomotor.rst:63
+#: ../../source/control-actuator-servomotor.rst:62
 msgid "Reductora mecánica."
 msgstr "Mechanical reducer."
 
-#: ../../source/control-actuator-servomotor.rst:64
+#: ../../source/control-actuator-servomotor.rst:63
 msgid "Sensor de posición. Generalmente es un potenciómetro."
 msgstr "Position sensor. It is usually a potentiometer."
 
-#: ../../source/control-actuator-servomotor.rst:65
+#: ../../source/control-actuator-servomotor.rst:64
 msgid "Circuito de control."
 msgstr "Control circuit."
 
-#: ../../source/control-actuator-servomotor.rst:67
+#: ../../source/control-actuator-servomotor.rst:66
 msgid "El motor es el elemento que produce el movimiento."
 msgstr "The motor is the element that produces the movement."
 
-#: ../../source/control-actuator-servomotor.rst:69
+#: ../../source/control-actuator-servomotor.rst:68
 msgid ""
 "El giro de los motores eléctricos suele ser muy rápido y con poca fuerza,"
 " la reductora mecánica consigue reducir la velocidad de giro y aumentar "
@@ -132,7 +131,7 @@ msgstr ""
 "force, the mechanical reducer manages to reduce the rotation speed and "
 "increase the force, so that the final rotation is more useful."
 
-#: ../../source/control-actuator-servomotor.rst:73
+#: ../../source/control-actuator-servomotor.rst:72
 msgid ""
 "El sensor de posición permite conocer la posición exacta del eje de giro "
 "del servomotor. Con el sensor, se puede corregir la posición del eje para"
@@ -142,7 +141,7 @@ msgstr ""
 "rotation of the servomotor. With the sensor, the position of the axis can"
 " be corrected so that at all times it is in the desired position."
 
-#: ../../source/control-actuator-servomotor.rst:78
+#: ../../source/control-actuator-servomotor.rst:77
 msgid ""
 "El circuito de control recibe por el cable la señal de la posición "
 "deseada y la compara con la posición real del eje, medida por el sensor. "
@@ -160,11 +159,11 @@ msgstr ""
 " continuously corrects the position with clockwise and counterclockwise "
 "rotations to keep the final position stable."
 
-#: ../../source/control-actuator-servomotor.rst:89
+#: ../../source/control-actuator-servomotor.rst:88
 msgid "Especificaciones"
 msgstr "Specifications"
 
-#: ../../source/control-actuator-servomotor.rst:90
+#: ../../source/control-actuator-servomotor.rst:89
 msgid ""
 "Existen muchos tipos de servomotores. Como ejemplo se muestran las "
 "especificaciones de un pequeño :download:`servomotor Tower Pro 9g "
@@ -174,39 +173,39 @@ msgstr ""
 "of a small :download:`Tower Pro 9g <control/_downloads/SG90Servo.pdf>` "
 "servo motor are shown."
 
-#: ../../source/control-actuator-servomotor.rst:94
+#: ../../source/control-actuator-servomotor.rst:93
 msgid "Tensión de alimentación = 4,8 a 6,0 v"
 msgstr "Supply voltage = 4.8 to 6.0 v"
 
-#: ../../source/control-actuator-servomotor.rst:95
+#: ../../source/control-actuator-servomotor.rst:94
 msgid "Corriente máxima = 570 a 730 mA"
 msgstr "Maximum current = 570 to 730 mA"
 
-#: ../../source/control-actuator-servomotor.rst:96
+#: ../../source/control-actuator-servomotor.rst:95
 msgid "Corriente en movimiento sin carga = 170 a 270 mA"
 msgstr "No-load moving current = 170 to 270 mA"
 
-#: ../../source/control-actuator-servomotor.rst:97
+#: ../../source/control-actuator-servomotor.rst:96
 msgid "Ángulo de giro = 0 a 180º"
 msgstr "Rotation angle = 0 to 180º"
 
-#: ../../source/control-actuator-servomotor.rst:98
+#: ../../source/control-actuator-servomotor.rst:97
 msgid "Fuerza de giro = 1,8 kg-cm a 4,8v"
 msgstr "Twist force = 1.8 kg-cm at 4.8v"
 
-#: ../../source/control-actuator-servomotor.rst:99
+#: ../../source/control-actuator-servomotor.rst:98
 msgid "Velocidad de giro =  180º en 0,36 s"
 msgstr "Turning speed = 180º in 0.36 s"
 
-#: ../../source/control-actuator-servomotor.rst:100
+#: ../../source/control-actuator-servomotor.rst:99
 msgid "Peso = 9 gramos"
 msgstr "Weight = 9 grams"
 
-#: ../../source/control-actuator-servomotor.rst:101
+#: ../../source/control-actuator-servomotor.rst:100
 msgid "Precisión = 10us = 1,8º"
 msgstr "Precision = 10us = 1.8º"
 
-#: ../../source/control-actuator-servomotor.rst:103
+#: ../../source/control-actuator-servomotor.rst:102
 msgid ""
 "La mayoría de servomotores permiten ángulos de giro menores de 180º. En "
 "el siguiente vídeo se puede ver el funcionamiento del servomotor, su "
@@ -218,17 +217,17 @@ msgstr ""
 " and its range of action. In an oscilloscope image you can also see the "
 "electronic signal that controls the servo motor."
 
-#: ../../source/control-actuator-servomotor.rst:109
+#: ../../source/control-actuator-servomotor.rst:108
 msgid ""
-"`RC servo processor. <https://www.youtube-"
+"Vídeo: `RC servo processor. <https://www.youtube-"
 "nocookie.com/embed/em4JUrM49FI>`__"
 msgstr ""
 
-#: ../../source/control-actuator-servomotor.rst:113
+#: ../../source/control-actuator-servomotor.rst:112
 msgid "Esquema de conexión"
 msgstr "Connection scheme"
 
-#: ../../source/control-actuator-servomotor.rst:114
+#: ../../source/control-actuator-servomotor.rst:113
 msgid ""
 "El siguiente esquema muestra cómo conectar un servomotor a la placa "
 "Arduino UNO."
@@ -236,7 +235,7 @@ msgstr ""
 "The following schematic shows how to connect a servo motor to the Arduino"
 " UNO board."
 
-#: ../../source/control-actuator-servomotor.rst:127
+#: ../../source/control-actuator-servomotor.rst:126
 msgid ""
 "Hay que tener en cuenta que se ha utilizado para realizar este esquema el"
 " sistema de colores y conexiones de Hitec. Otros servomotores tienen un "
@@ -246,11 +245,11 @@ msgstr ""
 "connections has been used to make this scheme. Other servo motors have a "
 "different color scheme and even connections in a different order."
 
-#: ../../source/control-actuator-servomotor.rst:139
+#: ../../source/control-actuator-servomotor.rst:138
 msgid "Programa de control"
 msgstr "Control program"
 
-#: ../../source/control-actuator-servomotor.rst:141
+#: ../../source/control-actuator-servomotor.rst:140
 msgid ""
 "La librería de control para servomotores viene de forma estándar con el "
 "entorno Arduino. Su nombre es <Servo.h>"
@@ -258,7 +257,7 @@ msgstr ""
 "The control library for servo motors comes standard with the Arduino "
 "environment. Its name is <Servo.h>"
 
-#: ../../source/control-actuator-servomotor.rst:144
+#: ../../source/control-actuator-servomotor.rst:143
 msgid ""
 "En el siguiente ejemplo se utiliza la librería Servo.h para mover un "
 "servomotor conectado al pin digital 3, a dos posiciones extremas cada "
@@ -268,11 +267,11 @@ msgstr ""
 "servomotor connected to digital pin 3, to two extreme positions every "
 "half second."
 
-#: ../../source/control-actuator-servomotor.rst:172
+#: ../../source/control-actuator-servomotor.rst:171
 msgid "Ejercicios"
 msgstr "Exercises"
 
-#: ../../source/control-actuator-servomotor.rst:174
+#: ../../source/control-actuator-servomotor.rst:173
 msgid ""
 "Completar el siguiente programa que mueve lentamente el servomotor entre "
 "dos posiciones distintas."
@@ -280,7 +279,7 @@ msgstr ""
 "Complete the following program that slowly moves the servo motor between "
 "two different positions."
 
-#: ../../source/control-actuator-servomotor.rst:209
+#: ../../source/control-actuator-servomotor.rst:208
 msgid ""
 "Realizar una modificación al programa anterior para que el servomotor se "
 "mueva despacio desde la posición 0 grados hasta la posición 180 grados. "
@@ -296,7 +295,7 @@ msgstr ""
 "increasing the angle of rotation further in the `angle = angle + 2` "
 "statement."
 
-#: ../../source/control-actuator-servomotor.rst:218
+#: ../../source/control-actuator-servomotor.rst:217
 msgid ""
 "Hay que tener en cuenta que el servomotor tarda aproximadamente 360 "
 "milisegundos en volver a su posición inicial. El tiempo total programado "
@@ -306,7 +305,7 @@ msgstr ""
 " milliseconds to return to its initial position. The total time scheduled"
 " for the movement should not be less."
 
-#: ../../source/control-actuator-servomotor.rst:222
+#: ../../source/control-actuator-servomotor.rst:221
 msgid ""
 "Realizar un programa que mueva un servomotor a la posición 0 grados al "
 "presionar el pulsador 1 y que mueva el servomotor a la posición 90 grados"
@@ -316,25 +315,30 @@ msgstr ""
 "pressing button 1 and that moves the servomotor to the 90 degree position"
 " by pressing button 2."
 
-#: ../../source/control-actuator-servomotor.rst:228
+#: ../../source/control-actuator-servomotor.rst:227
 msgid "Extras"
 msgstr "Additional features"
 
-#: ../../source/control-actuator-servomotor.rst:230
+#: ../../source/control-actuator-servomotor.rst:229
 #, fuzzy
 msgid ""
-"Explicación en inglés del `funcionamiento de un servomotor "
-"<https://www.youtube.com/embed/hg3TIFIxWCo>`__"
+"Vídeo: explicación en inglés del `funcionamiento de un servomotor "
+"<https://www.youtube-nocookie.com/embed/hg3TIFIxWCo>`__"
 msgstr ""
 "Explanation in English of the `operation of a servomotor "
 "<https://www.youtube.com/watch?v=hg3TIFIxWCo>`_"
 
-#: ../../source/control-actuator-servomotor.rst:232
+#: ../../source/control-actuator-servomotor.rst:231
 #, fuzzy
 msgid ""
-"`How Servo Motors Work & How To Control Servos using Arduino "
-"<https://www.youtube.com/embed/LXURLvga8bQ>`__"
+"Vídeo: `how Servo Motors Work & How To Control Servos using Arduino "
+"<https://www.youtube-nocookie.com/embed/LXURLvga8bQ>`__"
 msgstr ""
 "`How Servo Motors Work & How To Control Servos using Arduino "
 "<https://www.youtube.com/watch?v=LXURLvga8bQ>`_"
+
+#~ msgid ""
+#~ "`RC servo processor. <https://www.youtube-"
+#~ "nocookie.com/embed/em4JUrM49FI>`__"
+#~ msgstr ""
 

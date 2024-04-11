@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Mechanics - Neumática - 7. La válvula antirretorno">
-  <title>7. La válvula antirretorno - Neumática - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Mechanics - Pneumatics - 7. The non-return valve">
+  <title>7. The non-return valve - Pneumatics - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="FreeCAD" href="freecad-index.html">
-  <link rel="prev" title="6. La válvula de simultaneidad o válvula and" href="mecan-neumatic-valvula-and.html">
+  <link rel="next" title="8. Pneumatic pilot valve" href="mecan-neumatic-pilotaje-neumatico.html">
+  <link rel="prev" title="6. The simultaneous valve or and valve" href="mecan-neumatic-valvula-and.html">
 
 </head>
 
@@ -69,9 +69,9 @@
         
           <li><a href="mecan-index.html">Mechanics</a>/</li>
         
-          <li><a href="mecan-neumatic-index.html">Neumática</a>/</li>
+          <li><a href="mecan-neumatic-index.html">Pneumatics</a>/</li>
         
-      <li><span class="section-number">7. </span>La válvula antirretorno</li>
+      <li><span class="section-number">7. </span>The non-return valve</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,170 +102,116 @@
            <div itemprop="articleBody">
             
   <div class="section" id="la-valvula-antirretorno">
-<span id="mecan-neumatic-valvula-antirretorno"></span><h1><span class="section-number">7. </span>La válvula antirretorno<a class="headerlink" href="#la-valvula-antirretorno" title="Permalink to this headline">¶</a></h1>
-<p>Una válvula antirretorno, también llamada válvula de retención, tiene la
-tarea de permitir el paso del aire a presión en un sentido y cortar por
-completo el paso del aire a presión en el sentido contrario.</p>
-<p>Su posición suele ser la que aparece en los siguientes símbolos, por lo
-que estas válvulas permiten la circulación de aire a presión hacia arriba
-y cortan el paso del aire a presión hacia abajo:</p>
+<span id="mecan-neumatic-valvula-antirretorno"></span><h1><span class="section-number">7. </span>The non-return valve<a class="headerlink" href="#la-valvula-antirretorno" title="Permalink to this headline">¶</a></h1>
+<p>A non-return valve, also called a check valve, has the task of allowing the passage of pressurized air in one direction and completely cutting off the passage of pressurized air in the opposite direction.</p>
+<p>Their position is usually what appears in the following symbols, so these valves allow the circulation of pressurized air upwards and cut off the passage of pressurized air downwards:</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/neumatic-simbolo-valvula-antirretorno-3.png"><img alt="Símbolos de la válvula antirretorno cerrada y abierta." src="_images/neumatic-simbolo-valvula-antirretorno-3.png" style="width: 270px;"></a>
-<p class="caption"><span class="caption-text">Símbolos de la válvula antirretorno cerrada y abierta.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Symbols of the closed and open non-return valve.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>La construcción interna de estas válvulas puede hacerse con una esfera y
-un cono como el de un embudo en el que encaja la esfera.</p>
-<p>Cuando el aire a presión llega desde arriba, la esfera se enclava en
-el embudo gracias a la presión del muelle y del propio aire a presión.
-En esta posición la esfera no permite el paso de aire hacia abajo:</p>
+<p>The internal construction of these valves can be made with a sphere and a cone like that of a funnel into which the sphere fits.</p>
+<p>When the pressurized air arrives from above, the sphere locks in the funnel thanks to the pressure of the spring and the pressurized air itself. In this position the sphere does not allow air to pass downwards:</p>
 <div class="figure align-center" id="id2">
 <a class="reference internal image-reference" href="_images/neumatic-simbolo-valvula-antirretorno-4.png"><img alt="Válvula antirretorno cerrada." src="_images/neumatic-simbolo-valvula-antirretorno-4.png" style="width: 190px;"></a>
-<p class="caption"><span class="caption-text">Válvula antirretorno cerrada.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Non-return valve closed.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 <div class="legend">
-<a class="reference external" href="https://commons.wikimedia.org/wiki/File:Checkvalveclosed.svg" rel="noopener noreferrer" target="_blank">Chris828</a>,
-<a class="reference external" href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a>,
-via Wikimedia Commons.</div>
+<a class="reference external" href="https://commons.wikimedia.org/wiki/File:Checkvalveclosed.svg" rel="noopener noreferrer" target="_blank">Chris828</a>, <a class="reference external" href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a> , via Wikimedia Commons.</div>
 </div>
-<p>Cuando el aire a presión llega desde abajo, la esfera se levanta por la
-presión del aire (mucho mayor que la fuerza del muelle) permitiendo que
-circule el aire a presión hacia arriba:</p>
+<p>When the pressurized air arrives from below, the sphere is lifted by the air pressure (much greater than the force of the spring) allowing the pressurized air to circulate upwards:</p>
 <div class="figure align-center" id="id3">
 <a class="reference internal image-reference" href="_images/neumatic-simbolo-valvula-antirretorno-5.png"><img alt="Válvula antirretorno abierta." src="_images/neumatic-simbolo-valvula-antirretorno-5.png" style="width: 190px;"></a>
-<p class="caption"><span class="caption-text">Válvula antirretorno abierta.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Non-return valve open.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 <div class="legend">
-<a class="reference external" href="https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg" rel="noopener noreferrer" target="_blank">Chris828</a>,
-<a class="reference external" href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a>,
-via Wikimedia Commons.</div>
+<a class="reference external" href="https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg" rel="noopener noreferrer" target="_blank">Chris828</a>, <a class="reference external" href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a> , via Wikimedia Commons.</div>
 </div>
 <div class="section" id="la-valvula-estranguladora">
-<h2>La válvula estranguladora<a class="headerlink" href="#la-valvula-estranguladora" title="Permalink to this headline">¶</a></h2>
-<p>Esta válvula, también llamada reguladora de caudal, es una válvula que
-cierra parcialmente el paso al aire a presión para dejar que circule
-solo una parte de todo el caudal de aire.</p>
-<p>Su función es la misma que tiene un grifo de agua, que permite controlar
-el chorro de agua con mayor o menor caudal, pero aplicado al aire a
-presión.</p>
+<h2>The choke valve<a class="headerlink" href="#la-valvula-estranguladora" title="Permalink to this headline">¶</a></h2>
+<p>This valve, also called a flow regulator, is a valve that partially closes the passage of pressurized air to allow only part of the entire air flow to circulate.</p>
+<p>Its function is the same as that of a water tap, which allows controlling the water jet with greater or lesser flow, but applied to pressurized air.</p>
 <div class="figure align-center" id="id4">
 <a class="reference internal image-reference" href="_images/neumatic-simbolo-valvula-estranguladora-2.png"><img alt="Símbolo de una válvula estranguladora o reguladora de caudal." src="_images/neumatic-simbolo-valvula-estranguladora-2.png" style="width: 174px;"></a>
-<p class="caption"><span class="caption-text">Símbolo de una válvula estranguladora o reguladora de caudal.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Symbol of a throttle or flow regulating valve.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
-<p>Internamente la válvula está constituida por un tornillo que acerca o aleja
-un tapón a la abertura del aire a presión. Cuanto más cerca está el tapón
-de la abertura, menos caudal de aire permitirá pasar.</p>
+<p>Internally, the valve is made up of a screw that brings a plug closer or further away from the pressurized air opening. The closer the plug is to the opening, the less air flow it will allow to pass through.</p>
 <div class="figure align-center" id="id5">
 <a class="reference internal image-reference" href="_images/neumatic-simbolo-valvula-estranguladora-3.png"><img alt="Visión interna de una válvula estranguladora o reguladora de caudal." src="_images/neumatic-simbolo-valvula-estranguladora-3.png" style="width: 350px;"></a>
-<p class="caption"><span class="caption-text">Visión interna de una válvula estranguladora o reguladora de caudal.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Internal view of a throttle or flow regulating valve.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 <div class="legend">
-<a class="reference external" href="https://commons.wikimedia.org/wiki/File:Valve_cross-section.PNG" rel="noopener noreferrer" target="_blank">H Padleckas</a>,
-<a class="reference external" href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a>,
-via Wikimedia Commons.</div>
+<a class="reference external" href="https://commons.wikimedia.org/wiki/File:Valve_cross-section.PNG" rel="noopener noreferrer" target="_blank">H Padleckas</a>, <a href="#id11"><span class="problematic" id="id12">`CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0/ &gt;`__</span></a>, via Wikimedia Commons.</div>
 </div>
 </div>
 <div class="section" id="la-valvula-estranguladora-unidireccional">
-<h2>La válvula estranguladora unidireccional<a class="headerlink" href="#la-valvula-estranguladora-unidireccional" title="Permalink to this headline">¶</a></h2>
-<p>Esta válvula está formada por las dos válvulas anteriores en paralelo.
-Su función es dejar paso libre del aire a presión en un sentido y
-estrangular el paso del aire a presión en el sentido contrario.</p>
+<h2>One-way throttle valve<a class="headerlink" href="#la-valvula-estranguladora-unidireccional" title="Permalink to this headline">¶</a></h2>
+<p>This valve is made up of the two previous valves in parallel. Its function is to allow free passage of pressurized air in one direction and throttle the passage of pressurized air in the opposite direction.</p>
 <div class="figure align-center" id="id6">
 <a class="reference internal image-reference" href="_images/neumatic-simbolo-valvula-estranguladora-unidireccional-2.png"><img alt="Símbolo de una válvula estranguladora unidireccional." src="_images/neumatic-simbolo-valvula-estranguladora-unidireccional-2.png" style="width: 174px;"></a>
-<p class="caption"><span class="caption-text">Símbolo de una válvula estranguladora unidireccional.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Symbol of a one-way throttle valve.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
-<p>Esta válvula se utiliza normalmente para dejar el paso libre del aire
-a presión que llega desde la válvula hacia el cilindro y para estrangular
-el escape de aire desde el cilindro hacia la válvula.</p>
+<p>This valve is normally used to allow the free passage of pressurized air coming from the valve to the cylinder and to throttle the escape of air from the cylinder to the valve.</p>
 </div>
 <div class="section" id="piston-de-doble-efecto-con-velocidad-regulada">
-<h2>Pistón de doble efecto con velocidad regulada<a class="headerlink" href="#piston-de-doble-efecto-con-velocidad-regulada" title="Permalink to this headline">¶</a></h2>
-<p>Los pistones neumáticos se suelen mover a velocidades rápidas,
-la misma velocidad rápida del aire al entrar y salir de las cámaras del
-pistón.</p>
-<p>En ocasiones es necesario reducir la velocidad del pistón para evitar
-accidentes o empujes demasiado agresivos. Por ejemplo el pistón de apertura
-y cierre de una puerta de autocar debe tener una velocidad lenta para no
-golpear a ningún pasajero.</p>
-<p>Para conseguir el efecto de movimiento lento del pistón se pueden seguir
-dos esquemas distintos:</p>
+<h2>Double-acting piston with regulated speed<a class="headerlink" href="#piston-de-doble-efecto-con-velocidad-regulada" title="Permalink to this headline">¶</a></h2>
+<p>Pneumatic pistons typically move at fast speeds, the same fast speed of air as it enters and leaves the piston chambers.</p>
+<p>Sometimes it is necessary to reduce the speed of the piston to avoid accidents or overly aggressive thrusts. For example, the opening and closing piston of a coach door must have a slow speed so as not to hit any passenger.</p>
+<p>To achieve the effect of slow movement of the piston, two different schemes can be followed:</p>
 <ol class="arabic">
-<li><p class="first"><strong>Estrangular la entrada de aire al pistón y dejar el escape libre.</strong></p>
-<p>Este esquema da problemas porque el aire va entrando poco a poco en el
-pistón y va generando presión hasta que el pistón se mueve a
-trompicones.
-El movimiento no es fluido y el pistón tiene poca fuerza en su
-movimiento.</p>
+<li><p class="first"><strong>Throttle the air inlet to the piston and leave the exhaust free.</strong></p>
+<p>This scheme causes problems because the air gradually enters the piston and generates pressure until the piston moves in fits and starts. The movement is not fluid and the piston has little force in its movement.</p>
 </li>
-<li><p class="first"><strong>Estrangular la salida de aire al escape y dejar entrar aire a presión
-al pistón sin estrangular.</strong></p>
-<p>Este es el esquema que se utiliza en la práctica porque consigue que
-el movimiento del pistón se realice con suavidad, sin dar trompicones
-y con toda la fuerza del cilindro.</p>
+<li><p class="first"><strong>Throttle the air outlet to the exhaust and let pressurized air enter the piston without throttling.</strong></p>
+<p>This is the scheme that is used in practice because it ensures that the piston movement is carried out smoothly, without jerking and with all the force of the cylinder.</p>
 </li>
 </ol>
 <div class="figure align-center" id="id7">
 <a class="reference internal image-reference" href="_images/neumatic-52-lenta-0.png"><img alt="Pistón de doble efecto con válvulas estranguladoras al escape." src="_images/neumatic-52-lenta-0.png" style="width: 295px;"></a>
-<p class="caption"><span class="caption-text">Pistón de doble efecto con válvulas estranguladoras al escape.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Double-acting piston with exhaust throttle valves.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="funcionamiento-de-la-velocidad-regulada">
-<h2>Funcionamiento de la velocidad regulada<a class="headerlink" href="#funcionamiento-de-la-velocidad-regulada" title="Permalink to this headline">¶</a></h2>
-<p>En un primer momento el cilindro se encuentra en reposo con el vástago
-dentro. La cámara de aire derecha está llena de aire a presión haciendo
-fuerza para que el vástago permanezca dentro del cilindro.</p>
+<h2>Regulated speed operation<a class="headerlink" href="#funcionamiento-de-la-velocidad-regulada" title="Permalink to this headline">¶</a></h2>
+<p>At first the cylinder is at rest with the rod inside. The right air chamber is filled with pressurized air, forcing the rod to remain inside the cylinder.</p>
 <div class="figure align-center" id="id8">
 <a class="reference internal image-reference" href="_images/neumatic-52-lenta-0.png"><img alt="Pistón de doble efecto con vástago dentro." src="_images/neumatic-52-lenta-0.png" style="width: 295px;"></a>
-<p class="caption"><span class="caption-text">Pistón de doble efecto con vástago dentro.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Double-acting piston with rod inside.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
-<p>A continuación se acciona la válvula 5/2 y comienza a entrar aire a
-presión en la cámara izquierda del cilindro. Esta entrada de aire no
-está estrangulada, por lo que entra con toda la velocidad posible.</p>
-<p>En la cámara derecha del cilindro sigue habiendo aire a presión, que
-sale hacia el escape a través del estrangulador, por lo que esta cámara
-se vaciará lentamente.</p>
+<p>Next, the 5/2 valve is activated and pressurized air begins to enter the left chamber of the cylinder. This air inlet is not throttled, so it enters with all possible speed.</p>
+<p>There is still pressurized air in the right chamber of the cylinder, which goes out to the exhaust through the choke, so this chamber will empty slowly.</p>
 <div class="figure align-center" id="id9">
 <a class="reference internal image-reference" href="_images/neumatic-52-lenta-1.png"><img alt="Pistón de doble efecto con vástago saliendo de forma regulada." src="_images/neumatic-52-lenta-1.png" style="width: 313px;"></a>
-<p class="caption"><span class="caption-text">Pistón de doble efecto con vástago saliendo de forma regulada.</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Double-acting piston with stem coming out in a regulated manner.</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
-<p>Este vaciado lento de la cámara derecha es lo que produce un movimiento
-lento del vástago hacia la derecha.</p>
-<p>Al haber presión en ambas cámaras de aire, el pistón se encuentra sin
-libertad para moverse fuera de la posición que le corresponde.
-De manera que si intentamos mover el pistón con la mano nos encontraremos
-que sigue desplazándose lentamente hacia fuera sin alterar su recorrido.</p>
-<p>Por último la cámara derecha se vaciará del todo de aire y el vástago
-saldrá en todo su recorrido.</p>
+<p>This slow emptying of the right chamber is what produces slow movement of the stem to the right.</p>
+<p>Since there is pressure in both air chambers, the piston is not free to move out of its corresponding position. So if we try to move the piston by hand we will find that it continues to move slowly outward without altering its path.</p>
+<p>Finally, the right chamber will be completely emptied of air and the stem will come out all the way.</p>
 <div class="figure align-center" id="id10">
 <a class="reference internal image-reference" href="_images/neumatic-52-lenta-2.png"><img alt="Pistón de doble efecto con vástago fuera del cilindro." src="_images/neumatic-52-lenta-2.png" style="width: 384px;"></a>
-<p class="caption"><span class="caption-text">Pistón de doble efecto con vástago fuera del cilindro.</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Double-acting piston with rod outside the cylinder.</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja el símbolo de una válvula antirretorno en reposo.</p>
+<li><p class="first">Draw the symbol of a non-return valve at rest.</p>
 </li>
-<li><p class="first">Describe el funcionamiento de una válvula antirretorno.</p>
-<p>Dibuja el interior de la válvula cuando deja paso al aire a presión.</p>
+<li><p class="first">Describes the operation of a non-return valve.</p>
+<p>Draw the inside of the valve when it allows the pressurized air to pass through.</p>
 </li>
-<li><p class="first">Dibuja el símbolo de una válvula estranguladora.</p>
+<li><p class="first">Draw the symbol for a choke valve.</p>
 </li>
-<li><p class="first">Describe el funcionamiento de una válvula estranguladora.
-¿Para qué sirve esta válvula?</p>
+<li><p class="first">Describe the operation of a choke valve. What is this valve for?</p>
 </li>
-<li><p class="first">Dibuja el símbolo de una válvula estranguladora unidireccional.</p>
+<li><p class="first">Draw the symbol for a one-way choke valve.</p>
 </li>
-<li><p class="first">Describe el funcionamiento de una válvula estranguladora unidireccional.</p>
+<li><p class="first">Describes the operation of a one-way throttle valve.</p>
 </li>
-<li><p class="first">Dibuja el esquema de un cilindro de doble efecto con la velocidad
-de salida y de entrada del vástago reguladas.</p>
+<li><p class="first">Draw the diagram of a double-acting cylinder with the regulated exit and entry speed of the rod.</p>
 </li>
-<li><p class="first">Simula el funcionamiento del circuito anterior.</p>
-<p><a class="reference external" href="../_static/flash/simulador-neumatica.html" rel="noopener noreferrer" target="_blank">Simulador de neumática.</a></p>
+<li><p class="first">Simulates the operation of the previous circuit.</p>
+<p><a class="reference external" href="../_static/flash/pneumatic-simulator.html" rel="noopener noreferrer" target="_blank">Pneumatics simulator.</a></p>
 </li>
-<li><p class="first">Explica el funcionamiento del circuito anterior.
-¿Por qué se mueve el vástago lentamente?</p>
+<li><p class="first">Explain the operation of the above circuit. Why does the stem move slowly?</p>
 </li>
-<li><p class="first">Dibuja un esquema neumático de un cilindro de doble efecto que
-tenga regulada la velocidad de salida del vástago,
-pero que deje entrar al vástago a máxima velocidad.</p>
+<li><p class="first">Draw a pneumatic diagram of a double-acting cylinder that has the stem exit speed regulated, but that allows the stem to enter at maximum speed.</p>
 </li>
 </ol>
 </div>
@@ -280,10 +226,10 @@ pero que deje entrar al vástago a máxima velocidad.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="freecad-index.html" class="btn btn-neutral float-right" title="FreeCAD" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="mecan-neumatic-pilotaje-neumatico.html" class="btn btn-neutral float-right" title="8. Pneumatic pilot valve" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="mecan-neumatic-valvula-and.html" class="btn btn-neutral" title="6. La válvula de simultaneidad o válvula and" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="mecan-neumatic-valvula-and.html" class="btn btn-neutral" title="6. The simultaneous valve or and valve" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -371,14 +317,15 @@ pero que deje entrar al vástago a máxima velocidad.</p>
 <li class="toctree-l2"><a class="reference internal" href="mecan-estructuras-index.html">Structures</a></li>
 <li class="toctree-l2"><a class="reference internal" href="mecan-maquinas-index.html">Machines and Mechanisms</a></li>
 <li class="toctree-l2"><a class="reference internal" href="mecan-calibre.html">The Caliber</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="mecan-neumatic-index.html">Neumática</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-intro.html">1. Introducción a la neumática</a></li>
-<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-simbolos.html">2. Símbolos neumáticos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-simple-efecto.html">3. Cilindro de simple efecto</a></li>
-<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-doble-efecto.html">4. Cilindro de doble efecto</a></li>
-<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-valvula-or.html">5. La válvula selectora o válvula or</a></li>
-<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-valvula-and.html">6. La válvula de simultaneidad o válvula and</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">7. La válvula antirretorno</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="mecan-neumatic-index.html">Pneumatics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-intro.html">1. Introduction to pneumatics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-simbolos.html">2. Pneumatic symbols</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-simple-efecto.html">3. Single acting cylinder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-doble-efecto.html">4. Double acting cylinder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-valvula-or.html">5. The selector valve or or valve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-valvula-and.html">6. The simultaneous valve or and valve</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">7. The non-return valve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mecan-neumatic-pilotaje-neumatico.html">8. Pneumatic pilot valve</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="freecad-index.html">FreeCAD</a></li>

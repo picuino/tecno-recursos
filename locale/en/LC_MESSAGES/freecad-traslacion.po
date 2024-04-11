@@ -1,211 +1,189 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Tecno Recursos 2023"
-"Report-Msgid-Bugs-To:"
-"POT-Creation-Date:2023-02-07 18:33+0100"
-"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
-"Language:en"
-"Language-Team:en <LL@li.org>"
-"Plural-Forms:nplurals=2; plural=(n != 1)"
-"MIME-Version:1.0"
-"Content-Type:text/plain; charset=utf-8"
-"Content-Transfer-Encoding:8bit"
-"Generated-By:Babel 2.9.0"
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-04-11 16:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
-
-
-#: ../../es/freecad-traslacion.rst:11
+#: ../../source/freecad-traslacion.rst:11
 msgid "Traslación de piezas"
 msgstr "Translation of pieces"
 
-
-#: ../../es/freecad-traslacion.rst:13
+#: ../../source/freecad-traslacion.rst:13
 msgid ""
-"En este tutorial vamos a aprender a trasladar piezas simples para componer "
-"otras mas complejas."
+"En este tutorial vamos a aprender a trasladar piezas simples para "
+"componer otras mas complejas."
 msgstr ""
-"In this tutorial we are going to learn to transfer simple pieces to compose "
-"more complex ones."
+"In this tutorial we are going to learn to transfer simple pieces to "
+"compose more complex ones."
 
-
-#: ../../es/freecad-traslacion.rst:16 ../../es/freecad-traslacion.rst:25
-
-
-#: ../../es/freecad-traslacion.rst:32 ../../es/freecad-traslacion.rst:43
-
-
-#: ../../es/freecad-traslacion.rst:58 ../../es/freecad-traslacion.rst:96
-
-
-#: ../../es/freecad-traslacion.rst:103 ../../es/freecad-traslacion.rst:111
-
-
-#: ../../es/freecad-traslacion.rst:118 ../../es/freecad-traslacion.rst:125
-
-
-#: ../../es/freecad-traslacion.rst:132
+#: ../../source/freecad-traslacion.rst:16
+#: ../../source/freecad-traslacion.rst:25
+#: ../../source/freecad-traslacion.rst:32
+#: ../../source/freecad-traslacion.rst:43
+#: ../../source/freecad-traslacion.rst:58
+#: ../../source/freecad-traslacion.rst:96
+#: ../../source/freecad-traslacion.rst:103
+#: ../../source/freecad-traslacion.rst:111
+#: ../../source/freecad-traslacion.rst:118
+#: ../../source/freecad-traslacion.rst:125
+#: ../../source/freecad-traslacion.rst:132
 msgid "|br|"
 msgstr "|br|"
 
-
-#: ../../es/freecad-traslacion.rst:18
+#: ../../source/freecad-traslacion.rst:18
 msgid ""
-"Abrimos la aplicación **FreeCAD** y hacemos clic en el icono para crear un "
-"**nuevo documento** |icono-nuevo-documento|."
+"Abrimos la aplicación **FreeCAD** y hacemos clic en el icono para crear "
+"un **nuevo documento** |icono-nuevo-documento|."
 msgstr ""
 "Open the **FreeCAD** application and click on the icon to create a **new "
 "document** |icono-nuevo-documento|."
 
-
-#: ../../es/freecad-traslacion.rst:22
+#: ../../source/freecad-traslacion.rst:22
 msgid ""
-"Se abrirá una nueva pestaña con un documento vacío, donde podemos comenzar a"
-" diseñar."
-msgstr ""
-"A new tab will open with an empty document, where we can start designing."
+"Se abrirá una nueva pestaña con un documento vacío, donde podemos "
+"comenzar a diseñar."
+msgstr "A new tab will open with an empty document, where we can start designing."
 
-
-#: ../../es/freecad-traslacion.rst:27
+#: ../../source/freecad-traslacion.rst:27
 msgid ""
-"Seleccionamos el **banco de trabajo Part** para comenzar a diseñar objetos "
-"en 3 dimensiones."
+"Seleccionamos el **banco de trabajo Part** para comenzar a diseñar "
+"objetos en 3 dimensiones."
 msgstr ""
-"We select the **Part workbench** to start designing objects in 3 dimensions."
+"We select the **Part workbench** to start designing objects in 3 "
+"dimensions."
 
-
-#: ../../es/freecad-traslacion.rst:34
+#: ../../source/freecad-traslacion.rst:34
 msgid ""
-"En este punto vamos a añadir los **ejes de referencia** para que nos ayuden "
-"a situar las piezas correctamente."
+"En este punto vamos a añadir los **ejes de referencia** para que nos "
+"ayuden a situar las piezas correctamente."
 msgstr ""
-"At this point we are going to add the **reference axes** to help us place "
-"the pieces correctly."
+"At this point we are going to add the **reference axes** to help us place"
+" the pieces correctly."
 
-
-#: ../../es/freecad-traslacion.rst:37
+#: ../../source/freecad-traslacion.rst:37
 msgid "En el menú ``Ver... Activar o desactivar cruz de los ejes.``"
 msgstr "In the menu ``View... Activate or deactivate the cross of the axes.``"
 
-
-#: ../../es/freecad-traslacion.rst:39
+#: ../../source/freecad-traslacion.rst:39
 msgid "En inglés ``View... Toggle axis cross``"
 msgstr "In English ``View... Toggle axis cross``"
 
-
-#: ../../es/freecad-traslacion.rst:45
+#: ../../source/freecad-traslacion.rst:45
 msgid ""
-"Ahora **creamos un cubo** clicando el primer icono de la barra de objetos "
-"sólidos."
+"Ahora **creamos un cubo** clicando el primer icono de la barra de objetos"
+" sólidos."
 msgstr ""
-"Now we **create a cube** by clicking the first icon on the solid object bar."
+"Now we **create a cube** by clicking the first icon on the solid object "
+"bar."
 
-
-#: ../../es/freecad-traslacion.rst:50
+#: ../../source/freecad-traslacion.rst:50
 msgid "Seleccionamos ver la pieza en vista isométrica."
 msgstr "We select to see the piece in isometric view."
 
-
-#: ../../es/freecad-traslacion.rst:54
+#: ../../source/freecad-traslacion.rst:54
 msgid "La pieza se verá como en la siguiente imagen."
 msgstr "The piece will look like the following image."
 
-
-#: ../../es/freecad-traslacion.rst:60
+#: ../../source/freecad-traslacion.rst:60
 msgid ""
 "Seleccionamos el cubo y en la pestaña de **Datos** abrimos el menú "
 "**Placement** y dentro el menú **Posición**."
 msgstr ""
-"We select the cube and in the **Data** tab we open the **Placement** menu "
-"and inside the **Position** menu."
+"We select the cube and in the **Data** tab we open the **Placement** menu"
+" and inside the **Position** menu."
 
-
-#: ../../es/freecad-traslacion.rst:63
+#: ../../source/freecad-traslacion.rst:63
 msgid ""
-"En este menú podremos modificar las posiciones del cubo en los ejes x, y, z."
-msgstr ""
-"In this menu we can modify the positions of the cube in the x, y, z axes."
+"En este menú podremos modificar las posiciones del cubo en los ejes x, y,"
+" z."
+msgstr "In this menu we can modify the positions of the cube in the x, y, z axes."
 
-
-#: ../../es/freecad-traslacion.rst:69
+#: ../../source/freecad-traslacion.rst:69
 msgid ""
-"Las posiciones x, y, z se pueden cambiar tecleando un nuevo número o bien "
-"clicando el número y girando la **rueda del ratón**."
+"Las posiciones x, y, z se pueden cambiar tecleando un nuevo número o bien"
+" clicando el número y girando la **rueda del ratón**."
 msgstr ""
-"The x, y, z positions can be changed by typing a new number or by clicking "
-"the number and rolling the **mouse wheel**."
+"The x, y, z positions can be changed by typing a new number or by "
+"clicking the number and rolling the **mouse wheel**."
 
-
-#: ../../es/freecad-traslacion.rst:72
+#: ../../source/freecad-traslacion.rst:72
 msgid ""
 "Al mover la rueda del ratón se va viendo como se mueve el cubo por la "
 "pantalla hasta su nueva posición."
 msgstr ""
-"By moving the mouse wheel you can see how the cube moves across the screen "
-"to its new position."
+"By moving the mouse wheel you can see how the cube moves across the "
+"screen to its new position."
 
-
-#: ../../es/freecad-traslacion.rst:80
+#: ../../source/freecad-traslacion.rst:80
 msgid "Ejercicios"
 msgstr "Exercises"
 
-
-#: ../../es/freecad-traslacion.rst:82
+#: ../../source/freecad-traslacion.rst:82
 msgid ""
 "Abre FreeCAD y crea un nuevo documento con tres cubos colocados según la "
 "siguiente figura."
 msgstr ""
-"Open FreeCAD and create a new document with three cubes arranged according "
-"to the following figure."
+"Open FreeCAD and create a new document with three cubes arranged "
+"according to the following figure."
 
-
-#: ../../es/freecad-traslacion.rst:87
+#: ../../source/freecad-traslacion.rst:87
 msgid ""
-"Recuerda que es necesario seleccionar un cubo antes de poder trasladarle por"
-" la pantalla."
+"Recuerda que es necesario seleccionar un cubo antes de poder trasladarle "
+"por la pantalla."
 msgstr ""
-"Remember that you need to select a cube before you can move it around the "
-"screen."
+"Remember that you need to select a cube before you can move it around the"
+" screen."
 
-
-#: ../../es/freecad-traslacion.rst:90
+#: ../../source/freecad-traslacion.rst:90
 msgid ""
-"Recuerda que las coordenadas tienen que ser **múltiplos de 10** para que los"
-" cubos se encuentren adosados entre sí sin espacios entre ellos y sin "
+"Recuerda que las coordenadas tienen que ser **múltiplos de 10** para que "
+"los cubos se encuentren adosados entre sí sin espacios entre ellos y sin "
 "solapes."
 msgstr ""
 "Remember that the coordinates have to be **multiples of 10** so that the "
 "cubes are attached to each other without spaces between them and without "
 "overlaps."
 
-
-#: ../../es/freecad-traslacion.rst:98
+#: ../../source/freecad-traslacion.rst:98
 msgid ""
-"Abre FreeCAD y crea un nuevo documento con cinco cubos colocados según la "
-"siguiente figura."
+"Abre FreeCAD y crea un nuevo documento con cinco cubos colocados según la"
+" siguiente figura."
 msgstr ""
-"Open FreeCAD and create a new document with five cubes arranged according to"
-" the following figure."
-
-
-#: ../../es/freecad-traslacion.rst:106 ../../es/freecad-traslacion.rst:113
-
-
-#: ../../es/freecad-traslacion.rst:120 ../../es/freecad-traslacion.rst:127
-msgid ""
-"Abre FreeCAD y crea un nuevo documento con varios cubos colocados según la "
-"siguiente figura."
-msgstr ""
-"Open FreeCAD and create a new document with several cubes arranged according"
+"Open FreeCAD and create a new document with five cubes arranged according"
 " to the following figure."
 
+#: ../../source/freecad-traslacion.rst:106
+#: ../../source/freecad-traslacion.rst:113
+#: ../../source/freecad-traslacion.rst:120
+#: ../../source/freecad-traslacion.rst:127
+msgid ""
+"Abre FreeCAD y crea un nuevo documento con varios cubos colocados según "
+"la siguiente figura."
+msgstr ""
+"Open FreeCAD and create a new document with several cubes arranged "
+"according to the following figure."
 
-#: ../../es/freecad-traslacion.rst:138
+#: ../../source/freecad-traslacion.rst:138
 msgid "Videotutorial"
 msgstr "Video-tutorial"
 
-
-#: ../../es/freecad-traslacion.rst:140
-msgid "`Trasladando cubos. <https://www.youtube.com/embed/Mh8cC7F_R4k>`__"
+#: ../../source/freecad-traslacion.rst:140
+#, fuzzy
+msgid ""
+"Vídeo: `trasladando cubos. <https://www.youtube-"
+"nocookie.com/embed/Mh8cC7F_R4k>`__"
 msgstr "`Transferring cubes. <https://www.youtube.com/embed/Mh8cC7F_R4k>`__"
+

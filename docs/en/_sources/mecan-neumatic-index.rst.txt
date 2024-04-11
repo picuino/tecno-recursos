@@ -29,5 +29,5 @@ Automatismos neumáticos con simulador online.
    mecan-neumatic-valvula-or.rst
    mecan-neumatic-valvula-and.rst
    mecan-neumatic-valvula-antirretorno.rst
-
+   mecan-neumatic-pilotaje-neumatico.rst
 

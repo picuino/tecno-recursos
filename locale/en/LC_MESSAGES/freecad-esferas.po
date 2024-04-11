@@ -1,285 +1,236 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Tecno Recursos 2023"
-"Report-Msgid-Bugs-To:"
-"POT-Creation-Date:2023-02-07 18:33+0100"
-"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
-"Language:en"
-"Language-Team:en <LL@li.org>"
-"Plural-Forms:nplurals=2; plural=(n != 1)"
-"MIME-Version:1.0"
-"Content-Type:text/plain; charset=utf-8"
-"Content-Transfer-Encoding:8bit"
-"Generated-By:Babel 2.9.0"
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-04-11 16:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
-
-
-#: ../../es/freecad-esferas.rst:11
+#: ../../source/freecad-esferas.rst:11
 msgid "Piezas esféricas"
 msgstr "Spherical parts"
 
-
-#: ../../es/freecad-esferas.rst:13
+#: ../../source/freecad-esferas.rst:13
 msgid ""
-"En este tutorial vamos a aprender a utilizar otro tipo de piezas sólidas, "
-"las **esferas**."
+"En este tutorial vamos a aprender a utilizar otro tipo de piezas sólidas,"
+" las **esferas**."
 msgstr ""
-"In this tutorial we are going to learn to use another type of solid pieces, "
-"the **spheres**."
+"In this tutorial we are going to learn to use another type of solid "
+"pieces, the **spheres**."
 
-
-#: ../../es/freecad-esferas.rst:16 ../../es/freecad-esferas.rst:25
-
-
-#: ../../es/freecad-esferas.rst:34 ../../es/freecad-esferas.rst:49
-
-
-#: ../../es/freecad-esferas.rst:59 ../../es/freecad-esferas.rst:66
-
-
-#: ../../es/freecad-esferas.rst:75 ../../es/freecad-esferas.rst:86
-
-
-#: ../../es/freecad-esferas.rst:103 ../../es/freecad-esferas.rst:118
-
-
-#: ../../es/freecad-esferas.rst:131 ../../es/freecad-esferas.rst:167
-
-
-#: ../../es/freecad-esferas.rst:213
+#: ../../source/freecad-esferas.rst:16 ../../source/freecad-esferas.rst:25
+#: ../../source/freecad-esferas.rst:34 ../../source/freecad-esferas.rst:49
+#: ../../source/freecad-esferas.rst:59 ../../source/freecad-esferas.rst:66
+#: ../../source/freecad-esferas.rst:75 ../../source/freecad-esferas.rst:86
+#: ../../source/freecad-esferas.rst:103 ../../source/freecad-esferas.rst:118
+#: ../../source/freecad-esferas.rst:131 ../../source/freecad-esferas.rst:167
+#: ../../source/freecad-esferas.rst:213
 msgid "|br|"
 msgstr "|br|"
 
-
-#: ../../es/freecad-esferas.rst:18
+#: ../../source/freecad-esferas.rst:18
 msgid ""
-"Abrimos la aplicación **FreeCAD** y hacemos clic en el icono para crear un "
-"**nuevo documento** |icono-nuevo-documento|."
+"Abrimos la aplicación **FreeCAD** y hacemos clic en el icono para crear "
+"un **nuevo documento** |icono-nuevo-documento|."
 msgstr ""
 "Open the **FreeCAD** application and click on the icon to create a **new "
 "document** |icono-nuevo-documento|."
 
-
-#: ../../es/freecad-esferas.rst:22
+#: ../../source/freecad-esferas.rst:22
 msgid ""
-"Seleccionamos el **banco de trabajo Part** para comenzar a diseñar objetos "
-"en 3 dimensiones."
+"Seleccionamos el **banco de trabajo Part** para comenzar a diseñar "
+"objetos en 3 dimensiones."
 msgstr ""
-"We select the **Part workbench** to start designing objects in 3 dimensions."
+"We select the **Part workbench** to start designing objects in 3 "
+"dimensions."
 
-
-#: ../../es/freecad-esferas.rst:27
+#: ../../source/freecad-esferas.rst:27
 msgid ""
-"En este punto vamos a añadir los **ejes de referencia** para que nos ayuden "
-"a situar las piezas correctamente."
+"En este punto vamos a añadir los **ejes de referencia** para que nos "
+"ayuden a situar las piezas correctamente."
 msgstr ""
-"At this point we are going to add the **reference axes** to help us place "
-"the pieces correctly."
+"At this point we are going to add the **reference axes** to help us place"
+" the pieces correctly."
 
-
-#: ../../es/freecad-esferas.rst:30
+#: ../../source/freecad-esferas.rst:30
 msgid "En el menú ``Ver... Activar o desactivar cruz de los ejes.``"
 msgstr "In the menu ``View... Activate or deactivate the cross of the axes.``"
 
-
-#: ../../es/freecad-esferas.rst:36
+#: ../../source/freecad-esferas.rst:36
 msgid ""
-"Ahora **creamos una esfera** clicando el tercer icono de la barra de objetos"
-" sólidos."
+"Ahora **creamos una esfera** clicando el tercer icono de la barra de "
+"objetos sólidos."
 msgstr ""
-"Now we **create a sphere** by clicking the third icon on the solid object "
-"bar."
+"Now we **create a sphere** by clicking the third icon on the solid object"
+" bar."
 
-
-#: ../../es/freecad-esferas.rst:41
+#: ../../source/freecad-esferas.rst:41
 msgid "Seleccionamos ver la pieza en vista isométrica."
 msgstr "We select to see the piece in isometric view."
 
-
-#: ../../es/freecad-esferas.rst:45
+#: ../../source/freecad-esferas.rst:45
 msgid "La pieza se verá como en la siguiente imagen."
 msgstr "The piece will look like the following image."
 
-
-#: ../../es/freecad-esferas.rst:51
+#: ../../source/freecad-esferas.rst:51
 msgid ""
-"Una vez creada la esfera vamos a cambiar su tamaño editando en la pestaña de"
-" datos el **Radio (Radius)** para que tenga el tamaño de una canica."
+"Una vez creada la esfera vamos a cambiar su tamaño editando en la pestaña"
+" de datos el **Radio (Radius)** para que tenga el tamaño de una canica."
 msgstr ""
-"Once the sphere is created, we are going to change its size by editing the "
-"**Radius (Radius)** in the data tab so that it has the size of a marble."
+"Once the sphere is created, we are going to change its size by editing "
+"the **Radius (Radius)** in the data tab so that it has the size of a "
+"marble."
 
-
-#: ../../es/freecad-esferas.rst:55
+#: ../../source/freecad-esferas.rst:55
 msgid "**Radio (Radius)** = 5 mm"
 msgstr "**Radius (Radius)** = 5mm"
 
-
-#: ../../es/freecad-esferas.rst:57
+#: ../../source/freecad-esferas.rst:57
 msgid "Con ayuda de de esta esfera vamos a crear un portacanicas."
 msgstr "With the help of this sphere we are going to create a marble holder."
 
-
-#: ../../es/freecad-esferas.rst:62
+#: ../../source/freecad-esferas.rst:62
 msgid ""
-"Para actualizar la imagen de la pieza en pantalla presionamos la tecla de "
-"función ``F5`` o bien en el Menú ``Editar... Actualizar pantalla``."
+"Para actualizar la imagen de la pieza en pantalla presionamos la tecla de"
+" función ``F5`` o bien en el Menú ``Editar... Actualizar pantalla``."
 msgstr ""
-"To update the image of the part on the screen, press the function key ``F5``"
-" or in the Menu ``Edit... Update screen``."
+"To update the image of the part on the screen, press the function key "
+"``F5`` or in the Menu ``Edit... Update screen``."
 
-
-#: ../../es/freecad-esferas.rst:68
+#: ../../source/freecad-esferas.rst:68
 msgid ""
 "Copiamos y pegamos la esfera ocho veces más. A continuación vamos a "
 "trasladar las esferas para formar una matriz de 3 x 3 esferas como en la "
 "vista en planta de la siguiente figura."
 msgstr ""
 "We copy and paste the sphere eight more times. Next we are going to "
-"translate the spheres to form a matrix of 3 x 3 spheres as in the plan view "
-"of the following figure."
+"translate the spheres to form a matrix of 3 x 3 spheres as in the plan "
+"view of the following figure."
 
-
-#: ../../es/freecad-esferas.rst:77
+#: ../../source/freecad-esferas.rst:77
 msgid ""
-"Una vez trasladadas las esferas una a una, uniremos todas las esferas en un "
-"solo objeto para poder trasladarlo con facilidad."
+"Una vez trasladadas las esferas una a una, uniremos todas las esferas en "
+"un solo objeto para poder trasladarlo con facilidad."
 msgstr ""
-"Once the spheres have been moved one by one, we will unite all the spheres "
-"in a single object to be able to move it easily."
+"Once the spheres have been moved one by one, we will unite all the "
+"spheres in a single object to be able to move it easily."
 
-
-#: ../../es/freecad-esferas.rst:81
-msgid ""
-"Seleccionamos todas las esferas y clicamos en el icono de unión de piezas:"
+#: ../../source/freecad-esferas.rst:81
+msgid "Seleccionamos todas las esferas y clicamos en el icono de unión de piezas:"
 msgstr "We select all the spheres and click on the union of pieces icon:"
 
-
-#: ../../es/freecad-esferas.rst:88
+#: ../../source/freecad-esferas.rst:88
 msgid ""
 "Seleccionamos la **Fusión** de piezas y elegimos la vista en **Alzado**. "
 "Menú ``Ver... Vistas estándar... Alzado``"
 msgstr ""
-"We select the **Fusion** of pieces and we choose the view in **Elevation**. "
-"Menu ``View... Standard Views... Elevation``"
+"We select the **Fusion** of pieces and we choose the view in "
+"**Elevation**. Menu ``View... Standard Views... Elevation``"
 
-
-#: ../../es/freecad-esferas.rst:93
+#: ../../source/freecad-esferas.rst:93
 msgid "Ahora trasladamos el conjunto de esferas a la nueva posición"
 msgstr "Now we translate the set of spheres to the new position"
 
-
-#: ../../es/freecad-esferas.rst:95
+#: ../../source/freecad-esferas.rst:95
 msgid "x = 6 mm"
 msgstr "x = 6mm"
 
-
-#: ../../es/freecad-esferas.rst:97
+#: ../../source/freecad-esferas.rst:97
 msgid "y = 6 mm"
 msgstr "y = 6mm"
 
-
-#: ../../es/freecad-esferas.rst:99
+#: ../../source/freecad-esferas.rst:99
 msgid "z = 6 mm"
 msgstr "z = 6mm"
 
-
-#: ../../es/freecad-esferas.rst:101
+#: ../../source/freecad-esferas.rst:101
 msgid "para que queden como en la figura."
 msgstr "so that they remain as in the figure."
 
-
-#: ../../es/freecad-esferas.rst:105
-msgid ""
-"A continuación creamos un cubo y le daremos las siguientes dimensiones."
+#: ../../source/freecad-esferas.rst:105
+msgid "A continuación creamos un cubo y le daremos las siguientes dimensiones."
 msgstr "Next we create a cube and give it the following dimensions."
 
-
-#: ../../es/freecad-esferas.rst:108
+#: ../../source/freecad-esferas.rst:108
 msgid "**Longitud (Lenght)** = 32 mm"
 msgstr "**Length (Length)** = 32 mm"
 
-
-#: ../../es/freecad-esferas.rst:110
+#: ../../source/freecad-esferas.rst:110
 msgid "**Anchura (Width)** = 32 mm"
 msgstr "**Width (Width)** = 32mm"
 
-
-#: ../../es/freecad-esferas.rst:112 ../../es/freecad-esferas.rst:192
+#: ../../source/freecad-esferas.rst:112 ../../source/freecad-esferas.rst:192
 msgid "**Altura (Height)** = 6 mm"
 msgstr "**Height (Height)** = 6mm"
 
-
-#: ../../es/freecad-esferas.rst:114
+#: ../../source/freecad-esferas.rst:114
 msgid "En vista isométrica tendrá el siguiente aspecto."
 msgstr "In isometric view it will look like this."
 
-
-#: ../../es/freecad-esferas.rst:120
+#: ../../source/freecad-esferas.rst:120
 msgid ""
-"Por último solo tendremos que seleccionar el **cubo**, manteniendo la tecla "
-"**Control** seleccionamos la **Fusión** de esferas y clicamos en el icono de"
-" diferencia de piezas."
+"Por último solo tendremos que seleccionar el **cubo**, manteniendo la "
+"tecla **Control** seleccionamos la **Fusión** de esferas y clicamos en el"
+" icono de diferencia de piezas."
 msgstr ""
-"Finally we will only have to select the **cube**, holding the **Control** "
-"key, select the **Fusion** of spheres and click on the icon for the "
+"Finally we will only have to select the **cube**, holding the **Control**"
+" key, select the **Fusion** of spheres and click on the icon for the "
 "difference in pieces."
 
-
-#: ../../es/freecad-esferas.rst:127
+#: ../../source/freecad-esferas.rst:127
 msgid "Con lo que obtendremos nuestro portacanicas terminado."
 msgstr "With which we will obtain our finished marble holder."
 
-
-#: ../../es/freecad-esferas.rst:138
+#: ../../source/freecad-esferas.rst:138
 msgid "Ejercicios"
 msgstr "Exercises"
 
-
-#: ../../es/freecad-esferas.rst:140
+#: ../../source/freecad-esferas.rst:140
 msgid ""
-"Crear un cubo con una esfera atrapada en su interior como la que puede verse"
-" en la siguiente figura."
+"Crear un cubo con una esfera atrapada en su interior como la que puede "
+"verse en la siguiente figura."
 msgstr ""
-"Create a cube with a sphere trapped inside like the one that can be seen in "
-"the following figure."
+"Create a cube with a sphere trapped inside like the one that can be seen "
+"in the following figure."
 
-
-#: ../../es/freecad-esferas.rst:145
-msgid ""
-"Las dimensiones del cubo serán las de un cuadrado de 30 milímetros de lado"
+#: ../../source/freecad-esferas.rst:145
+msgid "Las dimensiones del cubo serán las de un cuadrado de 30 milímetros de lado"
 msgstr ""
-"The dimensions of the cube will be those of a square of 30 millimeters on "
-"each side."
+"The dimensions of the cube will be those of a square of 30 millimeters on"
+" each side."
 
-
-#: ../../es/freecad-esferas.rst:148
+#: ../../source/freecad-esferas.rst:148
 msgid ""
-"Las dimensiones del hueco interior (una esfera) serán de 18 milímetros de "
-"radio y la esfera habrá que trasladarla al centro del cuadrado."
+"Las dimensiones del hueco interior (una esfera) serán de 18 milímetros de"
+" radio y la esfera habrá que trasladarla al centro del cuadrado."
 msgstr ""
 "The dimensions of the interior hole (a sphere) will be 18 millimeters in "
 "radius and the sphere will have to be moved to the center of the square."
 
-
-#: ../../es/freecad-esferas.rst:152 ../../es/freecad-esferas.rst:161
+#: ../../source/freecad-esferas.rst:152 ../../source/freecad-esferas.rst:161
 msgid "x = 15 mm"
 msgstr "x = 15mm"
 
-
-#: ../../es/freecad-esferas.rst:154 ../../es/freecad-esferas.rst:163
+#: ../../source/freecad-esferas.rst:154 ../../source/freecad-esferas.rst:163
 msgid "y = 15 mm"
 msgstr "y = 15mm"
 
-
-#: ../../es/freecad-esferas.rst:156
+#: ../../source/freecad-esferas.rst:156
 msgid "z = 15 mm"
 msgstr "z = 15mm"
 
-
-#: ../../es/freecad-esferas.rst:158
+#: ../../source/freecad-esferas.rst:158
 msgid ""
 "Por último la pequeña esfera interior tendrá un radio de 12 milímetros y "
 "habrá que trasladarla a la siguiente posición."
@@ -287,72 +238,59 @@ msgstr ""
 "Finally, the small inner sphere will have a radius of 12 millimeters and "
 "will have to be moved to the next position."
 
-
-#: ../../es/freecad-esferas.rst:165
+#: ../../source/freecad-esferas.rst:165
 msgid "z = 12 mm"
 msgstr "z = 12mm"
 
-
-#: ../../es/freecad-esferas.rst:169
+#: ../../source/freecad-esferas.rst:169
 msgid "Crear una ficha de dominó como la de la figura."
 msgstr "Create a domino tile like the one in the figure."
 
-
-#: ../../es/freecad-esferas.rst:173
+#: ../../source/freecad-esferas.rst:173
 msgid ""
-"La base inferior se creará a partir de un cubo al que daremos las siguientes"
-" dimensiones."
+"La base inferior se creará a partir de un cubo al que daremos las "
+"siguientes dimensiones."
 msgstr ""
 "The lower base will be created from a cube to which we will give the "
 "following dimensions."
 
-
-#: ../../es/freecad-esferas.rst:176
+#: ../../source/freecad-esferas.rst:176
 msgid "**Longitud (Lenght)** = 41 mm"
 msgstr "**Length (Length)** = 41 mm"
 
-
-#: ../../es/freecad-esferas.rst:178
+#: ../../source/freecad-esferas.rst:178
 msgid "**Anchura (Width)** = 20 mm"
 msgstr "**Width (Width)** = 20mm"
 
-
-#: ../../es/freecad-esferas.rst:180
+#: ../../source/freecad-esferas.rst:180
 msgid "**Altura (Height)** = 5 mm"
 msgstr "**Height (Height)** = 5mm"
 
-
-#: ../../es/freecad-esferas.rst:182
-msgid ""
-"Posteriormente redondearemos todos sus lados con un radio de 1 milímetro."
+#: ../../source/freecad-esferas.rst:182
+msgid "Posteriormente redondearemos todos sus lados con un radio de 1 milímetro."
 msgstr "Later we will round all its sides with a radius of 1 millimeter."
 
-
-#: ../../es/freecad-esferas.rst:185
+#: ../../source/freecad-esferas.rst:185
 msgid ""
 "La lámina de separación en el medio será otro cubo, al que daremos las "
 "siguientes dimensiones."
 msgstr ""
-"The separation sheet in the middle will be another cube, to which we will "
-"give the following dimensions."
+"The separation sheet in the middle will be another cube, to which we will"
+" give the following dimensions."
 
-
-#: ../../es/freecad-esferas.rst:188
+#: ../../source/freecad-esferas.rst:188
 msgid "**Longitud (Lenght)** = 1 mm"
 msgstr "**Length (Length)** = 1 mm"
 
-
-#: ../../es/freecad-esferas.rst:190
+#: ../../source/freecad-esferas.rst:190
 msgid "**Anchura (Width)** = 18 mm"
 msgstr "**Width (Width)** = 18mm"
 
-
-#: ../../es/freecad-esferas.rst:194
+#: ../../source/freecad-esferas.rst:194
 msgid "Posteriormente lo trasladaremos a su posición en el centro de la base."
 msgstr "Later we will move it to its position in the center of the base."
 
-
-#: ../../es/freecad-esferas.rst:199
+#: ../../source/freecad-esferas.rst:199
 msgid ""
 "A continuación crearemos 1 esfera con un radio de 2 milímetros y la "
 "trasladaremos a una altura **z** de 5 mm."
@@ -360,33 +298,32 @@ msgstr ""
 "Next we will create 1 sphere with a radius of 2mm and translate it to a "
 "height **z** of 5mm."
 
-
-#: ../../es/freecad-esferas.rst:202
+#: ../../source/freecad-esferas.rst:202
 msgid ""
 "Duplicaremos la esfera 6 veces con el Menú ``Editar... Duplicar la "
-"selección`` y trasladaremos las esferas a las posiciones **x** e **y** que "
-"pueden verse en la siguiente figura."
+"selección`` y trasladaremos las esferas a las posiciones **x** e **y** "
+"que pueden verse en la siguiente figura."
 msgstr ""
-"We will duplicate the sphere 6 times with the Menu ``Edit... Duplicate the "
-"selection`` and we will translate the spheres to the positions **x** and "
-"**y** that can be seen in the following figure."
+"We will duplicate the sphere 6 times with the Menu ``Edit... Duplicate "
+"the selection`` and we will translate the spheres to the positions **x** "
+"and **y** that can be seen in the following figure."
 
-
-#: ../../es/freecad-esferas.rst:209
+#: ../../source/freecad-esferas.rst:209
 msgid ""
-"Por último uniremos todas las esferas en un solo objeto y restamos la fusion"
-" de todas las esferas de la pieza inferior."
+"Por último uniremos todas las esferas en un solo objeto y restamos la "
+"fusion de todas las esferas de la pieza inferior."
 msgstr ""
-"Finally we will unite all the spheres in a single object and subtract the "
-"fusion of all the spheres of the lower piece."
+"Finally we will unite all the spheres in a single object and subtract the"
+" fusion of all the spheres of the lower piece."
 
-
-#: ../../es/freecad-esferas.rst:219
+#: ../../source/freecad-esferas.rst:219
 msgid "Videotutorial"
 msgstr "Video-tutorial"
 
+#: ../../source/freecad-esferas.rst:221
+#, fuzzy
+msgid ""
+"Vídeo: `con un par de esferas <https://www.youtube-nocookie.com/embed"
+"/FChk-69h8SY>`__"
+msgstr "`With a pair of spheres <https://www.youtube.com/embed/FChk-69h8SY>`__"
 
-#: ../../es/freecad-esferas.rst:221
-msgid "`Con un par de esferas <https://www.youtube.com/embed/FChk-69h8SY>`__"
-msgstr ""
-"`With a pair of spheres <https://www.youtube.com/embed/FChk-69h8SY>`__"

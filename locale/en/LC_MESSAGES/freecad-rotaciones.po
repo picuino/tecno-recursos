@@ -1,313 +1,277 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Tecno Recursos 2023"
-"Report-Msgid-Bugs-To:"
-"POT-Creation-Date:2023-02-07 18:33+0100"
-"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
-"Language:en"
-"Language-Team:en <LL@li.org>"
-"Plural-Forms:nplurals=2; plural=(n != 1)"
-"MIME-Version:1.0"
-"Content-Type:text/plain; charset=utf-8"
-"Content-Transfer-Encoding:8bit"
-"Generated-By:Babel 2.9.0"
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-04-11 16:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
-
-
-#: ../../es/freecad-rotaciones.rst:11
+#: ../../source/freecad-rotaciones.rst:11
 msgid "Rotación de piezas"
 msgstr "Rotation of parts"
 
-
-#: ../../es/freecad-rotaciones.rst:13
+#: ../../source/freecad-rotaciones.rst:13
 msgid "En este tutorial vamos a aprender a girar y rotar sólidos."
-msgstr ""
-"In this tutorial we are going to learn how to twist and rotate solids."
+msgstr "In this tutorial we are going to learn how to twist and rotate solids."
 
-
-#: ../../es/freecad-rotaciones.rst:16 ../../es/freecad-rotaciones.rst:25
-
-
-#: ../../es/freecad-rotaciones.rst:36 ../../es/freecad-rotaciones.rst:59
-
-
-#: ../../es/freecad-rotaciones.rst:76 ../../es/freecad-rotaciones.rst:93
-
-
-#: ../../es/freecad-rotaciones.rst:104 ../../es/freecad-rotaciones.rst:147
-
-
-#: ../../es/freecad-rotaciones.rst:180
+#: ../../source/freecad-rotaciones.rst:16
+#: ../../source/freecad-rotaciones.rst:25
+#: ../../source/freecad-rotaciones.rst:36
+#: ../../source/freecad-rotaciones.rst:59
+#: ../../source/freecad-rotaciones.rst:76
+#: ../../source/freecad-rotaciones.rst:93
+#: ../../source/freecad-rotaciones.rst:104
+#: ../../source/freecad-rotaciones.rst:147
+#: ../../source/freecad-rotaciones.rst:180
 msgid "|br|"
 msgstr "|br|"
 
-
-#: ../../es/freecad-rotaciones.rst:18
+#: ../../source/freecad-rotaciones.rst:18
 msgid ""
-"Abrimos la aplicación **FreeCAD** y hacemos clic en el icono para crear un "
-"**nuevo documento** |icono-nuevo-documento|."
+"Abrimos la aplicación **FreeCAD** y hacemos clic en el icono para crear "
+"un **nuevo documento** |icono-nuevo-documento|."
 msgstr ""
 "Open the **FreeCAD** application and click on the icon to create a **new "
 "document** |icono-nuevo-documento|."
 
-
-#: ../../es/freecad-rotaciones.rst:22
+#: ../../source/freecad-rotaciones.rst:22
 msgid ""
-"Seleccionamos el **banco de trabajo Part** para comenzar a diseñar objetos "
-"en 3 dimensiones."
+"Seleccionamos el **banco de trabajo Part** para comenzar a diseñar "
+"objetos en 3 dimensiones."
 msgstr ""
-"We select the **Part workbench** to start designing objects in 3 dimensions."
+"We select the **Part workbench** to start designing objects in 3 "
+"dimensions."
 
-
-#: ../../es/freecad-rotaciones.rst:27
+#: ../../source/freecad-rotaciones.rst:27
 msgid ""
-"En este punto vamos a añadir los **ejes de referencia** para que nos ayuden "
-"a situar las piezas correctamente."
+"En este punto vamos a añadir los **ejes de referencia** para que nos "
+"ayuden a situar las piezas correctamente."
 msgstr ""
-"At this point we are going to add the **reference axes** to help us place "
-"the pieces correctly."
+"At this point we are going to add the **reference axes** to help us place"
+" the pieces correctly."
 
-
-#: ../../es/freecad-rotaciones.rst:30
+#: ../../source/freecad-rotaciones.rst:30
 msgid "En el menú ``Ver... Activar o desactivar cruz de los ejes.``"
 msgstr "In the menu ``View... Activate or deactivate the cross of the axes.``"
 
-
-#: ../../es/freecad-rotaciones.rst:32
+#: ../../source/freecad-rotaciones.rst:32
 msgid "En inglés ``View... Toggle axis cross``"
 msgstr "In English ``View... Toggle axis cross``"
 
-
-#: ../../es/freecad-rotaciones.rst:38
+#: ../../source/freecad-rotaciones.rst:38
 msgid ""
-"Ahora **creamos un cubo** clicando el primer icono de la barra de objetos "
-"sólidos."
+"Ahora **creamos un cubo** clicando el primer icono de la barra de objetos"
+" sólidos."
 msgstr ""
-"Now we **create a cube** by clicking the first icon on the solid object bar."
+"Now we **create a cube** by clicking the first icon on the solid object "
+"bar."
 
-
-#: ../../es/freecad-rotaciones.rst:43
+#: ../../source/freecad-rotaciones.rst:43
 msgid "y cambiamos el tamaño del cubo según las siguientes dimensiones."
 msgstr "and we resize the cube according to the following dimensions."
 
-
-#: ../../es/freecad-rotaciones.rst:45 ../../es/freecad-rotaciones.rst:81
+#: ../../source/freecad-rotaciones.rst:45
+#: ../../source/freecad-rotaciones.rst:81
 msgid "**Longitud (Lenght)** = 2"
 msgstr "**Length (Length)** = 2"
 
-
-#: ../../es/freecad-rotaciones.rst:47 ../../es/freecad-rotaciones.rst:83
+#: ../../source/freecad-rotaciones.rst:47
+#: ../../source/freecad-rotaciones.rst:83
 msgid "**Anchura (Width)** = 10"
 msgstr "**Width** = 10"
 
-
-#: ../../es/freecad-rotaciones.rst:49 ../../es/freecad-rotaciones.rst:85
+#: ../../source/freecad-rotaciones.rst:49
+#: ../../source/freecad-rotaciones.rst:85
 msgid "**Altura (Height)** = 2"
 msgstr "**Height (Height)** = 2"
 
-
-#: ../../es/freecad-rotaciones.rst:51
+#: ../../source/freecad-rotaciones.rst:51
 msgid "Ahora seleccionamos ver la pieza en vista isométrica."
 msgstr "Now we select to see the piece in isometric view."
 
-
-#: ../../es/freecad-rotaciones.rst:55
+#: ../../source/freecad-rotaciones.rst:55
 msgid "La pieza se verá como en la siguiente imagen."
 msgstr "The piece will look like the following image."
 
-
-#: ../../es/freecad-rotaciones.rst:61
+#: ../../source/freecad-rotaciones.rst:61
 msgid "Una vez creada la barra, vamos a girarla alrededor del **Eje Z**."
-msgstr ""
-"Once the bar is created, we are going to rotate it around the **Z Axis**."
+msgstr "Once the bar is created, we are going to rotate it around the **Z Axis**."
 
-
-#: ../../es/freecad-rotaciones.rst:63
+#: ../../source/freecad-rotaciones.rst:63
 msgid ""
 "Seleccionamos la pestaña **Datos** y cambiamos el **Ángulo** a un valor "
 "negativo de -30º"
 msgstr ""
-"Select the **Data** tab and change the **Angle** to a negative value of -30º"
+"Select the **Data** tab and change the **Angle** to a negative value of "
+"-30º"
 
-
-#: ../../es/freecad-rotaciones.rst:66
+#: ../../source/freecad-rotaciones.rst:66
 msgid ""
-"El eje de giro escogido será el eje vertical o **Eje z**. Por esa razón el "
-"**Eje** tendrá un valor de 1 en Z y tendrá un valor de 0 en los demás ejes."
+"El eje de giro escogido será el eje vertical o **Eje z**. Por esa razón "
+"el **Eje** tendrá un valor de 1 en Z y tendrá un valor de 0 en los demás "
+"ejes."
 msgstr ""
 "The axis of rotation chosen will be the vertical axis or **Z axis**. For "
-"that reason the **Axis** will have a value of 1 in Z and will have a value "
-"of 0 in the other axes."
+"that reason the **Axis** will have a value of 1 in Z and will have a "
+"value of 0 in the other axes."
 
-
-#: ../../es/freecad-rotaciones.rst:72
+#: ../../source/freecad-rotaciones.rst:72
 msgid "El objeto girará tal y como aparece en la siguiente figura."
 msgstr "The object will rotate as it appears in the following figure."
 
-
-#: ../../es/freecad-rotaciones.rst:78
+#: ../../source/freecad-rotaciones.rst:78
 msgid ""
-"Ahora añadimos un cubo más y modificamos su tamaño al igual que hicimos con "
-"el cubo anterior."
+"Ahora añadimos un cubo más y modificamos su tamaño al igual que hicimos "
+"con el cubo anterior."
 msgstr ""
-"Now we add one more cube and resize it just like we did with the previous "
-"cube."
+"Now we add one more cube and resize it just like we did with the previous"
+" cube."
 
-
-#: ../../es/freecad-rotaciones.rst:87
+#: ../../source/freecad-rotaciones.rst:87
 msgid ""
-"Una vez cambiado el tamaño, giramos la nueva pieza también sobre el eje z "
-"con un **Ángulo** positivo de 30º (en el sentido contrario a la pieza "
+"Una vez cambiado el tamaño, giramos la nueva pieza también sobre el eje z"
+" con un **Ángulo** positivo de 30º (en el sentido contrario a la pieza "
 "anterior)."
 msgstr ""
-"Once the size has been changed, we also rotate the new piece on the z axis "
-"with a positive **Angle** of 30º (in the opposite direction to the previous "
-"piece)."
+"Once the size has been changed, we also rotate the new piece on the z "
+"axis with a positive **Angle** of 30º (in the opposite direction to the "
+"previous piece)."
 
-
-#: ../../es/freecad-rotaciones.rst:95
+#: ../../source/freecad-rotaciones.rst:95
 msgid "por último, podemos trasladar la nueva pieza (Cubo001) a la posición"
 msgstr "Finally, we can move the new part (Cube001) to the position"
 
-
-#: ../../es/freecad-rotaciones.rst:98
+#: ../../source/freecad-rotaciones.rst:98
 msgid "x = 5, y = -1,  z = 0"
 msgstr "x = 5, y = -1, z = 0"
 
-
-#: ../../es/freecad-rotaciones.rst:100
+#: ../../source/freecad-rotaciones.rst:100
 msgid "para formar una equis."
 msgstr "to form an X."
 
-
-#: ../../es/freecad-rotaciones.rst:111
+#: ../../source/freecad-rotaciones.rst:111
 msgid "Ejercicios"
 msgstr "Exercises"
 
-
-#: ../../es/freecad-rotaciones.rst:113
+#: ../../source/freecad-rotaciones.rst:113
 msgid "Crea la siguiente figura rotando un cubo."
 msgstr "Create the figure below by rotating a cube."
 
-
-#: ../../es/freecad-rotaciones.rst:117
+#: ../../source/freecad-rotaciones.rst:117
 msgid ""
-"Escogiendo en el menú ``Ver... Estilo de dibujo... Modelo de alambres`` la "
-"figura se visualiza de la siguiente manera."
+"Escogiendo en el menú ``Ver... Estilo de dibujo... Modelo de alambres`` "
+"la figura se visualiza de la siguiente manera."
 msgstr ""
 "Choosing in the menu ``View...Drawing style...Wire model`` the figure is "
 "displayed as follows."
 
-
-#: ../../es/freecad-rotaciones.rst:123
+#: ../../source/freecad-rotaciones.rst:123
 msgid ""
 "Para construir la base crearemos un cubo y cambiaremos las siguientes "
 "dimensiones"
 msgstr ""
-"To build the base we will create a cube and change the following dimensions"
+"To build the base we will create a cube and change the following "
+"dimensions"
 
-
-#: ../../es/freecad-rotaciones.rst:126
+#: ../../source/freecad-rotaciones.rst:126
 msgid "**Longitud (Lenght)** = 14"
 msgstr "**Length (Length)** = 14"
 
-
-#: ../../es/freecad-rotaciones.rst:128 ../../es/freecad-rotaciones.rst:138
+#: ../../source/freecad-rotaciones.rst:128
+#: ../../source/freecad-rotaciones.rst:138
 msgid "**Anchura (Width)** = 20"
 msgstr "**Width** = 20"
 
-
-#: ../../es/freecad-rotaciones.rst:130 ../../es/freecad-rotaciones.rst:140
+#: ../../source/freecad-rotaciones.rst:130
+#: ../../source/freecad-rotaciones.rst:140
 msgid "**Altura (Height)** = 10"
 msgstr "**Height (Height)** = 10"
 
-
-#: ../../es/freecad-rotaciones.rst:133
+#: ../../source/freecad-rotaciones.rst:133
 msgid ""
-"El tejado se creará a partir de un cubo cambiando las siguientes dimensiones"
-msgstr ""
-"The roof will be created from a cube by changing the following dimensions"
+"El tejado se creará a partir de un cubo cambiando las siguientes "
+"dimensiones"
+msgstr "The roof will be created from a cube by changing the following dimensions"
 
-
-#: ../../es/freecad-rotaciones.rst:136
+#: ../../source/freecad-rotaciones.rst:136
 msgid "**Longitud (Lenght)** = 10"
 msgstr "**Length (Length)** = 10"
 
-
-#: ../../es/freecad-rotaciones.rst:142
+#: ../../source/freecad-rotaciones.rst:142
 msgid "La pieza resultante debe girar 45º sobre el **Eje Y**"
 msgstr "The resulting piece must rotate 45º on the **Y axis**"
 
-
-#: ../../es/freecad-rotaciones.rst:144
+#: ../../source/freecad-rotaciones.rst:144
 msgid ""
 "Una vez girada, la pieza debe trasladarse hacia arriba hasta que esté "
 "colocada como tejado."
-msgstr ""
-"Once tapped, the piece must be translated up until it is placed as a roof."
+msgstr "Once tapped, the piece must be translated up until it is placed as a roof."
 
-
-#: ../../es/freecad-rotaciones.rst:149
+#: ../../source/freecad-rotaciones.rst:149
 msgid "Crea la siguiente figura con dos cubos."
 msgstr "Create the following figure with two cubes."
 
-
-#: ../../es/freecad-rotaciones.rst:153
-msgid ""
-"Primero crea un cubo nuevo y cambia su **Altura (Height)** a 2 milímetros."
+#: ../../source/freecad-rotaciones.rst:153
+msgid "Primero crea un cubo nuevo y cambia su **Altura (Height)** a 2 milímetros."
 msgstr "First create a new cube and change its **Height** to 2 millimeters."
 
-
-#: ../../es/freecad-rotaciones.rst:158
+#: ../../source/freecad-rotaciones.rst:158
 msgid "Copia y pega el cubo anterior para tener 2 cubos iguales."
 msgstr "Copy and paste the previous cube to have 2 equal cubes."
 
-
-#: ../../es/freecad-rotaciones.rst:160
+#: ../../source/freecad-rotaciones.rst:160
 msgid ""
-"El segundo cubo se debe rotar 45º respecto del eje Z, pero vamos a rotarle "
-"en torno a su centro."
+"El segundo cubo se debe rotar 45º respecto del eje Z, pero vamos a "
+"rotarle en torno a su centro."
 msgstr ""
-"The second cube must be rotated 45º with respect to the Z axis, but we are "
-"going to rotate it around its center."
+"The second cube must be rotated 45º with respect to the Z axis, but we "
+"are going to rotate it around its center."
 
-
-#: ../../es/freecad-rotaciones.rst:163
+#: ../../source/freecad-rotaciones.rst:163
 msgid ""
-"Primero abrimos el cuadro de diálogo para realizar giros complejos. Clicamos"
-" en **Placement** y luego en el cuadrado de la derecha."
+"Primero abrimos el cuadro de diálogo para realizar giros complejos. "
+"Clicamos en **Placement** y luego en el cuadrado de la derecha."
 msgstr ""
 "First we open the dialog box for performing complex turns. Click on "
 "**Placement** and then on the square on the right."
 
-
-#: ../../es/freecad-rotaciones.rst:169
+#: ../../source/freecad-rotaciones.rst:169
 msgid ""
-"Una vez abierto, debemos marcar la casilla de giro respecto al centro de la "
-"figura, girar un **Angulo** de 45º y clicar en **OK**."
+"Una vez abierto, debemos marcar la casilla de giro respecto al centro de "
+"la figura, girar un **Angulo** de 45º y clicar en **OK**."
 msgstr ""
-"Once opened, we must check the rotation box with respect to the center of "
-"the figure, rotate an **Angle** of 45º and click on **OK**."
+"Once opened, we must check the rotation box with respect to the center of"
+" the figure, rotate an **Angle** of 45º and click on **OK**."
 
-
-#: ../../es/freecad-rotaciones.rst:174
+#: ../../source/freecad-rotaciones.rst:174
 msgid "Al final obtendremos la siguiente figura."
 msgstr "In the end we will obtain the following figure."
 
-
-#: ../../es/freecad-rotaciones.rst:178
+#: ../../source/freecad-rotaciones.rst:178
 msgid "Ya solo falta unir las dos piezas y simpliplicar la forma (refine)."
 msgstr ""
-"All that remains is to join the two pieces and simplify the shape (refine)."
+"All that remains is to join the two pieces and simplify the shape "
+"(refine)."
 
-
-#: ../../es/freecad-rotaciones.rst:186
+#: ../../source/freecad-rotaciones.rst:186
 msgid "Videotutorial"
 msgstr "Video-tutorial"
 
-
-#: ../../es/freecad-rotaciones.rst:188
-msgid "`Rotando voy. <https://www.youtube.com/embed/3FdmAnRRlzA>`__"
+#: ../../source/freecad-rotaciones.rst:188
+#, fuzzy
+msgid ""
+"Vídeo: `rotando voy. <https://www.youtube-"
+"nocookie.com/embed/3FdmAnRRlzA>`__"
 msgstr "`Rotating I go. <https://www.youtube.com/embed/3FdmAnRRlzA>`__"
+
