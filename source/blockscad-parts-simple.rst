@@ -9,7 +9,7 @@ Piezas simples
 ==============
 En este tutorial vamos a programar seis piezas de los
 `ejercicios simples de vistas y perspectivas
-</es/dibujo-vistas.html#ejercicios-simples>`__.
+<dibujo-vistas.html#ejercicios-simples>`__.
 
 
 Pieza simple 01

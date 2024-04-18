@@ -1,4 +1,5 @@
-"""Sphinx ReadTheDocs theme.
+"""
+Sphinx Read The Docs theme.
 
 From https://github.com/ryan-roemer/sphinx-bootstrap-theme.
 

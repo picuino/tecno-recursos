@@ -27,6 +27,8 @@ consecuencias para el usuario.
    :titlesonly:
 
    informatica-ciberseguridad-amenazas.rst
+   informatica-ciberseguridad-social.rst
+   informatica-ciberseguridad-malware.rst
    informatica-ciberseguridad-defensas.rst
    informatica-ciberseguridad-criptografia.rst
    informatica-ciberseguridad-terminos-tecnicos.rst
