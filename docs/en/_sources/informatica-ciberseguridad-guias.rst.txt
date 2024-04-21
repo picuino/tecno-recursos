@@ -40,12 +40,12 @@ Licencia
 Guía de Privacidad y Seguridad en Internet
 ------------------------------------------
 
-.. image:: informatica/guia-privacidad-seguridad-Internet.png
+.. image:: informatica/guia-privacidad-seguridad-internet.png
    :align: center
-   :target: _downloads/guia-privacidad-seguridad-Internet.pdf
+   :target: _downloads/guia-privacidad-seguridad-internet.pdf
 
 :download:`Guía de Privacidad y Seguridad en Internet
-<informatica/guia-privacidad-seguridad-Internet.pdf>`
+<informatica/guia-privacidad-seguridad-internet.pdf>`
 
 Autor de la guía
    La presente es una publicación conjunta pertenece a la

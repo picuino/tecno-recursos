@@ -24,20 +24,23 @@ Se ha hecho famoso por los vídeos Deep Fakes que han aparecido mostrándole
 como un robot armado y descontrolado. Aquí solo vamos a ver los vídeos de
 su funcionamiento real, cada vez más avanzado.
 
-* Vídeo: noviembre de 2017. `What's new, Atlas?
-  <https://www.youtube-nocookie.com/embed/fRj34o4hN4I>`__
+* Vídeo: enero de 2023. `Atlas | Atlas Gets a Grip.
+  <https://www.youtube-nocookie.com/embed/-e1_QhJ1EhQ>`__
 
-* Vídeo: octubre de 2018.`Parkour Atlas.
-  <https://www.youtube-nocookie.com/embed/LikxFZZO2sk>`__
-
-* Vídeo: septiembre de 2019.`More Parkour Atlas.
-  <https://www.youtube-nocookie.com/embed/_sBBaNYex3E>`__
+* Vídeo: agosto de 2021. `Atlas | Partners in Parkour.
+  <https://www.youtube-nocookie.com/embed/tF4DML7FIWk>`__
 
 * Vídeo: diciembre de 2020. `Do You Love Me?
   <https://www.youtube-nocookie.com/embed/fn3KWM1kuAw>`__
 
-* Vídeo: agosto de 2021. `Atlas | Partners in Parkour.
-  <https://www.youtube-nocookie.com/embed/tF4DML7FIWk>`__
+* Vídeo: septiembre de 2019. `More Parkour Atlas.
+  <https://www.youtube-nocookie.com/embed/_sBBaNYex3E>`__
+
+* Vídeo: octubre de 2018. `Parkour Atlas.
+  <https://www.youtube-nocookie.com/embed/LikxFZZO2sk>`__
+
+* Vídeo: noviembre de 2017. `What's new, Atlas?
+  <https://www.youtube-nocookie.com/embed/fRj34o4hN4I>`__
 
 
 Tesla model X

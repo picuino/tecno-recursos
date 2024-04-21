@@ -8,14 +8,26 @@
  Ciberseguridad
 ****************
 
-Los ciberdelincuentes se encuentran siempre al acecho de
-nuevos métodos para atacar a los usuarios de Internet.
-Se aprovechan del desconocimiento general en cuanto a
-seguridad cibernética o de la desprotección en
-las defensas de nuestro ordenador.
-Sus objetivos son muchos y pueden tener distintas
-consecuencias para el usuario.
+La ciberseguridad es un campo crucial en el mundo digital actual, 
+donde la protección de la información y los sistemas contra amenazas 
+cibernéticas pueden evitar grandes problemas.
 
+Se trata de salvaguardar la confidencialidad, integridad y disponibilidad de los datos frente a ataques maliciosos.
+Con el aumento de la dependencia de la tecnología, desde 
+transacciones financieras hasta comunicaciones personales, la 
+seguridad en línea se ha convertido en una preocupación global.
+
+Además, la formación en ciberseguridad es fundamental en la 
+actualidad. Con el aumento de las amenazas cibernéticas, la 
+capacitación adecuada se convierte en un escudo crucial para 
+individuos y organizaciones.
+La formación en ciberseguridad capacita a las personas para
+defenderse activamente contra las amenazas en línea y contribuir
+a la seguridad digital en su entorno.
+
+A continuación se presenta un glosario de más de 100 términos
+relacionados con la ciberseguridad para poder conocer las principales
+amenazas y métodos de defensa contra los ciberdelincuentes.
 
 .. figure:: informatica/_images/informatica-ciberseguridad-portada.jpg
    :align: center
@@ -31,7 +43,7 @@ consecuencias para el usuario.
    informatica-ciberseguridad-malware.rst
    informatica-ciberseguridad-defensas.rst
    informatica-ciberseguridad-criptografia.rst
-   informatica-ciberseguridad-terminos-tecnicos.rst
+   informatica-ciberseguridad-tecnicos.rst
 
    informatica-ciberseguridad-guias.rst
 

@@ -576,6 +576,12 @@ evaluaciones de seguridad regulares para identificar y corregir
 posibles vulnerabilidades antes de que sean explotadas por los
 ciberdelincuentes.
 
+Ejercicios
+----------
 
+:download:`Preguntas sobre amenazas de ciberseguridad. Formato PDF.
+<informatica/ciberseguridad-preguntas-amenazas.pdf>`
 
+:download:`Preguntas sobre amenazas de ciberseguridad. Formato DOC.
+<informatica/ciberseguridad-preguntas-amenazas.doc>`
 
