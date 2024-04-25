@@ -231,7 +231,7 @@ Siliconas
    Por el contrario las siliconas se basan en largas cadenas de silicio,
    formando polímeros inorgánicos.
 
-   Se puede destacar su uso como adhesivo para cristales de ventana y
+   Se puede destacar su uso como adhesivo para vidrios de ventana y
    juntas, moldes de cocina para horno o para hielo, prótesis médicas, etc.
 
 

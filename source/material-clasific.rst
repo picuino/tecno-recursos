@@ -68,8 +68,8 @@ extraen hasta que se convierten en un objeto útil.
         plástico, remaches y cremallera de latón, etiqueta de cuero.
       * Silla: fabricada con patas y tornillos de hierro, tacos, telas y
         pinturas de plástico, asiento y respaldo de madera.
-      * Estantería de salón: fabricada con madera aglomerada, cristales
-        provenientes de la arena, clavos y tornillos de hierro,
+      * Estantería de salón: fabricada con madera aglomerada, vidrio
+        proveniente de la arena, clavos y tornillos de hierro,
         tiradores de plástico.
 
 

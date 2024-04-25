@@ -7,8 +7,8 @@
 
 Control serie de Arduino
 ========================
-Con el siguiente programa, Arduino ejecuta las órdenes que recibe desde el ordenador
-a través del puerto serie.
+Con el siguiente programa, Arduino ejecuta las órdenes que recibe
+desde el ordenador a través del puerto serie.
 
 Ejercicios
 ----------
@@ -31,8 +31,8 @@ Ejercicios
          Inicialización
       */
       void setup() {
-         Serial.begin(115200); // Inicializar las comunicaciones serie
-         pc.begin();           // Inicializar el módulo PC42
+         Serial.begin(9600); // Inicializar las comunicaciones serie
+         pc.begin();         // Inicializar el módulo PC42
       }
 
 
@@ -134,9 +134,9 @@ Ejercicios
       }
 
 
-2. Añadir una nueva orden con la letra 'C' (clear) para que Arduino apague de una
-   sola vez todos los leds.
+2. Añadir una nueva orden con la letra 'C' (clear) para que Arduino
+   apague de una sola vez todos los leds.
 
-3. Añadir una nueva orden con la letra 'S' (secuencia) para que Arduino encienda
-   uno a uno todos los leds desde el primero hasta el último con una cadencia
-   de un led por segundo.
+3. Añadir una nueva orden con la letra 'S' (secuencia) para que Arduino
+   encienda uno a uno todos los leds desde el primero hasta el último
+   con una cadencia de un led por segundo.

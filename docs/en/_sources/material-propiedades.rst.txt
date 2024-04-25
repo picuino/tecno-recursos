@@ -54,7 +54,7 @@ esfuerzos.
       soporta bien los golpes, pero será también blando porque se raya con
       facilidad.
 
-      Un vaso de cristal será frágil porque se romperá con facilidad con
+      Un vaso de vidrio será frágil porque se romperá con facilidad con
       los golpes, pero será también duro porque no se raya con facilidad.
 
 
@@ -159,7 +159,7 @@ Otras propiedades físicas
 
 
    Respuesta a la luz
-      Los materiales pueden ser transparentes como el cristal y gracias a
+      Los materiales pueden ser transparentes como el vidrio y gracias a
       eso se pueden fabricar ventanas.
 
       Otros materiales como los metales son brillantes y reflejan la luz,
@@ -279,7 +279,7 @@ medioambientales.
 
       1. Que el material provenga de una materia prima renovable o que
          se pueda reciclar sin pérdidas.
-         Por ejemplo, la madera, el algodón, el cristal o los metales.
+         Por ejemplo, la madera, el algodón, el vidrio o los metales.
 
       2. Que la materia prima se consuma de manera sostenible, es decir,
          a menor velocidad de la que se produce.

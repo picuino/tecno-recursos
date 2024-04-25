@@ -28,7 +28,7 @@ Ejercicios
          Inicialización
       */
       void setup() {
-         Serial.begin(115200); // Inicializa las comunicaciones serie
+         Serial.begin(9600);   // Inicializa las comunicaciones serie
          pio.begin();          // Inicializa el shield Picuino UNO
       }
 

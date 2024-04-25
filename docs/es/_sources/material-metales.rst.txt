@@ -351,8 +351,8 @@ Metales nobles
       Solo el 10% del oro se utiliza en aplicaciones industriales.
 
       Se usa para cubrir contactos eléctricos que no se oxidan,
-      cables eléctricos de los chips, reflector de luz en los cristales,
-      etc.
+      cables eléctricos de los chips, reflector de luz en cristales
+      de gafas, etc.
 
    Platino
       Es un metal blanco grisáceo.

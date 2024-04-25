@@ -95,8 +95,8 @@
             
   <div class="section" id="control-serie-de-arduino">
 <span id="prog-pc-control"></span><h1><span class="section-number">4. </span>Control serie de Arduino<a class="headerlink" href="#control-serie-de-arduino" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>Con el siguiente programa, Arduino ejecuta las órdenes que recibe desde el ordenador
-a través del puerto serie.</p>
+<p>Con el siguiente programa, Arduino ejecuta las órdenes que recibe
+desde el ordenador a través del puerto serie.</p>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic">
@@ -227,8 +227,8 @@ a través del puerto serie.</p>
 <span class="cm">   Inicialización</span>
 <span class="cm">*/</span>
 <span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">115200</span><span class="p">);</span> <span class="c1">// Inicializar las comunicaciones serie</span>
-   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>           <span class="c1">// Inicializar el módulo PC42</span>
+   <span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span> <span class="c1">// Inicializar las comunicaciones serie</span>
+   <span class="n">pc</span><span class="p">.</span><span class="nf">begin</span><span class="p">();</span>         <span class="c1">// Inicializar el módulo PC42</span>
 <span class="p">}</span>
 
 
@@ -331,12 +331,12 @@ a través del puerto serie.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p class="first">Añadir una nueva orden con la letra 'C' (clear) para que Arduino apague de una
-sola vez todos los leds.</p>
+<li><p class="first">Añadir una nueva orden con la letra 'C' (clear) para que Arduino
+apague de una sola vez todos los leds.</p>
 </li>
-<li><p class="first">Añadir una nueva orden con la letra 'S' (secuencia) para que Arduino encienda
-uno a uno todos los leds desde el primero hasta el último con una cadencia
-de un led por segundo.</p>
+<li><p class="first">Añadir una nueva orden con la letra 'S' (secuencia) para que Arduino
+encienda uno a uno todos los leds desde el primero hasta el último
+con una cadencia de un led por segundo.</p>
 </li>
 </ol>
 </div>
@@ -379,7 +379,7 @@ de un led por segundo.</p>
       a menos que se indique lo contrario.
       <br>
       <span class="lastupdated">
-        Actualizado por última vez en marzo, 2024.
+        Actualizado por última vez en abril, 2024.
       </span>
 
     </p>
