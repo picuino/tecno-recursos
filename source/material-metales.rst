@@ -150,7 +150,7 @@ Son aquellos que están formados principalmente por hierro.
 El hierro puro es un metal con malas propiedades mecánicas,
 por lo que éstas suelen mejorarse por medio de aleaciones.
 
-Su densidad es relativamente alta (7,8 kg/litro).
+Su densidad es relativamente alta (7,9 kg/litro).
 
 .. glossary::
 
@@ -317,7 +317,7 @@ Metales pesados
 
       Se utiliza aleado con acero para fabricar acero inoxidable.
       El **cromado** consiste en depositar una capa protectora de cromo
-      sobre otro material (plástico, otros metales, etc) dando un aspecto
+      sobre otro material (plástico, otros metales, etc.) dando un aspecto
       brillante que no se oxida.
       Otras aplicaciones son pinturas, curtido de cuero, catalizadores,
       etc.
@@ -392,7 +392,6 @@ Cobalto         42,49
 [1] Precio medio del acero. Puede variar de 0,42 a 0,65 €/kg.
 
 
-
 Metales preciosos. Precio a 1 de julio de 2021.
 
 =============  =============
@@ -403,6 +402,17 @@ Platino         29380
 Oro             48066
 Rodio           532960
 =============  =============
+
+
+Preguntas de la unidad
+----------------------
+Unidad en formato imprimible, con preguntas.
+
+| :download:`Materiales metálicos. Formato PDF.
+  <material/materiales-metalicos.pdf>`
+| :download:`Materiales metálicos. Formato DOC.
+  <material/materiales-metalicos.doc>`
+
 
 
 Cuestionarios
