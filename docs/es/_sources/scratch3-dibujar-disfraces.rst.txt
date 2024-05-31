@@ -114,5 +114,5 @@ Retos
    |br|
 
 #. Añade una nueva función para que al presionar la tecla "b" se
-   selle en la pantalla el disfraz 6 veces.
-   Cada vez que se selle, el disfraz aumentará de tamaño por 10.
+   selle en la pantalla el disfraz 8 veces.
+   Cada vez que se selle el disfraz cambiará de tamaño por -10.

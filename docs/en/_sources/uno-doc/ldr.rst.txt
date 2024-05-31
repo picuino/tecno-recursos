@@ -55,7 +55,7 @@ Ejercicios
 2. Realiza un programa que emita diferentes notas dependiendo
    del la luz que reciba el sensor LDR.
    Sustituye en el programa anterior la espera de tiempo por las
-   siguientes lineas de código.
+   siguientes líneas de código.
 
    .. code-block:: Arduino
       :linenos:

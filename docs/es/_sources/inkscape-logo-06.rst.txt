@@ -51,7 +51,7 @@ Logotipo Citroën
 
    Seleccionamos los nodos 2 y 4 y en el menú
    ``Objeto... Alinear y distribuir...`` pinchamos en
-   alinear nodos seleccionados a una linea común horizontal.
+   alinear nodos seleccionados a una línea común horizontal.
 
    .. image:: inkscape/_images/inkscape-logo-06-d.png
       :align: center

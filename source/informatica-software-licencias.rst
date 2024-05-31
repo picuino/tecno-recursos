@@ -200,7 +200,7 @@ artística o técnica.
       modificadas y se reconozca quién es el autor original.
 
       La licencia Creative-Commons BY-SA es la que utiliza la
-      enciclopedia libre y en linea **Wikipedia**
+      enciclopedia libre y en línea **Wikipedia**
       para sus artículos y para la mayoría de sus imágenes.
 
       Estas licencias y otras semejantes se conocen también como licencias

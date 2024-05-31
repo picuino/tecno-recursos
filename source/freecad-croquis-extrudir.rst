@@ -52,7 +52,7 @@ en tres dimensiones.
 
    .. image:: freecad/_images/freecad-croquis-control-edicion.png
 
-   Ahora crearemos una estrella con el icono polilinea |polilinea|.
+   Ahora crearemos una estrella con el icono polilínea |polilinea|.
 
    .. image:: freecad/_images/freecad-p13-imagen01.png
 

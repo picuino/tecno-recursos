@@ -86,7 +86,7 @@ pantalla para que dibuje varias espirales con colores.
    El tamaño del lado se inicia con el valor 5 y va creciendo
    de 4 en 4 hasta que valga igual o más que 340.
 
-   En cada paso se dibuja una linea de tamaño "Lado",
+   En cada paso se dibuja una línea de tamaño "Lado",
    aumenta el tamaño del lado, gira 90º y
    aumenta el color del lápiz.
 

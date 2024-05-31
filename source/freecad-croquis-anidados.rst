@@ -44,7 +44,7 @@ unos croquis sobre otros y así formar figuras más complejas.
 
    .. image:: freecad/_images/freecad-croquis-control-edicion.png
 
-   Ahora crearemos un octógono con el icono polilinea |polilinea|.
+   Ahora crearemos un octógono con el icono polilínea |polilinea|.
 
    .. image:: freecad/_images/freecad-p14-imagen01.png
 

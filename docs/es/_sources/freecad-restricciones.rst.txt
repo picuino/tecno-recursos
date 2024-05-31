@@ -38,7 +38,7 @@ formar figuras con mayor exactitud y con más facilidades.
    |br|
 
 #. A continuación vamos a dibujar un objeto sencillo, un cuadrado,
-   con el icono polilinea |polilinea|.
+   con el icono polilínea |polilinea|.
 
    .. image:: freecad/_images/freecad-p15-imagen01.png
 

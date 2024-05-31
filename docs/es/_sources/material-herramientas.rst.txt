@@ -37,9 +37,9 @@ Para distinguir las herramientas de los materiales tendremos en
 cuenta que las herramientas no forman parte del objeto fabricado
 y se pueden reutilizar en la fabricación de varios productos.
 
-Ejemplos de materiales, que no se consideran herramientas:
+**Ejemplos de materiales**, que no se consideran herramientas:
 grapa, clavo, tornillo, pegamento, barra de cola termofusible, celofán,
-tornillo, pintura, cables, etc.
+pintura, cables, etc.
 
 Estos materiales no son herramientas porque forman parte del objeto
 fabricado.
@@ -47,7 +47,7 @@ Aunque algunos de estos materiales, como la pintura o el celofán, se
 almacenan en contenedores grandes, la parte del material que se ha
 utilizado formará parte del objeto fabricado o reparado.
 
-Ejemplos de herramientas, que no se consideran materiales:
+**Ejemplos de herramientas**, que no se consideran materiales:
 lápiz, papel de lija, pistola de cola termofusible, pincel,
 martillo, destornillador, etc.
 
@@ -71,8 +71,8 @@ realizar.
    * - Medición
      - Regla graduada, compás, nivel,
        cinta métrica, pie de rey, polímetro.
-   * - Marcado
-     - Lápiz, punta de trazar, cordón con tiza, granete,
+   * - Trazado
+     - Lápiz, punta de trazar, cordón con tiza,
        escuadra, cartabón, compás.
    * - Sujeción
      - Alicates, tornillo de banco, sargento, tenazas, cinta de carrocero,
@@ -87,7 +87,7 @@ realizar.
        escoplo, formón, gubia, cortafríos,
        cortadora de vidrio.
    * - Perforado
-     - Punzón, barrena, taladro, broca.
+     - Punzón, barrena, granete, taladro, broca.
    * - Unión
      - Destornillador, pistola de cola termofusible,
        soldador eléctrico,
