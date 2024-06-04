@@ -59,7 +59,7 @@ problemas.
    encenderá de nuevo el led D1.
 
 #. **Desplazamiento inverso.**
-   Modificar el programa anterior para que los leds se enciendan
+   Modificar el programa anterior para que los ledes se enciendan
    desde el D5 hasta el D1.
 
    Cuando llegue el turno de apagar el led D1, se encenderá de
@@ -80,7 +80,7 @@ problemas.
             pulsadores 1 y 2 a la vez.
 
 #. Modificar el programa anterior para que se enciendan los tres
-   leds D1, D2 y D3 al presionar a la vez los tres pulsadores
+   ledes D1, D2 y D3 al presionar a la vez los tres pulsadores
    1, 2 y 3.
 
    Los tres led se deben apagar al presionar el pulsador 4.

@@ -408,7 +408,7 @@ Competencia específica 2.
    de computación física.
 
    2.3 Programar tarjetas programables para controlar el comportamiento
-   de dispositivos electrónicos y electromecánicos como diodos leds,
+   de dispositivos electrónicos y electromecánicos como diodos led,
    zumbadores, relés basándose en los datos obtenidos a partir de sensores
    de todo tipo.
 

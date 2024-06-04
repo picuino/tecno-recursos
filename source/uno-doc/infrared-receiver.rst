@@ -124,21 +124,21 @@ Ejercicios
             pio.ledWrite(1, LED_ON);
 
 
-3. Modifica el programa anterior para que se apaguen todos los leds
+3. Modifica el programa anterior para que se apaguen todos los ledes
    cuando se pulse el botón cero '0'.
 
 
 4. Modifica el primer programa para que se encienda y apague una
-   columna de leds con los botones '+' y '-' del mando a distancia.
+   columna de ledes con los botones '+' y '-' del mando a distancia.
 
    Al pulsar '+' del mando a distancia se encenderá un nuevo led de la
    columna.
-   Según se pulsa '+' se irán encendiendo uno a uno todos los leds.
+   Según se pulsa '+' se irán encendiendo uno a uno todos los ledes.
    Al pulsar '-' del mando a distancia se apagará el último led.
-   Según se pulse '-' se irán apagando uno a uno todos los leds.
+   Según se pulse '-' se irán apagando uno a uno todos los ledes.
 
    Para programar el código es necesario crear una variable que contará
-   el número de leds que deben encenderse. Esa variable se incrementará
+   el número de ledes que deben encenderse. Esa variable se incrementará
    o decrementará con las pulsaciones del mando. Una instrucción para
    cada led comprobará si la variable es mayor que cierto valor,
    encenderá el led.
@@ -156,16 +156,16 @@ Ejercicios
 
    .. code-block:: arduino
 
-      // Si se pulsa '+' aumenta el número de leds encendidos
+      // Si se pulsa '+' aumenta el número de ledes encendidos
       if (code ==    )
          num_leds = num_leds + 1;
 
-   A continuación se deben encender o apagar los leds dependiendo del
+   A continuación se deben encender o apagar los ledes dependiendo del
    valor de la variable:
 
    .. code-block:: arduino
 
-      // Si se pulsa '+' aumenta el número de leds encendidos
+      // Si se pulsa '+' aumenta el número de ledes encendidos
       if (num_leds > 0)
          pio.ledWrite(1, LED_ON);
       else
@@ -173,7 +173,7 @@ Ejercicios
 
 
 5. Modifica el ejercicio anterior para que la variable no aumente más
-   que el número total de leds y que no disminuya por debajo de cero.
+   que el número total de ledes y que no disminuya por debajo de cero.
    Se añadirán dos condiciones, una condición limitará la variable si
    aumenta demasiado y otra condición limitará la variable si se
    reduce por debajo de cero

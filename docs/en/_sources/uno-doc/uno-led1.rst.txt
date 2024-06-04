@@ -9,7 +9,7 @@ Encendido y apagado de los LED
 Objetivos
 ---------
 * Encender y apagar los diodos led del shield Picuino UNO.
-* Generar parpadeo de leds mediante esperas de tiempo.
+* Generar parpadeo de ledes mediante esperas de tiempo.
 
 
 Librería de manejo para Arduino
@@ -35,7 +35,7 @@ La función ``ledWrite``
    ``ledNum``: led que se va a encender o apagar. Los valores válidos
    van desde 1 para el led D1 hasta 8 para el color azul del led D6.
 
-   El led D6 es un led RGB, que integra 3 leds en su interior.
+   El led D6 es un led RGB, que integra 3 ledes en su interior.
    Los números 6, 7, 8 representan respectivamente los colores rojo,
    verde y azul del led D6.
 
@@ -103,14 +103,14 @@ Ejercicios
 ----------
 Programa el código necesario para resolver los siguientes problemas.
 
-1. Encender los leds D1, D3 y D5 de forma permanente.
+1. Encender los ledes D1, D3 y D5 de forma permanente.
 
 2. Encender el led D1, esperar un segundo, encender el led D2, esperar
    un segundo y seguir así hasta que estén encendidos los 5 primeros
    led.
-   Una vez terminado, el programa mantendrá los 5 leds encendidos.
+   Una vez terminado, el programa mantendrá los 5 ledes encendidos.
 
-3. Encender los leds rojo, ámbar y verde como en un semáforo.
+3. Encender los ledes rojo, ámbar y verde como en un semáforo.
 
    Primero se encenderá el led verde y permanecerá encendido
    durante 4 segundos.
@@ -133,15 +133,15 @@ Programa el código necesario para resolver los siguientes problemas.
 
 6. Encender el led D1, esperar un segundo, apagar el led D1 y encender
    el led D2.
-   Se encenderán de esta forma, consecutivamente, los 5 primeros leds.
+   Se encenderán de esta forma, consecutivamente, los 5 primeros ledes.
    En cada momento solo un led estará encendido.
    Una vez terminada la secuencia, comenzará de nuevo desde el
    principio.
 
 7. Realizar una modificación al ejercicio anterior para que en todo
-   momento haya 2 leds encendidos.
-   Al comenzar el programa deben encenderse los leds D1 y D2.
-   Pasado un segundo se encenderán los leds D2 y D3.
+   momento haya 2 ledes encendidos.
+   Al comenzar el programa deben encenderse los ledes D1 y D2.
+   Pasado un segundo se encenderán los ledes D2 y D3.
    La secuencia continuará hasta llegar a la situación inicial.
 
 8. El siguiente programa tiene varios errores, corrige los
@@ -150,7 +150,7 @@ Programa el código necesario para resolver los siguientes problemas.
    .. code-block:: arduino
       :linenos:
 
-      // Enciende 6 leds en secuencia a derecha y a izquierda
+      // Enciende 6 ledes en secuencia a derecha y a izquierda
       // Programa con errores sintácticos
 
       #include <Picuino.h>

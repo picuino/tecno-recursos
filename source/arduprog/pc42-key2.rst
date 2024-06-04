@@ -163,6 +163,7 @@ Programa el código necesario para resolver los siguientes problemas.
       :name: button-keyevents_move_right
 
 
-3. Modificar el programa anterior para que se encienda el led D1 y se apaguen
-   el resto de leds al presionar el pulsador 6 ``KEY_BACK`` durante dos segundos.
+3. Modificar el programa anterior para que se encienda el led D1 y se
+   apaguen el resto de ledes al presionar el pulsador 6 ``KEY_BACK``
+   durante dos segundos.
 

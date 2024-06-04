@@ -358,7 +358,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
 </td></tr></table></div>
 </li>
 <li><p class="first">Turn on all the leds as follows. LED D1 will light up when button 1 is pressed. Then LED D2 will light up when button 2 is pressed. The program will continue in this way until all the LEDs light up. Complete the program below.</p>
-<div class="highlight-Arduino notranslate"><div class="highlight"><pre><span></span><span class="c1">// Enciende todos los leds uno a uno y por orden</span>
+<div class="highlight-Arduino notranslate"><div class="highlight"><pre><span></span><span class="c1">// Enciende todos los ledes uno a uno y por orden</span>
 <span class="c1">// con todos los pulsadores</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Picuino.h&gt;</span><span class="cp"></span>
@@ -401,7 +401,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
 18
 19
 20
-21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Mover la luz de los leds hacia la derecha</span>
+21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Mover la luz de los ledes hacia la derecha</span>
 <span class="c1">// con los pulsadores</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Picuino.h&gt;</span><span class="cp"></span>
@@ -446,7 +446,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
 16
 17
 18
-19</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Enciende los leds D1, D2, D3 cuando</span>
+19</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Enciende los ledes D1, D2, D3 cuando</span>
 <span class="c1">// se presionen los pulsadores 1, 2 y 3</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Picuino.h&gt;</span><span class="cp"></span>
@@ -460,7 +460,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
    <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>  <span class="o">&amp;&amp;</span>   <span class="c1">// Si ( (pulsador 1 presionado) y</span>
        <span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>  <span class="o">&amp;&amp;</span>   <span class="c1">//      (pulsador 2 presionado) y</span>
        <span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span> <span class="p">{</span>    <span class="c1">//      (pulsador 3 presionado))</span>
-      <span class="n">pio</span><span class="p">.</span>                     <span class="c1">//    Enciende los leds D1, D2 y D3</span>
+      <span class="n">pio</span><span class="p">.</span>                     <span class="c1">//    Enciende los ledes D1, D2 y D3</span>
 
 
    <span class="p">}</span>
@@ -611,7 +611,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
       <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
 
-      <span class="c1">// Apaga todos los leds</span>
+      <span class="c1">// Apaga todos los ledes</span>
       <span class="n">pio</span><span class="p">.</span><span class="n">ledBegin</span><span class="p">();</span>
 
       <span class="c1">// Pasa a la primera etapa del programa</span>
@@ -662,7 +662,7 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>

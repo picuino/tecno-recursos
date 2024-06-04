@@ -26,7 +26,7 @@ Parpadeo de los LED
 
 Objetivos
 ---------
-* Generar parpadeo de leds mediante la función ledBlink.
+* Generar parpadeo de ledes mediante la función ledBlink.
 
 
 La función :cpp:func:`ledBlink`
@@ -40,7 +40,7 @@ La función :cpp:func:`ledBlink`
    ``ledNum``: led que va a parpadear. Los valores válidos van desde 1 para el led
    D1 hasta 8 para el color azul del led D6.
 
-   El led D6 es un led RGB, que integra 3 leds en su interior.
+   El led D6 es un led RGB, que integra 3 ledes en su interior.
    Los números 6, 7, 8 representan respectivamente los colores rojo, verde y azul del led D6.
 
    ``time_on``: tiempo, en milésimas de segundo, que el led debe permanecer encendido.
@@ -87,10 +87,10 @@ Programa el código necesario para resolver los siguientes problemas.
 
 1. Hacer parpadear el led D1 y el led D4 con un tiempo de encendido de
    medio segundo y un tiempo de apagado de medio segundo.
-   Los dos leds se deben encender y apagar al mismo tiempo.
+   Los dos ledes se deben encender y apagar al mismo tiempo.
    Utilizar la función :cpp:func:`ledBlink`.
 
-2. Modificar el ejercicio anterior para que el encendido de los dos leds
+2. Modificar el ejercicio anterior para que el encendido de los dos ledes
    D1 y D4 sea alternativo, de manera que solo un led esté encendido en cada
    momento. El tiempo de encendido de cada led será de medio segundo.
 
@@ -109,7 +109,7 @@ Programa el código necesario para resolver los siguientes problemas.
       }
 
 
-   Se debe intentar sincronizar los dos leds para que parpadeen a la
+   Se debe intentar sincronizar los dos ledes para que parpadeen a la
    vez ajustando los tiempos de encendido modificando el tiempo de la
    función ``delay(500)``.
 
@@ -155,11 +155,11 @@ Programa el código necesario para resolver los siguientes problemas.
 6. Hacer parpadear a un led de manera que se encienda durante dos
    décimas de segundo, cada segundo.
 
-7. Los seis primeros leds se deben encender en secuencia de manera que
+7. Los seis primeros ledes se deben encender en secuencia de manera que
    comience por encenderse el led D1 y termine por encenderse el led D6.
    entre el encendido de un led y el siguiente debe pasar entre 250 y 500
    milésimas de segundo.
-   Una vez que todos los leds estén encendidos, comenzarán a apagarse por
+   Una vez que todos los ledes estén encendidos, comenzarán a apagarse por
    el led D1 hasta que todos estén apagados.
    Nota: Para resolver este problema, se debe utilizar solo una función
    :cpp:func:`ledBlink` por cada led, junto con una función `delay()` para

@@ -160,7 +160,7 @@ Elementos auxiliares
          :align: center
          :width: 340px
 
-         Modificación del chasis con aluminio, acrílico y leds RGB.
+         Modificación del chasis con aluminio, acrílico y ledes RGB.
 
          `Acuantico <https://commons.wikimedia.org/wiki/File:For_the_Horde_Mod_by_Acu%C3%A1ntico_Power.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,

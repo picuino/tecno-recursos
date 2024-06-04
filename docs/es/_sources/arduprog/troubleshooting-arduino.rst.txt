@@ -21,13 +21,13 @@ llamado led de **Power ON**:
 
    .. image:: _images/img-0099.jpg
       :width: 400px
-      :alt: Leds de la placa Arduino UNO.
+      :alt: Ledes de la placa Arduino UNO.
       :align: center
 
 .. only:: latex
 
    .. figure:: _images/img-0099.jpg
-      :alt: Leds de la placa Arduino UNO.
+      :alt: Ledes de la placa Arduino UNO.
       :width: 400px
       :align: center
 
@@ -100,10 +100,10 @@ Para cambiarlo hay que pulsar el puerto adecuado el menú
 ``Herramientas... Puerto...``
 
 Para comprobar que el puerto está bien configurado, se puede abrir
-el monitor serie, y los leds de comunicaciones de la placa Arduino
+el monitor serie, y los ledes de comunicaciones de la placa Arduino
 deben parpadear.
 Otra prueba consiste en intentar enviar un programa.
-Mientras carga el programa, los leds de comunicaciones deben
+Mientras carga el programa, los ledes de comunicaciones deben
 parpadear.
 
 

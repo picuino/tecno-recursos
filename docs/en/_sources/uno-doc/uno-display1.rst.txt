@@ -154,7 +154,7 @@ dispWrite(int position, int segments)
 .. code-block:: Arduino
    :linenos:
 
-   // Gira un segmento alrededor de los cuatro leds superiores de un dígito
+   // Gira un segmento alrededor de los cuatro ledes superiores de un dígito
 
    #include <Picuino.h>
 

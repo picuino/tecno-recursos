@@ -215,9 +215,10 @@ presionados.</p>
 </tr>
 </tbody>
 </table>
-<p>Si se encuentra presionado el pulsador 4, la función devolverá el valor 8. Con el pulsador
-6 presionado, la función devolverá el valor 32. Si se presionan los dos pulsadores 4 y 6
-a la vez, la función devolverá la suma de 8 y 32, es decir 40.</p>
+<p>Si se encuentra presionado el pulsador 4, la función devolverá el valor
+8. Con el pulsador 6 presionado, la función devolverá el valor 32.
+Si se presionan los dos pulsadores 4 y 6 a la vez, la función devolverá
+la suma de 8 y 32, es decir 40.</p>
 <p><code class="docutils literal notranslate"><span class="pre">keyNum</span></code>: número del 1 al 6 que representa al pulsador
 del que se solicita su valor. El valor 0 representa a todos los pulsadores juntos.</p>
 <p>Se pueden utizar también los valores predefinidos
@@ -300,8 +301,9 @@ apagará el led D1 cuando se presione el pulsador 1 (<code class="docutils liter
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-<p>El lenguaje de Arduino permite escribir la última función del programa anterior de
-muchas otras formas. Estas son algunas alternativas que consiguen el mismo resultado.</p>
+<p>El lenguaje de Arduino permite escribir la última función del programa
+anterior de muchas otras formas. Estas son algunas alternativas que
+consiguen el mismo resultado.</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -373,13 +375,15 @@ del que se solicita su valor. El valor 0 representa a todos los pulsadores junto
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Programa el código necesario para resolver los siguientes problemas.</p>
 <ol class="arabic">
-<li><p class="first">Encender el led D1 con el pulsador 1 y apagar el led D1 con el pulsador 2.
-Corregir los errores sintácticos del siguiente programa.
-Los errores más comunes son: olvidar el punto y coma al final de la instrucción,
-cambiar mayúsculas y minúsculas, olvidar un corchete o paréntesis.
+<li><p class="first">Encender el led D1 con el pulsador 1 y apagar el led D1 con el pulsador
+2. Corregir los errores sintácticos del siguiente programa.
+Los errores más comunes son: olvidar el punto y coma al final de la
+instrucción, cambiar mayúsculas y minúsculas, olvidar un corchete o
+paréntesis.
 Arduino ayuda a encontrar los errores de dos maneras.
 Al escribir una función correcta, esta aparece con un color naranja.
-Al compilar el código, la ventana inferior informa sobre los errores encontrados.</p>
+Al compilar el código, la ventana inferior informa sobre los errores
+encontrados.</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -414,7 +418,7 @@ Al compilar el código, la ventana inferior informa sobre los errores encontrado
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p class="first">Encender todos los leds de la siguiente manera.
+<li><p class="first">Encender todos los ledes de la siguiente manera.
 El led D1 se encenderá al presionar el pulsador 1.
 A continuación el led D2 se encenderá al presionar el pulsador 2.
 El programa seguirá de esta manera hasta llegar a encender 5 led.
@@ -440,7 +444,7 @@ Completar el programa que aparece a continuación.</p>
 19
 20
 21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Programa incompleto.</span>
-<span class="c1">// Enciende todos los leds uno a uno y por orden</span>
+<span class="c1">// Enciende todos los ledes uno a uno y por orden</span>
 <span class="c1">// con todos los pulsadores</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
@@ -494,7 +498,7 @@ Completar el programa que aparece a continuación según los comentarios.</p>
 20
 21
 22</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Programa incompleto.</span>
-<span class="c1">// Mover la luz de los leds hacia la derecha</span>
+<span class="c1">// Mover la luz de los ledes hacia la derecha</span>
 <span class="c1">// con los pulsadores</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
@@ -521,11 +525,15 @@ Completar el programa que aparece a continuación según los comentarios.</p>
 <a class="reference external image-reference" href="../_downloads/ardublock_keyPressed_4.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../_images/ardublock_keyPressed_4.png" style="width: 672px;"></a>
 <p><a class="reference download internal" download="" href="../_downloads/ardublock_keyPressed_4.abp"><code class="xref download docutils literal notranslate"><span class="pre">Programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock:</span> <span class="pre">'keyPressed_4'</span></code></a></p>
 </li>
-<li><p class="first">Modificar el programa anterior para que los leds se enciendan desde el D6 hasta el D1.
-Cuando llegue el turno de apagar el led D1, se encenderá de nuevo el led D6.</p>
+<li><p class="first">Modificar el programa anterior para que los ledes se enciendan desde el
+D6 hasta el D1.
+Cuando llegue el turno de apagar el led D1, se encenderá de nuevo el
+led D6.</p>
 </li>
-<li><p class="first">Los tres leds D1, D2 y D3 se encenderán cuando se presione a la vez los tres pulsadores 1, 2 y 3.
-Utiliza el operador '&amp;&amp;' que evalúa si se producen dos condiciones a la vez.
+<li><p class="first">Los tres ledes D1, D2 y D3 se encenderán cuando se presione a la vez
+los tres pulsadores 1, 2 y 3.
+Utiliza el operador '&amp;&amp;' que evalúa si se producen dos condiciones a la
+vez.
 Completar el programa que aparece a continuación según los comentarios.</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
@@ -548,7 +556,7 @@ Completar el programa que aparece a continuación según los comentarios.</p>
 19
 20
 21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Programa incompleto.</span>
-<span class="c1">// Enciende los leds D1, D2, D3 cuando</span>
+<span class="c1">// Enciende los ledes D1, D2, D3 cuando</span>
 <span class="c1">// se presionen los pulsadores 1, 2 y 3</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
@@ -563,7 +571,7 @@ Completar el programa que aparece a continuación según los comentarios.</p>
    <span class="k">if</span> <span class="p">(</span><span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>  <span class="o">&amp;&amp;</span>   <span class="c1">// Si ( (pulsador 1 presionado) y</span>
        <span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>  <span class="o">&amp;&amp;</span>   <span class="c1">//      (pulsador 2 presionado) y</span>
        <span class="n">pc</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span> <span class="p">{</span>    <span class="c1">//      (pulsador 3 presionado))</span>
-      <span class="n">pc</span><span class="p">.</span>                     <span class="c1">//    Enciende los leds D1, D2 y D3</span>
+      <span class="n">pc</span><span class="p">.</span>                     <span class="c1">//    Enciende los ledes D1, D2 y D3</span>
 
 
    <span class="p">}</span>
@@ -574,10 +582,12 @@ Completar el programa que aparece a continuación según los comentarios.</p>
 <a class="reference external image-reference" href="../_downloads/ardublock_keyPressed_5.abp" rel="noopener noreferrer" target="_blank"><img alt="Programa de Ardublock para encender una secuencia de led con los pulsadores" src="../_images/ardublock_keyPressed_5.png" style="width: 680px;"></a>
 <p><a class="reference download internal" download="" href="../_downloads/ardublock_keyPressed_5.abp"><code class="xref download docutils literal notranslate"><span class="pre">Programa</span> <span class="pre">para</span> <span class="pre">entorno</span> <span class="pre">Ardublock:</span> <span class="pre">'keyPressed_5'</span></code></a></p>
 </li>
-<li><p class="first">Después de presionar en orden la secuencia de pulsadores 2, 4 y 1, una cerradura electrónica
-se abrirá. La apertura se indicará encendiendo en secuencia los leds rojo, amarillo y
-verde, uno cada segundo.
-Completar los huecos del programa que aparece a continuación según los comentarios.</p>
+<li><p class="first">Después de presionar en orden la secuencia de pulsadores 2, 4 y 1, una
+cerradura electrónica se abrirá.
+La apertura se indicará encendiendo en secuencia los ledes rojo,
+amarillo y verde, uno cada segundo.
+Completar los huecos del programa que aparece a continuación según los
+comentarios.</p>
 <div class="highlight-Arduino notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -726,7 +736,7 @@ Completar los huecos del programa que aparece a continuación según los comenta
       <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
 
-      <span class="c1">// Apaga todos los leds</span>
+      <span class="c1">// Apaga todos los ledes</span>
       <span class="n">pc</span><span class="p">.</span><span class="n">ledBegin</span><span class="p">();</span>
 
       <span class="c1">// Pasa a la primera etapa del programa</span>
@@ -780,7 +790,7 @@ Completar los huecos del programa que aparece a continuación según los comenta
       a menos que se indique lo contrario.
       <br>
       <span class="lastupdated">
-        Actualizado por última vez en marzo, 2024.
+        Actualizado por última vez en junio, 2024.
       </span>
 
     </p>

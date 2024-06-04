@@ -135,8 +135,8 @@ Ejercicios
 
 
 2. Añadir una nueva orden con la letra 'C' (clear) para que Arduino
-   apague de una sola vez todos los leds.
+   apague de una sola vez todos los ledes.
 
 3. Añadir una nueva orden con la letra 'S' (secuencia) para que Arduino
-   encienda uno a uno todos los leds desde el primero hasta el último
+   encienda uno a uno todos los ledes desde el primero hasta el último
    con una cadencia de un led por segundo.

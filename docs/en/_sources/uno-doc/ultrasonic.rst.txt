@@ -287,9 +287,9 @@ Ejercicios
       }
 
 
-3. Encender una barra de leds que represente la distancia de un objeto
+3. Encender una barra de ledes que represente la distancia de un objeto
    al sensor de ultrasonidos.
-   Completar el programa para que la barra ocupe 6 leds.
+   Completar el programa para que la barra ocupe 6 ledes.
 
    .. code-block:: Arduino
       :linenos:

@@ -27,7 +27,7 @@ msgstr "Goals"
 
 
 #: ../../es/arduprog/pc42-led2.rst:29
-msgid "Generar parpadeo de leds mediante la función ledBlink."
+msgid "Generar parpadeo de ledes mediante la función ledBlink."
 msgstr "Generate led blinking using the ledBlink function."
 
 
@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../es/arduprog/pc42-led2.rst:43
 msgid ""
-"El led D6 es un led RGB, que integra 3 leds en su interior. Los números 6, "
+"El led D6 es un led RGB, que integra 3 ledes en su interior. Los números 6, "
 "7, 8 representan respectivamente los colores rojo, verde y azul del led D6."
 msgstr ""
 "The D6 led is an RGB led, which integrates 3 leds inside. The numbers 6, 7, "
@@ -143,7 +143,7 @@ msgstr "Program the code needed to solve the following problems."
 #: ../../es/arduprog/pc42-led2.rst:88
 msgid ""
 "Hacer parpadear el led D1 y el led D4 con un tiempo de encendido de medio "
-"segundo y un tiempo de apagado de medio segundo. Los dos leds se deben "
+"segundo y un tiempo de apagado de medio segundo. Los dos ledes se deben "
 "encender y apagar al mismo tiempo. Utilizar la función :cpp:func:`ledBlink`."
 msgstr ""
 "Make led D1 and led D4 blink with a half second on time and half a second "
@@ -153,7 +153,7 @@ msgstr ""
 
 #: ../../es/arduprog/pc42-led2.rst:93
 msgid ""
-"Modificar el ejercicio anterior para que el encendido de los dos leds D1 y "
+"Modificar el ejercicio anterior para que el encendido de los dos ledes D1 y "
 "D4 sea alternativo, de manera que solo un led esté encendido en cada "
 "momento. El tiempo de encendido de cada led será de medio segundo."
 msgstr ""
@@ -175,7 +175,7 @@ msgstr ""
 
 #: ../../es/arduprog/pc42-led2.rst:112
 msgid ""
-"Se debe intentar sincronizar los dos leds para que parpadeen a la vez "
+"Se debe intentar sincronizar los dos ledes para que parpadeen a la vez "
 "ajustando los tiempos de encendido modificando el tiempo de la función "
 "``delay(500)``."
 msgstr ""
@@ -214,10 +214,10 @@ msgstr ""
 
 #: ../../es/arduprog/pc42-led2.rst:158
 msgid ""
-"Los seis primeros leds se deben encender en secuencia de manera que comience"
+"Los seis primeros ledes se deben encender en secuencia de manera que comience"
 " por encenderse el led D1 y termine por encenderse el led D6. entre el "
 "encendido de un led y el siguiente debe pasar entre 250 y 500 milésimas de "
-"segundo. Una vez que todos los leds estén encendidos, comenzarán a apagarse "
+"segundo. Una vez que todos los ledes estén encendidos, comenzarán a apagarse "
 "por el led D1 hasta que todos estén apagados. Nota: Para resolver este "
 "problema, se debe utilizar solo una función :cpp:func:`ledBlink` por cada "
 "led, junto con una función `delay()` para esperar un tiempo entre un "

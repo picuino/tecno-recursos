@@ -112,9 +112,10 @@ La función :cpp:func:`keyPressed`
    | KEY_BACK             |     32          |  0b100000                |
    +----------------------+-----------------+--------------------------+
 
-   Si se encuentra presionado el pulsador 4, la función devolverá el valor 8. Con el pulsador
-   6 presionado, la función devolverá el valor 32. Si se presionan los dos pulsadores 4 y 6
-   a la vez, la función devolverá la suma de 8 y 32, es decir 40.
+   Si se encuentra presionado el pulsador 4, la función devolverá el valor
+   8. Con el pulsador 6 presionado, la función devolverá el valor 32.
+   Si se presionan los dos pulsadores 4 y 6 a la vez, la función devolverá
+   la suma de 8 y 32, es decir 40.
 
    |keyNum|
 
@@ -157,8 +158,9 @@ apagará el led D1 cuando se presione el pulsador 1 (``KEY_LEFT``)
    :name: button-keyPressed_Off
 
 
-El lenguaje de Arduino permite escribir la última función del programa anterior de
-muchas otras formas. Estas son algunas alternativas que consiguen el mismo resultado.
+El lenguaje de Arduino permite escribir la última función del programa
+anterior de muchas otras formas. Estas son algunas alternativas que
+consiguen el mismo resultado.
 
 .. code-block:: Arduino
    :linenos:
@@ -230,13 +232,15 @@ Ejercicios
 ----------
 Programa el código necesario para resolver los siguientes problemas.
 
-1. Encender el led D1 con el pulsador 1 y apagar el led D1 con el pulsador 2.
-   Corregir los errores sintácticos del siguiente programa.
-   Los errores más comunes son: olvidar el punto y coma al final de la instrucción,
-   cambiar mayúsculas y minúsculas, olvidar un corchete o paréntesis.
+1. Encender el led D1 con el pulsador 1 y apagar el led D1 con el pulsador
+   2. Corregir los errores sintácticos del siguiente programa.
+   Los errores más comunes son: olvidar el punto y coma al final de la
+   instrucción, cambiar mayúsculas y minúsculas, olvidar un corchete o
+   paréntesis.
    Arduino ayuda a encontrar los errores de dos maneras.
    Al escribir una función correcta, esta aparece con un color naranja.
-   Al compilar el código, la ventana inferior informa sobre los errores encontrados.
+   Al compilar el código, la ventana inferior informa sobre los errores
+   encontrados.
 
    .. code-block:: Arduino
       :linenos:
@@ -259,7 +263,7 @@ Programa el código necesario para resolver los siguientes problemas.
             pc.ledWrite(1, LED_OFF)  //   Apaga el led D1
 
 
-2. Encender todos los leds de la siguiente manera.
+2. Encender todos los ledes de la siguiente manera.
    El led D1 se encenderá al presionar el pulsador 1.
    A continuación el led D2 se encenderá al presionar el pulsador 2.
    El programa seguirá de esta manera hasta llegar a encender 5 led.
@@ -269,7 +273,7 @@ Programa el código necesario para resolver los siguientes problemas.
       :linenos:
 
       // Programa incompleto.
-      // Enciende todos los leds uno a uno y por orden
+      // Enciende todos los ledes uno a uno y por orden
       // con todos los pulsadores
 
       #include <Wire.h>
@@ -314,7 +318,7 @@ Programa el código necesario para resolver los siguientes problemas.
       :linenos:
 
       // Programa incompleto.
-      // Mover la luz de los leds hacia la derecha
+      // Mover la luz de los ledes hacia la derecha
       // con los pulsadores
 
       #include <Wire.h>
@@ -348,19 +352,23 @@ Programa el código necesario para resolver los siguientes problemas.
    <_downloads/ardublock_keyPressed_4.abp>`
 
 
-4. Modificar el programa anterior para que los leds se enciendan desde el D6 hasta el D1.
-   Cuando llegue el turno de apagar el led D1, se encenderá de nuevo el led D6.
+4. Modificar el programa anterior para que los ledes se enciendan desde el
+   D6 hasta el D1.
+   Cuando llegue el turno de apagar el led D1, se encenderá de nuevo el 
+   led D6.
 
 
-5. Los tres leds D1, D2 y D3 se encenderán cuando se presione a la vez los tres pulsadores 1, 2 y 3.
-   Utiliza el operador '&&' que evalúa si se producen dos condiciones a la vez.
+5. Los tres ledes D1, D2 y D3 se encenderán cuando se presione a la vez
+   los tres pulsadores 1, 2 y 3.
+   Utiliza el operador '&&' que evalúa si se producen dos condiciones a la
+   vez.
    Completar el programa que aparece a continuación según los comentarios.
 
    .. code-block:: Arduino
       :linenos:
 
       // Programa incompleto.
-      // Enciende los leds D1, D2, D3 cuando
+      // Enciende los ledes D1, D2, D3 cuando
       // se presionen los pulsadores 1, 2 y 3
 
       #include <Wire.h>
@@ -375,7 +383,7 @@ Programa el código necesario para resolver los siguientes problemas.
          if (pc.keyPressed(1)  &&   // Si ( (pulsador 1 presionado) y
              pc.keyPressed(2)  &&   //      (pulsador 2 presionado) y
              pc.keyPressed(3)) {    //      (pulsador 3 presionado))
-            pc.                     //    Enciende los leds D1, D2 y D3
+            pc.                     //    Enciende los ledes D1, D2 y D3
 
 
          }
@@ -393,10 +401,12 @@ Programa el código necesario para resolver los siguientes problemas.
    <_downloads/ardublock_keyPressed_5.abp>`
 
 
-6. Después de presionar en orden la secuencia de pulsadores 2, 4 y 1, una cerradura electrónica
-   se abrirá. La apertura se indicará encendiendo en secuencia los leds rojo, amarillo y
-   verde, uno cada segundo.
-   Completar los huecos del programa que aparece a continuación según los comentarios.
+6. Después de presionar en orden la secuencia de pulsadores 2, 4 y 1, una
+   cerradura electrónica se abrirá.
+   La apertura se indicará encendiendo en secuencia los ledes rojo,
+   amarillo y verde, uno cada segundo.
+   Completar los huecos del programa que aparece a continuación según los
+   comentarios.
 
    .. code-block:: Arduino
       :linenos:
@@ -472,7 +482,7 @@ Programa el código necesario para resolver los siguientes problemas.
             pc.ledWrite(3, LED_ON);
             delay(1000);
 
-            // Apaga todos los leds
+            // Apaga todos los ledes
             pc.ledBegin();
 
             // Pasa a la primera etapa del programa

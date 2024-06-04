@@ -390,13 +390,13 @@ Corregir los errores sintácticos del siguiente programa.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p class="first">Encender todos los leds de la siguiente manera.
+<li><p class="first">Encender todos los ledes de la siguiente manera.
 El led D1 se encenderá al pulsar el pulsador 1.
 A continuación el led D2 se encenderá al pulsar el pulsador 2.
 El programa seguirá de esta manera hasta llegar a encender todos
 los led.
 Completar el programa que aparece a continuación.</p>
-<div class="highlight-Arduino notranslate"><div class="highlight"><pre><span></span><span class="c1">// Enciende todos los leds uno a uno y por orden</span>
+<div class="highlight-Arduino notranslate"><div class="highlight"><pre><span></span><span class="c1">// Enciende todos los ledes uno a uno y por orden</span>
 <span class="c1">// con todos los pulsadores</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Picuino.h&gt;</span><span class="cp"></span>
@@ -445,7 +445,7 @@ comentarios.</p>
 18
 19
 20
-21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Mover la luz de los leds hacia la derecha</span>
+21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Mover la luz de los ledes hacia la derecha</span>
 <span class="c1">// con los pulsadores</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Picuino.h&gt;</span><span class="cp"></span>
@@ -469,12 +469,12 @@ comentarios.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p class="first">Modificar el programa anterior para que los leds se enciendan
+<li><p class="first">Modificar el programa anterior para que los ledes se enciendan
 desde el D6 hasta el D1.
 Cuando llegue el turno de apagar el led D1, se encenderá de nuevo
 el led D6.</p>
 </li>
-<li><p class="first">Los tres leds D1, D2 y D3 se encenderán cuando se pulse a la vez
+<li><p class="first">Los tres ledes D1, D2 y D3 se encenderán cuando se pulse a la vez
 los tres pulsadores 1, 2 y 3.
 Utiliza el operador '&amp;&amp;' que evalúa si se producen dos condiciones
 a la vez.
@@ -498,7 +498,7 @@ comentarios.</p>
 16
 17
 18
-19</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Enciende los leds D1, D2, D3 cuando</span>
+19</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Enciende los ledes D1, D2, D3 cuando</span>
 <span class="c1">// se presionen los pulsadores 1, 2 y 3</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Picuino.h&gt;</span><span class="cp"></span>
@@ -512,7 +512,7 @@ comentarios.</p>
    <span class="k">if</span> <span class="p">(</span><span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>  <span class="o">&amp;&amp;</span>   <span class="c1">// Si ( (pulsador 1 presionado) y</span>
        <span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>  <span class="o">&amp;&amp;</span>   <span class="c1">//      (pulsador 2 presionado) y</span>
        <span class="n">pio</span><span class="p">.</span><span class="nf">keyPressed</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span> <span class="p">{</span>    <span class="c1">//      (pulsador 3 presionado))</span>
-      <span class="n">pio</span><span class="p">.</span>                     <span class="c1">//    Enciende los leds D1, D2 y D3</span>
+      <span class="n">pio</span><span class="p">.</span>                     <span class="c1">//    Enciende los ledes D1, D2 y D3</span>
 
 
    <span class="p">}</span>
@@ -522,7 +522,7 @@ comentarios.</p>
 </li>
 <li><p class="first">Después de pulsar en orden la secuencia de pulsadores 2, 4 y 1,
 una cerradura electrónica se abrirá. La apertura se indicará
-encendiendo en secuencia los leds rojo, amarillo y verde, uno cada
+encendiendo en secuencia los ledes rojo, amarillo y verde, uno cada
 segundo.
 Completar los huecos del programa que aparece a continuación según
 los comentarios.</p>
@@ -668,7 +668,7 @@ los comentarios.</p>
       <span class="n">pio</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
 
-      <span class="c1">// Apaga todos los leds</span>
+      <span class="c1">// Apaga todos los ledes</span>
       <span class="n">pio</span><span class="p">.</span><span class="n">ledBegin</span><span class="p">();</span>
 
       <span class="c1">// Pasa a la primera etapa del programa</span>
@@ -719,7 +719,7 @@ los comentarios.</p>
       a menos que se indique lo contrario.
       <br>
       <span class="lastupdated">
-        Actualizado por última vez en marzo, 2024.
+        Actualizado por última vez en junio, 2024.
       </span>
 
     </p>

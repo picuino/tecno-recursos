@@ -234,7 +234,7 @@ Programa el código necesario para resolver los siguientes problemas.
             pio.ledWrite(1, LED_OFF)  //   Apaga el led D1
 
 
-2. Encender todos los leds de la siguiente manera.
+2. Encender todos los ledes de la siguiente manera.
    El led D1 se encenderá al pulsar el pulsador 1.
    A continuación el led D2 se encenderá al pulsar el pulsador 2.
    El programa seguirá de esta manera hasta llegar a encender todos
@@ -243,7 +243,7 @@ Programa el código necesario para resolver los siguientes problemas.
 
    .. code-block:: Arduino
 
-      // Enciende todos los leds uno a uno y por orden
+      // Enciende todos los ledes uno a uno y por orden
       // con todos los pulsadores
 
       #include <Picuino.h>
@@ -274,7 +274,7 @@ Programa el código necesario para resolver los siguientes problemas.
    .. code-block:: Arduino
       :linenos:
 
-      // Mover la luz de los leds hacia la derecha
+      // Mover la luz de los ledes hacia la derecha
       // con los pulsadores
 
       #include <Picuino.h>
@@ -297,13 +297,13 @@ Programa el código necesario para resolver los siguientes problemas.
       }
 
 
-4. Modificar el programa anterior para que los leds se enciendan
+4. Modificar el programa anterior para que los ledes se enciendan
    desde el D6 hasta el D1.
    Cuando llegue el turno de apagar el led D1, se encenderá de nuevo
    el led D6.
 
 
-5. Los tres leds D1, D2 y D3 se encenderán cuando se pulse a la vez
+5. Los tres ledes D1, D2 y D3 se encenderán cuando se pulse a la vez
    los tres pulsadores 1, 2 y 3.
    Utiliza el operador '&&' que evalúa si se producen dos condiciones
    a la vez.
@@ -313,7 +313,7 @@ Programa el código necesario para resolver los siguientes problemas.
    .. code-block:: Arduino
       :linenos:
 
-      // Enciende los leds D1, D2, D3 cuando
+      // Enciende los ledes D1, D2, D3 cuando
       // se presionen los pulsadores 1, 2 y 3
 
       #include <Picuino.h>
@@ -327,7 +327,7 @@ Programa el código necesario para resolver los siguientes problemas.
          if (pio.keyPressed(1)  &&   // Si ( (pulsador 1 presionado) y
              pio.keyPressed(2)  &&   //      (pulsador 2 presionado) y
              pio.keyPressed(3)) {    //      (pulsador 3 presionado))
-            pio.                     //    Enciende los leds D1, D2 y D3
+            pio.                     //    Enciende los ledes D1, D2 y D3
 
 
          }
@@ -336,7 +336,7 @@ Programa el código necesario para resolver los siguientes problemas.
 
 6. Después de pulsar en orden la secuencia de pulsadores 2, 4 y 1,
    una cerradura electrónica se abrirá. La apertura se indicará
-   encendiendo en secuencia los leds rojo, amarillo y verde, uno cada
+   encendiendo en secuencia los ledes rojo, amarillo y verde, uno cada
    segundo.
    Completar los huecos del programa que aparece a continuación según
    los comentarios.
@@ -412,7 +412,7 @@ Programa el código necesario para resolver los siguientes problemas.
             pio.ledWrite(3, LED_ON);
             delay(1000);
 
-            // Apaga todos los leds
+            // Apaga todos los ledes
             pio.ledBegin();
 
             // Pasa a la primera etapa del programa

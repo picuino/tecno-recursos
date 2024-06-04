@@ -48,7 +48,7 @@ problemas.
 
 #. Flecha tipo 2.
    Copiar el programa para conseguir el parpadeo
-   de leds D1 a D6 simulando una flecha
+   de ledes D1 a D6 simulando una flecha
    que se enciende hacia la derecha
    y se apaga hacia la izquierda.
 

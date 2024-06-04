@@ -254,18 +254,18 @@ realizar la tarea.</p>
 </pre></div>
 </td></tr></table></div>
 </li>
-<li><p class="first">Modifica el programa anterior para que se apaguen todos los leds
+<li><p class="first">Modifica el programa anterior para que se apaguen todos los ledes
 cuando se presione el botón cero '0'.</p>
 </li>
 <li><p class="first">Modifica el primer programa para que se encienda y apague una
-columna de leds con los botones '+' y '-' del mando a distancia.</p>
+columna de ledes con los botones '+' y '-' del mando a distancia.</p>
 <p>Al pulsar '+' del mando a distancia se encenderá un nuevo led de
 la columna.
-Según se presiona '+' se irán encendiendo uno a uno todos los leds.
+Según se presiona '+' se irán encendiendo uno a uno todos los ledes.
 Al presionar '-' del mando a distancia se apagará el último led.
-Según se presione '-' se irán apagando uno a uno todos los leds.</p>
+Según se presione '-' se irán apagando uno a uno todos los ledes.</p>
 <p>Para programar el código es necesario crear una variable que
-contará el número de leds que deben encenderse.
+contará el número de ledes que deben encenderse.
 Esa variable se incrementará o decrementará con las pulsaciones
 del mando.
 Una instrucción para cada led comprobará si la variable es mayor
@@ -277,14 +277,14 @@ En caso contrario apagará el led.</p>
 </div>
 <p>Dentro del bloque <code class="docutils literal notranslate"><span class="pre">loop()</span></code>, se debe incrementar y decrementar la
 variable dependiendo del código recibido del mando a distancia:</p>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="c1">// Si se presiona &#39;+&#39; aumenta el número de leds encendidos</span>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="c1">// Si se presiona &#39;+&#39; aumenta el número de ledes encendidos</span>
 <span class="k">if</span> <span class="p">(</span><span class="n">code</span> <span class="o">==</span>    <span class="p">)</span>
    <span class="n">num_leds</span> <span class="o">=</span> <span class="n">num_leds</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
 </pre></div>
 </div>
-<p>A continuación se deben encender o apagar los leds dependiendo del
+<p>A continuación se deben encender o apagar los ledes dependiendo del
 valor de la variable:</p>
-<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="c1">// Si se presiona &#39;+&#39; aumenta el número de leds encendidos</span>
+<div class="highlight-arduino notranslate"><div class="highlight"><pre><span></span><span class="c1">// Si se presiona &#39;+&#39; aumenta el número de ledes encendidos</span>
 <span class="k">if</span> <span class="p">(</span><span class="n">num_leds</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
    <span class="n">pc</span><span class="p">.</span><span class="n">ledWrite</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">LED_ON</span><span class="p">);</span>
 <span class="k">else</span>
@@ -293,7 +293,7 @@ valor de la variable:</p>
 </div>
 </li>
 <li><p class="first">Modifica el ejercicio anterior para que la variable no aumente más
-que el número total de leds y que no disminuya por debajo de cero.
+que el número total de ledes y que no disminuya por debajo de cero.
 Se añadirán dos condiciones, una condición limitará la variable si
 aumenta demasiado y otra condición limitará la variable si se
 reduce por debajo de cero</p>
@@ -330,7 +330,7 @@ reduce por debajo de cero</p>
       a menos que se indique lo contrario.
       <br>
       <span class="lastupdated">
-        Actualizado por última vez en marzo, 2024.
+        Actualizado por última vez en junio, 2024.
       </span>
 
     </p>

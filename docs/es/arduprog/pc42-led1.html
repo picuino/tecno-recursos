@@ -100,12 +100,12 @@
 <h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
 <li>Encender y apagar los diodos led del panel de control PC42.</li>
-<li>Generar parpadeo de leds mediante esperas de tiempo.</li>
+<li>Generar parpadeo de ledes mediante esperas de tiempo.</li>
 </ul>
 </div>
-<div class="section" id="leds-del-panel-de-control-pc42">
-<h2>Leds del panel de control PC42<a class="headerlink" href="#leds-del-panel-de-control-pc42" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>El panel de control dispone de 6 leds. 5 led son de un solo color.
+<div class="section" id="ledes-del-panel-de-control-pc42">
+<h2>Ledes del panel de control PC42<a class="headerlink" href="#ledes-del-panel-de-control-pc42" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El panel de control dispone de 6 ledes. 5 led son de un solo color.
 El último led de la derecha es un led RGB con los tres colores
 básicos rojo, verde y azul en su interior.</p>
 <blockquote>
@@ -186,7 +186,7 @@ Sus parámetros son los siguientes:</p>
 <p><code class="docutils literal notranslate"><span class="pre">ledNum</span></code>: led que se va a encender o apagar.
 Los valores válidos van desde 1 para el led D1 hasta 8
 para el color azul del led D6.</p>
-<p>El led D6 es un led RGB, que contiene 3 leds en su interior.
+<p>El led D6 es un led RGB, que contiene 3 ledes en su interior.
 Los números 6, 7, 8 representan respectivamente los colores
 rojo, verde y azul del led D6.</p>
 <p><code class="docutils literal notranslate"><span class="pre">bright</span></code>: brillo con el que se va a encender el led.</p>
@@ -301,14 +301,14 @@ vez dentro del programa de Arduino.</p>
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Programa el código necesario para resolver los siguientes problemas.</p>
 <ol class="arabic">
-<li><p class="first">Encender los leds D1, D3 y D5 de forma permanente.</p>
+<li><p class="first">Encender los ledes D1, D3 y D5 de forma permanente.</p>
 </li>
 <li><p class="first">Encender el led D1, esperar un segundo, encender el led D2,
 esperar un segundo, continuar la secuencia hasta que estén
 encendidos los 4 primeros led.
-Una vez terminado, el programa mantendrá los 4 leds encendidos.</p>
+Una vez terminado, el programa mantendrá los 4 ledes encendidos.</p>
 </li>
-<li><p class="first">Encender los leds rojo, ámbar y verde como en un semáforo.</p>
+<li><p class="first">Encender los ledes rojo, ámbar y verde como en un semáforo.</p>
 <p>Primero se encenderá el led verde y permanecerá encendido durante
 4 segundos.
 A continuación se apagará el led verde y se encenderá el led ámbar
@@ -328,16 +328,16 @@ los dos led encendidos a la vez.</p>
 </li>
 <li><p class="first">Encender el led D1, esperar un segundo, apagar el led D1 y
 encender el led D2.
-Se encenderán de esta forma, consecutivamente, los 5 primeros leds.
+Se encenderán de esta forma, consecutivamente, los 5 primeros ledes.
 En cada momento solo un led estará encendido.
 Una vez terminada la secuencia, comenzará de nuevo desde el
 principio.</p>
 </li>
 <li><p class="first">Realizar una modificación al ejercicio anterior para que en todo
-momento haya 2 leds encendidos.</p>
-<p>Al comenzar el programa deben encenderse los leds D1 y D2.</p>
-<p>Pasado un segundo se encenderán los leds D2 y D3.</p>
-<p>La secuencia continuará hasta que estén encendidos los leds D6 y D1.</p>
+momento haya 2 ledes encendidos.</p>
+<p>Al comenzar el programa deben encenderse los ledes D1 y D2.</p>
+<p>Pasado un segundo se encenderán los ledes D2 y D3.</p>
+<p>La secuencia continuará hasta que estén encendidos los ledes D6 y D1.</p>
 <p>A partir de este momento, el programa se repetirá comenzando
 otra vez desde el principio.</p>
 </li>
@@ -368,7 +368,7 @@ sintácticos para que funcione correctamente.</p>
 23
 24
 25</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1">// Programa con errores sintácticos</span>
-<span class="c1">// Enciende 6 leds en secuencia a derecha y a izquierda</span>
+<span class="c1">// Enciende 6 ledes en secuencia a derecha y a izquierda</span>
 
 <span class="cp">#include</span> <span class="cpf">&lt;Wire.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;PC42.h&gt;</span><span class="cp"></span>
@@ -439,7 +439,7 @@ la vez que D2 parpadea dos veces por segundo.</p>
       a menos que se indique lo contrario.
       <br>
       <span class="lastupdated">
-        Actualizado por última vez en marzo, 2024.
+        Actualizado por última vez en junio, 2024.
       </span>
 
     </p>

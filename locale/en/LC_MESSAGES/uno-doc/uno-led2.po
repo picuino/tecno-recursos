@@ -27,7 +27,7 @@ msgstr "Goals"
 
 
 #: ../../es/uno-doc/uno-led2.rst:11
-msgid "Generar parpadeo de leds mediante la función ledBlink."
+msgid "Generar parpadeo de ledes mediante la función ledBlink."
 msgstr "Generate led blinking using the ledBlink function."
 
 
@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../es/uno-doc/uno-led2.rst:25
 msgid ""
-"El led D6 es un led RGB, que integra 3 leds en su interior. Los números 6, "
+"El led D6 es un led RGB, que integra 3 ledes en su interior. Los números 6, "
 "7, 8 representan respectivamente los colores rojo, verde y azul del led D6."
 msgstr ""
 "The D6 led is an RGB led, which integrates 3 leds inside. The numbers 6, 7, "
@@ -128,7 +128,7 @@ msgstr "Program the code needed to solve the following problems."
 #: ../../es/uno-doc/uno-led2.rst:79
 msgid ""
 "Hacer parpadear el led D1 y el led D4 con una frecuencia de un segundo. Los "
-"dos leds se deben encender y apagar al mismo tiempo. Utilizar la función "
+"dos ledes se deben encender y apagar al mismo tiempo. Utilizar la función "
 "``ledBlink()``."
 msgstr ""
 "Make led D1 and led D4 flash every one second. The two LEDs must turn on and"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../../es/uno-doc/uno-led2.rst:84
 msgid ""
-"Modificar el ejercicio anterior para que el encendido de los dos leds D1 y "
+"Modificar el ejercicio anterior para que el encendido de los dos ledes D1 y "
 "D4 sea alternativo, de manera que solo un led esté encendido en cada "
 "momento. El tiempo de encendido de cada led será de medio segundo."
 msgstr ""
@@ -152,7 +152,7 @@ msgid ""
 " se programará con la función ``ledBlink(1, 50, 50)``, por el contrario el "
 "led D3 se programará con la función ``ledWrite()``. Primero comenzará a "
 "parpadear el led D1 y, pasado un segundo, lo hará el led D3. Se deben "
-"sincronizar los dos leds para que parpadeen a la vez ajustando los tiempos "
+"sincronizar los dos ledes para que parpadeen a la vez ajustando los tiempos "
 "de encendido y apagado con la función ``delay()``."
 msgstr ""
 "Make two LEDs blink at the same time with a frequency of one second. LED D1 "
@@ -194,10 +194,10 @@ msgstr ""
 
 #: ../../es/uno-doc/uno-led2.rst:140
 msgid ""
-"Los seis primeros leds se deben encender en secuencia de manera que comience"
+"Los seis primeros ledes se deben encender en secuencia de manera que comience"
 " por encenderse el led D1 y termine por encenderse el led D6. entre el "
 "encendido de un led y el siguiente debe pasar entre 250 y 500 milésimas de "
-"segundo. Una vez que todos los leds estén encendidos, comenzarán a apagarse "
+"segundo. Una vez que todos los ledes estén encendidos, comenzarán a apagarse "
 "por el led D1 hasta que todos estén apagados. Nota: Para resolver este "
 "problema, se debe utilizar solo una función ``ledBlink()`` por cada led, "
 "junto con una función ``delay()`` para esperar un tiempo entre un encendido "
