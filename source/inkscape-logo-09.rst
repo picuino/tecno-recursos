@@ -137,7 +137,7 @@ Logotipo Adidas
    .. image:: inkscape/_images/inkscape-logo-09-n.jpg
       :align: center
 
-   Como se puede ver, sólo ha quedado la parte de la imagen que tenía
+   Como se puede ver, solo ha quedado la parte de la imagen que tenía
    color sólido y se han eliminado las partes de la imagen que no existían
    en el rectángulo.
 

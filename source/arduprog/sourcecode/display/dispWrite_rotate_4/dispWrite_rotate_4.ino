@@ -1,4 +1,4 @@
-// Gira un segmento alrededor de los cuatro leds superiores de un dígito
+// Gira un segmento alrededor de los cuatro ledes superiores de un dígito
 
 #include <Wire.h>
 #include <PC42.h>

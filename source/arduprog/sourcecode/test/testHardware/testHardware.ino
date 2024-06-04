@@ -50,7 +50,7 @@ void test_leds_buzz(void) {
  */
 void test_display(void) {
    int i, c;
-   // Todos los leds de cada dígito
+   // Todos los ledes de cada dígito
    for(i=1; i<=4; i++) {
       pc.dispWrite(i, DD_8);
       pc.dispDots(1<<(i-1));

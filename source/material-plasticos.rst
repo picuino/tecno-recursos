@@ -93,7 +93,7 @@ Propiedades ecológicas de los plásticos
    reciclarlos se degradan perdiendo sus propiedades originales
    y no sirven para fabricar el mismo producto.
 
-   Se calcula que sólo el 14% del plástico se recolecta para su reciclaje.
+   Se calcula que solo el 14% del plástico se recolecta para su reciclaje.
 
 
 :index:`Termoplásticos`

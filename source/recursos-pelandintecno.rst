@@ -1470,7 +1470,7 @@ Varios
    <http://pelandintecno.blogspot.com/2013/05/desafiando-al-cambio-climatico-climate.html>`__
 #. `2013-04. Diferencias entre plasticidad y elasticidad
    <http://pelandintecno.blogspot.com/2013/04/diferencias-entre-plasticidad-y.html>`__
-#. `2013-04. No sólo un entretenimiento: Aviones de papel
+#. `2013-04. No solo un entretenimiento: Aviones de papel
    <http://pelandintecno.blogspot.com/2013/04/no-solo-un-entretenimiento-aviones-de.html>`__
 #. `2013-03. ¿Por qué el iPad nunca sustituirá al papel?
    <http://pelandintecno.blogspot.com/2013/03/por-que-el-ipad-nunca-sustituira-al.html>`__

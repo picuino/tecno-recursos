@@ -232,7 +232,7 @@ El orden y posición de montaje son las siguientes:
 
 **5. Diodos led**:
 
-   Los diodos sólo conducen en un sentido y no funcionan en sentido contrario.
+   Los diodos solo conducen en un sentido y no funcionan en sentido contrario.
    En la serigrafía de la placa de circuito impreso la patilla negativa o
    cátodo de los led siempre está mirando hacia la izquierda. Se distingue
    porque el círculo tiene un chaflán y porque el pad de soldadura es cuadrado.
