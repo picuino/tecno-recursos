@@ -1,129 +1,127 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2023 por Carlos Pardo Martín
-# This file is distributed under the same license as the Tecno Recursos
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Tecno Recursos 2023\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-25 17:54+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-11-25 17:54+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-operational-peakdetector.rst:9
 msgid "El detector de pico"
-msgstr ""
-
+msgstr "The peak detector"
 #: ../../source/electronic-operational-peakdetector.rst:10
 msgid ""
 "El detector de pico es un circuito que mantiene en su salida el valor de "
 "pico de tensión que se encuentra en la entrada. Está compuesto por un "
-"rectificador de precisión de media onda y por un filtro RC a la salida, "
-"que memoriza el mayor nivel de tensión de la salida del rectificador."
+"rectificador de precisión de media onda y por un filtro RC a la salida, que "
+"memoriza el mayor nivel de tensión de la salida del rectificador."
 msgstr ""
-
+"The peak detector is a circuit that maintains at its output the voltage peak"
+" value found at the input. It is composed of a half-wave precision rectifier"
+" and an RC filter at the output, which memorizes the highest voltage level "
+"of the rectifier output."
 #: ../../source/electronic-operational-peakdetector.rst:21
 msgid "Esquema del detector de pico."
-msgstr ""
-
+msgstr "Scheme of the peak detector."
 #: ../../source/electronic-operational-peakdetector.rst:25
 msgid "Funcionamiento"
-msgstr ""
-
+msgstr "Functioning"
 #: ../../source/electronic-operational-peakdetector.rst:26
 msgid ""
 "El diodo a la salida del amplificador operacional impide que este pueda "
-"entregar corriente negativa. Como el operacional solo podrá entregar "
-"tensión y corriente positivas, el condensador de salida subirá de tensión"
-" hasta igualar la máxima tensión de entrada y mantendrá esta tensión."
+"entregar corriente negativa. Como el operacional solo podrá entregar tensión"
+" y corriente positivas, el condensador de salida subirá de tensión hasta "
+"igualar la máxima tensión de entrada y mantendrá esta tensión."
 msgstr ""
-
+"The diode at the output of the operational amplifier prevents it from "
+"delivering negative current. As the operational unit will only be able to "
+"deliver positive voltage and current, the output capacitor will rise in "
+"voltage until it equals the maximum input voltage and will maintain this "
+"voltage."
 #: ../../source/electronic-operational-peakdetector.rst:31
 msgid ""
-"La resistencia de 10k hará que el condensador se descargue poco a poco y "
-"que su tensión tienda a valer cero voltios."
+"La resistencia de 10k hará que el condensador se descargue poco a poco y que"
+" su tensión tienda a valer cero voltios."
 msgstr ""
-
+"The 10k resistor will cause the capacitor to discharge little by little and "
+"its voltage will tend to be zero volts."
 #: ../../source/electronic-operational-peakdetector.rst:34
 msgid ""
-"De esta manera la tensión máxima de entrada, o valor de pico, se "
-"almacenará por un tiempo en el condensador, que poco a poco va a perder "
-"esa tensión máxima para adaptarse a otros picos de menor tensión que "
-"lleguen más tarde."
+"De esta manera la tensión máxima de entrada, o valor de pico, se almacenará "
+"por un tiempo en el condensador, que poco a poco va a perder esa tensión "
+"máxima para adaptarse a otros picos de menor tensión que lleguen más tarde."
 msgstr ""
-
+"In this way, the maximum input voltage, or peak value, will be stored for a "
+"time in the capacitor, which will gradually lose that maximum voltage to "
+"adapt to other lower voltage peaks that arrive later."
 #: ../../source/electronic-operational-peakdetector.rst:40
 msgid "Simulación"
-msgstr ""
-
+msgstr "Simulation"
 #: ../../source/electronic-operational-peakdetector.rst:41
 msgid ""
 "En la siguiente simulación podemos ver un **detector de pico** al que le "
-"llega una tensión alterna de amplitud modulada. La tensión máxima de "
-"entrada se refleja en el valor de salida del circuito."
+"llega una tensión alterna de amplitud modulada. La tensión máxima de entrada"
+" se refleja en el valor de salida del circuito."
 msgstr ""
-
+"In the following simulation we can see a **peak detector** to which an "
+"alternating amplitude-modulated voltage arrives. The maximum input voltage "
+"is reflected in the output value of the circuit."
 #: ../../source/electronic-operational-peakdetector.rst:53
 msgid "Ejercicios"
-msgstr ""
-
+msgstr "Exercises"
 #: ../../source/electronic-operational-peakdetector.rst:55
 msgid "Dibuja el esquema de un detector de pico."
-msgstr ""
-
+msgstr "Draw the schematic of a peak detector."
 #: ../../source/electronic-operational-peakdetector.rst:57
 msgid "¿Qué tipo de realimentación tiene el detector de pico y por qué?"
-msgstr ""
-
+msgstr "What type of feedback does the peak detector have and why?"
 #: ../../source/electronic-operational-peakdetector.rst:59
 msgid "¿Qué función realiza un circuito detector de pico?"
-msgstr ""
-
+msgstr "What function does a peak detector circuit perform?"
 #: ../../source/electronic-operational-peakdetector.rst:61
 msgid "¿Qué ganancia de tensión tendrá un detector de pico y por qué?"
-msgstr ""
-
+msgstr "What voltage gain will a peak detector have and why?"
 #: ../../source/electronic-operational-peakdetector.rst:63
 msgid ""
-"Modifica la simulación anterior del detector de pico para hacer un "
-"circuito demodulador:"
+"Modifica la simulación anterior del detector de pico para hacer un circuito "
+"demodulador:"
 msgstr ""
-
+"Modify the previous peak detector simulation to make a demodulator circuit:"
 #: ../../source/electronic-operational-peakdetector.rst:66
 msgid ""
-"Aumenta la frecuencia de la señal portadora de Amplitud Modulada hasta "
-"1000 Hz."
+"Aumenta la frecuencia de la señal portadora de Amplitud Modulada hasta 1000 "
+"Hz."
 msgstr ""
-
+"Increases the frequency of the Amplitude Modulated carrier signal up to 1000"
+" Hz."
 #: ../../source/electronic-operational-peakdetector.rst:69
 msgid ""
-"Disminuye el valor del condensador hasta que la señal de salida sea igual"
-" a la envolvente de la señal de entrada."
+"Disminuye el valor del condensador hasta que la señal de salida sea igual a "
+"la envolvente de la señal de entrada."
 msgstr ""
-
+"Decrease the value of the capacitor until the output signal is equal to the "
+"envelope of the input signal."
 #: ../../source/electronic-operational-peakdetector.rst:72
 msgid ""
-"Dibuja un gráfico de la tensión de entrada y otro gráfico con la tensión "
-"de salida."
+"Dibuja un gráfico de la tensión de entrada y otro gráfico con la tensión de "
+"salida."
 msgstr ""
-
+"Draw a graph of the input voltage and another graph of the output voltage."
 #: ../../source/electronic-operational-peakdetector.rst:75
 msgid ""
 "¿Qué ocurre si cambiamos el sentido del diodo? Simula el cambio para "
 "comprobar el nuevo funcionamiento."
 msgstr ""
-
+"What happens if we change the direction of the diode? Simulate the change to"
+" check the new operation."
 #: ../../source/electronic-operational-peakdetector.rst:78
 msgid "¿Cómo podríamos denominar a este nuevo circuito?"
-msgstr ""
-
+msgstr "What could we call this new circuit?"

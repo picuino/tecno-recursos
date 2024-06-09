@@ -1,113 +1,124 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2023 por Carlos Pardo Martín
-# This file is distributed under the same license as the Tecno Recursos
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Tecno Recursos 2023\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-30 17:43+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-10-30 17:43+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-diodo-zener.rst:9
 msgid "El diodo zener"
-msgstr ""
-
+msgstr "The zener diode"
 #: ../../source/electronic-diodo-zener.rst:10
 msgid ""
-"Los diodos rectificadores soportan una tensión negativa alta sin "
-"conducir. Sin embargo los `diodos zener "
-"<https://es.wikipedia.org/wiki/Diodo_Zener>`__ están diseñados para que "
-"puedan conducir corriente cuando la tensión negativa sea menor que la "
-"tensión de ruptura, con un valor que puede valer entre 2 y 6 voltios."
+"Los diodos rectificadores soportan una tensión negativa alta sin conducir. "
+"Sin embargo los `diodos zener <https://es.wikipedia.org/wiki/Diodo_Zener>`__"
+" están diseñados para que puedan conducir corriente cuando la tensión "
+"negativa sea menor que la tensión de ruptura, con un valor que puede valer "
+"entre 2 y 6 voltios."
 msgstr ""
-
+"Rectifier diodes support a high negative voltage without conducting. "
+"However, the `zener diodes <https://es.wikipedia.org/wiki/Diodo_Zener>`__ "
+"are designed so that they can conduct current when the negative voltage is "
+"less than the breakdown voltage, with a value that can be between 2 and 6 "
+"volts."
 #: ../../source/electronic-diodo-zener.rst:21
 msgid "Símbolo del diodo zener y nombre de sus terminales."
-msgstr ""
-
+msgstr "Zener diode symbol and name of its terminals."
 #: ../../source/electronic-diodo-zener.rst:24
 msgid ""
-"Existen diodos que conducen corriente con tensiones inversas mayores de 6"
-" voltios. Este tipo de diodos se basan en el efecto **avalancha**, un "
-"efecto diferente al zener. Sin embargo nos podemos encontrar diodos de "
-"avalancha denominados como diodos zener o viceversa, porque ambos tienen "
-"la misma función de conducir corriente a una tensión inversa concreta."
+"Existen diodos que conducen corriente con tensiones inversas mayores de 6 "
+"voltios. Este tipo de diodos se basan en el efecto **avalancha**, un efecto "
+"diferente al zener. Sin embargo nos podemos encontrar diodos de avalancha "
+"denominados como diodos zener o viceversa, porque ambos tienen la misma "
+"función de conducir corriente a una tensión inversa concreta."
 msgstr ""
-
+"There are diodes that conduct current with reverse voltages greater than 6 "
+"volts. This type of diodes are based on the **avalanche** effect, a "
+"different effect from the zener. However, we can find avalanche diodes "
+"called zener diodes or vice versa, because both have the same function of "
+"conducting current at a specific reverse voltage."
 #: ../../source/electronic-diodo-zener.rst:31
 msgid ""
-"Los diodos zener permiten construir circuitos limitadores que evitan que "
-"la tensión supere un valor, determinado por su tensión de ruptura. Con "
-"los diodos zener también se pueden fabricar referencias de tensión muy "
-"precisas, utilizadas en los aparatos de mayor precisión."
+"Los diodos zener permiten construir circuitos limitadores que evitan que la "
+"tensión supere un valor, determinado por su tensión de ruptura. Con los "
+"diodos zener también se pueden fabricar referencias de tensión muy precisas,"
+" utilizadas en los aparatos de mayor precisión."
 msgstr ""
-
+"Zener diodes allow the construction of limiting circuits that prevent the "
+"voltage from exceeding a value, determined by its breakdown voltage. With "
+"zener diodes, very precise voltage references can also be manufactured, used"
+" in the highest precision devices."
 #: ../../source/electronic-diodo-zener.rst:36
 msgid ""
-"En la siguiente simulación puede verse la curva característica de un "
-"diodo zener. El diodo conduce corriente cuando la tensión positiva supera"
-" los 0.65 voltios, como cualquier diodo rectificador. Pero también "
-"conduce corriente cuando la tensión es negativa y llega a un umbral "
-"denominado tensión de ruptura, que en este caso vale 5.6 voltios."
+"En la siguiente simulación puede verse la curva característica de un diodo "
+"zener. El diodo conduce corriente cuando la tensión positiva supera los 0.65"
+" voltios, como cualquier diodo rectificador. Pero también conduce corriente "
+"cuando la tensión es negativa y llega a un umbral denominado tensión de "
+"ruptura, que en este caso vale 5.6 voltios."
 msgstr ""
-
+"In the following simulation you can see the characteristic curve of a zener "
+"diode. The diode conducts current when the positive voltage exceeds 0.65 "
+"volts, like any rectifier diode. But it also conducts current when the "
+"voltage is negative and reaches a threshold called breakdown voltage, which "
+"in this case is 5.6 volts."
 #: ../../source/electronic-diodo-zener.rst:50
 msgid "Referencia de tensión"
-msgstr ""
-
+msgstr "Voltage reference"
 #: ../../source/electronic-diodo-zener.rst:51
 msgid ""
 "En el circuito que aparece a continuación se puede ver una de las "
-"aplicaciones del diodo zener, reduciendo una tensión variable de entrada "
-"a una tensión relativamente fija de salida. Este es un esquema muy "
-"simple, pero funcional. En la práctica se utilizan circuitos más "
-"elaborados y mucho más precisos para construir las fuentes fijas de "
-"tensión."
+"aplicaciones del diodo zener, reduciendo una tensión variable de entrada a "
+"una tensión relativamente fija de salida. Este es un esquema muy simple, "
+"pero funcional. En la práctica se utilizan circuitos más elaborados y mucho "
+"más precisos para construir las fuentes fijas de tensión."
 msgstr ""
-
+"In the circuit below you can see one of the applications of the zener diode,"
+" reducing a variable input voltage to a relatively fixed output voltage. "
+"This is a very simple, but functional scheme. In practice, more elaborate "
+"and much more precise circuits are used to construct fixed voltage sources."
 #: ../../source/electronic-diodo-zener.rst:66
 msgid "Ejercicios"
-msgstr ""
-
+msgstr "Exercises"
 #: ../../source/electronic-diodo-zener.rst:68
 msgid "Dibuja el símbolo del diodo zener con el nombre de sus terminales."
-msgstr ""
-
+msgstr "Draw the symbol of the zener diode with the name of its terminals."
 #: ../../source/electronic-diodo-zener.rst:70
 msgid ""
-"¿Qué otros diodos están relacionados con los diodos zener porque realizan"
-" la misma función? ¿En qué se diferencian de los zener?"
+"¿Qué otros diodos están relacionados con los diodos zener porque realizan la"
+" misma función? ¿En qué se diferencian de los zener?"
 msgstr ""
-
+"What other diodes are related to zener diodes because they perform the same "
+"function? How are they different from zener?"
 #: ../../source/electronic-diodo-zener.rst:73
 msgid ""
-"Dibuja la gráfica de tensión (en el eje x) y de corriente (en el eje y) "
-"de el diodo zener de la primera simulación."
+"Dibuja la gráfica de tensión (en el eje x) y de corriente (en el eje y) de "
+"el diodo zener de la primera simulación."
 msgstr ""
-
+"Draw the graph of voltage (on the x-axis) and current (on the y-axis) of the"
+" zener diode from the first simulation."
 #: ../../source/electronic-diodo-zener.rst:76
 msgid ""
-"Dibuja en los ejes las marcas horizontales y verticales que correspondan "
-"a los valores de tensión y corriente utilizados."
+"Dibuja en los ejes las marcas horizontales y verticales que correspondan a "
+"los valores de tensión y corriente utilizados."
 msgstr ""
-
+"Draw horizontal and vertical marks on the axes that correspond to the "
+"voltage and current values ​​used."
 #: ../../source/electronic-diodo-zener.rst:79
 msgid ""
-"Dibuja un circuito con un diodo zener que limite la tensión a 5.6 voltios"
-" a partir de una tensión de alimentación de 12 voltios."
+"Dibuja un circuito con un diodo zener que limite la tensión a 5.6 voltios a "
+"partir de una tensión de alimentación de 12 voltios."
 msgstr ""
-
+"Draw a circuit with a zener diode that limits the voltage to 5.6 volts from "
+"a supply voltage of 12 volts."
 #: ../../source/electronic-diodo-zener.rst:82
 msgid ""
 "Con ayuda del `simulador de circuitos "
@@ -115,42 +126,50 @@ msgid ""
 "resistencia de polarización del diodo zener para que conduzca "
 "aproximadamente 20 miliamperios."
 msgstr ""
-
+"With the help of the `circuit simulator "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__, adjust the "
+"bias resistance of the zener diode so that it conducts approximately 20 "
+"milliamps."
 #: ../../source/electronic-diodo-zener.rst:88
 msgid "¿Cuánto vale la resistencia de polarización?"
-msgstr ""
-
+msgstr "How much is the bias resistance?"
 #: ../../source/electronic-diodo-zener.rst:90
 msgid ""
-"Realiza el circuito de la siguiente imagen con el `simulador de circuitos"
-" <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__."
+"Realiza el circuito de la siguiente imagen con el `simulador de circuitos "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__."
 msgstr ""
-
+"Make the circuit in the following image with the `circuit simulator "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__."
 #: ../../source/electronic-diodo-zener.rst:94
 msgid ""
 "Este circuito es una fuente de alimentación lineal regulada. Tiene un "
-"rectificador de onda completa con condensador de filtro y un regulador de"
-" tensión basado en un diodo zener y un transistor."
+"rectificador de onda completa con condensador de filtro y un regulador de "
+"tensión basado en un diodo zener y un transistor."
 msgstr ""
-
+"This circuit is a regulated linear power supply. It has a full wave "
+"rectifier with filter capacitor and a voltage regulator based on a zener "
+"diode and a transistor."
 #: ../../source/electronic-diodo-zener.rst:103
 msgid "Fuente de alimentación regulada con diodo zener y un transistor."
-msgstr ""
-
+msgstr "Regulated power supply with zener diode and a transistor."
 #: ../../source/electronic-diodo-zener.rst:105
 msgid ""
 "Añade un osciloscopio con la tensión del condensador y añade a ese mismo "
 "osciloscopio la tensión en la resistencia R2."
 msgstr ""
-
+"Add an oscilloscope with the capacitor voltage and add the voltage on "
+"resistor R2 to that same oscilloscope."
 #: ../../source/electronic-diodo-zener.rst:108
 msgid ""
-"¿Qué tensiones tienen los dos componentes? Dibuja una gráfica aproximada "
-"de las formas de las dos tensiones en el mismo gráfico."
+"¿Qué tensiones tienen los dos componentes? Dibuja una gráfica aproximada de "
+"las formas de las dos tensiones en el mismo gráfico."
 msgstr ""
-
+"What voltages do the two components have? Draw an approximate graph of the "
+"shapes of the two stresses on the same graph."
 #: ../../source/electronic-diodo-zener.rst:112
 msgid ""
-"Investiga ¿Qué función realiza el diodo zener en el circuito anterior? "
-"¿Qué función realiza el transistor?"
+"Investiga ¿Qué función realiza el diodo zener en el circuito anterior? ¿Qué "
+"función realiza el transistor?"
 msgstr ""
+"Investigate What function does the zener diode perform in the above circuit?"
+" What function does the transistor perform?"

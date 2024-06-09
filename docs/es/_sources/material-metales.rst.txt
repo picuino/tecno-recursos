@@ -256,7 +256,7 @@ Metales ligeros
    Titanio
       Es un metal de color gris, de baja densidad (4,5 kg/litro) muy
       resistente a la corrosión y con buena resistencia mecánica de
-      rotura, hasta los 140 kg/mm2.
+      rotura, semejante a la del acero.
 
       Tiene la mejor relación dureza/densidad de todos los metales.
       Es casi tan fuerte como los aceros, pero con menor densidad.
@@ -370,37 +370,39 @@ Metales nobles
 
 Precio de los metales
 ---------------------
-Hay varias referencias, pero la más prestigiosa es la bolsa de Londres.
+Hay varias referencias, pero la más prestigiosa es la 
+`bolsa de Londres <https://www.lme.com/>`__.
 Estos precios corresponden al cierre en bolsa sobre el metal puro
-a día 1 de julio de 2021.
+a día 5 de junio de 2024.
 
-=============  =============
-Metal          Precio €/kg
-=============  =============
-Acero[1]         0,52
-Plomo	           1,89
-Aluminio	        2,09
-Zinc	           2,47
-Cobre	           7,86
-Bronce	       10,23
-Titanio         12,30
-Níquel	       15,22
-Estaño	       27,59
-Cobalto         42,49
-=============  =============
+==================  =============
+Metal               Precio €/kg
+==================  =============
+Hierro / acero [1]      0,52
+Plomo	                2,18
+Aluminio	            2,58
+Zinc	                2,82
+Titanio                 6,47
+Cobre	                9,77
+Litio                  13,83
+Níquel	               18,34
+Cobalto                27,15
+Estaño	               31,38
+==================  =============
 
 [1] Precio medio del acero. Puede variar de 0,42 a 0,65 €/kg.
 
 
-Metales preciosos. Precio a 1 de julio de 2021.
+`Precio de metales preciosos <https://legor.com/es/cotizaciones/>`__
+a 5 de junio de 2024.
 
 =============  =============
 Metal          Precio €/kg
 =============  =============
-Plata           704
-Platino         29380
-Oro             48066
-Rodio           532960
+Plata           929
+Platino         30674
+Oro             75421
+Rodio           149820
 =============  =============
 
 

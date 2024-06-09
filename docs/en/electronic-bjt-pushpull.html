@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 11. El esquema push-pull">
-  <title>11. El esquema push-pull - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 11. The push-pull scheme">
+  <title>11. The push-pull scheme - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="12. El par diferencial" href="electronic-bjt-diferencial.html">
-  <link rel="prev" title="10. El esquema Darlington" href="electronic-bjt-darlington.html">
+  <link rel="next" title="12. The differential torque" href="electronic-bjt-diferencial.html">
+  <link rel="prev" title="10. The Darlington scheme" href="electronic-bjt-darlington.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">11. </span>El esquema push-pull</li>
+      <li><span class="section-number">11. </span>The push-pull scheme</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,49 +102,30 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-esquema-push-pull">
-<span id="electronic-bjt-pushpull"></span><h1><span class="section-number">11. </span>El esquema push-pull<a class="headerlink" href="#el-esquema-push-pull" title="Permalink to this headline">¶</a></h1>
-<p>El <a class="reference external" href="https://es.wikipedia.org/wiki/Salida_en_contrafase" rel="noopener noreferrer" target="_blank">esquema push-pull</a>,
-también llamado en contrafase, es un circuito utilizado en las etapas de
-salida de circuitos electrónicos para entregar tanto tensión y corriente
-positivas como tensión y corriente negativas.</p>
-<p>El esquema utiliza un transistor NPN para entregar corriente y tensión
-positiva y utiliza un transistor PNP para absorber corriente y entregar
-tensión negativa.</p>
-<p>Ambos transistores están en colector común o &quot;seguidor de emisor&quot; que,
-como recordaremos, es una configuración que amplifica la corriente de
-salida, pero no amplifica la tensión.</p>
+<span id="electronic-bjt-pushpull"></span><h1><span class="section-number">11. </span>The push-pull scheme<a class="headerlink" href="#el-esquema-push-pull" title="Permalink to this headline">¶</a></h1>
+<p>The <a class="reference external" href="https://es.wikipedia.org/wiki/Salida_en_contrafase" rel="noopener noreferrer" target="_blank">push-pull scheme</a>, also called push-pull, is a circuit used in the output stages of electronic circuits to deliver both positive voltage and current as well as positive and negative current.</p>
+<p>The scheme uses an NPN transistor to deliver positive current and voltage and uses a PNP transistor to absorb current and deliver negative voltage.</p>
+<p>Both transistors are in common collector or &quot;emitter follower&quot; which, as we remember, is a configuration that amplifies the output current, but does not amplify the voltage.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-pushpull.png"><img alt="Esquema de dos transistores bipolares en montaje push-pull." src="_images/electronic-analog-pushpull.png" style="width: 200px;"></a>
-<p class="caption"><span class="caption-text">Esquema de dos transistores bipolares en montaje push-pull.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Schematic of two bipolar transistors in push-pull assembly.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Los dos diodos en las bases de los transistores sirven para mantener una
-tensión de 1.2 voltios entre las bases, que coincide con la tensión de
-polarización de los dos transistores.</p>
+<p>The two diodes at the bases of the transistors serve to maintain a voltage of 1.2 volts between the bases, which coincides with the bias voltage of the two transistors.</p>
 <div class="section" id="simulacion">
-<h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>A continuación podemos ver una simulación de un circuito push-pull
-que consigue alimentar una carga con corrientes positivas y negativas.
-La parte superior del circuito es simétrica respecto a la parte inferior.
-Cada uno de los transistores se encarga de conducir una parte de la
-corriente. El transistor NPN superior conduce la corriente positiva y
-el transistor PNP inferior conduce la corriente negativa.</p>
+<h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>Below we can see a simulation of a push-pull circuit that manages to power a load with positive and negative currents. The upper part of the circuit is symmetrical with respect to the lower part. Each of the transistors is responsible for conducting a part of the current. The upper NPN transistor conducts the positive current and the lower PNP transistor conducts the negative current.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=bjt-pushpull.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Dibuja un esquema simplificado de dos transistores bipolares trabajando
-en configuración push-pull.</li>
-<li>Dibuja un esquema realista de dos transistores bipolares trabajando en
-configuración push-pull o contrafase.</li>
-<li>¿Qué función realiza una etapa push-pull y dónde se pueden encontrar?</li>
-<li>¿Qué tipo de amplificación realiza una etapa push-pull?</li>
-<li>¿Qué ganancia de tensión tiene la etapa push-pull simulada?
-¿Y qué ganancia de corriente?</li>
-<li>Busca en Internet la hoja de datos del popular amplificador operacional
-<a class="reference external" href="https://www.ti.com/lit/ds/symlink/lm321.pdf" rel="noopener noreferrer" target="_blank">LM321</a>.
-Dibuja la etapa de salida, basada en un circuito push-pull.</li>
+<li>Draw a simplified schematic of two bipolar transistors working in push-pull configuration.</li>
+<li>Draw a realistic schematic of two bipolar transistors working in push-pull or push-pull configuration.</li>
+<li>What function does a push-pull stage perform and where can they be found?</li>
+<li>What type of amplification does a push-pull stage perform?</li>
+<li>What voltage gain does the simulated push-pull stage have? And what current gain?</li>
+<li>Search the Internet for the data sheet of the popular op amp <a class="reference external" href="https://www.ti.com/lit/ds/symlink/lm321.pdf" rel="noopener noreferrer" target="_blank">LM321</a>. Draw the output stage, based on a push-pull circuit.</li>
 </ol>
 </div>
 </div>
@@ -158,10 +139,10 @@ Dibuja la etapa de salida, basada en un circuito push-pull.</li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-bjt-diferencial.html" class="btn btn-neutral float-right" title="12. El par diferencial" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-bjt-diferencial.html" class="btn btn-neutral float-right" title="12. The differential torque" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-bjt-darlington.html" class="btn btn-neutral" title="10. El esquema Darlington" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-bjt-darlington.html" class="btn btn-neutral" title="10. The Darlington scheme" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -186,7 +167,7 @@ Dibuja la etapa de salida, basada en un circuito push-pull.</li>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -248,35 +229,35 @@ Dibuja la etapa de salida, basada en un circuito push-pull.</li>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

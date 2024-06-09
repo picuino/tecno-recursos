@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 3. El diodo limitador">
-  <title>3. El diodo limitador - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 3. The limiting diode">
+  <title>3. The limiting diode - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="4. El diodo zener" href="electronic-diodo-zener.html">
-  <link rel="prev" title="2. El diodo rectificador" href="electronic-diodo-rectificador.html">
+  <link rel="next" title="4. The zener diode" href="electronic-diodo-zener.html">
+  <link rel="prev" title="2. The rectifier diode" href="electronic-diodo-rectificador.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">3. </span>El diodo limitador</li>
+      <li><span class="section-number">3. </span>The limiting diode</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,60 +102,37 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-diodo-limitador">
-<span id="electronic-diodo-limitador"></span><h1><span class="section-number">3. </span>El diodo limitador<a class="headerlink" href="#el-diodo-limitador" title="Permalink to this headline">¶</a></h1>
-<p>Los diodos rectificadores también se pueden utilizar para limitar la
-corriente o la tensión en los circuitos para prevenir que estos se
-quemen.</p>
+<span id="electronic-diodo-limitador"></span><h1><span class="section-number">3. </span>The limiting diode<a class="headerlink" href="#el-diodo-limitador" title="Permalink to this headline">¶</a></h1>
+<p>Rectifier diodes can also be used to limit current or voltage in circuits to prevent them from burning out.</p>
 <div class="section" id="diodo-de-rueda-libre">
-<h2>Diodo de rueda libre<a class="headerlink" href="#diodo-de-rueda-libre" title="Permalink to this headline">¶</a></h2>
-<p>Siempre que hacemos conducir corriente por una bobina (motor, relé, etc.)
-la <strong>bobina almacena energía</strong> en su interior.
-Al desactivar la bobina, la energía almacenada se
-transforma en un pico de tensión que intenta mantener la corriente de
-la bobina constante. Este pico de tensión puede quemar los componentes
-electrónicos del circuito, por lo que se debe colocar en paralelo a la
-bobina un diodo denominado '<strong>de rueda libre</strong>' o '<strong>freewheel</strong>' que
-conduzca la corriente de la bobina hasta que se reduzca a cero.</p>
-<p>En los siguientes circuitos podemos ver los diodos de rueda libre colocados
-en paralelo con la bobina de un relé y otro colocado en paralelo con un
-motor de corriente continua (tiene una gran bobina en su interior).</p>
+<h2>Freewheel diode<a class="headerlink" href="#diodo-de-rueda-libre" title="Permalink to this headline">¶</a></h2>
+<p>Whenever we conduct current through a coil (motor, relay, etc.) the <strong>coil stores energy</strong> inside. By deactivating the coil, the stored energy is transformed into a voltage spike that attempts to keep the coil current constant. This voltage peak can burn the electronic components of the circuit, so a diode called '<strong>freewheel</strong>' or '<strong>freewheel</strong>' must be placed in parallel to the coil to conduct the coil current. until it is reduced to zero.</p>
+<p>In the following circuits we can see the freewheeling diodes placed in parallel with the coil of a relay and another placed in parallel with a direct current motor (it has a large coil inside).</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=diode-flyback.txt"></iframe>
 </div><div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=diode-freewheel.txt"></iframe>
 </div></div>
 <div class="section" id="diodo-limitador-de-entrada">
-<h2>Diodo limitador de entrada<a class="headerlink" href="#diodo-limitador-de-entrada" title="Permalink to this headline">¶</a></h2>
-<p>Este esquema recorta la tensión de entrada en torno a los 0.65 voltios, la
-tensión de umbral de conducción que tienen los diodos rectificadores.</p>
-<p>Es un circuito utilizado usualmente para proteger de las altas tensiones
-las entradas de los circuitos electrónicos más sensibles, evitando que
-una descarga electrostática (un chispazo) pueda quemar el circuito
-electrónico.</p>
+<h2>input limiting diode<a class="headerlink" href="#diodo-limitador-de-entrada" title="Permalink to this headline">¶</a></h2>
+<p>This scheme cuts the input voltage to around 0.65 volts, the conduction threshold voltage of the rectifier diodes.</p>
+<p>It is a circuit usually used to protect the inputs of the most sensitive electronic circuits from high voltages, preventing an electrostatic discharge (a spark) from burning the electronic circuit.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=diodelimit.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja el esquema de una bobina de 1 Henrio en serie con una resistencia
-de 100 ohmios, en serie con un interruptor y con una pila de 5 voltios.</p>
-<p>Coloca correctamente un diodo de protección de rueda libre en paralelo
-a la bobina.</p>
-<p>Utiliza el
-<a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">simulador de circuitos</a>
-para comprobar que el circuito funciona correctamente.</p>
+<li><p class="first">Draw the diagram of a 1 Henry coil in series with a 100 ohm resistor, in series with a switch and with a 5 volt battery.</p>
+<p>Properly place a freewheel protection diode in parallel to the coil.</p>
+<p>Use the <a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">circuit simulator</a> to check that the circuit works correctly.</p>
 </li>
-<li><p class="first">Añade en el circuito anterior un osciloscopio con la gráfica de la
-corriente a través de la bobina.</p>
-<p>Dibuja una gráfica de la corriente con el tiempo.
-En el eje X representa el tiempo con marcas cada segundo.
-En el eje Y representa la corriente con marcas cada 10 miliamperios.</p>
+<li><p class="first">Add an oscilloscope to the previous circuit with the graph of the current through the coil.</p>
+<p>Draw a graph of the current over time. On the X axis it represents time with ticks every second. On the Y axis it represents the current with marks every 10 milliamps.</p>
 </li>
-<li><p class="first">Modifica el circuito anterior para que el diodo esté en paralelo
-con la bobina y la resistencia. ¿El funcionamiento mejora o empeora?</p>
+<li><p class="first">Modify the above circuit so that the diode is in parallel with the coil and the resistor. Does functioning improve or worsen?</p>
 <a class="reference internal image-reference" href="_images/electronic-analog-diodo-freewheel2.png"><img alt="Diodo de rueda libre en un circuito con bobina." class="align-center" src="_images/electronic-analog-diodo-freewheel2.png" style="width: 312px;"></a>
-<p>Dibuja de nuevo la gráfica de la corriente con el tiempo.</p>
+<p>Redraw the graph of the current over time.</p>
 </li>
 </ol>
 </div>
@@ -170,10 +147,10 @@ con la bobina y la resistencia. ¿El funcionamiento mejora o empeora?</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-diodo-zener.html" class="btn btn-neutral float-right" title="4. El diodo zener" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-diodo-zener.html" class="btn btn-neutral float-right" title="4. The zener diode" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-diodo-rectificador.html" class="btn btn-neutral" title="2. El diodo rectificador" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-diodo-rectificador.html" class="btn btn-neutral" title="2. The rectifier diode" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -198,7 +175,7 @@ con la bobina y la resistencia. ¿El funcionamiento mejora o empeora?</p>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -260,35 +237,35 @@ con la bobina y la resistencia. ¿El funcionamiento mejora o empeora?</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

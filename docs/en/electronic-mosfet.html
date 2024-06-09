@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 14. El transistor mosfet">
-  <title>14. El transistor mosfet - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 14. The mosfet transistor">
+  <title>14. The mosfet transistor - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="15. El amplificador operacional" href="electronic-operational.html">
-  <link rel="prev" title="13. La fuente de corriente" href="electronic-bjt-current.html">
+  <link rel="next" title="15. The operational amplifier" href="electronic-operational.html">
+  <link rel="prev" title="13. The current source" href="electronic-bjt-current.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">14. </span>El transistor mosfet</li>
+      <li><span class="section-number">14. </span>The mosfet transistor</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,62 +102,42 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-transistor-mosfet">
-<span id="electronic-mosfet"></span><h1><span class="section-number">14. </span>El transistor mosfet<a class="headerlink" href="#el-transistor-mosfet" title="Permalink to this headline">¶</a></h1>
-<p>El transistor mosfet es un tipo de transistor que permite el paso de más
-o menos corriente eléctrica entre sus terminales Drenador y Fuente,
-dependiendo de la tensión en su terminal de Puerta.</p>
+<span id="electronic-mosfet"></span><h1><span class="section-number">14. </span>The mosfet transistor<a class="headerlink" href="#el-transistor-mosfet" title="Permalink to this headline">¶</a></h1>
+<p>The mosfet transistor is a type of transistor that allows the passage of more or less electrical current between its Drain and Source terminals, depending on the voltage at its Gate terminal.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-mosfet-n.png"><img alt="Símbolo del transistor mosfet de canal N." src="_images/electronic-analog-mosfet-n.png" style="width: 200px;"></a>
-<p class="caption"><span class="caption-text">Símbolo del transistor mosfet de canal N.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">N-channel mosfet transistor symbol.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl class="docutils">
-<dt>Los tres terminales de un transistor mosfet son:</dt><dd><ul class="simple">
-<li><strong>Drenador</strong> (Drain, letra D): terminal por el que entra la corriente.</li>
-<li><strong>Fuente</strong> (Source, letra S): terminal por el que sale la corriente.</li>
-<li><strong>Puerta</strong> (Gate, letra G): terminal de control por tensión.</li>
+<dt>The three terminals of a mosfet transistor are:</dt><dd><ul class="simple">
+<li><strong>Drain</strong> (Drain, letter D): terminal through which the current enters.</li>
+<li><strong>Source</strong> (Source, letter S): terminal through which the current comes out.</li>
+<li><strong>Door</strong> (Gate, letter G): voltage control terminal.</li>
 </ul>
 </dd>
 </dl>
-<p>Existen dos tipos de mosfet, los de canal Negativo y los de canal Positivo.
-Los más frecuentes son los de canal N (Negativo) porque conducen mucho
-mejor la electricidad que sus versiones de canal P (Positivo).</p>
+<p>There are two types of mosfets, those with Negative channel and those with Positive channel. The most common are the N (Negative) channel because they conduct electricity much better than their P (Positive) channel versions.</p>
 <div class="section" id="ventajas">
-<h2>Ventajas<a class="headerlink" href="#ventajas" title="Permalink to this headline">¶</a></h2>
-<p>El mosfet es un transistor que no necesita un aporte de corriente constante
-en su terminal de control para poder funcionar, funciona a una velocidad
-mucho mayor que el transistor bipolar y es capaz de conducir grandes
-corrientes con caídas de tensión muy bajas entre sus terminales.</p>
-<p>Todas estas ventajas de los mosfet han favorecido que poco a poco hayan
-sustituido a los transistores bipolares en todo tipo de circuitos
-analógicos y digitales.</p>
-<p>Los transistores bipolares por su parte tienen una gran resistencia a las
-descargas electrostáticas y son baratos, lo que les hace preferibles
-todavía en ciertas aplicaciones.</p>
+<h2>Advantages<a class="headerlink" href="#ventajas" title="Permalink to this headline">¶</a></h2>
+<p>The mosfet is a transistor that does not need a constant current input at its control terminal in order to function, it works at a much higher speed than the bipolar transistor and is capable of conducting large currents with very low voltage drops between its terminals.</p>
+<p>All these advantages of mosfets have helped them gradually replace bipolar transistors in all types of analog and digital circuits.</p>
+<p>Bipolar transistors, for their part, have great resistance to electrostatic discharges and are cheap, which makes them still preferable in certain applications.</p>
 </div>
 <div class="section" id="simulacion">
-<h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>En la siguiente simulación se han sustituido dos transistores bipolares
-Darlington por un transistor mosfet de canal N con ventaja.</p>
+<h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>In the following simulation, two Darlington bipolar transistors have been replaced by an N-channel mosfet transistor with advantage.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=mosfet-n-lamp.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Dibuja un esquema simplificado de un transistor mosfet de canal N, con
-la letra de todos sus terminales. ¿Qué significa cada letra?</li>
-<li>Dibuja un esquema realista de un transistor mosfet trabajando como
-un interruptor controlado por tensión que enciende y apaga una lámpara.</li>
-<li>¿Qué función realiza un transistor mosfet?</li>
-<li>Enumera tres ventajas de los transistores mosfet respecto a los
-transistores bipolares.</li>
-<li>En la simulación anterior, mide la tensión entre los terminales de
-drenador y fuente del mosfet cuando la lámpara está encendida.
-¿Qué tensión tienen?</li>
-<li>Añade a la simulación anterior un circuito semejante que utilice dos
-transistores Darlington en vez de un mosfet.
-¿Qué tensión tienen entre colector y emisor cuando la lámpara está
-encendida?</li>
+<li>Draw a simplified schematic of an N-channel mosfet transistor, with the letter of all its terminals. What does each letter mean?</li>
+<li>Draw a realistic schematic of a mosfet transistor working as a voltage controlled switch that turns a lamp on and off.</li>
+<li>What function does a mosfet transistor perform?</li>
+<li>List three advantages of mosfet transistors over bipolar transistors.</li>
+<li>In the simulation above, it measures the voltage between the drain and source terminals of the mosfet when the lamp is on. What voltage do they have?</li>
+<li>Add to the previous simulation a similar circuit that uses two Darlington transistors instead of a mosfet. What voltage is between collector and emitter when the lamp is on?</li>
 </ol>
 </div>
 </div>
@@ -171,10 +151,10 @@ encendida?</li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-operational.html" class="btn btn-neutral float-right" title="15. El amplificador operacional" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-operational.html" class="btn btn-neutral float-right" title="15. The operational amplifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-bjt-current.html" class="btn btn-neutral" title="13. La fuente de corriente" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-bjt-current.html" class="btn btn-neutral" title="13. The current source" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -199,7 +179,7 @@ encendida?</li>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -261,35 +241,35 @@ encendida?</li>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

@@ -1,181 +1,198 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2023 por Carlos Pardo Martín
-# This file is distributed under the same license as the Tecno Recursos
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Tecno Recursos 2023\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 19:19+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-11-08 19:19+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-bjt-common-e.rst:9
 msgid "El transistor en emisor común"
-msgstr ""
-
+msgstr "The common emitter transistor"
 #: ../../source/electronic-bjt-common-e.rst:10
 msgid ""
 "En esta configuración el transistor tiene el emisor conectado a masa. La "
 "señal de entrada llega por la base del transistor y la señal amplificada "
 "sale por el colector del transistor."
 msgstr ""
-
+"In this configuration the transistor has the emitter connected to ground. "
+"The input signal arrives through the base of the transistor and the "
+"amplified signal exits through the collector of the transistor."
 #: ../../source/electronic-bjt-common-e.rst:19
 msgid "Esquema simplificado de un transistor NPN en emisor común."
-msgstr ""
-
+msgstr "Simplified diagram of a common emitter NPN transistor."
 #: ../../source/electronic-bjt-common-e.rst:21
 msgid ""
-"Esta configuración permite amplificar tanto la tensión de entrada como la"
-" corriente de entrada. Esto es útil en etapas amplificadoras de entrada e"
-" intermedias, donde es necesario elevar tanto la tensión como la "
-"corriente de la señal de entrada."
+"Esta configuración permite amplificar tanto la tensión de entrada como la "
+"corriente de entrada. Esto es útil en etapas amplificadoras de entrada e "
+"intermedias, donde es necesario elevar tanto la tensión como la corriente de"
+" la señal de entrada."
 msgstr ""
-
+"This configuration allows both the input voltage and the input current to be"
+" amplified. This is useful in input and intermediate amplifier stages, where"
+" it is necessary to boost both the voltage and current of the input signal."
 #: ../../source/electronic-bjt-common-e.rst:26
 msgid ""
 "A continuación puede verse una simulación de un transistor NPN en "
-"configuración de emisor común. El transistor amplifica una pequeña señal "
-"que entra por la base generando una señal mucho mayor que sale por el "
-"colector."
+"configuración de emisor común. El transistor amplifica una pequeña señal que"
+" entra por la base generando una señal mucho mayor que sale por el colector."
 msgstr ""
-
+"Below you can see a simulation of an NPN transistor in common emitter "
+"configuration. The transistor amplifies a small signal that enters through "
+"the base, generating a much larger signal that comes out through the "
+"collector."
 #: ../../source/electronic-bjt-common-e.rst:37
 msgid "La función de cada uno de los componentes es la siguiente:"
-msgstr ""
-
+msgstr "The function of each of the components is the following:"
 #: ../../source/electronic-bjt-common-e.rst:39
 msgid ""
 "El **generador de señal alterna** genera una pequeña señal de entrada de "
 "0.25 voltios de pico."
 msgstr ""
-
+"The **alternating signal generator** generates a small input signal of 0.25 "
+"volts peak."
 #: ../../source/electronic-bjt-common-e.rst:42
 msgid ""
-"La **resistencia R1** tiene como función limitar la corriente de entrada "
-"a un valor pequeño, que en este caso varía entre 40 y 80 microamperios."
+"La **resistencia R1** tiene como función limitar la corriente de entrada a "
+"un valor pequeño, que en este caso varía entre 40 y 80 microamperios."
 msgstr ""
-
+"The function of **resistor R1** is to limit the input current to a small "
+"value, which in this case varies between 40 and 80 microampere."
 #: ../../source/electronic-bjt-common-e.rst:45
 msgid ""
-"La **resistencia R2** añade a la base una pequeña corriente continua para"
-" que el transistor pueda funcionar. Esta corriente positiva que se suma "
-"en la base se denomina **corriente de polarización**."
+"La **resistencia R2** añade a la base una pequeña corriente continua para "
+"que el transistor pueda funcionar. Esta corriente positiva que se suma en la"
+" base se denomina **corriente de polarización**."
 msgstr ""
-
+"**Resistor R2** adds a small direct current to the base so that the "
+"transistor can operate. This positive current that is added at the base is "
+"called **bias current**."
 #: ../../source/electronic-bjt-common-e.rst:50
 msgid ""
-"Hay que tener en cuenta que el transistor solo puede amplificar "
-"corrientes positivas, por lo que es necesario sumar una pequeña corriente"
-" positiva a la corriente alterna de entrada (positiva y negativa) para "
-"que el transistor funcione correctamente."
+"Hay que tener en cuenta que el transistor solo puede amplificar corrientes "
+"positivas, por lo que es necesario sumar una pequeña corriente positiva a la"
+" corriente alterna de entrada (positiva y negativa) para que el transistor "
+"funcione correctamente."
 msgstr ""
-
+"It must be taken into account that the transistor can only amplify positive "
+"currents, so it is necessary to add a small positive current to the input "
+"alternating current (positive and negative) for the transistor to work "
+"correctly."
 #: ../../source/electronic-bjt-common-e.rst:55
 msgid ""
-"El **transistor NPN** recibe una pequeña corriente por la base y "
-"amplifica esa corriente para que circule, multiplicada, por el colector."
+"El **transistor NPN** recibe una pequeña corriente por la base y amplifica "
+"esa corriente para que circule, multiplicada, por el colector."
 msgstr ""
-
+"The **NPN transistor** receives a small current through the base and "
+"amplifies that current so that it circulates, multiplied, through the "
+"collector."
 #: ../../source/electronic-bjt-common-e.rst:58
 msgid ""
 "La **resistencia R3** recibe la corriente de colector y la convierte en "
 "tensión de salida."
 msgstr ""
-
+"**Resistor R3** receives the collector current and converts it into output "
+"voltage."
 #: ../../source/electronic-bjt-common-e.rst:61
 msgid ""
-"Por esta resistencia circulará unas 100 veces la corriente que circula "
-"por la base del transistor."
+"Por esta resistencia circulará unas 100 veces la corriente que circula por "
+"la base del transistor."
 msgstr ""
-
+"About 100 times the current that flows through the base of the transistor "
+"will flow through this resistance."
 #: ../../source/electronic-bjt-common-e.rst:66
 msgid "Ejercicios"
-msgstr ""
-
+msgstr "Exercises"
 #: ../../source/electronic-bjt-common-e.rst:68
 msgid ""
 "Dibuja un esquema simplificado de un transistor NPN trabajando en "
-"configuración de emisor común, mostrando por dónde llega la señal de "
-"entrada y por dónde sale la señal amplificada."
+"configuración de emisor común, mostrando por dónde llega la señal de entrada"
+" y por dónde sale la señal amplificada."
 msgstr ""
-
+"Draw a simplified schematic of an NPN transistor working in a common-emitter"
+" configuration, showing where the input signal arrives and where the "
+"amplified signal leaves."
 #: ../../source/electronic-bjt-common-e.rst:72
 msgid ""
-"Dibuja un esquema realista de un transistor NPN trabajando en "
-"configuración de emisor común."
+"Dibuja un esquema realista de un transistor NPN trabajando en configuración "
+"de emisor común."
 msgstr ""
-
+"Draw a realistic schematic of an NPN transistor working in common emitter "
+"configuration."
 #: ../../source/electronic-bjt-common-e.rst:75
 msgid ""
-"¿Cuál es la función principal de un transistor funcionando en "
-"configuración de emisor común?"
+"¿Cuál es la función principal de un transistor funcionando en configuración "
+"de emisor común?"
 msgstr ""
-
+"What is the main function of a transistor operating in common emitter "
+"configuration?"
 #: ../../source/electronic-bjt-common-e.rst:78
 msgid ""
 "Modifica la resistencia de polarización R2 para que valga 40k. Dibuja la "
 "gráfica de la tensión de salida."
 msgstr ""
-
+"Modify the bias resistor R2 to be 40k. Draw the graph of the output voltage."
 #: ../../source/electronic-bjt-common-e.rst:81
 msgid "¿Qué le ocurre a la tensión de salida al reducir R2?"
-msgstr ""
-
+msgstr "What happens to the output voltage when R2 is reduced?"
 #: ../../source/electronic-bjt-common-e.rst:83
 msgid ""
 "Modifica la resistencia de polarización R2 para que valga 80k. Dibuja la "
 "gráfica de la tensión de salida."
 msgstr ""
-
+"Modify the bias resistor R2 to be 80k. Draw the graph of the output voltage."
 #: ../../source/electronic-bjt-common-e.rst:86
 msgid "¿Qué le ocurre a la tensión de salida al aumentar R2?"
-msgstr ""
-
+msgstr "What happens to the output voltage as R2 increases?"
 #: ../../source/electronic-bjt-common-e.rst:88
 msgid ""
-"Modifica el diseño del amplificador en emisor común en el simulador para "
-"que pueda amplificar una señal de entrada senoidal de 1 voltio hasta una "
-"señal de salida de, al menos, 4 voltios."
+"Modifica el diseño del amplificador en emisor común en el simulador para que"
+" pueda amplificar una señal de entrada senoidal de 1 voltio hasta una señal "
+"de salida de, al menos, 4 voltios."
 msgstr ""
-
+"Modify the design of the common-emitter amplifier in the simulator so that "
+"it can amplify a 1-volt sine input signal to an output signal of at least 4 "
+"volts."
 #: ../../source/electronic-bjt-common-e.rst:92
 msgid ""
-"Primero será necesario cambiar el generador de señal senoidal con el "
-"valor de un voltio."
+"Primero será necesario cambiar el generador de señal senoidal con el valor "
+"de un voltio."
 msgstr ""
-
+"First it will be necessary to change the sine signal generator with the "
+"value of one volt."
 #: ../../source/electronic-bjt-common-e.rst:95
 msgid ""
-"Después se debe modificar la resistencia de salida R3 por otra menor para"
-" que la señal de salida varíe solo 4 voltios."
+"Después se debe modificar la resistencia de salida R3 por otra menor para "
+"que la señal de salida varíe solo 4 voltios."
 msgstr ""
-
+"Afterwards, the output resistance R3 must be modified to a smaller one so "
+"that the output signal varies by only 4 volts."
 #: ../../source/electronic-bjt-common-e.rst:98
 msgid ""
-"Finalmente se debe modificar la resistencia de polarización R2 para que "
-"la señal de salida no esté recortada."
+"Finalmente se debe modificar la resistencia de polarización R2 para que la "
+"señal de salida no esté recortada."
 msgstr ""
-
+"Finally, the bias resistor R2 must be modified so that the output signal is "
+"not clipped."
 #: ../../source/electronic-bjt-common-e.rst:101
 msgid ""
 "Aprovecha las señales del osciloscopio derecho para guiarte a la hora de "
 "modificar los valores de las resistencias."
 msgstr ""
-
+"Take advantage of the signals from the right oscilloscope to guide you when "
+"modifying the resistor values."
 #: ../../source/electronic-bjt-common-e.rst:104
 msgid ""
 "Explica para qué sirve la resistencia R3. ¿Qué ocurre si la resistencia "
 "aumenta? ¿Qué ocurre si la resistencia disminuye?"
 msgstr ""
-
+"Explain what resistor R3 is for. What happens if the resistance increases? "
+"What happens if the resistance decreases?"

@@ -1,187 +1,209 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2023 por Carlos Pardo Martín
-# This file is distributed under the same license as the Tecno Recursos
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Tecno Recursos 2023\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 19:19+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-11-08 19:19+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-diodo-rectificador.rst:9
 msgid "El diodo rectificador"
-msgstr ""
-
+msgstr "The rectifier diode"
 #: ../../source/electronic-diodo-rectificador.rst:10
 msgid ""
 "Los diodos rectificadores están especializados en convertir la corriente "
 "alterna en corriente continua que necesitan la mayoría de los aparatos "
 "electrónicos."
 msgstr ""
-
+"Rectifier diodes are specialized for converting alternating current into "
+"direct current needed by most electronic devices."
 #: ../../source/electronic-diodo-rectificador.rst:14
 msgid ""
 "Estos diodos pueden rectificar la corriente alterna que llega a nuestras "
-"casas, con tensiones relativamente altas (hasta 311 voltios de pico para "
-"una tensión alterna de 230 voltios eficaces)."
+"casas, con tensiones relativamente altas (hasta 311 voltios de pico para una"
+" tensión alterna de 230 voltios eficaces)."
 msgstr ""
-
+"These diodes can rectify the alternating current that reaches our homes, "
+"with relatively high voltages (up to 311 volts peak for an alternating "
+"voltage of 230 effective volts)."
 #: ../../source/electronic-diodo-rectificador.rst:18
 msgid ""
-"También se encuentran en los transformadores de alta frecuencia que "
-"utilizan casi todas las fuentes de alimentación de ordenadores, "
-"cargadores de teléfonos inteligentes y tabletas, televisiones, etc."
+"También se encuentran en los transformadores de alta frecuencia que utilizan"
+" casi todas las fuentes de alimentación de ordenadores, cargadores de "
+"teléfonos inteligentes y tabletas, televisiones, etc."
 msgstr ""
-
+"They are also found in high-frequency transformers that use almost all power"
+" supplies for computers, smartphone and tablet chargers, televisions, etc."
 #: ../../source/electronic-diodo-rectificador.rst:24
 msgid "Diodo rectificador de media onda"
-msgstr ""
-
+msgstr "Half wave rectifier diode"
 #: ../../source/electronic-diodo-rectificador.rst:25
 msgid ""
 "Este es el esquema más sencillo que se puede utilizar para convertir la "
-"corriente alterna en corriente continua. Este rectificador solo deja "
-"pasar el semiciclo positivo de la tensión alterna y bloquea el semiciclo "
-"negativo."
+"corriente alterna en corriente continua. Este rectificador solo deja pasar "
+"el semiciclo positivo de la tensión alterna y bloquea el semiciclo negativo."
 msgstr ""
-
+"This is the simplest scheme that can be used to convert alternating current "
+"to direct current. This rectifier only allows the positive half cycle of the"
+" alternating voltage to pass and blocks the negative half cycle."
 #: ../../source/electronic-diodo-rectificador.rst:30
 msgid ""
 "Este esquema tiene el inconveniente de que la corriente de salida es "
 "pulsante y se desperdicia la mitad de la tensión de entrada."
 msgstr ""
-
+"This scheme has the drawback that the output current is pulsating and half "
+"of the input voltage is wasted."
 #: ../../source/electronic-diodo-rectificador.rst:41
 msgid "Diodo rectificador de onda completa"
-msgstr ""
-
+msgstr "Full wave rectifier diode"
 #: ../../source/electronic-diodo-rectificador.rst:42
 msgid ""
-"Este esquema consigue transformar tanto los semiciclos positivos como los"
-" semiciclos negativos de la tensión de entrada en tensión positiva a la "
+"Este esquema consigue transformar tanto los semiciclos positivos como los "
+"semiciclos negativos de la tensión de entrada en tensión positiva a la "
 "salida."
 msgstr ""
-
+"This scheme manages to transform both the positive half-cycles and the "
+"negative half-cycles of the input voltage into positive voltage at the "
+"output."
 #: ../../source/electronic-diodo-rectificador.rst:46
 msgid ""
-"Para poder funcionar utiliza dos diodos por cada línea de corriente "
-"alterna. En sistemas trifásicos, con tres líneas de tensión, se utilizan "
-"seis diodos en total para rectificar la tensión."
+"Para poder funcionar utiliza dos diodos por cada línea de corriente alterna."
+" En sistemas trifásicos, con tres líneas de tensión, se utilizan seis diodos"
+" en total para rectificar la tensión."
 msgstr ""
-
+"In order to function, it uses two diodes for each alternating current line. "
+"In three-phase systems, with three voltage lines, six diodes in total are "
+"used to rectify the voltage."
 #: ../../source/electronic-diodo-rectificador.rst:50
 msgid ""
-"En las siguientes simulaciones se pueden ver dos configuraciones de "
-"diodos. Ambas son eléctricamente equivalentes y solo se diferencian en la"
-" posición de los diodos en el dibujo."
+"En las siguientes simulaciones se pueden ver dos configuraciones de diodos. "
+"Ambas son eléctricamente equivalentes y solo se diferencian en la posición "
+"de los diodos en el dibujo."
 msgstr ""
-
+"In the following simulations you can see two diode configurations. Both are "
+"electrically equivalent and only differ in the position of the diodes in the"
+" drawing."
 #: ../../source/electronic-diodo-rectificador.rst:68
 msgid "Diodo rectificador con filtro"
-msgstr ""
-
+msgstr "Rectifier diode with filter"
 #: ../../source/electronic-diodo-rectificador.rst:69
 msgid ""
 "El rectificador de onda completa consigue aprovechar toda la tensión "
-"alterna, pero todavía hay valles de tensión en los que la salida vale "
-"cero. Si queremos tener tensión continua a la salida, podemos utilizar un"
-" condensador que va a almacenar suficiente carga eléctrica para poder "
-"alimentar la carga de salida durante el tiempo que la tensión rectificada"
-" tiene valores bajos de tensión."
+"alterna, pero todavía hay valles de tensión en los que la salida vale cero. "
+"Si queremos tener tensión continua a la salida, podemos utilizar un "
+"condensador que va a almacenar suficiente carga eléctrica para poder "
+"alimentar la carga de salida durante el tiempo que la tensión rectificada "
+"tiene valores bajos de tensión."
 msgstr ""
-
+"The full wave rectifier manages to take advantage of all the alternating "
+"voltage, but there are still voltage valleys in which the output is zero. If"
+" we want to have direct voltage at the output, we can use a capacitor that "
+"will store enough electrical charge to be able to power the output load "
+"during the time that the rectified voltage has low voltage values."
 #: ../../source/electronic-diodo-rectificador.rst:76
 msgid ""
-"Este es un circuito muy usado en las fuentes de alimentación de todo tipo"
-" de aparatos electrónicos. Es interesante comprobar cómo la corriente que"
-" absorbe del generador de alterna es una corriente pulsante. Esto produce"
-" distorsiones en la corriente de la red de alimentación eléctrica al "
-"sumarse el efecto de múltiples aparatos electrónicos de muchos hogares."
+"Este es un circuito muy usado en las fuentes de alimentación de todo tipo de"
+" aparatos electrónicos. Es interesante comprobar cómo la corriente que "
+"absorbe del generador de alterna es una corriente pulsante. Esto produce "
+"distorsiones en la corriente de la red de alimentación eléctrica al sumarse "
+"el efecto de múltiples aparatos electrónicos de muchos hogares."
 msgstr ""
-
+"This is a circuit widely used in the power supplies of all types of "
+"electronic devices. It is interesting to see how the current absorbed by the"
+" AC generator is a pulsating current. This produces distortions in the "
+"current of the electrical power network by adding the effect of multiple "
+"electronic devices in many homes."
 #: ../../source/electronic-diodo-rectificador.rst:91
 msgid "Ejercicios"
-msgstr ""
-
+msgstr "Exercises"
 #: ../../source/electronic-diodo-rectificador.rst:93
 msgid ""
 "Dibuja un circuito rectificador de media onda que rectifique la tensión "
 "alterna de 230 voltios y que alimente a una resistencia de 100 ohmios."
 msgstr ""
-
+"Draw a half-wave rectifier circuit that rectifies the 230-volt alternating "
+"voltage and feeds a 100-ohm resistor."
 #: ../../source/electronic-diodo-rectificador.rst:97
 #: ../../source/electronic-diodo-rectificador.rst:106
 msgid ""
-"Dibuja debajo del circuito la forma de onda de la tensión en la "
-"resistencia."
+"Dibuja debajo del circuito la forma de onda de la tensión en la resistencia."
 msgstr ""
-
+"Draw the waveform of the voltage across the resistor below the circuit."
 #: ../../source/electronic-diodo-rectificador.rst:100
 msgid ""
 "Recuerda que en el simulador la gráfica verde representa la tensión y la "
 "gráfica amarilla representa la corriente."
 msgstr ""
-
+"Remember that in the simulator the green graph represents the voltage and "
+"the yellow graph represents the current."
 #: ../../source/electronic-diodo-rectificador.rst:103
 msgid ""
-"Dibuja un circuito rectificador de onda completa basado en los valores "
-"del ejercicio anterior."
+"Dibuja un circuito rectificador de onda completa basado en los valores del "
+"ejercicio anterior."
 msgstr ""
-
+"Draw a full-wave rectifier circuit based on the values ​​from the previous "
+"exercise."
 #: ../../source/electronic-diodo-rectificador.rst:109
 msgid ""
 "Realiza en el `simulador de circuitos "
 "<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ un "
-"rectificador de onda completa de una línea trifásica como el que aparece "
-"en la siguiente imagen."
+"rectificador de onda completa de una línea trifásica como el que aparece en "
+"la siguiente imagen."
 msgstr ""
-
+"In the `circuit simulator "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__, make a full-"
+"wave rectifier for a three-phase line like the one shown in the following "
+"image."
 #: ../../source/electronic-diodo-rectificador.rst:120
 msgid ""
-"El generador de arriba debe tener un 'Desplazamiento de Fase' de 0 grados"
-" (no hay que cambiarlo). El generador de en medio debe tener un "
-"'Desplazamiento de Fase' de 120 grados. El generador de abajo debe tener "
-"un 'Desplazamiento de Fase' de 240 grados."
+"El generador de arriba debe tener un 'Desplazamiento de Fase' de 0 grados "
+"(no hay que cambiarlo). El generador de en medio debe tener un "
+"'Desplazamiento de Fase' de 120 grados. El generador de abajo debe tener un "
+"'Desplazamiento de Fase' de 240 grados."
 msgstr ""
-
+"The generator above should have a 'Phase Shift' of 0 degrees (no need to "
+"change it). The middle generator should have a 'Phase Shift' of 120 degrees."
+" The generator below should have a 'Phase Shift' of 240 degrees."
 #: ../../source/electronic-diodo-rectificador.rst:127
 msgid ""
 "Dibuja la forma de onda de la tensión de salida en la resistencia. ¿Qué "
-"puedes decir sobre la forma de onda en comparación con la forma de onda "
-"de un circuito monofásico como el del anterior ejercicio?"
+"puedes decir sobre la forma de onda en comparación con la forma de onda de "
+"un circuito monofásico como el del anterior ejercicio?"
 msgstr ""
-
+"Draw the waveform of the output voltage across the resistor. What can you "
+"say about the waveform compared to the waveform of a single-phase circuit "
+"like the one in the previous exercise?"
 #: ../../source/electronic-diodo-rectificador.rst:133
 msgid "Modifica el condensador del circuito 'diodo rectificador con filtro'."
-msgstr ""
-
+msgstr "Modify the capacitor of the 'rectifier diode with filter' circuit."
 #: ../../source/electronic-diodo-rectificador.rst:135
 msgid ""
 "Cambia el valor del condensador a **50uF**. ¿Qué cambios ocurren en la "
 "tensión de salida y la corriente del generador?"
 msgstr ""
-
+"Change the value of the capacitor to **50uF**. What changes occur in the "
+"output voltage and current of the generator?"
 #: ../../source/electronic-diodo-rectificador.rst:138
 msgid ""
 "Cambia el valor del condensador a **800uF**. ¿Qué cambios ocurren en la "
 "tensión de salida y la corriente del generador?"
 msgstr ""
-
+"Change the value of the capacitor to **800uF**. What changes occur in the "
+"output voltage and current of the generator?"
 #: ../../source/electronic-diodo-rectificador.rst:141
 msgid ""
-"Teniendo en cuenta que un condensador grande produce menos variación en "
-"la tensión de salida y que esto es deseable. ¿Por qué crees que no se "
-"utilizan condensadores grandes en este tipo de circuitos?"
+"Teniendo en cuenta que un condensador grande produce menos variación en la "
+"tensión de salida y que esto es deseable. ¿Por qué crees que no se utilizan "
+"condensadores grandes en este tipo de circuitos?"
 msgstr ""
-
+"Taking into account that a large capacitor produces less variation in the "
+"output voltage and that this is desirable. Why do you think large capacitors"
+" are not used in these types of circuits?"

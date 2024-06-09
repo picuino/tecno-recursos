@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 5. El diodo led">
-  <title>5. El diodo led - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 5. The LED diode">
+  <title>5. The LED diode - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="6. El transistor" href="electronic-bjt.html">
-  <link rel="prev" title="4. El diodo zener" href="electronic-diodo-zener.html">
+  <link rel="next" title="6. The transistor" href="electronic-bjt.html">
+  <link rel="prev" title="4. The zener diode" href="electronic-diodo-zener.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">5. </span>El diodo led</li>
+      <li><span class="section-number">5. </span>The LED diode</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,74 +102,52 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-diodo-led">
-<span id="electronic-diodo-led"></span><h1><span class="section-number">5. </span>El diodo led<a class="headerlink" href="#el-diodo-led" title="Permalink to this headline">¶</a></h1>
-<p>El <a class="reference external" href="https://es.wikipedia.org/wiki/Led" rel="noopener noreferrer" target="_blank">diodo led</a>
-es un diodo emisor de luz (Light Emitting Diode).
-Existen versiones de varios colores, desde los led infrarrojos de los
-mandos a distancia hasta los led ultravioletas de las lámparas de curado
-de resina plástica que utilizan los dentistas.</p>
+<span id="electronic-diodo-led"></span><h1><span class="section-number">5. </span>The LED diode<a class="headerlink" href="#el-diodo-led" title="Permalink to this headline">¶</a></h1>
+<p>The <a class="reference external" href="https://es.wikipedia.org/wiki/Led" rel="noopener noreferrer" target="_blank">LED diode</a> is a light emitting diode (Light Emitting Diode). There are versions of various colors, from the infrared LEDs in remote controls to the ultraviolet LEDs in the plastic resin curing lamps used by dentists.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-led-symbol.png"><img alt="Símbolo del diodo led." src="_images/electronic-analog-led-symbol.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Símbolo del diodo led.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">LED diode symbol.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-center" id="id2">
 <a class="reference internal image-reference" href="_images/electronic-led-traffic-light.jpg"><img alt="Semáforo basado en ledes de colores." src="_images/electronic-led-traffic-light.jpg" style="width: 160px;"></a>
-<p class="caption"><span class="caption-text">Semáforo basado en ledes de colores.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Traffic light based on colored LEDs.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>En todas partes podemos ver ledes de colores rojo, verde o azul haciendo
-la función de pilotos en todo tipo de aparatos electrónicos o en semáforos.</p>
-<p>Los ledes blancos se han hecho cada vez más eficientes, sustituyendo
-hace años a las lámparas tradicionales de filamento incandescente.</p>
-<p>Los ledes se basan en una tecnología que todavía hoy en día está
-progresando, por ejemplo, en las pantallas
-<a class="reference external" href="https://es.wikipedia.org/wiki/Diodo_org%C3%A1nico_de_emisi%C3%B3n_de_luz" rel="noopener noreferrer" target="_blank">OLED</a>
-de los televisores y teléfonos inteligentes de última generación.</p>
+<p>Everywhere we can see red, green or blue LEDs acting as pilot lights in all types of electronic devices or in traffic lights.</p>
+<p>White LEDs have become increasingly more efficient, replacing traditional incandescent filament lamps years ago.</p>
+<p>LEDs are based on a technology that is still progressing today, for example, in the <a class="reference external" href="https://es.wikipedia.org/wiki/Diodo_org%C3%A1nico_de_emisi%C3%B3n_de_luz" rel="noopener noreferrer" target="_blank">OLED</a> screens of the latest generation televisions and smartphones.</p>
 <div class="section" id="polarizacion-del-led">
-<h2>Polarización del led<a class="headerlink" href="#polarizacion-del-led" title="Permalink to this headline">¶</a></h2>
-<p>Normalmente los ledes tienen una tensión fija de funcionamiento que no se
-puede sobrepasar y que es menor que la tensión de alimentación.
-Para evitar que el led se queme, debemos insertar una resistencia en serie
-que limitará su corriente de funcionamiento.</p>
-<p>En la siguiente simulación podemos ver un esquema de una linterna led
-basada en tres pilas en serie de 1.5 voltios y en un led blanco de 3
-voltios de tensión de trabajo con una corriente de 50 miliamperios.
-La resistencia de polarización es de 30 ohmios.</p>
+<h2>LED polarization<a class="headerlink" href="#polarizacion-del-led" title="Permalink to this headline">¶</a></h2>
+<p>Normally LEDs have a fixed operating voltage that cannot be exceeded and is lower than the supply voltage. To prevent the LED from burning out, we must insert a resistor in series that will limit its operating current.</p>
+<p>In the following simulation we can see a diagram of an LED flashlight based on three 1.5 volt batteries in series and a white LED of 3 volts working voltage with a current of 50 milliamps. The bias resistance is 30 ohms.</p>
 <div class="figure align-center" id="id3">
 <a class="reference internal image-reference" href="_images/electronic-pcb-luces-led-08t.jpg"><img alt="Led blanco de 5mm." src="_images/electronic-pcb-luces-led-08t.jpg" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Led blanco cilíndrico de 5 milímetros de diámetro.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Cylindrical white LED, 5 millimeters in diameter.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=diode-led-white.txt"></iframe>
 </div></div>
 <div class="section" id="calculo-de-la-resistencia-de-polarizacion">
-<h2>Cálculo de la resistencia de polarización<a class="headerlink" href="#calculo-de-la-resistencia-de-polarizacion" title="Permalink to this headline">¶</a></h2>
-<p>Para calcular la resistencia necesaria que polarice el led correctamente
-hay que utilizar la siguiente fórmula:</p>
+<h2>Polarization resistance calculation<a class="headerlink" href="#calculo-de-la-resistencia-de-polarizacion" title="Permalink to this headline">¶</a></h2>
+<p>To calculate the necessary resistance to polarize the LED correctly, you must use the following formula:</p>
 <div class="math">
 <p><img src="_images/math/2c3a61c3e9373cbeebe75f8ba7b7b017b8ac819e.svg" alt="R = \cfrac{V_{cc} - V_{led}}{I_{led}}"></p>
-</div><p>Donde las variables son:</p>
+</div><p>Where the variables are:</p>
 <blockquote>
-<div><p>R = Resistencia de polarización del led en ohmios [Ω].</p>
-<p>V_cc = Tensión de alimentación en voltios [V].</p>
-<p>V_led = Tensión de trabajo del diodo led en voltios [V].</p>
-<p>I_led = Corriente de trabajo del diodo led en amperios [A].</p>
+<div><p>R = LED polarization resistance in ohms [Ω].</p>
+<p>V_cc = Supply voltage in volts [V].</p>
+<p>V_led = Working voltage of the LED diode in volts [V].</p>
+<p>I_led = Working current of the LED diode in amperes [A].</p>
 </div></blockquote>
 <dl class="docutils">
-<dt>Ejemplo 1:</dt><dd><p>Necesitamos calcular la resistencia de polarización de led verde
-de un teclado de ordenador. Su tensión de trabajo es de 2.2 Voltios
-su corriente de trabajo es de 10 miliamperios y la tensión de
-alimentación es de 5 voltios.</p>
-<p>Aplicando la fórmula:</p>
+<dt>Example 1:</dt><dd><p>We need to calculate the bias resistance of green LED of a computer keyboard. Its working voltage is 2.2 Volts, its working current is 10 milliamps and the supply voltage is 5 volts.</p>
+<p>Applying the formula:</p>
 <div class="math">
 <p><img src="_images/math/2c3a61c3e9373cbeebe75f8ba7b7b017b8ac819e.svg" alt="R = \cfrac{V_{cc} - V_{led}}{I_{led}}"></p>
 </div><div class="math">
 <p><img src="_images/math/bcc618e3d6c70fdb59acc7ffef2efa88912f576f.svg" alt="R = \cfrac{5 - 2.2}{0.010} = 280 \Omega"></p>
 </div></dd>
-<dt>Ejemplo 2:</dt><dd><p>Necesitamos calcular la resistencia de polarización del led blanco
-que ilumina una pantalla de teléfono inteligente.
-Su tensión de trabajo es de 3 voltios, su corriente de trabajo es de
-150 miliamperios y la tensión de alimentación es de 3.6 voltios.</p>
-<p>Aplicando la fórmula:</p>
+<dt>Example 2:</dt><dd><p>We need to calculate the bias resistance of the white LED that illuminates a smartphone screen. Its working voltage is 3 volts, its working current is 150 milliamps and the supply voltage is 3.6 volts.</p>
+<p>Applying the formula:</p>
 <div class="math">
 <p><img src="_images/math/2c3a61c3e9373cbeebe75f8ba7b7b017b8ac819e.svg" alt="R = \cfrac{V_{cc} - V_{led}}{I_{led}}"></p>
 </div><div class="math">
@@ -178,44 +156,25 @@ Su tensión de trabajo es de 3 voltios, su corriente de trabajo es de
 </dl>
 </div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja el esquema eléctrico de una linterna con diodo led.
-Utiliza el símbolo que aparece al comienzo de la unidad, con dos
-flechas que indican la salida de luz del diodo.</p>
+<li><p class="first">Draw the electrical diagram of a flashlight with an LED diode. Use the symbol at the beginning of the unit, with two arrows indicating the light output of the diode.</p>
 </li>
-<li><p class="first">Calcula la resistencia de polarización del led rojo de un ratón
-sabiendo que la tensión de trabajo es de 1.8 voltios,
-la corriente de trabajo es de 16 miliamperios y
-la tensión de alimentación es de 5 voltios.</p>
-<p>Comprueba con el
-<a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">simulador de circuitos</a>
-que el cálculo es correcto.</p>
-<p>No olvides <strong>cambiar la tensión de funcionamiento del led</strong>,
-editando el led... Create New Simple Model...
-Forward Voltage 1.8 ... Current At Above Voltage (A) 0.016 ... OK.</p>
+<li><p class="first">Calculate the polarization resistance of the red LED of a mouse knowing that the working voltage is 1.8 volts, the working current is 16 milliamps and the supply voltage is 5 volts.</p>
+<p>Check with the <a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">circuit simulator</a> that the calculation is correct.</p>
+<p>Don't forget to <strong>change the operating voltage of the LED</strong>, editing the LED... Create New Simple Model... Forward Voltage 1.8 ... Current At Above Voltage (A) 0.016 ... OK.</p>
 </li>
-<li><p class="first">Calcula la resistencia de polarización de un piloto de automóvil
-compuesto por dos ledes en serie blancos que tienen una tensión de
-trabajo de 3 voltios cada uno y una corriente de trabajo de
-20 miliamperios. La tensión de alimentación es de 12 voltios.</p>
-<p>Comprueba con el
-<a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">simulador de circuitos</a>
-que el cálculo es correcto.</p>
-<p>No olvides <strong>cambiar la tensión de funcionamiento de los ledes</strong>,
-editando cada led... Create New Simple Model...
-Forward Voltage 3.0 ... Current At Above Voltage (A) 0.020 ... OK.</p>
+<li><p class="first">Calculate the polarization resistance of a car light composed of two white LEDs in series that have a working voltage of 3 volts each and a working current of 20 milliamps. The supply voltage is 12 volts.</p>
+<p>Check with the <a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">circuit simulator</a> that the calculation is correct.</p>
+<p>Don't forget to <strong>change the operating voltage of the LEDs</strong>, editing each LED... Create New Simple Model... Forward Voltage 3.0 ... Current At Above Voltage (A) 0.020 ... OK.</p>
 </li>
 </ol>
 </div>
 <div class="section" id="ampliacion">
-<h2>Ampliación<a class="headerlink" href="#ampliacion" title="Permalink to this headline">¶</a></h2>
+<h2>Extension<a class="headerlink" href="#ampliacion" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Busca información sobre la multiplexación de ledes en ánodo común
-y en cátodo común, muy utilizada en displays de 7 segmentos.</li>
-<li>Aprende qué es la conexión de ledes con la técnica de
-<a class="reference external" href="http://electrocirc.blogspot.com/2012/05/tecnica-charlieplexing-para-controlar.html" rel="noopener noreferrer" target="_blank">charlieplexing</a>
-para encender múltiples ledes con pocas líneas de control.</li>
+<li>Look for information on the multiplexing of LEDs in common anode and common cathode, widely used in 7-segment displays.</li>
+<li>Learn what connecting LEDs is with the <a class="reference external" href="http://electrocirc.blogspot.com/2012/05/tecnica-charlieplexing-para-controlar.html" rel="noopener noreferrer" target="_blank">charlieplexing</a> technique to light multiple LEDs with few control lines.</li>
 </ol>
 </div>
 </div>
@@ -229,10 +188,10 @@ para encender múltiples ledes con pocas líneas de control.</li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-bjt.html" class="btn btn-neutral float-right" title="6. El transistor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-bjt.html" class="btn btn-neutral float-right" title="6. The transistor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-diodo-zener.html" class="btn btn-neutral" title="4. El diodo zener" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-diodo-zener.html" class="btn btn-neutral" title="4. The zener diode" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -257,7 +216,7 @@ para encender múltiples ledes con pocas líneas de control.</li>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -319,35 +278,35 @@ para encender múltiples ledes con pocas líneas de control.</li>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

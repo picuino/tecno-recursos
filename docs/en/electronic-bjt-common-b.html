@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 9. El transistor en base común">
-  <title>9. El transistor en base común - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 9. The common base transistor">
+  <title>9. The common base transistor - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="10. El esquema Darlington" href="electronic-bjt-darlington.html">
-  <link rel="prev" title="8. El transistor en colector común" href="electronic-bjt-common-c.html">
+  <link rel="next" title="10. The Darlington scheme" href="electronic-bjt-darlington.html">
+  <link rel="prev" title="8. The common collector transistor" href="electronic-bjt-common-c.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">9. </span>El transistor en base común</li>
+      <li><span class="section-number">9. </span>The common base transistor</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,77 +102,47 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-transistor-en-base-comun">
-<span id="electronic-bjt-common-b"></span><h1><span class="section-number">9. </span>El transistor en base común<a class="headerlink" href="#el-transistor-en-base-comun" title="Permalink to this headline">¶</a></h1>
-<p>En esta configuración el transistor tiene la base conectada a una tensión
-fija. La señal de entrada llega por el emisor del transistor
-y la señal amplificada sale por el colector del transistor.</p>
+<span id="electronic-bjt-common-b"></span><h1><span class="section-number">9. </span>The common base transistor<a class="headerlink" href="#el-transistor-en-base-comun" title="Permalink to this headline">¶</a></h1>
+<p>In this configuration the transistor has the base connected to a fixed voltage. The input signal arrives through the emitter of the transistor and the amplified signal exits through the collector of the transistor.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-common-b.png"><img alt="Esquema simplificado de un transistor NPN en base común." src="_images/electronic-analog-common-b.png" style="width: 200px;"></a>
-<p class="caption"><span class="caption-text">Esquema simplificado de un transistor NPN en base común.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Simplified diagram of a common base NPN transistor.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Esta configuración permite amplificar la tensión de entrada
-manteniendo la corriente igual.
-Este funcionamiento es útil en etapas de entrada de señal desde un
-componente que genere poca tensión, pero con corrientes relativamente altas.</p>
-<p>Un ejemplo de aplicación práctica es amplificar la señal inducida en una
-bobina. Por ejemplo, amplificar el sonido captado por un altavoz,
-convirtiendo el altavoz en un micrófono.</p>
-<p>A continuación puede verse una simulación de un transistor NPN en
-configuración de base común. El transistor amplifica una señal que entra
-por el emisor generando una señal con mucha mayor tensión que sale por el
-colector.</p>
+<p>This configuration allows the input voltage to be amplified while keeping the current the same. This operation is useful in signal input stages from a component that generates little voltage, but with relatively high currents.</p>
+<p>An example of a practical application is to amplify the signal induced in a coil. For example, amplifying the sound picked up by a speaker, turning the speaker into a microphone.</p>
+<p>Below you can see a simulation of an NPN transistor in common base configuration. The transistor amplifies a signal that enters through the emitter, generating a signal with much higher voltage that exits through the collector.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=bjt-common-b.txt"></iframe>
-</div><p>La función de cada uno de los componentes es la siguiente:</p>
+</div><p>The function of each of the components is the following:</p>
 <ul>
-<li><p class="first">El <strong>generador de señal alterna</strong> genera una pequeña señal de entrada
-de 0.1 voltios de pico.</p>
+<li><p class="first">The <strong>alternating signal generator</strong> generates a small input signal of 0.1 volts peak.</p>
 </li>
-<li><p class="first">Las <strong>resistencias R1 y R2</strong> mantienen una tensión fija en la base
-que <strong>polariza al transistor</strong> para que funcione siempre con corrientes
-positivas, a pesar de que la tensión de entrada sea tanto positiva
-como negativa.</p>
+<li><p class="first"><strong>Resistors R1 and R2</strong> maintain a fixed voltage at the base that <strong>biases the transistor</strong> so that it always works with positive currents, despite the input voltage being both positive and negative.</p>
 </li>
-<li><p class="first">El <strong>transistor NPN</strong> recibe una señal de pequeña tensión por
-el emisor, que produce una corriente en el emisor.
-El transistor transfiere esa corriente del emisor al colector, donde
-una resistencia convierte la corriente en una tensión mayor que la
-tensión de entrada.</p>
-<p>En esta etapa no hay amplificación de corriente, solo de tensión.</p>
+<li><p class="first">The <strong>NPN transistor</strong> receives a small voltage signal through the emitter, which produces a current in the emitter. The transistor transfers that current from the emitter to the collector, where a resistor converts the current into a voltage higher than the input voltage.</p>
+<p>At this stage there is no current amplification, only voltage amplification.</p>
 </li>
-<li><p class="first">La <strong>resistencia R3</strong> recibe la corriente del colector y la convierte
-en tensión de salida. Cuanto mayor sea esta resistencia, mayor
-será la tensión de salida y, por lo tanto, la amplificación de tensión
-de la etapa.</p>
+<li><p class="first"><strong>Resistor R3</strong> receives the collector current and converts it into output voltage. The higher this resistance, the higher the output voltage and therefore the voltage amplification of the stage.</p>
 </li>
 </ul>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja un esquema simplificado de un transistor NPN trabajando en
-configuración de base común, mostrando por dónde llega
-la señal de entrada y por dónde sale la señal amplificada.</p>
+<li><p class="first">Draw a simplified schematic of an NPN transistor working in common base configuration, showing where the input signal arrives and where the amplified signal leaves.</p>
 </li>
-<li><p class="first">Dibuja un esquema realista de un transistor NPN trabajando en
-configuración de base común.</p>
+<li><p class="first">Draw a realistic schematic of an NPN transistor working in common base configuration.</p>
 </li>
-<li><p class="first">¿Cuál es la función principal de un transistor funcionando en
-configuración de base común?</p>
+<li><p class="first">What is the main function of a transistor operating in common base configuration?</p>
 </li>
-<li><p class="first">¿Para qué sirven las resistencias R1 y R2?</p>
+<li><p class="first">What are resistors R1 and R2 for?</p>
 </li>
-<li><p class="first">¿Para qué sirve la resistencia R3?</p>
+<li><p class="first">What is resistor R3 for?</p>
 </li>
-<li><p class="first">¿Qué ganancia de tensión tiene la etapa simulada?</p>
-<p>Para calcular la ganancia de tensión es necesario dividir la variación
-de tensión en la salida entre la variación de la tensión en la entrada.</p>
-<p>Recuerda que el generador de 0.1 voltios en alterna genera una tensión
-de 0.2 voltios entre el pico positivo de tensión y el pico negativo
-de tensión.</p>
+<li><p class="first">What voltage gain does the simulated stage have?</p>
+<p>To calculate the voltage gain, it is necessary to divide the voltage variation at the output by the voltage variation at the input.</p>
+<p>Remember that the 0.1 volt AC generator generates a voltage of 0.2 volts between the positive voltage peak and the negative voltage peak.</p>
 </li>
-<li><p class="first">Si modificamos R3 con un valor de 2kOhm y R1 con un valor de 70kOhm,
-¿Qué le ocurre a la señal de salida del circuito?
-¿Por qué crees que ocurre esto?</p>
+<li><p class="first">If we modify R3 with a value of 2kOhm and R1 with a value of 70kOhm, what happens to the output signal of the circuit? Why do you think this happens?</p>
 </li>
 </ol>
 </div>
@@ -187,10 +157,10 @@ de tensión.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-bjt-darlington.html" class="btn btn-neutral float-right" title="10. El esquema Darlington" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-bjt-darlington.html" class="btn btn-neutral float-right" title="10. The Darlington scheme" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-bjt-common-c.html" class="btn btn-neutral" title="8. El transistor en colector común" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-bjt-common-c.html" class="btn btn-neutral" title="8. The common collector transistor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -215,7 +185,7 @@ de tensión.</p>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -277,35 +247,35 @@ de tensión.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

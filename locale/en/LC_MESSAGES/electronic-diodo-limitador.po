@@ -1,120 +1,125 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2023 por Carlos Pardo Martín
-# This file is distributed under the same license as the Tecno Recursos
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Tecno Recursos 2023\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-30 17:43+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-10-30 17:43+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-diodo-limitador.rst:9
 msgid "El diodo limitador"
-msgstr ""
-
+msgstr "The limiting diode"
 #: ../../source/electronic-diodo-limitador.rst:10
 msgid ""
 "Los diodos rectificadores también se pueden utilizar para limitar la "
-"corriente o la tensión en los circuitos para prevenir que estos se "
-"quemen."
+"corriente o la tensión en los circuitos para prevenir que estos se quemen."
 msgstr ""
-
+"Rectifier diodes can also be used to limit current or voltage in circuits to"
+" prevent them from burning out."
 #: ../../source/electronic-diodo-limitador.rst:16
 msgid "Diodo de rueda libre"
-msgstr ""
-
+msgstr "Freewheel diode"
 #: ../../source/electronic-diodo-limitador.rst:17
 msgid ""
-"Siempre que hacemos conducir corriente por una bobina (motor, relé, etc.)"
-" la **bobina almacena energía** en su interior. Al desactivar la bobina, "
-"la energía almacenada se transforma en un pico de tensión que intenta "
-"mantener la corriente de la bobina constante. Este pico de tensión puede "
-"quemar los componentes electrónicos del circuito, por lo que se debe "
-"colocar en paralelo a la bobina un diodo denominado '**de rueda libre**' "
-"o '**freewheel**' que conduzca la corriente de la bobina hasta que se "
-"reduzca a cero."
+"Siempre que hacemos conducir corriente por una bobina (motor, relé, etc.) la"
+" **bobina almacena energía** en su interior. Al desactivar la bobina, la "
+"energía almacenada se transforma en un pico de tensión que intenta mantener "
+"la corriente de la bobina constante. Este pico de tensión puede quemar los "
+"componentes electrónicos del circuito, por lo que se debe colocar en "
+"paralelo a la bobina un diodo denominado '**de rueda libre**' o "
+"'**freewheel**' que conduzca la corriente de la bobina hasta que se reduzca "
+"a cero."
 msgstr ""
-
+"Whenever we conduct current through a coil (motor, relay, etc.) the **coil "
+"stores energy** inside. By deactivating the coil, the stored energy is "
+"transformed into a voltage spike that attempts to keep the coil current "
+"constant. This voltage peak can burn the electronic components of the "
+"circuit, so a diode called '**freewheel**' or '**freewheel**' must be placed"
+" in parallel to the coil to conduct the coil current. until it is reduced to"
+" zero."
 #: ../../source/electronic-diodo-limitador.rst:26
 msgid ""
-"En los siguientes circuitos podemos ver los diodos de rueda libre "
-"colocados en paralelo con la bobina de un relé y otro colocado en "
-"paralelo con un motor de corriente continua (tiene una gran bobina en su "
-"interior)."
+"En los siguientes circuitos podemos ver los diodos de rueda libre colocados "
+"en paralelo con la bobina de un relé y otro colocado en paralelo con un "
+"motor de corriente continua (tiene una gran bobina en su interior)."
 msgstr ""
-
+"In the following circuits we can see the freewheeling diodes placed in "
+"parallel with the coil of a relay and another placed in parallel with a "
+"direct current motor (it has a large coil inside)."
 #: ../../source/electronic-diodo-limitador.rst:45
 msgid "Diodo limitador de entrada"
-msgstr ""
-
+msgstr "input limiting diode"
 #: ../../source/electronic-diodo-limitador.rst:46
 msgid ""
-"Este esquema recorta la tensión de entrada en torno a los 0.65 voltios, "
-"la tensión de umbral de conducción que tienen los diodos rectificadores."
+"Este esquema recorta la tensión de entrada en torno a los 0.65 voltios, la "
+"tensión de umbral de conducción que tienen los diodos rectificadores."
 msgstr ""
-
+"This scheme cuts the input voltage to around 0.65 volts, the conduction "
+"threshold voltage of the rectifier diodes."
 #: ../../source/electronic-diodo-limitador.rst:49
 msgid ""
-"Es un circuito utilizado usualmente para proteger de las altas tensiones "
-"las entradas de los circuitos electrónicos más sensibles, evitando que "
-"una descarga electrostática (un chispazo) pueda quemar el circuito "
-"electrónico."
+"Es un circuito utilizado usualmente para proteger de las altas tensiones las"
+" entradas de los circuitos electrónicos más sensibles, evitando que una "
+"descarga electrostática (un chispazo) pueda quemar el circuito electrónico."
 msgstr ""
-
+"It is a circuit usually used to protect the inputs of the most sensitive "
+"electronic circuits from high voltages, preventing an electrostatic "
+"discharge (a spark) from burning the electronic circuit."
 #: ../../source/electronic-diodo-limitador.rst:62
 msgid "Ejercicios"
-msgstr ""
-
+msgstr "Exercises"
 #: ../../source/electronic-diodo-limitador.rst:64
 msgid ""
-"Dibuja el esquema de una bobina de 1 Henrio en serie con una resistencia "
-"de 100 ohmios, en serie con un interruptor y con una pila de 5 voltios."
+"Dibuja el esquema de una bobina de 1 Henrio en serie con una resistencia de "
+"100 ohmios, en serie con un interruptor y con una pila de 5 voltios."
 msgstr ""
-
+"Draw the diagram of a 1 Henry coil in series with a 100 ohm resistor, in "
+"series with a switch and with a 5 volt battery."
 #: ../../source/electronic-diodo-limitador.rst:67
 msgid ""
-"Coloca correctamente un diodo de protección de rueda libre en paralelo a "
-"la bobina."
-msgstr ""
-
+"Coloca correctamente un diodo de protección de rueda libre en paralelo a la "
+"bobina."
+msgstr "Properly place a freewheel protection diode in parallel to the coil."
 #: ../../source/electronic-diodo-limitador.rst:70
 msgid ""
 "Utiliza el `simulador de circuitos "
-"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ para "
-"comprobar que el circuito funciona correctamente."
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ para comprobar"
+" que el circuito funciona correctamente."
 msgstr ""
-
+"Use the `circuit simulator "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ to check that "
+"the circuit works correctly."
 #: ../../source/electronic-diodo-limitador.rst:74
 msgid ""
-"Añade en el circuito anterior un osciloscopio con la gráfica de la "
-"corriente a través de la bobina."
+"Añade en el circuito anterior un osciloscopio con la gráfica de la corriente"
+" a través de la bobina."
 msgstr ""
-
+"Add an oscilloscope to the previous circuit with the graph of the current "
+"through the coil."
 #: ../../source/electronic-diodo-limitador.rst:77
 msgid ""
-"Dibuja una gráfica de la corriente con el tiempo. En el eje X representa "
-"el tiempo con marcas cada segundo. En el eje Y representa la corriente "
-"con marcas cada 10 miliamperios."
+"Dibuja una gráfica de la corriente con el tiempo. En el eje X representa el "
+"tiempo con marcas cada segundo. En el eje Y representa la corriente con "
+"marcas cada 10 miliamperios."
 msgstr ""
-
+"Draw a graph of the current over time. On the X axis it represents time with"
+" ticks every second. On the Y axis it represents the current with marks "
+"every 10 milliamps."
 #: ../../source/electronic-diodo-limitador.rst:82
 msgid ""
 "Modifica el circuito anterior para que el diodo esté en paralelo con la "
 "bobina y la resistencia. ¿El funcionamiento mejora o empeora?"
 msgstr ""
-
+"Modify the above circuit so that the diode is in parallel with the coil and "
+"the resistor. Does functioning improve or worsen?"
 #: ../../source/electronic-diodo-limitador.rst:90
 msgid "Dibuja de nuevo la gráfica de la corriente con el tiempo."
-msgstr ""
-
+msgstr "Redraw the graph of the current over time."

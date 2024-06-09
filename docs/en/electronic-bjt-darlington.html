@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 10. El esquema Darlington">
-  <title>10. El esquema Darlington - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 10. The Darlington scheme">
+  <title>10. The Darlington scheme - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="11. El esquema push-pull" href="electronic-bjt-pushpull.html">
-  <link rel="prev" title="9. El transistor en base común" href="electronic-bjt-common-b.html">
+  <link rel="next" title="11. The push-pull scheme" href="electronic-bjt-pushpull.html">
+  <link rel="prev" title="9. The common base transistor" href="electronic-bjt-common-b.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">10. </span>El esquema Darlington</li>
+      <li><span class="section-number">10. </span>The Darlington scheme</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,104 +102,61 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-esquema-darlington">
-<span id="electronic-bjt-darlington"></span><h1><span class="section-number">10. </span>El esquema Darlington<a class="headerlink" href="#el-esquema-darlington" title="Permalink to this headline">¶</a></h1>
-<p>El <a class="reference external" href="https://es.wikipedia.org/wiki/Transistor_Darlington" rel="noopener noreferrer" target="_blank">esquema Darlington</a>
-es un dispositivo que combina dos transistores conectados de tal manera
-que la corriente de emisor del primero alimenta la corriente de base del
-segundo tal y como se puede ver en la siguiente imagen:</p>
+<span id="electronic-bjt-darlington"></span><h1><span class="section-number">10. </span>The Darlington scheme<a class="headerlink" href="#el-esquema-darlington" title="Permalink to this headline">¶</a></h1>
+<p>The <a class="reference external" href="https://es.wikipedia.org/wiki/Transistor_Darlington" rel="noopener noreferrer" target="_blank">Darlington scheme</a> is a device that combines two transistors connected in such a way that the emitter current of the first feeds the base current of the second as shown. you can see in the following image:</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-darlington.png"><img alt="Esquema de dos transistores NPN en montaje Darlington." src="_images/electronic-analog-darlington.png" style="width: 200px;"></a>
-<p class="caption"><span class="caption-text">Esquema de dos transistores NPN en montaje Darlington.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Schematic of two NPN transistors in Darlington assembly.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>El esquema Darlington se comporta como un transistor ordinario, con un
-colector, una base y un emisor.</p>
+<p>The Darlington scheme behaves like an ordinary transistor, with a collector, base and emitter.</p>
 <dl class="docutils">
-<dt>Ventajas:</dt><dd><ul class="simple">
-<li>La principal ventaja de este esquema consiste en que la ganancia de
-los dos transistores se multiplica, consiguiendo con facilidad
-<strong>ganancias muy altas</strong>, de varios miles.
-Esto permite controlar corrientes elevadas con corrientes de base
-muy pequeñas.</li>
-<li>Este esquema se puede implementar con dos transistores discretos
-conectados o también existen <strong>pares Darlington integrados</strong> en un
-único encapsulado, lo que reduce el espacio.</li>
+<dt>Advantages:</dt><dd><ul class="simple">
+<li>The main advantage of this scheme is that the gain of the two transistors is multiplied, easily achieving <strong>very high gains</strong>, of several thousand. This allows high currents to be controlled with very small base currents.</li>
+<li>This scheme can be implemented with two discrete transistors connected or there are also <strong>integrated Darlington pairs</strong> in a single package, which reduces space.</li>
 </ul>
 </dd>
-<dt>Inconvenientes:</dt><dd><ul class="simple">
-<li>El esquema Darlington tiene una respuesta más lenta que un único
-transistor. Esto limita su funcionamiento como interruptor a
-dispositivos lentos.
-Para acelerar el apagado del segundo transistor se suele colocar
-una resistencia entre su base y su emisor.</li>
-<li>La mínima tensión entre colector y emisor es mayor que con un solo
-transistor. Esto produce mayor calentamiento del dispositivo cuando
-controla el encendido y el apagado de dispositivos con mucha corriente
-y produce una pérdida de tensión apreciable.</li>
-<li>La tensión entre base y emisor es mayor, típicamente superior
-a 1.2 voltios al sumar dos caídas de tensión de dos transistores.</li>
+<dt>Disadvantages:</dt><dd><ul class="simple">
+<li>The Darlington scheme has a slower response than a single transistor. This limits its operation as a switch to slow devices. To accelerate the shutdown of the second transistor, a resistor is usually placed between its base and its emitter.</li>
+<li>The minimum voltage between collector and emitter is greater than with a single transistor. This produces greater heating of the device when controlling the switching on and off of high current devices and produces an appreciable voltage loss.</li>
+<li>The voltage between base and emitter is higher, typically greater than 1.2 volts when adding two voltage drops of two transistors.</li>
 </ul>
 </dd>
 </dl>
 <div class="section" id="simulacion-i">
-<h2>Simulación I<a class="headerlink" href="#simulacion-i" title="Permalink to this headline">¶</a></h2>
-<p>A continuación podemos ver la simulación de un esquema Darlington
-en configuración de emisor común. Esta etapa necesita muy poca corriente
-de base para encender una lámpara de 50 vatios y 12 voltios.</p>
+<h2>Simulation I<a class="headerlink" href="#simulacion-i" title="Permalink to this headline">¶</a></h2>
+<p>Below we can see the simulation of a Darlington scheme in common emitter configuration. This stage requires very little base current to power a 50 watt, 12 volt lamp.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=bjt-darlington-e.txt"></iframe>
-</div><p>Este esquema se puede utilizar para accionar cargas elevadas con bajas
-corrientes que provengan de circuitos de control digital, como un
-microcontrolador.</p>
+</div><p>This scheme can be used to drive high loads with low currents coming from digital control circuits, such as a microcontroller.</p>
 </div>
 <div class="section" id="simulacion-ii">
-<h2>Simulación II<a class="headerlink" href="#simulacion-ii" title="Permalink to this headline">¶</a></h2>
-<p>A continuación podemos ver la simulación de la etapa de salida de un
-circuito oscilador muy popular, el <strong>NE555</strong>.
-Esta etapa de salida utiliza dos configuraciones Darlington para amplificar
-las señales internas del circuito y conseguir una corriente elevada que
-active cargas externas.</p>
-<p>En el recuadro superior podemos identificar un esquema Darlington
-en <strong>colector común</strong> (colector conectado a positivo de la alimentación).
-Este esquema sirve para alimentar con tensión positiva la salida.</p>
-<p>En el recuadro inferior podemos identificar un esquema Darlington
-en emisor común (emisor conectado a negativo de la alimentación).
-Este esquema sirve para alimentar con tensión negativa la salida.</p>
-<p>Este segundo recuadro inferior tiene algún cambio respecto a la
-configuración estándar, al añadir una resistencia de 200 ohmios
-entre el primer transistor Q1 y el segundo transistor Q2.
-Además hay instalado un diodo entre los colectores de Q1 y Q2.
-Estos cambios permiten obtener una tensión más baja en la salida
-que con el esquema estándar.</p>
-<p>Las resistencias de 200 ohmios a la derecha no pertenecen al circuito
-NE555, son resistencias de carga.</p>
+<h2>Simulation II<a class="headerlink" href="#simulacion-ii" title="Permalink to this headline">¶</a></h2>
+<p>Below we can see the simulation of the output stage of a very popular oscillator circuit, the <strong>NE555</strong>. This output stage uses two Darlington configurations to amplify the circuit's internal signals and achieve high current to drive external loads.</p>
+<p>In the upper box we can identify a Darlington scheme in <strong>common collector</strong> (collector connected to positive of the power supply). This scheme serves to feed the output with positive voltage.</p>
+<p>In the lower box we can identify a common emitter Darlington scheme (emitter connected to the negative of the power supply). This scheme serves to feed the output with negative voltage.</p>
+<p>This second lower box has some change compared to the standard configuration, by adding a 200 ohm resistor between the first transistor Q1 and the second transistor Q2. In addition, a diode is installed between the collectors of Q1 and Q2. These changes allow obtaining a lower voltage at the output than with the standard scheme.</p>
+<p>The 200 ohm resistors on the right do not belong to the NE555 circuit, they are load resistors.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=bjt-darlington-ne555.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja un esquema simplificado de dos transistores NPN trabajando en
-configuración Darlington.</p>
+<li><p class="first">Draw a simplified schematic of two NPN transistors working in Darlington configuration.</p>
 </li>
-<li><p class="first">Dibuja un esquema realista de dos transistores NPN trabajando en
-configuración Darlington de emisor común.</p>
+<li><p class="first">Draw a realistic schematic of two NPN transistors working in common-emitter Darlington configuration.</p>
 </li>
-<li><p class="first">Dibuja un esquema realista de dos transistores NPN trabajando en
-configuración Darlington de colector común.</p>
+<li><p class="first">Draw a realistic schematic of two NPN transistors working in common collector Darlington configuration.</p>
 </li>
-<li><p class="first">¿Cuál es el objetivo principal de unir dos transistores en
-una configuración Darlington?</p>
+<li><p class="first">What is the main purpose of joining two transistors in a Darlington configuration?</p>
 </li>
-<li><p class="first">¿Qué ventajas tiene un esquema Darlington frente a un transistor
-individual?</p>
+<li><p class="first">What advantages does a Darlington scheme have over an individual transistor?</p>
 </li>
-<li><p class="first">¿Qué inconvenientes tiene un esquema Darlington frente a un transistor
-individual? ¿Cómo se puede reducir el efecto de alguno de estos
-inconvenientes?</p>
+<li><p class="first">What disadvantages does a Darlington scheme have compared to an individual transistor? How can the effect of any of these drawbacks be reduced?</p>
 </li>
-<li><p class="first">En la etapa de salida del circuito NE555:</p>
-<p>¿Cuántos esquemas Darlington puedes identificar?</p>
-<p>¿En que configuración está cada uno y por qué?</p>
+<li><p class="first">At the output stage of the NE555 circuit:</p>
+<p>How many Darlington schemes can you identify?</p>
+<p>What configuration is each one in and why?</p>
 </li>
 </ol>
 </div>
@@ -214,10 +171,10 @@ inconvenientes?</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-bjt-pushpull.html" class="btn btn-neutral float-right" title="11. El esquema push-pull" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-bjt-pushpull.html" class="btn btn-neutral float-right" title="11. The push-pull scheme" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-bjt-common-b.html" class="btn btn-neutral" title="9. El transistor en base común" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-bjt-common-b.html" class="btn btn-neutral" title="9. The common base transistor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -242,7 +199,7 @@ inconvenientes?</p>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -304,35 +261,35 @@ inconvenientes?</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

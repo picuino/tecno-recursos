@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 20. El amplificador diferencial">
-  <title>20. El amplificador diferencial - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 20. The differential amplifier">
+  <title>20. The differential amplifier - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="21. El detector de pico" href="electronic-operational-peakdetector.html">
-  <link rel="prev" title="19. El amplificador no inversor" href="electronic-operational-noninverting.html">
+  <link rel="next" title="21. The peak detector" href="electronic-operational-peakdetector.html">
+  <link rel="prev" title="19. The non-inverting amplifier" href="electronic-operational-noninverting.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">20. </span>El amplificador diferencial</li>
+      <li><span class="section-number">20. </span>The differential amplifier</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,75 +102,52 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-amplificador-diferencial">
-<span id="electronic-operational-differential"></span><h1><span class="section-number">20. </span>El amplificador diferencial<a class="headerlink" href="#el-amplificador-diferencial" title="Permalink to this headline">¶</a></h1>
-<p>Este circuito amplificador cuenta con dos entradas simétricas.
-La diferencia de tensión entre estas dos entradas se amplifica
-para producir una salida con la diferencia amplificada.
-De ahí el nombre de amplificador diferencial.</p>
-<p>La realimentación del circuito es negativa y proviene de la resistencia
-R2.</p>
+<span id="electronic-operational-differential"></span><h1><span class="section-number">20. </span>The differential amplifier<a class="headerlink" href="#el-amplificador-diferencial" title="Permalink to this headline">¶</a></h1>
+<p>This amplifier circuit has two symmetrical inputs. The voltage difference between these two inputs is amplified to produce an output with the difference amplified. Hence the name differential amplifier.</p>
+<p>The circuit feedback is negative and comes from resistor R2.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-oa-differential.png"><img alt="Esquema del amplificador diferencial." src="_images/electronic-analog-oa-differential.png" style="width: 400px;"></a>
-<p class="caption"><span class="caption-text">Esquema del amplificador diferencial.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Differential amplifier diagram.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="calculo-de-ganancia">
-<h2>Cálculo de ganancia<a class="headerlink" href="#calculo-de-ganancia" title="Permalink to this headline">¶</a></h2>
-<p>La fórmula de la ganancia de este amplificador es la siguiente:</p>
+<h2>Profit calculation<a class="headerlink" href="#calculo-de-ganancia" title="Permalink to this headline">¶</a></h2>
+<p>The gain formula for this amplifier is as follows:</p>
 <div class="math">
 <p><img src="_images/math/eb9f97f03ba438f6186bf726312bcbc5f887320f.svg" alt="V_{out} = ( V_{in2} - V_{in1} ) \cdot \left( \cfrac{R_2}{R_1} \right)"></p>
-</div><p>Teniendo en cuenta que la resistencia R1' = R1 y que la resistencia R2' = R2.</p>
-<p>En la práctica es importante que las resistencias R1 y R1' así como
-R2 y R2' tengan un valor lo más parecido posible entre sí,
-para evitar que se amplifiquen las tensiones comunes de las entradas
-y que solo se amplifique la diferencia entre las tensiones de entrada.</p>
+</div><p>Taking into account that the resistance R1' = R1 and that the resistance R2' = R2.</p>
+<p>In practice, it is important that the resistors R1 and R1' as well as R2 and R2' have a value as similar as possible to each other, to prevent the common input voltages from being amplified and only the difference between the input voltages being amplified. entrance.</p>
 </div>
 <div class="section" id="resistencia-de-entrada-y-de-salida">
-<h2>Resistencia de entrada y de salida<a class="headerlink" href="#resistencia-de-entrada-y-de-salida" title="Permalink to this headline">¶</a></h2>
-<p>La resistencia de entrada a la tensión común de entrada vale:</p>
+<h2>Input and output resistance<a class="headerlink" href="#resistencia-de-entrada-y-de-salida" title="Permalink to this headline">¶</a></h2>
+<p>The input resistance at the common input voltage is:</p>
 <div class="math">
 <p><img src="_images/math/36da2fc0040ab7329f5e80bd115d86bd45e62321.svg" alt="R_{in} = R1 + R2"></p>
-</div><p>Y la resistencia de entrada a las diferencias de tensión de entrada vale:</p>
+</div><p>And the input resistance to input voltage differences is:</p>
 <div class="math">
 <p><img src="_images/math/2e79bd053002de0e72beb84b8661121980d5acf7.svg" alt="R_{in} = 2 \cdot R1"></p>
-</div><p>La resistencia de salida será muy baja, idealmente cero, porque la salida
-está directamente conectada a la salida del amplificador operacional.</p>
+</div><p>The output resistance will be very low, ideally zero, because the output is directly connected to the output of the op amp.</p>
 </div>
 <div class="section" id="simulacion">
-<h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>En la siguiente simulación podemos ver un amplificador diferencial al que
-le llegan dos tensiones de entrada. Una tensión senoidal, V1, de entrada,
-es común a ambas entradas y no se amplifica su tensión.
-La otra tensión triangular, V2, representa la diferencia entre las dos
-tensiones de entrada y sí que se amplifica en la salida.</p>
+<h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>In the following simulation we can see a differential amplifier to which two input voltages arrive. A sinusoidal input voltage, V1, is common to both inputs and its voltage is not amplified. The other triangular voltage, V2, represents the difference between the two input voltages and is amplified at the output.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=oa-differential.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja el esquema de un amplificador diferencial ideal.
-Añade debajo del dibujo la fórmula de la ganancia diferencial.</p>
+<li><p class="first">Draw the schematic of an ideal differential amplifier. Add the differential gain formula below the drawing.</p>
 </li>
-<li><p class="first">¿Qué tipo de realimentación tiene el amplificador diferencial?
-¿Qué resistencia lo determina?</p>
+<li><p class="first">What type of feedback does the differential amplifier have? What resistance determines it?</p>
 </li>
-<li><p class="first">¿Qué función realiza un amplificador diferencial?
-¿Qué es lo que no amplifica un amplificador diferencial?</p>
+<li><p class="first">What function does a differential amplifier perform? What does a differential amplifier not amplify?</p>
 </li>
-<li><p class="first">Con la fórmula de la ganancia calcula la ganancia que debe tener
-el amplificador diferencial simulado.</p>
+<li><p class="first">Using the gain formula, calculate the gain that the simulated differential amplifier should have.</p>
 </li>
-<li><p class="first">Modifica la simulación del amplificador diferencial de manera que
-la resistencia R1 tenga un valor ligeramente inferior, 9k.
-¿Qué le ocurre a la tensión de salida del circuito?</p>
+<li><p class="first">Modify the differential amplifier simulation so that resistor R1 has a slightly lower value, 9k. What happens to the output voltage of the circuit?</p>
 </li>
-<li><p class="first">Con ayuda del
-<a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">simulador de circuitos</a>
-dibuja un amplificador diferencial basado en un amplificador operacional
-ideal. La resistencia de entrada diferencial debe valer 100k ohmios.
-La ganancia diferencial debe valer 10.</p>
-<p>Añade un generador de tensión senoidal de 0.1 voltio de pico entre
-las entradas. Comprueba que la salida de tensión vale 1 voltio de pico.</p>
+<li><p class="first">With the help of the <a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">circuit simulator</a> draw a differential amplifier based on an ideal operational amplifier. The differential input resistance must be 100k ohms. The differential gain must be worth 10.</p>
+<p>Add a 0.1 volt peak sinusoidal voltage generator between the inputs. Check that the voltage output is 1 volt peak.</p>
 </li>
 </ol>
 </div>
@@ -185,10 +162,10 @@ las entradas. Comprueba que la salida de tensión vale 1 voltio de pico.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-operational-peakdetector.html" class="btn btn-neutral float-right" title="21. El detector de pico" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-operational-peakdetector.html" class="btn btn-neutral float-right" title="21. The peak detector" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-operational-noninverting.html" class="btn btn-neutral" title="19. El amplificador no inversor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-operational-noninverting.html" class="btn btn-neutral" title="19. The non-inverting amplifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -213,7 +190,7 @@ las entradas. Comprueba que la salida de tensión vale 1 voltio de pico.</p>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -275,35 +252,35 @@ las entradas. Comprueba que la salida de tensión vale 1 voltio de pico.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

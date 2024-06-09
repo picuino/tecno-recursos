@@ -1,157 +1,165 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2023 por Carlos Pardo Martín
-# This file is distributed under the same license as the Tecno Recursos
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Tecno Recursos 2023\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-25 20:02+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-10-25 20:02+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-operational-inverting.rst:9
 msgid "El amplificador inversor"
-msgstr ""
-
+msgstr "The inverting amplifier"
 #: ../../source/electronic-operational-inverting.rst:10
 msgid ""
-"En este circuito el amplificador operacional invierte y amplifica la "
-"señal de entrada."
+"En este circuito el amplificador operacional invierte y amplifica la señal "
+"de entrada."
 msgstr ""
-
+"In this circuit the operational amplifier inverts and amplifies the input "
+"signal."
 #: ../../source/electronic-operational-inverting.rst:13
 msgid ""
-"El amplificador inversor tiene realimentación negativa porque la tensión "
-"de salida produce una corriente que llega al terminal de entrada negativo"
-" a través de la resistencia R2."
+"El amplificador inversor tiene realimentación negativa porque la tensión de "
+"salida produce una corriente que llega al terminal de entrada negativo a "
+"través de la resistencia R2."
 msgstr ""
-
+"The inverting amplifier has negative feedback because the output voltage "
+"produces a current that reaches the negative input terminal through resistor"
+" R2."
 #: ../../source/electronic-operational-inverting.rst:22
 msgid "Esquema del amplificador operacional inversor."
-msgstr ""
-
+msgstr "Scheme of the inverting operational amplifier."
 #: ../../source/electronic-operational-inverting.rst:26
 msgid "Cálculo de ganancia"
-msgstr ""
-
+msgstr "Profit calculation"
 #: ../../source/electronic-operational-inverting.rst:27
 msgid "La fórmula de la ganancia de este amplificador es la siguiente:"
-msgstr ""
-
+msgstr "The gain formula for this amplifier is as follows:"
 #: ../../source/electronic-operational-inverting.rst:29
 msgid "Ganancia = \\cfrac{V_{out}}{V_{in}} = - \\cfrac{R_2}{R_1}"
-msgstr ""
-
+msgstr "Gain = \\cfrac{V_{out}}{V_{in}} = - \\cfrac{R_2}{R_1}"
 #: ../../source/electronic-operational-inverting.rst:33
 msgid ""
-"Para calcular la ganancia de este esquema debemos tener en cuenta que con"
-" realimentación negativa las dos entradas ``-`` y ``+`` tendrán la misma "
+"Para calcular la ganancia de este esquema debemos tener en cuenta que con "
+"realimentación negativa las dos entradas ``-`` y ``+`` tendrán la misma "
 "tensión. Esto significa que la tensión de la entrada ``-`` será igual a "
 "cero, puesto que la entrada ``+`` está conectada a tierra."
 msgstr ""
-
+"To calculate the gain of this scheme we must take into account that with "
+"negative feedback the two inputs ``-`` and ``+`` will have the same voltage."
+" This means that the voltage at the ``-`` input will be equal to zero, since"
+" the ``+`` input is connected to ground."
 #: ../../source/electronic-operational-inverting.rst:39
 msgid ""
-"A partir de esta premisa, la corriente de entrada será igual a Vin / R1. "
-"Esa misma corriente será la que circule por R2, puesto que por la entrada"
-" del amplificador operacional no circula corriente. En ese caso la "
-"tensión en R2 será igual a la corriente por la resistencia Vout = R2 · "
-"Vin / R1. Reordenando conseguimos la ecuación anterior de la ganancia."
+"A partir de esta premisa, la corriente de entrada será igual a Vin / R1. Esa"
+" misma corriente será la que circule por R2, puesto que por la entrada del "
+"amplificador operacional no circula corriente. En ese caso la tensión en R2 "
+"será igual a la corriente por la resistencia Vout = R2 · Vin / R1. "
+"Reordenando conseguimos la ecuación anterior de la ganancia."
 msgstr ""
-
+"From this premise, the input current will be equal to Vin / R1. That same "
+"current will be the one that flows through R2, since no current flows "
+"through the input of the operational amplifier. In that case the voltage "
+"across R2 will be equal to the current through the resistance Vout = R2 · "
+"Vin / R1. Rearranging we get the previous profit equation."
 #: ../../source/electronic-operational-inverting.rst:47
 msgid "Resistencia de entrada y de salida"
-msgstr ""
-
+msgstr "Input and output resistance"
 #: ../../source/electronic-operational-inverting.rst:48
 msgid "La resistencia de entrada será igual a la resistencia R1."
-msgstr ""
-
+msgstr "The input resistance will be equal to resistance R1."
 #: ../../source/electronic-operational-inverting.rst:50
 msgid ""
-"La resistencia de salida será muy baja, idealmente cero, porque la salida"
-" está directamente conectada a la salida del amplificador operacional."
+"La resistencia de salida será muy baja, idealmente cero, porque la salida "
+"está directamente conectada a la salida del amplificador operacional."
 msgstr ""
-
+"The output resistance will be very low, ideally zero, because the output is "
+"directly connected to the output of the op amp."
 #: ../../source/electronic-operational-inverting.rst:55
 msgid "Simulación"
-msgstr ""
-
+msgstr "Simulation"
 #: ../../source/electronic-operational-inverting.rst:56
 msgid ""
-"En la siguiente simulación podemos ver un amplificador inversor de "
-"ganancia 5 que amplifica una pequeña señal senoidal de entrada."
+"En la siguiente simulación podemos ver un amplificador inversor de ganancia "
+"5 que amplifica una pequeña señal senoidal de entrada."
 msgstr ""
-
+"In the following simulation we can see a gain 5 inverting amplifier that "
+"amplifies a small sinusoidal input signal."
 #: ../../source/electronic-operational-inverting.rst:67
 msgid "Ejercicios"
-msgstr ""
-
+msgstr "Exercises"
 #: ../../source/electronic-operational-inverting.rst:69
-msgid "Dibuja el esquema simplificado de un amplificador operacional inversor."
-msgstr ""
-
+msgid ""
+"Dibuja el esquema simplificado de un amplificador operacional inversor."
+msgstr "Draw the simplified schematic of an inverting operational amplifier."
 #: ../../source/electronic-operational-inverting.rst:71
 msgid ""
 "Escribe la fórmula de la ganancia del amplificador operacional inversor "
 "anterior."
 msgstr ""
-
+"Write the formula for the gain of the inverting operational amplifier above."
 #: ../../source/electronic-operational-inverting.rst:74
 msgid ""
 "¿Qué tipo de realimentación tiene este circuito? ¿Qué les ocurre a las "
 "tensiones de entrada con ese tipo de realimentación?"
 msgstr ""
-
+"What type of feedback does this circuit have? What happens to the input "
+"voltages with that type of feedback?"
 #: ../../source/electronic-operational-inverting.rst:78
 msgid ""
-"Dibuja dos gráficas que representen la tensión de entrada y la tensión de"
-" salida del amplificador inversor simulado."
+"Dibuja dos gráficas que representen la tensión de entrada y la tensión de "
+"salida del amplificador inversor simulado."
 msgstr ""
-
+"Draw two graphs representing the input voltage and output voltage of the "
+"simulated inverting amplifier."
 #: ../../source/electronic-operational-inverting.rst:81
 msgid ""
-"¿Qué tensiones de pico tienen cada una de las dos gráficas representadas?"
-" Puedes parar la simulación y ampliar a pantalla completa para medir con "
-"más precisión."
+"¿Qué tensiones de pico tienen cada una de las dos gráficas representadas? "
+"Puedes parar la simulación y ampliar a pantalla completa para medir con más "
+"precisión."
 msgstr ""
-
+"What peak voltages do each of the two graphs represented have? You can stop "
+"the simulation and zoom to full screen to measure more accurately."
 #: ../../source/electronic-operational-inverting.rst:86
 msgid ""
 "Calcula las resistencias necesarias para hacer que un amplificador "
-"operacional inversor tenga una resistencia de entrada de 1000 Ohmios y "
-"una ganancia de tensión igual a -100."
+"operacional inversor tenga una resistencia de entrada de 1000 Ohmios y una "
+"ganancia de tensión igual a -100."
 msgstr ""
-
+"Calculate the resistors needed to make an inverting operational amplifier "
+"have an input resistance of 1000 Ohms and a voltage gain equal to -100."
 #: ../../source/electronic-operational-inverting.rst:90
 msgid ""
-"Dibuja un esquema realista de este amplificador, con una alimentación de "
-"+-6 voltios y una entrada de tensión senoidal de 0.1 voltios."
+"Dibuja un esquema realista de este amplificador, con una alimentación de +-6"
+" voltios y una entrada de tensión senoidal de 0.1 voltios."
 msgstr ""
-
+"Draw a realistic schematic of this amplifier, with a supply of +-6 volts and"
+" a sinusoidal voltage input of 0.1 volts."
 #: ../../source/electronic-operational-inverting.rst:93
 msgid ""
 "Con ayuda del `simulador de circuitos "
 "<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ dibuja el "
-"esquema de un amplificador operacional inversor basado en un amplificador"
-" operacional real (LM324) que amplifique la señal de un generador de "
-"tensión de onda cuadrada con una tensión de pico de 1 voltio. La ganancia"
-" de tensión debe valer 2."
+"esquema de un amplificador operacional inversor basado en un amplificador "
+"operacional real (LM324) que amplifique la señal de un generador de tensión "
+"de onda cuadrada con una tensión de pico de 1 voltio. La ganancia de tensión"
+" debe valer 2."
 msgstr ""
-
+"With the help of the `circuit simulator "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ draw the "
+"schematic of an inverting operational amplifier based on a real operational "
+"amplifier (LM324) that amplifies the signal of a square wave voltage "
+"generator with a peak voltage of 1 volt. The voltage gain must be 2."
 #: ../../source/electronic-operational-inverting.rst:102
 msgid ""
 "Grafica en el mismo osciloscopio la señal de tensión del generador y la "
 "señal de tensión de salida del amplificador operacional."
 msgstr ""
-
+"Plot the generator voltage signal and the operational amplifier output "
+"voltage signal on the same oscilloscope."

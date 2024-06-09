@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 6. El transistor">
-  <title>6. El transistor - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 6. The transistor">
+  <title>6. The transistor - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="7. El transistor en emisor común" href="electronic-bjt-common-e.html">
-  <link rel="prev" title="5. El diodo led" href="electronic-diodo-led.html">
+  <link rel="next" title="7. The common emitter transistor" href="electronic-bjt-common-e.html">
+  <link rel="prev" title="5. The LED diode" href="electronic-diodo-led.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">6. </span>El transistor</li>
+      <li><span class="section-number">6. </span>The transistor</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,108 +102,65 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-transistor">
-<span id="electronic-bjt"></span><h1><span class="section-number">6. </span>El transistor<a class="headerlink" href="#el-transistor" title="Permalink to this headline">¶</a></h1>
-<p>El transistor es un dispositivo electrónico de tres terminales que permite
-amplificar la corriente eléctrica.
-Tiene múltiples aplicaciones van desde fabricar amplificadores de audio,
-osciladores de radio, reguladores de tensión, controladores
-para motores eléctricos, fuentes de alimentación, circuitos digitales,
-microprocesadores, memorias, etc.
-El transistor forma parte de prácticamente todos los circuitos
-electrónicos.</p>
+<span id="electronic-bjt"></span><h1><span class="section-number">6. </span>The transistor<a class="headerlink" href="#el-transistor" title="Permalink to this headline">¶</a></h1>
+<p>The transistor is a three-terminal electronic device that allows electrical current to be amplified. It has multiple applications ranging from manufacturing audio amplifiers, radio oscillators, voltage regulators, controllers for electric motors, power supplies, digital circuits, microprocessors, memories, etc. The transistor is part of practically all electronic circuits.</p>
 <div class="section" id="el-transistor-bipolar">
-<h2>El transistor bipolar<a class="headerlink" href="#el-transistor-bipolar" title="Permalink to this headline">¶</a></h2>
-<p>Es un tipo concreto de transistor basado en 3 zonas
-semiconductoras dopadas alternativamente como positivas y negativas.
-De ahí que existan dos transistores diferentes, un denominado NPN y
-otro denominado PNP, según el dopaje positivo o negativo de las tres
-zonas.</p>
-<p>Los símbolos de los dos transistores bipolares son los siguientes:</p>
+<h2>The bipolar transistor<a class="headerlink" href="#el-transistor-bipolar" title="Permalink to this headline">¶</a></h2>
+<p>It is a specific type of transistor based on 3 semiconductor zones doped alternately as positive and negative. Hence there are two different transistors, one called NPN and another called PNP, depending on the positive or negative doping of the three zones.</p>
+<p>The symbols of the two bipolar transistors are as follows:</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-bjt-npn.png"><img alt="Símbolo del diodo semiconductor." src="_images/electronic-analog-bjt-npn.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Símbolo del transistor bipolar NPN.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">NPN bipolar transistor symbol.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-center" id="id2">
 <a class="reference internal image-reference" href="_images/electronic-analog-bjt-pnp.png"><img alt="Símbolo del diodo semiconductor." src="_images/electronic-analog-bjt-pnp.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Símbolo del transistor bipolar PNP.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">PNP bipolar transistor symbol.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>El funcionamiento de ambos tipos de transistores es muy semejante con
-la diferencia de que el transistor PNP trabaja con corrientes negativas
-mientras que el transistor NPN trabaja con corrientes positivas.</p>
-<p>En la práctica el transistor NPN es más utilizado porque es más eficiente
-a la hora de conducir la corriente eléctrica. Por esa razón se estudiará
-más en profundidad. El transistor PNP se verá más adelante en
-configuraciones que utilizan los dos tipos de transistores, como la salida
-analógica en push-pull o la salida digital en totem-pole.</p>
+<p>The operation of both types of transistors is very similar with the difference that the PNP transistor works with negative currents while the NPN transistor works with positive currents.</p>
+<p>In practice, the NPN transistor is more used because it is more efficient when conducting electric current. For that reason it will be studied more in depth. The PNP transistor will be seen later in configurations that use both types of transistors, such as push-pull analog output or totem-pole digital output.</p>
 </div>
 <div class="section" id="el-transistor-como-amplificador">
-<h2>El transistor como amplificador<a class="headerlink" href="#el-transistor-como-amplificador" title="Permalink to this headline">¶</a></h2>
-<p>En el siguiente circuito podemos experimentar el funcionamiento de
-un amplificador típico basado en transistor.</p>
-<p>La <strong>unión base-emisor</strong> del transistor se comporta como un diodo,
-por lo que necesita una tensión de 0.65 voltios para poder conducir
-corriente.</p>
-<p>En la barra lateral derecha hay una barra deslizante que permite cambiar
-el valor de la resistencia de polarización de base. Esta resistencia
-permite el paso de una pequeña corriente. El transistor amplifica la
-corriente que llega por la base y deja pasar desde el colector hasta el
-emisor una corriente mucho mayor, multiplicando la corriente de base
-por la ganancia.</p>
+<h2>The transistor as an amplifier<a class="headerlink" href="#el-transistor-como-amplificador" title="Permalink to this headline">¶</a></h2>
+<p>In the following circuit we can experience the operation of a typical transistor-based amplifier.</p>
+<p>The <strong>base-emitter junction</strong> of the transistor behaves like a diode, so it needs a voltage of 0.65 volts to be able to conduct current.</p>
+<p>In the right sidebar there is a slider bar that allows you to change the value of the base bias resistor. This resistance allows a small current to pass through. The transistor amplifies the current that arrives through the base and allows a much larger current to pass from the collector to the emitter, multiplying the base current by the gain.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=bjt-simple.txt"></iframe>
 </div></div>
 <div class="section" id="ganancia-del-transistor">
-<h2>Ganancia del transistor<a class="headerlink" href="#ganancia-del-transistor" title="Permalink to this headline">¶</a></h2>
-<p>La corriente de colector en un transistor típico es de 50 a 300 veces
-mayor que la corriente de base. Esta relación entre la corriente de
-colector y la corriente de base se denomina <strong>ganancia</strong> del
-transistor, también denominada como β o parámetro <strong>hfe</strong>.</p>
-<p>La fórmula de la ganancia del transistor por lo tanto será:</p>
+<h2>Transistor gain<a class="headerlink" href="#ganancia-del-transistor" title="Permalink to this headline">¶</a></h2>
+<p>The collector current in a typical transistor is 50 to 300 times greater than the base current. This relationship between the collector current and the base current is called <strong>gain</strong> of the transistor, also known as β or parameter <strong>hfe</strong>.</p>
+<p>The transistor gain formula will therefore be:</p>
 <div class="math">
-<p><img src="_images/math/4893171dace9a06e7b1c14185993b1fca092dfcf.svg" alt="\beta = hfe = \cfrac{I_{colector}}{I_{base}}"></p>
-</div><p>Donde las variables son:</p>
+<p><img src="_images/math/e34062226aaf78709cccb172b37045e2b02a7062.svg" alt="\beta = hfe = \cfrac{I_{manifold}}{I_{base}}"></p>
+</div><p>Where the variables are:</p>
 <blockquote>
-<div><p>β = hfe = ganancia del transistor (número adimensional)</p>
-<p>I_colector = corriente del colector en amperios [A]</p>
-<p>I_base = corriente de base en amperios [A]</p>
+<div><p>β = hfe = transistor gain (dimensionalless number)</p>
+<p>I_collector = collector current in amperes [A]</p>
+<p>I_base = base current in amperes [A]</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p>Los transistores de potencia son transistores capaces de conducir
-corrientes altas, mayores de un amperio. Estos transistores pueden
-tener una ganancia menor de 50 cuando trabajan con grandes
-corrientes.</p>
-<p class="last">Lo mismo ocurre con los transistores de alta frecuencia, que a
-frecuencias de trabajo cercanas a su límite tienen una ganancia
-mucho menor que a bajas frecuencias.</p>
+<p>Power transistors are transistors capable of conducting high currents, greater than one ampere. These transistors can have a gain of less than 50 when working with large currents.</p>
+<p class="last">The same happens with high-frequency transistors, which at operating frequencies close to their limit have a much lower gain than at low frequencies.</p>
 </div>
 </div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja el símbolo del transistor NPN y del transistor PNP
-y añade los nombres de cada uno de sus terminales.</p>
+<li><p class="first">Draw the symbol for the NPN transistor and the PNP transistor and add the names of each of their terminals.</p>
 </li>
-<li><p class="first">¿Qué función tiene un transistor bipolar?</p>
+<li><p class="first">What function does a bipolar transistor have?</p>
 </li>
-<li><p class="first">Dibuja un esquema eléctrico de un transistor bipolar funcionando.
-Añade las corrientes y las tensiones que podemos encontrar en cada uno
-de sus tres terminales.</p>
+<li><p class="first">Draw an electrical schematic of a working bipolar transistor. Add the currents and voltages that we can find in each of its three terminals.</p>
 </li>
-<li><p class="first">Comprueba que la ganancia del transistor simulado vale 100 calculando
-la relación entre la corriente de colector dividida por la corriente
-de base.</p>
+<li><p class="first">Check that the simulated transistor gain is 100 by calculating the ratio of the collector current divided by the base current.</p>
 </li>
-<li><p class="first">Desliza la barra de la derecha llamada <code class="docutils literal notranslate"><span class="pre">Resistencia</span></code> y comprueba si
-la ganancia se mantiene para varias posiciones.</p>
+<li><p class="first">Slide the bar on the right called <code class="docutils literal notranslate"><span class="pre">Resistance</span></code> and check if the gain is maintained for various positions.</p>
 </li>
-<li><p class="first">Cuando la resistencia de base deja pasar mucha corriente, llega un
-momento que el transistor se <strong>satura</strong> y no puede conducir más
-corriente.</p>
-<p>Este es un comportamiento típico de los circuitos digitales, pero se
-intenta evitar en los circuitos analógicos.</p>
-<p>¿Cuál es la tensión entre el emisor y el colector cuando el transistor
-está <strong>saturado</strong>?</p>
+<li><p class="first">When the base resistor lets too much current pass through, there comes a time when the transistor becomes <strong>saturated</strong> and cannot conduct any more current.</p>
+<p>This is typical behavior in digital circuits, but is attempted to be avoided in analog circuits.</p>
+<p>What is the voltage between the emitter and collector when the transistor is <strong>saturated</strong>?</p>
 </li>
 </ol>
 </div>
@@ -218,10 +175,10 @@ está <strong>saturado</strong>?</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-bjt-common-e.html" class="btn btn-neutral float-right" title="7. El transistor en emisor común" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-bjt-common-e.html" class="btn btn-neutral float-right" title="7. The common emitter transistor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-diodo-led.html" class="btn btn-neutral" title="5. El diodo led" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-diodo-led.html" class="btn btn-neutral" title="5. The LED diode" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -246,7 +203,7 @@ está <strong>saturado</strong>?</p>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -308,35 +265,35 @@ está <strong>saturado</strong>?</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

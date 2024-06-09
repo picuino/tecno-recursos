@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 18. El amplificador sumador">
-  <title>18. El amplificador sumador - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 18. The summing amplifier">
+  <title>18. The summing amplifier - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="19. El amplificador no inversor" href="electronic-operational-noninverting.html">
-  <link rel="prev" title="17. El amplificador inversor" href="electronic-operational-inverting.html">
+  <link rel="next" title="19. The non-inverting amplifier" href="electronic-operational-noninverting.html">
+  <link rel="prev" title="17. The inverting amplifier" href="electronic-operational-inverting.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">18. </span>El amplificador sumador</li>
+      <li><span class="section-number">18. </span>The summing amplifier</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,80 +102,55 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-amplificador-sumador">
-<span id="electronic-operational-adder"></span><h1><span class="section-number">18. </span>El amplificador sumador<a class="headerlink" href="#el-amplificador-sumador" title="Permalink to this headline">¶</a></h1>
-<p>En este circuito el amplificador operacional invierte y amplifica las
-señales de entrada, que pueden ser dos o más señales.</p>
-<p>El amplificador inversor tiene realimentación negativa porque la tensión
-de salida produce una corriente que llega al terminal de entrada negativo
-a través de la resistencia R3.</p>
+<span id="electronic-operational-adder"></span><h1><span class="section-number">18. </span>The summing amplifier<a class="headerlink" href="#el-amplificador-sumador" title="Permalink to this headline">¶</a></h1>
+<p>In this circuit the operational amplifier inverts and amplifies the input signals, which can be two or more signals.</p>
+<p>The inverting amplifier has negative feedback because the output voltage produces a current that reaches the negative input terminal through resistor R3.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-oa-adder.png"><img alt="Esquema del amplificador operacional sumador inversor." src="_images/electronic-analog-oa-adder.png" style="width: 300px;"></a>
-<p class="caption"><span class="caption-text">Esquema del amplificador operacional sumador inversor.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Scheme of the inverting adder operational amplifier.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Este circuito está basado en el amplificador inversor, con el que guarda
-una gran similitud.</p>
-<p>Al tener la tensión de la entrada negativa cero voltios en todo momento,
-las tensiones de entrada no se afectan entre sí una a la otra.</p>
+<p>This circuit is based on the inverting amplifier, with which it has great similarity.</p>
+<p>By having the input voltage negative zero volts at all times, the input voltages do not affect each other.</p>
 <div class="section" id="calculo-de-ganancia">
-<h2>Cálculo de ganancia<a class="headerlink" href="#calculo-de-ganancia" title="Permalink to this headline">¶</a></h2>
-<p>La fórmula de la tensión de salida de este amplificador es la siguiente:</p>
+<h2>Profit calculation<a class="headerlink" href="#calculo-de-ganancia" title="Permalink to this headline">¶</a></h2>
+<p>The formula for the output voltage of this amplifier is as follows:</p>
 <div class="math">
 <p><img src="_images/math/0ef2deaa9328a869b582d411e0f51058ba521afa.svg" alt="V_{out} = - V_{in1} \cdot \cfrac{R_3}{R_1} - V_{in2} \cdot \cfrac{R_3}{R_2}"></p>
-</div><p>La ganancia de cada entrada depende de la resistencia de cada una de las
-entradas y no tiene por qué ser igual en ambas.</p>
-<p>La resistencia de entrada será igual a la resistencia R1 para la entrada 1
-e igual a R2 para la entrada 2.</p>
-<p>La resistencia de salida será muy baja, idealmente cero, porque la salida
-está directamente conectada a la salida del amplificador operacional.</p>
+</div><p>The gain of each input depends on the resistance of each of the inputs and does not have to be the same in both.</p>
+<p>The input resistance will be equal to resistance R1 for input 1 and equal to R2 for input 2.</p>
+<p>The output resistance will be very low, ideally zero, because the output is directly connected to the output of the op amp.</p>
 </div>
 <div class="section" id="simulacion">
-<h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>En la siguiente simulación podemos ver un amplificador sumador que
-sumará dos señales senoidales de diferente frecuencia y amplitud.</p>
+<h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>In the following simulation we can see a summing amplifier that will add two sinusoidal signals of different frequency and amplitude.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=oa-adder.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja el esquema simplificado de un amplificador operacional sumador.</p>
+<li><p class="first">Draw the simplified schematic of a summing operational amplifier.</p>
 </li>
-<li><p class="first">Escribe la fórmula de la tensión de salida del amplificador operacional
-sumador anterior.</p>
+<li><p class="first">Write the formula for the output voltage of the above summing op amp.</p>
 </li>
-<li><p class="first">¿Qué tipo de realimentación tiene este circuito?</p>
-<p>¿Qué les ocurre a las tensiones de entrada con ese tipo de
-realimentación?</p>
-<p>¿La tensión de entrada V_in1 afecta a la tensión de entrada V_in2?</p>
+<li><p class="first">What type of feedback does this circuit have?</p>
+<p>What happens to the input voltages with that type of feedback?</p>
+<p>Does the input voltage V_in1 affect the input voltage V_in2?</p>
 </li>
-<li><p class="first">Dibuja tres gráficas que representen la tensiones de entrada y
-la tensión de salida del amplificador inversor simulado.</p>
-<p>¿Qué tensiones de pico tienen cada una de las tres gráficas
-representadas?
-Puedes parar la simulación y ampliar a pantalla completa para
-medir con más precisión.</p>
+<li><p class="first">Draw three graphs representing the input voltages and output voltages of the simulated inverting amplifier.</p>
+<p>What peak voltages do each of the three graphs represented have? You can stop the simulation and zoom to full screen to measure more accurately.</p>
 </li>
-<li><p class="first">Calcula las resistencias necesarias para hacer que un amplificador
-operacional sumador tenga una ganancia de tensión igual a -5 en la
-primera entrada y -10 en la segunda entrada.</p>
-<p>Dibuja un esquema realista de este amplificador, con una alimentación
-de +-15 voltios y dos entradas de tensión senoidal de 1 voltio.</p>
+<li><p class="first">Calculate the resistors needed to make a summing operational amplifier have a voltage gain equal to -5 on the first input and -10 on the second input.</p>
+<p>Draw a realistic schematic of this amplifier, with a +-15 volt supply and two 1 volt sinusoidal voltage inputs.</p>
 </li>
-<li><p class="first">Con ayuda del
-<a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">simulador de circuitos</a>
-dibuja el esquema de un amplificador operacional sumador
-basado en un amplificador operacional ideal que amplifique:</p>
+<li><p class="first">With the help of the <a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">circuit simulator</a> draw the diagram of a summing operational amplifier based on an ideal operational amplifier that amplifies:</p>
 <blockquote>
 <div><ul class="simple">
-<li>La señal de un generador de tensión de <strong>onda cuadrada</strong>
-con una tensión de pico de 1 voltio y una frecuencia de 20Hz.</li>
-<li>La señal de un generador de tensión de <strong>onda triangular</strong>
-con una tensión de pico de 1 voltio y una frecuencia de 40Hz.</li>
+<li>The signal from a <strong>square wave</strong> voltage generator with a peak voltage of 1 volt and a frequency of 20Hz.</li>
+<li>The signal from a <strong>triangle wave</strong> voltage generator with a peak voltage of 1 volt and a frequency of 40Hz.</li>
 </ul>
 </div></blockquote>
-<p>Grafica en el mismo osciloscopio las señales de tensión de los
-generadores y, en otro osciloscopio diferente, grafica la señal
-de salida de tensión del amplificador sumador.</p>
+<p>Plot the voltage signals from the generators on the same oscilloscope and, on a different oscilloscope, plot the voltage output signal of the summing amplifier.</p>
 </li>
 </ol>
 </div>
@@ -190,10 +165,10 @@ de salida de tensión del amplificador sumador.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-operational-noninverting.html" class="btn btn-neutral float-right" title="19. El amplificador no inversor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-operational-noninverting.html" class="btn btn-neutral float-right" title="19. The non-inverting amplifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-operational-inverting.html" class="btn btn-neutral" title="17. El amplificador inversor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-operational-inverting.html" class="btn btn-neutral" title="17. The inverting amplifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -218,7 +193,7 @@ de salida de tensión del amplificador sumador.</p>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -280,35 +255,35 @@ de salida de tensión del amplificador sumador.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

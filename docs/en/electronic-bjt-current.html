@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 13. La fuente de corriente">
-  <title>13. La fuente de corriente - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 13. The current source">
+  <title>13. The current source - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="14. El transistor mosfet" href="electronic-mosfet.html">
-  <link rel="prev" title="12. El par diferencial" href="electronic-bjt-diferencial.html">
+  <link rel="next" title="14. The mosfet transistor" href="electronic-mosfet.html">
+  <link rel="prev" title="12. The differential torque" href="electronic-bjt-diferencial.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">13. </span>La fuente de corriente</li>
+      <li><span class="section-number">13. </span>The current source</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,104 +102,68 @@
            <div itemprop="articleBody">
             
   <div class="section" id="la-fuente-de-corriente">
-<span id="electronic-bjt-current"></span><h1><span class="section-number">13. </span>La fuente de corriente<a class="headerlink" href="#la-fuente-de-corriente" title="Permalink to this headline">¶</a></h1>
-<p>Este circuito sirve para generar una corriente que se mantendrá constante,
-independientemente de la tensión que haya a su salida.
-Es un circuito muy utilizado para polarizar otras etapas de transistores,
-como el par diferencial, para alimentar diodos led de corriente constante,
-enviar información inmune al ruido eléctrico, etc.</p>
+<span id="electronic-bjt-current"></span><h1><span class="section-number">13. </span>The current source<a class="headerlink" href="#la-fuente-de-corriente" title="Permalink to this headline">¶</a></h1>
+<p>This circuit serves to generate a current that will remain constant, regardless of the voltage at its output. It is a circuit widely used to polarize other transistor stages, such as the differential pair, to power constant current LED diodes, send information immune to electrical noise, etc.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-current-source.png"><img alt="Esquema de una fuente de corriente constante basada en dos transistores NPN." src="_images/electronic-analog-current-source.png" style="width: 200px;"></a>
-<p class="caption"><span class="caption-text">Esquema de una fuente de corriente constante basada en transistores NPN.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Schematic of a constant current source based on NPN transistors.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-center" id="id2">
 <a class="reference internal image-reference" href="_images/electronic-analog-current-source-symbol.png"><img alt="Símbolo de una fuente de corriente constante." src="_images/electronic-analog-current-source-symbol.png" style="width: 100px;"></a>
-<p class="caption"><span class="caption-text">Símbolo de una fuente de corriente constante.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Symbol of a constant current source.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="funcionamiento-y-calculos">
-<h2>Funcionamiento y cálculos<a class="headerlink" href="#funcionamiento-y-calculos" title="Permalink to this headline">¶</a></h2>
-<p>La función de cada componente es la siguiente:</p>
+<h2>Operation and calculations<a class="headerlink" href="#funcionamiento-y-calculos" title="Permalink to this headline">¶</a></h2>
+<p>The function of each component is the following:</p>
 <ul>
-<li><p class="first">La resistencia R1 polariza la base del transistor Q2, que comienza a
-conducir corriente.</p>
+<li><p class="first">Resistor R1 biases the base of transistor Q2, which begins to conduct current.</p>
 </li>
-<li><p class="first">Al conducir corriente el transistor Q2, la tensión de la resistencia
-R2 comienza a subir, hasta que llega aproximadamente a 0.6 voltios,
-que es el momento en el que comienza a conducir corriente el transistor
-Q1.</p>
+<li><p class="first">As transistor Q2 conducts current, the voltage of resistor R2 begins to rise, until it reaches approximately 0.6 volts, which is the moment at which transistor Q1 begins to conduct current.</p>
 </li>
-<li><p class="first">Al conducir corriente el transistor Q1, la corriente de la resistencia
-R1 se escapa por el colector del transistor Q1 y deja de alimentar a
-la base de Q2.</p>
+<li><p class="first">As transistor Q1 conducts current, the current in resistor R1 escapes through the collector of transistor Q1 and stops feeding the base of Q2.</p>
 </li>
-<li><p class="first">El resultado final es que se mantiene una tensión prácticamente constante
-en la base de Q1 y, por lo tanto, en la resistencia R2. Esa tensión
-constante se traduce en que circulará una corriente prácticamente
-constante por el emisor de Q2 y, despreciando las corrientes de base, por
-el colector de Q2.</p>
-<p>Aplicando la ley de Ohm:</p>
+<li><p class="first">The end result is that a practically constant voltage is maintained at the base of Q1 and therefore at the resistor R2. This constant voltage means that a practically constant current will flow through the emitter of Q2 and, neglecting the base currents, through the collector of Q2.</p>
+<p>Applying Ohm's law:</p>
 <div class="math">
 <p><img src="_images/math/6487f0ae4f968fefeb39290fb8e888cfad95025e.svg" alt="I_{R2} = \frac{V_{be}}{R_2}"></p>
-</div><p>Siendo:</p>
+</div><p>Being:</p>
 <blockquote>
-<div><p>I_R2 = Corriente que circula por la resistencia R2 en amperios [A]</p>
-<p>V_be = Tensión entre la base y el emisor del transistor Q1 en voltios [V]</p>
-<p>R_2 = Resistencia R2 en ohmios [Ω]</p>
+<div><p>I_R2 = Current flowing through resistance R2 in amperes [A]</p>
+<p>V_be = Voltage between the base and emitter of transistor Q1 in volts [V]</p>
+<p>R_2 = Resistance R2 in ohms [Ω]</p>
 </div></blockquote>
 </li>
 </ul>
 </div>
 <div class="section" id="simulacion">
-<h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>A continuación puede verse la simulación de una fuente de corriente
-constante basada en transistores NPN.</p>
+<h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>Below you can see the simulation of a constant current source based on NPN transistors.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=bjt-current-source.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja un esquema simplificado de una fuente de corriente constante
-basada en transistores NPN.</p>
-<p>Dibuja al lado el símbolo de la fuente de corriente constante.</p>
+<li><p class="first">Draw a simplified schematic of a constant current source based on NPN transistors.</p>
+<p>Draw the symbol for the constant current source next to it.</p>
 </li>
-<li><p class="first">Dibuja un esquema realista de una fuente de corriente constante
-basada en transistores NPN, que alimenta a una resistencia.</p>
+<li><p class="first">Draw a realistic schematic of a constant current source based on NPN transistors, which feeds a resistor.</p>
 </li>
-<li><p class="first">¿Cuál es la función principal de una fuente de corriente?
-¿Qué aplicaciones tiene?</p>
+<li><p class="first">What is the main function of a current source? What applications does it have?</p>
 </li>
-<li><p class="first">En la simulación de la fuente de corriente constante podemos comprobar
-cómo le afectan los cambios externos.</p>
-<p>Cambia la tensión de alimentación desde 9 voltios hasta 18 voltios en
-pasos de 3 en 3 voltios y anota en una tabla cómo va variando la
-corriente por el colector del transistor con el cambio de tensión
-de alimentación.</p>
+<li><p class="first">In the simulation of the constant current source we can check how external changes affect it.</p>
+<p>Change the supply voltage from 9 volts to 18 volts in steps of 3 volts at a time and record in a table how the current through the collector of the transistor varies with the change in supply voltage.</p>
 </li>
-<li><p class="first">En la simulación de la fuente de corriente constante podemos comprobar
-cómo le afectan los cambios externos.</p>
-<p>Con una tensión de alimentación de 9 voltios, cambia la resistencia R3
-por los valores 2000Ω, 1000Ω, 100Ω, 10Ω. Anota en una tabla cuánto
-vale la corriente de colector para cada uno de los valores de
-resistencia.</p>
+<li><p class="first">In the simulation of the constant current source we can check how external changes affect it.</p>
+<p>With a supply voltage of 9 volts, change resistor R3 to the values ​​2000Ω, 1000Ω, 100Ω, 10Ω. Write down in a table how much the collector current is for each of the resistance values.</p>
 </li>
-<li><p class="first">Diseña una fuente de corriente constante que funcione con una tensión
-de alimentación de 12 voltios y con una corriente de colector de 10
-miliamperios.</p>
-<p>Para conseguirlo, cambia la tensión de alimentación a 12 voltios
-y calcula la resistencia R2 necesaria con la fórmula:</p>
+<li><p class="first">Design a constant current source that operates with a supply voltage of 12 volts and a collector current of 10 milliamps.</p>
+<p>To achieve this, change the supply voltage to 12 volts and calculate the necessary resistance R2 with the formula:</p>
 <div class="math">
 <p><img src="_images/math/4ffd5b824ca3e24f2a508c4f046df143d5cb9444.svg" alt="R_2 = \frac{V_e}{I_e}"></p>
-</div><p>Sin utilizar decimales para el valor de la resistencia.</p>
+</div><p>Without using decimals for the resistance value.</p>
 </li>
-<li><p class="first">Diseña en el
-<a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">simulador de circuitos</a>
-una fuente de corriente negativa constante.
-La forma del circuito será igual que la fuente simulada anterior,
-pero utilizando transistores PNP y conectando el circuito en
-espejo horizontal.
-Es decir, la resistencia R1 irá conectada al negativo de la pila
-y la resistencia R2 irá conectada al positivo de la pila.</p>
+<li><p class="first">Design a constant negative current source in the <a class="reference external" href="https://www.picuino.com/circuits/?startCircuit=empty.txt" rel="noopener noreferrer" target="_blank">circuit simulator</a>. The shape of the circuit will be the same as the previous simulated source, but using PNP transistors and connecting the circuit in a horizontal mirror. That is, resistor R1 will be connected to the negative of the battery and resistor R2 will be connected to the positive of the battery.</p>
 </li>
 </ol>
 </div>
@@ -214,10 +178,10 @@ y la resistencia R2 irá conectada al positivo de la pila.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-mosfet.html" class="btn btn-neutral float-right" title="14. El transistor mosfet" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-mosfet.html" class="btn btn-neutral float-right" title="14. The mosfet transistor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-bjt-diferencial.html" class="btn btn-neutral" title="12. El par diferencial" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-bjt-diferencial.html" class="btn btn-neutral" title="12. The differential torque" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -242,7 +206,7 @@ y la resistencia R2 irá conectada al positivo de la pila.</p>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -304,35 +268,35 @@ y la resistencia R2 irá conectada al positivo de la pila.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

@@ -1,146 +1,143 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2023 por Carlos Pardo Martín
-# This file is distributed under the same license as the Tecno Recursos
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Tecno Recursos 2023\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-30 17:43+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Tecno Recursos 2023"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2023-10-30 17:43+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-operational-differential.rst:9
 msgid "El amplificador diferencial"
-msgstr ""
-
+msgstr "The differential amplifier"
 #: ../../source/electronic-operational-differential.rst:10
 msgid ""
-"Este circuito amplificador cuenta con dos entradas simétricas. La "
-"diferencia de tensión entre estas dos entradas se amplifica para producir"
-" una salida con la diferencia amplificada. De ahí el nombre de "
-"amplificador diferencial."
+"Este circuito amplificador cuenta con dos entradas simétricas. La diferencia"
+" de tensión entre estas dos entradas se amplifica para producir una salida "
+"con la diferencia amplificada. De ahí el nombre de amplificador diferencial."
 msgstr ""
-
+"This amplifier circuit has two symmetrical inputs. The voltage difference "
+"between these two inputs is amplified to produce an output with the "
+"difference amplified. Hence the name differential amplifier."
 #: ../../source/electronic-operational-differential.rst:15
 msgid ""
-"La realimentación del circuito es negativa y proviene de la resistencia "
-"R2."
-msgstr ""
-
+"La realimentación del circuito es negativa y proviene de la resistencia R2."
+msgstr "The circuit feedback is negative and comes from resistor R2."
 #: ../../source/electronic-operational-differential.rst:23
 msgid "Esquema del amplificador diferencial."
-msgstr ""
-
+msgstr "Differential amplifier diagram."
 #: ../../source/electronic-operational-differential.rst:27
 msgid "Cálculo de ganancia"
-msgstr ""
-
+msgstr "Profit calculation"
 #: ../../source/electronic-operational-differential.rst:28
 msgid "La fórmula de la ganancia de este amplificador es la siguiente:"
-msgstr ""
-
+msgstr "The gain formula for this amplifier is as follows:"
 #: ../../source/electronic-operational-differential.rst:30
 msgid "V_{out} = ( V_{in2} - V_{in1} ) \\cdot \\left( \\cfrac{R_2}{R_1} \\right)"
-msgstr ""
-
+msgstr "V_{out} = ( V_{in2} - V_{in1} ) \\cdot \\left( \\cfrac{R_2}{R_1} \\right)"
 #: ../../source/electronic-operational-differential.rst:34
 msgid ""
-"Teniendo en cuenta que la resistencia R1' = R1 y que la resistencia R2' ="
-" R2."
+"Teniendo en cuenta que la resistencia R1' = R1 y que la resistencia R2' = "
+"R2."
 msgstr ""
-
+"Taking into account that the resistance R1' = R1 and that the resistance R2'"
+" = R2."
 #: ../../source/electronic-operational-differential.rst:36
 msgid ""
-"En la práctica es importante que las resistencias R1 y R1' así como R2 y "
-"R2' tengan un valor lo más parecido posible entre sí, para evitar que se "
-"amplifiquen las tensiones comunes de las entradas y que solo se "
-"amplifique la diferencia entre las tensiones de entrada."
+"En la práctica es importante que las resistencias R1 y R1' así como R2 y R2'"
+" tengan un valor lo más parecido posible entre sí, para evitar que se "
+"amplifiquen las tensiones comunes de las entradas y que solo se amplifique "
+"la diferencia entre las tensiones de entrada."
 msgstr ""
-
+"In practice, it is important that the resistors R1 and R1' as well as R2 and"
+" R2' have a value as similar as possible to each other, to prevent the "
+"common input voltages from being amplified and only the difference between "
+"the input voltages being amplified. entrance."
 #: ../../source/electronic-operational-differential.rst:42
 msgid "Resistencia de entrada y de salida"
-msgstr ""
-
+msgstr "Input and output resistance"
 #: ../../source/electronic-operational-differential.rst:43
 msgid "La resistencia de entrada a la tensión común de entrada vale:"
-msgstr ""
-
+msgstr "The input resistance at the common input voltage is:"
 #: ../../source/electronic-operational-differential.rst:45
 msgid "R_{in} = R1 + R2"
-msgstr ""
-
+msgstr "R_{in} = R1 + R2"
 #: ../../source/electronic-operational-differential.rst:49
-msgid "Y la resistencia de entrada a las diferencias de tensión de entrada vale:"
-msgstr ""
-
+msgid ""
+"Y la resistencia de entrada a las diferencias de tensión de entrada vale:"
+msgstr "And the input resistance to input voltage differences is:"
 #: ../../source/electronic-operational-differential.rst:51
 msgid "R_{in} = 2 \\cdot R1"
-msgstr ""
-
+msgstr "R_{in} = 2 \\cdot R1"
 #: ../../source/electronic-operational-differential.rst:55
 msgid ""
-"La resistencia de salida será muy baja, idealmente cero, porque la salida"
-" está directamente conectada a la salida del amplificador operacional."
+"La resistencia de salida será muy baja, idealmente cero, porque la salida "
+"está directamente conectada a la salida del amplificador operacional."
 msgstr ""
-
+"The output resistance will be very low, ideally zero, because the output is "
+"directly connected to the output of the op amp."
 #: ../../source/electronic-operational-differential.rst:59
 msgid "Simulación"
-msgstr ""
-
+msgstr "Simulation"
 #: ../../source/electronic-operational-differential.rst:60
 msgid ""
-"En la siguiente simulación podemos ver un amplificador diferencial al que"
-" le llegan dos tensiones de entrada. Una tensión senoidal, V1, de "
-"entrada, es común a ambas entradas y no se amplifica su tensión. La otra "
-"tensión triangular, V2, representa la diferencia entre las dos tensiones "
-"de entrada y sí que se amplifica en la salida."
+"En la siguiente simulación podemos ver un amplificador diferencial al que le"
+" llegan dos tensiones de entrada. Una tensión senoidal, V1, de entrada, es "
+"común a ambas entradas y no se amplifica su tensión. La otra tensión "
+"triangular, V2, representa la diferencia entre las dos tensiones de entrada "
+"y sí que se amplifica en la salida."
 msgstr ""
-
+"In the following simulation we can see a differential amplifier to which two"
+" input voltages arrive. A sinusoidal input voltage, V1, is common to both "
+"inputs and its voltage is not amplified. The other triangular voltage, V2, "
+"represents the difference between the two input voltages and is amplified at"
+" the output."
 #: ../../source/electronic-operational-differential.rst:74
 msgid "Ejercicios"
-msgstr ""
-
+msgstr "Exercises"
 #: ../../source/electronic-operational-differential.rst:76
 msgid ""
 "Dibuja el esquema de un amplificador diferencial ideal. Añade debajo del "
 "dibujo la fórmula de la ganancia diferencial."
 msgstr ""
-
+"Draw the schematic of an ideal differential amplifier. Add the differential "
+"gain formula below the drawing."
 #: ../../source/electronic-operational-differential.rst:79
 msgid ""
 "¿Qué tipo de realimentación tiene el amplificador diferencial? ¿Qué "
 "resistencia lo determina?"
 msgstr ""
-
+"What type of feedback does the differential amplifier have? What resistance "
+"determines it?"
 #: ../../source/electronic-operational-differential.rst:82
 msgid ""
 "¿Qué función realiza un amplificador diferencial? ¿Qué es lo que no "
 "amplifica un amplificador diferencial?"
 msgstr ""
-
+"What function does a differential amplifier perform? What does a "
+"differential amplifier not amplify?"
 #: ../../source/electronic-operational-differential.rst:85
 msgid ""
 "Con la fórmula de la ganancia calcula la ganancia que debe tener el "
 "amplificador diferencial simulado."
 msgstr ""
-
+"Using the gain formula, calculate the gain that the simulated differential "
+"amplifier should have."
 #: ../../source/electronic-operational-differential.rst:88
 msgid ""
 "Modifica la simulación del amplificador diferencial de manera que la "
-"resistencia R1 tenga un valor ligeramente inferior, 9k. ¿Qué le ocurre a "
-"la tensión de salida del circuito?"
+"resistencia R1 tenga un valor ligeramente inferior, 9k. ¿Qué le ocurre a la "
+"tensión de salida del circuito?"
 msgstr ""
-
+"Modify the differential amplifier simulation so that resistor R1 has a "
+"slightly lower value, 9k. What happens to the output voltage of the circuit?"
 #: ../../source/electronic-operational-differential.rst:92
 msgid ""
 "Con ayuda del `simulador de circuitos "
@@ -149,10 +146,15 @@ msgid ""
 "resistencia de entrada diferencial debe valer 100k ohmios. La ganancia "
 "diferencial debe valer 10."
 msgstr ""
-
+"With the help of the `circuit simulator "
+"<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ draw a "
+"differential amplifier based on an ideal operational amplifier. The "
+"differential input resistance must be 100k ohms. The differential gain must "
+"be worth 10."
 #: ../../source/electronic-operational-differential.rst:99
 msgid ""
 "Añade un generador de tensión senoidal de 0.1 voltio de pico entre las "
 "entradas. Comprueba que la salida de tensión vale 1 voltio de pico."
 msgstr ""
-
+"Add a 0.1 volt peak sinusoidal voltage generator between the inputs. Check "
+"that the voltage output is 1 volt peak."

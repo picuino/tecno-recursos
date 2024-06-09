@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Electrónica analógica - 22. El comparador">
-  <title>22. El comparador - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 22. The comparator">
+  <title>22. The comparator - Electrónica analógica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="23. El comparador con histéresis" href="electronic-operational-hysteresis.html">
-  <link rel="prev" title="21. El detector de pico" href="electronic-operational-peakdetector.html">
+  <link rel="next" title="23. The comparator with hysteresis" href="electronic-operational-hysteresis.html">
+  <link rel="prev" title="21. The peak detector" href="electronic-operational-peakdetector.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">Electronics</a>/</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
         
           <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
         
-      <li><span class="section-number">22. </span>El comparador</li>
+      <li><span class="section-number">22. </span>The comparator</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,88 +102,56 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-comparador">
-<span id="electronic-operational-comparator"></span><h1><span class="section-number">22. </span>El comparador<a class="headerlink" href="#el-comparador" title="Permalink to this headline">¶</a></h1>
-<p>El comparador es un circuito electrónico semejante al amplificador
-operacional, con la diferencia de estar especializado en dar una salida
-digital, que se conecta a la tensión positiva o a la tensión negativa
-de alimentación, sin entregar tensiones intermedias.</p>
+<span id="electronic-operational-comparator"></span><h1><span class="section-number">22. </span>The comparator<a class="headerlink" href="#el-comparador" title="Permalink to this headline">¶</a></h1>
+<p>The comparator is an electronic circuit similar to the operational amplifier, with the difference of being specialized in providing a digital output, which is connected to the positive voltage or the negative supply voltage, without providing intermediate voltages.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-oa.png"><img alt="Símbolo del comparador." src="_images/electronic-analog-oa.png" style="width: 200px;"></a>
-<p class="caption"><span class="caption-text">Símbolo del comparador.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Comparator symbol.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Los terminales del comparador son los mismos terminales que tiene un
-amplificador operacional. La diferencia entre ambos consiste en su
-funcionamiento interno, mucho más rápido y especializado en dar salidas
-todo-nada.</p>
+<p>The terminals of the comparator are the same terminals that an operational amplifier has. The difference between the two consists of their internal functioning, which is much faster and specialized in giving all-nothing outputs.</p>
 <dl class="docutils">
-<dt>Terminales del comparador real:</dt><dd><ul class="simple">
-<li>Terminal de entrada negativo.</li>
-<li>Terminal de entrada positivo.</li>
-<li>Terminal de salida.</li>
-<li>Terminal de alimentación positiva.</li>
-<li>Terminal de alimentación negativa.</li>
+<dt>Actual comparator terminals:</dt><dd><ul class="simple">
+<li>Negative input terminal.</li>
+<li>Positive input terminal.</li>
+<li>Output terminal.</li>
+<li>Positive power terminal.</li>
+<li>Negative power terminal.</li>
 </ul>
 </dd>
 </dl>
 <div class="section" id="funcionamiento">
-<h2>Funcionamiento<a class="headerlink" href="#funcionamiento" title="Permalink to this headline">¶</a></h2>
-<p>Un comparador es un componente electrónico semejante al amplificador
-operacional. Tiene dos terminales de entrada de tensión que se comparan
-entre sí y un terminal de salida que entrega una tensión que depende de
-la tensión de entrada que sea mayor.
-Si la entrada positiva tiene una tensión mayor que la entrada negativa,
-la tensión de salida será positiva.
-Al revés, si la entrada negativa tiene una tensión mayor que la entrada
-positiva, la tensión de salida será negativa.</p>
-<p>La <strong>diferencia</strong> del comparador con respecto al amplificador operacional
-consiste en que su salida está preparada para entregar valores
-extremos. La salida se conectará a la tensión de alimentación positiva o
-a la tensión de alimentación negativa.
-Este circuito no está preparado para dar valores de tensión intermedios.</p>
-<p>Una ventaja del comparador consiste en que su respuesta es mucho más
-rápida que la respuesta de un amplificador operacional equivalente.</p>
+<h2>Functioning<a class="headerlink" href="#funcionamiento" title="Permalink to this headline">¶</a></h2>
+<p>A comparator is an electronic component similar to the operational amplifier. It has two voltage input terminals that are compared to each other and an output terminal that delivers a voltage that depends on the input voltage, whichever is higher. If the positive input has a higher voltage than the negative input, the output voltage will be positive. Conversely, if the negative input has a higher voltage than the positive input, the output voltage will be negative.</p>
+<p>The <strong>difference</strong> of the comparator with respect to the operational amplifier is that its output is prepared to deliver extreme values. The output will be connected to the positive supply voltage or the negative supply voltage. This circuit is not prepared to give intermediate voltage values.</p>
+<p>An advantage of the comparator is that its response is much faster than the response of an equivalent operational amplifier.</p>
 </div>
 <div class="section" id="simulacion">
-<h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>En el siguiente circuito podemos ver un comparador funcionando como
-detector de luminosidad. El circuito enciende una lámpara cuando
-el detector de luz detecta poca luminosidad en el exterior de la casa.</p>
-<p>Este comparador tiene una salida que se denomina en &quot;colector abierto&quot;
-y eso significa que solo es capaz de conectar la salida a tensión
-negativa. Por lo tanto el circuito necesita que se añada la resistencia
-R4 para conseguir una tensión positiva a la salida.</p>
-<p>Esta resistencia R4 se denomina resistencia de
-<a class="reference external" href="https://en.wikipedia.org/wiki/Pull-up_resistor" rel="noopener noreferrer" target="_blank">pull-up</a> porque
-'levanta' la tensión de salida hacia valores positivos.</p>
+<h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>In the following circuit we can see a comparator functioning as a luminosity detector. The circuit turns on a lamp when the light detector detects low brightness outside the house.</p>
+<p>This comparator has an output that is called &quot;open collector&quot; and that means that it is only capable of connecting the output to negative voltage. Therefore, the circuit needs resistor R4 to be added to achieve a positive voltage at the output.</p>
+<p>This resistor R4 is called a <a class="reference external" href="https://en.wikipedia.org/wiki/Pull-up_resistor" rel="noopener noreferrer" target="_blank">pull-up resistor</a> because it 'pulls up' the output voltage towards positive values.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=oa-comparator-1.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja el símbolo de un comparador.</p>
+<li><p class="first">Draw the symbol for a comparator.</p>
 </li>
-<li><p class="first">Explica con tus palabras el funcionamiento de un comparador.</p>
+<li><p class="first">Explain in your words how a comparator works.</p>
 </li>
-<li><p class="first">¿Cuántos terminales tiene un comparador real?
-¿Para que sirve cada uno?</p>
+<li><p class="first">How many terminals does a real comparator have? What does each one work for?</p>
 </li>
-<li><p class="first">¿Qué diferencias tiene un comparador respecto a un amplificador
-operacional?</p>
+<li><p class="first">What differences does a comparator have with respect to an operational amplifier?</p>
 </li>
-<li><p class="first">¿Qué es una resistencia de pull-up y para qué sirve?</p>
-<p>¿Por qué es necesaria una resistencia de pull-up en algunos
-comparadores?</p>
+<li><p class="first">What is a pull-up resistor and what is it for?</p>
+<p>Why is a pull-up resistor needed in some comparators?</p>
 </li>
-<li><p class="first">¿Qué tipo de realimentación crees que tiene el circuito de la
-simulación? Razona tu respuesta.</p>
+<li><p class="first">What type of feedback do you think the simulation circuit has? Reason your answer.</p>
 </li>
-<li><p class="first">Dibuja un circuito que utilice un comparador para detectar la
-luminosidad ambiente y que encienda una lámpara cuando el ambiente
-sea oscuro.</p>
+<li><p class="first">Draw a circuit that uses a comparator to detect ambient brightness and turns on a lamp when the environment is dark.</p>
 </li>
-<li><p class="first">Modifica la simulación anterior para que la lámpara se encienda cuando
-haya mucha luz en el sensor y que se apague cuando haya poca luz.</p>
+<li><p class="first">Modify the simulation above so that the lamp turns on when there is high light on the sensor and turns off when there is low light.</p>
 </li>
 </ol>
 </div>
@@ -198,10 +166,10 @@ haya mucha luz en el sensor y que se apague cuando haya poca luz.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-operational-hysteresis.html" class="btn btn-neutral float-right" title="23. El comparador con histéresis" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-operational-hysteresis.html" class="btn btn-neutral float-right" title="23. The comparator with hysteresis" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-operational-peakdetector.html" class="btn btn-neutral" title="21. El detector de pico" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-operational-peakdetector.html" class="btn btn-neutral" title="21. The peak detector" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -226,7 +194,7 @@ haya mucha luz en el sensor y que se apague cuando haya poca luz.</p>
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on March, 2024.
+        Last updated on June, 2024.
       </span>
 
     </p>
@@ -288,35 +256,35 @@ haya mucha luz en el sensor y que se apague cuando haya poca luz.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. El diodo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. El diodo rectificador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. El diodo limitador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. El diodo zener</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. El diodo led</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. El transistor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. El transistor en emisor común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. El transistor en colector común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. El transistor en base común</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. El esquema Darlington</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. El esquema push-pull</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. El par diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. La fuente de corriente</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. El transistor mosfet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. El amplificador operacional</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. El amplificador seguidor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. El amplificador inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. El amplificador sumador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. El amplificador no inversor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. El amplificador diferencial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. El detector de pico</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">22. El comparador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. El comparador con histéresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">22. The comparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>
