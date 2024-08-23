@@ -17,9 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:11
 msgid "Dibujar espirales"
 msgstr "Draw spirals"
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:13
 msgid ""
@@ -29,25 +31,52 @@ msgstr ""
 "In this practice we are going to move a character around the screen so "
 "that it draws several colored spirals."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:19
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:23
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:28
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:39
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:51
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:61
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:71
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:81
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:96
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:103
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:113
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:148
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:157
 msgid "|br|"
 msgstr "|br|"
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:21
 msgid "Iniciamos el |editor_de_Scratch|."
 msgstr "We start the |Scratch_editor|."
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:25
 msgid ""
@@ -57,6 +86,7 @@ msgstr ""
 "Press the language button |boton-idioma| in the top bar and choose "
 "**English**."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:30
 msgid ""
 "Añadimos una nueva variable **Lado** que guardará el tamaño del lado que "
@@ -65,17 +95,21 @@ msgstr ""
 "We add a new variable **Side** that will store the size of the side that "
 "is currently being drawn."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:33
 msgid "Pulsamos el botón de variables |boton-variables|,"
 msgstr "Press the variables button |boton-variables|,"
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:35
 msgid "pulsamos en crear una variable  |boton-crear-variable|."
 msgstr "click on create a variable |boton-crear-variable|."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:37
 msgid "Cambiamos el nombre de la variable a **Lado**"
 msgstr "We change the name of the variable to **Side**"
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:41
 msgid ""
@@ -85,9 +119,11 @@ msgstr ""
 "We add a new extension with the button **add extension** |aniadir-"
 "extension| down left."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:44
 msgid "Seleccionamos la extensión **Lápiz** para poder dibujar."
 msgstr "We select the **Pencil** extension to be able to draw."
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:48
 msgid ""
@@ -97,25 +133,38 @@ msgstr ""
 "A new icon will appear in the code bar, the Pencil |boton-lapiz|, with "
 "dark green instructions."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:53
 msgid "Creamos un nuevo bloque llamado **inicio**."
 msgstr "We create a new block called **start**."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:55
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:75
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:107
 msgid "Primero pulsamos en el botón mis bloques  |boton-misbloques|"
 msgstr "First click on the button my blocks |boton-misbloques|"
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:57
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:77
+
+
 #: ../../source/scratch3-dibujar-espirales.rst:109
 msgid "A continuación pulsamos en crear un bloque |boton-crear-bloque|"
 msgstr "Then click on create a block |boton-crear-bloque|"
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:59
 msgid "Luego cambiamos el nombre del nuevo bloque a **inicio**"
 msgstr "Then we change the name of the new block to **start**"
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:63
 msgid ""
@@ -129,19 +178,23 @@ msgstr ""
 "lower the pen to paint, set the pen thickness and color, and clear the "
 "screen."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:73
 msgid "Creamos un nuevo bloque llamado **cuadrado**."
 msgstr "We create a new block called **square**."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:79
 msgid "Luego cambiamos el nombre del nuevo bloque a **cuadrado**"
 msgstr "Then we change the name of the new block to **square**"
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:83
 msgid ""
 "El bloque **cuadrado** servirá para dibujar una espiral cuadrada en la "
 "pantalla."
 msgstr "The **square** block will be used to draw a square spiral on the screen."
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:86
 msgid ""
@@ -151,6 +204,7 @@ msgstr ""
 "The size of the side starts with the value 5 and grows by 4 steps until "
 "it is equal to or greater than 340."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:89
 msgid ""
 "En cada paso se dibuja una línea de tamaño \"Lado\", aumenta el tamaño "
@@ -158,6 +212,7 @@ msgid ""
 msgstr ""
 "Each step draws a line of \"Side\" size, increases the size of the side, "
 "rotates 90º and increases the color of the pencil."
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:98
 msgid ""
@@ -167,13 +222,16 @@ msgstr ""
 "If we click on the **\"define square\"** block, the square spiral will "
 "appear on the screen."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:105
 msgid "Ahora vamos a crear un nuevo bloque llamado **triangulo**."
 msgstr "Now we are going to create a new block called **triangle**."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:111
 msgid "Luego cambiamos el nombre del nuevo bloque a **triangulo**"
 msgstr "Then we change the name of the new block to **triangle**"
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:115
 msgid ""
@@ -182,6 +240,7 @@ msgid ""
 msgstr ""
 "The **triangle** block is very similar to the **square** block, only the "
 "angle of rotation changes."
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:118
 msgid ""
@@ -193,6 +252,7 @@ msgstr ""
 " the right mouse button on the **square** instructions and choose the "
 "duplicate option."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:124
 msgid ""
 "una vez duplicado el programa, lo enganchamos en el bloque triángulo y "
@@ -200,6 +260,7 @@ msgid ""
 msgstr ""
 "Once the program has been duplicated, we hook it to the triangle block "
 "and change the angle of rotation."
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:131
 msgid ""
@@ -209,9 +270,11 @@ msgstr ""
 "If we click on the block **\"define triangle\"**, the triangular spiral "
 "will appear on the screen."
 
+
 #: ../../source/scratch3-dibujar-espirales.rst:141
 msgid "Retos"
 msgstr "Challenges"
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:143
 msgid ""
@@ -220,6 +283,7 @@ msgid ""
 msgstr ""
 "Make a new block that draws a star spiral. Modify the parameters of the "
 "new block to rotate 150 degrees."
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:150
 msgid ""
@@ -230,6 +294,7 @@ msgstr ""
 "Create a new block to draw an octagonal spiral. Turns must be 45 degrees."
 " The side must add to 1 on each repetition and must be repeated until the"
 " side is greater than 150."
+
 
 #: ../../source/scratch3-dibujar-espirales.rst:159
 msgid "Experimenta con el programa para crear nuevos dibujos originales."

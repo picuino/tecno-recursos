@@ -14,9 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding:8bit"
 "Generated-By:Babel 2.9.0"
 
+
 #: ../../source/electronic-operational-comparator.rst:9
 msgid "El comparador"
 msgstr "The comparator"
+
+
 #: ../../source/electronic-operational-comparator.rst:10
 msgid ""
 "El comparador es un circuito electrónico semejante al amplificador "
@@ -28,9 +31,13 @@ msgstr ""
 "amplifier, with the difference of being specialized in providing a digital "
 "output, which is connected to the positive voltage or the negative supply "
 "voltage, without providing intermediate voltages."
+
+
 #: ../../source/electronic-operational-comparator.rst:20
 msgid "Símbolo del comparador."
 msgstr "Comparator symbol."
+
+
 #: ../../source/electronic-operational-comparator.rst:22
 msgid ""
 "Los terminales del comparador son los mismos terminales que tiene un "
@@ -42,27 +49,43 @@ msgstr ""
 "amplifier has. The difference between the two consists of their internal "
 "functioning, which is much faster and specialized in giving all-nothing "
 "outputs."
+
+
 #: ../../source/electronic-operational-comparator.rst:33
 msgid "Terminales del comparador real:"
 msgstr "Actual comparator terminals:"
+
+
 #: ../../source/electronic-operational-comparator.rst:28
 msgid "Terminal de entrada negativo."
 msgstr "Negative input terminal."
+
+
 #: ../../source/electronic-operational-comparator.rst:29
 msgid "Terminal de entrada positivo."
 msgstr "Positive input terminal."
+
+
 #: ../../source/electronic-operational-comparator.rst:30
 msgid "Terminal de salida."
 msgstr "Output terminal."
+
+
 #: ../../source/electronic-operational-comparator.rst:31
 msgid "Terminal de alimentación positiva."
 msgstr "Positive power terminal."
+
+
 #: ../../source/electronic-operational-comparator.rst:32
 msgid "Terminal de alimentación negativa."
 msgstr "Negative power terminal."
+
+
 #: ../../source/electronic-operational-comparator.rst:36
 msgid "Funcionamiento"
 msgstr "Functioning"
+
+
 #: ../../source/electronic-operational-comparator.rst:37
 msgid ""
 "Un comparador es un componente electrónico semejante al amplificador "
@@ -80,6 +103,8 @@ msgstr ""
 "voltage than the negative input, the output voltage will be positive. "
 "Conversely, if the negative input has a higher voltage than the positive "
 "input, the output voltage will be negative."
+
+
 #: ../../source/electronic-operational-comparator.rst:46
 msgid ""
 "La **diferencia** del comparador con respecto al amplificador operacional "
@@ -93,6 +118,8 @@ msgstr ""
 "output will be connected to the positive supply voltage or the negative "
 "supply voltage. This circuit is not prepared to give intermediate voltage "
 "values."
+
+
 #: ../../source/electronic-operational-comparator.rst:52
 msgid ""
 "Una ventaja del comparador consiste en que su respuesta es mucho más rápida "
@@ -100,9 +127,13 @@ msgid ""
 msgstr ""
 "An advantage of the comparator is that its response is much faster than the "
 "response of an equivalent operational amplifier."
+
+
 #: ../../source/electronic-operational-comparator.rst:57
 msgid "Simulación"
 msgstr "Simulation"
+
+
 #: ../../source/electronic-operational-comparator.rst:58
 msgid ""
 "En el siguiente circuito podemos ver un comparador funcionando como detector"
@@ -112,6 +143,8 @@ msgstr ""
 "In the following circuit we can see a comparator functioning as a luminosity"
 " detector. The circuit turns on a lamp when the light detector detects low "
 "brightness outside the house."
+
+
 #: ../../source/electronic-operational-comparator.rst:62
 msgid ""
 "Este comparador tiene una salida que se denomina en \"colector abierto\" y "
@@ -123,6 +156,8 @@ msgstr ""
 "means that it is only capable of connecting the output to negative voltage. "
 "Therefore, the circuit needs resistor R4 to be added to achieve a positive "
 "voltage at the output."
+
+
 #: ../../source/electronic-operational-comparator.rst:67
 msgid ""
 "Esta resistencia R4 se denomina resistencia de `pull-up "
@@ -132,33 +167,49 @@ msgstr ""
 "This resistor R4 is called a `pull-up resistor "
 "<https://en.wikipedia.org/wiki/Pull-up_resistor>`__ because it 'pulls up' "
 "the output voltage towards positive values."
+
+
 #: ../../source/electronic-operational-comparator.rst:79
 msgid "Ejercicios"
 msgstr "Exercises"
+
+
 #: ../../source/electronic-operational-comparator.rst:81
 msgid "Dibuja el símbolo de un comparador."
 msgstr "Draw the symbol for a comparator."
+
+
 #: ../../source/electronic-operational-comparator.rst:83
 msgid "Explica con tus palabras el funcionamiento de un comparador."
 msgstr "Explain in your words how a comparator works."
+
+
 #: ../../source/electronic-operational-comparator.rst:85
 msgid ""
 "¿Cuántos terminales tiene un comparador real? ¿Para que sirve cada uno?"
 msgstr ""
 "How many terminals does a real comparator have? What does each one work for?"
+
+
 #: ../../source/electronic-operational-comparator.rst:88
 msgid ""
 "¿Qué diferencias tiene un comparador respecto a un amplificador operacional?"
 msgstr ""
 "What differences does a comparator have with respect to an operational "
 "amplifier?"
+
+
 #: ../../source/electronic-operational-comparator.rst:91
 msgid "¿Qué es una resistencia de pull-up y para qué sirve?"
 msgstr "What is a pull-up resistor and what is it for?"
+
+
 #: ../../source/electronic-operational-comparator.rst:93
 msgid ""
 "¿Por qué es necesaria una resistencia de pull-up en algunos comparadores?"
 msgstr "Why is a pull-up resistor needed in some comparators?"
+
+
 #: ../../source/electronic-operational-comparator.rst:96
 msgid ""
 "¿Qué tipo de realimentación crees que tiene el circuito de la simulación? "
@@ -166,6 +217,8 @@ msgid ""
 msgstr ""
 "What type of feedback do you think the simulation circuit has? Reason your "
 "answer."
+
+
 #: ../../source/electronic-operational-comparator.rst:99
 msgid ""
 "Dibuja un circuito que utilice un comparador para detectar la luminosidad "
@@ -173,6 +226,8 @@ msgid ""
 msgstr ""
 "Draw a circuit that uses a comparator to detect ambient brightness and turns"
 " on a lamp when the environment is dark."
+
+
 #: ../../source/electronic-operational-comparator.rst:103
 msgid ""
 "Modifica la simulación anterior para que la lámpara se encienda cuando haya "

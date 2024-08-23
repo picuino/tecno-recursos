@@ -17,9 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:9
 msgid "Circuito impreso con luces led"
 msgstr "Printed circuit with led lights"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:11
 msgid ""
@@ -29,6 +31,7 @@ msgstr ""
 "Design and assembly of a simple printed circuit with 6 blinking led "
 "lights."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:19
 msgid ""
 ":download:`Placa de circuito impreso ya montada. Formato JPG. "
@@ -37,9 +40,11 @@ msgstr ""
 ":download:`Printed circuit board already assembled. JPG format. "
 "<electronic/_images/electronic-pcb-luces-led-03.jpg>`"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:24
 msgid "Circuito eléctrico completo"
 msgstr "Complete electrical circuit"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:31
 msgid ""
@@ -49,9 +54,11 @@ msgstr ""
 ":download:`Electrical circuit of the circuit with led lights. PDF format."
 " <electronic/electronic-pcb-luces-led.pdf>`"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:36
 msgid "Funcionamiento del circuito oscilador"
 msgstr "Oscillator circuit operation"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:38
 msgid ""
@@ -61,6 +68,7 @@ msgstr ""
 "The blinking lights circuit is based on an oscillator that changes its "
 "output every so often, turning the led on and off."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:46
 msgid ""
 "Este circuito oscilador está formado por un inversor con trigger schmitt,"
@@ -68,6 +76,7 @@ msgid ""
 msgstr ""
 "This oscillator circuit consists of an inverter with a schmitt trigger, a"
 " capacitor C1 and a feedback resistor R3."
+
 
 #: ../../source/electronic-pcb-luces-led.rst:49
 msgid ""
@@ -85,6 +94,7 @@ msgstr ""
 "we can see how the inverter output voltage changes for different input "
 "voltages. This rectangular figure with two horizontal lines is the one "
 "with the inverter inside and indicates that it works with hysteresis."
+
 
 #: ../../source/electronic-pcb-luces-led.rst:62
 msgid ""
@@ -107,6 +117,7 @@ msgstr ""
 "inverter considers that the input is a logical one and therefore changes "
 "its value. output to zero volts (logic zero)."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:74
 msgid ""
 "Ahora, la resistencia de realimentación R3 va descargando poco a poco la "
@@ -121,6 +132,7 @@ msgstr ""
 " to five volts (a logical one) returning the cycle to repeat itself over "
 "and over again."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:80
 msgid ""
 "La velocidad de oscilación dependerá de los valores del condensador y de "
@@ -131,11 +143,13 @@ msgstr ""
 "resistor. The larger they are, the longer it will take for the circuit to"
 " oscillate. The approximate formula for oscillation time is:"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:84
 msgid ""
 "Tiempo de oscilación = 0,8·R3·C1  = 0,8 · 220000 · 0,000010 = 1,76 "
 "segundos"
 msgstr "Oscillation time = 0.8·R3·C1 = 0.8 · 220000 · 0.000010 = 1.76 seconds"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:91
 msgid ""
@@ -145,6 +159,7 @@ msgid ""
 msgstr ""
 "LED D1 connected to the oscillator output by means of a limiting resistor"
 " R1, will turn on and off at the same speed as the oscillator."
+
 
 #: ../../source/electronic-pcb-luces-led.rst:94
 msgid ""
@@ -156,6 +171,7 @@ msgstr ""
 "limiting resistor R2, will turn on when D1 is off and will turn off when "
 "D1 is on, producing alternate blinking."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:98
 msgid ""
 "Este comportamiento se repite en los tres osciladores que tiene el "
@@ -166,9 +182,11 @@ msgstr ""
 "circuit has, at different frequencies since R3, R6 and R9 have different "
 "values ​​and therefore different blink rates."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:104
 msgid "Circuito impreso (PCB)"
 msgstr "Printed circuit (PCB)"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:111
 msgid ""
@@ -178,6 +196,7 @@ msgstr ""
 ":download:`Design of the electrical circuit and the printed circuit. "
 "KiCad format. <electronic/electronic-pcb-luces-led.zip>`"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:114
 msgid ""
 ":download:`Archivos Gerber para la fabricación del circuito impreso. "
@@ -185,6 +204,7 @@ msgid ""
 msgstr ""
 ":download:`Gerber files for the manufacture of the printed circuit. ZIP "
 "format. <electronic/electronic-pcb-luces-led-gerber.zip>`"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:117
 msgid ""
@@ -198,6 +218,7 @@ msgstr ""
 "`JLCPCB <https://jlcpcb.com/>`__ or `PCBWay <https://www "
 ".pcbway.com/>`__."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:122
 msgid ""
 "En total hay un conjunto de 7 archivos gerber diferentes, tres archivos "
@@ -210,45 +231,56 @@ msgstr ""
 "There is also a file that indicates where the holes should be made "
 "(drill)."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:127
 msgid "Los archivos gerber y de taladrado se reparten como indica a continuación:"
 msgstr "The gerber and drill files are partitioned as follows:"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:129
 msgid "Pistas de cobre de la capa frontal (F_Cu)"
 msgstr "Front Layer Copper Tracks (F_Cu)"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:130
 msgid "Pistas de cobre de la capa trasera (B_Cu)"
 msgstr "Back layer copper tracks (B_Cu)"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:131
 msgid "Máscara de soldadura de la capa frontal (F_Mask)"
 msgstr "Front Layer Solder Mask (F_Mask)"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:132
 msgid "Máscara de soldadura de la capa trasera (B_Mask)"
 msgstr "Back Layer Solder Mask (B_Mask)"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:133
 msgid "Serigrafía de componentes de la parte frontal (F_SilkS)"
 msgstr "Front component silkscreen (F_SilkS)"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:134
 msgid "Serigrafía de componentes de la parte trasera (B_SilkS)"
 msgstr "Back component silkscreen (B_SilkS)"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:135
 msgid "Bordes para recortar la placa (Edge_Cuts)"
 msgstr "Edges to trim the plate (Edge_Cuts)"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:136
 msgid "Archivo de taladros (.drl)"
 msgstr "Drill file (.drl)"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:153
 msgid "**Pistas de cobre:**"
 msgstr "**Copper Tracks:**"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:150
 msgid ""
@@ -261,9 +293,11 @@ msgstr ""
 "circuit board together. They appear in the drawing as yellow (no solder "
 "mask) or light green (already covered with solder mask)."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:159
 msgid "**Máscara de soldadura:**"
 msgstr "**Solder Mask:**"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:156
 msgid ""
@@ -278,9 +312,11 @@ msgstr ""
 "short circuits when carrying out the welding process. Solder mask is not "
 "applied on top of solder pads."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:166
 msgid "**Serigrafía de componentes**:"
 msgstr "**Component Screen Printing**:"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:162
 msgid ""
@@ -294,9 +330,11 @@ msgstr ""
 "drawings. This layer of paint is applied with the screen printing "
 "technique and hence its name."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:169
 msgid "Listado de componentes (BOM)"
 msgstr "List of components (BOM)"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:170
 msgid ""
@@ -310,6 +348,7 @@ msgstr ""
 "quantity and their reference to be able to obtain them before carrying "
 "out the assembly."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:175
 msgid ""
 "La lista de componentes puede tener también la referencia de compra de un"
@@ -322,6 +361,7 @@ msgstr ""
 "references of the distributor `TME <https://www.tme.eu/>`_ have been "
 "added."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:179
 msgid ""
 ":download:`Listado de componentes de la placa con luces led. Formato PDF."
@@ -329,6 +369,7 @@ msgid ""
 msgstr ""
 ":download:`List of components of the board with led lights. PDF format. "
 "<electronic/pcb-luces-led/bom/electronic-pcb-luces-led-bom.pdf>`"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:182
 msgid ""
@@ -338,9 +379,11 @@ msgstr ""
 ":download:`List of components of the board with led lights. SDG format. "
 "<electronic/pcb-luces-led/bom/electronic-pcb-luces-led-bom.ods>`"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:187
 msgid "Orden y posición de montaje"
 msgstr "Mounting order and position"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:189
 msgid ""
@@ -355,6 +398,7 @@ msgstr ""
 "In this way, when the printed circuit board is turned over, the "
 "components can rest on the table and will not be detached from the board."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:194
 msgid ""
 "Además cada componente tiene una posición de soldadura. Si no respetamos "
@@ -365,13 +409,16 @@ msgstr ""
 "respect this position we run the risk of damaging the component or making"
 " the circuit not work."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:198
 msgid "El orden y posición de montaje son las siguientes:"
 msgstr "The mounting order and position are as follows:"
 
+
 #: ../../source/electronic-pcb-luces-led.rst:200
 msgid "**1. Resistencias**:"
 msgstr "**1. Resistors**:"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:202
 msgid ""
@@ -386,9 +433,11 @@ msgstr ""
 "aligned to the right (horizontal resistors) or facing up (vertical "
 "resistors) as in the image below. beginning of this unit."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:208
 msgid "**2. Interruptor de encendido SW1**:"
 msgstr "**2. Power Switch SW1**:"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:210
 msgid ""
@@ -398,9 +447,11 @@ msgstr ""
 "It will need to be mounted so that the switch lever is positioned outside"
 " of the PCB so that it is easy to operate the switch."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:214
 msgid "**3. Zócalo del circuito integrado**:"
 msgstr "**3. Integrated circuit socket**:"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:216
 msgid ""
@@ -411,6 +462,7 @@ msgstr ""
 "The socket has a small tab at the top that needs to be lined up with the "
 "tab on the component silkscreen, also at the top of the socket."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:220
 msgid ""
 "Si insertamos el circuito integrado en sentido incorrecto (hacia abajo) "
@@ -419,9 +471,11 @@ msgstr ""
 "If we insert the integrated circuit in the wrong direction (downwards) we"
 " run the risk of damaging it when current flows."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:223
 msgid "**4. Condensadores**:"
 msgstr "**4. Capacitors**:"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:225
 msgid ""
@@ -433,6 +487,7 @@ msgstr ""
 "indicates the negative pole of the component and that must be mounted in "
 "the also white area of ​​the printed circuit silkscreen."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:229
 msgid ""
 "Es muy importante que los condensadores estén correctamente montados "
@@ -443,9 +498,11 @@ msgstr ""
 "if they receive voltage in the opposite direction they will break down "
 "and also generate gas inside that can cause them to explode."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:233
 msgid "**5. Diodos led**:"
 msgstr "**5. LED diodes**:"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:235
 msgid ""
@@ -461,6 +518,7 @@ msgstr ""
 "distinguished by the fact that the circle has a chamfer and that the "
 "solder pad is square."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:245
 msgid ""
 "A la hora de distinguir el cátodo en los diodos led, la manera más "
@@ -472,9 +530,11 @@ msgstr ""
 "way is to look inside and look for the largest metal area, where the LED "
 "rests and which is connected to the negative pin (cathode)."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:254
 msgid "**6. Cables de batería**:"
 msgstr "**6. Battery cables**:"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:256
 msgid ""
@@ -484,6 +544,7 @@ msgstr ""
 "It is very important to respect the order of the battery cables so as not"
 " to burn the circuit."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:259
 msgid ""
 "El cable **rojo es positivo** y va conectado en el agujero superior "
@@ -491,6 +552,7 @@ msgid ""
 msgstr ""
 "The **red wire is positive** and is connected to the top hole (indicated "
 "by a `+` symbol on the silkscreen)."
+
 
 #: ../../source/electronic-pcb-luces-led.rst:262
 msgid ""
@@ -500,9 +562,11 @@ msgstr ""
 "The **black wire is negative** and is connected to the bottom hole "
 "(indicated by a `-` symbol on the silkscreen)."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:267
 msgid "Soldadura"
 msgstr "Welding"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:270
 msgid ""
@@ -513,6 +577,7 @@ msgstr ""
 "Welding is done by adding material that is made up of tin and **lead**, "
 "so it is necessary to follow some safety procedures."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:274
 msgid ""
 "Es importante utilizar guantes o **lavarse las manos** correctamente "
@@ -520,6 +585,7 @@ msgid ""
 msgstr ""
 "It is important to wear gloves or **wash hands** properly after handling "
 "tin-lead wire."
+
 
 #: ../../source/electronic-pcb-luces-led.rst:277
 msgid ""
@@ -531,6 +597,7 @@ msgstr ""
 "These gases should not be inhaled. Welding should be done in a well-"
 "ventilated place with the windows open."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:282
 msgid ""
 "La técnica de soldadura es relativamente sencilla, pero no viene mal "
@@ -540,6 +607,7 @@ msgstr ""
 "The welding technique is relatively simple, but it does not hurt to have "
 "some clear concepts on how to do it correctly before starting."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:285
 msgid ""
 "En el siguiente vídeo se puede ver la técnica correcta para la soldadura "
@@ -548,11 +616,13 @@ msgstr ""
 "In the following video you can see the correct technique for soldering "
 "the components."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:288
 msgid ""
 "Vídeo: `solder Through-hole Components - Soldering Techniques #02. "
 "<https://www.youtube-nocookie.com/embed/vAx89WhpZ3k>`__"
 msgstr ""
+
 
 #: ../../source/electronic-pcb-luces-led.rst:292
 msgid ""
@@ -565,11 +635,13 @@ msgstr ""
 "quality solder and a low quality one. Good quality tin is much easier to "
 "work with and leaves a shiny, less oxidized and more robust solder."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:297
 msgid ""
 "Vídeo: `solder wire - Low vs High Quality. <https://www.youtube-"
 "nocookie.com/embed/5Ku7I3hA3AA>`__"
 msgstr ""
+
 
 #: ../../source/electronic-pcb-luces-led.rst:301
 msgid ""
@@ -581,15 +653,18 @@ msgstr ""
 "keeping a solder point hot for too long, the flux evaporates and the "
 "solder oxidizes and loses its shine."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:305
 msgid ""
 "Vídeo: `when to use Flux? <https://www.youtube-"
 "nocookie.com/embed/tfIwHuGzUEk>`__"
 msgstr ""
 
+
 #: ../../source/electronic-pcb-luces-led.rst:310
 msgid "Reparar una soldadura"
 msgstr "Repair a weld"
+
 
 #: ../../source/electronic-pcb-luces-led.rst:312
 msgid ""
@@ -603,9 +678,11 @@ msgstr ""
 "techniques, one of the simplest is to absorb the solder with a mesh of "
 "fine copper wires."
 
+
 #: ../../source/electronic-pcb-luces-led.rst:317
 msgid "En el siguiente vídeo se pueden observar algunas técnicas de desoldar."
 msgstr "In the following video you can see some desoldering techniques."
+
 
 #: ../../source/electronic-pcb-luces-led.rst:319
 msgid ""

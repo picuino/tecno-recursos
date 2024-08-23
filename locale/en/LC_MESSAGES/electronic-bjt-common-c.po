@@ -14,9 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding:8bit"
 "Generated-By:Babel 2.9.0"
 
+
 #: ../../source/electronic-bjt-common-c.rst:9
 msgid "El transistor en colector común"
 msgstr "The common collector transistor"
+
+
 #: ../../source/electronic-bjt-common-c.rst:10
 msgid ""
 "Al transistor en colector común también se le llama habitualmente **seguidor"
@@ -24,6 +27,8 @@ msgid ""
 msgstr ""
 "The common collector transistor is also commonly called **emitter "
 "follower**."
+
+
 #: ../../source/electronic-bjt-common-c.rst:13
 msgid ""
 "En esta configuración el transistor tiene el colector conectado a la tensión"
@@ -34,6 +39,8 @@ msgstr ""
 "positive voltage. The input signal arrives through the base of the "
 "transistor and the amplified signal exits through the emitter of the "
 "transistor."
+
+
 #: ../../source/electronic-bjt-common-c.rst:22
 msgid ""
 "Esquema simplificado de un transistor NPN en colector común o también "
@@ -41,6 +48,8 @@ msgid ""
 msgstr ""
 "Simplified diagram of a common collector NPN transistor or also known as "
 "\"emitter follower\"."
+
+
 #: ../../source/electronic-bjt-common-c.rst:25
 msgid ""
 "Esta configuración permite amplificar la corriente de entrada manteniendo la"
@@ -52,6 +61,8 @@ msgstr ""
 "maintaining the voltage unchanged. The output voltage, therefore, will be "
 "practically the same as the input voltage, minus the base-to-emitter diode "
 "voltage which is maintained at a value around 0.65 volts."
+
+
 #: ../../source/electronic-bjt-common-c.rst:31
 msgid ""
 "Este funcionamiento es útil en las etapas de salida de los circuitos, donde "
@@ -59,6 +70,8 @@ msgid ""
 msgstr ""
 "This operation is useful in the output stages of circuits, where a high "
 "current is necessary, for example, to drive a speaker."
+
+
 #: ../../source/electronic-bjt-common-c.rst:34
 msgid ""
 "A continuación puede verse una simulación de un transistor NPN en "
@@ -68,15 +81,21 @@ msgstr ""
 "Below you can see a simulation of an NPN transistor in common collector "
 "configuration. The transistor amplifies a signal that enters through the "
 "base, generating a signal with much higher current through the emitter."
+
+
 #: ../../source/electronic-bjt-common-c.rst:46
 msgid "La función de cada uno de los componentes es la siguiente:"
 msgstr "The function of each of the components is the following:"
+
+
 #: ../../source/electronic-bjt-common-c.rst:48
 msgid ""
 "El **generador de señal alterna** genera una señal de entrada de 2 voltios "
 "de pico."
 msgstr ""
 "The **alternating signal generator** generates a 2 volt peak input signal."
+
+
 #: ../../source/electronic-bjt-common-c.rst:51
 msgid ""
 "El **condensador C1** tiene como función llevar la señal alterna desde el "
@@ -86,6 +105,8 @@ msgstr ""
 "The function of **capacitor C1** is to carry the alternating signal from the"
 " generator to the base of the transistor, eliminating the direct current "
 "signal."
+
+
 #: ../../source/electronic-bjt-common-c.rst:55
 msgid ""
 "El efecto práctico consiste en que la tensión en el generador varía en torno"
@@ -94,6 +115,8 @@ msgid ""
 msgstr ""
 "The practical effect is that the voltage at the generator varies around zero"
 " volts and the voltage at the base of the transistor varies around 3 volts."
+
+
 #: ../../source/electronic-bjt-common-c.rst:59
 msgid ""
 "La **resistencia R2** añade a la base una pequeña corriente continua para "
@@ -103,6 +126,8 @@ msgstr ""
 "**Resistor R2** adds a small direct current to the base so that the "
 "transistor can operate. This positive current that is added at the base is "
 "called **bias current**."
+
+
 #: ../../source/electronic-bjt-common-c.rst:64
 msgid ""
 "Hay que tener en cuenta que el transistor solo puede amplificar corrientes "
@@ -114,6 +139,8 @@ msgstr ""
 "currents, so it is necessary to add a small positive current to the input "
 "alternating current (positive and negative) for the transistor to work "
 "correctly."
+
+
 #: ../../source/electronic-bjt-common-c.rst:69
 msgid ""
 "El **transistor NPN** recibe una señal de tensión por la base con poca "
@@ -123,6 +150,8 @@ msgstr ""
 "The **NPN transistor** receives a voltage signal through the base with "
 "little current and maintains that same voltage at the emitter, minus the "
 "voltage of about 0.65 volts that always exists between base and emitter."
+
+
 #: ../../source/electronic-bjt-common-c.rst:73
 msgid ""
 "La corriente que llega por la base se amplifica para que circule, "
@@ -130,6 +159,8 @@ msgid ""
 msgstr ""
 "The current that arrives through the base is amplified so that it "
 "circulates, multiplied, through the collector and through the emitter."
+
+
 #: ../../source/electronic-bjt-common-c.rst:76
 msgid ""
 "La **resistencia R3** recibe la corriente del emisor y la convierte en "
@@ -137,6 +168,8 @@ msgid ""
 msgstr ""
 "**Resistor R3** receives the current from the emitter and converts it into "
 "output voltage."
+
+
 #: ../../source/electronic-bjt-common-c.rst:79
 msgid ""
 "Por esta resistencia circulará unas 100 veces la corriente que circula por "
@@ -144,9 +177,13 @@ msgid ""
 msgstr ""
 "About 100 times the current that flows through the base of the transistor "
 "will flow through this resistance."
+
+
 #: ../../source/electronic-bjt-common-c.rst:84
 msgid "Ejercicios"
 msgstr "Exercises"
+
+
 #: ../../source/electronic-bjt-common-c.rst:86
 msgid ""
 "Dibuja un esquema simplificado de un transistor NPN trabajando en "
@@ -156,6 +193,8 @@ msgstr ""
 "Draw a simplified schematic of an NPN transistor working in a common "
 "collector configuration, showing where the input signal arrives and where "
 "the amplified signal leaves."
+
+
 #: ../../source/electronic-bjt-common-c.rst:90
 msgid ""
 "Dibuja un esquema realista de un transistor NPN trabajando en configuración "
@@ -163,6 +202,8 @@ msgid ""
 msgstr ""
 "Draw a realistic schematic of an NPN transistor working in common collector "
 "configuration."
+
+
 #: ../../source/electronic-bjt-common-c.rst:93
 msgid ""
 "¿Cuál es la función principal de un transistor funcionando en configuración "
@@ -170,6 +211,8 @@ msgid ""
 msgstr ""
 "What is the main function of a transistor operating in common collector "
 "configuration?"
+
+
 #: ../../source/electronic-bjt-common-c.rst:96
 msgid ""
 "Dibuja una gráfica con la tensión del generador y la tensión de salida. ¿Qué"
@@ -177,6 +220,8 @@ msgid ""
 msgstr ""
 "Draw a graph with the generator voltage and the output voltage. What "
 "difference can you see between the graphs?"
+
+
 #: ../../source/electronic-bjt-common-c.rst:100
 msgid ""
 "Modifica el valor de la resistencia R2 para que valga 20kOhm. Dibuja la "
@@ -184,10 +229,14 @@ msgid ""
 msgstr ""
 "Modify the value of resistor R2 so that it is 20kOhm. Draw the graph of the "
 "output voltage."
+
+
 #: ../../source/electronic-bjt-common-c.rst:103
 msgid ""
 "¿Qué le ocurre a la tensión de salida cuando la resistencia R2 aumenta?"
 msgstr "What happens to the output voltage when resistance R2 increases?"
+
+
 #: ../../source/electronic-bjt-common-c.rst:106
 msgid ""
 "Modifica el valor de la resistencia R2 para que valga 4kOhm. Dibuja la "
@@ -195,16 +244,22 @@ msgid ""
 msgstr ""
 "Modify the value of resistor R2 so that it is 4kOhm. Draw the graph of the "
 "output voltage."
+
+
 #: ../../source/electronic-bjt-common-c.rst:109
 msgid ""
 "¿Qué le ocurre a la tensión de salida cuando la resistencia R2 disminuye?"
 msgstr "What happens to the output voltage when resistance R2 decreases?"
+
+
 #: ../../source/electronic-bjt-common-c.rst:112
 msgid ""
 "Cambia en el simulador el valor de la resistencia de salida R3 a 1000 "
 "Ohmios."
 msgstr ""
 "Change the value of the output resistor R3 to 1000 Ohms in the simulator."
+
+
 #: ../../source/electronic-bjt-common-c.rst:115
 msgid ""
 "Cambia el valor de la resistencia R2 de manera que la tensión de salida "

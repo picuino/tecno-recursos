@@ -17,9 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
+
 #: ../../source/python-funciones-scope.rst:10
 msgid "Alcance de las variables"
 msgstr "Variable Scope"
+
 
 #: ../../source/python-funciones-scope.rst:11
 msgid ""
@@ -30,6 +32,7 @@ msgstr ""
 "Now that you have seen variables and program blocks, both functions and "
 "loops, you can study the scope of variables."
 
+
 #: ../../source/python-funciones-scope.rst:15
 msgid ""
 "Las variables externas se pueden utilizar dentro de los bloques pero no "
@@ -39,6 +42,7 @@ msgstr ""
 "External variables can be used inside blocks but not the other way "
 "around. Variables internal to a block cannot be used outside the block."
 
+
 #: ../../source/python-funciones-scope.rst:19
 msgid ""
 "Veremos algunos ejemplos del alcance de las variables, es decir, dónde se"
@@ -47,9 +51,11 @@ msgstr ""
 "We will see some examples of the scope of variables, that is, where they "
 "can be used and where not."
 
+
 #: ../../source/python-funciones-scope.rst:24
 msgid "Sentencia ``global``"
 msgstr "``global`` statement"
+
 
 #: ../../source/python-funciones-scope.rst:25
 msgid ""
@@ -59,15 +65,22 @@ msgstr ""
 "Global variables are those defined in the body of the program, not within"
 " loops or functions."
 
+
 #: ../../source/python-funciones-scope.rst:28
 msgid "Ejemplo de variable global::"
 msgstr "Example of global variable::"
 
+
 #: ../../source/python-funciones-scope.rst:38
+
+
 #: ../../source/python-funciones-scope.rst:62
+
+
 #: ../../source/python-funciones-scope.rst:83
 msgid "Salida::"
 msgstr "Exit::"
+
 
 #: ../../source/python-funciones-scope.rst:43
 msgid ""
@@ -76,6 +89,7 @@ msgid ""
 msgstr ""
 "In the above case, the global variable 'number' can be read inside the "
 "'message()' function."
+
 
 #: ../../source/python-funciones-scope.rst:46
 msgid ""
@@ -90,12 +104,14 @@ msgstr ""
 " **local** variable 'number', which have the same name, but are "
 "different."
 
+
 #: ../../source/python-funciones-scope.rst:51
 msgid ""
 "Ejemplo de variable global y variable local del mismo nombre que generan "
 "un error::"
 msgstr "Example of global variable and local variable of the same name "
 "generating an error::"
+
 
 #: ../../source/python-funciones-scope.rst:69
 msgid ""
@@ -104,6 +120,7 @@ msgid ""
 msgstr ""
 "To fix the problem we have to use the ``global`` statement that declares "
 "'number' as a global variable, not a local one."
+
 
 #: ../../source/python-funciones-scope.rst:72
 msgid "Ejemplo de variable global sin error::"

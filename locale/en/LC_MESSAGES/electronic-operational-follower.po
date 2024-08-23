@@ -14,9 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding:8bit"
 "Generated-By:Babel 2.9.0"
 
+
 #: ../../source/electronic-operational-follower.rst:9
 msgid "El amplificador seguidor"
 msgstr "The follower amplifier"
+
+
 #: ../../source/electronic-operational-follower.rst:10
 msgid ""
 "Este es el esquema más simple que se puede conectar con un amplificador "
@@ -26,9 +29,13 @@ msgstr ""
 "This is the simplest scheme that can be connected to an operational "
 "amplifier. This scheme serves to obtain the same voltage at the output of "
 "the amplifier as its positive input."
+
+
 #: ../../source/electronic-operational-follower.rst:19
 msgid "Esquema del amplificador operacional seguidor."
 msgstr "Scheme of the follower operational amplifier."
+
+
 #: ../../source/electronic-operational-follower.rst:21
 msgid ""
 "Este esquema es útil cuando queremos obtener una tensión estable y con baja "
@@ -38,6 +45,8 @@ msgstr ""
 "This scheme is useful when we want to obtain a stable voltage with low "
 "output resistance from a voltage source with high resistance, which would "
 "change its voltage a lot if we connect current to it."
+
+
 #: ../../source/electronic-operational-follower.rst:26
 msgid ""
 "Un ejemplo práctico de uso de un amplificador seguidor es el siguiente "
@@ -46,13 +55,19 @@ msgid ""
 msgstr ""
 "A practical example of using a follower amplifier is the following circuit "
 "that generates a virtual ground voltage from a resistive voltage divider:"
+
+
 #: ../../source/electronic-operational-follower.rst:36
 msgid ""
 "Amplificador seguidor utilizado para generar una tensión de tierra virtual."
 msgstr "Follower amplifier used to generate a virtual ground voltage."
+
+
 #: ../../source/electronic-operational-follower.rst:41
 msgid "Realimentación negativa"
 msgstr "Negative feedback"
+
+
 #: ../../source/electronic-operational-follower.rst:42
 msgid ""
 "Para que un amplificador operacional sea estable debe tener **realimentación"
@@ -62,6 +77,8 @@ msgstr ""
 "For an operational amplifier to be stable it must have **negative "
 "feedback**. This means that the output voltage must reach the negative "
 "terminal of the input."
+
+
 #: ../../source/electronic-operational-follower.rst:46
 msgid ""
 "Si la tensión de salida aumenta, la tensión de la entrada negativa aumentará"
@@ -69,6 +86,8 @@ msgid ""
 msgstr ""
 "If the output voltage increases, the negative input voltage will increase "
 "and this will cause a decrease in the output voltage."
+
+
 #: ../../source/electronic-operational-follower.rst:49
 msgid ""
 "Si por el contrario la tensión de salida disminuye, la tensión de la entrada"
@@ -77,6 +96,8 @@ msgstr ""
 "If, on the other hand, the output voltage decreases, the negative input "
 "voltage will decrease and this will produce an increase in the output "
 "voltage."
+
+
 #: ../../source/electronic-operational-follower.rst:53
 msgid ""
 "Como los cambios de tensión de la salida tienden a compensarse, el resultado"
@@ -84,6 +105,8 @@ msgid ""
 msgstr ""
 "As output voltage changes tend to compensate, the result will be that the "
 "output will have the same voltage as the input."
+
+
 #: ../../source/electronic-operational-follower.rst:56
 msgid ""
 "**Con realimentación negativa los dos terminales de entrada tendrán la misma"
@@ -91,9 +114,13 @@ msgid ""
 msgstr ""
 "**With negative feedback the two input terminals will have the same "
 "voltage**."
+
+
 #: ../../source/electronic-operational-follower.rst:61
 msgid "Simulación"
 msgstr "Simulation"
+
+
 #: ../../source/electronic-operational-follower.rst:62
 msgid ""
 "En la siguiente simulación podemos ver un amplificador seguidor utilizado "
@@ -105,13 +132,19 @@ msgstr ""
 " voltage of a zener diode. This allows a circuit to be fed with a relatively"
 " high current, which would change the zener voltage if we connected a load "
 "directly."
+
+
 #: ../../source/electronic-operational-follower.rst:75
 msgid "Ejercicios"
 msgstr "Exercises"
+
+
 #: ../../source/electronic-operational-follower.rst:77
 msgid ""
 "Dibuja el esquema simplificado de un amplificador operacional seguidor."
 msgstr "Draw the simplified schematic of a follower operational amplifier."
+
+
 #: ../../source/electronic-operational-follower.rst:79
 msgid ""
 "Dibuja un esquema real de un amplificador operacional seguidor que sirva "
@@ -119,6 +152,8 @@ msgid ""
 msgstr ""
 "Draw a real schematic of a follower operational amplifier that can be used "
 "to generate a virtual ground."
+
+
 #: ../../source/electronic-operational-follower.rst:82
 msgid ""
 "Dibuja un esquema real de un amplificador operacional seguidor que sirva "
@@ -126,6 +161,8 @@ msgid ""
 msgstr ""
 "Draw a real schematic of a follower operational amplifier that serves to "
 "generate a stable output voltage from a zener diode."
+
+
 #: ../../source/electronic-operational-follower.rst:86
 msgid ""
 "En la simulación anterior, cambia el valor de la resistencia R1 con la barra"
@@ -135,6 +172,8 @@ msgstr ""
 "In the simulation above, change the value of resistor R1 with the control "
 "bar on the right. What happens to the resistance voltage? Why do you think "
 "this happens?"
+
+
 #: ../../source/electronic-operational-follower.rst:90
 msgid ""
 "En la simulación anterior, cambia el valor de la resistencia R2 con la barra"
@@ -144,6 +183,8 @@ msgstr ""
 "In the simulation above, change the value of resistor R2 with the control "
 "bar on the right. What happens to the resistance voltage? Why do you think "
 "this happens?"
+
+
 #: ../../source/electronic-operational-follower.rst:94
 msgid ""
 "En la simulación anterior, si hacemos que el valor de la resistencia R2 sea "
@@ -154,6 +195,8 @@ msgstr ""
 "In the above simulation, if we make the value of resistor R2 very low there "
 "will come a time when the op amp will not be able to deliver enough current "
 "and the voltage will drop. What maximum current can the op amp deliver?"
+
+
 #: ../../source/electronic-operational-follower.rst:99
 msgid ""
 "Con la ley de Ohm calcula la resistencia mínima que podemos conectar para "

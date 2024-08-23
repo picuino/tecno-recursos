@@ -17,9 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
+
 #: ../../source/python-listas-iteracion.rst:10
 msgid "Iteración de listas"
 msgstr "list iteration"
+
 
 #: ../../source/python-listas-iteracion.rst:11
 msgid ""
@@ -33,25 +35,38 @@ msgstr ""
 " to manipulate data repetitively without having to write the code "
 "multiple times."
 
+
 #: ../../source/python-listas-iteracion.rst:16
 msgid "Las listas se pueden iterar con un bucle ``for``."
 msgstr "Lists can be iterated with a ``for`` loop."
 
+
 #: ../../source/python-listas-iteracion.rst:18
+
+
 #: ../../source/python-listas-iteracion.rst:80
 msgid "Ejemplo::"
 msgstr "Example::"
 
+
 #: ../../source/python-listas-iteracion.rst:24
+
+
 #: ../../source/python-listas-iteracion.rst:147
+
+
 #: ../../source/python-listas-iteracion.rst:154
+
+
 #: ../../source/python-listas-iteracion.rst:160
 msgid "Salida::"
 msgstr "Exit::"
 
+
 #: ../../source/python-listas-iteracion.rst:33
 msgid "Función ``len()``"
 msgstr "``len()`` function"
+
 
 #: ../../source/python-listas-iteracion.rst:34
 msgid ""
@@ -63,9 +78,11 @@ msgstr ""
 "contains. This is useful for iterating over the **index** that each "
 "element is at::"
 
+
 #: ../../source/python-listas-iteracion.rst:61
 msgid "Función ``list()``"
 msgstr "``list()`` function"
+
 
 #: ../../source/python-listas-iteracion.rst:62
 msgid ""
@@ -75,9 +92,11 @@ msgstr ""
 "The ``list()`` function allows you to create a list from multiple "
 "elements or convert an iterable like ``range()`` to a list::"
 
+
 #: ../../source/python-listas-iteracion.rst:76
 msgid "Comprensión de listas"
 msgstr "list comprehension"
+
 
 #: ../../source/python-listas-iteracion.rst:77
 msgid ""
@@ -87,13 +106,16 @@ msgstr ""
 "List comprehension is a short and fast method of generating lists. Use "
 "the ``for`` loop inside two ``[ ]`` brackets"
 
+
 #: ../../source/python-listas-iteracion.rst:85
 msgid "Es equivalente a este otro código, más lento y largo de escribir::"
 msgstr "It is equivalent to this other code, slower and longer to write::"
 
+
 #: ../../source/python-listas-iteracion.rst:93
 msgid "Ejercicios"
 msgstr "Exercises"
+
 
 #: ../../source/python-listas-iteracion.rst:95
 msgid ""
@@ -104,6 +126,7 @@ msgstr ""
 "Write a program that defines a list of names and then prints the name and"
 " the letter it starts with on the screen in the following format:"
 
+
 #: ../../source/python-listas-iteracion.rst:105
 msgid ""
 "Escribe un programa que pida una frase por la entrada de teclado. El "
@@ -111,6 +134,7 @@ msgid ""
 msgstr ""
 "Write a program that requests a phrase for keyboard input. The program "
 "must convert the phrase to a list of characters."
+
 
 #: ../../source/python-listas-iteracion.rst:108
 msgid ""
@@ -120,6 +144,7 @@ msgstr ""
 "The program should then print the sentence backwards, starting with the "
 "last letter and ending with the first letter."
 
+
 #: ../../source/python-listas-iteracion.rst:111
 msgid ""
 "Pista: para ir desde el final hasta el principio se puede utilizar un "
@@ -127,6 +152,7 @@ msgid ""
 msgstr ""
 "Hint: To go from end to beginning, you can use an index with the "
 "function ``for i in range(len(list)-1, -1, -1):``."
+
 
 #: ../../source/python-listas-iteracion.rst:115
 msgid ""
@@ -138,9 +164,11 @@ msgstr ""
 "program should add all the numbers in the list and print the result, "
 "which should equal 2500."
 
+
 #: ../../source/python-listas-iteracion.rst:120
 msgid "Escribe un programa que defina la siguiente lista de elementos::"
 msgstr "Write a program that defines the following list of elements:"
+
 
 #: ../../source/python-listas-iteracion.rst:124
 msgid ""
@@ -150,6 +178,7 @@ msgstr ""
 "The program should generate a new list that contains all the elements of "
 "the first one except those that are duplicates::"
 
+
 #: ../../source/python-listas-iteracion.rst:129
 msgid ""
 "Pista: recorre todos los elementos de la lista_1 y si no están en la "
@@ -157,6 +186,7 @@ msgid ""
 msgstr ""
 "Hint: loop through all the elements in list_1 and if they are not in "
 "list_2, add them to list_2."
+
 
 #: ../../source/python-listas-iteracion.rst:133
 msgid ""
@@ -166,6 +196,7 @@ msgstr ""
 "Write a program that reads a sentence from the keyboard and encrypts it "
 "with the following algorithm."
 
+
 #: ../../source/python-listas-iteracion.rst:136
 msgid ""
 "El programa debe dividir la frase en letras con la función "
@@ -173,6 +204,7 @@ msgid ""
 msgstr ""
 "The program must split the phrase into letters with the ``list(phrase)`` "
 "function."
+
 
 #: ../../source/python-listas-iteracion.rst:139
 msgid ""
@@ -182,19 +214,23 @@ msgstr ""
 "Next the program should generate a new list with the letters with even "
 "index."
 
+
 #: ../../source/python-listas-iteracion.rst:142
 msgid "A esa nueva lista se deben añadir al final las letras con índice impar."
 msgstr "The letters with odd index must be added to this new list at the end."
 
+
 #: ../../source/python-listas-iteracion.rst:144
 msgid "Por último se imprimirán todas las letras de la nueva lista juntas."
 msgstr "Finally all the letters of the new list will be printed together."
+
 
 #: ../../source/python-listas-iteracion.rst:167
 msgid ""
 "Escribe un programa que descifre el código producido por el anterior "
 "programa."
 msgstr "Write a program that breaks the code produced by the above program."
+
 
 #: ../../source/python-listas-iteracion.rst:170
 msgid "Pista::"

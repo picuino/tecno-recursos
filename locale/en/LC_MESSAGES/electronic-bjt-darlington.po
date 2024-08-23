@@ -14,9 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding:8bit"
 "Generated-By:Babel 2.9.0"
 
+
 #: ../../source/electronic-bjt-darlington.rst:9
 msgid "El esquema Darlington"
 msgstr "The Darlington scheme"
+
+
 #: ../../source/electronic-bjt-darlington.rst:10
 msgid ""
 "El `esquema Darlington "
@@ -30,9 +33,13 @@ msgstr ""
 "combines two transistors connected in such a way that the emitter current of"
 " the first feeds the base current of the second as shown. you can see in the"
 " following image:"
+
+
 #: ../../source/electronic-bjt-darlington.rst:20
 msgid "Esquema de dos transistores NPN en montaje Darlington."
 msgstr "Schematic of two NPN transistors in Darlington assembly."
+
+
 #: ../../source/electronic-bjt-darlington.rst:22
 msgid ""
 "El esquema Darlington se comporta como un transistor ordinario, con un "
@@ -40,9 +47,13 @@ msgid ""
 msgstr ""
 "The Darlington scheme behaves like an ordinary transistor, with a collector,"
 " base and emitter."
+
+
 #: ../../source/electronic-bjt-darlington.rst:34
 msgid "Ventajas:"
 msgstr "Advantages:"
+
+
 #: ../../source/electronic-bjt-darlington.rst:26
 msgid ""
 "La principal ventaja de este esquema consiste en que la ganancia de los dos "
@@ -53,6 +64,8 @@ msgstr ""
 "The main advantage of this scheme is that the gain of the two transistors is"
 " multiplied, easily achieving **very high gains**, of several thousand. This"
 " allows high currents to be controlled with very small base currents."
+
+
 #: ../../source/electronic-bjt-darlington.rst:32
 msgid ""
 "Este esquema se puede implementar con dos transistores discretos conectados "
@@ -62,9 +75,13 @@ msgstr ""
 "This scheme can be implemented with two discrete transistors connected or "
 "there are also **integrated Darlington pairs** in a single package, which "
 "reduces space."
+
+
 #: ../../source/electronic-bjt-darlington.rst:50
 msgid "Inconvenientes:"
 msgstr "Disadvantages:"
+
+
 #: ../../source/electronic-bjt-darlington.rst:37
 msgid ""
 "El esquema Darlington tiene una respuesta más lenta que un único transistor."
@@ -76,6 +93,8 @@ msgstr ""
 "limits its operation as a switch to slow devices. To accelerate the shutdown"
 " of the second transistor, a resistor is usually placed between its base and"
 " its emitter."
+
+
 #: ../../source/electronic-bjt-darlington.rst:43
 msgid ""
 "La mínima tensión entre colector y emisor es mayor que con un solo "
@@ -87,6 +106,8 @@ msgstr ""
 "single transistor. This produces greater heating of the device when "
 "controlling the switching on and off of high current devices and produces an"
 " appreciable voltage loss."
+
+
 #: ../../source/electronic-bjt-darlington.rst:48
 msgid ""
 "La tensión entre base y emisor es mayor, típicamente superior a 1.2 voltios "
@@ -94,9 +115,13 @@ msgid ""
 msgstr ""
 "The voltage between base and emitter is higher, typically greater than 1.2 "
 "volts when adding two voltage drops of two transistors."
+
+
 #: ../../source/electronic-bjt-darlington.rst:53
 msgid "Simulación I"
 msgstr "Simulation I"
+
+
 #: ../../source/electronic-bjt-darlington.rst:54
 msgid ""
 "A continuación podemos ver la simulación de un esquema Darlington en "
@@ -106,6 +131,8 @@ msgstr ""
 "Below we can see the simulation of a Darlington scheme in common emitter "
 "configuration. This stage requires very little base current to power a 50 "
 "watt, 12 volt lamp."
+
+
 #: ../../source/electronic-bjt-darlington.rst:64
 msgid ""
 "Este esquema se puede utilizar para accionar cargas elevadas con bajas "
@@ -114,9 +141,13 @@ msgid ""
 msgstr ""
 "This scheme can be used to drive high loads with low currents coming from "
 "digital control circuits, such as a microcontroller."
+
+
 #: ../../source/electronic-bjt-darlington.rst:70
 msgid "Simulación II"
 msgstr "Simulation II"
+
+
 #: ../../source/electronic-bjt-darlington.rst:71
 msgid ""
 "A continuación podemos ver la simulación de la etapa de salida de un "
@@ -128,6 +159,8 @@ msgstr ""
 "oscillator circuit, the **NE555**. This output stage uses two Darlington "
 "configurations to amplify the circuit's internal signals and achieve high "
 "current to drive external loads."
+
+
 #: ../../source/electronic-bjt-darlington.rst:77
 msgid ""
 "En el recuadro superior podemos identificar un esquema Darlington en "
@@ -137,6 +170,8 @@ msgstr ""
 "In the upper box we can identify a Darlington scheme in **common collector**"
 " (collector connected to positive of the power supply). This scheme serves "
 "to feed the output with positive voltage."
+
+
 #: ../../source/electronic-bjt-darlington.rst:81
 msgid ""
 "En el recuadro inferior podemos identificar un esquema Darlington en emisor "
@@ -146,6 +181,8 @@ msgstr ""
 "In the lower box we can identify a common emitter Darlington scheme (emitter"
 " connected to the negative of the power supply). This scheme serves to feed "
 "the output with negative voltage."
+
+
 #: ../../source/electronic-bjt-darlington.rst:85
 msgid ""
 "Este segundo recuadro inferior tiene algún cambio respecto a la "
@@ -159,6 +196,8 @@ msgstr ""
 "and the second transistor Q2. In addition, a diode is installed between the "
 "collectors of Q1 and Q2. These changes allow obtaining a lower voltage at "
 "the output than with the standard scheme."
+
+
 #: ../../source/electronic-bjt-darlington.rst:92
 msgid ""
 "Las resistencias de 200 ohmios a la derecha no pertenecen al circuito NE555,"
@@ -166,9 +205,13 @@ msgid ""
 msgstr ""
 "The 200 ohm resistors on the right do not belong to the NE555 circuit, they "
 "are load resistors."
+
+
 #: ../../source/electronic-bjt-darlington.rst:103
 msgid "Ejercicios"
 msgstr "Exercises"
+
+
 #: ../../source/electronic-bjt-darlington.rst:105
 msgid ""
 "Dibuja un esquema simplificado de dos transistores NPN trabajando en "
@@ -176,6 +219,8 @@ msgid ""
 msgstr ""
 "Draw a simplified schematic of two NPN transistors working in Darlington "
 "configuration."
+
+
 #: ../../source/electronic-bjt-darlington.rst:108
 msgid ""
 "Dibuja un esquema realista de dos transistores NPN trabajando en "
@@ -183,6 +228,8 @@ msgid ""
 msgstr ""
 "Draw a realistic schematic of two NPN transistors working in common-emitter "
 "Darlington configuration."
+
+
 #: ../../source/electronic-bjt-darlington.rst:111
 msgid ""
 "Dibuja un esquema realista de dos transistores NPN trabajando en "
@@ -190,6 +237,8 @@ msgid ""
 msgstr ""
 "Draw a realistic schematic of two NPN transistors working in common "
 "collector Darlington configuration."
+
+
 #: ../../source/electronic-bjt-darlington.rst:114
 msgid ""
 "¿Cuál es el objetivo principal de unir dos transistores en una configuración"
@@ -197,11 +246,15 @@ msgid ""
 msgstr ""
 "What is the main purpose of joining two transistors in a Darlington "
 "configuration?"
+
+
 #: ../../source/electronic-bjt-darlington.rst:117
 msgid ""
 "¿Qué ventajas tiene un esquema Darlington frente a un transistor individual?"
 msgstr ""
 "What advantages does a Darlington scheme have over an individual transistor?"
+
+
 #: ../../source/electronic-bjt-darlington.rst:120
 msgid ""
 "¿Qué inconvenientes tiene un esquema Darlington frente a un transistor "
@@ -210,18 +263,36 @@ msgid ""
 msgstr ""
 "What disadvantages does a Darlington scheme have compared to an individual "
 "transistor? How can the effect of any of these drawbacks be reduced?"
+
+
 #: ../../source/electronic-bjt-darlington.rst:124
 msgid "En la etapa de salida del circuito NE555:"
 msgstr "At the output stage of the NE555 circuit:"
+
+
 #: ../../source/electronic-bjt-darlington.rst:126
 msgid "¿Cuántos esquemas Darlington puedes identificar?"
 msgstr "How many Darlington schemes can you identify?"
+
+
 #: ../../source/electronic-bjt-darlington.rst:128
 msgid "¿En que configuración está cada uno y por qué?"
 msgstr "What configuration is each one in and why?"
+
+
 #~ msgid ""
+
+
 #~ "¿Cuál es la función principal de unir dos transistores en una configuración "
+
+
 #~ "Darlington?"
+
+
 #~ msgstr ""
+
+
 #~ "What is the main function of joining two transistors in a Darlington "
+
+
 #~ "configuration?"

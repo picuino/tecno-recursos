@@ -14,9 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding:8bit"
 "Generated-By:Babel 2.9.0"
 
+
 #: ../../source/electronic-bjt-common-b.rst:9
 msgid "El transistor en base común"
 msgstr "The common base transistor"
+
+
 #: ../../source/electronic-bjt-common-b.rst:10
 msgid ""
 "En esta configuración el transistor tiene la base conectada a una tensión "
@@ -26,9 +29,13 @@ msgstr ""
 "In this configuration the transistor has the base connected to a fixed "
 "voltage. The input signal arrives through the emitter of the transistor and "
 "the amplified signal exits through the collector of the transistor."
+
+
 #: ../../source/electronic-bjt-common-b.rst:19
 msgid "Esquema simplificado de un transistor NPN en base común."
 msgstr "Simplified diagram of a common base NPN transistor."
+
+
 #: ../../source/electronic-bjt-common-b.rst:21
 msgid ""
 "Esta configuración permite amplificar la tensión de entrada manteniendo la "
@@ -39,6 +46,8 @@ msgstr ""
 "This configuration allows the input voltage to be amplified while keeping "
 "the current the same. This operation is useful in signal input stages from a"
 " component that generates little voltage, but with relatively high currents."
+
+
 #: ../../source/electronic-bjt-common-b.rst:26
 msgid ""
 "Un ejemplo de aplicación práctica es amplificar la señal inducida en una "
@@ -48,6 +57,8 @@ msgstr ""
 "An example of a practical application is to amplify the signal induced in a "
 "coil. For example, amplifying the sound picked up by a speaker, turning the "
 "speaker into a microphone."
+
+
 #: ../../source/electronic-bjt-common-b.rst:30
 msgid ""
 "A continuación puede verse una simulación de un transistor NPN en "
@@ -59,9 +70,13 @@ msgstr ""
 "configuration. The transistor amplifies a signal that enters through the "
 "emitter, generating a signal with much higher voltage that exits through the"
 " collector."
+
+
 #: ../../source/electronic-bjt-common-b.rst:42
 msgid "La función de cada uno de los componentes es la siguiente:"
 msgstr "The function of each of the components is the following:"
+
+
 #: ../../source/electronic-bjt-common-b.rst:44
 msgid ""
 "El **generador de señal alterna** genera una pequeña señal de entrada de 0.1"
@@ -69,6 +84,8 @@ msgid ""
 msgstr ""
 "The **alternating signal generator** generates a small input signal of 0.1 "
 "volts peak."
+
+
 #: ../../source/electronic-bjt-common-b.rst:47
 msgid ""
 "Las **resistencias R1 y R2** mantienen una tensión fija en la base que "
@@ -79,6 +96,8 @@ msgstr ""
 "**Resistors R1 and R2** maintain a fixed voltage at the base that **biases "
 "the transistor** so that it always works with positive currents, despite the"
 " input voltage being both positive and negative."
+
+
 #: ../../source/electronic-bjt-common-b.rst:52
 msgid ""
 "El **transistor NPN** recibe una señal de pequeña tensión por el emisor, que"
@@ -90,10 +109,14 @@ msgstr ""
 "which produces a current in the emitter. The transistor transfers that "
 "current from the emitter to the collector, where a resistor converts the "
 "current into a voltage higher than the input voltage."
+
+
 #: ../../source/electronic-bjt-common-b.rst:58
 msgid "En esta etapa no hay amplificación de corriente, solo de tensión."
 msgstr ""
 "At this stage there is no current amplification, only voltage amplification."
+
+
 #: ../../source/electronic-bjt-common-b.rst:60
 msgid ""
 "La **resistencia R3** recibe la corriente del colector y la convierte en "
@@ -103,9 +126,13 @@ msgstr ""
 "**Resistor R3** receives the collector current and converts it into output "
 "voltage. The higher this resistance, the higher the output voltage and "
 "therefore the voltage amplification of the stage."
+
+
 #: ../../source/electronic-bjt-common-b.rst:67
 msgid "Ejercicios"
 msgstr "Exercises"
+
+
 #: ../../source/electronic-bjt-common-b.rst:69
 msgid ""
 "Dibuja un esquema simplificado de un transistor NPN trabajando en "
@@ -115,6 +142,8 @@ msgstr ""
 "Draw a simplified schematic of an NPN transistor working in common base "
 "configuration, showing where the input signal arrives and where the "
 "amplified signal leaves."
+
+
 #: ../../source/electronic-bjt-common-b.rst:73
 msgid ""
 "Dibuja un esquema realista de un transistor NPN trabajando en configuración "
@@ -122,6 +151,8 @@ msgid ""
 msgstr ""
 "Draw a realistic schematic of an NPN transistor working in common base "
 "configuration."
+
+
 #: ../../source/electronic-bjt-common-b.rst:76
 msgid ""
 "¿Cuál es la función principal de un transistor funcionando en configuración "
@@ -129,15 +160,23 @@ msgid ""
 msgstr ""
 "What is the main function of a transistor operating in common base "
 "configuration?"
+
+
 #: ../../source/electronic-bjt-common-b.rst:79
 msgid "¿Para qué sirven las resistencias R1 y R2?"
 msgstr "What are resistors R1 and R2 for?"
+
+
 #: ../../source/electronic-bjt-common-b.rst:81
 msgid "¿Para qué sirve la resistencia R3?"
 msgstr "What is resistor R3 for?"
+
+
 #: ../../source/electronic-bjt-common-b.rst:83
 msgid "¿Qué ganancia de tensión tiene la etapa simulada?"
 msgstr "What voltage gain does the simulated stage have?"
+
+
 #: ../../source/electronic-bjt-common-b.rst:85
 msgid ""
 "Para calcular la ganancia de tensión es necesario dividir la variación de "
@@ -145,6 +184,8 @@ msgid ""
 msgstr ""
 "To calculate the voltage gain, it is necessary to divide the voltage "
 "variation at the output by the voltage variation at the input."
+
+
 #: ../../source/electronic-bjt-common-b.rst:88
 msgid ""
 "Recuerda que el generador de 0.1 voltios en alterna genera una tensión de "
@@ -152,6 +193,8 @@ msgid ""
 msgstr ""
 "Remember that the 0.1 volt AC generator generates a voltage of 0.2 volts "
 "between the positive voltage peak and the negative voltage peak."
+
+
 #: ../../source/electronic-bjt-common-b.rst:92
 msgid ""
 "Si modificamos R3 con un valor de 2kOhm y R1 con un valor de 70kOhm, ¿Qué le"

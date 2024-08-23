@@ -14,9 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding:8bit"
 "Generated-By:Babel 2.9.0"
 
+
 #: ../../source/electronic-diodo-led.rst:9
 msgid "El diodo led"
 msgstr "The LED diode"
+
+
 #: ../../source/electronic-diodo-led.rst:10
 msgid ""
 "El `diodo led <https://es.wikipedia.org/wiki/Led>`__ es un diodo emisor de "
@@ -28,12 +31,18 @@ msgstr ""
 "diode (Light Emitting Diode). There are versions of various colors, from the"
 " infrared LEDs in remote controls to the ultraviolet LEDs in the plastic "
 "resin curing lamps used by dentists."
+
+
 #: ../../source/electronic-diodo-led.rst:21
 msgid "Símbolo del diodo led."
 msgstr "LED diode symbol."
+
+
 #: ../../source/electronic-diodo-led.rst:28
 msgid "Semáforo basado en ledes de colores."
 msgstr "Traffic light based on colored LEDs."
+
+
 #: ../../source/electronic-diodo-led.rst:30
 msgid ""
 "En todas partes podemos ver ledes de colores rojo, verde o azul haciendo la "
@@ -41,6 +50,8 @@ msgid ""
 msgstr ""
 "Everywhere we can see red, green or blue LEDs acting as pilot lights in all "
 "types of electronic devices or in traffic lights."
+
+
 #: ../../source/electronic-diodo-led.rst:33
 msgid ""
 "Los ledes blancos se han hecho cada vez más eficientes, sustituyendo hace "
@@ -48,6 +59,8 @@ msgid ""
 msgstr ""
 "White LEDs have become increasingly more efficient, replacing traditional "
 "incandescent filament lamps years ago."
+
+
 #: ../../source/electronic-diodo-led.rst:36
 msgid ""
 "Los ledes se basan en una tecnología que todavía hoy en día está "
@@ -59,9 +72,13 @@ msgstr ""
 " in the `OLED "
 "<https://es.wikipedia.org/wiki/Diodo_org%C3%A1nico_de_emisi%C3%B3n_de_luz>`__"
 " screens of the latest generation televisions and smartphones."
+
+
 #: ../../source/electronic-diodo-led.rst:43
 msgid "Polarización del led"
 msgstr "LED polarization"
+
+
 #: ../../source/electronic-diodo-led.rst:44
 msgid ""
 "Normalmente los ledes tienen una tensión fija de funcionamiento que no se "
@@ -72,6 +89,8 @@ msgstr ""
 "Normally LEDs have a fixed operating voltage that cannot be exceeded and is "
 "lower than the supply voltage. To prevent the LED from burning out, we must "
 "insert a resistor in series that will limit its operating current."
+
+
 #: ../../source/electronic-diodo-led.rst:49
 msgid ""
 "En la siguiente simulación podemos ver un esquema de una linterna led basada"
@@ -82,12 +101,18 @@ msgstr ""
 "In the following simulation we can see a diagram of an LED flashlight based "
 "on three 1.5 volt batteries in series and a white LED of 3 volts working "
 "voltage with a current of 50 milliamps. The bias resistance is 30 ohms."
+
+
 #: ../../source/electronic-diodo-led.rst:59
 msgid "Led blanco cilíndrico de 5 milímetros de diámetro."
 msgstr "Cylindrical white LED, 5 millimeters in diameter."
+
+
 #: ../../source/electronic-diodo-led.rst:69
 msgid "Cálculo de la resistencia de polarización"
 msgstr "Polarization resistance calculation"
+
+
 #: ../../source/electronic-diodo-led.rst:70
 msgid ""
 "Para calcular la resistencia necesaria que polarice el led correctamente hay"
@@ -95,29 +120,49 @@ msgid ""
 msgstr ""
 "To calculate the necessary resistance to polarize the LED correctly, you "
 "must use the following formula:"
+
+
 #: ../../source/electronic-diodo-led.rst:73
+
+
 #: ../../source/electronic-diodo-led.rst:97
+
+
 #: ../../source/electronic-diodo-led.rst:114
 msgid "R = \\cfrac{V_{cc} - V_{led}}{I_{led}}"
 msgstr "R = \\cfrac{V_{cc} - V_{led}}{I_{led}}"
+
+
 #: ../../source/electronic-diodo-led.rst:78
 msgid "Donde las variables son:"
 msgstr "Where the variables are:"
+
+
 #: ../../source/electronic-diodo-led.rst:80
 msgid "R = Resistencia de polarización del led en ohmios [Ω]."
 msgstr "R = LED polarization resistance in ohms [Ω]."
+
+
 #: ../../source/electronic-diodo-led.rst:82
 msgid "V_cc = Tensión de alimentación en voltios [V]."
 msgstr "V_cc = Supply voltage in volts [V]."
+
+
 #: ../../source/electronic-diodo-led.rst:84
 msgid "V_led = Tensión de trabajo del diodo led en voltios [V]."
 msgstr "V_led = Working voltage of the LED diode in volts [V]."
+
+
 #: ../../source/electronic-diodo-led.rst:86
 msgid "I_led = Corriente de trabajo del diodo led en amperios [A]."
 msgstr "I_led = Working current of the LED diode in amperes [A]."
+
+
 #: ../../source/electronic-diodo-led.rst:104
 msgid "Ejemplo 1:"
 msgstr "Example 1:"
+
+
 #: ../../source/electronic-diodo-led.rst:90
 msgid ""
 "Necesitamos calcular la resistencia de polarización de led verde de un "
@@ -128,16 +173,26 @@ msgstr ""
 "We need to calculate the bias resistance of green LED of a computer "
 "keyboard. Its working voltage is 2.2 Volts, its working current is 10 "
 "milliamps and the supply voltage is 5 volts."
+
+
 #: ../../source/electronic-diodo-led.rst:95
+
+
 #: ../../source/electronic-diodo-led.rst:112
 msgid "Aplicando la fórmula:"
 msgstr "Applying the formula:"
+
+
 #: ../../source/electronic-diodo-led.rst:101
 msgid "R = \\cfrac{5 - 2.2}{0.010} = 280 \\Omega"
 msgstr "R = \\cfrac{5 - 2.2}{0.010} = 280 \\Omega"
+
+
 #: ../../source/electronic-diodo-led.rst:121
 msgid "Ejemplo 2:"
 msgstr "Example 2:"
+
+
 #: ../../source/electronic-diodo-led.rst:107
 msgid ""
 "Necesitamos calcular la resistencia de polarización del led blanco que "
@@ -148,12 +203,18 @@ msgstr ""
 "We need to calculate the bias resistance of the white LED that illuminates a"
 " smartphone screen. Its working voltage is 3 volts, its working current is "
 "150 milliamps and the supply voltage is 3.6 volts."
+
+
 #: ../../source/electronic-diodo-led.rst:118
 msgid "R = \\cfrac{3.6 - 3.0}{0.150} = 4 \\Omega"
 msgstr "R = \\cfrac{3.6 - 3.0}{0.150} = 4 \\Omega"
+
+
 #: ../../source/electronic-diodo-led.rst:124
 msgid "Ejercicios"
 msgstr "Exercises"
+
+
 #: ../../source/electronic-diodo-led.rst:126
 msgid ""
 "Dibuja el esquema eléctrico de una linterna con diodo led. Utiliza el "
@@ -163,6 +224,8 @@ msgstr ""
 "Draw the electrical diagram of a flashlight with an LED diode. Use the "
 "symbol at the beginning of the unit, with two arrows indicating the light "
 "output of the diode."
+
+
 #: ../../source/electronic-diodo-led.rst:131
 msgid ""
 "Calcula la resistencia de polarización del led rojo de un ratón sabiendo que"
@@ -172,7 +235,11 @@ msgstr ""
 "Calculate the polarization resistance of the red LED of a mouse knowing that"
 " the working voltage is 1.8 volts, the working current is 16 milliamps and "
 "the supply voltage is 5 volts."
+
+
 #: ../../source/electronic-diodo-led.rst:136
+
+
 #: ../../source/electronic-diodo-led.rst:151
 msgid ""
 "Comprueba con el `simulador de circuitos "
@@ -182,6 +249,8 @@ msgstr ""
 "Check with the `circuit simulator "
 "<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ that the "
 "calculation is correct."
+
+
 #: ../../source/electronic-diodo-led.rst:141
 msgid ""
 "No olvides **cambiar la tensión de funcionamiento del led**, editando el "
@@ -191,6 +260,8 @@ msgstr ""
 "Don't forget to **change the operating voltage of the LED**, editing the "
 "LED... Create New Simple Model... Forward Voltage 1.8 ... Current At Above "
 "Voltage (A) 0.016 ... OK."
+
+
 #: ../../source/electronic-diodo-led.rst:146
 msgid ""
 "Calcula la resistencia de polarización de un piloto de automóvil compuesto "
@@ -201,6 +272,8 @@ msgstr ""
 "Calculate the polarization resistance of a car light composed of two white "
 "LEDs in series that have a working voltage of 3 volts each and a working "
 "current of 20 milliamps. The supply voltage is 12 volts."
+
+
 #: ../../source/electronic-diodo-led.rst:156
 msgid ""
 "No olvides **cambiar la tensión de funcionamiento de los ledes**, editando "
@@ -210,9 +283,13 @@ msgstr ""
 "Don't forget to **change the operating voltage of the LEDs**, editing each "
 "LED... Create New Simple Model... Forward Voltage 3.0 ... Current At Above "
 "Voltage (A) 0.020 ... OK."
+
+
 #: ../../source/electronic-diodo-led.rst:162
 msgid "Ampliación"
 msgstr "Extension"
+
+
 #: ../../source/electronic-diodo-led.rst:163
 msgid ""
 "Busca información sobre la multiplexación de ledes en ánodo común y en "
@@ -220,6 +297,8 @@ msgid ""
 msgstr ""
 "Look for information on the multiplexing of LEDs in common anode and common "
 "cathode, widely used in 7-segment displays."
+
+
 #: ../../source/electronic-diodo-led.rst:166
 msgid ""
 "Aprende qué es la conexión de ledes con la técnica de `charlieplexing "

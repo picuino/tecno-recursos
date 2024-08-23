@@ -14,9 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding:8bit"
 "Generated-By:Babel 2.9.0"
 
+
 #: ../../source/electronic-operational-adder.rst:9
 msgid "El amplificador sumador"
 msgstr "The summing amplifier"
+
+
 #: ../../source/electronic-operational-adder.rst:10
 msgid ""
 "En este circuito el amplificador operacional invierte y amplifica las "
@@ -24,6 +27,8 @@ msgid ""
 msgstr ""
 "In this circuit the operational amplifier inverts and amplifies the input "
 "signals, which can be two or more signals."
+
+
 #: ../../source/electronic-operational-adder.rst:13
 msgid ""
 "El amplificador inversor tiene realimentación negativa porque la tensión de "
@@ -33,9 +38,13 @@ msgstr ""
 "The inverting amplifier has negative feedback because the output voltage "
 "produces a current that reaches the negative input terminal through resistor"
 " R3."
+
+
 #: ../../source/electronic-operational-adder.rst:22
 msgid "Esquema del amplificador operacional sumador inversor."
 msgstr "Scheme of the inverting adder operational amplifier."
+
+
 #: ../../source/electronic-operational-adder.rst:24
 msgid ""
 "Este circuito está basado en el amplificador inversor, con el que guarda una"
@@ -43,6 +52,8 @@ msgid ""
 msgstr ""
 "This circuit is based on the inverting amplifier, with which it has great "
 "similarity."
+
+
 #: ../../source/electronic-operational-adder.rst:27
 msgid ""
 "Al tener la tensión de la entrada negativa cero voltios en todo momento, las"
@@ -50,13 +61,19 @@ msgid ""
 msgstr ""
 "By having the input voltage negative zero volts at all times, the input "
 "voltages do not affect each other."
+
+
 #: ../../source/electronic-operational-adder.rst:32
 msgid "Cálculo de ganancia"
 msgstr "Profit calculation"
+
+
 #: ../../source/electronic-operational-adder.rst:33
 msgid ""
 "La fórmula de la tensión de salida de este amplificador es la siguiente:"
 msgstr "The formula for the output voltage of this amplifier is as follows:"
+
+
 #: ../../source/electronic-operational-adder.rst:35
 msgid ""
 "V_{out} = - V_{in1} \\cdot \\cfrac{R_3}{R_1} - V_{in2} \\cdot "
@@ -64,6 +81,8 @@ msgid ""
 msgstr ""
 "V_{out} = - V_{in1} \\cdot \\cfrac{R_3}{R_1} - V_{in2} \\cdot "
 "\\cfrac{R_3}{R_2}"
+
+
 #: ../../source/electronic-operational-adder.rst:39
 msgid ""
 "La ganancia de cada entrada depende de la resistencia de cada una de las "
@@ -71,6 +90,8 @@ msgid ""
 msgstr ""
 "The gain of each input depends on the resistance of each of the inputs and "
 "does not have to be the same in both."
+
+
 #: ../../source/electronic-operational-adder.rst:42
 msgid ""
 "La resistencia de entrada será igual a la resistencia R1 para la entrada 1 e"
@@ -78,6 +99,8 @@ msgid ""
 msgstr ""
 "The input resistance will be equal to resistance R1 for input 1 and equal to"
 " R2 for input 2."
+
+
 #: ../../source/electronic-operational-adder.rst:45
 msgid ""
 "La resistencia de salida será muy baja, idealmente cero, porque la salida "
@@ -85,9 +108,13 @@ msgid ""
 msgstr ""
 "The output resistance will be very low, ideally zero, because the output is "
 "directly connected to the output of the op amp."
+
+
 #: ../../source/electronic-operational-adder.rst:50
 msgid "Simulación"
 msgstr "Simulation"
+
+
 #: ../../source/electronic-operational-adder.rst:51
 msgid ""
 "En la siguiente simulación podemos ver un amplificador sumador que sumará "
@@ -95,27 +122,41 @@ msgid ""
 msgstr ""
 "In the following simulation we can see a summing amplifier that will add two"
 " sinusoidal signals of different frequency and amplitude."
+
+
 #: ../../source/electronic-operational-adder.rst:62
 msgid "Ejercicios"
 msgstr "Exercises"
+
+
 #: ../../source/electronic-operational-adder.rst:64
 msgid "Dibuja el esquema simplificado de un amplificador operacional sumador."
 msgstr "Draw the simplified schematic of a summing operational amplifier."
+
+
 #: ../../source/electronic-operational-adder.rst:66
 msgid ""
 "Escribe la fórmula de la tensión de salida del amplificador operacional "
 "sumador anterior."
 msgstr "Write the formula for the output voltage of the above summing op amp."
+
+
 #: ../../source/electronic-operational-adder.rst:69
 msgid "¿Qué tipo de realimentación tiene este circuito?"
 msgstr "What type of feedback does this circuit have?"
+
+
 #: ../../source/electronic-operational-adder.rst:71
 msgid ""
 "¿Qué les ocurre a las tensiones de entrada con ese tipo de realimentación?"
 msgstr "What happens to the input voltages with that type of feedback?"
+
+
 #: ../../source/electronic-operational-adder.rst:74
 msgid "¿La tensión de entrada V_in1 afecta a la tensión de entrada V_in2?"
 msgstr "Does the input voltage V_in1 affect the input voltage V_in2?"
+
+
 #: ../../source/electronic-operational-adder.rst:76
 msgid ""
 "Dibuja tres gráficas que representen la tensiones de entrada y la tensión de"
@@ -123,6 +164,8 @@ msgid ""
 msgstr ""
 "Draw three graphs representing the input voltages and output voltages of the"
 " simulated inverting amplifier."
+
+
 #: ../../source/electronic-operational-adder.rst:79
 msgid ""
 "¿Qué tensiones de pico tienen cada una de las tres gráficas representadas? "
@@ -131,6 +174,8 @@ msgid ""
 msgstr ""
 "What peak voltages do each of the three graphs represented have? You can "
 "stop the simulation and zoom to full screen to measure more accurately."
+
+
 #: ../../source/electronic-operational-adder.rst:84
 msgid ""
 "Calcula las resistencias necesarias para hacer que un amplificador "
@@ -139,6 +184,8 @@ msgid ""
 msgstr ""
 "Calculate the resistors needed to make a summing operational amplifier have "
 "a voltage gain equal to -5 on the first input and -10 on the second input."
+
+
 #: ../../source/electronic-operational-adder.rst:88
 msgid ""
 "Dibuja un esquema realista de este amplificador, con una alimentación de "
@@ -146,6 +193,8 @@ msgid ""
 msgstr ""
 "Draw a realistic schematic of this amplifier, with a +-15 volt supply and "
 "two 1 volt sinusoidal voltage inputs."
+
+
 #: ../../source/electronic-operational-adder.rst:91
 msgid ""
 "Con ayuda del `simulador de circuitos "
@@ -157,6 +206,8 @@ msgstr ""
 "<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__ draw the "
 "diagram of a summing operational amplifier based on an ideal operational "
 "amplifier that amplifies:"
+
+
 #: ../../source/electronic-operational-adder.rst:97
 msgid ""
 "La señal de un generador de tensión de **onda cuadrada** con una tensión de "
@@ -164,6 +215,8 @@ msgid ""
 msgstr ""
 "The signal from a **square wave** voltage generator with a peak voltage of 1"
 " volt and a frequency of 20Hz."
+
+
 #: ../../source/electronic-operational-adder.rst:99
 msgid ""
 "La señal de un generador de tensión de **onda triangular** con una tensión "
@@ -171,6 +224,8 @@ msgid ""
 msgstr ""
 "The signal from a **triangle wave** voltage generator with a peak voltage of"
 " 1 volt and a frequency of 40Hz."
+
+
 #: ../../source/electronic-operational-adder.rst:102
 msgid ""
 "Grafica en el mismo osciloscopio las señales de tensión de los generadores "

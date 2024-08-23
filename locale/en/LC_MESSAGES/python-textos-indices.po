@@ -21,9 +21,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
+
 #: ../../source/python-textos-indices.rst:9
 msgid "Índices de cadenas de texto"
 msgstr "Text string indices"
+
 
 #: ../../source/python-textos-indices.rst:10
 msgid ""
@@ -34,6 +36,7 @@ msgstr ""
 "Text strings are made up of individual characters that can be obtained "
 "using indices. A text string index is a number within two opening and "
 "closing ``[]`` brackets::"
+
 
 #: ../../source/python-textos-indices.rst:24
 msgid ""
@@ -48,17 +51,21 @@ msgstr ""
 "JavaScript language. The first time you learn it, it is not easy to get "
 "used to it, but it is necessary to be able to write correct code."
 
+
 #: ../../source/python-textos-indices.rst:30
 msgid "Los índices negativos comienzan por el final de la cadena de texto::"
 msgstr "Negative indices start at the end of the text string::"
+
 
 #: ../../source/python-textos-indices.rst:41
 msgid "Los índices fuera de rango producen un error en el programa::"
 msgstr "Indices out of range cause a program error::"
 
+
 #: ../../source/python-textos-indices.rst:51
 msgid "Rebanadas o slicers"
 msgstr "Slices or slicers"
+
 
 #: ../../source/python-textos-indices.rst:52
 msgid ""
@@ -69,6 +76,7 @@ msgstr ""
 "Indices can be written to retrieve multiple characters from a string, "
 "using the colon ':' character to separate start from end in an index::"
 
+
 #: ../../source/python-textos-indices.rst:66
 msgid ""
 "El siguiente esquema puede ayudar a entender mejor cómo funcionan los "
@@ -77,9 +85,11 @@ msgstr ""
 "The following schematic can help you better understand how indexes and "
 "slices work:"
 
+
 #: ../../source/python-textos-indices.rst:75
 msgid "Un índice tomará la letra de su derecha."
 msgstr "An index will take the letter to its right."
+
 
 #: ../../source/python-textos-indices.rst:77
 msgid ""
@@ -89,6 +99,7 @@ msgid ""
 msgstr ""
 "A slice will take the characters between the two numbers. For example, "
 "[1:-2] will take all characters between indices 1 and -2 'yth' ::"
+
 
 #: ../../source/python-textos-indices.rst:86
 msgid ""
@@ -100,6 +111,7 @@ msgstr ""
 " take all characters from the start or take all characters to the end of "
 "the string::"
 
+
 #: ../../source/python-textos-indices.rst:98
 msgid ""
 "Las rebanadas con índices fuera de rango no producen error, solo "
@@ -108,9 +120,11 @@ msgstr ""
 "Slices with out-of-range indices do not produce an error, they just "
 "return an empty string::"
 
+
 #: ../../source/python-textos-indices.rst:107
 msgid "Bucles con cadenas de texto"
 msgstr "Loops with text strings"
+
 
 #: ../../source/python-textos-indices.rst:108
 msgid ""
@@ -118,9 +132,11 @@ msgid ""
 "uno a uno::"
 msgstr "A ``for`` loop can take the characters of a text string one by one::"
 
+
 #: ../../source/python-textos-indices.rst:129
 msgid "Ejercicios"
 msgstr "Exercises"
+
 
 #: ../../source/python-textos-indices.rst:131
 msgid ""
@@ -130,9 +146,11 @@ msgstr ""
 "Write a function that prints one by one all the characters of a text "
 "string that we pass to it as an argument."
 
+
 #: ../../source/python-textos-indices.rst:134
 msgid "Llama a la función dos veces con dos cadenas de texto distintas."
 msgstr "Call the function twice with two different text strings."
+
 
 #: ../../source/python-textos-indices.rst:137
 msgid ""
@@ -143,9 +161,11 @@ msgstr ""
 "Write a function that accepts a string as an argument and that prints the"
 " string bit by bit from one character to all characters."
 
+
 #: ../../source/python-textos-indices.rst:141
 msgid "Ejemplo::"
 msgstr "Example::"
+
 
 #: ../../source/python-textos-indices.rst:156
 msgid ""
@@ -154,6 +174,7 @@ msgid ""
 msgstr ""
 "Modify the above function so that it prints the text string starting from"
 " the right, character by character, until ending::"
+
 
 #: ../../source/python-textos-indices.rst:172
 msgid ""
@@ -164,6 +185,7 @@ msgstr ""
 "Write a function that accepts a string as an argument and prints groups "
 "of five characters of the text from the beginning of the string to the "
 "end::"
+
 
 #: ../../source/python-textos-indices.rst:202
 msgid "Pista: añade espacios al comienzo y al final de la cadena de texto."

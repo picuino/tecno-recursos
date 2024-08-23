@@ -19,6 +19,7 @@ msgstr ""
 msgid "Búsqueda binaria"
 msgstr "Binary search"
 
+
 #: ../../source/python-busqueda-binaria.rst:10
 msgid ""
 "El algoritmo de búsqueda binaria es más rápido que el algoritmo de búsqueda "
@@ -26,6 +27,7 @@ msgid ""
 msgstr ""
 "The binary search algorithm is faster than the linear search algorithm "
 "studied in the previous unit."
+
 
 #: ../../source/python-busqueda-binaria.rst:13
 msgid ""
@@ -36,18 +38,22 @@ msgstr ""
 " find the desired element more quickly. These are the steps of the "
 "algorithm:"
 
+
 #: ../../source/python-busqueda-binaria.rst:17
 msgid "Repite todo mientras haya lista en la que buscar."
 msgstr "Repeat everything as long as there is a list to search."
+
 
 #: ../../source/python-busqueda-binaria.rst:18
 msgid "Buscamos el elemento en la mitad de la lista."
 msgstr "We look for the element in the middle of the list."
 
+
 #: ../../source/python-busqueda-binaria.rst:19
 msgid ""
 "Si se encuentra el elemento, devuelve la posición del elemento encontrado."
 msgstr "If the element is found, returns the position of the found element."
+
 
 #: ../../source/python-busqueda-binaria.rst:21
 msgid ""
@@ -57,6 +63,7 @@ msgid ""
 msgstr ""
 "If the searched item is **larger** than the item in the middle of the list, "
 "we split the list in two and will only search the top half of the list."
+
 
 #: ../../source/python-busqueda-binaria.rst:24
 msgid ""
@@ -68,13 +75,16 @@ msgstr ""
 "list, we split the list in two and will only search the bottom half of the "
 "list."
 
+
 #: ../../source/python-busqueda-binaria.rst:27
 msgid "Si no se ha encontrado el elemento, devuelve ``None``"
 msgstr "If the element was not found, returns ``None``"
 
+
 #: ../../source/python-busqueda-binaria.rst:31
 msgid "Ejemplo de búsqueda binaria"
 msgstr "Binary search example"
+
 
 #: ../../source/python-busqueda-binaria.rst:32
 msgid ""
@@ -84,9 +94,11 @@ msgstr ""
 "This is an example of a list to search for an element, with the positions of"
 " the numbers::"
 
+
 #: ../../source/python-busqueda-binaria.rst:40
 msgid "Vamos a buscar el elemento 89 en esta lista con búsqueda binaria."
 msgstr "Let's search for element 89 in this list with binary search."
+
 
 #: ../../source/python-busqueda-binaria.rst:42
 msgid ""
@@ -98,6 +110,7 @@ msgstr ""
 "number 46. Since 46 is less than 89, we know that the searched element can "
 "only be in the upper half of the list::"
 
+
 #: ../../source/python-busqueda-binaria.rst:51
 msgid ""
 "Ahora buscamos en la mitad de la parte superior de la lista, en la posición "
@@ -107,6 +120,7 @@ msgstr ""
 "Now we search in the top half of the list, at position 14, which returns the"
 " number 75. Since 75 is less than 87, we know that the searched item could "
 "only be in the top half of the list::"
+
 
 #: ../../source/python-busqueda-binaria.rst:61
 msgid ""
@@ -118,6 +132,7 @@ msgstr ""
 " which returns the number 89. This is the element searched for, so we can "
 "return position 17."
 
+
 #: ../../source/python-busqueda-binaria.rst:66
 msgid ""
 "Como podemos comprobar, con solo 3 comparaciones se ha encontrado el "
@@ -126,6 +141,7 @@ msgid ""
 msgstr ""
 "As we can see, with only 3 comparisons the searched element was found in "
 "position 17. A linear search would have required 18 comparisons in total."
+
 
 #: ../../source/python-busqueda-binaria.rst:70
 msgid ""
@@ -137,9 +153,11 @@ msgstr ""
 "very large lists of elements, with the disadvantage that it needs to search "
 "a list that is already sorted."
 
+
 #: ../../source/python-busqueda-binaria.rst:76
 msgid "Programa de búsqueda binaria"
 msgstr "Binary search program"
+
 
 #: ../../source/python-busqueda-binaria.rst:77
 msgid ""
@@ -153,9 +171,11 @@ msgstr ""
 "the list. These indexes will be updated as we learn which part of the list "
 "may contain the searched element::"
 
+
 #: ../../source/python-busqueda-binaria.rst:114
 msgid "Ejercicios"
 msgstr "Exercises"
+
 
 #: ../../source/python-busqueda-binaria.rst:116
 msgid ""
@@ -167,17 +187,21 @@ msgstr ""
 "element should be placed so that it is sorted within a list of already "
 "sorted numbers."
 
+
 #: ../../source/python-busqueda-binaria.rst:120
 msgid "Pista::"
 msgstr "Clue::"
+
 
 #: ../../source/python-busqueda-binaria.rst:144
 msgid "Salida::"
 msgstr "Exit::"
 
+
 #: ../../source/python-busqueda-binaria.rst:148
 msgid "Prueba el programa con los números 7, 25, 48 y 100."
 msgstr "Try the program with the numbers 7, 25, 48 and 100."
+
 
 #: ../../source/python-busqueda-binaria.rst:150
 msgid "Los resultados correctos son las posiciones 0, 4, 10 y 20."
