@@ -19,17 +19,17 @@ body {
 hr { color: black; margin: 8px 0 16px 0;}
 
 h1 {
-  font-family: "Lato", "Helvetica", Arial, sans-serif;
+  font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
   font-size: 100%;
   line-height: 100%;
   margin: 6px 0 6px 0;
 }
 
 h2 {
-  font-family: "Lato", "Helvetica", Arial, sans-serif;
+  font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
   font-size: 100%;
   line-height: 100%;
-  margin: 0.5em;
+  margin: 6px 0 6px 0;
 }
 
 a {
@@ -214,3 +214,7 @@ ul.link-list {
   border-left: none;
 }
 
+/************   FONTS   ************/
+
+@font-face{font-family:"Lato";font-display:swap;src:url("fonts/lato-regular.eot");src:url("fonts/lato-regular.eot?#iefix") format("embedded-opentype"),url("fonts/lato-regular.woff2") format("woff2"),url("fonts/lato-regular.woff") format("woff"),url("fonts/lato-regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Lato";font-display:swap;src:url("fonts/lato-bold.eot");src:url("fonts/lato-bold.eot?#iefix") format("embedded-opentype"),url("fonts/lato-bold.woff2") format("woff2"),url("fonts/lato-bold.woff") format("woff"),url("fonts/lato-bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}

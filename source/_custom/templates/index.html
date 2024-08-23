@@ -4,7 +4,7 @@
   <div class="image_center">
   <a href="{{ link }}"><img src="{{ image }}" title="{{ title }}" alt="{{ title }}"></a>
   </div>
-  <h1><a href="{{ link }}">{{ title }}</a></h1>
+  <h2><a href="{{ link }}">{{ title }}</a></h2>
   </div>
 {%- endmacro -%}
 {%- set lang_attr = 'en' if language == None else (language | replace('_', '-')) -%}
@@ -71,7 +71,7 @@
   <div class="inner">
   <div class="width_limit"><div class="content">
 
-  <p class="center">{% trans %}Recursos educativos libres para Tecnología en Educación Secundaria.{% endtrans %}</p>
+  <h1 class="center">{% trans %}Recursos educativos libres para Tecnología en Educación Secundaria.{% endtrans %}</h1>
 
   <div class="center-items">
     {%- if language == 'es' %}
