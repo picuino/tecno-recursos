@@ -3926,7 +3926,7 @@ Katas de nivel 5. Dificultad moderada alta.
 
 Codewars Katas 4kyu
 -------------------
-Katas de nivel 4. Dificultad difícil.
+Katas de nivel 4. Dificultad alta.
 
 #. `Human readable duration format
    <https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/python>`__
@@ -4397,7 +4397,7 @@ Katas de nivel 4. Dificultad difícil.
 
 Codewars Katas 3kyu
 -------------------
-Katas de nivel 3. Dificultad difícil.
+Katas de nivel 3. Dificultad alta.
 
 #. `Battleship field validator
    <https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7/train/python>`__
