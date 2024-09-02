@@ -47,17 +47,22 @@ $(IMGDIR)/electric-circuit-2.png: $(IMGDIR)/electric-circuit-1.png
 $(IMGDIR)/electric-circuit-2.en.png: $(IMGDIR)/electric-circuit-1.png
 	$(call crop_page, $<, "((126, 1401),(1553, 2423))", $@)
 
+$(IMGDIR)/electric-circuit-4.png: $(IMGDIR)/electric-circuit-1.png
+	$(call crop_page, $<, "((1800, 465),(2555, 1030))", $@)
+
 # ALL FILES
 .PHONY: all-circuit  clean-circuit
 all-circuit: \
 	$(IMGDIR)/electric-circuit-1.png \
 	$(IMGDIR)/electric-circuit-2.png \
 	$(IMGDIR)/electric-circuit-2.en.png \
+	$(IMGDIR)/electric-circuit-4.png \
 
 clean-circuit:
 	rm -f $(IMGDIR)/electric-circuit-1.png
 	rm -f $(IMGDIR)/electric-circuit-2.png
 	rm -f $(IMGDIR)/electric-circuit-2.en.png
+	rm -f $(IMGDIR)/electric-circuit-4.png
 
 
 # --------------------------------------------------------------------

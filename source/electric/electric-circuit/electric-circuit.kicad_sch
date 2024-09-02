@@ -1,496 +1,1610 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid ed402a02-18b5-4b69-8c2e-4a17e0d73589)
-
-  (paper "A4" portrait)
-
-  (title_block
-    (title "Electric circuit")
-    (date "17/02/2023")
-    (company "www.picuino.com")
-    (comment 1 "Copyright (c) 2023 by Carlos Pardo Martín")
-    (comment 2 "License Creative Commons BY-SA 4.0")
-  )
-
-  (lib_symbols
-    (symbol "electric-circuit-rescue:CopyRight-simbolos" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "CP" (at 6.35 1.27 0)
-        (effects (font (size 1.016 1.016)) hide)
-      )
-      (property "Value" "CopyRight-simbolos" (at 0 1.27 0)
-        (effects (font (size 1.016 1.016)) hide)
-      )
-      (property "Footprint" "" (at -2.54 8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "License" "CC BY-SA 4.0" (at -1.27 -1.27 0)
-        (effects (font (size 1.524 1.524)) (justify right))
-      )
-      (property "Web" "www.picuino.com" (at 0 -1.27 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (symbol "CopyRight-simbolos_0_1"
-        (polyline
-          (pts
-            (xy -10.16 0)
-            (xy 10.16 0)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "simbolos-electricos:Pila" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "V" (at 5.08 -4.445 0)
-        (effects (font (size 2.54 2.54)) (justify left))
-      )
-      (property "Value" "Pila" (at 2.54 -1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "" (at 0 -3.175 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 -3.175 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Pila_0_1"
-        (polyline
-          (pts
-            (xy -4.064 -1.27)
-            (xy -2.286 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 -3.175)
-            (xy 3.81 -3.175)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.175 -0.381)
-            (xy -3.175 -2.159)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 -5.08)
-            (xy 1.905 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Pila_1_1"
-        (pin input line (at 0 -7.62 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.143 1.143))))
-        )
-        (pin input line (at 0 0 270) (length 3.175)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.143 1.143))))
-        )
-      )
-    )
-    (symbol "simbolos-electricos:interruptor" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "S" (at 4.445 3.175 0)
-        (effects (font (size 2.54 2.54)) (justify right))
-      )
-      (property "Value" "interruptor" (at 6.35 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "" (at 7.62 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 7.62 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "interruptor_0_0"
-        (polyline
-          (pts
-            (xy 8.89 3.81)
-            (xy 3.683 0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 3.175 0) (radius 0.635)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 9.525 0) (radius 0.635)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "interruptor_1_1"
-        (pin input line (at 0 0 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.143 1.143))))
-        )
-        (pin input line (at 12.7 0 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.143 1.143))))
-        )
-      )
-    )
-    (symbol "simbolos-electricos:lampara" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at 4.445 -5.08 0)
-        (effects (font (size 2.54 2.54)) (justify left))
-      )
-      (property "Value" "lampara" (at 1.27 -13.335 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "" (at 0 -4.445 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 -4.445 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "lampara_0_1"
-        (circle (center 0 -5.08) (radius 3.302)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 -7.493)
-            (xy 2.286 -2.921)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 -2.921)
-            (xy 2.286 -7.493)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "lampara_1_1"
-        (pin input line (at 0 -10.16 90) (length 1.778)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.143 1.143))))
-        )
-        (pin input line (at 0 0 270) (length 1.778)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.143 1.143))))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 45.72 74.295) (xy 35.56 74.295))
-    (stroke (width 0) (type default))
-    (uuid 11c855ba-822c-47ce-a311-82e7a8e3fdf2)
-  )
-  (wire (pts (xy 12.065 44.45) (xy 12.065 53.975))
-    (stroke (width 0) (type default))
-    (uuid 1b696ef1-2e88-491e-833e-94b1ce51709d)
-  )
-  (wire (pts (xy 45.72 30.48) (xy 35.56 30.48))
-    (stroke (width 0) (type default))
-    (uuid 1cb50f71-5b59-42b2-bdb8-8df34e5f796e)
-  )
-  (wire (pts (xy 45.72 53.975) (xy 45.72 45.72))
-    (stroke (width 0) (type default))
-    (uuid 238ecbc1-0ecf-4201-938a-1def34a53b47)
-  )
-  (wire (pts (xy 45.72 35.56) (xy 45.72 30.48))
-    (stroke (width 0) (type default))
-    (uuid 273a8022-fb32-4474-8896-d8a18ce4efed)
-  )
-  (wire (pts (xy 12.065 74.295) (xy 12.065 80.645))
-    (stroke (width 0) (type default))
-    (uuid 39f69327-d1b6-498f-b3dc-57a1389b02f9)
-  )
-  (wire (pts (xy 12.065 53.975) (xy 45.72 53.975))
-    (stroke (width 0) (type default))
-    (uuid 5f0a907d-1382-44eb-a2d4-d6a4ac1d8508)
-  )
-  (wire (pts (xy 45.72 97.79) (xy 45.72 89.535))
-    (stroke (width 0) (type default))
-    (uuid a6abbc97-0e6b-4825-8bb2-478c26b6cee8)
-  )
-  (wire (pts (xy 12.065 97.79) (xy 45.72 97.79))
-    (stroke (width 0) (type default))
-    (uuid b326be82-a9dc-456a-9714-24d3a9929ec8)
-  )
-  (wire (pts (xy 22.86 30.48) (xy 12.065 30.48))
-    (stroke (width 0) (type default))
-    (uuid b9f0829c-804f-4b2f-8caf-98c4a7858c4c)
-  )
-  (wire (pts (xy 12.065 88.265) (xy 12.065 97.79))
-    (stroke (width 0) (type default))
-    (uuid c4be6190-cede-43a0-b8a6-8f36ad35311a)
-  )
-  (wire (pts (xy 12.065 30.48) (xy 12.065 36.83))
-    (stroke (width 0) (type default))
-    (uuid cfb7c950-c647-493f-9d1f-95931417968b)
-  )
-  (polyline (pts (xy 5.715 15.24) (xy 204.47 15.24))
-    (stroke (width 0.4064) (type solid) (color 0 0 0 1))
-    (uuid de53fdf0-d586-4762-8f13-b7c60501f168)
-  )
-
-  (wire (pts (xy 22.86 74.295) (xy 12.065 74.295))
-    (stroke (width 0) (type default))
-    (uuid e70532d0-2e21-44b2-acde-e66f0ee6239b)
-  )
-  (wire (pts (xy 45.72 79.375) (xy 45.72 74.295))
-    (stroke (width 0) (type default))
-    (uuid f8d0dea2-4cf6-4a2e-a9da-da33fea33920)
-  )
-
-  (rectangle (start 5.08 59.055) (end 66.04 102.87)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 34258ce4-6063-4c3e-9b47-d2e85abdfc2f)
-  )
-  (rectangle (start 5.08 15.24) (end 66.04 59.055)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid e3ae329a-9091-4ea8-863d-e477a34b1db0)
-  )
-
-  (text "Lamp\n(Load)" (at 50.165 87.63 0)
-    (effects (font (face "Liberation Sans") (size 1.8 1.8) (thickness 0.4) bold (color 0 0 0 1)) (justify left bottom))
-    (uuid 09fba1ba-cf75-4b92-ba38-fbc6fb5c1b21)
-  )
-  (text "Pila\n(Generador)" (at 17.145 43.815 0)
-    (effects (font (face "Liberation Sans") (size 1.8 1.8) (thickness 0.4) bold (color 0 0 0 1)) (justify left bottom))
-    (uuid 1972782e-8e78-400c-a2cf-d47242f7075b)
-  )
-  (text "Wire\n(Conductor)" (at 19.05 97.155 0)
-    (effects (font (face "Liberation Sans") (size 1.8 1.8) (thickness 0.4) bold (color 0 0 0 1)) (justify left bottom))
-    (uuid 1b4ecc51-bd22-46f1-83c1-ba99192372af)
-  )
-  (text "Battery\n(Generator)" (at 17.145 87.63 0)
-    (effects (font (face "Liberation Sans") (size 1.8 1.8) (thickness 0.4) bold (color 0 0 0 1)) (justify left bottom))
-    (uuid 2e8e843e-a8d5-46cf-ae98-aa6b8d883afd)
-  )
-  (text "Bombilla\n(Receptor)" (at 50.165 43.815 0)
-    (effects (font (face "Liberation Sans") (size 1.8 1.8) (thickness 0.4) bold (color 0 0 0 1)) (justify left bottom))
-    (uuid 576ab58b-082b-4f7e-afca-38996d644d69)
-  )
-  (text "Cable\n(Conductor)" (at 19.05 53.34 0)
-    (effects (font (face "Liberation Sans") (size 1.8 1.8) (thickness 0.4) bold (color 0 0 0 1)) (justify left bottom))
-    (uuid 68165d0a-274d-45d6-8182-6c868b55583e)
-  )
-  (text "Interruptor\n(Elemento de control)" (at 19.05 26.035 0)
-    (effects (font (face "Liberation Sans") (size 1.8 1.8) (thickness 0.4) bold (color 0 0 0 1)) (justify left bottom))
-    (uuid 9b6e2aa9-3b16-446d-80ec-e2674894ab3f)
-  )
-  (text "Switch\n(Control element)" (at 19.05 69.85 0)
-    (effects (font (face "Liberation Sans") (size 1.8 1.8) (thickness 0.4) bold (color 0 0 0 1)) (justify left bottom))
-    (uuid bcc18b45-b76b-43bd-a481-0a34b2d930d9)
-  )
-
-  (symbol (lib_id "electric-circuit-rescue:CopyRight-simbolos") (at 106.68 5.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005bc453a4)
-    (property "Reference" "CP?" (at 117.475 -3.175 0)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Value" "CopyRight" (at 111.125 -3.175 0)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Footprint" "" (at 104.14 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 106.68 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "License" "CC BY-SA 4.0" (at 95.25 10.16 0)
-      (effects (font (size 1.905 1.905)))
-    )
-    (property "Author" "" (at 120.65 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Date" "" (at 109.855 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Web" "www.picuino.com" (at 120.65 10.16 0)
-      (effects (font (size 1.905 1.905)))
-    )
-    (instances
-      (project "electric-circuit"
-        (path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
-          (reference "CP?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "simbolos-electricos:interruptor") (at 22.86 30.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 22190628-83aa-4795-9e96-ea6a80444fb0)
-    (property "Reference" "S1" (at 29.21 25.4 0)
-      (effects (font (size 2.54 2.54)) hide)
-    )
-    (property "Value" "interruptor" (at 29.21 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 30.48 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 30.48 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 56cccf50-ea23-4741-bd4f-c966481f84b3))
-    (pin "" (uuid 56cccf50-ea23-4741-bd4f-c966481f84b3))
-    (instances
-      (project "electric-circuit"
-        (path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
-          (reference "S1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "simbolos-electricos:lampara") (at 45.72 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3f6eb151-b631-49bd-9bca-df826dcb7a7c)
-    (property "Reference" "L1" (at 50.8 41.275 0)
-      (effects (font (size 2.54 2.54)) (justify left) hide)
-    )
-    (property "Value" "lampara" (at 46.99 48.895 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 45.72 40.005 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 45.72 40.005 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid aa9f2f78-3886-44b6-a2ef-981fabbc7b58))
-    (pin "" (uuid aa9f2f78-3886-44b6-a2ef-981fabbc7b58))
-    (instances
-      (project "electric-circuit"
-        (path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
-          (reference "L1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "simbolos-electricos:Pila") (at 12.065 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4ce7f4d2-48a9-4c46-8f51-ef5dd8e96522)
-    (property "Reference" "V1" (at 17.145 41.275 0)
-      (effects (font (size 2.54 2.54)) (justify left) hide)
-    )
-    (property "Value" "Pila" (at 14.605 38.735 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 12.065 40.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 12.065 40.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 66b58eca-20d4-4aa3-beb3-93b5af60bd88))
-    (pin "" (uuid 66b58eca-20d4-4aa3-beb3-93b5af60bd88))
-    (instances
-      (project "electric-circuit"
-        (path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
-          (reference "V1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "simbolos-electricos:interruptor") (at 22.86 74.295 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 793cb809-ce8c-4236-a868-a9e654c306a4)
-    (property "Reference" "S3" (at 29.21 69.215 0)
-      (effects (font (size 2.54 2.54)) hide)
-    )
-    (property "Value" "interruptor" (at 29.21 76.835 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 30.48 74.295 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 30.48 74.295 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid bf996eac-73dc-41e1-9e7a-e3d8ffaf28f0))
-    (pin "" (uuid 106cca79-c08e-47ef-928e-111d1df4f705))
-    (instances
-      (project "electric-circuit"
-        (path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
-          (reference "S3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "simbolos-electricos:Pila") (at 12.065 80.645 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e40817a3-e45d-4a00-b317-84bfd72e1fb7)
-    (property "Reference" "V3" (at 17.145 85.09 0)
-      (effects (font (size 2.54 2.54)) (justify left) hide)
-    )
-    (property "Value" "Pila" (at 14.605 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 12.065 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 12.065 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 8408de0e-afa8-4028-b4bb-70e73975b59a))
-    (pin "" (uuid 4e1b0121-cbe9-4da6-b20b-b71ca994863c))
-    (instances
-      (project "electric-circuit"
-        (path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
-          (reference "V3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "simbolos-electricos:lampara") (at 45.72 79.375 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid eb71d5d6-0256-422c-84b8-86eb768faca3)
-    (property "Reference" "L3" (at 50.8 85.09 0)
-      (effects (font (size 2.54 2.54)) (justify left) hide)
-    )
-    (property "Value" "lampara" (at 46.99 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 45.72 83.82 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 45.72 83.82 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid aee842de-5e5f-4665-a245-ca4a92e4e4b7))
-    (pin "" (uuid f7e366cb-eb0a-4b7e-bbe4-e329cf5ca46c))
-    (instances
-      (project "electric-circuit"
-        (path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
-          (reference "L3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ed402a02-18b5-4b69-8c2e-4a17e0d73589")
+	(paper "A4" portrait)
+	(title_block
+		(title "Electric circuit")
+		(date "17/02/2023")
+		(company "www.picuino.com")
+		(comment 1 "Copyright (c) 2023 by Carlos Pardo Martín")
+		(comment 2 "License Creative Commons BY-SA 4.0")
+	)
+	(lib_symbols
+		(symbol "electric-circuit-rescue:CopyRight-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CP"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "CopyRight-simbolos"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "License" "CC BY-SA 4.0"
+				(at -1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Web" "www.picuino.com"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(symbol "CopyRight-simbolos_0_1"
+				(polyline
+					(pts
+						(xy -10.16 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "simbolos-electricos:Pila"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at 5.08 -4.445 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Pila"
+				(at 2.54 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pila_0_1"
+				(polyline
+					(pts
+						(xy -4.064 -1.27) (xy -2.286 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.175) (xy 3.81 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.381) (xy -3.175 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy 1.905 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pila_1_1"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 270)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "simbolos-electricos:interruptor"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 4.445 3.175 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "interruptor"
+				(at 6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "interruptor_0_0"
+				(polyline
+					(pts
+						(xy 8.89 3.81) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 9.525 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "interruptor_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "simbolos-electricos:lampara"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 4.445 -5.08 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "lampara"
+				(at 1.27 -13.335 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "lampara_0_1"
+				(circle
+					(center 0 -5.08)
+					(radius 3.302)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -7.493) (xy 2.286 -2.921)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -2.921) (xy 2.286 -7.493)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "lampara_1_1"
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 270)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 102.87 40.64) (xy 102.87 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009eaf10-1de2-4ad0-ba90-b6cd64f7b828")
+	)
+	(wire
+		(pts
+			(xy 45.72 74.295) (xy 35.56 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c855ba-822c-47ce-a311-82e7a8e3fdf2")
+	)
+	(wire
+		(pts
+			(xy 12.065 44.45) (xy 12.065 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b696ef1-2e88-491e-833e-94b1ce51709d")
+	)
+	(wire
+		(pts
+			(xy 45.72 30.48) (xy 35.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb50f71-5b59-42b2-bdb8-8df34e5f796e")
+	)
+	(wire
+		(pts
+			(xy 45.72 53.975) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238ecbc1-0ecf-4201-938a-1def34a53b47")
+	)
+	(wire
+		(pts
+			(xy 45.72 35.56) (xy 45.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273a8022-fb32-4474-8896-d8a18ce4efed")
+	)
+	(wire
+		(pts
+			(xy 12.065 74.295) (xy 12.065 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f69327-d1b6-498f-b3dc-57a1389b02f9")
+	)
+	(wire
+		(pts
+			(xy 12.065 53.975) (xy 45.72 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0a907d-1382-44eb-a2d4-d6a4ac1d8508")
+	)
+	(wire
+		(pts
+			(xy 102.87 27.94) (xy 102.87 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c020d8-2579-484a-9ebf-0e8db1e724b7")
+	)
+	(wire
+		(pts
+			(xy 102.87 25.4) (xy 99.06 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814d1887-9f73-471e-b288-7a84ed0f7526")
+	)
+	(wire
+		(pts
+			(xy 45.72 97.79) (xy 45.72 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6abbc97-0e6b-4825-8bb2-478c26b6cee8")
+	)
+	(wire
+		(pts
+			(xy 86.36 25.4) (xy 82.55 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d6da8d-fde5-4f62-a27b-100c03486e17")
+	)
+	(wire
+		(pts
+			(xy 12.065 97.79) (xy 45.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b326be82-a9dc-456a-9714-24d3a9929ec8")
+	)
+	(wire
+		(pts
+			(xy 22.86 30.48) (xy 12.065 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f0829c-804f-4b2f-8caf-98c4a7858c4c")
+	)
+	(wire
+		(pts
+			(xy 82.55 25.4) (xy 82.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6887bc-f841-4163-b085-0aaeceeca061")
+	)
+	(wire
+		(pts
+			(xy 12.065 88.265) (xy 12.065 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4be6190-cede-43a0-b8a6-8f36ad35311a")
+	)
+	(wire
+		(pts
+			(xy 12.065 30.48) (xy 12.065 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb7c950-c647-493f-9d1f-95931417968b")
+	)
+	(polyline
+		(pts
+			(xy 5.715 15.24) (xy 204.47 15.24)
+		)
+		(stroke
+			(width 0.4064)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "de53fdf0-d586-4762-8f13-b7c60501f168")
+	)
+	(wire
+		(pts
+			(xy 82.55 40.64) (xy 102.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb71d7c-308f-4b67-b918-e2b4e45bec5f")
+	)
+	(wire
+		(pts
+			(xy 22.86 74.295) (xy 12.065 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70532d0-2e21-44b2-acde-e66f0ee6239b")
+	)
+	(wire
+		(pts
+			(xy 82.55 36.83) (xy 82.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8769e00-1ea9-4036-b8d3-381817cdbbd0")
+	)
+	(wire
+		(pts
+			(xy 45.72 79.375) (xy 45.72 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d0dea2-4cf6-4a2e-a9da-da33fea33920")
+	)
+	(rectangle
+		(start 5.08 59.055)
+		(end 66.04 102.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34258ce4-6063-4c3e-9b47-d2e85abdfc2f)
+	)
+	(rectangle
+		(start 66.04 15.24)
+		(end 127 59.055)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 912a30a0-40d5-49f7-b88a-a13fad703bbd)
+	)
+	(rectangle
+		(start 5.08 15.24)
+		(end 66.04 59.055)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e3ae329a-9091-4ea8-863d-e477a34b1db0)
+	)
+	(text "Lamp\n(Load)"
+		(exclude_from_sim no)
+		(at 50.165 87.63 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 1.8 1.8)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "09fba1ba-cf75-4b92-ba38-fbc6fb5c1b21")
+	)
+	(text "Pila\n(Generador)"
+		(exclude_from_sim no)
+		(at 17.145 43.815 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 1.8 1.8)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1972782e-8e78-400c-a2cf-d47242f7075b")
+	)
+	(text "Wire\n(Conductor)"
+		(exclude_from_sim no)
+		(at 19.05 97.155 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 1.8 1.8)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b4ecc51-bd22-46f1-83c1-ba99192372af")
+	)
+	(text "Battery\n(Generator)"
+		(exclude_from_sim no)
+		(at 17.145 87.63 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 1.8 1.8)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e8e843e-a8d5-46cf-ae98-aa6b8d883afd")
+	)
+	(text "Bombilla\n(Receptor)"
+		(exclude_from_sim no)
+		(at 50.165 43.815 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 1.8 1.8)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "576ab58b-082b-4f7e-afca-38996d644d69")
+	)
+	(text "Cable\n(Conductor)"
+		(exclude_from_sim no)
+		(at 19.05 53.34 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 1.8 1.8)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "68165d0a-274d-45d6-8182-6c868b55583e")
+	)
+	(text "Interruptor\n(Elemento de control)"
+		(exclude_from_sim no)
+		(at 19.05 26.035 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 1.8 1.8)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b6e2aa9-3b16-446d-80ec-e2674894ab3f")
+	)
+	(text "Switch\n(Control element)"
+		(exclude_from_sim no)
+		(at 19.05 69.85 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 1.8 1.8)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcc18b45-b76b-43bd-a481-0a34b2d930d9")
+	)
+	(symbol
+		(lib_id "electric-circuit-rescue:CopyRight-simbolos")
+		(at 106.68 5.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005bc453a4")
+		(property "Reference" "CP?"
+			(at 117.475 -3.175 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CopyRight"
+			(at 111.125 -3.175 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "License" "CC BY-SA 4.0"
+			(at 95.25 10.16 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 120.65 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Date" ""
+			(at 109.855 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Web" "www.picuino.com"
+			(at 120.65 10.16 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+			)
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "CP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "simbolos-electricos:interruptor")
+		(at 22.86 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22190628-83aa-4795-9e96-ea6a80444fb0")
+		(property "Reference" "S1"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "interruptor"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "56cccf50-ea23-4741-bd4f-c966481f84b3")
+		)
+		(pin ""
+			(uuid "56cccf50-ea23-4741-bd4f-c966481f84b4")
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "simbolos-electricos:lampara")
+		(at 45.72 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f6eb151-b631-49bd-9bca-df826dcb7a7c")
+		(property "Reference" "L1"
+			(at 50.8 41.275 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "lampara"
+			(at 46.99 48.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 40.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 40.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "aa9f2f78-3886-44b6-a2ef-981fabbc7b58")
+		)
+		(pin ""
+			(uuid "aa9f2f78-3886-44b6-a2ef-981fabbc7b59")
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:interruptor")
+		(lib_id "simbolos-electricos:interruptor")
+		(at 86.36 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42d1dd59-d1fb-4c65-b952-4bdc2240a086")
+		(property "Reference" "S2"
+			(at 92.71 20.32 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "interruptor"
+			(at 92.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "25dbccbc-fa92-4396-972e-5ef14e76027a")
+		)
+		(pin ""
+			(uuid "03bc46ff-9e7c-44e1-942b-35024902ff24")
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "simbolos-electricos:Pila")
+		(at 12.065 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ce7f4d2-48a9-4c46-8f51-ef5dd8e96522")
+		(property "Reference" "V1"
+			(at 17.145 41.275 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Pila"
+			(at 14.605 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 12.065 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 12.065 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 12.065 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "66b58eca-20d4-4aa3-beb3-93b5af60bd88")
+		)
+		(pin ""
+			(uuid "66b58eca-20d4-4aa3-beb3-93b5af60bd89")
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:Pila")
+		(lib_id "simbolos-electricos:Pila")
+		(at 82.55 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7042189b-8a3d-4046-b191-c138d4141454")
+		(property "Reference" "V2"
+			(at 87.63 33.655 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Pila"
+			(at 85.09 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2e57f810-639a-49bd-8884-04d3c389c097")
+		)
+		(pin ""
+			(uuid "1731d30d-5122-49a0-baae-78f031a1a1cc")
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "V2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "simbolos-electricos:interruptor")
+		(at 22.86 74.295 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "793cb809-ce8c-4236-a868-a9e654c306a4")
+		(property "Reference" "S3"
+			(at 29.21 69.215 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "interruptor"
+			(at 29.21 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf996eac-73dc-41e1-9e7a-e3d8ffaf28f0")
+		)
+		(pin ""
+			(uuid "106cca79-c08e-47ef-928e-111d1df4f705")
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:lampara")
+		(lib_id "simbolos-electricos:lampara")
+		(at 102.87 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8ed9e1b-a7ff-4872-8a58-24d0e9d1c106")
+		(property "Reference" "L2"
+			(at 107.95 33.655 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "lampara"
+			(at 104.14 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 32.385 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 32.385 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d7891e3d-5909-4884-9a20-743b8e0bbbb8")
+		)
+		(pin ""
+			(uuid "0eff3ca8-3291-425b-b0a3-bf8719fe0f34")
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "simbolos-electricos:Pila")
+		(at 12.065 80.645 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e40817a3-e45d-4a00-b317-84bfd72e1fb7")
+		(property "Reference" "V3"
+			(at 17.145 85.09 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Pila"
+			(at 14.605 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 12.065 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 12.065 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 12.065 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8408de0e-afa8-4028-b4bb-70e73975b59a")
+		)
+		(pin ""
+			(uuid "4e1b0121-cbe9-4da6-b20b-b71ca994863c")
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "V3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "simbolos-electricos:lampara")
+		(at 45.72 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb71d5d6-0256-422c-84b8-86eb768faca3")
+		(property "Reference" "L3"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "lampara"
+			(at 46.99 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "aee842de-5e5f-4665-a245-ca4a92e4e4b7")
+		)
+		(pin ""
+			(uuid "f7e366cb-eb0a-4b7e-bbe4-e329cf5ca46c")
+		)
+		(instances
+			(project "electric-circuit"
+				(path "/ed402a02-18b5-4b69-8c2e-4a17e0d73589"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
