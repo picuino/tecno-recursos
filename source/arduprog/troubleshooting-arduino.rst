@@ -38,7 +38,7 @@ El entorno Arduino IDE se puede descargar desde la página oficial del
 proyecto en la pestaña 'software', pulsando el sistema operativo
 adecuado en el apartado 'Download the Arduino IDE':
 
-  https://www.arduino.cc/en/Main/Software
+  https://www.arduino.cc/es/Software
 
 Una vez descargado el programa, se debe instalar en el ordenador.
 También es necesario instalar los drivers para que el ordenador

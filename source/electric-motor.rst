@@ -68,21 +68,21 @@ llegó de forma masiva a todos los hogares.
      - Hogares con electricidad
    * - 1940
      - 2 TWh
-     - 10%
+     - 30%
    * - 1950
      - 5 TWh
-     - 30%
+     - 45%
    * - 1960
-     - 13 TWh
-     - 50%
+     - 12 TWh
+     - 65%
    * - 1970
-     - 40 TWh
-     - 80%
+     - 20 TWh
+     - 85%
    * - 1980
-     - 100 TWh
-     - 99.4%
+     - 50 TWh
+     - 95%
    * - 1990
-     - 132 TWh
+     - 90 TWh
      - 100%
 
 
