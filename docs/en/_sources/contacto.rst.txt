@@ -14,9 +14,10 @@ Correo de contacto:
 
       <strong><span style="unicode-bidi:bidi-override; direction: rtl;">moc.oniu<span style="display:none">n</span>cip&#64;sol<span style="display:none">novale</span>rac<span></strong>
 
-Grupo de Telegram:
+Grupos de Telegram:
 
-   `t.me/picuinoweb <https://t.me/picuinoweb>`__
+  * `t.me/picuinoweb <https://t.me/picuinoweb>`__
+  * `t.me/escuela40 <https://t.me/escuela40>`__  (Programa Código Escuela 4.0)
 
 Puedes utilizar los medios de contacto para comunicarte y
 

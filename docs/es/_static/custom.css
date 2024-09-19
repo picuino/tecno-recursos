@@ -24,14 +24,19 @@ font-size:90%;
 
 /* list of links in footer */
 ul.link-list {
-padding: 0.5em 0 0 0;
+padding: 12px 0;
 margin: 0;
 }
 
-.link-list li {
+ul.link-list li {
 display: inline;
-padding: 0 5px 0 10px;
+padding: 0 0 0 4px;
+margin: 4px 0;
 border-left: 1px solid #346;
+}
+
+ul.link-list li a {
+padding: 4px;
 }
 .link-list li:first-child {border-left: none;}
 

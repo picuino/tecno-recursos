@@ -58,8 +58,8 @@ master_doc = 'content'
 # -- Project information -----------------------------------------------------
 
 project = u'Picuino'
-copyright = u'2013-%s por Carlos Félix Pardo Martín' % (time.strftime("%Y"))
 author = u'Carlos Félix Pardo Martín'
+copyright = u'2013-%s, %s' % (time.strftime("%Y"), author)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
