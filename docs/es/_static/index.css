@@ -39,29 +39,33 @@ header {
   min-height: 96px;
 }
 
+.vertical-align {
+}
+
 .header-content {
-  line-height: 96px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
 
+.header-right {
+  display: flex;
+  line-height: 96px;
+  padding: 0 4px 0 6px;
+}
+
+
 .logo {
   display: flex;
-  margin-right: 16px;
+  line-height: 96px;
+  padding-right: 24px;
 }
 
 .logo img {
   display: table-cell;
   vertical-align: middle;
-}
-
-.header-right {
-  display: flex;
-  padding: 0;
-  margin-left: 4px;
 }
 
 .search {
@@ -74,7 +78,7 @@ header {
 .search input[type="text"] {
   outline: none;
   font-size: 16px;
-  padding: 6px 12px;
+  padding: 6px 4px;
   border-radius: 50px;
   border: 0 solid #2472a4;
 }
@@ -82,8 +86,6 @@ header {
 .lang {
   font-size: 18px;
   font-weight: bold;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .lang a { color: white; }
@@ -142,13 +144,18 @@ footer {
   color: #fff;
   margin: 0;
   line-height: 200%;
-  padding: 18px 0;
+  padding: 0;
   font-size: 12px;
   text-align: center;
 }
 
+.footer-content {
+    padding: 6px 0;
+}
+
 footer ul {
   display: flex;
+  padding: 0;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
@@ -159,14 +166,14 @@ footer ul li {
   display: inline;
   list-style: none;
   padding: 0 4px;
-  margin: 4px 0;
+  margin: 2px 0;
   border-left: 1px solid #fff;
 }
 
 footer ul li a {
   background-color: #2980B9;
   color: #fff;
-  padding: 4px;
+  padding: 2px 4px;
   text-decoration: none;
 }
 

@@ -38,39 +38,39 @@
   <header>
 
   <div class="width-limit">
+  <div class="vertical-align">
   <div class="header-content">
 
-  <div class="logo">
-  <a href="{% trans %}https://www.picuino.com/es/{% endtrans %}">
-  <img title="Picuino logo"
+    <div class="logo">
+    <a href="{% trans %}https://www.picuino.com/es/{% endtrans %}">
+    <img title="Picuino logo"
        src="_static/logo-picuino-bgblue.png"
        alt="Picuino logo" width="240">
-  </a>
+    </a>
+    </div>
+
+    <div class="header-right">
+      <div class="search-div">
+      <form id="rtd-search-form" class="search" action="search.html" method="get">
+        <input type="text" name="q" placeholder="{% trans %}Buscar...{% endtrans %}">
+        <input type="hidden" name="check_keywords" value="yes">
+        <input type="hidden" name="area" value="default">
+      </form>
+      </div>
+
+      <div class="lang">
+      {%- if language == 'es' %}
+      <a href="../en/index.html">English</a>
+      {%- elif language == 'en' %}
+      <a href="../es/index.html">Español</a>
+      {%- endif %}
+      </div>
+    </div>
+
   </div>
-
-  <div class="header-right">
-
-    <div role="search">
-    <form id="rtd-search-form" class="search" action="search.html" method="get">
-      <input type="text" name="q" placeholder="{% trans %}Buscar...{% endtrans %}">
-      <input type="hidden" name="check_keywords" value="yes">
-      <input type="hidden" name="area" value="default">
-    </form>
-    </div>
-
-    <div class="lang">
-    {%- if language == 'es' %}
-    <a href="../en/index.html">English</a>
-    {%- elif language == 'en' %}
-    <a href="../es/index.html">Español</a>
-    {%- endif %}
-    </div>
-
   </div>
 
   <div class="cleaner"></div>
-
-  </div>
   </div>
 
   </header>
@@ -130,6 +130,8 @@
   <footer>
 
   <div class="width-limit">
+  <div class="footer-content">
+  
 
   <ul class="link-list">
   <li><a href="{{ pathto('contacto') }}"  target="_blank">{% trans %}Contacto{% endtrans %}</a>
@@ -144,6 +146,7 @@
 
   <p>{% trans copyright=copyright|e %}Copyright &copy; {{ copyright }}{% endtrans %}</p>
 
+  </div>
   </div>
 
   </footer>
