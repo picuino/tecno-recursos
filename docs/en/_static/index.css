@@ -40,30 +40,36 @@ header {
 }
 
 .vertical-align {
+
 }
 
 .header-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  min-height: 100px;
   margin: 0;
   padding: 0;
 }
 
 .header-right {
-  display: flex;
-  line-height: 96px;
+  display: table;
   padding: 0 4px 0 6px;
+  margin: 16px 0 16px 0;
 }
-
 
 .logo {
-  display: flex;
-  line-height: 96px;
+  display: table;
   padding-right: 24px;
+  margin: 12px 0 12px 0;
 }
 
-.logo img {
+.logo a {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.search-div {
   display: table-cell;
   vertical-align: middle;
 }
@@ -71,8 +77,6 @@ header {
 .search {
   width: 220px;
   padding: 0 12px 0 0;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .search input[type="text"] {
@@ -84,11 +88,15 @@ header {
 }
 
 .lang {
+  display: table-cell;
+  vertical-align: middle;
   font-size: 18px;
   font-weight: bold;
 }
 
-.lang a { color: white; }
+.lang a {
+  color: white; 
+}
 
 
 /************   MAIN CONTENT  ************/
@@ -166,7 +174,7 @@ footer ul li {
   display: inline;
   list-style: none;
   padding: 0 4px;
-  margin: 2px 0;
+  margin: 4px 0;
   border-left: 1px solid #fff;
 }
 

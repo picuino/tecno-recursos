@@ -408,12 +408,3 @@ de `Pixabay <https://www.pexels.com/es-es/@pixabay>`__
 bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
 
 
-Otras
-^^^^^
-
-.. image:: ley/_thumbs/balanza.png
-   :width: 120
-
-`Imagen escamas-justicia-escala-libra-147219 <https://pixabay.com/es/vectors/escamas-justicia-escala-libra-147219/>`__
-bajo `licencia libre de pixabay <https://pixabay.com/es/service/license/>`__
-

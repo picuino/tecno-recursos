@@ -9,7 +9,7 @@
  Legislación Educativa
 ***********************
 
-.. image:: ley/_thumbs/balanza.png
+.. image:: _static/index-legislacion.png
    :width: 240px
    :align: center
    :alt: Legislación
