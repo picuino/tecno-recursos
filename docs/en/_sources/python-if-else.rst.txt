@@ -16,7 +16,8 @@ el orden en el que se ejecutan las instrucciones del programa.
 
 Ejemplo::
 
-   edad = int( input('Escribe tu edad: ') )
+   edad = input('Escribe tu edad: ')
+   edad = int(edad)
 
    if edad >= 18:
        print("Eres mayor de edad")
@@ -83,9 +84,10 @@ Ejercicios
 
    Pista::
 
-      num = int( input('Escribe un número: ') )
+      num = input('Escribe un número: ')
+      num = int(num)
 
-      if num ....
+      if num ... :
 
 
 #. Escribe un programa que compruebe si un número es par o impar.

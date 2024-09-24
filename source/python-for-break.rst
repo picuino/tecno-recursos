@@ -137,7 +137,8 @@ Ejercicios
 
    Pista::
 
-      num = int( input('Escribe un número: ') )
+      num = input('Escribe un número: ')
+      num = int(num)
 
       for divisor in range(2, num):
           if num % divisor == 0:

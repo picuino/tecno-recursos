@@ -105,12 +105,13 @@
 <span id="python-if-and-or-not"></span><h1><span class="section-number">10. </span><code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code> operators<a class="headerlink" href="#operadores-and-or-not" title="Permalink to this headline">¶</a></h1>
 <p>These operators are used to make more complex conditions in an <code class="docutils literal notranslate"><span class="pre">if</span></code> statement.</p>
 <p>Example to calculate if a year is a leap year:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">anio</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un año:&#39;</span><span class="p">)</span> <span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un año:&#39;</span><span class="p">)</span>
+<span class="n">year</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">year</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="p">(</span><span class="n">anio</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span> <span class="p">(</span><span class="n">anio</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">anio</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">anio</span><span class="p">,</span> <span class="s1">&#39;es bisiesto&#39;</span><span class="p">)</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">year</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span> <span class="p">(</span><span class="n">year</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">year</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="s1">&#39;es bisiesto&#39;</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">anio</span><span class="p">,</span> <span class="s1">&#39;no es bisiesto&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="s1">&#39;no es bisiesto&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Although parentheses are not always mandatory, it is advisable to use them so that the code can be better understood.</p>
@@ -153,7 +154,9 @@
 </li>
 <li><p class="first">Write a program that prints a message when a number is positive, even, and not divisible by 3. Otherwise, it does not print any message.</p>
 <p>Clue:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un número:&#39;</span><span class="p">)</span> <span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un número:&#39;</span><span class="p">)</span>
+<span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+
 <span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
    <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s1">&#39;es positivo, es par y no es divisible por 3.&#39;</span><span class="p">)</span>
 </pre></div>
@@ -193,7 +196,7 @@
     <li><a href="content.html" target="_blank">Index</a></li>
     </ul>
     <p class="content-info">
-      Copyright &copy; 2013-2024, Carlos Félix Pardo Martín.
+      Copyright © 2013-2023 by Carlos Pardo Martín.
       <br>
 
       Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>

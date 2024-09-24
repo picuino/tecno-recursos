@@ -98,12 +98,13 @@
 <p>Estos operadores sirven para hacer condiciones más complejas
 en una sentencia <code class="docutils literal notranslate"><span class="pre">if</span></code>.</p>
 <p>Ejemplo para calcular si un año es bisiesto:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">anio</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un año:&#39;</span><span class="p">)</span> <span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un año:&#39;</span><span class="p">)</span>
+<span class="n">year</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">year</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="p">(</span><span class="n">anio</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span> <span class="p">(</span><span class="n">anio</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">anio</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">anio</span><span class="p">,</span> <span class="s1">&#39;es bisiesto&#39;</span><span class="p">)</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">year</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span> <span class="p">(</span><span class="n">year</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">year</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="s1">&#39;es bisiesto&#39;</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">anio</span><span class="p">,</span> <span class="s1">&#39;no es bisiesto&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="s1">&#39;no es bisiesto&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Aunque los paréntesis no siempre son obligatorios, es recomendable
@@ -155,7 +156,9 @@ sensores. ¿Qué combinaciones hacen que se conecte el riego?</p>
 sea positivo, sea par y no sea divisible por 3. En caso
 contrario no imprime ningún mensaje.</p>
 <p>Pista:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un número:&#39;</span><span class="p">)</span> <span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un número:&#39;</span><span class="p">)</span>
+<span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+
 <span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
    <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s1">&#39;es positivo, es par y no es divisible por 3.&#39;</span><span class="p">)</span>
 </pre></div>

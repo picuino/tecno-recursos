@@ -15,7 +15,9 @@ con sangría, es decir, con espacios a la izquierda.
 
 Este es un ejemplo con la instrucción ``if`` anidada en dos niveles::
 
-    numero = int(input('Introduce un número: '))
+    numero = input('Introduce un número: ')
+    numero = int(numero)
+
     if numero % 3 == 0:
         if numero % 5 == 0:
             print('El número', numero, 'es divisible por 3 y por 5')
@@ -28,7 +30,9 @@ se aniden muchos niveles para facilitar la lectura del código.
 
 Este es otro ejemplo de ``if`` anidado en dos niveles::
 
-    edad = int(input('Introduce tu edad: '))
+    edad = input('Introduce tu edad: ')
+    edad = int(edad)
+
     if edad >= 18:
         if edad >= 65:
             print("Eres un adulto mayor")
@@ -55,8 +59,10 @@ Ejercicios
 
    Pista::
 
-      edad = int( input('Escribe tu edad: ') )
-      if ...
+      edad = input('Escribe tu edad: ')
+      edad = int(edad)
+      
+      if ... :
 
 
 #. Escribe un programa para comprobar si una persona puede subir
@@ -166,17 +172,19 @@ Ejercicios
 
 
 #. Escribe un programa que verifique si un año es bisiesto.
-   Un año es bisiesto si es divisible por 4 (anio % 4 == 0).
+   Un año es bisiesto si es divisible por 4 (year % 4 == 0).
 
    De estos años bisiestos hay que eliminar los que son divisibles por
    100 y añadir los que son divisibles por 400.
 
    Pista::
 
-       anio = int(input('Escribe el año: '))
-       if anio % 4 == 0:
-           if anio % 100 == 0:
-               if anio % 400 == 0:
+       year = input('Escribe el año: ')
+       year = int(year)
+
+       if year % 4 == 0:
+           if year % 100 == 0:
+               if year % 400 == 0:
                    print('...')
                else:
                    print('...')

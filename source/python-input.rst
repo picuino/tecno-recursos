@@ -35,8 +35,8 @@ La función :py:func:`input`
       >>> float(num)
           45.0
 
-   Observa cómo el número introducido es una cadena de texto, por lo que
-   no podemos realizar cálculos con él.
+   Observa cómo el número introducido es una cadena de texto,
+   por lo que no podemos realizar cálculos con él.
    Para convertir el texto en un número hay que utilizar alguna
    de las siguientes funciones:
 

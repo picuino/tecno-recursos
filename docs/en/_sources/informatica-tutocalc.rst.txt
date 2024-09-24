@@ -10,7 +10,7 @@ Tutorial de Calc
 Tutorial para aprender a manejar una hoja de cálculo
 con el programa de código libre LibreOffice Calc, en Castellano.
 
-Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
+Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`__.
 
 .. list-table::
    :widths: 70 30

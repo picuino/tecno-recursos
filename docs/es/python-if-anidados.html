@@ -100,7 +100,9 @@ encuentra dentro de otra.</p>
 <p>Cada nivel extra con otra instrucción <code class="docutils literal notranslate"><span class="pre">if</span></code> habrá que escribir el código
 con sangría, es decir, con espacios a la izquierda.</p>
 <p>Este es un ejemplo con la instrucción <code class="docutils literal notranslate"><span class="pre">if</span></code> anidada en dos niveles:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">numero</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un número: &#39;</span><span class="p">))</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">numero</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un número: &#39;</span><span class="p">)</span>
+<span class="n">numero</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">numero</span><span class="p">)</span>
+
 <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
     <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El número&#39;</span><span class="p">,</span> <span class="n">numero</span><span class="p">,</span> <span class="s1">&#39;es divisible por 3 y por 5&#39;</span><span class="p">)</span>
@@ -111,7 +113,9 @@ con sangría, es decir, con espacios a la izquierda.</p>
 <p>Anidar condiciones <code class="docutils literal notranslate"><span class="pre">if</span></code> puede ser útil, pero hay que intentar que no
 se aniden muchos niveles para facilitar la lectura del código.</p>
 <p>Este es otro ejemplo de <code class="docutils literal notranslate"><span class="pre">if</span></code> anidado en dos niveles:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce tu edad: &#39;</span><span class="p">))</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce tu edad: &#39;</span><span class="p">)</span>
+<span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">edad</span><span class="p">)</span>
+
 <span class="k">if</span> <span class="n">edad</span> <span class="o">&gt;=</span> <span class="mi">18</span><span class="p">:</span>
     <span class="k">if</span> <span class="n">edad</span> <span class="o">&gt;=</span> <span class="mi">65</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Eres un adulto mayor&quot;</span><span class="p">)</span>
@@ -133,8 +137,10 @@ dependiendo de la edad.</p>
 <p>Si el cliente tiene una edad de 60 o más años, solo pagará 2 Euros.</p>
 <p>Si el cliente tiene una edad de 12 o menos años, solo pagará 4 Euros.</p>
 <p>Pista:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe tu edad: &#39;</span><span class="p">)</span> <span class="p">)</span>
-<span class="k">if</span> <span class="o">...</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe tu edad: &#39;</span><span class="p">)</span>
+<span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">edad</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
 </pre></div>
 </div>
 </li>
@@ -239,14 +245,16 @@ imprimir en pantalla el tipo de triángulo:</p>
 </div></blockquote>
 </li>
 <li><p class="first">Escribe un programa que verifique si un año es bisiesto.
-Un año es bisiesto si es divisible por 4 (anio % 4 == 0).</p>
+Un año es bisiesto si es divisible por 4 (year % 4 == 0).</p>
 <p>De estos años bisiestos hay que eliminar los que son divisibles por
 100 y añadir los que son divisibles por 400.</p>
 <p>Pista:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">anio</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe el año: &#39;</span><span class="p">))</span>
-<span class="k">if</span> <span class="n">anio</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">anio</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">anio</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe el año: &#39;</span><span class="p">)</span>
+<span class="n">year</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">year</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>

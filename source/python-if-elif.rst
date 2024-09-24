@@ -14,7 +14,9 @@ se utiliza para evaluar múltiples condiciones como en una estructura
 Este es un ejemplo de la instrucción ``elif`` utilizada para traducir
 notas numéricas a texto::
 
-    nota = float( input('Introduce una nota: ') )
+    nota = input('Introduce una nota: ')
+    nota = float(nota)
+
     if nota < 5:
         print('Insuficiente')
     elif nota < 6:
@@ -35,8 +37,10 @@ Ejercicios
 
    Pista::
 
-      num = int( input('Introduce un número:') )
-      if num ...
+      num = input('Introduce un número:')
+      num = int(num)
+
+      if num ... :
 
 
 #. Escribe un programa que traduzca el mes del año en la estación
@@ -49,8 +53,10 @@ Ejercicios
 
    Pista::
 
-      mes = int( input('Mes del año (en número):') )
-      if mes ...
+      mes = input('Mes del año (en número):')
+      mes = int(mes)
+
+      if mes ... :
 
 
 #. Escribe un programa que detecte si un número es una nota válida.

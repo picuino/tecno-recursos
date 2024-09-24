@@ -191,7 +191,6 @@ drawing-views-left-02-images.zip: \
 
 
 .PHONY: drawing-views-02  clean-drawing-views-02
-
 drawing-views-02: \
 	drawing-views-right-02.pdf \
 	drawing-views-left-02.pdf \
@@ -269,7 +268,6 @@ drawing-views-left-03-images.zip: \
 
 
 .PHONY: drawing-views-03  clean-drawing-views-03
-
 drawing-views-03: \
 	drawing-views-right-03.pdf \
 	drawing-views-left-03.pdf \
@@ -425,7 +423,6 @@ drawing-views-left-05-images.zip: \
 
 
 .PHONY: drawing-views-05  clean-drawing-views-05
-
 drawing-views-05: \
 	drawing-views-right-05.pdf \
 	drawing-views-left-05.pdf \
@@ -464,7 +461,7 @@ $(IMGDIR)/drawing-template-isometric-4-right.png: drawing-template-isometric-4-r
 $(IMGDIR)/drawing-template-isometric-4-left.png: drawing-template-isometric-4-left.pdf
 	$(call pdf_page_to_png,$(basename $^))
 
-.PHONY: drawing-template-isometric-4 clean-drawing-template-isometric-4
+.PHONY: drawing-template-isometric-4  clean-drawing-template-isometric-4
 drawing-template-isometric-4: \
 	$(IMGDIR)/drawing-template-isometric-4-right.png \
 	$(IMGDIR)/drawing-template-isometric-4-left.png \
@@ -566,8 +563,7 @@ $(THUMBDIR)/dibujo-plantilla-isometric-4-izq.en.png: $(IMGDIR)/drawing-template-
 	$(OPTIPNG) $@
 
 
-.PHONY: dibujo-views-thumbs
-
+.PHONY: dibujo-views-thumbs  clean-dibujo-views-thumbs
 dibujo-views-thumbs: \
 	$(THUMBDIR)/dibujo-vistas-der-01.en.png $(THUMBDIR)/dibujo-vistas-izq-01.en.png \
 	$(THUMBDIR)/dibujo-vistas-der-02.en.png $(THUMBDIR)/dibujo-vistas-izq-02.en.png \
@@ -600,7 +596,6 @@ clean-dibujo-views-thumbs:
 # make all
 #
 .PHONY: all  clean
-
 all: \
 	drawing-views-01 \
 	drawing-views-02 \

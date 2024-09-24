@@ -12,12 +12,13 @@ en una sentencia ``if``.
 
 Ejemplo para calcular si un año es bisiesto::
 
-    anio = int( input('Escribe un año:') )
+    year = input('Escribe un año:')
+    year = int(year)
 
-    if (anio % 4 == 0) and ( (anio % 100 != 0) or (anio % 400 == 0) ):
-        print(anio, 'es bisiesto')
+    if (year % 4 == 0) and ( (year % 100 != 0) or (year % 400 == 0) ):
+        print(year, 'es bisiesto')
     else:
-        print(anio, 'no es bisiesto')
+        print(year, 'no es bisiesto')
 
 Aunque los paréntesis no siempre son obligatorios, es recomendable
 usarlos para que se pueda entender mejor el código.
@@ -79,7 +80,9 @@ Ejercicios
 
    Pista::
 
-      num = int( input('Escribe un número:') )
+      num = input('Escribe un número:')
+      num = int(num)
+
       if ... :
          print(num, 'es positivo, es par y no es divisible por 3.')
 

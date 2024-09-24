@@ -49,8 +49,8 @@ La función :py:func:`print`
 Ejercicios
 ----------
 
-#. Escribe un programa que imprima varios números separados por comas
-   gracias al argumento ``sep``.
+#. Escribe un programa que imprima varios números separados por
+   punto y coma gracias al argumento ``sep``.
 
 
 #. Escribe un programa que imprima en una sola línea dos palabras juntas.
@@ -59,15 +59,30 @@ Ejercicios
 
 
 #. Escribe un programa que calcule e imprima la media de tres notas:
-   5, 8, 9
+   5, 8, 9.
+   
+   Pista: deberás sumar todas las notas dentro de un paréntesis y después
+   dividir el resultado entre 3.
 
 
-#. Escribe un programa que imprima 'Hola mundo' en dos líneas distintas
+#. Escribe un programa que imprima 'Hola, mundo' en dos líneas distintas
    con una sola orden ``print()``.
 
-   Pista: el caracter '\\n' sirve para añadir una nueva línea en una
-   cadena de texto.
+   Pista: el caracter '\\n' sirve para añadir una nueva línea
+   dentro de una cadena de texto.
 
+
+#. Escribe un programa que asigne un valor a una variable y que
+   luego imprima el valor de la variable en pantalla.
+
+   Pista::
+
+      a = 5
+      print( ... )
+
+   Salida::
+
+      La variable 'a' tiene el valor 5
 
 #. Escribe un programa que asigne dos valores a dos variables y que
    luego imprima sus valores y el valor de la suma.

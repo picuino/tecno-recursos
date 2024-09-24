@@ -166,6 +166,31 @@ Ejercicios con curvas
    <dibujo/dibujo-vistas-izq-05.svg>`
 
 
+
+Plantillas de dibujo
+--------------------
+
+.. image:: dibujo/_thumbs/dibujo-plantilla-isometric-4-der.png
+   :width: 240px
+   :align: center
+
+|  :download:`Alzado derecho. Formato PDF.
+   <dibujo/dibujo-plantilla-isometric-4-der.pdf>`
+|  :download:`Alzado derecho. Formato editable SVG.
+   <dibujo/dibujo-plantilla-isometric-4-der.svg>`
+
+
+.. image:: dibujo/_thumbs/dibujo-plantilla-isometric-4-izq.png
+   :width: 240px
+   :align: center
+
+|  :download:`Alzado izquierdo. Formato PDF.
+   <dibujo/dibujo-plantilla-isometric-4-izq.pdf>`
+|  :download:`Alzado izquierdo. Formato editable SVG.
+   <dibujo/dibujo-plantilla-isometric-4-izq.svg>`
+
+
+
 Piezas de papel en tres dimensiones
 -----------------------------------
 Ejercicios para construir piezas en tres dimensiones con papel recortado

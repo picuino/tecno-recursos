@@ -106,7 +106,9 @@
 <p>A programming structure is said to be nested when it is inside another.</p>
 <p>Each extra level with another <code class="docutils literal notranslate"><span class="pre">if</span></code> statement will have to be indented, that is, with spaces to the left.</p>
 <p>This is an example with the <code class="docutils literal notranslate"><span class="pre">if</span></code> statement nested in two levels:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">numero</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un número: &#39;</span><span class="p">))</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">numero</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un número: &#39;</span><span class="p">)</span>
+<span class="n">numero</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">numero</span><span class="p">)</span>
+
 <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
     <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El número&#39;</span><span class="p">,</span> <span class="n">numero</span><span class="p">,</span> <span class="s1">&#39;es divisible por 3 y por 5&#39;</span><span class="p">)</span>
@@ -116,7 +118,9 @@
 </div>
 <p>Nesting <code class="docutils literal notranslate"><span class="pre">if</span></code> conditions can be useful, but try not to nest too many levels to make the code easier to read.</p>
 <p>This is another example of <code class="docutils literal notranslate"><span class="pre">if</span></code> nested on two levels:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce tu edad: &#39;</span><span class="p">))</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce tu edad: &#39;</span><span class="p">)</span>
+<span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">edad</span><span class="p">)</span>
+
 <span class="k">if</span> <span class="n">edad</span> <span class="o">&gt;=</span> <span class="mi">18</span><span class="p">:</span>
     <span class="k">if</span> <span class="n">edad</span> <span class="o">&gt;=</span> <span class="mi">65</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Eres un adulto mayor&quot;</span><span class="p">)</span>
@@ -137,8 +141,10 @@
 <p>If the client is 60 or older, they will only pay 2 Euros.</p>
 <p>If the client is 12 years old or less, he will only pay 4 Euros.</p>
 <p>Clue:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe tu edad: &#39;</span><span class="p">)</span> <span class="p">)</span>
-<span class="k">if</span> <span class="o">...</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edad</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe tu edad: &#39;</span><span class="p">)</span>
+<span class="n">edad</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">edad</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
 </pre></div>
 </div>
 </li>
@@ -230,13 +236,16 @@
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first">Write a program that checks if a year is a leap year. A year is a leap year if it is divisible by 4 (year % 4 == 0).</p>
+<li><p class="first">Escribe un programa que verifique si un año es bisiesto.
+Un año es bisiesto si es divisible por 4 (year % 4 == 0).</p>
 <p>Of these leap years, we must eliminate those that are divisible by 100 and add those that are divisible by 400.</p>
 <p>Clue:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">anio</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe el año: &#39;</span><span class="p">))</span>
-<span class="k">if</span> <span class="n">anio</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">anio</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">anio</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe el año: &#39;</span><span class="p">)</span>
+<span class="n">year</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">year</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
@@ -325,7 +334,7 @@
     <li><a href="content.html" target="_blank">Index</a></li>
     </ul>
     <p class="content-info">
-      Copyright &copy; 2013-2024, Carlos Félix Pardo Martín.
+      Copyright © 2013-2023 by Carlos Pardo Martín.
       <br>
 
       Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>

@@ -105,7 +105,9 @@
 <span id="python-if-elif"></span><h1><span class="section-number">12. </span><code class="docutils literal notranslate"><span class="pre">elif</span></code> statement<a class="headerlink" href="#sentencia-elif" title="Permalink to this headline">¶</a></h1>
 <p>The <code class="docutils literal notranslate"><span class="pre">elif</span></code> statement is equivalent to writing <code class="docutils literal notranslate"><span class="pre">else:</span> <span class="pre">if</span></code> and is used to evaluate multiple conditions as in a nested <code class="docutils literal notranslate"><span class="pre">if</span></code> structure, with the advantage of not requiring successive indentations.</p>
 <p>This is an example of the <code class="docutils literal notranslate"><span class="pre">elif</span></code> statement used to translate numerical notes to text:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">nota</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce una nota: &#39;</span><span class="p">)</span> <span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">nota</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce una nota: &#39;</span><span class="p">)</span>
+<span class="n">nota</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">nota</span><span class="p">)</span>
+
 <span class="k">if</span> <span class="n">nota</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Insuficiente&#39;</span><span class="p">)</span>
 <span class="k">elif</span> <span class="n">nota</span> <span class="o">&lt;</span> <span class="mi">6</span><span class="p">:</span>
@@ -123,8 +125,10 @@
 <ol class="arabic">
 <li><p class="first">Write a program that classifies an integer as positive, negative, or zero.</p>
 <p>Clue:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un número:&#39;</span><span class="p">)</span> <span class="p">)</span>
-<span class="k">if</span> <span class="n">num</span> <span class="o">...</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un número:&#39;</span><span class="p">)</span>
+<span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">num</span> <span class="o">...</span> <span class="p">:</span>
 </pre></div>
 </div>
 </li>
@@ -136,8 +140,10 @@
 <li>Fall: 9, 10, 11</li>
 </ul>
 <p>Clue:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mes</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Mes del año (en número):&#39;</span><span class="p">)</span> <span class="p">)</span>
-<span class="k">if</span> <span class="n">mes</span> <span class="o">...</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mes</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Mes del año (en número):&#39;</span><span class="p">)</span>
+<span class="n">mes</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">mes</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">mes</span> <span class="o">...</span> <span class="p">:</span>
 </pre></div>
 </div>
 </li>
@@ -186,7 +192,7 @@
     <li><a href="content.html" target="_blank">Index</a></li>
     </ul>
     <p class="content-info">
-      Copyright &copy; 2013-2024, Carlos Félix Pardo Martín.
+      Copyright © 2013-2023 by Carlos Pardo Martín.
       <br>
 
       Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>

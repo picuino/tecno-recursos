@@ -20,7 +20,8 @@ Ejemplo de programa que suma precios mientras que el total sea menor de
    suma = 0
 
    while suma < 1000:
-       suma = suma + int( input('Introduce un precio: ') )
+       precio = input('Introduce un precio: ')
+       suma = suma + int(precio)
 
    print('La suma de todos los precios es mayor de 1000')
 

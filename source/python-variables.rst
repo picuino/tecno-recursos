@@ -19,10 +19,10 @@ la variable, un igual y el valor asignado::
 El valor de una variable se puede mantener igual a lo largo del programa
 o puede cambiar::
 
-   suma = 0
-   suma = suma + 2
-   suma = suma + 4
-   suma = suma + 6
+   altura = 170
+   ...
+   ...
+   altura = 180
 
 
 Números mágicos
@@ -129,7 +129,9 @@ Guarda los programas con los nombres propuestos en los ejercicios.
 
       pi = 3.141592653589793
 
-      radio = float( input("Introduce el radio del círculo: ") )
+      radio = input("Introduce el radio del círculo: ")
+      
+      radio = float(radio)
 
       perimetro = 2.0 * pi * radio
 

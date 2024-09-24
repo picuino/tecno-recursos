@@ -99,8 +99,8 @@ Ejercicios
    Pista::
 
        caracter = input('Introduce un caracter: ')
-       numero = ord(caracter[0:1])
-       for code in range(numero+1, numero+11):
+       numero = ord(caracter[0])
+       for code in range(numero + 1, numero + 11):
            print(f'Código: ...  caracter: ... ')
 
 

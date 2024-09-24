@@ -174,8 +174,8 @@ los siguientes 10 caracteres Unicode.</p>
 Unicode.</p>
 <p>Pista:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">caracter</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un caracter: &#39;</span><span class="p">)</span>
-<span class="n">numero</span> <span class="o">=</span> <span class="nb">ord</span><span class="p">(</span><span class="n">caracter</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">])</span>
-<span class="k">for</span> <span class="n">code</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">numero</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">numero</span><span class="o">+</span><span class="mi">11</span><span class="p">):</span>
+<span class="n">numero</span> <span class="o">=</span> <span class="nb">ord</span><span class="p">(</span><span class="n">caracter</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="k">for</span> <span class="n">code</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">numero</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">numero</span> <span class="o">+</span> <span class="mi">11</span><span class="p">):</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Código: ...  caracter: ... &#39;</span><span class="p">)</span>
 </pre></div>
 </div>

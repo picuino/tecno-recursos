@@ -191,7 +191,6 @@ dibujo-vistas-izq-02-images.zip: \
 
 
 .PHONY: dibujo-vistas-02  clean-dibujo-vistas-02
-
 dibujo-vistas-02: \
 	dibujo-vistas-der-02.pdf \
 	dibujo-vistas-izq-02.pdf \
@@ -269,7 +268,6 @@ dibujo-vistas-izq-03-images.zip: \
 
 
 .PHONY: dibujo-vistas-03  clean-dibujo-vistas-03
-
 dibujo-vistas-03: \
 	dibujo-vistas-der-03.pdf \
 	dibujo-vistas-izq-03.pdf \
@@ -425,7 +423,6 @@ dibujo-vistas-izq-05-images.zip: \
 
 
 .PHONY: dibujo-vistas-05  clean-dibujo-vistas-05
-
 dibujo-vistas-05: \
 	dibujo-vistas-der-05.pdf \
 	dibujo-vistas-izq-05.pdf \
@@ -567,7 +564,6 @@ $(THUMBDIR)/dibujo-plantilla-isometric-4-izq.png: $(IMGDIR)/dibujo-plantilla-iso
 
 
 .PHONY: dibujo-vistas-thumbs  clean-dibujo-vistas-thumbs
-
 dibujo-vistas-thumbs: \
 	$(THUMBDIR)/dibujo-vistas-der-01.png    $(THUMBDIR)/dibujo-vistas-izq-01.png \
 	$(THUMBDIR)/dibujo-vistas-der-02.png    $(THUMBDIR)/dibujo-vistas-izq-02.png \
@@ -600,7 +596,6 @@ clean-dibujo-vistas-thumbs:
 # make all
 #
 .PHONY: all  clean
-
 all: \
 	dibujo-vistas-01 \
 	dibujo-vistas-02 \
