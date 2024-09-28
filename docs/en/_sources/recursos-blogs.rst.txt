@@ -564,7 +564,22 @@ Los números más bajos se colocan primeros en la lista.
 
 
 
-34. `TecnoZona <http://www.tecnozona.org/>`__
+34. `GMedranoTIC <https://gmedranotic.wordpress.com/>`__
+--------------------------------------------------------
+
+   .. image:: recursos/screenshots/recursos-gmedranotic_wordpress_com.jpg
+      :target: https://gmedranotic.wordpress.com/
+      :alt: Screenshot de la página web GMedranoTIC.
+
+   .. list-table::
+
+      * - `Similarweb rank <https://www.similarweb.com/es/website/gmedranotic.wordpress.com/#overview>`__
+        - 13547.7 k
+      * - Visitas al mes
+        - Sin datos.
+
+
+35. `TecnoZona <http://www.tecnozona.org/>`__
 ---------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_tecnozona_org.jpg
@@ -579,7 +594,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-35. `Tecnomapas <https://tecnomapas.blogspot.com/>`__
+36. `Tecnomapas <https://tecnomapas.blogspot.com/>`__
 -----------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnomapas_blogspot_com.jpg
@@ -594,7 +609,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-36. `Profesoratecno <https://profesoratecno.blogspot.com/>`__
+37. `Profesoratecno <https://profesoratecno.blogspot.com/>`__
 -------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-profesoratecno_blogspot_com.jpg
@@ -609,7 +624,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-37. `Tecnomeler <https://tecnomeler.org/>`__
+38. `Tecnomeler <https://tecnomeler.org/>`__
 --------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnomeler_org.jpg
@@ -624,7 +639,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-38. `Aula Taller <http://www.aulataller.es/>`__
+39. `Aula Taller <http://www.aulataller.es/>`__
 -----------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_aulataller_es.jpg
@@ -639,7 +654,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-39. `Tecnología y más <https://tecnologiaymasgma.blogspot.com/>`__
+40. `Tecnología y más <https://tecnologiaymasgma.blogspot.com/>`__
 ------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaymasgma_blogspot_com.jpg
@@ -654,7 +669,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-40. `Blogtecnos <https://blogtecnos.blogspot.com/>`__
+41. `Blogtecnos <https://blogtecnos.blogspot.com/>`__
 -----------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-blogtecnos_blogspot_com.jpg
@@ -669,7 +684,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-41. `Tecnología Canete <https://tecnologiacanete.blogspot.com/>`__
+42. `Tecnología Canete <https://tecnologiacanete.blogspot.com/>`__
 ------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiacanete_blogspot_com.jpg
@@ -684,7 +699,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-42. `Blog de Tecnología de Carlos Martínez <https://tecnologiaconcarlosmartinez.blogspot.com/>`__
+43. `Blog de Tecnología de Carlos Martínez <https://tecnologiaconcarlosmartinez.blogspot.com/>`__
 -------------------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaconcarlosmartinez_blogspot_com.jpg
@@ -699,7 +714,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-43. `Wikilibro Tecno Recursos <https://es.wikibooks.org/wiki/Tecno_Recursos>`__
+44. `Wikilibro Tecno Recursos <https://es.wikibooks.org/wiki/Tecno_Recursos>`__
 -------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-es_wikibooks_org_wiki_Tecno_Recursos.jpg
@@ -717,7 +732,7 @@ Los números más bajos se colocan primeros en la lista.
 
 
 
-44. `Blog Area Tecnología <https://areatecnologia.blogspot.com.es/>`__
+45. `Blog Area Tecnología <https://areatecnologia.blogspot.com.es/>`__
 ----------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-areatecnologia_blogspot_com_es.jpg
@@ -732,7 +747,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-45. `TecnoFabri <https://tecnobri.blogspot.com/>`__
+46. `TecnoFabri <https://tecnobri.blogspot.com/>`__
 ---------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnobri_blogspot_com.jpg
@@ -747,7 +762,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-46. `Recursos digitales <https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/>`__
+47. `Recursos digitales <https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/>`__
 ---------------------------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_recursospdifgl_com_ense_C3_B1anza-online_herramientas-digitales.jpg
@@ -762,7 +777,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-47. `Web de Víctor M. Acosta <https://victoracosta352.wixsite.com/tecnologiaeso/>`__
+48. `Web de Víctor M. Acosta <https://victoracosta352.wixsite.com/tecnologiaeso/>`__
 ------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-victoracosta352_wixsite_com_tecnologiaeso.jpg
@@ -777,7 +792,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-48. `JRLopez <https://sites.google.com/site/jrlopezinfo/home/>`__
+49. `JRLopez <https://sites.google.com/site/jrlopezinfo/home/>`__
 -----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_site_jrlopezinfo_home.jpg
@@ -792,7 +807,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-49. `Tecnología Escuelas SJ <https://tecnologia.escuelassj.com/>`__
+50. `Tecnología Escuelas SJ <https://tecnologia.escuelassj.com/>`__
 -------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologia_escuelassj_com.jpg
@@ -807,7 +822,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-50. `Aratecno (Aragón) <https://wp.catedu.es/aratecno/>`__
+51. `Aratecno (Aragón) <https://wp.catedu.es/aratecno/>`__
 ----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-wp_catedu_es_aratecno.jpg
@@ -822,7 +837,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-51. `Tecnoeduca <https://www.tecnoeduca.com/blog/>`__
+52. `Tecnoeduca <https://www.tecnoeduca.com/blog/>`__
 -----------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_tecnoeduca_com_blog.jpg
@@ -837,7 +852,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-52. `Tecnoilógicos <https://tecnoilogicos.blogspot.com/>`__
+53. `Tecnoilógicos <https://tecnoilogicos.blogspot.com/>`__
 -----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnoilogicos_blogspot_com.jpg
@@ -852,7 +867,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-53. `Blog de Pedro Jara <https://pedro-jara.blogspot.com/>`__
+54. `Blog de Pedro Jara <https://pedro-jara.blogspot.com/>`__
 -------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-pedro-jara_blogspot_com.jpg
@@ -867,7 +882,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-54. `Tecnoinfe <https://tecnoinfe.blogspot.com/>`__
+55. `Tecnoinfe <https://tecnoinfe.blogspot.com/>`__
 ---------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnoinfe_blogspot_com.jpg
@@ -882,7 +897,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-55. `Tecnología Vigán <https://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/>`__
+56. `Tecnología Vigán <https://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/>`__
 --------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www3_gobiernodecanarias_org_medusa_ecoblog_ilopmon.jpg
@@ -897,7 +912,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-56. `Tecnología IES Palti <https://iespalti.blogspot.com/>`__
+57. `Tecnología IES Palti <https://iespalti.blogspot.com/>`__
 -------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-iespalti_blogspot_com.jpg
@@ -912,7 +927,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-57. `Tecnología Ayala <https://tecnologiaayala.blogspot.com/>`__
+58. `Tecnología Ayala <https://tecnologiaayala.blogspot.com/>`__
 ----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaayala_blogspot_com.jpg
@@ -927,7 +942,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-58. `Blog de Programación y Robótica <https://programacionrobotica.blogspot.com/>`__
+59. `Blog de Programación y Robótica <https://programacionrobotica.blogspot.com/>`__
 ------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-programacionrobotica_blogspot_com.jpg
@@ -942,7 +957,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-59. `Tecnología CEO Boecillo <https://tecnologiaceoboecillo.blogspot.com/>`__
+60. `Tecnología CEO Boecillo <https://tecnologiaceoboecillo.blogspot.com/>`__
 -----------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaceoboecillo_blogspot_com.jpg
@@ -957,7 +972,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-60. `Miguel Tecnología <https://sites.google.com/site/migueltecnologia/>`__
+61. `Miguel Tecnología <https://sites.google.com/site/migueltecnologia/>`__
 ---------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_site_migueltecnologia.jpg
@@ -972,7 +987,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-61. `Crea TEC con TIC <https://createcontic.weebly.com/>`__
+62. `Crea TEC con TIC <https://createcontic.weebly.com/>`__
 -----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-createcontic_weebly_com.jpg
@@ -987,7 +1002,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-62. `IES El Cabanyal (Valencia) <https://sites.google.com/view/tecnologialgmeso1/>`__
+63. `IES El Cabanyal (Valencia) <https://sites.google.com/view/tecnologialgmeso1/>`__
 -------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_view_tecnologialgmeso1.jpg
@@ -1002,7 +1017,7 @@ Los números más bajos se colocan primeros en la lista.
         - Sin datos.
 
 
-63. `Ciencia y Tecnología <https://citecmat.blogspot.com.es/>`__
+64. `Ciencia y Tecnología <https://citecmat.blogspot.com.es/>`__
 ----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-citecmat_blogspot_com_es.jpg
@@ -1021,7 +1036,7 @@ Los números más bajos se colocan primeros en la lista.
 
 
 
-64. `La Tecnología en el Villadiego <https://tecnovilladiego.blogspot.com.es/>`__
+65. `La Tecnología en el Villadiego <https://tecnovilladiego.blogspot.com.es/>`__
 ---------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnovilladiego_blogspot_com_es.jpg
@@ -1040,7 +1055,7 @@ Los números más bajos se colocan primeros en la lista.
 
 
 
-65. `MecanESO <http://concurso.cnice.mec.es/cnice2006/material107/>`__
+66. `MecanESO <http://concurso.cnice.mec.es/cnice2006/material107/>`__
 ----------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-concurso_cnice_mec_es_cnice2006_material107.jpg

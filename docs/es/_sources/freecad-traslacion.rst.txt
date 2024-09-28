@@ -125,9 +125,14 @@ Ejercicios
    |br|
 
 #. Abre FreeCAD y crea un nuevo documento con varios cubos colocados
+   para formar el `logotipo de TensorFlow 
+   <https://commons.wikimedia.org/wiki/File:Tensorflow_logo.svg>`__,
    según la siguiente figura.
 
    .. image:: freecad/_images/freecad-p03-ejercicio06.png
+   
+   Al terminar, selecciona todos los cubos y cambia el color de sus
+   caras (Shape Color) por el naranja.
 
    |br|
 

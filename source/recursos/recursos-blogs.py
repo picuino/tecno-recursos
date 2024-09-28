@@ -41,14 +41,15 @@ def process(webs):
    for web in webs:
       screenshot_jpg = os.path.join('screenshots', web['screenshot'])
       screenshot_png = screenshot_jpg[:-4] + '.png'
-      if not os.path.exists(screenshot_jpg):
+      if not os.path.exists(screenshot_png):
          if not driver:
             driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
          driver.get(web['url'])
          driver.set_window_size(1024, 800)
          time.sleep(10)
          driver.save_screenshot(screenshot_png)
-         command = 'd:/Bin/Imagemagick/convert.exe {0} -resize 50% {1}'.format(screenshot_png, screenshot_jpg)
+      if not os.path.exists(screenshot_jpg):
+         command = '/Bin/Imagemagick/convert.exe {0} -resize 50% {1}'.format(screenshot_png, screenshot_jpg)
          os.system(command)
       web['similarweb_rank'] = toint( web['similarweb_rank'].replace(',', ''), default=99000000)
       visitas = toint(web['visitas'])
