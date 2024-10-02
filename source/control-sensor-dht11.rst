@@ -2,7 +2,6 @@
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
-
 .. _sensor-dht11:
 
 Sensor de temperatura y humedad DHT11

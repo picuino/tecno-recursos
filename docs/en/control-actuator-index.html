@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Actuators">
-  <title>Actuators - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Robótica - Actuators">
+  <title>Actuators - Robótica - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,6 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="1. Servomotor" href="control-actuator-servomotor.html">
+  <link rel="prev" title="Digital PID controller" href="control-pid-digital.html">
 
 </head>
 
@@ -65,6 +67,8 @@
     
       <li><a href="content.html">Home</a>/</li>
         
+          <li><a href="robotica-index.html">Robótica</a>/</li>
+        
       <li>Actuators</li>
     
     
@@ -100,6 +104,13 @@
 <p>Devices produce movement, sound, light, etc.</p>
 <a class="reference internal image-reference" href="_images/img-0085.jpg"><img alt="Servomotor de radiocontrol" class="align-center" src="_images/img-0085.jpg" style="width: 200px;"></a>
 <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="control-actuator-servomotor.html">1. Servomotor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-actuator-buzzer.html">2. Zumbador</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-actuator-speaker.html">3. Altavoz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-actuator-stepper-motor.html">4. Motor paso a paso</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control-actuator-brushless.html">5. Motor brushless</a></li>
+</ul>
 </div>
 </div>
 
@@ -109,6 +120,15 @@
           </div>
           <footer>
 
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="control-actuator-servomotor.html" class="btn btn-neutral float-right" title="1. Servomotor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="control-pid-digital.html" class="btn btn-neutral" title="Digital PID controller" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr>
@@ -124,7 +144,7 @@
     <li><a href="content.html" target="_blank">Index</a></li>
     </ul>
     <p class="content-info">
-      Copyright &copy; 2013-2024, Carlos Félix Pardo Martín.
+      Copyright © 2013-2023 by Carlos Pardo Martín.
       <br>
 
       Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
@@ -132,7 +152,7 @@
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on September, 2024.
+        Last updated on October, 2024.
       </span>
 
     </p>
@@ -189,7 +209,7 @@
               
             
             
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
@@ -198,7 +218,22 @@
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
 <li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
-<li class="toctree-l1"><a class="reference internal" href="control-index.html">Automatic control</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="robotica-index.html">Robótica</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="control-index.html">Control de sistemas</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Actuators</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="control-actuator-servomotor.html">1. Servomotor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="control-actuator-buzzer.html">2. Zumbador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="control-actuator-speaker.html">3. Altavoz</a></li>
+<li class="toctree-l3"><a class="reference internal" href="control-actuator-stepper-motor.html">4. Motor paso a paso</a></li>
+<li class="toctree-l3"><a class="reference internal" href="control-actuator-brushless.html">5. Motor brushless</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="control-sensor-index.html">Sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="robotica-normativa.html">Normativa Código Escuela 4.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="robotica-recursos.html">Recursos para Robótica</a></li>
+<li class="toctree-l2"><a class="reference internal" href="robotica-robots-actuales.html">Robots actuales</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="comm-index.html">Communications</a></li>
 <li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
 <li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>

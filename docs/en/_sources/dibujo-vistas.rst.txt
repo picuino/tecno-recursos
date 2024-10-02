@@ -32,6 +32,11 @@ que el alzado se ha escogido a la izquierda de la figura y el
 perfil a la derecha.
 
 
+.. contents:: Índice de contenidos
+   :local:
+   :depth: 2
+
+
 .. _dibujo-vistas-simples:
 
 Ejercicios simples
@@ -205,6 +210,6 @@ Plantillas de dibujo
 Piezas de papel en tres dimensiones
 -----------------------------------
 Ejercicios para construir piezas en tres dimensiones con papel recortado
-(papercraft) en el taller de tecnología:
+(papercraft) en el taller de Tecnología:
 
    :ref:`taller-papercraft`

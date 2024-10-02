@@ -5,12 +5,10 @@
 
 .. _control-index:
 
-******************
-Control Automático
-******************
+Control de sistemas
+===================
 
-Regulación automática de sistemas.
-Controladores, actuadores, sensores.
+Control y regulación automática de sistemas.
 
 .. image:: control/_thumbs/img-0085.jpg
    :width: 240px
@@ -26,7 +24,3 @@ Controladores, actuadores, sensores.
    control-pid
    control-ziegler-nichols
    control-pid-digital
-   control-actuator-servomotor.rst
-   control-sensor-index.rst
-   control-robots-index.rst
-   control-recursos.rst

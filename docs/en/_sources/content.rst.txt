@@ -30,7 +30,7 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    informatica-index.rst
    prog-index.rst
    arduprog/index.rst
-   control-index.rst
+   robotica-index.rst
 
    comm-index.rst
 

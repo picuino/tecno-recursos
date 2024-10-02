@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
 
-.. _prog-code:
+.. _prog-code-org:
 
 Tutoriales Code
 ===============
