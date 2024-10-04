@@ -33,7 +33,7 @@ de riesgo, como hacer clic en enlaces sospechosos o descargar archivos
 de fuentes no confiables.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

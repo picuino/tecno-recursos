@@ -10,7 +10,7 @@ Recursos para Robótica
 Recursos para Robótica y Programación en el marco del 
 programa Código Escuela 4.0.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

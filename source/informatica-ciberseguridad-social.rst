@@ -21,7 +21,7 @@ de los usuarios son críticas para fortalecer la seguridad de cualquier
 sistema informático.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

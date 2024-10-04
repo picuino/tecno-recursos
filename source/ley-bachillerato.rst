@@ -9,7 +9,7 @@ Currículo de Bachillerato
 =========================
 Curriculo de enseñanzas mínimas en la Educación Secundaria de Bachillerato.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

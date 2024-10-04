@@ -15,7 +15,7 @@ hay algunos más que se estudiarán a continuación como la TPU, el DSP,
 los microcontroladores o la FPGA.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

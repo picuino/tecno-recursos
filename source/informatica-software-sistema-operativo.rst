@@ -45,7 +45,7 @@ programas para compartir los recursos de la misma computadora de manera
 ordenada.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

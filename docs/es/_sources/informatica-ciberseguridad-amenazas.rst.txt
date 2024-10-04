@@ -18,7 +18,7 @@ protegernos y mantenernos seguros en el mundo digital.
 Recuerda, la ciberseguridad es responsabilidad de todos.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

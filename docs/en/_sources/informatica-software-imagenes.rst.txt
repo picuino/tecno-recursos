@@ -49,7 +49,7 @@ Formato de `imagen vectorial <https://es.wikipedia.org/wiki/Gr%C3%A1fico_vectori
    via Wikimedia Commons.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
    

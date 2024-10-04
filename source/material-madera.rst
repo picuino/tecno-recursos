@@ -10,7 +10,7 @@ La madera y sus derivados
 La madera es una materia prima que se obtiene del tronco y ramas de los
 árboles.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

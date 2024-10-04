@@ -10,7 +10,7 @@ Los materiales metálicos
 Son materiales que se obtienen calentando en un horno minerales,
 generalmente óxidos y sulfuros del metal, obtenidos en las minas.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

@@ -8,7 +8,7 @@
 Ciencias de la Computación
 ==========================
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 3
 

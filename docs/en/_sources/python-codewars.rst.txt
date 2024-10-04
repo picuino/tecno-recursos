@@ -14,7 +14,7 @@ Estos ejercicios entrenan un rango amplio de habilidades y se completan
 dentro de un ambiente de desarrollo integrado en línea, en el que los
 usuarios tienen la posibilidad de ganar rangos y honor.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

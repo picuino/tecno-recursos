@@ -18,7 +18,7 @@ En esta página aparecen las distintas entradas que se pueden
 encontrar en el blog, clasificadas y ordenadas por fecha más
 reciente.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

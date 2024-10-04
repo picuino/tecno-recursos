@@ -29,7 +29,7 @@ digital donde los ataques cibernéticos son cada vez más frecuentes y
 sofisticados.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

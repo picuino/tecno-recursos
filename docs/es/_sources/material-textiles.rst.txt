@@ -13,7 +13,7 @@ Aunque su origen es muy diverso, todos tienen en común su gran
 flexibilidad y los procesos de cosido o pegado que se
 utilizan en la fabricación de productos terminados.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

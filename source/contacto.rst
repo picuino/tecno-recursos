@@ -8,6 +8,9 @@
 Contacto
 ========
 
+Mi nombre es Carlos Pardo y soy profesor de Educación 
+Secundaria en Madrid.
+
 Correo de contacto:
 
    .. raw:: html
@@ -19,10 +22,11 @@ Grupos de Telegram:
   * `t.me/picuinoweb <https://t.me/picuinoweb>`__
   * `t.me/escuela40 <https://t.me/escuela40>`__  (Programa Código Escuela 4.0)
 
-Puedes utilizar los medios de contacto para comunicarte y
+Puedes utilizar los medios de contacto anteriores para comunicar conmigo y:
 
+  * Preguntar dudas sobre la página web.
   * Agradecer el contenido.
   * Informar de errores.
   * Proponer cambios o mejoras.
-  * Colaborar con traducciones o nuevos contenidos.
+  * Colaborar con traducciones.
 

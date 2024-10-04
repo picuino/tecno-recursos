@@ -20,7 +20,7 @@ aquella por la que pasará la misma corriente que por el circuito al
 alimentarlos con la misma fuente de tensión.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

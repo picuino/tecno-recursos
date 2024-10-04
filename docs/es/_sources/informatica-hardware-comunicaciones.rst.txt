@@ -14,7 +14,7 @@ Son elementos fundamentales que se encuentran en todos los niveles de la
 informática, desde las líneas de comunicación interna de un microprocesador
 hasta las líneas de comunicación de Internet a nivel mundial.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

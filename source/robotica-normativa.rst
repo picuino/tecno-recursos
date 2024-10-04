@@ -9,7 +9,7 @@ Normativa Código Escuela 4.0
 ============================
 Normativa estatal y autonómica del programa Código Escuela 4.0.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 
@@ -41,14 +41,19 @@ Normativa Estatal
 Normativa de Madrid
 -------------------
 
-* :download:`Circular sobre la implantación del programa Código Escuela 4.0 en 
-  Infantil y Primaria. <robotica/circular_ce40_madrid_primaria.pdf>`
+#. :download:`Circular sobre la implantación del programa Código Escuela 4.0 en 
+   Infantil y Primaria. <robotica/circular_ce40_madrid_primaria.pdf>`
 
-* :download:`Circular sobre la implantación del programa Código Escuela 4.0 en 
-  Secundaria. <robotica/circular_ce40_madrid_secundaria.pdf>`
+#. :download:`Circular sobre la implantación del programa Código Escuela 4.0 en 
+   Secundaria. <robotica/circular_ce40_madrid_secundaria.pdf>`
 
-* `Licitación para el suministro de material y formación de Robótica.
-  <https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipamientos-necesarios-integracion-implantacion-desarrollo-contenidos>`__
+#. `Instrucciones de comienzo de curso 2024-2025.
+   <https://www.comunidad.madrid/sites/default/files/instrucciones_inicio_curso_2024_2025.pdf>`__
+
+    Página 55: programa "Código Escuela 4.0 Madrid"
+
+#. `Licitación para el suministro de material y formación de Robótica.
+   <https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipamientos-necesarios-integracion-implantacion-desarrollo-contenidos>`__
   
-  * `Pliego de prescripciones técnicas de la licitación.
-    <https://contratos-publicos.comunidad.madrid/medias/03pliegodeprescripcionestecnicas20240430anonimizadopdf/download>`__
+   * `Pliego de prescripciones técnicas de la licitación.
+     <https://contratos-publicos.comunidad.madrid/medias/03pliegodeprescripcionestecnicas20240430anonimizadopdf/download>`__

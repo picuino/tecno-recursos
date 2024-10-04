@@ -24,7 +24,7 @@ impresas en una hoja por una impresora, en forma de sonidos de
 un altavoz, o de vibración de un smartphone.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

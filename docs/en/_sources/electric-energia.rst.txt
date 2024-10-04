@@ -21,7 +21,7 @@ Comenzaremos estudiando las diferentes formas o manifestaciones de la
 energía y cuáles son las fuentes de energía primaria que utilizamos,
 para terminar estudiando en detalle la energía eléctrica.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

@@ -26,7 +26,7 @@ personas que lo realizan y porque pueden estropear la propia herramienta
 o el producto.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

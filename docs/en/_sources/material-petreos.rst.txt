@@ -9,7 +9,7 @@ Los materiales pétreos
 ======================
 Son los materiales que provienen de las piedras o arenas de la naturaleza.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

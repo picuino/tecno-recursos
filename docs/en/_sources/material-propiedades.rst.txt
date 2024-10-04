@@ -18,7 +18,7 @@ conduce bien el calor, es resistente y no se oxida.
 Sin embargo los mangos de las ollas se fabrican con material plástico
 para que no conduzca el calor y no nos quememos al sujetarla.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

@@ -17,7 +17,7 @@ en Educación Secundaria.
 En esta página aparecen las distintas entradas que se pueden
 encontrar en la web.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

@@ -13,7 +13,7 @@ según sea el origen de la materia prima, los tipos de materiales
 y su clasificación según el impacto que tengan en el medio ambiente.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

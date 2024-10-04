@@ -10,7 +10,7 @@ En este apartado se muestran varios términos técnicos relacionados con
 la ciberseguridad.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

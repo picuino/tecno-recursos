@@ -8,7 +8,7 @@
 Tecnología 4º ESO
 =================
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 3
 

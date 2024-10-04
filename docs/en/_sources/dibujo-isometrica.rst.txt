@@ -31,7 +31,7 @@ que el alzado se ha escogido a la izquierda de la figura y el
 perfil a la derecha.
 
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

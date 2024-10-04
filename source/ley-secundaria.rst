@@ -9,7 +9,7 @@ Currículo de la ESO
 ===================
 Currículo de enseñanzas mínimas en la Educación Secundaria Obligatoria.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 3
 

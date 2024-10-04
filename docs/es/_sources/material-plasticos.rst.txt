@@ -9,7 +9,7 @@ Los materiales plásticos
 ========================
 Son polímeros fabricados a partir del gas natural o del petróleo refinado.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

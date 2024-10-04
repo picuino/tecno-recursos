@@ -10,7 +10,7 @@ Resolución de circuitos
 En esta unidad vamos a estudiar cómo resolver circuitos con resistencias
 para hallar las corrientes y tensiones que circulan por ellas.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 

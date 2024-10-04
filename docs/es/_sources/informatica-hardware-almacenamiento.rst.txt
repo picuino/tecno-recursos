@@ -11,7 +11,7 @@ Los ordenadores son dispositivos que tratan y transforman información,
 por lo que los dispositivos que almacenan esta información son
 fundamentales para determinar la capacidad y velocidad del ordenador.
 
-.. contents:: Índice de contenidos
+.. contents:: Índice de contenidos:
    :local:
    :depth: 2
 
