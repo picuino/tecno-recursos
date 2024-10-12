@@ -22,6 +22,7 @@ Tutoriales para aprender a programar.
 
    prog-lang-edu.rst
    prog-flowchart.rst
+   prog-unplugged.rst
    prog-codeorg.rst
    scratch3-index.rst
    python-index.rst

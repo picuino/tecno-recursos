@@ -16,10 +16,13 @@ Otros recursos para tecnología
    :maxdepth: 1
    :titlesonly:
 
-   recursos-test.rst
+   recursos-blogs.rst
    recursos-libro-4eso-tecno.rst
    recursos-cuaderno-notas.rst
    recursos-sopa-letras.rst
    recursos-evaluacion-asignatura.rst
-   recursos-blogs.rst
+
+   recursos-didactic-pantallas.rst
+
+   recursos-test.rst
    recursos-images.rst

@@ -22,10 +22,13 @@ Kit de bienvenida del Intef
 
 Recursos de programación y robótica
 -----------------------------------
+
+#. :ref:`Actividades desconectadas (Unplugged). <prog-unplugged>`
+
+#. :ref:`Tutoriales de Code.org. <prog-code-org>`
+
 #. `Lobo TIC. Cosas de programación y robótica.
    <http://www.lobotic.es/>`__
-
-#. :ref:`prog-code-org`
 
 #. `Programamos. Videojuegos y Apps <https://programamos.es/>`__
 

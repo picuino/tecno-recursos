@@ -97,6 +97,18 @@
 <span id="python-if-and-or-not"></span><h1><span class="section-number">10. </span>Operadores <code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code><a class="headerlink" href="#operadores-and-or-not" title="Enlazar permanentemente con este título">¶</a></h1>
 <p>Estos operadores sirven para hacer condiciones más complejas
 en una sentencia <code class="docutils literal notranslate"><span class="pre">if</span></code>.</p>
+<p>Ejemplo para calcular si una persona puede subir a una montaña rusa.
+Solo podrá subir si su altura en centímetros es mayor o igual a 150
+<strong>y también</strong> debe ser menor o igual a 200:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">altura</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe tu altura en centímetros: &#39;</span><span class="p">)</span>
+<span class="n">altura</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">altura</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">altura</span> <span class="o">&gt;=</span> <span class="mi">150</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">altura</span> <span class="o">&lt;=</span> <span class="mi">200</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Puedes pasar&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;No puedes pasar&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
 <p>Ejemplo para calcular si un año es bisiesto:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un año:&#39;</span><span class="p">)</span>
 <span class="n">year</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">year</span><span class="p">)</span>
@@ -107,7 +119,7 @@ en una sentencia <code class="docutils literal notranslate"><span class="pre">if
     <span class="nb">print</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="s1">&#39;no es bisiesto&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Aunque los paréntesis no siempre son obligatorios, es recomendable
+<p>Aunque los paréntesis no son obligatorios, es recomendable
 usarlos para que se pueda entender mejor el código.</p>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -117,31 +129,49 @@ y compruebe si estamos o no en primavera.</p>
 <p>Para simplificar diremos que abril, mayo y junio son los meses de
 primavera.</p>
 <p>Pista:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="n">mes</span> <span class="o">==</span> <span class="s1">&#39;abril&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">mes</span> <span class="o">==</span> <span class="s1">&#39;mayo&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">mes</span> <span class="o">==</span> <span class="s1">&#39;junio&#39;</span><span class="p">):</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mes</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe el nombre de un mes: &#39;</span><span class="p">)</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">mes</span> <span class="o">==</span> <span class="s1">&#39;abril&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">mes</span> <span class="o">==</span> <span class="s1">&#39;mayo&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">mes</span> <span class="o">==</span> <span class="s1">&#39;junio&#39;</span><span class="p">):</span>
    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
+   <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;...&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
-<li><p class="first">Escribe un programa que utilice el operador <code class="docutils literal notranslate"><span class="pre">not</span></code> para comprobar
-si un número introducido por el teclado es impar.</p>
+<li><p class="first">El siguiente programa comprueba si un número es par.
+Modifica el programa utilizando el operador <code class="docutils literal notranslate"><span class="pre">not</span></code> para que
+compruebe si el número es impar:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un número: &#39;</span><span class="p">)</span>
+<span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">num</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El número es par&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
 </li>
 <li><p class="first">Escribe un programa que utilice el operador <code class="docutils literal notranslate"><span class="pre">and</span></code> para comprobar
 si un nombre tiene una longitud entre 4 y 6 letras.</p>
-<p>La longitud de una cadena de texto se mide con la función len().</p>
+<p>La longitud de una cadena de texto se mide con la función len():</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s1">&#39;Ana&#39;</span><span class="p">)</span>
+<span class="go">    3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s1">&#39;Gustavo&#39;</span><span class="p">)</span>
+<span class="go">    7</span>
+</pre></div>
+</div>
 <p>Pista:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s1">&#39;Sara&#39;</span><span class="p">)</span>
-<span class="go">    4</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s1">&#39;Santiago&#39;</span><span class="p">)</span>
-<span class="go">    8</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">nombre</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un nombre: &#39;</span><span class="p">)</span>
+<span class="n">letras</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">nombre</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El nombre tiene entre 4 y 6 letras&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
 <li><p class="first">Escribe un programa que responda que tienes que conectar el riego
-por goteo siempre que sea de noche y que no esté lloviendo.</p>
+por goteo siempre que sea de noche (no de día) y que esté el suelo
+seco (no está lloviendo).</p>
 <p>Pista:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sensor_lluvia</span> <span class="o">=</span> <span class="kc">True</span>
-<span class="n">sensor_de_dia</span> <span class="o">=</span> <span class="kc">True</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sensor_lluvia</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">sensor_de_dia</span> <span class="o">=</span> <span class="mi">0</span>
 
 <span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Conecta el riego por goteo.&#39;</span><span class="p">)</span>
@@ -150,17 +180,18 @@ por goteo siempre que sea de noche y que no esté lloviendo.</p>
 </pre></div>
 </div>
 <p>Prueba el programa con las cuatro combinaciones posibles en los
-sensores. ¿Qué combinaciones hacen que se conecte el riego?</p>
+sensores. Solo debe funcionar cuando el sensor de lluvia valga cero
+y el sensor de día valga cero.</p>
 </li>
 <li><p class="first">Escribe un programa que imprima un mensaje cuando un número
-sea positivo, sea par y no sea divisible por 3. En caso
+sea positivo y no sea divisible por 3. En caso
 contrario no imprime ningún mensaje.</p>
 <p>Pista:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Escribe un número:&#39;</span><span class="p">)</span>
 <span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
-   <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s1">&#39;es positivo, es par y no es divisible por 3.&#39;</span><span class="p">)</span>
+   <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s1">&#39;es positivo y no es divisible por 3.&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
@@ -273,6 +304,7 @@ contrario no imprime ningún mensaje.</p>
 <li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programación</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Lenguajes de programación</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prog-flowchart.html">Diagramas de flujo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prog-unplugged.html">Actividades desconectadas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prog-codeorg.html">Tutoriales Code</a></li>
 <li class="toctree-l2"><a class="reference internal" href="scratch3-index.html">Tutorial de Scratch 3</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="python-index.html">Tutorial de Python</a><ul class="current">

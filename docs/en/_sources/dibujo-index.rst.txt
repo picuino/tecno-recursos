@@ -29,5 +29,6 @@ Dibujo a mano alzada y con ordenador.
    dibujo-isometrica.rst
    dibujo-escalas.rst
    dibujo-acotacion.rst
+   dibujo-mesilla.rst
    dibujo-por-ordenador.rst
    dibujo-recursos.rst

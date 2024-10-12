@@ -1,0 +1,75 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $^ first element of dependencies list
+
+SIGN_DER=-font Consolas -pointsize 50 -gravity SouthWest -draw "text 200,120 picuino.com"
+SIGN_IZQ=-font Consolas -pointsize 50 -gravity SouthEast -draw "text 200,120 picuino.com"
+
+IMGDIR=_images
+THUMBDIR=_thumbs
+WORKDIR=dibujo-design
+
+JOINPDF=gswin32.exe -dNOPAUSE -q -sDEVICE=pdfwrite
+PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 6
+CONVERT=convert
+MOGRIFY=mogrify
+ZIP=7z a -x!*bak*
+
+
+# --------------------------------------------------------------------
+# macros
+#
+define pdf_page_to_png
+	echo
+
+	$(PDFTOPNG) $(WORKDIR)/$(1).pdf $(IMGDIR)/$(1)
+	mv -f $(IMGDIR)/$(1)-000001.png  $(IMGDIR)/$(1).png
+	$(MOGRIFY) -colorspace GRAY -posterize 16 $(IMGDIR)/$(1).png
+	$(OPTIPNG) $(IMGDIR)/$(1).png
+
+	$(CONVERT) $(IMGDIR)/$(1).png -resize 480x +repage $(THUMBDIR)/$(1).png
+	$(OPTIPNG) $(THUMBDIR)/$(1).png
+endef
+
+
+# --------------------------------------------------------------------
+# dibujo-design
+#
+
+$(IMGDIR)/dibujo-design-conjunto-mesilla.png: dibujo-design/dibujo-design-conjunto-mesilla.pdf
+	$(call pdf_page_to_png,$(basename $(notdir ($^))))
+
+$(IMGDIR)/dibujo-design-despiece-mesilla.png: dibujo-design/dibujo-design-despiece-mesilla.pdf
+	$(call pdf_page_to_png,$(basename $(notdir ($^))))
+
+$(IMGDIR)/dibujo-design-conjunto-plantilla.png: dibujo-design/dibujo-design-conjunto-plantilla.pdf
+	$(call pdf_page_to_png,$(basename $(notdir ($^))))
+
+$(IMGDIR)/dibujo-design-despiece-plantilla.png: dibujo-design/dibujo-design-despiece-plantilla.pdf
+	$(call pdf_page_to_png,$(basename $(notdir ($^))))
+
+
+
+# --------------------------------------------------------------------
+# make all
+#
+.PHONY: all  clean
+
+all: \
+	$(IMGDIR)/dibujo-design-conjunto-mesilla.png \
+	$(IMGDIR)/dibujo-design-despiece-mesilla.png \
+	$(IMGDIR)/dibujo-design-conjunto-plantilla.png \
+	$(IMGDIR)/dibujo-design-despiece-plantilla.png \
+
+clean: \
+	rm -f $(IMGDIR)/dibujo-design-conjunto-mesilla.png \
+	rm -f $(IMGDIR)/dibujo-design-despiece-mesilla.png \
+	rm -f $(IMGDIR)/dibujo-design-conjunto-plantilla.png \
+	rm -f $(IMGDIR)/dibujo-design-despiece-plantilla.png \
+	rm -f $(THUMBDIR)/dibujo-design-conjunto-mesilla.png \
+	rm -f $(THUMBDIR)/dibujo-design-despiece-mesilla.png \
+	rm -f $(THUMBDIR)/dibujo-design-conjunto-plantilla.png \
+	rm -f $(THUMBDIR)/dibujo-design-despiece-plantilla.png \
