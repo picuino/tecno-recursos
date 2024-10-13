@@ -254,7 +254,7 @@ Mecanismos
    <http://pelandintecno.blogspot.com/2011/03/mauina-de-vapor-sistema-biela-manivela.html>`__
 #. `2011-03. Máquinas de vapor de Newcomen y de Savery
    <http://pelandintecno.blogspot.com/2011/03/maquinas-de-vapor-de-newcomen-y-de.html>`__
-#. `2011-03. Áctividad Palancas
+#. `2011-03. Actividad Palancas
    <http://pelandintecno.blogspot.com/2011/03/palancas.html>`__
 #. `2011-03. Máquinas simples y mecanismos (vídeos SM)
    <http://pelandintecno.blogspot.com/2011/03/maquinas-simples-y-mecanismos-videos-sm.html>`__

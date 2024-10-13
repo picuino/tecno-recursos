@@ -16,6 +16,7 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
 * `Manifiesto. <https://www.picuino.com/es/manifiesto.html>`__
 * `Test de Tecnología. <https://www.picuino.com/test/>`__
 * `Simulador de circuitos. <https://www.picuino.com/circuits/>`__
+* `Proyecto en GitHub. <https://github.com/picuino/tecno-recursos>`__
 
 .. toctree::
    :maxdepth: 3
@@ -40,4 +41,3 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
 
    ley-index.rst
 
-* `Proyecto en GitHub. <https://github.com/picuino/>`__
