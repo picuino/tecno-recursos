@@ -104,7 +104,9 @@ veces mientras que una variable va cambiando de valor.</p>
 </pre></div>
 </div>
 <p>Este ejemplo imprimirá en pantalla todos los números desde el 1
-hasta el 9 (el 10 no está incluido en el rango).</p>
+hasta el 9.</p>
+<p>La variable del bucle se llama 'num' y va tomando todos los valores
+en el rango desde 1 hasta 10 (no incluído).</p>
 <p>Ejemplo:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">nombre</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Abel&#39;</span><span class="p">,</span> <span class="s1">&#39;Beatriz&#39;</span><span class="p">,</span> <span class="s1">&#39;Conchi&#39;</span><span class="p">,</span> <span class="s1">&#39;Diana&#39;</span><span class="p">,</span> <span class="s1">&#39;Elena&#39;</span><span class="p">,</span> <span class="s1">&#39;Francisco&#39;</span><span class="p">]:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hola&#39;</span><span class="p">,</span> <span class="n">nombre</span><span class="p">)</span>
@@ -112,6 +114,8 @@ hasta el 9 (el 10 no está incluido en el rango).</p>
 </div>
 <p>Este ejemplo imprimirá en pantalla un saludo para todos los nombres
 que aparecen en la lista, desde 'Abel' hasta 'Elena'.</p>
+<p>La variable del bucle se llama 'nombre' y va tomando todos los valores
+de la lista de nombres.</p>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic">
@@ -130,8 +134,8 @@ que aparecen en la lista, desde 'Abel' hasta 'Elena'.</p>
 </pre></div>
 </div>
 <p>Pista:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="o">...</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;6 x&#39;</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="s1">&#39;=&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="o">*</span><span class="n">b</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="o">...</span> <span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;6 x&#39;</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="s1">&#39;=&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="o">*</span><span class="n">i</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
@@ -150,9 +154,11 @@ números entre el 1 y el número introducido.</p>
 </pre></div>
 </div>
 <p>Pista:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">suma</span> <span class="o">=</span> <span class="mi">0</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un número: &#39;</span><span class="p">)</span>
+<span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
 
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="o">...</span>
+<span class="n">suma</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="o">...</span> <span class="p">:</span>
     <span class="n">suma</span> <span class="o">=</span> <span class="n">suma</span> <span class="o">+</span> <span class="n">i</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;La suma de todos los números desde&#39;</span><span class="p">)</span>
@@ -173,16 +179,22 @@ Esta operación se llama factorial.</p>
 <span class="n">El</span> <span class="n">factorial</span> <span class="n">de</span> <span class="mi">10</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">3628800</span>
 </pre></div>
 </div>
+<p>Pista:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Introduce un número: &#39;</span><span class="p">)</span>
+<span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+
+<span class="o">...</span>
+<span class="k">for</span> <span class="o">...</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span> <span class="o">...</span> <span class="p">):</span>
+   <span class="o">...</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El factorial de&#39;</span><span class="p">,</span> <span class="o">...</span><span class="p">,</span> <span class="s1">&#39;es igual a&#39;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+</pre></div>
+</div>
 </li>
 <li><p class="first">Escribe un programa que imprima en pantalla todas las edades desde
-el 10 hasta el 20 y, al lado, que imprima si es mayor o menor
+el 15 hasta el 20 y, al lado, que imprima si es mayor o menor
 de edad:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">10</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
-<span class="mi">11</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
-<span class="mi">12</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
-<span class="mi">13</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
-<span class="mi">14</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
-<span class="mi">15</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">15</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
 <span class="mi">16</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
 <span class="mi">17</span> <span class="n">años</span><span class="p">,</span> <span class="n">menor</span> <span class="n">de</span> <span class="n">edad</span>
 <span class="mi">18</span> <span class="n">años</span><span class="p">,</span> <span class="n">mayor</span> <span class="n">de</span> <span class="n">edad</span>
@@ -426,6 +438,8 @@ dividir por 3 es igual a cero:</p>
           <br>
           <ul>
           <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/es/manifiesto.html">Manifiesto</a>
+          </li><li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/test/">Test de Tecnología</a>
           </li><li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/circuits/">Simulador de circuitos</a>

@@ -106,31 +106,68 @@ uno, dos o tres argumentos.</p>
 <blockquote>
 <div><ul class="simple">
 <li><code class="docutils literal notranslate"><span class="pre">start</span></code> es el primer número entero por el que comienza el rango.</li>
-<li><code class="docutils literal notranslate"><span class="pre">stop</span></code> es el número que para el rango. Nunca se llega a ese valor.</li>
-<li><code class="docutils literal notranslate"><span class="pre">step</span></code> es el valor que se va sumando a <code class="docutils literal notranslate"><span class="pre">start</span></code> para conseguir
+<li><code class="docutils literal notranslate"><span class="pre">stop</span></code> es el número que finaliza el rango. Nunca se llega a ese valor.</li>
+<li><code class="docutils literal notranslate"><span class="pre">step</span></code> es el valor que se va añadiendo a <code class="docutils literal notranslate"><span class="pre">start</span></code> para conseguir
 los números consecutivos.</li>
 </ul>
 <p>Ejemplo:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># comenzando en 2, parar en 20, saltando de 3 en 3</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="p">)</span>
-<span class="go">    [2, 5, 8, 11, 14, 17]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">    2</span>
+<span class="go">    5</span>
+<span class="go">    8</span>
+<span class="go">    11</span>
+<span class="go">    14</span>
+<span class="go">    17</span>
 
 <span class="gp">&gt;&gt;&gt; </span><span class="c1"># comenzando en 100, parar en 0, saltando de -10 en -10</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span> <span class="p">)</span>
-<span class="go">    [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">    100</span>
+<span class="go">    90</span>
+<span class="go">    80</span>
+<span class="go">    70</span>
+<span class="go">    60</span>
+<span class="go">    50</span>
+<span class="go">    40</span>
+<span class="go">    30</span>
+<span class="go">    20</span>
+<span class="go">    10</span>
 </pre></div>
 </div>
 </div></blockquote>
 <p>Con dos argumentos:</p>
 <blockquote>
-<div><p>solo se utilizan los parámetros <code class="docutils literal notranslate"><span class="pre">start</span></code> y <code class="docutils literal notranslate"><span class="pre">stop</span></code>.
-<code class="docutils literal notranslate"><span class="pre">step</span></code> se supone igual a uno.</p>
+<div><ul class="simple">
+<li>Solo se utilizan los parámetros <code class="docutils literal notranslate"><span class="pre">start</span></code> y <code class="docutils literal notranslate"><span class="pre">stop</span></code>.</li>
+<li>El parámetro <code class="docutils literal notranslate"><span class="pre">step</span></code> se supone igual a uno.</li>
+</ul>
 <p>Ejemplo:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">11</span><span class="p">)</span> <span class="p">)</span>
-<span class="go">    [5, 6, 7, 8, 9, 10]</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">    5</span>
+<span class="go">    6</span>
+<span class="go">    7</span>
+<span class="go">    8</span>
+<span class="go">    9</span>
+<span class="go">    10</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span> <span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="p">)</span>
-<span class="go">    [-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">    -6</span>
+<span class="go">    -5</span>
+<span class="go">    -4</span>
+<span class="go">    -3</span>
+<span class="go">    -2</span>
+<span class="go">    -1</span>
+<span class="go">    0</span>
+<span class="go">    1</span>
+<span class="go">    2</span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -138,19 +175,31 @@ los números consecutivos.</li>
 <blockquote>
 <div><ul class="simple">
 <li>El argumento se copia en el parámetro <code class="docutils literal notranslate"><span class="pre">stop</span></code>.</li>
-<li><code class="docutils literal notranslate"><span class="pre">start</span></code> se supone igual a cero.</li>
-<li><code class="docutils literal notranslate"><span class="pre">step</span></code> se supone igual a uno</li>
+<li>El parámetro <code class="docutils literal notranslate"><span class="pre">start</span></code> se supone igual a cero.</li>
+<li>El parámtro <code class="docutils literal notranslate"><span class="pre">step</span></code> se supone igual a uno.</li>
 </ul>
 <p>Ejemplo:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="p">)</span>
-<span class="go">    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">    0</span>
+<span class="go">    1</span>
+<span class="go">    2</span>
+<span class="go">    3</span>
+<span class="go">    4</span>
+<span class="go">    5</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">)</span>
-<span class="go">    [0, 1]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">    0</span>
+<span class="go">    1</span>
+<span class="go">    2</span>
 </pre></div>
 </div>
-<p>Como el rango comienza por cero, el número de elementos del rango es
-igual al número que escribimos dentro de la función rango.</p>
+<p>Como el rango comienza en el número cero, el número de elementos
+del rango será igual al número que escribimos dentro de la
+función rango.</p>
 </div></blockquote>
 </dd></dl>
 
@@ -358,6 +407,8 @@ imprimiendo 10 y que acabe imprimiendo 0.</p>
           <br>
           <ul>
           <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/es/manifiesto.html">Manifiesto</a>
+          </li><li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/test/">Test de Tecnología</a>
           </li><li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/circuits/">Simulador de circuitos</a>

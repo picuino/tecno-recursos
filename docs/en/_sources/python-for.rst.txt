@@ -19,7 +19,10 @@ Ejemplo::
        print(num)
 
 Este ejemplo imprimirá en pantalla todos los números desde el 1
-hasta el 9 (el 10 no está incluido en el rango).
+hasta el 9.
+
+La variable del bucle se llama 'num' y va tomando todos los valores
+en el rango desde 1 hasta 10 (no incluído).
 
 
 Ejemplo::
@@ -29,6 +32,9 @@ Ejemplo::
 
 Este ejemplo imprimirá en pantalla un saludo para todos los nombres
 que aparecen en la lista, desde 'Abel' hasta 'Elena'.
+
+La variable del bucle se llama 'nombre' y va tomando todos los valores
+de la lista de nombres.
 
 
 Ejercicios
@@ -51,8 +57,8 @@ Ejercicios
 
    Pista::
 
-      for ...
-          print('6 x', b, '=', 6*b)
+      for ... :
+          print('6 x', i, '=', 6*i)
 
 
 #. Escribe un programa que pida un número y que luego sume todos los
@@ -73,9 +79,11 @@ Ejercicios
 
    Pista::
 
-      suma = 0
+      num = input('Introduce un número: ')
+      num = int(num)
 
-      for i in ...
+      suma = 0
+      for ... :
           suma = suma + i
 
       print('La suma de todos los números desde')
@@ -97,15 +105,22 @@ Ejercicios
       El factorial de 10 es igual a 3628800
 
 
+   Pista::
+
+      num = input('Introduce un número: ')
+      num = int(num)
+
+      ...
+      for ... in range( ... ):
+         ...
+
+      print('El factorial de', ..., 'es igual a', ...)
+
+
 #. Escribe un programa que imprima en pantalla todas las edades desde
-   el 10 hasta el 20 y, al lado, que imprima si es mayor o menor
+   el 15 hasta el 20 y, al lado, que imprima si es mayor o menor
    de edad::
 
-      10 años, menor de edad
-      11 años, menor de edad
-      12 años, menor de edad
-      13 años, menor de edad
-      14 años, menor de edad
       15 años, menor de edad
       16 años, menor de edad
       17 años, menor de edad

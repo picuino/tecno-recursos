@@ -63,10 +63,8 @@ def words_to_list(words_dict):
 
 
 def process(path, exclude_files, counters, word_list):
-   path_files = [os.path.join(path, f) for f in os.listdir(path)]
+   path_files = [os.path.join(path, f) for f in os.listdir(path) if f not in exclude_files]
    for fname in path_files:
-      if fname in exclude_files:
-         continue
       if fname[-4:].lower() in ['.rst']:
          if os.path.isfile(fname):
             print(fname)
@@ -80,21 +78,24 @@ def count_words(data, counters, words_dict):
       line = data[i].strip('\r\n ')
       if len(line) < 3:
          continue
-      counters['num_lines'] += 1
       line = re.sub(r'[^a-zA-ZñÑáéíóúÁÉÍÓÚüÜë]+', ' ', line)
       words = re.split('\s+', line)
-      counters['num_words'] += len(words)
+      num_words = 0      
       for word in words:
-         add_item(word, words_dict)
+         if add_item(word, words_dict):
+            num_words += 1
+      if num_words > 0:
+         counters['num_words'] += num_words
+         counters['num_lines'] += 1
 
 
 def add_item(word, words_dict):
    if len(word) <= 3 or len(word) >= 24:
-      return
+      return False
 
    try:
        if str(int(word)) == word:
-           return
+           return False
    except:
        pass
 
@@ -103,6 +104,8 @@ def add_item(word, words_dict):
       words_dict[word] += 1
    else:
       words_dict[word] = 1
+
+   return True
 
 
 def write_csv(fname, words_list):

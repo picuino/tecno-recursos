@@ -18,50 +18,98 @@ La función :py:func:`range`
    Con tres argumentos:
 
       * ``start`` es el primer número entero por el que comienza el rango.
-      * ``stop`` es el número que para el rango. Nunca se llega a ese valor.
-      * ``step`` es el valor que se va sumando a ``start`` para conseguir
+      * ``stop`` es el número que finaliza el rango. Nunca se llega a ese valor.
+      * ``step`` es el valor que se va añadiendo a ``start`` para conseguir
         los números consecutivos.
 
       Ejemplo::
 
          >>> # comenzando en 2, parar en 20, saltando de 3 en 3
-         >>> list( range(2, 20, 3) )
-             [2, 5, 8, 11, 14, 17]
+         >>> for i in range(2, 20, 3):
+         ...     print(i)
+         ...
+             2
+             5
+             8
+             11
+             14
+             17
 
          >>> # comenzando en 100, parar en 0, saltando de -10 en -10
-         >>> list( range(100, 0, -10) )
-             [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
+         >>> for i in range(100, 0, -10):
+         ...     print(i)
+         ...
+             100
+             90
+             80
+             70
+             60
+             50
+             40
+             30
+             20
+             10
 
 
    Con dos argumentos:
 
-      solo se utilizan los parámetros ``start`` y ``stop``.
-      ``step`` se supone igual a uno.
+      * Solo se utilizan los parámetros ``start`` y ``stop``.
+      * El parámetro ``step`` se supone igual a uno.
 
       Ejemplo::
 
-         >>> list( range(5, 11) )
-             [5, 6, 7, 8, 9, 10]
+         >>> for i in range(5, 11):
+         ...     print(i)
+         ...
+             5
+             6
+             7
+             8
+             9
+             10
 
-         >>> list( range(-10, 1) )
-             [-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0]
+         >>> for i in range(-6, 3):
+         ...     print(i)
+         ...
+             -6
+             -5
+             -4
+             -3
+             -2
+             -1
+             0
+             1
+             2
+
 
    Con un argumento:
 
       * El argumento se copia en el parámetro ``stop``.
-      * ``start`` se supone igual a cero.
-      * ``step`` se supone igual a uno
+      * El parámetro ``start`` se supone igual a cero.
+      * El parámtro ``step`` se supone igual a uno.
 
       Ejemplo::
 
-         >>> list( range(10) )
-             [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+         >>> for i in range(6):
+         ...     print(i)
+         ...
+             0
+             1
+             2
+             3
+             4
+             5
 
-         >>> list( range(2) )
-             [0, 1]
+         >>> for i in range(3):
+         ...     print(i)
+         ...
+             0
+             1
+             2
 
-      Como el rango comienza por cero, el número de elementos del rango es
-      igual al número que escribimos dentro de la función rango.
+      Como el rango comienza en el número cero, el número de elementos
+      del rango será igual al número que escribimos dentro de la 
+      función rango.
 
 
 Ejercicios

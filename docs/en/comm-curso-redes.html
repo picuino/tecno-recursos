@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Communications - Redes Telemáticas">
+  <title>Redes Telemáticas - Communications - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/en/comm-curso-redes.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Index" href="content.html">
+  <link rel="search" title="Search" href="search.html">
+  <link rel="next" title="Communications Resources" href="comm-recursos.html">
+  <link rel="prev" title="Communications timeline" href="comm-timeline.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html"><img src="_static/logo-picuino-bgblue.png" alt="O_[]¯O Picuino"></a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="comm-index.html">Communications</a>/</li>
+        
+      <li>Redes Telemáticas</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/comm-curso-redes.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  Attention: this page comes from an automatic translation of the original Spanish page.
+  If you would like to collaborate, please
+  <a href="contacto.html" target="_blank">contact</a> the author
+  with the updated
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/comm-curso-redes.po" target="_blank">translation file</a>.
+  </div>
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p id="comm-curso-redes">Recursos de comunicaciones</p>
+<div class="section" id="redes-telematicas">
+<h1>Redes Telemáticas<a class="headerlink" href="#redes-telematicas" title="Permalink to this headline">¶</a></h1>
+<p>Curso de nivel universitario sobre Redes Telemáticas publicado en 2018
+por Rogelio Montañana en <a class="reference external" href="https://www.aulaclic.es/redes/index.htm" rel="noopener noreferrer" target="_blank">AulaClic.</a></p>
+<p>El curso está dividido en dos partes que abarcan desde las capas física y
+de enlace hasta las capas de red y de transporte de datos.</p>
+<div class="contents local topic" id="indice-de-contenidos">
+<p class="topic-title">Índice de contenidos:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#introduccion" id="id1">Introducción</a></li>
+<li><a class="reference internal" href="#medios-de-transmision" id="id2">Medios de transmisión</a></li>
+<li><a class="reference internal" href="#capa-de-enlace" id="id3">Capa de enlace</a></li>
+<li><a class="reference internal" href="#ethernet" id="id4">Ethernet</a></li>
+<li><a class="reference internal" href="#puentes-y-conmutadores" id="id5">Puentes y Conmutadores</a></li>
+<li><a class="reference internal" href="#redes-inalambricas-802-11" id="id6">Redes inalámbricas 802.11</a></li>
+<li><a class="reference internal" href="#routing" id="id7">Routing</a></li>
+<li><a class="reference internal" href="#protocolo-de-internet-ip" id="id8">Protocolo de Internet (IP)</a></li>
+<li><a class="reference internal" href="#protocolos-e-internet" id="id9">Protocolos e Internet</a></li>
+<li><a class="reference internal" href="#nivel-de-transporte" id="id10">Nivel de Transporte</a></li>
+<li><a class="reference internal" href="#network-address-translation" id="id11">Network Address Translation</a></li>
+</ul>
+</div>
+<div class="section" id="introduccion">
+<h2><a class="toc-backref" href="#id1">Introducción</a><a class="headerlink" href="#introduccion" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_01_introduccion.htm" rel="noopener noreferrer" target="_blank">1.1. Introducción. Conceptos básicos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/BrqH4PVyYF4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_02_tipos_redes.htm" rel="noopener noreferrer" target="_blank">1.2. Tipos de redes. LAN y WLAN.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/ASXYvGV6sqE" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_03_capas.htm" rel="noopener noreferrer" target="_blank">1.3. Modelo de capas, una analogía.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/EDXSvhbaTvM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_04_arquitectura.htm" rel="noopener noreferrer" target="_blank">1.4. Arquitecturas de redes. Descripción de las capas.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/gyk3Fq7g95o" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_05_tcp_ip.htm" rel="noopener noreferrer" target="_blank">1.5. El modelo TCP/IP y su arquitectura.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/yZivRoQW8D4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_06_protocolos.htm" rel="noopener noreferrer" target="_blank">1.6. Protocolos e información de control.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/-sQIFuYorTc" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_07_internetworking.htm" rel="noopener noreferrer" target="_blank">1.7. El modelo de internetworking de Cisco.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/lojGC2fsPE8" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_08_estandares.htm" rel="noopener noreferrer" target="_blank">1.8. Estándares.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/QuTUyaMvXdM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_09_historia.htm" rel="noopener noreferrer" target="_blank">1.9. Breve historia de la telemática.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/waRsyLpwmuU" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p01_10_disenyo.htm" rel="noopener noreferrer" target="_blank">1.10. Principios de diseño: una pincelada.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/CnSz0XbP1J4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+<div class="section" id="medios-de-transmision">
+<h2><a class="toc-backref" href="#id2">Medios de transmisión</a><a class="headerlink" href="#medios-de-transmision" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_01_medios.htm" rel="noopener noreferrer" target="_blank">2.1. Medios de transmisión. Introducción.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/pz39xEwygFU" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li>2.2. Cables metálicos.<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_02_01_corrientes.htm" rel="noopener noreferrer" target="_blank">2.2.1. Corrientes eléctricas.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/NzcAbQO2a0Y" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_02_02_trenzado.htm" rel="noopener noreferrer" target="_blank">2.2.2. Trenzado.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/GzVI-k2-4yI" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_02_03_atenuacion.htm" rel="noopener noreferrer" target="_blank">2.2.3. Atenuación y pérdida de retorno.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/vA2JobdSfnU" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_02_04_diafonia.htm" rel="noopener noreferrer" target="_blank">2.2.4. Diafonía.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/-7IV-Nlyaf4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_02_05_acr.htm" rel="noopener noreferrer" target="_blank">2.2.5. ACR.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Ek-OARF2UXg" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_02_06_alien.htm" rel="noopener noreferrer" target="_blank">2.2.6. Diafonía 'alien'.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/5xKDqwnXFzU" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_02_07_comparacion.htm" rel="noopener noreferrer" target="_blank">2.2.7. Comparación de NEXT, FEXT, ANEXT y AFEXT.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/JGjO47sDRAA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li>2.3. Sistemas de cableado estructurado.<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_03_01_origen.htm" rel="noopener noreferrer" target="_blank">2.3.1. Origen y normativas.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/S55IpAovx1w" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_03_02_tipos.htm" rel="noopener noreferrer" target="_blank">2.3.2. Tipos de cables y de apantallamiento.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/17oNQpVZ5Fo" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_03_03_categorias.htm" rel="noopener noreferrer" target="_blank">2.3.3. Cables y categorías.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/0GVoZZs7W54" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_03_04_comprobacion.htm" rel="noopener noreferrer" target="_blank">2.3.4. Comprobación de cables.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Us2BY7Hf2yQ" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_03_05_consejos.htm" rel="noopener noreferrer" target="_blank">2.3.5. Consejos prácticos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/8puqCreEfgk" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_03_06_conectores.htm" rel="noopener noreferrer" target="_blank">2.3.6. Conectores.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/GG_E0Ca_Ow0" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_03_07_poe.htm" rel="noopener noreferrer" target="_blank">2.3.7. PoE e interferencias externas.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/LmzQeF-E7ys" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li>2.4. Cables de Fibra Óptica.<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_01_fibra.htm" rel="noopener noreferrer" target="_blank">2.4.1. Cuestiones generales.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/9LEztxR3OKw" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_02_multimodo.htm" rel="noopener noreferrer" target="_blank">2.4.2. Fibra multimodo.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/xEGowifxX-8" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_03_monomodo.htm" rel="noopener noreferrer" target="_blank">2.4.3. Fibra monomodo.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/c5tCC5TGhVg" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_04_ejemplos.htm" rel="noopener noreferrer" target="_blank">2.4.4. Algunos ejemplos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/TawYYIpoQB0" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_05_atenuacion.htm" rel="noopener noreferrer" target="_blank">2.4.5. Atenuación, ventanas y bandas.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/pMIdlMfevRs" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_06_amplificadores.htm" rel="noopener noreferrer" target="_blank">2.4.6. Amplificadores y repetidores.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/ovXDajvixD0" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_07_emisores.htm" rel="noopener noreferrer" target="_blank">2.4.7. Emisores de luz.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/-5d8A_T01D4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_08_dispersion.htm" rel="noopener noreferrer" target="_blank">2.4.8. Dispersión en fibras multimodo. Tipos de fibras.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/q8-nrc9MvgQ" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_09_monomodo.htm" rel="noopener noreferrer" target="_blank">2.4.9. Dispersión en fibras monomodo. Tipos de fibras.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/jd5H_rLUzr4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_10_aspectos.htm" rel="noopener noreferrer" target="_blank">2.4.10. Aspectos prácticos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/gvfSVQ9oHVI" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_11_pulido.htm" rel="noopener noreferrer" target="_blank">2.4.11. Tipos de pulido.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Cba8BYpe_c4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_12_transceptores.htm" rel="noopener noreferrer" target="_blank">2.4.12. Transceptores ópticos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/xWvuIGPZy7M" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_04_13_oscura.htm" rel="noopener noreferrer" target="_blank">2.4.13.  Fibra oscura, envejecimiento y comparación con el cobre.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/_eYwFHQMA3E" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li>2.5. Wavelength Division Multiplexing (WDM).<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_05_01_wdm.htm" rel="noopener noreferrer" target="_blank">2.5.1. Aspectos generales.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/TUiNZM4KYSE" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_05_02_wdm_amplificadores.htm" rel="noopener noreferrer" target="_blank">2.5.2. Amplificadores EDFA, Fibras DSF y NZDSF.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/jyMIaS4gicY" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_05_03_opticas.htm" rel="noopener noreferrer" target="_blank">2.5.3. Redes ópticas.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Jxm1JxtDO6M" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_05_04_coarse.htm" rel="noopener noreferrer" target="_blank">2.5.4. Coarse WDM y Short WDM.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Apsh2AoEoiM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li>2.6. Medios inalámbricos.<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_01_inalambricos.htm" rel="noopener noreferrer" target="_blank">2.6.1. Bandas y tipos de transmisión.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/2QPqo9uwsjo" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_02_interferencia.htm" rel="noopener noreferrer" target="_blank">2.6.2. Interferencia multitrayectoria.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/FPBEnht0LM4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_03_bandas.htm" rel="noopener noreferrer" target="_blank">2.6.3. Bandas, canales y estándares.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/CSodixdrKM0" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_04_velocidad.htm" rel="noopener noreferrer" target="_blank">2.6.4. Negociación de velocidad.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/fAHtbF8CCgc" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_05_intensidad.htm" rel="noopener noreferrer" target="_blank">2.6.5. Intensidad de la señal.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/dPvTRRPu9LM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_06_interferencias.htm" rel="noopener noreferrer" target="_blank">2.6.6. Interferencias.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/wTzhOfQvtqs" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_07_practicos.htm" rel="noopener noreferrer" target="_blank">2.6.7. Aspectos prácticos en la instalación de APs.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/8mIEnf3RRRM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_08_antenas.htm" rel="noopener noreferrer" target="_blank">2.6.8. Antenas y ganancias.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/ji4yGQ29CRQ" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_09_puentes.htm" rel="noopener noreferrer" target="_blank">2.6.9. Puentes inalámbricos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/y6hNf9BnOkQ" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_10_mimo.htm" rel="noopener noreferrer" target="_blank">2.6.10. MIMO.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/jB1ZG9-LVsw" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_06_11_desarrollos.htm" rel="noopener noreferrer" target="_blank">2.6.11. Nuevos desarrollos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/rTwpCeBQFfI" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_07_modulacion.htm" rel="noopener noreferrer" target="_blank">2.7. Modulación, codificación, señales.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/BmAxn8BligE" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li>2.8. Transmisión Digital. Códigos.<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_08_01_linea.htm" rel="noopener noreferrer" target="_blank">2.8.1. Códigos de línea.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/NuvmuCaI3hM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_08_02_bloque.htm" rel="noopener noreferrer" target="_blank">2.8.2. Códigos de bloque.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Ffv2wbo1Hbs" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_08_03_multinivel.htm" rel="noopener noreferrer" target="_blank">2.8.3. Códigos de multinivel.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/PMAwifK-y-4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li>2.9. Transmisión Digital. Modulación y ADSL<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_09_01_analogica_modulacion.htm" rel="noopener noreferrer" target="_blank">2.9.1. Modulación, constelaciones.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/e2ZRg0jnnZc" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_09_02_analogica_shannon.htm" rel="noopener noreferrer" target="_blank">2.9.2. Ley de Shannon.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/C-bOwlef9hA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_09_03_analogica_adsl.htm" rel="noopener noreferrer" target="_blank">2.9.3. ADSL.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/DztiAAy2SeM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p02_09_04_analogica_adsl_ejem.htm" rel="noopener noreferrer" target="_blank">2.9.4. ADSL, ejemplo práctico.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/vdBPLgKj2FM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="capa-de-enlace">
+<h2><a class="toc-backref" href="#id3">Capa de enlace</a><a class="headerlink" href="#capa-de-enlace" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_01_capa_enlace.htm" rel="noopener noreferrer" target="_blank">3.1. Funciones de la capa de enlace.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/y3A9QBJBbCM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_02_tramas.htm" rel="noopener noreferrer" target="_blank">3.2. Delimitación de tramas.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/7L4GjIp_5j8" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li>3.3. Control de errores.<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_03_01_errores_miden.htm" rel="noopener noreferrer" target="_blank">3.3.1. Cómo se miden.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/za7A6oAp9E8" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_03_02_errores_detectores.htm" rel="noopener noreferrer" target="_blank">3.3.2. Códigos detectores.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/7G1p2-VQEKQ" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_03_03_errores_correctores.htm" rel="noopener noreferrer" target="_blank">3.3.3. Códigos correctores.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/WSmmNvHPaKc" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_03_04_errores_interleaving.htm" rel="noopener noreferrer" target="_blank">3.3.4. Interleaving.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/l5YdadYnx2E" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_04_tiempos.htm" rel="noopener noreferrer" target="_blank">3.4. Definición de tiempos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/sOvNObL4VRU" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_05_conmutacion.htm" rel="noopener noreferrer" target="_blank">3.5. Modos de conmutación.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/r4PejLabNlo" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_06_protocolo_enlace.htm" rel="noopener noreferrer" target="_blank">3.6. Protocolos de nivel de enlace.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/qHX1lKlwZ1o" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p03_07_protocolo_ppp.htm" rel="noopener noreferrer" target="_blank">3.7. Protocolo PPP y redes SONET/SDH.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/3dNzA1ssnEY" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+<div class="section" id="ethernet">
+<h2><a class="toc-backref" href="#id4">Ethernet</a><a class="headerlink" href="#ethernet" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p04_01_aloha.htm" rel="noopener noreferrer" target="_blank">4.1. Antecedentes. Red Aloha.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/KrZtNn6l2O0" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p04_02_origen_ethernet.htm" rel="noopener noreferrer" target="_blank">4.2. Origen de Ethernet.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/lbQD6FWkjNw" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p04_03_01_trama_ethernet.htm" rel="noopener noreferrer" target="_blank">4.3. El nivel de enlace en Ethernet. Formato de trama.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/FH5M4fCRNrE" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p04_03_02_ethernet_csma.htm" rel="noopener noreferrer" target="_blank">4.4. El nivel de enlace en Ethernet. Protocolo CSMA/CD.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/FH5M4fCRNrE" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p04_04_01_estandarizacion.htm" rel="noopener noreferrer" target="_blank">4.5. Estandarización. Diferencias Ethernet-IEEE 802.3.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/jmumS3Mbc74" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p04_04_02_estandarizacion_recientes.htm" rel="noopener noreferrer" target="_blank">4.6. Estandarización. Desarrollos recientes.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/CddpeDCStII" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+<div class="section" id="puentes-y-conmutadores">
+<h2><a class="toc-backref" href="#id5">Puentes y Conmutadores</a><a class="headerlink" href="#puentes-y-conmutadores" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>5.1. Puentes transparentes.<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_01_01_puentes_transparentes.htm" rel="noopener noreferrer" target="_blank">5.1.1. Puentes transparentes. Cómo funcionan.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/XXGDw_Q-bbY" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_01_02_conmutadores.htm" rel="noopener noreferrer" target="_blank">5.1.2. Puentes transparentes. Aparición de los conmutadores.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/cM3Uxqzt1vk" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_02_microsegmentacion.htm" rel="noopener noreferrer" target="_blank">5.2. Microsegmentación. Full Duplex.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/n9dL1cSGYFg" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_03_ataques_conmutadores.htm" rel="noopener noreferrer" target="_blank">5.3. Ataques en conmutadores.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Dm1qm-GWKFY" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li>5.4. Bucles entre Puentes.<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_04_01_spanningtree.htm" rel="noopener noreferrer" target="_blank">5.4.1. Spanning tree. Planteamiento del problema.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/WlRc7qVN4p4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_04_02_spanningtree_solucion.htm" rel="noopener noreferrer" target="_blank">5.4.2. Spanning tree. Solución.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/lcdY4DSDRC8" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_04_03_spanningtree_protocolo.htm" rel="noopener noreferrer" target="_blank">5.4.3. Spanning tree. Protocolo.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/t-6NDSwvh5E" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_04_04_spanningtree_ataques.htm" rel="noopener noreferrer" target="_blank">5.4.4. Spanning tree. Ataques.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/3K1MWQ1ZoeU" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_04_05_demo_wireshark.htm" rel="noopener noreferrer" target="_blank">5.4.5. Demo Wireshark.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/nS13o7zcHBg" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li>5.5. Redes locales Virtuales (VLANs).<ul>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_05_01_vlan_planteamiento.htm" rel="noopener noreferrer" target="_blank">5.5.1. Planteamiento del problema.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/EID4JyA9ewc" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_05_02_vlan_trunk.htm" rel="noopener noreferrer" target="_blank">5.5.2. Enlaces 'trunk'.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/QjT5MEC0f84" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_05_03_vlan_spanning_tree.htm" rel="noopener noreferrer" target="_blank">5.5.3. Spanning tree.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/ixmoiqjAxfg" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p05_04_conmutadores_configurables.htm" rel="noopener noreferrer" target="_blank">5.6. Conmutadores configurables y gestionables.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/wsr1iYbhXOs" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+<div class="section" id="redes-inalambricas-802-11">
+<h2><a class="toc-backref" href="#id6">Redes inalámbricas 802.11</a><a class="headerlink" href="#redes-inalambricas-802-11" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p06_01_01_redes802_11_topologia.htm" rel="noopener noreferrer" target="_blank">6.1. Redes 802.11. Topología y organización. Arquitectura.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Y218eOMghEA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p06_01_02_redes802_11_identificacion.htm" rel="noopener noreferrer" target="_blank">6.2. Redes 802.11. Topología y organización. Identificación.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/B_ZlZ9L6p0o" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p06_02_redes802_11_conectividad.htm" rel="noopener noreferrer" target="_blank">6.3. Redes 802.11. Conectividad e itinerancia.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/qRIjbA0Z5Ow" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p06_03_redes802_11_trama.htm" rel="noopener noreferrer" target="_blank">6.4. Redes 802.11. Formato de trama.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/fjdhAOC7e4Q" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p06_04_redes802_11_mac.htm" rel="noopener noreferrer" target="_blank">6.5. Redes 802.11. Protocolo MAC.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/l_hD7PtsUEA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p06_05_1_redes802_11_tipos.htm" rel="noopener noreferrer" target="_blank">6.6. Redes 802.11. Tipos de envíos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/KXnhOOMMVl0" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p06_05_2_redes802_11_estacion.htm" rel="noopener noreferrer" target="_blank">6.7. Redes 802.11. Problema de la estación oculta.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/tEE_q_m0law" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p06_05_3_redes802_11_fragmentacion.htm" rel="noopener noreferrer" target="_blank">6.8. Redes 802.11. Fragmentación/Agrupación.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/4LTokFLSXTY" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p06_06_redes802_11.htm" rel="noopener noreferrer" target="_blank">6.9. Redes 802.11. Rendimiento y compatibilidad.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/fFvvIWO3JcA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+<div class="section" id="routing">
+<h2><a class="toc-backref" href="#id7">Routing</a><a class="headerlink" href="#routing" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p07_01_perspectiva.htm" rel="noopener noreferrer" target="_blank">7.1. Perspectiva general de la segunda parte del curso.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/5FJ4u2m9w1g" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p07_02_nivel_red.htm" rel="noopener noreferrer" target="_blank">7.2. Aspectos generales del nivel de red.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Wj3aXjq1oaI" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p07_03_tiempo_servicio.htm" rel="noopener noreferrer" target="_blank">7.3 Tiempo de servicio.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Qr69MsqGdhM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p07_04_routing.htm" rel="noopener noreferrer" target="_blank">7.4. Algoritmos de routing.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/19iCHRX5Fbs" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p07_05_routing_flujo.htm" rel="noopener noreferrer" target="_blank">7.5. Routing estático basado en el flujo.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/D3v4Q4RUMpU" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p07_06_routing_distancia.htm" rel="noopener noreferrer" target="_blank">7.6. Routing dinámico basado en vector distancia.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/gMyEB9_eKwg" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+<div class="section" id="protocolo-de-internet-ip">
+<h2><a class="toc-backref" href="#id8">Protocolo de Internet (IP)</a><a class="headerlink" href="#protocolo-de-internet-ip" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_01_introduccion_internet.htm" rel="noopener noreferrer" target="_blank">8.1. Introducción a Internet.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/pib6cwFl8SY" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_02_cabecera_ip.htm" rel="noopener noreferrer" target="_blank">8.2. La cabecera IP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/twfTrXFCQYc" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_03_cabecera_ip_opciones.htm" rel="noopener noreferrer" target="_blank">8.3. La cabecera (II) y sus opciones.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/y1TIIOv5Tc0" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_04_direcciones_ip.htm" rel="noopener noreferrer" target="_blank">8.4. Direcciones IP y enrutamiento en un host.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/ywJprEn_c0U" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_05_organizacion_direcciones_ip.htm" rel="noopener noreferrer" target="_blank">8.5. Organización de las direcciones en Internet.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/OzzHkGPVuSc" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_06_enrutamiento_basico.htm" rel="noopener noreferrer" target="_blank">8.6. Enrutamiento básico.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/b5KvxuMBNxM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_07_tabla_rutas.htm" rel="noopener noreferrer" target="_blank">8.7. Tabla de rutas.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/1p96ivgDM5c" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_08_host_multihomed.htm" rel="noopener noreferrer" target="_blank">8.8. Hosts multihomed y líneas serie.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/kSJ6CgVaG50" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_09_direcciones_especiales.htm" rel="noopener noreferrer" target="_blank">8.9. Direcciones especiales.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/BHZ8AAKuKE0" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_10_subredes_mascaras.htm" rel="noopener noreferrer" target="_blank">8.10. Subredes y máscaras.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/nRjIwd9YAL8" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_11_rutas_host.htm" rel="noopener noreferrer" target="_blank">8.11. Ruta por defecto, rutas host.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/NE5dSS04SIA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_12_orden_enrutamiento.htm" rel="noopener noreferrer" target="_blank">8.12. Orden de enrutamiento, tabla de rutas.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/DCu6Wv_n8HQ" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_13_enrutamiento_jeraquico.htm" rel="noopener noreferrer" target="_blank">8.13. Enrutamiento jerárquico.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/nhi3aPmMeBA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_14_envios_broadcast.htm" rel="noopener noreferrer" target="_blank">8.14. Envíos broadcast.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/IPk_8WD-bRM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_15_ejercicios.htm" rel="noopener noreferrer" target="_blank">8.15. Ejercicios.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/ENWMLDZpI5I" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_16_direcciones.htm" rel="noopener noreferrer" target="_blank">8.16. Direcciones.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/8TlL4JlJdDA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_17_icmp.htm" rel="noopener noreferrer" target="_blank">8.17. ICMP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/VRUq1OwqjQ4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_18_arp.htm" rel="noopener noreferrer" target="_blank">8.18. ARP básico.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/98Igov-JmVI" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_19_arp_avanzado.htm" rel="noopener noreferrer" target="_blank">8.19. ARP avanzado.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/lNfb-S9Qndo" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_20_encaminamiento.htm" rel="noopener noreferrer" target="_blank">8.20. La lógica de encaminamiento de un paquete.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/ha_VqXy4_KM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_21_alimento.htm" rel="noopener noreferrer" target="_blank">8.21. Alimento para la mente. Ejercicios.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/6umpYumltCk" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_22_alta_disponibilidad.htm" rel="noopener noreferrer" target="_blank">8.22. Alta disponibilidad.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/WDXKeicKL3c" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_23_duplicidad_direcciones.htm" rel="noopener noreferrer" target="_blank">8.23. Duplicidad de direcciones.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/FGjchehMdN8" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p08_24_ejercicios.htm" rel="noopener noreferrer" target="_blank">8.24. Ejercicios.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/zT7q7ZcfvPo" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+<div class="section" id="protocolos-e-internet">
+<h2><a class="toc-backref" href="#id9">Protocolos e Internet</a><a class="headerlink" href="#protocolos-e-internet" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_01_rarp.htm" rel="noopener noreferrer" target="_blank">9.1. Resolución inversa de direcciones: protocolo RARP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/6N4uB1p6MqA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_02_bootp.htm" rel="noopener noreferrer" target="_blank">9.2. Resolución inversa de direcciones: protocolo BOOTP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/6AA5CRnMIKM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_03_dhcp.htm" rel="noopener noreferrer" target="_blank">9.3. Resolución inversa de direcciones: protocolo DHCP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/r_8YCvfcNM4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_04_ataques_dhcp.htm" rel="noopener noreferrer" target="_blank">9.4. Ataques relacionados con DHCP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/mmuvHcGK-8M" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_05_ataques_spoofing.htm" rel="noopener noreferrer" target="_blank">9.5. Ataques de spoofing.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/B_teAa7M-uQ" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_06_routing.htm" rel="noopener noreferrer" target="_blank">9.6. Protocolos de routing: aspectos generales.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/yypuhnxWZTg" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_07_routing_rip.htm" rel="noopener noreferrer" target="_blank">9.7. Protocolos de routing: RIP e IGRP/EIGRP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/bga8fR8E570" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_08_routing_ospf.htm" rel="noopener noreferrer" target="_blank">9.8. Protocolos de routing: OSPF.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/KB18rUEGFIo" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_09_routing_is_is.htm" rel="noopener noreferrer" target="_blank">9.9. Protocolos de routing: IS-IS.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/se1R34dmk7Q" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_10_enrutado.htm" rel="noopener noreferrer" target="_blank">9.10. Mecanismo de enrutado.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/KKQPVghhKBQ" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_11_autonomos_bgp.htm" rel="noopener noreferrer" target="_blank">9.11. Routing entre sistemas autónomos. Protocolo BGP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/PCAjtxbGU-g" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_12_dos_conexiones.htm" rel="noopener noreferrer" target="_blank">9.12. Organizaciones con dos conexiones a Internet.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/vN3ZSarT1dE" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_13_arquitectura_internet.htm" rel="noopener noreferrer" target="_blank">9.13. Arquitectura de Internet.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/_l1ieN2pTpE" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_14_fragmentacion.htm" rel="noopener noreferrer" target="_blank">9.14. Fragmentación.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/KaHpC2W9-l4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_15_historia_internet.htm" rel="noopener noreferrer" target="_blank">9.15. Historia de Internet.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/v_-bHKhDhzA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p09_16_organizacion_internet.htm" rel="noopener noreferrer" target="_blank">9.16. Organización administrativa de Internet.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/8pLe8K1yAnA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+<div class="section" id="nivel-de-transporte">
+<h2><a class="toc-backref" href="#id10">Nivel de Transporte</a><a class="headerlink" href="#nivel-de-transporte" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_1_nivel_transporte.htm" rel="noopener noreferrer" target="_blank">10.1. Nivel de transporte, aspectos generales.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/lJVs93IwSU8" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_2_protocolo_udp.htm" rel="noopener noreferrer" target="_blank">10.2. Protocolo UDP (1/2).</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/ez82JeEMYjQ" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_3_protocolo_udp_ejemplo.htm" rel="noopener noreferrer" target="_blank">10.3. Protocolo UDP. Ejemplo (2/2).</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/vqeapa1MWWA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_4_protocolo_tcp_cabecera.htm" rel="noopener noreferrer" target="_blank">10.4. Protocolo TCP. Funciones y cabecera.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/0MlNpTgO97c" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_5_protocolo_tcp_multiplexacion.htm" rel="noopener noreferrer" target="_blank">10.5. Protocolo TCP. Multiplexación.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/By20rTaXFIw" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_6_protocolo_tcp_conexion.htm" rel="noopener noreferrer" target="_blank">10.6. Protocolo TCP: establecimiento de conexión.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/blRsbnSUbls" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_7_protocolo_tcp_secuencia.htm" rel="noopener noreferrer" target="_blank">10.7. Protocolo TCP: números de secuencia.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/drBwqN038vM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_8_protocolo_tcp_desconexion.htm" rel="noopener noreferrer" target="_blank">10.8. Protocolo TCP: desconexión.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/EpCOiSCxCgY" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_9_protocolo_tcp_ejempo.htm" rel="noopener noreferrer" target="_blank">10.9. Protocolo TCP: ejemplo de conexión/desconexión.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/7vrjiF7F3pY" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_10_protocolo_tcp_simultanea.htm" rel="noopener noreferrer" target="_blank">10.10. TCP: desconexión simultánea y pérdida de mensajes de desconexión.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/w8qI1krG00k" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_11_protocolo_tcp_unilateral.htm" rel="noopener noreferrer" target="_blank">10.11. Protocolo TCP: desconexión unilateral.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/5utodCo7U20" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_12_protocolo_tcp_sockets.htm" rel="noopener noreferrer" target="_blank">10.12. Protocolo TCP: programación sockets.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/SC8LVgVYDEg" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_13_protocolo_tcp_intercambio.htm" rel="noopener noreferrer" target="_blank">10.13. Protocolo TCP: intercambio de datos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/0LAZKtK4iCY" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_14_ntu.htm" rel="noopener noreferrer" target="_blank">10.14. Negociación de la MTU.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/p-rhMXQ2Bxw" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_15_pushed.htm" rel="noopener noreferrer" target="_blank">10.15. Datos 'pushed' y datos urgentes.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/R7XAhXpz9lc" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_16_flujo_datos.htm" rel="noopener noreferrer" target="_blank">10.16. Flujo de datos de TCP: datos interactivos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/hRsUxMcXsxI" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_17_flujo_masivo.htm" rel="noopener noreferrer" target="_blank">10.17. Flujo de datos de TCP: datos masivos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/OAj-vahYHYI" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_18_timer_persistencia.htm" rel="noopener noreferrer" target="_blank">10.18. Timer de persistencia.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/xnCw16fGR78" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_19_pipeline.htm" rel="noopener noreferrer" target="_blank">10.19. Pipeline de TCP  y reenvío de segmentos.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/bfbgXEe7UoA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_21_protocolo_tcp_keepalive.htm" rel="noopener noreferrer" target="_blank">10.20. Mejoras de rendimiento de TCP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/eQxvfHpyXes" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_21_protocolo_tcp_keepalive.htm" rel="noopener noreferrer" target="_blank">10.21. Timer de Keepalive de TCP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/DHA4SKH6Aos" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_22_tcp_timer_retransmision.htm" rel="noopener noreferrer" target="_blank">10.22. Timer de retransmisión en TCP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/x17GIy75Ng4" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_23_tcp_control_congestion.htm" rel="noopener noreferrer" target="_blank">10.23. Control de congestión de TCP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/nS08p-lsbPM" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_24_tcp_congestion_avoidance.htm" rel="noopener noreferrer" target="_blank">10.24. Congestión Avoidance de TCP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/aVTNnvv2E8M" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_25_tcp_congestion_red.htm" rel="noopener noreferrer" target="_blank">10.25. Control avanzado de congestión.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/D9CrKZcu8CA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_26_tcp_factor_escala.htm" rel="noopener noreferrer" target="_blank">10.26. Uso del factor de escala.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/Z1VEOOqlOAc" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_27_tcp_opciones.htm" rel="noopener noreferrer" target="_blank">10.27. Opciones de TCP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/9soiAMdmRQw" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p10_28_tcp_resumen.htm" rel="noopener noreferrer" target="_blank">10.28. Resumen de TCP/UDP.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/iobUcKZ0lSw" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+<div class="section" id="network-address-translation">
+<h2><a class="toc-backref" href="#id11">Network Address Translation</a><a class="headerlink" href="#network-address-translation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p11_1_nat_i.htm" rel="noopener noreferrer" target="_blank">11.1. NAT I.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/lFyIgt7iVKA" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+<li><a class="reference external" href="https://www.aulaclic.es/redes/secuencias/p11_1_nat_ii.htm" rel="noopener noreferrer" target="_blank">11.2. NAT II.</a>
+<a class="reference external" href="https://www.youtube-nocookie.com/embed/eGgZCJA1X_E" rel="noopener noreferrer" target="_blank">(YouTube).</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="comm-recursos.html" class="btn btn-neutral float-right" title="Communications Resources" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="comm-timeline.html" class="btn btn-neutral" title="Communications timeline" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contact</a></li>
+    <li><a href="manifiesto.html" target="_blank">Manifiesto</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Cookie policy</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Credits</a></li>
+    <li><a href="genindex.html" target="_blank">Glossary</a></li>
+    <li><a href="content.html" target="_blank">Index</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright © 2013-2023 by Carlos Pardo Martín.
+      <br>
+
+      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
+      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
+      unless otherwise specified.
+      <br>
+      <span class="lastupdated">
+        Last updated on October, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../es/comm-curso-redes.html">Español</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Technical drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="robotica-index.html">Robótica</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="comm-index.html">Communications</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="comm-redes.html">Data network</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comm-timeline.html">Communications timeline</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Redes Telemáticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comm-recursos.html">Communications Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Technology Workshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Another resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Educational Legislation</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/es/manifiesto.html">Manifiesto</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Technology Test</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

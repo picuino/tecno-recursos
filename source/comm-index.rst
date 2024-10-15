@@ -22,4 +22,5 @@ Comunicaciones de datos.
 
    comm-redes.rst
    comm-timeline.rst
+   comm-curso-redes.rst
    comm-recursos.rst
