@@ -19,19 +19,23 @@ Este es el aspecto que puede tener una señal analógica:
 
    Ejemplo de señal analógica.
 
-Las señales digitales, por otro lado, son señales que solo toman valores
-discretos.
+Las `señales digitales <https://es.wikipedia.org/wiki/Se%C3%B1al_digital>`__,
+por otro lado, son señales que solo toman valores discretos, por ejemplo
+0 voltios y 5 voltios. Todos los demás valores de tensión son ignorados
+como no válidos.
 
-Este es el aspecto que puede tener una señal digital con algo de ruido:
+Este es el aspecto que puede tener una señal digital con algo de ruido
+añadido:
 
 .. figure:: electronic/_images/electronic-digital-signal.png
    :align: center
    :alt: Ejemplo de señal digital con ruido.
 
-   Ejemplo de señal digital con ruido.
+   Ejemplo de señal digital con ruido añadido.
 
-Las señales digitales se pueden convertir en valores binarios y manejar
-esos números binarios matemáticamente gracias a los circuitos digitales.
+Las señales digitales se pueden convertir a valores binarios y manejar
+esos números binarios matemáticamente gracias a los 
+`circuitos digitales <https://es.wikipedia.org/wiki/Circuito_digital>`__.
 Esto proporciona muchas ventajas a las señales digitales.
 
 
@@ -43,18 +47,18 @@ Ventajas de la señal digital
    El ruido de pequeño valor no produce errores en la información de la
    señal.
 
-2. **Detección y corrección de errores.**
+#. **Duplicación sin pérdidas.**
+
+   Las señales digitales se pueden duplicar sin perder calidad, porque 
+   el ruido que se introduce en el sistema digital puede ser eliminado.
+
+#. **Detección y corrección de errores.**
 
    Se puede calcular si una señal digital se ha degradado por el ruido
    (detección de errores) y se pueden corregir los errores que se hayan 
    producido mediante técnicas matemáticas.
 
-3. **Duplicación sin pérdidas.**
-
-   Las señales digitales se pueden duplicar sin perder calidad, porque 
-   el ruido que se introduce en el sistema digital puede ser eliminado.
-
-4. **Facilidad de procesamiento de la señal.**
+#. **Facilidad de procesamiento de la señal.**
 
    La señal digital se puede procesar fácilmente con software adecuado,
    que es capaz de lograr más efectos que el procesamiento analógico.
@@ -73,3 +77,38 @@ se convierte en valores binarios.
    :alt: Definición de valores lógicos en una señal con ruido.
 
    Definición de valores lógicos en una señal con ruido.
+
+
+Simulación
+----------
+A continuación puede verse la simulación de una señal de datos digital
+con tensiones entre 0 y 5 voltios, que se deteriora al añadir ruido
+en la transmisión y que por último se vuelve a recuperar eliminando el 
+ruido con un simple comparador con histéresis (Trigger Schmitt).
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="/circuits/index.html?startCircuit=digital-ruido.txt"></iframe>
+   </div>
+
+
+Ejercicios
+----------
+
+#. Dibuja una señal analógica y una señal digital. 
+
+   ¿En qué se diferencian?
+
+#. ¿Qué ventajas presentan las señales digitales?
+
+#. ¿Qué es la cuantificación digital?
+
+#. Explica con tus palabras qué ocurre en el circuito simulado.
+
+#. Modifica en el simulador la señal de FM para que tenga 3 voltios de
+   tensión máxima. ¿Qué le ocurre a la señal digital recuperada?
+   
+   Dibuja la forma de la señal digital recuperada y señala en el gráfico
+   el problema.
+   

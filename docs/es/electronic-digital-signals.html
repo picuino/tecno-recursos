@@ -102,15 +102,19 @@ tensión o de corriente que pueden tomar cualquier valor dentro de un rango.</p>
 <img alt="Ejemplo de señal analógica." src="_images/electronic-analog-signal.png">
 <p class="caption"><span class="caption-text">Ejemplo de señal analógica.</span><a class="headerlink" href="#id1" title="Enlace permanente a esta imagen">¶</a></p>
 </div>
-<p>Las señales digitales, por otro lado, son señales que solo toman valores
-discretos.</p>
-<p>Este es el aspecto que puede tener una señal digital con algo de ruido:</p>
+<p>Las <a class="reference external" href="https://es.wikipedia.org/wiki/Se%C3%B1al_digital" rel="noopener noreferrer" target="_blank">señales digitales</a>,
+por otro lado, son señales que solo toman valores discretos, por ejemplo
+0 voltios y 5 voltios. Todos los demás valores de tensión son ignorados
+como no válidos.</p>
+<p>Este es el aspecto que puede tener una señal digital con algo de ruido
+añadido:</p>
 <div class="figure align-center" id="id2">
 <img alt="Ejemplo de señal digital con ruido." src="_images/electronic-digital-signal.png">
-<p class="caption"><span class="caption-text">Ejemplo de señal digital con ruido.</span><a class="headerlink" href="#id2" title="Enlace permanente a esta imagen">¶</a></p>
+<p class="caption"><span class="caption-text">Ejemplo de señal digital con ruido añadido.</span><a class="headerlink" href="#id2" title="Enlace permanente a esta imagen">¶</a></p>
 </div>
-<p>Las señales digitales se pueden convertir en valores binarios y manejar
-esos números binarios matemáticamente gracias a los circuitos digitales.
+<p>Las señales digitales se pueden convertir a valores binarios y manejar
+esos números binarios matemáticamente gracias a los
+<a class="reference external" href="https://es.wikipedia.org/wiki/Circuito_digital" rel="noopener noreferrer" target="_blank">circuitos digitales</a>.
 Esto proporciona muchas ventajas a las señales digitales.</p>
 <div class="section" id="ventajas-de-la-senal-digital">
 <h2>Ventajas de la señal digital<a class="headerlink" href="#ventajas-de-la-senal-digital" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -119,14 +123,14 @@ Esto proporciona muchas ventajas a las señales digitales.</p>
 <p>El ruido de pequeño valor no produce errores en la información de la
 señal.</p>
 </li>
+<li><p class="first"><strong>Duplicación sin pérdidas.</strong></p>
+<p>Las señales digitales se pueden duplicar sin perder calidad, porque
+el ruido que se introduce en el sistema digital puede ser eliminado.</p>
+</li>
 <li><p class="first"><strong>Detección y corrección de errores.</strong></p>
 <p>Se puede calcular si una señal digital se ha degradado por el ruido
 (detección de errores) y se pueden corregir los errores que se hayan
 producido mediante técnicas matemáticas.</p>
-</li>
-<li><p class="first"><strong>Duplicación sin pérdidas.</strong></p>
-<p>Las señales digitales se pueden duplicar sin perder calidad, porque
-el ruido que se introduce en el sistema digital puede ser eliminado.</p>
 </li>
 <li><p class="first"><strong>Facilidad de procesamiento de la señal.</strong></p>
 <p>La señal digital se puede procesar fácilmente con software adecuado,
@@ -144,6 +148,34 @@ se convierte en valores binarios.</p>
 <a class="reference internal image-reference" href="_images/electronic-digital-levels.png"><img alt="Definición de valores lógicos en una señal con ruido." src="_images/electronic-digital-levels.png" style="width: 600px;"></a>
 <p class="caption"><span class="caption-text">Definición de valores lógicos en una señal con ruido.</span><a class="headerlink" href="#id3" title="Enlace permanente a esta imagen">¶</a></p>
 </div>
+</div>
+<div class="section" id="simulacion">
+<h2>Simulación<a class="headerlink" href="#simulacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>A continuación puede verse la simulación de una señal de datos digital
+con tensiones entre 0 y 5 voltios, que se deteriora al añadir ruido
+en la transmisión y que por último se vuelve a recuperar eliminando el
+ruido con un simple comparador con histéresis (Trigger Schmitt).</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=digital-ruido.txt"></iframe>
+</div></div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Dibuja una señal analógica y una señal digital.</p>
+<p>¿En qué se diferencian?</p>
+</li>
+<li><p class="first">¿Qué ventajas presentan las señales digitales?</p>
+</li>
+<li><p class="first">¿Qué es la cuantificación digital?</p>
+</li>
+<li><p class="first">Explica con tus palabras qué ocurre en el circuito simulado.</p>
+</li>
+<li><p class="first">Modifica en el simulador la señal de FM para que tenga 3 voltios de
+tensión máxima. ¿Qué le ocurre a la señal digital recuperada?</p>
+<p>Dibuja la forma de la señal digital recuperada y señala en el gráfico
+el problema.</p>
+</li>
+</ol>
 </div>
 </div>
 
