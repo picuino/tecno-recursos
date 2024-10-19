@@ -49,7 +49,7 @@ La función de cada componente es la siguiente:
 * El resultado final es que se mantiene una tensión prácticamente constante
   en la base de Q1 y, por lo tanto, en la resistencia R2. Esa tensión
   constante se traduce en que circulará una corriente prácticamente
-  constante por el emisor de Q2 y, despreciando las corrientes de base, por
+  constante por el emisor de Q2 y, despreciando la corriente de base, por
   el colector de Q2.
 
   Aplicando la ley de Ohm:

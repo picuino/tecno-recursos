@@ -83,7 +83,7 @@ Ejercicios
 ----------
 #. ¿En qué se diferencia el comparador con histéresis del comparador 
    tradicional?
-   Explica las diferencia de funcionamiento y de diseño del circuito.
+   Explica las diferencias de funcionamiento y de diseño del circuito.
 
 #. ¿Qué es la tensión o la temperatura de histéresis?
 
@@ -91,17 +91,16 @@ Ejercicios
    o la temperatura de apagado?
    
    ¿En un refrigerador qué será mayor, la temperatura de encendido o la
-   de apagado? Justifica tu respuesta.
-
-#. ¿Qué ventajas y qué inconvenientes tiene utilizar una menor temperatura
-   de histéresis en el circuito calentador?
+   de apagado del refrigerador? Justifica tu respuesta.
 
 #. Simula el cambio de temperatura en el termistor R3 para comprobar cómo
    se comporta el circuito. La luz roja del diodo representa el encendido
    de un calefactor.
 
    ¿A qué temperatura se enciende el calefactor?
+
    ¿A qué temperatura se apaga el calefactor?
+
    ¿Por qué hay esa diferencia entre ambos?
 
 #. Cambia la resistencia R4 a un valor menor (100k).
@@ -109,6 +108,9 @@ Ejercicios
 
    Cambia la resistencia R4 a un valor mayor (800k). 
    ¿Qué ocurre con la histéresis?
+
+#. ¿Qué ventajas y qué inconvenientes tiene utilizar una menor histéresis
+   en el circuito calentador?
 
 #. Cambia el valor de la resistencia variable R1 para que la calefacción
    funcione entre los rangos 20ºC y 22ºC.
