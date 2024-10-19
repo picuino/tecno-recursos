@@ -9,6 +9,13 @@ OPTIPNG=optipng -quiet -o 6
 
 
 # --------------------------------------------------------------------
+# CURSO DE REDES TELEMÁTICAS
+#
+../comm-curso-redes.rst: comm-curso-redes.yml comm-curso-redes-rst.py
+	python3 -m comm-curso-redes-rst
+
+
+# --------------------------------------------------------------------
 # THUMBNAILS
 #
 $(THUMBS)/%.png: $(IMAGES)/%.png
@@ -26,7 +33,9 @@ $(THUMBS)/%.jpg: $(IMAGES)/%.jpg
 
 all: \
 	$(THUMBFILES) \
+	../comm-curso-redes.rst \
 
 
-clean:
-	rm -f	 $(THUMBFILES)
+clean: \
+	rm -f $(THUMBFILES) \
+	rm -f ../comm-curso-redes.rst \

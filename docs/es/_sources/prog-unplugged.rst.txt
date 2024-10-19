@@ -9,7 +9,7 @@ Actividades desconectadas
 =========================
 En este apartado se verán varios recursos para aprender a programar
 sin utilizar el ordenador.
-Es lo que se denomina **actividades desconectadas** o 
+Es lo que se denomina **actividades desconectadas** o
 actividades unplugged.
 
 
@@ -18,9 +18,9 @@ CS Unplugged
 Computer Science Unplugged es una colección de material didáctico
 gratuito que enseña informática a través de interesantes juegos y
 puzles con la ayuda de cartas, cuerdas, lápices de colores y mucha
-actividad física. 
+actividad física.
 
-:download:`Libro en español de Computer Science Unplugged 
+:download:`Libro en español de Computer Science Unplugged
 <prog/prog-cs-unplugged.pdf>`
 
 #. `Página de inicio <https://www.csunplugged.org/es/>`__
@@ -62,3 +62,75 @@ entre los estudiantes de todas las edades.
 * :download:`Tarjetas de desafío. Tanda 1. <prog/bebras/prog-bebras-desafio-tanda-2.pdf>`
 * :download:`Tarjetas Bebras versión 2. <prog/bebras/prog-bebras-tarjetas-v2.pdf>`
 * :download:`Tarjetas Bebras versión 2. Respuestas. <prog/bebras/prog-bebras-tarjetas-v2-respuestas.pdf>`
+
+
+Code.org
+--------
+* `Actividades desconectadas de code.org <https://code.org/curriculum/unplugged>`__
+
+  * `A3. Mapas Felices.
+    <https://studio.code.org/s/coursea-2022/lessons/3?lang=es-ES>`__
+  * `A7. Bucles felices.
+    <https://studio.code.org/s/coursea-2022/lessons/7?lang=es-ES>`__
+  * `A11. El Gran Evento Jr.
+    <https://studio.code.org/s/coursea-2022/lessons/11?lang=es-ES>`__
+  * `B2. Muévelo, Muévelo.
+    <https://studio.code.org/s/courseb-2022/lessons/2?lang=es-ES>`__
+  * `B6. Bucleandose.
+    <https://studio.code.org/s/courseb-2022/lessons/6?lang=es-ES>`__
+  * `B10. La aplicación correcta.
+    <https://studio.code.org/s/courseb-2022/lessons/10?lang=es-ES>`__
+  * `C2. Mis amigos robóticos Jr.
+    <https://studio.code.org/s/coursec-2022/lessons/2?lang=es-ES>`__
+  * `C7. Mis amigos robóticos y repetitivos Jr.
+    <https://studio.code.org/s/coursec-2022/lessons/7?lang=es-ES>`__
+  * `C11. El Gran Evento
+    <https://studio.code.org/s/coursec-2022/lessons/11?lang=es-ES>`__
+  * `C15. Pulseras Binarias.
+    <https://studio.code.org/s/coursec-2022/lessons/15?lang=es-ES>`__
+  * `D2. Programación en papel cuadriculado.
+    <https://studio.code.org/s/coursed-2022/lessons/2?lang=es-ES>`__
+  * `D4. Programación de Relevos.
+    <https://studio.code.org/s/coursed-2022/lessons/4?lang=es-ES>`__
+  * `D12. Condicionales con tarjetas.
+    <https://studio.code.org/s/coursed-2022/lessons/12?lang=es-ES>`__
+  * `E9. Composición Musical
+    <https://studio.code.org/s/coursee-2022/lessons/9?lang=es-ES>`__
+  * `E15. Diseñar con la accesibilidad en mente.
+    <https://studio.code.org/s/coursee-2022/lessons/15?lang=es-ES>`__
+  * `E16. Colaboración digital
+    <https://studio.code.org/s/coursee-2022/lessons/16?lang=es-ES>`__
+  * `F6: Historias del espacio en blanco.
+    <https://studio.code.org/s/coursef-2022/lessons/6?lang=es-ES>`__
+  * `F13: Diversión con bucles Para.
+    <https://studio.code.org/s/coursef-2021/lessons/13?lang=es-ES>`__
+  * `F15: Internet.
+    <https://studio.code.org/s/coursef-2022/lessons/15?lang=es-ES>`__
+
+
+Programamos.es
+--------------
+* `Actividades Desenchufadas de Programamos.es.
+  <https://programamos.es/recopilacion-de-actividades-desenchufadas-para-trabajar-el-pensamiento-computacional/>`__
+
+  * :download:`Divide y vencerás.
+    <prog/programamos-es-1-divide-y-venceras.pdf>`
+  * :download:`Programando robots... ¡humanos!
+    <prog/programamos-es-2-rogramando-robots-humanos.pdf>`
+  * :download:`Bailando en bucle.
+    <prog/programamos-es-3-bailando-en-bucle.pdf>`
+  * :download:`Mi propio mando a distancia.
+    <prog/programamos-es-4-mando-a-distancia.pdf>`
+  * :download:`Cartas lógicas.
+    <prog/programamos-es-5-cartas-logicas.pdf>`
+  * :download:`Sobres variables.
+    <prog/programamos-es-6-sobres-variables.pdf>`
+
+
+Varios
+------
+* `Alphabot de Lobotic.
+  <https://github.com/lobotic/GuiasEducativas/tree/main/Alphabot>`__
+* `Cody & Roby <https://www.codeweek.it/cody-roby-en/>`__
+* `Computación en Educación Básica (en portugués).
+  <https://www.computacional.com.br/>`__

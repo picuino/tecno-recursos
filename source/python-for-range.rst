@@ -146,3 +146,19 @@ Ejercicios
       -30
       -25
       -20
+
+#. Escribe un programa que sume todos los primeros 'n' números impares
+   y comprueba que el resultado es igual al cuadrado de 'n'.
+   
+   Pista::
+   
+      num = input('Introduce cuántos impares sumaremos: ')
+      num = int(num)
+      
+      suma = 0
+      for ... in range(1, num*2, ... ):
+          suma = ...
+          
+      print('La suma de los', num, 'primeros impares es igual a', suma)
+      print('El cuadrado de', num, 'es igual a', num*num)
+      

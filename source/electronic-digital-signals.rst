@@ -47,7 +47,7 @@ Ventajas de la señal digital
 
    Se puede calcular si una señal digital se ha degradado por el ruido
    (detección de errores) y se pueden corregir los errores que se hayan 
-   producido mediánte técnicas matemáticas.
+   producido mediante técnicas matemáticas.
 
 3. **Duplicación sin pérdidas.**
 
