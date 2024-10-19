@@ -60,21 +60,23 @@ funcionando como control de una calefacción:
    <iframe src="/circuits/index.html?startCircuit=oa-hysteresis.txt"></iframe>
    </div>
 
-Al disminuir el valor de la temperatura en R3, el led terminará
-encendiéndose para que la temperatura del recinto aumente.
+Al aumentar el valor de la temperatura en R3, el led terminará
+apagándose para que la temperatura del recinto disminuya.
 
-Si en ese caso aumentamos el valor de la temperatura en R3, el led
-terminará apagándose para que la temperatura del recinto disminuya.
+Si en ese caso disminuimos el valor de la temperatura en R3, el led
+terminará encendiéndose para que la temperatura del recinto aumente.
 
 Si retiramos la resistencia R4, el circuito es un comparador tradicional
 que compara la tensión de referencia de R1 con la tensión de R2 y R3, que 
 son un sensor de temperatura.
 
-Con R4 conectada, la temperatura de encendido y de apagado no coinciden,
-sino que están separadas varios grados de temperatura, que se denomina
-temperatura de **histéresis**.
-Si ambas temperaturas coincidieran, la calefacción se encendería y se
-apagaría continuamente, con mucha frecuencia, y eso podría dañarla.
+Con R4 conectada, las temperaturas de encendido y de apagado no coinciden,
+sino que están separadas varios grados, lo que se denomina temperatura 
+de **histéresis**.
+
+Si ambas temperaturas de encendido y de apagado coincidieran, la 
+calefacción se encendería y se apagaría continuamente, con mucha 
+frecuencia, y eso podría dañarla.
 
 
 Ejercicios
