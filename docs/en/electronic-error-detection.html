@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics">
-  <title>electronics - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Digital electronic - 2. Detección de errores">
+  <title>2. Detección de errores - Digital electronic - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
 
   
-  <link rel="canonical" href="https://www.picuino.com/en/electronic-index.html">
+  <link rel="canonical" href="https://www.picuino.com/en/electronic-error-detection.html">
 
   
   <link rel="search" type="application/opensearchdescription+xml"
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="Electronic components" href="electronic-components-index.html">
-  <link rel="prev" title="Resources for electricity" href="electric-recursos.html">
+  <link rel="next" title="Wiring of electronic components" href="electronic-bornas-index.html">
+  <link rel="prev" title="1. digital signals" href="electronic-digital-signals.html">
 
 </head>
 
@@ -67,13 +67,17 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-      <li>electronics</li>
+          <li><a href="electronic-index.html">electronics</a>/</li>
+        
+          <li><a href="electronic-digital-index.html">Digital electronic</a>/</li>
+        
+      <li><span class="section-number">2. </span>Detección de errores</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/electronic-index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/electronic-error-detection.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -88,7 +92,7 @@
   If you would like to collaborate, please
   <a href="contacto.html" target="_blank">contact</a> the author
   with the updated
-  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/electronic-index.po" target="_blank">translation file</a>.
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/electronic-error-detection.po" target="_blank">translation file</a>.
   </div>
   
   <hr>
@@ -97,57 +101,74 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="electronica">
-<span id="electronic-index"></span><h1>electronics<a class="headerlink" href="#electronica" title="Permalink to this headline">¶</a></h1>
-<p>Representation, wiring, measurement and simulation of electronic circuits.</p>
-<a class="reference internal image-reference" href="_images/electronic-logo.png"><img alt="Circuitos y componentes electrónicos." class="align-center" src="_images/electronic-logo.png" style="width: 400px;"></a>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="electronic-components-index.html">Electronic components</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="electronic-codigo-colores.html">1. Resistor color code</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-semiconductores.html">2. Semiconductor components</a></li>
-</ul>
+  <div class="section" id="deteccion-de-errores">
+<span id="electronic-error-detection"></span><h1><span class="section-number">2. </span>Detección de errores<a class="headerlink" href="#deteccion-de-errores" title="Permalink to this headline">¶</a></h1>
+<p>En electrónica digital se pueden añadir datos extra a la información
+enviada por un canal con ruido, para detectar si la transmisión de
+información ha sido correcta o si se ha producido algún error.</p>
+<p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores" rel="noopener noreferrer" target="_blank">detección de errores</a>
+añade una pequeña sobrecarga de información con bits extra denominados
+redundancia.</p>
+<p>En la transmisión de datos por internet o en la red de datos móviles,
+si se produce un error y se detecta, el ordenador volverá a pedir que
+se reenvíe la información, hasta que llegue la versión correcta sin
+errores.</p>
+<div class="section" id="bits-de-paridad">
+<h2>Bits de paridad<a class="headerlink" href="#bits-de-paridad" title="Permalink to this headline">¶</a></h2>
+<p>El sistema más sencillo de añadir redundancia para detectar errores es
+el <a class="reference external" href="https://es.wikipedia.org/wiki/Bit_de_paridad" rel="noopener noreferrer" target="_blank">bit de paridad</a>.
+Este bit tiene un valor que hace que el número de bits a uno totales
+sea siempre par.</p>
+<p>Por ejemplo, si los datos enviados tienen 3 bits a uno, el bit de paridad
+también valdrá uno para que el número total de bits a uno sea 4
+(número par).</p>
+<p>En la siguiente figura se pueden ver varios ejemplos de bits de paridad
+correctos, enviados junto con su byte de información.</p>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="_images/electronic-error-detection-01.png"><img alt="Bit de paridad para varios bytes de datos." src="_images/electronic-error-detection-01.png" style="width: 340px;"></a>
+<p class="caption"><span class="caption-text">Bit de paridad para varios bytes de datos.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<p>Si la paridad final es impar, eso significa que alguno de los bits de
+información ha cambiado durante su transmisión y por lo tanto se ha
+producido un error.</p>
+<p>Este sistema reconoce el cambio de un solo bit de información.
+Si se producen cambios en dos bit a la vez, el sistema de control de
+paridad no será capaz de reconocer el error.</p>
+</div>
+<div class="section" id="suma-de-verificacion">
+<h2>Suma de verificación<a class="headerlink" href="#suma-de-verificacion" title="Permalink to this headline">¶</a></h2>
+<p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" rel="noopener noreferrer" target="_blank">suma de verificación</a>,
+también llamada checksum, es un dato añadido a los datos enviados que
+tiene como objetivo detectar errores de transmisión con mayor exactitud
+que el simple bit de paridad.</p>
+<p>Existen varias versiones, desde una simple que se genera sumando el valor
+de todos los bytes de datos transmitidos,
+pasando por los <a class="reference external" href="https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica" rel="noopener noreferrer" target="_blank">códigos de redundancia cíclica o CRC</a>,
+hasta las funciones hash más avanzadas como la <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Hash_Algorithm" rel="noopener noreferrer" target="_blank">SHA</a>,
+que pueden detectar no solo errores aleatorios de transmisión,
+sino errores provocados a propósito por los ciberdelincuentes para añadir
+virus a un archivo informático.</p>
+<p>Estas sumas de verificación son muy utilizadas en telecomunicaciones y
+en soportes digitales tales como el CD-ROM o las memorias flash.</p>
+</div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">¿Para qué sirve la detección de errores?</p>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-diodo-zener.html">4. The zener diode</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-diodo-led.html">5. The LED diode</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-bjt.html">6. The transistor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-bjt-common-e.html">7. The common emitter transistor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-bjt-common-c.html">8. The common collector transistor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-bjt-common-b.html">9. The common base transistor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-bjt-darlington.html">10. The Darlington scheme</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-bjt-pushpull.html">11. The push-pull scheme</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-bjt-diferencial.html">12. The differential torque</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-bjt-current.html">13. The current source</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-mosfet.html">14. The mosfet transistor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-operational.html">15. The operational amplifier</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-operational-follower.html">16. The follower amplifier</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-operational-inverting.html">17. The inverting amplifier</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-operational-adder.html">18. The summing amplifier</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-operational-noninverting.html">19. The non-inverting amplifier</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-operational-differential.html">20. The differential amplifier</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-operational-peakdetector.html">21. The peak detector</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-operational-comparator.html">22. The comparator</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-operational-hysteresis.html">23. The comparator with hysteresis</a></li>
-</ul>
+<li><p class="first">¿Cómo se denomina la información extra añadida para detectar errores
+de transmisión de datos?</p>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-signals.html">1. digital signals</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-error-detection.html">2. Detección de errores</a></li>
-</ul>
+<li><p class="first">De los siguientes datos recibidos ¿cuáles tienen errores y por qué?</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/electronic-error-detection-02.png"><img alt="Datos con bits de paridad y con errores." src="_images/electronic-error-detection-02.png" style="width: 340px;"></a>
+</div>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="bornas-telegrafo.html">1. Two wire telegraph</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bornas-condensador.html">2. Charging and discharging a capacitor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bornas-crepuscular.html">3. Twilight sensor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bornas-protoboard.html">4. Wiring on breadboard</a></li>
-</ul>
+<li><p class="first">¿Qué es un código checksum?</p>
+<p>Enumera tres tipos de checksum.</p>
+<p>Escribe dos ejemplos de sistemas que utilicen el código checksum.</p>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
-</ul>
+</ol>
 </div>
 </div>
 
@@ -160,10 +181,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-components-index.html" class="btn btn-neutral float-right" title="Electronic components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-bornas-index.html" class="btn btn-neutral float-right" title="Wiring of electronic components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electric-recursos.html" class="btn btn-neutral" title="Resources for electricity" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-digital-signals.html" class="btn btn-neutral" title="1. digital signals" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -222,7 +243,7 @@
           
           </a>
           <br>
-          <a href="../es/electronic-index.html">Español</a>
+          <a href="../es/electronic-error-detection.html">Español</a>
           <br>
 
           
@@ -251,10 +272,14 @@
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">electronics</a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. digital signals</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2. Detección de errores</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
 </ul>

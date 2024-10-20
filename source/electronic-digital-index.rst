@@ -24,52 +24,52 @@ integrado.
    :titlesonly:
 
    electronic-digital-signals.rst
+   electronic-error-detection.rst
 
 
 .. TO DO
 
-   electronic-digital-error-detection.rst
-   electronic-digital-error-restoration.rst
+   electronic-error-restoration.rst
 
-   electronic-digital-schmitt-trigger.rst
-   electronic-digital-buffer-tristate.rst
+   electronic-schmitt-trigger.rst
+   electronic-buffer-tristate.rst
    
-   electronic-digital-binary-gray.rst
-   electronic-digital-truth-table.rst
+   electronic-binary-gray.rst
+   electronic-truth-table.rst
 
-   electronic-digital-gate-not.rst
-   electronic-digital-gate-or.rst
-   electronic-digital-gate-and.rst
-   electronic-digital-gate-nor-nand.rst
-   electronic-digital-gate-xor.rst
-   electronic-digital-morgan-laws.rst
+   electronic-gate-not.rst
+   electronic-gate-or.rst
+   electronic-gate-and.rst
+   electronic-gate-nor-nand.rst
+   electronic-gate-xor.rst
+   electronic-morgan-laws.rst
 
-   electronic-digital-ttl.rst
-   electronic-digital-cmos.rst
+   electronic-ttl.rst
+   electronic-cmos.rst
 
-   electronic-digital-combinational.rst
-   electronic-digital-decoder.rst
-   electronic-digital-encoder.rst
-   electronic-digital-multiplexer.rst
-   electronic-digital-comparator.rst
-   electronic-digital-parity-generator.rst
-   electronic-digital-adder.rst
-   electronic-digital-rom.rst
+   electronic-combinational.rst
+   electronic-decoder.rst
+   electronic-encoder.rst
+   electronic-multiplexer.rst
+   electronic-comparator.rst
+   electronic-parity-generator.rst
+   electronic-adder.rst
+   electronic-rom.rst
 
-   electronic-digital-sequential.rst
-   electronic-digital-bistable-rs.rst
-   electronic-digital-bistable-d.rst
-   electronic-digital-bistable-jk.rst
-   electronic-digital-bistable-d.rst
-   electronic-digital-counters.rst
-   electronic-digital-register-piso.rst
-   electronic-digital-register-sipo.rst
-   electronic-digital-register-pipo.rst
-   electronic-digital-register-fcsr.rst
-   electronic-digital-ram.rst
+   electronic-sequential.rst
+   electronic-bistable-rs.rst
+   electronic-bistable-d.rst
+   electronic-bistable-jk.rst
+   electronic-bistable-d.rst
+   electronic-counters.rst
+   electronic-register-piso.rst
+   electronic-register-sipo.rst
+   electronic-register-pipo.rst
+   electronic-register-fcsr.rst
+   electronic-ram.rst
 
-   electronic-digital-pwm.rst
-   electronic-digital-anti-bounce.rst
-   electronic-digital-555-monostable.rst
-   electronic-digital-555-bistable.rst
-   electronic-digital-555-pwm.rst
+   electronic-pwm.rst
+   electronic-anti-bounce.rst
+   electronic-555-monostable.rst
+   electronic-555-bistable.rst
+   electronic-555-pwm.rst

@@ -5,8 +5,8 @@
   <meta name="keywords" content="Tecnología, Educación Secundaria, Dibujo, Estructuras, Mecanismos, Materiales, Electricidad, Electrónica, Informática, Programación, Control, Arduino, Comunicaciones, Taller, Legislación Educativa">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Electrónica - Cableado de componentes electrónicos">
-  <title>Cableado de componentes electrónicos - Electrónica - Picuino</title>
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Electrónica - Electrónica digital - 2. Detección de errores">
+  <title>2. Detección de errores - Electrónica digital - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
 
   
-  <link rel="canonical" href="https://www.picuino.com/es/electronic-bornas-index.html">
+  <link rel="canonical" href="https://www.picuino.com/es/electronic-error-detection.html">
 
   
   <link rel="search" type="application/opensearchdescription+xml"
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Índice" href="content.html">
   <link rel="search" title="Búsqueda" href="search.html">
-  <link rel="next" title="1. Telégrafo de dos hilos" href="bornas-telegrafo.html">
-  <link rel="prev" title="2. Detección de errores" href="electronic-error-detection.html">
+  <link rel="next" title="Cableado de componentes electrónicos" href="electronic-bornas-index.html">
+  <link rel="prev" title="1. Las señales digitales" href="electronic-digital-signals.html">
 
 </head>
 
@@ -69,13 +69,15 @@
         
           <li><a href="electronic-index.html">Electrónica</a>/</li>
         
-      <li>Cableado de componentes electrónicos</li>
+          <li><a href="electronic-digital-index.html">Electrónica digital</a>/</li>
+        
+      <li><span class="section-number">2. </span>Detección de errores</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/electronic-bornas-index.rst.txt" rel="nofollow"> Ver texto fuente</a>
+            <a href="_sources/electronic-error-detection.rst.txt" rel="nofollow"> Ver texto fuente</a>
           
         
       </li>
@@ -91,17 +93,74 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="cableado-de-componentes-electronicos">
-<span id="electronic-bornas-index"></span><h1>Cableado de componentes electrónicos<a class="headerlink" href="#cableado-de-componentes-electronicos" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>Ejercicios de cableado de circuitos con componentes electrónicos.</p>
-<a class="reference internal image-reference" href="_images/electronic-bornas-crepuscular.png"><img alt="_images/electronic-bornas-crepuscular.png" src="_images/electronic-bornas-crepuscular.png" style="width: 433px;"></a>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="bornas-telegrafo.html">1. Telégrafo de dos hilos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bornas-condensador.html">2. Carga y descarga de un condensador</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bornas-crepuscular.html">3. Sensor crepuscular</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bornas-protoboard.html">4. Cableado sobre protoboard</a></li>
-</ul>
+  <div class="section" id="deteccion-de-errores">
+<span id="electronic-error-detection"></span><h1><span class="section-number">2. </span>Detección de errores<a class="headerlink" href="#deteccion-de-errores" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En electrónica digital se pueden añadir datos extra a la información
+enviada por un canal con ruido, para detectar si la transmisión de
+información ha sido correcta o si se ha producido algún error.</p>
+<p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores" rel="noopener noreferrer" target="_blank">detección de errores</a>
+añade una pequeña sobrecarga de información con bits extra denominados
+redundancia.</p>
+<p>En la transmisión de datos por internet o en la red de datos móviles,
+si se produce un error y se detecta, el ordenador volverá a pedir que
+se reenvíe la información, hasta que llegue la versión correcta sin
+errores.</p>
+<div class="section" id="bits-de-paridad">
+<h2>Bits de paridad<a class="headerlink" href="#bits-de-paridad" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El sistema más sencillo de añadir redundancia para detectar errores es
+el <a class="reference external" href="https://es.wikipedia.org/wiki/Bit_de_paridad" rel="noopener noreferrer" target="_blank">bit de paridad</a>.
+Este bit tiene un valor que hace que el número de bits a uno totales
+sea siempre par.</p>
+<p>Por ejemplo, si los datos enviados tienen 3 bits a uno, el bit de paridad
+también valdrá uno para que el número total de bits a uno sea 4
+(número par).</p>
+<p>En la siguiente figura se pueden ver varios ejemplos de bits de paridad
+correctos, enviados junto con su byte de información.</p>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="_images/electronic-error-detection-01.png"><img alt="Bit de paridad para varios bytes de datos." src="_images/electronic-error-detection-01.png" style="width: 340px;"></a>
+<p class="caption"><span class="caption-text">Bit de paridad para varios bytes de datos.</span><a class="headerlink" href="#id1" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>Si la paridad final es impar, eso significa que alguno de los bits de
+información ha cambiado durante su transmisión y por lo tanto se ha
+producido un error.</p>
+<p>Este sistema reconoce el cambio de un solo bit de información.
+Si se producen cambios en dos bit a la vez, el sistema de control de
+paridad no será capaz de reconocer el error.</p>
+</div>
+<div class="section" id="suma-de-verificacion">
+<h2>Suma de verificación<a class="headerlink" href="#suma-de-verificacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" rel="noopener noreferrer" target="_blank">suma de verificación</a>,
+también llamada checksum, es un dato añadido a los datos enviados que
+tiene como objetivo detectar errores de transmisión con mayor exactitud
+que el simple bit de paridad.</p>
+<p>Existen varias versiones, desde una simple que se genera sumando el valor
+de todos los bytes de datos transmitidos,
+pasando por los <a class="reference external" href="https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica" rel="noopener noreferrer" target="_blank">códigos de redundancia cíclica o CRC</a>,
+hasta las funciones hash más avanzadas como la <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Hash_Algorithm" rel="noopener noreferrer" target="_blank">SHA</a>,
+que pueden detectar no solo errores aleatorios de transmisión,
+sino errores provocados a propósito por los ciberdelincuentes para añadir
+virus a un archivo informático.</p>
+<p>Estas sumas de verificación son muy utilizadas en telecomunicaciones y
+en soportes digitales tales como el CD-ROM o las memorias flash.</p>
+</div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">¿Para qué sirve la detección de errores?</p>
+</li>
+<li><p class="first">¿Cómo se denomina la información extra añadida para detectar errores
+de transmisión de datos?</p>
+</li>
+<li><p class="first">De los siguientes datos recibidos ¿cuáles tienen errores y por qué?</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/electronic-error-detection-02.png"><img alt="Datos con bits de paridad y con errores." src="_images/electronic-error-detection-02.png" style="width: 340px;"></a>
+</div>
+</li>
+<li><p class="first">¿Qué es un código checksum?</p>
+<p>Enumera tres tipos de checksum.</p>
+<p>Escribe dos ejemplos de sistemas que utilicen el código checksum.</p>
+</li>
+</ol>
 </div>
 </div>
 
@@ -114,10 +173,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="bornas-telegrafo.html" class="btn btn-neutral float-right" title="1. Telégrafo de dos hilos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-bornas-index.html" class="btn btn-neutral float-right" title="Cableado de componentes electrónicos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-error-detection.html" class="btn btn-neutral" title="2. Detección de errores" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+        <a href="electronic-digital-signals.html" class="btn btn-neutral" title="1. Las señales digitales" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
       
     </div>
   
@@ -176,7 +235,7 @@
           
           </a>
           <br>
-          <a href="../en/electronic-bornas-index.html">English</a>
+          <a href="../en/electronic-error-detection.html">English</a>
           <br>
 
           
@@ -208,14 +267,12 @@
 <li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electrónica</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Componentes electrónicos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Cableado de componentes electrónicos</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="bornas-telegrafo.html">1. Telégrafo de dos hilos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bornas-condensador.html">2. Carga y descarga de un condensador</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bornas-crepuscular.html">3. Sensor crepuscular</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bornas-protoboard.html">4. Cableado sobre protoboard</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. Las señales digitales</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2. Detección de errores</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Cableado de componentes electrónicos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Circuito impreso con luces led</a></li>
 </ul>
 </li>
