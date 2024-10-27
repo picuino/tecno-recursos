@@ -108,7 +108,7 @@ La función :py:func:`range`
              2
 
       Como el rango comienza en el número cero, el número de elementos
-      del rango será igual al número que escribimos dentro de la 
+      del rango será igual al número que escribimos dentro de la
       función rango.
 
 
@@ -149,16 +149,16 @@ Ejercicios
 
 #. Escribe un programa que sume todos los primeros 'n' números impares
    y comprueba que el resultado es igual al cuadrado de 'n'.
-   
+
    Pista::
-   
+
       num = input('Introduce cuántos impares sumaremos: ')
       num = int(num)
-      
+
       suma = 0
       for ... in range(1, num*2, ... ):
           suma = ...
-          
+
       print('La suma de los', num, 'primeros impares es igual a', suma)
       print('El cuadrado de', num, 'es igual a', num*num)
-      
+

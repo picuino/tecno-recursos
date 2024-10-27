@@ -9,6 +9,7 @@ def main():
     template = jinja2.Template(template_rst)
     rst_code = template.render(database=database)
     write_rst('../comm-curso-redes.rst', rst_code)
+    input('Pulsa Enter para terminar')
 
 
 def write_rst(fname, data):
@@ -28,13 +29,16 @@ template_rst = """:Date: 18/04/2022
 
 .. _comm-curso-redes:
 
-Redes Telemáticas
-=================
+Curso de Redes Telemáticas
+==========================
 Curso de nivel universitario sobre Redes Telemáticas publicado en 2018
 por Rogelio Montañana en `AulaClic. <https://www.aulaclic.es/redes/index.htm>`__
 
-El curso está dividido en dos partes que abarcan desde las capas física y
-de enlace hasta las capas de red y de transporte de datos.
+El curso contiene 175 vídeos de alrededor de 20 minutos cada uno y equivale
+a dos asignaturas de 3 créditos cada una.
+La primera parte abarca desde la capa física hasta la capa de enlace de
+datos.
+La segunda parte abarca las capas de red y de transporte de datos.
 
 .. contents:: Índice de contenidos:
    :local:

@@ -27,7 +27,7 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="Wiring of electronic components" href="electronic-bornas-index.html">
+  <link rel="next" title="3. Corrección de de errores" href="electronic-error-correction.html">
   <link rel="prev" title="1. digital signals" href="electronic-digital-signals.html">
 
 </head>
@@ -108,7 +108,7 @@ enviada por un canal con ruido, para detectar si la transmisión de
 información ha sido correcta o si se ha producido algún error.</p>
 <p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores" rel="noopener noreferrer" target="_blank">detección de errores</a>
 añade una pequeña sobrecarga de información con bits extra denominados
-redundancia.</p>
+<strong>redundancia</strong>.</p>
 <p>En la transmisión de datos por internet o en la red de datos móviles,
 si se produce un error y se detecta, el ordenador volverá a pedir que
 se reenvíe la información, hasta que llegue la versión correcta sin
@@ -138,18 +138,30 @@ paridad no será capaz de reconocer el error.</p>
 <div class="section" id="suma-de-verificacion">
 <h2>Suma de verificación<a class="headerlink" href="#suma-de-verificacion" title="Permalink to this headline">¶</a></h2>
 <p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" rel="noopener noreferrer" target="_blank">suma de verificación</a>,
-también llamada checksum, es un dato añadido a los datos enviados que
-tiene como objetivo detectar errores de transmisión con mayor exactitud
-que el simple bit de paridad.</p>
-<p>Existen varias versiones, desde una simple que se genera sumando el valor
-de todos los bytes de datos transmitidos,
-pasando por los <a class="reference external" href="https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica" rel="noopener noreferrer" target="_blank">códigos de redundancia cíclica o CRC</a>,
-hasta las funciones hash más avanzadas como la <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Hash_Algorithm" rel="noopener noreferrer" target="_blank">SHA</a>,
-que pueden detectar no solo errores aleatorios de transmisión,
-sino errores provocados a propósito por los ciberdelincuentes para añadir
-virus a un archivo informático.</p>
-<p>Estas sumas de verificación son muy utilizadas en telecomunicaciones y
-en soportes digitales tales como el CD-ROM o las memorias flash.</p>
+también llamada checksum, es un dato añadido a los datos de información
+que tiene como objetivo detectar errores de transmisión con mayor
+exactitud que un simple bit de paridad.</p>
+<p>Existen varias versiones:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Sumar el valor de todos los bytes de información transmitidos.
+Es la versión más simple de realizar y la menos capaz de detectar
+errores.</li>
+<li><a class="reference external" href="https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica" rel="noopener noreferrer" target="_blank">Códigos de redundancia cíclica o CRC</a>.
+Son códigos que suelen tener una longitud de 16 ó 32 bits y que son
+capaces de detectar más errores que una simple suma.
+Como contrapartida, su cálculo es más complejo.</li>
+<li>Funciones hash avanzadas, como la <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Hash_Algorithm" rel="noopener noreferrer" target="_blank">SHA</a>.
+Son códigos que suelen tener una longitud de más de 128 bits
+(16 bytes) y muy costosos de calcular.
+Por otro lado son los más potentes y sirven para detectar
+errores aleatorios y también errores introducidos a propósito por
+un ciberdelincuente.</li>
+</ol>
+</div></blockquote>
+<p>Estas sumas de verificación son muy utilizadas en líneas de comunicación
+a distancia y en soportes digitales tales como el CD-ROM o las memorias
+USB.</p>
 </div>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
@@ -164,8 +176,20 @@ de transmisión de datos?</p>
 <a class="reference internal image-reference" href="_images/electronic-error-detection-02.png"><img alt="Datos con bits de paridad y con errores." src="_images/electronic-error-detection-02.png" style="width: 340px;"></a>
 </div>
 </li>
+<li><p class="first">Escribe el bit de paridad correspondiente a los siguientes números
+binarios:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span>
+
+<span class="mi">1</span> <span class="mi">1</span> <span class="mi">1</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span>
+
+<span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span>
+
+<span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span>
+</pre></div>
+</div>
+</li>
 <li><p class="first">¿Qué es un código checksum?</p>
-<p>Enumera tres tipos de checksum.</p>
+<p>Enumera tres tipos de checksum distintos.</p>
 <p>Escribe dos ejemplos de sistemas que utilicen el código checksum.</p>
 </li>
 </ol>
@@ -181,7 +205,7 @@ de transmisión de datos?</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-bornas-index.html" class="btn btn-neutral float-right" title="Wiring of electronic components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-error-correction.html" class="btn btn-neutral float-right" title="3. Corrección de de errores" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="electronic-digital-signals.html" class="btn btn-neutral" title="1. digital signals" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -278,6 +302,8 @@ de transmisión de datos?</p>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. digital signals</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">2. Detección de errores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Corrección de de errores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. El sistema binario</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>

@@ -60,7 +60,7 @@ Ejercicios
 
 #. Escribe un programa que calcule e imprima la media de tres notas:
    5, 8, 9.
-   
+
    Pista: deberás sumar todas las notas dentro de un paréntesis y después
    dividir el resultado entre 3.
 

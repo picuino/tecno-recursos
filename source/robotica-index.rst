@@ -5,7 +5,7 @@
 .. _robotica-index:
 
 **********
- Robótica 
+ Robótica
 **********
 
 Control de Sistemas Automáticos y Robótica.

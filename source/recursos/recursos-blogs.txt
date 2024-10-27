@@ -28,14 +28,14 @@ Los números más pequeños se colocan primeros en la lista.
    {% else -%}
       {% set rank = 'Sin datos.' -%}
    {% endif -%}
-   
+
    {% set visitas = web.visitas -%}
    {% if visitas is number and visitas >= 5 -%}
       {% set visitas = '{} k'.format(visitas) -%}
    {% else -%}
       {% set visitas = 'Sin datos.' -%}
    {% endif -%}
-   
+
 
 
    {% set title =  web.webname + ' <' + web.url + '>' -%}

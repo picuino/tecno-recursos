@@ -31,7 +31,7 @@ La última versión se distribuye con licencia CC BY.
 
 
 
-Colores de las páginas web 
+Colores de las páginas web
 --------------------------
 * `Colores web <https://es.wikipedia.org/wiki/Colores_web>`__
 
@@ -43,7 +43,7 @@ Colores de las páginas web
    * `Brand Colors <https://brandcolors.net/>`__
 
 
-Herramientas y tutoriales para CSS 
+Herramientas y tutoriales para CSS
 ----------------------------------
 
 * `CSS a fondo <https://desarrolloweb.com/css/>`_

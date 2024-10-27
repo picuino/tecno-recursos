@@ -325,13 +325,13 @@ Ejercicios
 
          // Encender el led 1 si la distancia es mayor de 40mm
          if (distance > 40)
-	    pio.ledWrite(1, LED_ON);
+            pio.ledWrite(1, LED_ON);
          else
-	    pio.ledWrite(1, LED_OFF);
+            pio.ledWrite(1, LED_OFF);
 
-	     // Enciende el led 2 si la distancia es mayor de 80mm
+         // Enciende el led 2 si la distancia es mayor de 80mm
          if (distance > 80)
-	    pio.ledWrite(1, LED_ON);
-	 else
-	    pio.ledWrite(1, LED_OFF);
+            pio.ledWrite(1, LED_ON);
+         else
+            pio.ledWrite(1, LED_OFF);
       }

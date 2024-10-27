@@ -118,7 +118,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 28 k
 
-   Web creada por Pedro Landín, del departamento de Tecnología del 
+   Web creada por Pedro Landín, del departamento de Tecnología del
    Sagrado Corazón de Placeres.
 
 
@@ -137,7 +137,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 26 k
 
-   Blog creado en el departamento de Tecnología del IES Luis Vélez 
+   Blog creado en el departamento de Tecnología del IES Luis Vélez
    de Guevara, Écija.
 
 
@@ -189,10 +189,10 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 78 k
 
-   Web del movimiento Marea Verde, con apuntes y libros de muchas 
+   Web del movimiento Marea Verde, con apuntes y libros de muchas
    materias, incluida la materia de Tecnología.
 
-   El ranking de esta web tiene una penalización debido a que 
+   El ranking de esta web tiene una penalización debido a que
    tiene mucho tráfico dedicado a otras materias distintas a la
    Tecnología.
 
@@ -212,7 +212,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 12 k
 
-   Web del IES Villalba Hervás, IES Antonio Glez. Glez. y el IES 
+   Web del IES Villalba Hervás, IES Antonio Glez. Glez. y el IES
    Tegueste.
    Creado por nueve docentes de Tecnología en el que desde marzo de
    2008 publican apuntes, actividades, proyectos, etc.
@@ -263,7 +263,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 8 k
 
-   José Manuel Panadero es el autor de esta página web, que se 
+   José Manuel Panadero es el autor de esta página web, que se
    caracteriza por sus numerosas propuestas para la asignatura de
    Tecnología.
 
@@ -343,7 +343,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - Sin datos.
 
-   Blog creado por Amelia Tierno (docente de Tecnología en IES 
+   Blog creado por Amelia Tierno (docente de Tecnología en IES
    Ignacio Ellacuría en Alcalá de Henares).
 
 
@@ -1076,7 +1076,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - Sin datos.
 
-   Web creada por G. Ibán de la Horra, disponible en inglés y 
+   Web creada por G. Ibán de la Horra, disponible en inglés y
    castellano.
 
 
@@ -1095,7 +1095,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - Sin datos.
 
-   Blog creado por el departamento de Tecnología del IES Virgen de 
+   Blog creado por el departamento de Tecnología del IES Virgen de
    Villadiego de Peñaflor en Sevilla.
 
 

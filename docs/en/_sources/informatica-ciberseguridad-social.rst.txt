@@ -45,7 +45,7 @@ comunes incluyen:
    más. Pueden utilizar esta identidad falsa para establecer relaciones
    románticas o de amistad con personas genuinas, con la intención de
    manipularlas emocionalmente o conseguir dinero.
-   
+
 2. **Engaño en citas en línea**: En sitios de citas o aplicaciones
    móviles, los estafadores pueden crear perfiles falsos para atraer a
    otras personas y establecer relaciones. Pueden utilizar fotos
@@ -53,12 +53,12 @@ comunes incluyen:
    ganarse la confianza de sus víctimas. Una vez que establecen una
    conexión, pueden intentar extorsionar dinero o incluso poner en
    peligro la seguridad personal de la víctima.
-   
+
 3. **Fraudes financieros**: Los estafadores también pueden utilizar
    el catfishing para cometer fraudes financieros, como solicitar
    donaciones caritativas falsas, vender productos inexistentes o robar
    información personal y financiera de sus víctimas.
-   
+
 Es importante que todos comprendamos los peligros del catfishing y
 seamos conscientes de cómo protegerse en línea, como verificar la
 autenticidad de las personas con las que interactúan y no compartir
@@ -81,16 +81,16 @@ Ejemplos de ciberacoso incluyen:
    difamar o compartir rumores maliciosos sobre alguien en plataformas
    como Instagram, Snapchat o Twitter. Esto puede incluir la creación
    de perfiles falsos para acosar a la víctima de forma anónima.
-   
+
 2. **Amenazas a través de mensajes electrónicos**: Enviar mensajes
    de texto, correos electrónicos o mensajes directos en redes sociales
    con amenazas de violencia física, daño emocional o difusión de
    información privada o comprometedora.
-   
+
 3. **Suplantación de identidad**: Utilizar las credenciales de
    acceso de otra persona para acceder a sus cuentas en línea y
    publicar contenido humillante o dañino en su nombre.
-   
+
 4. **Difusión de imágenes o vídeos vergonzosos**: Compartir imágenes
    o vídeos comprometedores de la víctima sin su consentimiento, con el
    objetivo de avergonzarla o ridiculizarla públicamente.
@@ -117,17 +117,17 @@ Ejemplos de grooming incluyen:
 1. **Creación de confianza**: El agresor puede fingir interés en los
    intereses, pasatiempos o problemas del niño o adolescente, ganándose
    su confianza y creando una relación de amistad o incluso de romance.
-   
+
 2. **Manipulación emocional**: El agresor puede utilizar tácticas
    manipuladoras para ganar el afecto y la lealtad del niño o
    adolescente, como ofrecer regalos, atención excesiva o promesas
    falsas de amor y apoyo.
-   
+
 3. **Sextorsión**: El agresor puede persuadir al niño o adolescente
    para que comparta imágenes o vídeos sexualmente explícitos de sí
    mismo, y luego usar estas imágenes como chantaje para obligarlo a
    realizar más actos sexuales o para mantenerlo en silencio.
-   
+
 4. **Encuentros físicos**: Una vez que se ha establecido una
    relación en línea, el agresor puede intentar organizar un encuentro
    en persona con el niño o adolescente, con el fin de abusar
@@ -159,18 +159,18 @@ Ejemplos de hoaxes incluyen:
    receptores a reenviar el mensaje a todos sus contactos para evitar
    alguna amenaza inexistente, como virus informáticos o fraudes
    financieros.
-   
+
 2. **Noticias falsas**: Publicaciones en redes sociales o sitios web
    que difunden información inventada o exagerada para generar clics o
    manipular la opinión pública. Estas noticias pueden incluir
    afirmaciones sin fundamento sobre eventos actuales, políticos o
    sociales.
-   
+
 3. **Ofertas falsas**: Anuncios que prometen regalos gratuitos,
    premios o descuentos increíbles, pero que en realidad son un cebo
    para engañar a las personas y obtener su información personal o
    financiera.
-   
+
 4. **Alertas de seguridad falsas**: Mensajes que advierten sobre
    supuestas amenazas de seguridad, como virus informáticos,
    ciberdelincuentes o peligros en la red, pero que carecen de base
@@ -184,7 +184,7 @@ reducir el impacto de la desinformación en la sociedad.
 
 
 5. :index:`Ingeniería social`
------------------------------  
+-----------------------------
 La `ingeniería social <https://es.wikipedia.org/wiki/Ingenier%C3%ADa_social_(seguridad_inform%C3%A1tica)>`__
 es una técnica utilizada por ciberdelincuentes
 para manipular psicológicamente a las personas y persuadirlas a
@@ -201,18 +201,18 @@ Ejemplos de ingeniería social incluyen:
    instituciones o individuos de confianza, solicitando información
    confidencial como contraseñas, números de tarjetas de crédito o
    datos personales.
-   
+
 2. **Pretexting**: Los ingenieros sociales inventan una historia
    falsa o una situación creíble para obtener información confidencial
    de una persona. Por ejemplo, pueden hacerse pasar por empleados de
    servicio al cliente o técnicos de soporte técnico para obtener
    acceso a sistemas o redes internas.
-   
+
 3. **Ingeniería social en redes sociales**: Los atacantes pueden
    crear perfiles falsos en redes sociales para establecer conexiones
    con personas y luego utilizar esa relación para obtener información
    confidencial o comprometer sus cuentas en línea.
-   
+
 4. **Dumpster Diving**: Los ingenieros sociales pueden buscar
    información confidencial en la **basura** de una empresa o
    institución, como documentos impresos, discos duros viejos o
@@ -245,19 +245,19 @@ Ejemplos de phishing incluyen:
    falsificaciones de empresas conocidas. Estos correos suelen incluir
    enlaces a sitios web falsos donde se les pide a las víctimas que
    ingresen sus datos personales, como nombres de usuario y contraseñas.
-   
+
 2. **Mensajes de texto engañosos**: Los ciberdelincuentes también
    pueden enviar mensajes de texto falsos que instan a las personas a
    hacer clic en enlaces maliciosos o responder con información
    confidencial, bajo la apariencia de ser de una entidad legítima,
    como una empresa de servicios públicos o una empresa de entrega.
-   
+
 3. **Sitios web falsos**: Los atacantes crean sitios web
    falsificados que imitan a sitios legítimos, como los de bancos o
    tiendas en línea populares. Estos sitios engañan a las personas para
    que ingresen su información personal o financiera, que luego es
    robada por los delincuentes.
-   
+
 4. **Phishing por teléfono**: Algunos estafadores utilizan llamadas
    telefónicas para hacerse pasar por empleados de empresas legítimas y
    solicitar información confidencial por teléfono, como números de
@@ -289,19 +289,19 @@ Ejemplos de robo de identidad incluyen:
    datos bancarios o tarjetas de crédito de una persona y utilizar esa
    información para realizar compras fraudulentas en línea o en tiendas
    físicas, o para vaciar su cuenta bancaria.
-   
+
 2. **Suplantación de identidad en línea**: Un estafador puede
    utilizar la información personal de alguien más para crear cuentas
    falsas en redes sociales, aplicaciones de citas o servicios en
    línea. Esto puede resultar en la difusión de información falsa, el
    acoso a otras personas o la comisión de otros delitos.
-   
+
 3. **Robo de información personal**: Los delincuentes pueden robar
    documentos físicos como pasaportes, licencias de conducir o el DNI
    para utilizar esa información en actividades fraudulentas, como
    abrir cuentas bancarias, solicitar créditos o realizar compras a
    nombre de la víctima.
-   
+
 4. **Fraude de impuestos**: Los estafadores pueden presentar
    declaraciones de impuestos falsas utilizando la información personal
    de otras personas para obtener reembolsos fraudulentos.
@@ -328,17 +328,17 @@ Ejemplos de sexting incluyen:
 1. **Envío de imágenes sexualmente explícitas**: Una persona puede
    enviar una fotografía o vídeo de sí misma desnuda o semidesnuda a su
    pareja, con la intención de expresar su atracción o deseo sexual.
-   
+
 2. **Intercambio de mensajes sugestivos**: Dos personas pueden
    enviar mensajes de texto o de voz que contienen contenido
    sexualmente explícito o provocativo, como descripciones detalladas
    de fantasías sexuales o deseos íntimos.
-   
+
 3. **Compartir imágenes comprometedoras**: En algunos casos, las
    imágenes o vídeos enviados durante el sexting pueden ser compartidos
    sin el consentimiento de la persona que los envió, lo que puede
    llevar a situaciones de vergüenza, humillación o acoso cibernético.
-   
+
 4. **Sexting no consensuado**: En ocasiones, una persona puede
    recibir mensajes o imágenes sexuales no deseados o no solicitados,
    lo que puede causar incomodidad, estrés emocional o angustia.
@@ -371,18 +371,18 @@ Ejemplos de sextorsión incluyen:
    de dinero. Esta extorsión puede llevar a la víctima a pagar grandes
    sumas de dinero para evitar la vergüenza y la humillación de que se
    divulguen las imágenes o vídeos.
-   
+
 2. **Exigencia de más material sexual**: El chantajista puede exigir
    que la víctima le envíe más imágenes o vídeos sexuales a cambio de
    no divulgar el material comprometedor que ya tiene en su poder. Esta
    situación puede atrapar a la víctima en un ciclo de chantaje
    continuo.
-   
+
 3. **Coacción para realizar actos sexuales**: Algunos chantajistas
    amenazan con divulgar el material comprometedor a menos que la
    víctima acceda a tener encuentros sexuales con ellos en persona o a
    través de videoconferencias.
-   
+
 4. **Amenazas de daño físico o emocional**: En casos extremos, los
    chantajistas pueden amenazar con hacerle daño físico a la víctima o
    a sus seres queridos si no cumplen con sus demandas.
@@ -413,14 +413,14 @@ Ejemplos de smishing incluyen:
    persona haga clic en un enlace proporcionado y proporcione
    información confidencial, como números de cuenta bancaria o
    contraseñas.
-   
+
 2. **Notificaciones de premios falsos**: Los delincuentes envían
    mensajes de texto que informan a la víctima que han ganado un premio
    o un regalo, pero para reclamarlo, deben proporcionar información
    personal o pagar una tarifa. En realidad, no hay ningún premio y la
    información solicitada se utiliza para robar identidades o cometer
    fraudes financieros.
-   
+
 3. **Supuestas alertas de seguridad**: Los estafadores envían
    mensajes de texto que advierten a la persona sobre una supuesta
    actividad sospechosa en su cuenta o dispositivo móvil, y les
@@ -454,18 +454,18 @@ Ejemplos de spam incluyen:
    deseada, ofertas de productos o servicios dudosos, solicitudes de
    donaciones falsas o incluso estafas de phishing que intentan engañar
    a la víctima para que revele información personal o financiera.
-   
+
 2. **Comentarios spam en redes sociales**: Publicaciones o
    comentarios automáticos que se generan con el fin de promocionar
    productos, servicios o sitios web. Estos comentarios pueden ser
    irrelevantes para la conversación o contener enlaces maliciosos que
    redirigen a los usuarios a sitios web fraudulentos.
-   
+
 3. **Mensajes de texto no solicitados**: Envío masivo de mensajes de
    texto que promocionan productos, servicios o campañas políticas, a
    menudo sin el consentimiento previo del receptor y con el objetivo
    de generar ventas o tráfico hacia un sitio web específico.
-   
+
 4. **Spam en foros y grupos en línea**: Publicaciones repetitivas y
    no deseadas en foros de discusión, grupos de redes sociales o salas
    de chat, que pueden incluir enlaces a contenido malicioso, mensajes
@@ -496,21 +496,21 @@ Ejemplos de web spoofing incluyen:
    usuarios intentan iniciar sesión en estas páginas falsas, sus
    credenciales de inicio de sesión son robadas y utilizadas por los
    delincuentes.
-   
+
 2. **Sitios web de compras falsificados**: Los estafadores pueden
    crear sitios web falsificados que imitan a tiendas en línea
    legítimas, ofreciendo productos a precios muy bajos para atraer a
    los usuarios. Una vez que los usuarios realizan compras en estos
    sitios falsos, no reciben los productos y sus datos de tarjeta de
    crédito pueden ser robados.
-   
+
 3. **Páginas de phishing de correo electrónico**: Los delincuentes
    pueden enviar correos electrónicos de phishing que contienen enlaces
    a páginas web falsificadas. Estos correos electrónicos suelen
    solicitar información confidencial, como contraseñas o números de
    seguridad social, bajo el pretexto de una actualización de cuenta o
    un problema de seguridad.
-   
+
 4. **Páginas de descargas fraudulentas**: Algunos sitios web
    falsificados ofrecen descargas de software, películas u otros
    archivos, pero en realidad contienen malware que infecta el
@@ -544,20 +544,20 @@ Ejemplos de email spoofing incluyen:
    estafador podría enviar un correo electrónico haciéndose pasar por
    un banco, solicitando que el destinatario haga clic en un enlace y
    proporcione información personal o financiera.
-   
+
 2. **Ataques de CEO**: En un tipo de email spoofing conocido como
    "ataque de CEO", los delincuentes falsifican la dirección de correo
    electrónico del director u otro alto ejecutivo de una empresa y
    envían mensajes a empleados de la organización solicitando
    transferencias de fondos o revelando información confidencial.
-   
+
 3. **Falsificación de direcciones de correo electrónico personal**:
    Los spammers pueden falsificar direcciones de correo electrónico
    personales, haciéndolas aparecer como si provinieran de amigos,
    familiares o conocidos. Esto puede llevar a que las personas abran
    el mensaje pensando que es legítimo, cuando en realidad es spam o
    contiene malware.
-   
+
 4. **Spoofing de dirección de remitente en correos masivos**: Los
    spammers utilizan el email spoofing para enviar correos masivos con
    la dirección de remitente falsificada, haciéndolos parecer que
@@ -590,18 +590,18 @@ Ejemplos de stalking incluyen:
    su consentimiento. Esto puede incluir el envío de mensajes no
    deseados, comentarios inapropiados o la creación de perfiles falsos
    para monitorear a la víctima.
-   
+
 2. **Vigilancia física**: El acosador puede seguir a la víctima en
    persona, aparecer repetidamente en lugares donde sabe que estará o
    incluso vigilar su hogar u lugar de trabajo sin su conocimiento.
    Esto puede hacer que la víctima se sienta constantemente observada y
    amenazada.
-   
+
 3. **Acoso telefónico o digital**: El acosador puede realizar
    llamadas telefónicas no deseadas, enviar mensajes de texto, correos
    electrónicos o mensajes en redes sociales de manera persistente,
    acosando, amenazando o intentando controlar a la víctima.
-   
+
 4. **Amenazas y violencia**: En casos extremos, el stalking puede
    escalar hacia comportamientos más peligrosos, como amenazas de
    violencia física, agresión o incluso agresiones sexuales.
@@ -615,7 +615,7 @@ acosados o amenazados en línea o fuera de línea.
 
 15. :index:`Typosquatting`
 --------------------------
-El `typosquatting 
+El `typosquatting
 <https://es.wikipedia.org/wiki/Allanamiento_de_error_tipogr%C3%A1fico>`__
 es una técnica utilizada por ciberdelincuentes para
 aprovecharse de errores comunes de escritura o "typos" al escribir
@@ -630,18 +630,18 @@ Ejemplos de typosquatting incluyen:
    nombre de dominio como "gogle.com" en lugar de "google.com",
    aprovechándose del error común de escribir "gogle" en lugar de
    "google".
-   
+
 2. **Adición o eliminación de letras**: Crear nombres de dominio
    como "facbook.com" o "facebok.com" en lugar de "facebook.com",
    confiando en que los usuarios puedan cometer errores al escribir la
    dirección del sitio web.
-   
+
 3. **Uso de extensiones de dominio alternativas**: Los
    ciberdelincuentes pueden registrar nombres de dominio con
    extensiones de dominio alternativas, como ".cm" en lugar de ".com",
    sabiendo que los usuarios pueden omitir o confundir la extensión
    correcta.
-   
+
 4. **Inclusión de guiones o números**: Crear nombres de dominio con
    la adición de guiones o números, como "face-book.com" o
    "f4cebook.com", para confundir a los usuarios y dirigirlos a sitios
@@ -675,21 +675,21 @@ Ejemplos de vishing incluyen:
    sobre problemas con cuentas bancarias o tarjetas de crédito, con el
    objetivo de engañar a las personas para que revelen información
    personal.
-   
+
 2. **Suplantación de identidad**: Los estafadores pueden hacerse
    pasar por representantes de instituciones legítimas, como bancos,
    empresas conocidas o agencias gubernamentales, y solicitar
    información confidencial bajo pretextos falsos.
    Pueden utilizar técnicas de manipulación psicológica para persuadir
    a las personas de que proporcionen detalles financieros o personales.
-   
+
 3. **Amenazas de acciones legales o penales**: Algunos estafadores
    utilizan tácticas intimidatorias para asustar a las personas,
    haciéndoles creer que enfrentan acciones legales o penales si no
    proporcionan información solicitada. Esto puede incluir falsas
    reclamaciones de deudas pendientes, impuestos impagos o problemas
    con cuentas bancarias.
-   
+
 4. **Ofertas de empleo fraudulentas**: Los delincuentes pueden hacer
    llamadas telefónicas ofreciendo oportunidades de trabajo falsas o
    esquemas de inversión engañosos, con el objetivo de obtener
@@ -724,20 +724,20 @@ Ejemplos de whaling incluyen:
    bancarias, enviar información confidencial o instruir a los
    empleados para que realicen acciones que comprometan la seguridad de
    la empresa.
-   
+
 2. **Ataques de spear phishing personalizados**: Los whalers
    utilizan técnicas de phishing altamente personalizadas para
    crear mensajes convincentes y creíbles dirigidos a personas
    específicas dentro de la organización. Estos mensajes pueden
    contener información detallada sobre la empresa o el individuo
    para aumentar la probabilidad de éxito del ataque.
-   
+
 3. **Fraude de CEO**: En un tipo de ataque de whaling conocido como
    "fraude de CEO", los delincuentes suplantan la identidad del CEO o
    de otro alto ejecutivo y envían mensajes a empleados de la empresa
    solicitando transferencias financieras urgentes o revelando
    información confidencial.
-   
+
 4. **Infiltración de redes corporativas**: Algunos ataques de
    whaling tienen como objetivo comprometer las redes corporativas
    mediante la obtención de credenciales de acceso o la instalación de

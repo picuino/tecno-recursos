@@ -5,7 +5,7 @@
 .. _mecan-neumatic-index:
 
 ***********
- Neumática 
+ Neumática
 ***********
 
 Automatismos neumáticos con simulador online.

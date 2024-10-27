@@ -166,7 +166,7 @@ engranaje.
 
    N_{2} = 1500 \: rpm
 
-El engranaje 1 conectado al motor es el que gira más rápido y, por lo 
+El engranaje 1 conectado al motor es el que gira más rápido y, por lo
 tanto, es el engranaje más pequeño de los dos. Ahora vamos a escoger
 un tamaño para este engranaje pequeño, que sea igual o mayor de 8 dientes.
 
@@ -195,5 +195,5 @@ Por último despejamos la ecuación y calculamos el valor de la incógnita.
 
    Z_{2} = 60 \: dientes
 
-El número de dientes del segundo engranaje conectado a la rueda será 
+El número de dientes del segundo engranaje conectado a la rueda será
 de 60 dientes.

@@ -411,7 +411,7 @@ contextos de seguridad informática.
 
 12. :index:`Encriptar y desencriptar`
 -------------------------------------
-`Encriptar y desencriptar 
+`Encriptar y desencriptar
 <https://es.wikipedia.org/wiki/Criptograf%C3%ADa>`__
 son procesos fundamentales en la seguridad
 de la información que se utilizan para proteger y acceder a datos
@@ -588,7 +588,7 @@ seguros, como SHA.
 
 17. :index:`PIN`
 ----------------
-Un `PIN, o Número de Identificación Personal, 
+Un `PIN, o Número de Identificación Personal,
 <https://es.wikipedia.org/wiki/N%C3%BAmero_de_identificaci%C3%B3n_personal>`__
 es un código numérico
 utilizado para autenticar la identidad de un usuario o autorizar el
@@ -740,7 +740,7 @@ remitente legítimo.
 
 21. :index:`SHA`
 ----------------
-`SHA, o Secure Hash Algorithm, 
+`SHA, o Secure Hash Algorithm,
 <https://es.wikipedia.org/wiki/Secure_Hash_Algorithm>`__
 es una familia de algoritmos
 criptográficos utilizados para producir un valor hash único y fijo
@@ -813,7 +813,7 @@ gestionar sistemas de forma remota de manera segura y protegida.
 
 23. :index:`SSL (Secure socket layer)`
 --------------------------------------
-`SSL, o Secure Socket Layer, 
+`SSL, o Secure Socket Layer,
 <https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte>`__
 es un protocolo de seguridad utilizado
 para establecer conexiones seguras a través de Internet. Su función
@@ -888,7 +888,7 @@ seguras para cada cuenta.
 
 25. :index:`TLS (Transport Layer Security)`
 -------------------------------------------
-`TLS, o Transport Layer Security, 
+`TLS, o Transport Layer Security,
 <https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte>`__
 es un protocolo de seguridad
 utilizado para establecer conexiones seguras a través de Internet.
@@ -922,7 +922,7 @@ Transfer Protocol Secure) para la transferencia de archivos segura.
 
 26. :index:`WPA (acceso Wi-Fi protegido)`
 -----------------------------------------
-`WPA, o Wi-Fi Protected Access, 
+`WPA, o Wi-Fi Protected Access,
 <https://es.wikipedia.org/wiki/Wi-Fi_Protected_Access>`__
 es un estándar de seguridad diseñado
 para proteger las redes Wi-Fi contra accesos no autorizados y

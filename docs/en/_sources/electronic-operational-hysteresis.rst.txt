@@ -26,13 +26,13 @@ Funcionamiento
 El circuito sin la resistencia R2 funciona igual que un comparador
 tradicional, que compara la tensión 'Vin' con la tensión de tierra.
 
-Al añadir la resistencia R2, añadimos realimentación positiva, porque 
+Al añadir la resistencia R2, añadimos realimentación positiva, porque
 R2 va conectada entre la salida y el terminal de entrada positivo.
 Esta realimentación positiva tiene el resultado de reforzar la tensión
 de salida.
 
-Si la salida es positiva, el terminal de entrada V+ será positivo y 
-la tensión de entrada Vin tendrá que ser mayor que cero para 
+Si la salida es positiva, el terminal de entrada V+ será positivo y
+la tensión de entrada Vin tendrá que ser mayor que cero para
 conseguir que la salida vuelva a ser negativa.
 
 Por el contrario si la salida es negativa, el terminal de entrada V+ será
@@ -67,21 +67,21 @@ Si en ese caso disminuimos el valor de la temperatura en R3, el led
 terminará encendiéndose para que la temperatura del recinto aumente.
 
 Si retiramos la resistencia R4, el circuito es un comparador tradicional
-que compara la tensión de referencia de R1 con la tensión de R2 y R3, que 
+que compara la tensión de referencia de R1 con la tensión de R2 y R3, que
 son un sensor de temperatura.
 
 Con R4 conectada, las temperaturas de encendido y de apagado no coinciden,
-sino que están separadas varios grados, lo que se denomina temperatura 
+sino que están separadas varios grados, lo que se denomina temperatura
 de **histéresis**.
 
-Si ambas temperaturas de encendido y de apagado coincidieran, la 
-calefacción se encendería y se apagaría continuamente, con mucha 
+Si ambas temperaturas de encendido y de apagado coincidieran, la
+calefacción se encendería y se apagaría continuamente, con mucha
 frecuencia, y eso podría dañarla.
 
 
 Ejercicios
 ----------
-#. ¿En qué se diferencia el comparador con histéresis del comparador 
+#. ¿En qué se diferencia el comparador con histéresis del comparador
    tradicional?
    Explica las diferencias de funcionamiento y de diseño del circuito.
 
@@ -89,7 +89,7 @@ Ejercicios
 
 #. ¿Qué es mayor en este circuito simulado, la temperatura de encendido
    o la temperatura de apagado?
-   
+
    ¿En un refrigerador qué será mayor, la temperatura de encendido o la
    de apagado del refrigerador? Justifica tu respuesta.
 
@@ -106,7 +106,7 @@ Ejercicios
 #. Cambia la resistencia R4 a un valor menor (100k).
    ¿Qué ocurre con la histéresis?
 
-   Cambia la resistencia R4 a un valor mayor (800k). 
+   Cambia la resistencia R4 a un valor mayor (800k).
    ¿Qué ocurre con la histéresis?
 
 #. ¿Qué ventajas y qué inconvenientes tiene utilizar una menor histéresis

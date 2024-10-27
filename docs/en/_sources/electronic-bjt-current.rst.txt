@@ -26,7 +26,7 @@ enviar información inmune al ruido eléctrico, etc.
    :width: 100px
    :align: center
    :alt: Símbolo de una fuente de corriente constante.
-   
+
    Símbolo de una fuente de corriente constante.
 
 
@@ -84,7 +84,7 @@ Ejercicios
 
 #. Dibuja un esquema simplificado de una fuente de corriente constante
    basada en transistores NPN.
-   
+
    Dibuja al lado el símbolo de la fuente de corriente constante.
 
 #. Dibuja un esquema realista de una fuente de corriente constante

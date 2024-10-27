@@ -140,7 +140,7 @@ Obtención de la madera
 
    También se pueden laminar los troncos con una cuchilla
    para obtener chapas de madera.
-   
+
    Vídeo: `Torno Laminador
    <https://www.youtube-nocookie.com/embed/IN2su7iVmw8>`__
 
@@ -219,7 +219,7 @@ Derivados de la madera
   El cartón corrugado está formado por varias láminas de papel pegadas
   entre sí, con la lámina central ondulada.
 
-  Vídeo: `El cartón corrugado. 
+  Vídeo: `El cartón corrugado.
   <https://www.youtube-nocookie.com/embed/GeZDRN8PT3c>`__
 
 

@@ -157,7 +157,7 @@ circuitos con una pequeña señal de baja tensión.
 Ejercicios
 ----------
 
-1.	¿Qué es un relé y para qué sirve?
+1. ¿Qué es un relé y para qué sirve?
 
 #. Dibuja el esquema de un relé que encienda una bombilla de 125 Voltios
    desde un pulsador alimentado a 24V.

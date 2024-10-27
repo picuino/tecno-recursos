@@ -68,12 +68,12 @@ Aplicaciones de los tornillos
 Uniones desmontables
    Una de las aplicaciones de los tornillos consiste en realizar
    uniones desmontables.
-   
+
    Por ejemplo la carcasa de un ordenador está unida con tornillos.
 
 Mecanismos que avanzan con precisión
    Los tornillos permiten realizar movimientos de mucha precisión.
-   
+
    Por ejemplo un tornillo de un grifo giratorio permite abrir el
    paso de agua con mucha precisión.
    Otro ejemplo son las sillas a tornillo que se pueden subir o bajar
@@ -82,7 +82,7 @@ Mecanismos que avanzan con precisión
 Mecanismos para mover con fuerza
    Otra gran aplicación de los tornillos es construir mecanismos
    que avanzan con mucha **fuerza**.
-   
+
    Por ejemplo, el mecanismo de un gato mecánico para levantar automóviles
    está basado en un tornillo que mueve unas tijeras.
 
@@ -91,19 +91,19 @@ Mecanismos para mover con fuerza
             mueve el mecanismo.
       :align: center
       :width: 480px
-   
+
       Gato mecánico para levantar automóviles,
       con un tornillo que mueve el mecanismo.
-   
+
       `Interiot <https://commons.wikimedia.org/wiki/File:Jackscrew.gif>`__
       Public Domain via Wikimedia Commons.
 
 
 Cálculo de tornillos
 --------------------
-Los parámetros de un tornillo son su **paso** o distancia entre dos 
+Los parámetros de un tornillo son su **paso** o distancia entre dos
 filetes, el número de vueltas de **giro** y el **avance** lineal que
-se consigue al girar. 
+se consigue al girar.
 La fórmula que relaciona estas variables es la siguiente.
 
 .. math::

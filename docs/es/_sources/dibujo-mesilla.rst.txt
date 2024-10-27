@@ -19,8 +19,8 @@ cuadrados de la pauta en el dibujo representa 20 milímetros en la realidad.
    :width: 240px
    :align: center
    :alt: Plano de conjunto de la mesilla de noche en perspectiva isométrica.
-   
-   
+
+
 |  :download:`Plano de conjunto de la mesilla de noche en perspectiva. Formato PDF.
    <dibujo/dibujo-design/dibujo-design-conjunto-mesilla.pdf>`
 
@@ -29,8 +29,8 @@ cuadrados de la pauta en el dibujo representa 20 milímetros en la realidad.
    :width: 240px
    :align: center
    :alt: Plano de despiece de la mesilla de noche.
-   
-   
+
+
 |  :download:`Plano de despiece de la mesilla de noche. Formato PDF.
    <dibujo/dibujo-design/dibujo-design-despiece-mesilla.pdf>`
 
@@ -46,10 +46,10 @@ como planos de vistas.
    :alt: Plantilla para realizar planos de conjunto en perspectiva isométrica.
 
 |  :download:`Plantilla para realizar planos de conjunto en perspectiva
-   isométrica. Formato PDF. 
+   isométrica. Formato PDF.
    <dibujo/dibujo-design/dibujo-design-conjunto-plantilla.pdf>`
 |  :download:`Plantilla para realizar planos de conjunto en perspectiva
-   isométrica. Formato SVG. 
+   isométrica. Formato SVG.
    <dibujo/dibujo-design/dibujo-design-conjunto-plantilla.svg>`
 
 
@@ -57,8 +57,8 @@ como planos de vistas.
    :width: 240px
    :align: center
    :alt: Plantilla para realizar planos de despiece.
-   
-   
+
+
 |  :download:`Plantilla para realizar planos de despiece. Formato PDF.
    <dibujo/dibujo-design/dibujo-design-despiece-plantilla.pdf>`
 |  :download:`Plantilla para realizar planos de despiece. Formato SVG.

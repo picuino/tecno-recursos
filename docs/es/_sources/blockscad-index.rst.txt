@@ -45,5 +45,5 @@ Para realizar este tutorial se ha utilizado el
    blockscad-coponieve.rst
    blockscad-calabaza.rst
    blockscad-dado.rst
-   
+
    blockscad-snowman.rst

@@ -104,7 +104,7 @@ comportarán los materiales ante el calor y ante la electricidad.
       Materiales con mucha conductividad térmica se utilizarán para
       fabricar radiadores, utensilios de cocina, etc.
 
-      Materiales con poca conductividad térmica, también llamados 
+      Materiales con poca conductividad térmica, también llamados
       **aislantes**, se utilizarán para aislar las casas de la temperatura
       exterior o para fabricar mangos de sartenes, cacerolas, etc.
 
@@ -370,7 +370,7 @@ medioambientales.
       Un material es biodegradable si se descompone en la naturaleza con
       relativa facilidad y sin producir productos tóxicos.
 
-      La madera y sus derivados como el cartón y papel son muy 
+      La madera y sus derivados como el cartón y papel son muy
       biodegradables.
 
       Los plásticos son muy poco biodegradables.

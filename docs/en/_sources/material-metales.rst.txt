@@ -370,7 +370,7 @@ Metales nobles
 
 Precio de los metales
 ---------------------
-Hay varias referencias, pero la más prestigiosa es la 
+Hay varias referencias, pero la más prestigiosa es la
 `bolsa de Londres <https://www.lme.com/>`__.
 Estos precios corresponden al cierre en bolsa sobre el metal puro
 a día 5 de junio de 2024.
@@ -379,15 +379,15 @@ a día 5 de junio de 2024.
 Metal               Precio €/kg
 ==================  =============
 Hierro / acero [1]      0,52
-Plomo	                2,18
-Aluminio	            2,58
-Zinc	                2,82
+Plomo                   2,18
+Aluminio                2,58
+Zinc                    2,82
 Titanio                 6,47
-Cobre	                9,77
+Cobre                   9,77
 Litio                  13,83
-Níquel	               18,34
+Níquel                 18,34
 Cobalto                27,15
-Estaño	               31,38
+Estaño                 31,38
 ==================  =============
 
 [1] Precio medio del acero. Puede variar de 0,42 a 0,65 €/kg.

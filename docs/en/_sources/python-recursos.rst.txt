@@ -61,16 +61,16 @@ Ejercicios de Python
 
    * `Goblins 'n' Glory
      <https://codecombat.com/play/goblins-hoc?hour_of_code=true>`__.
-   
+
    * `Esports Bootcamp: AI League
      <https://codecombat.com/play/ai-league-hoc?hour_of_code=true>`__.
-   
+
    * `Escape the Dungeon
      <https://codecombat.com/play/dungeon-hoc?hour_of_code=true>`__.
-   
+
    * `Game Development
      <https://codecombat.com/play/game-dev-hoc?hour_of_code=true>`__.
-   
+
    * `Game Development 2
      <https://codecombat.com/play/game-dev-hoc-2?hour_of_code=true>`__.
 

@@ -41,7 +41,7 @@ se moverá hacia la derecha, impidiendo también el paso de aire.
    Válvula de simultaneidad con presión en la vía izquierda.
 
 Cuando se inyecta aire a presión por las vías derecha e izquierda,
-la pieza central no puede cerrar las dos vías a la vez, por lo que 
+la pieza central no puede cerrar las dos vías a la vez, por lo que
 permite el paso de aire a presión, que saldrá por la vía superior.
 
 .. figure:: neumatic/_images/neumatic-valvula-and-3.png
@@ -100,7 +100,7 @@ obtenemos la clásica tabla de verdad de la función and:
 
 Cilindro de simple efecto y válvula de simultaneidad
 ----------------------------------------------------
-En este circuito un cilindro de simple efecto es accionado por dos 
+En este circuito un cilindro de simple efecto es accionado por dos
 válvulas 3/2 solo cuando ambas están accionadas.
 
 En la siguiente figura se puede ver el circuito en reposo.
@@ -109,19 +109,19 @@ En la siguiente figura se puede ver el circuito en reposo.
    :align: center
    :width: 455px
    :alt: Cilindro de simple efecto con válvula de simultaneidad sin presión.
-   
+
    Cilindro de simple efecto con válvula de simultaneidad sin presión.
 
 Cuando accionamos la válvula izquierda, el aire a presión llega a la
-válvula de simultaneidad, pero esta no deja pasar la presión por la 
+válvula de simultaneidad, pero esta no deja pasar la presión por la
 vía superior.
 
 .. figure:: neumatic/_images/neumatic-32-and-2.png
    :align: center
    :width: 485px
-   :alt: Cilindro de simple efecto con válvula de simultaneidad con 
+   :alt: Cilindro de simple efecto con válvula de simultaneidad con
          presión a la izquierda.
-   
+
    Cilindro de simple efecto con válvula de simultaneidad con presión a la
    izquierda.
 
@@ -133,31 +133,31 @@ El vástago del cilindro de simple efecto saldrá hacia fuera.
 .. figure:: neumatic/_images/neumatic-32-and-3.png
    :align: center
    :width: 488px
-   :alt: Cilindro de simple efecto con válvula de simultaneidad con 
+   :alt: Cilindro de simple efecto con válvula de simultaneidad con
          presión en ambas entradas.
-   
+
    Cilindro de simple efecto con válvula de simultaneidad con presión
    en ambas entradas.
 
 
 Unión de válvulas
 -----------------
-En un circuito neumático podemos unir varias válvulas selectoras y de 
+En un circuito neumático podemos unir varias válvulas selectoras y de
 simultaneidad para conseguir comportamientos complejos.
 
-En el siguiente circuito podemos ver dos válvulas distintas 
+En el siguiente circuito podemos ver dos válvulas distintas
 (una de simultaneidad y otra selectora)
-que combinan el aire a presión de tres válvulas 3/2 hacia un cilindro 
+que combinan el aire a presión de tres válvulas 3/2 hacia un cilindro
 de simple efecto.
 
 .. figure:: neumatic/_images/neumatic-valvula-and-or-1.png
    :align: center
    :width: 618px
    :alt: Válvulas de simultaneidad y selectora en cascada.
-   
+
    Válvulas de simultaneidad y selectora en cascada.
 
-En el circuito anterior el vástago del cilindro saldrá hacia fuera 
+En el circuito anterior el vástago del cilindro saldrá hacia fuera
 cuando se presione la válvula de la derecha y, a la vez, una de las dos
 válvulas de la izquierda.
 
@@ -170,7 +170,7 @@ de simultaneidad y selectora hacia un cilindro de simple efecto.
    :align: center
    :width: 616px
    :alt: Válvulas de simultaneidad y selectora en cascada II.
-   
+
    Válvulas de simultaneidad y selectora en cascada II.
 
 En el circuito anterior el vástago del cilindro saldrá hacia fuera siempre
@@ -193,7 +193,7 @@ Ejercicios
 #. Explica el funcionamiento de la válvula de simultaneidad neumática
    y dibuja su tabla de verdad.
 
-#. Simula el funcionamiento de un cilindro de simple efecto con un 
+#. Simula el funcionamiento de un cilindro de simple efecto con un
    vástago que debe salir al accionar a la vez las
    **dos válvulas 3/2** de maniobra.
 
@@ -201,7 +201,7 @@ Ejercicios
 
 #. Dibuja el circuito anterior en papel y explica su funcionamiento.
 
-#. ¿Para qué sirve la unión de válvulas de simultaneidad y válvulas 
+#. ¿Para qué sirve la unión de válvulas de simultaneidad y válvulas
    selectoras en cascada?
 
 #. Simula un circuito que tenga tres válvulas 3/2 que accionen un
@@ -212,7 +212,7 @@ Ejercicios
    de la derecha.
 
    `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
-   
+
 #. Dibuja el circuito anterior en papel y explica su funcionamiento.
 
 #. Dibuja la tabla de verdad con el funcionamiento del circuito anterior
@@ -222,7 +222,7 @@ Ejercicios
       :widths: 25 25 25 25
       :align: center
       :header-rows: 1
-   
+
       * - Válvula izquierda
         - Válvula central
         - Válvula derecha
@@ -246,7 +246,7 @@ Ejercicios
       * - No accionada
         - No accionada
         - Accionada
-        - 
+        -
       * - Accionada
         - No accionada
         - Accionada

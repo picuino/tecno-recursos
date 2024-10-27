@@ -130,7 +130,7 @@ Guarda los programas con los nombres propuestos en los ejercicios.
       pi = 3.141592653589793
 
       radio = input("Introduce el radio del círculo: ")
-      
+
       radio = float(radio)
 
       perimetro = 2.0 * pi * radio

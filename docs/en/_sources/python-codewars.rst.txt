@@ -96,7 +96,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/53af2b8861023f1d88000832/train/python>`__
 #. `Invert values
    <https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/python>`__
-#. `Calculate average 
+#. `Calculate average
    <https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/train/python>`__
 #. `Is he gonna survive?
    <https://www.codewars.com/kata/59ca8246d751df55cc00014c/train/python>`__
@@ -122,7 +122,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/5861d28f124b35723e00005e/train/python>`__
 #. `Convert a string to an array
    <https://www.codewars.com/kata/57e76bc428d6fbc2d500036d/train/python>`__
-#. `Reversed sequence 
+#. `Reversed sequence
    <https://www.codewars.com/kata/5a00e05cc374cb34d100000d/train/python>`__
 #. `Is n divisible by x and y?
    <https://www.codewars.com/kata/5545f109004975ea66000086/train/python>`__
@@ -138,7 +138,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/55225023e1be1ec8bc000390/train/python>`__
 #. `Quarter of the year
    <https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/train/python>`__
-#. `Transportation on vacation 
+#. `Transportation on vacation
    <https://www.codewars.com/kata/568d0dd208ee69389d000016/train/python>`__
 #. `Grasshopper - Grade book
    <https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/python>`__
@@ -222,7 +222,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/python>`__
 #. `Student's Final Grade
    <https://www.codewars.com/kata/5ad0d8356165e63c140014d4/train/python>`__
-#. `Expressions Matter 
+#. `Expressions Matter
    <https://www.codewars.com/kata/5ae62fcf252e66d44d00008e/train/python>`__
 #. `Sum The Strings
    <https://www.codewars.com/kata/5966e33c4e686b508700002d/train/python>`__
@@ -304,7 +304,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/57f6ad55cca6e045d2000627/train/python>`__
 #. `Determine offspring sex based on genes XX and XY chromosomes
    <https://www.codewars.com/kata/56530b444e831334c0000020/train/python>`__
-#. `The Wide-Mouthed frog! 
+#. `The Wide-Mouthed frog!
    <https://www.codewars.com/kata/57ec8bd8f670e9a47a000f89/train/python>`__
 #. `Convert to Binary
    <https://www.codewars.com/kata/59fca81a5712f9fa4700159a/train/python>`__
@@ -404,7 +404,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/5761a717780f8950ce001473/train/python>`__
 #. `Basic Training: Add item to an Array
    <https://www.codewars.com/kata/511f0fe64ae8683297000001/train/python>`__
-#. `Return the day 
+#. `Return the day
    <https://www.codewars.com/kata/59dd3ccdded72fc78b000b25/train/python>`__
 #. `String Templates - Bug Fixing #5
    <https://www.codewars.com/kata/55c90cad4b0fe31a7200001f/train/python>`__
@@ -422,7 +422,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/5641a03210e973055a00000d/train/python>`__
 #. `How many stairs will Suzuki climb in 20 years?
    <https://www.codewars.com/kata/56fc55cd1f5a93d68a001d4e/train/python>`__
-#. `OOP: Object Oriented Piracy 
+#. `OOP: Object Oriented Piracy
    <https://www.codewars.com/kata/54fe05c4762e2e3047000add/train/python>`__
 #. `Color Ghost
    <https://www.codewars.com/kata/53f1015fa9fe02cbda00111a/train/python>`__
@@ -462,7 +462,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/55a5befdf16499bffb00007b/train/python>`__
 #. `Is it a number?
    <https://www.codewars.com/kata/57126304cdbf63c6770012bd/train/python>`__
-#. `Fix your code before the garden dies! 
+#. `Fix your code before the garden dies!
    <https://www.codewars.com/kata/57158fb92ad763bb180004e7/train/python>`__
 #. `CSV representation of array
    <https://www.codewars.com/kata/5a34af40e1ce0eb1f5000036/train/python>`__
@@ -502,7 +502,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/5834fec22fb0ba7d080000e8/train/python>`__
 #. `Are arrow functions odd?
    <https://www.codewars.com/kata/559f80b87fa8512e3e0000f5/train/python>`__
-#. `simple calculator 
+#. `simple calculator
    <https://www.codewars.com/kata/5810085c533d69f4980001cf/train/python>`__
 #. `Collatz Conjecture (3n+1)
    <https://www.codewars.com/kata/577a6e90d48e51c55e000217/train/python>`__
@@ -584,7 +584,7 @@ Katas de nivel 8. Dificultad muy fácil.
    <https://www.codewars.com/kata/56aed32a154d33a1f3000018/train/python>`__
 #. `Fuel Calculator: Total Cost
    <https://www.codewars.com/kata/57b58827d2a31c57720012e8/train/python>`__
-#. `Freudian translator 
+#. `Freudian translator
    <https://www.codewars.com/kata/5713bc89c82eff33c60009f7/train/python>`__
 #. `Grasshopper - Terminal Game #1
    <https://www.codewars.com/kata/55e8aba23d399a59500000ce/train/python>`__
@@ -779,7 +779,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/559590633066759614000063/train/python>`__
 #. `Sum of the first nth term of Series
    <https://www.codewars.com/kata/555eded1ad94b00403000071/train/python>`__
-#. `Find the divisors! 
+#. `Find the divisors!
    <https://www.codewars.com/kata/544aed4c4a30184e960010f4/train/python>`__
 #. `Remove the minimum
    <https://www.codewars.com/kata/563cf89eb4747c5fb100001b/train/python>`__
@@ -905,7 +905,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/556196a6091a7e7f58000018/train/python>`__
 #. `Build a square
    <https://www.codewars.com/kata/59a96d71dbe3b06c0200009c/train/python>`__
-#. `Maximum Product 
+#. `Maximum Product
    <https://www.codewars.com/kata/5a4138acf28b82aa43000117/train/python>`__
 #. `Even numbers in an array
    <https://www.codewars.com/kata/5a431c0de1ce0ec33a00000c/train/python>`__
@@ -925,7 +925,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/51f41b98e8f176e70d0002a8/train/python>`__
 #. `Unlucky Days
    <https://www.codewars.com/kata/56eb0be52caf798c630013c0/train/python>`__
-#. `Minimize  Sum Of Array (Array Series #1)   
+#. `Minimize  Sum Of Array (Array Series #1)
    <https://www.codewars.com/kata/5a523566b3bfa84c2e00010b/train/python>`__
 #. `Speed Control
    <https://www.codewars.com/kata/56484848ba95170a8000004d/train/python>`__
@@ -933,7 +933,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/580755730b5a77650500010c/train/python>`__
 #. `Parts of a list
    <https://www.codewars.com/kata/56f3a1e899b386da78000732/train/python>`__
-#. `Maximum Triplet Sum (Array Series #7) 
+#. `Maximum Triplet Sum (Array Series #7)
    <https://www.codewars.com/kata/5aa1bcda373c2eb596000112/train/python>`__
 #. `Higher-Order Functions Series - Count the number of JavaScript developers coming from Europe
    <https://www.codewars.com/kata/582746fa14b3892727000c4f/train/python>`__
@@ -1017,13 +1017,13 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/57f75cc397d62fc93d000059/train/python>`__
 #. `Substituting Variables Into Strings: Padded Numbers
    <https://www.codewars.com/kata/51c89385ee245d7ddf000001/train/python>`__
-#. `Nth Smallest Element (Array Series  #4) 
+#. `Nth Smallest Element (Array Series  #4)
    <https://www.codewars.com/kata/5a512f6a80eba857280000fc/train/python>`__
 #. `Nickname Generator
    <https://www.codewars.com/kata/593b1909e68ff627c9000186/train/python>`__
 #. `Incrementer
    <https://www.codewars.com/kata/590e03aef55cab099a0002e8/train/python>`__
-#. `Strong Number (Special Numbers Series #2)  
+#. `Strong Number (Special Numbers Series #2)
    <https://www.codewars.com/kata/5a4d303f880385399b000001/train/python>`__
 #. `Building blocks
    <https://www.codewars.com/kata/55b75fcf67e558d3750000a3/train/python>`__
@@ -1035,7 +1035,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/57a62154cf1fa5b25200031e/train/python>`__
 #. `Coloured Triangles
    <https://www.codewars.com/kata/5a25ac6ac5e284cfbe000111/train/python>`__
-#. `Balanced Number (Special Numbers Series #1 ) 
+#. `Balanced Number (Special Numbers Series #1 )
    <https://www.codewars.com/kata/5a4e3782880385ba68000018/train/python>`__
 #. `Vowel one
    <https://www.codewars.com/kata/580751a40b5a777a200000a1/train/python>`__
@@ -1051,7 +1051,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/563089b9b7be03472d00002b/train/python>`__
 #. `Spacify
    <https://www.codewars.com/kata/57f8ee485cae443c4d000127/train/python>`__
-#. `Complete The  Pattern #1 
+#. `Complete The  Pattern #1
    <https://www.codewars.com/kata/5572f7c346eb58ae9c000047/train/python>`__
 #. `Sum of array singles
    <https://www.codewars.com/kata/59f11118a5e129e591000134/train/python>`__
@@ -1061,7 +1061,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/5413759479ba273f8100003d/train/python>`__
 #. `Tidy Number (Special Numbers Series  #9)
    <https://www.codewars.com/kata/5a87449ab1710171300000fd/train/python>`__
-#. `Sort Out The Men  From Boys 
+#. `Sort Out The Men  From Boys
    <https://www.codewars.com/kata/5af15a37de4c7f223e00012d/train/python>`__
 #. `Coding Meetup #3 - Higher-Order Functions Series - Is Ruby coming?
    <https://www.codewars.com/kata/5827acd5f524dd029d0005a4/train/python>`__
@@ -1079,7 +1079,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/5296455e4fe0cdf2e000059f/train/python>`__
 #. `How many arguments
    <https://www.codewars.com/kata/5c44b0b200ce187106452139/train/python>`__
-#. `Product Of Maximums Of Array (Array Series #2) 
+#. `Product Of Maximums Of Array (Array Series #2)
    <https://www.codewars.com/kata/5a63948acadebff56f000018/train/python>`__
 #. `getNames()
    <https://www.codewars.com/kata/514a677421607afc99000002/train/python>`__
@@ -1281,7 +1281,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/5635e7cb49adc7b54500001c/train/python>`__
 #. `Find Screen Size
    <https://www.codewars.com/kata/5bbd279c8f8bbd5ee500000f/train/python>`__
-#. `See You Next Happy Year 
+#. `See You Next Happy Year
    <https://www.codewars.com/kata/5ae7e3f068e6445bc8000046/train/python>`__
 #. `Two numbers are positive
    <https://www.codewars.com/kata/602db3215c22df000e8544f0/train/python>`__
@@ -1453,7 +1453,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/59a9919107157a45220000e1/train/python>`__
 #. `Sort Santa's Reindeer
    <https://www.codewars.com/kata/52ab60b122e82a6375000bad/train/python>`__
-#. `Find Duplicates 
+#. `Find Duplicates
    <https://www.codewars.com/kata/5558cc216a7a231ac9000022/train/python>`__
 #. `Pandemia 🌡️
    <https://www.codewars.com/kata/5e2596a9ad937f002e510435/train/python>`__
@@ -1511,7 +1511,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/5b93fecd8463745630001d05/train/python>`__
 #. `Retrieve array value by index with default
    <https://www.codewars.com/kata/515ceaebcc1dde8870000001/train/python>`__
-#. `Alphabetically ordered 
+#. `Alphabetically ordered
    <https://www.codewars.com/kata/5a8059b1fd577709860000f6/train/python>`__
 #. `254 shades of grey
    <https://www.codewars.com/kata/54d22119beeaaaf663000024/train/python>`__
@@ -1644,7 +1644,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/5552101f47fc5178b1000050/train/python>`__
 #. `Equal Sides Of An Array
    <https://www.codewars.com/kata/5679aa472b8f57fb8c000047/train/python>`__
-#. `Decode the Morse code 
+#. `Decode the Morse code
    <https://www.codewars.com/kata/54b724efac3d5402db00065e/train/python>`__
 #. `Is a number prime?
    <https://www.codewars.com/kata/5262119038c0985a5b00029f/train/python>`__
@@ -1810,7 +1810,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/55beec7dd347078289000021/train/python>`__
 #. `Grouped by commas
    <https://www.codewars.com/kata/5274e122fc75c0943d000148/train/python>`__
-#. `Decipher this! 
+#. `Decipher this!
    <https://www.codewars.com/kata/581e014b55f2c52bb00000f8/train/python>`__
 #. `Two Joggers
    <https://www.codewars.com/kata/5274d9d3ebc3030802000165/train/python>`__
@@ -1820,7 +1820,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/53907ac3cd51b69f790006c5/train/python>`__
 #. `Clocky Mc Clock-Face
    <https://www.codewars.com/kata/59752e1f064d1261cb0000ec/train/python>`__
-#. `New Cashier Does Not Know About Space or Shift 
+#. `New Cashier Does Not Know About Space or Shift
    <https://www.codewars.com/kata/5d23d89906f92a00267bb83d/train/python>`__
 #. `Ball Upwards
    <https://www.codewars.com/kata/566be96bb3174e155300001b/train/python>`__
@@ -1864,7 +1864,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/5613d06cee1e7da6d5000055/train/python>`__
 #. `zipWith
    <https://www.codewars.com/kata/5825792ada030e9601000782/train/python>`__
-#. `Primorial Of  a Number 
+#. `Primorial Of  a Number
    <https://www.codewars.com/kata/5a99a03e4a6b34bb3c000124/train/python>`__
 #. `Salesman's Travel
    <https://www.codewars.com/kata/56af1a20509ce5b9b000001e/train/python>`__
@@ -1910,7 +1910,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/5389864ec72ce03383000484/train/python>`__
 #. `Twisted Sum
    <https://www.codewars.com/kata/527e4141bb2ea5ea4f00072f/train/python>`__
-#. `PI approximation 
+#. `PI approximation
    <https://www.codewars.com/kata/550527b108b86f700000073f/train/python>`__
 #. `Higher-Order Functions Series - Find the most senior developer
    <https://www.codewars.com/kata/582887f7d04efdaae3000090/train/python>`__
@@ -1994,7 +1994,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/51f082ba7297b8f07f000001/train/python>`__
 #. `Coding Meetup #15 - Higher-Order Functions Series - Find the odd names
    <https://www.codewars.com/kata/583a8bde28019d615a000035/train/python>`__
-#. `Ackermann Function 
+#. `Ackermann Function
    <https://www.codewars.com/kata/53ad69892a27079b34000bd9/train/python>`__
 #. `Angle Between Clock Hands
    <https://www.codewars.com/kata/543ddf69386034670d000c7d/train/python>`__
@@ -2022,7 +2022,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/5b4070144d7d8bbfe7000001/train/python>`__
 #. `Schrödinger's Boolean
    <https://www.codewars.com/kata/5a5f9f80f5dc3f942b002309/train/python>`__
-#. `Sum two arrays 
+#. `Sum two arrays
    <https://www.codewars.com/kata/59c3e8c9f5d5e40cab000ca6/train/python>`__
 #. `RoboScript #1 - Implement Syntax Highlighting
    <https://www.codewars.com/kata/58708934a44cfccca60000c4/train/python>`__
@@ -2094,7 +2094,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/53417de006654f4171000587/train/python>`__
 #. `Reach Me and Sum my Digits
    <https://www.codewars.com/kata/55ffb44050558fdb200000a4/train/python>`__
-#. `The Office V - Find a Chair 
+#. `The Office V - Find a Chair
    <https://www.codewars.com/kata/57f6051c3ff02f3b7300008b/train/python>`__
 #. `Adjacent repeated words in a string
    <https://www.codewars.com/kata/5245a9138ca049e9a10007b8/train/python>`__
@@ -2406,7 +2406,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/5bc7bb444be9774f100000c3/train/python>`__
 #. `ASCII Fun #2: Funny Dots
    <https://www.codewars.com/kata/59098c39d8d24d12b6000020/train/python>`__
-#. `Jungerstein's Math Training Room: 1. How many zeros are at the end of n!! ? 
+#. `Jungerstein's Math Training Room: 1. How many zeros are at the end of n!! ?
    <https://www.codewars.com/kata/58cbfe2516341cce1e000001/train/python>`__
 #. `Find The Duplicated Number in a Consecutive Unsorted List - Tougher Version
    <https://www.codewars.com/kata/558f0553803bc3c4720000af/train/python>`__
@@ -2470,9 +2470,9 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/5267e5827526ea15d8000708/train/python>`__
 #. `Odd/Even number of divisors
    <https://www.codewars.com/kata/55830eec3e6b6c44ff000040/train/python>`__
-#. `Proof Read 
+#. `Proof Read
    <https://www.codewars.com/kata/583710f6b468c07ba1000017/train/python>`__
-#. `Master of Files 
+#. `Master of Files
    <https://www.codewars.com/kata/574bd867d277832448000adf/train/python>`__
 #. `Simple decrypt algo
    <https://www.codewars.com/kata/58693136b98de0e4910001ab/train/python>`__
@@ -2504,7 +2504,7 @@ Katas de nivel 6. Dificultad moderada.
    <https://www.codewars.com/kata/55f95dbb350b7b1239000030/train/python>`__
 #. `Ranking NBA teams
    <https://www.codewars.com/kata/5a420163b6cfd7cde5000077/train/python>`__
-#. `Simple Fun #165: Withdraw 
+#. `Simple Fun #165: Withdraw
    <https://www.codewars.com/kata/58afce23b0e8046a960000eb/train/python>`__
 #. `Number of measurements to spot the counterfeit coin
    <https://www.codewars.com/kata/59530d2401d6039f8600001f/train/python>`__
@@ -3161,7 +3161,7 @@ Katas de nivel 5. Dificultad moderada alta.
    <https://www.codewars.com/kata/58acf858154165363c00004e/train/python>`__
 #. `Minimum path in squares
    <https://www.codewars.com/kata/5845e3f680a8cf0bad00017d/train/python>`__
-#. `field chained HTML formatting 
+#. `field chained HTML formatting
    <https://www.codewars.com/kata/5e98a87ce8255200011ea60f/train/python>`__
 #. `Python's Dynamic Classes #3
    <https://www.codewars.com/kata/55dec8f72ead8624e5000028/train/python>`__
@@ -3185,7 +3185,7 @@ Katas de nivel 5. Dificultad moderada alta.
    <https://www.codewars.com/kata/58f89357d13bab79dc000208/train/python>`__
 #. `Nut Farm  2
    <https://www.codewars.com/kata/59b24a2158ef58966e00005e/train/python>`__
-#. `Max Collatz Sequence Length 
+#. `Max Collatz Sequence Length
    <https://www.codewars.com/kata/53a9ee602f150d5d6b000307/train/python>`__
 #. `myjinxin katas #001 : Rotate, Remove, Return
    <https://www.codewars.com/kata/57dab71714e53f4bc9000310/train/python>`__
@@ -3383,7 +3383,7 @@ Katas de nivel 5. Dificultad moderada alta.
    <https://www.codewars.com/kata/56f2dd31e40b7042ad001026/train/python>`__
 #. `Flotsam
    <https://www.codewars.com/kata/635f67667dadea064acb2c4a/train/python>`__
-#. `The Primes as a Result of the Longest Consecutive Sum  I 
+#. `The Primes as a Result of the Longest Consecutive Sum  I
    <https://www.codewars.com/kata/56e93159f6c72164b700062b/train/python>`__
 #. `Pandigital Sequence
    <https://www.codewars.com/kata/5ac69d572f317bdfc3000124/train/python>`__
@@ -3611,7 +3611,7 @@ Katas de nivel 5. Dificultad moderada alta.
    <https://www.codewars.com/kata/635640ee633fad004afb0465/train/python>`__
 #. `Lambda Calculus: Lists
    <https://www.codewars.com/kata/5eecd4a5e5d13e000150e249/train/python>`__
-#. `Fix the pipes 
+#. `Fix the pipes
    <https://www.codewars.com/kata/59f2e89601601434ae000055/train/python>`__
 #. `Roguelike game 1 - stats and weapon
    <https://www.codewars.com/kata/651bfcbd409ea1001ef2c3cb/train/python>`__
@@ -3779,7 +3779,7 @@ Katas de nivel 5. Dificultad moderada alta.
    <https://www.codewars.com/kata/62fa7b95eb6d08fa9468b384/train/python>`__
 #. `Subsequence Sums II
    <https://www.codewars.com/kata/61e2edfeaf28c2001b57af98/train/python>`__
-#. `Next Higher Value  # 1 
+#. `Next Higher Value  # 1
    <https://www.codewars.com/kata/5b713d7187c59b53e60000b0/train/python>`__
 #. `From Traversals to Tree
    <https://www.codewars.com/kata/651478c7ba373c338a173de6/train/python>`__
@@ -3998,7 +3998,7 @@ Katas de nivel 4. Dificultad alta.
    <https://www.codewars.com/kata/537e18b6147aa838f600001b/train/python>`__
 #. `Binary multiple of 3
    <https://www.codewars.com/kata/54de279df565808f8b00126a/train/python>`__
-#. `Smallest possible sum 
+#. `Smallest possible sum
    <https://www.codewars.com/kata/52f677797c461daaf7000740/train/python>`__
 #. `A Simplistic TCP Finite State Machine (FSM)
    <https://www.codewars.com/kata/54acc128329e634e9a000362/train/python>`__
@@ -4146,7 +4146,7 @@ Katas de nivel 4. Dificultad alta.
    <https://www.codewars.com/kata/52f7892a747862fc9a0009a6/train/python>`__
 #. `Don't give me five! Really!
    <https://www.codewars.com/kata/621f89cc94d4e3001bb99ef4/train/python>`__
-#. `Big Big Big Padovan Number 
+#. `Big Big Big Padovan Number
    <https://www.codewars.com/kata/5819f1c3c6ab1b2b28000624/train/python>`__
 #. `BasE91 encoding &amp; decoding
    <https://www.codewars.com/kata/58a57c6bcebc069d7e0001fe/train/python>`__
@@ -4154,11 +4154,11 @@ Katas de nivel 4. Dificultad alta.
    <https://www.codewars.com/kata/54c1bf903f0696f04600068b/train/python>`__
 #. `N Linear
    <https://www.codewars.com/kata/5aa417aa4a6b344e2200009d/train/python>`__
-#. `Block sequence 
+#. `Block sequence
    <https://www.codewars.com/kata/5e1ab1b9fe268c0033680e5f/train/python>`__
 #. `Simple Fun #148: Exchange Sort
    <https://www.codewars.com/kata/58aa8b0538cf2eced5000115/train/python>`__
-#. `Permutational Primes 
+#. `Permutational Primes
    <https://www.codewars.com/kata/55eec0ee00ae4a8fa0000075/train/python>`__
 #. `Compute a convex hull
    <https://www.codewars.com/kata/5657d8bdafec0a27c800000f/train/python>`__
@@ -4166,7 +4166,7 @@ Katas de nivel 4. Dificultad alta.
    <https://www.codewars.com/kata/544483c6435206617a00012c/train/python>`__
 #. `Simple Fun #119: Sub Sets Parity
    <https://www.codewars.com/kata/589d5c80c31aa590e300006b/train/python>`__
-#. `Lazy Init  
+#. `Lazy Init
    <https://www.codewars.com/kata/59b7b43b4f98a81b2d00000a/train/python>`__
 #. `Create a funnel
    <https://www.codewars.com/kata/585b373ce08bae41b800006e/train/python>`__
@@ -4204,7 +4204,7 @@ Katas de nivel 4. Dificultad alta.
    <https://www.codewars.com/kata/571957959906af00f90012f3/train/python>`__
 #. `Solving a puzzle by matching four corners
    <https://www.codewars.com/kata/5ef2bc554a7606002a366006/train/python>`__
-#. `Repetitive Sequence  - Easy Version 
+#. `Repetitive Sequence  - Easy Version
    <https://www.codewars.com/kata/5f134651bc9687000f8022c4/train/python>`__
 #. `Mahjong - #1 Pure Hand
    <https://www.codewars.com/kata/56ad7a4978b5162445000056/train/python>`__
@@ -4262,7 +4262,7 @@ Katas de nivel 4. Dificultad alta.
    <https://www.codewars.com/kata/55d6afe3423873eabe000069/train/python>`__
 #. `Multiplying Polynomials
    <https://www.codewars.com/kata/63c05c1aeffe877458a15994/train/python>`__
-#. `Calculate k-th digit of π (Pi) 
+#. `Calculate k-th digit of π (Pi)
    <https://www.codewars.com/kata/6357205000fba205ed189a52/train/python>`__
 #. `Insane Increasing or Decreasing Numbers
    <https://www.codewars.com/kata/5993e6f701726f0998000030/train/python>`__
@@ -4292,7 +4292,7 @@ Katas de nivel 4. Dificultad alta.
    <https://www.codewars.com/kata/5d7bb3eda58b36000fcc0bbb/train/python>`__
 #. `Strongly connected components
    <https://www.codewars.com/kata/5f74a3b1acfbb20033e5b7d9/train/python>`__
-#. `Balanced parentheses string 
+#. `Balanced parentheses string
    <https://www.codewars.com/kata/60790e04cc9178003077db43/train/python>`__
 #. `Data mining #2
    <https://www.codewars.com/kata/591748b3f014a2593d0000d9/train/python>`__
@@ -4388,7 +4388,7 @@ Katas de nivel 4. Dificultad alta.
    <https://www.codewars.com/kata/62e41d4816d2d600367aee79/train/python>`__
 #. `Happy Numbers. Another performance edition.
    <https://www.codewars.com/kata/5ecef4a6640dbb0032bc176d/train/python>`__
-#. `Mega Connect 4 
+#. `Mega Connect 4
    <https://www.codewars.com/kata/6250122a983b3500358fb671/train/python>`__
 
 
@@ -4407,7 +4407,7 @@ Katas de nivel 3. Dificultad alta.
    <https://www.codewars.com/kata/5296bc77afba8baa690002d7/train/python>`__
 #. `The Millionth Fibonacci Kata
    <https://www.codewars.com/kata/53d40c1e2f13e331fc000c26/train/python>`__
-#. `Rail Fence Cipher:  Encoding and Decoding 
+#. `Rail Fence Cipher:  Encoding and Decoding
    <https://www.codewars.com/kata/58c5577d61aefcf3ff000081/train/python>`__
 #. `Last digit of a huge number
    <https://www.codewars.com/kata/5518a860a73e708c0a000027/train/python>`__
@@ -4499,7 +4499,7 @@ Katas de nivel 3. Dificultad alta.
    <https://www.codewars.com/kata/599846fbc2bd3a62a4000031/train/python>`__
 #. `Wrap a cube with paper nets
    <https://www.codewars.com/kata/5f4af9c169f1cd0001ae764d/train/python>`__
-#. `Knight's Attack! 
+#. `Knight's Attack!
    <https://www.codewars.com/kata/58e6d83e19af2cb8840000b5/train/python>`__
 #. `Insane Tri-Bicolor Tiling
    <https://www.codewars.com/kata/59928e2889d6a01970000051/train/python>`__

@@ -11,12 +11,12 @@ Estos operadores sirven para hacer condiciones más complejas
 en una sentencia ``if``.
 
 Ejemplo para calcular si una persona puede subir a una montaña rusa.
-Solo podrá subir si su altura en centímetros es mayor o igual a 150 
+Solo podrá subir si su altura en centímetros es mayor o igual a 150
 **y también** debe ser menor o igual a 200::
-    
+
     altura = input('Escribe tu altura en centímetros: ')
     altura = int(altura)
-    
+
     if (altura >= 150) and (altura <= 200):
         print('Puedes pasar')
     else:
@@ -47,7 +47,7 @@ Ejercicios
    primavera.
 
    Pista::
-   
+
       mes = input('Escribe el nombre de un mes: ')
       if (mes == 'abril') or (mes == 'mayo') or (mes == 'junio'):
          print('...')
@@ -56,12 +56,12 @@ Ejercicios
 
 
 #. El siguiente programa comprueba si un número es par.
-   Modifica el programa utilizando el operador ``not`` para que 
+   Modifica el programa utilizando el operador ``not`` para que
    compruebe si el número es impar::
-   
+
        num = input('Escribe un número: ')
        num = int(num)
-       
+
        if (num % 2 == 0):
            print('El número es par')
 
@@ -75,15 +75,15 @@ Ejercicios
            3
        >>> len('Gustavo')
            7
-       
+
    Pista::
 
       nombre = input('Escribe un nombre: ')
       letras = len(nombre)
-      
+
       if ... :
           print('El nombre tiene entre 4 y 6 letras')
-      
+
 
 #. Escribe un programa que responda que tienes que conectar el riego
    por goteo siempre que sea de noche (no de día) y que esté el suelo

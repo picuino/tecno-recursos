@@ -337,13 +337,13 @@ Ejercicios
 
          // Encender el led 1 si la distancia es mayor de 40mm
          if (distance > 40)
-	    pc.ledWrite(1, LED_ON);
+            pc.ledWrite(1, LED_ON);
          else
-	    pc.ledWrite(1, LED_OFF);
+            pc.ledWrite(1, LED_OFF);
 
          // Encender el led 2 si la distancia es mayor de 80mm
          if (distance > 80)
-	    pc.ledWrite(1, LED_ON);
+            pc.ledWrite(1, LED_ON);
          else
-	    pc.ledWrite(1, LED_OFF);
+            pc.ledWrite(1, LED_OFF);
       }

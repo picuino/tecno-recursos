@@ -19,7 +19,7 @@ Normativa Estatal
 
 * `Resolución de 5 de julio de 2023
   <https://www.boe.es/boe/dias/2023/07/18/pdfs/BOE-A-2023-16620.pdf>`__
-   
+
   Acuerdo de la Conferencia Sectorial de Educación de 7 de junio de 2023,
   por el que se aprueba la propuesta de distribución territorial y los
   criterios de reparto de los créditos gestionados por comunidades
@@ -41,10 +41,10 @@ Normativa Estatal
 Normativa de Madrid
 -------------------
 
-#. :download:`Circular sobre la implantación del programa Código Escuela 4.0 en 
+#. :download:`Circular sobre la implantación del programa Código Escuela 4.0 en
    Infantil y Primaria. <robotica/circular_ce40_madrid_primaria.pdf>`
 
-#. :download:`Circular sobre la implantación del programa Código Escuela 4.0 en 
+#. :download:`Circular sobre la implantación del programa Código Escuela 4.0 en
    Secundaria. <robotica/circular_ce40_madrid_secundaria.pdf>`
 
 #. `Instrucciones de comienzo de curso 2024-2025.
@@ -54,6 +54,6 @@ Normativa de Madrid
 
 #. `Licitación para el suministro de material y formación de Robótica.
    <https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipamientos-necesarios-integracion-implantacion-desarrollo-contenidos>`__
-  
+
    * `Pliego de prescripciones técnicas de la licitación.
      <https://contratos-publicos.comunidad.madrid/medias/03pliegodeprescripcionestecnicas20240430anonimizadopdf/download>`__

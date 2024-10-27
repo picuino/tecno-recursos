@@ -24,7 +24,7 @@ Representación, cableado, medida y simulación de circuitos electrónicos.
    electronic-components-index.rst
 
    electronic-analog-index.rst
-   
+
    electronic-digital-index.rst
 
    electronic-bornas-index.rst

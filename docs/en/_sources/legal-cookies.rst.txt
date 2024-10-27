@@ -57,8 +57,8 @@ Esta política se actualizó por última vez el 1 de febrero de 2024.
       Aunque cierre el navegador seguirá identificado a menos que se
       desconecte o cierre la sesión.
       Esta información no se utiliza para ningún otro objetivo.
-   
-   
+
+
    **Otras cookies técnicas:**
       Estas cookies permiten recordar al usuario con el fin de mejorar
       su experiencia de navegación. Almacenan configuraciones de
@@ -68,8 +68,8 @@ Esta política se actualizó por última vez el 1 de febrero de 2024.
       nuestra política de cookies. Una vez que acepta la utilización de
       nuestras cookies, el banner de aceptación no aparece en otras
       páginas o en sucesivas visitas.
-   
-   
+
+
    **Cookies analíticas:**
       Estas cookies recopilan información de su navegación en nuestro
       Sitio Web de forma totalmente anónima. Con estas cookies se puede
@@ -78,19 +78,19 @@ Esta política se actualizó por última vez el 1 de febrero de 2024.
       que está accediendo es nuevo o repite visita y cuál es su ubicación.
       Esa información nos ayuda a mejorar la navegación y dar un
       mejor servicio.
-   
+
       Esta página web no utiliza los servicios de Google Analytics para
       las cookies analíticas, sino una aplicación de código abierto
       gestionada directamente por el propietario de la web.
-   
-   
+
+
    **Servicios de terceros:**
       * `YouTube <https://www.google.es/intl/es/policies/privacy/>`_
-   
-   
+
+
    Aceptación de cookies
    ---------------------
-   
+
    El Usuario acepta expresamente, por la utilización de este Sitio Web,
    el tratamiento de la información recabada en la forma y con los fines
    anteriormente mencionados.
@@ -101,27 +101,27 @@ Esta política se actualizó por última vez el 1 de febrero de 2024.
    datos o información asociada al usuario, si bien esta opción de
    bloqueo de cookies en su navegador reducirá las funcionalidades de
    este Sitio Web.
-   
-   
+
+
    Eliminar y bloquear cookies
    ---------------------------
-   
+
    Puede usted permitir, bloquear o eliminar las cookies instaladas en
    su equipo mediante la configuración de las opciones del navegador
    instalado en su dispositivo:
-   
+
    `Google Chrome™ <https://support.google.com/chrome/answer/95647?hl=es&hlrm=en>`_
-   
+
    `Mozilla Firefox™
    <https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-?redirectlocale=en-US&redirectslug=Cookies>`_
-   
+
    `Microsoft Edge™
    <https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64d>`_
-   
-   
+
+
    **Apple Safari™**
      * `macOS
        <https://support.apple.com/kb/PH19214?viewlocale=es_ES>`_
      * `iPhone, iPad o iPod
        <https://support.apple.com/kb/HT1677?viewlocale=es_ES>`_
-   
+

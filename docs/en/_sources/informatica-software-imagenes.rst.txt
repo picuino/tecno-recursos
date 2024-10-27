@@ -7,7 +7,7 @@
 
 :index:`Formatos de imagen`
 ===========================
-Existen dos grandes tipos de formatos de imagen, los formatos de mapa de 
+Existen dos grandes tipos de formatos de imagen, los formatos de mapa de
 bits y los formatos vectoriales.
 
 Formato de `imagen de mapa de bits <https://es.wikipedia.org/wiki/Imagen_de_mapa_de_bits>`__
@@ -18,20 +18,20 @@ Formato de `imagen de mapa de bits <https://es.wikipedia.org/wiki/Imagen_de_mapa
    Cuando este tipo de imagen se amplía, se pueden ver los diferentes
    píxeles de la imagen como elementos diferentes.
    Esto hace que la calidad de la imagen empeore en estos casos.
-   
+
    Un ejemplo de imagen de mapa de bits es las imágenes que toma una
    cámara fotográfica digital o un escáner.
-   
+
 Formato de `imagen vectorial <https://es.wikipedia.org/wiki/Gr%C3%A1fico_vectorial>`__
    Las imágenes vectoriales están formadas por instrucciones que
    determinan la aparición de objetos tales como líneas, círculos,
-   cuadrados o 
+   cuadrados o
    `curvas de Bézier <https://es.wikipedia.org/wiki/Curva_de_B%C3%A9zier>`__.
    Cuando este tipo de imagen se amplía, las líneas y curvas permanecen
-   con la misma calidad, sin que se puedan apreciar puntos que formen 
+   con la misma calidad, sin que se puedan apreciar puntos que formen
    la imagen.
-   
-   Un ejemplo de imagen vectorial se puede encontrar en las letras 
+
+   Un ejemplo de imagen vectorial se puede encontrar en las letras
    TrueType de un editor de textos o de un documento PDF.
    Estas letras se pueden ampliar todo lo que se desee sin perder
    nunca su calidad.
@@ -52,7 +52,7 @@ Formato de `imagen vectorial <https://es.wikipedia.org/wiki/Gr%C3%A1fico_vectori
 .. contents:: Índice de contenidos:
    :local:
    :depth: 2
-   
+
 
 Esquemas de color
 -----------------
@@ -145,12 +145,12 @@ La profundidad de color en las imágenes JPEG estándar de cámara fotográfica
 es de 8 bits (256 niveles) para cada uno de los tres tonos RGB, con un
 resultado total de 24 bits ó 16 millones de colores distintos.
 
-Por último las cámaras profesionales pueden tomar imágenes de tipo RAW con 
+Por último las cámaras profesionales pueden tomar imágenes de tipo RAW con
 hasta 14 bits (16384 niveles) para cada uno de los tres tonos RGB, con un
 resultado total de 42 bits ó 4 billones de colores distintos.
 En la práctica esta profundidad de color no se puede representar en papel
 ni nosotros somos capaces de apreciarla, pero permite trabajar con la
-imagen para editarla o 'revelarla' como nos convenga sin pérdidas de 
+imagen para editarla o 'revelarla' como nos convenga sin pérdidas de
 calidad.
 
 
@@ -170,14 +170,14 @@ Profundidad de color de 4 bits
    Es una profundidad de color demasiado baja y presenta errores evidentes
    en la imagen, pero se puede utilizar en escaneado de documentos para
    representar color con un tamaño total más reducido.
-   
+
    .. figure:: informatica/_images/informatica-flor-16.png
       :align: center
 
 Profundidad de color de 8 bits gris
    256 tonos de gris.
-   
-   No tiene apenas pérdida de calidad en los tonos, pero no permite 
+
+   No tiene apenas pérdida de calidad en los tonos, pero no permite
    representar color.
 
    .. figure:: informatica/_images/informatica-flor-256bn.jpg
@@ -185,11 +185,11 @@ Profundidad de color de 8 bits gris
 
 Profundidad de color de 8 bits
    256 colores.
-   
+
    Este es el estándar de las imágenes con formato GIF.
-   Permite representar suficientes colores como para que no se aprecie 
+   Permite representar suficientes colores como para que no se aprecie
    demasiada pérdida de calidad, con la ventaja de permitir reducir el
-   tamaño de la imagen con respecto al color verdadero (True color).   
+   tamaño de la imagen con respecto al color verdadero (True color).
 
    .. figure:: informatica/_images/informatica-flor-256.png
       :align: center
@@ -248,7 +248,7 @@ hasta completar la imagen.
       El formato de archivo JPEG se puede utilizar para almacenar imágenes
       en varios formatos de color, incluyendo RGB de 8 bits por color, CMYK
       y YCbCr. La profundidad de color de este formato (8 bits por cada
-      tono RGB) es reducida y por lo tanto no es una buena opción para 
+      tono RGB) es reducida y por lo tanto no es una buena opción para
       editar fotografías.
       Para esa tarea es mucho mejor utilizar los formatos RAW
       de cada cámara fotográfica que llegan a tener 36 ó 42 bits por pixel.
@@ -274,7 +274,7 @@ hasta completar la imagen.
 
          Imagen PNG de una cuadrícula coloreada.
 
-      Este formato también es ideal para imágenes que utilicen 
+      Este formato también es ideal para imágenes que utilicen
       **transparencias**, ya que cada píxel puede ser almacenado junto a un
       código de color transparente que evita que se noten los bordes.
 
@@ -348,7 +348,7 @@ hasta completar la imagen.
       Este formato permite procesar o 'revelar' una imagen para que tenga
       más o menos luminosidad o más o menos rango dinámico, sin que se
       pierda calidad en el resultado final.
-      
+
       El inconveniente que presenta este formato es la falta de
       estandarización, por lo que cada fabricante utiliza su propia versión
       del formato, lo que puede producir incompatibilidades o que alguna
@@ -512,24 +512,24 @@ o calidad.
       (Portable Document Format) es un formato de almacenamiento de
       documentos digitales diseñado por Adobe para que se pueda visualizar
       e imprimir fácilmente en cualquier dispositivo.
-      
-      PDF es un formato estandarizado y abierto a que cualquiera lo 
+
+      PDF es un formato estandarizado y abierto a que cualquiera lo
       utilice libremente.
-      
+
       Los documentos guardados en formato PDF pueden contener texto,
       hipervínculos, gráficas, dibujos, fotografías y hasta vídeo.
-      
+
       Este formato tiene la gran ventaja de mantener inalterada la
-      composición de página (márgenes, tamaños de letra, posición de las 
+      composición de página (márgenes, tamaños de letra, posición de las
       imágenes, etc.) y de ser un formato ampliamente compatible y estándar
       para almacenar documentos a largo plazo.
-      
+
       Como desventaja, el formato PDF se puede editar con dificultad, por
       lo que es mejor almacenar también el archivo fuente original (.docx).
-      
+
 
    Fuentes tipográficas
-      Las fuentes tipográficas vectoriales son conjuntos de símbolos y 
+      Las fuentes tipográficas vectoriales son conjuntos de símbolos y
       letras diseñados para su uso en computadoras, tanto para
       visualizar texto en una pantalla como para imprimir en papel.
 
@@ -541,8 +541,8 @@ o calidad.
          :align: center
          :width: 280px
 
-      Los formatos más utilizados para definir fuentes son los siguientes.      
-      
+      Los formatos más utilizados para definir fuentes son los siguientes.
+
       * `TrueType (TTF) <https://es.wikipedia.org/wiki/TrueType>`__:
         Formato desarrollado por Apple y Microsoft a finales de la década
         de 1980.
@@ -550,26 +550,26 @@ o calidad.
 
       * `PostScript (PS) <https://es.wikipedia.org/wiki/PostScript>`__:
         Lenguaje desarrollado por Adobe para la impresión con impresoras
-        de alta calidad. 
+        de alta calidad.
         Permite definir tipos de letra, aunque tiene muchas más
         aplicaciones.
 
       * `OpenType (OTF) <https://es.wikipedia.org/wiki/OpenType>`__:
-        Formato desarrollado por Microsoft y Adobe en 1996 para mejorar 
+        Formato desarrollado por Microsoft y Adobe en 1996 para mejorar
         y suceder a los dos formatos anteriores.
-        
+
         Actualmente es un estándar abierto (Open Font Format), disponible
         de manera pública y gratuita.
-        
+
       * `TeX <https://es.wikipedia.org/wiki/TeX>`__:
         Es un sistema de tipografía escrito por Donald E. Knuth, muy
         popular en el entorno académico universitario.
         El sistema **LaTeX** asociado, amplía las capacidades de TeX
         para composición de textos profesional.
-        
+
         Este sistema es **software libre**, por lo que cualquiera puede
         utilizarlo sin pagar licencia.
-      
+
 
 Test de la unidad
 -----------------

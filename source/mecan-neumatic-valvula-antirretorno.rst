@@ -174,7 +174,7 @@ se vaciará lentamente.
    Pistón de doble efecto con vástago saliendo de forma regulada.
 
 Este vaciado lento de la cámara derecha es lo que produce un movimiento
-lento del vástago hacia la derecha. 
+lento del vástago hacia la derecha.
 
 Al haber presión en ambas cámaras de aire, el pistón se encuentra sin
 libertad para moverse fuera de la posición que le corresponde.
@@ -212,7 +212,7 @@ Ejercicios
 
 #. Dibuja el esquema de un cilindro de doble efecto con la velocidad
    de salida y de entrada del vástago reguladas.
-   
+
 #. Simula el funcionamiento del circuito anterior.
 
    `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__

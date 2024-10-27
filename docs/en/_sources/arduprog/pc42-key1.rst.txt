@@ -354,7 +354,7 @@ Programa el código necesario para resolver los siguientes problemas.
 
 4. Modificar el programa anterior para que los ledes se enciendan desde el
    D6 hasta el D1.
-   Cuando llegue el turno de apagar el led D1, se encenderá de nuevo el 
+   Cuando llegue el turno de apagar el led D1, se encenderá de nuevo el
    led D6.
 
 

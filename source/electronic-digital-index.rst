@@ -25,17 +25,17 @@ integrado.
 
    electronic-digital-signals.rst
    electronic-error-detection.rst
+   electronic-error-correction.rst
+   electronic-binary.rst
 
 
 .. TO DO
 
-   electronic-error-restoration.rst
+   electronic-gray.rst
+   electronic-truth-table.rst
 
    electronic-schmitt-trigger.rst
    electronic-buffer-tristate.rst
-   
-   electronic-binary-gray.rst
-   electronic-truth-table.rst
 
    electronic-gate-not.rst
    electronic-gate-or.rst

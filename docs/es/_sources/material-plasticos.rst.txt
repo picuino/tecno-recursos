@@ -181,7 +181,7 @@ madera.
 
 Baquelita
    Fue el primer plástico sintético, creado en 1907.
-   Se puede fundir y moldear durante su fabricación, pero una vez 
+   Se puede fundir y moldear durante su fabricación, pero una vez
    solidificada no se podrá fundir de nuevo.
 
    Aún hoy usa para fabricar mangos de sartén y asas para enseres de

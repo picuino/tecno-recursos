@@ -59,17 +59,17 @@ Ejercicios
 
 #. ¿Qué ventajas tiene el pilotaje neumático de las válvulas?
 
-#. Dibuja el esquema de un cilindro de doble efecto, accionado por 
+#. Dibuja el esquema de un cilindro de doble efecto, accionado por
    una válvula 5/2 de doble pilotaje neumático, que a su vez es pilotada
    por dos válvulas 3/2 manuales.
-   
+
 #. Simula el funcionamiento del circuito anterior.
 
    `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
 
 #. Explica el funcionamiento del circuito anterior y sus ventajas.
 
-#. Dibuja el esquema de un cilindro de doble efecto, accionado por 
+#. Dibuja el esquema de un cilindro de doble efecto, accionado por
    una válvula 5/2 de doble pilotaje neumático, que a su vez es pilotada
    por una válvula 3/2 manual para que el cilindro salga y por una
    válvula de rodillo (de final de carrera) para que el cilindro entre.

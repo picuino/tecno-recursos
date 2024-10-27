@@ -44,7 +44,7 @@ Al revés, si la entrada negativa tiene una tensión mayor que la entrada
 positiva, la tensión de salida será negativa.
 
 La **diferencia** del comparador con respecto al amplificador operacional
-consiste en que su salida está preparada para entregar valores 
+consiste en que su salida está preparada para entregar valores
 extremos. La salida se conectará a la tensión de alimentación positiva o
 a la tensión de alimentación negativa.
 Este circuito no está preparado para dar valores de tensión intermedios.
@@ -55,8 +55,8 @@ rápida que la respuesta de un amplificador operacional equivalente.
 
 Simulación
 ----------
-En el siguiente circuito podemos ver un comparador funcionando como 
-detector de luminosidad. El circuito enciende una lámpara cuando 
+En el siguiente circuito podemos ver un comparador funcionando como
+detector de luminosidad. El circuito enciende una lámpara cuando
 el detector de luz detecta poca luminosidad en el exterior de la casa.
 
 Este comparador tiene una salida que se denomina en "colector abierto"
@@ -67,7 +67,7 @@ R4 para conseguir una tensión positiva a la salida.
 Esta resistencia R4 se denomina resistencia de
 `pull-up <https://en.wikipedia.org/wiki/Pull-up_resistor>`__ porque
 'levanta' la tensión de salida hacia valores positivos.
- 
+
 .. raw:: html
 
    <div class="video-center">

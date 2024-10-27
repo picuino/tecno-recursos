@@ -162,7 +162,7 @@ Ejercicios
    varios cubos.
 
    .. image:: freecad/_images/freecad-p04-ejercicio06.png
-   
+
    Pistas:
       * El tamaño de los peldaños es de 3 x 10 x 30 mm.
       * La altura de cada peldaño es de 8 mm más que el anterior.

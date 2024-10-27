@@ -88,7 +88,7 @@ y la privacidad al compartir información en línea.
 
 3. :index:`DNS (Domain Name System)`
 ------------------------------------
-El `DNS 
+El `DNS
 <https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio>`__
 (Sistema de Nombres de Dominio, por sus siglas en inglés)
 es un sistema fundamental en Internet que actúa como una especie de
@@ -201,47 +201,47 @@ que pueden ser ciberdelincuentes.
 ---------------------------
 La `huella digital
 <https://es.wikipedia.org/wiki/Huella_digital>`__
-en el contexto de la ciberseguridad se refiere a la información única y 
-específica que un dispositivo o usuario deja detrás al interactuar en 
-línea. Esta información incluye datos como direcciones IP, cookies, 
-historial de navegación, comportamiento de usuario y otros atributos que 
-pueden ser utilizados para identificar o rastrear a una persona o 
+en el contexto de la ciberseguridad se refiere a la información única y
+específica que un dispositivo o usuario deja detrás al interactuar en
+línea. Esta información incluye datos como direcciones IP, cookies,
+historial de navegación, comportamiento de usuario y otros atributos que
+pueden ser utilizados para identificar o rastrear a una persona o
 dispositivo en particular.
 
-Por ejemplo, cuando un usuario visita un sitio web, su navegador web 
-envía cierta información al servidor del sitio, como la dirección IP, 
-tipo de navegador, sistema operativo y cookies. Esta información forma 
-parte de la huella digital del usuario y puede ser utilizada por el sitio 
-web para personalizar la experiencia del usuario o incluso para rastrear 
+Por ejemplo, cuando un usuario visita un sitio web, su navegador web
+envía cierta información al servidor del sitio, como la dirección IP,
+tipo de navegador, sistema operativo y cookies. Esta información forma
+parte de la huella digital del usuario y puede ser utilizada por el sitio
+web para personalizar la experiencia del usuario o incluso para rastrear
 sus actividades en línea.
 
 La huella digital plantea varios problemas potenciales para los usuarios
 en términos de privacidad y seguridad:
 
 Rastreo no deseado:
-   La información recopilada a través de la huella digital puede ser 
-   utilizada por empresas y anunciantes para rastrear las actividades en 
-   línea de los usuarios, lo que puede resultar en la creación de 
+   La información recopilada a través de la huella digital puede ser
+   utilizada por empresas y anunciantes para rastrear las actividades en
+   línea de los usuarios, lo que puede resultar en la creación de
    perfiles detallados y el envío de anuncios dirigidos.
 
-Violación de la privacidad: 
+Violación de la privacidad:
    La recopilación y el uso de la huella digital pueden violar la
    privacidad del usuario al revelar información personal, como hábitos
    de navegación, ubicación geográfica y preferencias en línea, sin su
    consentimiento explícito.
-   
+
 Vulnerabilidades de seguridad:
-   Los datos de la huella digital pueden ser utilizados por 
-   ciberdelincuentes para llevar a cabo ataques de ingeniería social, 
-   phishing o incluso robo de identidad. La información recopilada puede 
-   ser aprovechada para realizar ataques dirigidos con el fin de 
+   Los datos de la huella digital pueden ser utilizados por
+   ciberdelincuentes para llevar a cabo ataques de ingeniería social,
+   phishing o incluso robo de identidad. La información recopilada puede
+   ser aprovechada para realizar ataques dirigidos con el fin de
    comprometer la seguridad de los usuarios.
 
 Dependencia de plataformas:
-   Los usuarios pueden perder el control sobre su propia información 
-   cuando dependen en exceso de plataformas en línea que recopilan y 
-   almacenan datos de huella digital. Esto puede resultar en una 
-   vulnerabilidad a violaciones de datos y abuso de la información por 
+   Los usuarios pueden perder el control sobre su propia información
+   cuando dependen en exceso de plataformas en línea que recopilan y
+   almacenan datos de huella digital. Esto puede resultar en una
+   vulnerabilidad a violaciones de datos y abuso de la información por
    parte de terceros.
 
 
@@ -282,8 +282,8 @@ grupos de discusión y acceder a contenido educativo y oportunidades
 laborales relevantes.
 
 En resumen, las redes sociales son plataformas en línea que facilitan
-la conexión, comunicación y colaboración entre personas de todo el 
-mundo, lo que permite construir y mantener relaciones, compartir 
+la conexión, comunicación y colaboración entre personas de todo el
+mundo, lo que permite construir y mantener relaciones, compartir
 intereses y estar al tanto de las novedades en diversos campos.
 
 

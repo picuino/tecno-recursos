@@ -97,7 +97,7 @@ bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
 ----
 
 .. image:: material/_thumbs/sargento.jpg
-	:width: 120px
+   :width: 120px
 
 `Imagen Temperguss-Schraubzwinge <https://commons.wikimedia.org/wiki/File:Temperguss-Schraubzwinge.jpg>`__
 de BESSEY Tool GmbH & Co. KG
@@ -106,7 +106,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 Germany <https://cre
 ----
 
 .. image:: material/_thumbs/destornillador.jpg
-	:width: 120px
+   :width: 120px
 
 `Imagen Yellow-flathead-screwdriver <https://commons.wikimedia.org/wiki/File:Temperguss-Schraubzwinge.jpg>`__
 de `Iainf <https://commons.wikimedia.org/wiki/User:Iainf>`__
@@ -115,7 +115,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://cr
 ----
 
 .. image:: material/_thumbs/alicates.jpg
-	:width: 120px
+   :width: 120px
 
 `Imagen Kombinationszange <https://commons.wikimedia.org/wiki/File:Kombinationszange.jpg>`__
 de Stefan Pohl
@@ -125,8 +125,8 @@ bajo licencia de dominio público.
 ----
 
 .. image:: material/_thumbs/regla-metal.jpg
-	:width: 120px
-	:target: https://commons.wikimedia.org/wiki/File:Steel_ruler_closeup.jpg
+   :width: 120px
+   :target: https://commons.wikimedia.org/wiki/File:Steel_ruler_closeup.jpg
 
 `Imagen Steel ruler closeup <https://commons.wikimedia.org/wiki/File:Steel_ruler_closeup.jpg>`__
 de `Ejay <https://commons.wikimedia.org/wiki/User:Ejay>`__
@@ -242,7 +242,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://cr
 ----
 
 .. image:: scratch3/_images/scratch3-p11-olympic-flag.png
-	:width: 120px
+   :width: 120px
 
 `Imagen Bandera Olímpica <https://commons.wikimedia.org/wiki/File:Olympic_flag.svg>`__
 de Pierre de Coubertin
@@ -254,7 +254,7 @@ Informática
 ^^^^^^^^^^^
 
 .. image:: informatica/_thumbs/informatica-computer.png
-	:width: 120px
+   :width: 120px
 
 `Imagen Computer <https://openclipart.org/detail/17924/computer>`__
 de `AJ <https://openclipart.org/artist/AJ>`__
@@ -263,7 +263,7 @@ bajo `licencia Creative Commons Zero 1.0 Public Domain License <http://creativec
 ----
 
 .. image:: html/_thumbs/beach-01.jpg
-	:width: 120px
+   :width: 120px
 
 `Imagen Beach calm clouds idyllic <https://www.pexels.com/photo/beach-calm-clouds-idyllic-457882/>`__
 de `Asad Photo Maldivas <https://www.pexels.com/@asadphotography>`__
@@ -272,7 +272,7 @@ bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
 ----
 
 .. image:: html/_thumbs/chart-01.png
-	:width: 120px
+   :width: 120px
 
 `Imagen Spa elec gen <https://commons.wikimedia.org/wiki/File:Spa_elec_gen.PNG>`__
 de Zmzmzm2
@@ -281,7 +281,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https
 ----
 
 .. image:: html/_thumbs/portrait.png
-	:width: 120px
+   :width: 120px
 
 `Imagen Portrait <https://www.flaticon.com/free-icon/portrait_175062>`__
 de `Metropolicons <https://www.flaticon.com/authors/metropolicons>`__
@@ -291,7 +291,7 @@ bajo `licencia Freepik <https://www.freepikcompany.com/legal#nav-flaticon>`__
 ----
 
 .. image:: html/_thumbs/html5-logo.png
-	:width: 120px
+   :width: 120px
 
 `Imagen Logotipo oficial HTML5 <https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg>`__
 de `W3C <http://www.w3.org/html/logo/index.html>`__
@@ -300,7 +300,7 @@ bajo `licencia Creative Commons Attribution 3.0 Unported <https://creativecommon
 ----
 
 .. image:: css/_thumbs/css3-logo.png
-	:width: 120px
+   :width: 120px
 
 `Imagen Logotipo oficial CSS3 <https://commons.wikimedia.org/wiki/File:CSS.3.svg>`__
 de W3C

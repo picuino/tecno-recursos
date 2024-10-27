@@ -66,7 +66,7 @@ Tutorial para aprender a programar con el lenguaje Python.
    python-sort-mezcla.rst
 
    python-codewars.rst
-   
+
    python-recursos.rst
 
 

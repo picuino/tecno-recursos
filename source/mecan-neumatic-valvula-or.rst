@@ -189,15 +189,15 @@ Ejercicios
 
 #. Dibuja el funcionamiento de una válvula selectora neumática cuando
    recibe aire a presión por la vía derecha.
-   
+
    Dibuja el funcionamiento de una válvula selectora neumática cuando
    recibe aire a presión por la vía izquierda.
 
 #. Explica el funcionamiento de la válvula selectora y dibuja su tabla de
    verdad.
 
-#. Simula el funcionamiento de un cilindro de simple efecto con un 
-   vástago que debe salir al accionar una cualquiera de las 
+#. Simula el funcionamiento de un cilindro de simple efecto con un
+   vástago que debe salir al accionar una cualquiera de las
    **dos válvulas 3/2** de maniobra.
 
    `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__

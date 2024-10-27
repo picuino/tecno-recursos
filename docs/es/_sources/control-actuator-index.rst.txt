@@ -18,7 +18,7 @@ Dispositivos producen movimiento, sonido, luz, etc.
 .. toctree::
    :numbered: 1
    :maxdepth: 1
-   
+
    control-actuator-servomotor.rst
    control-actuator-buzzer.rst
    control-actuator-speaker.rst

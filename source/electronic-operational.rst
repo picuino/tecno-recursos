@@ -107,7 +107,7 @@ Ejercicios
 
 #. ¿Qué ventajas tiene un amplificador operacional frente a los
    amplificadores basados en transistores?
-   
+
    ¿Y qué desventaja tiene?
 
 #. Modifica la resistencia variable del simulador y escribe con qué

@@ -61,7 +61,7 @@ Ejercicios
 
       edad = input('Escribe tu edad: ')
       edad = int(edad)
-      
+
       if ... :
 
 
