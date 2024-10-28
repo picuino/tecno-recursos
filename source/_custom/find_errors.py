@@ -8,6 +8,7 @@ def main():
         for filename in files:
             if os.path.splitext(filename)[1] == '.rst':
                 find_errors(os.path.join(root, filename))
+    input('Pulsa Enter')
 
 
 def find_errors(filename):

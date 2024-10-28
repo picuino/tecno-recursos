@@ -16,7 +16,7 @@ and has no binary gaps.
 
 Write a function:
 
-	def solution(N)
+    def solution(N)
 
 that, given a positive integer N, returns the length of its longest
 binary gap. The function should return 0 if N doesn't contain a binary
@@ -29,7 +29,7 @@ binary representation '100000' and thus no binary gaps.
 
 Write an efficient algorithm for the following assumptions:
 
-		N is an integer within the range [1..2,147,483,647].
+        N is an integer within the range [1..2,147,483,647].
 
 
 
@@ -46,7 +46,7 @@ the highest power of 2 that divides N.
 
 Write a function:
 
-	def solution(N)
+    def solution(N)
 
 that, given a positive integer N, returns the highest power of 2 that
 divides N.
@@ -56,7 +56,7 @@ explained above.
 
 Assume that:
 
-		N is an integer within the range [1..1,000,000,000].
+        N is an integer within the range [1..1,000,000,000].
 
 In your solution, focus on correctness. The performance of your solution
 will not be the focus of the assessment.
@@ -89,7 +89,7 @@ fourth position (because A[4] = 2). So, the first unique number is 5.
 
 Write a function:
 
-	def solution(A)
+    def solution(A)
 
 that, given a non-empty array A of N integers, returns the first unique
 number in A. The function should return −1 if there are no unique numbers
@@ -119,9 +119,9 @@ occur more than once).
 
 Write an efficient algorithm for the following assumptions:
 
-	 * N is an integer within the range [1..100,000];
-	 * each element of array A is an integer within the range
-	   [0..1,000,000,000].
+     * N is an integer within the range [1..100,000];
+     * each element of array A is an integer within the range
+       [0..1,000,000,000].
 
 
 
@@ -161,7 +161,7 @@ Problem
 
 Write a function:
 
-	def solution(T)
+    def solution(T)
 
 that, given a non-empty binary tree T consisting of N nodes, returns its
 height. For example, given tree T shown in the figure above, the function
@@ -173,13 +173,13 @@ Technical details
 A binary tree can be given using a pointer data structure. Assume that the
 following declarations are given:
 
-	from dataclasses import dataclass, field
+    from dataclasses import dataclass, field
 
-	@dataclass
-	class Tree:
-		x: int = 0
-		l: "Tree" = None
-		r: "Tree" = None
+    @dataclass
+    class Tree:
+        x: int = 0
+        l: "Tree" = None
+        r: "Tree" = None
 
 An empty tree is represented by an empty pointer (denoted by None).
 A non-empty tree is represented by a pointer to an object representing
@@ -198,9 +198,9 @@ Assumptions
 
 Write an efficient algorithm for the following assumptions:
 
-	* N is an integer within the range [1..1,000];
-	* the height of tree T (number of edges on the longest path from
-	  root to leaf) is within the range [0..500].
+    * N is an integer within the range [1..1,000];
+    * the height of tree T (number of edges on the longest path from
+      root to leaf) is within the range [0..500].
 
 
 
@@ -222,7 +222,7 @@ How many games can be hosted in parallel simultaneously?
 
 Write a function:
 
-	def solution(P, C)
+    def solution(P, C)
 
 that, given the number of players P and the number of reserved courts C,
 returns the maximum number of games that can be played in parallel.
@@ -240,7 +240,7 @@ Examples:
 
 Assume that:
 
-	P and C are integers within the range [1..30,000].
+    P and C are integers within the range [1..30,000].
 
 In your solution, focus on correctness. The performance of your solution
 will not be the focus of the assessment.
@@ -253,9 +253,9 @@ Ejercicio 7
 You would like to set a password for a bank account. However, there are
 three restrictions on the format of the password:
 
-	* it has to contain only alphanumerical characters (a−z, A−Z, 0−9);
-	* there should be an even number of letters;
-	* there should be an odd number of digits.
+    * it has to contain only alphanumerical characters (a−z, A−Z, 0−9);
+    * there should be an even number of letters;
+    * there should be an odd number of digits.
 
 You are given a string S consisting of N characters. String S can be
 divided into words by splitting it at, and removing, the spaces.
@@ -272,7 +272,7 @@ of digits (zero).
 
 Write a function:
 
-	def solution(S)
+    def solution(S)
 
 that, given a non-empty string S consisting of N characters, returns
 the length of the longest word from the string that is a valid password.
@@ -283,8 +283,8 @@ return 7, as explained above.
 
 Assume that:
 
-		N is an integer within the range [1..200];
-		string S consists only of printable ASCII characters and spaces.
+        N is an integer within the range [1..200];
+        string S consists only of printable ASCII characters and spaces.
 
 In your solution, focus on correctness. The performance of your solution
 will not be the focus of the assessment.
@@ -339,34 +339,34 @@ https://adriann.github.io/programming_problems.html
    language makes it difficult to pass functions as arguments.)
 9. Write a function that concatenates two lists. [a,b,c], [1,2,3] → [a,b,c,1,2,3]
 10. Write a function that combines two lists by alternatingly taking
-	elements, e.g. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
+    elements, e.g. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
 11. Write a function that merges two sorted lists into a new sorted
-	list. [1,4,6],[2,3,5] → [1,2,3,4,5,6]. You can do this quicker than concatenating them followed by a sort.
+    list. [1,4,6],[2,3,5] → [1,2,3,4,5,6]. You can do this quicker than concatenating them followed by a sort.
 12. Write a function that rotates a list by k elements. For example [1,2,3,4,5,6] rotated by two becomes [3,4,5,6,1,2]. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 13. Write a function that computes the list of the first 100 Fibonacci numbers. The first two Fibonacci numbers are 1 and 1. The n+1-st Fibonacci number can be computed by adding the n-th and the n-1-th Fibonacci number. The first few are therefore 1, 1, 1+1=2, 1+2=3, 2+3=5, 3+5=8.
 14. Write a function that takes a number and returns a list of its digits. So for 2342 it should return [2,3,4,2].
 15. Write functions that add, subtract, and multiply two numbers in their digit-list representation (and return a new digit list). If you’re ambitious you can implement Karatsuba multiplication. Try different bases. What is the best base if you care about speed? If you couldn’t completely solve the prime number exercise above due to the lack of large numbers in your language, you can now use your own library for this task.
 16. Write a function that takes a list of numbers, a starting base b1 and a target base b2 and interprets the list as a number in base b1 and converts it into a number in base b2 (in the form of a list-of-digits). So for example [2,1,0] in base 3 gets converted to base 10 as [2,1].
 17. Implement the following sorting algorithms: Selection sort,
-	Insertion sort, Merge sort, Quick sort, Stooge Sort.
-	Check Wikipedia for descriptions.
+    Insertion sort, Merge sort, Quick sort, Stooge Sort.
+    Check Wikipedia for descriptions.
 18. Implement binary search.
 19. Write a function that takes a list of strings an prints them, one per
-	line, in a rectangular frame. For example the list ["Hello", "World",
-	"in", "a", "frame"] gets printed as:
+    line, in a rectangular frame. For example the list ["Hello", "World",
+    "in", "a", "frame"] gets printed as:
 
-	*********
-	* Hello *
-	* World *
-	* in	*
-	* a		*
-	* frame *
-	*********
+    *********
+    * Hello *
+    * World *
+    * in    *
+    * a     *
+    * frame *
+    *********
 
 20. Write function that translates a text to Pig Latin and back.
-	English is translated to Pig Latin by taking the first letter
-	of every word, moving it to the end of the word and adding ‘ay’.
-	“The quick brown fox” becomes “Hetay uickqay rownbay oxfay”.
+    English is translated to Pig Latin by taking the first letter
+    of every word, moving it to the end of the word and adding ‘ay’.
+    “The quick brown fox” becomes “Hetay uickqay rownbay oxfay”.
 
 
 Ejercicio 9
@@ -386,11 +386,11 @@ https://edabit.com/challenges
 
 * Luke Skywalker has family and friends. Help him remind them who is who.
   Given a string with a name, return the relation of that person to Luke.
-  Person		Relation
-  Darth Vader	father
-  Leia			sister
-  Han			brother in law
-  R2D2			droid
+  Person        Relation
+  Darth Vader   father
+  Leia          sister
+  Han           brother in law
+  R2D2          droid
 
   relation_to_luke("Darth Vader") ➞ "Luke, I am your father."
 

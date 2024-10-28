@@ -118,13 +118,17 @@ se rompe en el número 5:</p>
 </pre></div>
 </div>
 <p>En este otro ejemplo, un programa busca el primer número que sea múltiplo
-de 5 y de 7 entre los primeros 100 números.
+de 5 y múltiplo de 7 entre los primeros 100 números.
 El programa deja de buscar cuando encuentra el primer número que cumpla
 la condición:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">):</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">num</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">num</span> <span class="o">%</span> <span class="mi">7</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
         <span class="k">break</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>La salida por pantalla del anterior código será la siguiente:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">35</span>
 </pre></div>
 </div>
 <p>En los bucles <code class="docutils literal notranslate"><span class="pre">for</span></code> también se puede utilizar la sentencia <code class="docutils literal notranslate"><span class="pre">else</span></code>.
@@ -137,9 +141,12 @@ termina debido a una sentencia <code class="docutils literal notranslate"><span 
         <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s1">&#39;es divisible por 5 y por 7&#39;</span><span class="p">)</span>
         <span class="k">break</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Ningún número es divisible por 5 y por 7&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;No encontrado ningún número divisible por 5 y por 7&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+<p>El ejemplo dará como resultado el número 35, pero si reducimos el rango
+a <code class="docutils literal notranslate"><span class="pre">range(1,</span> <span class="pre">30)</span></code> el resultado nos dirá que no ha encontrado ningún
+número divisible por 5 y por 7.</p>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic">

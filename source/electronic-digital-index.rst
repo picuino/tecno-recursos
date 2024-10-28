@@ -27,15 +27,12 @@ integrado.
    electronic-error-detection.rst
    electronic-error-correction.rst
    electronic-binary.rst
-
+   electronic-gate-not.rst
 
 .. TO DO
 
    electronic-gray.rst
    electronic-truth-table.rst
-
-   electronic-schmitt-trigger.rst
-   electronic-buffer-tristate.rst
 
    electronic-gate-not.rst
    electronic-gate-or.rst
@@ -46,6 +43,9 @@ integrado.
 
    electronic-ttl.rst
    electronic-cmos.rst
+
+   electronic-schmitt-trigger.rst
+   electronic-buffer-tristate.rst
 
    electronic-combinational.rst
    electronic-decoder.rst

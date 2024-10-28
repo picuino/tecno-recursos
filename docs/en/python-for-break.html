@@ -123,11 +123,18 @@ se rompe en el número 5:</p>
 <span class="n">Final</span>
 </pre></div>
 </div>
-<p>In this other example, a program looks for the first number that is a multiple of 5 and 7 among the first 100 numbers. The program stops searching when it finds the first number that meets the condition:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">):</span>
+<p>En este otro ejemplo, un programa busca el primer número que sea múltiplo
+de 5 y múltiplo de 7 entre los primeros 100 números.
+El programa deja de buscar cuando encuentra el primer número que cumpla
+la condición:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">num</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">num</span> <span class="o">%</span> <span class="mi">7</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
         <span class="k">break</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>La salida por pantalla del anterior código será la siguiente:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">35</span>
 </pre></div>
 </div>
 <p>You can also use the <code class="docutils literal notranslate"><span class="pre">else</span></code> statement in <code class="docutils literal notranslate"><span class="pre">for</span></code> loops. The block of code inside the <code class="docutils literal notranslate"><span class="pre">else</span></code> statement will be executed whenever the for loop terminates normally and will not be executed if the for loop terminates due to a <code class="docutils literal notranslate"><span class="pre">break</span></code> statement</p>
@@ -137,9 +144,12 @@ se rompe en el número 5:</p>
         <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s1">&#39;es divisible por 5 y por 7&#39;</span><span class="p">)</span>
         <span class="k">break</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Ningún número es divisible por 5 y por 7&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;No encontrado ningún número divisible por 5 y por 7&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+<p>El ejemplo dará como resultado el número 35, pero si reducimos el rango
+a <code class="docutils literal notranslate"><span class="pre">range(1,</span> <span class="pre">30)</span></code> el resultado nos dirá que no ha encontrado ningún
+número divisible por 5 y por 7.</p>
 <div class="section" id="ejercicios">
 <h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">

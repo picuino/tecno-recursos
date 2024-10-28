@@ -34,15 +34,18 @@ La salida por pantalla del anterior código será la siguiente::
    Final
 
 En este otro ejemplo, un programa busca el primer número que sea múltiplo
-de 5 y de 7 entre los primeros 100 números.
+de 5 y múltiplo de 7 entre los primeros 100 números.
 El programa deja de buscar cuando encuentra el primer número que cumpla
 la condición::
 
-   for num in range(1, 100):
+   for num in range(1, 101):
        if (num % 5 == 0) and (num % 7 == 0):
-           print(num)
            break
+   print(num)
 
+La salida por pantalla del anterior código será la siguiente::
+
+   35
 
 En los bucles ``for`` también se puede utilizar la sentencia ``else``.
 El bloque de código dentro de la sentencia ``else`` se ejecutará siempre
@@ -56,8 +59,11 @@ Ejemplo::
            print(num, 'es divisible por 5 y por 7')
            break
    else:
-       print('Ningún número es divisible por 5 y por 7')
+       print('No encontrado ningún número divisible por 5 y por 7')
 
+El ejemplo dará como resultado el número 35, pero si reducimos el rango
+a ``range(1, 30)`` el resultado nos dirá que no ha encontrado ningún 
+número divisible por 5 y por 7.
 
 
 Ejercicios

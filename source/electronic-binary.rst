@@ -101,7 +101,7 @@ solo es necesario sumar aquellos valores que corresponden a un uno en
 el número binario:
 
 .. figure:: electronic/_images/electronic-binary-04.png
-   :width: 305px
+   :width: 350px
    :align: center
    :alt: Conversión de binario a decimal.
 

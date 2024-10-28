@@ -11,6 +11,20 @@ paths = [
    '../uno-doc',
    ]
 
+exclude_words = [
+   'https',
+   'html',
+   'images',
+   'image',
+   'align',
+   'center',
+   'width',
+   'license', 'creative', 'commons', 'attribution',
+   'sharealike', 'international',
+   'author', 'carlos', 'félix', 'pardo', 'martín',
+   'date',
+   ]
+
 exclude_files = [
    'python-codewars.rst',
    'recursos-pelandintecno.rst',
@@ -74,13 +88,13 @@ def process(path, exclude_files, counters, word_list):
 
 def count_words(data, counters, words_dict):
    counters['num_files'] += 1
-   for i in range(len(data)):
-      line = data[i].strip('\r\n ')
+   for i, line in enumerate(data):
+      line = line.strip('\r\n ')
       if len(line) < 3:
          continue
       line = re.sub(r'[^a-zA-ZñÑáéíóúÁÉÍÓÚüÜë]+', ' ', line)
       words = re.split('\s+', line)
-      num_words = 0      
+      num_words = 0
       for word in words:
          if add_item(word, words_dict):
             num_words += 1
@@ -92,7 +106,7 @@ def count_words(data, counters, words_dict):
 def add_item(word, words_dict):
    if len(word) <= 3 or len(word) >= 24:
       return False
-
+   
    try:
        if str(int(word)) == word:
            return False
@@ -100,6 +114,9 @@ def add_item(word, words_dict):
        pass
 
    word = word.lower()
+   if word in exclude_words:
+      return False
+   
    if word in words_dict:
       words_dict[word] += 1
    else:
