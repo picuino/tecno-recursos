@@ -27,7 +27,7 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="Wiring of electronic components" href="electronic-bornas-index.html">
+  <link rel="next" title="8. La puerta lógica XOR" href="electronic-gate-xor.html">
   <link rel="prev" title="6. La puerta lógica OR" href="electronic-gate-or.html">
 
 </head>
@@ -103,35 +103,69 @@
             
   <div class="section" id="la-puerta-logica-and">
 <span id="electronic-gate-and"></span><h1><span class="section-number">7. </span>La puerta lógica AND<a class="headerlink" href="#la-puerta-logica-and" title="Permalink to this headline">¶</a></h1>
+<p>La puerta lógica AND tiene dos o más entradas y una salida.
+Su símbolo es el siguiente:</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-simbolo-puerta-and.png"><img alt="Puerta lógica AND." src="_images/electronic-simbolo-puerta-and.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Puerta lógica AND.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Símbolo de la puerta lógica AND.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
+<p>La salida tiene un valor lógico alto (1) si todas sus entradas
+tiene un valor lógico alto (1).
+Es decir, si la entrada A <strong>y</strong> la entrada B están a nivel alto, la salida
+estará a nivel alto. De ahí el nombre <strong>AND</strong> en inglés.</p>
+<p>La función lógica AND se representa mediante una multiplicación, de manera que
+la salida de la puerta será la multiplicación lógica de las entradas:</p>
+<div class="math">
+<p><img src="_images/math/da7e15d1e9215d1d516d70a96e3206d93fca70dd.svg" alt="Out = A \cdot B"></p>
+</div><p>Si las dos entradas valen uno, la salida valdrá uno, pero
+si alguna entrada vale cero, la salida valdrá cero.</p>
+<p>La tabla de verdad de la función lógica AND es la siguiente:</p>
 <div class="figure align-center" id="id2">
-<a class="reference internal image-reference" href="_images/electronic-puerta-and-02.png"><img alt="Tabla de verdad de la puerta lógica AND." src="_images/electronic-puerta-and-02.png" style="width: 190px;"></a>
+<a class="reference internal image-reference" href="_images/electronic-puerta-and-02.png"><img alt="Tabla de verdad de la puerta lógica AND." src="_images/electronic-puerta-and-02.png" style="width: 160px;"></a>
 <p class="caption"><span class="caption-text">Tabla de verdad de la puerta lógica AND.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="la-puerta-logica-nand">
 <h2>La puerta lógica NAND<a class="headerlink" href="#la-puerta-logica-nand" title="Permalink to this headline">¶</a></h2>
+<p>La puerta lógica NAND tiene dos o más entradas y una salida.
+Su símbolo es el siguiente:</p>
 <div class="figure align-center" id="id3">
 <a class="reference internal image-reference" href="_images/electronic-simbolo-puerta-nand.png"><img alt="Puerta lógica NAND." src="_images/electronic-simbolo-puerta-nand.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Puerta lógica NAND.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Símbolo de la puerta lógica NAND.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
+<p>La salida será la misma que la de una puerta AND, pero invertida.
+Es decir que la salida solo valdrá cero cuando todas las entradas valgan
+uno.</p>
+<p>La función lógica NAND se representa mediante una multiplicación negada,
+de manera que la salida de la puerta será la multiplicación lógica de las entradas
+que finalmente se invierte:</p>
+<div class="math">
+<p><img src="_images/math/4f974054d96a33ea9993b9246badaa092e10f81b.svg" alt="Out = \overline{ A \cdot B }"></p>
+</div><p>La tabla de verdad de la función lógica NAND es la siguiente:</p>
 <div class="figure align-center" id="id4">
-<a class="reference internal image-reference" href="_images/electronic-puerta-nand-02.png"><img alt="Tabla de verdad de la puerta lógica NAND." src="_images/electronic-puerta-nand-02.png" style="width: 190px;"></a>
+<a class="reference internal image-reference" href="_images/electronic-puerta-nand-02.png"><img alt="Tabla de verdad de la puerta lógica NAND." src="_images/electronic-puerta-nand-02.png" style="width: 160px;"></a>
 <p class="caption"><span class="caption-text">Tabla de verdad de la puerta lógica NAND.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="simulacion">
 <h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>En la siguiente simulación podemos ver el
+funcionamiento de la puerta lógica AND y, debajo,
+el funcionamiento de la puerta lógica NAND.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=digital-puerta-and.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Dibuja el símbolo de la puerta lógica AND y su tabla de verdad.</li>
-<li>Dibuja el símbolo de la puerta lógica NAND y su tabla de verdad.</li>
+<li>Dibuja el símbolo de la puerta lógica AND,
+su función lógica y su tabla de verdad.</li>
+<li>Dibuja el símbolo de la puerta lógica NAND,
+su función lógica y su tabla de verdad.</li>
+<li>Comprueba gracias al simulador que
+la tabla de verdad de la función AND
+y que la tabla de verdad de la función NAND son correctas.</li>
+<li>En el simulador añade una puerta inversora a la salida de la puerta
+AND y comprueba que su respuesta es igual a la de la puerta NAND.</li>
 </ol>
 </div>
 </div>
@@ -145,7 +179,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-bornas-index.html" class="btn btn-neutral float-right" title="Wiring of electronic components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-gate-xor.html" class="btn btn-neutral float-right" title="8. La puerta lógica XOR" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="electronic-gate-or.html" class="btn btn-neutral" title="6. La puerta lógica OR" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -247,6 +281,7 @@
 <li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. La puerta lógica OR</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">7. La puerta lógica AND</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. La puerta lógica XOR</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>

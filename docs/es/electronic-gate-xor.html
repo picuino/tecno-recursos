@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" >
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="Tecnología, Educación Secundaria, Dibujo, Estructuras, Mecanismos, Materiales, Electricidad, Electrónica, Informática, Programación, Control, Arduino, Comunicaciones, Taller, Legislación Educativa">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Electrónica - Electrónica digital - 8. La puerta lógica XOR">
+  <title>8. La puerta lógica XOR - Electrónica digital - Picuino</title>
+
+  
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+  
+  <link rel="canonical" href="https://www.picuino.com/es/electronic-gate-xor.html">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="Search within ..."
+        href="_static/opensearch.xml">
+
+  <link rel="stylesheet" href="_static/theme.css" type="text/css">
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css">
+  <link rel="stylesheet" href="_static/custom.css" type="text/css">
+  <link rel="glossary" title="Glossary" href="genindex.html">
+  <link rel="index" title="Índice" href="content.html">
+  <link rel="search" title="Búsqueda" href="search.html">
+  <link rel="next" title="Cableado de componentes electrónicos" href="electronic-bornas-index.html">
+  <link rel="prev" title="7. La puerta lógica AND" href="electronic-gate-and.html">
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    <div data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content.html"><img src="_static/logo-picuino-bgblue.png" alt="O_[]¯O Picuino"></a>
+      </nav>
+
+	  <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content.html">Home</a>/</li>
+        
+          <li><a href="electronic-index.html">Electrónica</a>/</li>
+        
+          <li><a href="electronic-digital-index.html">Electrónica digital</a>/</li>
+        
+      <li><span class="section-number">8. </span>La puerta lógica XOR</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/electronic-gate-xor.rst.txt" rel="nofollow"> Ver texto fuente</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+
+  
+  <hr>
+
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="la-puerta-logica-xor">
+<span id="electronic-gate-xor"></span><h1><span class="section-number">8. </span>La puerta lógica XOR<a class="headerlink" href="#la-puerta-logica-xor" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>La puerta lógica XOR tiene dos o más entradas y una salida.
+Su símbolo es el siguiente:</p>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="_images/electronic-simbolo-puerta-xor.png"><img alt="Puerta lógica XOR." src="_images/electronic-simbolo-puerta-xor.png" style="width: 180px;"></a>
+<p class="caption"><span class="caption-text">Símbolo de la puerta lógica XOR de dos entradas.</span><a class="headerlink" href="#id1" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<p>La salida tiene un valor lógico alto (1) si la suma de las entradas
+es un valor impar.
+Es decir, si la entrada A <strong>o</strong> la entrada B están a nivel alto, pero
+no las dos a la vez, la salida estará a nivel alto.
+De ahí el nombre de <strong>eXclusive OR</strong> en inglés.</p>
+<p>La función lógica XOR se representa mediante un símbolo de suma rodeado
+de un círculo, de manera que la salida de la puerta será la suma lógica
+exclusiva de las entradas:</p>
+<div class="math">
+<p><img src="_images/math/e47d0d16cbf242e15f090629d1043f43f3ce23f5.svg" alt="Out = A \oplus B"></p>
+</div><p>Si las dos entradas valen cero, la salida valdrá cero,
+si alguna entrada vale uno, la salida valdrá uno
+y si las dos entradas valen uno, la salida volverá a valer cero.</p>
+<p>La tabla de verdad de la función lógica XOR es la siguiente:</p>
+<div class="figure align-center" id="id2">
+<a class="reference internal image-reference" href="_images/electronic-puerta-xor-02.png"><img alt="Tabla de verdad de la puerta lógica XOR." src="_images/electronic-puerta-xor-02.png" style="width: 160px;"></a>
+<p class="caption"><span class="caption-text">Tabla de verdad de la puerta lógica XOR.</span><a class="headerlink" href="#id2" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+<div class="section" id="aplicaciones-de-la-puerta-xor">
+<h2>Aplicaciones de la puerta XOR<a class="headerlink" href="#aplicaciones-de-la-puerta-xor" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>La puerta XOR puede utilizarse para calcular el valor de paridad de
+todas sus entradas, de manera que las entradas junto a la salida siempre
+tendrán un valor par de unos.</li>
+<li>Otra aplicación de la puerta XOR es hacer sumas aritméticas de bits.
+La puerta XOR calcula la suma aritmética de dos bits y la puerta AND
+calcula el acarreo de sumar dos bits.</li>
+<li>Otra aplicación de la puerta XOR es invertir o no invertir el valor de la
+entrada B en función de la entrada A:<ul>
+<li>Si la entrada A vale cero, la entrada B se copia igual en la salida.</li>
+<li>Si la entrada A  vale uno, la entrada B se copia <strong>invertida</strong> en la
+salida.</li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="simulacion">
+<h2>Simulación<a class="headerlink" href="#simulacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En la siguiente simulación podemos ver el funcionamiento de
+la puerta lógica XOR.</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=digital-puerta-xor.txt"></iframe>
+</div></div>
+<div class="section" id="ejercicios">
+<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Dibuja el símbolo de la puerta lógica XOR,
+su función lógica y su tabla de verdad.</p>
+</li>
+<li><p class="first">Comprueba gracias al simulador que
+la tabla de verdad de la función XOR es correcta.</p>
+</li>
+<li><p class="first">En el simulador copia el circuito que aparece en la siguiente imagen
+para emular el funcionamiento de la puerta XOR mediante
+puertas NOT, OR y AND:</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/electronic-puerta-xor-03.png"><img alt="Puerta XOR simulada con puertas NOT, OR y AND." src="_images/electronic-puerta-xor-03.png" style="width: 480px;"></a>
+</div>
+<p>Comprueba que su funcionamiento es igual al de la puerta XOR.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="electronic-bornas-index.html" class="btn btn-neutral float-right" title="Cableado de componentes electrónicos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="electronic-gate-and.html" class="btn btn-neutral" title="7. La puerta lógica AND" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <ul class="link-list">
+    <li><a href="contacto.html" target="_blank">Contacto</a></li>
+    <li><a href="manifiesto.html" target="_blank">Manifiesto</a></li>
+    <li><a href="../es/legal-aviso.html" target="_blank">Aviso legal</a></li>
+    <li><a href="legal-cookies.html" target="_blank">Política de Cookies</a></li>
+    <li><a href="legal-attribution.html" target="_blank">Créditos</a></li>
+    <li><a href="genindex.html" target="_blank">Glosario</a></li>
+    <li><a href="content.html" target="_blank">Índice</a></li>
+    </ul>
+    <p class="content-info">
+      Copyright &copy; 2013-2024, Carlos Félix Pardo Martín.
+      <br>
+
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
+      <br>
+      <span class="lastupdated">
+        Actualizado por última vez en octubre, 2024.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo-picuino-bgblue.png" class="logo" alt="O_[]¯O Picuino">
+          
+          </a>
+          <br>
+          <a href="../en/electronic-gate-xor.html">English</a>
+          <br>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dibujo-index.html">Dibujo Técnico</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mecánica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-index.html">Materiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricidad</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electrónica</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Componentes electrónicos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. Las señales digitales</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Detección de errores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Corrección de de errores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. El sistema binario</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. La puerta lógica OR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. La puerta lógica AND</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">8. La puerta lógica XOR</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Cableado de componentes electrónicos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Circuito impreso con luces led</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Informática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prog-index.html">Programación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arduprog/index.html">Arduino</a></li>
+<li class="toctree-l1"><a class="reference internal" href="robotica-index.html">Robótica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comm-index.html">Comunicaciones</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taller-index.html">Taller de Tecnología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recursos-index.html">Otros recursos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ley-index.html">Legislación Educativa</a></li>
+</ul>
+
+            
+          
+
+          <!-- Enlaces directos -->
+          <br>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/es/manifiesto.html">Manifiesto</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
+          </li><li class="toctree-l1"><a class="reference internal"
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script defer id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+    
+
+   
+
+  <script defer src="_static/theme.js"></script>
+
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+</body>
+</html>

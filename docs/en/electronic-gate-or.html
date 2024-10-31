@@ -103,35 +103,69 @@
             
   <div class="section" id="la-puerta-logica-or">
 <span id="electronic-gate-or"></span><h1><span class="section-number">6. </span>La puerta lógica OR<a class="headerlink" href="#la-puerta-logica-or" title="Permalink to this headline">¶</a></h1>
+<p>La puerta lógica OR tiene dos o más entradas y una salida.
+Su símbolo es el siguiente:</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-simbolo-puerta-or.png"><img alt="Puerta lógica OR." src="_images/electronic-simbolo-puerta-or.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Puerta lógica OR.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Símbolo de la puerta lógica OR de dos entradas.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
+<p>La salida tiene un valor lógico alto (1) si alguna de sus entradas
+tiene un valor lógico alto (1).
+Es decir, si la entrada A <strong>o</strong> la entrada B están a nivel alto, la salida
+estará a nivel alto. De ahí el nombre <strong>OR</strong> en inglés.</p>
+<p>La función lógica OR se representa mediante una suma, de manera que
+la salida de la puerta será la suma lógica de las entradas:</p>
+<div class="math">
+<p><img src="_images/math/9f8867e368c5e855ec59e2ffef285b23a6512498.svg" alt="Out = A + B"></p>
+</div><p>Si las dos entradas valen cero, la salida valdrá cero, pero
+si alguna entrada vale uno, la salida valdrá uno.</p>
+<p>La tabla de verdad de la función lógica OR es la siguiente:</p>
 <div class="figure align-center" id="id2">
-<a class="reference internal image-reference" href="_images/electronic-puerta-or-02.png"><img alt="Tabla de verdad de la puerta lógica OR." src="_images/electronic-puerta-or-02.png" style="width: 190px;"></a>
+<a class="reference internal image-reference" href="_images/electronic-puerta-or-02.png"><img alt="Tabla de verdad de la puerta lógica OR." src="_images/electronic-puerta-or-02.png" style="width: 160px;"></a>
 <p class="caption"><span class="caption-text">Tabla de verdad de la puerta lógica OR.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="la-puerta-logica-nor">
 <h2>La puerta lógica NOR<a class="headerlink" href="#la-puerta-logica-nor" title="Permalink to this headline">¶</a></h2>
+<p>La puerta lógica NOR tiene dos o más entradas y una salida.
+Su símbolo es el siguiente:</p>
 <div class="figure align-center" id="id3">
 <a class="reference internal image-reference" href="_images/electronic-simbolo-puerta-nor.png"><img alt="Puerta lógica NOR." src="_images/electronic-simbolo-puerta-nor.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Puerta lógica NOR.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Símbolo de la puerta lógica NOR de dos entradas.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
+<p>La salida será la misma que la de una puerta OR, pero invertida.
+Es decir que la salida solo valdrá uno cuando todas las entradas valgan
+cero.</p>
+<p>La función lógica NOR se representa mediante una suma negada,
+de manera que la salida de la puerta será la suma lógica de las entradas
+que finalmente se invierte:</p>
+<div class="math">
+<p><img src="_images/math/8021780354e166939afdd74dd08b83fc8fb7c1c3.svg" alt="Out = \overline{ A + B }"></p>
+</div><p>La tabla de verdad de la función lógica NOR es la siguiente:</p>
 <div class="figure align-center" id="id4">
-<a class="reference internal image-reference" href="_images/electronic-puerta-nor-02.png"><img alt="Tabla de verdad de la puerta lógica NOR." src="_images/electronic-puerta-nor-02.png" style="width: 190px;"></a>
+<a class="reference internal image-reference" href="_images/electronic-puerta-nor-02.png"><img alt="Tabla de verdad de la puerta lógica NOR." src="_images/electronic-puerta-nor-02.png" style="width: 160px;"></a>
 <p class="caption"><span class="caption-text">Tabla de verdad de la puerta lógica NOR.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="simulacion">
 <h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>En la siguiente simulación podemos ver el
+funcionamiento de la puerta lógica OR y, debajo,
+el funcionamiento de la puerta lógica NOR.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=digital-puerta-or.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Dibuja el símbolo de la puerta lógica OR y su tabla de verdad.</li>
-<li>Dibuja el símbolo de la puerta lógica NOR y su tabla de verdad.</li>
+<li>Dibuja el símbolo de la puerta lógica OR,
+su función lógica y su tabla de verdad.</li>
+<li>Dibuja el símbolo de la puerta lógica NOR,
+su función lógica y su tabla de verdad.</li>
+<li>Comprueba gracias al simulador que
+la tabla de verdad de la función OR
+y que la tabla de verdad de la función NOR son correctas.</li>
+<li>En el simulador añade una puerta inversora a la salida de la puerta
+OR y comprueba que su respuesta es igual a la de la puerta NOR.</li>
 </ol>
 </div>
 </div>
@@ -247,6 +281,7 @@
 <li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">6. La puerta lógica OR</a></li>
 <li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. La puerta lógica AND</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. La puerta lógica XOR</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>

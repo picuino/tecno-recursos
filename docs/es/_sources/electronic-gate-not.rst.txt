@@ -29,12 +29,21 @@ la entrada vale un 1 lógico, la salida valdrá un 0 lógico y viceversa.
 El círculo a la salida del triángulo es el que representa que la puerta
 invierte, o niega, el valor de entrada.
 
+La función lógica NOT se representa mediante una línea sobre el elemento
+a invertir o negar:
+
+.. math::
+
+   Out = \overline{ A }
+
+
 A continuación podemos leer la 
 `tabla de verdad <https://es.wikipedia.org/wiki/Tabla_de_verdad#Negaci%C3%B3n>`__
-de la puerta NOT:
+de la puerta NOT, que representa todos los valores posibles de entrada y
+de salida de la puerta lógica:
 
 .. figure:: electronic/_images/electronic-puerta-not-02.png
-   :width: 135px
+   :width: 114px
    :align: center
    :alt: Tabla de verdad de puerta lógica NOT.
    
@@ -84,8 +93,8 @@ Ejercicios
 #. ¿Qué es una puerta lógica? ¿Qué se puede llegar a construir con las
    puertas lógicas?
 
-#. Dibuja el símbolo de la puerta NOT y escribe debajo sus tres
-   diferentes nombres.
+#. Dibuja el símbolo de la puerta NOT y escribe debajo su
+   función lógica y sus tres diferentes nombres.
    
 #. Dibuja la tabla de verdad de la puerta NOT con **valores numéricos**.
 

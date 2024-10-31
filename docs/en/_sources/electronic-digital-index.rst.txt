@@ -29,13 +29,16 @@ integrado.
    electronic-gate-not.rst
    electronic-gate-or.rst
    electronic-gate-and.rst
+   electronic-gate-xor.rst
 
 
 .. TO DO
 
-   electronic-gate-nor-nand.rst
-   electronic-gate-xor.rst
    electronic-morgan-laws.rst
+   electronic-minterms.rst
+   electronic-gray-code.rst
+   electronic-karnaught.rst
+   electronic-combinational.rst
 
    electronic-ttl.rst
    electronic-cmos.rst
@@ -43,12 +46,12 @@ integrado.
    electronic-schmitt-trigger.rst
    electronic-buffer-tristate.rst
 
-   electronic-combinational.rst
    electronic-decoder.rst
    electronic-encoder.rst
    electronic-multiplexer.rst
+   electronic-demultiplexer.rst
    electronic-comparator.rst
-   electronic-parity-generator.rst
+   
    electronic-adder.rst
    electronic-rom.rst
 
