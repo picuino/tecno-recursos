@@ -5,11 +5,11 @@
 
 .. _prog-unplugged:
 
-Actividades desconectadas
+Actividades desenchufadas
 =========================
 En este apartado se verán varios recursos para aprender a programar
 sin utilizar el ordenador.
-Es lo que se denomina **actividades desconectadas** o
+Es lo que se denomina **actividades desenchufadas** o
 actividades unplugged.
 
 
@@ -22,6 +22,8 @@ actividad física.
 
 :download:`Libro en español de Computer Science Unplugged
 <prog/prog-cs-unplugged.pdf>`
+
+Web de CS Unplugged:
 
 #. `Página de inicio <https://www.csunplugged.org/es/>`__
 #. `¿Qué es la informática? <https://www.csunplugged.org/es/what-is-computer-science/>`__
@@ -66,7 +68,7 @@ entre los estudiantes de todas las edades.
 
 Code.org
 --------
-* `Actividades desconectadas de code.org <https://code.org/curriculum/unplugged>`__
+* `Actividades desenchufadas de code.org <https://code.org/curriculum/unplugged>`__
 
   * `A3. Mapas Felices.
     <https://studio.code.org/s/coursea-2022/lessons/3?lang=es-ES>`__
@@ -110,7 +112,7 @@ Code.org
 
 Programamos.es
 --------------
-* `Actividades Desenchufadas de Programamos.es.
+* `Actividades desenchufadas de Programamos.es.
   <https://programamos.es/recopilacion-de-actividades-desenchufadas-para-trabajar-el-pensamiento-computacional/>`__
 
   * :download:`Divide y vencerás.

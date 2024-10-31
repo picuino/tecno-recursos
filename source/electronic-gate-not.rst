@@ -8,11 +8,11 @@
 La puerta lógica NOT
 ====================
 Los componentes más sencillos de la electrónica digital son las
-**puertas lógicas**, que llevan a cabo operaciones lógicas sencillas.
-Combinando estas puertas se puede llegar a construir circuitos mucho
-más complejos, hasta llegar a los computadores modernos.
+**puertas lógicas**, que llevan a cabo operaciones lógicas básicas.
+Combinando estas puertas lógicas se puede llegar a construir circuitos
+mucho más complejos, hasta llegar a los computadores modernos.
 
-Las puertas lógica más sencilla posible es la puerta negación, también
+La puerta lógica más sencilla posible es la **puerta negación**, también
 llamada **puerta inversora** o **puerta NOT**, cuyo símbolo se muestra
 a continuación:
 
@@ -34,7 +34,7 @@ A continuación podemos leer la
 de la puerta NOT:
 
 .. figure:: electronic/_images/electronic-puerta-not-02.png
-   :width: 90px
+   :width: 135px
    :align: center
    :alt: Tabla de verdad de puerta lógica NOT.
    

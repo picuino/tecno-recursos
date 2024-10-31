@@ -16,7 +16,6 @@ integrado.
 .. image:: electronic/_images/electronic-digital-logo.png
    :align: center
    :alt: Electrónica digital
-   :target: /circuits/index.html?startCircuit=empty.txt
 
 .. toctree::
    :numbered: 1
@@ -28,15 +27,12 @@ integrado.
    electronic-error-correction.rst
    electronic-binary.rst
    electronic-gate-not.rst
+   electronic-gate-or.rst
+   electronic-gate-and.rst
+
 
 .. TO DO
 
-   electronic-gray.rst
-   electronic-truth-table.rst
-
-   electronic-gate-not.rst
-   electronic-gate-or.rst
-   electronic-gate-and.rst
    electronic-gate-nor-nand.rst
    electronic-gate-xor.rst
    electronic-morgan-laws.rst
