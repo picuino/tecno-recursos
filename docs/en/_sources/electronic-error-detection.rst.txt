@@ -62,23 +62,23 @@ exactitud que un simple bit de paridad.
 
 Existen varias versiones:
 
-  1. Sumar el valor de todos los bytes de información transmitidos.
-     Es la versión más simple de realizar y la menos capaz de detectar
-     errores.
+#. Sumar el valor de todos los bytes de información transmitidos.
+   Es la versión más simple de realizar y la menos capaz de detectar
+   errores.
 
-  2. `Códigos de redundancia cíclica o CRC
-     <https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica>`__.
-     Son códigos que suelen tener una longitud de 16 ó 32 bits y que son
-     capaces de detectar más errores que una simple suma.
-     Como contrapartida, su cálculo es más complejo.
+#. `Códigos de redundancia cíclica o CRC
+   <https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica>`__.
+   Son códigos que suelen tener una longitud de 16 ó 32 bits y que son
+   capaces de detectar más errores que una simple suma.
+   Como contrapartida, su cálculo es más complejo.
 
-  3. Funciones hash avanzadas, como la `SHA
-     <https://es.wikipedia.org/wiki/Secure_Hash_Algorithm>`__.
-     Son códigos que suelen tener una longitud de más de 128 bits
-     (16 bytes) y muy costosos de calcular.
-     Por otro lado son los más potentes y sirven para detectar
-     errores aleatorios y también errores introducidos a propósito por
-     un ciberdelincuente.
+#. Funciones hash avanzadas, como la `SHA
+   <https://es.wikipedia.org/wiki/Secure_Hash_Algorithm>`__.
+   Son códigos que suelen tener una longitud de más de 128 bits
+   (16 bytes) y muy costosos de calcular.
+   Por otro lado son los más potentes y sirven para detectar
+   errores aleatorios y también errores introducidos a propósito por
+   un ciberdelincuente.
 
 Estas sumas de verificación son muy utilizadas en líneas de comunicación
 a distancia y en soportes digitales tales como el CD-ROM o las memorias

@@ -112,26 +112,26 @@ bits erróneos en un mismo bloque de información.
 
 Los códigos correctores más populares son los siguientes:
 
-   1. `Códigos Reed-Solomon. <https://es.wikipedia.org/wiki/Reed-Solomon>`__
+#. `Códigos Reed-Solomon. <https://es.wikipedia.org/wiki/Reed-Solomon>`__
 
-      Son los más sencillos de implementar y los más antiguos.
-      Se han empleado en CD, DVD, TV digital, ADSL, etc.
+   Son los más sencillos de implementar y los más antiguos.
+   Se han empleado en CD, DVD, TV digital, ADSL, etc.
 
-   #. `Códigos Convolucionales. <https://es.wikipedia.org/wiki/C%C3%B3digo_convolucional>`__
+#. `Códigos Convolucionales. <https://es.wikipedia.org/wiki/C%C3%B3digo_convolucional>`__
 
-      Empleados en redes de telefonía móvil GSM, redes WiFi antiguas o
-      en sondas espaciales.
+   Empleados en redes de telefonía móvil GSM, redes WiFi antiguas o
+   en sondas espaciales.
 
-   #. `Turbo Códigos. <https://es.wikipedia.org/wiki/Turbo_c%C3%B3digos>`__
+#. `Turbo Códigos. <https://es.wikipedia.org/wiki/Turbo_c%C3%B3digos>`__
 
-      Empleados en comunicaciones por satélite y en redes de telefonía
-      móvil 3G. Tienen la desventaja de estar patentados.
+   Empleados en comunicaciones por satélite y en redes de telefonía
+   móvil 3G. Tienen la desventaja de estar patentados.
 
-   #. `Códigos LDPC o Gallager. <https://es.wikipedia.org/wiki/LDPC>`__
+#. `Códigos LDPC o Gallager. <https://es.wikipedia.org/wiki/LDPC>`__
 
-      Son los más recientes. Se utilizan en las redes WiFi más modernas,
-      en telefonía móvil 5G, en las redes Ethernet cableadas de mayor
-      velocidad y en las últimas versiones de TV Digital.
+   Son los más recientes. Se utilizan en las redes WiFi más modernas,
+   en telefonía móvil 5G, en las redes Ethernet cableadas de mayor
+   velocidad y en las últimas versiones de TV Digital.
 
 
 

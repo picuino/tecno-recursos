@@ -30,11 +30,11 @@ integrado.
    electronic-gate-or.rst
    electronic-gate-and.rst
    electronic-gate-xor.rst
+   electronic-morgan-laws.rst
 
 
 .. TO DO
 
-   electronic-morgan-laws.rst
    electronic-minterms.rst
    electronic-gray-code.rst
    electronic-karnaught.rst
