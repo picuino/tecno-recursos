@@ -31,6 +31,8 @@ integrado.
    electronic-gate-and.rst
    electronic-gate-xor.rst
    electronic-morgan-laws.rst
+   electronic-truth-table.rst
+
 
 
 .. TO DO
@@ -51,7 +53,7 @@ integrado.
    electronic-multiplexer.rst
    electronic-demultiplexer.rst
    electronic-comparator.rst
-   
+
    electronic-adder.rst
    electronic-rom.rst
 

@@ -8,7 +8,7 @@
 Las leyes de De Morgan
 ======================
 Las leyes de Augustus De Morgan o simplemente las
-`leyes de **De Morgan** <https://es.wikipedia.org/wiki/Leyes_de_De_Morgan>`__
+`leyes de De Morgan <https://es.wikipedia.org/wiki/Leyes_de_De_Morgan>`__
 son dos reglas de transformación que permiten intercambiar puertas AND
 y puertas OR simplemente negando o invirtiendo las entradas y salidas:
 
@@ -42,7 +42,7 @@ Otra forma de expresar las leyes de De Morgan es:
 * Una puerta OR con todas sus entradas y salidas invertidas o negadas 
   es equivalente a una puerta AND.
 
-  .. figure:: electronic/_images/electronic-morgan-laws-03.png
+  .. figure:: electronic/_images/electronic-morgan-laws-04.png
      :width: 296px
      :align: center
      :alt: Transformación de una puerta OR toda negada a puerta AND.
@@ -56,7 +56,7 @@ Otra forma de expresar las leyes de De Morgan es:
 * Una puerta AND con todas sus entradas y salidas invertidas o negadas 
   es equivalente a una puerta OR.
   
-  .. figure:: electronic/_images/electronic-morgan-laws-04.png
+  .. figure:: electronic/_images/electronic-morgan-laws-03.png
      :width: 296px
      :align: center
      :alt: Transformación de una puerta AND toda negada a puerta OR.
@@ -102,6 +102,10 @@ la puerta de abajo, demostrando que son equivalentes.
 
 Ejercicios
 ----------
+
+#. Comprueba en la simulación anterior que la puerta superior tiene la
+   misma salida que la puerta inferior en cada uno de los 4 circuitos
+   que aparecen.
 
 #. Transforma las siguientes puertas lógicas para que utilicen la puerta
    alternativa según las leyes de De Morgan.

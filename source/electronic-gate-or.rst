@@ -13,7 +13,7 @@ Su símbolo es el siguiente:
 .. figure:: electronic/_images/electronic-simbolo-puerta-or.png
    :width: 180px
    :align: center
-   :alt: Puerta lógica OR.
+   :alt: Puerta lógica OR de dos entradas.
    
    Símbolo de la puerta lógica OR de dos entradas.
 
@@ -38,9 +38,9 @@ La tabla de verdad de la función lógica OR es la siguiente:
 .. figure:: electronic/_images/electronic-puerta-or-02.png
    :width: 160px
    :align: center
-   :alt: Tabla de verdad de la puerta lógica OR.
+   :alt: Tabla de verdad de la puerta lógica OR de dos entradas.
    
-   Tabla de verdad de la puerta lógica OR.
+   Tabla de verdad de la puerta lógica OR de dos entradas.
 
 
 
@@ -52,7 +52,7 @@ Su símbolo es el siguiente:
 .. figure:: electronic/_images/electronic-simbolo-puerta-nor.png
    :width: 180px
    :align: center
-   :alt: Puerta lógica NOR.
+   :alt: Puerta lógica NOR de dos entradas.
    
    Símbolo de la puerta lógica NOR de dos entradas.
 
@@ -73,9 +73,9 @@ La tabla de verdad de la función lógica NOR es la siguiente:
 .. figure:: electronic/_images/electronic-puerta-nor-02.png
    :width: 160px
    :align: center
-   :alt: Tabla de verdad de la puerta lógica NOR.
+   :alt: Tabla de verdad de la puerta lógica NOR de dos entradas.
    
-   Tabla de verdad de la puerta lógica NOR.
+   Tabla de verdad de la puerta lógica NOR de dos entradas.
 
 
 Simulación
@@ -106,4 +106,5 @@ Ejercicios
    
 #. En el simulador añade una puerta inversora a la salida de la puerta
    OR y comprueba que su respuesta es igual a la de la puerta NOR.
-   
+
+#. Dibuja una puerta lógica OR de tres entradas y su tabla de verdad.

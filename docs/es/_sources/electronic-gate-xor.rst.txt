@@ -13,7 +13,7 @@ Su símbolo es el siguiente:
 .. figure:: electronic/_images/electronic-simbolo-puerta-xor.png
    :width: 180px
    :align: center
-   :alt: Puerta lógica XOR.
+   :alt: Puerta lógica XOR de dos entradas.
    
    Símbolo de la puerta lógica XOR de dos entradas.
 
@@ -35,15 +35,14 @@ Si las dos entradas valen cero, la salida valdrá cero,
 si alguna entrada vale uno, la salida valdrá uno
 y si las dos entradas valen uno, la salida volverá a valer cero.
 
-
 La tabla de verdad de la función lógica XOR es la siguiente:
 
 .. figure:: electronic/_images/electronic-puerta-xor-02.png
    :width: 160px
    :align: center
-   :alt: Tabla de verdad de la puerta lógica XOR.
+   :alt: Tabla de verdad de la puerta lógica XOR de dos entradas.
    
-   Tabla de verdad de la puerta lógica XOR.
+   Tabla de verdad de la puerta lógica XOR de dos entradas.
 
 
 Aplicaciones de la puerta XOR
@@ -97,3 +96,8 @@ Ejercicios
       :alt: Puerta XOR simulada con puertas NOT, OR y AND.
       
    Comprueba que su funcionamiento es igual al de la puerta XOR.
+
+#. Dibuja una puerta lógica XOR de tres entradas y su tabla de verdad.
+
+   Para realizar la tabla de verdad de la puerta recuerda que la salida
+   vale uno si los bits de entrada a uno son impares.

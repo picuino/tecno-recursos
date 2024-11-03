@@ -5,8 +5,8 @@
   <meta name="keywords" content="Tecnología, Educación Secundaria, Dibujo, Estructuras, Mecanismos, Materiales, Electricidad, Electrónica, Informática, Programación, Control, Arduino, Comunicaciones, Taller, Legislación Educativa">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Electrónica - Electrónica digital - 2. Detección de errores">
-  <title>2. Detección de errores - Electrónica digital - Picuino</title>
+  <meta name="description" content="Recursos educativos libres para Tecnología en Educación Secundaria. Electrónica - Electrónica digital - 10. La tabla de verdad">
+  <title>10. La tabla de verdad - Electrónica digital - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
 
   
-  <link rel="canonical" href="https://www.picuino.com/es/electronic-error-detection.html">
+  <link rel="canonical" href="https://www.picuino.com/es/electronic-truth-table.html">
 
   
   <link rel="search" type="application/opensearchdescription+xml"
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Índice" href="content.html">
   <link rel="search" title="Búsqueda" href="search.html">
-  <link rel="next" title="3. Corrección de de errores" href="electronic-error-correction.html">
-  <link rel="prev" title="1. Las señales digitales" href="electronic-digital-signals.html">
+  <link rel="next" title="Cableado de componentes electrónicos" href="electronic-bornas-index.html">
+  <link rel="prev" title="9. Las leyes de De Morgan" href="electronic-morgan-laws.html">
 
 </head>
 
@@ -71,13 +71,13 @@
         
           <li><a href="electronic-digital-index.html">Electrónica digital</a>/</li>
         
-      <li><span class="section-number">2. </span>Detección de errores</li>
+      <li><span class="section-number">10. </span>La tabla de verdad</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/electronic-error-detection.rst.txt" rel="nofollow"> Ver texto fuente</a>
+            <a href="_sources/electronic-truth-table.rst.txt" rel="nofollow"> Ver texto fuente</a>
           
         
       </li>
@@ -93,95 +93,83 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="deteccion-de-errores">
-<span id="electronic-error-detection"></span><h1><span class="section-number">2. </span>Detección de errores<a class="headerlink" href="#deteccion-de-errores" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>En electrónica digital se pueden añadir datos extra a la información
-enviada por un canal con ruido, para detectar si la transmisión de
-información ha sido correcta o si se ha producido algún error.</p>
-<p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores" rel="noopener noreferrer" target="_blank">detección de errores</a>
-añade una pequeña sobrecarga de información con bits extra denominados
-<strong>redundancia</strong>.</p>
-<p>En la transmisión de datos por internet o en la red de datos móviles,
-si se produce un error y se detecta, el ordenador volverá a pedir que
-se reenvíe la información, hasta que llegue la versión correcta sin
-errores.</p>
-<div class="section" id="bits-de-paridad">
-<h2>Bits de paridad<a class="headerlink" href="#bits-de-paridad" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>El sistema más sencillo de añadir redundancia para detectar errores es
-el <a class="reference external" href="https://es.wikipedia.org/wiki/Bit_de_paridad" rel="noopener noreferrer" target="_blank">bit de paridad</a>.
-Este bit tiene un valor que hace que el número de bits a uno totales
-sea siempre par.</p>
-<p>Por ejemplo, si los datos enviados tienen 3 bits a uno, el bit de paridad
-también valdrá uno para que el número total de bits a uno sea 4
-(número par).</p>
-<p>En la siguiente figura se pueden ver varios ejemplos de bits de paridad
-correctos, enviados junto con su byte de información.</p>
-<div class="figure align-center" id="id1">
-<a class="reference internal image-reference" href="_images/electronic-error-detection-01.png"><img alt="Bit de paridad para varios bytes de datos." src="_images/electronic-error-detection-01.png" style="width: 340px;"></a>
-<p class="caption"><span class="caption-text">Bit de paridad para varios bytes de datos.</span><a class="headerlink" href="#id1" title="Enlace permanente a esta imagen">¶</a></p>
-</div>
-<p>Si la paridad final es impar, eso significa que alguno de los bits de
-información ha cambiado durante su transmisión y por lo tanto se ha
-producido un error.</p>
-<p>Este sistema reconoce el cambio de un solo bit de información.
-Si se producen cambios en dos bit a la vez, el sistema de control de
-paridad no será capaz de reconocer el error.</p>
-</div>
-<div class="section" id="suma-de-verificacion">
-<h2>Suma de verificación<a class="headerlink" href="#suma-de-verificacion" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" rel="noopener noreferrer" target="_blank">suma de verificación</a>,
-también llamada checksum, es un dato añadido a los datos de información
-que tiene como objetivo detectar errores de transmisión con mayor
-exactitud que un simple bit de paridad.</p>
-<p>Existen varias versiones:</p>
-<ol class="arabic simple">
-<li>Sumar el valor de todos los bytes de información transmitidos.
-Es la versión más simple de realizar y la menos capaz de detectar
-errores.</li>
-<li><a class="reference external" href="https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica" rel="noopener noreferrer" target="_blank">Códigos de redundancia cíclica o CRC</a>.
-Son códigos que suelen tener una longitud de 16 ó 32 bits y que son
-capaces de detectar más errores que una simple suma.
-Como contrapartida, su cálculo es más complejo.</li>
-<li>Funciones hash avanzadas, como la <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Hash_Algorithm" rel="noopener noreferrer" target="_blank">SHA</a>.
-Son códigos que suelen tener una longitud de más de 128 bits
-(16 bytes) y muy costosos de calcular.
-Por otro lado son los más potentes y sirven para detectar
-errores aleatorios y también errores introducidos a propósito por
-un ciberdelincuente.</li>
+  <div class="section" id="la-tabla-de-verdad">
+<span id="electronic-truth-table"></span><h1><span class="section-number">10. </span>La tabla de verdad<a class="headerlink" href="#la-tabla-de-verdad" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En temas pasados hemos visto qué es una tabla de verdad de una puerta
+lógica. En este tema vamos a ver, paso a paso, cómo crear la tabla de
+verdad de un circuito combinacional cualquiera.</p>
+<p>Los pasos para crear la tabla de verdad de un circuito son:</p>
+<ol class="arabic">
+<li><p class="first">Nombrar cada una de las entradas del circuito con una letra
+mayúscula del abecedario, A, B, C, etc.</p>
+</li>
+<li><p class="first">Nombrar cada una de las salidas del circuito con una O más
+un número, O1, O2, O3, etc.</p>
+</li>
+<li><p class="first">Dibujar una tabla con tantas columnas como el número de entradas más
+el número de salidas tenga el circuito.</p>
+<p>En la primera fila de la tabla colocaremos el nombre de las entradas
+A, B, C, etc. y el nombre de las salidas O1, O2, O3, etc.</p>
+</li>
+<li><p class="first">Terminar de dibujar en la tabla tantas filas como sean necesarias
+(2 elevado al número de entradas).</p>
+<p>Para 2 entradas, 4 filas.</p>
+<p>Para 3 entradas, 8 filas.</p>
+<p>Para 4 entradas, 16 filas.</p>
+</li>
+<li><p class="first">Numerar en binario las filas correspondientes a las entradas.</p>
+</li>
+<li><p class="first">Para cada combinación de entradas, calcular las salidas del circuito
+y dibujarlas en la tabla.</p>
+</li>
 </ol>
-<p>Estas sumas de verificación son muy utilizadas en líneas de comunicación
-a distancia y en soportes digitales tales como el CD-ROM o las memorias
-USB.</p>
+<div class="section" id="ejercicio-resuelto">
+<h2>Ejercicio resuelto<a class="headerlink" href="#ejercicio-resuelto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Dibujar la tabla de verdad del siguiente circuito de 3 entradas y 1 salida.</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=digital-combinational-01.txt"></iframe>
+</div><ol class="arabic">
+<li><p class="first">Nombramos las entradas como A, B, C.</p>
+</li>
+<li><p class="first">Nombramos la salida como O1.</p>
+</li>
+<li><p class="first">Dibujamos la tabla y en la primera fila colocamos el nombre de las
+entradas y salidas.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/electronic-truth-table-01.png"><img alt="Tabla de verdad de tres entradas y una salida." src="_images/electronic-truth-table-01.png" style="width: 210px;"></a>
+</div>
+</li>
+<li><p class="first">Terminamos de dibujar la tabla con 8 filas libres (2^3 = 8)
+para poder numerar todas las entradas posibles.</p>
+</li>
+<li><p class="first">Numeramos en binario las filas correspondientes a las entradas.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/electronic-truth-table-02.png"><img alt="Tabla de verdad de tres entradas y una salida, con las entradas numeradas." src="_images/electronic-truth-table-02.png" style="width: 210px;"></a>
+</div>
+</li>
+<li><p class="first">Por último colocamos cada una de las 8 combinaciones de entradas en
+el circuito y escribimos su salida en la columna O1.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/electronic-truth-table-03.png"><img alt="Tabla de verdad de tres entradas y una salida rellena." src="_images/electronic-truth-table-03.png" style="width: 210px;"></a>
+</div>
+</li>
+</ol>
 </div>
 <div class="section" id="ejercicios">
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">¿Para qué sirve la detección de errores?</p>
-</li>
-<li><p class="first">¿Cómo se denomina la información extra añadida para detectar errores
-de transmisión de datos?</p>
-</li>
-<li><p class="first">De los siguientes datos recibidos ¿cuáles tienen errores y por qué?</p>
-<div class="figure align-center">
-<a class="reference internal image-reference" href="_images/electronic-error-detection-02.png"><img alt="Datos con bits de paridad y con errores." src="_images/electronic-error-detection-02.png" style="width: 340px;"></a>
-</div>
-</li>
-<li><p class="first">Escribe el bit de paridad correspondiente a los siguientes números
-binarios:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span>
-
-<span class="mi">1</span> <span class="mi">1</span> <span class="mi">1</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span>
-
-<span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span>
-
-<span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span>
-</pre></div>
-</div>
-</li>
-<li><p class="first">¿Qué es un código checksum?</p>
-<p>Enumera tres tipos de checksum distintos.</p>
-<p>Escribe dos ejemplos de sistemas que utilicen el código checksum.</p>
-</li>
+<li><p class="first">Dibuja la tabla de verdad del siguiente circuito.</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=digital-combinational-02.txt"></iframe>
+</div></li>
+<li><p class="first">Dibuja la tabla de verdad del siguiente circuito.</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=digital-combinational-03.txt"></iframe>
+</div></li>
+<li><p class="first">Dibuja la tabla de verdad del siguiente circuito.</p>
+<div class="video-center">
+<iframe src="/circuits/index.html?startCircuit=digital-combinational-04.txt"></iframe>
+</div></li>
 </ol>
 </div>
 </div>
@@ -195,10 +183,10 @@ binarios:</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-error-correction.html" class="btn btn-neutral float-right" title="3. Corrección de de errores" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-bornas-index.html" class="btn btn-neutral float-right" title="Cableado de componentes electrónicos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-digital-signals.html" class="btn btn-neutral" title="1. Las señales digitales" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+        <a href="electronic-morgan-laws.html" class="btn btn-neutral" title="9. Las leyes de De Morgan" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
       
     </div>
   
@@ -257,7 +245,7 @@ binarios:</p>
           
           </a>
           <br>
-          <a href="../en/electronic-error-detection.html">English</a>
+          <a href="../en/electronic-truth-table.html">English</a>
           <br>
 
           
@@ -291,7 +279,7 @@ binarios:</p>
 <li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Electrónica digital</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. Las señales digitales</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">2. Detección de errores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Detección de errores</a></li>
 <li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Corrección de de errores</a></li>
 <li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. El sistema binario</a></li>
 <li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
@@ -299,7 +287,7 @@ binarios:</p>
 <li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. La puerta lógica AND</a></li>
 <li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. La puerta lógica XOR</a></li>
 <li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. Las leyes de De Morgan</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. La tabla de verdad</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">10. La tabla de verdad</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Cableado de componentes electrónicos</a></li>

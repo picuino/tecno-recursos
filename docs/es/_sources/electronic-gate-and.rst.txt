@@ -13,9 +13,9 @@ Su símbolo es el siguiente:
 .. figure:: electronic/_images/electronic-simbolo-puerta-and.png
    :width: 180px
    :align: center
-   :alt: Puerta lógica AND.
+   :alt: Puerta lógica AND de dos entradas.
    
-   Símbolo de la puerta lógica AND.
+   Símbolo de la puerta lógica AND de dos entradas.
 
 La salida tiene un valor lógico alto (1) si todas sus entradas
 tiene un valor lógico alto (1).
@@ -38,9 +38,9 @@ La tabla de verdad de la función lógica AND es la siguiente:
 .. figure:: electronic/_images/electronic-puerta-and-02.png
    :width: 160px
    :align: center
-   :alt: Tabla de verdad de la puerta lógica AND.
+   :alt: Tabla de verdad de la puerta lógica AND de dos entradas.
    
-   Tabla de verdad de la puerta lógica AND.
+   Tabla de verdad de la puerta lógica AND de dos entradas.
 
 
 
@@ -52,9 +52,9 @@ Su símbolo es el siguiente:
 .. figure:: electronic/_images/electronic-simbolo-puerta-nand.png
    :width: 180px
    :align: center
-   :alt: Puerta lógica NAND.
+   :alt: Puerta lógica NAND de dos entradas.
    
-   Símbolo de la puerta lógica NAND.
+   Símbolo de la puerta lógica NAND de dos entradas.
 
 La salida será la misma que la de una puerta AND, pero invertida.
 Es decir que la salida solo valdrá cero cuando todas las entradas valgan
@@ -73,9 +73,9 @@ La tabla de verdad de la función lógica NAND es la siguiente:
 .. figure:: electronic/_images/electronic-puerta-nand-02.png
    :width: 160px
    :align: center
-   :alt: Tabla de verdad de la puerta lógica NAND.
+   :alt: Tabla de verdad de la puerta lógica NAND de dos entradas.
    
-   Tabla de verdad de la puerta lógica NAND.
+   Tabla de verdad de la puerta lógica NAND de dos entradas.
 
 
 Simulación
@@ -106,4 +106,5 @@ Ejercicios
    
 #. En el simulador añade una puerta inversora a la salida de la puerta
    AND y comprueba que su respuesta es igual a la de la puerta NAND.
-   
+
+#. Dibuja una puerta lógica AND de tres entradas y su tabla de verdad.
