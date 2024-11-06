@@ -105,7 +105,7 @@ Ejercicios
    pantalla hasta llegar a la letra número 30, en la que debe dejar de
    escribir gracias a una sentencia break.
 
-   Utiliza un contador de letras para saber cuando debe terminar el bucle.
+   Utiliza un contador de letras para saber cuándo debe terminar el bucle.
 
    Pista::
 

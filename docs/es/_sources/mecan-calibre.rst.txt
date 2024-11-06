@@ -27,6 +27,7 @@ Partes del calibre
 Un calibre está compuesto de las siguientes partes:
 
 .. figure:: mecan/_images/mecan-calibre-partes.png
+   :width: 800px
    :alt: Calibre de medida con sus partes señaladas por números.
    :align: center
 
@@ -44,6 +45,7 @@ Un calibre está compuesto de las siguientes partes:
 
 
 .. figure:: mecan/calibre-moviendo/mecan-calibre-movil.gif
+   :width: 800px
    :alt: Corredera de un calibre moviéndose sobre la regla.
    :align: center
 
@@ -55,18 +57,21 @@ En las siguientes imágenes se puede ver cómo se toman medidas de
 exterior, interior y profundidad de una pieza.
 
 .. figure:: mecan/_images/mecan-calibre-medidas-01.png
+   :width: 800px
    :alt: Calibre tomando una medida exterior.
    :align: center
 
    Calibre tomando una medida exterior.
 
 .. figure:: mecan/_images/mecan-calibre-medidas-02.png
+   :width: 800px
    :alt: Calibre tomando una medida interior.
    :align: center
 
    Calibre tomando una medida interior.
 
 .. figure:: mecan/_images/mecan-calibre-medidas-03.png
+   :width: 800px
    :alt: Calibre tomando una medida de profundidad.
    :align: center
 
@@ -83,18 +88,21 @@ una de las líneas del nonio coincide exactamente con una línea de la
 escala principal.
 
 .. figure:: mecan/_images/mecan-calibre-0166nr.png
+   :width: 640px
    :alt: Medición de una distancia de 16,6 milímetros con un calibre.
    :align: center
 
    Medición de una distancia de 16,6 milímetros.
 
 .. figure:: mecan/_images/mecan-calibre-0240nr.png
+   :width: 640px
    :alt: Medición de una distancia de 24,0 milímetros con un calibre.
    :align: center
 
    Medición de una distancia de 24,0 milímetros.
 
 .. figure:: mecan/_images/mecan-calibre-0099nr.png
+   :width: 640px
    :alt: Medición de una distancia de 9,9 milímetros con un calibre.
    :align: center
 
@@ -117,6 +125,9 @@ Lámina con ejercicios para realizar lecturas de distancias con el calibre
 
 Test de la unidad
 -----------------
+
+`Test online del calibre y sus componentes.
+<https://www.picuino.com/test/es-mecan-calibre-partes.html>`__
 
 `Test online de medidas con el calibre.
 <https://www.picuino.com/test/es-mecan-calibre-medidas.html>`__
