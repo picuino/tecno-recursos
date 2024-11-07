@@ -1,0 +1,346 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2024"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-11-07 12:56+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../source/electronic-error-correction.rst:9
+msgid "Corrección de de errores"
+msgstr "Bug fixes"
+
+
+#: ../../source/electronic-error-correction.rst:10
+msgid ""
+"Los bits extra de redundancia no solo pueden detectar errores de "
+"transmisión, también son capaces de corregir los errores detectados."
+msgstr ""
+"The extra redundancy bits can not only detect transmission errors, they are "
+"also capable of correcting the detected errors."
+
+
+#: ../../source/electronic-error-correction.rst:13
+msgid ""
+"Hay muchos sistemas que solo pueden transmitir la información una vez, no "
+"permiten volver a pedir los datos correctos al emisor (televisión digital "
+"terrestre, televisión por satélite, etc.). Los medios físicos tales como el "
+"CD-ROM, las memorias USB o los Discos SSD tienen el mismo problema, una vez "
+"que se corrompe la información no se puede volver a solicitar al emisor."
+msgstr ""
+"There are many systems that can only transmit information once, they do not "
+"allow the correct data to be requested from the sender again (digital "
+"terrestrial television, satellite television, etc.). Physical media such as "
+"CD-ROM, USB flash drives or SSD Disks have the same problem; once the "
+"information is corrupted, it cannot be requested from the issuer again."
+
+
+#: ../../source/electronic-error-correction.rst:20
+msgid ""
+"En todos estos casos no es suficiente con detectar los errores, también es "
+"necesario poder corregirlos a partir de la información recibida."
+msgstr ""
+"In all these cases it is not enough to detect errors, it is also necessary "
+"to be able to correct them based on the information received."
+
+
+#: ../../source/electronic-error-correction.rst:25
+msgid "Corrección de errores con bits de paridad"
+msgstr "Bug fixes with parity bits"
+
+
+#: ../../source/electronic-error-correction.rst:26
+msgid ""
+"El ejemplo más sencillo de un código que corrige errores es un sistema con "
+"doble paridad, horizontal y vertical. Este ejemplo no se utiliza en la "
+"práctica para corregir errores, pero es mucho más sencillo de visualizar que"
+" otros códigos más capaces y mucho más complejos."
+msgstr ""
+"The simplest example of code that corrects errors is a system with double "
+"parity, horizontal and vertical. This example is not used in practice to "
+"correct errors, but it is much easier to visualize than other more capable "
+"and much more complex codes."
+
+
+#: ../../source/electronic-error-correction.rst:32
+msgid "Comenzamos por una tabla con 16 bits de información (4x4):"
+msgstr "We start with a table with 16 bits of information (4x4):"
+
+
+#: ../../source/electronic-error-correction.rst:39
+msgid "16 bits de datos."
+msgstr "16 bits of data."
+
+
+#: ../../source/electronic-error-correction.rst:41
+msgid ""
+"A esta tabla le añadimos 4 bits de paridad en horizontal y otros 4 bits de "
+"paridad en vertical:"
+msgstr ""
+"To this table we add 4 horizontal parity bits and another 4 vertical parity "
+"bits:"
+
+
+#: ../../source/electronic-error-correction.rst:49
+
+
+#: ../../source/electronic-error-correction.rst:103
+msgid "16 bits de datos rodeados de 8 bits de paridad, sin errores."
+msgstr "16 data bits surrounded by 8 parity bits, no errors."
+
+
+#: ../../source/electronic-error-correction.rst:51
+msgid ""
+"Una vez formada la tabla la podemos transmitir y con la información "
+"redundante podremos detectar y corregir cualquier error de 1 solo bit."
+msgstr ""
+"Once the table is formed we can transmit it and with the redundant "
+"information we can detect and correct any 1-bit error."
+
+
+#: ../../source/electronic-error-correction.rst:54
+msgid ""
+"Si se produce un error en un bit de los datos, la información de paridad no "
+"será correcta en un bit de paridad de fila y tampoco será correcta en un bit"
+" de paridad de columna:"
+msgstr ""
+"If an error occurs in one bit of the data, the parity information will not "
+"be correct in a row parity bit and will not be correct in a column parity "
+"bit:"
+
+
+#: ../../source/electronic-error-correction.rst:63
+msgid ""
+"16 bits de datos con un error en un bit, rodeados de 8 bits de paridad de "
+"los cuales 2 no concuerdan con los datos."
+msgstr ""
+"16 bits of data with one bit error, surrounded by 8 parity bits of which 2 "
+"do not match the data."
+
+
+#: ../../source/electronic-error-correction.rst:67
+msgid ""
+"Eso indica que el bit correspondiente a esa fila y a esa columna ha "
+"cambiado:"
+msgstr ""
+"This indicates that the bit corresponding to that row and that column has "
+"changed:"
+
+
+#: ../../source/electronic-error-correction.rst:75
+msgid "Bits de paridad indicando error en amarillo, bit erróneo en naranja."
+msgstr "Parity bits indicating error in yellow, wrong bit in orange."
+
+
+#: ../../source/electronic-error-correction.rst:77
+msgid ""
+"Con esa información podemos corregir el bit erróneo para volver a la tabla "
+"original."
+msgstr ""
+"With that information we can correct the erroneous bit to return to the "
+"original table."
+
+
+#: ../../source/electronic-error-correction.rst:81
+msgid ""
+"Por otro lado, si lo que cambia por error es un bit de paridad, solo ese bit"
+" será el que no concuerda con la tabla. Todos los demás bits de paridad van "
+"a ser correctos, lo cual indica que es el bit solitario el que ha cambiado:"
+msgstr ""
+"On the other hand, if what changes by mistake is a parity bit, only that bit"
+" will be the one that does not match the table. All other parity bits will "
+"be correct, indicating that it is the lone bit that has changed:"
+
+
+#: ../../source/electronic-error-correction.rst:92
+msgid ""
+"Bit de paridad erróneo en amarillo. Es el único bit que no concuerda con los"
+" demás."
+msgstr ""
+"Bad parity bit in yellow. It's the only bit that doesn't match the others."
+
+
+#: ../../source/electronic-error-correction.rst:95
+msgid ""
+"Con esa información podemos corregir el bit de paridad erróneo para volver a"
+" la tabla original:"
+msgstr ""
+"With that information we can correct the erroneous parity bit to return to "
+"the original table:"
+
+
+#: ../../source/electronic-error-correction.rst:107
+msgid "Códigos de corrección de errores"
+msgstr "Bug Fix Codes"
+
+
+#: ../../source/electronic-error-correction.rst:108
+msgid ""
+"Los `códigos de corrección de errores <https://es.wikipedia.org/wiki/FEC>`__"
+" utilizados en la práctica son capaces de corregir ráfagas de varios bits "
+"erróneos en un mismo bloque de información."
+msgstr ""
+"The `error correction codes <https://es.wikipedia.org/wiki/FEC>`__ used in "
+"practice are capable of correcting bursts of several error bits in the same "
+"block of information."
+
+
+#: ../../source/electronic-error-correction.rst:113
+msgid "Los códigos correctores más populares son los siguientes:"
+msgstr "The most popular corrective codes are the following:"
+
+
+#: ../../source/electronic-error-correction.rst:115
+msgid "`Códigos Reed-Solomon. <https://es.wikipedia.org/wiki/Reed-Solomon>`__"
+msgstr "`Reed-Solomon codes. <https://es.wikipedia.org/wiki/Reed-Solomon>`__"
+
+
+#: ../../source/electronic-error-correction.rst:117
+msgid ""
+"Son los más sencillos de implementar y los más antiguos. Se han empleado en "
+"CD, DVD, TV digital, ADSL, etc."
+msgstr ""
+"They are the simplest to implement and the oldest. They have been used in "
+"CD, DVD, digital TV, ADSL, etc."
+
+
+#: ../../source/electronic-error-correction.rst:120
+msgid ""
+"`Códigos Convolucionales. "
+"<https://es.wikipedia.org/wiki/C%C3%B3digo_convolucional>`__"
+msgstr ""
+"`Convolutional Codes. "
+"<https://es.wikipedia.org/wiki/C%C3%B3digo_convolutional>`__"
+
+
+#: ../../source/electronic-error-correction.rst:122
+msgid ""
+"Empleados en redes de telefonía móvil GSM, redes WiFi antiguas o en sondas "
+"espaciales."
+msgstr ""
+"Used in GSM mobile telephone networks, old WiFi networks or in space probes."
+
+
+#: ../../source/electronic-error-correction.rst:125
+msgid "`Turbo Códigos. <https://es.wikipedia.org/wiki/Turbo_c%C3%B3digos>`__"
+msgstr "`Turbo Codes. <https://es.wikipedia.org/wiki/Turbo_c%C3%B3digos>`__"
+
+
+#: ../../source/electronic-error-correction.rst:127
+msgid ""
+"Empleados en comunicaciones por satélite y en redes de telefonía móvil 3G. "
+"Tienen la desventaja de estar patentados."
+msgstr ""
+"Employed in satellite communications and 3G mobile telephone networks. They "
+"have the disadvantage of being patented."
+
+
+#: ../../source/electronic-error-correction.rst:130
+msgid "`Códigos LDPC o Gallager. <https://es.wikipedia.org/wiki/LDPC>`__"
+msgstr "`LDPC or Gallager codes. <https://es.wikipedia.org/wiki/LDPC>`__"
+
+
+#: ../../source/electronic-error-correction.rst:132
+msgid ""
+"Son los más recientes. Se utilizan en las redes WiFi más modernas, en "
+"telefonía móvil 5G, en las redes Ethernet cableadas de mayor velocidad y en "
+"las últimas versiones de TV Digital."
+msgstr ""
+"They are the most recent. They are used in the most modern WiFi networks, in"
+" 5G mobile telephony, in the highest speed wired Ethernet networks and in "
+"the latest versions of Digital TV."
+
+
+#: ../../source/electronic-error-correction.rst:139
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../source/electronic-error-correction.rst:141
+msgid "Escribe tu nombre en una hoja de papel."
+msgstr "Write your name on a piece of paper."
+
+
+#: ../../source/electronic-error-correction.rst:143
+msgid ""
+"En la hoja, dibuja y rellena la siguiente tabla de 4x4 bits con datos "
+"binarios (cero o uno) aleatorios, dejando un hueco en uno de los cuadrados."
+msgstr ""
+"On the paper, draw and fill in the following 4x4-bit table with random "
+"binary data (zero or one), leaving a gap in one of the squares."
+
+
+#: ../../source/electronic-error-correction.rst:147
+msgid ""
+"Rellena a continuación los bits de paridad de cada fila y de cada columna "
+"teniendo en cuenta que en el hueco dejado libre debería haber un uno (1)."
+msgstr ""
+"Then fill in the parity bits for each row and each column, taking into "
+"account that there should be a one (1) in the space left free."
+
+
+#: ../../source/electronic-error-correction.rst:151
+msgid ""
+"Escribe ahora un cero (0) en el hueco dejado antes. Este será el error de "
+"transmisión."
+msgstr ""
+"Now write a zero (0) in the space left before. This will be the transmission"
+" error."
+
+
+#: ../../source/electronic-error-correction.rst:154
+
+
+#: ../../source/electronic-error-correction.rst:170
+msgid ""
+"Intercambia la tabla con un compañero de clase para que cada uno resuelva "
+"dónde está el error en la tabla del otro."
+msgstr ""
+"Exchange the table with a classmate so that each one can solve where the "
+"error is in the other's table."
+
+
+#: ../../source/electronic-error-correction.rst:163
+msgid ""
+"Dibuja y rellena la siguiente tabla de 4x4 bits con datos binarios "
+"aleatorios."
+msgstr "Draw and fill the following 4x4 bit table with random binary data."
+
+
+#: ../../source/electronic-error-correction.rst:166
+msgid ""
+"Rellena a continuación los bits de paridad de cada fila y de cada columna "
+"teniendo en cuenta que debes escribir uno al revés de lo que vale en "
+"realidad (error en un bit de paridad)."
+msgstr ""
+"Then fill in the parity bits of each row and each column, taking into "
+"account that you must write one the opposite of what it actually counts "
+"(error in a parity bit)."
+
+
+#: ../../source/electronic-error-correction.rst:179
+msgid ""
+"Los códigos de corrección de errores usados en la práctica ¿solo pueden "
+"corregir un bit erróneo en cada bloque de datos?."
+msgstr ""
+"Can the error correction codes used in practice only correct one erroneous "
+"bit in each data block?"
+
+
+#: ../../source/electronic-error-correction.rst:182
+msgid ""
+"Escribe el nombre de tres códigos de errores usados en la práctica y escribe"
+" dos aplicaciones de cada uno de ellos."
+msgstr ""
+"Write the name of three error codes used in practice and write two "
+"applications of each of them."

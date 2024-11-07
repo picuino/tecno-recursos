@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Digital electronic - 3. Corrección de de errores">
-  <title>3. Corrección de de errores - Digital electronic - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Digital electronics - 3. Bug fixes">
+  <title>3. Bug fixes - Digital electronics - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="4. El sistema binario" href="electronic-binary.html">
-  <link rel="prev" title="2. Detección de errores" href="electronic-error-detection.html">
+  <link rel="next" title="4. The binary system" href="electronic-binary.html">
+  <link rel="prev" title="2. Error detection" href="electronic-error-detection.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">electronics</a>/</li>
+          <li><a href="electronic-index.html">Electronics</a>/</li>
         
-          <li><a href="electronic-digital-index.html">Digital electronic</a>/</li>
+          <li><a href="electronic-digital-index.html">Digital electronics</a>/</li>
         
-      <li><span class="section-number">3. </span>Corrección de de errores</li>
+      <li><span class="section-number">3. </span>Bug fixes</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,130 +102,87 @@
            <div itemprop="articleBody">
             
   <div class="section" id="correccion-de-de-errores">
-<span id="electronic-error-correction"></span><h1><span class="section-number">3. </span>Corrección de de errores<a class="headerlink" href="#correccion-de-de-errores" title="Permalink to this headline">¶</a></h1>
-<p>Los bits extra de redundancia no solo pueden detectar errores de
-transmisión, también son capaces de corregir los errores detectados.</p>
-<p>Hay muchos sistemas que solo pueden transmitir la información una vez,
-no permiten volver a pedir los datos correctos al emisor
-(televisión digital terrestre, televisión por satélite, etc.).
-Los medios físicos tales como el CD-ROM, las memorias USB o los Discos SSD
-tienen el mismo problema, una vez que se corrompe la información no se
-puede volver a solicitar al emisor.</p>
-<p>En todos estos casos no es suficiente con detectar los errores, también
-es necesario poder corregirlos a partir de la información recibida.</p>
+<span id="electronic-error-correction"></span><h1><span class="section-number">3. </span>Bug fixes<a class="headerlink" href="#correccion-de-de-errores" title="Permalink to this headline">¶</a></h1>
+<p>The extra redundancy bits can not only detect transmission errors, they are also capable of correcting the detected errors.</p>
+<p>There are many systems that can only transmit information once, they do not allow the correct data to be requested from the sender again (digital terrestrial television, satellite television, etc.). Physical media such as CD-ROM, USB flash drives or SSD Disks have the same problem; once the information is corrupted, it cannot be requested from the issuer again.</p>
+<p>In all these cases it is not enough to detect errors, it is also necessary to be able to correct them based on the information received.</p>
 <div class="section" id="correccion-de-errores-con-bits-de-paridad">
-<h2>Corrección de errores con bits de paridad<a class="headerlink" href="#correccion-de-errores-con-bits-de-paridad" title="Permalink to this headline">¶</a></h2>
-<p>El ejemplo más sencillo de un código que corrige errores es un sistema
-con doble paridad, horizontal y vertical.
-Este ejemplo no se utiliza en la práctica para corregir errores,
-pero es mucho más sencillo de visualizar que otros códigos más capaces
-y mucho más complejos.</p>
-<p>Comenzamos por una tabla con 16 bits de información (4x4):</p>
+<h2>Bug fixes with parity bits<a class="headerlink" href="#correccion-de-errores-con-bits-de-paridad" title="Permalink to this headline">¶</a></h2>
+<p>The simplest example of code that corrects errors is a system with double parity, horizontal and vertical. This example is not used in practice to correct errors, but it is much easier to visualize than other more capable and much more complex codes.</p>
+<p>We start with a table with 16 bits of information (4x4):</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-error-correction-01b.png"><img alt="16 bits de datos." src="_images/electronic-error-correction-01b.png" style="width: 140px;"></a>
-<p class="caption"><span class="caption-text">16 bits de datos.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">16 bits of data.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>A esta tabla le añadimos 4 bits de paridad en horizontal y otros 4 bits
-de paridad en vertical:</p>
+<p>To this table we add 4 horizontal parity bits and another 4 vertical parity bits:</p>
 <div class="figure align-center" id="id2">
 <a class="reference internal image-reference" href="_images/electronic-error-correction-01.png"><img alt="16 bits de datos rodeados de 8 bits de paridad, sin errores." src="_images/electronic-error-correction-01.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">16 bits de datos rodeados de 8 bits de paridad, sin errores.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">16 data bits surrounded by 8 parity bits, no errors.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>Una vez formada la tabla la podemos transmitir y con la información
-redundante podremos detectar y corregir cualquier error de 1 solo bit.</p>
-<p>Si se produce un error en un bit de los datos, la información de paridad
-no será correcta en un bit de paridad de fila y tampoco será correcta en
-un bit de paridad de columna:</p>
+<p>Once the table is formed we can transmit it and with the redundant information we can detect and correct any 1-bit error.</p>
+<p>If an error occurs in one bit of the data, the parity information will not be correct in a row parity bit and will not be correct in a column parity bit:</p>
 <div class="figure align-center" id="id3">
 <a class="reference internal image-reference" href="_images/electronic-error-correction-02.png"><img alt="16 bits de datos con un error en un bit." src="_images/electronic-error-correction-02.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">16 bits de datos con un error en un bit,
-rodeados de 8 bits de paridad
-de los cuales 2 no concuerdan con los datos.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">16 bits of data with one bit error, surrounded by 8 parity bits of which 2 do not match the data.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
-<p>Eso indica que el bit correspondiente a esa fila y a esa columna ha
-cambiado:</p>
+<p>This indicates that the bit corresponding to that row and that column has changed:</p>
 <div class="figure align-center" id="id4">
 <a class="reference internal image-reference" href="_images/electronic-error-correction-03.png"><img alt="Bits de paridad indicando error en amarillo, bit erróneo en naranja." src="_images/electronic-error-correction-03.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Bits de paridad indicando error en amarillo, bit erróneo en naranja.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Parity bits indicating error in yellow, wrong bit in orange.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
-<p>Con esa información podemos corregir el bit erróneo para volver a
-la tabla original.</p>
-<p>Por otro lado, si lo que cambia por error es un bit de paridad, solo ese
-bit será el que no concuerda con la tabla. Todos los demás bits de paridad
-van a ser correctos, lo cual indica que es el bit solitario el que ha
-cambiado:</p>
+<p>With that information we can correct the erroneous bit to return to the original table.</p>
+<p>On the other hand, if what changes by mistake is a parity bit, only that bit will be the one that does not match the table. All other parity bits will be correct, indicating that it is the lone bit that has changed:</p>
 <div class="figure align-center" id="id5">
 <a class="reference internal image-reference" href="_images/electronic-error-correction-04.png"><img alt="Bit de paridad erróneo en amarillo. Es el único bit que no concuerda con los demás." src="_images/electronic-error-correction-04.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Bit de paridad erróneo en amarillo. Es el único bit que no
-concuerda con los demás.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Bad parity bit in yellow. It's the only bit that doesn't match the others.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
-<p>Con esa información podemos corregir el bit de paridad erróneo para volver
-a la tabla original:</p>
+<p>With that information we can correct the erroneous parity bit to return to the original table:</p>
 <div class="figure align-center" id="id6">
 <a class="reference internal image-reference" href="_images/electronic-error-correction-01.png"><img alt="16 bits de datos rodeados de 8 bits de paridad, sin errores." src="_images/electronic-error-correction-01.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">16 bits de datos rodeados de 8 bits de paridad, sin errores.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">16 data bits surrounded by 8 parity bits, no errors.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="codigos-de-correccion-de-errores">
-<h2>Códigos de corrección de errores<a class="headerlink" href="#codigos-de-correccion-de-errores" title="Permalink to this headline">¶</a></h2>
-<p>Los <a class="reference external" href="https://es.wikipedia.org/wiki/FEC" rel="noopener noreferrer" target="_blank">códigos de corrección de errores</a>
-utilizados en la práctica son capaces de corregir ráfagas de varios
-bits erróneos en un mismo bloque de información.</p>
-<p>Los códigos correctores más populares son los siguientes:</p>
+<h2>Bug Fix Codes<a class="headerlink" href="#codigos-de-correccion-de-errores" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference external" href="https://es.wikipedia.org/wiki/FEC" rel="noopener noreferrer" target="_blank">error correction codes</a> used in practice are capable of correcting bursts of several error bits in the same block of information.</p>
+<p>The most popular corrective codes are the following:</p>
 <ol class="arabic">
-<li><p class="first"><a class="reference external" href="https://es.wikipedia.org/wiki/Reed-Solomon" rel="noopener noreferrer" target="_blank">Códigos Reed-Solomon.</a></p>
-<p>Son los más sencillos de implementar y los más antiguos.
-Se han empleado en CD, DVD, TV digital, ADSL, etc.</p>
+<li><p class="first"><a class="reference external" href="https://es.wikipedia.org/wiki/Reed-Solomon" rel="noopener noreferrer" target="_blank">Reed-Solomon codes.</a></p>
+<p>They are the simplest to implement and the oldest. They have been used in CD, DVD, digital TV, ADSL, etc.</p>
 </li>
-<li><p class="first"><a class="reference external" href="https://es.wikipedia.org/wiki/C%C3%B3digo_convolucional" rel="noopener noreferrer" target="_blank">Códigos Convolucionales.</a></p>
-<p>Empleados en redes de telefonía móvil GSM, redes WiFi antiguas o
-en sondas espaciales.</p>
+<li><p class="first"><a class="reference external" href="https://es.wikipedia.org/wiki/C%C3%B3digo_convolutional" rel="noopener noreferrer" target="_blank">Convolutional Codes.</a></p>
+<p>Used in GSM mobile telephone networks, old WiFi networks or in space probes.</p>
 </li>
-<li><p class="first"><a class="reference external" href="https://es.wikipedia.org/wiki/Turbo_c%C3%B3digos" rel="noopener noreferrer" target="_blank">Turbo Códigos.</a></p>
-<p>Empleados en comunicaciones por satélite y en redes de telefonía
-móvil 3G. Tienen la desventaja de estar patentados.</p>
+<li><p class="first"><a class="reference external" href="https://es.wikipedia.org/wiki/Turbo_c%C3%B3digos" rel="noopener noreferrer" target="_blank">Turbo Codes.</a></p>
+<p>Employed in satellite communications and 3G mobile telephone networks. They have the disadvantage of being patented.</p>
 </li>
-<li><p class="first"><a class="reference external" href="https://es.wikipedia.org/wiki/LDPC" rel="noopener noreferrer" target="_blank">Códigos LDPC o Gallager.</a></p>
-<p>Son los más recientes. Se utilizan en las redes WiFi más modernas,
-en telefonía móvil 5G, en las redes Ethernet cableadas de mayor
-velocidad y en las últimas versiones de TV Digital.</p>
+<li><p class="first"><a class="reference external" href="https://es.wikipedia.org/wiki/LDPC" rel="noopener noreferrer" target="_blank">LDPC or Gallager codes.</a></p>
+<p>They are the most recent. They are used in the most modern WiFi networks, in 5G mobile telephony, in the highest speed wired Ethernet networks and in the latest versions of Digital TV.</p>
 </li>
 </ol>
 </div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Escribe tu nombre en una hoja de papel.</p>
-<p>En la hoja, dibuja y rellena la siguiente tabla de 4x4 bits con
-datos binarios (cero o uno) aleatorios, dejando un hueco en uno de
-los cuadrados.</p>
-<p>Rellena a continuación los bits de paridad de cada fila y de
-cada columna teniendo en cuenta que en el hueco dejado libre
-debería haber un uno (1).</p>
-<p>Escribe ahora un cero (0) en el hueco dejado antes. Este será el
-error de transmisión.</p>
-<p>Intercambia la tabla con un compañero de clase para que cada uno
-resuelva dónde está el error en la tabla del otro.</p>
+<li><p class="first">Write your name on a piece of paper.</p>
+<p>On the paper, draw and fill in the following 4x4-bit table with random binary data (zero or one), leaving a gap in one of the squares.</p>
+<p>Then fill in the parity bits for each row and each column, taking into account that there should be a one (1) in the space left free.</p>
+<p>Now write a zero (0) in the space left before. This will be the transmission error.</p>
+<p>Exchange the table with a classmate so that each one can solve where the error is in the other's table.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/electronic-error-correction-05.png"><img alt="Tabla con 16 huecos de bits de datos y 8 huecos de paridad." src="_images/electronic-error-correction-05.png" style="width: 180px;"></a>
 </div>
 </li>
-<li><p class="first">Dibuja y rellena la siguiente tabla de 4x4 bits con datos binarios
-aleatorios.</p>
-<p>Rellena a continuación los bits de paridad de cada fila y de
-cada columna teniendo en cuenta que debes escribir uno al revés de
-lo que vale en realidad (error en un bit de paridad).</p>
-<p>Intercambia la tabla con un compañero de clase para que cada uno
-resuelva dónde está el error en la tabla del otro.</p>
+<li><p class="first">Draw and fill the following 4x4 bit table with random binary data.</p>
+<p>Then fill in the parity bits of each row and each column, taking into account that you must write one the opposite of what it actually counts (error in a parity bit).</p>
+<p>Exchange the table with a classmate so that each one can solve where the error is in the other's table.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/electronic-error-correction-05.png"><img alt="Tabla con 16 huecos de bits de datos y 8 huecos de paridad." src="_images/electronic-error-correction-05.png" style="width: 180px;"></a>
 </div>
 </li>
-<li><p class="first">Los códigos de corrección de errores usados en la práctica ¿solo
-pueden corregir un bit erróneo en cada bloque de datos?.</p>
+<li><p class="first">Can the error correction codes used in practice only correct one erroneous bit in each data block?</p>
 </li>
-<li><p class="first">Escribe el nombre de tres códigos de errores usados en la práctica
-y escribe dos aplicaciones de cada uno de ellos.</p>
+<li><p class="first">Write the name of three error codes used in practice and write two applications of each of them.</p>
 </li>
 </ol>
 </div>
@@ -240,10 +197,10 @@ y escribe dos aplicaciones de cada uno de ellos.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-binary.html" class="btn btn-neutral float-right" title="4. El sistema binario" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-binary.html" class="btn btn-neutral float-right" title="4. The binary system" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-error-detection.html" class="btn btn-neutral" title="2. Detección de errores" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-error-detection.html" class="btn btn-neutral" title="2. Error detection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -331,24 +288,24 @@ y escribe dos aplicaciones de cada uno de ellos.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. digital signals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Detección de errores</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">3. Corrección de de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. El sistema binario</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. La puerta lógica OR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. La puerta lógica AND</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. La puerta lógica XOR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. Las leyes de De Morgan</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. La tabla de verdad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Analog electronics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. Digital signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Error detection</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">3. Bug fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. The binary system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. The NOT logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. The OR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. The logic AND gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. The XOR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. De Morgan's laws</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. The truth table</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with LED lights</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>

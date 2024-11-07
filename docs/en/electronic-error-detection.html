@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Digital electronic - 2. Detección de errores">
-  <title>2. Detección de errores - Digital electronic - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Digital electronics - 2. Error detection">
+  <title>2. Error detection - Digital electronics - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="3. Corrección de de errores" href="electronic-error-correction.html">
-  <link rel="prev" title="1. digital signals" href="electronic-digital-signals.html">
+  <link rel="next" title="3. Bug fixes" href="electronic-error-correction.html">
+  <link rel="prev" title="1. Digital signals" href="electronic-digital-signals.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">electronics</a>/</li>
+          <li><a href="electronic-index.html">Electronics</a>/</li>
         
-          <li><a href="electronic-digital-index.html">Digital electronic</a>/</li>
+          <li><a href="electronic-digital-index.html">Digital electronics</a>/</li>
         
-      <li><span class="section-number">2. </span>Detección de errores</li>
+      <li><span class="section-number">2. </span>Error detection</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,80 +102,46 @@
            <div itemprop="articleBody">
             
   <div class="section" id="deteccion-de-errores">
-<span id="electronic-error-detection"></span><h1><span class="section-number">2. </span>Detección de errores<a class="headerlink" href="#deteccion-de-errores" title="Permalink to this headline">¶</a></h1>
-<p>En electrónica digital se pueden añadir datos extra a la información
-enviada por un canal con ruido, para detectar si la transmisión de
-información ha sido correcta o si se ha producido algún error.</p>
-<p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores" rel="noopener noreferrer" target="_blank">detección de errores</a>
-añade una pequeña sobrecarga de información con bits extra denominados
-<strong>redundancia</strong>.</p>
-<p>En la transmisión de datos por internet o en la red de datos móviles,
-si se produce un error y se detecta, el ordenador volverá a pedir que
-se reenvíe la información, hasta que llegue la versión correcta sin
-errores.</p>
+<span id="electronic-error-detection"></span><h1><span class="section-number">2. </span>Error detection<a class="headerlink" href="#deteccion-de-errores" title="Permalink to this headline">¶</a></h1>
+<p>In digital electronics, extra data can be added to the information sent over a noisy channel, to detect if the transmission of information has been correct or if an error has occurred.</p>
+<p>The <a class="reference external" href="https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores" rel="noopener noreferrer" target="_blank">error detection</a> adds a small information overload with extra bits called <strong>redundancy</strong>.</p>
+<p>When transmitting data over the Internet or mobile data network, if an error occurs and is detected, the computer will ask again to resend the information until the correct version arrives without errors.</p>
 <div class="section" id="bits-de-paridad">
-<h2>Bits de paridad<a class="headerlink" href="#bits-de-paridad" title="Permalink to this headline">¶</a></h2>
-<p>El sistema más sencillo de añadir redundancia para detectar errores es
-el <a class="reference external" href="https://es.wikipedia.org/wiki/Bit_de_paridad" rel="noopener noreferrer" target="_blank">bit de paridad</a>.
-Este bit tiene un valor que hace que el número de bits a uno totales
-sea siempre par.</p>
-<p>Por ejemplo, si los datos enviados tienen 3 bits a uno, el bit de paridad
-también valdrá uno para que el número total de bits a uno sea 4
-(número par).</p>
-<p>En la siguiente figura se pueden ver varios ejemplos de bits de paridad
-correctos, enviados junto con su byte de información.</p>
+<h2>Parity bits<a class="headerlink" href="#bits-de-paridad" title="Permalink to this headline">¶</a></h2>
+<p>The simplest system to add redundancy to detect errors is the <a class="reference external" href="https://es.wikipedia.org/wiki/Bit_de_paridad" rel="noopener noreferrer" target="_blank">parity bit</a>. This bit has a value that makes the number of total bits to one always even.</p>
+<p>For example, if the data sent has 3 bits to one, the parity bit will also be one so that the total number of bits to one is 4 (even number).</p>
+<p>In the following figure you can see several examples of correct parity bits, sent along with their information byte.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-error-detection-01.png"><img alt="Bit de paridad para varios bytes de datos." src="_images/electronic-error-detection-01.png" style="width: 340px;"></a>
-<p class="caption"><span class="caption-text">Bit de paridad para varios bytes de datos.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Parity bit for multiple bytes of data.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Si la paridad final es impar, eso significa que alguno de los bits de
-información ha cambiado durante su transmisión y por lo tanto se ha
-producido un error.</p>
-<p>Este sistema reconoce el cambio de un solo bit de información.
-Si se producen cambios en dos bit a la vez, el sistema de control de
-paridad no será capaz de reconocer el error.</p>
+<p>If the final parity is odd, that means that some of the information bits have changed during transmission and therefore an error has occurred.</p>
+<p>This system recognizes the change of a single bit of information. If changes occur in two bits at a time, the parity control system will not be able to recognize the error.</p>
 </div>
 <div class="section" id="suma-de-verificacion">
-<h2>Suma de verificación<a class="headerlink" href="#suma-de-verificacion" title="Permalink to this headline">¶</a></h2>
-<p>La <a class="reference external" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" rel="noopener noreferrer" target="_blank">suma de verificación</a>,
-también llamada checksum, es un dato añadido a los datos de información
-que tiene como objetivo detectar errores de transmisión con mayor
-exactitud que un simple bit de paridad.</p>
-<p>Existen varias versiones:</p>
+<h2>Checksum<a class="headerlink" href="#suma-de-verificacion" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference external" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" rel="noopener noreferrer" target="_blank">checksum</a>, also called checksum, is a data added to the information data that aims to detect transmission errors more accuracy than a single parity bit.</p>
+<p>There are several versions:</p>
 <ol class="arabic simple">
-<li>Sumar el valor de todos los bytes de información transmitidos.
-Es la versión más simple de realizar y la menos capaz de detectar
-errores.</li>
-<li><a class="reference external" href="https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica" rel="noopener noreferrer" target="_blank">Códigos de redundancia cíclica o CRC</a>.
-Son códigos que suelen tener una longitud de 16 ó 32 bits y que son
-capaces de detectar más errores que una simple suma.
-Como contrapartida, su cálculo es más complejo.</li>
-<li>Funciones hash avanzadas, como la <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Hash_Algorithm" rel="noopener noreferrer" target="_blank">SHA</a>.
-Son códigos que suelen tener una longitud de más de 128 bits
-(16 bytes) y muy costosos de calcular.
-Por otro lado son los más potentes y sirven para detectar
-errores aleatorios y también errores introducidos a propósito por
-un ciberdelincuente.</li>
+<li>Add the value of all bytes of information transmitted. It is the simplest version to perform and the least capable of detecting errors.</li>
+<li><a class="reference external" href="https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica" rel="noopener noreferrer" target="_blank">Cyclic redundancy codes or CRC</a>. They are codes that usually have a length of 16 or 32 bits and are capable of detecting more errors than a simple sum. On the other hand, its calculation is more complex.</li>
+<li>Advanced hash functions, such as <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Hash_Algorithm" rel="noopener noreferrer" target="_blank">SHA</a>. They are codes that usually have a length of more than 128 bits (16 bytes) and are very expensive to calculate. On the other hand, they are the most powerful and are used to detect random errors and also errors introduced on purpose by a cybercriminal.</li>
 </ol>
-<p>Estas sumas de verificación son muy utilizadas en líneas de comunicación
-a distancia y en soportes digitales tales como el CD-ROM o las memorias
-USB.</p>
+<p>These checksums are widely used in remote communication lines and in digital media such as CD-ROM or USB flash drives.</p>
 </div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">¿Para qué sirve la detección de errores?</p>
+<li><p class="first">What is error detection for?</p>
 </li>
-<li><p class="first">¿Cómo se denomina la información extra añadida para detectar errores
-de transmisión de datos?</p>
+<li><p class="first">What is the extra information added to detect data transmission errors called?</p>
 </li>
-<li><p class="first">De los siguientes datos recibidos ¿cuáles tienen errores y por qué?</p>
+<li><p class="first">Of the following data received, which ones have errors and why?</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/electronic-error-detection-02.png"><img alt="Datos con bits de paridad y con errores." src="_images/electronic-error-detection-02.png" style="width: 340px;"></a>
 </div>
 </li>
-<li><p class="first">Escribe el bit de paridad correspondiente a los siguientes números
-binarios:</p>
+<li><p class="first">Write the parity bit corresponding to the following binary numbers:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span>
 
 <span class="mi">1</span> <span class="mi">1</span> <span class="mi">1</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span>
@@ -186,9 +152,9 @@ binarios:</p>
 </pre></div>
 </div>
 </li>
-<li><p class="first">¿Qué es un código checksum?</p>
-<p>Enumera tres tipos de checksum distintos.</p>
-<p>Escribe dos ejemplos de sistemas que utilicen el código checksum.</p>
+<li><p class="first">What is a checksum code?</p>
+<p>List three different types of checksums.</p>
+<p>Write two examples of systems that use the checksum code.</p>
 </li>
 </ol>
 </div>
@@ -203,10 +169,10 @@ binarios:</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-error-correction.html" class="btn btn-neutral float-right" title="3. Corrección de de errores" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-error-correction.html" class="btn btn-neutral float-right" title="3. Bug fixes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-digital-signals.html" class="btn btn-neutral" title="1. digital signals" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-digital-signals.html" class="btn btn-neutral" title="1. Digital signals" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -294,24 +260,24 @@ binarios:</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. digital signals</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">2. Detección de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Corrección de de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. El sistema binario</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. La puerta lógica OR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. La puerta lógica AND</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. La puerta lógica XOR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. Las leyes de De Morgan</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. La tabla de verdad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Analog electronics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. Digital signals</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2. Error detection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Bug fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. The binary system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. The NOT logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. The OR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. The logic AND gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. The XOR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. De Morgan's laws</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. The truth table</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with LED lights</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>

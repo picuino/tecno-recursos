@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Digital electronic - 7. La puerta lógica AND">
-  <title>7. La puerta lógica AND - Digital electronic - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Digital electronics - 7. The logic AND gate">
+  <title>7. The logic AND gate - Digital electronics - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="8. La puerta lógica XOR" href="electronic-gate-xor.html">
-  <link rel="prev" title="6. La puerta lógica OR" href="electronic-gate-or.html">
+  <link rel="next" title="8. The XOR logic gate" href="electronic-gate-xor.html">
+  <link rel="prev" title="6. The OR logic gate" href="electronic-gate-or.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">electronics</a>/</li>
+          <li><a href="electronic-index.html">Electronics</a>/</li>
         
-          <li><a href="electronic-digital-index.html">Digital electronic</a>/</li>
+          <li><a href="electronic-digital-index.html">Digital electronics</a>/</li>
         
-      <li><span class="section-number">7. </span>La puerta lógica AND</li>
+      <li><span class="section-number">7. </span>The logic AND gate</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,71 +102,53 @@
            <div itemprop="articleBody">
             
   <div class="section" id="la-puerta-logica-and">
-<span id="electronic-gate-and"></span><h1><span class="section-number">7. </span>La puerta lógica AND<a class="headerlink" href="#la-puerta-logica-and" title="Permalink to this headline">¶</a></h1>
-<p>La puerta lógica AND tiene dos o más entradas y una salida.
-Su símbolo es el siguiente:</p>
+<span id="electronic-gate-and"></span><h1><span class="section-number">7. </span>The logic AND gate<a class="headerlink" href="#la-puerta-logica-and" title="Permalink to this headline">¶</a></h1>
+<p>The AND logic gate has two or more inputs and one output. Its symbol is the following:</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-simbolo-puerta-and.png"><img alt="Puerta lógica AND de dos entradas." src="_images/electronic-simbolo-puerta-and.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Símbolo de la puerta lógica AND de dos entradas.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Symbol of the two-input AND logic gate.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>La salida tiene un valor lógico alto (1) si todas sus entradas
-tiene un valor lógico alto (1).
-Es decir, si la entrada A <strong>y</strong> la entrada B están a nivel alto, la salida
-estará a nivel alto. De ahí el nombre <strong>AND</strong> en inglés.</p>
-<p>La función lógica AND se representa mediante una multiplicación, de manera que
-la salida de la puerta será la multiplicación lógica de las entradas:</p>
+<p>The output has a logic high value (1) if all its inputs have a logic high value (1). That is, if input A <strong>and</strong> input B are high, the output will be high. Hence the name <strong>AND</strong> in English.</p>
+<p>The logical AND function is represented by multiplication, so that the output of the gate will be the logical multiplication of the inputs:</p>
 <div class="math">
 <p><img src="_images/math/da7e15d1e9215d1d516d70a96e3206d93fca70dd.svg" alt="Out = A \cdot B"></p>
-</div><p>Si las dos entradas valen uno, la salida valdrá uno, pero
-si alguna entrada vale cero, la salida valdrá cero.</p>
-<p>La tabla de verdad de la función lógica AND es la siguiente:</p>
+</div><p>If both inputs are worth one, the output will be worth one, but if either input is worth zero, the output will be worth zero.</p>
+<p>The truth table of the logical AND function is as follows:</p>
 <div class="figure align-center" id="id2">
 <a class="reference internal image-reference" href="_images/electronic-puerta-and-02.png"><img alt="Tabla de verdad de la puerta lógica AND de dos entradas." src="_images/electronic-puerta-and-02.png" style="width: 160px;"></a>
-<p class="caption"><span class="caption-text">Tabla de verdad de la puerta lógica AND de dos entradas.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Truth table of the two-input AND logic gate.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="la-puerta-logica-nand">
-<h2>La puerta lógica NAND<a class="headerlink" href="#la-puerta-logica-nand" title="Permalink to this headline">¶</a></h2>
-<p>La puerta lógica NAND tiene dos o más entradas y una salida.
-Su símbolo es el siguiente:</p>
+<h2>The NAND logic gate<a class="headerlink" href="#la-puerta-logica-nand" title="Permalink to this headline">¶</a></h2>
+<p>The NAND logic gate has two or more inputs and one output. Its symbol is the following:</p>
 <div class="figure align-center" id="id3">
 <a class="reference internal image-reference" href="_images/electronic-simbolo-puerta-nand.png"><img alt="Puerta lógica NAND de dos entradas." src="_images/electronic-simbolo-puerta-nand.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Símbolo de la puerta lógica NAND de dos entradas.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Symbol of the two-input NAND logic gate.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
-<p>La salida será la misma que la de una puerta AND, pero invertida.
-Es decir que la salida solo valdrá cero cuando todas las entradas valgan
-uno.</p>
-<p>La función lógica NAND se representa mediante una multiplicación negada,
-de manera que la salida de la puerta será la multiplicación lógica de las entradas
-que finalmente se invierte:</p>
+<p>The output will be the same as that of an AND gate, but inverted. That is to say that the output will only be worth zero when all the inputs are worth one.</p>
+<p>The NAND logic function is represented by negated multiplication, so that the output of the gate will be the logical multiplication of the inputs that is finally inverted:</p>
 <div class="math">
 <p><img src="_images/math/4f974054d96a33ea9993b9246badaa092e10f81b.svg" alt="Out = \overline{ A \cdot B }"></p>
-</div><p>La tabla de verdad de la función lógica NAND es la siguiente:</p>
+</div><p>The truth table of the NAND logic function is as follows:</p>
 <div class="figure align-center" id="id4">
 <a class="reference internal image-reference" href="_images/electronic-puerta-nand-02.png"><img alt="Tabla de verdad de la puerta lógica NAND de dos entradas." src="_images/electronic-puerta-nand-02.png" style="width: 160px;"></a>
-<p class="caption"><span class="caption-text">Tabla de verdad de la puerta lógica NAND de dos entradas.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Truth table of two-input NAND logic gate.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="simulacion">
-<h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>En la siguiente simulación podemos ver el
-funcionamiento de la puerta lógica AND y, debajo,
-el funcionamiento de la puerta lógica NAND.</p>
+<h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>In the following simulation we can see the operation of the AND logic gate and, below, the operation of the NAND logic gate.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=digital-puerta-and.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Dibuja el símbolo de la puerta lógica AND,
-su función lógica y su tabla de verdad.</li>
-<li>Dibuja el símbolo de la puerta lógica NAND,
-su función lógica y su tabla de verdad.</li>
-<li>Comprueba gracias al simulador que
-la tabla de verdad de la función AND
-y que la tabla de verdad de la función NAND son correctas.</li>
-<li>En el simulador añade una puerta inversora a la salida de la puerta
-AND y comprueba que su respuesta es igual a la de la puerta NAND.</li>
-<li>Dibuja una puerta lógica AND de tres entradas y su tabla de verdad.</li>
+<li>Draw the AND logic gate symbol, its logic function, and its truth table.</li>
+<li>Draw the NAND logic gate symbol, its logic function, and its truth table.</li>
+<li>Check with the simulator that the truth table of the AND function and that the truth table of the NAND function are correct.</li>
+<li>In the simulator, add an inverting gate to the output of the AND gate and check that its response is the same as that of the NAND gate.</li>
+<li>Draw a three-input AND logic gate and its truth table.</li>
 </ol>
 </div>
 </div>
@@ -180,10 +162,10 @@ AND y comprueba que su respuesta es igual a la de la puerta NAND.</li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-gate-xor.html" class="btn btn-neutral float-right" title="8. La puerta lógica XOR" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-gate-xor.html" class="btn btn-neutral float-right" title="8. The XOR logic gate" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-gate-or.html" class="btn btn-neutral" title="6. La puerta lógica OR" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-gate-or.html" class="btn btn-neutral" title="6. The OR logic gate" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -271,24 +253,24 @@ AND y comprueba que su respuesta es igual a la de la puerta NAND.</li>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. digital signals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Detección de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Corrección de de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. El sistema binario</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. La puerta lógica OR</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">7. La puerta lógica AND</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. La puerta lógica XOR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. Las leyes de De Morgan</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. La tabla de verdad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Analog electronics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. Digital signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Error detection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Bug fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. The binary system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. The NOT logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. The OR logic gate</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">7. The logic AND gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. The XOR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. De Morgan's laws</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. The truth table</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with LED lights</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>

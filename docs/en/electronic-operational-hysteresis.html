@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Electrónica analógica - 23. The comparator with hysteresis">
-  <title>23. The comparator with hysteresis - Electrónica analógica - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Analog electronics - 23. The comparator with hysteresis">
+  <title>23. The comparator with hysteresis - Analog electronics - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,7 +27,7 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="Digital electronic" href="electronic-digital-index.html">
+  <link rel="next" title="Digital electronics" href="electronic-digital-index.html">
   <link rel="prev" title="22. The comparator" href="electronic-operational-comparator.html">
 
 </head>
@@ -67,9 +67,9 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">electronics</a>/</li>
+          <li><a href="electronic-index.html">Electronics</a>/</li>
         
-          <li><a href="electronic-analog-index.html">Electrónica analógica</a>/</li>
+          <li><a href="electronic-analog-index.html">Analog electronics</a>/</li>
         
       <li><span class="section-number">23. </span>The comparator with hysteresis</li>
     
@@ -103,94 +103,61 @@
             
   <div class="section" id="el-comparador-con-histeresis">
 <span id="electronic-operational-hysteresis"></span><h1><span class="section-number">23. </span>The comparator with hysteresis<a class="headerlink" href="#el-comparador-con-histeresis" title="Permalink to this headline">¶</a></h1>
-<p>El circuito comparador con histéresis utiliza un amplificador operacional
-con realimentación <strong>positiva</strong> para conseguir que la comparación tenga
-dos valores separados de encendido y de apagado del circuito.</p>
-<p>Esta separación entre el valor de encendido y el valor de apagado se
-denomina valor de <strong>histéresis</strong>.</p>
+<p>The hysteresis comparator circuit uses an operational amplifier with <strong>positive</strong> feedback to make the comparison have two separate on and off values ​​of the circuit.</p>
+<p>This separation between the on value and the off value is called the <strong>hysteresis</strong> value.</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-analog-oa-hysteresis.png"><img alt="Esquema de un comparador con histéresis." src="_images/electronic-analog-oa-hysteresis.png" style="width: 400px;"></a>
-<p class="caption"><span class="caption-text">Esquema simplificado de un comparador con histéresis.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Simplified diagram of a comparator with hysteresis.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="funcionamiento">
-<h2>Functioning<a class="headerlink" href="#funcionamiento" title="Permalink to this headline">¶</a></h2>
-<p>El circuito sin la resistencia R2 funciona igual que un comparador
-tradicional, que compara la tensión 'Vin' con la tensión de tierra.</p>
-<p>Al añadir la resistencia R2, añadimos realimentación positiva, porque
-R2 va conectada entre la salida y el terminal de entrada positivo.
-Esta realimentación positiva tiene el resultado de reforzar la tensión
-de salida.</p>
-<p>Si la salida es positiva, el terminal de entrada V+ será positivo y
-la tensión de entrada Vin tendrá que ser mayor que cero para
-conseguir que la salida vuelva a ser negativa.</p>
-<p>Por el contrario si la salida es negativa, el terminal de entrada V+ será
-negativo y la tensión de entrada Vin tendrá que ser menor que cero para
-conseguir que la salida vuelva a ser positiva.</p>
-<p>El resultado es una separación entre el valor de entrada que produce
-una salida positiva y el valor de entrada que produce una salida negativa.</p>
+<h2>Operation<a class="headerlink" href="#funcionamiento" title="Permalink to this headline">¶</a></h2>
+<p>The circuit without resistor R2 works the same as a traditional comparator, which compares the voltage 'Vin' with the ground voltage.</p>
+<p>By adding resistor R2, we add positive feedback, because R2 is connected between the output and the positive input terminal. This positive feedback has the result of boosting the output voltage.</p>
+<p>If the output is positive, the input terminal V+ will be positive and the input voltage Vin will have to be greater than zero to make the output negative again.</p>
+<p>On the other hand, if the output is negative, the input terminal V+ will be negative and the input voltage Vin will have to be less than zero to make the output positive again.</p>
+<p>The result is a separation between the input value that produces a positive output and the input value that produces a negative output.</p>
 </div>
 <div class="section" id="simulacion">
 <h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>En la siguiente simulación podemos ver un comparador con histéresis
-funcionando como control de una calefacción:</p>
+<p>In the following simulation we can see a comparator with hysteresis functioning as a heating control:</p>
 <blockquote>
 <div><ul class="simple">
-<li>El led de salida representa el calefactor calentando el recinto.</li>
-<li>La resistencia R1 representa el termostato en el que podemos cambiar
-la temperatura deseada del recinto.</li>
-<li>La resistencia R3 representa el sensor de temperatura ambiente.</li>
-<li>La resistencia R4 aporta realimentación positiva y es la que produce
-la histéresis.</li>
+<li>The output LED represents the heater heating the room.</li>
+<li>Resistor R1 represents the thermostat in which we can change the desired temperature of the room.</li>
+<li>Resistor R3 represents the ambient temperature sensor.</li>
+<li>Resistor R4 provides positive feedback and is what produces the hysteresis.</li>
 </ul>
 </div></blockquote>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=oa-hysteresis.txt"></iframe>
-</div><p>Al aumentar el valor de la temperatura en R3, el led terminará
-apagándose para que la temperatura del recinto disminuya.</p>
-<p>Si en ese caso disminuimos el valor de la temperatura en R3, el led
-terminará encendiéndose para que la temperatura del recinto aumente.</p>
-<p>Si retiramos la resistencia R4, el circuito es un comparador tradicional
-que compara la tensión de referencia de R1 con la tensión de R2 y R3, que
-son un sensor de temperatura.</p>
-<p>Con R4 conectada, las temperaturas de encendido y de apagado no coinciden,
-sino que están separadas varios grados, lo que se denomina temperatura
-de <strong>histéresis</strong>.</p>
-<p>Si ambas temperaturas de encendido y de apagado coincidieran, la
-calefacción se encendería y se apagaría continuamente, con mucha
-frecuencia, y eso podría dañarla.</p>
+</div><p>By increasing the temperature value in R3, the LED will end up turning off so that the room temperature decreases.</p>
+<p>If in that case we decrease the temperature value in R3, the LED will end up turning on so that the room temperature increases.</p>
+<p>If we remove resistor R4, the circuit is a traditional comparator that compares the reference voltage of R1 with the voltage of R2 and R3, which are a temperature sensor.</p>
+<p>With R4 connected, the on and off temperatures do not coincide, but are several degrees apart, which is called <strong>hysteresis</strong> temperature.</p>
+<p>If both on and off temperatures are considered, the heater would turn on and off continuously, very frequently, and that could damage it.</p>
 </div>
 <div class="section" id="ejercicios">
 <h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">¿En qué se diferencia el comparador con histéresis del comparador
-tradicional?
-Explica las diferencias de funcionamiento y de diseño del circuito.</p>
+<li><p class="first">How is the hysteresis comparator different from the traditional comparator? Explain the differences in circuit operation and design.</p>
 </li>
-<li><p class="first">¿Qué es la tensión o la temperatura de histéresis?</p>
+<li><p class="first">What is voltage or temperature hysteresis?</p>
 </li>
-<li><p class="first">¿Qué es mayor en este circuito simulado, la temperatura de encendido
-o la temperatura de apagado?</p>
-<p>¿En un refrigerador qué será mayor, la temperatura de encendido o la
-de apagado del refrigerador? Justifica tu respuesta.</p>
+<li><p class="first">Which is higher in this simulated circuit, the on temperature or the off temperature?</p>
+<p>In a refrigerator, what will be higher, the on or off temperature of the refrigerator? Justify your answer.</p>
 </li>
-<li><p class="first">Simula el cambio de temperatura en el termistor R3 para comprobar cómo
-se comporta el circuito. La luz roja del diodo representa el encendido
-de un calefactor.</p>
-<p>¿A qué temperatura se enciende el calefactor?</p>
-<p>¿A qué temperatura se apaga el calefactor?</p>
-<p>¿Por qué hay esa diferencia entre ambos?</p>
+<li><p class="first">Simulate the temperature change in thermistor R3 to check how the circuit behaves. The red light on the diode represents the ignition of a heater.</p>
+<p>At what temperature does the heater turn on?</p>
+<p>At what temperature does the heater turn off?</p>
+<p>Why is there this difference between the two?</p>
 </li>
-<li><p class="first">Cambia la resistencia R4 a un valor menor (100k).
-¿Qué ocurre con la histéresis?</p>
-<p>Cambia la resistencia R4 a un valor mayor (800k).
-¿Qué ocurre con la histéresis?</p>
+<li><p class="first">Change resistor R4 to a lower value (100k). What happens with hysteresis?</p>
+<p>Change resistor R4 to a higher value (800k). What happens with hysteresis?</p>
 </li>
-<li><p class="first">¿Qué ventajas y qué inconvenientes tiene utilizar una menor histéresis
-en el circuito calentador?</p>
+<li><p class="first">What are the advantages and disadvantages of using a lower hysteresis in the heater circuit?</p>
 </li>
-<li><p class="first">Cambia el valor de la resistencia variable R1 para que la calefacción
-funcione entre los rangos 20ºC y 22ºC.</p>
-<p>Mantén la resistencia R4 con el valor de 800k del ejercicio anterior.</p>
+<li><p class="first">Change the value of the variable resistor R1 so that the heating works between the ranges 20ºC and 22ºC.</p>
+<p>Keep resistance R4 with the value of 800k from the previous exercise.</p>
 </li>
 </ol>
 </div>
@@ -205,7 +172,7 @@ funcione entre los rangos 20ºC y 22ºC.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-digital-index.html" class="btn btn-neutral float-right" title="Digital electronic" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-digital-index.html" class="btn btn-neutral float-right" title="Digital electronics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="electronic-operational-comparator.html" class="btn btn-neutral" title="22. The comparator" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -296,9 +263,9 @@ funcione entre los rangos 20ºC y 22ºC.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-analog-index.html">Analog electronics</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="electronic-diodo.html">1. The diode</a></li>
 <li class="toctree-l3"><a class="reference internal" href="electronic-diodo-rectificador.html">2. The rectifier diode</a></li>
 <li class="toctree-l3"><a class="reference internal" href="electronic-diodo-limitador.html">3. The limiting diode</a></li>
@@ -324,9 +291,9 @@ funcione entre los rangos 20ºC y 22ºC.</p>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">23. The comparator with hysteresis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-digital-index.html">Digital electronics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with LED lights</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>

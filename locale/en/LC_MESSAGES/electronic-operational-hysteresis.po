@@ -1,18 +1,17 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Tecno Recursos 2023"
-"Report-Msgid-Bugs-To:"
-"POT-Creation-Date:2023-11-25 17:54+0100"
+"Project-Id-Version:Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-Date:2023-11-25 17:54+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en <LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding:8bitGenerated-By:Babel 2.9.0"
+"Report-Msgid-Bugs-To:EMAIL@ADDRESS"
+"POT-Creation-Date:2024-11-07 12:56+0100"
 "PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
 "Last-Translator:FULL NAME <EMAIL@ADDRESS>"
-"Language:en"
-"Language-Team:en <LL@li.org>"
-"Plural-Forms:nplurals=2; plural=(n != 1)"
+"Language-Team:LANGUAGE <LL@li.org>"
 "MIME-Version:1.0"
 "Content-Type:text/plain; charset=utf-8"
 "Content-Transfer-Encoding:8bit"
 "Generated-By:Babel 2.9.0"
+
 
 
 #: ../../source/electronic-operational-hysteresis.rst:9
@@ -20,21 +19,274 @@ msgid "El comparador con histéresis"
 msgstr "The comparator with hysteresis"
 
 
-#: ../../source/electronic-operational-hysteresis.rst:16
-msgid "Esquema de un comparador con histéresis."
-msgstr "Diagram of a comparator with hysteresis."
+#: ../../source/electronic-operational-hysteresis.rst:10
+msgid ""
+"El circuito comparador con histéresis utiliza un amplificador operacional "
+"con realimentación **positiva** para conseguir que la comparación tenga dos "
+"valores separados de encendido y de apagado del circuito."
+msgstr ""
+"The hysteresis comparator circuit uses an operational amplifier with "
+"**positive** feedback to make the comparison have two separate on and off "
+"values ​​of the circuit."
 
 
-#: ../../source/electronic-operational-hysteresis.rst:20
+#: ../../source/electronic-operational-hysteresis.rst:14
+msgid ""
+"Esta separación entre el valor de encendido y el valor de apagado se "
+"denomina valor de **histéresis**."
+msgstr ""
+"This separation between the on value and the off value is called the "
+"**hysteresis** value."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:22
+msgid "Esquema simplificado de un comparador con histéresis."
+msgstr "Simplified diagram of a comparator with hysteresis."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:25
 msgid "Funcionamiento"
-msgstr "Functioning"
+msgstr "Operation"
 
 
-#: ../../source/electronic-operational-hysteresis.rst:24
+#: ../../source/electronic-operational-hysteresis.rst:26
+msgid ""
+"El circuito sin la resistencia R2 funciona igual que un comparador "
+"tradicional, que compara la tensión 'Vin' con la tensión de tierra."
+msgstr ""
+"The circuit without resistor R2 works the same as a traditional comparator, "
+"which compares the voltage 'Vin' with the ground voltage."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:29
+msgid ""
+"Al añadir la resistencia R2, añadimos realimentación positiva, porque R2 va "
+"conectada entre la salida y el terminal de entrada positivo. Esta "
+"realimentación positiva tiene el resultado de reforzar la tensión de salida."
+msgstr ""
+"By adding resistor R2, we add positive feedback, because R2 is connected "
+"between the output and the positive input terminal. This positive feedback "
+"has the result of boosting the output voltage."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:34
+msgid ""
+"Si la salida es positiva, el terminal de entrada V+ será positivo y la "
+"tensión de entrada Vin tendrá que ser mayor que cero para conseguir que la "
+"salida vuelva a ser negativa."
+msgstr ""
+"If the output is positive, the input terminal V+ will be positive and the "
+"input voltage Vin will have to be greater than zero to make the output "
+"negative again."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:38
+msgid ""
+"Por el contrario si la salida es negativa, el terminal de entrada V+ será "
+"negativo y la tensión de entrada Vin tendrá que ser menor que cero para "
+"conseguir que la salida vuelva a ser positiva."
+msgstr ""
+"On the other hand, if the output is negative, the input terminal V+ will be "
+"negative and the input voltage Vin will have to be less than zero to make "
+"the output positive again."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:42
+msgid ""
+"El resultado es una separación entre el valor de entrada que produce una "
+"salida positiva y el valor de entrada que produce una salida negativa."
+msgstr ""
+"The result is a separation between the input value that produces a positive "
+"output and the input value that produces a negative output."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:46
 msgid "Simulación"
 msgstr "Simulation"
 
 
-#: ../../source/electronic-operational-hysteresis.rst:34
+#: ../../source/electronic-operational-hysteresis.rst:47
+msgid ""
+"En la siguiente simulación podemos ver un comparador con histéresis "
+"funcionando como control de una calefacción:"
+msgstr ""
+"In the following simulation we can see a comparator with hysteresis "
+"functioning as a heating control:"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:50
+msgid "El led de salida representa el calefactor calentando el recinto."
+msgstr "The output LED represents the heater heating the room."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:51
+msgid ""
+"La resistencia R1 representa el termostato en el que podemos cambiar la "
+"temperatura deseada del recinto."
+msgstr ""
+"Resistor R1 represents the thermostat in which we can change the desired "
+"temperature of the room."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:53
+msgid "La resistencia R3 representa el sensor de temperatura ambiente."
+msgstr "Resistor R3 represents the ambient temperature sensor."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:54
+msgid ""
+"La resistencia R4 aporta realimentación positiva y es la que produce la "
+"histéresis."
+msgstr ""
+"Resistor R4 provides positive feedback and is what produces the hysteresis."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:63
+msgid ""
+"Al aumentar el valor de la temperatura en R3, el led terminará apagándose "
+"para que la temperatura del recinto disminuya."
+msgstr ""
+"By increasing the temperature value in R3, the LED will end up turning off "
+"so that the room temperature decreases."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:66
+msgid ""
+"Si en ese caso disminuimos el valor de la temperatura en R3, el led "
+"terminará encendiéndose para que la temperatura del recinto aumente."
+msgstr ""
+"If in that case we decrease the temperature value in R3, the LED will end up"
+" turning on so that the room temperature increases."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:69
+msgid ""
+"Si retiramos la resistencia R4, el circuito es un comparador tradicional que"
+" compara la tensión de referencia de R1 con la tensión de R2 y R3, que son "
+"un sensor de temperatura."
+msgstr ""
+"If we remove resistor R4, the circuit is a traditional comparator that "
+"compares the reference voltage of R1 with the voltage of R2 and R3, which "
+"are a temperature sensor."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:73
+msgid ""
+"Con R4 conectada, las temperaturas de encendido y de apagado no coinciden, "
+"sino que están separadas varios grados, lo que se denomina temperatura de "
+"**histéresis**."
+msgstr ""
+"With R4 connected, the on and off temperatures do not coincide, but are "
+"several degrees apart, which is called **hysteresis** temperature."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:77
+msgid ""
+"Si ambas temperaturas de encendido y de apagado coincidieran, la calefacción"
+" se encendería y se apagaría continuamente, con mucha frecuencia, y eso "
+"podría dañarla."
+msgstr ""
+"If both on and off temperatures are considered, the heater would turn on and"
+" off continuously, very frequently, and that could damage it."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:83
 msgid "Ejercicios"
 msgstr "Exercises"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:84
+msgid ""
+"¿En qué se diferencia el comparador con histéresis del comparador "
+"tradicional? Explica las diferencias de funcionamiento y de diseño del "
+"circuito."
+msgstr ""
+"How is the hysteresis comparator different from the traditional comparator? "
+"Explain the differences in circuit operation and design."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:88
+msgid "¿Qué es la tensión o la temperatura de histéresis?"
+msgstr "What is voltage or temperature hysteresis?"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:90
+msgid ""
+"¿Qué es mayor en este circuito simulado, la temperatura de encendido o la "
+"temperatura de apagado?"
+msgstr ""
+"Which is higher in this simulated circuit, the on temperature or the off "
+"temperature?"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:93
+msgid ""
+"¿En un refrigerador qué será mayor, la temperatura de encendido o la de "
+"apagado del refrigerador? Justifica tu respuesta."
+msgstr ""
+"In a refrigerator, what will be higher, the on or off temperature of the "
+"refrigerator? Justify your answer."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:96
+msgid ""
+"Simula el cambio de temperatura en el termistor R3 para comprobar cómo se "
+"comporta el circuito. La luz roja del diodo representa el encendido de un "
+"calefactor."
+msgstr ""
+"Simulate the temperature change in thermistor R3 to check how the circuit "
+"behaves. The red light on the diode represents the ignition of a heater."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:100
+msgid "¿A qué temperatura se enciende el calefactor?"
+msgstr "At what temperature does the heater turn on?"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:102
+msgid "¿A qué temperatura se apaga el calefactor?"
+msgstr "At what temperature does the heater turn off?"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:104
+msgid "¿Por qué hay esa diferencia entre ambos?"
+msgstr "Why is there this difference between the two?"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:106
+msgid ""
+"Cambia la resistencia R4 a un valor menor (100k). ¿Qué ocurre con la "
+"histéresis?"
+msgstr ""
+"Change resistor R4 to a lower value (100k). What happens with hysteresis?"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:109
+msgid ""
+"Cambia la resistencia R4 a un valor mayor (800k). ¿Qué ocurre con la "
+"histéresis?"
+msgstr ""
+"Change resistor R4 to a higher value (800k). What happens with hysteresis?"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:112
+msgid ""
+"¿Qué ventajas y qué inconvenientes tiene utilizar una menor histéresis en el"
+" circuito calentador?"
+msgstr ""
+"What are the advantages and disadvantages of using a lower hysteresis in the"
+" heater circuit?"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:115
+msgid ""
+"Cambia el valor de la resistencia variable R1 para que la calefacción "
+"funcione entre los rangos 20ºC y 22ºC."
+msgstr ""
+"Change the value of the variable resistor R1 so that the heating works "
+"between the ranges 20ºC and 22ºC."
+
+
+#: ../../source/electronic-operational-hysteresis.rst:118
+msgid "Mantén la resistencia R4 con el valor de 800k del ejercicio anterior."
+msgstr "Keep resistance R4 with the value of 800k from the previous exercise."

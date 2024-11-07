@@ -1,0 +1,235 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2024"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-11-07 12:56+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+
+#: ../../source/electronic-error-detection.rst:9
+msgid "Detección de errores"
+msgstr "Error detection"
+
+
+#: ../../source/electronic-error-detection.rst:10
+msgid ""
+"En electrónica digital se pueden añadir datos extra a la información enviada"
+" por un canal con ruido, para detectar si la transmisión de información ha "
+"sido correcta o si se ha producido algún error."
+msgstr ""
+"In digital electronics, extra data can be added to the information sent over"
+" a noisy channel, to detect if the transmission of information has been "
+"correct or if an error has occurred."
+
+
+#: ../../source/electronic-error-detection.rst:14
+msgid ""
+"La `detección de errores "
+"<https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores>`__"
+" añade una pequeña sobrecarga de información con bits extra denominados "
+"**redundancia**."
+msgstr ""
+"The `error detection "
+"<https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores>`__"
+" adds a small information overload with extra bits called **redundancy**."
+
+
+#: ../../source/electronic-error-detection.rst:19
+msgid ""
+"En la transmisión de datos por internet o en la red de datos móviles, si se "
+"produce un error y se detecta, el ordenador volverá a pedir que se reenvíe "
+"la información, hasta que llegue la versión correcta sin errores."
+msgstr ""
+"When transmitting data over the Internet or mobile data network, if an error"
+" occurs and is detected, the computer will ask again to resend the "
+"information until the correct version arrives without errors."
+
+
+#: ../../source/electronic-error-detection.rst:26
+msgid "Bits de paridad"
+msgstr "Parity bits"
+
+
+#: ../../source/electronic-error-detection.rst:27
+msgid ""
+"El sistema más sencillo de añadir redundancia para detectar errores es el "
+"`bit de paridad <https://es.wikipedia.org/wiki/Bit_de_paridad>`__. Este bit "
+"tiene un valor que hace que el número de bits a uno totales sea siempre par."
+msgstr ""
+"The simplest system to add redundancy to detect errors is the `parity bit "
+"<https://es.wikipedia.org/wiki/Bit_de_paridad>`__. This bit has a value that"
+" makes the number of total bits to one always even."
+
+
+#: ../../source/electronic-error-detection.rst:32
+msgid ""
+"Por ejemplo, si los datos enviados tienen 3 bits a uno, el bit de paridad "
+"también valdrá uno para que el número total de bits a uno sea 4 (número "
+"par)."
+msgstr ""
+"For example, if the data sent has 3 bits to one, the parity bit will also be"
+" one so that the total number of bits to one is 4 (even number)."
+
+
+#: ../../source/electronic-error-detection.rst:36
+msgid ""
+"En la siguiente figura se pueden ver varios ejemplos de bits de paridad "
+"correctos, enviados junto con su byte de información."
+msgstr ""
+"In the following figure you can see several examples of correct parity bits,"
+" sent along with their information byte."
+
+
+#: ../../source/electronic-error-detection.rst:44
+msgid "Bit de paridad para varios bytes de datos."
+msgstr "Parity bit for multiple bytes of data."
+
+
+#: ../../source/electronic-error-detection.rst:46
+msgid ""
+"Si la paridad final es impar, eso significa que alguno de los bits de "
+"información ha cambiado durante su transmisión y por lo tanto se ha "
+"producido un error."
+msgstr ""
+"If the final parity is odd, that means that some of the information bits "
+"have changed during transmission and therefore an error has occurred."
+
+
+#: ../../source/electronic-error-detection.rst:50
+msgid ""
+"Este sistema reconoce el cambio de un solo bit de información. Si se "
+"producen cambios en dos bit a la vez, el sistema de control de paridad no "
+"será capaz de reconocer el error."
+msgstr ""
+"This system recognizes the change of a single bit of information. If changes"
+" occur in two bits at a time, the parity control system will not be able to "
+"recognize the error."
+
+
+#: ../../source/electronic-error-detection.rst:56
+msgid "Suma de verificación"
+msgstr "Checksum"
+
+
+#: ../../source/electronic-error-detection.rst:57
+msgid ""
+"La `suma de verificación "
+"<https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n>`__, también "
+"llamada checksum, es un dato añadido a los datos de información que tiene "
+"como objetivo detectar errores de transmisión con mayor exactitud que un "
+"simple bit de paridad."
+msgstr ""
+"The `checksum <https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n>`__, "
+"also called checksum, is a data added to the information data that aims to "
+"detect transmission errors more accuracy than a single parity bit."
+
+
+#: ../../source/electronic-error-detection.rst:63
+msgid "Existen varias versiones:"
+msgstr "There are several versions:"
+
+
+#: ../../source/electronic-error-detection.rst:65
+msgid ""
+"Sumar el valor de todos los bytes de información transmitidos. Es la versión"
+" más simple de realizar y la menos capaz de detectar errores."
+msgstr ""
+"Add the value of all bytes of information transmitted. It is the simplest "
+"version to perform and the least capable of detecting errors."
+
+
+#: ../../source/electronic-error-detection.rst:69
+msgid ""
+"`Códigos de redundancia cíclica o CRC "
+"<https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica>`__."
+" Son códigos que suelen tener una longitud de 16 ó 32 bits y que son capaces"
+" de detectar más errores que una simple suma. Como contrapartida, su cálculo"
+" es más complejo."
+msgstr ""
+"`Cyclic redundancy codes or CRC "
+"<https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica>`__."
+" They are codes that usually have a length of 16 or 32 bits and are capable "
+"of detecting more errors than a simple sum. On the other hand, its "
+"calculation is more complex."
+
+
+#: ../../source/electronic-error-detection.rst:75
+msgid ""
+"Funciones hash avanzadas, como la `SHA "
+"<https://es.wikipedia.org/wiki/Secure_Hash_Algorithm>`__. Son códigos que "
+"suelen tener una longitud de más de 128 bits (16 bytes) y muy costosos de "
+"calcular. Por otro lado son los más potentes y sirven para detectar errores "
+"aleatorios y también errores introducidos a propósito por un "
+"ciberdelincuente."
+msgstr ""
+"Advanced hash functions, such as `SHA "
+"<https://es.wikipedia.org/wiki/Secure_Hash_Algorithm>`__. They are codes "
+"that usually have a length of more than 128 bits (16 bytes) and are very "
+"expensive to calculate. On the other hand, they are the most powerful and "
+"are used to detect random errors and also errors introduced on purpose by a "
+"cybercriminal."
+
+
+#: ../../source/electronic-error-detection.rst:83
+msgid ""
+"Estas sumas de verificación son muy utilizadas en líneas de comunicación a "
+"distancia y en soportes digitales tales como el CD-ROM o las memorias USB."
+msgstr ""
+"These checksums are widely used in remote communication lines and in digital"
+" media such as CD-ROM or USB flash drives."
+
+
+#: ../../source/electronic-error-detection.rst:89
+msgid "Ejercicios"
+msgstr "Exercises"
+
+
+#: ../../source/electronic-error-detection.rst:91
+msgid "¿Para qué sirve la detección de errores?"
+msgstr "What is error detection for?"
+
+
+#: ../../source/electronic-error-detection.rst:93
+msgid ""
+"¿Cómo se denomina la información extra añadida para detectar errores de "
+"transmisión de datos?"
+msgstr ""
+"What is the extra information added to detect data transmission errors "
+"called?"
+
+
+#: ../../source/electronic-error-detection.rst:96
+msgid "De los siguientes datos recibidos ¿cuáles tienen errores y por qué?"
+msgstr "Of the following data received, which ones have errors and why?"
+
+
+#: ../../source/electronic-error-detection.rst:103
+msgid ""
+"Escribe el bit de paridad correspondiente a los siguientes números "
+"binarios::"
+msgstr "Write the parity bit corresponding to the following binary numbers::"
+
+
+#: ../../source/electronic-error-detection.rst:114
+msgid "¿Qué es un código checksum?"
+msgstr "What is a checksum code?"
+
+
+#: ../../source/electronic-error-detection.rst:116
+msgid "Enumera tres tipos de checksum distintos."
+msgstr "List three different types of checksums."
+
+
+#: ../../source/electronic-error-detection.rst:118
+msgid "Escribe dos ejemplos de sistemas que utilicen el código checksum."
+msgstr "Write two examples of systems that use the checksum code."

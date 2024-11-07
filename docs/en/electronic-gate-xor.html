@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Digital electronic - 8. La puerta lógica XOR">
-  <title>8. La puerta lógica XOR - Digital electronic - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Digital electronics - 8. The XOR logic gate">
+  <title>8. The XOR logic gate - Digital electronics - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="9. Las leyes de De Morgan" href="electronic-morgan-laws.html">
-  <link rel="prev" title="7. La puerta lógica AND" href="electronic-gate-and.html">
+  <link rel="next" title="9. De Morgan&#39;s laws" href="electronic-morgan-laws.html">
+  <link rel="prev" title="7. The logic AND gate" href="electronic-gate-and.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">electronics</a>/</li>
+          <li><a href="electronic-index.html">Electronics</a>/</li>
         
-          <li><a href="electronic-digital-index.html">Digital electronic</a>/</li>
+          <li><a href="electronic-digital-index.html">Digital electronics</a>/</li>
         
-      <li><span class="section-number">8. </span>La puerta lógica XOR</li>
+      <li><span class="section-number">8. </span>The XOR logic gate</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,76 +102,55 @@
            <div itemprop="articleBody">
             
   <div class="section" id="la-puerta-logica-xor">
-<span id="electronic-gate-xor"></span><h1><span class="section-number">8. </span>La puerta lógica XOR<a class="headerlink" href="#la-puerta-logica-xor" title="Permalink to this headline">¶</a></h1>
-<p>La puerta lógica XOR tiene dos o más entradas y una salida.
-Su símbolo es el siguiente:</p>
+<span id="electronic-gate-xor"></span><h1><span class="section-number">8. </span>The XOR logic gate<a class="headerlink" href="#la-puerta-logica-xor" title="Permalink to this headline">¶</a></h1>
+<p>The XOR logic gate has two or more inputs and one output. Its symbol is the following:</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-simbolo-puerta-xor.png"><img alt="Puerta lógica XOR de dos entradas." src="_images/electronic-simbolo-puerta-xor.png" style="width: 180px;"></a>
-<p class="caption"><span class="caption-text">Símbolo de la puerta lógica XOR de dos entradas.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Symbol of the two-input XOR logic gate.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>La salida tiene un valor lógico alto (1) si la suma de las entradas
-es un valor impar.
-Es decir, si la entrada A <strong>o</strong> la entrada B están a nivel alto, pero
-no las dos a la vez, la salida estará a nivel alto.
-De ahí el nombre de <strong>eXclusive OR</strong> en inglés.</p>
-<p>La función lógica XOR se representa mediante un símbolo de suma rodeado
-de un círculo, de manera que la salida de la puerta será la suma lógica
-exclusiva de las entradas:</p>
+<p>The output has a logic high value (1) if the sum of the inputs is an odd value. That is, if input A <strong>or</strong> input B are at a high level, but not both at the same time, the output will be at a high level. Hence the name <strong>eXclusive OR</strong> in English.</p>
+<p>The logical XOR function is represented by a plus symbol surrounded by a circle, so that the output of the gate will be the exclusive logical sum of the inputs:</p>
 <div class="math">
 <p><img src="_images/math/e47d0d16cbf242e15f090629d1043f43f3ce23f5.svg" alt="Out = A \oplus B"></p>
-</div><p>Si las dos entradas valen cero, la salida valdrá cero,
-si alguna entrada vale uno, la salida valdrá uno
-y si las dos entradas valen uno, la salida volverá a valer cero.</p>
-<p>La tabla de verdad de la función lógica XOR es la siguiente:</p>
+</div><p>If both inputs have a value of zero, the output will have a value of zero, if either input has a value of one, the output will have a value of one, and if both inputs have a value of one, the output will have a value of zero again.</p>
+<p>The truth table of the XOR logic function is as follows:</p>
 <div class="figure align-center" id="id2">
 <a class="reference internal image-reference" href="_images/electronic-puerta-xor-02.png"><img alt="Tabla de verdad de la puerta lógica XOR de dos entradas." src="_images/electronic-puerta-xor-02.png" style="width: 160px;"></a>
-<p class="caption"><span class="caption-text">Tabla de verdad de la puerta lógica XOR de dos entradas.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Truth table of two-input XOR logic gate.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="aplicaciones-de-la-puerta-xor">
-<h2>Aplicaciones de la puerta XOR<a class="headerlink" href="#aplicaciones-de-la-puerta-xor" title="Permalink to this headline">¶</a></h2>
+<h2>XOR Gate Applications<a class="headerlink" href="#aplicaciones-de-la-puerta-xor" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>La puerta XOR puede utilizarse para calcular el valor de paridad de
-todas sus entradas, de manera que las entradas junto a la salida siempre
-tendrán un valor par de unos.</li>
-<li>Otra aplicación de la puerta XOR es hacer sumas aritméticas de bits.
-La puerta XOR calcula la suma aritmética de dos bits y la puerta AND
-calcula el acarreo de sumar dos bits.</li>
-<li>Otra aplicación de la puerta XOR es invertir o no invertir el valor de la
-entrada B en función de la entrada A:<ul>
-<li>Si la entrada A vale cero, la entrada B se copia igual en la salida.</li>
-<li>Si la entrada A  vale uno, la entrada B se copia <strong>invertida</strong> en la
-salida.</li>
+<li>The XOR gate can be used to calculate the parity value of all its inputs, so that the inputs next to the output will always have an even value of ones.</li>
+<li>Another application of the XOR gate is to do bit arithmetic additions. The XOR gate computes the arithmetic addition of two bits and the AND gate computes the carry of adding two bits.</li>
+<li>Another application of the XOR gate is to invert or not invert the value of input B depending on input A:<ul>
+<li>If input A is zero, input B is copied to the output.</li>
+<li>If input A is worth one, input B is copied <strong>inverted</strong> to the output.</li>
 </ul>
 </li>
 </ol>
 </div>
 <div class="section" id="simulacion">
-<h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>En la siguiente simulación podemos ver el funcionamiento de
-la puerta lógica XOR.</p>
+<h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>In the following simulation we can see the operation of the XOR logic gate.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=digital-puerta-xor.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja el símbolo de la puerta lógica XOR,
-su función lógica y su tabla de verdad.</p>
+<li><p class="first">Draw the symbol for the XOR logic gate, its logic function, and its truth table.</p>
 </li>
-<li><p class="first">Comprueba gracias al simulador que
-la tabla de verdad de la función XOR es correcta.</p>
+<li><p class="first">Check with the simulator that the truth table of the XOR function is correct.</p>
 </li>
-<li><p class="first">En el simulador copia el circuito que aparece en la siguiente imagen
-para emular el funcionamiento de la puerta XOR mediante
-puertas NOT, OR y AND:</p>
+<li><p class="first">In the simulator, copy the circuit that appears in the following image to emulate the operation of the XOR gate using NOT, OR and AND gates:</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/electronic-puerta-xor-03.png"><img alt="Puerta XOR simulada con puertas NOT, OR y AND." src="_images/electronic-puerta-xor-03.png" style="width: 480px;"></a>
 </div>
-<p>Comprueba que su funcionamiento es igual al de la puerta XOR.</p>
+<p>Check that its operation is the same as that of the XOR gate.</p>
 </li>
-<li><p class="first">Dibuja una puerta lógica XOR de tres entradas y su tabla de verdad.</p>
-<p>Para realizar la tabla de verdad de la puerta recuerda que la salida
-vale uno si los bits de entrada a uno son impares.</p>
+<li><p class="first">Draw a three-input XOR logic gate and its truth table.</p>
+<p>To create the truth table of the gate, remember that the output is one if the input bits to one are odd.</p>
 </li>
 </ol>
 </div>
@@ -186,10 +165,10 @@ vale uno si los bits de entrada a uno son impares.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-morgan-laws.html" class="btn btn-neutral float-right" title="9. Las leyes de De Morgan" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-morgan-laws.html" class="btn btn-neutral float-right" title="9. De Morgan&#39;s laws" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-gate-and.html" class="btn btn-neutral" title="7. La puerta lógica AND" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-gate-and.html" class="btn btn-neutral" title="7. The logic AND gate" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -277,24 +256,24 @@ vale uno si los bits de entrada a uno son impares.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. digital signals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Detección de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Corrección de de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. El sistema binario</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. La puerta lógica OR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. La puerta lógica AND</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">8. La puerta lógica XOR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. Las leyes de De Morgan</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. La tabla de verdad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Analog electronics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. Digital signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Error detection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Bug fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. The binary system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. The NOT logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. The OR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. The logic AND gate</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">8. The XOR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. De Morgan's laws</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. The truth table</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with LED lights</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>

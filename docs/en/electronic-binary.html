@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Digital electronic - 4. El sistema binario">
-  <title>4. El sistema binario - Digital electronic - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Digital electronics - 4. The binary system">
+  <title>4. The binary system - Digital electronics - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="5. La puerta lógica NOT" href="electronic-gate-not.html">
-  <link rel="prev" title="3. Corrección de de errores" href="electronic-error-correction.html">
+  <link rel="next" title="5. The NOT logic gate" href="electronic-gate-not.html">
+  <link rel="prev" title="3. Bug fixes" href="electronic-error-correction.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">electronics</a>/</li>
+          <li><a href="electronic-index.html">Electronics</a>/</li>
         
-          <li><a href="electronic-digital-index.html">Digital electronic</a>/</li>
+          <li><a href="electronic-digital-index.html">Digital electronics</a>/</li>
         
-      <li><span class="section-number">4. </span>El sistema binario</li>
+      <li><span class="section-number">4. </span>The binary system</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,104 +102,69 @@
            <div itemprop="articleBody">
             
   <div class="section" id="el-sistema-binario">
-<span id="electronic-binary"></span><h1><span class="section-number">4. </span>El sistema binario<a class="headerlink" href="#el-sistema-binario" title="Permalink to this headline">¶</a></h1>
-<p>La electrónica digital funciona con dos valores válidos, encendido y
-apagado.
-El <a class="reference external" href="https://es.wikipedia.org/wiki/Sistema_binario" rel="noopener noreferrer" target="_blank">sistema binario</a>
-es un sistema de numeración que solo utiliza dos cifras, el cero (0) y el
-uno (1), por lo que se adapta muy bien a representar los dos estados
-de la electrónica digital.</p>
-<p>Casi todas las computadoras modernas están basadas en electrónica digital
-y su sistema de numeración y de representación de la información es el
-sistema binario.</p>
+<span id="electronic-binary"></span><h1><span class="section-number">4. </span>The binary system<a class="headerlink" href="#el-sistema-binario" title="Permalink to this headline">¶</a></h1>
+<p>Digital electronics operate with two valid values, on and off. The <a class="reference external" href="https://es.wikipedia.org/wiki/Sistema_binario" rel="noopener noreferrer" target="_blank">binary system</a> is a numbering system that only uses two figures, zero (0) and one (1), so it is very adaptable well to represent the two states of digital electronics.</p>
+<p>Almost all modern computers are based on digital electronics and their numbering and information representation system is the binary system.</p>
 <div class="section" id="contar-en-binario">
-<h2>Contar en binario<a class="headerlink" href="#contar-en-binario" title="Permalink to this headline">¶</a></h2>
-<p>En la siguiente tabla se presentan los 16 primeros números en decimal y
-en binario, comenzando por el cero y terminando en el valor quince:</p>
+<h2>Counting in binary<a class="headerlink" href="#contar-en-binario" title="Permalink to this headline">¶</a></h2>
+<p>The following table shows the first 16 numbers in decimal and binary, starting with zero and ending with the value fifteen:</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/electronic-binary-01.png"><img alt="Cuenta en decimal y en binario desde 0 hasta 15." src="_images/electronic-binary-01.png" style="width: 160px;"></a>
 </div>
-<p>Como se puede observar, hay ciertas normas en los números binarios que
-nos pueden ayudar a construir la tabla con la cuenta en binario:</p>
+<p>As you can see, there are certain rules in binary numbers that can help us build the table with the binary count:</p>
 <blockquote>
 <div><ol class="arabic simple">
-<li>En binario solo utilizan los dígitos cero y uno.</li>
-<li>El cero decimal corresponde con todos los dígitos binarios a cero.</li>
-<li>El dígito binario más a la derecha, que es el de menos valor,
-cambia constantemente de cero a uno a medida que contamos un número
-más. 0 1 0 1 0 1 0 1 ...</li>
-<li>El segundo dígito binario comenzando a la derecha
-cambia cada <strong>dos</strong> números desde cero hasta uno.
-0 0 1 1 0 0 1 1 ...</li>
-<li>El tercer dígito binario comenzando a la derecha
-cambia cada <strong>cuatro</strong> números desde cero hasta uno.
-0 0 0 0 1 1 1 1 ...</li>
-<li>El cuarto dígito binario comenzando a la derecha,
-que es el de más valor, cambia cada <strong>ocho</strong> números
-desde cero hasta uno.
-0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1.</li>
+<li>In binary they only use the digits zero and one.</li>
+<li>Decimal zero corresponds to all binary digits to zero.</li>
+<li>The rightmost binary digit, which is the one with the least value, constantly changes from zero to one as we count one more number. 0 1 0 1 0 1 0 1 ...</li>
+<li>The second binary digit starting from the right changes every <strong>two</strong> numbers from zero to one. 0 0 1 1 0 0 1 1 ...</li>
+<li>The third binary digit starting from the right changes every <strong>four</strong> numbers from zero to one. 0 0 0 0 1 1 1 1 ...</li>
+<li>The fourth binary digit starting from the right, which is the one with the highest value, changes every <strong>eight</strong> numbers from zero to one. 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1.</li>
 </ol>
 </div></blockquote>
 </div>
 <div class="section" id="conversion-de-decimal-a-binario">
-<h2>Conversión de decimal a binario<a class="headerlink" href="#conversion-de-decimal-a-binario" title="Permalink to this headline">¶</a></h2>
-<p>Los humanos estamos acostumbrados a contar y ver números en notación
-decimal, por lo que es conveniente saber convertir cualquier número
-decimal a notación binaria.</p>
-<p>Para convertir un número decimal a binario dividiremos el número entre
-dos consecutivamente hasta que no quede ningún valor que dividir.
-El número binario saldrá de los restos de las divisiones consecutivas,
-de manera que el primer resto obtenido será el dígito binario de menos
-peso y el último resto obtenido será el dígito binario de mayor peso:</p>
+<h2>Decimal to Binary Conversion<a class="headerlink" href="#conversion-de-decimal-a-binario" title="Permalink to this headline">¶</a></h2>
+<p>Humans are used to counting and seeing numbers in decimal notation, so it is convenient to know how to convert any decimal number to binary notation.</p>
+<p>To convert a decimal number to binary we will divide the number by two consecutively until there is no value left to divide. The binary number will come from the remainders of the consecutive divisions, so that the first remainder obtained will be the binary digit with the least weight and the last remainder obtained will be the binary digit with the greatest weight:</p>
 <div class="figure align-center" id="id1">
 <a class="reference internal image-reference" href="_images/electronic-binary-02.png"><img alt="Proceso para convertir un número decimal a binario." src="_images/electronic-binary-02.png" style="width: 296px;"></a>
-<p class="caption"><span class="caption-text">Proceso para convertir un número decimal a binario dividiendo
-consecutivamente por dos.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Process to convert a decimal number to binary by dividing consecutively by two.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Otro ejemplo de conversión del número decimal 146 a binario:</p>
+<p>Another example of converting the decimal number 146 to binary:</p>
 <div class="figure align-center" id="id2">
 <a class="reference internal image-reference" href="_images/electronic-binary-03.png"><img alt="Proceso para convertir un número decimal a binario." src="_images/electronic-binary-03.png" style="width: 297px;"></a>
-<p class="caption"><span class="caption-text">Proceso para convertir un número decimal a binario dividiendo
-consecutivamente por dos.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Process to convert a decimal number to binary by dividing consecutively by two.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="conversion-de-binario-a-decimal">
-<h2>Conversión de binario a decimal<a class="headerlink" href="#conversion-de-binario-a-decimal" title="Permalink to this headline">¶</a></h2>
-<p>Una forma sencilla de convertir un número binario en número decimal
-consiste en crear una tabla con el valor de cada dígito binario.</p>
-<p>El primer dígito binario a la derecha, el de menor valor, tiene un valor
-de uno (1).
-El segundo dígito binario por la derecha tiene un valor de dos (2).
-Los valores van aumentando así, multiplicándose por dos.
-En la octava posición, el valor del dígito binario es de 128.</p>
-<p>Una vez construida la tabla de los valores de cada dígito binario,
-solo es necesario sumar aquellos valores que corresponden a un uno en
-el número binario:</p>
+<h2>Binary to decimal conversion<a class="headerlink" href="#conversion-de-binario-a-decimal" title="Permalink to this headline">¶</a></h2>
+<p>A simple way to convert a binary number to a decimal number is to create a table with the value of each binary digit.</p>
+<p>The first binary digit to the right, the one with the smallest value, has a value of one (1). The second binary digit from the right has a value of two (2). The values ​​increase like this, multiplying by two. In the eighth position, the value of the binary digit is 128.</p>
+<p>Once the table of the values ​​of each binary digit has been constructed, it is only necessary to add those values ​​that correspond to a one in the binary number:</p>
 <div class="figure align-center" id="id3">
 <a class="reference internal image-reference" href="_images/electronic-binary-04.png"><img alt="Conversión de binario a decimal." src="_images/electronic-binary-04.png" style="width: 350px;"></a>
-<p class="caption"><span class="caption-text">Conversión de binario a decimal.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Binary to decimal conversion.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Haz una tabla con los números binarios desde el cero hasta el 31
-utilizando las normas que se han descrito en el apartado de
-'Contar en binario'.</p>
+<li><p class="first">Make a table with the binary numbers from zero to 31 using the rules described in the 'Counting in binary' section.</p>
 </li>
-<li><p class="first">Convierte los siguientes números de decimal a binario:</p>
+<li><p class="first">Convert the following numbers from decimal to binary:</p>
 <p>97</p>
 <p>137</p>
 <p>156</p>
 <p>229</p>
 <p>245</p>
 </li>
-<li><p class="first">Convierte los siguientes números de binario a decimal:</p>
-<p>1  0  0  0  1  1  1  1</p>
-<p>1  0  1  0  0  1  1  0</p>
-<p>1  1  0  0  0  1  1  1</p>
-<p>1  1  1  0  1  1  0  0</p>
-<p>1  1  1  1  1  1  0  1</p>
+<li><p class="first">Convert the following numbers from binary to decimal:</p>
+<p>1 0 0 0 1 1 1 1</p>
+<p>1 0 1 0 0 1 1 0</p>
+<p>1 1 0 0 0 1 1 1</p>
+<p>1 1 1 0 1 1 0 0</p>
+<p>1 1 1 1 1 1 0 1</p>
 </li>
 </ol>
 </div>
@@ -214,10 +179,10 @@ utilizando las normas que se han descrito en el apartado de
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-gate-not.html" class="btn btn-neutral float-right" title="5. La puerta lógica NOT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-gate-not.html" class="btn btn-neutral float-right" title="5. The NOT logic gate" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-error-correction.html" class="btn btn-neutral" title="3. Corrección de de errores" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-error-correction.html" class="btn btn-neutral" title="3. Bug fixes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -305,24 +270,24 @@ utilizando las normas que se han descrito en el apartado de
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. digital signals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Detección de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Corrección de de errores</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">4. El sistema binario</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. La puerta lógica OR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. La puerta lógica AND</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. La puerta lógica XOR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. Las leyes de De Morgan</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. La tabla de verdad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Analog electronics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. Digital signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Error detection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Bug fixes</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">4. The binary system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. The NOT logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. The OR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. The logic AND gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. The XOR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. De Morgan's laws</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. The truth table</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with LED lights</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>

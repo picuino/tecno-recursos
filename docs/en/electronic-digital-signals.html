@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Digital electronic - 1. digital signals">
-  <title>1. digital signals - Digital electronic - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Digital electronics - 1. Digital signals">
+  <title>1. Digital signals - Digital electronics - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -27,8 +27,8 @@
   <link rel="glossary" title="Glossary" href="genindex.html">
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
-  <link rel="next" title="2. Detección de errores" href="electronic-error-detection.html">
-  <link rel="prev" title="Digital electronic" href="electronic-digital-index.html">
+  <link rel="next" title="2. Error detection" href="electronic-error-detection.html">
+  <link rel="prev" title="Digital electronics" href="electronic-digital-index.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">electronics</a>/</li>
+          <li><a href="electronic-index.html">Electronics</a>/</li>
         
-          <li><a href="electronic-digital-index.html">Digital electronic</a>/</li>
+          <li><a href="electronic-digital-index.html">Digital electronics</a>/</li>
         
-      <li><span class="section-number">1. </span>digital signals</li>
+      <li><span class="section-number">1. </span>Digital signals</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,27 +102,20 @@
            <div itemprop="articleBody">
             
   <div class="section" id="las-senales-digitales">
-<span id="electronic-digital-signals"></span><h1><span class="section-number">1. </span>digital signals<a class="headerlink" href="#las-senales-digitales" title="Permalink to this headline">¶</a></h1>
+<span id="electronic-digital-signals"></span><h1><span class="section-number">1. </span>Digital signals<a class="headerlink" href="#las-senales-digitales" title="Permalink to this headline">¶</a></h1>
 <p>Until now, analog signals have been studied, which are voltage or current signals that can take any value within a range.</p>
 <p>This is what an analog signal can look like:</p>
 <div class="figure align-center" id="id1">
 <img alt="Ejemplo de señal analógica." src="_images/electronic-analog-signal.png">
 <p class="caption"><span class="caption-text">Example of analog signal.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Las <a class="reference external" href="https://es.wikipedia.org/wiki/Se%C3%B1al_digital" rel="noopener noreferrer" target="_blank">señales digitales</a>,
-por otro lado, son señales que solo toman valores discretos, por ejemplo
-0 voltios y 5 voltios. Todos los demás valores de tensión son ignorados
-como no válidos.</p>
-<p>Este es el aspecto que puede tener una señal digital con algo de ruido
-añadido:</p>
+<p><a class="reference external" href="https://es.wikipedia.org/wiki/Se%C3%B1al_digital" rel="noopener noreferrer" target="_blank">Digital signals</a>, on the other hand, are signals that only take discrete values, for example 0 volts and 5 volts. All other voltage values ​​are ignored as invalid.</p>
+<p>This is what a digital signal can look like with some noise added:</p>
 <div class="figure align-center" id="id2">
 <img alt="Ejemplo de señal digital con ruido." src="_images/electronic-digital-signal.png">
-<p class="caption"><span class="caption-text">Ejemplo de señal digital con ruido añadido.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Example of a digital signal with added noise.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>Las señales digitales se pueden convertir a valores binarios y manejar
-esos números binarios matemáticamente gracias a los
-<a class="reference external" href="https://es.wikipedia.org/wiki/Circuito_digital" rel="noopener noreferrer" target="_blank">circuitos digitales</a>.
-Esto proporciona muchas ventajas a las señales digitales.</p>
+<p>Digital signals can be converted to binary values ​​and handle those binary numbers mathematically thanks to <a class="reference external" href="https://en.wikipedia.org/wiki/Digital_electronics" rel="noopener noreferrer" target="_blank">digital circuits</a>. This provides many advantages to digital signals.</p>
 <div class="section" id="ventajas-de-la-senal-digital">
 <h2>Advantages of digital signal<a class="headerlink" href="#ventajas-de-la-senal-digital" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
@@ -133,9 +126,7 @@ Esto proporciona muchas ventajas a las señales digitales.</p>
 <p>Digital signals can be duplicated without losing quality, because the noise that is introduced into the digital system can be eliminated.</p>
 </li>
 <li><p class="first"><strong>Error detection and correction.</strong></p>
-<p>Se puede calcular si una señal digital se ha degradado por el ruido
-(detección de errores) y se pueden corregir los errores que se hayan
-producido mediante técnicas matemáticas.</p>
+<p>It can be calculated whether a digital signal has been degraded by noise (error detection) and any errors that have occurred can be corrected using mathematical techniques.</p>
 </li>
 <li><p class="first"><strong>Ease of signal processing.</strong></p>
 <p>The digital signal can be easily processed with suitable software, which is capable of achieving more effects than analog processing. An example of this digital processing is the well-known <a class="reference external" href="https://es.wikipedia.org/wiki/Auto-Tune" rel="noopener noreferrer" target="_blank">Auto-Tune</a>.</p>
@@ -151,30 +142,25 @@ producido mediante técnicas matemáticas.</p>
 </div>
 </div>
 <div class="section" id="simulacion">
-<h2>Simulación<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
-<p>A continuación puede verse la simulación de una señal de datos digital
-con tensiones entre 0 y 5 voltios, que se deteriora al añadir ruido
-en la transmisión y que por último se vuelve a recuperar eliminando el
-ruido con un simple comparador con histéresis (Trigger Schmitt).</p>
+<h2>Simulation<a class="headerlink" href="#simulacion" title="Permalink to this headline">¶</a></h2>
+<p>Below you can see the simulation of a digital data signal with voltages between 0 and 5 volts, which deteriorates by adding noise in the transmission and which is finally recovered by eliminating the noise with a simple comparator with hysteresis (Trigger Schmitt). .</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=digital-ruido.txt"></iframe>
 </div></div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja una señal analógica y una señal digital.</p>
-<p>¿En qué se diferencian?</p>
+<li><p class="first">Draw an analog signal and a digital signal.</p>
+<p>How are they different?</p>
 </li>
-<li><p class="first">¿Qué ventajas presentan las señales digitales?</p>
+<li><p class="first">What advantages do digital signals have?</p>
 </li>
-<li><p class="first">¿Qué es la cuantificación digital?</p>
+<li><p class="first">What is digital quantification?</p>
 </li>
-<li><p class="first">Explica con tus palabras qué ocurre en el circuito simulado.</p>
+<li><p class="first">Explain in your words what happens in the simulated circuit.</p>
 </li>
-<li><p class="first">Modifica en el simulador la señal de FM para que tenga 3 voltios de
-tensión máxima. ¿Qué le ocurre a la señal digital recuperada?</p>
-<p>Dibuja la forma de la señal digital recuperada y señala en el gráfico
-el problema.</p>
+<li><p class="first">Modify the FM signal in the simulator so that it has 3 volts maximum voltage. What happens to the recovered digital signal?</p>
+<p>Draw the shape of the recovered digital signal and indicate the problem on the graph.</p>
 </li>
 </ol>
 </div>
@@ -189,10 +175,10 @@ el problema.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="electronic-error-detection.html" class="btn btn-neutral float-right" title="2. Detección de errores" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="electronic-error-detection.html" class="btn btn-neutral float-right" title="2. Error detection" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-digital-index.html" class="btn btn-neutral" title="Digital electronic" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-digital-index.html" class="btn btn-neutral" title="Digital electronics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -280,24 +266,24 @@ el problema.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">1. digital signals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Detección de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Corrección de de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. El sistema binario</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. La puerta lógica OR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. La puerta lógica AND</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. La puerta lógica XOR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. Las leyes de De Morgan</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. La tabla de verdad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Analog electronics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronics</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">1. Digital signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Error detection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Bug fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. The binary system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. The NOT logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. The OR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. The logic AND gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. The XOR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. De Morgan's laws</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-truth-table.html">10. The truth table</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with LED lights</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>

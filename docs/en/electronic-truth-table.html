@@ -5,8 +5,8 @@
   <meta name="keywords" content="Technology, Secondary Education, Drawing, Structures, Mechanisms, Materials, Electricity, Electronics, Computer Science, Programming, Control, Arduino, Communications, Workshop">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Libre educational resources for Technology in Secondary Education. electronics - Digital electronic - 10. La tabla de verdad">
-  <title>10. La tabla de verdad - Digital electronic - Picuino</title>
+  <meta name="description" content="Libre educational resources for Technology in Secondary Education. Electronics - Digital electronics - 10. The truth table">
+  <title>10. The truth table - Digital electronics - Picuino</title>
 
   
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -28,7 +28,7 @@
   <link rel="index" title="Index" href="content.html">
   <link rel="search" title="Search" href="search.html">
   <link rel="next" title="Wiring of electronic components" href="electronic-bornas-index.html">
-  <link rel="prev" title="9. Las leyes de De Morgan" href="electronic-morgan-laws.html">
+  <link rel="prev" title="9. De Morgan&#39;s laws" href="electronic-morgan-laws.html">
 
 </head>
 
@@ -67,11 +67,11 @@
     
       <li><a href="content.html">Home</a>/</li>
         
-          <li><a href="electronic-index.html">electronics</a>/</li>
+          <li><a href="electronic-index.html">Electronics</a>/</li>
         
-          <li><a href="electronic-digital-index.html">Digital electronic</a>/</li>
+          <li><a href="electronic-digital-index.html">Digital electronics</a>/</li>
         
-      <li><span class="section-number">10. </span>La tabla de verdad</li>
+      <li><span class="section-number">10. </span>The truth table</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -102,61 +102,50 @@
            <div itemprop="articleBody">
             
   <div class="section" id="la-tabla-de-verdad">
-<span id="electronic-truth-table"></span><h1><span class="section-number">10. </span>La tabla de verdad<a class="headerlink" href="#la-tabla-de-verdad" title="Permalink to this headline">¶</a></h1>
-<p>En temas pasados hemos visto qué es una tabla de verdad de una puerta
-lógica. En este tema vamos a ver, paso a paso, cómo crear la tabla de
-verdad de un circuito combinacional cualquiera.</p>
-<p>Los pasos para crear la tabla de verdad de un circuito son:</p>
+<span id="electronic-truth-table"></span><h1><span class="section-number">10. </span>The truth table<a class="headerlink" href="#la-tabla-de-verdad" title="Permalink to this headline">¶</a></h1>
+<p>In previous topics we have seen what a truth table of a logic gate is. In this topic we are going to see, step by step, how to create the truth table of any combinational circuit.</p>
+<p>The steps to create the truth table of a circuit are:</p>
 <ol class="arabic">
-<li><p class="first">Nombrar cada una de las entradas del circuito con una letra
-mayúscula del abecedario, A, B, C, etc.</p>
+<li><p class="first">Name each of the circuit inputs with a capital letter of the alphabet, A, B, C, etc.</p>
 </li>
-<li><p class="first">Nombrar cada una de las salidas del circuito con una O más
-un número, O1, O2, O3, etc.</p>
+<li><p class="first">Name each of the outputs of the circuit with an O plus a number, O1, O2, O3, etc.</p>
 </li>
-<li><p class="first">Dibujar una tabla con tantas columnas como el número de entradas más
-el número de salidas tenga el circuito.</p>
-<p>En la primera fila de la tabla colocaremos el nombre de las entradas
-A, B, C, etc. y el nombre de las salidas O1, O2, O3, etc.</p>
+<li><p class="first">Draw a table with as many columns as the number of inputs plus the number of outputs the circuit has.</p>
+<p>In the first row of the table we will place the name of the entries A, B, C, etc. and the name of the outputs O1, O2, O3, etc.</p>
 </li>
-<li><p class="first">Terminar de dibujar en la tabla tantas filas como sean necesarias
-(2 elevado al número de entradas).</p>
-<p>Para 2 entradas, 4 filas.</p>
-<p>Para 3 entradas, 8 filas.</p>
-<p>Para 4 entradas, 16 filas.</p>
+<li><p class="first">Finish drawing as many rows as necessary in the table (2 to the number of entries).</p>
+<p>For 2 entrances, 4 rows.</p>
+<p>For 3 entries, 8 rows.</p>
+<p>For 4 entries, 16 rows.</p>
 </li>
-<li><p class="first">Numerar en binario las filas correspondientes a las entradas.</p>
+<li><p class="first">Number the rows corresponding to the entries in binary.</p>
 </li>
-<li><p class="first">Para cada combinación de entradas, calcular las salidas del circuito
-y dibujarlas en la tabla.</p>
+<li><p class="first">For each combination of inputs, calculate the outputs of the circuit and draw them in the table.</p>
 </li>
 </ol>
 <div class="section" id="ejercicio-resuelto">
-<h2>Ejercicio resuelto<a class="headerlink" href="#ejercicio-resuelto" title="Permalink to this headline">¶</a></h2>
-<p>Dibujar la tabla de verdad del siguiente circuito de 3 entradas y 1 salida.</p>
+<h2>Solved exercise<a class="headerlink" href="#ejercicio-resuelto" title="Permalink to this headline">¶</a></h2>
+<p>Draw the truth table of the following circuit with 3 inputs and 1 output.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=digital-combinational-01.txt"></iframe>
 </div><ol class="arabic">
-<li><p class="first">Nombramos las entradas como A, B, C.</p>
+<li><p class="first">We name the entries as A, B, C.</p>
 </li>
-<li><p class="first">Nombramos la salida como O1.</p>
+<li><p class="first">We name the output as O1.</p>
 </li>
-<li><p class="first">Dibujamos la tabla y en la primera fila colocamos el nombre de las
-entradas y salidas.</p>
+<li><p class="first">We draw the table and in the first row we place the name of the inputs and outputs.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/electronic-truth-table-01.png"><img alt="Tabla de verdad de tres entradas y una salida." src="_images/electronic-truth-table-01.png" style="width: 210px;"></a>
 </div>
 </li>
-<li><p class="first">Terminamos de dibujar la tabla con 8 filas libres (2^3 = 8)
-para poder numerar todas las entradas posibles.</p>
+<li><p class="first">We finish drawing the table with 8 free rows (2^3 = 8) to be able to number all the possible entries.</p>
 </li>
-<li><p class="first">Numeramos en binario las filas correspondientes a las entradas.</p>
+<li><p class="first">We number the rows corresponding to the entries in binary.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/electronic-truth-table-02.png"><img alt="Tabla de verdad de tres entradas y una salida, con las entradas numeradas." src="_images/electronic-truth-table-02.png" style="width: 210px;"></a>
 </div>
 </li>
-<li><p class="first">Por último colocamos cada una de las 8 combinaciones de entradas en
-el circuito y escribimos su salida en la columna O1.</p>
+<li><p class="first">Finally we place each of the 8 combinations of inputs in the circuit and write their output in column O1.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/electronic-truth-table-03.png"><img alt="Tabla de verdad de tres entradas y una salida rellena." src="_images/electronic-truth-table-03.png" style="width: 210px;"></a>
 </div>
@@ -164,17 +153,17 @@ el circuito y escribimos su salida en la columna O1.</p>
 </ol>
 </div>
 <div class="section" id="ejercicios">
-<h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
+<h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Dibuja la tabla de verdad del siguiente circuito.</p>
+<li><p class="first">Draw the truth table of the following circuit.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=digital-combinational-02.txt"></iframe>
 </div></li>
-<li><p class="first">Dibuja la tabla de verdad del siguiente circuito.</p>
+<li><p class="first">Draw the truth table of the following circuit.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=digital-combinational-03.txt"></iframe>
 </div></li>
-<li><p class="first">Dibuja la tabla de verdad del siguiente circuito.</p>
+<li><p class="first">Draw the truth table of the following circuit.</p>
 <div class="video-center">
 <iframe src="/circuits/index.html?startCircuit=digital-combinational-04.txt"></iframe>
 </div></li>
@@ -194,7 +183,7 @@ el circuito y escribimos su salida en la columna O1.</p>
         <a href="electronic-bornas-index.html" class="btn btn-neutral float-right" title="Wiring of electronic components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="electronic-morgan-laws.html" class="btn btn-neutral" title="9. Las leyes de De Morgan" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="electronic-morgan-laws.html" class="btn btn-neutral" title="9. De Morgan&#39;s laws" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -282,24 +271,24 @@ el circuito y escribimos su salida en la columna O1.</p>
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">electronics</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="electronic-index.html">Electronics</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="electronic-components-index.html">Electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Electrónica analógica</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronic</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. digital signals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Detección de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Corrección de de errores</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. El sistema binario</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. La puerta lógica NOT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. La puerta lógica OR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. La puerta lógica AND</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. La puerta lógica XOR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. Las leyes de De Morgan</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">10. La tabla de verdad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-analog-index.html">Analog electronics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="electronic-digital-index.html">Digital electronics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electronic-digital-signals.html">1. Digital signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-detection.html">2. Error detection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-error-correction.html">3. Bug fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-binary.html">4. The binary system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-not.html">5. The NOT logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-or.html">6. The OR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-and.html">7. The logic AND gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-gate-xor.html">8. The XOR logic gate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electronic-morgan-laws.html">9. De Morgan's laws</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">10. The truth table</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electronic-bornas-index.html">Wiring of electronic components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with led lights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electronic-pcb-luces-led.html">Printed circuit with LED lights</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
