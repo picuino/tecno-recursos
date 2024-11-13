@@ -102,11 +102,11 @@ nombre descriptivo.</p>
 <p>Gracias a las funciones podemos dividir un programa largo en muchos
 bloques pequeños. Esto facilita mucho la programación y la lectura del
 código por parte de otras personas.</p>
-<p>Ejemplo de definición de una función:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">mensaje</span><span class="p">():</span>
+<p>Ejemplo de definición y llamada a una función:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">mensaje</span><span class="p">():</span>            <span class="c1"># Definición de la función</span>
    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hola, mundo.&#39;</span><span class="p">)</span>
 
-<span class="n">mensaje</span><span class="p">()</span>
+<span class="n">mensaje</span><span class="p">()</span>                 <span class="c1"># Llamada a la función</span>
 </pre></div>
 </div>
 <p>La definición de la función no hace nada por si sola. Es necesario
@@ -165,10 +165,10 @@ e imprima por la pantalla el resultado.</p>
 varios números para comprobar que funciona correctamente.</p>
 <p>Pista:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">es_par</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
-    <span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
-       <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+    <span class="k">if</span> <span class="n">num</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+       <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s2">&quot;es ...&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-       <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+       <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s2">&quot;es ...&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
@@ -204,15 +204,15 @@ grados fahrenheit sabiendo que:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">fahrenheit</span><span class="p">(</span><span class="n">celsius</span><span class="p">):</span>
     <span class="k">return</span> <span class="o">...</span>
 
-<span class="nb">print</span><span class="p">(</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">)</span> <span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="mi">22</span><span class="p">)</span> <span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span> <span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-5ºC =&quot;</span><span class="p">,</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">),</span> <span class="s2">&quot;ºF&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;22ºC =&quot;</span><span class="p">,</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="mi">22</span><span class="p">),</span> <span class="s2">&quot;ºF&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;40ºC =&quot;</span><span class="p">,</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="mi">40</span><span class="p">),</span> <span class="s2">&quot;ºF&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Resultado:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">23.0</span>
-<span class="mf">71.6</span>
-<span class="mf">104.0</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span><span class="mi">5</span><span class="n">ºC</span> <span class="o">=</span> <span class="mf">23.0</span> <span class="n">ºF</span>
+<span class="mi">22</span><span class="n">ºC</span> <span class="o">=</span> <span class="mf">71.6</span> <span class="n">ºF</span>
+<span class="mi">40</span><span class="n">ºC</span> <span class="o">=</span> <span class="mf">104.0</span> <span class="n">ºF</span>
 </pre></div>
 </div>
 </li>
@@ -224,19 +224,20 @@ número.</p>
 <p>Pista:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
     <span class="n">resultado</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+    <span class="k">while</span> <span class="o">...</span> <span class="p">:</span>
         <span class="n">resultado</span> <span class="o">=</span> <span class="o">...</span>
+        <span class="n">num</span> <span class="o">=</span> <span class="n">num</span> <span class="o">-</span> <span class="mi">1</span>
     <span class="k">return</span> <span class="n">resultado</span>
 
-<span class="nb">print</span><span class="p">(</span> <span class="n">factorial</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">factorial</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span> <span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">factorial</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;El factorial de&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">,</span> <span class="s2">&quot;es igual a&quot;</span><span class="p">,</span> <span class="n">factorial</span><span class="p">(</span> <span class="o">...</span> <span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;El factorial de&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">,</span> <span class="s2">&quot;es igual a&quot;</span><span class="p">,</span> <span class="n">factorial</span><span class="p">(</span> <span class="o">...</span> <span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;El factorial de&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">,</span> <span class="s2">&quot;es igual a&quot;</span><span class="p">,</span> <span class="n">factorial</span><span class="p">(</span> <span class="o">...</span> <span class="p">))</span>
 </pre></div>
 </div>
 <p>Resultado:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">120</span>
-<span class="mi">40320</span>
-<span class="mi">479001600</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">El</span> <span class="n">factorial</span> <span class="n">de</span> <span class="mi">5</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">120</span>
+<span class="n">El</span> <span class="n">factorial</span> <span class="n">de</span> <span class="mi">8</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">40320</span>
+<span class="n">El</span> <span class="n">factorial</span> <span class="n">de</span> <span class="mi">12</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">479001600</span>
 </pre></div>
 </div>
 </li>
@@ -260,9 +261,9 @@ de un número.</p>
 <p>Utiliza esta función para imprimir la tabla del 3 y la tabla del 5.</p>
 <p>Pista:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">tabla_mult</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Tabla del&#39;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tabla del&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">,</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="o">...</span> <span class="p">,</span> <span class="s1">&#39;=&#39;</span><span class="p">,</span> <span class="o">...</span> <span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">,</span><span class="s2">&quot;x&quot;</span><span class="p">,</span> <span class="o">...</span> <span class="p">,</span> <span class="s2">&quot;=&quot;</span><span class="p">,</span> <span class="o">...</span> <span class="p">)</span>
 
 <span class="n">tabla_mult</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 <span class="n">tabla_mult</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
@@ -337,7 +338,7 @@ de un número.</p>
       a menos que se indique lo contrario.
       <br>
       <span class="lastupdated">
-        Actualizado por última vez en octubre, 2024.
+        Actualizado por última vez en noviembre, 2024.
       </span>
 
     </p>

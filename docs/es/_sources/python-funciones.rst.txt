@@ -17,12 +17,12 @@ Gracias a las funciones podemos dividir un programa largo en muchos
 bloques pequeños. Esto facilita mucho la programación y la lectura del
 código por parte de otras personas.
 
-Ejemplo de definición de una función::
+Ejemplo de definición y llamada a una función::
 
-   def mensaje():
+   def mensaje():            # Definición de la función
       print('Hola, mundo.')
 
-   mensaje()
+   mensaje()                 # Llamada a la función
 
 
 La definición de la función no hace nada por si sola. Es necesario
@@ -91,10 +91,10 @@ Ejercicios
    Pista::
 
       def es_par(num):
-          if ... :
-             print( ... )
+          if num % 2 == 0:
+             print(num, "es ...")
           else:
-             print( ... )
+             print(num, "es ...")
 
 
 #. Escribe la definición de una función llamada 'mayor(a, b)' a la que le
@@ -132,15 +132,15 @@ Ejercicios
       def fahrenheit(celsius):
           return ...
 
-      print( fahrenheit(-5) )
-      print( fahrenheit(22) )
-      print( fahrenheit(40) )
+      print("-5ºC =", fahrenheit(-5), "ºF")
+      print("22ºC =", fahrenheit(22), "ºF")
+      print("40ºC =", fahrenheit(40), "ºF")
 
    Resultado::
 
-      23.0
-      71.6
-      104.0
+      -5ºC = 23.0 ºF
+      22ºC = 71.6 ºF
+      40ºC = 104.0 ºF
 
 
 #. Escribe la definición de una función que retorne el factorial de un
@@ -155,20 +155,21 @@ Ejercicios
 
       def factorial(num):
           resultado = 1
-          for n in range(1, ...)
+          while ... :
               resultado = ...
+              num = num - 1
           return resultado
 
-      print( factorial(5) )
-      print( factorial(8) )
-      print( factorial(12) )
+      print("El factorial de", ..., "es igual a", factorial( ... ))
+      print("El factorial de", ..., "es igual a", factorial( ... ))
+      print("El factorial de", ..., "es igual a", factorial( ... ))
 
 
    Resultado::
 
-      120
-      40320
-      479001600
+      El factorial de 5 es igual a 120
+      El factorial de 8 es igual a 40320
+      El factorial de 12 es igual a 479001600
 
 
 #. Escribe la definición de una función que imprima una fila de n
@@ -196,9 +197,9 @@ Ejercicios
    Pista::
 
       def tabla_mult(n):
-          print('\nTabla del', ...)
+          print("Tabla del", ...)
           for i in range(1, 11):
-              print( ... ,'x', ... , '=', ... )
+              print( ... ,"x", ... , "=", ... )
 
       tabla_mult(3)
       tabla_mult(5)

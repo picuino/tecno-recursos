@@ -10,6 +10,10 @@ Resumen de etiquetas HTML
 Etiquetas básicas
 -----------------
 
+``<!doctype html>``
+   Etiqueta inicial que informa al navegador de que a continuación
+   viene un documento de tipo HTML.
+
 ``<html> </html>``
    Etiqueta inicial y final de todos los documentos de tipo HTML.
 
@@ -35,6 +39,7 @@ Plantilla de documento HTML.
 
 .. code-block:: html
 
+   <!doctype html>
    <html>
 
    <!-- Cabecera -->

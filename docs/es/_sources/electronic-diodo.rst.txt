@@ -7,9 +7,21 @@
 
 El diodo
 ========
-Un diodo semiconductor es un dispositivo electrónico que permite el paso
+Un `diodo <https://es.wikipedia.org/wiki/Diodo>`__
+semiconductor es un dispositivo electrónico que permite el paso
 de corriente con facilidad en un sentido y no permite el paso de corriente
 en el sentido contrario.
+
+.. figure:: electronic/_images/electronic-diode-closeup.jpg
+   :width: 320px
+   :align: center
+   :alt: Fotografía de un diodo semiconductor.
+
+   Fotografía de un diodo semiconductor.
+   
+   `John Maushammer <https://es.wikipedia.org/wiki/Archivo:Diode-closeup.jpg>`__,
+   `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.es>`__,
+   via Wikimedia Commons.
 
 El diodo conduce corriente cuando se aplica tensión positiva en el ánodo
 y tensión negativa en el cátodo. Si se le aplica tensión al contrario,

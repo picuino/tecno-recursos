@@ -56,9 +56,14 @@ integrado.
 
 
 .. TO DO
+   electronic-resistor.rst
+   electronic-potentiometer.rst
+   electronic-ldr.rst
+   electronic-ntc.rst
+   electronic-capacitor.rst
 
    electronic-bjt-colpitts.rst
    electronic-operational-phaseshift.rst
 
-   electronic-mosfet-buck.rst
-   electronic-mosfet-boost.rst
+   electronic-power-buck.rst
+   electronic-power-boost.rst

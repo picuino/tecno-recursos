@@ -133,5 +133,6 @@ Ejercicios
    Este es un comportamiento típico de los circuitos digitales, pero se
    intenta evitar en los circuitos analógicos.
 
-   ¿Cuál es la tensión entre el emisor y el colector cuando el transistor
-   está **saturado**?
+   Cambia la resistencia de Base por una de 5k Ohmios.
+   ¿Cuál es la ganancia del transistor? 
+   ¿Qué tensión hay en el colector cuando el transistor está **saturado**?

@@ -36,7 +36,9 @@ Código Youtube.
    <!-- Vídeo de Youtube insertado -->
    <iframe width="320" height="180"
    src="https://www.youtube.com/embed/cqMfPS8jPys"
-   frameborder="0"> </iframe>
+   frameborder="0" allow="accelerometer; autoplay;
+   encrypted-media; gyroscope; picture-in-picture"
+   allowfullscreen></iframe>
 
 
 Código de la página

@@ -105,11 +105,11 @@
 <span id="python-funciones"></span><h1><span class="section-number">19. </span>Definition of functions<a class="headerlink" href="#definicion-de-funciones" title="Permalink to this headline">¶</a></h1>
 <p>Functions are blocks of code that perform a certain task that we want to execute once or several times. Functions are also used to group instructions with a descriptive name.</p>
 <p>Thanks to functions we can divide a long program into many small blocks. This makes it much easier for other people to program and read the code.</p>
-<p>Example of a function definition:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">mensaje</span><span class="p">():</span>
+<p>Ejemplo de definición y llamada a una función:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">mensaje</span><span class="p">():</span>            <span class="c1"># Definición de la función</span>
    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hola, mundo.&#39;</span><span class="p">)</span>
 
-<span class="n">mensaje</span><span class="p">()</span>
+<span class="n">mensaje</span><span class="p">()</span>                 <span class="c1"># Llamada a la función</span>
 </pre></div>
 </div>
 <p>The function definition does nothing by itself. The function <code class="docutils literal notranslate"><span class="pre">message()</span></code> needs to be <strong>called</strong> in order for the code inside it to be executed.</p>
@@ -158,10 +158,10 @@ Hola Sara ¿Qué tal estás?
 <p>Also write multiple function calls with multiple numbers to the program to verify that it works correctly.</p>
 <p>Clue:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">es_par</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
-    <span class="k">if</span> <span class="o">...</span> <span class="p">:</span>
-       <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+    <span class="k">if</span> <span class="n">num</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+       <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s2">&quot;es ...&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-       <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+       <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="s2">&quot;es ...&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
@@ -194,15 +194,15 @@ Hola Sara ¿Qué tal estás?
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">fahrenheit</span><span class="p">(</span><span class="n">celsius</span><span class="p">):</span>
     <span class="k">return</span> <span class="o">...</span>
 
-<span class="nb">print</span><span class="p">(</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">)</span> <span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="mi">22</span><span class="p">)</span> <span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span> <span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-5ºC =&quot;</span><span class="p">,</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">),</span> <span class="s2">&quot;ºF&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;22ºC =&quot;</span><span class="p">,</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="mi">22</span><span class="p">),</span> <span class="s2">&quot;ºF&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;40ºC =&quot;</span><span class="p">,</span> <span class="n">fahrenheit</span><span class="p">(</span><span class="mi">40</span><span class="p">),</span> <span class="s2">&quot;ºF&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Result:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">23.0</span>
-<span class="mf">71.6</span>
-<span class="mf">104.0</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span><span class="mi">5</span><span class="n">ºC</span> <span class="o">=</span> <span class="mf">23.0</span> <span class="n">ºF</span>
+<span class="mi">22</span><span class="n">ºC</span> <span class="o">=</span> <span class="mf">71.6</span> <span class="n">ºF</span>
+<span class="mi">40</span><span class="n">ºC</span> <span class="o">=</span> <span class="mf">104.0</span> <span class="n">ºF</span>
 </pre></div>
 </div>
 </li>
@@ -212,19 +212,20 @@ Hola Sara ¿Qué tal estás?
 <p>Clue:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
     <span class="n">resultado</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+    <span class="k">while</span> <span class="o">...</span> <span class="p">:</span>
         <span class="n">resultado</span> <span class="o">=</span> <span class="o">...</span>
+        <span class="n">num</span> <span class="o">=</span> <span class="n">num</span> <span class="o">-</span> <span class="mi">1</span>
     <span class="k">return</span> <span class="n">resultado</span>
 
-<span class="nb">print</span><span class="p">(</span> <span class="n">factorial</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">factorial</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span> <span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">factorial</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;El factorial de&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">,</span> <span class="s2">&quot;es igual a&quot;</span><span class="p">,</span> <span class="n">factorial</span><span class="p">(</span> <span class="o">...</span> <span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;El factorial de&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">,</span> <span class="s2">&quot;es igual a&quot;</span><span class="p">,</span> <span class="n">factorial</span><span class="p">(</span> <span class="o">...</span> <span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;El factorial de&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">,</span> <span class="s2">&quot;es igual a&quot;</span><span class="p">,</span> <span class="n">factorial</span><span class="p">(</span> <span class="o">...</span> <span class="p">))</span>
 </pre></div>
 </div>
 <p>Result:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">120</span>
-<span class="mi">40320</span>
-<span class="mi">479001600</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">El</span> <span class="n">factorial</span> <span class="n">de</span> <span class="mi">5</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">120</span>
+<span class="n">El</span> <span class="n">factorial</span> <span class="n">de</span> <span class="mi">8</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">40320</span>
+<span class="n">El</span> <span class="n">factorial</span> <span class="n">de</span> <span class="mi">12</span> <span class="n">es</span> <span class="n">igual</span> <span class="n">a</span> <span class="mi">479001600</span>
 </pre></div>
 </div>
 </li>
@@ -245,9 +246,9 @@ Hola Sara ¿Qué tal estás?
 <p>Use this function to print the table of 3 and the table of 5.</p>
 <p>Clue:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">tabla_mult</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Tabla del&#39;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tabla del&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">,</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="o">...</span> <span class="p">,</span> <span class="s1">&#39;=&#39;</span><span class="p">,</span> <span class="o">...</span> <span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">,</span><span class="s2">&quot;x&quot;</span><span class="p">,</span> <span class="o">...</span> <span class="p">,</span> <span class="s2">&quot;=&quot;</span><span class="p">,</span> <span class="o">...</span> <span class="p">)</span>
 
 <span class="n">tabla_mult</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 <span class="n">tabla_mult</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
@@ -322,7 +323,7 @@ Hola Sara ¿Qué tal estás?
       unless otherwise specified.
       <br>
       <span class="lastupdated">
-        Last updated on October, 2024.
+        Last updated on November, 2024.
       </span>
 
     </p>
@@ -384,7 +385,7 @@ Hola Sara ¿Qué tal estás?
 <li class="toctree-l1"><a class="reference internal" href="mecan-index.html">Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="material-index.html">Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="electric-index.html">Electricity</a></li>
-<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">electronics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electronic-index.html">Electronics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="informatica-index.html">Computing</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="prog-index.html">Programming</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="prog-lang-edu.html">Programming languages</a></li>
