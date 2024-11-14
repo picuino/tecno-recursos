@@ -167,6 +167,19 @@ microondas, frigorífico, televisor, etc.
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
    via Wikimedia Commons.
 
+
+.. figure:: electric/_images/electric-vitroceramica.jpg
+   :width: 340px
+   :align: center
+   :alt: Resistencia eléctrica de una vitrocerámica, produciendo calor.
+   
+   Resistencia eléctrica de una vitrocerámica, produciendo calor.
+   
+   `A.Savin <https://commons.wikimedia.org/wiki/File:Electric_stove_coil_with_glass_ceramic_cooktop.jpg>`__,
+   `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
+   via Wikimedia Commons.
+
+
 Elementos de control
 --------------------
 Estos elementos permiten controlar el paso de la electricidad según

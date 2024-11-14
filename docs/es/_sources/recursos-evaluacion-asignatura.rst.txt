@@ -10,10 +10,9 @@ Evaluación de la asignatura
 
 Cuestionario anónimo para evaluar las asignaturas de tecnología.
 
-.. image:: didactica/evaluacion-asignatura-v10.png
+.. image:: didactica/evaluacion-asignatura-v11.png
    :alt: Cuestionario de evaluación de la asignatura de Tecnología.
    :align: center
-   :target: _downloads/evaluacion-asignatura-v10.pdf
 
 El cuestionario tiene 6 posibles respuestas (del 1 al 6) de manera
 que no hay valor central, equivalente al 5 sobre 10. Esto obliga al
@@ -34,9 +33,9 @@ Las preguntas de la primera cara del cuestionario pueden dar ideas
 de mejora para responder las preguntas abiertas de la segunda cara.
 
 | :download:`Cuestionario de evaluación de la asignatura. Formato PDF
-  <didactica/evaluacion-asignatura-v10.pdf>`
-| :download:`Cuestionario de evaluación de la asignatura. Formato editable ODT
-  <didactica/evaluacion-asignatura-v10.odt>`
+  <didactica/evaluacion-asignatura-v11.pdf>`
+| :download:`Cuestionario de evaluación de la asignatura. Formato editable ODS
+  <didactica/evaluacion-asignatura-v11.ods>`
 
-| :download:`Hoja de cálculo para la recogida de resultados. Formato XLS
-  <didactica/evaluacion-asignatura-v10.xls>`
+| :download:`Hoja de cálculo para la recogida de resultados. Formato ODS
+  <didactica/evaluacion-asignatura-resultados-v11.ods>`
