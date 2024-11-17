@@ -25,14 +25,14 @@ Fichero **css-clases.html**
 
 Fichero **css-clases.css**
 
-.. image:: css/_thumbs/css-clases-css.png
+.. image:: css/_images/css-clases-css.png
    :alt: Código del fichero css-clases.css
 
 
 Resultado
 ---------
 
-.. image:: css/_thumbs/css-clases-web.png
+.. image:: css/_images/css-clases-web.png
    :alt: Resultado de visualizar los ficheros css-clases.html y css-clases.css
          en un navegador
 

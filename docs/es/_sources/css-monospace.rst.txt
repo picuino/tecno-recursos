@@ -29,14 +29,14 @@ Fichero **css-monospace.html**
 
 Fichero **css-monospace.css**
 
-.. image:: css/_thumbs/css-monospace-css.png
+.. image:: css/_images/css-monospace-css.png
    :alt: Código del fichero css-monospace.css
 
 
 Resultado
 ---------
 
-.. image:: css/_thumbs/css-monospace-web.png
+.. image:: css/_images/css-monospace-web.png
    :alt: Resultado de visualizar los ficheros css-monospace.html y css-monospace.css
          en un navegador
 

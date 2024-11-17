@@ -1,11 +1,8 @@
 SRCDIR= .
 OUTPUT= ..
-THUMBDIR=_thumbs
 IMGDIR=_images
 
 RSTMACRO=$(SRCDIR)/css-macros.txt
-COPYTHUMBS=
-
 
 CONVERT=convert
 CONVERT_TXT= -bordercolor White -border 6 \
@@ -16,7 +13,8 @@ OPTIPNG=optipng -quiet -o 6
 PHANTOM=phantomjs
 MACRO=$(SRCDIR)/rasterize.js
 ZOOM=120
-WIDTH=472
+WIDTH=480
+
 
 # --------------------------------------------------------------------
 # MACROS
@@ -32,45 +30,27 @@ define src_img
 	$(OPTIPNG) $(2)
 endef
 
+
 # --------------------------------------------------------------------
 # IMAGES OF HTML AND CSS SOURCES
 #
 HTML=$(wildcard $(SRCDIR)/*.html)
-HTMLIMAGES=$(foreach f, $(HTML), $(THUMBDIR)/$(notdir $(basename $f))-html.png)
-WEBIMAGES=$(foreach f, $(HTML), $(THUMBDIR)/$(notdir $(basename $f))-web.png)
+HTMLIMAGES=$(foreach f, $(HTML), $(IMGDIR)/$(notdir $(basename $f))-html.png)
+WEBIMAGES=$(foreach f, $(HTML), $(IMGDIR)/$(notdir $(basename $f))-web.png)
 
 CSS=$(wildcard $(SRCDIR)/*.css)
-CSSIMAGES=$(foreach f, $(CSS), $(THUMBDIR)/$(notdir $(basename $f))-css.png)
+CSSIMAGES=$(foreach f, $(CSS), $(IMGDIR)/$(notdir $(basename $f))-css.png)
 
 
-$(THUMBDIR)/%-web.png: $(SRCDIR)/%.html $(HTMLTHUMBS)
+$(IMGDIR)/%-html.png: $(SRCDIR)/%.html
+	$(call src_img,$<,$@)
+
+$(IMGDIR)/%-web.png: $(SRCDIR)/%.html
 	$(call web_img,$<,$@)
 
-$(THUMBDIR)/%-html.png: $(SRCDIR)/%.html
+$(IMGDIR)/%-css.png: $(SRCDIR)/%.css
 	$(call src_img,$<,$@)
 
-$(THUMBDIR)/%-css.png: $(SRCDIR)/%.css
-	$(call src_img,$<,$@)
-
-
-# --------------------------------------------------------------------
-# THUMBNAILS
-#
-THUMBS=$(foreach f, $(wildcard $(IMGDIR)/*.jpg) $(wildcard $(IMGDIR)/*.png), $(THUMBDIR)/$(notdir $f))
-COPYTHUMBS:=$(foreach f, $(COPYTHUMBS), $(SRCDIR)/$(notdir $f))
-
-$(THUMBDIR)/%.png: $(IMGDIR)/%.png
-	$(CONVERT) $<  -strip -resize  240x180 $@
-	$(OPTIPNG) $@
-
-$(THUMBDIR)/%.jpg: $(IMGDIR)/%.jpg
-	$(CONVERT) $<  -strip -resize  240x180 $@
-
-$(SRCDIR)/%.png: $(THUMBDIR)/%.png
-	cp  $<  $@
-
-$(SRCDIR)/%.jpg: $(THUMBDIR)/%.jpg
-	cp  $<  $@
 
 # --------------------------------------------------------------------
 # RST FILES
@@ -88,16 +68,12 @@ $(OUTPUT)/%.rst: $(SRCDIR)/%.txt  $(RSTMACRO)
 #
 .PHONY: all clean
 all: \
-	$(THUMBS) \
-	$(COPYTHUMBS) \
 	$(HTMLIMAGES) \
 	$(WEBIMAGES) \
 	$(CSSIMAGES) \
 	$(RSTFILES) \
 
 clean:
-	rm -f $(THUMBS)
-	rm -f $(COPYTHUMBS)
 	rm -f $(HTMLIMAGES)
 	rm -f $(WEBIMAGES)
 	rm -f $(CSSIMAGES)

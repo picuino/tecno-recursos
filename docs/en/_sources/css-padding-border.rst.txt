@@ -12,7 +12,7 @@ y un margen con los demás elementos llamado margin.
 
 En la siguiente figura se puede ver cada uno de estos parámetros.
 
-.. image:: css/caja.png
+.. image:: css/_images/caja.png
    :alt: Modelo de caja en CSS con padding, border y margin
    :width: 480px
 
@@ -50,14 +50,14 @@ Fichero **css-padding-border.html**
 
 Fichero **css-padding-border.css**
 
-.. image:: css/_thumbs/css-padding-border-css.png
+.. image:: css/_images/css-padding-border-css.png
    :alt: Código del fichero css-padding-border.css
 
 
 Resultado
 ---------
 
-.. image:: css/_thumbs/css-padding-border-web.png
+.. image:: css/_images/css-padding-border-web.png
    :alt: Resultado de visualizar los ficheros css-padding-border.html y css-padding-border.css
          en un navegador
 

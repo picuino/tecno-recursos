@@ -299,7 +299,7 @@ bajo `licencia Creative Commons Attribution 3.0 Unported <https://creativecommon
 
 ----
 
-.. image:: css/_thumbs/css3-logo.png
+.. image:: css/_images/css3-logo-320.png
    :width: 120px
 
 `Imagen Logotipo oficial CSS3 <https://commons.wikimedia.org/wiki/File:CSS.3.svg>`__

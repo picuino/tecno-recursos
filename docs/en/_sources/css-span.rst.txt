@@ -30,14 +30,14 @@ Fichero **css-span.html**
 
 Fichero **css-span.css**
 
-.. image:: css/_thumbs/css-span-css.png
+.. image:: css/_images/css-span-css.png
    :alt: Código del fichero css-span.css
 
 
 Resultado
 ---------
 
-.. image:: css/_thumbs/css-span-web.png
+.. image:: css/_images/css-span-web.png
    :alt: Resultado de visualizar los ficheros css-span.html y css-span.css
          en un navegador
 

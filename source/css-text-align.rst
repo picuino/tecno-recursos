@@ -24,14 +24,14 @@ Fichero **css-text-align.html**
 
 Fichero **css-text-align.css**
 
-.. image:: css/_thumbs/css-text-align-css.png
+.. image:: css/_images/css-text-align-css.png
    :alt: Código del fichero css-text-align.css
 
 
 Resultado
 ---------
 
-.. image:: css/_thumbs/css-text-align-web.png
+.. image:: css/_images/css-text-align-web.png
    :alt: Resultado de visualizar los ficheros css-text-align.html y css-text-align.css
          en un navegador
 

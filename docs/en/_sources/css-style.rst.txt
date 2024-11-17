@@ -38,14 +38,14 @@ disponibles en todos los navegadores
 Realiza un documento HTML igual que el siguiente,
 con los colores cambiados.
 
-.. image:: css/_thumbs/css-style-html.png
+.. image:: css/_images/css-style-html.png
    :alt: Código del fichero css-style.html
 
 
 Resultado
 ---------
 
-.. image:: css/_thumbs/css-style-web.png
+.. image:: css/_images/css-style-web.png
    :alt: Resultado de visualizar los ficheros css-style.html y css-style.css
          en un navegador
 

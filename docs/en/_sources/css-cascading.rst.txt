@@ -36,14 +36,14 @@ Fichero **css-cascading.html**
 
 Fichero **css-cascading.css**
 
-.. image:: css/_thumbs/css-cascading-css.png
+.. image:: css/_images/css-cascading-css.png
    :alt: Código del fichero css-cascading.css
 
 
 Resultado
 ---------
 
-.. image:: css/_thumbs/css-cascading-web.png
+.. image:: css/_images/css-cascading-web.png
    :alt: Resultado de visualizar los ficheros css-cascading.html y css-cascading.css
          en un navegador
 

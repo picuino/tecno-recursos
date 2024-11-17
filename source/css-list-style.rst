@@ -22,14 +22,14 @@ Fichero **css-list-style.html**
 
 Fichero **css-list-style.css**
 
-.. image:: css/_thumbs/css-list-style-css.png
+.. image:: css/_images/css-list-style-css.png
    :alt: Código del fichero css-list-style.css
 
 
 Resultado
 ---------
 
-.. image:: css/_thumbs/css-list-style-web.png
+.. image:: css/_images/css-list-style-web.png
    :alt: Resultado de visualizar los ficheros css-list-style.html y css-list-style.css
          en un navegador
 

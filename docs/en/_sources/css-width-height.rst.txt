@@ -24,14 +24,14 @@ Fichero **css-width-height.html**
 
 Fichero **css-width-height.css**
 
-.. image:: css/_thumbs/css-width-height-css.png
+.. image:: css/_images/css-width-height-css.png
    :alt: Código del fichero css-width-height.css
 
 
 Resultado
 ---------
 
-.. image:: css/_thumbs/css-width-height-web.png
+.. image:: css/_images/css-width-height-web.png
    :alt: Resultado de visualizar los ficheros css-width-height.html y css-width-height.css
          en un navegador
 

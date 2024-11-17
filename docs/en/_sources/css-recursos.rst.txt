@@ -30,24 +30,9 @@ La última versión se distribuye con licencia CC BY.
 * `Web Style Guide (libre) <https://webstyleguide.com/>`_
 
 
-
-Colores de las páginas web
---------------------------
-* `Colores web <https://es.wikipedia.org/wiki/Colores_web>`__
-
-* Generadores de paletas de colores:
-
-   * `Color Hunt <https://colorhunt.co/>`__
-   * `Códigos de color HTML <https://htmlcolorcodes.com/es/selector-de-color/>`__
-   * `Adobe Color <https://color.adobe.com/es/create/color-wheel>`__
-   * `Brand Colors <https://brandcolors.net/>`__
-
-
-Herramientas y tutoriales para CSS
-----------------------------------
-
+Desarrollo Web
+--------------
 * `CSS a fondo <https://desarrolloweb.com/css/>`_
 * `Las mejores herramientas para generar CSS
   <https://desarrolloweb.com/de_interes/mejores-herramientas-css-3126.html>`_
 
-* `CSS Flex Container generator <https://cssflex-generator.netlify.app/>`__
