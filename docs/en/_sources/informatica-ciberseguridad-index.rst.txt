@@ -13,7 +13,7 @@ donde la protección de la información y los sistemas contra amenazas
 cibernéticas pueden evitar grandes problemas.
 
 Se trata de salvaguardar la confidencialidad, integridad y disponibilidad de los datos frente a ataques maliciosos.
-Con el aumento de la dependencia de la tecnología, desde
+Con el aumento de la dependencia de la Tecnología, desde
 transacciones financieras hasta comunicaciones personales, la
 seguridad en línea se ha convertido en una preocupación global.
 

@@ -14,7 +14,7 @@ tres magnitudes de la ley de Ohm.
    :align: center
 
 Las reglas de cálculo se utilizaron con frecuencia para realizar cálculos
-en tecnología en el siglo pasado. Les debemos a las reglas de cálculo
+en Tecnología en el siglo pasado. Les debemos a las reglas de cálculo
 muchos diseños de aviones, puentes y hasta cohetes espaciales.
 
 En la década de 1970, con la aparición de las primeras calculadoras

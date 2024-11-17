@@ -18,7 +18,7 @@ la ciberseguridad.
 1. :index:`Ancho de banda`
 --------------------------
 El `ancho de banda <https://es.wikipedia.org/wiki/Ancho_de_banda>`__
-en el contexto de la tecnología y la informática
+en el contexto de la Tecnología y la Informática
 se refiere a la cantidad máxima de datos que pueden ser transferidos
 a través de una conexión de red en un período de tiempo dado.
 En términos más simples, es como el tamaño del tubo por el que
@@ -163,7 +163,7 @@ sociales, la publicidad y otras áreas.
 ------------------
 Un `hacker <https://es.wikipedia.org/wiki/Hacker>`__
 es alguien que posee habilidades avanzadas en el ámbito
-de la informática y la tecnología, y que utiliza su conocimiento
+de la Informática y la Tecnología, y que utiliza su conocimiento
 para explorar y modificar sistemas informáticos de diversas maneras.
 A menudo, el término "hacker" puede tener connotaciones negativas,
 asociadas con actividades ilegales o maliciosas en línea, pero es

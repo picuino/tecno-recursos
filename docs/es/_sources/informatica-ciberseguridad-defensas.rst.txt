@@ -6,7 +6,7 @@
 
 Defensas de ciberseguridad
 ==========================
-En un mundo cada vez más dependiente de la tecnología y la conectividad,
+En un mundo cada vez más dependiente de la Tecnología y la conectividad,
 la ciberseguridad se ha convertido en una preocupación fundamental.
 Con la creciente amenaza de ataques cibernéticos, es crucial contar con
 defensas sólidas para proteger nuestros datos y salvaguardar nuestra
@@ -209,7 +209,7 @@ explícito antes de proceder.
 
 El consentimiento informado es fundamental en ciberseguridad y otros
 ámbitos para garantizar que las personas tomen decisiones informadas y
-conscientes sobre el uso de tecnología y la participación en
+conscientes sobre el uso de la Tecnología y la participación en
 actividades que puedan afectar su privacidad y seguridad.
 
 
