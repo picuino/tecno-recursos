@@ -79,7 +79,7 @@ en **colector común** (colector conectado a positivo de la alimentación).
 Este esquema sirve para alimentar con tensión positiva la salida.
 
 En el recuadro inferior podemos identificar un esquema Darlington
-en emisor común (emisor conectado a negativo de la alimentación).
+en **emisor común** (emisor conectado a negativo de la alimentación).
 Este esquema sirve para alimentar con tensión negativa la salida.
 
 Este segundo recuadro inferior tiene algún cambio respecto a la
@@ -90,7 +90,7 @@ Estos cambios permiten obtener una tensión más baja en la salida
 que con el esquema estándar.
 
 Las resistencias de 200 ohmios a la derecha no pertenecen al circuito
-NE555, son resistencias de carga.
+NE555, son resistencias de carga externas.
 
 .. raw:: html
 
@@ -110,9 +110,6 @@ Ejercicios
 
 #. Dibuja un esquema realista de dos transistores NPN trabajando en
    configuración Darlington de colector común.
-
-#. ¿Cuál es el objetivo principal de unir dos transistores en
-   una configuración Darlington?
 
 #. ¿Qué ventajas tiene un esquema Darlington frente a un transistor
    individual?
