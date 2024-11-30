@@ -44,7 +44,7 @@ tener problemas con el archivo.
 Si se quiere utilizar un editor de texto más profesional
 y con más opciones el
 `editor de texto Notepad++
-<https://notepad-plus-plus.org/>`_
+<https://notepad-plus-plus.org/>`__
 es libre, gratuito y una gran opción.
 
 La ventaja de utilizar Notepad++ u otro editor de textos

@@ -86,7 +86,7 @@ La función :py:func:`range`
 
       * El argumento se copia en el parámetro ``stop``.
       * El parámetro ``start`` se supone igual a cero.
-      * El parámtro ``step`` se supone igual a uno.
+      * El parámetro ``step`` se supone igual a uno.
 
       Ejemplo::
 

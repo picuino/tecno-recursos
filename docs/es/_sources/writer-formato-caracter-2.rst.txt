@@ -83,7 +83,7 @@ de las que hay disponibles en los botones de la barra de formato.
    **URL**.
 
    `es.wikipedia.org/wiki/LibreOffice_Writer
-   <https://es.wikipedia.org/wiki/LibreOffice_Writer>`_
+   <https://es.wikipedia.org/wiki/LibreOffice_Writer>`__
 
    .. image:: writer/_images/writer-p09-hiperenlace.png
               :align: center

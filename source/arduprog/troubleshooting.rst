@@ -11,7 +11,7 @@ Solución de problemas
 Lo más habitual es que los programas y circuitos no funcionen en el
 primer intento.
 Esto le ocurre hasta a los más experimentados, nadie se libra de la
-`ley de Murphy <https://es.wikipedia.org/wiki/Ley_de_Murphy>`_.
+`ley de Murphy <https://es.wikipedia.org/wiki/Ley_de_Murphy>`__.
 
 Los fallos más frecuentes y también los más difíciles de encontrar,
 suelen ser a su vez los más simples.
@@ -158,7 +158,7 @@ Si este error es frecuente, hay aparatos específicos para comprobar
 cortocircuitos.
 Desde un sencillo milióhmetro hasta un complejo
 `reflectómetro de dominio de tiempo
-<https://es.wikipedia.org/wiki/Reflect%C3%B3metro_de_dominio_de_tiempo>`_
+<https://es.wikipedia.org/wiki/Reflect%C3%B3metro_de_dominio_de_tiempo>`__
 
 
 ¿Se ha comprobado con seguridad?

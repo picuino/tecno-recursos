@@ -200,6 +200,14 @@ que el interruptor de control no corte continuamente la conexión
 eléctrica por alto consumo.
 
 
+Cuestionarios
+-------------
+Cuestionarios sobre la potencia eléctrica.
+
+* `Cuestionario. Cálculos de potencia eléctrica.
+  <https://www.picuino.com/test/es-electric-power.html>`__
+
+
 ----
 
 .. [#f1] La potencia en las etiquetas de los aparatos eléctricos se

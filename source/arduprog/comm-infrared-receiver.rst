@@ -23,11 +23,11 @@ protocolos más habituales.
     <_downloads/IRremote.zip>`
 
   * `Página de GitHub de la librería IRremote
-    <https://github.com/shirriff/Arduino-IRremote>`_
+    <https://github.com/shirriff/Arduino-IRremote>`__
 
 ..
   * `Descarga directa de la librería IRremote
-    <https://github.com/shirriff/Arduino-IRremote/releases/download/MAJOR/IRremote.zip>`_
+    <https://github.com/shirriff/Arduino-IRremote/releases/download/MAJOR/IRremote.zip>`__
 
 :ref:`Cómo añadir una nueva librería al entorno Arduino paso a paso.
 <add-library>`

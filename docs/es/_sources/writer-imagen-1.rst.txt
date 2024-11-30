@@ -93,9 +93,9 @@ Créditos
 
 El texto utilizado en este ejercicio se ha
 copiado del `artículo de Wikipedia sobre Steve Jobs
-<https://es.wikipedia.org/wiki/Steve_Jobs>`_
+<https://es.wikipedia.org/wiki/Steve_Jobs>`__
 
 `La imagen utilizada es de Matthew Yohe
-<https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg>`_
-con `licencia CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>`_,
+<https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg>`__
+con `licencia CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>`__,
 via Wikimedia Commons

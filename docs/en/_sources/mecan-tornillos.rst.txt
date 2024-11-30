@@ -17,8 +17,8 @@ que se encuentra enrollado alrededor de un eje cilíndrico.
 
    Tornillo y tuerca hexagonal.
 
-   `Afrank99 <https://commons.wikimedia.org/wiki/File:M4_Inbusschraube_focusstacked.jpg>`__
-   `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+   `Afrank99 <https://commons.wikimedia.org/wiki/File:M4_Inbusschraube_focusstacked.jpg>`__,
+   `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
    via Wikimedia Commons.
 
 
@@ -95,8 +95,8 @@ Mecanismos para mover con fuerza
       Gato mecánico para levantar automóviles,
       con un tornillo que mueve el mecanismo.
 
-      `Interiot <https://commons.wikimedia.org/wiki/File:Jackscrew.gif>`__
-      Public Domain via Wikimedia Commons.
+      `Interiot <https://commons.wikimedia.org/wiki/File:Jackscrew.gif>`__,
+      Public Domain, via Wikimedia Commons.
 
 
 Cálculo de tornillos

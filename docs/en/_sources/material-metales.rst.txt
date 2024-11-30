@@ -181,7 +181,7 @@ Su densidad es relativamente alta (7,9 kg/litro).
 
    Ferrita
       Está compuesta por `hierro alfa
-      <https://es.wikipedia.org/wiki/Ferrita_(hierro)>`_
+      <https://es.wikipedia.org/wiki/Ferrita_(hierro)>`__
       puro, de aspecto oscuro.
       En ocasiones se alea con cobalto, níquel, zinc o manganeso, que
       mejoran sus propiedades magnéticas.
@@ -201,7 +201,7 @@ Cobre y sus aleaciones
       Es muy utilizado para fabricar cables, tuberías, intercambiadores
       de calor, monedas, pigmentos, etc.
       Fue el primer metal utilizado en la prehistoria, dando nombre a la
-      `Edad del Cobre <https://es.wikipedia.org/wiki/Edad_del_Cobre>`_.
+      `Edad del Cobre <https://es.wikipedia.org/wiki/Edad_del_Cobre>`__.
 
    Bronce
       Aleación de cobre y estaño (con un porcentaje entre el 3% y el 20%).
@@ -212,7 +212,7 @@ Cobre y sus aleaciones
 
       Fue la primera aleación obtenida por la humanidad y da su nombre
       a la `Edad del Bronce
-      <https://es.wikipedia.org/wiki/Edad_del_Bronce>`_.
+      <https://es.wikipedia.org/wiki/Edad_del_Bronce>`__.
 
 
    Latón

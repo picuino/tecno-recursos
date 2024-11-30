@@ -261,10 +261,10 @@ Referencias
 -----------
 
 Wikipedia: `Sistema de control
-<https://es.wikipedia.org/wiki/Sistema_de_control>`_
+<https://es.wikipedia.org/wiki/Sistema_de_control>`__
 
 Wikipedia: `Servomotor
-<https://es.wikipedia.org/wiki/Servomotor>`_
+<https://es.wikipedia.org/wiki/Servomotor>`__
 
 [1] Ogata, Katsuhiko. Ingeniería de Control Moderna. Tercera edición.
 Editorial Prentice Hall.

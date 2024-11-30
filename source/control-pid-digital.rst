@@ -26,15 +26,15 @@ con líneas de puntos.
 
 Los bloques que sirven de conexión entre el microcontrolador y el
 sistema son un `DAC (conversor digital a analógico)
-<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_digital_a_anal%C3%B3gica>`_
+<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_digital_a_anal%C3%B3gica>`__
 y un `ADC (conversor de analógico a digital)
-<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_anal%C3%B3gica_a_digital>`_.
+<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_anal%C3%B3gica_a_digital>`__.
 Estos dos bloques permiten traducir las señales analógicas del
 sistema controlado a números digitales utilizados por el
 microcontrolador y viceversa.
 
 En ocasiones los conversores ADC y DAC se pueden implementar con
-un `regulador PWM <https://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos>`_.
+un `regulador PWM <https://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos>`__.
 
 
 Período de muestreo

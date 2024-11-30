@@ -10,7 +10,7 @@ Tutorial de Gimp
 Tutorial para aprender a manipular imágenes de mapa de bits
 con el programa de código libre Gimp, en Castellano.
 
-Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`_.
+Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`__.
 
 En este enlace puedes descargar
 `todas las imágenes de las prácticas
@@ -250,11 +250,11 @@ Créditos
 
 Autor del tutorial: José Manuel Blanco Guimarey
 
-Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/3.0/es/>`_
+Licencia: `Creative Commons BY-NC-SA <https://creativecommons.org/licenses/by-nc-sa/3.0/es/>`__
 
 `Web origen del programa
 <https://www.edu.xunta.es/espazoAbalar/es/espazo/repositorio/cont/microunidades-de-gimp>`__
 
-`Créditos del tutorial <../_static/tutorial-gimp/docs/creditos_es.html>`_
+`Créditos del tutorial <../_static/tutorial-gimp/docs/creditos_es.html>`__
 
 Este tutorial se ha realizado utilizando GIMP versión 2.6

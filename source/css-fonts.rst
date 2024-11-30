@@ -11,11 +11,11 @@ Para más información sobre los formatos de fuentes se pueden
 consultar las páginas de w3schools.
 
 * `Formato de fuentes
-  <https://www.w3schools.com/css/css_font.asp>`_
+  <https://www.w3schools.com/css/css_font.asp>`__
 * `Formato de texto
-  <https://www.w3schools.com/css/css_text.asp>`_
+  <https://www.w3schools.com/css/css_text.asp>`__
 * `Colores
-  <https://www.w3schools.com/css/css_colors.asp>`_
+  <https://www.w3schools.com/css/css_colors.asp>`__
 
 
 Ejercicio

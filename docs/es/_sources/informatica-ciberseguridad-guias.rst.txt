@@ -32,9 +32,9 @@ Sitios web
 Licencia
    `Creative Commons
    Reconocimiento-No comercial-CompartirIgual 4.0 Internacional
-   <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
+   <https://creativecommons.org/licenses/by-nc-sa/4.0/>`__
 
-`Web origen del tutorial <https://www.osi.es/es/guia-ciberataques>`_
+`Web origen del tutorial <https://www.osi.es/es/guia-ciberataques>`__
 
 
 Guía de Privacidad y Seguridad en Internet
@@ -55,7 +55,7 @@ Autor de la guía
 Licencia
    `Creative Commons
    Reconocimiento-No comercial-CompartirIgual 3.0 Internacional
-   <https://creativecommons.org/licenses/by-nc-sa/3.0/>`_
+   <https://creativecommons.org/licenses/by-nc-sa/3.0/>`__
 
 Sitios web
   * `Agencia Española de Protección de Datos (AEPD)

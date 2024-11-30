@@ -73,6 +73,6 @@ Créditos
 
 El texto utilizado en este ejercicio está basado,
 con cambios, en el `artículo de Wikipedia sobre Londres
-<https://es.wikipedia.org/wiki/Londres>`_
+<https://es.wikipedia.org/wiki/Londres>`__
 , bajo `licencia CC BY-SA 3.0
-<https://creativecommons.org/licenses/by-sa/3.0/>`_
+<https://creativecommons.org/licenses/by-sa/3.0/>`__

@@ -40,7 +40,7 @@ Los programas de ordenador se distribuyen bajo una
 **licencia GPL v3**, a menos que se indique lo contrario.
 
 Puede leer una copia de la `licencia GPL v3.0
-<https://www.gnu.org/licenses/gpl-3.0.html>`_
+<https://www.gnu.org/licenses/gpl-3.0.html>`__
 en la página web de la Free Software Foundation.
 
 

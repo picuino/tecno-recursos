@@ -21,7 +21,7 @@ Fritzing es un programa libre (open-source) para Windows, Mac y Linux
 que permite realizar esquemas eléctricos y cableados con imágenes
 realistas para Arduino y protoboard.
 
-`Página oficial de Fritzing <https://fritzing.org/home/>`_
+`Página oficial de Fritzing. <https://fritzing.org/home/>`__
 
 
 KiCad
@@ -38,7 +38,7 @@ Simuladores
 -----------
 
 * `Simulador de circuitos eléctricos y electrónicos online.
-  <https://www.picuino.com/circuits/>`_
+  <https://www.picuino.com/circuits/>`__
 
   | Electronic Circuit Simulator in the Browser
   | Creador: Paul Falstad con contribución de Iain Sharp entre otros.

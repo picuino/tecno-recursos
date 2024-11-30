@@ -305,13 +305,13 @@ Referencias
 -----------
 
 `Wikipedia: Controlador PID
-<https://es.wikipedia.org/wiki/Proporcional_integral_derivativo>`_
+<https://es.wikipedia.org/wiki/Proporcional_integral_derivativo>`__
 
 `Wikipedia: Sistema de control
-<https://es.wikipedia.org/wiki/Sistema_de_control>`_
+<https://es.wikipedia.org/wiki/Sistema_de_control>`__
 
 `Wikipedia: Servomotor
-<https://es.wikipedia.org/wiki/Servomotor_de_modelismo>`_
+<https://es.wikipedia.org/wiki/Servomotor_de_modelismo>`__
 
 
 [1] Ogata, Katsuhiko. Ingeniería de Control Moderna. Tercera edición.

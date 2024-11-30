@@ -16,7 +16,7 @@ europeo, que ordena la posición de las tres vistas de manera diferente
 al sistema americano.
 
 Este método de representar una figura tridimensional en varios dibujos
-se denomina `sistema diédrico <https://es.wikipedia.org/wiki/Sistema_di%C3%A9drico>`_.
+se denomina `sistema diédrico <https://es.wikipedia.org/wiki/Sistema_di%C3%A9drico>`__.
 
 .. image:: dibujo/_images/dibujo-vistas.png
    :width: 240px

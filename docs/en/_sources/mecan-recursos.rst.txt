@@ -33,7 +33,7 @@ FreeCAD es un programa de diseño asistido por ordenador
 en tres dimensiones (3D), para el diseño de piezas mecánicas.
 Existen versiones para Windows, Mac y Linux.
 
-`Página web de FreeCAD <https://freecadweb.org/>`_
+`Página web de FreeCAD <https://freecadweb.org/>`__
 
 
 Relatran

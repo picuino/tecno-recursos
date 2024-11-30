@@ -50,7 +50,7 @@ ordenador.
 
 Para dar soporte a esta placa se programó un entorno de desarrollo de
 manejo sencillo y de código abierto, basado en el proyecto
-`Wiring <https://es.wikipedia.org/wiki/Wiring>`_.
+`Wiring <https://es.wikipedia.org/wiki/Wiring>`__.
 
 Esta placa Arduino puede ampliarse mediante otras placas, denominadas
 Shield porque van conectadas sobre la placa de desarrollo tapándola.
@@ -59,7 +59,7 @@ conexión a Ethernet, control de motores DC o paso a paso, conexión
 a tarjetas de memoria, etc.
 
 Hoy en día `la oferta se ha ampliado bastante
-<https://www.arduino.cc/en/Main/Products>`_ y podemos encontrar muchos
+<https://www.arduino.cc/en/Main/Products>`__ y podemos encontrar muchos
 productos distintos:
 
 * Placas de desarrollo de 8 bit

@@ -31,7 +31,7 @@ Etiquetas utilizadas
 Ejercicio
 ---------
 En la `página de colores CSS de w3schools
-<https://www.w3schools.com/cssref/css_colors.asp>`_
+<https://www.w3schools.com/cssref/css_colors.asp>`__
 se pueden ver los 140 colores con nombre propio
 disponibles en todos los navegadores
 

@@ -12,9 +12,9 @@ W3schools
 ---------
 Página web con estilo práctico y directo. Tiene muchos ejemplos.
 
-* `Tutorial de CSS en w3schools <https://www.w3schools.com/css/default.asp>`_
-* `Referencia de CSS <https://www.w3schools.com/cssref/default.asp>`_
-* `Ejemplos de CSS <https://www.w3schools.com/css/css_examples.asp>`_
+* `Tutorial de CSS en w3schools <https://www.w3schools.com/css/default.asp>`__
+* `Referencia de CSS <https://www.w3schools.com/cssref/default.asp>`__
+* `Ejemplos de CSS <https://www.w3schools.com/css/css_examples.asp>`__
 
 
 Web Style Guide
@@ -26,13 +26,13 @@ el diseño del interfaz o la tipografía hasta el estilo editorial.
 La última versión se distribuye con licencia CC BY.
 
 * `Web Style Guide 3rd edition
-  <https://webstyleguide.com/wsg3/index.html>`_
-* `Web Style Guide (libre) <https://webstyleguide.com/>`_
+  <https://webstyleguide.com/wsg3/index.html>`__
+* `Web Style Guide (libre) <https://webstyleguide.com/>`__
 
 
 Desarrollo Web
 --------------
-* `CSS a fondo <https://desarrolloweb.com/css/>`_
+* `CSS a fondo <https://desarrolloweb.com/css/>`__
 * `Las mejores herramientas para generar CSS
-  <https://desarrolloweb.com/de_interes/mejores-herramientas-css-3126.html>`_
+  <https://desarrolloweb.com/de_interes/mejores-herramientas-css-3126.html>`__
 

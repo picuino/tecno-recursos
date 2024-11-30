@@ -60,7 +60,7 @@ Librería para sensores de ultrasonidos
 Para manejar los sensores de ultrasonidos existen varias librerías de
 trabajo.
 La librería estándar más precisa que se puede utilizar es
-`NewPing <https://playground.arduino.cc/Code/NewPing>`_.
+`NewPing <https://playground.arduino.cc/Code/NewPing>`__.
 Para instalar la librería hay que seguir los siguientes pasos:
 
 1. Descargar la librería
@@ -189,7 +189,7 @@ Las medidas se deben introducir en una tabla como la siguiente:
 
 A partir de esta tabla, se puede realizar un mejor ajuste de la
 medida con la orden
-`map() <https://www.arduino.cc/reference/en/language/functions/math/map/>`_
+`map() <https://www.arduino.cc/reference/en/language/functions/math/map/>`__
 de Arduino:
 
   distance = map(microseconds, 247, 1123, 50, 200);

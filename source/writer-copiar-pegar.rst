@@ -114,10 +114,11 @@ Créditos
 
 El texto utilizado en este ejercicio está basado,
 con cambios, en el `artículo de Wikipedia sobre Nikola Tesla
-<https://es.wikipedia.org/wiki/Nikola_Tesla>`_
-, bajo `licencia CC BY-SA 3.0
-<https://creativecommons.org/licenses/by-sa/3.0/>`_
+<https://es.wikipedia.org/wiki/Nikola_Tesla>`__,
+bajo `licencia CC BY-SA 3.0
+<https://creativecommons.org/licenses/by-sa/3.0/>`__,
+via Wikimedia Commons
 
 `La imagen utilizada es de Napoleon Sarony
-<https://commons.wikimedia.org/wiki/File:Tesla_Sarony.jpg>`_
+<https://commons.wikimedia.org/wiki/File:Tesla_Sarony.jpg>`__,
 con licencia de dominio público, via Wikimedia Commons

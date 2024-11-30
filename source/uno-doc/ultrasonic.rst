@@ -59,12 +59,12 @@ Librería para sensores de ultrasonidos
 Para manejar los sensores de ultrasonidos existen varias librerías de
 trabajo.
 La librería estándar más precisa que se puede utilizar es
-`NewPing <https://bitbucket.org/teckel12/arduino-new-ping/downloads/>`_.
+`NewPing <https://bitbucket.org/teckel12/arduino-new-ping/downloads/>`__.
 Para instalar la librería hay que seguir los siguientes pasos:
 
 1. Descargar la librería desde la siguiente página web:
    `librería NewPing
-   <https://bitbucket.org/teckel12/arduino-new-ping/downloads/>`_
+   <https://bitbucket.org/teckel12/arduino-new-ping/downloads/>`__
 2. Guardar el fichero NewPing_v1.9.4.zip en el ordenador
 3. Abrir el entorno gráfico de Arduino
 4. En la pestaña Sketch.. Importar librería.. pinchar 'Add Library...'
@@ -184,7 +184,7 @@ Las medidas se deben introducir en una tabla como la siguiente:
 
 A partir de esta tabla, se puede realizar un mejor ajuste de la
 medida con la orden
-`map() <https://www.arduino.cc/reference/en/language/functions/math/map/>`_
+`map() <https://www.arduino.cc/reference/en/language/functions/math/map/>`__
 de Arduino:
 
   distance = map(microseconds, 247, 1123, 50, 200);

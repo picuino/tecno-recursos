@@ -12,17 +12,17 @@ Página web educacionplastica.net
 --------------------------------
 
 * `Ejercicios de vistas. Nivel básico.
-  <http://www.educacionplastica.net/3dcube_model/vistas_3d_2x2.html>`_
+  <http://www.educacionplastica.net/3dcube_model/vistas_3d_2x2.html>`__
 * `Ejercicios de vistas. Nivel medio.
-  <http://www.educacionplastica.net/3dcube_model/vistas_3d_3x3.html>`_
+  <http://www.educacionplastica.net/3dcube_model/vistas_3d_3x3.html>`__
 * `Ejercicios de modelado en 3D
-  <http://www.educacionplastica.net/model3d.htm>`_
+  <http://www.educacionplastica.net/model3d.htm>`__
 * `Perspectiva Isométrica
-  <http://www.educacionplastica.net/MenuIso.htm>`_
+  <http://www.educacionplastica.net/MenuIso.htm>`__
 * `Generador de piezas en 3D
-  <http://www.educacionplastica.net/3dcube_model/3d_gen_eje.htm>`_
+  <http://www.educacionplastica.net/3dcube_model/3d_gen_eje.htm>`__
 * `Normalización (acotación)
-  <http://www.educacionplastica.net/menunorma.htm>`_
+  <http://www.educacionplastica.net/menunorma.htm>`__
 
 
 Página web Mongge.com

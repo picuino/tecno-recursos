@@ -12,7 +12,7 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
 
 Índice de páginas y mapa de la web.
 
-* `Página de inicio. <https://www.picuino.com/es/>`_
+* `Página de inicio. <https://www.picuino.com/es/>`__
 * `Manifiesto. <https://www.picuino.com/es/manifiesto.html>`__
 * `Test de Tecnología. <https://www.picuino.com/test/>`__
 * `Simulador de circuitos. <https://www.picuino.com/circuits/>`__

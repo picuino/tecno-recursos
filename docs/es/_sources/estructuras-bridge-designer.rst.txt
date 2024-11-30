@@ -33,13 +33,13 @@ Se proporciona y está destinado únicamente para uso educativo.
 Enlaces
 -------
 * `The Bridge Designer. Página principal.
-  <http://bridgedesigner.org/>`_
+  <http://bridgedesigner.org/>`__
 * `The Bridge Designer. Download
-  <http://bridgedesigner.org/download/>`_
+  <http://bridgedesigner.org/download/>`__
 * `Instalador para Windows desde la página de Source Forge.
-  <https://sourceforge.net/projects/wpbdc/files/Current%20Release/jre/setupbdv16j.exe/download>`_
+  <https://sourceforge.net/projects/wpbdc/files/Current%20Release/jre/setupbdv16j.exe/download>`__
 * `Instalador Bridge Designer 1.6
-  <../_static/downloads/setup-bridge-designer-v16j.zip>`_
+  <../_static/downloads/setup-bridge-designer-v16j.zip>`__
 
 
 Tutorial

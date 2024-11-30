@@ -14,7 +14,7 @@ Libro 4ºESO Tecnología del CIDEAD
    :target: https://www.picuino.com/_static/4esotecno/index.html
 
 Libro de Tecnología para 4º curso de la ESO del
-`CIDEAD <https://www.educacionyfp.gob.es/mc/cidead/portada.html>`_
+`CIDEAD <https://www.educacionyfp.gob.es/mc/cidead/portada.html>`__
 (Centro para la Innovación y Desarrollo de la Educación a Distancia)
 
 

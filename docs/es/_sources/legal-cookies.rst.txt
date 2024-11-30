@@ -85,7 +85,7 @@ Esta política se actualizó por última vez el 1 de febrero de 2024.
 
 
    **Servicios de terceros:**
-      * `YouTube <https://www.google.es/intl/es/policies/privacy/>`_
+      * `YouTube <https://www.google.es/intl/es/policies/privacy/>`__
 
 
    Aceptación de cookies
@@ -110,18 +110,18 @@ Esta política se actualizó por última vez el 1 de febrero de 2024.
    su equipo mediante la configuración de las opciones del navegador
    instalado en su dispositivo:
 
-   `Google Chrome™ <https://support.google.com/chrome/answer/95647?hl=es&hlrm=en>`_
+   `Google Chrome™ <https://support.google.com/chrome/answer/95647?hl=es&hlrm=en>`__
 
    `Mozilla Firefox™
-   <https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-?redirectlocale=en-US&redirectslug=Cookies>`_
+   <https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-?redirectlocale=en-US&redirectslug=Cookies>`__
 
    `Microsoft Edge™
-   <https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64d>`_
+   <https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64d>`__
 
 
    **Apple Safari™**
      * `macOS
-       <https://support.apple.com/kb/PH19214?viewlocale=es_ES>`_
+       <https://support.apple.com/kb/PH19214?viewlocale=es_ES>`__
      * `iPhone, iPad o iPod
-       <https://support.apple.com/kb/HT1677?viewlocale=es_ES>`_
+       <https://support.apple.com/kb/HT1677?viewlocale=es_ES>`__
 

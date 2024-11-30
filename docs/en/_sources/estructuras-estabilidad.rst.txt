@@ -207,7 +207,7 @@ igual que ocurre en un columpio, haciendo que la estructura oscile
 cada vez con mayor amplitud hasta llegar a desmoronarse.
 Esto es lo que le pasó al famoso puente de
 `Tacoma Narrows
-<https://es.wikipedia.org/wiki/Puente_de_Tacoma_Narrows>`_
+<https://es.wikipedia.org/wiki/Puente_de_Tacoma_Narrows>`__
 apodado Gallopin Gertie por las grandes oscilaciones que sufría
 cuando soplaba la brisa del verano en que se inauguró.
 Al llegar el otoño, un viento de apenas 64 kilómetros por hora
@@ -273,7 +273,7 @@ Ejercicios
 .. rubric:: Notas
 
 .. [#f1] El `puente de Broughton
-         <http://www.wikivia.org/wikivia/index.php?title=Puente_de_Broughton_(colapso_estructural)>`_
+         <http://www.wikivia.org/wikivia/index.php?title=Puente_de_Broughton_(colapso_estructural)>`__
          fue un puente de suspensión en Manchester, Inglaterra, que en 1831
          colapsó a raíz del paso de una tropa de soldados caminando en
          formación.

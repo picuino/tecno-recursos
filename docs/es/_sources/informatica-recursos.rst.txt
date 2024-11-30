@@ -44,7 +44,7 @@ Teniendo en cuenta que hay numerosos contenidos en la Web en formato
 Flash Player se ha hecho un esfuerzo para crear emuladores que permitan
 ejecutar las animaciones con seguridad y fidelidad.
 
-`Ruffle <https://ruffle.rs/>`_ es un emulador que permite ejecutar las
+`Ruffle <https://ruffle.rs/>`__ es un emulador que permite ejecutar las
 antiguas animaciones creadas para Flash Player de forma transparente con
 solo añadir un archivo javascript al contenido original.
 

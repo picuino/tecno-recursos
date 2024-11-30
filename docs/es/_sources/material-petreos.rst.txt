@@ -100,8 +100,8 @@ Pétreos naturales
       :alt: Superficie de mármol con vetas
       :align: center
 
-      `Lysippos <https://commons.wikimedia.org/wiki/File:Milv.jpg>`__
-      `CC BY-SA 2.0 DE <https://creativecommons.org/licenses/by-sa/2.0/de/deed.en>`__
+      `Lysippos <https://commons.wikimedia.org/wiki/File:Milv.jpg>`__,
+      `CC BY-SA 2.0 DE <https://creativecommons.org/licenses/by-sa/2.0/de/deed.en>`__,
       via Wikimedia Commons.
 
 **Granito**
@@ -120,8 +120,8 @@ Pétreos naturales
       :align: center
       :width: 480px
 
-      `Rojinegro81 <https://commons.wikimedia.org/wiki/File:Roca_Granito.JPG>`__
-      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>`__
+      `Rojinegro81 <https://commons.wikimedia.org/wiki/File:Roca_Granito.JPG>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>`__,
       via Wikimedia Commons.
 
 
@@ -134,8 +134,8 @@ Pétreos naturales
       :alt: Tejado revestido de planchas de pizarra impermeable
       :align: center
 
-      `Dontworry <https://commons.wikimedia.org/wiki/File:St.leonhard-ffm002.jpg>`__
-      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+      `Dontworry <https://commons.wikimedia.org/wiki/File:St.leonhard-ffm002.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
       via Wikimedia Commons.
 
 
@@ -154,8 +154,8 @@ Pétreos naturales
 
       Gran Pirámide de Guiza. Recubierta por completo de piedra caliza.
 
-      `Berthold Werner <https://commons.wikimedia.org/wiki/File:Gizeh_Cheops_BW_1.jpg>`__
-      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+      `Berthold Werner <https://commons.wikimedia.org/wiki/File:Gizeh_Cheops_BW_1.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
       via Wikimedia Commons.
 
 
@@ -170,8 +170,8 @@ Pétreos naturales
       :alt: Piedra arenisca
       :align: center
 
-      `Sarranpa <https://commons.wikimedia.org/wiki/File:Arenisca.jpg>`__
-      `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__
+      `Sarranpa <https://commons.wikimedia.org/wiki/File:Arenisca.jpg>`__,
+      `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
       via Wikimedia Commons.
 
 
@@ -235,8 +235,8 @@ y adoptan una consistencia pétrea.
             hormigón, todavía líquido, por el suelo.
       :align: center
 
-      `Dafran <https://commons.wikimedia.org/wiki/File:Hormigon-autonivelante.png>`__
-      `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__
+      `Dafran <https://commons.wikimedia.org/wiki/File:Hormigon-autonivelante.png>`__,
+      `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
       via Wikimedia Commons.
 
 
@@ -259,8 +259,8 @@ fusión.
       :alt: Arcilla. Yacimiento del cuaternario.
       :align: center
 
-      `Siim Sepp <https://commons.wikimedia.org/wiki/File:Clay-ss-2005.jpg>`__
-      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+      `Siim Sepp <https://commons.wikimedia.org/wiki/File:Clay-ss-2005.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
       via Wikimedia Commons.
 
 **Loza**
@@ -274,8 +274,8 @@ fusión.
       :alt: Cuenco fabricado de loza
       :align: center
 
-      `Lourdes Cardenal <https://commons.wikimedia.org/wiki/File:Cuenco_barro_ceramica_popular_lou.jpg>`__
-      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+      `Lourdes Cardenal <https://commons.wikimedia.org/wiki/File:Cuenco_barro_ceramica_popular_lou.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
       via Wikimedia Commons.
 
 
@@ -292,8 +292,8 @@ fusión.
 
       Gres usado en la industria química.
 
-      `Patrick Charpiat <https://commons.wikimedia.org/wiki/File:Beau_021.jpg>`__
-      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+      `Patrick Charpiat <https://commons.wikimedia.org/wiki/File:Beau_021.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
       via Wikimedia Commons.
 
 

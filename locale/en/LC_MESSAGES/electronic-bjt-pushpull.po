@@ -1,29 +1,39 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-Date:2023-10-18 17:17+0200PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en <LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding:8bitGenerated-By:Babel 2.9.0"
-
-
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-10-18 17:17+0200PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-11-30 10:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../source/electronic-bjt-pushpull.rst:9
 msgid "El esquema push-pull"
 msgstr "The push-pull scheme"
 
-
 #: ../../source/electronic-bjt-pushpull.rst:10
 msgid ""
 "El `esquema push-pull "
-"<https://es.wikipedia.org/wiki/Salida_en_contrafase>`__, también llamado en "
-"contrafase, es un circuito utilizado en las etapas de salida de circuitos "
-"electrónicos para entregar tanto tensión y corriente positivas como tensión "
-"y corriente negativas."
+"<https://es.wikipedia.org/wiki/Salida_en_contrafase>`__, también llamado "
+"en contrafase, es un circuito utilizado en las etapas de salida de "
+"circuitos electrónicos para entregar tanto tensión y corriente positivas "
+"como tensión y corriente negativas."
 msgstr ""
 "The `push-pull scheme "
-"<https://es.wikipedia.org/wiki/Salida_en_contrafase>`__, also called push-"
-"pull, is a circuit used in the output stages of electronic circuits to "
-"deliver both positive voltage and current as well as voltage and negative "
-"current."
-
+"<https://es.wikipedia.org/wiki/Salida_en_contrafase>`__, also called "
+"push-pull, is a circuit used in the output stages of electronic circuits "
+"to deliver both positive voltage and current as well as voltage and "
+"negative current."
 
 #: ../../source/electronic-bjt-pushpull.rst:15
 msgid ""
@@ -31,9 +41,9 @@ msgid ""
 "positiva y utiliza un transistor PNP para absorber corriente y entregar "
 "tensión negativa."
 msgstr ""
-"The scheme uses an NPN transistor to deliver positive current and voltage "
-"and uses a PNP transistor to absorb current and deliver negative voltage."
-
+"The scheme uses an NPN transistor to deliver positive current and voltage"
+" and uses a PNP transistor to absorb current and deliver negative "
+"voltage."
 
 #: ../../source/electronic-bjt-pushpull.rst:19
 msgid ""
@@ -41,15 +51,13 @@ msgid ""
 "como recordaremos, es una configuración que amplifica la corriente de "
 "salida, pero no amplifica la tensión."
 msgstr ""
-"Both transistors are in common collector or \"emitter follower\" which, as "
-"we remember, is a configuration that amplifies the output current, but does "
-"not amplify the voltage."
-
+"Both transistors are in common collector or \"emitter follower\" which, "
+"as we remember, is a configuration that amplifies the output current, but"
+" does not amplify the voltage."
 
 #: ../../source/electronic-bjt-pushpull.rst:28
 msgid "Esquema de dos transistores bipolares en montaje push-pull."
 msgstr "Schematic of two bipolar transistors in push-pull assembly."
-
 
 #: ../../source/electronic-bjt-pushpull.rst:30
 msgid ""
@@ -57,82 +65,106 @@ msgid ""
 "tensión de 1.2 voltios entre las bases, que coincide con la tensión de "
 "polarización de los dos transistores."
 msgstr ""
-"The two diodes at the bases of the transistors serve to maintain a voltage "
-"of 1.2 volts between the bases, which coincides with the bias voltage of the"
-" two transistors."
-
+"The two diodes at the bases of the transistors serve to maintain a "
+"voltage of 1.2 volts between the bases, which coincides with the bias "
+"voltage of the two transistors."
 
 #: ../../source/electronic-bjt-pushpull.rst:36
 msgid "Simulación"
 msgstr "Simulation"
 
-
 #: ../../source/electronic-bjt-pushpull.rst:37
 msgid ""
 "A continuación podemos ver una simulación de un circuito push-pull que "
-"consigue alimentar una carga con corrientes positivas y negativas. La parte "
-"superior del circuito es simétrica respecto a la parte inferior. Cada uno de"
-" los transistores se encarga de conducir una parte de la corriente. El "
-"transistor NPN superior conduce la corriente positiva y el transistor PNP "
-"inferior conduce la corriente negativa."
+"consigue alimentar una carga con corrientes positivas y negativas. La "
+"parte superior del circuito es simétrica respecto a la parte inferior. "
+"Cada uno de los transistores se encarga de conducir una parte de la "
+"corriente. El transistor NPN superior conduce la corriente positiva y el "
+"transistor PNP inferior conduce la corriente negativa."
 msgstr ""
-"Below we can see a simulation of a push-pull circuit that manages to power a"
-" load with positive and negative currents. The upper part of the circuit is "
-"symmetrical with respect to the lower part. Each of the transistors is "
-"responsible for conducting a part of the current. The upper NPN transistor "
-"conducts the positive current and the lower PNP transistor conducts the "
-"negative current."
-
+"Below we can see a simulation of a push-pull circuit that manages to "
+"power a load with positive and negative currents. The upper part of the "
+"circuit is symmetrical with respect to the lower part. Each of the "
+"transistors is responsible for conducting a part of the current. The "
+"upper NPN transistor conducts the positive current and the lower PNP "
+"transistor conducts the negative current."
 
 #: ../../source/electronic-bjt-pushpull.rst:52
 msgid "Ejercicios"
 msgstr "Exercises"
 
-
 #: ../../source/electronic-bjt-pushpull.rst:54
 msgid ""
-"Dibuja un esquema simplificado de dos transistores bipolares trabajando en "
-"configuración push-pull."
+"Dibuja un esquema simplificado de dos transistores bipolares trabajando "
+"en configuración push-pull."
 msgstr ""
-"Draw a simplified schematic of two bipolar transistors working in push-pull "
-"configuration."
-
+"Draw a simplified schematic of two bipolar transistors working in push-"
+"pull configuration."
 
 #: ../../source/electronic-bjt-pushpull.rst:57
 msgid ""
 "Dibuja un esquema realista de dos transistores bipolares trabajando en "
 "configuración push-pull o contrafase."
 msgstr ""
-"Draw a realistic schematic of two bipolar transistors working in push-pull "
-"or push-pull configuration."
-
+"Draw a realistic schematic of two bipolar transistors working in push-"
+"pull or push-pull configuration."
 
 #: ../../source/electronic-bjt-pushpull.rst:60
 msgid "¿Qué función realiza una etapa push-pull y dónde se pueden encontrar?"
-msgstr ""
-"What function does a push-pull stage perform and where can they be found?"
-
+msgstr "What function does a push-pull stage perform and where can they be found?"
 
 #: ../../source/electronic-bjt-pushpull.rst:62
 msgid "¿Qué tipo de amplificación realiza una etapa push-pull?"
 msgstr "What type of amplification does a push-pull stage perform?"
 
-
 #: ../../source/electronic-bjt-pushpull.rst:64
-msgid ""
-"¿Qué ganancia de tensión tiene la etapa push-pull simulada? ¿Y qué ganancia "
-"de corriente?"
+msgid "¿Qué ganancia de tensión tiene la etapa push-pull simulada?"
 msgstr ""
-"What voltage gain does the simulated push-pull stage have? And what current "
-"gain?"
+"What voltage gain does the simulated push-pull stage have? "
 
+#: ../../source/electronic-bjt-pushpull.rst:66
+msgid ""
+"Recuerda parar la simulación del circuito para poder medir con facilidad "
+"el valor máximo y el valor mínimo de tensión de entrada y de tensión de "
+"salida."
+msgstr "Remember to stop the circuit simulation so that you can easily "
+"measure the maximum and minimum input voltage and output voltage values."
 
-#: ../../source/electronic-bjt-pushpull.rst:67
+#: ../../source/electronic-bjt-pushpull.rst:70
+msgid "La fórmula de la ganancia de tensión es:"
+msgstr "The formula for voltage gain is:"
+
+#: ../../source/electronic-bjt-pushpull.rst:72
+msgid ""
+"Ganancia\\_V = \\cfrac{V_{out\\_max} - V_{out\\_min}}{ V_{in\\_max} - "
+"V_{in\\_min}}"
+msgstr ""
+"Gain\\_V = \\cfrac{V_{out\\_max} - V_{out\\_min}}{ V_{in\\_max} - "
+"V_{in\\_min}}"
+
+#: ../../source/electronic-bjt-pushpull.rst:77
+msgid "¿Qué ganancia de corriente tiene la etapa push-pull simulada?"
+msgstr "What is the current gain of the simulated push-pull stage?"
+
+#: ../../source/electronic-bjt-pushpull.rst:79
+msgid "La fórmula de la ganancia de corriente es:"
+msgstr "The formula for current gain is:"
+
+#: ../../source/electronic-bjt-pushpull.rst:81
+msgid ""
+"Ganancia\\_I = \\cfrac{I_{out\\_max} - I_{out\\_min}}{ I_{in\\_max} - "
+"I_{in\\_min}}"
+msgstr ""
+"Gain\\_I = \\cfrac{I_{out\\_max} - I_{out\\_min}}{ I_{in\\_max} - "
+"I_{in\\_min}}"
+
+#: ../../source/electronic-bjt-pushpull.rst:85
 msgid ""
 "Busca en Internet la hoja de datos del popular amplificador operacional "
-"`LM321 <https://www.ti.com/lit/ds/symlink/lm321.pdf>`__. Dibuja la etapa de "
-"salida, basada en un circuito push-pull."
+"`LM321 <https://www.ti.com/lit/ds/symlink/lm321.pdf>`__. Dibuja la etapa "
+"de salida, basada en un circuito push-pull."
 msgstr ""
 "Search the Internet for the data sheet of the popular op amp `LM321 "
 "<https://www.ti.com/lit/ds/symlink/lm321.pdf>`__. Draw the output stage, "
 "based on a push-pull circuit."
+

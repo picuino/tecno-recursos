@@ -133,7 +133,7 @@ al estándar:
    <_downloads/CH340-win-driver-v31.zip>`
 
    `Página de Microsoft para descargar el driver CH340
-   <http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=be9c8169-b12b-475f-81b8-3d3e69181e8c>`_
+   <http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=be9c8169-b12b-475f-81b8-3d3e69181e8c>`__
 
 
 ¿Existe un cortocircuito?

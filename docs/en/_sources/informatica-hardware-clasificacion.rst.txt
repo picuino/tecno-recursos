@@ -249,23 +249,23 @@ apartados.
 
 
    Clúster de ordenadores
-     Un `clúster de ordenadores
-     <https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras>`__
-     es un gran ordenador compuesto por un conjunto de ordenadores
-     unidos entre sí por una red de alta velocidad y sincronizados
-     por un sistema operativo, que suele ser Linux, para que se comporten
-     como un solo ordenador.
-
-     Actualmente este tipo de ordenadores está sustituyendo poco a poco
-     a los mainframes en sus funciones.
-
-     .. figure:: informatica/_images/informatica-cluster-nec.jpg
-        :align: center
-        :width: 340px
-
-        `Hindermath <https://commons.wikimedia.org/wiki/File:Nec-cluster.jpg>`__,
-        `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-        via Wikimedia Commons.
+      Un `clúster de ordenadores
+      <https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras>`__
+      es un gran ordenador compuesto por un conjunto de ordenadores
+      unidos entre sí por una red de alta velocidad y sincronizados
+      por un sistema operativo, que suele ser Linux, para que se comporten
+      como un solo ordenador.
+      
+      Actualmente este tipo de ordenadores está sustituyendo poco a poco
+      a los mainframes en sus funciones.
+      
+      .. figure:: informatica/_images/informatica-cluster-nec.jpg
+         :align: center
+         :width: 340px
+      
+         `Hindermath <https://commons.wikimedia.org/wiki/File:Nec-cluster.jpg>`__,
+         `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
+         via Wikimedia Commons.
 
    Superordenador
       Un `superordenador <https://es.wikipedia.org/wiki/Supercomputadora>`__

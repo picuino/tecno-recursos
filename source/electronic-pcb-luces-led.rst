@@ -174,7 +174,7 @@ montaje.
 
 La lista de componentes puede tener también la referencia de compra de un
 distribuidor de componentes electrónicos. En el siguiente documento se han
-añadido las referencias del distribuidor `TME <https://www.tme.eu/es/>`_.
+añadido las referencias del distribuidor `TME <https://www.tme.eu/es/>`__.
 
 :download:`Listado de componentes de la placa con luces led. Formato PDF.
 <electronic/pcb-luces-led/bom/electronic-pcb-luces-led-bom.pdf>`

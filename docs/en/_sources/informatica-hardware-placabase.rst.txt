@@ -21,8 +21,8 @@ conectores estándar para conectar los componentes externos.
 
    Placa base ASRock A70GXH-128M de 2012.
 
-   `Evan-Amos <https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg>`__
-   `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__
+   `Evan-Amos <https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg>`__,
+   `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
    via Wikimedia Commons.
 
 

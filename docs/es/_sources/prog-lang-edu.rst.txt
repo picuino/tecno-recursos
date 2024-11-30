@@ -21,10 +21,10 @@ Cursos Code
 .. image:: prog/_images/codeorg-logo.png
    :height: 120px
 
-* Website: `Code Studio <https://studio.code.org/courses>`_
+* Website: `Code Studio <https://studio.code.org/courses>`__
 * Desarrollador: code.org
 * Programación: por bloques (basado en `Blockly
-  <https://developers.google.com/blockly/>`_)
+  <https://developers.google.com/blockly/>`__)
 * Gratuita. Multiplataforma (PC, Apple, Android) .
 
 Cursos guiados de diferentes niveles, desde 4 hasta 16 años, y de
@@ -40,7 +40,7 @@ Scratch
 .. image:: prog/_images/scratch-logo.png
    :width: 240px
 
-* Website: `Scratch <https://scratch.mit.edu/>`_
+* Website: `Scratch <https://scratch.mit.edu/>`__
 * Desarrollador: MIT
 * Programación: por bloques
 * Para programar: en navegador y PC
@@ -60,7 +60,7 @@ Mblock
 .. image:: prog/_images/mblock-logo.png
    :height: 120px
 
-* Website: `mBlock <https://www.makeblock.es/soporte/mblock/>`_
+* Website: `mBlock <https://www.makeblock.es/soporte/mblock/>`__
 * Desarrollador: Makeblock, basado en Scratch
 * Programación: por bloques
 * Para programar: PC y Arduino
@@ -91,7 +91,7 @@ AppLab
 .. image:: prog/_images/applab-logo.png
    :height: 120px
 
-* Website: `AppLab <https://code.org/educate/applab>`_
+* Website: `AppLab <https://code.org/educate/applab>`__
 * Desarrollador: code.org
 * Programación: por bloques o en texto JavaScript
 * Gratuita y multiplataforma
@@ -105,7 +105,7 @@ AppInventor
 .. image:: prog/_images/appinventor-logo.png
    :width: 240px
 
-* Website: `AppInventor <http://appinventor.mit.edu>`_
+* Website: `AppInventor <http://appinventor.mit.edu>`__
 * Desarrollador: MIT
 * Programación: por bloques
 * Para programar: smartphones
@@ -126,7 +126,7 @@ Arduino
 .. image:: prog/_images/arduino-logo.png
    :height: 120px
 
-* Website: `Arduino <https://www.arduino.cc/>`_
+* Website: `Arduino <https://www.arduino.cc/>`__
 * Desarrollador: Arduino
 * Programación: texto, basado en lenguaje C
 * Para programar: placas electrónicas Arduino y similares
@@ -146,7 +146,7 @@ Python
 .. image:: prog/_images/python-logo.png
    :height: 120px
 
-* Website: `Python <https://www.python.org>`_
+* Website: `Python <https://www.python.org>`__
 * Desarrollador: Python foundation
 * Programación: texto
 * Para programar: PC
@@ -155,8 +155,8 @@ Python
 
 Tutoriales:
 
-* `Learn Python <http://www.learnpython.org/>`_
-* `Code Academy <https://www.codecademy.com/learn/learn-python>`_
+* `Learn Python <http://www.learnpython.org/>`__
+* `Code Academy <https://www.codecademy.com/learn/learn-python>`__
 
 Lenguaje multiparadigma, muy sencillo de programar y de entender.
 Es el lenguaje preferido por muchos colegios y universidades de
@@ -173,15 +173,15 @@ Learning, el futuro de la informática.
 Tiene multitud de tutoriales de todo tipo, de todos los niveles,
 en inglés y en español y en formato libre y gratuito.
 
-El entorno `Pygame <https://www.pygame.org/tags/all>`_ facilita
+El entorno `Pygame <https://www.pygame.org/tags/all>`__ facilita
 mucho la tarea de programar entornos gráficos y juegos para ordenador
 y ofrece multitud de ejemplos didácticos y prácticos de programas
 creados por diferentes autores.
 
 A su vez, el entorno `Python Turtle
-<https://docs.python.org/3.3/library/turtle.html>`_ emula al
+<https://docs.python.org/3.3/library/turtle.html>`__ emula al
 entorno del lenguaje LOGO, creado por `Seymour Papert
-<https://es.wikipedia.org/wiki/Seymour_Papert>`_ en el
+<https://es.wikipedia.org/wiki/Seymour_Papert>`__ en el
 MIT para enseñar a los niños a programar.
 
 
@@ -191,7 +191,7 @@ Processing
 .. image:: prog/_images/processing-logo.png
    :height: 120px
 
-* Website: `Processing <https://processing.org/>`_
+* Website: `Processing <https://processing.org/>`__
 * Desarrollador: Processing foundation
 * Programación: texto. Basado en lenguaje Java
 * Para programar: PC y smartphones
@@ -201,8 +201,8 @@ Processing
 
 Tutoriales:
 
-* `Tutoriales oficiales <https://processing.org/tutorials/>`_
-* `Hour of code <http://hello.processing.org/editor/>`_
+* `Tutoriales oficiales <https://processing.org/tutorials/>`__
+* `Hour of code <http://hello.processing.org/editor/>`__
 
 Processing es un entorno de programación en Java que ofrece muchas
 facilidades para acercar la programación a los artistas permitiendo
@@ -246,16 +246,16 @@ Otros recursos en Internet
 ==========================
 
 `Lenguajes de programación educativa.
-<https://www.educaciontrespuntocero.com/recursos/programacion/lenguajes-programacion-educativa-alternativas-a-scratch/35925.html>`_
+<https://www.educaciontrespuntocero.com/recursos/programacion/lenguajes-programacion-educativa-alternativas-a-scratch/35925.html>`__
 
 `Qué lenguaje o herramientas de programación deberían enseñarse a
 los niños según su edad.
-<https://www.xataka.com/otros/que-lenguaje-o-herramientas-de-programacion-deberian-ensenarse-a-los-ninos-segun-su-edad>`_
+<https://www.xataka.com/otros/que-lenguaje-o-herramientas-de-programacion-deberian-ensenarse-a-los-ninos-segun-su-edad>`__
 
 -----
 
 .. [1] `Schools using Python
-       <https://wiki.python.org/moin/SchoolsUsingPython>`_
+       <https://wiki.python.org/moin/SchoolsUsingPython>`__
 
 .. [2] `Índice Tiobe de lenguajes de programación
-       <https://www.tiobe.com/tiobe-index/>`_
+       <https://www.tiobe.com/tiobe-index/>`__
