@@ -15,6 +15,11 @@ como se muestra al final de esta página, y terminará con
 las imágenes de dos personas famosas con ese mismo nombre
 y con hipervínculos a la Wikipedia de cada famoso.
 
+Las imágenes "portrait.png" deben sustituirse por imágenes
+en formato jpeg descargadas desde internet a la misma carpeta
+donde se encuentra la práctica. Esas imágenes se deben enviar
+junto a la práctica para que se puedan ver a la hora de corregir. 
+
 Se adjunta un ejemplo de estructura de página web para que
 sirva de guía a la hora de hacer el ejercicio.
 

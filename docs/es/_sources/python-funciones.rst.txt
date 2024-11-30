@@ -149,7 +149,7 @@ Ejercicios
    El factorial es el resultado de multiplicar todos los números desde el
    1 hasta el número deseado.
 
-   Imprime el factorial de 5, 8 y 20.
+   Imprime el factorial de 5, 8 y 12.
 
    Pista::
 

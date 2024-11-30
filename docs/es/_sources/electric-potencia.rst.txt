@@ -8,10 +8,6 @@
 :index:`Potencia eléctrica`
 ===========================
 
-.. note::
-
-   PÁGINA EN CONSTRUCCIÓN.
-
 La `potencia eléctrica <https://es.wikipedia.org/wiki/Potencia_el%C3%A9ctrica>`__
 es la **velocidad** con la que un aparato **consume energía eléctrica**.
 Un aparato con mucha potencia va a consumir mucha energía en una hora.
