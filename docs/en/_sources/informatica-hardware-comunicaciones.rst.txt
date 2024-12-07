@@ -541,7 +541,7 @@ Conectores de vídeo
       (DVI y HDMI).
 
       A pesar de ser un estándar pensado para pantallas antiguas de tipo
-      CRT y que ofrece peores prestaciones en las pantallas digitales LDC,
+      CRT y que ofrece peores prestaciones en las pantallas digitales LCD,
       se sigue utilizando en ordenadores y monitores actuales para
       guardar la compatibilidad con dispositivos antiguos.
 
@@ -795,7 +795,7 @@ Conexiones inalámbricas
 
          Logotipo del estándar Bluetooth.
 
-         `Autor
+         `Bluetooth SIG, Inc.
          <https://commons.wikimedia.org/wiki/File:BluetoothLogo.svg>`__,
          via Wikimedia Commons.
 
