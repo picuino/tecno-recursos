@@ -90,7 +90,7 @@ Ejercicios
       Ganancia\_V = \cfrac{V_{out\_max} - V_{out\_min}}{ V_{in\_max} - V_{in\_min}}
    
    Puedes obtener los valores de tensión necesarios de los osciloscopios
-   que se encuentran debajo en la parte de abajo del simulador.
+   que se encuentran en la parte inferior del simulador.
 
 
 #. Si modificamos R3 con un valor de 2kOhm y R1 con un valor de 70kOhm,
