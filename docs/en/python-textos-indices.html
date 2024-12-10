@@ -204,10 +204,31 @@
 <div class="section" id="ejercicios">
 <h2>Exercises<a class="headerlink" href="#ejercicios" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Write a function that prints one by one all the characters of a text string that we pass to it as an argument.</p>
+<li><p class="first">Write a function that prints one by one all the characters of a text string that we pass to it as an argument, without using indexes.</p>
 <p>Call the function twice with two different text strings.</p>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">deletrea</span><span class="p">(</span><span class="n">texto</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="o">...</span> <span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+
+<span class="n">deletrea</span><span class="p">(</span><span class="s1">&#39;Hola, mundo&#39;</span><span class="p">)</span>
+<span class="n">deletrea</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+</pre></div>
+</div>
 </li>
-<li><p class="first">Write a function that accepts a string as an argument and that prints the string bit by bit from one character to all characters.</p>
+<li><p class="first">Write a function that prints one by one all the characters of a text string that we pass to it as an argument, using indexes.</p>
+<p>Call the function twice with two different text strings.</p>
+<p>Clue:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">deletrea</span><span class="p">(</span><span class="n">texto</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">texto</span><span class="p">)):</span>
+        <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+
+<span class="n">deletrea</span><span class="p">(</span><span class="s1">&#39;Hola, mundo&#39;</span><span class="p">)</span>
+<span class="n">deletrea</span><span class="p">(</span><span class="s1">&#39;En un lugar de la mancha&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Write a function that accepts a text string as an argument and prints the string bit by bit, printing at first only one character, then two characters, then two characters, and so on until all characters are printed.</p>
 <p>Example:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">letrero</span><span class="p">(</span><span class="s1">&#39;En un lugar de la Mancha&#39;</span><span class="p">)</span>
 <span class="go">    E</span>
@@ -267,7 +288,7 @@
 <span class="go">    a</span>
 </pre></div>
 </div>
-<p>Hint: add spaces to the beginning and end of the text string.</p>
+<p>Clue: add spaces to the beginning and end of the text string.</p>
 </li>
 </ol>
 </div>
@@ -306,9 +327,9 @@
       Copyright © 2013-2023 by Carlos Pardo Martín.
       <br>
 
-      Contents under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0 license</a>
-      and computer programs under <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3 license</a>
-      unless otherwise specified.
+      Contenidos bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">licencia CC BY-SA 4.0</a>
+      y programas de ordenador bajo <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licencia GPL v3</a>
+      a menos que se indique lo contrario.
       <br>
       <span class="lastupdated">
         Last updated on December, 2024.
@@ -441,11 +462,11 @@
           <li class="toctree-l1"><a class="reference internal"
           href="https://www.picuino.com/es/manifiesto.html">Manifiesto</a>
           </li><li class="toctree-l1"><a class="reference internal"
-          href="https://www.picuino.com/test/">Technology Test</a>
+          href="https://www.picuino.com/test/">Test de Tecnología</a>
           </li><li class="toctree-l1"><a class="reference internal"
-          href="https://www.picuino.com/circuits/">Circuits simulator</a>
+          href="https://www.picuino.com/circuits/">Simulador de circuitos</a>
           </li><li class="toctree-l1"><a class="reference internal"
-          href="https://github.com/picuino/tecno-recursos">Project in GitHub</a>
+          href="https://github.com/picuino/tecno-recursos">Proyecto en GitHub</a>
           </li>
           </ul>
         </div>

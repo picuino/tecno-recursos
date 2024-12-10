@@ -129,14 +129,41 @@ Ejercicios
 ----------
 
 #. Escribe una función que imprima uno a uno todos los caracteres
-   de una cadena de texto que le pasemos como argumento.
+   de una cadena de texto que le pasemos como argumento, sin 
+   utilizar índices.
 
    Llama a la función dos veces con dos cadenas de texto distintas.
 
+   Pista::
+
+       def deletrea(texto):
+           for c in ... :
+               print( ... )
+       
+       deletrea('Hola, mundo')
+       deletrea( ... )
+
+
+#. Escribe una función que imprima uno a uno todos los caracteres
+   de una cadena de texto que le pasemos como argumento, utilizando
+   índices.
+
+   Llama a la función dos veces con dos cadenas de texto distintas.
+   
+   Pista::
+   
+       def deletrea(texto):
+           for i in range(len(texto)):
+               print( ... )
+       
+       deletrea('Hola, mundo')
+       deletrea('En un lugar de la mancha')
+
 
 #. Escribe una función que acepte como argumento una cadena de texto
-   y que vaya imprimiendo la cadena poco a poco desde un carácter
-   hasta todos los caracteres.
+   y que vaya imprimiendo la cadena poco a poco imprimiendo al principio
+   solo un carácter, luego dos caracteres, así hasta terminar imprimiendo
+   todos los caracteres.
 
    Ejemplo::
 
@@ -168,6 +195,7 @@ Ejercicios
           la Mancha
           ...
           ...
+
 
 #. Escribe una función que acepte como argumento una cadena de texto y
    que imprima grupos de cinco caracteres del texto desde el comienzo

@@ -213,12 +213,37 @@ uno a uno:</p>
 <h2>Ejercicios<a class="headerlink" href="#ejercicios" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Escribe una función que imprima uno a uno todos los caracteres
-de una cadena de texto que le pasemos como argumento.</p>
+de una cadena de texto que le pasemos como argumento, sin
+utilizar índices.</p>
 <p>Llama a la función dos veces con dos cadenas de texto distintas.</p>
+<p>Pista:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">deletrea</span><span class="p">(</span><span class="n">texto</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="o">...</span> <span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+
+<span class="n">deletrea</span><span class="p">(</span><span class="s1">&#39;Hola, mundo&#39;</span><span class="p">)</span>
+<span class="n">deletrea</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Escribe una función que imprima uno a uno todos los caracteres
+de una cadena de texto que le pasemos como argumento, utilizando
+índices.</p>
+<p>Llama a la función dos veces con dos cadenas de texto distintas.</p>
+<p>Pista:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">deletrea</span><span class="p">(</span><span class="n">texto</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">texto</span><span class="p">)):</span>
+        <span class="nb">print</span><span class="p">(</span> <span class="o">...</span> <span class="p">)</span>
+
+<span class="n">deletrea</span><span class="p">(</span><span class="s1">&#39;Hola, mundo&#39;</span><span class="p">)</span>
+<span class="n">deletrea</span><span class="p">(</span><span class="s1">&#39;En un lugar de la mancha&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
 </li>
 <li><p class="first">Escribe una función que acepte como argumento una cadena de texto
-y que vaya imprimiendo la cadena poco a poco desde un carácter
-hasta todos los caracteres.</p>
+y que vaya imprimiendo la cadena poco a poco imprimiendo al principio
+solo un carácter, luego dos caracteres, así hasta terminar imprimiendo
+todos los caracteres.</p>
 <p>Ejemplo:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">letrero</span><span class="p">(</span><span class="s1">&#39;En un lugar de la Mancha&#39;</span><span class="p">)</span>
 <span class="go">    E</span>
@@ -325,7 +350,7 @@ de la cadena hasta el final:</p>
       a menos que se indique lo contrario.
       <br>
       <span class="lastupdated">
-        Actualizado por última vez en octubre, 2024.
+        Actualizado por última vez en diciembre, 2024.
       </span>
 
     </p>
