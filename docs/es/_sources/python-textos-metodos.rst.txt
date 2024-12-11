@@ -100,11 +100,17 @@ Ejercicios
           texto_nuevo = ''
           mayuscula = True
           for letra in texto:
-              if ...
+              if mayuscula == True:
+                  mayuscula = ...
+                  texto_nuevo = texto_nuevo + ...
+              else:
+                  mayuscula = ...
+                  texto_nuevo = texto_nuevo + ...
+          print(...)
 
-    La variable 'mayuscula' debe cambiar de valor de True a False y
-    viceversa cada vez que se añada una nueva letra a la variable
-    'texto_nuevo'.
+   La variable 'mayuscula' debe cambiar de valor de True a False y
+   viceversa cada vez que se añada una nueva letra a la variable
+   'texto_nuevo'.
 
 
 #. Modifica el programa anterior para que solo sean mayúsculas la
@@ -144,11 +150,12 @@ Ejercicios
 
        if descripcion.find(...) >= 0:
            print('Error, he encontrado la palabra tabú ... en la descripción')
-       elif ...
+       elif ... :
+           ...
 
 
 #. Escribe una función que acepte una cadena de texto como argumento y
-   que retorne la cadena de texto con todas las vocales reemplazadas
+   que imprima la cadena de texto con todas las vocales reemplazadas
    por otra vocal que establezcamos en el segundo argumento.
    Llama a la función con varias frases de ejemplo para probar su
    funcionamiento.
@@ -167,4 +174,8 @@ Ejercicios
           texto = texto.replace('a', vocal)
           ...
           ...
-          return texto
+          ...
+          ...
+          print(texto)
+      
+      reemplaza_vocales('En un lugar de la mancha', vocal='o')

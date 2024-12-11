@@ -32,10 +32,12 @@ los resultados a la hoja de cálculo que evalúa los resultados.
 Las preguntas de la primera cara del cuestionario pueden dar ideas
 de mejora para responder las preguntas abiertas de la segunda cara.
 
-| :download:`Cuestionario de evaluación de la asignatura. Formato PDF
+| :download:`Cuestionario de evaluación de la asignatura. Formato PDF.
   <didactica/evaluacion-asignatura-v11.pdf>`
-| :download:`Cuestionario de evaluación de la asignatura. Formato editable ODS
+| :download:`Cuestionario de evaluación de la asignatura. Formato editable ODS.
   <didactica/evaluacion-asignatura-v11.ods>`
+| :download:`Cuestionario de evaluación de la asignatura. Formato de encuesta para Moodle XML.
+  <didactica/evaluacion-asignatura-preguntas-v11.xml>`
 
 | :download:`Hoja de cálculo para la recogida de resultados. Formato ODS
   <didactica/evaluacion-asignatura-resultados-v11.ods>`

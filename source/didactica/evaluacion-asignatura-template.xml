@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<FEEDBACK VERSION="200701" COMMENT="XML-Importfile for mod/feedback">
+    <ITEMS>
+    {% for item in database %}
+        {%- if 'title' in item %}
+        <ITEM TYPE="label" REQUIRED="0">
+            <ITEMID> {{loop.index0 + 1000}} </ITEMID>
+            <ITEMTEXT> </ITEMTEXT>
+            <ITEMLABEL> </ITEMLABEL>
+            <PRESENTATION><![CDATA[<strong>{{ item.title }}</strong>]]></PRESENTATION>
+            <OPTIONS> </OPTIONS>
+            <DEPENDITEM> </DEPENDITEM>
+            <DEPENDVALUE> </DEPENDVALUE>
+        </ITEM>
+        {%- endif %}
+        {%- if 'multichoice' in item %}
+        <ITEM TYPE="multichoicerated" REQUIRED="1">
+            <ITEMID> {{loop.index0 + 1000}} </ITEMID>
+            <ITEMTEXT><![CDATA[{{ item.multichoice }}]]></ITEMTEXT>
+            <ITEMLABEL> </ITEMLABEL>
+            <PRESENTATION><![CDATA[r>>>>>0####|1####|2####|3####|4####|5####<<<<<1]]></PRESENTATION>
+            <OPTIONS><![CDATA[ih]]></OPTIONS>
+            <DEPENDITEM> </DEPENDITEM>
+            <DEPENDVALUE> </DEPENDVALUE>
+        </ITEM>
+        {%- endif %}
+        {%- if 'answer' in item %}
+        <ITEM TYPE="textarea" REQUIRED="0">
+            <ITEMID> {{loop.index0 + 1000}} </ITEMID>
+            <ITEMTEXT><![CDATA[{{ item.answer }}]]></ITEMTEXT>
+            <ITEMLABEL></ITEMLABEL>
+            <PRESENTATION> 20|5 </PRESENTATION>
+            <OPTIONS> </OPTIONS>
+            <DEPENDITEM> 0 </DEPENDITEM>
+            <DEPENDVALUE> </DEPENDVALUE>
+        </ITEM>
+        {%- endif %}
+    {% endfor %}
+    </ITEMS>
+</FEEDBACK>
