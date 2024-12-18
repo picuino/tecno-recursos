@@ -127,10 +127,9 @@ Ejercicios
           texto_nuevo = ''
           for i in range(len(texto)):
               if i % 3 ... :
-                  ...
+                  texto_nuevo = texto_nuevo + texto[i]...
               else:
                   ...
-
 
 #. Escribe un programa que pida una frase al usuario que describa a
    Lionel Messi sin escribir en esa frase ninguna palabra tabú.
@@ -178,4 +177,4 @@ Ejercicios
           ...
           print(texto)
       
-      reemplaza_vocales('En un lugar de la mancha', vocal='o')
+      reemplaza_vocales('En un lugar de la mancha')

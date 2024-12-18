@@ -39,5 +39,5 @@ de mejora para responder las preguntas abiertas de la segunda cara.
 | :download:`Cuestionario de evaluación de la asignatura. Formato de encuesta para Moodle XML.
   <didactica/evaluacion-asignatura-preguntas-v11.xml>`
 
-| :download:`Hoja de cálculo para la recogida de resultados. Formato ODS
+| :download:`Hoja de cálculo para la recogida de resultados. Formato ODS.
   <didactica/evaluacion-asignatura-resultados-v11.ods>`
