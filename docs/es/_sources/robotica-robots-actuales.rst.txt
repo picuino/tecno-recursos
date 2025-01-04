@@ -14,6 +14,14 @@ robots humanoides (androides).
 En esta página vamos a ver algunos ejemplos de robots que ya están
 en funcionando en los laboratorios, en los hospitales y por nuestras calles.
 
+Robot Unitree
+-------------
+Robot de cuatro patas con ruedas de Unitree Robotics, empresa
+china fundada en 2016.
+
+* Vídeo: diciembre de 2024. `Unitree B2-W Talent Awakening!
+  <https://www.youtube-nocookie.com/embed/X2UxtKLZnNo>`__
+
 
 Robot Atlas
 -----------
