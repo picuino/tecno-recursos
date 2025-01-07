@@ -326,7 +326,7 @@ Conexiones internas
            - Intel Haswell y Broadwell
          * - `LGA 1151 (H4) <https://es.wikipedia.org/wiki/LGA_1151>`__
            - 2015
-           - Intel Skylake​ y KabyLake
+           - Intel Skylake y KabyLake
          * - `LGA 1200 <https://es.wikipedia.org/wiki/LGA_1200>`__
            - 2020
            - Intel Comet Lake

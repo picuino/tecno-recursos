@@ -7,9 +7,8 @@
 
 :index:`Palancas`
 =================
-La **palanca** es una máquina simple​ formada por una
-**barra rígida** que gira alrededor de un punto de apoyo llamado
-**fulcro**.
+La **palanca** es una máquina simple formada por una **barra rígida**
+que gira alrededor de un punto de apoyo llamado **fulcro**.
 
 Las palancas se pueden utilizar para realizar varias funciones:
 

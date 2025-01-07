@@ -10,7 +10,7 @@ Introducción al :index:`hardware`
 El `hardware <https://es.wikipedia.org/wiki/Hardware>`__
 (pronunciado jard.wer)
 es el conjunto de las partes físicas de un sistema informático.
-Son los componentes eléctricos, electrónicos y mecánicos​ de un ordenador
+Son los componentes eléctricos, electrónicos y mecánicos de un ordenador
 tales como cables, cajas, periféricos, etc.
 
 Por el contrario los programas y datos de un ordenador son
