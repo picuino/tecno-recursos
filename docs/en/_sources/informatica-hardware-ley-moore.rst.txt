@@ -137,8 +137,8 @@ Test de la unidad
 -----------------
 
 `Test de la ley de Moore I.
-<https://www.picuino.com/test/es-hardware-ley-moore-1.html>`__
+<../test/es-hardware-ley-moore-1.html>`__
 
 `Test de la ley de Moore II.
-<https://www.picuino.com/test/es-hardware-ley-moore-2.html>`__
+<../test/es-hardware-ley-moore-2.html>`__
 

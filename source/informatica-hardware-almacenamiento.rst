@@ -646,19 +646,19 @@ Test de la unidad
 -----------------
 
 `Test de almacenamiento de la información I.
-<https://www.picuino.com/test/es-hardware-almacenamiento-1.html>`__
+<../test/es-hardware-almacenamiento-1.html>`__
 
 `Test de almacenamiento de la información II.
-<https://www.picuino.com/test/es-hardware-almacenamiento-2.html>`__
+<../test/es-hardware-almacenamiento-2.html>`__
 
 `Test de almacenamiento de la información III.
-<https://www.picuino.com/test/es-hardware-almacenamiento-3.html>`__
+<../test/es-hardware-almacenamiento-3.html>`__
 
 `Test de almacenamiento de la información IV.
-<https://www.picuino.com/test/es-hardware-almacenamiento-4.html>`__
+<../test/es-hardware-almacenamiento-4.html>`__
 
 `Test de almacenamiento de la información V.
-<https://www.picuino.com/test/es-hardware-almacenamiento-5.html>`__
+<../test/es-hardware-almacenamiento-5.html>`__
 
 `Test de almacenamiento de la información VI.
-<https://www.picuino.com/test/es-hardware-almacenamiento-6.html>`__
+<../test/es-hardware-almacenamiento-6.html>`__

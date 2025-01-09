@@ -261,9 +261,9 @@ Cuestionarios
 Cuestionarios de tipo test sobre la madera.
 
 * `La madera I.
-  <https://www.picuino.com/test/es-material-wood-1.html>`__
+  <../test/es-material-wood-1.html>`__
 
 * `La madera II.
-  <https://www.picuino.com/test/es-material-wood-2.html>`__
+  <../test/es-material-wood-2.html>`__
 
 

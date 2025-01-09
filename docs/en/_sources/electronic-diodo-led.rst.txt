@@ -135,7 +135,7 @@ Ejercicios
 
    Comprueba con el
    `simulador de circuitos
-   <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+   <../circuits/?startCircuit=empty.txt>`__
    que el cálculo es correcto.
 
    No olvides **cambiar la tensión de funcionamiento del led**,
@@ -150,7 +150,7 @@ Ejercicios
 
    Comprueba con el
    `simulador de circuitos
-   <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+   <../circuits/?startCircuit=empty.txt>`__
    que el cálculo es correcto.
 
    No olvides **cambiar la tensión de funcionamiento de los ledes**,

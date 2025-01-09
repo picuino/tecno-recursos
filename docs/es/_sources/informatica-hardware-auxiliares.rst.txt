@@ -171,8 +171,8 @@ Test de la unidad
 -----------------
 
 `Test de elementos auxiliares I.
-<https://www.picuino.com/test/es-hardware-auxiliares-1.html>`__
+<../test/es-hardware-auxiliares-1.html>`__
 
 `Test de elementos auxiliares II.
-<https://www.picuino.com/test/es-hardware-auxiliares-2.html>`__
+<../test/es-hardware-auxiliares-2.html>`__
 

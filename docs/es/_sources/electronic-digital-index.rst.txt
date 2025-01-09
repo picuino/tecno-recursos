@@ -10,7 +10,7 @@ Electrónica digital
 
 Teoría y ejercicios de electrónica digital con
 `simulador online de circuitos
-<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+<../circuits/?startCircuit=empty.txt>`__
 integrado.
 
 .. image:: electronic/_images/electronic-digital-logo.png

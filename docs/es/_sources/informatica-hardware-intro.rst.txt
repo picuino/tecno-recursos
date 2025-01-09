@@ -160,7 +160,7 @@ Test de la unidad
 -----------------
 
 `Test de introducción al hardware I.
-<https://www.picuino.com/test/es-hardware-intro-1.html>`__
+<../test/es-hardware-intro-1.html>`__
 
 `Test de introducción al hardware II.
-<https://www.picuino.com/test/es-hardware-intro-2.html>`__
+<../test/es-hardware-intro-2.html>`__

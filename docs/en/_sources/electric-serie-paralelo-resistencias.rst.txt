@@ -253,4 +253,4 @@ Cuestionarios
 -------------
 
 `Cuestionario. Calcular resistencias equivalentes.
-<https://www.picuino.com/test/es-electric-series-parallel-calc-2.html>`__
+<../test/es-electric-series-parallel-calc-2.html>`__

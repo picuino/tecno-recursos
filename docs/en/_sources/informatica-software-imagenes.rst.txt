@@ -575,20 +575,20 @@ Test de la unidad
 -----------------
 
 `Test de Formatos de imagen I.
-<https://www.picuino.com/test/es-software-formatos-imagen-1.html>`__
+<../test/es-software-formatos-imagen-1.html>`__
 
 `Test de Formatos de imagen II.
-<https://www.picuino.com/test/es-software-formatos-imagen-2.html>`__
+<../test/es-software-formatos-imagen-2.html>`__
 
 `Test de Formatos de imagen III.
-<https://www.picuino.com/test/es-software-formatos-imagen-3.html>`__
+<../test/es-software-formatos-imagen-3.html>`__
 
 `Test de Formatos de imagen IV.
-<https://www.picuino.com/test/es-software-formatos-imagen-4.html>`__
+<../test/es-software-formatos-imagen-4.html>`__
 
 `Test de Formatos de imagen V.
-<https://www.picuino.com/test/es-software-formatos-imagen-5.html>`__
+<../test/es-software-formatos-imagen-5.html>`__
 
 `Test de Formatos de imagen VI.
-<https://www.picuino.com/test/es-software-formatos-imagen-6.html>`__
+<../test/es-software-formatos-imagen-6.html>`__
 

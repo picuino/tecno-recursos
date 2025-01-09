@@ -10,7 +10,6 @@ Telégrafo de dos hilos
 
 .. image:: electronic/_images/electronic-bornas-telegrafo.png
    :width: 480px
-   :target: _downloads/electronic-bornas-telegrafo.pdf
 
 En esta práctica vamos a realizar un telégrafo con dos
 estaciones emisoras-receptoras de código morse.
@@ -24,11 +23,9 @@ mensajes, por eso se denomina duplex.
 Pero las estaciones no pueden emitir mensajes las dos
 al mismo tiempo, y por eso se denomina semi-duplex.
 
-
 La ficha para realizar la actividad tiene por una cara
 el esquema sin terminar, para que se complete a lápiz.
 Por la otra cara está el esquema completo ya terminado.
-
 
 |  :download:`Telégrafo cableado con bornas. Formato PDF.
    <electronic/electronic-bornas-telegrafo.pdf>`

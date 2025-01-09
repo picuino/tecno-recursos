@@ -244,7 +244,6 @@ con cortocircuito en la pila.
 .. image:: electric/_images/electric-serie-paralelo-logo.png
    :width: 540px
    :alt: Circuitos en serie, en paralelo y en cortocircuito.
-   :target: _downloads/electric-serie-paralelo.pdf
 
 |  :download:`Identificar circuitos en serie, paralelo y
    cortocircuito. Formato PDF.
@@ -261,5 +260,5 @@ Cuestionario de tipo test para identificar circuitos en serie,
 en paralelo, con cortocircuito en la pila o con cortocircuito en la bombilla.
 
   * `Cuestionario. Identificar serie y paralelo
-    <https://www.picuino.com/test/es-electric-series-parallel-identify.html>`__
+    <../test/es-electric-series-parallel-identify.html>`__
 

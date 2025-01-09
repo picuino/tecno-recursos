@@ -12,9 +12,8 @@ Presentación de las señales de seguridad y salud en el trabajo.
 .. image:: taller/taller-seniales-seguridad-portada.png
    :alt: Presentación de señales de seguridad y salud en el taller.
    :width: 480px
-   :target: _downloads/seniales-seguridad-salud.odp
 
-|
+
 |  :download:`Presentación de señales de seguridad y salud en el trabajo.
    Formato LibreOffice Impress ODP.
    <taller/seniales-seguridad-salud.odp>`

@@ -10,8 +10,6 @@ Conmutador e interruptor
 
 .. image:: electric/_images/electric-bornas-conmutador-interruptor.png
      :width: 463px
-     :target: _downloads/electric-bornas-conmutador-interruptor.pdf
-
 
 :download:`Circuito con un conmutador y un interruptor,
 cableado con bornas. Formato PDF.

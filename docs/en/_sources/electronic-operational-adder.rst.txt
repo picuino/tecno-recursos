@@ -90,7 +90,7 @@ Ejercicios
 
 #. Con ayuda del
    `simulador de circuitos
-   <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+   <../circuits/?startCircuit=empty.txt>`__
    dibuja el esquema de un amplificador operacional sumador
    basado en un amplificador operacional ideal que amplifique:
 

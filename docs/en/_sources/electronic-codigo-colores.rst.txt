@@ -166,6 +166,6 @@ Cuestionarios de tipo test para calcular el valor de las resistencias
 a partir del código de colores o para calcular los colores a partir
 del valor de la resistencia.
 
-  * `Cuestionario. Código de colores 1. Colores a valor. <https://www.picuino.com/test/es-electric-color-code-1.html>`__
-  * `Cuestionario. Código de colores 2. Valor a colores. <https://www.picuino.com/test/es-electric-color-code-2.html>`__
+  * `Cuestionario. Código de colores 1. Colores a valor. <../test/es-electric-color-code-1.html>`__
+  * `Cuestionario. Código de colores 2. Valor a colores. <../test/es-electric-color-code-2.html>`__
 

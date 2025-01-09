@@ -581,19 +581,19 @@ Test de la unidad
 -----------------
 
 `Test de Sistema Operativo I.
-<https://www.picuino.com/test/es-software-sistema-operativo-1.html>`__
+<../test/es-software-sistema-operativo-1.html>`__
 
 `Test de Sistema Operativo II.
-<https://www.picuino.com/test/es-software-sistema-operativo-2.html>`__
+<../test/es-software-sistema-operativo-2.html>`__
 
 `Test de Sistema Operativo III.
-<https://www.picuino.com/test/es-software-sistema-operativo-3.html>`__
+<../test/es-software-sistema-operativo-3.html>`__
 
 `Test de Sistema Operativo IV.
-<https://www.picuino.com/test/es-software-sistema-operativo-4.html>`__
+<../test/es-software-sistema-operativo-4.html>`__
 
 `Test de Sistema Operativo V.
-<https://www.picuino.com/test/es-software-sistema-operativo-5.html>`__
+<../test/es-software-sistema-operativo-5.html>`__
 
 `Test de Sistema Operativo VI.
-<https://www.picuino.com/test/es-software-sistema-operativo-6.html>`__
+<../test/es-software-sistema-operativo-6.html>`__

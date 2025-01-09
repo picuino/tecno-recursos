@@ -127,7 +127,7 @@ Test de la unidad
 -----------------
 
 `Test online del calibre y sus componentes.
-<https://www.picuino.com/test/es-mecan-calibre-partes.html>`__
+<../test/es-mecan-calibre-partes.html>`__
 
 `Test online de medidas con el calibre.
-<https://www.picuino.com/test/es-mecan-calibre-medidas.html>`__
+<../test/es-mecan-calibre-medidas.html>`__

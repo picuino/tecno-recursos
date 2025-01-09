@@ -240,7 +240,7 @@ Test de la unidad
 -----------------
 
 `Test de licencias de software I.
-<https://www.picuino.com/test/es-software-licencias-1.html>`__
+<../test/es-software-licencias-1.html>`__
 
 `Test de licencias de software II.
-<https://www.picuino.com/test/es-software-licencias-2.html>`__
+<../test/es-software-licencias-2.html>`__

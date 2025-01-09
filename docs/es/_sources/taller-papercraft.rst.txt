@@ -19,7 +19,6 @@ Figuras simples
 .. image:: taller/taller-figura-3d-01.png
    :alt: Figura en tres dimensiones sencilla.
    :width: 240px
-   :target: _downloads/taller-figura-3d-01.pdf
 
 |  :download:`Figura en 3D 01. Formato PDF.
    <taller/taller-figura-3d-01.pdf>`
@@ -30,7 +29,6 @@ Figuras simples
 .. image:: taller/taller-figura-3d-02.png
    :alt: Figura en tres dimensiones sencilla.
    :width: 240px
-   :target: _downloads/taller-figura-3d-02.pdf
 
 |  :download:`Figura en 3D 02. Formato PDF.
    <taller/taller-figura-3d-02.pdf>`
@@ -41,7 +39,6 @@ Figuras simples
 .. image:: taller/taller-figura-3d-03.png
    :alt: Figura en tres dimensiones de dificultad media.
    :width: 240px
-   :target: _downloads/taller-figura-3d-03.pdf
 
 |  :download:`Figura en 3D 03. Formato PDF.
    <taller/taller-figura-3d-03.pdf>`
@@ -52,7 +49,6 @@ Figuras simples
 .. image:: taller/taller-figura-3d-04.png
    :alt: Figura en tres dimensiones de dificultad media.
    :width: 240px
-   :target: _downloads/taller-figura-3d-04.pdf
 
 |  :download:`Figura en 3D 04. Formato PDF.
    <taller/taller-figura-3d-04.pdf>`
@@ -66,7 +62,6 @@ Figuras con rampas
 .. image:: taller/taller-figura-3d-05.png
    :alt: Figura en tres dimensiones con rampas, sencilla.
    :width: 240px
-   :target: _downloads/taller-figura-3d-05.pdf
 
 |  :download:`Figura en 3D 05. Formato PDF.
    <taller/taller-figura-3d-05.pdf>`
@@ -77,7 +72,6 @@ Figuras con rampas
 .. image:: taller/taller-figura-3d-06.png
    :alt: Figura en tres dimensiones con rampas, de dificultad media.
    :width: 240px
-   :target: _downloads/taller-figura-3d-06.pdf
 
 |  :download:`Figura en 3D 06. Formato PDF.
    <taller/taller-figura-3d-06.pdf>`
@@ -88,7 +82,6 @@ Figuras con rampas
 .. image:: taller/taller-figura-3d-07.png
    :alt: Figura en tres dimensiones con rampas, de dificultad media.
    :width: 240px
-   :target: _downloads/taller-figura-3d-07.pdf
 
 |  :download:`Figura en 3D 07. Formato PDF.
    <taller/taller-figura-3d-07.pdf>`

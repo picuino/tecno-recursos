@@ -262,4 +262,4 @@ Cuestionarios
 -------------
 
 * `Cuestionario. El circuito eléctrico.
-  <https://www.picuino.com/test/es-electric-circuits.html>`__
+  <../test/es-electric-circuits.html>`__

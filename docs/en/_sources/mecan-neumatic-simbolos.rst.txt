@@ -13,8 +13,6 @@ Ejercicios para dibujar y para nombrar e identificar los símbolos.
    :alt: Válvulas neumáticas de dos posiciones
    :width: 280px
    :align: center
-   :target: _downloads/neumatic-simbolos-nombres.pdf
-
 
 |  :download:`Ejercicio para dibujar y nombrar símbolos neumáticos. Formato PDF.
    <neumatic/neumatic-simbolos-nombres.pdf>`
@@ -31,6 +29,5 @@ Test de símbolos neumáticos
    :alt: Test de componentes neumáticos
    :width: 340px
    :align: center
-   :target: https://www.picuino.com/test/#neumatica
 
-`Test sobre neumática <https://www.picuino.com/test/#neumatica>`__
+`Test sobre neumática <../test/#neumatica>`__

@@ -91,7 +91,7 @@ Test de la unidad
 -----------------
 
 `Test de unidades de medida I.
-<https://www.picuino.com/test/es-hardware-unidades-1.html>`__
+<../test/es-hardware-unidades-1.html>`__
 
 `Test de unidades de medida II.
-<https://www.picuino.com/test/es-hardware-unidades-2.html>`__
+<../test/es-hardware-unidades-2.html>`__

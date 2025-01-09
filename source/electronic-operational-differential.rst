@@ -91,7 +91,7 @@ Ejercicios
 
 #. Con ayuda del
    `simulador de circuitos
-   <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+   <../circuits/?startCircuit=empty.txt>`__
    dibuja un amplificador diferencial basado en un amplificador operacional
    ideal. La resistencia de entrada diferencial debe valer 100k ohmios.
    La ganancia diferencial debe valer 10.

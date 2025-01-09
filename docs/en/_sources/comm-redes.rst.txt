@@ -13,7 +13,6 @@ Presentación para proyector sobre redes de datos.
 .. image:: comm/_images/comm-redes-datos.png
    :align: center
    :width: 640px
-   :target: _downloads/comm-redes-datos.pdf
 
 | :download:`Redes de datos. Formato PDF
   <comm/comm-redes-datos.pdf>`

@@ -104,7 +104,7 @@ Cuestionarios
 Cuestionarios de tipo test sobre las herramientas.
 
 * `Test de herramientas I
-  <https://www.picuino.com/test/es-material-tools-1.html>`__.
+  <../test/es-material-tools-1.html>`__.
 
 * `Test de herramientas II
-  <https://www.picuino.com/test/es-material-tools-2.html>`__.
+  <../test/es-material-tools-2.html>`__.

@@ -123,11 +123,9 @@ Láminas con figuras para dibujar a escala.
       :header-rows: 0
 
       * - .. image:: dibujo/_images/dibujo-escalas-01.png
-             :target: _downloads/dibujo-escalas-01.pdf
              :width: 240px
              :align: center
         - .. image:: dibujo/_images/dibujo-escalas-02.png
-             :target: _downloads/dibujo-escalas-02.pdf
              :width: 240px
              :align: center
 

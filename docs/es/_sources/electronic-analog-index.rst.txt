@@ -10,14 +10,14 @@ Electrónica analógica
 
 Teoría y ejercicios de electrónica analógica con
 `simulador online de circuitos
-<https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+<../circuits/?startCircuit=empty.txt>`__
 integrado.
 
 .. image:: electronic/_images/electronic-analog-logo.png
    :width: 480px
    :align: center
    :alt: Electrónica analógica
-   :target: /circuits/index.html?startCircuit=empty.txt
+   :target: ../circuits/?startCircuit=empty.txt
 
 .. toctree::
    :numbered: 1

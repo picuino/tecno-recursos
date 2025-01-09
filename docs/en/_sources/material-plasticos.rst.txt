@@ -240,10 +240,10 @@ Cuestionarios
 Cuestionarios de tipo test sobre los materiales plásticos.
 
 * `Materiales plásticos I.
-  <https://www.picuino.com/test/es-material-plastics-1.html>`__
+  <../test/es-material-plastics-1.html>`__
 
 * `Materiales plásticos II.
-  <https://www.picuino.com/test/es-material-plastics-2.html>`__
+  <../test/es-material-plastics-2.html>`__
 
 * `Materiales plásticos III.
-  <https://www.picuino.com/test/es-material-plastics-3.html>`__
+  <../test/es-material-plastics-3.html>`__

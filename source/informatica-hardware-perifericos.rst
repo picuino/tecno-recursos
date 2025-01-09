@@ -608,13 +608,13 @@ Test de la unidad
 -----------------
 
 `Test de periféricos I
-<https://www.picuino.com/test/es-hardware-perifericos-1.html>`__
+<../test/es-hardware-perifericos-1.html>`__
 
 `Test de periféricos II
-<https://www.picuino.com/test/es-hardware-perifericos-2.html>`__
+<../test/es-hardware-perifericos-2.html>`__
 
 `Test de periféricos III
-<https://www.picuino.com/test/es-hardware-perifericos-3.html>`__
+<../test/es-hardware-perifericos-3.html>`__
 
 `Test de periféricos IV
-<https://www.picuino.com/test/es-hardware-perifericos-4.html>`__
+<../test/es-hardware-perifericos-4.html>`__

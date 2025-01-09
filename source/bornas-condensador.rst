@@ -10,7 +10,6 @@ Carga y descarga de un condensador
 
 .. image:: electronic/_images/electronic-bornas-condensador.png
      :width: 410px
-     :target: _downloads/electronic-bornas-condensador.pdf
 
 En esta práctica vamos a comprobar cómo se carga y se
 descarga un condensador.

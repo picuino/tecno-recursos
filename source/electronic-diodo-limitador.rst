@@ -68,7 +68,7 @@ Ejercicios
    a la bobina.
 
    Utiliza el
-   `simulador de circuitos <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+   `simulador de circuitos <../circuits/?startCircuit=empty.txt>`__
    para comprobar que el circuito funciona correctamente.
 
 #. Añade en el circuito anterior un osciloscopio con la gráfica de la

@@ -152,7 +152,7 @@ Test de la unidad
 -----------------
 
 `Test de introducción al software I.
-<https://www.picuino.com/test/es-software-intro-1.html>`__
+<../test/es-software-intro-1.html>`__
 
 `Test de introducción al software II.
-<https://www.picuino.com/test/es-software-intro-2.html>`__
+<../test/es-software-intro-2.html>`__

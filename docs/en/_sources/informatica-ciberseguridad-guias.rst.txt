@@ -15,7 +15,6 @@ Guía de ciberataques a nivel usuario.
 
 .. image:: informatica/ciberataques-guia-osi-portada.png
    :align: center
-   :target: _downloads/ciberataques-guia-osi.pdf
 
 :download:`Guía de ciberataques <informatica/ciberataques-guia-osi.pdf>`
 
@@ -42,7 +41,6 @@ Guía de Privacidad y Seguridad en Internet
 
 .. image:: informatica/guia-privacidad-seguridad-internet.png
    :align: center
-   :target: _downloads/guia-privacidad-seguridad-internet.pdf
 
 :download:`Guía de Privacidad y Seguridad en Internet
 <informatica/guia-privacidad-seguridad-internet.pdf>`

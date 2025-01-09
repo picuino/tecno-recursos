@@ -13,8 +13,6 @@ a distancia.
 
 .. image:: comm/_images/comm-timeline.png
    :width: 700px
-   :target: _downloads/comm-timeline.pdf
-
 
 Entre los principales inventos relacionados con las comunicaciones
 están los métodos para representar la información en medios físicos.

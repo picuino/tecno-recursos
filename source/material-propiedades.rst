@@ -392,8 +392,8 @@ Cuestionarios
 Cuestionarios de tipo test sobre las propiedades de los materiales.
 
 * `Propiedades de los materiales I
-  <https://www.picuino.com/test/es-material-properties-1.html>`__.
+  <../test/es-material-properties-1.html>`__.
 * `Propiedades de los materiales II
-  <https://www.picuino.com/test/es-material-properties-2.html>`__.
+  <../test/es-material-properties-2.html>`__.
 * `Propiedades de los materiales III
-  <https://www.picuino.com/test/es-material-properties-3.html>`__.
+  <../test/es-material-properties-3.html>`__.

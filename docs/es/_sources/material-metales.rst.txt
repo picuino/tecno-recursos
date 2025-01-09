@@ -422,13 +422,13 @@ Cuestionarios
 Cuestionarios de tipo test sobre los materiales metálicos.
 
 * `Materiales metálicos I.
-  <https://www.picuino.com/test/es-material-metals-1.html>`__
+  <../test/es-material-metals-1.html>`__
 
 * `Materiales metálicos II.
-  <https://www.picuino.com/test/es-material-metals-2.html>`__
+  <../test/es-material-metals-2.html>`__
 
 * `Materiales metálicos III.
-  <https://www.picuino.com/test/es-material-metals-3.html>`__
+  <../test/es-material-metals-3.html>`__
 
 * `Materiales metálicos IV.
-  <https://www.picuino.com/test/es-material-metals-4.html>`__
+  <../test/es-material-metals-4.html>`__

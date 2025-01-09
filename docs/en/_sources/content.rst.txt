@@ -12,10 +12,10 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
 
 Índice de páginas y mapa de la web.
 
-* `Página de inicio. <https://www.picuino.com/es/>`__
-* `Manifiesto. <https://www.picuino.com/es/manifiesto.html>`__
-* `Test de Tecnología. <https://www.picuino.com/test/>`__
-* `Simulador de circuitos. <https://www.picuino.com/circuits/>`__
+* `Página de inicio. <../es/index.html>`__
+* `Manifiesto. <../es/manifiesto.html>`__
+* `Test de Tecnología. <../test/>`__
+* `Simulador de circuitos. <../circuits/>`__
 * `Proyecto en GitHub. <https://github.com/picuino/tecno-recursos>`__
 
 .. toctree::

@@ -512,11 +512,11 @@ Cuestionarios
 Cuestionarios sobre la energía eléctrica.
 
 * `Cuestionario. Energía eléctrica I.
-  <https://www.picuino.com/test/es-electric-energy-1.html>`__
+  <../test/es-electric-energy-1.html>`__
 * `Cuestionario. Energía eléctrica II.
-  <https://www.picuino.com/test/es-electric-energy-2.html>`__
+  <../test/es-electric-energy-2.html>`__
 * `Cuestionario. Cálculos con energía eléctrica.
-  <https://www.picuino.com/test/es-electric-energy-calc.html>`__
+  <../test/es-electric-energy-calc.html>`__
 
 
 -------------

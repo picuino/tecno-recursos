@@ -16,10 +16,10 @@ Teoría sobre neumática
 
 Libro del CIDEAD
    `Neumática e hidráulica I.
-   <https://www.picuino.com/_static/4esotecno/quincena9/pdf/quincena9.pdf>`__
+   <../_static/4esotecno/quincena9/pdf/quincena9.pdf>`__
 
    `Neumática e hidráulica II.
-   <https://www.picuino.com/_static/4esotecno/quincena10/pdf/quincena10.pdf>`__
+   <../_static/4esotecno/quincena10/pdf/quincena10.pdf>`__
 
 Web Portal ESO
    `Unidad didáctica neumática e hidráulica (PDF).

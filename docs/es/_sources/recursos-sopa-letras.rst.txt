@@ -15,9 +15,7 @@ con 10 palabras escogidas entre los conceptos aprendidos en un tema.
    :alt: Hoja para que los alumnos puedan crear una sopas de letras.
    :width: 640px
    :align: center
-   :target: _downloads/sopa-letras-256.pdf
 
-|
 |  :download:`Sopa de letras con 16x16 huecos. Formato PDF.
    <recursos/sopa-letras-256.pdf>`
 |  :download:`Sopa de letras con 16x16 huecos. Formato editable ODT.

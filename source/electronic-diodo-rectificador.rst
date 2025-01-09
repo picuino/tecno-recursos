@@ -108,7 +108,7 @@ Ejercicios
 
 #. Realiza en el
    `simulador de circuitos
-   <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+   <../circuits/?startCircuit=empty.txt>`__
    un rectificador de onda completa de una línea trifásica como el que
    aparece en la siguiente imagen.
 

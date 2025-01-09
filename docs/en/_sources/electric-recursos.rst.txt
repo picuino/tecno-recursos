@@ -12,7 +12,7 @@ Cuestionarios de electricidad
 -----------------------------
 
 `Test de electricidad.
-<https://www.picuino.com/test/index.html#electricidad>`__
+<../test/index.html#electricidad>`__
 
 
 Fritzing
@@ -38,7 +38,7 @@ Simuladores
 -----------
 
 * `Simulador de circuitos eléctricos y electrónicos online.
-  <https://www.picuino.com/circuits/>`__
+  <../circuits/>`__
 
   | Electronic Circuit Simulator in the Browser
   | Creador: Paul Falstad con contribución de Iain Sharp entre otros.

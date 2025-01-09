@@ -124,7 +124,7 @@ Ejercicios
 
 #. Diseña en el
    `simulador de circuitos
-   <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+   <../circuits/?startCircuit=empty.txt>`__
    una fuente de corriente negativa constante.
    La forma del circuito será igual que la fuente simulada anterior,
    pero utilizando transistores PNP y conectando el circuito en

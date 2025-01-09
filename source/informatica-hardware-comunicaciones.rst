@@ -804,14 +804,14 @@ Test de la unidad
 -----------------
 
 `Test de comunicaciones I.
-<https://www.picuino.com/test/es-hardware-comunicaciones-1.html>`__
+<../test/es-hardware-comunicaciones-1.html>`__
 
 `Test de comunicaciones II.
-<https://www.picuino.com/test/es-hardware-comunicaciones-2.html>`__
+<../test/es-hardware-comunicaciones-2.html>`__
 
 `Test de comunicaciones III.
-<https://www.picuino.com/test/es-hardware-comunicaciones-3.html>`__
+<../test/es-hardware-comunicaciones-3.html>`__
 
 `Test de comunicaciones IV.
-<https://www.picuino.com/test/es-hardware-comunicaciones-4.html>`__
+<../test/es-hardware-comunicaciones-4.html>`__
 

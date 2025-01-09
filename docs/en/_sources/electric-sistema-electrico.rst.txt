@@ -40,7 +40,6 @@ Se adjunta una plantilla para realizar los gráficos de tarta.
 .. figure:: electric/sistema-electrico-espanol/diagrama-circular.png
    :width: 480px
    :align: center
-   :target: _downloads/diagrama-circular.pdf
 
 | :download:`Diagrama circular de porcentajes.
   Formato PDF. <electric/sistema-electrico-espanol/diagrama-circular.pdf>`

@@ -134,4 +134,4 @@ Test de la unidad
 -----------------
 
 `Test de la placa base.
-<https://www.picuino.com/test/es-hardware-placa-base.html>`__
+<../test/es-hardware-placa-base.html>`__

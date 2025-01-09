@@ -11,7 +11,7 @@ Libro 4ºESO Tecnología del CIDEAD
 .. image:: ../_static/4esotecno/imagen/logocidead.png
    :alt: Logotipo del CIDEAD
    :align: center
-   :target: https://www.picuino.com/_static/4esotecno/index.html
+   :target: ../_static/4esotecno/index.html
 
 Libro de Tecnología para 4º curso de la ESO del
 `CIDEAD <https://www.educacionyfp.gob.es/mc/cidead/portada.html>`__
@@ -107,11 +107,11 @@ Cuestiones para trabajar
   :download:`Unidad 1: Preguntas (Word)
   <4esotecno/UD1_Preguntas_Historia_tecnologia.doc>`
 
-  `Cuestionarios tipo test de la Unidad 1. <https://www.picuino.com/test/index.html#tecnologia>`__
+  `Cuestionarios tipo test de la Unidad 1. <../test/index.html#tecnologia>`__
 
 * Unidad 2: Los objetos técnicos y la sociedad
 
-  `Cuestionarios tipo test de la Unidad 2. <https://www.picuino.com/test/index.html#tecnologia>`__
+  `Cuestionarios tipo test de la Unidad 2. <../test/index.html#tecnologia>`__
 
 
 Simulador de neumática

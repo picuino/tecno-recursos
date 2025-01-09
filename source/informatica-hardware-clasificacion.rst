@@ -300,7 +300,7 @@ Test de la unidad
 -----------------
 
 `Test de clasificación de ordenadores I.
-<https://www.picuino.com/test/es-hardware-clasificacion-1.html>`__
+<../test/es-hardware-clasificacion-1.html>`__
 
 `Test de clasificación de ordenadores II.
-<https://www.picuino.com/test/es-hardware-clasificacion-2.html>`__
+<../test/es-hardware-clasificacion-2.html>`__

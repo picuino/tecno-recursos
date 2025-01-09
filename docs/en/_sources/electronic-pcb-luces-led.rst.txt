@@ -14,7 +14,6 @@ Diseño y montaje de un sencillo circuito impreso con 6 luces led parpadeantes.
    :width: 480px
    :align: center
    :alt: Circuito impreso con luces led, ya montado.
-   :target: _downloads/electronic-pcb-luces-led-03.jpg
 
 :download:`Placa de circuito impreso ya montada. Formato JPG.
 <electronic/_images/electronic-pcb-luces-led-03.jpg>`

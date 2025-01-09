@@ -340,8 +340,8 @@ Cuestionarios
 Cuestionarios de tipo test sobre los materiales pétreos.
 
 * `Los materiales pétreos I
-  <https://www.picuino.com/test/es-material-stone-1.html>`__.
+  <../test/es-material-stone-1.html>`__.
 * `Los materiales pétreos II
-  <https://www.picuino.com/test/es-material-stone-2.html>`__.
+  <../test/es-material-stone-2.html>`__.
 * `Los materiales pétreos III
-  <https://www.picuino.com/test/es-material-stone-3.html>`__.
+  <../test/es-material-stone-3.html>`__.

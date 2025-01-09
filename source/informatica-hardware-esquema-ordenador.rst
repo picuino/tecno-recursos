@@ -74,7 +74,7 @@ Test de la unidad
 -----------------
 
 `Test de hardware de un ordenador personal I.
-<https://www.picuino.com/test/es-hardware-pc-1.html>`__
+<../test/es-hardware-pc-1.html>`__
 
 `Test de hardware de un ordenador personal II.
-<https://www.picuino.com/test/es-hardware-pc-2.html>`__
+<../test/es-hardware-pc-2.html>`__

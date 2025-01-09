@@ -17,7 +17,7 @@ ganancia y lo más ideal posible.
    :align: center
    :alt: Símbolo del amplificador operacional.
 
-   Símbolo del amplificador operacional.
+   Símbolo del amplificador operacional ideal.
 
 Un amplificador operacional tiene **dos entradas** diferenciales señaladas
 con los símbolos ``+`` y ``-`` y **una salida** en la punta del triángulo.
@@ -97,7 +97,7 @@ led verde de la salida.
 Ejercicios
 ----------
 
-#. Dibuja el símbolo de un amplificador operacional.
+#. Dibuja el símbolo de un amplificador operacional ideal.
 
 #. ¿Cuántos terminales tiene un amplificador operacional real?
    ¿Para que sirve cada uno?

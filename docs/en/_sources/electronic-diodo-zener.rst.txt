@@ -81,7 +81,7 @@ Ejercicios
 
    Con ayuda del
    `simulador de circuitos
-   <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__
+   <../circuits/?startCircuit=empty.txt>`__
    ajusta la resistencia de polarización del diodo zener para que conduzca
    aproximadamente 20 miliamperios.
 
@@ -89,7 +89,7 @@ Ejercicios
 
 #. Realiza el circuito de la siguiente imagen con el
    `simulador de circuitos
-   <https://www.picuino.com/circuits/?startCircuit=empty.txt>`__.
+   <../circuits/?startCircuit=empty.txt>`__.
 
    Este circuito es una fuente de alimentación lineal regulada.
    Tiene un rectificador de onda completa con condensador de filtro y un

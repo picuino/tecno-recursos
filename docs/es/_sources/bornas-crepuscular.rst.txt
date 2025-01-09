@@ -10,7 +10,6 @@ Sensor crepuscular
 
 .. image:: electronic/_images/electronic-bornas-crepuscular.png
      :width: 433px
-     :target: _downloads/electronic-bornas-crepuscular.pdf
 
 En esta práctica vamos a realizar un sensor de luz
 con una resistencia LDR y un transistor NPN.

@@ -336,8 +336,8 @@ Cuestionarios
 Cuestionarios sobre resolución de circuitos.
 
 * `Cuestionario. Resolver circuitos I.
-  <https://www.picuino.com/test/es-electric-resolver-circuitos-1.html>`__
+  <../test/es-electric-resolver-circuitos-1.html>`__
 * `Cuestionario. Resolver circuitos II.
-  <https://www.picuino.com/test/es-electric-resolver-circuitos-2.html>`__
+  <../test/es-electric-resolver-circuitos-2.html>`__
 
 

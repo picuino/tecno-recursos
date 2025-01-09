@@ -205,7 +205,7 @@ Cuestionarios
 Cuestionarios sobre la potencia eléctrica.
 
 * `Cuestionario. Cálculos de potencia eléctrica.
-  <https://www.picuino.com/test/es-electric-power.html>`__
+  <../test/es-electric-power.html>`__
 
 
 ----
