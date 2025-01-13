@@ -79,7 +79,7 @@ Capacidades y velocidades típicas
 
  * Un disco duro típico tiene una capacidad de varios **terabytes**.
 
- * Un cluster de ordenadores puede alcanzar varios **petabytes** de
+ * Un clúster de ordenadores puede alcanzar varios **petabytes** de
    capacidad.
 
  * Se calcula que en 2020 la capacidad de almacenamiento total de
