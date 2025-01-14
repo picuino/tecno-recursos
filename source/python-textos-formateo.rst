@@ -24,99 +24,133 @@ Ejemplo::
 
    >>> nombre = 'Guido'
    >>> apellido = 'van Rossum'
-   >>> f'El creador de Python es {nombre} {apellido}'
-       'El creador de Python es Guido van Rossum'
+   >>> print(f'El creador de Python es {nombre} {apellido}')
+       El creador de Python es Guido van Rossum
 
-   >>> numero = 7
-   >>> f'James Bond es el agente {numero:03d}'
-       'James Bond es el agente 007'
+   >>> num = 7
+   >>> print(f'James Bond es el agente {num:03d}')
+       James Bond es el agente 007
 
 
 Ejercicios
 ----------
 
-#. Repite el siguiente ejercicio con tu propio nombre.
+#. Repite el siguiente ejercicio cambiando el valor de la variable 
+   'nombre' con tu propio nombre.
 
    Ejercicio::
 
-      >>> nombre = 'Anselmo'
-      >>> f'{nombre:>20}'    # Justificado a la derecha
-          '             Anselmo'
-      >>> f'{nombre:<20}'    # Justificado a la izquierda
-          'Anselmo             '
-      >>> f'{nombre:^20}'    # Centrado
-          '      Anselmo       '
-      >>> f'{nombre:_^20}'   # Centrado con relleno '_'
-          '______Anselmo_______'
+      nombre = 'Anselmo'
+      print(f'{nombre:>20}')    # Justificado a la derecha
+      print(f'{nombre:<20}')    # Justificado a la izquierda
+      print(f'{nombre:^20}')    # Centrado
+      print(f'{nombre:_^20}')   # Centrado con relleno '_'
+
+   Salida::
+
+                   Anselmo
+      Anselmo             
+            Anselmo       
+      ______Anselmo_______
 
 
-#. Repite el siguiente ejercicio con la variable número ``numero = 72``.
+#. Repite el siguiente ejercicio cambiando el valor de la variable
+   ``num = 78``.
    En la última línea cambia el número por tu año de nacimiento.
 
    Ejercicio::
 
-      >>> nmr = 44
-      >>> f'{nmr:10d}'    # Formato decimal entero. Longitud 10
-          '        44'
-      >>> f'{nmr:+10d}'   # Formato decimal entero con signo. Longitud 10
-          '       +44'
-      >>> f'{nmr:10X}'    # Formato hexadecimal en mayúsculas. Longitud 10
-          '        2C'
-      >>> f'{nmr:010b}'   # Formato binario con ceros a la izquierda. Longitud 10
-          '0000101100'
-      >>> f'{nmr:c}'      # Formato de número a Unicode
-          ','
-      >>> f'{128512:c}'   # Formato de número a Unicode
-          '😀'
-      >>> f'{2023:c}'     # Formato de número a Unicode
-          'ߧ'
+      num = 44
+      print(f'{num:10d}')    # Formato decimal entero. Longitud 10
+      print(f'{num:+10d}')   # Formato decimal entero con signo. Longitud 10
+      print(f'{num:10X}')    # Formato hexadecimal en mayúsculas. Longitud 10
+      print(f'{num:010b}')   # Formato binario con ceros a la izquierda. Longitud 10
 
 
-#. Repite el siguiente ejercicio con la variable ``e = 2,71828``.
+   Salida::
+
+              44
+             +44
+              2C
+      0000101100
+
+#. Repite el siguiente ejercicio con la variable ``e = 2.718281828``.
    Recuerda que en Python los decimales siempre se separan con un punto,
    no con una coma.
 
    Ejercicio::
 
-      >>> pi = 3.14159
-      >>> # Número de punto flotante con 10 espacios en total y 3 decimales
-      >>> f'{pi:10.3f}'
-          '     3.142'
-      >>> f'{pi:010.3f}' # Igual que el primero, con ceros a la izquierda
-          '000003.142'
-      >>> f'{pi:10.0f}'  # Igual que el primero, con cero decimales
-          '         3'
-      >>> f'{pi:10.4e}'  # Igual que el primero, en notación científica
-          ' 3.142e+00'
+      pi = 3.14159
+      # Número de punto flotante que ocupa 10 espacios en total y tiene 3 decimales
+      print(f'{pi:10.3f}')
+      print(f'{pi:010.5f}') # Cinco decimales y ceros a la izquierda
+      print(f'{pi:10.0f}')  # Igual que el primero, con cero decimales
+      print(f'{pi:10.4e}')  # Igual que el primero, en notación científica
+
+
+   Salida::
+
+           3.142
+      0003.14159
+               3
+       3.142e+00
+
+
+#. Repite el siguiente ejercicio cambiando el valor de los números 
+   utilizados para que aparezcan otros caracteres Unicode.
+
+   Ejercicio::
+
+      print(f'{78:c}')      # Formato de carácter Unicode
+      print(f'{128520:c}')  # Formato de carácter Unicode
+      print(f'{250:c}')     # Formato de carácter Unicode
+      print(f'{2023:c}')    # Formato de carácter Unicode
+
+   Salida::
+
+      N
+      😀
+      ú
+      ߧ
 
 
 #. Escribe un programa que pida un carácter por el teclado y que devuelva
-   los siguientes 10 caracteres Unicode.
+   los siguientes 20 caracteres Unicode.
 
    Utiliza la función ``ord()`` para convertir el carácter en su número
    Unicode.
 
    Pista::
 
-       caracter = input('Introduce un caracter: ')
-       numero = ord(caracter[0])
-       for code in range(numero + 1, numero + 11):
-           print(f'Código: ...  caracter: ... ')
+       char = input('Introduce un carácter: ')
+       num = ord(char[0])
+       for code in range(num + 1, num + 21):
+           print(f'Código: ...  carácter: ... ')
 
 
    Salida::
 
-      Introduce un caracter: ç
-      Código: 0x000E8 caracter: è
-      Código: 0x000E9 caracter: é
-      Código: 0x000EA caracter: ê
-      Código: 0x000EB caracter: ë
-      Código: 0x000EC caracter: ì
-      Código: 0x000ED caracter: í
-      Código: 0x000EE caracter: î
-      Código: 0x000EF caracter: ï
-      Código: 0x000F0 caracter: ð
-      Código: 0x000F1 caracter: ñ
+       Introduce un carácter: ñ
+       Código: 242  carácter: ò
+       Código: 243  carácter: ó
+       Código: 244  carácter: ô
+       Código: 245  carácter: õ
+       Código: 246  carácter: ö
+       Código: 247  carácter: ÷
+       Código: 248  carácter: ø
+       Código: 249  carácter: ù
+       Código: 250  carácter: ú
+       Código: 251  carácter: û
+       Código: 252  carácter: ü
+       Código: 253  carácter: ý
+       Código: 254  carácter: þ
+       Código: 255  carácter: ÿ
+       Código: 256  carácter: Ā
+       Código: 257  carácter: ā
+       Código: 258  carácter: Ă
+       Código: 259  carácter: ă
+       Código: 260  carácter: Ą
+       Código: 261  carácter: ą
 
 
    Prueba a introducir diferentes caracteres desde el teclado.
@@ -124,30 +158,29 @@ Ejercicios
    cirílicas, etc.
 
 
-#. Escribe una función que devuelva el valor de un color RGB en
-   Hexadecimal. Los tres parámetros de la función serán tres números
+#. Escribe una función que imprima el valor de un color RGB en
+   hexadecimal. Los tres parámetros de la función serán tres números
    decimales R, G y B (Red, Green y Blue) que deben estar en el rango
    de 0 a 255.
-   Si algún número es mayor de 255 o menor de 0 se debe recortar al valor
-   permitido.
-
-   Pista: define una función que limite el valor de cada número y lo
-   formatee a formato hexadecimal. Luego puedes definir una segunda
-   función que llame tres veces a la primera función con los valores
-   de los tres colores.
 
    Recuerda que los valores hexadecimales deben estar en mayúsculas y
    tener dos cifras obligatoriamente.
-   La manera de convertir una variable a hexadecimal con dos cifras es
-   añadir a la variable el siguiente formato: ``f'{variable:02X}'``.
+   La manera de convertir una variable a hexadecimal que tenga siempre
+   dos cifras es añadir a la variable el siguiente formato: 
+   ``f'{variable:02X}'``.
 
 
    Ejemplo::
+      
+      def color_hex(red, green, blue):
+         print(f' ... ')
 
-      rgb(128, 196, 4)
-      rgb(500, -5, 64)
+
+      color_hex(128, 196, 4)
+      color_hex(250, 5, 64)
+
 
    Salida::
 
-      80C404
-      FF0040
+      #80C404
+      #FA0540
