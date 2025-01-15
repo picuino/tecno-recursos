@@ -16,16 +16,31 @@ Son polímeros fabricados a partir del gas natural o del petróleo refinado.
 
 :index:`Polímeros`
 ------------------
-Los polímeros son grandes moléculas compuestas por varias unidades
-llamadas monómeros que se repiten muchas veces a lo largo de cadenas
-como las cuentas de un collar.
+Los `polímeros <https://es.wikipedia.org/wiki/Pol%C3%ADmero>`__
+son grandes moléculas compuestas por muchas pequeñas moléculas, iguales
+entre sí, llamadas monómeros.
 
-Los monómeros son pequeñas moléculas que se unen a otros monómeros
-en largas cadenas formadas por la unión de hasta de miles de elementos.
-Estas cadenas pueden ser lineales, tener ramificaciones o en forma de red.
+.. figure:: material/_images/material-polimero.jpg
+   :width: 240px
+   :alt: Fotografía de un polímero real usando un microscopio de fuerza atómica.
+   :align: center
 
-Generalmente son compuestos basados en uniones de carbono, llamados
-compuestos orgánicos.
+   Fotografía de un polímero real usando un microscopio de fuerza atómica.
+
+   `Yurko <https://commons.wikimedia.org/wiki/File:Single_Polymer_Chains_AFM.jpg>`__,
+   `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+   via Wikimedia Commons.
+
+
+Los `monómeros <https://es.wikipedia.org/wiki/Mon%C3%B3mero>`__ son
+pequeñas moléculas que se unen entre sí en largas cadenas formadas por
+la unión de hasta de miles de elementos.
+Estas largas cadenas pueden ser lineales, tener ramificaciones o
+en forma de red.
+
+Los polímeros generalmente son compuestos basados en uniones de átomos
+de carbono, llamados compuestos orgánicos, aunque también pueden estar
+basados en uniones de átomos de silicio, llamados siliconas.
 
 
 Propiedades de los plásticos
@@ -101,34 +116,73 @@ Propiedades ecológicas de los plásticos
 Se pueden fundir o derretir a temperaturas no muy altas y vuelven a
 endurecerse cuando se enfrían.
 
-Tereftalato de polietileno (PET)
+`Tereftalato de polietileno (PET) <https://es.wikipedia.org/wiki/Tereftalato_de_polietileno>`__
    Muy usado en envases de bebidas y textiles.
 
-Polietileno (PE)
+   .. figure:: material/_images/material-pet.jpg
+      :width: 240px
+      :alt: Botella de agua mineral, fabricada con PET.
+      :align: center
+
+      Botella de agua mineral, fabricada con PET.
+
+      `Feralbt <https://commons.wikimedia.org/wiki/File:Botella_de_pl%C3%A1stico_-_PET.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.
+
+`Polietileno (PE) <https://es.wikipedia.org/wiki/Polietileno>`__
    Es uno de los plásticos más comunes por su bajo precio.
    Se usa en bolsas, film transparente, tuberías, envases, etc.
 
-   Hay dos grandes tipos de polietileno, el de alta densidad **PEAD**
-   y el de baja densidad **PEBD**.
+   Hay dos grandes tipos de polietileno que se diferencian por su densidad:
 
-Cloruro de polivinilo (PVC)
+      * Polietileno de alta densidad **PEAD**
+      * Polietileno de baja densidad **PEBD**
+
+`Cloruro de polivinilo (PVC) <https://es.wikipedia.org/wiki/Cloruro_de_polivinilo>`__
    PVC rígido: se utiliza en envases, ventanas, tuberías.
 
-   PVC flexible: se utiliza en cables, juguetes, calzados, suelos,
-   recubrimientos.
+   PVC flexible: se utiliza para fabricar recubrimiento de cables,
+   juguetes, calzados, suelos, etc.
+   
+   
+   
 
-Polipropileno (PP)
+`Polipropileno (PP) <https://es.wikipedia.org/wiki/Polipropileno>`__
    Es el plástico más utilizado después del Polietileno.
 
-   Se utiliza para envases de alimentos, láminas transparentes, tejidos,
-   etc.
+   Se utiliza para fabricar envases de alimentos, láminas transparentes,
+   tejidos, etc.
 
-Poliestireno (PS)
+   .. figure:: material/_images/material-polipropileno.jpg
+      :width: 320px
+      :alt: Caja de CD hecha de polipropileno.
+      :align: center
+
+      Caja de CD hecha de polipropileno.
+
+      `Hispalois <https://commons.wikimedia.org/wiki/File:Caja_CD_polipropileno.JPG>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.
+
+`Poliestireno (PS) <https://es.wikipedia.org/wiki/Poliestireno>`__
    Este plástico se funde con temperaturas relativamente bajas (100ºC).
 
-   Se utiliza en envases de yogur, maquinillas de afeitar,
-   poliestireno expandido ("corcho blanco" o poliexpan) para aislamientos
-   y protección.
+   Se utiliza para fabricar envases de yogur, maquinillas de afeitar,
+   poliestireno expandido ("corcho blanco" o poliexpan) aislante
+   y de protección.
+
+   .. figure:: material/_images/material-poliexpan.jpg
+      :width: 320px
+      :alt: Poliestireno expandido o poliexpan, también llamado "corcho blanco".
+      :align: center
+
+      Poliestireno expandido o poliexpan, también llamado "corcho blanco".
+
+      `Phyrexian <https://commons.wikimedia.org/wiki/File:Polistirolo.JPG>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.
+
 
 Símbolos de reciclaje
    Los termoplásticos suelen identificarse con un símbolo que indica
@@ -142,29 +196,30 @@ Símbolos de reciclaje
 :index:`Termoplásticos de altas prestaciones`
 ---------------------------------------------
 Son termoplásticos con mejores prestaciones mecánicas y de resistencia
-al calor que los termoplásticos habituales.
+al calor que los termoplásticos comunes.
 
-Nailon
+`Nailon <https://es.wikipedia.org/wiki/Nailon>`__
    Se usa para hacer hilos muy resistentes como los de las medias,
    los paracaídas, el interior de los neumáticos, etc.
    También para fabricar mecanismos como engranajes y cojinetes,
    cremalleras, etc.
 
-Teflón
-   Es prácticamente inerte por lo que no reacciona con otras sustancias.
-   Tiene muy bajo rozamiento, es antiadherente y resiste temperaturas hasta
-   270ºC.
+`Teflón <https://es.wikipedia.org/wiki/Tefl%C3%B3n>`__
+   El politetrafluoroetileno, más conocido como teflón, es un polímero
+   prácticamente inerte, por lo que no reacciona con otras sustancias.
+   Tiene muy bajo rozamiento, es antiadherente y resiste temperaturas
+   hasta 270ºC.
 
    Se usa como recubrimiento de sartenes, cintas para evitar fugas de agua
    en las roscas de grifos, mecanismos que no necesitan lubricación, etc.
 
-Policarbonato
+`Policarbonato <https://es.wikipedia.org/wiki/Policarbonato>`__
    Es muy transparente y muy resistente a los impactos por lo que se
    utiliza como sustituto del vidrio. Con él se fabrican CD, DVD, ventanas,
    cristales antibalas, escudos antidisturbios, viseras de casco de
    motorista, paneles de separación COVID, etc.
 
-Metacrilato
+`Metacrilato <https://es.wikipedia.org/wiki/Polimetacrilato_de_metilo>`__
    Es todavía más transparente que el policarbonato. De 10 a 20 veces más
    resistente al impacto que el vidrio, resiste a la intemperie y a la
    radiación ultravioleta.
@@ -179,7 +234,7 @@ No se funden una vez fabricados.
 Si la temperatura aumenta mucho se degradan sin fundirse, igual que la
 madera.
 
-Baquelita
+`Baquelita <https://es.wikipedia.org/wiki/Baquelita>`__
    Fue el primer plástico sintético, creado en 1907.
    Se puede fundir y moldear durante su fabricación, pero una vez
    solidificada no se podrá fundir de nuevo.
@@ -187,12 +242,12 @@ Baquelita
    Aún hoy usa para fabricar mangos de sartén y asas para enseres de
    cocina, terminales eléctricos, etc.
 
-Melamina
+`Melamina <https://es.wikipedia.org/wiki/Melamina>`__
    Su uso más conocido es para cubrir la madera aglomerada junto a papel
    de colores o imitación a madera. A los muebles que utilizan esta técnica
    se les llama también muebles de melamina.
 
-Resina epoxi
+`Resina epoxi <https://es.wikipedia.org/wiki/Epoxi>`__
    Se usa para hacer adhesivos de dos componentes muy resistentes con los
    que se fabrican aviones, automóviles, material deportivo, etc.
 
@@ -201,7 +256,7 @@ Resina epoxi
    de automóviles de carreras, contenedores de vidrio, placas de circuito
    impreso, etc.
 
-Poliuretano
+`Poliuretano <https://es.wikipedia.org/wiki/Poliuretano>`__
    Su uso más conocido es la fabricación de espumas adhesivas que sirven
    como aislante térmico de paredes o para pegar marcos de puertas y
    ventanas con gran capacidad de relleno de huecos.
@@ -209,24 +264,26 @@ Poliuretano
 
 :index:`Elastómeros`
 --------------------
-Son polímeros con una gran elasticidad.
+Son polímeros con una gran elasticidad, es decir que se pueden estirar
+mucho al aplicar fuerza y, al cesar la fuerza, recuperan su tamaño
+inicial.
 
-Látex
+`Látex <https://es.wikipedia.org/wiki/L%C3%A1tex>`__
    Es de origen natural, una resina que se extrae del árbol siringa
    (Hevea brasiliensis).
 
    Se usa en guantes, preservativos, colchones, ropa, pelotas,
    neumáticos, chicles, etc.
 
-Neopreno
+`Neopreno <https://es.wikipedia.org/wiki/Neopreno>`__
    Su uso más conocido es la fabricación de ropa y botas para el agua que
    son aislantes térmicos (trajes de buceo).
 
    También sirve para hacer cinta adhesiva, fundas protectoras, sacos de
    dormir, etc.
 
-Siliconas
-   La mayoría de los polímeros son compuestos orgánicos porque están
+`Silicona <https://es.wikipedia.org/wiki/Silicona>`__
+   La mayoría de los polímeros son compuestos orgánicos, porque están
    basados en largas cadenas de carbono.
    Por el contrario las siliconas se basan en largas cadenas de silicio,
    formando polímeros inorgánicos.
