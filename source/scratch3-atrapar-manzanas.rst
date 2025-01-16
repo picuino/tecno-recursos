@@ -239,3 +239,14 @@ Retos
 
 #. Modifica el programa para que el número de rayos aumente con el
    tiempo, de manera que el juego se haga cada vez más difícil.
+
+   Para conseguirlo, debes crear una nueva variable llamada
+   Tiempo_entre_rayos. La variable debe iniciarse a 2 (dos segundos)
+   al presionar la bandera verde. Al cabo de 10 segundos,
+   cambiaremos el valor de la variable a 1 (un segundo).
+   Después de otros 10 segundos cambiaremos el valor de la variable
+   a 0.5 (medio segundo).
+
+   Para que los rayos aparezcan a diferentes velocidades, debes
+   cambiar el tiempo de espera entre creación de rayos por el valor
+   de la variable 'Tiempo_entre_rayos'.
