@@ -105,6 +105,7 @@ Ejercicios
 Ejercicios sencillos para calcular circuitos con la ley de Ohm.
 
 .. figure:: electric/_images/electric-ley-ohm-01.png
+   :align: center
    :width: 303px
 
 :download:`Ejercicios de la ley de Ohm. Formato PDF
