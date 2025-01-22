@@ -27,12 +27,16 @@ $(IMGDIR)/electric-cableado-1.png: electric-cableado.pdf
 	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-1.png
 	mv $(basename $<)-000002.png  $(IMGDIR)/$(basename $<)-2.png
 	mv $(basename $<)-000003.png  $(IMGDIR)/$(basename $<)-3.png
+	mv $(basename $<)-000004.png  $(IMGDIR)/$(basename $<)-4.png
 	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-1.png
 	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-2.png
 	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-3.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-4.png
 	$(OPTIPNG) $(IMGDIR)/$(basename $<)-1.png
 	$(OPTIPNG) $(IMGDIR)/$(basename $<)-2.png
 	$(OPTIPNG) $(IMGDIR)/$(basename $<)-3.png
+	$(OPTIPNG) $(IMGDIR)/$(basename $<)-4.png
+
 
 electric-cableado.zip: $(LIBS) $(wildcard electric-cableado/*)
 	rm -f $@ electric-cableado/*.*bak
@@ -49,6 +53,7 @@ clean-cableado:
 	rm -f $(IMGDIR)/electric-cableado-1.png
 	rm -f $(IMGDIR)/electric-cableado-2.png
 	rm -f $(IMGDIR)/electric-cableado-3.png
+	rm -f $(IMGDIR)/electric-cableado-4.png
 
 
 # --------------------------------------------------------------------
