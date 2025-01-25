@@ -24,3 +24,6 @@ Cuestionarios sobre cableado de circuitos.
 
 * `Cuestionario de cableado de circuitos I.
   <../test/es-electric-cableado-1.html>`__
+  
+* `Cuestionario de cableado de circuitos II.
+  <../test/es-electric-cableado-2.html>`__
