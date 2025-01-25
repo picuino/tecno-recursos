@@ -16,3 +16,11 @@ Cableado de circuitos eléctricos
    <electric/electric-cableado.pdf>`
 |  :download:`Esquemas eléctricos. Formato KiCad.
    <electric/electric-cableado.zip>`
+
+
+Cuestionarios
+-------------
+Cuestionarios sobre cableado de circuitos.
+
+* `Cuestionario de cableado de circuitos I.
+  <../test/es-electric-cableado-1.html>`__
