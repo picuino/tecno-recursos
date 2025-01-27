@@ -9,8 +9,9 @@
 Cableado de circuitos eléctricos
 ================================
 
-.. image:: electric/_images/electric-cableado-logo.png
-     :width: 640px
+.. image:: electric/_images/electric-cableado-05.png
+     :width: 420px
+     :align: center
 
 |  :download:`Cablear circuitos eléctricos. Formato PDF.
    <electric/electric-cableado.pdf>`
