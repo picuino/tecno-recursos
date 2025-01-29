@@ -78,6 +78,7 @@ más se utilizan usualmente.
       La energía eólica es la energía cinética del aire en movimiento.
       Cuando un automóvil acelera, se transforma la energía química de la
       gasolina en energía cinética.
+
       La Luna tiene energía cinética al moverse alrededor de la Tierra.
       En las mareas de los océanos podemos observar cómo la energía 
       cinética de la Luna se transfiere a la Tierra.
@@ -126,13 +127,13 @@ más se utilizan usualmente.
       Es la forma de energía más degradada y más difícil de transformar,
       sobre todo si se encuentra a bajas temperaturas.
 
-      Todas las transformaciones de la energía provocan pérdidas y se van
-      convirtiendo poco a poco en energía térmica debido a rozamientos.
+      En todas las transformaciones de energía se producen pérdidas que se
+      terminan convirtiendo en energía térmica.
 
       Un ejemplo de energía térmica es la transformación que se
       produce en una caldera de calefacción. 
-      La energía química del gas natural se transforma en calor a altas
-      temperaturas durante la combustión, lo que sirve para calentar
+      La energía química del gas natural se transforma en calor a alta
+      temperatura durante la combustión, lo que sirve para calentar
       los edificios.
 
       .. figure:: electric/_images/electric-energia-fuego-gas.jpg
@@ -273,7 +274,7 @@ llegar a producir la forma de energía deseada.
 Estos son algunos ejemplos de conversiones comunes entre formas de energía:
 
 Energía potencial del agua de una presa en energía eléctrica.
-  La **energía potencial** del agua de una presa.
+  La **energía potencial** del agua de una presa
   se transforma en energía cinética cuando se deja caer el agua.
   A continuación, una turbina convierte esta energía cinética en giro
   de un eje. El giro del eje mueve un alternador, que convierte la energía
@@ -290,8 +291,8 @@ Energía nuclear del uranio en energía eléctrica.
   La **energía nuclear** del uranio
   se convierte en energía térmica dentro del reactor nuclear,
   que a su vez se convierte en vapor de agua sobrecalentado.
-  Una turbina de vapor convierte la energía del vapor de agua en
-  energía mecánica de giro de un eje, 
+  Una turbina de vapor convierte la energía térmica del vapor de
+  agua en energía mecánica de giro de un eje, 
   que un alternador convierte en **energía eléctrica**.
 
 Energía química de la gasolina en energía cinética de un automóvil.
@@ -304,7 +305,7 @@ Energía química de la gasolina en energía cinética de un automóvil.
 
 Energía eólica en calor para cocinar.
   La **energía cinética** del viento
-  mueve las palas de un aerogenerador y produce energía mecánica de giro.
+  mueve las palas de un aerogenerador y produce energía mecánica de giro
   que se aplica a un alternador para convertirla en energía eléctrica.
   La energía eléctrica se transporta hasta nuestras casas donde,
   al pasar por la resistencia de la vitrocerámica,
@@ -335,8 +336,8 @@ Fuentes de energía no renovables
      También es muy contaminante.
    * **Gas natural**. Es el menos contaminante de los tres tipos de
      fuentes de energía fósiles cuando se quema, pero también emite
-     CO2 de efecto invernadero. Está compuesto de metano y cuando se
-     pierde en la atmósfera produce un efecto invernadero mucho mayor
+     CO2 de efecto invernadero. Está compuesto de metano y, cuando se
+     pierde en la atmósfera, produce un efecto invernadero mucho mayor
      que el del CO2.
    * **Nuclear**. Esta energía produce pocos gases de efecto invernadero,
      pero sí genera importantes cantidades de residuos radioactivos
@@ -370,7 +371,7 @@ Fuentes de energía renovables
 Energía eléctrica
 -----------------
 La energía eléctrica no es una fuente de energía primaria,
-sino que se debe generarse a partir de otras fuentes primarias.
+sino que se debe generar a partir de fuentes de energía primarias.
 La razón por la que se genera energía eléctrica es que se trata
 de una energía muy fácil de transportar, fácil de controlar y 
 de convertir en otras formas de energía de manera eficiente.
@@ -440,7 +441,7 @@ Despejando, tenemos las otras formas de la fórmula de la energía eléctrica:
 
 
 Esta fórmula nos permite realizar cálculos relativos a la factura
-eléctrica, que es uno de los gastos más importantes para los hogares.
+eléctrica, que es uno de los gastos más importantes de los hogares.
 
 Según esta fórmula, la energía que consumimos depende de la potencia
 del aparato que conectemos y del tiempo que el aparato esté en

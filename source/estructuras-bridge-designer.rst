@@ -175,6 +175,12 @@ Puntuación
       if (isNaN(val)) return '';
       return val * 1.0;
    }
+   
+   document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('input[type=text]').forEach( 
+         node => node.addEventListener('keypress', e => { if(e.keyCode == 13) { e.preventDefault(); } }))
+   });
+   
    </script>
 
    <div class="calc_row">
