@@ -519,6 +519,17 @@ Automóvil eléctrico
    t = 100kWh / 25kW = 4 horas
 
 
+Unidad con preguntas
+--------------------
+Unidad didáctica en formato imprimible, con preguntas simples de
+comprensión lectora.
+
+| :download:`Energía. Formato PDF.
+  <electric/electric-energy/electric-energia.pdf>`
+| :download:`Energía. Formato editable DOC.
+  <electric/electric-energy/electric-energia.doc>`
+
+
 Cuestionarios
 -------------
 Cuestionarios sobre la energía eléctrica.
@@ -527,6 +538,16 @@ Cuestionarios sobre la energía eléctrica.
   <../test/es-electric-energy-1.html>`__
 * `Cuestionario. Energía eléctrica II.
   <../test/es-electric-energy-2.html>`__
+* `Cuestionario. Energía eléctrica III.
+  <../test/es-electric-energy-3.html>`__
+
+* `Cuestionario. Energía eléctrica IV.
+  <../test/es-electric-energy-4.html>`__
+* `Cuestionario. Energía eléctrica V.
+  <../test/es-electric-energy-5.html>`__
+* `Cuestionario. Energía eléctrica VI.
+  <../test/es-electric-energy-6.html>`__
+
 * `Cuestionario. Cálculos con energía eléctrica.
   <../test/es-electric-energy-calc.html>`__
 

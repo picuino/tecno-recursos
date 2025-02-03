@@ -13,7 +13,7 @@ Manifiesto
 Una sociedad libre necesita recursos educativos libres.
 
 
-1. La motivación principal de esta página es difundir recursos
+1. La motivación principal de este sitio web es difundir recursos
    educativos de carácter libre a profesores y alumnos de todo
    el mundo.
 
@@ -44,25 +44,25 @@ Una sociedad libre necesita recursos educativos libres.
    Todos los recursos educativos serán editables con herramientas libres,
    sin necesidad de utilizar software propietario/privativo.
 
-   La generación de la página web solo requerirá formatos y herramientas
-   libres y los archivos fuente de la página web también se publicarán a
+   La generación del sitio web solo requerirá formatos y herramientas
+   libres y los archivos fuente del sitio web también se publicarán a
    disposición de la comunidad.
 
 
 #. No se recopilará información personal ni anónima de las personas
-   que hagan uso de la página web.
+   que hagan uso del sitio web.
    Por esa razón **no se usarán cookies** de navegación en el alojamiento
    principal de la web.
 
 
 #. No se añadirán **ni anuncios ni productos patrocinados** a los
-   recursos educativos ni a ninguna otra sección de la página web.
+   recursos educativos ni a ninguna otra sección del sitio web.
 
    Todos los productos y servicios que se anuncien lo harán en base a
    su utilidad didáctica y no se admitirá ningún tipo de patrocinio.
 
 
-#. El diseño de la página web será sencillo, orientado a conseguir la
+#. El diseño del sitio web será sencillo, orientado a conseguir la
    máxima velocidad de navegación y a su posible uso sin conexión a
    Internet.
    Por esa razón, y para facilitar el anonimato de los usuarios, se

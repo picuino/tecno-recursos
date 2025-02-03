@@ -39,7 +39,7 @@ extensions = [
 
 imgmath_font_size = 16
 imgmath_image_format = 'svg'
-#imgmath_dvipng_args = ['-gamma', '1.5', '-D', '300', '-bg', 'Transparent']
+#imgmath_dvipng_args = ['-gamma', '1.5', '-D', '150', '-bg', 'Transparent']
 
 
 # The suffix(es) of source filenames.

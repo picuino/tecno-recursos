@@ -29,6 +29,10 @@ Ambas impedirán que el circuito eléctrico funcione.
 A continuación estudiaremos con más detalle todos estos tipos de
 conexiones.
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
 
 Circuito en serie
 -----------------
