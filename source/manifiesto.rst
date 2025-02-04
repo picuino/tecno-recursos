@@ -17,9 +17,12 @@ Una sociedad libre necesita recursos educativos libres.
    **recursos educativos libres** a profesores y alumnos
    de todo el mundo.
 
-   Este objetivo obliga a generar **recursos de calidad**,
-   abiertos a la crítica y a su modificación por parte de la
-   Comunidad Educativa.
+
+#. Los recursos educativos se deben crear con la idea de 
+   conseguir una **buena calidad** en los textos, dibujos,
+   esquemas y resto de contenidos. 
+   Los recursos deben estar abiertos a la crítica y a su
+   modificación por parte de la Comunidad Educativa.
 
 
 #. Todos los contenidos generados se distribuirán bajo **licencia libre**
@@ -67,6 +70,11 @@ Una sociedad libre necesita recursos educativos libres.
    Internet.
    Por esa razón, y para facilitar el anonimato de los usuarios, se
    utilizarán **páginas web estáticas**.
+
+
+#. Los contenidos teóricos irán acompañados de **ejercicios prácticos**
+   que permitirán tanto el aprendizaje de la teoría por parte de los alumnos
+   como la autoevaluación y la evaluación por parte del profesor.
 
 
 #. Los recursos seguirán un diseño que plantee, con los mismos
