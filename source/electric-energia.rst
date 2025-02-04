@@ -1,4 +1,4 @@
-﻿:Date: 28/02/2023
+:Date: 28/02/2023
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
@@ -256,7 +256,7 @@ más se utilizan usualmente.
       Una desventaja de la energía eléctrica consiste en que
       **no se puede almacenar con facilidad**,
       por lo que hay que consumirla en el momento en el que se genera.
-      Para poder almacenar energía eléctrica, esta debe transformarse en
+      Para poder almacenar energía eléctrica, esta debe transformarse
       en energía química mediante baterías o en energía potencial
       mediante centrales hidroeléctricas reversibles [#f2]_.
 
@@ -401,7 +401,7 @@ Ventajas de la energía eléctrica
 Desventajas de la energía eléctrica
    * No existe una fuente primaria de energía eléctrica,
      hay que generarla a partir de otras fuentes primarias.
-   * La mayor parte de la electricidad que se genera en la actualidad
+   * Un porcentaje alto de la electricidad que se genera en la actualidad
      procede de energías primarias no renovables y contaminantes,
      como las energías fósiles o la nuclear.
    * No se puede almacenar con facilidad.
@@ -532,20 +532,20 @@ comprensión lectora.
 
 Cuestionarios
 -------------
-Cuestionarios sobre la energía eléctrica.
+Cuestionarios sobre energía.
 
-* `Cuestionario. Energía eléctrica I.
+* `Cuestionario. Energía I.
   <../test/es-electric-energy-1.html>`__
-* `Cuestionario. Energía eléctrica II.
+* `Cuestionario. Energía II.
   <../test/es-electric-energy-2.html>`__
-* `Cuestionario. Energía eléctrica III.
+* `Cuestionario. Energía III.
   <../test/es-electric-energy-3.html>`__
 
-* `Cuestionario. Energía eléctrica IV.
+* `Cuestionario. Energía IV.
   <../test/es-electric-energy-4.html>`__
-* `Cuestionario. Energía eléctrica V.
+* `Cuestionario. Energía V.
   <../test/es-electric-energy-5.html>`__
-* `Cuestionario. Energía eléctrica VI.
+* `Cuestionario. Energía VI.
   <../test/es-electric-energy-6.html>`__
 
 * `Cuestionario. Cálculos con energía eléctrica.
