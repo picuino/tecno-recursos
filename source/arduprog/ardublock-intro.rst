@@ -55,8 +55,8 @@ infrarrojos.
 Para **instalar todas las librerías a la vez**, hay que seguir los
 siguientes pasos:
 
-  1. Descargar el :download:`archivo con las librerías para Arduino
-     <_downloads/arduino-libraries.zip>`
+  1. Descargar el `archivo con las librerías para Arduino.
+     <../_static/downloads/arduino-libraries.zip>`__
   2. Copiar el archivo en el directorio de Arduino.
      El directorio se puede encontrar en el entorno de Arduino,
      pulsando el menú:

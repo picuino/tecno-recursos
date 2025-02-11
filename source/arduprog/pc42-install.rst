@@ -17,8 +17,8 @@ Objetivos
 * Instalar la :download:`herramienta Ardublock-Picuino
   <_downloads/ardublock-picuino.zip>`
   para programar con bloques gráficos
-* Instalar otras :download:`librerías auxiliares de Arduino
-  <_downloads/arduino-libraries.zip>`
+* Instalar otras `librerías auxiliares de Arduino.
+  <../_static/downloads/arduino-libraries.zip>`__
 
 
 Instalación
@@ -175,8 +175,8 @@ Estas librerías permiten que la placa Arduino controle periféricos
 tales como un un panel visualizador LCD o emisores y receptores
 infrarrojos.
 
-:download:`archivo de librerías para Arduino
-<_downloads/arduino-libraries.zip>`
+`Archivo de librerías para Arduino.
+<../_static/downloads/arduino-libraries.zip>`__
 
 En este paquete se pueden encontrar juntas las siguientes librerías:
 
@@ -200,8 +200,8 @@ En este paquete se pueden encontrar juntas las siguientes librerías:
 Para **instalar todas las librerías a la vez**, hay que seguir los
 siguientes pasos:
 
-  1. Descargar el :download:`archivo con las librerías para Arduino
-     <_downloads/arduino-libraries.zip>`
+  1. Descargar el `archivo con las librerías para Arduino
+     <../_static/downloads/arduino-libraries.zip>`__
   2. Copiar el archivo en el directorio de Arduino.
      El directorio se puede encontrar en el entorno de Arduino,
      pulsando el menú:

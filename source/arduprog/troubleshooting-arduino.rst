@@ -38,7 +38,7 @@ El entorno Arduino IDE se puede descargar desde la página oficial del
 proyecto en la pestaña 'software', pulsando el sistema operativo
 adecuado en el apartado 'Download the Arduino IDE':
 
-  https://www.arduino.cc/es/Software
+  https://www.arduino.cc/en/software
 
 Una vez descargado el programa, se debe instalar en el ordenador.
 También es necesario instalar los drivers para que el ordenador
@@ -118,22 +118,22 @@ Arduino.
 Después de descargar el archivo, se debe descomprimir y ejecutar el
 software de instalación.
 
-   :download:`Arduino 1.8.1 Drivers para Windows
-   <_downloads/arduino-1813-win-drivers.zip>`
+* `Arduino 1.8.1 Drivers para Windows
+  <../_static/downloads/arduino-1813-win-drivers.zip>`__
 
-   :download:`Arduino 1.0.6 Drivers para Windows
-   <_downloads/arduino-106-win-drivers.zip>`
+* `Arduino 1.0.6 Drivers para Windows
+  <../_static/downloads/arduino-106-win-drivers.zip>`__
 
 
 Si se utiliza una placa compatible con Arduino con un chip de
 comunicaciones **CH340**, es necesario instalar otro driver diferente
 al estándar:
 
-   :download:`Chip de comunicaciones CH340. Driver para Windows
-   <_downloads/CH340-win-driver-v31.zip>`
+* `Chip de comunicaciones CH340. Driver para Windows
+  <../_static/downloads/CH340-win-driver-v31.zip>`__
 
-   `Página de Microsoft para descargar el driver CH340
-   <http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=be9c8169-b12b-475f-81b8-3d3e69181e8c>`__
+* `Página de Microsoft para descargar el driver CH340
+  <http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=be9c8169-b12b-475f-81b8-3d3e69181e8c>`__
 
 
 ¿Existe un cortocircuito?

@@ -23,24 +23,25 @@ IDE para programar las placas Arduino.
 Drivers para Windows
 --------------------
 
-* :download:`Drivers de Arduino 1.8.1
-  <_downloads/arduino-1813-win-drivers.zip>`
-* :download:`Drivers de Arduino 1.0.6
-  <_downloads/arduino-106-win-drivers.zip>`
-* :download:`Drivers de chip de comunicaciones CH340.
-  <_downloads/CH340-win-driver-v31.zip>`
+* `Drivers de Arduino 1.8.1
+  <../_static/downloads/arduino-1813-win-drivers.zip>`__
+* `Drivers de Arduino 1.0.6
+  <../_static/downloads/arduino-106-win-drivers.zip>`__
+* `Drivers de chip de comunicaciones CH340.
+  <../_static/downloads/CH340-win-driver-v31.zip>`__
   Versión 3.1
-* :download:`Drivers de chip de comunicaciones CH340.
-  <_downloads/CH341-win-driver-v34.zip>`
+* `Drivers de chip de comunicaciones CH340.
+  <../_static/downloads/CH341-win-driver-v34.zip>`__
   Versión 3.4
-* :download:`Drivers de mBot y otros robots de Makeblock.
-  <_downloads/mBlock_Driver_for_Windows.zip>`
+* `Drivers de mBot y otros robots de Makeblock.
+  <../_static/downloads/mBlock_Driver_for_Windows.zip>`__
   Versión 3.4
 
 Librerías para Arduino IDE
 --------------------------
 
-* :download:`Todas las librerías para Arduino <_downloads/arduino-libraries.zip>`
+* `Todas las librerías para Arduino
+  <../_static/downloads/arduino-libraries.zip>`__
   listas para instalar descomprimiendo en el directorio de Arduino.
 
 
