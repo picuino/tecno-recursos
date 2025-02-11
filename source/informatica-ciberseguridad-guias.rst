@@ -9,6 +9,30 @@ Guías de ciberseguridad
 =======================
 Diversas guías sobre ciberseguridad.
 
+
+Guía de navegación segura
+-------------------------
+Guía para el alumnado sobre una navegación segura por Internet.
+
+`Guía para navegación segura.
+<../_static/document/guia-navegacion-segura.pdf>`__
+
+
+Autor de la guía
+   Directoras: Isabel Serrano Maillo (UCM), Esther Martínez Pastor (URJC).
+   
+   Equipo: Isabel Serrano Maillo (UCM), Esther Martínez Pastor (URJC), 
+   Ángela Moreno Bobadilla (UCM), Mª Ángeles Blanco Ruiz (URJC),
+   Mª Dolores Serrano Tárraga (UNED), Jorge Abaurrea Velarde (UCM).
+
+   © Comunidad de Madrid
+
+Sitio web
+   `Revista Digital Educamadrid 
+   <https://www.educa2.madrid.org/web/revista-digital/inicio/-/visor/guia-para-el-alumnado-sobre-una-navegacion-segura>`__
+
+
+
 Guía de ciberataques
 --------------------
 Guía de ciberataques a nivel usuario.
@@ -16,7 +40,8 @@ Guía de ciberataques a nivel usuario.
 .. image:: informatica/ciberataques-guia-osi-portada.png
    :align: center
 
-:download:`Guía de ciberataques <informatica/ciberataques-guia-osi.pdf>`
+`Guía de ciberataques. 
+<../_static/document/ciberataques-guia-osi.pdf>`__
 
 
 Autor de la guía
@@ -42,8 +67,8 @@ Guía de Privacidad y Seguridad en Internet
 .. image:: informatica/guia-privacidad-seguridad-internet.png
    :align: center
 
-:download:`Guía de Privacidad y Seguridad en Internet
-<informatica/guia-privacidad-seguridad-internet.pdf>`
+`Guía de Privacidad y Seguridad en Internet.
+<../_static/document/guia-privacidad-seguridad-internet.pdf>`__
 
 Autor de la guía
    La presente es una publicación conjunta pertenece a la

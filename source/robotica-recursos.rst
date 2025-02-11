@@ -14,6 +14,7 @@ programa Código Escuela 4.0.
    :local:
    :depth: 2
 
+
 Kit de bienvenida del Intef
 ---------------------------
 #. `Kit de bienvenida del Intef al programa Código Escuela 4.0 (PDF).
@@ -75,3 +76,27 @@ BQ Educación, y profesores de la materia.
 * Vídeo: `V Encuentro EDUCACIÓN 3.0
   <https://www.youtube-nocookie.com/embed/fnMC1I7tCqA>`__
 
+
+
+Web Código Escuela 4.0 de la Comunidad de Madrid
+------------------------------------------------
+
+* `Página principal de la web Código Escuela 4.0 Madrid.
+  <https://www.educa2.madrid.org/web/centro.codigo-escuela-4.0/>`__
+
+* `Normativa.
+  <https://www.educa2.madrid.org/web/centro.codigo-escuela-4.0/normativa>`__
+
+* `Orientaciones Metodológicas.
+  <https://mediateca.educa.madrid.org/documentos/puask6s4fzo723x9/fs>`__
+
+
+
+* `Banco de Recursos para Educación Infantil.
+  <https://www.educa2.madrid.org/web/centro.codigo-escuela-4.0/a.desenchufadas>`__
+
+* `Banco de Recursos para Educación Primaria.
+  <https://www.educa2.madrid.org/web/centro.codigo-escuela-4.0/educacion-primaria>`__
+
+* `Banco de Recursos para Educación Secundaria.
+  <https://www.educa2.madrid.org/web/centro.codigo-escuela-4.0/educacion-secundaria>`__

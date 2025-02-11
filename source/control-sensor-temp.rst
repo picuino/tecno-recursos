@@ -161,7 +161,8 @@ Esquema de conexión de un transistor calentador
 -----------------------------------------------
 En la siguiente imagen puede verse el cableado necesario para
 realizar un calentador basado en un transistor
-:download:`BD135 <control/_downloads/BD135-onsemi.pdf>`.
+`BD135 <../_static/document/BD135-onsemi.pdf>`__
+`(datasheet de st) <../_static/document/BD135-st.pdf>`__.
 
 .. image:: control/_images/img-0023.png
    :alt: Esquema de cableado de un transistor calentador BD135

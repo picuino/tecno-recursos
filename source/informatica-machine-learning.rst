@@ -54,8 +54,8 @@ como los potenciales desafíos y riesgos.
 .. image:: informatica/_images/informatica-computadoras-que-aprenden.jpg
    :align: center
 
-:download:`Libro Computadoras que aprenden, de Diego F. Craig. Formato PDF.
-<informatica/computadoras-que-aprenden-2023.pdf>`
+`Libro Computadoras que aprenden, de Diego F. Craig. Formato PDF.
+<../_static/document/computadoras-que-aprenden-2023.pdf>`__
 
 
 Vídeos de DotCSV

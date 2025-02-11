@@ -46,7 +46,8 @@ Tutorial en PDF
 ---------------
 Tutorial de Inkscape de Joaquín Herrera en formato PDF.
 
-:download:`Inkscape logo a logo (2ª Edición) <inkscape/inkscape_logo_a_logo_2.pdf>`
+`Inkscape logo a logo (2ª Edición).
+<../_static/document/inkscape_logo_a_logo_2.pdf>`__
 
 Créditos del tutorial en PDF
    Autor: Joaquín Herrera Goás

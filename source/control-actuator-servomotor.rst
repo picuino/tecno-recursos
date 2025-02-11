@@ -88,7 +88,7 @@ Especificaciones
 ----------------
 Existen muchos tipos de servomotores. Como ejemplo se muestran las
 especificaciones de un pequeño
-:download:`servomotor Tower Pro 9g <control/_downloads/SG90Servo.pdf>`.
+`servomotor Tower Pro 9g <../_static/document/SG90Servo.pdf>`__.
 
   * Tensión de alimentación = 4,8 a 6,0 v
   * Corriente máxima = 570 a 730 mA

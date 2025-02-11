@@ -50,8 +50,8 @@ MÁS SENSORES Y ACTUADORES PARA PROYECTOS
    27. Bluetooth. Módulo HC-05.
 
 
-:download:`Curso de Arduino con lecciones y prácticas. Formato PDF.
-<protoboard/arduino-guia-lecciones-practicas.pdf>`
+`Curso de Arduino con lecciones y prácticas. Formato PDF.
+<../_static/document/arduino-guia-lecciones-practicas.pdf>`__
 
-:download:`Curso de Arduino con lecciones y prácticas. Formato ODT.
-<protoboard/arduino-guia-lecciones-practicas.odt>`
+`Curso de Arduino con lecciones y prácticas. Formato ODT.
+<../_static/document/arduino-guia-lecciones-practicas.odt>`__

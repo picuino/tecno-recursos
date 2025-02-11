@@ -36,4 +36,6 @@ Tutorial para aprender a programar en Scratch 3.
    scratch3-recorrer-laberintos.rst
    scratch3-saltar-arboles.rst
 
+   scratch3-retos-codigoescuela.rst
+
    scratch3-retos-robotix.rst

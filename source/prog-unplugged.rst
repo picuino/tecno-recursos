@@ -20,8 +20,8 @@ gratuito que enseña informática a través de interesantes juegos y
 puzles con la ayuda de cartas, cuerdas, lápices de colores y mucha
 actividad física.
 
-:download:`Libro en español de Computer Science Unplugged
-<prog/prog-cs-unplugged.pdf>`
+`Libro en español de Computer Science Unplugged.
+<../_static/document/prog-cs-unplugged.pdf>`__
 
 Web de CS Unplugged:
 
@@ -59,11 +59,16 @@ impulsada por la fundación Raspberry Pi,
 dedicada a promover la informática y el pensamiento computacional
 entre los estudiantes de todas las edades.
 
-* :download:`Estrategias para resolver problemas. <prog/bebras/prog-bebras-estrategias.pdf>`
-* :download:`Tarjetas de desafío. Tanda 1. <prog/bebras/prog-bebras-desafio-tanda-1.pdf>`
-* :download:`Tarjetas de desafío. Tanda 1. <prog/bebras/prog-bebras-desafio-tanda-2.pdf>`
-* :download:`Tarjetas Bebras versión 2. <prog/bebras/prog-bebras-tarjetas-v2.pdf>`
-* :download:`Tarjetas Bebras versión 2. Respuestas. <prog/bebras/prog-bebras-tarjetas-v2-respuestas.pdf>`
+* `Estrategias para resolver problemas. 
+  <../_static/document/prog-bebras-estrategias.pdf>`__
+* `Tarjetas de desafío. Tanda 1. 
+  <../_static/document/prog-bebras-desafio-tanda-1.pdf>`__
+* `Tarjetas de desafío. Tanda 1. 
+  <../_static/document/prog-bebras-desafio-tanda-2.pdf>`__
+* `Tarjetas Bebras versión 2. 
+  <../_static/document/prog-bebras-tarjetas-v2.pdf>`__
+* `Tarjetas Bebras versión 2. Respuestas. 
+  <../_static/document/prog-bebras-tarjetas-v2-respuestas.pdf>`__
 
 
 Code.org

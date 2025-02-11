@@ -29,14 +29,14 @@ Especificaciones técnicas
   * Conexión de 4 pines
 
 
-:download:`DHT11. Hoja de características.
-D-Robotics <control/_downloads/DHT11-drobotics.pdf>`
+`DHT11. Hoja de características. D-Robotics.
+<../_static/document/DHT11-drobotics.pdf>`__
 
 
 Librería Arduino
 ----------------
-:download:`Librería Arduino para el sensor DHT11.
-Versión 0.4.1 <control/_downloads/dht11-041.zip>`
+`Librería Arduino para el sensor DHT11. Versión 0.4.1 
+<../_static/downloads/dht11-041.zip>`__
 
 
 Esquema de conexión

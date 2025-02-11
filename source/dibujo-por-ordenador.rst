@@ -23,8 +23,8 @@ QCAD v2 y está mantenido por la comunidad de software libre.
 `Manual de usuario
 <https://wiki.librecad.org/index.php/LibreCAD_users_Manual/es>`__
 
-:download:`Prácticas y manual de LibreCAD.
-<dibujo/dibujo-librecad-practicas-y-manual.pdf>`
+`Prácticas y manual de LibreCAD.
+<../_static/document/dibujo-librecad-practicas-y-manual.pdf>`__
 
 
 QCAD
