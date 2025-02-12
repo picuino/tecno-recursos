@@ -119,10 +119,10 @@ Después de descargar el archivo, se debe descomprimir y ejecutar el
 software de instalación.
 
 * `Arduino 1.8.1 Drivers para Windows
-  <../_static/downloads/arduino-1813-win-drivers.zip>`__
+  <../../_static/downloads/arduino-1813-win-drivers.zip>`__
 
 * `Arduino 1.0.6 Drivers para Windows
-  <../_static/downloads/arduino-106-win-drivers.zip>`__
+  <../../_static/downloads/arduino-106-win-drivers.zip>`__
 
 
 Si se utiliza una placa compatible con Arduino con un chip de
@@ -130,7 +130,7 @@ comunicaciones **CH340**, es necesario instalar otro driver diferente
 al estándar:
 
 * `Chip de comunicaciones CH340. Driver para Windows
-  <../_static/downloads/CH340-win-driver-v31.zip>`__
+  <../../_static/downloads/CH340-win-driver-v31.zip>`__
 
 * `Página de Microsoft para descargar el driver CH340
   <http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=be9c8169-b12b-475f-81b8-3d3e69181e8c>`__

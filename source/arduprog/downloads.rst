@@ -24,24 +24,24 @@ Drivers para Windows
 --------------------
 
 * `Drivers de Arduino 1.8.1
-  <../_static/downloads/arduino-1813-win-drivers.zip>`__
+  <../../_static/downloads/arduino-1813-win-drivers.zip>`__
 * `Drivers de Arduino 1.0.6
-  <../_static/downloads/arduino-106-win-drivers.zip>`__
+  <../../_static/downloads/arduino-106-win-drivers.zip>`__
 * `Drivers de chip de comunicaciones CH340.
-  <../_static/downloads/CH340-win-driver-v31.zip>`__
+  <../../_static/downloads/CH340-win-driver-v31.zip>`__
   Versión 3.1
 * `Drivers de chip de comunicaciones CH340.
-  <../_static/downloads/CH341-win-driver-v34.zip>`__
+  <../../_static/downloads/CH341-win-driver-v34.zip>`__
   Versión 3.4
 * `Drivers de mBot y otros robots de Makeblock.
-  <../_static/downloads/mBlock_Driver_for_Windows.zip>`__
+  <../../_static/downloads/mBlock_Driver_for_Windows.zip>`__
   Versión 3.4
 
 Librerías para Arduino IDE
 --------------------------
 
 * `Todas las librerías para Arduino
-  <../_static/downloads/arduino-libraries.zip>`__
+  <../../_static/downloads/arduino-libraries.zip>`__
   listas para instalar descomprimiendo en el directorio de Arduino.
 
 

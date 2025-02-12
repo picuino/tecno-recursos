@@ -29,13 +29,13 @@ Especificaciones técnicas
 
 
 `DHT11. Hoja de características. D-Robotics.
-<../_static/document/DHT11-drobotics.pdf>`__
+<../../_static/document/DHT11-drobotics.pdf>`__
 
 
 Librería Arduino
 ----------------
 `Librería Arduino para el sensor DHT11. Versión 0.4.1
-<../_static/downloads/dht11-041.zip>`__
+<../../_static/downloads/dht11-041.zip>`__
 
 
 Esquema de conexión

@@ -51,7 +51,7 @@ MÁS SENSORES Y ACTUADORES PARA PROYECTOS
 
 
 `Curso de Arduino con lecciones y prácticas. Formato PDF.
-<../_static/document/arduino-guia-lecciones-practicas.pdf>`__
+<../../_static/document/arduino-guia-lecciones-practicas.pdf>`__
 
 `Curso de Arduino con lecciones y prácticas. Formato ODT.
-<../_static/document/arduino-guia-lecciones-practicas.odt>`__
+<../../_static/document/arduino-guia-lecciones-practicas.odt>`__
