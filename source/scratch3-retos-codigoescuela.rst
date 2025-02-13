@@ -8,17 +8,17 @@ Retos Scratch de la Comunidad de Madrid
 =======================================
 Retos de Scratch del programa Código Escuela 4.0 de la Comunidad de Madrid.
 
-1. `Átomos en acción.
-   <../_static/scratch/scratch-atomos-accion.pdf>`__
-
-#. `Cuida tu alimentación.
-   <../_static/scratch/scratch-cuida-alimentacion.pdf>`__
-
 #. `Escapa del ciberespacio.
-   <../_static/scratch/scratch-escapa-ciberespacio.pdf>`__
+   <../_static/document/scratch-escapa-ciberespacio.pdf>`__
 
-#. `Escenas animadas.
-   <../_static/scratch/scratch-escenas-animadas.pdf>`__
+#. `Átomos en acción.
+   <../_static/document/scratch-atomos-accion.pdf>`__
 
 #. `Tecnología sostenible.
-   <../_static/scratch/scratch-tecnologia-sostenible.pdf>`__
+   <../_static/document/scratch-tecnologia-sostenible.pdf>`__
+
+#. `Cuida tu alimentación.
+   <../_static/document/scratch-cuida-alimentacion.pdf>`__
+
+#. `Escenas animadas.
+   <../_static/document/scratch-escenas-animadas.pdf>`__
