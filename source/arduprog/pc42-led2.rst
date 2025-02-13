@@ -77,8 +77,8 @@ Programa equivalente en el entorno Ardublock:
    :alt: Programa de Ardublock para parpadear el led D1 del panel de control PC42
 
 En este enlace se puede descargar el
-:download:`archivo de programa para entorno Ardublock
-'ledBlink' <_downloads/ardublock_ledBlink.abp>`
+:download:`archivo de programa para entorno Ardublock 'ledBlink'
+<_downloads/ardublock_ledBlink.abp>`
 
 
 Ejercicios

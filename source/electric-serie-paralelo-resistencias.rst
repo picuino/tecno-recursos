@@ -246,7 +246,9 @@ en paralelo y en circuitos mixtos.
    Formato PDF.
    <electric/electric-resistencias-serie-paralelo.pdf>`
 |  :download:`Proyecto editable. Formato KiCad.
-   <electric/electric-resistencias-serie-paralelo.zip>`
+   <electric/electric-resistencias-serie-paralelo-kicad.zip>`
+|  :download:`Imágenes de los circuitos.
+   <electric/electric-resistencias-serie-paralelo-images.zip>`
 
 
 Cuestionarios

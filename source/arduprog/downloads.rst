@@ -49,23 +49,23 @@ Librerías para Arduino IDE
 
 * :download:`PC42 <_downloads/PC42.zip>`
   manejo del panel de control Picuino PC42
-* :download:`IRremote <_downloads/IRremote.zip>`
+* `IRremote <../../_static/downloads/IRremote.zip>`__
   control de emisores y receptores de infrarrojos
-* :download:`dht11 <_downloads/dht11.zip>`
+* `dht11 <../../_static/downloads/dht11.zip>`__
   control del sensor de humedad y temperatura DHT11
-* :download:`LiquidCrystal <_downloads/LiquidCrystal.zip>`
+* `LiquidCrystal <../../_static/downloads/LiquidCrystal.zip>`__
   control de paneles visualizadores LCD
-* :download:`NewliquidCrystal <_downloads/NewliquidCrystal.zip>`
+* `NewliquidCrystal <../../_static/downloads/NewliquidCrystal.zip>`__
   control de paneles visualizadores LCD
-* :download:`SCoop <_downloads/SCoop.zip>`
+* `SCoop <../../_static/downloads/SCoop.zip>`__
   programación multitarea
-* :download:`SDPlus <_downloads/SDPlus.zip>`
+* `SDPlus <../../_static/downloads/SDPlus.zip>`__
   manejo de memorias SD
-* :download:`makeblock <_downloads/makeblock.zip>`
+* `makeblock <../../_static/downloads/makeblock.zip>`__
   manejo de mBot y otros robots de makeblock
 
 
-* :download:`Wire <_downloads/Wire.zip>`
+* `Wire <../../_static/downloads/Wire.zip>`__
   comunicaciones serie I2C/TWI
 
 La librería Wire está incluída por defecto en el entorno de programación
@@ -91,8 +91,8 @@ Entorno de programación por bloques para Arduino.
   <_downloads/ardublock-picuino-1.4.2.zip>`
 * :download:`Ardublock-Picuino v1.3.1
   <_downloads/ardublock-picuino-2017-3.zip>`
-* :download:`Ardublock Original
-  <_downloads/ardublock-original.zip>`
+* `Ardublock Original
+  <../../_static/downloads/ardublock-original.zip>`__
 
 
 Fritzing

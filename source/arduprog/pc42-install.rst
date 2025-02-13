@@ -180,19 +180,19 @@ infrarrojos.
 
 En este paquete se pueden encontrar juntas las siguientes librerías:
 
-  * :download:`dht11 <_downloads/dht11.zip>`
+  * `DHT11 <../../_static/downloads/dht11.zip>`__
     control del sensor de humedad y temperatura DHT11
-  * :download:`IRremote <_downloads/IRremote.zip>`
+  * `IRremote <../../_static/downloads/IRremote.zip>`__
     control de emisores y receptores de infrarrojos
-  * :download:`LiquidCrystal <_downloads/LiquidCrystal.zip>`
+  * `LiquidCrystal <../../_static/downloads/LiquidCrystal.zip>`__
     control de paneles visualizadores LCD
-  * :download:`NewliquidCrystal <_downloads/NewliquidCrystal.zip>`
+  * `NewliquidCrystal <../../_static/downloads/NewliquidCrystal.zip>`__
     control de paneles visualizadores LCD
-  * :download:`SCoop <_downloads/SCoop.zip>`
+  * `SCoop <../../_static/downloads/SCoop.zip>`__
     programación multitarea
-  * :download:`SDPlus <_downloads/SDPlus.zip>`
+  * `SDPlus <../../_static/downloads/SDPlus.zip>`__
     manejo de memorias SD
-  * :download:`makeblock <_downloads/makeblock.zip>`
+  * `makeblock <../../_static/downloads/makeblock.zip>`__
     manejo de robots y gadgets de Makeblock
   * :download:`PC42 <_downloads/PC42.zip>`
     manejo del panel de control Picuino PC42
