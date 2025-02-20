@@ -120,18 +120,18 @@ Programamos.es
 * `Actividades desenchufadas de Programamos.es.
   <https://programamos.es/recopilacion-de-actividades-desenchufadas-para-trabajar-el-pensamiento-computacional/>`__
 
-  * :download:`Divide y vencerás.
-    <prog/programamos-es-1-divide-y-venceras.pdf>`
-  * :download:`Programando robots... ¡humanos!
-    <prog/programamos-es-2-rogramando-robots-humanos.pdf>`
-  * :download:`Bailando en bucle.
-    <prog/programamos-es-3-bailando-en-bucle.pdf>`
-  * :download:`Mi propio mando a distancia.
-    <prog/programamos-es-4-mando-a-distancia.pdf>`
-  * :download:`Cartas lógicas.
-    <prog/programamos-es-5-cartas-logicas.pdf>`
-  * :download:`Sobres variables.
-    <prog/programamos-es-6-sobres-variables.pdf>`
+  * `Divide y vencerás.
+    <../_static/document/programamos-es-1-divide-y-venceras.pdf>`__
+  * `Programando robots... ¡humanos!
+    <../_static/document/programamos-es-2-programando-robots-humanos.pdf>`__
+  * `Bailando en bucle.
+    <../_static/document/programamos-es-3-bailando-en-bucle.pdf>`__
+  * `Mi propio mando a distancia.
+    <../_static/document/programamos-es-4-mando-a-distancia.pdf>`__
+  * `Cartas lógicas.
+    <../_static/document/programamos-es-5-cartas-logicas.pdf>`__
+  * `Sobres variables.
+    <../_static/document/programamos-es-6-sobres-variables.pdf>`__
 
 
 Varios
