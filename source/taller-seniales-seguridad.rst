@@ -26,6 +26,6 @@ Presentación de las señales de seguridad y salud en el trabajo.
    Formato Microsoft Powerpoint PPT.
    <taller/seniales-seguridad-salud.ppt>`
 |
-|  :download:`Imágenes de las señales de seguridad y salud en el trabajo.
+|  `Imágenes de las señales de seguridad y salud en el trabajo.
    Formato PNG.
-   <taller/seniales-seguridad-salud.zip>`
+   <../_static/documents/seniales-seguridad-salud.zip>`

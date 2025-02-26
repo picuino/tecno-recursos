@@ -32,14 +32,13 @@ integrado.
    electronic-gate-xor.rst
    electronic-morgan-laws.rst
    electronic-truth-table.rst
-
+   electronic-gray-code.rst
+   electronic-karnaugh.rst
 
 
 .. TO DO
 
    electronic-minterms.rst
-   electronic-gray-code.rst
-   electronic-karnaught.rst
    electronic-combinational.rst
 
    electronic-ttl.rst

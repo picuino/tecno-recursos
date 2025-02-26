@@ -152,7 +152,7 @@ Ejercicios
    error de transmisión.
 
    Intercambia la tabla con un compañero de clase para que cada uno
-   resuelva dónde está el error en la tabla del otro.
+   indique con un círculo dónde está el error en la tabla del otro.
 
    .. figure:: electronic/_images/electronic-error-correction-05.png
       :width: 180px
@@ -168,7 +168,7 @@ Ejercicios
    lo que vale en realidad (error en un bit de paridad).
 
    Intercambia la tabla con un compañero de clase para que cada uno
-   resuelva dónde está el error en la tabla del otro.
+   indique con un círculo dónde está el error en la tabla del otro.
 
    .. figure:: electronic/_images/electronic-error-correction-05.png
       :width: 180px
@@ -176,9 +176,10 @@ Ejercicios
       :alt: Tabla con 16 huecos de bits de datos y 8 huecos de paridad.
 
 
-#. Los códigos de corrección de errores usados en la práctica ¿solo
-   pueden corregir un bit erróneo en cada bloque de datos?.
+#. Los códigos de corrección de errores usados en aplicaciones reales
+   ¿cuántos bits erróneos pueden corregir en cada bloque de datos?
+   Investiga en Internet y explica la respuesta.
 
-#. Escribe el nombre de tres códigos de errores usados en la práctica
-   y escribe dos aplicaciones de cada uno de ellos.
+#. Escribe el nombre de tres códigos de corrección de errores usados
+   en sistemas reales y escribe dos aplicaciones de cada uno de ellos.
 
