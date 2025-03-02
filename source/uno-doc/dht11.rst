@@ -5,8 +5,6 @@
 
 Sensor de temperatura y humedad DHT11
 =====================================
-.. ¿Qué es?. Foto. Vídeo
-
 El sensor DHT11 es un sensor digital de temperatura y humedad relativa del aire.
 Utiliza una comunicación digital con Arduino, de forma que no es necesaria la
 conexión a un pin analógico para realizar las lecturas.

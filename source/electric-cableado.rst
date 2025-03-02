@@ -2,12 +2,13 @@
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
-
 .. _electric-cableado:
 
 
 Cableado de circuitos eléctricos
 ================================
+Fichas con ejercicios para realizar el cableado de circuitos eléctricos
+y electrónicos.
 
 .. image:: electric/_images/electric-cableado-05.png
      :width: 420px

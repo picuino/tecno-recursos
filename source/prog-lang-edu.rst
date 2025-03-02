@@ -5,123 +5,108 @@
 
 .. _prog-lang-edu:
 
-***************************
- Lenguajes de programación
-***************************
 
+Lenguajes de programación
+=========================
 Comparativa de diferentes lenguajes de programación para la enseñanza.
 
 
 Programación por bloques
-========================
+------------------------
 
 Cursos Code
------------
+   .. image:: prog/_images/codeorg-logo.png
+      :height: 120px
 
-.. image:: prog/_images/codeorg-logo.png
-   :height: 120px
+   * Website: `Code Studio <https://studio.code.org/courses>`__
+   * Desarrollador: code.org
+   * Programación: por bloques (basado en `Blockly
+     <https://developers.google.com/blockly/>`__)
+   * Gratuita. Multiplataforma (PC, Apple, Android) .
 
-* Website: `Code Studio <https://studio.code.org/courses>`__
-* Desarrollador: code.org
-* Programación: por bloques (basado en `Blockly
-  <https://developers.google.com/blockly/>`__)
-* Gratuita. Multiplataforma (PC, Apple, Android) .
+   Cursos guiados de diferentes niveles, desde 4 hasta 16 años, y de
+   diferentes duraciones, desde 1 hasta 24 horas.
 
-Cursos guiados de diferentes niveles, desde 4 hasta 16 años, y de
-diferentes duraciones, desde 1 hasta 24 horas.
-
-Enseñan los fundamentos de la programación imperativa y estructurada.
-Secuencias, bucles, condicionales, variables, funciones y parámetros.
+   Enseñan los fundamentos de la programación imperativa y estructurada.
+   Secuencias, bucles, condicionales, variables, funciones y parámetros.
 
 
 Scratch
--------
+   .. image:: prog/_images/scratch-logo.png
+      :width: 240px
 
-.. image:: prog/_images/scratch-logo.png
-   :width: 240px
+   * Website: `Scratch <https://scratch.mit.edu/>`__
+   * Desarrollador: MIT
+   * Programación: por bloques
+   * Para programar: en navegador y PC
+   * Multitarea
+   * Software libre (con acceso al código). Mutiplataforma.
 
-* Website: `Scratch <https://scratch.mit.edu/>`__
-* Desarrollador: MIT
-* Programación: por bloques
-* Para programar: en navegador y PC
-* Multitarea
-* Software libre (con acceso al código). Mutiplataforma.
+   Proyecto del MIT para enseñar programación a los niños en un
+   entorno creativo. La web tiene multitud de proyectos compartidos
+   que se pueden estudiar y reutilizar.
 
-Proyecto del MIT para enseñar programación a los niños en un
-entorno creativo. La web tiene multitud de proyectos compartidos
-que se pueden estudiar y reutilizar.
-
-Tutoriales scratch: :ref:`scratch-index`
+   Tutoriales scratch: :ref:`scratch-index`
 
 
 Mblock
-------
+   .. image:: prog/_images/mblock-logo.png
+      :height: 120px
 
-.. image:: prog/_images/mblock-logo.png
-   :height: 120px
+   * Website: `mBlock <https://www.makeblock.es/soporte/mblock/>`__
+   * Desarrollador: Makeblock, basado en Scratch
+   * Programación: por bloques
+   * Para programar: PC y Arduino
+   * Multitarea
+   * Software libre. Mutiplataforma.
 
-* Website: `mBlock <https://www.makeblock.es/soporte/mblock/>`__
-* Desarrollador: Makeblock, basado en Scratch
-* Programación: por bloques
-* Para programar: PC y Arduino
-* Multitarea
-* Software libre. Mutiplataforma.
+   Proyecto basado en Scratch offline, que incluye instrucciones
+   para Arduino y para los robots de Makeblock basados en Arduino.
 
-Proyecto basado en Scratch offline, que incluye instrucciones
-para Arduino y para los robots de Makeblock basados en Arduino.
-
-Se puede programar en Scratch y también se pueden hacer programas
-con bloques para Arduino. Una vez descargados a Arduino, los
-programas son independientes y funcionan sin conexión al PC.
-
-
------
+   Se puede programar en Scratch y también se pueden hacer programas
+   con bloques para Arduino. Una vez descargados a Arduino, los
+   programas son independientes y funcionan sin conexión al PC.
 
 
 Programación de Smartphones
-===========================
+---------------------------
 Los smartphones Android, los más extendidos, se programan con el
 lenguaje Java. Existen alternativas más sencillas orientadas a
 la educación.
 
 
 AppLab
-------
+   .. image:: prog/_images/applab-logo.png
+      :height: 120px
 
-.. image:: prog/_images/applab-logo.png
-   :height: 120px
-
-* Website: `AppLab <https://code.org/educate/applab>`__
-* Desarrollador: code.org
-* Programación: por bloques o en texto JavaScript
-* Gratuita y multiplataforma
-* Requiere crear una cuenta
-* Las apps se ejecutan en cualquier **smartphone** a
-  través del navegador
+   * Website: `AppLab <https://code.org/educate/applab>`__
+   * Desarrollador: code.org
+   * Programación: por bloques o en texto JavaScript
+   * Gratuita y multiplataforma
+   * Requiere crear una cuenta
+   * Las apps se ejecutan en cualquier **smartphone** a
+     través del navegador
 
 
 AppInventor
------------
-.. image:: prog/_images/appinventor-logo.png
-   :width: 240px
+   .. image:: prog/_images/appinventor-logo.png
+      :width: 240px
 
-* Website: `AppInventor <http://appinventor.mit.edu>`__
-* Desarrollador: MIT
-* Programación: por bloques
-* Para programar: smartphones
+   * Website: `AppInventor <http://appinventor.mit.edu>`__
+   * Desarrollador: MIT
+   * Programación: por bloques
+   * Para programar: smartphones
 
-
------
 
 Programación en texto
-=====================
+---------------------
 Estos lenguajes tienen un nivel de dificultad más alto al programarse
 escribiendo código en formato texto. Requiere aprender una gramática
 que es más complicada que el simple movimiento de bloques.
 Como ventaja, son mucho más potentes y flexibles.
 
 Arduino
--------
+^^^^^^^
 
 .. image:: prog/_images/arduino-logo.png
    :height: 120px
@@ -141,7 +126,7 @@ los microcontroladores a los estudiantes sin preparación técnica.
 
 
 Python
-------
+^^^^^^
 
 .. image:: prog/_images/python-logo.png
    :height: 120px
@@ -186,7 +171,7 @@ MIT para enseñar a los niños a programar.
 
 
 Processing
-----------
+^^^^^^^^^^
 
 .. image:: prog/_images/processing-logo.png
    :height: 120px
@@ -217,10 +202,9 @@ de Bachillerato.
 Por otro lado, con este lenguaje resulta complicado iniciarse en
 el aprendizaje de la programación.
 
------
 
 Machine Learning
-================
+----------------
 El Machine Learning o aprendizaje automático es una rama de la inteligencia
 artificial, muy de moda últimamente, que es capaz de generar modelos que
 pueden predecir y clasificar datos a partir de un aprendizaje guiado o
@@ -240,10 +224,9 @@ El lenguaje de programación utilizado es Scratch 3 con el añadido de
 las instrucciones necesarias para utilizar los modelos ML una vez
 entrenados.
 
------
 
 Otros recursos en Internet
-==========================
+--------------------------
 
 `Lenguajes de programación educativa.
 <https://www.educaciontrespuntocero.com/recursos/programacion/lenguajes-programacion-educativa-alternativas-a-scratch/35925.html>`__
@@ -251,6 +234,8 @@ Otros recursos en Internet
 `Qué lenguaje o herramientas de programación deberían enseñarse a
 los niños según su edad.
 <https://www.xataka.com/otros/que-lenguaje-o-herramientas-de-programacion-deberian-ensenarse-a-los-ninos-segun-su-edad>`__
+
+
 
 -----
 

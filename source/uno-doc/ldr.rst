@@ -5,7 +5,7 @@
 
 Sensor LDR
 ==========
-.. ¿Qué es?. Foto. Vídeo
+.. ¿Qué es? Foto. Vídeo
 
 
 Esquema de conexión del sensor LDR

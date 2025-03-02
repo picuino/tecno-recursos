@@ -20,7 +20,7 @@ como el `algoritmo Quine–McCluskey
 Mapa de Karnaugh de tres variables
 ----------------------------------
 
-.. image:: electronic/_images/electronic-karnaugh-01.png
+.. image:: electronic/_images/electronic-karnaugh-01b.png
    :width: 317px
    :align: center
    :alt: Tabla de Karnaugh vacía, de tres variables.
@@ -29,7 +29,7 @@ Mapa de Karnaugh de tres variables
 Mapa de Karnaugh de cuatro variables
 ------------------------------------
 
-.. image:: electronic/_images/electronic-karnaugh-02.png
+.. image:: electronic/_images/electronic-karnaugh-02b.png
    :width: 330px
    :align: center
    :alt: Tabla de Karnaugh vacía, de cuatro variables.
@@ -41,7 +41,7 @@ Ejercicios
 #. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
    a continuación. Escribe la función lógica simplificada.
     
-   .. image:: electronic/_images/electronic-truth-table-04.png
+   .. image:: electronic/_images/electronic-truth-table-04b.png
       :width: 125px
       :align: center
       :alt: Tabla de verdad.
@@ -49,16 +49,7 @@ Ejercicios
 #. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
    a continuación. Escribe la función lógica simplificada.
     
-   .. image:: electronic/_images/electronic-truth-table-05.png
-      :width: 125px
-      :align: center
-      :alt: Tabla de verdad.
-
-
-#. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
-   a continuación. Escribe la función lógica simplificada.
-    
-   .. image:: electronic/_images/electronic-truth-table-06.png
+   .. image:: electronic/_images/electronic-truth-table-05b.png
       :width: 125px
       :align: center
       :alt: Tabla de verdad.
@@ -67,7 +58,7 @@ Ejercicios
 #. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
    a continuación. Escribe la función lógica simplificada.
     
-   .. image:: electronic/_images/electronic-truth-table-07.png
+   .. image:: electronic/_images/electronic-truth-table-06b.png
       :width: 125px
       :align: center
       :alt: Tabla de verdad.
@@ -76,7 +67,16 @@ Ejercicios
 #. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
    a continuación. Escribe la función lógica simplificada.
     
-   .. image:: electronic/_images/electronic-truth-table-08.png
+   .. image:: electronic/_images/electronic-truth-table-07b.png
+      :width: 125px
+      :align: center
+      :alt: Tabla de verdad.
+
+
+#. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
+   a continuación. Escribe la función lógica simplificada.
+    
+   .. image:: electronic/_images/electronic-truth-table-08b.png
       :width: 148px
       :align: center
       :alt: Tabla de verdad.
@@ -84,5 +84,9 @@ Ejercicios
 
 Recursos
 --------
-`Calculadora de mapa de Karnaugh.
-<https://calculadorasonline.com/calculadora-mapa-karnaugh-online/>`__
+
+* `Mapa de Karnaugh en línea.
+  <https://sublime.tools/es/mapa-de-karnaugh>`__
+
+* `Calculadora de mapa de Karnaugh.
+  <https://calculadorasonline.com/calculadora-mapa-karnaugh-online/>`__
