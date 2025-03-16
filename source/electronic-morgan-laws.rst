@@ -103,6 +103,10 @@ la puerta de abajo, demostrando que son equivalentes.
 Ejercicios
 ----------
 
+#. Explica con tus palabras qué dicen las dos leyes de De Morgan.
+
+#. ¿Qué función lógica sería equivalente a cinco puertas NOT en serie?
+
 #. Comprueba en la simulación anterior que la puerta superior tiene la
    misma salida que la puerta inferior en cada uno de los 4 circuitos
    que aparecen.

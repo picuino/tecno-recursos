@@ -8,7 +8,14 @@
 La puerta lógica OR
 ===================
 La puerta lógica OR tiene dos o más entradas y una salida.
-Su símbolo es el siguiente:
+
+La salida tiene un valor lógico alto (1) si alguna de sus entradas
+tiene un valor lógico alto (1).
+
+Es decir, si la entrada A **o** la entrada B están a nivel alto, 
+la salida estará a nivel alto. De ahí el nombre **OR** en inglés.
+
+El **símbolo de la puerta OR** es el siguiente:
 
 .. figure:: electronic/_images/electronic-simbolo-puerta-or.png
    :width: 180px
@@ -17,23 +24,16 @@ Su símbolo es el siguiente:
    
    Símbolo de la puerta lógica OR de dos entradas.
 
-La salida tiene un valor lógico alto (1) si alguna de sus entradas
-tiene un valor lógico alto (1).
-Es decir, si la entrada A **o** la entrada B están a nivel alto, la salida
-estará a nivel alto. De ahí el nombre **OR** en inglés.
 
-La función lógica OR se representa mediante una suma, de manera que
-la salida de la puerta será la suma lógica de las entradas:
+La **función lógica de la puerta OR** se representa mediante una suma,
+de manera que la salida de la puerta será la suma lógica de las entradas:
 
 .. math::
 
    Out = A + B
 
-Si las dos entradas valen cero, la salida valdrá cero, pero
-si alguna entrada vale uno, la salida valdrá uno.
 
-
-La tabla de verdad de la función lógica OR es la siguiente:
+La **tabla de verdad de la puerta OR** es la siguiente:
 
 .. figure:: electronic/_images/electronic-puerta-or-02.png
    :width: 160px
@@ -42,12 +42,19 @@ La tabla de verdad de la función lógica OR es la siguiente:
    
    Tabla de verdad de la puerta lógica OR de dos entradas.
 
+Si las dos entradas valen cero, la salida valdrá cero, pero
+si alguna entrada vale uno, la salida valdrá uno.
 
 
 La puerta lógica NOR
 --------------------
 La puerta lógica NOR tiene dos o más entradas y una salida.
-Su símbolo es el siguiente:
+
+La salida será la misma que la de una puerta OR, pero invertida.
+Es decir que la salida solo valdrá uno cuando todas las entradas
+valgan cero.
+
+El **símbolo de la puerta NOR** es el siguiente:
 
 .. figure:: electronic/_images/electronic-simbolo-puerta-nor.png
    :width: 180px
@@ -56,19 +63,15 @@ Su símbolo es el siguiente:
    
    Símbolo de la puerta lógica NOR de dos entradas.
 
-La salida será la misma que la de una puerta OR, pero invertida.
-Es decir que la salida solo valdrá uno cuando todas las entradas valgan
-cero.
-
-La función lógica NOR se representa mediante una suma negada,
-de manera que la salida de la puerta será la suma lógica de las entradas
-que finalmente se invierte:
+La **función lógica de la puerta NOR** se representa mediante una 
+suma negada, de manera que la salida de la puerta será la
+suma lógica de las entradas que finalmente se invierte:
 
 .. math::
 
    Out = \overline{ A + B }
 
-La tabla de verdad de la función lógica NOR es la siguiente:
+La **tabla de verdad de la puerta NOR** es la siguiente:
 
 .. figure:: electronic/_images/electronic-puerta-nor-02.png
    :width: 160px
@@ -93,18 +96,18 @@ el funcionamiento de la puerta lógica NOR.
 
 Ejercicios
 ----------
+#. Explica con tus palabras el funcionamiento de la puerta lógica OR.
 
-#. Dibuja el símbolo de la puerta lógica OR,
+#. Dibuja el símbolo de la puerta lógica OR de dos entradas,
    su función lógica y su tabla de verdad.
 
-#. Dibuja el símbolo de la puerta lógica NOR,
+#. Explica con tus palabras el funcionamiento de la puerta lógica NOR.
+
+#. Dibuja el símbolo de la puerta lógica NOR de dos entradas,
    su función lógica y su tabla de verdad.
 
-#. Comprueba gracias al simulador que
-   la tabla de verdad de la función OR
-   y que la tabla de verdad de la función NOR son correctas.
-   
 #. En el simulador añade una puerta inversora a la salida de la puerta
    OR y comprueba que su respuesta es igual a la de la puerta NOR.
 
-#. Dibuja una puerta lógica OR de tres entradas y su tabla de verdad.
+#. Dibuja una puerta lógica OR de tres entradas,
+   su función lógica y su tabla de verdad.

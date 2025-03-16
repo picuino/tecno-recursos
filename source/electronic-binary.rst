@@ -114,6 +114,8 @@ Ejercicios
 #. Haz una tabla con los números binarios desde el cero hasta el 31
    utilizando las normas que se han descrito en el apartado de
    'Contar en binario'.
+   
+   Recuerda dejar espacio suficiente para 5 dígitos binarios.
 
 #. Convierte los siguientes números de decimal a binario:
 

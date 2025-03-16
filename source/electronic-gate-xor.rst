@@ -8,7 +8,16 @@
 La puerta lógica XOR
 ====================
 La puerta lógica XOR tiene dos o más entradas y una salida.
-Su símbolo es el siguiente:
+
+La salida tiene un valor lógico alto (1) si la suma de las entradas
+es un valor impar.
+
+Es decir, si la entrada A **o** la entrada B están a nivel alto, pero
+no las dos a la vez, la salida estará a nivel alto.
+De ahí el nombre de **eXclusive OR** en inglés.
+
+
+El **símbolo de la puerta XOR** es el siguiente:
 
 .. figure:: electronic/_images/electronic-simbolo-puerta-xor.png
    :width: 180px
@@ -17,25 +26,19 @@ Su símbolo es el siguiente:
    
    Símbolo de la puerta lógica XOR de dos entradas.
 
-La salida tiene un valor lógico alto (1) si la suma de las entradas
-es un valor impar.
-Es decir, si la entrada A **o** la entrada B están a nivel alto, pero
-no las dos a la vez, la salida estará a nivel alto.
-De ahí el nombre de **eXclusive OR** en inglés.
 
-La función lógica XOR se representa mediante un símbolo de suma rodeado
-de un círculo, de manera que la salida de la puerta será la suma lógica
+
+La **función lógica de la puerta XOR** se representa mediante un 
+símbolo de suma rodeado de un círculo, 
+de manera que la salida de la puerta será la suma lógica 
 exclusiva de las entradas:
 
 .. math::
 
    Out = A \oplus B
 
-Si las dos entradas valen cero, la salida valdrá cero,
-si alguna entrada vale uno, la salida valdrá uno
-y si las dos entradas valen uno, la salida volverá a valer cero.
 
-La tabla de verdad de la función lógica XOR es la siguiente:
+La **tabla de verdad de la puerta XOR** es la siguiente:
 
 .. figure:: electronic/_images/electronic-puerta-xor-02.png
    :width: 160px
@@ -43,6 +46,10 @@ La tabla de verdad de la función lógica XOR es la siguiente:
    :alt: Tabla de verdad de la puerta lógica XOR de dos entradas.
    
    Tabla de verdad de la puerta lógica XOR de dos entradas.
+
+Si las dos entradas valen cero, la salida valdrá cero,
+si alguna entrada vale uno, la salida valdrá uno
+y si las dos entradas valen uno, la salida volverá a valer cero.
 
 
 Aplicaciones de la puerta XOR
@@ -66,8 +73,8 @@ Aplicaciones de la puerta XOR
 
 Simulación
 ----------
-En la siguiente simulación podemos ver el funcionamiento de
-la puerta lógica XOR.
+En la siguiente simulación podemos ver el 
+funcionamiento de la puerta lógica XOR.
 
 .. raw:: html
 
@@ -78,14 +85,13 @@ la puerta lógica XOR.
 
 Ejercicios
 ----------
+#. Explica con tus palabras el funcionamiento de la puerta lógica XOR.
 
-#. Dibuja el símbolo de la puerta lógica XOR,
+#. Dibuja el símbolo de la puerta lógica XOR de dos entradas,
    su función lógica y su tabla de verdad.
 
+#. Explica brevemente tres aplicaciones de la puerta lógica XOR. 
 
-#. Comprueba gracias al simulador que
-   la tabla de verdad de la función XOR es correcta.
-   
 #. En el simulador copia el circuito que aparece en la siguiente imagen
    para emular el funcionamiento de la puerta XOR mediante 
    puertas NOT, OR y AND:
@@ -97,7 +103,8 @@ Ejercicios
       
    Comprueba que su funcionamiento es igual al de la puerta XOR.
 
-#. Dibuja una puerta lógica XOR de tres entradas y su tabla de verdad.
+#. Dibuja una puerta lógica XOR de tres entradas,
+   su función lógica y su tabla de verdad.
 
    Para realizar la tabla de verdad de la puerta recuerda que la salida
    vale uno si los bits de entrada a uno son impares.

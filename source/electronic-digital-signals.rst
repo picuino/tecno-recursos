@@ -110,5 +110,5 @@ Ejercicios
    tensión máxima. ¿Qué le ocurre a la señal digital recuperada?
 
    Dibuja la forma de la señal digital recuperada y señala en el gráfico
-   el problema.
+   el problema que presenta.
 

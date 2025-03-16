@@ -9,12 +9,15 @@ La puerta lógica NOT
 ====================
 Los componentes más sencillos de la electrónica digital son las
 **puertas lógicas**, que llevan a cabo operaciones lógicas básicas.
-Combinando estas puertas lógicas se puede llegar a construir circuitos
+Combinando estas puertas lógicas se pueden llegar a construir circuitos
 mucho más complejos, hasta llegar a los computadores modernos.
 
 La puerta lógica más sencilla posible es la **puerta negación**, también
-llamada **puerta inversora** o **puerta NOT**, cuyo símbolo se muestra
-a continuación:
+llamada **puerta inversora** o **puerta NOT**.
+Esta puerta invierte el valor de la señal de entrada, de manera que si
+la entrada vale un 1 lógico, la salida valdrá un 0 lógico y viceversa.
+
+El **símbolo de la puerta NOT** es el siguiente:
 
 .. figure:: electronic/_images/electronic-simbolo-puerta-not.png
    :width: 180px
@@ -23,21 +26,18 @@ a continuación:
    
    Puerta lógica NOT.
 
-Esta puerta invierte el valor de la señal de entrada, de manera que si
-la entrada vale un 1 lógico, la salida valdrá un 0 lógico y viceversa.
-
 El círculo a la salida del triángulo es el que representa que la puerta
 invierte, o niega, el valor de entrada.
 
-La función lógica NOT se representa mediante una línea sobre el elemento
-a invertir o negar:
+La **función lógica de la puerta NOT** se representa mediante una línea 
+sobre el elemento a invertir o negar:
 
 .. math::
 
    Out = \overline{ A }
 
 
-A continuación podemos leer la 
+A continuación podemos ver la 
 `tabla de verdad <https://es.wikipedia.org/wiki/Tabla_de_verdad#Negaci%C3%B3n>`__
 de la puerta NOT, que representa todos los valores posibles de entrada y
 de salida de la puerta lógica:
@@ -90,15 +90,20 @@ Hay que clicar sobre el valor lógico de entrada para que cambie de valor.
 Ejercicios
 ----------
 
-#. ¿Qué es una puerta lógica? ¿Qué se puede llegar a construir con las
-   puertas lógicas?
+#. ¿Qué es una puerta lógica?
+
+   ¿Qué se puede llegar a construir con las puertas lógicas?
+
+#. Explica con tus palabras el funcionamiento de la puerta lógica NOT.
 
 #. Dibuja el símbolo de la puerta NOT y escribe debajo su
    función lógica y sus tres diferentes nombres.
    
-#. Dibuja la tabla de verdad de la puerta NOT con **valores numéricos**.
+#. Dibuja la tabla de verdad de la puerta NOT con **valores numéricos**
+   0 y 1.
 
-   Dibuja la tabla de verdad de la puerta NOT con **niveles lógicos**.
+   Dibuja la tabla de verdad de la puerta NOT con **niveles lógicos**
+   L y H.
 
 #. Realiza una simulación de dos puertas NOT en serie.
    ¿Cómo crees que será la tabla de verdad de las dos puertas?

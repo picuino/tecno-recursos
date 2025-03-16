@@ -113,6 +113,6 @@ Ejercicios
 
 #. ¿Qué es un código checksum?
 
-   Enumera tres tipos de checksum distintos.
+#. Enumera tres tipos de checksum distintos.
 
-   Escribe dos ejemplos de sistemas que utilicen el código checksum.
+   Escribe dos ejemplos de sistemas que utilicen los códigos anteriores.
