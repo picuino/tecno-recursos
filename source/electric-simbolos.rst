@@ -18,7 +18,7 @@ Ejercicios para dibujar y para nombrar e identificar los símbolos.
 |  :download:`Ejercicio para dibujar y nombrar símbolos eléctricos. Formato PDF.
    <electric/electric-simbolos-nombres.pdf>`
 |  :download:`Imágenes de símbolos. Formato PNG.
-   <electric/electric-simbolo-images.zip>`
+   <electric/electric-simbolos-images.zip>`
 |  :download:`Proyecto editable. Formato KiCad.
    <electric/electric-simbolos-nombres.zip>`
 

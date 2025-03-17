@@ -42,8 +42,8 @@ $(IMGDIR)/electric-simbolos-receptores.png: $(IMGDIR)/electric-simbolos-nombres-
 	$(CONVERT) $^ -crop $(crop) $(CONVERT_OPT) $@
 	$(OPTIPNG) $@
 
-electric-simbolos-nombres.zip: $(LIBS) $(wildcard simbolos-nombres/*)
-	rm -f $@  simbolos-nombres/*.*bak
+electric-simbolos-nombres.zip: $(LIBS) $(wildcard electric-simbolos-nombres/*)
+	rm -f $@  electric-simbolos-nombres/*.*bak
 	$(ZIP) $@ $^
 
 
@@ -134,7 +134,7 @@ $(SYMBOL_DIRNAMES): $(IMGDIR)/$(SYMBOLS_SOURCE)
 	$(call crop_symbol, "(3306, 17)", puerta-xor)
 
 
-$(SYMBOL_BASENAME)-images.zip: $(SYMBOL_DIRNAMES)
+electric-simbolos-images.zip: $(SYMBOL_DIRNAMES)
 	rm -f $@
 	$(ZIP) $@ $^
 
@@ -142,12 +142,12 @@ $(SYMBOL_BASENAME)-images.zip: $(SYMBOL_DIRNAMES)
 .PHONY: all-simbolos-images  clean-simbolos-images
 all-simbolos-images: \
 	$(SYMBOL_DIRNAMES) \
-	$(SYMBOL_BASENAME)-images.zip \
+	electric-simbolos-images.zip \
 
 
 clean-simbolos-images:
 	rm -f $(SYMBOL_DIRNAMES)
-	rm -f $(SYMBOL_BASENAME)-images.zip
+	rm -f $ electric-simbolos-images.zip
 
 
 # --------------------------------------------------------------------
