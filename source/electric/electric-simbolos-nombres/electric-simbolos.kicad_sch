@@ -2697,112 +2697,6 @@
 				)
 			)
 		)
-		(symbol "electric-simbolos-nombres-rescue:resistencia-simbolos"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R1"
-				(at 4.572 -5.334 0)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-				)
-			)
-			(property "Value" "RESISTENCIA"
-				(at 0 18.415 90)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "resistencia-simbolos_0_1"
-				(polyline
-					(pts
-						(xy 0 -8.255) (xy -1.27 -7.62) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81) (xy -1.27 -2.54)
-						(xy 0 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "resistencia-simbolos_1_1"
-				(pin input line
-					(at 0 -10.16 90)
-					(length 1.905)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 270)
-					(length 1.905)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "electric-simbolos-nombres-rescue:selector-simbolos"
 			(pin_names
 				(offset 1.016)
@@ -6377,6 +6271,112 @@
 				)
 			)
 		)
+		(symbol "simbolos-electricos:resistencia_2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.905 -5.08 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "resistencia"
+				(at -2.54 -5.715 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "resistencia_2_0_1"
+				(polyline
+					(pts
+						(xy 0 -8.89) (xy -1.27 -8.255) (xy 1.27 -6.985) (xy -1.27 -5.715) (xy 1.27 -4.445) (xy -1.27 -3.175)
+						(xy 1.27 -1.905) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "resistencia_2_1_1"
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "simbolos-electricos:tierra"
 			(pin_names
 				(offset 1.016)
@@ -8867,15 +8867,13 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "305359ec-eb15-478b-abe9-5b57372cfd1d")
-		(property "Reference" "R6"
-			(at 16.51 124.46 90)
+		(property "Reference" "R1"
+			(at 33.02 133.604 90)
 			(effects
 				(font
 					(size 2.54 2.54)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "resistencia"
@@ -8923,7 +8921,7 @@
 		(instances
 			(project ""
 				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11209,79 +11207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "electric-simbolos-nombres-rescue:resistencia-simbolos")
-		(at 21.59 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a80fc097-3cd5-4405-bb3a-3a5ec131cd87")
-		(property "Reference" "R1"
-			(at 32.766 133.604 90)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Value" "RESISTENCIA"
-			(at 40.005 137.16 90)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "c0689b5b-5fce-42e9-9cd1-93ee5fc4ffb2")
-		)
-		(pin ""
-			(uuid "c0689b5b-5fce-42e9-9cd1-93ee5fc4ffb3")
-		)
-		(instances
-			(project ""
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
-					(reference "R1")
-					(unit 1)
-				)
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
 		(at 72.39 201.93 0)
 		(unit 1)
@@ -12442,6 +12367,76 @@
 			(project "electric-simbolos-nombres"
 				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "simbolos-electricos:resistencia_2")
+		(at 11.43 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9969ecc-60a9-42f9-82e4-701885de5d69")
+		(property "Reference" "R1"
+			(at 16.51 132.08 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "resistencia"
+			(at 17.145 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 11.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b1ca8bab-d6bf-4248-87f7-80e95d911dec")
+		)
+		(pin ""
+			(uuid "44426dab-ed57-4aa5-baa3-d16183c21126")
+		)
+		(instances
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+					(reference "R1")
 					(unit 1)
 				)
 			)

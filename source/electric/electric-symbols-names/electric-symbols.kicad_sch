@@ -6380,8 +6380,8 @@
 			(symbol "resistencia_2_0_1"
 				(polyline
 					(pts
-						(xy 0 -8.255) (xy -1.27 -7.62) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81) (xy -1.27 -2.54)
-						(xy 0 -1.905)
+						(xy 0 -8.89) (xy -1.27 -8.255) (xy 1.27 -6.985) (xy -1.27 -5.715) (xy 1.27 -4.445) (xy -1.27 -3.175)
+						(xy 1.27 -1.905) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -6395,7 +6395,7 @@
 			(symbol "resistencia_2_1_1"
 				(pin input line
 					(at 0 -10.16 90)
-					(length 1.905)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -6413,7 +6413,7 @@
 				)
 				(pin input line
 					(at 0 0 270)
-					(length 1.905)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -13340,76 +13340,6 @@
 		)
 	)
 	(symbol
-		(lib_id "simbolos-electricos:resistencia_2")
-		(at 11.43 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fcdef67-c71b-4dc7-9dae-22f69eceec9a")
-		(property "Reference" "R6"
-			(at 16.51 132.08 90)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "resistencia"
-			(at 17.145 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 13.97 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 13.97 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 11.43 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "90d8546f-371e-4440-b690-e1a48499491f")
-		)
-		(pin ""
-			(uuid "d69460ab-268d-4a6a-90f0-cb2bc58a359b")
-		)
-		(instances
-			(project ""
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "simbolos-electricos:potenciometro")
 		(at 151.13 113.03 0)
 		(unit 1)
@@ -13555,6 +13485,76 @@
 			(project "electric-symbols-names"
 				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
 					(reference "CP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "simbolos-electricos:resistencia_2")
+		(at 11.43 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9291869-fed1-45f8-857f-8f23d42c42e2")
+		(property "Reference" "R1"
+			(at 16.51 132.08 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "resistencia"
+			(at 17.145 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 11.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "44f1c369-2207-4b4c-8573-152cea663685")
+		)
+		(pin ""
+			(uuid "a5f555e9-1193-4833-92ed-529437d284c5")
+		)
+		(instances
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+					(reference "R1")
 					(unit 1)
 				)
 			)
