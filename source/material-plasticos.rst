@@ -204,6 +204,18 @@ al calor que los termoplásticos comunes.
    También para fabricar mecanismos como engranajes y cojinetes,
    cremalleras, etc.
 
+   .. figure:: material/_images/material-nailon.jpg
+      :width: 320px
+      :alt: Abrazaderas de nailon.
+      :align: center
+
+      Abrazaderas de nailon.
+
+      `Emilian Robert <https://www.flickr.com/photos/28958738@N06/4817475598>`__,
+      `Public Domain <https://en.wikipedia.org/wiki/Public_domain>`__,
+      via Wikimedia Commons.
+
+
 `Teflón <https://es.wikipedia.org/wiki/Tefl%C3%B3n>`__
    El politetrafluoroetileno, más conocido como teflón, es un polímero
    prácticamente inerte, por lo que no reacciona con otras sustancias.
@@ -213,11 +225,35 @@ al calor que los termoplásticos comunes.
    Se usa como recubrimiento de sartenes, cintas para evitar fugas de agua
    en las roscas de grifos, mecanismos que no necesitan lubricación, etc.
 
+   .. figure:: material/_images/material-teflon.jpg
+      :width: 320px
+      :alt: Cinta de teflón para prevenir fugas.
+      :align: center
+
+      Cinta de teflón para prevenir fugas.
+
+      `Miya.m <https://commons.wikimedia.org/wiki/File:PTFE_tape01.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.
+
+
 `Policarbonato <https://es.wikipedia.org/wiki/Policarbonato>`__
    Es muy transparente y muy resistente a los impactos por lo que se
    utiliza como sustituto del vidrio. Con él se fabrican CD, DVD, ventanas,
    cristales antibalas, escudos antidisturbios, viseras de casco de
-   motorista, paneles de separación COVID, etc.
+   motorista, paneles de separación, etc.
+
+   .. figure:: material/_images/material-policarbonato.jpg
+      :width: 320px
+      :alt: Gafas protectoras de policarbonato.
+      :align: center
+
+      Gafas protectoras de policarbonato.
+
+      `DJSparky <https://commons.wikimedia.org/wiki/File:Safety_Eyewear.jpg>`__,
+      `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.es>`__,
+      via Wikimedia Commons.
+
 
 `Metacrilato <https://es.wikipedia.org/wiki/Polimetacrilato_de_metilo>`__
    Es todavía más transparente que el policarbonato. De 10 a 20 veces más
@@ -226,6 +262,18 @@ al calor que los termoplásticos comunes.
 
    Se utiliza para fabricar fibra óptica, señales, expositores, acuarios,
    obras de arte, etc.
+
+   .. figure:: material/_images/material-metacrilato.jpg
+      :width: 320px
+      :alt: Bromo puro rodeado de un cubo de metacrilato.
+      :align: center
+
+      Bromo puro rodeado de un cubo de metacrilato.
+
+      `Alchemist-hp <https://commons.wikimedia.org/wiki/File:Safety_Eyewear.jpg>`__,
+      `CC BY-SA 3.0 Germany <https://creativecommons.org/licenses/by-sa/3.0/de/deed.es>`__,
+      via Wikimedia Commons.
+
 
 
 :index:`Termoestables`
@@ -275,12 +323,36 @@ inicial.
    Se usa en guantes, preservativos, colchones, ropa, pelotas,
    neumáticos, chicles, etc.
 
+   .. figure:: material/_images/material-latex.jpg
+      :width: 320px
+      :alt: Guante de látex.
+      :align: center
+
+      Guante de látex.
+
+      `Melkom <https://commons.wikimedia.org/wiki/File:PVC-Handschuh.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.   
+   
+
 `Neopreno <https://es.wikipedia.org/wiki/Neopreno>`__
    Su uso más conocido es la fabricación de ropa y botas para el agua que
    son aislantes térmicos (trajes de buceo).
 
    También sirve para hacer cinta adhesiva, fundas protectoras, sacos de
    dormir, etc.
+
+   .. figure:: material/_images/material-neopreno.jpg
+      :width: 320px
+      :alt: Traje de neopreno para buzos.
+      :align: center
+
+      Traje de neopreno para buzos.
+
+      `Mark.murphy <https://commons.wikimedia.org/wiki/File:Diving_suit_neoprene.jpg>`__,
+      `Public Domain <https://en.wikipedia.org/wiki/Public_domain>`__,
+      via Wikimedia Commons.
+
 
 `Silicona <https://es.wikipedia.org/wiki/Silicona>`__
    La mayoría de los polímeros son compuestos orgánicos, porque están
@@ -290,6 +362,17 @@ inicial.
 
    Se puede destacar su uso como adhesivo para vidrios de ventana y
    juntas, moldes de cocina para horno o para hielo, prótesis médicas, etc.
+
+   .. figure:: material/_images/material-silicona.jpg
+      :width: 320px
+      :alt: Pasta de silicona para sellar.
+      :align: center
+
+      Pasta de silicona para sellar.
+
+      `Achim Hering <https://commons.wikimedia.org/wiki/File:Caulking.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.   
 
 
 Cuestionarios

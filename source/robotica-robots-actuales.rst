@@ -16,8 +16,10 @@ en funcionando en los laboratorios, en los hospitales y por nuestras calles.
 
 Robot Unitree
 -------------
-Robot de cuatro patas con ruedas de Unitree Robotics, empresa
-china fundada en 2016.
+Robots de Unitree Robotics, empresa china fundada en 2016.
+
+* Vídeo: febrero de 2025. `What Dance Would You Like to Perform with Unitree G1?
+  <https://www.youtube-nocookie.com/embed/p0xFou30hWI>`__
 
 * Vídeo: diciembre de 2024. `Unitree B2-W Talent Awakening!
   <https://www.youtube-nocookie.com/embed/X2UxtKLZnNo>`__
@@ -32,7 +34,10 @@ Se ha hecho famoso por los vídeos Deep Fakes que han aparecido mostrándole
 como un robot armado y descontrolado. Aquí solo vamos a ver los vídeos de
 su funcionamiento real, cada vez más avanzado.
 
-* Vídeo: abril de 2024. `All New Atlas (Electric).
+* Vídeo: marzo 2025. `Walk, Run, Crawl, RL Fun | Atlas Electric
+  <https://www.youtube-nocookie.com/embed/I44_zbEwz_w>`__
+
+* Vídeo: abril de 2024. `All New Atlas Electric.
   <https://www.youtube-nocookie.com/embed/29ECwExc-_M>`__
 
 * Vídeo: enero de 2023. `Atlas | Atlas Gets a Grip.

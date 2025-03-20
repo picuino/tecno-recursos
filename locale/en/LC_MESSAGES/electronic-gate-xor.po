@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Picuino 2024"
+"Project-Id-Version:Picuino 2025"
 "Report-Msgid-Bugs-To:"
-"POT-Creation-Date:2024-11-07 12:56+0100"
+"POT-Creation-Date:2025-03-20 18:45+0100"
 "PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
 "Last-Translator:FULL NAME <EMAIL@ADDRESS>"
 "Language:en"
@@ -18,180 +18,194 @@ msgstr ""
 
 #: ../../source/electronic-gate-xor.rst:9
 msgid "La puerta lógica XOR"
-msgstr "The XOR logic gate"
+msgstr "THE LOGIC gate XOR"
 
 
 #: ../../source/electronic-gate-xor.rst:10
-msgid ""
-"La puerta lógica XOR tiene dos o más entradas y una salida. Su símbolo es el"
-" siguiente:"
-msgstr ""
-"The XOR logic gate has two or more inputs and one output. Its symbol is the "
-"following:"
+msgid "La puerta lógica XOR tiene dos o más entradas y una salida."
+msgstr "The Xor logic gate has two or more entries and one way out."
 
 
-#: ../../source/electronic-gate-xor.rst:18
-msgid "Símbolo de la puerta lógica XOR de dos entradas."
-msgstr "Symbol of the two-input XOR logic gate."
-
-
-#: ../../source/electronic-gate-xor.rst:20
+#: ../../source/electronic-gate-xor.rst:12
 msgid ""
 "La salida tiene un valor lógico alto (1) si la suma de las entradas es un "
-"valor impar. Es decir, si la entrada A **o** la entrada B están a nivel "
-"alto, pero no las dos a la vez, la salida estará a nivel alto. De ahí el "
-"nombre de **eXclusive OR** en inglés."
+"valor impar."
 msgstr ""
-"The output has a logic high value (1) if the sum of the inputs is an odd "
-"value. That is, if input A **or** input B are at a high level, but not both "
-"at the same time, the output will be at a high level. Hence the name "
+"The output has a high logical value (1) If the sum of the inputs is an odd "
+"value."
+
+
+#: ../../source/electronic-gate-xor.rst:15
+msgid ""
+"Es decir, si la entrada A **o** la entrada B están a nivel alto, pero no las"
+" dos a la vez, la salida estará a nivel alto. De ahí el nombre de "
+"**eXclusive OR** en inglés."
+msgstr ""
+"That is, if the entrance to **or** input B are at high level, but not both"
+" at the same time, the output will be at high level. Hence the name of "
 "**eXclusive OR** in English."
 
 
-#: ../../source/electronic-gate-xor.rst:26
+#: ../../source/electronic-gate-xor.rst:20
+msgid "El **símbolo de la puerta XOR** es el siguiente:"
+msgstr "The **gate symbol XOR** is as follows:"
+
+
+#: ../../source/electronic-gate-xor.rst:27
+msgid "Símbolo de la puerta lógica XOR de dos entradas."
+msgstr "Two -entry logic gate symbol."
+
+
+#: ../../source/electronic-gate-xor.rst:31
 msgid ""
-"La función lógica XOR se representa mediante un símbolo de suma rodeado de "
-"un círculo, de manera que la salida de la puerta será la suma lógica "
-"exclusiva de las entradas:"
+"La **función lógica de la puerta XOR** se representa mediante un símbolo de "
+"suma rodeado de un círculo, de manera que la salida de la puerta será la "
+"suma lógica exclusiva de las entradas:"
 msgstr ""
-"The logical XOR function is represented by a plus symbol surrounded by a "
-"circle, so that the output of the gate will be the exclusive logical sum of "
-"the inputs:"
+"The **logical function of the xor gate** is represented by a sum symbol "
+"surrounded by a circle, so that the exit of the gate will be the exclusive "
+"logic of the entries:"
 
 
-#: ../../source/electronic-gate-xor.rst:30
+#: ../../source/electronic-gate-xor.rst:36
 msgid "Out = A \\oplus B"
 msgstr "Out = A \\oplus B"
 
 
-#: ../../source/electronic-gate-xor.rst:34
+#: ../../source/electronic-gate-xor.rst:41
+msgid "La **tabla de verdad de la puerta XOR** es la siguiente:"
+msgstr "The **Truth Table XOR** is as follows:"
+
+
+#: ../../source/electronic-gate-xor.rst:48
+msgid "Tabla de verdad de la puerta lógica XOR de dos entradas."
+msgstr "Truth Table of the Logic gate Xor of two entries."
+
+
+#: ../../source/electronic-gate-xor.rst:50
 msgid ""
 "Si las dos entradas valen cero, la salida valdrá cero, si alguna entrada "
 "vale uno, la salida valdrá uno y si las dos entradas valen uno, la salida "
 "volverá a valer cero."
 msgstr ""
-"If both inputs have a value of zero, the output will have a value of zero, "
-"if either input has a value of one, the output will have a value of one, and"
-" if both inputs have a value of one, the output will have a value of zero "
-"again."
+"If the two entrances are worth zero, the exit will be worth zero, if any "
+"entry is worth one, the exit will be worth one and if the two entrances are "
+"worth one, the exit will be valued again."
 
 
-#: ../../source/electronic-gate-xor.rst:38
-msgid "La tabla de verdad de la función lógica XOR es la siguiente:"
-msgstr "The truth table of the XOR logic function is as follows:"
-
-
-#: ../../source/electronic-gate-xor.rst:45
-msgid "Tabla de verdad de la puerta lógica XOR de dos entradas."
-msgstr "Truth table of two-input XOR logic gate."
-
-
-#: ../../source/electronic-gate-xor.rst:49
+#: ../../source/electronic-gate-xor.rst:56
 msgid "Aplicaciones de la puerta XOR"
-msgstr "XOR Gate Applications"
+msgstr "Xor gate applications"
 
 
-#: ../../source/electronic-gate-xor.rst:50
+#: ../../source/electronic-gate-xor.rst:57
 msgid ""
 "La puerta XOR puede utilizarse para calcular el valor de paridad de todas "
 "sus entradas, de manera que las entradas junto a la salida siempre tendrán "
 "un valor par de unos."
 msgstr ""
-"The XOR gate can be used to calculate the parity value of all its inputs, so"
-" that the inputs next to the output will always have an even value of ones."
+"The Xor gate can be used to calculate the parity value of all its inputs, so"
+" that the entries next to the output will always have an even value of some."
 
 
-#: ../../source/electronic-gate-xor.rst:54
+#: ../../source/electronic-gate-xor.rst:61
 msgid ""
 "Otra aplicación de la puerta XOR es hacer sumas aritméticas de bits. La "
 "puerta XOR calcula la suma aritmética de dos bits y la puerta AND calcula el"
 " acarreo de sumar dos bits."
 msgstr ""
-"Another application of the XOR gate is to do bit arithmetic additions. The "
-"XOR gate computes the arithmetic addition of two bits and the AND gate "
-"computes the carry of adding two bits."
+"Another xor gate application is to make arithmetic bits sums. The Xor gate "
+"calculates the arithmetic sum of two bits and the gate and calculates the "
+"hauling of adding two bits."
 
 
-#: ../../source/electronic-gate-xor.rst:58
+#: ../../source/electronic-gate-xor.rst:65
 msgid ""
 "Otra aplicación de la puerta XOR es invertir o no invertir el valor de la "
 "entrada B en función de la entrada A:"
 msgstr ""
-"Another application of the XOR gate is to invert or not invert the value of "
-"input B depending on input A:"
-
-
-#: ../../source/electronic-gate-xor.rst:61
-msgid "Si la entrada A vale cero, la entrada B se copia igual en la salida."
-msgstr "If input A is zero, input B is copied to the output."
-
-
-#: ../../source/electronic-gate-xor.rst:63
-msgid ""
-"Si la entrada A  vale uno, la entrada B se copia **invertida** en la salida."
-msgstr ""
-"If input A is worth one, input B is copied **inverted** to the output."
+"Another Xor gate application is to invest or not invest the value of entry B"
+" depending on the entrance to:"
 
 
 #: ../../source/electronic-gate-xor.rst:68
+msgid "Si la entrada A vale cero, la entrada B se copia igual en la salida."
+msgstr ""
+"If the entrance to outer zero, input B is copied the same at the output."
+
+
+#: ../../source/electronic-gate-xor.rst:70
+msgid ""
+"Si la entrada A  vale uno, la entrada B se copia **invertida** en la salida."
+msgstr ""
+"If the entrance to Vale one, the entrance B is copied **inverted** in the "
+"exit."
+
+
+#: ../../source/electronic-gate-xor.rst:75
 msgid "Simulación"
 msgstr "Simulation"
 
 
-#: ../../source/electronic-gate-xor.rst:69
+#: ../../source/electronic-gate-xor.rst:76
 msgid ""
 "En la siguiente simulación podemos ver el funcionamiento de la puerta lógica"
 " XOR."
 msgstr ""
-"In the following simulation we can see the operation of the XOR logic gate."
+"In the following simulation we can see the operation of the Xor logic gate."
 
 
-#: ../../source/electronic-gate-xor.rst:80
+#: ../../source/electronic-gate-xor.rst:87
 msgid "Ejercicios"
 msgstr "Exercises"
 
 
-#: ../../source/electronic-gate-xor.rst:82
+#: ../../source/electronic-gate-xor.rst:88
+msgid "Explica con tus palabras el funcionamiento de la puerta lógica XOR."
+msgstr "Explain with your words the functioning of the logic gate Xor."
+
+
+#: ../../source/electronic-gate-xor.rst:90
 msgid ""
-"Dibuja el símbolo de la puerta lógica XOR, su función lógica y su tabla de "
-"verdad."
+"Dibuja el símbolo de la puerta lógica XOR de dos entradas, su función lógica"
+" y su tabla de verdad."
 msgstr ""
-"Draw the symbol for the XOR logic gate, its logic function, and its truth "
-"table."
+"Draw the symbol of the XOR logic gate of two entries, its logical function "
+"and its truth table."
 
 
-#: ../../source/electronic-gate-xor.rst:86
-msgid ""
-"Comprueba gracias al simulador que la tabla de verdad de la función XOR es "
-"correcta."
-msgstr ""
-"Check with the simulator that the truth table of the XOR function is "
-"correct."
+#: ../../source/electronic-gate-xor.rst:93
+msgid "Explica brevemente tres aplicaciones de la puerta lógica XOR."
+msgstr "Briefly explain three applications of the logic gate Xor."
 
 
-#: ../../source/electronic-gate-xor.rst:89
+#: ../../source/electronic-gate-xor.rst:95
 msgid ""
 "En el simulador copia el circuito que aparece en la siguiente imagen para "
 "emular el funcionamiento de la puerta XOR mediante puertas NOT, OR y AND:"
 msgstr ""
 "In the simulator, copy the circuit that appears in the following image to "
-"emulate the operation of the XOR gate using NOT, OR and AND gates:"
+"emulate the operation of the gate Xor through Not, OR and AND:"
 
 
-#: ../../source/electronic-gate-xor.rst:98
+#: ../../source/electronic-gate-xor.rst:104
 msgid "Comprueba que su funcionamiento es igual al de la puerta XOR."
-msgstr "Check that its operation is the same as that of the XOR gate."
+msgstr "Check that its operation is equal to the gate Xor."
 
 
-#: ../../source/electronic-gate-xor.rst:100
-msgid "Dibuja una puerta lógica XOR de tres entradas y su tabla de verdad."
-msgstr "Draw a three-input XOR logic gate and its truth table."
+#: ../../source/electronic-gate-xor.rst:106
+msgid ""
+"Dibuja una puerta lógica XOR de tres entradas, su función lógica y su tabla "
+"de verdad."
+msgstr ""
+"Draw a logical gate of three entries, its logical function and its truth "
+"table."
 
 
-#: ../../source/electronic-gate-xor.rst:102
+#: ../../source/electronic-gate-xor.rst:109
 msgid ""
 "Para realizar la tabla de verdad de la puerta recuerda que la salida vale "
 "uno si los bits de entrada a uno son impares."
 msgstr ""
-"To create the truth table of the gate, remember that the output is one if "
-"the input bits to one are odd."
+"To perform the gate's truth table, remember that the exit is worth one if "
+"the entrance bits are odd."

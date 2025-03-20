@@ -1,0 +1,373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the same license as the Picuino package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Picuino 2025\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-20 18:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-gray-code.rst:9
+#: ../../source/electronic-gray-code.rst:65
+#: ../../source/electronic-gray-code.rst:81
+#: ../../source/electronic-gray-code.rst:111
+#: ../../source/electronic-gray-code.rst:150
+msgid "Código Gray"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:10
+msgid ""
+"El `código Gray <https://es.wikipedia.org/wiki/C%C3%B3digo_Gray>`__, "
+"también llamado código binario reflejado, es un sistema de numeración "
+"binario que destaca porque dos números consecutivos se diferencian en un "
+"solo dígito. Esta propiedad le da ventajas a la hora de evitar falsos "
+"cambios en aplicaciones electromecánicas o de corrección de errores."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:19
+msgid "Aplicaciones del código Gray"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:40
+msgid "Encoder absolutos"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:22
+msgid ""
+"Los encoder son aparatos que detectan el giro que ha realizado un eje. "
+"Para detectar el giro se utiliza un disco transparente en algunos puntos "
+"y opaco en otros puntos. Unos sensores ópticos son capaces de reconocer "
+"la posición del eje según el código Gray que están leyendo."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:28
+msgid ""
+"En esta aplicación se utiliza el código Gray para evitar cambios bruscos "
+"de varios puntos del disco al girar el eje. Gracias a la propiedad del "
+"código Gray de cambiar solo un bit a la vez, se consiguen evitar "
+"combinaciones transitorias que den lecturas falsas."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:37
+msgid ""
+"Disco de encoder absoluto, que utiliza código Gray para evitar falsas "
+"lecturas durante el giro. Las zonas oscuras equivalen a un cero binario y"
+" las zonas claras equivalen a un uno binario."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:47
+msgid "Mapas de Karnaugh"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:43
+msgid ""
+"Más adelante estudiaremos la simplificación de funciones lógicas con "
+"mapas de Karnaugh. Estos mapas utilizan el código Gray para representar "
+"la tabla de verdad de una función lógica, de manera que aparezcan juntos "
+"los cambios de un solo bit."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:54
+msgid "Otras aplicaciones"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:50
+msgid "Resolver puzles matemáticos, como las torres de Hanoi."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:51
+msgid "Códigos de telegrafía."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:52
+msgid "Conversión de Analógico a Digital."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:53
+msgid "Corrección de errores en comunicaciones digitales."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:57
+msgid "Tablas de código Gray"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:58
+msgid "La tabla de código gray de **1 bit** es inmediata:"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:64
+#: ../../source/electronic-gray-code.rst:80
+#: ../../source/electronic-gray-code.rst:110
+#: ../../source/electronic-gray-code.rst:149
+msgid "Número"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:66
+#: ../../source/electronic-gray-code.rst:67
+#: ../../source/electronic-gray-code.rst:82
+#: ../../source/electronic-gray-code.rst:112
+#: ../../source/electronic-gray-code.rst:151
+msgid "0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:68
+#: ../../source/electronic-gray-code.rst:69
+#: ../../source/electronic-gray-code.rst:84
+#: ../../source/electronic-gray-code.rst:114
+#: ../../source/electronic-gray-code.rst:153
+msgid "1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:71
+msgid ""
+"La tabla de código gray de **2 bits** se forma copiando la tabla anterior"
+" de manera que los bits de menor peso estén \"reflejados\" verticalmente "
+"y los bits de mayor peso (a la izquierda) serán el número 0 en la primera"
+" mitad superior de la tabla y el número 1 en la mitad inferior de la "
+"tabla:"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:83
+msgid "0 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:85
+msgid "0 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:86
+#: ../../source/electronic-gray-code.rst:116
+#: ../../source/electronic-gray-code.rst:155
+msgid "2"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:87
+msgid "1 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:88
+#: ../../source/electronic-gray-code.rst:118
+#: ../../source/electronic-gray-code.rst:157
+msgid "3"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:89
+msgid "1 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:91
+msgid ""
+"Para formar la tabla, por lo tanto, reflejamos verticalmente los valores "
+"binarios y añadimos 0 arriba y 1 debajo::"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:101
+msgid ""
+"La tabla de código Gray de **3 bits** se forma de igual manera, a partir "
+"de la tabla de 2 bits \"reflejada\" verticalmente y añadiendo 0 en el bit"
+" de mayor peso de la mitad superior y añadiendo 1 al bit de mayor peso de"
+" la mitad inferior:"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:113
+msgid "0 0 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:115
+msgid "0 0 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:117
+msgid "0 1 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:119
+msgid "0 1 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:120
+#: ../../source/electronic-gray-code.rst:159
+msgid "4"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:121
+msgid "1 1 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:122
+#: ../../source/electronic-gray-code.rst:161
+msgid "5"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:123
+msgid "1 1 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:124
+#: ../../source/electronic-gray-code.rst:163
+msgid "6"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:125
+msgid "1 0 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:126
+#: ../../source/electronic-gray-code.rst:165
+msgid "7"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:127
+msgid "1 0 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:129
+msgid ""
+"Para formar la tabla, por lo tanto, reflejamos verticalmente los valores "
+"binarios de la tabla de 2 bits y añadimos 0 arriba y 1 debajo::"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:143
+msgid "Tabla de código Gray de **4 bits**:"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:152
+msgid "0 0 0 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:154
+msgid "0 0 0 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:156
+msgid "0 0 1 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:158
+msgid "0 0 1 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:160
+msgid "0 1 1 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:162
+msgid "0 1 1 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:164
+msgid "0 1 0 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:166
+msgid "0 1 0 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:167
+msgid "8"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:168
+msgid "1 1 0 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:169
+msgid "9"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:170
+msgid "1 1 0 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:171
+msgid "10"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:172
+msgid "1 1 1 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:173
+msgid "11"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:174
+msgid "1 1 1 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:175
+msgid "12"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:176
+msgid "1 0 1 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:177
+msgid "13"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:178
+msgid "1 0 1 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:179
+msgid "14"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:180
+msgid "1 0 0 1"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:181
+msgid "15"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:182
+msgid "1 0 0 0"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:186
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:188
+msgid "¿Qué es el código Gray?"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:190
+msgid "¿Qué aplicaciones tiene el código Gray?"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:192
+msgid "Dibuja el disco de un encoder absoluto con código Gray de 3 bits."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:194
+msgid ""
+"¿Por qué se utiliza el código Gray y no un código binario estándar en los"
+" discos de los encoder absolutos?"
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:197
+msgid ""
+"Dibuja una tabla de código Gray de 4 bits (desde 0 hasta 16), junto a "
+"código binario estándar."
+msgstr ""
+
+#: ../../source/electronic-gray-code.rst:200
+msgid "Dibuja una tabla de código Gray de 5 bits (desde 0 hasta 31)."
+msgstr ""
+

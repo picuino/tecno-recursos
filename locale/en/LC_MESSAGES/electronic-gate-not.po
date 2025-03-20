@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Picuino 2024"
+"Project-Id-Version:Picuino 2025"
 "Report-Msgid-Bugs-To:"
-"POT-Creation-Date:2024-11-07 12:56+0100"
+"POT-Creation-Date:2025-03-20 18:45+0100"
 "PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
 "Last-Translator:FULL NAME <EMAIL@ADDRESS>"
 "Language:en"
@@ -18,43 +18,42 @@ msgstr ""
 
 #: ../../source/electronic-gate-not.rst:9
 msgid "La puerta lógica NOT"
-msgstr "The NOT logic gate"
+msgstr "The logical gate not"
 
 
 #: ../../source/electronic-gate-not.rst:10
 msgid ""
 "Los componentes más sencillos de la electrónica digital son las **puertas "
 "lógicas**, que llevan a cabo operaciones lógicas básicas. Combinando estas "
-"puertas lógicas se puede llegar a construir circuitos mucho más complejos, "
+"puertas lógicas se pueden llegar a construir circuitos mucho más complejos, "
 "hasta llegar a los computadores modernos."
 msgstr ""
-"The simplest components of digital electronics are **logic gates**, which "
-"carry out basic logical operations. By combining these logic gates you can "
-"build much more complex circuits, up to modern computers."
+"The simplest components of digital electronics are the **logical gates**, "
+"which carry out basic logical operations. Combining these logical gates, "
+"much more complex circuits can be built, until you reach modern computers."
 
 
 #: ../../source/electronic-gate-not.rst:15
 msgid ""
 "La puerta lógica más sencilla posible es la **puerta negación**, también "
-"llamada **puerta inversora** o **puerta NOT**, cuyo símbolo se muestra a "
-"continuación:"
+"llamada **puerta inversora** o **puerta NOT**. Esta puerta invierte el valor"
+" de la señal de entrada, de manera que si la entrada vale un 1 lógico, la "
+"salida valdrá un 0 lógico y viceversa."
 msgstr ""
-"The simplest possible logic gate is the **negation gate**, also called "
-"**inverting gate** or **NOT gate**, whose symbol is shown below:"
+"The simplest logical gate is the **negation gate**, also called "
+"**Inverter gate** or **gate Not**. This gate invests the value of the input"
+" signal, so that if the input is worth a logical one, the output will be "
+"worth a logical and vice versa."
 
 
-#: ../../source/electronic-gate-not.rst:24
+#: ../../source/electronic-gate-not.rst:20
+msgid "El **símbolo de la puerta NOT** es el siguiente:"
+msgstr "The **Gate symbol Not** is as follows:"
+
+
+#: ../../source/electronic-gate-not.rst:27
 msgid "Puerta lógica NOT."
-msgstr "NOT logic gate."
-
-
-#: ../../source/electronic-gate-not.rst:26
-msgid ""
-"Esta puerta invierte el valor de la señal de entrada, de manera que si la "
-"entrada vale un 1 lógico, la salida valdrá un 0 lógico y viceversa."
-msgstr ""
-"This gate inverts the value of the input signal, so that if the input is a "
-"logic 1, the output will be a logic 0 and vice versa."
+msgstr "Logical Gate Not."
 
 
 #: ../../source/electronic-gate-not.rst:29
@@ -63,49 +62,49 @@ msgid ""
 "invierte, o niega, el valor de entrada."
 msgstr ""
 "The circle at the exit of the triangle is the one that represents that the "
-"door inverts, or negates, the input value."
+"gate invests, or denies, the entrance value."
 
 
 #: ../../source/electronic-gate-not.rst:32
 msgid ""
-"La función lógica NOT se representa mediante una línea sobre el elemento a "
-"invertir o negar:"
+"La **función lógica de la puerta NOT** se representa mediante una línea "
+"sobre el elemento a invertir o negar:"
 msgstr ""
-"The logical function NOT is represented by a line over the element to be "
-"inverted or negated:"
+"The **logical function of the not** gate is represented by a line on the "
+"element to be invest or deny:"
 
 
 #: ../../source/electronic-gate-not.rst:35
 msgid "Out = \\overline{ A }"
-msgstr "Out = \\overline{ A }"
+msgstr "Out = \\ overline {a}"
 
 
 #: ../../source/electronic-gate-not.rst:40
 msgid ""
-"A continuación podemos leer la `tabla de verdad "
+"A continuación podemos ver la `tabla de verdad "
 "<https://es.wikipedia.org/wiki/Tabla_de_verdad#Negaci%C3%B3n>`__ de la "
 "puerta NOT, que representa todos los valores posibles de entrada y de salida"
 " de la puerta lógica:"
 msgstr ""
-"Next we can read the `truth table "
-"<https://es.wikipedia.org/wiki/Truth_Table#Negaci%C3%B3n>`__ of the NOT "
-"gate, which represents all the possible input and output values ​​of the "
-"logic gate:"
+"Below we can see the `Truth Table "
+"<https://es.wikipedia.org/wiki/tabla_de_verdad#negaci%C3%B3n>` __ of the Not"
+" Puerta, which represents all possible values ​​of entry and exit of the "
+"logical gate:"
 
 
 #: ../../source/electronic-gate-not.rst:50
 msgid "Tabla de verdad de la puerta lógica NOT."
-msgstr "Truth table of the NOT logic gate."
+msgstr "Truth Table of the logic gate not."
 
 
 #: ../../source/electronic-gate-not.rst:52
 msgid "Cuando la entrada (A) vale cero, la salida (Out) valdrá uno."
-msgstr "When the input (A) is zero, the output (Out) will be one."
+msgstr "When the entry is worth zero, the output (out) will be worth one."
 
 
 #: ../../source/electronic-gate-not.rst:54
 msgid "Cuando la entrada (A) vale uno, la salida (Out) valdrá cero."
-msgstr "When the input (A) is one, the output (Out) will be zero."
+msgstr "When the entrance is worth one, the output (out) will be worth zero."
 
 
 #: ../../source/electronic-gate-not.rst:58
@@ -119,8 +118,9 @@ msgid ""
 "puede cambiar de valor y una salida que vale siempre lo contrario al valor "
 "de entrada."
 msgstr ""
-"In the following simulation we can see a NOT gate with an input that can "
-"change value and an output that is always the opposite of the input value."
+"In the following simulation we can see a Not Puerta with an entry that can "
+"change value and an exit that is always worth the opposite of the entrance "
+"value."
 
 
 #: ../../source/electronic-gate-not.rst:63
@@ -130,7 +130,7 @@ msgid ""
 "correspondencia:"
 msgstr ""
 "In the simulator the values ​​can be represented with numbers (0, 1), with "
-"logic levels (L, H) or with voltage values ​​(0V, 5V), with the following "
+"logical levels (L, H) or with voltage values ​​(0V, 5V), with the following "
 "correspondence:"
 
 
@@ -151,38 +151,38 @@ msgstr "Voltage value"
 
 #: ../../source/electronic-gate-not.rst:74
 msgid "L = LOW"
-msgstr "L = LOW"
+msgstr "L = low"
 
 
 #: ../../source/electronic-gate-not.rst:75
 msgid "0 = Cero lógico"
-msgstr "0 = Logical zero"
+msgstr "0 = logical zero"
 
 
 #: ../../source/electronic-gate-not.rst:76
 msgid "0 Voltios"
-msgstr "0 Volts"
+msgstr "0 volts"
 
 
 #: ../../source/electronic-gate-not.rst:77
 msgid "H = HIGH"
-msgstr "H = HIGH"
+msgstr "H = high"
 
 
 #: ../../source/electronic-gate-not.rst:78
 msgid "1 = Uno lógico"
-msgstr "1 = Logical one"
+msgstr "1 = logical one"
 
 
 #: ../../source/electronic-gate-not.rst:79
 msgid "5 Voltios"
-msgstr "5 Volts"
+msgstr "5 volts"
 
 
 #: ../../source/electronic-gate-not.rst:81
 msgid ""
 "Hay que clicar sobre el valor lógico de entrada para que cambie de valor."
-msgstr "You must click on the input logic value to change its value."
+msgstr "You have to click on the logical input value to change value."
 
 
 #: ../../source/electronic-gate-not.rst:91
@@ -191,41 +191,54 @@ msgstr "Exercises"
 
 
 #: ../../source/electronic-gate-not.rst:93
-msgid ""
-"¿Qué es una puerta lógica? ¿Qué se puede llegar a construir con las puertas "
-"lógicas?"
-msgstr "What is a logic gate? What can be built with logic gates?"
+msgid "¿Qué es una puerta lógica?"
+msgstr "What is a logical gate?"
 
 
-#: ../../source/electronic-gate-not.rst:96
+#: ../../source/electronic-gate-not.rst:95
+msgid "¿Qué se puede llegar a construir con las puertas lógicas?"
+msgstr "What can be built with logical gates?"
+
+
+#: ../../source/electronic-gate-not.rst:97
+msgid "Explica con tus palabras el funcionamiento de la puerta lógica NOT."
+msgstr "Explain with your words the functioning of the logic gate not."
+
+
+#: ../../source/electronic-gate-not.rst:99
 msgid ""
 "Dibuja el símbolo de la puerta NOT y escribe debajo su función lógica y sus "
 "tres diferentes nombres."
 msgstr ""
-"Draw the NOT gate symbol and write below its logical function and its three "
+"Draw the Not gate symbol and write under its logical function and its three "
 "different names."
 
 
-#: ../../source/electronic-gate-not.rst:99
-msgid "Dibuja la tabla de verdad de la puerta NOT con **valores numéricos**."
-msgstr "Draw the truth table of the NOT gate with **numeric values**."
+#: ../../source/electronic-gate-not.rst:102
+msgid ""
+"Dibuja la tabla de verdad de la puerta NOT con **valores numéricos** 0 y 1."
+msgstr ""
+"Draw the Truth Table of the Not Puerta with **numerical values​​** 0 and "
+"1."
 
 
-#: ../../source/electronic-gate-not.rst:101
-msgid "Dibuja la tabla de verdad de la puerta NOT con **niveles lógicos**."
-msgstr "Draw the truth table of the NOT gate with **logical levels**."
+#: ../../source/electronic-gate-not.rst:105
+msgid ""
+"Dibuja la tabla de verdad de la puerta NOT con **niveles lógicos** L y H."
+msgstr ""
+"Draw the Truth Table of the Not Puerta with **logical levels** L and H."
 
 
-#: ../../source/electronic-gate-not.rst:103
+#: ../../source/electronic-gate-not.rst:108
 msgid ""
 "Realiza una simulación de dos puertas NOT en serie. ¿Cómo crees que será la "
 "tabla de verdad de las dos puertas?"
 msgstr ""
-"Perform a simulation of two NOT gates in series. What do you think the two-"
-"door truth table will be like?"
+"Make a two -gate simulation in series. How do you think it will be the Truth"
+" Table of the two gates?"
 
 
-#: ../../source/electronic-gate-not.rst:106
+#: ../../source/electronic-gate-not.rst:111
 msgid ""
 "Realiza la simulación y dibuja la tabla de verdad de las dos puertas en "
 "serie."

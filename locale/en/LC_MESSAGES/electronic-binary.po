@@ -1,93 +1,87 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Picuino 2024"
-"Report-Msgid-Bugs-To:"
-"POT-Creation-Date:2024-11-07 12:56+0100"
-"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
-"Language:en"
-"Language-Team:en <LL@li.org>"
-"Plural-Forms:nplurals=2; plural=(n != 1)"
-"MIME-Version:1.0"
-"Content-Type:text/plain; charset=utf-8"
-"Content-Transfer-Encoding:8bit"
-"Generated-By:Babel 2.9.0"
-
-
+"Project-Id-Version: Picuino 2024Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2024-11-07 12:56+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-03-20 18:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../source/electronic-binary.rst:9
 msgid "El sistema binario"
 msgstr "The binary system"
-
 
 #: ../../source/electronic-binary.rst:10
 msgid ""
 "La electrónica digital funciona con dos valores válidos, encendido y "
 "apagado. El `sistema binario "
 "<https://es.wikipedia.org/wiki/Sistema_binario>`__ es un sistema de "
-"numeración que solo utiliza dos cifras, el cero (0) y el uno (1), por lo que"
-" se adapta muy bien a representar los dos estados de la electrónica digital."
+"numeración que solo utiliza dos cifras, el cero (0) y el uno (1), por lo "
+"que se adapta muy bien a representar los dos estados de la electrónica "
+"digital."
 msgstr ""
-"Digital electronics operate with two valid values, on and off. The `binary "
-"system <https://es.wikipedia.org/wiki/Sistema_binario>`__ is a numbering "
-"system that only uses two figures, zero (0) and one (1), so it is very "
-"adaptable well to represent the two states of digital electronics."
-
+"Digital electronics operate with two valid values, on and off. The "
+"`binary system <https://es.wikipedia.org/wiki/Sistema_binario>`__ is a "
+"numbering system that only uses two figures, zero (0) and one (1), so it "
+"is very adaptable well to represent the two states of digital "
+"electronics."
 
 #: ../../source/electronic-binary.rst:17
 msgid ""
-"Casi todas las computadoras modernas están basadas en electrónica digital y "
-"su sistema de numeración y de representación de la información es el sistema"
-" binario."
+"Casi todas las computadoras modernas están basadas en electrónica digital"
+" y su sistema de numeración y de representación de la información es el "
+"sistema binario."
 msgstr ""
 "Almost all modern computers are based on digital electronics and their "
 "numbering and information representation system is the binary system."
-
 
 #: ../../source/electronic-binary.rst:23
 msgid "Contar en binario"
 msgstr "Counting in binary"
 
-
 #: ../../source/electronic-binary.rst:24
 msgid ""
-"En la siguiente tabla se presentan los 16 primeros números en decimal y en "
-"binario, comenzando por el cero y terminando en el valor quince:"
+"En la siguiente tabla se presentan los 16 primeros números en decimal y "
+"en binario, comenzando por el cero y terminando en el valor quince:"
 msgstr ""
 "The following table shows the first 16 numbers in decimal and binary, "
 "starting with zero and ending with the value fifteen:"
 
-
 #: ../../source/electronic-binary.rst:32
 msgid ""
-"Como se puede observar, hay ciertas normas en los números binarios que nos "
-"pueden ayudar a construir la tabla con la cuenta en binario:"
+"Como se puede observar, hay ciertas normas en los números binarios que "
+"nos pueden ayudar a construir la tabla con la cuenta en binario:"
 msgstr ""
-"As you can see, there are certain rules in binary numbers that can help us "
-"build the table with the binary count:"
-
+"As you can see, there are certain rules in binary numbers that can help "
+"us build the table with the binary count:"
 
 #: ../../source/electronic-binary.rst:35
 msgid "En binario solo utilizan los dígitos cero y uno."
 msgstr "In binary they only use the digits zero and one."
 
-
 #: ../../source/electronic-binary.rst:37
 msgid "El cero decimal corresponde con todos los dígitos binarios a cero."
 msgstr "Decimal zero corresponds to all binary digits to zero."
 
-
 #: ../../source/electronic-binary.rst:39
 msgid ""
 "El dígito binario más a la derecha, que es el de menos valor, cambia "
-"constantemente de cero a uno a medida que contamos un número más. 0 1 0 1 0 "
-"1 0 1 ..."
+"constantemente de cero a uno a medida que contamos un número más. 0 1 0 1"
+" 0 1 0 1 ..."
 msgstr ""
 "The rightmost binary digit, which is the one with the least value, "
-"constantly changes from zero to one as we count one more number. 0 1 0 1 0 1"
-" 0 1 ..."
-
+"constantly changes from zero to one as we count one more number. 0 1 0 1 "
+"0 1 0 1 ..."
 
 #: ../../source/electronic-binary.rst:43
 msgid ""
@@ -97,7 +91,6 @@ msgstr ""
 "The second binary digit starting from the right changes every **two** "
 "numbers from zero to one. 0 0 1 1 0 0 1 1 ..."
 
-
 #: ../../source/electronic-binary.rst:47
 msgid ""
 "El tercer dígito binario comenzando a la derecha cambia cada **cuatro** "
@@ -106,174 +99,157 @@ msgstr ""
 "The third binary digit starting from the right changes every **four** "
 "numbers from zero to one. 0 0 0 0 1 1 1 1 ..."
 
-
 #: ../../source/electronic-binary.rst:51
 msgid ""
-"El cuarto dígito binario comenzando a la derecha, que es el de más valor, "
-"cambia cada **ocho** números desde cero hasta uno. 0 0 0 0 0 0 0 0 1 1 1 1 1"
-" 1 1 1."
+"El cuarto dígito binario comenzando a la derecha, que es el de más valor,"
+" cambia cada **ocho** números desde cero hasta uno. 0 0 0 0 0 0 0 0 1 1 1"
+" 1 1 1 1 1."
 msgstr ""
-"The fourth binary digit starting from the right, which is the one with the "
-"highest value, changes every **eight** numbers from zero to one. 0 0 0 0 0 0"
-" 0 0 1 1 1 1 1 1 1 1."
-
+"The fourth binary digit starting from the right, which is the one with "
+"the highest value, changes every **eight** numbers from zero to one. 0 0 "
+"0 0 0 0 0 0 1 1 1 1 1 1 1 1."
 
 #: ../../source/electronic-binary.rst:58
 msgid "Conversión de decimal a binario"
 msgstr "Decimal to Binary Conversion"
 
-
 #: ../../source/electronic-binary.rst:59
 msgid ""
 "Los humanos estamos acostumbrados a contar y ver números en notación "
-"decimal, por lo que es conveniente saber convertir cualquier número decimal "
-"a notación binaria."
+"decimal, por lo que es conveniente saber convertir cualquier número "
+"decimal a notación binaria."
 msgstr ""
-"Humans are used to counting and seeing numbers in decimal notation, so it is"
-" convenient to know how to convert any decimal number to binary notation."
-
+"Humans are used to counting and seeing numbers in decimal notation, so it"
+" is convenient to know how to convert any decimal number to binary "
+"notation."
 
 #: ../../source/electronic-binary.rst:63
 msgid ""
-"Para convertir un número decimal a binario dividiremos el número entre dos "
-"consecutivamente hasta que no quede ningún valor que dividir. El número "
-"binario saldrá de los restos de las divisiones consecutivas, de manera que "
-"el primer resto obtenido será el dígito binario de menos peso y el último "
-"resto obtenido será el dígito binario de mayor peso:"
+"Para convertir un número decimal a binario dividiremos el número entre "
+"dos consecutivamente hasta que no quede ningún valor que dividir. El "
+"número binario saldrá de los restos de las divisiones consecutivas, de "
+"manera que el primer resto obtenido será el dígito binario de menos peso "
+"y el último resto obtenido será el dígito binario de mayor peso:"
 msgstr ""
 "To convert a decimal number to binary we will divide the number by two "
-"consecutively until there is no value left to divide. The binary number will"
-" come from the remainders of the consecutive divisions, so that the first "
-"remainder obtained will be the binary digit with the least weight and the "
-"last remainder obtained will be the binary digit with the greatest weight:"
-
+"consecutively until there is no value left to divide. The binary number "
+"will come from the remainders of the consecutive divisions, so that the "
+"first remainder obtained will be the binary digit with the least weight "
+"and the last remainder obtained will be the binary digit with the "
+"greatest weight:"
 
 #: ../../source/electronic-binary.rst:74 ../../source/electronic-binary.rst:84
 msgid ""
 "Proceso para convertir un número decimal a binario dividiendo "
 "consecutivamente por dos."
 msgstr ""
-"Process to convert a decimal number to binary by dividing consecutively by "
-"two."
-
+"Process to convert a decimal number to binary by dividing consecutively "
+"by two."
 
 #: ../../source/electronic-binary.rst:77
 msgid "Otro ejemplo de conversión del número decimal 146 a binario:"
 msgstr "Another example of converting the decimal number 146 to binary:"
 
-
 #: ../../source/electronic-binary.rst:89
 msgid "Conversión de binario a decimal"
 msgstr "Binary to decimal conversion"
 
-
 #: ../../source/electronic-binary.rst:90
 msgid ""
-"Una forma sencilla de convertir un número binario en número decimal consiste"
-" en crear una tabla con el valor de cada dígito binario."
+"Una forma sencilla de convertir un número binario en número decimal "
+"consiste en crear una tabla con el valor de cada dígito binario."
 msgstr ""
-"A simple way to convert a binary number to a decimal number is to create a "
-"table with the value of each binary digit."
-
+"A simple way to convert a binary number to a decimal number is to create "
+"a table with the value of each binary digit."
 
 #: ../../source/electronic-binary.rst:93
 msgid ""
-"El primer dígito binario a la derecha, el de menor valor, tiene un valor de "
-"uno (1). El segundo dígito binario por la derecha tiene un valor de dos (2)."
-" Los valores van aumentando así, multiplicándose por dos. En la octava "
-"posición, el valor del dígito binario es de 128."
+"El primer dígito binario a la derecha, el de menor valor, tiene un valor "
+"de uno (1). El segundo dígito binario por la derecha tiene un valor de "
+"dos (2). Los valores van aumentando así, multiplicándose por dos. En la "
+"octava posición, el valor del dígito binario es de 128."
 msgstr ""
-"The first binary digit to the right, the one with the smallest value, has a "
-"value of one (1). The second binary digit from the right has a value of two "
-"(2). The values ​​increase like this, multiplying by two. In the eighth "
-"position, the value of the binary digit is 128."
-
+"The first binary digit to the right, the one with the smallest value, has"
+" a value of one (1). The second binary digit from the right has a value "
+"of two (2). The values ​​increase like this, multiplying by two. In the "
+"eighth position, the value of the binary digit is 128."
 
 #: ../../source/electronic-binary.rst:99
 msgid ""
-"Una vez construida la tabla de los valores de cada dígito binario, solo es "
-"necesario sumar aquellos valores que corresponden a un uno en el número "
-"binario:"
+"Una vez construida la tabla de los valores de cada dígito binario, solo "
+"es necesario sumar aquellos valores que corresponden a un uno en el "
+"número binario:"
 msgstr ""
-"Once the table of the values ​​of each binary digit has been constructed, it"
-" is only necessary to add those values ​​that correspond to a one in the "
-"binary number:"
-
+"Once the table of the values ​​of each binary digit has been constructed,"
+" it is only necessary to add those values ​​that correspond to a one in "
+"the binary number:"
 
 #: ../../source/electronic-binary.rst:108
 msgid "Conversión de binario a decimal."
 msgstr "Binary to decimal conversion."
 
-
 #: ../../source/electronic-binary.rst:112
 msgid "Ejercicios"
 msgstr "Exercises"
 
-
 #: ../../source/electronic-binary.rst:114
 msgid ""
-"Haz una tabla con los números binarios desde el cero hasta el 31 utilizando "
-"las normas que se han descrito en el apartado de 'Contar en binario'."
+"Haz una tabla con los números binarios desde el cero hasta el 31 "
+"utilizando las normas que se han descrito en el apartado de 'Contar en "
+"binario'."
 msgstr ""
 "Make a table with the binary numbers from zero to 31 using the rules "
 "described in the 'Counting in binary' section."
 
-
 #: ../../source/electronic-binary.rst:118
+msgid "Recuerda dejar espacio suficiente para 5 dígitos binarios."
+msgstr ""
+
+#: ../../source/electronic-binary.rst:120
 msgid "Convierte los siguientes números de decimal a binario:"
 msgstr "Convert the following numbers from decimal to binary:"
 
-
-#: ../../source/electronic-binary.rst:120
+#: ../../source/electronic-binary.rst:122
 msgid "97"
 msgstr "97"
 
-
-#: ../../source/electronic-binary.rst:122
+#: ../../source/electronic-binary.rst:124
 msgid "137"
 msgstr "137"
 
-
-#: ../../source/electronic-binary.rst:124
+#: ../../source/electronic-binary.rst:126
 msgid "156"
 msgstr "156"
 
-
-#: ../../source/electronic-binary.rst:126
+#: ../../source/electronic-binary.rst:128
 msgid "229"
 msgstr "229"
 
-
-#: ../../source/electronic-binary.rst:128
+#: ../../source/electronic-binary.rst:130
 msgid "245"
 msgstr "245"
 
-
-#: ../../source/electronic-binary.rst:130
+#: ../../source/electronic-binary.rst:132
 msgid "Convierte los siguientes números de binario a decimal:"
 msgstr "Convert the following numbers from binary to decimal:"
 
-
-#: ../../source/electronic-binary.rst:132
+#: ../../source/electronic-binary.rst:134
 msgid "1  0  0  0  1  1  1  1"
 msgstr "1 0 0 0 1 1 1 1"
 
-
-#: ../../source/electronic-binary.rst:134
+#: ../../source/electronic-binary.rst:136
 msgid "1  0  1  0  0  1  1  0"
 msgstr "1 0 1 0 0 1 1 0"
 
-
-#: ../../source/electronic-binary.rst:136
+#: ../../source/electronic-binary.rst:138
 msgid "1  1  0  0  0  1  1  1"
 msgstr "1 1 0 0 0 1 1 1"
 
-
-#: ../../source/electronic-binary.rst:138
+#: ../../source/electronic-binary.rst:140
 msgid "1  1  1  0  1  1  0  0"
 msgstr "1 1 1 0 1 1 0 0"
 
-
-#: ../../source/electronic-binary.rst:140
+#: ../../source/electronic-binary.rst:142
 msgid "1  1  1  1  1  1  0  1"
 msgstr "1 1 1 1 1 1 0 1"
+
