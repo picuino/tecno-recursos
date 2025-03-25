@@ -16,6 +16,11 @@ y la resistencia eléctrica del circuito.
    :width: 303px
 
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
+
 Magnitudes y unidades
 ---------------------
 La ley de Ohm, por lo tanto, relaciona tres magnitudes eléctricas que

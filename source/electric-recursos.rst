@@ -8,6 +8,11 @@
 Recursos para electricidad
 ==========================
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
+
 Cuestionarios de electricidad
 -----------------------------
 

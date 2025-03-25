@@ -25,6 +25,11 @@ los generadores, conductores, receptores y elementos de control.
 A continuación se estudiarán con más detalle.
 
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
+
 Generadores
 -----------
 Estos componentes son los encargados de generar corriente eléctrica.

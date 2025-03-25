@@ -17,6 +17,11 @@ Todos los aparatos eléctricos tienen la obligación de informar de su
 consumo de potencia en una etiqueta.
 
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
+
 Fórmula de la potencia eléctrica
 --------------------------------
 Otra forma de conocer el consumo de potencia de un aparato es calcularlo

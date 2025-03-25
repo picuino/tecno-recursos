@@ -116,6 +116,7 @@ Propiedades ecológicas de los plásticos
 Se pueden fundir o derretir a temperaturas no muy altas y vuelven a
 endurecerse cuando se enfrían.
 
+
 `Tereftalato de polietileno (PET) <https://es.wikipedia.org/wiki/Tereftalato_de_polietileno>`__
    Muy usado en envases de bebidas y textiles.
 
@@ -130,6 +131,7 @@ endurecerse cuando se enfrían.
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
       via Wikimedia Commons.
 
+
 `Polietileno (PE) <https://es.wikipedia.org/wiki/Polietileno>`__
    Es uno de los plásticos más comunes por su bajo precio.
    Se usa en bolsas, film transparente, tuberías, envases, etc.
@@ -139,14 +141,24 @@ endurecerse cuando se enfrían.
       * Polietileno de alta densidad **PEAD**
       * Polietileno de baja densidad **PEBD**
 
+
 `Cloruro de polivinilo (PVC) <https://es.wikipedia.org/wiki/Cloruro_de_polivinilo>`__
    PVC rígido: se utiliza en envases, ventanas, tuberías.
 
    PVC flexible: se utiliza para fabricar recubrimiento de cables,
    juguetes, calzados, suelos, etc.
-   
-   
-   
+
+   .. figure:: material/_images/material-pvc.jpg
+      :width: 320px
+      :alt: Tubería y codo de PVC.
+      :align: center
+
+      Tubería y codo de PVC.
+
+      `UsKhalid <https://commons.wikimedia.org/wiki/File:The_PVC_pipe.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.
+
 
 `Polipropileno (PP) <https://es.wikipedia.org/wiki/Polipropileno>`__
    Es el plástico más utilizado después del Polietileno.
@@ -164,6 +176,7 @@ endurecerse cuando se enfrían.
       `Hispalois <https://commons.wikimedia.org/wiki/File:Caja_CD_polipropileno.JPG>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
       via Wikimedia Commons.
+
 
 `Poliestireno (PS) <https://es.wikipedia.org/wiki/Poliestireno>`__
    Este plástico se funde con temperaturas relativamente bajas (100ºC).
@@ -188,15 +201,18 @@ Símbolos de reciclaje
    Los termoplásticos suelen identificarse con un símbolo que indica
    su composición, para facilitar su reciclaje.
 
-   .. image:: material/_images/material-plasticos-simbolos-reciclables.jpg
-      :alt: Símbolos de los diferentes plásticos reciclables
+   .. figure:: material/_images/material-plasticos-simbolos-reciclables.jpg
+      :alt: Símbolos de los diferentes plásticos reciclables.
       :align: center
+      
+      Símbolos de los diferentes plásticos reciclables.
 
 
 :index:`Termoplásticos de altas prestaciones`
 ---------------------------------------------
 Son termoplásticos con mejores prestaciones mecánicas y de resistencia
 al calor que los termoplásticos comunes.
+
 
 `Nailon <https://es.wikipedia.org/wiki/Nailon>`__
    Se usa para hacer hilos muy resistentes como los de las medias,
@@ -290,10 +306,34 @@ madera.
    Aún hoy usa para fabricar mangos de sartén y asas para enseres de
    cocina, terminales eléctricos, etc.
 
+   .. figure:: material/_images/material-baquelita.jpg
+      :width: 320px
+      :alt: Teléfono fabricado con baquelita.
+      :align: center
+
+      Teléfono fabricado con baquelita.
+
+      `Holger Ellgaard <https://es.wikipedia.org/wiki/Archivo:Ericsson_bakelittelefon_1931.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.
+
+
 `Melamina <https://es.wikipedia.org/wiki/Melamina>`__
    Su uso más conocido es para cubrir la madera aglomerada junto a papel
    de colores o imitación a madera. A los muebles que utilizan esta técnica
    se les llama también muebles de melamina.
+
+   .. figure:: material/_images/material-melamina.jpg
+      :width: 320px
+      :alt: Tablero de madera recubierto de melamina.
+      :align: center
+
+      Tablero de madera recubierto de melamina.
+
+      `Laidler139 <https://commons.wikimedia.org/wiki/File:MFBs.jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.
+
 
 `Resina epoxi <https://es.wikipedia.org/wiki/Epoxi>`__
    Se usa para hacer adhesivos de dos componentes muy resistentes con los
@@ -304,10 +344,33 @@ madera.
    de automóviles de carreras, contenedores de vidrio, placas de circuito
    impreso, etc.
 
+   .. figure:: material/_images/material-epoxi.jpg
+      :width: 320px
+      :alt: Contenedor de fibra de vidrio con resina epoxi.
+      :align: center
+
+      Contenedor de fibra de vidrio con resina epoxi.
+
+      `Diario de Madrid <https://commons.wikimedia.org/wiki/File:Comienza_la_recogida_de_vidrio_%E2%80%98puerta_a_puerta%E2%80%99_en_zonas_de_alta_densidad_hostelera_(02).jpg>`__,
+      `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
+      via Wikimedia Commons.
+
+
 `Poliuretano <https://es.wikipedia.org/wiki/Poliuretano>`__
    Su uso más conocido es la fabricación de espumas adhesivas que sirven
    como aislante térmico de paredes o para pegar marcos de puertas y
    ventanas con gran capacidad de relleno de huecos.
+
+   .. figure:: material/_images/material-poliuretano.jpg
+      :width: 320px
+      :alt: Esponja de poliuretano.
+      :align: center
+
+      Esponja de poliuretano.
+
+      `Pieria <https://commons.wikimedia.org/wiki/File:Urethane_sponge1.jpg>`__,
+      `Public Domain <https://en.wikipedia.org/wiki/Public_domain>`__,
+      via Wikimedia Commons.
 
 
 :index:`Elastómeros`
@@ -332,8 +395,8 @@ inicial.
 
       `Melkom <https://commons.wikimedia.org/wiki/File:PVC-Handschuh.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.   
-   
+      via Wikimedia Commons.
+
 
 `Neopreno <https://es.wikipedia.org/wiki/Neopreno>`__
    Su uso más conocido es la fabricación de ropa y botas para el agua que
@@ -372,7 +435,7 @@ inicial.
 
       `Achim Hering <https://commons.wikimedia.org/wiki/File:Caulking.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.   
+      via Wikimedia Commons.
 
 
 Cuestionarios
