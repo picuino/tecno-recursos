@@ -5,9 +5,9 @@
 
 .. informatica-tutocalc:
 
-Tutorial de Calc
-================
-Tutorial para aprender a manejar una hoja de cálculo
+Prácticas guiadas de Calc
+=========================
+Tutorial de prácticas guiadas para aprender a manejar una hoja de cálculo
 con el programa de código libre LibreOffice Calc, en Castellano.
 
 Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`__.
@@ -88,16 +88,6 @@ Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`__.
      - `Recurso 33 <../_static/tutorial-calc/calc/cas/pract/almac/rec/recursop33.zip>`__
    * - 34. `Opciones de impresión <../_static/tutorial-calc/calc/cas/pract/p34c.htm>`__
      -
-
-
-Ejercicios de Calc
-------------------
-
-`Recursos necesarios para realizar algunos ejercicios. <../_static/tutorial-calc/calc/ex/ejcalc.zip>`__
-
-`Índice general de prácticas Calc <../_static/tutorial-calc/calc/index.html>`__
-
-Seleccionar 'Castellano' y a continuación 'Ejercicios propuestos' en la pestaña superior.
 
 
 Créditos

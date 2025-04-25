@@ -25,8 +25,9 @@ sola tesela.
    :align: center
    :width: 640px
 
-   Teselado con tesela sombrero. Las teselas rojas están dispuestas
-   bocabajo, como en imagen en espejo, con respecto a las demás.
+   Teselado con tesela sombrero.
+   Las teselas están coloreadas con cuatro colores, de manera que 
+   ninguna tesela toca otra del mismo color.
 
 :download:`Teselado sombrero. Formato PDF.
 <taller/taller-figura-hat-03c.pdf>`
@@ -37,7 +38,7 @@ Ejercicio
 Imprime el siguiente documento en el que aparecen teselas sombrero.
 Coloca las teselas en un plano para que formen un teselado no periódico.
 Colorea las teselas con cuatro colores distintos, de manera que no se
-toquen dos colores iguales.
+toquen dos teselas con colores iguales.
 
 |  :download:`Teselas sombrero. Formato PDF.
    <taller/taller-figura-hat-02.pdf>`

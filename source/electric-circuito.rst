@@ -93,7 +93,7 @@ Cobre:
       :align: center
       :alt: Cable de cobre.
        
-      Cable de cobre, de 3 hilos únicos de 2.5mm de diámetro cada uno.
+      Cable de cobre con 3 hilos de 2.5mm2 de sección cada uno.
        
       `Petar Milošević <https://commons.wikimedia.org/wiki/File:Electric_guide_3%C3%972.5_mm.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
