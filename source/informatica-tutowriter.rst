@@ -5,10 +5,10 @@
 
 .. informatica-tutowriter:
 
-Tutorial de Writer
-==================
+Prácticas guiadas de Writer
+===========================
 
-Tutorial para aprender a editar textos
+Tutorial de prácticas guiadas para aprender a editar textos
 con el programa de código libre LibreOffice Writer, en Castellano.
 
 Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`__.

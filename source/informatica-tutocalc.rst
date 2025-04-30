@@ -7,7 +7,7 @@
 
 Prácticas guiadas de Calc
 =========================
-Tutorial de prácticas guiadas para aprender a manejar una hoja de cálculo
+Tutorial de prácticas guiadas para aprender a manejar hojas de cálculo
 con el programa de código libre LibreOffice Calc, en Castellano.
 
 Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`__.
