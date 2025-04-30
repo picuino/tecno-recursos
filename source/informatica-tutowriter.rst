@@ -14,7 +14,7 @@ con el programa de código libre LibreOffice Writer, en Castellano.
 Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`__.
 
 0. `Primeros pasos <../_static/tutorial-writer/writer/cas/pract/p00c.htm>`__
-1. `Formatos de los documentos <../_static/tutorial-writer/writer/cas/pract/p01c.htm>`__
+#. `Formatos de los documentos <../_static/tutorial-writer/writer/cas/pract/p01c.htm>`__
 #. `Operaciones básicas <../_static/tutorial-writer/writer/cas/pract/p02c.htm>`__
 #. `Operaciones básicas (II) <../_static/tutorial-writer/writer/cas/pract/p03c.htm>`__
 #. `Operaciones básicas (III) <../_static/tutorial-writer/writer/cas/pract/p04c.htm>`__
@@ -64,16 +64,6 @@ Basado en tecnología Flash emulada con `Ruffle <https://ruffle.rs/>`__.
 #. `Combinar correspondencia <../_static/tutorial-writer/writer/cas/pract/p48c.htm>`__
 #. `Combinar correspondencia (II) <../_static/tutorial-writer/writer/cas/pract/p49c.htm>`__
 #. `Opciones de impresión <../_static/tutorial-writer/writer/cas/pract/p50c.htm>`__
-
-
-Ejercicios de Writer
---------------------
-
-`Recursos necesarios para realizar algunos ejercicios. <../_static/tutorial-writer/writer/ex/ejwriter.zip>`__
-
-`Índice general de prácticas Writer <../_static/tutorial-writer/writer/index.html>`__
-
-Seleccionar 'Castellano' y a continuación 'Ejercicios propuestos' en la pestaña superior.
 
 
 Créditos
