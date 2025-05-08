@@ -9,13 +9,13 @@
 Sistema eléctrico español
 =========================
 
-.. figure:: electric/sistema-electrico-espanol/sistema-electrico-espanol-2022.png
+.. figure:: electric/sistema-electrico-espanol/sistema-electrico-espanol-2024.png
    :align: center
-   :alt: Mural del sistema eléctrico español 2022
+   :alt: Mural del sistema eléctrico español 2024
 
-Mural del sistema eléctrico español hasta el año 2022.
+Mural del sistema eléctrico español hasta el año 2024.
 El mural contiene gráficas de la potencia instalada y de la potencia
-generada en 2022 en formato tarta.
+generada en 2024 en formato tarta.
 También contiene gráficas de la evolución de la generación de energía
 eléctrica en los últimos años y de la evolución de la potencia instalada
 eólica y solar en formato de gráfico de barras.
@@ -28,12 +28,12 @@ También se puede realizar el mural en formato de hoja de cálculo en el
 aula de informática a partir de la hoja de cálculo con los datos.
 
 
-| :download:`Sistema eléctrico español 2022. Para el profesor. Formato XLS.
-  <electric/sistema-electrico-espanol/sistema-electrico-espanol-2022.xls>`
-| :download:`Sistema eléctrico español 2020. Para los alumnos. Formato XLS.
-  <electric/sistema-electrico-espanol/sistema-electrico-espanol-2022-alumnos.xls>`
-| :download:`Sistema eléctrico español 2022. Datos y mural. Formato PDF.
-  <electric/sistema-electrico-espanol/sistema-electrico-espanol-2022.pdf>`
+| :download:`Sistema eléctrico español 2024. Para el profesor. Formato XLS.
+  <electric/sistema-electrico-espanol/sistema-electrico-espanol-2024.xls>`
+| :download:`Sistema eléctrico español 2024. Gráficos. Formato PDF.
+  <electric/sistema-electrico-espanol/sistema-electrico-espanol-2024-graph.pdf>`
+| :download:`Sistema eléctrico español 2024. Datos. Formato PDF.
+  <electric/sistema-electrico-espanol/sistema-electrico-espanol-2024-datos.pdf>`
 
 Se adjunta una plantilla para realizar los gráficos de tarta.
 
