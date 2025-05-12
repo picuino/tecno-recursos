@@ -16,14 +16,14 @@ y puertas OR simplemente negando o invirtiendo las entradas y salidas:
    :width: 296px
    :align: center
    :alt: Transformación de OR con entradas negadas en NAND.
-   
+
    Transformación de OR con entradas negadas en NAND.
 
 .. figure:: electronic/_images/electronic-morgan-laws-02.png
    :width: 296px
    :align: center
    :alt: Transformación de AND con entradas negadas en NOR.
-   
+
    Transformación de AND con entradas negadas en NOR.
 
 En forma de fórmula lógica las expresiones serían:
@@ -39,28 +39,28 @@ En forma de fórmula lógica las expresiones serían:
 
 Otra forma de expresar las leyes de De Morgan es:
 
-* Una puerta OR con todas sus entradas y salidas invertidas o negadas 
+* Una puerta OR con todas sus entradas y salidas invertidas o negadas
   es equivalente a una puerta AND.
 
   .. figure:: electronic/_images/electronic-morgan-laws-04.png
      :width: 296px
      :align: center
      :alt: Transformación de una puerta OR toda negada a puerta AND.
-   
+
      Transformación de una puerta OR toda negada a puerta AND.
 
   .. math::
 
      \overline{ \overline{A} + \overline{B} } = A \cdot B
 
-* Una puerta AND con todas sus entradas y salidas invertidas o negadas 
+* Una puerta AND con todas sus entradas y salidas invertidas o negadas
   es equivalente a una puerta OR.
-  
+
   .. figure:: electronic/_images/electronic-morgan-laws-03.png
      :width: 296px
      :align: center
      :alt: Transformación de una puerta AND toda negada a puerta OR.
-   
+
      Transformación de una puerta AND toda negada a puerta OR.
 
   .. math::
@@ -70,7 +70,7 @@ Otra forma de expresar las leyes de De Morgan es:
 
 Doble negación
 --------------
-Hay que recordar del apartado dedicado a la puerta NOT, que una doble 
+Hay que recordar del apartado dedicado a la puerta NOT, que una doble
 negación se cancela resultando en una línea sin negación:
 
 .. figure:: electronic/_images/electronic-morgan-laws-05.png
@@ -81,7 +81,7 @@ negación se cancela resultando en una línea sin negación:
    Una doble negación se cancela entre sí.
 
 Conociendo las leyes de De Morgan y esta última ley, podremos intercambiar
-siempre cualquier puerta OR por una puerta AND y viceversa, 
+siempre cualquier puerta OR por una puerta AND y viceversa,
 independientemente de las entradas y salidas que tenga negadas.
 
 Simulación
@@ -113,8 +113,8 @@ Ejercicios
 
 #. Transforma las siguientes puertas lógicas para que utilicen la puerta
    alternativa según las leyes de De Morgan.
-   
-   
+
+
 .. figure:: electronic/_images/electronic-morgan-laws-06.png
    :width: 264px
    :align: center

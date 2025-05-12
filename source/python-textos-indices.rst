@@ -129,7 +129,7 @@ Ejercicios
 ----------
 
 #. Escribe una función que imprima uno a uno todos los caracteres
-   de una cadena de texto que le pasemos como argumento, sin 
+   de una cadena de texto que le pasemos como argumento, sin
    utilizar índices.
 
    Llama a la función dos veces con dos cadenas de texto distintas.
@@ -139,7 +139,7 @@ Ejercicios
        def deletrea(texto):
            for c in ... :
                print( ... )
-       
+
        deletrea('Hola, mundo')
        deletrea( ... )
 
@@ -149,13 +149,13 @@ Ejercicios
    índices.
 
    Llama a la función dos veces con dos cadenas de texto distintas.
-   
+
    Pista::
-   
+
        def deletrea(texto):
            for i in range(len(texto)):
                print( ... )
-       
+
        deletrea('Hola, mundo')
        deletrea('En un lugar de la mancha')
 

@@ -59,15 +59,15 @@ impulsada por la fundación Raspberry Pi,
 dedicada a promover la informática y el pensamiento computacional
 entre los estudiantes de todas las edades.
 
-#. `Estrategias para resolver problemas. 
+#. `Estrategias para resolver problemas.
    <../_static/document/prog-bebras-estrategias.pdf>`__
-#. `Tarjetas de desafío. Tanda 1. 
+#. `Tarjetas de desafío. Tanda 1.
    <../_static/document/prog-bebras-desafio-tanda-1.pdf>`__
-#. `Tarjetas de desafío. Tanda 1. 
+#. `Tarjetas de desafío. Tanda 1.
    <../_static/document/prog-bebras-desafio-tanda-2.pdf>`__
-#. `Tarjetas Bebras versión 2. 
+#. `Tarjetas Bebras versión 2.
    <../_static/document/prog-bebras-tarjetas-v2.pdf>`__
-#. `Tarjetas Bebras versión 2. Respuestas. 
+#. `Tarjetas Bebras versión 2. Respuestas.
    <../_static/document/prog-bebras-tarjetas-v2-respuestas.pdf>`__
 
 

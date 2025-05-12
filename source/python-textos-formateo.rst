@@ -35,7 +35,7 @@ Ejemplo::
 Ejercicios
 ----------
 
-#. Repite el siguiente ejercicio cambiando el valor de la variable 
+#. Repite el siguiente ejercicio cambiando el valor de la variable
    'nombre' con tu propio nombre.
 
    Ejercicio::
@@ -49,8 +49,8 @@ Ejercicios
    Salida::
 
                    Anselmo
-      Anselmo             
-            Anselmo       
+      Anselmo
+            Anselmo
       ______Anselmo_______
 
 
@@ -96,7 +96,7 @@ Ejercicios
        3.142e+00
 
 
-#. Repite el siguiente ejercicio cambiando el valor de los números 
+#. Repite el siguiente ejercicio cambiando el valor de los números
    utilizados para que aparezcan otros caracteres Unicode.
 
    Ejercicio::
@@ -166,12 +166,12 @@ Ejercicios
    Recuerda que los valores hexadecimales deben estar en mayúsculas y
    tener dos cifras obligatoriamente.
    La manera de convertir una variable a hexadecimal que tenga siempre
-   dos cifras es añadir a la variable el siguiente formato: 
+   dos cifras es añadir a la variable el siguiente formato:
    ``f'{variable:02X}'``.
 
 
    Ejemplo::
-      
+
       def color_hex(red, green, blue):
          print(f' ... ')
 

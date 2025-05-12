@@ -9,9 +9,9 @@ Código Gray
 ===========
 El `código Gray <https://es.wikipedia.org/wiki/C%C3%B3digo_Gray>`__,
 también llamado código binario reflejado, es un sistema de numeración
-binario que destaca porque dos números consecutivos se diferencian 
+binario que destaca porque dos números consecutivos se diferencian
 en un solo dígito.
-Esta propiedad le da ventajas a la hora de evitar falsos cambios 
+Esta propiedad le da ventajas a la hora de evitar falsos cambios
 en aplicaciones electromecánicas o de corrección de errores.
 
 
@@ -24,12 +24,12 @@ Encoder absolutos
    puntos y opaco en otros puntos.
    Unos sensores ópticos son capaces de reconocer la posición del eje
    según el código Gray que están leyendo.
-   
+
    En esta aplicación se utiliza el código Gray para evitar cambios
    bruscos de varios puntos del disco al girar el eje.
    Gracias a la propiedad del código Gray de cambiar solo un bit a la vez,
    se consiguen evitar combinaciones transitorias que den lecturas falsas.
-   
+
    .. figure:: electronic/_images/electronic-encoder-gray.png
       :align: center
       :width: 320px
@@ -69,7 +69,7 @@ La tabla de código gray de **1 bit** es inmediata:
         - 1
 
 La tabla de código gray de **2 bits** se forma copiando la tabla anterior
-de manera que los bits de menor peso estén "reflejados" verticalmente y 
+de manera que los bits de menor peso estén "reflejados" verticalmente y
 los bits de mayor peso (a la izquierda) serán el número 0 en la primera
 mitad superior de la tabla y el número 1 en la mitad inferior de la tabla:
 
@@ -96,7 +96,7 @@ binarios y añadimos 0 arriba y 1 debajo::
      ---  // Reflejo vertical
    1  1
    1  0
-   
+
 
 La tabla de código Gray de **3 bits** se forma de igual manera, a partir
 de la tabla de 2 bits "reflejada" verticalmente y añadiendo 0 en el bit
@@ -145,7 +145,7 @@ Tabla de código Gray de **4 bits**:
    .. list-table::
       :widths: auto
       :header-rows: 1
-   
+
       * - Número
         - Código Gray
       * - 0
@@ -194,7 +194,7 @@ Ejercicios
 #. ¿Por qué se utiliza el código Gray y no un código binario estándar
    en los discos de los encoder absolutos?
 
-#. Dibuja una tabla de código Gray de 4 bits (desde 0 hasta 16), 
+#. Dibuja una tabla de código Gray de 4 bits (desde 0 hasta 16),
    junto a código binario estándar.
 
 #. Dibuja una tabla de código Gray de 5 bits (desde 0 hasta 31).

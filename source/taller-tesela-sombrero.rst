@@ -26,7 +26,7 @@ sola tesela.
    :width: 640px
 
    Teselado con tesela sombrero.
-   Las teselas están coloreadas con cuatro colores, de manera que 
+   Las teselas están coloreadas con cuatro colores, de manera que
    ninguna tesela toca otra del mismo color.
 
 :download:`Teselado sombrero. Formato PDF.

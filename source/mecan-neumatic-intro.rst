@@ -59,8 +59,19 @@ desarrollada por la Universidad de Linköping.
    :target: https://liu.se/en/research/hopsan
 
 
-Vídeo de circuitos neumáticos
------------------------------
+Vídeos de circuitos neumáticos
+------------------------------
 
-* Vídeo: `Circuitos neumáticos.
-  <https://www.youtube-nocookie.com/embed/PZUS_Eo4dKM>`__
+#. Vídeo `¿Qué es la NEUMÁTICA? | Documental del AIRE COMPRIMIDO
+   <https://www.youtube-nocookie.com/embed/gu3u5TnuBx0>`__
+
+#. Vídeo `NEUMÁTICA BÁSICA | INTRODUCCIÓN | PRINCIPIOS BÁSICOS
+   <https://www.youtube-nocookie.com/embed/gbQ3JBcjHFI>`__
+
+#. Vídeo `Neumática Industrial, ¿Cómo Trabaja un Sistema Neumático?
+   <https://www.youtube-nocookie.com/embed/Wee85cI6wwQ>`__
+
+#. Vídeo: `Circuitos neumáticos.
+   <https://www.youtube-nocookie.com/embed/PZUS_Eo4dKM>`__
+
+

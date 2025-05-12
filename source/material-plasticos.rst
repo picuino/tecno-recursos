@@ -204,7 +204,7 @@ Símbolos de reciclaje
    .. figure:: material/_images/material-plasticos-simbolos-reciclables.jpg
       :alt: Símbolos de los diferentes plásticos reciclables.
       :align: center
-      
+
       Símbolos de los diferentes plásticos reciclables.
 
 

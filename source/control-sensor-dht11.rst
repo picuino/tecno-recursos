@@ -33,7 +33,7 @@ Especificaciones técnicas
 
 Librería Arduino
 ----------------
-`Librería Arduino para el sensor DHT11. Versión 0.4.1 
+`Librería Arduino para el sensor DHT11. Versión 0.4.1
 <../_static/downloads/dht11-041.zip>`__
 
 

@@ -42,11 +42,11 @@ Normativa de Madrid
 -------------------
 
 #. `Circular sobre la implantación del programa Código Escuela 4.0 en
-   Infantil y Primaria. 
+   Infantil y Primaria.
    <../_static/document/circular_ce40_madrid_primaria.pdf>`__
 
 #. `Circular sobre la implantación del programa Código Escuela 4.0 en
-   Secundaria. 
+   Secundaria.
    <../_static/document/circular_ce40_madrid_secundaria.pdf>`__
 
 #. `Instrucciones de comienzo de curso 2024-2025.

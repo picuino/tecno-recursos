@@ -62,7 +62,7 @@ Ejemplo::
        print('No encontrado ningún número divisible por 5 y por 7')
 
 El ejemplo dará como resultado el número 35, pero si reducimos el rango
-a ``range(1, 30)`` el resultado nos dirá que no ha encontrado ningún 
+a ``range(1, 30)`` el resultado nos dirá que no ha encontrado ningún
 número divisible por 5 y por 7.
 
 

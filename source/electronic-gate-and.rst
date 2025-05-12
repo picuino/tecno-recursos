@@ -22,7 +22,7 @@ El **símbolo de la puerta AND** es el siguiente:
    :width: 180px
    :align: center
    :alt: Puerta lógica AND de dos entradas.
-   
+
    Símbolo de la puerta lógica AND de dos entradas.
 
 
@@ -39,7 +39,7 @@ La **tabla de verdad de la puerta AND** es la siguiente:
    :width: 160px
    :align: center
    :alt: Tabla de verdad de la puerta lógica AND de dos entradas.
-   
+
    Tabla de verdad de la puerta lógica AND de dos entradas.
 
 Si las dos entradas valen uno, la salida valdrá uno, pero
@@ -60,7 +60,7 @@ El **símbolo de la puerta NAND** es el siguiente:
    :width: 180px
    :align: center
    :alt: Puerta lógica NAND de dos entradas.
-   
+
    Símbolo de la puerta lógica NAND de dos entradas.
 
 
@@ -78,14 +78,14 @@ La **tabla de verdad de la puerta NAND** es la siguiente:
    :width: 160px
    :align: center
    :alt: Tabla de verdad de la puerta lógica NAND de dos entradas.
-   
+
    Tabla de verdad de la puerta lógica NAND de dos entradas.
 
 
 Simulación
 ----------
 En la siguiente simulación podemos ver el
-funcionamiento de la puerta lógica AND y, debajo, 
+funcionamiento de la puerta lógica AND y, debajo,
 el funcionamiento de la puerta lógica NAND.
 
 .. raw:: html

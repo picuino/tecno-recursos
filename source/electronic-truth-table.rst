@@ -7,8 +7,8 @@
 
 La tabla de verdad
 ==================
-En temas pasados hemos visto qué es una tabla de verdad de una puerta 
-lógica. En este tema vamos a ver, paso a paso, cómo crear la tabla de 
+En temas pasados hemos visto qué es una tabla de verdad de una puerta
+lógica. En este tema vamos a ver, paso a paso, cómo crear la tabla de
 verdad de un circuito combinacional cualquiera.
 
 Los pasos para crear la tabla de verdad de un circuito son:
@@ -19,19 +19,19 @@ Los pasos para crear la tabla de verdad de un circuito son:
 #. Nombrar cada una de las salidas del circuito con una O más
    un número, O1, O2, O3, etc.
 
-#. Dibujar una tabla con tantas columnas como el número de entradas más 
+#. Dibujar una tabla con tantas columnas como el número de entradas más
    el número de salidas tenga el circuito.
-   
+
    En la primera fila de la tabla colocaremos el nombre de las entradas
    A, B, C, etc. y el nombre de las salidas O1, O2, O3, etc.
 
-#. Terminar de dibujar en la tabla tantas filas como sean necesarias 
+#. Terminar de dibujar en la tabla tantas filas como sean necesarias
    (2 elevado al número de entradas).
-   
-   Para 2 entradas, 4 filas. 
-   
-   Para 3 entradas, 8 filas. 
-   
+
+   Para 2 entradas, 4 filas.
+
+   Para 3 entradas, 8 filas.
+
    Para 4 entradas, 16 filas.
 
 #. Numerar en binario las filas correspondientes a las entradas.
@@ -39,7 +39,7 @@ Los pasos para crear la tabla de verdad de un circuito son:
 #. Para cada combinación de entradas, calcular las salidas del circuito
    y dibujarlas en la tabla.
 
-   
+
 Ejercicio resuelto
 ------------------
 Dibujar la tabla de verdad del siguiente circuito de 3 entradas y 1 salida.
@@ -52,9 +52,9 @@ Dibujar la tabla de verdad del siguiente circuito de 3 entradas y 1 salida.
 
 #. Nombramos las entradas como A, B, C.
 #. Nombramos la salida como O1.
-#. Dibujamos la tabla y en la primera fila colocamos el nombre de las 
+#. Dibujamos la tabla y en la primera fila colocamos el nombre de las
    entradas y salidas.
-   
+
    .. figure:: electronic/_images/electronic-truth-table-01.png
       :width: 210px
       :align: center
@@ -62,18 +62,18 @@ Dibujar la tabla de verdad del siguiente circuito de 3 entradas y 1 salida.
 
 #. Terminamos de dibujar la tabla con 8 filas libres (2^3 = 8)
    para poder numerar todas las entradas posibles.
-   
+
 #. Numeramos en binario las filas correspondientes a las entradas.
 
    .. figure:: electronic/_images/electronic-truth-table-02.png
       :width: 210px
       :align: center
-      :alt: Tabla de verdad de tres entradas y una salida, 
+      :alt: Tabla de verdad de tres entradas y una salida,
             con las entradas numeradas.
 
 #. Por último colocamos cada una de las 8 combinaciones de entradas en
    el circuito y escribimos su salida en la columna O1.
-   
+
    .. figure:: electronic/_images/electronic-truth-table-03.png
       :width: 210px
       :align: center

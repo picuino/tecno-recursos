@@ -62,18 +62,18 @@ Ejercicios
 #. ¿Qué tipo de amplificación realiza una etapa push-pull?
 
 #. ¿Qué ganancia de tensión tiene la etapa push-pull simulada?
- 
-   Recuerda parar la simulación del circuito para poder medir con 
-   facilidad el valor máximo y el valor mínimo de tensión de entrada y 
-   de tensión de salida. 
-   
+
+   Recuerda parar la simulación del circuito para poder medir con
+   facilidad el valor máximo y el valor mínimo de tensión de entrada y
+   de tensión de salida.
+
    La fórmula de la ganancia de tensión es:
-   
+
    .. math::
 
       Ganancia\_V = \cfrac{V_{out\_max} - V_{out\_min}}{ V_{in\_max} - V_{in\_min}}
-   
-   
+
+
 #. ¿Qué ganancia de corriente tiene la etapa push-pull simulada?
 
    La fórmula de la ganancia de corriente es:

@@ -134,5 +134,5 @@ Ejercicios
    intenta evitar en los circuitos analógicos.
 
    Cambia la resistencia de Base por una de 5k Ohmios.
-   ¿Cuál es la ganancia del transistor? 
+   ¿Cuál es la ganancia del transistor?
    ¿Qué tensión hay en el colector cuando el transistor está **saturado**?

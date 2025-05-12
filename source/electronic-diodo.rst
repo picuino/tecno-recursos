@@ -18,7 +18,7 @@ en el sentido contrario.
    :alt: Fotografía de un diodo semiconductor.
 
    Fotografía de un diodo semiconductor.
-   
+
    `John Maushammer <https://es.wikipedia.org/wiki/Archivo:Diode-closeup.jpg>`__,
    `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.es>`__,
    via Wikimedia Commons.

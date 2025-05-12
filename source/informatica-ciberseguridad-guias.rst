@@ -20,15 +20,15 @@ Guía para el alumnado sobre una navegación segura por Internet.
 
 Autor de la guía
    Directoras: Isabel Serrano Maillo (UCM), Esther Martínez Pastor (URJC).
-   
-   Equipo: Isabel Serrano Maillo (UCM), Esther Martínez Pastor (URJC), 
+
+   Equipo: Isabel Serrano Maillo (UCM), Esther Martínez Pastor (URJC),
    Ángela Moreno Bobadilla (UCM), Mª Ángeles Blanco Ruiz (URJC),
    Mª Dolores Serrano Tárraga (UNED), Jorge Abaurrea Velarde (UCM).
 
    © Comunidad de Madrid
 
 Sitio web
-   `Revista Digital Educamadrid 
+   `Revista Digital Educamadrid
    <https://www.educa2.madrid.org/web/revista-digital/inicio/-/visor/guia-para-el-alumnado-sobre-una-navegacion-segura>`__
 
 
@@ -40,7 +40,7 @@ Guía de ciberataques a nivel usuario.
 .. image:: informatica/ciberataques-guia-osi-portada.png
    :align: center
 
-`Guía de ciberataques. 
+`Guía de ciberataques.
 <../_static/document/ciberataques-guia-osi.pdf>`__
 
 

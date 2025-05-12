@@ -20,7 +20,7 @@ los documentos generados.
 
 Ejercicio 1: Formato de archivo
 -------------------------------
-Abre el archivo 
+Abre el archivo
 `Ejercicio_01.odt <../_static/tutorial-writer/writer/cas/Ejercicio_01.odt>`__
 y guárdalo en formato **.DOC**, **.DOCX** y expórtalo en formato **.PDF**
 de modo que obtengas los siguientes archivos:
@@ -32,7 +32,7 @@ de modo que obtengas los siguientes archivos:
 
 Ejercicio 2: Formato de texto
 -----------------------------
-Abre el archivo 
+Abre el archivo
 `Ejercicio_01.odt <../_static/tutorial-writer/writer/cas/Ejercicio_01.odt>`__
 y modifica el formato del texto tal y como observas en la imagen.
 
@@ -71,7 +71,7 @@ Guarda el archivo resultante como **"Ejercicio_04_NombreAlumno.odt"**.
 
 Ejercicio 5: Comentarios
 ------------------------
-Abre el documento que creaste en el ejercicio anterior 
+Abre el documento que creaste en el ejercicio anterior
 **"Ejercicio_04_NombreAlumno.odt"** y añade los siguientes comentarios:
 
 * En el párrafo 1: "Cambiar la fuente Arial por Verdana".
@@ -83,12 +83,12 @@ Guarda el archivo resultante como **"Ejercicio_05_NombreAlumno.odt"**.
 Ejercicio 6: Formato de página y formas
 ---------------------------------------
 Abre un documento nuevo, dale tamaño A4 y **orientación horizontal**.
-Ponle **bordes** y un **color de fondo** a la página 
+Ponle **bordes** y un **color de fondo** a la página
 (usa los valores que quieras).
 
 Introduce **cinco formas** de la barra de herramientas de dibujo de
-distintas categorías. Dales distintos formatos a las formas 
-(relleno, línea, extrusión, ...) y en una de ellas escribe tu 
+distintas categorías. Dales distintos formatos a las formas
+(relleno, línea, extrusión, ...) y en una de ellas escribe tu
 **nombre y apellidos**.
 
 Guarda el archivo resultante como **"Ejercicio_06_NombreAlumno.odt"**.
@@ -98,10 +98,10 @@ Ejercicio 7: Corrector
 ----------------------
 En el documento
 `Ejercicio_07.odt <../_static/tutorial-writer/writer/cas/Ejercicio_07.odt>`__
-hay tres errores ortográficos. Usa la herramienta de 
+hay tres errores ortográficos. Usa la herramienta de
 **ortografía y gramática** para corregirlos.
 
-Selecciona las palabras corregidas y cambia su formato a 
+Selecciona las palabras corregidas y cambia su formato a
 negrita tamaño 14.
 
 Guarda el archivo resultante como **"Ejercicio_07_NombreAlumno.odt"**.
@@ -114,22 +114,22 @@ Distribuye su texto en columnas con las siguientes características:
 
 * **Primer párrafo:** Dos columnas de igual ancho, espaciadas 1 cm
   con una línea de separación de 1 punto de ancho y color verde.
-  
+
 * **Segundo párrafo:** Dos columnas, la de la izquierda de 5 cm de
   ancho y la de la derecha de 11,50 cm con un espacio entre ellas
   de 0,50 cm.
 
 * **Tercer párrafo:** Tres columnas de igual ancho con un espacio
   entre ellas de 0,30 cm.
-  
+
 Guarda el archivo resultante como **"Ejercicio_08_NombreAlumno.odt"**.
 
 
 Ejercicio 9: Pegado especial
 ----------------------------
-Busca información en Wikipedia sobre un escritor o escritora que te 
+Busca información en Wikipedia sobre un escritor o escritora que te
 guste. Usando el "pegado especial" copia parte del contenido de la
-Wikipedia en un nuevo documento de texto, sin que se copien los 
+Wikipedia en un nuevo documento de texto, sin que se copien los
 hiperenlaces ni el formato original.
 
 Guarda el archivo resultante como **"Ejercicio_09_NombreAlumno.odt"**.
@@ -137,11 +137,11 @@ Guarda el archivo resultante como **"Ejercicio_09_NombreAlumno.odt"**.
 
 Ejercicio 10: Imágenes e hiperenlaces
 -------------------------------------
-Abre el documento de texto del ejercicio anterior. Pega en él la 
+Abre el documento de texto del ejercicio anterior. Pega en él la
 **fotografía** del escritor o escritora que has buscado en Wikipedia
 y sitúala en la esquina superior derecha de la primera página.
 
-Al final del documento introduce una forma **"flecha hacia la 
+Al final del documento introduce una forma **"flecha hacia la
 derecha"** de la barra de herramientas de dibujo e introduce en ella
 un hiperenlace a la página web de la que has obtenido la información.
 
@@ -193,7 +193,7 @@ Abre el documento que creaste en el ejercicio anterior.
 Al final del primer párrafo escribe la siguiente nota a pie de
 página: **"BOE 04 de Mayo de 2006"**.
 
-Al final del segundo párrafo escribe la siguiente nota a pie de 
+Al final del segundo párrafo escribe la siguiente nota a pie de
 página: **"Puedes acceder al BOE clicando aquí"**. En la palabra
 "aquí" inserta un hiperenlace a la página web: **"www.boe.es"**.
 
@@ -398,9 +398,9 @@ Guarda el archivo resultante como **"Ejercicio_28_NombreAlumno.odt"**.
 
 Ejercicio 29: Combinar correspondencia
 --------------------------------------
-Crea un documento de texto que contenga una carta similar a la de la 
-siguiente imagen, dirigida a todos los clientes que figuran en la 
-hoja de cálculo `Ejercicio_29.ods 
+Crea un documento de texto que contenga una carta similar a la de la
+siguiente imagen, dirigida a todos los clientes que figuran en la
+hoja de cálculo `Ejercicio_29.ods
 <../_static/tutorial-writer/writer/cas/Ejercicio_29.ods>`__.
 
 Usa los formatos de Fontwork, texto, párrafo y página que quieras.
@@ -414,7 +414,7 @@ Guarda el archivo resultante como **"Ejercicio_29_NombreAlumno.odt"**.
 
 Ejercicio 30: Combinar correspondencia (II)
 -------------------------------------------
-Crea un documento de texto que contenga la misma carta que en el 
+Crea un documento de texto que contenga la misma carta que en el
 ejercicio anterior, pero dirigida solo a los clientes de la provincia
 de Pontevedra.
 

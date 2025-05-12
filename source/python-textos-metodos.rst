@@ -176,5 +176,5 @@ Ejercicios
           ...
           ...
           print(texto)
-      
+
       reemplaza_vocales('En un lugar de la mancha')

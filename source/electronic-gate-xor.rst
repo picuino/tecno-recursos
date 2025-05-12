@@ -23,14 +23,14 @@ El **símbolo de la puerta XOR** es el siguiente:
    :width: 180px
    :align: center
    :alt: Puerta lógica XOR de dos entradas.
-   
+
    Símbolo de la puerta lógica XOR de dos entradas.
 
 
 
-La **función lógica de la puerta XOR** se representa mediante un 
-símbolo de suma rodeado de un círculo, 
-de manera que la salida de la puerta será la suma lógica 
+La **función lógica de la puerta XOR** se representa mediante un
+símbolo de suma rodeado de un círculo,
+de manera que la salida de la puerta será la suma lógica
 exclusiva de las entradas:
 
 .. math::
@@ -44,7 +44,7 @@ La **tabla de verdad de la puerta XOR** es la siguiente:
    :width: 160px
    :align: center
    :alt: Tabla de verdad de la puerta lógica XOR de dos entradas.
-   
+
    Tabla de verdad de la puerta lógica XOR de dos entradas.
 
 Si las dos entradas valen cero, la salida valdrá cero,
@@ -59,21 +59,21 @@ Aplicaciones de la puerta XOR
    tendrán un valor par de unos.
 
 2. Otra aplicación de la puerta XOR es hacer sumas aritméticas de bits.
-   La puerta XOR calcula la suma aritmética de dos bits y la puerta AND 
+   La puerta XOR calcula la suma aritmética de dos bits y la puerta AND
    calcula el acarreo de sumar dos bits.
 
 3. Otra aplicación de la puerta XOR es invertir o no invertir el valor de la
    entrada B en función de la entrada A:
 
    * Si la entrada A vale cero, la entrada B se copia igual en la salida.
-   
+
    * Si la entrada A  vale uno, la entrada B se copia **invertida** en la
      salida.
 
 
 Simulación
 ----------
-En la siguiente simulación podemos ver el 
+En la siguiente simulación podemos ver el
 funcionamiento de la puerta lógica XOR.
 
 .. raw:: html
@@ -90,17 +90,17 @@ Ejercicios
 #. Dibuja el símbolo de la puerta lógica XOR de dos entradas,
    su función lógica y su tabla de verdad.
 
-#. Explica brevemente tres aplicaciones de la puerta lógica XOR. 
+#. Explica brevemente tres aplicaciones de la puerta lógica XOR.
 
 #. En el simulador copia el circuito que aparece en la siguiente imagen
-   para emular el funcionamiento de la puerta XOR mediante 
+   para emular el funcionamiento de la puerta XOR mediante
    puertas NOT, OR y AND:
 
    .. figure:: electronic/_images/electronic-puerta-xor-03.png
       :width: 480px
       :align: center
       :alt: Puerta XOR simulada con puertas NOT, OR y AND.
-      
+
    Comprueba que su funcionamiento es igual al de la puerta XOR.
 
 #. Dibuja una puerta lógica XOR de tres entradas,

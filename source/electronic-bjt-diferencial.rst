@@ -69,7 +69,7 @@ Ejercicios
 #. Modifica en la simulación los dos generadores de tensión de 1 voltio
    para que entreguen 2 voltios. ¿Cómo cambia la salida?
 
-   Si aumentamos la tensión de los dos generadores a 3 voltios 
+   Si aumentamos la tensión de los dos generadores a 3 voltios
    ¿Cómo cambia la salida?
 
    ¿Qué significa este funcionamiento?

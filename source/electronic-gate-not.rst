@@ -23,13 +23,13 @@ El **símbolo de la puerta NOT** es el siguiente:
    :width: 180px
    :align: center
    :alt: Puerta lógica NOT.
-   
+
    Puerta lógica NOT.
 
 El círculo a la salida del triángulo es el que representa que la puerta
 invierte, o niega, el valor de entrada.
 
-La **función lógica de la puerta NOT** se representa mediante una línea 
+La **función lógica de la puerta NOT** se representa mediante una línea
 sobre el elemento a invertir o negar:
 
 .. math::
@@ -37,7 +37,7 @@ sobre el elemento a invertir o negar:
    Out = \overline{ A }
 
 
-A continuación podemos ver la 
+A continuación podemos ver la
 `tabla de verdad <https://es.wikipedia.org/wiki/Tabla_de_verdad#Negaci%C3%B3n>`__
 de la puerta NOT, que representa todos los valores posibles de entrada y
 de salida de la puerta lógica:
@@ -46,7 +46,7 @@ de salida de la puerta lógica:
    :width: 114px
    :align: center
    :alt: Tabla de verdad de puerta lógica NOT.
-   
+
    Tabla de verdad de la puerta lógica NOT.
 
 Cuando la entrada (A) vale cero, la salida (Out) valdrá uno.
@@ -57,7 +57,7 @@ Cuando la entrada (A) vale uno, la salida (Out) valdrá cero.
 Simulación
 ----------
 En la siguiente simulación podemos ver una puerta NOT con una entrada
-que puede cambiar de valor y una salida que vale siempre lo contrario 
+que puede cambiar de valor y una salida que vale siempre lo contrario
 al valor de entrada.
 
 En el simulador los valores se pueden representar con números (0, 1),
@@ -98,7 +98,7 @@ Ejercicios
 
 #. Dibuja el símbolo de la puerta NOT y escribe debajo su
    función lógica y sus tres diferentes nombres.
-   
+
 #. Dibuja la tabla de verdad de la puerta NOT con **valores numéricos**
    0 y 1.
 
@@ -107,6 +107,6 @@ Ejercicios
 
 #. Realiza una simulación de dos puertas NOT en serie.
    ¿Cómo crees que será la tabla de verdad de las dos puertas?
-   
+
    Realiza la simulación y dibuja la tabla de verdad de las dos puertas
    en serie.

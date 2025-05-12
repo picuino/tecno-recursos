@@ -13,14 +13,14 @@ Manifiesto
 Una sociedad libre necesita recursos educativos libres.
 
 
-1. La motivación principal de este sitio web es difundir 
+1. La motivación principal de este sitio web es difundir
    **recursos educativos libres** a profesores y alumnos
    de todo el mundo.
 
 
-#. Los recursos educativos se deben crear con la idea de 
+#. Los recursos educativos se deben crear con la idea de
    conseguir una **buena calidad** en los textos, dibujos,
-   esquemas y resto de contenidos. 
+   esquemas y resto de contenidos.
    Los recursos deben estar abiertos a la crítica y a su
    modificación por parte de la Comunidad Educativa.
 

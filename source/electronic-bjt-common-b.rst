@@ -42,7 +42,7 @@ colector.
 La función de cada uno de los componentes es la siguiente:
 
 * El **generador de señal alterna** genera una pequeña señal de entrada
-  de 0.1 voltios de pico.
+  de 0.050 voltios de pico.
 
 * Las **resistencias R1 y R2** mantienen una tensión fija en la base
   que **polariza al transistor** para que funcione siempre con corrientes
@@ -52,7 +52,7 @@ La función de cada uno de los componentes es la siguiente:
 * El **transistor NPN** recibe una señal de pequeña tensión por
   el emisor, que produce una corriente en el emisor.
   El transistor transfiere esa corriente del emisor al colector, donde
-  una resistencia convierte la corriente en una tensión mayor que la
+  la resistencia R3 convierte la corriente en una tensión mayor que la
   tensión de entrada.
 
   En esta etapa no hay amplificación de corriente, solo de tensión.
@@ -93,6 +93,6 @@ Ejercicios
    que se encuentran en la parte inferior del simulador.
 
 
-#. Si modificamos R3 con un valor de 2kOhm y R1 con un valor de 70kOhm,
+#. Si modificamos R3 con un valor de 500 Ohm y R1 con un valor de 8 kOhm,
    ¿Qué le ocurre a la señal de salida del circuito?
    ¿Por qué crees que ocurre esto?

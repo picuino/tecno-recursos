@@ -12,7 +12,7 @@ La puerta lógica OR tiene dos o más entradas y una salida.
 La salida tiene un valor lógico alto (1) si alguna de sus entradas
 tiene un valor lógico alto (1).
 
-Es decir, si la entrada A **o** la entrada B están a nivel alto, 
+Es decir, si la entrada A **o** la entrada B están a nivel alto,
 la salida estará a nivel alto. De ahí el nombre **OR** en inglés.
 
 El **símbolo de la puerta OR** es el siguiente:
@@ -21,7 +21,7 @@ El **símbolo de la puerta OR** es el siguiente:
    :width: 180px
    :align: center
    :alt: Puerta lógica OR de dos entradas.
-   
+
    Símbolo de la puerta lógica OR de dos entradas.
 
 
@@ -39,7 +39,7 @@ La **tabla de verdad de la puerta OR** es la siguiente:
    :width: 160px
    :align: center
    :alt: Tabla de verdad de la puerta lógica OR de dos entradas.
-   
+
    Tabla de verdad de la puerta lógica OR de dos entradas.
 
 Si las dos entradas valen cero, la salida valdrá cero, pero
@@ -60,10 +60,10 @@ El **símbolo de la puerta NOR** es el siguiente:
    :width: 180px
    :align: center
    :alt: Puerta lógica NOR de dos entradas.
-   
+
    Símbolo de la puerta lógica NOR de dos entradas.
 
-La **función lógica de la puerta NOR** se representa mediante una 
+La **función lógica de la puerta NOR** se representa mediante una
 suma negada, de manera que la salida de la puerta será la
 suma lógica de las entradas que finalmente se invierte:
 
@@ -77,14 +77,14 @@ La **tabla de verdad de la puerta NOR** es la siguiente:
    :width: 160px
    :align: center
    :alt: Tabla de verdad de la puerta lógica NOR de dos entradas.
-   
+
    Tabla de verdad de la puerta lógica NOR de dos entradas.
 
 
 Simulación
 ----------
 En la siguiente simulación podemos ver el
-funcionamiento de la puerta lógica OR y, debajo, 
+funcionamiento de la puerta lógica OR y, debajo,
 el funcionamiento de la puerta lógica NOR.
 
 .. raw:: html

@@ -8,7 +8,7 @@
 Mapa de Karnaugh
 ================
 Un `mapa de Karnaugh <https://es.wikipedia.org/wiki/Mapa_de_Karnaugh>`__
-es un diagrama que se utiliza para simplificar funciones lógicas de 
+es un diagrama que se utiliza para simplificar funciones lógicas de
 manera gráfica.
 
 Se aplica normalmente a funciones con un número entre 2 y 4 variables.
@@ -40,7 +40,7 @@ Ejercicios
 
 #. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
    a continuación. Escribe la función lógica simplificada.
-    
+
    .. image:: electronic/_images/electronic-truth-table-04b.png
       :width: 125px
       :align: center
@@ -48,7 +48,7 @@ Ejercicios
 
 #. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
    a continuación. Escribe la función lógica simplificada.
-    
+
    .. image:: electronic/_images/electronic-truth-table-05b.png
       :width: 125px
       :align: center
@@ -57,7 +57,7 @@ Ejercicios
 
 #. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
    a continuación. Escribe la función lógica simplificada.
-    
+
    .. image:: electronic/_images/electronic-truth-table-06b.png
       :width: 125px
       :align: center
@@ -66,7 +66,7 @@ Ejercicios
 
 #. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
    a continuación. Escribe la función lógica simplificada.
-    
+
    .. image:: electronic/_images/electronic-truth-table-07b.png
       :width: 125px
       :align: center
@@ -75,7 +75,7 @@ Ejercicios
 
 #. Dibuja un mapa de Karnaugh con la tabla de verdad que aparece
    a continuación. Escribe la función lógica simplificada.
-    
+
    .. image:: electronic/_images/electronic-truth-table-08b.png
       :width: 148px
       :align: center

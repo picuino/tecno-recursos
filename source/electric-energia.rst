@@ -1,4 +1,4 @@
-:Date: 28/02/2023
+﻿:Date: 28/02/2023
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
@@ -80,7 +80,7 @@ más se utilizan usualmente.
       gasolina en energía cinética.
 
       La Luna tiene energía cinética al moverse alrededor de la Tierra.
-      En las mareas de los océanos podemos observar cómo la energía 
+      En las mareas de los océanos podemos observar cómo la energía
       cinética de la Luna se transfiere a la Tierra.
 
       .. figure:: electric/_images/electric-energia-aerogeneradores.jpg
@@ -131,7 +131,7 @@ más se utilizan usualmente.
       terminan convirtiendo en energía térmica.
 
       Un ejemplo de energía térmica es la transformación que se
-      produce en una caldera de calefacción. 
+      produce en una caldera de calefacción.
       La energía química del gas natural se transforma en calor a alta
       temperatura durante la combustión, lo que sirve para calentar
       los edificios.
@@ -179,7 +179,7 @@ más se utilizan usualmente.
 
 
    Energía nuclear
-      Es la energía interna de los átomos que se libera en las 
+      Es la energía interna de los átomos que se libera en las
       reacciones de **fusión** y de **fisión** nuclear.
 
       Ejemplos de esta energía son la energía del Sol, que se
@@ -204,7 +204,7 @@ más se utilizan usualmente.
       Es la energía que está presente en la **luz** o en las
       **microondas** de radio.
 
-      Es fundamental, porque es la mayor parte de la energía que 
+      Es fundamental, porque es la mayor parte de la energía que
       llega a la Tierra gracias al Sol y que podemos aprovechar con
       paneles solares.
 
@@ -235,7 +235,7 @@ más se utilizan usualmente.
       en forma de energía eléctrica a una casa que se encuentre a cientos
       de kilómetros.
       Esa energía eléctrica puede transformarse de nuevo en la energía
-      mecánica, por ejemplo, en la de batidora o en cualquier otra forma 
+      mecánica, por ejemplo, en la de batidora o en cualquier otra forma
       aprovechable.
 
       Los rayos de las tormentas y las descargas eléctricas que
@@ -284,7 +284,7 @@ Energía química del gas natural en energía eléctrica.
   La **energía química** del gas natural
   se convierte en energía térmica dentro del quemador de una turbina,
   que a su vez la convierte en giro de la turbina.
-  Un alternador convierte la energía mecánica del eje giratorio 
+  Un alternador convierte la energía mecánica del eje giratorio
   en **energía eléctrica**.
 
 Energía nuclear del uranio en energía eléctrica.
@@ -292,7 +292,7 @@ Energía nuclear del uranio en energía eléctrica.
   se convierte en energía térmica dentro del reactor nuclear,
   que a su vez se convierte en vapor de agua sobrecalentado.
   Una turbina de vapor convierte la energía térmica del vapor de
-  agua en energía mecánica de giro de un eje, 
+  agua en energía mecánica de giro de un eje,
   que un alternador convierte en **energía eléctrica**.
 
 Energía química de la gasolina en energía cinética de un automóvil.
@@ -323,7 +323,7 @@ Fuentes de energía no renovables
    porque solo existen unas reservas limitadas.
 
    La mayoría de estas fuentes de energía se basan en la
-   **energía química** que las plantas y los animales captaron 
+   **energía química** que las plantas y los animales captaron
    del Sol hace millones de años.
 
    Un problema importante que genera este tipo de fuentes de energía
@@ -373,7 +373,7 @@ Energía eléctrica
 La energía eléctrica no es una fuente de energía primaria,
 sino que se debe generar a partir de fuentes de energía primarias.
 La razón por la que se genera energía eléctrica es que se trata
-de una energía muy fácil de transportar, fácil de controlar y 
+de una energía muy fácil de transportar, fácil de controlar y
 de convertir en otras formas de energía de manera eficiente.
 
 .. figure:: electric/_images/electric-energia-arco-3000v.jpg
