@@ -71,7 +71,7 @@ más se utilizan usualmente.
 
 
    Energía cinética
-      Es la energía que tiene un objeto debido a su **movimiento**.
+      Es la energía que tiene un objeto debido a su **velocidad**.
 
       Por ejemplo, una pelota lanzada a gran velocidad tendrá energía
       cinética y podrá desplazar otros objetos.
@@ -79,7 +79,7 @@ más se utilizan usualmente.
       Cuando un automóvil acelera, se transforma la energía química de la
       gasolina en energía cinética.
 
-      La Luna tiene energía cinética al moverse alrededor de la Tierra.
+      La Luna tiene energía cinética al orbitar alrededor de la Tierra.
       En las mareas de los océanos podemos observar cómo la energía
       cinética de la Luna se transfiere a la Tierra.
 
