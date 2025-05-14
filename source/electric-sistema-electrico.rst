@@ -9,7 +9,7 @@
 Sistema eléctrico español
 =========================
 
-.. figure:: electric/sistema-electrico-espanol/sistema-electrico-espanol-2024.png
+.. figure:: electric/sistema-electrico-espanol/electric-sistema-espanol-2024.png
    :align: center
    :alt: Mural del sistema eléctrico español 2024
 
@@ -29,11 +29,11 @@ aula de informática a partir de la hoja de cálculo con los datos.
 
 
 | :download:`Sistema eléctrico español 2024. Para el profesor. Formato XLS.
-  <electric/sistema-electrico-espanol/sistema-electrico-espanol-2024.xls>`
+  <electric/sistema-electrico-espanol/electric-sistema-espanol-2024.xls>`
 | :download:`Sistema eléctrico español 2024. Gráficos. Formato PDF.
-  <electric/sistema-electrico-espanol/sistema-electrico-espanol-2024-graph.pdf>`
+  <electric/sistema-electrico-espanol/electric-sistema-espanol-2024-graph.pdf>`
 | :download:`Sistema eléctrico español 2024. Datos. Formato PDF.
-  <electric/sistema-electrico-espanol/sistema-electrico-espanol-2024-datos.pdf>`
+  <electric/sistema-electrico-espanol/electric-sistema-espanol-2024-datos.pdf>`
 
 Se adjunta una plantilla para realizar los gráficos de tarta.
 
@@ -43,6 +43,18 @@ Se adjunta una plantilla para realizar los gráficos de tarta.
 
 | :download:`Diagrama circular de porcentajes.
   Formato PDF. <electric/sistema-electrico-espanol/diagrama-circular.pdf>`
+
+
+Ejercicios
+----------
+Ejercicios sobre el sistema eléctrico español.
+
+| :download:`Ejercicios sobre el sistema eléctrico español.
+  Formato PDF. <electric/sistema-electrico-espanol/electric-sistema-ejercicios.pdf>`
+| :download:`Ejercicios sobre el sistema eléctrico español.
+  Formato DOC. <electric/sistema-electrico-espanol/electric-sistema-ejercicios.doc>`
+
+
 
 
 Créditos
