@@ -13,7 +13,7 @@ manera gráfica.
 
 Se aplica normalmente a funciones con un número entre 2 y 4 variables.
 Para funciones de más variables se utilizan métodos más avanzados,
-como el `algoritmo Quine–McCluskey
+como el `algoritmo Quine-McCluskey
 <https://es.wikipedia.org/wiki/Algoritmo_Quine%E2%80%93McCluskey>`__.
 
 

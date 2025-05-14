@@ -960,8 +960,8 @@ Competencias específicas
    actitud responsable y de respeto hacia los protocolos establecidos
    en el trabajo cooperativo y colaborativo, extensible tanto al contexto
    presencial como a las actuaciones en la red, lo que supone interactuar
-   mediante herramientas digitales –como plataformas virtuales o redes
-   sociales– para comunicarse, compartir datos e información y trabajar
+   mediante herramientas digitales -como plataformas virtuales o redes
+   sociales- para comunicarse, compartir datos e información y trabajar
    colaborativamente, aplicando los códigos de comunicación y
    comportamiento específicos del ámbito digital: la denominada
    etiqueta digital.

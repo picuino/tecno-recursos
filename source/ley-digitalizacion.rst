@@ -42,8 +42,8 @@ alumnado tomar conciencia y construir una identidad digital adecuada.
 
 La materia se organiza en cuatro bloques de contenidos.
 
-En el primer bloque – denominado dispositivos digitales, sistemas
-operativos y de comunicación – los contenidos parten tanto del
+En el primer bloque - denominado dispositivos digitales, sistemas
+operativos y de comunicación - los contenidos parten tanto del
 conocimiento de la arquitectura y componentes de dispositivos digitales y
 sus dispositivos conectados (hardware) como de la instalación y
 configuración de los sistemas operativos (software). Se persigue trabajar
@@ -52,7 +52,7 @@ conexión de dispositivos, como a la resolución de problemas que puedan
 aparecer. También se incide aquí en la adquisición de hábitos de
 reutilización de materiales y ahorro energético.
 
-El segundo bloque – digitalización del entorno personal de aprendizaje –
+El segundo bloque - digitalización del entorno personal de aprendizaje -
 permite fortalecer los conocimientos relacionados con la alfabetización
 digital adquiridos, aportando más recursos para la búsqueda y selección
 de la información relevante, para la creación de contenidos y para la

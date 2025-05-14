@@ -1455,7 +1455,7 @@ Katas de nivel 7. Dificultad fácil.
    <https://www.codewars.com/kata/52ab60b122e82a6375000bad/train/python>`__
 #. `Find Duplicates
    <https://www.codewars.com/kata/5558cc216a7a231ac9000022/train/python>`__
-#. `Pandemia 🌡️
+#. `Pandemia 🌡 
    <https://www.codewars.com/kata/5e2596a9ad937f002e510435/train/python>`__
 #. `Waiting room
    <https://www.codewars.com/kata/542f0c36d002f8cd8a0005e5/train/python>`__

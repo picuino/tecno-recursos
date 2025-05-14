@@ -32,7 +32,7 @@ educativo.
 #. `OECD PISA 2015. Students, Computers and Learning.
    <https://www.oecd.org/en/publications/students-computers-and-learning_9789264239555-en.html>`__
 
-#. `Does iPad use support learning in students aged 9–14 years? A systematic review.
+#. `Does iPad use support learning in students aged 9-14 years? A systematic review.
    <https://link.springer.com/article/10.1007/s13384-020-00400-0>`__
 
 

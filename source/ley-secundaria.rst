@@ -277,8 +277,8 @@ principales desafíos a los que deberá hacer frente a lo largo de su vida:
     del desarrollo y la valoración crítica de los riesgos y beneficios de
     este último.
 
-La respuesta a estos y otros desafíos –entre los que existe una absoluta
-interdependencia– necesita de los conocimientos, destrezas y actitudes
+La respuesta a estos y otros desafíos -entre los que existe una absoluta
+interdependencia- necesita de los conocimientos, destrezas y actitudes
 que subyacen a las competencias clave y son abordados en las distintas
 áreas, ámbitos y materias que componen el currículo. Estos contenidos
 disciplinares son imprescindibles, porque sin ellos el alumnado no

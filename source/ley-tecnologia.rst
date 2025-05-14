@@ -491,8 +491,8 @@ profesionales.
 El carácter interdisciplinar de la materia contribuye a la adquisición de
 los objetivos de etapa y de los descriptores de las distintas competencias
 clave que conforman el Perfil de salida del alumnado al término de la
-enseñanza básica. Ambos elementos –los objetivos de etapa y el Perfil de
-salida– orientan las competencias específicas de la materia. Los ejes
+enseñanza básica. Ambos elementos -los objetivos de etapa y el Perfil de
+salida- orientan las competencias específicas de la materia. Los ejes
 vertebradores sobre los que se asientan dichas competencias específicas
 son: la naturaleza transversal propia de la tecnología; el impulso de la
 colaboración y el trabajo en equipo; el pensamiento computacional y sus
@@ -678,9 +678,9 @@ Competencias específicas
 
    La comunicación y la interacción con objetos son aspectos estrechamente
    ligados al control de procesos o sistemas tecnológicos. En este sentido,
-   se debe considerar la iniciación en las tecnologías emergentes –como
+   se debe considerar la iniciación en las tecnologías emergentes -como
    son el Internet de las cosas, el big data o la inteligencia artificial
-   (IA)– y la incorporación de estas y otras metodologías enfocadas a la
+   (IA)- y la incorporación de estas y otras metodologías enfocadas a la
    automatización de procesos en sistemas tecnológicos de distintos tipos
    con un sentido crítico y ético.
 

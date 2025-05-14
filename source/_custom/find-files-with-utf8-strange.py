@@ -6,7 +6,9 @@ import codecs
 import re
 
 extensions = ['.txt', '.rst']
-
+regular_utf = [c for c in '\ufeff\n\rÁÉÍÓÚáéíóúñÑÜäëïöü¿¡ºª«»ćš·ΩØ€βµ©®źß™…π└┘△Ç']
+regular_utf = regular_utf + [c for c in '¯➞‘”≤−“→î□🌡🌎■è︿︶🧬õĂÿøąĄߧûôăþāòùý÷Ā😀’═╔║Я╦╠╚╬☀╩╗╝╣']
+regular_utf = regular_utf + [chr(i) for i in range(32, 127)]
 
 def main():
    for path, dirs, files in os.walk('..'):
@@ -21,9 +23,12 @@ def process(path, file):
    long_file_name = os.path.join(path, file)
    print(long_file_name)
    data = read_file(long_file_name)
-   if re.search("\u200D", data):
-       print("   U+200D found")
-       input("   Press Enter")
+   dataset = set(data)
+   for c in regular_utf:
+      dataset.discard(c)
+   if dataset:
+      print('   ' + str(dataset))
+      input("   Press Enter")
 
 
 def read_file(filename):

@@ -61,7 +61,7 @@ como los potenciales desafíos y riesgos.
 Vídeos de DotCSV
 ----------------
 
-* Vídeo: `¿Tiene la IA de Google CONSCIENCIA? 👉 NO, pero me preocupa... (LaMDA).
+* Vídeo: `¿Tiene la IA de Google CONSCIENCIA? -> NO, pero me preocupa... (LaMDA).
   <https://www.youtube-nocookie.com/embed/Ko7WFx4rUw0>`__
 
 * Vídeo: `DotCSV. GATO: La nueva IA de DeepMind que lo aprende TODO.
