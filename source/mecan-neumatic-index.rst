@@ -8,7 +8,8 @@
  Neumática
 ***********
 
-Automatismos neumáticos con simulador online.
+Automatismos neumáticos con `simulador online
+<../_static/flash/simulador-neumatica.html>`__.
 
 .. image:: neumatic/_images/neumatic-logo.png
    :alt: Automatismo neumático
