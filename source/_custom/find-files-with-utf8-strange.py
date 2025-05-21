@@ -1,5 +1,5 @@
 """
-   Find files not properly encoded with UTF-8 BOM signature
+   Find extrange UTF chars in files
 """
 import os
 import codecs

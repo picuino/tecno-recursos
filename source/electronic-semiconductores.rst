@@ -214,7 +214,7 @@ chip, que contiene multitud de componentes electrónicos en su interior.
 .. figure:: electronic/componentes-semiconductores/electronic-dac08-die.jpg
    :width: 480px
    :align: center
-   :alt: Fotografía de una resistencia LDR.
+   :alt: Fotografía de un circuito integrado LM555.
 
    Circuito integrado LM555.
 
@@ -222,7 +222,7 @@ chip, que contiene multitud de componentes electrónicos en su interior.
 .. figure:: electronic/componentes-semiconductores/electronic-lm555-die.jpg
    :width: 480px
    :align: center
-   :alt: Fotografía de una resistencia LDR.
+   :alt: Fotografía de un circuito integrado DAC08.
 
    Circuito integrado DAC08.
 

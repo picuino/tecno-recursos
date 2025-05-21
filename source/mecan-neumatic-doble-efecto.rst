@@ -62,7 +62,7 @@ Ejercicios
 #. Dibuja un esquema de un cilindro de doble efecto accionado,
    con el vástago fuera, comandado por una válvula 5/2.
 
-#. Simula el funcionamiento de un cilindro de simple doble efecto
+#. Simula el funcionamiento de un cilindro de doble efecto
    comandado por una válvula 5/2.
 
    `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
