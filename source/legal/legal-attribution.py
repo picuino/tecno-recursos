@@ -12,7 +12,7 @@ output_discard = 'legal-internal-figures.txt'
 
 filter_external = 'Wikimedia Commons|Pixabay|Pexels'
 extensions = ['.rst']
-excludes = [output_file]
+excludes = ['legal-attribution.rst']
 
 
 def main():
@@ -69,11 +69,11 @@ def filter_figures(figures):
 
 def process(path, fname):
     base, ext = os.path.splitext(fname)
+    fname_long = os.path.join(path, fname)
     if ext.lower() not in extensions:
         return []
-    if fname.lower() in excludes:
+    if fname in excludes:
         return []
-    fname_long = os.path.join(path, fname)
     print(fname_long)
 
     content = read_file(fname_long)
@@ -106,7 +106,7 @@ def process(path, fname):
 
 def read_file(fname):
     lines = []
-    with codecs.open(fname, 'r', encoding='utf-8') as fi:
+    with codecs.open(fname, 'r', encoding='utf-8-sig') as fi:
         for line in fi:
             lines.append(line.rstrip())
     return lines
