@@ -78,7 +78,7 @@ Materiales
 ^^^^^^^^^^
 
 .. image:: material/_thumbs/trama-urdimbre.png
-   :width: 120px
+   :width: 240px
 
 `Imagen <https://commons.wikimedia.org/wiki/File:Kette_und_Schu%C3%9F_num_col.png>`__
 de Kette_und_Schuß.png
@@ -87,7 +87,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 <https://creativecom
 ----
 
 .. image:: material/_thumbs/material-wall.jpg
-   :width: 120px
+   :width: 240px
 
 `Imagen <https://www.pexels.com/photo/abstract-architecture-background-brick-194096/>`__
 de `Miguel Á. Padriñán <https://www.pexels.com/@padrinan>`__
@@ -105,7 +105,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 Germany <https://cre
 ----
 
 .. image:: material/_thumbs/destornillador.jpg
-   :width: 120px
+   :width: 240px
 
 `Imagen Yellow-flathead-screwdriver <https://commons.wikimedia.org/wiki/File:Temperguss-Schraubzwinge.jpg>`__
 de `Iainf <https://commons.wikimedia.org/wiki/User:Iainf>`__
@@ -114,7 +114,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://cr
 ----
 
 .. image:: material/_thumbs/alicates.jpg
-   :width: 120px
+   :width: 240px
 
 `Imagen Kombinationszange <https://commons.wikimedia.org/wiki/File:Kombinationszange.jpg>`__
 de Stefan Pohl
@@ -124,7 +124,7 @@ bajo licencia de dominio público.
 ----
 
 .. image:: material/_thumbs/regla-metal.jpg
-   :width: 120px
+   :width: 240px
    :target: https://commons.wikimedia.org/wiki/File:Steel_ruler_closeup.jpg
 
 `Imagen Steel ruler closeup <https://commons.wikimedia.org/wiki/File:Steel_ruler_closeup.jpg>`__
@@ -137,7 +137,7 @@ Mecánica
 ^^^^^^^^
 
 .. image:: freecad/_images/freecad-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Logotipo FreeCAD <https://es.m.wikipedia.org/wiki/Archivo:FreeCAD-logo.svg>`__
 de Yorik van Havre
@@ -145,7 +145,7 @@ bajo `Licencia Pública General Reducida de GNU <https://en.wikipedia.org/wiki/e
 
 
 .. image:: mecan/_images/mecan-columpio.png
-   :width: 120px
+   :width: 240px
 
 `Imagen line art swing <https://openclipart.org/detail/216037/swing-lineart>`__
 de `frankes <https://openclipart.org/artist/frankes>`__
@@ -154,7 +154,7 @@ bajo `licencia Creative Commons Zero 1.0 Public Domain License <http://creativec
 ----
 
 .. image:: mecan/_images/mecan-jib-crane.jpg
-   :width: 120px
+   :width: 240px
 
 `Imagen Jib crane <https://commons.wikimedia.org/wiki/File:Jib_crane.jpg>`__
 bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__
@@ -162,7 +162,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https
 ----
 
 .. image:: mecan/_images/mecan-bridge-designer-01tb.jpg
-   :width: 120px
+   :width: 240px
    :target: http://bridgedesigner.org/
 
 `Imagen banner graphic 1 <http://bridgedesigner.org/>`__
@@ -176,7 +176,7 @@ Programación
 ^^^^^^^^^^^^
 
 .. image:: prog/_images/python-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Python logo <https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg>`__
 de `Python Software Foundation <https://www.python.org/community/logos/>`__
@@ -185,7 +185,7 @@ bajo `licencia PSF Trademark Usage Policy <https://www.python.org/psf/trademarks
 ----
 
 .. image:: prog/_images/processing-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Processing logo <https://de.wikipedia.org/wiki/Datei:Processing_Logo_Clipped.svg>`__
 de `Processing Foundation <https://processingfoundation.org/>`__
@@ -194,7 +194,7 @@ protegida como Marca Registrada.
 ----
 
 .. image:: prog/_images/arduino-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Arduino logo <https://commons.wikimedia.org/wiki/File:Arduino_Logo.svg>`__
 de Autor desconocido
@@ -203,13 +203,13 @@ protegida como Marca Registrada.
 ----
 
 .. image:: prog/_images/codeorg-logo.png
-   :width: 120px
+   :width: 240px
    :target: https://support.code.org/hc/en-us/articles/115001319312-Setting-up-sections-with-Google-Classroom-or-Clever?mobile_site=true
 
 ----
 
 .. image:: prog/_images/scratch-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Scratch logo <https://commons.wikimedia.org/wiki/File:Scratch_Logo.svg>`__
 de `MIT <https://scratch.mit.edu/>`__
@@ -219,14 +219,14 @@ y protegida como Marca Registrada.
 ----
 
 .. image:: prog/_images/mblock-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Makeblock logo <https://mblock.makeblock.com/en-us/download//>`__
 
 ----
 
 .. image:: prog/_images/appinventor-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen App Inventor logo <https://commons.wikimedia.org/wiki/File:Mit_app_inventor.png>`__
 de Massachusetts Institute of Technology
@@ -235,13 +235,13 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://cr
 ----
 
 .. image:: prog/_images/applab-logo.png
-   :width: 120px
+   :width: 240px
    :target: https://code.org/educate/applab
 
 ----
 
 .. image:: scratch3/_images/scratch3-p11-olympic-flag.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Bandera Olímpica <https://commons.wikimedia.org/wiki/File:Olympic_flag.svg>`__
 de Pierre de Coubertin
@@ -253,7 +253,7 @@ Informática
 ^^^^^^^^^^^
 
 .. image:: informatica/_thumbs/informatica-computer.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Computer <https://openclipart.org/detail/17924/computer>`__
 de `AJ <https://openclipart.org/artist/AJ>`__
@@ -262,7 +262,7 @@ bajo `licencia Creative Commons Zero 1.0 Public Domain License <http://creativec
 ----
 
 .. image:: html/_thumbs/beach-01.jpg
-   :width: 120px
+   :width: 240px
 
 `Imagen Beach calm clouds idyllic <https://www.pexels.com/photo/beach-calm-clouds-idyllic-457882/>`__
 de `Asad Photo Maldivas <https://www.pexels.com/@asadphotography>`__
@@ -271,7 +271,7 @@ bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
 ----
 
 .. image:: html/_thumbs/chart-01.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Spa elec gen <https://commons.wikimedia.org/wiki/File:Spa_elec_gen.PNG>`__
 de Zmzmzm2
@@ -280,7 +280,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https
 ----
 
 .. image:: html/_thumbs/portrait.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Portrait <https://www.flaticon.com/free-icon/portrait_175062>`__
 de `Metropolicons <https://www.flaticon.com/authors/metropolicons>`__
@@ -290,7 +290,7 @@ bajo `licencia Freepik <https://www.freepikcompany.com/legal#nav-flaticon>`__
 ----
 
 .. image:: html/_thumbs/html5-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Logotipo oficial HTML5 <https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg>`__
 de `W3C <http://www.w3.org/html/logo/index.html>`__
@@ -299,7 +299,7 @@ bajo `licencia Creative Commons Attribution 3.0 Unported <https://creativecommon
 ----
 
 .. image:: css/_images/css3-logo-320.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Logotipo oficial CSS3 <https://commons.wikimedia.org/wiki/File:CSS.3.svg>`__
 de W3C
@@ -308,7 +308,7 @@ bajo `licencia Creative Commons Attribution 4.0 International <https://creativec
 ----
 
 .. image:: inkscape/_images/inkscape-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen Logotipo oficial actual de Inkscape <https://commons.wikimedia.org/wiki/File:Inkscape_Logo.svg>`__
 de Andrew Michael Fitzsimon
@@ -317,7 +317,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 Unported <https://cr
 ----
 
 .. image:: writer/_images/writer-keyboard-480.png
-   :width: 120px
+   :width: 240px
    :target: https://commons.wikimedia.org/wiki/File:Computer_keyboard_ES_layout.svg
 
 `Imagen Computer keyboard ES layout <https://commons.wikimedia.org/wiki/File:Computer_keyboard_ES_layout.svg>`__
@@ -327,7 +327,7 @@ bajo `licencia Creative Commons CC0 1.0 Universal Public Domain Dedication <http
 ----
 
 .. image:: writer/_images/writer-logo.png
-   :width: 120px
+   :width: 240px
 
 `Imagen LibreOffice 6.1 Writer Icon <https://commons.wikimedia.org/wiki/File:LibreOffice_6.1_Writer_Icon.svg>`__
 de The Document Foundation
@@ -336,7 +336,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https
 ----
 
 .. image:: writer/_images/writer-odt-file.png
-   :width: 120px
+   :width: 240px
 
 `Imagen ODT File Format free icon <https://www.flaticon.com/free-icon/odt-file-format_28832>`__
 de `Freepik <https://www.freepik.com>`__
@@ -349,7 +349,7 @@ Comunicaciones
 ^^^^^^^^^^^^^^
 
 .. image:: comm/_thumbs/comm-punto-acceso.jpg
-   :width: 120
+   :width: 240
 
 `Imagen Belkin Wireless G Router F5D7231-4 Version 1000de-1121
 <https://commons.wikimedia.org/wiki/File:Belkin_Wireless_G_Router_F5D7231-4_Version_1000de-1121.jpg>`__
@@ -359,7 +359,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 4.0 <https://creativecom
 ----
 
 .. image:: comm/_thumbs/comm-optical-fiber.jpg
-   :width: 120
+   :width: 240
 
 `Imagen Optical fiber cable
 <https://commons.wikimedia.org/wiki/File:Optical_fiber_cable.jpg>`__
@@ -369,7 +369,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 <https://creativecom
 ----
 
 .. image:: comm/_thumbs/comm-plc-terminal.jpg
-   :width: 120
+   :width: 240
 
 `Imagen Devolo dLAN 200 AVplus - 5016
 <https://commons.wikimedia.org/wiki/File:2016-08-17_Devolo_dLAN_200_AVplus_-_5016.jpg>`__
@@ -379,7 +379,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 3.0 de <https://creative
 ----
 
 .. image:: comm/_thumbs/comm-cable-coaxial.jpg
-   :width: 120
+   :width: 240px
 
 `Imagen Coaxial cable cut
 <https://commons.wikimedia.org/wiki/File:Coaxial_cable_cut.jpg>`__
@@ -391,7 +391,7 @@ Taller
 ^^^^^^
 
 .. image:: taller/_thumbs/taller-herramientas.jpg
-   :width: 120px
+   :width: 240px
 
 `Imagen herramientas de mano colgadas en el banco de trabajo <https://www.pexels.com/es-es/foto/herramientas-de-mano-colgadas-en-el-banco-de-trabajo-909256/>`__
 de `Kim Stiver <https://www.pexels.com/es-es/@wordsurfer>`__
@@ -400,7 +400,7 @@ bajo `licencia libre de Pexels <https://www.pexels.com/license/>`__
 ----
 
 .. image:: taller/_thumbs/taller-herramientas-02.jpg
-   :width: 120px
+   :width: 240px
 
 `Imagen llave de cierre de acero inoxidable con llave <https://www.pexels.com/es-es/foto/llave-de-cierre-de-acero-inoxidable-con-llave-210881/>`__
 de `Pixabay <https://www.pexels.com/es-es/@pixabay>`__
@@ -414,7 +414,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-pilas.jpg
+.. figure:: legal/external-images/electric-pilas-tb.jpg
    :alt: Pilas eléctricas.
 
    Pilas eléctricas.
@@ -428,7 +428,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-alternador.jpg
+.. figure:: legal/external-images/electric-alternador-tb.jpg
    :alt: Alternador eléctrico.
 
    Alternador eléctrico de un automóvil.
@@ -442,7 +442,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-fotovoltaic-array.jpg
+.. figure:: legal/external-images/electric-fotovoltaic-array-tb.jpg
    :alt: Panel fotovoltaico.
 
    Panel fotovoltaico de generación eléctrica solar.
@@ -455,7 +455,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-copper-wire.jpg
+.. figure:: legal/external-images/electric-copper-wire-tb.jpg
    :alt: Cable de cobre.
 
    Cable de cobre con 3 hilos de 2.5mm2 de sección cada uno.
@@ -469,7 +469,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-wire-high-voltage.jpg
+.. figure:: legal/external-images/electric-wire-high-voltage-tb.jpg
    :alt: Cable de alta tensión, de aluminio y acero.
 
    Cable de alta tensión, de aluminio y acero.
@@ -483,7 +483,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-ssd-gold-plated.jpg
+.. figure:: legal/external-images/electric-ssd-gold-plated-tb.jpg
    :alt: Disco SSD con conectores bañados en oro.
 
    Disco SSD con conectores bañados en oro.
@@ -497,7 +497,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-soldaduras.jpg
+.. figure:: legal/external-images/electric-soldaduras-tb.jpg
    :alt: Componentes SMD unidos a la PCB con soldaduras de estaño-plomo.
 
    Componentes SMD unidos a la PCB con soldaduras de estaño-plomo.
@@ -511,7 +511,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-lamp-led.jpg
+.. figure:: legal/external-images/electric-lamp-led-tb.jpg
    :alt: Lámpara led. Produce luz a partir de la electricidad.
 
    Lámpara led. Produce luz a partir de la electricidad.
@@ -525,7 +525,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-vitroceramica.jpg
+.. figure:: legal/external-images/electric-vitroceramica-tb.jpg
    :alt: Resistencia eléctrica de una vitrocerámica, produciendo calor.
 
    Resistencia eléctrica de una vitrocerámica, produciendo calor.
@@ -539,7 +539,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-switch.jpg
+.. figure:: legal/external-images/electric-switch-tb.jpg
    :alt: Componentes SMD unidos a la PCB con soldaduras de estaño-plomo.
 
    Interruptor de encendido/apagado.
@@ -553,7 +553,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-diferencial.jpg
+.. figure:: legal/external-images/electric-diferencial-tb.jpg
    :alt: Interruptor diferencial. Protege a las personas de descargas eléctricas.
 
    Interruptor diferencial. Protege a las personas de descargas eléctricas.
@@ -567,7 +567,7 @@ Otras imágenes
 ..
    source: electric-circuito.rst
 
-.. figure:: _thumbs/electric-ascensor.jpg
+.. figure:: legal/external-images/electric-ascensor-tb.jpg
    :alt: Puerta automática de un ascensor.
 
    Puerta automática de un ascensor.
@@ -581,7 +581,7 @@ Otras imágenes
 ..
    source: electric-componentes-index.rst
 
-.. figure:: _thumbs/electric-motor-induccion-02.jpg
+.. figure:: legal/external-images/electric-motor-induccion-02-tb.jpg
    :alt: Motor de inducción abierto
 
    `Sebastian Stabinger
@@ -594,7 +594,7 @@ Otras imágenes
 ..
    source: electric-energia.rst
 
-.. figure:: _thumbs/electric-energia-presa-aldeadavila.jpg
+.. figure:: legal/external-images/electric-energia-presa-aldeadavila-tb.jpg
 
    Presa de arco de Aldeadávila desembalsando debido a una crecida
    del río.
@@ -609,7 +609,7 @@ Otras imágenes
 ..
    source: electric-energia.rst
 
-.. figure:: _thumbs/electric-energia-aerogeneradores.jpg
+.. figure:: legal/external-images/electric-energia-aerogeneradores-tb.jpg
 
    Aerogeneradores en Thornton Bank a 28km de la costa (off shore),
    en la parte belga del mar del norte.
@@ -624,7 +624,7 @@ Otras imágenes
 ..
    source: electric-energia.rst
 
-.. figure:: _thumbs/electric-energia-cardan.jpg
+.. figure:: legal/external-images/electric-energia-cardan.jpg
 
    Junta de cardan giratoria, utilizada para transmitir energía.
 
@@ -638,7 +638,7 @@ Otras imágenes
 ..
    source: electric-energia.rst
 
-.. figure:: _thumbs/electric-energia-fuego-gas.jpg
+.. figure:: legal/external-images/electric-energia-fuego-gas-tb.jpg
 
    Fuego de cocina a gas.
 
@@ -652,7 +652,7 @@ Otras imágenes
 ..
    source: electric-energia.rst
 
-.. figure:: _thumbs/electric-energia-gasolina.jpg
+.. figure:: legal/external-images/electric-energia-gasolina-tb.jpg
 
    Surtidor de gasolina cargando el depósito de un automóvil.
 
@@ -666,7 +666,7 @@ Otras imágenes
 ..
    source: electric-energia.rst
 
-.. figure:: _thumbs/electric-energia-nuclear-zorita.jpg
+.. figure:: legal/external-images/electric-energia-nuclear-zorita-tb.jpg
 
    Central nuclear de José Cabrera en Guadalajara.
 
@@ -680,7 +680,7 @@ Otras imágenes
 ..
    source: electric-energia.rst
 
-.. figure:: _thumbs/electric-energia-panel-solar.jpg
+.. figure:: legal/external-images/electric-energia-panel-solar-tb.jpg
 
    Paneles solares en el tejado de una casa.
 
@@ -694,7 +694,7 @@ Otras imágenes
 ..
    source: electric-energia.rst
 
-.. figure:: _thumbs/electric-energia-rayo.jpg
+.. figure:: legal/external-images/electric-energia-rayo-tb.jpg
 
    Rayo cayendo en Toronto.
 
@@ -708,7 +708,7 @@ Otras imágenes
 ..
    source: electric-energia.rst
 
-.. figure:: _thumbs/electric-energia-arco-3000v.jpg
+.. figure:: legal/external-images/electric-energia-arco-3000v-tb.jpg
 
    Arco eléctrico de 3000 voltios.
 
@@ -722,7 +722,7 @@ Otras imágenes
 ..
    source: electric-motor.rst
 
-.. figure:: _thumbs/electric-motor-induccion-num.jpg
+.. figure:: legal/external-images/electric-motor-induccion-num-tb.jpg
 
    Partes de un motor de inducción de corriente alterna, abierto para
    poder observar su interior.
@@ -737,7 +737,7 @@ Otras imágenes
 ..
    source: electric-motor.rst
 
-.. figure:: _thumbs/electric-motor-dc-num.jpg
+.. figure:: legal/external-images/electric-motor-dc-num-tb.jpg
 
    Rotor de un motor de corriente continua.
 
@@ -751,7 +751,7 @@ Otras imágenes
 ..
    source: electric-rele.rst
 
-.. figure:: _thumbs/electric-relay-principle.jpg
+.. figure:: legal/external-images/electric-relay-principle.jpg
 
    Esquema de un relé
 
@@ -764,7 +764,7 @@ Otras imágenes
 ..
    source: electronic-diodo.rst
 
-.. figure:: _thumbs/electronic-diode-closeup.jpg
+.. figure:: legal/external-images/electronic-diode-closeup-tb.jpg
    :alt: Fotografía de un diodo semiconductor.
 
    Fotografía de un diodo semiconductor.
@@ -778,7 +778,7 @@ Otras imágenes
 ..
    source: estructuras-estabilidad.rst
 
-.. figure:: _thumbs/mecan-grua-obra.jpg
+.. figure:: legal/external-images/mecan-grua-obra-tb.jpg
 
    Grúa de obra con contrapeso a la izquierda.
 
@@ -790,7 +790,7 @@ Otras imágenes
 ..
    source: estructuras-estabilidad.rst
 
-.. figure:: _thumbs/mecan-camion-grua-bomberos.jpg
+.. figure:: legal/external-images/mecan-camion-grua-bomberos-tb.jpg
 
    Camión de bomberos con grúa y apoyos extensibles.
 
@@ -802,7 +802,7 @@ Otras imágenes
 ..
    source: estructuras-estabilidad.rst
 
-.. figure:: _thumbs/mecan-coche-carreras.jpg
+.. figure:: legal/external-images/mecan-coche-carreras-tb.jpg
 
    Fórmula 1 con centro de gravedad muy bajo.
 
@@ -814,7 +814,7 @@ Otras imágenes
 ..
    source: estructuras-estabilidad.rst
 
-.. figure:: _thumbs/mecan-antenas-radio.jpg
+.. figure:: legal/external-images/mecan-antenas-radio-tb.jpg
 
    Antenas de radio con vientos para anclarlas al suelo.
 
@@ -826,7 +826,7 @@ Otras imágenes
 ..
    source: estructuras-intro.rst
 
-.. figure:: _thumbs/estructuras-presa.jpg
+.. figure:: legal/external-images/estructuras-presa-tb.jpg
 
    Presa de agua de Hoover.
 
@@ -839,7 +839,7 @@ Otras imágenes
 ..
    source: estructuras-intro.rst
 
-.. figure:: _thumbs/estructuras-acueducto.jpg
+.. figure:: legal/external-images/estructuras-acueducto-tb.jpg
 
    Arcos del acueducto de Segovia.
 
@@ -852,7 +852,7 @@ Otras imágenes
 ..
    source: estructuras-intro.rst
 
-.. figure:: _thumbs/estructuras-puente-triangulado.jpg
+.. figure:: legal/external-images/estructuras-puente-triangulado-tb.jpg
 
    Puente con estructura triangulada.
 
@@ -865,7 +865,7 @@ Otras imágenes
 ..
    source: estructuras-intro.rst
 
-.. figure:: _thumbs/estructuras-grua-portico.jpg
+.. figure:: legal/external-images/estructuras-grua-portico-tb.jpg
 
    Grúa en forma de pórtico.
 
@@ -878,7 +878,7 @@ Otras imágenes
 ..
    source: estructuras-intro.rst
 
-.. figure:: _thumbs/estructuras-puente-colgante.jpg
+.. figure:: legal/external-images/estructuras-puente-colgante-tb.jpg
 
    Puente colgante de San Francisco.
 
@@ -891,7 +891,7 @@ Otras imágenes
 ..
    source: estructuras-intro.rst
 
-.. figure:: _thumbs/estructuras-casco.jpg
+.. figure:: legal/external-images/estructuras-casco-tb.jpg
 
    Casco para motorista.
 
@@ -904,7 +904,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-ram-ddr4.jpg
+.. figure:: legal/external-images/informatica-ram-ddr4-tb.jpg
 
    Módulo de memoria RAM DDR4
 
@@ -917,7 +917,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-rom-bios.jpg
+.. figure:: legal/external-images/informatica-rom-bios-tb.jpg
 
    Memoria ROM Phoenix BIOS de una placa base de ordenador personal.
 
@@ -931,7 +931,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-hdd.jpg
+.. figure:: legal/external-images/informatica-hdd-tb.jpg
 
    Unidad de disco duro (HDD) con conexión SATA, vista desde abajo.
 
@@ -944,7 +944,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-ssd-pcie.jpg
+.. figure:: legal/external-images/informatica-ssd-pcie-tb.jpg
 
    Unidad de almacenamiento de estado sólido (SSD) con conexión
    PCI Express.
@@ -958,7 +958,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-pendrive.jpg
+.. figure:: legal/external-images/informatica-pendrive-tb.jpg
 
    Memoria USB (pendrive).
 
@@ -971,7 +971,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-sd.jpg
+.. figure:: legal/external-images/informatica-sd-tb.jpg
 
    Tarjetas de memoria microSD de varias capacidades.
 
@@ -984,7 +984,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-cdrom.jpg
+.. figure:: legal/external-images/informatica-cdrom-tb.jpg
 
    Disco óptico CD-ROM.
 
@@ -997,7 +997,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-cdrom-surface.jpg
+.. figure:: legal/external-images/informatica-cdrom-surface-tb.jpg
 
    Micrografía de la superficie de un CD-ROM en la que se pueden
    ver los surcos con las marcas.
@@ -1011,7 +1011,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-blu-ray-disk.jpg
+.. figure:: legal/external-images/informatica-blu-ray-disk-tb.jpg
 
    Discos ópticos Blu-ray.
 
@@ -1024,7 +1024,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-tape-lto4.jpg
+.. figure:: legal/external-images/informatica-tape-lto4-tb.jpg
 
    Cinta magnética LTO-2.
 
@@ -1037,7 +1037,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-floppy-disk.jpg
+.. figure:: legal/external-images/informatica-floppy-disk-tb.jpg
 
    Discos flexibles (floppy disks) de diferentes tamaños.
 
@@ -1050,7 +1050,7 @@ Otras imágenes
 ..
    source: informatica-hardware-almacenamiento.rst
 
-.. figure:: _thumbs/informatica-nas.png
+.. figure:: legal/external-images/informatica-nas-tb.png
 
    Synology DiskStation NAS (Network Attached Storage) de 6 bahías.
 
@@ -1063,7 +1063,7 @@ Otras imágenes
 ..
    source: informatica-hardware-auxiliares.rst
 
-.. figure:: _thumbs/informatica-sai.jpg
+.. figure:: legal/external-images/informatica-sai-tb.jpg
 
    Vista delantera y trasera de un SAI marca APC.
 
@@ -1076,7 +1076,7 @@ Otras imágenes
 ..
    source: informatica-hardware-auxiliares.rst
 
-.. figure:: _thumbs/informatica-refrigeracion-liquida.jpg
+.. figure:: legal/external-images/informatica-refrigeracion-liquida-tb.jpg
 
    Interior de un ordenador personal con refrigeración líquida.
 
@@ -1089,7 +1089,7 @@ Otras imágenes
 ..
    source: informatica-hardware-auxiliares.rst
 
-.. figure:: _thumbs/informatica-cr-2032.jpg
+.. figure:: legal/external-images/informatica-cr-2032-tb.jpg
 
    Pila botón CR-2032, la más común en las placas base.
 
@@ -1102,7 +1102,7 @@ Otras imágenes
 ..
    source: informatica-hardware-auxiliares.rst
 
-.. figure:: _thumbs/informatica-modding.jpg
+.. figure:: legal/external-images/informatica-modding-tb.jpg
 
    Modificación del chasis con aluminio, acrílico y ledes RGB.
 
@@ -1115,7 +1115,7 @@ Otras imágenes
 ..
    source: informatica-hardware-clasificacion.rst
 
-.. figure:: _thumbs/informatica-apple-watch.jpg
+.. figure:: legal/external-images/informatica-apple-watch-tb.jpg
 
    Apple Watch Serie 6 Navy Blue.
 
@@ -1128,7 +1128,7 @@ Otras imágenes
 ..
    source: informatica-hardware-clasificacion.rst
 
-.. figure:: _thumbs/informatica-raspberry-pi.jpg
+.. figure:: legal/external-images/informatica-raspberry-pi-tb.jpg
 
    Raspberry Pi 2 model B.
 
@@ -1140,7 +1140,7 @@ Otras imágenes
 ..
    source: informatica-hardware-clasificacion.rst
 
-.. figure:: _thumbs/informatica-fire-tv.jpg
+.. figure:: legal/external-images/informatica-fire-tv-tb.jpg
 
    Amazon Fire TV 4K.
 
@@ -1153,7 +1153,7 @@ Otras imágenes
 ..
    source: informatica-hardware-clasificacion.rst
 
-.. figure:: _thumbs/informatica-ps4.jpg
+.. figure:: legal/external-images/informatica-ps4-tb.jpg
 
    Sony PlayStation 4 de 2014.
 
@@ -1165,7 +1165,7 @@ Otras imágenes
 ..
    source: informatica-hardware-clasificacion.rst
 
-.. figure:: _thumbs/informatica-iphone-13.jpg
+.. figure:: legal/external-images/informatica-iphone-13-tb.jpg
 
    Apple iPhone 13.
 
@@ -1178,7 +1178,7 @@ Otras imágenes
 ..
    source: informatica-hardware-clasificacion.rst
 
-.. figure:: _thumbs/informatica-computer-02.png
+.. figure:: legal/external-images/informatica-computer-02-tb.png
 
    Imagen de `OpenClipart-Vectors <https://pixabay.com/es/users/openclipart-vectors-30363/>`__
    en `Pixabay <https://pixabay.com/es/vectors/computadora-escritorio-158675/>`__
@@ -1188,7 +1188,7 @@ Otras imágenes
 ..
    source: informatica-hardware-clasificacion.rst
 
-.. figure:: _thumbs/informatica-cluster-nec.jpg
+.. figure:: legal/external-images/informatica-cluster-nec-tb.jpg
 
    `Hindermath <https://commons.wikimedia.org/wiki/File:Nec-cluster.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
@@ -1199,7 +1199,7 @@ Otras imágenes
 ..
    source: informatica-hardware-clasificacion.rst
 
-.. figure:: _thumbs/informatica-mare-nostrum.jpg
+.. figure:: legal/external-images/informatica-mare-nostrum-tb.jpg
 
    Supercomputador MareNostrum 4 en el centro de supercomputación
    de Barcelona.
@@ -1213,7 +1213,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-motherboard-bus.jpg
+.. figure:: legal/external-images/informatica-motherboard-bus-tb.jpg
 
    Bus de placa base.
 
@@ -1226,7 +1226,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-sata-hdd.jpg
+.. figure:: legal/external-images/informatica-sata-hdd-tb.jpg
 
    Conectores SATA de datos y de alimentación de dos discos duros.
 
@@ -1240,7 +1240,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-cable-sata.jpg
+.. figure:: legal/external-images/informatica-cable-sata-tb.jpg
 
    Cable de SATA de datos.
 
@@ -1254,7 +1254,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-pci-express.jpg
+.. figure:: legal/external-images/informatica-pci-express-tb.jpg
 
    Conectores PCI Express x4, x16, x1, x16.
 
@@ -1270,7 +1270,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-sodimm-ddr3.jpg
+.. figure:: legal/external-images/informatica-sodimm-ddr3-tb.jpg
 
    Módulo de memoria SO-DIMM DDR3 para portátil.
 
@@ -1284,7 +1284,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-dimm-ddr2.jpg
+.. figure:: legal/external-images/informatica-dimm-ddr2-tb.jpg
 
    Módulo de memoria DIMM DDR y módulo DDR2 con diferente número de
    pines y distintas ranuras de seguridad.
@@ -1299,7 +1299,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-zocalo-1151.jpg
+.. figure:: legal/external-images/informatica-zocalo-1151-tb.jpg
 
    Zócalo para CPU de tipo LGA 1151, también conocido como
    `Socket H4 <https://es.wikipedia.org/wiki/LGA_1151>`__.
@@ -1314,7 +1314,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-usb-connectors.jpg
+.. figure:: legal/external-images/informatica-usb-connectors-tb.jpg
 
    Conectores USB. Micro tipo B, UC-E6, mini tipo B, hembra tipo A,
    macho tipo A, macho tipo B.
@@ -1328,7 +1328,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-conector-usb-c.jpg
+.. figure:: legal/external-images/informatica-conector-usb-c-tb.jpg
 
    `Conector USB C <https://es.wikipedia.org/wiki/USB-C>`__
    reversible.
@@ -1343,7 +1343,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-computer-audio.jpg
+.. figure:: legal/external-images/informatica-computer-audio-tb.jpg
 
    Conectores de audio analógico de 3.5 mm de un ordenador personal.
 
@@ -1357,7 +1357,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-puertos-ps2.jpg
+.. figure:: legal/external-images/informatica-puertos-ps2-tb.jpg
 
    Puertos PS/2 para teclado (morado) y para ratón (verde).
 
@@ -1370,7 +1370,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-rs232-connector.jpg
+.. figure:: legal/external-images/informatica-rs232-connector-tb.jpg
 
    Conector RS-232 (DB-9 hembra).
 
@@ -1384,7 +1384,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-conector-vga.jpg
+.. figure:: legal/external-images/informatica-conector-vga-tb.jpg
 
    Conector VGA macho.
 
@@ -1398,7 +1398,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-conector-dvi.jpg
+.. figure:: legal/external-images/informatica-conector-dvi-tb.jpg
 
    Conector DVI macho.
 
@@ -1412,7 +1412,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-conector-hdmi.jpg
+.. figure:: legal/external-images/informatica-conector-hdmi-tb.jpg
 
    Conector HDMI macho.
 
@@ -1425,7 +1425,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-ethernet-port.jpg
+.. figure:: legal/external-images/informatica-ethernet-port-tb.jpg
 
    Conector Ethernet RJ-45 hembra.
 
@@ -1439,7 +1439,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-ethernet-cable.jpg
+.. figure:: legal/external-images/informatica-ethernet-cable-tb.jpg
 
    Cable UTP de Ethernet con conector RJ-45 macho.
 
@@ -1453,7 +1453,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-cable-utp.jpg
+.. figure:: legal/external-images/informatica-cable-utp-tb.jpg
 
    Cable UTP de Ethernet, con cuatro pares de cable de cobre
    trenzados y sin apantallar.
@@ -1467,7 +1467,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-logo-wifi.png
+.. figure:: legal/external-images/informatica-logo-wifi-tb.png
 
    Logotipo del estándar Wifi.
 
@@ -1480,7 +1480,7 @@ Otras imágenes
 ..
    source: informatica-hardware-comunicaciones.rst
 
-.. figure:: _thumbs/informatica-logo-bluetooth.png
+.. figure:: legal/external-images/informatica-logo-bluetooth-tb.png
 
    Logotipo del estándar Bluetooth.
 
@@ -1493,7 +1493,7 @@ Otras imágenes
 ..
    source: informatica-hardware-cpu.rst
 
-.. figure:: _thumbs/informatica-cpu-486dx2-b.jpg
+.. figure:: legal/external-images/informatica-cpu-486dx2-b-tb.jpg
 
    CPU 80486DX típica de los PC de mediados de los años 90.
 
@@ -1506,7 +1506,7 @@ Otras imágenes
 ..
    source: informatica-hardware-cpu.rst
 
-.. figure:: _thumbs/informatica-tarjeta-video.jpg
+.. figure:: legal/external-images/informatica-tarjeta-video-tb.jpg
 
    Tarjeta gráfica Radeon HD 5570.
 
@@ -1518,7 +1518,7 @@ Otras imágenes
 ..
    source: informatica-hardware-esquema-ordenador.rst
 
-.. figure:: _thumbs/informatica-pc-exploded.png
+.. figure:: legal/external-images/informatica-pc-exploded-tb.png
 
    `Gustavb <https://commons.wikimedia.org/wiki/File:Personal_computer,_exploded_5.svg>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
@@ -1529,7 +1529,7 @@ Otras imágenes
 ..
    source: informatica-hardware-index.rst
 
-.. figure:: _thumbs/informatica-placa-base-01.jpg
+.. figure:: legal/external-images/informatica-placa-base-01-tb.jpg
 
    `Evan-Amos <https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
@@ -1540,7 +1540,7 @@ Otras imágenes
 ..
    source: informatica-hardware-ley-moore.rst
 
-.. figure:: _thumbs/informatica-moore-law.png
+.. figure:: legal/external-images/informatica-moore-law-tb.png
 
    `Max Roser, Hannah Ritchie <https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1970-2020.png>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
@@ -1551,7 +1551,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-raton.jpg
+.. figure:: legal/external-images/informatica-raton-tb.jpg
 
    Ratón con cable.
 
@@ -1565,7 +1565,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-teclado.png
+.. figure:: legal/external-images/informatica-teclado-tb.png
 
    Teclado español.
 
@@ -1579,7 +1579,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-escaner.jpg
+.. figure:: legal/external-images/informatica-escaner-tb.jpg
 
    Escaner.
 
@@ -1593,7 +1593,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-camara-web.jpg
+.. figure:: legal/external-images/informatica-camara-web-tb.jpg
 
    Cámara web externa.
 
@@ -1607,7 +1607,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-microfono.jpg
+.. figure:: legal/external-images/informatica-microfono-tb.jpg
 
    Micrófono magneto-dinámico de marca Sennheiser.
 
@@ -1621,7 +1621,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-tableta-digitalizadora.jpg
+.. figure:: legal/external-images/informatica-tableta-digitalizadora-tb.jpg
 
    Tableta gráfica.
 
@@ -1635,7 +1635,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-monitor.jpg
+.. figure:: legal/external-images/informatica-monitor-tb.jpg
 
    Monitor LCD.
 
@@ -1649,7 +1649,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-proyector.jpg
+.. figure:: legal/external-images/informatica-proyector-tb.jpg
 
    Proyector de vídeo.
 
@@ -1663,7 +1663,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-impresora.jpg
+.. figure:: legal/external-images/informatica-impresora-tb.jpg
 
    Impresora láser.
 
@@ -1677,7 +1677,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-dac.jpg
+.. figure:: legal/external-images/informatica-dac-tb.jpg
 
    DAC de audio.
 
@@ -1691,7 +1691,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-altavoces.jpg
+.. figure:: legal/external-images/informatica-altavoces-tb.jpg
 
    Altavoces USB.
 
@@ -1705,7 +1705,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-ledes.jpg
+.. figure:: legal/external-images/informatica-ledes-tb.jpg
 
    Pilotos LED de un teclado.
 
@@ -1719,7 +1719,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-vibrador.jpg
+.. figure:: legal/external-images/informatica-vibrador-tb.jpg
 
    Motor que produce vibración.
 
@@ -1733,7 +1733,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-linea-braille.jpg
+.. figure:: legal/external-images/informatica-linea-braille-tb.jpg
 
    Dispositivo de braille.
 
@@ -1747,7 +1747,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-pantalla-tactil.jpg
+.. figure:: legal/external-images/informatica-pantalla-tactil-tb.jpg
 
    Pantalla táctil de un smartphone.
 
@@ -1761,7 +1761,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-impresora-multifuncion.jpg
+.. figure:: legal/external-images/informatica-impresora-multifuncion-tb.jpg
 
    Impresora multifuncion.
 
@@ -1775,7 +1775,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-casco-vr.jpg
+.. figure:: legal/external-images/informatica-casco-vr-tb.jpg
 
    Casco de realidad virtual.
 
@@ -1789,7 +1789,7 @@ Otras imágenes
 ..
    source: informatica-hardware-perifericos.rst
 
-.. figure:: _thumbs/informatica-tarjeta-sonido.jpg
+.. figure:: legal/external-images/informatica-tarjeta-sonido-tb.jpg
 
    Tarjeta de sonido externa.
 
@@ -1803,7 +1803,7 @@ Otras imágenes
 ..
    source: informatica-hardware-placabase.rst
 
-.. figure:: _thumbs/informatica-placa-base-02.jpg
+.. figure:: legal/external-images/informatica-placa-base-02-tb.jpg
 
    Placa base ASRock A70GXH-128M de 2012.
 
@@ -1816,7 +1816,7 @@ Otras imágenes
 ..
    source: informatica-software-imagenes.rst
 
-.. figure:: _thumbs/informatica-bitmap-svg.svg
+.. figure:: legal/external-images/informatica-bitmap-svg-tb.svg
 
    Diferencia entre una imagen de mapa de bits (Raster) y una imagen
    vectorial (SVG).
@@ -1830,7 +1830,7 @@ Otras imágenes
 ..
    source: informatica-software-imagenes.rst
 
-.. figure:: _thumbs/informatica-rotating-earth.jpg
+.. figure:: legal/external-images/informatica-rotating-earth.jpg
 
    `Zaqwerdx <https://commons.wikimedia.org/wiki/File:Rotating_earth_mini.gif>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
@@ -1841,7 +1841,7 @@ Otras imágenes
 ..
    source: informatica-software-imagenes.rst
 
-.. figure:: _thumbs/informatica-tomate.svg
+.. figure:: legal/external-images/informatica-tomate-tb.svg
 
    `Stephen Winsor <https://commons.wikimedia.org/wiki/File:Tomate.svg>`__,
    `GNU General Public License v3 <https://www.gnu.org/licenses/gpl-3.0.html>`__,
@@ -1852,7 +1852,7 @@ Otras imágenes
 ..
    source: material-madera.rst
 
-.. figure:: _thumbs/material-duramen.jpg
+.. figure:: legal/external-images/material-duramen-tb.jpg
    :alt: Tronco de tejo en el que se distingue bien el duramen de la albura
 
    Tronco de tejo en el que se distingue bien el duramen de la albura.
@@ -1866,7 +1866,7 @@ Otras imágenes
 ..
    source: material-metales.rst
 
-.. figure:: _thumbs/material-tabla-periodica.png
+.. figure:: legal/external-images/material-tabla-periodica-tb.png
    :alt: Tabla periódica de los elementos.
 
    `2012rc <https://commons.wikimedia.org/wiki/File:Periodic_table_large-es-updated-2018.svg>`__,
@@ -1878,7 +1878,7 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
-.. figure:: _thumbs/material-marmol.jpg
+.. figure:: legal/external-images/material-marmol-tb.jpg
    :alt: Superficie de mármol con vetas
 
    `Lysippos <https://commons.wikimedia.org/wiki/File:Milv.jpg>`__,
@@ -1890,7 +1890,7 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
-.. figure:: _thumbs/material-granito.jpg
+.. figure:: legal/external-images/material-granito-tb.jpg
    :alt: Piedra de granito sin pulir
 
    `Rojinegro81 <https://commons.wikimedia.org/wiki/File:Roca_Granito.JPG>`__,
@@ -1902,7 +1902,7 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
-.. figure:: _thumbs/material-pizarra.jpg
+.. figure:: legal/external-images/material-pizarra-tb.jpg
    :alt: Tejado revestido de planchas de pizarra impermeable
 
    `Dontworry <https://commons.wikimedia.org/wiki/File:St.leonhard-ffm002.jpg>`__,
@@ -1914,7 +1914,7 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
-.. figure:: _thumbs/material-caliza.jpg
+.. figure:: legal/external-images/material-caliza-tb.jpg
    :alt: Gran Pirámide de Guiza recubierta por completo de piedra caliza
 
    Gran Pirámide de Guiza. Recubierta por completo de piedra caliza.
@@ -1928,7 +1928,7 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
-.. figure:: _thumbs/material-arenisca.jpg
+.. figure:: legal/external-images/material-arenisca-tb.jpg
    :alt: Piedra arenisca
 
    `Sarranpa <https://commons.wikimedia.org/wiki/File:Arenisca.jpg>`__,
@@ -1940,7 +1940,7 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
-.. figure:: _thumbs/material-hormigon.jpg
+.. figure:: legal/external-images/material-hormigon-tb.jpg
    :alt: Suelo de hormigón armado. Momento en el que se extiende el
          hormigón, todavía líquido, por el suelo.
 
@@ -1953,7 +1953,7 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
-.. figure:: _thumbs/material-arcilla.jpg
+.. figure:: legal/external-images/material-arcilla-tb.jpg
    :alt: Arcilla. Yacimiento del cuaternario.
 
    `Siim Sepp <https://commons.wikimedia.org/wiki/File:Clay-ss-2005.jpg>`__,
@@ -1965,7 +1965,7 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
-.. figure:: _thumbs/material-loza.jpg
+.. figure:: legal/external-images/material-loza-tb.jpg
    :alt: Cuenco fabricado de loza
 
    `Lourdes Cardenal <https://commons.wikimedia.org/wiki/File:Cuenco_barro_ceramica_popular_lou.jpg>`__,
@@ -1977,7 +1977,7 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
-.. figure:: _thumbs/material-gres.jpg
+.. figure:: legal/external-images/material-gres-tb.jpg
    :alt: Vasijas de gres usadas en la industria química.
 
    Gres usado en la industria química.
@@ -1991,7 +1991,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-polimero.jpg
+.. figure:: legal/external-images/material-polimero-tb.jpg
    :alt: Fotografía de un polímero real usando un microscopio de fuerza atómica.
 
    Fotografía de un polímero real usando un microscopio de fuerza atómica.
@@ -2005,7 +2005,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-pet.jpg
+.. figure:: legal/external-images/material-pet-tb.jpg
    :alt: Botella de agua mineral, fabricada con PET.
 
    Botella de agua mineral, fabricada con PET.
@@ -2019,7 +2019,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-pvc.jpg
+.. figure:: legal/external-images/material-pvc-tb.jpg
    :alt: Tubería y codo de PVC.
 
    Tubería y codo de PVC.
@@ -2033,7 +2033,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-polipropileno.jpg
+.. figure:: legal/external-images/material-polipropileno-tb.jpg
    :alt: Caja de CD hecha de polipropileno.
 
    Caja de CD hecha de polipropileno.
@@ -2047,7 +2047,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-poliexpan.jpg
+.. figure:: legal/external-images/material-poliexpan-tb.jpg
    :alt: Poliestireno expandido o poliexpan, también llamado "corcho blanco".
 
    Poliestireno expandido o poliexpan, también llamado "corcho blanco".
@@ -2061,7 +2061,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-nailon.jpg
+.. figure:: legal/external-images/material-nailon-tb.jpg
    :alt: Abrazaderas de nailon.
 
    Abrazaderas de nailon.
@@ -2075,7 +2075,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-teflon.jpg
+.. figure:: legal/external-images/material-teflon-tb.jpg
    :alt: Cinta de teflón para prevenir fugas.
 
    Cinta de teflón para prevenir fugas.
@@ -2089,7 +2089,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-policarbonato.jpg
+.. figure:: legal/external-images/material-policarbonato-tb.jpg
    :alt: Gafas protectoras de policarbonato.
 
    Gafas protectoras de policarbonato.
@@ -2103,7 +2103,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-metacrilato.jpg
+.. figure:: legal/external-images/material-metacrilato-tb.jpg
    :alt: Bromo puro rodeado de un cubo de metacrilato.
 
    Bromo puro rodeado de un cubo de metacrilato.
@@ -2117,7 +2117,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-baquelita.jpg
+.. figure:: legal/external-images/material-baquelita-tb.jpg
    :alt: Teléfono fabricado con baquelita.
 
    Teléfono fabricado con baquelita.
@@ -2131,7 +2131,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-melamina.jpg
+.. figure:: legal/external-images/material-melamina-tb.jpg
    :alt: Tablero de madera recubierto de melamina.
 
    Tablero de madera recubierto de melamina.
@@ -2145,7 +2145,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-epoxi.jpg
+.. figure:: legal/external-images/material-epoxi-tb.jpg
    :alt: Contenedor de fibra de vidrio con resina epoxi.
 
    Contenedor de fibra de vidrio con resina epoxi.
@@ -2159,7 +2159,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-poliuretano.jpg
+.. figure:: legal/external-images/material-poliuretano-tb.jpg
    :alt: Esponja de poliuretano.
 
    Esponja de poliuretano.
@@ -2173,7 +2173,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-latex.jpg
+.. figure:: legal/external-images/material-latex-tb.jpg
    :alt: Guante de látex.
 
    Guante de látex.
@@ -2187,7 +2187,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-neopreno.jpg
+.. figure:: legal/external-images/material-neopreno-tb.jpg
    :alt: Traje de neopreno para buzos.
 
    Traje de neopreno para buzos.
@@ -2201,7 +2201,7 @@ Otras imágenes
 ..
    source: material-plasticos.rst
 
-.. figure:: _thumbs/material-silicona.jpg
+.. figure:: legal/external-images/material-silicona-tb.jpg
    :alt: Pasta de silicona para sellar.
 
    Pasta de silicona para sellar.
@@ -2215,7 +2215,7 @@ Otras imágenes
 ..
    source: mecan-neumatic-valvula-antirretorno.rst
 
-.. figure:: _thumbs/neumatic-simbolo-valvula-antirretorno-4.png
+.. figure:: legal/external-images/neumatic-simbolo-valvula-antirretorno-4-tb.png
    :alt: Válvula antirretorno cerrada.
 
    Válvula antirretorno cerrada.
@@ -2230,7 +2230,7 @@ Otras imágenes
 ..
    source: mecan-neumatic-valvula-antirretorno.rst
 
-.. figure:: _thumbs/neumatic-simbolo-valvula-antirretorno-5.png
+.. figure:: legal/external-images/neumatic-simbolo-valvula-antirretorno-5-tb.png
    :alt: Válvula antirretorno abierta.
 
    Válvula antirretorno abierta.
@@ -2245,7 +2245,7 @@ Otras imágenes
 ..
    source: mecan-neumatic-valvula-antirretorno.rst
 
-.. figure:: _thumbs/neumatic-simbolo-valvula-estranguladora-3.png
+.. figure:: legal/external-images/neumatic-simbolo-valvula-estranguladora-3-tb.png
    :alt: Visión interna de una válvula estranguladora o reguladora de caudal.
 
    Visión interna de una válvula estranguladora o reguladora de caudal.
@@ -2260,7 +2260,7 @@ Otras imágenes
 ..
    source: mecan-tornillos.rst
 
-.. figure:: _thumbs/mecan-tornillo-01.jpg
+.. figure:: legal/external-images/mecan-tornillo-01-tb.jpg
    :alt: Tornillo y tuerca hexagonal
 
    Tornillo y tuerca hexagonal.
@@ -2274,7 +2274,7 @@ Otras imágenes
 ..
    source: mecan-tornillos.rst
 
-.. figure:: _thumbs/mecan-tornillo-02.jpg
+.. figure:: legal/external-images/mecan-tornillo-02.jpg
    :alt: Gato mecánico para levantar automóviles, con un tornillo que
          mueve el mecanismo.
 
@@ -2289,7 +2289,7 @@ Otras imágenes
 ..
    source: python-sort-mezcla.rst
 
-.. figure:: _thumbs/python-merge-sort-example.jpg
+.. figure:: legal/external-images/python-merge-sort-example.jpg
    :alt: Algoritmo de ordenación por mezcla.
 
    Algoritmo de ordenación por mezcla.

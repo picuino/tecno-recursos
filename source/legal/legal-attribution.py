@@ -38,12 +38,12 @@ def generate_thumbs(figures):
         base, ext = os.path.splitext(base)
         if ext == '.gif':
             image = image + '[0]'
-            thumb = '_thumbs/' + base + '.jpg'
+            thumb = 'legal/external-images/' + base + '.jpg'
         else:
-            thumb = '_thumbs/' + base + ext            
+            thumb = 'legal/external-images/' + base + '-tb' + ext            
         figure[1] = f'.. figure:: {thumb}'        
         if not os.path.exists('../' + thumb):
-            argument = f'../{image} -resize 320x ../{thumb}'
+            argument = f'../{image} -resize 320x320^ ../{thumb}'
             os.system('/Bin/ImageMagick/convert.exe ' + argument)
 
             
