@@ -54,49 +54,26 @@ El funcionamiento de la válvula de simultaneidad puede resumirse en la
 siguiente tabla de verdad o tabla lógica:
 
 .. list-table:: Funcionamiento de la válvula de simultaneidad.
-   :widths: 20 20 20
+   :widths: 30 30 30
    :align: center
    :header-rows: 1
 
    * - Vía izquierda
      - Vía derecha
      - Vía superior
-   * - Sin presión
-     - Sin presión
-     - Sin presión
-   * - Con presión
-     - Sin presión
-     - Sin presión
-   * - Sin presión
-     - Con presión
-     - Sin presión
-   * - Con presión
-     - Con presión
-     - Con presión
+   * - Sin presión (0)
+     - Sin presión (0)
+     - Sin presión (0)
+   * - Con presión (1)
+     - Sin presión (0)
+     - Sin presión (0)
+   * - Sin presión (0)
+     - Con presión (1)
+     - Sin presión (0)
+   * - Con presión (1)
+     - Con presión (1)
+     - Con presión (1)
 
-Si traducimos Sin presión con un cero y Con presión con un uno,
-obtenemos la clásica tabla de verdad de la función and:
-
-.. list-table::
-   :widths: 20 20 20
-   :align: center
-   :header-rows: 1
-
-   * - Vía izquierda
-     - Vía derecha
-     - Vía superior
-   * - 0
-     - 0
-     - 0
-   * - 1
-     - 0
-     - 0
-   * - 0
-     - 1
-     - 0
-   * - 1
-     - 1
-     - 1
 
 Cilindro de simple efecto y válvula de simultaneidad
 ----------------------------------------------------
@@ -223,8 +200,8 @@ Ejercicios
       :align: center
       :header-rows: 1
 
-      * - Válvula izquierda
-        - Válvula central
+      * - Válvula izquierda 1
+        - Válvula izquierda 2
         - Válvula derecha
         - Vástago
       * - No accionada

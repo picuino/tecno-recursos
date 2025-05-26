@@ -13,7 +13,12 @@ inyecta aire en la parte delantera.
 
 La fuerza de salida del vástago siempre es un poco mayor que la fuerza
 de entrada porque el aire comprimido no puede hacer presión sobre la zona
-que ocupa el vástago.
+que ocupa el vástago. Si inyectamos aire a presión en las dos vías del
+cilindro, este saldrá hacia fuera con poca fuerza.
+
+En el caso de que el cilindro de doble efecto no tenga presión de aire
+en ninguna de sus dos vías, no tendrá fuerza en ningún sentido y se
+podrá mover libremente sin esfuerzo, tanto dentro como fuera.
 
 Los cilindros de doble efecto se comandan mediante una **válvula 4/2**
 o mediante una **válvula 5/2**. Ambas válvulas son semejantes y solo se
