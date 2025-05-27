@@ -1178,6 +1178,16 @@ Otras imágenes
 ..
    source: informatica-hardware-clasificacion.rst
 
+.. figure:: legal/external-images/informatica-laptop-tb.png
+
+   `Pixabay <https://commons.wikimedia.org/wiki/File:Black_laptop_computer_open_frontal.svg>`__
+   `CC0 1.0 Public Domain <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__
+
+----
+
+..
+   source: informatica-hardware-clasificacion.rst
+
 .. figure:: legal/external-images/informatica-computer-02-tb.png
 
    Imagen de `OpenClipart-Vectors <https://pixabay.com/es/users/openclipart-vectors-30363/>`__
@@ -1850,6 +1860,18 @@ Otras imágenes
 ----
 
 ..
+   source: informatica-software-index.rst
+
+.. figure:: legal/external-images/informatica-software-binario-tb.jpg
+
+   `Gerd Altmann
+   <https://pixabay.com/es/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4791836>`__
+   `en Pixabay
+   <https://pixabay.com/es//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4791836>`__.
+
+----
+
+..
    source: material-madera.rst
 
 .. figure:: legal/external-images/material-duramen-tb.jpg
@@ -1940,6 +1962,28 @@ Otras imágenes
 ..
    source: material-petreos.rst
 
+.. figure:: legal/external-images/material-escayola-tb.jpg
+   :alt: Techo de escayola con filigranas grabadas
+
+   `Joseph Rose <https://commons.wikimedia.org/wiki/File:Tapestry_Room_from_Croome_Court_MET_DP341270.jpg>`__
+   `CC0 Public Domain. <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__
+
+----
+
+..
+   source: material-petreos.rst
+
+.. figure:: legal/external-images/material-cemento-tb.jpg
+   :alt: Cemento en polvo
+
+   `Anónimo <https://commons.wikimedia.org/wiki/File:USMC-110806-M-IX060-148.jpg>`__
+   `CC0 Public Domain. <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__
+
+----
+
+..
+   source: material-petreos.rst
+
 .. figure:: legal/external-images/material-hormigon-tb.jpg
    :alt: Suelo de hormigón armado. Momento en el que se extiende el
          hormigón, todavía líquido, por el suelo.
@@ -1983,6 +2027,29 @@ Otras imágenes
    Gres usado en la industria química.
 
    `Patrick Charpiat <https://commons.wikimedia.org/wiki/File:Beau_021.jpg>`__,
+   `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
+   via Wikimedia Commons.
+
+----
+
+..
+   source: material-petreos.rst
+
+.. figure:: legal/external-images/material-porcelana-tb.jpg
+   :alt: Plato de porcelana semitransparente.
+
+   `Klausbo <https://commons.wikimedia.org/wiki/File:Transparent_porcelain.jpg>`__
+   Public Domain.
+
+----
+
+..
+   source: material-petreos.rst
+
+.. figure:: legal/external-images/material-vidrio-tb.jpg
+   :alt: Botella de vidrio azul
+
+   `Matthew Bowden. <https://commons.wikimedia.org/wiki/File:Colorful_bottle.jpg>`__
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
    via Wikimedia Commons.
 

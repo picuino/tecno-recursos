@@ -10,7 +10,7 @@ header_file = 'legal-attribution.txt'
 output_file = '../legal-attribution.rst'
 output_discard = 'legal-internal-figures.txt'
 
-filter_external = 'Wikimedia Commons|Pixabay|Pexels'
+filter_external = 'Wikimedia Commons|Pixabay|Pexels|wikimedia\.org'
 extensions = ['.rst']
 excludes = ['legal-attribution.rst']
 
@@ -45,6 +45,7 @@ def generate_thumbs(figures):
         if not os.path.exists('../' + thumb):
             argument = f'../{image} -resize 320x320^ ../{thumb}'
             os.system('/Bin/ImageMagick/convert.exe ' + argument)
+            print(thumb)
 
             
 def export(fname, figures, header=''):
@@ -58,7 +59,7 @@ def filter_figures(figures):
     figures_external = []
     figures_internal = []
     for figure in figures:
-        if re.search(filter_external, figure[-1]):
+        if re.search(filter_external, '\n'.join(figure[-2:])):
             figures_external.append(figure)
         else:
             figures_internal.append(figure)
