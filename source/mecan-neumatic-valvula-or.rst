@@ -67,42 +67,19 @@ la siguiente tabla de verdad o tabla lógica:
    * - Vía izquierda
      - Vía derecha
      - Vía superior
-   * - Sin presión
-     - Sin presión
-     - Sin presión
-   * - Con presión
-     - Sin presión
-     - Con presión
-   * - Sin presión
-     - Con presión
-     - Con presión
-   * - Con presión
-     - Con presión
-     - Con presión
+   * - Sin presión (0)
+     - Sin presión (0)
+     - Sin presión (0)
+   * - Con presión (1)
+     - Sin presión (0)
+     - Con presión (1)
+   * - Sin presión (0)
+     - Con presión (1)
+     - Con presión (1)
+   * - Con presión (1)
+     - Con presión (1)
+     - Con presión (1)
 
-Si traducimos 'Sin presión' con un cero y 'Con presión' con un uno,
-obtenemos la clásica tabla de verdad de la función or:
-
-.. list-table::
-   :widths: 20 20 20
-   :align: center
-   :header-rows: 1
-
-   * - Vía izquierda
-     - Vía derecha
-     - Vía superior
-   * - 0
-     - 0
-     - 0
-   * - 1
-     - 0
-     - 1
-   * - 0
-     - 1
-     - 1
-   * - 1
-     - 1
-     - 1
 
 Cilindro de simple efecto y válvula selectora
 ---------------------------------------------
@@ -209,7 +186,7 @@ Ejercicios
 
 #. Dibuja el circuito anterior en papel y explica su funcionamiento.
 
-#. ¿Qué diferencias hay entre una válvula de simultaneidad neumática
+#. ¿Qué diferencias hay entre una válvula selectora neumática
    y una unión de tubos neumáticos?
 
 #. ¿Para qué sirve la unión de válvulas selectoras neumáticas
