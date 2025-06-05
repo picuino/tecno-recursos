@@ -28,4 +28,4 @@ Presentación de las señales de seguridad y salud en el trabajo.
 |
 |  `Imágenes de las señales de seguridad y salud en el trabajo.
    Formato PNG.
-   <../_static/documents/seniales-seguridad-salud.zip>`__
+   <../_static/document/seniales-seguridad-salud.zip>`__

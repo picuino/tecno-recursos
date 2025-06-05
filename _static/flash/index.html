@@ -1,135 +1,101 @@
 <!DOCTYPE html>
 <html lang="es-es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <title>Infografías de energía</title>
-    <style>
-    body {
-      background-color: #efefef;
-      font-size: 12px;
-      min-width: 320px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    h1 {
-      font-size: 32px;
-      text-align: center;
-      color: #094070;
-      margin: 32px 0 12px 0;
-    }
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test de Tecnología. Materiales, Mecánica, Electricidad.">
+   <title>Infografías de energías.</title>
 
-    h2 {
-      font-size: 24px;
-      margin-bottom: 24px;
-      font-weight: 700;
-    }
-    .container {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      max-width: 800px;
-      margin: 0 auto;
-      padding-bottom: 20px;
-    }
-    .container > * {
-      width: 100%;
-    }
-    .flex-column {
-      display: flex;
-      flex-direction: column;
-      padding: 8px;
-    }
-    .flex-center {
-      justify-content: center;
-      align-items: center;
-    }
-    h1 {
-      font-size: 32px;
-      text-align: center;
-      color: #094070;
-      margin: 32px 0 12px 0;
-    }
+   <link rel="stylesheet" href="app.css">
 
-    /* BUTTONS */
-    .btn {
-      font-size: 18px;
-      padding: 8px 4px;
-      width: 280px;
-      text-align: center;
-      border: 1px solid #094070;
-      margin-bottom: 8px;
-      text-decoration: none;
-      color: #094070;
-      background-color: white;
-      border-radius: 8px;
-    }
-    .btn:hover {
-      cursor: pointer;
-      box-shadow: 0 4px 14px 0 rgba(86, 185, 235, 0.5);
-      transform: translateY(-1px);
-      transition: transform 150ms;
-    }
-    .btn[disabled]:hover {
-      cursor: not-allowed;
-      box-shadow: none;
-      transform: none;
-    }
-    </style>
-  </head>
+   <style>
+   h1, h2 {
+     font-size: 32px;
+     text-align: center;
+     color: #094070;
+     padding-top: 32px;
+     margin: 0 0 32px 0;
+   }
+   h2 {
+     margin-top: 96px;
+   }
+   </style>
 
-  <body>
-    <div class="container">
-    <div class="flex-center flex-column">
-    
-    <h1>Energías no renovables</h1>
-    <a class="btn" href="energias_no_renovables.html">1. Energías no renovables</a>
-    <a class="btn" href="energia_petroleo.html">2. Energía petroleo</a>
-    <a class="btn" href="energia_gas natural.html">3. Energía gas natural</a>
-    <a class="btn" href="energia_nuclear.html">4. Energía nuclear</a>
-    <a class="btn" href="energia_carbon.html">5. Energía carbón</a>
-    <a class="btn" href="energia_biodiesel.html">6. Energía biodiesel</a>
-    <a class="btn" href="efecto_invernadero.html">7. Efecto invernadero</a>
+</head>
 
-    <h1>Energías renovables</h1>
-    <a class="btn" href="energias_renovables.html">8. Energías renovables</a>
-    <a class="btn" href="energia_hidraulica.html">9. Energía hidráulica</a>
-    <a class="btn" href="energia_eolica.html">10. Energía eólica</a>
-    <a class="btn" href="energia_solar_fotovoltaica.html">11. Energía solar fotovoltaica</a>
-    <a class="btn" href="energia_solar_termica.html">12. Energía solar térmica</a>
-    <a class="btn" href="energia_biomasa.html">13. Energía biomasa</a>
-    <a class="btn" href="energia_mareomotriz.html">14. Energía mareomotriz</a>
-    <a class="btn" href="energia_de_las_olas.html">15. Energía de las olas</a>
-    <a class="btn" href="energia_geotermal.html">16. Energía geotermal</a>
-    <a class="btn" href="energia_fusion_proyecto_iter.html">17. Energía de fusión. Proyecto Iter</a>
+<body>
+   <div class="container">
+      <div id="home" class="flex-center flex-column">
 
-    <h1>Energía a pequeña escala</h1>
-    <a class="btn" href="energia_mini-eolica.html">18. Energía mini-eólica</a>
-    <a class="btn" href="laminas_nanosolares.html">19. Láminas nanosolares</a>
-    <a class="btn" href="placas_solares_moviles.html">20. Placas solares móviles</a>
-    <a class="btn" href="energia_solar_viviendas.html">21. Energía solar viviendas</a>
-    <a class="btn" href="casas_geosolares.html">22. Casas geosolares</a>
-    <a class="btn" href="buques_cometa.html">23. Buques cometa</a>
+        <h1 id="index">INFOGRAFÍAS DE ENERGÍA</h1>
+        
+        
+        <a class="btn2" href="#energias_renovables">1. Energías renovables</a>
+        <a class="btn2" href="#energias_no_renovables">2. Energías no renovables</a>
+        <a class="btn2" href="#energias_escala">3. Energías a pequeña escala</a>
+        <a class="btn2" href="#energias_transmision">4. Transmisión de energía</a>
+        <a class="btn2" href="#energias_otras">5. Otras infografías</a>
+      
+    <hr style="margin:20px 0 20px 0">
 
-    <h1>Transmisión de energía</h1>
-    <a class="btn" href="transmision_electrica.html">24. Transmisión eléctrica</a>
-    <a class="btn" href="energia_hidrogeno.html">25. Energía hidrógeno</a>
-    <a class="btn" href="energia_aire_comprimido.html">26. Energía aire comprimido</a>
+        
 
-    
-    <h1>Otras infografías</h1>
-    <a class="btn" href="automovil_electrico.html">27. Automóvil eléctrico</a>
-    <a class="btn" href="bici_electrica.html">28. Bicicleta eléctrica</a>
-    <a class="btn" href="tipos_de_bombillas.html">29. Bombillas eléctricas</a>
-    <a class="btn" href="biodigestores.html">30. Biodigestores</a>
-    <a class="btn" href="sistemas_de_calefaccion.html">31. Sistemas de calefacción</a>
-    
-    
-    
-    </div>
-    </div>
+        <h2 id="energias_renovables">Energías renovables</h2>
+        <a class="btn" href="energia_hidraulica.html">1.1 Energía hidráulica</a>
+        <a class="btn" href="energia_eolica.html">1.2 Energía eólica</a>
+        <a class="btn" href="energia_solar_fotovoltaica.html">1.3 Energía solar fotovoltaica</a>
+        <a class="btn" href="placas_solares_moviles.html">1.4 Placas solares móviles</a>
+        <a class="btn" href="energia_solar_termica.html">1.5 Energía solar térmica</a>
+        <a class="btn" href="energia_biomasa.html">1.6 Energía biomasa</a>
+        <a class="btn" href="energia_mareomotriz.html">1.7 Energía mareomotriz</a>
+        <a class="btn" href="energia_de_las_olas.html">1.8 Energía de las olas</a>
+        <a class="btn" href="energia_geotermal.html">1.9 Energía geotermal</a>
+        <a class="btn" href="energia_fusion_proyecto_iter.html">1.10 Energía de fusión. Proyecto Iter</a>
+        <a class="btn2" href="#index">Volver al índice</a>
 
-  </body>
-  
+        <h2 id="energias_no_renovables">Energías no renovables</h2>
+        <a class="btn" href="energia_petroleo.html">2.1 Energía petroleo</a>
+        <a class="btn" href="energia_gas natural.html">2.2 Energía gas natural</a>
+        <a class="btn" href="energia_carbon.html">2.3 Energía carbón</a>
+        <a class="btn" href="energia_biodiesel.html">2.4 Energía biodiesel</a>
+        <a class="btn" href="efecto_invernadero.html">2.5 Efecto invernadero</a>
+        <a class="btn" href="energia_nuclear.html">2.6 Energía nuclear</a>
+        <a class="btn2" href="#index">Volver al índice</a>
+
+        <h2 id="energias_escala">Energías a pequeña escala</h2>
+        <a class="btn" href="energia_mini-eolica.html">3.1 Energía mini-eólica</a>
+        <a class="btn" href="laminas_nanosolares.html">3.2 Láminas nanosolares</a>
+        <a class="btn" href="energia_solar_viviendas.html">3.3 Energía solar viviendas</a>
+        <a class="btn" href="casas_geosolares.html">3.4 Casas geosolares</a>
+        <a class="btn" href="buques_cometa.html">3.5 Buques cometa</a>
+        <a class="btn2" href="#index">Volver al índice</a>
+
+        <h2 id="energias_transmision">Transmisión de energía</h2>
+        <a class="btn" href="transmision_electrica.html">4.1 Transmisión eléctrica</a>
+        <a class="btn" href="energia_hidrogeno.html">4.2 Energía hidrógeno</a>
+        <a class="btn" href="energia_aire_comprimido.html">4.3 Energía aire comprimido</a>
+        <a class="btn2" href="#index">Volver al índice</a>
+
+        <h2 id="energias_otras">Otras infografías</h2>
+        <a class="btn" href="automovil_electrico.html">5.1 Automóvil eléctrico</a>
+        <a class="btn" href="bici_electrica.html">5.2 Bicicleta eléctrica</a>
+        <a class="btn" href="tipos_de_bombillas.html">5.3 Bombillas eléctricas</a>
+        <a class="btn" href="biodigestores.html">5.4 Biodigestores</a>
+        <a class="btn" href="sistemas_de_calefaccion.html">5.5 Sistemas de calefacción</a>
+        <a class="btn2" href="#index">Volver al índice</a>
+
+      </div>
+   </div>
+
+   <div class="container">
+   
+   <!-- FOOTER -->
+   <div class="footer">
+   <p>29 infografías de energía.</p>
+   </div>
+
+   </div>
+</body>
 </html>
