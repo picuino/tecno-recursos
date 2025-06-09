@@ -57,7 +57,7 @@ Elementos auxiliares
 
    Refrigeración por aire
       La `refrigeración por aire
-      <https://es.wikipedia.org/wiki/Refrigeraci%C3%B3n_por_aire>`__
+      <https://es.wikipedia.org/wiki/Refrigeraci%C3%B3n_por_aire_(computadoras)>`__
       se utiliza en los ordenadores más potentes (por ejemplo, un ordenador
       portátil o un PC), para extraer fuera de la caja el calor generado
       por sus circuitos.

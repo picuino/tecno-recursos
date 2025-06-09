@@ -54,9 +54,6 @@ Recursos para la placa Micro Bit
 #. `Micro:bit. Classroom resources.
    <https://www.microbit.org/teach/classroom-resources/>`__
 
-#. `Recursos por un tubo. Tutorial Micro Bit.
-   <https://www.recursospdifgl.com/ense%C3%B1anza-online/micro-bit/>`__
-
 #. Curso de robótica para 1ºESO de la Junta de Andalucía con la
    placa micro:bit en 7 sencillas lecciones y con licencia
    CC BY-NC-SA 4.0.

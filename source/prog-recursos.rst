@@ -17,13 +17,6 @@ Antonio García el niño programador
   <https://www.youtube-nocookie.com/embed/a7SsRuA1KDU>`__
 
 
-Videocursos de programación
----------------------------
-* Vídeo: `Herramientas digitales para diversos lenguajes de programación.
-  <https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/>`__
-
-
-
 Retos de programación con Scratch
 ---------------------------------
 

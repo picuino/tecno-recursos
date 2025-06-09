@@ -42,6 +42,7 @@ Papiroflexia de nivel medio
 
 POP-UP de papel
 ---------------
+
 * Vídeo: `Pop-Up. Materiales Básico.
   <https://www.youtube-nocookie.com/embed/pqaJ1EClc2s>`__
 
@@ -57,5 +58,6 @@ POP-UP de papel
 
 Flying man
 ----------
+
 * Vídeo: `The Flying Man de @robives.
   <https://www.youtube-nocookie.com/embed/Ap6jJ3Oo9lQ>`__

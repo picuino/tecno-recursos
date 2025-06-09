@@ -56,8 +56,5 @@ Imágenes con licencia libre
 Listados de páginas con imágenes libres
 ---------------------------------------
 
-#. `Los 18 mejores bancos de imágenes gratis de 2020
-   <https://epymeonline.com/mejores-bancos-de-imagenes-gratis/>`__.
-
 #. `14 Amazingly Free Stock Photo Websites
    <http://www.entrepreneur.com/article/238646>`__.

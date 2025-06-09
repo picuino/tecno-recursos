@@ -31,7 +31,7 @@ Cursos de Python en línea
   in codedex.io webpage.
 
 * Vídeo: `Python tutorial on YouTube
-  <https://www.youtube-nocookie.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU>`__.
+  <https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU>`__.
 
 
 Libros de Python
@@ -39,9 +39,6 @@ Libros de Python
 
 * `Python para Principiantes
   <https://www.amazon.es/Python-para-Principiantes-Programaci%C3%B3n-principiantes/dp/B087SG2H2X>`__.
-
-* `Introducción a la programación con Python 3 (Universidad Jaume I Castellón)
-  <https://repositori.uji.es/xmlui/handle/10234/102653>`__.
 
 * `Pythonbooks, books for kids <https://pythonbooks.org/for-kids/>`__.
 
