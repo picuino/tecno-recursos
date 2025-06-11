@@ -118,7 +118,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 28 k
 
-   Web creada por Pedro Landín, del departamento de Tecnología del
+   Web creada por Pedro Landín, del departamento de Tecnología del 
    Sagrado Corazón de Placeres.
 
 
@@ -137,7 +137,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 26 k
 
-   Blog creado en el departamento de Tecnología del IES Luis Vélez
+   Blog creado en el departamento de Tecnología del IES Luis Vélez 
    de Guevara, Écija.
 
 
@@ -189,10 +189,10 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 78 k
 
-   Web del movimiento Marea Verde, con apuntes y libros de muchas
+   Web del movimiento Marea Verde, con apuntes y libros de muchas 
    materias, incluida la materia de Tecnología.
 
-   El ranking de esta web tiene una penalización debido a que
+   El ranking de esta web tiene una penalización debido a que 
    tiene mucho tráfico dedicado a otras materias distintas a la
    Tecnología.
 
@@ -212,7 +212,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 12 k
 
-   Web del IES Villalba Hervás, IES Antonio Glez. Glez. y el IES
+   Web del IES Villalba Hervás, IES Antonio Glez. Glez. y el IES 
    Tegueste.
    Creado por nueve docentes de Tecnología en el que desde marzo de
    2008 publican apuntes, actividades, proyectos, etc.
@@ -263,7 +263,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - 8 k
 
-   José Manuel Panadero es el autor de esta página web, que se
+   José Manuel Panadero es el autor de esta página web, que se 
    caracteriza por sus numerosas propuestas para la asignatura de
    Tecnología.
 
@@ -343,7 +343,7 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - Sin datos.
 
-   Blog creado por Amelia Tierno (docente de Tecnología en IES
+   Blog creado por Amelia Tierno (docente de Tecnología en IES 
    Ignacio Ellacuría en Alcalá de Henares).
 
 
@@ -792,22 +792,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-49. `Recursos digitales <https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/>`__
----------------------------------------------------------------------------------------------------------
-
-   .. image:: recursos/screenshots/recursos-www_recursospdifgl_com_ense_C3_B1anza-online_herramientas-digitales.jpg
-      :target: https://www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/
-      :alt: Screenshot de la página web Recursos digitales.
-
-   .. list-table::
-
-      * - `Similarweb rank <https://www.similarweb.com/es/website/www.recursospdifgl.com/ense%C3%B1anza-online/herramientas-digitales/#overview>`__
-        - Sin datos.
-      * - Visitas al mes
-        - Sin datos.
-
-
-50. `Web de Víctor M. Acosta <https://victoracosta352.wixsite.com/tecnologiaeso/>`__
+49. `Web de Víctor M. Acosta <https://victoracosta352.wixsite.com/tecnologiaeso/>`__
 ------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-victoracosta352_wixsite_com_tecnologiaeso.jpg
@@ -822,7 +807,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-51. `JRLopez <https://sites.google.com/site/jrlopezinfo/home/>`__
+50. `JRLopez <https://sites.google.com/site/jrlopezinfo/home/>`__
 -----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_site_jrlopezinfo_home.jpg
@@ -837,7 +822,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-52. `Tecnología Escuelas SJ <https://tecnologia.escuelassj.com/>`__
+51. `Tecnología Escuelas SJ <https://tecnologia.escuelassj.com/>`__
 -------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologia_escuelassj_com.jpg
@@ -852,7 +837,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-53. `Aratecno (Aragón) <https://wp.catedu.es/aratecno/>`__
+52. `Aratecno (Aragón) <https://wp.catedu.es/aratecno/>`__
 ----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-wp_catedu_es_aratecno.jpg
@@ -867,7 +852,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-54. `Profesoratecno <https://profesoratecno.blogspot.com/>`__
+53. `Profesoratecno <https://profesoratecno.blogspot.com/>`__
 -------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-profesoratecno_blogspot_com.jpg
@@ -882,7 +867,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-55. `Tecnoeduca <https://www.tecnoeduca.com/blog/>`__
+54. `Tecnoeduca <https://www.tecnoeduca.com/blog/>`__
 -----------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_tecnoeduca_com_blog.jpg
@@ -897,7 +882,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-56. `Tecnoilógicos <https://tecnoilogicos.blogspot.com/>`__
+55. `Tecnoilógicos <https://tecnoilogicos.blogspot.com/>`__
 -----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnoilogicos_blogspot_com.jpg
@@ -912,7 +897,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-57. `Tecnoinfe <https://tecnoinfe.blogspot.com/>`__
+56. `Tecnoinfe <https://tecnoinfe.blogspot.com/>`__
 ---------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnoinfe_blogspot_com.jpg
@@ -927,7 +912,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-58. `Tecnología Vigán <https://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/>`__
+57. `Tecnología Vigán <https://www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/>`__
 --------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www3_gobiernodecanarias_org_medusa_ecoblog_ilopmon.jpg
@@ -942,7 +927,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-59. `Tecnología Ayala <https://tecnologiaayala.blogspot.com/>`__
+58. `Tecnología Ayala <https://tecnologiaayala.blogspot.com/>`__
 ----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaayala_blogspot_com.jpg
@@ -957,7 +942,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-60. `Blog de Programación y Robótica <https://programacionrobotica.blogspot.com/>`__
+59. `Blog de Programación y Robótica <https://programacionrobotica.blogspot.com/>`__
 ------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-programacionrobotica_blogspot_com.jpg
@@ -972,7 +957,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-61. `Miguel Tecnología <https://sites.google.com/site/migueltecnologia/>`__
+60. `Miguel Tecnología <https://sites.google.com/site/migueltecnologia/>`__
 ---------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_site_migueltecnologia.jpg
@@ -987,7 +972,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-62. `Crea TEC con TIC <https://createcontic.weebly.com/>`__
+61. `Crea TEC con TIC <https://createcontic.weebly.com/>`__
 -----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-createcontic_weebly_com.jpg
@@ -1002,7 +987,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-63. `IES El Cabanyal (1º ESO) <https://sites.google.com/view/tecnologialgm1/>`__
+62. `IES El Cabanyal (1º ESO) <https://sites.google.com/view/tecnologialgm1/>`__
 --------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_view_tecnologialgm1.jpg
@@ -1017,7 +1002,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-64. `IES El Cabanyal (2º ESO) <https://sites.google.com/view/tecnologialgmeso2/>`__
+63. `IES El Cabanyal (2º ESO) <https://sites.google.com/view/tecnologialgmeso2/>`__
 -----------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_view_tecnologialgmeso2.jpg
@@ -1032,7 +1017,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-65. `IES El Cabanyal (3º ESO) <https://sites.google.com/view/tecnologialgm3/>`__
+64. `IES El Cabanyal (3º ESO) <https://sites.google.com/view/tecnologialgm3/>`__
 --------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_view_tecnologialgm3.jpg
@@ -1047,7 +1032,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-66. `IES El Cabanyal (4º ESO) <https://sites.google.com/view/tecnologialgm4/>`__
+65. `IES El Cabanyal (4º ESO) <https://sites.google.com/view/tecnologialgm4/>`__
 --------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-sites_google_com_view_tecnologialgm4.jpg
@@ -1062,7 +1047,7 @@ Los números más pequeños se colocan primeros en la lista.
         - Sin datos.
 
 
-67. `Ciencia y Tecnología <https://citecmat.blogspot.com.es/>`__
+66. `Ciencia y Tecnología <https://citecmat.blogspot.com.es/>`__
 ----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-citecmat_blogspot_com_es.jpg
@@ -1076,12 +1061,12 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - Sin datos.
 
-   Web creada por G. Ibán de la Horra, disponible en inglés y
+   Web creada por G. Ibán de la Horra, disponible en inglés y 
    castellano.
 
 
 
-68. `La Tecnología en el Villadiego <https://tecnovilladiego.blogspot.com.es/>`__
+67. `La Tecnología en el Villadiego <https://tecnovilladiego.blogspot.com.es/>`__
 ---------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnovilladiego_blogspot_com_es.jpg
@@ -1095,26 +1080,8 @@ Los números más pequeños se colocan primeros en la lista.
       * - Visitas al mes
         - Sin datos.
 
-   Blog creado por el departamento de Tecnología del IES Virgen de
+   Blog creado por el departamento de Tecnología del IES Virgen de 
    Villadiego de Peñaflor en Sevilla.
-
-
-
-69. `MecanESO <http://concurso.cnice.mec.es/cnice2006/material107/>`__
-----------------------------------------------------------------------
-
-   .. image:: recursos/screenshots/recursos-concurso_cnice_mec_es_cnice2006_material107.jpg
-      :target: http://concurso.cnice.mec.es/cnice2006/material107/
-      :alt: Screenshot de la página web MecanESO.
-
-   .. list-table::
-
-      * - `Similarweb rank <https://www.similarweb.com/es/website/concurso.cnice.mec.es/#overview>`__
-        - Sin datos.
-      * - Visitas al mes
-        - Sin datos.
-
-   Web con contenidos muy completos de máquinas simples y mecanismos.
 
 
 

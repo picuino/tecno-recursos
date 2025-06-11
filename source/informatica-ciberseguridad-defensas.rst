@@ -293,7 +293,7 @@ protegido.
 8. :index:`Data masking`
 ------------------------
 `Data masking
-<https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/bid/238741/que-es-el-data-masking-o-enmascaramiento-de-datos>`__,
+<https://aws.amazon.com/es/what-is/data-masking/>`__,
 o enmascaramiento de datos, es una técnica utilizada en ciberseguridad
 para proteger la información sensible ocultando o enmascarando partes
 de los datos originales, mientras se mantiene su utilidad para ciertas

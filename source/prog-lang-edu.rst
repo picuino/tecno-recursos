@@ -53,7 +53,7 @@ Mblock
    .. image:: prog/_images/mblock-logo.png
       :height: 120px
 
-   * Website: `mBlock <https://www.makeblock.es/soporte/mblock/>`__
+   * Website: `mBlock <https://www.makeblock.com>`__
    * Desarrollador: Makeblock, basado en Scratch
    * Programación: por bloques
    * Para programar: PC y Arduino
@@ -230,11 +230,6 @@ Otros recursos en Internet
 
 `Lenguajes de programación educativa.
 <https://www.educaciontrespuntocero.com/recursos/programacion/lenguajes-programacion-educativa-alternativas-a-scratch/35925.html>`__
-
-`Qué lenguaje o herramientas de programación deberían enseñarse a
-los niños según su edad.
-<https://www.xataka.com/otros/que-lenguaje-o-herramientas-de-programacion-deberian-ensenarse-a-los-ninos-segun-su-edad>`__
-
 
 
 -----
