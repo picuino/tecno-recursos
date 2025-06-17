@@ -27,7 +27,7 @@ a {
 }
 
 .width-limit {
-  max-width: 850px;
+  max-width: 860px;
   margin: 0 auto;
   padding: 0 4px;
 }
@@ -118,21 +118,23 @@ header {
 
 .content ul li {
   background-color: #F4F4F4;
-  padding: 4px;
+  padding: 8px 4px 0px 4px;
   margin: 4px;
-  width: 150px;
+  width: 156px;
   text-align: center;
+  border-radius: 6px;
 }
 
 .content ul li img {
   width: 150px;
   height: 120px;
   object-fit: contain;
+  border-radius: 6px;
 }
 
 .content ul li h2 {
   margin: 0;
-  padding: 4px 0 0 0;
+  padding: 4px 0;
 }
 
 .content ul li a, ul li a:visited, .content ul li a:active {
