@@ -64,6 +64,12 @@ header {
   margin: 12px 0 12px 0;
 }
 
+.logo img {
+  height: 48px;
+  max-width: 180px;
+  object-fit: contain;
+}
+
 .logo a {
   display: table-cell;
   vertical-align: middle;
@@ -75,15 +81,15 @@ header {
 }
 
 .search {
-  width: 220px;
-  padding: 0 12px 0 0;
+  width: 240px;
+  padding: 0 32px 0 0;
 }
 
 .search input[type="text"] {
   outline: none;
   font-size: 16px;
   padding: 6px 12px;
-  border-radius: 50px;
+  border-radius: 32px;
   border: 0 solid #2472a4;
 }
 
