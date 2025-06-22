@@ -7,7 +7,10 @@
 
 Los materiales plásticos
 ========================
-Son polímeros fabricados a partir del gas natural o del petróleo refinado.
+Son materiales sintéticos compuestos por polímeros, que
+se fabrican a partir de gas natural o petróleo refinado.
+Se caracterizan su capacidad de moldearse fácilmente bajo 
+la acción del calor y la presión.
 
 .. contents:: Índice de contenidos:
    :local:
@@ -58,7 +61,7 @@ Propiedades mecánicas de los plásticos
 
 Densidad
    Los plásticos son ligeros, con una densidad parecida a la del agua
-   (1 kg/litro)
+   (1 kg/litro).
 
    Algunos plásticos se fabrican con pompas de gas en su interior para
    conseguir que tengan muy baja densidad y sean buenos aislantes térmicos.
@@ -102,7 +105,7 @@ Propiedades ecológicas de los plásticos
    Se calcula que actualmente ingerimos en microplásticos el equivalente
    en peso a una tarjeta de crédito cada año.
    Los microplásticos emiten sustancias parecidas a las hormonas que
-   afectan negativamente la salud de todos los animales.
+   afectan negativamente la salud de todos los animales y de las personas.
 
    Los plásticos se pueden reciclar un pequeño número de veces porque al
    reciclarlos se degradan perdiendo sus propiedades originales
@@ -436,6 +439,15 @@ inicial.
       `Achim Hering <https://commons.wikimedia.org/wiki/File:Caulking.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
       via Wikimedia Commons.
+
+Preguntas de la unidad
+----------------------
+Unidad en formato imprimible, con preguntas.
+
+| :download:`Materiales plásticos. Formato PDF.
+  <material/materiales-plasticos.pdf>`
+| :download:`Materiales plásticos. Formato DOC.
+  <material/materiales-plasticos.doc>`
 
 
 Cuestionarios
