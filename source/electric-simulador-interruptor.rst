@@ -25,7 +25,7 @@ de una puerta de portal.
 
 Interruptor
 -----------
-Diseñar con el simulador online el siguiente circuito con interruptor:
+Simula con el simulador online el siguiente circuito con interruptor:
 
 .. image:: electric/_images/electric-simulador-interruptor-01.png
    :align: center
@@ -66,7 +66,7 @@ el ratón en la pantalla arrastrando:
 
 Pulsador
 --------
-Diseñar con el simulador online el siguiente circuito con pulsador:
+Simula con el simulador online el siguiente circuito con pulsador:
 
 .. image:: electric/_images/electric-simulador-interruptor-01.png
    :align: center
@@ -81,7 +81,6 @@ Diseñar con el simulador online el siguiente circuito con pulsador:
    * - Pulsador
      - Dibujar... Componentes de Control... Añadir Pulsador
      - 
-
 
 .. raw:: html
 

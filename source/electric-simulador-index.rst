@@ -11,7 +11,7 @@
 
 Prácticas de electricidad con simulador eléctrico online.
 
-.. image:: electric/_images/electric-simulador-interruptor-01.png
+.. image:: electric/_images/electric-simulador-logo.png
    :align: center
 
 .. toctree::
@@ -20,3 +20,6 @@ Prácticas de electricidad con simulador eléctrico online.
    :titlesonly:
 
    electric-simulador-interruptor.rst
+   electric-simulador-serie.rst
+   electric-simulador-paralelo.rst
+   electric-simulador-mixto.rst
