@@ -37,7 +37,9 @@ Representación, cableado, medida y simulación de circuitos eléctricos.
    electric-sistema-electrico.rst
 
    electric-cableado.rst
-   electric-crocodile-index.rst
+   
+   electric-simulador-index.rst
+   
    bornas-lamparas-index.rst
 
 

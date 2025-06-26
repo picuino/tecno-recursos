@@ -2,6 +2,8 @@
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
+:orphan:
+
 
 .. _crocodile-index:
 
