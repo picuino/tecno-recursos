@@ -65,8 +65,8 @@ en paralelo para ver cómo afecta a la tensión de cada lámpara:
    .. image:: electric/_images/electric-simulador-paralelo-05.png
       :align: center
 
-Si ahora eliminamos una de las lámparas en paralelo, podemos comprobar
-cómo todo el resto del circuito sigue funcionando:
+Si ahora desconectamos una de las lámparas en paralelo, podemos
+comprobar cómo todo el resto del circuito sigue funcionando:
 
 .. image:: electric/_images/electric-simulador-paralelo-02.png
    :align: center
@@ -74,9 +74,10 @@ cómo todo el resto del circuito sigue funcionando:
 
 Ejercicios
 ----------
-#. ¿Es común conectar las pilas en paralelo?
+#. ¿Es común conectar las pilas en paralelo? Explica la respuesta.
 #. ¿Por qué se conectan los generadores de las centrales eléctricas
    en paralelo?
 #. Dibuja tres bombillas conectadas en paralelo a una pila.
 #. ¿Qué propiedades tiene la conexión en paralelo?
-#. ¿Qué ocurre si una lámpara en paralelo con otras se funde?
+#. ¿Qué ocurre si se funde una lámpara que está conectada en paralelo
+   con otras lámparas?
