@@ -8,7 +8,7 @@
 Conexión en paralelo
 ====================
 La conexión en paralelo tiene la propiedad de mantener la misma tensión
-en todos sus componentes. Estos además son independientes, si retiramos 
+en todos sus componentes. Estos además son independientes, si retiramos
 uno de los componentes en paralelo, los demás seguirán funcionando igual
 que antes.
 
@@ -55,7 +55,7 @@ en paralelo para ver cómo afecta a la tensión de cada lámpara:
 
    Los cables en una conexión en paralelo deben dibujarse poco a poco
    uniendo entre sí cada uno de los puntos de conexión:
-   
+
    .. image:: electric/_images/electric-simulador-paralelo-03.png
       :align: center
 

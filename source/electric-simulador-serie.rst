@@ -24,18 +24,18 @@ Por ejemplo la batería tradicional de un automóvil de gasolina tiene
 6 pilas de plomo de 2 voltios cada una, consiguiendo así los 12 voltios
 totales típicos de estas baterías.
 
-Las pilas que forman la batería de un automóvil eléctrico tienen 3.6 
+Las pilas que forman la batería de un automóvil eléctrico tienen 3.6
 voltios cada una y se colocan en serie para conseguir cientos de voltios,
 necesarios para mover el motor eléctrico.
 
-Diseñar en el simulador online los siguientes circuitos con generadores
-en serie para ver cómo afecta la suma de tensiones a la lámpara: 
+Simula en el simulador online los siguientes circuitos con generadores
+en serie para ver cómo afecta la suma de tensiones a la lámpara:
 
 
 .. image:: electric/_images/electric-simulador-serie-02.png
    :align: center
 
-Cuantas más pilas se colocamos en serie, más tensión tiene el circuito
+Cuantas más pilas colocamos en serie, más tensión tiene el circuito
 y más se enciende la lámpara.
 
 .. raw:: html
@@ -58,12 +58,12 @@ y más se enciende la lámpara.
 
 Receptores en serie
 -------------------
-Los receptores en serie se reparten la tensión total del generador de 
+Los receptores en serie se reparten la tensión total del generador de
 manera que cuantos más elementos se coloquen en serie, menos tensión
 tendrá cada uno.
 
 Simula en el simulador online los siguientes circuitos con lámparas
-en serie para ver cómo afecta a la tensión de cada lámpara: 
+en serie para ver cómo afecta a la tensión de cada lámpara:
 
 .. image:: electric/_images/electric-simulador-serie-03.png
    :align: center
@@ -74,7 +74,7 @@ en serie para ver cómo afecta a la tensión de cada lámpara:
    <iframe src="/circuits/index.html?startCircuit=empty.txt"></iframe>
    </div>
 
-Cuando el circuito tiene solamente **una lámpara**, esta recibe toda la 
+Cuando el circuito tiene solamente **una lámpara**, esta recibe toda la
 tensión del generador y por lo tanto luce al máximo.
 
 Cuando el circuito tiene **dos lámparas** en serie, cada una recibe
@@ -94,19 +94,20 @@ funcione, todos sus elementos deben permitir el paso de la corriente:
 
 Interruptores en serie
 ----------------------
-Los interruptores sirven para controlar el paso de corriente a través 
+Los interruptores sirven para controlar el paso de corriente a través
 de los receptores. Por esa razón, los interruptores se conectan siempre
 en serie con los receptores que se quiere controlar.
-Al estar en serie cuando el interruptor esté abierto no pasará tampoco
+Al estar en serie, cuando el interruptor esté abierto no pasará tampoco
 corriente por el receptor y cuando el interruptor esté cerrado también
 pasará corriente por el receptor.
 
-Cuando queremos controlar una lámpara desde dos puntos distintos, la 
+Cuando queremos controlar una lámpara desde dos puntos distintos, la
 conexión es un poco distinta a la serie y hay que utilizar el siguiente
 circuito.
 
 Simula en el simulador online los siguientes circuitos con interruptores
-y con conmutador en serie (se debe pulsar **S** para dibujar el conmutador):
+y con conmutador en serie (se debe pulsar **S** mayúscula para dibujar
+el conmutador):
 
 .. image:: electric/_images/electric-simulador-serie-05.png
    :align: center
@@ -136,7 +137,7 @@ Ejercicios
    receptores que queremos controlar?
 #. ¿Qué pasaría si conectamos tres pilas de 6 voltios en serie con tres
    lámparas en serie? ¿Cuánto crees que se iluminarían?
-   
-   Simula el circuito en el  `simulador de circuitos online
+
+   Simula el circuito en el `simulador de circuitos online
    <../circuits/?startCircuit=empty.txt>`__ para comprobarlo.
-   
+

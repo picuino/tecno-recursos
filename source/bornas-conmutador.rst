@@ -16,8 +16,17 @@ cableado con bornas. Formato PDF.
 <electric/electric-bornas-conmutador.pdf>`
 
 
-Ejercicio con Crocodile Clips
------------------------------
-:download:`Circuito con un conmutador y dos lámparas,
-cableado con bornas. Formato CKT.
-<electric/bornas-crocodile/bornas-02-conmutador.ckt>`
+Ejercicio con simulador
+-----------------------
+Completa en el simulador los cables necesarios para que el circuito
+de la derecha funcione igual que el circuito de la izquierda.
+
+Para trabajar con más facilidad no olvides pulsar en el menú 
+``Archivo``... ``Cambiar a Pantalla Completa``.
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="/circuits/index.html?startCircuit=bornas-conmutador.txt"></iframe>
+   </div>
+
