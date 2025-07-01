@@ -5,8 +5,8 @@
 .. _electric-simulador-mixto:
 
 
-Conexión en circuito mixto
-==========================
+:index:`Conexión en circuito mixto`
+===================================
 Un circuito mixto combina conexiones en serie y conexiones en paralelo.
 
 En el siguiente circuito hay un **interruptor general** que está en

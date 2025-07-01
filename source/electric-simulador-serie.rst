@@ -5,8 +5,11 @@
 .. _electric-simulador-serie:
 
 
-Conexión en serie
-=================
+:index:`Conexión en serie`
+==========================
+Dos componentes están en serie si están conectados uno detrás de otro
+en la misma rama de un circuito.
+
 La conexión en serie tiene la propiedad de sumar la tensión de los
 generadores y de repartir la tensión entre los receptores.
 Cuando se retira (o se estropea) uno de los elementos de una conexión
@@ -24,7 +27,7 @@ Por ejemplo la batería tradicional de un automóvil de gasolina tiene
 6 pilas de plomo de 2 voltios cada una, consiguiendo así los 12 voltios
 totales típicos de estas baterías.
 
-Las pilas que forman la batería de un automóvil eléctrico tienen 3.6
+Las pilas que forman la batería de un automóvil eléctrico tienen 3,6
 voltios cada una y se colocan en serie para conseguir cientos de voltios,
 necesarios para mover el motor eléctrico.
 
@@ -128,7 +131,7 @@ distintas.
 
 Ejercicios
 ----------
-
+#. ¿Qué es una conexión en serie y qué propiedades tiene?
 #. Dibuja un circuito con generadores en serie.
    ¿Qué le ocurre al circuito cuando los generadores están en serie?
 #. Dibuja un circuito con receptores en serie.

@@ -1,242 +1,296 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
-# This file is distributed under the same license as the Picuino package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Picuino 2025\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-27 14:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-07-01 11:03+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
 
 #: ../../source/electric-simulador-serie.rst:9
-msgid "Conexión en serie"
-msgstr ""
+msgid ":index:`Conexión en serie`"
+msgstr ":index:`Serial connection`"
+
 
 #: ../../source/electric-simulador-serie.rst:10
 msgid ""
+"Dos componentes están en serie si están conectados uno detrás de otro en la "
+"misma rama de un circuito."
+msgstr ""
+"Two components are in series if they are connected behind each other in the "
+"same branch of a circuit."
+
+
+#: ../../source/electric-simulador-serie.rst:13
+msgid ""
 "La conexión en serie tiene la propiedad de sumar la tensión de los "
-"generadores y de repartir la tensión entre los receptores. Cuando se "
-"retira (o se estropea) uno de los elementos de una conexión en serie, la "
-"corriente deja de circular y el circuito se apaga."
+"generadores y de repartir la tensión entre los receptores. Cuando se retira "
+"(o se estropea) uno de los elementos de una conexión en serie, la corriente "
+"deja de circular y el circuito se apaga."
 msgstr ""
+"The serial connection has the property of adding the voltage of the "
+"generators and distributing the tension between the receptors. When it is "
+"removed (or spoils) one of the elements of a serial connection, the current "
+"stops circulating and the circuit goes out."
 
-#: ../../source/electric-simulador-serie.rst:17
+
+#: ../../source/electric-simulador-serie.rst:20
 msgid "Generadores en serie"
-msgstr ""
+msgstr "Serial generators"
 
-#: ../../source/electric-simulador-serie.rst:18
+
+#: ../../source/electric-simulador-serie.rst:21
 msgid ""
-"Los generadores en serie suman sus tensiones para poder conseguir "
-"tensiones mayores. La mayoría de las pilas eléctricas tienen una tensión "
-"inferior a 4 voltios, de manera que se juntan en serie para conseguir "
-"tensiones mayores."
+"Los generadores en serie suman sus tensiones para poder conseguir tensiones "
+"mayores. La mayoría de las pilas eléctricas tienen una tensión inferior a 4 "
+"voltios, de manera que se juntan en serie para conseguir tensiones mayores."
 msgstr ""
+"Series generators add their tensions to get larger tensions. Most electric "
+"batteries have a voltage less than 4 volts, so that they come together in "
+"series to get larger tensions."
 
-#: ../../source/electric-simulador-serie.rst:23
+
+#: ../../source/electric-simulador-serie.rst:26
 msgid ""
-"Por ejemplo la batería tradicional de un automóvil de gasolina tiene 6 "
-"pilas de plomo de 2 voltios cada una, consiguiendo así los 12 voltios "
-"totales típicos de estas baterías."
+"Por ejemplo la batería tradicional de un automóvil de gasolina tiene 6 pilas"
+" de plomo de 2 voltios cada una, consiguiendo así los 12 voltios totales "
+"típicos de estas baterías."
 msgstr ""
+"For example, the traditional battery of a gasoline car has 6 lead batteries "
+"of 2 volts each, thus achieving the 12 total volts typical of these "
+"batteries."
 
-#: ../../source/electric-simulador-serie.rst:27
+
+#: ../../source/electric-simulador-serie.rst:30
 msgid ""
-"Las pilas que forman la batería de un automóvil eléctrico tienen 3.6 "
-"voltios cada una y se colocan en serie para conseguir cientos de voltios,"
-" necesarios para mover el motor eléctrico."
+"Las pilas que forman la batería de un automóvil eléctrico tienen 3,6 voltios"
+" cada una y se colocan en serie para conseguir cientos de voltios, "
+"necesarios para mover el motor eléctrico."
 msgstr ""
+"The batteries that form the battery of an electric car have 3.6 volts each "
+"and are placed in series to get hundreds of volts, necessary to move the "
+"electric motor."
 
-#: ../../source/electric-simulador-serie.rst:31
+
+#: ../../source/electric-simulador-serie.rst:34
 msgid ""
-"Simula en el simulador online los siguientes circuitos con generadores en"
-" serie para ver cómo afecta la suma de tensiones a la lámpara:"
+"Simula en el simulador online los siguientes circuitos con generadores en "
+"serie para ver cómo afecta la suma de tensiones a la lámpara:"
 msgstr ""
+"Simulates the following circuits with series generators in the online "
+"simulator to see how the sum of tensions to the lamp affects:"
 
-#: ../../source/electric-simulador-serie.rst:38
+
+#: ../../source/electric-simulador-serie.rst:41
 msgid ""
-"Cuantas más pilas colocamos en serie, más tensión tiene el circuito y más"
-" se enciende la lámpara."
+"Cuantas más pilas colocamos en serie, más tensión tiene el circuito y más se"
+" enciende la lámpara."
 msgstr ""
+"The more batteries we place in series, the more tension the circuit has and "
+"the lar lamp is turned on."
 
-#: ../../source/electric-simulador-serie.rst:48
+
+#: ../../source/electric-simulador-serie.rst:51
 msgid ""
-"Para conseguir que las pilas tengan sólo 1.5 voltios (la tensión típica "
-"de una pila alcalina), es necesario clicar doble sobre la pila o clicar "
-"con el botón derecho del ratón sobre la pila y escoger ``Editar``:"
+"Para conseguir que las pilas tengan sólo 1.5 voltios (la tensión típica de "
+"una pila alcalina), es necesario clicar doble sobre la pila o clicar con el "
+"botón derecho del ratón sobre la pila y escoger ``Editar``:"
 msgstr ""
+"To ensure that the batteries have only 1.5 volts (the typical tension of an "
+"alkaline battery), it is necessary to click double on the battery or click "
+"with the right mouse button on the battery and choose ``Edit``:"
 
-#: ../../source/electric-simulador-serie.rst:55
+
+#: ../../source/electric-simulador-serie.rst:58
 msgid ""
-"En el cuadro de diálogo Tensión cambiaremos el valor a 1.5 (con punto en "
-"vez de coma) y terminaremos clicando en el botón **OK**."
+"En el cuadro de diálogo Tensión cambiaremos el valor a 1.5 (con punto en vez"
+" de coma) y terminaremos clicando en el botón **OK**."
 msgstr ""
+"In the voltage dialog box we will change the value to 1.5 "
+"and end up clicking on the **OK** button."
 
-#: ../../source/electric-simulador-serie.rst:60
+
+#: ../../source/electric-simulador-serie.rst:63
 msgid "Receptores en serie"
-msgstr ""
+msgstr "Series receptors"
 
-#: ../../source/electric-simulador-serie.rst:61
+
+#: ../../source/electric-simulador-serie.rst:64
 msgid ""
-"Los receptores en serie se reparten la tensión total del generador de "
-"manera que cuantos más elementos se coloquen en serie, menos tensión "
-"tendrá cada uno."
+"Los receptores en serie se reparten la tensión total del generador de manera"
+" que cuantos más elementos se coloquen en serie, menos tensión tendrá cada "
+"uno."
 msgstr ""
+"The series receptors distribute the total generator tension so that the more"
+" elements are placed in series, the less voltage each will have."
 
-#: ../../source/electric-simulador-serie.rst:65
+
+#: ../../source/electric-simulador-serie.rst:68
 msgid ""
-"Simula en el simulador online los siguientes circuitos con lámparas en "
-"serie para ver cómo afecta a la tensión de cada lámpara:"
+"Simula en el simulador online los siguientes circuitos con lámparas en serie"
+" para ver cómo afecta a la tensión de cada lámpara:"
 msgstr ""
+"Simulates in the online simulator the following circuits with series lamps "
+"to see how it affects the tension of each lamp:"
 
-#: ../../source/electric-simulador-serie.rst:77
+
+#: ../../source/electric-simulador-serie.rst:80
 msgid ""
 "Cuando el circuito tiene solamente **una lámpara**, esta recibe toda la "
 "tensión del generador y por lo tanto luce al máximo."
 msgstr ""
+"When the circuit has only **one lamp**, it receives all the generator "
+"tension and therefore looks to the fullest."
 
-#: ../../source/electric-simulador-serie.rst:80
-msgid ""
-"Cuando el circuito tiene **dos lámparas** en serie, cada una recibe la "
-"mitad de la tensión del generador, por lo que se iluminan menos."
-msgstr ""
 
 #: ../../source/electric-simulador-serie.rst:83
 msgid ""
-"Por último cuando el circuito tiene **tres lámparas** en serie, cada una "
-"recibe una tercera parte de la tensión del generador, por lo que apenas "
-"se iluminan."
+"Cuando el circuito tiene **dos lámparas** en serie, cada una recibe la mitad"
+" de la tensión del generador, por lo que se iluminan menos."
 msgstr ""
+"When the circuit has **two lamps** in series, each receives half of the "
+"generator's tension, so they light up less."
 
-#: ../../source/electric-simulador-serie.rst:87
+
+#: ../../source/electric-simulador-serie.rst:86
+msgid ""
+"Por último cuando el circuito tiene **tres lámparas** en serie, cada una "
+"recibe una tercera parte de la tensión del generador, por lo que apenas se "
+"iluminan."
+msgstr ""
+"Finally, when the circuit has **three lamps** in series, each receives a "
+"third of the generator's tension, so they barely light up."
+
+
+#: ../../source/electric-simulador-serie.rst:90
 msgid ""
 "Si ahora eliminamos una de las lámparas en serie, podemos comprobar cómo "
-"todo el circuito deja de funcionar. Para que un circuito en serie "
-"funcione, todos sus elementos deben permitir el paso de la corriente:"
+"todo el circuito deja de funcionar. Para que un circuito en serie funcione, "
+"todos sus elementos deben permitir el paso de la corriente:"
 msgstr ""
+"If we now eliminate one of the series lamps, we can check how the entire "
+"circuit stops working. For a series circuit to work, all its elements must "
+"allow the passage of the current:"
 
-#: ../../source/electric-simulador-serie.rst:96
+
+#: ../../source/electric-simulador-serie.rst:99
 msgid "Interruptores en serie"
-msgstr ""
+msgstr "Series switches"
 
-#: ../../source/electric-simulador-serie.rst:97
+
+#: ../../source/electric-simulador-serie.rst:100
 msgid ""
-"Los interruptores sirven para controlar el paso de corriente a través de "
-"los receptores. Por esa razón, los interruptores se conectan siempre en "
-"serie con los receptores que se quiere controlar. Al estar en serie, "
-"cuando el interruptor esté abierto no pasará tampoco corriente por el "
-"receptor y cuando el interruptor esté cerrado también pasará corriente "
-"por el receptor."
+"Los interruptores sirven para controlar el paso de corriente a través de los"
+" receptores. Por esa razón, los interruptores se conectan siempre en serie "
+"con los receptores que se quiere controlar. Al estar en serie, cuando el "
+"interruptor esté abierto no pasará tampoco corriente por el receptor y "
+"cuando el interruptor esté cerrado también pasará corriente por el receptor."
 msgstr ""
+"The switches serve to control the current passage through the receptors. For"
+" that reason, the switches are always connected in series with the receivers"
+" you want to control. Being series, when the switch is open, it will not "
+"pass the receiver either by the receiver and when the switch is closed it "
+"will also pass the receiver."
 
-#: ../../source/electric-simulador-serie.rst:104
+
+#: ../../source/electric-simulador-serie.rst:107
 msgid ""
 "Cuando queremos controlar una lámpara desde dos puntos distintos, la "
 "conexión es un poco distinta a la serie y hay que utilizar el siguiente "
 "circuito."
 msgstr ""
+"When we want to control a lamp from two different points, the connection is "
+"a bit different from the series and the following circuit must be used."
 
-#: ../../source/electric-simulador-serie.rst:108
+
+#: ../../source/electric-simulador-serie.rst:111
 msgid ""
-"Simula en el simulador online los siguientes circuitos con interruptores "
-"y con conmutador en serie (se debe pulsar **S** mayúscula para dibujar el"
-" conmutador):"
+"Simula en el simulador online los siguientes circuitos con interruptores y "
+"con conmutador en serie (se debe pulsar **S** mayúscula para dibujar el "
+"conmutador):"
 msgstr ""
+"Simulates the following circuits with switches in the online simulator with "
+"switches and with a series switch (it must be clicking ** S ** Capital to "
+"draw the switch):"
 
-#: ../../source/electric-simulador-serie.rst:121
+
+#: ../../source/electric-simulador-serie.rst:124
 msgid "Al pulsar el interruptor en serie, la lámpara se iluminará."
-msgstr ""
+msgstr "By pressing the series switch, the lamp will light."
 
-#: ../../source/electric-simulador-serie.rst:123
+
+#: ../../source/electric-simulador-serie.rst:126
 msgid ""
 "En el circuito de la derecha la lámpara se iluminará siempre que los dos "
-"conmutadores se coloquen en la misma dirección. Este es el circuito "
-"típico que se utiliza para encender la lámpara de un pasillo desde dos "
-"posiciones distintas."
+"conmutadores se coloquen en la misma dirección. Este es el circuito típico "
+"que se utiliza para encender la lámpara de un pasillo desde dos posiciones "
+"distintas."
 msgstr ""
+"In the right circuit the lamp will be illuminated provided that the two "
+"switches are placed in the same direction. This is the typical circuit that "
+"is used to light the lamp of a hall from two different positions."
 
-#: ../../source/electric-simulador-serie.rst:130
+
+#: ../../source/electric-simulador-serie.rst:133
 msgid "Ejercicios"
-msgstr ""
+msgstr "Exercises"
 
-#: ../../source/electric-simulador-serie.rst:132
+
+#: ../../source/electric-simulador-serie.rst:134
+msgid "¿Qué es una conexión en serie y qué propiedades tiene?"
+msgstr "What is a serial connection and what properties do you have?"
+
+
+#: ../../source/electric-simulador-serie.rst:135
 msgid ""
 "Dibuja un circuito con generadores en serie. ¿Qué le ocurre al circuito "
 "cuando los generadores están en serie?"
 msgstr ""
+"Draw a circuit with series generators. What happens to the circuit when the "
+"generators are in series?"
 
-#: ../../source/electric-simulador-serie.rst:134
+
+#: ../../source/electric-simulador-serie.rst:137
 msgid ""
 "Dibuja un circuito con receptores en serie. ¿Qué le ocurre al circuito "
 "cuando los receptores están en serie?"
 msgstr ""
+"Draw a circuit with serial receptors. What happens to the circuit when the "
+"receptors are in series?"
 
-#: ../../source/electric-simulador-serie.rst:136
+
+#: ../../source/electric-simulador-serie.rst:139
 msgid ""
-"¿Por qué los interruptores siempre se conectan en serie con los "
-"receptores que queremos controlar?"
+"¿Por qué los interruptores siempre se conectan en serie con los receptores "
+"que queremos controlar?"
 msgstr ""
+"Why do the switches always connect in series with the receivers that we want"
+" to control?"
 
-#: ../../source/electric-simulador-serie.rst:138
+
+#: ../../source/electric-simulador-serie.rst:141
 msgid ""
 "¿Qué pasaría si conectamos tres pilas de 6 voltios en serie con tres "
 "lámparas en serie? ¿Cuánto crees que se iluminarían?"
 msgstr ""
+"What would happen if we connect three batteries of 6 volts in series with "
+"three lamps in series? How much do you think they would light?"
 
-#: ../../source/electric-simulador-serie.rst:141
+
+#: ../../source/electric-simulador-serie.rst:144
 msgid ""
 "Simula el circuito en el `simulador de circuitos online "
 "<../circuits/?startCircuit=empty.txt>`__ para comprobarlo."
 msgstr ""
-
-#~ msgid ""
-#~ "Diseñar en el simulador online los "
-#~ "siguientes circuitos con generadores en "
-#~ "serie para ver cómo afecta la suma"
-#~ " de tensiones a la lámpara:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Cuantas más pilas se colocamos en "
-#~ "serie, más tensión tiene el circuito "
-#~ "y más se enciende la lámpara."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Los interruptores sirven para controlar "
-#~ "el paso de corriente a través de"
-#~ " los receptores. Por esa razón, los"
-#~ " interruptores se conectan siempre en "
-#~ "serie con los receptores que se "
-#~ "quiere controlar. Al estar en serie "
-#~ "cuando el interruptor esté abierto no"
-#~ " pasará tampoco corriente por el "
-#~ "receptor y cuando el interruptor esté"
-#~ " cerrado también pasará corriente por "
-#~ "el receptor."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Simula en el simulador online los "
-#~ "siguientes circuitos con interruptores y "
-#~ "con conmutador en serie (se debe "
-#~ "pulsar **S** para dibujar el "
-#~ "conmutador):"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Simula el circuito en el  `simulador "
-#~ "de circuitos online "
-#~ "<../circuits/?startCircuit=empty.txt>`__ para comprobarlo."
-#~ msgstr ""
+"Simulates the circuit in the `online circuit simulator "
+"<../circuits/?startCircuit=empty.txt>`__ to check it."
 

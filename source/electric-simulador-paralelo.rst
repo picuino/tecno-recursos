@@ -5,12 +5,15 @@
 .. _electric-simulador-paralelo:
 
 
-Conexión en paralelo
-====================
+:index:`Conexión en paralelo`
+=============================
+Dos componentes están conectados en paralelo si sus dos terminales están
+conectados entre sí, formando dos ramas.
+
 La conexión en paralelo tiene la propiedad de mantener la misma tensión
-en todos sus componentes. Estos además son independientes, si retiramos
-uno de los componentes en paralelo, los demás seguirán funcionando igual
-que antes.
+en todos sus componentes. Estos, además, son independientes. Si retiramos
+uno de los componentes en paralelo, los demás componentes seguirán
+funcionando igual que antes.
 
 
 Generadores en paralelo
@@ -74,6 +77,7 @@ comprobar cómo todo el resto del circuito sigue funcionando:
 
 Ejercicios
 ----------
+#. ¿Qué es un circuito en paralelo y qué propiedades tiene?
 #. ¿Es común conectar las pilas en paralelo? Explica la respuesta.
 #. ¿Por qué se conectan los generadores de las centrales eléctricas
    en paralelo?

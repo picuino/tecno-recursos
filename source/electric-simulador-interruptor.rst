@@ -5,8 +5,8 @@
 .. _electric-simulador-interruptor:
 
 
-Interruptor y pulsador
-======================
+:index:`Interruptor y pulsador`
+===============================
 En esta práctica simularemos un circuito que enciende una lámpara
 con un **interruptor** y otro circuito que enciende una lámpara con un
 **pulsador**.

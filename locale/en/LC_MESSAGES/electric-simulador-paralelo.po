@@ -1,120 +1,171 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
-# This file is distributed under the same license as the Picuino package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Picuino 2025\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-26 20:19+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-07-01 11:03+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electric-simulador-paralelo.rst:9
-msgid "Conexión en paralelo"
-msgstr ""
+msgid ":index:`Conexión en paralelo`"
+msgstr ":index:`Connection in parallel`"
+
 
 #: ../../source/electric-simulador-paralelo.rst:10
 msgid ""
-"La conexión en paralelo tiene la propiedad de mantener la misma tensión "
-"en todos sus componentes. Estos además son independientes, si retiramos "
-"uno de los componentes en paralelo, los demás seguirán funcionando igual "
-"que antes."
+"Dos componentes están conectados en paralelo si sus dos terminales están "
+"conectados entre sí, formando dos ramas."
 msgstr ""
+"Two components are connected in parallel if their two terminals are "
+"connected to each other, forming two branches."
 
-#: ../../source/electric-simulador-paralelo.rst:17
+
+#: ../../source/electric-simulador-paralelo.rst:13
+msgid ""
+"La conexión en paralelo tiene la propiedad de mantener la misma tensión en "
+"todos sus componentes. Estos, además, son independientes. Si retiramos uno "
+"de los componentes en paralelo, los demás componentes seguirán funcionando "
+"igual que antes."
+msgstr ""
+"The parallel connection has the property of maintaining the same tension in "
+"all its components. These are also independent. If we withdraw one of the "
+"components in parallel, the other components will continue to function the "
+"same as before."
+
+
+#: ../../source/electric-simulador-paralelo.rst:20
 msgid "Generadores en paralelo"
-msgstr ""
+msgstr "Parallel generators"
 
-#: ../../source/electric-simulador-paralelo.rst:18
+
+#: ../../source/electric-simulador-paralelo.rst:21
 msgid ""
 "Los generadores en paralelo suman sus corrientes para poder entregar más "
 "corriente que uno solo."
 msgstr ""
+"The parallel generators add their currents to be able to deliver more common"
+" than one."
 
-#: ../../source/electric-simulador-paralelo.rst:21
+
+#: ../../source/electric-simulador-paralelo.rst:24
 msgid ""
-"Las pilas y baterías no se suelen conectar en paralelo porque apenas "
-"aporta ventajas y sí que puede presentar problemas si las tensiones de "
-"las pilas no son exactamente idénticas, al descargarse unas sobre otras. "
-"Para conseguir más corriente se utilizan pilas o baterías más grandes, en"
-" vez de utilizar pilas en paralelo."
+"Las pilas y baterías no se suelen conectar en paralelo porque apenas aporta "
+"ventajas y sí que puede presentar problemas si las tensiones de las pilas no"
+" son exactamente idénticas, al descargarse unas sobre otras. Para conseguir "
+"más corriente se utilizan pilas o baterías más grandes, en vez de utilizar "
+"pilas en paralelo."
 msgstr ""
+"Batteries are not usually connected in parallel because it "
+"barely provides advantages and can present problems if batteries are not "
+"exactly identical, when they are discharged on each other. To achieve more "
+"current, larger batteries or batteries are used, instead of using parallel "
+"batteries."
 
-#: ../../source/electric-simulador-paralelo.rst:27
+
+#: ../../source/electric-simulador-paralelo.rst:30
 msgid ""
-"Los generadores de las centrales eléctricas sí que se conectan en "
-"paralelo para poder generar mucha más corriente eléctrica de la que "
-"podría entregar un solo generador. Esta conexión es bastante delicada "
-"porque todos los generadores tienen que tener la misma tensión y "
-"funcionar al unísono. En caso contrario se producirán variaciones en la "
-"red eléctrica que podrían acabar en un apagón eléctrico."
+"Los generadores de las centrales eléctricas sí que se conectan en paralelo "
+"para poder generar mucha más corriente eléctrica de la que podría entregar "
+"un solo generador. Esta conexión es bastante delicada porque todos los "
+"generadores tienen que tener la misma tensión y funcionar al unísono. En "
+"caso contrario se producirán variaciones en la red eléctrica que podrían "
+"acabar en un apagón eléctrico."
 msgstr ""
+"The generators of the electric plants do connect in parallel to be able to "
+"generate much more electric current than could deliver a single generator. "
+"This connection is quite delicate because all generators have to have the "
+"same tension and work in unison. Otherwise there will be variations in the "
+"electricity grid that could end in an electric blackout."
 
-#: ../../source/electric-simulador-paralelo.rst:36
+
+#: ../../source/electric-simulador-paralelo.rst:39
 msgid "Receptores en paralelo"
-msgstr ""
+msgstr "Parallel receptors"
 
-#: ../../source/electric-simulador-paralelo.rst:37
+
+#: ../../source/electric-simulador-paralelo.rst:40
 msgid ""
-"Los receptores suelen conectarse en paralelo para que funcionen de manera"
-" independiente unos de otros. Así, las diferentes bombillas de una "
-"lámpara se conectarán en paralelo de manera que si una de ellas se funde "
-"o se retira, las demás bombillas seguirán funcionando igualmente."
+"Los receptores suelen conectarse en paralelo para que funcionen de manera "
+"independiente unos de otros. Así, las diferentes bombillas de una lámpara se"
+" conectarán en paralelo de manera que si una de ellas se funde o se retira, "
+"las demás bombillas seguirán funcionando igualmente."
 msgstr ""
+"Receptors usually connect in parallel to work independently from each other."
+" Thus, the different bulbs of a lamp will connect in parallel so that if one"
+" of them melts or removes, the other bulbs will continue to function "
+"equally."
 
-#: ../../source/electric-simulador-paralelo.rst:42
+
+#: ../../source/electric-simulador-paralelo.rst:45
 msgid ""
 "Simula en el simulador online los siguientes circuitos con lámparas en "
 "paralelo para ver cómo afecta a la tensión de cada lámpara:"
 msgstr ""
+"Simulates in the online simulator the following circuits with parallel lamps"
+" to see how it affects the tension of each lamp:"
 
-#: ../../source/electric-simulador-paralelo.rst:56
+
+#: ../../source/electric-simulador-paralelo.rst:59
 msgid ""
-"Los cables en una conexión en paralelo deben dibujarse poco a poco "
-"uniendo entre sí cada uno de los puntos de conexión:"
+"Los cables en una conexión en paralelo deben dibujarse poco a poco uniendo "
+"entre sí cada uno de los puntos de conexión:"
 msgstr ""
+"Cables in a parallel connection should be drawn little by little by joining "
+"each of the connection points:"
 
-#: ../../source/electric-simulador-paralelo.rst:68
+
+#: ../../source/electric-simulador-paralelo.rst:71
 msgid ""
-"Si ahora desconectamos una de las lámparas en paralelo, podemos comprobar"
-" cómo todo el resto del circuito sigue funcionando:"
+"Si ahora desconectamos una de las lámparas en paralelo, podemos comprobar "
+"cómo todo el resto del circuito sigue funcionando:"
 msgstr ""
+"If we now disconnect one of the lamps in parallel, we can check how all the "
+"rest of the circuit continues to work:"
 
-#: ../../source/electric-simulador-paralelo.rst:76
+
+#: ../../source/electric-simulador-paralelo.rst:79
 msgid "Ejercicios"
-msgstr ""
+msgstr "Exercises"
 
-#: ../../source/electric-simulador-paralelo.rst:77
-msgid "¿Es común conectar las pilas en paralelo? Explica la respuesta."
-msgstr ""
-
-#: ../../source/electric-simulador-paralelo.rst:78
-msgid ""
-"¿Por qué se conectan los generadores de las centrales eléctricas en "
-"paralelo?"
-msgstr ""
 
 #: ../../source/electric-simulador-paralelo.rst:80
-msgid "Dibuja tres bombillas conectadas en paralelo a una pila."
-msgstr ""
+msgid "¿Qué es un circuito en paralelo y qué propiedades tiene?"
+msgstr "What is a circuit in parallel and what properties do you have?"
+
 
 #: ../../source/electric-simulador-paralelo.rst:81
-msgid "¿Qué propiedades tiene la conexión en paralelo?"
+msgid "¿Es común conectar las pilas en paralelo? Explica la respuesta."
 msgstr ""
+"Is it common to connect the batteries in parallel? Explain the answer."
+
 
 #: ../../source/electric-simulador-paralelo.rst:82
 msgid ""
-"¿Qué ocurre si se funde una lámpara que está conectada en paralelo con "
-"otras lámparas?"
-msgstr ""
+"¿Por qué se conectan los generadores de las centrales eléctricas en "
+"paralelo?"
+msgstr "Why are the generators of parallel power plants connect?"
 
+
+#: ../../source/electric-simulador-paralelo.rst:84
+msgid "Dibuja tres bombillas conectadas en paralelo a una pila."
+msgstr "Draw three bulbs connected in parallel to a battery."
+
+
+#: ../../source/electric-simulador-paralelo.rst:85
+msgid "¿Qué propiedades tiene la conexión en paralelo?"
+msgstr "What properties does the connection in parallel have?"
+
+
+#: ../../source/electric-simulador-paralelo.rst:86
+msgid ""
+"¿Qué ocurre si se funde una lámpara que está conectada en paralelo con otras"
+" lámparas?"
+msgstr "What happens if a lamp is melted in parallel with other lamps?"

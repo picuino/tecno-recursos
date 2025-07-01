@@ -25,10 +25,11 @@ Prácticas de electricidad con `simulador de circuitos eléctricos online
    electric-simulador-paralelo.rst
    electric-simulador-mixto.rst
 
-
-.. electric-simulador-corriente.rst
    electric-simulador-tension.rst
+   electric-simulador-corriente.rst
    electric-simulador-resistencia.rst
+
+.. 
    electric-simulador-ohm.rst
 
    electric-simulador-ledes.rst
