@@ -15,8 +15,12 @@
    </div>
 
 
-:index:`Ohmetro`
-----------------
+:index:`Ohmios`
+---------------
+
+
+:index:`Ohmímetro`
+------------------
 
 
 Ejercicios

@@ -7,19 +7,19 @@
 
 :index:`Corriente eléctrica`
 ============================
-La **intensidad de corriente** eléctrica es la cantidad de electrones que 
+La **intensidad de corriente** eléctrica es la cantidad de electrones que
 circulan por un conductor cada segundo.
 
-En el simulador eléctrico la intensidad de corriente se representa con 
+En el simulador eléctrico la intensidad de corriente se representa con
 **puntos amarillos** que se mueven a través del conductor con más o menos
-velocidad. Cuanto más rápido se mueven los puntos, más intensidad de 
+velocidad. Cuanto más rápido se mueven los puntos, más intensidad de
 corriente representan.
 
 La intensidad de corriente está relacionada con la tensión del generador.
-En la siguiente simulación podemos ver tres pilas de diferente tensión 
+En la siguiente simulación podemos ver tres pilas de diferente tensión
 conectadas a tres lámparas iguales:
 
-* La pila de mayor tensión impulsa los electrones con mayor energía, 
+* La pila de mayor tensión impulsa los electrones con mayor energía,
   por lo que tiene más intensidad de corriente.
 
 * Por el contrario, la pila de menor tensión impulsa los electrones con
@@ -32,6 +32,30 @@ conectadas a tres lámparas iguales:
    </div>
 
 
+:index:`Amperios`
+-----------------
+La corriente eléctrica se mide en **amperios**, acortado como [A].
+Como esta unidad es relativamente grande, en ocasiones se utiliza un
+submúltiplo mil veces menor, el **miliamperio**, acortado como [mA].
+En la siguiente tabla aparecen las corrientes típicas de varios
+circuitos comunes en nuestro entorno:
+
+.. list-table::
+   :widths: 60 30
+   :header-rows: 1
+
+   * - Circuito
+     - Corriente
+   * - Led indicador de encendido.
+     - 10 miliamperios
+   * - Teléfono inteligente funcionando.
+     - 100 miliamperios
+   * - Consumo máximo de un conector USB 2.0.
+     - 1 amperio
+   * - Calentador de aire.
+     - 10 amperios
+
+
 :index:`Amperímetro`
 --------------------
 Un **amperímetro** es un aparato eléctrico que permite medir la intensidad
@@ -39,12 +63,23 @@ de corriente que circula por un circuito.
 El amperímetro se conecta siempre en serie con el elemento que se desea
 medir, por lo que es necesario cortar el circuito para poder insertarlo.
 
+Para simular un amperímetro debemos escogerlo desde el menú ``Dibujar``...
+``Medidores y Etiquetas``... ``Añadir Amperímetro``.
+
+En el siguiente circuito simulado, añade **tres amperímetros** que midan
+la corriente que circula por cada una de las tres lámparas del circuito:
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="/circuits/index.html?startCircuit=electric-simulador-corriente-2.txt"></iframe>
+   </div>
 
 
 Ejercicios
 ----------
-
 #. ¿Qué es la intensidad de corriente eléctrica?
 #. ¿Cómo se relaciona la intensidad de corriente con la tensión eléctrica?
-#. ¿Qué es un amperímetro?
-#. ¿Cómo se conecta un amperímetro?
+#. ¿Qué corriente en amperios consumen circuitos típicos de nuestro
+   entorno? Nombra al menos tres.
+#. ¿Qué es un amperímetro? ¿Cómo se debe conectar para medir corriente?

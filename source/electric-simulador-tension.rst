@@ -16,8 +16,12 @@ impulse a los electrones a través del circuito. El generador actúa como
 una bomba de agua con los electrones, obligándolos a moverse a través
 del circuito eléctrico.
 
-La tensión eléctrica se mide en voltios. En la siguiente tabla aparecen
-las tensiones típicas de varios generadores comunes en nuestro entorno:
+
+:index:`Voltios`
+----------------
+La tensión eléctrica se mide en **voltios**, acortado como [V].
+En la siguiente tabla aparecen las tensiones típicas de varios generadores
+comunes en nuestro entorno:
 
 .. list-table::
    :widths: 60 30
@@ -72,7 +76,7 @@ negativas. El símbolo de tierra indica la tensión cero absoluta.
 .. raw:: html
 
    <div class="video-center">
-   <iframe src="/circuits/index.html?startCircuit=electric-simulador-tension.txt"></iframe>
+   <iframe src="/circuits/index.html?startCircuit=electric-simulador-tension-1.txt"></iframe>
    </div>
 
 
@@ -80,11 +84,13 @@ negativas. El símbolo de tierra indica la tensión cero absoluta.
 :index:`Voltímetro`
 -------------------
 El voltímetro es un aparato que mide la diferencia de tensión entre dos 
-puntos de un circuito. Para simular un voltímetro debemos escogerlo desde
-el menú ``Dibujar``... ``Medidores y Etiquetas``... ``Añadir Voltímetro``.
-
+puntos de un circuito.
 Los voltímetros se conectan siempre en paralelo con los elementos que 
 deseamos medir.
+
+Para simular un voltímetro debemos escogerlo desde el menú ``Dibujar``...
+``Medidores y Etiquetas``... ``Añadir Voltímetro``.
+
 
 En la siguiente simulación, añade los voltímetros necesarios para medir
 la tensión de las dos baterías juntas (V1 más V2), la tensión de la
