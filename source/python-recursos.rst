@@ -19,6 +19,34 @@ Documentación oficial
 * `Documentación oficial de Python 3 <https://docs.python.org/es/3/>`__.
 
 
+Piensa como un informático con Python
+-------------------------------------
+El objetivo de este libro es enseñarte a pensar como un informático.
+Para ello utiliza el lenguaje de programación Python en su versión 3.
+
+* `Aprende a pensar como un informático con Python (2ª edición en PDF).
+  <https://github.com/espinoza/ThinkPython2-spanish/blob/master/book/thinkpython2-spanish.pdf>`__
+
+* `Repositorio del libro en Github.
+  <https://github.com/espinoza/ThinkPython2-spanish>`__
+
+* `Tercera edición del libro en inglés.
+  <https://greenteapress.com/wp/think-python-3rd-edition/>`__
+
+.. note::
+   Todas las referencias internas a la página web thinkpython2.com
+   hay que traducirlas a thinkpython.com para que funcionen.
+
+
+Otros libros de Python
+----------------------
+
+* `Python para Principiantes
+  <https://www.amazon.es/Python-para-Principiantes-Programaci%C3%B3n-principiantes/dp/B087SG2H2X>`__.
+
+* `Pythonbooks, books for kids <https://pythonbooks.org/for-kids/>`__.
+
+
 Cursos de Python en línea
 -------------------------
 
@@ -32,15 +60,6 @@ Cursos de Python en línea
 
 * Vídeo: `Python tutorial on YouTube
   <https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU>`__.
-
-
-Libros de Python
-----------------
-
-* `Python para Principiantes
-  <https://www.amazon.es/Python-para-Principiantes-Programaci%C3%B3n-principiantes/dp/B087SG2H2X>`__.
-
-* `Pythonbooks, books for kids <https://pythonbooks.org/for-kids/>`__.
 
 
 Ejercicios de Python

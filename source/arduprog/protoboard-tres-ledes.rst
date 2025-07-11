@@ -74,6 +74,13 @@ Ejercicios
    apagar el led rojo y terminando por apagar el led verde.
    El tiempo entre apagados será de un segundo.
 
+   La instrucción que se debe utilizar para apagar un led es:
+
+   .. code-block:: arduino
+      :linenos:
+
+      digitalWrite(LED_VERDE, LOW);
+
 
 #. Modifica el programa para que funcione como un semáforo.
 

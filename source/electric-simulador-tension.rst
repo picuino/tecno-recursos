@@ -19,7 +19,7 @@ del circuito eléctrico.
 
 :index:`Voltios`
 ----------------
-La tensión eléctrica se mide en **voltios**, acortado como [V].
+La tensión eléctrica se mide en **voltios**, abreviado con la letra [V].
 En la siguiente tabla aparecen las tensiones típicas de varios generadores
 comunes en nuestro entorno:
 
@@ -83,8 +83,8 @@ negativas. El símbolo de tierra indica la tensión cero absoluta.
 
 :index:`Voltímetro`
 -------------------
-El voltímetro es un aparato que mide la diferencia de tensión entre dos 
-puntos de un circuito.
+El **voltímetro** es un aparato que mide la diferencia de tensión entre
+dos puntos de un circuito.
 Los voltímetros se conectan siempre en paralelo con los elementos que 
 deseamos medir.
 

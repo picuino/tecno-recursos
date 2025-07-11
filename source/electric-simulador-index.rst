@@ -28,12 +28,15 @@ Prácticas de electricidad con `simulador de circuitos eléctricos online
    electric-simulador-tension.rst
    electric-simulador-corriente.rst
    electric-simulador-resistencia.rst
+   electric-simulador-potencia.rst
+
+   electric-simulador-leyohm.rst
+   electric-simulador-alterna.rst
 
 .. 
-   electric-simulador-ohm.rst
-
    electric-simulador-ledes.rst
    electric-simulador-rele.rst
    electric-simulador-motor.rst (con cambio de sentido)
    electric-simulador-condensador.rst
-   
+   electric-simulador-bobina.rst
+

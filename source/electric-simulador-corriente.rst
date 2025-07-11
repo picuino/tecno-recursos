@@ -34,25 +34,25 @@ conectadas a tres lámparas iguales:
 
 :index:`Amperios`
 -----------------
-La corriente eléctrica se mide en **amperios**, acortado como [A].
+La corriente eléctrica se mide en **amperios**, abreviado con la letra [A].
 Como esta unidad es relativamente grande, en ocasiones se utiliza un
 submúltiplo mil veces menor, el **miliamperio**, acortado como [mA].
 En la siguiente tabla aparecen las corrientes típicas de varios
-circuitos comunes en nuestro entorno:
+componentes comunes de nuestro entorno:
 
 .. list-table::
    :widths: 60 30
    :header-rows: 1
 
-   * - Circuito
-     - Corriente
+   * - Componente
+     - Corriente [A]
    * - Led indicador de encendido.
      - 10 miliamperios
-   * - Teléfono inteligente funcionando.
+   * - Linterna led.
      - 100 miliamperios
-   * - Consumo máximo de un conector USB 2.0.
+   * - Teléfono inteligente funcionando.
      - 1 amperio
-   * - Calentador de aire.
+   * - Calentador eléctrico de aire.
      - 10 amperios
 
 
