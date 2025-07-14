@@ -9,8 +9,7 @@
  Simulador eléctrico
 *********************
 
-Prácticas de electricidad con `simulador de circuitos eléctricos online
-<../circuits/?startCircuit=empty.txt>`__.
+Prácticas de electricidad con `simulador online de circuitos eléctricos <../circuits/?startCircuit=empty.txt>`__.
 
 .. image:: electric/_images/electric-simulador-logo.png
    :align: center

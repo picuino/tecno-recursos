@@ -1,29 +1,262 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
-# This file is distributed under the same license as the Picuino package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Picuino 2025\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 12:01+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-07-14 09:58+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
 
 #: ../../source/electric-simulador-alterna.rst:9
-msgid ":index:`Corriente alterna`"
-msgstr ""
+msgid ":index:`Tensión alterna`"
+msgstr ":index:`Alternating voltage`"
 
-#: ../../source/electric-simulador-alterna.rst:19
-msgid "Ejercicios"
+#: ../../source/electric-simulador-alterna.rst:10
+msgid ""
+"Una fuente de **tensión alterna** también llamada de **corriente alterna** "
+"es un generador que produce entre sus bornes tensiones positivas y tensiones"
+" negativas alternativamente, varias veces por segundo."
 msgstr ""
+"A source of **alternating voltage** also called **alternating current** is"
+" a generator that produces positive voltages and negative voltages "
+"alternately, several times per second."
+
+#: ../../source/electric-simulador-alterna.rst:14
+msgid ""
+"La forma de onda más común de la tensión es la **sinusoidal**, que puede "
+"verse en la siguiente imagen:"
+msgstr ""
+"The most common waveform of voltage is the **sinusoidal**, which can be "
+"seen in the following image:"
+
+#: ../../source/electric-simulador-alterna.rst:21
+msgid "Forma de onda de una tensión alterna y sus parámetros."
+msgstr "Waveform of an alternate voltage and its parameters."
+
+#: ../../source/electric-simulador-alterna.rst:23
+msgid ""
+"La tensión no varía bruscamente, sino que va cambiando desde un valor cero "
+"hasta un pico de amplitud positivo, desciende de nuevo hasta valer cero, "
+"cambia a un valor de pico de amplitud negativo y vuelve a ascender hasta "
+"valer cero otra vez."
+msgstr ""
+"The voltage does not vary sharply, but is changing from a zero value to a "
+"positive amplitude peak, descends again to value zero, changes to a negative"
+" amplitude peak value and ascends to assert to value zero again."
+
+#: ../../source/electric-simulador-alterna.rst:28
+msgid ""
+"En la siguiente simulación podemos ver un generador de tensión alterna que "
+"alimenta una resistencia. Los electrones se desplazan hacia adelante y hacia"
+" atrás alternativamente. La tensión superior del generador cambia de "
+"positivo (verde) a negativo (rojo) también alternativamente. Por último, en "
+"el osciloscopio inferior podemos ver la forma de onda **sinusoidal** de la "
+"tensión:"
+msgstr ""
+"In the following simulation we can see an alternate voltage generator that "
+"feeds a resistance. The electrons move forward and backward. The upper "
+"voltage of the generator changes from positive (green) to negative (red) "
+"also alternately. Finally, in the lower oscilloscope we can see the waveform"
+" **sinusoidal** of voltage:"
+
+#: ../../source/electric-simulador-alterna.rst:44
+msgid "Amplitud de pico y amplitud eficaz"
+msgstr "RMS peak and amplitude amplitude"
+
+#: ../../source/electric-simulador-alterna.rst:45
+msgid ""
+"La amplitud de una tensión alterna es el valor de pico o valor máximo que "
+"llega a tener esa tensión."
+msgstr ""
+"The amplitude of an alternating voltage is the maximum peak or value value "
+"that has that voltage."
+
+#: ../../source/electric-simulador-alterna.rst:48
+msgid ""
+"Pero normalmente no se define la amplitud de una señal alterna por su valor "
+"de pico, sino por su valor **eficaz**. El valor eficaz de una tensión "
+"alterna es aquel valor de tensión continua que produce el mismo efecto sobre"
+" una resistencia."
+msgstr ""
+"But normally the amplitude of an alternate signal is not defined by its peak"
+" value, but for its **RMS value**. The RMS value of an "
+"alternating voltage is that continuous voltage value that produces the same "
+"effect on a resistance."
+
+#: ../../source/electric-simulador-alterna.rst:53
+msgid ""
+"Esto significa que la tensión de la red eléctrica de una casa, que es de 230"
+" voltios eficaces, calienta una resistencia igual que lo haría una tensión "
+"continua de 230 voltios."
+msgstr ""
+"This means that the voltage of the electricity network, which is 230 "
+"RMS volts, heats a resistance like a continuous voltage of 230 volts."
+
+#: ../../source/electric-simulador-alterna.rst:57
+msgid "La relación entre el valor de pico y el valor eficaz es la siguiente:"
+msgstr ""
+"The relationship between the peak value and the RMS value is as "
+"follows:"
+
+#: ../../source/electric-simulador-alterna.rst:59
+msgid "V_{eficaz} = \\cfrac{V_{pico}}{\sqrt{2}}"
+msgstr "V_{RMS} = \\cfrac {V_{peak}}{\sqrt {2}}"
+
+#: ../../source/electric-simulador-alterna.rst:63
+msgid ""
+"De manera que decir que la tensión de casa tiene 230 voltios eficaces es "
+"igual que decir que tiene 230 * 1,4142 = 325,26 voltios de pico."
+msgstr ""
+"So saying that the house voltage has 230 RMS volts is the same as "
+"saying that it has 230 * 1.4142 = 325.26 volts of peak."
+
+#: ../../source/electric-simulador-alterna.rst:68
+msgid ":index:`Periodo y frecuencia`"
+msgstr ":index:`Period and frequency`"
+
+#: ../../source/electric-simulador-alterna.rst:69
+msgid ""
+"El periodo es el tiempo que tarda la onda alterna en completar un ciclo "
+"completo. Este tiempo suele ser pequeño, del orden de milisegundos, por lo "
+"que se suele hablar normalmente de su valor inverso, que es la frecuencia."
+msgstr ""
+"The period is the time it takes for the alternate wave to complete a "
+"complete cycle. This time is usually small, of the order of milliseconds, so"
+" it usually speaks normally of its inverse value, which is the frequency."
+
+#: ../../source/electric-simulador-alterna.rst:74
+msgid ""
+"La frecuencia se define como el número de ciclos que completa la onda "
+"alterna en un segundo. La red eléctrica europea es de 50 hercios (ciclos por"
+" segundo). La red eléctrica de la mayoría de América es de 60 hercios."
+msgstr ""
+"The frequency is defined as the number of cycles that completes the "
+"alternate wave in a second. The European electricity grid is 50 hertzs "
+"(cycles per second). The electricity grid of most America is 60 hertzs."
+
+#: ../../source/electric-simulador-alterna.rst:79
+msgid "La fórmula que relaciona el periodo y la frecuencia es la siguiente:"
+msgstr "The formula that relates the period and the frequency is as follows:"
+
+#: ../../source/electric-simulador-alterna.rst:81
+msgid "F = \\cfrac{1}{P}"
+msgstr "F = \\cfrac {1}{P}"
+
+#: ../../source/electric-simulador-alterna.rst:85
+msgid "Siendo las magnitudes y unidades las siguientes:"
+msgstr "The magnitudes and units being the following:"
+
+#: ../../source/electric-simulador-alterna.rst:87
+msgid "F = Frecuencia en Hercios [Hz]"
+msgstr "F = Frequency in Hertz [Hz]"
+
+#: ../../source/electric-simulador-alterna.rst:89
+msgid "P = Periodo en Segundos [s]"
+msgstr "P = Period in Seconds [s]"
+
+#: ../../source/electric-simulador-alterna.rst:93
+msgid "Ejercicios"
+msgstr "Exercises"
+
+#: ../../source/electric-simulador-alterna.rst:95
+msgid "¿Qué es una fuente de tensión alterna? ¿Cómo se la denomina también?"
+msgstr "What is an alternate voltage source? What is it called too?"
+
+#: ../../source/electric-simulador-alterna.rst:96
+msgid ""
+"Dibuja una señal alterna de tensión y dibuja sobre ella sus principales "
+"parámetros."
+msgstr "Draw an alternate voltage signal and draw on it its main parameters."
+
+#: ../../source/electric-simulador-alterna.rst:98
+msgid "Dibuja una fuente de tensión alterna conectada a una resistencia."
+msgstr "Draw an alternate voltage source connected to a resistor."
+
+#: ../../source/electric-simulador-alterna.rst:99
+msgid ""
+"Completa la siguiente tabla con los valores de pico y los valores eficaces "
+"de tensión alterna que faltan."
+msgstr ""
+"Complete the following table with the peak values and the RMS "
+"alternating voltage values that are missing."
+
+#: ../../source/electric-simulador-alterna.rst:105
+msgid "Tensión eficaz [V]"
+msgstr "RMS voltage [V]"
+
+#: ../../source/electric-simulador-alterna.rst:106
+msgid "Tensión de pico [V]"
+msgstr "Peak voltage [V]"
+
+#: ../../source/electric-simulador-alterna.rst:107
+msgid "230 voltios"
+msgstr "230 volts"
+
+#: ../../source/electric-simulador-alterna.rst:110
+msgid "17 voltios"
+msgstr "17 volts"
+
+#: ../../source/electric-simulador-alterna.rst:111
+msgid "125 voltios"
+msgstr "125 volts"
+
+#: ../../source/electric-simulador-alterna.rst:114
+msgid "29 voltios"
+msgstr "29 volts"
+
+#: ../../source/electric-simulador-alterna.rst:115
+msgid "5 voltios"
+msgstr "5 volts"
+
+#: ../../source/electric-simulador-alterna.rst:118
+msgid ""
+"Completa la siguiente tabla con los valores de frecuencia y de periodo de "
+"tiempo que que faltan."
+msgstr ""
+"Complete the following table with the frequency and period of time values "
+"that are missing."
+
+#: ../../source/electric-simulador-alterna.rst:124
+msgid "Frecuencia [Hz]"
+msgstr "Frequency [Hz]"
+
+#: ../../source/electric-simulador-alterna.rst:125
+msgid "Periodo [s]"
+msgstr "Period [s]"
+
+#: ../../source/electric-simulador-alterna.rst:126
+msgid "50 hercios"
+msgstr "50 hertz"
+
+#: ../../source/electric-simulador-alterna.rst:127
+msgid "0.020 segundos"
+msgstr "0.020 seconds"
+
+#: ../../source/electric-simulador-alterna.rst:128
+msgid "60 hercios"
+msgstr "60 hertz"
+
+#: ../../source/electric-simulador-alterna.rst:130
+msgid "400 hercios"
+msgstr "400 hertz"
+
+#: ../../source/electric-simulador-alterna.rst:133
+msgid "0.1 segundos"
+msgstr "0.1 seconds"
+
+#: ../../source/electric-simulador-alterna.rst:135
+msgid "0.012 segundos"
+msgstr "0.012 seconds"
+
+#: ../../source/electric-simulador-alterna.rst:137
+msgid "0.001 segundos"
+msgstr "0.001 seconds"
 
