@@ -11,7 +11,7 @@ Sensor LDR
 Esquema de conexión del sensor LDR
 ----------------------------------
 
-.. image:: _images/img-0041.jpg
+.. image:: picuino-uno/_images/img-0041.jpg
    :align: center
    :width: 400px
    :alt: Esquema de cableado del sensor LDR

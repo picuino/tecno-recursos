@@ -27,7 +27,7 @@ Programación de la placa de control Arduino UNO.
    resource-index
    pc42-index
    ardublock-index
-   ../uno-doc/index
+   ../picuino-uno-index.rst
 
 
 .. nocontents

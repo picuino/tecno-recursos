@@ -32,12 +32,12 @@ capacidad para representar letras y símbolos.
 En la figura adjunta puede verse un display de 7 segmentos y la
 nomenclatura de sus elementos.
 
-.. image:: _images/img-0092.jpg
+.. image:: picuino-uno/_images/img-0092.jpg
    :height: 180px
    :alt: Visualizador de siete segmentos.
    :align: center
 
-.. image:: _images/img-0007.png
+.. image:: picuino-uno/_images/img-0007.png
    :height: 180px
    :alt: Elementos del visualizador de siete segmentos.
    :align: center

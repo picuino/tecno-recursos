@@ -29,7 +29,7 @@ protocolos más habituales.
 Conexión
 --------
 
-.. image:: _images/img-0035.jpg
+.. image:: picuino-uno/_images/img-0035.jpg
    :align: center
    :width: 400px
    :alt: Conexión del sensor de infrarrojos TSOPP3848.

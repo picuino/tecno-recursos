@@ -37,7 +37,7 @@ Los **eventos** son útiles cuando se desea realizar una sola acción
 al presionar una tecla. En el siguiente gráfico se puede ver la
 diferencia entre estado y evento.
 
-.. image:: _images/img-0001.png
+.. image:: picuino-uno/_images/img-0001.png
    :width: 640px
    :alt: Diferencia entre estado y evento.
    :align: center

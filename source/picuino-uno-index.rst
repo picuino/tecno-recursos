@@ -14,22 +14,22 @@ Escudo de entrenamiento para programar la placa Arduino UNO.
    :numbered: 1
    :maxdepth: 1
 
-   uno-led1
-   uno-led2
-   uno-key1
-   uno-key2
-   uno-key3
-   uno-display1
+   picuino-uno-led1
+   picuino-uno-led2
+   picuino-uno-key1
+   picuino-uno-key2
+   picuino-uno-key3
+   picuino-uno-display1
 
-   ultrasonic
-   dht11
-   ldr
+   picuino-uno-ultrasonic
+   picuino-uno-dht11
+   picuino-uno-ldr
 
-   infrared-emiter
-   infrared-receiver
+   picuino-uno-infrared-emiter
+   picuino-uno-infrared-receiver
 
-   haiku
-   pc-control
+   picuino-uno-haiku
+   picuino-uno-pc-control
 
 
 

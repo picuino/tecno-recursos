@@ -16,7 +16,7 @@ Librería de manejo para Arduino
 -------------------------------
 Para poder comenzar a programar es necesario descargar e instalar
 previamente la :download:`librería necesaria para programar el shield
-Picuino UNO <_downloads/Picuino-UNO-05.zip>`
+Picuino UNO <picuino-uno/Picuino-UNO-05.zip>`
 
 En la siguiente página web se pueden ver cómo los pasos necesarios
 para la instalación de una librería para Arduino.
