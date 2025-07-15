@@ -32,7 +32,7 @@ Prácticas de electricidad con `simulador online de circuitos eléctricos <../ci
    electric-simulador-leyohm.rst
    electric-simulador-alterna.rst
 
-.. 
+..
    electric-simulador-ledes.rst
    electric-simulador-rele.rst
    electric-simulador-motor.rst (con cambio de sentido)

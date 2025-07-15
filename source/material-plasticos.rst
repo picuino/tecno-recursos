@@ -9,7 +9,7 @@ Los materiales plásticos
 ========================
 Son materiales sintéticos compuestos por polímeros, que
 se fabrican a partir de gas natural o petróleo refinado.
-Se caracterizan su capacidad de moldearse fácilmente bajo 
+Se caracterizan su capacidad de moldearse fácilmente bajo
 la acción del calor y la presión.
 
 .. contents:: Índice de contenidos:

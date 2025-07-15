@@ -23,7 +23,7 @@ de los interruptores puede encender o apagar cada una de sus lámparas
 en serie.
 
 Como las tres ramas interruptor-lámpara están conectadas en paralelo,
-cada una funciona de manera independiente de las otras, por lo que 
+cada una funciona de manera independiente de las otras, por lo que
 se pueden encender o apagar sin afectar a las demás.
 
 Simula en el simulador online el circuito anterior para comprobar su

@@ -7,7 +7,7 @@
 
 :index:`Potencia eléctrica`
 ===========================
-La **potencia eléctrica** es la cantidad de energía que entrega o 
+La **potencia eléctrica** es la cantidad de energía que entrega o
 que consume un componente o circuito eléctrico cada segundo.
 
 La potencia es directamente proporcional a la tensión y a la corriente
@@ -40,11 +40,11 @@ varios componentes comunes en nuestro entorno:
 
 :index:`Vatímetro`
 ------------------
-Un **vatímetro** es un aparato eléctrico que permite medir la potencia 
+Un **vatímetro** es un aparato eléctrico que permite medir la potencia
 consumida por un componente o circuito eléctrico.
 El vatímetro se conecta siempre entre el generador y el elemento que se
-desea medir, por lo que es necesario cortar el circuito para poder 
-insertarlo. Al tener cuatro cables, el vatímetro corta tanto el cable de 
+desea medir, por lo que es necesario cortar el circuito para poder
+insertarlo. Al tener cuatro cables, el vatímetro corta tanto el cable de
 ida como el cable de vuelta de la corriente:
 
 .. figure:: electric/_images/electric-simulador-potencia-1.png
@@ -70,7 +70,7 @@ es el doble que la anterior:
 Ejercicios
 ----------
 #. ¿Qué es la potencia eléctrica?
-#. ¿Cómo se relaciona la potencia eléctrica con la tensión y con la 
+#. ¿Cómo se relaciona la potencia eléctrica con la tensión y con la
    corriente eléctrica?
 #. ¿En qué unidades se mide la potencia eléctrica?
    Nombra al menos tres elementos comunes de nuestro entorno y escribe

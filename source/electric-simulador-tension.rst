@@ -85,7 +85,7 @@ negativas. El símbolo de tierra indica la tensión cero absoluta.
 -------------------
 El **voltímetro** es un aparato que mide la diferencia de tensión entre
 dos puntos de un circuito.
-Los voltímetros se conectan siempre en paralelo con los elementos que 
+Los voltímetros se conectan siempre en paralelo con los elementos que
 deseamos medir.
 
 Para simular un voltímetro debemos escogerlo desde el menú ``Dibujar``...

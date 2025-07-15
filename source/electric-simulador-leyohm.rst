@@ -116,14 +116,14 @@ Ejercicios
         - Resistencia [Ω]
         - Intensidad [A]
       * - 20 voltios
-        - 50 ohmios 
-        - 
+        - 50 ohmios
+        -
       * - 5 voltios
-        - 1000 ohmios 
-        - 
+        - 1000 ohmios
+        -
       * - 230 voltios
-        - 10 ohmios 
-        - 
+        - 10 ohmios
+        -
       * - 3 voltios
-        - 200 ohmios 
-        - 
+        - 200 ohmios
+        -

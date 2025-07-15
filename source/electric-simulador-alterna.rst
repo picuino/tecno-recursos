@@ -8,10 +8,10 @@
 :index:`Tensión alterna`
 ========================
 Una fuente de **tensión alterna** también llamada de **corriente alterna**
-es un generador que produce entre sus bornes tensiones positivas y 
+es un generador que produce entre sus bornes tensiones positivas y
 tensiones negativas alternativamente, varias veces por segundo.
 
-La forma de onda más común de la tensión es la **sinusoidal**, que puede 
+La forma de onda más común de la tensión es la **sinusoidal**, que puede
 verse en la siguiente imagen:
 
 .. figure:: electric/_images/electric-alterna.png
@@ -22,7 +22,7 @@ verse en la siguiente imagen:
 
 La tensión no varía bruscamente, sino que va cambiando desde un valor cero
 hasta un pico de amplitud positivo, desciende de nuevo hasta valer cero,
-cambia a un valor de pico de amplitud negativo y vuelve a ascender hasta 
+cambia a un valor de pico de amplitud negativo y vuelve a ascender hasta
 valer cero otra vez.
 
 En la siguiente simulación podemos ver un generador de tensión alterna
@@ -94,7 +94,7 @@ La fórmula que relaciona el periodo y la frecuencia es la siguiente:
    F = \cfrac{1}{P}
 
 Siendo las magnitudes y unidades las siguientes:
-   
+
    F = Frecuencia en Hercios [Hz]
 
    P = Periodo en Segundos [s]
@@ -110,26 +110,26 @@ Ejercicios
    se calcula a partir de la tensión de pico?
 #. Completa la siguiente tabla con los valores de pico y los valores
    eficaces de tensión alterna que faltan.
-   
+
    .. list-table::
       :header-rows: 1
 
       * - Tensión eficaz [V]
         - Tensión de pico [V]
-      * - 230 voltios 
-        - 
-      * - 
+      * - 230 voltios
+        -
+      * -
         - 17 voltios
-      * - 125 voltios 
-        - 
-      * - 
+      * - 125 voltios
+        -
+      * -
         - 29 voltios
       * - 5 voltios
-        - 
+        -
 
 #. Completa la siguiente tabla con los valores de frecuencia y de periodo
    de tiempo que que faltan.
-   
+
    .. list-table::
       :header-rows: 1
 
@@ -138,12 +138,12 @@ Ejercicios
       * - 50 hercios
         - 0,020 segundos
       * - 60 hercios
-        - 
+        -
       * - 400 hercios
-        - 
-      * - 
+        -
+      * -
         - 0,100 segundos
-      * - 
+      * -
         - 0,012 segundos
-      * - 
+      * -
         - 0,001 segundos

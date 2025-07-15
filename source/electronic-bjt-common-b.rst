@@ -88,7 +88,7 @@ Ejercicios
    .. math::
 
       Ganancia\_V = \cfrac{V_{out\_max} - V_{out\_min}}{ V_{in\_max} - V_{in\_min}}
-   
+
    Puedes obtener los valores de tensión necesarios de los osciloscopios
    que se encuentran en la parte inferior del simulador.
 
