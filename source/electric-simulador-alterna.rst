@@ -40,15 +40,16 @@ Por último, en el osciloscopio inferior podemos ver la forma de onda
    </div>
 
 
-Amplitud de pico y amplitud eficaz
-----------------------------------
+Amplitud de pico y :index:`amplitud eficaz`
+-------------------------------------------
 La amplitud de una tensión alterna es el valor de pico o valor máximo que
 llega a tener esa tensión.
 
 Pero normalmente no se define la amplitud de una señal alterna por su
-valor de pico, sino por su valor **eficaz**.
-El valor eficaz de una tensión alterna es aquel valor de tensión
-continua que produce el mismo efecto sobre una resistencia.
+valor de pico, sino por su valor eficaz.
+El valor **eficaz** de una tensión alterna es aquel valor de tensión
+continua que produce el mismo efecto sobre una resistencia que la tensión
+alterna.
 
 Esto significa que la tensión de la red eléctrica de una casa, que es de
 230 voltios eficaces, calienta una resistencia igual que lo haría una
@@ -62,6 +63,16 @@ La relación entre el valor de pico y el valor eficaz es la siguiente:
 
 De manera que decir que la tensión de casa tiene 230 voltios eficaces
 es igual que decir que tiene 230 * 1,4142 = 325,26 voltios de pico.
+
+En la siguiente simulación podemos ver un generador de tensión alterna
+de 7,071 voltios de pico que produce el mismo efecto sobre una lámpara
+que el generador de corriente continua de 5 voltios:
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="/circuits/index.html?startCircuit=electric-simulador-alterna-2.txt"></iframe>
+   </div>
 
 
 :index:`Periodo y frecuencia`
@@ -91,11 +102,12 @@ Siendo las magnitudes y unidades las siguientes:
 
 Ejercicios
 ----------
-
 #. ¿Qué es una fuente de tensión alterna? ¿Cómo se la denomina también?
 #. Dibuja una señal alterna de tensión y dibuja sobre ella sus principales
    parámetros.
 #. Dibuja una fuente de tensión alterna conectada a una resistencia.
+#. ¿Qué es la tensión eficaz de un generador de tensión alterna y cómo
+   se calcula a partir de la tensión de pico?
 #. Completa la siguiente tabla con los valores de pico y los valores
    eficaces de tensión alterna que faltan.
    
@@ -124,14 +136,14 @@ Ejercicios
       * - Frecuencia [Hz]
         - Periodo [s]
       * - 50 hercios
-        - 0.020 segundos
+        - 0,020 segundos
       * - 60 hercios
         - 
       * - 400 hercios
         - 
       * - 
-        - 0.1 segundos
+        - 0,100 segundos
       * - 
-        - 0.012 segundos
+        - 0,012 segundos
       * - 
-        - 0.001 segundos
+        - 0,001 segundos
