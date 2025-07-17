@@ -21,8 +21,8 @@ Otros recursos para tecnología
    recursos-cuaderno-notas.rst
    recursos-sopa-letras.rst
    recursos-evaluacion-asignatura.rst
+   recursos-pelandintecno.rst
 
    recursos-didactic-pantallas.rst
-
    recursos-test.rst
    recursos-images.rst

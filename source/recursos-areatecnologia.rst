@@ -1,10 +1,10 @@
-﻿:orphan:
-:nosearch:
-:Date: 05/11/2022
+﻿:Date: 05/11/2022
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
-
+:orphan:
+:noindex:
+:nosearch:
 
 .. _recursos-areatecnologia:
 

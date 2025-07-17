@@ -8,24 +8,45 @@ import requests
 from bs4 import BeautifulSoup
 
 
-url_base = 'http://pelandintecno.blogspot.com'
+url_base = 'https://pelandintecno.blogspot.com'
+years = [f'{i:04d}' for i in range(2025, 2026)]
+months = [f'{i:02d}' for i in range(1, 13)]
 
 
 def main():
-   database = yaml.load(read('recursos-pelandintecno.yaml'), Loader=yaml.Loader)
+   database = read_database('recursos-pelandintecno.yaml')
 
-   if False and read_new_posts(database):
-      yaml_txt = yaml.dump(database, default_flow_style=False, allow_unicode=True)
-      write('recursos-pelandintecno.yaml', yaml_txt)
+   read_new_posts(database)
 
-   database.sort(key=lambda w: w['date'], reverse=True)
+   database = remove_duplicated(database)
+   
+   database.sort(key=lambda reg: reg['date'], reverse=True)
+
+   write_database('recursos-pelandintecno.yaml', database)
+
    new_database = clasifica(database)
-
    wc = words(new_database[-1][1])
-
    rst_data = render_template('recursos-pelandintecno.txt', new_database)
-   if True:
-      write('../recursos-pelandintecno.rst', rst_data)
+   write('../recursos-pelandintecno.rst', rst_data)
+
+
+def remove_duplicated(database):
+   database_dict = {}
+   for register in database:
+      url = register['url']
+      if url in database_dict:
+         continue
+      database_dict[url] = {
+         'date': register['date'],
+         'title': register['title'] }
+   new_database = []
+   for url in database_dict:
+      entry = {
+         'date': database_dict[url]['date'],
+         'title': database_dict[url]['title'],
+         'url': url }
+      new_database.append(entry)
+   return new_database
 
 
 def words(database):
@@ -53,7 +74,7 @@ def clasifica(database):
       ['Estructuras', 'Estructuras|resonancia|tacoma|cúpulas|arquitectura|torsión'
                       '|Arco|Kinetic|esfuerzos|pirámides|puente de Trajano|puente de papel'
                       '|torre de Pisa|arquitectónico|cúpula|estructurales|ingeniería civil'
-                      ''],
+                      '|bridge|tuneladoras|catedral|Skyscraper'],
       ['Diseño 3D', ' 3D|BlocksCAD|OpenSCAD|SketchUp'],
       ['Energía', 'Energía|enegía|fusion|eólica|mareomotriz|nuclear|consumo eléctrico|termosolar'
                   '|vapor|petróleo|motor|ENERGÉTICO|Chernobyl|combustible|chimenea solar'
@@ -63,25 +84,29 @@ def clasifica(database):
                      '|alto horno|Papel tissue|Niquel'],
       ['Electricidad', 'Nikola|Tesla|eléctric|electricidad|serie|paralelo|cortocircuito|circuitos'
                        '|resistencias|diferencial|magnetotérmico|circuito|ELECTRIC|Relé'
-                       '|bombilla|Ohm'],
+                       '|bombilla|Ohm|polímetro'],
+      ['Micro:bit', 'micro:bit|microbit'],
       ['Electrónica', 'protoboard|electrónica|electrónicos|microchips|condensadores'
                       '|puertas lógicas|semiconductores|Karnaugh|lógicas|diodos'
                       '|Electronics|LÓGICA BINARIA|Moore|LED|unión PN|Transistor'
-                      '|Tablas de verdad|Binario y Hexadecimal'],
+                      '|Tablas de verdad|Binario y Hexadecimal|condensador'],
       ['El proceso tecnológico', 'Proceso tecnológico'],
       ['Taller', 'seguridad|taller|Señales:|herramientas|Henry Ford|Torres de espagueti'],
-      ['GIMP', 'gimp'],
       ['Historia de la Tecnología', 'Historia de la tecnología'],
       ['Neumática e hidráulica', 'neumática|hidráulic|FluidSim|válvulas distribuidoras'],
-      ['Internet', 'internet|Redes Sociales|netiqueta|Netetiquetas'],
+      ['Internet', 'internet|Redes Sociales|netiqueta|Netetiquetas|funciona una red|funciona un wiki'
+                   '|twitter'],
       ['Proyectos', 'proyecto|proceso|TANGRAM'],
       ['Historia', 'Historia|revolución industrial'],
       ['Mujer', 'mujer|niña|Curie'],
       ['Leonardo', 'leonardo'],
-      ['Vídeos y animaciones', 'vídeos|infograf[íi]a|animaciones|Home: la película'
+      ['Vídeos y animaciones', 'v[ií]deos|infograf[íi]a|animaciones|Home: la película'
                                '|documental'],
       ['Ciencia', 'ciencia'],
-      ['Ordenadores', 'ordenador|computación|Turing|Scratch|Assembler'],
+      ['GIMP', 'gimp'],
+      ['Hojas de Cálculo', 'hojas de cálculo'],
+      ['Ordenadores', 'ordenador|computación|Turing|Scratch|Assembler|periféricos|linux'
+                      '|inkscape|libre office writer'],
       ]
 
    new_database = []
@@ -110,21 +135,22 @@ def append(database, titulo, web):
    
 
 def read_new_posts(database):
-   year = '2022'
-   months = ['11']
    new_data = False
-   for month in ['11']:
-      url = '{0}/{1}/{2}/'.format(url_base, year, month)
-      html = download(url)
-      for title in get_titles(url, html):
-         page = {
-            'date': '{}-{}'.format(year, month),
-            'url': title[0],
-            'title': title[1],
-         }
-         if not search_database(page, database):
-            new_data = True
-            database.append(page)
+   for year in years:
+      for month in months:
+         url = '{0}/{1}/{2}/'.format(url_base, year, month)
+         print(f'Download: {url}')
+         html = download(url)
+         for title in get_titles(url, html):
+            page = {
+               'date': f'{year}-{month}',
+               'title': title[1],
+               'url': title[0],
+            }
+            if not database_exists(database, page):
+               print(f'   New page: {page["title"]}')
+               new_data = True
+               database.append(page)
    return new_data
 
 
@@ -135,9 +161,9 @@ def render_template(filename, database):
    return rst_data
 
 
-def search_database(page, database):
-   for p in database:
-      if p['date'] == page['date'] and p['url'] == page['url']:
+def database_exists(database, page):
+   for register in database:
+      if register['url'] == page['url']:
          return True
    return False
 
@@ -148,9 +174,18 @@ def read(filename):
    return data
 
 
+def read_database(fname):
+   return yaml.load(read(fname), Loader=yaml.Loader)
+
+
 def write(filename, data):
    with codecs.open(filename, 'w', encoding='utf-8') as fo:
       fo.write(data)
+
+
+def write_database(fname, database):
+   yaml_txt = yaml.dump(database, default_flow_style=False, allow_unicode=True)
+   write(fname, yaml_txt)
 
    
 def get_titles(url, html):
@@ -165,5 +200,6 @@ def get_titles(url, html):
 
 def download(url):
    return requests.get(url).text
+
 
 main()
