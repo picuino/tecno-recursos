@@ -23,19 +23,20 @@ Piensa como un informático con Python
 -------------------------------------
 El objetivo de este libro es enseñarte a pensar como un informático.
 Para ello utiliza el lenguaje de programación Python en su versión 3.
+Versión traducida por Jorge Espinoza, del libro de Allen Downey
+**Think Python** en su versión 2.4.
 
-* `Aprende a pensar como un informático con Python (2ª edición en PDF).
-  <https://github.com/espinoza/ThinkPython2-spanish/blob/master/book/thinkpython2-spanish.pdf>`__
+* :download:`Aprende a pensar como un informático con Python 3.
+  Versión 2.4 en formato PDF. <python/thinkpython2-spanish.pdf>`
+
+* :download:`Aprende a pensar como un informático con Python 3.
+  Versión 2.4 en formato EPUB. <python/thinkpython2-spanish.epub>`
 
 * `Repositorio del libro en Github.
-  <https://github.com/espinoza/ThinkPython2-spanish>`__
+  <https://github.com/picuino/ThinkPython2>`__
 
 * `Tercera edición del libro en inglés.
   <https://greenteapress.com/wp/think-python-3rd-edition/>`__
-
-.. note::
-   Todas las referencias internas a la página web thinkpython2.com
-   hay que traducirlas a thinkpython.com para que funcionen.
 
 
 Otros libros de Python
