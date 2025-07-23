@@ -13,6 +13,31 @@ Legislación de Madrid
 Comunidad de Madrid. <https://www.comunidad.madrid/servicios/educacion/disposiciones-vigentes-educacion-no-universitaria>`__
 
 
+Currículo de Secundaria
+-----------------------
+
+* `DECRETO 65/2022
+  <https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/26/BOCM-20220726-2.PDF>`__
+  de 20 de julio, del Consejo de Gobierno, por el que se establecen para la
+  Comunidad de Madrid la ordenación y el currículo de la Educación
+  Secundaria Obligatoria.
+
+* `DECRETO 64/2022
+  <https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/26/BOCM-20220726-1.PDF>`__
+  de 20 de julio, del Consejo de Gobierno, por el que se establecen para
+  la Comunidad de Madrid la ordenación y el currículo del Bachillerato.
+
+* `Orden 1736/2023
+  <https://www.comunidad.madrid/sites/default/files/orden_1736_2023.pdf>`__
+  de la Vicepresidencia, Consejería de Educación y Universidades,
+  por la que se establecen los catálogos de materias optativas que los
+  centros podrán incorporar a su oferta educativa en la Educación
+  Secundaria Obligatoria y en el Bachillerato en la Comunidad de Madrid.
+
+
+Otra legislación
+----------------
+
 * `Disposiciones de ámbito general
   <https://www.comunidad.madrid/servicios/educacion/ambito-general-comienzo-curso-admision-alumnos-consejos-escolares>`__
 
@@ -82,16 +107,3 @@ Comunidad de Madrid. <https://www.comunidad.madrid/servicios/educacion/disposici
     Comunidad de Madrid.
 
 
-Currículo de Secundaria
------------------------
-
-* `DECRETO 65/2022
-  <https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/26/BOCM-20220726-2.PDF>`__
-  de 20 de julio, del Consejo de Gobierno, por el que se establecen para la
-  Comunidad de Madrid la ordenación y el currículo de la Educación
-  Secundaria Obligatoria.
-
-* `DECRETO 64/2022
-  <https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/26/BOCM-20220726-1.PDF>`__
-  de 20 de julio, del Consejo de Gobierno, por el que se establecen para
-  la Comunidad de Madrid la ordenación y el currículo del Bachillerato.

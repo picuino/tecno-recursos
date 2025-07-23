@@ -7,7 +7,7 @@
 
 Currículo de Bachillerato
 =========================
-Curriculo de enseñanzas mínimas en la Educación Secundaria de Bachillerato.
+Currículo de enseñanzas mínimas en la Educación Secundaria de Bachillerato.
 
 .. contents:: Índice de contenidos:
    :local:
@@ -17,6 +17,7 @@ Currículo de Madrid
 -------------------
 Según `Decreto 64/2022.
 <https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/26/BOCM-20220726-1.PDF>`__
+
 
 Objetivos
 ^^^^^^^^^

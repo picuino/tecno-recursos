@@ -19,3 +19,4 @@ Materias de Educación Secundaria
    ley-digitalizacion.rst
    ley-bachillerato.rst
    ley-tecnologia-ingenieria.rst
+   ley-ciencias-computacion-bach.rst

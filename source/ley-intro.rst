@@ -9,31 +9,31 @@ Legislación estatal
 ===================
 
 * `LOMLOE
-  <https://www.boe.es/eli/es/lo/2020/12/29/3/con>`__
+  <https://www.boe.es/eli/es/lo/2020/12/29/3/con>`__.
 
      Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica
      la Ley Orgánica 2/2006, de 3 de mayo, de Educación.
 
 * `LOE
-  <https://www.boe.es/eli/es/lo/2006/05/03/2/con>`__
+  <https://www.boe.es/eli/es/lo/2006/05/03/2/con>`__.
 
      Ley Orgánica 2/2006, de 3 de mayo, de Educación.
 
-* `Real Decreto 217/2022 de enseñanzas mínimas de Secundaria
-  <https://www.boe.es/eli/es/rd/2022/03/29/217/con>`__
+* `Real Decreto 217/2022 de enseñanzas mínimas de la ESO
+  <https://www.boe.es/eli/es/rd/2022/03/29/217/con>`__.
 
      Real Decreto 217/2022, de 29 de marzo, por el que se establece la
      ordenación y las enseñanzas mínimas de la Educación Secundaria
      Obligatoria.
 
 * `Real Decreto 243/2022 de enseñanzas mínimas de Bachillerato
-  <https://www.boe.es/eli/es/rd/2022/04/05/243/con>`__
+  <https://www.boe.es/eli/es/rd/2022/04/05/243/con>`__.
 
      Real Decreto 243/2022, de 5 de abril, por el que se establecen
      la ordenación y las enseñanzas mínimas del Bachillerato.
 
 * `Orden EDU/3138/2011, Temarios de Secundaria
-  <https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-18099>`__
+  <https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-18099>`__.
 
      Orden EDU/3138/2011, de 15 de noviembre, por la que se aprueban
      los temarios que han de regir en los procedimientos de ingreso,
