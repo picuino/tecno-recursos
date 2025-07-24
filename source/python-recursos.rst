@@ -32,7 +32,7 @@ Versión traducida por Jorge Espinoza, del libro de Allen Downey
 * :download:`Aprende a pensar como un informático con Python 3.
   Versión 2.4 en formato EPUB. <python/thinkpython2-spanish.epub>`
 
-* `Repositorio del libro en Github.
+* `Repositorio del libro en GitHub.
   <https://github.com/picuino/ThinkPython2>`__
 
 * `Tercera edición del libro en inglés.
