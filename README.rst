@@ -1,6 +1,7 @@
 ﻿Tecno Recursos
 ==============
-Web de recursos educativos libres para Tecnología.
+Web de recursos educativos libres para Tecnología en Educación Secundaria.
+Por Carlos Pardo.
 
 `Tecno Recursos. Páginas alojadas en GitHub 
 <https://picuino.github.io/es/index.html>`_

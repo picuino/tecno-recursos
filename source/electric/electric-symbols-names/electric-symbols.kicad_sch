@@ -1530,6 +1530,42 @@
 				)
 			)
 			(symbol "logic_and-simbolos_1_1"
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 15.24 -2.54 180)
 					(length 3.81)
@@ -1548,48 +1584,12 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "logic_and-simbolos_2_1"
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1607,7 +1607,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1645,7 +1645,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1681,7 +1681,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1719,7 +1719,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1737,7 +1737,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1842,9 +1842,9 @@
 				)
 			)
 			(symbol "logic_nand-simbolos_1_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -1863,7 +1863,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1878,10 +1878,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1901,7 +1901,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1919,7 +1919,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1957,7 +1957,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1993,7 +1993,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2031,7 +2031,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2049,7 +2049,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2190,9 +2190,9 @@
 				)
 			)
 			(symbol "logic_nor-simbolos_1_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 3.175)
 					(name ""
 						(effects
 							(font
@@ -2211,7 +2211,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2226,10 +2226,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 3.175)
-					(name "B"
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2249,7 +2249,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2267,7 +2267,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 3.175)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2305,7 +2305,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 3.175)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2341,7 +2341,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2379,7 +2379,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2397,7 +2397,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 3.175)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2490,9 +2490,9 @@
 				)
 			)
 			(symbol "logic_not-simbolos_1_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 4.445)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -2508,10 +2508,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "A"
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 4.445)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2531,7 +2531,7 @@
 				(pin input line
 					(at 0 -2.54 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2587,7 +2587,7 @@
 				(pin input line
 					(at 0 -2.54 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2625,7 +2625,7 @@
 				(pin input line
 					(at 0 -2.54 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2766,9 +2766,9 @@
 				)
 			)
 			(symbol "logic_or-simbolos_1_1"
-				(pin output line
-					(at 15.24 -2.54 180)
-					(length 3.81)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 3.175)
 					(name ""
 						(effects
 							(font
@@ -2787,7 +2787,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2802,10 +2802,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 3.175)
-					(name "B"
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2825,7 +2825,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2843,7 +2843,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 3.175)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2881,7 +2881,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 3.175)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2917,7 +2917,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2955,7 +2955,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2973,7 +2973,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 3.175)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3049,24 +3049,6 @@
 					)
 					(justify left)
 					(hide yes)
-				)
-			)
-			(symbol "logic_xor-simbolos_0_0"
-				(text "A"
-					(at 5.08 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "B"
-					(at 5.08 -5.08 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(symbol "logic_xor-simbolos_0_1"
@@ -5600,11 +5582,11 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 6.35 -3.81 0)
+			(property "Reference" "U1"
+				(at 20.955 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 2.54 2.54)
 					)
 				)
 			)
@@ -5678,7 +5660,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 2.54 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -5696,7 +5678,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -2.54 0)
+					(at -2.54 2.54 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -9415,9 +9397,13 @@
 			(uuid "05dd79ea-f645-409d-aa15-e4dfa8b68676")
 		)
 		(instances
-			(project "electric-symbols-names"
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
 					(reference "U1")
+					(unit 1)
+				)
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9523,9 +9509,13 @@
 			(uuid "109b079a-a589-42e9-a0fc-65b1b7d15734")
 		)
 		(instances
-			(project "electric-symbols-names"
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
 					(reference "U2")
+					(unit 1)
+				)
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9619,9 +9609,13 @@
 			(uuid "93698f93-a3a5-4b6a-af05-e61ece69d041")
 		)
 		(instances
-			(project "electric-symbols-names"
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
 					(reference "U3")
+					(unit 1)
+				)
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9727,9 +9721,13 @@
 			(uuid "6b145c7e-4d47-4ea9-9573-8a431dc7b6da")
 		)
 		(instances
-			(project "electric-symbols-names"
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
 					(reference "U4")
+					(unit 1)
+				)
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9835,9 +9833,13 @@
 			(uuid "946e783c-b7c8-4a8e-9771-63204e59cb9e")
 		)
 		(instances
-			(project "electric-symbols-names"
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
 					(reference "U5")
+					(unit 1)
+				)
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -9943,9 +9945,13 @@
 			(uuid "3ae584ef-6476-4114-85cd-6558b864bca4")
 		)
 		(instances
-			(project "electric-symbols-names"
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
 					(reference "U6")
+					(unit 1)
+				)
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -13340,6 +13346,81 @@
 		)
 	)
 	(symbol
+		(lib_id "simbolos-electricos:OA")
+		(at 146.685 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0137e8cc-57b0-437b-8f5a-3487c61dccb9")
+		(property "Reference" "U1"
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "OA"
+			(at 153.035 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.685 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.685 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7475537c-15e7-4a3c-9f5e-46b86725a809")
+		)
+		(pin ""
+			(uuid "67e6f05c-d6fc-4a80-9072-04c3ea52e4e6")
+		)
+		(pin ""
+			(uuid "cd91042e-9e9c-4c3b-ad76-664f8e85d7d1")
+		)
+		(instances
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "simbolos-electricos:potenciometro")
 		(at 151.13 113.03 0)
 		(unit 1)
@@ -13555,77 +13636,6 @@
 			(project ""
 				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "simbolos-electricos:OA")
-		(at 146.685 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc613d94-b9fa-4e31-acbc-abe5db4a6dd3")
-		(property "Reference" "U1"
-			(at 167.64 87.63 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Value" "OA"
-			(at 153.035 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.685 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.685 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.685 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "4e289f70-c411-4a21-a28b-bed8632c33a6")
-		)
-		(pin ""
-			(uuid "4e289f70-c411-4a21-a28b-bed8632c33a7")
-		)
-		(pin ""
-			(uuid "4e289f70-c411-4a21-a28b-bed8632c33a8")
-		)
-		(instances
-			(project "electric-symbols-names"
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9ce01"
-					(reference "U1")
 					(unit 1)
 				)
 			)

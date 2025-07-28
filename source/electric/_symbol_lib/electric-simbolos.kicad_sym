@@ -3092,7 +3092,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 2.54 0)
+				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -3110,7 +3110,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -2.54 0)
+				(at -2.54 2.54 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -9752,6 +9752,42 @@
 			)
 		)
 		(symbol "logic_and_1_1"
+			(pin input line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 15.24 -2.54 180)
 				(length 3.81)
@@ -9770,48 +9806,12 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 0 0)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -5.08 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "logic_and_2_1"
 			(pin input line
 				(at 0 0 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9829,7 +9829,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 2.54)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9867,7 +9867,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 2.54)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9903,7 +9903,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9941,7 +9941,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9959,7 +9959,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 2.54)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10055,9 +10055,9 @@
 			)
 		)
 		(symbol "logic_nand_1_1"
-			(pin output inverted
-				(at 15.24 -2.54 180)
-				(length 3.81)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -10076,7 +10076,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10091,10 +10091,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -5.08 0)
-				(length 2.54)
-				(name "B"
+			(pin output inverted
+				(at 15.24 -2.54 180)
+				(length 3.81)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10114,7 +10114,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10132,7 +10132,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 2.54)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10170,7 +10170,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 2.54)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10206,7 +10206,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10244,7 +10244,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10262,7 +10262,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 2.54)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10394,9 +10394,9 @@
 			)
 		)
 		(symbol "logic_nor_1_1"
-			(pin output inverted
-				(at 15.24 -2.54 180)
-				(length 3.81)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 3.175)
 				(name ""
 					(effects
 						(font
@@ -10415,7 +10415,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 3.175)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10430,10 +10430,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -5.08 0)
-				(length 3.175)
-				(name "B"
+			(pin output inverted
+				(at 15.24 -2.54 180)
+				(length 3.81)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10453,7 +10453,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 3.175)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10471,7 +10471,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 3.175)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10509,7 +10509,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 3.175)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10545,7 +10545,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 3.175)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10583,7 +10583,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 3.175)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10601,7 +10601,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 3.175)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10685,9 +10685,9 @@
 			)
 		)
 		(symbol "logic_not_1_1"
-			(pin output inverted
-				(at 15.24 -2.54 180)
-				(length 4.445)
+			(pin input line
+				(at 0 -2.54 0)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -10703,10 +10703,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -2.54 0)
-				(length 2.54)
-				(name "A"
+			(pin output inverted
+				(at 15.24 -2.54 180)
+				(length 4.445)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10726,7 +10726,7 @@
 			(pin input line
 				(at 0 -2.54 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10782,7 +10782,7 @@
 			(pin input line
 				(at 0 -2.54 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10820,7 +10820,7 @@
 			(pin input line
 				(at 0 -2.54 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10952,9 +10952,9 @@
 			)
 		)
 		(symbol "logic_or_1_1"
-			(pin output line
-				(at 15.24 -2.54 180)
-				(length 3.81)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 3.175)
 				(name ""
 					(effects
 						(font
@@ -10973,7 +10973,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 3.175)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10988,10 +10988,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -5.08 0)
-				(length 3.175)
-				(name "B"
+			(pin output line
+				(at 15.24 -2.54 180)
+				(length 3.81)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11011,7 +11011,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 3.175)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11029,7 +11029,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 3.175)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11067,7 +11067,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 3.175)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11103,7 +11103,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 3.175)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11141,7 +11141,7 @@
 			(pin input line
 				(at 0 0 0)
 				(length 3.175)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11159,7 +11159,7 @@
 			(pin input line
 				(at 0 -5.08 0)
 				(length 3.175)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11226,24 +11226,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(symbol "logic_xor_0_0"
-			(text "A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "B"
-				(at 5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
 			)
 		)
 		(symbol "logic_xor_0_1"
