@@ -10,7 +10,8 @@ El derecho de autor
 El `derecho de autor o copyright
 <https://es.wikipedia.org/wiki/Copyright>`__
 es una **ley** que protege las obras creativas y permite
-que solo el autor decida cómo se usan, copian, distribuyen, adapten o exhiban.
+que solo el autor decida cómo se usan, copian, distribuyen, adapten o
+exhiban sus obras.
 
 Entre las `obras creativas protegidas por derecho de autor
 <https://www.cultura.gob.es/cultura/areas/propiedadintelectual/mc/rpi/registro-obras/que-registrar.html>`__
