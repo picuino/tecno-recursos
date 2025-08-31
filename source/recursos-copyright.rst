@@ -7,12 +7,12 @@
 
 El derecho de autor
 ===================
-El `copyright o derecho de autor
+El `derecho de autor o copyright
 <https://es.wikipedia.org/wiki/Copyright>`__
 es una **ley** que protege las obras creativas y permite
 que solo el autor decida cómo se usan, copian, distribuyen, adapten o exhiban.
 
-Entre las `obras creativas protegidas por copyright
+Entre las `obras creativas protegidas por derecho de autor
 <https://www.cultura.gob.es/cultura/areas/propiedadintelectual/mc/rpi/registro-obras/que-registrar.html>`__
 se incluyen fotografías, dibujos, películas y vídeos, obras literarias,
 trabajos escolares, esculturas, música, investigaciones científicas,
@@ -22,25 +22,26 @@ programas de ordenador, entre otras.
    :align: center
    :width: 180px
 
-   Logotipo de copyright (derechos de autor reservados).
+   Logotipo de derechos de autor reservados (copyright).
 
    `Masur <https://es.wikipedia.org/wiki/Archivo:Copyright.svg>`__,
    dominio público,
    via Wikimedia Commons.
 
-El copyright protege las expresiones creativas, pero no las ideas, hechos,
-conocimientos o conceptos generales. Por eso, una obra puede tratar sobre
-un niño que descubre que es mago y asiste a una escuela de magia sin
-infringir ningún copyright, ya que lo protegido es es la novela de Harry
-Potter, no su estilo ni su idea general.
+El derecho de autor protege las expresiones creativas, pero no las ideas,
+hechos, conocimientos o conceptos generales. Por eso, una obra puede
+tratar sobre un niño que descubre que es mago y asiste a una escuela de
+magia sin infringir ningún derecho de autor, ya que lo protegido es la
+novela de Harry Potter, no su estilo ni su idea general.
 
-No todas las creaciones están protegidas por **copyright**.
+No todas las creaciones están protegidas por **derecho de autor** 
+(copyright).
 Por ejemplo, los inventos se protegen mediante patentes, mientras que los
 logotipos y marcas comerciales cuentan con otras formas de protección 
 legal.
 
 Todas las obras quedan protegidas por derechos de autor desde el momento
-en que se crean. Aunque no es obligatorio registrarlas, si es recomendable
+en que se crean. Aunque no es obligatorio registrarlas, sí es recomendable
 hacerlo `en el registro de propiedad intelectual
 <https://www.cultura.gob.es/cultura/areas/propiedadintelectual/mc/rpi/inicio.html>`__
 para poder demostrar la autoría.
@@ -78,11 +79,10 @@ Al crear una cuenta en una red social, aceptamos un contrato de cesión
 por el cual nuestras fotos, textos o vídeos pueden ser publicados y 
 utilizados por la plataforma, a menudo con muy pocas limitaciones.
 
-Existen también contratos estándar llamados **licencias libres**, que
-permiten a un autor conceder permisos a cualquier persona interesada en 
-su obra sin necesidad de pedir autorización directa.
-Estas licencias favorecen la difusión y la posibilidad de crear nuevas
-obras a partir de las originales.
+Existen también contratos estándar llamados **licencias libres**.
+Estas permiten a un autor conceder permisos a cualquier persona interesada
+en su obra sin necesidad de pedir autorización directa, favoreciendo
+la difusión y creación de nuevas obras a partir de las originales.
 
 
 Copyleft
@@ -107,7 +107,7 @@ y sus derivados sigan siendo libres.
 Este tipo de licencias fomentan el acceso al conocimiento, su difusión y
 la creación colaborativa de cultura, lo que explica su gran importancia.
 
-Algunos ejemplod de licencias copyleft son la licencia Creative Commons
+Algunos ejemplos de licencias copyleft son la licencia Creative Commons
 BY-SA y la licencia de software GPL.
 
 
@@ -119,7 +119,7 @@ licencias estándar de cesión de derechos para fomentar la cultura libre.
 Una de las licencias más conocidas es la **CC BY-SA**
 (Reconocimiento-Compartir Igual), utilizada por **Wikipedia** para
 difundir sus contenidos.
-Esta licencia la licencia permite copiar, publicar y crear obras derivadas,
+Esta licencia permite copiar, publicar y crear obras derivadas,
 siempre que se reconozca al autor original y que las obras resultantes se
 publiquen bajo la misma licencia CC BY-SA.
 
@@ -136,7 +136,7 @@ publiquen bajo la misma licencia CC BY-SA.
 
 Licencia GPL
 ------------
-La **licencia GPL (General Public License)** una licencia destinada
+La **licencia GPL (General Public License)** es una licencia destinada
 exclusivamente al software de ordenador.
 Por ejemplo, se utiliza en Linux, que es el núcleo de los teléfonos
 Android.
@@ -188,15 +188,16 @@ permiso.
 Ejercicios
 ----------
 
-#. ¿Qué es el copyright?
-   ¿Alguna vez has creado una obra que tenga copyright? Explica brevemente.
-#. ¿Qué derechos tiene un autor sobre su obra gracias al copyright?
+#. ¿Qué es el derecho de autor o copyright?
+   ¿Alguna vez has creado una obra que tenga derecho de autor?
+   Explica brevemente.
+#. ¿Qué derechos tiene un autor sobre su obra solo por crearla?
 #. ¿Desde cuándo una obra está protegida por derechos de autor?
-#. ¿Qué diferencia hay entre copyright y una patente?
+#. ¿Qué diferencia hay entre derechos de autor y una patente?
 #. ¿Qué obras están protegidas por derechos de autor?
    Escribe 5 ejemplos.
 #. Nombra tres ideas, hechos o conceptos que **no** estén protegidos
-   por copyright.
+   por derechos de autor.
 #. Escribe dos tipos de obras que no estén protegidas por los derechos
    de autor. Da un ejemplo de cada una.
 #. ¿Qué significa ceder los derechos de una obra a una red social?
