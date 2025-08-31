@@ -82,7 +82,7 @@ La función :cpp:func:`keyPressed`
    'falsas' o 'fantasmas'.
 
    Los rebotes son un fenómeno que provoca que el pulsador no haga
-   contacto durante un periodo corto de tiempo, unos milisegundos,
+   contacto durante un período corto de tiempo, unos milisegundos,
    justo después de presionarle porque la chapa metálica 'rebota'
    y deja de hacer contacto. Este fenómeno puede provocar
    que se interprete una pulsación como dos pulsaciones, por lo que

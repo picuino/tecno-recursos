@@ -497,7 +497,7 @@ Compatibilidad con software
    Los dispositivos iOS suelen tener actualizaciones del sistema
    operativo durante mucho más tiempo, hasta 6 años, en comparación
    con los dispositivos Android, que apenas tienen actualizaciones
-   del sistema operativo durante un periodo de 2 años desde el
+   del sistema operativo durante un período de 2 años desde el
    lanzamiento del dispositivo.
 
 Facilidad de personalización

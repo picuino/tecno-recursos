@@ -50,7 +50,7 @@ Parpadeo del led D1
 
 En este ejemplo se desea hacer parpadear al led D1 con un tiempo
 encendido de medio segundo y un tiempo apagado de medio segundo.
-El periodo de parpadeo será por lo tanto de un segundo.
+El período de parpadeo será por lo tanto de un segundo.
 En este caso la función se dará desde el bloque ``setup()``
 una sola vez.
 

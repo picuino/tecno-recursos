@@ -762,6 +762,32 @@ Otras imágenes
 ----
 
 ..
+   source: electric-simulador-resistencia.rst
+
+.. figure:: legal/external-images/electric-resistencia-calentamiento-tb.jpg
+
+   Resistencia de calentamiento de una máquina de café.
+
+   `Acosta.eu <https://en.wikipedia.org/wiki/File:Heizstab-heatingelement-espressomachine.jpg>`__,
+   `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
+   via Wikimedia Commons.
+
+----
+
+..
+   source: electric-simulador-tension.rst
+
+.. figure:: legal/external-images/electric-toma-tierra-tb.jpg
+
+   Toma de tierra con su cable amarillo-verde conectado.
+
+   `Ali K <https://en.wikipedia.org/wiki/File:HomeEarthRodAustralia1.jpg>`__,
+   `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
+   via Wikimedia Commons.
+
+----
+
+..
    source: electronic-diodo.rst
 
 .. figure:: legal/external-images/electronic-diode-closeup-tb.jpg
@@ -2363,4 +2389,67 @@ Otras imágenes
 
    `Swfung8 <https://commons.wikimedia.org/wiki/File:Merge-sort-example-300px.gif>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
+   via Wikimedia Commons.
+
+----
+
+..
+   source: recursos-copyright.rst
+
+.. figure:: legal/external-images/copyright-logo-tb.png
+
+   Logotipo de copyright (derechos de autor reservados).
+
+   `Masur <https://es.wikipedia.org/wiki/Archivo:Copyright.svg>`__,
+   dominio público,
+   via Wikimedia Commons.
+
+----
+
+..
+   source: recursos-copyright.rst
+
+.. figure:: legal/external-images/copyleft-logo-tb.png
+
+   Logotipo de copyleft (algunos derechos de autor reservados).
+
+   `Zscout370 <https://commons.wikimedia.org/wiki/File:Copyleft.svg>`__,
+   dominio público,
+   via Wikimedia Commons.
+
+----
+
+..
+   source: recursos-copyright.rst
+
+.. figure:: legal/external-images/cc-by-sa-logo-tb.png
+
+   Logotipo de la licencia Creative Commons Reconocimiento-Compartir igual.
+
+   `Creative Commons <https://en.wikipedia.org/wiki/File:CC_BY-SA_icon.svg>`__,
+   `licencia de uso <https://creativecommons.org/policies/>`__.
+
+----
+
+..
+   source: recursos-copyright.rst
+
+.. figure:: legal/external-images/gpl-v3-logo-tb.png
+
+   Logotipo de la licencia de software GPL versión 3.
+
+   `Free Software Foundation <https://es.wikipedia.org/wiki/Archivo:GPLv3_Logo.svg>`__,
+   `licencia de uso <https://www.gnu.org/graphics/license-logos.html>`__.
+
+----
+
+..
+   source: recursos-copyright.rst
+
+.. figure:: legal/external-images/public-domain-logo-tb.png
+
+   Logotipo de dominio público (sin derechos de autor).
+
+   `Waldir <https://commons.wikimedia.org/wiki/File:PD-icon-black.svg>`__,
+   dominio público,
    via Wikimedia Commons.

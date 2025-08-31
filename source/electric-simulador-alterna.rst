@@ -75,9 +75,9 @@ que el generador de corriente continua de 5 voltios:
    </div>
 
 
-:index:`Periodo y frecuencia`
+:index:`Período y frecuencia`
 -----------------------------
-El periodo es el tiempo que tarda la onda alterna en completar un ciclo
+El período es el tiempo que tarda la onda alterna en completar un ciclo
 completo. Este tiempo suele ser pequeño, del orden de milisegundos, por
 lo que se suele hablar normalmente de su valor inverso, que es la
 frecuencia.
@@ -87,7 +87,7 @@ alterna en un segundo. La red eléctrica europea es de 50 hercios
 (ciclos por segundo). La red eléctrica de la mayoría de América es
 de 60 hercios.
 
-La fórmula que relaciona el periodo y la frecuencia es la siguiente:
+La fórmula que relaciona el período y la frecuencia es la siguiente:
 
 .. math::
 
@@ -97,7 +97,7 @@ Siendo las magnitudes y unidades las siguientes:
 
    F = Frecuencia en Hercios [Hz]
 
-   P = Periodo en Segundos [s]
+   P = Período en Segundos [s]
 
 
 Ejercicios
@@ -127,14 +127,14 @@ Ejercicios
       * - 5 voltios
         -
 
-#. Completa la siguiente tabla con los valores de frecuencia y de periodo
+#. Completa la siguiente tabla con los valores de frecuencia y de período
    de tiempo que que faltan.
 
    .. list-table::
       :header-rows: 1
 
       * - Frecuencia [Hz]
-        - Periodo [s]
+        - Período [s]
       * - 50 hercios
         - 0,020 segundos
       * - 60 hercios

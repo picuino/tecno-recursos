@@ -16,6 +16,7 @@ Otros recursos para tecnología
    :maxdepth: 1
    :titlesonly:
 
+   recursos-copyright.rst
    recursos-blogs.rst
    recursos-libro-4eso-tecno.rst
    recursos-cuaderno-notas.rst

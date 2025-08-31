@@ -1,5 +1,5 @@
 """
-   Generate a list of external images used in Picuino web
+   Generate a list of external images used in Picuino web.
 """
 import os
 import re
@@ -10,7 +10,7 @@ header_file = 'legal-attribution.txt'
 output_file = '../legal-attribution.rst'
 output_discard = 'legal-internal-figures.txt'
 
-filter_external = 'Wikimedia Commons|Pixabay|Pexels|wikimedia\.org'
+filter_external = 'Wikimedia Commons|Pixabay|Pexels|wikimedia\.org|Creative Commons|Free Software Foundation'
 extensions = ['.rst']
 excludes = ['legal-attribution.rst']
 
@@ -43,7 +43,7 @@ def generate_thumbs(figures):
             thumb = 'legal/external-images/' + base + '-tb' + ext            
         figure[1] = f'.. figure:: {thumb}'        
         if not os.path.exists('../' + thumb):
-            argument = f'../{image} -resize 320x320^ ../{thumb}'
+            argument = f'../{image} -resize 240x240^ ../{thumb}'
             os.system('/Bin/ImageMagick/convert.exe ' + argument)
             print(thumb)
 

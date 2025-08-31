@@ -69,7 +69,7 @@ El siguiente programa encenderá de forma permanente el led D1
 
 Parpadeo del led D1
 -------------------
-Si se desea encender y apagar el led D1 con un periodo de un segundo,
+Si se desea encender y apagar el led D1 con un período de un segundo,
 una forma de realizarlo es encender el led, esperar medio segundo,
 apagar el led y esperar medio segundo. Cuando esta secuencia se
 repite, el led parpadea.

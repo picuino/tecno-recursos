@@ -86,7 +86,7 @@ mejorar duplicando su capacidad por poco dinero más.
 
 La relación de precio por Gigabyte mejora constantemente hasta que llegamos
 al dispositivo más nuevo y de gama más alta, que tiene un precio muy
-superior al resto durante el periodo de lanzamiento, por lo que no merece
+superior al resto durante el período de lanzamiento, por lo que no merece
 la pena comprarlo por su menor relación capacidad/precio.
 
 Tabla de precios de procesadores Intel en Amazon en 2022.

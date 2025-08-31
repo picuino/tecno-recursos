@@ -65,7 +65,7 @@ también llamado tiempo muerto, representado por T1.
 
 .. image:: control/_images/img-0060.png
    :width: 640px
-   :alt: Respuesta al escalón en un horno. Periodo inicial.
+   :alt: Respuesta al escalón en un horno. Período inicial.
    :align: center
 
 Para calcular los parámetros se comienza por trazar una línea recta
@@ -86,7 +86,7 @@ tangente corta al valor final de salida (225º a los 14 segundos).
 
 .. figure:: control/_images/img-0061.png
    :width: 640px
-   :alt: Respuesta al escalón en un horno. Periodo completo.
+   :alt: Respuesta al escalón en un horno. Período completo.
    :align: center
 
    Respuesta al escalón. El tiempo 2 comienza a continuación de T1
@@ -235,7 +235,7 @@ acción integral del regulador PID. El ensayo en lazo cerrado consiste
 en aumentar poco a poco la ganancia proporcional hasta que el sistema
 oscile de forma mantenida ante cualquier perturbación. Esta oscilación
 debe ser lineal, sin saturaciones. En este momento hay que medir la
-ganancia proporcional, llamada ganancia crítica o Kc, y el periodo de
+ganancia proporcional, llamada ganancia crítica o Kc, y el período de
 oscilación Tc en segundos.
 
 .. image:: control/_images/img-0064.png
@@ -324,7 +324,7 @@ en el tiempo, por lo que la ganancia sería demasiado alta.
    :alt: Ganancia crítica de lazo cerrado. Sistema oscilante.
    :align: center
 
-En este caso, por lo tanto, la ganancia crítica y el periodo son:
+En este caso, por lo tanto, la ganancia crítica y el período son:
 
    Kc = 0,43
 
