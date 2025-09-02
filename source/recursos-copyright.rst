@@ -9,14 +9,14 @@ El derecho de autor
 ===================
 El `derecho de autor o copyright
 <https://es.wikipedia.org/wiki/Copyright>`__
-es una **ley** que protege las obras creativas y permite
+es una **ley** que protege las **obras creativas** y permite
 que solo el autor decida cómo se usan, copian, distribuyen, adapten o
 exhiban sus obras.
 
 Entre las `obras creativas protegidas por derecho de autor
 <https://www.cultura.gob.es/cultura/areas/propiedadintelectual/mc/rpi/registro-obras/que-registrar.html>`__
 se incluyen fotografías, dibujos, películas y vídeos, obras literarias,
-trabajos escolares, esculturas, música, investigaciones científicas,
+**trabajos escolares**, esculturas, música, investigaciones científicas,
 programas de ordenador, entre otras.
 
 .. figure:: recursos/_images/copyright-logo.png
@@ -35,15 +35,15 @@ tratar sobre un niño que descubre que es mago y asiste a una escuela de
 magia sin infringir ningún derecho de autor, ya que lo protegido es la
 novela de Harry Potter, no su estilo ni su idea general.
 
-No todas las creaciones están protegidas por **derecho de autor** 
-(copyright).
-Por ejemplo, los inventos se protegen mediante patentes, mientras que los
-logotipos y marcas comerciales cuentan con otras formas de protección 
-legal.
+No todas las creaciones están protegidas por **derecho de autor 
+(copyright)**.
+Por ejemplo, las **invenciones técnicas** se protegen mediante
+**patentes**, mientras que los **logotipos y marcas comerciales** cuentan
+con otras formas de protección legal.
 
-Todas las obras quedan protegidas por derechos de autor desde el momento
-en que se crean. Aunque no es obligatorio registrarlas, sí es recomendable
-hacerlo `en el registro de propiedad intelectual
+Todas las obras quedan protegidas por **derechos de autor** desde el
+momento en que se crean. Aunque no es obligatorio registrarlas, sí es
+recomendable hacerlo `en el registro de propiedad intelectual
 <https://www.cultura.gob.es/cultura/areas/propiedadintelectual/mc/rpi/inicio.html>`__
 para poder demostrar la autoría.
 
@@ -52,7 +52,7 @@ Tipos de derechos
 -----------------
 
 Derechos morales.
-   Estos derechos no se pueden ceder a otros ni se pierden.
+   Estos derechos no se pueden ceder a otros ni se pierden nunca.
    
    * Reconocimiento de quién es el autor de la obra.
    * Oposición a modificaciones de la obra que atenten contra el honor
@@ -71,12 +71,12 @@ Derechos económicos.
 Cesión de derechos
 ------------------
 Un autor puede ceder a otras personas o empresas sus derechos de copia,
-distribución o exhibición de una obra, por ejemplo a una editorial, una
-discográfica o una red social.
+distribución o exhibición de una obra, por ejemplo a una **editorial**,
+una **discográfica** o una **red social**.
 Esto se realiza mediante contratos donde se establecen las condiciones
 de la cesión.
 
-Al crear una cuenta en una red social, aceptamos un contrato de cesión
+Al crear una cuenta en una red social, aceptamos un **contrato de cesión**
 por el cual nuestras fotos, textos o vídeos pueden ser publicados y 
 utilizados por la plataforma, a menudo con muy pocas limitaciones.
 
@@ -117,12 +117,12 @@ Creative Commons BY-SA
 La organización sin ánimo de lucro **Creative Commons** ha creado varias
 licencias estándar de cesión de derechos para fomentar la cultura libre.
 
-Una de las licencias más conocidas es la **CC BY-SA**
-(Reconocimiento-Compartir Igual), utilizada por **Wikipedia** para
+Una de las licencias más conocidas es la **CC BY-SA
+(Reconocimiento-Compartir Igual)**, utilizada por **Wikipedia** para
 difundir sus contenidos.
 Esta licencia permite copiar, publicar y crear obras derivadas,
-siempre que se reconozca al autor original y que las obras resultantes se
-publiquen bajo la misma licencia CC BY-SA.
+siempre que se reconozca al **autor original** y que las obras resultantes
+se publiquen bajo la misma licencia CC BY-SA.
 
 .. figure:: recursos/_images/cc-by-sa-logo.png
    :align: center
@@ -133,14 +133,22 @@ publiquen bajo la misma licencia CC BY-SA.
    `Creative Commons <https://en.wikipedia.org/wiki/File:CC_BY-SA_icon.svg>`__,
    `licencia de uso <https://creativecommons.org/policies/>`__.
 
+Un estudiante puede añadir junto a su nombre, en un trabajo escrito,
+dibujo o póster, la frase:
 
+  **"Bajo licencia CC BY-SA 4.0"**.
+
+Estará diciendo a los demás que pueden usar su obra en sus propios
+trabajos.
+Solo tienen que mencionar quién es el **autor original** y compartir lo
+que hagan con la **misma licencia**.
 
 Licencia GPL
 ------------
 La **licencia GPL (General Public License)** es una licencia destinada
-exclusivamente al software de ordenador.
-Por ejemplo, se utiliza en Linux, que es el núcleo de los teléfonos
-Android.
+exclusivamente al **software de ordenador**.
+Por ejemplo, se utiliza en **Linux**, que es el núcleo de los teléfonos
+**Android**.
 
 Esta licencia permite usar el software libremente, estudiar su
 funcionamiento, copiarlo y modificarlo.
@@ -181,42 +189,57 @@ publicarla o usarla libremente sin pedir permiso.
    via Wikimedia Commons.
 
 
-El autor también puede decidir regalar su obra al dominio público en
-cualquier momento, para que todos puedan usarla libremente sin pedir
-permiso.
+El autor también puede decidir regalar su obra al dominio público
+**en cualquier momento**, para que todos puedan usarla libremente sin
+pedir permiso.
 
 
 Ejercicios
 ----------
 
-#. ¿Qué es el derecho de autor o copyright?
+#. ¿Qué es el derecho de autor o **copyright**?
    ¿Alguna vez has creado una obra que tenga derecho de autor?
    Explica brevemente.
-#. ¿Qué derechos tiene un autor sobre su obra solo por crearla?
+#. ¿Qué derechos tiene un **autor** sobre su obra solo por crearla?
 #. ¿Desde cuándo una obra está protegida por derechos de autor?
 #. ¿Qué diferencia hay entre derechos de autor y una patente?
 #. ¿Qué obras están protegidas por derechos de autor?
    Escribe 5 ejemplos.
 #. Nombra tres ideas, hechos o conceptos que **no** estén protegidos
    por derechos de autor.
+#. ¿Qué significa ceder los derechos de una obra a una **red social**?
 #. Escribe dos tipos de obras que no estén protegidas por los derechos
    de autor. Da un ejemplo de cada una.
-#. ¿Qué significa ceder los derechos de una obra a una red social?
 #. Escribe con tus palabras qué es copyleft.
 #. Escribe dos ejemplos de licencias copyleft.
-#. ¿Por qué crees que las licencias de Creative Commons fomentan la
+#. ¿Por qué crees que las licencias de **Creative Commons** fomentan la
    difusión y creación cultural?
    Escribe un ejemplo práctico de su uso.
-#. ¿Para qué sirve una licencia GPL? 
+#. ¿Para qué sirve una licencia **GPL**? 
    Escribe un ejemplo que utilice esta licencia.
-#. ¿Qué significa que una obra esté en dominio público?
-#. Da un ejemplo de una obra clásica que sea de dominio público.
+#. ¿Qué significa que una obra esté en **dominio público**?
+#. Da un ejemplo de una **obra clásica** que sea de dominio público.
 #. ¿Cuándo pasa una obra a dominio público?
+#. Dibuja los **logotipos** de copyright, copyleft y dominio público.
+#. Investiga qué es el convenio de Berna para la protección de obras y
+   redacta a mano un breve trabajo de una hoja por las dos caras.
 
 
 Recursos
 --------
+Documento en formato DIN A4 con la unidad y los ejercicios:
+
+  :download:`El derecho de autor.
+  Formato PDF. <recursos/copyright/copyright.pdf>`
+  
+  :download:`El derecho de autor.
+  Formato DOC. <recursos/copyright/copyright.doc>`
+
+Enlaces para ampliar conocimientos:
+
 * `Guía práctica de licencias de uso para docentes
   <https://descargas.intef.es/cedec/proyectoedia/guias/contenidos/guiadelicencias/>`__.
 * `Derechos de autor y licencias
   <https://formacion.intef.es/aulaenabierto/mod/book/tool/print/index.php?id=4360>`__.
+* `Copyright en Wikipedia
+  <https://es.wikipedia.org/wiki/Copyright>`__
