@@ -1,0 +1,166 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/python-busqueda.rst:9
+msgid "Búsqueda de datos"
+msgstr "Cerca de dades"
+
+#: ../../source/python-busqueda.rst:10
+msgid ""
+"En este apartado vamos a estudiar cómo buscar datos dentro de una lista. "
+"Existen numerosas funciones y métodos de Python para conseguirlo, pero en "
+"esta unidad se van a estudiar los algoritmos de búsqueda sin su ayuda para "
+"poder aprender cómo funcionan estos algoritmos internamente."
+msgstr ""
+"En aquesta secció estudiarem com buscar dades dins d’una llista. Hi ha "
+"nombroses funcions i mètodes Python per aconseguir -ho, però en aquesta "
+"unitat s’estudiaran els algoritmes de cerca sense la seva ajuda per aprendre"
+" com funcionen aquests algoritmes internament."
+
+#: ../../source/python-busqueda.rst:17
+msgid "Búsqueda lineal de datos"
+msgstr "Cerca de dades lineals"
+
+#: ../../source/python-busqueda.rst:18
+msgid ""
+"El algoritmo más sencillo para buscar un dato en una lista consiste en ir "
+"recorriendo todos los elementos de la lista, uno a uno, hasta encontrar "
+"aquel que estamos buscando."
+msgstr ""
+"L’algoritme més senzill per buscar dades d’una llista consisteix a recórrer "
+"tots els elements de la llista, un per un, fins que trobem la que busquem."
+
+#: ../../source/python-busqueda.rst:22
+msgid ""
+"En este caso vamos a programar una búsqueda lineal del menor elemento de una"
+" lista de datos."
+msgstr ""
+"En aquest cas, programem una cerca lineal de l’element inferior d’una llista"
+" de dades."
+
+#: ../../source/python-busqueda.rst:25
+msgid ""
+"Una variable guardará la posición del menor elemento encontrado hasta el "
+"momento e iremos actualizando esta posición a medida que vayamos encontrando"
+" otros elementos menores::"
+msgstr ""
+"Una variable mantindrà la posició de l’element inferior que es troba fins "
+"ara i actualitzarem aquesta posició a mesura que trobem altres elements "
+"menors ::"
+
+#: ../../source/python-busqueda.rst:53
+msgid "El resultado es el siguiente::"
+msgstr "El resultat és el següent ::"
+
+#: ../../source/python-busqueda.rst:60
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/python-busqueda.rst:62
+msgid ""
+"Escribe un programa con una función que busque el elemento mayor de una "
+"lista. Llama a esa función con la lista de números anterior para comprobar "
+"que el resultado es el elemento 3 que vale 99."
+msgstr ""
+"Escriviu un programa amb una funció que busqui l’element principal d’una "
+"llista. Truqueu a aquesta funció amb la llista de números anterior per "
+"verificar que el resultat és l’element 3 per valor de 99."
+
+#: ../../source/python-busqueda.rst:67
+msgid ""
+"Escribe una función que devuelva la posición del último elemento par de una "
+"lista. Si no existe ningún número par, el resultado devuelto debe ser la "
+"constante ``None`` para indicar que no existe ninguno."
+msgstr ""
+"Escriviu una funció que retorna la posició de l’últim element de parell "
+"d’una llista. Si no hi ha cap número de parell, el resultat retornat ha de "
+"ser la constant `` cap '' per indicar que no n'hi ha cap."
+
+#: ../../source/python-busqueda.rst:71
+msgid ""
+"Llama a la función con la lista de números anterior para comprobar que el "
+"resultado es la posición 16, número 46."
+msgstr ""
+"Truqueu a la funció amb la llista de números anterior per verificar que el "
+"resultat és la posició 16, número 46."
+
+#: ../../source/python-busqueda.rst:74 ../../source/python-busqueda.rst:117
+
+#: ../../source/python-busqueda.rst:145
+msgid "Pista::"
+msgstr "Pista ::"
+
+#: ../../source/python-busqueda.rst:93 ../../source/python-busqueda.rst:107
+
+#: ../../source/python-busqueda.rst:173
+msgid "Resultado::"
+msgstr "Resultat ::"
+
+#: ../../source/python-busqueda.rst:99
+msgid ""
+"Escribe una función que devuelva la posición del primer elemento impar de "
+"una lista. Si no existe ningún número impar, el resultado devuelto debe ser "
+"la constante ``None`` para indicar que no existe ninguno."
+msgstr ""
+"Escriviu una funció que retorna la posició del primer element estrany d’una "
+"llista. Si no hi ha cap número estrany, el resultat retornat ha de ser la "
+"constant `` cap '' per indicar que no n'hi ha cap."
+
+#: ../../source/python-busqueda.rst:104
+msgid ""
+"Llama a la función con la lista de números anterior para comprobar que el "
+"resultado es la posición 0, número 75."
+msgstr ""
+"Truqueu a la funció amb la llista de números anterior per verificar que el "
+"resultat és la posició 0, número 75."
+
+#: ../../source/python-busqueda.rst:113
+msgid ""
+"Escribe una función que cuente las veces que se encuentra un elemento en una"
+" lista. Llama a esa función para calcular cuántas veces aparece el elemento "
+"5 en una lista de notas."
+msgstr ""
+"Escriviu una funció que tingui els temps que es troba un element en una "
+"llista. Truqueu a aquesta funció per calcular quantes vegades apareix "
+"l’element 5 en una llista de notes."
+
+#: ../../source/python-busqueda.rst:134
+msgid ""
+"Modifica el programa anterior con un bucle que busque cuántas veces aparecen"
+" todas las notas desde el 0 hasta el 10."
+msgstr ""
+"Modifiqueu el programa anterior amb un bucle que busca quantes vegades totes"
+" les notes apareixen de 0 a 10."
+
+#: ../../source/python-busqueda.rst:138
+msgid ""
+"Modifica el programa de búsqueda del elemento menor de una lista. Añade al "
+"programa otra función que vaya buscando una y otra vez el elemento menor, "
+"que lo imprima en pantalla y que lo borre de la lista con la función "
+"``del()``. El resultado final debe ser que imprima todos los elementos de la"
+" lista ordenados de menor a mayor."
+msgstr ""
+"Modifiqueu el programa de cerca de l’element menor d’una llista. Afegiu al "
+"programa una altra funció que va i de nou l’element menor, que l’imprimeix a"
+" la pantalla i que el suprimeix de la llista amb la funció `` `` `. El "
+"resultat final ha de ser imprimir tots els elements de la llista ordenats de"
+" menys a més gran."

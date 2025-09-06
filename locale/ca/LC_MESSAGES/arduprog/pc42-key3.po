@@ -1,0 +1,157 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/arduprog/pc42-key3.rst:13
+msgid "Pulsadores y Contadores"
+msgstr "Botons i mostradors"
+
+#: ../../source/arduprog/pc42-key3.rst:31
+msgid "Objetivos"
+msgstr "Els pendents"
+
+#: ../../source/arduprog/pc42-key3.rst:32
+msgid "Leer los contadores de tiempo y pulsaciones asociados a un pulsador."
+msgstr "Llegiu els comptadors de temps i les pulsacions associades a un botó."
+
+#: ../../source/arduprog/pc42-key3.rst:33
+msgid "Realizar acciones asociadas a los contadores de tiempo."
+msgstr "Realitzeu accions associades als comptadors de temps."
+
+#: ../../source/arduprog/pc42-key3.rst:37
+msgid "La función :cpp:func:`keyCount`"
+msgstr "La funció: CPP: Fun: `KeyCount '"
+
+#: ../../source/arduprog/pc42-key3.rst:41
+msgid ""
+"Esta función devuelve el número de veces que se ha presionado un pulsador. "
+"El valor se incrementa en uno inmediatamente después de presionar el "
+"pulsador. Si se mantiene el pulsador presionado más de medio segundo, el "
+"contador de pulsaciones se incrementa a razón de 10 pulsos por segundo. Si "
+"el pulsador se mantiene presionado durante más de dos segundos, el contador "
+"de pulsaciones se incrementa a razón de 100 pulsos por segundo. Los tiempos "
+"y las frecuencias de incremento del contador se pueden modificar en la "
+"configuración del teclado."
+msgstr ""
+"Aquesta funció retorna el nombre de vegades que s'ha premut un botó. El "
+"valor augmenta un immediatament després de prémer el botó. Si el botó "
+"pressionava més de mig segon, el comptador de pulsació augmenta a una "
+"velocitat de 10 polsos per segon. Si es prem el botó durant més de dos "
+"segons, el comptador de pulsació augmenta a una velocitat de 100 polsos per "
+"segon. Els temps i les freqüències del comptador augmentat es poden "
+"modificar en la configuració del teclat."
+
+#: ../../source/arduprog/pc42-key3.rst:54
+
+#: ../../source/arduprog/pc42-key3.rst:68
+
+#: ../../source/arduprog/pc42-key3.rst:82
+msgid "|keyNum|"
+msgstr "; Keynum |"
+
+#: ../../source/arduprog/pc42-key3.rst:58
+msgid "La función :cpp:func:`keyTimeOn`"
+msgstr "La funció: CPP: diversió: `keytimon '"
+
+#: ../../source/arduprog/pc42-key3.rst:62
+msgid ""
+"Esta función devuelve el tiempo en milisegundos que ha estado presionado el "
+"pulsador. El máximo tiempo que puede contar es de 65 segundos. A partir de "
+"ese momento no se cuenta más tiempo y el resultado devuelto siempre es el "
+"mismo."
+msgstr ""
+"Aquesta funció retorna el temps en mil·lisegons que s'ha premut el botó. El "
+"temps màxim que podeu comptar és de 65 segons. A partir d’aquest moment, ja "
+"no hi ha més temps i el resultat retornat sempre és el mateix."
+
+#: ../../source/arduprog/pc42-key3.rst:72
+msgid "La función :cpp:func:`keyTimeOff`"
+msgstr "La funció: CPP: Func: `KeyTimeoff '"
+
+#: ../../source/arduprog/pc42-key3.rst:76
+msgid ""
+"Esta función devuelve el tiempo en milisegundos que ha estado sin presionar "
+"el pulsador. El máximo tiempo que puede contar es de 65 segundos. A partir "
+"de ese momento no se cuenta más tiempo y el resultado devuelto siempre es el"
+" mismo."
+msgstr ""
+"Aquesta funció retorna el temps en mil·lisegons que han estat sense prémer "
+"el botó. El temps màxim que podeu comptar és de 65 segons. A partir d’aquest"
+" moment, ja no hi ha més temps i el resultat retornat sempre és el mateix."
+
+#: ../../source/arduprog/pc42-key3.rst:86
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/arduprog/pc42-key3.rst:87
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Programa el codi necessari per resoldre els problemes següents."
+
+#: ../../source/arduprog/pc42-key3.rst:89
+msgid ""
+"El siguiente programa mueve hacia la derecha un led cuando se presiona el "
+"pulsador 2. Modificar el programa para que el led se mueva también hacia la "
+"izquierda al presionar el pulsador 1."
+msgstr ""
+"El programa següent mou un LED a la dreta quan es prem el botó. Modifiqueu "
+"el programa de manera que el LED també es mogui a l'esquerra quan premeu el "
+"botó 1."
+
+#: ../../source/arduprog/pc42-key3.rst:99
+msgid ""
+"El siguiente programa es un juego para comprobar la habilidad de contar "
+"tiempo. Se debe presionar el pulsador 1 exactamente durante tres segundos. "
+"En el display se muestra el error de tiempo en milisegundos. Si se ha "
+"presionado menos tiempo, el número mostrado será negativo. En caso de "
+"presionar más de tres segundos, el número mostrado será positivo. Gana el "
+"jugador que más se acerque al cero."
+msgstr ""
+"El següent programa és un joc per comprovar la capacitat de dir -ho. El botó"
+" 1 s'ha de prémer exactament durant tres segons. La pantalla mostra l'error "
+"de temps en mil·lisegons. Si s’ha pressionat menys temps, el nombre mostrat "
+"serà negatiu. En cas de prémer més de tres segons, el nombre mostrat serà "
+"positiu. El jugador que aconsegueix més victòries zero."
+
+#: ../../source/arduprog/pc42-key3.rst:107
+msgid ""
+"**Modificar** el programa para que el led D1 parpadee una vez por segundo "
+"antes de comenzar el juego. Una vez presionado el pulsador 1, el led 1 debe "
+"apagarse para no dar pistas sobre el tiempo que debe estar presionado el "
+"pulsador."
+msgstr ""
+"** Modifiqueu ** el programa per al LED D1 a parpellejar una vegada per "
+"segon abans de començar el partit. Un cop premut el botó 1, el LED 1 s’ha "
+"d’apagar per no donar pistes sobre el temps que s’ha de prémer el botó."
+
+#: ../../source/arduprog/pc42-key3.rst:151
+msgid ""
+"Modificar el programa que aparece a continuación, parecido al anterior. En "
+"este juego la puntuación será más alta si se presiona un pulsador el mismo "
+"tiempo dos veces consecutivas. Primero el programa debe medir el tiempo que "
+"ha estado presionado el pulsador 1, después debe esperar a que no esté "
+"presionado. Finalmente se medirá el segundo tiempo que el pulsador esté "
+"presionado."
+msgstr ""
+"Modifiqueu el programa que apareix a continuació, similar al anterior. En "
+"aquest joc, la puntuació serà més alta si es prem un botó el mateix temps "
+"dues vegades consecutiu. Primer, el programa ha de mesurar el temps que s'ha"
+" pressionat el botó, i haureu d'esperar que no es pressioni. Finalment, es "
+"mesurarà la segona meitat que es prem el botó."

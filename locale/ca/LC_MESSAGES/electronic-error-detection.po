@@ -1,0 +1,218 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-03-20 18:45+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-error-detection.rst:9
+msgid "Detección de errores"
+msgstr "Detecció d'errors"
+
+#: ../../source/electronic-error-detection.rst:10
+msgid ""
+"En electrónica digital se pueden añadir datos extra a la información enviada"
+" por un canal con ruido, para detectar si la transmisión de información ha "
+"sido correcta o si se ha producido algún error."
+msgstr ""
+"A l’electrònica digital podeu afegir dades addicionals a la informació "
+"enviada per un canal amb soroll, per detectar si la transmissió d’informació"
+" ha estat correcta o si s’ha produït algun error."
+
+#: ../../source/electronic-error-detection.rst:14
+msgid ""
+"La `detección de errores "
+"<https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores>`__"
+" añade una pequeña sobrecarga de información con bits extra denominados "
+"**redundancia**."
+msgstr ""
+"La \"detecció d'errors "
+"<https://es.wikipedia.org/wiki/detecci%C3%B3n_y_correcci%C3%B3n_de_erores>` "
+"__ Afegiu una petita sobrecàrrega d'informació amb bits addicionals "
+"anomenats ** redundància **."
+
+#: ../../source/electronic-error-detection.rst:19
+msgid ""
+"En la transmisión de datos por internet o en la red de datos móviles, si se "
+"produce un error y se detecta, el ordenador volverá a pedir que se reenvíe "
+"la información, hasta que llegue la versión correcta sin errores."
+msgstr ""
+"A la transmissió de dades en línia o a la xarxa de dades mòbils, si es "
+"produeix un error i es detecta, l’ordinador tornarà a demanar la informació "
+"fins que la versió correcta arribi sense errors."
+
+#: ../../source/electronic-error-detection.rst:26
+msgid "Bits de paridad"
+msgstr "Bits de paritat"
+
+#: ../../source/electronic-error-detection.rst:27
+msgid ""
+"El sistema más sencillo de añadir redundancia para detectar errores es el "
+"`bit de paridad <https://es.wikipedia.org/wiki/Bit_de_paridad>`__. Este bit "
+"tiene un valor que hace que el número de bits a uno totales sea siempre par."
+msgstr ""
+"El sistema més senzill per afegir redundància per detectar errors és el "
+"\"bit de paritat <https://es.wikipedia.org/wiki/bit_de_parity>`__. Aquest "
+"bit té un valor que fa que el nombre de bits sigui un total de sempre."
+
+#: ../../source/electronic-error-detection.rst:32
+msgid ""
+"Por ejemplo, si los datos enviados tienen 3 bits a uno, el bit de paridad "
+"también valdrá uno para que el número total de bits a uno sea 4 (número "
+"par)."
+msgstr ""
+"Per exemple, si les dades enviades són de 3 bits a un, el bit de paritat "
+"també valdrà un de manera que el nombre total de bits a un sigui de 4 "
+"(número de parell)."
+
+#: ../../source/electronic-error-detection.rst:36
+msgid ""
+"En la siguiente figura se pueden ver varios ejemplos de bits de paridad "
+"correctos, enviados junto con su byte de información."
+msgstr ""
+"A la figura següent podeu veure diversos exemples de bits de paritat "
+"correctes, enviats juntament amb el vostre byte d'informació."
+
+#: ../../source/electronic-error-detection.rst:44
+msgid "Bit de paridad para varios bytes de datos."
+msgstr "Bit de paritat per a diversos bytes de dades."
+
+#: ../../source/electronic-error-detection.rst:46
+msgid ""
+"Si la paridad final es impar, eso significa que alguno de los bits de "
+"información ha cambiado durante su transmisión y por lo tanto se ha "
+"producido un error."
+msgstr ""
+"Si la paritat final és estranya, això vol dir que un dels bits d’informació "
+"ha canviat durant la seva transmissió i, per tant, s’ha produït un error."
+
+#: ../../source/electronic-error-detection.rst:50
+msgid ""
+"Este sistema reconoce el cambio de un solo bit de información. Si se "
+"producen cambios en dos bit a la vez, el sistema de control de paridad no "
+"será capaz de reconocer el error."
+msgstr ""
+"Aquest sistema reconeix el canvi d’un sol bit d’informació. Si hi ha canvis "
+"en dos bits alhora, el sistema de control de paritat no podrà reconèixer "
+"l'error."
+
+#: ../../source/electronic-error-detection.rst:56
+msgid "Suma de verificación"
+msgstr "Suma de verificació"
+
+#: ../../source/electronic-error-detection.rst:57
+msgid ""
+"La `suma de verificación "
+"<https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n>`__, también "
+"llamada checksum, es un dato añadido a los datos de información que tiene "
+"como objetivo detectar errores de transmisión con mayor exactitud que un "
+"simple bit de paridad."
+msgstr ""
+"La \"suma de verificació "
+"<https://es.wikipedia.org/wiki/suma_de_verifaci%C3%B3n>`__, també anomenada"
+" checksum, és un fet afegit a les dades d'informació que pretén detectar "
+"errors de transmissió amb una precisió més gran que un simple bit de "
+"paritat."
+
+#: ../../source/electronic-error-detection.rst:63
+msgid "Existen varias versiones:"
+msgstr "Hi ha diverses versions:"
+
+#: ../../source/electronic-error-detection.rst:65
+msgid ""
+"Sumar el valor de todos los bytes de información transmitidos. Es la versión"
+" más simple de realizar y la menos capaz de detectar errores."
+msgstr ""
+"Afegiu el valor de tots els bytes d'informació transmesa. És la versió més "
+"senzilla de la realització i la menys capaç de detectar errors."
+
+#: ../../source/electronic-error-detection.rst:69
+msgid ""
+"`Códigos de redundancia cíclica o CRC "
+"<https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica>`__."
+" Son códigos que suelen tener una longitud de 16 ó 32 bits y que son capaces"
+" de detectar más errores que una simple suma. Como contrapartida, su cálculo"
+" es más complejo."
+msgstr ""
+"`Codis de redundància cíclica o CRC "
+"<https://es.wikipedia.org/wiki/verificaci%C3%B3n_de_redundancia_c%C3%Adclica>`"
+" __. Són codis que solen tenir una longitud de 16 o 32 bits i que són "
+"capaços de detectar més errors que una suma senzilla. Com a contrapartida, "
+"el seu càlcul és més complex."
+
+#: ../../source/electronic-error-detection.rst:75
+msgid ""
+"Funciones hash avanzadas, como la `SHA "
+"<https://es.wikipedia.org/wiki/Secure_Hash_Algorithm>`__. Son códigos que "
+"suelen tener una longitud de más de 128 bits (16 bytes) y muy costosos de "
+"calcular. Por otro lado son los más potentes y sirven para detectar errores "
+"aleatorios y también errores introducidos a propósito por un "
+"ciberdelincuente."
+msgstr ""
+"Funcions de hash avançades, com ara el `sha "
+"<https://es.wikipedia.org/wiki/secure_hash_algorithm>`__. Són codis que "
+"solen tenir una longitud de més de 128 bits (16 bytes) i molt car de "
+"calcular. D'altra banda, són els més potents i serveixen per detectar errors"
+" aleatoris i també errors introduïts per una ciberdelinqüència."
+
+#: ../../source/electronic-error-detection.rst:83
+msgid ""
+"Estas sumas de verificación son muy utilizadas en líneas de comunicación a "
+"distancia y en soportes digitales tales como el CD-ROM o las memorias USB."
+msgstr ""
+"Aquestes sumes de verificació s’utilitzen àmpliament en línies de "
+"comunicació remotes i suports digitals com CD-ROM o Memories USB."
+
+#: ../../source/electronic-error-detection.rst:89
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-error-detection.rst:91
+msgid "¿Para qué sirve la detección de errores?"
+msgstr "Per a què serveix els errors?"
+
+#: ../../source/electronic-error-detection.rst:93
+msgid ""
+"¿Cómo se denomina la información extra añadida para detectar errores de "
+"transmisión de datos?"
+msgstr ""
+"Quina és la informació addicional afegida per detectar errors de transmissió"
+" de dades?"
+
+#: ../../source/electronic-error-detection.rst:96
+msgid "De los siguientes datos recibidos ¿cuáles tienen errores y por qué?"
+msgstr "De les dades següents rebudes, quines tenen errors i per què?"
+
+#: ../../source/electronic-error-detection.rst:103
+msgid ""
+"Escribe el bit de paridad correspondiente a los siguientes números "
+"binarios::"
+msgstr ""
+"Escriviu el bit de paritat corresponent als següents números binaris ::"
+
+#: ../../source/electronic-error-detection.rst:114
+msgid "¿Qué es un código checksum?"
+msgstr "Què és un codi de comprovació?"
+
+#: ../../source/electronic-error-detection.rst:116
+msgid "Enumera tres tipos de checksum distintos."
+msgstr "Enumereu tres tipus diferents de comprovació."
+
+#: ../../source/electronic-error-detection.rst:118
+msgid "Escribe dos ejemplos de sistemas que utilicen los códigos anteriores."
+msgstr "Escriviu dos exemples de sistemes que utilitzen els codis anteriors."

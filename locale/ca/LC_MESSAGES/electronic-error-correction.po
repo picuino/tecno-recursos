@@ -1,0 +1,317 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-03-20 18:45+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-error-correction.rst:9
+msgid "Corrección de de errores"
+msgstr "Correcció d'errors"
+
+#: ../../source/electronic-error-correction.rst:10
+msgid ""
+"Los bits extra de redundancia no solo pueden detectar errores de "
+"transmisión, también son capaces de corregir los errores detectados."
+msgstr ""
+"Els bits de redundància addicionals no només poden detectar errors de "
+"transmissió, sinó que també són capaços de corregir els errors detectats."
+
+#: ../../source/electronic-error-correction.rst:13
+msgid ""
+"Hay muchos sistemas que solo pueden transmitir la información una vez, no "
+"permiten volver a pedir los datos correctos al emisor (televisión digital "
+"terrestre, televisión por satélite, etc.). Los medios físicos tales como el "
+"CD-ROM, las memorias USB o los Discos SSD tienen el mismo problema, una vez "
+"que se corrompe la información no se puede volver a solicitar al emisor."
+msgstr ""
+"Hi ha molts sistemes que només poden transmetre la informació una vegada, no"
+" permeten tornar a sol·licitar les dades adequades (televisió digital "
+"terrestre, televisió per satèl·lit, etc.). Els mitjans físics com el CD-ROM,"
+" els records USB o els discos SSD tenen el mateix problema, un cop "
+"corrompuda la informació, l’emissor no es pot tornar a sol·licitar."
+
+#: ../../source/electronic-error-correction.rst:20
+msgid ""
+"En todos estos casos no es suficiente con detectar los errores, también es "
+"necesario poder corregirlos a partir de la información recibida."
+msgstr ""
+"En tots aquests casos no n’hi ha prou amb detectar errors, també cal "
+"corregir -los a partir de la informació rebuda."
+
+#: ../../source/electronic-error-correction.rst:25
+msgid "Corrección de errores con bits de paridad"
+msgstr "Correcció d'errors amb bits de paritat"
+
+#: ../../source/electronic-error-correction.rst:26
+msgid ""
+"El ejemplo más sencillo de un código que corrige errores es un sistema con "
+"doble paridad, horizontal y vertical. Este ejemplo no se utiliza en la "
+"práctica para corregir errores, pero es mucho más sencillo de visualizar que"
+" otros códigos más capaces y mucho más complejos."
+msgstr ""
+"L’exemple més senzill d’un codi que corregeix els errors és un sistema amb "
+"doble paritat, horitzontal i vertical. Aquest exemple no s’utilitza a la "
+"pràctica per corregir els errors, però és molt més fàcil visualitzar que "
+"altres codis més capaços i molt més complexos."
+
+#: ../../source/electronic-error-correction.rst:32
+msgid "Comenzamos por una tabla con 16 bits de información (4x4):"
+msgstr "Comencem amb una taula amb 16 bits d’informació (4x4):"
+
+#: ../../source/electronic-error-correction.rst:39
+msgid "16 bits de datos."
+msgstr "16 bits de dades."
+
+#: ../../source/electronic-error-correction.rst:41
+msgid ""
+"A esta tabla le añadimos 4 bits de paridad en horizontal y otros 4 bits de "
+"paridad en vertical:"
+msgstr ""
+"A aquesta taula afegim 4 bits de paritat horitzontalment i altres 4 bits de "
+"paritat vertical:"
+
+#: ../../source/electronic-error-correction.rst:49
+
+#: ../../source/electronic-error-correction.rst:103
+msgid "16 bits de datos rodeados de 8 bits de paridad, sin errores."
+msgstr "16 bits de dades envoltats de 8 bits de paritat, sense errors."
+
+#: ../../source/electronic-error-correction.rst:51
+msgid ""
+"Una vez formada la tabla la podemos transmitir y con la información "
+"redundante podremos detectar y corregir cualquier error de 1 solo bit."
+msgstr ""
+"Un cop formada la taula, podem transmetre -la i amb la informació redundant "
+"podem detectar i corregir qualsevol error d’un sol bit."
+
+#: ../../source/electronic-error-correction.rst:54
+msgid ""
+"Si se produce un error en un bit de los datos, la información de paridad no "
+"será correcta en un bit de paridad de fila y tampoco será correcta en un bit"
+" de paridad de columna:"
+msgstr ""
+"Si es produeix un error en un bit de dades, la informació de paritat no serà"
+" correcta sobre un bit de paritat de fila i no serà correcta en un bit de "
+"paritat de la columna:"
+
+#: ../../source/electronic-error-correction.rst:63
+msgid ""
+"16 bits de datos con un error en un bit, rodeados de 8 bits de paridad de "
+"los cuales 2 no concuerdan con los datos."
+msgstr ""
+"16 bits de dades amb un error en una mica, envoltats de 8 bits de paritat "
+"dels quals 2 no estan d’acord amb les dades."
+
+#: ../../source/electronic-error-correction.rst:67
+msgid ""
+"Eso indica que el bit correspondiente a esa fila y a esa columna ha "
+"cambiado:"
+msgstr ""
+"Això indica que el bit correspon a aquesta fila i aquesta columna ha "
+"canviat:"
+
+#: ../../source/electronic-error-correction.rst:75
+msgid "Bits de paridad indicando error en amarillo, bit erróneo en naranja."
+msgstr ""
+"Bits de paritat que indiquen un error groc, una mica errònia en taronja."
+
+#: ../../source/electronic-error-correction.rst:77
+msgid ""
+"Con esa información podemos corregir el bit erróneo para volver a la tabla "
+"original."
+msgstr ""
+"Amb aquesta informació, podem corregir el bit erroni per tornar a la taula "
+"original."
+
+#: ../../source/electronic-error-correction.rst:81
+msgid ""
+"Por otro lado, si lo que cambia por error es un bit de paridad, solo ese bit"
+" será el que no concuerda con la tabla. Todos los demás bits de paridad van "
+"a ser correctos, lo cual indica que es el bit solitario el que ha cambiado:"
+msgstr ""
+"D'altra banda, si el que canvia per error és una mica de paritat, només "
+"aquest bit serà el que no coincideix amb la taula. La resta de bits de "
+"paritat seran correctes, cosa que indica que és el bit solitari que ha "
+"canviat:"
+
+#: ../../source/electronic-error-correction.rst:92
+msgid ""
+"Bit de paridad erróneo en amarillo. Es el único bit que no concuerda con los"
+" demás."
+msgstr ""
+"Paritat errònia bit de groc. És l’únic que no està d’acord amb els altres."
+
+#: ../../source/electronic-error-correction.rst:95
+msgid ""
+"Con esa información podemos corregir el bit de paridad erróneo para volver a"
+" la tabla original:"
+msgstr ""
+"Amb aquesta informació, podem corregir el bit de paritat errònia per tornar "
+"a la taula original:"
+
+#: ../../source/electronic-error-correction.rst:107
+msgid "Códigos de corrección de errores"
+msgstr "Codis de correcció d'errors"
+
+#: ../../source/electronic-error-correction.rst:108
+msgid ""
+"Los `códigos de corrección de errores <https://es.wikipedia.org/wiki/FEC>`__"
+" utilizados en la práctica son capaces de corregir ráfagas de varios bits "
+"erróneos en un mismo bloque de información."
+msgstr ""
+"Els codis de correcció d’errors <https://es.wikipedia.org/wiki/fec>`__ "
+"utilitzats a la pràctica són capaços de corregir ràfegues de diversos bits "
+"equivocats al mateix bloc d’informació."
+
+#: ../../source/electronic-error-correction.rst:113
+msgid "Los códigos correctores más populares son los siguientes:"
+msgstr "Els codis correctius més populars són els següents:"
+
+#: ../../source/electronic-error-correction.rst:115
+msgid "`Códigos Reed-Solomon. <https://es.wikipedia.org/wiki/Reed-Solomon>`__"
+msgstr ""
+"`Codis de Reed-Solomon. <https://es.wikipedia.org/wiki/reed-solomon>`__"
+
+#: ../../source/electronic-error-correction.rst:117
+msgid ""
+"Son los más sencillos de implementar y los más antiguos. Se han empleado en "
+"CD, DVD, TV digital, ADSL, etc."
+msgstr ""
+"Són els més senzills d’implementar i els més antics. S'han utilitzat en CD, "
+"DVD, TV digital, ADSL, etc."
+
+#: ../../source/electronic-error-correction.rst:120
+msgid ""
+"`Códigos Convolucionales. "
+"<https://es.wikipedia.org/wiki/C%C3%B3digo_convolucional>`__"
+msgstr ""
+"`Codis Convoluccionals. "
+"<https://es.wikipedia.org/wiki/c%C3%B3digo_convolucion"
+
+#: ../../source/electronic-error-correction.rst:122
+msgid ""
+"Empleados en redes de telefonía móvil GSM, redes WiFi antiguas o en sondas "
+"espaciales."
+msgstr ""
+"Empleats en xarxes telefòniques mòbils GSM, xarxes antigues de WI -FI o en "
+"sondes espacials."
+
+#: ../../source/electronic-error-correction.rst:125
+msgid "`Turbo Códigos. <https://es.wikipedia.org/wiki/Turbo_c%C3%B3digos>`__"
+msgstr "`Codis turbo. <https://es.wikipedia.org/wiki/urbo_c%C3%B3digos>`__"
+
+#: ../../source/electronic-error-correction.rst:127
+msgid ""
+"Empleados en comunicaciones por satélite y en redes de telefonía móvil 3G. "
+"Tienen la desventaja de estar patentados."
+msgstr ""
+"Els empleats en comunicacions per satèl·lit i xarxes de telefonia mòbil 3G. "
+"Tenen el desavantatge de ser patentats."
+
+#: ../../source/electronic-error-correction.rst:130
+msgid "`Códigos LDPC o Gallager. <https://es.wikipedia.org/wiki/LDPC>`__"
+msgstr "`LDPC o codis Gallager. <https://es.wikipedia.org/wiki/ldpc>`__"
+
+#: ../../source/electronic-error-correction.rst:132
+msgid ""
+"Son los más recientes. Se utilizan en las redes WiFi más modernas, en "
+"telefonía móvil 5G, en las redes Ethernet cableadas de mayor velocidad y en "
+"las últimas versiones de TV Digital."
+msgstr ""
+"Són els més recents. S’utilitzen a les xarxes Wi -Fi més modernes, en "
+"telefonia mòbil 5G, a les xarxes Ethernet es cauen més ràpidament i en les "
+"darreres versions de la televisió digital."
+
+#: ../../source/electronic-error-correction.rst:139
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-error-correction.rst:141
+msgid "Escribe tu nombre en una hoja de papel."
+msgstr "Escriviu el vostre nom en un full de paper."
+
+#: ../../source/electronic-error-correction.rst:143
+msgid ""
+"En la hoja, dibuja y rellena la siguiente tabla de 4x4 bits con datos "
+"binarios (cero o uno) aleatorios, dejando un hueco en uno de los cuadrados."
+msgstr ""
+"Al full, dibuixa i empleneu la taula de bits 4x4 següents amb dades binàries"
+" (zero o un) aleatòries, deixant un forat en un dels quadrats."
+
+#: ../../source/electronic-error-correction.rst:147
+msgid ""
+"Rellena a continuación los bits de paridad de cada fila y de cada columna "
+"teniendo en cuenta que en el hueco dejado libre debería haber un uno (1)."
+msgstr ""
+"Ompliu per sota dels bits de paritat de cada fila i cada columna tenint en "
+"compte que, a la bretxa lliure, hi hauria d’haver -ne un (1)."
+
+#: ../../source/electronic-error-correction.rst:151
+msgid ""
+"Escribe ahora un cero (0) en el hueco dejado antes. Este será el error de "
+"transmisión."
+msgstr ""
+"Escriviu un zero (0) al forat que queda abans. Aquest serà l’error de "
+"transmissió."
+
+#: ../../source/electronic-error-correction.rst:154
+
+#: ../../source/electronic-error-correction.rst:170
+msgid ""
+"Intercambia la tabla con un compañero de clase para que cada uno indique con"
+" un círculo dónde está el error en la tabla del otro."
+msgstr ""
+"Intercanvi la taula amb un company de classe de manera que cadascú indica "
+"amb un cercle on es troba l'error a l'altra taula."
+
+#: ../../source/electronic-error-correction.rst:163
+msgid ""
+"Dibuja y rellena la siguiente tabla de 4x4 bits con datos binarios "
+"aleatorios."
+msgstr ""
+"Dibuixeu i empleneu la taula de bits 4x4 següents amb dades binàries "
+"aleatòries."
+
+#: ../../source/electronic-error-correction.rst:166
+msgid ""
+"Rellena a continuación los bits de paridad de cada fila y de cada columna "
+"teniendo en cuenta que debes escribir uno al revés de lo que vale en "
+"realidad (error en un bit de paridad)."
+msgstr ""
+"Ompliu per sota dels bits de paritat de cada fila i cada columna tenint en "
+"compte que heu d’escriure un viceversa del que val la pena (error en un bit "
+"de paritat)."
+
+#: ../../source/electronic-error-correction.rst:179
+msgid ""
+"Los códigos de corrección de errores usados en aplicaciones reales ¿cuántos "
+"bits erróneos pueden corregir en cada bloque de datos? Investiga en Internet"
+" y explica la respuesta."
+msgstr ""
+"Els codis de correcció d’errors utilitzats en aplicacions reals. Quants bits"
+" errònics poden corregir a cada bloc de dades? Investiga a Internet i "
+"explica la resposta."
+
+#: ../../source/electronic-error-correction.rst:183
+msgid ""
+"Escribe el nombre de tres códigos de corrección de errores usados en "
+"sistemas reales y escribe dos aplicaciones de cada uno de ellos."
+msgstr ""
+"Escriviu el nom de tres codis de correcció d’errors utilitzats en sistemes "
+"reals i escriviu dues aplicacions de cadascuna d’elles."

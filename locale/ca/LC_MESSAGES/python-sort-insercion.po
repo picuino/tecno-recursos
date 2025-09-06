@@ -1,0 +1,181 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/python-sort-insercion.rst:9
+msgid "Ordenación por inserción"
+msgstr "Gestió d'inserció"
+
+#: ../../source/python-sort-insercion.rst:10
+msgid ""
+"Este algoritmo de ordenación tiene la ventaja de que permite que la lista se"
+" modifique mientras se está produciendo la ordenación. La parte de la lista "
+"no ordenada puede crecer añadiendo elementos y la parte de la lista que ya "
+"está ordenada puede disminuir eliminando elementos. Esto hace que sea un "
+"algoritmo flexible."
+msgstr ""
+"Aquest algorisme de gestió té l’avantatge que permet a la llista modificar "
+"mentre s’està produint l’ordenació. La part de la llista no ordenada pot "
+"créixer afegint elements i la part de la llista que ja està ordenada pot "
+"disminuir eliminant elements. Això el converteix en un algorisme flexible."
+
+#: ../../source/python-sort-insercion.rst:16
+msgid ""
+"Este algoritmo se suele utilizar cuando el número de elementos a ordenar es "
+"pequeño (menos de 100 elementos). Para conjuntos de datos mayores hay "
+"algoritmos más rápidos y eficientes, como la ordenación por mezcla, por "
+"montículo o la ordenación rápida."
+msgstr ""
+"Aquest algorisme s’utilitza normalment quan el nombre d’elements que s’han "
+"d’ordenar és petit (menys de 100 elements). Per a conjunts de dades més "
+"grans, hi ha algoritmes més ràpids i eficients, com ara la barreja, per "
+"Mound o Fast Management."
+
+#: ../../source/python-sort-insercion.rst:23
+msgid "Explicación del algoritmo"
+msgstr "Explicació de l'algoritme"
+
+#: ../../source/python-sort-insercion.rst:24
+msgid ""
+"Al comienzo vamos a suponer que el primer elemento de la lista ya está "
+"ordenado, mientras que todos los demás están desordenados."
+msgstr ""
+"Al principi, suposarem que el primer element de la llista ja està ordenat, "
+"mentre que tots els altres són desordenats."
+
+#: ../../source/python-sort-insercion.rst:27
+msgid ""
+"A continuación tomaremos el segundo elemento de la lista. Si este elemento "
+"es menor que el primer elemento de la lista, cambiaremos sus posiciones. En "
+"este punto ya tenemos dos elementos de la lista ordenados."
+msgstr ""
+"A continuació, agafarem el segon element de la llista. Si aquest element és "
+"inferior al primer element de la llista, canviarem les vostres posicions. En"
+" aquest moment ja tenim dos elements de la llista ordenats."
+
+#: ../../source/python-sort-insercion.rst:31
+msgid ""
+"Continuaremos con el tercer elemento de la lista. Mientras sea menor le "
+"iremos intercambiando con el segundo y con el primer elemento de la lista, "
+"hasta que quede ordenado."
+msgstr ""
+"Continuarem amb el tercer element de la llista. Com més baix intercanviarem "
+"amb el segon i amb el primer element de la llista, fins que s’ordeni."
+
+#: ../../source/python-sort-insercion.rst:35
+msgid ""
+"El algoritmo continúa ordenando el resto de los elementos uno a uno hasta "
+"que coloca el último elemento de la lista en su sitio, momento en el que la "
+"ordenación de la lista ha terminado."
+msgstr ""
+"L’algoritme continua ordenant la resta d’elements un per un fins que situi "
+"l’últim element de la llista al seu lloc, moment en què s’acaba l’ordenació "
+"de la llista."
+
+#: ../../source/python-sort-insercion.rst:41
+msgid "Programa de ordenación"
+msgstr "Programa de planificació"
+
+#: ../../source/python-sort-insercion.rst:42
+msgid ""
+"El programa completo de ordenación de elementos de una lista según el "
+"algoritmo de inserción será el siguiente::"
+msgstr ""
+"El programa complet de gestió de programes segons l'algoritme d'inserció "
+"serà el següent ::"
+
+#: ../../source/python-sort-insercion.rst:75
+
+#: ../../source/python-sort-insercion.rst:116
+msgid "Salida::"
+msgstr "Sortida ::"
+
+#: ../../source/python-sort-insercion.rst:81
+msgid "Inserción binaria"
+msgstr "Inserció binària"
+
+#: ../../source/python-sort-insercion.rst:82
+msgid ""
+"El algoritmo de inserción permite una mejora que consiste en realizar la "
+"búsqueda del lugar de inserción correcto mediante búsqueda binaria, que ya "
+"se estudió en una unidad anterior."
+msgstr ""
+"L’algoritme d’inserció permet una millora que consisteix a cercar el lloc "
+"d’inserció correcte per cerca binària, que ja s’ha estudiat en una unitat "
+"anterior."
+
+#: ../../source/python-sort-insercion.rst:86
+msgid "El algoritmo mejorado de inserción binaria es el siguiente::"
+msgstr "L’algoritme d’inserció binari millorat és el següent ::"
+
+#: ../../source/python-sort-insercion.rst:122
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/python-sort-insercion.rst:124
+msgid ""
+"Escribe una función que ordene una lista de tres elementos por el algoritmo "
+"de inserción, sin utilizar bucles de ningún tipo, solo con sentencias "
+"``if``."
+msgstr ""
+"Escriviu una funció que ordeni una llista de tres elements per l'algoritme "
+"d'inserció, sense utilitzar bucles de cap tipus, només amb frases `` si ''."
+
+#: ../../source/python-sort-insercion.rst:128
+msgid ""
+"Llama a la función con el siguiente código para comprobar que la función "
+"``ordena()`` funciona correctamente::"
+msgstr ""
+"Truqueu a la funció amb el codi següent per verificar que el `` ordre () `` "
+"funciona correctament ::"
+
+#: ../../source/python-sort-insercion.rst:147
+msgid ""
+"Reescribe el programa de ordenación para que ordene los elementos en sentido"
+" contrario, de mayor a menor. Deberás cambiar los nombres de las funciones y"
+" de las variables para que se adapten a la nueva función que estén "
+"realizando."
+msgstr ""
+"Reescriviu el programa de gestió per ordenar els elements en sentit "
+"contrari, de més alt a més baix. Heu de canviar els noms de les funcions i "
+"variables per adaptar -se a la nova funció que estan fent."
+
+#: ../../source/python-sort-insercion.rst:153
+msgid ""
+"Reescribe el programa de ordenación para que realice la ordenación de la "
+"lista en una sola función, sin separar el código en dos funciones distintas."
+" Recuerda cambiar el nombre de las variables de la función "
+"``inserta_elemento`` para que no sean los mismos."
+msgstr ""
+"Reescriviu el programa de gestió per dur a terme la comanda de la llista en "
+"una sola funció, sense separar el codi en dues funcions diferents. No "
+"oblideu canviar el nom de les variables de la `` inserir_emento`` `` de "
+"manera que no siguin les mateixes."
+
+#: ../../source/python-sort-insercion.rst:160
+msgid ""
+"Escribe un algoritmo de ordenación por inserción que ordene las cadenas de "
+"texto por longitud de cadena, de manera que al comienzo se coloquen las "
+"palabras más cortas y al final las más largas::"
+msgstr ""
+"Escriviu un algorisme de gestió d’inserció que ordena les cadenes de text "
+"per longitud de la cadena, de manera que al principi es col·loquen les "
+"paraules més curtes i al final el més llarg ::"

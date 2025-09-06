@@ -1,0 +1,189 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/python-textos-indices.rst:9
+msgid "Índices de cadenas de texto"
+msgstr "Índexs de la cadena de text"
+
+#: ../../source/python-textos-indices.rst:10
+msgid ""
+"Las cadenas de texto están formadas por caracteres individuales que se "
+"pueden obtener con los índices. Un índice de cadena de texto es un número "
+"dentro de dos corchetes ``[]`` de apertura y de cierre::"
+msgstr ""
+"Les cadenes de text estan formades per caràcters individuals que es poden "
+"obtenir amb els índexs. Un índex de cadena de text és un número dins de dos "
+"claudàtors `` [] `` obertura i tancament ::"
+
+#: ../../source/python-textos-indices.rst:24
+msgid ""
+"El primer carácter 'P' tiene el índice cero 'lang[0]'. Esta es una "
+"convención que utilizan muchos otros lenguajes de programación como el "
+"lenguaje C o el lenguaje JavaScript. La primera vez que se aprende no es "
+"sencillo acostumbrarse, pero es necesario para poder escribir código "
+"correcto."
+msgstr ""
+"El primer personatge \"P\" té l'índex zero \"Lang [0]\". Es tracta d’una "
+"convenció utilitzada per molts altres llenguatges de programació com el "
+"llenguatge CNAASCRIPT. La primera vegada que apreneu no és fàcil d’utilitzar"
+" -se, però cal escriure codi correcte."
+
+#: ../../source/python-textos-indices.rst:30
+msgid "Los índices negativos comienzan por el final de la cadena de texto::"
+msgstr "Els índexs negatius comencen al final de la cadena de text ::"
+
+#: ../../source/python-textos-indices.rst:41
+msgid "Los índices fuera de rango producen un error en el programa::"
+msgstr "Els índexs fora de rang produeixen un error al programa ::"
+
+#: ../../source/python-textos-indices.rst:51
+msgid "Rebanadas o slicers"
+msgstr "Llesques o llesques"
+
+#: ../../source/python-textos-indices.rst:52
+msgid ""
+"Los índices se pueden escribir para que obtengan varios caracteres de una "
+"cadena de texto, utilizando el carácter dos puntos ':' para separar el "
+"comienzo del final en un índice::"
+msgstr ""
+"Els índexs es poden escriure per obtenir diversos caràcters d'una cadena de "
+"text, utilitzant els dos punts del personatge \":\" Per separar el "
+"començament del final en un índex ::"
+
+#: ../../source/python-textos-indices.rst:66
+msgid ""
+"El siguiente esquema puede ayudar a entender mejor cómo funcionan los "
+"índices y las rebanadas::"
+msgstr ""
+"El següent esquema pot ajudar a comprendre millor el funcionament dels "
+"índexs i les llesques ::"
+
+#: ../../source/python-textos-indices.rst:75
+msgid "Un índice tomará la letra de su derecha."
+msgstr "Un índex agafarà la carta a la vostra dreta."
+
+#: ../../source/python-textos-indices.rst:77
+msgid ""
+"Una rebanada tomara los caracteres que hay entre los dos números. Por "
+"ejemplo, [1:-2] tomará todos los caracteres que se encuentran entre los "
+"índices 1 y -2 'yth' ::"
+msgstr ""
+"Una llesca portarà els caràcters entre els dos números. Per exemple, [1: -2]"
+" prendrà tots els caràcters entre els índexs 1 i -2 'yth' ::"
+
+#: ../../source/python-textos-indices.rst:86
+msgid ""
+"Los números de las rebanadas también se pueden dejar sin escribir y esto es "
+"equivalente a decir que tome todos los caracteres desde el comienzo o que "
+"tome todos los caracteres hasta el final de la cadena::"
+msgstr ""
+"El nombre de les llesques també es pot deixar sense escriure i això equival "
+"a dir que agafeu tots els personatges des del principi o porteu tots els "
+"personatges fins al final de la cadena ::"
+
+#: ../../source/python-textos-indices.rst:98
+msgid ""
+"Las rebanadas con índices fuera de rango no producen error, solo devuelven "
+"una cadena vacía::"
+msgstr ""
+"Les rodanxes amb els índexs de gamma fora no produeixen error, només "
+"retornen una cadena buida ::"
+
+#: ../../source/python-textos-indices.rst:107
+msgid "Bucles con cadenas de texto"
+msgstr "Bucles amb cadenes de text"
+
+#: ../../source/python-textos-indices.rst:108
+msgid ""
+"Un bucle ``for`` puede ir tomando los caracteres de una cadena de texto uno "
+"a uno::"
+msgstr ""
+"Un `` per '' es pot treure els caràcters d'una cadena de text un per un ::"
+
+#: ../../source/python-textos-indices.rst:129
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/python-textos-indices.rst:131
+msgid ""
+"Escribe una función que imprima uno a uno todos los caracteres de una cadena"
+" de texto que le pasemos como argumento, sin utilizar índices."
+msgstr ""
+"Escriviu una funció que imprimeixi un per un tots els caràcters d’una cadena"
+" de text que gastem com a argument, sense utilitzar índexs."
+
+#: ../../source/python-textos-indices.rst:135
+
+#: ../../source/python-textos-indices.rst:151
+msgid "Llama a la función dos veces con dos cadenas de texto distintas."
+msgstr "Truqueu a la funció dues vegades amb dues cadenes de text diferents."
+
+#: ../../source/python-textos-indices.rst:137
+
+#: ../../source/python-textos-indices.rst:153
+msgid "Pista::"
+msgstr "Pista ::"
+
+#: ../../source/python-textos-indices.rst:147
+msgid ""
+"Escribe una función que imprima uno a uno todos los caracteres de una cadena"
+" de texto que le pasemos como argumento, utilizando índices."
+msgstr ""
+"Escriviu una funció que imprimeixi un per un tots els caràcters d’una cadena"
+" de text que gastem com a argument, mitjançant índexs."
+
+#: ../../source/python-textos-indices.rst:163
+msgid ""
+"Escribe una función que acepte como argumento una cadena de texto y que vaya"
+" imprimiendo la cadena poco a poco imprimiendo al principio solo un "
+"carácter, luego dos caracteres, así hasta terminar imprimiendo todos los "
+"caracteres."
+msgstr ""
+"Escriviu una funció que accepti una cadena de text com a argument i que la "
+"cadena està empresonant gradualment al principi només un personatge, després"
+" dos caràcters, de manera que fins que no s’imprimeixin tots els caràcters."
+
+#: ../../source/python-textos-indices.rst:168
+msgid "Ejemplo::"
+msgstr "Exemple ::"
+
+#: ../../source/python-textos-indices.rst:183
+msgid ""
+"Modifica la función anterior para que imprima la cadena de texto comenzando "
+"desde la derecha, carácter por carácter, hasta terminar::"
+msgstr ""
+"Modifica la funció anterior de manera que imprimeix la cadena de text a "
+"partir de la dreta, caràcter per caràcter, fins que finalitzi ::"
+
+#: ../../source/python-textos-indices.rst:200
+msgid ""
+"Escribe una función que acepte como argumento una cadena de texto y que "
+"imprima grupos de cinco caracteres del texto desde el comienzo de la cadena "
+"hasta el final::"
+msgstr ""
+"Escriviu una funció que accepti com a argument una cadena de text i que "
+"imprimeix grups de cinc caràcters del text des del començament de la cadena "
+"fins al final ::"
+
+#: ../../source/python-textos-indices.rst:230
+msgid "Pista: añade espacios al comienzo y al final de la cadena de texto."
+msgstr "Pista: afegiu espais al començament i al final de la cadena de text."

@@ -1,0 +1,191 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-operational-noninverting.rst:9
+msgid "El amplificador no inversor"
+msgstr "L'amplificador no inversor"
+
+#: ../../source/electronic-operational-noninverting.rst:10
+msgid ""
+"En este circuito el amplificador operacional amplifica la señal de entrada y"
+" se obtiene una salida de señal sin invertir."
+msgstr ""
+"En aquest circuit, l'amplificador operatiu amplifica el senyal d'entrada i "
+"s'obté una sortida de senyal sense invertir."
+
+#: ../../source/electronic-operational-noninverting.rst:13
+msgid ""
+"El amplificador no inversor tiene realimentación negativa porque la tensión "
+"de salida produce una corriente que llega al terminal de entrada negativo a "
+"través de la resistencia R2."
+msgstr ""
+"L’amplificador no d’investiment té una retroalimentació negativa perquè la "
+"tensió de sortida produeix un corrent que arriba al terminal d’entrada "
+"negativa mitjançant la resistència R2."
+
+#: ../../source/electronic-operational-noninverting.rst:22
+msgid "Esquema del amplificador operacional no inversor."
+msgstr "Esquema d'amplificadors operatius no inversors."
+
+#: ../../source/electronic-operational-noninverting.rst:26
+msgid "Cálculo de ganancia"
+msgstr "Guanyar càlcul"
+
+#: ../../source/electronic-operational-noninverting.rst:27
+msgid "La fórmula de la ganancia de este amplificador es la siguiente:"
+msgstr "La fórmula de guany d’aquest amplificador és la següent:"
+
+#: ../../source/electronic-operational-noninverting.rst:29
+msgid "Ganancia = \\cfrac{V_{out}}{V_{in}} = 1 + \\cfrac{R_2}{R_1}"
+msgstr "Profit = \\cfrac{v_ {out}} {v_ {a}} = 1 + \\cfrac{r_2} {r_1}"
+
+#: ../../source/electronic-operational-noninverting.rst:33
+msgid ""
+"Como mínimo la ganancia valdrá la unidad. Esto se da en el caso de que la "
+"resistencia R1 sea muy grande y la resistencia R2 muy pequeña. En el límite "
+"nos encontramos con la ganancia unidad del seguidor de tensión, que tiene "
+"una resistencia R1 infinita y R2 igual a cero."
+msgstr ""
+"Almenys el guany valdrà la unitat. Això es produeix en el cas que la "
+"resistència R1 és molt gran i molt petita resistència R2. En el límit trobem"
+" el guany de la unitat del seguidor de tensió, que té una resistència R1 "
+"infinita i R2 igual a zero."
+
+#: ../../source/electronic-operational-noninverting.rst:40
+msgid "Resistencia de entrada y de salida"
+msgstr "Resistència a l’entrada i a la sortida"
+
+#: ../../source/electronic-operational-noninverting.rst:41
+msgid ""
+"La resistencia de entrada será igual a la resistencia de entrada ``+`` del "
+"amplificador operacional, que idealmente es infinita. En la práctica tiene "
+"valores mayores de 100 millones de ohmios. Esta gran resistencia de entrada "
+"es una ventaja en comparación con el esquema inversor, que tiene una "
+"resistencia de entrada relativamente baja que absorbe corriente de la señal "
+"de entrada."
+msgstr ""
+"La resistència a l’entrada serà igual a la resistència a l’entrada ``+`` de "
+"l'amplificador operatiu, idealment infinit. A la pràctica té valors "
+"superiors a 100 milions d’Ohms. Aquesta gran resistència a l’entrada és un "
+"avantatge en comparació amb l’esquema d’inversions, que té una resistència "
+"d’entrada relativament baixa que absorbeix el corrent del senyal d’entrada."
+
+#: ../../source/electronic-operational-noninverting.rst:48
+msgid ""
+"La resistencia de salida será muy baja, idealmente cero, porque la salida "
+"está directamente conectada a la salida del amplificador operacional."
+msgstr ""
+"La resistència a la sortida serà molt baixa, idealment zero, perquè la "
+"sortida està directament connectada a la sortida de l'amplificador operatiu."
+
+#: ../../source/electronic-operational-noninverting.rst:53
+msgid "Simulación"
+msgstr "Simulació"
+
+#: ../../source/electronic-operational-noninverting.rst:54
+msgid ""
+"En la siguiente simulación podemos ver un amplificador inversor de ganancia "
+"3 que amplifica una señal senoidal de entrada."
+msgstr ""
+"A la simulació següent podem veure un amplificador d’inversor de guany 3 que"
+" amplifica un senyal d’entrada sinusoïdal."
+
+#: ../../source/electronic-operational-noninverting.rst:65
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-operational-noninverting.rst:67
+msgid ""
+"Dibuja el esquema simplificado de un amplificador operacional no inversor."
+msgstr ""
+"Dibuixa l’esquema simplificat d’un amplificador operatiu no d’investador."
+
+#: ../../source/electronic-operational-noninverting.rst:70
+msgid ""
+"Escribe la fórmula de la ganancia del amplificador operacional no inversor "
+"anterior."
+msgstr ""
+"Escriviu la fórmula de guany de l'amplificador operatiu de no inversor "
+"anterior."
+
+#: ../../source/electronic-operational-noninverting.rst:73
+msgid ""
+"¿Qué tipo de realimentación tiene este circuito? ¿Qué les ocurre a las "
+"tensiones de entrada con ese tipo de realimentación?"
+msgstr ""
+"Quin tipus de comentaris té aquest circuit? Què passa amb les tensions "
+"d’entrada amb aquest tipus de comentaris?"
+
+#: ../../source/electronic-operational-noninverting.rst:77
+msgid ""
+"Dibuja dos gráficas que representen la tensión de entrada y la tensión de "
+"salida del amplificador no inversor simulado."
+msgstr ""
+"Dibuixa dos gràfics que representen la tensió d’entrada i la tensió de "
+"sortida de l’amplificador simulat de no inversor."
+
+#: ../../source/electronic-operational-noninverting.rst:80
+msgid ""
+"¿Qué tensiones de pico tienen cada una de las dos gráficas representadas? "
+"Puedes parar la simulación y ampliar a pantalla completa para medir con más "
+"precisión."
+msgstr ""
+"Quines tensions màximes tenen cadascun dels dos gràfics? Podeu aturar la "
+"simulació i ampliar la pantalla completa per mesurar més precisió."
+
+#: ../../source/electronic-operational-noninverting.rst:85
+msgid ""
+"Calcula las resistencias necesarias para hacer que un amplificador "
+"operacional no inversor tenga una ganancia de tensión igual a 9."
+msgstr ""
+"Calculeu les resistències necessàries per fer que un amplificador operatiu "
+"no inversor tingui un guany de tensió igual a 9."
+
+#: ../../source/electronic-operational-noninverting.rst:88
+msgid ""
+"Dibuja un esquema realista de este amplificador, con una alimentación de "
+"+-15 voltios y una entrada de tensión triangular de 1 voltio de pico."
+msgstr ""
+"Dibuixa un esquema realista d’aquest amplificador, amb un aliment de +-15 "
+"volts i una entrada de tensió triangular d’1 volt màxim."
+
+#: ../../source/electronic-operational-noninverting.rst:91
+msgid ""
+"Con ayuda del `simulador de circuitos "
+"<../circuits/?startCircuit=empty.txt>`__ dibuja el esquema de un "
+"amplificador operacional no inversor basado en un amplificador operacional "
+"ideal que amplifique la señal de un generador de tensión de onda cuadrada "
+"con una tensión de pico de 1 voltio. La ganancia de tensión debe valer 2."
+msgstr ""
+"Amb l’ajuda del simulador de circuits <../ Circuits/? StartCircuit = "
+"buuT.txt>`__ Dibuixeu l'esquema d'un amplificador operatiu no d'investador "
+"basat en un amplificador operatiu ideal que amplifiqui el senyal d'un "
+"generador de tensió d'ona quadrada amb una tensió màxima d'1 vol. El guany "
+"de tensió ha de valer 2."
+
+#: ../../source/electronic-operational-noninverting.rst:99
+msgid ""
+"Grafica en el mismo osciloscopio la señal de tensión del generador y la "
+"señal de tensión de salida del amplificador operacional."
+msgstr ""
+"Gràfic al mateix oscil·loscopi El senyal de tensió del generador i el senyal"
+" de tensió de sortida de l'amplificador operatiu."

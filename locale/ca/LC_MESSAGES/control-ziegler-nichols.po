@@ -1,0 +1,717 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-08-29 12:40+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/control-ziegler-nichols.rst:9
+msgid "Método de Ziegler-Nichols"
+msgstr "Mètode Ziegler-Nichols"
+
+#: ../../source/control-ziegler-nichols.rst:10
+msgid ""
+"El método de Ziegler-Nichols permite ajustar o \"sintonizar\" un "
+":ref:`controlador PID <control-pid>` de forma empírica, sin necesidad de "
+"conocer las ecuaciones de la planta o del sistema controlado. Estas reglas "
+"de ajuste propuestas por Ziegler y Nichols fueron publicadas en 1942 y desde"
+" entonces es constituyen uno de los métodos de sintonización más ampliamente"
+" difundido y utilizado."
+msgstr ""
+"El mètode Ziegler-Nichols us permet ajustar o \\ \"sintonitzar en \" A: ref:"
+" `controlador PID <rotor>` `empíricament, sense conèixer les equacions de la"
+" planta ni del sistema controlat. Aquestes regles d’ajustament proposades "
+"per Ziegler i Nichols es van publicar el 1942 i des d’aleshores és un dels "
+"mètodes d’afinació més generalitzats i utilitzats."
+
+#: ../../source/control-ziegler-nichols.rst:18
+msgid ""
+"Los valores propuestos por este método intentan conseguir en el sistema "
+"realimentado una `respuesta al escalón "
+"<https://es.wikipedia.org/wiki/An%C3%A1lisis_de_la_respuesta_temporal_de_un_sistema>`__"
+" con un sobrepulso máximo del 25%, que es un valor robusto con buenas "
+"características de rapidez y estabilidad para la mayoría de los sistemas."
+msgstr ""
+"Els valors proposats per aquest mètode intenten obtenir al sistema de "
+"retroalimentació una \"resposta al pas "
+"<https://es.wikipedia.org/wiki/an%C3%A1lisis_de_la_la_phanes_temporal_de_un_system>`"
+" __ amb un superpuls màxim de 25%, que és un valor robust amb una bona "
+"característica de velocitat i estabilitat per a la major part de la major "
+"part del sistema."
+
+#: ../../source/control-ziegler-nichols.rst:24
+msgid ""
+"El método de sintonización de reguladores PID de Ziegler-Nichols permite "
+"definir las constantes o ganancias proporcional, integral y derivativa (Kp, "
+"Ki y Kd) a partir de la respuesta del sistema en lazo abierto o a partir de "
+"la respuesta del sistema en lazo cerrado. Cada uno de los dos ensayos se "
+"ajusta mejor a un tipo de sistema."
+msgstr ""
+"El mètode de sintonia dels reguladors PID de Ziegler-Nichols ens permet "
+"definir beneficis proporcionals, complets i derivats (KP, KI i KD) de la "
+"resposta del sistema de bucle obert o de la resposta del sistema de bucle "
+"tancat. Cadascun dels dos assajos s’adapta millor a un tipus de sistema."
+
+#: ../../source/control-ziegler-nichols.rst:32
+msgid "Sintonización por la respuesta al escalón"
+msgstr "Sintonització per a la resposta al pas"
+
+#: ../../source/control-ziegler-nichols.rst:34
+msgid ""
+"Este método de sintonización se adapta bien a los sistemas que son estables "
+"en lazo abierto y que presentan un tiempo de retardo desde que reciben la "
+"señal de control hasta que comienzan a actuar."
+msgstr ""
+"Aquest mètode d’afinació s’adapta bé als sistemes estables en bucle obert i "
+"que tenen un temps de retard del fet que reben el senyal de control fins que"
+" comencen a actuar."
+
+#: ../../source/control-ziegler-nichols.rst:38
+msgid ""
+"Para poder determinar la respuesta al escalón de la planta o sistema "
+"controlado, se debe retirar el controlador PID y sustituirlo por una señal "
+"escalón aplicada al accionador."
+msgstr ""
+"Per poder determinar la resposta als passos de la planta o sistema "
+"controlat, el controlador PID ha de ser eliminat i substituir -lo per un "
+"senyal de pas aplicat a l’actuador."
+
+#: ../../source/control-ziegler-nichols.rst:47
+msgid ""
+"En la siguiente figura se muestra la modificación que hay que realizar al "
+"sistema de control en lazo cerrado para convertirlo en un sistema en lazo "
+"abierto que responda a una señal escalón, retirando el controlador PID:"
+msgstr ""
+"La figura següent mostra la modificació que es realitzarà al sistema de "
+"control del bucle tancat per convertir -lo en un sistema de bucle obert que "
+"respon a un senyal de pas, eliminant el controlador PID:"
+
+#: ../../source/control-ziegler-nichols.rst:58
+#, python-format
+msgid ""
+"En la imagen siguiente se puede ver representado en rojo la entrada escalón "
+"al accionador o señal **c(t)**. En azul se representa la salida del sistema "
+"medida por el sensor o señal **h(t)**. El escalón de entrada **c(t)** debe "
+"estar entre el 10% y el 20% del valor nominal de entrada. Como puede "
+"apreciarse, la respuesta del sistema presenta un retardo, también llamado "
+"tiempo muerto, representado por T1."
+msgstr ""
+"A la imatge següent, l’entrada de pas a l’actuador o al senyal ** c (t) ** "
+"està representada en vermell. En blau es representa la sortida del sistema "
+"mesurada pel sensor o el senyal ** h (t) **. El pas d’entrada ** C (t) ** ha"
+" d’estar entre el 10% i el 20% del valor d’entrada nominal. Com es pot "
+"veure, la resposta del sistema presenta un retard, també anomenat temps "
+"mort, representat per T1."
+
+#: ../../source/control-ziegler-nichols.rst:71
+msgid ""
+"Para calcular los parámetros se comienza por trazar una línea recta tangente"
+" a la señal de salida del sistema (curva azul). Esta tangente está dibujada "
+"en la imagen con una recta a trazos."
+msgstr ""
+"Per calcular els paràmetres, comença dibuixant una línia recta tangent al "
+"senyal de sortida del sistema (corba blava). Aquesta tangent es dibuixa a la"
+" imatge amb una línia recta."
+
+#: ../../source/control-ziegler-nichols.rst:75
+msgid ""
+"El **tiempo T1** corresponde al **tiempo muerto**. Este es el tiempo que "
+"tarda el sistema en comenzar a responder. Este intervalo se mide desde que "
+"la señal escalón sube, hasta el punto de corte de la recta tangente con el "
+"valor inicial del sistema, que en este caso es el valor 25ºC"
+msgstr ""
+"El temps ** t1 ** correspon a ** temps mort **. Aquest és el temps que es "
+"necessita perquè el sistema comenci a respondre. Aquest interval es mesura "
+"ja que el senyal de pas puja, fins al punt de tall de la línia tangent amb "
+"el valor inicial del sistema, que en aquest cas és el valor de 25 ºC"
+
+#: ../../source/control-ziegler-nichols.rst:81
+msgid ""
+"El **tiempo T2** es el **tiempo de subida**. El tiempo 2 comenzará donde la "
+"línea tangente corta al valor inicial de salida (25º a los 2 segundos) y "
+"terminará donde la línea tangente corta al valor final de salida (225º a los"
+" 14 segundos)."
+msgstr ""
+"El ** Time T2 ** és el temps de pujada ** **. El temps 2 s’iniciarà on la "
+"línia tangent es redueix al valor de sortida inicial (25º a 2 segons) i "
+"acabarà on la línia tangent es redueix al valor de sortida final (225º a 14 "
+"segons)."
+
+#: ../../source/control-ziegler-nichols.rst:92
+msgid ""
+"Respuesta al escalón. El tiempo 2 comienza a continuación de T1 y termina al"
+" alcanzar la recta tangente el valor máximo de salida, en este caso 225ºC."
+msgstr ""
+"Resposta de pas. El temps 2 comença després de la T1 i s’acaba quan s’arriba"
+" al valor màxim de sortida, en aquest cas 225ºC."
+
+#: ../../source/control-ziegler-nichols.rst:96
+msgid ""
+"Además de estos dos tiempos característicos también hay que calcular la "
+"variación de la señal escalón dX y la variación de la respuesta del sistema "
+"dY."
+msgstr ""
+"A més d’aquests dos temps característics, també s’ha de calcular la variació"
+" del senyal de pas DX i la variació de la resposta del sistema DY."
+
+#: ../../source/control-ziegler-nichols.rst:100
+msgid ""
+"La **variación dX** corresponde al escalón de la señal de control. En el "
+"ejemplo que aparece en las imágenes, la variación de la señal escalón "
+"corresponde a dX = 5 voltios de señal de control c(t)."
+msgstr ""
+"La variació ** dx ** correspon als passos del senyal de control. A l'exemple"
+" que apareix a les imatges, la variació dels passos correspon a dx = 5 volts"
+" del senyal de control c (t)."
+
+#: ../../source/control-ziegler-nichols.rst:105
+msgid ""
+"La **variación dY** del sistema debido a la señal escalón que hemos "
+"introducido, corresponde en el ejemplo a dY = 200ºC medidos por el sensor "
+"h(t) en cierta cantidad de voltios."
+msgstr ""
+"La ** variació dy ** del sistema a causa del senyal de pas que hem "
+"introduït, correspon a l'exemple a dy = 200 ºC mesurat pel sensor H (t) en "
+"una certa quantitat de volts."
+
+#: ../../source/control-ziegler-nichols.rst:109
+msgid ""
+"A partir de estos valores se puede calcular la constante del sistema Ko:"
+msgstr "A partir d’aquests valors podeu calcular la constant del sistema KO:"
+
+#: ../../source/control-ziegler-nichols.rst:113
+msgid "Ko = (dX * T2) / (dY * T1)"
+msgstr "Ko = (dx * t2) / (dy * t1)"
+
+#: ../../source/control-ziegler-nichols.rst:134
+msgid ""
+"Y a partir de la constante Ko se pueden calcular los parámetros del "
+"controlador PID con acción solo proporcional (P), proporcional e integral "
+"(PI), proporcional y derivativa (PD) o proporcional integral y derivativa "
+"(PID):"
+msgstr ""
+"I des de la constant KO, els paràmetres del controlador PID amb només "
+"proporció (P), proporcional i integral (PI), proporcional i derivada (PD) o "
+"acció completa i derivada (PID) (PID):"
+
+#: ../../source/control-ziegler-nichols.rst:140
+
+#: ../../source/control-ziegler-nichols.rst:184
+
+#: ../../source/control-ziegler-nichols.rst:270
+
+#: ../../source/control-ziegler-nichols.rst:337
+msgid "Control"
+msgstr "Control"
+
+#: ../../source/control-ziegler-nichols.rst:140
+
+#: ../../source/control-ziegler-nichols.rst:184
+
+#: ../../source/control-ziegler-nichols.rst:270
+
+#: ../../source/control-ziegler-nichols.rst:337
+msgid "Kp"
+msgstr "Kp"
+
+#: ../../source/control-ziegler-nichols.rst:140
+
+#: ../../source/control-ziegler-nichols.rst:184
+
+#: ../../source/control-ziegler-nichols.rst:270
+
+#: ../../source/control-ziegler-nichols.rst:337
+msgid "Ki"
+msgstr "Ki"
+
+#: ../../source/control-ziegler-nichols.rst:140
+
+#: ../../source/control-ziegler-nichols.rst:184
+
+#: ../../source/control-ziegler-nichols.rst:270
+
+#: ../../source/control-ziegler-nichols.rst:337
+msgid "Kd"
+msgstr "Kd"
+
+#: ../../source/control-ziegler-nichols.rst:142
+
+#: ../../source/control-ziegler-nichols.rst:186
+
+#: ../../source/control-ziegler-nichols.rst:272
+
+#: ../../source/control-ziegler-nichols.rst:339
+msgid "P"
+msgstr "P"
+
+#: ../../source/control-ziegler-nichols.rst:142
+msgid "Ko"
+msgstr "Ko"
+
+#: ../../source/control-ziegler-nichols.rst:143
+
+#: ../../source/control-ziegler-nichols.rst:187
+
+#: ../../source/control-ziegler-nichols.rst:188
+
+#: ../../source/control-ziegler-nichols.rst:273
+
+#: ../../source/control-ziegler-nichols.rst:340
+
+#: ../../source/control-ziegler-nichols.rst:341
+msgid "PI"
+msgstr "Pi"
+
+#: ../../source/control-ziegler-nichols.rst:143
+msgid "0,9*Ko"
+msgstr "0,9*KO"
+
+#: ../../source/control-ziegler-nichols.rst:143
+msgid "0,27*Ko/T1"
+msgstr "0,27*KO/T1"
+
+#: ../../source/control-ziegler-nichols.rst:144
+
+#: ../../source/control-ziegler-nichols.rst:274
+msgid "PD"
+msgstr "P.S."
+
+#: ../../source/control-ziegler-nichols.rst:144
+msgid "1,6*Ko"
+msgstr "1.6*ko"
+
+#: ../../source/control-ziegler-nichols.rst:144
+
+#: ../../source/control-ziegler-nichols.rst:145
+msgid "0,60*Ko*T1"
+msgstr "0,60*ko*t1"
+
+#: ../../source/control-ziegler-nichols.rst:145
+
+#: ../../source/control-ziegler-nichols.rst:189
+
+#: ../../source/control-ziegler-nichols.rst:275
+
+#: ../../source/control-ziegler-nichols.rst:342
+msgid "PID"
+msgstr "PID"
+
+#: ../../source/control-ziegler-nichols.rst:145
+msgid "1,2*Ko"
+msgstr "1.2*ko"
+
+#: ../../source/control-ziegler-nichols.rst:145
+msgid "0,60*Ko/T1"
+msgstr "0,60*KO/T1"
+
+#: ../../source/control-ziegler-nichols.rst:148
+
+#: ../../source/control-ziegler-nichols.rst:278
+msgid ""
+"La constante Kp corresponde a la ganancia proporcional, Ki es la ganancia "
+"integral y Kd es la ganancia derivativa."
+msgstr ""
+"La constant de KP correspon al guany proporcional, Ki és el guany integral i"
+" KD és el guany derivat."
+
+#: ../../source/control-ziegler-nichols.rst:153
+msgid "Ejemplo de sintonización de PID con la respuesta al escalón"
+msgstr "Exemple d’ajustament PID amb la resposta al pas"
+
+#: ../../source/control-ziegler-nichols.rst:155
+msgid ""
+"En el ejemplo que aparece en las imágenes anteriores se ha utilizado la "
+"simulación de un horno realizada con una hoja de cálculo. También está "
+"disponible un simulador de un sistema de calefacción con dos calderas."
+msgstr ""
+"A l'exemple que apareix a les imatges anteriors, s'ha utilitzat la simulació"
+" d'un forn elaborat amb un full de càlcul. També està disponible un "
+"simulador d’un sistema de calefacció amb dues calderes."
+
+#: ../../source/control-ziegler-nichols.rst:160
+
+#: ../../source/control-ziegler-nichols.rst:288
+msgid ""
+"Simulador de control de temperatura: :download:`Thermal Control. Versión "
+"0.11 <control/_downloads/thermal-control-011.zip>`"
+msgstr ""
+"Simulador de control de la temperatura :: Descarregar: `Control temal. "
+"Versió 0.11 <Control/_Downloads/Themal-Control-011.zip> `"
+
+#: ../../source/control-ziegler-nichols.rst:163
+msgid ""
+"Para calcular los parámetros del sistema se fuerza una respuesta al escalón "
+"fijando la señal de control en 0 voltios con un escalón de 5 voltios. El "
+"sistema responde cambiando desde 25 grados centígrados (0.25V) a 225 grados "
+"centígrados (2.25V). Los tiempos son los que aparecen en las gráficas "
+"anteriores, con lo cual los valores de la curva de respuesta del sistema son"
+" los siguientes:"
+msgstr ""
+"Per calcular els paràmetres del sistema, una resposta al pas configureu el "
+"senyal de control per 0 volts amb un pas de 5 volts. El sistema respon "
+"canviant de 25 graus centígrads (0,25V) a 225 graus centígrads (2.25V). Els "
+"temps són els que apareixen als gràfics anteriors, que amb els quals els "
+"valors de la corba de resposta del sistema són els següents:"
+
+#: ../../source/control-ziegler-nichols.rst:170
+msgid "dX = 5 - 0 = 5 voltios"
+msgstr "Dx = 5 - 0 = 5 volts"
+
+#: ../../source/control-ziegler-nichols.rst:172
+msgid "dY = 2,25 - 0,25 = 2 voltios"
+msgstr "Dy = 2,25 - 0,25 = 2 volts"
+
+#: ../../source/control-ziegler-nichols.rst:174
+msgid "T1 = 2,2 - 1 = 1,2 segundos"
+msgstr "T1 = 2,2 - 1 = 1,2 segons"
+
+#: ../../source/control-ziegler-nichols.rst:176
+msgid "T2 = 13,8 - 2,2 = 11,6 segundos"
+msgstr "T2 = 13,8 - 2,2 = 11,6 segons"
+
+#: ../../source/control-ziegler-nichols.rst:178
+msgid ""
+"A partir de estos valores se pueden calcular los parámetros del regulador "
+"PID:"
+msgstr ""
+"A partir d’aquests valors podeu calcular els paràmetres del regulador PID:"
+
+#: ../../source/control-ziegler-nichols.rst:181
+msgid "Ko = (dX * T2) / (dY * T1) = (5 * 11,6) / (2 * 1,2) = 24,2"
+msgstr "Ko = (dx * t2) / (dy * t1) = (5 * 11.6) / (2 * 1.2) = 24,2"
+
+#: ../../source/control-ziegler-nichols.rst:186
+msgid "24,2"
+msgstr "24.2"
+
+#: ../../source/control-ziegler-nichols.rst:187
+msgid "21,8"
+msgstr "21,8"
+
+#: ../../source/control-ziegler-nichols.rst:187
+msgid "5,44"
+msgstr "5.44"
+
+#: ../../source/control-ziegler-nichols.rst:188
+msgid "38,7"
+msgstr "38,7"
+
+#: ../../source/control-ziegler-nichols.rst:188
+
+#: ../../source/control-ziegler-nichols.rst:189
+msgid "17,4"
+msgstr "17.4"
+
+#: ../../source/control-ziegler-nichols.rst:189
+msgid "29,0"
+msgstr "29,0"
+
+#: ../../source/control-ziegler-nichols.rst:189
+msgid "12,1"
+msgstr "12.1"
+
+#: ../../source/control-ziegler-nichols.rst:192
+msgid ""
+"Después de introducir los valores Kp, Ki y Kd en el PID se obtiene la "
+"siguiente respuesta:"
+msgstr ""
+"Després d’introduir els valors KP, KI i KD al PID, s’obté la resposta "
+"següent:"
+
+#: ../../source/control-ziegler-nichols.rst:201
+msgid ""
+"Ahora se pueden ajustar a mano los parámetros del PID para conseguir una "
+"respuesta un poco más estable. Se ha aumentado la ganancia derivativa y "
+"reducido la integral para reducir las oscilaciones:"
+msgstr ""
+"Ara els paràmetres PID es poden ajustar per obtenir una resposta "
+"lleugerament més estable. El guany derivat i reduït ha augmentat la integral"
+" per reduir les oscil·lacions:"
+
+#: ../../source/control-ziegler-nichols.rst:205
+msgid "Kp = 28"
+msgstr "KP = 28"
+
+#: ../../source/control-ziegler-nichols.rst:207
+msgid "Ki = 10"
+msgstr "Ki = 10"
+
+#: ../../source/control-ziegler-nichols.rst:209
+msgid "Kd = 21"
+msgstr "KD = 21"
+
+#: ../../source/control-ziegler-nichols.rst:211
+msgid "Como resultado, el sistema se estabiliza ahora en 12 segundos:"
+msgstr "Com a resultat, el sistema ara s’estabilitza en 12 segons:"
+
+#: ../../source/control-ziegler-nichols.rst:219
+msgid ""
+"En todos los casos se ha limitado la respuesta integral de forma que valga "
+"cero si el error es mayor de 40ºC. Este modo de funcionamiento de la "
+"ganancia integral es llamado `anti-windup "
+"<https://en.wikipedia.org/wiki/Integral_windup>`__ y sirve para evitar un "
+"sobrepico excesivo en la respuesta. Este sobrepico se produce porque el "
+"control integral aumenta mientras el accionador se encuentra saturado, de "
+"forma que acumula un valor demasiado alto y no ajustado a la respuesta real "
+"del sistema."
+msgstr ""
+"En tots els casos, la resposta integral ha estat limitada de manera que val "
+"la pena zero si l’error és superior a 40 ºC. Aquest mode de guany integral "
+"s’anomena `anti-Windup <https://en.wikipedia.org/wiki/integral_windup>`__ i"
+" serveix per evitar un excessiu excessiu en la resposta. Aquest Overpico es "
+"produeix perquè el control integral augmenta mentre l’actuador està saturat,"
+" de manera que s’acumula massa alt i no s’ajusta al sistema real del "
+"sistema."
+
+#: ../../source/control-ziegler-nichols.rst:230
+msgid "Sintonización por la ganancia crítica en lazo cerrado"
+msgstr "Sintonització per al guany crític en bucle tancat"
+
+#: ../../source/control-ziegler-nichols.rst:232
+msgid ""
+"Este método no requiere retirar el controlador PID del lazo cerrado. En este"
+" caso solo hay que reducir al mínimo la acción derivativa y la acción "
+"integral del regulador PID. El ensayo en lazo cerrado consiste en aumentar "
+"poco a poco la ganancia proporcional hasta que el sistema oscile de forma "
+"mantenida ante cualquier perturbación. Esta oscilación debe ser lineal, sin "
+"saturaciones. En este momento hay que medir la ganancia proporcional, "
+"llamada ganancia crítica o Kc, y el período de oscilación Tc en segundos."
+msgstr ""
+"Aquest mètode no requereix eliminar el controlador PID del bucle tancat. En "
+"aquest cas, només cal minimitzar l’acció derivada i l’acció integral del "
+"regulador PID. L’assaig de bucle tancat és augmentar gradualment el guany "
+"proporcional fins que el sistema oscil·la d’una manera mantingut abans de "
+"qualsevol pertorbació. Aquesta oscil·lació ha de ser lineal, sense "
+"saturacions. En aquest moment, heu de mesurar el guany proporcional, "
+"anomenats guanys crítics o KC, i el període d’oscil·lació del TC en segons."
+
+#: ../../source/control-ziegler-nichols.rst:264
+msgid ""
+"Una vez medidos estos dos valores, se pueden calcular los parámetros del "
+"controlador PID con acción solo proporcional (P), proporcional e integral "
+"(PI), proporcional y derivativa (PD) o proporcional integral y derivativa "
+"(PID):"
+msgstr ""
+"Un cop mesurats aquests dos valors, podeu calcular els paràmetres del "
+"controlador PID amb només una acció proporcional (P), proporcional i "
+"integral (PI), proporcional i derivada (PD) o proporcional i derivada (PID) "
+"(PID):"
+
+#: ../../source/control-ziegler-nichols.rst:272
+msgid "0,50*Kc"
+msgstr "0,50*kc"
+
+#: ../../source/control-ziegler-nichols.rst:273
+msgid "0,45*Kc"
+msgstr "0,45*kc"
+
+#: ../../source/control-ziegler-nichols.rst:273
+msgid "0,54*Kc/Tc"
+msgstr "0,54*KC/TC"
+
+#: ../../source/control-ziegler-nichols.rst:274
+msgid "0,80*Kc"
+msgstr "0,80*kc"
+
+#: ../../source/control-ziegler-nichols.rst:274
+
+#: ../../source/control-ziegler-nichols.rst:275
+msgid "0,075*Kc*Tc"
+msgstr "0,075*kc*tc"
+
+#: ../../source/control-ziegler-nichols.rst:275
+msgid "0,59*Kc"
+msgstr "0,59*kc"
+
+#: ../../source/control-ziegler-nichols.rst:275
+msgid "1,18*Kc/Tc"
+msgstr "1.18*KC/TC"
+
+#: ../../source/control-ziegler-nichols.rst:283
+msgid "Ejemplo de sintonización de PID con la ganancia crítica"
+msgstr "Exemple de sintonització de PID amb guany crític"
+
+#: ../../source/control-ziegler-nichols.rst:285
+msgid ""
+"Vamos a realizar una sintonización del sistema térmico simulado "
+"anteriormente:"
+msgstr "Realitzarem una sintonia del sistema tèrmic simulat anteriorment:"
+
+#: ../../source/control-ziegler-nichols.rst:291
+msgid ""
+"La primera operación será la de anular las ganancias derivativa e integral:"
+msgstr "La primera operació serà cancel·lar els guanys derivats i integrals:"
+
+#: ../../source/control-ziegler-nichols.rst:294
+msgid "Kd = 0"
+msgstr "Kd = 0"
+
+#: ../../source/control-ziegler-nichols.rst:296
+msgid "Ki = 0"
+msgstr "Ki = 0"
+
+#: ../../source/control-ziegler-nichols.rst:298
+msgid ""
+"A continuación se fija una temperatura de trabajo en la referencia y se "
+"aumenta la ganancia proporcional hasta conseguir una respuesta oscilatoria "
+"mantenida."
+msgstr ""
+"A continuació, s’estableix una temperatura de treball en la referència i "
+"s’incrementa el guany proporcional fins que s’aconsegueixi una resposta "
+"oscil·ladora mantinguda."
+
+#: ../../source/control-ziegler-nichols.rst:302
+msgid ""
+"Con una ganancia proporcional Kp = 0,40 la respuesta todavía está "
+"amortiguada:"
+msgstr "Amb un guany proporcional kp = 0,40, la resposta continua amortint:"
+
+#: ../../source/control-ziegler-nichols.rst:310
+msgid ""
+"Al aumentar la ganancia proporcional hasta Kp = 0,43 se obtiene una "
+"respuesta con oscilaciones mantenidas:"
+msgstr ""
+"En augmentar el guany proporcional a KP = 0,43, s’obté una resposta amb "
+"oscil·lacions mantingudes:"
+
+#: ../../source/control-ziegler-nichols.rst:319
+msgid ""
+"Al aumentar la ganancia hasta Kp = 0,45, las oscilaciones crecen en el "
+"tiempo, por lo que la ganancia sería demasiado alta."
+msgstr ""
+"En augmentar el guany a KP = 0,45, les oscil·lacions creixen amb el pas del "
+"temps, de manera que el guany seria massa alt."
+
+#: ../../source/control-ziegler-nichols.rst:327
+msgid "En este caso, por lo tanto, la ganancia crítica y el período son:"
+msgstr "En aquest cas, per tant, el guany crític i el període són:"
+
+#: ../../source/control-ziegler-nichols.rst:329
+msgid "Kc = 0,43"
+msgstr "KC = 0,43"
+
+#: ../../source/control-ziegler-nichols.rst:331
+msgid "Tc  = 21/4 = 5,3 s"
+msgstr "Tc = 21/4 = 5,3 s"
+
+#: ../../source/control-ziegler-nichols.rst:333
+msgid ""
+"A partir de estos valores se calculan los parámetros del controlador PID:"
+msgstr ""
+"A partir d’aquests valors es calculen els paràmetres del controlador PID:"
+
+#: ../../source/control-ziegler-nichols.rst:339
+msgid "0,215"
+msgstr "0,215"
+
+#: ../../source/control-ziegler-nichols.rst:340
+msgid "0,195"
+msgstr "0.195"
+
+#: ../../source/control-ziegler-nichols.rst:340
+msgid "0,044"
+msgstr "0,044"
+
+#: ../../source/control-ziegler-nichols.rst:341
+msgid "0,344"
+msgstr "0,344"
+
+#: ../../source/control-ziegler-nichols.rst:341
+
+#: ../../source/control-ziegler-nichols.rst:342
+msgid "0,169"
+msgstr "0.169"
+
+#: ../../source/control-ziegler-nichols.rst:342
+msgid "0,254"
+msgstr "0,254"
+
+#: ../../source/control-ziegler-nichols.rst:342
+msgid "0,096"
+msgstr "0,096"
+
+#: ../../source/control-ziegler-nichols.rst:346
+msgid ""
+"Como puede comprobarse, los valores son semejantes a los valores obtenidos "
+"anteriormente con el método de la respuesta al escalón. Las diferencias se "
+"deben a que este sistema no es lineal y por lo tanto tiene una respuesta "
+"oscilatoria distorsionada cuando se busca la ganancia crítica."
+msgstr ""
+"Com es pot veure, els valors són similars als valors obtinguts anteriorment "
+"amb el mètode de resposta al pas. Les diferències es deuen al fet que aquest"
+" sistema no és lineal i, per tant, té una resposta oscil·ladora "
+"distorsionada quan es busca el guany crític."
+
+#: ../../source/control-ziegler-nichols.rst:352
+msgid ""
+"Introduciendo los valores anteriores en el controlador PID se obtiene la "
+"siguiente respuesta del sistema térmico con controlador PID:"
+msgstr ""
+"Introduint els valors anteriors al controlador PID, s’obté la resposta "
+"següent del sistema tèrmic amb el controlador PID:"
+
+#: ../../source/control-ziegler-nichols.rst:361
+msgid ""
+"En este caso también se puede terminar de afinar el regulador PID a mano "
+"para conseguir una respuesta un poco más estable."
+msgstr ""
+"En aquest cas, també podeu acabar de perfeccionar el regulador PID per "
+"obtenir una resposta lleugerament més estable."
+
+#: ../../source/control-ziegler-nichols.rst:366
+msgid "Referencias"
+msgstr "Referències"
+
+#: ../../source/control-ziegler-nichols.rst:368
+msgid ""
+"`Wikipedia: Controlador PID  "
+"<https://es.wikipedia.org/wiki/Proporcional_integral_derivativo>`__"
+msgstr ""
+"`Wikipedia: controlador PID "
+"<https://es.wikipedia.org/wiki/proporala_integral_derivative>`__"
+
+#: ../../source/control-ziegler-nichols.rst:370
+msgid ""
+"`Wikipedia: Sistema de control "
+"<https://es.wikipedia.org/wiki/Sistema_de_control>`__"
+msgstr ""
+"`Wikipedia: Sistema de control "
+"<https://es.wikipedia.org/wiki/system_de_control>`__"
+
+#: ../../source/control-ziegler-nichols.rst:372
+msgid ""
+"`Wikipedia: Servomotor "
+"<https://es.wikipedia.org/wiki/Servomotor_de_modelismo>`__"
+msgstr ""
+"`Wikipedia: Servomotor "
+"<https://es.wikipedia.org/wiki/servomotor_de_modelismo>`__"
+
+#: ../../source/control-ziegler-nichols.rst:374
+msgid ""
+"[1] Ogata, Katsuhiko. Ingeniería de Control Moderna. Tercera edición. "
+"Editorial Prentice Hall."
+msgstr ""
+"[1] Ogata, Katsuhiko. Enginyeria de control moderna. Tercera edició. Saló de"
+" Prentice Editorial."
+
+#: ../../source/control-ziegler-nichols.rst:377
+msgid ""
+"[2] Ogata, Katsuhiko. Sistemas de control en tiempo discreto. Segunda "
+"edición. Editorial Prentice Hall."
+msgstr ""
+"[2] Ogata, Katsuhiko. Sistemes de control de temps discrets. Segona edició. "
+"Saló de Prentice Editorial."

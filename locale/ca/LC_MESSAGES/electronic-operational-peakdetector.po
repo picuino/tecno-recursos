@@ -1,0 +1,153 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-operational-peakdetector.rst:9
+msgid "El detector de pico"
+msgstr "El Detector de Peak"
+
+#: ../../source/electronic-operational-peakdetector.rst:10
+msgid ""
+"El detector de pico es un circuito que mantiene en su salida el valor de "
+"pico de tensión que se encuentra en la entrada. Está compuesto por un "
+"rectificador de precisión de media onda y por un filtro RC a la salida, que "
+"memoriza el mayor nivel de tensión de la salida del rectificador."
+msgstr ""
+"El detector de pic és un circuit que manté el valor màxim de tensió a "
+"l’entrada. Està compost per un rectificador de precisió de mitja onada i un "
+"filtre RC a la sortida, que memoritza el nivell de tensió més alt de la "
+"sortida del rectificador."
+
+#: ../../source/electronic-operational-peakdetector.rst:21
+msgid "Esquema del detector de pico."
+msgstr "Esquema de detector màxim."
+
+#: ../../source/electronic-operational-peakdetector.rst:25
+msgid "Funcionamiento"
+msgstr "Operació"
+
+#: ../../source/electronic-operational-peakdetector.rst:26
+msgid ""
+"El diodo a la salida del amplificador operacional impide que este pueda "
+"entregar corriente negativa. Como el operacional solo podrá entregar tensión"
+" y corriente positivas, el condensador de salida subirá de tensión hasta "
+"igualar la máxima tensión de entrada y mantendrá esta tensión."
+msgstr ""
+"El díode a la sortida de l'amplificador operatiu impedeix que es faci un "
+"corrent negatiu. Com que l’operació només pot aportar tensió i corrent "
+"positius, el condensador de sortida pujarà a la tensió fins que la tensió "
+"màxima d’entrada sigui igualada i mantindrà aquesta tensió."
+
+#: ../../source/electronic-operational-peakdetector.rst:31
+msgid ""
+"La resistencia de 10k hará que el condensador se descargue poco a poco y que"
+" su tensión tienda a valer cero voltios."
+msgstr ""
+"La resistència de 10k farà que el condensador es descarregui a poc a poc i "
+"que la seva tensió valgui zero volts."
+
+#: ../../source/electronic-operational-peakdetector.rst:34
+msgid ""
+"De esta manera la tensión máxima de entrada, o valor de pico, se almacenará "
+"por un tiempo en el condensador, que poco a poco va a perder esa tensión "
+"máxima para adaptarse a otros picos de menor tensión que lleguen más tarde."
+msgstr ""
+"D’aquesta manera, la tensió d’entrada màxima o el valor màxim, "
+"s’emmagatzemarà durant un temps al condensador, que perdrà gradualment "
+"aquesta tensió màxima per adaptar -se a altres cims més petits que arriben "
+"més endavant."
+
+#: ../../source/electronic-operational-peakdetector.rst:40
+msgid "Simulación"
+msgstr "Simulació"
+
+#: ../../source/electronic-operational-peakdetector.rst:41
+msgid ""
+"En la siguiente simulación podemos ver un **detector de pico** al que le "
+"llega una tensión alterna de amplitud modulada. La tensión máxima de entrada"
+" se refleja en el valor de salida del circuito."
+msgstr ""
+"A la simulació següent podem veure un detector de pic ** ** al qual arriba "
+"una tensió alternativa d’amplitud modulada. La tensió d’entrada màxima es "
+"reflecteix en el valor de sortida del circuit."
+
+#: ../../source/electronic-operational-peakdetector.rst:53
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-operational-peakdetector.rst:55
+msgid "Dibuja el esquema de un detector de pico."
+msgstr "Dibuixa l’esquema d’un detector de pic."
+
+#: ../../source/electronic-operational-peakdetector.rst:57
+msgid "¿Qué tipo de realimentación tiene el detector de pico y por qué?"
+msgstr "Quin tipus de comentaris té el detector de bec i per què?"
+
+#: ../../source/electronic-operational-peakdetector.rst:59
+msgid "¿Qué función realiza un circuito detector de pico?"
+msgstr "Quina funció fa un circuit de detector pic?"
+
+#: ../../source/electronic-operational-peakdetector.rst:61
+msgid "¿Qué ganancia de tensión tendrá un detector de pico y por qué?"
+msgstr "Quin guany de tensió tindrà un detector de pic i per què?"
+
+#: ../../source/electronic-operational-peakdetector.rst:63
+msgid ""
+"Modifica la simulación anterior del detector de pico para hacer un circuito "
+"demodulador:"
+msgstr ""
+"Modifiqueu la simulació anterior del detector de bec per fer un circuit "
+"demodulador:"
+
+#: ../../source/electronic-operational-peakdetector.rst:66
+msgid ""
+"Aumenta la frecuencia de la señal portadora de Amplitud Modulada hasta 1000 "
+"Hz."
+msgstr ""
+"Augmenta la freqüència del senyal del portador d’amplitud fins a 1000 Hz."
+
+#: ../../source/electronic-operational-peakdetector.rst:69
+msgid ""
+"Disminuye el valor del condensador hasta que la señal de salida sea igual a "
+"la envolvente de la señal de entrada."
+msgstr ""
+"Disminuir el valor del condensador fins que el senyal de sortida sigui igual"
+" al sobre del senyal d’entrada."
+
+#: ../../source/electronic-operational-peakdetector.rst:72
+msgid ""
+"Dibuja un gráfico de la tensión de entrada y otro gráfico con la tensión de "
+"salida."
+msgstr ""
+"Dibuixeu un gràfic de la tensió d’entrada i un altre gràfic amb la tensió de"
+" sortida."
+
+#: ../../source/electronic-operational-peakdetector.rst:75
+msgid ""
+"¿Qué ocurre si cambiamos el sentido del diodo? Simula el cambio para "
+"comprobar el nuevo funcionamiento."
+msgstr ""
+"Què passa si canviem el significat del díode? Simula el canvi per comprovar "
+"la nova operació."
+
+#: ../../source/electronic-operational-peakdetector.rst:78
+msgid "¿Cómo podríamos denominar a este nuevo circuito?"
+msgstr "Com podríem anomenar aquest nou circuit?"

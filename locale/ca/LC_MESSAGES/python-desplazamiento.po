@@ -1,0 +1,266 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/python-desplazamiento.rst:9
+msgid "Desplazamiento de datos"
+msgstr "Desplaçament de dades"
+
+#: ../../source/python-desplazamiento.rst:10
+msgid ""
+"El desplazamiento de datos se refiere a la acción de mover datos de un lugar"
+" a otro de la memoria. Es una operación que se realiza en multitud de "
+"ocasiones, por ejemplo, en los algoritmos de ordenación, que veremos en las "
+"siguientes unidades."
+msgstr ""
+"El desplaçament de dades es refereix a l’acció de traslladar dades d’un lloc"
+" a un altre de memòria. És una operació que es realitza en moltes ocasions, "
+"per exemple, en els algoritmes de gestió, que veurem a les següents unitats."
+
+#: ../../source/python-desplazamiento.rst:16
+msgid ""
+"En el lenguaje Python existen métodos eficientes para llevar a cabo el "
+"desplazamiento de datos. Estos métodos se basan en el uso de rebanadas, "
+"asignación de tuplas y funciones de inserción y borrado de elementos en "
+"listas. Sin embargo, en esta unidad y las siguientes, no se emplearán estos "
+"métodos eficientes de desplazamiento de datos en Python. El propósito es "
+"adquirir un entendimiento a más bajo nivel de cómo se realizan estas "
+"operaciones, lo que puede ser aplicable en cualquier otro lenguaje de "
+"programación."
+msgstr ""
+"En el llenguatge Python hi ha mètodes eficients per realitzar desplaçaments "
+"de dades. Aquests mètodes es basen en l’ús de llesques, l’assignació de "
+"tuples i les funcions d’inserció i esborrades d’elements a les llistes. "
+"Tanmateix, en aquesta unitat i a continuació, no s’utilitzaran aquests "
+"mètodes de desplaçament de dades eficients a Python. El propòsit és adquirir"
+" una comprensió a un nivell inferior de com es duen a terme aquestes "
+"operacions, que poden ser aplicables en qualsevol altre llenguatge de "
+"programació."
+
+#: ../../source/python-desplazamiento.rst:28
+msgid "Intercambio de datos"
+msgstr "Intercanvi de dades"
+
+#: ../../source/python-desplazamiento.rst:29
+msgid ""
+"Es frecuente que un programa tenga que intercambiar los datos de dos "
+"variables o de dos posiciones de una lista. Para poder intercambiar los "
+"datos usaremos una variable temporal intermedia::"
+msgstr ""
+"És habitual que un programa intercanviï les dades de dues variables o dues "
+"posicions d’una llista. Per intercanviar les dades, utilitzarem una variable"
+" temporal intermèdia ::"
+
+#: ../../source/python-desplazamiento.rst:42
+msgid ""
+"Otro ejemplo se puede dar con listas de datos. En el siguiente caso vamos a "
+"ordenar una lista de números que no está ordenada, intercambiando los dos "
+"números del medio de la lista::"
+msgstr ""
+"Un altre exemple pot trobar llistes de dades. En el cas següent, ordenarem "
+"una llista de números que no estiguin ordenats, intercanviant els dos "
+"números del mitjà de la llista ::"
+
+#: ../../source/python-desplazamiento.rst:54
+msgid "Desplazamiento a la derecha"
+msgstr "Desplaçament dret"
+
+#: ../../source/python-desplazamiento.rst:55
+msgid ""
+"Si necesitamos desplazar muchos números de una lista el procedimiento será "
+"similar al de intercambio de datos, pero algo más largo."
+msgstr ""
+"Si hem de desplaçar molts números d’una llista, el procediment serà similar "
+"al de l’intercanvi de dades, però una mica més."
+
+#: ../../source/python-desplazamiento.rst:58
+msgid ""
+"En el siguiente ejemplo necesitamos mover el último elemento de una lista al"
+" comienzo de la lista para ordenar todos los números::"
+msgstr ""
+"En l'exemple següent, hem de moure l'últim element d'una llista al "
+"començament de la llista per ordenar tots els números ::"
+
+#: ../../source/python-desplazamiento.rst:64
+msgid ""
+"Esta es una operación semejante a la de intercambio. Implica mover todos los"
+" números hacia la derecha para dejar un espacio libre al comienzo de la "
+"lista, que es donde finalmente colocaremos el número 0."
+msgstr ""
+"Es tracta d’una operació similar a l’intercanvi. Implica traslladar tots els"
+" números al dret de deixar un espai lliure al començament de la llista, que "
+"és on finalment col·locarem el número 0."
+
+#: ../../source/python-desplazamiento.rst:69
+msgid ""
+"Para empezar guardaremos el valor del último elemento en una variable "
+"intermedia::"
+msgstr ""
+"Per començar, guardarem el valor de l’últim element en una variable "
+"intermèdia ::"
+
+#: ../../source/python-desplazamiento.rst:74
+msgid ""
+"Ahora desplazamos todos los elementos, menos el último, hacia la derecha. "
+"Para no pisar los valores habrá que comenzar por la derecha::"
+msgstr ""
+"Ara movem tots els elements, tret de l’últim, a la dreta. Per no trepitjar "
+"els valors, haureu de començar per la dreta ::"
+
+#: ../../source/python-desplazamiento.rst:80
+msgid "y continuar hacia la izquierda::"
+msgstr "i continueu cap a l’esquerra ::"
+
+#: ../../source/python-desplazamiento.rst:94
+msgid ""
+"Por último copiamos el valor de la variable temporal el el primer puesto de "
+"la lista a la izquierda del todo, para obtener la lista completamente "
+"ordenada::"
+msgstr ""
+"Finalment copiem el valor de la variable temporal La primera posició de la "
+"llista a l'esquerra del conjunt, per obtenir la llista completament ordenada"
+" ::"
+
+#: ../../source/python-desplazamiento.rst:102
+msgid ""
+"Estas operaciones se pueden agilizar por medio de un bucle ``for``, con lo "
+"que el programa final quedaría de la siguiente manera::"
+msgstr ""
+"Aquestes operacions es poden accelerar mitjançant un `` `` ``, de manera que"
+" el programa final seria el següent ::"
+
+#: ../../source/python-desplazamiento.rst:115
+
+#: ../../source/python-desplazamiento.rst:147
+msgid "La salida del programa será la lista ordenada::"
+msgstr "La sortida del programa serà la llista ordenada ::"
+
+#: ../../source/python-desplazamiento.rst:121
+msgid "Desplazamiento a la izquierda"
+msgstr "Desplaçament esquerre"
+
+#: ../../source/python-desplazamiento.rst:122
+msgid ""
+"Este caso es semejante al anterior, pero ahora deseamos mover los datos en "
+"dirección contraria."
+msgstr ""
+"Aquest cas és similar al anterior, però ara volem moure les dades en el "
+"sentit contrari."
+
+#: ../../source/python-desplazamiento.rst:125
+msgid ""
+"En el siguiente ejemplo necesitamos mover el primer elemento de una lista al"
+" final de la lista para ordenar todos los números::"
+msgstr ""
+"En l'exemple següent, hem de moure el primer element d'una llista al final "
+"de la llista per demanar tots els números ::"
+
+#: ../../source/python-desplazamiento.rst:131
+msgid ""
+"Esta operación implica mover todos los números hacia la izquierda para dejar"
+" un espacio libre al final de la lista, que es donde colocaremos el número "
+"5."
+msgstr ""
+"Aquesta operació implica traslladar tots els números a l'esquerra per deixar"
+" un espai lliure al final de la llista, que és on col·locarem el número 5."
+
+#: ../../source/python-desplazamiento.rst:135
+msgid "El programa final será el siguiente::"
+msgstr "El programa final serà el següent ::"
+
+#: ../../source/python-desplazamiento.rst:153
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/python-desplazamiento.rst:155
+
+#: ../../source/python-desplazamiento.rst:170
+msgid ""
+"Escribe un programa que intercambie los datos de las siguientes variables de"
+" manera que cada variable contenga el número que corresponde con su nombre. "
+"Recuerda utilizar una variable temporal::"
+msgstr ""
+"Escriviu un programa que intercanvi les dades de les variables següents de "
+"manera que cada variable conté el número que correspon al seu nom. Recordeu "
+"utilitzar una variable temporal ::"
+
+#: ../../source/python-desplazamiento.rst:166
+
+#: ../../source/python-desplazamiento.rst:183
+
+#: ../../source/python-desplazamiento.rst:197
+
+#: ../../source/python-desplazamiento.rst:214
+
+#: ../../source/python-desplazamiento.rst:224
+
+#: ../../source/python-desplazamiento.rst:241
+msgid "Salida::"
+msgstr "Sortida ::"
+
+#: ../../source/python-desplazamiento.rst:187
+msgid ""
+"Escribe una función que desplace todos los elementos de una lista hacia la "
+"izquierda. El primer elemento debe desaparecer y el último elemento se le "
+"asignará el segundo parámetro de la función."
+msgstr ""
+"Escriviu una funció que mogui tots els elements d’una llista a l’esquerra. "
+"El primer element ha de desaparèixer i a l’últim element s’assignarà el "
+"segon paràmetre de la funció."
+
+#: ../../source/python-desplazamiento.rst:191
+
+#: ../../source/python-desplazamiento.rst:235
+msgid "Ejemplo::"
+msgstr "Exemple ::"
+
+#: ../../source/python-desplazamiento.rst:201
+msgid ""
+"Escribe una función que desplace los elementos de una lista hacia la "
+"derecha, pero solo hasta una posición dada por su segundo parámetro, la "
+"variable ``min``. El último elemento de la lista debe colocarse en la "
+"posición ``min``. Comprueba que la función funciona correctamente con los "
+"siguientes ejemplos."
+msgstr ""
+"Escriviu una funció que mogui els elements d’una llista a la dreta, però "
+"només a una posició donada pel seu segon paràmetre, la variable `` min``. "
+"L’últim element de la llista s’ha de situar a la posició `` min``. Comproveu"
+" que la funció funcioni correctament amb els exemples següents."
+
+#: ../../source/python-desplazamiento.rst:208
+msgid "Ejemplo 1::"
+msgstr "Exemple 1 ::"
+
+#: ../../source/python-desplazamiento.rst:218
+msgid "Ejemplo 2::"
+msgstr "Exemple 2 ::"
+
+#: ../../source/python-desplazamiento.rst:229
+msgid ""
+"Escribe una función que desplace los elementos de una lista hacia la "
+"izquierda, hasta el elemento dado por su segundo parámetro, la variable "
+"``min``. Una vez realizado el desplazamiento, el último elemento de la lista"
+" debe asignarse al valor que estuviera en la posición ``min``."
+msgstr ""
+"Escriviu una funció que traslladi els elements d’una llista a l’esquerra, a "
+"l’element donat pel seu segon paràmetre, la variable `` min``. Un cop "
+"realitzat el desplaçament, l’últim element de la llista s’ha d’assignar al "
+"valor que hi havia a la posició `` min``."

@@ -11,9 +11,11 @@ sphinx-build -b gettext source _build/gettext
 
 cd source
 sphinx-intl update -p ../_build/gettext -l en
+sphinx-intl update -p ../_build/gettext -l ca
 cd ..
 
-cp -f source/_custom/sphinx_rtd_theme/locale/en/sphinx.po locale/en/LC_MESSAGES/sphinx.po
+cp -f locale/en/sphinx.po  locale/en/LC_MESSAGES/sphinx.po
+cp -f locale/ca/sphinx.po  locale/ca/LC_MESSAGES/sphinx.po
 
 pause
 

@@ -1,0 +1,626 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-02-11 17:11+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/control-sensor-temp.rst:9
+msgid "Sensor de temperatura"
+msgstr "Sensor de temperatura"
+
+#: ../../source/control-sensor-temp.rst:11
+msgid ""
+"Un sensor de temperatura es un componente electrónico que devuelve una señal"
+" eléctrica que depende de la temperatura del sensor. A partir de la señal "
+"eléctrica se puede conocer la temperatura real a la que se encuentra el "
+"sensor."
+msgstr ""
+"Un sensor de temperatura és un component electrònic que retorna un senyal "
+"elèctric que depèn de la temperatura del sensor. Des del senyal elèctric "
+"podeu conèixer la temperatura real amb la qual es troba el sensor."
+
+#: ../../source/control-sensor-temp.rst:16
+msgid ""
+"Existen muchos tipos diferentes de sensores de temperatura. Cada tipo de "
+"sensor se adapta bien a una aplicación concreta. En estas prácticas se van a"
+" estudiar solo sensores de bajo precio que alcanzan un rango de temperaturas"
+" moderado, de -40ºC hasta 150ºC. Con una exactitud moderada, desde 1ºC hasta"
+" 0,1ºC de error."
+msgstr ""
+"Hi ha molts tipus diferents de sensors de temperatura. Cada tipus de sensor "
+"s’adapta bé a una aplicació específica. En aquestes pràctiques, només "
+"s’estudiaran els sensors de baix preu que arribin a un rang de temperatures "
+"moderats, de -40 ºC a 150 ºC. Amb precisió moderada, d’1 ºC a 0,1ºC d’error."
+
+#: ../../source/control-sensor-temp.rst:22
+msgid "Sensor de temperatura NTC."
+msgstr "Sensor de temperatura NTC."
+
+#: ../../source/control-sensor-temp.rst:29
+msgid "Sensor de temperatura basado en circuito integrado LM35."
+msgstr "Sensor de temperatura amb seu al circuit integrat LM35."
+
+#: ../../source/control-sensor-temp.rst:40
+msgid ""
+"Los sensores de temperatura son muy útiles para construir aparatos de medida"
+" de temperatura y máquinas que regulan de forma automática la temperatura. A"
+" continuación se listan algunos ejemplos prácticos."
+msgstr ""
+"Els sensors de temperatura són molt útils per a la mesura de la temperatura "
+"de la construcció i les màquines que regulen automàticament la temperatura. "
+"A continuació es mostren alguns exemples pràctics."
+
+#: ../../source/control-sensor-temp.rst:44
+msgid "Termómetro digital para medir la temperatura del cuerpo."
+msgstr "Termòmetre digital per mesurar la temperatura corporal."
+
+#: ../../source/control-sensor-temp.rst:45
+msgid "Termostato digital de una casa."
+msgstr "Termòstat digital d’una casa."
+
+#: ../../source/control-sensor-temp.rst:46
+msgid "Termostato de temperatura de un horno."
+msgstr "Termòstat de temperatura d’un forn."
+
+#: ../../source/control-sensor-temp.rst:47
+msgid "Sensor de incendios."
+msgstr "Sensor de foc."
+
+#: ../../source/control-sensor-temp.rst:48
+msgid "Termostato de acuario o de terrario."
+msgstr "Termòstat aquari o terrari."
+
+#: ../../source/control-sensor-temp.rst:49
+msgid "Termómetro digital de temperatura ambiente."
+msgstr "Termòmetre digital de temperatura ambiental."
+
+#: ../../source/control-sensor-temp.rst:54
+msgid "Funcionamiento de un sensor NTC"
+msgstr "Funcionament d’un sensor NTC"
+
+#: ../../source/control-sensor-temp.rst:58
+msgid ""
+"Una resistencia NTC es un componente que reduce su resistencia cuando "
+"aumenta la temperatura. Este sensor no es lineal. Esto quiere decir que su "
+"exactitud no es muy buena en rangos amplios de temperatura, comparada con "
+"otros sensores. A pesar de eso un sensor NTC bien ajustado puede medir "
+"temperaturas con bastante exactitud, 0,1ºC en un intervalo pequeño de "
+"temperaturas."
+msgstr ""
+"Una resistència NTC és un component que redueix la seva resistència quan "
+"augmenta la temperatura. Aquest sensor no és lineal. Això significa que la "
+"seva precisió no és gaire bona en els intervals de temperatura ampli, en "
+"comparació amb altres sensors. Malgrat això, un sensor NTC ben ajustat pot "
+"mesurar les temperatures amb molta precisió, 0,1ºC en un petit interval de "
+"temperatura."
+
+#: ../../source/control-sensor-temp.rst:65
+msgid ""
+"La siguiente gráfica representa la resistencia de un sensor NTC en su rango "
+"de medición de temperaturas."
+msgstr ""
+"El següent gràfic representa la resistència d’un sensor NTC en el seu rang "
+"de mesura de temperatura."
+
+#: ../../source/control-sensor-temp.rst:76
+msgid ""
+"Como se puede ver, la resistencia disminuye a medida que aumenta la "
+"temperatura. La forma de la curva es no lineal, lo que da problemas a la "
+"hora de calcular con exactitud la temperatura. La siguiente fórmula puede "
+"utilizarse para calcular la resistencia en función de la temperatura."
+msgstr ""
+"Com podeu veure, la resistència disminueix a mesura que augmenta la "
+"temperatura. La forma de la corba és no lineal, cosa que dóna problemes a "
+"l’hora de calcular la temperatura exactament. La fórmula següent es pot "
+"utilitzar per calcular la resistència segons la temperatura."
+
+#: ../../source/control-sensor-temp.rst:82
+msgid "R = A \\cdot exp(B/T)"
+msgstr "R = a \\ cdot exp (b/t)"
+
+#: ../../source/control-sensor-temp.rst:86
+msgid "R = Resistencia del sensor NTC"
+msgstr "R = Resistència al sensor NTC"
+
+#: ../../source/control-sensor-temp.rst:88
+msgid "T = Temperatura en grados kelvin"
+msgstr "T = temperatura en graus Kelvin"
+
+#: ../../source/control-sensor-temp.rst:90
+msgid "B = Temperatura característica del material. Entre 2000ºK y 5000ºK"
+msgstr "B = temperatura característica del material. Entre 2000ºK i 5000ºK"
+
+#: ../../source/control-sensor-temp.rst:92
+msgid "A = Constante del termistor. Depende del material."
+msgstr "A = constant del termistor. Depèn del material."
+
+#: ../../source/control-sensor-temp.rst:94
+msgid ""
+"Los coeficientes :math:`A` y :math:`B` dependen de cada componente y se "
+"pueden encontrar en las hojas de características de los fabricantes o bien "
+"se pueden calcular para un sensor NTC concreto a partir de un ensayo, "
+"midiendo la resistencia a varias temperaturas."
+msgstr ""
+"Els coeficients: matemàtiques: `a` y: math:` b` depenen de cada component i "
+"es poden trobar en les característiques dels fabricants o es pot calcular "
+"per a un sensor NTC específic a partir d'una prova, mesurant la resistència "
+"a diverses temperatures."
+
+#: ../../source/control-sensor-temp.rst:101
+msgid "Especificaciones de un sensor NTC"
+msgstr "Especificacions d’un sensor NTC"
+
+#: ../../source/control-sensor-temp.rst:102
+msgid ""
+"Se ha escogido para este apartado un sensor NTC con un valor nominal de 10k "
+"Ohmios a la temperatura de 25ºC"
+msgstr ""
+"S'ha escollit un sensor NTC amb un sensor nominal de 10k ohms a la "
+"temperatura de 25 ºC"
+
+#: ../../source/control-sensor-temp.rst:105
+msgid "Resistencia a 25ºC = 10k Ohmios"
+msgstr "Resistència de 25 ºC = 10k ohms"
+
+#: ../../source/control-sensor-temp.rst:106
+msgid "Bandas de color = Marrón Negro Naranja"
+msgstr "Bandes de colors = taronja marró negre"
+
+#: ../../source/control-sensor-temp.rst:107
+msgid "Tiempo de respuesta = 1,2 segundos"
+msgstr "Temps de resposta = 1,2 segons"
+
+#: ../../source/control-sensor-temp.rst:108
+msgid "Constante A = 0,01618 Ohmios"
+msgstr "Constant a = 0.01618 ohms"
+
+#: ../../source/control-sensor-temp.rst:109
+msgid "Constante B = 3977 ºK"
+msgstr "Constant B = 3977 ºK"
+
+#: ../../source/control-sensor-temp.rst:111
+msgid ""
+"A continuación se muestra una imagen con la curva de tensión que suministra "
+"este sensor NTC conectado a 5 voltios, con una resistencia de polarización "
+"de 10k Ohmios conectada a masa."
+msgstr ""
+"A continuació, es mostra una imatge amb la corba de tensió proporcionada per"
+" aquest sensor NTC connectat a 5 volts, amb una resistència de polarització "
+"de 10k ohm connectada a la massa."
+
+#: ../../source/control-sensor-temp.rst:120
+msgid "Tabla de datos con los valores de la curva."
+msgstr "Taula de dades amb els valors de la corba."
+
+#: ../../source/control-sensor-temp.rst:123
+msgid "Temperatura"
+msgstr "Temperatura"
+
+#: ../../source/control-sensor-temp.rst:123
+msgid "Tensión"
+msgstr "Esforç"
+
+#: ../../source/control-sensor-temp.rst:125
+msgid "-40"
+msgstr "-40"
+
+#: ../../source/control-sensor-temp.rst:125
+msgid "0,117"
+msgstr "0.117"
+
+#: ../../source/control-sensor-temp.rst:126
+msgid "-35"
+msgstr "-35"
+
+#: ../../source/control-sensor-temp.rst:126
+msgid "0,165"
+msgstr "0.165"
+
+#: ../../source/control-sensor-temp.rst:127
+msgid "-30"
+msgstr "-30"
+
+#: ../../source/control-sensor-temp.rst:127
+msgid "0,230"
+msgstr "0.230"
+
+#: ../../source/control-sensor-temp.rst:128
+msgid "-25"
+msgstr "-25"
+
+#: ../../source/control-sensor-temp.rst:128
+msgid "0,314"
+msgstr "0,314"
+
+#: ../../source/control-sensor-temp.rst:129
+msgid "-20"
+msgstr "-20"
+
+#: ../../source/control-sensor-temp.rst:129
+msgid "0,422"
+msgstr "0,422"
+
+#: ../../source/control-sensor-temp.rst:130
+msgid "-15"
+msgstr "-15"
+
+#: ../../source/control-sensor-temp.rst:130
+msgid "0,555"
+msgstr "0,555"
+
+#: ../../source/control-sensor-temp.rst:131
+msgid "-10"
+msgstr "-10"
+
+#: ../../source/control-sensor-temp.rst:131
+msgid "0,717"
+msgstr "0,717"
+
+#: ../../source/control-sensor-temp.rst:132
+msgid "-5"
+msgstr "-5"
+
+#: ../../source/control-sensor-temp.rst:132
+msgid "0,908"
+msgstr "0,908"
+
+#: ../../source/control-sensor-temp.rst:133
+
+#: ../../source/control-sensor-temp.rst:286
+msgid "0"
+msgstr "0"
+
+#: ../../source/control-sensor-temp.rst:133
+msgid "1,128"
+msgstr "1.128"
+
+#: ../../source/control-sensor-temp.rst:134
+msgid "5"
+msgstr "5"
+
+#: ../../source/control-sensor-temp.rst:134
+msgid "1,373"
+msgstr "1.373"
+
+#: ../../source/control-sensor-temp.rst:135
+msgid "10"
+msgstr "10"
+
+#: ../../source/control-sensor-temp.rst:135
+msgid "1,638"
+msgstr "1.638"
+
+#: ../../source/control-sensor-temp.rst:136
+msgid "15"
+msgstr "15"
+
+#: ../../source/control-sensor-temp.rst:136
+msgid "1,918"
+msgstr "1.918"
+
+#: ../../source/control-sensor-temp.rst:137
+msgid "20"
+msgstr "20"
+
+#: ../../source/control-sensor-temp.rst:137
+msgid "2,203"
+msgstr "2.203"
+
+#: ../../source/control-sensor-temp.rst:138
+msgid "25"
+msgstr "25"
+
+#: ../../source/control-sensor-temp.rst:138
+msgid "2,486"
+msgstr "2.486"
+
+#: ../../source/control-sensor-temp.rst:139
+msgid "30"
+msgstr "30"
+
+#: ../../source/control-sensor-temp.rst:139
+msgid "2,760"
+msgstr "2.760"
+
+#: ../../source/control-sensor-temp.rst:140
+msgid "35"
+msgstr "35"
+
+#: ../../source/control-sensor-temp.rst:140
+msgid "3,020"
+msgstr "3.020"
+
+#: ../../source/control-sensor-temp.rst:141
+msgid "40"
+msgstr "40"
+
+#: ../../source/control-sensor-temp.rst:141
+msgid "3,260"
+msgstr "3.260"
+
+#: ../../source/control-sensor-temp.rst:142
+msgid "45"
+msgstr "45"
+
+#: ../../source/control-sensor-temp.rst:142
+msgid "3,480"
+msgstr "3.480"
+
+#: ../../source/control-sensor-temp.rst:143
+
+#: ../../source/control-sensor-temp.rst:287
+msgid "50"
+msgstr "50"
+
+#: ../../source/control-sensor-temp.rst:143
+msgid "3,676"
+msgstr "3.676"
+
+#: ../../source/control-sensor-temp.rst:144
+msgid "55"
+msgstr "55"
+
+#: ../../source/control-sensor-temp.rst:144
+msgid "3,851"
+msgstr "3.851"
+
+#: ../../source/control-sensor-temp.rst:145
+msgid "60"
+msgstr "60"
+
+#: ../../source/control-sensor-temp.rst:145
+msgid "4,004"
+msgstr "4.004"
+
+#: ../../source/control-sensor-temp.rst:146
+msgid "65"
+msgstr "65"
+
+#: ../../source/control-sensor-temp.rst:146
+msgid "4,138"
+msgstr "4.138"
+
+#: ../../source/control-sensor-temp.rst:147
+msgid "70"
+msgstr "70"
+
+#: ../../source/control-sensor-temp.rst:147
+msgid "4,253"
+msgstr "4.253"
+
+#: ../../source/control-sensor-temp.rst:148
+msgid "75"
+msgstr "75"
+
+#: ../../source/control-sensor-temp.rst:148
+msgid "4,353"
+msgstr "4.353"
+
+#: ../../source/control-sensor-temp.rst:149
+msgid "80"
+msgstr "80"
+
+#: ../../source/control-sensor-temp.rst:149
+msgid "4,439"
+msgstr "4.439"
+
+#: ../../source/control-sensor-temp.rst:152
+msgid ""
+"Esta tabla se puede utilizar para buscar valores intermedios de tensión o de"
+" temperatura mediante la orden map()."
+msgstr ""
+"Aquesta taula es pot utilitzar per cercar valors de tensió o temperatura "
+"intermedis mitjançant l'ordre mapa ()."
+
+#: ../../source/control-sensor-temp.rst:155
+msgid ""
+"Para calcular otros valores fuera de rango o calcular valores de un sensor "
+"NTC diferente, se puede utilizar la hoja excel adjunta :download:`NTC "
+"<control/_downloads/ntc.xls>`."
+msgstr ""
+"Per calcular altres valors fora del rang o calcular valors d’un sensor NTC "
+"diferent, es pot utilitzar el full Excel adjunt: descarregar: `ntc "
+"<control/_downloads/ntc.xls>`."
+
+#: ../../source/control-sensor-temp.rst:161
+msgid "Esquema de conexión de un transistor calentador"
+msgstr "Esquema de connexió d’un transistor de calefacció"
+
+#: ../../source/control-sensor-temp.rst:162
+msgid ""
+"En la siguiente imagen puede verse el cableado necesario para realizar un "
+"calentador basado en un transistor `BD135 "
+"<../_static/document/BD135-onsemi.pdf>`__ `(datasheet de st) "
+"<../_static/document/BD135-st.pdf>`__."
+msgstr ""
+"A la imatge següent es pot veure el cablejat necessari per fer un escalfador"
+" basat en un transistor `bd135 <../_ static/document/bd135-osemi.pdf>`__ "
+"`(Static Datashet) <../_ Static/Document/BD135-st.pdf>"
+
+#: ../../source/control-sensor-temp.rst:173
+msgid ""
+"Este circuito es capaz de consumir hasta 200 miliamperios a 5 voltios, "
+"proporcionando 1 vatio de potencia. Esta potencia es suficiente para "
+"aumentar la temperatura del transistor 100 grados centígrados al aire libre."
+" Si se coloca algún tipo de aislamiento, la temperatura puede subir todavía "
+"más, destruyendo el componente."
+msgstr ""
+"Aquest circuit és capaç de consumir fins a 200 mil·límetres a 5 volts, "
+"proporcionant 1 watt de potència. Aquesta potència és suficient per "
+"augmentar la temperatura del transistor a 100 graus centígrads a l'aire "
+"lliure. Si es col·loca algun tipus d’aïllament, la temperatura pot augmentar"
+" encara més, destruint el component."
+
+#: ../../source/control-sensor-temp.rst:179
+msgid ""
+"Por esta razón es necesario tener especial cuidado en no encender a máxima "
+"potencia al transistor y **tomar las precauciones necesarias para que no se "
+"produzcan quemaduras**."
+msgstr ""
+"Per aquest motiu, cal tenir especial cura de no activar la potència màxima "
+"al transistor i ** prendre les precaucions necessàries perquè no hi hagi "
+"cremades **."
+
+#: ../../source/control-sensor-temp.rst:183
+msgid "El siguiente programa permite probar el calentamiento del transistor."
+msgstr "El programa següent permet provar el transistor."
+
+#: ../../source/control-sensor-temp.rst:201
+msgid "Esquema de conexión de un sensor NTC"
+msgstr "Esquema de connexió d’un sensor NTC"
+
+#: ../../source/control-sensor-temp.rst:202
+msgid ""
+"Para que el sensor NTC pueda dar una tensión útil que se pueda medir, es "
+"necesario añadir una resistencia de polarización. Esta resistencia se coloca"
+" entre el sensor y masa como muestra el siguiente esquema."
+msgstr ""
+"Per tal que el sensor NTC doni un voltatge útil que es pugui mesurar, cal "
+"afegir una resistència de polarització. Aquesta resistència es col·loca "
+"entre el sensor i la massa com es mostra el següent esquema."
+
+#: ../../source/control-sensor-temp.rst:212
+msgid ""
+"**Autocalentamiento:** El autocalentamiento consiste en el aumento de "
+"temperatura que produce en el sensor NTC la corriente que se le suministra "
+"para poder medir la temperatura. Si el sensor recibe mucha corriente, esta "
+"aumentará de forma artificial la temperatura interior produciendo una "
+"lectura de temperatura mayor que la temperatura real."
+msgstr ""
+"** Autoescalfament: ** El calefacció consisteix en l’augment de la "
+"temperatura produïda al sensor NTC El corrent subministrat per poder mesurar"
+" la temperatura. Si el sensor rep molt de corrent, augmentarà artificialment"
+" la temperatura interior produint una lectura de temperatura superior a la "
+"temperatura real."
+
+#: ../../source/control-sensor-temp.rst:220
+msgid ""
+"Si por el contrario la resistencia recibe poca corriente, la señal de "
+"tensión será difícil de medir y el ruido eléctrico producirá también errores"
+" de medición."
+msgstr ""
+"Si, al contrari, la resistència rep poc corrent, el senyal de tensió serà "
+"difícil de mesurar i el soroll elèctric també produirà errors de mesura."
+
+#: ../../source/control-sensor-temp.rst:224
+msgid ""
+"Los valores de resistencia entre 5k ohmios y 50k Ohmios mantienen un buen "
+"equilibrio entre estos dos efectos contrarios cuando funcionan en el rango "
+"de 0 a 5 voltios. Por esa razón se ha escogido un sensor NTC de 10k Ohmios."
+msgstr ""
+"Els valors de resistència entre 5k ohms i 50k ohms mantenen un bon equilibri"
+" entre aquests dos efectes oposats quan treballen entre 0 i 5 volts. Per "
+"això, s'ha escollit un sensor NTC de 10k ohms."
+
+#: ../../source/control-sensor-temp.rst:229
+msgid ""
+"**Resistencia de polarización** El valor de la resistencia de polarización "
+"debe ser aproximadamente igual al valor de resistencia del sensor NTC a "
+"temperatura ambiente. de esta forma se podrá medir con mayor precisión el "
+"rango de temperaturas cercanas a la temperatura ambiente. En este montaje se"
+" ha escogido un sensor NTC que tiene una resistencia de 10k Ohmios a 20ºC y "
+"por lo tanto la resistencia de polarización tiene ese mismo valor."
+msgstr ""
+"** Resistència a la polarització ** El valor de la resistència a la "
+"polarització ha de ser aproximadament igual al valor de resistència del "
+"sensor NTC a temperatura ambient. D’aquesta manera, es pot mesurar amb més "
+"precisió l’interval de temperatura a prop de la temperatura ambient. En "
+"aquest muntatge s'ha escollit un sensor NTC que té una resistència de 10k "
+"ohm a 20 ºC i, per tant, la resistència a la polarització té aquest mateix "
+"valor."
+
+#: ../../source/control-sensor-temp.rst:238
+msgid ""
+"**Entrada analógica** La señal del sensor NTC se ha conectado a una entrada "
+"analógica que puede medir con precisión tensiones en el rango de 0 a 5 "
+"voltios. Una entrada digital no puede medir más que dos valores distintos de"
+" tensión de entrada y por lo tanto no es capaz de leer correctamente el "
+"valor de tensión de un sensor NTC."
+msgstr ""
+"** Entrada analògica ** El senyal del sensor NTC s'ha connectat a una "
+"entrada analògica que pot mesurar amb precisió les tensions entre 0 i 5 "
+"volts. Una entrada digital no pot mesurar més de dos valors de tensió "
+"d'entrada diferents i, per tant, no és capaç de llegir correctament el valor"
+" de tensió d'un sensor NTC."
+
+#: ../../source/control-sensor-temp.rst:245
+msgid ""
+"El siguiente programa permite medir la tensión generada por el sensor NTC"
+msgstr "El següent programa permet mesurar la tensió generada pel sensor NTC"
+
+#: ../../source/control-sensor-temp.rst:276
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/control-sensor-temp.rst:278
+msgid ""
+"Montar el esquema de conexión del sensor de temperatura con el transistor de"
+" calentamiento. Completar la tabla siguiente con los valores de tensión "
+"medidos en el sensor para diferentes potencias del transistor de "
+"calentamiento."
+msgstr ""
+"Muntar l'esquema de connexió del sensor de temperatura amb el transistor de "
+"calefacció. Completa la taula següent amb els valors de tensió mesurats al "
+"sensor per a diferents potències del transistor de calefacció."
+
+#: ../../source/control-sensor-temp.rst:284
+msgid "Transistor"
+msgstr "Transistor"
+
+#: ../../source/control-sensor-temp.rst:284
+msgid "Tensión NTC"
+msgstr "Tensió NTC"
+
+#: ../../source/control-sensor-temp.rst:288
+msgid "100"
+msgstr "100"
+
+#: ../../source/control-sensor-temp.rst:289
+msgid "150"
+msgstr "150"
+
+#: ../../source/control-sensor-temp.rst:290
+msgid "200"
+msgstr "200"
+
+#: ../../source/control-sensor-temp.rst:291
+msgid "250"
+msgstr "250"
+
+#: ../../source/control-sensor-temp.rst:294
+msgid ""
+"Cada vez que cambie la potencia del calentador, será necesario esperar a que"
+" la tensión medida en el sensor NTC se estabilice. La duración depende de "
+"los componentes y puede ser de dos o tres minutos para conseguir la máxima "
+"exactitud."
+msgstr ""
+"Cada vegada que canviï la potència del calefactor, caldrà esperar que la "
+"tensió mesurada al sensor NTC s’estabilitzi. La durada depèn dels components"
+" i pot ser de dos o tres minuts per aconseguir la màxima precisió."
+
+#: ../../source/control-sensor-temp.rst:333
+msgid ""
+"El siguiente programa controla en lazo cerrado la temperatura del sensor. El"
+" esquema de funcionamiento se denomina todo/nada. Al comenzar, el programa "
+"enciende el calentador a máxima potencia. Cuando la temperatura supera el "
+"valor deseado, el calentador se apaga por completo."
+msgstr ""
+"El programa següent controla la temperatura del sensor en bucle tancat. "
+"L’esquema operatiu s’anomena tot/res. Al principi, el programa il·lumina el "
+"calefactor a la màxima potència. Quan la temperatura supera el valor "
+"desitjat, el calefactor està completament apagat."

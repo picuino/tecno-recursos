@@ -1,0 +1,379 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-08-29 12:40+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/picuino-uno-key1.rst:12
+msgid "Pulsadores"
+msgstr "Botó"
+
+#: ../../source/picuino-uno-key1.rst:15
+msgid "Objetivos"
+msgstr "Els pendents"
+
+#: ../../source/picuino-uno-key1.rst:16
+msgid "Leer el estado de un pulsador."
+msgstr "Llegiu l’estat d’un botó."
+
+#: ../../source/picuino-uno-key1.rst:17
+msgid "Programar Arduino para que responda a las pulsaciones del usuario."
+msgstr "Programa Arduino per respondre a les pulsacions de l'usuari."
+
+#: ../../source/picuino-uno-key1.rst:21
+msgid "Pulsadores del shield Picuino UNO"
+msgstr "Shield Picuino Buttons One"
+
+#: ../../source/picuino-uno-key1.rst:22
+msgid ""
+"El shield dispone de un teclado de seis pulsadores. Cada pulsador se "
+"identifica con un número o con una constante que lleva su nombre. El nombre "
+"de cada pulsador puede verse en la serigrafía de la placa de circuito "
+"impreso. Las seis constantes y números que representan a los pulsadores son "
+"los siguientes :"
+msgstr ""
+"L’escut té un teclat de sis botons. Cada botó s’identifica amb un número o "
+"una constant que porta el seu nom. El nom de cada botó es pot veure a la "
+"pantalla d'impressió de la placa del circuit imprès. Les sis constants i "
+"números que representen els botons són les següents:"
+
+#: ../../source/picuino-uno-key1.rst:29
+msgid "Constante"
+msgstr "Constant"
+
+#: ../../source/picuino-uno-key1.rst:29
+msgid "Pulsador"
+msgstr "Botó"
+
+#: ../../source/picuino-uno-key1.rst:31 ../../source/picuino-uno-key1.rst:82
+msgid "KEY_LEFT"
+msgstr "Key_left"
+
+#: ../../source/picuino-uno-key1.rst:31 ../../source/picuino-uno-key1.rst:82
+msgid "1"
+msgstr "1"
+
+#: ../../source/picuino-uno-key1.rst:33 ../../source/picuino-uno-key1.rst:84
+msgid "KEY_RIGHT"
+msgstr "Key_right"
+
+#: ../../source/picuino-uno-key1.rst:33 ../../source/picuino-uno-key1.rst:84
+msgid "2"
+msgstr "2"
+
+#: ../../source/picuino-uno-key1.rst:35 ../../source/picuino-uno-key1.rst:86
+msgid "KEY_UP"
+msgstr "Key_up"
+
+#: ../../source/picuino-uno-key1.rst:35
+msgid "3"
+msgstr "3"
+
+#: ../../source/picuino-uno-key1.rst:37 ../../source/picuino-uno-key1.rst:88
+msgid "KEY_DOWN"
+msgstr "Key_down"
+
+#: ../../source/picuino-uno-key1.rst:37 ../../source/picuino-uno-key1.rst:86
+msgid "4"
+msgstr "4"
+
+#: ../../source/picuino-uno-key1.rst:39 ../../source/picuino-uno-key1.rst:90
+msgid "KEY_ENTER"
+msgstr "Key_enter"
+
+#: ../../source/picuino-uno-key1.rst:39
+msgid "5"
+msgstr "5"
+
+#: ../../source/picuino-uno-key1.rst:41 ../../source/picuino-uno-key1.rst:92
+msgid "KEY_BACK"
+msgstr "Key_back"
+
+#: ../../source/picuino-uno-key1.rst:41
+msgid "6"
+msgstr "6"
+
+#: ../../source/picuino-uno-key1.rst:44
+msgid "El número de pulsador se representará en el manual como ``keyNum``."
+msgstr "El nombre de botons es representarà al manual com a `` keynum``."
+
+#: ../../source/picuino-uno-key1.rst:48
+msgid "La función  ``keyPressed``"
+msgstr "La funció `` keyPressed``"
+
+#: ../../source/picuino-uno-key1.rst:52
+msgid ""
+"Esta función devuelve el valor de un pulsador. Devuelve el valor 1 si el "
+"pulsador está presionado y 0 si no lo está. El valor de esta función filtra "
+"el ruido eléctrico y los rebotes."
+msgstr ""
+"Aquesta funció retorna el valor d’un botó. Retorna el valor 1 Si es prem el "
+"botó i 0 si no ho és. El valor d’aquesta funció filtra el soroll elèctric i "
+"els rebots."
+
+#: ../../source/picuino-uno-key1.rst:57
+msgid ""
+"El **ruido eléctrico** son interferencias asociadas a los motores "
+"eléctricos, a los interruptores, a las modernas lámparas de bajo consumo o a"
+" los teléfonos móviles. Cualquiera de estos aparatos puede provocar que "
+"durante un breve momento un pulsador parezca estar presionado aunque no sea "
+"cierto. Es muy recomendable filtrar este ruido para evitar pulsaciones "
+"'falsas' o 'fantasmas'."
+msgstr ""
+"El soroll elèctric ** ** són interferències associades a motors elèctrics, "
+"interruptors, llums modernes de baix consum o telèfons mòbils. Qualsevol "
+"d'aquests dispositius pot fer que es prengui un botó durant un breu moment, "
+"fins i tot si no és cert. És molt recomanable filtrar aquest soroll per "
+"evitar pulsacions \"falses\" o \"fantasmes\"."
+
+#: ../../source/picuino-uno-key1.rst:65
+msgid ""
+"Los rebotes son un fenómeno que provoca que el pulsador no haga contacto "
+"durante un período corto de tiempo, unos milisegundos, justo después de "
+"presionarle porque la chapa metálica 'rebota' y deja de hacer contacto. Este"
+" fenómeno puede provocar que se interprete una pulsación como dos "
+"pulsaciones, por lo que es recomendable que se filtre para eliminarlo."
+msgstr ""
+"Els rebots són un fenomen que fa que el botó no es posi en contacte durant "
+"un període de temps curt, alguns mil·lisegons, just després de prémer -lo "
+"perquè la xapa metàl·lica \"rebot\" i deixa de posar -se en contacte. Aquest"
+" fenomen pot fer que la pulsació s’interpreti com a dues pulsacions, de "
+"manera que es recomana filtrar -la per eliminar -la."
+
+#: ../../source/picuino-uno-key1.rst:72
+msgid ""
+"La desventaja de este filtro de ruido consiste en que esta función tiene un "
+"retardo de 20 milisegundos en responder desde que cambia el estado real del "
+"pulsador hasta que devuelve el valor correcto. Si se utiliza el argumento "
+"``KEY_ALL``, la función devuelve un número que depende de la suma de los "
+"pulsadores que se encuentren presionados."
+msgstr ""
+"L’inconvenient d’aquest filtre de soroll és que aquesta funció té un retard "
+"de 20 mil·lisegons per respondre ja que l’estat real del botó canvia fins "
+"que retorna el valor correcte. Si s'utilitza l'argument `` key_all``, la "
+"funció retorna un número que depèn de la suma dels botons que es pressionen."
+
+#: ../../source/picuino-uno-key1.rst:80
+msgid "Pulsador presionado"
+msgstr "Botó de pressió"
+
+#: ../../source/picuino-uno-key1.rst:80
+msgid "Valor decimal"
+msgstr "Valor decimal"
+
+#: ../../source/picuino-uno-key1.rst:80
+msgid "Valor binario"
+msgstr "Valor binari"
+
+#: ../../source/picuino-uno-key1.rst:82
+msgid "0b000001"
+msgstr "0B000001"
+
+#: ../../source/picuino-uno-key1.rst:84
+msgid "0b000010"
+msgstr "0B000010"
+
+#: ../../source/picuino-uno-key1.rst:86
+msgid "0b000100"
+msgstr "0B000100"
+
+#: ../../source/picuino-uno-key1.rst:88
+msgid "8"
+msgstr "8"
+
+#: ../../source/picuino-uno-key1.rst:88
+msgid "0b001000"
+msgstr "0B001000"
+
+#: ../../source/picuino-uno-key1.rst:90
+msgid "16"
+msgstr "16"
+
+#: ../../source/picuino-uno-key1.rst:90
+msgid "0b010000"
+msgstr "0B010000"
+
+#: ../../source/picuino-uno-key1.rst:92
+msgid "32"
+msgstr "32"
+
+#: ../../source/picuino-uno-key1.rst:92
+msgid "0b100000"
+msgstr "0B100000"
+
+#: ../../source/picuino-uno-key1.rst:95
+msgid ""
+"Si se encuentra presionado el pulsador 4, la función devolverá el valor 8. "
+"Con el pulsador 6 presionado, la función devolverá el valor 32. Si se "
+"presionan los dos pulsadores 4 y 6 a la vez, la función devolverá la suma de"
+" 8 y 32, es decir 40."
+msgstr ""
+"Si es prem el botó, la funció retornarà el valor 8. Amb el botó 6 "
+"pressionat, la funció retornarà el valor 32. Si els dos botons 4 i 6 es "
+"premsen alhora, la funció retornarà la suma de 8 i 32, és a dir, 40."
+
+#: ../../source/picuino-uno-key1.rst:100 ../../source/picuino-uno-key1.rst:204
+msgid "|keyNum|"
+msgstr "; Keynum |"
+
+#: ../../source/picuino-uno-key1.rst:102 ../../source/picuino-uno-key1.rst:206
+msgid "|KEY_VALUES|"
+msgstr "; Key_values ​​|"
+
+#: ../../source/picuino-uno-key1.rst:106
+msgid "Encender un led con un pulsador"
+msgstr "Enceneu un LED amb un botó"
+
+#: ../../source/picuino-uno-key1.rst:108
+msgid ""
+"El siguiente programa encenderá el led D1 cuando se presione el pulsador 1 "
+"(``KEY_LEFT``)"
+msgstr ""
+"El programa següent s'encendrà el LED D1 quan es premeu el botó 1 (`` "
+"key_left`))"
+
+#: ../../source/picuino-uno-key1.rst:131
+msgid "Apagar un led con un pulsador"
+msgstr "Apagueu un LED amb un botó"
+
+#: ../../source/picuino-uno-key1.rst:133
+msgid ""
+"El siguiente programa realizará la función contraria al anterior, apagará el"
+" led D1 cuando se pulse el pulsador 1 (``KEY_LEFT``)"
+msgstr "El programa següent realitzarà la funció contrària a l'anterior"
+
+#: ../../source/picuino-uno-key1.rst:155
+msgid ""
+"El lenguaje de Arduino permite escribir la última función del programa "
+"anterior de otras formas. Estas son algunas alternativas, todas consiguen el"
+" mismo resultado."
+msgstr ""
+"El llenguatge d’Arduino permet escriure la darrera funció del programa "
+"anterior en altres formes. Aquestes són algunes alternatives, totes reben el"
+" mateix resultat."
+
+#: ../../source/picuino-uno-key1.rst:180
+msgid "Como se puede ver, el lenguaje es muy rico en expresiones."
+msgstr "Com veieu, el llenguatge és molt ric en expressions."
+
+#: ../../source/picuino-uno-key1.rst:184
+msgid "La función ``keyValue``"
+msgstr "La funció `` keyValue ''"
+
+#: ../../source/picuino-uno-key1.rst:188
+msgid ""
+"Esta función es semejante a la función ``keyValue`` vista anteriormente. "
+"Devuelve el valor de un pulsador. Si el pulsador está presionado, devuelve "
+"el valor 1 si el pulsador no está presionado devuelve el valor 0. Esta "
+"función no filtra el ruido eléctrico como lo hace la función "
+"``keyPressed()``."
+msgstr ""
+"Aquesta funció és similar a la `` keyValue '' abans. Retorna el valor d’un "
+"botó. Si es prem el botó, retorna el valor 1 Si no es prem el botó retorna "
+"el valor 0. Aquesta funció no filtra el soroll elèctric com ho fa la funció "
+"`` keyPressed () ``."
+
+#: ../../source/picuino-uno-key1.rst:196
+msgid ""
+"Esta función devuelve el estado inmediato del pulsador y por lo tanto puede "
+"devolver valores falsos producidos por el ruido eléctrico o los rebotes."
+msgstr ""
+"Aquesta funció retorna l'estat immediat del botó i, per tant, pot retornar "
+"valors falsos produïts per soroll elèctric o rebots."
+
+#: ../../source/picuino-uno-key1.rst:200
+msgid ""
+"Como ventaja, esta función devuelve el valor del pulsador sin retraso de "
+"tiempo en la respuesta."
+msgstr ""
+"Com a avantatge, aquesta funció retorna el valor del botó sense retard de "
+"temps en la resposta."
+
+#: ../../source/picuino-uno-key1.rst:211
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/picuino-uno-key1.rst:212
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Programa el codi necessari per resoldre els problemes següents."
+
+#: ../../source/picuino-uno-key1.rst:214
+msgid ""
+"Encender el led D1 con el pulsador 1 y apagar el led D1 con el pulsador 2. "
+"Corregir los errores sintácticos del siguiente programa."
+msgstr ""
+"Enceneu el LED D1 amb el botó 1 i desactiveu el LED D1 amb el botó 2. "
+"Corregiu els errors sintàctics del programa següent."
+
+#: ../../source/picuino-uno-key1.rst:237
+msgid ""
+"Encender todos los ledes de la siguiente manera. El led D1 se encenderá al "
+"pulsar el pulsador 1. A continuación el led D2 se encenderá al pulsar el "
+"pulsador 2. El programa seguirá de esta manera hasta llegar a encender todos"
+" los led. Completar el programa que aparece a continuación."
+msgstr ""
+"Enceneu tots els LED de la següent manera. El LED D1 s’encendrà quan premeu "
+"el botó 1. Aleshores el LED D2 s’encendrà quan premeu el botó 2. El programa"
+" continuarà d’aquesta manera fins que activeu tots els LED. Completeu el "
+"programa que apareix a continuació."
+
+#: ../../source/picuino-uno-key1.rst:266
+msgid ""
+"Al comenzar, encender el led D1. Cuando se presione el pulsador 1, se "
+"apagará el led D1 y se encenderá el led siguiente. La luz se moverá así "
+"hacia la derecha, hasta volver a comenzar en el led D1 otra vez. Completar "
+"el programa que aparece a continuación según los comentarios."
+msgstr ""
+"Al principi, enceneu el LED D1. Quan es prem el primer botó, el LED D1 "
+"s’apagarà i el següent LED s’encendrà. La llum es mourà així a la dreta, "
+"fins que torni a començar a la LED D1 de nou. Completeu el programa que "
+"apareix a continuació segons els comentaris."
+
+#: ../../source/picuino-uno-key1.rst:300
+msgid ""
+"Modificar el programa anterior para que los ledes se enciendan desde el D6 "
+"hasta el D1. Cuando llegue el turno de apagar el led D1, se encenderá de "
+"nuevo el led D6."
+msgstr ""
+"Modifiqueu el programa anterior perquè els LED es mostrin de D6 a D1. Quan "
+"arribi el torn de la LED D1, el LED D6 tornarà a encendre."
+
+#: ../../source/picuino-uno-key1.rst:306
+msgid ""
+"Los tres ledes D1, D2 y D3 se encenderán cuando se pulse a la vez los tres "
+"pulsadores 1, 2 y 3. Utiliza el operador '&&' que evalúa si se producen dos "
+"condiciones a la vez. Completar el programa que aparece a continuación según"
+" los comentarios."
+msgstr ""
+"Els tres LEDES D1, D2 i D3 s’encendran quan els tres botons 1, 2 i 3. "
+"Utilitzeu l’operador '&&&&&&&AL que avalua si dues condicions es produeixen "
+"alhora. Completeu el programa que apareix a continuació segons els "
+"comentaris."
+
+#: ../../source/picuino-uno-key1.rst:337
+msgid ""
+"Después de pulsar en orden la secuencia de pulsadores 2, 4 y 1, una "
+"cerradura electrónica se abrirá. La apertura se indicará encendiendo en "
+"secuencia los ledes rojo, amarillo y verde, uno cada segundo. Completar los "
+"huecos del programa que aparece a continuación según los comentarios."
+msgstr ""
+"Després de prémer la seqüència del botó 2, 4 i 1, s’obrirà un bloqueig "
+"electrònic. L’obertura s’indicarà il·luminant els LEDs vermells, grocs i "
+"verds, un cada segon. Completa els forats del programa que apareix a "
+"continuació segons els comentaris."

@@ -1,0 +1,423 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/arduprog/troubleshooting.rst:9
+msgid "Solución de problemas"
+msgstr "Resolució de problemes"
+
+#: ../../source/arduprog/troubleshooting.rst:11
+msgid ""
+"Lo más habitual es que los programas y circuitos no funcionen en el primer "
+"intento. Esto le ocurre hasta a los más experimentados, nadie se libra de la"
+" `ley de Murphy <https://es.wikipedia.org/wiki/Ley_de_Murphy>`__."
+msgstr ""
+"El més comú és que els programes i els circuits no funcionen en el primer "
+"intent. Això passa fins i tot als més experimentats, ningú no es desfà de la"
+" 'Llei Murphy <https://es.wikipedia.org/wiki/ley_de_murphy>`__."
+
+#: ../../source/arduprog/troubleshooting.rst:16
+msgid ""
+"Los fallos más frecuentes y también los más difíciles de encontrar, suelen "
+"ser a su vez los más simples. Son fallos del tipo ¿por qué no funciona esta "
+"televisión? sin darse cuenta de que no está conectada."
+msgstr ""
+"Els fracassos més freqüents i també els més difícils de trobar solen ser els"
+" més senzills. Són fallades de tipus Per què funciona aquesta televisió? "
+"Sense adonar -se que no està connectat."
+
+#: ../../source/arduprog/troubleshooting.rst:21
+msgid ""
+"A continuación se presenta una lista de los errores más comunes para que "
+"pueda servir de guía para encontrar esos fallos que se resisten y tanto "
+"trabajo dan."
+msgstr ""
+"A continuació, es mostra una llista dels errors més habituals de manera que "
+"pot orientar -se per trobar aquells fracassos que resisteixen i tanta feina."
+
+#: ../../source/arduprog/troubleshooting.rst:26
+msgid "¿Está Conectado?"
+msgstr "Està connectat?"
+
+#: ../../source/arduprog/troubleshooting.rst:27
+msgid ""
+"Hay múltiples versiones de este fallo tan común. En este punto hay que "
+"destacar que la comprobación debe hacerse de forma que se asegure la buena "
+"conexión con total fiabilidad. No basta con mirar si el cable está en su "
+"sitio. También hay que comprobar que existe continuidad, se debe comprobar "
+"con un polímetro que llega la señal y que no hay otras conexiones "
+"indeseadas, como un cortocircuito. Antes de continuar buscando fallos más "
+"complejos debe quedar completamente comprobado que la conexión es correcta. "
+"A continuación se encuentra una lista con versiones muy comunes de este "
+"problema."
+msgstr ""
+"Hi ha múltiples versions d’aquest fracàs comú. En aquest moment cal destacar"
+" que la verificació s’ha de fer de manera que es garanteixi la bona connexió"
+" amb la fiabilitat total. No n’hi ha prou de veure si el cable està al seu "
+"lloc. També cal verificar que hi hagi continuïtat, s’ha de comprovar amb una"
+" política que arribi el senyal i que no hi hagi altres connexions no "
+"desitjades, com ara un curtcircuit. Abans de continuar buscant fallades més "
+"complexes, s’hauria de demostrar completament que la connexió és correcta. A"
+" continuació es troba una llista de versions molt comunes d’aquest problema."
+
+#: ../../source/arduprog/troubleshooting.rst:41
+msgid "¿Está conectada la alimentación y tiene la tensión correcta?"
+msgstr "El menjar està connectat i té la tensió correcta?"
+
+#: ../../source/arduprog/troubleshooting.rst:42
+msgid ""
+"La comprobación más sencilla y más segura consiste en medir la tensión de "
+"alimentación del circuito con un polímetro. Si el circuito dispone de un led"
+" para comprobar la presencia de alimentación también servirá de ayuda, pero "
+"con un led no se puede asegurar que la tensión es la correcta."
+msgstr ""
+"El control més senzill i segur consisteix a mesurar la tensió d’alimentació "
+"del circuit amb un canter. Si el circuit té un LED per comprovar la "
+"presència de menjar, també us ajudarà, però amb un LED no es pot assegurar "
+"que la tensió sigui correcta."
+
+#: ../../source/arduprog/troubleshooting.rst:48
+msgid ""
+"En general no es suficiente saber que el circuito está conectado, porque "
+"esto puede despistar. Imaginemos una placa conectada a un cable USB que la "
+"alimenta. Evidentemente la placa está conectada, pero ¿Está conectado el "
+"otro extremo del cable? ¿El hub al que está conectado el cable está a su vez"
+" conectado al ordenador? ¿El ordenador está en marcha? ¿Alguno de los cables"
+" está cortado? ¿Alguno de los interruptores de encendido no está en posición"
+" encendido o se ha quedado a medio camino? Lo más seguro es comprobar la "
+"tensión de alimentación en el circuito final."
+msgstr ""
+"En general, no n’hi ha prou de saber que el circuit està connectat, perquè "
+"això pot enganyar. Imaginem una placa connectada a un cable USB que "
+"l’alimenta. Evidentment, la placa està connectada, però està connectat "
+"l’altre final del cable? El centre al qual està connectat el cable està "
+"connectat a l'ordinador? L’ordinador està en marxa? Es talla algun dels "
+"cables? Alguns dels interruptors d’encesa no estan en una posició ON o s’ha "
+"quedat a la meitat? El més segur és comprovar la tensió d’alimentació al "
+"circuit final."
+
+#: ../../source/arduprog/troubleshooting.rst:64
+msgid "¿Está conectada la señal analógica?"
+msgstr "El senyal analògic està connectat?"
+
+#: ../../source/arduprog/troubleshooting.rst:65
+msgid ""
+"Al igual que en el punto anterior, lo más seguro es medir con un polímetro "
+"el nivel de señal que llega al circuito. Al intentar medir una señal "
+"analógica, siempre mide lo mismo o solo se recibe ruido. En este caso hay "
+"que comprobar varias conexiones:"
+msgstr ""
+"Com en el punt anterior, el més segur és mesurar el nivell de senyal que "
+"arriba al circuit. Quan s’intenta mesurar un senyal analògic, sempre mesura "
+"el mateix o només es rep el soroll. En aquest cas, heu de comprovar diverses"
+" connexions:"
+
+#: ../../source/arduprog/troubleshooting.rst:71
+msgid "¿Está conectada la masa?"
+msgstr "La massa està connectada?"
+
+#: ../../source/arduprog/troubleshooting.rst:72
+msgid "¿Están conectadas las señales de referencia de tensión V+ y V-?"
+msgstr "Els senyals de referència de tensió estan connectats V+ i V-?"
+
+#: ../../source/arduprog/troubleshooting.rst:73
+msgid ""
+"¿Tiene continuidad el cable que va desde el sensor hasta el "
+"microcontrolador?"
+msgstr "Continua el cable que va del sensor al microcontrolador?"
+
+#: ../../source/arduprog/troubleshooting.rst:75
+msgid "¿Hay algún cortocircuito que no permite que llegue la señal?"
+msgstr "Hi ha un curtcircuit que no permeti arribar el senyal?"
+
+#: ../../source/arduprog/troubleshooting.rst:79
+msgid "¿Está conectada la señal a la patilla correcta?"
+msgstr "El senyal està connectat al passador adequat?"
+
+#: ../../source/arduprog/troubleshooting.rst:80
+msgid ""
+"La primera entrada del puerto RA es RA0 y la segunda RA1 esto puede llevar a"
+" confusión en alguna ocasión ¿Está la señal conectada a su entrada? Si hay "
+"una confusión en el puerto de entrada/salida comienzan los problemas ¿Está "
+"conectada a RA o a RB? En algunos microcontroladores es posible asignar las "
+"entradas/salidas a las patillas por software ¿Está bien configurada la "
+"patilla de entrada/salida?"
+msgstr ""
+"La primera entrada de Puerto Ra0 i la segona RA1 pot provocar confusió en "
+"ocasions, el senyal està connectat a la seva entrada? Si hi ha una confusió "
+"al port d’entrada/sortida, comencen els problemes. Esteu connectat a RA o "
+"RB? En alguns microcontroladors és possible assignar les entrades/sortides "
+"als pints per programari, es configura el pin d'entrada/sortida?"
+
+#: ../../source/arduprog/troubleshooting.rst:90
+msgid "¿Está conectada la resistencia de Pull-Up o Pull-Down?"
+msgstr "Està connectada la resistència de desplegament o desplegable?"
+
+#: ../../source/arduprog/troubleshooting.rst:91
+msgid ""
+"Ciertas salidas necesitan tener una resistencia conectada a la alimentación "
+"para que la salida pueda dar señal. Es el caso de algunos circuitos "
+"comparadores como el LM311 (salida en colector abierto) o algunas salidas "
+"especiales de microcontroladores (salida en drenador abierto). La mejor "
+"forma de comprobar el funcionamiento correcto es comprobar la tensión en la "
+"patilla con un polímetro. En estos casos una lectura detallada de la hoja de"
+" características (datasheet) puede evitar cometer este fallo."
+msgstr ""
+"Algunes sortides han de tenir una resistència connectada a l'alimentació "
+"perquè la sortida pugui donar senyal. Aquest és el cas d'alguns circuits "
+"comparatius com LM311 (sortida del col·lector obert) o algunes sortides "
+"especials de microcontroladors (sortida de desguàs obert). La millor manera "
+"de comprovar l’operació correcta és comprovar la tensió del passador amb un "
+"canter. En aquests casos, una lectura detallada del full de característiques"
+" (full de dades) pot evitar cometre aquest fracàs."
+
+#: ../../source/arduprog/troubleshooting.rst:103
+msgid "¿Está configurada la patilla como entrada o como salida?"
+msgstr "El PIN està configurat com a entrada o com a sortida?"
+
+#: ../../source/arduprog/troubleshooting.rst:104
+msgid ""
+"Una confusión en la configuración y podemos pasar horas buscando el "
+"problema. Lo más sencillo es comprobar primero la configuración de los pines"
+" de entrada y salida."
+msgstr ""
+"Una confusió en la configuració i podem passar hores buscant el problema. El"
+" més senzill és comprovar primer la configuració dels pins d’entrada i "
+"sortida."
+
+#: ../../source/arduprog/troubleshooting.rst:109
+msgid "¿Está correctamente configurado el pin MCLR?"
+msgstr "Es configura correctament el pin MCLR?"
+
+#: ../../source/arduprog/troubleshooting.rst:110
+msgid ""
+"¿Está correctamente configurado el pin LVP para programación con bajo "
+"voltaje?"
+msgstr ""
+"Es configura correctament el pin LVP per a la programació de baixa tensió?"
+
+#: ../../source/arduprog/troubleshooting.rst:115
+msgid "¿Hay alguna entrada al aire que recoja ruido ambiente?"
+msgstr "Hi ha alguna entrada d'aire que reculli soroll ambient?"
+
+#: ../../source/arduprog/troubleshooting.rst:116
+msgid ""
+"Se debe asegurar que todas las entradas digitales y las entradas analógicas "
+"estén por defecto conectadas a masa. Las entradas al aire pueden provocar "
+"fallos intermitentes muy difíciles de encontrar y mayor consumo del "
+"circuito. En especial los pines MCLR y LPV pueden provocar fallos que "
+"provocan el reset del microcontrolador si no están correctamente "
+"configurados y conectados a Vdd o GND."
+msgstr ""
+"Cal assegurar -se que totes les entrades digitals i les entrades analògiques"
+" estan connectades per defecte a la massa. Les entrades a l’aire poden "
+"provocar fallades intermitents molt difícils de trobar i un major consum del"
+" circuit. Especialment els pins MCLR i LPV poden causar fallades que "
+"provoquen el restabliment del microcontrolador si no es configuren "
+"correctament i es connecten a VDD o GND."
+
+#: ../../source/arduprog/troubleshooting.rst:126
+msgid "¿Está la polaridad cambiada?"
+msgstr "Es canvia la polaritat?"
+
+#: ../../source/arduprog/troubleshooting.rst:127
+msgid ""
+"Ciertos conectores obligan a conectar una polaridad concreta. En otros "
+"casos, un conector tiene una sola posición pero los cables están cambiados "
+"de lugar. Una alimentación invertida puede destruir el circuito y una señal "
+"analógica con polaridad invertida no funcionará. ¿La polaridad es correcta?"
+msgstr ""
+"Alguns connectors obliguen a connectar una polaritat específica. En altres "
+"casos, un connector només té una posició, però els cables es canvien. Una "
+"dieta invertida pot destruir el circuit i un senyal analògic amb polaritat "
+"invertida no funcionarà. La polaritat és correcta?"
+
+#: ../../source/arduprog/troubleshooting.rst:134
+msgid ""
+"Las entradas digitales pueden estar activas a nivel alto o a nivel bajo. ¿Es"
+" el nivel lógico correcto?"
+msgstr ""
+"Les entrades digitals poden estar actives a nivell alt o baix. És el nivell "
+"lògic correcte?"
+
+#: ../../source/arduprog/troubleshooting.rst:138
+msgid ""
+"Si la patilla de reset /MCLR está conectada con una resistencia a masa y un "
+"pulsador al positivo (al revés de su conexión normal) a partir de ahí no "
+"funcionará nada. No es frecuente cometer ese error y por la misma razón se "
+"puede perder mucho tiempo intentando encontrar este fallo."
+msgstr ""
+"Si el pin de restabliment /MCLR està connectat amb una resistència de massa "
+"i un botó al positiu (viceversa de la seva connexió normal), res no "
+"funcionarà. No és habitual cometre aquest error i, pel mateix motiu, podeu "
+"perdre molt de temps intentant trobar aquest fracàs."
+
+#: ../../source/arduprog/troubleshooting.rst:144
+msgid ""
+"Si un puerto del microcontrolador está configurado con entradas en Pull-up "
+"(resistencias a positivo) y se conectan los pulsadores externos al positivo "
+"de la alimentación... no funcionará ninguno."
+msgstr ""
+"Si un port de microcontrolador està configurat amb entrades en pull-up "
+"(resistència positiva) i connecta els botons externs al positiu del menjar "
+"... Cap funcionarà."
+
+#: ../../source/arduprog/troubleshooting.rst:150
+msgid "¿Hay cortocircuito?"
+msgstr "Hi ha curtcircuit?"
+
+#: ../../source/arduprog/troubleshooting.rst:151
+msgid ""
+"Puede que el polímetro señale continuidad en los cables, pero si hay un "
+"cortocircuito entre medias entonces el circuito no funcionará. Para "
+"comprobar la continuidad de un componente, hay que desconectar el componente"
+" del circuito. Hay que comprobar que no existen cortocircuitos antes de "
+"comprobar si existe continuidad."
+msgstr ""
+"L’autor pot indicar continuïtat als cables, però si hi ha un curtcircuit "
+"entre el circuit, el circuit no funcionarà. Per comprovar la continuïtat "
+"d’un component, s’ha de desconnectar el component del circuit. Heu de "
+"comprovar que no hi ha curtcircuits abans de comprovar si hi ha continuïtat."
+
+#: ../../source/arduprog/troubleshooting.rst:157
+msgid ""
+"Si este error es frecuente, hay aparatos específicos para comprobar "
+"cortocircuitos. Desde un sencillo milióhmetro hasta un complejo "
+"`reflectómetro de dominio de tiempo "
+"<https://es.wikipedia.org/wiki/Reflect%C3%B3metro_de_dominio_de_tiempo>`__"
+msgstr ""
+"Si aquest error és freqüent, hi ha dispositius específics per comprovar els "
+"curtcircuits. Des d’un sol miliomimeter fins a un complex reflectòmetre de "
+"domini de temps "
+"<https://es.wikipedia.org/wiki/reflect%C3%B3meter_de_de_de_de_tiempo> `` __ "
+"__"
+
+#: ../../source/arduprog/troubleshooting.rst:165
+msgid "¿Se ha comprobado con seguridad?"
+msgstr "S'ha demostrat amb seguretat?"
+
+#: ../../source/arduprog/troubleshooting.rst:166
+msgid ""
+"Vale la pena insistir de nuevo en este punto. En muchas ocasiones se da por "
+"supuesto que existe conexión solo porque vemos el cable en su sitio. Esto no"
+" es suficiente. La comprobación puede llevar muy poco tiempo y ahorrar "
+"bastante esfuerzo y algún dolor de cabeza."
+msgstr ""
+"Val la pena tornar a insistir en aquest moment. En moltes ocasions se suposa"
+" que hi ha una connexió només perquè veiem el cable al seu lloc. Això no és "
+"suficient. El xec pot trigar molt poc i estalviar molt d’esforç i algun mal "
+"de cap."
+
+#: ../../source/arduprog/troubleshooting.rst:172
+msgid ""
+"Es fácil \"ver\" que dos bornas roja y negra están correctamente conectadas "
+"al polímetro... hasta que una mirada más atenta permite ver que las bornas "
+"están conectadas en modo tensión, mientras se intenta medir corriente."
+msgstr ""
+"És fàcil \"veure \" que dos terminals vermells i negres estan connectats "
+"correctament a l'autor ... fins que un aspecte més atent ens permet veure "
+"que els terminals estan connectats en mode de tensió, mentre s'intenta "
+"mesurar el corrent."
+
+#: ../../source/arduprog/troubleshooting.rst:179
+msgid "¿Las variables y constantes están correctamente configuradas?"
+msgstr "Es configuren correctament les variables i les constants?"
+
+#: ../../source/arduprog/troubleshooting.rst:181
+msgid ""
+"Este es un apartado que genera fallos frecuentes y difíciles de encontrar "
+"porque se da por supuesto que debería funcionar correctamente. El lenguaje "
+"por defecto que se tratará es el C, porque es el lenguaje de alto nivel más "
+"frecuentemente utilizado para programar microcontroladores."
+msgstr ""
+"Aquesta és una secció que genera freqüents i difícils de trobar perquè se "
+"suposa que hauria de funcionar correctament. El llenguatge predeterminat que"
+" es tractarà és el C, perquè és el llenguatge d’alt nivell més utilitzat per"
+" programar microcontroladors."
+
+#: ../../source/arduprog/troubleshooting.rst:190
+msgid "¿Las variables pueden contener el dato?"
+msgstr "Les variables poden contenir dades?"
+
+#: ../../source/arduprog/troubleshooting.rst:191
+msgid ""
+"Un bucle de 1000 repeticiones no podrá hacerse con una variable de 8 bits. "
+"Una variable de 8 bits con signo solo podrá contar hasta 127. Los valores "
+"mayores confundirán al bucle al pasar a valer negativo::"
+msgstr ""
+"Un bucle de repetició de 1000 no es pot fer amb una variable de 8 bits. Una "
+"variable de 8 bits amb un signe només pot comptar fins a 127. Els valors "
+"principals confonran el bucle quan el valor negatiu ::"
+
+#: ../../source/arduprog/troubleshooting.rst:199
+msgid ""
+"Este código no imprimirá nada, puesto que i se inicializa con un valor menor"
+" que cero (i = 130 = -126 en formato de 8 bit con signo)."
+msgstr ""
+"Aquest codi no imprimirà res, ja que i s’inicialitza amb un valor inferior a"
+" zero (i = 130 = -126 en format de 8 bits amb signe)."
+
+#: ../../source/arduprog/troubleshooting.rst:202
+msgid ""
+"¿La base de numeración es correcta? Se debe comprobar que estamos utilizando"
+" una base de numeración adecuada::"
+msgstr ""
+"La base de numeració és correcta? Cal comprovar que utilitzem una base de "
+"numeració adequada ::"
+
+#: ../../source/arduprog/troubleshooting.rst:210
+msgid "¿Hay definiciones repetidas o fuera de contexto?"
+msgstr "Hi ha definicions repetides o fora de context?"
+
+#: ../../source/arduprog/troubleshooting.rst:211
+msgid ""
+"Si hay una definición de una constante \"#define\" en un punto del programa "
+"y se vuelve a definir en otro punto, esto puede dar lugar a confusión a la "
+"hora de programar. Las definiciones deben aparecer solo una vez."
+msgstr ""
+"Si hi ha una definició de constant \\ \"#define \" en un moment del programa"
+" i es defineix de nou en un altre punt, això pot comportar confusió quan es "
+"programi. Les definicions han d’aparèixer només una vegada."
+
+#: ../../source/arduprog/troubleshooting.rst:216
+msgid ""
+"Las variables locales de una función se superponen a las variables globales."
+" Hay que llamar a las variables globales de forma que no coincidan con las "
+"variables locales."
+msgstr ""
+"Les variables locals d’una funció sobreposen les variables globals. Hem de "
+"trucar a variables globals perquè no coincideixin amb variables locals."
+
+#: ../../source/arduprog/troubleshooting.rst:223
+msgid "¿Las condiciones están correctamente escritas?"
+msgstr "Les condicions estan escrites correctament?"
+
+#: ../../source/arduprog/troubleshooting.rst:224
+msgid ""
+"Las condiciones son una frecuente fuente de errores. Algunos de los más "
+"frecuentes son:"
+msgstr ""
+"Les condicions són una font freqüent d’errors. Alguns dels més freqüents "
+"són:"
+
+#: ../../source/arduprog/troubleshooting.rst:227
+msgid "Escribir un solo igual  es incorrecto::"
+msgstr "Escriure un únic igual és incorrecte ::"

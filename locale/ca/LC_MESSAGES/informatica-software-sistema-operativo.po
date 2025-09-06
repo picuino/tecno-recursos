@@ -1,0 +1,1331 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-08-29 12:40+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/informatica-software-sistema-operativo.rst:9
+msgid ":index:`Sistema Operativo`"
+msgstr ": Índex: `Sistema operatiu '"
+
+#: ../../source/informatica-software-sistema-operativo.rst:11
+msgid ""
+"Un `sistema operativo <https://es.wikipedia.org/wiki/Sistema_operativo>`__, "
+"también llamado SO, es un **conjunto de programas** que hacen que una "
+"computadora funcione. Es un intermediario que gestiona el hardware de una "
+"computadora para dar servicio al resto de los programas de aplicación que se"
+" ejecutan en ella."
+msgstr ""
+"Un \"sistema operatiu <https://es.wikipedia.org/wiki/system_operative>`__, "
+"també anomenat SO, és un **conjunt de programes** que fan que un ordinador "
+"funcioni. És un intermediari que gestiona el maquinari d’un ordinador per "
+"servir a la resta de programes d’aplicació que s’executen."
+
+#: ../../source/informatica-software-sistema-operativo.rst:18
+msgid ""
+"El sistema operativo es el encargado de **administrar los recursos** de la "
+"computadora, como el procesador, la memoria y los dispositivos de entrada y "
+"salida, para que otros programas puedan utilizarlos de manera eficiente y "
+"coordinada."
+msgstr ""
+"El sistema operatiu s’encarrega de **gestionar els recursos** de "
+"l’ordinador, com ara el processador, la memòria i els dispositius d’entrada "
+"i sortida, de manera que altres programes puguin utilitzar -los de manera "
+"eficient i coordinada."
+
+#: ../../source/informatica-software-sistema-operativo.rst:23
+msgid ""
+"Por ejemplo, el sistema operativo es el encargado de dar un bloque de "
+"memoria vacía a cada programa a medida que estos se van ejecutando. Se "
+"asegura de que cada programa tenga suficiente espacio en la memoria RAM y "
+"que no coincida con los demás. El sistema operativo también se asegura de "
+"que el procesador se reparte entre todos los programas cada poco tiempo, "
+"dando la impresión de que todos se ejecutan a la vez. Cuando varios "
+"programas envían varias páginas para imprimir a una sola impresora, el "
+"sistema operativo se encarga de enviar las páginas de forma ordenada para "
+"que estas no se mezclen y que no se produzca un error. El sistema operativo "
+"realiza una gestión similar cuando varios programas quieren escribir a la "
+"vez en la memoria permanente."
+msgstr ""
+"Per exemple, el sistema operatiu s’encarrega de donar un bloc de memòria "
+"buit a cada programa a mesura que s’executin. Assegura que cada programa té "
+"prou espai a la memòria RAM i que no coincideixi amb els altres. El sistema "
+"operatiu també garanteix que el processador es distribueix entre tots els "
+"programes cada vegada, donant la impressió que tothom s’executa alhora. Quan"
+" diversos programes envien diverses pàgines per imprimir a una sola "
+"impressora, el sistema operatiu és responsable d’enviar les pàgines de "
+"manera ordenada perquè no es barregin i no produeixin un error. El sistema "
+"operatiu realitza una gestió similar quan diversos programes volen escriure "
+"alhora en memòria permanent."
+
+#: ../../source/informatica-software-sistema-operativo.rst:36
+msgid ""
+"El sistema operativo también proporciona una **interfaz de usuario** para "
+"que los usuarios puedan interactuar con la computadora y realizar diferentes"
+" tareas a la vez, como navegar por Internet, escribir documentos, reproducir"
+" música y vídeos, entre otras cosas."
+msgstr ""
+"El sistema operatiu també proporciona una interfície d’usuari ** ** perquè "
+"els usuaris puguin interactuar amb l’ordinador i realitzar diferents tasques"
+" alhora, com ara navegar en línia, escriure documents, reproduir música i "
+"vídeos, entre altres coses."
+
+#: ../../source/informatica-software-sistema-operativo.rst:41
+msgid ""
+"Si no existiese el sistema operativo, cada una de las aplicaciones tendría "
+"que incluir una interfaz propia, un gestor de impresoras propio, un gestor "
+"de memoria propio y ponerse de acuerdo con todos los demás programas para "
+"compartir los recursos de la misma computadora de manera ordenada."
+msgstr ""
+"Si el sistema operatiu no existís, cadascuna de les aplicacions hauria "
+"d’incloure la seva pròpia interfície, un propi gestor d’impressors, un "
+"gestor de memòria pròpia i estar d’acord amb tots els altres programes per "
+"compartir els recursos d’un mateix ordinador de manera ordenada."
+
+#: ../../source/informatica-software-sistema-operativo.rst:51
+msgid "Índice de contenidos:"
+msgstr "Índex de contingut:"
+
+#: ../../source/informatica-software-sistema-operativo.rst:54
+msgid "Componentes de un Sistema Operativo"
+msgstr "Components d’un sistema operatiu"
+
+#: ../../source/informatica-software-sistema-operativo.rst:56
+msgid ""
+"Los `componentes de un sistema operativo "
+"<https://es.wikipedia.org/wiki/Sistema_operativo#Componentes>`__ tienen la "
+"tarea de conseguir que las diferentes partes de una computadora trabajen "
+"juntas."
+msgstr ""
+"Els `components d'un sistema operatiu "
+"<https://es.wikipedia.org/wiki/system_operative# components>`__ tenen la "
+"tasca d’aconseguir que les diferents parts d’un ordinador treballin junts."
+
+#: ../../source/informatica-software-sistema-operativo.rst:70
+msgid "Núcleo o kernel"
+msgstr "Nucli o nucli"
+
+#: ../../source/informatica-software-sistema-operativo.rst:63
+msgid ""
+"El `núcleo <https://es.wikipedia.org/wiki/N%C3%BAcleo_(inform%C3%A1tica)>`__"
+" de un sistema operativo es el encargado de coordinar todos los recursos de "
+"la computadora, tanto los elementos de hardware como los programas de "
+"software. Se encarga de transmitir la información entre todos estos "
+"elementos de la computadora de manera organizada para coordinarlos entre sí."
+msgstr ""
+"El `nucli <https://es.wikipedia.org/wiki/n%C3%Bacleo_ (Informeu%c3%a1tica)>`"
+" __ d'un sistema operatiu és responsable de coordinar tots els recursos de "
+"l'ordinador, tant els elements de maquinari com els programes de programari."
+" És responsable de transmetre la informació entre tots aquests elements de "
+"l’ordinador de manera organitzada per coordinar -los entre ells."
+
+#: ../../source/informatica-software-sistema-operativo.rst:88
+msgid "Controladores de dispositivos"
+msgstr "Controladors de dispositius"
+
+#: ../../source/informatica-software-sistema-operativo.rst:73
+msgid ""
+"Los `controladores de dispositivos "
+"<https://es.wikipedia.org/wiki/Controlador_de_dispositivo>`__ hacen de "
+"intermediarios entre las aplicaciones del usuario y los diferentes "
+"periféricos del ordenador tales como tarjetas gráficas, memorias externas, "
+"impresoras, cámaras web, etc."
+msgstr ""
+"Els \"controladors de dispositius "
+"<https://ca.wikipedia.org/wiki/Controlador_de_dispositiu>`__ fan "
+"intermediaris entre les aplicacions de l'usuari i els diferents perifèrics "
+"de l'ordinador com ara targetes gràfiques, memòries externes, impressores, "
+"càmeres web, etc."
+
+#: ../../source/informatica-software-sistema-operativo.rst:79
+msgid ""
+"Cuando instalamos un controlador de impresora, todos los programas de "
+"aplicación de ese sistema operativo podrán imprimir con esa impresora. Los "
+"primeros sistemas operativos, como MS-DOS, no tenían controladores de "
+"dispositivos para las impresoras, por lo que cada uno de los programas de "
+"aplicación tenía que añadir su propio controlador para todas las impresoras "
+"del mercado. El sistema operativo con controladores de dispositivos ahorra "
+"recursos y facilita la tarea de programar aplicaciones."
+msgstr ""
+"Quan instal·lem un controlador d'impressora, tots els programes d'aplicació "
+"d'aquest sistema operatiu poden imprimir amb aquesta impressora. Els primers"
+" sistemes operatius, com MS-DOS, no tenien controladors de dispositius per a"
+" impressores, de manera que cadascun dels programes d’aplicació havia "
+"d’afegir el seu propi controlador per a totes les impressores del mercat. El"
+" sistema operatiu amb controladors de dispositius estalvia recursos i "
+"facilita la tasca de programar aplicacions."
+
+#: ../../source/informatica-software-sistema-operativo.rst:97
+msgid "Gestión de procesos"
+msgstr "Gestió de processos"
+
+#: ../../source/informatica-software-sistema-operativo.rst:91
+msgid ""
+"El sistema de gestión de procesos se encarga de repartir el tiempo del "
+"microprocesador entre los diferentes programas que se encuentran en marcha. "
+"Gracias a este gestor podemos tener, por ejemplo, 20 programas funcionando a"
+" la vez en la computadora y dará la impresión de que todos corren a la vez, "
+"aunque solo haya un núcleo de CPU atendiendo a todos."
+msgstr ""
+"El sistema de gestió de processos és responsable de distribuir el temps del "
+"microprocessador entre els diferents programes que estan en marxa. Gràcies a"
+" aquest gestor, podem tenir, per exemple, 20 programes que operen alhora a "
+"l’ordinador i donaran la impressió que tothom funciona alhora, tot i que "
+"només hi ha un nucli de la CPU que assisteixi a tothom."
+
+#: ../../source/informatica-software-sistema-operativo.rst:110
+msgid "Gestión de memoria"
+msgstr "Gestió de la memòria"
+
+#: ../../source/informatica-software-sistema-operativo.rst:100
+msgid ""
+"El sistema de `gestión de la memoria "
+"<https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_memoria>`__ se encarga de "
+"reservar bloques de memoria RAM para los programas cuando van a comenzar a "
+"ejecutarse o cuando necesitan espacio para abrir un nuevo archivo de datos."
+msgstr ""
+"El `Sistema de gestió de la memòria "
+"<https://es.wikipedia.org/wiki/gesti%C3%B3n_de_memoria>`__ és responsable "
+"de reservar blocs de memòria RAM quan començaran a executar -se o quan "
+"necessiten espai per obrir un nou fitxer de dades."
+
+#: ../../source/informatica-software-sistema-operativo.rst:106
+msgid ""
+"Otra función del gestor de memoria es realizar la recolección de basura. Se "
+"llama así a la tarea que consiste en liberar de la memoria los bloques que "
+"ya no se estén usando, para dejar espacio a los nuevos programas que quiera "
+"el usuario ejecutar."
+msgstr ""
+"Una altra funció del gestor de memòria és fer recollida d'escombraries. "
+"Aquest és el cas de la tasca que consisteix a alliberar els blocs que ja no "
+"s’utilitzen, per deixar l’espai als nous programes que l’usuari vol "
+"executar."
+
+#: ../../source/informatica-software-sistema-operativo.rst:125
+msgid "Interfaz gráfica de usuario"
+msgstr "Interfície gràfica d'usuari"
+
+#: ../../source/informatica-software-sistema-operativo.rst:113
+msgid ""
+"La `interfaz gráfica de usuario "
+"<https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario>`__, también"
+" llamada GUI, es un programa del sistema operativo encargado de presentar la"
+" información en la pantalla y recoger las acciones que el usuario realiza "
+"con el ratón, teclado o con la pantalla táctil."
+msgstr ""
+"La \"interfície gràfica d'usuari "
+"<https://es.wikipedia.org/wiki/interfaz_gr%C3%A1FICA_DE_USUARIO>`__, també "
+"anomenada GUI, és un programa del sistema operatiu responsable de presentar "
+"la informació a la pantalla i de recopilar les accions que l'usuari realitza"
+" amb el ratolí, el teclat o amb la pantalla tàctil."
+
+#: ../../source/informatica-software-sistema-operativo.rst:119
+msgid ""
+"Este sistema es común a todos los programas, con lo que se consigue un "
+"aspecto homogéneo para todas las aplicaciones del mismo sistema operativo y "
+"simplifica la programación de las aplicaciones porque estas no tienen que "
+"encargarse de representar las ventanas, los botones, la barra de scroll, los"
+" menús y demás elementos gráficos."
+msgstr ""
+"Aquest sistema és comú a tots els programes, que aconsegueix un aspecte "
+"homogeni per a totes les aplicacions del mateix sistema operatiu i "
+"simplifica la programació de les aplicacions perquè no han de tenir cura de "
+"representar les finestres, els botons, la barra de desplaçament, els menús i"
+" altres elements gràfics."
+
+#: ../../source/informatica-software-sistema-operativo.rst:143
+msgid "Gestión de Interrupciones"
+msgstr "Gestió de la interrupció"
+
+#: ../../source/informatica-software-sistema-operativo.rst:128
+msgid ""
+"Las `interrupciones <https://es.wikipedia.org/wiki/Interrupci%C3%B3n>`__ son"
+" señales que envían los periféricos a la computadora para que sean atendidos"
+" por esta. Cuando un usuario de ordenador escribe una tecla en el teclado, "
+"el carácter aparece inmediatamente en la pantalla. Del mismo modo, cuando un"
+" usuario mueve el ratón, el cursor se desplaza inmediatamente por la "
+"pantalla. Cada pulsación de tecla y cada movimiento del ratón generan una "
+"interrupción que alerta a la computadora para que atienda a los datos que "
+"está enviando el periférico."
+msgstr ""
+"Les `interrupcions <https://es.wikipedia.org/wiki/interrupci%C3%B3n>`__ són"
+" signes que els perifèrics envien a l'ordinador per ser tractats per ell. "
+"Quan un usuari de l'ordinador escriu una clau al teclat, el personatge "
+"apareix immediatament a la pantalla. De la mateixa manera, quan un usuari "
+"mou el ratolí, el cursor es mou immediatament a la pantalla. Cada pulsació "
+"clau i cada moviment del ratolí generen una interrupció que alerta a "
+"l’ordinador per abordar les dades que el perifèric envia."
+
+#: ../../source/informatica-software-sistema-operativo.rst:140
+msgid ""
+"Gracias a las interrupciones la computadora no tiene que estar continuamente"
+" atendiendo a cada periférico para comprobar si ya tienen datos listos para "
+"enviar."
+msgstr ""
+"Gràcies a les interrupcions, l’ordinador no ha d’assistir contínuament a "
+"cada perifèric per comprovar si ja tenen dades a punt per enviar."
+
+#: ../../source/informatica-software-sistema-operativo.rst:157
+msgid "Sistema de archivos"
+msgstr "Sistema de lliures"
+
+#: ../../source/informatica-software-sistema-operativo.rst:146
+msgid ""
+"El `sistema de archivos "
+"<https://es.wikipedia.org/wiki/Sistema_de_archivos>`__ es un sistema que "
+"controla cómo se almacenan y recuperan los datos desde las unidades de "
+"almacenamiento como los CD-ROM, las memorias USB o los discos duros. Sin un "
+"sistema de archivos, los datos almacenados en un medio de almacenamiento se "
+"convertirían en un conjunto de información sin manera de distinguir dónde "
+"termina un dato y dónde comienza el siguiente."
+msgstr ""
+"El `Sistema de fitxers <https://es.wikipedia.org/wiki/system_de_archivos>` "
+"__ És un sistema que controla com es guarden i es recuperen les dades de les"
+" unitats d'emmagatzematge com CD-ROM, memòries USB o discos durs. Sense un "
+"sistema de fitxers, les dades emmagatzemades en un medi d’emmagatzematge es "
+"convertirien en un conjunt d’informació sense distingir allà on s’acaba un "
+"fet i on comença el següent."
+
+#: ../../source/informatica-software-sistema-operativo.rst:156
+msgid ""
+"Sus principales funciones son la asignación de espacio a los archivos, la "
+"administración del espacio libre y el acceso a los datos guardados."
+msgstr ""
+"Les seves funcions principals són l’assignació d’espai als arxius, "
+"l’administració de l’espai lliure i l’accés a les dades desades."
+
+#: ../../source/informatica-software-sistema-operativo.rst:164
+msgid "Sistema de seguridad"
+msgstr "Sistema de seguretat"
+
+#: ../../source/informatica-software-sistema-operativo.rst:160
+msgid ""
+"Es el sistema encargado de controlar el acceso de los programas o de los "
+"usuarios a los recursos del sistema. Este sistema se encarga de tareas como "
+"comprobar el usuario y la contraseña correctas para entrar en una sesión del"
+" sistema o para realizar una instalación de programas."
+msgstr ""
+"És el sistema responsable de controlar l’accés de programes o usuaris als "
+"recursos del sistema. Aquest sistema és responsable de tasques com ara "
+"comprovar l’usuari i la contrasenya correctes per introduir una sessió del "
+"sistema o per dur a terme una instal·lació de programes."
+
+#: ../../source/informatica-software-sistema-operativo.rst:172
+msgid "Comunicaciones"
+msgstr "Comunicacions"
+
+#: ../../source/informatica-software-sistema-operativo.rst:167
+msgid ""
+"El sistema de gestión de comunicaciones se encarga de controlar las redes de"
+" datos conectadas a la computadora. Es el encargado de gestionar los "
+"paquetes de datos que se transmiten por la red local cableada, por la red "
+"Wifi o por otras redes de datos como, por ejemplo, Bluetooth."
+msgstr ""
+"El sistema de gestió de comunicacions és responsable de controlar les xarxes"
+" de dades connectades a l’ordinador. És responsable de la gestió de paquets "
+"de dades transmesos per la xarxa local per cable, per la xarxa Wi -FI o "
+"altres xarxes de dades com Bluetooth."
+
+#: ../../source/informatica-software-sistema-operativo.rst:180
+msgid "Programas de sistema"
+msgstr "Programes del sistema"
+
+#: ../../source/informatica-software-sistema-operativo.rst:175
+msgid ""
+"Son aplicaciones que sirven para gestionar el sistema operativo o para "
+"informarse de su estado. Ejemplos de programas del sistema son el explorador"
+" de archivos, el panel de control, la consola de comandos, la aplicación de "
+"ajustes en Android, etc."
+msgstr ""
+"Són aplicacions que serveixen per gestionar el sistema operatiu o per "
+"informar -se del seu estat. Exemples de programes del sistema són explorador"
+" de fitxers, tauler de control, consola de comandaments, aplicació de "
+"configuració d'Android, etc."
+
+#: ../../source/informatica-software-sistema-operativo.rst:183
+msgid "Sistema Operativo :index:`Windows`"
+msgstr "Sistema operatiu: Índex: `Windows '"
+
+#: ../../source/informatica-software-sistema-operativo.rst:184
+#, python-format
+msgid ""
+"`Windows <https://es.wikipedia.org/wiki/Microsoft_Windows>`__ es un sistema "
+"operativo de la empresa Microsoft y es uno de los más populares del mundo. "
+"Se utiliza en la mayoría de las computadoras personales de escritorio y "
+"portátiles, con una cuota de mercado cercana al `87% de los PC en 2020 "
+"<https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category>`__."
+msgstr ""
+"`Windows <https://es.wikipedia.org/wiki/microsoft_windows>`__ És un sistema"
+" operatiu de la companyia de Microsoft i és un dels més populars del món. "
+"S'utilitza en la majoria d'ordinadors personals d'escriptori i portàtils, "
+"amb una quota de mercat propera al 87% de PC el 2020 "
+"<https://en.wikipedia.org/wiki/usage_share_of_opeating_systems#market_share_by_category>"
+" `` __."
+
+#: ../../source/informatica-software-sistema-operativo.rst:191
+
+#: ../../source/informatica-software-sistema-operativo.rst:259
+
+#: ../../source/informatica-software-sistema-operativo.rst:323
+
+#: ../../source/informatica-software-sistema-operativo.rst:404
+msgid "Sus características principales son las siguientes."
+msgstr "Les seves característiques principals són les següents."
+
+#: ../../source/informatica-software-sistema-operativo.rst:196
+
+#: ../../source/informatica-software-sistema-operativo.rst:263
+
+#: ../../source/informatica-software-sistema-operativo.rst:344
+
+#: ../../source/informatica-software-sistema-operativo.rst:412
+
+#: ../../source/informatica-software-sistema-operativo.rst:485
+msgid "Interfaz de usuario"
+msgstr "Interfície d'usuari"
+
+#: ../../source/informatica-software-sistema-operativo.rst:194
+msgid ""
+"Windows tiene una interfaz gráfica de usuario (GUI) intuitiva que está "
+"basada en el uso del ratón y el teclado, aunque también permite el uso de "
+"una pantalla táctil."
+msgstr ""
+"Windows té una interfície d'usuari intuïtiva (GUI) que es basa en l'ús del "
+"ratolí i del teclat, tot i que també permet l'ús d'una pantalla tàctil."
+
+#: ../../source/informatica-software-sistema-operativo.rst:206
+
+#: ../../source/informatica-software-sistema-operativo.rst:267
+
+#: ../../source/informatica-software-sistema-operativo.rst:351
+
+#: ../../source/informatica-software-sistema-operativo.rst:425
+
+#: ../../source/informatica-software-sistema-operativo.rst:501
+msgid "Compatibilidad con software"
+msgstr "Compatibilitat del programari"
+
+#: ../../source/informatica-software-sistema-operativo.rst:199
+msgid ""
+"Windows es compatible con una amplia gama de software y aplicaciones. Muchas"
+" aplicaciones están diseñadas específicamente para Windows, lo que hace que "
+"sea fácil para los usuarios encontrar y utilizar el software que necesitan."
+msgstr ""
+"Windows és compatible amb una àmplia gamma de programes i aplicacions. "
+"Moltes aplicacions estan dissenyades específicament per a Windows, cosa que "
+"facilita als usuaris trobar i utilitzar el programari que necessiten."
+
+#: ../../source/informatica-software-sistema-operativo.rst:204
+msgid ""
+"La gran popularidad de Windows también es la causa de que existan muchos "
+"programas maliciosos (malware) especializados en este sistema operativo."
+msgstr ""
+"La gran popularitat de Windows és també la causa que hi ha molts programes "
+"maliciosos (programari maliciós) especialitzats en aquest sistema operatiu."
+
+#: ../../source/informatica-software-sistema-operativo.rst:214
+
+#: ../../source/informatica-software-sistema-operativo.rst:272
+
+#: ../../source/informatica-software-sistema-operativo.rst:360
+
+#: ../../source/informatica-software-sistema-operativo.rst:429
+
+#: ../../source/informatica-software-sistema-operativo.rst:505
+msgid "Facilidad de personalización"
+msgstr "Personalització facilitat"
+
+#: ../../source/informatica-software-sistema-operativo.rst:209
+msgid ""
+"Windows permite a los usuarios personalizar su experiencia de usuario. "
+"Pueden personalizar el fondo de pantalla, la pantalla de inicio, los iconos "
+"y los colores según sus preferencias. Sin embargo, los programadores que no "
+"trabajen para Microsoft no pueden acceder a su código y no pueden hacer "
+"cambios en el sistema operativo."
+msgstr ""
+"Windows permet als usuaris personalitzar la seva experiència de l'usuari. "
+"Poden personalitzar el fons de pantalla, la pantalla d'inici, les icones i "
+"els colors segons les seves preferències. Tanmateix, els programadors que no"
+" treballen per a Microsoft no poden accedir al seu codi i no poden fer "
+"canvis en el sistema operatiu."
+
+#: ../../source/informatica-software-sistema-operativo.rst:219
+
+#: ../../source/informatica-software-sistema-operativo.rst:279
+
+#: ../../source/informatica-software-sistema-operativo.rst:367
+
+#: ../../source/informatica-software-sistema-operativo.rst:440
+
+#: ../../source/informatica-software-sistema-operativo.rst:511
+msgid "Soporte de hardware"
+msgstr "Suport del maquinari"
+
+#: ../../source/informatica-software-sistema-operativo.rst:217
+msgid ""
+"Windows es compatible con una amplia variedad de hardware, lo que significa "
+"que funciona bien con la mayoría de las computadoras y dispositivos "
+"periféricos."
+msgstr ""
+"Windows és compatible amb una gran varietat de maquinari, cosa que significa"
+" que funciona bé amb la majoria d’ordinadors i dispositius perifèrics."
+
+#: ../../source/informatica-software-sistema-operativo.rst:224
+msgid "Videojuegos"
+msgstr "Videojocs"
+
+#: ../../source/informatica-software-sistema-operativo.rst:222
+msgid ""
+"Windows es conocido por ser un gran sistema operativo para juegos. Muchos de"
+" los juegos más populares del mundo se pueden jugar en una computadora con "
+"Windows."
+msgstr ""
+"Windows és conegut per ser un gran sistema operatiu per a jocs. Molts dels "
+"jocs més populars del món es poden jugar en un ordinador de Windows."
+
+#: ../../source/informatica-software-sistema-operativo.rst:230
+
+#: ../../source/informatica-software-sistema-operativo.rst:283
+
+#: ../../source/informatica-software-sistema-operativo.rst:371
+
+#: ../../source/informatica-software-sistema-operativo.rst:446
+
+#: ../../source/informatica-software-sistema-operativo.rst:517
+msgid "Precio"
+msgstr "Preu"
+
+#: ../../source/informatica-software-sistema-operativo.rst:227
+msgid ""
+"Windows tiene un precio aproximado de 150 Euros en su versión más básica "
+"(Windows Home). A los fabricantes de hardware les cuesta aproximadamente 50 "
+"Euros instalar un sistema Windows en sus ordenadores."
+msgstr ""
+"Windows té un preu aproximat de 150 euros en la seva versió més bàsica "
+"(Windows Home). Els fabricants de maquinari costen aproximadament 50 euros "
+"per instal·lar un sistema Windows als seus ordinadors."
+
+#: ../../source/informatica-software-sistema-operativo.rst:243
+
+#: ../../source/informatica-software-sistema-operativo.rst:307
+
+#: ../../source/informatica-software-sistema-operativo.rst:390
+
+#: ../../source/informatica-software-sistema-operativo.rst:468
+
+#: ../../source/informatica-software-sistema-operativo.rst:538
+msgid "Versiones"
+msgstr "Versions"
+
+#: ../../source/informatica-software-sistema-operativo.rst:233
+msgid ""
+"Actualmente la única versión que está a la venta por parte de la empresa "
+"Microsoft es la versión Windows 11, aunque aún existe una gran base de "
+"computadoras con Windows 10 instalado. Las versiones anteriores a Windows 10"
+" son a día de hoy obsoletas y deberían ser actualizadas para evitar "
+"problemas de seguridad."
+msgstr ""
+"Actualment, l’única versió que es ven per l’empresa Microsoft és la versió "
+"de Windows 11, tot i que encara hi ha una gran base d’ordinadors amb Windows"
+" 10 instal·lada. Les versions de Windows 10 estan obsoletes avui en dia i "
+"s’han d’actualitzar per evitar problemes de seguretat."
+
+#: ../../source/informatica-software-sistema-operativo.rst:239
+msgid ""
+"Windows 11 tiene un total de 7 ediciones muy similares entre sí, aunque las "
+"más conocidas son: la edición Home destinada a usuarios domésticos y la "
+"edición Pro destinada a usuarios profesionales."
+msgstr ""
+"Windows 11 té un total de 7 edicions molt semblants entre si, tot i que els "
+"més coneguts són: L’edició domèstica per als usuaris domèstics i la pro "
+"edició per als usuaris professionals."
+
+#: ../../source/informatica-software-sistema-operativo.rst:246
+msgid "Sistema Operativo :index:`Android`"
+msgstr "Sistema operatiu: Índex: `Android '"
+
+#: ../../source/informatica-software-sistema-operativo.rst:247
+#, python-format
+msgid ""
+"`Android <https://es.wikipedia.org/wiki/Android>`__ es un sistema operativo "
+"desarrollado por la empresa Google y es uno de los más populares entre los "
+"dispositivos móviles, con una cuota de mercado del `71% de los smartphones y"
+" tablets en 2020 "
+"<https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category>`__."
+msgstr ""
+"`Android <https://es.wikipedia.org/wiki/android>`__ És un sistema operatiu "
+"desenvolupat per la companyia de Google i és un dels més populars entre els "
+"dispositius mòbils, amb una quota de mercat de '71% dels telèfons "
+"intel·ligents i tauletes el 2020 "
+"<https://en.wikipedia.org/wiki/usage_share_of_operating_systems#market_share_by_category>"
+" `__."
+
+#: ../../source/informatica-software-sistema-operativo.rst:253
+msgid ""
+"Se utiliza en una amplia variedad de dispositivos móviles, incluyendo "
+"teléfonos inteligentes, tabletas, televisores inteligentes, relojes "
+"inteligentes o automóviles. Android se basa en el núcleo de Linux, sobre el "
+"que se construye el resto del sistema operativo."
+msgstr ""
+"S'utilitza en una gran varietat de dispositius mòbils, inclosos telèfons "
+"intel·ligents, tauletes, televisors intel·ligents, rellotges intel·ligents o"
+" cotxes. Android es basa en el nucli de Linux, sobre el qual es construeix "
+"la resta del sistema operatiu."
+
+#: ../../source/informatica-software-sistema-operativo.rst:262
+msgid ""
+"Android tiene una interfaz gráfica de usuario (GUI) basada en la pantalla "
+"táctil del dispositivo."
+msgstr ""
+"Android té una interfície gràfica d’usuari (GUI) basada en la pantalla "
+"tàctil del dispositiu."
+
+#: ../../source/informatica-software-sistema-operativo.rst:266
+msgid ""
+"Android es compatible con una amplia gama de software y aplicaciones, "
+"disponibles en su mayoría en la Google Play Store."
+msgstr ""
+"Android és compatible amb una àmplia gamma de programes i aplicacions, "
+"principalment disponibles a Google Play Store."
+
+#: ../../source/informatica-software-sistema-operativo.rst:270
+msgid ""
+"Android es de código abierto, lo que significa que el código fuente está "
+"disponible públicamente y los desarrolladores pueden modificarlo y "
+"personalizarlo según sus necesidades."
+msgstr ""
+"Android és de codi obert, cosa que significa que el codi font està "
+"disponible públicament i els desenvolupadors poden modificar -lo i "
+"personalitzar -lo segons les seves necessitats."
+
+#: ../../source/informatica-software-sistema-operativo.rst:275
+msgid ""
+"Android es compatible con una amplia variedad de hardware, lo que significa "
+"que funciona bien con la mayoría de los dispositivos móviles y sus "
+"periféricos. Además, al ser de código abierto, facilita que los "
+"desarrolladores puedan adaptar Android a cualquier nuevo periférico o "
+"sistema hardware."
+msgstr ""
+"Android és compatible amb una gran varietat de maquinari, cosa que significa"
+" que funciona bé amb la majoria de dispositius mòbils i els seus perifèrics."
+" A més, al ser de codi obert, facilita que els desenvolupadors puguin "
+"adaptar Android a qualsevol nou sistema perifèric o de maquinari."
+
+#: ../../source/informatica-software-sistema-operativo.rst:282
+msgid ""
+"Android es un sistema operativo gratuito, lo que abarata el precio final de "
+"los dispositivos que funcionan con él."
+msgstr ""
+"Android és un sistema operatiu gratuït, que redueix el preu final dels "
+"dispositius que hi treballen."
+
+#: ../../source/informatica-software-sistema-operativo.rst:286
+msgid ""
+"Android está fuertemente controlado por la empresa Google, por lo que "
+"existen pocas versiones de otros desarrolladores. Las últimas versiones de "
+"Android son las siguientes:"
+msgstr ""
+"L’Android està fortament controlat per l’empresa de Google, de manera que hi"
+" ha poques versions d’altres desenvolupadors. Les darreres versions "
+"d'Android són les següents:"
+
+#: ../../source/informatica-software-sistema-operativo.rst:293
+
+#: ../../source/informatica-software-sistema-operativo.rst:456
+
+#: ../../source/informatica-software-sistema-operativo.rst:525
+msgid "Año"
+msgstr "Any"
+
+#: ../../source/informatica-software-sistema-operativo.rst:294
+
+#: ../../source/informatica-software-sistema-operativo.rst:457
+
+#: ../../source/informatica-software-sistema-operativo.rst:526
+msgid "Versión"
+msgstr "Versió"
+
+#: ../../source/informatica-software-sistema-operativo.rst:295
+msgid "Agosto de 2018"
+msgstr "Agost de 2018"
+
+#: ../../source/informatica-software-sistema-operativo.rst:296
+msgid "Android 9"
+msgstr "Android 9"
+
+#: ../../source/informatica-software-sistema-operativo.rst:297
+
+#: ../../source/informatica-software-sistema-operativo.rst:527
+msgid "Septiembre de 2019"
+msgstr "Setembre de 2019"
+
+#: ../../source/informatica-software-sistema-operativo.rst:298
+msgid "Android 10"
+msgstr "Android 10"
+
+#: ../../source/informatica-software-sistema-operativo.rst:299
+
+#: ../../source/informatica-software-sistema-operativo.rst:529
+msgid "Septiembre de 2020"
+msgstr "Setembre de 2020"
+
+#: ../../source/informatica-software-sistema-operativo.rst:300
+msgid "Android 11"
+msgstr "Android 11"
+
+#: ../../source/informatica-software-sistema-operativo.rst:301
+
+#: ../../source/informatica-software-sistema-operativo.rst:462
+msgid "Octubre de 2021"
+msgstr "Octubre de 2021"
+
+#: ../../source/informatica-software-sistema-operativo.rst:302
+msgid "Android 12"
+msgstr "Android 12"
+
+#: ../../source/informatica-software-sistema-operativo.rst:303
+msgid "Agosto de 2022"
+msgstr "Agost de 2022"
+
+#: ../../source/informatica-software-sistema-operativo.rst:304
+msgid "Android 13"
+msgstr "Android 13"
+
+#: ../../source/informatica-software-sistema-operativo.rst:305
+
+#: ../../source/informatica-software-sistema-operativo.rst:466
+msgid "Octubre de 2023"
+msgstr "Octubre de 2023"
+
+#: ../../source/informatica-software-sistema-operativo.rst:306
+msgid "Android 14"
+msgstr "Android 14"
+
+#: ../../source/informatica-software-sistema-operativo.rst:310
+msgid "Sistema Operativo :index:`GNU/Linux`"
+msgstr "Sistema operatiu: Índex: `GNU/Linux '"
+
+#: ../../source/informatica-software-sistema-operativo.rst:311
+msgid ""
+"`GNU/Linux <https://es.wikipedia.org/wiki/GNU/Linux>`__ es un sistema "
+"operativo libre desarrollado por multitud de empresas y voluntarios y es el "
+"más `popular entre los ordenadores profesionales "
+"<https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category>`__,"
+" tales como servidores web y supercomputadores. Además se encuentra en "
+"multitud de dispositivos embebidos tales como videoconsolas, routers, "
+"televisores inteligentes, etc. También se encuentra en el núcleo del sistema"
+" operativo Android."
+msgstr ""
+"`Gnu/linux <https://es.wikipedia.org/wiki/gnu/linux>`__ És un sistema "
+"operatiu gratuït desenvolupat per moltes empreses i voluntaris i és el més "
+"popular entre els ordinadors professionals entre els ordinadors "
+"professionals "
+"<https://en.wikipedia.org/wiki/usage_share_of_operating_systems#market_share_by_category>"
+" `__, com ara servidors web i supercomputants. També es troba en molts "
+"dispositius incrustats com ara consoles de vídeo, encaminadors, televisors "
+"intel·ligents, etc. També es troba al nucli del sistema operatiu Android."
+
+#: ../../source/informatica-software-sistema-operativo.rst:320
+msgid ""
+"El sistema operativo GNU/Linux está basado en el antiguo sistema operativo "
+"`Unix <https://es.wikipedia.org/wiki/Unix>`__."
+msgstr ""
+"El sistema operatiu GNU/Linux es basa en l’antic sistema operatiu `unix "
+"<https://es.wikipedia.org/wiki/unix>`__."
+
+#: ../../source/informatica-software-sistema-operativo.rst:326
+msgid ""
+"GNU/Linux tiene muchas interfaces gráficas de usuario (GUI). Algunas son muy"
+" simples, orientadas a dispositivos con poca memoria (XFCE), otras son "
+"parecidas a la interfaz de Windows (KDE) y otras son parecidas a la interfaz"
+" gráfica de Apple (Gnome)."
+msgstr ""
+"GNU/Linux té moltes interfícies gràfiques d’usuari (GUI). Alguns són molt "
+"senzills, orientats a dispositius amb poca memòria (XFCE), d’altres són "
+"similars a la interfície Windows (KDE) i d’altres són similars a la "
+"interfície gràfica d’Apple (GNOME)."
+
+#: ../../source/informatica-software-sistema-operativo.rst:331
+msgid ""
+"Una interfaz gráfica que se suele utilizar en muchos dispositivos embebidos "
+"es una página web desde la que se controlan los parámetros del dispositivo. "
+"Es una interfaz muy rápida y ligera. Un ejemplo se puede ver al conectarse "
+"con un navegador al router de Internet."
+msgstr ""
+"Una interfície gràfica que s’utilitza normalment en molts dispositius "
+"incrustats és una pàgina web des de la qual es controlen els paràmetres del "
+"dispositiu. És una interfície molt ràpida i lleugera. Es pot veure un "
+"exemple en connectar -se amb un navegador amb l’encaminador d’Internet."
+
+#: ../../source/informatica-software-sistema-operativo.rst:337
+msgid ""
+"GNU/Linux también puede ejecutarse sin interfaz gráfica, por línea de "
+"comandos, lo que es muy útil para los profesionales y para que el sistema "
+"ocupe muy poca memoria en el dispositivo."
+msgstr ""
+"GNU/Linux també es pot executar sense interfície gràfica, per línia de "
+"comandaments, molt útil per als professionals i que el sistema ocupi molt "
+"poca memòria al dispositiu."
+
+#: ../../source/informatica-software-sistema-operativo.rst:341
+msgid ""
+"GNU/Linux es un sistema operativo `multiusuario "
+"<https://es.wikipedia.org/wiki/Multiusuario>`__, por lo que una sola "
+"computadora puede dar servicio a varias terminales a la vez, con distintos "
+"usuarios conectados a ellas."
+msgstr ""
+"GNU/Linux és un sistema operatiu multi -usuari "
+"<https://es.wikipedia.org/wiki/multiusuari>`__, de manera que un sol "
+"ordinador pot servir diversos terminals al mateix temps, amb diferents "
+"usuaris connectats a ells."
+
+#: ../../source/informatica-software-sistema-operativo.rst:347
+msgid ""
+"El sistema GNU/Linux tiene multitud de aplicaciones de todos los ámbitos y "
+"está orientado a desarrolladores."
+msgstr ""
+"El sistema GNU/Linux té moltes aplicacions de totes les àrees i està "
+"orientat als desenvolupadors."
+
+#: ../../source/informatica-software-sistema-operativo.rst:350
+msgid ""
+"En algunos casos falta compatibilidad con programas muy populares, que "
+"pueden ejecutarse con el programa \"Wine\" de emulación de Windows."
+msgstr ""
+"En alguns casos, no hi ha compatibilitat amb programes molt populars, que es"
+" poden executar amb el programa \\ \"vi \" de Windows."
+
+#: ../../source/informatica-software-sistema-operativo.rst:354
+msgid ""
+"Al ser un sistema operativo de código abierto y controlado por la comunidad,"
+" es muy personalizable. Existen multitud de distribuciones gratuitas "
+"orientadas a todo tipo de ámbitos."
+msgstr ""
+"Al ser un sistema operatiu de font obert i controlat, és molt "
+"personalitzable. Hi ha moltes distribucions gratuïtes orientades a tot tipus"
+" d’àrees."
+
+#: ../../source/informatica-software-sistema-operativo.rst:358
+msgid ""
+"Su gran facilidad de personalización y su gran seguridad contra el malware "
+"es lo que hace a este sistema operativo tan atractivo para instalarlo en "
+"servidores web y todo tipo de ordenadores profesionales."
+msgstr ""
+"La seva gran facilitat de personalització i la seva gran seguretat contra el"
+" programari maliciós és el que fa que aquest sistema operatiu sigui tan "
+"atractiu per instal·lar -lo en servidors web i tot tipus d’ordinadors "
+"professionals."
+
+#: ../../source/informatica-software-sistema-operativo.rst:363
+msgid ""
+"Al ser GNU/Linux software abierto, algunos desarrolladores de hardware tales"
+" como Nvidia han puesto dificultades para realizar controladores para sus "
+"productos. A día de hoy la mayoría de los dispositivos tienen soporte en el "
+"sistema operativo, que es compatible con una amplia variedad de hardware."
+msgstr ""
+"En ser un programari obert GNU/Linux, alguns desenvolupadors de maquinari "
+"com NVIDIA han posat dificultats per realitzar controladors per als seus "
+"productes. Avui en dia, la majoria de dispositius tenen suport al sistema "
+"operatiu, que és compatible amb una gran varietat de maquinari."
+
+#: ../../source/informatica-software-sistema-operativo.rst:370
+msgid ""
+"GNU/Linux es un sistema operativo gratuito, lo que abarata el precio final "
+"de los dispositivos que funcionan con él."
+msgstr ""
+"GNU/Linux és un sistema operatiu gratuït, que redueix el preu final dels "
+"dispositius que hi treballen."
+
+#: ../../source/informatica-software-sistema-operativo.rst:374
+msgid ""
+"El sistema GNU/Linux tiene muchas distribuciones orientadas a todo tipo de "
+"aplicaciones y a todo tipo de plataformas hardware. Estas son algunas de las"
+" distribuciones más populares."
+msgstr ""
+"El sistema GNU/Linux té molts tipus orientats a tot tipus d'aplicacions i a "
+"tot tipus de plataformes de maquinari. Aquestes són algunes de les "
+"distribucions més populars."
+
+#: ../../source/informatica-software-sistema-operativo.rst:378
+msgid ""
+"`Ubuntu <https://es.wikipedia.org/wiki/Ubuntu>`__, orientada sobre todo a "
+"usuarios domésticos."
+msgstr ""
+"`Ubuntu <https://es.wikipedia.org/wiki/ubuntu>`__, orientat principalment "
+"als usuaris nacionals."
+
+#: ../../source/informatica-software-sistema-operativo.rst:380
+msgid ""
+"`Debian <https://es.wikipedia.org/wiki/Debian_GNU/Linux>`__, orientada a "
+"mantener una distribución abierta, de software libre."
+msgstr ""
+"`Debian <https://es.wikipedia.org/wiki/debian_gnu/linux>`__, destinat a "
+"mantenir una distribució oberta, programari lliure."
+
+#: ../../source/informatica-software-sistema-operativo.rst:382
+msgid ""
+"`MAX <https://www.educa2.madrid.org/web/max>`__, orientada a la educación en"
+" la Comunidad de Madrid."
+msgstr ""
+"`Max <https://www.educa2.madrid.org/web/max>`__, orientat a l'educació a la"
+" comunitat de Madrid."
+
+#: ../../source/informatica-software-sistema-operativo.rst:384
+msgid ""
+"`Red Hat Linux <https://es.wikipedia.org/wiki/Red_Hat>`__, orientada a "
+"mainframes y al entorno empresarial."
+msgstr ""
+"`Red Hat Linux <https://es.wikipedia.org/wiki/red_hat>`__, orientat a "
+"mainframes i a l'entorn empresarial."
+
+#: ../../source/informatica-software-sistema-operativo.rst:386
+msgid ""
+"`Kali Linux <https://es.wikipedia.org/wiki/Kali_Linux>`__, orientada a "
+"pentesting y ciberseguridad."
+msgstr ""
+"`Kali Linux <https://es.wikipedia.org/wiki/kali_linux>`__, orientat a la "
+"pentet i la ciberseguretat."
+
+#: ../../source/informatica-software-sistema-operativo.rst:388
+msgid ""
+"`Linux embebido <https://es.wikipedia.org/wiki/Linux_embebido>`__, orientada"
+" a pequeños dispositivos inteligentes."
+msgstr ""
+"`Linux incrustat <https://es.wikipedia.org/wiki/linux_embeBido>`__, dirigit"
+" a petits dispositius intel·ligents."
+
+#: ../../source/informatica-software-sistema-operativo.rst:393
+msgid "Sistema Operativo :index:`macOS`"
+msgstr "Sistema operatiu: Índex: `macOS '"
+
+#: ../../source/informatica-software-sistema-operativo.rst:394
+#, python-format
+msgid ""
+"`macOS <https://es.wikipedia.org/wiki/MacOS>`__ es un sistema operativo para"
+" ordenadores personales de escritorio y portátiles de la empresa Apple. Es "
+"el segundo sistema más utilizado para ordenadores personales, con una `cuota"
+" de mercado del 21% en 2023 "
+"<https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category>`__."
+msgstr ""
+"`MacOS <https://es.wikipedia.org/wiki/macos>`__ És un sistema operatiu per "
+"a ordinadors personals d'escriptori i ordinadors portàtils de la companyia "
+"Apple. És el segon sistema més utilitzat per a ordinadors personals, amb una"
+" quota de mercat del 21% el 2023 "
+"<https://en.wikipedia.org/wiki/usage_share_of_opeating_systems#market_share_by_category>"
+" `__."
+
+#: ../../source/informatica-software-sistema-operativo.rst:400
+msgid ""
+"El sistema operativo macOS está basado en el antiguo sistema operativo `Unix"
+" <https://es.wikipedia.org/wiki/Unix>`__, al igual que GNU/Linux."
+msgstr ""
+"El sistema operatiu macOS es basa en l’antic sistema operatiu `Unix "
+"<https://es.wikipedia.org/wiki/unix>`__, així com gnu/linux."
+
+#: ../../source/informatica-software-sistema-operativo.rst:407
+msgid ""
+"Es más minimalista y elegante que la interfaz gráfica de Windows. La barra "
+"de menú se encuentra siempre en la parte superior de la pantalla, en vez de "
+"en las ventanas de cada aplicación."
+msgstr ""
+"És més minimalista i elegant que la interfície gràfica de Windows. La barra "
+"de menús sempre es troba a la part superior de la pantalla, en lloc de les "
+"finestres de cada aplicació."
+
+#: ../../source/informatica-software-sistema-operativo.rst:411
+msgid ""
+"macOS tiene un soporte completo de gestos en el `touchpad "
+"<https://es.wikipedia.org/wiki/Panel_t%C3%A1ctil>`__."
+msgstr ""
+"MacOS té un suport de gest complet al `touchpad "
+"<https://es.wikipedia.org/wiki/panel_t%C3%A1cl>`__."
+
+#: ../../source/informatica-software-sistema-operativo.rst:415
+msgid ""
+"macOS tiene una menor gama de software disponible debido a su menor cuota de"
+" mercado y a su menor popularidad. Sin embargo, macOS sigue siendo una "
+"plataforma con una base de desarrolladores activa y una amplia gama de "
+"software de calidad disponible, especialmente para aplicaciones de diseño y "
+"edición de medios."
+msgstr ""
+"MacOS té una gamma de programari inferior disponible a causa de la seva "
+"menor quota de mercat i la seva menys popular. Tot i això, MacOS segueix "
+"sent una plataforma amb una base de desenvolupadors activa i una àmplia "
+"gamma de programari de qualitat disponible, especialment per al disseny de "
+"suports i les aplicacions d’edició."
+
+#: ../../source/informatica-software-sistema-operativo.rst:422
+msgid ""
+"macOS es mucho más resistente a ataques de malware que Windows. Entre otras "
+"razones debido a que se diseñan menos programas maliciosos para este sistema"
+" operativo al ser menos popular y porque tiene un diseño que previene mejor "
+"de los ataques."
+msgstr ""
+"MacOS és molt més resistent als atacs de programari maliciós que Windows. "
+"Entre altres raons perquè els programes menys maliciosos estan dissenyats "
+"perquè aquest sistema operatiu sigui menys popular i perquè té un millor "
+"disseny d’atacs."
+
+#: ../../source/informatica-software-sistema-operativo.rst:428
+msgid ""
+"Aunque macOS tiene algunas posibilidades de personalización, estas son más "
+"limitadas en comparación con las que ofrecen Windows o Linux."
+msgstr ""
+"Tot i que MacOS té algunes possibilitats de personalització, aquestes són "
+"més limitades en comparació amb les que ofereixen Windows o Linux."
+
+#: ../../source/informatica-software-sistema-operativo.rst:432
+msgid ""
+"macOS está diseñado para funcionar exclusivamente en dispositivos Apple, "
+"como MacBooks, iMacs y Mac Pros. Esto significa que macOS está muy "
+"optimizado para estos dispositivos, es más eficiente y tiene mayor "
+"estabilidad, pero no es compatible con otros fabricantes."
+msgstr ""
+"MacOS està dissenyat per funcionar exclusivament en dispositius Apple, com "
+"ara MacBooks, IMacs i Mac Pros. Això significa que els macOS estan molt "
+"optimitzats per a aquests dispositius, és més eficient i té una major "
+"estabilitat, però no és compatible amb altres fabricants."
+
+#: ../../source/informatica-software-sistema-operativo.rst:438
+msgid ""
+"En cuanto a los periféricos, macOS tiene una menor variedad de dispositivos "
+"compatibles y, en la mayor parte de los casos, los controladores son "
+"proporcionados por Apple."
+msgstr ""
+"Pel que fa als perifèrics, MACOS té una varietat inferior de dispositius "
+"compatibles i, en la majoria dels casos, Apple proporciona controladors."
+
+#: ../../source/informatica-software-sistema-operativo.rst:443
+msgid ""
+"El sistema operativo macOS ya viene preinstalado de forma gratuita en todos "
+"los dispositivos Apple. El desarrollo del sistema operativo se financia con "
+"el costo del hardware, ya que es un sistema exclusivo para los productos "
+"Apple."
+msgstr ""
+"El sistema operatiu macOS ja està pre -instal·lat de forma gratuïta a tots "
+"els dispositius Apple. El desenvolupament del sistema operatiu es finança "
+"amb el cost del maquinari, ja que és un sistema exclusiu per a productes "
+"Apple."
+
+#: ../../source/informatica-software-sistema-operativo.rst:449
+msgid "Las versiones de macOS no tienen diferentes ediciones."
+msgstr "Les versions macOS no tenen edicions diferents."
+
+#: ../../source/informatica-software-sistema-operativo.rst:451
+msgid "Las últimas versiones de macOS son las siguientes:"
+msgstr "Les darreres versions de macOS són les següents:"
+
+#: ../../source/informatica-software-sistema-operativo.rst:458
+msgid "Octubre de 2019"
+msgstr "Octubre de 2019"
+
+#: ../../source/informatica-software-sistema-operativo.rst:459
+msgid "macOS 10.15 (Catalina)"
+msgstr "MacOS 10.15 (Catalina)"
+
+#: ../../source/informatica-software-sistema-operativo.rst:460
+msgid "Noviembre de 2020"
+msgstr "Novembre de 2020"
+
+#: ../../source/informatica-software-sistema-operativo.rst:461
+msgid "macOS 11 (Big Sur)"
+msgstr "MacOS 11 (Big Sur)"
+
+#: ../../source/informatica-software-sistema-operativo.rst:463
+msgid "macOS 12 (Monterey)"
+msgstr "MacOS 12 (Monterey)"
+
+#: ../../source/informatica-software-sistema-operativo.rst:464
+msgid "Octubre de 2022"
+msgstr "Octubre de 2022"
+
+#: ../../source/informatica-software-sistema-operativo.rst:465
+msgid "macOS 13 (Ventura)"
+msgstr "MacOS 13 (Ventura)"
+
+#: ../../source/informatica-software-sistema-operativo.rst:467
+msgid "macOS 14 (Sonoma)"
+msgstr "MacOS 14 (Sonoma)"
+
+#: ../../source/informatica-software-sistema-operativo.rst:471
+msgid "Sistema Operativo :index:`iOS`"
+msgstr "Sistema operatiu: Índex: `OS '"
+
+#: ../../source/informatica-software-sistema-operativo.rst:472
+msgid ""
+"`iOS <https://es.wikipedia.org/wiki/IOS>`__ es el sistema operativo de la "
+"empresa **Apple** para sus dispositivos móviles, incluyendo el smartphone "
+"iPhone, la tableta iPad y el reproductor de música iPod."
+msgstr ""
+"`Os <https://es.wikipedia.org/wiki/ios>`__ És el sistema operatiu de la "
+"companyia ** Apple ** per als seus dispositius mòbils, inclòs el telèfon "
+"intel·ligent iPhone, la tauleta iPad i el reproductor de música iPod."
+
+#: ../../source/informatica-software-sistema-operativo.rst:476
+msgid ""
+"Actualmente `Apple lidera las ventas de teléfonos inteligentes de gama alta "
+"<https://www.enriquedans.com/2023/03/analizando-el-mercado-de-los-"
+"smartphones-y-la-estrategia-de-apple.html>`__, por lo que el sistema "
+"operativo iOS lidera las tendencias del sector."
+msgstr ""
+"Actualment, Apple lidera vendes de telèfons intel·ligents de gamma alta."
+
+#: ../../source/informatica-software-sistema-operativo.rst:483
+msgid ""
+"Aunque es similar a la interfaz de su competidor Android, tiende a ser más "
+"uniforme y consistente en todos los dispositivos Apple, mientras que la "
+"interfaz de Android puede variar según el fabricante."
+msgstr ""
+"Tot i que és similar a la interfície del seu competidor Android, acostuma a "
+"ser més uniforme i format per tots els dispositius Apple, mentre que la "
+"interfície Android pot variar segons el fabricant."
+
+#: ../../source/informatica-software-sistema-operativo.rst:488
+msgid ""
+"La App Store de Apple tiende a ser más estricta con la calidad y el control "
+"de las aplicaciones. Como resultado, la disponibilidad de software es menor "
+"en el sistema operativo iOS, aunque la mayoría de las aplicaciones más "
+"populares se pueden encontrar sin problema."
+msgstr ""
+"Apple's App Store tendeix a ser més estricta amb la qualitat i el control de"
+" les aplicacions. Com a resultat, la disponibilitat de programari és menor "
+"en el sistema operatiu iOS, tot i que la majoria de les aplicacions més "
+"populars es poden trobar sense problemes."
+
+#: ../../source/informatica-software-sistema-operativo.rst:493
+msgid ""
+"Por otro lado la menor diversidad de hardware en los dispositivos Apple hace"
+" que las aplicaciones sean más robustas y estén más optimizadas."
+msgstr ""
+"D'altra banda, la menor diversitat de maquinari dels dispositius Apple fa "
+"que les aplicacions siguin més robustes i optimitzades."
+
+#: ../../source/informatica-software-sistema-operativo.rst:497
+msgid ""
+"Los dispositivos iOS suelen tener actualizaciones del sistema operativo "
+"durante mucho más tiempo, hasta 6 años, en comparación con los dispositivos "
+"Android, que apenas tienen actualizaciones del sistema operativo durante un "
+"período de 2 años desde el lanzamiento del dispositivo."
+msgstr ""
+"Els dispositius iOS solen tenir actualitzacions del sistema operatiu durant "
+"molt de temps, fins a 6 anys, en comparació amb els dispositius Android, que"
+" amb prou feines tenen actualitzacions del sistema operatiu durant un "
+"període de 2 anys des del llançament del dispositiu."
+
+#: ../../source/informatica-software-sistema-operativo.rst:504
+msgid ""
+"El sistema iOS ofrece menos opciones y menos flexibilidad en la "
+"personalización que el sistema competidor Android."
+msgstr ""
+"El sistema iOS ofereix menys opcions i menys flexibilitat en la "
+"personalització que el sistema de competidors Android."
+
+#: ../../source/informatica-software-sistema-operativo.rst:508
+msgid ""
+"iOS solo es compatible con los dispositivos Apple. Esto restringe mucho su "
+"uso a un solo fabricante. Como ventaja, al tener un ecosistema de hardware "
+"más controlado, es más sencillo optimizar las aplicaciones."
+msgstr ""
+"IOS només és compatible amb els dispositius Apple. Això restringeix molt el "
+"seu ús a un únic fabricant. Com a avantatge, tenir un ecosistema de "
+"maquinari més controlat, és més fàcil optimitzar les aplicacions."
+
+#: ../../source/informatica-software-sistema-operativo.rst:514
+msgid ""
+"iOS viene preinstalado por defecto en los dispositivos móviles de Apple y no"
+" tiene precio. Por otra parte, la financiación de su desarrollo se hace con "
+"el elevado precio de los dispositivos de Apple en comparación con los "
+"dispositivos de la competencia."
+msgstr ""
+"iOS arriba preinstal·lat per defecte en dispositius mòbils Apple i no té "
+"preu. D'altra banda, el finançament del seu desenvolupament es fa amb "
+"l'elevat preu dels dispositius d'Apple en comparació amb els dispositius de "
+"competència."
+
+#: ../../source/informatica-software-sistema-operativo.rst:520
+msgid "Las últimas versiones de iOS son las siguientes:"
+msgstr "Les darreres versions d’iOS són les següents:"
+
+#: ../../source/informatica-software-sistema-operativo.rst:528
+msgid "iOS 13"
+msgstr "iOS 13"
+
+#: ../../source/informatica-software-sistema-operativo.rst:530
+msgid "iOS 14"
+msgstr "iOS 14"
+
+#: ../../source/informatica-software-sistema-operativo.rst:531
+msgid "Septiembre de 2021"
+msgstr "Setembre de 2021"
+
+#: ../../source/informatica-software-sistema-operativo.rst:532
+msgid "iOS 15"
+msgstr "iOS 15"
+
+#: ../../source/informatica-software-sistema-operativo.rst:533
+msgid "Septiembre de 2022"
+msgstr "Setembre de 2022"
+
+#: ../../source/informatica-software-sistema-operativo.rst:534
+msgid "iOS 16"
+msgstr "iOS 16"
+
+#: ../../source/informatica-software-sistema-operativo.rst:536
+msgid ""
+"Las versiones anteriores se encuentran sin soporte, por lo que es "
+"recomendable actualizarlas a una versión más moderna."
+msgstr ""
+"Les versions anteriors es troben sense suport, per la qual cosa és "
+"recomanable actualitzar -les a una versió més moderna."
+
+#: ../../source/informatica-software-sistema-operativo.rst:541
+msgid "Otros Sistemas Operativos"
+msgstr "Altres sistemes operatius"
+
+#: ../../source/informatica-software-sistema-operativo.rst:555
+msgid ":index:`z/OS`"
+msgstr ": Índex: `z/os`"
+
+#: ../../source/informatica-software-sistema-operativo.rst:544
+msgid ""
+"z/OS es un sistema operativo de IBM que se utiliza en mainframes, "
+"computadoras de gran escala utilizadas en grandes empresas. Es uno de los "
+"sistemas operativos más antiguos y ampliamente utilizados en el mundo "
+"empresarial."
+msgstr ""
+"Z/OS és un sistema operatiu IBM que s’utilitza en fotogrames principals, "
+"ordinadors a gran escala que s’utilitzen en grans empreses. És un dels "
+"sistemes operatius més antics i més utilitzats del món empresarial."
+
+#: ../../source/informatica-software-sistema-operativo.rst:549
+msgid ""
+"z/OS se caracteriza por ser robusto, fiable, escalable y seguro. Ofrece una "
+"amplia gama de capacidades, incluyendo la gestión de recursos del sistema, "
+"la ejecución de trabajos en lote (batch), la administración de sistemas de "
+"archivos y dispositivos, la gestión de seguridad y la capacidad de ejecutar "
+"múltiples aplicaciones a la vez."
+msgstr ""
+"Z/Es caracteritza per ser robust, fiable, escalable i segur. Ofereix una "
+"àmplia gamma de capacitats, inclosa la gestió de recursos del sistema, "
+"l'execució de lot (lot), l'administració de sistemes de fitxers i "
+"dispositius, la gestió de seguretat i la capacitat d'executar diverses "
+"aplicacions alhora."
+
+#: ../../source/informatica-software-sistema-operativo.rst:578
+msgid ":index:`FreeRTOS`"
+msgstr ": Índex: `Freertos '"
+
+#: ../../source/informatica-software-sistema-operativo.rst:558
+msgid ""
+"FreeRTOS es un sistema operativo en tiempo real diseñado para sistemas "
+"embebidos, es decir, dispositivos electrónicos que realizan tareas "
+"específicas tales como lavadoras, ascensores, sistemas de control "
+"industrial, aparatos IoT (Internet de las Cosas), gestión del motor del "
+"automóvil, alarmas, equipos de diagnóstico médico, etc."
+msgstr ""
+"Freertos és un sistema operatiu de temps real dissenyat per a sistemes "
+"incrustats, és a dir, dispositius electrònics que realitzen tasques "
+"específiques com rentadores, ascensors, sistemes de control industrial, "
+"dispositius IoT (Internet de les coses), gestió de motors automobilístics, "
+"alarmes, equips de diagnòstic mèdic, etc."
+
+#: ../../source/informatica-software-sistema-operativo.rst:564
+msgid ""
+"FreeRTOS se caracteriza por su pequeño tamaño y su bajo consumo de recursos,"
+" lo que lo hace adecuado para sistemas con poca memoria y pequeña capacidad "
+"de procesamiento."
+msgstr ""
+"Freertos es caracteritza per la seva petita mida i el seu baix consum de "
+"recursos, cosa que el fa adequat per a sistemes amb poca memòria i poca "
+"capacitat de processament."
+
+#: ../../source/informatica-software-sistema-operativo.rst:568
+msgid ""
+"Está escrito en lenguaje C y se puede portar a una amplia variedad de "
+"arquitecturas de procesadores, lo que lo hace altamente adaptable a "
+"diferentes plataformas y dispositivos."
+msgstr ""
+"Està escrit en llenguatge C i es pot portar a una gran varietat "
+"d’arquitectures de processadors, cosa que la fa molt adaptable a diferents "
+"plataformes i dispositius."
+
+#: ../../source/informatica-software-sistema-operativo.rst:572
+msgid ""
+"FreeRTOS es de código abierto, su código fuente está disponible para el "
+"público y se puede modificar y distribuir bajo una licencia de software "
+"libre. Esto brinda flexibilidad y permite a los desarrolladores personalizar"
+" y adaptar el sistema operativo según las necesidades específicas de sus "
+"aplicaciones."
+msgstr ""
+"Freertos és de codi obert, el seu codi font està disponible per al públic i "
+"es pot modificar i distribuir amb una llicència de programari gratuïta. Això"
+" proporciona flexibilitat i permet als desenvolupadors personalitzar i "
+"adaptar el sistema operatiu segons les necessitats específiques de les seves"
+" aplicacions."
+
+#: ../../source/informatica-software-sistema-operativo.rst:581
+msgid "Test de la unidad"
+msgstr "Test de prova"
+
+#: ../../source/informatica-software-sistema-operativo.rst:583
+msgid ""
+"`Test de Sistema Operativo I. <../test/es-software-sistema-"
+"operativo-1.html>`__"
+msgstr ""
+"`Test del sistema operatiu I. <../ Test/ es-Software-System-"
+"Operative-1.html> __"
+
+#: ../../source/informatica-software-sistema-operativo.rst:586
+msgid ""
+"`Test de Sistema Operativo II. <../test/es-software-sistema-"
+"operativo-2.html>`__"
+msgstr ""
+"`Test del sistema operatiu II. <../ Test/ es-Software-System-"
+"Operative-2.html>`__"
+
+#: ../../source/informatica-software-sistema-operativo.rst:589
+msgid ""
+"`Test de Sistema Operativo III. <../test/es-software-sistema-"
+"operativo-3.html>`__"
+msgstr ""
+"`Test del sistema operatiu III. <../ Esoftware-System-Operative-3.html> __"
+
+#: ../../source/informatica-software-sistema-operativo.rst:592
+msgid ""
+"`Test de Sistema Operativo IV. <../test/es-software-sistema-"
+"operativo-4.html>`__"
+msgstr ""
+"`Prova del sistema operatiu. <../ Test/ es-Software-System-Operative-4.html>"
+" `__"
+
+#: ../../source/informatica-software-sistema-operativo.rst:595
+msgid ""
+"`Test de Sistema Operativo V. <../test/es-software-sistema-"
+"operativo-5.html>`__"
+msgstr ""
+"`Test del sistema operatiu V. <../ Test/ es-Software-System-"
+"Operative-5.html>`__"
+
+#: ../../source/informatica-software-sistema-operativo.rst:598
+msgid ""
+"`Test de Sistema Operativo VI. <../test/es-software-sistema-"
+"operativo-6.html>`__"
+msgstr ""
+"`Prova del sistema operatiu VI. <../ Test/ es-Software-System-"
+"Operative-6.html>`__"

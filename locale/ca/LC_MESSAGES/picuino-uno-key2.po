@@ -1,0 +1,214 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-07-18 16:58+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/picuino-uno-key2.rst:12
+msgid "Pulsadores: Eventos"
+msgstr "Farciment: esdeveniments"
+
+#: ../../source/picuino-uno-key2.rst:15
+msgid "Objetivos"
+msgstr "Els pendents"
+
+#: ../../source/picuino-uno-key2.rst:16
+msgid "Leer los eventos asociados a un pulsador."
+msgstr "Llegiu els esdeveniments associats a un botó."
+
+#: ../../source/picuino-uno-key2.rst:17
+msgid "Responder a los eventos de los pulsadores."
+msgstr "Respon als esdeveniments de botons."
+
+#: ../../source/picuino-uno-key2.rst:21
+msgid "Eventos relacionados con los pulsadores"
+msgstr "Esdeveniments relacionats amb la factura"
+
+#: ../../source/picuino-uno-key2.rst:22
+msgid ""
+"A la hora de leer un pulsador, se debe distinguir los estados de los "
+"eventos."
+msgstr "En llegir un botó, s’han de distingir els estats dels esdeveniments."
+
+#: ../../source/picuino-uno-key2.rst:25
+msgid ""
+"Un **estado** se mantiene en el tiempo. Un ejemplo de estado es el valor "
+"presionado de un pulsador. Mientras el pulsador está presionado, el estado "
+"vale uno. Cuando el pulsador no está presionado, el estado vale cero."
+msgstr ""
+"Un estat ** ** es manté amb el pas del temps. Un exemple d’estat és el valor"
+" premsat d’un botó. Mentre es prem el botó, l’estat val un. Quan no es prem "
+"el botó, l'estat val zero."
+
+#: ../../source/picuino-uno-key2.rst:30
+msgid ""
+"Un **evento**, por el contrario, solo es verdadero al comenzar un nuevo "
+"estado. En el caso anterior, al presionar un pulsador el evento presionado "
+"vale uno la primera vez que se lee. A partir de ese momento, siempre vale "
+"cero hasta que se vuelva a cumplir la condición de pulsador presionado."
+msgstr ""
+"Un esdeveniment ** **, al contrari, només és cert al començament d’un nou "
+"estat. En el cas anterior, prement un botó, l'esdeveniment premsat val la "
+"primera vegada que llegeix. A partir d’aquest moment, sempre val la pena "
+"zero fins que es pressioni l’estat d’un botó."
+
+#: ../../source/picuino-uno-key2.rst:36
+msgid ""
+"Los **eventos** son útiles cuando se desea realizar una sola acción al "
+"presionar una tecla. En el siguiente gráfico se puede ver la diferencia "
+"entre estado y evento."
+msgstr ""
+"Els ** esdeveniments ** són útils quan voleu realitzar una sola acció en "
+"prémer una tecla. Al gràfic següent podeu veure la diferència entre estat i "
+"esdeveniment."
+
+#: ../../source/picuino-uno-key2.rst:47
+msgid "La función ``keyEvents``"
+msgstr "El `` keyevents ''"
+
+#: ../../source/picuino-uno-key2.rst:51
+msgid ""
+"Esta función devuelve el valor de los eventos que se producen en un "
+"pulsador. Los eventos que puede devolver la función son los siguientes:"
+msgstr ""
+"Aquesta funció retorna el valor dels esdeveniments que es produeixen en un "
+"botó. Els esdeveniments que poden retornar la funció són els següents:"
+
+#: ../../source/picuino-uno-key2.rst:56
+msgid "Evento"
+msgstr "Aconteixement"
+
+#: ../../source/picuino-uno-key2.rst:56
+msgid "Significado"
+msgstr "Significat"
+
+#: ../../source/picuino-uno-key2.rst:58
+msgid "KEY_PRESSED_TIME1"
+msgstr "Key_pressed_time1"
+
+#: ../../source/picuino-uno-key2.rst:58
+msgid "El pulsador se ha presionado durante 0,02 segundos"
+msgstr "El botó ha estat premsat durant 0,02 segons"
+
+#: ../../source/picuino-uno-key2.rst:60
+msgid "KEY_PRESSED_TIME2"
+msgstr "Key_pressed_time2"
+
+#: ../../source/picuino-uno-key2.rst:60
+msgid "El pulsador se ha presionado durante 0,5 segundos"
+msgstr "El botó ha estat premsat durant 0,5 segons"
+
+#: ../../source/picuino-uno-key2.rst:62
+msgid "KEY_PRESSED_TIME3"
+msgstr "Key_Pressed_Time3"
+
+#: ../../source/picuino-uno-key2.rst:62
+msgid "El pulsador se ha presionado durante 2,0 segundos"
+msgstr "El botó s'ha premut durant 2,0 segons"
+
+#: ../../source/picuino-uno-key2.rst:64
+msgid "KEY_RELEASED"
+msgstr "Key_releed"
+
+#: ../../source/picuino-uno-key2.rst:64
+msgid "El pulsador se ha dejado de presionar"
+msgstr "El botó ha deixat de prémer"
+
+#: ../../source/picuino-uno-key2.rst:67
+msgid ""
+"Estos valores de tiempo son los valores predefinidos después de iniciar la "
+"placa y se pueden cambiar en la configuración."
+msgstr ""
+"Aquests valors de temps són valors predefinits després d’iniciar la placa i "
+"es poden canviar a la configuració."
+
+#: ../../source/picuino-uno-key2.rst:71
+msgid "|keyNum|"
+msgstr "; Keynum |"
+
+#: ../../source/picuino-uno-key2.rst:75
+msgid "Encender un led al presionar un pulsador cierto tiempo"
+msgstr "Encendre un LED prement un botó un cert temps"
+
+#: ../../source/picuino-uno-key2.rst:77
+msgid ""
+"En este ejemplo, un led se encenderá después de que se presione su pulsador "
+"durante más de medio segundo"
+msgstr ""
+"En aquest exemple, un LED s'encendrà després que el botó es premeu més de "
+"mig segon"
+
+#: ../../source/picuino-uno-key2.rst:99
+msgid ""
+"El ejemplo puede modificarse con facilidad para que se encienda después de "
+"presionar dos segundos."
+msgstr ""
+"L’exemple es pot modificar fàcilment perquè s’encengui després de prémer dos"
+" segons."
+
+#: ../../source/picuino-uno-key2.rst:122
+msgid "Múltiples funciones en un pulsador"
+msgstr "Múltiples funcions en un botó"
+
+#: ../../source/picuino-uno-key2.rst:124
+msgid ""
+"Este ejemplo es un poco más complejo y demuestra la capacidad de los eventos"
+" para dar más de un significado a un solo pulsador. Gracias a esta "
+"capacidad, un solo pulsador podrá realizar muchas funciones por sí solo."
+msgstr ""
+"Aquest exemple és una mica més complex i demostra la capacitat dels "
+"esdeveniments per donar més d’un significat a un sol botó. Gràcies a aquesta"
+" capacitat, un sol botó pot realitzar moltes funcions només."
+
+#: ../../source/picuino-uno-key2.rst:163
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/picuino-uno-key2.rst:164
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Programa el codi necessari per resoldre els problemes següents."
+
+#: ../../source/picuino-uno-key2.rst:166
+msgid ""
+"El siguiente programa enciende el led D1 al presionar el pulsador D1 y apaga"
+" el led D1 al volver a presionar el pulsador 1. Se utiliza una variable para"
+" almacenar el estado del led D1. Se pide modificar el programa para que "
+"también el led D2 se encienda y apague con el pulsador 2."
+msgstr ""
+"El programa següent encén el LED D1 en prémer el botó D1 i apaga el LED D1 "
+"en prémer el botó de nou 1. S'utilitza una variable per emmagatzemar l'estat"
+" LED D1. Es demana que modifiqui el programa de manera que el LED D2 també "
+"s’encengui i s’apagui amb el botó 2."
+
+#: ../../source/picuino-uno-key2.rst:197
+msgid ""
+"El siguiente programa mueve hacia la derecha un led cuando se presiona el "
+"pulsador 2. Modificar el programa para que el led se mueva hacia la "
+"izquierda al pulsar el pulsador 1."
+msgstr ""
+"El programa següent mou un LED a la dreta quan es prem el botó. Modifiqueu "
+"el programa de manera que el LED es mogui a l'esquerra prement el botó 1."
+
+#: ../../source/picuino-uno-key2.rst:230
+msgid ""
+"Modificar el programa anterior para que se encienda el led D1 al presionar "
+"el pulsador 6 ``KEY_BACK`` durante dos segundos."
+msgstr ""
+"Modifiqueu el programa anterior per activar el LED D1 quan premeu el botó 6 "
+"`` key_back`` durant dos segons."

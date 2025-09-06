@@ -1,0 +1,170 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-03-20 18:45+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-morgan-laws.rst:9
+msgid "Las leyes de De Morgan"
+msgstr "Les lleis de De Morgan"
+
+#: ../../source/electronic-morgan-laws.rst:10
+msgid ""
+"Las leyes de Augustus De Morgan o simplemente las `leyes de De Morgan "
+"<https://es.wikipedia.org/wiki/Leyes_de_De_Morgan>`__ son dos reglas de "
+"transformación que permiten intercambiar puertas AND y puertas OR "
+"simplemente negando o invirtiendo las entradas y salidas:"
+msgstr ""
+"Les lleis d’Augustus de Morgan o simplement les `De Morgan Laws "
+"<https://es.wikipedia.org/wiki/leyes_de_de_morgan>`__ són dues regles de "
+"transformació que permeten intercanviar i portes i portes per simplement "
+"negar o invertir les entrades i exits:"
+
+#: ../../source/electronic-morgan-laws.rst:20
+msgid "Transformación de OR con entradas negadas en NAND."
+msgstr "Transformació de o amb entrades negades a NAND."
+
+#: ../../source/electronic-morgan-laws.rst:27
+msgid "Transformación de AND con entradas negadas en NOR."
+msgstr "I la transformació amb entrades negades en Nor."
+
+#: ../../source/electronic-morgan-laws.rst:29
+msgid "En forma de fórmula lógica las expresiones serían:"
+msgstr "En forma de fórmula lògica, les expressions serien:"
+
+#: ../../source/electronic-morgan-laws.rst:31
+msgid "\\overline{A} + \\overline{B} = \\overline{A \\cdot B }"
+msgstr "\\ overline {a} + \\ overline {b} = \\ overline {a \\ cdot b}"
+
+#: ../../source/electronic-morgan-laws.rst:35
+msgid "\\overline{A} \\cdot \\overline{B} = \\overline{A + B }"
+msgstr "\\ overline {a} \\ cdot \\ overline {b} = \\ overline {a + b}"
+
+#: ../../source/electronic-morgan-laws.rst:40
+msgid "Otra forma de expresar las leyes de De Morgan es:"
+msgstr "Una altra manera d’expressar les lleis de De Morgan és:"
+
+#: ../../source/electronic-morgan-laws.rst:42
+msgid ""
+"Una puerta OR con todas sus entradas y salidas invertidas o negadas es "
+"equivalente a una puerta AND."
+msgstr ""
+"Una porta amb totes les seves entrades i sortides invertides o denegades "
+"equival a una porta i una porta."
+
+#: ../../source/electronic-morgan-laws.rst:50
+msgid "Transformación de una puerta OR toda negada a puerta AND."
+msgstr "Transformació d’una porta o de totes les negades a Puerta i."
+
+#: ../../source/electronic-morgan-laws.rst:52
+msgid "\\overline{ \\overline{A} + \\overline{B} } = A \\cdot B"
+msgstr "\\ overline {\\ overline {a} + \\ overline {b}} = a \\ cdot b"
+
+#: ../../source/electronic-morgan-laws.rst:56
+msgid ""
+"Una puerta AND con todas sus entradas y salidas invertidas o negadas es "
+"equivalente a una puerta OR."
+msgstr ""
+"A i amb totes les seves entrades i sortides invertides o denegades equival a"
+" un OR."
+
+#: ../../source/electronic-morgan-laws.rst:64
+msgid "Transformación de una puerta AND toda negada a puerta OR."
+msgstr "Transformació d’una porta i tots negats a la porta o."
+
+#: ../../source/electronic-morgan-laws.rst:66
+msgid "\\overline{ \\overline{A} \\cdot \\overline{B} } = A + B"
+msgstr "\\ overline {\\ overline {a} \\ cdot \\ overline {b}} = a + b"
+
+#: ../../source/electronic-morgan-laws.rst:72
+msgid "Doble negación"
+msgstr "Doble denegació"
+
+#: ../../source/electronic-morgan-laws.rst:73
+msgid ""
+"Hay que recordar del apartado dedicado a la puerta NOT, que una doble "
+"negación se cancela resultando en una línea sin negación:"
+msgstr ""
+"Cal recordar de la secció dedicada a la porta no, que es cancel·li una doble"
+" denegació donant lloc a una línia sense denegar:"
+
+#: ../../source/electronic-morgan-laws.rst:81
+msgid "Una doble negación se cancela entre sí."
+msgstr "Una doble denegació es cancel·la entre si."
+
+#: ../../source/electronic-morgan-laws.rst:83
+msgid ""
+"Conociendo las leyes de De Morgan y esta última ley, podremos intercambiar "
+"siempre cualquier puerta OR por una puerta AND y viceversa, "
+"independientemente de las entradas y salidas que tenga negadas."
+msgstr ""
+"Coneixent les lleis de De Morgan i aquesta última llei, sempre podem "
+"intercanviar qualsevol o o viceversa porta, independentment de les entrades "
+"i sortides que han denegat."
+
+#: ../../source/electronic-morgan-laws.rst:88
+msgid "Simulación"
+msgstr "Simulació"
+
+#: ../../source/electronic-morgan-laws.rst:89
+msgid ""
+"En la siguiente simulación podemos ver el funcionamiento de las leyes de De "
+"Morgan en varios circuitos."
+msgstr ""
+"En la següent simulació podem veure el funcionament de les lleis de De "
+"Morgan en diversos circuits."
+
+#: ../../source/electronic-morgan-laws.rst:92
+msgid ""
+"Según cambian los valores de entrada a las siguientes puertas lógicas, la "
+"puerta de arriba siempre entrega en la salida el mismo valor que la puerta "
+"de abajo, demostrando que son equivalentes."
+msgstr ""
+"Segons els valors d’entrada a les portes lògiques següents, la porta de dalt"
+" sempre proporciona el mateix valor que la porta següent, demostrant que són"
+" equivalents."
+
+#: ../../source/electronic-morgan-laws.rst:104
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-morgan-laws.rst:106
+msgid "Explica con tus palabras qué dicen las dos leyes de De Morgan."
+msgstr ""
+"Expliqueu amb les vostres paraules què diuen les dues lleis de Morgan."
+
+#: ../../source/electronic-morgan-laws.rst:108
+msgid "¿Qué función lógica sería equivalente a cinco puertas NOT en serie?"
+msgstr "Quina funció lògica equivalia a cinc portes en sèrie?"
+
+#: ../../source/electronic-morgan-laws.rst:110
+msgid ""
+"Comprueba en la simulación anterior que la puerta superior tiene la misma "
+"salida que la puerta inferior en cada uno de los 4 circuitos que aparecen."
+msgstr ""
+"Comproveu la simulació anterior que la porta superior té la mateixa sortida "
+"que la porta inferior de cadascun dels 4 circuits que apareixen."
+
+#: ../../source/electronic-morgan-laws.rst:114
+msgid ""
+"Transforma las siguientes puertas lógicas para que utilicen la puerta "
+"alternativa según las leyes de De Morgan."
+msgstr ""
+"Transforma les portes lògiques següents per utilitzar la porta alternativa "
+"segons les lleis de De Morgan."

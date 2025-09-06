@@ -1,0 +1,242 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-08-29 12:40+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/picuino-uno-led1.rst:7
+msgid "Encendido y apagado de los LED"
+msgstr "Encès i desactivació dels LEDs"
+
+#: ../../source/picuino-uno-led1.rst:10
+msgid "Objetivos"
+msgstr "Els pendents"
+
+#: ../../source/picuino-uno-led1.rst:11
+msgid "Encender y apagar los diodos led del shield Picuino UNO."
+msgstr "Enceneu i apagueu els díodes LED de l'escut Picuino."
+
+#: ../../source/picuino-uno-led1.rst:12
+msgid "Generar parpadeo de ledes mediante esperas de tiempo."
+msgstr "Generar parpelleig de LEDs amb el temps esperant."
+
+#: ../../source/picuino-uno-led1.rst:16
+msgid "Librería de manejo para Arduino"
+msgstr "Llibreta de gestió per a Arduino"
+
+#: ../../source/picuino-uno-led1.rst:17
+msgid ""
+"Para poder comenzar a programar es necesario descargar e instalar "
+"previamente la :download:`librería necesaria para programar el shield "
+"Picuino UNO <picuino-uno/Picuino-UNO-05.zip>`"
+msgstr "Per començar a programar, és necessari"
+
+#: ../../source/picuino-uno-led1.rst:21
+msgid ""
+"En la siguiente página web se pueden ver cómo los pasos necesarios para la "
+"instalación de una librería para Arduino."
+msgstr ""
+"Al següent lloc web podeu veure com els passos necessaris per a la "
+"instal·lació d’una llibreria per a Arduino."
+
+#: ../../source/picuino-uno-led1.rst:24
+msgid ":ref:`add-library`"
+msgstr ": Ref: `add-library '"
+
+#: ../../source/picuino-uno-led1.rst:28
+msgid "La función ``ledWrite``"
+msgstr "La funció `` ledWrite '' '"
+
+#: ../../source/picuino-uno-led1.rst:32
+msgid ""
+"Esta función permite encender o apagar un led concreto. Sus parámetros son "
+"los siguientes:"
+msgstr ""
+"Aquesta funció permet activar o desactivar un LED específic. Els seus "
+"paràmetres són els següents:"
+
+#: ../../source/picuino-uno-led1.rst:35
+msgid ""
+"``ledNum``: led que se va a encender o apagar. Los valores válidos van desde"
+" 1 para el led D1 hasta 8 para el color azul del led D6."
+msgstr ""
+"`` lednum``: LED que s’encendrà o s’apagarà. Els valors vàlids oscil·len "
+"entre 1 per a LED D1 a 8 per al color blau del LED D6."
+
+#: ../../source/picuino-uno-led1.rst:38
+msgid ""
+"El led D6 es un led RGB, que integra 3 ledes en su interior. Los números 6, "
+"7, 8 representan respectivamente los colores rojo, verde y azul del led D6."
+msgstr ""
+"El LED D6 és un LED RGB, que integra 3 LEDs al seu interior. Els números 6, "
+"7, 8 representen respectivament els colors vermells, verds i blaus del LED "
+"D6."
+
+#: ../../source/picuino-uno-led1.rst:46
+msgid "``bright``: brillo con el que se va a encender el led."
+msgstr "`` Bright``: Brillo amb el qual s’encén el LED."
+
+#: ../../source/picuino-uno-led1.rst:43
+msgid "``LED_OFF``: apaga el led. Se puede sustituir por el número cero."
+msgstr "`` Led_off``: Apagueu el LED. Es pot substituir pel número zero."
+
+#: ../../source/picuino-uno-led1.rst:45
+msgid "``LED_ON``: enciende el led con la intensidad máxima."
+msgstr "`` Led_``: encén el LED amb la intensitat màxima."
+
+#: ../../source/picuino-uno-led1.rst:46
+msgid ""
+"Valores entre 2 y 255: enciende el led con una intensidad proporcional al "
+"número."
+msgstr ""
+"Valors entre 2 i 255: encendre el LED amb una intensitat proporcional al "
+"nombre."
+
+#: ../../source/picuino-uno-led1.rst:51
+msgid "Encender el led D1"
+msgstr "Encén el LED D1"
+
+#: ../../source/picuino-uno-led1.rst:52
+msgid "El siguiente programa encenderá de forma permanente el led D1"
+msgstr "El següent programa encantarà definitivament el LED D1"
+
+#: ../../source/picuino-uno-led1.rst:71
+msgid "Parpadeo del led D1"
+msgstr "LED D1 Flash"
+
+#: ../../source/picuino-uno-led1.rst:72
+msgid ""
+"Si se desea encender y apagar el led D1 con un período de un segundo, una "
+"forma de realizarlo es encender el led, esperar medio segundo, apagar el led"
+" y esperar medio segundo. Cuando esta secuencia se repite, el led parpadea. "
+"Para conseguir una espera de medio segundo se utiliza la función "
+"``delay(500)`` que provoca una espera de 500 milisegundos (0,5 segundos). "
+"Para conseguir que la secuencia se repita indefinidamente, el código se "
+"introduce dentro del bloque ``loop()``, que se repite una y otra vez una vez"
+" iniciado el programa de Arduino."
+msgstr ""
+"Si voleu activar i desactivar el LED D1 amb un període de segon, una manera "
+"de fer -ho és encendre el LED, esperar mig segon, apagar el LED i esperar "
+"mig segon. Quan es repeteix aquesta seqüència, el LED parpelleja. Per "
+"aconseguir una meitat de segon, s’utilitza la funció `` retard (500) `` que "
+"provoca 500 mil·lisegons (0,5 segons). Per assegurar -se que la seqüència es"
+" repeteix indefinidament, el codi s’introdueix dins del bloc `` bucle () ``,"
+" que es repeteix una i altra vegada un cop iniciat el programa Arduino."
+
+#: ../../source/picuino-uno-led1.rst:103
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/picuino-uno-led1.rst:104
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Programa el codi necessari per resoldre els problemes següents."
+
+#: ../../source/picuino-uno-led1.rst:106
+msgid "Encender los ledes D1, D3 y D5 de forma permanente."
+msgstr "Enceneu de forma permanent les LEDES D1, D3 i D5."
+
+#: ../../source/picuino-uno-led1.rst:108
+msgid ""
+"Encender el led D1, esperar un segundo, encender el led D2, esperar un "
+"segundo y seguir así hasta que estén encendidos los 5 primeros led. Una vez "
+"terminado, el programa mantendrá los 5 ledes encendidos."
+msgstr ""
+"Enceneu el LED D1, espereu un segon, activeu el LED D2, espereu un segon i "
+"continueu fins que els primers 5 LED estiguin encesos. Un cop finalitzat, el"
+" programa mantindrà els 5 LED encesos."
+
+#: ../../source/picuino-uno-led1.rst:113
+msgid "Encender los ledes rojo, ámbar y verde como en un semáforo."
+msgstr "Enceneu els LEDs vermells, ambre i verds com en un semàfor."
+
+#: ../../source/picuino-uno-led1.rst:115
+msgid ""
+"Primero se encenderá el led verde y permanecerá encendido durante 4 "
+"segundos. A continuación se apagará el led verde y se encenderá el led ámbar"
+" durante 2 segundos. Por último se apagará el led ámbar y se encenderá el "
+"rojo, que permanecerá encendido durante 4 segundos."
+msgstr ""
+"Primer el LED verd s’encendrà i es mantindrà durant 4 segons. El LED verd "
+"s’apagarà i el LED ambre s’encendrà durant 2 segons. Finalment, el LED ambre"
+" s’apagarà i el vermell s’encendrà, que es mantindrà durant 4 segons."
+
+#: ../../source/picuino-uno-led1.rst:122
+msgid "Esta secuencia se repetirá indefinidamente."
+msgstr "Aquesta seqüència es repetirà indefinidament."
+
+#: ../../source/picuino-uno-led1.rst:124
+msgid ""
+"Modificar el ejercicio 3 para que el led ámbar parpadee tres veces, "
+"cambiando de encendido a apagado cada medio segundo, antes de pasar a "
+"encender el led rojo."
+msgstr ""
+"Modificar l'exercici 3 per a l'ambre va provocar parpellejar tres vegades, "
+"canviant l'encesa per extingir cada meitat segon, abans d'encendre el LED "
+"vermell."
+
+#: ../../source/picuino-uno-led1.rst:128
+msgid ""
+"Programar una baliza que encienda alternativamente el led rojo y el led "
+"azul. Cada led debe permanecer encendido durante un segundo. Siempre debe "
+"estar uno de los dos led encendidos y nunca estarán los dos led encendidos a"
+" la vez."
+msgstr ""
+"Programa una balisa que s’encén alternativament el LED vermell i el LED "
+"blau. Cada LED ha de romandre un segon. Un dels dos LED sempre ha de ser i "
+"mai serà els dos LED alhora."
+
+#: ../../source/picuino-uno-led1.rst:134
+msgid ""
+"Encender el led D1, esperar un segundo, apagar el led D1 y encender el led "
+"D2. Se encenderán de esta forma, consecutivamente, los 5 primeros ledes. En "
+"cada momento solo un led estará encendido. Una vez terminada la secuencia, "
+"comenzará de nuevo desde el principio."
+msgstr ""
+"Enceneu el LED D1, espereu un segon, apagueu el LED D1 i engegueu el LED D2."
+" S'encendran d'aquesta manera, consecutivament, els primers 5 LED. En cada "
+"moment només hi haurà un LED. Un cop finalitzada la seqüència, tornarà a "
+"començar des del principi."
+
+#: ../../source/picuino-uno-led1.rst:141
+msgid ""
+"Realizar una modificación al ejercicio anterior para que en todo momento "
+"haya 2 ledes encendidos. Al comenzar el programa deben encenderse los ledes "
+"D1 y D2. Pasado un segundo se encenderán los ledes D2 y D3. La secuencia "
+"continuará hasta llegar a la situación inicial."
+msgstr ""
+"Feu una modificació a l’exercici anterior de manera que en tot moment hi "
+"hagi 2 LEDES encès. Al començament del programa, els LED D1 i D2 s’han "
+"d’encendre. Al cap d'un segon, els LeDes D2 i D3 s'encendran. La seqüència "
+"continuarà fins que arribi a la situació inicial."
+
+#: ../../source/picuino-uno-led1.rst:147
+msgid ""
+"El siguiente programa tiene varios errores, corrige los errores sintácticos "
+"para que funcione correctamente."
+msgstr ""
+"El programa següent té diversos errors, corregeix els errors sintàctics "
+"perquè funcionin correctament."
+
+#: ../../source/picuino-uno-led1.rst:178
+msgid ""
+"Realizar un programa que haga parpadear D1 una vez por segundo a la vez que "
+"D2 parpadea dos veces por segundo."
+msgstr ""
+"Realitzeu un programa que parpelleja D1 una vegada per segon al mateix temps"
+" que D2 parpelleja dues vegades per segon."

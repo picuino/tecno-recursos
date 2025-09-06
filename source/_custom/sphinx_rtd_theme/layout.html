@@ -185,8 +185,11 @@
           <br>#}
           {% if lang_attr == 'en' -%}
           <a href="{{ pathto('../es/' + pagename) }}">Español</a>
-          {% else -%}
+          {% elif lang_attr == 'ca' -%}
+          <a href="{{ pathto('../es/' + pagename) }}">Castellano</a>
+          {% elif lang_attr == 'es' -%}
           <a href="{{ pathto('../en/' + pagename) }}">English</a>
+          <!-- | <a href="{{ pathto('../ca/' + pagename) }}">Català</a> -->
           {% endif -%}
           <br>
 

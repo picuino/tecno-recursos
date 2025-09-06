@@ -47,7 +47,7 @@ Tensión umbral de polarización directa
    rojos y hasta 3 voltios para ledes blancos.
 
    En diodos rectificadores especiales
-   (`diodos schottky <https://es.wikipedia.org/wiki/Diodo_Schottky>`__)
+   (`diodos Schottky <https://es.wikipedia.org/wiki/Diodo_Schottky>`__)
    esta tensión puede bajar hasta 0.2 voltios.
 
 

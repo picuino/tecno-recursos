@@ -1,0 +1,371 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/control-sensor-ultrasonic.rst:9
+msgid "Sensor de distancia por ultrasonidos"
+msgstr "Sensor de distància d’ecografia"
+
+#: ../../source/control-sensor-ultrasonic.rst:18
+msgid "Objetivos"
+msgstr "Els pendents"
+
+#: ../../source/control-sensor-ultrasonic.rst:19
+msgid "Comprender el funcionamiento del sensor de distancia por ultrasonidos."
+msgstr "Comprendre el funcionament del sensor de distància d’ecografia."
+
+#: ../../source/control-sensor-ultrasonic.rst:21
+msgid "Medir distancias con un sensor de distancia por ultrasonidos."
+msgstr "Mesureu les distàncies amb un sensor de distància d’ecografia."
+
+#: ../../source/control-sensor-ultrasonic.rst:25
+msgid "El sensor de ultrasonidos"
+msgstr "El sensor d’ecografia"
+
+#: ../../source/control-sensor-ultrasonic.rst:26
+msgid ""
+"Este sensor tiene un pequeño altavoz que emite un pitido y un micrófono "
+"sensor que detecta el pitido emitido. El dispositivo calcula el tiempo que "
+"el sonido tarda en ir hasta un objeto y volver reflejado. La distancia desde"
+" el sensor hasta el objeto se calcula a partir de la velocidad del sonido en"
+" el aire y del tiempo que tarda el sonido en recorrer esa distancia."
+msgstr ""
+"Aquest sensor té un altaveu petit que emet un pit i un micròfon del sensor "
+"que detecta el pit emès. El dispositiu calcula el temps que el so triga a "
+"anar a un objecte i tornar reflectit. La distància del sensor a l’objecte es"
+" calcula a partir de la velocitat del so a l’aire i el temps que triga a "
+"recórrer aquesta distància."
+
+#: ../../source/control-sensor-ultrasonic.rst:34
+msgid ""
+"El pitido emitido tiene una frecuencia de 40kHz. Esta frecuencia se "
+"encuentra muy por encima de 20kHz, que es la máxima frecuencia que los "
+"humanos pueden percibir. Por esta razón a este sonido de elevada frecuencia "
+"se le denomina ultrasonido."
+msgstr ""
+"El biscat emès té una freqüència de 40 kHz. Aquesta freqüència està molt per"
+" sobre dels 20 kHz, que és la freqüència màxima que els humans poden "
+"percebre. Per aquest motiu, aquest so d’alta freqüència s’anomena ultrasons."
+
+#: ../../source/control-sensor-ultrasonic.rst:39
+msgid ""
+"Existen varios modelos de sensor en el mercado, los más conocidos y "
+"asequibles son el modelo SR04 y la versión más avanzada SRF05. En este "
+"tutorial se explica el modelo SR04. La explicación es válida para modelos "
+"más avanzados, teniendo en cuenta que estos tienen mayor capacidad o "
+"características añadidas."
+msgstr ""
+"Hi ha diversos models de sensors al mercat, els més coneguts i assequibles "
+"són el model SR04 i la versió més avançada SRF05. Aquest tutorial explica el"
+" model SR04. L’explicació és vàlida per a models més avançats, tenint en "
+"compte que tenen una capacitat més gran o característiques afegides."
+
+#: ../../source/control-sensor-ultrasonic.rst:47
+msgid "Características del sensor SR04"
+msgstr "Característiques del sensor SR04"
+
+#: ../../source/control-sensor-ultrasonic.rst:48
+msgid "Este sensor de ultrasonidos tiene las siguientes características:"
+msgstr "Aquest sensor d’ecografia té les següents característiques:"
+
+#: ../../source/control-sensor-ultrasonic.rst:50
+msgid "Distancia de detección: 2cm - 400cm"
+msgstr "Distància de detecció: 2cm - 400cm"
+
+#: ../../source/control-sensor-ultrasonic.rst:51
+msgid "Resolución: 0,3cm"
+msgstr "Resolució: 0,3cm"
+
+#: ../../source/control-sensor-ultrasonic.rst:52
+msgid "Frecuencia de sonido: 40kHz"
+msgstr "Freqüència de so: 40kHz"
+
+#: ../../source/control-sensor-ultrasonic.rst:53
+msgid "Ángulo eficaz: 15º"
+msgstr "Angle efectiu: 15º"
+
+#: ../../source/control-sensor-ultrasonic.rst:54
+msgid "Tensión de alimentación: 5V"
+msgstr "Tensió alimentària: 5V"
+
+#: ../../source/control-sensor-ultrasonic.rst:55
+msgid "Consumo de corriente: 15mA"
+msgstr "Consum actual: 15"
+
+#: ../../source/control-sensor-ultrasonic.rst:59
+msgid "Librería para sensores de ultrasonidos"
+msgstr "Biblioteca per a sensors d’ecografia"
+
+#: ../../source/control-sensor-ultrasonic.rst:60
+msgid ""
+"Para manejar los sensores de ultrasonidos existen varias librerías de "
+"trabajo. La librería estándar más precisa que se puede utilizar es `NewPing "
+"<https://playground.arduino.cc/Code/NewPing>`__. Para instalar la librería "
+"hay que seguir los siguientes pasos:"
+msgstr ""
+"Per gestionar els sensors d’ecografia, hi ha diverses biblioteques de "
+"treball. La llibreria estàndard més precisa que es pot utilitzar és `newping"
+" <https://playground.arduino.cc/code/newping>`__. Per instal·lar la "
+"llibreria, heu de seguir els passos següents:"
+
+#: ../../source/control-sensor-ultrasonic.rst:66
+msgid "Descargar la librería"
+msgstr "Descarregueu la llibreria"
+
+#: ../../source/control-sensor-ultrasonic.rst:67
+msgid "Guardar el fichero NewPing_v1.9.4.zip en el ordenador"
+msgstr "Deseu el fitxer newPing_v1.9.4.zip a l'ordinador"
+
+#: ../../source/control-sensor-ultrasonic.rst:68
+msgid "Abrir el entorno gráfico de Arduino"
+msgstr "Obrir l’entorn gràfic d’Arduino"
+
+#: ../../source/control-sensor-ultrasonic.rst:69
+msgid "En la pestaña Sketch.. Importar librería.. pinchar 'Add Library...'"
+msgstr ""
+"A la pestanya Sketch .. Importa la llibreria .. Feu clic a \"Afegeix la "
+"biblioteca ...\""
+
+#: ../../source/control-sensor-ultrasonic.rst:70
+msgid ""
+"Buscar el fichero descargado y después de seleccionarle, pulsar 'Abrir'"
+msgstr ""
+"Cerqueu el fitxer descarregat i després de seleccionar -lo, premeu \"Obriu\""
+
+#: ../../source/control-sensor-ultrasonic.rst:72
+msgid ""
+"Comprobar que en la pestaña Sketch.. Importar librería.. aparece una nueva "
+"librería llamada NewPing"
+msgstr ""
+"Comproveu -ho a la pestanya Sketch .. Importa biblioteca .. apareix una nova"
+" llibreria anomenada Newping"
+
+#: ../../source/control-sensor-ultrasonic.rst:75
+msgid "Con estos pasos la librería estará correctamente instalada."
+msgstr "Amb aquests passos, la llibreria s’instal·larà correctament."
+
+#: ../../source/control-sensor-ultrasonic.rst:79
+msgid "Medición de distancias"
+msgstr "Mesura de distàncies"
+
+#: ../../source/control-sensor-ultrasonic.rst:80
+msgid ""
+"Para medir distancias con el sensor SR04 se seguirán los siguientes pasos:"
+msgstr ""
+"Per mesurar les distàncies amb el sensor SR04, es seguiran els passos "
+"següents:"
+
+#: ../../source/control-sensor-ultrasonic.rst:83
+msgid "Conectar el sensor SR04 a la placa Arduino según el siguiente esquema:"
+msgstr ""
+"Connecteu el sensor SR04 a la placa Arduino segons el següent esquema:"
+
+#: ../../source/control-sensor-ultrasonic.rst:91
+msgid ""
+"Copiar el siguiente programa, compilarlo y descargarlo en la placa Arduino."
+msgstr ""
+"Copieu el programa següent, compileu -lo i descarregueu -lo a la placa "
+"Arduino."
+
+#: ../../source/control-sensor-ultrasonic.rst:132
+msgid ""
+"Abrir el monitor serie (Monitor Serial) pulsando el icono que aparece arriba"
+" a la derecha en el entorno gráfico de Arduino."
+msgstr ""
+"Obriu el monitor de la sèrie (monitor en sèrie) prement la icona que apareix"
+" a la dreta a l’entorn gràfic d’Arduino."
+
+#: ../../source/control-sensor-ultrasonic.rst:140
+msgid ""
+"En la nueva ventana que aparece, escoger la velocidad de transmisión en el "
+"recuadro que aparece abajo a la derecha. En este caso, la velocidad "
+"programada es de 115200 baudios."
+msgstr ""
+"A la nova finestra que apareix, trieu la velocitat de transmissió del quadre"
+" que apareix a la dreta. En aquest cas, la velocitat programada és de 115200"
+" Baud."
+
+#: ../../source/control-sensor-ultrasonic.rst:144
+msgid ""
+"El cuadro debe mostrar continuamente la información de tiempo y distancia."
+msgstr "La imatge ha de mostrar contínuament informació de temps i distància."
+
+#: ../../source/control-sensor-ultrasonic.rst:152
+msgid ""
+"En este momento, si todo ha ido bien, Arduino estará midiendo continuamente "
+"la distancia entre el sensor y los objetos que se coloquen delante de él. "
+"Esta distancia se envía al ordenador mediante el puerto serie (por el cable "
+"USB) para visualizarlo en pantalla."
+msgstr ""
+"En aquest moment, si tot ha anat bé, Arduino mesurarà contínuament la "
+"distància entre el sensor i els objectes que es col·loquen davant seu. "
+"Aquesta distància s’envia a l’ordinador mitjançant el port sèrie (pel cable "
+"USB) per mostrar -lo a la pantalla."
+
+#: ../../source/control-sensor-ultrasonic.rst:159
+msgid "Ajuste del sensor"
+msgstr "Ajust del sensor"
+
+#: ../../source/control-sensor-ultrasonic.rst:160
+msgid ""
+"El ajuste del sensor permite que las mediciones sean más exactas. Para "
+"conseguir ajustar el sensor es necesario corregir múltiples parámetros que "
+"pueden influir en la medida. La velocidad del sonido en el aire, la presión "
+"atmosférica, la velocidad del cronómetro interno del sensor, etc. Para "
+"evitar la complejidad de ajustar uno por uno todos estos parámetros, se va a"
+" realizar un ajuste denominado ajuste de dos puntos."
+msgstr ""
+"L’ajustament del sensor permet que les mesures siguin més exactes. Per "
+"ajustar el sensor és necessari corregir diversos paràmetres que puguin "
+"influir en l'extensió. La velocitat del so a l’aire, la pressió atmosfèrica,"
+" la velocitat del cronòmetre intern del sensor, etc. Per evitar la "
+"complexitat d’ajustar -ne un per un tots aquests paràmetres, es farà un "
+"ajust anomenat dos punts."
+
+#: ../../source/control-sensor-ultrasonic.rst:168
+msgid ""
+"Primero se debe realizar una medida a una distancia conocida, cercana al "
+"sensor. Después se debe realizar otra medición a una distancia conocida, más"
+" lejana al sensor."
+msgstr ""
+"En primer lloc, s’ha de fer una mesura a una distància coneguda, a prop del "
+"sensor. Aleshores s’ha de fer una altra mesura a una distància coneguda, més"
+" lluny del sensor."
+
+#: ../../source/control-sensor-ultrasonic.rst:172
+msgid ""
+"La primera medición puede corregir lo que se denomina ajuste de cero. La "
+"segunda medida sirve para realizar el ajuste de rampa. Las medidas se deben "
+"introducir en una tabla como la siguiente:"
+msgstr ""
+"La primera mesura pot corregir el que s’anomena ajust zero. La segona mesura"
+" serveix per ajustar la rampa. Les mesures s’han d’introduir en una taula "
+"com les següents:"
+
+#: ../../source/control-sensor-ultrasonic.rst:176
+msgid "Tabla 1."
+msgstr "Taula 1."
+
+#: ../../source/control-sensor-ultrasonic.rst:179
+msgid "Medida"
+msgstr "Extensió"
+
+#: ../../source/control-sensor-ultrasonic.rst:180
+msgid "Tiempo"
+msgstr "Temps"
+
+#: ../../source/control-sensor-ultrasonic.rst:181
+msgid "Distancia"
+msgstr "Distància"
+
+#: ../../source/control-sensor-ultrasonic.rst:182
+msgid "Medida 1"
+msgstr "Mesureu 1"
+
+#: ../../source/control-sensor-ultrasonic.rst:183
+msgid "247us"
+msgstr "247US"
+
+#: ../../source/control-sensor-ultrasonic.rst:184
+msgid "50mm"
+msgstr "50mm"
+
+#: ../../source/control-sensor-ultrasonic.rst:185
+msgid "Medida 2"
+msgstr "Mesura 2"
+
+#: ../../source/control-sensor-ultrasonic.rst:186
+msgid "1123 us"
+msgstr "1123 EUA"
+
+#: ../../source/control-sensor-ultrasonic.rst:187
+msgid "200mm"
+msgstr "200mm"
+
+#: ../../source/control-sensor-ultrasonic.rst:190
+msgid ""
+"A partir de esta tabla, se puede realizar un mejor ajuste de la medida con "
+"la orden `map() "
+"<https://www.arduino.cc/reference/en/language/functions/math/map/>`__ de "
+"Arduino:"
+msgstr ""
+"Des d'aquesta taula, podeu fer un millor ajustament de la mesura amb l'ordre"
+" `map () <https://www.arduino.cc/reference/en/language/funcals/math/map/>` "
+"`` d'Arduino:"
+
+#: ../../source/control-sensor-ultrasonic.rst:195
+msgid "distance = map(microseconds, 247, 1123, 50, 200);"
+msgstr "Distància = mapa (microsegons, 247, 1123, 50, 200);"
+
+#: ../../source/control-sensor-ultrasonic.rst:197
+msgid ""
+"El primer argumento es la medición de tiempo realizada por el sensor. Los "
+"dos siguientes argumentos son los tiempos de rebote al objeto cercano y "
+"lejano. Los dos siguientes argumentos son las distancias del objeto cercano "
+"y lejano."
+msgstr ""
+"El primer argument és la mesura del temps del sensor. Els dos següents "
+"arguments són els temps de rebot a l'objecte proper i llunyà. Els dos "
+"següents arguments són les distàncies de l'objecte proper i llunyà."
+
+#: ../../source/control-sensor-ultrasonic.rst:203
+msgid "El programa modificado es el siguiente."
+msgstr "El programa modificat és el següent."
+
+#: ../../source/control-sensor-ultrasonic.rst:251
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/control-sensor-ultrasonic.rst:252
+msgid ""
+"Realizar las mediciones para ajuste de dos puntos con un sensor concreto. "
+"Modificar el :ref:`programa anterior <ultrasonic-prog2>` para conseguir que "
+"el sensor devuelva medidas exactas con mediciones propias."
+msgstr ""
+"Realitzeu mesures per a l’ajust de dos punts amb un sensor específic. "
+"Modifiqueu: Ref: `Programa anterior <Plentífer-Prog2>` Per aconseguir que el"
+" sensor torni mesures exactes amb mesures pròpies."
+
+#: ../../source/control-sensor-ultrasonic.rst:258
+msgid ""
+"Cada sensor dará unos valores diferentes para los 4 números de la tabla 1, "
+"dependiendo de la altitud a la que nos encontremos, la temperatura y otros "
+"parámetros del sensor."
+msgstr ""
+"Cada sensor donarà diferents valors per als 4 números de la taula 1, "
+"depenent de l’altitud a la qual ens trobem, la temperatura i altres "
+"paràmetres del sensor."
+
+#: ../../source/control-sensor-ultrasonic.rst:262
+msgid ""
+"Mostrar la distancia medida en el display de 7 segmentos con el siguiente "
+"programa."
+msgstr ""
+"Mostra la distància mesurada a la pantalla 7 -segment amb el programa "
+"següent."
+
+#: ../../source/control-sensor-ultrasonic.rst:301
+msgid ""
+"Encender una barra de ledes que represente la distancia de un objeto al "
+"sensor de ultrasonidos. Completar el programa para que la barra ocupe 6 "
+"ledes."
+msgstr ""
+"Enceneu una barra LEDES que representa la distància d’un objecte al sensor "
+"d’ultrasons. Completeu el programa per a la barra ocupada 6 LED."

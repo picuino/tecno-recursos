@@ -1,0 +1,333 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-02-11 17:11+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/control-actuator-servomotor.rst:9
+msgid "Servomotor"
+msgstr "Servomotor"
+
+#: ../../source/control-actuator-servomotor.rst:12
+msgid ""
+"Un servomotor es un motor eléctrico que puede girar a la posición angular "
+"deseada y mantenerse estable en esa posición."
+msgstr ""
+"Un servomotor és un motor elèctric que pot recórrer a la posició angular "
+"desitjada i mantenir -se estable en aquesta posició."
+
+#: ../../source/control-actuator-servomotor.rst:23
+msgid ""
+"Un servomotor puede girar un componente mecánico o mover un elemento de "
+"forma lineal."
+msgstr ""
+"Un servomotor pot convertir un component mecànic o moure un element de "
+"lineal."
+
+#: ../../source/control-actuator-servomotor.rst:28
+msgid "Aplicaciones típicas que utilizan servomotores son:"
+msgstr "Les aplicacions típiques que utilitzen servomotors són:"
+
+#: ../../source/control-actuator-servomotor.rst:30
+msgid ""
+"Vídeo: `Compuerta de un panel de aire acondicionado <https://www.youtube-"
+"nocookie.com/embed/_xZjp3gaNE4>`__"
+msgstr ""
+"Vídeo: `Gate of a Air Condicioning Panel <https://www.youtube-"
+"nocoakie.com/embed/_xzjp3gane4>`__"
+
+#: ../../source/control-actuator-servomotor.rst:32
+msgid "Giro de la dirección de un vehículo a radio control."
+msgstr "Direcció de la direcció d’un vehicle cap al control de la ràdio."
+
+#: ../../source/control-actuator-servomotor.rst:33
+msgid "Movimiento del cabezal de lectura de un lector de CDROM o DVD."
+msgstr "Moviment de capçalera de lectura d’un lector CDROM o DVD."
+
+#: ../../source/control-actuator-servomotor.rst:34
+msgid "Movimiento automático del espejo retrovisor de un automóvil."
+msgstr "Moviment de miralls retrovisor automàtic d’un cotxe."
+
+#: ../../source/control-actuator-servomotor.rst:35
+msgid "Apertura y cierre de una caja de seguridad con cerradura electrónica."
+msgstr "Obertura i tancament d’una caixa de seguretat amb pany electrònic."
+
+#: ../../source/control-actuator-servomotor.rst:40
+msgid "Funcionamiento"
+msgstr "Operació"
+
+#: ../../source/control-actuator-servomotor.rst:44
+msgid ""
+"Para mover un servomotor es necesario conectarle a una fuente de "
+"alimentación eléctrica y enviarle una señal electrónica que le indique la "
+"posición deseada. La mayoría de servomotores de radio control tienen un "
+"cable de conexión de 3 hilos por donde circula la corriente de alimentación "
+"y la señal de control."
+msgstr ""
+"Per moure un servomotor, cal connectar -se a una font d’alimentació "
+"elèctrica i enviar un senyal electrònic que indiqui la posició desitjada. La"
+" majoria dels servomotores de ràdio control tenen un cable de connexió de 3 "
+"guns on el corrent d'alimentació i el senyal de control circulen."
+
+#: ../../source/control-actuator-servomotor.rst:53
+msgid "**Composición interna:**"
+msgstr "** Composició interna: **"
+
+#: ../../source/control-actuator-servomotor.rst:55
+msgid ""
+"Vídeo: `composición y funcionamiento interno de un servomotor "
+"<https://www.youtube-nocookie.com/embed/ZZhuD78BLDk>`__"
+msgstr ""
+"Vídeo: `Composició i funcionament intern d'un servomotor "
+"<https://www.youtube-nocokie.com/embed/zzhud78bldk>`__"
+
+#: ../../source/control-actuator-servomotor.rst:59
+msgid ""
+"Internamente el servomotor está formado por los siguientes componentes."
+msgstr "Internament, el servomotor està format pels components següents."
+
+#: ../../source/control-actuator-servomotor.rst:61
+msgid "Motor eléctrico."
+msgstr "Motor elèctric."
+
+#: ../../source/control-actuator-servomotor.rst:62
+msgid "Reductora mecánica."
+msgstr "Reductor mecànic."
+
+#: ../../source/control-actuator-servomotor.rst:63
+msgid "Sensor de posición. Generalmente es un potenciómetro."
+msgstr "Sensor de posició. Generalment és un potenciòmetre."
+
+#: ../../source/control-actuator-servomotor.rst:64
+msgid "Circuito de control."
+msgstr "Circuit de control."
+
+#: ../../source/control-actuator-servomotor.rst:66
+msgid "El motor es el elemento que produce el movimiento."
+msgstr "El motor és l’element que produeix el moviment."
+
+#: ../../source/control-actuator-servomotor.rst:68
+msgid ""
+"El giro de los motores eléctricos suele ser muy rápido y con poca fuerza, la"
+" reductora mecánica consigue reducir la velocidad de giro y aumentar la "
+"fuerza, de manera que el giro final es más útil."
+msgstr ""
+"El gir dels motors elèctrics sol ser molt ràpid i amb poca força, el "
+"reductor mecànic aconsegueix reduir la velocitat de rotació i augmentar la "
+"força, de manera que el gir final sigui més útil."
+
+#: ../../source/control-actuator-servomotor.rst:72
+msgid ""
+"El sensor de posición permite conocer la posición exacta del eje de giro del"
+" servomotor. Con el sensor, se puede corregir la posición del eje para que "
+"en todo momento se encuentre en la posición deseada."
+msgstr ""
+"El sensor de posició us permet conèixer la posició exacta de l’eix de gir "
+"del servomotor. Amb el sensor, la posició de l’eix es pot corregir de manera"
+" que en tot moment estigui en la posició desitjada."
+
+#: ../../source/control-actuator-servomotor.rst:77
+msgid ""
+"El circuito de control recibe por el cable la señal de la posición deseada y"
+" la compara con la posición real del eje, medida por el sensor. Este "
+"circuito se encarga de mover al motor para llevar al eje a la posición "
+"deseada y mantenerle en esa posición. En ocasiones parece que el eje del "
+"servomotor tiembla. Esto se debe al circuito de control que corrige "
+"continuamente la posición con giros a derecha y a izquierda para mantener "
+"estable la posición final."
+msgstr ""
+"El circuit de control rep el senyal de la posició desitjada pel cable i el "
+"compara amb la posició real de l’eix, mesurada pel sensor. Aquest circuit és"
+" responsable de moure el motor per agafar la posició desitjada a l’eix i "
+"mantenir -lo en aquesta posició. De vegades sembla que l’eix servomotor "
+"tremola. Això es deu al circuit de control que corregeix contínuament la "
+"posició amb girs a la dreta i a l’esquerra per mantenir la posició final "
+"estable."
+
+#: ../../source/control-actuator-servomotor.rst:88
+msgid "Especificaciones"
+msgstr "Especificacions"
+
+#: ../../source/control-actuator-servomotor.rst:89
+msgid ""
+"Existen muchos tipos de servomotores. Como ejemplo se muestran las "
+"especificaciones de un pequeño `servomotor Tower Pro 9g "
+"<../_static/document/SG90Servo.pdf>`__."
+msgstr ""
+"Hi ha molts tipus de servomotors. A tall d’exemple, es mostren les "
+"especificacions d’un petit “Tower Pro 9G <../_ "
+"Static/Document/SG90Servo.pdf>`__ Servomotor."
+
+#: ../../source/control-actuator-servomotor.rst:93
+msgid "Tensión de alimentación = 4,8 a 6,0 v"
+msgstr "Tensió de potència = 4,8 a 6,0 V"
+
+#: ../../source/control-actuator-servomotor.rst:94
+msgid "Corriente máxima = 570 a 730 mA"
+msgstr "Corrent màxim = 570 a 730 mA"
+
+#: ../../source/control-actuator-servomotor.rst:95
+msgid "Corriente en movimiento sin carga = 170 a 270 mA"
+msgstr "Desplaçament de corrent sense càrrega = 170 a 270 mA"
+
+#: ../../source/control-actuator-servomotor.rst:96
+msgid "Ángulo de giro = 0 a 180º"
+msgstr "Angle Giro = de 0 a 180º"
+
+#: ../../source/control-actuator-servomotor.rst:97
+msgid "Fuerza de giro = 1,8 kg-cm a 4,8v"
+msgstr "Gireu la força = 1,8 kg-cm a 4.8V"
+
+#: ../../source/control-actuator-servomotor.rst:98
+msgid "Velocidad de giro =  180º en 0,36 s"
+msgstr "Velocitat de gir = 180º a 0,36 s"
+
+#: ../../source/control-actuator-servomotor.rst:99
+msgid "Peso = 9 gramos"
+msgstr "Pes = 9 grams"
+
+#: ../../source/control-actuator-servomotor.rst:100
+msgid "Precisión = 10us = 1,8º"
+msgstr "Precisió = 10us = 1,8º"
+
+#: ../../source/control-actuator-servomotor.rst:102
+msgid ""
+"La mayoría de servomotores permiten ángulos de giro menores de 180º. En el "
+"siguiente vídeo se puede ver el funcionamiento del servomotor, su velocidad "
+"de giro y su rango de acción. En una imagen de osciloscopio también puede "
+"verse la señal electrónica que controla el servomotor."
+msgstr ""
+"La majoria dels servomotores permeten girar angles inferiors a 180º. Al "
+"següent vídeo podeu veure el funcionament del servomotor, la seva velocitat "
+"de rotació i la seva gamma d’acció. En una imatge oscil·loscopi també podeu "
+"veure el senyal electrònic que controla el servomotor."
+
+#: ../../source/control-actuator-servomotor.rst:108
+msgid ""
+"Vídeo: `RC servo processor. <https://www.youtube-"
+"nocookie.com/embed/em4JUrM49FI>`__"
+msgstr ""
+"Vídeo: `Processador de servo RC. <https://www.youtube-"
+"nocokie.com/embed/em4jurm49fi>`__"
+
+#: ../../source/control-actuator-servomotor.rst:112
+msgid "Esquema de conexión"
+msgstr "Esquema de connexió"
+
+#: ../../source/control-actuator-servomotor.rst:113
+msgid ""
+"El siguiente esquema muestra cómo conectar un servomotor a la placa Arduino "
+"UNO."
+msgstr ""
+"El següent esquema mostra com connectar un servomotor a la placa Arduino "
+"Uno."
+
+#: ../../source/control-actuator-servomotor.rst:126
+msgid ""
+"Hay que tener en cuenta que se ha utilizado para realizar este esquema el "
+"sistema de colores y conexiones de Hitec. Otros servomotores tienen un "
+"esquema de colores diferente e, incluso, conexiones en diferente orden."
+msgstr ""
+"Tingueu en compte que el sistema de colors i connexions HITEC s’ha utilitzat"
+" per realitzar aquest esquema. Altres servomotors tenen un esquema de colors"
+" diferent i fins i tot connexions en diferents ordres."
+
+#: ../../source/control-actuator-servomotor.rst:138
+msgid "Programa de control"
+msgstr "Programa de control"
+
+#: ../../source/control-actuator-servomotor.rst:140
+msgid ""
+"La librería de control para servomotores viene de forma estándar con el "
+"entorno Arduino. Su nombre es <Servo.h>"
+msgstr ""
+"La Biblioteca de Control Servomotor arriba de manera normal amb l’entorn "
+"Arduino. El seu nom és <servo.h>"
+
+#: ../../source/control-actuator-servomotor.rst:143
+msgid ""
+"En el siguiente ejemplo se utiliza la librería Servo.h para mover un "
+"servomotor conectado al pin digital 3, a dos posiciones extremas cada medio "
+"segundo."
+msgstr "En l'exemple següent, s'utilitza la llibreria Servo."
+
+#: ../../source/control-actuator-servomotor.rst:171
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/control-actuator-servomotor.rst:173
+msgid ""
+"Completar el siguiente programa que mueve lentamente el servomotor entre dos"
+" posiciones distintas."
+msgstr ""
+"Completa el següent programa que mou lentament el servomotor entre dues "
+"posicions diferents."
+
+#: ../../source/control-actuator-servomotor.rst:208
+msgid ""
+"Realizar una modificación al programa anterior para que el servomotor se "
+"mueva despacio desde la posición 0 grados hasta la posición 180 grados. Una "
+"vez terminado ese movimiento, debe volver con rapidez a la posición de 0 "
+"grados. El movimiento rápido se puede conseguir reduciendo el tiempo de "
+"espera `delay()` o aumentando mas el ángulo de giro en la instrucción `angle"
+" = angle + 2`."
+msgstr ""
+"Feu una modificació al programa anterior perquè el servomotor es mogui "
+"lentament de la posició 0 graus a 180 graus. Un cop finalitzat aquest "
+"moviment, ha de tornar ràpidament a la posició de 0 graus. El moviment ràpid"
+" es pot aconseguir reduint el temps d’espera `` `` `o augmentant l'angle de "
+"gir a l'Instrucció` angle = angle + 2`."
+
+#: ../../source/control-actuator-servomotor.rst:217
+msgid ""
+"Hay que tener en cuenta que el servomotor tarda aproximadamente 360 "
+"milisegundos en volver a su posición inicial. El tiempo total programado "
+"para el movimiento no debe ser menor."
+msgstr ""
+"Tingueu en compte que el servomotor triga aproximadament 360 mil·lisegons "
+"per tornar a la seva posició inicial. El temps previst per al moviment no ha"
+" de ser inferior."
+
+#: ../../source/control-actuator-servomotor.rst:221
+msgid ""
+"Realizar un programa que mueva un servomotor a la posición 0 grados al "
+"presionar el pulsador 1 y que mueva el servomotor a la posición 90 grados al"
+" presionar el pulsador 2."
+msgstr ""
+"Feu un programa que mogui un servomotor per situar -se 0 graus quan prémer "
+"el botó 1 i que mogui el servomotor per situar 90 graus en prémer el botó 2."
+
+#: ../../source/control-actuator-servomotor.rst:227
+msgid "Extras"
+msgstr "Extres"
+
+#: ../../source/control-actuator-servomotor.rst:229
+msgid ""
+"Vídeo: explicación en inglés del `funcionamiento de un servomotor "
+"<https://www.youtube-nocookie.com/embed/hg3TIFIxWCo>`__"
+msgstr ""
+"Vídeo: Explicació en anglès del funcionament d'un servomotor "
+"<https://www.youtube-nocoakie.com/embed/hg3tifixwco>`__"
+
+#: ../../source/control-actuator-servomotor.rst:231
+msgid ""
+"Vídeo: `how Servo Motors Work & How To Control Servos using Arduino "
+"<https://www.youtube-nocookie.com/embed/LXURLvga8bQ>`__"
+msgstr ""
+"Vídeo: `How Servo Motors i com controlar els servos mitjançant arduino "
+"<https://www.youtube-nocoakie.com/embed/lxurlvga8bq>`__"

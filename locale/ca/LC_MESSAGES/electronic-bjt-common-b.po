@@ -1,0 +1,194 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-05-26 17:21+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/electronic-bjt-common-b.rst:9
+msgid "El transistor en base común"
+msgstr "Transistor a la base comuna"
+
+#: ../../source/electronic-bjt-common-b.rst:10
+msgid ""
+"En esta configuración el transistor tiene la base conectada a una tensión "
+"fija. La señal de entrada llega por el emisor del transistor y la señal "
+"amplificada sale por el colector del transistor."
+msgstr ""
+"En aquesta configuració, el transistor té la base connectada a una tensió "
+"fixa. El senyal d’entrada arriba per l’emissor del transistor i el senyal "
+"amplificat surt a través del col·leccionista del transistor."
+
+#: ../../source/electronic-bjt-common-b.rst:19
+msgid "Esquema simplificado de un transistor NPN en base común."
+msgstr "Esquema simplificat d’un transistor NPN de forma comuna."
+
+#: ../../source/electronic-bjt-common-b.rst:21
+msgid ""
+"Esta configuración permite amplificar la tensión de entrada manteniendo la "
+"corriente igual. Este funcionamiento es útil en etapas de entrada de señal "
+"desde un componente que genere poca tensión, pero con corrientes "
+"relativamente altas."
+msgstr ""
+"Aquesta configuració permet amplificar la tensió d’entrada mantenint el "
+"corrent igual. Aquesta operació és útil en etapes d’entrada de senyal d’un "
+"component que genera poca tensió, però amb corrents relativament alts."
+
+#: ../../source/electronic-bjt-common-b.rst:26
+msgid ""
+"Un ejemplo de aplicación práctica es amplificar la señal inducida en una "
+"bobina. Por ejemplo, amplificar el sonido captado por un altavoz, "
+"convirtiendo el altavoz en un micrófono."
+msgstr ""
+"Un exemple d’aplicació pràctica és amplificar el senyal induït en una "
+"bobina. Per exemple, amplifiqueu el so capturat per un altaveu, convertint "
+"l'altaveu en un micròfon."
+
+#: ../../source/electronic-bjt-common-b.rst:30
+msgid ""
+"A continuación puede verse una simulación de un transistor NPN en "
+"configuración de base común. El transistor amplifica una señal que entra por"
+" el emisor generando una señal con mucha mayor tensión que sale por el "
+"colector."
+msgstr ""
+"A continuació es pot veure una simulació d’un transistor NPN en la "
+"configuració de base comuna. El transistor amplifica un senyal que entra a "
+"través de l’emissor generant un senyal amb tensió molt més gran que surt del"
+" col·leccionista."
+
+#: ../../source/electronic-bjt-common-b.rst:42
+msgid "La función de cada uno de los componentes es la siguiente:"
+msgstr "La funció de cadascun dels components és la següent:"
+
+#: ../../source/electronic-bjt-common-b.rst:44
+msgid ""
+"El **generador de señal alterna** genera una pequeña señal de entrada de "
+"0.050 voltios de pico."
+msgstr ""
+"El generador de senyal alternatiu ** ** genera un petit senyal d’entrada de "
+"0,050 volts de pic."
+
+#: ../../source/electronic-bjt-common-b.rst:47
+msgid ""
+"Las **resistencias R1 y R2** mantienen una tensión fija en la base que "
+"**polariza al transistor** para que funcione siempre con corrientes "
+"positivas, a pesar de que la tensión de entrada sea tanto positiva como "
+"negativa."
+msgstr ""
+"Les resistències ** R1 i R2 ** mantenen una tensió fixa a la base que ** "
+"polaritza el transistor ** per treballar sempre amb corrents positius, "
+"malgrat que la tensió d’entrada és positiva i negativa."
+
+#: ../../source/electronic-bjt-common-b.rst:52
+msgid ""
+"El **transistor NPN** recibe una señal de pequeña tensión por el emisor, que"
+" produce una corriente en el emisor. El transistor transfiere esa corriente "
+"del emisor al colector, donde la resistencia R3 convierte la corriente en "
+"una tensión mayor que la tensión de entrada."
+msgstr ""
+"El transistor ** NPN ** rep un senyal de tensió petita per l'emissor, que "
+"produeix un corrent a l'emissor. Les transferències del transistor que "
+"emeten corrent al col·lector, on la resistència R3 converteix el corrent en "
+"una tensió superior a la tensió d’entrada."
+
+#: ../../source/electronic-bjt-common-b.rst:58
+msgid "En esta etapa no hay amplificación de corriente, solo de tensión."
+msgstr "En aquesta fase no hi ha cap amplificació de corrent, només tensió."
+
+#: ../../source/electronic-bjt-common-b.rst:60
+msgid ""
+"La **resistencia R3** recibe la corriente del colector y la convierte en "
+"tensión de salida. Cuanto mayor sea esta resistencia, mayor será la tensión "
+"de salida y, por lo tanto, la amplificación de tensión de la etapa."
+msgstr ""
+"La resistència ** R3 ** rep el corrent del col·lector i el converteix en "
+"tensió de sortida. Com més alta sigui aquesta resistència, més gran és la "
+"tensió de sortida i, per tant, l’amplificació de la tensió de l’etapa."
+
+#: ../../source/electronic-bjt-common-b.rst:67
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-bjt-common-b.rst:69
+msgid ""
+"Dibuja un esquema simplificado de un transistor NPN trabajando en "
+"configuración de base común, mostrando por dónde llega la señal de entrada y"
+" por dónde sale la señal amplificada."
+msgstr ""
+"Dibuixa un esquema simplificat d’un transistor NPN que funciona en la "
+"configuració de base comuna, mostrant on arriba el senyal d’entrada i on "
+"surt el senyal amplificat."
+
+#: ../../source/electronic-bjt-common-b.rst:73
+msgid ""
+"Dibuja un esquema realista de un transistor NPN trabajando en configuración "
+"de base común."
+msgstr ""
+"Dibuixa un esquema realista d’un transistor NPN que treballa en la "
+"configuració de base comuna."
+
+#: ../../source/electronic-bjt-common-b.rst:76
+msgid ""
+"¿Cuál es la función principal de un transistor funcionando en configuración "
+"de base común?"
+msgstr ""
+"Quina és la funció principal d’un transistor que funciona en la configuració"
+" de base comuna?"
+
+#: ../../source/electronic-bjt-common-b.rst:79
+msgid "¿Para qué sirven las resistencias R1 y R2?"
+msgstr "Per a què serveixen les resistències R1 i R2?"
+
+#: ../../source/electronic-bjt-common-b.rst:81
+msgid "¿Para qué sirve la resistencia R3?"
+msgstr "Per a què serveix la resistència R3?"
+
+#: ../../source/electronic-bjt-common-b.rst:83
+msgid "¿Qué ganancia de tensión tiene la etapa simulada?"
+msgstr "Quin guany de tensió té l’etapa simulada?"
+
+#: ../../source/electronic-bjt-common-b.rst:85
+msgid ""
+"Para calcular la ganancia de tensión es necesario dividir la variación de "
+"tensión en la salida entre la variación de la tensión en la entrada."
+msgstr ""
+"Per calcular el guany de tensió, cal dividir la variació de tensió en la "
+"sortida entre la variació de la tensió a l’entrada."
+
+#: ../../source/electronic-bjt-common-b.rst:88
+msgid ""
+"Ganancia\\_V = \\cfrac{V_{out\\_max} - V_{out\\_min}}{ V_{in\\_max} - "
+"V_{in\\_min}}"
+msgstr ""
+"Profit\\_V = \\cfrac{V_{out\\_max} - V_{out\\_min}}{ V_{in\\_max} - "
+"V_{in\\_min}}"
+
+#: ../../source/electronic-bjt-common-b.rst:92
+msgid ""
+"Puedes obtener los valores de tensión necesarios de los osciloscopios que se"
+" encuentran en la parte inferior del simulador."
+msgstr ""
+"Podeu obtenir els valors de tensió necessaris dels oscil·loscopis que es "
+"troben a la part inferior del simulador."
+
+#: ../../source/electronic-bjt-common-b.rst:96
+msgid ""
+"Si modificamos R3 con un valor de 500 Ohm y R1 con un valor de 8 kOhm, ¿Qué "
+"le ocurre a la señal de salida del circuito? ¿Por qué crees que ocurre esto?"
+msgstr ""
+"Si modifiquem R3 amb un valor de 500 ohm i R1 amb un valor de 8 kohm, què "
+"passa amb el senyal de sortida del circuit? Per què creus que passa això?"

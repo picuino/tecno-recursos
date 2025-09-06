@@ -1,0 +1,653 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/control-pid-digital.rst:9
+msgid "Controlador PID digital"
+msgstr "Controlador digital PID"
+
+#: ../../source/control-pid-digital.rst:11
+msgid ""
+"Muchos controladores actuales utilizan microcontroladores digitales. En esta"
+" página se presentará la programación de un regulador PID implementado con "
+"un microcontrolador. Los reguladores digitales sustituyen varios elementos "
+"en un sistema de control tradicional por cálculos en un sistema programado. "
+"En la figura siguiente puede verse un esquema de un regulador controlado por"
+" un microcontrolador."
+msgstr ""
+"Muchos controladores actuales utilizan microcontroladores digitales. En esta"
+" página se presentará la programación de un regulador PID implementado con "
+"un microcontrolador. Los reguladores digitales sustituyen varios elementos "
+"en un sistema de control tradicional por cálculos en un sistema programado. "
+"En la figura siguiente puede verse un esquema de un regulador controlado por"
+" un microcontrolador."
+
+#: ../../source/control-pid-digital.rst:24
+msgid ""
+"Las funciones del microcontrolador están encerradas en el cuadrado con "
+"líneas de puntos."
+msgstr ""
+"Les funcions del microcontrolador es bloquegen al quadrat amb línies de "
+"punts."
+
+#: ../../source/control-pid-digital.rst:27
+msgid ""
+"Los bloques que sirven de conexión entre el microcontrolador y el sistema "
+"son un `DAC (conversor digital a analógico) "
+"<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_digital_a_anal%C3%B3gica>`__"
+" y un `ADC (conversor de analógico a digital) "
+"<https://es.wikipedia.org/wiki/Conversor_de_se%C3%B1al_anal%C3%B3gica_a_digital>`__."
+" Estos dos bloques permiten traducir las señales analógicas del sistema "
+"controlado a números digitales utilizados por el microcontrolador y "
+"viceversa."
+msgstr ""
+"Els blocs que serveixen de connexió entre el microcontrolador i el sistema "
+"són un `DAC (Convertidor digital a analògic) "
+"<https://es.wikipedia.org/wiki/conversor_de_se converter) "
+"<https://es.wikipedia.org/wiki/conversor_de_se_s "
+"<https://es.wikipedia.org/wiki/conversor_de_se%C3%B1al_anal%C3%B3Gica_a_digital>"
+" `__. Aquests dos blocs permeten els senyals analògics del sistema controlat"
+" a nombres digitals utilitzats pel microcontrolador i viceversa."
+
+#: ../../source/control-pid-digital.rst:36
+msgid ""
+"En ocasiones los conversores ADC y DAC se pueden implementar con un "
+"`regulador PWM "
+"<https://es.wikipedia.org/wiki/Modulaci%C3%B3n_por_ancho_de_pulsos>`__."
+msgstr ""
+"De vegades, els convertidors ADC i DAC es poden implementar amb un `` "
+"regulador PWM "
+"<https://es.wikipedia.org/wiki/modulaculacci%C3%B3n_por_ancho_de_pulos>`__."
+
+#: ../../source/control-pid-digital.rst:41
+msgid "Período de muestreo"
+msgstr "Període de mostreig"
+
+#: ../../source/control-pid-digital.rst:43
+msgid ""
+"Mientras que los sistemas analógicos son continuos, los sistemas digitales "
+"son discontinuos. Esto significa que sus valores se evalúan o cambian cada "
+"cierto período de tiempo llamado tiempo de muestreo. El período de muestreo "
+"define cuantas veces por segundo se van a realizar las conversiones "
+"analógico-digitales y se van a calcular los parámetros del PID. En adelante "
+"el período de muestreo se representará por la letra **T**."
+msgstr ""
+"Si bé els sistemes analògics són contínues, els sistemes digitals són "
+"discontinuos. Això significa que els seus valors s’avaluen o es canvien cada"
+" període de temps anomenat temps de mostreig. El període de mostreig "
+"defineix com es faran moltes vegades per segon les conversions analògiques "
+"del diagrama i es calcularan els paràmetres del PID. A partir d’ara, el "
+"període de mostreig estarà representat per la lletra ** t **."
+
+#: ../../source/control-pid-digital.rst:52
+msgid ""
+"La respuesta en lazo cerrado de un sistema controlado por un PID digital va "
+"a depender de este período de muestreo. Si este tiempo es demasiado alto, la"
+" estabilidad del sistema será menor y el sistema puede llegar a hacerse "
+"inestable y no ser controlable. Un método para estimar el período de "
+"muestreo consiste en calcular el período de oscilación del sistema en lazo "
+"cerrado con una ganancia que provoque oscilaciones. Se tomará un período de "
+"muestreo menor que la décima parte del tiempo o período de oscilación."
+msgstr ""
+"La resposta del bucle tancat d’un sistema controlat per un Digital PID "
+"dependrà d’aquest període de mostreig. Si aquest temps és massa alta, "
+"l'estabilitat del sistema serà menor i el sistema pot arribar a ser "
+"inestable i no ser controlable. Un mètode per estimar el període de mostreig"
+" és calcular el període d’oscil·lació del sistema de bucle tancat amb un "
+"guany que provoca oscil·lacions. Es farà un període de mostreig menor que la"
+" desena part del temps o el període d’oscil·lació."
+
+#: ../../source/control-pid-digital.rst:63
+msgid ""
+"En el ejemplo que aparece a continuación se ha aumentado la ganancia "
+"proporcional hasta que se mantengan las oscilaciones en la respuesta al "
+"escalón. El período de oscilación es entonces de 5,6 segundos y, por lo "
+"tanto, el período de muestreo debe ser menor de 0,56 segundos."
+msgstr ""
+"A l'exemple que apareix a continuació, s'ha augmentat el guany proporcional "
+"fins que es mantinguin les oscil·lacions en la resposta al pas. El període "
+"d’oscil·lació és de 5,6 segons i, per tant, el període de mostreig ha de ser"
+" inferior a 0,56 segons."
+
+#: ../../source/control-pid-digital.rst:75
+msgid "Tiempo de oscilación y período de muestreo:"
+msgstr "Temps d’oscil·lació i període de mostreig:"
+
+#: ../../source/control-pid-digital.rst:77
+msgid "Tc = 26,8 - 21,2 = 5,6 segundos  (Tiempo de oscilación)"
+msgstr "TC = 26,8 - 21,2 = 5,6 segons (temps d'oscil·lació)"
+
+#: ../../source/control-pid-digital.rst:79
+msgid "T < Tc / 10 = 0,56 segundos   (Período de muestreo)"
+msgstr "T <tc / 10 = 0,56 segons (període de mostreig)"
+
+#: ../../source/control-pid-digital.rst:81
+msgid ""
+"Si el sistema es sobreamortiguado y no presenta oscilaciones, el criterio "
+"para escoger el tiempo de muestreo partirá de la respuesta al escalón. Como "
+"regla general se acepta que T debe ser 10 veces menor que el tiempo de "
+"subida del sistema ante un escalón en lazo abierto."
+msgstr ""
+"Si el sistema està sobrebolit i no presenta oscil·lacions, el criteri per "
+"triar el temps de mostreig començarà des de la resposta al pas. Com a regla "
+"general, s'accepta que T ha de ser deu vegades menys que el temps de pujada "
+"del sistema abans d'un pas de bucle obert."
+
+#: ../../source/control-pid-digital.rst:87
+#, python-format
+msgid ""
+"Este tiempo de subida se puede calcular como el tiempo que tarda el sistema "
+"en subir desde un 10% hasta un 90% del valor final."
+msgstr ""
+"Aquest temps de pujada es pot calcular com el temps que triga a que el "
+"sistema passi del 10% al 90% del valor final."
+
+#: ../../source/control-pid-digital.rst:90
+msgid ""
+"En la siguiente imagen se representa la respuesta al escalón de un sistema "
+"térmico."
+msgstr "La imatge següent representa la resposta al pas d’un sistema tèrmic."
+
+#: ../../source/control-pid-digital.rst:99
+#, python-format
+msgid ""
+"Este sistema tarda en subir desde el 10% hasta el 90% del valor final 21,5 -"
+" 3,5 = 18 segundos. Por lo tanto, para este sistema de ejemplo, el tiempo de"
+" muestreo del controlador PID debe ser como máximo una décima parte de los "
+"18 segundos:"
+msgstr ""
+"Aquest sistema triga del 10% al 90% del valor final 21,5 - 3,5 = 18 segons. "
+"Per tant, per a aquest sistema d’exemple, el temps de mostreig del "
+"controlador PID ha de ser un màxim de desè dels 18 segons:"
+
+#: ../../source/control-pid-digital.rst:105
+msgid "T < Tiempo_de_respuesta / 10"
+msgstr "T <temps__prash"
+
+#: ../../source/control-pid-digital.rst:107
+msgid "T < 18/10    ->   T < 1,8 segundos"
+msgstr "T <18/10 -> t <1,8 segons"
+
+#: ../../source/control-pid-digital.rst:109
+msgid ""
+"En los dos casos se ha utilizado la misma planta para calcular el tiempo de "
+"muestreo. Como puede verse los resultados son muy diferentes. Con el segundo"
+" método el tiempo de muestreo es tres veces mayor que con el primero. Por lo"
+" tanto, el tiempo de muestreo depende también de la respuesta que se vaya a "
+"conseguir y del tipo de sistema."
+msgstr ""
+"En ambdós casos s’ha utilitzat la mateixa planta per calcular el temps de "
+"mostreig. Com es pot veure, els resultats són molt diferents. Amb el segon "
+"mètode, el temps de mostreig és tres vegades més gran que amb el primer. Per"
+" tant, el temps de mostreig també depèn de la resposta a aconseguir i del "
+"tipus de sistema."
+
+#: ../../source/control-pid-digital.rst:116
+msgid ""
+"Siempre que sea posible, será preferible utilizar el primer método puesto "
+"que calcula tiempos menores y, por lo tanto, más seguros."
+msgstr ""
+"Sempre que sigui possible, serà preferible utilitzar el primer mètode ja que"
+" calculeu els temps menors i, per tant, més segurs."
+
+#: ../../source/control-pid-digital.rst:121
+msgid "Período de muestreo y término derivativo"
+msgstr "Període de mostreig i derivat"
+
+#: ../../source/control-pid-digital.rst:123
+msgid ""
+"Si bien antes se ha explicado que reducir el tiempo de muestreo es deseable "
+"porque aumenta la estabilidad del sistema, reducir excesivamente el tiempo "
+"de muestreo presenta también problemas."
+msgstr ""
+"Tot i que abans s’ha explicat que la reducció del temps de mostreig és "
+"desitjable perquè augmenta l’estabilitat del sistema, reduir el temps de "
+"mostreig excessivament també presenta problemes."
+
+#: ../../source/control-pid-digital.rst:127
+msgid ""
+"Un problema de reducir mucho el tiempo de muestreo consiste en que aumenta "
+"los cálculos necesarios en el microcontrolador y por lo tanto le puede "
+"sobrecargar. Otro problema de reducir el tiempo de muestreo consiste en que "
+"dificulta calcular el término derivativo. En este caso, el ruido de alta "
+"frecuencia afecta más al sistema. Además, la variación de la entrada entre "
+"dos muestreos es tan pequeña que se ve afectada por el error de "
+"cuantificación del conversor analógico-digital."
+msgstr ""
+"Un problema de reduir molt temps de mostreig és que augmenta els càlculs "
+"necessaris al microcontrolador i, per tant, pot sobrecarregar. Un altre "
+"problema de reduir el temps de mostreig és que fa difícil calcular el terme "
+"derivat. En aquest cas, el soroll d’alta freqüència afecta més el sistema. A"
+" més, la variació de l’entrada entre dues mostres és tan petita que es veu "
+"afectada per l’error de quantificació del convertidor analògic-digital."
+
+#: ../../source/control-pid-digital.rst:136
+msgid ""
+"Por lo tanto, lo ideal es establecer un tiempo de muestreo que consiga una "
+"respuesta aceptable en el sistema sin que sobrecargue mucho los cálculos y "
+"que no afecte al término derivativo."
+msgstr ""
+"Per tant, l’ideal és establir un temps de mostreig que aconsegueixi una "
+"resposta acceptable al sistema sense sobrecarregar els càlculs i no afecta "
+"el terme derivat."
+
+#: ../../source/control-pid-digital.rst:140
+msgid ""
+"**Ejemplo: cómo afecta el error de cuantificación con tiempos de muestreo "
+"muy pequeños**"
+msgstr ""
+"** Exemple: com l'error de quantificació amb temps de mostreig molt petits "
+"**"
+
+#: ../../source/control-pid-digital.rst:143
+msgid ""
+"Un sistema térmico cuyo sensor cambia con una velocidad de 0,1 "
+"voltio/segundo es muestreado por un conversor analógico-digital de 10bits "
+"(1024 niveles) con una referencia de tensión de 5 voltios. La sensibilidad "
+"del conversor analógico-digital será:"
+msgstr ""
+"Un sistema tèrmic el sensor del qual canvia amb una velocitat de 0,1 "
+"vol/segon és mostrejat per un convertidor analògic-digital de 10Bits (1024 "
+"nivells) amb una referència de tensió de 5 volts. La sensibilitat del "
+"convertidor analògic-digital serà:"
+
+#: ../../source/control-pid-digital.rst:149
+msgid "1024 puntos * (0,1 v/s / 5v) = 20 puntos/segundo."
+msgstr "1024 punts * (0,1 v/s/5V) = 20 punts/segon."
+
+#: ../../source/control-pid-digital.rst:151
+msgid ""
+"Si el período de muestreo es de un segundo, la variación de la medida será "
+"suficientemente grande como para evaluar el término derivativo. La lectura "
+"del sensor será en muestreos consecutivos: 100, 120, 140, 160, etc."
+msgstr ""
+"Si el període de mostreig és un segon, la variació de la mesura serà prou "
+"gran com per avaluar el terme derivat. La lectura del sensor serà en mostres"
+" consecutives: 100, 120, 140, 160, etc."
+
+#: ../../source/control-pid-digital.rst:157
+msgid ""
+"Si se toma en cambio un período de muestreo de 10 milésimas de segundo, solo"
+" una de cada 5 muestras va a presentar una variación de un punto en la señal"
+" de entrada del sensor. Ahora la lectura del sensor será en muestreos "
+"consecutivos: 100, 100, 100, 100, 100, 101, 101, 101, etc."
+msgstr ""
+"Si es pren un període de mostreig de 10 mil·lèsimes de segon, només una de "
+"cada 5 mostres presentarà una variació d’un punt en el senyal d’entrada del "
+"sensor. Ara la lectura del sensor serà en mostres consecutives: 100, 100, "
+"100, 100, 101, 101, 101, etc."
+
+#: ../../source/control-pid-digital.rst:163
+msgid ""
+"Por otra parte, la ganancia derivativa será 100 veces mayor, al estar "
+"dividida por un tiempo de muestreo 100 veces más pequeño."
+msgstr ""
+"D'altra banda, el guany derivat serà 100 vegades superior, dividit en un "
+"temps de mostreig 100 vegades més petit."
+
+#: ../../source/control-pid-digital.rst:167
+msgid ""
+"El resultado es que la acción derivativa actuará a impulsos muy bruscos cada"
+" 5 ciclos. Este comportamiento no es deseable y se puede corregir "
+"simplemente aumentando el tiempo de muestreo."
+msgstr ""
+"El resultat és que l’acció derivada actuarà a impulsos molt sobtats cada 5 "
+"cicles. Aquest comportament no és desitjable i simplement pot augmentar el "
+"temps de mostreig."
+
+#: ../../source/control-pid-digital.rst:174
+msgid "Implementación del PID digital"
+msgstr "Implementació del PID Digital"
+
+#: ../../source/control-pid-digital.rst:176
+msgid ""
+"Cada uno de los bloques que aparecen dentro del PID digital se traducen a "
+"una ecuación. Las ecuaciones para calcular el comparador y el controlador "
+"PID son las siguientes:"
+msgstr ""
+"Cadascun dels blocs que apareixen dins del Digital PID es tradueix en una "
+"equació. Les equacions per calcular el comparador i el controlador PID són "
+"les següents:"
+
+#: ../../source/control-pid-digital.rst:202
+msgid ""
+"Todas estas instrucciones y ecuaciones se deben repetir con un período de T "
+"segundos (el tiempo de muestreo). Si el tiempo de muestreo es de 0.1 "
+"segundos, las ecuaciones se deben repetir 10 veces por segundo (cada 0.1 "
+"segundos)."
+msgstr ""
+"Totes aquestes instruccions i equacions s’han de repetir amb un període de T"
+" segons (temps de mostreig). Si el temps de mostreig és de 0,1 segons, les "
+"equacions s’han de repetir 10 vegades per segon (cada 0,1 segons)."
+
+#: ../../source/control-pid-digital.rst:207
+msgid ""
+"El valor de la referencia se ha escogido en 150 grados centígrados, pero se "
+"puede cambiar a voluntad. Es el valor que se quiere conseguir en el sistema."
+msgstr ""
+"El valor de referència s'ha escollit en 150 graus centígrads, però es pot "
+"canviar a voluntat. És el valor que voleu obtenir al sistema."
+
+#: ../../source/control-pid-digital.rst:211
+msgid ""
+"La instrucción leer_ADC() debe leer el valor devuelto por el sensor y "
+"acondicionar ese valor para que esté medido en las mismas unidades que se "
+"están utilizando en la referencia. En el caso del ejemplo, grados "
+"centígrados."
+msgstr ""
+"La instrucció Read_Adc () ha de llegir el valor retornat pel sensor i la "
+"condició que valoren de manera que es mesura en les mateixes unitats que "
+"s’utilitzen a la referència. En el cas de l’exemple, els graus centígrads."
+
+#: ../../source/control-pid-digital.rst:218
+msgid "Unidades utilizadas por las funciones de entrada y salida"
+msgstr "Unitats utilitzades per les funcions d’entrada i sortida"
+
+#: ../../source/control-pid-digital.rst:220
+msgid ""
+"Las funciones de entrada y salida deben tener una conversión adecuada de "
+"unidades. La función leer_ADC() debe devolver un valor con las mismas "
+"unidades que utilice la referencia. Es conveniente que la función "
+"escribir_DAC() acepte valores de control entre 0 y 5 voltios para que se "
+"correspondan con el valor real de salida del conversor DAC, que tendrá una "
+"tensión de salida, por ejemplo, entre 0 y 5 voltios. Los valores de control "
+"no están acotados y por lo tanto pueden llegar a valer más que el valor "
+"máximo de salida de 5 voltios o menos que el valor mínimo de salida de 0 "
+"voltios. En este caso la función escribir_DAC() debe recortar los valores "
+"máximos a 5v y los valores mínimos a 0v."
+msgstr ""
+"Les funcions d’entrada i sortida han de tenir una conversió adequada "
+"d’unitats. La funció Read_Adc () ha de retornar un valor amb les mateixes "
+"unitats que utilitzen la referència. És convenient que la funció Write_DAC "
+"() accepti valors de control entre 0 i 5 volts de manera que corresponen al "
+"valor de sortida de valor real del convertidor DAC, que tindrà una tensió de"
+" sortida, per exemple, entre 0 i 5 volts. Els valors de control no són "
+"limitats i, per tant, poden afirmar més que el valor màxim de sortida de 5 "
+"volts o inferior al valor de sortida mínim de 0 volts. En aquest cas, la "
+"funció write_dac () ha de tallar els valors màxims a 5V i els valors mínims "
+"a 0V."
+
+#: ../../source/control-pid-digital.rst:235
+msgid "Control anti-windup integral"
+msgstr "Control integral anti-Windup"
+
+#: ../../source/control-pid-digital.rst:237
+msgid ""
+"El control integral es un sumatorio que puede llegar a acumular valores muy "
+"altos. Esto ocurre generalmente cuando el error es muy elevado y se mantiene"
+" durante mucho tiempo. En este caso el sistema está saturado y el control "
+"integral no puede realizar su función. En estos casos, es recomendable "
+"deshabilitar el control integral para que no se produzca un sobrepulso "
+"excesivo. Existen varias formas de implementar este control anti-windup. "
+"Aquí se implementará deshabilitando el control integral mientras el error "
+"sea superior a una cota determinada. Para implementar este control anti-"
+"windup, se añaden las siguientes líneas al programa anterior."
+msgstr ""
+"El control integral és un resum que pot acumular valors molt alts. "
+"Generalment es produeix quan l’error és molt alt i es manté durant molt de "
+"temps. En aquest cas, el sistema està saturat i el control integral no pot "
+"realitzar la seva funció. En aquests casos, és recomanable desactivar un "
+"control integral de manera que no es produeixi excessiu excés. Hi ha "
+"diverses maneres d’implementar aquest control anti-Windup. Aquí "
+"s’implementarà desactivant el control complet mentre l’error és superior a "
+"un nivell determinat. Per implementar aquest control anti-Windup, "
+"s’afegeixen les línies següents al programa anterior."
+
+#: ../../source/control-pid-digital.rst:261
+msgid ""
+"En las imágenes siguientes se puede observar una simulación de un control "
+"PID de temperatura de un horno con control anti-windup. El error máximo para"
+" que actúe el control integral se ha establecido en 100, 30 y 10 grados:"
+msgstr ""
+"A les imatges següents podeu veure una simulació d’un control PID d’una "
+"temperatura del forn amb control anti-Windup. L’error màxim perquè el "
+"control integral s’actua a 100, 30 i 10 graus:"
+
+#: ../../source/control-pid-digital.rst:284
+msgid ""
+"Como se puede observar, en el primer caso se ha establecido el máximo error "
+"anti-windup en 100 grados y el sobrepulso llega a ser de 45ºC con un tiempo "
+"de establecimiento total de 26 segundos. Estos son valores muy altos."
+msgstr ""
+"Com es pot veure, en el primer cas s’ha establert l’error màxim anti-Windup "
+"a 100 graus i l’aclaparador es converteix en 45 ºC amb un temps "
+"d’establiment total de 26 segons. Aquests són valors molt alts."
+
+#: ../../source/control-pid-digital.rst:289
+msgid ""
+"En el segundo caso, el control anti-windup se ha establecido con un error "
+"máximo de 30 y el sobrepulso apenas llega a ser de 5 grados, con un tiempo "
+"de establecimiento de 14 segundos. Este valor de anti-windup consigue los "
+"mejores resultados del sistema."
+msgstr ""
+"En el segon cas, el control anti-Windup s’ha establert amb un error màxim de"
+" 30 i l’aclaparador és gairebé 5 graus, amb un establiment de 14 segons. "
+"Aquest valor anti-Windup aconsegueix els millors resultats del sistema."
+
+#: ../../source/control-pid-digital.rst:294
+msgid ""
+"En el tercer caso el control anti-windup se ha establecido con un error "
+"máximo de 10 grados, que es claramente insuficiente. En este caso no hay "
+"sobrepulso porque la acción integral entra demasiado tarde a corregir el "
+"error permanente. El problema que puede presentar este valor tan bajo es que"
+" el error se mantenga por encima del límite anti-windup y no llegue a "
+"corregirse en ningún momento o que la reducción del error se realice "
+"demasiado despacio."
+msgstr ""
+"En el tercer cas, s'ha establert el control anti-Windup amb un error màxim "
+"de 10 graus, cosa que és clarament insuficient. En aquest cas, no hi ha cap "
+"excés perquè l’acció integral entra massa tard per corregir l’error "
+"permanent. El problema que pot presentar aquest valor baix és que l’error es"
+" manté per sobre del límit anti-Windup i no es corregeix en cap moment o que"
+" la reducció d’errors es fa massa lentament."
+
+#: ../../source/control-pid-digital.rst:305
+msgid "Ruido en la realimentación"
+msgstr "Soroll en comentaris"
+
+#: ../../source/control-pid-digital.rst:307
+msgid ""
+"Hay varias fuentes de ruido que perturban la señal de realimentación h(t). A"
+" continuación se presentan las más importantes."
+msgstr ""
+"Hi ha diverses fonts de soroll que pertorben el senyal de retroalimentació H"
+" (t). A continuació, es presenten els més importants."
+
+#: ../../source/control-pid-digital.rst:313
+msgid "Ruido en el sensor y muestreo"
+msgstr "Soroll al sensor i mostreig"
+
+#: ../../source/control-pid-digital.rst:315
+msgid ""
+"La primera fuente de ruido es el propio sensor que puede dar una salida con "
+"ruido añadido de diversas frecuencias. Este ruido es difícil de filtrar, de "
+"forma que siempre que sea posible conviene reducir el ruido al mínimo."
+msgstr ""
+"La primera font de soroll és el propi sensor que pot donar una sortida de "
+"soroll afegida de diverses freqüències. Aquest soroll és difícil de filtrar,"
+" de manera que, sempre que sigui possible, és convenient reduir el soroll al"
+" mínim."
+
+#: ../../source/control-pid-digital.rst:320
+msgid ""
+"El ruido del sensor entra en el sistema digital a través del conversor "
+"analógico-digital. Según el **teorema de Nyquist**, la máxima frecuencia que"
+" puede medir un sistema de muestreo digital es igual a la mitad de la "
+"frecuencia de muestreo. Esto impone un límite máximo a las frecuencias que "
+"se van a poder muestrear con fidelidad."
+msgstr ""
+"El soroll del sensor entra al sistema digital mitjançant un convertidor "
+"analògic-digital. Segons el teorema ** nyquist **, la freqüència màxima que "
+"pot mesurar un sistema de mostreig digital és igual a la meitat de la "
+"freqüència de mostreig. Això imposa un límit màxim a les freqüències que "
+"podran mostrejar amb fidelitat."
+
+#: ../../source/control-pid-digital.rst:328
+msgid ""
+"Entonces ¿Qué pasa con las frecuencias mayores a este límite? Esas "
+"frecuencias se traducen en frecuencias más bajas. Esto significa que el "
+"ruido de alta frecuencia se verá dentro del microcontrolador como una señal "
+"de menor frecuencia. Este efecto puede apreciarse bien en la siguiente "
+"imagen:"
+msgstr ""
+"Què passa amb les freqüències superiors a aquest límit? Aquestes freqüències"
+" es tradueixen en freqüències inferiors. Això significa que el soroll d’alta"
+" freqüència es veurà a l’interior del microcontrolador com un senyal més "
+"petit. Aquest efecte es pot veure bé a la imatge següent:"
+
+#: ../../source/control-pid-digital.rst:340
+msgid ""
+"La señal original aparece en rojo, con una frecuencia de 3 ciclos por "
+"intervalo. La mínima frecuencia de muestreo debería ser de 6 muestras por "
+"intervalo."
+msgstr ""
+"El senyal original apareix en vermell, amb una freqüència de 3 cicles per "
+"interval. La freqüència mínima de mostreig ha de ser de 6 mostres per "
+"interval."
+
+#: ../../source/control-pid-digital.rst:344
+msgid ""
+"Los puntos negros son las muestras que se han tomado de la señal original, "
+"con una frecuencia de 5 muestras por intervalo, menor de la frecuencia "
+"mínima necesaria."
+msgstr ""
+"Els punts negres són les mostres que s’han extret del senyal original, amb "
+"una freqüència de 5 mostres per interval, menys de la freqüència mínima "
+"necessària."
+
+#: ../../source/control-pid-digital.rst:348
+msgid ""
+"Cuando se unen entre sí los puntos negros, aparece la señal que el "
+"controlador cree haber muestreado. Como resultado el sistema digital verá "
+"una frecuencia menor que la que tiene la señal real."
+msgstr ""
+"Quan els punts negres s’uneixen entre ells, el senyal sembla que el "
+"controlador creu haver -se mostrat. Com a resultat, el sistema digital veurà"
+" una freqüència inferior a la que té el senyal real."
+
+#: ../../source/control-pid-digital.rst:353
+msgid ""
+"Para evitar este efecto es conveniente limitar el ruido de alta frecuencia "
+"en la señal analógica por medio de un diseño cuidadoso, eligiendo un sensor "
+"adecuado y utilizando un filtro analógico cuando sea necesario."
+msgstr ""
+"Per evitar aquest efecte, és convenient limitar el soroll d’alta freqüència "
+"en el senyal analògic mitjançant un disseny acurat, escollir un sensor "
+"adequat i utilitzar un filtre analògic quan sigui necessari."
+
+#: ../../source/control-pid-digital.rst:358
+msgid ""
+"Los filtros digitales solo podrán actuar de forma efectiva sobre las "
+"frecuencias que estén por debajo de la mitad de la frecuencia de muestreo."
+msgstr ""
+"Els filtres digitals només poden actuar eficaçment sobre les freqüències "
+"inferiors a la meitat de la freqüència de mostreig."
+
+#: ../../source/control-pid-digital.rst:364
+msgid "Ruido de cuantificación"
+msgstr "Soroll de quantificació"
+
+#: ../../source/control-pid-digital.rst:366
+msgid ""
+"Este ruido está producido por el conversor analógico-digital y procede de "
+"redondear el valor analógico real al valor digital más próximo dado que el "
+"valor digital tiene un numero finito de valores posibles. Este error se "
+"puede calcular a partir del número de bits del conversor analógico-digital y"
+" su rango de medida."
+msgstr ""
+"Aquest soroll és produït pel convertidor analògic-digital i procedeix a "
+"arrodonir el valor analògic real al valor digital més proper, ja que el "
+"valor digital té un nombre finit de valors possibles. Aquest error es pot "
+"calcular a partir del nombre de bits del convertidor analògic-digital i del "
+"seu rang de mesura."
+
+#: ../../source/control-pid-digital.rst:373
+msgid "**Ruido de cuantificación = rango_tensión / 2^(bits_del_adc)**"
+msgstr "** Noise de quantificació = Range_tensió / 2^(bits_del_adc) **"
+
+#: ../../source/control-pid-digital.rst:375
+msgid ""
+"En la siguiente imagen puede verse la representación del ruido de "
+"cuantificación:"
+msgstr ""
+"A la imatge següent podeu veure la representació del soroll de "
+"quantificació:"
+
+#: ../../source/control-pid-digital.rst:383
+msgid ""
+"En el caso de un microcontrolador típico con 10 bits de resolución y un "
+"rango de medida de 0 a 5 voltios, el ruido o error de cuantificación es de "
+"5V / 2^(10) = 5V / 1024 = 4,9 milivoltios."
+msgstr ""
+"En el cas d’un microcontrolador típic amb 10 bits de resolució i un rang de "
+"mesura de 0 a 5 volts, el soroll o l’error de quantificació és de 5V / "
+"2^(10) = 5V / 1024 = 4,9 mil·livolts."
+
+#: ../../source/control-pid-digital.rst:387
+msgid ""
+"Este valor puede también convertirse a unidades de medida de salida de la "
+"planta a partir de la sensibilidad del sensor. Veamos el ejemplo de un "
+"sensor de temperatura que entrega una salida con sensibilidad de 10 mV/ºC"
+msgstr ""
+"Aquest valor també pot convertir -se en unitats de mesura de sortida de la "
+"planta des de la sensibilitat del sensor. Mirem l’exemple d’un sensor de "
+"temperatura que proporciona una sortida de sensibilitat de 10 mV/ºC"
+
+#: ../../source/control-pid-digital.rst:392
+msgid ""
+"**Ruido de cuantificación = rango_tensión / (2^(bits_adc) * sensibilidad)**"
+msgstr ""
+"** Noise de quantificació = rang_tensió / (2^(bits_adc)*sensibilitat) **"
+
+#: ../../source/control-pid-digital.rst:394
+msgid "**Ruido de cuantificación = 5V / (1024 * 0,010V/ºC) = 0,49 ºC**"
+msgstr "** Soroll de quantificació = 5V / (1024*0,010V / ºC) = 0,49 ºC **"
+
+#: ../../source/control-pid-digital.rst:396
+msgid ""
+"El ruido de cuantificación afecta negativamente a la respuesta del "
+"regulador, produciendo saltos en la señal de control que empeoran el "
+"comportamiento de la planta."
+msgstr ""
+"El soroll de quantificació afecta negativament la resposta del regulador, "
+"produint salts en el senyal de control que empitjora el comportament de les "
+"plantes."
+
+#: ../../source/control-pid-digital.rst:400
+msgid ""
+"Este ruido también afecta a la máxima precisión que puede conseguir el "
+"controlador. En el ejemplo anterior, el controlador no podrá conseguir "
+"controlar la temperatura con una precisión mejor de 0,49 grados centígrados."
+msgstr ""
+"Aquest soroll també afecta la precisió màxima que pot obtenir el "
+"controlador. En l'exemple anterior, el controlador no podrà controlar la "
+"temperatura amb una millor precisió de 0,49 graus centígrads."
+
+#: ../../source/control-pid-digital.rst:407
+msgid "Referencias"
+msgstr "Referències"
+
+#: ../../source/control-pid-digital.rst:409
+msgid ""
+"[1] Ogata, Katsuhiko. Sistemas de control en tiempo discreto. Segunda "
+"edición. Editorial Prentice Hall."
+msgstr ""
+"[1] Ogata, Katsuhiko. Sistemes de control de temps discrets. Segona edició. "
+"Saló de Prentice Editorial."

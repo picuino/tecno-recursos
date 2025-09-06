@@ -1,0 +1,628 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/control-auto.rst:9
+msgid "Control Automático"
+msgstr "Control automàtic"
+
+#: ../../source/control-auto.rst:11
+msgid ""
+"Los controladores o reguladores automáticos forman parte de muchos de los "
+"dispositivos que nos rodean, aunque no seamos conscientes de ello."
+msgstr ""
+"Els controladors o reguladors automàtics formen part de molts dels "
+"dispositius que ens envolten, fins i tot si no en sabem."
+
+#: ../../source/control-auto.rst:15
+msgid ""
+"Podemos encontrar ejemplos de controladores en el termostato de la "
+"calefacción o del aire acondicionado, en el control de temperatura del horno"
+" o de la nevera, en el regulador de nivel de luz, en la dirección asistida "
+"de los automóviles, el sistema de parada en un piso de los ascensores o, "
+"incluso, en el sistema de llenado de agua de la cisterna del inodoro. Allí "
+"donde una velocidad, un movimiento, temperatura, presión o nivel se "
+"mantienen regulados, hay un controlador que realiza este trabajo."
+msgstr ""
+"Podem trobar exemples de controladors en el termòstat de calefacció o aire "
+"condicionat, al control de la temperatura del forn o de la nevera, al "
+"regulador de nivell de llum, en la direcció assistida dels cotxes, el "
+"sistema d’aturada en un pis dels ascensors o, fins i tot, al sistema "
+"d’ompliment d’aigua del dipòsit del vàter. Quan la velocitat, el moviment, "
+"la temperatura, la pressió o el nivell romanen regulats, hi ha un "
+"controlador que realitza aquest treball."
+
+#: ../../source/control-auto.rst:24
+msgid ""
+"Para referirse a este tipo de sistemas se utiliza la denominación de "
+"controladores automáticos o reguladores automáticos."
+msgstr ""
+"Per referir -se a aquest tipus de sistemes, s’utilitza la denominació de "
+"controladors automàtics o reguladors automàtics."
+
+#: ../../source/control-auto.rst:27
+msgid ""
+"En esta página se van a revisar los diferentes componentes de un sistema de "
+"control automático y los diferentes tipos de control que existen, de lazo "
+"abierto y de lazo cerrado."
+msgstr ""
+"En aquesta pàgina es revisaran els diferents components d’un sistema de "
+"control automàtic i els diferents tipus de control existents, de bucle obert"
+" i bucle tancat."
+
+#: ../../source/control-auto.rst:33
+msgid "Elementos de un sistema de control en lazo abierto"
+msgstr "Elements d’un sistema de control de bucles oberts"
+
+#: ../../source/control-auto.rst:34
+msgid ""
+"En la siguiente imagen se muestra un esquema del sistema de control más "
+"sencillo, el control de lazo abierto."
+msgstr ""
+"La imatge següent mostra un esquema del sistema de control més senzill, el "
+"control de bucle obert."
+
+#: ../../source/control-auto.rst:42
+msgid "En este esquema se pueden reconocer cuatro bloques:"
+msgstr "En aquest esquema es poden reconèixer quatre blocs:"
+
+#: ../../source/control-auto.rst:45
+msgid "Consigna"
+msgstr "Eslògan"
+
+#: ../../source/control-auto.rst:47
+msgid ""
+"Es la parte del sistema que describe lo que deseamos obtener del "
+"controlador."
+msgstr ""
+"És la part del sistema que descriu el que volem obtenir del controlador."
+
+#: ../../source/control-auto.rst:50
+msgid ""
+"Por ejemplo, una consigna puede ser un mando manual en el que seleccionamos "
+"un tiempo de funcionamiento de 2 minutos en un microondas. Otro ejemplo "
+"sería el mando con el que seleccionamos la potencia de calentamiento que "
+"deseamos obtener en una vitrocerámica al cocinar."
+msgstr ""
+"Per exemple, un eslògan pot ser una ordre manual en la qual seleccionem un "
+"temps de funcionament de 2 minuts en un microones. Un altre exemple seria "
+"l’ordre amb la qual seleccionem la potència de calefacció que volem obtenir "
+"en un enòleg de cuina."
+
+#: ../../source/control-auto.rst:55
+msgid "Controlador"
+msgstr "Controlador"
+
+#: ../../source/control-auto.rst:57
+msgid ""
+"Se encarga de recibir una señal de consigna o señal de referencia y "
+"convertirla en una señal que consiga que el sistema alcance la referencia "
+"deseada."
+msgstr ""
+"És responsable de rebre un senyal d’eslògan o senyal de referència i "
+"convertir -lo en un senyal que fa que el sistema arribi a la referència "
+"desitjada."
+
+#: ../../source/control-auto.rst:61
+msgid ""
+"Un ejemplo de controlador es un temporizador que enciende y apaga el horno "
+"microondas cada pocos segundos para controlar su potencia."
+msgstr ""
+"Un exemple de controlador és un temporitzador que s’encén i s’apaga al forn "
+"de microones cada pocs segons per controlar la seva potència."
+
+#: ../../source/control-auto.rst:63
+msgid "Accionador"
+msgstr "Actuador"
+
+#: ../../source/control-auto.rst:65
+msgid ""
+"Es el encargado de convertir la señal de control, que tiene poca potencia, "
+"en una acción sobre el sistema, con mayor potencia."
+msgstr ""
+"És l’encarregat de convertir el senyal de control, que té poca potència, en "
+"una acció sobre el sistema, amb una potència més gran."
+
+#: ../../source/control-auto.rst:69
+msgid ""
+"Volviendo al ejemplo del horno eléctrico, el accionador será la resistencia "
+"calefactora y el sistema de potencia que la enciende. En el caso de un "
+"servomecanismo, el accionador será el conjunto de transistores y el motor "
+"que mueven el mecanismo."
+msgstr ""
+"Tornant a l’exemple del forn elèctric, l’actuador serà la resistència a la "
+"calefacció i el sistema d’energia que l’encengui. En el cas d’un "
+"servomecanisme, l’actuador serà el conjunt de transistors i el motor que mou"
+" el mecanisme."
+
+#: ../../source/control-auto.rst:73
+msgid "Sistema"
+msgstr "Sistema"
+
+#: ../../source/control-auto.rst:75
+msgid ""
+"También llamado en ocasiones planta, es aquello que se desea controlar."
+msgstr "També es diu de vegades planta, és el que voleu controlar."
+
+#: ../../source/control-auto.rst:78
+msgid ""
+"En un horno el sistema será la caja del horno en la que se desea controlar "
+"la temperatura. En el caso de un servomecanismo, el sistema será el motor y "
+"la caja reductora cuya posición se desea controlar."
+msgstr ""
+"En un forn, el sistema serà la caixa del forn on vulgueu controlar la "
+"temperatura. En el cas d’un servomecanisme, el sistema serà el motor i la "
+"caixa reductora la posició de la qual es vol controlar."
+
+#: ../../source/control-auto.rst:84
+msgid ""
+"En ocasiones la consigna, el controlador o el accionador no tienen límites "
+"bien definidos o no existen en algún sistema. En cualquier caso es "
+"interesante conocer estos elementos a la hora de identificar las diferentes "
+"partes de un sistema de control."
+msgstr ""
+"De vegades, l’eslògan, el controlador o l’actuador no tenen límits ben "
+"definits o no existeixen en cap sistema. En qualsevol cas, és interessant "
+"conèixer aquests elements a l’hora d’identificar les diferents parts d’un "
+"sistema de control."
+
+#: ../../source/control-auto.rst:91
+msgid "Ejemplos de sistemas de control en lazo abierto"
+msgstr "Exemples de sistemes de control de bucles oberts"
+
+#: ../../source/control-auto.rst:93
+msgid ""
+"Podemos encontrar ejemplos de sistemas de control en lazo abierto en "
+"múltiples dispositivos de nuestro entorno."
+msgstr ""
+"Podem trobar exemples de sistemes de control de bucles oberts en diversos "
+"dispositius del nostre entorn."
+
+#: ../../source/control-auto.rst:108
+msgid "Control de potencia de un horno microondas"
+msgstr "Control de potència d’un forn de microones"
+
+#: ../../source/control-auto.rst:97
+msgid ""
+"La **consigna** es el mando giratorio con el que seleccionamos el tiempo de "
+"encendido."
+msgstr ""
+"L’eslògan ** ** és el control rotatiu amb el qual seleccionem el temps "
+"d’encesa."
+
+#: ../../source/control-auto.rst:100
+msgid ""
+"El **controlador** está formado por un temporizador que enciende el horno y "
+"lo apaga al terminar el tiempo consignado."
+msgstr ""
+"El ** controlador ** està format per un temporitzador que s’encén al forn i "
+"el desactiva al final de l’hora enviada."
+
+#: ../../source/control-auto.rst:103
+msgid ""
+"El **accionador** es un `magnetrón "
+"<https://es.wikipedia.org/wiki/Magnetr%C3%B3n>`__ que produce las microondas"
+" que calientan la leche."
+msgstr ""
+"L’actuador ** ** és un `Magnetrón "
+"<https://es.wikipedia.org/wiki/magnetr%C3%B3n>`__ que produeix els "
+"microones que escalfen la llet."
+
+#: ../../source/control-auto.rst:107
+msgid ""
+"El **sistema** será, por ejemplo, el vaso de leche que se calienta en el "
+"interior del horno."
+msgstr ""
+"El sistema ** ** serà, per exemple, el got de llet que s’escalfa dins del "
+"forn."
+
+#: ../../source/control-auto.rst:121
+msgid "Control de potencia de un calentador eléctrico de aire"
+msgstr "Control d'energia d'un escalfador elèctric"
+
+#: ../../source/control-auto.rst:111
+msgid ""
+"La **consigna** es el mando que giramos para conseguir una potencia media o "
+"potencia completa."
+msgstr ""
+"El ** eslògan ** és l’ordre que girem per aconseguir una potència mitjana o "
+"tota la potència."
+
+#: ../../source/control-auto.rst:114
+msgid ""
+"El **controlador** es el interruptor que selecciona entre una o dos "
+"resistencias calefactoras."
+msgstr ""
+"El controlador ** ** és l’interruptor que selecciona entre una o dues "
+"resistències de calefacció."
+
+#: ../../source/control-auto.rst:117
+msgid ""
+"El **accionador** está formado por las resistencias calefactoras y el "
+"ventilador."
+msgstr ""
+"L’actuador ** ** està format per resistències de calefacció i ventilador."
+
+#: ../../source/control-auto.rst:120
+msgid ""
+"El **sistema** es la habitación calentada por el aire caliente del "
+"calefactor."
+msgstr ""
+"El sistema ** ** és l’habitació escalfada per l’aire calent del calefactor."
+
+#: ../../source/control-auto.rst:135
+msgid "Control de intensidad de luz"
+msgstr "Control de la intensitat de la llum"
+
+#: ../../source/control-auto.rst:124
+msgid ""
+"La **consigna** es el `potenciómetro "
+"<https://es.wikipedia.org/wiki/Potenci%C3%B3metro>`__ o resistencia variable"
+" que se gira para conseguir mayor o menor luminosidad."
+msgstr ""
+"El ** Slogan ** és el `Menanceòmetre "
+"<https://es.wikipedia.org/wiki/potenci%C3%B3meter> __ o resistència variable"
+" que es converteix en una major o menor lluminositat."
+
+#: ../../source/control-auto.rst:129
+msgid ""
+"El **controlador** es un circuito electrónico que decide cuanto tiempo "
+"estará conectada la lámpara varias veces por segundo."
+msgstr ""
+"El controlador ** ** és un circuit electrònic que decideix quant de temps es"
+" connectarà la làmpada diverses vegades per segon."
+
+#: ../../source/control-auto.rst:132
+msgid ""
+"El **accionador** es un circuito electrónico de potencia y la lámpara que "
+"produce luz."
+msgstr ""
+"L’actuador ** ** és un circuit de potència electrònica i la làmpada que "
+"produeix llum."
+
+#: ../../source/control-auto.rst:135
+msgid "El **sistema** es la habitación con más o menos iluminación."
+msgstr "El sistema ** ** és la sala amb més o menys il·luminació."
+
+#: ../../source/control-auto.rst:144
+msgid "Control de nivel de sonido en un equipo de audio"
+msgstr "Control de nivell de so en un equip d'àudio"
+
+#: ../../source/control-auto.rst:138
+msgid ""
+"La **consigna** es el potenciómetro que se mueve para conseguir mayor o "
+"menor nivel de sonido."
+msgstr ""
+"El ** eslògan ** és el potenciòmetre que es mou per aconseguir un nivell de "
+"so més gran o menor."
+
+#: ../../source/control-auto.rst:141
+msgid ""
+"El **accionador** es el amplificador y los altavoces del equipo de música."
+msgstr ""
+"L’actuador ** ** és l’amplificador i els altaveus de l’equip de música."
+
+#: ../../source/control-auto.rst:144
+msgid "El **sistema** es la habitación y el nivel de sonido que se consigue."
+msgstr "El sistema ** ** és la sala i el nivell de so que s’aconsegueix."
+
+#: ../../source/control-auto.rst:146
+msgid ""
+"Uno de los controladores en lazo abierto más habituales es el "
+"**temporizador**. Este se puede encontrar en múltiples dispositivos como "
+"encendido temporizado de las luces de escalera de un edificio, apagado "
+"automático de escaleras automáticas, temporizador de un horno microondas, "
+"etc."
+msgstr ""
+"Un dels controladors de bucle obert més comuns és el ** temporitzador **. Es"
+" pot trobar en diversos dispositius com ara els llums de l'escala d'un "
+"edifici, les escales automàtiques automàtiques, el temporitzador d'un forn "
+"de microones, etc."
+
+#: ../../source/control-auto.rst:152
+msgid ""
+"En los sistemas en lazo abierto se puede controlar que el sistema reciba del"
+" accionador más o menos potencia, pero no se puede controlar con exactitud "
+"el punto en el que se encontrará el sistema controlado."
+msgstr ""
+"En els sistemes de bucle obert es pot controlar que el sistema rep de "
+"l’actuador més o menys potència, però el punt en què es trobarà exactament "
+"el sistema controlat no es pot controlar."
+
+#: ../../source/control-auto.rst:156
+msgid ""
+"En el caso del horno microondas, por ejemplo, no podemos estar seguros de la"
+" temperatura que alcanzará la leche en su interior. Tampoco con el "
+"calentador eléctrico de aire podemos conocer con exactitud la temperatura "
+"que alcanzará la habitación. En ambos casos el resultado final dependerá del"
+" tamaño del vaso o de la habitación, de la temperatura ambiente, del "
+"aislamiento, de la potencia total del calentador, etc."
+msgstr ""
+"En el cas del forn de microones, per exemple, no podem estar segurs de la "
+"temperatura que la llet arribi a dins. Tampoc amb el calefactor elèctric "
+"podem saber exactament la temperatura que arribarà l’habitació. En ambdós "
+"casos, el resultat final dependrà de la mida del vaixell o de la sala, de la"
+" temperatura ambient, de l’aïllament, de la potència total del calefactor, "
+"etc."
+
+#: ../../source/control-auto.rst:164
+msgid ""
+"Esta desventaja de los sistemas en lazo abierto no impide que se utilicen "
+"con mucha frecuencia por su gran sencillez y por ser muy robustos."
+msgstr ""
+"Aquest desavantatge dels sistemes de bucles oberts no impedeix que "
+"s’utilitzin amb molta freqüència per la seva gran senzillesa i per ser molt "
+"robustes."
+
+#: ../../source/control-auto.rst:169
+msgid "Elementos de un sistema de control en lazo cerrado"
+msgstr "Elements d’un sistema de control de bucle tancat"
+
+#: ../../source/control-auto.rst:171
+msgid ""
+"En la siguiente imagen se muestra un esquema de un sistema de control en "
+"lazo cerrado."
+msgstr ""
+"La imatge següent mostra un esquema d'un sistema de control de bucle tancat."
+
+#: ../../source/control-auto.rst:179
+msgid ""
+"Este tipo de sistema de control soluciona el problema de los sistemas en "
+"lazo abierto, que dependen del accionador, de las condiciones ambientales, "
+"etc. El nombre de lazo cerrado proviene de la señal del sensor que vuelve al"
+" controlador, cerrando el lazo de control. Los elementos del sistema de "
+"control en lazo cerrado son los mismos que los elementos del sistema de "
+"control en lazo abierto con dos añadidos:"
+msgstr ""
+"Aquest tipus de sistema de control resol el problema dels sistemes de bucle "
+"obert, que depenen de l’actuador, de les condicions ambientals, etc. El nom "
+"del bucle tancat prové del senyal del sensor que torna al controlador, "
+"tancant el bucle de control. Els elements del sistema de control del bucle "
+"tancat són els mateixos que els elements del sistema de control de bucles "
+"oberts amb dues addicions:"
+
+#: ../../source/control-auto.rst:188
+msgid "Sensor"
+msgstr "Sensor"
+
+#: ../../source/control-auto.rst:190
+msgid ""
+"El sensor mide el estado o variable a controlar en el sistema (posición, "
+"temperatura, humedad, etc.) Esto permite conocer el estado del sistema y "
+"corregir las desviaciones para que se pueda conseguir el estado deseado."
+msgstr ""
+"El sensor mesura l’estat o la variable per controlar el sistema (posició, "
+"temperatura, humitat, etc.) Això permet conèixer l’estat del sistema i "
+"corregir les desviacions perquè es pugui aconseguir l’estat desitjat."
+
+#: ../../source/control-auto.rst:195
+msgid ""
+"Por ejemplo, en un frigorífico, el sensor de temperatura detecta la "
+"temperatura interior para apagar el motor cuando hace demasiado frio y "
+"encender el motor si la temperatura sube demasiado."
+msgstr ""
+"Per exemple, en una nevera, el sensor de temperatura detecta la temperatura "
+"interior per apagar el motor quan fa massa fred i encendre el motor si la "
+"temperatura puja massa."
+
+#: ../../source/control-auto.rst:198
+msgid "Comparador"
+msgstr "Comparador"
+
+#: ../../source/control-auto.rst:200
+msgid ""
+"Este elemento está representado por un círculo en el esquema. Su función es "
+"comparar la señal de referencia r que proviene de la consigna y la señal de "
+"realimentación h que proviene del sensor y calcular el error e que existe "
+"entre la respuesta deseada y el estado real del sistema."
+msgstr ""
+"Aquest element està representat per un cercle de l'esquema. La seva funció "
+"és comparar el senyal de referència R que prové del lema i el senyal "
+"d’alimentació H que prové del sensor i calcular l’error que hi ha entre la "
+"resposta desitjada i l’estat real del sistema."
+
+#: ../../source/control-auto.rst:206
+msgid ""
+"A partir de ese error se puede conseguir llevar al sistema al estado "
+"deseado, que es el que dicta la consigna."
+msgstr ""
+"Des d’aquest error podeu arribar al sistema a l’estat desitjat, que és el "
+"que dicta l’eslògan."
+
+#: ../../source/control-auto.rst:209
+msgid ""
+"Este tipo de control conseguirá que el sistema se encuentre en el estado "
+"deseado independientemente de las condiciones ambientales."
+msgstr ""
+"Aquest tipus de control garantirà que el sistema estigui en estat desitjat "
+"independentment de les condicions ambientals."
+
+#: ../../source/control-auto.rst:212
+msgid "Las señales del sistema de control son las siguientes:"
+msgstr "Els senyals del sistema de control són els següents:"
+
+#: ../../source/control-auto.rst:215
+msgid "Señal"
+msgstr "Signar"
+
+#: ../../source/control-auto.rst:215
+msgid "Nombre"
+msgstr "Nom"
+
+#: ../../source/control-auto.rst:215
+msgid "Función"
+msgstr "Funcionar"
+
+#: ../../source/control-auto.rst:217
+msgid "**r**"
+msgstr "** r **"
+
+#: ../../source/control-auto.rst:217
+msgid "**Referencia**"
+msgstr "** Referència **"
+
+#: ../../source/control-auto.rst:217
+msgid "Es el estado que se desea alcanzar en el sistema."
+msgstr "És l’estat que s’ha d’assolir al sistema."
+
+#: ../../source/control-auto.rst:219
+msgid "**e**"
+msgstr "** i **"
+
+#: ../../source/control-auto.rst:219
+msgid "**Error**"
+msgstr "** Error **"
+
+#: ../../source/control-auto.rst:219
+msgid ""
+"Es la diferencia entre el estado deseado y el estado real del sistema a "
+"controlar."
+msgstr ""
+"És la diferència entre l’estat desitjat i l’estat real del sistema a "
+"controlar."
+
+#: ../../source/control-auto.rst:221
+msgid "**c**"
+msgstr "** C **"
+
+#: ../../source/control-auto.rst:221
+msgid "**Control**"
+msgstr "** Control **"
+
+#: ../../source/control-auto.rst:221
+msgid "Es la señal que genera el controlador."
+msgstr "És el senyal generat pel controlador."
+
+#: ../../source/control-auto.rst:222
+msgid "**u**"
+msgstr "** o **"
+
+#: ../../source/control-auto.rst:222
+msgid "**Accionamiento**"
+msgstr "** Acció **"
+
+#: ../../source/control-auto.rst:222
+msgid "Es la acción que se ejerce sobre el sistema para controlarle."
+msgstr "És l’acció que s’exerceix al sistema per controlar -lo."
+
+#: ../../source/control-auto.rst:224
+msgid "**y**"
+msgstr "** i **"
+
+#: ../../source/control-auto.rst:224
+msgid "**Salida**"
+msgstr "** Sortida **"
+
+#: ../../source/control-auto.rst:224
+msgid "Es el estado real que ha alcanzado el sistema a controlar."
+msgstr "És l’estat real que ha arribat al sistema per controlar -lo."
+
+#: ../../source/control-auto.rst:226
+msgid "**h**"
+msgstr "** H **"
+
+#: ../../source/control-auto.rst:226
+msgid "**Realimentación**"
+msgstr "** Feedback **"
+
+#: ../../source/control-auto.rst:226
+msgid "Es la medida del estado del sistema."
+msgstr "És la mesura del sistema."
+
+#: ../../source/control-auto.rst:231
+msgid "Ejemplos de sistemas de control en lazo cerrado"
+msgstr "Exemples de sistemes de control de bucles tancats"
+
+#: ../../source/control-auto.rst:233
+msgid ""
+"Al igual que en el caso de los controladores en lazo abierto, también "
+"existen múltiples aparatos cotidianos que tienen sistemas de control en lazo"
+" cerrado. Estos se caracterizan por tener un sensor que permite medir el "
+"estado del sistema y controlarle con precisión."
+msgstr ""
+"Com en el cas dels controladors de bucles oberts, també hi ha diversos "
+"dispositius diaris que tenen sistemes de control de bucles tancats. Es "
+"caracteritzen per tenir un sensor que permet mesurar l’estat del sistema i "
+"controlar -lo amb precisió."
+
+#: ../../source/control-auto.rst:238
+msgid "Control de temperatura de un **frigorífico**."
+msgstr "Control de temperatura d’un ** nevera **."
+
+#: ../../source/control-auto.rst:240
+msgid "Control de temperatura en un **horno eléctrico**."
+msgstr "Control de temperatura en un ** forn elèctric **."
+
+#: ../../source/control-auto.rst:242
+msgid "Control de llenado de agua de una **cisterna** del inodoro."
+msgstr "Control d'ompliment d'aigua d'una ** cisterna ** del vàter."
+
+#: ../../source/control-auto.rst:244
+msgid "**Dirección asistida** de un automóvil o de un camión."
+msgstr "** Adreça assistida ** d’un cotxe o d’un camió."
+
+#: ../../source/control-auto.rst:246
+msgid "Control de posición de un **servomecanismo**."
+msgstr "Control de posició d’un ** Servomechanisme **."
+
+#: ../../source/control-auto.rst:248
+msgid "Sistema de marcha y parada en cada piso de un **ascensor**."
+msgstr "Sistema de marxa i parada a cada pis d’un ** ascensor **."
+
+#: ../../source/control-auto.rst:250
+msgid ""
+"Control de apertura de una **puerta automática**, que se abre reaccionando a"
+" la presencia de alguien."
+msgstr ""
+"Obriu el control d’una ** porta automàtica **, que s’obre reaccionant a la "
+"presència d’algú."
+
+#: ../../source/control-auto.rst:261
+msgid "Referencias"
+msgstr "Referències"
+
+#: ../../source/control-auto.rst:263
+msgid ""
+"Wikipedia: `Sistema de control "
+"<https://es.wikipedia.org/wiki/Sistema_de_control>`__"
+msgstr ""
+"Wikipedia: `Sistema de control "
+"<https://es.wikipedia.org/wiki/system_de_control>` ``"
+
+#: ../../source/control-auto.rst:266
+msgid "Wikipedia: `Servomotor <https://es.wikipedia.org/wiki/Servomotor>`__"
+msgstr ""
+"Viquipèdia: `Servomotor <https://es.wikipedia.org/wiki/servomotor>`__"
+
+#: ../../source/control-auto.rst:269
+msgid ""
+"[1] Ogata, Katsuhiko. Ingeniería de Control Moderna. Tercera edición. "
+"Editorial Prentice Hall."
+msgstr ""
+"[1] Ogata, Katsuhiko. Enginyeria de control moderna. Tercera edició. Saló de"
+" Prentice Editorial."
+
+#: ../../source/control-auto.rst:272
+msgid ""
+"[2] Ogata, Katsuhiko. Sistemas de control en tiempo discreto. Segunda "
+"edición. Editorial Prentice Hall."
+msgstr ""
+"[2] Ogata, Katsuhiko. Sistemes de control de temps discrets. Segona edició. "
+"Saló de Prentice Editorial."

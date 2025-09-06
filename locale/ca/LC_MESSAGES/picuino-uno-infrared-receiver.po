@@ -1,0 +1,182 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-07-18 16:58+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/picuino-uno-infrared-receiver.rst:7
+msgid "Receptor de infrarrojos"
+msgstr "Receptor infraroig"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:11
+msgid "Librería IRremote"
+msgstr "Llibreria Irremote"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:12
+msgid ""
+"La librería IRremote añade a Arduino la capacidad para manejar tanto "
+"emisores como receptores de control remoto por infrarrojos con los "
+"protocolos más habituales."
+msgstr ""
+"La llibreria Irremote afegeix a Arduino la capacitat de gestionar tant els "
+"emissors com els receptors de control remot d’infrarojos amb els protocols "
+"més comuns."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:16
+msgid ""
+"`Descarga directa de la librería IRremote "
+"<../../_static/downloads/IRremote.zip>`__"
+msgstr ""
+"`Descàrrega directa de la llibreria Irremote <../../_ "
+"static/descàrregues/irremote.zip>`__"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:19
+msgid ""
+"`Página de GitHub de la librería IRremote "
+"<https://github.com/shirriff/Arduino-IRremote>`__"
+msgstr ""
+"`GitHub Pàgina de la llibreria Irremote "
+"<https://github.com/shirriff/arduino-irremote>` ``"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:26
+msgid ""
+":ref:`Cómo añadir una nueva librería al entorno Arduino paso a paso. <add-"
+"library>`"
+msgstr ""
+": Ref: `Com afegir una llibreria nova a l'entorn Arduino pas a pas. <Add-"
+"library> '"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:30
+msgid "Conexión"
+msgstr "Conexió"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:39
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:40
+msgid "Compila y carga el siguiente programa en Arduino."
+msgstr "Compareu i carregueu el programa següent a Arduino."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:42
+msgid ""
+"Una vez cargado, abre el monitor serie y cambia la velocidad de recepción de"
+" datos para que sea igual a la velocidad de transmisión del programa."
+msgstr ""
+"Un cop carregat, obriu el monitor de la sèrie i canvieu la velocitat de "
+"recepció de dades de manera que sigui igual a la velocitat de transmissió "
+"del programa."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:46
+msgid ""
+"Pulsa varias teclas del mando a distancia. Los códigos de las teclas "
+"aparecerán en el monitor serie y en el display de 7 segmentos."
+msgstr ""
+"Premeu diverses tecles del comandament a distància. Els codis de claus "
+"apareixeran al monitor de la sèrie i a la pantalla 7 -segment."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:113
+msgid ""
+"Modifica el programa anterior para que se encienda el led D1 cuando se pulse"
+" el número 1 en el mando a distancia."
+msgstr ""
+"Modifiqueu el programa anterior perquè el LED D1 s’encengui quan es prem el "
+"número 1 al control remot."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:116
+msgid ""
+"A continuación aparece un ejemplo incompleto de código para realizar la "
+"tarea."
+msgstr ""
+"A continuació, es mostra un exemple de codi incomplet per realitzar la "
+"tasca."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:127
+msgid ""
+"Modifica el programa anterior para que se apaguen todos los ledes cuando se "
+"pulse el botón cero '0'."
+msgstr ""
+"Modifiqueu el programa anterior per desactivar tots els LED quan es premeu "
+"el botó zero '0'."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:131
+msgid ""
+"Modifica el primer programa para que se encienda y apague una columna de "
+"ledes con los botones '+' y '-' del mando a distancia."
+msgstr ""
+"Modifiqueu el primer programa per activar i desactivar una columna de LEDs "
+"amb els botons \"+\" i \"--\" del comandament a distància."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:134
+msgid ""
+"Al pulsar '+' del mando a distancia se encenderá un nuevo led de la columna."
+" Según se pulsa '+' se irán encendiendo uno a uno todos los ledes. Al pulsar"
+" '-' del mando a distancia se apagará el último led. Según se pulse '-' se "
+"irán apagando uno a uno todos los ledes."
+msgstr ""
+"En prémer '+' del comandament a distància, un nou LED de columna s'encendrà."
+" As you prescribe '+' all LEDs will be turned on one by one. En prémer '-' "
+"del comandament a distància, l'últim LED s'apagarà. Tal com es pressiona '-'"
+" totes les Ledes seran desactivades un per un."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:140
+msgid ""
+"Para programar el código es necesario crear una variable que contará el "
+"número de ledes que deben encenderse. Esa variable se incrementará o "
+"decrementará con las pulsaciones del mando. Una instrucción para cada led "
+"comprobará si la variable es mayor que cierto valor, encenderá el led. En "
+"caso contrario apagará el led."
+msgstr ""
+"Per programar el codi, cal crear una variable que compti amb el nombre de "
+"LEDs que han d’estar en marxa. Aquesta variable s’incrementarà o disminuirà "
+"amb els clústers del control. Una instrucció per a cada LED comprovarà si la"
+" variable és superior a un valor determinat, s'encendrà el LED. En cas "
+"contrari, el LED s’apagarà."
+
+#: ../../source/picuino-uno-infrared-receiver.rst:147
+msgid "Antes del bloque  ``setup()``:"
+msgstr "Abans de la `` configuració () ``:"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:154
+msgid ""
+"Dentro del bloque ``loop()``, se debe incrementar y decrementar la variable "
+"dependiendo del código recibido del mando a distancia:"
+msgstr ""
+"Dins del `` bucle () `` `` `` `` `, la variable s'ha d'augmentar i disminuir"
+" segons el codi rebut del comandament a distància:"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:163
+msgid ""
+"A continuación se deben encender o apagar los ledes dependiendo del valor de"
+" la variable:"
+msgstr ""
+"A continuació, els LED s’han d’encendre o desactivar segons el valor de la "
+"variable:"
+
+#: ../../source/picuino-uno-infrared-receiver.rst:175
+msgid ""
+"Modifica el ejercicio anterior para que la variable no aumente más que el "
+"número total de ledes y que no disminuya por debajo de cero. Se añadirán dos"
+" condiciones, una condición limitará la variable si aumenta demasiado y otra"
+" condición limitará la variable si se reduce por debajo de cero"
+msgstr ""
+"Modifica l'exercici anterior de manera que la variable no augmenta més que "
+"el nombre total de LED i que no disminueix per sota de zero. S’afegiran dues"
+" condicions, una condició limitarà la variable si augmenta massa i una altra"
+" condició limitarà la variable si es redueix per sota de zero"

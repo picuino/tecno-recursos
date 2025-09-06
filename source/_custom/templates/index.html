@@ -28,6 +28,8 @@
   <link rel="canonical" href="https://www.picuino.com/es/index.html">
   {% elif language == 'en' %}
   <link rel="canonical" href="https://www.picuino.com/en/index.html">
+  {% elif language == 'ca' %}
+  <link rel="canonical" href="https://www.picuino.com/ca/index.html">
   {%- endif %}
 
 </head>
@@ -63,6 +65,8 @@
       <a href="../en/index.html">English</a>
       {%- elif language == 'en' %}
       <a href="../es/index.html">Español</a>
+      {%- elif language == 'ca' %}
+      <a href="../es/index.html">Castellano</a>
       {%- endif %}
       </div>
     </div>
@@ -98,6 +102,24 @@
   {{ index_main_link('Varios', 'recursos-index.html', '_static/index-varios.png') }}
   {{ index_main_link('Legislación', 'ley-index.html', '_static/index-legislacion.png') }}
   {{ index_main_link('Cuestionarios', '../test/', '_static/index-cuestionarios.png') }}
+  {{ index_main_link('Simulador', '../circuits/', '_static/index-simulator.png') }}
+  {%- endif %}
+
+  {%- if language == 'ca' %}
+  {{ index_main_link('Dibuix', 'dibujo-index.html', '_static/index-boceto.jpg') }}
+  {{ index_main_link('Mecànica', 'mecan-index.html', '_static/index-mecan.png') }}
+  {{ index_main_link('Materials', 'material-index.html', '_static/index-material.png') }}
+  {{ index_main_link('Electricitat', 'electric-index.html', '_static/index-electric.png') }}
+  {{ index_main_link('Electrònica', 'electronic-index.html', '_static/index-electronic.png') }}
+  {{ index_main_link('Informàtica', 'informatica-index.html', '_static/index-informatica.png') }}
+  {{ index_main_link('Programació', 'prog-index.html', '_static/index-prog.png') }}
+  {{ index_main_link('Arduino', 'arduprog/index.html', '_static/index-arduprog.png') }}
+  {{ index_main_link('Robòtica', 'robotica-index.html', '_static/index-robotica.png') }}
+  {{ index_main_link('Comunicacions', 'comm-index.html', '_static/index-comunicaciones.png') }}
+  {{ index_main_link('Taller', 'taller-index.html', '_static/index-taller.jpg') }}
+  {{ index_main_link('Diversos', 'recursos-index.html', '_static/index-varios.png') }}
+  {{ index_main_link('Legislació', 'ley-index.html', '_static/index-legislacion.png') }}
+  {{ index_main_link('Qüestionaris', '../test/', '_static/index-cuestionarios.png') }}
   {{ index_main_link('Simulador', '../circuits/', '_static/index-simulator.png') }}
   {%- endif %}
 

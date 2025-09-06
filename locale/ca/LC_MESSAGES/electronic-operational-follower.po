@@ -1,0 +1,194 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-operational-follower.rst:9
+msgid "El amplificador seguidor"
+msgstr "L'amplificador de seguidors"
+
+#: ../../source/electronic-operational-follower.rst:10
+msgid ""
+"Este es el esquema más simple que se puede conectar con un amplificador "
+"operacional. Este esquema sirve para obtener a la salida del amplificador la"
+" misma tensión que tenga su entrada positiva."
+msgstr ""
+"Aquest és l’esquema més senzill que es pot connectar amb un amplificador "
+"operatiu. Aquest esquema serveix per obtenir la mateixa tensió a la sortida "
+"de l'amplificador que té la seva entrada positiva."
+
+#: ../../source/electronic-operational-follower.rst:19
+msgid "Esquema del amplificador operacional seguidor."
+msgstr "Esquema de l'amplificador operatiu del seguidor."
+
+#: ../../source/electronic-operational-follower.rst:21
+msgid ""
+"Este esquema es útil cuando queremos obtener una tensión estable y con baja "
+"resistencia de salida a partir de una fuente de tensión con alta "
+"resistencia, que cambiaría mucho su tensión si le conectamos corriente."
+msgstr ""
+"Aquest esquema és útil quan volem obtenir una tensió estable i amb una baixa"
+" resistència de sortida d’una font de tensió amb alta resistència, cosa que "
+"canviaria la seva tensió si connectem el corrent."
+
+#: ../../source/electronic-operational-follower.rst:26
+msgid ""
+"Un ejemplo práctico de uso de un amplificador seguidor es el siguiente "
+"circuito que genera una tensión de tierra virtual a partir de un divisor de "
+"tensión resistivo:"
+msgstr ""
+"Un exemple pràctic d’utilitzar un amplificador de seguidor és el circuit "
+"següent que genera una tensió terrestre virtual a partir d’un divisor de "
+"tensió resistent:"
+
+#: ../../source/electronic-operational-follower.rst:36
+msgid ""
+"Amplificador seguidor utilizado para generar una tensión de tierra virtual."
+msgstr ""
+"L’amplificador de seguidors s’utilitza per generar una tensió de terra "
+"virtual."
+
+#: ../../source/electronic-operational-follower.rst:41
+msgid "Realimentación negativa"
+msgstr "Comentaris negatius"
+
+#: ../../source/electronic-operational-follower.rst:42
+msgid ""
+"Para que un amplificador operacional sea estable debe tener **realimentación"
+" negativa**. Esto significa que la tensión de salida debe llegar hasta el "
+"terminal negativo de la entrada."
+msgstr ""
+"De manera que un amplificador operatiu és estable ha de tenir una "
+"retroalimentació negativa ** **. Això significa que la tensió de sortida ha "
+"d’arribar al terminal negatiu de l’entrada."
+
+#: ../../source/electronic-operational-follower.rst:46
+msgid ""
+"Si la tensión de salida aumenta, la tensión de la entrada negativa aumentará"
+" y eso producirá una disminución de la tensión de salida."
+msgstr ""
+"Si la tensió de sortida augmenta, la tensió d’entrada negativa augmentarà i "
+"això produirà una disminució de la tensió de sortida."
+
+#: ../../source/electronic-operational-follower.rst:49
+msgid ""
+"Si por el contrario la tensión de salida disminuye, la tensión de la entrada"
+" negativa disminuirá y eso producirá un aumento de la tensión de salida."
+msgstr ""
+"Si, al contrari, la tensió de sortida disminueix, la tensió d’entrada "
+"negativa disminuirà i això produirà un augment de la tensió de sortida."
+
+#: ../../source/electronic-operational-follower.rst:53
+msgid ""
+"Como los cambios de tensión de la salida tienden a compensarse, el resultado"
+" será que la salida tendrá la misma tensión que la entrada."
+msgstr ""
+"A mesura que els canvis de tensió de la sortida tendeixen a compensar, el "
+"resultat serà que la sortida tindrà la mateixa tensió que l’entrada."
+
+#: ../../source/electronic-operational-follower.rst:56
+msgid ""
+"**Con realimentación negativa los dos terminales de entrada tendrán la misma"
+" tensión**."
+msgstr ""
+"** Amb una retroalimentació negativa, els dos terminals d’entrada tindran la"
+" mateixa tensió **."
+
+#: ../../source/electronic-operational-follower.rst:61
+msgid "Simulación"
+msgstr "Simulació"
+
+#: ../../source/electronic-operational-follower.rst:62
+msgid ""
+"En la siguiente simulación podemos ver un amplificador seguidor utilizado "
+"para copiar la tensión de un diodo zener. Esto permite alimentar un circuito"
+" con corriente relativamente elevada, que cambiaría la tensión del zener si "
+"conectásemos directamente una carga."
+msgstr ""
+"A la simulació següent podem veure un amplificador de seguidor utilitzat per"
+" copiar la tensió d’un díode zener. Això permet alimentar un circuit amb "
+"corrent relativament elevat, cosa que canviaria la tensió Zener si connectem"
+" directament una càrrega."
+
+#: ../../source/electronic-operational-follower.rst:75
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-operational-follower.rst:77
+msgid ""
+"Dibuja el esquema simplificado de un amplificador operacional seguidor."
+msgstr ""
+"Dibuixa l’esquema simplificat d’un amplificador operatiu de seguidors."
+
+#: ../../source/electronic-operational-follower.rst:79
+msgid ""
+"Dibuja un esquema real de un amplificador operacional seguidor que sirva "
+"para generar una tierra virtual."
+msgstr ""
+"Dibuixa un esquema real d’un amplificador operatiu seguidor que serveixi per"
+" generar una terra virtual."
+
+#: ../../source/electronic-operational-follower.rst:82
+msgid ""
+"Dibuja un esquema real de un amplificador operacional seguidor que sirva "
+"para generar una tensión estable de salida a partir de un diodo zener."
+msgstr ""
+"Dibuixa un esquema real d’un amplificador operatiu seguidor que serveixi per"
+" generar una tensió de sortida estable d’un díode zener."
+
+#: ../../source/electronic-operational-follower.rst:86
+msgid ""
+"En la simulación anterior, cambia el valor de la resistencia R1 con la barra"
+" de control de la derecha. ¿Qué le pasa a la tensión de la resistencia? ¿Por"
+" qué crees que pasa esto?"
+msgstr ""
+"En la simulació anterior, el valor de resistència R1 canvia amb la barra de "
+"control a la dreta. Què passa amb la tensió de resistència? Per què creus "
+"que passa això?"
+
+#: ../../source/electronic-operational-follower.rst:90
+msgid ""
+"En la simulación anterior, cambia el valor de la resistencia R2 con la barra"
+" de control de la derecha. ¿Qué le pasa a la tensión de la resistencia? ¿Por"
+" qué crees que pasa esto?"
+msgstr ""
+"A la simulació anterior, canvieu el valor de la resistència R2 amb la barra "
+"de control a la dreta. Què passa amb la tensió de resistència? Per què creus"
+" que passa això?"
+
+#: ../../source/electronic-operational-follower.rst:94
+msgid ""
+"En la simulación anterior, si hacemos que el valor de la resistencia R2 sea "
+"muy bajo llegará un momento en el que el amplificador operacional no podrá "
+"entregar suficiente corriente y la tensión bajará. ¿Qué corriente máxima "
+"puede entregar el amplificador operacional?"
+msgstr ""
+"En la simulació anterior, si fem que el valor de la resistència R2 arribi "
+"molt baix, arribarà un moment en què l’amplificador operatiu no podrà "
+"lliurar prou corrent i la tensió caurà. Quin corrent màxim pot lliurar "
+"l'amplificador operatiu?"
+
+#: ../../source/electronic-operational-follower.rst:99
+msgid ""
+"Con la ley de Ohm calcula la resistencia mínima que podemos conectar para "
+"que la tensión de salida se mantenga en 5 voltios."
+msgstr ""
+"Amb la llei d’Ohm, calculeu la resistència mínima que podem connectar de "
+"manera que es mantingui la tensió de sortida en 5 volts."

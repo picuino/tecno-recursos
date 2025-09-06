@@ -1,0 +1,114 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/python-funciones-scope.rst:10
+msgid "Alcance de las variables"
+msgstr "Àmbit"
+
+#: ../../source/python-funciones-scope.rst:11
+msgid ""
+"Ahora que se han visto las variables y los bloques de programa, tanto las "
+"funciones como los bucles, se puede estudiar el alcance de las variables."
+msgstr ""
+"Ara que s’han vist les variables i els blocs de programes, tant funcions com"
+" bucles, podeu estudiar l’abast de les variables."
+
+#: ../../source/python-funciones-scope.rst:15
+msgid ""
+"Las variables externas se pueden utilizar dentro de los bloques pero no al "
+"revés. Las variables internas de un bloque no se pueden utilizar fuera del "
+"bloque."
+msgstr ""
+"Les variables externes es poden utilitzar dins dels blocs, però no "
+"viceversa. Les variables internes d’un bloc no es poden utilitzar fora del "
+"bloc."
+
+#: ../../source/python-funciones-scope.rst:19
+msgid ""
+"Veremos algunos ejemplos del alcance de las variables, es decir, dónde se "
+"pueden utilizar y dónde no."
+msgstr ""
+"Veurem alguns exemples de l’abast de les variables, és a dir, on es poden "
+"utilitzar i on no."
+
+#: ../../source/python-funciones-scope.rst:24
+msgid "Sentencia ``global``"
+msgstr "Judici `` Global ''"
+
+#: ../../source/python-funciones-scope.rst:25
+msgid ""
+"Las variables globales son las que se definen en el cuerpo del programa no "
+"dentro de bucles o de funciones."
+msgstr ""
+"Les variables globals són les que es defineixen al cos del programa no dins "
+"de bucles o funcions."
+
+#: ../../source/python-funciones-scope.rst:28
+msgid "Ejemplo de variable global::"
+msgstr "Exemple de variable global ::"
+
+#: ../../source/python-funciones-scope.rst:38
+
+#: ../../source/python-funciones-scope.rst:62
+
+#: ../../source/python-funciones-scope.rst:83
+msgid "Salida::"
+msgstr "Sortida ::"
+
+#: ../../source/python-funciones-scope.rst:43
+msgid ""
+"En el caso anterior, la variable global 'numero' se puede leer en el "
+"interior de la función 'mensaje()'."
+msgstr ""
+"En el cas anterior, la variable global \"número\" es pot llegir dins de la "
+"funció \"Missatge ()\"."
+
+#: ../../source/python-funciones-scope.rst:46
+msgid ""
+"Sin embargo, si intentamos actualizar la variable 'numero' dentro de la "
+"función 'mensaje()' no funcionará porque estamos creando dos variables. Una "
+"variable será la variable **global** 'numero' y otra será la variable "
+"**local** 'numero', que se llaman igual, pero son distintas."
+msgstr ""
+"Tanmateix, si intentem actualitzar la variable \"número\" dins del "
+"\"missatge ()\" no funcionarà perquè estem creant dues variables. Una "
+"variable serà la variable ** global ** \"número\" i una altra serà la "
+"variable ** local ** \"número\", que s'anomenen iguals, però són diferents."
+
+#: ../../source/python-funciones-scope.rst:51
+msgid ""
+"Ejemplo de variable global y variable local del mismo nombre que generan un "
+"error::"
+msgstr ""
+"Exemple d'una variable global i local del mateix nom que generen un error ::"
+
+#: ../../source/python-funciones-scope.rst:69
+msgid ""
+"Para arreglar el problema tenemos que utilizar la sentencia ``global`` que "
+"declara 'numero' como variable global, no local."
+msgstr ""
+"Per solucionar el problema, hem d’utilitzar el judici `` global '' que "
+"declara \"número\" com a variable global i no local."
+
+#: ../../source/python-funciones-scope.rst:72
+msgid "Ejemplo de variable global sin error::"
+msgstr "Exemple de variable global sense error ::"

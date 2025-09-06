@@ -87,9 +87,10 @@ Por último cuando el circuito tiene **tres lámparas** en serie, cada una
 recibe una tercera parte de la tensión del generador, por lo que apenas
 se iluminan.
 
-Si ahora eliminamos una de las lámparas en serie, podemos comprobar
-cómo todo el circuito deja de funcionar. Para que un circuito en serie
-funcione, todos sus elementos deben permitir el paso de la corriente:
+Si ahora **arrastramos una de las lámparas** en serie para quitarla del
+circuito, podemos comprobar cómo todo el circuito deja de funcionar.
+Para que un circuito en serie funcione, todos sus elementos deben
+permitir el paso de la corriente:
 
 .. image:: electric/_images/electric-simulador-serie-04.png
    :align: center

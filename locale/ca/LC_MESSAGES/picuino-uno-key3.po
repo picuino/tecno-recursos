@@ -1,0 +1,136 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-07-18 16:58+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/picuino-uno-key3.rst:12
+msgid "Pulsadores: Contadores"
+msgstr "Farciment: comptables"
+
+#: ../../source/picuino-uno-key3.rst:16
+msgid "Objetivos"
+msgstr "Els pendents"
+
+#: ../../source/picuino-uno-key3.rst:17
+msgid "Leer los contadores de tiempo y pulsaciones asociados a un pulsador."
+msgstr "Llegiu els comptadors de temps i les pulsacions associades a un botó."
+
+#: ../../source/picuino-uno-key3.rst:18
+msgid "Realizar acciones asociadas a los contadores de tiempo."
+msgstr "Realitzeu accions associades als comptadors de temps."
+
+#: ../../source/picuino-uno-key3.rst:22
+msgid "La función ``keyCount``"
+msgstr "La funció `` keyCount``"
+
+#: ../../source/picuino-uno-key3.rst:26
+msgid ""
+"Esta función devuelve el número de veces que se ha presionado un pulsador. "
+"El valor se incrementa en uno inmediatamente después de presionar el "
+"pulsador. Si se mantiene el pulsador pulsado medio segundo, el valor se "
+"incrementa a razón de 5 pulsaciones por segundo. Si el pulsador se mantiene "
+"presionado durante dos segundos, el valore de pulsaciones se incrementa a "
+"razón de 20 pulsaciones por segundo."
+msgstr ""
+"Aquesta funció retorna el nombre de vegades que s'ha premut un botó. El "
+"valor augmenta un immediatament després de prémer el botó. Si es manté el "
+"botó mig segon, el valor augmenta a un ritme de 5 pulsacions per segon. Si "
+"es prem el botó durant dos segons, el valor de les pulsacions augmenta a una"
+" velocitat de 20 pulsacions per segon."
+
+#: ../../source/picuino-uno-key3.rst:33 ../../source/picuino-uno-key3.rst:44
+
+#: ../../source/picuino-uno-key3.rst:54
+msgid "|keyNum|"
+msgstr "; Keynum |"
+
+#: ../../source/picuino-uno-key3.rst:37
+msgid "La función ``keyTimeOn``"
+msgstr "La funció `` keytimon``"
+
+#: ../../source/picuino-uno-key3.rst:41
+msgid ""
+"Esta función devuelve el tiempo que ha estado presionado el pulsador. El "
+"tiempo se mide contando 250 pasos por segundo."
+msgstr ""
+"Aquesta funció retorna el temps en què s'ha premut el botó. El temps es "
+"mesura comptant 250 passos per segon."
+
+#: ../../source/picuino-uno-key3.rst:48
+msgid "La función ``keyTimeOff``"
+msgstr "El `` keytimoff '' '"
+
+#: ../../source/picuino-uno-key3.rst:51
+msgid ""
+"Esta función devuelve el tiempo que ha estado sin presionar el pulsador. El "
+"tiempo se mide contando 250 pasos por segundo."
+msgstr ""
+"Aquesta funció retorna el temps que ha estat sense prémer el botó. El temps "
+"es mesura comptant 250 passos per segon."
+
+#: ../../source/picuino-uno-key3.rst:58
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/picuino-uno-key3.rst:59
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Programa el codi necessari per resoldre els problemes següents."
+
+#: ../../source/picuino-uno-key3.rst:61
+msgid ""
+"El siguiente programa mueve hacia la derecha un led cuando se presiona el "
+"pulsador 2. Modificar el programa para que el led se mueva hacia la "
+"izquierda al pulsar el pulsador 1."
+msgstr ""
+"El programa següent mou un LED a la dreta quan es prem el botó. Modifiqueu "
+"el programa de manera que el LED es mogui a l'esquerra prement el botó 1."
+
+#: ../../source/picuino-uno-key3.rst:107
+msgid ""
+"El siguiente programa es un juego para comprobar la habilidad de contar "
+"tiempo. Se debe esperar a que el pulsador 1 no esté presionado. En ese "
+"momento se medirá el tiempo que ha estado presionado. Cuanto más se parezca "
+"el tiempo presionado a 3 segundos, más puntuación se obtendrá. **Modificar**"
+" el programa para que antes de comenzar el juego, el led D1 parpadee una vez"
+" por segundo. Una vez presionado el pulsador 1, el parpadeo debe apagarse "
+"para no dar pistas sobre el tiempo que debe estar encendido."
+msgstr ""
+"El següent programa és un joc per comprovar la capacitat de dir -ho. Haureu "
+"d’esperar que no es premeu el botó 1. En aquell moment, es mesurarà el "
+"moment en què se us ha pressionat. Com més temps es pressioni durant 3 "
+"segons, més puntuació s’obtindrà. ** Modifiqueu ** el programa de manera que"
+" abans de començar el joc, el LED D1 parpelleja una vegada per segon. Un cop"
+" premut el botó 1, s’ha d’extingir el parpelleig per no donar pistes sobre "
+"el temps que ha d’estar encès."
+
+#: ../../source/picuino-uno-key3.rst:153
+msgid ""
+"Modificar el programa que aparece a continuación, parecido al anterior. En "
+"este juego la puntuación será más alta si se presiona un pulsador el mismo "
+"tiempo dos veces consecutivas. Primero el programa debe medir el tiempo que "
+"ha estado presionado el pulsador 1, después debe esperar a que no esté "
+"presionado. Finalmente se medirá el segundo tiempo que el pulsador esté "
+"presionado."
+msgstr ""
+"Modifiqueu el programa que apareix a continuació, similar al anterior. En "
+"aquest joc, la puntuació serà més alta si es prem un botó el mateix temps "
+"dues vegades consecutiu. Primer, el programa ha de mesurar el temps que s'ha"
+" pressionat el botó, i haureu d'esperar que no es pressioni. Finalment, es "
+"mesurarà la segona meitat que es prem el botó."

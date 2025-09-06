@@ -1,0 +1,170 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-bjt-pushpull.rst:9
+msgid "El esquema push-pull"
+msgstr "L’esquema Push-Pull"
+
+#: ../../source/electronic-bjt-pushpull.rst:10
+msgid ""
+"El `esquema push-pull "
+"<https://es.wikipedia.org/wiki/Salida_en_contrafase>`__, también llamado en "
+"contrafase, es un circuito utilizado en las etapas de salida de circuitos "
+"electrónicos para entregar tanto tensión y corriente positivas como tensión "
+"y corriente negativas."
+msgstr ""
+"L’esquema `push-pull <https://es.wikipedia.org/wiki/salida_en_contrafase>` "
+"__, també anomenat contrafase, és un circuit utilitzat en les etapes de "
+"sortida del circuit electrònic per lliurar tensió positiva i tensió actual i"
+" corrent negatiu."
+
+#: ../../source/electronic-bjt-pushpull.rst:15
+msgid ""
+"El esquema utiliza un transistor NPN para entregar corriente y tensión "
+"positiva y utiliza un transistor PNP para absorber corriente y entregar "
+"tensión negativa."
+msgstr ""
+"L’esquema utilitza un transistor NPN per oferir tensió actual i positiva i "
+"utilitza un transistor PNP per absorbir el corrent i proporcionar tensió "
+"negativa."
+
+#: ../../source/electronic-bjt-pushpull.rst:19
+msgid ""
+"Ambos transistores están en colector común o \"seguidor de emisor\" que, "
+"como recordaremos, es una configuración que amplifica la corriente de "
+"salida, pero no amplifica la tensión."
+msgstr ""
+"Els dos transistors es troben en un col·leccionista comú o \\ \"seguidor "
+"emissor \" que, com recordarem, és una configuració que amplifica el corrent"
+" de sortida, però no amplifica la tensió."
+
+#: ../../source/electronic-bjt-pushpull.rst:28
+msgid "Esquema de dos transistores bipolares en montaje push-pull."
+msgstr "Esquema de dos transistors bipolars en el conjunt de push-pull."
+
+#: ../../source/electronic-bjt-pushpull.rst:30
+msgid ""
+"Los dos diodos en las bases de los transistores sirven para mantener una "
+"tensión de 1.2 voltios entre las bases, que coincide con la tensión de "
+"polarización de los dos transistores."
+msgstr ""
+"Els dos díodes de les bases dels transistors serveixen per mantenir una "
+"tensió de 1,2 volts entre les bases, cosa que coincideix amb la tensió de "
+"polarització dels dos transistors."
+
+#: ../../source/electronic-bjt-pushpull.rst:36
+msgid "Simulación"
+msgstr "Simulació"
+
+#: ../../source/electronic-bjt-pushpull.rst:37
+msgid ""
+"A continuación podemos ver una simulación de un circuito push-pull que "
+"consigue alimentar una carga con corrientes positivas y negativas. La parte "
+"superior del circuito es simétrica respecto a la parte inferior. Cada uno de"
+" los transistores se encarga de conducir una parte de la corriente. El "
+"transistor NPN superior conduce la corriente positiva y el transistor PNP "
+"inferior conduce la corriente negativa."
+msgstr ""
+"A continuació, podem veure una simulació d’un circuit push-pull que "
+"aconsegueix alimentar una càrrega amb corrents positius i negatius. La part "
+"superior del circuit és simètrica respecte a la part inferior. Cadascun dels"
+" transistors és responsable de realitzar una part del corrent. El transistor"
+" NPN superior realitza el corrent positiu i el transistor PNP inferior "
+"realitza el corrent negatiu."
+
+#: ../../source/electronic-bjt-pushpull.rst:52
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-bjt-pushpull.rst:54
+msgid ""
+"Dibuja un esquema simplificado de dos transistores bipolares trabajando en "
+"configuración push-pull."
+msgstr ""
+"Dibuixa un esquema simplificat de dos transistors bipolars que treballen en "
+"la configuració de Push-Pull."
+
+#: ../../source/electronic-bjt-pushpull.rst:57
+msgid ""
+"Dibuja un esquema realista de dos transistores bipolares trabajando en "
+"configuración push-pull o contrafase."
+msgstr ""
+"Dibuixa un esquema realista de dos transistors bipolars que treballen en la "
+"configuració o el comptador de push-pull."
+
+#: ../../source/electronic-bjt-pushpull.rst:60
+msgid "¿Qué función realiza una etapa push-pull y dónde se pueden encontrar?"
+msgstr "Quina funció fa una etapa de push-pull i on es pot trobar?"
+
+#: ../../source/electronic-bjt-pushpull.rst:62
+msgid "¿Qué tipo de amplificación realiza una etapa push-pull?"
+msgstr "Quin tipus d'amplificació té una etapa de push-pull?"
+
+#: ../../source/electronic-bjt-pushpull.rst:64
+msgid "¿Qué ganancia de tensión tiene la etapa push-pull simulada?"
+msgstr "Quin guany de tensió té l’etapa simulada de push-pull?"
+
+#: ../../source/electronic-bjt-pushpull.rst:66
+msgid ""
+"Recuerda parar la simulación del circuito para poder medir con facilidad el "
+"valor máximo y el valor mínimo de tensión de entrada y de tensión de salida."
+msgstr ""
+"No oblideu aturar la simulació del circuit per mesurar fàcilment el valor "
+"màxim i el valor mínim de tensió i tensió de sortida."
+
+#: ../../source/electronic-bjt-pushpull.rst:70
+msgid "La fórmula de la ganancia de tensión es:"
+msgstr "La fórmula de guany de tensió és:"
+
+#: ../../source/electronic-bjt-pushpull.rst:72
+msgid ""
+"Ganancia\\_V = \\cfrac{V_{out\\_max} - V_{out\\_min}}{ V_{in\\_max} - "
+"V_{in\\_min}}"
+msgstr ""
+"Profit\\_V = \\cfrac{V_{out\\_max} - V_{out\\_min}}{ V_{in\\_max} - "
+"V_{in\\_min}}"
+
+#: ../../source/electronic-bjt-pushpull.rst:77
+msgid "¿Qué ganancia de corriente tiene la etapa push-pull simulada?"
+msgstr "Quin guany actual té l’etapa simulada de push-pull?"
+
+#: ../../source/electronic-bjt-pushpull.rst:79
+msgid "La fórmula de la ganancia de corriente es:"
+msgstr "La fórmula de guany actual és:"
+
+#: ../../source/electronic-bjt-pushpull.rst:81
+msgid ""
+"Ganancia\\_I = \\cfrac{I_{out\\_max} - I_{out\\_min}}{ I_{in\\_max} - "
+"I_{in\\_min}}"
+msgstr ""
+"Profit\\_I = \\cfrac{I_{out\\_max} - I_{out\\_min}}{ I_{in\\_max} - "
+"I_{in\\_min}}"
+
+#: ../../source/electronic-bjt-pushpull.rst:85
+msgid ""
+"Busca en Internet la hoja de datos del popular amplificador operacional "
+"`LM321 <https://www.ti.com/lit/ds/symlink/lm321.pdf>`__. Dibuja la etapa de "
+"salida, basada en un circuito push-pull."
+msgstr ""
+"Cerqueu a Internet la fitxa de dades del popular amplificador operatiu "
+"`lm321 <https://www.ti.com/lit/ds/symlink/lm321.pdf>`__. Dibuixa l’etapa de"
+" sortida, basada en un circuit d’empenta."

@@ -1,0 +1,294 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-02-12 22:13+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:9
+msgid "Solución de problemas con Arduino"
+msgstr "Solució de problemes amb Arduino"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:12
+msgid "¿Está conectada la placa Arduino?"
+msgstr "La placa Arduino està connectada?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:13
+msgid ""
+"El cable USB debe estar conectado al ordenador y a la placa Arduino. El "
+"ordenador debe estar encendido."
+msgstr ""
+"El cable USB s’ha de connectar a l’ordinador i a la placa Arduino. "
+"L’ordinador ha d’estar encès."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:16
+msgid ""
+"Si todo ha salido bien, la placa Arduino muestra un led encendido llamado "
+"led de **Power ON**:"
+msgstr ""
+"Si tot ha anat bé, la placa Arduino mostra un LED d’encesa anomenat LED de "
+"** Power on **:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:36
+msgid "¿Está instalado el entorno de Arduino?"
+msgstr "L’entorn Arduino està instal·lat?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:37
+msgid ""
+"El entorno Arduino IDE se puede descargar desde la página oficial del "
+"proyecto en la pestaña 'software', pulsando el sistema operativo adecuado en"
+" el apartado 'Download the Arduino IDE':"
+msgstr ""
+"L’entorn ARDUINO IDE es pot descarregar de la pàgina oficial del projecte a "
+"la pestanya \"Programari\", pressionant el sistema operatiu adequat a la "
+"secció \"Descarregueu la IDE Arduino\":"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:41
+msgid "https://www.arduino.cc/en/software"
+msgstr "https://www.arduino.cc/en/software"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:43
+msgid ""
+"Una vez descargado el programa, se debe instalar en el ordenador. También es"
+" necesario instalar los drivers para que el ordenador reconozca la placa "
+"Arduino cuando se conecte a un puerto USB."
+msgstr ""
+"Un cop descarregat el programa, s’ha d’instal·lar a l’ordinador. També és "
+"necessari instal·lar els controladors de manera que l’ordinador reconegui la"
+" placa Arduino quan estigui connectat a un port USB."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:53
+msgid "¿Está configurada la placa correcta?"
+msgstr "La placa correcta està configurada?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:54
+msgid ""
+"En el menú ``Herramientas... Placa:`` o en las versiones antiguas "
+"``Herramientas... Tarjeta...`` hay que configurar la misma placa Arduino que"
+" esté conectada al ordenador. El modelo más habitual es `Arduino Uno`, pero "
+"depende de la placa que se conecte."
+msgstr ""
+"A les `` eines ... Placa: `` o a les versions antigues `` Eines ... Targeta "
+"... `` Heu de configurar la mateixa placa Arduino connectada a l'ordinador. "
+"El model més comú és \"Arduino Uno`, però depèn de la placa que es connecta."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:60
+msgid ""
+"Tanto la placa como el puerto seleccionados pueden verse la esquina inferior"
+" derecha del entorno Arduino:"
+msgstr ""
+"Tant la placa com el port seleccionat es poden veure a la cantonada inferior"
+" dreta de l’entorn Arduino:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:78
+msgid "¿Está configurado el puerto correcto?"
+msgstr "El port adequat està configurat?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:79
+msgid ""
+"En el ordenador existen varios puertos serie. Solo uno de esos puertos serie"
+" pertenece a la placa Arduino y ese es el que debemos configurar."
+msgstr ""
+"Hi ha diversos ports en sèrie a l’ordinador. Només un d’aquests ports en "
+"sèrie pertany a la placa d’Arduino i aquest és el que hem de configurar."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:83
+msgid ""
+"El puerto de comunicaciones seleccionado puede verse en la esquina inferior "
+"derecha del entorno Arduino:"
+msgstr ""
+"El port de comunicacions seleccionat es pot veure a la part inferior dreta "
+"de l’entorn Arduino:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:99
+msgid ""
+"Para cambiarlo hay que pulsar el puerto adecuado el menú ``Herramientas... "
+"Puerto...``"
+msgstr ""
+"Per canviar -lo, heu de prémer el port adequat `` eines ... port ... ``"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:102
+msgid ""
+"Para comprobar que el puerto está bien configurado, se puede abrir el "
+"monitor serie, y los ledes de comunicaciones de la placa Arduino deben "
+"parpadear. Otra prueba consiste en intentar enviar un programa. Mientras "
+"carga el programa, los ledes de comunicaciones deben parpadear."
+msgstr ""
+"Per verificar que el port està ben configurat, es pot obrir el monitor de la"
+" sèrie i que els LED de comunicacions de la placa Arduino han de "
+"parpellejar. Una altra prova és intentar enviar un programa. Mentre "
+"carregueu el programa, els LED de comunicacions han de parpellejar."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:111
+msgid "¿Están instalados los drivers adecuados?"
+msgstr "Els controladors adequats estan instal·lats?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:112
+msgid ""
+"Si el entorno de Arduino ya está instalado y el ordenador no reconoce la "
+"placa Arduino al conectarla, el problema puede resolverse instalando los "
+"drivers que vienen con el software del entorno Arduino."
+msgstr ""
+"Si l’entorn Arduino ja està instal·lat i l’ordinador no reconeix la placa "
+"Arduino en connectar -la, el problema es pot solucionar instal·lant els "
+"controladors que inclouen el programari de l’entorn Arduino."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:116
+msgid ""
+"A continuación se ofrecen varias versiones de los drivers para Arduino. "
+"Después de descargar el archivo, se debe descomprimir y ejecutar el software"
+" de instalación."
+msgstr ""
+"A continuació, es mostren diverses versions dels controladors d'Arduino. "
+"Després de descarregar el fitxer, el programari d’instal·lació s’ha de "
+"desglossar i executar."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:121
+msgid ""
+"`Arduino 1.8.1 Drivers para Windows "
+"<../../_static/downloads/arduino-1813-win-drivers.zip>`__"
+msgstr ""
+"`Arduino 1.8.1 Controladors per a Windows <../../_ "
+"Static/Downloads/Arduino-1813-Win-Drivers.zip>`__"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:124
+msgid ""
+"`Arduino 1.0.6 Drivers para Windows "
+"<../../_static/downloads/arduino-106-win-drivers.zip>`__"
+msgstr ""
+"`Controladors Arduino 1.0.6 per a Windows <../../_ "
+"Static/Downloads/Arduino-106-Win-Drivers.zip>`__"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:128
+msgid ""
+"Si se utiliza una placa compatible con Arduino con un chip de comunicaciones"
+" **CH340**, es necesario instalar otro driver diferente al estándar:"
+msgstr ""
+"Si s’utilitza una placa compatible amb Arduino amb un xip de comunicacions "
+"** CH340 **, cal instal·lar un altre controlador diferent de l’estàndard:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:132
+msgid ""
+"`Chip de comunicaciones CH340. Driver para Windows "
+"<../../_static/downloads/CH340-win-driver-v31.zip>`__"
+msgstr ""
+"`Xip de comunicacions CH340. Controlador per a Windows <../../_ "
+"Static/Descàrregues/CH340-WIN-DIRRER-V31.ZIP> `` `"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:135
+msgid ""
+"`Página de Microsoft para descargar el driver CH340 "
+"<http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=be9c8169-b12b-475f-81b8-3d3e69181e8c>`__"
+msgstr ""
+"`Pàgina de Microsoft Per descarregar el controlador ch340 "
+"<http://catalog.update.microsoft.com/v7/site/scopeviewredirect.aspx?updateid=be9c8169-b12b-475f-81b8-3d3e69181e8c>`"
+" `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` `"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:140
+msgid "¿Existe un cortocircuito?"
+msgstr "Hi ha un curtcircuit?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:141
+msgid ""
+"Si la placa Arduino parece estar correctamente conectada y a pesar de ello "
+"el led de encendido permanece apagado, es posible que los cables conectados "
+"a Arduino estén mal conectados y provoquen un cortocircuito. Para comprobar "
+"este error se debe desconectar el cable conectado al terminal de '5v' y el "
+"cable conectado al terminal 'Vin'."
+msgstr ""
+"Si sembla que la placa Arduino està connectada correctament i, malgrat això,"
+" el LED d’encesa es manté apagat, és possible que els cables connectats a "
+"Arduino estiguin mal connectats i causin un curtcircuit. Per comprovar "
+"aquest error, s'ha de desconnectar el cable connectat al terminal \"5V\" i "
+"el cable connectat al terminal \"vin\"."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:150
+msgid "¿Funcionan las comunicaciones del cable USB?"
+msgstr "Funcionen les comunicacions de cables USB?"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:151
+msgid ""
+"Otro problema que puede surgir con el cable USB consiste en que los hilos de"
+" comunicaciones estén cortados mientras que los hilos de alimentación "
+"funcionen correctamente. En este caso el led de la placa Arduino se "
+"encenderá, pero el ordenador no reconocerá la placa y no funcionarán las "
+"comunicaciones."
+msgstr ""
+"Un altre problema que pot sorgir amb el cable USB és que els fils de "
+"comunicacions es tallen mentre els fils alimentaris funcionen correctament. "
+"En aquest cas, el LED de la placa Arduino s’encendrà, però l’ordinador no "
+"reconeixerà la placa i les comunicacions no funcionaran."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:157
+msgid ""
+"La forma más sencilla de comprobar que no existen problemas con el cable USB"
+" es conectar este cable a otro aparato que funcione correctamente o cambiar "
+"el cable por otro y comprobar que todo funciona bien."
+msgstr ""
+"La manera més fàcil de verificar que no hi ha problemes amb el cable USB és "
+"connectar aquest cable a un altre dispositiu que funciona correctament o "
+"canviar el cable per a un altre i comprovar que tot funciona bé."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:164
+msgid "Comprobar si la placa Arduino está bien instalada"
+msgstr "Comproveu si la placa Arduino està ben instal·lada"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:165
+msgid ""
+"Para asegurar que la placa Arduino está bien instalada y todo funciona "
+"correctamente, se seguirán los siguientes pasos:"
+msgstr ""
+"Per assegurar -se que la placa Arduino està ben instal·lada i tot funciona "
+"correctament, es seguiran els passos següents:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:168
+msgid "Abrir el entorno IDE de Arduino pulsando sobre su icono:"
+msgstr "Obriu l’entorn IDE d’Arduino fent clic a la seva icona:"
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:173
+msgid ""
+"Abrir un programa de ejemplo pulsando en el menú ``Archivo... Ejemplos... "
+"01.Basics... Blink``."
+msgstr ""
+"Obriu un programa d’exemple fent clic al `` fitxer ... exemples ... "
+"01.Basics ... Blink``."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:176
+msgid ""
+"También se puede copiar y pegar el siguiente programa en el entorno de "
+"Arduino."
+msgstr ""
+"També podeu copiar i enganxar el programa següent a l’entorn d’Arduino."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:192
+msgid ""
+"Por último, pulsar en el menú ``Programa... Subir (CTRL+U)`` para transferir"
+" el programa a la placa Arduino."
+msgstr ""
+"Finalment, feu clic al programa `` ... Carrega (Ctrl+U) `` per transferir el"
+" programa a la placa Arduino."
+
+#: ../../source/arduprog/troubleshooting-arduino.rst:195
+msgid ""
+"Si todo ha funcionado correctamente, el led de la placa Arduino comenzará a "
+"parpadear con un tiempo encendido de un segundo y un tiempo apagado de otro "
+"segundo."
+msgstr ""
+"Si tot ha funcionat correctament, el LED de la placa Arduino començarà a "
+"parpellejar amb un temps per un segon i un temps lliure des d’un altre "
+"segon."

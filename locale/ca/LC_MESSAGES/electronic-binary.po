@@ -1,0 +1,251 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-03-20 18:45+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/electronic-binary.rst:9
+msgid "El sistema binario"
+msgstr "El sistema binari"
+
+#: ../../source/electronic-binary.rst:10
+msgid ""
+"La electrónica digital funciona con dos valores válidos, encendido y "
+"apagado. El `sistema binario "
+"<https://es.wikipedia.org/wiki/Sistema_binario>`__ es un sistema de "
+"numeración que solo utiliza dos cifras, el cero (0) y el uno (1), por lo que"
+" se adapta muy bien a representar los dos estados de la electrónica digital."
+msgstr ""
+"Digital Electronics funciona amb dos valors vàlids, activat i desactivat. El"
+" `sistema binari <https://es.wikipedia.org/wiki/system_binario>`__ és un "
+"sistema de numeració que només utilitza dues figures, zero (0) i una (1), de"
+" manera que s’adapta molt bé per representar els dos estats d’electrònica "
+"digital."
+
+#: ../../source/electronic-binary.rst:17
+msgid ""
+"Casi todas las computadoras modernas están basadas en electrónica digital y "
+"su sistema de numeración y de representación de la información es el sistema"
+" binario."
+msgstr ""
+"Gairebé tots els ordinadors moderns es basen en l'electrònica digital i el "
+"seu sistema de numeració i representació de la informació és el sistema "
+"binari."
+
+#: ../../source/electronic-binary.rst:23
+msgid "Contar en binario"
+msgstr "Compte en binari"
+
+#: ../../source/electronic-binary.rst:24
+msgid ""
+"En la siguiente tabla se presentan los 16 primeros números en decimal y en "
+"binario, comenzando por el cero y terminando en el valor quince:"
+msgstr ""
+"La taula següent mostra els primers 16 números en decimal i binari, "
+"començant per zero i acabant en el valor de quinze:"
+
+#: ../../source/electronic-binary.rst:32
+msgid ""
+"Como se puede observar, hay ciertas normas en los números binarios que nos "
+"pueden ayudar a construir la tabla con la cuenta en binario:"
+msgstr ""
+"Com es pot veure, hi ha algunes regles en números binaris que ens poden "
+"ajudar a construir la taula amb el compte binari:"
+
+#: ../../source/electronic-binary.rst:35
+msgid "En binario solo utilizan los dígitos cero y uno."
+msgstr "Al binari només utilitzen zero i un dígit."
+
+#: ../../source/electronic-binary.rst:37
+msgid "El cero decimal corresponde con todos los dígitos binarios a cero."
+msgstr "El decimal zero correspon a tots els dígits binaris a zero."
+
+#: ../../source/electronic-binary.rst:39
+msgid ""
+"El dígito binario más a la derecha, que es el de menos valor, cambia "
+"constantemente de cero a uno a medida que contamos un número más. 0 1 0 1 0 "
+"1 0 1 ..."
+msgstr ""
+"El dígit binari a la dreta, que és el menor valor, canvia constantment de "
+"zero a un, ja que comptem un número més. 0 1 0 1 0 1 0 1 ..."
+
+#: ../../source/electronic-binary.rst:43
+msgid ""
+"El segundo dígito binario comenzando a la derecha cambia cada **dos** "
+"números desde cero hasta uno. 0 0 1 1 0 0 1 1 ..."
+msgstr ""
+"El segon dígit binari que comença la dreta canvia cada ** dos ** números de "
+"zero a un. 0 0 1 1 0 0 1 1 ..."
+
+#: ../../source/electronic-binary.rst:47
+msgid ""
+"El tercer dígito binario comenzando a la derecha cambia cada **cuatro** "
+"números desde cero hasta uno. 0 0 0 0 1 1 1 1 ..."
+msgstr ""
+"El tercer dígit binari que comença a la dreta canvia cada ** quatre ** "
+"números de zero a un. 0 0 0 1 1 1 1 ..."
+
+#: ../../source/electronic-binary.rst:51
+msgid ""
+"El cuarto dígito binario comenzando a la derecha, que es el de más valor, "
+"cambia cada **ocho** números desde cero hasta uno. 0 0 0 0 0 0 0 0 1 1 1 1 1"
+" 1 1 1."
+msgstr ""
+"El quart dígit binari que comença a la dreta, que és el més valor, canvia "
+"cada ** vuit ** números de zero a un. 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1."
+
+#: ../../source/electronic-binary.rst:58
+msgid "Conversión de decimal a binario"
+msgstr "Conversió decimal a binària"
+
+#: ../../source/electronic-binary.rst:59
+msgid ""
+"Los humanos estamos acostumbrados a contar y ver números en notación "
+"decimal, por lo que es conveniente saber convertir cualquier número decimal "
+"a notación binaria."
+msgstr ""
+"Els humans estan acostumats a comptar i veure números en notació decimal, "
+"per la qual cosa és convenient saber convertir qualsevol nombre decimal en "
+"notació binària."
+
+#: ../../source/electronic-binary.rst:63
+msgid ""
+"Para convertir un número decimal a binario dividiremos el número entre dos "
+"consecutivamente hasta que no quede ningún valor que dividir. El número "
+"binario saldrá de los restos de las divisiones consecutivas, de manera que "
+"el primer resto obtenido será el dígito binario de menos peso y el último "
+"resto obtenido será el dígito binario de mayor peso:"
+msgstr ""
+"Per convertir un nombre decimal al nombre binari, dividirem el nombre per "
+"dos consecutivament fins que no hi hagi cap valor a dividir. El nombre "
+"binari deixarà les restes de les divisions consecutives, de manera que el "
+"primer descans obtingut serà el dígit binari de menys pes i el darrer "
+"descans obtingut serà el dígit binari de major pes:"
+
+#: ../../source/electronic-binary.rst:74 ../../source/electronic-binary.rst:84
+msgid ""
+"Proceso para convertir un número decimal a binario dividiendo "
+"consecutivamente por dos."
+msgstr ""
+"Procés per convertir un nombre de decimals a binaris dividint "
+"consecutivament per dos."
+
+#: ../../source/electronic-binary.rst:77
+msgid "Otro ejemplo de conversión del número decimal 146 a binario:"
+msgstr "Un altre exemple de conversió del número decimal 146 al binari:"
+
+#: ../../source/electronic-binary.rst:89
+msgid "Conversión de binario a decimal"
+msgstr "Conversió binària a decimal"
+
+#: ../../source/electronic-binary.rst:90
+msgid ""
+"Una forma sencilla de convertir un número binario en número decimal consiste"
+" en crear una tabla con el valor de cada dígito binario."
+msgstr ""
+"Una manera senzilla de convertir un número binari en un nombre decimal és "
+"crear una taula amb el valor de cada dígit binari."
+
+#: ../../source/electronic-binary.rst:93
+msgid ""
+"El primer dígito binario a la derecha, el de menor valor, tiene un valor de "
+"uno (1). El segundo dígito binario por la derecha tiene un valor de dos (2)."
+" Los valores van aumentando así, multiplicándose por dos. En la octava "
+"posición, el valor del dígito binario es de 128."
+msgstr ""
+"El primer dígit binari a la dreta, el que té el valor més baix, té un valor "
+"d’un (1). El segon dígit binari de la dreta té un valor de dos (2). Els "
+"valors augmenten així, multiplicant -se per dos. A la vuitena posició, el "
+"valor del dígit binari és de 128."
+
+#: ../../source/electronic-binary.rst:99
+msgid ""
+"Una vez construida la tabla de los valores de cada dígito binario, solo es "
+"necesario sumar aquellos valores que corresponden a un uno en el número "
+"binario:"
+msgstr ""
+"Un cop creada la taula dels valors de cada dígit binari, només cal afegir "
+"aquells valors que corresponguin a un del número binari:"
+
+#: ../../source/electronic-binary.rst:108
+msgid "Conversión de binario a decimal."
+msgstr "Conversió binària a decimal."
+
+#: ../../source/electronic-binary.rst:112
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-binary.rst:114
+msgid ""
+"Haz una tabla con los números binarios desde el cero hasta el 31 utilizando "
+"las normas que se han descrito en el apartado de 'Contar en binario'."
+msgstr ""
+"Feu una taula amb números binaris de zero a 31 mitjançant els estàndards "
+"descrits a la secció \"Compte in Binary\"."
+
+#: ../../source/electronic-binary.rst:118
+msgid "Recuerda dejar espacio suficiente para 5 dígitos binarios."
+msgstr "No oblideu deixar prou espai per a 5 dígits binaris."
+
+#: ../../source/electronic-binary.rst:120
+msgid "Convierte los siguientes números de decimal a binario:"
+msgstr "Converteix el següent decimal en números binaris:"
+
+#: ../../source/electronic-binary.rst:122
+msgid "97"
+msgstr "97"
+
+#: ../../source/electronic-binary.rst:124
+msgid "137"
+msgstr "137"
+
+#: ../../source/electronic-binary.rst:126
+msgid "156"
+msgstr "156"
+
+#: ../../source/electronic-binary.rst:128
+msgid "229"
+msgstr "229"
+
+#: ../../source/electronic-binary.rst:130
+msgid "245"
+msgstr "245"
+
+#: ../../source/electronic-binary.rst:132
+msgid "Convierte los siguientes números de binario a decimal:"
+msgstr "Converteix el següent binari en nombres decimals:"
+
+#: ../../source/electronic-binary.rst:134
+msgid "1  0  0  0  1  1  1  1"
+msgstr "1 0 0 0 1 1 1 1 1"
+
+#: ../../source/electronic-binary.rst:136
+msgid "1  0  1  0  0  1  1  0"
+msgstr "1 0 1 0 0 1 1 0"
+
+#: ../../source/electronic-binary.rst:138
+msgid "1  1  0  0  0  1  1  1"
+msgstr "1 1 0 0 0 0 1 1 1"
+
+#: ../../source/electronic-binary.rst:140
+msgid "1  1  1  0  1  1  0  0"
+msgstr "1 1 1 0 1 1 0"
+
+#: ../../source/electronic-binary.rst:142
+msgid "1  1  1  1  1  1  0  1"
+msgstr "1 1 1 1 1 1 1 0 1"

@@ -1,0 +1,279 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-diodo-led.rst:9
+msgid "El diodo led"
+msgstr "El díode LED"
+
+#: ../../source/electronic-diodo-led.rst:10
+msgid ""
+"El `diodo led <https://es.wikipedia.org/wiki/Led>`__ es un diodo emisor de "
+"luz (Light Emitting Diode). Existen versiones de varios colores, desde los "
+"led infrarrojos de los mandos a distancia hasta los led ultravioletas de las"
+" lámparas de curado de resina plástica que utilizan los dentistas."
+msgstr ""
+"El `` Diode LED <https://es.wikipedia.org/wiki/led>`__ és un díode emissor "
+"de llum (díode emissor de llum). There are versions of various colors, from "
+"the infrared LEDs of the remote controls to the ultraviolet LEDs of the "
+"plastic resin curing lamps used by dentists."
+
+#: ../../source/electronic-diodo-led.rst:21
+msgid "Símbolo del diodo led."
+msgstr "Símbol del díode LED."
+
+#: ../../source/electronic-diodo-led.rst:28
+msgid "Semáforo basado en ledes de colores."
+msgstr "Semàfor basat en LED de colors."
+
+#: ../../source/electronic-diodo-led.rst:30
+msgid ""
+"En todas partes podemos ver ledes de colores rojo, verde o azul haciendo la "
+"función de pilotos en todo tipo de aparatos electrónicos o en semáforos."
+msgstr ""
+"A tot arreu podem veure ledes de colors vermells, verds o blaus fent la "
+"funció dels pilots en tot tipus de dispositius electrònics o en semàfors."
+
+#: ../../source/electronic-diodo-led.rst:33
+msgid ""
+"Los ledes blancos se han hecho cada vez más eficientes, sustituyendo hace "
+"años a las lámparas tradicionales de filamento incandescente."
+msgstr ""
+"Els LED blancs s’han tornat cada cop més eficients, substituint les làmpades"
+" de filament incandescents tradicionals fa anys."
+
+#: ../../source/electronic-diodo-led.rst:36
+msgid ""
+"Los ledes se basan en una tecnología que todavía hoy en día está "
+"progresando, por ejemplo, en las pantallas `OLED "
+"<https://es.wikipedia.org/wiki/Diodo_org%C3%A1nico_de_emisi%C3%B3n_de_luz>`__"
+" de los televisores y teléfonos inteligentes de última generación."
+msgstr ""
+"Els LED es basen en una tecnologia que encara avança, per exemple, en el "
+"`OLED "
+"<https://es.wikipedia.org/wiki/diodo_org%C3%A1NICO_DE_DE_EMISI%C3%B3N_DE_LUZ>`"
+" __ de televisors i telèfons intel·ligents de darrera generació."
+
+#: ../../source/electronic-diodo-led.rst:43
+msgid "Polarización del led"
+msgstr "Polarització dirigida"
+
+#: ../../source/electronic-diodo-led.rst:44
+msgid ""
+"Normalmente los ledes tienen una tensión fija de funcionamiento que no se "
+"puede sobrepasar y que es menor que la tensión de alimentación. Para evitar "
+"que el led se queme, debemos insertar una resistencia en serie que limitará "
+"su corriente de funcionamiento."
+msgstr ""
+"Normalment, els LED tenen una tensió de funcionament fixa que no es pot "
+"superar i que és inferior a la tensió d’alimentació. Per evitar que el LED "
+"es cremi, hem d’inserir una resistència a la sèrie que limitarà el seu "
+"corrent de funcionament."
+
+#: ../../source/electronic-diodo-led.rst:49
+msgid ""
+"En la siguiente simulación podemos ver un esquema de una linterna led basada"
+" en tres pilas en serie de 1.5 voltios y en un led blanco de 3 voltios de "
+"tensión de trabajo con una corriente de 50 miliamperios. La resistencia de "
+"polarización es de 30 ohmios."
+msgstr ""
+"A la següent simulació podem veure un esquema d’una llanterna LED basada en "
+"tres pilas en sèries d’1,5 volts i en un LED blanc de 3 volts de tensió de "
+"treball amb un corrent de 50 mil·líferies. La resistència a la polarització "
+"és de 30 ohms."
+
+#: ../../source/electronic-diodo-led.rst:59
+msgid "Led blanco cilíndrico de 5 milímetros de diámetro."
+msgstr "LED cilíndric de 5 mm de diàmetre."
+
+#: ../../source/electronic-diodo-led.rst:69
+msgid "Cálculo de la resistencia de polarización"
+msgstr "Càlcul de resistència a la polarització"
+
+#: ../../source/electronic-diodo-led.rst:70
+msgid ""
+"Para calcular la resistencia necesaria que polarice el led correctamente hay"
+" que utilizar la siguiente fórmula:"
+msgstr ""
+"Per calcular la resistència necessària que polaritza el LED correctament, "
+"heu d’utilitzar la fórmula següent:"
+
+#: ../../source/electronic-diodo-led.rst:73
+
+#: ../../source/electronic-diodo-led.rst:97
+
+#: ../../source/electronic-diodo-led.rst:114
+msgid "R = \\cfrac{V_{cc} - V_{led}}{I_{led}}"
+msgstr "R = \\cfrac{V_{cc} - V_{led}}{I_{led}}"
+
+#: ../../source/electronic-diodo-led.rst:78
+msgid "Donde las variables son:"
+msgstr "On són les variables:"
+
+#: ../../source/electronic-diodo-led.rst:80
+msgid "R = Resistencia de polarización del led en ohmios [Ω]."
+msgstr "R = Resistència a la polarització del LED en ohms [ω]."
+
+#: ../../source/electronic-diodo-led.rst:82
+msgid "V_cc = Tensión de alimentación en voltios [V]."
+msgstr "V_CC = Tensió d’alimentació en volts [V]."
+
+#: ../../source/electronic-diodo-led.rst:84
+msgid "V_led = Tensión de trabajo del diodo led en voltios [V]."
+msgstr "V_led = Tensió de treball del díode LED en volts [v]."
+
+#: ../../source/electronic-diodo-led.rst:86
+msgid "I_led = Corriente de trabajo del diodo led en amperios [A]."
+msgstr "I_led = corrent de treball del díode LED en amplificadors [a]."
+
+#: ../../source/electronic-diodo-led.rst:104
+msgid "Ejemplo 1:"
+msgstr "Exemple 1:"
+
+#: ../../source/electronic-diodo-led.rst:90
+msgid ""
+"Necesitamos calcular la resistencia de polarización de led verde de un "
+"teclado de ordenador. Su tensión de trabajo es de 2.2 Voltios su corriente "
+"de trabajo es de 10 miliamperios y la tensión de alimentación es de 5 "
+"voltios."
+msgstr ""
+"Hem de calcular la resistència a la polarització del LED verd d’un teclat "
+"d’ordinador. La seva tensió de treball és de 2,2 volts El seu corrent de "
+"treball és de 10 mil·límetres i la tensió d'alimentació és de 5 volts."
+
+#: ../../source/electronic-diodo-led.rst:95
+
+#: ../../source/electronic-diodo-led.rst:112
+msgid "Aplicando la fórmula:"
+msgstr "Aplicant la fórmula:"
+
+#: ../../source/electronic-diodo-led.rst:101
+msgid "R = \\cfrac{5 - 2.2}{0.010} = 280 \\Omega"
+msgstr "R = \\cfrac{5 - 2.2}{0.010} = 280 \\Omega"
+
+#: ../../source/electronic-diodo-led.rst:121
+msgid "Ejemplo 2:"
+msgstr "Exemple 2:"
+
+#: ../../source/electronic-diodo-led.rst:107
+msgid ""
+"Necesitamos calcular la resistencia de polarización del led blanco que "
+"ilumina una pantalla de teléfono inteligente. Su tensión de trabajo es de 3 "
+"voltios, su corriente de trabajo es de 150 miliamperios y la tensión de "
+"alimentación es de 3.6 voltios."
+msgstr ""
+"Hem de calcular la resistència de polarització del LED blanc que il·lumina "
+"una pantalla del telèfon intel·ligent. La seva tensió de treball és de 3 "
+"volts, el seu corrent de treball és de 150 mil·límetres i la tensió "
+"d'alimentació és de 3,6 volts."
+
+#: ../../source/electronic-diodo-led.rst:118
+msgid "R = \\cfrac{3.6 - 3.0}{0.150} = 4 \\Omega"
+msgstr "R = \\cfrac{3.6 - 3.0}{0.150} = 4 \\Omega"
+
+#: ../../source/electronic-diodo-led.rst:124
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-diodo-led.rst:126
+msgid ""
+"Dibuja el esquema eléctrico de una linterna con diodo led. Utiliza el "
+"símbolo que aparece al comienzo de la unidad, con dos flechas que indican la"
+" salida de luz del diodo."
+msgstr ""
+"Dibuixa l’esquema elèctric d’una llanterna amb el díode LED. Utilitzeu el "
+"símbol que apareix al començament de la unitat, amb dues fletxes que "
+"indiquen la sortida de la llum del díode."
+
+#: ../../source/electronic-diodo-led.rst:131
+msgid ""
+"Calcula la resistencia de polarización del led rojo de un ratón sabiendo que"
+" la tensión de trabajo es de 1.8 voltios, la corriente de trabajo es de 16 "
+"miliamperios y la tensión de alimentación es de 5 voltios."
+msgstr ""
+"Calculeu la resistència de polarització del LED vermell d’un ratolí sabent "
+"que la tensió de treball és d’1,8 volts, el corrent de treball és de 16 "
+"mil·límetres i la tensió d’alimentació és de 5 volts."
+
+#: ../../source/electronic-diodo-led.rst:136
+
+#: ../../source/electronic-diodo-led.rst:151
+msgid ""
+"Comprueba con el `simulador de circuitos "
+"<../circuits/?startCircuit=empty.txt>`__ que el cálculo es correcto."
+msgstr ""
+"Comproveu amb el simulador de circuit <../ circuit/? StartCircuit = "
+"buits.txt>`__ que el càlcul és correcte."
+
+#: ../../source/electronic-diodo-led.rst:141
+msgid ""
+"No olvides **cambiar la tensión de funcionamiento del led**, editando el "
+"led... Create New Simple Model... Forward Voltage 1.8 ... Current At Above "
+"Voltage (A) 0.016 ... OK."
+msgstr ""
+"No oblideu ** Canvieu la tensió de funcionament del LED **, editant el LED "
+"... Creeu un nou model senzill ... Tensió endavant 1.8 ... corrent a la "
+"tensió superior (a) 0.016 ... D'acord."
+
+#: ../../source/electronic-diodo-led.rst:146
+msgid ""
+"Calcula la resistencia de polarización de un piloto de automóvil compuesto "
+"por dos ledes en serie blancos que tienen una tensión de trabajo de 3 "
+"voltios cada uno y una corriente de trabajo de 20 miliamperios. La tensión "
+"de alimentación es de 12 voltios."
+msgstr ""
+"Calculeu la resistència de polarització d’un controlador d’automòbils "
+"compost per dos LED blancs que tenen una tensió de treball de 3 volts "
+"cadascun i un corrent de treball de 20 mil·límetres. La tensió d’alimentació"
+" és de 12 volts."
+
+#: ../../source/electronic-diodo-led.rst:156
+msgid ""
+"No olvides **cambiar la tensión de funcionamiento de los ledes**, editando "
+"cada led... Create New Simple Model... Forward Voltage 3.0 ... Current At "
+"Above Voltage (A) 0.020 ... OK."
+msgstr ""
+"No oblideu ** Canvieu la tensió de funcionament dels LED **, editant cada "
+"LED ... Creeu un nou model senzill ... Tensió endavant 3.0 ... corrent a la "
+"retorn anterior (a) 0.020 ... D'acord."
+
+#: ../../source/electronic-diodo-led.rst:162
+msgid "Ampliación"
+msgstr "Extensió"
+
+#: ../../source/electronic-diodo-led.rst:163
+msgid ""
+"Busca información sobre la multiplexación de ledes en ánodo común y en "
+"cátodo común, muy utilizada en displays de 7 segmentos."
+msgstr ""
+"Cerqueu informació sobre la multiplexació dels LED en un ànode comú i en un "
+"càtode comú, àmpliament utilitzat en 7 segments."
+
+#: ../../source/electronic-diodo-led.rst:166
+msgid ""
+"Aprende qué es la conexión de ledes con la técnica de `charlieplexing "
+"<http://electrocirc.blogspot.com/2012/05/tecnica-charlieplexing-para-"
+"controlar.html>`__ para encender múltiples ledes con pocas líneas de "
+"control."
+msgstr ""
+"Obteniu més informació sobre quina connexió LEDS és amb el `charliePlexing "
+"<http://electrocirc.blogspot.com/2012/05/tecnica-charlieplexing-para-"
+"controlo.html>`__ per activar diverses ledres amb poques línies de control."

@@ -1,0 +1,295 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-07-18 16:58+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/picuino-uno-display1.rst:7
+
+#: ../../source/picuino-uno-display1.rst:16
+msgid "Display de 7 segmentos"
+msgstr "Pantalla de 7 segments"
+
+#: ../../source/picuino-uno-display1.rst:10
+msgid "Objetivos"
+msgstr "Els pendents"
+
+#: ../../source/picuino-uno-display1.rst:11
+msgid "Escribir un número en el display de 7 segmentos."
+msgstr "Escriviu un número a la pantalla de 7 segments."
+
+#: ../../source/picuino-uno-display1.rst:12
+msgid "Escribir caracteres alfanuméricos en el display de 7 segmentos."
+msgstr "Escriviu caràcters alfanumèrics a la pantalla 7 -segment."
+
+#: ../../source/picuino-uno-display1.rst:17
+msgid ""
+"El visualizador o display de siete segmentos es un elemento que permite "
+"mostrar números y también símbolos y caracteres de forma limitada. Este tipo"
+" de visualizador se utiliza en las ocasiones donde se desea una buena "
+"visibilidad y tiene la ventaja de ser robusto y fácil de manejar. Los "
+"visualizadores de 7 segmentos se pueden encontrar en reproductores de audio,"
+" hornos microondas, automóviles, relojes, etc."
+msgstr ""
+"La pantalla o la pantalla de set segments és un element que permet mostrar "
+"números i també símbols i caràcters de manera limitada. Aquest tipus de "
+"visualització s’utilitza en les ocasions en què es desitja una bona "
+"visibilitat i té l’avantatge de ser robust i fàcil de manejar. Es poden "
+"trobar 7 visualitzadors de segments en reproductors d'àudio, forns de "
+"microones, cotxes, rellotges, etc."
+
+#: ../../source/picuino-uno-display1.rst:25
+msgid ""
+"En este tipo de visualizador solo hay que definir el estado de siete "
+"elementos para formar el número deseado. En otro tipo de displays más "
+"complejos es necesario definir el estado de 35 o más puntos para formar un "
+"número o carácter. La desventaja del display de 7 segmentos está basada en "
+"su poca capacidad para representar letras y símbolos."
+msgstr ""
+"En aquest tipus de visualització només heu de definir l'estat de set "
+"elements per formar el número desitjat. En un altre tipus de pantalles més "
+"complexes, cal definir l’estat de 35 o més punts per formar un nombre o un "
+"caràcter. El desavantatge de la visualització de 7 -segments es basa en la "
+"seva poca capacitat per representar lletres i símbols."
+
+#: ../../source/picuino-uno-display1.rst:32
+msgid ""
+"En la figura adjunta puede verse un display de 7 segmentos y la nomenclatura"
+" de sus elementos."
+msgstr ""
+"A la figura adjunta podeu veure una pantalla de 7 segments i la nomenclatura"
+" dels seus elements."
+
+#: ../../source/picuino-uno-display1.rst:47
+msgid "La función ``dispWrite``"
+msgstr "La funció `` disputa ''"
+
+#: ../../source/picuino-uno-display1.rst:51
+msgid ""
+"Esta función permite escribir números y caracteres en el visualizador de "
+"siete segmentos y 4 cifras. Dependiendo del número de argumentos y de su "
+"tipo, se comportará de una forma distinta."
+msgstr ""
+"Aquesta funció us permet escriure números i caràcters a les set segments i 4"
+" figures. Segons el nombre d’arguments i el seu tipus, es comportarà d’una "
+"altra manera."
+
+#: ../../source/picuino-uno-display1.rst:59
+msgid ""
+"Cuando el argumento de la función ``dispWrite`` es un número natural (0, 1, "
+"2, ...) este número se visualizará con cuatro dígitos en el display. Si el "
+"número tiene menos de cuatro dígitos, el display apaga por la izquierda los "
+"dígitos no utilizados. Si el número es mayor de 9999, solo se representan "
+"los cuatro últimos dígitos."
+msgstr ""
+"Quan l'argument de la `` disputa '' és un nombre natural (0, 1, 2, ...) "
+"Aquest número es mostrarà amb quatre dígits a la pantalla. Si el nombre té "
+"menys de quatre dígits, la pantalla apaga els dígits no utilitzats a "
+"l'esquerra. Si el nombre és superior a 9999, només es representen els últims"
+" quatre dígits."
+
+#: ../../source/picuino-uno-display1.rst:66
+msgid "Estos son algunos ejemplos de visualización."
+msgstr "Aquests són alguns exemples de visualització."
+
+#: ../../source/picuino-uno-display1.rst:77
+msgid ""
+"El ejemplo que aparece a continuación representa en el display un número que"
+" aumenta y disminuye con los pulsadores 3 y 4."
+msgstr ""
+"L’exemple que apareix a continuació representa a la pantalla un nombre que "
+"augmenta i disminueix amb el botó 3 i 4."
+
+#: ../../source/picuino-uno-display1.rst:114
+msgid "dispWrite(int position, int segments)"
+msgstr "disputa (posicionament int, segment int)"
+
+#: ../../source/picuino-uno-display1.rst:116
+msgid ""
+"Cuando los argumentos de la función ``dispWrite`` son dos números, el "
+"primero representa la posición del dígito que se desea cambiar y el segundo "
+"representa los segmentos que se desea encender. Las posiciones de los "
+"dígitos son, de izquierda a derecha, 1 2 3 4."
+msgstr ""
+"Quan els arguments de la `` disputa '' són dos números, el primer representa"
+" la posició del dígit a canviar i el segon representa els segments que voleu"
+" activar. Les posicions dels dígits són, d’esquerra a dreta, 1 2 3 4."
+
+#: ../../source/picuino-uno-display1.rst:121
+msgid ""
+"Los segmentos de un dígito se encienden o se apagan con un número binario "
+"que representa a cada uno de ellos. El primer dígito binario (más a la "
+"izquierda) representa al segmento 'a'. El segundo dígito binario representa "
+"al segmento 'b' y así hasta el octavo dígito binario que no representa a "
+"ningún segmento."
+msgstr ""
+"Els segments d’un dígit s’encenen o s’apaguen amb un número binari que "
+"representa cadascun d’ells. El primer dígit binari (més esquerra) representa"
+" el segment 'A'. El segon dígit binari representa el segment \"B\" i així "
+"successivament al vuitè dígit binari que no representa cap segment."
+
+#: ../../source/picuino-uno-display1.rst:128
+msgid ""
+"Por ejemplo, el número binario 0b10000000 encenderá el segmento 'a' y se "
+"verá en el display de 7 segmentos como una barra superior '¯'. El número "
+"binario 0b01100000 encenderá los segmentos 'b' y 'c' y se verá en el display"
+" de 7 segmentos como el número 1. El número binario 0b00000010 encenderá el "
+"segmento 'g' y se verá en el display de 7 segmentos como el signo menos '-'."
+msgstr ""
+"Per exemple, el número binari 0B10000000 activarà el segment 'A' i es veurà "
+"a la pantalla de 7 segments com una barra superior '¯'. El número binari "
+"0B01100000 activarà els segments 'B' i 'C' i es veurà a la visualització de "
+"7 segments com el número 1. El número binari 0B00000010 activarà el segment "
+"'G' i es veurà a la visualització de 7 segments com el menys signe '-'."
+
+#: ../../source/picuino-uno-display1.rst:136
+msgid ""
+"En ocasiones será más sencillo utilizar los valores ya predefinidos en la "
+"librería. A continuación se muestra una lista con los valores predefinidos "
+"de forma estándar."
+msgstr ""
+"De vegades serà més fàcil utilitzar els valors ja predefinits a la "
+"llibreria. A continuació, es mostra una llista amb els valors predefinits de"
+" la norma."
+
+#: ../../source/picuino-uno-display1.rst:141
+msgid ""
+"**Números:** SS_0, SS_1, SS_2, SS_3, SS_4, SS_5, SS_6, SS_7, SS_8, SS_9"
+msgstr ""
+"** Números: ** SS_0, SS_1, SS_2, SS_3, SS_4, SS_5, SS_6, SS_7, SS_8, SS_9"
+
+#: ../../source/picuino-uno-display1.rst:143
+msgid ""
+"**Letras:** SS_A, SS_b, SS_B, SS_C, SS_d, SS_E, SS_F, SS_G, SS_g, SS_H, "
+"SS_h, SS_I, SS_i, SS_J, SS_K, SS_L, SS_n, SS_ny, SS_o, SS_O, SS_P, SS_q, "
+"SS_r, SS_S, SS_t, SS_u, SS_U, SS_y, SS_Y, SS_Z"
+msgstr ""
+"** Lletres: ** SS_A, SS_B, SS_B, SS_C, SS_D, SS_E, SS_F, SS_G, SS_G, SS_H, "
+"SS_H, SS_I, SS_I, SS_J, SS_K, SS_L, SS_N, SS_NY, SS_O, SS_O, SS_P, SS, SS, "
+"SS, SS, SS, SS, SS, SS_P, SS, SS_P, SS_P, SS_P, SS_P, SS_P, SS_. SS_R, SS_S,"
+" SS_T, SS_U, SS_U, SS_Y, SS_Y, SS_Z"
+
+#: ../../source/picuino-uno-display1.rst:147
+msgid "**Espacio blanco:** SS_SP"
+msgstr "** Espai blanc: ** SS_SP"
+
+#: ../../source/picuino-uno-display1.rst:149
+msgid "También se pueden crear símbolos a medida."
+msgstr "També es poden crear símbols personalitzats."
+
+#: ../../source/picuino-uno-display1.rst:151
+msgid ""
+"El siguiente programa hace rotar una barra a través de los cuatro segmentos "
+"superiores de un dígito."
+msgstr ""
+"El següent programa gira una barra a través dels quatre segments superiors "
+"d’un dígit."
+
+#: ../../source/picuino-uno-display1.rst:184
+msgid ""
+"El siguiente programa hace rotar una barra a través de todos los segmentos "
+"exteriores de un dígito."
+msgstr ""
+"El següent programa gira una barra a través de tots els segments exteriors "
+"d’un dígit."
+
+#: ../../source/picuino-uno-display1.rst:218
+msgid "dispWrite(int digit, int  digit, int  digit, int  digit)"
+msgstr "Discription (Int Digit, INT Digit, INT Digit, INT Digit)"
+
+#: ../../source/picuino-uno-display1.rst:220
+msgid ""
+"Cuando la función ``dispWrite`` tiene cuatro argumentos, cada uno es "
+"interpretado como el valor de cada dígito del visualizador de siete "
+"segmentos. Esta forma es más cómoda para visualizar una palabra. El "
+"siguiente ejemplo hace aparecer en el display la palabra 'HOLA'."
+msgstr ""
+"Quan la `` disputa '`té quatre arguments, cadascun s'interpreta com el valor"
+" de cada dígit del visualitzador de set segments. Aquesta forma és més "
+"còmoda per visualitzar una paraula. L'exemple següent fa que aparegui la "
+"paraula \"hola\" a la pantalla."
+
+#: ../../source/picuino-uno-display1.rst:248
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/picuino-uno-display1.rst:250
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Programa el codi necessari per resoldre els problemes següents."
+
+#: ../../source/picuino-uno-display1.rst:252
+msgid ""
+"Completar el siguiente programa para que cuente hacia atrás desde 10 hasta 0"
+" cambiando de valor una vez cada segundo. Una vez terminada la cuenta atrás,"
+" debe encenderse el led rojo."
+msgstr ""
+"Completeu el programa següent per informar -se de 10 a 0 canviant el valor "
+"una vegada cada segon. Un cop finalitzat el compte enrere, el LED vermell "
+"s’ha d’encendre."
+
+#: ../../source/picuino-uno-display1.rst:281
+msgid ""
+"Completar el siguiente programa para que funcione como un dado electrónico. "
+"Al presionar el pulsador 1, se debe mostrar en el display un número desde el"
+" 1 hasta el 6."
+msgstr ""
+"Completa el programa següent per funcionar com a daus electrònic. Quan "
+"premeu el botó 1, s'ha de mostrar un número a la pantalla de l'1 al 6."
+
+#: ../../source/picuino-uno-display1.rst:308
+msgid ""
+"Mostrar en el cuarto dígito una animación que consiste en iluminar todos los"
+" segmentos uno a uno desde el segmento 'a' hasta el segmento 'f'. Cuando "
+"todos los segmentos estén iluminados, se deben apagar todos otra vez y la "
+"secuencia comenzará de nuevo. El tiempo de espera entre el encendido de un "
+"segmento y el siguiente será de medio segundo."
+msgstr ""
+"Mostra al quart dígit una animació que consisteix a il·luminar tots els "
+"segments un per un des del segment 'A' al segment 'f'. Quan tots els "
+"segments s’il·luminen, tothom s’ha d’apagar de nou i la seqüència tornarà a "
+"començar. El temps d’espera entre l’encesa d’un segment i el següent serà "
+"mig segon."
+
+#: ../../source/picuino-uno-display1.rst:315
+msgid ""
+"Diseña dos símbolos nuevos y realiza un programa que los muestre en el "
+"display en las posiciones 2 y 4."
+msgstr ""
+"Dissenyeu dos nous símbols i realitzeu un programa que els mostri a la "
+"pantalla a les posicions 2 i 4."
+
+#: ../../source/picuino-uno-display1.rst:318
+msgid "Dibuja en el display unas pesas."
+msgstr "Dibuixa uns pesos a la pantalla."
+
+#: ../../source/picuino-uno-display1.rst:320
+msgid ""
+"Muestra en el display las palabras 'HOLA' y un nombre propio corto. Las dos "
+"palabras deben alternarse cada medio segundo."
+msgstr ""
+"Mostra les paraules \"hola\" a la pantalla i un nom curt. Les dues paraules "
+"han d’alternar cada mig segon."
+
+#: ../../source/picuino-uno-display1.rst:323
+msgid ""
+"Realiza una animación original en el display, mostrando símbolos o "
+"movimientos de luz."
+msgstr ""
+"Feu una animació original a la pantalla, mostrant símbols o moviments de "
+"llum."

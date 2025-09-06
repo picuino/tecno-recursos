@@ -1,0 +1,256 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/scratch3-dibujar-espirales.rst:11
+msgid "Dibujar espirales"
+msgstr "Dibuixa espirals"
+
+#: ../../source/scratch3-dibujar-espirales.rst:13
+msgid ""
+"En esta práctica vamos a mover a un personaje por la pantalla para que "
+"dibuje varias espirales con colores."
+msgstr ""
+"En aquesta pràctica mourem un personatge a la pantalla per dibuixar diverses"
+" espirals amb colors."
+
+#: ../../source/scratch3-dibujar-espirales.rst:19
+
+#: ../../source/scratch3-dibujar-espirales.rst:23
+
+#: ../../source/scratch3-dibujar-espirales.rst:28
+
+#: ../../source/scratch3-dibujar-espirales.rst:39
+
+#: ../../source/scratch3-dibujar-espirales.rst:51
+
+#: ../../source/scratch3-dibujar-espirales.rst:61
+
+#: ../../source/scratch3-dibujar-espirales.rst:71
+
+#: ../../source/scratch3-dibujar-espirales.rst:81
+
+#: ../../source/scratch3-dibujar-espirales.rst:96
+
+#: ../../source/scratch3-dibujar-espirales.rst:103
+
+#: ../../source/scratch3-dibujar-espirales.rst:113
+
+#: ../../source/scratch3-dibujar-espirales.rst:148
+
+#: ../../source/scratch3-dibujar-espirales.rst:157
+msgid "|br|"
+msgstr "; BR |"
+
+#: ../../source/scratch3-dibujar-espirales.rst:21
+msgid "Iniciamos el |editor_de_Scratch|."
+msgstr "Comencem el | Editor_de_scratch |."
+
+#: ../../source/scratch3-dibujar-espirales.rst:25
+msgid ""
+"Pulsamos el botón idioma |boton-idioma| en la barra superior y elegimos "
+"**Español**."
+msgstr ""
+"Premeu el botó d'idioma | Botó-Idioma | A la barra superior i va triar ** "
+"espanyol **."
+
+#: ../../source/scratch3-dibujar-espirales.rst:30
+msgid ""
+"Añadimos una nueva variable **Lado** que guardará el tamaño del lado que se "
+"está dibujando en este momento."
+msgstr ""
+"Afegim una nova variable ** costat ** que mantindrà la mida del costat que "
+"s’està dibuixant en aquest moment."
+
+#: ../../source/scratch3-dibujar-espirales.rst:33
+msgid "Pulsamos el botón de variables |boton-variables|,"
+msgstr "Premeu el botó variable | Botó-Variables |,"
+
+#: ../../source/scratch3-dibujar-espirales.rst:35
+msgid "pulsamos en crear una variable  |boton-crear-variable|."
+msgstr "Premeu per crear una variable | Botó-Crear-Variable |."
+
+#: ../../source/scratch3-dibujar-espirales.rst:37
+msgid "Cambiamos el nombre de la variable a **Lado**"
+msgstr "Canviem el nom de la variable a ** costat **"
+
+#: ../../source/scratch3-dibujar-espirales.rst:41
+msgid ""
+"Añadimos una nueva extensión con el botón **añadir extensión** |aniadir-"
+"extension| abajo a la izquierda."
+msgstr ""
+"Afegim una nova extensió amb el botó ** ** | Aniadir-Extensió | fins a "
+"l’esquerra."
+
+#: ../../source/scratch3-dibujar-espirales.rst:44
+msgid "Seleccionamos la extensión **Lápiz** para poder dibujar."
+msgstr "Seleccionem l’extensió ** llapis ** per dibuixar."
+
+#: ../../source/scratch3-dibujar-espirales.rst:48
+msgid ""
+"En la barra de código aparecerá un nuevo icono, el Lápiz |boton-lapiz|, con "
+"instrucciones de color verde oscuro."
+msgstr ""
+"A la barra de codi apareixerà una nova icona, el llapis | Botó-lapiz |, amb "
+"instruccions de color verd fosc."
+
+#: ../../source/scratch3-dibujar-espirales.rst:53
+msgid "Creamos un nuevo bloque llamado **inicio**."
+msgstr "Creem un nou bloc anomenat ** Home **."
+
+#: ../../source/scratch3-dibujar-espirales.rst:55
+
+#: ../../source/scratch3-dibujar-espirales.rst:75
+
+#: ../../source/scratch3-dibujar-espirales.rst:107
+msgid "Primero pulsamos en el botón mis bloques  |boton-misbloques|"
+msgstr "Primer, feu clic als meus blocs | Botó-Misblos |"
+
+#: ../../source/scratch3-dibujar-espirales.rst:57
+
+#: ../../source/scratch3-dibujar-espirales.rst:77
+
+#: ../../source/scratch3-dibujar-espirales.rst:109
+msgid "A continuación pulsamos en crear un bloque |boton-crear-bloque|"
+msgstr "A continuació, feu clic a Creació d’un bloc | Botó-Crear-Block |"
+
+#: ../../source/scratch3-dibujar-espirales.rst:59
+msgid "Luego cambiamos el nombre del nuevo bloque a **inicio**"
+msgstr "A continuació, canviem el nom del nou bloc a ** start **"
+
+#: ../../source/scratch3-dibujar-espirales.rst:63
+msgid ""
+"El bloque **inicio** servirá para iniciar el programa. Moverá al gato al "
+"centro de la pantalla con tamaño pequeño. Esconde la variable Lado, baja el "
+"lápiz para que pinte, establece el grosor y color del lápiz y borra la "
+"pantalla."
+msgstr ""
+"El bloc ** Start ** servirà per iniciar el programa. Moure el gat al centre "
+"de la pantalla amb una mida petita. Amagueu la variable lateral, baixeu el "
+"llapis per pintar, configureu el gruix i el color del llapis i esborreu la "
+"pantalla."
+
+#: ../../source/scratch3-dibujar-espirales.rst:73
+msgid "Creamos un nuevo bloque llamado **cuadrado**."
+msgstr "Creem un nou bloc anomenat ** Square **."
+
+#: ../../source/scratch3-dibujar-espirales.rst:79
+msgid "Luego cambiamos el nombre del nuevo bloque a **cuadrado**"
+msgstr "A continuació, canviem el nom del nou bloc A ** Square **"
+
+#: ../../source/scratch3-dibujar-espirales.rst:83
+msgid ""
+"El bloque **cuadrado** servirá para dibujar una espiral cuadrada en la "
+"pantalla."
+msgstr ""
+"El bloc ** quadrat ** servirà per dibuixar una espiral quadrada a la "
+"pantalla."
+
+#: ../../source/scratch3-dibujar-espirales.rst:86
+msgid ""
+"El tamaño del lado se inicia con el valor 5 y va creciendo de 4 en 4 hasta "
+"que valga igual o más que 340."
+msgstr ""
+"La mida lateral comença amb el valor 5 i creix de 4 de cada 4 fins que val "
+"la pena igual o superior a 340."
+
+#: ../../source/scratch3-dibujar-espirales.rst:89
+msgid ""
+"En cada paso se dibuja una línea de tamaño \"Lado\", aumenta el tamaño del "
+"lado, gira 90º y aumenta el color del lápiz."
+msgstr ""
+"A cada pas es dibuixa una línia de mida \\ \"costat \", augmenta la mida del"
+" costat, gira 90º i augmenta el color del llapis."
+
+#: ../../source/scratch3-dibujar-espirales.rst:98
+msgid ""
+"Si hacemos clic sobre el bloque **\"definir cuadrado\"**, en la pantalla "
+"aparecerá la espiral cuadrada."
+msgstr ""
+"Si feu clic al bloc ** \\ \"Definir quadrat \" **, apareixerà l'espiral "
+"quadrada a la pantalla."
+
+#: ../../source/scratch3-dibujar-espirales.rst:105
+msgid "Ahora vamos a crear un nuevo bloque llamado **triangulo**."
+msgstr "Ara crearem un nou bloc anomenat ** Triangle **."
+
+#: ../../source/scratch3-dibujar-espirales.rst:111
+msgid "Luego cambiamos el nombre del nuevo bloque a **triangulo**"
+msgstr "A continuació, canviem el nom del nou bloc a ** triangle **"
+
+#: ../../source/scratch3-dibujar-espirales.rst:115
+msgid ""
+"El bloque **triángulo** es muy parecido al bloque **cuadrado**, solo cambia "
+"el ángulo de giro."
+msgstr ""
+"El bloc ** Triangle ** és molt similar al bloc ** quadrat **, només cal "
+"canviar l'angle de rotació."
+
+#: ../../source/scratch3-dibujar-espirales.rst:118
+msgid ""
+"Para aprovechar el programa ya realizado, vamos a pulsar con el botón "
+"derecho del ratón sobre las instrucciones de **cuadrado** y elegimos la "
+"opción duplicar."
+msgstr ""
+"Per aprofitar el programa ja fet, prémerem amb el botó dret del ratolí a les"
+" instruccions ** quadrat ** i triarem l’opció duplicada."
+
+#: ../../source/scratch3-dibujar-espirales.rst:124
+msgid ""
+"una vez duplicado el programa, lo enganchamos en el bloque triángulo y "
+"cambiamos el ángulo de giro."
+msgstr ""
+"Un cop el programa duplicat, el enganxem al bloc del triangle i canviem "
+"l’angle de rotació."
+
+#: ../../source/scratch3-dibujar-espirales.rst:131
+msgid ""
+"Si hacemos clic sobre el bloque **\"definir triangulo\"**, en la pantalla "
+"aparecerá la espiral triangular."
+msgstr ""
+"Si fem clic al bloc ** \\ \"Definir el triangle \" **, l'espiral triangular "
+"apareixerà a la pantalla."
+
+#: ../../source/scratch3-dibujar-espirales.rst:141
+msgid "Retos"
+msgstr "Reptes"
+
+#: ../../source/scratch3-dibujar-espirales.rst:143
+msgid ""
+"Haz un nuevo bloque que dibuje una espiral en estrella. Modifica los "
+"parámetros del nuevo bloque para girar 150 grados."
+msgstr ""
+"Feu un bloc nou que dibuixi una espiral estrella. Modifiqueu els paràmetres "
+"del nou bloc per girar 150 graus."
+
+#: ../../source/scratch3-dibujar-espirales.rst:150
+msgid ""
+"Crea un nuevo bloque para dibujar una espiral octogonal. Los giros deben ser"
+" de 45 grados. El lado debe sumar 1 en cada repetición y se debe repetir "
+"hasta que el lado sea mayor que 150."
+msgstr ""
+"Creeu un bloc nou per dibuixar una espiral octogonal. Les voltes han de ser "
+"de 45 graus. The side must add 1 in each repetition and should be repeated "
+"until the side is greater than 150."
+
+#: ../../source/scratch3-dibujar-espirales.rst:159
+msgid "Experimenta con el programa para crear nuevos dibujos originales."
+msgstr "Experimenteu amb el programa per crear nous dibuixos originals."

@@ -1,0 +1,507 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/scratch3-saltar-arboles.rst:11
+msgid "Saltar árboles"
+msgstr "Saltar arbres"
+
+#: ../../source/scratch3-saltar-arboles.rst:13
+msgid ""
+"En esta práctica vamos a programar un juego parecido al juego del dinosaurio"
+" que aparece en el navegador Chrome cuando no hay conexión a Internet. Un "
+"dinosaurio correrá todo el tiempo hacia la derecha de la pantalla mientras "
+"aparecen árboles que tendrá que saltar para no chocarse con ellos."
+msgstr ""
+"En aquesta pràctica programarem un joc similar al joc de dinosaures que "
+"apareix al navegador Chrome quan no hi ha connexió a Internet. Un dinosaure "
+"funcionarà tot el temps a la dreta de la pantalla mentre apareixen arbres "
+"que hauran de saltar per no xocar amb ells."
+
+#: ../../source/scratch3-saltar-arboles.rst:22
+
+#: ../../source/scratch3-saltar-arboles.rst:26
+
+#: ../../source/scratch3-saltar-arboles.rst:31
+
+#: ../../source/scratch3-saltar-arboles.rst:39
+
+#: ../../source/scratch3-saltar-arboles.rst:52
+
+#: ../../source/scratch3-saltar-arboles.rst:70
+
+#: ../../source/scratch3-saltar-arboles.rst:85
+
+#: ../../source/scratch3-saltar-arboles.rst:104
+
+#: ../../source/scratch3-saltar-arboles.rst:119
+
+#: ../../source/scratch3-saltar-arboles.rst:139
+
+#: ../../source/scratch3-saltar-arboles.rst:150
+
+#: ../../source/scratch3-saltar-arboles.rst:159
+
+#: ../../source/scratch3-saltar-arboles.rst:168
+
+#: ../../source/scratch3-saltar-arboles.rst:178
+
+#: ../../source/scratch3-saltar-arboles.rst:196
+
+#: ../../source/scratch3-saltar-arboles.rst:204
+
+#: ../../source/scratch3-saltar-arboles.rst:217
+
+#: ../../source/scratch3-saltar-arboles.rst:237
+
+#: ../../source/scratch3-saltar-arboles.rst:245
+
+#: ../../source/scratch3-saltar-arboles.rst:255
+
+#: ../../source/scratch3-saltar-arboles.rst:264
+
+#: ../../source/scratch3-saltar-arboles.rst:274
+
+#: ../../source/scratch3-saltar-arboles.rst:283
+
+#: ../../source/scratch3-saltar-arboles.rst:292
+
+#: ../../source/scratch3-saltar-arboles.rst:307
+
+#: ../../source/scratch3-saltar-arboles.rst:315
+
+#: ../../source/scratch3-saltar-arboles.rst:320
+
+#: ../../source/scratch3-saltar-arboles.rst:334
+
+#: ../../source/scratch3-saltar-arboles.rst:338
+
+#: ../../source/scratch3-saltar-arboles.rst:344
+msgid "|br|"
+msgstr "; BR |"
+
+#: ../../source/scratch3-saltar-arboles.rst:24
+msgid "Iniciamos el |editor_de_Scratch|."
+msgstr "Comencem el | Editor_de_scratch |."
+
+#: ../../source/scratch3-saltar-arboles.rst:28
+msgid ""
+"Pulsamos el botón idioma |boton-idioma| en la barra superior y elegimos "
+"**Español**."
+msgstr ""
+"Premeu el botó d'idioma | Botó-Idioma | A la barra superior i va triar ** "
+"espanyol **."
+
+#: ../../source/scratch3-saltar-arboles.rst:34
+msgid "Borramos el objeto gato presionando sobre el icono del cubo de basura."
+msgstr "Eliminem l'objecte CAT prement a la icona del cub d'escombraries."
+
+#: ../../source/scratch3-saltar-arboles.rst:37
+msgid "|borrar-gato|"
+msgstr "; Suprimeix-Gato |"
+
+#: ../../source/scratch3-saltar-arboles.rst:42
+msgid "A continuación añadimos un nuevo personaje, un **dinosaurio**."
+msgstr "A continuació, afegim un personatge nou, un ** dinosaure **."
+
+#: ../../source/scratch3-saltar-arboles.rst:44
+
+#: ../../source/scratch3-saltar-arboles.rst:209
+msgid "Pulsamos el botón elige un objeto |seleccionar-objeto|."
+msgstr "Premeu el botó Trieu un objecte | Select-objecte |."
+
+#: ../../source/scratch3-saltar-arboles.rst:46
+msgid "Buscamos en la sección **Animales**."
+msgstr "Mirem a la secció ** Animals **."
+
+#: ../../source/scratch3-saltar-arboles.rst:48
+msgid "y seleccionamos el objeto **Dinosaur4**."
+msgstr "i seleccionem l'objecte ** Dinosaur4 **."
+
+#: ../../source/scratch3-saltar-arboles.rst:54
+msgid ""
+"Ahora crearemos la variable **velocidad** que va a almacenar la velocidad de"
+" salto del dinosaurio. Al comienzo del salto esta velocidad será positiva, "
+"pero irá decreciendo hasta hacerse negativa cuando el dinosaurio caiga hacia"
+" el suelo."
+msgstr ""
+"Ara crearem la variable ** velocitat ** que emmagatzemarà la velocitat de "
+"salt dels dinosaures. Al començament del salt, aquesta velocitat serà "
+"positiva, però disminuirà fins a negativa quan el dinosaure caigui cap a "
+"terra."
+
+#: ../../source/scratch3-saltar-arboles.rst:60
+
+#: ../../source/scratch3-saltar-arboles.rst:75
+msgid "Pulsamos el botón de variables |boton-variables|,"
+msgstr "Premeu el botó variable | Botó-Variables |,"
+
+#: ../../source/scratch3-saltar-arboles.rst:62
+
+#: ../../source/scratch3-saltar-arboles.rst:77
+msgid "pulsamos en crear una variable  |boton-crear-variable|."
+msgstr "Premeu per crear una variable | Botó-Crear-Variable |."
+
+#: ../../source/scratch3-saltar-arboles.rst:64
+msgid "Cambiamos el nombre de la variable a **velocidad**"
+msgstr "Canviem el nom de la variable a ** velocitat **"
+
+#: ../../source/scratch3-saltar-arboles.rst:68
+
+#: ../../source/scratch3-saltar-arboles.rst:83
+msgid "Por último pulsamos el botón **Aceptar**"
+msgstr "Finalment, feu clic al botó ** acceptar **"
+
+#: ../../source/scratch3-saltar-arboles.rst:72
+msgid ""
+"Ahora crearemos la variable **puntos** que va a almacenar los puntos que "
+"obtenemos durante el juego."
+msgstr ""
+"Ara crearem la variable ** punts ** que emmagatzemaran els punts que obtenim"
+" durant el joc."
+
+#: ../../source/scratch3-saltar-arboles.rst:79
+msgid "Cambiamos el nombre de la variable a **puntos**"
+msgstr "Canviem el nom de la variable per ** punts **"
+
+#: ../../source/scratch3-saltar-arboles.rst:87
+msgid ""
+"Creamos tres bloques distintos **Iniciar**, **Saltar** y **Finalizar** que "
+"programaremos más adelante."
+msgstr ""
+"Creem tres blocs diferents ** Start **, ** Jump ** i ** Finalitzar ** que "
+"programarem més endavant."
+
+#: ../../source/scratch3-saltar-arboles.rst:91
+msgid ""
+"Ahora ya podemos crear nuestro primer programa del dinosaurio. Al comenzar "
+"el programa iniciará las variables y posiciones, después de esperar un "
+"segundo enviará a todos los objetos la orden de jugar y por siempre se "
+"encargará de hacer saltar al dinosaurio y de comprobar si el programa ha "
+"finalizado."
+msgstr ""
+"Ara podem crear el nostre primer programa de dinosaures. Al començament del "
+"programa, les variables i les posicions començaran, després d’esperar un "
+"segon, enviarà a tots els objectes que l’ordre de reproduir i per sempre "
+"serà responsable de saltar al dinosaure i comprovar si el programa s’ha "
+"acabat."
+
+#: ../../source/scratch3-saltar-arboles.rst:97
+msgid ""
+"En este tipo de programación Top-Down primero definimos esta rutina "
+"principal y después detallaremos cada una de las subrutinas secundarias."
+msgstr ""
+"En aquest tipus de programació de dalt a baix, primer definim aquesta rutina"
+" principal i després es detallen cadascuna de les subrutines secundàries."
+
+#: ../../source/scratch3-saltar-arboles.rst:106
+msgid ""
+"Para continuar, definimos las órdenes del bloque **Iniciar**. Este bloque va"
+" a borrar la pantalla, situará al dinosaurio en su posición de inicio, le "
+"mostrará el tamaño y disfraz adecuado. También establecerá los valores "
+"iniciales de las variables y su visualización en pantalla."
+msgstr ""
+"Per continuar, definim les comandes del bloc ** Start **. Aquest bloc "
+"esborrarà la pantalla, col·locarà el dinosaure en la seva posició inicial, "
+"us mostrarà la mida i el vestit adequats. També establirà els valors "
+"inicials de les variables i la seva pantalla a la pantalla."
+
+#: ../../source/scratch3-saltar-arboles.rst:112
+msgid ""
+"Recuerda pulsar en el botón de añadir extensión |aniadir-extension| y elegir"
+" la extensión **Lápiz** para poder utilizar las instrucciones verdes como "
+"``Borrar todo``."
+msgstr ""
+"No oblideu fer clic al botó Afegeix extensió | Aniadir-Extensió | i trieu "
+"l'extensió ** Pencil ** per utilitzar les instruccions verdes com ara "
+"\"Esborrar tot\"."
+
+#: ../../source/scratch3-saltar-arboles.rst:121
+msgid ""
+"También programaremos el bloque **Saltar**. Este bloque calcula la velocidad"
+" del salto cuando el dinosaurio se encuentra por encima del suelo, de manera"
+" que suba con una velocidad cada vez menor hasta que comienza a caer otra "
+"vez hacia el suelo. Este programa simula la fuerza de la gravedad y la "
+"dinámica de un salto real."
+msgstr ""
+"També programarem el bloc ** Salv **. Aquest bloc calcula la velocitat del "
+"salt quan el dinosaure està per sobre del terra, de manera que puja amb una "
+"velocitat cada cop més inferior fins que comenci a caure a terra. Aquest "
+"programa simula la força de la gravetat i la dinàmica en un salt real."
+
+#: ../../source/scratch3-saltar-arboles.rst:129
+msgid ""
+"Una vez en el suelo (posición y < -32), el dinosaurio volverá a tener "
+"velocidad cero."
+msgstr ""
+"Un cop a terra (posició i <-32), el dinosaure tornarà a tenir velocitat "
+"zero."
+
+#: ../../source/scratch3-saltar-arboles.rst:132
+msgid ""
+"Cuando pulsemos las teclas espacio o flecha hacia arriba, el dinosaurio "
+"volverá a saltar hacia arriba con una velocidad inicial de 10."
+msgstr ""
+"Quan pressionem l’espai o les tecles cap amunt, el dinosaure saltarà amb una"
+" velocitat inicial de 10."
+
+#: ../../source/scratch3-saltar-arboles.rst:141
+msgid ""
+"El bloque **Finalizar** se encarga de comprobar que el dinosaurio ha chocado"
+" con un árbol. En ese caso se copia en pantalla una imagen del dinosaurio "
+"con la boca abierta, que no se mueva. Envía el mensaje Muere a todos los "
+"demás objetos y finaliza el programa."
+msgstr ""
+"El bloc ** acabat ** és responsable de verificar que el dinosaure ha xotat "
+"amb un arbre. En aquest cas, es copia una imatge del dinosaure amb boca "
+"oberta a la pantalla, que no es mou. Envieu el missatge mor a tots els "
+"altres objectes i el programa finalitza."
+
+#: ../../source/scratch3-saltar-arboles.rst:152
+msgid ""
+"Para continuar, programaremos el comportamiento del marcador de puntos al "
+"comenzar el juego. Este marcador debe sumar puntos continuamente hasta que "
+"el juego termine."
+msgstr ""
+"Per continuar, programarem el comportament de la puntuació de punts al "
+"començament del partit. Aquest marcador ha d’afegir punts contínuament fins "
+"que s’acabi el partit."
+
+#: ../../source/scratch3-saltar-arboles.rst:161
+msgid ""
+"Para conseguir un movimiento más realista, desde el momento en el que "
+"comience el juego vamos a cambiar el disfraz del dinosaurio continuamente "
+"para que parezca que está corriendo."
+msgstr ""
+"Per obtenir un moviment més realista, des del moment en què comença el joc "
+"canviarem contínuament el vestit de dinosaure perquè sembli que funcioni."
+
+#: ../../source/scratch3-saltar-arboles.rst:171
+
+#: ../../source/scratch3-saltar-arboles.rst:317
+msgid ""
+"Pulsamos la bandera verde |bandera-verde| para probar el funcionamiento del "
+"programa."
+msgstr ""
+"Premeu la bandera verda | Flag-Verde | Per provar el funcionament del "
+"programa."
+
+#: ../../source/scratch3-saltar-arboles.rst:174
+msgid ""
+"El dinosaurio correrá manteniéndose en una posición fija de la pantalla. "
+"Cuando pulsemos la tecla espacio o flecha arriba, el dinosaurio deberá dar "
+"un salto hacia arriba y volver a caer."
+msgstr ""
+"El dinosaure funcionarà en una posició fixa de la pantalla. Quan premem "
+"l’espai o la tecla de fletxa, el dinosaure ha de fer un salt i tornar a "
+"caure."
+
+#: ../../source/scratch3-saltar-arboles.rst:180
+msgid ""
+"Ahora vamos a añadir un suelo al juego. Debemos pulsar en la opción de "
+"pintar un objeto para que aparezca un nuevo objeto en el juego."
+msgstr ""
+"Ara afegirem un pis al joc. Hem de fer clic a l’opció per pintar un objecte "
+"perquè un objecte nou aparegui al joc."
+
+#: ../../source/scratch3-saltar-arboles.rst:186
+msgid ""
+"En la pestaña de disfraces dibujamos una línea con relleno gris y brillo 50,"
+" con borde gris 50 y con grosor 6."
+msgstr ""
+"A la pestanya de disfresses dibuixem una línia de peluix gris i brillant, "
+"amb una vora grisa 50 i amb 6 gruix."
+
+#: ../../source/scratch3-saltar-arboles.rst:193
+msgid ""
+"La línea debe sobresalir por ambos lados de la pantalla para estar seguros "
+"de que cubrirá todo el ancho de pantalla al mostrarse."
+msgstr ""
+"La línia ha d’excel·lir a banda i banda de la pantalla per assegurar -se que"
+" cobrirà tota l’amplada de la pantalla quan es mostri."
+
+#: ../../source/scratch3-saltar-arboles.rst:198
+msgid ""
+"Ya podemos cambiar a la pestaña de código para realizar el programa, que "
+"será muy sencillo. Solo mostrará la línea en la posición adecuada."
+msgstr ""
+"Ja podem canviar a la pestanya Codi per realitzar el programa, que serà molt"
+" senzill. Només mostrarà la línia en la posició adequada."
+
+#: ../../source/scratch3-saltar-arboles.rst:206
+msgid ""
+"Terminado el suelo, vamos a añadir los **árboles** al juego. Añadimos un "
+"nuevo personaje, **Trees**."
+msgstr ""
+"Acaba el terreny, afegirem els ** arbres ** al joc. Afegim un personatge "
+"nou, ** arbres **."
+
+#: ../../source/scratch3-saltar-arboles.rst:211
+msgid "Buscamos en la sección **Todos**."
+msgstr "Estem buscant a la secció ** tot **."
+
+#: ../../source/scratch3-saltar-arboles.rst:213
+msgid "y seleccionamos el objeto **Trees**."
+msgstr "i seleccionem l'objecte ** arbres **."
+
+#: ../../source/scratch3-saltar-arboles.rst:219
+msgid ""
+"En la pestaña de disfraces borraremos el arbol llamado **Trees-b**. A "
+"continuación duplicaremos el árbol llamado **Trees-a** pinchando con el "
+"botón derecho del ratón sobre su imagen."
+msgstr ""
+"A la pestanya Disfressa esborrarem l’arbre anomenat ** Trees-B **. A "
+"continuació, doblarem l’arbre anomenat ** Trees-a ** fent clic amb el botó "
+"dret del ratolí de la seva imatge."
+
+#: ../../source/scratch3-saltar-arboles.rst:223
+msgid ""
+"Una vez duplicado aparecerá otra imagen llamada **Trees-a2** que vamos a "
+"modificar para que contenga dos árboles."
+msgstr ""
+"Un cop duplicat, una altra imatge anomenada ** Trees-A2 ** que modificarem "
+"per contenir dos arbres apareixerà."
+
+#: ../../source/scratch3-saltar-arboles.rst:226
+msgid ""
+"Con la herramienta selección |boton-seleccion| seleccionamos todo el árbol y"
+" lo duplicamos con el botón de copiar y con el botón de pegar."
+msgstr ""
+"Amb l’eina de selecció | Selecció de botons | Seleccionem l’arbre sencer i "
+"el doble amb el botó de còpia i el botó de pasta."
+
+#: ../../source/scratch3-saltar-arboles.rst:232
+msgid ""
+"Para terminar, movemos el árbol recién copiado para que se sitúe al lado del"
+" primer árbol."
+msgstr ""
+"Finalment, movem l’arbre recentment copiat per estar al costat del primer "
+"arbre."
+
+#: ../../source/scratch3-saltar-arboles.rst:239
+msgid ""
+"Realizamos la misma operación que en el punto anterior duplicando el disfraz"
+" del árbol y duplicando dos veces el árbol inicial para que tengamos esta "
+"vez un disfraz con tres árboles en total."
+msgstr ""
+"Hem realitzat la mateixa operació que en el punt anterior duplicant el "
+"vestit de l’arbre i duplicant l’arbre inicial de manera que tinguem aquesta "
+"vegada un vestit amb tres arbres en total."
+
+#: ../../source/scratch3-saltar-arboles.rst:247
+msgid ""
+"Una vez terminados los disfraces de los árboles, vamos a completar el código"
+" del programa. Comenzamos por el inicio que borra todo, coloca los árboles a"
+" la derecha de la pantalla con el tamaño al 20% y escondidos de la vista."
+msgstr ""
+"Un cop finalitzi els vestits dels arbres, completarem el codi del programa. "
+"Comencem amb el començament que esborra tot, col·loca els arbres a la dreta "
+"de la pantalla amb la mida del 20% i s’amaga a la vista."
+
+#: ../../source/scratch3-saltar-arboles.rst:257
+msgid ""
+"Al recibir el mensaje de **Jugar**, el código comenzará a crear clones de "
+"los árboles con un disfraz aleatorio. Entre un clon y otro esperaremos un "
+"tiempo aleatorio entre 1.5 y 3.5 segundos."
+msgstr ""
+"En rebre el missatge de ** Play **, el codi començarà a crear clons dels "
+"arbres amb un vestit aleatori. Entre un clon i un altre esperarem un temps "
+"aleatori entre 1,5 i 3,5 segons."
+
+#: ../../source/scratch3-saltar-arboles.rst:266
+msgid ""
+"Cada vez que comience como clon un árbol, se debe mostrar en pantalla y "
+"esperar hasta que toque el borde izquierdo. En ese momento aplicaremos un "
+"efecto de desvanecimiento y eliminamos el clon."
+msgstr ""
+"Cada vegada que un arbre comença com a clon, heu de mostrar a la pantalla i "
+"esperar fins que toqueu la vora esquerra. Aleshores, aplicarem un efecte "
+"esvaït i eliminarem el clon."
+
+#: ../../source/scratch3-saltar-arboles.rst:276
+msgid ""
+"Para que los árboles se muevan a la izquierda, dando la sensación de que el "
+"dinosaurio corre hacia la derecha, hay que añadir el siguiente código que "
+"mueve el árbol para cada clon."
+msgstr ""
+"De manera que els arbres es mouen a l’esquerra, donant la sensació que el "
+"dinosaure corre a la dreta, s’ha d’afegir el codi següent que mou l’arbre "
+"per a cada clon."
+
+#: ../../source/scratch3-saltar-arboles.rst:285
+msgid ""
+"Para terminar con este código, al recibir el mensaje de que el dinosaurio "
+"**Muere**, debemos sellar los clones en la pantalla y eliminarlos."
+msgstr ""
+"Per acabar aquest codi, en rebre el missatge que el dinosaure ** mor **, hem"
+" de segellar els clons de la pantalla i eliminar -los."
+
+#: ../../source/scratch3-saltar-arboles.rst:294
+msgid ""
+"Solo nos queda la tarea de añadir un mensaje de \"Game Over\" cuando el "
+"juego termina. Volvemos a pulsar sobre la opción de pintar un objeto."
+msgstr ""
+"Només tenim la tasca d’afegir un missatge de \\ \"joc sobre \" quan "
+"finalitzi el joc. Tornem a prémer l’opció per pintar un objecte."
+
+#: ../../source/scratch3-saltar-arboles.rst:300
+msgid ""
+"Escribimos el mensaje Game Over con la herramienta Texto, Rellenar en color "
+"negro y el tipo de letra Pixel."
+msgstr ""
+"Escrivim el joc sobre el missatge amb l’eina de text, empleneu el negre i el"
+" píxel."
+
+#: ../../source/scratch3-saltar-arboles.rst:309
+msgid ""
+"Ahora solo queda completar el código que esconda el mensaje hasta que "
+"termine el programa, momento en el que debe mostrarse."
+msgstr ""
+"Ara només queda completar el codi que amaga el missatge fins que finalitzi "
+"el programa, moment en què s’ha de mostrar."
+
+#: ../../source/scratch3-saltar-arboles.rst:327
+msgid "Retos"
+msgstr "Reptes"
+
+#: ../../source/scratch3-saltar-arboles.rst:329
+msgid ""
+"Aumenta la aceleración en el salto para hacer el juego más difícil. Para "
+"conseguirlo, resta a la velocidad, en el bloque Saltar, un número mayor. "
+"Prueba con varios valores hasta que encuentres uno que funcione, pero haga "
+"más difícil el juego."
+msgstr ""
+"Augmenteu l’acceleració del salt per dificultar el joc. Per aconseguir -ho, "
+"resteu a la velocitat, al bloc de salt, un nombre més gran. Proveu diversos "
+"valors fins que en trobeu un que funcioni, però dificulta el joc."
+
+#: ../../source/scratch3-saltar-arboles.rst:336
+msgid "Añade un movimiento de giro en cada salto del personaje."
+msgstr "Afegiu un moviment de gir a cada salt del personatge."
+
+#: ../../source/scratch3-saltar-arboles.rst:340
+msgid ""
+"Cuando los puntos tengan un valor superior a 1000, aumenta la dificultad del"
+" juego haciendo que aparezcan árboles con más frecuencia (cada menos "
+"tiempo)."
+msgstr ""
+"Quan els punts tenen un valor superior a 1000, la dificultat del joc "
+"augmenta fent que els arbres siguin més freqüents (cada menys temps)."

@@ -1,0 +1,168 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-03-20 18:45+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/control-sensor-dht11.rst:8
+msgid "Sensor de temperatura y humedad DHT11"
+msgstr "Sensor de temperatura i humitat DHT11"
+
+#: ../../source/control-sensor-dht11.rst:9
+msgid ""
+"El sensor DHT11 es un sensor digital de temperatura y humedad relativa del "
+"aire. Utiliza una comunicación digital con Arduino, de forma que no es "
+"necesaria la conexión a un pin analógico para realizar las lecturas."
+msgstr ""
+"El sensor DHT11 és un sensor de temperatura digital i una humitat relativa "
+"de l’aire. Utilitzeu la comunicació digital amb Arduino, de manera que no és"
+" necessària aquesta connexió a un passador analògic per fer les lectures."
+
+#: ../../source/control-sensor-dht11.rst:20
+msgid "Especificaciones técnicas"
+msgstr "Especificacions tècniques"
+
+#: ../../source/control-sensor-dht11.rst:21
+msgid "Tensión de alimentación de 3 a 5 voltios"
+msgstr "Tensió d'alimentació de 3 a 5 volts"
+
+#: ../../source/control-sensor-dht11.rst:22
+msgid "Corriente máxima de alimentación 2,5 mA"
+msgstr "Corrent màxim d’alimentació 2,5 mA"
+
+#: ../../source/control-sensor-dht11.rst:23
+#, python-format
+msgid "Rango de humedad relativa 20% a 80% con 5% de exactitud"
+msgstr ""
+"La humitat relativa oscil·la entre un 20% i un 80% amb un 5% de precisió"
+
+#: ../../source/control-sensor-dht11.rst:24
+msgid "Rango de temperatura de 0 a 50ºC con +-2ºC de exactitud"
+msgstr "La temperatura oscil·la entre 0 i 50 ºC amb una precisió de +2 ºC"
+
+#: ../../source/control-sensor-dht11.rst:25
+msgid "Velocidad de 1 medida por segundo"
+msgstr "1 mesura per segon"
+
+#: ../../source/control-sensor-dht11.rst:26
+msgid "Tamaño 15,5mm x 12mm x 5,5mm"
+msgstr "Mida 15,5 mm x 12mm x 5,5 mm"
+
+#: ../../source/control-sensor-dht11.rst:27
+msgid "Conexión de 4 pines"
+msgstr "Connexió de 4 -Pin"
+
+#: ../../source/control-sensor-dht11.rst:30
+msgid ""
+"`DHT11. Hoja de características. D-Robotics. "
+"<../_static/document/DHT11-drobotics.pdf>`__"
+msgstr ""
+"`DHT11. Full de característiques. D-Robletics. <../_ "
+"static/document/dht11-drobotics.pdf>`__"
+
+#: ../../source/control-sensor-dht11.rst:35
+msgid "Librería Arduino"
+msgstr "Biblioteca Arduino"
+
+#: ../../source/control-sensor-dht11.rst:36
+msgid ""
+"`Librería Arduino para el sensor DHT11. Versión 0.4.1 "
+"<../_static/downloads/dht11-041.zip>`__"
+msgstr ""
+"`Biblioteca Arduino per al sensor DHT11. Versió 0.4.1 <../_ "
+"static/descàrregues/dht11-041.zip>`__"
+
+#: ../../source/control-sensor-dht11.rst:41
+msgid "Esquema de conexión"
+msgstr "Esquema de connexió"
+
+#: ../../source/control-sensor-dht11.rst:55
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/control-sensor-dht11.rst:57
+msgid ""
+"El siguiente programa envía por el puerto serie la humedad relativa y la "
+"temperatura medida por el sensor DHT11."
+msgstr ""
+"El programa següent envia la humitat relativa i la temperatura mesurada pel "
+"sensor DHT11."
+
+#: ../../source/control-sensor-dht11.rst:60
+msgid ""
+"Carga el programa en Arduino y muestra los valores por el monitor serie."
+msgstr ""
+"Carregueu el programa a Arduino i mostra els valors del monitor de la sèrie."
+
+#: ../../source/control-sensor-dht11.rst:116
+msgid ""
+"Modifica el programa anterior para que muestre en el display la medición de "
+"temperatura."
+msgstr ""
+"Modifiqueu el programa anterior per mostrar la mesura de la temperatura a la"
+" pantalla."
+
+#: ../../source/control-sensor-dht11.rst:119
+msgid ""
+"Modifica el programa anterior para que se encienda un led rojo en caso de "
+"superar la temperatura ambiental en 2 grados centígrados."
+msgstr ""
+"Modifiqueu el programa anterior per activar un LED vermell en cas de superar"
+" la temperatura ambient en 2 graus centígrads."
+
+#: ../../source/control-sensor-dht11.rst:122
+msgid ""
+"Comprueba el funcionamiento correcto calentando el sensor. El led rojo debe "
+"mantenerse encendido aunque la temperatura vuelva a bajar."
+msgstr ""
+"Comproveu el funcionament correcte escalfant el sensor. El LED vermell s’ha "
+"de mantenir en marxa fins i tot si la temperatura baixa de nou."
+
+#: ../../source/control-sensor-dht11.rst:126
+msgid ""
+"Modifica el programa anterior para que suene un zumbador cuando la "
+"temperatura sea alta. El zumbador sonará durante unas décimas de segundo "
+"cada segundo. Las instrucciones a utilizar son las siguientes:"
+msgstr ""
+"Modifiqueu el programa anterior per sonar un sonor quan la temperatura és "
+"alta. El timbre sonarà durant unes dècimes cada segon. Les instruccions que "
+"s'han d'utilitzar són les següents:"
+
+#: ../../source/control-sensor-dht11.rst:137
+msgid ""
+"El zumbador dejará de sonar cuando la temperatura vuelva a bajar. Comprueba "
+"el funcionamiento correcto calentando el sensor."
+msgstr ""
+"El timbre deixarà de sonar quan la temperatura caigui de nou. Comproveu el "
+"funcionament correcte escalfant el sensor."
+
+#: ../../source/control-sensor-dht11.rst:141
+msgid ""
+"Modifica el programa anterior para que se encienda un led azul mientras la "
+"medida de temperatura se mantenga baja."
+msgstr ""
+"Modifiqueu el programa anterior per a un LED blau que s’encengui mentre la "
+"mesura de la temperatura es manté baixa."
+
+#: ../../source/control-sensor-dht11.rst:144
+msgid ""
+"El led azul se apagará en caso de que la temperatura medida supere la "
+"temperatura ambiental actual más un grado."
+msgstr ""
+"El LED blau s’apagarà en cas que la temperatura mesurada superi la "
+"temperatura ambient actual més un grau."

@@ -53,13 +53,13 @@ a menos que se indique lo contrario.
 |  https://www.gnu.org/licenses/lgpl-3.0.html
 
 
-Página web
+Sitio web
 ----------
-La página web está creada con `Sphinx <http://sphinx-doc.org/>`__
+El sitio web está creado con `Sphinx <http://sphinx-doc.org/>`__
 usando un `tema <https://github.com/rtfd/sphinx_rtd_theme>`__
 proporcionado por `Read the Docs <https://readthedocs.org/>`__
 
-El logotipo y el nombre de Picuino que aparecen en la página web
+El logotipo y el nombre de Picuino que aparecen en el sitio web
 son una marca registrada.
 
 .. image:: _static/logo-picuino-bgblue-old.png
@@ -68,7 +68,6 @@ son una marca registrada.
 
 Imágenes externas
 -----------------
-
 Las imágenes que se muestran a continuación están tomadas de fuentes
 externas a esta página. Cada imagen muestra junto a ella los créditos.
 

@@ -1,0 +1,190 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-operational-differential.rst:9
+msgid "El amplificador diferencial"
+msgstr "L'amplificador diferencial"
+
+#: ../../source/electronic-operational-differential.rst:10
+msgid ""
+"Este circuito amplificador cuenta con dos entradas simétricas. La diferencia"
+" de tensión entre estas dos entradas se amplifica para producir una salida "
+"con la diferencia amplificada. De ahí el nombre de amplificador diferencial."
+msgstr ""
+"Aquest circuit amplificador té dues entrades simètriques. La diferència de "
+"tensió entre aquestes dues entrades s’amplifica per produir una sortida amb "
+"la diferència amplificada. D’aquí el nom de l’amplificador diferencial."
+
+#: ../../source/electronic-operational-differential.rst:15
+msgid ""
+"La realimentación del circuito es negativa y proviene de la resistencia R2."
+msgstr ""
+"La retroalimentació del circuit és negativa i prové de la resistència R2."
+
+#: ../../source/electronic-operational-differential.rst:23
+msgid "Esquema del amplificador diferencial."
+msgstr "Esquema d’amplificadors diferencials."
+
+#: ../../source/electronic-operational-differential.rst:27
+msgid "Cálculo de ganancia"
+msgstr "Guanyar càlcul"
+
+#: ../../source/electronic-operational-differential.rst:28
+msgid "La fórmula de la ganancia de este amplificador es la siguiente:"
+msgstr "La fórmula de guany d’aquest amplificador és la següent:"
+
+#: ../../source/electronic-operational-differential.rst:30
+msgid "V_{out} = ( V_{in2} - V_{in1} ) \\cdot \\left( \\cfrac{R_2}{R_1} \\right)"
+msgstr "V_{out} = ( V_{in2} - V_{in1} ) \\cdot \\left( \\cfrac{R_2}{R_1} \\right)"
+
+
+#: ../../source/electronic-operational-differential.rst:34
+msgid ""
+"Teniendo en cuenta que la resistencia R1' = R1 y que la resistencia R2' = "
+"R2."
+msgstr ""
+"Tenint en compte que la resistència r1 '= r1 i que la resistència r2' = r2."
+
+#: ../../source/electronic-operational-differential.rst:36
+msgid ""
+"En la práctica es importante que las resistencias R1 y R1' así como R2 y R2'"
+" tengan un valor lo más parecido posible entre sí, para evitar que se "
+"amplifiquen las tensiones comunes de las entradas y que solo se amplifique "
+"la diferencia entre las tensiones de entrada."
+msgstr ""
+"A la pràctica és important que les resistències R1 i R1 'i R2 i R2' tinguin "
+"un valor el més a prop possible, per evitar que les tensions comunes de les "
+"entrades s’amplifiquin i que només s’amplifiqui la diferència entre les "
+"tensions d’entrada."
+
+#: ../../source/electronic-operational-differential.rst:42
+msgid "Resistencia de entrada y de salida"
+msgstr "Resistència a l’entrada i a la sortida"
+
+#: ../../source/electronic-operational-differential.rst:43
+msgid "La resistencia de entrada a la tensión común de entrada vale:"
+msgstr "Val la pena la resistència a l’entrada d’entrada:"
+
+#: ../../source/electronic-operational-differential.rst:45
+msgid "R_{in} = R1 + R2"
+msgstr "R_ {in} = r1 + r2"
+
+#: ../../source/electronic-operational-differential.rst:49
+msgid ""
+"Y la resistencia de entrada a las diferencias de tensión de entrada vale:"
+msgstr "I val la resistència a les diferències de tensió d’entrada:"
+
+#: ../../source/electronic-operational-differential.rst:51
+msgid "R_{in} = 2 \\cdot R1"
+msgstr "R_ {in} = 2 \\ cdot r1"
+
+#: ../../source/electronic-operational-differential.rst:55
+msgid ""
+"La resistencia de salida será muy baja, idealmente cero, porque la salida "
+"está directamente conectada a la salida del amplificador operacional."
+msgstr ""
+"La resistència a la sortida serà molt baixa, idealment zero, perquè la "
+"sortida està directament connectada a la sortida de l'amplificador operatiu."
+
+#: ../../source/electronic-operational-differential.rst:59
+msgid "Simulación"
+msgstr "Simulació"
+
+#: ../../source/electronic-operational-differential.rst:60
+msgid ""
+"En la siguiente simulación podemos ver un amplificador diferencial al que le"
+" llegan dos tensiones de entrada. Una tensión senoidal, V1, de entrada, es "
+"común a ambas entradas y no se amplifica su tensión. La otra tensión "
+"triangular, V2, representa la diferencia entre las dos tensiones de entrada "
+"y sí que se amplifica en la salida."
+msgstr ""
+"A la següent simulació podem veure un amplificador diferencial que arriben "
+"dues tensions d’entrada. Un sinus, V1, la tensió d’entrada és comuna a les "
+"dues entrades i la seva tensió no s’amplifica. L’altra tensió triangular, "
+"V2, representa la diferència entre les dues tensions d’entrada i s’amplifica"
+" a la sortida."
+
+#: ../../source/electronic-operational-differential.rst:74
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-operational-differential.rst:76
+msgid ""
+"Dibuja el esquema de un amplificador diferencial ideal. Añade debajo del "
+"dibujo la fórmula de la ganancia diferencial."
+msgstr ""
+"Dibuixa l’esquema d’un amplificador diferencial ideal. Afegiu la fórmula de "
+"guany diferencial sota el dibuix."
+
+#: ../../source/electronic-operational-differential.rst:79
+msgid ""
+"¿Qué tipo de realimentación tiene el amplificador diferencial? ¿Qué "
+"resistencia lo determina?"
+msgstr ""
+"Quin tipus de retroalimentació té l'amplificador diferencial? Quina "
+"resistència la determina?"
+
+#: ../../source/electronic-operational-differential.rst:82
+msgid ""
+"¿Qué función realiza un amplificador diferencial? ¿Qué es lo que no "
+"amplifica un amplificador diferencial?"
+msgstr ""
+"Quina funció té un amplificador diferencial? Què no amplifica un "
+"amplificador diferencial?"
+
+#: ../../source/electronic-operational-differential.rst:85
+msgid ""
+"Con la fórmula de la ganancia calcula la ganancia que debe tener el "
+"amplificador diferencial simulado."
+msgstr ""
+"Amb la fórmula de guany, calculeu el guany que ha de tenir l’amplificador "
+"diferencial simulat."
+
+#: ../../source/electronic-operational-differential.rst:88
+msgid ""
+"Modifica la simulación del amplificador diferencial de manera que la "
+"resistencia R1 tenga un valor ligeramente inferior, 9k. ¿Qué le ocurre a la "
+"tensión de salida del circuito?"
+msgstr ""
+"Modifica la simulació de l'amplificador diferencial de manera que la "
+"resistència R1 té un valor lleugerament inferior, 9k. Què passa amb la "
+"tensió de sortida del circuit?"
+
+#: ../../source/electronic-operational-differential.rst:92
+msgid ""
+"Con ayuda del `simulador de circuitos "
+"<../circuits/?startCircuit=empty.txt>`__ dibuja un amplificador diferencial "
+"basado en un amplificador operacional ideal. La resistencia de entrada "
+"diferencial debe valer 100k ohmios. La ganancia diferencial debe valer 10."
+msgstr ""
+"Amb l’ajuda del simulador de circuits <../ circuit/? StartCircuit = "
+"buits.txt>`__ dibuixar un amplificador diferencial basat en un amplificador"
+" operatiu ideal. La resistència a l’entrada diferencial ha de valer 100k "
+"ohms. El guany diferencial ha de valer 10."
+
+#: ../../source/electronic-operational-differential.rst:99
+msgid ""
+"Añade un generador de tensión senoidal de 0.1 voltio de pico entre las "
+"entradas. Comprueba que la salida de tensión vale 1 voltio de pico."
+msgstr ""
+"Afegiu un generador de tensió sinoidal de 0,1 volt màxim entre les entrades."
+" Comproveu que la sortida de tensió val 1 volt màxim."

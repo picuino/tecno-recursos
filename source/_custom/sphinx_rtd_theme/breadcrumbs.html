@@ -1,4 +1,5 @@
 {# Support for Sphinx 1.3+ page_source_suffix, but don't break old builds. #}
+{# Support for Sphinx 1.3+ page_source_suffix, but don't break old builds. #}
 
 {% if page_source_suffix %}
 {% set suffix = page_source_suffix %}
@@ -77,9 +78,9 @@
         <a href="{{ prev.link|e }}" class="btn btn-neutral" title="{{ prev.title|striptags|e }}" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       {% endif %}
   </div>
-  {% endif %}
+  {%- endif %}
 
-  {% if language == 'en' %}
+  {% if language == 'en' -%}
   <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
   <strong>Attention:</strong> this page is an automatic translation of the
   original Spanish version. If you'd like to contribute, please
@@ -87,7 +88,15 @@
   with the updated
   <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/en/LC_MESSAGES/{{ conf_py_path }}{{ pagename }}.po" target="_blank">translation file</a>.
   </div>
-  {% endif %}
+  {%- endif  %}
+  {% if language == 'ca' -%}
+  <div style="background-color:#fdd; padding: 6px; margin:12px 0 12px 0">
+  <strong>Atenció:</strong> aquesta pàgina és una traducció automàtica de
+  la versió original en castellà. Si voleu contribuir-hi, poseu-vos en
+  <a href="{{ pathto('contacto') }}" target="_blank">contacte</a> amb l'autor amb el
+  <a href="https://raw.githubusercontent.com/picuino/tecno-recursos/main/locale/ca/LC_MESSAGES/{{ conf_py_path }}{{ pagename }}.po" target="_blank">fitxer de traducció</a> actualitzat.
+  </div>
+  {%- endif  %}
   <hr>
 
 </div>

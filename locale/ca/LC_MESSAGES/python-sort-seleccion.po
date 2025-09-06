@@ -1,0 +1,203 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/python-sort-seleccion.rst:9
+msgid "Ordenación por selección"
+msgstr "Gestió de la selecció"
+
+#: ../../source/python-sort-seleccion.rst:10
+msgid ""
+"Con este algoritmo comenzamos a ver los algoritmos de **ordenación de "
+"datos**. Este tipo de algoritmos permiten ordenar una lista de datos de "
+"menor a mayor. Los ordenadores toman su nombre precisamente de esta "
+"importante función que pueden realizar, ordenar listas de nombres o de "
+"números para facilitar la creación de listados o la posterior búsqueda de "
+"datos."
+msgstr ""
+"Amb aquest algorisme comencem a veure els algoritmes de la gestió de dades "
+"** **. Aquest tipus d’algoritmes us permeten demanar una llista de dades de "
+"menys a més gran. Els ordinadors prenen el seu nom precisament d’aquesta "
+"funció important que poden realitzar, ordenar noms de noms o números per "
+"facilitar la creació de llistes o la cerca de dades posterior."
+
+#: ../../source/python-sort-seleccion.rst:19
+msgid "Algoritmo de selección"
+msgstr "Algoritme de selecció"
+
+#: ../../source/python-sort-seleccion.rst:20
+msgid ""
+"El algoritmo de ordenación consiste en buscar en toda la lista el elemento "
+"más pequeño de todos. En principio comenzamos con el primer elemento de la "
+"lista como el menor. Entonces un bucle compara uno a uno todos los elementos"
+" de la lista con el menor y va seleccionando en cada caso el más pequeño de "
+"todos::"
+msgstr ""
+"L’algoritme de gestió consisteix a buscar a tota la llista l’element més "
+"petit de tots. En principi, comencem amb el primer element de la llista com "
+"a nen. A continuació, un bucle compara un per un tots els elements de la "
+"llista amb el nen i selecciona en cada cas el més petit de tots ::"
+
+#: ../../source/python-sort-seleccion.rst:32
+msgid ""
+"La variable menor valdrá 5, que es la posición del menor elemento, el 1."
+msgstr ""
+"La variable menor valdrà 5, que és la posició de l’element inferior, 1."
+
+#: ../../source/python-sort-seleccion.rst:34
+msgid ""
+"Una vez que hemos encontrado la posición del menor elemento de todos, "
+"intercambiamos ese elemento con el primero de la lista::"
+msgstr ""
+"Un cop hem trobat la posició de l’element més baix de tots, intercanviem "
+"aquest element amb el primer de la llista ::"
+
+#: ../../source/python-sort-seleccion.rst:41
+msgid ""
+"Ahora sabemos que el primer elemento de la lista está ya ordenado al ser el "
+"menor de todos los elementos de la lista."
+msgstr ""
+"Ara sabem que el primer element de la llista ja està ordenat que sigui el "
+"més mínim de tots els elements de la llista."
+
+#: ../../source/python-sort-seleccion.rst:44
+msgid ""
+"Para continuar repetimos el procedimiento, pero con todos los elementos de "
+"la lista a partir de la segunda posición. Esto conseguirá que tengamos el "
+"segundo elemento de la lista ordenado."
+msgstr ""
+"Per continuar repetim el procediment, però amb tots els elements de la "
+"llista des de la segona posició. Això ens permetrà tenir el segon element de"
+" la comanda."
+
+#: ../../source/python-sort-seleccion.rst:48
+msgid ""
+"Repitiendo el procedimiento una y otra vez, vamos ordenando todos los "
+"elementos de la lista desde el primero hasta el penúltimo. Una vez ordenados"
+" todos los elementos menos uno, el último elemento sabemos que será el mayor"
+" de todos y estará al final de la lista, por lo que no será necesario "
+"ordenar el último elemento."
+msgstr ""
+"Repetint el procediment una i altra vegada, estem ordenant tots els elements"
+" de la llista des del primer al penúltim. Un cop tots els elements, excepte "
+"un, l’últim element sabem que serà el més gran de tots i serà al final de la"
+" llista, de manera que no caldrà ordenar l’últim element."
+
+#: ../../source/python-sort-seleccion.rst:56
+msgid "Programa de ordenación I"
+msgstr "Programa de planificació I"
+
+#: ../../source/python-sort-seleccion.rst:57
+msgid ""
+"El programa completo de ordenación de elementos de una lista según el "
+"algoritmo de selección será el siguiente::"
+msgstr ""
+"El programa complet de gestió de programes segons l'algoritme de selecció "
+"serà el següent ::"
+
+#: ../../source/python-sort-seleccion.rst:81
+
+#: ../../source/python-sort-seleccion.rst:124
+
+#: ../../source/python-sort-seleccion.rst:152
+msgid "Salida::"
+msgstr "Sortida ::"
+
+#: ../../source/python-sort-seleccion.rst:87
+msgid "Programa de ordenación II"
+msgstr "Programa de planificació II"
+
+#: ../../source/python-sort-seleccion.rst:88
+msgid ""
+"En esta segunda versión del programa de ordenación se va a alterar un poco "
+"el algoritmo. Después de encontrar el elemento menor de la lista, "
+"desplazaremos hacia la derecha todos los elementos no ordenados por debajo "
+"del menor elemento, dejando un hueco para colocar este en su sitio."
+msgstr ""
+"En aquesta segona versió del programa de gestió, l'algoritme es modificarà "
+"una mica. Després de trobar l’element més petit de la llista, passarem a la "
+"dreta tots els elements no ordenats per sota de l’element inferior, deixant "
+"un forat per col·locar -lo al seu lloc."
+
+#: ../../source/python-sort-seleccion.rst:94
+msgid ""
+"Este algoritmo modificado tiene la ventaja de mantener con su orden original"
+" todos los elementos de la lista que todavía no han sido movidos al comienzo"
+" de la lista::"
+msgstr ""
+"Aquest algorisme modificat té l’avantatge de mantenir amb el seu ordre "
+"original tots els elements de la llista que encara no s’han mogut al "
+"començament de la llista ::"
+
+#: ../../source/python-sort-seleccion.rst:130
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/python-sort-seleccion.rst:132
+msgid ""
+"Reescribe el programa de ordenación I para que ordene los elementos en "
+"sentido contrario, de mayor a menor. Deberás cambiar los nombres de las "
+"funciones y de las variables para que se adapten a la nueva función que "
+"estén realizando."
+msgstr ""
+"Reescriviu el programa de gestió I per ordenar els elements en sentit "
+"contrari, de més alt a més baix. Heu de canviar els noms de les funcions i "
+"variables per adaptar -se a la nova funció que estan fent."
+
+#: ../../source/python-sort-seleccion.rst:138
+msgid ""
+"Reescribe el programa de ordenación II para que comience a ordenar los "
+"elementos por la derecha, comenzando por ordenar el mayor de todos los "
+"elementos, que deberá desplazarse al final de la lista."
+msgstr ""
+"Reescriviu el Programa de Planificació II per començar a ordenar els "
+"elements de la dreta, començant per ordenar el més gran de tots els "
+"elements, que han de moure's al final de la llista."
+
+#: ../../source/python-sort-seleccion.rst:143
+msgid ""
+"Escribe un programa basado en la ordenación por selección que desplace todos"
+" los ceros de una lista a la izquierda. El resto de elementos de la lista "
+"debe mantener el orden que tenía al comienzo::"
+msgstr ""
+"Escriviu un programa basat en la selecció que mogui tots els zeros des d'una"
+" llista a l'esquerra. La resta d’elements de la llista han de mantenir "
+"l’ordre que tenia al principi ::"
+
+#: ../../source/python-sort-seleccion.rst:156
+msgid ""
+"El programa estará basado en el programa de ordenación II. Debe seleccionar "
+"los ceros uno a uno y mover los ceros a la izquierda del todo. Si en algún "
+"momento no encuentra un cero en la lista, entonces el programa terminará."
+msgstr ""
+"El programa es basarà en el programa de planificació II. Heu de seleccionar "
+"el zeros un per un i moure els zeros a l'esquerra. Si en algun moment no "
+"troba un zero a la llista, el programa s’acabarà."
+
+#: ../../source/python-sort-seleccion.rst:163
+msgid ""
+"Escribe un algoritmo de ordenación por selección que ordene las cadenas de "
+"texto por longitud de cadena, de manera que al comienzo se coloquen las "
+"palabras más cortas y al final las más largas::"
+msgstr ""
+"Escriviu un algorisme de gestió de selecció que ordeni les cadenes de text "
+"per longitud de la cadena, de manera que al principi es col·loquen les "
+"paraules més curtes i al final la més llarga ::"

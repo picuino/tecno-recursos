@@ -1,0 +1,269 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-operational-hysteresis.rst:9
+msgid "El comparador con histéresis"
+msgstr "El comparador amb la histèresi"
+
+#: ../../source/electronic-operational-hysteresis.rst:10
+msgid ""
+"El circuito comparador con histéresis utiliza un amplificador operacional "
+"con realimentación **positiva** para conseguir que la comparación tenga dos "
+"valores separados de encendido y de apagado del circuito."
+msgstr ""
+"El circuit comparador amb histèresi utilitza un amplificador operatiu amb "
+"retroalimentació ** positiu ** per obtenir la comparació per tenir dos "
+"valors d’encesa i circuit separats."
+
+#: ../../source/electronic-operational-hysteresis.rst:14
+msgid ""
+"Esta separación entre el valor de encendido y el valor de apagado se "
+"denomina valor de **histéresis**."
+msgstr ""
+"Aquesta separació entre el valor d’encesa i el valor OFF s’anomena ** "
+"histèresi **."
+
+#: ../../source/electronic-operational-hysteresis.rst:22
+msgid "Esquema simplificado de un comparador con histéresis."
+msgstr "Esquema simplificat d’un comparador amb histèresi."
+
+#: ../../source/electronic-operational-hysteresis.rst:25
+msgid "Funcionamiento"
+msgstr "Operació"
+
+#: ../../source/electronic-operational-hysteresis.rst:26
+msgid ""
+"El circuito sin la resistencia R2 funciona igual que un comparador "
+"tradicional, que compara la tensión 'Vin' con la tensión de tierra."
+msgstr ""
+"El circuit sense la resistència R2 funciona igual que un comparador "
+"tradicional, que compara la tensió \"vin\" amb la tensió terrestre."
+
+#: ../../source/electronic-operational-hysteresis.rst:29
+msgid ""
+"Al añadir la resistencia R2, añadimos realimentación positiva, porque R2 va "
+"conectada entre la salida y el terminal de entrada positivo. Esta "
+"realimentación positiva tiene el resultado de reforzar la tensión de salida."
+msgstr ""
+"Afegint resistència R2, afegim comentaris positius, perquè R2 està connectat"
+" entre la sortida i el terminal d’entrada positiva. Aquest feedback positiu "
+"té el resultat de reforçar la tensió de sortida."
+
+#: ../../source/electronic-operational-hysteresis.rst:34
+msgid ""
+"Si la salida es positiva, el terminal de entrada V+ será positivo y la "
+"tensión de entrada Vin tendrá que ser mayor que cero para conseguir que la "
+"salida vuelva a ser negativa."
+msgstr ""
+"Si la sortida és positiva, el terminal d’entrada V+ serà positiu i la tensió"
+" d’entrada VIN haurà de ser superior a zero perquè la sortida torni a ser "
+"negativa."
+
+#: ../../source/electronic-operational-hysteresis.rst:38
+msgid ""
+"Por el contrario si la salida es negativa, el terminal de entrada V+ será "
+"negativo y la tensión de entrada Vin tendrá que ser menor que cero para "
+"conseguir que la salida vuelva a ser positiva."
+msgstr ""
+"Per contra, si la sortida és negativa, el terminal d’entrada V+ serà negatiu"
+" i la tensió d’entrada VIN haurà de ser inferior a zero per aconseguir que "
+"la sortida torni a ser positiva."
+
+#: ../../source/electronic-operational-hysteresis.rst:42
+msgid ""
+"El resultado es una separación entre el valor de entrada que produce una "
+"salida positiva y el valor de entrada que produce una salida negativa."
+msgstr ""
+"El resultat és una separació entre el valor d’entrada que produeix una "
+"sortida positiva i el valor d’entrada que produeix una sortida negativa."
+
+#: ../../source/electronic-operational-hysteresis.rst:46
+msgid "Simulación"
+msgstr "Simulació"
+
+#: ../../source/electronic-operational-hysteresis.rst:47
+msgid ""
+"En la siguiente simulación podemos ver un comparador con histéresis "
+"funcionando como control de una calefacción:"
+msgstr ""
+"En la simulació següent podem veure un comparador amb el funcionament "
+"d’histèresi com a control d’una calefacció:"
+
+#: ../../source/electronic-operational-hysteresis.rst:50
+msgid "El led de salida representa el calefactor calentando el recinto."
+msgstr "El LED de sortida representa el calefactor escalfador del recinte."
+
+#: ../../source/electronic-operational-hysteresis.rst:51
+msgid ""
+"La resistencia R1 representa el termostato en el que podemos cambiar la "
+"temperatura deseada del recinto."
+msgstr ""
+"La resistència R1 representa el termòstat en què podem canviar la "
+"temperatura desitjada del recinte."
+
+#: ../../source/electronic-operational-hysteresis.rst:53
+msgid "La resistencia R3 representa el sensor de temperatura ambiente."
+msgstr "La resistència R3 representa el sensor de temperatura ambient."
+
+#: ../../source/electronic-operational-hysteresis.rst:54
+msgid ""
+"La resistencia R4 aporta realimentación positiva y es la que produce la "
+"histéresis."
+msgstr ""
+"La resistència R4 proporciona una retroalimentació positiva i és el que "
+"produeix histèresi."
+
+#: ../../source/electronic-operational-hysteresis.rst:63
+msgid ""
+"Al aumentar el valor de la temperatura en R3, el led terminará apagándose "
+"para que la temperatura del recinto disminuya."
+msgstr ""
+"En augmentar el valor de temperatura en R3, el LED acabarà extingint de "
+"manera que la temperatura del recinte disminueixi."
+
+#: ../../source/electronic-operational-hysteresis.rst:66
+msgid ""
+"Si en ese caso disminuimos el valor de la temperatura en R3, el led "
+"terminará encendiéndose para que la temperatura del recinto aumente."
+msgstr ""
+"Si en aquest cas disminuïm el valor de la temperatura en R3, el LED acabarà "
+"activant -se de manera que augmenti la temperatura del recinte."
+
+#: ../../source/electronic-operational-hysteresis.rst:69
+msgid ""
+"Si retiramos la resistencia R4, el circuito es un comparador tradicional que"
+" compara la tensión de referencia de R1 con la tensión de R2 y R3, que son "
+"un sensor de temperatura."
+msgstr ""
+"Si eliminem la resistència R4, el circuit és un comparador tradicional que "
+"compara la tensió de referència R1 amb la tensió R2 i R3, que és un sensor "
+"de temperatura."
+
+#: ../../source/electronic-operational-hysteresis.rst:73
+msgid ""
+"Con R4 conectada, las temperaturas de encendido y de apagado no coinciden, "
+"sino que están separadas varios grados, lo que se denomina temperatura de "
+"**histéresis**."
+msgstr ""
+"Amb R4 connectada, l’encesa i les temperatures fora de joc no coincideixen, "
+"però es separen diversos graus, que s’anomena ** temperatura d’histèresi **."
+
+#: ../../source/electronic-operational-hysteresis.rst:77
+msgid ""
+"Si ambas temperaturas de encendido y de apagado coincidieran, la calefacción"
+" se encendería y se apagaría continuamente, con mucha frecuencia, y eso "
+"podría dañarla."
+msgstr ""
+"Si tant les temperatures d’encesa com en desactivació consideren, la "
+"calefacció s’encendria i s’apagaria contínuament, molt sovint, i això podria"
+" danyar -la."
+
+#: ../../source/electronic-operational-hysteresis.rst:83
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-operational-hysteresis.rst:84
+msgid ""
+"¿En qué se diferencia el comparador con histéresis del comparador "
+"tradicional? Explica las diferencias de funcionamiento y de diseño del "
+"circuito."
+msgstr ""
+"Com és el comparador amb la histèresi del comparador tradicional? Expliqueu "
+"les diferències de funcionament i disseny del circuit."
+
+#: ../../source/electronic-operational-hysteresis.rst:88
+msgid "¿Qué es la tensión o la temperatura de histéresis?"
+msgstr "Quina és la tensió o la temperatura de la histèresi?"
+
+#: ../../source/electronic-operational-hysteresis.rst:90
+msgid ""
+"¿Qué es mayor en este circuito simulado, la temperatura de encendido o la "
+"temperatura de apagado?"
+msgstr ""
+"Què hi ha més gran en aquest circuit simulat, la temperatura d’encesa o la "
+"temperatura fora?"
+
+#: ../../source/electronic-operational-hysteresis.rst:93
+msgid ""
+"¿En un refrigerador qué será mayor, la temperatura de encendido o la de "
+"apagado del refrigerador? Justifica tu respuesta."
+msgstr ""
+"En una nevera, què serà més elevada, la temperatura d’il·luminació o la "
+"nevera? Justifiqueu la vostra resposta."
+
+#: ../../source/electronic-operational-hysteresis.rst:96
+msgid ""
+"Simula el cambio de temperatura en el termistor R3 para comprobar cómo se "
+"comporta el circuito. La luz roja del diodo representa el encendido de un "
+"calefactor."
+msgstr ""
+"Simula el canvi de temperatura del termistor R3 per comprovar com es "
+"comporta el circuit. La llum del díode vermell representa l’encesa d’un "
+"escalfador."
+
+#: ../../source/electronic-operational-hysteresis.rst:100
+msgid "¿A qué temperatura se enciende el calefactor?"
+msgstr "A quina temperatura s’encén l’escalfador?"
+
+#: ../../source/electronic-operational-hysteresis.rst:102
+msgid "¿A qué temperatura se apaga el calefactor?"
+msgstr "A quina temperatura s’apaga l’escalfador?"
+
+#: ../../source/electronic-operational-hysteresis.rst:104
+msgid "¿Por qué hay esa diferencia entre ambos?"
+msgstr "Per què hi ha aquesta diferència entre ells?"
+
+#: ../../source/electronic-operational-hysteresis.rst:106
+msgid ""
+"Cambia la resistencia R4 a un valor menor (100k). ¿Qué ocurre con la "
+"histéresis?"
+msgstr ""
+"Canvieu la resistència R4 a un valor inferior (100K). Què passa amb la "
+"histèresi?"
+
+#: ../../source/electronic-operational-hysteresis.rst:109
+msgid ""
+"Cambia la resistencia R4 a un valor mayor (800k). ¿Qué ocurre con la "
+"histéresis?"
+msgstr ""
+"Canvieu la resistència R4 a un valor més gran (800K). Què passa amb la "
+"histèresi?"
+
+#: ../../source/electronic-operational-hysteresis.rst:112
+msgid ""
+"¿Qué ventajas y qué inconvenientes tiene utilizar una menor histéresis en el"
+" circuito calentador?"
+msgstr ""
+"Quins avantatges i quins inconvenients heu d’utilitzar menys histèresi al "
+"circuit de calefacció?"
+
+#: ../../source/electronic-operational-hysteresis.rst:115
+msgid ""
+"Cambia el valor de la resistencia variable R1 para que la calefacción "
+"funcione entre los rangos 20ºC y 22ºC."
+msgstr ""
+"Canvieu el valor de la resistència variable R1 de manera que la calefacció "
+"funcioni entre els intervals de 20ºC i 22ºC."
+
+#: ../../source/electronic-operational-hysteresis.rst:118
+msgid "Mantén la resistencia R4 con el valor de 800k del ejercicio anterior."
+msgstr "Mantingueu la resistència R4 amb el valor de 800K de l'any anterior."

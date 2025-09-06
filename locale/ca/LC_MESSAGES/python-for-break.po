@@ -1,0 +1,160 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/python-for-break.rst:9
+msgid "Sentencia ``break``"
+msgstr "Judici `` Break ''"
+
+#: ../../source/python-for-break.rst:11
+msgid ""
+"La sentencia ``break`` dentro de un bucle ``for`` salta fuera del bucle para"
+" continuar con la siguiente instrucción después del bucle."
+msgstr ""
+"El judici `` break`` dins d’un `` `` salta del bucle per continuar la "
+"següent instrucció després del bucle."
+
+#: ../../source/python-for-break.rst:14
+msgid ""
+"Esta sentencia 'rompe' la ejecución del bucle ``for`` y la termina de forma "
+"inmediata."
+msgstr ""
+"Aquest judici \"trenca\" l'execució del `` per 'i la finalitza "
+"immediatament."
+
+#: ../../source/python-for-break.rst:17
+msgid ""
+"En el siguiente ejemplo un contador desde el número 1 hasta el número 9 se "
+"rompe en el número 5::"
+msgstr ""
+"A l'exemple següent, un comptable del número 1 al número 9 de les pauses del"
+" número 5 ::"
+
+#: ../../source/python-for-break.rst:27 ../../source/python-for-break.rst:46
+msgid "La salida por pantalla del anterior código será la siguiente::"
+msgstr "La sortida de la pantalla serà la següent ::"
+
+#: ../../source/python-for-break.rst:36
+msgid ""
+"En este otro ejemplo, un programa busca el primer número que sea múltiplo de"
+" 5 y múltiplo de 7 entre los primeros 100 números. El programa deja de "
+"buscar cuando encuentra el primer número que cumpla la condición::"
+msgstr ""
+"En aquest altre exemple, un programa busca el primer número que és un "
+"múltiple de 5 i múltiples de 7 entre els primers 100 números. El programa "
+"deixa de cercar quan troba el primer número que compleix la condició ::"
+
+#: ../../source/python-for-break.rst:50
+msgid ""
+"En los bucles ``for`` también se puede utilizar la sentencia ``else``. El "
+"bloque de código dentro de la sentencia ``else`` se ejecutará siempre que el"
+" bucle for termine normalmente y no se ejecutará si el bucle for termina "
+"debido a una sentencia ``break``"
+msgstr ""
+"Als bucles `` per '' el judici també es pot utilitzar `` altres ''. El bloc "
+"de codi dins del `` ele '' rul"
+
+#: ../../source/python-for-break.rst:55
+msgid "Ejemplo::"
+msgstr "Exemple ::"
+
+#: ../../source/python-for-break.rst:64
+msgid ""
+"El ejemplo dará como resultado el número 35, pero si reducimos el rango a "
+"``range(1, 30)`` el resultado nos dirá que no ha encontrado ningún número "
+"divisible por 5 y por 7."
+msgstr ""
+"L’exemple donarà lloc al número 35, però reduïm l’interval a `` rang (1, 30)"
+" `` El resultat ens dirà que no ha trobat cap nombre divisible per 5 i 7."
+
+#: ../../source/python-for-break.rst:70
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/python-for-break.rst:72
+msgid ""
+"Escribe un programa que imprima en pantalla una cuenta hacia atrás desde el "
+"10 hasta el 1. El programa se debe detener al llegar al número 5."
+msgstr ""
+"Escriviu un programa que imprimeixi un compte de 10 a 1. El programa ha de "
+"ser arrestat quan arribi al número 5."
+
+#: ../../source/python-for-break.rst:76 ../../source/python-for-break.rst:92
+
+#: ../../source/python-for-break.rst:110 ../../source/python-for-break.rst:126
+
+#: ../../source/python-for-break.rst:144
+msgid "Pista::"
+msgstr "Pista ::"
+
+#: ../../source/python-for-break.rst:84
+msgid ""
+"Escribe un programa que pida una contraseña un máximo de 4 veces. Si se "
+"acierta la contraseña debe escribir 'Acceso autorizado' y terminar. Si no se"
+" acierta la contraseña las 4 veces, debe escribir 'Acceso no autorizado'."
+msgstr ""
+"Escriviu un programa que demani una contrasenya un màxim de 4 vegades. Si la"
+" contrasenya és correcta, han d'escriure \"accés autoritzat\" i acabar. Si "
+"la contrasenya no té raó 4 vegades, heu d'escriure \"Accés no autoritzat\"."
+
+#: ../../source/python-for-break.rst:89
+msgid ""
+"La validez de la contraseña y del acceso debe escribirse en una variable que"
+" se comprobará al final del bucle."
+msgstr ""
+"La validesa de la contrasenya i l’accés s’ha d’escriure en una variable que "
+"es comprovarà al final del bucle."
+
+#: ../../source/python-for-break.rst:104
+msgid ""
+"Modifica el siguiente programa para que escriba una frase en la pantalla "
+"hasta llegar a la letra número 30, en la que debe dejar de escribir gracias "
+"a una sentencia break."
+msgstr ""
+"Modifiqueu el següent programa per escriure una frase a la pantalla fins "
+"arribar a la lletra número 30, en la qual heu de deixar d’escriure gràcies a"
+" una frase de descans."
+
+#: ../../source/python-for-break.rst:108
+msgid ""
+"Utiliza un contador de letras para saber cuándo debe terminar el bucle."
+msgstr "Utilitzeu una lletra per saber quan ha d’acabar el bucle."
+
+#: ../../source/python-for-break.rst:121
+msgid ""
+"Escribe un programa que vaya sumando todos los números enteros desde el 1 "
+"hasta el 100 y que se detenga cuando la suma sea mayor que 1000. El programa"
+" debe indicar hasta qué número ha sumado y cual es el resultado de la suma."
+msgstr ""
+"Escriviu un programa que afegeixi tots els números sencers d’1 a 100 i "
+"s’aturi quan la suma és superior a 1000. El programa ha d’indicar a quin "
+"nombre s’ha afegit i quin és el resultat de la suma."
+
+#: ../../source/python-for-break.rst:138
+msgid ""
+"Escribe un programa que busque si un número tiene divisores entre el 2 y el "
+"propio número menos uno. En caso de tener algún divisor, escribe en la "
+"pantalla que no es un número primo. En caso contrario escribe que es un "
+"número primo."
+msgstr ""
+"Escriviu un programa que busqui si un número té divisors entre el 2 i el "
+"número menys un. En cas de tenir un divisor, escriu a la pantalla que no és "
+"un número principal. En cas contrari, escriu que és un número principal."

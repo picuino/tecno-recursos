@@ -1,0 +1,196 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-08-29 12:40+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/picuino-uno-led2.rst:7
+msgid "Parpadeo de los LED"
+msgstr "Parpelleig LED"
+
+#: ../../source/picuino-uno-led2.rst:10
+msgid "Objetivos"
+msgstr "Els pendents"
+
+#: ../../source/picuino-uno-led2.rst:11
+msgid "Generar parpadeo de ledes mediante la función ledBlink."
+msgstr "Generar parpelleig de LED mitjançant la funció LEDBLINK."
+
+#: ../../source/picuino-uno-led2.rst:15
+msgid "La función ``ledBlink``"
+msgstr "El `` ledblink '' '"
+
+#: ../../source/picuino-uno-led2.rst:19
+msgid ""
+"Esta función hace parpadear a un led con una cadencia determinada. Sus "
+"parámetros son los siguientes:"
+msgstr ""
+"Aquesta funció parpelleja un LED amb una certa cadència. Els seus paràmetres"
+" són els següents:"
+
+#: ../../source/picuino-uno-led2.rst:22
+msgid ""
+"``ledNum``: led que va a parpadear. Los valores válidos van desde 1 para el "
+"led D1 hasta 8 para el color azul del led D6."
+msgstr ""
+"`` lednum``: LED que parpellejarà. Els valors vàlids oscil·len entre 1 per a"
+" LED D1 a 8 per al color blau del LED D6."
+
+#: ../../source/picuino-uno-led2.rst:25
+msgid ""
+"El led D6 es un led RGB, que integra 3 ledes en su interior. Los números 6, "
+"7, 8 representan respectivamente los colores rojo, verde y azul del led D6."
+msgstr ""
+"El LED D6 és un LED RGB, que integra 3 LEDs al seu interior. Els números 6, "
+"7, 8 representen respectivament els colors vermells, verds i blaus del LED "
+"D6."
+
+#: ../../source/picuino-uno-led2.rst:29
+msgid ""
+"``time_on``: tiempo, en centésimas de segundo, que el led debe permanecer "
+"encendido. Si este parámetro vale cero, el led permanecerá encendido todo el"
+" tiempo."
+msgstr ""
+"`` Temps_on ': temps, en centèsimes de segon, que el LED ha de romandre en "
+"marxa. Si aquest paràmetre val zero, el LED romandrà en tot el temps."
+
+#: ../../source/picuino-uno-led2.rst:34
+msgid ""
+"``time_off``: tiempo, en centésimas de segundo, que el led debe permanecer "
+"apagado."
+msgstr ""
+"`` Temps_off``: temps, en centèsimes de segon, que el LED ha de romandre "
+"fora."
+
+#: ../../source/picuino-uno-led2.rst:39
+msgid ""
+"Cada vez que se ejecuta la función ``ledBlink()``, el led comienza por "
+"encenderse durante el tiempo ``time_on``. Esto puede servir para sincronizar"
+" el comienzo del parpadeo de un led. Si la función se ejecuta repetidamente "
+"cada poco tiempo, el led permanecerá todo el tiempo encendido, puesto que "
+"antes de llegar a apagarse, el parpadeo se reinicia una y otra vez."
+msgstr ""
+"Cada vegada que el `` `` `` `` `` ledblink () ``, el LED comença a "
+"il·luminar -se durant el temps `` temps_on ''. Es pot utilitzar per "
+"sincronitzar l’inici del parpelleig d’un LED. Si la funció s’executa "
+"repetidament, el LED romandrà en tot el temps, ja que abans que s’apagui, el"
+" parpelleig es reinicia una i altra vegada."
+
+#: ../../source/picuino-uno-led2.rst:49
+msgid "Parpadeo del led D1"
+msgstr "LED D1 Flash"
+
+#: ../../source/picuino-uno-led2.rst:51
+msgid ""
+"En este ejemplo se desea hacer parpadear al led D1 con un tiempo encendido "
+"de medio segundo y un tiempo apagado de medio segundo. El período de "
+"parpadeo será por lo tanto de un segundo. En este caso la función se dará "
+"desde el bloque ``setup()`` una sola vez."
+msgstr ""
+"En aquest exemple, voleu parpellejar a la LED D1 amb un temps a mig segon i "
+"un temps de mig segon. Per tant, el període parpelleig serà de segon. En "
+"aquest cas, la funció es donarà a la `` configuració () `` `` `` `"
+
+#: ../../source/picuino-uno-led2.rst:76
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/picuino-uno-led2.rst:77
+msgid "Programa el código necesario para resolver los siguientes problemas."
+msgstr "Programa el codi necessari per resoldre els problemes següents."
+
+#: ../../source/picuino-uno-led2.rst:79
+msgid ""
+"Hacer parpadear el led D1 y el led D4 con una frecuencia de un segundo. Los "
+"dos ledes se deben encender y apagar al mismo tiempo. Utilizar la función "
+"``ledBlink()``."
+msgstr ""
+"Fick el LED D1 i el D4 LED amb una freqüència de segon. Els dos LED s’han "
+"d’encendre i desactivar alhora. Utilitzeu el `` ledblink () ``."
+
+#: ../../source/picuino-uno-led2.rst:84
+msgid ""
+"Modificar el ejercicio anterior para que el encendido de los dos ledes D1 y "
+"D4 sea alternativo, de manera que solo un led esté encendido en cada "
+"momento. El tiempo de encendido de cada led será de medio segundo."
+msgstr ""
+"Modifiqueu l'exercici anterior de manera que l'encesa dels dos LED D1 i D4 "
+"sigui alternativa, de manera que només un LED està en tot moment. El temps "
+"d’encesa de cada LED serà mig segon."
+
+#: ../../source/picuino-uno-led2.rst:89
+msgid ""
+"Hacer parpadear dos led a la vez con una frecuencia de un segundo. El led D1"
+" se programará con la función ``ledBlink(1, 50, 50)``, por el contrario el "
+"led D3 se programará con la función ``ledWrite()``. Primero comenzará a "
+"parpadear el led D1 y, pasado un segundo, lo hará el led D3. Se deben "
+"sincronizar los dos ledes para que parpadeen a la vez ajustando los tiempos "
+"de encendido y apagado con la función ``delay()``."
+msgstr ""
+"Feu que dos LED flaixin alhora amb una freqüència de segon. El LED D1 es "
+"programarà amb el `` ledblink (1, 50, 50) ``, al contrari, el LED D3 es "
+"programarà amb el `` ledWrite () ``. Primer, el LED D1 començarà a "
+"parpellejar i, al cap d'un segon, el LED D3 ho farà. Els dos LED s’han de "
+"sincronitzar per parpellejar alhora ajustant els temps d’encesa i "
+"desactivació amb la funció `` retard () `."
+
+#: ../../source/picuino-uno-led2.rst:99
+msgid ""
+"Corregir los errores sintácticos del siguiente programa para conseguir que "
+"funcione correctamente."
+msgstr ""
+"Corregiu els errors sintàctics del programa següent per fer -lo funcionar "
+"correctament."
+
+#: ../../source/picuino-uno-led2.rst:133
+msgid ""
+"Hacer parpadear a un led de manera que se encienda durante una décima de "
+"segundo cada diez segundos, para indicar que el módulo está encendido "
+"gastando muy poca corriente eléctrica."
+msgstr ""
+"Feu un flaix LED d’una manera que s’encengui durant una desena de segon cada"
+" deu segons, per indicar que el mòdul està gastant molt poc corrent "
+"elèctric."
+
+#: ../../source/picuino-uno-led2.rst:137
+msgid ""
+"Hacer parpadear a un led de manera que se encienda durante dos décimas de "
+"segundo, cada segundo."
+msgstr ""
+"Feu un flaix LED d’una manera que s’encengui durant dues dècimes de segon, "
+"cada segon."
+
+#: ../../source/picuino-uno-led2.rst:140
+msgid ""
+"Los seis primeros ledes se deben encender en secuencia de manera que "
+"comience por encenderse el led D1 y termine por encenderse el led D6. entre "
+"el encendido de un led y el siguiente debe pasar entre 250 y 500 milésimas "
+"de segundo. Una vez que todos los ledes estén encendidos, comenzarán a "
+"apagarse por el led D1 hasta que todos estén apagados. Nota: Para resolver "
+"este problema, se debe utilizar solo una función ``ledBlink()`` por cada "
+"led, junto con una función ``delay()`` para esperar un tiempo entre un "
+"encendido y el siguiente."
+msgstr ""
+"Els primers sis LED s’han d’encendre en seqüència de manera que el LED D1 "
+"s’encengui i acabi en el LED D6. Entre l’encesa d’un LED i el següent ha de "
+"passar entre 250 i 500 mil·lèsimes de segon. Un cop s’encenguin tots els "
+"LED, començaran a sortir pel LED D1 fins que tothom estigui apagat. Nota: "
+"Per resoldre aquest problema, només s'ha d'utilitzar una funció `` ledBlink "
+"() `` per a cada LED, juntament amb una funció `` `` `` `` `` `` `` `` `` ``"
+" `` `` `` `` `` `` `"

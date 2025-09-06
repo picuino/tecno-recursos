@@ -1,0 +1,195 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electronic-operational-inverting.rst:9
+msgid "El amplificador inversor"
+msgstr "L'amplificador d'inversions"
+
+#: ../../source/electronic-operational-inverting.rst:10
+msgid ""
+"En este circuito el amplificador operacional invierte y amplifica la señal "
+"de entrada."
+msgstr ""
+"En aquest circuit, l'amplificador operatiu inverteix i amplifica el senyal "
+"d'entrada."
+
+#: ../../source/electronic-operational-inverting.rst:13
+msgid ""
+"El amplificador inversor tiene realimentación negativa porque la tensión de "
+"salida produce una corriente que llega al terminal de entrada negativo a "
+"través de la resistencia R2."
+msgstr ""
+"L’amplificador d’inversions té una retroalimentació negativa perquè la "
+"tensió de sortida produeix un corrent que arriba al terminal d’entrada "
+"negativa mitjançant la resistència R2."
+
+#: ../../source/electronic-operational-inverting.rst:22
+msgid "Esquema del amplificador operacional inversor."
+msgstr "Esquema d'amplificadors operatius d'inversor."
+
+#: ../../source/electronic-operational-inverting.rst:26
+msgid "Cálculo de ganancia"
+msgstr "Guanyar càlcul"
+
+#: ../../source/electronic-operational-inverting.rst:27
+msgid "La fórmula de la ganancia de este amplificador es la siguiente:"
+msgstr "La fórmula de guany d’aquest amplificador és la següent:"
+
+#: ../../source/electronic-operational-inverting.rst:29
+msgid "Ganancia = \\cfrac{V_{out}}{V_{in}} = - \\cfrac{R_2}{R_1}"
+msgstr "Profit = \\cfrac{v_ {out}} {v_ {in}} = - \\cfrac{r_2} {r_1}"
+
+#: ../../source/electronic-operational-inverting.rst:33
+msgid ""
+"Para calcular la ganancia de este esquema debemos tener en cuenta que con "
+"realimentación negativa las dos entradas ``-`` y ``+`` tendrán la misma "
+"tensión. Esto significa que la tensión de la entrada ``-`` será igual a "
+"cero, puesto que la entrada ``+`` está conectada a tierra."
+msgstr ""
+"Per calcular el guany d’aquest esquema, hem de tenir en compte que, amb la "
+"retroalimentació negativa, les dues entrades `` `i '+` `tindran la mateixa "
+"tensió. Això significa que la tensió de l’entrada `` `serà igual a zero, ja "
+"que l’entrada` `+` `es basa."
+
+#: ../../source/electronic-operational-inverting.rst:39
+msgid ""
+"A partir de esta premisa, la corriente de entrada será igual a Vin / R1. Esa"
+" misma corriente será la que circule por R2, puesto que por la entrada del "
+"amplificador operacional no circula corriente. En ese caso la tensión en R2 "
+"será igual a la corriente por la resistencia Vout = R2 · Vin / R1. "
+"Reordenando conseguimos la ecuación anterior de la ganancia."
+msgstr ""
+"A partir d'aquesta premissa, el corrent d'entrada serà igual a VIN / R1. "
+"Aquest mateix corrent serà el que circula per R2, ja que l’entrada de "
+"l’amplificador operatiu no circula el corrent. En aquest cas, la tensió en "
+"R2 serà igual al corrent per la resistència VOUT = R2 · VIN / R1. "
+"Reordenació Obtenim l’equació anterior del guany."
+
+#: ../../source/electronic-operational-inverting.rst:47
+msgid "Resistencia de entrada y de salida"
+msgstr "Resistència a l’entrada i a la sortida"
+
+#: ../../source/electronic-operational-inverting.rst:48
+msgid "La resistencia de entrada será igual a la resistencia R1."
+msgstr "La resistència a l’entrada serà igual a la resistència R1."
+
+#: ../../source/electronic-operational-inverting.rst:50
+msgid ""
+"La resistencia de salida será muy baja, idealmente cero, porque la salida "
+"está directamente conectada a la salida del amplificador operacional."
+msgstr ""
+"La resistència a la sortida serà molt baixa, idealment zero, perquè la "
+"sortida està directament connectada a la sortida de l'amplificador operatiu."
+
+#: ../../source/electronic-operational-inverting.rst:55
+msgid "Simulación"
+msgstr "Simulació"
+
+#: ../../source/electronic-operational-inverting.rst:56
+msgid ""
+"En la siguiente simulación podemos ver un amplificador inversor de ganancia "
+"5 que amplifica una pequeña señal senoidal de entrada."
+msgstr ""
+"A la següent simulació podem veure un amplificador d’inversor de guany 5 que"
+" amplifica un petit senyal sinusogràfic d’entrada."
+
+#: ../../source/electronic-operational-inverting.rst:67
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-operational-inverting.rst:69
+msgid ""
+"Dibuja el esquema simplificado de un amplificador operacional inversor."
+msgstr "Dibuixa l’esquema simplificat d’un amplificador operatiu invertit."
+
+#: ../../source/electronic-operational-inverting.rst:71
+msgid ""
+"Escribe la fórmula de la ganancia del amplificador operacional inversor "
+"anterior."
+msgstr ""
+"Escriviu la fórmula de guany de l'amplificador operatiu dels inversors "
+"anterior."
+
+#: ../../source/electronic-operational-inverting.rst:74
+msgid ""
+"¿Qué tipo de realimentación tiene este circuito? ¿Qué les ocurre a las "
+"tensiones de entrada con ese tipo de realimentación?"
+msgstr ""
+"Quin tipus de comentaris té aquest circuit? Què passa amb les tensions "
+"d’entrada amb aquest tipus de comentaris?"
+
+#: ../../source/electronic-operational-inverting.rst:78
+msgid ""
+"Dibuja dos gráficas que representen la tensión de entrada y la tensión de "
+"salida del amplificador inversor simulado."
+msgstr ""
+"Dibuixa dos gràfics que representen la tensió d’entrada i la tensió de "
+"sortida de l’amplificador d’inversions simulades."
+
+#: ../../source/electronic-operational-inverting.rst:81
+msgid ""
+"¿Qué tensiones de pico tienen cada una de las dos gráficas representadas? "
+"Puedes parar la simulación y ampliar a pantalla completa para medir con más "
+"precisión."
+msgstr ""
+"Quines tensions màximes tenen cadascun dels dos gràfics? Podeu aturar la "
+"simulació i ampliar la pantalla completa per mesurar més precisió."
+
+#: ../../source/electronic-operational-inverting.rst:86
+msgid ""
+"Calcula las resistencias necesarias para hacer que un amplificador "
+"operacional inversor tenga una resistencia de entrada de 1000 Ohmios y una "
+"ganancia de tensión igual a -100."
+msgstr ""
+"Calculeu les resistències necessàries per fer un amplificador operatiu "
+"invertit que tingui una resistència d’entrada de 1000 ohms i un guany de "
+"tensió igual a -100."
+
+#: ../../source/electronic-operational-inverting.rst:90
+msgid ""
+"Dibuja un esquema realista de este amplificador, con una alimentación de +-6"
+" voltios y una entrada de tensión senoidal de 0.1 voltios."
+msgstr ""
+"Dibuixa un esquema realista d’aquest amplificador, amb un aliment de +-6 "
+"volts i un sinus de 0,1 volts."
+
+#: ../../source/electronic-operational-inverting.rst:93
+msgid ""
+"Con ayuda del `simulador de circuitos "
+"<../circuits/?startCircuit=empty.txt>`__ dibuja el esquema de un "
+"amplificador operacional inversor basado en un amplificador operacional real"
+" (LM324) que amplifique la señal de un generador de tensión de onda cuadrada"
+" con una tensión de pico de 1 voltio. La ganancia de tensión debe valer 2."
+msgstr ""
+"Amb l’ajuda del simulador de circuits <../ Circuits/? StartCircuit = "
+"buits.txt>`__ dibuixar l'esquema d'un amplificador operatiu invertidor "
+"basat en un amplificador operatiu real (LM324) que amplifica el senyal d'un "
+"generador de tensió d'ona quadrada amb una tensió màxima d'1 vol. El guany "
+"de tensió ha de valer 2."
+
+#: ../../source/electronic-operational-inverting.rst:102
+msgid ""
+"Grafica en el mismo osciloscopio la señal de tensión del generador y la "
+"señal de tensión de salida del amplificador operacional."
+msgstr ""
+"Gràfic al mateix oscil·loscopi El senyal de tensió del generador i el senyal"
+" de tensió de sortida de l'amplificador operatiu."

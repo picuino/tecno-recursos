@@ -1,0 +1,246 @@
+#
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the Creative Commons BY-SA 4.0 License
+# https://creativecommons.org/licenses/by-sa/4.0/deed.en
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-01-13 17:26+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:ca"
+"Language-Team:ca <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+#: ../../source/electronic-bjt-common-c.rst:9
+msgid "El transistor en colector común"
+msgstr "El transistor del col·leccionista comú"
+
+#: ../../source/electronic-bjt-common-c.rst:10
+msgid ""
+"Al transistor en colector común también se le llama habitualmente **seguidor"
+" de emisor**."
+msgstr ""
+"El transistor del col·leccionista comú també sol anomenar -se ** seguidor "
+"emissor **."
+
+#: ../../source/electronic-bjt-common-c.rst:13
+msgid ""
+"En esta configuración el transistor tiene el colector conectado a la tensión"
+" positiva. La señal de entrada llega por la base del transistor y la señal "
+"amplificada sale por el emisor del transistor."
+msgstr ""
+"En aquesta configuració, el transistor té el col·lector connectat a la "
+"tensió positiva. El senyal d’entrada arriba per la base del transistor i el "
+"senyal amplificat surt de l’emissor del transistor."
+
+#: ../../source/electronic-bjt-common-c.rst:22
+msgid ""
+"Esquema simplificado de un transistor NPN en colector común o también "
+"conocido como \"seguidor de emisor\"."
+msgstr ""
+"Esquema simplificat d’un transistor NPN en un col·leccionista comú o també "
+"conegut com \\ \"Emissuer Follower \"."
+
+#: ../../source/electronic-bjt-common-c.rst:25
+msgid ""
+"Esta configuración permite amplificar la corriente de entrada manteniendo la"
+" tensión sin cambios. La tensión de salida, por lo tanto, será prácticamente"
+" la misma que la tensión de entrada, menos la tensión del diodo de base a "
+"emisor que se mantiene en un valor alrededor de 0.65 voltios."
+msgstr ""
+"Aquesta configuració permet amplificar el corrent d’entrada mantenint la "
+"tensió sense canvis. La tensió de sortida, per tant, serà pràcticament la "
+"mateixa que la tensió d’entrada, excepte la tensió del díode base emissor "
+"que es manté a un valor d’uns 0,65 volts."
+
+#: ../../source/electronic-bjt-common-c.rst:31
+msgid ""
+"Este funcionamiento es útil en las etapas de salida de los circuitos, donde "
+"es necesaria una corriente alta, por ejemplo, para mover un altavoz."
+msgstr ""
+"Aquesta operació és útil en les etapes de sortida del circuit, on un corrent"
+" alt és necessari, per exemple, per moure un altaveu."
+
+#: ../../source/electronic-bjt-common-c.rst:34
+msgid ""
+"A continuación puede verse una simulación de un transistor NPN en "
+"configuración de colector común. El transistor amplifica una señal que entra"
+" por la base generando una señal con mucha mayor corriente por el emisor."
+msgstr ""
+"A continuació, es pot veure una simulació d’un transistor NPN en la "
+"configuració del col·leccionista comú. El transistor amplifica un senyal que"
+" entra a través de la base generant un senyal amb un corrent molt més gran "
+"per l'emissor."
+
+#: ../../source/electronic-bjt-common-c.rst:46
+msgid "La función de cada uno de los componentes es la siguiente:"
+msgstr "La funció de cadascun dels components és la següent:"
+
+#: ../../source/electronic-bjt-common-c.rst:48
+msgid ""
+"El **generador de señal alterna** genera una señal de entrada de 2 voltios "
+"de pico."
+msgstr ""
+"El generador de senyal alternatiu ** ** genera un senyal d’entrada de 2 "
+"volts màxims."
+
+#: ../../source/electronic-bjt-common-c.rst:51
+msgid ""
+"El **condensador C1** tiene como función llevar la señal alterna desde el "
+"generador hasta la base del transistor, eliminando la señal de corriente "
+"continua."
+msgstr ""
+"El condensador ** C1 ** té la funció de portar el senyal alternatiu del "
+"generador a la base del transistor, eliminant el senyal de corrent continu."
+
+#: ../../source/electronic-bjt-common-c.rst:55
+msgid ""
+"El efecto práctico consiste en que la tensión en el generador varía en torno"
+" a cero voltios y la tensión en la base del transistor varía en torno a los "
+"3 voltios."
+msgstr ""
+"L’efecte pràctic és que la tensió del generador varia al voltant de zero "
+"volts i la tensió a la base del transistor varia al voltant dels 3 volts."
+
+#: ../../source/electronic-bjt-common-c.rst:59
+msgid ""
+"La **resistencia R2** añade a la base una pequeña corriente continua para "
+"que el transistor pueda funcionar. Esta corriente positiva que se suma en la"
+" base se denomina **corriente de polarización**."
+msgstr ""
+"La resistència ** R2 ** afegeix a la base un petit corrent directe perquè el"
+" transistor pugui funcionar. Aquest corrent positiu que s’afegeix a la base "
+"s’anomena ** corrent de polarització **."
+
+#: ../../source/electronic-bjt-common-c.rst:64
+msgid ""
+"Hay que tener en cuenta que el transistor solo puede amplificar corrientes "
+"positivas, por lo que es necesario sumar una pequeña corriente positiva a la"
+" corriente alterna de entrada (positiva y negativa) para que el transistor "
+"funcione correctamente."
+msgstr ""
+"Tingueu en compte que el transistor només pot amplificar els corrents "
+"positius, de manera que cal afegir un petit corrent positiu al corrent "
+"d’entrada (positiu i negatiu) de manera que el transistor funcioni "
+"correctament."
+
+#: ../../source/electronic-bjt-common-c.rst:69
+msgid ""
+"El **transistor NPN** recibe una señal de tensión por la base con poca "
+"corriente y mantiene en el emisor esa misma tensión, menos la tensión de "
+"unos 0.65 voltios que siempre hay entre base y emisor."
+msgstr ""
+"El transistor ** npn ** rep un senyal de tensió per la base amb poc corrent "
+"i manté a l’emissor aquesta mateixa tensió, excepte la tensió d’uns 0,65 "
+"volts que sempre es troben entre la base i l’emissor."
+
+#: ../../source/electronic-bjt-common-c.rst:73
+msgid ""
+"La corriente que llega por la base se amplifica para que circule, "
+"multiplicada, por el colector y por el emisor."
+msgstr ""
+"El corrent que arriba per la base s’amplifica per circular, multiplicar -se,"
+" pel col·leccionista i per l’emissor."
+
+#: ../../source/electronic-bjt-common-c.rst:76
+msgid ""
+"La **resistencia R3** recibe la corriente del emisor y la convierte en "
+"tensión de salida."
+msgstr ""
+"La resistència ** R3 ** rep el corrent de l'emissor i el converteix en "
+"tensió de sortida."
+
+#: ../../source/electronic-bjt-common-c.rst:79
+msgid ""
+"Por esta resistencia circulará unas 100 veces la corriente que circula por "
+"la base del transistor."
+msgstr ""
+"El corrent que circula per la base del transistor circularà per aquesta "
+"resistència."
+
+#: ../../source/electronic-bjt-common-c.rst:84
+msgid "Ejercicios"
+msgstr "Exercicis"
+
+#: ../../source/electronic-bjt-common-c.rst:86
+msgid ""
+"Dibuja un esquema simplificado de un transistor NPN trabajando en "
+"configuración de colector común, mostrando por dónde llega la señal de "
+"entrada y por dónde sale la señal amplificada."
+msgstr ""
+"Dibuixa un esquema simplificat d’un transistor NPN que funciona en la "
+"configuració del col·leccionista comú, mostrant on es fa el senyal d’entrada"
+" i on surt el senyal amplificat."
+
+#: ../../source/electronic-bjt-common-c.rst:90
+msgid ""
+"Dibuja un esquema realista de un transistor NPN trabajando en configuración "
+"de colector común."
+msgstr ""
+"Dibuixa un esquema realista d’un transistor NPN que treballa en la "
+"configuració del col·leccionista comú."
+
+#: ../../source/electronic-bjt-common-c.rst:93
+msgid ""
+"¿Cuál es la función principal de un transistor funcionando en configuración "
+"de colector común?"
+msgstr ""
+"Quina és la funció principal d’un transistor que funciona en la configuració"
+" del col·leccionista comuna?"
+
+#: ../../source/electronic-bjt-common-c.rst:96
+msgid ""
+"Dibuja una gráfica con la tensión del generador y la tensión de salida. ¿Qué"
+" diferencia puedes observar entre las gráficas?"
+msgstr ""
+"Dibuixeu un gràfic amb la tensió i la tensió de sortida del generador. Quina"
+" diferència podeu veure entre els gràfics?"
+
+#: ../../source/electronic-bjt-common-c.rst:100
+msgid ""
+"Modifica el valor de la resistencia R2 para que valga 20kOhm. Dibuja la "
+"gráfica de la tensión de salida."
+msgstr ""
+"Modifiqueu el valor de la resistència R2 per valer 20kohm. Dibuixeu el "
+"gràfic de la tensió de sortida."
+
+#: ../../source/electronic-bjt-common-c.rst:103
+msgid ""
+"¿Qué le ocurre a la tensión de salida cuando la resistencia R2 aumenta?"
+msgstr "Què passa amb la tensió de sortida quan augmenta la resistència R2?"
+
+#: ../../source/electronic-bjt-common-c.rst:106
+msgid ""
+"Modifica el valor de la resistencia R2 para que valga 4kOhm. Dibuja la "
+"gráfica de la tensión de salida."
+msgstr ""
+"Modifiqueu el valor de la resistència R2 per valer 4kohm. Dibuixeu el gràfic"
+" de la tensió de sortida."
+
+#: ../../source/electronic-bjt-common-c.rst:109
+msgid ""
+"¿Qué le ocurre a la tensión de salida cuando la resistencia R2 disminuye?"
+msgstr "Què passa amb la tensió de sortida quan disminueix la resistència R2?"
+
+#: ../../source/electronic-bjt-common-c.rst:112
+msgid ""
+"Cambia en el simulador el valor de la resistencia de salida R3 a 1000 "
+"Ohmios."
+msgstr ""
+"Canvieu el valor de la resistència de sortida R3 a 1000 ohms al simulador."
+
+#: ../../source/electronic-bjt-common-c.rst:115
+msgid ""
+"Cambia el valor de la resistencia R2 de manera que la tensión de salida "
+"varíe entre 1 voltio y 5 voltios."
+msgstr ""
+"Canvieu el valor de resistència R2 de manera que la tensió de sortida varia "
+"entre 1 vol i 5 volts."

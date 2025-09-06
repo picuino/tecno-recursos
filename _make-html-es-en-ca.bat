@@ -10,6 +10,9 @@ echo.
 sphinx-build -b html -D language="en" source _build/html/en
 echo.
 
+sphinx-build -b html -D language="ca" source _build/html/ca
+echo.
+
 python source/_custom/sitemap.py "_build/html"
 
 
