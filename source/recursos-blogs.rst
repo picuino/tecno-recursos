@@ -6,8 +6,8 @@
 
 .. _recursos-blogs:
 
-Blogs y webs de Tecnología para Secundaria
-==========================================
+Blogs y webs sobre tecnología
+=============================
 
 Ranking de blogs y páginas web de Tecnología para Educación Secundaria.
 

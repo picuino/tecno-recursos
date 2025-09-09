@@ -8,7 +8,7 @@
 Arandela
 ========
 En este tutorial vamos a programar una arandela compuesta por un cuerpo
-redondedo y dos taladros.
+redondeado y dos taladros.
 
 .. image:: blockscad/_images/blockscad-arandela-3d.jpg
    :alt: Arandela en 3D.

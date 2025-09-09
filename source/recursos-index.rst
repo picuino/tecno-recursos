@@ -18,6 +18,8 @@ Otros recursos para tecnología
 
    recursos-copyright.rst
    recursos-blogs.rst
+   recursos-libros.rst
+   recursos-peliculas.rst
    recursos-libro-4eso-tecno.rst
    recursos-cuaderno-notas.rst
    recursos-sopa-letras.rst
