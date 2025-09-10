@@ -45,8 +45,8 @@ Recursos para la placa Micro Bit
 #. `Micro:bit. Resumen de la placa.
    <https://www.microbit.org/es-es/get-started/features/overview/>`__
 
-#. `Micro:bit. Projects.
-   <https://www.microbit.org/projects/make-it-code-it/>`__
+#. `Micro:bit. Proyectos.
+   <https://www.microbit.org/es-es/projects/make-it-code-it/>`__
 
 #. `Micro:bit. Lessons.
    <https://www.microbit.org/teach/lessons>`__

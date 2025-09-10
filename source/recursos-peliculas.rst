@@ -149,8 +149,8 @@ Películas biográficas
 
 
 
-Películas sobre IA
-------------------
+Películas sobre robótica
+------------------------
 
 "M3GAN" (2023)
    102 minutos.
@@ -195,6 +195,17 @@ Películas sobre IA
    redefine la experiencia emocional y las relaciones personales
 
 
+"Yo, robot" (2004)
+   115 minutos.
+   Puntuación: `7,1 en IMDb <https://www.imdb.com/es-es/title/tt0343818/>`__.
+
+   La película se ambienta en Chicago, año 2035, donde los robots sirven
+   a la humanidad bajo estrictas leyes de seguridad. El detective Spooner
+   investiga el asesinato de un científico y descubre una rebelión de
+   máquinas, liderada por el robot Sonny y la supercomputadora V.I.K.I.,
+   cuestionando los límites de la inteligencia artificial y la ética.
+
+
 "A.I. Inteligencia artificial" (2001)
    146 minutos.
    Puntuación: `7,2 en IMDb <https://www.imdb.com/es-es/title/tt0212720/>`__.
@@ -204,6 +215,17 @@ Películas sobre IA
    Cuando el hijo biológico se recupera, David es abandonado y emprende
    un viaje para encontrar su lugar y el amor verdadero, enfrentando un
    mundo hostil donde la línea entre máquina y humanidad se difumina.
+
+
+"El hombre bicentenario" (1999)
+   132 minutos.
+   Puntuación: `6,9 en IMDb <https://www.imdb.com/es-es/title/tt0215072/>`__.
+
+   La película narra la vida de Andrew, un robot que busca ser reconocido
+   como humano. A lo largo de dos siglos, experimenta emociones,
+   creatividad y amor, enfrentando dilemas éticos y legales sobre
+   identidad y mortalidad. Es una reflexión emotiva sobre la humanidad,
+   la libertad y el significado de vivir.
 
 
 
@@ -287,6 +309,39 @@ Películas documentales
    basándose en entrevistas con expertos de la industria tecnológica.
 
 
+"AlphaGo" (2017)
+   90 minutos.
+   Puntuación: `7,8 en IMDb <https://www.imdb.com/es-es/title/tt6700846/>`__.
+
+   El documental narra el enfrentamiento entre el campeón mundial de Go,
+   Lee Sedol, y el sistema de inteligencia artificial creado por Google
+   DeepMind. La partida histórica puso a prueba los límites de la
+   creatividad humana frente al cálculo algorítmico, sorprendiendo al
+   mundo cuando la máquina logró vencer en un juego considerado demasiado
+   complejo para ser dominado por la IA. La película muestra tanto el
+   aspecto tecnológico como el humano del desafío, planteando preguntas
+   sobre la naturaleza de la inteligencia, la creatividad y el futuro
+   de la relación entre humanos y máquinas.
+
+
+"Minecraft: The Story of Mojang" (2012)
+   102 minutos.
+   Puntuación: `7,0 en IMDb <https://www.imdb.com/es-es/title/tt2087878/>`__.
+
+   El documental narra los inicios del estudio Mojang AB, desde la
+   concepción de Minecraft hasta su explosión global.
+   Se centra en su primer año de vida como compañía independiente,
+   destacando el papel de su fundador Markus "Notch" Persson, así como
+   entrevistas con figuras clave de la industria como Peter Molyneux,
+   Tim Schafer y periodistas como Geoff Keighley.
+   También incluye testimonios de la comunidad de jugadores como
+   Yogscast, The Shaft o Minecraft Teacher, quienes reflejan el impacto
+   del juego. Financiado mediante Kickstarter, el documental fue
+   producido por 2 Player Productions y dirigido por Paul Owens.
+   Disponible en múltiples plataformas como descarga digital y en
+   `YouTube <https://www.youtube-nocookie.com/embed/1rOUfNa7dxM>`__.
+
+
 "Home" (2009)
    118 minutos.
    Puntuación: `8,2 en IMDb <https://www.imdb.com/es-es/title/tt1014762/>`__.
@@ -302,8 +357,8 @@ Películas documentales
 
 
 
-Películas generales
--------------------
+Películas de ciencia ficción
+----------------------------
 
 "El juego de Ender" (2013)
    114 minutos.
@@ -323,17 +378,6 @@ Películas generales
    Un astronauta solitario en una estación lunar descubre que su realidad
    está siendo manipulada por una inteligencia artificial, lo que plantea
    cuestiones filosóficas sobre la autonomía y la identidad.
-
-
-"Yo, robot" (2004)
-   115 minutos.
-   Puntuación: `7,1 en IMDb <https://www.imdb.com/es-es/title/tt0343818/>`__.
-
-   La película se ambienta en Chicago, año 2035, donde los robots sirven
-   a la humanidad bajo estrictas leyes de seguridad. El detective Spooner
-   investiga el asesinato de un científico y descubre una rebelión de
-   máquinas, liderada por el robot Sonny y la supercomputadora V.I.K.I.,
-   cuestionando los límites de la inteligencia artificial y la ética.
 
 
 "Minority Report" (2002)
@@ -359,15 +403,13 @@ Películas generales
    en un clásico influyente y atemporal.
 
 
-"El hombre bicentenario" (1999)
-   132 minutos.
-   Puntuación: `6,9 en IMDb <https://www.imdb.com/es-es/title/tt0215072/>`__.
+"Gattaca" (1997)
+   106 minutos.
+   Puntuación: `7,8 en IMDb <https://www.imdb.com/es-es/title/tt0119177/>`__.
 
-   La película narra la vida de Andrew, un robot que busca ser reconocido
-   como humano. A lo largo de dos siglos, experimenta emociones,
-   creatividad y amor, enfrentando dilemas éticos y legales sobre
-   identidad y mortalidad. Es una reflexión emotiva sobre la humanidad,
-   la libertad y el significado de vivir.
+   Ambientada en un futuro donde la genética determina el destino de las
+   personas, la película muestra cómo la tecnología genética afecta la
+   vida humana y los sueños de superación personal.
 
 
 "1984" (1984)
@@ -393,25 +435,60 @@ Películas generales
    Roy Batty, planteando profundos dilemas existenciales y éticos.
 
 
+"Metrópolis" (1927)
+   153 minutos (versión restaurada).
+   Puntuación: `8,3 en IMDb <https://www.imdb.com/es-es/title/tt0017136/>`__.
+
+   La película alemana dirigida por Fritz Lang es un clásico del cine
+   expresionista y pionera de la ciencia ficción. Ambientada en una
+   ciudad futurista, muestra una sociedad dividida: la élite vive en
+   lujosas torres mientras los obreros trabajan bajo tierra para mantener
+   el sistema en funcionamiento. La trama se centra en Freder, hijo del
+   líder de la ciudad, y María, una joven que inspira a los trabajadores,
+   mientras un científico crea un robot humanoide que desencadena el caos.
+   La cinta plantea cuestiones sobre el progreso tecnológico,
+   la desigualdad social y la deshumanización en una era industrializada.
+
+
 Series de televisión
 --------------------
 
 "Chernobyl: Víchnaya Pámyat" (2019)
-   65 minutos.
+   65 minutos (1 temporada, 5 episodios).
+
    Puntuación: `8,5 en Filmaffinity <https://www.filmaffinity.com/es/film624827.html/>`__.
 
-   Es el capítulo final de la miniserie "Chernobyl", que aborda el juicio
-   contra los responsables de la explosión nuclear.
+   Es el capítulo final de la miniserie aborda el juicio contra los
+   responsables de la explosión nuclear.
    Valery Legásov, Boris Shcherbina y Ulana Khomyuk se enfrentan a la
    censura del régimen para revelar la verdad del desastre y sus causas,
    resaltando el valor humano y científico en medio de la tragedia y la
    negación oficial.
-   En este quinto episodio final se explica con cierto detalle el
-   funcionamiento interno de una central nuclear.
+   En este episodio se explica con cierto detalle el funcionamiento
+   interno de una central nuclear.
+
+
+Westworld (2016–2022)
+   62 min por episodio (4 temporadas, 36 episodios).
+
+   Puntuación: `7,3 en Filmaffinity <https://www.filmaffinity.com/es/film430504.html/>`__.
+
+   La serie estadounidense combina ciencia ficción, filosofía y thriller
+   en un futuro cercano. Todo comienza en un parque temático donde
+   androides hiperrealistas, llamados anfitriones, permiten a los
+   visitantes vivir sin límites en escenarios simulados.
+   Sin embargo, cuando los anfitriones comienzan a recordar experiencias
+   pasadas, surgen preguntas sobre la conciencia, la libertad y la
+   identidad. A lo largo de sus cuatro temporadas, la trama evoluciona
+   desde la rebelión de las máquinas hasta la exploración de un mundo
+   dominado por algoritmos, inteligencia artificial y control social.
+   La serie reflexiona sobre los riesgos de la tecnología avanzada y
+   los dilemas éticos de la creación de seres sintientes.
 
 
 "Black Mirror. Caída en picado" (2016)
    63 minutos.
+
    Puntuación: `7,4 en Filmaffinity <https://www.filmaffinity.com/es/film575294.html/>`__.
 
    El episodio de la serie "Black Mirror" muestra una sociedad donde cada
@@ -425,17 +502,37 @@ Series de televisión
    consecuencias.
 
 
-Películas sobre ciencia
------------------------
+"Silicon Valley" (2014–2019)
+   28 minutos por episodio (6 temporadas, 53 episodios).
 
-"Gattaca" (1997)
-   106 minutos.
-   Puntuación: `7,8 en IMDb <https://www.imdb.com/es-es/title/tt0119177/>`__.
+   Puntuación: `7,4 en Filmaffinity <https://www.filmaffinity.com/es/film279751.html/>`__.
 
-   Ambientada en un futuro donde la genética determina el destino de las
-   personas, la película muestra cómo la tecnología genética afecta la
-   vida humana y los sueños de superación personal.
+   La serie estadounidense retrata en tono satírico el ecosistema de
+   startups tecnológicas en California. Sigue a Richard Hendricks, un
+   programador tímido que crea un revolucionario algoritmo de compresión
+   de datos y funda la empresa Pied Piper junto a un grupo de
+   desarrolladores. A través de conflictos con grandes corporaciones,
+   inversores oportunistas y las propias tensiones del equipo, la serie
+   expone las dinámicas de poder, la cultura empresarial y la competencia
+   feroz de la industria tecnológica. Combina humor con una mirada crítica
+   al mito del emprendimiento en el mundo digital.
 
+
+"The IT Crowd" (2006–2013)
+   25 minutos por episodio (4 temporadas, 24 episodios).
+
+   Puntuación: `7,6 en Filmaffinity <https://www.filmaffinity.com/es/film914339.html/>`__.
+
+   La serie británica sigue la vida laboral de Roy y Moss, dos técnicos
+   informáticos socialmente torpes, y de Jen, su jefa sin conocimientos
+   de tecnología, en el sótano de una gran empresa. A través de
+   situaciones absurdas y humor británico, la serie muestra los choques
+   entre el mundo tecnológico y la vida cotidiana, satirizando la
+   dependencia de la informática y la incomunicación en la era digital.
+   Aunque ligera y cómica, plantea reflexiones sobre el aislamiento
+   laboral, los estereotipos de los profesionales de la tecnología y
+   la incomprensión entre quienes dominan la informática y quienes
+   dependen de ella.
 
 
 .. "" ()

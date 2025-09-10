@@ -49,11 +49,11 @@ Normativa de Madrid
    Secundaria.
    <../_static/document/circular_ce40_madrid_secundaria.pdf>`__
 
-#. `Instrucciones de comienzo de curso 2024-2025.
-   <https://www.comunidad.madrid/sites/default/files/instrucciones_inicio_curso_2024_2025.pdf>`__
+#. `Instrucciones de comienzo de curso 2025-26.
+   <https://www.comunidad.madrid/sites/default/files/instrucciones-inicio-curso-2025-2026.pdf>`__
 
-    Página 55: programa "Código Escuela 4.0 Madrid"
-
+   PROGRAMA “CÓDIGO ESCUELA 4.0_Madrid” en página 56.
+   
 #. `Licitación para el suministro de material y formación de Robótica.
    <https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipamientos-necesarios-integracion-implantacion-desarrollo-contenidos>`__
 
