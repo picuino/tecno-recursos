@@ -21,22 +21,9 @@ Representación, cableado, medida y simulación de circuitos eléctricos.
    :maxdepth: 2
    :titlesonly:
 
-   electric-circuito.rst
-   electric-receptores.rst
+   electric-teoria-index.rst
+
    electric-componentes-index.rst
-   electric-simbolos.rst
-
-   electric-ley-ohm.rst
-   electric-ley-ohm-regla.rst
-   electric-serie-paralelo.rst
-   electric-serie-paralelo-resistencias.rst
-   electric-resolver-circuitos.rst
-
-   electric-energia.rst
-   electric-potencia.rst
-   electric-sistema-electrico.rst
-
-   electric-cableado.rst
 
    electric-simulador-index.rst
 
