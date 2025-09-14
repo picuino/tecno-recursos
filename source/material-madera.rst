@@ -117,7 +117,7 @@ Partes del tronco del árbol
 
    `MPF <https://commons.wikimedia.org/wiki/File:Taxus_wood.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 Obtención de la madera

@@ -97,7 +97,7 @@ Conexiones internas
 
          `Chrihern
          <https://commons.wikimedia.org/wiki/File:Motherboard_bus.jpg>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    SATA
@@ -140,7 +140,7 @@ Conexiones internas
          `Dsimic
          <https://commons.wikimedia.org/wiki/File:2.5-inch_SATA_drive_on_top_of_a_3.5-inch_SATA_drive,_close-up_of_data_and_power_connectors.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       .. figure:: informatica/_images/informatica-cable-sata.jpg
          :align: center
@@ -151,7 +151,7 @@ Conexiones internas
          `Swiki
          <https://commons.wikimedia.org/wiki/File:SATA_Data_Cable.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    PCI Express
@@ -196,7 +196,7 @@ Conexiones internas
          `Jona
          <https://commons.wikimedia.org/wiki/File:PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       La velocidad de transferencia depende de la versión de PCI Express
       (aumenta cada pocos años) y del número de canales de comunicación
@@ -277,7 +277,7 @@ Conexiones internas
          `Tobias B. Köhler
          <https://commons.wikimedia.org/wiki/File:4GB_DDR3_SO-DIMM.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       .. figure:: informatica/_images/informatica-dimm-ddr2.jpg
          :align: center
@@ -289,7 +289,7 @@ Conexiones internas
          `Wagner51
          <https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Zócalo para CPU
@@ -347,7 +347,7 @@ Conexiones internas
          `Xaar
          <https://commons.wikimedia.org/wiki/File:Socket_1151_closed_01.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
 Conexiones externas
@@ -408,7 +408,7 @@ Conexiones externas
 
          `Viljo Viitanen
          <https://commons.wikimedia.org/wiki/File:Usb_connectors.JPG>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       .. figure:: informatica/_images/informatica-conector-usb-c.jpg
          :align: center
@@ -420,7 +420,7 @@ Conexiones externas
          `Author
          <https://commons.wikimedia.org/wiki/File:USB-C_plug,_focus_stacked.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       El `conector USB C <https://es.wikipedia.org/wiki/USB-C>`__ es el más
       moderno y el único compatible con la especificación de USB 4.
@@ -471,7 +471,7 @@ Conexiones externas
          `Jud McCranie
          <https://commons.wikimedia.org/wiki/File:Computer_mike,_audio_out,_and_audio_in_jacks.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
    PS/2
       El conector `PS/2 <https://es.wikipedia.org/wiki/PS/2>`__
@@ -494,7 +494,7 @@ Conexiones externas
 
          `Norman Rogers
          <https://commons.wikimedia.org/wiki/File:Ps-2-ports.jpg>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
    RS-232
       El estándar de comunicaciones
@@ -523,7 +523,7 @@ Conexiones externas
          `Faxe
          <https://commons.wikimedia.org/wiki/File:RS-232.jpeg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
 Conectores de vídeo
@@ -554,7 +554,7 @@ Conectores de vídeo
          `Afrank99
          <https://commons.wikimedia.org/wiki/File:VGA_Stecker.jpg>`__,
          `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
    DVI
       El conector `DVI
@@ -574,7 +574,7 @@ Conectores de vídeo
          `Greg Ebdon
          <https://commons.wikimedia.org/wiki/File:DVI_Connector.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
    HDMI
       El conector `HDMI
@@ -596,7 +596,7 @@ Conectores de vídeo
 
          `Evan-Amos
          <https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
 Comparación entre conexiones de vídeo
@@ -651,7 +651,7 @@ Conectores de red
          `Amin
          <https://commons.wikimedia.org/wiki/File:Ethernet_port.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       .. figure:: informatica/_images/informatica-ethernet-cable.jpg
          :align: center
@@ -662,7 +662,7 @@ Conectores de red
          `David Monniaux
          <https://commons.wikimedia.org/wiki/File:Ethernet_RJ45_connector_p1160054.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       El cable utilizado para las conexiones suele ser cable de cobre
       UTP (Unshielded Twisted Pair o par trenzado no apantallado).
@@ -680,7 +680,7 @@ Conectores de red
 
          `Baran Ivo
          <https://commons.wikimedia.org/wiki/File:UTP_cable.jpg>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       Estándares de comunicaciones Ethernet más usados con cable de cobre.
 
@@ -769,7 +769,7 @@ Conexiones inalámbricas
 
          `Autor
          <https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Bluetooth
@@ -797,7 +797,7 @@ Conexiones inalámbricas
 
          `Bluetooth SIG, Inc.
          <https://commons.wikimedia.org/wiki/File:BluetoothLogo.svg>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
 Test de la unidad

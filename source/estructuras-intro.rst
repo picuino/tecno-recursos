@@ -79,7 +79,7 @@ Masivas
 
       `Adam Kliczek <https://commons.wikimedia.org/wiki/File:Hoover_Dam,_02.jpg>`__,
       `CC BY-SA 3.0 International <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Abovedadas
@@ -96,7 +96,7 @@ Abovedadas
 
       `Carlos Delgado <https://commons.wikimedia.org/wiki/File:Acueducto_de_Segovia_-_21.jpg>`__,
       `CC BY-SA 3.0 International <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Trianguladas
@@ -112,7 +112,7 @@ Trianguladas
 
       `Waz8 <https://commons.wikimedia.org/wiki/File:Shelburne_Falls_-_truss_bridge_over_Deerfield_River.jpg>`__,
       `CC0 1.0  <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Entramadas
@@ -128,7 +128,7 @@ Entramadas
 
       `Richard Humphrey <https://commons.wikimedia.org/wiki/File:Travelling_beam_crane_at_Tallington_concrete_works_-_geograph.org.uk_-_4292023.jpg>`__,
       `CC BY-SA 2.0 International <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Colgantes
@@ -145,7 +145,7 @@ Colgantes
 
       `Mikebhuang <https://commons.wikimedia.org/wiki/File:San_Francisco%E2%80%93Oakland_Bay_Bridge_at_Night.jpg>`__,
       `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 Laminares
    Formadas por una lámina o pared delgada.
@@ -160,7 +160,7 @@ Laminares
 
       `Stefania Anghelea <https://commons.wikimedia.org/wiki/File:Moto_Days_2013.jpg>`__,
       `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Movimiento en las estructuras

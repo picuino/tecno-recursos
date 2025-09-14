@@ -30,7 +30,7 @@ transistores como pueden ser la memoria RAM o la memoria Flash.
 
    `Max Roser, Hannah Ritchie <https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1970-2020.png>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 Relación capacidad/precio

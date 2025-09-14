@@ -70,7 +70,7 @@ de datos.
          `Nzeemin
          <https://commons.wikimedia.org/wiki/File:Microsoft_IntelliMouse_Explorer_40A.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Teclado
@@ -94,7 +94,7 @@ de datos.
          `Oona Räisänen
          <https://commons.wikimedia.org/wiki/File:Computer_keyboard_ES_layout.svg>`__,
          `CC0 1.0 <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       El teclado estándar de ordenador es de 102 teclas en Europa y se
       dividen en los siguientes grupos.
@@ -133,7 +133,7 @@ de datos.
          `Arpingstone
          <https://commons.wikimedia.org/wiki/File:Scanner.view.750pix.jpg>`__,
          Public Domain,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Cámara web
@@ -156,7 +156,7 @@ de datos.
          `Entereczek
          <https://commons.wikimedia.org/wiki/File:Creative.webcam.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Micrófono
@@ -186,7 +186,7 @@ de datos.
          `ChrisEngelsma
          <https://commons.wikimedia.org/wiki/File:SennMicrophone.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Tableta gráfica
@@ -212,7 +212,7 @@ de datos.
          `David Revoy
          <https://commons.wikimedia.org/wiki/File:Penciling_on_Wacom_Cintiq_13HD_by_David_Revoy.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    GPS
@@ -335,7 +335,7 @@ se muestre al exterior.
          `Zzubnik
          <https://commons.wikimedia.org/wiki/File:Computer_monitor.jpg>`__,
          Public Domain,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Proyector de vídeo
@@ -356,7 +356,7 @@ se muestre al exterior.
          `Christian Herzog
          <https://commons.wikimedia.org/wiki/File:Projectiondesign_(Barco_Fredrikstad)_video_projector_at_HighEnd-2009_(3556283833).jpg>`__,
          `CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
    Impresora
       La `impresora
@@ -373,7 +373,7 @@ se muestre al exterior.
          `Alex Muñoz1
          <https://commons.wikimedia.org/wiki/File:Samsung_ML-2010.jpg>`__,
          `CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       Las tres tecnologías más usuales son la tecnología
       `láser con tóner <https://es.wikipedia.org/wiki/Impresora#T%C3%B3ner>`__,
@@ -400,7 +400,7 @@ se muestre al exterior.
          `Vg30et
          <https://commons.wikimedia.org/wiki/File:DAC_in_the_box.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Altavoces
@@ -419,7 +419,7 @@ se muestre al exterior.
          `Evan-Amos
          <https://commons.wikimedia.org/wiki/File:Logitech-usb-speakers.jpg>`__,
          Public Domain,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       Normalmente se utilizan sistemas estéreo con dos altavoces, uno
       derecho y otro izquierdo, pero también se pueden utilizar sistemas
@@ -446,7 +446,7 @@ se muestre al exterior.
          `Daniel Beardsmore
          <https://commons.wikimedia.org/wiki/File:Lock_LEDs.jpg>`__,
          Public Domain,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Motor de vibración
@@ -464,7 +464,7 @@ se muestre al exterior.
          `Raimond Spekking
          <https://commons.wikimedia.org/wiki/File:Nokia_X2-02_-_vibrating_alert_motor-2410.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Línea braille
@@ -483,7 +483,7 @@ se muestre al exterior.
          `Ixitixel
          <https://commons.wikimedia.org/wiki/File:Refreshable_Braille_display.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
 
@@ -514,7 +514,7 @@ la entrada como la salida de datos del ordenador.
          `Victorgrigas
          <https://commons.wikimedia.org/wiki/File:Bangalore_Wikipedian_on_phone_5_closeup.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Impresora multifunción
@@ -534,7 +534,7 @@ la entrada como la salida de datos del ordenador.
          `Eduardo Torres
          <https://commons.wikimedia.org/wiki/File:Multifuncional.jpg>`__,
          `CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Casco de realidad virtual
@@ -561,7 +561,7 @@ la entrada como la salida de datos del ordenador.
          `Samwalton9
          <https://commons.wikimedia.org/wiki/File:Oculus_Consumer_Version_1.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       `Metaverso <https://es.wikipedia.org/wiki/Metaverso>`__
 
@@ -597,7 +597,7 @@ la entrada como la salida de datos del ordenador.
          `Woookie
          <https://commons.wikimedia.org/wiki/File:Soundblaster_Live_USB.png>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
       Vídeo: `Explicación de Jaime Altozano sobre las tarjetas de sonido

@@ -2,23 +2,23 @@
 # Copyright (C) 2013-2025, Carlos Félix Pardo Martín
 # This file is distributed under the Creative Commons BY-SA 4.0 License
 # https://creativecommons.org/licenses/by-sa/4.0/deed.en
-#
-
 msgid ""
 msgstr ""
-"Project-Id-Version:Picuino 2025"
-"Report-Msgid-Bugs-To:"
-"POT-Creation-Date:2025-01-13 17:26+0100"
-"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
-"Language:ca"
-"Language-Team:ca <LL@li.org>"
-"Plural-Forms:nplurals=2; plural=(n != 1)"
-"MIME-Version:1.0"
-"Content-Type:text/plain; charset=utf-8"
-"Content-Transfer-Encoding:8bit"
-"Generated-By:Babel 2.9.0"
-
+"Project-Id-Version: Picuino 2025Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2025-01-13 17:26+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:caLanguage-Team:ca "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-09-14 11:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../source/python-sort-mezcla.rst:9
 msgid "Ordenación por mezcla"
@@ -26,21 +26,23 @@ msgstr "Barrejant l’ordenació"
 
 #: ../../source/python-sort-mezcla.rst:10
 msgid ""
-"El algoritmo de ordenación por mezcla (merge sort en inglés) es un algoritmo"
-" recursivo basado en la técnica divide y vencerás."
+"El algoritmo de ordenación por mezcla (merge sort en inglés) es un "
+"algoritmo recursivo basado en la técnica divide y vencerás."
 msgstr ""
-"L’algoritme de gestió de la barreja (tipus de combinació en anglès) és un "
-"algorisme recursiu basat en les divisions de la tècnica i guanyarà."
+"L’algoritme de gestió de la barreja (tipus de combinació en anglès) és un"
+" algorisme recursiu basat en les divisions de la tècnica i guanyarà."
 
 #: ../../source/python-sort-mezcla.rst:13
 msgid ""
 "Fue desarrollado en 1945 por Jonh Von Neumann y se adapta muy bien a la "
 "ordenación de gran cantidad de datos secuenciales por ser muy rápido y "
-"trabajar fácilmente con datos a los que solo se puede acceder de uno en uno."
+"trabajar fácilmente con datos a los que solo se puede acceder de uno en "
+"uno."
 msgstr ""
 "Va ser desenvolupat el 1945 per Jonh von Neumann i s’adapta molt bé a "
-"l’ordenació d’una gran quantitat de dades seqüencials per ser molt ràpida i "
-"treballar fàcilment amb dades a les quals només es pot accedir d’un a un."
+"l’ordenació d’una gran quantitat de dades seqüencials per ser molt ràpida"
+" i treballar fàcilment amb dades a les quals només es pot accedir d’un a "
+"un."
 
 #: ../../source/python-sort-mezcla.rst:19
 msgid "Descripción del algoritmo"
@@ -48,13 +50,13 @@ msgstr "Descripció de l'algoritme"
 
 #: ../../source/python-sort-mezcla.rst:20
 msgid ""
-"El algoritmo de ordenación por mezcla se basa en dividir recursivamente la "
-"lista de datos a ordenar en dos sublistas de la mitad de tamaño cada una que"
-" la original, para poder ordenarlas con mayor facilidad."
+"El algoritmo de ordenación por mezcla se basa en dividir recursivamente "
+"la lista de datos a ordenar en dos sublistas de la mitad de tamaño cada "
+"una que la original, para poder ordenarlas con mayor facilidad."
 msgstr ""
 "L’algoritme de gestió de la barreja es basa en dividir recursivament la "
-"llista de dades a ordenar dos sublistes de la meitat de la mida de cadascun "
-"que l’original, per tal d’ordenar -les amb més facilitat."
+"llista de dades a ordenar dos sublistes de la meitat de la mida de "
+"cadascun que l’original, per tal d’ordenar -les amb més facilitat."
 
 #: ../../source/python-sort-mezcla.rst:24
 msgid "Cuando la lista es de tamaño 0 ó 1 ya estará ordenada."
@@ -62,16 +64,16 @@ msgstr "Quan la llista sigui de 0 o 1, s’ordenarà."
 
 #: ../../source/python-sort-mezcla.rst:26
 msgid ""
-"Una vez ordenadas las dos sublistas, se aplica un algoritmo que mezcla las "
-"dos sublistas ordenadas en una sola lista ordenada de tamaño doble."
+"Una vez ordenadas las dos sublistas, se aplica un algoritmo que mezcla "
+"las dos sublistas ordenadas en una sola lista ordenada de tamaño doble."
 msgstr ""
-"Un cop ordenats els dos sublistes, s’aplica un algorisme que barreja els dos"
-" sublistes ordenats en un sol conjunt ordenat de doble mida."
+"Un cop ordenats els dos sublistes, s’aplica un algorisme que barreja els "
+"dos sublistes ordenats en un sol conjunt ordenat de doble mida."
 
 #: ../../source/python-sort-mezcla.rst:29
 msgid ""
-"De esta manera se van mezclando sublistas de tamaño cada vez mayor hasta que"
-" toda la lista original se encuentra ordenada."
+"De esta manera se van mezclando sublistas de tamaño cada vez mayor hasta "
+"que toda la lista original se encuentra ordenada."
 msgstr ""
 "D’aquesta manera, els sublistes de mida creixent es barregen fins que "
 "s’ordena tota la llista original."
@@ -81,16 +83,17 @@ msgid "Algoritmo de ordenación por mezcla."
 msgstr "Algoritme de gestió de mescla."
 
 #: ../../source/python-sort-mezcla.rst:38
+#, fuzzy
 msgid ""
-"`Swfung8 <https://commons.wikimedia.org/wiki/File:Merge-sort-"
-"example-300px.gif>`__, `CC BY-SA 3.0 Unported "
-"<https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__, via Wikimedia "
-"Commons."
+"`Swfung8 <https://commons.wikimedia.org/wiki/File:Merge-sort-example-"
+"300px.gif>`__, `CC BY-SA 3.0 Unported "
+"<https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__, vía "
+"Wikimedia Commons."
 msgstr ""
-"`Swfung8 <https://commons.wikimedia.org/wiki/File:Merge-sort-"
-"example-300px.gif>`__, `CC BY-SA 3.0 Unported "
-"<https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__, via Wikimedia "
-"Commons."
+"`Swfung8 <https://commons.wikimedia.org/wiki/File:Merge-sort-example-"
+"300px.gif>`__, `CC BY-SA 3.0 Unported "
+"<https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__, via "
+"Wikimedia Commons."
 
 #: ../../source/python-sort-mezcla.rst:44
 msgid "Programa de ordenación"
@@ -101,8 +104,8 @@ msgid ""
 "A continuación aparece el código de ordenación de elementos de una lista "
 "según el algoritmo de mezcla::"
 msgstr ""
-"A continuació, apareix el codi de gestió d'una llista segons l'algorisme de "
-"la barreja ::"
+"A continuació, apareix el codi de gestió d'una llista segons l'algorisme "
+"de la barreja ::"
 
 #: ../../source/python-sort-mezcla.rst:78
 msgid "Salida::"
@@ -111,3 +114,4 @@ msgstr "Sortida ::"
 #: ../../source/python-sort-mezcla.rst:84
 msgid "Ejercicios"
 msgstr "Exercicis"
+

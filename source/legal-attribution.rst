@@ -420,7 +420,7 @@ Otras imágenes
 
    `Lead Holder <https://commons.wikimedia.org/wiki/File:AA_AAA_AAAA_A23_battery_comparison-1.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -434,7 +434,7 @@ Otras imágenes
 
    `El Guarito <https://commons.wikimedia.org/wiki/File:Alternador_003.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -447,7 +447,7 @@ Otras imágenes
    Panel fotovoltaico de generación eléctrica solar.
 
    `Saintfevrier <https://commons.wikimedia.org/wiki/File:Solar_tracker_in_Lixouri.jpg>`__,
-   Public domain, via Wikimedia Commons.
+   Public domain, vía Wikimedia Commons.
 
 ----
 
@@ -461,7 +461,7 @@ Otras imágenes
 
    `Petar Milošević <https://commons.wikimedia.org/wiki/File:Electric_guide_3%C3%972.5_mm.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -475,7 +475,7 @@ Otras imágenes
 
    `Albarubescens <https://commons.wikimedia.org/wiki/File:High_voltage_cables_with_glass_insulators.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -489,7 +489,7 @@ Otras imágenes
 
    `Phiarc <https://commons.wikimedia.org/wiki/File:M.2_2230_M-key_SSD_in_comparison_with_Micro-SD_card.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -503,7 +503,7 @@ Otras imágenes
 
    `Phiarc <https://commons.wikimedia.org/wiki/File:Many_different_SMD_capacitors.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -517,7 +517,7 @@ Otras imágenes
 
    `Mcapdevila <https://commons.wikimedia.org/wiki/File:60_LED_3W_Spot_Light_eq_25W.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -531,7 +531,7 @@ Otras imágenes
 
    `A.Savin <https://commons.wikimedia.org/wiki/File:Electric_stove_coil_with_glass_ceramic_cooktop.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -545,7 +545,7 @@ Otras imágenes
 
    `Jszack <https://en.wikipedia.org/wiki/File:On-Off_Switch.jpg>`__,
    `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -559,7 +559,7 @@ Otras imágenes
 
    `Raimond Spekking <https://commons.wikimedia.org/wiki/File:Moeller_Xpole_PXF-40-4-003-A-2289.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -573,7 +573,7 @@ Otras imágenes
 
    `MMFE <https://commons.wikimedia.org/wiki/File:Lift_Luxembourg_Ville-Haute_-_Grund_01.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -586,7 +586,7 @@ Otras imágenes
    `Sebastian Stabinger
    <https://commons.wikimedia.org/wiki/File:Kommutator_universalmotor_stab.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -601,7 +601,7 @@ Otras imágenes
    `Raiden32
    <https://commons.wikimedia.org/wiki/File:Presa_Aldead%C3%A1vila_desembalsando.JPG>`__,
    `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -616,7 +616,7 @@ Otras imágenes
    `Hans Hillewaert
    <https://commons.wikimedia.org/wiki/File:Windmills_D1-D4_(Thornton_Bank).jpg>`__,
    `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -630,7 +630,7 @@ Otras imágenes
    `Silberwolf
    <https://commons.wikimedia.org/wiki/File:Cardan-joint_intermediate-shaft_topview_animated.gif>`__,
    `CC BY-SA 2.5 Generic <https://creativecommons.org/licenses/by-sa/2.5/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -644,7 +644,7 @@ Otras imágenes
    `Ivan Radic
    <https://commons.wikimedia.org/wiki/File:Gas_stove_flame.jpg>`__,
    `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -658,7 +658,7 @@ Otras imágenes
    `Rama
    <https://commons.wikimedia.org/wiki/File:Petrol_pump_mp3h0355.jpg>`__,
    `CC BY-SA 2.0 France <https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -672,7 +672,7 @@ Otras imágenes
    `Mr. Tickle
    <https://commons.wikimedia.org/wiki/File:Nuclear_power_station_in_Almonacid_de_Zorita_(Spain).jpg>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -686,7 +686,7 @@ Otras imágenes
    `David Hawgood
    <https://commons.wikimedia.org/wiki/File:Installation_of_solar_PV_panels_-_panels_in_place_-_geograph.org.uk_-_2624288.jpg>`__,
    `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -700,7 +700,7 @@ Otras imágenes
    `John R. Southern
    <https://commons.wikimedia.org/wiki/File:Krunkwerke_-_IMG_4515_(by-sa).jpg>`__,
    `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -714,7 +714,7 @@ Otras imágenes
    `Achim Grochowski
    <https://commons.wikimedia.org/wiki/File:Lichtbogen_3000_Volt.jpg>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -729,7 +729,7 @@ Otras imágenes
    `S. J. de Waard
    <https://commons.wikimedia.org/wiki/File:Rotterdam_Ahoy_Europort_2011_(14).JPG>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -743,7 +743,7 @@ Otras imágenes
    `Sebastian Stabinger
    <https://commons.wikimedia.org/wiki/File:Kommutator_universalmotor_stab.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -756,7 +756,7 @@ Otras imágenes
 
    `Digigalos <https://commons.wikimedia.org/wiki/File:Relay_principle_horizontal_new.gif>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -769,7 +769,7 @@ Otras imágenes
 
    `Acosta.eu <https://en.wikipedia.org/wiki/File:Heizstab-heatingelement-espressomachine.jpg>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -782,7 +782,7 @@ Otras imágenes
 
    `Ali K <https://en.wikipedia.org/wiki/File:HomeEarthRodAustralia1.jpg>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -796,7 +796,7 @@ Otras imágenes
 
    `John Maushammer <https://es.wikipedia.org/wiki/Archivo:Diode-closeup.jpg>`__,
    `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -857,7 +857,7 @@ Otras imágenes
 
    `Adam Kliczek <https://commons.wikimedia.org/wiki/File:Hoover_Dam,_02.jpg>`__,
    `CC BY-SA 3.0 International <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -870,7 +870,7 @@ Otras imágenes
 
    `Carlos Delgado <https://commons.wikimedia.org/wiki/File:Acueducto_de_Segovia_-_21.jpg>`__,
    `CC BY-SA 3.0 International <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -883,7 +883,7 @@ Otras imágenes
 
    `Waz8 <https://commons.wikimedia.org/wiki/File:Shelburne_Falls_-_truss_bridge_over_Deerfield_River.jpg>`__,
    `CC0 1.0  <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -896,7 +896,7 @@ Otras imágenes
 
    `Richard Humphrey <https://commons.wikimedia.org/wiki/File:Travelling_beam_crane_at_Tallington_concrete_works_-_geograph.org.uk_-_4292023.jpg>`__,
    `CC BY-SA 2.0 International <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -909,7 +909,7 @@ Otras imágenes
 
    `Mikebhuang <https://commons.wikimedia.org/wiki/File:San_Francisco%E2%80%93Oakland_Bay_Bridge_at_Night.jpg>`__,
    `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -922,7 +922,7 @@ Otras imágenes
 
    `Stefania Anghelea <https://commons.wikimedia.org/wiki/File:Moto_Days_2013.jpg>`__,
    `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -935,7 +935,7 @@ Otras imágenes
 
    `Smial <https://commons.wikimedia.org/wiki/File:DDR4_DIMM_4GB_-2133_IMGP5813_smial_wp.jpg>`__,
    `GNU Free Documentation License <https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -949,7 +949,7 @@ Otras imágenes
    `Raimond Spekking
    <https://commons.wikimedia.org/wiki/File:Elitegroup_755-A2_-_Phoenix_Bios_D686-6679.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -962,7 +962,7 @@ Otras imágenes
 
    `Dmitry Makeev <https://commons.wikimedia.org/wiki/File:3.5%22_-_hard_disks.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -976,7 +976,7 @@ Otras imágenes
 
    `D-Kuru <https://commons.wikimedia.org/wiki/File:Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -989,7 +989,7 @@ Otras imágenes
 
    `Evan-Amos <https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg>`__,
    Public Domain,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1002,7 +1002,7 @@ Otras imágenes
 
    `Afrank99 <https://commons.wikimedia.org/wiki/File:MicroSD_cards_2GB_4GB_8GB.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1015,7 +1015,7 @@ Otras imágenes
 
    `Don-vip <https://commons.wikimedia.org/wiki/File:Windows_2000_SP4_install_disc_(French).jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1029,7 +1029,7 @@ Otras imágenes
 
    `Freiermensch <https://commons.wikimedia.org/wiki/File:Afm_cd-rom.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1042,7 +1042,7 @@ Otras imágenes
 
    `Racer009 <https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg>`__,
    `CC0 1.0 <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1055,7 +1055,7 @@ Otras imágenes
 
    `Hannes Grobe <https://commons.wikimedia.org/wiki/File:400gb-lto-tape_hg.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1068,7 +1068,7 @@ Otras imágenes
 
    `George Chernilevsky <https://commons.wikimedia.org/wiki/File:Floppy_disk_2009_G1.jpg>`__,
    Public Domain,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1081,7 +1081,7 @@ Otras imágenes
 
    `Radha 1100 <https://commons.wikimedia.org/wiki/File:Synology_DS1621xs%2B_6_Bay_Network_Attached_Storage.png>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1094,7 +1094,7 @@ Otras imágenes
 
    `AnthDaniel <https://commons.wikimedia.org/wiki/File:UPSAPC.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1107,7 +1107,7 @@ Otras imágenes
 
    `Llama roja <https://commons.wikimedia.org/wiki/File:Refrigeraci%C3%B3n_l%C3%ADquida_en_un_computador.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1120,7 +1120,7 @@ Otras imágenes
 
    `Krzysztof Woźnica <https://commons.wikimedia.org/wiki/File:Battery-lithium-cr2032.jpg>`__,
    Public Domain,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1133,7 +1133,7 @@ Otras imágenes
 
    `Acuantico <https://commons.wikimedia.org/wiki/File:For_the_Horde_Mod_by_Acu%C3%A1ntico_Power.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1146,7 +1146,7 @@ Otras imágenes
 
    `Avia Husk <https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_6.jpg>`__,
    `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1158,7 +1158,7 @@ Otras imágenes
    Raspberry Pi 2 model B.
 
    `Evan-Amos <https://commons.wikimedia.org/wiki/File:Raspberry-Pi-2-Bare-BR.jpg>`__,
-   Public Domain, via Wikimedia Commons.
+   Public Domain, vía Wikimedia Commons.
 
 ----
 
@@ -1171,7 +1171,7 @@ Otras imágenes
 
    `PAG DEV <https://commons.wikimedia.org/wiki/File:Amazon_Fire_TV_4k.jpg>`__,
    `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1183,7 +1183,7 @@ Otras imágenes
    Sony PlayStation 4 de 2014.
 
    `Evan-Amos <https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg>`__,
-   Public Domain, via Wikimedia Commons.
+   Public Domain, vía Wikimedia Commons.
 
 ----
 
@@ -1196,7 +1196,7 @@ Otras imágenes
 
    `SimonWaldherr <https://commons.wikimedia.org/wiki/File:IPhone_13_Pro.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1227,7 +1227,7 @@ Otras imágenes
 
    `Hindermath <https://commons.wikimedia.org/wiki/File:Nec-cluster.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1241,7 +1241,7 @@ Otras imágenes
 
    `Vcarceler <https://commons.wikimedia.org/wiki/File:BSC-MareNostrum4-F.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1254,7 +1254,7 @@ Otras imágenes
 
    `Chrihern
    <https://commons.wikimedia.org/wiki/File:Motherboard_bus.jpg>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1268,7 +1268,7 @@ Otras imágenes
    `Dsimic
    <https://commons.wikimedia.org/wiki/File:2.5-inch_SATA_drive_on_top_of_a_3.5-inch_SATA_drive,_close-up_of_data_and_power_connectors.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1282,7 +1282,7 @@ Otras imágenes
    `Swiki
    <https://commons.wikimedia.org/wiki/File:SATA_Data_Cable.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1298,7 +1298,7 @@ Otras imágenes
    `Jona
    <https://commons.wikimedia.org/wiki/File:PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1312,7 +1312,7 @@ Otras imágenes
    `Tobias B. Köhler
    <https://commons.wikimedia.org/wiki/File:4GB_DDR3_SO-DIMM.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1327,7 +1327,7 @@ Otras imágenes
    `Wagner51
    <https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1342,7 +1342,7 @@ Otras imágenes
    `Xaar
    <https://commons.wikimedia.org/wiki/File:Socket_1151_closed_01.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1356,7 +1356,7 @@ Otras imágenes
 
    `Viljo Viitanen
    <https://commons.wikimedia.org/wiki/File:Usb_connectors.JPG>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1371,7 +1371,7 @@ Otras imágenes
    `Author
    <https://commons.wikimedia.org/wiki/File:USB-C_plug,_focus_stacked.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1385,7 +1385,7 @@ Otras imágenes
    `Jud McCranie
    <https://commons.wikimedia.org/wiki/File:Computer_mike,_audio_out,_and_audio_in_jacks.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1398,7 +1398,7 @@ Otras imágenes
 
    `Norman Rogers
    <https://commons.wikimedia.org/wiki/File:Ps-2-ports.jpg>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1412,7 +1412,7 @@ Otras imágenes
    `Faxe
    <https://commons.wikimedia.org/wiki/File:RS-232.jpeg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1426,7 +1426,7 @@ Otras imágenes
    `Afrank99
    <https://commons.wikimedia.org/wiki/File:VGA_Stecker.jpg>`__,
    `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1440,7 +1440,7 @@ Otras imágenes
    `Greg Ebdon
    <https://commons.wikimedia.org/wiki/File:DVI_Connector.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1453,7 +1453,7 @@ Otras imágenes
 
    `Evan-Amos
    <https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1467,7 +1467,7 @@ Otras imágenes
    `Amin
    <https://commons.wikimedia.org/wiki/File:Ethernet_port.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1481,7 +1481,7 @@ Otras imágenes
    `David Monniaux
    <https://commons.wikimedia.org/wiki/File:Ethernet_RJ45_connector_p1160054.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1495,7 +1495,7 @@ Otras imágenes
 
    `Baran Ivo
    <https://commons.wikimedia.org/wiki/File:UTP_cable.jpg>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1508,7 +1508,7 @@ Otras imágenes
 
    `Autor
    <https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1521,7 +1521,7 @@ Otras imágenes
 
    `Bluetooth SIG, Inc.
    <https://commons.wikimedia.org/wiki/File:BluetoothLogo.svg>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1534,7 +1534,7 @@ Otras imágenes
 
    `Solipsist <https://commons.wikimedia.org/wiki/File:Intel_80486DX2_bottom.jpg>`__,
    `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1546,7 +1546,7 @@ Otras imágenes
    Tarjeta gráfica Radeon HD 5570.
 
    `Evan-Amos <https://commons.wikimedia.org/wiki/File:Sapphire-Radeon-HD-5570-Video-Card.jpg>`__,
-   Public Domain, via Wikimedia Commons.
+   Public Domain, vía Wikimedia Commons.
 
 ----
 
@@ -1557,7 +1557,7 @@ Otras imágenes
 
    `Gustavb <https://commons.wikimedia.org/wiki/File:Personal_computer,_exploded_5.svg>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1568,7 +1568,7 @@ Otras imágenes
 
    `Evan-Amos <https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1579,7 +1579,7 @@ Otras imágenes
 
    `Max Roser, Hannah Ritchie <https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1970-2020.png>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1593,7 +1593,7 @@ Otras imágenes
    `Nzeemin
    <https://commons.wikimedia.org/wiki/File:Microsoft_IntelliMouse_Explorer_40A.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1607,7 +1607,7 @@ Otras imágenes
    `Oona Räisänen
    <https://commons.wikimedia.org/wiki/File:Computer_keyboard_ES_layout.svg>`__,
    `CC0 1.0 <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1621,7 +1621,7 @@ Otras imágenes
    `Arpingstone
    <https://commons.wikimedia.org/wiki/File:Scanner.view.750pix.jpg>`__,
    Public Domain,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1635,7 +1635,7 @@ Otras imágenes
    `Entereczek
    <https://commons.wikimedia.org/wiki/File:Creative.webcam.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1649,7 +1649,7 @@ Otras imágenes
    `ChrisEngelsma
    <https://commons.wikimedia.org/wiki/File:SennMicrophone.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1663,7 +1663,7 @@ Otras imágenes
    `David Revoy
    <https://commons.wikimedia.org/wiki/File:Penciling_on_Wacom_Cintiq_13HD_by_David_Revoy.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1677,7 +1677,7 @@ Otras imágenes
    `Zzubnik
    <https://commons.wikimedia.org/wiki/File:Computer_monitor.jpg>`__,
    Public Domain,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1691,7 +1691,7 @@ Otras imágenes
    `Christian Herzog
    <https://commons.wikimedia.org/wiki/File:Projectiondesign_(Barco_Fredrikstad)_video_projector_at_HighEnd-2009_(3556283833).jpg>`__,
    `CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1705,7 +1705,7 @@ Otras imágenes
    `Alex Muñoz1
    <https://commons.wikimedia.org/wiki/File:Samsung_ML-2010.jpg>`__,
    `CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1719,7 +1719,7 @@ Otras imágenes
    `Vg30et
    <https://commons.wikimedia.org/wiki/File:DAC_in_the_box.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1733,7 +1733,7 @@ Otras imágenes
    `Evan-Amos
    <https://commons.wikimedia.org/wiki/File:Logitech-usb-speakers.jpg>`__,
    Public Domain,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1747,7 +1747,7 @@ Otras imágenes
    `Daniel Beardsmore
    <https://commons.wikimedia.org/wiki/File:Lock_LEDs.jpg>`__,
    Public Domain,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1761,7 +1761,7 @@ Otras imágenes
    `Raimond Spekking
    <https://commons.wikimedia.org/wiki/File:Nokia_X2-02_-_vibrating_alert_motor-2410.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1775,7 +1775,7 @@ Otras imágenes
    `Ixitixel
    <https://commons.wikimedia.org/wiki/File:Refreshable_Braille_display.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1789,7 +1789,7 @@ Otras imágenes
    `Victorgrigas
    <https://commons.wikimedia.org/wiki/File:Bangalore_Wikipedian_on_phone_5_closeup.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1803,7 +1803,7 @@ Otras imágenes
    `Eduardo Torres
    <https://commons.wikimedia.org/wiki/File:Multifuncional.jpg>`__,
    `CC BY 2.0 <https://creativecommons.org/licenses/by/2.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1817,7 +1817,7 @@ Otras imágenes
    `Samwalton9
    <https://commons.wikimedia.org/wiki/File:Oculus_Consumer_Version_1.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1831,7 +1831,7 @@ Otras imágenes
    `Woookie
    <https://commons.wikimedia.org/wiki/File:Soundblaster_Live_USB.png>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1844,7 +1844,7 @@ Otras imágenes
 
    `Evan-Amos <https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1858,7 +1858,7 @@ Otras imágenes
 
    `Yug <https://commons.wikimedia.org/wiki/File:Bitmap_VS_SVG.svg>`__,
    `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1869,7 +1869,7 @@ Otras imágenes
 
    `Zaqwerdx <https://commons.wikimedia.org/wiki/File:Rotating_earth_mini.gif>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1880,7 +1880,7 @@ Otras imágenes
 
    `Stephen Winsor <https://commons.wikimedia.org/wiki/File:Tomate.svg>`__,
    `GNU General Public License v3 <https://www.gnu.org/licenses/gpl-3.0.html>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1906,7 +1906,7 @@ Otras imágenes
 
    `MPF <https://commons.wikimedia.org/wiki/File:Taxus_wood.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1918,7 +1918,7 @@ Otras imágenes
 
    `2012rc <https://commons.wikimedia.org/wiki/File:Periodic_table_large-es-updated-2018.svg>`__,
    `CC BY 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1930,7 +1930,7 @@ Otras imágenes
 
    `Lysippos <https://commons.wikimedia.org/wiki/File:Milv.jpg>`__,
    `CC BY-SA 2.0 DE <https://creativecommons.org/licenses/by-sa/2.0/de/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1942,7 +1942,7 @@ Otras imágenes
 
    `Rojinegro81 <https://commons.wikimedia.org/wiki/File:Roca_Granito.JPG>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1954,7 +1954,7 @@ Otras imágenes
 
    `Dontworry <https://commons.wikimedia.org/wiki/File:St.leonhard-ffm002.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1968,7 +1968,7 @@ Otras imágenes
 
    `Berthold Werner <https://commons.wikimedia.org/wiki/File:Gizeh_Cheops_BW_1.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -1980,7 +1980,7 @@ Otras imágenes
 
    `Sarranpa <https://commons.wikimedia.org/wiki/File:Arenisca.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2015,7 +2015,7 @@ Otras imágenes
 
    `Dafran <https://commons.wikimedia.org/wiki/File:Hormigon-autonivelante.png>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2027,7 +2027,7 @@ Otras imágenes
 
    `Siim Sepp <https://commons.wikimedia.org/wiki/File:Clay-ss-2005.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2039,7 +2039,7 @@ Otras imágenes
 
    `Lourdes Cardenal <https://commons.wikimedia.org/wiki/File:Cuenco_barro_ceramica_popular_lou.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2053,7 +2053,7 @@ Otras imágenes
 
    `Patrick Charpiat <https://commons.wikimedia.org/wiki/File:Beau_021.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2076,7 +2076,7 @@ Otras imágenes
 
    `Matthew Bowden. <https://commons.wikimedia.org/wiki/File:Colorful_bottle.jpg>`__
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2090,7 +2090,7 @@ Otras imágenes
 
    `Yurko <https://commons.wikimedia.org/wiki/File:Single_Polymer_Chains_AFM.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2104,7 +2104,7 @@ Otras imágenes
 
    `Feralbt <https://commons.wikimedia.org/wiki/File:Botella_de_pl%C3%A1stico_-_PET.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2118,7 +2118,7 @@ Otras imágenes
 
    `UsKhalid <https://commons.wikimedia.org/wiki/File:The_PVC_pipe.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2132,7 +2132,7 @@ Otras imágenes
 
    `Hispalois <https://commons.wikimedia.org/wiki/File:Caja_CD_polipropileno.JPG>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2146,7 +2146,7 @@ Otras imágenes
 
    `Phyrexian <https://commons.wikimedia.org/wiki/File:Polistirolo.JPG>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2160,7 +2160,7 @@ Otras imágenes
 
    `Emilian Robert <https://www.flickr.com/photos/28958738@N06/4817475598>`__,
    `Public Domain <https://en.wikipedia.org/wiki/Public_domain>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2174,7 +2174,7 @@ Otras imágenes
 
    `Miya.m <https://commons.wikimedia.org/wiki/File:PTFE_tape01.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2188,7 +2188,7 @@ Otras imágenes
 
    `DJSparky <https://commons.wikimedia.org/wiki/File:Safety_Eyewear.jpg>`__,
    `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2202,7 +2202,7 @@ Otras imágenes
 
    `Alchemist-hp <https://commons.wikimedia.org/wiki/File:Safety_Eyewear.jpg>`__,
    `CC BY-SA 3.0 Germany <https://creativecommons.org/licenses/by-sa/3.0/de/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2216,7 +2216,7 @@ Otras imágenes
 
    `Holger Ellgaard <https://es.wikipedia.org/wiki/Archivo:Ericsson_bakelittelefon_1931.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2230,7 +2230,7 @@ Otras imágenes
 
    `Laidler139 <https://commons.wikimedia.org/wiki/File:MFBs.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2244,7 +2244,7 @@ Otras imágenes
 
    `Diario de Madrid <https://commons.wikimedia.org/wiki/File:Comienza_la_recogida_de_vidrio_%E2%80%98puerta_a_puerta%E2%80%99_en_zonas_de_alta_densidad_hostelera_(02).jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2258,7 +2258,7 @@ Otras imágenes
 
    `Pieria <https://commons.wikimedia.org/wiki/File:Urethane_sponge1.jpg>`__,
    `Public Domain <https://en.wikipedia.org/wiki/Public_domain>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2272,7 +2272,7 @@ Otras imágenes
 
    `Melkom <https://commons.wikimedia.org/wiki/File:PVC-Handschuh.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2286,7 +2286,7 @@ Otras imágenes
 
    `Mark.murphy <https://commons.wikimedia.org/wiki/File:Diving_suit_neoprene.jpg>`__,
    `Public Domain <https://en.wikipedia.org/wiki/Public_domain>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2300,7 +2300,7 @@ Otras imágenes
 
    `Achim Hering <https://commons.wikimedia.org/wiki/File:Caulking.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2315,7 +2315,7 @@ Otras imágenes
    `Chris828
    <https://commons.wikimedia.org/wiki/File:Checkvalveclosed.svg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2330,7 +2330,7 @@ Otras imágenes
    `Chris828
    <https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2345,7 +2345,7 @@ Otras imágenes
    `H Padleckas
    <https://commons.wikimedia.org/wiki/File:Valve_cross-section.PNG>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2359,7 +2359,7 @@ Otras imágenes
 
    `Afrank99 <https://commons.wikimedia.org/wiki/File:M4_Inbusschraube_focusstacked.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2374,7 +2374,7 @@ Otras imágenes
    con un tornillo que mueve el mecanismo.
 
    `Interiot <https://commons.wikimedia.org/wiki/File:Jackscrew.gif>`__,
-   Public Domain, via Wikimedia Commons.
+   Public Domain, vía Wikimedia Commons.
 
 ----
 
@@ -2388,7 +2388,7 @@ Otras imágenes
 
    `Swfung8 <https://commons.wikimedia.org/wiki/File:Merge-sort-example-300px.gif>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2397,11 +2397,11 @@ Otras imágenes
 
 .. figure:: legal/external-images/copyright-logo-tb.png
 
-   Logotipo de copyright (derechos de autor reservados).
+   Logotipo de derechos de autor reservados (copyright).
 
    `Masur <https://es.wikipedia.org/wiki/Archivo:Copyright.svg>`__,
    dominio público,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2414,7 +2414,7 @@ Otras imágenes
 
    `Zscout370 <https://commons.wikimedia.org/wiki/File:Copyleft.svg>`__,
    dominio público,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 ----
 
@@ -2451,4 +2451,18 @@ Otras imágenes
 
    `Waldir <https://commons.wikimedia.org/wiki/File:PD-icon-black.svg>`__,
    dominio público,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
+
+----
+
+..
+   source: robotica-microbit-index.rst
+
+.. figure:: legal/external-images/bbc-microbit-v2-tb.jpg
+   :alt: Placa controladora BBC micro:bit v2.
+
+   Placa controladora BBC micro:bit v2.
+
+   `SimonWaldherr <https://commons.wikimedia.org/wiki/File:BBC_micro_bit_v2_(1).jpg>`__,
+   `CC BY-SA 4.0 international <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
+   vía Wikimedia Commons.

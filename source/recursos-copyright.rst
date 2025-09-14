@@ -27,7 +27,7 @@ programas de ordenador, entre otras.
 
    `Masur <https://es.wikipedia.org/wiki/Archivo:Copyright.svg>`__,
    dominio público,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 El derecho de autor protege las expresiones creativas, pero no las ideas,
 hechos, conocimientos o conceptos generales. Por eso, una obra puede
@@ -103,7 +103,7 @@ y sus derivados sigan siendo libres.
 
    `Zscout370 <https://commons.wikimedia.org/wiki/File:Copyleft.svg>`__,
    dominio público,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 Este tipo de licencias fomentan el acceso al conocimiento, su difusión y
 la creación colaborativa de cultura, lo que explica su gran importancia.
@@ -186,7 +186,7 @@ publicarla o usarla libremente sin pedir permiso.
 
    `Waldir <https://commons.wikimedia.org/wiki/File:PD-icon-black.svg>`__,
    dominio público,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 El autor también puede decidir regalar su obra al dominio público

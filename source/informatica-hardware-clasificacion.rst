@@ -67,7 +67,7 @@ apartados.
 
          `Avia Husk <https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_6.jpg>`__,
          `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Ordenador de una sola placa (SBC)
@@ -89,7 +89,7 @@ apartados.
          Raspberry Pi 2 model B.
 
          `Evan-Amos <https://commons.wikimedia.org/wiki/File:Raspberry-Pi-2-Bare-BR.jpg>`__,
-         Public Domain, via Wikimedia Commons.
+         Public Domain, vía Wikimedia Commons.
 
 
    SmartTV
@@ -118,7 +118,7 @@ apartados.
 
          `PAG DEV <https://commons.wikimedia.org/wiki/File:Amazon_Fire_TV_4k.jpg>`__,
          `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Videoconsolas
@@ -141,7 +141,7 @@ apartados.
          Sony PlayStation 4 de 2014.
 
          `Evan-Amos <https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg>`__,
-         Public Domain, via Wikimedia Commons.
+         Public Domain, vía Wikimedia Commons.
 
 
    Ordenadores dedicados
@@ -174,7 +174,7 @@ apartados.
 
          `SimonWaldherr <https://commons.wikimedia.org/wiki/File:IPhone_13_Pro.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Tableta
@@ -265,7 +265,7 @@ apartados.
 
          `Hindermath <https://commons.wikimedia.org/wiki/File:Nec-cluster.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
    Superordenador
       Un `superordenador <https://es.wikipedia.org/wiki/Supercomputadora>`__
@@ -293,7 +293,7 @@ apartados.
 
          `Vcarceler <https://commons.wikimedia.org/wiki/File:BSC-MareNostrum4-F.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
 Test de la unidad

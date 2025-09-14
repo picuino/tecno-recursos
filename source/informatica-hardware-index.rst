@@ -18,7 +18,7 @@ que componen un ordenador.
 
    `Evan-Amos <https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 .. toctree::

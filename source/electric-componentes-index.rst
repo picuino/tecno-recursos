@@ -19,7 +19,7 @@ Componentes eléctricos.
    `Sebastian Stabinger
    <https://commons.wikimedia.org/wiki/File:Kommutator_universalmotor_stab.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 .. toctree::
    :numbered: 1

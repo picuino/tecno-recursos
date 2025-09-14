@@ -46,7 +46,7 @@ Formato de `imagen vectorial <https://es.wikipedia.org/wiki/Gr%C3%A1fico_vectori
 
    `Yug <https://commons.wikimedia.org/wiki/File:Bitmap_VS_SVG.svg>`__,
    `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 .. contents:: Índice de contenidos:
@@ -319,7 +319,7 @@ hasta completar la imagen.
 
          `Zaqwerdx <https://commons.wikimedia.org/wiki/File:Rotating_earth_mini.gif>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
    TIFF
       El formato `TIFF
@@ -504,7 +504,7 @@ o calidad.
 
          `Stephen Winsor <https://commons.wikimedia.org/wiki/File:Tomate.svg>`__,
          `GNU General Public License v3 <https://www.gnu.org/licenses/gpl-3.0.html>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    PDF

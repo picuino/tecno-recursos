@@ -117,7 +117,7 @@ está en funcionamiento.
    `S. J. de Waard
    <https://commons.wikimedia.org/wiki/File:Rotterdam_Ahoy_Europort_2011_(14).JPG>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 1. Rotor de jaula de ardilla (inducido).
 
@@ -144,7 +144,7 @@ está en funcionamiento.
    `Sebastian Stabinger
    <https://commons.wikimedia.org/wiki/File:Kommutator_universalmotor_stab.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 10. Colector con delgas de conexión.
 

@@ -102,7 +102,7 @@ Pétreos naturales
 
       `Lysippos <https://commons.wikimedia.org/wiki/File:Milv.jpg>`__,
       `CC BY-SA 2.0 DE <https://creativecommons.org/licenses/by-sa/2.0/de/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 **Granito**
    Se ha utilizado desde la prehistoria para la construcción y es muy
@@ -122,7 +122,7 @@ Pétreos naturales
 
       `Rojinegro81 <https://commons.wikimedia.org/wiki/File:Roca_Granito.JPG>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 **Pizarra**
@@ -136,7 +136,7 @@ Pétreos naturales
 
       `Dontworry <https://commons.wikimedia.org/wiki/File:St.leonhard-ffm002.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 **Piedra caliza**
@@ -156,7 +156,7 @@ Pétreos naturales
 
       `Berthold Werner <https://commons.wikimedia.org/wiki/File:Gizeh_Cheops_BW_1.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 **Piedra arenisca**
@@ -172,7 +172,7 @@ Pétreos naturales
 
       `Sarranpa <https://commons.wikimedia.org/wiki/File:Arenisca.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 **Grava y arenas**
@@ -237,7 +237,7 @@ y adoptan una consistencia pétrea.
 
       `Dafran <https://commons.wikimedia.org/wiki/File:Hormigon-autonivelante.png>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Pétreos cerámicos
@@ -261,7 +261,7 @@ fusión.
 
       `Siim Sepp <https://commons.wikimedia.org/wiki/File:Clay-ss-2005.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 **Loza**
    Se fabrica con arcilla mezclada con arena. Es un material poroso igual
@@ -276,7 +276,7 @@ fusión.
 
       `Lourdes Cardenal <https://commons.wikimedia.org/wiki/File:Cuenco_barro_ceramica_popular_lou.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 **Gres**
@@ -294,7 +294,7 @@ fusión.
 
       `Patrick Charpiat <https://commons.wikimedia.org/wiki/File:Beau_021.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 **Porcelana**
@@ -334,7 +334,7 @@ mayor resistencia mecánica.
 
    `Matthew Bowden. <https://commons.wikimedia.org/wiki/File:Colorful_bottle.jpg>`__
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 Cuestionarios

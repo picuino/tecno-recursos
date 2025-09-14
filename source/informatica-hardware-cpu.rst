@@ -50,7 +50,7 @@ inteligentes (smart) utilizan CPU basadas en arquitectura ARM
 
    `Solipsist <https://commons.wikimedia.org/wiki/File:Intel_80486DX2_bottom.jpg>`__,
    `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 Coprocesador matemático (:index:`FPU`)
@@ -106,7 +106,7 @@ dibujar triángulos, cuadrados, elipses, etc.
    Tarjeta gráfica Radeon HD 5570.
 
    `Evan-Amos <https://commons.wikimedia.org/wiki/File:Sapphire-Radeon-HD-5570-Video-Card.jpg>`__,
-   Public Domain, via Wikimedia Commons.
+   Public Domain, vía Wikimedia Commons.
 
 
 Unidad de procesamiento tensorial (:index:`TPU`)

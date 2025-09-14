@@ -61,7 +61,7 @@ amarillo y verde.
 
    `Ali K <https://en.wikipedia.org/wiki/File:HomeEarthRodAustralia1.jpg>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 A partir de la tensión de tierra las tensiones pueden ser tanto positivas

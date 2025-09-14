@@ -67,7 +67,7 @@ más se utilizan usualmente.
          `Raiden32
          <https://commons.wikimedia.org/wiki/File:Presa_Aldead%C3%A1vila_desembalsando.JPG>`__,
          `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Energía cinética
@@ -93,7 +93,7 @@ más se utilizan usualmente.
          `Hans Hillewaert
          <https://commons.wikimedia.org/wiki/File:Windmills_D1-D4_(Thornton_Bank).jpg>`__,
          `CC BY-SA 4.0 International <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Energía mecánica
@@ -115,7 +115,7 @@ más se utilizan usualmente.
          `Silberwolf
          <https://commons.wikimedia.org/wiki/File:Cardan-joint_intermediate-shaft_topview_animated.gif>`__,
          `CC BY-SA 2.5 Generic <https://creativecommons.org/licenses/by-sa/2.5/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Energía térmica
@@ -145,7 +145,7 @@ más se utilizan usualmente.
          `Ivan Radic
          <https://commons.wikimedia.org/wiki/File:Gas_stove_flame.jpg>`__,
          `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Energía química
@@ -175,7 +175,7 @@ más se utilizan usualmente.
          `Rama
          <https://commons.wikimedia.org/wiki/File:Petrol_pump_mp3h0355.jpg>`__,
          `CC BY-SA 2.0 France <https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Energía nuclear
@@ -197,7 +197,7 @@ más se utilizan usualmente.
          `Mr. Tickle
          <https://commons.wikimedia.org/wiki/File:Nuclear_power_station_in_Almonacid_de_Zorita_(Spain).jpg>`__,
          `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Energía radiante
@@ -220,7 +220,7 @@ más se utilizan usualmente.
          `David Hawgood
          <https://commons.wikimedia.org/wiki/File:Installation_of_solar_PV_panels_-_panels_in_place_-_geograph.org.uk_-_2624288.jpg>`__,
          `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Energía eléctrica
@@ -251,7 +251,7 @@ más se utilizan usualmente.
          `John R. Southern
          <https://commons.wikimedia.org/wiki/File:Krunkwerke_-_IMG_4515_(by-sa).jpg>`__,
          `CC BY-SA 2.0 Generic <https://creativecommons.org/licenses/by-sa/2.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       Una desventaja de la energía eléctrica consiste en que
       **no se puede almacenar con facilidad**,
@@ -385,7 +385,7 @@ de convertir en otras formas de energía de manera eficiente.
    `Achim Grochowski
    <https://commons.wikimedia.org/wiki/File:Lichtbogen_3000_Volt.jpg>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 Ventajas de la energía eléctrica
    * Puede obtenerse con facilidad a partir de otras formas de energía

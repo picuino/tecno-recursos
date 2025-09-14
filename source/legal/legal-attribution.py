@@ -10,7 +10,7 @@ header_file = 'legal-attribution.txt'
 output_file = '../legal-attribution.rst'
 output_discard = 'legal-internal-figures.txt'
 
-filter_external = 'Wikimedia Commons|Pixabay|Pexels|wikimedia\.org|Creative Commons|Free Software Foundation'
+filter_external = 'Wikimedia Commons|wikimedia\.org|Pixabay|Pexels|Creative Commons|Free Software Foundation'
 extensions = ['.rst']
 excludes = ['legal-attribution.rst']
 

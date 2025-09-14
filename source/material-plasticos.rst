@@ -32,7 +32,7 @@ entre sí, llamadas monómeros.
 
    `Yurko <https://commons.wikimedia.org/wiki/File:Single_Polymer_Chains_AFM.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 Los `monómeros <https://es.wikipedia.org/wiki/Mon%C3%B3mero>`__ son
@@ -132,7 +132,7 @@ endurecerse cuando se enfrían.
 
       `Feralbt <https://commons.wikimedia.org/wiki/File:Botella_de_pl%C3%A1stico_-_PET.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Polietileno (PE) <https://es.wikipedia.org/wiki/Polietileno>`__
@@ -160,7 +160,7 @@ endurecerse cuando se enfrían.
 
       `UsKhalid <https://commons.wikimedia.org/wiki/File:The_PVC_pipe.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Polipropileno (PP) <https://es.wikipedia.org/wiki/Polipropileno>`__
@@ -178,7 +178,7 @@ endurecerse cuando se enfrían.
 
       `Hispalois <https://commons.wikimedia.org/wiki/File:Caja_CD_polipropileno.JPG>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Poliestireno (PS) <https://es.wikipedia.org/wiki/Poliestireno>`__
@@ -197,7 +197,7 @@ endurecerse cuando se enfrían.
 
       `Phyrexian <https://commons.wikimedia.org/wiki/File:Polistirolo.JPG>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Símbolos de reciclaje
@@ -232,7 +232,7 @@ al calor que los termoplásticos comunes.
 
       `Emilian Robert <https://www.flickr.com/photos/28958738@N06/4817475598>`__,
       `Public Domain <https://en.wikipedia.org/wiki/Public_domain>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Teflón <https://es.wikipedia.org/wiki/Tefl%C3%B3n>`__
@@ -253,7 +253,7 @@ al calor que los termoplásticos comunes.
 
       `Miya.m <https://commons.wikimedia.org/wiki/File:PTFE_tape01.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Policarbonato <https://es.wikipedia.org/wiki/Policarbonato>`__
@@ -271,7 +271,7 @@ al calor que los termoplásticos comunes.
 
       `DJSparky <https://commons.wikimedia.org/wiki/File:Safety_Eyewear.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Metacrilato <https://es.wikipedia.org/wiki/Polimetacrilato_de_metilo>`__
@@ -291,7 +291,7 @@ al calor que los termoplásticos comunes.
 
       `Alchemist-hp <https://commons.wikimedia.org/wiki/File:Safety_Eyewear.jpg>`__,
       `CC BY-SA 3.0 Germany <https://creativecommons.org/licenses/by-sa/3.0/de/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 
@@ -318,7 +318,7 @@ madera.
 
       `Holger Ellgaard <https://es.wikipedia.org/wiki/Archivo:Ericsson_bakelittelefon_1931.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Melamina <https://es.wikipedia.org/wiki/Melamina>`__
@@ -335,7 +335,7 @@ madera.
 
       `Laidler139 <https://commons.wikimedia.org/wiki/File:MFBs.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Resina epoxi <https://es.wikipedia.org/wiki/Epoxi>`__
@@ -356,7 +356,7 @@ madera.
 
       `Diario de Madrid <https://commons.wikimedia.org/wiki/File:Comienza_la_recogida_de_vidrio_%E2%80%98puerta_a_puerta%E2%80%99_en_zonas_de_alta_densidad_hostelera_(02).jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Poliuretano <https://es.wikipedia.org/wiki/Poliuretano>`__
@@ -373,7 +373,7 @@ madera.
 
       `Pieria <https://commons.wikimedia.org/wiki/File:Urethane_sponge1.jpg>`__,
       `Public Domain <https://en.wikipedia.org/wiki/Public_domain>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 :index:`Elastómeros`
@@ -398,7 +398,7 @@ inicial.
 
       `Melkom <https://commons.wikimedia.org/wiki/File:PVC-Handschuh.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Neopreno <https://es.wikipedia.org/wiki/Neopreno>`__
@@ -417,7 +417,7 @@ inicial.
 
       `Mark.murphy <https://commons.wikimedia.org/wiki/File:Diving_suit_neoprene.jpg>`__,
       `Public Domain <https://en.wikipedia.org/wiki/Public_domain>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 `Silicona <https://es.wikipedia.org/wiki/Silicona>`__
@@ -438,7 +438,7 @@ inicial.
 
       `Achim Hering <https://commons.wikimedia.org/wiki/File:Caulking.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 Preguntas de la unidad
 ----------------------

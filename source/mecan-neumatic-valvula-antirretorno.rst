@@ -38,7 +38,7 @@ En esta posición la esfera no permite el paso de aire hacia abajo:
    `Chris828
    <https://commons.wikimedia.org/wiki/File:Checkvalveclosed.svg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 Cuando el aire a presión llega desde abajo, la esfera se levanta por la
 presión del aire (mucho mayor que la fuerza del muelle) permitiendo que
@@ -54,7 +54,7 @@ circule el aire a presión hacia arriba:
    `Chris828
    <https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 La válvula estranguladora
@@ -88,7 +88,7 @@ de la abertura, menos caudal de aire permitirá pasar.
    `H Padleckas
    <https://commons.wikimedia.org/wiki/File:Valve_cross-section.PNG>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 La válvula estranguladora unidireccional

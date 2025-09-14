@@ -35,7 +35,7 @@ interruptores de mayor corriente y tensión en el circuito de potencia.
 
    `Digigalos <https://commons.wikimedia.org/wiki/File:Relay_principle_horizontal_new.gif>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 De esta forma conseguimos que una pequeña corriente eléctrica sea capaz
 de mover circuitos de mucha potencia.

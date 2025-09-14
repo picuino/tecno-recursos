@@ -99,7 +99,7 @@ periódica.
 
    `2012rc <https://commons.wikimedia.org/wiki/File:Periodic_table_large-es-updated-2018.svg>`__,
    `CC BY 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 Aleaciones

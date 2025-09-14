@@ -102,7 +102,7 @@ Son las memorias más rápidas y cercanas a la unidad central de proceso.
 
          `Smial <https://commons.wikimedia.org/wiki/File:DDR4_DIMM_4GB_-2133_IMGP5813_smial_wp.jpg>`__,
          `GNU Free Documentation License <https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       La desventaja de la memoria RAM consiste en que pierde sus datos
       cuando se apaga la alimentación del ordenador. Además suele ser
@@ -176,7 +176,7 @@ de almacenamiento.
          `Raimond Spekking
          <https://commons.wikimedia.org/wiki/File:Elitegroup_755-A2_-_Phoenix_Bios_D686-6679.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Unidad de disco duro (HDD)
@@ -207,7 +207,7 @@ de almacenamiento.
 
          `Dmitry Makeev <https://commons.wikimedia.org/wiki/File:3.5%22_-_hard_disks.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Unidad de estado sólido (SSD)
@@ -230,7 +230,7 @@ de almacenamiento.
 
          `D-Kuru <https://commons.wikimedia.org/wiki/File:Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Comparativa entre HDD y SSD
@@ -364,7 +364,7 @@ y facilidad de transporte.
 
          `Evan-Amos <https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg>`__,
          Public Domain,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Tarjeta SD
@@ -386,7 +386,7 @@ y facilidad de transporte.
 
          `Afrank99 <https://commons.wikimedia.org/wiki/File:MicroSD_cards_2GB_4GB_8GB.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Dispositivos de almacenamiento óptico
@@ -406,7 +406,7 @@ y facilidad de transporte.
 
          `Don-vip <https://commons.wikimedia.org/wiki/File:Windows_2000_SP4_install_disc_(French).jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
       Todas ellas se basan en una lámina de material metálico plateado que
@@ -427,7 +427,7 @@ y facilidad de transporte.
 
          `Freiermensch <https://commons.wikimedia.org/wiki/File:Afm_cd-rom.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
       Las características típicas de los distintos dispositivos de
@@ -492,7 +492,7 @@ y facilidad de transporte.
 
          `Racer009 <https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg>`__,
          `CC0 1.0 <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
       En el momento en el que salieron al mercado, estas unidades de
       almacenamiento óptico tenían más capacidad que los propios discos
@@ -550,7 +550,7 @@ y facilidad de transporte.
 
          `Hannes Grobe <https://commons.wikimedia.org/wiki/File:400gb-lto-tape_hg.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Discos flexibles
@@ -576,7 +576,7 @@ y facilidad de transporte.
 
          `George Chernilevsky <https://commons.wikimedia.org/wiki/File:Floppy_disk_2009_G1.jpg>`__,
          Public Domain,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
 Almacenamiento en red
@@ -613,7 +613,7 @@ almacenamiento se puedan optimizar y compartir entre varios ordenadores.
 
          `Radha 1100 <https://commons.wikimedia.org/wiki/File:Synology_DS1621xs%2B_6_Bay_Network_Attached_Storage.png>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Almacenamiento en la nube

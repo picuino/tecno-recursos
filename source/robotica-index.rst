@@ -22,6 +22,8 @@ Control de Sistemas Automáticos y Robótica.
    control-index.rst
    control-actuator-index.rst
    control-sensor-index.rst
+   
+   robotica-microbit-index.rst
 
    robotica-normativa.rst
    robotica-recursos.rst

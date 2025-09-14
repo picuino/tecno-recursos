@@ -27,7 +27,7 @@ Las resistencias tienen tres grandes aplicaciones:
 
      `Acosta.eu <https://en.wikipedia.org/wiki/File:Heizstab-heatingelement-espressomachine.jpg>`__,
      `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-     via Wikimedia Commons.
+     vía Wikimedia Commons.
 
 * **Reducir la corriente.** Es el caso de las resistencias que se colocan
   en serie con los ledes para que estos no se quemen al conectarlos a la

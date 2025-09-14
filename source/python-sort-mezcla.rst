@@ -37,7 +37,7 @@ hasta que toda la lista original se encuentra ordenada.
 
    `Swfung8 <https://commons.wikimedia.org/wiki/File:Merge-sort-example-300px.gif>`__,
    `CC BY-SA 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 Programa de ordenación

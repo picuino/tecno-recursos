@@ -52,7 +52,7 @@ Elementos auxiliares
 
          `AnthDaniel <https://commons.wikimedia.org/wiki/File:UPSAPC.jpg>`__,
          `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Refrigeración por aire
@@ -91,7 +91,7 @@ Elementos auxiliares
 
          `Llama roja <https://commons.wikimedia.org/wiki/File:Refrigeraci%C3%B3n_l%C3%ADquida_en_un_computador.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Caja
@@ -132,7 +132,7 @@ Elementos auxiliares
 
          `Krzysztof Woźnica <https://commons.wikimedia.org/wiki/File:Battery-lithium-cr2032.jpg>`__,
          Public Domain,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
    Reloj en tiempo real
@@ -164,7 +164,7 @@ Elementos auxiliares
 
          `Acuantico <https://commons.wikimedia.org/wiki/File:For_the_Horde_Mod_by_Acu%C3%A1ntico_Power.jpg>`__,
          `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-         via Wikimedia Commons.
+         vía Wikimedia Commons.
 
 
 Test de la unidad

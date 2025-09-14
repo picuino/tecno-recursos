@@ -49,7 +49,7 @@ solares fotovoltaicas.
 
    `Lead Holder <https://commons.wikimedia.org/wiki/File:AA_AAA_AAAA_A23_battery_comparison-1.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 .. figure:: electric/_images/electric-alternador.jpg
@@ -61,7 +61,7 @@ solares fotovoltaicas.
 
    `El Guarito <https://commons.wikimedia.org/wiki/File:Alternador_003.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 .. figure:: electric/_images/electric-fotovoltaic-array.jpg
@@ -72,7 +72,7 @@ solares fotovoltaicas.
    Panel fotovoltaico de generación eléctrica solar.
 
    `Saintfevrier <https://commons.wikimedia.org/wiki/File:Solar_tracker_in_Lixouri.jpg>`__,
-   Public domain, via Wikimedia Commons.
+   Public domain, vía Wikimedia Commons.
 
 
 
@@ -97,7 +97,7 @@ Cobre:
 
       `Petar Milošević <https://commons.wikimedia.org/wiki/File:Electric_guide_3%C3%972.5_mm.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Aluminio y acero:
@@ -114,7 +114,7 @@ Aluminio y acero:
 
       `Albarubescens <https://commons.wikimedia.org/wiki/File:High_voltage_cables_with_glass_insulators.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Oro, níquel y cromo:
@@ -131,7 +131,7 @@ Oro, níquel y cromo:
 
       `Phiarc <https://commons.wikimedia.org/wiki/File:M.2_2230_M-key_SSD_in_comparison_with_Micro-SD_card.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Estaño, plomo y plata:
@@ -149,7 +149,7 @@ Estaño, plomo y plata:
 
       `Phiarc <https://commons.wikimedia.org/wiki/File:Many_different_SMD_capacitors.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Receptores
@@ -170,7 +170,7 @@ microondas, frigorífico, televisor, etc.
 
    `Mcapdevila <https://commons.wikimedia.org/wiki/File:60_LED_3W_Spot_Light_eq_25W.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 .. figure:: electric/_images/electric-vitroceramica.jpg
@@ -182,7 +182,7 @@ microondas, frigorífico, televisor, etc.
 
    `A.Savin <https://commons.wikimedia.org/wiki/File:Electric_stove_coil_with_glass_ceramic_cooktop.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
-   via Wikimedia Commons.
+   vía Wikimedia Commons.
 
 
 Elementos de control
@@ -214,7 +214,7 @@ Accionamiento manual:
 
       `Jszack <https://en.wikipedia.org/wiki/File:On-Off_Switch.jpg>`__,
       `CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Protección eléctrica:
@@ -236,7 +236,7 @@ Protección eléctrica:
 
       `Raimond Spekking <https://commons.wikimedia.org/wiki/File:Moeller_Xpole_PXF-40-4-003-A-2289.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Accionamiento automático:
@@ -260,7 +260,7 @@ Accionamiento automático:
 
       `MMFE <https://commons.wikimedia.org/wiki/File:Lift_Luxembourg_Ville-Haute_-_Grund_01.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
-      via Wikimedia Commons.
+      vía Wikimedia Commons.
 
 
 Cuestionarios
