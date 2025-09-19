@@ -44,7 +44,7 @@ EducaMadrid por otra que nosotros queramos.
 
    .. image:: informatica/_images/informatica-av-educamadrid-1.png
       :align: center
-      :alt: Buscar web de Educamadrid.
+      :alt: Buscar web de EducaMadrid.
 
    |br|
 

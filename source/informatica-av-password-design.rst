@@ -10,11 +10,11 @@ Crear una contraseña
 =====================
 En esta práctica vamos a aprender a crear una contraseña que sea segura
 y que sea fácil de recordar. Más tarde podemos utilizar esa contraseña
-para utilizarla en EducaMadrid.
+para cambiar la contraseña por defecto de EducaMadrid.
 
 |br|
 
-#. Primero vamos a elegir 3 o 4 palabras divertidas y que no sean
+#. Primero vamos a elegir 3 o 4 palabras divertidas, que no sean
    personales y que no tengan relación entre sí.
 
    Palabras de ejemplo: **gato**, **luna**, **pizza**, **cohete**.

@@ -5,6 +5,14 @@
    <br />
 
 
+.. =====================
+   ICONOS DE EDUCAMADRID
+   =====================
+
+.. |icono-redactar| image:: informatica/_images/informatica-av-icono-redactar.png
+                      :align: middle
+
+
 .. ==================
    TECLAS DEL TECLADO
    ==================
