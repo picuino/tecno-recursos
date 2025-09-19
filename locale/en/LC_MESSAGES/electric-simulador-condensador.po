@@ -1,0 +1,183 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-09-15 18:24+0200"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
+
+
+#: ../../source/electric-simulador-condensador.rst:9
+msgid "El :index:`Condensador`"
+msgstr "El: Index: `Capacitor`"
+
+#: ../../source/electric-simulador-condensador.rst:10
+msgid ""
+"Un condensador es un componente que puede almacenar energía eléctrica igual "
+"que lo hace una pila recargable, pero con dos diferencias. La energía "
+"almacenada es mucho menor que la de una pila y los ciclos de carga y "
+"descarga que soporta un condensador son de muchos miles de millones, "
+"mientras que una pila recargable solo soporta pocos cientos de ciclos."
+msgstr ""
+"A capacitor is a component that can store electricity just like a "
+"rechargeable battery does, but with two differences. The stored energy is "
+"much lower than that of a battery and the loading and download cycles that "
+"support a capacitor are many billions, while a rechargeable battery only "
+"supports few hundred cycles."
+
+#: ../../source/electric-simulador-condensador.rst:17
+msgid "El símbolo de un condensador es el siguiente:"
+msgstr "The symbol of a capacitor is as follows:"
+
+#: ../../source/electric-simulador-condensador.rst:24
+msgid "Símbolo del condensador."
+msgstr "Capacitor symbol."
+
+#: ../../source/electric-simulador-condensador.rst:26
+msgid "Las aplicaciones prácticas de los condensadores son muy variadas:"
+msgstr "The practical applications of the capacitor are very varied:"
+
+#: ../../source/electric-simulador-condensador.rst:28
+msgid "Mantener constante la tensión de salida de una fuente de alimentación."
+msgstr "Keep the output voltage of a power supply constant."
+
+#: ../../source/electric-simulador-condensador.rst:29
+msgid "Medir tiempos gracias a su tiempo de carga y descarga."
+msgstr "Measure times thanks to its loading and download time."
+
+#: ../../source/electric-simulador-condensador.rst:30
+msgid "Filtrado de señales de sonido en los ecualizadores."
+msgstr "Sound signal filtering in equalizers."
+
+#: ../../source/electric-simulador-condensador.rst:34
+msgid "Filtro de alimentación"
+msgstr "Power filter"
+
+#: ../../source/electric-simulador-condensador.rst:35
+msgid ""
+"Los transformadores de tensión utilizados en las fuentes de alimentación "
+"siempre suministran tensión alterna a su salida. Cuando queremos transformar"
+" esta tensión alterna en tensión continua es necesario añadir un "
+"rectificador (un diodo, un componente que estudiaremos en detalle más "
+"adelante) y también es necesario añadir **un condensador** para suavizar la "
+"tensión de salida."
+msgstr ""
+"The voltage transformers used in feeding sources always provide alternate "
+"voltage to their output. When we want to transform this alternate voltage in"
+" continuous voltage it is necessary to add a rectifier (a diode, a component"
+" that we will study in detail later) and it is also necessary to add **a "
+"capacitor** to soften the output voltage."
+
+#: ../../source/electric-simulador-condensador.rst:42
+msgid ""
+"En el siguiente circuito podemos ver dos transformadores con sus tensiones "
+"de entrada y sus tensiones de salida ya rectificadas. El primer "
+"transformador muestra a la salida picos de tensión positivos que no están "
+"suavizados al no tener condensador. El segundo transformador tiene, además, "
+"un condensador que \"suaviza\" los picos de tensión, por lo que la tensión "
+"de salida apenas muestra variaciones."
+msgstr ""
+"In the following circuit we can see two translators with their input "
+"tensions and their output tensions already rectified. The first transformer "
+"shows positive tension peaks that are not softened by not having a "
+"capacitor. The second transformer also has a capacitor that \"softens \" "
+"tension peaks, so the output voltage barely shows variations."
+
+#: ../../source/electric-simulador-condensador.rst:55
+msgid ""
+"La función del condensador es almacenar energía eléctrica durante los picos "
+"positivos de tensión del transformador y suministrar energía eléctrica "
+"durante los momentos en los que el transformador no lo hace, manteniendo así"
+" la tensión de salida constante."
+msgstr ""
+"The capacitor function is to store electricity during positive transformer "
+"voltage peaks and supply electricity during the times when the transformer "
+"does not, thus maintaining the constant output voltage."
+
+#: ../../source/electric-simulador-condensador.rst:62
+msgid "Oscilador con condensador"
+msgstr "Oscillator with capacitor"
+
+#: ../../source/electric-simulador-condensador.rst:63
+msgid ""
+"En este circuito temporizador, el condensador tarda un tiempo en cargarse y "
+"en descargarse de energía eléctrica a través de la resistencia. Ese tiempo "
+"de carga y descarga es el que determina el tiempo de oscilación de una "
+"puerta electrónica. Estos osciladores tienen muchas aplicaciones prácticas "
+"en todo tipo de circuitos digitales."
+msgstr ""
+"In this timer circuit, the capacitor takes a while to charge and discharge "
+"from electricity through resistance. That loading and download time is the "
+"one that determines the oscillation time of an electronic door. These "
+"oscillators have many practical applications in all types of digital "
+"circuits."
+
+#: ../../source/electric-simulador-condensador.rst:76
+msgid ""
+"A la izquierda se puede ver un osciloscopio con la tensión del condensador. "
+"Tan pronto como la tensión sube hasta los 3,33 voltios, la salida cambia a "
+"tensión de 0 voltios, obligando al condensador a descargarse. Tan pronto "
+"como la tensión del condensador baja de 1,66 voltios, la salida cambia a "
+"tensión positiva de 5 voltios, obligando al condensador a cargarse."
+msgstr ""
+"On the left you can see an oscilloscope with the capacitor tension. As soon "
+"as the tension rises to 3.33 volts, the exit changes to voltage of 0 volts, "
+"forcing the capacitor to download. As soon as the low capacitor voltage of "
+"1.66 volts, the exit changes to positive voltage of 5 volts, forcing the "
+"capacitor to load."
+
+#: ../../source/electric-simulador-condensador.rst:85
+msgid "Ejercicios"
+msgstr "Exercises"
+
+#: ../../source/electric-simulador-condensador.rst:86
+msgid ""
+"¿Qué es un condensador? ¿En qué se parece y en qué se diferencia de una pila"
+" recargable?"
+msgstr ""
+"What is a capacitor? What does it look like and how differs from a "
+"rechargeable battery?"
+
+#: ../../source/electric-simulador-condensador.rst:88
+msgid "Escribe tres aplicaciones prácticas de los condensadores."
+msgstr "Write three practical applications of the capacitor."
+
+#: ../../source/electric-simulador-condensador.rst:89
+msgid ""
+"Dibuja un circuito con un condensador que suavice los picos de tensión de "
+"salida de un transformador."
+msgstr ""
+"Draw a circuit with a capacitor that softens the output voltage peaks of a "
+"transformer."
+
+#: ../../source/electric-simulador-condensador.rst:91
+msgid "¿Qué función tiene un condensador de filtro de alimentación?"
+msgstr "What function does a feed filter capacitor have?"
+
+#: ../../source/electric-simulador-condensador.rst:92
+msgid "Dibuja un circuito con un condensador oscilador."
+msgstr "Draw a circuit with an oscillator capacitor."
+
+#: ../../source/electric-simulador-condensador.rst:93
+msgid ""
+"Cambia el valor del condensador para que la oscilación sea cinco veces más "
+"rápida. ¿Cuál es su valor ahora?"
+msgstr ""
+"Change the capacitor value so that the oscillation is five times faster. "
+"What is your value now?"
+
+#: ../../source/electric-simulador-condensador.rst:95
+msgid ""
+"Cambia el valor del condensador para que la oscilación sea dos veces más "
+"lenta. ¿Cuál es su valor ahora?"
+msgstr ""
+"Change the capacitor value so that the oscillation is twice slower. What is "
+"your value now?"

@@ -77,11 +77,11 @@ comprobar cómo todo el resto del circuito sigue funcionando:
 
 Ejercicios
 ----------
-#. ¿Qué es un circuito en paralelo y qué propiedades tiene?
+#. ¿Qué es un circuito en paralelo?
+#. ¿Qué propiedades tiene la conexión en paralelo?
 #. ¿Es común conectar las pilas en paralelo? Explica la respuesta.
 #. ¿Por qué se conectan los generadores de las centrales eléctricas
    en paralelo?
 #. Dibuja tres bombillas conectadas en paralelo a una pila.
-#. ¿Qué propiedades tiene la conexión en paralelo?
 #. ¿Qué ocurre si se funde una lámpara que está conectada en paralelo
    con otras lámparas?

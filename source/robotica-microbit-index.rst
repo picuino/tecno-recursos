@@ -26,3 +26,4 @@ Placa controladora micro:bit. Teoría y proyectos.
    :titlesonly:
 
    robotica-microbit-makeit.rst
+   robotica-microbit-makecode.rst

@@ -9,6 +9,10 @@ Micro:bit make it
 Proyectos con la placa micro:bit, publicados en microbit.org con licencia
 libre.
 
+`Características de la placa micro:bit 
+<https://www.microbit.org/es-es/get-started/features/overview/>`__
+
+
 .. contents:: Índice de contenidos:
    :local:
    :depth: 2

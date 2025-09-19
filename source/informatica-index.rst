@@ -12,12 +12,13 @@
 Tutoriales de ofimática y páginas Web.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :titlesonly:
 
    informatica-hardware-index.rst
    informatica-software-index.rst
 
+   informatica-av-index.rst
    informatica-tutoimpress.rst
    informatica-calc-index.rst
    informatica-writer-index.rst

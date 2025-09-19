@@ -468,7 +468,7 @@ Series de televisión
    interno de una central nuclear.
 
 
-Westworld (2016–2022)
+Westworld (2016-2022)
    62 min por episodio (4 temporadas, 36 episodios).
 
    Puntuación: `7,3 en Filmaffinity <https://www.filmaffinity.com/es/film430504.html/>`__.
@@ -502,7 +502,7 @@ Westworld (2016–2022)
    consecuencias.
 
 
-"Silicon Valley" (2014–2019)
+"Silicon Valley" (2014-2019)
    28 minutos por episodio (6 temporadas, 53 episodios).
 
    Puntuación: `7,4 en Filmaffinity <https://www.filmaffinity.com/es/film279751.html/>`__.
@@ -518,7 +518,7 @@ Westworld (2016–2022)
    al mito del emprendimiento en el mundo digital.
 
 
-"The IT Crowd" (2006–2013)
+"The IT Crowd" (2006-2013)
    25 minutos por episodio (4 temporadas, 24 episodios).
 
    Puntuación: `7,6 en Filmaffinity <https://www.filmaffinity.com/es/film914339.html/>`__.
