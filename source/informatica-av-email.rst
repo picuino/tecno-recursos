@@ -1,4 +1,4 @@
-﻿:Date: 19/09/2025
+﻿:Date: 20/09/2025
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
@@ -6,18 +6,18 @@
 
 .. _informatica-av-email:
 
-Enviar un email
-===============
-En esta práctica vamos a aprender a enviar un correo electrónico o email
-correctamente, usando todos los campos necesarios y atendiendo a las
-normas de etiqueta habituales.
+Enviar un correo
+================
+En esta práctica aprenderemos a enviar correctamente un correo
+electrónico o email, usando todos los campos necesarios y siguiendo
+las normas de etiqueta habituales.
 
 |br|
 
 #. El primer paso será abrir una **sesión de incógnito** del
    navegador Chrome.
 
-   Clicaremos con el **botón derecho del ratón** sobre el icono
+   Haremos clic con el **botón derecho del ratón** en el icono
    del navegador Chrome:
 
    .. figure:: informatica/_images/informatica-chrome.png
@@ -39,8 +39,8 @@ normas de etiqueta habituales.
 
    |br|
 
-#. Una vez abierta la ventana de incógnito, vamos a buscar la
-   web de EducaMadrid en la barra de direcciones y clicaremos
+#. Una vez abierta la ventana de incógnito, buscamos la
+   web de EducaMadrid en la barra de direcciones y haremos clic
    en el enlace a **EducaMadrid**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-1.png
@@ -49,7 +49,7 @@ normas de etiqueta habituales.
 
    |br|
 
-#. Dentro de la web de EducaMadrid, vamos a seleccionar el icono
+#. Dentro de la web de EducaMadrid, seleccionamos el icono
    **"Correo"**:
 
    .. image:: informatica/_images/informatica-av-correo-icono.png
@@ -58,7 +58,7 @@ normas de etiqueta habituales.
 
    |br|
 
-   A continuación clicaremos sobre el icono **"Acceder"**.
+   A continuación haremos clic sobre el botón **"Acceder"**.
 
    .. image:: informatica/_images/informatica-av-acceder-email.png
       :align: center
@@ -73,11 +73,11 @@ normas de etiqueta habituales.
    |br|
 
 #. Ahora escribiremos nuestro nombre de usuario, nuestra contraseña
-   y clicaremos **"INICIAR SESIÓN"** para terminar de entrar:
+   y haremos clic **"INICIAR SESIÓN"** para terminar de entrar:
 
    .. image:: informatica/_images/informatica-av-intro-email.png
       :align: center
-      :alt: Ventana de introducción de usuario y contraseña de email.
+      :alt: Ventana de introducción de usuario y contraseña del correo.
 
    |br|
 
@@ -85,22 +85,23 @@ normas de etiqueta habituales.
    bandeja de entrada, donde se pueden ver todos los correos que hemos
    recibido ordenados de más reciente a menos reciente.
 
-   Cada vez que cliquemos sobre uno de los correos, este se podrá
+   Cada vez que hagamos clic sobre uno de los correos, este se podrá
    leer en la ventana de la derecha del navegador.
 
    .. image:: informatica/_images/informatica-av-carpeta-entrada.png
       :align: center
-      :alt: Carpeta de entrada de correos del email EducaMadrid.
+      :alt: Carpeta de entrada de correos de EducaMadrid.
 
    |br|
 
-#. El siguiente paso será escribir un email a nuestro profesor.
-   Para poder escribir un email debemos clicar sobre el icono
+#. El siguiente paso será escribir un correo electrónico a nuestro
+   profesor.
+   Para poder escribir un correo debemos hacer clic sobre el icono
    de redactar un nuevo mensaje:
 
    .. image:: informatica/_images/informatica-av-icono-redactar.png
       :align: center
-      :alt: Icono redactar email.
+      :alt: Icono redactar correo electrónico.
 
    |br|
 
@@ -108,43 +109,47 @@ normas de etiqueta habituales.
 
    .. image:: informatica/_images/informatica-av-write-email.png
       :align: center
-      :alt: Ventana redactar email.
+      :alt: Ventana redactar correo electrónico.
 
    |br|
 
-#. El campo **"1"** es nuestro email y se escribe automáticamente.
-   No es necesario cambiarlo.
+#. El campo **"1"** es nuestra dirección de correo electrónico y se
+   escribe automáticamente. **No es necesario cambiarlo**.
 
    |br|
 
-#. El campo **"2"** es el email de nuestro profesor.
-   Pregúntale cuál es y escríbelo en esa casilla.
+#. El campo **"2"** es la dirección de correo electrónico de nuestro
+   profesor. Pregúntale cuál es y escríbelo en esa casilla.
 
    Debe tener esta forma: **nombreusuario@educa.madrid.org**
 
    |br|
 
-#. El campo **"3"** es el asunto. En este campo vamos a escribir una
-   breve descripción de cuál es el asunto por el que estamos
+#. El campo **"3"** es el asunto. En este campo escribimos una
+   **breve descripción** de cuál es el asunto por el que estamos
    escribiendo este correo electrónico.
 
-   En esta práctica vamos a escribir por ejemplo: **Correo de prueba 2º ESO A**
+   En esta práctica escribimos, por ejemplo: 
+   **Correo de prueba - 2º ESO A**
 
    Cambiando el grupo por el tuyo de verdad.
 
    |br|
 
-#. El campo **"4"** es el cuerpo del mensaje en el que vamos a escribir
+#. El campo **"4"** es el **cuerpo del mensaje** en el que escribiremos
    algo parecido a lo que aparece a continuación, pero cambiando los
-   nombres por los que corresponden::
+   textos entre corchetes por los nombres que correspondan:
 
-      Hola profesor,
-      Este es un correo de prueba para demostrar que ya sé
-      cómo escribir y enviar un correo electrónico con EducaMadrid.
+      Hola [Nombre del Profesor],
+      
+      Este es un correo de prueba para demostrar que ya sé cómo 
+      escribir y enviar un correo electrónico con EducaMadrid.
 
       Un saludo.
-      ---
-      Nombre y Apellido del alumno
+      
+      --
+      
+      [Nombre y Apellido del alumno]
 
    Tanto el "Hola" inicial como el "Saludo" final y añadir tu nombre
    son normas de etiqueta digital que es importante mantener para no
@@ -152,25 +157,27 @@ normas de etiqueta habituales.
 
    |br|
 
-#. Una vez terminado el correo, solo tenemos que clicar en el icono de
-   **"Enviar"** que se encuentra debajo del cuerpo del mensaje.
+#. Una vez escritos todos los campos del mensaje, solo tenemos que hacer
+   clic en el icono de **"Enviar"** que se encuentra debajo del cuerpo del
+   mensaje para que este se envíe.
 
    Ten en cuenta que el correo hace una comprobación de errores de
-   escritura y no enviará a la primera el correo si encuentra algún error.
-   Será necesario corregir el error o **volver a clicar en Enviar** para
-   que el correo se envíe correctamente.
+   escritura y no enviará a la primera el mensaje si encuentra algún
+   error.
+   Será necesario corregirlos o **volver a hacer clic en Enviar**
+   para que el mensaje se envíe finalmente.
 
    .. image:: informatica/_images/informatica-av-icono-enviar.png
       :align: center
-      :alt: Icono de enviar email.
+      :alt: Icono de enviar correo electrónico.
 
    |br|
 
 #. Para terminar, no olvides cerrar la sesión del correo electrónico
-   clicando en el icono correspondiente:
+   haciendo clic en el icono de **"Cerrar sesión"**:
 
    .. image:: informatica/_images/informatica-av-icono-cerrar.png
       :align: center
-      :alt: Icono de cerrar email.
+      :alt: Icono de cerrar correo electrónico.
 
    |br|

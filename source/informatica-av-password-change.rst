@@ -6,17 +6,17 @@
 
 .. _informatica-av-password-change:
 
-Cambio de contraseña
-====================
-En esta práctica vamos a aprender a cambiar la contraseña de
-EducaMadrid por otra que nosotros queramos.
+Cambiar la contraseña
+=====================
+En esta práctica aprenderemos a cambiar la contraseña de
+EducaMadrid por otra que nosotros elijamos.
 
 |br|
 
 #. El primer paso será abrir una **sesión de incógnito** del
    navegador Chrome.
 
-   Clicaremos con el **botón derecho del ratón** sobre el icono
+   Hacemos clic con el **botón derecho del ratón** en el icono
    del navegador Chrome:
 
    .. figure:: informatica/_images/informatica-chrome.png
@@ -25,7 +25,7 @@ EducaMadrid por otra que nosotros queramos.
 
       Logo del navegador Chrome en la barra de herramientas.
 
-   Y, a continuación, seleccionamos "Nueva ventana de incógnito":
+   A continuación, seleccionamos "Nueva ventana de incógnito":
 
    .. image:: informatica/_images/informatica-chrome-incognito.png
       :align: center
@@ -38,8 +38,8 @@ EducaMadrid por otra que nosotros queramos.
 
    |br|
 
-#. Una vez abierta la ventana de incógnito, vamos a buscar la
-   web de EducaMadrid en la barra de direcciones y clicaremos
+#. Una vez abierta la ventana de incógnito, buscamos la
+   web de EducaMadrid en la barra de direcciones y hacemos clic
    en el enlace a **EducaMadrid**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-1.png
@@ -48,7 +48,7 @@ EducaMadrid por otra que nosotros queramos.
 
    |br|
 
-#. Dentro de la web de EducaMadrid, vamos a seleccionar el icono
+#. Dentro de la web de EducaMadrid, seleccionamos el icono
    **"Webs y usuarios"**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-2.png
@@ -58,7 +58,7 @@ EducaMadrid por otra que nosotros queramos.
    |br|
 
 #. Ahora escribiremos nuestro nombre de usuario y nuestra contraseña
-   actual de EducaMadrid y clicaremos sobre el botón de **Acceder**:
+   actual de EducaMadrid. Luego hacemos clic sobre el botón de **Acceder**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-3.png
       :align: center
@@ -66,14 +66,14 @@ EducaMadrid por otra que nosotros queramos.
 
    |br|
 
-#. Una vez identificados, vamos a clicar sobre nuestro nombre en la
-   parte superior derecha y luego clicaremos sobre **"Mi cuenta"**:
+#. Una vez identificados, hacemos clic sobre nuestro nombre en la
+   parte superior derecha y luego hacemos clic sobre **"Mi cuenta"**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-4.png
       :align: center
       :alt: Mi cuenta en EducaMadrid.
 
-   En la lista derecha de opciones clicaremos en **"Contraseña"**:
+   En la lista derecha de opciones hacemos clic en **"Contraseña"**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-5.png
       :align: center
@@ -83,11 +83,9 @@ EducaMadrid por otra que nosotros queramos.
 
 #. A la izquierda aparecen tres casillas en las que escribiremos:
 
-   Contraseña actual
-
-   Nueva contraseña
-
-   Nueva contraseña
+   - Contraseña actual
+   - Nueva contraseña
+   - Repetir nueva contraseña
 
    La nueva contraseña se debe escribir en las dos últimas casillas
    para asegurarnos de que la hemos escrito correctamente.
@@ -96,8 +94,8 @@ EducaMadrid por otra que nosotros queramos.
       :align: center
       :alt: Introducir nueva contraseña en EducaMadrid.
 
-   Para finalizar presionaremos el botón **"Guardar"** que aparece en
-   la parte de abajo de la página web:
+   Para finalizar, hacemos clic en el botón **"Guardar"** que aparece en
+   la parte de inferior de la página web:
 
    .. image:: informatica/_images/informatica-av-educamadrid-7.png
       :align: center
@@ -107,8 +105,8 @@ EducaMadrid por otra que nosotros queramos.
 
    |br|
 
-#. Para terminar **saldremos de la sesión** abierta. Clicamos en
-   el nombre (arriba a la derecha) y luego clicamos en **"Salir"**:
+#. Para terminar **cerramos la sesión** abierta. Hacemos clic en
+   nuestro nombre, arriba a la derecha, y luego en **"Salir"**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-8.png
       :align: center

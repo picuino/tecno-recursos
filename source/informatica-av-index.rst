@@ -5,16 +5,17 @@
 .. _informatica-av-index:
 
 **************************
- Tutorial de Aula Virtual
+ Tutorial de EducaMadrid
 **************************
 
-Tutorial para aprender a utilizar el Aula Virtual
-y el correo de EducaMadrid.
+Tutorial para aprender a utilizar los servicios de EducaMadrid,
+correo electrónico y Aula Virtual.
 
-.. image:: informatica/_images/informatica-av-icono.png
+.. figure:: informatica/_images/informatica-av-icono-educamadrid-1.png
    :align: center
-   :alt: Icono del aula Virtual de Educamadrid.
+   :alt: Icono de Educamadrid.
 
+   Plataforma de servicios públicos para la comunidad educativa.
 
 .. toctree::
    :numbered: 1
@@ -25,7 +26,3 @@ y el correo de EducaMadrid.
    informatica-av-password-change.rst
    informatica-av-email.rst
    informatica-av-tarea.rst
-
-..
-   informatica-av-email.rst
-   informatica-av-tareas.rst
