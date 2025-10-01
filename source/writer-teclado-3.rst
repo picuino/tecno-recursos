@@ -86,7 +86,7 @@ especiales del teclado** y aprendas a escribir todo tipo de textos.
 
    Para escribir una **diéresis (ü)** hay que mantener presionada la
    tecla |tecla-shift| mientras se pulsa la tecla de diéresis
-   |tecla-acento|.
+   |tecla-tilde|.
 
    A continuación se presiona la tecla U y saldrá en la pantalla
    la letra con diéresis ü.

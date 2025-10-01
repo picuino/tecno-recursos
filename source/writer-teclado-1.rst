@@ -61,10 +61,11 @@ especiales del teclado** y aprendas a escribir todo tipo de textos.
 
    |br|
 
-#. **ACENTOS**
+#. **TILDES**
 
-   Para escribir un **acento** es necesario pulsar primero la tecla de
-   acento |tecla-acento| y después pulsar la vocal que queremos escribir.
+   Para escribir una **tilde** es necesario pulsar primero la tecla de
+   tilde |tecla-tilde| y después pulsar la vocal que queremos escribir
+   con tilde.
 
    |br|
 

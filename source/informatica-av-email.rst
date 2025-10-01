@@ -17,7 +17,7 @@ las normas de etiqueta habituales.
 #. El primer paso será abrir una **sesión de incógnito** del
    navegador Chrome.
 
-   Haremos clic con el **botón derecho del ratón** en el icono
+   Hacemos clic con el **botón derecho del ratón** en el icono
    del navegador Chrome:
 
    .. figure:: informatica/_images/informatica-chrome.png
@@ -32,6 +32,8 @@ las normas de etiqueta habituales.
       :align: center
       :alt: Abrir ventana de Chrome en modo incógnito.
 
+   |br|
+
    También podemos **abrir Chrome** y crear una nueva ventana de incógnito
    pulsando a la vez las tres teclas "Control" + "Shift" + "N".
 
@@ -40,7 +42,7 @@ las normas de etiqueta habituales.
    |br|
 
 #. Una vez abierta la ventana de incógnito, buscamos la
-   web de EducaMadrid en la barra de direcciones y haremos clic
+   web de EducaMadrid en la barra de direcciones y hacemos clic
    en el enlace a **EducaMadrid**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-1.png
@@ -58,7 +60,7 @@ las normas de etiqueta habituales.
 
    |br|
 
-   A continuación haremos clic sobre el botón **"Acceder"**.
+   A continuación hacemos clic sobre el botón **"Acceder"**.
 
    .. image:: informatica/_images/informatica-av-acceder-email.png
       :align: center
@@ -73,7 +75,7 @@ las normas de etiqueta habituales.
    |br|
 
 #. Ahora escribiremos nuestro nombre de usuario, nuestra contraseña
-   y haremos clic **"INICIAR SESIÓN"** para terminar de entrar:
+   y hacemos clic en **"INICIAR SESIÓN"** para terminar de entrar:
 
    .. image:: informatica/_images/informatica-av-intro-email.png
       :align: center
@@ -140,20 +142,18 @@ las normas de etiqueta habituales.
    algo parecido a lo que aparece a continuación, pero cambiando los
    textos entre corchetes por los nombres que correspondan:
 
-      Hola [Nombre del Profesor],
+      Hola, [Nombre del Profesor]:
       
       Este es un correo de prueba para demostrar que ya sé cómo 
       escribir y enviar un correo electrónico con EducaMadrid.
 
       Un saludo.
       
-      --
-      
       [Nombre y Apellido del alumno]
 
-   Tanto el "Hola" inicial como el "Saludo" final y añadir tu nombre
-   son normas de etiqueta digital que es importante mantener para no
-   parecer maleducado.
+   Tanto el "Hola" inicial terminado en dos puntos como el "Saludo" final
+   y tu nombre en la parte inferior son normas de etiqueta digital que es
+   importante mantener para no parecer maleducado.
 
    |br|
 
@@ -174,7 +174,8 @@ las normas de etiqueta habituales.
    |br|
 
 #. Para terminar, no olvides cerrar la sesión del correo electrónico
-   haciendo clic en el icono de **"Cerrar sesión"**:
+   haciendo clic en el icono de **"Cerrar sesión"** en la parte
+   inferior izquierda:
 
    .. image:: informatica/_images/informatica-av-icono-cerrar.png
       :align: center

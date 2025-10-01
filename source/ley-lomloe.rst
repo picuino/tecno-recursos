@@ -3,10 +3,10 @@
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
 
-.. _ley-materias:
+.. _ley-lomloe:
 
-Materias de Educación Secundaria
-================================
+Materias LOMLOE
+===============
 
 .. toctree::
    :maxdepth: 1

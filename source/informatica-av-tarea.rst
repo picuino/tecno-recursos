@@ -32,6 +32,8 @@ el Aula Virtual.
       :align: center
       :alt: Abrir ventana de Chrome en modo incógnito.
 
+   |br|
+
    También podemos **abrir Chrome** y crear una nueva ventana de incógnito
    pulsando a la vez las tres teclas "Control" + "Shift" + "N".
 

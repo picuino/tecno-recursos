@@ -29,5 +29,3 @@ Circuitos con Arduino y placa de prototipos.
    protoboard-push-ledes.rst
    protoboard-pot.rst
    protoboard-buzzer.rst
-
-   protoboard-recursos.rst

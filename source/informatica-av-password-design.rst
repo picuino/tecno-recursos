@@ -56,9 +56,12 @@ para cambiar la contraseña por defecto de EducaMadrid.
    escribirla en ningún sitio. Ten en cuenta que escribir nuestra
    contraseña es muy inseguro.
    
+   Para memorizarla podemos inventar una historia que utilice las palabras,
+   número y símbolo que hemos escogido.
+   
    La historia podría quedar así: Un **gato** con **4** patas va a la 
-   **luna**, come **pizza** y un gofre (el símbolo **#** interpretado
-   como un dulce) dentro del **cohete**.
+   **luna** y allí come **pizza** y un gofre (el símbolo **#**)
+   dentro del **cohete**.
 
    |br|
 
@@ -99,3 +102,43 @@ para cambiar la contraseña por defecto de EducaMadrid.
 
    |br|
 
+
+Lemario del español
+-------------------
+Esta es una utilidad que permite ver palabras aleatorias de un lemario
+con cerca de 80000 palabras del idioma español.
+
+.. raw:: html
+   
+   <script>
+   let palabras = [];
+
+   fetch('_static/lemario.json')
+      .then((res) => {
+         if (!res.ok) throw new Error('No se pudo cargar el JSON: ' + res.status);
+         return res.json();
+      })
+      .then((loadedWords) => {
+         palabras = loadedWords.palabras;
+         nueva_palabra();
+      })
+      .catch((err) => {
+         console.error('Error al cargar JSON:', err);
+      });
+
+   function nueva_palabra() {
+      var indice = Math.floor(Math.random() * palabras.length);
+      document.getElementById("palabra_aleatoria").value = capitalize(palabras[indice]);
+      console.log('Palabra ', indice,' de ', palabras.length);
+   };
+   
+   function capitalize(word) {
+      if (!word) return '';
+      return word[0].toUpperCase() + word.slice(1);
+   }
+   </script>
+
+   <p style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:0;">Palabra de ejemplo:
+   <input disabled="disabled" type="text" id="palabra_aleatoria"
+   style="color:black; width:160px; text-align:center; border-radius:8px; padding:4px; height:28px;">
+   <button onclick="nueva_palabra()">Nueva palabra</button></p>

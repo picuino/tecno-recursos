@@ -22,4 +22,4 @@
    ley-intro.rst
    ley-temario-tecnologia.rst
    ley-autonomica.rst
-   ley-materias.rst
+   ley-lomloe.rst

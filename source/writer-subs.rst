@@ -246,7 +246,7 @@
 .. |tecla-intro| image:: writer/_images/writer-tecla-intro.png
                       :align: middle
 
-.. |tecla-acento| image:: writer/_images/writer-tecla-acento.png
+.. |tecla-tilde| image:: writer/_images/writer-tecla-tilde.png
                       :align: middle
 
 .. |tecla-llave-cierra| image:: writer/_images/writer-tecla-llave-cierra.png

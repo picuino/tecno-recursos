@@ -32,7 +32,7 @@ tener problemas con el archivo.
 
 2. La codificación debe ser UTF-8
 
-   De esta forma los caracteres especiales como los acentos
+   De esta forma los caracteres especiales como las tildes
    o la eñe se guardarán y se visualizarán correctamente.
 
 3. Para guardar las modificaciones posteriores del archivo

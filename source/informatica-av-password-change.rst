@@ -31,6 +31,8 @@ EducaMadrid por otra que nosotros elijamos.
       :align: center
       :alt: Abrir ventana de Chrome en modo incógnito.
 
+   |br|
+
    También podemos **abrir Chrome** y crear una nueva ventana de incógnito
    pulsando a la vez las tres teclas "Control" + "Shift" + "N".
 
@@ -58,7 +60,8 @@ EducaMadrid por otra que nosotros elijamos.
    |br|
 
 #. Ahora escribiremos nuestro nombre de usuario y nuestra contraseña
-   actual de EducaMadrid. Luego hacemos clic sobre el botón de **Acceder**:
+   actual de EducaMadrid. Luego hacemos clic sobre el botón de
+   **Acceder**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-3.png
       :align: center
@@ -73,6 +76,8 @@ EducaMadrid por otra que nosotros elijamos.
       :align: center
       :alt: Mi cuenta en EducaMadrid.
 
+   |br|
+
    En la lista derecha de opciones hacemos clic en **"Contraseña"**:
 
    .. image:: informatica/_images/informatica-av-educamadrid-5.png
@@ -85,7 +90,7 @@ EducaMadrid por otra que nosotros elijamos.
 
    - Contraseña actual
    - Nueva contraseña
-   - Repetir nueva contraseña
+   - Confirmación de nueva contraseña
 
    La nueva contraseña se debe escribir en las dos últimas casillas
    para asegurarnos de que la hemos escrito correctamente.
@@ -94,8 +99,10 @@ EducaMadrid por otra que nosotros elijamos.
       :align: center
       :alt: Introducir nueva contraseña en EducaMadrid.
 
+   |br|
+
    Para finalizar, hacemos clic en el botón **"Guardar"** que aparece en
-   la parte de inferior de la página web:
+   la parte inferior de la página web:
 
    .. image:: informatica/_images/informatica-av-educamadrid-7.png
       :align: center

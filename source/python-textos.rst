@@ -124,8 +124,8 @@ un texto::
 Ejercicios
 ----------
 
-#. Crea una cadena de texto con caracteres especiales como acentos,
-   letras griegas, símbolos, emojis, etc.
+#. Crea una cadena de texto con caracteres especiales como vocales con
+   tilde, letras griegas, símbolos, emojis, etc.
    Puedes copiar y pegar desde varias páginas de Internet:
 
       * `Symbol <https://symbl.cc/es/>`__

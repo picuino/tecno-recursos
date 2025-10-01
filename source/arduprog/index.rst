@@ -23,6 +23,7 @@ Programación de la placa de control Arduino UNO.
    :maxdepth: 2
 
    protoboard-index
+   protoboard-guia
    prog-index
    resource-index
    pc42-index

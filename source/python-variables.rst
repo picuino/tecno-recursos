@@ -75,9 +75,9 @@ fácil de modificar posteriormente.
   descriptivo es más fácil de leer y escribir.
 
 **No utilices caracteres especiales**
-  Los caracteres especiales (acentos, eñe, diéresis, etc) y los espacios
-  pueden causar problemas en algunos lenguajes de programación o con
-  otros programadores. Es mejor acostumbrarse a no utilizarlos nunca.
+  Los caracteres especiales (vocales con tilde, eñe, diéresis, etc) y los
+  espacios pueden causar problemas en algunos lenguajes de programación o
+  con otros programadores. Es mejor acostumbrarse a no utilizarlos nunca.
 
 **Usa la notación snake_case**
   Este es un estilo de escritura en el cual las palabras en el nombre
