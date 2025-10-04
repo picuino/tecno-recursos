@@ -40,4 +40,9 @@ Entrenador para la placa Arduino UNO.
    pc42-display1.rst
    pc42-buzzer.rst
 
+   comm-pc-control.rst
+   prog-timer-control
+   prog-simon
+   prog-haiku
+
 ..   pc42-reference.rst

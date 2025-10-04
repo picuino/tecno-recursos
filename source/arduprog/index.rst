@@ -24,7 +24,6 @@ Programación de la placa de control Arduino UNO.
 
    protoboard-index
    protoboard-guia
-   prog-index
    resource-index
    pc42-index
    ardublock-index
