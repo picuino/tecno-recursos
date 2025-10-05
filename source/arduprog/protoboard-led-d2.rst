@@ -41,6 +41,7 @@ Ejercicios
    .. code-block:: arduino
       :linenos:
 
+      // Define el número de pin del led
       int LED_PIN = 2;
 
       // Ejecuta una sola vez las siguientes instrucciones
@@ -75,12 +76,17 @@ Ejercicios
    El tiempo de apagado debe ser aleatorio entre 50 y 150
    milisegundos.
 
-   La instrucción que se debe utilizar es:
+   La instrucción que se debe utilizar para esperar un tiempo aleatorio
+   es:
 
    .. code-block:: arduino
       :linenos:
 
-      delay( random(mínimo, máximo) );
+      delay( random(min, max) );
+
+
+   Donde ``min`` y ``max`` se deben sustituir por el valor mínimo
+   y el valor máximo del valor aleatorio que queremos obtener.   
 
 #. Modifica el programa para que el led se encienda y se apague
    rápidamente (durante 100 milisegundos) y luego se
