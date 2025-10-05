@@ -3,12 +3,14 @@ int LED_VERDE = 3;
 int LED_ROJO = 5;
 int POT = A0;
 
+
 // Ejecuta una sola vez las siguientes instrucciones
 void setup() {
    // Los ledes se conectan a salidas
    pinMode(LED_VERDE, OUTPUT);
    pinMode(LED_ROJO, OUTPUT);
 }
+
 
 // Repite para siempre las siguientes instrucciones
 void loop() {
