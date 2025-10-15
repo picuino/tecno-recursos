@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the same license as the Picuino package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Picuino 2025\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-15 18:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ca\n"
+"Language-Team: ca <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-bistable-rs.rst:9
+msgid "El biestable RS"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:10
+msgid ""
+"Hasta ahora hemos estudiado circuitos **combinacionales**. En este tipo "
+"de circuitos las salidas de señal solo dependen de las entradas de señal,"
+" no existe efecto memoria interna."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:14
+msgid ""
+"A partir de ahora estudiaremos algunos circuitos **secuenciales** que se "
+"diferencian de los anteriores en que sus salidas dependen de las entradas"
+" y también dependen del estado interno del circuito, que tiene memoria."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:19
+msgid ""
+"El primer circuito secuencial que vamos a estudiar es el **biestable "
+"RS**. Este biestable sirve para almacenar un bit de información (un cero "
+"o un uno) funcionando como el circuito de memoria más básico que podemos "
+"utilizar. Es el componente fundamental de los circuitos secuenciales, "
+"como contadores y registros y es la base de la memoria SRAM de las "
+"computadoras."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:25
+msgid ""
+"Tiene dos entradas, la entrada **S** o **SET** que memoriza un **uno** "
+"(estado alto) en el circuito y la entrada **R** o **RESET** que memoriza "
+"un **cero** (estado bajo) en el circuito."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:29
+msgid ""
+"El biestable RS tiene dos salidas, la salida **Q** refleja el estado "
+"interno del biestable y la salida negada **/Q** que valdrá lo contrario "
+"que la primera salida."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:34
+msgid "Simulación"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:35
+msgid ""
+"En la siguiente simulación podemos ver un **biestable RS** fabricado con "
+"dos puertas NOR:"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:46
+msgid "Tabla de verdad"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:47
+msgid ""
+"La tabla de verdad del **biestable RS** fabricado con puertas NOR es la "
+"siguiente:"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:54
+msgid "S"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:55
+msgid "R"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:56
+#: ../../source/electronic-bistable-rs.rst:60
+msgid "Q"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:57
+#: ../../source/electronic-bistable-rs.rst:61
+msgid "/Q"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:58
+#: ../../source/electronic-bistable-rs.rst:59
+#: ../../source/electronic-bistable-rs.rst:63
+#: ../../source/electronic-bistable-rs.rst:65
+#: ../../source/electronic-bistable-rs.rst:66
+#: ../../source/electronic-bistable-rs.rst:68
+#: ../../source/electronic-bistable-rs.rst:72
+#: ../../source/electronic-bistable-rs.rst:73
+msgid "0"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:62
+#: ../../source/electronic-bistable-rs.rst:64
+#: ../../source/electronic-bistable-rs.rst:67
+#: ../../source/electronic-bistable-rs.rst:69
+#: ../../source/electronic-bistable-rs.rst:70
+#: ../../source/electronic-bistable-rs.rst:71
+msgid "1"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:75
+msgid ""
+"Al activar la entrada **SET** el biestable se activa y la salida **Q** "
+"tendrá un valor alto (1 lógico). Una vez que se desactiva la entrada "
+"**SET** el biestable sigue manteniendo su estado activo hasta que le "
+"llegue una entrada contraria, **RESET**."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:80
+msgid ""
+"Al activar la entrada **RESET** el biestable se desactiva y la salida "
+"**Q** tendrá un valor bajo (0 lógico). Una vez que se desactiva la "
+"entrada **RESET** el biestable sigue manteniendo su estado inactivo hasta"
+" que le llegue una entrada contraria, **SET**."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:85
+msgid ""
+"El último estado, cuando se activan a la vez las entradas **SET** y "
+"**RESET**, se denomina estado prohibido o estado indeterminado porque "
+"fuerza a ambas salidas a nivel bajo (cero lógico). En este estado, las "
+"salidas del biestable se comportan de manera ilógica, ya que las señales "
+"de **SET** y de **RESET** se oponen directamente entre sí."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:94
+msgid "Biestable RS NAND"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:95
+msgid ""
+"En la siguiente simulación podemos ver un **biestable RS** fabricado con "
+"dos puertas NAND:"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:104
+msgid ""
+"Las entradas serán activas a nivel bajo (un cero activa la entrada y un "
+"uno es igual a entrada en reposo)."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:109
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:110
+msgid ""
+"¿Qué dos tipos de circuitos digitales existen? ¿En qué se diferencian "
+"entre sí?"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:113
+msgid "¿Qué tipo de circuito digital es un biestable RS y para qué sirve?"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:115
+msgid "¿Cuántas entradas tiene un biestable RS y qué función tiene cada una?"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:117
+msgid "¿Cuántas salidas tiene un biestable RS y qué función tiene cada una?"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:119
+msgid "Dibuja el circuito de un biestable RS con puertas NOR."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:121
+msgid ""
+"La entrada SET debe valer 1 y la entrada RESET debe valer cero. Dibuja "
+"los valores correctos de las salidas Q y /Q."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:124
+msgid ""
+"Dibuja la tabla de verdad de un biestable RS y explica brevemente su "
+"funcionamiento normal."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:127
+msgid ""
+"¿Cómo se llama el estado en el que las dos entradas están a nivel alto y "
+"por qué se llama así?"
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:130
+msgid ""
+"Ayudándote con la última simulación, dibuja la tabla de verdad del "
+"biestable RS fabricado con puertas NAND."
+msgstr ""
+
+#: ../../source/electronic-bistable-rs.rst:133
+msgid ""
+"Señala en la tabla el estado prohibido o indeterminado. ¿Qué valen sus "
+"dos salidas en ese estado?"
+msgstr ""
+

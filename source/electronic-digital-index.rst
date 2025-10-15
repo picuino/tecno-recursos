@@ -35,6 +35,9 @@ integrado.
    electronic-gray-code.rst
    electronic-karnaugh.rst
 
+   electronic-bistable-rs.rst
+   electronic-bistable-d.rst
+
 
 .. TO DO
 
@@ -57,10 +60,8 @@ integrado.
    electronic-rom.rst
 
    electronic-sequential.rst
-   electronic-bistable-rs.rst
-   electronic-bistable-d.rst
    electronic-bistable-jk.rst
-   electronic-bistable-d.rst
+   electronic-bistable-t.rst
    electronic-counters.rst
    electronic-register-piso.rst
    electronic-register-sipo.rst

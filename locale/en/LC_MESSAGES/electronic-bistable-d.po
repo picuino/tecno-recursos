@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
+# This file is distributed under the same license as the Picuino package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Picuino 2025\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-15 18:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/electronic-bistable-d.rst:9
+msgid "El biestable D"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:10
+msgid ""
+"El `biestable D "
+"<https://es.wikipedia.org/wiki/Biestable#Biestable_D_(Data_o_Delay)>`__ "
+"(Data o Delay) es un circuito secuencial básico que, al igual que el "
+"biestable RS, puede almacenar un bit de información. La diferencia entre "
+"ambos consiste en la forma de almacenar ese bit con sus entradas."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:17
+msgid ""
+"El **biestable D** tiene una entrada **D** o dato que puede estar a nivel"
+" alto (1 lógico) o a nivel bajo (0 lógico). Ese dato se va a grabar en el"
+" interior del biestable cuando se active otra entrada denominada Reloj o "
+"CLK (Clock), en el flanco de subida o cambio de cero a uno lógico."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:22
+msgid ""
+"El biestable D sirve principalmente para almacenar datos binarios y para "
+"sincronizar señales."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:26
+msgid "Simulación"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:27
+msgid "En la siguiente simulación podemos ver un **biestable D**:"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:37
+msgid "Tabla de verdad"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:38
+msgid "La tabla de verdad del **biestable D** es la siguiente:"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:44
+msgid "D"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:45
+msgid "CLK"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:46
+#: ../../source/electronic-bistable-d.rst:50
+#: ../../source/electronic-bistable-d.rst:54
+#: ../../source/electronic-bistable-d.rst:66
+#: ../../source/electronic-bistable-d.rst:70
+msgid "Q"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:47
+#: ../../source/electronic-bistable-d.rst:51
+#: ../../source/electronic-bistable-d.rst:55
+#: ../../source/electronic-bistable-d.rst:67
+#: ../../source/electronic-bistable-d.rst:71
+msgid "/Q"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:48
+#: ../../source/electronic-bistable-d.rst:49
+#: ../../source/electronic-bistable-d.rst:53
+#: ../../source/electronic-bistable-d.rst:56
+#: ../../source/electronic-bistable-d.rst:58
+#: ../../source/electronic-bistable-d.rst:63
+#: ../../source/electronic-bistable-d.rst:64
+msgid "0"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:52
+#: ../../source/electronic-bistable-d.rst:59
+#: ../../source/electronic-bistable-d.rst:60
+#: ../../source/electronic-bistable-d.rst:62
+#: ../../source/electronic-bistable-d.rst:65
+#: ../../source/electronic-bistable-d.rst:68
+#: ../../source/electronic-bistable-d.rst:69
+msgid "1"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:57
+#: ../../source/electronic-bistable-d.rst:61
+msgid "_↑¯"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:80
+msgid "Flanco de subida"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:74
+msgid ""
+"Los cambios de estado de este biestable ocurren solamente cuando la "
+"entrada **CLK** cambia de estar inactiva (0 lógico) a estar activa (1 "
+"lógico). No ocurren cuando se mantiene inactiva ni cuando se mantiene "
+"activa, solo en el momento del cambio de valor de 0 lógico a 1 lógico. "
+"Este cambio se denomina **\"Flanco de subida\"** y lo vamos a representar"
+" con el símbolo \"_↑¯\"."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:82
+msgid ""
+"En el momento que en la entrada **CLK** hay un flanco de subida, el valor"
+" de la entrada **D** se copia en el interior del biestable y ese valor se"
+" puede ver en la salida **Q**."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:86
+msgid ""
+"Una vez que la entrada **CLK** está a nivel alto, aunque cambie la "
+"entrada **D**, el valor del biestable no cambiará, porque no ha habido un"
+" flanco de subida."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:91
+msgid ""
+"La salida **/Q** siempre tendrá el valor contrario a la salida **Q**. "
+"Como este biestable no tiene estados prohibidos o indeterminados, esta "
+"condición se cumple siempre."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:97
+msgid "Ejercicios"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:98
+msgid "¿Qué es un biestable D y para qué sirve?"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:100
+msgid "¿Cuántas entradas tiene un biestable D y qué función tiene cada una?"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:102
+msgid "¿Cuántas salidas tiene un biestable D y qué función tiene cada una?"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:104
+msgid ""
+"Dibuja el circuito de un biestable D con el nombre de sus entradas y de "
+"sus salidas."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:107
+msgid ""
+"Dibuja la tabla de verdad de un biestable D y explica brevemente su "
+"funcionamiento normal."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:110
+msgid ""
+"¿Puede tener el biestable D una entrada prohibida o indeterminada? ¿Qué "
+"consecuencias tiene ese funcionamiento?"
+msgstr ""
+

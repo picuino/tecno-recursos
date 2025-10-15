@@ -99,6 +99,10 @@ para cambiar la contraseña por defecto de EducaMadrid.
 
 #. Si tenemos sospechas de que alguien conoce nuestra contraseña, debemos
    cambiarla cuanto antes.
+   
+   En `esta página web (Have I been pwned) <https://haveibeenpwned.com/>`__
+   puedes comprobar si tu correo ha sido hackeado en alguna ocasión.
+   En caso afirmativo, deberías cambiar cuanto antes tu contraseña.
 
    |br|
 
