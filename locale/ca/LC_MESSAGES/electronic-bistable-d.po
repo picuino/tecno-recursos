@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Picuino 2025\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 18:45+0200\n"
+"POT-Creation-Date: 2025-10-29 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ca\n"
@@ -29,7 +29,8 @@ msgid ""
 "<https://es.wikipedia.org/wiki/Biestable#Biestable_D_(Data_o_Delay)>`__ "
 "(Data o Delay) es un circuito secuencial básico que, al igual que el "
 "biestable RS, puede almacenar un bit de información. La diferencia entre "
-"ambos consiste en la forma de almacenar ese bit con sus entradas."
+"el biestable D y el biestable RS consiste en la forma diferente que "
+"tienen de almacenar ese bit con sus entradas."
 msgstr ""
 
 #: ../../source/electronic-bistable-d.rst:17
@@ -37,45 +38,37 @@ msgid ""
 "El **biestable D** tiene una entrada **D** o dato que puede estar a nivel"
 " alto (1 lógico) o a nivel bajo (0 lógico). Ese dato se va a grabar en el"
 " interior del biestable cuando se active otra entrada denominada Reloj o "
-"CLK (Clock), en el flanco de subida o cambio de cero a uno lógico."
+"**CLK** (Clock), en el flanco de subida o cambio de cero a uno lógico."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:22
+#: ../../source/electronic-bistable-d.rst:23
 msgid ""
 "El biestable D sirve principalmente para almacenar datos binarios y para "
 "sincronizar señales."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:26
+#: ../../source/electronic-bistable-d.rst:27
 msgid "Simulación"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:27
+#: ../../source/electronic-bistable-d.rst:28
 msgid "En la siguiente simulación podemos ver un **biestable D**:"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:37
+#: ../../source/electronic-bistable-d.rst:38
 msgid "Tabla de verdad"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:38
+#: ../../source/electronic-bistable-d.rst:39
 msgid "La tabla de verdad del **biestable D** es la siguiente:"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:44
+#: ../../source/electronic-bistable-d.rst:45
 msgid "D"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:45
-msgid "CLK"
-msgstr ""
-
 #: ../../source/electronic-bistable-d.rst:46
-#: ../../source/electronic-bistable-d.rst:50
-#: ../../source/electronic-bistable-d.rst:54
-#: ../../source/electronic-bistable-d.rst:66
-#: ../../source/electronic-bistable-d.rst:70
-msgid "Q"
+msgid "CLK"
 msgstr ""
 
 #: ../../source/electronic-bistable-d.rst:47
@@ -83,39 +76,47 @@ msgstr ""
 #: ../../source/electronic-bistable-d.rst:55
 #: ../../source/electronic-bistable-d.rst:67
 #: ../../source/electronic-bistable-d.rst:71
-msgid "/Q"
+msgid "Q"
 msgstr ""
 
 #: ../../source/electronic-bistable-d.rst:48
-#: ../../source/electronic-bistable-d.rst:49
-#: ../../source/electronic-bistable-d.rst:53
+#: ../../source/electronic-bistable-d.rst:52
 #: ../../source/electronic-bistable-d.rst:56
-#: ../../source/electronic-bistable-d.rst:58
-#: ../../source/electronic-bistable-d.rst:63
+#: ../../source/electronic-bistable-d.rst:68
+#: ../../source/electronic-bistable-d.rst:72
+msgid "/Q"
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:49
+#: ../../source/electronic-bistable-d.rst:50
+#: ../../source/electronic-bistable-d.rst:54
+#: ../../source/electronic-bistable-d.rst:57
+#: ../../source/electronic-bistable-d.rst:59
 #: ../../source/electronic-bistable-d.rst:64
+#: ../../source/electronic-bistable-d.rst:65
 msgid "0"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:52
-#: ../../source/electronic-bistable-d.rst:59
+#: ../../source/electronic-bistable-d.rst:53
 #: ../../source/electronic-bistable-d.rst:60
-#: ../../source/electronic-bistable-d.rst:62
-#: ../../source/electronic-bistable-d.rst:65
-#: ../../source/electronic-bistable-d.rst:68
+#: ../../source/electronic-bistable-d.rst:61
+#: ../../source/electronic-bistable-d.rst:63
+#: ../../source/electronic-bistable-d.rst:66
 #: ../../source/electronic-bistable-d.rst:69
+#: ../../source/electronic-bistable-d.rst:70
 msgid "1"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:57
-#: ../../source/electronic-bistable-d.rst:61
+#: ../../source/electronic-bistable-d.rst:58
+#: ../../source/electronic-bistable-d.rst:62
 msgid "_↑¯"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:80
+#: ../../source/electronic-bistable-d.rst:81
 msgid "Flanco de subida"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:74
+#: ../../source/electronic-bistable-d.rst:75
 msgid ""
 "Los cambios de estado de este biestable ocurren solamente cuando la "
 "entrada **CLK** cambia de estar inactiva (0 lógico) a estar activa (1 "
@@ -125,58 +126,85 @@ msgid ""
 " con el símbolo \"_↑¯\"."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:82
+#: ../../source/electronic-bistable-d.rst:83
 msgid ""
 "En el momento que en la entrada **CLK** hay un flanco de subida, el valor"
 " de la entrada **D** se copia en el interior del biestable y ese valor se"
 " puede ver en la salida **Q**."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:86
+#: ../../source/electronic-bistable-d.rst:87
 msgid ""
 "Una vez que la entrada **CLK** está a nivel alto, aunque cambie la "
 "entrada **D**, el valor del biestable no cambiará, porque no ha habido un"
 " flanco de subida."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:91
+#: ../../source/electronic-bistable-d.rst:92
 msgid ""
 "La salida **/Q** siempre tendrá el valor contrario a la salida **Q**. "
 "Como este biestable no tiene estados prohibidos o indeterminados, esta "
 "condición se cumple siempre."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:97
+#: ../../source/electronic-bistable-d.rst:98
 msgid "Ejercicios"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:98
+#: ../../source/electronic-bistable-d.rst:99
 msgid "¿Qué es un biestable D y para qué sirve?"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:100
+#: ../../source/electronic-bistable-d.rst:101
 msgid "¿Cuántas entradas tiene un biestable D y qué función tiene cada una?"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:102
+#: ../../source/electronic-bistable-d.rst:103
 msgid "¿Cuántas salidas tiene un biestable D y qué función tiene cada una?"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:104
+#: ../../source/electronic-bistable-d.rst:105
 msgid ""
 "Dibuja el circuito de un biestable D con el nombre de sus entradas y de "
 "sus salidas."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:107
+#: ../../source/electronic-bistable-d.rst:108
 msgid ""
 "Dibuja la tabla de verdad de un biestable D y explica brevemente su "
 "funcionamiento normal."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:110
+#: ../../source/electronic-bistable-d.rst:111
 msgid ""
 "¿Puede tener el biestable D una entrada prohibida o indeterminada? ¿Qué "
 "consecuencias tiene ese funcionamiento?"
 msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:114
+msgid "Simula todos los estados del biestable D con el simulador de esta página."
+msgstr ""
+
+#~ msgid ""
+#~ "El **biestable D** tiene una entrada "
+#~ "**D** o dato que puede estar a "
+#~ "nivel alto (1 lógico) o a nivel"
+#~ " bajo (0 lógico). Ese dato se "
+#~ "va a grabar en el interior del "
+#~ "biestable cuando se active otra entrada"
+#~ " denominada Reloj o CLK (Clock), en"
+#~ " el flanco de subida o cambio "
+#~ "de cero a uno lógico."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El `biestable D "
+#~ "<https://es.wikipedia.org/wiki/Biestable#Biestable_D_(Data_o_Delay)>`__"
+#~ " (Data o Delay) es un circuito "
+#~ "secuencial básico que, al igual que "
+#~ "el biestable RS, puede almacenar un "
+#~ "bit de información. La diferencia entre"
+#~ " ambos consiste en la forma de "
+#~ "almacenar ese bit con sus entradas."
+#~ msgstr ""
 

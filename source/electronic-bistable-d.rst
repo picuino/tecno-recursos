@@ -11,13 +11,14 @@ El `biestable D
 <https://es.wikipedia.org/wiki/Biestable#Biestable_D_(Data_o_Delay)>`__
 (Data o Delay) es un circuito secuencial básico que, al igual que el 
 biestable RS, puede almacenar un bit de información.
-La diferencia entre ambos consiste en la forma de almacenar ese bit
-con sus entradas.
+La diferencia entre el biestable D y el biestable RS consiste en la forma
+diferente que tienen de almacenar ese bit con sus entradas.
 
 El **biestable D** tiene una entrada **D** o dato que puede estar a
 nivel alto (1 lógico) o a nivel bajo (0 lógico). Ese dato se va a grabar
 en el interior del biestable cuando se active otra entrada denominada
-Reloj o CLK (Clock), en el flanco de subida o cambio de cero a uno lógico.
+Reloj o **CLK** (Clock), en el flanco de subida o cambio de cero a uno
+lógico.
 
 El biestable D sirve principalmente para almacenar datos binarios y para
 sincronizar señales.
@@ -110,3 +111,5 @@ Ejercicios
 #. ¿Puede tener el biestable D una entrada prohibida o indeterminada?
    ¿Qué consecuencias tiene ese funcionamiento?
    
+#. Simula todos los estados del biestable D con el simulador de esta
+   página.

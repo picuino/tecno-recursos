@@ -25,7 +25,7 @@ Solo podrá subir si su altura en centímetros es mayor o igual a 150
 
 Ejemplo para calcular si un año es bisiesto::
 
-    year = input('Escribe un año:')
+    year = input('Escribe un año: ')
     year = int(year)
 
     if (year % 4 == 0) and ( (year % 100 != 0) or (year % 400 == 0) ):
@@ -35,6 +35,17 @@ Ejemplo para calcular si un año es bisiesto::
 
 Aunque los paréntesis no son obligatorios, es recomendable
 usarlos para que se pueda entender mejor el código.
+
+El operador ``not`` sirve para comprobar que la condición que le sigue
+es falsa. Invierte el significado de una condición.
+
+Ejemplo de uso del operador ``not``::
+
+    num = input('Escribe un número del 1 al 10: ')
+    num = int(num)
+
+    if not (num % 2 == 0):
+        print("El número", num, "NO es par")
 
 
 Ejercicios

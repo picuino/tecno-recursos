@@ -37,6 +37,8 @@ integrado.
 
    electronic-bistable-rs.rst
    electronic-bistable-d.rst
+   electronic-bistable-jk.rst
+   electronic-bistable-t.rst
 
 
 .. TO DO
@@ -50,23 +52,19 @@ integrado.
    electronic-schmitt-trigger.rst
    electronic-buffer-tristate.rst
 
-   electronic-decoder.rst
-   electronic-encoder.rst
-   electronic-multiplexer.rst
-   electronic-demultiplexer.rst
-   electronic-comparator.rst
-
-   electronic-adder.rst
-   electronic-rom.rst
-
    electronic-sequential.rst
-   electronic-bistable-jk.rst
-   electronic-bistable-t.rst
    electronic-counters.rst
    electronic-register-piso.rst
    electronic-register-sipo.rst
    electronic-register-pipo.rst
    electronic-register-fcsr.rst
+   electronic-decoder.rst
+   electronic-encoder.rst
+   electronic-multiplexer.rst
+   electronic-demultiplexer.rst
+   electronic-comparator.rst
+   electronic-adder.rst
+   electronic-rom.rst
    electronic-ram.rst
 
    electronic-pwm.rst

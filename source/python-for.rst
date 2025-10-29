@@ -31,7 +31,7 @@ Ejemplo::
        print('Hola', nombre)
 
 Este ejemplo imprimirá en pantalla un saludo para todos los nombres
-que aparecen en la lista, desde 'Abel' hasta 'Elena'.
+que aparecen en la lista, desde 'Abel' hasta 'Francisco'.
 
 La variable del bucle se llama 'nombre' y va tomando todos los valores
 de la lista de nombres.

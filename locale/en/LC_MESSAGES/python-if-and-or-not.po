@@ -12,7 +12,7 @@ msgstr ""
 "<LL@li.org>MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-"
 "Transfer-Encoding:8bitGenerated-By:Babel 2.9.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-08 17:14+0200\n"
+"POT-Creation-Date: 2025-10-21 15:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,6 +39,9 @@ msgid ""
 " podrá subir si su altura en centímetros es mayor o igual a 150 **y "
 "también** debe ser menor o igual a 200::"
 msgstr ""
+"Example to calculate whether a person can ride a roller coaster. "
+"They can only ride if their height in centimeters is greater than or "
+"equal to 150 **and also** less than or equal to 200::"
 
 #: ../../source/python-if-and-or-not.rst:26
 msgid "Ejemplo para calcular si un año es bisiesto::"
@@ -52,11 +55,23 @@ msgstr ""
 "Although parentheses are not always mandatory, it is advisable to use "
 "them so that the code can be better understood."
 
-#: ../../source/python-if-and-or-not.rst:41
+#: ../../source/python-if-and-or-not.rst:39
+msgid ""
+"El operador ``not`` sirve para comprobar que la condición que le sigue es"
+" falsa. Invierte el significado de una condición."
+msgstr ""
+"The ``not`` operator is used to check that the condition that follows "
+"it is false. It reverses the meaning of a condition."
+
+#: ../../source/python-if-and-or-not.rst:42
+msgid "Ejemplo de uso del operador ``not``::"
+msgstr "Example of using the ``not`` operator::"
+
+#: ../../source/python-if-and-or-not.rst:52
 msgid "Ejercicios"
 msgstr "Exercises"
 
-#: ../../source/python-if-and-or-not.rst:43
+#: ../../source/python-if-and-or-not.rst:54
 msgid ""
 "Escribe un programa que pida el nombre del mes en el que estamos y "
 "compruebe si estamos o no en primavera."
@@ -64,27 +79,30 @@ msgstr ""
 "Write a program that asks for the name of the month we are in and checks "
 "whether it is spring or not."
 
-#: ../../source/python-if-and-or-not.rst:46
+#: ../../source/python-if-and-or-not.rst:57
 msgid ""
 "Para simplificar diremos que abril, mayo y junio son los meses de "
 "primavera."
 msgstr "To simplify we will say that April, May and June are the spring months."
 
-#: ../../source/python-if-and-or-not.rst:49
-#: ../../source/python-if-and-or-not.rst:79
-#: ../../source/python-if-and-or-not.rst:92
-#: ../../source/python-if-and-or-not.rst:111
+#: ../../source/python-if-and-or-not.rst:60
+#: ../../source/python-if-and-or-not.rst:90
+#: ../../source/python-if-and-or-not.rst:103
+#: ../../source/python-if-and-or-not.rst:122
 msgid "Pista::"
 msgstr "Clue::"
 
-#: ../../source/python-if-and-or-not.rst:58
+#: ../../source/python-if-and-or-not.rst:69
 msgid ""
 "El siguiente programa comprueba si un número es par. Modifica el programa"
 " utilizando el operador ``not`` para que compruebe si el número es "
 "impar::"
 msgstr ""
+"The following program checks whether a number is even. "
+"Modify the program using the ``not`` operator to check whether the "
+"number is odd::"
 
-#: ../../source/python-if-and-or-not.rst:69
+#: ../../source/python-if-and-or-not.rst:80
 msgid ""
 "Escribe un programa que utilice el operador ``and`` para comprobar si un "
 "nombre tiene una longitud entre 4 y 6 letras."
@@ -92,21 +110,21 @@ msgstr ""
 "Write a program that uses the ``and`` operator to check if a name is "
 "between 4 and 6 letters long."
 
-#: ../../source/python-if-and-or-not.rst:72
+#: ../../source/python-if-and-or-not.rst:83
 msgid "La longitud de una cadena de texto se mide con la función len()::"
 msgstr "The length of a text string is measured with the len() function."
 
-#: ../../source/python-if-and-or-not.rst:88
+#: ../../source/python-if-and-or-not.rst:99
 msgid ""
 "Escribe un programa que responda que tienes que conectar el riego por "
 "goteo siempre que sea de noche (no de día) y que esté el suelo seco (no "
 "está lloviendo)."
 msgstr ""
 "Write a program that responds that you have to turn on drip irrigation "
-"whenever it is nighttime (not daytime) and the soil is dry "
-"(it is not raining)."
+"whenever it is nighttime (not daytime) and the soil is dry (it is not "
+"raining)."
 
-#: ../../source/python-if-and-or-not.rst:102
+#: ../../source/python-if-and-or-not.rst:113
 msgid ""
 "Prueba el programa con las cuatro combinaciones posibles en los sensores."
 " Solo debe funcionar cuando el sensor de lluvia valga cero y el sensor de"
@@ -115,7 +133,7 @@ msgstr ""
 "Test the program with the four possible sensor combinations. It should "
 "only work when the rain sensor is zero and the day sensor is zero."
 
-#: ../../source/python-if-and-or-not.rst:107
+#: ../../source/python-if-and-or-not.rst:118
 msgid ""
 "Escribe un programa que imprima un mensaje cuando un número sea positivo "
 "y no sea divisible por 3. En caso contrario no imprime ningún mensaje."
