@@ -8,32 +8,32 @@
 El biestable RS
 ===============
 Hasta ahora hemos estudiado circuitos **combinacionales**.
-En este tipo de circuitos las salidas de señal solo dependen de las
-entradas de señal, no existe efecto memoria interna.
+En este tipo de circuitos, las salidas de señal dependen exclusivamente
+de las entradas, sin ningún efecto de memoria interna.
 
-A partir de ahora estudiaremos algunos circuitos **secuenciales** que
-se diferencian de los anteriores en que sus salidas dependen de las
-entradas y también dependen del estado interno del circuito, que tiene
+A partir de ahora, estudiaremos algunos circuitos **secuenciales**, que
+se diferencian de los combinacionales en que sus salidas dependen no solo
+de las entradas, sino también del estado interno del circuito, que tiene
 memoria.
 
 El primer circuito secuencial que vamos a estudiar es el **biestable RS**.
-Este biestable sirve para almacenar un bit de información (un cero o un 
-uno) funcionando como el circuito de memoria más básico que podemos
+Este biestable se utiliza para almacenar un bit de información (un cero o
+un uno), funcionando como el circuito de memoria más básico que podemos
 utilizar. Es el componente fundamental de los circuitos secuenciales, como
-contadores y registros y es la base de la memoria SRAM de las computadoras.
+contadores y registros y es la base de la memoria SRAM en las computadoras.
 
-Tiene dos entradas, la entrada **S** o **SET** que memoriza un
-**uno** (estado alto) en el circuito y la entrada **R** o **RESET** 
-que memoriza un **cero** (estado bajo) en el circuito.
+El biestable RS tiene dos entradas: la entrada **S** o **SET** que memoriza
+un **uno** (estado alto), y la entrada **R** o **RESET** que memoriza un
+**cero** (estado bajo).
 
-El biestable RS tiene dos salidas, la salida **Q** refleja el
-estado interno del biestable y la salida negada **/Q** que valdrá lo
-contrario que la primera salida.
+El biestable RS tiene dos salidas: la salida **Q** refleja el
+estado interno del biestable y la salida negada **/Q** que tendrá el valor
+contrario de la salida **Q**.
 
 Simulación
 ----------
-En la siguiente simulación podemos ver un **biestable RS** fabricado con
-dos puertas NOR:
+En la siguiente simulación, podemos observar un **biestable RS** fabricado
+con dos puertas NOR:
 
 .. raw:: html
 
@@ -82,9 +82,9 @@ tendrá un valor bajo (0 lógico). Una vez que se desactiva la entrada
 **RESET** el biestable sigue manteniendo su estado inactivo hasta que le
 llegue una entrada contraria, **SET**.
 
-El último estado, cuando se activan a la vez las entradas **SET** y
-**RESET**, se denomina estado prohibido o estado indeterminado porque
-fuerza a ambas salidas a nivel bajo (cero lógico).
+El último estado, cuando se activan simultáneamente las entradas **SET** y
+**RESET**, se denomina **estado prohibido** o **estado indeterminado**
+porque fuerza a ambas salidas a nivel bajo (cero lógico).
 En este estado, las salidas del biestable se comportan de manera
 ilógica, ya que las señales de **SET** y de **RESET** se oponen
 directamente entre sí.
@@ -92,7 +92,7 @@ directamente entre sí.
 
 Biestable RS NAND
 -----------------
-En la siguiente simulación podemos ver un **biestable RS** fabricado con
+En la siguiente simulación, podemos ver un **biestable RS** fabricado con
 dos puertas NAND:
 
 .. raw:: html
@@ -112,9 +112,9 @@ Ejercicios
 
 #. ¿Qué tipo de circuito digital es un biestable RS y para qué sirve?
 
-#. ¿Cuántas entradas tiene un biestable RS y qué función tiene cada una?
+#. ¿Cuántas entradas tiene un biestable RS y qué función cumple cada una?
 
-#. ¿Cuántas salidas tiene un biestable RS y qué función tiene cada una?
+#. ¿Cuántas salidas tiene un biestable RS y qué función cumple cada una?
 
 #. Dibuja el circuito de un biestable RS con puertas NOR.
 

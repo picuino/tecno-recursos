@@ -10,22 +10,24 @@ El biestable D
 El `biestable D
 <https://es.wikipedia.org/wiki/Biestable#Biestable_D_(Data_o_Delay)>`__
 (Data o Delay) es un circuito secuencial básico que, al igual que el 
-biestable RS, puede almacenar un bit de información.
-La diferencia entre el biestable D y el biestable RS consiste en la forma
-diferente que tienen de almacenar ese bit con sus entradas.
+biestable RS, permite almacenar un bit de información.
+La diferencia entre el biestable D y el 
+:ref:`biestable RS <electronic-bistable-rs>`
+radica en la forma diferente que tienen de almacenar ese bit con
+sus entradas.
 
-El **biestable D** tiene una entrada **D** o dato que puede estar a
-nivel alto (1 lógico) o a nivel bajo (0 lógico). Ese dato se va a grabar
-en el interior del biestable cuando se active otra entrada denominada
-Reloj o **CLK** (Clock), en el flanco de subida o cambio de cero a uno
-lógico.
+El **biestable D** tiene una entrada **D** (dato), que puede estar a
+nivel alto (1 lógico) o a nivel bajo (0 lógico). Este dato se almacena
+en el interior del biestable cuando se activa otra entrada denominada
+**Reloj** o **CLK** (Clock), en el flanco de subida o cambio de nivel bajo
+(0 lógico) a nivel alto (1 lógico).
 
-El biestable D sirve principalmente para almacenar datos binarios y para
-sincronizar señales.
+El **biestable D** se utiliza principalmente para almacenar datos binarios
+y para sincronizar señales.
 
 Simulación
 ----------
-En la siguiente simulación podemos ver un **biestable D**:
+En la siguiente simulación podemos observar un **biestable D**:
 
 .. raw:: html
 
@@ -72,38 +74,38 @@ La tabla de verdad del **biestable D** es la siguiente:
      - /Q
 
 Flanco de subida
-   Los cambios de estado de este biestable ocurren solamente cuando la
+   Los cambios de estado de este biestable se producen únicamente cuando la
    entrada **CLK** cambia de estar inactiva (0 lógico) a estar activa 
    (1 lógico).
-   No ocurren cuando se mantiene inactiva ni cuando se mantiene activa,
-   solo en el momento del cambio de valor de 0 lógico a 1 lógico.
-   Este cambio se denomina **"Flanco de subida"** y lo vamos a representar
+   No ocurren mientras la señal se mantiene estable, sino exclusivamente
+   en el momento del cambio de valor de 0 lógico a 1 lógico.
+   Este cambio se denomina **"flanco de subida"** y se representa
    con el símbolo "_↑¯".
 
-En el momento que en la entrada **CLK** hay un flanco de subida, el valor
-de la entrada **D** se copia en el interior del biestable y ese valor se
-puede ver en la salida **Q**.
+En el momento que la entrada **CLK** presenta un flanco de subida, el valor
+de la entrada **D** se copia en el interior del biestable y se refleja en
+la salida **Q**.
 
-Una vez que la entrada **CLK** está a nivel alto, aunque cambie la entrada
-**D**, el valor del biestable no cambiará, porque no ha habido un flanco
-de subida.
+Una vez que la entrada **CLK** permanece a nivel alto, aunque cambie la
+entrada **D**, el valor del biestable no variará, ya que no se ha producido
+un nuevo flanco de subida.
 
 
 La salida **/Q** siempre tendrá el valor contrario a la salida **Q**.
-Como este biestable no tiene estados prohibidos o indeterminados, esta
-condición se cumple siempre.
+Como este biestable no posee estados prohibidos ni indeterminados, esta
+condición se cumple en todo momento.
 
 
 Ejercicios
 ----------
 #. ¿Qué es un biestable D y para qué sirve?
 
-#. ¿Cuántas entradas tiene un biestable D y qué función tiene cada una?
+#. ¿Cuántas entradas tiene un biestable D y qué función cumple cada una?
 
-#. ¿Cuántas salidas tiene un biestable D y qué función tiene cada una?
+#. ¿Cuántas salidas tiene un biestable D y qué función cumple cada una?
 
 #. Dibuja el circuito de un biestable D con el nombre de sus entradas
-   y de sus salidas.
+   y salidas.
 
 #. Dibuja la tabla de verdad de un biestable D y explica brevemente
    su funcionamiento normal.
@@ -111,5 +113,5 @@ Ejercicios
 #. ¿Puede tener el biestable D una entrada prohibida o indeterminada?
    ¿Qué consecuencias tiene ese funcionamiento?
    
-#. Simula todos los estados del biestable D con el simulador de esta
+#. Simula todos los estados del **biestable D** con el simulador de esta
    página.

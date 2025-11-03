@@ -1,194 +1,187 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
-# This file is distributed under the same license as the Picuino package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Picuino 2025\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-29 19:06+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-11-03 15:01+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-bistable-t.rst:9
 msgid "El biestable T"
-msgstr ""
-
+msgstr "The flip-flop T"
 #: ../../source/electronic-bistable-t.rst:10
 msgid ""
-"El `biestable T (Toggle) "
+"El `biestable T (toggle) "
 "<https://es.wikipedia.org/wiki/Biestable#Biestable_T_(Toggle)>`__ es un "
-"circuito secuencial que puede almacenar un bit de información."
+"circuito secuencial que permite almacenar un bit de información."
 msgstr ""
-
+"The `bistable T (toggle) "
+"<https://es.wikipedia.org/wiki/Biestable#Biestable_T_(Toggle)>`__ is a "
+"sequential circuit that allows storing a bit of information."
 #: ../../source/electronic-bistable-t.rst:14
 msgid ""
-"El **biestable T** tiene dos entradas, la entrada **T** o toggle, que "
-"sirve como entrada de datos y la entrada de reloj (Clock o **CLK**) que "
-"sirve para validar el dato de entrada. Este biestable cambia de estado "
-"cada vez que recibe un pulso de reloj mientras su entrada **T** esté "
-"activa (1 lógico)."
+"El **biestable T** tiene dos entradas, la entrada **T** o **toggle**, que "
+"sirve como entrada de datos y la entrada de reloj (**Clock** o **CLK**) que "
+"valida el dato de entrada. Este biestable cambia de estado cada vez que "
+"recibe un pulso de reloj, siempre que su entrada **T** esté activa (1 "
+"lógico)."
 msgstr ""
-
+"The **T** flip-flop has two inputs, the **T** or **toggle** input, which "
+"serves as a data input and the clock input (**Clock** or **CLK**) that "
+"validates the input data. This flip-flop changes state every time it "
+"receives a clock pulse, as long as its **T** input is active (logic 1)."
 #: ../../source/electronic-bistable-t.rst:20
 msgid ""
-"El biestable T tiene dos salidas como el resto de biestables. Las salidas"
-" complementarias **Q** y **/Q** que siempre valen una lo contrario de la "
-"otra."
+"El biestable T tiene dos salidas como el resto de biestables. Las salidas "
+"complementarias **Q** y **/Q** que siempre presentan valores opuestos."
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:33
+"The T flip-flop has two outputs like the rest of the flip-flops. The "
+"complementary outputs **Q** and **/Q** that always have opposite values."
+#: ../../source/electronic-bistable-t.rst:32
 msgid "El **biestable T** es muy útil para construir:"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:25
+msgstr "The **T flip-flop** is very useful for building:"
+#: ../../source/electronic-bistable-t.rst:24
 msgid ""
-"**Contadores binarios**: son circuitos que cuentan, en código binario, "
-"los pulsos de entrada que les llegan. Cada biestable que se añade en "
-"serie es un bit que se añade a la cuenta binaria."
+"**Contadores binarios**: circuitos que cuentan, en código binario, los "
+"pulsos de entrada que reciben. Cada biestable añadido en serie representa un"
+" bit adicional en la cuenta binaria."
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:28
+"**Binary counters**: circuits that count, in binary code, the input pulses "
+"they receive. Each flip-flop added in series represents an additional bit in"
+" the binary count."
+#: ../../source/electronic-bistable-t.rst:27
 msgid ""
-"**Divisores de frecuencia**: son circuitos que dividen la frecuencia de "
-"su entrada en frecuencias menores. Esto es útil por ejemplo en los "
-"relojes digitales que dividen la frecuencia de un cristal de cuarzo para "
-"dar pulsos de un segundo al motor de las manillas."
+"**Divisores de frecuencia**: circuitos que dividen la frecuencia de entrada "
+"en frecuencias menores. Esto es útil, por ejemplo, en los relojes digitales,"
+" que dividen la frecuencia de un cristal de cuarzo para generar pulsos de un"
+" segundo destinados al motor que mueve las manecillas."
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:36
+"**Frequency dividers**: circuits that divide the input frequency into lower "
+"frequencies. This is useful, for example, in digital watches, which divide "
+"the frequency of a quartz crystal to generate one-second pulses for the "
+"motor that moves the hands."
+#: ../../source/electronic-bistable-t.rst:35
 msgid "Simulación"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:37
-msgid "En la siguiente simulación podemos ver un **biestable T**:"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:47
+msgstr "Simulation"
+#: ../../source/electronic-bistable-t.rst:36
+msgid "En la siguiente simulación podemos observar un **biestable T**:"
+msgstr "In the following simulation we can observe a **bistable T**:"
+#: ../../source/electronic-bistable-t.rst:46
 msgid "Tabla de verdad"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:48
+msgstr "Truth table"
+#: ../../source/electronic-bistable-t.rst:47
 msgid ""
-"Los cambios de la salida del biestable T solo se producen cuando cambia "
-"el estado de la entrada Clock (CLK) de nivel bajo (0 lógico) -> a nivel "
-"alto (1 lógico), es decir en los **flancos de subida de CLK**."
+"Los cambios de la salida del biestable T solo se producen cuando la entrada "
+"de reloj (**CLK**) cambia de nivel bajo (0 lógico) a nivel alto (1 lógico), "
+"es decir, en los **flancos de subida de CLK**."
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:52
+"Changes in the output of the T flip-flop only occur when the clock input "
+"(**CLK**) changes from a low level (logic 0) to a high level (logic 1), that"
+" is, on the **rising edges of CLK**."
+#: ../../source/electronic-bistable-t.rst:51
 msgid "La tabla de verdad del **biestable T** es la siguiente:"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:58
+msgstr "The truth table of the **flip-flop T** is the following:"
+#: ../../source/electronic-bistable-t.rst:57
 msgid "T"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:59
+msgstr "T"
+#: ../../source/electronic-bistable-t.rst:58
 msgid "CLK"
-msgstr ""
-
+msgstr "CLK"
+#: ../../source/electronic-bistable-t.rst:59
+#: ../../source/electronic-bistable-t.rst:63
+#: ../../source/electronic-bistable-t.rst:68
+msgid "Q"
+msgstr "Q"
 #: ../../source/electronic-bistable-t.rst:60
 #: ../../source/electronic-bistable-t.rst:64
-#: ../../source/electronic-bistable-t.rst:69
-msgid "Q"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:61
-#: ../../source/electronic-bistable-t.rst:65
-#: ../../source/electronic-bistable-t.rst:68
-msgid "/Q"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:62
-msgid "0"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:63
 #: ../../source/electronic-bistable-t.rst:67
-msgid "_↑¯"
-msgstr ""
-
+msgid "/Q"
+msgstr "/Q"
+#: ../../source/electronic-bistable-t.rst:61
+msgid "0"
+msgstr "0"
+#: ../../source/electronic-bistable-t.rst:62
 #: ../../source/electronic-bistable-t.rst:66
+msgid "_↑¯"
+msgstr "_↑¯"
+#: ../../source/electronic-bistable-t.rst:65
 msgid "1"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:72
+msgstr "1"
+#: ../../source/electronic-bistable-t.rst:71
 msgid ""
 "Si la entrada **T** está a nivel bajo (0 lógico), al llegar un flanco de "
-"subida en **CLK** las salidas permanecen en el mismo estado en el que "
+"subida en **CLK**, las salidas permanecen en el mismo estado en el que "
 "estaban antes."
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:76
+"If the **T** input is low (logical 0), when a rising edge arrives at "
+"**CLK**, the outputs remain in the same state they were in before."
+#: ../../source/electronic-bistable-t.rst:75
 msgid ""
 "Si la entrada **T** está a nivel alto (1 lógico), al llegar un flanco de "
-"subida en **CLK** las salidas cambian su nivel al nivel contrario de "
-"manera que intercambian el estado alto (1 lógico) y el estado bajo (0 "
-"lógico) entre sí."
+"subida en **CLK**, las salidas cambian de nivel, intercambiando entre sí los"
+" estados alto (1 lógico) y bajo (0 lógico)."
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:81
+"If the **T** input is at a high level (logical 1), when a rising edge "
+"arrives at **CLK**, the outputs change level, exchanging the high (logical "
+"1) and low (logical 0) states with each other."
+#: ../../source/electronic-bistable-t.rst:79
 msgid ""
-"El comportamiento del biestable T es igual al de un biestable JK en el "
-"que se han unido las dos entradas **J** y **K** en una sola entrada "
-"llamada **T**."
+"El comportamiento del biestable T es igual al de un :ref:`biestable JK "
+"<electronic-bistable-jk>`, en el que se han unido las dos entradas **J** y "
+"**K** en una sola entrada llamada **T**."
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:87
+"The behavior of the T flip-flop is the same as that of a :ref:`JK flip-flop "
+"<electronic-bistable-jk>`, in which the two inputs **J** and **K** have been"
+" united into a single input called **T**."
+#: ../../source/electronic-bistable-t.rst:86
 msgid "Ejercicios"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:88
+msgstr "Exercises"
+#: ../../source/electronic-bistable-t.rst:87
 msgid "¿Qué es un biestable T, por qué se llama así y para qué sirve?"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:90
-msgid "¿Qué parecidos y diferencias tiene el biestable T con el biestable JK?"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:93
-msgid "¿Cuántas entradas tiene un biestable T y qué función tiene cada una?"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:95
-msgid "¿Cuántas salidas tiene un biestable T y qué función tiene cada una?"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:97
+msgstr "What is a T flip-flop, why is it called that and what is it for?"
+#: ../../source/electronic-bistable-t.rst:89
 msgid ""
-"Dibuja el circuito de un biestable T con el nombre de sus entradas y de "
-"sus salidas."
+"¿Qué semejanzas y diferencias presenta el biestable T respecto al biestable "
+"JK?"
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:100
+"What similarities and differences does the T flip-flop have with respect to "
+"the JK flip-flop?"
+#: ../../source/electronic-bistable-t.rst:92
+msgid "¿Cuántas entradas tiene un biestable T y qué función cumple cada una?"
+msgstr ""
+"How many inputs does a T flip-flop have and what function does each one "
+"perform?"
+#: ../../source/electronic-bistable-t.rst:94
+msgid "¿Cuántas salidas tiene un biestable T y qué función cumple cada una?"
+msgstr ""
+"How many outputs does a T flip-flop have and what function does each one "
+"fulfill?"
+#: ../../source/electronic-bistable-t.rst:96
+msgid ""
+"Dibuja el circuito de un biestable T con el nombre de sus entradas y de sus "
+"salidas."
+msgstr ""
+"Draw the circuit of a T flip-flop with the names of its inputs and outputs."
+#: ../../source/electronic-bistable-t.rst:99
 msgid ""
 "Dibuja la tabla de verdad de un biestable T y explica brevemente su "
 "funcionamiento normal."
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:103
-msgid "¿Tienen alguna semejanza el biestable T con el biestable JK?"
+"Draw the truth table of a T flip-flop and briefly explain its normal "
+"operation."
+#: ../../source/electronic-bistable-t.rst:102
+msgid "¿Tienen el biestable T alguna semejanza con el biestable JK?"
+msgstr "Does the T flip-flop have any similarity to the JK flip-flop?"
+#: ../../source/electronic-bistable-t.rst:104
+msgid ""
+"Simula todos los estados del biestable T con el simulador de esta página."
 msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:105
-msgid "Simula todos los estados del biestable T con el simulador de esta página."
-msgstr ""
-
-#~ msgid ""
-#~ "Este biestable tiene dos entradas, la"
-#~ " entrada **T** o toggle, que sirve"
-#~ " como entrada de datos y la "
-#~ "entrada de reloj (Clock o **CLK**) "
-#~ "que sirve para validar el dato de"
-#~ " entrada."
-#~ msgstr ""
-
+"Simulate all the states of the T flip-flop with the simulator on this page."

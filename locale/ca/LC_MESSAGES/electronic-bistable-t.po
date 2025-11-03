@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Picuino 2025\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-29 19:06+0100\n"
+"POT-Creation-Date: 2025-11-03 15:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ca\n"
@@ -25,161 +25,162 @@ msgstr ""
 
 #: ../../source/electronic-bistable-t.rst:10
 msgid ""
-"El `biestable T (Toggle) "
+"El `biestable T (toggle) "
 "<https://es.wikipedia.org/wiki/Biestable#Biestable_T_(Toggle)>`__ es un "
-"circuito secuencial que puede almacenar un bit de información."
+"circuito secuencial que permite almacenar un bit de información."
 msgstr ""
 
 #: ../../source/electronic-bistable-t.rst:14
 msgid ""
-"El **biestable T** tiene dos entradas, la entrada **T** o toggle, que "
-"sirve como entrada de datos y la entrada de reloj (Clock o **CLK**) que "
-"sirve para validar el dato de entrada. Este biestable cambia de estado "
-"cada vez que recibe un pulso de reloj mientras su entrada **T** esté "
-"activa (1 lógico)."
+"El **biestable T** tiene dos entradas, la entrada **T** o **toggle**, que"
+" sirve como entrada de datos y la entrada de reloj (**Clock** o **CLK**) "
+"que valida el dato de entrada. Este biestable cambia de estado cada vez "
+"que recibe un pulso de reloj, siempre que su entrada **T** esté activa (1"
+" lógico)."
 msgstr ""
 
 #: ../../source/electronic-bistable-t.rst:20
 msgid ""
 "El biestable T tiene dos salidas como el resto de biestables. Las salidas"
-" complementarias **Q** y **/Q** que siempre valen una lo contrario de la "
-"otra."
+" complementarias **Q** y **/Q** que siempre presentan valores opuestos."
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:33
+#: ../../source/electronic-bistable-t.rst:32
 msgid "El **biestable T** es muy útil para construir:"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:25
+#: ../../source/electronic-bistable-t.rst:24
 msgid ""
-"**Contadores binarios**: son circuitos que cuentan, en código binario, "
-"los pulsos de entrada que les llegan. Cada biestable que se añade en "
-"serie es un bit que se añade a la cuenta binaria."
+"**Contadores binarios**: circuitos que cuentan, en código binario, los "
+"pulsos de entrada que reciben. Cada biestable añadido en serie representa"
+" un bit adicional en la cuenta binaria."
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:28
+#: ../../source/electronic-bistable-t.rst:27
 msgid ""
-"**Divisores de frecuencia**: son circuitos que dividen la frecuencia de "
-"su entrada en frecuencias menores. Esto es útil por ejemplo en los "
-"relojes digitales que dividen la frecuencia de un cristal de cuarzo para "
-"dar pulsos de un segundo al motor de las manillas."
+"**Divisores de frecuencia**: circuitos que dividen la frecuencia de "
+"entrada en frecuencias menores. Esto es útil, por ejemplo, en los relojes"
+" digitales, que dividen la frecuencia de un cristal de cuarzo para "
+"generar pulsos de un segundo destinados al motor que mueve las "
+"manecillas."
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:36
+#: ../../source/electronic-bistable-t.rst:35
 msgid "Simulación"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:37
-msgid "En la siguiente simulación podemos ver un **biestable T**:"
+#: ../../source/electronic-bistable-t.rst:36
+msgid "En la siguiente simulación podemos observar un **biestable T**:"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:47
+#: ../../source/electronic-bistable-t.rst:46
 msgid "Tabla de verdad"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:48
+#: ../../source/electronic-bistable-t.rst:47
 msgid ""
-"Los cambios de la salida del biestable T solo se producen cuando cambia "
-"el estado de la entrada Clock (CLK) de nivel bajo (0 lógico) -> a nivel "
-"alto (1 lógico), es decir en los **flancos de subida de CLK**."
+"Los cambios de la salida del biestable T solo se producen cuando la "
+"entrada de reloj (**CLK**) cambia de nivel bajo (0 lógico) a nivel alto "
+"(1 lógico), es decir, en los **flancos de subida de CLK**."
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:52
+#: ../../source/electronic-bistable-t.rst:51
 msgid "La tabla de verdad del **biestable T** es la siguiente:"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:58
+#: ../../source/electronic-bistable-t.rst:57
 msgid "T"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:59
+#: ../../source/electronic-bistable-t.rst:58
 msgid "CLK"
+msgstr ""
+
+#: ../../source/electronic-bistable-t.rst:59
+#: ../../source/electronic-bistable-t.rst:63
+#: ../../source/electronic-bistable-t.rst:68
+msgid "Q"
 msgstr ""
 
 #: ../../source/electronic-bistable-t.rst:60
 #: ../../source/electronic-bistable-t.rst:64
-#: ../../source/electronic-bistable-t.rst:69
-msgid "Q"
-msgstr ""
-
-#: ../../source/electronic-bistable-t.rst:61
-#: ../../source/electronic-bistable-t.rst:65
-#: ../../source/electronic-bistable-t.rst:68
+#: ../../source/electronic-bistable-t.rst:67
 msgid "/Q"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:62
+#: ../../source/electronic-bistable-t.rst:61
 msgid "0"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:63
-#: ../../source/electronic-bistable-t.rst:67
+#: ../../source/electronic-bistable-t.rst:62
+#: ../../source/electronic-bistable-t.rst:66
 msgid "_↑¯"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:66
+#: ../../source/electronic-bistable-t.rst:65
 msgid "1"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:72
+#: ../../source/electronic-bistable-t.rst:71
 msgid ""
 "Si la entrada **T** está a nivel bajo (0 lógico), al llegar un flanco de "
-"subida en **CLK** las salidas permanecen en el mismo estado en el que "
+"subida en **CLK**, las salidas permanecen en el mismo estado en el que "
 "estaban antes."
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:76
+#: ../../source/electronic-bistable-t.rst:75
 msgid ""
 "Si la entrada **T** está a nivel alto (1 lógico), al llegar un flanco de "
-"subida en **CLK** las salidas cambian su nivel al nivel contrario de "
-"manera que intercambian el estado alto (1 lógico) y el estado bajo (0 "
-"lógico) entre sí."
+"subida en **CLK**, las salidas cambian de nivel, intercambiando entre sí "
+"los estados alto (1 lógico) y bajo (0 lógico)."
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:81
+#: ../../source/electronic-bistable-t.rst:79
 msgid ""
-"El comportamiento del biestable T es igual al de un biestable JK en el "
-"que se han unido las dos entradas **J** y **K** en una sola entrada "
-"llamada **T**."
+"El comportamiento del biestable T es igual al de un :ref:`biestable JK "
+"<electronic-bistable-jk>`, en el que se han unido las dos entradas **J** "
+"y **K** en una sola entrada llamada **T**."
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:87
+#: ../../source/electronic-bistable-t.rst:86
 msgid "Ejercicios"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:88
+#: ../../source/electronic-bistable-t.rst:87
 msgid "¿Qué es un biestable T, por qué se llama así y para qué sirve?"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:90
-msgid "¿Qué parecidos y diferencias tiene el biestable T con el biestable JK?"
+#: ../../source/electronic-bistable-t.rst:89
+msgid ""
+"¿Qué semejanzas y diferencias presenta el biestable T respecto al "
+"biestable JK?"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:93
-msgid "¿Cuántas entradas tiene un biestable T y qué función tiene cada una?"
+#: ../../source/electronic-bistable-t.rst:92
+msgid "¿Cuántas entradas tiene un biestable T y qué función cumple cada una?"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:95
-msgid "¿Cuántas salidas tiene un biestable T y qué función tiene cada una?"
+#: ../../source/electronic-bistable-t.rst:94
+msgid "¿Cuántas salidas tiene un biestable T y qué función cumple cada una?"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:97
+#: ../../source/electronic-bistable-t.rst:96
 msgid ""
 "Dibuja el circuito de un biestable T con el nombre de sus entradas y de "
 "sus salidas."
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:100
+#: ../../source/electronic-bistable-t.rst:99
 msgid ""
 "Dibuja la tabla de verdad de un biestable T y explica brevemente su "
 "funcionamiento normal."
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:103
-msgid "¿Tienen alguna semejanza el biestable T con el biestable JK?"
+#: ../../source/electronic-bistable-t.rst:102
+msgid "¿Tienen el biestable T alguna semejanza con el biestable JK?"
 msgstr ""
 
-#: ../../source/electronic-bistable-t.rst:105
+#: ../../source/electronic-bistable-t.rst:104
 msgid "Simula todos los estados del biestable T con el simulador de esta página."
 msgstr ""
 
@@ -190,5 +191,112 @@ msgstr ""
 #~ "entrada de reloj (Clock o **CLK**) "
 #~ "que sirve para validar el dato de"
 #~ " entrada."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El comportamiento del biestable T es "
+#~ "igual al de un biestable JK en "
+#~ "el que se han unido las dos "
+#~ "entradas **J** y **K** en una sola"
+#~ " entrada llamada **T**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El `biestable T (Toggle) "
+#~ "<https://es.wikipedia.org/wiki/Biestable#Biestable_T_(Toggle)>`__ "
+#~ "es un circuito secuencial que puede "
+#~ "almacenar un bit de información."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El **biestable T** tiene dos entradas,"
+#~ " la entrada **T** o toggle, que "
+#~ "sirve como entrada de datos y la"
+#~ " entrada de reloj (Clock o **CLK**)"
+#~ " que sirve para validar el dato "
+#~ "de entrada. Este biestable cambia de "
+#~ "estado cada vez que recibe un "
+#~ "pulso de reloj mientras su entrada "
+#~ "**T** esté activa (1 lógico)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El biestable T tiene dos salidas "
+#~ "como el resto de biestables. Las "
+#~ "salidas complementarias **Q** y **/Q** "
+#~ "que siempre valen una lo contrario "
+#~ "de la otra."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Contadores binarios**: son circuitos que "
+#~ "cuentan, en código binario, los pulsos"
+#~ " de entrada que les llegan. Cada "
+#~ "biestable que se añade en serie es"
+#~ " un bit que se añade a la "
+#~ "cuenta binaria."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Divisores de frecuencia**: son circuitos "
+#~ "que dividen la frecuencia de su "
+#~ "entrada en frecuencias menores. Esto es"
+#~ " útil por ejemplo en los relojes "
+#~ "digitales que dividen la frecuencia de"
+#~ " un cristal de cuarzo para dar "
+#~ "pulsos de un segundo al motor de"
+#~ " las manillas."
+#~ msgstr ""
+
+#~ msgid "En la siguiente simulación podemos ver un **biestable T**:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Los cambios de la salida del "
+#~ "biestable T solo se producen cuando "
+#~ "cambia el estado de la entrada "
+#~ "Clock (CLK) de nivel bajo (0 "
+#~ "lógico) -> a nivel alto (1 "
+#~ "lógico), es decir en los **flancos "
+#~ "de subida de CLK**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si la entrada **T** está a nivel"
+#~ " bajo (0 lógico), al llegar un "
+#~ "flanco de subida en **CLK** las "
+#~ "salidas permanecen en el mismo estado"
+#~ " en el que estaban antes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Si la entrada **T** está a nivel"
+#~ " alto (1 lógico), al llegar un "
+#~ "flanco de subida en **CLK** las "
+#~ "salidas cambian su nivel al nivel "
+#~ "contrario de manera que intercambian el"
+#~ " estado alto (1 lógico) y el "
+#~ "estado bajo (0 lógico) entre sí."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El comportamiento del biestable T es "
+#~ "igual al de un :ref:`biestable JK "
+#~ "<electronic-bistable-jk>` en el que "
+#~ "se han unido las dos entradas "
+#~ "**J** y **K** en una sola entrada"
+#~ " llamada **T**."
+#~ msgstr ""
+
+#~ msgid "¿Qué parecidos y diferencias tiene el biestable T con el biestable JK?"
+#~ msgstr ""
+
+#~ msgid "¿Cuántas entradas tiene un biestable T y qué función tiene cada una?"
+#~ msgstr ""
+
+#~ msgid "¿Cuántas salidas tiene un biestable T y qué función tiene cada una?"
+#~ msgstr ""
+
+#~ msgid "¿Tienen alguna semejanza el biestable T con el biestable JK?"
 #~ msgstr ""
 

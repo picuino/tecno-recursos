@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Picuino 2025\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 18:45+0200\n"
+"POT-Creation-Date: 2025-11-03 15:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ca\n"
@@ -26,39 +26,40 @@ msgstr ""
 #: ../../source/electronic-bistable-rs.rst:10
 msgid ""
 "Hasta ahora hemos estudiado circuitos **combinacionales**. En este tipo "
-"de circuitos las salidas de señal solo dependen de las entradas de señal,"
-" no existe efecto memoria interna."
+"de circuitos, las salidas de señal dependen exclusivamente de las "
+"entradas, sin ningún efecto de memoria interna."
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:14
 msgid ""
-"A partir de ahora estudiaremos algunos circuitos **secuenciales** que se "
-"diferencian de los anteriores en que sus salidas dependen de las entradas"
-" y también dependen del estado interno del circuito, que tiene memoria."
+"A partir de ahora, estudiaremos algunos circuitos **secuenciales**, que "
+"se diferencian de los combinacionales en que sus salidas dependen no solo"
+" de las entradas, sino también del estado interno del circuito, que tiene"
+" memoria."
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:19
 msgid ""
 "El primer circuito secuencial que vamos a estudiar es el **biestable "
-"RS**. Este biestable sirve para almacenar un bit de información (un cero "
-"o un uno) funcionando como el circuito de memoria más básico que podemos "
-"utilizar. Es el componente fundamental de los circuitos secuenciales, "
-"como contadores y registros y es la base de la memoria SRAM de las "
-"computadoras."
+"RS**. Este biestable se utiliza para almacenar un bit de información (un "
+"cero o un uno), funcionando como el circuito de memoria más básico que "
+"podemos utilizar. Es el componente fundamental de los circuitos "
+"secuenciales, como contadores y registros y es la base de la memoria SRAM"
+" en las computadoras."
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:25
 msgid ""
-"Tiene dos entradas, la entrada **S** o **SET** que memoriza un **uno** "
-"(estado alto) en el circuito y la entrada **R** o **RESET** que memoriza "
-"un **cero** (estado bajo) en el circuito."
+"El biestable RS tiene dos entradas: la entrada **S** o **SET** que "
+"memoriza un **uno** (estado alto), y la entrada **R** o **RESET** que "
+"memoriza un **cero** (estado bajo)."
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:29
 msgid ""
-"El biestable RS tiene dos salidas, la salida **Q** refleja el estado "
-"interno del biestable y la salida negada **/Q** que valdrá lo contrario "
-"que la primera salida."
+"El biestable RS tiene dos salidas: la salida **Q** refleja el estado "
+"interno del biestable y la salida negada **/Q** que tendrá el valor "
+"contrario de la salida **Q**."
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:34
@@ -67,8 +68,8 @@ msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:35
 msgid ""
-"En la siguiente simulación podemos ver un **biestable RS** fabricado con "
-"dos puertas NOR:"
+"En la siguiente simulación, podemos observar un **biestable RS** "
+"fabricado con dos puertas NOR:"
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:46
@@ -137,11 +138,11 @@ msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:85
 msgid ""
-"El último estado, cuando se activan a la vez las entradas **SET** y "
-"**RESET**, se denomina estado prohibido o estado indeterminado porque "
-"fuerza a ambas salidas a nivel bajo (cero lógico). En este estado, las "
-"salidas del biestable se comportan de manera ilógica, ya que las señales "
-"de **SET** y de **RESET** se oponen directamente entre sí."
+"El último estado, cuando se activan simultáneamente las entradas **SET** "
+"y **RESET**, se denomina **estado prohibido** o **estado indeterminado** "
+"porque fuerza a ambas salidas a nivel bajo (cero lógico). En este estado,"
+" las salidas del biestable se comportan de manera ilógica, ya que las "
+"señales de **SET** y de **RESET** se oponen directamente entre sí."
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:94
@@ -150,8 +151,8 @@ msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:95
 msgid ""
-"En la siguiente simulación podemos ver un **biestable RS** fabricado con "
-"dos puertas NAND:"
+"En la siguiente simulación, podemos ver un **biestable RS** fabricado con"
+" dos puertas NAND:"
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:104
@@ -175,11 +176,11 @@ msgid "¿Qué tipo de circuito digital es un biestable RS y para qué sirve?"
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:115
-msgid "¿Cuántas entradas tiene un biestable RS y qué función tiene cada una?"
+msgid "¿Cuántas entradas tiene un biestable RS y qué función cumple cada una?"
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:117
-msgid "¿Cuántas salidas tiene un biestable RS y qué función tiene cada una?"
+msgid "¿Cuántas salidas tiene un biestable RS y qué función cumple cada una?"
 msgstr ""
 
 #: ../../source/electronic-bistable-rs.rst:119
@@ -215,4 +216,83 @@ msgid ""
 "Señala en la tabla el estado prohibido o indeterminado. ¿Qué valen sus "
 "dos salidas en ese estado?"
 msgstr ""
+
+#~ msgid ""
+#~ "Hasta ahora hemos estudiado circuitos "
+#~ "**combinacionales**. En este tipo de "
+#~ "circuitos las salidas de señal solo "
+#~ "dependen de las entradas de señal, "
+#~ "no existe efecto memoria interna."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A partir de ahora estudiaremos algunos"
+#~ " circuitos **secuenciales** que se "
+#~ "diferencian de los anteriores en que "
+#~ "sus salidas dependen de las entradas "
+#~ "y también dependen del estado interno"
+#~ " del circuito, que tiene memoria."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El primer circuito secuencial que vamos"
+#~ " a estudiar es el **biestable RS**."
+#~ " Este biestable sirve para almacenar "
+#~ "un bit de información (un cero o"
+#~ " un uno) funcionando como el circuito"
+#~ " de memoria más básico que podemos"
+#~ " utilizar. Es el componente fundamental "
+#~ "de los circuitos secuenciales, como "
+#~ "contadores y registros y es la "
+#~ "base de la memoria SRAM de las "
+#~ "computadoras."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tiene dos entradas, la entrada **S** "
+#~ "o **SET** que memoriza un **uno** "
+#~ "(estado alto) en el circuito y la"
+#~ " entrada **R** o **RESET** que "
+#~ "memoriza un **cero** (estado bajo) en"
+#~ " el circuito."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El biestable RS tiene dos salidas, "
+#~ "la salida **Q** refleja el estado "
+#~ "interno del biestable y la salida "
+#~ "negada **/Q** que valdrá lo contrario"
+#~ " que la primera salida."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "En la siguiente simulación podemos ver"
+#~ " un **biestable RS** fabricado con "
+#~ "dos puertas NOR:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El último estado, cuando se activan "
+#~ "a la vez las entradas **SET** y"
+#~ " **RESET**, se denomina estado prohibido"
+#~ " o estado indeterminado porque fuerza "
+#~ "a ambas salidas a nivel bajo (cero"
+#~ " lógico). En este estado, las salidas"
+#~ " del biestable se comportan de manera"
+#~ " ilógica, ya que las señales de "
+#~ "**SET** y de **RESET** se oponen "
+#~ "directamente entre sí."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "En la siguiente simulación podemos ver"
+#~ " un **biestable RS** fabricado con "
+#~ "dos puertas NAND:"
+#~ msgstr ""
+
+#~ msgid "¿Cuántas entradas tiene un biestable RS y qué función tiene cada una?"
+#~ msgstr ""
+
+#~ msgid "¿Cuántas salidas tiene un biestable RS y qué función tiene cada una?"
+#~ msgstr ""
 

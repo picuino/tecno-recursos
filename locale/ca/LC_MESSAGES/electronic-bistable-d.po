@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Picuino 2025\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-29 19:02+0100\n"
+"POT-Creation-Date: 2025-11-03 15:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ca\n"
@@ -28,161 +28,165 @@ msgid ""
 "El `biestable D "
 "<https://es.wikipedia.org/wiki/Biestable#Biestable_D_(Data_o_Delay)>`__ "
 "(Data o Delay) es un circuito secuencial básico que, al igual que el "
-"biestable RS, puede almacenar un bit de información. La diferencia entre "
-"el biestable D y el biestable RS consiste en la forma diferente que "
-"tienen de almacenar ese bit con sus entradas."
+"biestable RS, permite almacenar un bit de información. La diferencia "
+"entre el biestable D y el :ref:`biestable RS <electronic-bistable-rs>` "
+"radica en la forma diferente que tienen de almacenar ese bit con sus "
+"entradas."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:17
+#: ../../source/electronic-bistable-d.rst:19
 msgid ""
-"El **biestable D** tiene una entrada **D** o dato que puede estar a nivel"
-" alto (1 lógico) o a nivel bajo (0 lógico). Ese dato se va a grabar en el"
-" interior del biestable cuando se active otra entrada denominada Reloj o "
-"**CLK** (Clock), en el flanco de subida o cambio de cero a uno lógico."
+"El **biestable D** tiene una entrada **D** (dato), que puede estar a "
+"nivel alto (1 lógico) o a nivel bajo (0 lógico). Este dato se almacena en"
+" el interior del biestable cuando se activa otra entrada denominada "
+"**Reloj** o **CLK** (Clock), en el flanco de subida o cambio de nivel "
+"bajo (0 lógico) a nivel alto (1 lógico)."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:23
+#: ../../source/electronic-bistable-d.rst:25
 msgid ""
-"El biestable D sirve principalmente para almacenar datos binarios y para "
-"sincronizar señales."
+"El **biestable D** se utiliza principalmente para almacenar datos "
+"binarios y para sincronizar señales."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:27
+#: ../../source/electronic-bistable-d.rst:29
 msgid "Simulación"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:28
-msgid "En la siguiente simulación podemos ver un **biestable D**:"
+#: ../../source/electronic-bistable-d.rst:30
+msgid "En la siguiente simulación podemos observar un **biestable D**:"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:38
+#: ../../source/electronic-bistable-d.rst:40
 msgid "Tabla de verdad"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:39
+#: ../../source/electronic-bistable-d.rst:41
 msgid "La tabla de verdad del **biestable D** es la siguiente:"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:45
+#: ../../source/electronic-bistable-d.rst:47
 msgid "D"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:46
+#: ../../source/electronic-bistable-d.rst:48
 msgid "CLK"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:47
-#: ../../source/electronic-bistable-d.rst:51
-#: ../../source/electronic-bistable-d.rst:55
-#: ../../source/electronic-bistable-d.rst:67
-#: ../../source/electronic-bistable-d.rst:71
+#: ../../source/electronic-bistable-d.rst:49
+#: ../../source/electronic-bistable-d.rst:53
+#: ../../source/electronic-bistable-d.rst:57
+#: ../../source/electronic-bistable-d.rst:69
+#: ../../source/electronic-bistable-d.rst:73
 msgid "Q"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:48
-#: ../../source/electronic-bistable-d.rst:52
-#: ../../source/electronic-bistable-d.rst:56
-#: ../../source/electronic-bistable-d.rst:68
-#: ../../source/electronic-bistable-d.rst:72
+#: ../../source/electronic-bistable-d.rst:50
+#: ../../source/electronic-bistable-d.rst:54
+#: ../../source/electronic-bistable-d.rst:58
+#: ../../source/electronic-bistable-d.rst:70
+#: ../../source/electronic-bistable-d.rst:74
 msgid "/Q"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:49
-#: ../../source/electronic-bistable-d.rst:50
-#: ../../source/electronic-bistable-d.rst:54
-#: ../../source/electronic-bistable-d.rst:57
+#: ../../source/electronic-bistable-d.rst:51
+#: ../../source/electronic-bistable-d.rst:52
+#: ../../source/electronic-bistable-d.rst:56
 #: ../../source/electronic-bistable-d.rst:59
-#: ../../source/electronic-bistable-d.rst:64
-#: ../../source/electronic-bistable-d.rst:65
+#: ../../source/electronic-bistable-d.rst:61
+#: ../../source/electronic-bistable-d.rst:66
+#: ../../source/electronic-bistable-d.rst:67
 msgid "0"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:53
-#: ../../source/electronic-bistable-d.rst:60
-#: ../../source/electronic-bistable-d.rst:61
+#: ../../source/electronic-bistable-d.rst:55
+#: ../../source/electronic-bistable-d.rst:62
 #: ../../source/electronic-bistable-d.rst:63
-#: ../../source/electronic-bistable-d.rst:66
-#: ../../source/electronic-bistable-d.rst:69
-#: ../../source/electronic-bistable-d.rst:70
+#: ../../source/electronic-bistable-d.rst:65
+#: ../../source/electronic-bistable-d.rst:68
+#: ../../source/electronic-bistable-d.rst:71
+#: ../../source/electronic-bistable-d.rst:72
 msgid "1"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:58
-#: ../../source/electronic-bistable-d.rst:62
+#: ../../source/electronic-bistable-d.rst:60
+#: ../../source/electronic-bistable-d.rst:64
 msgid "_↑¯"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:81
+#: ../../source/electronic-bistable-d.rst:83
 msgid "Flanco de subida"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:75
+#: ../../source/electronic-bistable-d.rst:77
 msgid ""
-"Los cambios de estado de este biestable ocurren solamente cuando la "
+"Los cambios de estado de este biestable se producen únicamente cuando la "
 "entrada **CLK** cambia de estar inactiva (0 lógico) a estar activa (1 "
-"lógico). No ocurren cuando se mantiene inactiva ni cuando se mantiene "
-"activa, solo en el momento del cambio de valor de 0 lógico a 1 lógico. "
-"Este cambio se denomina **\"Flanco de subida\"** y lo vamos a representar"
-" con el símbolo \"_↑¯\"."
+"lógico). No ocurren mientras la señal se mantiene estable, sino "
+"exclusivamente en el momento del cambio de valor de 0 lógico a 1 lógico. "
+"Este cambio se denomina **\"flanco de subida\"** y se representa con el "
+"símbolo \"_↑¯\"."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:83
+#: ../../source/electronic-bistable-d.rst:85
 msgid ""
-"En el momento que en la entrada **CLK** hay un flanco de subida, el valor"
-" de la entrada **D** se copia en el interior del biestable y ese valor se"
-" puede ver en la salida **Q**."
+"En el momento que la entrada **CLK** presenta un flanco de subida, el "
+"valor de la entrada **D** se copia en el interior del biestable y se "
+"refleja en la salida **Q**."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:87
+#: ../../source/electronic-bistable-d.rst:89
 msgid ""
-"Una vez que la entrada **CLK** está a nivel alto, aunque cambie la "
-"entrada **D**, el valor del biestable no cambiará, porque no ha habido un"
-" flanco de subida."
+"Una vez que la entrada **CLK** permanece a nivel alto, aunque cambie la "
+"entrada **D**, el valor del biestable no variará, ya que no se ha "
+"producido un nuevo flanco de subida."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:92
+#: ../../source/electronic-bistable-d.rst:94
 msgid ""
 "La salida **/Q** siempre tendrá el valor contrario a la salida **Q**. "
-"Como este biestable no tiene estados prohibidos o indeterminados, esta "
-"condición se cumple siempre."
+"Como este biestable no posee estados prohibidos ni indeterminados, esta "
+"condición se cumple en todo momento."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:98
+#: ../../source/electronic-bistable-d.rst:100
 msgid "Ejercicios"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:99
+#: ../../source/electronic-bistable-d.rst:101
 msgid "¿Qué es un biestable D y para qué sirve?"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:101
-msgid "¿Cuántas entradas tiene un biestable D y qué función tiene cada una?"
-msgstr ""
-
 #: ../../source/electronic-bistable-d.rst:103
-msgid "¿Cuántas salidas tiene un biestable D y qué función tiene cada una?"
+msgid "¿Cuántas entradas tiene un biestable D y qué función cumple cada una?"
 msgstr ""
 
 #: ../../source/electronic-bistable-d.rst:105
-msgid ""
-"Dibuja el circuito de un biestable D con el nombre de sus entradas y de "
-"sus salidas."
+msgid "¿Cuántas salidas tiene un biestable D y qué función cumple cada una?"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:108
+#: ../../source/electronic-bistable-d.rst:107
+msgid ""
+"Dibuja el circuito de un biestable D con el nombre de sus entradas y "
+"salidas."
+msgstr ""
+
+#: ../../source/electronic-bistable-d.rst:110
 msgid ""
 "Dibuja la tabla de verdad de un biestable D y explica brevemente su "
 "funcionamiento normal."
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:111
+#: ../../source/electronic-bistable-d.rst:113
 msgid ""
 "¿Puede tener el biestable D una entrada prohibida o indeterminada? ¿Qué "
 "consecuencias tiene ese funcionamiento?"
 msgstr ""
 
-#: ../../source/electronic-bistable-d.rst:114
-msgid "Simula todos los estados del biestable D con el simulador de esta página."
+#: ../../source/electronic-bistable-d.rst:116
+msgid ""
+"Simula todos los estados del **biestable D** con el simulador de esta "
+"página."
 msgstr ""
 
 #~ msgid ""
@@ -206,5 +210,110 @@ msgstr ""
 #~ "bit de información. La diferencia entre"
 #~ " ambos consiste en la forma de "
 #~ "almacenar ese bit con sus entradas."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El `biestable D "
+#~ "<https://es.wikipedia.org/wiki/Biestable#Biestable_D_(Data_o_Delay)>`__"
+#~ " (Data o Delay) es un circuito "
+#~ "secuencial básico que, al igual que "
+#~ "el biestable RS, puede almacenar un "
+#~ "bit de información. La diferencia entre"
+#~ " el biestable D y el biestable "
+#~ "RS consiste en la forma diferente "
+#~ "que tienen de almacenar ese bit "
+#~ "con sus entradas."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El `biestable D "
+#~ "<https://es.wikipedia.org/wiki/Biestable#Biestable_D_(Data_o_Delay)>`__"
+#~ " (Data o Delay) es un circuito "
+#~ "secuencial básico que, al igual que "
+#~ "el biestable RS, puede almacenar un "
+#~ "bit de información. La diferencia entre"
+#~ " el biestable D y el :ref:`biestable"
+#~ " RS <electronic-bistable-rs>` consiste "
+#~ "en la forma diferente que tienen "
+#~ "de almacenar ese bit con sus "
+#~ "entradas."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El **biestable D** tiene una entrada "
+#~ "**D** o dato que puede estar a "
+#~ "nivel alto (1 lógico) o a nivel"
+#~ " bajo (0 lógico). Ese dato se "
+#~ "va a grabar en el interior del "
+#~ "biestable cuando se active otra entrada"
+#~ " denominada Reloj o **CLK** (Clock), "
+#~ "en el flanco de subida o cambio"
+#~ " de cero a uno lógico."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El biestable D sirve principalmente para"
+#~ " almacenar datos binarios y para "
+#~ "sincronizar señales."
+#~ msgstr ""
+
+#~ msgid "En la siguiente simulación podemos ver un **biestable D**:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Los cambios de estado de este "
+#~ "biestable ocurren solamente cuando la "
+#~ "entrada **CLK** cambia de estar inactiva"
+#~ " (0 lógico) a estar activa (1 "
+#~ "lógico). No ocurren cuando se mantiene"
+#~ " inactiva ni cuando se mantiene "
+#~ "activa, solo en el momento del "
+#~ "cambio de valor de 0 lógico a "
+#~ "1 lógico. Este cambio se denomina "
+#~ "**\"Flanco de subida\"** y lo vamos "
+#~ "a representar con el símbolo \"_↑¯\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "En el momento que en la entrada"
+#~ " **CLK** hay un flanco de subida, "
+#~ "el valor de la entrada **D** se"
+#~ " copia en el interior del biestable"
+#~ " y ese valor se puede ver en"
+#~ " la salida **Q**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Una vez que la entrada **CLK** "
+#~ "está a nivel alto, aunque cambie "
+#~ "la entrada **D**, el valor del "
+#~ "biestable no cambiará, porque no ha "
+#~ "habido un flanco de subida."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "La salida **/Q** siempre tendrá el "
+#~ "valor contrario a la salida **Q**. "
+#~ "Como este biestable no tiene estados "
+#~ "prohibidos o indeterminados, esta condición"
+#~ " se cumple siempre."
+#~ msgstr ""
+
+#~ msgid "¿Cuántas entradas tiene un biestable D y qué función tiene cada una?"
+#~ msgstr ""
+
+#~ msgid "¿Cuántas salidas tiene un biestable D y qué función tiene cada una?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Dibuja el circuito de un biestable "
+#~ "D con el nombre de sus entradas"
+#~ " y de sus salidas."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Simula todos los estados del biestable"
+#~ " D con el simulador de esta "
+#~ "página."
 #~ msgstr ""
 

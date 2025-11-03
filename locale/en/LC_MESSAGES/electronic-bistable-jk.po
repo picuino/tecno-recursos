@@ -1,191 +1,199 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
-# This file is distributed under the same license as the Picuino package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Picuino 2025\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-29 19:02+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-11-03 15:01+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-bistable-jk.rst:9
 msgid "El biestable JK"
-msgstr ""
-
+msgstr "The JK flip-flop"
 #: ../../source/electronic-bistable-jk.rst:10
 msgid ""
-"El `biestable JK "
-"<https://es.wikipedia.org/wiki/Biestable#Biestable_JK>`__ es un circuito "
-"secuencial que puede almacenar un bit de información."
+"El `biestable JK <https://es.wikipedia.org/wiki/Biestable#Biestable_JK>`__ "
+"es un circuito secuencial que permite almacenar un bit de información."
 msgstr ""
-
+"The `JK flip-flop <https://es.wikipedia.org/wiki/Biestable#Biestable_JK>`__ "
+"is a sequential circuit that allows storing a bit of information."
 #: ../../source/electronic-bistable-jk.rst:14
 msgid ""
-"El **biestable JK** es uno de los más usados. Su funcionamiento es "
-"idéntico al biestable RS, excepto en el caso de que se activen sus dos "
-"entradas **J** y **K** a nivel alto (1 lógico). En ese caso las salidas "
-"cambian al estado contrario al que tenían anteriormente (función toggle) "
-"y esto evita la indeterminación no deseada del biestable RS."
+"El **biestable JK** es uno de los biestables más utilizados por su "
+"versatilidad. Su funcionamiento es idéntico al :ref:`biestable RS "
+"<electronic-bistable-rs>`, salvo cuando ambas entradas **J** y **K** se "
+"activan simultáneamente a nivel alto (1 lógico). En ese caso, las salidas "
+"cambian al estado opuesto al que tenían previamente (función **toggle**), "
+"evitando así la indeterminación no deseada del biestable RS."
 msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:20
+"The **JK flip-flop** is one of the most used flip-flops due to its "
+"versatility. Its operation is identical to the :ref:`bistable RS "
+"<electronic-bistable-rs>`, except when both inputs **J** and **K** are "
+"activated simultaneously at a high level (logical 1). In that case, the "
+"outputs change to the opposite state to the one they had previously "
+"(**toggle** function), thus avoiding the unwanted indeterminacy of the RS "
+"flip-flop."
+#: ../../source/electronic-bistable-jk.rst:22
 msgid ""
-"Este biestable es la base de numerosos circuitos secuenciales tales como "
-"contadores, registros, divisores de frecuencia, memorias de estado, etc."
+"Este biestable constituye la base de numerosos circuitos secuenciales, tales"
+" como contadores, registros, divisores de frecuencia o memorias de estado."
 msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:25
+"This flip-flop forms the basis of numerous sequential circuits, such as "
+"counters, registers, frequency dividers or state memories."
+#: ../../source/electronic-bistable-jk.rst:28
 msgid "Simulación"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:26
-msgid "En la siguiente simulación podemos ver un **biestable JK**:"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:36
+msgstr "Simulation"
+#: ../../source/electronic-bistable-jk.rst:29
+msgid "En la siguiente simulación podemos observar un **biestable JK**:"
+msgstr "In the following simulation we can see a **JK flip-flop**:"
+#: ../../source/electronic-bistable-jk.rst:39
 msgid "Tabla de verdad"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:37
+msgstr "Truth table"
+#: ../../source/electronic-bistable-jk.rst:40
 msgid ""
-"Los cambios de la salida del biestable JK solo se producen cuando cambia "
-"el estado de la entrada Clock (CLK) de nivel bajo (0 lógico) -> a nivel "
-"alto (1 lógico), es decir en los **flancos de subida de CLK**."
+"Los cambios en la salida del **biestable JK** solo se producen cuando cambia"
+" el estado de la entrada Clock (CLK) pasa de nivel bajo (0 lógico) a nivel "
+"alto (1 lógico); es decir, durante los **flancos de subida de CLK**."
 msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:41
+"Changes in the output of the **JK flip-flop** only occur when the state of "
+"the Clock (CLK) input changes from a low level (logic 0) to a high level "
+"(logic 1); that is, during the **rising edges of CLK**."
+#: ../../source/electronic-bistable-jk.rst:45
 msgid "La tabla de verdad del **biestable JK** es la siguiente:"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:47
-msgid "J"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:48
-msgid "K"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:49
-msgid "CLK"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:50
-#: ../../source/electronic-bistable-jk.rst:55
-#: ../../source/electronic-bistable-jk.rst:71
-msgid "Q"
-msgstr ""
-
+msgstr "The truth table of the **JK flip-flop** is the following:"
 #: ../../source/electronic-bistable-jk.rst:51
-#: ../../source/electronic-bistable-jk.rst:56
-#: ../../source/electronic-bistable-jk.rst:70
-msgid "/Q"
-msgstr ""
-
+msgid "J"
+msgstr "J."
 #: ../../source/electronic-bistable-jk.rst:52
+msgid "K"
+msgstr "K"
 #: ../../source/electronic-bistable-jk.rst:53
-#: ../../source/electronic-bistable-jk.rst:58
-#: ../../source/electronic-bistable-jk.rst:61
-#: ../../source/electronic-bistable-jk.rst:62
-#: ../../source/electronic-bistable-jk.rst:65
-msgid "0"
-msgstr ""
-
+msgid "CLK"
+msgstr "CLK"
 #: ../../source/electronic-bistable-jk.rst:54
 #: ../../source/electronic-bistable-jk.rst:59
-#: ../../source/electronic-bistable-jk.rst:64
-#: ../../source/electronic-bistable-jk.rst:69
-msgid "_↑¯"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:57
+#: ../../source/electronic-bistable-jk.rst:75
+msgid "Q"
+msgstr "Q"
+#: ../../source/electronic-bistable-jk.rst:55
 #: ../../source/electronic-bistable-jk.rst:60
-#: ../../source/electronic-bistable-jk.rst:63
-#: ../../source/electronic-bistable-jk.rst:66
-#: ../../source/electronic-bistable-jk.rst:67
-#: ../../source/electronic-bistable-jk.rst:68
-msgid "1"
-msgstr ""
-
 #: ../../source/electronic-bistable-jk.rst:74
-msgid ""
-"Si las dos entradas **J** y **K** están a nivel bajo (0 lógico), al "
-"llegar un flanco de subida en **CLK** las salidas permanecen en el mismo "
-"estado en el que estaban antes."
-msgstr ""
-
+msgid "/Q"
+msgstr "/Q"
+#: ../../source/electronic-bistable-jk.rst:56
+#: ../../source/electronic-bistable-jk.rst:57
+#: ../../source/electronic-bistable-jk.rst:62
+#: ../../source/electronic-bistable-jk.rst:65
+#: ../../source/electronic-bistable-jk.rst:66
+#: ../../source/electronic-bistable-jk.rst:69
+msgid "0"
+msgstr "0"
+#: ../../source/electronic-bistable-jk.rst:58
+#: ../../source/electronic-bistable-jk.rst:63
+#: ../../source/electronic-bistable-jk.rst:68
+#: ../../source/electronic-bistable-jk.rst:73
+msgid "_↑¯"
+msgstr "_↑¯"
+#: ../../source/electronic-bistable-jk.rst:61
+#: ../../source/electronic-bistable-jk.rst:64
+#: ../../source/electronic-bistable-jk.rst:67
+#: ../../source/electronic-bistable-jk.rst:70
+#: ../../source/electronic-bistable-jk.rst:71
+#: ../../source/electronic-bistable-jk.rst:72
+msgid "1"
+msgstr "1"
 #: ../../source/electronic-bistable-jk.rst:78
 msgid ""
-"Si la entrada **J** está a nivel alto (1 lógico), al llegar un flanco de "
-"subida en **CLK** la salida **Q** cambia a nivel alto (1 lógico) y **/Q**"
-" cambiará a nivel bajo (0 lógico). La entrada **J** es semejante a la "
-"entrada **SET** de un biestable RS."
+"Si las dos entradas **J** y **K** están a nivel bajo (0 lógico), al llegar "
+"un flanco de subida en **CLK** las salidas permanecen en el mismo estado que"
+" tenían previamente."
 msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:83
+"If the two inputs **J** and **K** are at a low level (logical 0), when a "
+"rising edge arrives at **CLK** the outputs remain in the same state they had"
+" previously."
+#: ../../source/electronic-bistable-jk.rst:82
 msgid ""
-"Si la entrada **K** está a nivel alto (1 lógico), al llegar un flanco de "
-"subida en **CLK** la salida **Q** cambia a nivel bajo (0 lógico) y **/Q**"
-" cambiará a nivel alto (1 lógico). La entrada **K** es semejante a la "
-"entrada **RESET** de un biestable RS."
+"Si la entrada **J** está a nivel alto (1 lógico), al producirse un flanco de"
+" subida en **CLK**, la salida **Q** pasa a nivel alto (1 lógico) y **/Q** "
+"pasa a nivel bajo (0 lógico). La entrada **J** cumple una función similar a "
+"la entrada **SET** de un biestable RS."
 msgstr ""
-
+"If input **J** is high (logical 1), when a rising edge occurs at **CLK**, "
+"output **Q** goes high (logical 1) and **/Q** goes low (logical 0). The "
+"**J** input performs a similar function to the **SET** input of an RS flip-"
+"flop."
 #: ../../source/electronic-bistable-jk.rst:88
 msgid ""
-"Si las dos entradas **J** y **K** están a nivel alto (1 lógico), al "
-"llegar un flanco de subida en **CLK** las salidas **Q** y **/Q** cambian "
-"al estado contrario que tenían antes. Esto evita la indeterminación que "
-"tenía el biestable RS y servirá para fabricar otros circuitos útiles, "
-"como los divisores de frecuencia."
+"Si la entrada **K** está a nivel alto (1 lógico), al producirse un flanco de"
+" subida en **CLK**, la salida **Q** pasa a nivel bajo (0 lógico) y **/Q** "
+"pasa a nivel alto (1 lógico). La entrada **K** cumple una función similar a "
+"la entrada **RESET** de un biestable RS."
 msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:96
-msgid "Ejercicios"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:97
-msgid "¿Qué es un biestable JK y para qué sirve?"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:99
-msgid "¿Cuántas entradas tiene un biestable JK y qué función tiene cada una?"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:101
-msgid "¿Tienen alguna semejanza con el biestable RS?"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:103
-msgid "¿Cuántas salidas tiene un biestable JK y qué función tiene cada una?"
-msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:105
+"If input **K** is high (logical 1), when a rising edge occurs at **CLK**, "
+"output **Q** goes low (logical 0) and **/Q** goes high (logical 1). The "
+"**K** input performs a similar function to the **RESET** input of an RS "
+"flip-flop."
+#: ../../source/electronic-bistable-jk.rst:94
 msgid ""
-"Dibuja el circuito de un biestable JK con el nombre de sus entradas y de "
-"sus salidas."
+"Si ambas entradas **J** y **K** están a nivel alto (1 lógico), al producirse"
+" un flanco de subida en **CLK**, las salidas **Q** y **/Q** cambian al "
+"estado opuesto al que tenían antes. Este comportamiento elimina la "
+"indeterminación presente en el biestable RS y permite construir otros "
+"circuitos útiles, como divisores de frecuencia y contadores."
 msgstr ""
-
+"If both inputs **J** and **K** are at a high level (logical 1), when a "
+"rising edge occurs in **CLK**, the outputs **Q** and **/Q** change to the "
+"opposite state from what they had before. This behavior eliminates the "
+"indeterminacy present in the RS flip-flop and allows other useful circuits "
+"to be built, such as frequency dividers and counters."
+#: ../../source/electronic-bistable-jk.rst:103
+msgid "Ejercicios"
+msgstr "Exercises"
+#: ../../source/electronic-bistable-jk.rst:104
+msgid "¿Qué es un biestable JK y para qué sirve?"
+msgstr "What is a JK flip-flop and what is it for?"
+#: ../../source/electronic-bistable-jk.rst:106
+msgid "¿Cuántas entradas tiene un biestable JK y qué función cumple cada una?"
+msgstr ""
+"How many inputs does a JK flip-flop have and what function does each one "
+"perform?"
 #: ../../source/electronic-bistable-jk.rst:108
+msgid "¿Tienen alguna semejanza con las del biestable RS?"
+msgstr "Do they have any similarity to those of the RS flip-flop?"
+#: ../../source/electronic-bistable-jk.rst:110
+msgid "¿Cuántas salidas tiene un biestable JK y qué función cumple cada una?"
+msgstr ""
+"How many outputs does a JK flip-flop have and what function does each one "
+"fulfill?"
+#: ../../source/electronic-bistable-jk.rst:112
+msgid ""
+"Dibuja el circuito de un biestable JK con el nombre de sus entradas y de sus"
+" salidas."
+msgstr ""
+"Draw the circuit of a JK flip-flop with the names of its inputs and outputs."
+#: ../../source/electronic-bistable-jk.rst:115
 msgid ""
 "Dibuja la tabla de verdad de un biestable JK y explica brevemente su "
 "funcionamiento normal."
 msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:111
+"Draw the truth table of a JK flip-flop and briefly explain its normal "
+"operation."
+#: ../../source/electronic-bistable-jk.rst:118
 msgid "¿Puede tener el biestable JK una entrada prohibida o indeterminada?"
+msgstr "Can the JK flip-flop have a forbidden or undetermined input?"
+#: ../../source/electronic-bistable-jk.rst:120
+msgid ""
+"¿Qué se puede construir con el biestable JK gracias a ese funcionamiento?"
+msgstr "What can be built with the JK flip-flop thanks to that operation?"
+#: ../../source/electronic-bistable-jk.rst:123
+msgid ""
+"Simula todos los estados del biestable JK con el simulador de esta página."
 msgstr ""
-
-#: ../../source/electronic-bistable-jk.rst:113
-msgid "Simula todos los estados del biestable JK con el simulador de esta página."
-msgstr ""
-
+"Simulate all states of the JK flip-flop with the simulator on this page."

@@ -1,104 +1,106 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013-2025, Carlos Félix Pardo Martín
-# This file is distributed under the same license as the Picuino package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Picuino 2025\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 18:45+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Picuino 2025"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2025-11-03 15:01+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language:en"
+"Language-Team:en <LL@li.org>"
+"Plural-Forms:nplurals=2; plural=(n != 1)"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/electronic-bistable-rs.rst:9
 msgid "El biestable RS"
-msgstr ""
-
+msgstr "The RS flip-flop"
 #: ../../source/electronic-bistable-rs.rst:10
 msgid ""
-"Hasta ahora hemos estudiado circuitos **combinacionales**. En este tipo "
-"de circuitos las salidas de señal solo dependen de las entradas de señal,"
-" no existe efecto memoria interna."
+"Hasta ahora hemos estudiado circuitos **combinacionales**. En este tipo de "
+"circuitos, las salidas de señal dependen exclusivamente de las entradas, sin"
+" ningún efecto de memoria interna."
 msgstr ""
-
+"So far we have studied **combinational** circuits. In this type of circuits,"
+" the signal outputs depend exclusively on the inputs, without any internal "
+"memory effect."
 #: ../../source/electronic-bistable-rs.rst:14
 msgid ""
-"A partir de ahora estudiaremos algunos circuitos **secuenciales** que se "
-"diferencian de los anteriores en que sus salidas dependen de las entradas"
-" y también dependen del estado interno del circuito, que tiene memoria."
+"A partir de ahora, estudiaremos algunos circuitos **secuenciales**, que se "
+"diferencian de los combinacionales en que sus salidas dependen no solo de "
+"las entradas, sino también del estado interno del circuito, que tiene "
+"memoria."
 msgstr ""
-
+"From now on, we will study some **sequential** circuits, which differ from "
+"combinational ones in that their outputs depend not only on the inputs, but "
+"also on the internal state of the circuit, which has memory."
 #: ../../source/electronic-bistable-rs.rst:19
 msgid ""
-"El primer circuito secuencial que vamos a estudiar es el **biestable "
-"RS**. Este biestable sirve para almacenar un bit de información (un cero "
-"o un uno) funcionando como el circuito de memoria más básico que podemos "
-"utilizar. Es el componente fundamental de los circuitos secuenciales, "
-"como contadores y registros y es la base de la memoria SRAM de las "
-"computadoras."
+"El primer circuito secuencial que vamos a estudiar es el **biestable RS**. "
+"Este biestable se utiliza para almacenar un bit de información (un cero o un"
+" uno), funcionando como el circuito de memoria más básico que podemos "
+"utilizar. Es el componente fundamental de los circuitos secuenciales, como "
+"contadores y registros y es la base de la memoria SRAM en las computadoras."
 msgstr ""
-
+"The first sequential circuit that we are going to study is the **RS flip-"
+"flop**. This flip-flop is used to store a bit of information (a zero or a "
+"one), functioning as the most basic memory circuit we can use. It is the "
+"fundamental component of sequential circuits such as counters and registers "
+"and is the basis of SRAM memory in computers."
 #: ../../source/electronic-bistable-rs.rst:25
 msgid ""
-"Tiene dos entradas, la entrada **S** o **SET** que memoriza un **uno** "
-"(estado alto) en el circuito y la entrada **R** o **RESET** que memoriza "
-"un **cero** (estado bajo) en el circuito."
+"El biestable RS tiene dos entradas: la entrada **S** o **SET** que memoriza "
+"un **uno** (estado alto), y la entrada **R** o **RESET** que memoriza un "
+"**cero** (estado bajo)."
 msgstr ""
-
+"The RS flip-flop has two inputs: the **S** or **SET** input that memorizes a"
+" **one** (high state), and the **R** or **RESET** input that memorizes a "
+"**zero** (low state)."
 #: ../../source/electronic-bistable-rs.rst:29
 msgid ""
-"El biestable RS tiene dos salidas, la salida **Q** refleja el estado "
-"interno del biestable y la salida negada **/Q** que valdrá lo contrario "
-"que la primera salida."
+"El biestable RS tiene dos salidas: la salida **Q** refleja el estado interno"
+" del biestable y la salida negada **/Q** que tendrá el valor contrario de la"
+" salida **Q**."
 msgstr ""
-
+"The RS flip-flop has two outputs: the **Q** output reflects the internal "
+"state of the flip-flop and the negated output **/Q** will have the opposite "
+"value of the **Q** output."
 #: ../../source/electronic-bistable-rs.rst:34
 msgid "Simulación"
-msgstr ""
-
+msgstr "Simulation"
 #: ../../source/electronic-bistable-rs.rst:35
 msgid ""
-"En la siguiente simulación podemos ver un **biestable RS** fabricado con "
-"dos puertas NOR:"
+"En la siguiente simulación, podemos observar un **biestable RS** fabricado "
+"con dos puertas NOR:"
 msgstr ""
-
+"In the following simulation, we can observe an **RS flip-flop** manufactured"
+" with two NOR gates:"
 #: ../../source/electronic-bistable-rs.rst:46
 msgid "Tabla de verdad"
-msgstr ""
-
+msgstr "Truth table"
 #: ../../source/electronic-bistable-rs.rst:47
 msgid ""
 "La tabla de verdad del **biestable RS** fabricado con puertas NOR es la "
 "siguiente:"
 msgstr ""
-
+"The truth table of the **RS flip-flop** manufactured with NOR gates is the "
+"following:"
 #: ../../source/electronic-bistable-rs.rst:54
 msgid "S"
-msgstr ""
-
+msgstr "Yes"
 #: ../../source/electronic-bistable-rs.rst:55
 msgid "R"
-msgstr ""
-
+msgstr "R"
 #: ../../source/electronic-bistable-rs.rst:56
 #: ../../source/electronic-bistable-rs.rst:60
 msgid "Q"
-msgstr ""
-
+msgstr "Q"
 #: ../../source/electronic-bistable-rs.rst:57
 #: ../../source/electronic-bistable-rs.rst:61
 msgid "/Q"
-msgstr ""
-
+msgstr "/Q"
 #: ../../source/electronic-bistable-rs.rst:58
 #: ../../source/electronic-bistable-rs.rst:59
 #: ../../source/electronic-bistable-rs.rst:63
@@ -108,8 +110,7 @@ msgstr ""
 #: ../../source/electronic-bistable-rs.rst:72
 #: ../../source/electronic-bistable-rs.rst:73
 msgid "0"
-msgstr ""
-
+msgstr "0"
 #: ../../source/electronic-bistable-rs.rst:62
 #: ../../source/electronic-bistable-rs.rst:64
 #: ../../source/electronic-bistable-rs.rst:67
@@ -117,102 +118,117 @@ msgstr ""
 #: ../../source/electronic-bistable-rs.rst:70
 #: ../../source/electronic-bistable-rs.rst:71
 msgid "1"
-msgstr ""
-
+msgstr "1"
 #: ../../source/electronic-bistable-rs.rst:75
 msgid ""
 "Al activar la entrada **SET** el biestable se activa y la salida **Q** "
-"tendrá un valor alto (1 lógico). Una vez que se desactiva la entrada "
-"**SET** el biestable sigue manteniendo su estado activo hasta que le "
-"llegue una entrada contraria, **RESET**."
+"tendrá un valor alto (1 lógico). Una vez que se desactiva la entrada **SET**"
+" el biestable sigue manteniendo su estado activo hasta que le llegue una "
+"entrada contraria, **RESET**."
 msgstr ""
-
+"When the **SET** input is activated, the flip-flop is activated and the "
+"**Q** output will have a high value (logical 1). Once the **SET** input is "
+"deactivated, the flip-flop continues to maintain its active state until it "
+"receives an opposite input, **RESET**."
 #: ../../source/electronic-bistable-rs.rst:80
 msgid ""
-"Al activar la entrada **RESET** el biestable se desactiva y la salida "
-"**Q** tendrá un valor bajo (0 lógico). Una vez que se desactiva la "
-"entrada **RESET** el biestable sigue manteniendo su estado inactivo hasta"
-" que le llegue una entrada contraria, **SET**."
+"Al activar la entrada **RESET** el biestable se desactiva y la salida **Q** "
+"tendrá un valor bajo (0 lógico). Una vez que se desactiva la entrada "
+"**RESET** el biestable sigue manteniendo su estado inactivo hasta que le "
+"llegue una entrada contraria, **SET**."
 msgstr ""
-
+"When the **RESET** input is activated, the flip-flop is deactivated and the "
+"**Q** output will have a low value (logical 0). Once the **RESET** input is "
+"deactivated, the flip-flop continues to maintain its inactive state until it"
+" receives an opposite input, **SET**."
 #: ../../source/electronic-bistable-rs.rst:85
 msgid ""
-"El último estado, cuando se activan a la vez las entradas **SET** y "
-"**RESET**, se denomina estado prohibido o estado indeterminado porque "
-"fuerza a ambas salidas a nivel bajo (cero lógico). En este estado, las "
-"salidas del biestable se comportan de manera ilógica, ya que las señales "
-"de **SET** y de **RESET** se oponen directamente entre sí."
+"El último estado, cuando se activan simultáneamente las entradas **SET** y "
+"**RESET**, se denomina **estado prohibido** o **estado indeterminado** "
+"porque fuerza a ambas salidas a nivel bajo (cero lógico). En este estado, "
+"las salidas del biestable se comportan de manera ilógica, ya que las señales"
+" de **SET** y de **RESET** se oponen directamente entre sí."
 msgstr ""
-
+"The last state, when the **SET** and **RESET** inputs are activated "
+"simultaneously, is called **prohibited state** or **indeterminate state** "
+"because it forces both outputs low (logical zero). In this state, the flip-"
+"flop outputs behave illogically, since the **SET** and **RESET** signals are"
+" directly opposed to each other."
 #: ../../source/electronic-bistable-rs.rst:94
 msgid "Biestable RS NAND"
-msgstr ""
-
+msgstr "Flip-flop RS NAND"
 #: ../../source/electronic-bistable-rs.rst:95
 msgid ""
-"En la siguiente simulación podemos ver un **biestable RS** fabricado con "
+"En la siguiente simulación, podemos ver un **biestable RS** fabricado con "
 "dos puertas NAND:"
 msgstr ""
-
+"In the following simulation, we can see an **RS flip-flop** made with two "
+"NAND gates:"
 #: ../../source/electronic-bistable-rs.rst:104
 msgid ""
-"Las entradas serán activas a nivel bajo (un cero activa la entrada y un "
-"uno es igual a entrada en reposo)."
+"Las entradas serán activas a nivel bajo (un cero activa la entrada y un uno "
+"es igual a entrada en reposo)."
 msgstr ""
-
+"The inputs will be active at a low level (a zero activates the input and a "
+"one is equal to the input at rest)."
 #: ../../source/electronic-bistable-rs.rst:109
 msgid "Ejercicios"
-msgstr ""
-
+msgstr "Exercises"
 #: ../../source/electronic-bistable-rs.rst:110
 msgid ""
-"¿Qué dos tipos de circuitos digitales existen? ¿En qué se diferencian "
-"entre sí?"
+"¿Qué dos tipos de circuitos digitales existen? ¿En qué se diferencian entre "
+"sí?"
 msgstr ""
-
+"What two types of digital circuits exist? How are they different from each "
+"other?"
 #: ../../source/electronic-bistable-rs.rst:113
 msgid "¿Qué tipo de circuito digital es un biestable RS y para qué sirve?"
-msgstr ""
-
+msgstr "What type of digital circuit is an RS flip-flop and what is it for?"
 #: ../../source/electronic-bistable-rs.rst:115
-msgid "¿Cuántas entradas tiene un biestable RS y qué función tiene cada una?"
+msgid "¿Cuántas entradas tiene un biestable RS y qué función cumple cada una?"
 msgstr ""
-
+"How many inputs does an RS flip-flop have and what function does each one "
+"perform?"
 #: ../../source/electronic-bistable-rs.rst:117
-msgid "¿Cuántas salidas tiene un biestable RS y qué función tiene cada una?"
+msgid "¿Cuántas salidas tiene un biestable RS y qué función cumple cada una?"
 msgstr ""
-
+"How many outputs does an RS flip-flop have and what function does each one "
+"fulfill?"
 #: ../../source/electronic-bistable-rs.rst:119
 msgid "Dibuja el circuito de un biestable RS con puertas NOR."
-msgstr ""
-
+msgstr "Draw the circuit of an RS flip-flop with NOR gates."
 #: ../../source/electronic-bistable-rs.rst:121
 msgid ""
-"La entrada SET debe valer 1 y la entrada RESET debe valer cero. Dibuja "
-"los valores correctos de las salidas Q y /Q."
+"La entrada SET debe valer 1 y la entrada RESET debe valer cero. Dibuja los "
+"valores correctos de las salidas Q y /Q."
 msgstr ""
-
+"The SET input must be 1 and the RESET input must be zero. Draw the correct "
+"values ​​of the Q and /Q outputs."
 #: ../../source/electronic-bistable-rs.rst:124
 msgid ""
 "Dibuja la tabla de verdad de un biestable RS y explica brevemente su "
 "funcionamiento normal."
 msgstr ""
-
+"Draw the truth table of an RS flip-flop and briefly explain its normal "
+"operation."
 #: ../../source/electronic-bistable-rs.rst:127
 msgid ""
-"¿Cómo se llama el estado en el que las dos entradas están a nivel alto y "
-"por qué se llama así?"
+"¿Cómo se llama el estado en el que las dos entradas están a nivel alto y por"
+" qué se llama así?"
 msgstr ""
-
+"What is the name of the state in which both inputs are high and why is it "
+"called that?"
 #: ../../source/electronic-bistable-rs.rst:130
 msgid ""
-"Ayudándote con la última simulación, dibuja la tabla de verdad del "
-"biestable RS fabricado con puertas NAND."
+"Ayudándote con la última simulación, dibuja la tabla de verdad del biestable"
+" RS fabricado con puertas NAND."
 msgstr ""
-
+"Helping you with the last simulation, draw the truth table of the RS flip-"
+"flop made with NAND gates."
 #: ../../source/electronic-bistable-rs.rst:133
 msgid ""
-"Señala en la tabla el estado prohibido o indeterminado. ¿Qué valen sus "
-"dos salidas en ese estado?"
+"Señala en la tabla el estado prohibido o indeterminado. ¿Qué valen sus dos "
+"salidas en ese estado?"
 msgstr ""
-
+"Indicate the prohibited or undetermined status in the table. What are his "
+"two outputs worth in that state?"

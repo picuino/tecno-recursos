@@ -8,22 +8,25 @@
 El biestable JK
 ===============
 El `biestable JK
-<https://es.wikipedia.org/wiki/Biestable#Biestable_JK>`__ es un circuito
-secuencial que puede almacenar un bit de información.
+<https://es.wikipedia.org/wiki/Biestable#Biestable_JK>`__ 
+es un circuito secuencial que permite almacenar un bit de información.
 
-El **biestable JK** es uno de los más usados. Su funcionamiento es idéntico
-al biestable RS, excepto en el caso de que se activen sus dos entradas
-**J** y **K** a nivel alto (1 lógico). En ese caso las salidas cambian al
-estado contrario al que tenían anteriormente (función toggle) y esto evita
-la indeterminación no deseada del biestable RS.
+El **biestable JK** es uno de los biestables más utilizados por su 
+versatilidad. Su funcionamiento es idéntico al 
+:ref:`biestable RS <electronic-bistable-rs>`, salvo cuando ambas entradas
+**J** y **K** se activan simultáneamente a nivel alto (1 lógico).
+En ese caso, las salidas cambian al estado opuesto al que tenían
+previamente (función **toggle**), evitando así la indeterminación
+no deseada del biestable RS.
 
-Este biestable es la base de numerosos circuitos secuenciales tales como
-contadores, registros, divisores de frecuencia, memorias de estado, etc.
+Este biestable constituye la base de numerosos circuitos secuenciales,
+tales como contadores, registros, divisores de frecuencia o memorias de
+estado.
 
 
 Simulación
 ----------
-En la siguiente simulación podemos ver un **biestable JK**:
+En la siguiente simulación podemos observar un **biestable JK**:
 
 .. raw:: html
 
@@ -34,9 +37,10 @@ En la siguiente simulación podemos ver un **biestable JK**:
 
 Tabla de verdad
 ---------------
-Los cambios de la salida del biestable JK solo se producen cuando
-cambia el estado de la entrada Clock (CLK) de nivel bajo (0 lógico) -> 
-a nivel alto (1 lógico), es decir en los **flancos de subida de CLK**.
+Los cambios en la salida del **biestable JK** solo se producen cuando
+cambia el estado de la entrada Clock (CLK) pasa de nivel bajo (0 lógico) 
+a nivel alto (1 lógico); es decir, durante los **flancos de subida de
+CLK**.
 
 La tabla de verdad del **biestable JK** es la siguiente:
 
@@ -73,34 +77,37 @@ La tabla de verdad del **biestable JK** es la siguiente:
 
 Si las dos entradas **J** y **K** están a nivel bajo (0 lógico), al llegar
 un flanco de subida en **CLK** las salidas permanecen en el mismo estado
-en el que estaban antes.
+que tenían previamente.
 
-Si la entrada **J** está a nivel alto (1 lógico), al llegar un flanco de
-subida en **CLK** la salida **Q** cambia a nivel alto (1 lógico) y **/Q**
-cambiará a nivel bajo (0 lógico).
-La entrada **J** es semejante a la entrada **SET** de un biestable RS.
+Si la entrada **J** está a nivel alto (1 lógico), al producirse un flanco
+de subida en **CLK**, la salida **Q** pasa a nivel alto (1 lógico)
+y **/Q** pasa a nivel bajo (0 lógico).
+La entrada **J** cumple una función similar a la entrada **SET** de un
+biestable RS.
 
-Si la entrada **K** está a nivel alto (1 lógico), al llegar un flanco de
-subida en **CLK** la salida **Q** cambia a nivel bajo (0 lógico) y **/Q**
-cambiará a nivel alto (1 lógico).
-La entrada **K** es semejante a la entrada **RESET** de un biestable RS.
+Si la entrada **K** está a nivel alto (1 lógico), al producirse un flanco
+de subida en **CLK**, la salida **Q** pasa a nivel bajo (0 lógico)
+y **/Q** pasa a nivel alto (1 lógico).
+La entrada **K** cumple una función similar a la entrada **RESET** de un
+biestable RS.
 
-Si las dos entradas **J** y **K** están a nivel alto (1 lógico), al llegar
-un flanco de subida en **CLK** las salidas **Q** y **/Q** cambian al
-estado contrario que tenían antes.
-Esto evita la indeterminación que tenía el biestable RS y servirá para
-fabricar otros circuitos útiles, como los divisores de frecuencia.
+Si ambas entradas **J** y **K** están a nivel alto (1 lógico), al
+producirse un flanco de subida en **CLK**, las salidas **Q** y **/Q**
+cambian al estado opuesto al que tenían antes.
+Este comportamiento elimina la indeterminación presente en el biestable RS
+y permite construir otros circuitos útiles, como divisores de frecuencia y
+contadores.
 
 
 Ejercicios
 ----------
 #. ¿Qué es un biestable JK y para qué sirve?
 
-#. ¿Cuántas entradas tiene un biestable JK y qué función tiene cada una?
+#. ¿Cuántas entradas tiene un biestable JK y qué función cumple cada una?
 
-   ¿Tienen alguna semejanza con el biestable RS?
+   ¿Tienen alguna semejanza con las del biestable RS?
 
-#. ¿Cuántas salidas tiene un biestable JK y qué función tiene cada una?
+#. ¿Cuántas salidas tiene un biestable JK y qué función cumple cada una?
 
 #. Dibuja el circuito de un biestable JK con el nombre de sus entradas
    y de sus salidas.
@@ -109,6 +116,9 @@ Ejercicios
    su funcionamiento normal.
 
 #. ¿Puede tener el biestable JK una entrada prohibida o indeterminada?
+
+   ¿Qué se puede construir con el biestable JK gracias a ese
+   funcionamiento?
    
 #. Simula todos los estados del biestable JK con el simulador de esta
    página.
