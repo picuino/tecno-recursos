@@ -23,3 +23,4 @@ Componentes electrónicos.
 
    electronic-codigo-colores.rst
    electronic-semiconductores.rst
+   electronic-microscope.rst

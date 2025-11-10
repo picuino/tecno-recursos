@@ -10,9 +10,9 @@ El transistor
 El transistor es un dispositivo electrónico de tres terminales que permite
 amplificar la corriente eléctrica.
 Tiene múltiples aplicaciones que van desde fabricar amplificadores de
-audio, osciladores de radio, reguladores de tensión, controladores
-para motores eléctricos, fuentes de alimentación, circuitos digitales,
-microprocesadores, memorias, etc.
+audio, osciladores de radio, controladores para motores eléctricos,
+fuentes de alimentación, circuitos digitales, microprocesadores, memorias,
+etc.
 El transistor forma parte de prácticamente todos los circuitos
 electrónicos.
 

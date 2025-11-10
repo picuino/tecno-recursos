@@ -31,6 +31,8 @@ En el caso de querer registrarse, la página solo pide un e-mail,
 que no tiene que ser real, y se almacenarán los resultados de una
 sesión a otra.
 
+Revisa el `catálogo completo de recursos de Code.org
+<https://studio.code.org/catalog>`__ en su sitio web.
 
 Cursos Code
 -----------
@@ -46,45 +48,21 @@ etapas tiene un tiempo aproximado de realización de 40 minutos.
    * - Curso
      - Edades
      - Etapas y ejercicios
-   * - `Curso C <https://studio.code.org/s/coursec-2021>`__
+   * - `Curso C <https://studio.code.org/s/coursec-2025>`__
      - De 6 a 10 años
      - 10 etapas con 111 ejercicios.
-   * - `Curso D <https://studio.code.org/s/coursed-2021>`__
+   * - `Curso D <https://studio.code.org/s/coursed-2025>`__
      - De 7 a 11 años
      - 12 etapas con 139 ejercicios.
-   * - `Curso E <https://studio.code.org/s/coursee-2021>`__
+   * - `Curso E <https://studio.code.org/s/coursee-2025>`__
      - De 8 a 12 años
      - 11 etapas con 130 ejercicios y proyecto final.
-   * - `Curso F <https://studio.code.org/s/coursef-2021>`__
+   * - `Curso F <https://studio.code.org/s/coursef-2025>`__
      - De 9 a 13 años
      - 14 etapas con 104 ejercicios y proyecto final.
-   * - `Curso rápido <https://studio.code.org/s/express-2021>`__
+   * - `Curso rápido <https://studio.code.org/s/express-2025>`__
      - De 9 a 18 años
      - 27 etapas largas con 318 ejercicios y proyecto.
-
-
-**Cursos clásicos**
-
-.. list-table::
-   :widths: 20 30 40
-   :header-rows: 1
-
-   * - Curso
-     - Edades
-     - Etapas y ejercicios
-
-   * - `Curso 2 <https://studio.code.org/s/course2>`__
-     - Más de 8 años
-     - 11 etapas largas con 139 ejercicios.
-   * - `Curso 3 <https://studio.code.org/s/course3>`__
-     - Más de 9 años
-     - 14 etapas largas con 158 ejercicios.
-   * - `Curso 4 <https://studio.code.org/s/course4>`__
-     - De 9 a 14 años
-     - 16 etapas largas con 161 ejercicios.
-   * - `Curso acelerado <https://studio.code.org/s/20-hour>`__
-     - De 13 años en adelante.
-     - 9 etapas largas con 98 ejercicios.
 
 
 Hora del código
