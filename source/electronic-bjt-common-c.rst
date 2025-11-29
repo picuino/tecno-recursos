@@ -45,39 +45,23 @@ emisor.
 
 La función de cada uno de los componentes es la siguiente:
 
-* El **generador de señal alterna** genera una señal de entrada
+* El **generador de señal alterna** genera una señal de entrada (V_in)
   de 2 voltios de pico.
 
-* El **condensador C1** tiene como función llevar la señal alterna desde
-  el generador hasta la base del transistor, eliminando la señal de
-  corriente continua.
-
-  El efecto práctico consiste en que la tensión en el generador varía
-  en torno a cero voltios y la tensión en la base del transistor varía
-  en torno a los 3 voltios.
-
-* La **resistencia R2** añade a la base una pequeña corriente
-  continua para que el transistor pueda funcionar.
-  Esta corriente positiva que se suma en la base se denomina
-  **corriente de polarización**.
-
+* Un generador de tensión continua añade 4 Voltios a la tensión alterna.
   Hay que tener en cuenta que el transistor solo puede amplificar
-  corrientes positivas, por lo que es necesario sumar una pequeña
-  corriente positiva a la corriente alterna de entrada
-  (positiva y negativa) para que el transistor funcione correctamente.
+  corrientes positivas, por lo que es necesario sumar una tensión
+  positiva alterna para evitar las tensiones negativas.
 
 * El **transistor NPN** recibe una señal de tensión por la base con poca
-  corriente y mantiene en el emisor esa misma tensión, menos la tensión
-  de unos 0.65 voltios que siempre hay entre base y emisor.
+  corriente y mantiene en el emisor esa misma tensión, menos una pequeña
+  tensión de 0,65 voltios que siempre hay entre base y emisor.
 
   La corriente que llega por la base se amplifica para que circule,
   multiplicada, por el colector y por el emisor.
 
-* La **resistencia R3** recibe la corriente del emisor y la convierte
+* La **resistencia R2** recibe la corriente del emisor y la convierte
   en tensión de salida.
-
-  Por esta resistencia circulará unas 100 veces la corriente que circula
-  por la base del transistor.
 
 
 Ejercicios
@@ -97,21 +81,15 @@ Ejercicios
    salida.
    ¿Qué diferencia puedes observar entre las gráficas?
 
-#. Modifica el valor de la resistencia R2 para que valga 20kOhm.
+#. Modifica el valor de la resistencia R1 para que valga 20kOhm.
    Dibuja la gráfica de la tensión de salida.
 
-   ¿Qué le ocurre a la tensión de salida cuando la resistencia R2
+   ¿Qué le ocurre a la tensión de salida cuando la resistencia R1
    aumenta?
 
-#. Modifica el valor de la resistencia R2 para que valga 4kOhm.
-   Dibuja la gráfica de la tensión de salida.
-
-   ¿Qué le ocurre a la tensión de salida cuando la resistencia R2
-   disminuye?
-
-#. Cambia en el simulador el valor de la resistencia de salida R3
+#. Aumenta en el simulador el valor de la resistencia de salida R2
    a 1000 Ohmios.
 
-   Cambia el valor de la resistencia R2 de manera que la tensión de
-   salida varíe entre 1 voltio y 5 voltios.
+   ¿Qué le ocurre a la tensión de salida?
+   ¿Qué le ocurre a la corriente de salida?
 

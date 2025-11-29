@@ -80,7 +80,7 @@ Ejercicios
 
    ¿Qué le ocurre a la tensión de salida al reducir R2?
 
-#. Modifica la resistencia de polarización R2 para que valga 80k.
+#. Modifica la resistencia de polarización R2 para que valga 100k.
    Dibuja la gráfica de la tensión de salida.
 
    ¿Qué le ocurre a la tensión de salida al aumentar R2?

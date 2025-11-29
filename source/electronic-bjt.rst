@@ -19,10 +19,13 @@ electrónicos.
 El transistor bipolar
 ---------------------
 Es un tipo concreto de transistor basado en 3 zonas
-semiconductoras dopadas alternativamente como positivas y negativas.
-De ahí que existan dos transistores diferentes, un denominado NPN y
-otro denominado PNP, según el dopaje positivo o negativo de las tres
-zonas.
+semiconductoras dopadas alternativamente como **positivas** y
+**negativas**. De ahí que existan dos transistores diferentes,
+un denominado NPN y otro denominado PNP, según el dopaje positivo
+o negativo de las tres zonas.
+
+Los nombres de los tres terminales de los transistores son:
+**Colector**, **Base** y **Emisor**.
 
 Los símbolos de los dos transistores bipolares son los siguientes:
 
@@ -39,6 +42,7 @@ Los símbolos de los dos transistores bipolares son los siguientes:
    :alt: Símbolo del diodo semiconductor.
 
    Símbolo del transistor bipolar PNP.
+
 
 El funcionamiento de ambos tipos de transistores es muy semejante con
 la diferencia de que el transistor PNP trabaja con corrientes negativas
@@ -57,7 +61,7 @@ En el siguiente circuito podemos experimentar el funcionamiento de
 un amplificador típico basado en transistor.
 
 La **unión base-emisor** del transistor se comporta como un diodo,
-por lo que necesita una tensión de 0.65 voltios para poder conducir
+por lo que necesita una tensión de 0,65 voltios para poder conducir
 corriente.
 
 En la barra lateral derecha hay una barra deslizante que permite cambiar
@@ -133,6 +137,7 @@ Ejercicios
    Este es un comportamiento típico de los circuitos digitales, pero se
    intenta evitar en los circuitos analógicos.
 
-   Cambia la resistencia de Base por una de 5k Ohmios.
-   ¿Cuál es la ganancia del transistor?
+   En el circuito de la simulación anterior, cambia la resistencia de 
+   **Base** por otra de 5k Ohmios.
+   ¿Cuál es ahora la ganancia real del transistor?
    ¿Qué tensión hay en el colector cuando el transistor está **saturado**?

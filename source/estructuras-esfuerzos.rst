@@ -42,8 +42,8 @@ El esfuerzo de tracción tiende a estirar la estructura:
 
 Ejemplos de elementos que soportan este esfuerzo son:
 
-  * Cadenas de un columpio
-  * Cable de una grúa
+  * Cadenas de un columpio.
+  * Cable de una grúa.
 
 
 :index:`Compresión`
@@ -55,8 +55,8 @@ El esfuerzo de compresión tiende a comprimir la estructura:
 
 Ejemplos de elementos que soportan este esfuerzo son:
 
-  * Patas de una silla
-  * Columnas de un edificio
+  * Patas de una silla.
+  * Columnas de un edificio.
 
 
 :index:`Flexión`
@@ -68,9 +68,9 @@ El esfuerzo de flexión tiende a doblar la estructura:
 
 Ejemplos de elementos que soportan este esfuerzo son:
 
-  * Tablero de una silla
-  * Suelos de edificios
-  * Brazo de una grúa
+  * Tablero de una silla.
+  * Suelos de edificios.
+  * Brazo de una grúa.
 
 
 :index:`Torsión`
@@ -83,9 +83,9 @@ El esfuerzo de torsión tiende a retorcer la estructura:
 
 Ejemplos de elementos que soportan este esfuerzo son:
 
-  * Eje de un destornillador
-  * Llave al girar
-  * Eje de un grifo
+  * Eje de un destornillador.
+  * Llave al girar.
+  * Eje de un grifo.
 
 
 :index:`Corte o cizalla`
@@ -98,8 +98,9 @@ tiende a cortar en dos la estructura:
 
 Ejemplos de elementos que soportan este esfuerzo son:
 
-  * Papel cortado con tijeras
-  * Tornillo que soporta un cuadro
+  * Papel cortado con tijeras.
+  * Viga horizontal que apoya sobre viga vertical.
+  * Tornillo que soporta un cuadro.
 
 
 ------------------

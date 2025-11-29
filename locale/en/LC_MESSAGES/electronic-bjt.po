@@ -12,7 +12,7 @@ msgstr ""
 "<LL@li.org>MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-"
 "Transfer-Encoding:8bitGenerated-By:Babel 2.9.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-11-10 16:08+0100\n"
+"POT-Creation-Date: 2025-11-13 15:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,11 +40,12 @@ msgid "El transistor bipolar"
 msgstr "The bipolar transistor"
 
 #: ../../source/electronic-bjt.rst:21
+#, fuzzy
 msgid ""
 "Es un tipo concreto de transistor basado en 3 zonas semiconductoras "
-"dopadas alternativamente como positivas y negativas. De ahí que existan "
-"dos transistores diferentes, un denominado NPN y otro denominado PNP, "
-"según el dopaje positivo o negativo de las tres zonas."
+"dopadas alternativamente como **positivas** y **negativas**. De ahí que "
+"existan dos transistores diferentes, un denominado NPN y otro denominado "
+"PNP, según el dopaje positivo o negativo de las tres zonas."
 msgstr ""
 "It is a specific type of transistor based on 3 semiconductor zones doped "
 "alternately as positive and negative. Hence there are two different "
@@ -52,18 +53,26 @@ msgstr ""
 "positive or negative doping of the three zones."
 
 #: ../../source/electronic-bjt.rst:27
+msgid ""
+"Los nombres de los tres terminales de los transistores son: **Colector**,"
+" **Base** y **Emisor**."
+msgstr ""
+"The names of the three terminals of transistors are: **Collector**, "
+"**Base**, and **Emitter**."
+
+#: ../../source/electronic-bjt.rst:30
 msgid "Los símbolos de los dos transistores bipolares son los siguientes:"
 msgstr "The symbols of the two bipolar transistors are as follows:"
 
-#: ../../source/electronic-bjt.rst:34
+#: ../../source/electronic-bjt.rst:37
 msgid "Símbolo del transistor bipolar NPN."
 msgstr "NPN bipolar transistor symbol."
 
-#: ../../source/electronic-bjt.rst:41
+#: ../../source/electronic-bjt.rst:44
 msgid "Símbolo del transistor bipolar PNP."
 msgstr "PNP bipolar transistor symbol."
 
-#: ../../source/electronic-bjt.rst:43
+#: ../../source/electronic-bjt.rst:47
 msgid ""
 "El funcionamiento de ambos tipos de transistores es muy semejante con la "
 "diferencia de que el transistor PNP trabaja con corrientes negativas "
@@ -73,7 +82,7 @@ msgstr ""
 "difference that the PNP transistor works with negative currents while the"
 " NPN transistor works with positive currents."
 
-#: ../../source/electronic-bjt.rst:47
+#: ../../source/electronic-bjt.rst:51
 msgid ""
 "En la práctica el transistor NPN es más utilizado porque es más eficiente"
 " a la hora de conducir la corriente eléctrica. Por esa razón se estudiará"
@@ -87,11 +96,11 @@ msgstr ""
 "that use both types of transistors, such as push-pull analog output or "
 "totem-pole digital output."
 
-#: ../../source/electronic-bjt.rst:55
+#: ../../source/electronic-bjt.rst:59
 msgid "El transistor como amplificador"
 msgstr "The transistor as an amplifier"
 
-#: ../../source/electronic-bjt.rst:56
+#: ../../source/electronic-bjt.rst:60
 msgid ""
 "En el siguiente circuito podemos experimentar el funcionamiento de un "
 "amplificador típico basado en transistor."
@@ -99,15 +108,15 @@ msgstr ""
 "In the following circuit we can experience the operation of a typical "
 "transistor-based amplifier."
 
-#: ../../source/electronic-bjt.rst:59
+#: ../../source/electronic-bjt.rst:63
 msgid ""
 "La **unión base-emisor** del transistor se comporta como un diodo, por lo"
-" que necesita una tensión de 0.65 voltios para poder conducir corriente."
+" que necesita una tensión de 0,65 voltios para poder conducir corriente."
 msgstr ""
 "The **base-emitter junction** of the transistor behaves like a diode, so "
 "it needs a voltage of 0.65 volts to be able to conduct current."
 
-#: ../../source/electronic-bjt.rst:63
+#: ../../source/electronic-bjt.rst:67
 msgid ""
 "En la barra lateral derecha hay una barra deslizante que permite cambiar "
 "el valor de la resistencia de polarización de base. Esta resistencia "
@@ -122,11 +131,11 @@ msgstr ""
 "through the base and allows a much larger current to pass from the "
 "collector to the emitter, multiplying the base current by the gain."
 
-#: ../../source/electronic-bjt.rst:78
+#: ../../source/electronic-bjt.rst:82
 msgid "Ganancia del transistor"
 msgstr "Transistor gain"
 
-#: ../../source/electronic-bjt.rst:79
+#: ../../source/electronic-bjt.rst:83
 msgid ""
 "La corriente de colector en un transistor típico es de 50 a 300 veces "
 "mayor que la corriente de base. Esta relación entre la corriente de "
@@ -138,31 +147,31 @@ msgstr ""
 "and the base current is called **gain** of the transistor, also known as "
 "β or **hfe** parameter."
 
-#: ../../source/electronic-bjt.rst:84
+#: ../../source/electronic-bjt.rst:88
 msgid "La fórmula de la ganancia del transistor por lo tanto será:"
 msgstr "The transistor gain formula will therefore be:"
 
-#: ../../source/electronic-bjt.rst:86
+#: ../../source/electronic-bjt.rst:90
 msgid "\\beta = hfe = \\cfrac{I_{colector}}{I_{base}}"
 msgstr "\\beta = hfe = \\cfrac{I_{manifold}}{I_{base}}"
 
-#: ../../source/electronic-bjt.rst:91
+#: ../../source/electronic-bjt.rst:95
 msgid "Donde las variables son:"
 msgstr "Where the variables are:"
 
-#: ../../source/electronic-bjt.rst:93
+#: ../../source/electronic-bjt.rst:97
 msgid "β = hfe = ganancia del transistor (número adimensional)"
 msgstr "β = hfe = transistor gain (dimensionalless number)"
 
-#: ../../source/electronic-bjt.rst:95
+#: ../../source/electronic-bjt.rst:99
 msgid "I_colector = corriente del colector en amperios [A]"
 msgstr "I_collector = collector current in amperes [A]"
 
-#: ../../source/electronic-bjt.rst:97
+#: ../../source/electronic-bjt.rst:101
 msgid "I_base = corriente de base en amperios [A]"
 msgstr "I_base = base current in amperes [A]"
 
-#: ../../source/electronic-bjt.rst:100
+#: ../../source/electronic-bjt.rst:104
 msgid ""
 "Los transistores de potencia son transistores capaces de conducir "
 "corrientes altas, mayores de un amperio. Estos transistores pueden tener "
@@ -172,7 +181,7 @@ msgstr ""
 "greater than one ampere. These transistors can have a gain of less than "
 "50 when working with large currents."
 
-#: ../../source/electronic-bjt.rst:105
+#: ../../source/electronic-bjt.rst:109
 msgid ""
 "Lo mismo ocurre con los transistores de alta frecuencia, que a "
 "frecuencias de trabajo cercanas a su límite tienen una ganancia mucho "
@@ -182,11 +191,11 @@ msgstr ""
 "frequencies close to their limit have a much lower gain than at low "
 "frequencies."
 
-#: ../../source/electronic-bjt.rst:111
+#: ../../source/electronic-bjt.rst:115
 msgid "Ejercicios"
 msgstr "Exercises"
 
-#: ../../source/electronic-bjt.rst:113
+#: ../../source/electronic-bjt.rst:117
 msgid ""
 "Dibuja el símbolo del transistor NPN y del transistor PNP y añade los "
 "nombres de cada uno de sus terminales."
@@ -194,11 +203,11 @@ msgstr ""
 "Draw the symbol for the NPN transistor and the PNP transistor and add the"
 " names of each of their terminals."
 
-#: ../../source/electronic-bjt.rst:116
+#: ../../source/electronic-bjt.rst:120
 msgid "¿Qué función tiene un transistor bipolar?"
 msgstr "What function does a bipolar transistor have?"
 
-#: ../../source/electronic-bjt.rst:118
+#: ../../source/electronic-bjt.rst:122
 msgid ""
 "Dibuja un esquema eléctrico de un transistor bipolar funcionando. Añade "
 "las corrientes y las tensiones que podemos encontrar en cada uno de sus "
@@ -207,7 +216,7 @@ msgstr ""
 "Draw an electrical schematic of a working bipolar transistor. Add the "
 "currents and voltages that we can find in each of its three terminals."
 
-#: ../../source/electronic-bjt.rst:122
+#: ../../source/electronic-bjt.rst:126
 msgid ""
 "Comprueba que la ganancia del transistor simulado vale 100 calculando la "
 "relación entre la corriente de colector dividida por la corriente de "
@@ -216,7 +225,7 @@ msgstr ""
 "Check that the simulated transistor gain is 100 by calculating the ratio "
 "of the collector current divided by the base current."
 
-#: ../../source/electronic-bjt.rst:126
+#: ../../source/electronic-bjt.rst:130
 msgid ""
 "Desliza la barra de la derecha llamada ``Resistencia`` y comprueba si la "
 "ganancia se mantiene para varias posiciones."
@@ -224,7 +233,7 @@ msgstr ""
 "Slide the bar on the right called ``Resistance`` and check if the gain is"
 " maintained for various positions."
 
-#: ../../source/electronic-bjt.rst:129
+#: ../../source/electronic-bjt.rst:133
 msgid ""
 "Cuando la resistencia de base deja pasar mucha corriente, llega un "
 "momento que el transistor se **satura** y no puede conducir más "
@@ -234,7 +243,7 @@ msgstr ""
 "time when the transistor becomes **saturated** and cannot conduct any "
 "more current."
 
-#: ../../source/electronic-bjt.rst:133
+#: ../../source/electronic-bjt.rst:137
 msgid ""
 "Este es un comportamiento típico de los circuitos digitales, pero se "
 "intenta evitar en los circuitos analógicos."
@@ -242,38 +251,15 @@ msgstr ""
 "This is typical behavior in digital circuits, but is attempted to be "
 "avoided in analog circuits."
 
-#: ../../source/electronic-bjt.rst:136
+#: ../../source/electronic-bjt.rst:140
+#, fuzzy
 msgid ""
-"Cambia la resistencia de Base por una de 5k Ohmios. ¿Cuál es la ganancia "
-"del transistor? ¿Qué tensión hay en el colector cuando el transistor está"
-" **saturado**?"
+"En el circuito de la simulación anterior, cambia la resistencia de "
+"**Base** por otra de 5k Ohmios. ¿Cuál es ahora la ganancia real del "
+"transistor? ¿Qué tensión hay en el colector cuando el transistor está "
+"**saturado**?"
 msgstr ""
-"Change the Base resistor to a 5k Ohm resistor. What is the gain of the "
-"transistor? What is the collector voltage when the transistor is "
-"**saturated**?"
-
-#~ msgid ""
-#~ "El transistor es un dispositivo "
-#~ "electrónico de tres terminales que "
-#~ "permite amplificar la corriente eléctrica. "
-#~ "Tiene múltiples aplicaciones que van "
-#~ "desde fabricar amplificadores de audio, "
-#~ "osciladores de radio, reguladores de "
-#~ "tensión, controladores para motores "
-#~ "eléctricos, fuentes de alimentación, circuitos"
-#~ " digitales, microprocesadores, memorias, etc. "
-#~ "El transistor forma parte de "
-#~ "prácticamente todos los circuitos "
-#~ "electrónicos."
-#~ msgstr ""
-#~ "The transistor is a three-terminal "
-#~ "electronic device that allows electrical "
-#~ "current to be amplified. It has "
-#~ "multiple applications ranging from "
-#~ "manufacturing audio amplifiers, radio "
-#~ "oscillators, voltage regulators, controllers "
-#~ "for electric motors, power supplies, "
-#~ "digital circuits, microprocessors, memories, "
-#~ "etc. The transistor is part of "
-#~ "practically all electronic circuits."
+"In the circuit of the previous simulation, change the Base resistor to a "
+"5k Ohm resistor. What is now the real gain of the transistor? What is the"
+" collector voltage when the transistor is **saturated**?"
 
