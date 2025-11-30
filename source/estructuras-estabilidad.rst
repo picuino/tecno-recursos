@@ -10,7 +10,7 @@ Estabilidad
 ===========
 Las estructuras que estamos estudiando, además de ser rígidas
 para soportar cargas sin romperse ni deformarse,
-deben ser estables para no volcar, deslizarse u oscilar ante
+deben ser estables para no volcar, doblarse u oscilar ante
 las fuerzas externas.
 
 Existen varios problemas que pueden presentar las estructuras
@@ -241,8 +241,9 @@ Evitar las cargas oscilantes
 
 Amortiguar la estructura
    Esta es la solución que se toma en las ruedas de los vehículos o
-   en algunos edificios resistentes a terremotos. Un amortiguador es
-   un elemento que frena las oscilaciones y reduce la resonancia.
+   en algunos edificios resistentes a terremotos. Un **amortiguador** es
+   un elemento que absorbe la energía de las oscilaciones y reduce 
+   la resonancia de la estructura.
 
 * Vídeo: `amortiguador de masa sintonizada
   <https://www.youtube-nocookie.com/embed/7SCUGTA8xEI>`__
@@ -257,14 +258,17 @@ Amortiguar la estructura
 Ejercicios
 ----------
 #. ¿Qué problemas de estabilidad pueden tener las estructuras?
-#. Dibuja una estructura poco estable y otra que sea muy estable.
 #. ¿Cuándo vuelca una estructura?
+#. Dibuja una estructura poco estable al vuelco y otra que sea muy estable
+   al vuelco.
 #. ¿Qué soluciones hay para evitar que una estructura vuelque?
    Escribe un ejemplo de cada una.
 #. ¿Qué es el pandeo?
-#. ¿Cómo se puede evitar el pandeo?
+#. ¿Qué soluciones hay para evitar el pandeo?
+   Escribe un ejemplo de cada una.
 #. ¿Cómo se pueden evitar las oscilaciones perjudiciales en una
    estructura?
+#. ¿Qué es un amortiguador y para qué sirve?
 
 
 -------------
