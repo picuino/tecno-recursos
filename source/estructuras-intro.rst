@@ -185,6 +185,13 @@ Estructuras fijas
 
 ---------------
 
+Test de la unidad
+-----------------
+
+`Test online de introducción a las estructuras.
+<../test/es-mecan-structures.html>`__
+
+
 Ejercicios
 ----------
 1. Enumera cuatro estructuras naturales y cinco artificiales.

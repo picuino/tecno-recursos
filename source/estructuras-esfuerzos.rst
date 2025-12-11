@@ -105,6 +105,12 @@ Ejemplos de elementos que soportan este esfuerzo son:
 
 ------------------
 
+Test de la unidad
+-----------------
+
+`Test online de esfuerzos en las estructuras.
+<../test/es-mecan-esfuerzos.html>`__
+
 
 Ejercicios
 ----------

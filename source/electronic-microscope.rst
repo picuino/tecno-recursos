@@ -58,9 +58,6 @@ Electrónica digital:
    #. Vídeo: `Compuerta lógica XOR 74LS86
       <https://www.youtube-nocookie.com/embed/3GjEDnoyeHE>`__.
 
-   #. Vídeo: `El microcontrolador PIC12F508
-      <https://www.youtube-nocookie.com/embed/FbQ58dDo7GA>`__.
-
    #. Vídeo: `Chip de una tarjeta SIM
       <https://www.youtube-nocookie.com/embed/lTO7VlXTpa4>`__.
 
@@ -78,4 +75,10 @@ Electrónica digital:
 
    #. Vídeo: `Milhouse grabado en un microchip de vídeo
       <https://www.youtube-nocookie.com/embed/XQwarjOy9QI>`__.
+
+   #. Vídeo: `El microcontrolador PIC12F508
+      <https://www.youtube-nocookie.com/embed/FbQ58dDo7GA>`__.
+
+   #. Vídeo: `El microcontrolador de un microondas
+      <https://www.youtube-nocookie.com/embed/OAv7zRS6-es>`__.   
 

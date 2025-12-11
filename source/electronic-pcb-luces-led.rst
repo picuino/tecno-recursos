@@ -99,6 +99,16 @@ completo, a diferentes frecuencias dado que R3, R6 y R9 tienen diferentes
 valores y, por lo tanto, diferentes velocidades de parpadeo.
 
 
+En la siguiente simulación podemos ver funcionando los tres circuitos 
+que encienden dos luces led cada uno, con diferentes frecuencias:
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="/circuits/index.html?startCircuit=digital-luces-led.txt"></iframe>
+   </div>
+
+
 Circuito impreso (PCB)
 ----------------------
 

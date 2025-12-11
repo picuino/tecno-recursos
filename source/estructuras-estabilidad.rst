@@ -254,6 +254,12 @@ Amortiguar la estructura
 
 -------------
 
+Test de la unidad
+-----------------
+
+`Test online de estabilidad de las estructuras.
+<../test/es-mecan-estabilidad.html>`__
+
 
 Ejercicios
 ----------
