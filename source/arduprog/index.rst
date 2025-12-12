@@ -22,11 +22,14 @@ Programación de la placa de control Arduino UNO.
 .. toctree::
    :maxdepth: 2
 
-   protoboard-index
-   protoboard-guia
-   resource-index
-   pc42-index
-   ardublock-index
+   protoboard-index.rst
+   protoboard-guia.rst
+   resource-index.rst
+   
+   ../ardu-conduct-meter.rst
+   
+   pc42-index.rst
+   ardublock-index.rst
    ../picuino-uno-index.rst
 
 
