@@ -30,7 +30,7 @@ efecto:
 
 .. image:: neumatic/_images/neumatic-52-doble-0.png
    :alt: Pistón de doble efecto (dentro) comandado por válvula 5/2.
-   :width: 260px
+   :width: 350px
    :align: center
 
 Cuando accionamos la válvula 5/2, el aire que proviene de la unidad de
@@ -43,7 +43,7 @@ la carga que se encuentre delante.
 
 .. image:: neumatic/_images/neumatic-52-doble-2.png
    :alt: Pistón de doble efecto (saliendo) comandado por válvula 5/2.
-   :width: 316px
+   :width: 350px
    :align: center
 
 Una vez que el vástago ha salido hasta el tope, nos encontramos con el
@@ -51,7 +51,7 @@ siguiente esquema:
 
 .. image:: neumatic/_images/neumatic-52-doble-1.png
    :alt: Pistón de doble efecto (fuera) comandado por válvula 5/2.
-   :width: 341px
+   :width: 350px
    :align: center
 
 
@@ -70,20 +70,20 @@ Ejercicios
 #. Simula el funcionamiento de un cilindro de doble efecto
    comandado por una válvula 5/2.
 
-   `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
+   `Simulador de neumática. </neumatic/index.html>`__
 
 #. ¿Qué ocurrirá si quitamos los escapes de la válvula 5/2?
    Simula el funcionamiento. Explica cómo cambia el funcionamiento al
    retirar el escape y explica porqué se comporta de esa manera.
 
 #. Utiliza dos válvulas 3/2 para hacer funcionar un cilindro de doble
-   efecto en el `simulador. <../_static/flash/simulador-neumatica.html>`__
+   efecto en el `simulador. </neumatic/index.html>`__
 
    Explica el funcionamiento del circuito:
 
    .. figure:: neumatic/_images/neumatic-32-doble-4.png
       :alt: Escape.
-      :width: 447px
+      :width: 350px
       :align: center
 
 #. ¿Qué puede pasar en el circuito anterior si accionamos las

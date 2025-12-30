@@ -174,7 +174,7 @@ Ejercicios
    vástago que debe salir al accionar a la vez las
    **dos válvulas 3/2** de maniobra.
 
-   `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
+   `Simulador de neumática. </neumatic/index.html>`__
 
 #. Dibuja el circuito anterior en papel y explica su funcionamiento.
 
@@ -188,7 +188,7 @@ Ejercicios
    de las dos válvulas de la izquierda y a la vez se accione la válvula
    de la derecha.
 
-   `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
+   `Simulador de neumática. </neumatic/index.html>`__
 
 #. Dibuja el circuito anterior en papel y explica su funcionamiento.
 

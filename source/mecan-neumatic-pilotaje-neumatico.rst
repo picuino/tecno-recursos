@@ -65,7 +65,7 @@ Ejercicios
 
 #. Simula el funcionamiento del circuito anterior.
 
-   `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
+   `Simulador de neumática. </neumatic/index.html>`__
 
 #. Explica el funcionamiento del circuito anterior y sus ventajas.
 
@@ -76,7 +76,7 @@ Ejercicios
 
 #. Simula el funcionamiento del circuito anterior.
 
-   `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
+   `Simulador de neumática. </neumatic/index.html>`__
 
    .. note::
       Recuerda utilizar las teclas de flecha derecha y flecha izquierda

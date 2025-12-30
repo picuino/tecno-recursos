@@ -35,7 +35,7 @@ y el pistón sale del cilindro empujando la carga que tenga delante:
 
 .. image:: neumatic/_images/neumatic-32-simple-1.png
    :alt: Pistón de simple efecto (fuera) comandado por válvula 3/2.
-   :width: 439px
+   :width: 350px
    :align: center
 
 Para finalizar, al llevar a reposo la válvula 3/2, el aire comprimido
@@ -44,7 +44,7 @@ de la válvula 3/2:
 
 .. image:: neumatic/_images/neumatic-32-simple-2.png
    :alt: Pistón de simple efecto (entrando) comandado por válvula 3/2.
-   :width: 389px
+   :width: 350px
    :align: center
 
 
@@ -63,7 +63,7 @@ Ejercicios
 #. Simula el funcionamiento de un cilindro de simple efecto
    comandado por una válvula 3/2.
 
-   `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
+   `Simulador de neumática. </neumatic/index.html>`__
 
 #. ¿Qué ocurrirá si quitamos el escape de la válvula 3/2?
    Simula el funcionamiento. Explica cómo cambia el funcionamiento al
@@ -76,13 +76,13 @@ Ejercicios
       Escape neumático.
 
 #. Utiliza dos válvulas 3/2 para hacer funcionar un cilindro de simple
-   efecto en el `simulador. <../_static/flash/simulador-neumatica.html>`__
+   efecto en el `simulador. </neumatic/index.html>`__
    Solo una de las válvulas tendrá escape.
 
    Explica el funcionamiento del circuito:
 
    .. figure:: neumatic/_images/neumatic-32-simple-3.png
       :alt: Escape.
-      :width: 421px
+      :width: 350px
       :align: center
 

@@ -177,12 +177,12 @@ Ejercicios
    vástago que debe salir al accionar una cualquiera de las
    **dos válvulas 3/2** de maniobra.
 
-   `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
+   `Simulador de neumática. </neumatic/index.html>`__
 
 #. Dibuja el circuito anterior en papel y explica su funcionamiento.
 
 #. Simula el funcionamiento de una unión de tubos neumáticos
-   en el `simulador. <../_static/flash/simulador-neumatica.html>`__
+   en el `simulador. </neumatic/index.html>`__
 
 #. Dibuja el circuito anterior en papel y explica su funcionamiento.
 
@@ -196,4 +196,4 @@ Ejercicios
    cilindro de simple efecto. El vástago del cilindro debe salir fuera
    cuando se accione cualquiera de las tres válvulas individuales.
 
-   `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
+   `Simulador de neumática. </neumatic/index.html>`__

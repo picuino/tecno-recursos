@@ -11,6 +11,18 @@ Introducción a la neumática
 La neumática es la tecnología que emplea el aire comprimido
 como medio de transmisión de energía para mover mecanismos y máquinas.
 
+Simulador de neumática
+----------------------
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="/neumatic/index.html?loadFile=double-52-auto.txt"></iframe>
+   </div>
+
+`Simulador de neumática a pantalla completa. </neumatic/index.html>`__
+
+
 Teoría sobre neumática
 ----------------------
 
@@ -29,23 +41,6 @@ Web Portal ESO
    <http://www.portaleso.com/neumatica/unidad_neumatica_4_v1_c.ppt>`__
 
 
-Simulador de neumática
-----------------------
-.. image:: neumatic/_images/neumatic-simulador.png
-   :alt: Simulador de neumática de PortalESO.com
-   :width: 640px
-   :align: center
-   :target: ../_static/flash/simulador-neumatica.html
-
-`Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
-
-Creado por Antonio Bueno en la página
-`www.portaleso.com <http://www.portaleso.com>`__
-con licencia
-`Creative Commons Reconocimiento-NoComercial-CompartirIgual 2.5 España
-<https://creativecommons.org/licenses/by-nc-sa/2.5/es/>`__
-
-
 Simulador de neumática Hopsan
 -----------------------------
 `Hopsan <https://liu.se/en/research/hopsan>`__
@@ -57,6 +52,7 @@ desarrollada por la Universidad de Linköping.
    :width: 480px
    :align: center
    :target: https://liu.se/en/research/hopsan
+
 
 
 Vídeos de circuitos neumáticos

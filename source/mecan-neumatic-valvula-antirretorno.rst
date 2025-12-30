@@ -215,7 +215,7 @@ Ejercicios
 
 #. Simula el funcionamiento del circuito anterior.
 
-   `Simulador de neumática. <../_static/flash/simulador-neumatica.html>`__
+   `Simulador de neumática. </neumatic/index.html>`__
 
 #. Explica el funcionamiento del circuito anterior.
    ¿Por qué se mueve el vástago lentamente?

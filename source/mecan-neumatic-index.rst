@@ -9,13 +9,13 @@
 ***********
 
 Automatismos neumáticos con `simulador online
-<../_static/flash/simulador-neumatica.html>`__.
+</neumatic/index.html>`__.
 
 .. image:: neumatic/_images/neumatic-logo.png
    :alt: Automatismo neumático
    :align: center
    :width: 415px
-   :target: ../_static/flash/simulador-neumatica.html
+   :target: /neumatic/index.html
 
 
 .. toctree::
@@ -25,6 +25,8 @@ Automatismos neumáticos con `simulador online
 
    mecan-neumatic-intro.rst
    mecan-neumatic-simbolos.rst
+   mecan-neumatic-valvulas.rst
+   mecan-neumatic-valvula-32.rst
    mecan-neumatic-simple-efecto.rst
    mecan-neumatic-doble-efecto.rst
    mecan-neumatic-valvula-or.rst
