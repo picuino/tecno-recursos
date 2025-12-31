@@ -2,23 +2,23 @@
 # Copyright (C) 2013-2025, Carlos Félix Pardo Martín
 # This file is distributed under the Creative Commons BY-SA 4.0 License
 # https://creativecommons.org/licenses/by-sa/4.0/deed.en
-#
-
 msgid ""
 msgstr ""
-"Project-Id-Version:Picuino 2025"
-"Report-Msgid-Bugs-To:"
-"POT-Creation-Date:2025-01-13 17:26+0100"
-"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
-"Language:ca"
-"Language-Team:ca <LL@li.org>"
-"Plural-Forms:nplurals=2; plural=(n != 1)"
-"MIME-Version:1.0"
-"Content-Type:text/plain; charset=utf-8"
-"Content-Transfer-Encoding:8bit"
-"Generated-By:Babel 2.9.0"
-
+"Project-Id-Version: Picuino 2025Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2025-01-13 17:26+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:caLanguage-Team:ca "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-12-31 11:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../source/electronic-pcb-luces-led.rst:9
 msgid "Circuito impreso con luces led"
@@ -29,7 +29,8 @@ msgid ""
 "Diseño y montaje de un sencillo circuito impreso con 6 luces led "
 "parpadeantes."
 msgstr ""
-"Disseny i muntatge d’un circuit imprès senzill amb 6 llums LED intermitents."
+"Disseny i muntatge d’un circuit imprès senzill amb 6 llums LED "
+"intermitents."
 
 #: ../../source/electronic-pcb-luces-led.rst:18
 msgid ""
@@ -57,92 +58,96 @@ msgstr "Funcionament del circuit oscil·lador"
 
 #: ../../source/electronic-pcb-luces-led.rst:37
 msgid ""
-"El circuito con luces que parpadean está basado en un oscilador que cambia "
-"su salida cada poco tiempo, encendiendo y apagando el led."
+"El circuito con luces que parpadean está basado en un oscilador que "
+"cambia su salida cada poco tiempo, encendiendo y apagando el led."
 msgstr ""
-"El circuit amb llums que parpelleja es basa en un oscil·lador que canvia la "
-"seva sortida cada poc temps, encès i desactivat el LED."
+"El circuit amb llums que parpelleja es basa en un oscil·lador que canvia "
+"la seva sortida cada poc temps, encès i desactivat el LED."
 
 #: ../../source/electronic-pcb-luces-led.rst:45
 msgid ""
-"Este circuito oscilador está formado por un inversor con trigger schmitt, un"
-" condensador C1 y una resistencia de realimentación R3."
+"Este circuito oscilador está formado por un inversor con trigger schmitt,"
+" un condensador C1 y una resistencia de realimentación R3."
 msgstr ""
-"Aquest circuit oscil·lador està format per un inversor amb Trigger Schmitt, "
-"un condensador C1 i una resistència a la retroalimentació R3."
+"Aquest circuit oscil·lador està format per un inversor amb Trigger "
+"Schmitt, un condensador C1 i una resistència a la retroalimentació R3."
 
 #: ../../source/electronic-pcb-luces-led.rst:48
 msgid ""
 "El circuito inversor con trigger schmitt cambia su salida a diferentes "
-"tensiones de entrada. Este comportamiento se denomina histéresis de entrada "
-"y es el que permite que el circuito funcione como oscilador. En la siguiente"
-" gráfica podemos ver como cambia la tensión de salida del inversor para "
-"diferentes tensiones de entrada. Esta figura rectangular con dos líneas "
-"horizontales es la que tiene el inversor en su interior e indica que trabaja"
-" con histéresis."
+"tensiones de entrada. Este comportamiento se denomina histéresis de "
+"entrada y es el que permite que el circuito funcione como oscilador. En "
+"la siguiente gráfica podemos ver como cambia la tensión de salida del "
+"inversor para diferentes tensiones de entrada. Esta figura rectangular "
+"con dos líneas horizontales es la que tiene el inversor en su interior e "
+"indica que trabaja con histéresis."
 msgstr ""
 "El circuit d’inversors amb disparador Schmitt canvia la seva sortida a "
 "diferents tensions d’entrada. Aquest comportament s’anomena histèresi "
-"d’entrada i és el que permet que el circuit funcioni com a oscil·lador. Al "
-"gràfic següent podem veure com canvia la tensió de sortida del inversor per "
-"a diferents tensions d’entrada. Aquesta figura rectangular amb dues línies "
-"horitzontals és el que té l’inversor i indica que treballa amb histèresi."
+"d’entrada i és el que permet que el circuit funcioni com a oscil·lador. "
+"Al gràfic següent podem veure com canvia la tensió de sortida del "
+"inversor per a diferents tensions d’entrada. Aquesta figura rectangular "
+"amb dues línies horitzontals és el que té l’inversor i indica que "
+"treballa amb histèresi."
 
 #: ../../source/electronic-pcb-luces-led.rst:61
 msgid ""
 "Cuando se enciende el circuito por primera vez, el condensador está "
 "descargado y por lo tanto su tensión en el terminal positivo vale cero "
-"voltios. El inversor schmitt tiene por lo tanto en su entrada cero voltios "
-"(un cero lógico) y en su salida los 5 voltios de alimentación positiva (un "
-"uno lógico). En esta situación, la resistencia de realimentación R3 va "
-"cargando poco a poco la tensión del condensador hasta que alcanza los 3,33 "
-"voltios, tensión a partir de la cual el inversor schmitt considera que la "
-"entrada vale un uno lógico y por lo tanto cambia su salida a cero voltios "
-"(cero lógico)."
+"voltios. El inversor schmitt tiene por lo tanto en su entrada cero "
+"voltios (un cero lógico) y en su salida los 5 voltios de alimentación "
+"positiva (un uno lógico). En esta situación, la resistencia de "
+"realimentación R3 va cargando poco a poco la tensión del condensador "
+"hasta que alcanza los 3,33 voltios, tensión a partir de la cual el "
+"inversor schmitt considera que la entrada vale un uno lógico y por lo "
+"tanto cambia su salida a cero voltios (cero lógico)."
 msgstr ""
 "Quan el circuit està activat per primera vegada, el condensador es "
-"descarrega i, per tant, la seva tensió al terminal positiu val zero volts. "
-"L’inversor de Schmitt té, per tant, zero volts (un zero lògic) i a la seva "
-"sortida els 5 volts d’alimentació positiva (lògica). En aquesta situació, la"
-" resistència a la retroalimentació R3 porta gradualment la tensió del "
-"condensador fins que arribi a 3,33 volts, la tensió de la qual l’inversor de"
-" Schmitt considera que l’entrada val la pena lògica i, per tant, canvia la "
-"seva sortida a zero volts (lògic zero)."
+"descarrega i, per tant, la seva tensió al terminal positiu val zero "
+"volts. L’inversor de Schmitt té, per tant, zero volts (un zero lògic) i a"
+" la seva sortida els 5 volts d’alimentació positiva (lògica). En aquesta "
+"situació, la resistència a la retroalimentació R3 porta gradualment la "
+"tensió del condensador fins que arribi a 3,33 volts, la tensió de la qual"
+" l’inversor de Schmitt considera que l’entrada val la pena lògica i, per "
+"tant, canvia la seva sortida a zero volts (lògic zero)."
 
 #: ../../source/electronic-pcb-luces-led.rst:73
 msgid ""
 "Ahora, la resistencia de realimentación R3 va descargando poco a poco la "
-"tensión del condensador hasta que alcanza 1,66 voltios, tensión a partir de "
-"la cual el inversor schmitt considera que la entrada vale un cero lógico y "
-"por lo tanto cambia su salida a cinco voltios (uno lógico) volviendo el "
-"ciclo a repetirse una y otra vez."
+"tensión del condensador hasta que alcanza 1,66 voltios, tensión a partir "
+"de la cual el inversor schmitt considera que la entrada vale un cero "
+"lógico y por lo tanto cambia su salida a cinco voltios (uno lógico) "
+"volviendo el ciclo a repetirse una y otra vez."
 msgstr ""
 "Ara, la resistència a la retroalimentació de R3 està descarregant "
 "gradualment la tensió del condensador fins que arribi a 1,66 volts, la "
-"tensió de la qual l’inversor de Schmitt considera que l’entrada val la pena "
-"un zero lògic i, per tant, canvia la seva sortida a cinc volts (un lògic) "
-"retornant el cicle per repetir -se una i altra vegada."
+"tensió de la qual l’inversor de Schmitt considera que l’entrada val la "
+"pena un zero lògic i, per tant, canvia la seva sortida a cinc volts (un "
+"lògic) retornant el cicle per repetir -se una i altra vegada."
 
 #: ../../source/electronic-pcb-luces-led.rst:79
 msgid ""
-"La velocidad de oscilación dependerá de los valores del condensador y de la "
-"resistencia. Cuanto mayores sean, más tiempo tardará en oscilar el circuito."
-" La fórmula aproximada del tiempo de oscilación es:"
+"La velocidad de oscilación dependerá de los valores del condensador y de "
+"la resistencia. Cuanto mayores sean, más tiempo tardará en oscilar el "
+"circuito. La fórmula aproximada del tiempo de oscilación es:"
 msgstr ""
 "La velocitat d’oscil·lació dependrà dels valors del condensador i de la "
-"resistència. Com més vells siguin, més llarg el circuit trigarà a abastar "
-"-se. La fórmula aproximada del temps d’oscil·lació és:"
+"resistència. Com més vells siguin, més llarg el circuit trigarà a abastar"
+" -se. La fórmula aproximada del temps d’oscil·lació és:"
 
 #: ../../source/electronic-pcb-luces-led.rst:83
 msgid ""
-"Tiempo de oscilación = 0,8·R3·C1  = 0,8 · 220000 · 0,000010 = 1,76 segundos"
+"Tiempo de oscilación = 0,8·R3·C1  = 0,8 · 220000 · 0,000010 = 1,76 "
+"segundos"
 msgstr ""
-"Temps d’oscil·lació = 0,8 · R3 · C1 = 0,8 · 220000 · 0.000010 = 1,76 segons"
+"Temps d’oscil·lació = 0,8 · R3 · C1 = 0,8 · 220000 · 0.000010 = 1,76 "
+"segons"
 
 #: ../../source/electronic-pcb-luces-led.rst:90
 msgid ""
 "El led D1 conectado a la salida del oscilador mediante una resistencia "
-"limitadora R1, se encenderá y apagará a la misma velocidad que el oscilador."
+"limitadora R1, se encenderá y apagará a la misma velocidad que el "
+"oscilador."
 msgstr ""
 "El LED D1 connectat a la sortida oscil·ladora mitjançant una resistència "
 "limitant R1, s’encendrà i s’apagarà a la mateixa velocitat que "
@@ -151,28 +156,34 @@ msgstr ""
 #: ../../source/electronic-pcb-luces-led.rst:93
 msgid ""
 "El led D2 conectado a la salida de otro inversor schmitt mediante una "
-"resistencia limitadora R2, se encenderá cuando D1 esté apagado y se apagará "
-"cuando D1 esté encendido, produciendo un parpadeo alternativo."
+"resistencia limitadora R2, se encenderá cuando D1 esté apagado y se "
+"apagará cuando D1 esté encendido, produciendo un parpadeo alternativo."
 msgstr ""
-"El LED D2 connectat a la sortida d’un altre inversor Schmitt mitjançant una "
-"resistència limitant R2, s’encendrà quan D1 s’apagui i s’apagarà quan D1 "
-"estigui activat, produint un parpelleig alternatiu."
+"El LED D2 connectat a la sortida d’un altre inversor Schmitt mitjançant "
+"una resistència limitant R2, s’encendrà quan D1 s’apagui i s’apagarà quan"
+" D1 estigui activat, produint un parpelleig alternatiu."
 
 #: ../../source/electronic-pcb-luces-led.rst:97
 msgid ""
-"Este comportamiento se repite en los tres osciladores que tiene el circuito "
-"completo, a diferentes frecuencias dado que R3, R6 y R9 tienen diferentes "
-"valores y, por lo tanto, diferentes velocidades de parpadeo."
+"Este comportamiento se repite en los tres osciladores que tiene el "
+"circuito completo, a diferentes frecuencias dado que R3, R6 y R9 tienen "
+"diferentes valores y, por lo tanto, diferentes velocidades de parpadeo."
 msgstr ""
 "Aquest comportament es repeteix en els tres oscil·ladors que el circuit "
 "complet té, a diferents freqüències des de R3, R6 i R9, tenen valors "
 "diferents i, per tant, diferents velocitats de matràs."
 
-#: ../../source/electronic-pcb-luces-led.rst:103
+#: ../../source/electronic-pcb-luces-led.rst:102
+msgid ""
+"En la siguiente simulación podemos ver funcionando los tres circuitos que"
+" encienden dos luces led cada uno, con diferentes frecuencias:"
+msgstr ""
+
+#: ../../source/electronic-pcb-luces-led.rst:113
 msgid "Circuito impreso (PCB)"
 msgstr "Circuit imprès (PCB)"
 
-#: ../../source/electronic-pcb-luces-led.rst:110
+#: ../../source/electronic-pcb-luces-led.rst:120
 msgid ""
 ":download:`Diseño del circuito eléctrico y del circuito impreso. Formato "
 "KiCad. <electronic/electronic-pcb-luces-led.zip>`"
@@ -180,307 +191,315 @@ msgstr ""
 ": Descàrrega: `Disseny del circuit elèctric i del circuit imprès. Format "
 "KICAD. <Electronic/Electronic-PB-Luces-led.zip>`"
 
-#: ../../source/electronic-pcb-luces-led.rst:113
+#: ../../source/electronic-pcb-luces-led.rst:123
 msgid ""
-":download:`Archivos Gerber para la fabricación del circuito impreso. Formato"
-" ZIP. <electronic/electronic-pcb-luces-led-gerber.zip>`"
+":download:`Archivos Gerber para la fabricación del circuito impreso. "
+"Formato ZIP. <electronic/electronic-pcb-luces-led-gerber.zip>`"
 msgstr ""
-": Descarregueu: `Gerber Files per a la fabricació del circuit imprès. Format"
-" postal. <Electronic/Electronic-PB-Luces-Led-Gerber.Zip>`"
-
-#: ../../source/electronic-pcb-luces-led.rst:116
-msgid ""
-"Los archivos gerber sirven para solicitar la fabricación de la placa de "
-"circuito impreso a una empresa de fabricación de placas de circuito impreso "
-"como pueden ser `JLCPCB <https://jlcpcb.com/>`__ o `PCBWay "
-"<https://www.pcbway.com/>`__."
-msgstr ""
-"Els fitxers Gerber serveixen per sol·licitar la fabricació de la placa de "
-"circuit imprès a una empresa de fabricació de plaques de circuit imprès com "
-"ara `jlcpcb <https://jlcpcb.com/>`__ o `pcbway <https://www.pcbway.com/>` "
-"__."
-
-#: ../../source/electronic-pcb-luces-led.rst:121
-msgid ""
-"En total hay un conjunto de 7 archivos gerber diferentes, tres archivos para"
-" la parte frontal, 3 archivos para la capa trasera y uno para los bordes de "
-"la placa. Además hay un archivo que indica dónde se deben realizar los "
-"taladros (drill)."
-msgstr ""
-"En total, hi ha un conjunt de 7 fitxers Gerber diferents, tres fitxers per a"
-" la part frontal, 3 fitxers per a la capa posterior i un per a les vores de "
-"la placa. També hi ha un fitxer que indica on s’han de fer els exercicis "
-"(perfor)."
+": Descarregueu: `Gerber Files per a la fabricació del circuit imprès. "
+"Format postal. <Electronic/Electronic-PB-Luces-Led-Gerber.Zip>`"
 
 #: ../../source/electronic-pcb-luces-led.rst:126
 msgid ""
-"Los archivos gerber y de taladrado se reparten como indica a continuación:"
+"Los archivos gerber sirven para solicitar la fabricación de la placa de "
+"circuito impreso a una empresa de fabricación de placas de circuito "
+"impreso como pueden ser `JLCPCB <https://jlcpcb.com/>`__ o `PCBWay "
+"<https://www.pcbway.com/>`__."
+msgstr ""
+"Els fitxers Gerber serveixen per sol·licitar la fabricació de la placa de"
+" circuit imprès a una empresa de fabricació de plaques de circuit imprès "
+"com ara `jlcpcb <https://jlcpcb.com/>`__ o `pcbway "
+"<https://www.pcbway.com/>` __."
+
+#: ../../source/electronic-pcb-luces-led.rst:131
+msgid ""
+"En total hay un conjunto de 7 archivos gerber diferentes, tres archivos "
+"para la parte frontal, 3 archivos para la capa trasera y uno para los "
+"bordes de la placa. Además hay un archivo que indica dónde se deben "
+"realizar los taladros (drill)."
+msgstr ""
+"En total, hi ha un conjunt de 7 fitxers Gerber diferents, tres fitxers "
+"per a la part frontal, 3 fitxers per a la capa posterior i un per a les "
+"vores de la placa. També hi ha un fitxer que indica on s’han de fer els "
+"exercicis (perfor)."
+
+#: ../../source/electronic-pcb-luces-led.rst:136
+msgid "Los archivos gerber y de taladrado se reparten como indica a continuación:"
 msgstr ""
 "Els fitxers Gerber i de perforació es distribueixen tal com s’indica a "
 "continuació:"
 
-#: ../../source/electronic-pcb-luces-led.rst:128
+#: ../../source/electronic-pcb-luces-led.rst:138
 msgid "Pistas de cobre de la capa frontal (F_Cu)"
 msgstr "Pistes de coure de la capa frontal (f_cu)"
 
-#: ../../source/electronic-pcb-luces-led.rst:129
+#: ../../source/electronic-pcb-luces-led.rst:139
 msgid "Pistas de cobre de la capa trasera (B_Cu)"
 msgstr "Pistes de coure de la capa posterior (B_CU)"
 
-#: ../../source/electronic-pcb-luces-led.rst:130
+#: ../../source/electronic-pcb-luces-led.rst:140
 msgid "Máscara de soldadura de la capa frontal (F_Mask)"
 msgstr "Màscara de soldadura de capa frontal (F_MASK)"
 
-#: ../../source/electronic-pcb-luces-led.rst:131
+#: ../../source/electronic-pcb-luces-led.rst:141
 msgid "Máscara de soldadura de la capa trasera (B_Mask)"
 msgstr "Màscara de soldadura de la capa posterior (b_mask)"
 
-#: ../../source/electronic-pcb-luces-led.rst:132
+#: ../../source/electronic-pcb-luces-led.rst:142
 msgid "Serigrafía de componentes de la parte frontal (F_SilkS)"
 msgstr "Impressió de components de la part frontal (f_silks)"
 
-#: ../../source/electronic-pcb-luces-led.rst:133
+#: ../../source/electronic-pcb-luces-led.rst:143
 msgid "Serigrafía de componentes de la parte trasera (B_SilkS)"
 msgstr "Fons dels components posteriors (b_silks)"
 
-#: ../../source/electronic-pcb-luces-led.rst:134
+#: ../../source/electronic-pcb-luces-led.rst:144
 msgid "Bordes para recortar la placa (Edge_Cuts)"
 msgstr "Vores per tallar la placa (edge_cuts)"
 
-#: ../../source/electronic-pcb-luces-led.rst:135
+#: ../../source/electronic-pcb-luces-led.rst:145
 msgid "Archivo de taladros (.drl)"
 msgstr "Arxius de perforació (.DRL)"
 
-#: ../../source/electronic-pcb-luces-led.rst:152
+#: ../../source/electronic-pcb-luces-led.rst:162
 msgid "**Pistas de cobre:**"
 msgstr "** Pistes de coure: **"
 
-#: ../../source/electronic-pcb-luces-led.rst:149
+#: ../../source/electronic-pcb-luces-led.rst:159
 msgid ""
-"Son los conductores que conectan entre sí todos los componentes de la placa "
-"de circuito impreso. Aparecen en el dibujo con color amarillo (sin máscara "
-"de soldadura) o de color verde claro (ya cubiertos de máscara de soldadura)."
+"Son los conductores que conectan entre sí todos los componentes de la "
+"placa de circuito impreso. Aparecen en el dibujo con color amarillo (sin "
+"máscara de soldadura) o de color verde claro (ya cubiertos de máscara de "
+"soldadura)."
 msgstr ""
-"Són els conductors que connecten tots els components de la placa de circuit "
-"imprès. Apareixen al dibuix groc (sense màscara de soldadura) o de color "
-"verd clar (ja cobert amb màscara de soldadura)."
+"Són els conductors que connecten tots els components de la placa de "
+"circuit imprès. Apareixen al dibuix groc (sense màscara de soldadura) o "
+"de color verd clar (ja cobert amb màscara de soldadura)."
 
-#: ../../source/electronic-pcb-luces-led.rst:158
+#: ../../source/electronic-pcb-luces-led.rst:168
 msgid "**Máscara de soldadura:**"
 msgstr "** Màscara de soldadura: **"
 
-#: ../../source/electronic-pcb-luces-led.rst:155
+#: ../../source/electronic-pcb-luces-led.rst:165
 msgid ""
-"Es una capa de pintura, normalmente de color verde aunque puede tener otros "
-"colores, que sirve para proteger las pistas de cobre de la corrosión y para "
-"evitar cortocircuitos a la hora de realizar el proceso de soldadura. La "
-"máscara de soldadura no se aplica encima de los pads de soldadura."
+"Es una capa de pintura, normalmente de color verde aunque puede tener "
+"otros colores, que sirve para proteger las pistas de cobre de la "
+"corrosión y para evitar cortocircuitos a la hora de realizar el proceso "
+"de soldadura. La máscara de soldadura no se aplica encima de los pads de "
+"soldadura."
 msgstr ""
 "És una capa de pintura, generalment verda, tot i que pot tenir altres "
-"colors, que serveix per protegir les pistes de coure de la corrosió i per "
-"evitar els curtmetratges quan es realitzen el procés de soldadura. La "
+"colors, que serveix per protegir les pistes de coure de la corrosió i per"
+" evitar els curtmetratges quan es realitzen el procés de soldadura. La "
 "màscara de soldadura no s'aplica a sobre de les pastilles de soldadura."
 
-#: ../../source/electronic-pcb-luces-led.rst:165
+#: ../../source/electronic-pcb-luces-led.rst:175
 msgid "**Serigrafía de componentes**:"
 msgstr "** Serigrafia de components **:"
 
-#: ../../source/electronic-pcb-luces-led.rst:161
+#: ../../source/electronic-pcb-luces-led.rst:171
 msgid ""
-"Es una capa de pintura, generalmente de color blanco, que sirve para indicar"
-" el nombre de los componentes del circuito y para escribir indicaciones o "
-"dibujos. Esta capa de pintura se aplica con la técnica de la serigrafía y de"
-" ahí su nombre."
+"Es una capa de pintura, generalmente de color blanco, que sirve para "
+"indicar el nombre de los componentes del circuito y para escribir "
+"indicaciones o dibujos. Esta capa de pintura se aplica con la técnica de "
+"la serigrafía y de ahí su nombre."
 msgstr ""
-"És una capa de pintura, generalment blanca, que serveix per indicar el nom "
-"dels components del circuit i per escriure indicacions o dibuixos. Aquesta "
-"capa de pintura s’aplica amb la tècnica d’impressió de pantalla i, per tant,"
-" el seu nom."
+"És una capa de pintura, generalment blanca, que serveix per indicar el "
+"nom dels components del circuit i per escriure indicacions o dibuixos. "
+"Aquesta capa de pintura s’aplica amb la tècnica d’impressió de pantalla "
+"i, per tant, el seu nom."
 
-#: ../../source/electronic-pcb-luces-led.rst:168
+#: ../../source/electronic-pcb-luces-led.rst:178
 msgid "Listado de componentes (BOM)"
 msgstr "Llista de components (BOM)"
 
-#: ../../source/electronic-pcb-luces-led.rst:169
+#: ../../source/electronic-pcb-luces-led.rst:179
 msgid ""
-"El listado de componentes (llamado también BOM o Bill Of Materials) es un "
-"listado donde aparecen todos los componentes del circuito impreso con su "
-"cantidad y su referencia para poder obtenerlos antes de realizar el montaje."
+"El listado de componentes (llamado también BOM o Bill Of Materials) es un"
+" listado donde aparecen todos los componentes del circuito impreso con su"
+" cantidad y su referencia para poder obtenerlos antes de realizar el "
+"montaje."
 msgstr ""
 "La llista de components (també anomenat BOM o Bill of Materials) és una "
 "llista on tots els components del circuit imprès apareixen amb la seva "
 "quantitat i referència per poder -los obtenir abans de fer el muntatge."
 
-#: ../../source/electronic-pcb-luces-led.rst:174
+#: ../../source/electronic-pcb-luces-led.rst:184
 msgid ""
-"La lista de componentes puede tener también la referencia de compra de un "
-"distribuidor de componentes electrónicos. En el siguiente documento se han "
-"añadido las referencias del distribuidor `TME <https://www.tme.eu/es/>`__."
+"La lista de componentes puede tener también la referencia de compra de un"
+" distribuidor de componentes electrónicos. En el siguiente documento se "
+"han añadido las referencias del distribuidor `TME "
+"<https://www.tme.eu/es/>`__."
 msgstr ""
 "La llista de components també pot tenir la referència de compra d’un "
-"distribuïdor de components electrònics. Al document següent, s’han afegit "
-"les referències del `TME <https://www.tme.eu/es/>`__ distribuïdor."
-
-#: ../../source/electronic-pcb-luces-led.rst:178
-msgid ""
-":download:`Listado de componentes de la placa con luces led. Formato PDF. "
-"<electronic/pcb-luces-led/bom/electronic-pcb-luces-led-bom.pdf>`"
-msgstr ""
-": Descarregueu: `Llista de components de la placa amb llums LED. Format PDF."
-" <Electronic/PCB-Luces-Led/Bom/Electronic-PCB-Luces-Led-bom.pdf>`"
-
-#: ../../source/electronic-pcb-luces-led.rst:181
-msgid ""
-":download:`Listado de componentes de la placa con luces led. Formato ODS. "
-"<electronic/pcb-luces-led/bom/electronic-pcb-luces-led-bom.ods>`"
-msgstr ""
-": Descarregueu: `Llista de components de la placa amb llums LED. Format ODS."
-" <Electronic/PCB-Luces-Led/Bom/Electronic-Pb-Luces-Led-Bom.ods>`"
-
-#: ../../source/electronic-pcb-luces-led.rst:186
-msgid "Orden y posición de montaje"
-msgstr "Ordre de muntatge i posició"
+"distribuïdor de components electrònics. Al document següent, s’han afegit"
+" les referències del `TME <https://www.tme.eu/es/>`__ distribuïdor."
 
 #: ../../source/electronic-pcb-luces-led.rst:188
 msgid ""
-"A la hora de soldar los componentes conviene seguir un orden, de manera que "
-"se suelden primero los componentes más bajos y después los más altos. De "
-"esta forma, al dar la vuelta a la placa de circuito impreso, los componentes"
-" pueden apoyarse sobre la mesa y no quedarán despegados de la placa."
+":download:`Listado de componentes de la placa con luces led. Formato PDF."
+" <electronic/pcb-luces-led/bom/electronic-pcb-luces-led-bom.pdf>`"
 msgstr ""
-"Quan la soldadura, els components han de seguir un ordre, de manera que els "
-"components més baixos es solden primer i els més alts. D’aquesta manera, al "
-"voltant de la placa del circuit imprès, els components poden confiar en la "
-"taula i no es desprenen de la placa."
+": Descarregueu: `Llista de components de la placa amb llums LED. Format "
+"PDF. <Electronic/PCB-Luces-Led/Bom/Electronic-PCB-Luces-Led-bom.pdf>`"
 
-#: ../../source/electronic-pcb-luces-led.rst:193
+#: ../../source/electronic-pcb-luces-led.rst:191
+msgid ""
+":download:`Listado de componentes de la placa con luces led. Formato ODS."
+" <electronic/pcb-luces-led/bom/electronic-pcb-luces-led-bom.ods>`"
+msgstr ""
+": Descarregueu: `Llista de components de la placa amb llums LED. Format "
+"ODS. <Electronic/PCB-Luces-Led/Bom/Electronic-Pb-Luces-Led-Bom.ods>`"
+
+#: ../../source/electronic-pcb-luces-led.rst:196
+msgid "Orden y posición de montaje"
+msgstr "Ordre de muntatge i posició"
+
+#: ../../source/electronic-pcb-luces-led.rst:198
+msgid ""
+"A la hora de soldar los componentes conviene seguir un orden, de manera "
+"que se suelden primero los componentes más bajos y después los más altos."
+" De esta forma, al dar la vuelta a la placa de circuito impreso, los "
+"componentes pueden apoyarse sobre la mesa y no quedarán despegados de la "
+"placa."
+msgstr ""
+"Quan la soldadura, els components han de seguir un ordre, de manera que "
+"els components més baixos es solden primer i els més alts. D’aquesta "
+"manera, al voltant de la placa del circuit imprès, els components poden "
+"confiar en la taula i no es desprenen de la placa."
+
+#: ../../source/electronic-pcb-luces-led.rst:203
 msgid ""
 "Además cada componente tiene una posición de soldadura. Si no respetamos "
-"esta posición corremos el riesgo de estropear el componente o hacer que no "
-"funcione el circuito."
+"esta posición corremos el riesgo de estropear el componente o hacer que "
+"no funcione el circuito."
 msgstr ""
-"A més, cada component té una posició de soldadura. Si no respectem aquesta "
-"posició, correm el risc de fer malbé el component o fer que el circuit "
-"funcioni."
+"A més, cada component té una posició de soldadura. Si no respectem "
+"aquesta posició, correm el risc de fer malbé el component o fer que el "
+"circuit funcioni."
 
-#: ../../source/electronic-pcb-luces-led.rst:197
+#: ../../source/electronic-pcb-luces-led.rst:207
 msgid "El orden y posición de montaje son las siguientes:"
 msgstr "L’ordre i la posició del muntatge són els següents:"
 
-#: ../../source/electronic-pcb-luces-led.rst:199
+#: ../../source/electronic-pcb-luces-led.rst:209
 msgid "**1. Resistencias**:"
 msgstr "** 1. Resistències **:"
 
-#: ../../source/electronic-pcb-luces-led.rst:201
+#: ../../source/electronic-pcb-luces-led.rst:211
 msgid ""
-"No necesitan ningún orden en particular para funcionar correctamente, pero "
-"el código de colores resulta más elegante y más sencillo de leer cuando "
-"todas las bandas de oro están alineadas a la derecha (resistencias "
-"horizontales) o hacia arriba (resistencias verticales) como en la imagen del"
-" inicio de esta unidad."
+"No necesitan ningún orden en particular para funcionar correctamente, "
+"pero el código de colores resulta más elegante y más sencillo de leer "
+"cuando todas las bandas de oro están alineadas a la derecha (resistencias"
+" horizontales) o hacia arriba (resistencias verticales) como en la imagen"
+" del inicio de esta unidad."
 msgstr ""
-"No necessiten cap ordre particular per funcionar correctament, però el codi "
-"de colors és més elegant i fàcil de llegir quan totes les bandes d'or estan "
-"alineades a la dreta (resistències horitzontals) o cap amunt (resistències "
-"verticals) com a la imatge de l'inici d'aquesta unitat."
+"No necessiten cap ordre particular per funcionar correctament, però el "
+"codi de colors és més elegant i fàcil de llegir quan totes les bandes "
+"d'or estan alineades a la dreta (resistències horitzontals) o cap amunt "
+"(resistències verticals) com a la imatge de l'inici d'aquesta unitat."
 
-#: ../../source/electronic-pcb-luces-led.rst:207
+#: ../../source/electronic-pcb-luces-led.rst:217
 msgid "**2. Interruptor de encendido SW1**:"
 msgstr "** 2. Sw1 Switch Switch **:"
 
-#: ../../source/electronic-pcb-luces-led.rst:209
+#: ../../source/electronic-pcb-luces-led.rst:219
 msgid ""
-"Habrá que montarlo de forma que la palanca del interruptor se sitúe fuera "
-"del circuito impreso para que resulte sencillo accionar el interruptor."
+"Habrá que montarlo de forma que la palanca del interruptor se sitúe fuera"
+" del circuito impreso para que resulte sencillo accionar el interruptor."
 msgstr ""
 "Caldrà muntar -lo de manera que la palanca de commutador estigui situada "
-"fora del circuit imprès de manera que sigui senzill conduir l’interruptor."
+"fora del circuit imprès de manera que sigui senzill conduir "
+"l’interruptor."
 
-#: ../../source/electronic-pcb-luces-led.rst:213
+#: ../../source/electronic-pcb-luces-led.rst:223
 msgid "**3. Zócalo del circuito integrado**:"
 msgstr "** 3. Circuit integrat Zócalo **:"
 
-#: ../../source/electronic-pcb-luces-led.rst:215
+#: ../../source/electronic-pcb-luces-led.rst:225
 msgid ""
-"El zócalo tiene una pequeña pestaña en la parte superior que hay que alinear"
-" con la pestaña de la serigrafía de componentes, también en la parte "
-"superior del zócalo."
+"El zócalo tiene una pequeña pestaña en la parte superior que hay que "
+"alinear con la pestaña de la serigrafía de componentes, también en la "
+"parte superior del zócalo."
 msgstr ""
-"El Zocalo té una petita fitxa a la part superior que ha d’estar alineada amb"
-" la pestanya d’impressió de pantalla de components, també a la part superior"
-" del Zócalo."
+"El Zocalo té una petita fitxa a la part superior que ha d’estar alineada "
+"amb la pestanya d’impressió de pantalla de components, també a la part "
+"superior del Zócalo."
 
-#: ../../source/electronic-pcb-luces-led.rst:219
+#: ../../source/electronic-pcb-luces-led.rst:229
 msgid ""
 "Si insertamos el circuito integrado en sentido incorrecto (hacia abajo) "
 "corremos el riesgo de estropearlo cuando circule corriente."
 msgstr ""
-"Si inserim el circuit integrat de manera incorrecta (cap avall), correm el "
-"risc de fer -lo malbé quan circula el corrent."
+"Si inserim el circuit integrat de manera incorrecta (cap avall), correm "
+"el risc de fer -lo malbé quan circula el corrent."
 
-#: ../../source/electronic-pcb-luces-led.rst:222
+#: ../../source/electronic-pcb-luces-led.rst:232
 msgid "**4. Condensadores**:"
 msgstr "** 4. CONDENTS **:"
 
-#: ../../source/electronic-pcb-luces-led.rst:224
+#: ../../source/electronic-pcb-luces-led.rst:234
 msgid ""
-"Los condensadores electrolíticos tienen una banda blanca en uno de sus dos "
-"pines que indica el polo negativo del componente y que hay que montar en la "
-"zona también blanca de la serigrafía del circuito impreso."
+"Los condensadores electrolíticos tienen una banda blanca en uno de sus "
+"dos pines que indica el polo negativo del componente y que hay que montar"
+" en la zona también blanca de la serigrafía del circuito impreso."
 msgstr ""
-"Els condensadors electrolítics tenen una banda blanca en un dels seus dos "
-"pins que indica el pol negatiu del component i que també s’ha de muntar a la"
-" zona blanca de la impressió del circuit imprès."
+"Els condensadors electrolítics tenen una banda blanca en un dels seus dos"
+" pins que indica el pol negatiu del component i que també s’ha de muntar "
+"a la zona blanca de la impressió del circuit imprès."
 
-#: ../../source/electronic-pcb-luces-led.rst:228
+#: ../../source/electronic-pcb-luces-led.rst:238
 msgid ""
-"Es muy importante que los condensadores estén correctamente montados porque "
-"si reciben tensión en sentido inverso se estropearán y también generan gas "
-"en su interior que puede llegar a hacer que exploten."
+"Es muy importante que los condensadores estén correctamente montados "
+"porque si reciben tensión en sentido inverso se estropearán y también "
+"generan gas en su interior que puede llegar a hacer que exploten."
 msgstr ""
-"És molt important que els condensadors estiguin muntats correctament perquè "
-"si reben tensió al revés, s’esfondraran i també generaran gas dins que poden"
-" fer -los explotar."
+"És molt important que els condensadors estiguin muntats correctament "
+"perquè si reben tensió al revés, s’esfondraran i també generaran gas dins"
+" que poden fer -los explotar."
 
-#: ../../source/electronic-pcb-luces-led.rst:232
+#: ../../source/electronic-pcb-luces-led.rst:242
 msgid "**5. Diodos led**:"
 msgstr "** 5. Diodes LED **:"
 
-#: ../../source/electronic-pcb-luces-led.rst:234
-msgid ""
-"Los diodos solo conducen en un sentido y no funcionan en sentido contrario. "
-"En la serigrafía de la placa de circuito impreso la patilla negativa o "
-"cátodo de los led siempre está mirando hacia la izquierda. Se distingue "
-"porque el círculo tiene un chaflán y porque el pad de soldadura es cuadrado."
-msgstr ""
-"Els díodes només condueixen en un sentit i no funcionen en sentit contrari. "
-"A la pantalla d’impressió de la placa del circuit imprès, el negatiu o el "
-"càtode del LED sempre mira cap a l’esquerra. Es distingeix perquè el cercle "
-"té un chaflán i perquè el coixinet de soldadura és quadrat."
-
 #: ../../source/electronic-pcb-luces-led.rst:244
 msgid ""
-"A la hora de distinguir el cátodo en los diodos led, la manera más sencilla "
-"es mirar en su interior y buscar la zona metálica más grande, donde se apoya"
-" el led y que está conectada a la patilla negativa (cátodo)."
+"Los diodos solo conducen en un sentido y no funcionan en sentido "
+"contrario. En la serigrafía de la placa de circuito impreso la patilla "
+"negativa o cátodo de los led siempre está mirando hacia la izquierda. Se "
+"distingue porque el círculo tiene un chaflán y porque el pad de soldadura"
+" es cuadrado."
+msgstr ""
+"Els díodes només condueixen en un sentit i no funcionen en sentit "
+"contrari. A la pantalla d’impressió de la placa del circuit imprès, el "
+"negatiu o el càtode del LED sempre mira cap a l’esquerra. Es distingeix "
+"perquè el cercle té un chaflán i perquè el coixinet de soldadura és "
+"quadrat."
+
+#: ../../source/electronic-pcb-luces-led.rst:254
+msgid ""
+"A la hora de distinguir el cátodo en los diodos led, la manera más "
+"sencilla es mirar en su interior y buscar la zona metálica más grande, "
+"donde se apoya el led y que está conectada a la patilla negativa "
+"(cátodo)."
 msgstr ""
 "En distingir el càtode en díodes LED, la manera més fàcil és mirar cap a "
 "dins i buscar la zona metàl·lica més gran, on el LED es recolza i es "
 "connecta al passador negatiu (càtode)."
 
-#: ../../source/electronic-pcb-luces-led.rst:253
+#: ../../source/electronic-pcb-luces-led.rst:263
 msgid "**6. Cables de batería**:"
 msgstr "** 6. Cables de bateria **:"
 
-#: ../../source/electronic-pcb-luces-led.rst:255
+#: ../../source/electronic-pcb-luces-led.rst:265
 msgid ""
 "Es muy importante respetar el orden de los cables de la batería para no "
 "quemar el circuito."
 msgstr ""
-"És molt important respectar l’ordre dels cables de la bateria per no cremar "
-"el circuit."
+"És molt important respectar l’ordre dels cables de la bateria per no "
+"cremar el circuit."
 
-#: ../../source/electronic-pcb-luces-led.rst:258
+#: ../../source/electronic-pcb-luces-led.rst:268
 msgid ""
 "El cable **rojo es positivo** y va conectado en el agujero superior "
 "(indicado con un símbolo `+` en la serigrafía)."
@@ -488,82 +507,83 @@ msgstr ""
 "El cable vermell ** és positiu ** i està connectat al forat superior "
 "(indicat amb un símbol `+` a la serigrafia)."
 
-#: ../../source/electronic-pcb-luces-led.rst:261
+#: ../../source/electronic-pcb-luces-led.rst:271
 msgid ""
 "El cable **negro es negativo** y va conectado en el agujero inferior "
 "(indicado con un símbolo `-` en la serigrafía)."
 msgstr ""
-"El cable ** negre és negatiu ** i està connectat al forat inferior (indicat "
-"amb un símbol `-` a la serigrafia)."
+"El cable ** negre és negatiu ** i està connectat al forat inferior "
+"(indicat amb un símbol `-` a la serigrafia)."
 
-#: ../../source/electronic-pcb-luces-led.rst:266
+#: ../../source/electronic-pcb-luces-led.rst:276
 msgid "Soldadura"
 msgstr "Soldadura"
 
-#: ../../source/electronic-pcb-luces-led.rst:269
+#: ../../source/electronic-pcb-luces-led.rst:279
 msgid ""
-"La soldadura se realiza aportando material que está compuesto de estaño y "
-"**plomo**, por lo que es necesario seguir algunos procedimientos de "
+"La soldadura se realiza aportando material que está compuesto de estaño y"
+" **plomo**, por lo que es necesario seguir algunos procedimientos de "
 "seguridad."
 msgstr ""
-"La soldadura es fa proporcionant material compost per estany i ** plom **, "
-"per la qual cosa cal seguir alguns procediments de seguretat."
+"La soldadura es fa proporcionant material compost per estany i ** plom "
+"**, per la qual cosa cal seguir alguns procediments de seguretat."
 
-#: ../../source/electronic-pcb-luces-led.rst:273
+#: ../../source/electronic-pcb-luces-led.rst:283
 msgid ""
-"Es importante utilizar guantes o **lavarse las manos** correctamente después"
-" de manipular el hilo de estaño-plomo."
+"Es importante utilizar guantes o **lavarse las manos** correctamente "
+"después de manipular el hilo de estaño-plomo."
 msgstr ""
 "És important utilitzar guants o ** rentar-vos les mans ** correctament "
 "després de manejar el fil de llauna."
 
-#: ../../source/electronic-pcb-luces-led.rst:276
+#: ../../source/electronic-pcb-luces-led.rst:286
 msgid ""
 "Durante la soldadura se producen **gases tóxicos** provenientes del flux "
-"antioxidante. Estos gases no deben ser inhalados. Se debe soldar en un local"
-" bien ventilado con las ventanas abiertas."
+"antioxidante. Estos gases no deben ser inhalados. Se debe soldar en un "
+"local bien ventilado con las ventanas abiertas."
 msgstr ""
 "Durant la soldadura ** gasos tòxics ** es produeixen des del flux "
-"antioxidant. Aquests gasos no s’han d’inhalar. S'ha de soldar en un lloc ben"
-" ventilat amb finestres obertes."
+"antioxidant. Aquests gasos no s’han d’inhalar. S'ha de soldar en un lloc "
+"ben ventilat amb finestres obertes."
 
-#: ../../source/electronic-pcb-luces-led.rst:281
+#: ../../source/electronic-pcb-luces-led.rst:291
 msgid ""
-"La técnica de soldadura es relativamente sencilla, pero no viene mal tener "
-"antes de comenzar unos conceptos claros sobre cómo realizarla correctamente."
+"La técnica de soldadura es relativamente sencilla, pero no viene mal "
+"tener antes de comenzar unos conceptos claros sobre cómo realizarla "
+"correctamente."
 msgstr ""
-"La tècnica de soldadura és relativament senzilla, però no és dolent tenir "
-"conceptes clars sobre com fer -ho correctament."
+"La tècnica de soldadura és relativament senzilla, però no és dolent tenir"
+" conceptes clars sobre com fer -ho correctament."
 
-#: ../../source/electronic-pcb-luces-led.rst:284
+#: ../../source/electronic-pcb-luces-led.rst:294
 msgid ""
-"En el siguiente vídeo se puede ver la técnica correcta para la soldadura de "
-"los componentes."
+"En el siguiente vídeo se puede ver la técnica correcta para la soldadura "
+"de los componentes."
 msgstr ""
 "Al següent vídeo podeu veure la tècnica correcta per a la soldadura dels "
 "components."
 
-#: ../../source/electronic-pcb-luces-led.rst:287
+#: ../../source/electronic-pcb-luces-led.rst:297
 msgid ""
 "Vídeo: `solder Through-hole Components - Soldering Techniques #02. "
 "<https://www.youtube-nocookie.com/embed/vAx89WhpZ3k>`__"
 msgstr ""
-"VÍDEO: `Solder mitjançant components de forats - Tècniques de soldadura #02."
-" <https://www.youtube-nocokie.com/embed/vax89whpz3k>`__"
+"VÍDEO: `Solder mitjançant components de forats - Tècniques de soldadura "
+"#02. <https://www.youtube-nocokie.com/embed/vax89whpz3k>`__"
 
-#: ../../source/electronic-pcb-luces-led.rst:291
+#: ../../source/electronic-pcb-luces-led.rst:301
 msgid ""
-"En el siguiente vídeo podemos observar la gran diferencia que hay entre un "
-"estaño de soldadura de buena calidad y otro de baja calidad. El estaño de "
-"buena calidad es mucho más sencillo de trabajar y deja una soldadura "
+"En el siguiente vídeo podemos observar la gran diferencia que hay entre "
+"un estaño de soldadura de buena calidad y otro de baja calidad. El estaño"
+" de buena calidad es mucho más sencillo de trabajar y deja una soldadura "
 "brillante, menos oxidada y más robusta."
 msgstr ""
-"Al següent vídeo podem veure la gran diferència entre una bona qualitat i "
-"una estany de soldadura de baixa qualitat. La llauna de bona qualitat és "
-"molt més fàcil de treballar i deixar una soldadura brillant, menys oxidada i"
-" més robusta."
+"Al següent vídeo podem veure la gran diferència entre una bona qualitat i"
+" una estany de soldadura de baixa qualitat. La llauna de bona qualitat és"
+" molt més fàcil de treballar i deixar una soldadura brillant, menys "
+"oxidada i més robusta."
 
-#: ../../source/electronic-pcb-luces-led.rst:296
+#: ../../source/electronic-pcb-luces-led.rst:306
 msgid ""
 "Vídeo: `solder wire - Low vs High Quality. <https://www.youtube-"
 "nocookie.com/embed/5Ku7I3hA3AA>`__"
@@ -571,17 +591,17 @@ msgstr ""
 "Vídeo: `Wire Solder - baixa i alta qualitat. <https://www.youtube-"
 "nocokie.com/embed/5ku7i3ha3a> `` `"
 
-#: ../../source/electronic-pcb-luces-led.rst:300
+#: ../../source/electronic-pcb-luces-led.rst:310
 msgid ""
 "El siguiente vídeo nos muestra la utilidad del flux en soldadura. Al "
-"mantener caliente un punto de soldadura durante un tiempo excesivo, el flux "
-"se evapora y la soldadura se oxida y pierde brillo."
+"mantener caliente un punto de soldadura durante un tiempo excesivo, el "
+"flux se evapora y la soldadura se oxida y pierde brillo."
 msgstr ""
 "El vídeo següent ens mostra la utilitat del flux en la soldadura. Si es "
 "manté un punt de soldadura calenta durant un temps excessiu, el flux "
 "s’evapora i la soldadura s’oxida i perd la brillantor."
 
-#: ../../source/electronic-pcb-luces-led.rst:304
+#: ../../source/electronic-pcb-luces-led.rst:314
 msgid ""
 "Vídeo: `when to use Flux? <https://www.youtube-"
 "nocookie.com/embed/tfIwHuGzUEk>`__"
@@ -589,30 +609,31 @@ msgstr ""
 "Vídeo: `Quan utilitzar FLX? <https://www.youtube-"
 "nocokie.com/embed/tfiwhugzuek>`__"
 
-#: ../../source/electronic-pcb-luces-led.rst:309
+#: ../../source/electronic-pcb-luces-led.rst:319
 msgid "Reparar una soldadura"
 msgstr "Repareu una soldadura"
 
-#: ../../source/electronic-pcb-luces-led.rst:311
+#: ../../source/electronic-pcb-luces-led.rst:321
 msgid ""
 "En el caso de que soldemos de manera incorrecta un componente, podemos "
-"desoldarle para volver a soldarle en la posición correcta. Para desoldar hay"
-" muchas técnicas, una de las más sencillas es absorber el estaño de "
+"desoldarle para volver a soldarle en la posición correcta. Para desoldar "
+"hay muchas técnicas, una de las más sencillas es absorber el estaño de "
 "soldadura con una malla de hilos finos de cobre."
 msgstr ""
-"En cas que incorregim un component de manera incorrecta, podem desaprovar la"
-" soldadura en la posició adequada. Per decebre hi ha moltes tècniques, una "
-"de les més senzilles és absorbir la llauna de soldadura amb una malla de "
-"fils de coure fins."
+"En cas que incorregim un component de manera incorrecta, podem desaprovar"
+" la soldadura en la posició adequada. Per decebre hi ha moltes tècniques,"
+" una de les més senzilles és absorbir la llauna de soldadura amb una "
+"malla de fils de coure fins."
 
-#: ../../source/electronic-pcb-luces-led.rst:316
+#: ../../source/electronic-pcb-luces-led.rst:326
 msgid "En el siguiente vídeo se pueden observar algunas técnicas de desoldar."
 msgstr "Al següent vídeo podeu veure algunes tècniques de Desold."
 
-#: ../../source/electronic-pcb-luces-led.rst:318
+#: ../../source/electronic-pcb-luces-led.rst:328
 msgid ""
 "Vídeo: `desoldering | Soldering for Beginners. <https://www.youtube-"
 "nocookie.com/embed/bG7yW9FigJA>`__"
 msgstr ""
 "Vídeo: `Desoldering | Soldadura per a principiants. <https://www.youtube-"
 "nocokie.com/embed/bg7yw9figja>`__"
+

@@ -22,9 +22,10 @@ Una válvula 3/2 tiene 3 vías de aire y 2 posiciones:
 
    Válvula 3/2 normalmente cerrada, accionada.
 
-Las dos vías de debajo se suelen conectar a la presión en su izquierda
-y al escape a la derecha. La vía superior se utiliza para llevar aire
-a un cilindro de simple efecto o para retirar ese aire.
+Las dos vías de debajo se suelen conectar a la fuente de presión en su
+izquierda y al escape a la derecha.
+La vía superior se utiliza para llevar aire a un cilindro de simple
+efecto o para retirar ese aire durante el reposo.
 
 Esta válvula permite accionar el cilindro y llevarlo al reposo con un
 solo elemento de control, tal y como se puede comprobar en la siguiente
@@ -36,6 +37,15 @@ simulación:
    <iframe src="/neumatic/index.html?loadFile=single-32.txt"></iframe>
    </div>
 
+* Al **accionar la válvula 3/2**, el aire pasa directamente desde la
+  fuente de presión hacia el cilindro neumático, por lo que el vástago
+  sale completamente hacia afuera. Este comportamiento es el mismo que
+  tenía una válvula 2/2.
+
+* Al **llevar a reposo la válvula 3/2**, el aire introducido en el
+  cilindro tiene una vía de escape a través de la válvula, por lo que el 
+  cilindro retorna a su posición de reposo. Esto es equivalente a abrir
+  otra válvula 2/2 para permitir el escape de aire.
 
 Válvula normalmente abierta
 ---------------------------
@@ -106,15 +116,19 @@ Ejercicios
 
 #. ¿Qué es una válvula neumática 3/2 y de qué partes se compone?
 
+#. Explica con tus palabras cómo funciona una válvula 3/2 en cada una
+   de sus dos posiciones.
+
 #. Dibuja una válvula 3/2 normalmente abierta y una válvula 3/2
    normalmente cerrada, ambas en reposo.
 
-#. Dibuja en el simulador un cilindro de simple efecto accionado por
-   una válvula 3/2 manual con enclavamiento, normalmente abierta.
+#. Dibuja en el siguiente simulador un cilindro de simple efecto accionado
+   por una válvula 3/2 manual con enclavamiento, normalmente abierta.
    
-   Para dibujar la válvula normalmente abierta, dibuja una normalmente
-   cerrada (por defecto) y luego elige en el menú ``Editar... Voltear``
-   y pincha sobre la válvula para que cambie su función.
+   Para dibujar la válvula **normalmente abierta**, dibuja una válvula
+   normalmente cerrada (por defecto) y luego elige en el menú 
+   ``Editar... Voltear`` y al clicar sobre la válvula cambiará su
+   funcionamiento.
   
    .. raw:: html
 
@@ -122,3 +136,20 @@ Ejercicios
       <iframe src="/neumatic/index.html"></iframe>
       </div>
 
+#. Explica brevemente cada uno de los 4 accionamientos de una válvula
+   neumática que se han visto más arriba.
+
+#. Dibuja en el siguiente simulador un cilindro de simple efecto accionado
+   por una válvula 3/2 con accionamiento por rodillo.
+   
+   Coloca el rodillo al comienzo de la carrera del cilindro y simula el 
+   circuito para ver cómo se comporta.
+  
+   .. raw:: html
+
+      <div class="video-center">
+      <iframe src="/neumatic/index.html"></iframe>
+      </div>
+
+#. Explica con tus palabras el comportamiento del circuito anterior
+   y por qué funciona de esa manera.
