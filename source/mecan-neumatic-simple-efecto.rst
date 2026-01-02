@@ -24,17 +24,17 @@ A continuación se muestra el esquema en reposo del cilindro de simple
 efecto:
 
 .. image:: neumatic/_images/neumatic-32-simple-0.png
-   :alt: Pistón de simple efecto (dentro) comandado por válvula 3/2.
+   :alt: Cilindro de simple efecto (dentro) comandado por válvula 3/2.
    :width: 320px
    :align: center
 
 Cuando accionamos la válvula 3/2, el aire que proviene de la unidad de
 mantenimiento pasa hacia la vía superior de la válvula y entra en la parte
 posterior del cilindro. Como consecuencia, el cilindro se llena de aire
-y el pistón sale del cilindro empujando la carga que tenga delante:
+y el vástago sale del cilindro empujando la carga que tenga delante:
 
 .. image:: neumatic/_images/neumatic-32-simple-1.png
-   :alt: Pistón de simple efecto (fuera) comandado por válvula 3/2.
+   :alt: Cilindro de simple efecto (fuera) comandado por válvula 3/2.
    :width: 320px
    :align: center
 
@@ -43,7 +43,7 @@ del interior del cilindro vuelve hacia atrás y sale por la vía de escape
 de la válvula 3/2:
 
 .. image:: neumatic/_images/neumatic-32-simple-2.png
-   :alt: Pistón de simple efecto (entrando) comandado por válvula 3/2.
+   :alt: Cilindro de simple efecto (entrando) comandado por válvula 3/2.
    :width: 320px
    :align: center
 
@@ -63,11 +63,11 @@ flujo de aire para que el llenado se haga más lento, podremos ver cómo
 el cilindro necesita una presión mínima antes de empezar a moverse:
 
 .. figure:: neumatic/_images/neumatic-32-simple-3.png
-   :alt: Pistón de simple efecto arrastrando 20kg de carga, saliendo.
+   :alt: Cilindro de simple efecto arrastrando 20kg de carga, saliendo.
    :width: 245px
    :align: center
    
-   Pistón de simple efecto arrastrando 20kg de carga, saliendo.
+   Cilindro de simple efecto arrastrando 20kg de carga, saliendo.
 
 En el siguiente simulador puedes simular el funcionamiento del cilindro
 de simple efecto con carga:
@@ -115,8 +115,8 @@ Ejercicios
    en el cilindro con carga.
    
    Recuerda seleccionar en el menú ``Editar... Modificar.`` y clicar sobre
-   el pistón neumático y sobre la válvula de estranguladora de flujo para
-   cambiar sus valores.
+   el cilindro neumático y sobre la válvula de estranguladora de flujo para
+   cambiar sus valores por defecto.
    
    Recuerda seleccionar en el menú ``Editar... Voltear.`` para cambiar el
    sentido de la válvula antirretorno.
