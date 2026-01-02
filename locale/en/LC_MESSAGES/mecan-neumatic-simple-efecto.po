@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Picuino 2024Report-Msgid-Bugs-To:POT-Creation-Date:2024-04-11 16:26+0200PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en <LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding:8bitGenerated-By:Babel 2.9.0"
+"Project-Id-Version:Picuino 2024Report-Msgid-Bugs-To:POT-Creation-Date:2024-04-11 16:26+0200PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en <LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding:8bitGenerated-By:Babel 2.9.0Report-Msgid-Bugs-To:EMAIL@ADDRESSPOT-Creation-Date:2025-12-31 11:53+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-Translator:FULL NAME <EMAIL@ADDRESS>Language-Team:LANGUAGE <LL@li.org>MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding:8bitGenerated-By:Babel 2.9.0"
 "Report-Msgid-Bugs-To:EMAIL@ADDRESS"
-"POT-Creation-Date:2025-12-31 11:53+0100"
+"POT-Creation-Date:2026-01-02 11:28+0100"
 "PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
 "Last-Translator:FULL NAME <EMAIL@ADDRESS>"
 "Language-Team:LANGUAGE <LL@li.org>"
@@ -18,10 +18,10 @@ msgstr "Single acting cylinder"
 #: ../../source/mecan-neumatic-simple-efecto.rst:9
 msgid ""
 "Un cilindro de **simple efecto** es un cilindro cuyo vástago sale fuera "
-"debido al aire comprimido que se inyecta en la parte trasera."
+"debido al aire comprimido que se introduce en la parte trasera."
 msgstr ""
-"A **single acting** cylinder is a cylinder whose rod comes out due to the "
-"compressed air injected into the rear part."
+"A **single acting** cylinder is a cylinder whose rod comes out due to "
+"compressed air introduced at the rear."
 #: ../../source/mecan-neumatic-simple-efecto.rst:12
 msgid ""
 "El movimiento de entrada del vástago se realiza gracias a un muelle que "
@@ -38,7 +38,7 @@ msgstr ""
 "moving inwards."
 #: ../../source/mecan-neumatic-simple-efecto.rst:19
 msgid ""
-"Los cilindros de simple efecto se comandan mediante una **válvula 3/2** que "
+"Los cilindros de simple efecto se pilotan mediante una **válvula 3/2** que "
 "puede inyectar aire comprimido por una vía o dejar escapar el aire "
 "comprimido del cilindro por esa misma vía hacia la atmósfera."
 msgstr ""
@@ -70,38 +70,64 @@ msgstr ""
 "Finally, when the 3/2 valve is brought to rest, the compressed air inside "
 "the cylinder returns to the rear and exits through the exhaust port of the "
 "3/2 valve:"
-#: ../../source/mecan-neumatic-simple-efecto.rst:52
+#: ../../source/mecan-neumatic-simple-efecto.rst:50
+msgid ""
+"En el siguiente simulador, puedes probar a simular todos los movimientos del"
+" cilindro de simple efecto:"
+msgstr ""
+"In the following simulator, you can try to simulate all the movements of the"
+" single-acting cylinder:"
+#: ../../source/mecan-neumatic-simple-efecto.rst:60
+msgid "Cilindro con carga"
+msgstr "Cylinder with charge"
+#: ../../source/mecan-neumatic-simple-efecto.rst:61
+msgid ""
+"Si añadimos una carga para que el cilindro la arrastre y un regulador de "
+"flujo de aire para que el llenado se haga más lento, podremos ver cómo el "
+"cilindro necesita una presión mínima antes de empezar a moverse:"
+msgstr ""
+"If we add a load so that the cylinder drags it and an air flow regulator so "
+"that the filling slows down, we can see how the cylinder needs a minimum "
+"pressure before starting to move:"
+#: ../../source/mecan-neumatic-simple-efecto.rst:70
+msgid "Pistón de simple efecto arrastrando 20kg de carga, saliendo."
+msgstr "Single-acting piston dragging 20kg of load, exiting."
+#: ../../source/mecan-neumatic-simple-efecto.rst:72
+msgid ""
+"En el siguiente simulador puedes simular el funcionamiento del cilindro de "
+"simple efecto con carga:"
+msgstr ""
+"In the following simulator you can simulate the operation of the single-"
+"acting cylinder with load:"
+#: ../../source/mecan-neumatic-simple-efecto.rst:83
 msgid "Ejercicios"
 msgstr "Exercises"
-#: ../../source/mecan-neumatic-simple-efecto.rst:54
+#: ../../source/mecan-neumatic-simple-efecto.rst:85
 msgid ""
 "Explica las características principales de un cilindro de simple efecto."
 msgstr "Explain the main characteristics of a single-acting cylinder."
-#: ../../source/mecan-neumatic-simple-efecto.rst:57
+#: ../../source/mecan-neumatic-simple-efecto.rst:88
 msgid ""
 "Dibuja un esquema de un cilindro de simple efecto en reposo, comandado por "
 "una válvula 3/2."
 msgstr ""
 "Draw a diagram of a single-acting cylinder at rest, controlled by a 3/2 "
 "valve."
-#: ../../source/mecan-neumatic-simple-efecto.rst:60
+#: ../../source/mecan-neumatic-simple-efecto.rst:91
 msgid ""
 "Dibuja un esquema de un cilindro de simple efecto accionado, comandado por "
 "una válvula 3/2."
 msgstr ""
 "Draw a diagram of a powered single-acting cylinder, controlled by a 3/2 "
 "valve."
-#: ../../source/mecan-neumatic-simple-efecto.rst:63
+#: ../../source/mecan-neumatic-simple-efecto.rst:94
 msgid ""
 "Simula el funcionamiento de un cilindro de simple efecto comandado por una "
 "válvula 3/2."
 msgstr ""
 "Simulates the operation of a single-acting cylinder controlled by a 3/2 "
 "valve."
-#: ../../source/mecan-neumatic-simple-efecto.rst:66
-msgid "`Simulador de neumática. </neumatic/index.html>`__"
-msgstr "`Pneumatic simulator. </neumatic/index.html>`__"
-#: ../../source/mecan-neumatic-simple-efecto.rst:68
+#: ../../source/mecan-neumatic-simple-efecto.rst:104
 msgid ""
 "¿Qué ocurrirá si quitamos el escape de la válvula 3/2? Simula el "
 "funcionamiento. Explica cómo cambia el funcionamiento al retirar el escape y"
@@ -110,18 +136,36 @@ msgstr ""
 "What will happen if we remove the exhaust from the 3/2 valve? Simulates "
 "operation. Explain how the operation changes when removing the exhaust and "
 "explain why it behaves that way."
-#: ../../source/mecan-neumatic-simple-efecto.rst:76
+#: ../../source/mecan-neumatic-simple-efecto.rst:112
 msgid "Escape neumático."
 msgstr "Pneumatic exhaust."
-#: ../../source/mecan-neumatic-simple-efecto.rst:78
+#: ../../source/mecan-neumatic-simple-efecto.rst:114
 msgid ""
-"Utiliza dos válvulas 3/2 para hacer funcionar un cilindro de simple efecto "
-"en el `simulador. </neumatic/index.html>`__ Solo una de las válvulas tendrá "
-"escape."
+"Dibuja de nuevo en este simulador el mismo esquema que aparece arriba en el "
+"cilindro con carga."
 msgstr ""
-"It uses two 3/2 valves to operate a single acting cylinder in the `simulator."
-" </neumatic/index.html>`__ Only one of the valves will have exhaust."
+"Draw again in this simulator the same diagram that appears above on the "
+"loaded cylinder."
+#: ../../source/mecan-neumatic-simple-efecto.rst:117
+msgid ""
+"Recuerda seleccionar en el menú ``Editar... Modificar.`` y clicar sobre el "
+"pistón neumático y sobre la válvula de estranguladora de flujo para cambiar "
+"sus valores."
+msgstr ""
+"Remember to select ``Edit... Modify.`` from the menu and click on the "
+"pneumatic piston and the flow throttle valve to change their values."
+#: ../../source/mecan-neumatic-simple-efecto.rst:121
+msgid ""
+"Recuerda seleccionar en el menú ``Editar... Voltear.`` para cambiar el "
+"sentido de la válvula antirretorno."
+msgstr ""
+"Remember to select ``Edit... Flip.`` in the menu to change the direction of "
+"the non-return valve."
+#: ../../source/mecan-neumatic-simple-efecto.rst:130
+msgid ""
+"Cambia la carga del cilindro a 60kg. ¿Qué presión mínima necesita el "
+"cilindro para comenzar a salir?"
+msgstr ""
+"Change the cylinder load to 60kg. What minimum pressure does the cylinder "
+"need to start coming out?"
 
-#: ../../source/mecan-neumatic-simple-efecto.rst:82
-msgid "Explica el funcionamiento del circuito:"
-msgstr "Explain how the circuit works:"

@@ -28,6 +28,7 @@ Automatismos neumáticos con `simulador online
    mecan-neumatic-valvulas.rst
    mecan-neumatic-valvula-32.rst
    mecan-neumatic-simple-efecto.rst
+   mecan-neumatic-valvula-52.rst
    mecan-neumatic-doble-efecto.rst
    mecan-neumatic-valvula-or.rst
    mecan-neumatic-valvula-and.rst
