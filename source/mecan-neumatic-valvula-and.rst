@@ -4,9 +4,9 @@
 
 .. _mecan-neumatic-valvula-and:
 
-La válvula de simultaneidad o válvula and
+La válvula de simultaneidad o válvula AND
 =========================================
-La **válvula de simultaneidad** o **válvula and** permite el paso de aire
+La **válvula de simultaneidad** o **válvula AND** permite el paso de aire
 a presión cuando ambas vías de entrada, derecha e izquierda, reciben
 aire a presión.
 
@@ -17,15 +17,17 @@ pasar el aire a presión cuando le llega aire a presión por la vía izquierda
 El símbolo en reposo de la válvula de simultaneidad es el siguiente:
 
 .. figure:: neumatic/_images/neumatic-valvula-and-0.png
+   :width: 110px
    :align: center
    :alt: Valvula de simultaneidad.
 
-   Válvula de simultaneidad o válvula and.
+   Válvula de simultaneidad o válvula AND.
 
 Cuando se inyecta aire a presión por la vía derecha, la pieza central
 se moverá hacia la izquierda, impidiendo el paso de aire.
 
 .. figure:: neumatic/_images/neumatic-valvula-and-1.png
+   :width: 110px
    :align: center
    :alt: Valvula de simultaneidad con presión en la vía derecha.
 
@@ -35,6 +37,7 @@ Cuando se inyecta aire a presión por la vía izquierda, la pieza central
 se moverá hacia la derecha, impidiendo también el paso de aire.
 
 .. figure:: neumatic/_images/neumatic-valvula-and-2.png
+   :width: 110px
    :align: center
    :alt: Valvula de simultaneidad con presión en la vía izquierda.
 
@@ -45,6 +48,7 @@ la pieza central no puede cerrar las dos vías a la vez, por lo que
 permite el paso de aire a presión, que saldrá por la vía superior.
 
 .. figure:: neumatic/_images/neumatic-valvula-and-3.png
+   :width: 110px
    :align: center
    :alt: Válvula de simultaneidad con presión en las vías derecha e izquierda.
 
@@ -80,7 +84,7 @@ Cilindro de simple efecto y válvula de simultaneidad
 En este circuito un cilindro de simple efecto es accionado por dos
 válvulas 3/2 solo cuando ambas están accionadas.
 
-En la siguiente figura se puede ver el circuito en reposo.
+En la siguiente figura se puede ver el circuito en reposo:
 
 .. figure:: neumatic/_images/neumatic-32-and-1.png
    :align: center
@@ -95,7 +99,7 @@ vía superior.
 
 .. figure:: neumatic/_images/neumatic-32-and-2.png
    :align: center
-   :width: 485px
+   :width: 380px
    :alt: Cilindro de simple efecto con válvula de simultaneidad con
          presión a la izquierda.
 
@@ -109,12 +113,21 @@ El vástago del cilindro de simple efecto saldrá hacia fuera.
 
 .. figure:: neumatic/_images/neumatic-32-and-3.png
    :align: center
-   :width: 488px
+   :width: 380px
    :alt: Cilindro de simple efecto con válvula de simultaneidad con
          presión en ambas entradas.
 
    Cilindro de simple efecto con válvula de simultaneidad con presión
    en ambas entradas.
+
+Simula el funcionamiento de la válvula de simultaneidad en el siguiente
+circuito:
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="/neumatic/index.html?loadFile=single-32-and.txt"></iframe>
+   </div>
 
 
 Unión de válvulas
@@ -127,33 +140,32 @@ En el siguiente circuito podemos ver dos válvulas distintas
 que combinan el aire a presión de tres válvulas 3/2 hacia un cilindro
 de simple efecto.
 
-.. figure:: neumatic/_images/neumatic-valvula-and-or-1.png
+.. figure:: neumatic/_images/neumatic-32-and-or.png
    :align: center
-   :width: 618px
+   :width: 540px
    :alt: Válvulas de simultaneidad y selectora en cascada.
 
    Válvulas de simultaneidad y selectora en cascada.
 
 En el circuito anterior el vástago del cilindro saldrá hacia fuera
-cuando se presione la válvula de la derecha y, a la vez, una de las dos
-válvulas de la izquierda.
+cuando se presione la válvula de la izquierda 1.1 y, a la vez,
+una de las dos válvulas de la derecha (la válvula 1.2 ó la 1.3).
 
 ----
 
 En el siguiente circuito podemos ver otra combinación distinta de válvulas
 de simultaneidad y selectora hacia un cilindro de simple efecto.
 
-.. figure:: neumatic/_images/neumatic-valvula-and-or-2.png
+.. figure:: neumatic/_images/neumatic-32-or-and.png
    :align: center
-   :width: 616px
+   :width: 540px
    :alt: Válvulas de simultaneidad y selectora en cascada II.
 
    Válvulas de simultaneidad y selectora en cascada II.
 
 En el circuito anterior el vástago del cilindro saldrá hacia fuera siempre
-que accionemos la válvula derecha o bien cuando accionemos ambas válvulas
-de la izquierda.
-
+que accionemos la válvula izquierda 1.1 o bien cuando accionemos ambas
+válvulas de la derecha (la válvula 1.2 y la 1.3).
 
 
 Ejercicios
@@ -174,7 +186,11 @@ Ejercicios
    vástago que debe salir al accionar a la vez las
    **dos válvulas 3/2** de maniobra.
 
-   `Simulador de neumática. </neumatic/index.html>`__
+   .. raw:: html
+
+      <div class="video-center">
+      <iframe src="/neumatic/index.html"></iframe>
+      </div>
 
 #. Dibuja el circuito anterior en papel y explica su funcionamiento.
 
@@ -188,7 +204,11 @@ Ejercicios
    de las dos válvulas de la izquierda y a la vez se accione la válvula
    de la derecha.
 
-   `Simulador de neumática. </neumatic/index.html>`__
+   .. raw:: html
+
+      <div class="video-center">
+      <iframe src="/neumatic/index.html"></iframe>
+      </div>
 
 #. Dibuja el circuito anterior en papel y explica su funcionamiento.
 

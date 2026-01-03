@@ -49,6 +49,16 @@ pilotando dos cilindros de simple efecto:
   Mientras tanto, al cilindro 2.0 le llega toda la presión, por lo que el
   vástago sale completamente hacia fuera.
 
+Una **válvula 5/2**, por lo tanto, sirve para pilotar dos salidas
+contrarias. Una de las salidas siempre tendrá presión mientras que la
+contraria siempre tendrá conexión a escape y estará sin presión.
+
+Si intentáramos hacer la misma función con **dos válvulas 3/2**, podríamos
+tener estados en las que las dos válvulas se encuentren haciendo la misma
+función (las dos dando presión o las dos conectadas a escape), mientras
+que la válvula 5/2 asegura que una de las vías superiores siempre estará
+haciendo la función contraria a la otra vía.
+
 Ejercicios
 ----------
 
@@ -73,3 +83,6 @@ Ejercicios
       <div class="video-center">
       <iframe src="/neumatic/index.html"></iframe>
       </div>
+
+#. ¿Qué parecido y qué diferencia hay entre una válvula 5/2 y dos
+   válvulas 3/2?

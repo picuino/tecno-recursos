@@ -1,124 +1,132 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Picuino 2026Report-Msgid-Bugs-To:POT-Creation-"
-"Date:2026-01-02 16:13+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
-"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
-"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
-".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
-":8bitGenerated-By:Babel 2.9.0\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-01-02 16:28+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Project-Id-Version:Picuino 2026Report-Msgid-Bugs-To:POT-Creation-Date:2026-01-02 16:13+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en <LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding:8bitGenerated-By:Babel 2.9.0"
+"Report-Msgid-Bugs-To:EMAIL@ADDRESS"
+"POT-Creation-Date:2026-01-03 12:14+0100"
+"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
+"Language-Team:LANGUAGE <LL@li.org>"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=utf-8"
+"Content-Transfer-Encoding:8bit"
+"Generated-By:Babel 2.9.0"
 
 #: ../../source/mecan-neumatic-valvula-52.rst:8
 msgid "Válvula 5/2"
 msgstr "5/2 valve"
-
 #: ../../source/mecan-neumatic-valvula-52.rst:9
 msgid "Una válvula 5/2 tiene 5 vías de aire y 2 posiciones:"
 msgstr "A 5/2 valve has 5 air paths and 2 positions:"
-
 #: ../../source/mecan-neumatic-valvula-52.rst:16
 msgid "Válvula 5/2 en reposo."
 msgstr "5/2 valve at rest."
-
 #: ../../source/mecan-neumatic-valvula-52.rst:23
 msgid "Válvula 5/2 accionada."
 msgstr "5/2 valve activated."
-
 #: ../../source/mecan-neumatic-valvula-52.rst:25
 msgid ""
-"Las tres vías de la parte inferior se conectan a la fuente de presión "
-"(vía de en medio) y a los escapes a la izquierda y a la derecha. Las dos "
-"vías superiores se utilizan para llevar aire a dos lugares distintos o "
-"para retirar ese aire durante el reposo. Esta válvula está pensada para "
-"pilotar cilindros de dos vías que veremos más adelante."
+"Las tres vías de la parte inferior se conectan a la fuente de presión (vía "
+"de en medio) y a los escapes a la izquierda y a la derecha. Las dos vías "
+"superiores se utilizan para llevar aire a dos lugares distintos o para "
+"retirar ese aire durante el reposo. Esta válvula está pensada para pilotar "
+"cilindros de dos vías que veremos más adelante."
 msgstr ""
-"The three ports at the bottom connect to the pressure source (middle "
-"port) and the exhausts on the left and right. The two upper passages are "
-"used to bring air to two different places or to remove that air during "
-"rest. This valve is designed to control two-way cylinders that we will "
-"see later."
-
+"The three ports at the bottom connect to the pressure source (middle port) "
+"and the exhausts on the left and right. The two upper passages are used to "
+"bring air to two different places or to remove that air during rest. This "
+"valve is designed to control two-way cylinders that we will see later."
 #: ../../source/mecan-neumatic-valvula-52.rst:31
 msgid ""
-"En la siguiente simulación podemos ver cómo funciona esta válvula "
-"pilotando dos cilindros de simple efecto:"
+"En la siguiente simulación podemos ver cómo funciona esta válvula pilotando "
+"dos cilindros de simple efecto:"
 msgstr ""
-"In the following simulation we can see how this valve works by "
-"controlling two single-acting cylinders:"
-
+"In the following simulation we can see how this valve works by controlling "
+"two single-acting cylinders:"
 #: ../../source/mecan-neumatic-valvula-52.rst:40
 msgid ""
-"Al **accionar la válvula 5/2**, el aire pasa directamente desde la fuente"
-" de presión hacia el cilindro neumático 1.0, por lo que el vástago sale "
-"completamente hacia afuera. Mientras tanto, el cilindro 2.0 se conecta "
-"con el escape, permitiendo que este vuelva a su posición de reposo."
+"Al **accionar la válvula 5/2**, el aire pasa directamente desde la fuente de"
+" presión hacia el cilindro neumático 1.0, por lo que el vástago sale "
+"completamente hacia afuera. Mientras tanto, el cilindro 2.0 se conecta con "
+"el escape, permitiendo que este vuelva a su posición de reposo."
 msgstr ""
-"When **actuating the 5/2 valve**, the air passes directly from the "
-"pressure source to the pneumatic cylinder 1.0, so the rod comes "
-"completely out. Meanwhile, cylinder 2.0 connects with the exhaust, "
-"allowing it to return to its rest position."
-
+"When **actuating the 5/2 valve**, the air passes directly from the pressure "
+"source to the pneumatic cylinder 1.0, so the rod comes completely out. "
+"Meanwhile, the 2.0 cylinder connects with the exhaust, allowing it to return"
+" to its rest position."
 #: ../../source/mecan-neumatic-valvula-52.rst:46
 msgid ""
 "Al **llevar a reposo la válvula 5/2**, el aire antes introducido en el "
-"cilindro 1.0 tiene una vía de escape a través de la válvula, por lo que "
-"este cilindro retorna a su posición de reposo. Mientras tanto, al "
-"cilindro 2.0 le llega toda la presión, por lo que el vástago sale "
-"completamente hacia fuera."
+"cilindro 1.0 tiene una vía de escape a través de la válvula, por lo que este"
+" cilindro retorna a su posición de reposo. Mientras tanto, al cilindro 2.0 "
+"le llega toda la presión, por lo que el vástago sale completamente hacia "
+"fuera."
 msgstr ""
 "By **bringing valve 5/2 to rest**, the air previously introduced into "
-"cylinder 1.0 has an escape route through the valve, so this cylinder "
-"returns to its rest position. Meanwhile, all the pressure reaches the 2.0"
-" cylinder, so the rod comes completely out."
-
-#: ../../source/mecan-neumatic-valvula-52.rst:53
+"cylinder 1.0 has an escape route through the valve, so this cylinder returns"
+" to its rest position. Meanwhile, all the pressure reaches the 2.0 cylinder,"
+" so the stem comes completely out."
+#: ../../source/mecan-neumatic-valvula-52.rst:52
+msgid ""
+"Una **válvula 5/2**, por lo tanto, sirve para pilotar dos salidas "
+"contrarias. Una de las salidas siempre tendrá presión mientras que la "
+"contraria siempre tendrá conexión a escape y estará sin presión."
+msgstr ""
+"A **5/2** valve, therefore, serves to control two opposite outlets. One of "
+"the outlets will always have pressure while the opposite will always have an"
+" exhaust connection and will be without pressure."
+#: ../../source/mecan-neumatic-valvula-52.rst:56
+msgid ""
+"Si intentáramos hacer la misma función con **dos válvulas 3/2**, podríamos "
+"tener estados en las que las dos válvulas se encuentren haciendo la misma "
+"función (las dos dando presión o las dos conectadas a escape), mientras que "
+"la válvula 5/2 asegura que una de las vías superiores siempre estará "
+"haciendo la función contraria a la otra vía."
+msgstr ""
+"If we tried to do the same function with **two 3/2 valves**, we could have "
+"states in which the two valves are doing the same function (both giving "
+"pressure or both connected to exhaust), while the 5/2 valve ensures that one"
+" of the upper channels will always be doing the opposite function to the "
+"other channel."
+#: ../../source/mecan-neumatic-valvula-52.rst:63
 msgid "Ejercicios"
 msgstr "Exercises"
-
-#: ../../source/mecan-neumatic-valvula-52.rst:55
+#: ../../source/mecan-neumatic-valvula-52.rst:65
 msgid "¿Qué es una válvula neumática 5/2 y de qué partes se compone?"
 msgstr "What is a 5/2 pneumatic valve and what parts does it consist of?"
-
-#: ../../source/mecan-neumatic-valvula-52.rst:57
+#: ../../source/mecan-neumatic-valvula-52.rst:67
 msgid ""
-"Explica con tus palabras cómo funciona una válvula 5/2 en cada una de sus"
-" dos posiciones."
-msgstr "Explain in your words how a 5/2 valve works in each of its two positions."
-
-#: ../../source/mecan-neumatic-valvula-52.rst:60
-msgid ""
-"Dibuja una válvula 5/2 de accionamiento manual en reposo. Dibuja también "
-"una válvula 5/2 de accionamiento manual accionada."
+"Explica con tus palabras cómo funciona una válvula 5/2 en cada una de sus "
+"dos posiciones."
 msgstr ""
-"Draw a 5/2 manually operated valve at rest. Draw also a 5/2 manually operated "
-"valve in actuated."
-
-#: ../../source/mecan-neumatic-valvula-52.rst:63
+"Explain in your words how a 5/2 valve works in each of its two positions."
+#: ../../source/mecan-neumatic-valvula-52.rst:70
+msgid ""
+"Dibuja una válvula 5/2 de accionamiento manual en reposo. Dibuja también una"
+" válvula 5/2 de accionamiento manual accionada."
+msgstr ""
+"Draw a 5/2 manually operated valve at rest. Also draw an actuated 5/2 manual"
+" override valve."
+#: ../../source/mecan-neumatic-valvula-52.rst:73
 msgid "En ambos casos dibuja las entradas de presión y los escapes."
-msgstr "In both cases, draw the pressure inlet and the exhaust of each one."
-
-#: ../../source/mecan-neumatic-valvula-52.rst:65
+msgstr "In both cases, draw the pressure inlets and exhausts."
+#: ../../source/mecan-neumatic-valvula-52.rst:75
 msgid ""
-"Dibuja en el siguiente simulador dos cilindros de simple efecto "
-"accionados por una válvula 5/2 manual con enclavamiento."
+"Dibuja en el siguiente simulador dos cilindros de simple efecto accionados "
+"por una válvula 5/2 manual con enclavamiento."
 msgstr ""
-"Draw in the following simulator two single-acting cylinders operated by a"
-" 5/2 manual valve with interlock."
-
-#: ../../source/mecan-neumatic-valvula-52.rst:68
+"Draw in the following simulator two single-acting cylinders operated by a "
+"5/2 manual valve with interlock."
+#: ../../source/mecan-neumatic-valvula-52.rst:78
 msgid ""
 "Comprueba que su funcionamiento es el mismo que el circuito simulado al "
 "comienzo de este tema."
 msgstr ""
 "Check that its operation is the same as the simulated circuit at the "
 "beginning of this topic."
-
+#: ../../source/mecan-neumatic-valvula-52.rst:87
+msgid ""
+"¿Qué parecido y qué diferencia hay entre una válvula 5/2 y dos válvulas 3/2?"
+msgstr ""
+"How similar and what difference is there between a 5/2 valve and two 3/2 "
+"valves?"
