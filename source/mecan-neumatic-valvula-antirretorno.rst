@@ -16,12 +16,12 @@ y cortan el paso del aire a presión hacia abajo:
 
 .. figure:: neumatic/_images/neumatic-simbolo-valvula-antirretorno-3.png
    :align: center
-   :width: 270px
+   :width: 162px
    :alt: Símbolos de la válvula antirretorno cerrada y abierta.
 
    Símbolos de la válvula antirretorno cerrada y abierta.
 
-La construcción interna de estas válvulas puede hacerse con una esfera y
+La construcción interna de estas válvulas se hace con una esfera y
 un cono como el de un embudo en el que encaja la esfera.
 
 Cuando el aire a presión llega desde arriba, la esfera se enclava en
@@ -69,7 +69,7 @@ presión.
 
 .. figure:: neumatic/_images/neumatic-simbolo-valvula-estranguladora-2.png
    :align: center
-   :width: 174px
+   :width: 120px
    :alt: Símbolo de una válvula estranguladora o reguladora de caudal.
 
    Símbolo de una válvula estranguladora o reguladora de caudal.
@@ -99,7 +99,7 @@ estrangular el paso del aire a presión en el sentido contrario.
 
 .. figure:: neumatic/_images/neumatic-simbolo-valvula-estranguladora-unidireccional-2.png
    :align: center
-   :width: 174px
+   :width: 120px
    :alt: Símbolo de una válvula estranguladora unidireccional.
 
    Símbolo de una válvula estranguladora unidireccional.
@@ -123,37 +123,44 @@ golpear a ningún pasajero.
 Para conseguir el efecto de movimiento lento del pistón se pueden seguir
 dos esquemas distintos:
 
-1. **Estrangular la entrada de aire al pistón y dejar el escape libre.**
-
+Estrangular la entrada de aire al pistón y dejar el escape libre.
    Este esquema da problemas porque el aire va entrando poco a poco en el
    pistón y va generando presión hasta que el pistón se mueve a
-   trompicones.
+   saltos debido a que no hay aire en la cámara contraria.
    El movimiento no es fluido y el pistón tiene poca fuerza en su
-   movimiento.
+   desplazamiento.
 
-2. **Estrangular la salida de aire al escape y dejar entrar aire a presión
-   al pistón sin estrangular.**
+   .. figure:: neumatic/_images/neumatic-52-flow-0.png
+      :align: center
+      :width: 330px
+      :alt: Pistón de doble efecto con válvulas estranguladoras a la
+            entrada de aire.
 
+      Pistón de doble efecto con válvulas estranguladoras a la entrada
+      de aire.
+
+Estrangular la salida de aire al escape y dejar entrar aire a presión al pistón sin estrangular.
    Este es el esquema que se utiliza en la práctica porque consigue que
    el movimiento del pistón se realice con suavidad, sin dar trompicones
    y con toda la fuerza del cilindro.
 
-.. figure:: neumatic/_images/neumatic-52-lenta-0.png
-   :align: center
-   :width: 295px
-   :alt: Pistón de doble efecto con válvulas estranguladoras al escape.
+   .. figure:: neumatic/_images/neumatic-52-flow-1.png
+      :align: center
+      :width: 330px
+      :alt: Pistón de doble efecto con válvulas estranguladoras al escape.
 
-   Pistón de doble efecto con válvulas estranguladoras al escape.
+      Pistón de doble efecto con válvulas estranguladoras al escape.
+
 
 Funcionamiento de la velocidad regulada
 ---------------------------------------
 En un primer momento el cilindro se encuentra en reposo con el vástago
-dentro. La cámara de aire derecha está llena de aire a presión haciendo
-fuerza para que el vástago permanezca dentro del cilindro.
+dentro. La cámara de aire derecha está llena de aire a presión (6 bar)
+haciendo fuerza para que el vástago permanezca dentro del cilindro:
 
-.. figure:: neumatic/_images/neumatic-52-lenta-0.png
+.. figure:: neumatic/_images/neumatic-52-flow-2.png
    :align: center
-   :width: 295px
+   :width: 330px
    :alt: Pistón de doble efecto con vástago dentro.
 
    Pistón de doble efecto con vástago dentro.
@@ -164,17 +171,21 @@ está estrangulada, por lo que entra con toda la velocidad posible.
 
 En la cámara derecha del cilindro sigue habiendo aire a presión, que
 sale hacia el escape a través del estrangulador, por lo que esta cámara
-se vaciará lentamente.
+se vaciará lentamente:
 
-.. figure:: neumatic/_images/neumatic-52-lenta-1.png
+.. figure:: neumatic/_images/neumatic-52-flow-3.png
    :align: center
-   :width: 313px
+   :width: 330px
    :alt: Pistón de doble efecto con vástago saliendo de forma regulada.
 
    Pistón de doble efecto con vástago saliendo de forma regulada.
 
 Este vaciado lento de la cámara derecha es lo que produce un movimiento
 lento del vástago hacia la derecha.
+
+Ten en cuenta que la presión de la cámara derecha sube por encima de los
+6 bar del compresor porque su superficie es menor que por el lado
+izquierdo.
 
 Al haber presión en ambas cámaras de aire, el pistón se encuentra sin
 libertad para moverse fuera de la posición que le corresponde.
@@ -184,12 +195,36 @@ que sigue desplazándose lentamente hacia fuera sin alterar su recorrido.
 Por último la cámara derecha se vaciará del todo de aire y el vástago
 saldrá en todo su recorrido.
 
-.. figure:: neumatic/_images/neumatic-52-lenta-2.png
+.. figure:: neumatic/_images/neumatic-52-flow-4.png
    :align: center
-   :width: 384px
+   :width: 330px
    :alt: Pistón de doble efecto con vástago fuera del cilindro.
 
    Pistón de doble efecto con vástago fuera del cilindro.
+
+En el movimiento contrario, es necesario que la presión de la cámara
+izquierda baje por debajo de los 6 bar, para que la parte derecha del
+cilindro tenga fuerza suficiente para moverla. Recordemos que la cámara
+derecha tiene menos fuerza que la izquierda.
+
+.. figure:: neumatic/_images/neumatic-52-flow-5.png
+   :align: center
+   :width: 330px
+   :alt: Pistón de doble efecto con vástago entrando en el cilindro.
+
+   Pistón de doble efecto con vástago entrando en el cilindro.
+
+
+Simula en el siguiente simulador los movimientos lentos del cilindro
+de doble efecto con salida de aire restringida por válvula reguladora.
+Recuerda pulsar la tecla 's' para hacer que la simulación avance paso a
+paso:
+
+.. raw:: html
+
+   <div class="video-center">
+   <iframe src="/neumatic/index.html?loadFile=double-52-manual-flow.txt"></iframe>
+   </div>
 
 
 Ejercicios
@@ -210,16 +245,27 @@ Ejercicios
 
 #. Describe el funcionamiento de una válvula estranguladora unidireccional.
 
-#. Dibuja el esquema de un cilindro de doble efecto con la velocidad
-   de salida y de entrada del vástago reguladas.
+#. Dibuja el esquema de un cilindro de doble efecto con las velocidades
+   de salida del aire reguladas.
 
-#. Simula el funcionamiento del circuito anterior.
+#. Dibuja y simula el funcionamiento del circuito anterior en el simulador:
 
-   `Simulador de neumática. </neumatic/index.html>`__
+   .. raw:: html
+
+      <div class="video-center">
+      <iframe src="/neumatic/index.html"></iframe>
+      </div>
 
 #. Explica el funcionamiento del circuito anterior.
    ¿Por qué se mueve el vástago lentamente?
 
-#. Dibuja un esquema neumático de un cilindro de doble efecto que
-   tenga regulada la velocidad de salida del vástago,
-   pero que deje entrar al vástago a máxima velocidad.
+#. Dibuja y simula un esquema neumático de un cilindro de doble efecto
+   que tenga regulada la velocidad de salida del vástago, pero que deje
+   entrar el vástago a máxima velocidad.
+
+   .. raw:: html
+
+      <div class="video-center">
+      <iframe src="/neumatic/index.html"></iframe>
+      </div>
+

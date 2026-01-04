@@ -12,7 +12,8 @@ a la fuerza del aire a presión.
 A continuación puede verse el símbolo de una válvula con pilotaje
 neumático:
 
-.. figure:: neumatic/_images/neumatic-valvula-pilotaje-neumatico-0.png
+.. figure:: neumatic/_images/neumatic-pilotaje-neumatico-0.png
+   :width: 250px
    :align: center
    :alt: Símbolo de la válvula 5/2 con doble pilotaje neumático.
 
@@ -29,7 +30,7 @@ El pilotaje neumático tiene dos grandes ventajas:
 
    .. figure:: neumatic/_images/neumatic-52-pilotado-0.png
       :align: center
-      :width: 415px
+      :width: 345px
       :alt: Válvula 5/2 con doble pilotaje neumático.
 
       Válvula 5/2 grande y pesada con doble pilotaje neumático
@@ -40,13 +41,13 @@ El pilotaje neumático tiene dos grandes ventajas:
 
    Gracias al pilotaje neumático la propia instalación neumática puede
    accionar la válvula del cilindro para producir movimientos automáticos.
-   Por ejemplo, una válvula de final de carrera neumática puede hacer que
-   el vástago de un cilindro vuelva a entrar una vez que ha detectado que
-   ha salido del todo.
+   Por ejemplo, una válvula de final de carrera con rodillo neumática 
+   puede hacer que el vástago de un cilindro vuelva a entrar una vez 
+   que ha detectado que ha salido del todo.
 
-   .. figure:: neumatic/_images/neumatic-52-pilotado-automatic-0.png
+   .. figure:: neumatic/_images/neumatic-52-pilotado-1.png
       :align: center
-      :width: 530px
+      :width: 380px
       :alt: Válvula 5/2 con pilotaje neumático automático.
 
       Válvula 5/2 con pilotaje neumático automático.
@@ -65,7 +66,11 @@ Ejercicios
 
 #. Simula el funcionamiento del circuito anterior.
 
-   `Simulador de neumática. </neumatic/index.html>`__
+   .. raw:: html
+
+      <div class="video-center">
+      <iframe src="/neumatic/index.html"></iframe>
+      </div>
 
 #. Explica el funcionamiento del circuito anterior y sus ventajas.
 
@@ -76,11 +81,10 @@ Ejercicios
 
 #. Simula el funcionamiento del circuito anterior.
 
-   `Simulador de neumática. </neumatic/index.html>`__
+   .. raw:: html
 
-   .. note::
-      Recuerda utilizar las teclas de flecha derecha y flecha izquierda
-      del teclado para girar los símbolos de las válvulas y de los
-      escapes en el simulador.
+      <div class="video-center">
+      <iframe src="/neumatic/index.html"></iframe>
+      </div>
 
 #. Explica el funcionamiento del circuito anterior y sus ventajas.
