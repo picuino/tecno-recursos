@@ -15,7 +15,7 @@ Automatismos neumáticos con `simulador online
    :alt: Automatismo neumático
    :align: center
    :width: 415px
-   :target: /neumatic/index.html
+   :target: /neumatic/index.html?loadFile=double-52-piloted.txt
 
 
 .. toctree::

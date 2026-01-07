@@ -1,8 +1,10 @@
-﻿
+# MAKE ANEXOS A LA DOCUMENTACIÓN
+
 SOURCE_PATH := ../../source
 
 FILTER_OUT = $(foreach v,$(2),$(if $(findstring $(1),$(v)),,$(v)))
 PDF_FILES := $(shell find $(SOURCE_PATH) -name '*.pdf')
+
 PDF_FILES := $(call FILTER_OUT,BD135,$(PDF_FILES))
 PDF_FILES := $(call FILTER_OUT,DHT11,$(PDF_FILES))
 PDF_FILES := $(call FILTER_OUT,ntc-vishay,$(PDF_FILES))
@@ -82,9 +84,18 @@ PDF_FILES := $(call FILTER_OUT,electronic-digital-images,$(PDF_FILES))
 PDF_FILES := $(call FILTER_OUT,computadoras-que-aprenden,$(PDF_FILES))
 PDF_FILES := $(call FILTER_OUT,guia-navegacion-segura,$(PDF_FILES))
 
+PDF_FILES := $(call FILTER_OUT,thinkpython2-spanish.pdf,$(PDF_FILES))
+PDF_FILES := $(call FILTER_OUT,thinkpython2-english.pdf,$(PDF_FILES))
 
 
+FIXED_FILES := $(addprefix fixed/,$(notdir $(PDF_FILES)))
 
-all:
-	gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=picuino-anexos.pdf -dBATCH $(PDF_FILES)
-	gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=picuino-book.pdf -dBATCH ./picuino-web.pdf ./picuino-anexos.pdf
+fix_files:
+	@$(foreach x, $(PDF_FILES), echo "Reparando: $(x)"; gs -o fixed/$(notdir $(x)) -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/prepress -dDetectDuplicateImages=true -dCompressFonts=true $(x);)
+
+anexos:
+	@$(foreach x, $(FIXED_FILES), echo $(x);)
+	@gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=picuino-anexos.pdf -dBATCH $(FIXED_FILES)
+
+book:
+	@gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=picuino-book.pdf -dBATCH ./picuino-web.pdf ./anexos.pdf ./picuino-anexos.pdf

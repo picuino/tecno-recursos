@@ -1,1 +1,1 @@
-@../../../../_gnu-bash.bat
+@/Picuino/tecno-recursos/_gnu-bash.bat

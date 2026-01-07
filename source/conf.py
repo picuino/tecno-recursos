@@ -275,12 +275,12 @@ latex_elements = {
 'pointsize': '11pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': ''
+#'preamble': r'',
 
 # Latex figure (float) alignment
 'figure_align': 'htbp',
-
 }
+
 
 if pdf_color == False:
    latex_elements['preample'] = r'''
@@ -308,9 +308,9 @@ bookmarksnumbered=true
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
 
-  ('content',              # start docname (root document)
+  ('content-latex',    # start docname (root document)
    'picuino.tex',          # target name
-   u'Picuino',             # title
+   u'Picuino: recursos para Tecnología en Secundaria.', # title
    u'Carlos Félix Pardo Martín', # Author
    'manual',               # Document Class (normally manual or howto
    True)                   # Toctree only (not include root document)

@@ -39,11 +39,13 @@ def generate_thumbs(figures):
         if ext == '.gif':
             image = image + '[0]'
             thumb = 'legal/external-images/' + base + '.jpg'
+        elif ext == '.svg':
+            thumb = 'legal/external-images/' + base + '.png'
         else:
             thumb = 'legal/external-images/' + base + '-tb' + ext            
         figure[1] = f'.. figure:: {thumb}'        
         if not os.path.exists('../' + thumb):
-            argument = f'../{image} -resize 240x240^ ../{thumb}'
+            argument = f'../{image} -resize 240x240^ -units PixelsPerInch -density 96 ../{thumb}'
             os.system('/Bin/ImageMagick/convert.exe ' + argument)
             print(thumb)
 

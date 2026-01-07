@@ -11,7 +11,7 @@ Derechos de autor y propiedad intelectual
 Contenidos
 ----------
 
-Copyright © 2013-2026 por Carlos Félix Pardo Martín.
+Copyright © 2013-2025 por Carlos Félix Pardo Martín.
 
 Los contenidos publicados, tales como **textos, imágenes,
 planos, gráficos, fotografías, etc.** se distribuyen bajo una
@@ -166,6 +166,7 @@ bajo `licencia Creative Commons Attribution-Share Alike 4.0 International <https
 
 `Imagen banner graphic 1 <http://bridgedesigner.org/>`__
 de Stephen J. Ressler con todos los derechos reservados.
+Usada con autorización del autor original.
 
 ----
 
@@ -1851,7 +1852,7 @@ Otras imágenes
 ..
    source: informatica-software-imagenes.rst
 
-.. figure:: legal/external-images/informatica-bitmap-svg-tb.svg
+.. figure:: legal/external-images/informatica-bitmap-svg.png
 
    Diferencia entre una imagen de mapa de bits (Raster) y una imagen
    vectorial (SVG).
@@ -1876,7 +1877,7 @@ Otras imágenes
 ..
    source: informatica-software-imagenes.rst
 
-.. figure:: legal/external-images/informatica-tomate-tb.svg
+.. figure:: legal/external-images/informatica-tomate.png
 
    `Stephen Winsor <https://commons.wikimedia.org/wiki/File:Tomate.svg>`__,
    `GNU General Public License v3 <https://www.gnu.org/licenses/gpl-3.0.html>`__,

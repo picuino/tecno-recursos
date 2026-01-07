@@ -16,7 +16,7 @@ Contacto, aviso legal, cookies, derechos de autor y créditos.
    :maxdepth: 1
 
    contacto.rst
+   manifiesto.rst
    legal-aviso.rst
    legal-cookies.rst
-   legal-autor.rst
    legal-attribution.rst

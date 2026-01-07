@@ -40,4 +40,3 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    recursos-index.rst
 
    ley-index.rst
-

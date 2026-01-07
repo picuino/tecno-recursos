@@ -2,7 +2,6 @@
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
-:orphan:
 
 
 .. _manifiesto:
