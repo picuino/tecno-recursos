@@ -40,7 +40,7 @@ def generate_thumbs(figures):
             image = image + '[0]'
             thumb = 'legal/external-images/' + base + '.jpg'
         elif ext == '.svg':
-            thumb = 'legal/external-images/' + base + '.png'
+            thumb = 'legal/external-images/' + base + '.jpg'
         else:
             thumb = 'legal/external-images/' + base + '-tb' + ext            
         figure[1] = f'.. figure:: {thumb}'        

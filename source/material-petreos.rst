@@ -336,6 +336,15 @@ mayor resistencia mecánica.
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
    vía Wikimedia Commons.
 
+Preguntas de la unidad
+----------------------
+Unidad en formato imprimible, con preguntas.
+
+| :download:`Materiales pétreos. Formato PDF.
+  <material/materiales-petreos.pdf>`
+| :download:`Materiales pétreos. Formato DOC.
+  <material/materiales-petreos.doc>`
+  
 
 Cuestionarios
 -------------
