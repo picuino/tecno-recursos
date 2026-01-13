@@ -1,4 +1,5 @@
 ﻿:Date: 10/12/2018
+:Modified: 12/01/2026
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
@@ -18,10 +19,10 @@ Introducción a las Estructuras
    Es un conjunto de elementos destinados a soportar esfuerzos
    sin romperse ni deformarse.
 
-En la **naturaleza** existen multitud de estructuras
+En la **naturaleza** existen multitud de estructuras,
 desde el tronco que sostiene un árbol hasta nuestro esqueleto.
 Todas ellas soportan esfuerzos para superar la gravedad
-y en el caso de los esqueletos también permiten el movimiento.
+y, en el caso de los esqueletos, también permiten el movimiento.
 
 En el **ámbito técnico** la construcción de estructuras para fabricar
 viviendas, barcos o vasijas es tan antigua como la propia
@@ -166,7 +167,7 @@ Laminares
 Movimiento en las estructuras
 -----------------------------
 La mayoría de las estructuras se construyen para que no puedan moverse.
-Sin embargo algunas estructuras deben permitir el movimiento para
+Sin embargo, algunas estructuras deben permitir el movimiento para
 poder funcionar correctamente. Estas estructuras seguirán resistiendo los
 esfuerzos y su propio peso sin romperse, pero permitirán el movimiento
 de alguna de sus partes.
@@ -185,50 +186,43 @@ Estructuras fijas
 
 ---------------
 
-Test de la unidad
------------------
-
-`Test online de introducción a las estructuras.
-<../test/es-mecan-structures.html>`__
-
-
 Ejercicios
 ----------
-1. Enumera cuatro estructuras naturales y cinco artificiales.
-2. Enumera cuatro estructuras masivas.
-3. Enumera cuatro estructuras abovedadas.
-4. Enumera cuatro estructuras trianguladas
-5. Enumera cuatro estructuras entramadas
-6. Enumera cuatro estructuras colgantes
-7. Enumera cuatro estructuras laminadas
+1. Escribe cuatro estructuras naturales y cinco artificiales.
+2. Escribe cuatro estructuras masivas.
+3. Escribe cuatro estructuras abovedadas.
+4. Escribe cuatro estructuras trianguladas
+5. Escribe cuatro estructuras entramadas
+6. Escribe cuatro estructuras colgantes
+7. Escribe cuatro estructuras laminadas
 8. Indica las diferencias entre las estructuras trianguladas y
    entramadas
 9. Clasifica las siguientes estructuras:
 
    .. hlist::
 
-      * Acueducto
-      * Caparazón de tortuga
-      * Carcasa de ordenador
-      * Casco
-      * Conchas de moluscos
-      * Cuenco
-      * Esqueleto humano
-      * Estructura de edificio
-      * Grúa de obra
-      * Iglesia
-      * Mesa
+      * Acueducto.
+      * Caparazón de tortuga.
+      * Carcasa de ordenador.
+      * Casco.
+      * Conchas de moluscos.
+      * Cuenco.
+      * Esqueleto humano.
+      * Estructura de edificio.
+      * Grúa de obra.
+      * Iglesia.
+      * Mesa.
       * Muralla china.
       * Pirámide.
       * Presa de agua.
       * Puente atirantado.
       * Puente colgante.
-      * Puente romano
-      * Silla
-      * Teleférico
-      * Torre de alta tensión
-      * Torre Eiffel
-      * Tronco de un árbol
+      * Puente romano.
+      * Silla.
+      * Teleférico.
+      * Torre de alta tensión.
+      * Torre Eiffel.
+      * Tronco de un árbol.
 
 10. Indica a qué tipo de estructura se refiere cada una de
     las siguientes frases:
@@ -239,3 +233,19 @@ Ejercicios
     * Formada por una gran masa de material sin apenas huecos.
     * Formada por una lámina o pared delgada.
     * Formada por barras unidas entre sí en triángulos.
+
+Test de la unidad
+-----------------
+
+`Test online de introducción a las estructuras.
+<../test/es-mecan-structures.html>`__
+
+
+Preguntas de la unidad
+----------------------
+Unidad en formato imprimible, con preguntas.
+
+| :download:`Las estructuras. Formato PDF.
+  <mecan/mecan-estructuras.pdf>`
+| :download:`Las estructuras. Formato DOC.
+  <mecan/mecan-estructuras.doc>`

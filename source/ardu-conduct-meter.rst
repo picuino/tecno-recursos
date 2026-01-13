@@ -27,6 +27,38 @@ Biología y Geología para realizar experimentos.
    :depth: 2
 
 
+Puntos a destacar
+-----------------
+Ventajas:
+   * La medición de conductividad se realiza con un divisor resistivo,
+     lo que permite tener un gran margen de medida, desde pocos ohmios
+     hasta decenas de megaohmios.
+   * El divisor resistivo está conectado a tensión mediante salidas
+     digitales del Arduino, lo que permite mantener la tensión solo un
+     pequeño tiempo durante la medición. La mayor parte del tiempo el
+     sensor no tiene tensión y esto reduce mucho la degradación por la 
+     electrólisis que provoca la tensión de medida.
+     Además, la medida se realiza con tensiones alternas, más adecuado
+     para un conductímetro que las tensiones continuas.
+   * Utiliza el nuevo modelo de Arduino UNO Revisión 4, que tiene un 
+     conversor analógico-digital de mayor resolución, 14 bits (16384
+     puntos) frente al conversor tradicional del Arduino UNO Revisión 3
+     que solo tenía 10 bits de resolución (1024 puntos).
+
+Inconvenientes:
+   * La medida de resistencia (o conductividad), al realizarse con un
+     divisor resistivo, tiene poca resolución y maneja un error, en
+     ocasiones, mayor del 1%.
+   * Al conectar el sensor a tensión mediante salidas digitales, se añade
+     una pequeña resistencia extra de unos 40 Ohmios correspondiente a las
+     salidas digitales.
+   * El nuevo modelo de Arduino UNO Revisión 4 utilizado no está tan
+     disponible en tiendas ni es tan económico como la revisión anterior.
+   * Al utilizar un divisor resistivo propio, es necesario montarlo en una
+     placa de prototipos para soldadura, en vez de poder utilizar un sensor
+     estándar de conductividad.
+
+
 Materiales y herramientas
 -------------------------
 Listado de materiales y herramientas necesarios para construir el proyecto.

@@ -8,6 +8,8 @@
 Los materiales pétreos
 ======================
 Son los materiales que provienen de las piedras o arenas de la naturaleza.
+Se han utilizado desde la prehistoria en la fabricación de utensilios,
+adornos y construcciones.
 
 .. contents:: Índice de contenidos:
    :local:

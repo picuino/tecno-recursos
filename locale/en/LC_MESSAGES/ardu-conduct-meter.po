@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Picuino 2025\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-31 11:53+0100\n"
+"POT-Creation-Date: 2026-01-13 16:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -42,167 +42,231 @@ msgid "Índice de contenidos:"
 msgstr ""
 
 #: ../../source/ardu-conduct-meter.rst:31
+msgid "Puntos a destacar"
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:46
+msgid "Ventajas:"
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:33
+msgid ""
+"La medición de conductividad se realiza con un divisor resistivo, lo que "
+"permite tener un gran margen de medida, desde pocos ohmios hasta decenas "
+"de megaohmios."
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:36
+msgid ""
+"El divisor resistivo está conectado a tensión mediante salidas digitales "
+"del Arduino, lo que permite mantener la tensión solo un pequeño tiempo "
+"durante la medición. La mayor parte del tiempo el sensor no tiene tensión"
+" y esto reduce mucho la degradación por la electrólisis que provoca la "
+"tensión de medida. Además, la medida se realiza con tensiones alternas, "
+"más adecuado para un conductímetro que las tensiones continuas."
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:43
+msgid ""
+"Utiliza el nuevo modelo de Arduino UNO Revisión 4, que tiene un conversor"
+" analógico-digital de mayor resolución, 14 bits (16384 puntos) frente al "
+"conversor tradicional del Arduino UNO Revisión 3 que solo tenía 10 bits "
+"de resolución (1024 puntos)."
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:60
+msgid "Inconvenientes:"
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:49
+msgid ""
+"La medida de resistencia (o conductividad), al realizarse con un divisor "
+"resistivo, tiene poca resolución y maneja un error, en ocasiones, mayor "
+"del 1%."
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:52
+msgid ""
+"Al conectar el sensor a tensión mediante salidas digitales, se añade una "
+"pequeña resistencia extra de unos 40 Ohmios correspondiente a las salidas"
+" digitales."
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:55
+msgid ""
+"El nuevo modelo de Arduino UNO Revisión 4 utilizado no está tan "
+"disponible en tiendas ni es tan económico como la revisión anterior."
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:57
+msgid ""
+"Al utilizar un divisor resistivo propio, es necesario montarlo en una "
+"placa de prototipos para soldadura, en vez de poder utilizar un sensor "
+"estándar de conductividad."
+msgstr ""
+
+#: ../../source/ardu-conduct-meter.rst:63
 msgid "Materiales y herramientas"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:32
+#: ../../source/ardu-conduct-meter.rst:64
 msgid ""
 "Listado de materiales y herramientas necesarios para construir el "
 "proyecto."
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:48
+#: ../../source/ardu-conduct-meter.rst:80
 msgid "Materiales:"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:35
+#: ../../source/ardu-conduct-meter.rst:67
 msgid "Placa de control: Arduino Uno R4"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:36
+#: ../../source/ardu-conduct-meter.rst:68
 msgid "Cable de conexión USB C - USB A"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:37
+#: ../../source/ardu-conduct-meter.rst:69
 msgid "Cargador para móvil de 5V (Opcional)"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:38
+#: ../../source/ardu-conduct-meter.rst:70
 msgid "Display LCD de 16x2 caracteres, con conexión serie I2C"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:39
+#: ../../source/ardu-conduct-meter.rst:71
 msgid "Sensor de humedad para líquidos, con dos electrodos"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:40
+#: ../../source/ardu-conduct-meter.rst:72
 msgid "Resistencia de 10kOhm (preferiblemente del 1%)"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:41
+#: ../../source/ardu-conduct-meter.rst:73
 msgid ""
 "Condensador 100nF 50V (preferiblemente de película de "
 "poliéster/polietileno)"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:42
+#: ../../source/ardu-conduct-meter.rst:74
 msgid "Cables de conexión unifilares"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:43
+#: ../../source/ardu-conduct-meter.rst:75
 msgid "Cables Dupont hembra-hembra"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:44
+#: ../../source/ardu-conduct-meter.rst:76
 msgid "Placa de prototipos (para realizar las pruebas)"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:45
+#: ../../source/ardu-conduct-meter.rst:77
 msgid "Placa para soldar prototipos (para el montaje final)"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:46
+#: ../../source/ardu-conduct-meter.rst:78
 msgid "Tira de pines macho 1x40 paso 2.54mm"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:47
+#: ../../source/ardu-conduct-meter.rst:79
 msgid "Caja de plástico"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:48
+#: ../../source/ardu-conduct-meter.rst:80
 msgid "Tornillos y separadores de paso de 3mm"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:58
+#: ../../source/ardu-conduct-meter.rst:90
 msgid "Herramientas:"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:51
+#: ../../source/ardu-conduct-meter.rst:83
 msgid "Soldador y soporte de soldador"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:52
+#: ../../source/ardu-conduct-meter.rst:84
 msgid "Cable de estaño-plomo para soldar"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:53
+#: ../../source/ardu-conduct-meter.rst:85
 msgid "Alicates de punta fina"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:54
+#: ../../source/ardu-conduct-meter.rst:86
 msgid "Alicates de corte"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:55
+#: ../../source/ardu-conduct-meter.rst:87
 msgid "Segueta con hilo (para cortar la caja de plástico)"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:56
+#: ../../source/ardu-conduct-meter.rst:88
 msgid "Barrena o broca para iniciar los agujeros de la segueta"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:57
+#: ../../source/ardu-conduct-meter.rst:89
 msgid "Pequeña lima plana para madera"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:61
+#: ../../source/ardu-conduct-meter.rst:93
 msgid "Esquema eléctrico"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:67
+#: ../../source/ardu-conduct-meter.rst:99
 msgid "Esquema eléctrico del conductímetro."
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:72
+#: ../../source/ardu-conduct-meter.rst:104
 msgid "Cableado eléctrico"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:78
+#: ../../source/ardu-conduct-meter.rst:110
 msgid "Montaje y cableado del conductímetro."
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:82
+#: ../../source/ardu-conduct-meter.rst:114
 msgid "Programa de Arduino"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:83
+#: ../../source/ardu-conduct-meter.rst:115
 msgid ""
 "A continuación se muestra el código del programa con el que hay que "
 "programar la placa de control Arduino UNO R4."
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:86
+#: ../../source/ardu-conduct-meter.rst:118
 msgid ""
 "Este programa hace funcionar la placa como conductímetro midiendo la "
 "conductividad y calculando y mostrando los valores en el display LDC y "
 "por el puerto serie."
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:270
+#: ../../source/ardu-conduct-meter.rst:302
 msgid "Fotografías del proyecto"
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:271
+#: ../../source/ardu-conduct-meter.rst:303
 msgid ""
 "Algunas fotografías del proyecto final, montado dentro de una caja y con "
 "los componentes soldados en una PCB de prototipos para soldar."
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:278
+#: ../../source/ardu-conduct-meter.rst:310
 msgid ""
 "Conductímetro basado en Arduino sin resistencia en el sensor. La medición"
 " muestra una resistencia mayor de 180 megaohmios."
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:285
+#: ../../source/ardu-conduct-meter.rst:317
 msgid "Conductímetro con una resistencia de 47000 ohmios en el sensor."
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:291
+#: ../../source/ardu-conduct-meter.rst:323
 msgid "Interior de la caja del conductímetro I."
 msgstr ""
 
-#: ../../source/ardu-conduct-meter.rst:297
+#: ../../source/ardu-conduct-meter.rst:329
 msgid "Interior de la caja del conductímetro II."
 msgstr ""
 

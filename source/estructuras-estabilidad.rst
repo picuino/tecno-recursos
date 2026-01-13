@@ -1,4 +1,5 @@
 ﻿:Date: 10/12/2018
+:Modified: 12/01/2026
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
@@ -13,22 +14,21 @@ para soportar cargas sin romperse ni deformarse,
 deben ser estables para no volcar, doblarse u oscilar ante
 las fuerzas externas.
 
-Existen varios problemas que pueden presentar las estructuras
-debido a su falta de estabilidad.
-A continuación se detallan las más comunes.
+Existen varios problemas que pueden aparecer en una estructura
+cuando no es suficientemente estable.
+A continuación se explican los más comunes.
 
 :index:`Vuelco`
 ---------------
-El vuelco de una estructura se produce cuando el centro de
-gravedad no se encuentra sobre la base de apoyo de la estructura.
+El vuelco de una estructura se produce cuando su centro de
+gravedad no se encuentra dentro de la base de apoyo.
 
 :index:`Centro de gravedad`:
-   Es el punto medio de toda la masa de la estructura.
-   Es el punto donde intuitivamente tenemos que apoyar la estructura
-   para que esta no vuelque a un lado o a otro.
+   Es el punto donde se concentra toda la masa de la estructura.
+   Es el lugar donde, si la apoyamos, no caerá hacia ningún lado.
 
-   En el caso de un martillo, su centro de gravedad se encuentra en
-   el mango, muy cerca de la cabeza, que es la parte que más pesa.
+   En el caso de un martillo, por ejemplo, el centro de gravedad está
+   en el mango, muy cerca de la cabeza, que es la parte más pesada.
 
    .. image:: mecan/_images/centro-gravedad-02.png
       :width: 240px
@@ -42,36 +42,31 @@ gravedad no se encuentra sobre la base de apoyo de la estructura.
       :width: 240px
       :alt: Camión inestable.
 
-   En el caso del camión de la figura, el centro de gravedad está
-   en el punto rojo, relativamente alto.
+   En el camión de la figura, el centro de gravedad está marcado
+   con un punto rojo y se encuentra bastante alto.
 
-   En la primera imagen el centro de gravedad cae dentro de la
-   zona de apoyo por lo que el camión es estable y no vuelca.
+   En la primera imagen, el centro de gravedad cae dentro de la
+   base de apoyo, por lo que el camión es estable.
 
-   En la segunda imagen el camión está inclinado y el centro
-   de gravedad está a punto de salir de la zona de apoyo.
-   El camión está a punto de volcar.
+   En la segunda imagen, el camión está inclinado y el centro de
+   gravedad está a punto de salir de la base. Está cerca de volcar.
 
-   En la tercera imagen el camión se ha inclinado más y el centro
-   de gravedad no está sobre la zona de apoyo. En este caso el
-   camión no es estable y volcará.
+   En la tercera imagen, el centro de gravedad ya no está sobre la
+   base de apoyo. En este caso el camión es inestable y volcará.
 
-Para que se produzca el **vuelco** de una estructura, el
-centro de gravedad debe caer fuera de la zona de apoyo de
-la estructura con el suelo.
+Para que se produzca el **vuelco**, el centro de gravedad debe caer
+fuera de la zona de apoyo de la estructura sobre el suelo.
 
 
 Soluciones al vuelco
 --------------------
-Existen varias soluciones para evitar que una estructura
-vuelque.
+Existen varias formas de evitar que una estructura vuelque.
 
 Añadir un contrapeso
-   Cuando una estructura está demasiado escorada hacia un lado
-   o un peso lateral puede hacerla volcar, un contrapeso en el
-   lado contrario puede solucionar el problema.
+   Cuando una estructura se inclina demasiado hacia un lado,
+   un contrapeso colocado en el lado contrario puede equilibrarla.
 
-   Ejemplo: Contrapeso en las grúas de obra o en los camiones-grúa.
+   Ejemplo: Contrapesos en las grúas de obra o en los camiones-grúa.
 
    .. figure:: mecan/_images/mecan-grua-obra.jpg
       :width: 640px
@@ -83,15 +78,14 @@ Añadir un contrapeso
       en `Pixabay <https://pixabay.com/es/photos/edificio-grua-sitio-de-construcci%c3%b3n-1804030/>`__.
 
 
-
 Ampliar la base de apoyo
-   Cuanto mayor sea la base de apoyo, más difícil es que el centro
-   de gravedad caiga fuera de la base.
+   Cuanto mayor sea la base de apoyo, más difícil será que el centro
+   de gravedad salga de ella.
 
-   Ejemplos: Camión grúa con apoyos extensibles.
-   Coche deportivo muy ancho.
-   Las personas separan instintivamente los pies entre sí
-   para tener mayor base de apoyo cuando el suelo se mueve.
+   Ejemplos: Camiones grúa con apoyos extensibles.
+   Coches deportivos muy anchos.
+   Las personas separan los pies para aumentar su estabilidad
+   cuando el suelo se mueve.
 
    .. figure:: mecan/_images/mecan-camion-grua-bomberos.jpg
       :width: 420px
@@ -104,14 +98,13 @@ Ampliar la base de apoyo
 
 
 Bajar el centro de gravedad
-   Si el centro de gravedad está más bajo, es más difícil que caiga
-   fuera de la base de apoyo.
+   Cuanto más bajo esté el centro de gravedad, más difícil será que
+   salga de la base de apoyo.
 
-   Ejemplos: Para conseguir bajar el centro de gravedad de un
-   camión, hay que colocar los bultos más pesados en la parte baja
-   y los ligeros en la parte alta.
-   Los automóviles deportivos suelen ser bajos para tener el centro
-   de gravedad bajo y conseguir así mayor estabilidad.
+   Ejemplos: En un camión, colocar los objetos pesados abajo y los
+   ligeros arriba.
+   Los coches deportivos son bajos para tener un centro de gravedad
+   bajo y ser más estables.
 
    .. figure:: mecan/_images/mecan-coche-carreras.jpg
       :width: 480px
@@ -124,10 +117,12 @@ Bajar el centro de gravedad
 
 
 Anclar la estructura al suelo
-   Con esta solución se refuerza la estructura ampliándola al suelo.
+   Esta solución consiste en unir la estructura al suelo para
+   aumentar su estabilidad.
 
-   Ejemplos: Vientos de una tienda de campaña. Cables de anclaje de
-   una antena. Farola o mástil de bandera anclados al suelo.
+   Ejemplos: Vientos de una tienda de campaña.
+   Cables de anclaje de una antena.
+   Farolas o mástiles fijados al suelo.
 
    .. figure:: mecan/_images/mecan-antenas-radio.jpg
       :width: 480px
@@ -150,40 +145,31 @@ Anclar la estructura al suelo
 El `pandeo <https://es.wikipedia.org/wiki/Pandeo>`__ es una inestabilidad
 que se produce en barras y columnas **esbeltas** sometidas a compresión.
 
-Cuando la forma de la barra o columna es muy estrecha y muy larga
-(esbelta), corre el riesgo de doblarse y perder así su resistencia.
-El resultado final es que la estructura se flexiona hasta partirse
-y fallar.
+Cuando una barra es muy larga y estrecha (esbelta), corre el riesgo de
+doblarse y perder resistencia. Si el pandeo continúa, la barra puede
+llegar a partirse y fallar.
 
 
 Soluciones al pandeo
 --------------------
 
 Hacer el perfil más grueso
-   Si aumentamos el perfil de la barra o de la columna haciendo que
-   sean más gruesos, dejarán de ser esbeltos y el pandeo no se
-   producirá.
+   Si aumentamos el grosor del perfil de la barra o columna,
+   dejará de ser esbelta y no pandeará.
 
-   Por ejemplo, se puede utilizar un tubo grueso con paredes finas
-   en vez de una barra maciza.
-   Los dos tienen el mismo peso y la misma cantidad de material,
-   pero el tubo hueco no pandea mientras que la barra maciza,
-   que es más esbelta, si pandea.
-
-   Esto se utiliza, por ejemplo, en las estructuras de las bicicletas
-   que están formadas por **barras tubulares** o en las estructuras de
-   las torres eléctricas formadas por **barras en forma de L** en vez
-   de barras macizas.
+   Por ejemplo, un tubo grueso con paredes finas puede ser más
+   resistente al pandeo que una barra maciza del mismo peso.
+   Por eso las bicicletas usan **barras tubulares** y las torres
+   eléctricas emplean **barras en forma de L**.
 
 
 Sujetar el centro de la barra
-   Si sujetamos el centro de la barra para evitar que se mueva,
+   Si se sujeta la barra por el centro para impedir que se mueva,
    el pandeo no llegará a producirse.
 
-   Por ejemplo, una torre de alta tensión está construida con cuatro
-   barras verticales esbeltas que soportan la mayor parte del peso
-   y barras horizontales y oblicuas entre ellas que evitan que las
-   barras verticales puedan pandear.
+   Por ejemplo, una torre de alta tensión tiene cuatro barras
+   verticales esbeltas y otras barras horizontales y oblicuas
+   que las unen y evitan que puedan pandear.
 
 
 Oscilaciones
@@ -191,59 +177,46 @@ Oscilaciones
 Las oscilaciones o vibraciones de una estructura pueden ser
 beneficiosas o perjudiciales.
 
-En ciertos casos conviene que la estructura no sea completamente
-rígida. Si la estructura puede flexionarse y oscilar ante una carga
-externa, esto permite que no llegue a fallar.
-Ejemplos de este comportamiento lo tenemos en los rascacielos que
-oscilan en su azotea en caso de terremoto o en caso de soportar
-vientos fuertes.
-Los mástiles de barco o las alas de un avión también son capaces de
-oscilar para adaptarse a los esfuerzos que soportan.
-Si estas estructuras fuesen completamente rígidas podrían destruirse
-con los grandes esfuerzos que soportan.
+En algunos casos conviene que la estructura no sea completamente
+rígida. Si puede flexionarse y oscilar ante una carga externa,
+evita romperse. Esto ocurre en los rascacielos durante un terremoto
+o con vientos fuertes.
+Los mástiles de los barcos y las alas de los aviones también
+oscilan para adaptarse a los esfuerzos.
 
-En otros casos las oscilaciones pueden llegar a sumarse poco a poco
-igual que ocurre en un columpio, haciendo que la estructura oscile
-cada vez con mayor amplitud hasta llegar a desmoronarse.
-Esto es lo que le pasó al famoso puente de
+En otros casos, las oscilaciones pueden aumentar poco a poco,
+como en un columpio, hasta que la estructura se desmorona.
+Esto ocurrió en el famoso puente de
 `Tacoma Narrows
-<https://es.wikipedia.org/wiki/Puente_de_Tacoma_Narrows>`__
-apodado Gallopin Gertie por las grandes oscilaciones que sufría
-cuando soplaba la brisa del verano en que se inauguró.
-Al llegar el otoño, un viento de apenas 64 kilómetros por hora
-derrumbó el puente, afortunadamente sin producir muertes.
-Puedes ver una grabación del suceso en
-YouTube:
+<https://es.wikipedia.org/wiki/Puente_de_Tacoma_Narrows>`__,
+apodado *Gallopin' Gertie* por sus grandes oscilaciones.
+Un viento de solo 64 km/h lo derribó pocos meses después de su
+inauguración, sin causar víctimas.
+
+Puedes ver una grabación del suceso en YouTube:
 
 * Vídeo: `Tacoma Narrows Bridge Collapse "Gallopin' Gertie".
   <https://www.youtube-nocookie.com/embed/j-zczJXSxnw>`__
 
 
-Sin llegar a ser tan dramáticas, las oscilaciones pueden producir en
-otros casos ruidos y vibraciones muy molestas.
-Esto se produce especialmente en las frecuencias de resonancia
-que son las frecuencias en las que vibra una estructura
-de forma natural.
-Sumando poco a poco los efectos de una pequeña vibración a la misma
-frecuencia de resonancia, la oscilación, igual que en un columpio,
-puede llegar a hacerse muy grande y molesta.
+Las oscilaciones también pueden producir ruidos y vibraciones
+molestas, especialmente cuando coinciden con la **frecuencia de
+resonancia** de la estructura. Si una vibración se repite a esa
+frecuencia, la oscilación puede aumentar mucho.
 
 
 Soluciones a las oscilaciones
 -----------------------------
 
 Evitar las cargas oscilantes
-   Esta es la solución que toman los soldados que caminan en formación
-   por encima de un puente que no es muy rígido. En este caso los
-   soldados dejan de caminar a la vez y comienzan a caminar de manera
-   desorganizada para que el puente no resuene al mismo ritmo de los
-   pasos [#f1]_ .
+   Esta solución la aplican los soldados al cruzar un puente poco
+   rígido: dejan de caminar al mismo ritmo para evitar que el puente
+   entre en resonancia [#f1]_ .
 
 Amortiguar la estructura
-   Esta es la solución que se toma en las ruedas de los vehículos o
-   en algunos edificios resistentes a terremotos. Un **amortiguador** es
-   un elemento que absorbe la energía de las oscilaciones y reduce 
-   la resonancia de la estructura.
+   En vehículos y en edificios resistentes a terremotos se utilizan
+   **amortiguadores**, que absorben la energía de las oscilaciones y
+   reducen la resonancia.
 
 * Vídeo: `amortiguador de masa sintonizada
   <https://www.youtube-nocookie.com/embed/7SCUGTA8xEI>`__
@@ -252,7 +225,28 @@ Amortiguar la estructura
   <https://www.youtube-nocookie.com/embed/QUI7acilEJo>`__
 
 
--------------
+Ejercicios
+----------
+#. Explica con tus palabras qué diferencia hay entre **estabilidad** y 
+   **rigidez** en una estructura.
+#. ¿Qué problemas de estabilidad pueden tener las estructuras?
+#. ¿Cuándo vuelca una estructura?
+   ¿Qué es el centro de gravedad de una estructura?
+#. Dibuja una estructura poco estable al vuelco y otra que sea muy estable
+   al vuelco.
+#. ¿Qué soluciones hay para evitar que una estructura vuelque?
+   Escribe un ejemplo de cada una.
+#. Piensa en una estantería alta y estrecha. Enumera todos los problemas
+   de estabilidad que puede tener y cómo los puedes solucionar.
+#. ¿Qué es el pandeo?
+#. ¿Qué soluciones hay para evitar el pandeo?
+   Escribe un ejemplo de cada una.
+#. En una torre de alta tensión, identifica qué elementos evitan el pandeo  
+   y cuáles evitan el vuelco.
+#. ¿Cómo se pueden evitar las oscilaciones perjudiciales en una
+   estructura?
+#. ¿Qué es un amortiguador y para qué sirve?
+
 
 Test de la unidad
 -----------------
@@ -261,20 +255,14 @@ Test de la unidad
 <../test/es-mecan-estabilidad.html>`__
 
 
-Ejercicios
-----------
-#. ¿Qué problemas de estabilidad pueden tener las estructuras?
-#. ¿Cuándo vuelca una estructura?
-#. Dibuja una estructura poco estable al vuelco y otra que sea muy estable
-   al vuelco.
-#. ¿Qué soluciones hay para evitar que una estructura vuelque?
-   Escribe un ejemplo de cada una.
-#. ¿Qué es el pandeo?
-#. ¿Qué soluciones hay para evitar el pandeo?
-   Escribe un ejemplo de cada una.
-#. ¿Cómo se pueden evitar las oscilaciones perjudiciales en una
-   estructura?
-#. ¿Qué es un amortiguador y para qué sirve?
+Preguntas de la unidad
+----------------------
+Unidad en formato imprimible, con preguntas.
+
+| :download:`Las estructuras. Formato PDF.
+  <mecan/mecan-estructuras.pdf>`
+| :download:`Las estructuras. Formato DOC.
+  <mecan/mecan-estructuras.doc>`
 
 
 -------------
