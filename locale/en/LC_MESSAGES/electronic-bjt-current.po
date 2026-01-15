@@ -1,59 +1,59 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-Date:2024-01-17 15:45+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en <LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding:8bitGenerated-By:Babel 2.9.0"
-"Report-Msgid-Bugs-To:EMAIL@ADDRESS"
-"POT-Creation-Date:2024-11-07 12:56+0100"
-"PO-Revision-Date:YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator:FULL NAME <EMAIL@ADDRESS>"
-"Language-Team:LANGUAGE <LL@li.org>"
-"MIME-Version:1.0"
-"Content-Type:text/plain; charset=utf-8"
-"Content-Transfer-Encoding:8bit"
-"Generated-By:Babel 2.9.0"
-
-
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2024-01-17 15:45+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0Report-Msgid-Bugs-To:EMAIL@ADDRESSPOT-"
+"Creation-Date:2024-11-07 12:56+0100PO-Revision-Date:YEAR-MO-DA HO:MI"
+"+ZONELast-Translator:FULL NAME <EMAIL@ADDRESS>Language-Team:LANGUAGE "
+"<LL@li.org>MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-"
+"Transfer-Encoding:8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-01-15 15:22+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../source/electronic-bjt-current.rst:9
 msgid "La fuente de corriente"
 msgstr "The current source"
 
-
 #: ../../source/electronic-bjt-current.rst:10
 msgid ""
-"Este circuito sirve para generar una corriente que se mantendrá constante, "
-"independientemente de la tensión que haya a su salida. Es un circuito muy "
-"utilizado para polarizar otras etapas de transistores, como el par "
-"diferencial, para alimentar diodos led de corriente constante, enviar "
-"información inmune al ruido eléctrico, etc."
+"Este circuito sirve para generar una corriente que se mantendrá "
+"constante, independientemente de la tensión que haya a su salida. Es un "
+"circuito muy utilizado para polarizar otras etapas de transistores, como "
+"el par diferencial, para alimentar diodos led de corriente constante, "
+"enviar información inmune al ruido eléctrico, etc."
 msgstr ""
 "This circuit serves to generate a current that will remain constant, "
 "regardless of the voltage at its output. It is a circuit widely used to "
-"polarize other transistor stages, such as the differential pair, to power "
-"constant current LED diodes, send information immune to electrical noise, "
-"etc."
-
+"polarize other transistor stages, such as the differential pair, to power"
+" constant current LED diodes, send information immune to electrical "
+"noise, etc."
 
 #: ../../source/electronic-bjt-current.rst:22
-msgid ""
-"Esquema de una fuente de corriente constante basada en transistores NPN."
+msgid "Esquema de una fuente de corriente constante basada en transistores NPN."
 msgstr "Schematic of a constant current source based on NPN transistors."
-
 
 #: ../../source/electronic-bjt-current.rst:30
 msgid "Símbolo de una fuente de corriente constante."
 msgstr "Symbol of a constant current source."
 
-
 #: ../../source/electronic-bjt-current.rst:34
 msgid "Funcionamiento y cálculos"
 msgstr "Operation and calculations"
 
-
 #: ../../source/electronic-bjt-current.rst:35
 msgid "La función de cada componente es la siguiente:"
 msgstr "The function of each component is the following:"
-
 
 #: ../../source/electronic-bjt-current.rst:37
 msgid ""
@@ -63,200 +63,184 @@ msgstr ""
 "Resistor R1 biases the base of transistor Q2, which begins to conduct "
 "current."
 
-
 #: ../../source/electronic-bjt-current.rst:40
 msgid ""
 "Al conducir corriente el transistor Q2, la tensión de la resistencia R2 "
-"comienza a subir, hasta que llega aproximadamente a 0.6 voltios, que es el "
-"momento en el que comienza a conducir corriente el transistor Q1."
+"comienza a subir, hasta que llega aproximadamente a 0.6 voltios, que es "
+"el momento en el que comienza a conducir corriente el transistor Q1."
 msgstr ""
 "As transistor Q2 conducts current, the voltage of resistor R2 begins to "
-"rise, until it reaches approximately 0.6 volts, which is the moment at which"
-" transistor Q1 begins to conduct current."
-
+"rise, until it reaches approximately 0.6 volts, which is the moment at "
+"which transistor Q1 begins to conduct current."
 
 #: ../../source/electronic-bjt-current.rst:45
 msgid ""
-"Al conducir corriente el transistor Q1, la corriente de la resistencia R1 se"
-" escapa por el colector del transistor Q1 y deja de alimentar a la base de "
-"Q2."
+"Al conducir corriente el transistor Q1, la corriente de la resistencia R1"
+" se escapa por el colector del transistor Q1 y deja de alimentar a la "
+"base de Q2."
 msgstr ""
 "As transistor Q1 conducts current, the current in resistor R1 escapes "
 "through the collector of transistor Q1 and stops feeding the base of Q2."
 
-
 #: ../../source/electronic-bjt-current.rst:49
 msgid ""
-"El resultado final es que se mantiene una tensión prácticamente constante en"
-" la base de Q1 y, por lo tanto, en la resistencia R2. Esa tensión constante "
-"se traduce en que circulará una corriente prácticamente constante por el "
-"emisor de Q2 y, despreciando la corriente de base, por el colector de Q2."
+"El resultado final es que se mantiene una tensión prácticamente constante"
+" en la base de Q1 y, por lo tanto, en la resistencia R2. Esa tensión "
+"constante se traduce en que circulará una corriente prácticamente "
+"constante por el emisor de Q2 y, despreciando la corriente de base, por "
+"el colector de Q2."
 msgstr ""
-"The end result is that a practically constant voltage is maintained at the "
-"base of Q1 and therefore at the resistor R2. This constant voltage means "
-"that a practically constant current will flow through the emitter of Q2 and,"
-" neglecting the base current, through the collector of Q2."
-
+"The end result is that a practically constant voltage is maintained at "
+"the base of Q1 and therefore at the resistor R2. This constant voltage "
+"means that a practically constant current will flow through the emitter "
+"of Q2 and, neglecting the base current, through the collector of Q2."
 
 #: ../../source/electronic-bjt-current.rst:55
 msgid "Aplicando la ley de Ohm:"
 msgstr "Applying Ohm's law:"
 
-
 #: ../../source/electronic-bjt-current.rst:57
 msgid "I_{R2} = \\frac{V_{be}}{R_2}"
 msgstr "I_{R2} = \\frac{V_{be}}{R_2}"
-
 
 #: ../../source/electronic-bjt-current.rst:61
 msgid "Siendo:"
 msgstr "Being:"
 
-
 #: ../../source/electronic-bjt-current.rst:63
 msgid "I_R2 = Corriente que circula por la resistencia R2 en amperios [A]"
 msgstr "I_R2 = Current flowing through resistance R2 in amperes [A]"
 
-
 #: ../../source/electronic-bjt-current.rst:65
-msgid ""
-"V_be = Tensión entre la base y el emisor del transistor Q1 en voltios [V]"
-msgstr ""
-"V_be = Voltage between the base and emitter of transistor Q1 in volts [V]"
-
+msgid "V_be = Tensión entre la base y el emisor del transistor Q1 en voltios [V]"
+msgstr "V_be = Voltage between the base and emitter of transistor Q1 in volts [V]"
 
 #: ../../source/electronic-bjt-current.rst:67
 msgid "R_2 = Resistencia R2 en ohmios [Ω]"
 msgstr "R_2 = Resistance R2 in ohms [Ω]"
 
+#: ../../source/electronic-bjt-current.rst:69
+msgid ""
+"La tensión V_be puede variar, pero suele mantenerse en un valor alrededor"
+" de 0.60 Voltios."
+msgstr ""
 
-#: ../../source/electronic-bjt-current.rst:71
+#: ../../source/electronic-bjt-current.rst:74
 msgid "Simulación"
 msgstr "Simulation"
 
-
-#: ../../source/electronic-bjt-current.rst:72
+#: ../../source/electronic-bjt-current.rst:75
 msgid ""
 "A continuación puede verse la simulación de una fuente de corriente "
 "constante basada en transistores NPN."
 msgstr ""
-"Below you can see the simulation of a constant current source based on NPN "
-"transistors."
+"Below you can see the simulation of a constant current source based on "
+"NPN transistors."
 
-
-#: ../../source/electronic-bjt-current.rst:83
+#: ../../source/electronic-bjt-current.rst:86
 msgid "Ejercicios"
 msgstr "Exercises"
 
-
-#: ../../source/electronic-bjt-current.rst:85
+#: ../../source/electronic-bjt-current.rst:88
 msgid ""
-"Dibuja un esquema simplificado de una fuente de corriente constante basada "
-"en transistores NPN."
+"Dibuja un esquema simplificado de una fuente de corriente constante "
+"basada en transistores NPN."
 msgstr ""
 "Draw a simplified schematic of a constant current source based on NPN "
 "transistors."
 
-
-#: ../../source/electronic-bjt-current.rst:88
+#: ../../source/electronic-bjt-current.rst:91
 msgid "Dibuja al lado el símbolo de la fuente de corriente constante."
 msgstr "Draw the symbol for the constant current source next to it."
 
-
-#: ../../source/electronic-bjt-current.rst:90
+#: ../../source/electronic-bjt-current.rst:93
 msgid ""
-"Dibuja un esquema realista de una fuente de corriente constante basada en "
-"transistores NPN, que alimenta a una resistencia."
+"Dibuja un esquema realista de una fuente de corriente constante basada en"
+" transistores NPN, que alimenta a una resistencia."
 msgstr ""
 "Draw a realistic schematic of a constant current source based on NPN "
 "transistors, which feeds a resistor."
 
-
-#: ../../source/electronic-bjt-current.rst:93
+#: ../../source/electronic-bjt-current.rst:96
 msgid ""
-"¿Cuál es la función principal de una fuente de corriente? ¿Qué aplicaciones "
-"tiene?"
+"¿Cuál es la función principal de una fuente de corriente? ¿Qué "
+"aplicaciones tiene?"
 msgstr ""
 "What is the main function of a current source? What applications does it "
 "have?"
 
-
-#: ../../source/electronic-bjt-current.rst:96
-
-
-#: ../../source/electronic-bjt-current.rst:104
-msgid ""
-"En la simulación de la fuente de corriente constante podemos comprobar cómo "
-"le afectan los cambios externos."
-msgstr ""
-"In the simulation of the constant current source we can check how external "
-"changes affect it."
-
-
 #: ../../source/electronic-bjt-current.rst:99
-msgid ""
-"Cambia la tensión de alimentación desde 9 voltios hasta 18 voltios en pasos "
-"de 3 en 3 voltios y anota en una tabla cómo va variando la corriente por el "
-"colector del transistor con el cambio de tensión de alimentación."
-msgstr ""
-"Change the supply voltage from 9 volts to 18 volts in steps of 3 volts at a "
-"time and record in a table how the current through the collector of the "
-"transistor varies with the change in supply voltage."
-
-
 #: ../../source/electronic-bjt-current.rst:107
 msgid ""
-"Con una tensión de alimentación de 9 voltios, cambia la resistencia R3 por "
-"los valores 2000Ω, 1000Ω, 100Ω, 10Ω. Anota en una tabla cuánto vale la "
-"corriente de colector para cada uno de los valores de resistencia."
+"En la simulación de la fuente de corriente constante podemos comprobar "
+"cómo le afectan los cambios externos."
 msgstr ""
-"With a supply voltage of 9 volts, change resistor R3 to the values ​​2000Ω, "
-"1000Ω, 100Ω, 10Ω. Write down in a table how much the collector current is "
-"for each of the resistance values."
+"In the simulation of the constant current source we can check how "
+"external changes affect it."
 
+#: ../../source/electronic-bjt-current.rst:102
+msgid ""
+"Cambia la tensión de alimentación desde 9 voltios hasta 18 voltios en "
+"pasos de 3 en 3 voltios y anota en una tabla cómo va variando la "
+"corriente por el colector del transistor con el cambio de tensión de "
+"alimentación."
+msgstr ""
+"Change the supply voltage from 9 volts to 18 volts in steps of 3 volts at"
+" a time and record in a table how the current through the collector of "
+"the transistor varies with the change in supply voltage."
 
-#: ../../source/electronic-bjt-current.rst:112
+#: ../../source/electronic-bjt-current.rst:110
+msgid ""
+"Con una tensión de alimentación de 9 voltios, cambia la resistencia R3 "
+"por los valores 2000Ω, 1000Ω, 100Ω, 10Ω. Anota en una tabla cuánto vale "
+"la corriente de colector para cada uno de los valores de resistencia."
+msgstr ""
+"With a supply voltage of 9 volts, change resistor R3 to the values "
+"​​2000Ω, 1000Ω, 100Ω, 10Ω. Write down in a table how much the collector "
+"current is for each of the resistance values."
+
+#: ../../source/electronic-bjt-current.rst:115
 msgid ""
 "Diseña una fuente de corriente constante que funcione con una tensión de "
 "alimentación de 12 voltios y con una corriente de colector de 10 "
 "miliamperios."
 msgstr ""
-"Design a constant current source that operates with a supply voltage of 12 "
-"volts and a collector current of 10 milliamps."
+"Design a constant current source that operates with a supply voltage of "
+"12 volts and a collector current of 10 milliamps."
 
-
-#: ../../source/electronic-bjt-current.rst:116
+#: ../../source/electronic-bjt-current.rst:119
 msgid ""
-"Para conseguirlo, cambia la tensión de alimentación a 12 voltios y calcula "
-"la resistencia R2 necesaria con la fórmula:"
+"Para conseguirlo, cambia la tensión de alimentación a 12 voltios y "
+"calcula la resistencia R2 necesaria con la fórmula:"
 msgstr ""
 "To achieve this, change the supply voltage to 12 volts and calculate the "
 "necessary resistance R2 with the formula:"
 
+#: ../../source/electronic-bjt-current.rst:122
+#, fuzzy
+msgid "R_2 = \\frac{V_be}{I_e}"
+msgstr "I_{R2} = \\frac{V_{be}}{R_2}"
 
-#: ../../source/electronic-bjt-current.rst:119
-msgid "R_2 = \\frac{V_e}{I_e}"
-msgstr "R_2 = \\frac{V_e}{I_e}"
-
-
-#: ../../source/electronic-bjt-current.rst:123
+#: ../../source/electronic-bjt-current.rst:126
 msgid "Sin utilizar decimales para el valor de la resistencia."
 msgstr "Without using decimals for the resistance value."
 
-
-#: ../../source/electronic-bjt-current.rst:125
+#: ../../source/electronic-bjt-current.rst:128
 msgid ""
 "Diseña en el `simulador de circuitos "
-"<../circuits/?startCircuit=empty.txt>`__ una fuente de "
-"corriente negativa constante. La forma del circuito será igual que la fuente"
-" simulada anterior, pero utilizando transistores PNP y conectando el "
-"circuito en espejo horizontal. Es decir, la resistencia R1 irá conectada al "
-"negativo de la pila y la resistencia R2 irá conectada al positivo de la "
-"pila."
+"<../circuits/?startCircuit=empty.txt>`__ una fuente de corriente negativa"
+" constante. La forma del circuito será igual que la fuente simulada "
+"anterior, pero utilizando transistores PNP y conectando el circuito en "
+"espejo horizontal. Es decir, la resistencia R1 irá conectada al negativo "
+"de la pila y la resistencia R2 irá conectada al positivo de la pila."
 msgstr ""
 "Design a constant negative current source in the `circuit simulator "
-"<../circuits/?startCircuit=empty.txt>`__. The shape of "
-"the circuit will be the same as the previous simulated source, but using PNP"
-" transistors and connecting the circuit in a horizontal mirror. That is, "
-"resistor R1 will be connected to the negative of the battery and resistor R2"
-" will be connected to the positive of the battery."
+"<../circuits/?startCircuit=empty.txt>`__. The shape of the circuit will "
+"be the same as the previous simulated source, but using PNP transistors "
+"and connecting the circuit in a horizontal mirror. That is, resistor R1 "
+"will be connected to the negative of the battery and resistor R2 will be "
+"connected to the positive of the battery."
+
+#~ msgid "R_2 = \\frac{V_e}{I_e}"
+#~ msgstr "R_2 = \\frac{V_e}{I_e}"
+

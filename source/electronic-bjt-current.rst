@@ -66,6 +66,9 @@ La función de cada componente es la siguiente:
 
      R_2 = Resistencia R2 en ohmios [Ω]
 
+La tensión V_be puede variar, pero suele mantenerse en un valor 
+alrededor de 0.60 Voltios.
+
 
 Simulación
 ----------
@@ -118,7 +121,7 @@ Ejercicios
 
    .. math::
 
-      R_2 = \frac{V_e}{I_e}
+      R_2 = \frac{V_be}{I_e}
 
    Sin utilizar decimales para el valor de la resistencia.
 

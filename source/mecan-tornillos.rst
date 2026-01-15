@@ -1,4 +1,5 @@
 ﻿:Date: 29/05/2022
+:Modified: 15/01/2026
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
@@ -7,7 +8,7 @@
 
 :index:`Tornillos`
 ==================
-Un tornillo es una máquina simple formada por un plano inclinado
+Un tornillo es una **máquina simple** formada por un **plano inclinado**
 que se encuentra enrollado alrededor de un eje cilíndrico.
 
 .. figure:: mecan/_images/mecan-tornillo-01.jpg
@@ -25,33 +26,33 @@ que se encuentra enrollado alrededor de un eje cilíndrico.
 Partes de un tornillo
 ---------------------
 
-La denominación de las diferentes partes del tornillo es la siguiente.
+Las diferentes partes del tornillo reciben los siguientes nombres.
 
 .. glossary::
 
    Vástago
-      Pieza cilíndrica del tornillo donde se tallan los surcos de la rosca.
+      Parte cilíndrica del tornillo donde se tallan los surcos de la rosca.
 
    Cuello
-      Parte del vástago del tornillo sin tallar.
+      Parte del vástago del tornillo que no está roscada.
 
    Rosca
-      Es el plano inclinado enrollado de forma helicoidal
+      Plano inclinado enrollado de forma helicoidal
       alrededor del vástago.
 
    Cabeza del tornillo
-      Es la parte extrema del tornillo, utilizada para girar la rosca.
-      Suele ser de forma cuadrada o hexagonal en tornillos grandes.
+      Parte extrema del tornillo que se utiliza para hacerlo girar.
+      En tornillos grandes suele ser de forma cuadrada o hexagonal.
 
    Filete
-      Es la parte saliente del surco de la rosca.
+      Parte saliente del surco de la rosca.
 
    Paso
-      Es la distancia que hay entre dos crestas consecutivas de la rosca.
+      Distancia que hay entre dos crestas consecutivas de la rosca.
 
    Tuerca
-      Es una pieza mecánica con un orificio roscado que se acopla
-      al tornillo. La tuerca suele tener una forma cuadrada o hexagonal
+      Pieza mecánica con un orificio roscado que se acopla
+      al tornillo. Suele tener forma cuadrada o hexagonal
       para facilitar su giro mediante llaves de apriete.
 
 
@@ -66,25 +67,27 @@ La denominación de las diferentes partes del tornillo es la siguiente.
 Aplicaciones de los tornillos
 -----------------------------
 Uniones desmontables
-   Una de las aplicaciones de los tornillos consiste en realizar
-   uniones desmontables.
+   Una de las aplicaciones de los tornillos es realizar
+   uniones desmontables, es decir, uniones que se pueden montar y
+   desmontar con facilidad.
 
-   Por ejemplo la carcasa de un ordenador está unida con tornillos.
+   Por ejemplo, la carcasa de un ordenador está unida con tornillos.
 
 Mecanismos que avanzan con precisión
-   Los tornillos permiten realizar movimientos de mucha precisión.
+   Los tornillos permiten realizar movimientos muy precisos.
 
-   Por ejemplo un tornillo de un grifo giratorio permite abrir el
-   paso de agua con mucha precisión.
-   Otro ejemplo son las sillas a tornillo que se pueden subir o bajar
-   con precisión dando vueltas al asiento.
+   Por ejemplo, el tornillo de un grifo giratorio permite abrir o cerrar
+   el paso de agua con mucha precisión.
+   Otro ejemplo son las sillas a tornillo, que se pueden subir o bajar
+   poco a poco dando vueltas al asiento.
 
 Mecanismos para mover con fuerza
-   Otra gran aplicación de los tornillos es construir mecanismos
-   que avanzan con mucha **fuerza**.
+   Otra aplicación importante de los tornillos es la construcción de
+   mecanismos que avanzan con mucha **fuerza**.
 
-   Por ejemplo, el mecanismo de un gato mecánico para levantar automóviles
-   está basado en un tornillo que mueve unas tijeras.
+   Por ejemplo, el mecanismo de un gato mecánico está basado en un
+   tornillo que mueve un sistema de tijeras con suficiente fuerza
+   como para levantar un automóvil.
 
    .. figure:: mecan/_images/mecan-tornillo-02.gif
       :alt: Gato mecánico para levantar automóviles, con un tornillo que
@@ -101,10 +104,11 @@ Mecanismos para mover con fuerza
 
 Cálculo de tornillos
 --------------------
-Los parámetros de un tornillo son su **paso** o distancia entre dos
-filetes, el número de vueltas de **giro** y el **avance** lineal que
-se consigue al girar.
-La fórmula que relaciona estas variables es la siguiente.
+Los principales parámetros de un tornillo son su **paso**, el número
+de vueltas de **giro** y el **avance** lineal que se obtiene al girarlo.
+
+La relación entre estas magnitudes se expresa mediante la siguiente
+fórmula:
 
 .. math::
 
@@ -112,14 +116,14 @@ La fórmula que relaciona estas variables es la siguiente.
 
 Siendo
 
-   Avance = distancia lineal que recorre el tornillo en milímetros
+   Avance = distancia lineal que recorre el tornillo en milímetros.
 
-   Giro = número de vueltas que gira el tornillo
+   Giro = número de vueltas que gira el tornillo.
 
-   Paso = distancia que avanza el tornillo por cada vuelta que gira
+   Paso = distancia que avanza el tornillo por cada vuelta que gira.
 
-Tanto el **Avance** como el **Paso** deben estar expresados en las mismas
-unidades de distancia, normalmente milímetros.
+Tanto el **Avance** como el **Paso** deben expresarse en las mismas
+unidades de longitud, normalmente milímetros.
 
 
 Ejercicio silla
@@ -129,8 +133,8 @@ de paso igual a 4 milímetros por vuelta.
 Si queremos elevar la silla 6 centímetros
 ¿Cuántas vueltas será necesario dar al tornillo?
 
-Para resolver el problema, escribimos primero los datos de los que
-disponemos, convirtiendo todas las distancias a la misma unidad.
+Para resolver el problema, escribimos primero los datos disponibles,
+convirtiendo todas las distancias a la misma unidad.
 
 .. math::
 
@@ -141,7 +145,7 @@ disponemos, convirtiendo todas las distancias a la misma unidad.
    Paso = 4 \: mm / vuelta
 
 A continuación escribimos la fórmula y sustituimos las cantidades
-conocidas.
+conocidas:
 
 .. math::
 
@@ -151,7 +155,7 @@ conocidas.
 
    60 \: mm = Giro \cdot 4 \: mm / vuelta
 
-Para finalizar, despejamos la incógnita para hallar el resultado.
+Para finalizar, despejamos la incógnita para hallar el resultado:
 
 .. math::
 
@@ -161,7 +165,7 @@ Para finalizar, despejamos la incógnita para hallar el resultado.
 Ejercicio tornillo de banco
 ---------------------------
 Un tornillo de banco se abre una distancia de 12 centímetros
-tras girar la manivela un total de 24 vueltas.
+tras girar la manivela un total de 40 vueltas.
 ¿Cuál es el paso del tornillo?
 
 Para resolver el problema, escribimos primero los datos de los que
@@ -173,7 +177,7 @@ disponemos, convirtiendo todas las distancias a la misma unidad.
 
 .. math::
 
-   Giro = 24 \: vueltas
+   Giro = 40 \: vueltas
 
 A continuación escribimos la fórmula y sustituimos las cantidades
 conocidas.
@@ -184,28 +188,28 @@ conocidas.
 
 .. math::
 
-   120 \: mm = 24 \: vueltas \cdot Paso
+   120 \: mm = 40 \: vueltas \cdot Paso
 
 Para finalizar, despejamos la incógnita para hallar el resultado.
 
 .. math::
 
-   Paso = \cfrac{120}{24} = 5 \: mm / vuelta
+   Paso = \cfrac{120}{40} = 3 \: mm / vuelta
 
 
 Ejercicio tornillo de microscopio
 ---------------------------------
 Un microscopio dispone de un tornillo para subir y bajar la platina
-y poder enfocar correctamente el objeto a visualizar.
-Si el paso del tornillo es de 0.5 milímetros y realizamos un giro de
+y poder enfocar correctamente el objeto que se desea observar.
+Si el paso del tornillo es de 0,5 milímetros y realizamos un giro de
 16 vueltas ¿cuánto avanzará la platina?
 
-Para resolver el problema, escribimos primero los datos de los que
-disponemos, convirtiendo todas las distancias a la misma unidad.
+Para resolver el problema, escribimos primero los datos disponibles,
+convirtiendo todas las distancias a la misma unidad.
 
 .. math::
 
-   Paso = 0.5 \: mm / vuelta
+   Paso = 0,5 \: mm / vuelta
 
 .. math::
 
@@ -220,7 +224,7 @@ conocidas.
 
 .. math::
 
-   Avance = 16 \: vueltas \cdot 0.5 \: mm / vuelta
+   Avance = 16 \: vueltas \cdot 0,5 \: mm / vuelta
 
 Para finalizar, no hace falta despejar y podemos calcular directamente
 el resultado.
