@@ -15,6 +15,12 @@ ranura alrededor por la que pasa una cuerda.
 Las poleas se utilizan para **levantar objetos** o cambiar la dirección
 de una fuerza.
 
+
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
+
 Aplicaciones de las poleas
 --------------------------
 La **función** de la polea es desviar la dirección y la posición
@@ -23,7 +29,7 @@ de la cuerda, y por tanto, de la fuerza aplicada.
 Por ejemplo:
 
 * En un **pozo**, una polea permite levantar un cubo de agua
-  tirando hacia abajo lejos del brocal, lo cual es más cómodo
+  tirando hacia abajo, lejos del brocal, lo cual es más cómodo
   que tirar hacia arriba de la cuerda.
 
 * En unas **cortinas**, las poleas permiten moverlas tirando de las

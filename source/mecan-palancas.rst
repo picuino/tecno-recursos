@@ -11,6 +11,14 @@
 La **palanca** es una máquina simple formada por una **barra rígida**
 que gira alrededor de un punto de apoyo llamado **fulcro**.
 
+
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
+
+Aplicaciones
+------------
 Las palancas se pueden utilizar para realizar varias funciones:
 
 1. **Transmitir una fuerza** o un desplazamiento desde un punto a otro.
@@ -24,10 +32,9 @@ Las palancas se pueden utilizar para realizar varias funciones:
 Dependiendo de la situación de la fuerza aplicada (F), de la resistencia
 a mover (R) y del fulcro (△) podemos distinguir tres tipos de palancas.
 
-
 Palancas de primer grado
 ------------------------
-Las palancas de primer grado tienen el apoyo en el medio
+Las palancas de primer grado tienen el fulcro en el medio
 de la barra, entre la fuerza aplicada y la resistencia.
 
 .. image:: mecan/_images/mecan-palancas-01.png

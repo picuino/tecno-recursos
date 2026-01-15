@@ -12,7 +12,7 @@ msgstr ""
 "<LL@li.org>MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-"
 "Transfer-Encoding:8bitGenerated-By:Babel 2.9.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-01-15 15:22+0100\n"
+"POT-Creation-Date: 2026-01-15 16:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -209,23 +209,25 @@ msgstr ""
 "12 volts and a collector current of 10 milliamps."
 
 #: ../../source/electronic-bjt-current.rst:119
+#, fuzzy
 msgid ""
 "Para conseguirlo, cambia la tensión de alimentación a 12 voltios y "
-"calcula la resistencia R2 necesaria con la fórmula:"
+"calcula la resistencia R2 necesaria con la siguiente fórmula:"
 msgstr ""
 "To achieve this, change the supply voltage to 12 volts and calculate the "
 "necessary resistance R2 with the formula:"
 
 #: ../../source/electronic-bjt-current.rst:122
-#, fuzzy
-msgid "R_2 = \\frac{V_be}{I_e}"
-msgstr "I_{R2} = \\frac{V_{be}}{R_2}"
+msgid "R_2 = \\frac{V_{be}}{I_e}"
+msgstr "R_2 = \\frac{V_{be}}{I_e}"
 
 #: ../../source/electronic-bjt-current.rst:126
-msgid "Sin utilizar decimales para el valor de la resistencia."
-msgstr "Without using decimals for the resistance value."
+msgid ""
+"Cambia en el simulador anterior los valores de tensión de alimentación y "
+"de resistencia R2 para comprobar que funcionan correctamente."
+msgstr ""
 
-#: ../../source/electronic-bjt-current.rst:128
+#: ../../source/electronic-bjt-current.rst:129
 msgid ""
 "Diseña en el `simulador de circuitos "
 "<../circuits/?startCircuit=empty.txt>`__ una fuente de corriente negativa"
@@ -241,6 +243,6 @@ msgstr ""
 "will be connected to the negative of the battery and resistor R2 will be "
 "connected to the positive of the battery."
 
-#~ msgid "R_2 = \\frac{V_e}{I_e}"
-#~ msgstr "R_2 = \\frac{V_e}{I_e}"
+#~ msgid "Sin utilizar decimales para el valor de la resistencia."
+#~ msgstr "Without using decimals for the resistance value."
 

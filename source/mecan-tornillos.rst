@@ -23,6 +23,10 @@ que se encuentra enrollado alrededor de un eje cilíndrico.
    vía Wikimedia Commons.
 
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
 Partes de un tornillo
 ---------------------
 
@@ -232,3 +236,58 @@ el resultado.
 .. math::
 
    Avance = 8 \: mm
+
+
+Ejercicios
+----------
+#. ¿Qué es un tornillo?
+#. Nombra las nueve diferentes partes de la siguiente imagen:
+
+   .. figure:: mecan/_images/mecan-tornillo-03.png
+      :alt: Ejercicio de tornillos.
+      :align: center
+      :width: 340px
+
+#. ¿Qué es el paso de un tornillo?
+#. ¿Qué tres aplicaciones tienen los tornillos?
+   Escribe un ejemplo de cada una de las aplicaciones.
+#. ¿Por qué crees que los tornillos permiten producir movimientos
+   de avance con mucha precisión?
+
+#. Una prensa utiliza un tornillo para cerrar su mordaza.
+   El tornillo tiene un paso de 6 mm por vuelta.
+   Si queremos cerrar la prensa 18 cm, 
+   ¿cuántas vueltas debemos dar al tornillo?
+
+#. Un elevador mecánico sube una plataforma 2 metros mediante un
+   tornillo de paso 10 mm por vuelta.
+   ¿Cuántas vueltas del tornillo son necesarias para subir la plataforma?
+
+#. El tornillo que ajusta la altura de la aguja de una máquina de coser
+   tiene un paso de 1 mm. 
+   Si queremos bajar la aguja 5 mm, 
+   ¿cuántas vueltas hay que dar al tornillo?
+
+#. Un tornillo de una prensa de laboratorio permite abrir 40 mm tras dar 
+   25 vueltas.
+   ¿Cuál es el paso del tornillo?
+
+#. Un tornillo de una prensa hidráulica sube el pistón 0,75 m mediante
+   150 vueltas. 
+   ¿Cuál es el paso del tornillo?
+
+#. Una mordaza de banco se desplaza 15 centímetros tras girar la manivela
+   60 vueltas. 
+   ¿Cuál es el paso del tornillo?
+
+#. Una prensa de carpintero se ajusta mediante un tornillo con paso de
+   5 mm por vuelta. Si giramos la manivela 12 vueltas, 
+   ¿cuánto se desplazará la mordaza?
+
+#. Una silla de laboratorio tiene un tornillo con paso de 2 mm por
+   vuelta. Si se dan 25 vueltas al tornillo, 
+   ¿cuánto se eleva la silla?
+
+#. Una sierra de banco tiene un tornillo de ajuste del soporte con paso
+   de 1,5 mm por vuelta. Si giramos la manivela 40 vueltas, 
+   ¿cuánto se desplazará el soporte?

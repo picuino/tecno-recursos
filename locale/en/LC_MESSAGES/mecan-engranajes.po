@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Picuino 2026\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-15 15:47+0100\n"
+"POT-Creation-Date: 2026-01-15 20:21+0100\n"
 "PO-Revision-Date: 2026-01-15 00:00+0000\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -40,7 +40,15 @@ msgstr ""
 msgid "Engranaje de corona y piñón con flechas de sentido de giro."
 msgstr "Gear wheel and pinion with arrows showing the direction of rotation."
 
-#: ../../source/mecan-engranajes.rst:26
+#: ../../source/mecan-engranajes.rst:29
+msgid "Índice de contenidos:"
+msgstr "Table of contents:"
+
+#: ../../source/mecan-engranajes.rst:32
+msgid "Aplicaciones"
+msgstr "Applications"
+
+#: ../../source/mecan-engranajes.rst:33
 msgid ""
 "Una de las aplicaciones más importantes de los engranajes es la "
 "transformación de la velocidad de giro desde un motor, generalmente "
@@ -51,25 +59,25 @@ msgstr ""
 "speed from a motor, which is usually fast and has low torque, to a system"
 " that must perform work, usually slower and with higher torque."
 
-#: ../../source/mecan-engranajes.rst:31
+#: ../../source/mecan-engranajes.rst:38
 msgid ""
-"Por ejemplo, en un automóvil, los engranajes transforman la alta "
-"velocidad del motor (que gira muy rápido con poca fuerza) en una "
-"velocidad más baja pero con más fuerza para mover las ruedas."
+"Por ejemplo, en un automóvil, los engranajes convierten la alta velocidad"
+" del motor (que gira muy rápido pero con poca fuerza) en una velocidad "
+"más baja, pero con mayor fuerza, para mover las ruedas."
 msgstr ""
 "For example, in a car, gears transform the high speed of the engine "
 "(which rotates very fast with little torque) into a lower speed but with "
 "greater torque to move the wheels."
 
-#: ../../source/mecan-engranajes.rst:37
+#: ../../source/mecan-engranajes.rst:44
 msgid ":index:`Par motor`"
 msgstr ":index:`Torque`"
 
-#: ../../source/mecan-engranajes.rst:38
+#: ../../source/mecan-engranajes.rst:45
 msgid "El par motor es la **fuerza de giro** que tiene un eje."
 msgstr "Torque is the **rotational force** acting on a shaft."
 
-#: ../../source/mecan-engranajes.rst:40
+#: ../../source/mecan-engranajes.rst:47
 msgid ""
 "La denominación fuerza de empuje se suele reservar para el caso de una "
 "fuerza que actúa en línea recta. En el caso de ejes giratorios, el par "
@@ -81,7 +89,7 @@ msgstr ""
 " that would need to be applied with a one-meter-long lever to obtain the "
 "same rotational effect."
 
-#: ../../source/mecan-engranajes.rst:46
+#: ../../source/mecan-engranajes.rst:53
 msgid ""
 "Por ejemplo, si un motor de automóvil tiene un par motor de 250 "
 "Newton·metro, es como si empujáramos un eje giratorio con una palanca de "
@@ -92,7 +100,7 @@ msgstr ""
 "if we were pushing a rotating shaft with a one-meter-long lever using a "
 "force of 250 newtons (about 25 kilograms of force)."
 
-#: ../../source/mecan-engranajes.rst:51
+#: ../../source/mecan-engranajes.rst:58
 msgid ""
 "Los engranajes pueden aumentar el par motor (la fuerza de giro), pero al "
 "hacerlo disminuyen la velocidad."
@@ -100,7 +108,7 @@ msgstr ""
 "Gears can increase torque (rotational force), but when they do so, speed "
 "decreases."
 
-#: ../../source/mecan-engranajes.rst:54
+#: ../../source/mecan-engranajes.rst:61
 msgid ""
 "Del mismo modo, si un engranaje aumenta la velocidad, el par motor "
 "disminuye en la misma proporción."
@@ -108,7 +116,7 @@ msgstr ""
 "In the same way, if a gear increases speed, torque decreases by the same "
 "ratio."
 
-#: ../../source/mecan-engranajes.rst:57
+#: ../../source/mecan-engranajes.rst:64
 msgid ""
 "Esto ocurre en todos los mecanismos que transforman el movimiento: si "
 "ganamos fuerza, perdemos velocidad y viceversa."
@@ -116,11 +124,11 @@ msgstr ""
 "This happens in all mechanisms that transform motion: if we gain force, "
 "we lose speed, and vice versa."
 
-#: ../../source/mecan-engranajes.rst:62
+#: ../../source/mecan-engranajes.rst:69
 msgid "Cálculo de engranajes"
 msgstr "Gear calculations"
 
-#: ../../source/mecan-engranajes.rst:63
+#: ../../source/mecan-engranajes.rst:70
 msgid ""
 "La **velocidad de giro** de cada rueda dentada de un engranaje depende "
 "del número de dientes que tiene."
@@ -128,38 +136,38 @@ msgstr ""
 "The **rotational speed** of each toothed wheel in a gear system depends "
 "on the number of teeth it has."
 
-#: ../../source/mecan-engranajes.rst:66
+#: ../../source/mecan-engranajes.rst:73
 msgid "La relación entre ambas ruedas se puede calcular con esta fórmula:"
 msgstr ""
 "The relationship between the two wheels can be calculated using this "
 "formula:"
 
-#: ../../source/mecan-engranajes.rst:68 ../../source/mecan-engranajes.rst:118
-#: ../../source/mecan-engranajes.rst:182
+#: ../../source/mecan-engranajes.rst:75 ../../source/mecan-engranajes.rst:125
+#: ../../source/mecan-engranajes.rst:189
 msgid "Z_{1} \\cdot N_{1} = Z_{2} \\cdot N_{2}"
 msgstr "Z_{1} \\cdot N_{1} = Z_{2} \\cdot N_{2}"
 
-#: ../../source/mecan-engranajes.rst:72
+#: ../../source/mecan-engranajes.rst:79
 msgid "Donde:"
 msgstr "Where:"
 
-#: ../../source/mecan-engranajes.rst:74
+#: ../../source/mecan-engranajes.rst:81
 msgid "Z1 = Dientes de la primera rueda dentada"
 msgstr "Z1 = Number of teeth of the first gear"
 
-#: ../../source/mecan-engranajes.rst:76
+#: ../../source/mecan-engranajes.rst:83
 msgid "N1 = Velocidad angular de la primera rueda dentada"
 msgstr "N1 = Rotational speed of the first gear"
 
-#: ../../source/mecan-engranajes.rst:78
+#: ../../source/mecan-engranajes.rst:85
 msgid "Z2 = Dientes de la segunda rueda dentada"
 msgstr "Z2 = Number of teeth of the second gear"
 
-#: ../../source/mecan-engranajes.rst:80
+#: ../../source/mecan-engranajes.rst:87
 msgid "N2 = Velocidad angular de la segunda rueda dentada"
 msgstr "N2 = Rotational speed of the second gear"
 
-#: ../../source/mecan-engranajes.rst:82
+#: ../../source/mecan-engranajes.rst:89
 msgid ""
 "Es decir, que el número de dientes de una rueda multiplicado por la "
 "velocidad de giro de esa rueda es igual para todas las ruedas."
@@ -167,126 +175,118 @@ msgstr ""
 "This means that the number of teeth of a gear multiplied by its "
 "rotational speed is the same for all gears in the system."
 
-#: ../../source/mecan-engranajes.rst:85
+#: ../../source/mecan-engranajes.rst:92
 msgid ""
-"La velocidad angular se suele medir en **revoluciones por minuto** también "
-"escrito como **rpm**, que significa el número de vueltas completas que gira "
-"la rueda en un minuto. Un motor típico suele tener una velocidad angular en "
-"un rango desde 600 rpm  hasta 6000 rpm."
+"La velocidad angular se suele medir en **revoluciones por minuto** "
+"también escrito como **rpm**, que significa el número de vueltas "
+"completas que gira la rueda en un minuto. Un motor típico suele tener una"
+" velocidad angular en un rango desde 600 rpm  hasta 6000 rpm."
 msgstr ""
 "Rotational speed is usually measured in **revolutions per minute**, also "
-"written as **rpm**, which means the number of complete turns the wheel makes "
-"in one minute. A typical motor usually has a rotational speed in a range "
-"from 600 rpm to 6000 rpm."
+"written as **rpm**, which means the number of complete turns the wheel "
+"makes in one minute. A typical motor usually has a rotational speed in a "
+"range from 600 rpm to 6000 rpm."
 
-#: ../../source/mecan-engranajes.rst:93
+#: ../../source/mecan-engranajes.rst:100
 msgid "Ejercicio aerogenerador"
 msgstr "Wind turbine exercise"
 
-#: ../../source/mecan-engranajes.rst:94
+#: ../../source/mecan-engranajes.rst:101
 msgid ""
-"Queremos calcular un engranaje que multiplique la velocidad de giro de un "
-"eje de un aerogenerador."
+"Queremos calcular un engranaje que multiplique la velocidad de giro de un"
+" eje de un aerogenerador."
 msgstr ""
-"We want to calculate a gear system that multiplies the rotational speed of "
-"a wind turbine shaft."
+"We want to calculate a gear system that multiplies the rotational speed "
+"of a wind turbine shaft."
 
-#: ../../source/mecan-engranajes.rst:97
+#: ../../source/mecan-engranajes.rst:104
 msgid ""
 "Las aspas de un aerogenerador giran a una velocidad de 20 rpm, pero el "
-"generador eléctrico necesita girar a 1000 rpm. Si el **piñón** conectado al "
-"generador tiene 15 dientes ¿Cuántos dientes tendrá la corona conectada a las"
-" aspas?"
+"generador eléctrico necesita girar a 1000 rpm. Si el **piñón** conectado "
+"al generador tiene 15 dientes ¿Cuántos dientes tendrá la corona conectada"
+" a las aspas?"
 msgstr ""
-"The blades of a wind turbine rotate at a speed of 20 rpm, but the electric "
-"generator needs to rotate at 1000 rpm. If the **pinion** connected to the "
-"generator has 15 teeth, how many teeth will the gear wheel connected to the "
-"blades have?"
+"The blades of a wind turbine rotate at a speed of 20 rpm, but the "
+"electric generator needs to rotate at 1000 rpm. If the **pinion** "
+"connected to the generator has 15 teeth, how many teeth will the gear "
+"wheel connected to the blades have?"
 
-#: ../../source/mecan-engranajes.rst:102
+#: ../../source/mecan-engranajes.rst:109
 msgid "El primer paso será escribir los datos del problema:"
 msgstr "The first step is to write down the data from the problem:"
 
-#: ../../source/mecan-engranajes.rst:104
+#: ../../source/mecan-engranajes.rst:111
 msgid "N_{1} = 20 \\: rpm"
 msgstr "N_{1} = 20 \\: rpm"
 
-#: ../../source/mecan-engranajes.rst:108
+#: ../../source/mecan-engranajes.rst:115
 msgid "N_{2} = 1000 \\: rpm"
 msgstr "N_{2} = 1000 \\: rpm"
 
-#: ../../source/mecan-engranajes.rst:112
+#: ../../source/mecan-engranajes.rst:119
 msgid "Z_{2} = 15 \\: dientes"
 msgstr "Z_{2} = 15 \\: teeth"
 
-#: ../../source/mecan-engranajes.rst:116
-msgid ""
-"A continuación escribimos la fórmula y sustituimos los valores conocidos:"
-msgstr ""
-"Next, we write the formula and substitute the known values:"
+#: ../../source/mecan-engranajes.rst:123 ../../source/mecan-engranajes.rst:187
+msgid "A continuación escribimos la fórmula y sustituimos los valores conocidos:"
+msgstr "Next, we write the formula and substitute the known values:"
 
-#: ../../source/mecan-engranajes.rst:118
-msgid "Z_{1} \\cdot N_{1} = Z_{2} \\cdot N_{2}"
-msgstr "Z_{1} \\cdot N_{1} = Z_{2} \\cdot N_{2}"
-
-#: ../../source/mecan-engranajes.rst:122
+#: ../../source/mecan-engranajes.rst:129
 msgid "Z_{1} \\cdot 20 \\: rpm = 15 \\cdot 1000 \\: rpm"
 msgstr "Z_{1} \\cdot 20 \\: rpm = 15 \\cdot 1000 \\: rpm"
 
-#: ../../source/mecan-engranajes.rst:127
-msgid ""
-"Por último despejamos la ecuación y calculamos el valor de la incógnita:"
-msgstr ""
-"Finally, we solve the equation and calculate the value of the unknown:"
+#: ../../source/mecan-engranajes.rst:134 ../../source/mecan-engranajes.rst:198
+msgid "Por último despejamos la ecuación y calculamos el valor de la incógnita:"
+msgstr "Finally, we solve the equation and calculate the value of the unknown:"
 
-#: ../../source/mecan-engranajes.rst:129
+#: ../../source/mecan-engranajes.rst:136
 msgid "Z_{1} = \\cfrac{15 \\cdot 1000 \\: rpm}{20 \\: rpm}"
 msgstr "Z_{1} = \\cfrac{15 \\cdot 1000 \\: rpm}{20 \\: rpm}"
 
-#: ../../source/mecan-engranajes.rst:133
+#: ../../source/mecan-engranajes.rst:140
 msgid "Z_{1} = 750 \\: dientes"
 msgstr "Z_{1} = 750 \\: teeth"
 
-#: ../../source/mecan-engranajes.rst:137
+#: ../../source/mecan-engranajes.rst:144
 msgid ""
-"En la práctica, cuando la relación entre los dientes es tan grande, se suele"
-" utilizar un tren de engranajes con más de dos ruedas conectadas entre sí "
-"para reducir o aumentar la velocidad de giro en varias etapas."
+"En la práctica, cuando la relación entre los dientes es tan grande, se "
+"suele utilizar un tren de engranajes con más de dos ruedas conectadas "
+"entre sí para reducir o aumentar la velocidad de giro en varias etapas."
 msgstr ""
-"In practice, when the ratio between the numbers of teeth is so large, a gear "
-"train with more than two wheels connected together is usually used to reduce "
-"or increase rotational speed in several stages."
+"In practice, when the ratio between the numbers of teeth is so large, a "
+"gear train with more than two wheels connected together is usually used "
+"to reduce or increase rotational speed in several stages."
 
-#: ../../source/mecan-engranajes.rst:146
+#: ../../source/mecan-engranajes.rst:153
 msgid "Tren de engranajes que reducen mucho la velocidad de giro del piñón"
 msgstr "Gear train that greatly reduces the rotational speed of the pinion"
 
-#: ../../source/mecan-engranajes.rst:150
+#: ../../source/mecan-engranajes.rst:157
 msgid "Ejercicio automóvil eléctrico"
 msgstr "Electric car exercise"
 
-#: ../../source/mecan-engranajes.rst:151
+#: ../../source/mecan-engranajes.rst:158
 msgid ""
 "Un automóvil eléctrico tiene el motor conectado mediante un **engranaje "
 "reductor** a las ruedas. Sabemos que la velocidad máxima del motor es de "
-"9000rpm y que la velocidad máxima de las ruedas es de 1500rpm. Si el número "
-"de dientes del engranaje más pequeño debe ser de 8 ó más dientes ¿Cuantos "
-"dientes debe tener cada engranaje?"
+"9000rpm y que la velocidad máxima de las ruedas es de 1500rpm. Si el "
+"número de dientes del engranaje más pequeño debe ser de 8 ó más dientes "
+"¿Cuantos dientes debe tener cada engranaje?"
 msgstr ""
 "An electric car has the motor connected to the wheels through a "
-"**reduction gear**. We know that the maximum motor speed is 9000 rpm and that "
-"the maximum wheel speed is 1500 rpm. If the smallest gear must have 8 or more "
-"teeth, how many teeth should each gear have?"
+"**reduction gear**. We know that the maximum motor speed is 9000 rpm and "
+"that the maximum wheel speed is 1500 rpm. If the smallest gear must have "
+"8 or more teeth, how many teeth should each gear have?"
 
-#: ../../source/mecan-engranajes.rst:157
+#: ../../source/mecan-engranajes.rst:164
 msgid ""
 "Este ejercicio permite varias soluciones válidas porque no especifica el "
 "tamaño del piñón."
 msgstr ""
-"This exercise allows several valid solutions because the size of the pinion "
-"is not specified."
+"This exercise allows several valid solutions because the size of the "
+"pinion is not specified."
 
-#: ../../source/mecan-engranajes.rst:160
+#: ../../source/mecan-engranajes.rst:167
 msgid ""
 "El primer paso será escribir los datos del problema. El motor estará "
 "conectado al primer engranaje y las ruedas al segundo engranaje."
@@ -294,54 +294,167 @@ msgstr ""
 "The first step is to write down the data from the problem. The motor is "
 "connected to the first gear and the wheels to the second gear."
 
-#: ../../source/mecan-engranajes.rst:164
+#: ../../source/mecan-engranajes.rst:171
 msgid "N_{1} = 9000 \\: rpm"
 msgstr "N_{1} = 9000 \\: rpm"
 
-#: ../../source/mecan-engranajes.rst:168
+#: ../../source/mecan-engranajes.rst:175
 msgid "N_{2} = 1500 \\: rpm"
 msgstr "N_{2} = 1500 \\: rpm"
 
-#: ../../source/mecan-engranajes.rst:172
+#: ../../source/mecan-engranajes.rst:179
 msgid ""
 "El engranaje 1, conectado al motor, es el que gira más rápido y, por lo "
 "tanto, es el engranaje más pequeño de los dos. Ahora vamos a escoger un "
 "tamaño para este engranaje pequeño, que sea igual o mayor a 8 dientes:"
 msgstr ""
-"Gear 1, connected to the motor, rotates faster and is therefore the smaller "
-"of the two gears. Now we choose a size for this small gear that is equal to "
-"or greater than 8 teeth:"
+"Gear 1, connected to the motor, rotates faster and is therefore the "
+"smaller of the two gears. Now we choose a size for this small gear that "
+"is equal to or greater than 8 teeth:"
 
-#: ../../source/mecan-engranajes.rst:176
+#: ../../source/mecan-engranajes.rst:183
 msgid "Z_{1} = 10 \\: dientes"
 msgstr "Z_{1} = 10 \\: teeth"
 
-#: ../../source/mecan-engranajes.rst:180
-msgid "Z_{1} \\cdot N_{1} = Z_{2} \\cdot N_{2}"
-msgstr "Z_{1} \\cdot N_{1} = Z_{2} \\cdot N_{2}"
-
-#: ../../source/mecan-engranajes.rst:186
+#: ../../source/mecan-engranajes.rst:193
 msgid "10 \\cdot 9000 \\: rpm = Z_{2} \\cdot 1500 \\: rpm"
 msgstr "10 \\cdot 9000 \\: rpm = Z_{2} \\cdot 1500 \\: rpm"
 
-#: ../../source/mecan-engranajes.rst:191
-msgid ""
-"Por último despejamos la ecuación y calculamos el valor de la incógnita:"
-msgstr ""
-"Finally, we solve the equation and calculate the value of the unknown:"
-
-#: ../../source/mecan-engranajes.rst:193
+#: ../../source/mecan-engranajes.rst:200
 msgid "Z_{2} = \\cfrac{10 \\cdot 9000 \\: rpm}{1500 \\: rpm}"
 msgstr "Z_{2} = \\cfrac{10 \\cdot 9000 \\: rpm}{1500 \\: rpm}"
 
-#: ../../source/mecan-engranajes.rst:197
+#: ../../source/mecan-engranajes.rst:204
 msgid "Z_{2} = 60 \\: dientes"
 msgstr "Z_{2} = 60 \\: teeth"
 
-#: ../../source/mecan-engranajes.rst:201
+#: ../../source/mecan-engranajes.rst:208
 msgid ""
-"El número de dientes del segundo engranaje conectado a la rueda será de 60 "
-"dientes."
+"El número de dientes del segundo engranaje conectado a la rueda será de "
+"60 dientes."
 msgstr ""
 "The number of teeth of the second gear connected to the wheel will be 60 "
 "teeth."
+
+#: ../../source/mecan-engranajes.rst:212
+msgid "Ejercicios"
+msgstr "Exercises"
+
+#: ../../source/mecan-engranajes.rst:213
+msgid "¿Qué es un engranaje? ¿Qué función tiene?"
+msgstr "What is a gear? What is its function?"
+
+#: ../../source/mecan-engranajes.rst:214
+msgid "¿Cómo se llaman los distintos engranajes y qué les distingue?"
+msgstr "What are the different types of gears called, and what distinguishes them?"
+
+#: ../../source/mecan-engranajes.rst:215
+msgid "¿Cuál es una de las aplicaciones más importantes de los engranajes?"
+msgstr "What is one of the most important applications of gears?"
+
+#: ../../source/mecan-engranajes.rst:216
+msgid "¿Qué es el par motor y en qué unidades se mide?"
+msgstr "What is torque and in what units is it measured?"
+
+#: ../../source/mecan-engranajes.rst:217
+msgid "¿Qué relación hay entre la velocidad y el par motor en un engranaje?"
+msgstr "What is the relationship between speed and torque in a gear system?"
+
+#: ../../source/mecan-engranajes.rst:219
+msgid ""
+"Un taladro eléctrico tiene un motor que gira a 12000 rpm. Mediante un "
+"engranaje reductor se quiere que la broca gire a 3000 rpm. Si el piñón "
+"conectado al motor tiene 12 dientes, ¿cuántos dientes debe tener la "
+"corona conectada a la broca?"
+msgstr ""
+"An electric drill has a motor that rotates at 12,000 rpm. Using a reduction "
+"gear, the drill bit is required to rotate at 3,000 rpm. If the pinion "
+"connected to the motor has 12 teeth, how many teeth must the gear wheel "
+"connected to the drill bit have?"
+
+#: ../../source/mecan-engranajes.rst:224
+msgid ""
+"Una cinta transportadora industrial se mueve gracias a un motor que gira "
+"a 1800 rpm. La cinta debe girar a 300 rpm. Si la corona conectada a la "
+"cinta tiene 72 dientes, ¿cuántos dientes debe tener el piñón conectado al"
+" motor?"
+msgstr ""
+"An industrial conveyor belt is driven by a motor that rotates at 1,800 rpm. "
+"The belt must rotate at 300 rpm. If the gear wheel connected to the belt has "
+"72 teeth, how many teeth must the pinion connected to the motor have?"
+
+#: ../../source/mecan-engranajes.rst:229
+msgid ""
+"En una bicicleta estática, el eje de los pedales gira a 60 rpm y está "
+"conectado mediante engranajes al volante de inercia, que gira a 360 rpm. "
+"Si el engranaje de los pedales tiene 40 dientes, ¿cuántos dientes tiene "
+"el engranaje del volante?"
+msgstr ""
+"In a stationary bicycle, the pedal shaft rotates at 60 rpm and is connected "
+"by gears to the flywheel, which rotates at 360 rpm. If the pedal gear has "
+"40 teeth, how many teeth does the flywheel gear have?"
+
+#: ../../source/mecan-engranajes.rst:234
+msgid ""
+"En un reloj mecánico, un engranaje gira a 120 rpm y mueve otro engranaje "
+"que gira a 10 rpm. Si el engranaje rápido tiene 12 dientes, ¿cuántos "
+"dientes tiene el engranaje lento?"
+msgstr ""
+"In a mechanical clock, one gear rotates at 120 rpm and drives another gear "
+"that rotates at 10 rpm. If the fast gear has 12 teeth, how many teeth does "
+"the slow gear have?"
+
+#: ../../source/mecan-engranajes.rst:239
+msgid ""
+"Un ventilador industrial utiliza un motor que gira a 3000 rpm. Para "
+"reducir el ruido, el eje del ventilador debe girar a 750 rpm. Si el "
+"engranaje del motor debe tener entre 12 y 20 dientes, ¿cuántos dientes "
+"debe tener el engranaje del ventilador?"
+msgstr ""
+"An industrial fan uses a motor that rotates at 3,000 rpm. To reduce noise, "
+"the fan shaft must rotate at 750 rpm. If the motor gear must have between "
+"12 and 20 teeth, how many teeth must the fan gear have?"
+
+#: ../../source/mecan-engranajes.rst:244
+msgid ""
+"Un motor eléctrico gira a una velocidad de 1800 rpm y está conectado "
+"mediante engranajes a un eje secundario. El engranaje del motor tiene 12 "
+"dientes y el engranaje del eje secundario tiene 48 dientes. ¿A qué "
+"velocidad gira el eje secundario?"
+msgstr ""
+"An electric motor rotates at a speed of 1,800 rpm and is connected by gears "
+"to a secondary shaft. The motor gear has 12 teeth and the secondary shaft "
+"gear has 48 teeth. At what speed does the secondary shaft rotate?"
+
+#: ../../source/mecan-engranajes.rst:250
+msgid ""
+"En una máquina herramienta, un eje gira a 600 rpm y transmite el "
+"movimiento a otro eje mediante un engranaje. El primer engranaje tiene 30"
+" dientes y el segundo engranaje tiene 15 dientes. ¿Cuál es la velocidad "
+"de giro del segundo eje?"
+msgstr ""
+"In a machine tool, one shaft rotates at 600 rpm and transmits motion to "
+"another shaft through gears. The first gear has 30 teeth and the second gear "
+"has 15 teeth. What is the rotational speed of the second shaft?"
+
+#: ../../source/mecan-engranajes.rst:255
+msgid ""
+"Un sistema reductor está formado por dos engranajes. El engranaje de "
+"entrada gira a 3000 rpm y tiene 20 dientes. El engranaje de salida tiene "
+"80 dientes. ¿A qué velocidad gira el engranaje de salida?"
+msgstr ""
+"A reduction system is made up of two gears. The input gear rotates at "
+"3,000 rpm and has 20 teeth. The output gear has 80 teeth. At what speed does "
+"the output gear rotate?"
+
+#: ../../source/mecan-engranajes.rst:260
+msgid ""
+"Una mezcladora industrial utiliza un motor que gira a 1200 rpm. El motor "
+"está conectado a las palas mediante un engranaje reductor. El engranaje "
+"del motor tiene 16 dientes y el engranaje de las palas tiene 64 dientes. "
+"¿Cuál es la velocidad de giro de las palas?"
+msgstr ""
+"An industrial mixer uses a motor that rotates at 1,200 rpm. The motor is "
+"connected to the blades by a reduction gear. The motor gear has 16 teeth "
+"and the blade gear has 64 teeth. What is the rotational speed of the blades?"
+

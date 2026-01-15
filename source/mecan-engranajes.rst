@@ -23,14 +23,21 @@ Cuando las ruedas tienen distinto tamaño, la rueda más grande se llama
 
    Engranaje de corona y piñón con flechas de sentido de giro.
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
+   
+Aplicaciones
+------------
 Una de las aplicaciones más importantes de los engranajes es la
 transformación de la velocidad de giro desde un motor, generalmente rápido
 y con poco par de giro, hasta la aplicación que ha de realizar trabajo,
 generalmente más lenta y con mayor par de giro.
 
-Por ejemplo, en un automóvil, los engranajes transforman la alta
-velocidad del motor (que gira muy rápido con poca fuerza) en una
-velocidad más baja pero con más fuerza para mover las ruedas.
+Por ejemplo, en un automóvil, los engranajes convierten la alta velocidad
+del motor (que gira muy rápido pero con poca fuerza) en una velocidad más
+baja, pero con mayor fuerza, para mover las ruedas.
 
 
 :index:`Par motor`
@@ -200,3 +207,57 @@ Por último despejamos la ecuación y calculamos el valor de la incógnita:
 
 El número de dientes del segundo engranaje conectado a la rueda será
 de 60 dientes.
+
+Ejercicios
+----------
+#. ¿Qué es un engranaje? ¿Qué función tiene?
+#. ¿Cómo se llaman los distintos engranajes y qué les distingue?
+#. ¿Cuál es una de las aplicaciones más importantes de los engranajes?
+#. ¿Qué es el par motor y en qué unidades se mide?
+#. ¿Qué relación hay entre la velocidad y el par motor en un engranaje?
+
+#. Un taladro eléctrico tiene un motor que gira a 12000 rpm.
+   Mediante un engranaje reductor se quiere que la broca gire a 3000 rpm.
+   Si el piñón conectado al motor tiene 12 dientes,
+   ¿cuántos dientes debe tener la corona conectada a la broca?
+
+#. Una cinta transportadora industrial se mueve gracias a un motor que
+   gira a 1800 rpm. La cinta debe girar a 300 rpm.
+   Si la corona conectada a la cinta tiene 72 dientes,
+   ¿cuántos dientes debe tener el piñón conectado al motor?
+
+#. En una bicicleta estática, el eje de los pedales gira a 60 rpm y está
+   conectado mediante engranajes al volante de inercia, que gira a 360 rpm.
+   Si el engranaje de los pedales tiene 40 dientes, 
+   ¿cuántos dientes tiene el engranaje del volante?
+
+#. En un reloj mecánico, un engranaje gira a 120 rpm y mueve otro
+   engranaje que gira a 10 rpm.
+   Si el engranaje rápido tiene 12 dientes,
+   ¿cuántos dientes tiene el engranaje lento?
+
+#. Un ventilador industrial utiliza un motor que gira a 3000 rpm.
+   Para reducir el ruido, el eje del ventilador debe girar a 750 rpm.
+   Si el engranaje del motor debe tener entre 12 y 20 dientes,
+   ¿cuántos dientes debe tener el engranaje del ventilador?
+
+#. Un motor eléctrico gira a una velocidad de 1800 rpm y está conectado
+   mediante engranajes a un eje secundario.
+   El engranaje del motor tiene 12 dientes y el engranaje del eje
+   secundario tiene 48 dientes.
+   ¿A qué velocidad gira el eje secundario?
+
+#. En una máquina herramienta, un eje gira a 600 rpm y transmite el
+   movimiento a otro eje mediante un engranaje.
+   El primer engranaje tiene 30 dientes y el segundo engranaje tiene
+   15 dientes. ¿Cuál es la velocidad de giro del segundo eje?
+
+#. Un sistema reductor está formado por dos engranajes.
+   El engranaje de entrada gira a 3000 rpm y tiene 20 dientes.
+   El engranaje de salida tiene 80 dientes.
+   ¿A qué velocidad gira el engranaje de salida?
+
+#. Una mezcladora industrial utiliza un motor que gira a 1200 rpm.
+   El motor está conectado a las palas mediante un engranaje reductor.
+   El engranaje del motor tiene 16 dientes y el engranaje de las palas
+   tiene 64 dientes. ¿Cuál es la velocidad de giro de las palas?

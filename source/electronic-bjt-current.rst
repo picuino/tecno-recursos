@@ -117,13 +117,14 @@ Ejercicios
    miliamperios.
 
    Para conseguirlo, cambia la tensión de alimentación a 12 voltios
-   y calcula la resistencia R2 necesaria con la fórmula:
+   y calcula la resistencia R2 necesaria con la siguiente fórmula:
 
    .. math::
 
-      R_2 = \frac{V_be}{I_e}
+      R_2 = \frac{V_{be}}{I_e}
 
-   Sin utilizar decimales para el valor de la resistencia.
+   Cambia en el simulador anterior los valores de tensión de alimentación
+   y de resistencia R2 para comprobar que funcionan correctamente.
 
 #. Diseña en el
    `simulador de circuitos
