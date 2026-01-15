@@ -238,3 +238,64 @@ o tercer grado. Formato PDF <mecan/mecan-palancas-02.pdf>`
 
 :download:`Ejercicio para identificar palancas de primero, segundo
 o tercer grado. Formato DOC <mecan/mecan-palancas-02.doc>`
+
+#. Un **martillo** se utiliza como palanca de primer grado para sacar un clavo.
+   Se aplica una fuerza de 12 kgf en el extremo del mango.
+   La distancia desde el punto de apoyo hasta la fuerza aplicada es de 
+   30 cm, y la distancia desde el punto de apoyo hasta el clavo es de 30 mm.
+   ¿Cuál es la fuerza que actúa sobre el clavo?
+
+#. Unas **tijeras** funcionan como una palanca de primer grado.
+   Se aplica una fuerza de 8 kgf en cada mango.
+   La distancia desde el eje hasta el punto donde se aplica la fuerza es
+   de 9 cm, y la distancia desde el eje hasta el punto de corte es de 3 cm.
+   ¿Qué fuerza se ejerce en el punto de corte?
+
+#. Una **barra** se utiliza como palanca de primer grado para levantar una
+   piedra de 120 kgf de peso.
+   La distancia desde el punto de apoyo hasta la piedra es de 40 cm, y 
+   la distancia desde el punto de apoyo hasta donde se aplica la fuerza es
+   de 160 cm. ¿Qué fuerza hay que aplicar para levantar la piedra?
+
+#. Un **cascanueces** puede modelarse como una palanca de segundo grado.
+   La nuez ejerce una resistencia de 15 kgf.
+   La distancia desde el punto de apoyo hasta la nuez es de 4 cm,
+   y la distancia desde el punto de apoyo hasta donde se aplica la fuerza
+   es de 20 cm. ¿Qué fuerza hay que aplicar para romper la nuez?
+
+#. Un **abridor de botellas** actúa como una palanca de segundo grado.
+   La fuerza necesaria para levantar la chapa es de 25 kgf.
+   La distancia desde el punto de apoyo hasta la chapa es de 2 cm, y la distancia desde el punto de apoyo hasta la fuerza aplicada es de 10 cm.
+   ¿Cuánta fuerza debemos aplicar?
+
+#. Una **prensa manual** para poner corchos en botellas funciona como una
+   palanca de segundo grado.
+   La prensa tiene las siguientes dimensiones:
+   
+   * La distancia desde el punto de apoyo hasta el corcho (carga) es de
+     5 cm.
+   * La distancia desde el corcho hasta el punto donde el operario
+     aplica la fuerza es de 50 cm.
+
+   Si el operario aplica una fuerza de 11 kgf en el mango de la prensa,
+   ¿cuál es la fuerza que ejerce la prensa sobre el corcho?
+
+#. Unas **pinzas** funcionan como una palanca de tercer grado.
+   Se aplica una fuerza de 6 kgf con los dedos.
+   La distancia desde el punto de apoyo hasta donde se aplica la fuerza
+   es de 40 mm, y la distancia desde el punto de apoyo hasta el extremo
+   de las pinzas es de 80 mm.
+   ¿Qué fuerza se ejerce en el extremo de las pinzas?
+
+#. El **antebrazo** puede modelarse como una palanca de tercer grado.
+   El bíceps aplica una fuerza de 300 kgf.
+   La distancia desde el codo hasta el punto donde actúa el bíceps es de
+   50mm, y la distancia desde el codo hasta la mano es de 35 cm.
+   ¿Con qué fuerza se puede levantar la mano?
+
+#. Una **caña de pescar** funciona como una palanca de tercer grado.
+   El pescador aplica una fuerza de 20 kgf con la mano tirando de la caña.
+   La distancia desde el punto de apoyo (extremo de abajo de la caña, 
+   apoyado en el suelo) hasta el punto donde se aplica la fuerza es de
+   50 cm, y la longitud total de la caña es de 200 cm.
+   ¿Cuál es la fuerza que ejerce el pez sobre la caña?
