@@ -9,8 +9,11 @@
 :index:`Palancas`
 =================
 La **palanca** es una máquina simple formada por una **barra rígida**
-que gira alrededor de un punto de apoyo llamado **fulcro**.
+que gira alrededor de un punto fijo llamado **fulcro** o 
+**punto de apoyo**.
 
+Las palancas permiten **multiplicar fuerzas** o **aumentar
+desplazamientos** aplicando el principio del equilibrio de momentos.
 
 .. contents:: Índice de contenidos:
    :local:
@@ -21,21 +24,25 @@ Aplicaciones
 ------------
 Las palancas se pueden utilizar para realizar varias funciones:
 
-1. **Transmitir una fuerza** o un desplazamiento desde un punto a otro.
-   Es el caso de unas tijeras que transmiten la fuerza y movimiento
-   desde unos dedales adaptados a la mano, hasta la hoja de corte.
+1. **Transmitir una fuerza o un movimiento** desde un punto a otro.
+   Es el caso de unas tijeras, que transmiten la fuerza y el movimiento
+   desde unos dedales adaptados a la mano hasta las hojas de corte.
 2. **Aumentar la fuerza** ejercida. Es el caso de un cascanueces o unos
    alicates.
 3. **Aumentar el desplazamiento** aplicado. Es el caso de un remo o de
    una caña de pescar.
 
-Dependiendo de la situación de la fuerza aplicada (F), de la resistencia
-a mover (R) y del fulcro (△) podemos distinguir tres tipos de palancas.
+Dependiendo de la situación relativa de la **fuerza aplicada (F)**, 
+de la **resistencia o carga (R)** y el **fulcro (△)**, distinguimos tres
+tipos de palancas.
 
 Palancas de primer grado
 ------------------------
-Las palancas de primer grado tienen el fulcro en el medio
-de la barra, entre la fuerza aplicada y la resistencia.
+En las palancas de primer grado el fulcro está situado entre la fuerza
+aplicada y la resistencia.
+
+En este tipo de palanca, según las distancias, se puede ganar fuerza
+o ganar desplazamiento.
 
 .. image:: mecan/_images/mecan-palancas-01.png
    :alt: Palanca simple de primer grado
@@ -53,9 +60,13 @@ unos alicates.
 
 Palancas de segundo grado
 -------------------------
-Las palancas de segundo grado tienen la resistencia en el medio
-de la barra, entre el fulcro y la fuerza aplicada.
-El fulcro se encuentra en un extremo.
+En las palancas de segundo grado la resistencia se encuentra entre
+el fulcro y la fuerza aplicada.
+
+El fulcro se encuentra en un extremo de la barra.
+
+Este tipo de palanca siempre multiplica la fuerza, es decir,
+se necesita aplicar una fuerza menor que la resistencia.
 
 .. image:: mecan/_images/mecan-palancas-02.png
    :alt: Palanca simple de segundo grado
@@ -73,10 +84,13 @@ un sacacorchos.
 
 Palancas de tercer grado
 ------------------------
+En las palancas de tercer grado la fuerza aplicada se situa entre el
+fulcro y la resistencia.
 
-Las palancas de tercer grado tienen la fuerza aplicada en el medio
-de la barra, entre el fulcro y la resistencia.
-El fulcro se encuentra en un extremo.
+El fulcro está situado en un extremo de la barra.
+
+Este tipo de palanca no multiplica la fuerza, pero permite obtener
+mayor desplazamiento y mayor velocidad en el extremo.
 
 .. image:: mecan/_images/mecan-palancas-03.png
    :alt: Palanca simple de tercer grado
@@ -94,21 +108,23 @@ antebrazo cuando sube la mano o una caña de pescar.
 
 Cálculo de fuerzas y distancias
 -------------------------------
-La fórmula para calcular las fuerzas y distancias involucradas en una
-palanca iguala los torques producidos por las fuerzas.
-El torque es el producto de una fuerza por su distancia al punto de
-apoyo, de manera que la fórmula queda como sigue.
+Para que una palanca esté en equilibrio, los **momentos de giro
+(o torques)** respecto al punto de apoyo deben ser iguales.
+
+El momento de giro es el producto de una fuerza por su distancia al fulcro.
 
 .. image:: mecan/_images/mecan-palancas-07.png
    :alt: Palanca de primer grado con sus fuerzas y distancias.
    :align: center
    :height: 177px
 
+La expresión matemática es la siguiente:
+
 .. math::
 
    F_{1} \cdot d_{1} = F_{2} \cdot d_{2}
 
-Siendo
+Donde:
 
    F1 = Fuerza aplicada 1
 
@@ -119,11 +135,11 @@ Siendo
    d2 = Distancia desde la fuerza 2 hasta el punto de apoyo
 
 Las distancias pueden medirse en metros, centímetros, milímetros,
-pulgadas, etc. Pero ambas distancias deben medirse siempre
-con la misma unidad.
+pulgadas, etc. Pero ambas distancias deben estar siempre
+en la misma unidad al hacer los cálculos.
 
-Las fuerzas pueden medirse en kilogramos-fuerza o en Newtons, siempre
-que ambas fuerzas se midan con la misma unidad.
+Las fuerzas pueden medirse en kilogramos-fuerza (kgf) o en Newton (N),
+pero deben expresarse en la misma unidad en ambos lados de la ecuación.
 
 
 Ejercicio alicates

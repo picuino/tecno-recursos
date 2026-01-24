@@ -39,6 +39,7 @@ extensions = [
 
 imgmath_font_size = 16
 imgmath_image_format = 'svg'
+imgmath_dvisvgm_args = ['--no-fonts', '--bbox=2pt']
 #imgmath_dvipng_args = ['-gamma', '1.5', '-D', '150', '-bg', 'Transparent']
 
 
