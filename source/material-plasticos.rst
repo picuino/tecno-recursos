@@ -440,8 +440,9 @@ inicial.
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.es>`__,
       vía Wikimedia Commons.
 
-Preguntas de la unidad
-----------------------
+
+Unidad imprimible
+-----------------
 Unidad en formato imprimible, con preguntas.
 
 | :download:`Materiales plásticos. Formato PDF.

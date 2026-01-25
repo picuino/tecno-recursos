@@ -315,3 +315,22 @@ o tercer grado. Formato DOC <mecan/mecan-palancas-02.doc>`
    apoyado en el suelo) hasta el punto donde se aplica la fuerza es de
    50 cm, y la longitud total de la caña es de 200 cm.
    ¿Cuál es la fuerza que ejerce el pez sobre la caña?
+
+
+Unidad imprimible
+-----------------
+Unidad en formato imprimible, con preguntas.
+
+| :download:`Los mecanismos. Formato PDF.
+  <mecan/mecan-mecanismos.pdf>`
+| :download:`Las estructuras. Formato DOC.
+  <mecan/mecan-mecanismos.doc>`
+
+
+Preguntas de tipos de palancas.
+
+| :download:`Tipos de palancas. Formato PDF.
+  <mecan/mecan-palancas-02.pdf>`
+| :download:`Tipos de palancas. Formato DOC.
+  <mecan/mecan-palancas-02.doc>`
+

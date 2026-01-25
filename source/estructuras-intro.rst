@@ -241,8 +241,8 @@ Test de la unidad
 <../test/es-mecan-structures.html>`__
 
 
-Preguntas de la unidad
-----------------------
+Unidad imprimible
+-----------------
 Unidad en formato imprimible, con preguntas.
 
 | :download:`Las estructuras. Formato PDF.
