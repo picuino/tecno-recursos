@@ -118,7 +118,7 @@ fórmula:
 
    Avance = Giro \cdot Paso
 
-Siendo
+Donde:
 
    Avance = distancia lineal que recorre el tornillo en milímetros.
 
@@ -291,3 +291,13 @@ Ejercicios
 #. Una sierra de banco tiene un tornillo de ajuste del soporte con paso
    de 1,5 mm por vuelta. Si giramos la manivela 40 vueltas, 
    ¿cuánto se desplazará el soporte?
+
+
+Unidad imprimible
+-----------------
+Unidad en formato imprimible, con preguntas.
+
+| :download:`Los mecanismos. Formato PDF.
+  <mecan/mecan-mecanismos.pdf>`
+| :download:`Los mecanismos. Formato DOC.
+  <mecan/mecan-mecanismos.doc>`

@@ -261,3 +261,13 @@ Ejercicios
    El motor está conectado a las palas mediante un engranaje reductor.
    El engranaje del motor tiene 16 dientes y el engranaje de las palas
    tiene 64 dientes. ¿Cuál es la velocidad de giro de las palas?
+
+
+Unidad imprimible
+-----------------
+Unidad en formato imprimible, con preguntas.
+
+| :download:`Los mecanismos. Formato PDF.
+  <mecan/mecan-mecanismos.pdf>`
+| :download:`Los mecanismos. Formato DOC.
+  <mecan/mecan-mecanismos.doc>`

@@ -21,7 +21,7 @@ A continuación se explican los más comunes.
 :index:`Vuelco`
 ---------------
 El vuelco de una estructura se produce cuando su centro de
-gravedad no se encuentra dentro de la base de apoyo.
+gravedad cae fuera de la base de apoyo.
 
 :index:`Centro de gravedad`:
    Es el punto donde se concentra toda la masa de la estructura.

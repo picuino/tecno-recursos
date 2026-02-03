@@ -248,12 +248,12 @@ kilogramo-fuerza:
 
 Ejercicios de palancas
 ----------------------
+#. Preguntas de tipos de palancas:
 
-:download:`Ejercicio para identificar palancas de primero, segundo
-o tercer grado. Formato PDF <mecan/mecan-palancas-02.pdf>`
-
-:download:`Ejercicio para identificar palancas de primero, segundo
-o tercer grado. Formato DOC <mecan/mecan-palancas-02.doc>`
+   | :download:`Tipos de palancas. Formato PDF.
+     <mecan/mecan-palancas-02.pdf>`
+   | :download:`Tipos de palancas. Formato DOC.
+     <mecan/mecan-palancas-02.doc>`
 
 #. Un **martillo** se utiliza como palanca de primer grado para sacar un clavo.
    Se aplica una fuerza de 12 kgf en el extremo del mango.
@@ -323,14 +323,6 @@ Unidad en formato imprimible, con preguntas.
 
 | :download:`Los mecanismos. Formato PDF.
   <mecan/mecan-mecanismos.pdf>`
-| :download:`Las estructuras. Formato DOC.
+| :download:`Los mecanismos. Formato DOC.
   <mecan/mecan-mecanismos.doc>`
-
-
-Preguntas de tipos de palancas.
-
-| :download:`Tipos de palancas. Formato PDF.
-  <mecan/mecan-palancas-02.pdf>`
-| :download:`Tipos de palancas. Formato DOC.
-  <mecan/mecan-palancas-02.doc>`
 

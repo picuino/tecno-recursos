@@ -174,3 +174,13 @@ con la que debemos tirar de la cuerda para levantar un peso.
 |
 | :download:`Ejercicios de poleas y polipastos.
   Formato editable ODT. <mecan/mecan-poleas-ejercicios.odt>`
+
+
+Unidad imprimible
+-----------------
+Unidad en formato imprimible, con preguntas.
+
+| :download:`Los mecanismos. Formato PDF.
+  <mecan/mecan-mecanismos.pdf>`
+| :download:`Los mecanismos. Formato DOC.
+  <mecan/mecan-mecanismos.doc>`
