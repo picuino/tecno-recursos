@@ -75,7 +75,7 @@ fácil de modificar posteriormente.
   descriptivo es más fácil de leer y escribir.
 
 **No utilices caracteres especiales**
-  Los caracteres especiales (vocales con tilde, eñe, diéresis, etc) y los
+  Los caracteres especiales (vocales con tilde, eñe, diéresis, etc.) y los
   espacios pueden causar problemas en algunos lenguajes de programación o
   con otros programadores. Es mejor acostumbrarse a no utilizarlos nunca.
 

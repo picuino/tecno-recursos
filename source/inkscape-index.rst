@@ -9,7 +9,7 @@
 ***********************
 
 Tutorial para aprender a crear dibujos vectoriales
-con el programa de código libre Inkscape.
+con el programa de código libre `Inkscape <https://inkscape.org/>`__.
 
 .. image:: inkscape/_images/inkscape-logo.png
    :width: 240px

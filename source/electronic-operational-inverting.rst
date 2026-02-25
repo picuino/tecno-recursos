@@ -56,6 +56,9 @@ Simulación
 En la siguiente simulación podemos ver un amplificador inversor de
 ganancia 5 que amplifica una pequeña señal senoidal de entrada.
 
+En color verde podemos ver la forma de onda de la tensión de entrada y
+en color rojo podemos ver la forma de onda de la tensión de salida.
+
 .. raw:: html
 
    <div class="video-center">
@@ -72,8 +75,8 @@ Ejercicios
    inversor anterior.
 
 #. ¿Qué tipo de realimentación tiene este circuito?
-   ¿Qué les ocurre a las tensiones de entrada con ese tipo de
-   realimentación?
+   ¿Qué les ocurre a las tensiones de entrada ``-`` y ``+`` del
+   amplificador operacional con ese tipo de realimentación?
 
 #. Dibuja dos gráficas que representen la tensión de entrada y la tensión
    de salida del amplificador inversor simulado.
@@ -87,18 +90,22 @@ Ejercicios
    operacional inversor tenga una resistencia de entrada de 1000 Ohmios
    y una ganancia de tensión igual a -100.
 
-   Dibuja un esquema realista de este amplificador, con una alimentación
-   de +-6 voltios y una entrada de tensión senoidal de 0.1 voltios.
+   Dibuja en papel un esquema realista de este amplificador, con una
+   alimentación de +-15 voltios y una entrada de tensión senoidal de
+   0.1 voltios.
 
 #. Con ayuda del
-   `simulador de circuitos
-   <../circuits/?startCircuit=empty.txt>`__
+   `simulador de circuitos <../circuits/?startCircuit=empty.txt>`__
    dibuja el esquema de un amplificador operacional inversor
    basado en un amplificador operacional real (LM324)
    que amplifique la señal de un generador de tensión de onda cuadrada
    con una tensión de pico de 1 voltio.
-   La ganancia de tensión debe valer 2.
+   La ganancia de tensión debe valer -2.
+
+   Añade la tensión de alimentación del amplificador operacional con la
+   fuente de tensión de un terminal (letra V mayúscula).
 
    Grafica en el mismo osciloscopio la señal de tensión del generador y
    la señal de tensión de salida del amplificador operacional.
+   Borra las gráficas amarillas de corriente.
 

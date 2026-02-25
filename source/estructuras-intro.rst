@@ -135,8 +135,7 @@ Entramadas
 Colgantes
    Formadas por cables que soportan las cargas.
 
-   Ejemplos: Teleférico. Puente atirantado o puente colgante. Grúa de obra.
-   Tirolina.
+   Ejemplos: Teleférico. Puente atirantado o puente colgante. Tirolina.
 
    .. figure:: mecan/_images/estructuras-puente-colgante.jpg
       :align: center

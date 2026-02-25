@@ -11,7 +11,7 @@ Derechos de autor y propiedad intelectual
 Contenidos
 ----------
 
-Copyright © 2013-2025 por Carlos Félix Pardo Martín.
+Copyright © 2013-2026 por Carlos Félix Pardo Martín.
 
 Los contenidos publicados, tales como **textos, imágenes,
 planos, gráficos, fotografías, etc.** se distribuyen bajo una
