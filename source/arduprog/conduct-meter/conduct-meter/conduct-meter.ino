@@ -21,11 +21,12 @@
 #include <LiquidCrystal_I2C.h>
 
 
-const float resistencia = 10000.0;        // Resistencia R1 en ohmios
+const float resistencia_pin = 40.0;       // Resistencia del pin de salida del Arduino
+const float resistencia_R1 = 10000.0;     // Resistencia R1 en ohmios
 const float v_alimentacion = 5.0;         // Tensión de alimentación en voltios
 const float to_micros = 1000000.0;        // Convertir una unidad en micro-unidades
 const float pasos_adc = 16 * 1024.0 - 1;  // Pasos de conversión máximos del ADC
-const float resistencia_max = round(pasos_adc * resistencia * 0.000001) * 1000000;
+const float resistencia_max = round(pasos_adc * resistencia_R1 * 0.000001) * 1000000;
 
 unsigned long tiempo_anterior = 0;  // Variable del temporizador
 unsigned long intervalo = 1000;     // Intervalo de temporización. 1000ms = 1s
@@ -91,6 +92,7 @@ int adc_read_vr1() {
   // Leer el valor de tensión en R1
   adc1 = analogRead(A1);
 
+  // Descargar el condensador
   descarga_condensador();
   pinMode(A1, INPUT);
 
@@ -109,15 +111,15 @@ int adc_read_vr1() {
 }
 
 float adc_to_current(int vr1) {
-  return vr1 * to_micros * v_alimentacion / (pasos_adc * resistencia);
+  return vr1 * to_micros * v_alimentacion / (pasos_adc * resistencia_R1);
 }
 
 float adc_to_resistance(int vr1, int vr2) {
   if (vr1 == 0) {
-    // Si no hay corriente, devolver la menor resistencia posible.
+    // Si no hay corriente, devolver la mayor resistencia posible.
     return resistencia_max;
   }
-  return vr2 * resistencia / vr1;
+  return vr2 * resistencia_R1 / vr1 - resistencia_pin;
 }
 
 int lcd_output(float current, float r2) {
