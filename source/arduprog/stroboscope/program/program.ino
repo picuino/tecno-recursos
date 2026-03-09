@@ -16,36 +16,59 @@
    You should have received a copy of the GNU General Public License
    along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-   Release 1.0: 2026-03-09
-
+   Release 0.1: 2026-03-09
 */
 
 const unsigned long fclock = 16000000L;
-unsigned long actualTime, oldTime;
+const unsigned long timeBetweenSetups = 100L;
+const unsigned long timeBetweenKeybs = 10L;
+const unsigned char timePressedMax = 10;
+const unsigned char prescalerMax = 63;
+const unsigned char keyDown = 2;
+const unsigned char keyUp = 3;
+const unsigned char keyMode = 4;
+
+
+unsigned long timeActual, timeSetup, timeKeyb;
+unsigned char keyb;
+unsigned char prescaler;
 
 
 void setup() {
-  oldTime = millis();
+  pinMode(keyDown, INPUT_PULLUP);
+  pinMode(keyUp, INPUT_PULLUP);
+  pinMode(keyMode, INPUT_PULLUP);
+
+  timeSetup = millis();
   Serial.begin(9600);
+
+  prescaler = prescalerMax / 2;
+  keyb = 0;
 }
 
 
 void loop() {
   unsigned int pot;
-  unsigned char prescaler, cycles;
   unsigned long total_cycles;
-  actualTime = millis();
-  if (actualTime - oldTime >= 100) {
-    oldTime = actualTime;
+
+  timeActual = millis();
+  if (timeActual - timeKeyb >= timeBetweenKeybs) {
+    timeKeyb = timeActual;
+    
+    keyb_read();
+    keyb_manage();
+  }
+  
+  if (timeActual - timeSetup >= timeBetweenSetups) {
+    timeSetup = timeActual;
+
     pot = analogRead(A0);
-    prescaler = pot >> 4;
-    cycles = (pot & 0x1F) << 4;
-    total_cycles = timer1_setup(prescaler, cycles);
-    Serial.print(pot); Serial.print('\t');
-    Serial.print(prescaler); Serial.print('\t');
-    Serial.print(cycles); Serial.print('\t');
-    Serial.print(total_cycles); Serial.print('\t');
-    print_frequency(total_cycles);
+    total_cycles = timer1_setup(prescaler, (pot >> 2));
+    Serial.print(prescaler); Serial.print("\t");
+    Serial.print(pot>>2); Serial.print("\t");
+    Serial.print(total_cycles); Serial.print("\t");
+    print_frequency(total_cycles); Serial.print("\t");
+    Serial.print(keyb, BIN);
     Serial.println();
   }
 }
@@ -125,4 +148,49 @@ unsigned long timer1_setup(unsigned char prescaler, unsigned char cycles) {
   DDRB |= (1 << PB1);
 
   return total_cycles;
+}
+
+
+void keyb_manage(void) {
+  if (keyb & (1 << keyDown)) {
+    keyb &= ~(1 << keyDown);
+    if (prescaler > 0) {
+      prescaler--;
+    }
+    else {
+      prescaler = prescalerMax;
+    }
+  }
+  if (keyb & (1 << keyUp)) {
+    keyb &= ~(1 << keyUp);
+    if (prescaler < prescalerMax) {
+      prescaler++;
+    }
+    else {
+      prescaler = 0;
+    }
+  }
+  if (keyb & (1 << keyMode)) {
+    keyb &= ~(1 << keyMode);
+  }
+}
+
+
+void keyb_read(void) {
+  static unsigned char timePressed[8] = {0, 0, 0, 0, 0, 0, 0, 0};
+
+  for (char key = 2; key <= 5; key++) {
+    if (digitalRead(key) == LOW) {
+      if (timePressed[key] < timePressedMax) {
+        timePressed[key]++;
+        if (timePressed[key] == timePressedMax) {
+          keyb |= (1 << key);
+        }
+      }
+    }
+    else {
+      timePressed[key] = 0;
+      keyb &= ~(1 << key);
+    }
+  }
 }
