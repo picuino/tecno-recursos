@@ -17,12 +17,14 @@
    along with this program. If not, see <https://www.gnu.org/licenses/>.
 
    Release 0.1: 2026-03-09
+   Release 0.2: 2026-03-16
 */
 
 const unsigned long fclock = 16000000L;
 const unsigned long timeBetweenSetups = 100L;
 const unsigned long timeBetweenKeybs = 10L;
 const unsigned char timePressedMax = 10;
+const unsigned char prescalerMin = 12;
 const unsigned char prescalerMax = 63;
 const unsigned char keyDown = 2;
 const unsigned char keyUp = 3;
@@ -32,9 +34,13 @@ const unsigned char keyMode = 4;
 unsigned long timeActual, timeSetup, timeKeyb;
 unsigned char keyb;
 unsigned char prescaler;
+unsigned char TCCR1A_new, TCCR1B_new, TCCR1A_old, TCCR1B_old, TIMER1_update;
+unsigned int ICR1_new, OCR1A_new, ICR1_old, OCR1A_old;
 
 
 void setup() {
+  analogReference(EXTERNAL);
+  
   pinMode(keyDown, INPUT_PULLUP);
   pinMode(keyUp, INPUT_PULLUP);
   pinMode(keyMode, INPUT_PULLUP);
@@ -42,10 +48,10 @@ void setup() {
   timeSetup = millis();
   Serial.begin(9600);
 
-  prescaler = prescalerMax / 2;
+  timer1_reset();
+
   keyb = 0;
 }
-
 
 void loop() {
   unsigned int pot;
@@ -54,21 +60,21 @@ void loop() {
   timeActual = millis();
   if (timeActual - timeKeyb >= timeBetweenKeybs) {
     timeKeyb = timeActual;
-    
+
     keyb_read();
     keyb_manage();
   }
-  
+
   if (timeActual - timeSetup >= timeBetweenSetups) {
     timeSetup = timeActual;
 
     pot = analogRead(A0);
     total_cycles = timer1_setup(prescaler, (pot >> 2));
+    TIMER1_update = 1;
     Serial.print(prescaler); Serial.print("\t");
-    Serial.print(pot>>2); Serial.print("\t");
+    Serial.print(pot >> 2); Serial.print("\t");
     Serial.print(total_cycles); Serial.print("\t");
     print_frequency(total_cycles); Serial.print("\t");
-    Serial.print(keyb, BIN);
     Serial.println();
   }
 }
@@ -99,6 +105,41 @@ void print_frequency(unsigned long total_cycles) {
 }
 
 
+// ISR Timer1
+ISR(TIMER1_COMPA_vect) {
+  if (TIMER1_update != 0) {
+    TCCR1A = TCCR1A_new;
+    TCCR1B = TCCR1B_new;
+    TCCR1C = 0;
+    ICR1 = ICR1_new;
+    OCR1A = OCR1A_new;
+    DDRB |= (1 << PB1);
+    
+    TCCR1A_old = TCCR1A_new;
+    TCCR1B_old = TCCR1B_new;
+    ICR1_old = ICR1_new;
+    OCR1A_old = OCR1A_new;
+    TIMER1_update = 0;
+  }
+}
+
+
+void timer1_reset(void) {
+  prescaler = (prescalerMax + prescalerMin) / 2;
+  timer1_setup(prescaler, 128);
+
+  cli();
+  TCCR1A_old = 0;
+  TCCR1B_old = 0;
+  ICR1_old = 0;
+  OCR1A_old = 0;
+  TIMER1_update = 1;
+  TIMSK1 |= (1 << OCIE1A); // Interrupt
+  TIMER1_update = 1;
+  sei();
+}
+
+
 // ADD enought time between light ON, preventing fuse of the leds.
 unsigned long timer1_setup(unsigned char prescaler, unsigned char cycles) {
   // Timer 1 setup
@@ -111,41 +152,38 @@ unsigned long timer1_setup(unsigned char prescaler, unsigned char cycles) {
   //   4 = Prescaler = 256 (8 bit)
   //   5 = Prescaler = 1024 (10 bit)
 
-  unsigned int top, duty;
+  unsigned char shift;
   unsigned long total_cycles;
-  unsigned char shift, TCCR1B_new;
 
   shift = (prescaler >> 2);
-  top = 1024 + ((prescaler & 0x03) << 8) + cycles;
+  TCCR1A_new = (1 << COM1A1) + (1 << WGM11);
+  ICR1_new = 1024 + ((prescaler & 0x03) << 8) + cycles;
   if (shift <= 5) {
     TCCR1B_new = (1 << WGM13) + (1 << WGM12) + (1 << CS10);
-    top <<= shift;    // Top count
-    duty = top >> 5;  // Duty cycle
-    total_cycles = ((unsigned long)top + 1);
+    ICR1_new <<= shift;         // Top count
+    OCR1A_new = ICR1_new >> 5;  // Duty cycle
+    total_cycles = ((unsigned long)ICR1_new + 1);
   }
   else if (shift <= 11) {
     TCCR1B_new = (1 << WGM13) + (1 << WGM12) + (3 << CS10);
     shift -= 6;
-    top <<= shift;    // Top count
-    duty = top >> 5;  // Duty cycle
-    if (duty > 256) duty = 256;
-    total_cycles = (((unsigned long)top + 1) << 6);
+    ICR1_new <<= shift;         // Top count
+    OCR1A_new = ICR1_new >> 5;  // Duty cycle
+    if (OCR1A_new > 256) {
+      OCR1A_new = 256;
+    }
+    total_cycles = (((unsigned long)ICR1_new + 1) << 6);
   }
   else {
     TCCR1B_new = (1 << WGM13) + (1 << WGM12) + (5 << CS10);
     shift -= 12;
-    top <<= shift;    // Top count
-    duty = top >> 5;  // Duty cycle
-    if (duty > 16) duty = 16;
-    total_cycles = (((unsigned long)top + 1) << 12);
+    ICR1_new <<= shift;         // Top count
+    OCR1A_new = ICR1_new >> 5;  // Duty cycle
+    if (OCR1A_new > 16) {
+      OCR1A_new = 16;
+    }
+    total_cycles = (((unsigned long)ICR1_new + 1) << 12);
   }
-
-  TCCR1A = (1 << COM1A1) + (1 << WGM11);
-  TCCR1B = TCCR1B_new;
-  TCCR1C = 0;
-  ICR1 = top;
-  OCR1A = duty;
-  DDRB |= (1 << PB1);
 
   return total_cycles;
 }
@@ -154,7 +192,7 @@ unsigned long timer1_setup(unsigned char prescaler, unsigned char cycles) {
 void keyb_manage(void) {
   if (keyb & (1 << keyDown)) {
     keyb &= ~(1 << keyDown);
-    if (prescaler > 0) {
+    if (prescaler > prescalerMin) {
       prescaler--;
     }
     else {
@@ -167,7 +205,7 @@ void keyb_manage(void) {
       prescaler++;
     }
     else {
-      prescaler = 0;
+      prescaler = prescalerMin;
     }
   }
   if (keyb & (1 << keyMode)) {
