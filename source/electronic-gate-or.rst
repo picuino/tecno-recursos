@@ -80,6 +80,14 @@ La **tabla de verdad de la puerta NOR** es la siguiente:
 
    Tabla de verdad de la puerta lógica NOR de dos entradas.
 
+Ejemplos de ordenadores construidos a partir de
+**puertas lógicas NOR discretas** son el 
+`ordenador de guiado de la cápsula Apollo
+<https://es.wikipedia.org/wiki/Apollo_Guidance_Computer>`__
+del programa espacial que llegó a la luna en 1969 o el famoso 
+`superordenador Cray-1 <https://es.wikipedia.org/wiki/Cray_1>`__
+en venta hasta 1982.
+
 
 Simulación
 ----------

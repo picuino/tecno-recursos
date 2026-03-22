@@ -7,7 +7,7 @@
 	(title_block
 		(title "Stroboscope LED for Arduino")
 		(date "2026-03-06")
-		(rev "R1")
+		(rev "R3")
 		(company "Picuino")
 		(comment 1 "License Creative Commons BY-SA 4.0 International")
 	)
@@ -1477,6 +1477,111 @@
 				)
 			)
 			(symbol "resistencia_1_1_1"
+				(pin input line
+					(at 0 0 270)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "resistencia_2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.905 -5.08 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "resistencia"
+				(at -2.54 -5.715 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "resistencia_2_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end 1.27 -8.255)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "resistencia_2_1_1"
 				(pin input line
 					(at 0 0 270)
 					(length 1.905)
@@ -3039,7 +3144,7 @@
 	)
 	(text "LED LAMP"
 		(exclude_from_sim no)
-		(at 229.362 38.608 0)
+		(at 225.044 38.608 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3049,7 +3154,7 @@
 	)
 	(text "BATTERY\n(5 AA CELLS)"
 		(exclude_from_sim no)
-		(at 136.652 129.032 0)
+		(at 141.478 127.508 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3079,7 +3184,7 @@
 	)
 	(text "BOOST CIRCUIT"
 		(exclude_from_sim no)
-		(at 223.012 100.33 0)
+		(at 227.076 100.076 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3132,6 +3237,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "336b92eb-7d14-4070-af83-acf83a5b16b8")
+	)
+	(junction
+		(at 209.55 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44cf91fe-0032-447a-8454-deb3a01f6b5d")
+	)
+	(junction
+		(at 199.39 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45f0e3af-ab61-45a1-a35a-8c381ef82a90")
 	)
 	(junction
 		(at 246.38 114.3)
@@ -3573,6 +3690,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 135.89) (xy 199.39 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e9483c-dcbf-482b-b5e8-8c58e009354c")
+	)
+	(wire
+		(pts
 			(xy 190.5 114.3) (xy 194.31 114.3)
 		)
 		(stroke
@@ -3603,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 127) (xy 233.68 139.7)
+			(xy 233.68 124.46) (xy 233.68 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3743,6 +3870,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 123.19) (xy 209.55 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7591380-2172-43f7-a9f7-8a83804ab907")
+	)
+	(wire
+		(pts
 			(xy 55.88 127) (xy 66.04 127)
 		)
 		(stroke
@@ -3793,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 114.3) (xy 233.68 119.38)
+			(xy 233.68 114.3) (xy 233.68 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3813,7 +3950,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 139.7) (xy 215.9 139.7)
+			(xy 199.39 139.7) (xy 215.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b41343-ca18-4f12-9e08-8543d2491d9e")
+	)
+	(wire
+		(pts
+			(xy 194.31 139.7) (xy 199.39 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4147,7 +4294,7 @@
 			)
 		)
 	)
-	(global_label "+22V"
+	(global_label "LAMP-VCC"
 		(shape input)
 		(at 198.12 50.8 180)
 		(fields_autoplaced yes)
@@ -4159,7 +4306,7 @@
 		)
 		(uuid "92f91d87-8a30-4c3e-aca2-38e2c112a7b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.709 50.8 0)
+			(at 185.7499 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +4626,7 @@
 	)
 	(global_label "BOOST_G"
 		(shape input)
-		(at 209.55 135.89 180)
+		(at 209.55 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4489,7 +4636,7 @@
 		)
 		(uuid "ea036b3b-d988-4e60-bda3-c4da92d90e7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.8733 135.89 0)
+			(at 198.8733 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4646,7 @@
 			)
 		)
 	)
-	(global_label "+22V"
+	(global_label "LAMP-VCC"
 		(shape input)
 		(at 256.54 114.3 0)
 		(fields_autoplaced yes)
@@ -4511,7 +4658,7 @@
 		)
 		(uuid "eac14398-3e7c-4500-81cf-30253d02291e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.951 114.3 0)
+			(at 268.9101 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,10 +4676,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2710c809-1968-4372-9016-2cf3d8d5f721")
 		(property "Reference" "L1"
-			(at 204.47 105.41 90)
+			(at 204.216 106.68 90)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -4565,13 +4711,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 209.55 114.3 0)
+		(property "Description" "1A"
+			(at 204.47 116.84 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -4584,6 +4729,75 @@
 			(project ""
 				(path "/0802b409-560a-4d90-83f0-c2be7b28d153"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "resistencia_2")
+		(lib_id "simbolos-electronicos:resistencia")
+		(at 199.39 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31779608-279f-4fa6-bf17-16c953d63458")
+		(property "Reference" "R3"
+			(at 204.47 128.1163 90)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 204.47 131.9263 90)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c5e260cc-ec1f-4a96-b7ff-a67a60743791")
+		)
+		(pin ""
+			(uuid "82fba36c-9d7b-47b3-b79e-5ac2ca19ee94")
+		)
+		(instances
+			(project "stroboscope"
+				(path "/0802b409-560a-4d90-83f0-c2be7b28d153"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5311,7 +5525,7 @@
 	)
 	(symbol
 		(lib_id "simbolos-electronicos:condensador")
-		(at 233.68 119.38 0)
+		(at 233.68 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5319,7 +5533,7 @@
 		(dnp no)
 		(uuid "9dea3051-fdbc-4ddf-8da7-eff8400fe633")
 		(property "Reference" "C2"
-			(at 229.87 122.2374 0)
+			(at 229.87 119.6974 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -5328,7 +5542,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 229.87 125.3998 0)
+			(at 229.87 122.8598 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -5337,7 +5551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 121.92 0)
+			(at 234.95 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 121.92 0)
+			(at 234.95 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,13 +5568,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 233.68 119.38 0)
+		(property "Description" "35V"
+			(at 226.822 125.984 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -5458,7 +5671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8793cf3-4ae8-4cfe-bbf1-cf02877e6ec5")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 248.92 132.7149 0)
 			(effects
 				(font
@@ -5512,7 +5725,7 @@
 		(instances
 			(project "stroboscope"
 				(path "/0802b409-560a-4d90-83f0-c2be7b28d153"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6150,7 +6363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9f3096b-02eb-4bad-8707-e339023a7bda")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 248.92 120.0149 0)
 			(effects
 				(font
@@ -6204,7 +6417,7 @@
 		(instances
 			(project "stroboscope"
 				(path "/0802b409-560a-4d90-83f0-c2be7b28d153"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6249,17 +6462,17 @@
 			(uuid "1521f5af-5eec-4981-9ad3-290d33348c66")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify left)
 			)
 		)
-		(pin "LAMP-GATE" bidirectional
+		(pin "LAMP-ON" bidirectional
 			(at 203.2 58.42 180)
 			(uuid "9863ca54-059d-47f9-822c-7f8cea060dd1")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify left)
 			)
@@ -6269,7 +6482,7 @@
 			(uuid "e6dc5e48-231e-42e6-a297-9ca542fa82ad")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify left)
 			)

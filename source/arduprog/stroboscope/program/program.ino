@@ -23,7 +23,7 @@
 const unsigned long fclock = 16000000L;
 const unsigned long timeBetweenSetups = 100L;
 const unsigned long timeBetweenKeybs = 10L;
-const unsigned char timePressedMax = 10;
+const unsigned char timePressedMax = 5;
 const unsigned char prescalerMin = 12;
 const unsigned char prescalerMax = 63;
 const unsigned char keyDown = 2;
@@ -196,7 +196,7 @@ void keyb_manage(void) {
       prescaler--;
     }
     else {
-      prescaler = prescalerMax;
+      prescaler = prescalerMin;
     }
   }
   if (keyb & (1 << keyUp)) {
@@ -205,7 +205,7 @@ void keyb_manage(void) {
       prescaler++;
     }
     else {
-      prescaler = prescalerMin;
+      prescaler = prescalerMax;
     }
   }
   if (keyb & (1 << keyMode)) {
