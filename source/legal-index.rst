@@ -17,6 +17,7 @@ Contacto, aviso legal, cookies, derechos de autor y créditos.
 
    contacto.rst
    manifiesto.rst
+   docentes.rst
    legal-aviso.rst
    legal-cookies.rst
    legal-attribution.rst

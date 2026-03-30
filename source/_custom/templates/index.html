@@ -17,7 +17,7 @@
   <title>{% trans %}Página principal - Picuino{% endtrans %}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% trans %}Recursos educativos libres para Tecnología en Educación Secundaria. Dibujo, mecánica, electricidad, electrónica, programación, informática, Arduino y más.{% endtrans %}">
+  <meta name="description" content="{% trans %}Recursos libres de Tecnología para usar y compartir en el aula. Dibujo, mecánica, electricidad, electrónica, programación, informática, Arduino y más.{% endtrans %}">
   <link rel="stylesheet" href="_static/index.css" type="text/css">
 
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -84,7 +84,7 @@
   <div class="content">
   <div class="width-limit">
 
-  <h1>{% trans %}Recursos educativos libres para Tecnología en Educación Secundaria.{% endtrans %}</h1>
+  <h1>{% trans %}Recursos libres de Tecnología para usar y compartir en el aula{% endtrans %}</h1>
 
   <ul class="index-list">
   {%- if language == 'es' %}
@@ -156,6 +156,7 @@
   
 
   <ul class="link-list">
+  <li><a href="{{ pathto('docentes') }}" target="_blank">{% trans %}¿Eres docente?{% endtrans %}</a></li>
   <li><a href="{{ pathto('contacto') }}"  target="_blank">{% trans %}Contacto{% endtrans %}</a>
   </li><li><a href="{{ pathto('manifiesto') }}" target="_blank">{% trans %}Manifiesto{% endtrans %}</a>
   </li><li><a href="{{ pathto('../es/legal-aviso') }}" target="_blank">{% trans %}Aviso legal{% endtrans %}</a>
