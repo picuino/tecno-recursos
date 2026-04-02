@@ -7,71 +7,83 @@
 
 Acerca de Picuino
 =================
-Picuino es un **proyecto personal** de un profesor de **Educación
-Secundaria** que reúne **recursos abiertos para el aula** de Tecnología.
-Está pensado para aprender de forma práctica, combinando teoría, 
-materiales, ejercicios y proyectos listos para usar.
+Picuino es un proyecto de **recursos abiertos para enseñar Tecnología 
+en Secundaria**, pensado para aprender de forma práctica desde el primer
+momento.
+
+Reúne teoría, ejercicios, simuladores y proyectos listos para usar en el
+aula o adaptar según tus necesidades.
+
+
+Qué es Picuino
+--------------
+Picuino es un **proyecto personal creado por Carlos Pardo**, profesor de
+Educación Secundaria, fruto de años de experiencia real en el aula.
+
+Su propósito es **facilitar la enseñanza de la Tecnología** mediante
+materiales claros, estructurados y directamente aplicables en clase.
 
 
 Qué ofrece
 ----------
-Picuino ofrece **recursos educativos gratuitos** para
-Tecnología en Educación Secundaria, alineados con el currículo.
+En Picuino encontrarás:
 
-Aquí encontrarás materiales, actividades y proyectos prácticos listos para
-usar y adaptar en el aula, diseñados para facilitar el proceso de enseñanza
-y el aprendizaje del alumnado.
+* Contenidos alineados con el currículo de Tecnología.
+* Materiales listos para usar en el aula.
+* Ejercicios y cuestionarios para reforzar el aprendizaje.
+* Simuladores visuales (electricidad, neumática, lógica...).
+* Recursos abiertos, adaptables y reutilizables.
 
-Los recursos pueden usarse, modificarse y compartirse libremente gracias
-a las licencias usadas, de cultura libre.
+Todo está diseñado para:
+
+* Fomentar el aprendizaje autónomo.
+* Facilitar el trabajo en el aula de informática.
+* Conectar teoría y práctica desde el primer día.
+
+Para quién es
+-------------
+Picuino está dirigido especialmente a:
+
+* Profesorado de Tecnología en Educación Secundaria.
+* Docentes que buscan **recursos abiertos y adaptables**.
+* Estudiantes interesados en aprender Tecnología de forma práctica.
 
 
-Para quién
-----------
-Si eres **profesor o profesora de Tecnología** en Secundaria y buscas
-recursos abiertos, claros y listos para usar en el aula, este proyecto
-es para ti.
+Cómo se aprende
+---------------
+El enfoque es claro: **aprender haciendo**.
 
-También es útil si eres **estudiante** o quieres aprender Tecnología de
-forma práctica.
+Los contenidos están pensados para que el alumnado pueda:
 
+* Trabajar de forma autónoma.
+* Aplicar los conceptos desde el principio.
+* Resolver problemas reales.
+* Avanzar a su propio ritmo.
 
-Cómo se enseña y se aprende
----------------------------
-El aprendizaje se basa en la práctica y en la resolución de problemas.
-
-Los contenidos están diseñados para que el alumnado trabaje de forma
-autónoma, con explicaciones claras y con actividades que permiten 
-aplicar lo aprendido desde el primer momento.
-
-El objetivo es aprender haciendo, favoreciendo la comprensión real de los
-conceptos y su aplicación.
+El objetivo no es solo comprender la teoría, sino **saber utilizarla
+con sentido práctico**.
 
 
 Filosofía abierta
 -----------------
-Como profesor de Tecnología, me encuentro a menudo con un problema: muchos
-recursos educativos son cerrados, difíciles de adaptar o simplemente no se
-ajustan a la realidad de mi aula.
+Muchos materiales educativos son cerrados o difíciles de adaptar a la
+realidad del aula.
 
-Creo que los materiales educativos deberían ser:
+Picuino propone otra manera de enseñar y aprender:
 
-* Abiertos
-* Reutilizables
-* Adaptables
+* Recursos abiertos y accesibles.
+* Materiales reutilizables y personalizables.
+* Contenidos creados para evolucionar y mejorar con la experiencia docente.
 
-Para que cualquier profesor pueda modificarlos, mejorarlos y utilizarlos
+Para que cualquier docente pueda modificarlos, mejorarlos y utilizarlos 
 según sus necesidades.
 
-Este proyecto nace de esa idea.
-
-Puedes leer más sobre esta forma de entender la educación en el
-:ref:`Manifiesto del proyecto <manifiesto>`.
+Más información en el :ref:`Manifiesto del proyecto <manifiesto>`.
 
 
 Colaboración
 ------------
-Este es un proyecto abierto.
+Este es un proyecto abierto y colaborativo.
 
 Puedes colaborar aportando ideas, sugiriendo mejoras o compartiendo
 recursos para seguir mejorando los contenidos y adaptarlos mejor al aula.
@@ -82,14 +94,14 @@ el aula.
 
 Si te apetece participar y compartir tu experiencia, eres bienvenido/a.
 
-Este espacio está pensado exclusivamente para profesorado.
-
 Accede al grupo en Telegram:
 
    .. raw:: html
 
       <strong><span style="unicode-bidi:bidi-override; direction: rtl;">bewoni<span style="display:none">noise</span>ucip@</strong>
 
+Este espacio está pensado **exclusivamente para profesorado** interesado 
+en enseñar mejor, compartiendo lo que aprende.
 
 
 Estado del proyecto
@@ -103,17 +115,9 @@ las aportaciones de la comunidad.
 
 Cómo empezar
 ------------
-Para empezar te recomiendo:
+Para comenzar:
 
-1. Explorar los `contenidos disponibles <https://www.picuino.com>`__
-2. Elegir los recursos adecuados para tu nivel
-3. Utilizarlos directamente o adaptarlos a tu aula
-4. Si te gusta el contenido, compartirlo ayuda a todos
-
-Todo el contenido está pensado para facilitar su uso desde el primer
-momento.
-
-
-
-
-
+1. Explora los `contenidos disponibles <https://www.picuino.com>`__.
+2. Elige los recursos más adecuados para tu nivel o tus clases.
+3. Úsalos directamente o adáptalos según tus necesidades.
+4. Si te resulta útil, **compártelo**: así ayudamos juntos a más docentes.
