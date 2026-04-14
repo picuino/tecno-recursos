@@ -5,8 +5,8 @@
 
 .. _about:
 
-Acerca de Picuino
-=================
+Sobre Picuino
+=============
 Picuino es un proyecto de **recursos abiertos para enseñar Tecnología 
 en Secundaria**, pensado para aprender de forma práctica desde el primer
 momento.
@@ -96,12 +96,9 @@ Si te apetece participar y compartir tu experiencia, eres bienvenido/a.
 
 Accede al grupo en Telegram:
 
-   .. raw:: html
+   `@picuinoweb <https://t.me/picuinoweb>`__
 
-      <strong><span style="unicode-bidi:bidi-override; direction: rtl;">bewoni<span style="display:none">noise</span>ucip@</strong>
-
-Este espacio está pensado **exclusivamente para profesorado** interesado 
-en enseñar mejor, compartiendo lo que aprende.
+Este espacio está pensado exclusivamente para profesorado.
 
 
 Estado del proyecto
@@ -117,7 +114,7 @@ Cómo empezar
 ------------
 Para comenzar:
 
-1. Explora los `contenidos disponibles <https://www.picuino.com>`__.
+1. Explora los `contenidos disponibles <https://www.picuino.com/es/>`__.
 2. Elige los recursos más adecuados para tu nivel o tus clases.
 3. Úsalos directamente o adáptalos según tus necesidades.
 4. Si te resulta útil, **compártelo**: así ayudamos juntos a más docentes.

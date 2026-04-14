@@ -15,10 +15,11 @@ Contacto, aviso legal, cookies, derechos de autor y créditos.
 .. toctree::
    :maxdepth: 1
 
-   docentes.rst
-   contacto.rst
    about.rst
+   contacto.rst
+   docentes.rst
    manifiesto.rst
+   legal-attribution.rst
+
    legal-aviso.rst
    legal-cookies.rst
-   legal-attribution.rst

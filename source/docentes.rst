@@ -23,10 +23,8 @@ los recursos entre todos.
 
 Si te apetece participar y compartir tu experiencia, eres bienvenido/a.
 
-Accede al grupo en Telegram:
+Accede al grupo en Telegram: 
 
-   .. raw:: html
-
-      <strong><span style="unicode-bidi:bidi-override; direction: rtl;">bewoni<span style="display:none">noise</span>ucip@</strong>
+   `@picuinoweb <https://t.me/picuinoweb>`__
 
 Este espacio está pensado exclusivamente para profesorado.

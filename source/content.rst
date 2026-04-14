@@ -40,3 +40,15 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
    recursos-index.rst
 
    ley-index.rst
+
+
+.. only:: latex
+
+   .. toctree::
+      :maxdepth: 1
+
+      about.rst
+      contacto.rst
+      docentes.rst
+      manifiesto.rst
+      legal-attribution.rst

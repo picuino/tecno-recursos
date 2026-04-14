@@ -34,13 +34,15 @@ perfil a la derecha.
    
    **Nota para docentes**
 
-   Algunos profesores comparten en un grupo cómo trabajan estos
-   ejercicios en el aula, junto con ideas, dudas y adaptaciones.
-   Si te interesa participar, puedes unirte en Telegram:
+   Si eres docente, puedes unirte a un grupo donde profesores de
+   Tecnología comparten cómo trabajan estos contenidos en el aula:
+   ideas, dudas y adaptaciones.
    
-   .. raw:: html
+   Unirse al grupo en Telegram:
 
-      <strong><span style="unicode-bidi:bidi-override; direction: rtl;">bewoni<span style="display:none">noise</span>ucip@</strong>
+      `@picuinoweb <https://t.me/picuinoweb>`__
+
+   Grupo exclusivo para profesorado.
 
 
 .. contents:: Índice de contenidos:

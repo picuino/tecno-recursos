@@ -268,15 +268,44 @@ html_output_encoding = 'utf-8'
 
 # -- Options for LaTeX output ---------------------------------------------
 
+latex_engine = 'xelatex'
+
 latex_elements = {
+
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
 'pointsize': '11pt',
 
+'fontpkg': r'''
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+''',
+
 # Additional stuff for the LaTeX preamble.
-#'preamble': r'',
+'preamble': r'''
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headheight}{14pt}
+\usepackage{microtype}
+\sloppy
+''',
+
+'maketitle': r'''
+\begin{titlepage}
+    \centering
+    {\Huge\bfseries \sphinxmaketitle\par}
+    \vfill
+    {\small
+    Copyright © 2026 Carlos Félix Pardo Martín\\
+    Este documento se distribuye bajo la licencia\\
+    \href{https://creativecommons.org/licenses/by-sa/4.0/deed.es}{Creative Commons BY-SA 4.0}\\
+    }
+\end{titlepage}
+''',
 
 # Latex figure (float) alignment
 'figure_align': 'htbp',
@@ -309,9 +338,9 @@ bookmarksnumbered=true
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
 
-  ('content-latex',    # start docname (root document)
+  ('content',              # start docname (root document)
    'picuino.tex',          # target name
-   u'Picuino: recursos para Tecnología en Secundaria.', # title
+   u'Picuino: recursos educativos para Tecnología', # title
    u'Carlos Félix Pardo Martín', # Author
    'manual',               # Document Class (normally manual or howto
    True)                   # Toctree only (not include root document)
@@ -345,7 +374,7 @@ latex_show_urls = 'footnote'
 man_pages = [
     ('content',
      'Picuino',
-     u'Recursos para Tecnología',
+     u'Recursos educativos para Tecnología',
      [u'Picuino'], 1)
 ]
 
