@@ -31,20 +31,6 @@ europeo (alzado a la derecha) y otra versión no convencional en la
 que el alzado se ha escogido a la izquierda de la figura y el
 perfil a la derecha.
 
-.. note:: 
-   
-   **Nota para docentes**
-
-   Si eres docente, puedes unirte a un grupo donde profesores de
-   Tecnología comparten cómo trabajan estos contenidos en el aula:
-   ideas, dudas y adaptaciones.
-   
-   Unirse al grupo en Telegram: 
-
-      `@picuinoweb <https://t.me/picuinoweb>`__
-
-   Grupo exclusivo para profesorado.
-
 
 .. contents:: Índice de contenidos:
    :local:
