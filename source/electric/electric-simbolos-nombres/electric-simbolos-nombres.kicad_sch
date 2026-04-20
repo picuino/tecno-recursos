@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "275d908d-d95f-4e76-9103-a82879596f4e")
 	(paper "A4" portrait)
 	(title_block
@@ -78,13 +78,13 @@
 				)
 			)
 			(symbol "AO_1_1_1"
-				(pin output line
-					(at 12.7 0 180)
+				(pin input line
+					(at -2.54 2.54 0)
 					(length 2.54)
-					(name ""
+					(name "-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.905 1.905)
 							)
 						)
 					)
@@ -114,13 +114,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at -2.54 2.54 0)
+				(pin output line
+					(at 12.7 0 180)
 					(length 2.54)
-					(name "-"
+					(name ""
 						(effects
 							(font
-								(size 1.905 1.905)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -133,6 +133,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:amperimetro-simbolos"
 			(pin_names
@@ -211,24 +212,6 @@
 			)
 			(symbol "amperimetro-simbolos_1_1"
 				(pin input line
-					(at 0 -10.16 90)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 1.778)
 					(name ""
@@ -246,7 +229,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:condensador-simbolos"
 			(pin_names
@@ -328,24 +330,6 @@
 			)
 			(symbol "condensador-simbolos_1_1"
 				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 3.175)
 					(name ""
@@ -363,7 +347,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:condensador_pol-simbolos"
 			(pin_names
@@ -469,24 +472,6 @@
 			)
 			(symbol "condensador_pol-simbolos_1_1"
 				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 3.175)
 					(name ""
@@ -504,7 +489,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:conector-simbolos"
 			(pin_names
@@ -591,6 +595,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:diodo-simbolos"
 			(pin_names
@@ -647,7 +652,7 @@
 			(symbol "diodo-simbolos_0_1"
 				(polyline
 					(pts
-						(xy 1.905 -5.715) (xy -1.905 -5.715)
+						(xy 1.905 -1.905) (xy -1.905 -1.905) (xy 0 -5.715) (xy 1.905 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -659,7 +664,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.905) (xy -1.905 -1.905) (xy 0 -5.715) (xy 1.905 -1.905)
+						(xy 1.905 -5.715) (xy -1.905 -5.715)
 					)
 					(stroke
 						(width 0)
@@ -671,24 +676,6 @@
 				)
 			)
 			(symbol "diodo-simbolos_1_1"
-				(pin input line
-					(at 0 -7.62 90)
-					(length 1.905)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 270)
 					(length 1.905)
@@ -707,7 +694,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:diodo_led-simbolos"
 			(pin_names
@@ -765,6 +771,18 @@
 				(polyline
 					(pts
 						(xy 1.397 -4.318) (xy 3.429 -5.334)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy -1.905 -1.905) (xy 0 -5.715) (xy 1.905 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -846,38 +864,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.905 -1.905) (xy -1.905 -1.905) (xy 0 -5.715) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "diodo_led-simbolos_1_1"
-				(pin input line
-					(at 0 -7.62 90)
-					(length 1.905)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 270)
 					(length 1.905)
@@ -896,7 +884,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:final_carrera-simbolos"
 			(pin_names
@@ -951,10 +958,32 @@
 				)
 			)
 			(symbol "final_carrera-simbolos_0_0"
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 5.715 1.016) (xy 5.715 3.937)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 5.08)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -979,28 +1008,6 @@
 					(pts
 						(xy 9.525 2.54) (xy 3.81 0.254)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 5.08)
-					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1059,6 +1066,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:fusible-simbolos"
 			(pin_names
@@ -1141,24 +1149,6 @@
 			)
 			(symbol "fusible-simbolos_1_1"
 				(pin input line
-					(at 0 -10.16 90)
-					(length 1.905)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 1.905)
 					(name ""
@@ -1176,7 +1166,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:generador-simbolos"
 			(pin_names
@@ -1232,9 +1241,9 @@
 			)
 			(symbol "generador-simbolos_0_0"
 				(arc
-					(start 0 -5.08)
+					(start -2.54 -5.08)
 					(mid -1.27 -3.8155)
-					(end -2.54 -5.08)
+					(end 0 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -1244,9 +1253,9 @@
 					)
 				)
 				(arc
-					(start 0 -5.08)
+					(start 2.54 -5.08)
 					(mid 1.27 -6.3445)
-					(end 2.54 -5.08)
+					(end 0 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -1271,24 +1280,6 @@
 			)
 			(symbol "generador-simbolos_1_1"
 				(pin input line
-					(at 0 -10.16 90)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 1.778)
 					(name ""
@@ -1306,7 +1297,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:inductancia-simbolos"
 			(pin_names
@@ -1362,21 +1372,9 @@
 			)
 			(symbol "inductancia-simbolos_0_1"
 				(arc
-					(start 0 -6.35)
-					(mid -1.2645 -7.62)
-					(end 0 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 0 -3.81)
-					(mid -1.2645 -5.08)
-					(end 0 -6.35)
+					(mid -1.2645 -2.54)
+					(end 0 -1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1386,9 +1384,21 @@
 					)
 				)
 				(arc
-					(start 0 -1.27)
-					(mid -1.2645 -2.54)
+					(start 0 -6.35)
+					(mid -1.2645 -5.08)
 					(end 0 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.89)
+					(mid -1.2645 -7.62)
+					(end 0 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -1399,24 +1409,6 @@
 				)
 			)
 			(symbol "inductancia-simbolos_1_1"
-				(pin input line
-					(at 0 -10.16 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 270)
 					(length 1.27)
@@ -1435,7 +1427,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:lampara-simbolos"
 			(pin_names
@@ -1490,9 +1501,10 @@
 				)
 			)
 			(symbol "lampara-simbolos_0_1"
-				(circle
-					(center 0 -5.08)
-					(radius 3.302)
+				(polyline
+					(pts
+						(xy -2.286 -2.921) (xy 2.286 -7.493)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1513,10 +1525,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.286 -2.921) (xy 2.286 -7.493)
-					)
+				(circle
+					(center 0 -5.08)
+					(radius 3.302)
 					(stroke
 						(width 0)
 						(type default)
@@ -1527,24 +1538,6 @@
 				)
 			)
 			(symbol "lampara-simbolos_1_1"
-				(pin input line
-					(at 0 -10.16 90)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 270)
 					(length 1.778)
@@ -1563,7 +1556,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:logic_and-simbolos"
 			(pin_names
@@ -1626,6 +1638,18 @@
 				)
 			)
 			(symbol "logic_and-simbolos_0_1"
+				(arc
+					(start 7.62 1.27)
+					(mid 11.4134 -2.54)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 7.62 1.27) (xy 2.54 1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
@@ -1638,22 +1662,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 7.62 -6.35)
-					(mid 11.4134 -2.54)
-					(end 7.62 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "logic_and-simbolos_1_1"
 				(pin input line
-					(at 0 -5.08 0)
+					(at 0 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1671,7 +1683,7 @@
 					)
 				)
 				(pin input line
-					(at 0 0 0)
+					(at 0 -5.08 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1765,6 +1777,24 @@
 			)
 			(symbol "logic_and-simbolos_3_1"
 				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name ""
@@ -1800,44 +1830,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "logic_and-simbolos_4_1"
-				(pin output line
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
@@ -1874,7 +1868,26 @@
 						)
 					)
 				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:logic_nand-simbolos"
 			(pin_names
@@ -1938,6 +1951,18 @@
 				)
 			)
 			(symbol "logic_nand-simbolos_0_1"
+				(arc
+					(start 7.62 1.27)
+					(mid 11.4134 -2.54)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 7.62 1.27) (xy 2.54 1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
@@ -1950,22 +1975,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 7.62 -6.35)
-					(mid 11.4134 -2.54)
-					(end 7.62 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "logic_nand-simbolos_1_1"
 				(pin input line
-					(at 0 -5.08 0)
+					(at 0 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1983,7 +1996,7 @@
 					)
 				)
 				(pin input line
-					(at 0 0 0)
+					(at 0 -5.08 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2077,6 +2090,24 @@
 			)
 			(symbol "logic_nand-simbolos_3_1"
 				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name ""
@@ -2112,44 +2143,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "logic_nand-simbolos_4_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
@@ -2186,7 +2181,26 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:logic_nor-simbolos"
 			(pin_names
@@ -2250,6 +2264,18 @@
 				)
 			)
 			(symbol "logic_nor-simbolos_0_1"
+				(arc
+					(start 2.54 1.27)
+					(mid 3.81 -2.54)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.54 -6.35) (xy 5.08 -6.35)
@@ -2275,20 +2301,8 @@
 					)
 				)
 				(arc
-					(start 2.54 -6.35)
-					(mid 3.81 -2.54)
-					(end 2.54 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 -6.35)
-					(mid 8.784 -5.3291)
+					(start 5.08 1.27)
+					(mid 8.7847 0.2479)
 					(end 11.43 -2.54)
 					(stroke
 						(width 0)
@@ -2300,8 +2314,8 @@
 				)
 				(arc
 					(start 11.43 -2.54)
-					(mid 8.7865 0.2471)
-					(end 5.08 1.27)
+					(mid 8.7851 -5.3286)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -2313,7 +2327,7 @@
 			)
 			(symbol "logic_nor-simbolos_1_1"
 				(pin input line
-					(at 0 -5.08 0)
+					(at 0 0 0)
 					(length 3.175)
 					(name ""
 						(effects
@@ -2331,7 +2345,7 @@
 					)
 				)
 				(pin input line
-					(at 0 0 0)
+					(at 0 -5.08 0)
 					(length 3.175)
 					(name ""
 						(effects
@@ -2425,6 +2439,24 @@
 			)
 			(symbol "logic_nor-simbolos_3_1"
 				(pin input line
+					(at 0 0 0)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 0 -5.08 0)
 					(length 3.175)
 					(name ""
@@ -2460,44 +2492,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 0 0)
-					(length 3.175)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "logic_nor-simbolos_4_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
@@ -2534,7 +2530,26 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:logic_not-simbolos"
 			(pin_names
@@ -2688,24 +2703,6 @@
 				)
 			)
 			(symbol "logic_not-simbolos_3_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 4.445)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 -2.54 0)
 					(length 2.54)
@@ -2724,8 +2721,6 @@
 						)
 					)
 				)
-			)
-			(symbol "logic_not-simbolos_4_1"
 				(pin output inverted
 					(at 15.24 -2.54 180)
 					(length 4.445)
@@ -2736,7 +2731,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2744,6 +2739,8 @@
 						)
 					)
 				)
+			)
+			(symbol "logic_not-simbolos_4_1"
 				(pin input line
 					(at 0 -2.54 0)
 					(length 2.54)
@@ -2762,7 +2759,26 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 4.445)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:logic_or-simbolos"
 			(pin_names
@@ -2826,6 +2842,18 @@
 				)
 			)
 			(symbol "logic_or-simbolos_0_1"
+				(arc
+					(start 2.54 1.27)
+					(mid 3.81 -2.54)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.54 -6.35) (xy 5.08 -6.35)
@@ -2851,20 +2879,8 @@
 					)
 				)
 				(arc
-					(start 2.54 -6.35)
-					(mid 3.81 -2.54)
-					(end 2.54 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 -6.35)
-					(mid 8.784 -5.3291)
+					(start 5.08 1.27)
+					(mid 8.7847 0.2479)
 					(end 11.43 -2.54)
 					(stroke
 						(width 0)
@@ -2876,8 +2892,8 @@
 				)
 				(arc
 					(start 11.43 -2.54)
-					(mid 8.7865 0.2471)
-					(end 5.08 1.27)
+					(mid 8.7851 -5.3286)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -2889,7 +2905,7 @@
 			)
 			(symbol "logic_or-simbolos_1_1"
 				(pin input line
-					(at 0 -5.08 0)
+					(at 0 0 0)
 					(length 3.175)
 					(name ""
 						(effects
@@ -2907,7 +2923,7 @@
 					)
 				)
 				(pin input line
-					(at 0 0 0)
+					(at 0 -5.08 0)
 					(length 3.175)
 					(name ""
 						(effects
@@ -3001,6 +3017,24 @@
 			)
 			(symbol "logic_or-simbolos_3_1"
 				(pin input line
+					(at 0 0 0)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 0 -5.08 0)
 					(length 3.175)
 					(name ""
@@ -3036,44 +3070,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 0 0)
-					(length 3.175)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "logic_or-simbolos_4_1"
-				(pin output line
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 0)
 					(length 3.175)
@@ -3110,7 +3108,26 @@
 						)
 					)
 				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:logic_xor-simbolos"
 			(pin_names
@@ -3174,10 +3191,22 @@
 				)
 			)
 			(symbol "logic_xor-simbolos_0_1"
-				(polyline
-					(pts
-						(xy 3.175 -6.35) (xy 5.08 -6.35)
+				(arc
+					(start 1.905 1.27)
+					(mid 3.175 -2.54)
+					(end 1.905 -6.35)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.175 1.27)
+					(mid 4.445 -2.54)
+					(end 3.175 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -3200,7 +3229,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -5.08) (xy 2.54 -5.08)
+						(xy 3.175 -6.35) (xy 5.08 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -3222,10 +3251,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 1.905 -6.35)
-					(mid 3.175 -2.54)
-					(end 1.905 1.27)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 2.54 -5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3235,20 +3264,8 @@
 					)
 				)
 				(arc
-					(start 3.175 -6.35)
-					(mid 4.445 -2.54)
-					(end 3.175 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 -6.35)
-					(mid 8.784 -5.3291)
+					(start 5.08 1.27)
+					(mid 8.7847 0.2479)
 					(end 11.43 -2.54)
 					(stroke
 						(width 0)
@@ -3260,8 +3277,8 @@
 				)
 				(arc
 					(start 11.43 -2.54)
-					(mid 8.7865 0.2471)
-					(end 5.08 1.27)
+					(mid 8.7851 -5.3286)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -3273,7 +3290,7 @@
 			)
 			(symbol "logic_xor-simbolos_1_1"
 				(pin input line
-					(at 0 -5.08 0)
+					(at 0 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -3291,7 +3308,7 @@
 					)
 				)
 				(pin input line
-					(at 0 0 0)
+					(at 0 -5.08 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -3385,6 +3402,24 @@
 			)
 			(symbol "logic_xor-simbolos_3_1"
 				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name ""
@@ -3420,44 +3455,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "logic_xor-simbolos_4_1"
-				(pin output line
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
@@ -3494,7 +3493,26 @@
 						)
 					)
 				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:marco_1-simbolos"
 			(pin_names
@@ -3551,6 +3569,18 @@
 			(symbol "marco_1-simbolos_0_1"
 				(polyline
 					(pts
+						(xy 0 0) (xy 0 -15.24) (xy 22.86 -15.24) (xy 22.86 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 22.86 0) (xy 33.02 0) (xy 33.02 -15.24) (xy 22.86 -15.24)
 					)
 					(stroke
@@ -3573,19 +3603,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -15.24) (xy 22.86 -15.24) (xy 22.86 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:marco_2-simbolos"
 			(pin_names
@@ -3677,6 +3696,18 @@
 			(symbol "marco_2-simbolos_0_1"
 				(polyline
 					(pts
+						(xy 0 -7.62) (xy 0 -12.7) (xy 22.86 -12.7) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 22.86 -12.7) (xy 33.02 -12.7) (xy 33.02 -7.62)
 					)
 					(stroke
@@ -3701,18 +3732,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -7.62) (xy 0 -12.7) (xy 22.86 -12.7) (xy 22.86 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 66.04 -7.62) (xy 66.04 -1.27) (xy 0 -1.27) (xy 0 -7.62)
 					)
 					(stroke
@@ -3724,6 +3743,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:masa-simbolos"
 			(pin_names
@@ -3872,6 +3892,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:motor-simbolos"
 			(pin_names
@@ -3950,24 +3971,6 @@
 			)
 			(symbol "motor-simbolos_1_1"
 				(pin input line
-					(at 0 -10.16 90)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 1.778)
 					(name ""
@@ -3985,7 +3988,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:pulsador_na-simbolos"
 			(pin_names
@@ -4052,6 +4074,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 4.445 4.445) (xy 8.255 4.445)
@@ -4080,17 +4113,6 @@
 					(pts
 						(xy 6.985 4.445) (xy 6.985 1.905)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -4149,6 +4171,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:pulsador_nc-simbolos"
 			(pin_names
@@ -4215,6 +4238,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 4.445 2.286) (xy 8.255 2.286)
@@ -4243,17 +4277,6 @@
 					(pts
 						(xy 6.985 -0.889) (xy 6.985 2.286)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -4312,6 +4335,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:rele-simbolos"
 			(pin_names
@@ -4451,10 +4475,9 @@
 				)
 			)
 			(symbol "rele-simbolos_1_0"
-				(polyline
-					(pts
-						(xy 11.43 -1.27) (xy 8.001 -6.477)
-					)
+				(circle
+					(center 7.62 -0.635)
+					(radius 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -4474,9 +4497,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 7.62 -0.635)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy 11.43 -1.27) (xy 8.001 -6.477)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4487,24 +4511,6 @@
 				)
 			)
 			(symbol "rele-simbolos_1_1"
-				(pin input line
-					(at 0 -7.62 90)
-					(length 1.905)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 270)
 					(length 1.905)
@@ -4524,8 +4530,8 @@
 					)
 				)
 				(pin input line
-					(at 7.62 -10.16 90)
-					(length 2.54)
+					(at 0 -7.62 90)
+					(length 1.905)
 					(name ""
 						(effects
 							(font
@@ -4559,7 +4565,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 7.62 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:rele_contacto-simbolos"
 			(pin_names
@@ -4677,7 +4702,7 @@
 			)
 			(symbol "rele_contacto-simbolos_1_0"
 				(circle
-					(center 0 -9.525)
+					(center 0 -3.175)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -4688,7 +4713,7 @@
 					)
 				)
 				(circle
-					(center 0 -3.175)
+					(center 0 -9.525)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -4713,24 +4738,6 @@
 			)
 			(symbol "rele_contacto-simbolos_1_1"
 				(pin input line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 2.54)
 					(name ""
@@ -4748,7 +4755,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:selector-simbolos"
 			(pin_names
@@ -4815,7 +4841,7 @@
 					)
 				)
 				(circle
-					(center 9.525 -3.81)
+					(center 9.525 3.81)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -4826,7 +4852,7 @@
 					)
 				)
 				(circle
-					(center 9.525 3.81)
+					(center 9.525 -3.81)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -4871,24 +4897,6 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 12.7 3.81 180)
 					(length 2.54)
 					(name ""
@@ -4906,7 +4914,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:switch-simbolos"
 			(pin_names
@@ -4961,10 +4988,9 @@
 				)
 			)
 			(symbol "switch-simbolos_0_0"
-				(polyline
-					(pts
-						(xy 8.89 3.81) (xy 3.683 0.381)
-					)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -4973,9 +4999,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy 8.89 3.81) (xy 3.683 0.381)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5034,6 +5061,119 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "simbolos-electricos:Borna"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Borna_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.0776)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Borna_1_1"
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 1.4478)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 0 180)
+					(length 1.4478)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:CopyRight"
 			(pin_names
@@ -5119,6 +5259,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:LDR"
 			(pin_names
@@ -5173,9 +5314,22 @@
 				)
 			)
 			(symbol "LDR_0_1"
-				(rectangle
-					(start -1.27 -1.905)
-					(end 1.27 -8.255)
+				(polyline
+					(pts
+						(xy -2.54 -4.445) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -4.445) (xy -3.175 -3.175) (xy -3.81 -3.81) (xy -2.54 -4.445)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5198,18 +5352,6 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -4.445) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 -6.985) (xy -3.175 -5.715) (xy -3.81 -6.35) (xy -2.54 -6.985)
 					)
 					(stroke
@@ -5220,10 +5362,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -4.445) (xy -3.175 -3.175) (xy -3.81 -3.81) (xy -2.54 -4.445)
-					)
+				(rectangle
+					(start -1.27 -1.905)
+					(end 1.27 -8.255)
 					(stroke
 						(width 0)
 						(type default)
@@ -5234,24 +5375,6 @@
 				)
 			)
 			(symbol "LDR_1_1"
-				(pin input line
-					(at 0 -10.16 90)
-					(length 1.905)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 270)
 					(length 1.905)
@@ -5270,7 +5393,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:NPN"
 			(pin_names
@@ -5367,7 +5509,7 @@
 			(symbol "NPN_0_1"
 				(polyline
 					(pts
-						(xy 2.54 -3.81) (xy 6.35 -1.27)
+						(xy 2.54 -1.27) (xy 2.54 -8.89)
 					)
 					(stroke
 						(width 0)
@@ -5379,7 +5521,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 2.54 -8.89)
+						(xy 2.54 -3.81) (xy 6.35 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -5432,24 +5574,6 @@
 					)
 				)
 				(pin input line
-					(at 6.35 -10.16 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 6.35 0 270)
 					(length 1.27)
 					(name ""
@@ -5467,7 +5591,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 6.35 -10.16 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:NTC"
 			(pin_names
@@ -5558,24 +5701,6 @@
 			)
 			(symbol "NTC_1_1"
 				(pin input line
-					(at 0 -10.16 90)
-					(length 1.905)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 1.905)
 					(name ""
@@ -5593,7 +5718,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:PNP"
 			(pin_names
@@ -5678,16 +5822,16 @@
 						)
 					)
 				)
-				(text "C"
-					(at 7.62 -8.89 0)
+				(text "E"
+					(at 7.62 -1.27 0)
 					(effects
 						(font
 							(size 1.524 1.524)
 						)
 					)
 				)
-				(text "E"
-					(at 7.62 -1.27 0)
+				(text "C"
+					(at 7.62 -8.89 0)
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -5710,7 +5854,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -8.89) (xy 2.54 -6.35)
+						(xy 4.953 -3.302) (xy 3.937 -1.778) (xy 2.54 -3.81) (xy 4.953 -3.302)
 					)
 					(stroke
 						(width 0)
@@ -5722,7 +5866,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.953 -3.302) (xy 3.937 -1.778) (xy 2.54 -3.81) (xy 4.953 -3.302)
+						(xy 6.35 -8.89) (xy 2.54 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -5737,24 +5881,6 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 -10.16 90)
-					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -5788,7 +5914,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 6.35 -10.16 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:Pila"
 			(pin_names
@@ -5894,24 +6039,6 @@
 			)
 			(symbol "Pila_1_1"
 				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 3.175)
 					(name ""
@@ -5929,7 +6056,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:altavoz"
 			(pin_names
@@ -5986,18 +6132,6 @@
 			(symbol "altavoz_0_0"
 				(polyline
 					(pts
-						(xy 0 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
@@ -6010,7 +6144,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -1.905) (xy 7.62 0.635) (xy 7.62 -8.255) (xy 5.08 -5.715)
+						(xy 0 -5.08) (xy 2.54 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -6031,26 +6165,20 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "altavoz_1_1"
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 5.08 -1.905) (xy 7.62 0.635) (xy 7.62 -8.255) (xy 5.08 -5.715)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
+			)
+			(symbol "altavoz_1_1"
 				(pin input line
 					(at 0 0 270)
 					(length 2.54)
@@ -6069,7 +6197,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:potenciometro"
 			(pin_names
@@ -6150,7 +6297,7 @@
 			)
 			(symbol "potenciometro_1_1"
 				(pin input line
-					(at 0 -10.16 90)
+					(at 0 0 270)
 					(length 1.905)
 					(name ""
 						(effects
@@ -6168,7 +6315,7 @@
 					)
 				)
 				(pin input line
-					(at 0 0 270)
+					(at 0 -10.16 90)
 					(length 1.905)
 					(name ""
 						(effects
@@ -6204,6 +6351,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:resistencia"
 			(pin_names
@@ -6272,24 +6420,6 @@
 			)
 			(symbol "resistencia_1_1"
 				(pin input line
-					(at 0 -10.16 90)
-					(length 1.905)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 1.905)
 					(name ""
@@ -6307,7 +6437,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:resistencia_2"
 			(pin_names
@@ -6378,24 +6527,6 @@
 			)
 			(symbol "resistencia_2_1_1"
 				(pin input line
-					(at 0 -10.16 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 1.27)
 					(name ""
@@ -6413,7 +6544,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:tierra"
 			(pin_names
@@ -6526,6 +6676,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:transformador"
 			(pin_names
@@ -6581,20 +6732,8 @@
 			)
 			(symbol "transformador_0_1"
 				(arc
-					(start 0 -8.89)
-					(mid 1.2645 -7.62)
-					(end 0 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -6.35)
-					(mid 1.2645 -5.08)
+					(start 0 -1.27)
+					(mid 1.2645 -2.54)
 					(end 0 -3.81)
 					(stroke
 						(width 0)
@@ -6606,8 +6745,20 @@
 				)
 				(arc
 					(start 0 -3.81)
-					(mid 1.2645 -2.54)
-					(end 0 -1.27)
+					(mid 1.2645 -5.08)
+					(end 0 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -6.35)
+					(mid 1.2645 -7.62)
+					(end 0 -8.89)
 					(stroke
 						(width 0)
 						(type default)
@@ -6641,21 +6792,9 @@
 					)
 				)
 				(arc
-					(start 7.62 -6.35)
-					(mid 6.3555 -7.62)
-					(end 7.62 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 7.62 -3.81)
-					(mid 6.3555 -5.08)
-					(end 7.62 -6.35)
+					(mid 6.3555 -2.54)
+					(end 7.62 -1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -6665,9 +6804,21 @@
 					)
 				)
 				(arc
-					(start 7.62 -1.27)
-					(mid 6.3555 -2.54)
+					(start 7.62 -6.35)
+					(mid 6.3555 -5.08)
 					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -8.89)
+					(mid 6.3555 -7.62)
+					(end 7.62 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -6678,24 +6829,6 @@
 				)
 			)
 			(symbol "transformador_1_1"
-				(pin input line
-					(at 0 -10.16 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 0 270)
 					(length 1.27)
@@ -6715,7 +6848,7 @@
 					)
 				)
 				(pin input line
-					(at 7.62 -10.16 90)
+					(at 0 -10.16 90)
 					(length 1.27)
 					(name ""
 						(effects
@@ -6750,7 +6883,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 7.62 -10.16 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:voltimetro"
 			(pin_names
@@ -6829,24 +6981,6 @@
 			)
 			(symbol "voltimetro_1_1"
 				(pin input line
-					(at 0 -10.16 90)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 0 0 270)
 					(length 1.778)
 					(name ""
@@ -6864,7 +6998,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:zumbador"
 			(pin_names
@@ -6942,10 +7095,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.715 0) (xy 5.715 2.54)
-					)
+				(arc
+					(start 7.62 5.715)
+					(mid 3.81 1.9216)
+					(end 0 5.715)
 					(stroke
 						(width 0)
 						(type default)
@@ -6954,10 +7107,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 5.715)
-					(mid 3.81 1.9216)
-					(end 7.62 5.715)
+				(polyline
+					(pts
+						(xy 5.715 0) (xy 5.715 2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -7005,185 +7158,8 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 82.55 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21082933-9e84-4572-b1c6-d990848cc2a3")
-	)
-	(junction
-		(at 77.47 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52c2e135-79e7-45ef-b326-2bcea7ef55ad")
-	)
-	(junction
-		(at 88.9 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5526b7aa-9f1f-47e9-859f-b2a59d4fc455")
-	)
-	(polyline
-		(pts
-			(xy 205.74 292.1) (xy 205.74 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02c39cd2-80dd-48dd-a597-ddf06c663291")
-	)
-	(wire
-		(pts
-			(xy 88.9 208.28) (xy 92.71 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e799e4-dc3d-40f8-a8b1-1137fc953add")
-	)
-	(wire
-		(pts
-			(xy 74.93 194.31) (xy 92.71 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0446b67b-c72d-4203-ae3d-886e5a54ab76")
-	)
-	(wire
-		(pts
-			(xy 77.47 214.63) (xy 77.47 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ee9b5d4-e588-470b-a017-82a4ddee40f9")
-	)
-	(polyline
-		(pts
-			(xy 5.08 7.62) (xy 205.74 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eabe4e7-658d-4f9d-b746-7326f562181c")
-	)
-	(wire
-		(pts
-			(xy 82.55 179.07) (xy 89.535 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a26589c-735b-4bff-a1a7-49264bc3b3b3")
-	)
-	(wire
-		(pts
-			(xy 82.55 208.28) (xy 82.55 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "658ea99c-a717-447b-bd8b-ca23875def06")
-	)
-	(polyline
-		(pts
-			(xy 5.08 292.1) (xy 5.08 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6622516d-13cb-4c49-be7c-cbddd5ce4345")
-	)
-	(wire
-		(pts
-			(xy 74.93 208.28) (xy 77.47 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69963dcb-b768-46fa-a709-3396187ebb29")
-	)
-	(wire
-		(pts
-			(xy 83.82 223.52) (xy 83.82 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cec104f-3ad1-4eec-b27b-059b6085eb2b")
-	)
-	(wire
-		(pts
-			(xy 83.82 238.76) (xy 83.82 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99ddec04-a328-4ce8-91b2-9c629bf02147")
-	)
-	(wire
-		(pts
-			(xy 77.47 208.28) (xy 82.55 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a143d16b-2f88-48ac-9f2f-180ff8b3886d")
-	)
-	(wire
-		(pts
-			(xy 88.9 214.63) (xy 88.9 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1dda44d-af24-476e-ba5a-7fc1aebfd5b7")
-	)
-	(polyline
-		(pts
-			(xy 5.08 292.1) (xy 205.74 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdbc31d1-d22f-4405-ac2d-9413530dd876")
-	)
-	(wire
-		(pts
-			(xy 80.01 189.23) (xy 80.01 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e682adb5-cd39-46d8-9ad8-bf66b73e98c1")
-	)
-	(wire
-		(pts
-			(xy 82.55 208.28) (xy 88.9 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff6b7886-ed9b-400d-a7cc-b7090847f928")
 	)
 	(text "BOMBILLA"
 		(exclude_from_sim no)
@@ -7195,6 +7171,17 @@
 			(justify left bottom)
 		)
 		(uuid "1f0b9ade-6ad7-4f16-b38e-d6d92168810e")
+	)
+	(text "BORNA DE\nCONEXIÓN"
+		(exclude_from_sim no)
+		(at 107.315 198.12 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "218a6179-7d90-4169-8e2f-2ce38af52181")
 	)
 	(text "PUERTA NAND"
 		(exclude_from_sim no)
@@ -7286,7 +7273,7 @@
 	)
 	(text "CONEXIÓN\nA TIERRA\n"
 		(exclude_from_sim no)
-		(at 107.315 228.6 0)
+		(at 107.315 243.84 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7352,7 +7339,7 @@
 	)
 	(text "CABLES CON\nCONEXIÓN\n"
 		(exclude_from_sim no)
-		(at 107.315 213.36 0)
+		(at 107.315 228.6 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7385,7 +7372,7 @@
 	)
 	(text "CABLES SIN\nCONEXIÓN\n"
 		(exclude_from_sim no)
-		(at 107.315 198.12 0)
+		(at 107.315 213.36 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7418,7 +7405,7 @@
 	)
 	(text "CONEXIÓN\nA MASA\n"
 		(exclude_from_sim no)
-		(at 107.315 243.205 0)
+		(at 107.315 258.445 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7624,6 +7611,184 @@
 			(justify left bottom)
 		)
 		(uuid "f6449be9-451e-4450-ac7d-89c11621122e")
+	)
+	(junction
+		(at 82.55 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21082933-9e84-4572-b1c6-d990848cc2a3")
+	)
+	(junction
+		(at 77.47 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52c2e135-79e7-45ef-b326-2bcea7ef55ad")
+	)
+	(junction
+		(at 88.9 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5526b7aa-9f1f-47e9-859f-b2a59d4fc455")
+	)
+	(polyline
+		(pts
+			(xy 205.74 292.1) (xy 205.74 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c39cd2-80dd-48dd-a597-ddf06c663291")
+	)
+	(wire
+		(pts
+			(xy 88.9 223.52) (xy 92.71 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e799e4-dc3d-40f8-a8b1-1137fc953add")
+	)
+	(wire
+		(pts
+			(xy 74.93 209.55) (xy 92.71 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0446b67b-c72d-4203-ae3d-886e5a54ab76")
+	)
+	(wire
+		(pts
+			(xy 77.47 229.87) (xy 77.47 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee9b5d4-e588-470b-a017-82a4ddee40f9")
+	)
+	(polyline
+		(pts
+			(xy 5.08 7.62) (xy 205.74 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eabe4e7-658d-4f9d-b746-7326f562181c")
+	)
+	(wire
+		(pts
+			(xy 82.55 179.07) (xy 89.535 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a26589c-735b-4bff-a1a7-49264bc3b3b3")
+	)
+	(wire
+		(pts
+			(xy 82.55 223.52) (xy 82.55 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658ea99c-a717-447b-bd8b-ca23875def06")
+	)
+	(polyline
+		(pts
+			(xy 5.08 292.1) (xy 5.08 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6622516d-13cb-4c49-be7c-cbddd5ce4345")
+	)
+	(wire
+		(pts
+			(xy 74.93 223.52) (xy 77.47 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69963dcb-b768-46fa-a709-3396187ebb29")
+	)
+	(wire
+		(pts
+			(xy 83.82 238.76) (xy 83.82 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cec104f-3ad1-4eec-b27b-059b6085eb2b")
+	)
+	(wire
+		(pts
+			(xy 83.82 254) (xy 83.82 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ddec04-a328-4ce8-91b2-9c629bf02147")
+	)
+	(wire
+		(pts
+			(xy 77.47 223.52) (xy 82.55 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a143d16b-2f88-48ac-9f2f-180ff8b3886d")
+	)
+	(wire
+		(pts
+			(xy 88.9 229.87) (xy 88.9 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dda44d-af24-476e-ba5a-7fc1aebfd5b7")
+	)
+	(polyline
+		(pts
+			(xy 5.08 292.1) (xy 205.74 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbc31d1-d22f-4405-ac2d-9413530dd876")
+	)
+	(wire
+		(pts
+			(xy 80.01 204.47) (xy 80.01 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e682adb5-cd39-46d8-9ad8-bf66b73e98c1")
+	)
+	(wire
+		(pts
+			(xy 82.55 223.52) (xy 88.9 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6b7886-ed9b-400d-a7cc-b7090847f928")
 	)
 	(symbol
 		(lib_id "simbolos-electricos:Pila")
@@ -8088,7 +8253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bc41ff8")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 33.02 194.31 0)
 			(effects
 				(font
@@ -8142,7 +8307,7 @@
 		(instances
 			(project "electric-simbolos-nombres"
 				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8157,7 +8322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bc42049")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 33.02 179.07 0)
 			(effects
 				(font
@@ -8221,7 +8386,7 @@
 		(instances
 			(project "electric-simbolos-nombres"
 				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8653,7 +8818,7 @@
 	)
 	(symbol
 		(lib_id "electric-simbolos-nombres-rescue:masa-simbolos")
-		(at 83.82 238.76 0)
+		(at 83.82 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8661,7 +8826,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bc425cf")
 		(property "Reference" "V?"
-			(at 100.33 240.03 0)
+			(at 100.33 255.27 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -8670,7 +8835,7 @@
 			)
 		)
 		(property "Value" "CONEXIÓN"
-			(at 107.315 237.49 0)
+			(at 107.315 252.73 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -8680,7 +8845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 242.57 0)
+			(at 91.44 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 242.57 0)
+			(at 91.44 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +8863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 238.76 0)
+			(at 83.82 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +8872,7 @@
 			)
 		)
 		(property "Campo4" "A MASA"
-			(at 107.315 241.935 0)
+			(at 107.315 257.175 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -9114,7 +9279,7 @@
 	)
 	(symbol
 		(lib_id "simbolos-electricos:tierra")
-		(at 83.82 223.52 0)
+		(at 83.82 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9122,7 +9287,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bc42952")
 		(property "Reference" "V?"
-			(at 100.33 224.79 0)
+			(at 100.33 240.03 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -9131,7 +9296,7 @@
 			)
 		)
 		(property "Value" "CONEXIÓN"
-			(at 107.315 222.885 0)
+			(at 107.315 238.125 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -9141,7 +9306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 227.33 0)
+			(at 91.44 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9150,7 +9315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 227.33 0)
+			(at 91.44 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 223.52 0)
+			(at 83.82 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,7 +9333,7 @@
 			)
 		)
 		(property "Campo4" "A TIERRA"
-			(at 107.315 227.33 0)
+			(at 107.315 242.57 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -11127,76 +11292,13 @@
 	)
 	(symbol
 		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
-		(at 72.39 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bc9c290")
-		(property "Reference" "M?"
-			(at 75.565 191.135 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "marco_1"
-			(at 76.2 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "electric-simbolos-nombres"
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
-					(reference "M?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
 		(at 72.39 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bc9c2e1")
+		(uuid "00000000-0000-0000-0000-00005bc9c290")
 		(property "Reference" "M?"
 			(at 75.565 206.375 0)
 			(effects
@@ -11259,7 +11361,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bc9c332")
+		(uuid "00000000-0000-0000-0000-00005bc9c2e1")
 		(property "Reference" "M?"
 			(at 75.565 221.615 0)
 			(effects
@@ -11322,7 +11424,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bc9c383")
+		(uuid "00000000-0000-0000-0000-00005bc9c332")
 		(property "Reference" "M?"
 			(at 75.565 236.855 0)
 			(effects
@@ -11361,6 +11463,69 @@
 		)
 		(property "Description" ""
 			(at 72.39 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "electric-simbolos-nombres"
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
+					(reference "M?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
+		(at 72.39 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005bc9c383")
+		(property "Reference" "M?"
+			(at 75.565 252.095 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "marco_1"
+			(at 76.2 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13695,6 +13860,69 @@
 		)
 	)
 	(symbol
+		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
+		(at 72.39 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "136ade9c-ba44-4100-aec6-f75d8af1597f")
+		(property "Reference" "M2"
+			(at 75.565 191.135 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "marco_1"
+			(at 76.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "electric-simbolos-nombres"
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "AO_1")
 		(lib_id "simbolos-electricos:AO")
 		(at 146.05 87.63 0)
@@ -13832,6 +14060,74 @@
 			(project "electric-simbolos-nombres"
 				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "simbolos-electricos:Borna")
+		(at 83.82 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69afa074-4d53-4ee1-a7c0-e50366e23ca1")
+		(property "Reference" "X1"
+			(at 100.584 194.31 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "97d8646d-252e-4e00-baf4-168c358c3e91")
+		)
+		(pin ""
+			(uuid "524c3101-2b93-49b0-9c61-2b688f5b81a9")
+		)
+		(instances
+			(project ""
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -14029,11 +14325,11 @@
 				(hide yes)
 			)
 		)
-		(property "License" "CC BY-SA 4.0"
+		(property "License" "Licencia CC BY-SA 4.0"
 			(at 101.6 286.385 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.905 1.905)
 				)
 			)
 		)
@@ -14041,7 +14337,7 @@
 			(at 101.6 289.56 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.905 1.905)
 				)
 			)
 		)
@@ -14057,6 +14353,10 @@
 	(sheet
 		(at 231.14 20.32)
 		(size 73.66 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -14095,6 +14395,10 @@
 	(sheet
 		(at 231.14 88.9)
 		(size 73.66 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -14135,4 +14439,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

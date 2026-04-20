@@ -22,6 +22,7 @@ Recursos para actividades de taller.
    :titlesonly:
 
    taller-seniales-seguridad.rst
+   cucabot-index.rst
    taller-historia-herramientas.rst
    taller-papercraft.rst
    taller-tangram.rst

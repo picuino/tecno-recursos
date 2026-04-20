@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9eee7054-8393-46d4-9a4b-5b8938344307")
 	(paper "A4" portrait)
 	(title_block
@@ -67,6 +67,18 @@
 			(symbol "marco_1-simbolos_0_1"
 				(polyline
 					(pts
+						(xy 0 0) (xy 0 -15.24) (xy 22.86 -15.24) (xy 22.86 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 22.86 0) (xy 33.02 0) (xy 33.02 -15.24) (xy 22.86 -15.24)
 					)
 					(stroke
@@ -89,19 +101,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -15.24) (xy 22.86 -15.24) (xy 22.86 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "electric-simbolos-nombres-rescue:marco_2-simbolos"
 			(pin_names
@@ -193,6 +194,18 @@
 			(symbol "marco_2-simbolos_0_1"
 				(polyline
 					(pts
+						(xy 0 -7.62) (xy 0 -12.7) (xy 22.86 -12.7) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 22.86 -12.7) (xy 33.02 -12.7) (xy 33.02 -7.62)
 					)
 					(stroke
@@ -217,18 +230,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -7.62) (xy 0 -12.7) (xy 22.86 -12.7) (xy 22.86 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 66.04 -7.62) (xy 66.04 -1.27) (xy 0 -1.27) (xy 0 -7.62)
 					)
 					(stroke
@@ -240,6 +241,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "simbolos-electricos:CopyRight"
 			(pin_names
@@ -325,47 +327,8 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-	)
-	(polyline
-		(pts
-			(xy 205.74 292.1) (xy 205.74 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0976f3d0-d3f4-4f9b-a3d2-4944750ef38a")
-	)
-	(polyline
-		(pts
-			(xy 5.08 292.1) (xy 5.08 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "874ff7ae-40e2-459e-bd9d-bee024e9996e")
-	)
-	(polyline
-		(pts
-			(xy 5.08 292.1) (xy 205.74 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac48b56-7bcc-48ec-aca5-d48ea94fe541")
-	)
-	(polyline
-		(pts
-			(xy 5.08 7.62) (xy 205.74 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c84fd9-c16f-4515-b083-3a84bbc1fe49")
 	)
 	(text "INTERRUPTOR"
 		(exclude_from_sim no)
@@ -377,6 +340,17 @@
 			(justify left bottom)
 		)
 		(uuid "08eaf6af-4ee3-4cfa-acee-d7b382443ff8")
+	)
+	(text "BORNA DE\nCONEXIÓN"
+		(exclude_from_sim no)
+		(at 107.315 198.12 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bbb8216-3519-4490-a3ba-75086ed3ef01")
 	)
 	(text "FUSIBLE"
 		(exclude_from_sim no)
@@ -534,7 +508,7 @@
 	)
 	(text "CABLES CON\nCONEXIÓN\n"
 		(exclude_from_sim no)
-		(at 107.315 213.36 0)
+		(at 107.315 228.6 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -567,7 +541,7 @@
 	)
 	(text "CONEXIÓN\nA MASA\n"
 		(exclude_from_sim no)
-		(at 107.315 243.205 0)
+		(at 107.315 258.445 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -655,7 +629,7 @@
 	)
 	(text "CABLES SIN\nCONEXIÓN\n"
 		(exclude_from_sim no)
-		(at 107.315 198.12 0)
+		(at 107.315 213.36 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -699,7 +673,7 @@
 	)
 	(text "CONEXIÓN\nA TIERRA\n"
 		(exclude_from_sim no)
-		(at 107.315 228.6 0)
+		(at 107.315 243.84 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -807,6 +781,46 @@
 		)
 		(uuid "f78fa997-ad45-4271-983a-e6f77c74187d")
 	)
+	(polyline
+		(pts
+			(xy 205.74 292.1) (xy 205.74 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0976f3d0-d3f4-4f9b-a3d2-4944750ef38a")
+	)
+	(polyline
+		(pts
+			(xy 5.08 292.1) (xy 5.08 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874ff7ae-40e2-459e-bd9d-bee024e9996e")
+	)
+	(polyline
+		(pts
+			(xy 5.08 292.1) (xy 205.74 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac48b56-7bcc-48ec-aca5-d48ea94fe541")
+	)
+	(polyline
+		(pts
+			(xy 5.08 7.62) (xy 205.74 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c84fd9-c16f-4515-b083-3a84bbc1fe49")
+	)
 	(symbol
 		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
 		(at 72.39 171.45 0)
@@ -872,7 +886,7 @@
 	)
 	(symbol
 		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
-		(at 72.39 186.69 0)
+		(at 72.39 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -880,7 +894,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bc9dd81")
 		(property "Reference" "M?"
-			(at 75.565 191.135 0)
+			(at 75.565 206.375 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -889,7 +903,7 @@
 			)
 		)
 		(property "Value" "marco_1"
-			(at 76.2 187.96 0)
+			(at 76.2 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 190.5 0)
+			(at 73.66 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 190.5 0)
+			(at 73.66 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,70 +930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "electric-simbolos-nombres"
-				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9cadf"
-					(reference "M?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
-		(at 72.39 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bc9dd8d")
-		(property "Reference" "M?"
-			(at 75.565 221.615 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "marco_1"
-			(at 76.2 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 217.17 0)
+			(at 72.39 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +955,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bc9dd93")
+		(uuid "00000000-0000-0000-0000-00005bc9dd8d")
 		(property "Reference" "M?"
 			(at 75.565 236.855 0)
 			(effects
@@ -1061,15 +1012,15 @@
 	)
 	(symbol
 		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
-		(at 72.39 201.93 0)
+		(at 72.39 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bc9ddc0")
+		(uuid "00000000-0000-0000-0000-00005bc9dd93")
 		(property "Reference" "M?"
-			(at 75.565 206.375 0)
+			(at 75.565 252.095 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1078,7 +1029,7 @@
 			)
 		)
 		(property "Value" "marco_1"
-			(at 76.2 203.2 0)
+			(at 76.2 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 205.74 0)
+			(at 73.66 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,7 +1047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 205.74 0)
+			(at 73.66 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1056,70 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 201.93 0)
+			(at 72.39 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "electric-simbolos-nombres"
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9cadf"
+					(reference "M?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
+		(at 72.39 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005bc9ddc0")
+		(property "Reference" "M?"
+			(at 75.565 221.615 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "marco_1"
+			(at 76.2 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,6 +2998,69 @@
 	)
 	(symbol
 		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
+		(at 72.39 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e4806dc-5ce5-4253-9b91-84bbd05c5367")
+		(property "Reference" "M3"
+			(at 75.565 191.135 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "marco_1"
+			(at 76.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "electric-simbolos-nombres"
+				(path "/275d908d-d95f-4e76-9103-a82879596f4e/00000000-0000-0000-0000-00005bc9cadf"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-simbolos-nombres-rescue:marco_1-simbolos")
 		(at 5.08 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3225,11 +3302,11 @@
 				(hide yes)
 			)
 		)
-		(property "License" "CC BY-SA 4.0"
+		(property "License" "Licencia CC BY-SA 4.0"
 			(at 101.6 286.385 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.905 1.905)
 				)
 			)
 		)
@@ -3237,7 +3314,7 @@
 			(at 101.6 289.56 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.905 1.905)
 				)
 			)
 		)
