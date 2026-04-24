@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013-2026, Carlos Félix Pardo Martín
+# This file is distributed under the same license as the Picuino package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Picuino 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-25 00:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/cucabot-cero.rst:10
+msgid "Cucabot cero"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:11
+msgid ""
+"Este es el robot con el circuito eléctrico y funcionamiento más sencillo "
+"de todos."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:14
+msgid ""
+"Al conectar el interruptor de marcha el robot avanza hacia adelante. "
+"Cuando choca con un obstáculo de frente el robot comienza a retroceder "
+"(avanza hacia atrás). El robot sigue retrocediendo hasta que vuelve a "
+"chocar con otro obstáculo por atrás. En ese momento vuelve a invertir el "
+"sentido de la marcha para ir hacia adelante."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:23
+msgid "Montaje mecánico"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:24
+msgid ""
+"El montaje se basa en la plataforma universal para robots Cucabot a la "
+"que añadiremos un doble parachoques que servirá de sensor para cambiar el"
+" sentido de la marcha."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:28
+msgid ""
+"El parachoques se puede construir a partir de una varilla de 10 "
+"milímetros de sección cuadrada."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:31
+msgid ""
+"Cortaremos dos trozos de varilla de 140 milímetros de largo para tener "
+"los parachoques delantero y trasero."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:34
+msgid ""
+"A continuación cortaremos una varilla de unión de los parachoques que "
+"debe ser 20 milímetros más larga que la longitud de la plataforma."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:37
+msgid ""
+"Para sujetar la varilla horizontal a la plataforma cortaremos cuatro "
+"trozos de varilla de unos 20 milímetros de longitud que se colocarán "
+"sobre la plataforma a los lados de la varilla de manera que permitan que "
+"la varilla se mueva con facilidad, pero sin demasiada holgura."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:42
+msgid ""
+"Cortaremos dos trozos más de 50 milímetros de longitud que colocaremos "
+"encima de los trozos de sujeción anteriores, para evitar que la varilla "
+"horizontal se levante de su hueco."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:46
+msgid ""
+"Continuaremos pegando los parachoques a la varilla horizontal con cola "
+"termofusible, añadiendo una cantidad generosa de cola en las esquinas "
+"para evitar que el parachoques se rompa al golpear un obstáculo."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:50
+msgid ""
+"Después pegaremos un pequeño trozo de varilla de 20 milímetros de "
+"longitud en el lateral de la varilla horizontal de manera que haga de "
+"saliente que chocará con el selector de marcha S2."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:54
+msgid ""
+"Para terminar, pegaremos el selector de marcha S2 de manera que al "
+"moverse la varilla horizontal, el selector se accionará."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:57
+msgid ""
+"A continuación se muestran los planos mecánicos del robot Cucabot cero, "
+"que también se pueden descargar en formato PDF para imprimir:"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:65
+msgid "Vista en planta del robot Cucabot cero."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:72
+msgid "Vista de perfil del robot Cucabot cero."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:75
+msgid ""
+":download:`Plano mecánico del robot Cucabot cero. Formato PDF. <cucabot"
+"/cucabot-cero-vistas.pdf>`"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:80
+msgid "Montaje eléctrico"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:81
+msgid ""
+"El montaje eléctrico es el mismo que el de la plataforma Cucabot, "
+"añadiendo un selector de marcha S2 que será el que decida el sentido de "
+"la marcha del robot dependiendo de la posición de los parachoques."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:85
+msgid ""
+"Cuando el selector de marcha S2 no está accionado conectará a los dos "
+"motores con la tensión positiva de la batería V1, haciendo que los dos "
+"motores giren hacia adelante y que el robot avance."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:89
+msgid ""
+"Cuando el selector de marcha S2 esté accionado porque el robot ha chocado"
+" por delante con un obstáculo, se conectará a los motores con la tensión "
+"negativa de la batería V2, haciendo que los dos motores giren hacia atrás"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:98
+msgid "Esquema eléctrico del robot Cucabot cero."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:105
+msgid "Cableado eléctrico del robot Cucabot cero."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:107
+msgid ""
+":download:`Plano eléctrico del robot Cucabot cero. Formato PDF. <cucabot"
+"/cucabot-cero-electric.pdf>`"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:112
+msgid "Funcionamiento"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:113
+msgid ""
+"Para comenzar colocaremos el parachoques hacia delante de manera que el "
+"selector de marcha no esté accionado."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:116
+msgid ""
+"A continuación colocaremos el robot sobre el suelo y accionaremos el "
+"interruptor de marcha S1 para que el robot comience a avanzar."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:119
+msgid ""
+"El robot se acercará entonces a un obstáculo, como una pared, de manera "
+"que el parachoques delantero chocará y moverá la varilla horizontal."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:122
+msgid ""
+"Al mover la varilla, se accionará el selector de marcha S2 y esto "
+"provocará que el robot cambie el sentido de la marcha hacia atrás."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:130
+msgid "Robot Cucabot cero avanzando hacia una pared."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:137
+msgid "Robot Cucabot cero después de chocar con una pared de frente."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:139
+msgid ""
+"Cuando el robot choque de nuevo con otro obstáculo en su parte trasera la"
+" varilla horizontal volverá a moverse y el selector de marcha volverá a "
+"su posición no accionado o de reposo. En ese momento el robot volverá a "
+"desplazarse hacia adelante y el ciclo vuelve a comenzar."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:145
+msgid "Créditos"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:146
+msgid ""
+"Instrucciones de la página original de `Cucabot en archive.org "
+"<https://web.archive.org/web/20100401060124/http://roble.pntic.mec.es/~jsaa0039/cucabot"
+"/cero-intro.html>`__"
+msgstr ""
+

@@ -160,6 +160,64 @@ $(IMGDIR)/cucabot-cero-funcion-02.png: $(IMGDIR)/cucabot-cero-funcion-p1.png
 
 
 # --------------------------------------------------------------------
+# cucabot-murofilo-electric
+#
+$(IMGDIR)/cucabot-murofilo-electric-p1.png: cucabot-murofilo-electric.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-p1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p1.png
+	$(OPTIPNG) $@
+
+$(IMGDIR)/cucabot-murofilo-schema.png: $(IMGDIR)/cucabot-murofilo-electric-p1.png
+	$(eval crop = $(shell python3 -c "import sys; \
+	((x0,y0),(x1,y1))=eval(sys.argv[1]);\
+	print('%dx%d+%d+%d' % \
+	(abs(x0-x1),abs(y0-y1),min(x0,x1),min(y0,y1)))" \
+	"((750,750),(3600,2250))" ))
+	$(CONVERT) $^ -crop $(crop) $(CONVERT_OPT) $@
+	$(OPTIPNG) $@
+
+$(IMGDIR)/cucabot-murofilo-cableado.png: $(IMGDIR)/cucabot-murofilo-electric-p1.png
+	$(eval crop = $(shell python3 -c "import sys; \
+	((x0,y0),(x1,y1))=eval(sys.argv[1]);\
+	print('%dx%d+%d+%d' % \
+	(abs(x0-x1),abs(y0-y1),min(x0,x1),min(y0,y1)))" \
+	"((750,3950),(3750,5600))" ))
+	$(CONVERT) $^ -crop $(crop) $(CONVERT_OPT) $@
+	$(OPTIPNG) $@
+
+
+
+# --------------------------------------------------------------------
+# cucabot-pegatortas-electric
+#
+$(IMGDIR)/cucabot-pegatortas-electric-p1.png: cucabot-pegatortas-electric.pdf
+	$(PDFTOPNG) $< $(basename $<)
+	mv $(basename $<)-000001.png  $(IMGDIR)/$(basename $<)-p1.png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(basename $<)-p1.png
+	$(OPTIPNG) $@
+
+$(IMGDIR)/cucabot-pegatortas-schema.png: $(IMGDIR)/cucabot-pegatortas-electric-p1.png
+	$(eval crop = $(shell python3 -c "import sys; \
+	((x0,y0),(x1,y1))=eval(sys.argv[1]);\
+	print('%dx%d+%d+%d' % \
+	(abs(x0-x1),abs(y0-y1),min(x0,x1),min(y0,y1)))" \
+	"((750,750),(3950,2250))" ))
+	$(CONVERT) $^ -crop $(crop) $(CONVERT_OPT) $@
+	$(OPTIPNG) $@
+
+$(IMGDIR)/cucabot-pegatortas-cableado.png: $(IMGDIR)/cucabot-pegatortas-electric-p1.png
+	$(eval crop = $(shell python3 -c "import sys; \
+	((x0,y0),(x1,y1))=eval(sys.argv[1]);\
+	print('%dx%d+%d+%d' % \
+	(abs(x0-x1),abs(y0-y1),min(x0,x1),min(y0,y1)))" \
+	"((750,3950),(4250,5600))" ))
+	$(CONVERT) $^ -crop $(crop) $(CONVERT_OPT) $@
+	$(OPTIPNG) $@
+
+
+
+# --------------------------------------------------------------------
 # all clean
 #
 .PHONY: all  clean
@@ -179,6 +237,12 @@ all: \
 	$(IMGDIR)/cucabot-cero-funcion-p1.png \
 	$(IMGDIR)/cucabot-cero-funcion-01.png \
 	$(IMGDIR)/cucabot-cero-funcion-02.png \
+	$(IMGDIR)/cucabot-murofilo-electric-p1.png \
+	$(IMGDIR)/cucabot-murofilo-schema.png \
+	$(IMGDIR)/cucabot-murofilo-cableado.png \
+	$(IMGDIR)/cucabot-pegatortas-electric-p1.png \
+	$(IMGDIR)/cucabot-pegatortas-schema.png \
+	$(IMGDIR)/cucabot-pegatortas-cableado.png \
 
 
 clean:
@@ -197,3 +261,9 @@ clean:
 	rm -f $(IMGDIR)/cucabot-cero-funcion-p1.png
 	rm -f $(IMGDIR)/cucabot-cero-funcion-01.png
 	rm -f $(IMGDIR)/cucabot-cero-funcion-02.png
+	rm -f $(IMGDIR)/cucabot-murofilo-electric-p1.png
+	rm -f $(IMGDIR)/cucabot-murofilo-schema.png
+	rm -f $(IMGDIR)/cucabot-murofilo-cableado.png
+	rm -f $(IMGDIR)/cucabot-pegatortas-electric-p1.png
+	rm -f $(IMGDIR)/cucabot-pegatortas-schema.png
+	rm -f $(IMGDIR)/cucabot-pegatortas-cableado.png

@@ -30,7 +30,7 @@ Montaje mecánico
    Perfil de la plataforma universal para construir los robots Cucabot.
 
 #. Primero descargaremos el plano mecánico en PDF de la plataforma
-   universal:
+   universal para poder imprimirlo:
    
    :download:`Plano mecánico de la plataforma universal Cucabot.
    Formato PDF. <cucabot/cucabot-plataforma-vistas.pdf>`
@@ -61,8 +61,8 @@ Cuando ya estén colocados y pegados en su sitio todos los elementos
 mecánicos de la plataforma, procederemos a cablear los motores y los
 portapilas según los planos adjuntos.
 
-#. Primero descargaremos el plano mecánico en PDF de la plataforma
-   universal:
+#. Primero descargaremos el plano eléctrico en PDF de la plataforma
+   universal para poder imprimirlo:
    
    :download:`Plano eléctrico de la plataforma universal Cucabot.
    Formato PDF. <cucabot/cucabot-plataforma-electric.pdf>`

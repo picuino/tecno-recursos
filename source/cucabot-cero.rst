@@ -104,7 +104,7 @@ negativa de la batería V2, haciendo que los dos motores giren hacia atrás
 
    Cableado eléctrico del robot Cucabot cero.
    
-:download:`Circuito eléctrico y cableado del Cucabot cero.
+:download:`Plano eléctrico del robot Cucabot cero.
 Formato PDF. <cucabot/cucabot-cero-electric.pdf>`
 
 
@@ -143,4 +143,5 @@ Funcionamiento
 
 Créditos
 --------
-Instrucciones de la página original de `Cucabot en archive.org <https://web.archive.org/web/20100401060124/http://roble.pntic.mec.es/~jsaa0039/cucabot/cero-intro.html>`__
+Instrucciones de la página original de `Cucabot en archive.org 
+<https://web.archive.org/web/20100401060124/http://roble.pntic.mec.es/~jsaa0039/cucabot/cero-intro.html>`__
