@@ -28,8 +28,7 @@ Los diferentes modelos están ordenados por nivel de dificultad:
    :maxdepth: 1
    :titlesonly:
 
-   cucabot-base.rst
+   cucabot-plataforma.rst
    cucabot-cero.rst
    cucabot-murofilo.rst
    cucabot-pegatortas.rst
-   cucabot-fototropo.rst
