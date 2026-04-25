@@ -50,9 +50,12 @@ Montaje mecánico
    de la tabla, y las 6 bornas en la parte superior de la tabla,
    en un lateral.
 
-#. Para terminar instalaremos el interruptor de encendido S1 de la
-   plataforma en la parte superior de la tabla, en el lateral opuesto
-   a las bornas.
+#. Instalaremos el interruptor de encendido S1 de la plataforma en la
+   parte superior de la tabla, en el lateral opuesto a las bornas.
+
+#. Para terminar escribiremos en trozos de papel cada una de las
+   referencias de los componentes (M1, M2, S1, V1, V2, X1, X6) y los
+   pegaremos cada uno junto al componente correspondiente.
 
 
 Montaje eléctrico
@@ -94,6 +97,20 @@ Los dos motores deben mover las ruedas hacia adelante.
 Si algún motor mueve las ruedas hacia atrás, se deben cambiar
 de posición entre sí los dos cables del motor, para que se mueva
 en el sentido contrario.
+
+
+Memoria de trabajo
+------------------
+El siguiente documento servirá para que cada uno de los alumnos y alumnas
+del grupo de trabajo de taller dibuje y escriba los elementos necesarios
+para realizar el proyecto y enumere los trabajos realizados sobre el
+proyecto.
+
+:download:`Memoria de trabajo del alumno.
+Formato PDF. <cucabot/cucabot-memoria.pdf>`
+
+:download:`Memoria de trabajo del alumno.
+Formato editable ODT. <cucabot/cucabot-memoria.odt>`
 
 
 Créditos

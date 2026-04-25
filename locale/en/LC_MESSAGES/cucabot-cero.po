@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Picuino 2026\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 00:10+0200\n"
+"POT-Creation-Date: 2026-04-25 17:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -98,106 +98,112 @@ msgstr ""
 
 #: ../../source/cucabot-cero.rst:54
 msgid ""
-"Para terminar, pegaremos el selector de marcha S2 de manera que al "
-"moverse la varilla horizontal, el selector se accionará."
+"Pegaremos también el selector de marcha S2 de manera que al moverse la "
+"varilla horizontal, el selector se accionará."
 msgstr ""
 
 #: ../../source/cucabot-cero.rst:57
+msgid ""
+"Para terminar escribiremos en un trozo de papel la referencia del nuevo "
+"componente (S2) y lo pegaremos junto al componente correspondiente."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:61
 msgid ""
 "A continuación se muestran los planos mecánicos del robot Cucabot cero, "
 "que también se pueden descargar en formato PDF para imprimir:"
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:65
+#: ../../source/cucabot-cero.rst:69
 msgid "Vista en planta del robot Cucabot cero."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:72
+#: ../../source/cucabot-cero.rst:76
 msgid "Vista de perfil del robot Cucabot cero."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:75
+#: ../../source/cucabot-cero.rst:79
 msgid ""
 ":download:`Plano mecánico del robot Cucabot cero. Formato PDF. <cucabot"
 "/cucabot-cero-vistas.pdf>`"
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:80
+#: ../../source/cucabot-cero.rst:84
 msgid "Montaje eléctrico"
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:81
+#: ../../source/cucabot-cero.rst:85
 msgid ""
 "El montaje eléctrico es el mismo que el de la plataforma Cucabot, "
 "añadiendo un selector de marcha S2 que será el que decida el sentido de "
 "la marcha del robot dependiendo de la posición de los parachoques."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:85
+#: ../../source/cucabot-cero.rst:89
 msgid ""
 "Cuando el selector de marcha S2 no está accionado conectará a los dos "
 "motores con la tensión positiva de la batería V1, haciendo que los dos "
 "motores giren hacia adelante y que el robot avance."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:89
+#: ../../source/cucabot-cero.rst:93
 msgid ""
 "Cuando el selector de marcha S2 esté accionado porque el robot ha chocado"
 " por delante con un obstáculo, se conectará a los motores con la tensión "
 "negativa de la batería V2, haciendo que los dos motores giren hacia atrás"
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:98
+#: ../../source/cucabot-cero.rst:102
 msgid "Esquema eléctrico del robot Cucabot cero."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:105
+#: ../../source/cucabot-cero.rst:109
 msgid "Cableado eléctrico del robot Cucabot cero."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:107
+#: ../../source/cucabot-cero.rst:111
 msgid ""
 ":download:`Plano eléctrico del robot Cucabot cero. Formato PDF. <cucabot"
 "/cucabot-cero-electric.pdf>`"
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:112
+#: ../../source/cucabot-cero.rst:116
 msgid "Funcionamiento"
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:113
+#: ../../source/cucabot-cero.rst:117
 msgid ""
 "Para comenzar colocaremos el parachoques hacia delante de manera que el "
 "selector de marcha no esté accionado."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:116
+#: ../../source/cucabot-cero.rst:120
 msgid ""
 "A continuación colocaremos el robot sobre el suelo y accionaremos el "
 "interruptor de marcha S1 para que el robot comience a avanzar."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:119
+#: ../../source/cucabot-cero.rst:123
 msgid ""
 "El robot se acercará entonces a un obstáculo, como una pared, de manera "
 "que el parachoques delantero chocará y moverá la varilla horizontal."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:122
+#: ../../source/cucabot-cero.rst:126
 msgid ""
 "Al mover la varilla, se accionará el selector de marcha S2 y esto "
 "provocará que el robot cambie el sentido de la marcha hacia atrás."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:130
+#: ../../source/cucabot-cero.rst:134
 msgid "Robot Cucabot cero avanzando hacia una pared."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:137
+#: ../../source/cucabot-cero.rst:141
 msgid "Robot Cucabot cero después de chocar con una pared de frente."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:139
+#: ../../source/cucabot-cero.rst:143
 msgid ""
 "Cuando el robot choque de nuevo con otro obstáculo en su parte trasera la"
 " varilla horizontal volverá a moverse y el selector de marcha volverá a "
@@ -205,14 +211,45 @@ msgid ""
 "desplazarse hacia adelante y el ciclo vuelve a comenzar."
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:145
+#: ../../source/cucabot-cero.rst:150
+msgid "Memoria de trabajo"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:151
+msgid ""
+"El siguiente documento servirá para que cada uno de los alumnos y alumnas"
+" del grupo de trabajo de taller dibuje y escriba los elementos necesarios"
+" para realizar el proyecto y enumere los trabajos realizados sobre el "
+"proyecto."
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:156
+msgid ""
+":download:`Memoria de trabajo del alumno. Formato PDF. <cucabot/cucabot-"
+"memoria.pdf>`"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:159
+msgid ""
+":download:`Memoria de trabajo del alumno. Formato editable ODT. <cucabot"
+"/cucabot-memoria.odt>`"
+msgstr ""
+
+#: ../../source/cucabot-cero.rst:164
 msgid "Créditos"
 msgstr ""
 
-#: ../../source/cucabot-cero.rst:146
+#: ../../source/cucabot-cero.rst:165
 msgid ""
 "Instrucciones de la página original de `Cucabot en archive.org "
 "<https://web.archive.org/web/20100401060124/http://roble.pntic.mec.es/~jsaa0039/cucabot"
 "/cero-intro.html>`__"
 msgstr ""
+
+#~ msgid ""
+#~ "Para terminar, pegaremos el selector de"
+#~ " marcha S2 de manera que al "
+#~ "moverse la varilla horizontal, el "
+#~ "selector se accionará."
+#~ msgstr ""
 

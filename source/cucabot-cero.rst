@@ -51,8 +51,12 @@ cambiar el sentido de la marcha.
    longitud en el lateral de la varilla horizontal de manera que haga
    de saliente que chocará con el selector de marcha S2.
 
-#. Para terminar, pegaremos el selector de marcha S2 de manera que al
-   moverse la varilla horizontal, el selector se accionará.
+#. Pegaremos también el selector de marcha S2 de manera que al moverse
+   la varilla horizontal, el selector se accionará.
+
+#. Para terminar escribiremos en un trozo de papel la
+   referencia del nuevo componente (S2) y lo
+   pegaremos junto al componente correspondiente.
 
 A continuación se muestran los planos mecánicos del robot Cucabot cero,
 que también se pueden descargar en formato PDF para imprimir:
@@ -140,6 +144,21 @@ Funcionamiento
    la varilla horizontal volverá a moverse y el selector de marcha volverá
    a su posición no accionado o de reposo. En ese momento el robot volverá
    a desplazarse hacia adelante y el ciclo vuelve a comenzar.   
+
+
+Memoria de trabajo
+------------------
+El siguiente documento servirá para que cada uno de los alumnos y alumnas
+del grupo de trabajo de taller dibuje y escriba los elementos necesarios
+para realizar el proyecto y enumere los trabajos realizados sobre el
+proyecto.
+
+:download:`Memoria de trabajo del alumno.
+Formato PDF. <cucabot/cucabot-memoria.pdf>`
+
+:download:`Memoria de trabajo del alumno.
+Formato editable ODT. <cucabot/cucabot-memoria.odt>`
+
 
 Créditos
 --------
