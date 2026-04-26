@@ -102,9 +102,9 @@ en el sentido contrario.
 Memoria de trabajo
 ------------------
 El siguiente documento servirá para que cada uno de los alumnos y alumnas
-del grupo de trabajo de taller dibuje y escriba los elementos necesarios
-para realizar el proyecto y enumere los trabajos realizados sobre el
-proyecto.
+del grupo de trabajo de taller dibuje y escriba de forma individual
+los elementos necesarios para realizar el proyecto y enumere los trabajos
+realizados en el proyecto.
 
 :download:`Memoria de trabajo del alumno.
 Formato PDF. <cucabot/cucabot-memoria.pdf>`

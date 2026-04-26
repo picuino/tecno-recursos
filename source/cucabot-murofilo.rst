@@ -30,16 +30,19 @@ sensor para cambiar el movimiento de los motores a izquierda o a derecha.
    unido al sensor S2 para evitar que la antena se caiga hacia el suelo.
 
 #. La forma más efectiva de unir el alambre de la antena al sensor S2
-   es con un tubo de plástico termoretractil.
+   es con tubo de plástico termoretractil.
    En caso de no disponer de tubo termoretractil, también se puede
    unir con cinta aislante, pero es más difícil conseguir que la antena
    quede bien sujeta.
+
+   Otra opción más compleja es construir una pequeña pieza de sujeción
+   con una impresora 3D.
 
 #. Para terminar escribiremos en un trozo de papel la
    referencia del nuevo componente (S2) y lo
    pegaremos junto al componente correspondiente.
 
-A continuación se muestran los planos mecánicos del robot Cucabot cero,
+A continuación se muestran los planos mecánicos del robot Cucabot murófilo,
 que también se pueden descargar en formato PDF para imprimir:
 
 .. figure:: cucabot/_images/cucabot-murofilo-planta.png
@@ -56,7 +59,7 @@ Formato PDF. <cucabot/cucabot-murofilo-vistas.pdf>`
 Montaje eléctrico
 -----------------
 El montaje eléctrico es el mismo que el de la plataforma Cucabot,
-añadiendo un selector de dirección S2 que será el que decida qué motor
+añadiendo un final de carrera S2 que será el que decida qué motor
 del robot funciona, dependiendo de la posición de la antena.
 
 Cuando el selector de dirección S2 no está accionado conectará el motor
@@ -129,9 +132,9 @@ Funcionamiento
 Memoria de trabajo
 ------------------
 El siguiente documento servirá para que cada uno de los alumnos y alumnas
-del grupo de trabajo de taller dibuje y escriba los elementos necesarios
-para realizar el proyecto y enumere los trabajos realizados sobre el
-proyecto.
+del grupo de trabajo de taller dibuje y escriba de forma individual
+los elementos necesarios para realizar el proyecto y enumere los trabajos
+realizados en el proyecto.
 
 :download:`Memoria de trabajo del alumno.
 Formato PDF. <cucabot/cucabot-memoria.pdf>`

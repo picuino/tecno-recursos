@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Picuino 2026\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 17:30+0200\n"
+"POT-Creation-Date: 2026-04-26 11:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -64,52 +64,58 @@ msgstr ""
 #: ../../source/cucabot-murofilo.rst:32
 msgid ""
 "La forma más efectiva de unir el alambre de la antena al sensor S2 es con"
-" un tubo de plástico termoretractil. En caso de no disponer de tubo "
+" tubo de plástico termoretractil. En caso de no disponer de tubo "
 "termoretractil, también se puede unir con cinta aislante, pero es más "
 "difícil conseguir que la antena quede bien sujeta."
 msgstr ""
 
 #: ../../source/cucabot-murofilo.rst:38
 msgid ""
+"Otra opción más compleja es construir una pequeña pieza de sujeción con "
+"una impresora 3D."
+msgstr ""
+
+#: ../../source/cucabot-murofilo.rst:41
+msgid ""
 "Para terminar escribiremos en un trozo de papel la referencia del nuevo "
 "componente (S2) y lo pegaremos junto al componente correspondiente."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:42
+#: ../../source/cucabot-murofilo.rst:45
 msgid ""
-"A continuación se muestran los planos mecánicos del robot Cucabot cero, "
-"que también se pueden descargar en formato PDF para imprimir:"
+"A continuación se muestran los planos mecánicos del robot Cucabot "
+"murófilo, que también se pueden descargar en formato PDF para imprimir:"
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:50
+#: ../../source/cucabot-murofilo.rst:53
 msgid "Vista en planta del robot Cucabot murófilo."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:52
+#: ../../source/cucabot-murofilo.rst:55
 msgid ""
 ":download:`Plano mecánico del robot Cucabot murófilo. Formato PDF. "
 "<cucabot/cucabot-murofilo-vistas.pdf>`"
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:57
+#: ../../source/cucabot-murofilo.rst:60
 msgid "Montaje eléctrico"
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:58
+#: ../../source/cucabot-murofilo.rst:61
 msgid ""
 "El montaje eléctrico es el mismo que el de la plataforma Cucabot, "
-"añadiendo un selector de dirección S2 que será el que decida qué motor "
-"del robot funciona, dependiendo de la posición de la antena."
+"añadiendo un final de carrera S2 que será el que decida qué motor del "
+"robot funciona, dependiendo de la posición de la antena."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:62
+#: ../../source/cucabot-murofilo.rst:65
 msgid ""
 "Cuando el selector de dirección S2 no está accionado conectará el motor "
 "derecho con la tensión positiva de la batería V1, haciendo que el robot "
 "gire hacia su izquierda, buscando el muro."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:66
+#: ../../source/cucabot-murofilo.rst:69
 msgid ""
 "Cuando el robot choque contra el muro a su izquierda la antena se moverá "
 "y accionará el selector S2. Esto provocará que se conecte el motor "
@@ -117,50 +123,50 @@ msgid ""
 "derecha, alejándose del muro."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:71
+#: ../../source/cucabot-murofilo.rst:74
 msgid ""
 "Cuando el robot se aleje del muro la antena volverá a encontrarse en "
 "reposo y el ciclo vuelve a comenzar."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:80
+#: ../../source/cucabot-murofilo.rst:83
 msgid "Esquema eléctrico del robot Cucabot murófilo."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:87
+#: ../../source/cucabot-murofilo.rst:90
 msgid "Cableado eléctrico del robot Cucabot murófilo."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:89
+#: ../../source/cucabot-murofilo.rst:92
 msgid ""
 ":download:`Plano eléctrico del robot Cucabot murófilo. Formato PDF. "
 "<cucabot/cucabot-murofilo-electric.pdf>`"
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:94
+#: ../../source/cucabot-murofilo.rst:97
 msgid "Funcionamiento"
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:95
+#: ../../source/cucabot-murofilo.rst:98
 msgid ""
 "Para comenzar colocaremos el robot cerca de una pared, con la pared cerca"
 " del motor izquierdo y de la punta de la antena."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:98
+#: ../../source/cucabot-murofilo.rst:101
 msgid ""
 "A continuación accionaremos el interruptor de marcha S1 para que el robot"
 " comience a avanzar hacia su izquierda."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:101
+#: ../../source/cucabot-murofilo.rst:104
 msgid ""
 "El robot girará entonces hacia su izquierda, hacia la pared, de manera "
 "que la antena chocará contra la pared y accionará el selector de "
 "dirección."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:105
+#: ../../source/cucabot-murofilo.rst:108
 msgid ""
 "Al accionar el selector de dirección, el motor derecho se desconecta y "
 "deja de girar, mientras que el motor izquierdo se conecta y comienza a "
@@ -168,53 +174,90 @@ msgid ""
 "pared con la que había chocado."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:110
+#: ../../source/cucabot-murofilo.rst:113
 msgid ""
 "Estos dos movimientos de giro a derecha e izquierda siempre se hacen con "
 "un avance del robot hacia adelante, por lo que el resultado final es que "
 "el robot avanza manteniéndose en todo momento junto a la pared."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:119
+#: ../../source/cucabot-murofilo.rst:122
 msgid "Robot Cucabot murófilo girando hacia una pared."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:126
+#: ../../source/cucabot-murofilo.rst:129
 msgid "Robot Cucabot murófilo después de chocar con la pared."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:130
+#: ../../source/cucabot-murofilo.rst:133
 msgid "Memoria de trabajo"
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:131
+#: ../../source/cucabot-murofilo.rst:134
 msgid ""
 "El siguiente documento servirá para que cada uno de los alumnos y alumnas"
-" del grupo de trabajo de taller dibuje y escriba los elementos necesarios"
-" para realizar el proyecto y enumere los trabajos realizados sobre el "
-"proyecto."
+" del grupo de trabajo de taller dibuje y escriba de forma individual los "
+"elementos necesarios para realizar el proyecto y enumere los trabajos "
+"realizados en el proyecto."
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:136
+#: ../../source/cucabot-murofilo.rst:139
 msgid ""
 ":download:`Memoria de trabajo del alumno. Formato PDF. <cucabot/cucabot-"
 "memoria.pdf>`"
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:139
+#: ../../source/cucabot-murofilo.rst:142
 msgid ""
 ":download:`Memoria de trabajo del alumno. Formato editable ODT. <cucabot"
 "/cucabot-memoria.odt>`"
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:144
+#: ../../source/cucabot-murofilo.rst:147
 msgid "Créditos"
 msgstr ""
 
-#: ../../source/cucabot-murofilo.rst:145
+#: ../../source/cucabot-murofilo.rst:148
 msgid ""
 "Instrucciones de la página original de `Cucabot en archive.org "
 "<https://web.archive.org/web/20100331204127/http://roble.pntic.mec.es/~jsaa0039/cucabot"
 "/murofilo-intro.html>`__"
 msgstr ""
+
+#~ msgid ""
+#~ "El siguiente documento servirá para que"
+#~ " cada uno de los alumnos y "
+#~ "alumnas del grupo de trabajo de "
+#~ "taller dibuje y escriba los elementos"
+#~ " necesarios para realizar el proyecto "
+#~ "y enumere los trabajos realizados sobre"
+#~ " el proyecto."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "La forma más efectiva de unir el"
+#~ " alambre de la antena al sensor "
+#~ "S2 es con un tubo de plástico "
+#~ "termoretractil. En caso de no disponer"
+#~ " de tubo termoretractil, también se "
+#~ "puede unir con cinta aislante, pero "
+#~ "es más difícil conseguir que la "
+#~ "antena quede bien sujeta."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A continuación se muestran los planos"
+#~ " mecánicos del robot Cucabot cero, "
+#~ "que también se pueden descargar en "
+#~ "formato PDF para imprimir:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "El montaje eléctrico es el mismo "
+#~ "que el de la plataforma Cucabot, "
+#~ "añadiendo un selector de dirección S2"
+#~ " que será el que decida qué "
+#~ "motor del robot funciona, dependiendo de"
+#~ " la posición de la antena."
+#~ msgstr ""
 
