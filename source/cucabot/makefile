@@ -115,7 +115,7 @@ $(IMGDIR)/cucabot-cero-schema.png: $(IMGDIR)/cucabot-cero-electric-p1.png
 	((x0,y0),(x1,y1))=eval(sys.argv[1]);\
 	print('%dx%d+%d+%d' % \
 	(abs(x0-x1),abs(y0-y1),min(x0,x1),min(y0,y1)))" \
-	"((750,750),(3600,2250))" ))
+	"((750,750),(3950,2250))" ))
 	$(CONVERT) $^ -crop $(crop) $(CONVERT_OPT) $@
 	$(OPTIPNG) $@
 

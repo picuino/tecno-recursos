@@ -2725,7 +2725,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "selector_pack_1"
+		(symbol "selector_pack_2"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2776,7 +2776,7 @@
 					)
 				)
 			)
-			(symbol "selector_pack_1_0_1"
+			(symbol "selector_pack_2_0_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 11.43 2.54)
@@ -2802,7 +2802,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 6.35) (xy -3.81 6.35)
+						(xy 11.43 6.35) (xy -1.27 6.35)
 					)
 					(stroke
 						(width 0)
@@ -2813,7 +2813,7 @@
 					)
 				)
 			)
-			(symbol "selector_pack_1_1_1"
+			(symbol "selector_pack_2_1_1"
 				(pin input line
 					(at 0 0 90)
 					(length 2.54)
@@ -3395,6 +3395,17 @@
 			)
 		)
 		(uuid "acf8d814-b914-4b6a-9eff-48c1b7fac7c4")
+	)
+	(text "ANTENA"
+		(exclude_from_sim no)
+		(at 136.652 67.818 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "b2459c64-5b03-4bb5-b249-2580fd178d6a")
 	)
 	(text "NC"
 		(exclude_from_sim no)
@@ -4516,6 +4527,78 @@
 		)
 	)
 	(symbol
+		(lib_name "selector_pack_2")
+		(lib_id "simbolos:selector_pack")
+		(at 139.7 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18c814af-4464-4630-a87e-aaedd51c4565")
+		(property "Reference" "S2"
+			(at 147.574 175.006 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "selector_pack"
+			(at 144.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "9abe9fc5-5983-42ef-be84-bdfafb521f9b")
+		)
+		(pin ""
+			(uuid "ac83a600-cb9f-4b6a-b4ca-e014ca26d4e1")
+		)
+		(pin ""
+			(uuid "e4c17a19-bec0-4b75-a176-3f2c35c99b7d")
+		)
+		(instances
+			(project ""
+				(path "/91e6286f-2f5f-4c12-b8bc-a46dfa772353"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "motor_1")
 		(lib_id "electric-simbolos:motor")
 		(at 87.63 53.34 90)
@@ -4926,78 +5009,6 @@
 			(project "cucabot-murofilo-electric"
 				(path "/91e6286f-2f5f-4c12-b8bc-a46dfa772353"
 					(reference "M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "selector_pack_1")
-		(lib_id "simbolos:selector_pack")
-		(at 139.7 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fa9f4e9-d8a6-4dec-8462-327ffb057c58")
-		(property "Reference" "S2"
-			(at 147.32 174.752 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "selector_pack"
-			(at 144.78 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "ae70c391-a15e-40a0-9cc2-438ca2553d2f")
-		)
-		(pin ""
-			(uuid "e4821983-fafb-4380-869f-2ba87b2ef250")
-		)
-		(pin ""
-			(uuid "dfca2329-4d78-4c46-832e-3aa7886824e6")
-		)
-		(instances
-			(project "cucabot-murofilo-electric"
-				(path "/91e6286f-2f5f-4c12-b8bc-a46dfa772353"
-					(reference "S2")
 					(unit 1)
 				)
 			)

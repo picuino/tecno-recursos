@@ -2802,7 +2802,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 6.35) (xy -3.81 6.35)
+						(xy 11.43 6.35) (xy -1.27 6.35)
 					)
 					(stroke
 						(width 0)
@@ -3386,6 +3386,17 @@
 		)
 		(uuid "7119892d-6bf2-42c4-876c-ba9175df4554")
 	)
+	(text "SELECTOR\nDE MARCHA"
+		(exclude_from_sim no)
+		(at 147.574 63.5 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "86d2ffa6-65b0-4742-b7e8-16bf641d6606")
+	)
 	(text "NC"
 		(exclude_from_sim no)
 		(at 141.732 57.404 0)
@@ -3406,7 +3417,7 @@
 		)
 		(uuid "ba67b7a6-cb7b-48a1-9ad2-deee541851e0")
 	)
-	(text "ROBOT CUCABOT MURÓFILO"
+	(text "ROBOT CUCABOT CERO"
 		(exclude_from_sim no)
 		(at 105.41 12.7 0)
 		(effects
@@ -4805,6 +4816,77 @@
 		)
 	)
 	(symbol
+		(lib_id "electric-simbolos:selector")
+		(at 129.54 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55c76e98-19d3-4ecd-92f2-ad3506417625")
+		(property "Reference" "S2"
+			(at 133.35 57.658 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "selector"
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e5a9ae56-0de7-4423-bacb-58c761b9a408")
+		)
+		(pin ""
+			(uuid "ca7bf033-4d7c-4fe2-971d-915df28b5690")
+		)
+		(pin ""
+			(uuid "11fddb5b-6b39-496b-acf5-e4a80b7a5927")
+		)
+		(instances
+			(project ""
+				(path "/91e6286f-2f5f-4c12-b8bc-a46dfa772353"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Motor_DC_2")
 		(lib_id "electric-simbolos:Motor_DC")
 		(at 63.5 217.17 0)
@@ -5149,78 +5231,6 @@
 			(project "cucabot-murofilo-electric"
 				(path "/91e6286f-2f5f-4c12-b8bc-a46dfa772353"
 					(reference "V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-simbolos:selector")
-		(at 129.54 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab4aafd2-ef28-4a2e-894e-845077c60458")
-		(property "Reference" "S2"
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Value" "selector"
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "a7304910-743d-4ed1-b846-8aa76aba46be")
-		)
-		(pin ""
-			(uuid "f6cd46a7-506e-485e-9d4b-a97b599cf1aa")
-		)
-		(pin ""
-			(uuid "ed1f2e62-f469-472b-9009-0c66e0127c00")
-		)
-		(instances
-			(project ""
-				(path "/91e6286f-2f5f-4c12-b8bc-a46dfa772353"
-					(reference "S2")
 					(unit 1)
 				)
 			)
