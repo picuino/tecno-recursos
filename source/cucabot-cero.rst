@@ -92,7 +92,7 @@ que los dos motores giren hacia adelante y que el robot avance.
 
 Cuando el selector de marcha S2 esté accionado porque el robot ha chocado
 por delante con un obstáculo, se conectará a los motores con la tensión
-negativa de la batería V2, haciendo que los dos motores giren hacia atrás
+negativa de la batería V2, haciendo que los dos motores giren hacia atrás.
 
 .. figure:: cucabot/_images/cucabot-cero-schema.png
    :alt: Esquema eléctrico del robot Cucabot cero.

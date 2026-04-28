@@ -21,8 +21,9 @@ El montaje se basa en la plataforma universal para robots Cucabot
 a la que añadiremos una antena de detección de muros que servirá de
 sensor para cambiar el movimiento de los motores a izquierda o a derecha.
 
-#. Primero cortaremos un alambre de acero galvanizado de 0.8 milímetros
-   de grosor y 250 milímetros de largo.
+#. Primero cortaremos un trozo de alambre de 25 centímetros de largo
+   de una bobina de alambre de acero galvanizado del número 8,
+   con 1,3 milímetros de grosor.
 
 #. A continuación doblaremos el alambre de acero con las dimensiones que
    aparecen en el plano mecánico. 

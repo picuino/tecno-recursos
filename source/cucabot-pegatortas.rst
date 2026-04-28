@@ -27,8 +27,9 @@ a la que añadiremos dos antenas de detección de obstáculos que servirán de
 sensores para cambiar la dirección de movimiento de los motores y
 por lo tanto el giro del robot para esquivar el obstáculo.
 
-#. Primero cortaremos dos alambres de acero galvanizado de 0.8 milímetros
-   de grosor y 250 milímetros de largo cada uno.
+#. Primero cortaremos dos trozos de alambre de 25 centímetros de largo
+   cada uno de una bobina de alambre de acero galvanizado del número 8,
+   con 1,3 milímetros de grosor.
 
 #. A continuación doblaremos los alambres de acero con las dimensiones que
    aparecen en el plano mecánico. 
