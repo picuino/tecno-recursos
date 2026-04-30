@@ -338,7 +338,7 @@ bookmarksnumbered=true
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
 
-  ('content',              # start docname (root document)
+  ('content-latex',        # start docname (root document)
    'picuino.tex',          # target name
    u'Picuino: recursos educativos para Tecnología', # title
    u'Carlos Félix Pardo Martín', # Author

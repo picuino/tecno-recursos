@@ -1,6 +1,7 @@
 ﻿:Date: 12/12/2025
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
+:tocdepth: 1
 
 
 .. _ardu-conduct-meter:

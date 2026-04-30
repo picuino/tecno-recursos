@@ -27,4 +27,5 @@ Recursos para actividades de taller.
    taller-historia-herramientas.rst
    taller-papercraft.rst
    taller-tangram.rst
+   taller-tesela-regular.rst
    taller-tesela-sombrero.rst
