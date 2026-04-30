@@ -5,15 +5,18 @@
 
 .. _taller-teslela-regular:
 
-Teselas regulares
-=================
-A continuación se presentan varias teselas regulares ordenadas por su
-dificultad a la hora de generar el teselado.
+Teselados periódicos
+====================
+A continuación se presentan varias teselas ordenadas por su dificultad a
+la hora de generar teselados periódicos, que se repiten en el espacio
+con un cierto desplazamiento y giro de la tesela base.
 
 Tesela pez
 ----------
-Esta es la tesela más sencilla de todas. Solo requiere realizar una
-sencilla traslación para poder generar el teselado completo.
+Esta es la tesela más sencilla de todas las de esta página.
+Está basada en un cuadrado. Solo requiere realizar una
+sencilla traslación horizontal o vertical para poder generar el
+teselado completo.
 
 .. figure:: taller/_images/taller-tesela-pez.png
    :alt: Tesela de pez.
@@ -28,11 +31,55 @@ sencilla traslación para poder generar el teselado completo.
    <taller/taller-tesela-pez.svg>`
 
 
+Tesela perro
+------------
+Esta tesela, algo más compleja que la anterior, está basada en un cuadrado.
+Necesita traslación y también reflejo horizontal para que las diferentes
+teselas encajen.
+Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
+
+.. figure:: taller/_images/taller-tesela-perro.png
+   :alt: Tesela de perro.
+   :align: center
+   :width: 250px
+
+   Tesela de perro.
+
+|  :download:`Teselas de perros. Formato PDF.
+   <taller/taller-tesela-perro.pdf>`
+|  :download:`Teselas de perros. Formato editable SVG.
+   <taller/taller-tesela-perro.svg>`
+
+
+Tesela pez volador
+------------------
+Esta tesela está basada en un triángulo equilátero.
+Necesita traslación y rotación para que las diferentes teselas encajen.
+
+.. figure:: taller/_images/taller-tesela-pez-volador.png
+   :alt: Tesela de pez volador.
+   :align: center
+   :width: 379px
+
+   Tesela de pez volador.
+
+|  :download:`Teselas de peces voladores. Formato PDF.
+   <taller/taller-tesela-pez-volador.pdf>`
+|  :download:`Teselas de peces voladores. Formato editable SVG.
+   <taller/taller-tesela-pez-volador.svg>`
+
+
+
 Tesela pájaro
 -------------
-Esta es la tesela, algo más compleja que la anterior, necesita traslación
-y también reflejo horizontal para que las diferentes teselas encajen.
+Esta tesela está basada en un rectángulo inclinado.
+Necesita traslación y también reflejo horizontal para que las diferentes
+teselas encajen.
 Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
+
+Al estar basada en un rectángulo inclinado (romboide) las teselas de la
+fila superior estarán algo desplazadas hacia un lado respecto a las
+teselas de la fila inferior.
 
 .. figure:: taller/_images/taller-tesela-pajaro.png
    :alt: Tesela de pájaro.
@@ -47,22 +94,21 @@ Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
    <taller/taller-tesela-pajaro.svg>`
 
 
+Tesela salamandra
+-----------------
+Esta es una tesela más compleja que las anteriores.
+Está basada en un hexágono regular y necesita tanto traslación como
+rotación para que las diferentes teselas encajen.
 
-Tesela perro
-------------
-Esta es la tesela, algo más compleja, necesita traslación y también
-reflejo horizontal para que las diferentes teselas encajen.
-Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
-
-.. figure:: taller/_images/taller-tesela-perro.png
-   :alt: Tesela de perro.
+.. figure:: taller/_images/taller-tesela-salamandra.png
+   :alt: Tesela de salamandra.
    :align: center
-   :width: 250px
+   :width: 418px
 
-   Tesela de perro.
+   Tesela de salamandra.
 
-|  :download:`Teselas de perros. Formato PDF.
-   <taller/taller-tesela-perro.pdf>`
-|  :download:`Teselas de perros. Formato editable SVG.
-   <taller/taller-tesela-perro.svg>`
+|  :download:`Teselas de salamandras. Formato PDF.
+   <taller/taller-tesela-salamandra.pdf>`
+|  :download:`Teselas de salamandras. Formato editable SVG.
+   <taller/taller-tesela-salamandra.svg>`
 
