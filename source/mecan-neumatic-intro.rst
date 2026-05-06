@@ -58,11 +58,14 @@ desarrollada por la Universidad de Linköping.
 Vídeos de circuitos neumáticos
 ------------------------------
 
+#. Vídeo: `Neumática Industrial, ¿Cómo Trabaja un Sistema Neumático? 
+   <https://www.youtube-nocookie.com/embed/Wee85cI6wwQ>`__
+
 #. Vídeo: `¿Qué es la NEUMÁTICA? | Documental del AIRE COMPRIMIDO
    <https://www.youtube-nocookie.com/embed/gu3u5TnuBx0>`__
 
-#. Vídeo: `Neumática Industrial, ¿Cómo Trabaja un Sistema Neumático?
-   <https://www.youtube-nocookie.com/embed/Wee85cI6wwQ>`__
+#. Vídeo: `Explicación del funcionamiento de un cilindro neumático (animación)
+   <https://www.youtube-nocookie.com/embed/hmz1h5fk2bI>`__
 
 #. Vídeo: `Circuitos neumáticos.
    <https://www.youtube-nocookie.com/embed/PZUS_Eo4dKM>`__
@@ -70,4 +73,11 @@ Vídeos de circuitos neumáticos
 #. Vídeo: `NEUMÁTICA BÁSICA | INTRODUCCIÓN
    <https://www.youtube-nocookie.com/embed/gbQ3JBcjHFI>`__
 
+#. Vídeo: `Pneumatic Aluminum Can Crusher
+   <https://www.youtube-nocookie.com/embed/L-8xOyK_tVA>`__
 
+#. Vídeo: `Aplicaciones de la neumática en la industria
+   <https://www.youtube-nocookie.com/embed/3iblsY8OGh4>`__
+
+#. Vídeo: `Aplicaciones de la Neumática en la Industria Alimenticia
+   <https://www.youtube-nocookie.com/embed/Jptn_Ib1048>`__
