@@ -42,6 +42,8 @@ teselado completo.
 
 |  :download:`Teselas de peces. Formato PDF.
    <taller/taller-tesela-pez.pdf>`
+|  :download:`Malla del teselado de peces. Formato PDF.
+   <taller/taller-tesela-pez-malla.pdf>`
 |  :download:`Teselas de peces. Formato editable SVG.
    <taller/taller-tesela-pez.svg>`
 
@@ -68,6 +70,8 @@ encajen.
 
 |  :download:`Teselas de peces voladores. Formato PDF.
    <taller/taller-tesela-pez-volador.pdf>`
+|  :download:`Malla del teselado de peces voladores. Formato PDF.
+   <taller/taller-tesela-pez-volador-malla.pdf>`
 |  :download:`Teselas de peces voladores. Formato editable SVG.
    <taller/taller-tesela-pez-volador.svg>`
 
@@ -95,6 +99,8 @@ Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
 
 |  :download:`Teselas de pájaros. Formato PDF.
    <taller/taller-tesela-pajaro.pdf>`
+|  :download:`Malla del teselado de pájaros. Formato PDF.
+   <taller/taller-tesela-pajaro-malla.pdf>`
 |  :download:`Teselas de pájaros. Formato editable SVG.
    <taller/taller-tesela-pajaro.svg>`
 
@@ -123,6 +129,8 @@ Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
 
 |  :download:`Teselas de perros. Formato PDF.
    <taller/taller-tesela-perro.pdf>`
+|  :download:`Malla del teselado de perros. Formato PDF.
+   <taller/taller-tesela-perro-malla.pdf>`
 |  :download:`Teselas de perros. Formato editable SVG.
    <taller/taller-tesela-perro.svg>`
 
@@ -149,6 +157,8 @@ rotación de 120º para que las diferentes teselas encajen.
 
 |  :download:`Teselas de salamandras. Formato PDF.
    <taller/taller-tesela-salamandra.pdf>`
+|  :download:`Malla del teselado de salamandras. Formato PDF.
+   <taller/taller-tesela-salamandra-malla.pdf>`
 |  :download:`Teselas de salamandras. Formato editable SVG.
    <taller/taller-tesela-salamandra.svg>`
 
