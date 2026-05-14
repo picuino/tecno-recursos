@@ -89,6 +89,9 @@ Propiedades de los pétreos
 
 Pétreos naturales
 -----------------
+Los materiales pétreos naturales son rocas extraídas directamente de la
+naturaleza que se utilizan en la construcción con escasa transformación,
+principalmente corte y pulido.
 
 **Mármol**
    Se ha usado desde la antigüedad para construir edificios o tallar
@@ -136,9 +139,12 @@ Pétreos naturales
       :alt: Tejado revestido de planchas de pizarra impermeable
       :align: center
 
+      Tejado revestido de planchas de pizarra impermeable.
+
       `Dontworry <https://commons.wikimedia.org/wiki/File:St.leonhard-ffm002.jpg>`__,
       `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
       vía Wikimedia Commons.
+      
 
 
 **Piedra caliza**
@@ -169,8 +175,10 @@ Pétreos naturales
    Se emplea como material de construcción y en piedras de afilar.
 
    .. figure:: material/_images/material-arenisca.jpg
-      :alt: Piedra arenisca
+      :alt: Roca de arenisca.
       :align: center
+
+      Roca de arenisca.
 
       `Sarranpa <https://commons.wikimedia.org/wiki/File:Arenisca.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
@@ -178,8 +186,8 @@ Pétreos naturales
 
 
 **Grava y arenas**
-   Son rocas de un tamaño pequeño. Se utilizan junto al cemento
-   para formar hormigón.
+   Son rocas de un tamaño pequeño, conocidas técnicamente como áridos.
+   Se utilizan junto al cemento para formar hormigón.
 
 
 Pétreos aglomerantes
@@ -200,8 +208,10 @@ y adoptan una consistencia pétrea.
    El yeso de grano más fino se denomina **escayola**.
 
    .. figure:: material/_images/material-escayola.jpg
-      :alt: Techo de escayola con filigranas grabadas
+      :alt: Techo de escayola con filigranas grabadas.
       :align: center
+
+      Techo de escayola con filigranas grabadas.
 
       `Joseph Rose <https://commons.wikimedia.org/wiki/File:Tapestry_Room_from_Croome_Court_MET_DP341270.jpg>`__
       `CC0 Public Domain. <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__
@@ -216,8 +226,10 @@ y adoptan una consistencia pétrea.
    toneladas. Su uso principal es la producción de hormigón.
 
    .. figure:: material/_images/material-cemento.jpg
-      :alt: Cemento en polvo
+      :alt: Cemento en polvo.
       :align: center
+
+      Cemento en polvo para preparar mortero.
 
       `Anónimo <https://commons.wikimedia.org/wiki/File:USMC-110806-M-IX060-148.jpg>`__
       `CC0 Public Domain. <https://creativecommons.org/publicdomain/zero/1.0/deed.en>`__

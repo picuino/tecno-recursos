@@ -18,10 +18,10 @@ forma ordenada mediante traslaciones en dos direcciones.
 A continuación se presentan varias teselas ordenadas por su dificultad
 de construcción.
 
+
 Tesela pez
 ----------
-Esta es la tesela más sencilla de todas las de esta página.
-Está basada en un **cuadrado**. Solo requiere realizar una
+Esta tesela está basada en un **cuadrado**. Solo requiere realizar una
 sencilla traslación horizontal o vertical para poder generar el
 teselado completo.
 
@@ -48,11 +48,47 @@ teselado completo.
    <taller/taller-tesela-pez.svg>`
 
 
+Tesela hueso nazarí
+-------------------
+Está tesela está basada en un **cuadrado**. Solo requiere realizar una
+sencilla traslación horizontal o vertical y un giro de 90 grados para
+poder generar el teselado completo.
+
+.. figure:: taller/_images/taller-tesela-hueso.png
+   :alt: Tesela de hueso nazarí.
+   :align: center
+   :width: 357px
+
+   Tesela de hueso nazarí.
+
+
+.. figure:: taller/_images/taller-teselado-hueso.png
+   :alt: Teselado de huesos nazaríes.
+   :align: center
+   :width: 532px
+
+   Teselado de huesos nazaríes.
+
+|  :download:`Teselas de huesos nazaríes. Formato PDF.
+   <taller/taller-tesela-hueso.pdf>`
+|  :download:`Malla del teselado de huesos nazaríes. Formato PDF.
+   <taller/taller-tesela-hueso-malla.pdf>`
+|  :download:`Teselas de huesos nazaríes. Formato editable SVG.
+   <taller/taller-tesela-hueso.svg>`
+
+|  :download:`Tesela de hueso nazarí.
+   Formato BlocksCAD en 3D.
+   <taller/taller-tesela-hueso.xml>`
+|  :download:`Tesela de hueso nazarí.
+   Formato STL binario para imprimir en 3D.
+   <taller/taller-tesela-hueso.stl>`
+
+
 Tesela pez volador
 ------------------
 Esta tesela está basada en un **triángulo equilátero**.
-Necesita traslación y rotación de 60º para que las diferentes teselas
-encajen.
+Necesita traslación y rotación de 60 grados para que las diferentes
+teselas encajen.
 
 .. figure:: taller/_images/taller-tesela-pez-volador.png
    :alt: Tesela de pez volador.
@@ -74,6 +110,10 @@ encajen.
    <taller/taller-tesela-pez-volador-malla.pdf>`
 |  :download:`Teselas de peces voladores. Formato editable SVG.
    <taller/taller-tesela-pez-volador.svg>`
+
+|  :download:`Tesela de pez volador.
+   Formato STL binario para imprimir en 3D.
+   <taller/taller-tesela-pez-volador-3d.stl>`
 
 
 Tesela pájaro
@@ -139,7 +179,7 @@ Tesela salamandra
 -----------------
 Esta es una tesela más compleja que las anteriores.
 Está basada en un **hexágono regular** y necesita tanto traslación como
-rotación de 120º para que las diferentes teselas encajen.
+rotación de 120 grados para que las diferentes teselas encajen.
 
 .. figure:: taller/_images/taller-tesela-salamandra.png
    :alt: Tesela de salamandra.
