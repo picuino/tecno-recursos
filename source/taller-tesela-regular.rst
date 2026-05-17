@@ -19,6 +19,11 @@ A continuación se presentan varias teselas ordenadas por su dificultad
 de construcción.
 
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
+
 Tesela pez
 ----------
 Esta tesela está basada en un **cuadrado**. Solo requiere realizar una
@@ -46,6 +51,10 @@ teselado completo.
    <taller/taller-tesela-pez-malla.pdf>`
 |  :download:`Teselas de peces. Formato editable SVG.
    <taller/taller-tesela-pez.svg>`
+
+|  :download:`Tesela de pez.
+   Formato STL binario para imprimir en 3D.
+   <taller/taller-tesela-pez-3d.stl>`
 
 
 Tesela hueso nazarí
@@ -145,6 +154,14 @@ Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
    <taller/taller-tesela-pajaro.svg>`
 
 
+|  :download:`Tesela de pájaro dirección izquierda.
+   Formato STL binario para imprimir en 3D.
+   <taller/taller-tesela-pajaro-3d-a.stl>`
+|  :download:`Tesela de pájaro dirección derecha.
+   Formato STL binario para imprimir en 3D.
+   <taller/taller-tesela-pajaro-3d-b.stl>`
+
+
 Tesela perro
 ------------
 Esta tesela, algo más compleja que la anterior, está basada en un
@@ -202,3 +219,6 @@ rotación de 120 grados para que las diferentes teselas encajen.
 |  :download:`Teselas de salamandras. Formato editable SVG.
    <taller/taller-tesela-salamandra.svg>`
 
+|  :download:`Tesela de salamandra.
+   Formato STL binario para imprimir en 3D.
+   <taller/taller-tesela-salamandra-3d.stl>`

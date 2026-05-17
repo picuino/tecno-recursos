@@ -151,5 +151,19 @@ Ejercicios
       <iframe src="/neumatic/index.html"></iframe>
       </div>
 
-#. Explica con tus palabras el comportamiento del circuito anterior
-   y por qué funciona de esa manera.
+#. Explica el comportamiento del circuito anterior reordenando las
+   siguientes frases en el orden correcto al copiarlas en tu cuaderno.
+
+   1. Cuando el vástago del cilindro sale hacia fuera, el rodillo y la
+      válvula dejan de estar accionados.
+   2. Cuando el vástago del cilindro entra, acciona de nuevo el rodillo
+      de la válvula y el ciclo vuelve a comenzar.
+   3. Al recibir aire, el vástago del cilindro sale hacia fuera.
+   4. Al comienzo el vástago se encuentra dentro del cilindro, accionando
+      el rodillo de la válvula.
+   5. Al no accionar el rodillo, la válvula deja de enviar aire al cilindro
+      y conecta al escape, haciendo que el vástago vuelva a entrar.
+   6. Al accionar el rodillo, la válvula pasa a estar accionada y deja
+      pasar aire hacia el cilindro.
+
+..  4, 6, 3, 1, 5, 2
