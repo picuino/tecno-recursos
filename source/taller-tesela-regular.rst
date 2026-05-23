@@ -202,9 +202,12 @@ Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
 |  :download:`Teselas de perros. Formato editable SVG.
    <taller/taller-tesela-perro.svg>`
 
-|  :download:`Tesela de perro dirección izquierda y derecha.
+|  :download:`Tesela de perro dirección derecha.
    Formato STL binario para imprimir en 3D.
-   <taller/taller-tesela-perro-3d.stl>`
+   <taller/taller-tesela-perro-3d-a.stl>`
+|  :download:`Tesela de perro dirección izquierda.
+   Formato STL binario para imprimir en 3D.
+   <taller/taller-tesela-perro-3d-b.stl>`
 
 
 Tesela salamandra
