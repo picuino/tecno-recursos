@@ -114,9 +114,12 @@ Ejercicios
 #. Dibuja de nuevo en este simulador el mismo esquema que aparece arriba
    en el cilindro con carga.
    
-   Recuerda seleccionar en el menú ``Editar... Modificar.`` y clicar sobre
-   el cilindro neumático y sobre la válvula de estranguladora de flujo para
-   cambiar sus valores por defecto.
+   Recuerda seleccionar en el menú ``Editar... Opciones.`` y clicar sobre
+   el cilindro neumático para cambiar su carga a 60kg.
+
+   Recuerda seleccionar en el menú ``Editar... Opciones.`` y clicar sobre
+   la válvula de estranguladora de flujo para cambiar su valor a 20.
+   De esta forma el aire se moverá más despacio.
    
    Recuerda seleccionar en el menú ``Editar... Voltear.`` para cambiar el
    sentido de la válvula antirretorno.

@@ -12,7 +12,7 @@ Blogs y webs de Tecnología para Secundaria
 Ranking de blogs y páginas web de Tecnología para Educación Secundaria.
 
 Los `ranking de Similarweb <https://www.similarweb.com/es/>`__
-corresponden al mes de diciembre de 2025.
+corresponden al mes de abril de 2026.
 
 Para realizar la ordenación de los sitios web se ha tomado como
 base el ranking de Similarweb.
@@ -21,22 +21,7 @@ Los números más pequeños se colocan primeros en la lista.
 
 ----
 
-01. `Área Tecnología <https://www.areatecnologia.com/>`__
----------------------------------------------------------
-
-   .. image:: recursos/screenshots/recursos-www_areatecnologia_com.jpg
-      :target: https://www.areatecnologia.com/
-      :alt: Screenshot de la página web Área Tecnología.
-
-   .. list-table::
-
-      * - `Similarweb rank <https://www.similarweb.com/es/website/areatecnologia.com/#overview>`__
-        - 397.0 k
-      * - Páginas vistas al mes
-        - 180 k
-
-
-02. `Picuino <https://www.picuino.com/>`__
+01. `Picuino <https://www.picuino.com/>`__
 ------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_picuino_com.jpg
@@ -46,30 +31,30 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/picuino.com/#overview>`__
-        - 487.6 k
-      * - Páginas vistas al mes
-        - 216 k
+        - 289.8 k
+      * - Visitas al mes
+        - 118.1 k
 
    Web creada por Carlos Pardo, profesor de Tecnología.
 
 
 
-03. `Tecnopatafísica <https://tecnopatafisica.com/>`__
-------------------------------------------------------
+02. `Área Tecnología <https://www.areatecnologia.com/>`__
+---------------------------------------------------------
 
-   .. image:: recursos/screenshots/recursos-tecnopatafisica_com.jpg
-      :target: https://tecnopatafisica.com/
-      :alt: Screenshot de la página web Tecnopatafísica.
+   .. image:: recursos/screenshots/recursos-www_areatecnologia_com.jpg
+      :target: https://www.areatecnologia.com/
+      :alt: Screenshot de la página web Área Tecnología.
 
    .. list-table::
 
-      * - `Similarweb rank <https://www.similarweb.com/es/website/tecnopatafisica.com/#overview>`__
-        - 678.5 k
-      * - Páginas vistas al mes
-        - 162 k
+      * - `Similarweb rank <https://www.similarweb.com/es/website/areatecnologia.com/#overview>`__
+        - 304.0 k
+      * - Visitas al mes
+        - 146.4 k
 
 
-04. `Tecno Villadiego <https://angelmicelti.github.io/>`__
+03. `Tecno Villadiego <https://angelmicelti.github.io/>`__
 ----------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-angelmicelti_github_io.jpg
@@ -79,9 +64,9 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/angelmicelti.github.io/#overview>`__
-        - 717.6 k
-      * - Páginas vistas al mes
-        - 103 k
+        - 515.1 k
+      * - Visitas al mes
+        - 52.4 k
 
    Web creada por Ángel Micelti, profesor de Tecnología del I.E.S.
    Virgen de Villadiego, de Peñaflor (Sevilla).
@@ -89,22 +74,26 @@ Los números más pequeños se colocan primeros en la lista.
 
 
 
-05. `Portal ESO <http://www.portaleso.com/>`__
-----------------------------------------------
+04. `Pelandintecno <https://pelandintecno.blogspot.com/>`__
+-----------------------------------------------------------
 
-   .. image:: recursos/screenshots/recursos-www_portaleso_com.jpg
-      :target: http://www.portaleso.com/
-      :alt: Screenshot de la página web Portal ESO.
+   .. image:: recursos/screenshots/recursos-pelandintecno_blogspot_com.jpg
+      :target: https://pelandintecno.blogspot.com/
+      :alt: Screenshot de la página web Pelandintecno.
 
    .. list-table::
 
-      * - `Similarweb rank <https://www.similarweb.com/es/website/www.portaleso.com/#overview>`__
-        - 1053.5 k
-      * - Páginas vistas al mes
-        - 56 k
+      * - `Similarweb rank <https://www.similarweb.com/es/website/pelandintecno.blogspot.com/#overview>`__
+        - 1063.4 k
+      * - Visitas al mes
+        - 31.7 k
+
+   Web creada por Pedro Landín, del departamento de Tecnología del 
+   Sagrado Corazón de Placeres.
 
 
-06. `Apuntes Marea Verde <https://www.apuntesmareaverde.org.es/>`__
+
+05. `Apuntes Marea Verde <https://www.apuntesmareaverde.org.es/>`__
 -------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-www_apuntesmareaverde_org_es.jpg
@@ -114,9 +103,9 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/apuntesmareaverde.org.es/#overview>`__
-        - 445.4 k
-      * - Páginas vistas al mes
-        - 173 k
+        - 367.9 k
+      * - Visitas al mes
+        - 101.7 k
 
    Web del movimiento Marea Verde, con apuntes y libros de muchas 
    materias, incluida la materia de Tecnología.
@@ -127,26 +116,22 @@ Los números más pequeños se colocan primeros en la lista.
 
 
 
-07. `Pelandintecno <https://pelandintecno.blogspot.com/>`__
------------------------------------------------------------
+06. `Portal ESO <http://www.portaleso.com/>`__
+----------------------------------------------
 
-   .. image:: recursos/screenshots/recursos-pelandintecno_blogspot_com.jpg
-      :target: https://pelandintecno.blogspot.com/
-      :alt: Screenshot de la página web Pelandintecno.
+   .. image:: recursos/screenshots/recursos-www_portaleso_com.jpg
+      :target: http://www.portaleso.com/
+      :alt: Screenshot de la página web Portal ESO.
 
    .. list-table::
 
-      * - `Similarweb rank <https://www.similarweb.com/es/website/pelandintecno.blogspot.com/#overview>`__
-        - 1402.9 k
-      * - Páginas vistas al mes
-        - 29 k
-
-   Web creada por Pedro Landín, del departamento de Tecnología del 
-   Sagrado Corazón de Placeres.
+      * - `Similarweb rank <https://www.similarweb.com/es/website/www.portaleso.com/#overview>`__
+        - 1186.0 k
+      * - Visitas al mes
+        - 21.0 k
 
 
-
-08. `Aprendemos Tecnología <https://aprendemostecnologia.org/>`__
+07. `Aprendemos Tecnología <https://aprendemostecnologia.org/>`__
 -----------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-aprendemostecnologia_org.jpg
@@ -156,9 +141,9 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/aprendemostecnologia.org/#overview>`__
-        - 1425.8 k
-      * - Páginas vistas al mes
-        - 33 k
+        - 1592.7 k
+      * - Visitas al mes
+        - 14.7 k
 
    Web del IES Villalba Hervás, IES Antonio Glez. Glez. y el IES 
    Tegueste.
@@ -167,7 +152,7 @@ Los números más pequeños se colocan primeros en la lista.
 
 
 
-09. `Lacienciaparatodos <https://lacienciaparatodos.wordpress.com/>`__
+08. `Lacienciaparatodos <https://lacienciaparatodos.wordpress.com/>`__
 ----------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-lacienciaparatodos_wordpress_com.jpg
@@ -177,30 +162,15 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/lacienciaparatodos.wordpress.com/#overview>`__
-        - 1896.7 k
-      * - Páginas vistas al mes
-        - 19 k
+        - 1846.4 k
+      * - Visitas al mes
+        - 15.0 k
 
    Blog de Javier Fernández Panadero.
 
 
 
-10. `Tecnosalva <https://www.tecnosalva.com/>`__
-------------------------------------------------
-
-   .. image:: recursos/screenshots/recursos-www_tecnosalva_com.jpg
-      :target: https://www.tecnosalva.com/
-      :alt: Screenshot de la página web Tecnosalva.
-
-   .. list-table::
-
-      * - `Similarweb rank <https://www.similarweb.com/es/website/www.tecnosalva.com/#overview>`__
-        - 2144.8 k
-      * - Páginas vistas al mes
-        - 19 k
-
-
-11. `Tecnoapuntes <https://tecnoapuntes.com/>`__
+09. `Tecnoapuntes <https://tecnoapuntes.com/>`__
 ------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnoapuntes_com.jpg
@@ -210,12 +180,12 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnoapuntes.com/#overview>`__
-        - 2548.5 k
-      * - Páginas vistas al mes
-        - 13 k
+        - 2217.4 k
+      * - Visitas al mes
+        - 9.6 k
 
 
-12. `Makinando Vélez <https://makinandovelez.wordpress.com/>`__
+10. `Makinando Vélez <https://makinandovelez.wordpress.com/>`__
 ---------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-makinandovelez_wordpress_com.jpg
@@ -225,13 +195,43 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/makinandovelez.wordpress.com/#overview>`__
-        - 2890.4 k
-      * - Páginas vistas al mes
-        - 11 k
+        - 2331.3 k
+      * - Visitas al mes
+        - 11.5 k
 
    Blog creado en el departamento de Tecnología del IES Luis Vélez 
    de Guevara, Écija.
 
+
+
+11. `Tecnopatafísica <https://tecnopatafisica.com/>`__
+------------------------------------------------------
+
+   .. image:: recursos/screenshots/recursos-tecnopatafisica_com.jpg
+      :target: https://tecnopatafisica.com/
+      :alt: Screenshot de la página web Tecnopatafísica.
+
+   .. list-table::
+
+      * - `Similarweb rank <https://www.similarweb.com/es/website/tecnopatafisica.com/#overview>`__
+        - 2971.6 k
+      * - Visitas al mes
+        - 6.2 k
+
+
+12. `Tecnosalva <https://www.tecnosalva.com/>`__
+------------------------------------------------
+
+   .. image:: recursos/screenshots/recursos-www_tecnosalva_com.jpg
+      :target: https://www.tecnosalva.com/
+      :alt: Screenshot de la página web Tecnosalva.
+
+   .. list-table::
+
+      * - `Similarweb rank <https://www.similarweb.com/es/website/www.tecnosalva.com/#overview>`__
+        - 3006.0 k
+      * - Visitas al mes
+        - 6.0 k
 
 
 13. `Tecnosecundaria <https://www.tecnosecundaria.es/>`__
@@ -244,9 +244,9 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/www.tecnosecundaria.es/#overview>`__
-        - 3151.9 k
-      * - Páginas vistas al mes
-        - 11 k
+        - 3306.4 k
+      * - Visitas al mes
+        - 5.4 k
 
 
 14. `Blog de Alicia Díaz Cobo <https://aliciadiazcobo.wordpress.com/>`__
@@ -259,12 +259,47 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/aliciadiazcobo.wordpress.com/#overview>`__
-        - 5026.5 k
-      * - Páginas vistas al mes
-        - 7 k
+        - 3474.8 k
+      * - Visitas al mes
+        - 5.0 k
 
 
-15. `Blog del profesor de Tecnología <https://elblogdelprofesordetecnologia.blogspot.com/>`__
+15. `Raúl Tecnología <https://raultecnologia.wordpress.com/>`__
+---------------------------------------------------------------
+
+   .. image:: recursos/screenshots/recursos-raultecnologia_wordpress_com.jpg
+      :target: https://raultecnologia.wordpress.com/
+      :alt: Screenshot de la página web Raúl Tecnología.
+
+   .. list-table::
+
+      * - `Similarweb rank <https://www.similarweb.com/es/website/raultecnologia.wordpress.com/#overview>`__
+        - 3999.3 k
+      * - Visitas al mes
+        - Sin datos.
+
+
+16. `Blog de José Panadero <https://josepanadero.wordpress.com/>`__
+-------------------------------------------------------------------
+
+   .. image:: recursos/screenshots/recursos-josepanadero_wordpress_com.jpg
+      :target: https://josepanadero.wordpress.com/
+      :alt: Screenshot de la página web Blog de José Panadero.
+
+   .. list-table::
+
+      * - `Similarweb rank <https://www.similarweb.com/es/website/josepanadero.wordpress.com/#overview>`__
+        - 4686.6 k
+      * - Visitas al mes
+        - Sin datos.
+
+   José Manuel Panadero es el autor de esta página web, que se 
+   caracteriza por sus numerosas propuestas para la asignatura de
+   Tecnología.
+
+
+
+17. `Blog del profesor de Tecnología <https://elblogdelprofesordetecnologia.blogspot.com/>`__
 ---------------------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-elblogdelprofesordetecnologia_blogspot_com.jpg
@@ -274,31 +309,12 @@ Los números más pequeños se colocan primeros en la lista.
    .. list-table::
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/elblogdelprofesordetecnologia.blogspot.com/#overview>`__
-        - 5087.5 k
-      * - Páginas vistas al mes
+        - 4987.1 k
+      * - Visitas al mes
         - Sin datos.
 
 
-16. `Aula de Tecnologías <https://auladetecnologias.blogspot.com/>`__
----------------------------------------------------------------------
-
-   .. image:: recursos/screenshots/recursos-auladetecnologias_blogspot_com.jpg
-      :target: https://auladetecnologias.blogspot.com/
-      :alt: Screenshot de la página web Aula de Tecnologías.
-
-   .. list-table::
-
-      * - `Similarweb rank <https://www.similarweb.com/es/website/auladetecnologias.blogspot.com/#overview>`__
-        - 6063.9 k
-      * - Páginas vistas al mes
-        - Sin datos.
-
-   Blog creado por Amelia Tierno (docente de Tecnología en IES 
-   Ignacio Ellacuría en Alcalá de Henares).
-
-
-
-17. `Todotecnología IES el Chaparil <https://todotecnologia-eso.blogspot.com/>`__
+18. `Todotecnología IES el Chaparil <https://todotecnologia-eso.blogspot.com/>`__
 ---------------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-todotecnologia-eso_blogspot_com.jpg
@@ -309,29 +325,33 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/todotecnologia-eso.blogspot.com/#overview>`__
         - 6505.3 k
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
    Blog de Tecnología del IES el Chaparil de Nerja.
 
 
 
-18. `Tecnoloxia.org <https://tecnoloxia.org/>`__
-------------------------------------------------
+19. `Aula de Tecnologías <https://auladetecnologias.blogspot.com/>`__
+---------------------------------------------------------------------
 
-   .. image:: recursos/screenshots/recursos-tecnoloxia_org.jpg
-      :target: https://tecnoloxia.org/
-      :alt: Screenshot de la página web Tecnoloxia.org.
+   .. image:: recursos/screenshots/recursos-auladetecnologias_blogspot_com.jpg
+      :target: https://auladetecnologias.blogspot.com/
+      :alt: Screenshot de la página web Aula de Tecnologías.
 
    .. list-table::
 
-      * - `Similarweb rank <https://www.similarweb.com/es/website/tecnoloxia.org/#overview>`__
-        - 6774.3 k
-      * - Páginas vistas al mes
-        - 6 k
+      * - `Similarweb rank <https://www.similarweb.com/es/website/auladetecnologias.blogspot.com/#overview>`__
+        - 7078.3 k
+      * - Visitas al mes
+        - Sin datos.
+
+   Blog creado por Amelia Tierno (docente de Tecnología en IES 
+   Ignacio Ellacuría en Alcalá de Henares).
 
 
-19. `Tecnopujol <https://tecnopujol.wordpress.com/>`__
+
+20. `Tecnopujol <https://tecnopujol.wordpress.com/>`__
 ------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnopujol_wordpress_com.jpg
@@ -342,11 +362,11 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnopujol.wordpress.com/#overview>`__
         - 13355.1 k
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
-20. `GMedranoTIC <https://gmedranotic.wordpress.com/>`__
+21. `GMedranoTIC <https://gmedranotic.wordpress.com/>`__
 --------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-gmedranotic_wordpress_com.jpg
@@ -357,11 +377,11 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/gmedranotic.wordpress.com/#overview>`__
         - 14233.5 k
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
-21. `Blog de Pedro Jara <https://pedro-jara.blogspot.com/>`__
+22. `Blog de Pedro Jara <https://pedro-jara.blogspot.com/>`__
 -------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-pedro-jara_blogspot_com.jpg
@@ -372,11 +392,11 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/pedro-jara.blogspot.com/#overview>`__
         - 25175.6 k
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
-22. `Tecnología IES Palti <https://iespalti.blogspot.com/>`__
+23. `Tecnología IES Palti <https://iespalti.blogspot.com/>`__
 -------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-iespalti_blogspot_com.jpg
@@ -387,11 +407,11 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/iespalti.blogspot.com/#overview>`__
         - 26168.0 k
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
-23. `Tecnología CEO Boecillo <https://tecnologiaceoboecillo.blogspot.com/>`__
+24. `Tecnología CEO Boecillo <https://tecnologiaceoboecillo.blogspot.com/>`__
 -----------------------------------------------------------------------------
 
    .. image:: recursos/screenshots/recursos-tecnologiaceoboecillo_blogspot_com.jpg
@@ -402,42 +422,22 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnologiaceoboecillo.blogspot.com/#overview>`__
         - 35887.1 k
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
-24. `Blog de José Panadero <https://josepanadero.wordpress.com/>`__
--------------------------------------------------------------------
+25. `Tecnoloxia.org <https://tecnoloxia.org/>`__
+------------------------------------------------
 
-   .. image:: recursos/screenshots/recursos-josepanadero_wordpress_com.jpg
-      :target: https://josepanadero.wordpress.com/
-      :alt: Screenshot de la página web Blog de José Panadero.
+   .. image:: recursos/screenshots/recursos-tecnoloxia_org.jpg
+      :target: https://tecnoloxia.org/
+      :alt: Screenshot de la página web Tecnoloxia.org.
 
    .. list-table::
 
-      * - `Similarweb rank <https://www.similarweb.com/es/website/josepanadero.wordpress.com/#overview>`__
+      * - `Similarweb rank <https://www.similarweb.com/es/website/tecnoloxia.org/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
-        - Sin datos.
-
-   José Manuel Panadero es el autor de esta página web, que se 
-   caracteriza por sus numerosas propuestas para la asignatura de
-   Tecnología.
-
-
-
-25. `Raúl Tecnología <https://raultecnologia.wordpress.com/>`__
----------------------------------------------------------------
-
-   .. image:: recursos/screenshots/recursos-raultecnologia_wordpress_com.jpg
-      :target: https://raultecnologia.wordpress.com/
-      :alt: Screenshot de la página web Raúl Tecnología.
-
-   .. list-table::
-
-      * - `Similarweb rank <https://www.similarweb.com/es/website/raultecnologia.wordpress.com/#overview>`__
-        - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -452,7 +452,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecno8demarzo.weebly.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -467,7 +467,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnomapas.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -482,7 +482,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/alextecnoeso.wordpress.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -497,7 +497,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnomeler.org/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -512,7 +512,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/andeltecnologia.wordpress.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -527,7 +527,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/educarfilando.wordpress.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -542,7 +542,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/harotecno.wordpress.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -557,7 +557,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/fdiazuceda.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -572,7 +572,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/esoytec.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -587,7 +587,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/blogmiguetecnologia.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -602,7 +602,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/www.tecnobloc.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -617,7 +617,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/www.aulataller.es/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -632,7 +632,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnoatocha.wordpress.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -647,7 +647,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnologiaymasgma.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -662,7 +662,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/blogtecnos.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -677,7 +677,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnologiacanete.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -692,7 +692,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/mariademolina.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -707,7 +707,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/www.tecnozona.org/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -722,7 +722,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/raulexperimentos.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
    Experimentos sencillos de Ciencia y Tecnología.
@@ -740,7 +740,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnologiaconcarlosmartinez.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -755,7 +755,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/es.wikibooks.org/wiki/Tecno_Recursos/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
    Wikilibro colaborativo orientado a crear recursos para Tecnología.
@@ -773,7 +773,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/areatecnologia.blogspot.com.es/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -788,7 +788,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnobri.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -803,7 +803,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/victoracosta352.wixsite.com/tecnologiaeso/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -818,7 +818,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/sites.google.com/site/jrlopezinfo/home/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -833,7 +833,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnologia.escuelassj.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -848,7 +848,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/wp.catedu.es/aratecno/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -863,7 +863,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/profesoratecno.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -878,7 +878,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/www.tecnoeduca.com/blog/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -893,7 +893,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnoilogicos.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -908,7 +908,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnoinfe.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -923,7 +923,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/www3.gobiernodecanarias.org/medusa/ecoblog/ilopmon/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -938,7 +938,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnologiaayala.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -953,7 +953,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/programacionrobotica.blogspot.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -968,7 +968,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/sites.google.com/site/migueltecnologia/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -983,7 +983,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/createcontic.weebly.com/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -998,7 +998,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/sites.google.com/view/tecnologialgm1/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -1013,7 +1013,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/sites.google.com/view/tecnologialgmeso2/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -1028,7 +1028,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/sites.google.com/view/tecnologialgm3/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -1043,7 +1043,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/sites.google.com/view/tecnologialgm4/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
 
@@ -1058,7 +1058,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/citecmat.blogspot.com.es/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
    Web creada por G. Ibán de la Horra, disponible en inglés y 
@@ -1077,7 +1077,7 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <https://www.similarweb.com/es/website/tecnovilladiego.blogspot.com.es/#overview>`__
         - Sin datos.
-      * - Páginas vistas al mes
+      * - Visitas al mes
         - Sin datos.
 
    Blog creado por el departamento de Tecnología del IES Virgen de 

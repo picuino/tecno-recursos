@@ -12,7 +12,7 @@ Blogs y webs de Tecnología para Secundaria
 Ranking de blogs y páginas web de Tecnología para Educación Secundaria.
 
 Los `ranking de Similarweb <https://www.similarweb.com/es/>`__
-corresponden al mes de diciembre de 2025.
+corresponden al mes de abril de 2026.
 
 Para realizar la ordenación de los sitios web se ha tomado como
 base el ranking de Similarweb.
@@ -29,11 +29,11 @@ Los números más pequeños se colocan primeros en la lista.
       {% set rank = 'Sin datos.' -%}
    {% endif -%}
 
-   {% set page_views = web.page_views -%}
-   {% if page_views is number and page_views >= 5 -%}
-      {% set page_views = '{} k'.format(page_views) -%}
+   {% set site_visits = web.site_visits -%}
+   {% if site_visits is number and site_visits >= 5 -%}
+      {% set site_visits = '{} k'.format(site_visits) -%}
    {% else -%}
-      {% set page_views = 'Sin datos.' -%}
+      {% set site_visits = 'Sin datos.' -%}
    {% endif -%}
 
 
@@ -52,8 +52,8 @@ Los números más pequeños se colocan primeros en la lista.
 
       * - `Similarweb rank <{{ web.similarweb_url }}>`__
         - {{ rank }}
-      * - Páginas vistas al mes
-        - {{ page_views }}
+      * - Visitas al mes
+        - {{ site_visits }}
    {%- if 'comentario' in web %}
 
    {{ web.comentario | indent(3)}}

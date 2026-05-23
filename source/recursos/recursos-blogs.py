@@ -52,7 +52,7 @@ def process(webs):
          command = '/Bin/Imagemagick/convert.exe {0} -resize 50% {1}'.format(screenshot_png, screenshot_jpg)
          os.system(command)
       web['similarweb_rank'] = toint( web['similarweb_rank'].replace(',', ''), default=99000000)
-      page_views = toint(web['page_views'])
+      site_visits = toint(web['site_visits'])
 
    if driver:
       driver.quit()

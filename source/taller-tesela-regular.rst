@@ -93,6 +93,12 @@ poder generar el teselado completo.
    <taller/taller-tesela-hueso.stl>`
 
 
+.. figure:: taller/_images/taller-tesela-huesos-nazaries-3d-tb.jpg
+   :alt: Teselado de huesos nazaríes impreso en 3D.
+   :align: center
+   :width: 320px
+
+
 Tesela pez volador
 ------------------
 Esta tesela está basada en un **triángulo equilátero**.
@@ -123,6 +129,11 @@ teselas encajen.
 |  :download:`Tesela de pez volador.
    Formato STL binario para imprimir en 3D.
    <taller/taller-tesela-pez-volador-3d.stl>`
+
+.. figure:: taller/_images/taller-tesela-peces-voladores-3d-tb.jpg
+   :alt: Teselado de peces voladores impreso en 3D.
+   :align: center
+   :width: 400px
 
 
 Tesela pájaro
@@ -191,6 +202,10 @@ Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
 |  :download:`Teselas de perros. Formato editable SVG.
    <taller/taller-tesela-perro.svg>`
 
+|  :download:`Tesela de perro dirección izquierda y derecha.
+   Formato STL binario para imprimir en 3D.
+   <taller/taller-tesela-perro-3d.stl>`
+
 
 Tesela salamandra
 -----------------
@@ -214,6 +229,8 @@ rotación de 120 grados para que las diferentes teselas encajen.
 
 |  :download:`Teselas de salamandras. Formato PDF.
    <taller/taller-tesela-salamandra.pdf>`
+|  :download:`Teselas de salamandras a color. Formato PDF.
+   <taller/taller-tesela-salamandra-color.pdf>`
 |  :download:`Malla del teselado de salamandras. Formato PDF.
    <taller/taller-tesela-salamandra-malla.pdf>`
 |  :download:`Teselas de salamandras. Formato editable SVG.
@@ -222,3 +239,9 @@ rotación de 120 grados para que las diferentes teselas encajen.
 |  :download:`Tesela de salamandra.
    Formato STL binario para imprimir en 3D.
    <taller/taller-tesela-salamandra-3d.stl>`
+
+
+.. figure:: taller/_images/taller-tesela-salamandras-3d-tb.jpg
+   :alt: Teselado de salamandras impreso en 3D.
+   :align: center
+   :width: 400px
