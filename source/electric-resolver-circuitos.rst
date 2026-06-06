@@ -293,7 +293,7 @@ de las dos ramas en serie del circuito, R1 y R23.
    12v = V_{R1} + V_{R23}.
 
 Despejando tenemos que la tensión en las resistencias R2 y R3 es de
-12v - 7.2v = 4.8v, que podemos escribir en las casillas correspondientes.
+12v - 7,2v = 4,8v, que podemos escribir en las casillas correspondientes.
 
 .. image:: electric/_images/electric-resolver-circuitos-ejemplo-26.png
    :align: center

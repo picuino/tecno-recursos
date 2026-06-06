@@ -212,27 +212,27 @@ Conexiones internas
            - Velocidad x16
          * - PCI-E 1.0
            - 2003
-           - 0.25 GB/s
-           - 4.0 GB/s
+           - 0,25 GB/s
+           - 4,0 GB/s
          * - PCI-E 2.0
            - 2007
-           - 0.50 GB/s
-           - 8.0 GB/s
+           - 0,50 GB/s
+           - 8,0 GB/s
          * - PCI-E 3.0
            - 2010
-           - 1.0 GB/s
+           - 1,0 GB/s
            - 16 GB/s
          * - PCI-E 4.0
            - 2017
-           - 2.0 GB/s
+           - 2,0 GB/s
            - 32 GB/s
          * - PCI-E 5.0
            - 2019
-           - 3.9 GB/s
+           - 3,9 GB/s
            - 63 GB/s
          * - PCI-E 6.0
            - 2021
-           - 7.9 GB/s
+           - 7,9 GB/s
            - 126 GB/s
 
       La aplicación más conocida de los conectores PCI-E x16 es la conexión
@@ -377,24 +377,24 @@ Conexiones externas
          * - USB 1.1
            - 1998
            - 1 Mbyte/s
-           - 0.5 A
+           - 0,5 A
            - Solo conectores A y B.
          * - USB 2.0
            - 2000
            - 50 Mbyte/s
-           - 0.5 A
+           - 0,5 A
            - También conectores
 
              mini y micro.
          * - `USB 3.0 <https://es.wikipedia.org/wiki/USB_3.0>`__
            - 2008
            - 600 Mbyte/s
-           - 0.9 A - 3.0 A
+           - 0,9 A - 3,0 A
            - Color azul
          * - `USB 4.0 <https://es.wikipedia.org/wiki/USB4>`__
            - 2019
            - 4000 Mbyte/s
-           - 3.0 A
+           - 3,0 A
            - Solo conector C
 
       `Conectores USB <https://en.wikipedia.org/wiki/USB_hardware#Connectors>`__
@@ -466,7 +466,7 @@ Conexiones externas
          :align: center
          :width: 320px
 
-         Conectores de audio analógico de 3.5 mm de un ordenador personal.
+         Conectores de audio analógico de 3,5 mm de un ordenador personal.
 
          `Jud McCranie
          <https://commons.wikimedia.org/wiki/File:Computer_mike,_audio_out,_and_audio_in_jacks.jpg>`__,

@@ -80,6 +80,8 @@ poder generar el teselado completo.
 
 |  :download:`Teselas de huesos nazaríes. Formato PDF.
    <taller/taller-tesela-hueso.pdf>`
+|  :download:`Teselas de huesos nazaríes a color. Formato PDF.
+   <taller/taller-tesela-hueso-color.pdf>`
 |  :download:`Malla del teselado de huesos nazaríes. Formato PDF.
    <taller/taller-tesela-hueso-malla.pdf>`
 |  :download:`Teselas de huesos nazaríes. Formato editable SVG.

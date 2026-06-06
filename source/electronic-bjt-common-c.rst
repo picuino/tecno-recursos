@@ -26,7 +26,7 @@ Esta configuración permite amplificar la corriente de entrada
 manteniendo la tensión sin cambios.
 La tensión de salida, por lo tanto, será prácticamente la misma que
 la tensión de entrada, menos la tensión del diodo de base a emisor
-que se mantiene en un valor alrededor de 0.65 voltios.
+que se mantiene en un valor alrededor de 0,65 voltios.
 
 Este funcionamiento es útil en las etapas de salida de los circuitos,
 donde es necesaria una corriente alta, por ejemplo, para mover un altavoz.

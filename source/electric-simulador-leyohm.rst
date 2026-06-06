@@ -56,11 +56,11 @@ aumentando hasta tres veces más su valor inicial:
    * - Tensión [V]
      - Intensidad [A]
    * - 5 voltios
-     - 0.1 amperios
+     - 0,1 amperios
    * - 10 voltios
-     - 0.2 amperios
+     - 0,2 amperios
    * - 15 voltios
-     - 0.3 amperios
+     - 0,3 amperios
 
 **Ejercicio:** añade un circuito más a la simulación copiando y pegando
 uno de los circuitos existentes y cambiando el valor de la tensión de la
@@ -89,13 +89,13 @@ cinco veces menos:
    * - 10 ohmios
      - 1 amperio
    * - 20 ohmios
-     - 0.5 amperios
+     - 0,5 amperios
    * - 50 ohmios
-     - 0.2 amperios
+     - 0,2 amperios
 
 **Ejercicio:** añade un circuito más a la simulación copiando y pegando
 uno de los circuitos existentes y cambiando el valor de la resistencia
-para que la corriente valga 0.1 amperios.
+para que la corriente valga 0,1 amperios.
 
 
 Ejercicios

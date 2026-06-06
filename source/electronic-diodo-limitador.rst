@@ -43,7 +43,7 @@ motor de corriente continua (tiene una gran bobina en su interior).
 
 Diodo limitador de entrada
 --------------------------
-Este esquema recorta la tensión de entrada en torno a los 0.65 voltios, la
+Este esquema recorta la tensión de entrada en torno a los 0,65 voltios, la
 tensión de umbral de conducción que tienen los diodos rectificadores.
 
 Es un circuito utilizado usualmente para proteger de las altas tensiones

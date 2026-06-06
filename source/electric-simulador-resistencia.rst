@@ -43,7 +43,7 @@ Las resistencias tienen tres grandes aplicaciones:
 En el siguiente circuito simulado se han conectado dos resistencias en
 serie para conseguir una tensión menor que la tensión de la pila.
 Modifica el valor de las resistencias para poder conseguir una tensión
-de salida exacta de 3.5 voltios.
+de salida exacta de 3,5 voltios.
 
 .. raw:: html
 

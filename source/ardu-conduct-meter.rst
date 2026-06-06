@@ -76,7 +76,7 @@ Materiales:
   * Cables Dupont hembra-hembra
   * Placa de prototipos (para realizar las pruebas)
   * Placa para soldar prototipos (para el montaje final)
-  * Tira de pines macho 1x40 paso 2.54mm
+  * Tira de pines macho 1x40 paso 2,54mm
   * Caja de plástico
   * Tornillos y separadores de paso de 3mm
 

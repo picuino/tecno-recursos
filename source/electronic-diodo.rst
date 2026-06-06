@@ -42,13 +42,13 @@ Tensión umbral de polarización directa
    La tensión umbral es la tensión de polarización directa a partir de
    la cual la corriente comienza a aumentar rápidamente.
 
-   En los diodos rectificadores esta tensión es de unos 0.65 voltios.
-   En diodos de tipo LED esta tensión aumenta hasta 1.8 voltios para ledes
-   rojos y hasta 3 voltios para ledes blancos.
+   En los diodos rectificadores esta tensión es de unos 0,65 voltios.
+   En diodos de tipo LED esta tensión aumenta hasta 1,8 voltios para ledes
+   rojos y hasta 3,2 voltios para ledes blancos.
 
    En diodos rectificadores especiales
    (`diodos Schottky <https://es.wikipedia.org/wiki/Diodo_Schottky>`__)
-   esta tensión puede bajar hasta 0.2 voltios.
+   esta tensión puede bajar hasta 0,20 voltios.
 
 
 Simulación
@@ -62,7 +62,7 @@ del diodo.
 La gráfica de abajo a la derecha representa la corriente que circula
 por el diodo (eje vertical Y) en función de la tensión que recibe
 el diodo (eje horizontal X).
-Es una curva con un codo que comienza a subir en los 0.65 voltios de
+Es una curva con un codo que comienza a subir en los 0,65 voltios de
 la tensión umbral del diodo.
 
 .. raw:: html
@@ -84,8 +84,8 @@ Ejercicios
 
 #. Dibuja una gráfica con la corriente que circula por un diodo (eje Y)
    en función de la tensión del diodo (eje X).
-   Dibuja en la gráfica las marcas de voltaje cada 0.1 voltios y las
-   marcas de corriente cada 0.1 amperios con separación suficiente entre ellas.
+   Dibuja en la gráfica las marcas de voltaje cada 0,1 voltios y las
+   marcas de corriente cada 0,1 amperios con separación suficiente entre ellas.
 
    Dibuja una línea en la tensión umbral de la curva.
 

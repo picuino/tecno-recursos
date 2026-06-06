@@ -72,8 +72,8 @@ siguientes valores:
 
    Tensión 230V
 
-Si multiplicamos la intensidad por la tensión el resultado es de 23.46
-vatios (0.102A * 230V = 23.46W) que es mucho mayor que los 12 vatios
+Si multiplicamos la intensidad por la tensión el resultado es de
+23,46 vatios (0,102A * 230V = 23,46W) que es mucho mayor que los 12 vatios
 de potencia activa declarados. Esto se debe a que la bombilla "consume"
 una potencia reactiva de 20 vatios.
 

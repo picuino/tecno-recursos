@@ -8,7 +8,7 @@ msgstr ""
 ".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
 ":8bitGenerated-By:Babel 2.9.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-11 17:11+0100\n"
+"POT-Creation-Date: 2026-06-06 17:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../../source/uno-doc/dht11.rst:7
+#: ../../source/picuino-uno-dht11.rst:7
 msgid "Sensor de temperatura y humedad DHT11"
 msgstr "DHT11 temperature and humidity sensor"
 
-#: ../../source/uno-doc/dht11.rst:10
+#: ../../source/picuino-uno-dht11.rst:8
 msgid ""
 "El sensor DHT11 es un sensor digital de temperatura y humedad relativa "
 "del aire. Utiliza una comunicación digital con Arduino, de forma que no "
@@ -31,40 +31,40 @@ msgstr ""
 "humidity of the air. It uses digital communication with Arduino, so it is"
 " not necessary to connect to an analog pin to take the readings."
 
-#: ../../source/uno-doc/dht11.rst:21
+#: ../../source/picuino-uno-dht11.rst:19
 msgid "Especificaciones técnicas"
 msgstr "Technical specifications"
 
-#: ../../source/uno-doc/dht11.rst:22
+#: ../../source/picuino-uno-dht11.rst:20
 msgid "Tensión de alimentación de 3 a 5 voltios"
 msgstr "Supply voltage from 3 to 5 volts"
 
-#: ../../source/uno-doc/dht11.rst:23
+#: ../../source/picuino-uno-dht11.rst:21
 msgid "Corriente máxima de alimentación 2,5 mA"
 msgstr "Maximum supply current 2.5 mA"
 
-#: ../../source/uno-doc/dht11.rst:24
+#: ../../source/picuino-uno-dht11.rst:22
 #, python-format
 msgid "Rango de humedad relativa 20% a 80% con 5% de exactitud"
 msgstr "Relative humidity range 20% to 80% with 5% accuracy"
 
-#: ../../source/uno-doc/dht11.rst:25
+#: ../../source/picuino-uno-dht11.rst:23
 msgid "Rango de temperatura de 0 a 50ºC con +-2ºC de exactitud"
 msgstr "Temperature range from 0 to 50ºC with +-2ºC accuracy"
 
-#: ../../source/uno-doc/dht11.rst:26
+#: ../../source/picuino-uno-dht11.rst:24
 msgid "Velocidad de 1 medida por segundo"
 msgstr "Speed ​​of 1 measurement per second"
 
-#: ../../source/uno-doc/dht11.rst:27
-msgid "Tamaño 15.5mm x 12mm x 5,5mm"
+#: ../../source/picuino-uno-dht11.rst:25
+msgid "Tamaño 15,5mm x 12mm x 5,5mm"
 msgstr "Size 15.5mm x 12mm x 5.5mm"
 
-#: ../../source/uno-doc/dht11.rst:28
+#: ../../source/picuino-uno-dht11.rst:26
 msgid "Conexión de 4 pines"
 msgstr "4 pin connection"
 
-#: ../../source/uno-doc/dht11.rst:31
+#: ../../source/picuino-uno-dht11.rst:29
 msgid ""
 "`DHT11. Hoja de características. D-Robotics. "
 "<../../_static/document/DHT11-drobotics.pdf>`__"
@@ -72,11 +72,11 @@ msgstr ""
 "`DHT11. Characteristics sheet. D-Robotics "
 "<../../_static/document/DHT11-drobotics.pdf>`__"
 
-#: ../../source/uno-doc/dht11.rst:36
+#: ../../source/picuino-uno-dht11.rst:34
 msgid "Librería Arduino"
 msgstr "Arduino Library"
 
-#: ../../source/uno-doc/dht11.rst:37
+#: ../../source/picuino-uno-dht11.rst:35
 msgid ""
 "`Librería Arduino para el sensor DHT11. Versión 0.4.1 "
 "<../../_static/downloads/dht11-041.zip>`__"
@@ -84,15 +84,15 @@ msgstr ""
 "`Arduino library for the DHT11 sensor. Version 0.4.1 "
 "<../../_static/downloads/dht11-041.zip>`__"
 
-#: ../../source/uno-doc/dht11.rst:42
+#: ../../source/picuino-uno-dht11.rst:40
 msgid "Esquema de conexión"
 msgstr "Connection scheme"
 
-#: ../../source/uno-doc/dht11.rst:51
+#: ../../source/picuino-uno-dht11.rst:49
 msgid "Ejercicios"
 msgstr "Exercises"
 
-#: ../../source/uno-doc/dht11.rst:53
+#: ../../source/picuino-uno-dht11.rst:51
 msgid ""
 "El siguiente programa envía por el puerto serie la humedad relativa y la "
 "temperatura medida por el sensor DHT11."
@@ -100,13 +100,13 @@ msgstr ""
 "The following program sends through the serial port the relative humidity"
 " and the temperature measured by the DHT11 sensor."
 
-#: ../../source/uno-doc/dht11.rst:56
+#: ../../source/picuino-uno-dht11.rst:54
 msgid "Carga el programa en Arduino y muestra los valores por el monitor serie."
 msgstr ""
 "Upload the program to the Arduino and display the values ​​on the serial "
 "monitor."
 
-#: ../../source/uno-doc/dht11.rst:112
+#: ../../source/picuino-uno-dht11.rst:110
 msgid ""
 "Modifica el programa anterior para que muestre en el display la medición "
 "de temperatura."
@@ -114,7 +114,7 @@ msgstr ""
 "Modify the previous program so that it shows the temperature measurement "
 "on the display."
 
-#: ../../source/uno-doc/dht11.rst:115
+#: ../../source/picuino-uno-dht11.rst:113
 msgid ""
 "Modifica el programa anterior para que se encienda un led rojo en caso de"
 " superar la temperatura ambiental en 2 grados centígrados."
@@ -122,7 +122,7 @@ msgstr ""
 "Modify the previous program so that a red LED lights up if the ambient "
 "temperature exceeds 2 degrees Celsius."
 
-#: ../../source/uno-doc/dht11.rst:118
+#: ../../source/picuino-uno-dht11.rst:116
 msgid ""
 "Comprueba el funcionamiento correcto calentando el sensor. El led rojo "
 "debe mantenerse encendido aunque la temperatura vuelva a bajar."
@@ -130,7 +130,7 @@ msgstr ""
 "Check correct operation by heating the sensor. The red led should stay on"
 " even if the temperature drops again."
 
-#: ../../source/uno-doc/dht11.rst:122
+#: ../../source/picuino-uno-dht11.rst:120
 msgid ""
 "Modifica el programa anterior para que suene un zumbador cuando la "
 "temperatura sea alta. El zumbador sonará durante unas décimas de segundo "
@@ -140,7 +140,7 @@ msgstr ""
 "high. The buzzer will sound for a few tenths of a second every second. "
 "The instructions to use are as follows:"
 
-#: ../../source/uno-doc/dht11.rst:133
+#: ../../source/picuino-uno-dht11.rst:131
 msgid ""
 "El zumbador dejará de sonar cuando la temperatura vuelva a bajar. "
 "Comprueba el funcionamiento correcto calentando el sensor."
@@ -148,7 +148,7 @@ msgstr ""
 "The buzzer will stop sounding when the temperature drops again. Check "
 "correct operation by heating the sensor."
 
-#: ../../source/uno-doc/dht11.rst:137
+#: ../../source/picuino-uno-dht11.rst:135
 msgid ""
 "Modifica el programa anterior para que se encienda un led azul mientras "
 "la medida de temperatura se mantenga baja."
@@ -156,7 +156,7 @@ msgstr ""
 "Modify the previous program so that a blue led lights up while the "
 "temperature measurement remains low."
 
-#: ../../source/uno-doc/dht11.rst:140
+#: ../../source/picuino-uno-dht11.rst:138
 msgid ""
 "El led azul se apagará en caso de que la temperatura medida supere la "
 "temperatura ambiental actual más un grado."

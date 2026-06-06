@@ -820,7 +820,7 @@ a .fa,a .wy-menu-vertical li span.toctree-expand,.wy-menu-vertical li a span.toc
 .wy-tray-container li.wy-tray-item-warning{background:#E67E22}
 .wy-tray-container li.wy-tray-item-danger{background:#E74C3C}
 .wy-tray-container li.on{opacity:1;height:56px}
-@media screen and (max-width: 1100px){.wy-tray-container{bottom:auto;top:0;width:100%}
+@media screen and (max-width: 1000px){.wy-tray-container{bottom:auto;top:0;width:100%}
 .wy-tray-container li{width:100%}
 }
 button{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;cursor:pointer;line-height:normal;-webkit-appearance:button;*overflow:visible}
@@ -973,7 +973,7 @@ input[type="radio"][disabled],input[type="checkbox"][disabled]{cursor:not-allowe
 .wy-form-aligned .wy-control{margin:1.5em 0 0 0}
 .wy-form .wy-help-inline,.wy-form-message-inline,.wy-form-message{display:block;font-size:80%;padding:6px 0}
 }
-@media screen and (max-width: 1100px){.tablet-hide{display:none}
+@media screen and (max-width: 1000px){.tablet-hide{display:none}
 }
 @media screen and (max-width: 480px){.mobile-hide{display:none}
 }
@@ -1029,18 +1029,19 @@ a.wy-text-success:hover{color:#36d278 !important}
 a.wy-text-danger:hover{color:#ed7669 !important}
 .wy-text-neutral{color:#404040 !important}
 a.wy-text-neutral:hover{color:#595959 !important}
-h1,h2,.rst-content .toctree-wrapper p.caption,h3,h4,h5,h6,legend{margin-top:28px;margin-bottom:10px;font-weight:700;font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
-p{line-height:130%;margin:0;font-size:18px;margin-bottom:8px}
-h1{font-size:175%}
-h2,.rst-content .toctree-wrapper p.caption{font-size:150%}
-h3{font-size:125%}
+h1,h2,.rst-content .toctree-wrapper p.caption,h3,h4,h5,h6,legend{margin-top:28px;margin-bottom:12px;font-weight:700;font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
+p{line-height:160%;margin:0;font-size:18px;margin-bottom:10px}
+h1{font-size:225%}
+h2,.rst-content .toctree-wrapper p.caption{font-size:180%}
+h2 {margin-top:72px;}
+h3{font-size:144%}
 h4{font-size:115%}
-h5{font-size:110%}
+h5{font-size:100%}
 h6{font-size:100%}
 hr{display:block;height:1px;border:0;border-top:1px solid #e1e4e5;margin:12px 0;padding:0}
-code,.rst-content tt,.rst-content code{white-space:nowrap;max-width:100%;background:#fff;border:solid 1px #e1e4e5;font-size:75%;padding:0 5px;font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",Courier,monospace;color:#E74C3C;overflow-x:auto}
+code,.rst-content tt,.rst-content code{white-space:nowrap;max-width:100%;background:#fff;border:solid 1px #e1e4e5;font-size:80%;padding:0 5px;font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",Courier,monospace;color:#E74C3C;overflow-x:auto}
 code.code-large,.rst-content tt.code-large{font-size:90%}
-.wy-plain-list-disc,.rst-content .section ul,.rst-content .toctree-wrapper ul,article ul{list-style:disc;line-height:24px;margin-bottom:24px}
+.wy-plain-list-disc,.rst-content .section ul,.rst-content .toctree-wrapper ul,article ul{list-style:disc;line-height:28px;margin-bottom:24px}
 .wy-plain-list-disc li,.rst-content .section ul li,.rst-content .toctree-wrapper ul li,article ul li{list-style:disc;margin-left:24px}
 .wy-plain-list-disc li p:last-child,.rst-content .section ul li p:last-child,.rst-content .toctree-wrapper ul li p:last-child,article ul li p:last-child{margin-bottom:0}
 .wy-plain-list-disc li ul,.rst-content .section ul li ul,.rst-content .toctree-wrapper ul li ul,article ul li ul{margin-bottom:0}
@@ -1048,7 +1049,7 @@ code.code-large,.rst-content tt.code-large{font-size:90%}
 .wy-plain-list-disc li li li,.rst-content .section ul li li li,.rst-content .toctree-wrapper ul li li li,article ul li li li{list-style:square}
 .wy-plain-list-disc li ol li,.rst-content .section ul li ol li,.rst-content .toctree-wrapper ul li ol li,article ul li ol li{list-style:decimal}
 .wy-plain-list-decimal,.rst-content .section ol,.rst-content ol.arabic,article ol{list-style:decimal;line-height:24px;margin-bottom:24px}
-.wy-plain-list-decimal li,.rst-content .section ol li,.rst-content ol.arabic li,article ol li{list-style:decimal;margin-left:32px;margin-bottom:8px}
+.wy-plain-list-decimal li,.rst-content .section ol li,.rst-content ol.arabic li,article ol li{list-style:decimal;margin-left:32px;margin-bottom:10px}
 .wy-plain-list-decimal li p:last-child,.rst-content .section ol li p:last-child,.rst-content ol.arabic li p:last-child,article ol li p:last-child{margin-bottom:0}
 .wy-plain-list-decimal li ul,.rst-content .section ol li ul,.rst-content ol.arabic li ul,article ol li ul{margin-bottom:0}
 .wy-plain-list-decimal li ul li,.rst-content .section ol li ul li,.rst-content ol.arabic li ul li,article ol li ul li{list-style:disc}
@@ -1140,7 +1141,7 @@ html{font-size:18px}
 .wy-nav-top img{margin-right:12px;max-height:48px;background-color:#2980B9;padding:5px;}
 .wy-nav-top i{font-size:30px;float:left;cursor:pointer;padding-top:inherit}
 .wy-nav-content-wrap{margin-left:300px;background:#fcfcfc;min-height:100%;}
-.wy-nav-content{padding:0.4em 2em;height:100%;max-width:860px;margin:auto}
+.wy-nav-content{padding:0.4em 2em;height:100%;max-width:700px;margin:auto}
 .wy-body-mask{position:fixed;width:100%;height:100%;background:rgba(0,0,0,0.2);display:none;z-index:499}
 .wy-body-mask.on{display:block}
 footer{color:gray}
@@ -1157,7 +1158,7 @@ footer span.commit code,footer span.commit .rst-content tt,.rst-content footer s
 #search-results .search li:first-child{border-top:solid 1px #e1e4e5;padding-top:24px}
 #search-results .search li a{font-size:120%;margin-bottom:12px;display:inline-block}
 #search-results .context{color:gray;font-size:90%}
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1000px){
 .wy-body-for-nav{background:#fcfcfc}
 .wy-nav-top{display:block}
 .wy-nav-side{left:-300px}
@@ -1169,7 +1170,7 @@ footer span.commit code,footer span.commit .rst-content tt,.rst-content footer s
 .wy-nav-content-wrap .wy-nav-content{padding:0.4em 1em}
 .wy-nav-content-wrap.shift{position:fixed;min-width:100%;left:300px;top:0;height:100%;overflow:hidden}
 }
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 1000px){
 .wy-nav-content-wrap{background:rgba(0,0,0,0.05)}
 .wy-nav-content{margin:0;background:#fcfcfc}
 }
@@ -1200,7 +1201,7 @@ footer span.commit code,footer span.commit .rst-content tt,.rst-content footer s
 .rst-versions.rst-badge.shift-up .rst-current-version .fa-book,.rst-versions.rst-badge.shift-up .rst-current-version .icon-book{float:left}
 .rst-versions.rst-badge.shift-up .rst-current-version .icon-book{float:left}
 .rst-versions.rst-badge .rst-current-version{width:auto;height:30px;line-height:30px;padding:0 6px;display:block;text-align:center}
-@media screen and (max-width: 1100px){.rst-versions{width:85%;display:none}
+@media screen and (max-width: 1000px){.rst-versions{width:85%;display:none}
 .rst-versions.shift{display:block}
 }
 .rst-content img{max-width:100%;height:auto;margin:4px;padding-bottom:6px;}
@@ -1230,7 +1231,7 @@ footer span.commit code,footer span.commit .rst-content tt,.rst-content footer s
 .rst-content .section ol.upperalpha,.rst-content .section ol.upperalpha li{list-style:upper-alpha}
 .rst-content .section ol p,.rst-content .section ul p{margin-bottom:8px}
 .rst-content .section ol p:last-child,.rst-content .section ul p:last-child{margin-bottom:24px}
-.rst-content .line-block{margin-left:0px;margin-bottom:24px;line-height:24px}
+.rst-content .line-block{margin-left:0px;margin-bottom:24px;line-height:32px}
 .rst-content .line-block .line-block{margin-left:24px;margin-bottom:0px}
 .rst-content .topic-title{font-weight:bold;margin-bottom:12px}
 .rst-content .toc-backref{color:#404040}
@@ -1270,9 +1271,9 @@ footer span.commit code,footer span.commit .rst-content tt,.rst-content footer s
 .rst-content pre,.rst-content kbd,.rst-content samp{font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",Courier,monospace}
 .rst-content a tt,.rst-content a tt,.rst-content a code{color:#2980B9}
 .rst-content dl{margin-top:8px;margin-bottom:16px}
-.rst-content dl dt{font-weight:bold;margin-bottom:0}
+.rst-content dl dt{font-weight:bold;margin-bottom:6px}
 .rst-content dl p,.rst-content dl table,.rst-content dl ul,.rst-content dl ol{margin-bottom:8px !important}
-.rst-content dl dd {margin:0 0 16px 24px;}
+.rst-content dl dd {line-height:160%;margin:0 0 24px 24px;}
 .rst-content dl:not(.docutils){margin-bottom:24px}
 .rst-content dl:not(.docutils) dt{display:table;margin:6px 0 0 0;line-height:normal;font-weight:bold;padding:6px 0;position:relative}
 .rst-content dl:not(.docutils) dt:before{color:#6ab0de}

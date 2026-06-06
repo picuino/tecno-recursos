@@ -92,7 +92,7 @@ Ejercicios
 
    Dibuja en papel un esquema realista de este amplificador, con una
    alimentación de +-15 voltios y una entrada de tensión senoidal de
-   0.1 voltios.
+   0,1 voltios.
 
 #. Con ayuda del
    `simulador de circuitos <../circuits/?startCircuit=empty.txt>`__

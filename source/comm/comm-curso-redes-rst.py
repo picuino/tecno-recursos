@@ -5,7 +5,7 @@ import jinja2
 
 
 def main():
-    database = read_database('comm-curso-redes.yml')
+    database = read_database('comm-curso-redes.yaml')
     template = jinja2.Template(template_rst)
     rst_code = template.render(database=database)
     write_rst('../comm-curso-redes.rst', rst_code)
@@ -58,16 +58,16 @@ La segunda parte abarca las capas de red y de transporte de datos.
    * - Título
      - Youtube
    {% for subsection in section.subtitles %}
-   * - {% if subsection.url_ac %}{{ "-- " * (subsection.level-2) }}`{{ subsection.title }} <{{ subsection.url_ac }}>`__
+   * - {% if subsection.url_yt %}{{ "-- " * (subsection.level-2) }}`{{ subsection.title }} <{{ subsection.url_yt }}>`__
        {%- else %}{{ subsection.title }}{% endif %}
-     - {% if subsection.url_yt %}`YouTube <{{ subsection.url_yt }}>`__ {% endif %}
+     - {% if subsection.url_ac %}`AulaClic <{{ subsection.url_ac }}>`__ {% endif %}
    {% endfor %}
 
 {%- else %}
 {% for subsection in section.subtitles %}
-{% if subsection.url_ac %}{{ "  " * (subsection.level-2) }}* `{{ subsection.title }} <{{ subsection.url_ac }}>`__
+{% if subsection.url_ac %}{{ "  " * (subsection.level-2) }}* `{{ subsection.title }} <{{ subsection.url_yt }}>`__
 {% else %}{{ "  " * (subsection.level-2) }}* {{ subsection.title }}{% endif %}
-{%- if subsection.url_yt %}{{ "  " * (subsection.level-2) }}  `(YouTube). <{{ subsection.url_yt }}>`__ {% endif %}
+{%- if subsection.url_yt %}{{ "  " * (subsection.level-2) }}  `(AulaClic). <{{ subsection.url_ac }}>`__ {% endif %}
 {% endfor %}
 {% endif %}
 

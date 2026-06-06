@@ -201,8 +201,8 @@ comparador y el controlador PID son las siguientes:
 
 Todas estas instrucciones y ecuaciones se deben repetir
 con un período de T segundos (el tiempo de muestreo).
-Si el tiempo de muestreo es de 0.1 segundos, las ecuaciones se
-deben repetir 10 veces por segundo (cada 0.1 segundos).
+Si el tiempo de muestreo es de 0,1 segundos, las ecuaciones se
+deben repetir 10 veces por segundo (cada 0,1 segundos).
 
 El valor de la referencia se ha escogido en 150 grados centígrados,
 pero se puede cambiar a voluntad. Es el valor que se quiere conseguir

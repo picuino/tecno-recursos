@@ -35,9 +35,9 @@ precisas, utilizadas en los aparatos de mayor precisión.
 
 En la siguiente simulación puede verse la curva característica de un diodo
 zener. El diodo conduce corriente cuando la tensión positiva supera
-los 0.65 voltios, como cualquier diodo rectificador.
+los 0,65 voltios, como cualquier diodo rectificador.
 Pero también conduce corriente cuando la tensión es negativa y llega a un
-umbral denominado tensión de ruptura, que en este caso vale 5.6 voltios.
+umbral denominado tensión de ruptura, que en este caso vale 5,6 voltios.
 
 .. raw:: html
 
@@ -76,7 +76,7 @@ Ejercicios
    Dibuja en los ejes las marcas horizontales y verticales que correspondan
    a los valores de tensión y corriente utilizados.
 
-#. Dibuja un circuito con un diodo zener que limite la tensión a 5.6
+#. Dibuja un circuito con un diodo zener que limite la tensión a 5,6
    voltios a partir de una tensión de alimentación de 12 voltios.
 
    Con ayuda del

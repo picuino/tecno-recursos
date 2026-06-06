@@ -163,7 +163,7 @@ con dos calderas.
 Para calcular los parámetros del sistema se fuerza una respuesta
 al escalón fijando la señal de control en 0 voltios con un escalón
 de 5 voltios. El sistema responde cambiando desde 25 grados
-centígrados (0.25V) a 225 grados centígrados (2.25V).
+centígrados (0,25V) a 225 grados centígrados (2,25V).
 Los tiempos son los que aparecen en las gráficas anteriores, con lo
 cual los valores de la curva de respuesta del sistema son los siguientes:
 

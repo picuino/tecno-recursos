@@ -48,7 +48,7 @@ y más se enciende la lámpara.
    </div>
 
 .. note::
-   Para conseguir que las pilas tengan sólo 1.5 voltios (la tensión típica
+   Para conseguir que las pilas tengan sólo 1,5 voltios (la tensión típica
    de una pila alcalina), es necesario clicar doble sobre la pila o clicar
    con el botón derecho del ratón sobre la pila y escoger ``Editar``:
 

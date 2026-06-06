@@ -28,7 +28,7 @@ salida, pero no amplifica la tensión.
    Esquema de dos transistores bipolares en montaje push-pull.
 
 Los dos diodos en las bases de los transistores sirven para mantener una
-tensión de 1.2 voltios entre las bases, que coincide con la tensión de
+tensión de 1,2 voltios entre las bases, que coincide con la tensión de
 polarización de los dos transistores.
 
 

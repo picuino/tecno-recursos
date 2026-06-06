@@ -497,7 +497,7 @@ Linterna a pilas
 
    P = E / t
 
-   P = 4Wh / 10h = 0.4W
+   P = 4Wh / 10h = 0,4W
 
 
 Automóvil eléctrico

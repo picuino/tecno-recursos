@@ -45,8 +45,8 @@ Tabla del código de colores
 
 Prefijos del sistema internacional:
 
-  * µ = micro = 0.000 001
-  * m = mili = 0.001
+  * µ = micro = 0,000 001
+  * m = mili = 0,001
   * k = kilo = 1 000
   * M = Mega = 1 000 000
 

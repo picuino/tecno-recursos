@@ -96,6 +96,6 @@ Ejercicios
    ideal. La resistencia de entrada diferencial debe valer 100k ohmios.
    La ganancia diferencial debe valer 10.
 
-   Añade un generador de tensión senoidal de 0.1 voltio de pico entre
+   Añade un generador de tensión senoidal de 0,1 voltio de pico entre
    las entradas. Comprueba que la salida de tensión vale 1 voltio de pico.
 

@@ -46,7 +46,7 @@ Inconvenientes:
      y produce una pérdida de tensión apreciable.
 
    * La tensión entre base y emisor es mayor, típicamente superior
-     a 1.2 voltios al sumar dos caídas de tensión de dos transistores.
+     a 1,2 voltios al sumar dos caídas de tensión de dos transistores.
 
 
 Simulación I

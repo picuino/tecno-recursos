@@ -42,7 +42,7 @@ colector.
 La función de cada uno de los componentes es la siguiente:
 
 * El **generador de señal alterna** genera una pequeña señal de entrada
-  de 0.050 voltios de pico.
+  de 0,050 voltios de pico.
 
 * Las **resistencias R1 y R2** mantienen una tensión fija en la base
   que **polariza al transistor** para que funcione siempre con corrientes

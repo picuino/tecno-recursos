@@ -16,8 +16,8 @@ medir con facilidad diámetros exteriores, diámetros interiores
 y profundidades.
 
 Su **nonio** también llamado escala **vernier** es una escala auxiliar
-que permite la medición de distancias con una precisión desde 0.1
-milímetros hasta 0.02 milímetros.
+que permite la medición de distancias con una precisión desde 0,1
+milímetros hasta 0,02 milímetros.
 Esta precisión mejora 10 veces o más la precisión de una regla milimetrada.
 
 
@@ -111,7 +111,7 @@ escala principal.
 
 Calibre virtual
 ---------------
-Simulación de un `calibre con precisión de 0.05 milímetros
+Simulación de un `calibre con precisión de 0,05 milímetros
 <https://www.stefanelli.eng.br/es/calibre-virtual-simulador-milimetro-05/>`__.
 
 

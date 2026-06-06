@@ -37,7 +37,7 @@ por el colector.
 La función de cada uno de los componentes es la siguiente:
 
 * El **generador de señal alterna** genera una pequeña señal de entrada
-  de 0.25 voltios de pico.
+  de 0,25 voltios de pico.
 
 * La **resistencia R1** tiene como función limitar la corriente de entrada
   a un valor pequeño, que en este caso varía entre 40 y 80 microamperios.

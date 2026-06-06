@@ -47,7 +47,7 @@ Para evitar que el led se queme, debemos insertar una resistencia en serie
 que limitará su corriente de funcionamiento.
 
 En la siguiente simulación podemos ver un esquema de una linterna led
-basada en tres pilas en serie de 1.5 voltios y en un led blanco de 3
+basada en tres pilas en serie de 1,5 voltios y en un led blanco de 3
 voltios de tensión de trabajo con una corriente de 50 miliamperios.
 La resistencia de polarización es de 30 ohmios.
 
@@ -88,7 +88,7 @@ Donde las variables son:
 
 Ejemplo 1:
    Necesitamos calcular la resistencia de polarización de led verde
-   de un teclado de ordenador. Su tensión de trabajo es de 2.2 Voltios
+   de un teclado de ordenador. Su tensión de trabajo es de 2,2 Voltios
    su corriente de trabajo es de 10 miliamperios y la tensión de
    alimentación es de 5 voltios.
 
@@ -100,14 +100,14 @@ Ejemplo 1:
 
    .. math::
 
-      R = \cfrac{5 - 2.2}{0.010} = 280 \Omega
+      R = \cfrac{5 - 2,2}{0,010} = 280 \Omega
 
 
 Ejemplo 2:
    Necesitamos calcular la resistencia de polarización del led blanco
    que ilumina una pantalla de teléfono inteligente.
    Su tensión de trabajo es de 3 voltios, su corriente de trabajo es de
-   150 miliamperios y la tensión de alimentación es de 3.6 voltios.
+   150 miliamperios y la tensión de alimentación es de 3,6 voltios.
 
    Aplicando la fórmula:
 
@@ -117,7 +117,7 @@ Ejemplo 2:
 
    .. math::
 
-      R = \cfrac{3.6 - 3.0}{0.150} = 4 \Omega
+      R = \cfrac{3,6 - 3,0}{0,150} = 4 \Omega
 
 
 Ejercicios
@@ -129,7 +129,7 @@ Ejercicios
 
 
 #. Calcula la resistencia de polarización del led rojo de un ratón
-   sabiendo que la tensión de trabajo es de 1.8 voltios,
+   sabiendo que la tensión de trabajo es de 1,8 voltios,
    la corriente de trabajo es de 16 miliamperios y
    la tensión de alimentación es de 5 voltios.
 
@@ -141,6 +141,9 @@ Ejercicios
    No olvides **cambiar la tensión de funcionamiento del led**,
    editando el led... Create New Simple Model...
    Forward Voltage 1.8 ... Current At Above Voltage (A) 0.016 ... OK.
+
+   Recuerda que en el simulador el separador decimal debe ser el punto y
+   no la coma.
 
 
 #. Calcula la resistencia de polarización de un piloto de automóvil
@@ -157,6 +160,8 @@ Ejercicios
    editando cada led... Create New Simple Model...
    Forward Voltage 3.0 ... Current At Above Voltage (A) 0.020 ... OK.
 
+   Recuerda que en el simulador el separador decimal debe ser el punto y
+   no la coma.
 
 Ampliación
 ----------

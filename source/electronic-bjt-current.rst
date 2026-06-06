@@ -38,7 +38,7 @@ La función de cada componente es la siguiente:
   conducir corriente.
 
 * Al conducir corriente el transistor Q2, la tensión de la resistencia
-  R2 comienza a subir, hasta que llega aproximadamente a 0.6 voltios,
+  R2 comienza a subir, hasta que llega aproximadamente a 0,6 voltios,
   que es el momento en el que comienza a conducir corriente el transistor
   Q1.
 
@@ -67,7 +67,7 @@ La función de cada componente es la siguiente:
      R_2 = Resistencia R2 en ohmios [Ω]
 
 La tensión V_be puede variar, pero suele mantenerse en un valor 
-alrededor de 0.60 Voltios.
+alrededor de 0,60 Voltios.
 
 
 Simulación
