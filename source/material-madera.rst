@@ -70,7 +70,7 @@ algunas propiedades comunes a todas ellas.
    despegándose.
 
    Vídeo: `Experimento de palillos en forma de estrella + agua.
-   <https://www.youtube-nocookie.com/embed/rnauo1JWI3U>`__
+   <https://www.youtube.com/watch?v=rnauo1JWI3U>`__
 
 **Oxidación de la madera**
    Aunque la madera es muy resistente a la oxidación, en condiciones
@@ -128,7 +128,7 @@ Obtención de la madera
    Una vez cortado se eliminan las ramas más pequeñas.
 
    Vídeo: `John Deere 1470G harvester.
-   <https://www.youtube-nocookie.com/embed/tduKbc_51XA>`__
+   <https://www.youtube.com/watch?v=tduKbc_51XA>`__
 
 **Transporte**
    Los troncos cortados se transportan desde el bosque
@@ -142,7 +142,7 @@ Obtención de la madera
    para obtener chapas de madera.
 
    Vídeo: `Torno Laminador
-   <https://www.youtube-nocookie.com/embed/IN2su7iVmw8>`__
+   <https://www.youtube.com/watch?v=IN2su7iVmw8>`__
 
 **Replantado**
    Para que la madera sea un recurso renovable, es necesario volver
@@ -220,7 +220,7 @@ Derivados de la madera
   entre sí, con la lámina central ondulada.
 
   Vídeo: `El cartón corrugado.
-  <https://www.youtube-nocookie.com/embed/GeZDRN8PT3c>`__
+  <https://www.youtube.com/watch?v=GeZDRN8PT3c>`__
 
 
 

@@ -56,5 +56,5 @@ Computadoras analógicas y digitales
 -----------------------------------
 
 * Vídeo: `Las Computadoras Superpoderosas de las que Nunca te Contaron.
-  <https://www.youtube-nocookie.com/embed/PQeS7sfMxR4>`__
+  <https://www.youtube.com/watch?v=PQeS7sfMxR4>`__
 

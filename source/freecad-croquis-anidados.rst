@@ -245,4 +245,4 @@ Videotutorial
 -------------
 
 Vídeo: `extrusiones y vaciados de bocetos.
-<https://www.youtube-nocookie.com/embed/dSSEbTNAGts>`__
+<https://www.youtube.com/watch?v=dSSEbTNAGts>`__

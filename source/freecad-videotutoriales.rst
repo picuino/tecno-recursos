@@ -11,227 +11,227 @@ Videotutoriales de FreeCAD
 Videotutoriales de FreeCAD 0.13 creados por ObiJuan.
 
 1. Vídeo: `Introducción.
-   <https://www.youtube-nocookie.com/embed/2_DbFzFV9D4>`__
+   <https://www.youtube.com/watch?v=2_DbFzFV9D4>`__
 
 2. Vídeo: `Cubo "Hola Mundo".
-   <https://www.youtube-nocookie.com/embed/ICHc7Z4vXXQ>`__
+   <https://www.youtube.com/watch?v=ICHc7Z4vXXQ>`__
 
 3. Vídeo: `Propiedades de visualización.
-   <https://www.youtube-nocookie.com/embed/dOdAtUmgW4k>`__
+   <https://www.youtube.com/watch?v=dOdAtUmgW4k>`__
 
 4. Vídeo: `Trasladando cubos.
-   <https://www.youtube-nocookie.com/embed/Mh8cC7F_R4k>`__
+   <https://www.youtube.com/watch?v=Mh8cC7F_R4k>`__
 
 5. Vídeo: `La unión hace la fuerza.
-   <https://www.youtube-nocookie.com/embed/mntnhxidqoA>`__
+   <https://www.youtube.com/watch?v=mntnhxidqoA>`__
 
 6. Vídeo: `Rotando voy.
-   <https://www.youtube-nocookie.com/embed/3FdmAnRRlzA>`__
+   <https://www.youtube.com/watch?v=3FdmAnRRlzA>`__
 
 7. Vídeo: `Marcando la diferencia.
-   <https://www.youtube-nocookie.com/embed/3LsHR57grk0>`__
+   <https://www.youtube.com/watch?v=3LsHR57grk0>`__
 
 8. Vídeo: `Aplicación 1: Porta-pendrives.
-   <https://www.youtube-nocookie.com/embed/XC5JMkl2B9k>`__
+   <https://www.youtube.com/watch?v=XC5JMkl2B9k>`__
 
 9. Vídeo: `Cilindros y Pacman.
-   <https://www.youtube-nocookie.com/embed/jDaJpLadCjE>`__
+   <https://www.youtube.com/watch?v=jDaJpLadCjE>`__
 
 10. Vídeo: `¡Repíteme!
-    <https://www.youtube-nocookie.com/embed/bxKOFY2vgqM>`__
+    <https://www.youtube.com/watch?v=bxKOFY2vgqM>`__
 
 11. Vídeo: `Repetición axial.
-    <https://www.youtube-nocookie.com/embed/BhkFGKmM1gQ>`__
+    <https://www.youtube.com/watch?v=BhkFGKmM1gQ>`__
 
 12. Vídeo: `Redondeos, chaflanes y refuerzos.
-    <https://www.youtube-nocookie.com/embed/jdCREzRmiro>`__
+    <https://www.youtube.com/watch?v=jdCREzRmiro>`__
 
 13. Vídeo: `Con un par de esferas.
-    <https://www.youtube-nocookie.com/embed/FChk-69h8SY>`__
+    <https://www.youtube.com/watch?v=FChk-69h8SY>`__
 
 14. Vídeo: `Usando conos.
-    <https://www.youtube-nocookie.com/embed/eqh_KMsePPU>`__
+    <https://www.youtube.com/watch?v=eqh_KMsePPU>`__
 
 15. Vídeo: `Usando toros.
-    <https://www.youtube-nocookie.com/embed/1G78YHRapsI>`__
+    <https://www.youtube.com/watch?v=1G78YHRapsI>`__
 
 16. Vídeo: `Boceto hola mundo.
-    <https://www.youtube-nocookie.com/embed/5fK9_Ux6t8k>`__
+    <https://www.youtube.com/watch?v=5fK9_Ux6t8k>`__
 
 17. Vídeo: `Extrusiones y vaciados de bocetos.
-    <https://www.youtube-nocookie.com/embed/dSSEbTNAGts>`__
+    <https://www.youtube.com/watch?v=dSSEbTNAGts>`__
 
 18. Vídeo: `Aplicando restricciones.
-    <https://www.youtube-nocookie.com/embed/dVg5uBciurs>`__
+    <https://www.youtube.com/watch?v=dVg5uBciurs>`__
 
 19. Vídeo: `Restricciones de simetría.
-    <https://www.youtube-nocookie.com/embed/bA06HZKR40E>`__
+    <https://www.youtube.com/watch?v=bA06HZKR40E>`__
 
 20. Vídeo: `Bocetos de polígonos.
-    <https://www.youtube-nocookie.com/embed/Q-fzfRTVhg4>`__
+    <https://www.youtube.com/watch?v=Q-fzfRTVhg4>`__
 
 21. Vídeo: `Arcos.
-    <https://www.youtube-nocookie.com/embed/lalGueRwZfU>`__
+    <https://www.youtube.com/watch?v=lalGueRwZfU>`__
 
 22. Vídeo: `¡Que vienen los recortes!
-    <https://www.youtube-nocookie.com/embed/V0eLXQoFYmM>`__
+    <https://www.youtube.com/watch?v=V0eLXQoFYmM>`__
 
 23. Vídeo: `Redondeo de bocetos.
-    <https://www.youtube-nocookie.com/embed/ntNaY2O2v4w>`__
+    <https://www.youtube.com/watch?v=ntNaY2O2v4w>`__
 
 24. Vídeo: `Restricciones externas.
-    <https://www.youtube-nocookie.com/embed/n0OcbjvGdlM>`__
+    <https://www.youtube.com/watch?v=n0OcbjvGdlM>`__
 
 25. Vídeo: `Extrusión axial.
-    <https://www.youtube-nocookie.com/embed/vE-KlUTqzJs>`__
+    <https://www.youtube.com/watch?v=vE-KlUTqzJs>`__
 
 26. Vídeo: `Extrusión por trayectoria.
-    <https://www.youtube-nocookie.com/embed/afPX6_MQk10>`__
+    <https://www.youtube.com/watch?v=afPX6_MQk10>`__
 
 27. Vídeo: `Interpolación de secciones.
-    <https://www.youtube-nocookie.com/embed/caO6IHavJMI>`__
+    <https://www.youtube.com/watch?v=caO6IHavJMI>`__
 
 28. Vídeo: `Hélices y roscas.
-    <https://www.youtube-nocookie.com/embed/UynsLGouRKg>`__
+    <https://www.youtube.com/watch?v=UynsLGouRKg>`__
 
 29. Vídeo: `Extrusión con torsión.
-    <https://www.youtube-nocookie.com/embed/PQUEa2YRVng>`__
+    <https://www.youtube.com/watch?v=PQUEa2YRVng>`__
 
 30. Vídeo: `Repeticiones y bocetos.
-    <https://www.youtube-nocookie.com/embed/ny2wTmZEDT4>`__
+    <https://www.youtube.com/watch?v=ny2wTmZEDT4>`__
 
 31. Vídeo: `Simetrías de espejo.
-    <https://www.youtube-nocookie.com/embed/Guq7BBR8eMk>`__
+    <https://www.youtube.com/watch?v=Guq7BBR8eMk>`__
 
 32. Vídeo: `Herramienta de offset.
-    <https://www.youtube-nocookie.com/embed/IcJ691adlik>`__
+    <https://www.youtube.com/watch?v=IcJ691adlik>`__
 
 33. Vídeo: `Haciendo recipientes. Herramienta thickness.
-    <https://www.youtube-nocookie.com/embed/BweNSLvQxkc>`__
+    <https://www.youtube.com/watch?v=BweNSLvQxkc>`__
 
 34. Vídeo: `Importando ficheros SVG en Freecad.
-    <https://www.youtube-nocookie.com/embed/iuAQdwnlWlY>`__
+    <https://www.youtube.com/watch?v=iuAQdwnlWlY>`__
 
 35. Vídeo: `Calcando dibujos.
-    <https://www.youtube-nocookie.com/embed/sgtjP79H36w>`__
+    <https://www.youtube.com/watch?v=sgtjP79H36w>`__
 
 36. Vídeo: `Poniendo Textos.
-    <https://www.youtube-nocookie.com/embed/C94Y4uduI08>`__
+    <https://www.youtube.com/watch?v=C94Y4uduI08>`__
 
 37. Vídeo: `Generando planos 2D.
-    <https://www.youtube-nocookie.com/embed/GDE4erbMaS4>`__
+    <https://www.youtube.com/watch?v=GDE4erbMaS4>`__
 
 38. Vídeo: `Importando piezas en STL.
-    <https://www.youtube-nocookie.com/embed/_lbkuSu_c9w>`__
+    <https://www.youtube.com/watch?v=_lbkuSu_c9w>`__
 
 39. Vídeo: `Intercambiando datos en formato STEP.
-    <https://www.youtube-nocookie.com/embed/uXeYTfEMu1I>`__
+    <https://www.youtube.com/watch?v=uXeYTfEMu1I>`__
 
 40. Vídeo: `Despedida. Que el software libre os acompañe.
-    <https://www.youtube-nocookie.com/embed/La9lWlcBBEQ>`__
+    <https://www.youtube.com/watch?v=La9lWlcBBEQ>`__
 
 
 Videotutoriales de FreeCAD. Temporada 2
 ---------------------------------------
 
 1. Vídeo: `Presentación.
-   <https://www.youtube-nocookie.com/embed/tvevj-esu_E>`__
+   <https://www.youtube.com/watch?v=tvevj-esu_E>`__
 
 2. Vídeo: `Configurando que es gerundio
-   <https://www.youtube-nocookie.com/embed/6HaHc7xY4I8>`__
+   <https://www.youtube.com/watch?v=6HaHc7xY4I8>`__
 
 3. Vídeo: `Tomando medidas.
-   <https://www.youtube-nocookie.com/embed/mkTZ-6UI2ts>`__
+   <https://www.youtube.com/watch?v=mkTZ-6UI2ts>`__
 
 4. Vídeo: `Cuñas y pirámides.
-   <https://www.youtube-nocookie.com/embed/jSv-xPEBg48>`__
+   <https://www.youtube.com/watch?v=jSv-xPEBg48>`__
 
 5. Vídeo: `Haciendo prismas.
-   <https://www.youtube-nocookie.com/embed/0qNhy-HsN_I>`__
+   <https://www.youtube.com/watch?v=0qNhy-HsN_I>`__
 
 6. Vídeo: `Piezas en planos inclinados.
-   <https://www.youtube-nocookie.com/embed/2uO1U2MS9Kc>`__
+   <https://www.youtube.com/watch?v=2uO1U2MS9Kc>`__
 
 7. Vídeo: `Colocando piezas sobre piezas.
-   <https://www.youtube-nocookie.com/embed/eNCsavtEpzA>`__
+   <https://www.youtube.com/watch?v=eNCsavtEpzA>`__
 
 8. Vídeo: `Piezas a partir de aristas y caras.
-   <https://www.youtube-nocookie.com/embed/d-JAkkMnHYI>`__
+   <https://www.youtube.com/watch?v=d-JAkkMnHYI>`__
 
 9. Vídeo: `Draft: líneas y selección de extremos.
-   <https://www.youtube-nocookie.com/embed/gfSIwmD8Nnk>`__
+   <https://www.youtube.com/watch?v=gfSIwmD8Nnk>`__
 
 10. Vídeo: `Draft: posicionando objetos.
-    <https://www.youtube-nocookie.com/embed/dZLE-6m030c>`__
+    <https://www.youtube.com/watch?v=dZLE-6m030c>`__
 
 11. Vídeo: `Draft: Puntos medios.
-    <https://www.youtube-nocookie.com/embed/yQR4HBXZ0HE>`__
+    <https://www.youtube.com/watch?v=yQR4HBXZ0HE>`__
 
 12. Vídeo: `Draft: Centros de circunferencias.
-    <https://www.youtube-nocookie.com/embed/DWVpIESz1yI>`__
+    <https://www.youtube.com/watch?v=DWVpIESz1yI>`__
 
 13. Vídeo: `Draft: Plano de trabajo y rejilla.
-    <https://www.youtube-nocookie.com/embed/i7Gele0oFzM>`__
+    <https://www.youtube.com/watch?v=i7Gele0oFzM>`__
 
 14. Vídeo: `Draft: Poniendo anotaciones.
-    <https://www.youtube-nocookie.com/embed/cIEBKVfepZI>`__
+    <https://www.youtube.com/watch?v=cIEBKVfepZI>`__
 
 15. Vídeo: `Copiando y clonando.
-    <https://www.youtube-nocookie.com/embed/9a6rE8XzIgE>`__
+    <https://www.youtube.com/watch?v=9a6rE8XzIgE>`__
 
 16. Vídeo: `Draft: Rotando piezas.
-    <https://www.youtube-nocookie.com/embed/hPoq7fJEJzQ>`__
+    <https://www.youtube.com/watch?v=hPoq7fJEJzQ>`__
 
 17. Vídeo: `Draft: Multilíneas.
-    <https://www.youtube-nocookie.com/embed/CjKaygrjNaM>`__
+    <https://www.youtube.com/watch?v=CjKaygrjNaM>`__
 
 18. Vídeo: `Draft: Texto 3D.
-    <https://www.youtube-nocookie.com/embed/Bi2IAR1Ya8w>`__
+    <https://www.youtube.com/watch?v=Bi2IAR1Ya8w>`__
 
 19. Vídeo: `Draft: Restricción de pertenencia al plano.
-    <https://www.youtube-nocookie.com/embed/f_HKJLihMvw>`__
+    <https://www.youtube.com/watch?v=f_HKJLihMvw>`__
 
 20. Vídeo: `Draft: Rectángulos, circunferencias y arcos.
-    <https://www.youtube-nocookie.com/embed/WNY2h1GHz3k>`__
+    <https://www.youtube.com/watch?v=WNY2h1GHz3k>`__
 
 21. Vídeo: `Diseño clásico. Tetraedro regular.
-    <https://www.youtube-nocookie.com/embed/f8zva_nWvAo>`__
+    <https://www.youtube.com/watch?v=f8zva_nWvAo>`__
 
 22. Vídeo: `Cotas en 3D.
-    <https://www.youtube-nocookie.com/embed/s3rGf3ocewc>`__
+    <https://www.youtube.com/watch?v=s3rGf3ocewc>`__
 
 23. Vídeo: `Draft: Más sobre líneas.
-    <https://www.youtube-nocookie.com/embed/KpEl2JtMiKU>`__
+    <https://www.youtube.com/watch?v=KpEl2JtMiKU>`__
 
 24. Vídeo: `Redondeando trayectorias. Tuberías y cables.
-    <https://www.youtube-nocookie.com/embed/pI2uhfirrgc>`__
+    <https://www.youtube.com/watch?v=pI2uhfirrgc>`__
 
 25. Vídeo: `Draft. Utilidades para líneas. Paralelas, perpendiculares, extensión.
-    <https://www.youtube-nocookie.com/embed/kXn_23iyZvI>`__
+    <https://www.youtube.com/watch?v=kXn_23iyZvI>`__
 
 26. Vídeo: `Draft: Curvas, elipses y polígonos.
-    <https://www.youtube-nocookie.com/embed/-s4y1WqEs-4>`__
+    <https://www.youtube.com/watch?v=-s4y1WqEs-4>`__
 
 27. Vídeo: `Draft: Desplegando objetos.
-    <https://www.youtube-nocookie.com/embed/SRircKcLFRc>`__
+    <https://www.youtube.com/watch?v=SRircKcLFRc>`__
 
 28. Vídeo: `Draft: Miscelánea
-    <https://www.youtube-nocookie.com/embed/AOTUwUPOORs>`__
+    <https://www.youtube.com/watch?v=AOTUwUPOORs>`__
 
 29. Vídeo: `Agrupaciones y materiales.
-    <https://www.youtube-nocookie.com/embed/0kQRVqrBDQM>`__
+    <https://www.youtube.com/watch?v=0kQRVqrBDQM>`__
 
 30. Vídeo: `Generando Planos 2D con cotas y dibujos.
-    <https://www.youtube-nocookie.com/embed/k_s2LgxEtLY>`__
+    <https://www.youtube.com/watch?v=k_s2LgxEtLY>`__
 
 31. Vídeo: `Haciendo engranajes.
-    <https://www.youtube-nocookie.com/embed/PHJGz1JkB5I>`__
+    <https://www.youtube.com/watch?v=PHJGz1JkB5I>`__
 
 32. Vídeo: `Biblioteca de piezas de Freecad.
-    <https://www.youtube-nocookie.com/embed/tVw57QX1fJM>`__
+    <https://www.youtube.com/watch?v=tVw57QX1fJM>`__
 
 33. Vídeo: `Zowi.
-    <https://www.youtube-nocookie.com/embed/AgVfQEPWdkE>`__
+    <https://www.youtube.com/watch?v=AgVfQEPWdkE>`__
 
 34. Vídeo: `Final de la temporada 2.
-    <https://www.youtube-nocookie.com/embed/iGuJ98C8zoI>`__
+    <https://www.youtube.com/watch?v=iGuJ98C8zoI>`__

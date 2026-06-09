@@ -186,4 +186,4 @@ Videotutorial
 -------------
 
 Vídeo: `rotando voy.
-<https://www.youtube-nocookie.com/embed/3FdmAnRRlzA>`__
+<https://www.youtube.com/watch?v=3FdmAnRRlzA>`__

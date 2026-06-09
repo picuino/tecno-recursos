@@ -982,7 +982,7 @@ input[type="radio"][disabled],input[type="checkbox"][disabled]{cursor:not-allowe
 .full-width{width:100%}
 .wy-table,.rst-content table.docutils,.rst-content table.field-list{border-collapse:collapse;border-spacing:0;empty-cells:show;margin-bottom:24px}
 .wy-table caption,.rst-content table.docutils caption,.rst-content table.field-list caption{color:#000;font:italic 85%/1 arial,sans-serif;padding:1em 0;text-align:center}
-.wy-table td,.rst-content table.docutils td,.rst-content table.field-list td,.wy-table th,.rst-content table.docutils th,.rst-content table.field-list th{font-size:100%;margin:0;overflow:visible;padding:6px 6px}
+.wy-table td,.rst-content table.docutils td,.rst-content table.field-list td,.wy-table th,.rst-content table.docutils th,.rst-content table.field-list th{font-size:100%;margin:0;overflow:visible;padding:12px 12px}
 .wy-table td:first-child,.rst-content table.docutils td:first-child,.rst-content table.field-list td:first-child,.wy-table th:first-child,.rst-content table.docutils th:first-child,.rst-content table.field-list th:first-child{border-left-width:0}
 .wy-table thead,.rst-content table.docutils thead,.rst-content table.field-list thead{color:#000;text-align:left;vertical-align:bottom;white-space:nowrap}
 .wy-table thead th,.rst-content table.docutils thead th,.rst-content table.field-list thead th{font-weight:bold;background-color:#eef;border-bottom:solid 4px #aaa;border-left:solid 2px #aaa;}
@@ -1029,8 +1029,8 @@ a.wy-text-success:hover{color:#36d278 !important}
 a.wy-text-danger:hover{color:#ed7669 !important}
 .wy-text-neutral{color:#404040 !important}
 a.wy-text-neutral:hover{color:#595959 !important}
-h1,h2,.rst-content .toctree-wrapper p.caption,h3,h4,h5,h6,legend{margin-top:28px;margin-bottom:12px;font-weight:700;font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
-p{line-height:160%;margin:0;font-size:18px;margin-bottom:10px}
+h1,h2,.rst-content .toctree-wrapper p.caption,h3,h4,h5,h6,legend{margin-top:28px;margin-bottom:18px;font-weight:700;font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
+p{line-height:160%;margin:0;font-size:18px;margin-bottom:18px}
 h1{font-size:225%}
 h2,.rst-content .toctree-wrapper p.caption{font-size:180%}
 h2 {margin-top:72px;}
@@ -1042,14 +1042,14 @@ hr{display:block;height:1px;border:0;border-top:1px solid #e1e4e5;margin:12px 0;
 code,.rst-content tt,.rst-content code{white-space:nowrap;max-width:100%;background:#fff;border:solid 1px #e1e4e5;font-size:80%;padding:0 5px;font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",Courier,monospace;color:#E74C3C;overflow-x:auto}
 code.code-large,.rst-content tt.code-large{font-size:90%}
 .wy-plain-list-disc,.rst-content .section ul,.rst-content .toctree-wrapper ul,article ul{list-style:disc;line-height:28px;margin-bottom:24px}
-.wy-plain-list-disc li,.rst-content .section ul li,.rst-content .toctree-wrapper ul li,article ul li{list-style:disc;margin-left:24px}
+.wy-plain-list-disc li,.rst-content .section ul li,.rst-content .toctree-wrapper ul li,article ul li{list-style:disc;margin-left:24px;line-height:160%;margin-bottom:6px}
 .wy-plain-list-disc li p:last-child,.rst-content .section ul li p:last-child,.rst-content .toctree-wrapper ul li p:last-child,article ul li p:last-child{margin-bottom:0}
 .wy-plain-list-disc li ul,.rst-content .section ul li ul,.rst-content .toctree-wrapper ul li ul,article ul li ul{margin-bottom:0}
 .wy-plain-list-disc li li,.rst-content .section ul li li,.rst-content .toctree-wrapper ul li li,article ul li li{list-style:circle}
 .wy-plain-list-disc li li li,.rst-content .section ul li li li,.rst-content .toctree-wrapper ul li li li,article ul li li li{list-style:square}
 .wy-plain-list-disc li ol li,.rst-content .section ul li ol li,.rst-content .toctree-wrapper ul li ol li,article ul li ol li{list-style:decimal}
 .wy-plain-list-decimal,.rst-content .section ol,.rst-content ol.arabic,article ol{list-style:decimal;line-height:24px;margin-bottom:24px}
-.wy-plain-list-decimal li,.rst-content .section ol li,.rst-content ol.arabic li,article ol li{list-style:decimal;margin-left:32px;margin-bottom:10px}
+.wy-plain-list-decimal li,.rst-content .section ol li,.rst-content ol.arabic li,article ol li{list-style:decimal;margin-left:32px;margin-bottom:10px;line-height:160%;margin-bottom:6px}
 .wy-plain-list-decimal li p:last-child,.rst-content .section ol li p:last-child,.rst-content ol.arabic li p:last-child,article ol li p:last-child{margin-bottom:0}
 .wy-plain-list-decimal li ul,.rst-content .section ol li ul,.rst-content ol.arabic li ul,article ol li ul{margin-bottom:0}
 .wy-plain-list-decimal li ul li,.rst-content .section ol li ul li,.rst-content ol.arabic li ul li,article ol li ul li{list-style:disc}
@@ -1271,8 +1271,8 @@ footer span.commit code,footer span.commit .rst-content tt,.rst-content footer s
 .rst-content pre,.rst-content kbd,.rst-content samp{font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",Courier,monospace}
 .rst-content a tt,.rst-content a tt,.rst-content a code{color:#2980B9}
 .rst-content dl{margin-top:8px;margin-bottom:16px}
-.rst-content dl dt{font-weight:bold;margin-bottom:6px}
-.rst-content dl p,.rst-content dl table,.rst-content dl ul,.rst-content dl ol{margin-bottom:8px !important}
+.rst-content dl dt{font-weight:bold;line-height:160%}
+.rst-content dl p,.rst-content dl table,.rst-content dl ul,.rst-content dl ol{margin-bottom:12px !important}
 .rst-content dl dd {line-height:160%;margin:0 0 24px 24px;}
 .rst-content dl:not(.docutils){margin-bottom:24px}
 .rst-content dl:not(.docutils) dt{display:table;margin:6px 0 0 0;line-height:normal;font-weight:bold;padding:6px 0;position:relative}

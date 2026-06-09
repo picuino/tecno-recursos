@@ -20,7 +20,7 @@ Etiquetas utilizadas
 ``<iframe src=""> </object>``
    Esta etiqueta inserta un documento externo en la página
    HTML actual.
-   Para insertar un vídeo de Youtube, hay que pinchar sobre el
+   Para insertar un vídeo de YouTube, hay que pinchar sobre el
    vídeo con el botón derecho del ratón y seleccionar la opción
    'Copiar código de inserción'.
    Por último se pega ese código dentro del documento HTML.
@@ -29,7 +29,7 @@ Etiquetas utilizadas
 | Descargas:
 | :download:`Página HTML a insertar. <html/html-object2.html>`
 
-Código Youtube.
+Código YouTube.
 
 .. code-block:: html
 

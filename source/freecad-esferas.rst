@@ -219,4 +219,4 @@ Videotutorial
 -------------
 
 Vídeo: `con un par de esferas
-<https://www.youtube-nocookie.com/embed/FChk-69h8SY>`__
+<https://www.youtube.com/watch?v=FChk-69h8SY>`__

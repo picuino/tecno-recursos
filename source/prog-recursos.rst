@@ -14,7 +14,7 @@ Antonio García el niño programador
 
 * Vídeo: `El niño de 11 años que ha inventado más de 100 videojuegos
   propios - El Hormiguero 3.0.
-  <https://www.youtube-nocookie.com/embed/a7SsRuA1KDU>`__
+  <https://www.youtube.com/watch?v=a7SsRuA1KDU>`__
 
 
 Retos de programación con Scratch

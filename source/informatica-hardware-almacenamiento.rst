@@ -639,7 +639,7 @@ almacenamiento se puedan optimizar y compartir entre varios ordenadores.
       streaming.
 
       * Vídeo: `Inside a Google data center.
-        <https://www.youtube-nocookie.com/embed/XZmGGAbHqa0>`__
+        <https://www.youtube.com/watch?v=XZmGGAbHqa0>`__
 
 
 Test de la unidad

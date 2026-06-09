@@ -161,4 +161,4 @@ Videotutorial
 -------------
 
 Vídeo: `cilindros y pacman.
-<https://www.youtube-nocookie.com/embed/jDaJpLadCjE>`__
+<https://www.youtube.com/watch?v=jDaJpLadCjE>`__

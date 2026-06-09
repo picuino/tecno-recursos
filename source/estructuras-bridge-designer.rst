@@ -48,7 +48,7 @@ Tutorial
 Tutorial en Inglés de 19 minutos de duración.
 
 * Vídeo: `Bridge Designer 2016 Tutorial.
-  <https://www.youtube-nocookie.com/embed/9w9fTC4eh3w>`__
+  <https://www.youtube.com/watch?v=9w9fTC4eh3w>`__
 
 
 |br|

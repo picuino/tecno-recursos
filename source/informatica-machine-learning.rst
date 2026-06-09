@@ -62,13 +62,13 @@ Vídeos de DotCSV
 ----------------
 
 * Vídeo: `¿Tiene la IA de Google CONSCIENCIA? -> NO, pero me preocupa... (LaMDA).
-  <https://www.youtube-nocookie.com/embed/Ko7WFx4rUw0>`__
+  <https://www.youtube.com/watch?v=Ko7WFx4rUw0>`__
 
 * Vídeo: `DotCSV. GATO: La nueva IA de DeepMind que lo aprende TODO.
-  <https://www.youtube-nocookie.com/embed/EoZFxj-qhUY>`__
+  <https://www.youtube.com/watch?v=EoZFxj-qhUY>`__
 
 * Vídeo: `DotCSV. Esta Inteligencia Artificial ESCRIBE MEJOR QUE TÚ... GPT-3.
-  <https://www.youtube-nocookie.com/embed/C1eOiOkD_8A>`__
+  <https://www.youtube.com/watch?v=C1eOiOkD_8A>`__
 
 
 Vídeos de Jaime Altozano
@@ -76,11 +76,11 @@ Vídeos de Jaime Altozano
 
 * Vídeo: `¿Qué significa realmente "Inteligencia Artificial"? Subespacios,
   pareidolias y creatividad.
-  <https://www.youtube-nocookie.com/embed/3eMmmj3roOs>`__
+  <https://www.youtube.com/watch?v=3eMmmj3roOs>`__
 
 
 * Vídeo: `Jaime Altozano. Hablemos de inteligencias artificiales.
-  <https://www.youtube-nocookie.com/embed/GqKnlBq2MA4>`__
+  <https://www.youtube.com/watch?v=GqKnlBq2MA4>`__
 
 
 Vídeos TED
@@ -88,7 +88,7 @@ Vídeos TED
 
 * Vídeo: `Jeremy Howard. Las maravillosas y pavorosas consecuencias de los
   computadores que pueden aprender.
-  <https://www.youtube-nocookie.com/embed/t4kyRyKyOpo>`__
+  <https://www.youtube.com/watch?v=t4kyRyKyOpo>`__
 
 
 Vídeos de Veritasium
@@ -96,5 +96,5 @@ Vídeos de Veritasium
 Computadoras e Inteligencia Artificial.
 
 * Vídeo: `El Futuro de las Computadoras Será Radicalmente Diferente.
-  <https://www.youtube-nocookie.com/embed/qNtxODk_Lmk>`__
+  <https://www.youtube.com/watch?v=qNtxODk_Lmk>`__
 

@@ -143,4 +143,4 @@ Videotutorial
 -------------
 
 Vídeo: `trasladando cubos.
-<https://www.youtube-nocookie.com/embed/Mh8cC7F_R4k>`__
+<https://www.youtube.com/watch?v=Mh8cC7F_R4k>`__

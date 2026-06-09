@@ -9,76 +9,76 @@ Componentes bajo el microscopio
 ===============================
 
 Serie **"bajo el microscopio"** del creador de contenido
-`posoco2000 <https://www.youtube.com/@posoco2000>`__ en youtube.
+`posoco2000 <https://www.youtube.com/@posoco2000>`__ en YouTube.
 
 Electrónica discreta:
    #. Vídeo: `El Diodo rectificador
-      <https://www.youtube-nocookie.com/embed/rpqiQPEq7MI>`__.
+      <https://www.youtube.com/watch?v=rpqiQPEq7MI>`__.
 
    #. Vídeo: `Transistor 2N2222 bajo el microscopio
-      <https://www.youtube-nocookie.com/embed/Gh7xtZrKDGs>`__.
+      <https://www.youtube.com/watch?v=Gh7xtZrKDGs>`__.
 
    #. Vídeo: `Transistor TIP31
-      <https://www.youtube-nocookie.com/embed/sCclnRFrN8U>`__.
+      <https://www.youtube.com/watch?v=sCclnRFrN8U>`__.
 
    #. Vídeo: `El transistor Darlington TIP122
-      <https://www.youtube-nocookie.com/embed/54BquDAVr7c>`__.
+      <https://www.youtube.com/watch?v=54BquDAVr7c>`__.
 
    #. Vídeo: `Transistores complementarios TIP41 y TIP42
-      <https://www.youtube-nocookie.com/embed/Ts_ZgILGE_0>`__.
+      <https://www.youtube.com/watch?v=Ts_ZgILGE_0>`__.
 
    #. Vídeo: `El transistor MOSFET bajo el microscopio
-      <https://www.youtube-nocookie.com/embed/6jpKgtCI0pU>`__.
+      <https://www.youtube.com/watch?v=6jpKgtCI0pU>`__.
 
    #. Vídeo: `Cómo es un SCR (Rectificador Controlado de Silicio)
-      <https://www.youtube-nocookie.com/embed/7y9POa4G_0Y>`__.
+      <https://www.youtube.com/watch?v=7y9POa4G_0Y>`__.
 
    #. Vídeo: `Cómo Funciona Un Relé
-      <https://www.youtube-nocookie.com/embed/tlUyElJt1Go>`__.
+      <https://www.youtube.com/watch?v=tlUyElJt1Go>`__.
 
 
 Electrónica analógica:
    #. Vídeo: `Circuito amplificador operacional LM741
-      <https://www.youtube-nocookie.com/embed/MqOaAjf_bEg>`__.
+      <https://www.youtube.com/watch?v=MqOaAjf_bEg>`__.
 
    #. Vídeo: `Oscilador NE555
-      <https://www.youtube-nocookie.com/embed/iVVcHaKyZDc>`__.
+      <https://www.youtube.com/watch?v=iVVcHaKyZDc>`__.
 
    #. Vídeo: `El regulador de voltaje AMS1117
-      <https://www.youtube-nocookie.com/embed/170dde1kMoE>`__.
+      <https://www.youtube.com/watch?v=170dde1kMoE>`__.
 
 
 Electrónica digital:
    #. Vídeo: `La Compuerta Lógica NOT 74LS04
-      <https://www.youtube-nocookie.com/embed/ErlZ0SuGGFA>`__.
+      <https://www.youtube.com/watch?v=ErlZ0SuGGFA>`__.
 
    #. Vídeo: `Compuerta lógica AND 74LS08
-      <https://www.youtube-nocookie.com/embed/5qHNFCekHPQ>`__.
+      <https://www.youtube.com/watch?v=5qHNFCekHPQ>`__.
 
    #. Vídeo: `Compuerta lógica XOR 74LS86
-      <https://www.youtube-nocookie.com/embed/3GjEDnoyeHE>`__.
+      <https://www.youtube.com/watch?v=3GjEDnoyeHE>`__.
 
    #. Vídeo: `Chip de una tarjeta SIM
-      <https://www.youtube-nocookie.com/embed/lTO7VlXTpa4>`__.
+      <https://www.youtube.com/watch?v=lTO7VlXTpa4>`__.
 
    #. Vídeo: `Esta linterna tiene un microchip por dentro
-      <https://www.youtube-nocookie.com/embed/I04ZFM385ww>`__.
+      <https://www.youtube.com/watch?v=I04ZFM385ww>`__.
 
    #. Vídeo: `El microchip de la calculadora
-      <https://www.youtube-nocookie.com/embed/B8RA45S8xWQ>`__.
+      <https://www.youtube.com/watch?v=B8RA45S8xWQ>`__.
 
    #. Vídeo: `El procesador de una calculadora científica
-      <https://www.youtube-nocookie.com/embed/m1WkCJD0J94>`__.
+      <https://www.youtube.com/watch?v=m1WkCJD0J94>`__.
 
    #. Vídeo: `Cómo Funcionan Las Memorias Flash
-      <https://www.youtube-nocookie.com/embed/xUvNCUvYiZs>`__.
+      <https://www.youtube.com/watch?v=xUvNCUvYiZs>`__.
 
    #. Vídeo: `Milhouse grabado en un microchip de vídeo
-      <https://www.youtube-nocookie.com/embed/XQwarjOy9QI>`__.
+      <https://www.youtube.com/watch?v=XQwarjOy9QI>`__.
 
    #. Vídeo: `El microcontrolador PIC12F508
-      <https://www.youtube-nocookie.com/embed/FbQ58dDo7GA>`__.
+      <https://www.youtube.com/watch?v=FbQ58dDo7GA>`__.
 
    #. Vídeo: `El microcontrolador de un microondas
-      <https://www.youtube-nocookie.com/embed/OAv7zRS6-es>`__.   
+      <https://www.youtube.com/watch?v=OAv7zRS6-es>`__.   
 

@@ -1799,7 +1799,7 @@ Varios
    <https://pelandintecno.blogspot.com/2011/05/el-porque-del-cambio-horario_22.html>`__
 #. `2011-05. Juego: EnerCities.
    <https://pelandintecno.blogspot.com/2011/05/juego-enercities.html>`__
-#. `2011-04. Canal Youtube: pelandintecno
+#. `2011-04. Canal YouTube: pelandintecno
    <https://pelandintecno.blogspot.com/2011/04/canal-youtube-pelandintecno.html>`__
 #. `2011-04. Tecnología romana
    <https://pelandintecno.blogspot.com/2011/04/tecnologia-romana.html>`__

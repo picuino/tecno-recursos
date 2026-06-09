@@ -186,4 +186,4 @@ Videotutorial
 -------------
 
 Vídeo: `usando toros.
-<https://www.youtube-nocookie.com/embed/1G78YHRapsI>`__
+<https://www.youtube.com/watch?v=1G78YHRapsI>`__

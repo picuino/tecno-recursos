@@ -196,7 +196,7 @@ inauguración, sin causar víctimas.
 Puedes ver una grabación del suceso en YouTube:
 
 * Vídeo: `Tacoma Narrows Bridge Collapse "Gallopin' Gertie".
-  <https://www.youtube-nocookie.com/embed/j-zczJXSxnw>`__
+  <https://www.youtube.com/watch?v=j-zczJXSxnw>`__
 
 
 Las oscilaciones también pueden producir ruidos y vibraciones
@@ -219,10 +219,10 @@ Amortiguar la estructura
    reducen la resonancia.
 
 * Vídeo: `amortiguador de masa sintonizada
-  <https://www.youtube-nocookie.com/embed/7SCUGTA8xEI>`__
+  <https://www.youtube.com/watch?v=7SCUGTA8xEI>`__
 
 * Vídeo: `ejemplo didactico de estructura sismo resistente.
-  <https://www.youtube-nocookie.com/embed/QUI7acilEJo>`__
+  <https://www.youtube.com/watch?v=QUI7acilEJo>`__
 
 
 Ejercicios

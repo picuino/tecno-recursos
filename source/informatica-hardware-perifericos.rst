@@ -601,7 +601,7 @@ la entrada como la salida de datos del ordenador.
 
 
       Vídeo: `Explicación de Jaime Altozano sobre las tarjetas de sonido
-      <https://www.youtube-nocookie.com/embed/4Wp8X7MvGB0>`__.
+      <https://www.youtube.com/watch?v=4Wp8X7MvGB0>`__.
 
 
 Test de la unidad

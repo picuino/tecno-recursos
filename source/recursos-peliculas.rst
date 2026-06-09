@@ -339,7 +339,7 @@ Películas documentales
    del juego. Financiado mediante Kickstarter, el documental fue
    producido por 2 Player Productions y dirigido por Paul Owens.
    Disponible en múltiples plataformas como descarga digital y en
-   `YouTube <https://www.youtube-nocookie.com/embed/1rOUfNa7dxM>`__.
+   `YouTube <https://www.youtube.com/watch?v=1rOUfNa7dxM>`__.
 
 
 "Home" (2009)

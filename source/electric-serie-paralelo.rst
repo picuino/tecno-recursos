@@ -213,7 +213,7 @@ genera pasará por el cable y el generador o el cable se quemarán.
    es muy peligroso.
 
    Vídeo: `batería de litio explota debido a un cortocircuito provocado
-   <https://www.youtube-nocookie.com/embed/WpvTHSF9xNY>`__.
+   <https://www.youtube.com/watch?v=WpvTHSF9xNY>`__.
 
 
 Circuito abierto

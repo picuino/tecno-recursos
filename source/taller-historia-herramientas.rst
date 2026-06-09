@@ -8,7 +8,7 @@
 Historia de las herramientas
 ============================
 * Vídeo: `Máquinas y herramientas: Historia de las máquinas y herramientas.
-  <https://www.youtube-nocookie.com/embed/wfUElpIHMz8>`__
+  <https://www.youtube.com/watch?v=wfUElpIHMz8>`__
 
 
 Kahoot de herramientas
