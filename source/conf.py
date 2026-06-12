@@ -11,6 +11,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+import re
 import shutil
 import sys
 import time
@@ -428,7 +429,6 @@ pdf_break_level = 1
 pdf_breakside = "even"
 
 
-
 #
 # Add open-in-new-tab links in Sphinx HTML writer
 # from: https://stackoverflow.com/questions/25583581/add-open-in-new-tab-links-in-sphinx-restructuredtext
@@ -492,14 +492,26 @@ def add_rst_meta_tags(app, pagename, templatename, context, doctree):
             break
  
     # 4. Estructurar los datos de Schema
+    raw_title = context.get('title', 'Picuino')
+    clean_title = re.sub(r'<[^>]*>', '', raw_title)
     schema_data = {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": context.get('title', 'Picuino'),
+        "@type": "TechArticle",
+        "name": clean_title,
+        "headline": clean_title,
         "author": {
             "@type": "Person",
-            "name": meta_author
-        }
+            "name": meta_author,
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Picuino",
+            "url": "https://picuino.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.picuino.com/favicon-192.png",
+            }
+        }        
     }
     if meta_author == global_author:
         schema_data["author"]["sameAs"] = [
@@ -510,12 +522,12 @@ def add_rst_meta_tags(app, pagename, templatename, context, doctree):
     # 5. Inyectar etiquetas <meta> para Date y Modified en HTML
     if 'Date' in rst_meta:
         schema_data["datePublished"] = rst_meta.get("Date")
-        meta_date = f'<meta name="date" content="{rst_meta.get("Date")}" />\n'
+        meta_date = f'<meta property="article:published_time" content="{rst_meta.get("Date")}" />\n'
         context['metatags'] += meta_date
 
     if 'Modified' in rst_meta:
         schema_data["dateModified"] = rst_meta.get('Modified')
-        meta_mod = f'<meta name="modified" content="{rst_meta.get("Modified")}" />\n'
+        meta_mod = f'<meta property="article:modified_time" content="{rst_meta.get("Modified")}" />\n'
         context['metatags'] += meta_mod
     
     # 4. Inyectar el script en los metatags de la página
