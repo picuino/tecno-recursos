@@ -1,6 +1,6 @@
-﻿:Date: 2025-09-18
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2025-09-18
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 .. include:: informatica-subs.rst
 

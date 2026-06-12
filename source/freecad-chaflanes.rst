@@ -1,6 +1,6 @@
-﻿:Date: 2020-01-11
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2020-01-11
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 
 .. include:: freecad-subs.rst

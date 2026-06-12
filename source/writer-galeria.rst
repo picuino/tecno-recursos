@@ -1,6 +1,6 @@
-﻿:Date: 2021-01-02
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2021-01-02
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 .. include:: writer-subs.rst
 

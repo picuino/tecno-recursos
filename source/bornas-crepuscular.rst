@@ -1,6 +1,6 @@
-﻿:Date: 2018-12-21
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2018-12-21
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 
 .. _bornas-crepuscular:

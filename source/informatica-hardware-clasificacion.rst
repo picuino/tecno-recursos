@@ -1,6 +1,6 @@
-﻿:Date: 2022-12-03
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2022-12-03
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 
 .. informatica-hardware-clasificacion:

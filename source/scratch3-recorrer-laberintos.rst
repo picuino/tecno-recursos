@@ -1,6 +1,6 @@
-﻿:Date: 2022-10-29
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2022-10-29
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 
 .. include:: scratch3-subs.rst

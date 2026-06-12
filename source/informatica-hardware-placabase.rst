@@ -1,6 +1,6 @@
-﻿:Date: 2022-06-12
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2022-06-12
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 .. informatica-hardware-placabase:
 

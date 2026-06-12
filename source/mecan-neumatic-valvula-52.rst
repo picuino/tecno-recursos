@@ -1,6 +1,6 @@
-﻿:Date: 2026-01-02
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2026-01-02
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 .. _mecan-neumatic-valvula-52:
 

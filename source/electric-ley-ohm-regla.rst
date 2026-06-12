@@ -1,6 +1,6 @@
-﻿:Date: 2021-06-20
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2021-06-20
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
 
 .. _electric-ley-ohm-regla:

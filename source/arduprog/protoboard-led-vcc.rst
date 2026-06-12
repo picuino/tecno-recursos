@@ -1,6 +1,6 @@
-﻿:Date: 2019-12-14
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2019-12-14
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 
 .. _protoboard-led-vcc:

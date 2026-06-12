@@ -1,6 +1,6 @@
-﻿:Date: 2024-04-09
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2024-04-09
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 .. _mecan-neumatic-valvula-antirretorno:
 

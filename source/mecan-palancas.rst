@@ -1,7 +1,7 @@
-﻿:Date: 2022-05-25
-:Modified: 2026-01-15
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2022-05-25
+:modified: 2026-01-15
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 
 .. _mecan-palancas:

@@ -1,6 +1,6 @@
-﻿:Date: 2025-08-28
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2025-08-28
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
 
 .. _recursos-copyright:

@@ -1,6 +1,6 @@
-﻿:Date: 1/10/2024
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 1/10/2024
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
 
 .. _robotica-normativa:

@@ -1,6 +1,6 @@
-﻿:Date: 2018-12-10
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2018-12-10
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 .. Programación con Arduino documentation master file.
    Created by sphinx-quickstart on Sun Jan 18 17:04:07 2015.

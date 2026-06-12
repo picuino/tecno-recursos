@@ -1,6 +1,6 @@
-﻿:Date: 2019-07-24
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2019-07-24
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 
 .. _bornas-lamparas-serie-doble:

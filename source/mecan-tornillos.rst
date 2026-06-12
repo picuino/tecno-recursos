@@ -1,7 +1,8 @@
-﻿:Date: 2022-05-29
-:Modified: 2026-01-15
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2022-05-29
+:modified: 2026-01-15
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
+:image: mecan-tornillo-01.jpg
 
 
 .. _mecan-tornillos:
@@ -29,6 +30,14 @@ que se encuentra enrollado alrededor de un eje cilíndrico.
 
 Partes de un tornillo
 ---------------------
+
+.. figure:: mecan/_images/mecan-tornillo-02.png
+   :alt: Partes de un tornillo y tuerca hexagonal.
+   :align: center
+   :width: 340px
+
+   Partes de un tornillo y tuerca hexagonal.
+
 
 Las diferentes partes del tornillo reciben los siguientes nombres.
 
@@ -58,14 +67,6 @@ Las diferentes partes del tornillo reciben los siguientes nombres.
       Pieza mecánica con un orificio roscado que se acopla
       al tornillo. Suele tener forma cuadrada o hexagonal
       para facilitar su giro mediante llaves de apriete.
-
-
-.. figure:: mecan/_images/mecan-tornillo-02.png
-   :alt: Partes de un tornillo y tuerca hexagonal.
-   :align: center
-   :width: 340px
-
-   Partes de un tornillo y tuerca hexagonal.
 
 
 Aplicaciones de los tornillos

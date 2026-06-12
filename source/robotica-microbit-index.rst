@@ -1,6 +1,6 @@
-﻿:Date: 2025-09-13
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2025-09-13
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 .. _robotica-microbit-index:
 

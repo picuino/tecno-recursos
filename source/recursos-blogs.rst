@@ -1,7 +1,7 @@
-﻿:Date: 2022-09-16
+﻿:date: 2022-09-16
 :Updated: 24/04/2023
-:Author: Carlos Félix Pardo Martín
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1
 
 .. _recursos-blogs:

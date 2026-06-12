@@ -1,6 +1,6 @@
-﻿:Date: 2019-12-19
-:Author: Francisco Trigueros
-:License: Creative Commons Attribution-ShareAlike 4.0 International
+﻿:date: 2019-12-19
+:author: Francisco Trigueros
+:license: Creative Commons Attribution-ShareAlike 4.0 International
 
 
 .. _protoboard-recursos:
