@@ -1,5 +1,5 @@
-﻿:Date: 19/12/2019
-:Author: Carlos Félix Pardo Martín
+﻿:Date: 2019-12-19
+:Author: Francisco Trigueros
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
 
@@ -7,7 +7,7 @@
 
 Guía de Arduino
 ===============
-Guía en PDF con 27 lecciones y prácticas de Arduino,
+Estupenda guía en PDF con 27 lecciones y prácticas de Arduino,
 creada por el profesor **Francisco Trigueros**
 para programar con bloques y con código diversos sensores y actuadores.
 
@@ -55,3 +55,9 @@ MÁS SENSORES Y ACTUADORES PARA PROYECTOS
 
 `Curso de Arduino con lecciones y prácticas. Formato ODT.
 <../../_static/document/arduino-guia-lecciones-practicas.odt>`__
+
+
+.. admonition:: Autor
+
+   Los contenidos de esta página han sido creados por 
+   el profesor **Francisco Trigueros**.

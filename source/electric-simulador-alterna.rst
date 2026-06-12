@@ -1,4 +1,4 @@
-﻿:Date: 07/07/2025
+﻿:Date: 2025-07-07
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
@@ -113,37 +113,50 @@ Ejercicios
 
    .. list-table::
       :header-rows: 1
+      :widths: 28 28 44
 
       * - Tensión eficaz [V]
         - Tensión de pico [V]
+        - Información
       * - 230 voltios
         -
-      * -
-        - 17 voltios
-      * - 125 voltios
+        - Tensión de red europea.
+      * - 120 voltios
         -
-      * -
-        - 29 voltios
-      * - 5 voltios
+        - Tensión de red norteamericana.
+      * - 11000 voltios
         -
+        - Tensión de alternadores de centrales eléctricas.
+      * -
+        - 34 voltios
+        - Tensión para iluminación de piscinas.
+      * -
+        - 141 voltios
+        - Tensión de red en Japón.
+
 
 #. Completa la siguiente tabla con los valores de frecuencia y de período
-   de tiempo que que faltan.
+   de tiempo que faltan.
 
    .. list-table::
       :header-rows: 1
+      :widths: 28 28 44
 
       * - Frecuencia [Hz]
         - Período [s]
+        - Información
       * - 50 hercios
-        - 0,020 segundos
+        - 
+        - Frecuencia de red europea.
       * - 60 hercios
         -
+        - Frecuencia de red norteamericana.
       * - 400 hercios
         -
+        - Frecuencia de red de los aviones.
       * -
-        - 0,100 segundos
-      * -
-        - 0,012 segundos
+        - 0,060 segundos
+        - Frecuencia de sistemas ferroviarios.
       * -
         - 0,001 segundos
+        - Frecuencia de red de aviones militares.

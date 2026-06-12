@@ -1,4 +1,4 @@
-﻿:Date: 12/12/2025
+﻿:Date: 2025-12-12
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1

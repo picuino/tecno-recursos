@@ -1,4 +1,4 @@
-﻿:Date: 01/07/2025
+﻿:Date: 2025-07-01
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 

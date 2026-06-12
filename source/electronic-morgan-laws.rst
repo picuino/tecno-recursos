@@ -1,4 +1,4 @@
-﻿:Date: 02/11/2024
+﻿:Date: 2024-11-02
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1

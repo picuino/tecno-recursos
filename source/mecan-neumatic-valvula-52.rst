@@ -1,4 +1,4 @@
-﻿:Date: 02/01/2026
+﻿:Date: 2026-01-02
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 

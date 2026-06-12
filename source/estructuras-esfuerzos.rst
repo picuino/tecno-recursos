@@ -1,5 +1,5 @@
-﻿:Date: 10/12/2018
-:Modified: 12/01/2026
+﻿:Date: 2018-12-10
+:Modified: 2026-01-12
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 

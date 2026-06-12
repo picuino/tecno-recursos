@@ -1,4 +1,4 @@
-﻿:Date: 01/06/2019
+﻿:Date: 2019-06-01
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 :tocdepth: 1

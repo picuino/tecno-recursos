@@ -14,6 +14,7 @@ import os
 import shutil
 import sys
 import time
+import json
 
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -471,5 +472,61 @@ class PatchedHTMLTranslator(HTMLTranslator):
             self.body.append(('%s' + self.secnumber_suffix) %
                              '.'.join(map(str, node['secnumber'])))
 
+
+def add_rst_meta_tags(app, pagename, templatename, context, doctree):
+    # 1. Obtener autor global    
+    global_author = app.config.author
+    
+    # 2. Intentar obtener metadatos de varias fuentes (compatibilidad con traducciones)
+    rst_meta = context.get('meta') or {}
+    
+    # Si viene de una traducción, a veces los metadatos están en las propiedades del documento
+    if not rst_meta and app.env and pagename in app.env.metadata:
+        rst_meta = app.env.metadata[pagename]
+
+    # 3. Buscar el autor (insensible a mayúsculas/minúsculas por si la traducción cambia la clave)
+    meta_author = global_author
+    for key, value in rst_meta.items():
+        if key.lower() == 'author':
+            meta_author = value
+            break
+ 
+    # 4. Estructurar los datos de Schema
+    schema_data = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": context.get('title', 'Picuino'),
+        "author": {
+            "@type": "Person",
+            "name": meta_author
+        }
+    }
+    if meta_author == global_author:
+        schema_data["author"]["sameAs"] = [
+            "https://x.com/picuino",
+            "https://github.com/picuino"
+            ]
+
+    # 5. Inyectar etiquetas <meta> para Date y Modified en HTML
+    if 'Date' in rst_meta:
+        schema_data["datePublished"] = rst_meta.get("Date")
+        meta_date = f'<meta name="date" content="{rst_meta.get("Date")}" />\n'
+        context['metatags'] += meta_date
+
+    if 'Modified' in rst_meta:
+        schema_data["dateModified"] = rst_meta.get('Modified')
+        meta_mod = f'<meta name="modified" content="{rst_meta.get("Modified")}" />\n'
+        context['metatags'] += meta_mod
+    
+    # 4. Inyectar el script en los metatags de la página
+    schema_script = f"\n<script type=\"application/ld+json\">\n{json.dumps(schema_data, indent=2, ensure_ascii=False)}\n</script>\n"
+    if 'metatags' in context:
+        context['metatags'] += schema_script
+    else:
+        context['metatags'] = schema_script
+
+
 def setup(app):
     app.set_translator('html', PatchedHTMLTranslator)
+    app.connect('html-page-context', add_rst_meta_tags)
+

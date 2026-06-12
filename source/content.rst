@@ -1,4 +1,4 @@
-﻿:Date: 10/12/2018
+﻿:Date: 2018-12-10
 :Author: Carlos Félix Pardo Martín
 :License: Creative Commons Attribution-ShareAlike 4.0 International
 
@@ -13,7 +13,6 @@ Recursos educativos libres para Tecnología en Educación Secundaria.
 Índice de páginas y mapa de la web.
 
 * `Página de inicio. <../es/index.html>`__
-* `Manifiesto. <../es/manifiesto.html>`__
 * `Test de Tecnología. <../test/>`__
 * `Simulador de circuitos. <../circuits/>`__
 * `Proyecto en GitHub. <https://github.com/picuino/tecno-recursos>`__
