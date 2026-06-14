@@ -1,6 +1,7 @@
 ﻿:date: 2021-09-16
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 .. _inkscape-index:
 

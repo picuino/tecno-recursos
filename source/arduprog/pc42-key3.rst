@@ -1,6 +1,7 @@
 ﻿:date: 2018-12-10
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 .. |keyNum| replace::  ``keyNum``: número del 1 al 6 que representa al pulsador
       del que se solicita su valor. El valor 0 representa a todos los pulsadores juntos.

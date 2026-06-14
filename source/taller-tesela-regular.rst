@@ -1,6 +1,7 @@
 ﻿:date: 2026-04-30
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
 :tocdepth: 1
 
 .. _taller-teslela-regular:
@@ -136,6 +137,38 @@ teselas encajen.
    :alt: Teselado de peces voladores impreso en 3D.
    :align: center
    :width: 400px
+
+
+Tesela pez curvo
+----------------
+Esta tesela está basada en un **triángulo equilátero**.
+Necesita traslación y rotación de 60 grados para que las diferentes
+teselas encajen.
+
+.. figure:: taller/_images/taller-tesela-pez-curvo.png
+   :alt: Tesela de pez curvo.
+   :align: center
+   :width: 358px
+
+   Tesela de pez curvo.
+
+.. figure:: taller/_images/taller-teselado-pez-curvo.png
+   :alt: Teselado de peces curvos.
+   :align: center
+   :width: 382px
+
+   Teselado de peces curvos.
+
+|  :download:`Teselas de peces curvos. Formato PDF.
+   <taller/taller-tesela-pez-curvo.pdf>`
+|  :download:`Teselas de peces curvos a color. Formato PDF.
+   <taller/taller-tesela-pez-curvo-color.pdf>`
+|  :download:`Teselas de peces curvos. Formato editable SVG.
+   <taller/taller-tesela-pez-curvo.svg>`
+
+|  :download:`Tesela de pez curvo.
+   Formato STL binario para imprimir en 3D.
+   <taller/taller-tesela-pez-curvo-3d.stl>`
 
 
 Tesela pájaro

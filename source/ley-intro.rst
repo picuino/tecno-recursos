@@ -1,6 +1,7 @@
 ﻿:date: 2022-03-31
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
 :tocdepth: 1
 
 .. _ley-intro:

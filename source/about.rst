@@ -1,6 +1,7 @@
 ﻿:date: 2026-03-31
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 
 .. _about:
@@ -17,8 +18,9 @@ aula o adaptar según tus necesidades.
 
 Qué es Picuino
 --------------
-Picuino es un **proyecto personal creado por Carlos Pardo**, profesor de
-Educación Secundaria, fruto de años de experiencia real en el aula.
+Picuino es un proyecto personal creado por :ref:`Carlos Pardo <author>`,
+profesor de Educación Secundaria, fruto de años de experiencia
+real en el aula.
 
 Su propósito es **facilitar la enseñanza de la Tecnología** mediante
 materiales claros, estructurados y directamente aplicables en clase.

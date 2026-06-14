@@ -515,16 +515,19 @@ def add_rst_meta_tags(app, pagename, templatename, context, doctree):
         "mainEntityOfPage": canonical_url,
     }
     if meta_author == global_author:
-        schema_data["author"]["url"] = "https://www.picuino.com"
+        schema_data["author"]["url"] = "https://www.picuino.com/es/author.html"
         schema_data["author"]["sameAs"] = [
             "https://x.com/picuino",
             "https://github.com/picuino"
             ]
 
+    # 5. Inyectar etiquetas <meta> para en HTML
+    if 'license_url' in rst_meta:
+        schema_data["license"] = rst_meta.get("license_url") 
+
     if 'image' in rst_meta:
         schema_data["image"] = [ 'https://www.picuino.com/es/_images/' + rst_meta.get("image") ] 
 
-    # 5. Inyectar etiquetas <meta> para :date: y :modified: en HTML
     if 'date' in rst_meta:
         published_date = rst_meta.get("date") + 'T12:00:00+01:00'
         schema_data["datePublished"] = published_date
