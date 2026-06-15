@@ -1,7 +1,9 @@
 ﻿:date: 2026-04-30
+:modified: 2026-06-15
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
+:image: taller-tesela-huesos-nazaries-3d-tb.jpg
 :tocdepth: 1
 
 .. _taller-teslela-regular:
@@ -58,6 +60,12 @@ teselado completo.
    <taller/taller-tesela-pez-3d.stl>`
 
 
+.. figure:: taller/_images/taller-tesela-peces-3d-tb.jpg
+   :alt: Teselado de peces impreso en 3D.
+   :align: center
+   :width: 400px
+
+
 Tesela hueso nazarí
 -------------------
 Está tesela está basada en un **cuadrado**. Solo requiere realizar una
@@ -99,7 +107,7 @@ poder generar el teselado completo.
 .. figure:: taller/_images/taller-tesela-huesos-nazaries-3d-tb.jpg
    :alt: Teselado de huesos nazaríes impreso en 3D.
    :align: center
-   :width: 320px
+   :width: 400px
 
 
 Tesela pez volador
@@ -208,6 +216,12 @@ Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
    <taller/taller-tesela-pajaro-3d-b.stl>`
 
 
+.. figure:: taller/_images/taller-tesela-pajaros-3d-tb.jpg
+   :alt: Teselado de pajaros impreso en 3D.
+   :align: center
+   :width: 400px
+
+
 Tesela perro
 ------------
 Esta tesela, algo más compleja que la anterior, está basada en un
@@ -243,6 +257,12 @@ Por esa razón se han añadido dibujos de la tesela con reflejo horizontal.
 |  :download:`Tesela de perro dirección izquierda.
    Formato STL binario para imprimir en 3D.
    <taller/taller-tesela-perro-3d-b.stl>`
+
+
+.. figure:: taller/_images/taller-tesela-perros-3d-tb.jpg
+   :alt: Teselado de perros impreso en 3D.
+   :align: center
+   :width: 400px
 
 
 Tesela salamandra

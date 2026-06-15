@@ -1,7 +1,10 @@
 ﻿:date: 2022-12-01
+:modified: 2026-06-15
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
+:image: mecan-calibre-partes.png
+
 :tocdepth: 1
 
 .. _mecan-calibre:
@@ -52,10 +55,21 @@ Un calibre está compuesto de las siguientes partes:
 
    Corredera de un calibre moviéndose sobre la regla.
 
-Realización de medidas
-----------------------
+Medición con el calibre
+-----------------------
 En las siguientes imágenes se puede ver cómo se toman medidas de
 exterior, interior y profundidad de una pieza.
+
+Medición de dimensiones externas
+
+  * Abre las **mordazas para medir exteriores (1)** y coloca el objeto
+    entre ellas.
+  * Desliza las mordazas para cerrarlas hasta que toquen el objeto, 
+    sin aplicar fuerza excesiva.
+  * Lee la escala principal (la marca antes del cero del nonio).
+  * Lee la escala del nonio (el número que coincida con una línea
+    de la escala principal).
+  * Suma ambas lecturas para obtener el valor final.
 
 .. figure:: mecan/_images/mecan-calibre-medidas-01.png
    :width: 800px
@@ -64,12 +78,37 @@ exterior, interior y profundidad de una pieza.
 
    Calibre tomando una medida exterior.
 
+
+Medición de dimensiones internas
+
+  * Cierra las **mordazas para medir interiores (2)** y coloca 
+    las mordazas dentro del hueco o agujero a medir.
+  * Desliza las mordazas para abrirlas hasta que toquen el objeto,
+    sin aplicar fuerza excesiva.
+  * Lee la escala principal (la marca antes del cero del nonio).
+  * Lee la escala del nonio (el número que coincida con una línea
+    de la escala principal).
+  * Suma ambas lecturas para obtener el valor final.
+
+
 .. figure:: mecan/_images/mecan-calibre-medidas-02.png
    :width: 800px
    :alt: Calibre tomando una medida interior.
    :align: center
 
    Calibre tomando una medida interior.
+
+
+Medición de profundidad
+
+  * Cierra el calibre y coloca la parte trasera en el hueco a medir,
+    tal y como muestra la siguiente figura.
+  * Desliza la varilla hacia afuera hasta que toque el fondo del objeto,
+    sin aplicar fuerza excesiva.
+  * Lee la escala principal (la marca antes del cero del nonio).
+  * Lee la escala del nonio (el número que coincida con una línea
+    de la escala principal).
+  * Suma ambas lecturas para obtener el valor final.
 
 .. figure:: mecan/_images/mecan-calibre-medidas-03.png
    :width: 800px
@@ -94,6 +133,12 @@ escala principal.
    :align: center
 
    Medición de una distancia de 16,6 milímetros.
+   
+   La marca del cero pasa de 16 milímetros y no llega a 17 milímetros
+   en la regla superior.
+   
+   La marca del 6 del nonio coincide con la marca de la regla superior.
+   
 
 .. figure:: mecan/_images/mecan-calibre-0240nr.png
    :width: 640px
@@ -101,6 +146,12 @@ escala principal.
    :align: center
 
    Medición de una distancia de 24,0 milímetros.
+   
+   La marca del cero coincide con 24 milímetros en la regla superior.
+   
+   La única marca del nonio que coincide con la marca de la regla es el
+   cero.
+   
 
 .. figure:: mecan/_images/mecan-calibre-0099nr.png
    :width: 640px
@@ -108,6 +159,11 @@ escala principal.
    :align: center
 
    Medición de una distancia de 9,9 milímetros.
+   
+   La marca del cero pasa de 9 milímetros y no llega a 10 milímetros
+   en la regla superior.
+   
+   La marca del 9 del nonio coincide con la marca de la regla superior.
 
 
 Calibre virtual

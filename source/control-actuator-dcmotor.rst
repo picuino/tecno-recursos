@@ -1,4 +1,6 @@
-﻿:orphan:
+﻿:modified: 2026-06-13
+
+:orphan:
 
 
 .. file:///D:/Picuino/web-server/Backup/Old_content/sites_picuino/sites.google.com/site/picuino/motor_equivalent_model.html
