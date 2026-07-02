@@ -16,17 +16,17 @@
   <div role="contentinfo">
     <p class="content-info">{% trans %}Recursos de Tecnología para el aula, libres para usar y compartir{% endtrans %}</p>
     <ul class="link-list">
-    <li><a href="{{ pathto('docentes') }}" target="_blank">{% trans %}¿Eres docente?{% endtrans %}</a></li>
-    <li><a href="{{ pathto('contacto') }}" target="_blank">{% trans %}Contacto{% endtrans %}</a></li>
-    <li><a href="{{ pathto('about') }}" target="_blank">{% trans %}Sobre Picuino{% endtrans %}</a></li>
-    <li><a href="{{ pathto('author') }}" target="_blank">{% trans %}Autor{% endtrans %}</a></li>
+    <li><a class="reference internal" href="{{ pathto('docentes') }}" target="_blank">{% trans %}¿Eres docente?{% endtrans %}</a></li>
+    <li><a class="reference internal" href="{{ pathto('contacto') }}" target="_blank">{% trans %}Contacto{% endtrans %}</a></li>
+    <li><a class="reference internal" href="{{ pathto('about') }}" target="_blank">{% trans %}Sobre Picuino{% endtrans %}</a></li>
+    <li><a class="reference internal" href="{{ pathto('author') }}" target="_blank">{% trans %}Autor{% endtrans %}</a></li>
     </ul>
     <ul class="link-list">
-    <li><a href="{{ pathto('../es/legal-aviso') }}" target="_blank">{% trans %}Aviso legal{% endtrans %}</a></li>
-    <li><a href="{{ pathto('legal-cookies') }}" target="_blank">{% trans %}Política de Cookies{% endtrans %}</a></li>
-    <li><a href="{{ pathto('legal-attribution') }}" target="_blank">{% trans %}Créditos{% endtrans %}</a></li>
-    <li><a href="{{ pathto('genindex') }}" target="_blank">{% trans %}Glosario{% endtrans %}</a></li>
-    <li><a href="{{ pathto('content') }}" target="_blank">{% trans %}Índice{% endtrans %}</a></li>
+    <li><a class="reference internal" href="{{ pathto('../es/legal-aviso') }}" target="_blank">{% trans %}Aviso legal{% endtrans %}</a></li>
+    <li><a class="reference internal" href="{{ pathto('legal-cookies') }}" target="_blank">{% trans %}Política de Cookies{% endtrans %}</a></li>
+    <li><a class="reference internal" href="{{ pathto('legal-attribution') }}" target="_blank">{% trans %}Créditos{% endtrans %}</a></li>
+    <li><a class="reference internal" href="{{ pathto('genindex') }}" target="_blank">{% trans %}Glosario{% endtrans %}</a></li>
+    <li><a class="reference internal" href="{{ pathto('content') }}" target="_blank">{% trans %}Índice{% endtrans %}</a></li>
     </ul>
     <p class="content-info">
     {%- if show_copyright %}
@@ -34,15 +34,15 @@
       <br>
     {%- endif %}
 
-      {% trans %}A menos que se indique lo contrario, los contenidos están bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">Creative Commons BY-SA 4.0</a>{% endtrans %}
-      {% trans %}y el software bajo licencia <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3</a>.{% endtrans %}
+      {% trans %}A menos que se indique lo contrario, los contenidos están bajo licencia <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">Creative Commons BY-SA 4.0</a>{% endtrans %}
+      {% trans %}y el software bajo licencia <a class="reference external" href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3</a>.{% endtrans %}
       <br>
 
     {%- if build_id and build_url %}
       {% trans build_url=build_url, build_id=build_id %}
         <span class="build">
           Build
-          <a href="{{ build_url }}" target="_blank">{{ build_id }}</a>.
+          <a class="reference internal" href="{{ build_url }}" target="_blank">{{ build_id }}</a>.
         </span>
       {% endtrans %}
     {%- elif commit %}
@@ -61,7 +61,7 @@
   </div>
 
   {%- if show_sphinx %}
-  {% trans %}Built with <a href="http://sphinx-doc.org/" target="_blank">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org" target="_blank">Read the Docs</a>{% endtrans %}.
+  {% trans %}Built with <a class="reference external" href="http://sphinx-doc.org/" target="_blank">Sphinx</a> using a <a class="reference external" href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a class="reference external" href="https://readthedocs.org" target="_blank">Read the Docs</a>{% endtrans %}.
   {%- endif %}
 
   {%- block extrafooter %} {% endblock %}

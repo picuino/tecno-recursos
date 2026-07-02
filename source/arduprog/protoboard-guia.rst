@@ -13,6 +13,10 @@ Estupenda guía en PDF con 27 lecciones y prácticas de Arduino,
 creada por el profesor **Francisco Trigueros**
 para programar con bloques y con código diversos sensores y actuadores.
 
+Puedes encontrar la guía en formato web en la página de 
+`Tecno Proyectos <https://tecnoproyectos.github.io/arduino-ft/index.html>`__
+
+
 **Índice:**
 
 PRIMERAS LECCIONES Y PRÁCTICAS CON ARDUINO

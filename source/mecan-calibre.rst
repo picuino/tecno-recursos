@@ -61,7 +61,6 @@ En las siguientes imágenes se puede ver cómo se toman medidas de
 exterior, interior y profundidad de una pieza.
 
 Medición de dimensiones externas
-
   * Abre las **mordazas para medir exteriores (1)** y coloca el objeto
     entre ellas.
   * Desliza las mordazas para cerrarlas hasta que toquen el objeto, 
@@ -80,7 +79,6 @@ Medición de dimensiones externas
 
 
 Medición de dimensiones internas
-
   * Cierra las **mordazas para medir interiores (2)** y coloca 
     las mordazas dentro del hueco o agujero a medir.
   * Desliza las mordazas para abrirlas hasta que toquen el objeto,
@@ -100,7 +98,6 @@ Medición de dimensiones internas
 
 
 Medición de profundidad
-
   * Cierra el calibre y coloca la parte trasera en el hueco a medir,
     tal y como muestra la siguiente figura.
   * Desliza la varilla hacia afuera hasta que toque el fondo del objeto,

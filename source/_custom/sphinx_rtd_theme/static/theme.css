@@ -1007,9 +1007,10 @@ input[type="radio"][disabled],input[type="checkbox"][disabled]{cursor:not-allowe
 .wy-table-responsive{margin-bottom:24px;max-width:100%;overflow:auto}
 .wy-table-responsive table{margin-bottom:0 !important}
 .wy-table-responsive table td,.wy-table-responsive table th{}
-a{color:#2980B9;text-decoration:none;cursor:pointer}
-a:hover{color:#3091d1}
-a:visited{color:#9B59B6}
+a:link{color:#1F618D;text-decoration:none;}
+a:hover{color:#154360;}
+a:visited{color:#8E44AD;}
+a:active{color:#154360;}
 html{height:100%;overflow-x:hidden}
 body{font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;font-weight:normal;color:#404040;min-height:100%;overflow-x:hidden;background:#edf0f2}
 .wy-text-left{text-align:left}
@@ -1211,7 +1212,9 @@ footer span.commit code,footer span.commit .rst-content tt,.rst-content footer s
 .rst-content div.figure.align-center{text-align:center}
 .rst-content .section>img,.rst-content .section>a>img{margin-bottom:24px}
 .rst-content abbr[title]{text-decoration:none}
-.rst-content.style-external-links a.reference.external:after{font-family:FontAwesome;content:"";color:#b3b3b3;vertical-align:super;font-size:60%;margin:0 .2em}
+.rst-content.style-external-links a.reference.external:after{font-family:FontAwesome;content:"";color:#b3b3b3;vertical-align:super;font-size:60%;margin:0 .2em;}
+.rst-content a.reference.external, .rst-content a.reference.internal
+{text-decoration:underline;text-decoration-color: rgba(64,64,64,0.3);}
 .rst-content blockquote{margin-left:24px;line-height:24px;margin-bottom:24px}
 .rst-content pre.literal-block{white-space:pre;margin:0;padding:12px 12px;font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",Courier,monospace;display:block;overflow:auto}
 .rst-content pre.literal-block,.rst-content div[class^='highlight']{border:1px solid #e1e4e5;overflow-x:auto;margin:1px 0 24px 0}
