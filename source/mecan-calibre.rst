@@ -1,5 +1,5 @@
 ﻿:date: 2022-12-01
-:modified: 2026-06-15
+:modified: 2026-07-03
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -55,20 +55,22 @@ Un calibre está compuesto de las siguientes partes:
 
    Corredera de un calibre moviéndose sobre la regla.
 
-Medición con el calibre
------------------------
+Cómo medir con el calibre
+-------------------------
 En las siguientes imágenes se puede ver cómo se toman medidas de
-exterior, interior y profundidad de una pieza.
+exterior, interior y profundidad de una pieza con el calibre o pie de rey.
 
 Medición de dimensiones externas
-  * Abre las **mordazas para medir exteriores (1)** y coloca el objeto
-    entre ellas.
-  * Desliza las mordazas para cerrarlas hasta que toquen el objeto, 
-    sin aplicar fuerza excesiva.
-  * Lee la escala principal (la marca antes del cero del nonio).
-  * Lee la escala del nonio (el número que coincida con una línea
-    de la escala principal).
-  * Suma ambas lecturas para obtener el valor final.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Abre las **mordazas para medir exteriores (1)** y coloca el objeto
+  entre ellas.
+* Desliza las mordazas para cerrarlas hasta que toquen el objeto, 
+  sin aplicar fuerza excesiva.
+* Lee la escala principal (la marca antes del cero del nonio).
+* Lee la escala del nonio (el número que coincida con una línea
+  de la escala principal).
+* Suma ambas lecturas para obtener el valor final.
 
 .. figure:: mecan/_images/mecan-calibre-medidas-01.png
    :width: 800px
@@ -79,14 +81,16 @@ Medición de dimensiones externas
 
 
 Medición de dimensiones internas
-  * Cierra las **mordazas para medir interiores (2)** y coloca 
-    las mordazas dentro del hueco o agujero a medir.
-  * Desliza las mordazas para abrirlas hasta que toquen el objeto,
-    sin aplicar fuerza excesiva.
-  * Lee la escala principal (la marca antes del cero del nonio).
-  * Lee la escala del nonio (el número que coincida con una línea
-    de la escala principal).
-  * Suma ambas lecturas para obtener el valor final.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Cierra las **mordazas para medir interiores (2)** y coloca 
+  las mordazas dentro del hueco o agujero a medir.
+* Desliza las mordazas para abrirlas hasta que toquen el objeto,
+  sin aplicar fuerza excesiva.
+* Lee la escala principal (la marca antes del cero del nonio).
+* Lee la escala del nonio (el número que coincida con una línea
+  de la escala principal).
+* Suma ambas lecturas para obtener el valor final.
 
 
 .. figure:: mecan/_images/mecan-calibre-medidas-02.png
@@ -98,14 +102,16 @@ Medición de dimensiones internas
 
 
 Medición de profundidad
-  * Cierra el calibre y coloca la parte trasera en el hueco a medir,
-    tal y como muestra la siguiente figura.
-  * Desliza la varilla hacia afuera hasta que toque el fondo del objeto,
-    sin aplicar fuerza excesiva.
-  * Lee la escala principal (la marca antes del cero del nonio).
-  * Lee la escala del nonio (el número que coincida con una línea
-    de la escala principal).
-  * Suma ambas lecturas para obtener el valor final.
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* Cierra el calibre y coloca la parte trasera en el hueco a medir,
+  tal y como muestra la siguiente figura.
+* Desliza la varilla hacia afuera hasta que toque el fondo del objeto,
+  sin aplicar fuerza excesiva.
+* Lee la escala principal (la marca antes del cero del nonio).
+* Lee la escala del nonio (el número que coincida con una línea
+  de la escala principal).
+* Suma ambas lecturas para obtener el valor final.
 
 .. figure:: mecan/_images/mecan-calibre-medidas-03.png
    :width: 800px

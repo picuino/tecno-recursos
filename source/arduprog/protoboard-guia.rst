@@ -9,51 +9,44 @@
 
 Guía de Arduino
 ===============
-Estupenda guía en PDF con 27 lecciones y prácticas de Arduino,
-creada por el profesor **Francisco Trigueros**
-para programar con bloques y con código diversos sensores y actuadores.
+Estupenda guía en PDF y en formato web con 27 lecciones y prácticas de
+Arduino, creada por el profesor **Francisco Trigueros** para programar
+con bloques y con código en formato texto diversos sensores y actuadores.
 
 Puedes encontrar la guía en formato web en la página de 
-`Tecno Proyectos <https://tecnoproyectos.github.io/arduino-ft/index.html>`__
+`Tecno Proyectos <https://tecnoproyectos.github.io/arduino-ft/>`__
 
 
-**Índice:**
+Índice de la guía:
+------------------
 
-PRIMERAS LECCIONES Y PRÁCTICAS CON ARDUINO
-
-   1. Primeros pasos con Arduino.
-   2. Protoboard y conexión de componentes.
-   3. Variables.
-   4. Repeticiones con el bucle for( ).
-   5. Graduar la intensidad de luz de un LED. Salidas PWM.
-   6. Comunicación serial. Recibiendo información de Arduino.
-   7. Comunicación serial. Enviando información a Arduino.
-   8. Entradas digitales. Pulsadores. OR, AND, if, else.
-   9. Entradas analógicas. Sensores de luz con LDR.
-   10. Servomotores.
-   11. Potenciómetro. Función map().
-
-PROGRAMACIÓN C++ (PROFUNDIZACIÓN)
-
-   12. Tipos de variables más usados.
-   13. Variables para frases y caracteres.
-   14. Variables globales y variables locales.
-   15. Leer enteros, decimales y texto en el monitor serie.
-   16. Formas de declarar una constante.
-
-MÁS SENSORES Y ACTUADORES PARA PROYECTOS
-
-   17. Sensor ultrasónico de distancia HC-SR04
-   18. Pantalla LCD1602 I2C
-   19. Sensor de temperatura y humedad DHT11
-   20. Sensor infrarrojo pasivo HC-SR501. Detector movimiento
-   21. Relé.
-   22. Tira de LEDs NeoPixel WS2812B.
-   23. Sensores de sonido (de señal digital y de señal analógica).
-   24. Distintas formas de alimentar Arduino.
-   25. Controlador de Motores DC L298N.
-   26. Motores de corriente continua.
-   27. Bluetooth. Módulo HC-05.
+#. `Primeros pasos con Arduino <https://tecnoproyectos.github.io/arduino-ft/primeros-pasos.html>`__
+#. `Protoboard y conexión de componentes <https://tecnoproyectos.github.io/arduino-ft/protoboard.html>`__
+#. `Variables <https://tecnoproyectos.github.io/arduino-ft/variables.html>`__
+#. `Bucle for() <https://tecnoproyectos.github.io/arduino-ft/bucle-for.html>`__
+#. `Salidas PWM <https://tecnoproyectos.github.io/arduino-ft/salidas-pwm.html>`__
+#. `Comunicación serie I <https://tecnoproyectos.github.io/arduino-ft/serial-recibir.html>`__
+#. `Comunicación serie II <https://tecnoproyectos.github.io/arduino-ft/serial-enviar.html>`__
+#. `Entradas digitales <https://tecnoproyectos.github.io/arduino-ft/entradas-digitales.html>`__
+#. `Entradas analógicas <https://tecnoproyectos.github.io/arduino-ft/entradas-analogicas.html>`__
+#. `Servomotores <https://tecnoproyectos.github.io/arduino-ft/servomotores.html>`__
+#. `Potenciómetro <https://tecnoproyectos.github.io/arduino-ft/potenciometro.html>`__
+#. `Tipos de variables <https://tecnoproyectos.github.io/arduino-ft/variables-tipos.html>`__
+#. `Variables de texto <https://tecnoproyectos.github.io/arduino-ft/variables-texto.html>`__
+#. `Ámbitos de variables <https://tecnoproyectos.github.io/arduino-ft/variables-ambitos.html>`__
+#. `Leer variables <https://tecnoproyectos.github.io/arduino-ft/variables-leer.html>`__
+#. `Constantes <https://tecnoproyectos.github.io/arduino-ft/constantes.html>`__
+#. `Sensor ultrasónico <https://tecnoproyectos.github.io/arduino-ft/sensor-ultrasonico.html>`__
+#. `Pantalla LCD1602 <https://tecnoproyectos.github.io/arduino-ft/pantalla-lcd.html>`__
+#. `Sensor DHT11 <https://tecnoproyectos.github.io/arduino-ft/sensor-dht11.html>`__
+#. Sensor infrarrojo pasivo HC-SR501. Detector movimiento
+#. Relé.
+#. Tira de LEDs NeoPixel WS2812B.
+#. Sensores de sonido (de señal digital y de señal analógica).
+#. Distintas formas de alimentar Arduino.
+#. Controlador de Motores DC L298N.
+#. Motores de corriente continua.
+#. Bluetooth. Módulo HC-05.
 
 
 `Curso de Arduino con lecciones y prácticas. Formato PDF.
@@ -65,5 +58,5 @@ MÁS SENSORES Y ACTUADORES PARA PROYECTOS
 
 .. admonition:: Autor
 
-   Los contenidos de esta página han sido creados por 
+   Los contenidos de esta guía han sido creados por 
    el profesor **Francisco Trigueros**.

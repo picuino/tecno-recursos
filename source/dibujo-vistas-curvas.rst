@@ -1,0 +1,37 @@
+﻿:date: 2018-12-10
+:modified: 2026-08-15
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
+
+
+.. _dibujo-vistas-curvas:
+
+Ejercicios con curvas
+=====================
+Ejercicios de obtención de vistas a partir de figuras
+en perspectiva isométrica con curvas.
+
+.. image:: dibujo/_thumbs/dibujo-persp-der-05.png
+   :width: 240px
+   :align: center
+
+|  :download:`Alzado derecho. Formato PDF.
+   <dibujo/dibujo-vistas-der-05.pdf>`
+|  :download:`Alzado derecho. Imágenes en formato PNG.
+   <dibujo/dibujo-vistas-der-05-images.zip>`
+|  :download:`Alzado derecho. Formato editable SVG.
+   <dibujo/dibujo-vistas-der-05.svg>`
+
+
+.. image:: dibujo/_thumbs/dibujo-persp-izq-05.png
+   :width: 240px
+   :align: center
+
+|  :download:`Alzado izquierdo. Formato PDF.
+   <dibujo/dibujo-vistas-izq-05.pdf>`
+|  :download:`Alzado izquierdo. Imágenes en formato PNG.
+   <dibujo/dibujo-vistas-izq-05-images.zip>`
+|  :download:`Alzado izquierdo. Formato editable SVG.
+   <dibujo/dibujo-vistas-izq-05.svg>`
+
