@@ -21,7 +21,7 @@ que observemos la pieza.
 
 Ejemplos
 --------
-En los siguientes ejemplos se pueden ver, en tono gris, las diferentes
+En los siguientes ejemplos se pueden ver, en **tono rojo**, las diferentes
 caras de la pieza en tres dimensiones que se observan desde la dirección
 del perfil.
 

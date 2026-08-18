@@ -9,7 +9,7 @@ THUMBDIR=_thumbs
 STATICDIR=../../_static
 
 JOINPDF=gswin32.exe -dNOPAUSE -q -sDEVICE=pdfwrite
-PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -r 600 -aa yes -aaVector yes -freetype yes
 OPTIPNG=optipng -quiet -o 6
 CONVERT=convert
 MOGRIFY=mogrify
@@ -22,7 +22,7 @@ ZIP=7z a -x!*bak*
 define pdf_page_to_png
 	$(PDFTOPNG) $(1).pdf $(IMGDIR)/$(1)
 	mv -f $(IMGDIR)/$(1)-000001.png  $(IMGDIR)/$(1).png
-	$(MOGRIFY) -colorspace GRAY -posterize 16 $(IMGDIR)/$(1).png
+	$(MOGRIFY) -posterize 16 $(IMGDIR)/$(1).png
 	$(OPTIPNG) $(IMGDIR)/$(1).png
 endef
 

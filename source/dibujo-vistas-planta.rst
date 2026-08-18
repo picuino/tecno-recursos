@@ -22,9 +22,10 @@ alejada del alzado.
 
 Ejemplos
 --------
-En los siguientes ejemplos se pueden ver, en tono gris, las diferentes
+En los siguientes ejemplos se pueden ver, en **tono rojo**, las diferentes
 caras de la pieza en tres dimensiones que se observan desde la dirección
 de la planta.
+
 También están representadas las aristas que forman la planta.
 Estas son las líneas que debemos dibujar en la vista.
 

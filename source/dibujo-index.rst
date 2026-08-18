@@ -22,7 +22,7 @@ Dibujo a mano alzada y con ordenador.
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
 
    dibujo-intro.rst
