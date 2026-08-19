@@ -1,17 +1,14 @@
 ﻿:date: 2018-12-10
-:modified: 2026-06-13
+:modified: 2026-08-19
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 :tocdepth: 1
 
-.. _dibujo-boceto-croquis:
+.. _dibujo-isometrica-bocetos:
 
-Bocetos y Croquis
-=================
-
-Bocetos en perspectiva
-----------------------
+Bocetos en isométrica
+=====================
 
 .. image:: dibujo/_thumbs/dibujo-boceto-01.png
    :width: 240px
@@ -49,6 +46,10 @@ Plantilla isométrica
 --------------------
 Plantilla para realizar dibujos y croquis en perspectiva isométrica.
 
+.. image:: dibujo/_images/dibujo-plantilla-isometrica-tb.png
+   :align: center
+   :width: 240px
+   
 | :download:`Plantilla isométrica. Formato PDF.
   <dibujo/dibujo-plantilla-isometrica.pdf>`
 | :download:`Plantilla isométrica. Formato editable SVG.

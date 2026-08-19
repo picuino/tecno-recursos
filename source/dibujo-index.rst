@@ -26,7 +26,6 @@ Dibujo a mano alzada y con ordenador.
    :titlesonly:
 
    dibujo-intro.rst
-   dibujo-boceto-croquis.rst
    dibujo-vistas.rst
    dibujo-isometrica.rst
    dibujo-escalas.rst
