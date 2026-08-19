@@ -179,6 +179,12 @@ teselas encajen.
    <taller/taller-tesela-pez-curvo-3d.stl>`
 
 
+.. figure:: taller/_images/taller-tesela-peces-curvos-3d-tb.jpg
+   :alt: Teselado de peces curvos impreso en 3D.
+   :align: center
+   :width: 400px
+
+
 Tesela pájaro
 -------------
 Esta tesela está basada en un **rectángulo inclinado o romboide**.
