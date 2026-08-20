@@ -6,29 +6,13 @@
 :tocdepth: 1
 
 
-.. _dibujo-isometrica-pieza-01:
+.. _dibujo-isometrica-pieza-02:
 
-Pieza 1 en isométrica
+Pieza 2 en isométrica
 =====================
-A la hora de dibujar una pieza en perspectiva, partiremos de sus
-vistas: alzado, perfil y planta.
-
-También dispondremos de una plantilla isométrica, de tamaño adecuado,
-con una flecha que indica la dirección del alzado.
-Esto supondrá una gran ayuda a la hora de encuadrar el dibujo en
-perspectiva.
-
-.. image:: dibujo/_images/dibujo-isometrica-pieza-01-f1.png
-   :width: 360px
-   :align: center
-
-Las tres vistas contienen las tres dimensiones de la pieza, pero repartidas entre ellas:
-
-* **Alzado**: anchura y altura.
-* **Planta**: anchura y profundidad.
-* **Perfil**: profundidad y altura.
-
-Para dibujar la pieza en perspectiva tenemos que combinar la información de las tres vistas.
+Esta pieza es un poco más compleja que la anterior, pero seguiremos el
+mismo procedimiento, combinando la información de las vistas para
+dibujar la pieza en perspectiva isométrica.
 
 
 Dibujar el alzado y el perfil
@@ -42,7 +26,7 @@ representan mediante tres direcciones diferentes.
 La altura se representa mediante líneas verticales, mientras que la
 anchura y la profundidad se representan mediante líneas inclinadas.
 
-.. image:: dibujo/_images/dibujo-isometrica-pieza-01-f2.png
+.. image:: dibujo/_images/dibujo-isometrica-pieza-02-f1.png
    :width: 360px
    :align: center
 
@@ -53,16 +37,17 @@ Para realizar el siguiente paso, debemos fijarnos en las aristas que
 todavía no están en su posición correcta y desplazarlas hasta hacer
 coincidir las aristas correspondientes del perfil y del alzado.
 
-El perfil solo nos muestra la altura y la profundidad de la pieza.
-No podemos obtener de él la anchura, porque estamos mirando la pieza
-desde un lado. Por eso debemos utilizar el alzado para colocar el perfil
-en su posición correcta.
+Primero desplazamos el rectángulo superior del perfil y el cuadrado
+superior del alzado hasta que coincidan.
 
-Debemos mover el rectángulo superior del perfil hacia la derecha dos
-unidades, siguiendo la dirección de la plantilla isométrica, hasta que
-sus aristas coincidan con las aristas que se pueden ver en el alzado.
+.. image:: dibujo/_images/dibujo-isometrica-pieza-02-f2.png
+   :width: 360px
+   :align: center
 
-.. image:: dibujo/_images/dibujo-isometrica-pieza-01-f3.png
+Ahora realizaremos lo mismo con las aristas que se encuentran en la
+segunda fila del alzado y del perfil.
+
+.. image:: dibujo/_images/dibujo-isometrica-pieza-02-f3.png
    :width: 360px
    :align: center
 
@@ -80,7 +65,7 @@ Cuando las tres aristas son visibles, debemos dibujar las tres líneas.
 Estas tres líneas siguen siempre las tres direcciones de la perspectiva
 isométrica:
 
-.. image:: dibujo/_images/dibujo-isometrica-pieza-01-f4.png
+.. image:: dibujo/_images/dibujo-isometrica-pieza-02-f4.png
    :width: 360px
    :align: center
 
@@ -92,6 +77,6 @@ encuentren con otras aristas de la pieza.
 De esta forma, habremos terminado la representación de la pieza en
 perspectiva isométrica:
 
-.. image:: dibujo/_images/dibujo-isometrica-pieza-01-f5.png
+.. image:: dibujo/_images/dibujo-isometrica-pieza-02-f5.png
    :width: 360px
    :align: center

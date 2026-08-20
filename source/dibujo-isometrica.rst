@@ -29,5 +29,6 @@ medida para los tres ejes principales (x, y, z).
    :titlesonly:
 
    dibujo-isometrica-pieza-01.rst
+   dibujo-isometrica-pieza-02.rst
    dibujo-isometrica-ejercicios.rst
    dibujo-isometrica-bocetos.rst

@@ -71,12 +71,39 @@ clean-dibujo-vistas-perspectivas:
 	rm -f $(dibujo-isometrica-pieza-01-images)
 
 
+
+# --------------------------------------------------------------------
+# dibujo-isometrica-pieza-02
+#
+$(IMGDIR)/dibujo-isometrica-pieza-02.png: dibujo-isometrica-pieza-02.pdf
+	$(call pdf_page_to_png,$(basename $^))
+
+dibujo-isometrica-pieza-02-images=\
+	$(foreach f, f1 f2 f3 f4 f5 f6, $(IMGDIR)/dibujo-isometrica-pieza-02-$(f).png)
+
+$(dibujo-isometrica-pieza-02-images): $(IMGDIR)/dibujo-isometrica-pieza-02.png
+	$(call crop_lamina, $^, $(SIGN_DER))
+
+
+.PHONY: dibujo-isometrica-pieza-02  clean-dibujo-isometrica-pieza-02
+dibujo-isometrica-pieza-02: \
+	$(IMGDIR)/dibujo-isometrica-pieza-02.png \
+	$(dibujo-isometrica-pieza-02-images) \
+
+
+clean-dibujo-vistas-perspectivas:
+	rm -f $(IMGDIR)/dibujo-isometrica-pieza-02.png
+	rm -f $(dibujo-isometrica-pieza-02-images)
+
+
 # --------------------------------------------------------------------
 # make all
 #
 .PHONY: all  clean
 all: \
 	dibujo-isometrica-pieza-01 \
+	dibujo-isometrica-pieza-02 \
 
 clean: \
 	clean-dibujo-isometrica-pieza-01 \
+	clean-dibujo-isometrica-pieza-02 \
