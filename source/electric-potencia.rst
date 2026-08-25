@@ -148,7 +148,7 @@ conductor acelera.
 
 En el mercado se pueden encontrar con facilidad batidoras con motores
 de 1000 vatios.
-En realidad estas batidoras apenas gastarán 100 ó 200 vatios cuando estén
+En realidad estas batidoras apenas gastarán 100 o 200 vatios cuando estén
 batiendo un líquido o un puré.
 
 

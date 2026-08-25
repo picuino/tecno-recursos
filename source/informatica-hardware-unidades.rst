@@ -12,7 +12,7 @@ Unidades de medida de datos
 
 Medida de cantidad de información o capacidad de almacenamiento.
    * Bit. Es la unidad mínima de información y equivale a un dígito binario
-     que puede valer 0 ó 1.
+     que puede valer 0 o 1.
    * Byte. Es un conjunto de 8 bits. Puede contener un carácter y
      puede tomar valores entre 0 y 255.
    * Word. Una palabra puede tener un número variable de bits dependiendo

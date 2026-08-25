@@ -51,7 +51,7 @@ Las unidades utilizadas para medir frecuencia serán los **hercios**,
 o su símbolo **Hz**.
 
 Un hercio equivale a una oscilación por segundo. Otra unidad común es
-el kilohercio o kHz que equivale a 1000 Hz ó mil oscilaciones por
+el kilohercio o kHz que equivale a 1000 Hz o mil oscilaciones por
 segundo.
 
 Las unidades utilizadas para medir tiempo serán los **milisegundos**

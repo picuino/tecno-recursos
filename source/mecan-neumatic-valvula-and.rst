@@ -151,7 +151,7 @@ de simple efecto.
 
 En el circuito anterior el vástago del cilindro saldrá hacia fuera
 cuando se presione la válvula de la izquierda 1.1 y, a la vez,
-una de las dos válvulas de la derecha (la válvula 1.2 ó la 1.3).
+una de las dos válvulas de la derecha (la válvula 1.2 o la 1.3).
 
 ----
 

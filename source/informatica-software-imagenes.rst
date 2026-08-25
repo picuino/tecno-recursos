@@ -145,11 +145,11 @@ solo trabaja con 2 colores (blanco y negro).
 
 La profundidad de color en las imágenes JPEG estándar de cámara fotográfica
 es de 8 bits (256 niveles) para cada uno de los tres tonos RGB, con un
-resultado total de 24 bits ó 16 millones de colores distintos.
+resultado total de 24 bits o 16 millones de colores distintos.
 
 Por último las cámaras profesionales pueden tomar imágenes de tipo RAW con
 hasta 14 bits (16384 niveles) para cada uno de los tres tonos RGB, con un
-resultado total de 42 bits ó 4 billones de colores distintos.
+resultado total de 42 bits o 4 billones de colores distintos.
 En la práctica esta profundidad de color no se puede representar en papel
 ni nosotros somos capaces de apreciarla, pero permite trabajar con la
 imagen para editarla o 'revelarla' como nos convenga sin pérdidas de
@@ -209,7 +209,7 @@ Profundidad de color de 24 bits
       :align: center
 
 Profundidad de color de 36 a 48 bits
-   14 bits por cada tono RGB = 42 bits ó 4 billones de colores.
+   14 bits por cada tono RGB = 42 bits o 4 billones de colores.
 
    Los esquemas con mayor número de colores que el de 8 bits por cada tono
    RGB  no presentan diferencias apreciables para el ojo humano.
@@ -253,7 +253,7 @@ hasta completar la imagen.
       tono RGB) es reducida y por lo tanto no es una buena opción para
       editar fotografías.
       Para esa tarea es mucho mejor utilizar los formatos RAW
-      de cada cámara fotográfica que llegan a tener 36 ó 42 bits por pixel.
+      de cada cámara fotográfica que llegan a tener 36 o 42 bits por pixel.
 
       El formato JPEG no permite definir transparencias en la imagen por
       lo que tampoco es una buena opción para insertar imágenes recortadas.

@@ -16,7 +16,7 @@ para cambiar la contraseña por defecto de EducaMadrid.
 
 |br|
 
-#. Primero elegimos 3 ó 4 palabras divertidas, que no sean
+#. Primero elegimos 4 o 5 palabras divertidas, que no sean
    personales y que no tengan relación entre sí.
 
    Palabras de ejemplo: **gato**, **luna**, **pizza** y **cohete**.
@@ -109,6 +109,21 @@ para cambiar la contraseña por defecto de EducaMadrid.
    |br|
 
 
+Generador de contraseñas online
+-------------------------------
+Hay un método sencillo de generar frases de contraseña a partir de
+diccionarios de palabras escogidas tirando un dado cinco veces.
+
+Algunas páginas automatizan este método para que la generación de
+contraseñas sea más sencilla, como la 
+`página Rempe.us con diccionario español
+<https://diceware.rempe.us/#spanish>`__.
+
+Este método del dado, denominado diceware, se puede encontrar explicado
+con detalle en esta `página de mindden.com
+<https://www.mindden.com/metodo-contrasenas-seguras-a-prueba-de-hackeos/>`__.
+
+
 Lemario del español
 -------------------
 Esta es una utilidad que permite ver palabras aleatorias de un lemario
@@ -133,9 +148,11 @@ con cerca de 80000 palabras del idioma español.
       });
 
    function nueva_palabra() {
-      var indice = Math.floor(Math.random() * palabras.length);
+      var arrayAleatorio = new Uint32Array(1);
+      window.crypto.getRandomValues(arrayAleatorio);
+      var indice = arrayAleatorio[0] % palabras.length;
       document.getElementById("palabra_aleatoria").value = capitalize(palabras[indice]);
-      console.log('Palabra ', indice,' de ', palabras.length);
+      console.log('Palabra ', indice, ' de ', palabras.length);
    };
    
    function capitalize(word) {

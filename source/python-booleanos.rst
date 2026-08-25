@@ -107,7 +107,7 @@ evaluar como booleanas.
    * - a or b
      - Si 'a' es falso, devuelve 'a'. Si 'a' es verdadero, devuelve 'b'.
 
-       Es verdadero si 'a' ó 'b' son verdaderos.
+       Es verdadero si 'a' o 'b' son verdaderos.
    * - not a
      - Si 'a' es falso, devuelve verdadero (True).
 

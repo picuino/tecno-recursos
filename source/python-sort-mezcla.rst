@@ -23,7 +23,7 @@ El algoritmo de ordenación por mezcla se basa en dividir recursivamente
 la lista de datos a ordenar en dos sublistas de la mitad de tamaño
 cada una que la original, para poder ordenarlas con mayor facilidad.
 
-Cuando la lista es de tamaño 0 ó 1 ya estará ordenada.
+Cuando la lista es de tamaño 0 o 1 ya estará ordenada.
 
 Una vez ordenadas las dos sublistas, se aplica un algoritmo que mezcla
 las dos sublistas ordenadas en una sola lista ordenada de tamaño doble.

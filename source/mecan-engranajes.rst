@@ -159,7 +159,7 @@ Ejercicio automóvil eléctrico
 Un automóvil eléctrico tiene el motor conectado mediante un **engranaje
 reductor** a las ruedas. Sabemos que la velocidad máxima del motor es de
 9000rpm y que la velocidad máxima de las ruedas es de 1500rpm.
-Si el número de dientes del engranaje más pequeño debe ser de 8 ó más
+Si el número de dientes del engranaje más pequeño debe ser de 8 o más
 dientes ¿Cuantos dientes debe tener cada engranaje?
 
 Este ejercicio permite varias soluciones válidas porque no especifica

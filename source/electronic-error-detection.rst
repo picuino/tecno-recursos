@@ -70,7 +70,7 @@ Existen varias versiones:
 
 #. `Códigos de redundancia cíclica o CRC
    <https://es.wikipedia.org/wiki/Verificaci%C3%B3n_de_redundancia_c%C3%ADclica>`__.
-   Son códigos que suelen tener una longitud de 16 ó 32 bits y que son
+   Son códigos que suelen tener una longitud de 16 o 32 bits y que son
    capaces de detectar más errores que una simple suma.
    Como contrapartida, su cálculo es más complejo.
 

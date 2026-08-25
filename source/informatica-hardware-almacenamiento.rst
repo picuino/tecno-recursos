@@ -246,7 +246,7 @@ de almacenamiento.
          * Mayor resistencia a los golpes y a las vibraciones.
          * Menor tasa de fallos de los SSD al no tener partes móviles.
          * Menor consumo eléctrico.
-           4W ó 5W de un SSD a máximo rendimiento frente a
+           4W o 5W de un SSD a máximo rendimiento frente a
            6W a 10W de un HDD.
          * Menor tamaño físico.
          * Menor ruido generado.

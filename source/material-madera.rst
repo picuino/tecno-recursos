@@ -33,7 +33,7 @@ algunas propiedades comunes a todas ellas.
 **Resistencia mecánica de la madera**
    La resistencia mecánica varía mucho dependiendo de la orientación
    de la madera. En el sentido de las fibras, la madera es mucho más
-   resistente y aguanta alrededor de 1 ó 2 kg por milímetro cuadrado.
+   resistente y aguanta alrededor de 1 o 2 kg por milímetro cuadrado.
 
    En el sentido perpendicular a las fibras, la madera resiste poco
    y se separa con relativa facilidad.
