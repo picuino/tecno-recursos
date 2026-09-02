@@ -22,6 +22,19 @@ Cuestionarios de electricidad
 <../test/index.html#electricidad>`__
 
 
+Simulador de instalaciones eléctricas
+-------------------------------------
+Simulador de la web Área Tecnología, sobre 
+`Instalaciones eléctricas de baja tensión
+<https://www.areatecnologia.com/simulador-instalaciones-electricas.html>`__.
+
+.. image:: electric/_images/electric-simulador-instalaciones-electricas.png
+   :target: https://www.areatecnologia.com/simulador-instalaciones-electricas.html
+   :width: 480px
+   :align: center
+   
+
+
 Fritzing
 --------
 Fritzing es un programa libre (open-source) para Windows, Mac y Linux
@@ -39,16 +52,4 @@ Es el programa utilizado en esta página web para realizar la mayoría
 de los esquemas eléctricos que aparecen en las fichas de ejercicios.
 
 `Página oficial de KiCad <https://www.kicad.org/>`__
-
-
-Simuladores
------------
-
-* `Simulador de circuitos eléctricos y electrónicos online.
-  <../circuits/>`__
-
-  | Electronic Circuit Simulator in the Browser
-  | Creador: Paul Falstad con contribución de Iain Sharp entre otros.
-  | Licencia: GPL v2.0
-  | `GitHub <https://github.com/picuino/circuits>`__
 
