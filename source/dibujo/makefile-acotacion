@@ -1,0 +1,76 @@
+# HELP
+#   object: dependencies
+#   $@ object
+#   $^ dependencies
+#   $^ first element of dependencies list
+IMGDIR=_images
+
+PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+OPTIPNG=optipng -quiet -o 6
+CONVERT=convert
+MOGRIFY=mogrify
+
+
+# --------------------------------------------------------------------
+# macros
+#
+define pdf_page_to_png
+	$(PDFTOPNG) $(1).pdf $(IMGDIR)/$(1)
+	mv -f $(IMGDIR)/$(1)-000001.png  $(IMGDIR)/$(1).png
+    rm $(IMGDIR)/$(1)-000002.png 
+	$(MOGRIFY) -colorspace GRAY -posterize 16 $(IMGDIR)/$(1).png
+	$(OPTIPNG) $(IMGDIR)/$(1).png
+endef
+
+# crop_image,image.png,suffix,size,sign
+define crop_image
+	$(eval size=$(shell python3 -c "import sys; \
+	(x0,y0),(x1,y1)=eval(sys.argv[1]); \
+	print('%dx%d+%d+%d'%(abs(x0-x1),abs(y0-y1), \
+	min(x0,x1), min(y0,y1)));" $(3)))
+	$(CONVERT) $(1) -crop $(size) +repage $(4) $(basename $(1))-$(2).png
+	$(OPTIPNG) $(basename $(1))-$(2).png
+endef
+
+# crop_lamina, source, sign
+define crop_lamina
+	$(call crop_image,$(1),f1,"(( 203,  463), (1732, 2040))")
+	$(call crop_image,$(1),f2,"((1716,  463), (3246, 2040))")
+	$(call crop_image,$(1),f3,"((3229,  463), (4756, 2040))")
+
+	$(call crop_image,$(1),f4,"(( 203, 2022), (1732, 3600))")
+	$(call crop_image,$(1),f5,"((1716, 2022), (3246, 3600))")
+	$(call crop_image,$(1),f6,"((3229, 2022), (4756, 3600))")
+
+	$(call crop_image,$(1),f7,"(( 203, 3580), (1732, 5158))")
+	$(call crop_image,$(1),f8,"((1716, 3580), (3246, 5158))")
+	$(call crop_image,$(1),f9,"((3229, 3580), (4756, 5158))")
+
+	$(call crop_image,$(1),f10,"(( 203, 5140), (1732, 6717))")
+	$(call crop_image,$(1),f11,"((1716, 5140), (3246, 6717))")
+	$(call crop_image,$(1),f12,"((3229, 5140), (4756, 6717))")
+endef
+
+
+
+# --------------------------------------------------------------------
+# dibujo-acotacion-01
+#
+$(IMGDIR)/dibujo-acotacion-01.png: dibujo-acotacion-01.pdf
+	$(call pdf_page_to_png,$(basename $^))
+
+dibujo-acotacion-01-images=\
+	$(foreach f, f1 f2 f3 f4 f5 f6, $(IMGDIR)/dibujo-acotacion-01-$(f).png)
+
+$(dibujo-acotacion-01-images): $(IMGDIR)/dibujo-acotacion-01.png
+	$(call crop_lamina, $^)
+
+
+.PHONY: all  clean
+all: \
+	$(IMGDIR)/dibujo-acotacion-01.png \
+	$(dibujo-acotacion-01-images) \
+
+clean:
+	rm -f $(IMGDIR)/dibujo-acotacion-01.png
+	rm -f $(dibujo-acotacion-01-images)

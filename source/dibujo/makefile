@@ -2,6 +2,7 @@
 .PHONY: all clean
 
 all:
+	make all --no-print-directory -f makefile-acotacion
 	make all --no-print-directory -f makefile-isometrica-piezas
 	make all --no-print-directory -f makefile-alzado-perfil-planta
 	make all --no-print-directory -f makefile-vistas
@@ -10,6 +11,7 @@ all:
 	make all --no-print-directory -f makefile-design
 
 clean:
+	make clean --no-print-directory -f makefile-acotacion
 	make clean --no-print-directory -f makefile-isometrica-piezas
 	make clean --no-print-directory -f makefile-alzado-perfil-planta
 	make clean --no-print-directory -f makefile-vistas
