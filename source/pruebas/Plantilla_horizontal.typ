@@ -1,6 +1,3 @@
-//
-// CONFIGURACIÓN DE PÁGINA
-//
 #set page(
   paper: "a4",
   margin: ( top: 16mm, bottom: 2mm, left: 15mm, right: 15mm )
