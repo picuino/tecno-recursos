@@ -159,7 +159,7 @@ Secundaria, basadas en los recursos de esta web.
 
 3ºESO Componentes eléctricos
 ----------------------------
-:download:`Prueba de 3ºESO Circuito eléctrico.
+:download:`Prueba de 3ºESO Componentes eléctricos.
 <pruebas/3ESO_TEDI_Componentes_electricos.pdf>`
 
 .. image:: pruebas/_html/3ESO_TEDI_Componentes_electricos-1.png
@@ -220,7 +220,7 @@ Secundaria, basadas en los recursos de esta web.
    :width: 240px
 
 * :ref:`Resistencia eléctrica <electric-simulador-resistencia>` (1 sesión)
-* :ref:`Potencia eléctrica <electric-simulador-serie>` (1 sesión)
+* :ref:`Potencia eléctrica <electric-simulador-potencia>` (1 sesión)
 * :ref:`Ley de Ohm <electric-simulador-leyohm>` (1 sesión)
 * :ref:`Tensión alterna <electric-simulador-alterna>` (1 sesión)
 * :ref:`El condensador <electric-simulador-condensador>` (1 sesión)
