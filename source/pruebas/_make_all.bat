@@ -1,4 +1,4 @@
 @echo off
-set PATH=%PATH%;\Bin\typst
+set PATH=\Bin\typst;\Bin\GnuWin;\Bin\ImageMagick;\Bin\ImageTools;\Bin\xpdf;%PATH%
 make all
 pause

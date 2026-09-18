@@ -26,7 +26,7 @@
 
 #cabecera(
   [2º ESO Tecnología y Digitalización],
-  [Materiales pétreos]
+  [Materiales metálicos]
 )
 
 

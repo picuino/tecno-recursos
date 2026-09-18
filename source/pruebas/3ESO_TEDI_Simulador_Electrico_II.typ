@@ -114,7 +114,7 @@ principales parámetros.], 0.5)
 
 
 #pregunta([¿Qué es la tensión eficaz de un generador de tensión alterna y
-cómo se calcula a partir de la tensión de pico?(], 0.5)
+cómo se calcula a partir de la tensión de pico?], 0.5)
 #v(40mm)
 
 
