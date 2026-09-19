@@ -33,8 +33,6 @@ la más habitual.
 
 | :download:`Problemas de código de colores y ley de Ohm.
   Formato PDF. <electronic/resistencias-colores/electronic-codigo-colores.pdf>`
-| :download:`Problemas de código de colores y ley de Ohm.
-  Formato Word. <electronic/resistencias-colores/electronic-codigo-colores.doc>`
 
 
 Tabla del código de colores

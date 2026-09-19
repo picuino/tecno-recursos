@@ -1,19 +1,29 @@
-
-SVGFILES = $(wildcard electric-resistencia-*.svg)
+SVGFILES = $(wildcard electronic-resistencia-*.svg)
 PNGFILES = $(foreach f, $(SVGFILES), $(basename $f).png)
 
 %.png: %.svg
-	convert.exe -density 150 $< -transparent White $@
+	magick convert $< -density 150 -transparent White $@
 	optipng -quiet -o 6  $@
+
+%.pdf: %.typ
+	typst compile $< $@
+
+electronic-resistencia-1_0.svg: make-resistors.py
+	\Bin\Python314\python make-resistors.py
+
 
 # --------------------------------------------------------------------
 # ALL FILES
 #
 .PHONY: all clean
+
 all: \
-	$(PNGFILES)
-	python3 make-resistors.py
+	electronic-codigo-colores.pdf \
+	electronic-color-coding.pdf \
+	$(PNGFILES) \
+	electronic-resistencia-1_0.svg
 
 clean:
-	rm -f *.png
-	rm -f electric-resistencia-*.svg
+	rm -f electronic-codigo-colores.pdf  electronic-color-coding.pdf
+	rm -f electronic-resistencia-*.png
+	rm -f electronic-resistencia-*.svg

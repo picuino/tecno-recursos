@@ -12,5 +12,7 @@ set PATH=\Bin\7-Zip;%PATH%
 set PATH=\Bin\imagetools;%PATH%
 set PATH=\Bin\xpdf;%PATH%
 set PATH=\Bin\miktex\miktex\bin\x64;%PATH%
+set PATH=\Bin\Typst;%PATH%
+
 
 bash.exe %1 %2 %3 %4 %5

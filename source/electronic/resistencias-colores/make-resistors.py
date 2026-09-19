@@ -35,16 +35,16 @@ def multiplicador(valor):
 
 
 def filename(valor):
-    basename = 'electric-resistencia-'
+    basename = 'electronic-resistencia-'
     if valor < 10:
-        return basename + re.sub('\.', '_', str(valor)) + '.svg'
+        return basename + re.sub('\\.', '_', str(valor)) + '.svg'
     return basename + str(valor) + '.svg'
 
     if valor < 100000:
         return basename + str(valor/1000)[:2] + 'k.svg'
     if valor < 1000000:
         return basename + str(valor/1000)[:3] + 'k.svg'
-    return basename + re.sub('\.', '_', str(valor/1000000.0 + 0.05)[:3]) + 'M.svg'
+    return basename + re.sub('\\.', '_', str(valor/1000000.0 + 0.05)[:3]) + 'M.svg'
 
 
 def primera_franja(valor):
