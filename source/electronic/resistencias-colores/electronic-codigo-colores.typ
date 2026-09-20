@@ -158,7 +158,7 @@
     columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1.2fr),
     align: center + horizon,
     rows: (8.44mm,) + (8.44mm,) * datos-inicio.len(),
-    inset: 0.5mm,
+    inset: 0.6mm,
     fill: (x, y) => 
       if y == 0 { 
         rgb("e0e0e0") 
@@ -179,7 +179,7 @@
     columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1.2fr),
     align: center + horizon,
     rows: (8.44mm,) + (1fr,) * datos-fin.len(),
-    inset: 1mm,
+    inset: 0.6mm,
     fill: (x, y) => 
       if y == 0 { 
         rgb("e0e0e0") 
@@ -227,7 +227,7 @@
     columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1.2fr),
     align: center + horizon,
     rows: (8.44mm,) + (8.44mm,) * datos-inicio.len(),
-    inset: 0.5mm,
+    inset: 0.6mm,
     fill: (x, y) => 
       if y == 0 { 
         rgb("e0e0e0")
@@ -248,7 +248,7 @@
     columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1.2fr),
     align: center + horizon,
     rows: (8.44mm,) + (1fr,) * datos-fin.len(),
-    inset: 1mm,
+    inset: 0.6mm,
     fill: (x, y) => 
       if y == 0 { 
         rgb("e0e0e0")

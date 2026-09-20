@@ -224,3 +224,21 @@ Secundaria, basadas en los recursos de esta web.
 * :ref:`Ley de Ohm <electric-simulador-leyohm>` (1 sesión)
 * :ref:`Tensión alterna <electric-simulador-alterna>` (1 sesión)
 * :ref:`El condensador <electric-simulador-condensador>` (1 sesión)
+
+
+4ºESO Electrónica Analógica, el diodo
+-------------------------------------
+:download:`Prueba de 4ºESO Electrónica Analógica, el diodo.
+<pruebas/4ESO_TECNO_Electronica_Analogica_Diodo.pdf>`
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_Diodo-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_Diodo-2.png
+   :width: 240px
+
+* :ref:`El diodo <electronic-diodo>` (1 sesión)
+* :ref:`El diodo rectificador <electronic-diodo-rectificador>` (1 sesión)
+* :ref:`El diodo limitador <electronic-diodo-limitador>` (1 sesión)
+* :ref:`El diodo zener <electronic-diodo-zener>` (1 sesión)
+* :ref:`El diodo led <electronic-diodo-led>` (1 sesión)

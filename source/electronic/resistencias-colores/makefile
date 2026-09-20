@@ -11,6 +11,18 @@ PNGFILES = $(foreach f, $(SVGFILES), $(basename $f).png)
 electronic-resistencia-1_0.svg: make-resistors.py
 	\Bin\Python314\python make-resistors.py
 
+electronic-codigo-colores.png: electronic-codigo-colores.pdf
+	pdftopng -cfg /Bin/xpdf/.xpdfrc -r 72 -aa yes -aaVector yes -freetype yes $< $(basename $@)
+	mv $(basename $@)-000001.png $@
+	rm -f $(basename $@)-000002.png
+	optipng -o 6 $@
+
+electronic-codigo-colores.en.png: electronic-color-coding.pdf
+	pdftopng -cfg /Bin/xpdf/.xpdfrc -r 72 -aa yes -aaVector yes -freetype yes $< $(basename $@)
+	mv $(basename $@)-000001.png $@
+	rm -f $(basename $@)-000002.png
+	optipng -o 6 $@
+
 
 # --------------------------------------------------------------------
 # ALL FILES
@@ -19,7 +31,9 @@ electronic-resistencia-1_0.svg: make-resistors.py
 
 all: \
 	electronic-codigo-colores.pdf \
+	electronic-codigo-colores.png \
 	electronic-color-coding.pdf \
+	electronic-codigo-colores.en.png \
 	$(PNGFILES) \
 	electronic-resistencia-1_0.svg
 
