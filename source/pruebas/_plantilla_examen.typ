@@ -5,21 +5,23 @@
 #let num-pregunta = state("num-pregunta", 0)
 #let puntos-totales = state("puntos-totales", 0)
 
-#let pregunta(contenido, puntos) = {
+#let pregunta(contenido, puntos, sep: 0) = {
   num-pregunta.update(n => n + 1)
   puntos-totales.update(total => total + puntos)
   
-grid(
-  columns: (auto, 1fr),
-  gutter: 0.1cm,
-  align(left, [#context num-pregunta.get().]), [
-    #contenido
-    #h(1.5cm)
-    #box(width: 1fr)[ #align(right)[ (#str(puntos).replace(".", ",")~p.)] ]
-  ]
-)
-
-
+  grid(
+    columns: (auto, 1fr),
+    gutter: 0.1cm,
+    align(left, [#context num-pregunta.get().]), [
+      #contenido
+      #h(1.5cm)
+      #box(width: 1fr)[ #align(right)[ (#str(puntos).replace(".", ",")~p.)] ]
+    ]
+  )
+  
+  if (sep != 0) {
+    v(sep)
+  }
 }
 
 

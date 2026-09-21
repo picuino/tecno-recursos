@@ -6,8 +6,10 @@
 :orphan:
 :nosearch:
 
-.. _pruebas:
+.. sectnum::
+   :depth: 2
 
+   
 Pruebas escritas
 ================
 Listado de pruebas escritas para diversos cursos de la Enseñanza
@@ -242,3 +244,57 @@ Secundaria, basadas en los recursos de esta web.
 * :ref:`El diodo limitador <electronic-diodo-limitador>` (1 sesión)
 * :ref:`El diodo zener <electronic-diodo-zener>` (1 sesión)
 * :ref:`El diodo led <electronic-diodo-led>` (1 sesión)
+
+
+4ºESO Electrónica Analógica, el transistor
+------------------------------------------
+:download:`Prueba de 4ºESO Electrónica Analógica, el transistor.
+<pruebas/4ESO_TECNO_Electronica_Analogica_Transistor.pdf>`
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_Transistor-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_Transistor-2.png
+   :width: 240px
+
+* :ref:`El transistor <electronic-bjt>` (1 sesión)
+* :ref:`El transistor en emisor común <electronic-bjt-common-e>` (1 sesión)
+* :ref:`El transistor en colector común <electronic-bjt-common-c>` (1 sesión)
+* :ref:`El transistor en base común <electronic-bjt-common-b>` (1 sesión)
+
+
+4ºESO Electrónica Analógica, las etapas de transistores
+-------------------------------------------------------
+:download:`Prueba de 4ºESO Electrónica Analógica, las etapas de transistores.
+<pruebas/4ESO_TECNO_Electronica_Analogica_Etapas.pdf>`
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_Etapas-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_Etapas-2.png
+   :width: 240px
+
+* :ref:`El esquema Darlington <electronic-bjt-darlington>` (1 sesión)
+* :ref:`El esquema push-pull <electronic-bjt-pushpull>` (1 sesión)
+* :ref:`El par diferencial <electronic-bjt-diferencial>` (1 sesión)
+* :ref:`La fuente de corriente <electronic-bjt-current>` (1 sesión)
+* :ref:`El transistor mosfet <electronic-mosfet>` (1 sesión)
+
+
+4ºESO Electrónica Analógica, el Amplificador Operacional
+--------------------------------------------------------
+:download:`Prueba de 4ºESO Electrónica Analógica, Amplificador Operacional.
+<pruebas/4ESO_TECNO_Electronica_Analogica_AO.pdf>`
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_AO-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_AO-2.png
+   :width: 240px
+
+* :ref:`El amplificador operacional <electronic-operational>` (1 sesión)
+* :ref:`El amplificador seguidor <electronic-operational-follower>` (1 sesión)
+* :ref:`El amplificador inversor <electronic-operational-inverting>` (1 sesión)
+* :ref:`El amplificador sumador <electronic-operational-adder>` (1 sesión)
+* :ref:`El amplificador no inversor <electronic-operational-noninverting>` (1 sesión)
+
