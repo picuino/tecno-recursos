@@ -124,7 +124,7 @@
     [VIOLETA],  [7],   [],            [],
     [GRIS],     [8],   [],            [],
     [BLANCO],   [9],   [],            [],
-    [ORO],      [],    [x 0,1],       [#sym.plus.minus 5%],
+    [ORO],      [],    [x 0.1],       [#sym.plus.minus 5%],
   )
 ]
 

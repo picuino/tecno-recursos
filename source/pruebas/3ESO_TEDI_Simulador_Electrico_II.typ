@@ -157,15 +157,16 @@ cómo se calcula a partir de la tensión de pico?], 0.5)
 
 #pregunta([¿Qué es un condensador? ¿En qué se parece y en qué se
 diferencia de una pila recargable?], 0.5)
-#v(32mm)
+#v(6fr)
 
 
 #pregunta([Escribe tres aplicaciones prácticas de los condensadores.], 0.5)
-#v(48mm)
+#v(6fr)
 
 
 #pregunta([Dibuja un circuito con un condensador que suavice los picos de
 tensión de salida de un transformador.], 0.5)
+#v(6fr)
 
 ]
 

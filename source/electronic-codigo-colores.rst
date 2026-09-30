@@ -166,6 +166,9 @@ la más habitual.
 | :download:`Problemas de código de colores y ley de Ohm.
   Formato PDF. <electronic/resistencias-colores/electronic-codigo-colores.pdf>`
 
+| :download:`Problemas de formatos de numeración y cifras significativas.
+  Formato PDF. <electronic/formato-eng/electronic-formato-eng.pdf>`
+
 
 Cuestionarios
 -------------

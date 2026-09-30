@@ -174,3 +174,9 @@ Ampliación
    `charlieplexing
    <http://electrocirc.blogspot.com/2012/05/tecnica-charlieplexing-para-controlar.html>`__
    para encender múltiples ledes con pocas líneas de control.
+
+#. Aprende en el siguiente vídeo el difícil camino que llevó finalmente
+   al desarrollo del diodo led de color azul.
+   
+   Vídeo: `Por qué es casi imposible hacer luz LED azul.
+   <https://www.youtube.com/watch?v=KzTm5UmF0Xk>`__

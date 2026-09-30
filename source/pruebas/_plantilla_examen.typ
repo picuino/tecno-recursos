@@ -2,6 +2,16 @@
 // FUNCIONES PARA REALIZAR EXÁMENES
 //
 
+#let formato_num(num, decimal-sep: ",") = {
+  let s = str(num)
+  if not s.contains(".") {
+    s + decimal-sep + "0"
+  } else {
+    s.replace(".", decimal-sep)
+  }
+}
+
+
 #let num-pregunta = state("num-pregunta", 0)
 #let puntos-totales = state("puntos-totales", 0)
 
@@ -15,7 +25,7 @@
     align(left, [#context num-pregunta.get().]), [
       #contenido
       #h(1.5cm)
-      #box(width: 1fr)[ #align(right)[ (#str(puntos).replace(".", ",")~p.)] ]
+      #box(width: 1fr)[ #align(right)[ (#formato_num(puntos)~p.)] ]
     ]
   )
   

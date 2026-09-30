@@ -20,7 +20,7 @@ Recursos para actividades de taller.
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
 
    taller-seniales-seguridad.rst

@@ -9,16 +9,16 @@
 .. sectnum::
    :depth: 2
 
-   
-Pruebas escritas
-================
-Listado de pruebas escritas para diversos cursos de la Enseñanza
-Secundaria, basadas en los recursos de esta web.
-
 .. contents:: Índice de pruebas:
    :local:
    :depth: 2
 
+Pruebas 1ºESO
+=============
+
+
+Pruebas 2ºESO
+=============
 
 2ºESO Vistas y Perspectivas
 ---------------------------
@@ -126,6 +126,9 @@ Secundaria, basadas en los recursos de esta web.
 
 
 
+Pruebas 3ºESO
+=============
+
 3ºESO Vistas y Perspectivas
 ---------------------------
 :download:`Prueba de 3ºESO Vistas y Perspectivas.
@@ -191,6 +194,35 @@ Secundaria, basadas en los recursos de esta web.
 * :ref:`Calcular resistencias en serie y paralelo <electric-serie-paralelo-resistencias>` (1 sesión)
 
 
+3ºESO Cableados y resolución de circuitos
+-----------------------------------------
+:download:`Prueba de 3ºESO Cableados y resolución de circuitos.
+<pruebas/3ESO_TEDI_Cableados_circuitos.pdf>`
+
+.. image:: pruebas/_html/3ESO_TEDI_Cableados_circuitos-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/3ESO_TEDI_Cableados_circuitos-2.png
+   :width: 240px
+
+* :ref:`electric-resolver-circuitos` (2 sesiones)
+* :ref:`electric-cableado` (2 sesiones)
+
+
+3ºESO Energía eléctrica
+-----------------------
+:download:`Prueba de 3ºESO Energía eléctrica.
+<pruebas/3ESO_TEDI_Energia_electrica.pdf>`
+
+.. image:: pruebas/_html/3ESO_TEDI_Energia_electrica-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/3ESO_TEDI_Energia_electrica-2.png
+   :width: 240px
+
+* :ref:`electric-energia` (3 sesiones)
+
+
 3ºESO Simulador Eléctrico I
 ---------------------------
 :download:`Prueba de 3ºESO Simulador Eléctrico I.
@@ -227,6 +259,9 @@ Secundaria, basadas en los recursos de esta web.
 * :ref:`Tensión alterna <electric-simulador-alterna>` (1 sesión)
 * :ref:`El condensador <electric-simulador-condensador>` (1 sesión)
 
+
+Pruebas 4ºESO
+=============
 
 4ºESO Electrónica Analógica, el diodo
 -------------------------------------
@@ -281,9 +316,9 @@ Secundaria, basadas en los recursos de esta web.
 * :ref:`El transistor mosfet <electronic-mosfet>` (1 sesión)
 
 
-4ºESO Electrónica Analógica, el Amplificador Operacional
---------------------------------------------------------
-:download:`Prueba de 4ºESO Electrónica Analógica, Amplificador Operacional.
+4ºESO Electrónica Analógica, el Amplificador Operacional I
+----------------------------------------------------------
+:download:`Prueba de 4ºESO Electrónica Analógica, Amplificador Operacional I.
 <pruebas/4ESO_TECNO_Electronica_Analogica_AO.pdf>`
 
 .. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_AO-1.png
@@ -297,4 +332,95 @@ Secundaria, basadas en los recursos de esta web.
 * :ref:`El amplificador inversor <electronic-operational-inverting>` (1 sesión)
 * :ref:`El amplificador sumador <electronic-operational-adder>` (1 sesión)
 * :ref:`El amplificador no inversor <electronic-operational-noninverting>` (1 sesión)
+
+
+4ºESO Electrónica Analógica, el Amplificador Operacional II
+-----------------------------------------------------------
+:download:`Prueba de 4ºESO Electrónica Analógica, Amplificador Operacional II.
+<pruebas/4ESO_TECNO_Electronica_Analogica_AO2.pdf>`
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_AO2-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Analogica_AO2-2.png
+   :width: 240px
+
+* :ref:`El amplificador diferencial <electronic-operational-differential>` (1 sesión)
+* :ref:`El detector de pico <electronic-operational-peakdetector>` (1 sesión)
+* :ref:`El comparador <electronic-operational-comparator>` (1 sesión)
+* :ref:`El comparador con histéresis <electronic-operational-hysteresis>` (1 sesión)
+
+
+4ºESO Electrónica Digital I
+---------------------------
+:download:`Prueba de 4ºESO Electrónica Digital I.
+<pruebas/4ESO_TECNO_Electronica_Digital_I.pdf>`
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Digital_I-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Digital_I-2.png
+   :width: 240px
+
+* :ref:`Las señales digitales <electronic-digital-signals>` (1 sesión)
+* :ref:`Detección de errores <electronic-error-detection>` (1 sesión)
+* :ref:`Corrección de errores <electronic-error-correction>` (1 sesión)
+* :ref:`El sistema binario <electronic-binary>` (1 sesión)
+
+
+
+4ºESO Electrónica Digital II
+----------------------------
+:download:`Prueba de 4ºESO Electrónica Digital II.
+<pruebas/4ESO_TECNO_Electronica_Digital_II.pdf>`
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Digital_II-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Digital_II-2.png
+   :width: 240px
+
+* :ref:`La puerta lógica NOT <electronic-gate-not>` (1 sesión)
+* :ref:`La puerta lógica OR <electronic-gate-or>` (1 sesión)
+* :ref:`La puerta lógica AND <electronic-gate-and>` (1 sesión)
+* :ref:`La puerta lógica XOR <electronic-gate-xor>` (1 sesión)
+* :ref:`Las leyes de De Morgan <electronic-morgan-laws>` (1 sesión)
+* :ref:`La tabla de verdad <electronic-truth-table>` (1 sesión)
+
+
+4ºESO Electrónica Digital III
+-----------------------------
+:download:`Prueba de 4ºESO Electrónica Digital III.
+<pruebas/4ESO_TECNO_Electronica_Digital_III.pdf>`
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Digital_III-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_TECNO_Electronica_Digital_III-2.png
+   :width: 240px
+
+* :ref:`El biestable RS <electronic-bistable-rs>` (1 sesión)
+* :ref:`El biestable D <electronic-bistable-d>` (1 sesión)
+* :ref:`El biestable JK <electronic-bistable-jk>` (1 sesión)
+* :ref:`El biestable T <electronic-bistable-t>` (1 sesión)
+
+
+4ºESO Neumática
+---------------
+:download:`Prueba de 4ºESO Neumática.
+<pruebas/4ESO_TECNO_Neumatica.pdf>`
+
+.. image:: pruebas/_html/4ESO_TECNO_Neumatica-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_TECNO_Neumatica-2.png
+   :width: 240px
+
+Desde:
+
+* :ref:`Válvulas neumáticas <mecan-neumatic-valvulas>` (1 sesión)
+
+Hasta:
+
+* :ref:`Válvula con pilotaje neumático <mecan-neumatic-pilotaje-neumatico>` (1 sesión)
 
