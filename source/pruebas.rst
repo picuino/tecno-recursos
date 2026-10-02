@@ -13,12 +13,12 @@
    :local:
    :depth: 2
 
-Pruebas 1ºESO
-=============
+Pruebas 1ºESO C.COMP
+====================
 
 
-Pruebas 2ºESO
-=============
+Pruebas 2ºESO TEDI
+==================
 
 2ºESO Vistas y Perspectivas
 ---------------------------
@@ -126,8 +126,8 @@ Pruebas 2ºESO
 
 
 
-Pruebas 3ºESO
-=============
+Pruebas 3ºESO TEDI
+==================
 
 3ºESO Vistas y Perspectivas
 ---------------------------
@@ -260,8 +260,8 @@ Pruebas 3ºESO
 * :ref:`El condensador <electric-simulador-condensador>` (1 sesión)
 
 
-Pruebas 4ºESO
-=============
+Pruebas 4ºESO TECNO
+===================
 
 4ºESO Electrónica Analógica, el diodo
 -------------------------------------
@@ -423,4 +423,29 @@ Desde:
 Hasta:
 
 * :ref:`Válvula con pilotaje neumático <mecan-neumatic-pilotaje-neumatico>` (1 sesión)
+
+
+
+Pruebas 4ºESO DIGIT
+===================
+
+4ºESO Python
+------------
+:download:`Prueba de 4ºESO Python 2-18.
+<pruebas/4ESO_Digit_Python_2_18.pdf>`
+
+.. image:: pruebas/_html/4ESO_Digit_Python_2_18-1.png
+   :width: 240px
+
+.. image:: pruebas/_html/4ESO_Digit_Python_2_18-2.png
+   :width: 240px
+
+Desde:
+
+* :ref:`python-datos-numeros` (1 sesión)
+
+Hasta:
+
+* :ref:`python-while` (1 sesión)
+
 

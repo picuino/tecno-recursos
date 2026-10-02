@@ -41,7 +41,7 @@ Escribe un número: 12.5
 Escribe un número: 5.23
 La suma de 12.5 más 5.23 es igual a 17.73
 ```
-#v(3.5cm)
+#v(40mm)
 
 
 #pregunta([Escribe un programa que compruebe si un número es positivo o
@@ -51,7 +51,7 @@ negativo y que imprima en pantalla el resultado.], 1)
 num = input('Escribe un número: ')
 num = int(num)
 ```
-#v(3.5cm)
+#v(40mm)
 
 
 #pregunta([Una persona puede subir a una montaña rusa si su altura en

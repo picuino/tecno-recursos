@@ -28,9 +28,6 @@ las pilas electroquímicas.
 :download:`El motor eléctrico. Formato PDF
 <electric/componentes-motor/electric-motor.pdf>`
 
-:download:`El motor eléctrico. Formato editable DOC
-<electric/componentes-motor/electric-motor.doc>`
-
 
 Historia del motor eléctrico
 ----------------------------
@@ -69,22 +66,22 @@ llegó de forma masiva a todos los hogares.
      - Energía generada
      - Hogares con electricidad
    * - 1940
-     - 2 TWh
-     - 30%
+     - 3.6 TWh
+     - 60%
    * - 1950
-     - 5 TWh
-     - 45%
+     - 6.9 TWh
+     - 80%
    * - 1960
-     - 12 TWh
-     - 65%
+     - 19 TWh
+     - 90%
    * - 1970
-     - 20 TWh
-     - 85%
-   * - 1980
-     - 50 TWh
+     - 57 TWh
      - 95%
+   * - 1980
+     - 110 TWh
+     - 99%
    * - 1990
-     - 90 TWh
+     - 152 TWh
      - 100%
 
 
@@ -106,7 +103,7 @@ Motores sin escobillas
 Partes del motor
 ----------------
 Un motor eléctrico está compuesto por dos grandes bloques.
-El estator, que permanece fijo, y el rotor, que gira cuando el motor
+El estátor, que permanece fijo, y el rotor, que gira cuando el motor
 está en funcionamiento.
 
 .. figure:: electric/componentes-motor/electric-motor-induccion-num.jpg
@@ -131,11 +128,11 @@ está en funcionamiento.
 
 6. Ventilador con aspas que enfría la carcasa.
 
-7. Estator que genera un campo magnético giratorio.
+7. Estátor que genera un campo magnético giratorio.
 
-8. Bobinas del estator alimentadas con corriente alterna.
+8. Bobinas del estátor alimentadas con corriente alterna.
 
-9. Pie de sujeción del estator para fijar al motor.
+9. Pie de sujeción del estátor para fijar al motor.
 
 .. figure:: electric/componentes-motor/electric-motor-dc-num.jpg
    :align: center
@@ -169,7 +166,7 @@ un campo magnético sobre una corriente eléctrica (fuerza de Lorentz).
 Los motores de corriente continua tienen devanados con muchos cables
 de cobre aislados (11) por los que pasa corriente proveniente del
 colector de delgas (10).
-El campo magnético del estator es fijo, producido por imanes
+El campo magnético del estátor es fijo, producido por imanes
 permanentes o por un electroimán.
 El campo magnético genera una fuerza en la corriente que circula por
 los hilos de cobre que tiende a girar el rotor. Si invertimos el
@@ -186,7 +183,7 @@ Explicación del motor de corriente continua o de corriente directa (CD).
   <https://www.youtube.com/watch?v=A_VGpRxFzXQ>`__
 
 En los **motores de inducción** los cables del rotor se sustituyen
-por barras conductoras. El campo magnético del estator es giratorio
+por barras conductoras. El campo magnético del estátor es giratorio
 y arrastra consigo en su giro a las barras del rotor.
 
 
@@ -235,7 +232,7 @@ Ejercicios
    vertical derecho en tramos de 10%.
 
 #. ¿Aproximadamente en qué año tuvieron instalada
-   electricidad el 60% de los hogares en España?
+   electricidad el 85% de los hogares en España?
 
 #. Nombra 5 tipos diferentes de motores eléctricos.
 

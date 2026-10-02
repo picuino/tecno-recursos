@@ -68,10 +68,12 @@ rectificador corresponden.], 1.0)
 #v(4mm)
 
 
-#pregunta([Dibuja el esquema de una bobina de 1 Henrio en serie con una
-resistencia de 100 ohmios, en serie con un interruptor y con una pila
-de 5 voltios. Coloca correctamente un diodo de protección de rueda libre
-en paralelo a la bobina.], 0.8)
+#pregunta([Completa el dibujo de un esquema de un interruptor en serie con 
+una resistencia de 100 ohmios, en serie con bobina de 1 Henrio, alimentados
+por una pila de 5 voltios. Coloca correctamente un diodo de protección
+de rueda libre en la bobina.], 0.8)
+#image("_images/electronic-diode-05.png", width: 100%)
+
 
 ]
 
