@@ -12,7 +12,7 @@ Motor de corriente continua
 ===========================
 Este tipo de motor es muy popular por ser barato y fácil de controlar.
 
-Estator
+Estátor
 -------
 
 Rotor

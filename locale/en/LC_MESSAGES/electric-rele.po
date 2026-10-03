@@ -8,7 +8,7 @@ msgstr ""
 ".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
 ":8bitGenerated-By:Babel 2.9.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-14 11:29+0200\n"
+"POT-Creation-Date: 2026-10-03 22:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../../source/electric-rele.rst:9
+#: ../../source/electric-rele.rst:11
 msgid "Los relés"
 msgstr "The relays"
 
-#: ../../source/electric-rele.rst:10
+#: ../../source/electric-rele.rst:12
 msgid ""
-"Los relés son los primeros aparatos eléctricos utilizados en la "
-"automatización eléctrica."
+"Los relés son unos de los primeros dispositivos eléctricos utilizados en "
+"la automatización eléctrica."
 msgstr "Relays are the first electrical devices used in electrical automation."
 
-#: ../../source/electric-rele.rst:13
+#: ../../source/electric-rele.rst:15
 msgid ""
 "En esta unidad estudiaremos la historia del relé, su funcionamiento, los "
 "esquemas eléctricos más usuales y diversos tipos de relés."
@@ -35,21 +35,13 @@ msgstr ""
 "In this unit we will study the history of the relay, its operation, the "
 "most common electrical diagrams and various types of relays."
 
-#: ../../source/electric-rele.rst:19
-msgid ""
-":download:`El relé. Formato PDF <electric/componentes-rele/electric-"
-"reles.pdf>`"
-msgstr ""
-":download:`The relay. PDF format <electric/componentes-rele/electric-"
-"relays.pdf>`"
-
 #: ../../source/electric-rele.rst:21
 msgid ""
-":download:`El relé. Formato editable DOC <electric/componentes-rele"
-"/electric-reles.doc>`"
+":download:`El relé electromecánico. Teoría y ejercicios. Formato PDF. "
+"<electric/componentes-rele/electric-reles.pdf>`"
 msgstr ""
-":download:`The relay. Editable format DOC <electric/componentes-rele"
-"/electric-relays.doc>`"
+":download:`The electromecanic relay. Theory and exercises. PDF format. "
+"<electric/componentes-rele/electric-relays.pdf>`"
 
 #: ../../source/electric-rele.rst:25
 msgid "Qué es un relé"
@@ -57,15 +49,15 @@ msgstr "What is a relay"
 
 #: ../../source/electric-rele.rst:26
 msgid ""
-"Es un aparato electromecánico con dos componentes: la bobina y los "
-"contactos. La bobina recibe una pequeña corriente eléctrica a baja "
-"tensión en el circuito de mando y mueve los contactos que hacen de "
-"interruptores de mayor corriente y tensión en el circuito de potencia."
+"Un relé es un aparato electromecánico con dos componentes: la **bobina** "
+"y los **contactos**. La bobina recibe una pequeña corriente eléctrica a "
+"baja tensión en el circuito de mando y mueve los contactos que hacen de "
+"interruptores en el circuito de potencia, con mayor tensión y corriente."
 msgstr ""
-"It is an electromechanical device with two components: the coil and the "
-"contacts. The coil receives a small electrical current at low voltage in "
-"the control circuit and moves the contacts that act as switches for "
-"higher current and voltage in the power circuit."
+"It is an electromechanical device with two components: the **coil** and "
+"the **contacts**. The coil receives a small electrical current at low "
+"voltage in the control circuit and moves the contacts that act as "
+"switches for higher current and voltage in the power circuit."
 
 #: ../../source/electric-rele.rst:34
 msgid "Esquema de un relé"
@@ -105,7 +97,7 @@ msgstr "In the following diagram we can see the circuit of a relay in operation.
 msgid ""
 "El **circuito de mando** se encuentra a la izquierda y se compone de una "
 "pila de 12 voltios, un pulsador y la bobina del relé. Cuando se presiona "
-"el pulsador, la corriente llega a la bobina y esta activa el contacto "
+"el pulsador, la corriente llega a la bobina y esta acciona el contacto "
 "(interruptor) de potencia."
 msgstr ""
 "The **control circuit** is on the left and consists of a 12 volt battery,"
@@ -116,7 +108,7 @@ msgstr ""
 msgid ""
 "El **circuito de potencia** se compone de un contacto del relé, un "
 "generador de corriente alterna de 230 voltios y un motor. Cuando el "
-"contacto se cierra, llega la tensión al motor y se pone en marcha."
+"contacto se cierra, se aplica tensión al motor y se pone en marcha."
 msgstr ""
 "The **power circuit** consists of a relay contact, a 230 volt alternating"
 " current generator and a motor. When the contact closes, voltage reaches "
@@ -176,8 +168,8 @@ msgstr ""
 #: ../../source/electric-rele.rst:90
 msgid ""
 "Para que el circuito pare, habrá que presionar el pulsador de parada. La "
-"bobina dejará de tener corriente y los dos contactos K1 se abren parando "
-"el circuito."
+"bobina dejará de tener corriente y los dos contactos K1 se abren "
+"deteniendo el circuito."
 msgstr ""
 "For the circuit to stop, the stop button must be pressed. The coil will "
 "stop having current and the two K1 contacts open stopping the circuit."
@@ -236,8 +228,8 @@ msgstr ""
 
 #: ../../source/electric-rele.rst:124
 msgid ""
-"En 1941 Konrad Zuse construyo la primera computadora a base de relés. Los"
-" relés se sustituyeron posteriormente por válvulas de vacío, mucho más "
+"En 1941 Konrad Zuse terminó la primera computadora a base de relés. Los "
+"relés se sustituyeron posteriormente por válvulas de vacío, mucho más "
 "rápidas. A partir del año 1954 se comenzaron a usar los transistores, más"
 " rápidos aún y mucho más fiables. Actualmente se siguen utilizando los "
 "transistores en los ordenadores y en multitud de aparatos electrónicos."
@@ -295,24 +287,35 @@ msgid "¿Qué es un relé y para qué sirve?"
 msgstr "What is a relay and what is it for?"
 
 #: ../../source/electric-rele.rst:162
+msgid "Dibuja un esquema de un relé con su bobina y sus contactos."
+msgstr "Draw a diagram of a relay showing its coil and contacts."
+
+#: ../../source/electric-rele.rst:164
 msgid ""
-"Dibuja el esquema de un relé que encienda una bombilla de 125 Voltios "
-"desde un pulsador alimentado a 24V."
+"Dibuja el esquema eléctrico de un relé que encienda una bombilla de 125 V"
+" desde un pulsador alimentado a 24 V."
 msgstr ""
 "Draw the schematic of a relay that turns on a 125 Volt light bulb from a "
 "24V powered push button."
 
-#: ../../source/electric-rele.rst:165
+#: ../../source/electric-rele.rst:167
+msgid "Explica el funcionamiento del circuito anterior."
+msgstr "Explain how the circuit above works."
+
+#: ../../source/electric-rele.rst:169
 msgid ""
-"Dibuja el esquema de un relé que encienda una resistencia de 23 Ohmios "
-"alimentada a 220V con dos pulsadores, uno de marcha y otro de parada. "
-"Explica cómo funciona el circuito."
+"Dibuja el esquema de un relé que encienda una resistencia de 23 ohmios "
+"alimentada a 220 V con dos pulsadores, uno de marcha y otro de parada."
 msgstr ""
 "Draw the schematic of a relay that turns on a 23 Ohm resistor powered at "
 "220V with two buttons, one for start and the other for stop. Explain how "
 "the circuit works."
 
-#: ../../source/electric-rele.rst:169
+#: ../../source/electric-rele.rst:172
+msgid "Explica cómo funciona el circuito anterior."
+msgstr "Explain how the circuit above works."
+
+#: ../../source/electric-rele.rst:174
 msgid ""
 "Dibuja los dos estados de un relé oscilador mientras se presiona el "
 "pulsador."
@@ -320,27 +323,34 @@ msgstr ""
 "Draw the two states of an oscillating relay while the push button is "
 "pressed."
 
-#: ../../source/electric-rele.rst:172
-msgid ""
-"¿Qué usos ha tenido el relé a lo largo de la historia? ¿Para qué se "
-"utiliza en la actualidad?"
-msgstr ""
-"What uses has the relay had throughout history? What is it currently used"
-" for?"
+#: ../../source/electric-rele.rst:177
+msgid "¿Qué usos ha tenido el relé a lo largo de la historia?"
+msgstr "What uses has the relay had throughout history?"
 
-#: ../../source/electric-rele.rst:175
+#: ../../source/electric-rele.rst:179
 msgid "¿Qué componentes electrónicos sustituyeron al relé?"
 msgstr "What electronic components replaced the relay?"
 
-#: ../../source/electric-rele.rst:177
-msgid "¿Qué es un contactor y por qué se utiliza?"
+#: ../../source/electric-rele.rst:181
+msgid "¿Para qué se utilizan los relés en la actualidad?"
+msgstr "What are relays used for today?"
+
+#: ../../source/electric-rele.rst:183
+msgid "¿Qué es un contactor y para qué se utiliza?"
 msgstr "What is a contactor and why is it used?"
 
-#: ../../source/electric-rele.rst:179
+#: ../../source/electric-rele.rst:185
 msgid ""
-"Dibuja el esquema de un contactor que haga funcionar siempre un motor "
-"hasta que se pulse un contacto normalmente cerrado."
+"Dibuja el esquema de un contactor que haga funcionar un motor trifásico "
+"cuando se pulse un contacto normalmente abierto."
 msgstr ""
 "Draw the schematic of a contactor that will always run a motor until a "
 "normally closed contact is pressed."
+
+#~ msgid ""
+#~ ":download:`El relé. Formato editable DOC "
+#~ "<electric/componentes-rele/electric-reles.doc>`"
+#~ msgstr ""
+#~ ":download:`The relay. Editable format DOC "
+#~ "<electric/componentes-rele/electric-relays.doc>`"
 

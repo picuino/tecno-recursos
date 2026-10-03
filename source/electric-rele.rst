@@ -9,7 +9,7 @@
 
 Los relés
 =========
-Los relés son los primeros aparatos eléctricos utilizados
+Los relés son unos de los primeros dispositivos eléctricos utilizados
 en la automatización eléctrica.
 
 En esta unidad estudiaremos la historia del relé, su funcionamiento,
@@ -18,17 +18,15 @@ los esquemas eléctricos más usuales y diversos tipos de relés.
 .. figure:: electric/componentes-rele/electric-reles-crop.png
    :align: center
 
-:download:`El relé. Formato PDF <electric/componentes-rele/electric-reles.pdf>`
-
-:download:`El relé. Formato editable DOC <electric/componentes-rele/electric-reles.doc>`
+:download:`El relé electromecánico. Teoría y ejercicios. Formato PDF. <electric/componentes-rele/electric-reles.pdf>`
 
 
 Qué es un relé
 --------------
-Es un aparato electromecánico con dos componentes: la bobina y los
-contactos. La bobina recibe una pequeña corriente eléctrica a baja
-tensión en el circuito de mando y mueve los contactos que hacen de
-interruptores de mayor corriente y tensión en el circuito de potencia.
+Un relé es un aparato electromecánico con dos componentes: la **bobina**
+y los **contactos**. La bobina recibe una pequeña corriente eléctrica a
+baja tensión en el circuito de mando y mueve los contactos que hacen de
+interruptores en el circuito de potencia, con mayor tensión y corriente.
 
 .. figure:: electric/componentes-rele/electric-relay-principle.gif
    :align: center
@@ -50,12 +48,12 @@ funcionamiento.
 
 El **circuito de mando** se encuentra a la izquierda y se compone de una
 pila de 12 voltios, un pulsador y la bobina del relé. Cuando se presiona
-el pulsador, la corriente llega a la bobina y esta activa el contacto
+el pulsador, la corriente llega a la bobina y esta acciona el contacto
 (interruptor) de potencia.
 
-El **circuito de potencia** se compone de un contacto del relé, un generador
-de corriente alterna de 230 voltios y un motor. Cuando el contacto se
-cierra, llega la tensión al motor y se pone en marcha.
+El **circuito de potencia** se compone de un contacto del relé, un 
+generador de corriente alterna de 230 voltios y un motor. Cuando el
+contacto se cierra, se aplica tensión al motor y se pone en marcha.
 
 .. figure:: electric/componentes-rele/electric-rele-01.png
    :align: center
@@ -91,7 +89,7 @@ pulsador de marcha.
 
 Para que el circuito pare, habrá que presionar el pulsador de parada.
 La bobina dejará de tener corriente y los dos contactos K1 se abren
-parando el circuito.
+deteniendo el circuito.
 
 
 Relé oscilador
@@ -123,7 +121,7 @@ controlar una potencia de salida mayor que la de entrada puede
 considerarse un amplificador que permitía aumentar la calidad de las
 señales telegráficas.
 
-En 1941 Konrad Zuse construyo la primera computadora a base de relés.
+En 1941 Konrad Zuse terminó la primera computadora a base de relés.
 Los relés se sustituyeron posteriormente por válvulas de vacío, mucho
 más rápidas. A partir del año 1954 se comenzaron a usar los
 transistores, más rápidos aún y mucho más fiables. Actualmente se siguen
@@ -159,24 +157,30 @@ circuitos con una pequeña señal de baja tensión.
 Ejercicios
 ----------
 
-1. ¿Qué es un relé y para qué sirve?
+#. ¿Qué es un relé y para qué sirve?
 
-#. Dibuja el esquema de un relé que encienda una bombilla de 125 Voltios
-   desde un pulsador alimentado a 24V.
+#. Dibuja un esquema de un relé con su bobina y sus contactos.
 
-#. Dibuja el esquema de un relé que encienda una resistencia de 23 Ohmios
-   alimentada a 220V con dos pulsadores, uno de marcha y otro de parada.
-   Explica cómo funciona el circuito.
+#. Dibuja el esquema eléctrico de un relé que encienda una bombilla de
+   125 V desde un pulsador alimentado a 24 V.
 
-#. Dibuja los dos estados de un relé oscilador mientras se presiona
-   el pulsador.
+#. Explica el funcionamiento del circuito anterior.
+
+#. Dibuja el esquema de un relé que encienda una resistencia de 23 ohmios
+   alimentada a 220 V con dos pulsadores, uno de marcha y otro de parada.
+
+#. Explica cómo funciona el circuito anterior.
+
+#. Dibuja los dos estados de un relé oscilador mientras se presiona el
+   pulsador.
 
 #. ¿Qué usos ha tenido el relé a lo largo de la historia?
-   ¿Para qué se utiliza en la actualidad?
 
 #. ¿Qué componentes electrónicos sustituyeron al relé?
 
-#. ¿Qué es un contactor y por qué se utiliza?
+#. ¿Para qué se utilizan los relés en la actualidad?
 
-#. Dibuja el esquema de un contactor que haga funcionar siempre un
-   motor hasta que se pulse un contacto normalmente cerrado.
+#. ¿Qué es un contactor y para qué se utiliza?
+
+#. Dibuja el esquema de un contactor que haga funcionar un motor
+   trifásico cuando se pulse un contacto normalmente abierto.
