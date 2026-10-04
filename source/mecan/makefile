@@ -4,8 +4,12 @@ THUMBS=_thumbs
 IMAGEFILES= $(wildcard $(IMAGES)/*.png) $(wildcard $(IMAGES)/*.jpg)
 THUMBFILES= $(foreach f, $(IMAGEFILES), $(THUMBS)/$(notdir $(f)))
 
-CONVERT=convert
+CONVERT=magick.exe convert
 OPTIPNG=optipng -quiet -o 6
+
+
+SOURCES := $(wildcard *.typ)
+OBJECTS := $(SOURCES:.typ=.pdf)
 
 
 # --------------------------------------------------------------------
@@ -124,6 +128,12 @@ $(THUMBS)/%.png: $(IMAGES)/%.png
 $(THUMBS)/%.jpg: $(IMAGES)/%.jpg
 	$(CONVERT) $<  -strip -resize 480x360\> $@
 
+#---------------------------------------------------------------------
+# TYPST FILES
+#
+
+%.pdf: %.typ
+	typst compile $< $@
 
 # --------------------------------------------------------------------
 # ALL FILES
@@ -156,7 +166,10 @@ all: \
 	$(IMAGES)/mecan-poleas-11br.png \
 	$(IMAGES)/mecan-poleas-12br.png \
 	$(THUMBFILES) \
+	$(OBJECTS)
 
 
 clean:
 	rm -f $(THUMBFILES)
+	rm -f $(OBJECTS)
+

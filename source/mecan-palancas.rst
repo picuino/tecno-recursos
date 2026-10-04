@@ -253,8 +253,6 @@ Ejercicios de palancas
 
    | :download:`Tipos de palancas. Formato PDF.
      <mecan/mecan-palancas-02.pdf>`
-   | :download:`Tipos de palancas. Formato DOC.
-     <mecan/mecan-palancas-02.doc>`
 
 #. Un **martillo** se utiliza como palanca de primer grado para sacar un clavo.
    Se aplica una fuerza de 12 kgf en el extremo del mango.
