@@ -17,18 +17,18 @@ OBJECTS := $(SOURCES:.typ=.pdf)
 
 # --------------------------------------------------------------------
 #
+electric-esquema-rele-p1.png: electric-esquema-rele.pdf
+	$(PDFTOPNG) -r 300 $< $(basename $<)
+	mv $(basename $<)-000001.png  $(basename $<)-p1.png
+	$(MOGRIFY) -posterize 16 $(basename $<)-p1.png
+	$(OPTIPNG) $@
+
 electric-reles-p1.png electric-reles-p2: electric-reles.pdf
 	$(PDFTOPNG) -r 150 $< $(basename $<)
 	mv $(basename $<)-000001.png  $(basename $<)-p1.png
 	mv $(basename $<)-000002.png  $(basename $<)-p2.png
 	$(MOGRIFY) -posterize 32 $(basename $<)-p1.png
 	$(MOGRIFY) -posterize 32 $(basename $<)-p2.png
-	$(OPTIPNG) $@
-
-electric-esquema-rele-p1.png: electric-esquema-rele.pdf
-	$(PDFTOPNG) -r 300 $< $(basename $<)
-	mv $(basename $<)-000001.png  $(basename $<)-p1.png
-	$(MOGRIFY) -posterize 16 $(basename $<)-p1.png
 	$(OPTIPNG) $@
 
 electric-reles-crop.png: electric-reles-p1.png

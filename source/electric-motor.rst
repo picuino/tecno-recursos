@@ -60,6 +60,7 @@ llegó de forma masiva a todos los hogares.
 
 .. list-table::
    :widths: auto
+   :align: center
    :header-rows: 1
 
    * - Año
