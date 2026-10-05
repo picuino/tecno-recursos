@@ -10,21 +10,20 @@
 
 El circuito eléctrico
 =====================
+Un circuito eléctrico es un conjunto de componentes que generan
+y controlan el paso de la electricidad para producir efectos útiles.
 
 .. figure:: electric/_images/electric-circuit-2.png
    :width: 380px
    :align: center
    :alt: Elementos de un circuito eléctrico.
 
-Un circuito eléctrico es un conjunto de componentes que generan
-y controlan el paso de la electricidad para producir efectos útiles.
-
 Un ejemplo sencillo de circuito eléctrico es el que todos utilizamos
 al encender la luz de una habitación.
 
 Los circuitos están formados por cuatro tipos de componentes:
 los generadores, conductores, receptores y elementos de control.
-A continuación se estudiarán con más detalle.
+A continuación se estudiarán cáda uno de ellos con más detalle.
 
 
 .. contents:: Índice de contenidos:
@@ -57,7 +56,7 @@ solares fotovoltaicas.
 .. figure:: electric/_images/electric-alternador.jpg
    :width: 340px
    :align: center
-   :alt: Alternador eléctrico.
+   :alt: Alternador eléctrico de un automóvil.
 
    Alternador eléctrico de un automóvil.
 
@@ -159,8 +158,9 @@ Receptores
 Los componentes receptores transforman la electricidad en efectos
 útiles como luz, calor, movimiento, sonido, etc.
 
-Algunos ejemplos de receptores son las bombillas, ventiladores, horno
-microondas, frigorífico, televisor, etc.
+Algunos ejemplos de receptores son las bombillas que producen luz,
+los motores que producen movimiento, las resistencias que producen calor o
+los timbres que producen sonido.
 
 
 .. figure:: electric/_images/electric-lamp-led.jpg
@@ -180,7 +180,7 @@ microondas, frigorífico, televisor, etc.
    :align: center
    :alt: Resistencia eléctrica de una vitrocerámica, produciendo calor.
 
-   Resistencia eléctrica de una vitrocerámica, produciendo calor.
+   Resistencia eléctrica de una vitrocerámica. Produce calor.
 
    `A.Savin <https://commons.wikimedia.org/wiki/File:Electric_stove_coil_with_glass_ceramic_cooktop.jpg>`__,
    `CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`__,
@@ -203,7 +203,7 @@ Accionamiento manual:
 
    Cada elemento de control manual tiene su aplicación práctica.
    A la hora de controlar un timbre no se puede utilizar un interruptor
-   porque después de pulsarle, el timbre funcionará sin parar.
+   porque después de pulsarlo, el timbre funcionará sin parar.
    En esta aplicación usaremos mejor un pulsador, que solo acciona el
    timbre mientras lo estemos pulsando.
 
@@ -226,8 +226,9 @@ Protección eléctrica:
    para proteger la instalación eléctrica y evitar que se quemen los
    cables si hay un cortocircuito o una sobrecarga.
 
-   El diferencial nos protege la vida cortando la corriente antes
-   de que una derivación eléctrica pueda electrocutarnos.
+   El interruptor diferencial nos protege la vida cortando la
+   corriente eléctrica antes de que una derivación eléctrica pueda
+   electrocutarnos.
 
    .. figure:: electric/_images/electric-diferencial.jpg
       :width: 340px
@@ -251,7 +252,7 @@ Accionamiento automático:
    una puerta eléctrica que se abre sola al detectar presencia,
    un ascensor que se detiene en el piso correcto gracias a un final de
    carrera, un edificio inteligente que controla mediante ordenador la
-   temperatura, humedad, apertura de persianas, riego, etc.
+   temperatura, humedad, apertura de persianas, riego automático, etc.
 
    .. figure:: electric/_images/electric-ascensor.jpg
       :width: 340px
@@ -263,6 +264,32 @@ Accionamiento automático:
       `MMFE <https://commons.wikimedia.org/wiki/File:Lift_Luxembourg_Ville-Haute_-_Grund_01.jpg>`__,
       `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`__,
       vía Wikimedia Commons.
+
+
+Unidad imprimible
+-----------------
+Unidad en formato imprimible, con ejercicios.
+
+:download:`El circuito eléctrico. Formato PDF.
+<electric/electric-circuit/electric-circuito.pdf>`
+
+
+Ejercicios
+----------
+
+#. Dibuja un circuito eléctrico sencillo de una linterna que encienda
+   una lámpara con un interruptor. Escribe el nombre de sus elementos
+   y de qué tipo es cada uno de ellos.
+#. ¿Qué es un generador eléctrico y para qué sirve?
+   Escribe tres ejemplos de generadores eléctricos distintos.
+#. ¿Qué es un conductor eléctrico y para qué sirve?
+#. Escribe cuatro tipos de conductores diferentes y para qué sirve
+   cada uno de ellos.
+#. ¿Qué función tienen los receptores en un circuito eléctrico?
+#. Escribe cuatro receptores distintos y el efecto que produce cada uno.
+#. ¿Qué función tienen los elementos de control en un circuito eléctrico?
+#. Escribe un ejemplo de elemento de control de accionamiento manual, uno
+   de protección y otro automático.
 
 
 Cuestionarios
