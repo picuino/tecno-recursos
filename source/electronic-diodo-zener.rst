@@ -12,8 +12,8 @@ El diodo zener
 Los diodos rectificadores soportan una tensión negativa alta sin conducir.
 Sin embargo los `diodos zener <https://es.wikipedia.org/wiki/Diodo_Zener>`__
 están diseñados para que puedan conducir corriente cuando la tensión
-negativa sea menor que la tensión de ruptura, con un valor que puede
-valer entre 2 y 6 voltios.
+negativa sea de un valor más alto que el de la tensión de ruptura,
+con un valor que puede valer entre 2 y 6 voltios.
 
 .. figure:: electronic/_images/electronic-analog-diodo-zener.png
    :width: 131px

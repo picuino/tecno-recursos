@@ -100,7 +100,7 @@ Hitos históricos de la informática
   El Z1 era el primer sistema informático totalmente programable.
   Su tecnología estaba basada en relés electromecánicos.
 
-* Durante la segunda guerra mundial se desarrollan los ordenadores basados
+* Durante la Segunda Guerra Mundial se desarrollan los ordenadores basados
   en válvulas de vacío, más rápidas que los relés mecánicos.
   El `Colossus Mark I <https://es.wikipedia.org/wiki/Colossus>`__,
   fabricado por los británicos en 1944, ayudó a

@@ -72,7 +72,7 @@ control the flow of electricity to produce useful effects.
 
 #v(-5mm)
 #figure(
-  image("_images/electric-circuit-2.png", width: 70mm),
+  image("_images/electric-circuit-2.en.png", width: 70mm),
 )
 #v(-5mm)
 
