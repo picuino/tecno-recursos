@@ -221,7 +221,7 @@
     #h(1fr)
     #link("https://creativecommons.org/licenses/by-sa/4.0/deed.es")[*Licencia CC BY-SA 4.0*] 
     #h(2fr)
-    #link("https://picuino.com/es/index.html")[*www.picuino.com*]
+    #link("https://www.picuino.com/es/index.html")[*www.picuino.com*]
     #h(1fr)
   ]
 ]
@@ -267,7 +267,7 @@
     #h(1fr)
     #link("https://creativecommons.org/licenses/by-sa/4.0/deed.es")[*Licencia CC BY-SA 4.0*] 
     #h(2fr)
-    #link("https://picuino.com/es/index.html")[*www.picuino.com*]
+    #link("https://www.picuino.com/es/index.html")[*www.picuino.com*]
     #h(1fr)
   ]
 ]

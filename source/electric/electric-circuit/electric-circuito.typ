@@ -12,7 +12,7 @@
     #grid(
       columns: (1fr, 1fr),
       align(center)[#text(size: 9pt, weight: "bold")[#link("https://creativecommons.org/licenses/by-sa/4.0/deed.es")[*Licencia CC BY-SA 4.0*]]],
-      align(center)[#text(size: 9pt, weight: "bold")[#link("https://picuino.com/es/index.html")[*www.picuino.com*]]],
+      align(center)[#text(size: 9pt, weight: "bold")[#link("https://www.picuino.com/es/index.html")[*www.picuino.com*]]],
     )
   ]
 )

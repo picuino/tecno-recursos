@@ -12,7 +12,10 @@ all:
 	make all --no-print-directory -f makefile-resolver-circuitos
 	make all --no-print-directory -f makefile-simbolos
 	make all --no-print-directory -f makefile-symbols
-
+	make all --no-print-directory -C componentes-motor
+	make all --no-print-directory -C componentes-rele
+	make all --no-print-directory -C electric-circuit
+	make all --no-print-directory -C sistema-electrico-espanol
 
 clean:
 	make clean --no-print-directory -f makefile-circuit
@@ -25,4 +28,7 @@ clean:
 	make clean --no-print-directory -f makefile-resolver-circuitos
 	make clean --no-print-directory -f makefile-simbolos
 	make clean --no-print-directory -f makefile-symbols
-
+	make clean --no-print-directory -C componentes-motor
+	make clean --no-print-directory -C componentes-rele
+	make clean --no-print-directory -C electric-circuit
+	make clean --no-print-directory -C sistema-electrico-espanol

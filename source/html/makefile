@@ -7,7 +7,7 @@ RSTMACRO=$(SRCDIR)/html-macros.txt
 COPYTHUMBS=beach-01.jpg chart-01.png portrait.png youtube.png
 
 
-CONVERT=convert
+CONVERT=magick.exe convert
 CONVERT_TXT= -bordercolor White -border 6 \
 	-background White -density 96 \
 	-pointsize 12 -font Consolas-bold

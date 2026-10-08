@@ -1,6 +1,6 @@
 IMGDIR=_images
 
-CONVERT=convert.exe
+CONVERT=magick.exe convert.exe
 CONVERT_TXT= -bordercolor White -border 6 \
 	-background White -density 96 \
 	-pointsize 12 -font Consolas-bold

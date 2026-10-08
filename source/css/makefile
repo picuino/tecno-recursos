@@ -4,7 +4,7 @@ IMGDIR=_images
 
 RSTMACRO=$(SRCDIR)/css-macros.txt
 
-CONVERT=convert
+CONVERT=magick.exe convert
 CONVERT_TXT= -bordercolor White -border 6 \
 	-background White -density 96 \
 	-pointsize 12 -font Consolas-bold

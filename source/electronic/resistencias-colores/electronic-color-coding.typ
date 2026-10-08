@@ -94,7 +94,7 @@
 
     #link("https://creativecommons.org/licenses/by-sa/4.0/")[*License CC BY-SA 4.0*] 
     #h(12mm)
-    #link("https://picuino.com/en/index.html")[*www.picuino.com*]
+    #link("https://www.picuino.com/en/index.html")[*www.picuino.com*]
   ]
 
   - Calculate the missing colors and resistors in the following tables.

@@ -94,7 +94,7 @@
 
     #link("https://creativecommons.org/licenses/by-sa/4.0/deed.es")[*Licencia CC BY-SA 4.0*] 
     #h(12mm)
-    #link("https://picuino.com/es/index.html")[*www.picuino.com*]
+    #link("https://www.picuino.com/es/index.html")[*www.picuino.com*]
   ]
 
   - Calcula los colores y las resistencias que faltan en las siguientes tablas.

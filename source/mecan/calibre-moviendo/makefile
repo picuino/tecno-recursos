@@ -2,7 +2,7 @@ SVG_FILES= $(wildcard *.svg)
 PNG_FILES= $(foreach f, $(SVG_FILES), $(basename $(f)).png)
 
 INKSCAPE=inkscape.com
-CONVERT=convert
+CONVERT=magick.exe convert
 OPTIPNG=optipng -quiet -o 6
 
 # --------------------------------------------------------------------
