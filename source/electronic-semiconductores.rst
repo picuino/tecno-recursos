@@ -18,14 +18,10 @@ electrónicos, su funcionamiento y esquemas eléctricos típicos.
 
 .. figure:: electronic/componentes-semiconductores/electronic-semiconductores-portada.png
    :align: center
-   :alt: Transistores
+   :alt: Los semiconductores
 
-|  :download:`Los componentes semiconductores. Formato PDF.
-   <electronic/componentes-semiconductores/electronic-semiconductores.pdf>`
-|
-|  :download:`Los componentes semiconductores. Formato editable DOC.
-   <electronic/componentes-semiconductores/electronic-semiconductores.doc>`
-
+:download:`Los componentes semiconductores. Formato PDF.
+<electronic/componentes-semiconductores/electronic-semiconductores.pdf>`
 
 
 Los semiconductores

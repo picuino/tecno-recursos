@@ -20,6 +20,13 @@ electronic-semiconductores-portada.png: electronic-semiconductores.pdf
 	rm -f $(basename $<)-000001.png
 	$(OPTIPNG) $@
 
+electronic-semiconductores-portada.en.png: electronic-semiconductors.pdf
+	pdftopng -gray -r 150 -aa yes -aaVector yes -freetype yes $< $(basename $<)
+	rm -f $(basename $<)-000002.png
+	$(CONVERT) $(basename $<)-000001.png -crop 1240x770+0+0 $(CONVERT_OPT) $@
+	rm -f $(basename $<)-000001.png
+	$(OPTIPNG) $@
+
 electronic-esquema-semiconductores-p1.png: electronic-esquema-semiconductores.pdf
 	$(PDFTOPNG) $< $(basename $<)
 	mv $(basename $<)-000001.png  $(basename $<)-p1.png
@@ -76,10 +83,17 @@ IMAGES = \
 	electronic-esquema-ldr-01.png \
 
 
+%.pdf: %.typ
+	typst compile $< $@
+
+
 .PHONY: all  clean
 all: \
+	electronic-semiconductores.pdf \
+	electronic-semiconductors.pdf \
 	electronic-esquema-semiconductores-p1.png \
 	electronic-semiconductores-portada.png \
+	electronic-semiconductores-portada.en.png \
 	$(IMAGES)
    
 clean:

@@ -31,6 +31,7 @@ electronic-codigo-colores.en.png: electronic-color-coding.pdf
 
 all: \
 	electronic-codigo-colores.pdf \
+	electronic-color-coding.pdf \
 	electronic-codigo-colores.png \
 	electronic-color-coding.pdf \
 	electronic-codigo-colores.en.png \
