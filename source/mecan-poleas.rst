@@ -24,16 +24,16 @@ de una fuerza.
 
 Aplicaciones de las poleas
 --------------------------
-La **función** de la polea es desviar la dirección y la posición
+La **función de la polea** es desviar la dirección y la posición
 de la cuerda, y por tanto, de la fuerza aplicada.
 
 Por ejemplo:
 
-* En un **pozo**, una polea permite levantar un cubo de agua
+* En un **pozo** una polea permite levantar un cubo de agua
   tirando hacia abajo, lejos del brocal, lo cual es más cómodo
-  que tirar hacia arriba de la cuerda.
+  que tirar hacia arriba de la cuerda para levantar el cubo.
 
-* En unas **cortinas**, las poleas permiten moverlas tirando de las
+* En unas **cortinas** las poleas permiten moverlas tirando de las
   cuerdas a la altura de la mano, aunque el raíl esté mucho más alto en
   el techo.
 
@@ -52,8 +52,9 @@ Por ejemplo:
    :align: center
    :height: 284px
 
-En todos estos ejemplos, las poleas solo cambian la dirección de la fuerza,
-pero no reducen la cantidad de fuerza necesaria para levantar el peso.
+En todos los ejemplos anteriores las poleas solo cambian la dirección de
+la fuerza, pero no reducen la cantidad de fuerza necesaria para levantar
+el peso.
 
 Por lo tanto, para levantar un peso de 60 kgf (60 kilogramos-fuerza), hay
 que estirar la cuerda con una fuerza de 60 kgf.
@@ -118,12 +119,12 @@ levantar el peso se divide entre cuatro, con un resultado de 15 kgf.
    :height: 284px
 
 Hay que tener en cuenta que, a veces, las poleas de no están enganchadas
-al peso y, por lo tanto, no se cuentan a la hora de calcular la fuerza con
-la que hay que tirar de la cuerda.
+al peso y, por lo tanto, no se cuentan a la hora de calcular la fuerza
+con la que hay que tirar de la cuerda.
 
 En el siguiente polipasto hay **2 tramos de cuerda** que tiran del peso
-hacia arriba y, por lo tanto, la fuerza que hay que realizar para levantar
-el peso se divide entre las dos, con un resultado de 30 kgf.
+hacia arriba y, por lo tanto, la fuerza que hay que realizar para
+levantar el peso se divide entre las dos, con un resultado de 30 kgf.
 
 .. image:: mecan/_images/mecan-poleas-10.png
    :alt: polipasto más poleas que levantan un peso de 60 kgf con
@@ -132,8 +133,8 @@ el peso se divide entre las dos, con un resultado de 30 kgf.
    :height: 284px
 
 En el siguiente polipasto hay **3 tramos de cuerda** que tiran del peso
-hacia arriba y, por lo tanto, la fuerza que hay que realizar para levantar
-el peso se divide entre tres, con un resultado de 20 kgf.
+hacia arriba y, por lo tanto, la fuerza que hay que realizar para
+levantar el peso se divide entre tres, con un resultado de 20 kgf.
 
 .. image:: mecan/_images/mecan-poleas-11.png
    :alt: polipasto más poleas que levantan un peso de 60 kgf con
@@ -147,15 +148,15 @@ Polipastos anidados
 Un polipasto está anidado cuando un polipasto tira de la cuerda de
 otro polipasto.
 
-En este caso, cada uno divide la fuerza del otro, consiguiendo aún
-más ventaja mecánica.
+En este caso, cada uno divide la fuerza del otro, consiguiendo aún más
+ventaja mecánica.
 
-En el siguiente polipasto, la polea de abajo divide entre **dos
-tramos de cuerda** el peso de 60 kgf, por lo que la primera cuerda
-tendrá una tensión de solo 30 kgf.
+En el siguiente polipasto, la polea de abajo divide entre **dos tramos de
+de cuerda** el peso de 60 kgf, por lo que la primera cuerda tendrá una tensión
+de solo 30 kgf.
 
-La polea de arriba vuelve a dividir entre **dos tramos de cuerda** la
-fuerza de la primera cuerda, por lo que la tensión será de 15 kgf.
+La polea de arriba vuelve a dividir entre **dos tramos de cuerda** la fuerza
+de la primera cuerda, por lo que la tensión será de 15 kgf.
 Esta será la fuerza F que hay que realizar para subir el peso.
 
 .. image:: mecan/_images/mecan-poleas-12.png
@@ -183,5 +184,3 @@ Unidad en formato imprimible, con preguntas.
 
 | :download:`Los mecanismos. Formato PDF.
   <mecan/mecan-mecanismos.pdf>`
-| :download:`Los mecanismos. Formato DOC.
-  <mecan/mecan-mecanismos.doc>`

@@ -32,34 +32,35 @@ Cuando las ruedas tienen distinto tamaño, la rueda más grande se llama
 Aplicaciones
 ------------
 Una de las aplicaciones más importantes de los engranajes es la
-transformación de la velocidad de giro desde un motor, generalmente rápido
-y con poco par de giro, hasta la aplicación que ha de realizar trabajo,
-generalmente más lenta y con mayor par de giro.
+transformación de la velocidad de giro desde un motor, generalmente
+rápido y con poco par de giro, hasta la aplicación que ha de realizar
+trabajo, generalmente más lenta y con mayor par de giro.
 
-Por ejemplo, en un automóvil, los engranajes convierten la alta velocidad
-del motor (que gira muy rápido pero con poca fuerza) en una velocidad más
-baja, pero con mayor fuerza, para mover las ruedas.
+Por ejemplo, en un **automóvil**, los engranajes convierten la alta
+velocidad del motor (que gira muy rápido pero con poca fuerza)
+en una velocidad de giro más baja, pero con mayor fuerza para mover
+las ruedas.
 
 
 :index:`Par motor`
 ------------------
 El par motor es la **fuerza de giro** que tiene un eje.
 
-La denominación fuerza de empuje se suele reservar para el caso
-de una fuerza que actúa en línea recta. En el caso de ejes giratorios,
+La denominación fuerza de empuje se suele reservar para el caso de
+una fuerza que actúa en línea recta. En el caso de ejes giratorios,
 el par motor podemos imaginarlo como la fuerza que haría falta aplicar
 con una palanca de un metro de largo para conseguir el mismo efecto de
 giro.
 
 Por ejemplo, si un motor de automóvil tiene un par motor de 250
-Newton·metro, es como si empujáramos un eje giratorio con una
-palanca de un metro de longitud aplicando en el extremo 250 Newton
+Newton · metro, es como si empujáramos un eje giratorio
+con una palanca de un metro de longitud aplicando en el extremo 250 Newton
 (unos 25 kilogramos de fuerza).
 
 Los engranajes pueden aumentar el par motor (la fuerza de giro),
 pero al hacerlo disminuyen la velocidad.
 
-Del mismo modo, si un engranaje aumenta la velocidad, el par motor
+Del mismo modo, si un engranaje aumenta la velocidad de giro, el par motor
 disminuye en la misma proporción.
 
 Esto ocurre en todos los mecanismos que transforman el movimiento:
@@ -87,24 +88,24 @@ Donde:
 
    N2 = Velocidad angular de la segunda rueda dentada
 
-Es decir, que el número de dientes de una rueda multiplicado por la
-velocidad de giro de esa rueda es igual para todas las ruedas.
+Es decir, que el número de dientes de una rueda multiplicado por su
+velocidad de giro es constante e igual para todas las ruedas.
 
-La velocidad angular se suele medir en **revoluciones por minuto**
-también escrito como **rpm**, que significa el número de
-vueltas completas que gira la rueda en un minuto.
-Un motor típico suele tener una velocidad angular en un rango
-desde 600 rpm  hasta 6000 rpm.
+La velocidad angular se suele medir en **revoluciones por minuto** también
+escrito como **rpm**, que significa el número de vueltas completas que gira
+la rueda en un minuto.
+Un motor típico suele tener una velocidad angular en un rango que va
+desde las 600 rpm  hasta las 6000 rpm.
 
 
 Ejercicio aerogenerador
 -----------------------
-Queremos calcular un engranaje que multiplique la velocidad de giro de un
+Queremos calcular un engranaje que multiplique la velocidad de giro del
 eje de un aerogenerador.
 
-Las aspas de un aerogenerador giran a una velocidad de 20 rpm, pero el 
-generador eléctrico necesita girar a 1000 rpm.
-Si el **piñón** conectado al generador tiene 15 dientes
+Las aspas de un aerogenerador giran a una velocidad de 20 rpm, pero
+el generador eléctrico necesita girar a 1000 rpm.
+Si el **piñón** conectado al generador tiene **15 dientes**
 ¿Cuántos dientes tendrá la corona conectada a las aspas?
 
 El primer paso será escribir los datos del problema:
@@ -142,8 +143,8 @@ Por último despejamos la ecuación y calculamos el valor de la incógnita:
 
    Z_{1} = 750 \: dientes
 
-En la práctica, cuando la relación entre los dientes es tan grande, se
-suele utilizar un tren de engranajes con más de dos ruedas conectadas
+En la práctica, cuando la relación entre los dientes es tan grande,
+se suelen utilizar trenes de engranajes con más de dos ruedas conectadas
 entre sí para reducir o aumentar la velocidad de giro en varias etapas.
 
 .. figure:: mecan/_images/mecan-gears-02.png
@@ -157,8 +158,8 @@ entre sí para reducir o aumentar la velocidad de giro en varias etapas.
 Ejercicio automóvil eléctrico
 -----------------------------
 Un automóvil eléctrico tiene el motor conectado mediante un **engranaje
-reductor** a las ruedas. Sabemos que la velocidad máxima del motor es de
-9000rpm y que la velocidad máxima de las ruedas es de 1500rpm.
+reductor** a las ruedas. Sabemos que la velocidad máxima del motor eléctrico
+es de 9000 rpm y que la velocidad máxima de las ruedas es de 1500 rpm.
 Si el número de dientes del engranaje más pequeño debe ser de 8 o más
 dientes ¿Cuantos dientes debe tener cada engranaje?
 
@@ -177,9 +178,10 @@ engranaje.
 
    N_{2} = 1500 \: rpm
 
-El engranaje 1, conectado al motor, es el que gira más rápido y, por lo
-tanto, es el engranaje más pequeño de los dos. Ahora vamos a escoger
-un tamaño para este engranaje pequeño, que sea igual o mayor a 8 dientes:
+El engranaje 1, conectado al motor, es el que gira más rápido y,
+por lo tanto, es el engranaje más pequeño de los dos.
+Ahora vamos a escoger un tamaño para este engranaje pequeño, que sea igual
+o mayor a 8 dientes:
 
 .. math::
 
@@ -206,8 +208,8 @@ Por último despejamos la ecuación y calculamos el valor de la incógnita:
 
    Z_{2} = 60 \: dientes
 
-El número de dientes del segundo engranaje conectado a la rueda será
-de 60 dientes.
+El número de dientes del segundo engranaje conectado a la rueda será de
+60 dientes.
 
 Ejercicios
 ----------
@@ -270,5 +272,3 @@ Unidad en formato imprimible, con preguntas.
 
 | :download:`Los mecanismos. Formato PDF.
   <mecan/mecan-mecanismos.pdf>`
-| :download:`Los mecanismos. Formato DOC.
-  <mecan/mecan-mecanismos.doc>`

@@ -95,7 +95,7 @@ Mecanismos para mover con fuerza
    tornillo que mueve un sistema de tijeras con suficiente fuerza
    como para levantar un automóvil.
 
-   .. figure:: mecan/_images/mecan-tornillo-02.gif
+   .. figure:: mecan/_images/mecan-tornillo-04.gif
       :alt: Gato mecánico para levantar automóviles, con un tornillo que
             mueve el mecanismo.
       :align: center
@@ -301,5 +301,3 @@ Unidad en formato imprimible, con preguntas.
 
 | :download:`Los mecanismos. Formato PDF.
   <mecan/mecan-mecanismos.pdf>`
-| :download:`Los mecanismos. Formato DOC.
-  <mecan/mecan-mecanismos.doc>`

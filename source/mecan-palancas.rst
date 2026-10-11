@@ -85,7 +85,7 @@ un sacacorchos.
 
 Palancas de tercer grado
 ------------------------
-En las palancas de tercer grado la fuerza aplicada se situa entre el
+En las palancas de tercer grado la fuerza aplicada se sitúa entre el
 fulcro y la resistencia.
 
 El fulcro está situado en un extremo de la barra.
@@ -98,8 +98,8 @@ mayor desplazamiento y mayor velocidad en el extremo.
    :align: center
    :height: 142px
 
-Ejemplos de este tipo de palanca son unas pinzas de depilar, nuestro
-antebrazo cuando sube la mano o una caña de pescar.
+Ejemplos de este tipo de palanca son unas pinzas de depilar,
+nuestro antebrazo cuando sube la mano o una caña de pescar.
 
 .. image:: mecan/_images/mecan-palancas-06.png
    :alt: Palanca doble de tercer grado
@@ -145,9 +145,9 @@ pero deben expresarse en la misma unidad en ambos lados de la ecuación.
 
 Ejercicio alicates
 ------------------
-Como ejemplo, vamos a calcular la fuerza que realizan unos alicates
-a los que aplicamos una fuerza de 10 kgf en el mango,
-con las siguientes distancias:
+Como ejemplo, vamos a calcular la fuerza que realizan unos alicates a
+los que aplicamos una fuerza de 10 kgf en el mango, con las siguientes
+distancias:
 
 .. image:: mecan/_images/mecan-palancas-08.png
    :alt: Palanca de primer grado con fuerzas y distancias de ejemplo.
@@ -220,8 +220,8 @@ pues ambas distancias están dadas en centímetros.
    d_{2} = 60 \: cm
 
 Como podemos ver, para calcular la distancia desde la fuerza 1 hasta el
-punto de apoyo es necesario sumar las dos distancias que aparecen en
-el dibujo.
+punto de apoyo es necesario sumar las dos distancias que aparecen en el
+dibujo.
 
 A continuación escribimos la fórmula y sustituimos los valores conocidos:
 
@@ -280,7 +280,8 @@ Ejercicios de palancas
 
 #. Un **abridor de botellas** actúa como una palanca de segundo grado.
    La fuerza necesaria para levantar la chapa es de 25 kgf.
-   La distancia desde el punto de apoyo hasta la chapa es de 2 cm, y la distancia desde el punto de apoyo hasta la fuerza aplicada es de 10 cm.
+   La distancia desde el punto de apoyo hasta la chapa es de 2 cm, y la 
+   distancia desde el punto de apoyo hasta la fuerza aplicada es de 10 cm.
    ¿Cuánta fuerza debemos aplicar?
 
 #. Una **prensa manual** para poner corchos en botellas funciona como una
@@ -322,6 +323,3 @@ Unidad en formato imprimible, con preguntas.
 
 | :download:`Los mecanismos. Formato PDF.
   <mecan/mecan-mecanismos.pdf>`
-| :download:`Los mecanismos. Formato DOC.
-  <mecan/mecan-mecanismos.doc>`
-
