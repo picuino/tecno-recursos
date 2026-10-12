@@ -60,7 +60,7 @@
 
 #set figure(supplement: none, numbering: none)
 #show figure.caption: set text(size: 10pt, weight: "bold")
-#show figure: set block(above: 2mm, below: 4mm)
+#show figure: set block(above: 3mm, below: 4mm)
 
 #set terms(
   indent: 0mm,
@@ -565,7 +565,7 @@ $ 120 "mm" = 40 "vueltas" dot "Paso" $
  
 Para finalizar, despejamos la incógnita para hallar el resultado.
  
-$ "Paso" = 120 "mm" / 40 "vueltas" = 3 "mm/vuelta" $
+$ "Paso" = ( 120 "mm" ) / ( 40 "vueltas" ) = 3 "mm/vuelta" $
 
 
 = Ejercicio tornillo de microscopio
