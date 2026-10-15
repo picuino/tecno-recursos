@@ -111,9 +111,6 @@ realizados en el proyecto.
 :download:`Memoria de trabajo del alumno.
 Formato PDF. <cucabot/cucabot-memoria.pdf>`
 
-:download:`Memoria de trabajo del alumno.
-Formato editable ODT. <cucabot/cucabot-memoria.odt>`
-
 
 Créditos
 --------

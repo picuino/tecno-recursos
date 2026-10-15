@@ -38,8 +38,6 @@ Bocetos en isométrica
 
 | :download:`Todos los bocetos en perspectiva. Formato PDF.
   <dibujo/dibujo-bocetos-isometrica.pdf>`
-| :download:`Todos los bocetos en perspectiva. Formato editable ODT.
-  <dibujo/dibujo-bocetos-isometrica.odt>`
 
 
 Plantilla isométrica
@@ -52,5 +50,3 @@ Plantilla para realizar dibujos y croquis en perspectiva isométrica.
    
 | :download:`Plantilla isométrica. Formato PDF.
   <dibujo/dibujo-plantilla-isometrica.pdf>`
-| :download:`Plantilla isométrica. Formato editable SVG.
-  <dibujo/dibujo-plantilla-isometrica.svg>`

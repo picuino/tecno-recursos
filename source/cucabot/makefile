@@ -13,6 +13,15 @@ CONVERT=magick.exe convert
 MOGRIFY=mogrify
 CONVERT_OPT=-transparent White
 
+# --------------------------------------------------------------------
+# Typst documents
+#
+TYP_SOURCES := $(wildcard *.typ)
+PDF_OBJECTS := $(TYP_SOURCES:.typ=.pdf)
+
+%.pdf: %.typ
+	typst compile $< $@
+
 
 # --------------------------------------------------------------------
 # cucabot-plataforma-vistas
@@ -342,6 +351,7 @@ $(IMGDIR)/cucabot-pegatortas-cableado.png: $(IMGDIR)/cucabot-pegatortas-electric
 #
 .PHONY: all  clean
 all: \
+	$(PDF_OBJECTS) \
 	$(IMGDIR)/cucabot-plataforma-vistas-p1.png \
 	$(IMGDIR)/cucabot-plataforma-planta.png \
 	$(IMGDIR)/cucabot-plataforma-perfil.png \
@@ -380,6 +390,7 @@ all: \
 
 
 clean:
+	rm -f $(PDF_OBJECTS)
 	rm -f $(IMGDIR)/cucabot-plataforma-vistas-p1.png
 	rm -f $(IMGDIR)/cucabot-plataforma-planta.png
 	rm -f $(IMGDIR)/cucabot-plataforma-perfil.png

@@ -10,6 +10,11 @@
 Recursos para Mecánica
 ======================
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+
+
 PushMePullMe 2D
 ---------------
 En la `página web de Gennaro Senatore
@@ -64,6 +69,19 @@ Gear generator
 Página web en la que se puede diseñar y simular un tren de
 engranajes.
 
+Simuladores de SoyTecnoTeacher
+------------------------------
+Simuladores mecánicos de la página web 
+`soytecnoteacher.com <https://soytecnoteacher.com/>`__,
+creada por Jaime Aniorte, profesor de Tecnología de Murcia.
+
+* `Todos los simuladores. <https://soytecnoteacher.com/simuladores/>`__
+* `Simulador de palancas. <https://soytecnoteacher.com/simuladores/palancas/>`__
+* `Simulador de biela-manivela. <https://soytecnoteacher.com/simuladores/biela-manivela/>`__
+* `Simulador de piñón y cremallera. <https://soytecnoteacher.com/simuladores/pinon-cremallera/>`__
+* `Simulador de engranajes. <https://soytecnoteacher.com/simuladores/engranajes-exteriores/>`__
+* `Simulador de estructuras. <https://soytecnoteacher.com/simuladores/estructuras/>`__
+* `Simulador de circuitos neumáticos. <https://soytecnoteacher.com/simuladores/neumatica/>`__
 
 Impresoras 3D
 -------------

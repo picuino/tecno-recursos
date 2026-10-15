@@ -100,8 +100,9 @@
   - Calcula los colores y las resistencias que faltan en las siguientes tablas.
   - En la última columna, calcula la corriente que circulará por la resistencia
     cuando la conectemos a una pila de 9 voltios.
-  - Todos los valores se deben escribir con 3 decimales y con el símbolo
-    multiplicador que mejor le corresponda (M=Mega, k=kilo, m=mili, μ=micro)
+  - Todos los valores se deben escribir con 3 cifras significativas y con
+    el prefijo multiplicador que mejor le corresponda
+    (M=Mega, k=kilo, m=mili, μ=micro)
 ]
 
 #let tabla-colores() = [

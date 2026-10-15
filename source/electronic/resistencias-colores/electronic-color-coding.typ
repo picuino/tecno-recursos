@@ -100,9 +100,8 @@
   - Calculate the missing colors and resistors in the following tables.
   - In the last column, calculate the current that will flow through the
     resistor when connected to a 9 volt battery.
-  - All values should be written to 3 decimal places and with the
-    multiplier symbol that best corresponds to it 
-    (M=Mega, k=kilo, m=mili, μ=micro)
+  - All values should be written to 3 significant figures and the
+    appropiate multiplier prefix (M=Mega, k=kilo, m=mili, μ=micro)
 ]
 
 #let tabla-colores() = [

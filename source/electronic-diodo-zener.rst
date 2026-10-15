@@ -95,14 +95,15 @@ Ejercicios
 
    Este circuito es una fuente de alimentación lineal regulada.
    Tiene un rectificador de onda completa con condensador de filtro y un
-   regulador de tensión basado en un diodo zener y un transistor.
+   regulador de tensión basado en un diodo zener y un transistor NPN
+   (añádelo con la letra 'n' o en el menú de componentes activos... NPN) .
 
    .. figure:: electronic/_images/electronic-analog-diodo-zener-npn.png
       :width: 512px
       :align: center
       :alt: Fuente de alimentación regulada con diodo zener y un transistor.
 
-      Fuente de alimentación regulada con diodo zener y un transistor.
+      Fuente de alimentación regulada con diodo zener y un transistor NPN.
 
    Añade un osciloscopio con la tensión del condensador y añade a ese mismo
    osciloscopio la tensión en la resistencia R2.

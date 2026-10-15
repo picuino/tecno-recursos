@@ -1,6 +1,5 @@
-SOURCES := $(wildcard *.typ)
-OBJECTS := $(SOURCES:.typ=.pdf)
-
+TYP_SOURCES := $(wildcard *.typ)
+PDF_OBJECTS := $(TYP_SOURCES:.typ=.pdf)
 
 
 %.pdf: %.typ
@@ -10,7 +9,7 @@ OBJECTS := $(SOURCES:.typ=.pdf)
 .PHONY: all clean
 
 all: \
-	$(OBJECTS)
+	$(PDF_OBJECTS)
 
 clean:
-	rm -f $(OBJECTS)
+	rm -f $(PDF_OBJECTS)

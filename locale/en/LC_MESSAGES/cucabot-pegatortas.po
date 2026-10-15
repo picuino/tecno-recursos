@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Picuino 2026\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-28 20:09+0200\n"
+"POT-Creation-Date: 2026-10-15 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -19,17 +19,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../../source/cucabot-pegatortas.rst:10
+#: ../../source/cucabot-pegatortas.rst:12
 msgid "Cucabot pegatortas"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:11
+#: ../../source/cucabot-pegatortas.rst:13
 msgid ""
 "Este robot avanza esquivando los obstáculos que se encuentra delante de "
 "el mientras avanza."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:14
+#: ../../source/cucabot-pegatortas.rst:16
 msgid ""
 "El robot avanza normalmente en linea recta hacia adelante mientras no "
 "encuentre ningún obstáculo. Cuando la antena derecha encuentra un "
@@ -38,17 +38,17 @@ msgid ""
 "la derecha para esquivarlo."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:20
+#: ../../source/cucabot-pegatortas.rst:22
 msgid ""
 "Los giros del robot se realizan gracias a que un motor avanza mientras "
 "que el otro motor retrocede por lo que el robot gira sobre su propio eje."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:24
+#: ../../source/cucabot-pegatortas.rst:26
 msgid "Montaje mecánico"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:25
+#: ../../source/cucabot-pegatortas.rst:27
 msgid ""
 "El montaje se basa en la plataforma universal para robots Cucabot a la "
 "que añadiremos dos antenas de detección de obstáculos que servirán de "
@@ -56,14 +56,14 @@ msgid ""
 "tanto el giro del robot para esquivar el obstáculo."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:30
+#: ../../source/cucabot-pegatortas.rst:32
 msgid ""
 "Primero cortaremos dos trozos de alambre de 25 centímetros de largo cada "
 "uno de una bobina de alambre de acero galvanizado del número 8, con 1,3 "
 "milímetros de grosor."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:34
+#: ../../source/cucabot-pegatortas.rst:36
 msgid ""
 "A continuación doblaremos los alambres de acero con las dimensiones que "
 "aparecen en el plano mecánico. los alambres se deben doblar sobre si "
@@ -71,7 +71,7 @@ msgid ""
 "evitar que las antenas se caigan hacia el suelo."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:40
+#: ../../source/cucabot-pegatortas.rst:42
 msgid ""
 "La forma más efectiva de unir los alambres de la antena a los sensores S2"
 " y S3 es con tubo de plástico termoretractil. En caso de no disponer de "
@@ -79,40 +79,40 @@ msgid ""
 "más difícil conseguir que la antena quede bien sujeta."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:46
+#: ../../source/cucabot-pegatortas.rst:48
 msgid ""
 "Otra opción más compleja es construir una pequeña pieza de sujeción con "
 "una impresora 3D."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:49
+#: ../../source/cucabot-pegatortas.rst:51
 msgid ""
 "Para terminar escribiremos en dos trozos de papel las referencias de los "
 "nuevos componentes (S2 y S3) y los pegaremos junto al componente "
 "correspondiente."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:53
+#: ../../source/cucabot-pegatortas.rst:55
 msgid ""
 "A continuación se muestran los planos mecánicos del robot Cucabot "
 "pegatortas, que también se pueden descargar en formato PDF para imprimir:"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:61
+#: ../../source/cucabot-pegatortas.rst:63
 msgid "Vista en planta del robot Cucabot pegatortas."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:63
+#: ../../source/cucabot-pegatortas.rst:65
 msgid ""
 ":download:`Plano mecánico del robot Cucabot pegatortas. Formato PDF. "
 "<cucabot/cucabot-pegatortas-vistas.pdf>`"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:68
+#: ../../source/cucabot-pegatortas.rst:70
 msgid "Montaje eléctrico"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:69
+#: ../../source/cucabot-pegatortas.rst:71
 msgid ""
 "El montaje eléctrico es el mismo que el de la plataforma Cucabot, "
 "añadiendo dos finales de carrera S2 y S3 que serán los que decidan la "
@@ -120,66 +120,66 @@ msgid ""
 "posición de cada antena."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:74
+#: ../../source/cucabot-pegatortas.rst:76
 msgid ""
 "Los finales de carrera S2 y S3 deben colocarse y cablearse con cuidado "
 "para no intercambiarlos. El final de carrera de la derecha mueve el motor"
 " izquierdo y el final de carrera de la izquierda moverá el motor derecho."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:78
+#: ../../source/cucabot-pegatortas.rst:80
 msgid ""
 "Cuando un obstáculo choque contra la antena izquierda, el motor derecho "
 "comenzará a girar hacia atrás, girando todo el robot hacia la derecha y "
 "esquivando por lo tanto el obstáculo."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:82
+#: ../../source/cucabot-pegatortas.rst:84
 msgid ""
 "Por el contrario, cuando un obstáculo choque contra la antena derecha, el"
 " motor izquierdo comenzará a girar hacia atrás, girando todo el robot "
 "hacia la izquierda y esquivando por lo tanto este nuevo obstáculo."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:92
+#: ../../source/cucabot-pegatortas.rst:94
 msgid "Esquema eléctrico del robot Cucabot pegatortas."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:99
+#: ../../source/cucabot-pegatortas.rst:101
 msgid "Cableado eléctrico del robot Cucabot pegatortas."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:101
+#: ../../source/cucabot-pegatortas.rst:103
 msgid ""
 ":download:`Plano eléctrico del robot Cucabot pegatortas. Formato PDF. "
 "<cucabot/cucabot-pegatortas-electric.pdf>`"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:106
+#: ../../source/cucabot-pegatortas.rst:108
 msgid "Funcionamiento"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:107
+#: ../../source/cucabot-pegatortas.rst:109
 msgid ""
 "Para comenzar colocaremos el robot en el suelo y accionaremos el "
 "interruptor de marcha S1 para que el robot comience a avanzar hacia "
 "adelante."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:111
+#: ../../source/cucabot-pegatortas.rst:113
 msgid ""
 "El robot continuará avanzando en línea recta hacia adelante hasta que "
 "encuentre un obstáculo."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:114
+#: ../../source/cucabot-pegatortas.rst:116
 msgid ""
 "Cuando el robot encuentre un obstáculo en su avance, al chocar contra el "
 "obstáculo una de sus antenas accionará el final de carrera "
 "correspondiente."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:118
+#: ../../source/cucabot-pegatortas.rst:120
 msgid ""
 "Si se acciona la antena izquierda (final de carrera S2), entonces el "
 "motor derecho (M1) comenzará a girar hacia atrás. Esto provocará que el "
@@ -187,30 +187,30 @@ msgid ""
 "izquierda."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:123
+#: ../../source/cucabot-pegatortas.rst:125
 msgid ""
 "Si se acciona la antena derecha (final de carrera S3), entonces el motor "
 "izquierdo (M2) comenzará a girar hacia atrás. Esto provocará que el robot"
 " gire hacia la izquierda, esquivando el obstáculo que había a su derecha."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:133
+#: ../../source/cucabot-pegatortas.rst:135
 msgid "Robot Cucabot pegatortas avanzando sin obstáculos."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:140
+#: ../../source/cucabot-pegatortas.rst:142
 msgid "Robot Cucabot pegatortas esquivando un obstáculo a su izquierda."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:147
+#: ../../source/cucabot-pegatortas.rst:149
 msgid "Robot Cucabot pegatortas esquivando un obstáculo a su derecha."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:151
+#: ../../source/cucabot-pegatortas.rst:153
 msgid "Memoria de trabajo"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:152
+#: ../../source/cucabot-pegatortas.rst:154
 msgid ""
 "El siguiente documento servirá para que cada uno de los alumnos y alumnas"
 " del grupo de trabajo de taller dibuje y escriba de forma individual los "
@@ -218,26 +218,26 @@ msgid ""
 "realizados en el proyecto."
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:157
+#: ../../source/cucabot-pegatortas.rst:159
 msgid ""
 ":download:`Memoria de trabajo del alumno. Formato PDF. <cucabot/cucabot-"
 "memoria.pdf>`"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:160
-msgid ""
-":download:`Memoria de trabajo del alumno. Formato editable ODT. <cucabot"
-"/cucabot-memoria.odt>`"
-msgstr ""
-
-#: ../../source/cucabot-pegatortas.rst:165
+#: ../../source/cucabot-pegatortas.rst:164
 msgid "Créditos"
 msgstr ""
 
-#: ../../source/cucabot-pegatortas.rst:166
+#: ../../source/cucabot-pegatortas.rst:165
 msgid ""
 "Instrucciones de la página original de `Cucabot en archive.org "
 "<https://web.archive.org/web/20100331204146/http://roble.pntic.mec.es/~jsaa0039/cucabot"
 "/pegatortas-intro.html>`__"
 msgstr ""
+
+#~ msgid ""
+#~ ":download:`Memoria de trabajo del alumno. "
+#~ "Formato editable ODT. <cucabot/cucabot-"
+#~ "memoria.odt>`"
+#~ msgstr ""
 
