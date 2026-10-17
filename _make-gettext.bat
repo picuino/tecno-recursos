@@ -10,8 +10,7 @@ call activate.bat
 sphinx-build -b gettext source _build/gettext
 
 cd source
-sphinx-intl update -p ../_build/gettext -l en
-rem sphinx-intl update -p ../_build/gettext -l ca
+python.exe -m sphinx_intl update -p ../_build/gettext -l en
 cd ..
 
 cp -f locale/en/sphinx.po  locale/en/LC_MESSAGES/sphinx.po

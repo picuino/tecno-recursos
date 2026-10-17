@@ -245,7 +245,5 @@ Unidad imprimible
 -----------------
 Unidad en formato imprimible, con preguntas.
 
-| :download:`Las estructuras. Formato PDF.
-  <mecan/mecan-estructuras.pdf>`
-| :download:`Las estructuras. Formato DOC.
-  <mecan/mecan-estructuras.doc>`
+:download:`Las estructuras. Formato PDF.
+<mecan/mecan-estructuras.pdf>`
