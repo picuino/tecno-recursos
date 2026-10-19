@@ -192,7 +192,7 @@ publicarla o usarla libremente sin pedir permiso.
 
 
 El autor también puede decidir regalar su obra al dominio público
-**en cualquier momento**, para que todos puedan usarla libremente sin
+al crearla, para que todos puedan usarla libremente sin
 pedir permiso.
 
 
@@ -229,14 +229,11 @@ Ejercicios
 
 Recursos
 --------
-Documento en formato DIN A4 con la unidad y los ejercicios:
+Documento en formato imprimible con la unidad y los ejercicios:
 
-  :download:`El derecho de autor.
-  Formato PDF. <recursos/copyright/copyright.pdf>`
+:download:`El derecho de autor. Formato PDF.
+<recursos/copyright/copyright.pdf>`
   
-  :download:`El derecho de autor.
-  Formato DOC. <recursos/copyright/copyright.doc>`
-
 Enlaces para ampliar conocimientos:
 
 * `Guía práctica de licencias de uso para docentes
