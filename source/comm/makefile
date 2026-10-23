@@ -11,7 +11,7 @@ OPTIPNG=optipng -quiet -o 6
 # --------------------------------------------------------------------
 # CURSO DE REDES TELEMÁTICAS
 #
-../comm-curso-redes.rst: comm-curso-redes.yml comm-curso-redes-rst.py
+../comm-curso-redes.rst: comm-curso-redes.yaml comm-curso-redes-rst.py
 	python3 -m comm-curso-redes-rst
 
 

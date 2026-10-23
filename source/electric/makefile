@@ -15,6 +15,7 @@ all:
 	make all --no-print-directory -C componentes-motor
 	make all --no-print-directory -C componentes-rele
 	make all --no-print-directory -C electric-circuit
+	make all --no-print-directory -C electric-energy
 	make all --no-print-directory -C sistema-electrico-espanol
 
 clean:
@@ -31,4 +32,5 @@ clean:
 	make clean --no-print-directory -C componentes-motor
 	make clean --no-print-directory -C componentes-rele
 	make clean --no-print-directory -C electric-circuit
+	make clean --no-print-directory -C electric-energy
 	make clean --no-print-directory -C sistema-electrico-espanol

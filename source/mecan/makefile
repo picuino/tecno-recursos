@@ -167,9 +167,11 @@ all: \
 	$(IMAGES)/mecan-poleas-12br.png \
 	$(THUMBFILES) \
 	$(OBJECTS)
-
+	make all --no-print-directory -C calibre-nonio
+	make all --no-print-directory -C calibre-moviendo
 
 clean:
 	rm -f $(THUMBFILES)
 	rm -f $(OBJECTS)
-
+	make clean --no-print-directory -C calibre-nonio
+	make clean --no-print-directory -C calibre-moviendo

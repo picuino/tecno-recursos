@@ -523,13 +523,11 @@ Automóvil eléctrico
 
 Unidad con preguntas
 --------------------
-Unidad didáctica en formato imprimible, con preguntas simples de
-comprensión lectora.
+Unidad didáctica en formato imprimible, con preguntas de
+comprensión lectora y ejercicios.
 
-| :download:`Energía. Formato PDF.
-  <electric/electric-energy/electric-energia.pdf>`
-| :download:`Energía. Formato editable DOC.
-  <electric/electric-energy/electric-energia.doc>`
+:download:`Energía. Formato PDF.
+<electric/electric-energy/electric-energia.pdf>`
 
 
 Cuestionarios
