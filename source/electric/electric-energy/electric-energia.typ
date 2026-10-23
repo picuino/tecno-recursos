@@ -81,10 +81,10 @@
 
 #columns(2, gutter: 0.8cm)[
 
-La *energía* es muy importante en nuestra sociedad porque nos permite 
-satisfacer necesidades básicas diarias, como disponer de luz, cocinar 
-nuestros alimentos, calentar nuestras casas y transportarnos a diferentes 
-lugares.
+La *energía* es un recurso muy importante en nuestra sociedad porque nos
+permite satisfacer necesidades básicas diarias, como disponer de luz,
+cocinar nuestros alimentos, calentar nuestras casas y transportarnos a
+diferentes lugares.
 
 El uso excesivo de las *energías fósiles* (petróleo, gas natural y
 carbón) está generando una crisis climática que nos obliga a cambiar
@@ -486,7 +486,7 @@ transportar, fácil de controlar y de convertir en otras formas de energía
 de manera eficiente.
 
 #figure(
-  image("electric-arco.jpg", height: 80mm),
+  image("electric-arco.jpg", width: 80mm),
   
   caption: [
     Arco eléctrico de 3000 voltios. \
@@ -494,10 +494,6 @@ de manera eficiente.
     #link("https://creativecommons.org/licenses/by-sa/3.0/deed.en")[CC BY-SA 3.0], vía Wikimedia Commons.
   ]
 )
-
-Arco eléctrico de 3000 voltios.
-
-Achim Grochowski, CC BY-SA 3.0 Unported, via Wikimedia Commons.
 
 == Ventajas de la energía eléctrica
 - Puede obtenerse con facilidad a partir de otras formas de energía 
@@ -560,33 +556,30 @@ los días del año.
 Los electrodomésticos de mayor potencia suelen ser los que generan 
 grandes cantidades de calor.
 
-#colbreak()
-
 En este grupo se encuentran el horno eléctrico, la vitrocerámica, el
 secador de pelo, el calefactor de aire, etc. La potencia de estos
 electrodomésticos oscila entre 1000 y 3000 vatios, por lo que gastan
 mucha energía eléctrica aunque estén poco tiempo encendidos.
 ]
 
+// ***********************************************************************
+// PÁGINA 6
+//
+
 #place(
   top + left,
   dx: 50%,
   dy: 0mm,
-  block(width: 0pt, height: 0pt, line(angle: 90deg, length: 31mm))
+  block(width: 0pt, height: 0pt, line(angle: 90deg, length: 20mm))
 )
 
-
-
-// ***********************************************************************
-// PÁGINA 6
-//
 
 #align(center)[
   #v(8mm)
   #text(size: 16pt, weight: "bold")[EJERCICIOS DE ENERGÍA]
 ]
 
-#place(center)[ #line(angle: 90deg, length: 210mm) ]
+#place(center)[ #line(angle: 90deg, length: 223mm) ]
 
 #columns(2, gutter: 0.8cm)[
 = La Energía

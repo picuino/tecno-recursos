@@ -9,8 +9,8 @@
 
 :index:`Energía`
 ================
-La energía es muy importante en nuestra sociedad porque nos permite
-satisfacer necesidades básicas diarias, como disponer
+La energía es un recurso muy importante en nuestra sociedad porque nos
+permite satisfacer necesidades básicas diarias, como disponer
 de luz, cocinar nuestros alimentos, calentar nuestras casas y
 transportarnos a diferentes lugares.
 
