@@ -27,6 +27,6 @@ Control de Sistemas Automáticos y Robótica.
    
    robotica-microbit-index.rst
 
-   robotica-normativa.rst
+   robotica-tipos-robots.rst
    robotica-recursos.rst
    robotica-robots-actuales.rst

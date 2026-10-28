@@ -1,8 +1,8 @@
-{%- macro index_main_link(title, link, image) -%}
+{%- macro index_main_link(title, link, image, alt='') -%}
   <!-- {{ title }} -->
   <li>
   <a href="{{ link }}">
-    <img src="{{ image }}" title="{{ title }}" alt="{{ title }}">
+    <img src="{{ image }}" title="{{ title }}" alt="{{ alt if alt else title}}">
     <h2>{{ title }}</h2>
   </a>
   </li>
@@ -14,10 +14,41 @@
 
 <head>
 
-  <title>{% trans %}Página principal - Picuino{% endtrans %}</title>
+  <title>{% trans %}Recursos para Tecnología en Secundaria | Picuino{% endtrans %}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% trans %}Recursos de Tecnología para el aula, libres para usar y compartir. Dibujo, mecánica, electricidad, electrónica, programación, informática, Arduino y más.{% endtrans %}">
+  <meta name="description" content="{% trans %}Encuentra recursos de Tecnología para el aula, libres para usar y compartir. Dibujo, mecánica, electricidad, electrónica, programación, informática, Arduino y más.{% endtrans %}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Picuino",
+    "author": {
+      "@type": "Person",
+      "name": "Carlos Félix Pardo Martín",
+      "url": "https://www.picuino.com/es/author.html",
+      "sameAs": [
+        "https://x.com/picuino",
+        "https://github.com/picuino"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Picuino",
+      "url": "https://www.picuino.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.picuino.com/favicon-192.png"
+      }
+    },
+    "mainEntityOfPage": "https://www.picuino.com/es/index.html",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": "2013-09-20T12:00:00+01:00",
+    "dateModified": "2026-10-26T12:00:00+01:00"
+  }
+  </script>
+
   <link rel="stylesheet" href="_static/index.css" type="text/css">
 
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -86,23 +117,54 @@
 
   <h1>{% trans %}Recursos de Tecnología para el aula, libres para usar y compartir{% endtrans %}</h1>
 
+
+  {%- if language == 'es' %}
+  <p>
+    Bienvenido a Picuino, una plataforma educativa abierta con 
+    <strong>recursos de Tecnología para Secundaria (ESO), Bachillerato y
+    Formación Profesional</strong>.
+    Aquí encontrarás materiales didácticos, ejercicios, proyectos de
+    taller, simuladores y tutoriales de dibujo, electricidad, electrónica,
+    programación y robótica.
+    Recursos pensados para profesores y estudiantes, que facilitan el
+    aprendizaje práctico y permiten enseñar, experimentar y aprender en el
+    aula. Consulta, descarga y comparte los materiales según las
+    condiciones de la licencia libre <a href= "https://creativecommons.org/licenses/by-sa/4.0/deed.es"> Creative Commons BY-SA 4.0</a>.
+  </p>
+  {%- endif %}
+
   <ul class="index-list">
   {%- if language == 'es' %}
-  {{ index_main_link('DIBUJO',         'dibujo-index.html',      '_static/index-dibujo.webp') }}
-  {{ index_main_link('MECÁNICA',       'mecan-index.html',       '_static/index-crane.webp') }}
-  {{ index_main_link('MATERIALES',     'material-index.html',    '_static/index-ladrillos.webp') }}
-  {{ index_main_link('ELECTRICIDAD',   'electric-index.html',    '_static/index-circuito.webp') }}
-  {{ index_main_link('ELECTRÓNICA',    'electronic-index.html',  '_static/index-electronica.webp') }}
-  {{ index_main_link('INFORMÁTICA',    'informatica-index.html', '_static/index-ordenador.webp') }}
-  {{ index_main_link('PROGRAMACIÓN',   'prog-index.html',        '_static/index-programa.webp') }}
-  {{ index_main_link('ARDUINO',        'arduprog/index.html',    '_static/index-arduino.webp') }}
-  {{ index_main_link('ROBÓTICA',       'robotica-index.html',    '_static/index-robot.webp') }}
-  {{ index_main_link('COMUNICACIONES', 'comm-index.html',        '_static/index-antena.webp') }}
-  {{ index_main_link('TALLER',         'taller-index.html',      '_static/index-herramientas.webp') }}
-  {{ index_main_link('VARIOS',         'recursos-index.html',    '_static/index-junk.webp') }}
-  {{ index_main_link('LEGISLACIÓN',    'ley-index.html',         '_static/index-balanza.webp') }}
-  {{ index_main_link('CUESTIONARIOS',  '../test/',               '_static/index-test.webp') }}
-  {{ index_main_link('SIMULADORES',    '../simulators/',         '_static/index-simulador.webp') }}
+  {{ index_main_link('DIBUJO',         'dibujo-index.html',      '_static/index-dibujo.webp',
+     'Recursos de dibujo para Tecnología en Secundaria. Teoría y ejercicios de vistas, perspectivas, escalas y acotación.') }}
+  {{ index_main_link('MECÁNICA',       'mecan-index.html',       '_static/index-crane.webp',
+     'Recursos de mecánica para Tecnología en Secundaria. Teoría y ejercicios de estructuras, mecanismos y diseño en 3D.') }}
+  {{ index_main_link('MATERIALES',     'material-index.html',    '_static/index-ladrillos.webp',
+     'Recursos de materiales para Tecnología en Secundaria. Teoría y ejercicios de materiales pétreos, madera, textiles, metálicos y plásticos.') }}
+  {{ index_main_link('ELECTRICIDAD',   'electric-index.html',    '_static/index-circuito.webp',
+     'Recursos de electricidad para Tecnología en Secundaria. Teoría y ejercicios de el circuito eléctrico, serie y paralelo, ley de ohm, resolución de circuitos, energía, potencia eléctrica, cableado y componentes eléctricos.') }}
+  {{ index_main_link('ELECTRÓNICA',    'electronic-index.html',  '_static/index-electronica.webp',
+     'Recursos de electrónica para Tecnología en Secundaria. Teoría y ejercicios de electrónica analógica, electrónica digital, componentes electrónicos y cableado de circuitos.') }}
+  {{ index_main_link('INFORMÁTICA',    'informatica-index.html', '_static/index-ordenador.webp',
+     'Recursos de informática para Tecnología en Secundaria. Teoría y ejercicios de hardware, software, tutoriales de ofimática, Gimp, Inkscape, HTML, CSS y ciberseguridad.') }}
+  {{ index_main_link('PROGRAMACIÓN',   'prog-index.html',        '_static/index-programa.webp',
+    'Recursos de programación para Tecnología en Secundaria. Teoría y ejercicios de Scratch 3 y Python.') }}
+  {{ index_main_link('ARDUINO',        'arduprog/index.html',    '_static/index-arduino.webp',
+    'Recursos de Arduino para Tecnología en Secundaria. Teoría y prácticas con Arduino en protoboard.') }}
+  {{ index_main_link('ROBÓTICA',       'robotica-index.html',    '_static/index-robot.webp',
+    'Recursos de robótica para Tecnología en Secundaria. Teoría y ejercicios de sistemas de control, actuadores, sensores y tipos de robots.') }}
+  {{ index_main_link('COMUNICACIONES', 'comm-index.html',        '_static/index-antena.webp',
+     'Recursos de comunicaciones para Tecnología en Secundaria. Teoría y ejercicios de redes de datos y comunicaciones a distancia.') }}
+  {{ index_main_link('TALLER',         'taller-index.html',      '_static/index-herramientas.webp',
+     'Recursos de taller para Tecnología en Secundaria. Prácticas de taller con robots cucabot, modelos de papel en 3D, tangram, teselas, etc.') }}
+  {{ index_main_link('VARIOS',         'recursos-index.html',    '_static/index-junk.webp',
+     'Recursos varios para Tecnología en Secundaria.') }}
+  {{ index_main_link('LEGISLACIÓN',    'ley-index.html',         '_static/index-balanza.webp',
+     'Recursos de legislación LOMLOE para Tecnología en Secundaria.') }}
+  {{ index_main_link('CUESTIONARIOS',  '../test/',               '_static/index-test.webp',
+     'Cuestionarios y Test para Tecnología en Secundaria. Más de 120 test sobre materiales, mecánica, neumática, electricidad, electrónica, control automático, hardware, software, ciberseguridad, etc.') }}
+  {{ index_main_link('SIMULADORES',    '../simulators/',         '_static/index-simulador.webp',
+     'Simuladores para Tecnología en Secundaria. Circuitos eléctricos, neumática, sistemas de control, etc.') }}
   {%- endif %}
 
   {%- if language == 'ca' %}
