@@ -1,6 +1,5 @@
 import os
 import jinja2
-import codecs
 
 def jinja_template(template_file):
     templateLoader = jinja2.FileSystemLoader(searchpath='.')
@@ -20,7 +19,7 @@ def main():
 
 def write(fname, data):
     print(fname)
-    with codecs.open(fname, 'w', encoding='utf-8') as fo:
+    with open(fname, 'w', encoding='utf-8') as fo:
         fo.write(data)
     
     

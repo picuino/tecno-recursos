@@ -1,4 +1,4 @@
-CONVERT=magick.exe convert
+CONVERT=magick convert
 OPTIPNG=optipng -quiet -o 6
 
 SOURCES := $(wildcard *.typ)

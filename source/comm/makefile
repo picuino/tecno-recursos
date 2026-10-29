@@ -4,7 +4,7 @@ THUMBS=_thumbs
 IMAGEFILES= $(wildcard $(IMAGES)/*.png) $(wildcard $(IMAGES)/*.jpg)
 THUMBFILES= $(foreach f, $(IMAGEFILES), $(THUMBS)/$(notdir $(f)))
 
-CONVERT=magick.exe convert
+CONVERT=magick convert
 OPTIPNG=optipng -quiet -o 6
 
 

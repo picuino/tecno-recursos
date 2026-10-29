@@ -6,7 +6,7 @@
 
 PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -r 300 -aa yes -aaVector yes -freetype yes
 OPTIPNG=optipng -quiet -o 6
-CONVERT=magick.exe convert
+CONVERT=magick convert
 MOGRIFY=mogrify
 
 # --------------------------------------------------------------------

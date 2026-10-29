@@ -6,7 +6,7 @@
 
 PDFTOPNG=pdftopng -gray -aa yes -aaVector yes -freetype yes
 OPTIPNG=optipng -quiet -o 6
-CONVERT=magick.exe convert
+CONVERT=magick convert
 CONVERT_OPT=
 MOGRIFY=mogrify
 

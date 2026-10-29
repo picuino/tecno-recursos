@@ -1,8 +1,8 @@
-SVG_FILES= $(wildcard *.svg)
+SVG_FILES= $(filter-out mecan-calibre-template.svg, $(wildcard *.svg))
 PNG_FILES= $(foreach f, $(SVG_FILES), $(basename $(f)).png)
 
-INKSCAPE=inkscape.com
-CONVERT=magick.exe convert
+INKSCAPE=inkscape
+CONVERT=magick convert
 OPTIPNG=optipng -quiet -o 6
 
 # --------------------------------------------------------------------
@@ -11,6 +11,7 @@ OPTIPNG=optipng -quiet -o 6
 %.png: %.svg
 	$(INKSCAPE) $<  --export-dpi=300 --export-area-page --export-filename=$@
 	$(CONVERT) $@ -crop 1200x550+300+200 +repage -set colorspace Gray $(basename $@)n.png
+	rm -f $(basename $@).png $(basename $@).svg
 
 
 # --------------------------------------------------------------------

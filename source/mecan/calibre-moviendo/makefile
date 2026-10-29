@@ -1,8 +1,8 @@
-SVG_FILES= $(wildcard *.svg)
+SVG_FILES= $(filter-out mecan-calibre-template.svg, $(wildcard *.svg))
 PNG_FILES= $(foreach f, $(SVG_FILES), $(basename $(f)).png)
 
-INKSCAPE=inkscape.com
-CONVERT=magick.exe convert
+INKSCAPE=inkscape
+CONVERT=magick convert
 OPTIPNG=optipng -quiet -o 6
 
 # --------------------------------------------------------------------
