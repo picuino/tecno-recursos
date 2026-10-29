@@ -38,7 +38,7 @@ sus terminales.], 0.8)
 #v(32mm)
 
 
-#pregunta([Qué función realiza un diodo? ¿Cuándo conduce corriente?], 0.8)
+#pregunta([¿Qué función realiza un diodo? ¿Cuándo conduce corriente?], 0.8)
 #v(48mm)
 
 
