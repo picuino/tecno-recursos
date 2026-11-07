@@ -8,8 +8,8 @@
 .. _estructuras-bridge-designer:
 
 
-Diseño de puentes
-=================
+Programa Bridge Designer
+========================
 
 .. image:: mecan/_images/mecan-bridge-designer-01tb.jpg
    :align: center
@@ -37,13 +37,10 @@ Enlaces
 -------
 * `The Bridge Designer. Página principal.
   <http://bridgedesigner.org/>`__
-* `The Bridge Designer. Download
-  <http://bridgedesigner.org/download/>`__
-* `Instalador para Windows desde la página de Source Forge.
-  <https://sourceforge.net/projects/wpbdc/files/Current%20Release/jre/setupbdv16j.exe/download>`__
-* `Instalador Bridge Designer 1.6
+* `Instalador Bridge Designer 1.6 instalador para Windows
   <../_static/downloads/bridge-designer-setup-v16j.exe>`__
-
+* `Bridge Designer aplicación web 
+  <https://app.asce.org/bridge-designer/app/>`__
 
 Tutorial
 --------
