@@ -10,7 +10,7 @@ SOURCES=_sources
 LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
 
 JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
-PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+PDFTOPNG=pdftopng -gray -r 600 -aa yes -aaVector yes -freetype yes
 OPTIPNG=optipng -quiet -o 6
 CONVERT=magick convert
 CONVERT_OPT=-fill white -draw "rectangle 0,0 200,160" -transparent White 
@@ -21,8 +21,7 @@ ZIP=7z a
 define crop_image
 	$(eval geometry = $(shell python3 -c "import sys; (x,y)=eval(sys.argv[1]); \
 	print('%dx%d+%d+%d'%(1350-140, 2227-1510, x*(1575)+140, y*(900)+1510))" $(2)))
-	$(CONVERT) $(1) -crop $(geometry) +repage \
-		$(CONVERT_OPT) $(IMGDIR)/$(strip $(3))
+	$(CONVERT) $(1) -crop $(geometry) +repage $(CONVERT_OPT) $(IMGDIR)/$(strip $(3))
 	$(OPTIPNG) $(IMGDIR)/$(strip $(3))
 endef
 
@@ -31,11 +30,11 @@ endef
 #
 LEY-OHM-INICIO-IMAGES1=$(foreach n, \
 	01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 , \
-	$(IMGDIR)\electric-ley-ohm-$(n).png)
+	$(IMGDIR)/electric-ley-ohm-$(n).png)
 
 LEY-OHM-INICIO-IMAGES2=$(foreach n, \
 	21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 , \
-	$(IMGDIR)\electric-ley-ohm-$(n).png)
+	$(IMGDIR)/electric-ley-ohm-$(n).png)
 
 $(IMGDIR)/electric-ley-ohm-inicio-p1.png \
 $(IMGDIR)/electric-ley-ohm-inicio-p2.png: electric-ley-ohm-inicio.pdf

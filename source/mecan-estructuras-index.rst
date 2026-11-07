@@ -26,4 +26,4 @@ Estructuras resistentes.
    estructuras-intro.rst
    estructuras-esfuerzos.rst
    estructuras-estabilidad.rst
-   estructuras-bridge-designer.rst
+

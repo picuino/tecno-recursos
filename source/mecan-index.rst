@@ -25,6 +25,8 @@ movimientos, neumática e hidráulica.
    :titlesonly:
 
    mecan-estructuras-index.rst
+   
+   estructuras-bridge-index.rst
 
    mecan-maquinas-index.rst
 

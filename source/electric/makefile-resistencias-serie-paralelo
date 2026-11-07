@@ -10,7 +10,7 @@ SOURCES=_sources
 LIBS=$(wildcard _symbol_lib/*) $(wildcard Licen*)
 
 JOINPDF=gswin32.exe -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite
-PDFTOPNG=pdftopng -cfg /Bin/xpdf/.xpdfrc -gray -r 600 -aa yes -aaVector yes -freetype yes
+PDFTOPNG=pdftopng -gray -r 600 -aa yes -aaVector yes -freetype yes
 OPTIPNG=optipng -quiet -o 6
 CONVERT=magick convert
 CONVERT_OPT=-transparent White
@@ -23,7 +23,7 @@ ZIP=7z a
 #
 define crop_circuit
 	$(eval geometry = $(shell python3 -c "import sys; (x,y)=eval(sys.argv[1]); \
-   print('%dx%d+%d+%d'%(1689-126, 1680-606, 126+1575*(x-1), 606+(1866-606)*(y-1)))" $(2)))
+	print('%dx%d+%d+%d'%(1689-126, 1680-606, 126+1575*(x-1), 606+(1866-606)*(y-1)))" $(2)))
 	$(CONVERT) $(1) -crop $(geometry) +repage \
 	  -fill white -draw "rectangle 0,0 200,160" -draw "rectangle 0,940,500,1080" -transparent White \
 	  $(IMGDIR)/$(strip $(3))
@@ -42,11 +42,11 @@ $(IMGDIR)/electric-resistencias-serie-paralelo-p2.png: electric-resistencias-ser
 
 SERIE-PARALELO-IMAGES1=$(foreach n, \
 	c01 c02 c03 c04 c05 c06 c07 c08 c09 c10 c11 c12 c13 c14 c15 , \
-	$(IMGDIR)\electric-resistencias-serie-paralelo-$(n).png)
+	$(IMGDIR)/electric-resistencias-serie-paralelo-$(n).png)
 
 SERIE-PARALELO-IMAGES2=$(foreach n, \
 	c16 c17 c18 c19 c20 c21 c22 c23 c24 c25 c26 c27 c28 c29 c30 , \
-	$(IMGDIR)\electric-resistencias-serie-paralelo-$(n).png)
+	$(IMGDIR)/electric-resistencias-serie-paralelo-$(n).png)
 
 $(SERIE-PARALELO-IMAGES1): $(IMGDIR)/electric-resistencias-serie-paralelo-p1.png
 	$(call crop_circuit, $<, "(1, 1)", electric-resistencias-serie-paralelo-c01.png)
