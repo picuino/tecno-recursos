@@ -35,11 +35,11 @@ Se proporciona y está destinado únicamente para uso educativo.
 
 Enlaces
 -------
-* `The Bridge Designer. Página principal.
+* `The Bridge Designer, página principal.
   <http://bridgedesigner.org/>`__
-* `Instalador Bridge Designer 1.6 instalador para Windows
+* `Instalador Bridge Designer 1.6 para Windows
   <../_static/downloads/bridge-designer-setup-v16j.exe>`__
-* `Bridge Designer aplicación web 
+* `Bridge Designer, aplicación web 
   <https://app.asce.org/bridge-designer/app/>`__
 
 Tutorial
